@@ -87,7 +87,7 @@
                                                 <HeaderStyle Height="10px" BackColor="#EAF1F7" />
                                                 <Columns>
                                                     <asp:HyperLinkField DataNavigateUrlFields="JobsID,stateid,cityid,areaoftalent,jfamily,keywords" DataNavigateUrlFormatString="JobDetails.aspx?SearchPage=Sp&amp;JobId={0}&amp;stateid={1}&amp;cityid={2}&amp;areasoftalent={3}&amp;jfamily={4}&amp;keywords={5}"
-                                                        DataTextField="JobName" HeaderText="Job Title" >
+                                                        DataTextField="JobName" HeaderText="Job Title" ControlStyle-CssClass="nv">
                                                         <HeaderStyle HorizontalAlign="Left" />
                                                     </asp:HyperLinkField>
                                                     <asp:BoundField DataField="Location" HeaderText="Location" >
