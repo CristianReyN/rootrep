@@ -1,7 +1,7 @@
 		<img src="../images/clear.gif" width="100%" height="<%=(top_content_padding_bottom-3)%>" alt="" border="0"><br />
 		<table width="578" cellpadding="0" cellspacing="0" border="0" summary="">
 			<tr valign="top">
-				<td width="393" height="100%" valign="top" style="padding: 0px <%=right_margin%>px 0px <%=left_margin_0%>px;">
+				<td width="393" height="100%" valign="top" style="<%=middle_content_padding%>">
 <a name="skipmaincontent"></a><h1 class="bac">Information for Parents</h1>
 <p class="bac">
 As parents, you never stop trying to create opportunities for your children to succeed and prosper, to find their place in the world and to make a lasting impression on the people around them.
@@ -17,10 +17,10 @@ A career with Bank of America can provide:
 </p>
 
 <ul class="bac">
-	<li>Built-in networks of success, with associates who share their ideas and common interests, through our diverse range of community groups</li>
-	<li>Strong compensation for their skills and talents, and support for their life outside of work, through our outstanding benefits program</li>
-	<li>Professional and personal development paths through our commitment to training and career advancement</li>
-	<li>A sense of involvement in and support for the communities we serve through Team Bank of America and our overarching commitment to philanthropy</li>
+	<li>Built-in networks of success, with associates who share their ideas and common interests, through our diverse range of <a href="<% If page_section <> "ADA" Then  %>../learnmore/<% Else  %>../ada/<% End If %>diversity.asp" class="bac" title="Community Groups">community groups</a></li>
+	<li>Strong compensation for their skills and talents, and support for their life outside of work, through our outstanding <a href="<% If page_section <> "ADA" Then  %>../learnmore/<% Else  %>../ada/<% End If %>benefitsadv.asp" class="bac" title="Benefits Program">benefits program</a></li>
+	<li>Professional and personal development paths through our commitment to <a href="<% If page_section <> "ADA" Then  %>../staffingevents/<% Else  %>../ada/<% End If %>staffingprocess.asp" class="bac" title="Training and Career Advancement">training and career advancement</a></li>
+	<li>A sense of involvement in and support for the communities we serve through Team Bank of America and our overarching <a href="http://www.bankofamerica.com/foundation/" target="_blank" class="bac" title="Commitment to Philanthropy">commitment to philanthropy</a></li>
 </ul>
 				</td>
 				<td width="185" height="100%" style="padding-top: 7px;" valign="top">

@@ -6,8 +6,8 @@ If Request("t") <> "" Then tab = Request("t")
 		<img src="../images/clear.gif" width="100%" height="<%=(top_content_padding_bottom-3)%>" alt="" border="0"><br />
 		<table width="578" cellpadding="0" cellspacing="0" border="0" summary="">
 			<tr valign="top">
-				<td width="393" height="100%" valign="top" style="padding: 0px <%=right_margin%>px 0px <%=left_margin_0%>px;">
-<a name="skipmaincontent"></a><h1 class="bac" style="margin-bottom: 24px;">Campus Frequently Asked Questions</h1>
+				<td width="393" height="100%" valign="top" style="<%=middle_content_padding%>">
+<a name="skipmaincontent"></a><h1 class="bac" style="margin-bottom: 12px;">Campus Frequently Asked Questions</h1>
 <script language="JavaScript1.2" src="../includes/tab.js" type="text/javascript"></script>
 <script language="JavaScript" type="text/javascript">
 var tabs = new Array(), pageId = "<%=pageId%>", categoryId = "<%=categoryId%>";
@@ -39,16 +39,16 @@ tabs[<%=tab%>-1].coremetrics = true;
 		<table width="100%" cellpadding="0" cellspacing="0" border="0" summary="">
 			<tr>
 				<td background="../images/camp/tl.gif" valign="top">
-					<img src="../images/camp/tl.gif" width="6" height="1330" border="0" alt="" /></td>
+					<img src="../images/camp/tl.gif" width="6" height="10" border="0" alt="" /></td>
 				<td width="100%" valign="top">
 <div id="dt1" style="display: <% If tab = 1 Then %>inline<% Else %>none<% End If %>;">
-	<div style="padding: 0px 12px;">
+	<div class="innerTab">
 
-<h2 class="bacs">How do I apply?</h2>
+<h2 class="bac">How do I apply?</h2>
 <p class="bac">Please visit <a href="http://www.bankofamerica.com/campusrecruiting" target="_blank" class="bac" title="College Recruiting Website">www.bankofamerica.com/campusrecruiting</a> and navigate to the "How to Apply" page. If you're not a college or advanced degree student, or if you're interested in opportunities in another area of the company, please visit <a href="http://www.bankofamerica.com/careers" target="_blank" class="bac" title="Careers Website">www.bankofamerica.com/careers</a>.</p>
 
 <h2 class="bacs">What are the requirements to be considered for campus opportunities? </h2>
-<p class="bac">Each program has individual requirements. However, to be considered for any program you must be currently enrolled in a college or advanced degree program.  If you are not currently enrolled in college to obtain a degree, you can visit <a href="http://www.bankofamerica.com/campusrecruiting" target="_blank" class="bac" title="Careers Website">www.bankofamerica.com/careers</a> for opportunities available through our corporate/lateral recruiting group.</p>
+<p class="bac">Each program has individual requirements. However, to be considered for any program you must be currently enrolled in a college or advanced degree program.  If you are not currently enrolled in college to obtain a degree, you can visit <a href="http://www.bankofamerica.com/careers" target="_blank" class="bac" title="Careers Website">www.bankofamerica.com/careers</a> for opportunities available through our corporate/lateral recruiting group.</p>
 
 <h2 class="bacs">When does Bank of America recruit students for full-time opportunities?</h2>
 <p class="bac">Bank of America recruits students for full-time opportunities in September for placement following their December / May graduation date.  For example, we recruit in September of 2008 for roles that begin in June of 2009.</p>
@@ -83,13 +83,12 @@ tabs[<%=tab%>-1].coremetrics = true;
 <h2 class="bacs">Is it appropriate to send a thank you note after my interview?</h2>
 <p class="bac">An email thank you to the person who interviewed you is appropriate but not required. If you do choose to send a thank you note, make sure to tailor the message for the person you met with. It is not appropriate to send the same email to multiple interviewers.</p>
 
-		<br>
 	</div>
 </div>
 <div id="dt2" style="display: <% If tab = 2 Then %>inline<% Else %>none<% End If %>;">
-	<div style="padding: 0px 12px;">
+	<div class="innerTab">
 
-<h2 class="bacs">How do I apply?</h2>
+<h2 class="bac">How do I apply?</h2>
 <p class="bac">Please visit <a href="http://www.bankofamerica.com/campusrecruiting" target="_blank" class="bac" title="College Recruiting Website">www.bankofamerica.com/campusrecruiting</a> and navigate to the "How to Apply" page.  All applications for positions must be made online.  We encourage candidates to apply early.</p>
 
 <h2 class="bacs">What are the requirements to be considered for campus opportunities?</h2>
@@ -113,13 +112,12 @@ tabs[<%=tab%>-1].coremetrics = true;
 <h2 class="bacs">Are positions available globally, and who is eligible to fill them?</h2>
 <p class="bac">Bank of America is a global company with offices in more than 35 countries worldwide. Candidates will need the appropriate work authorizations if hired into an office outside of their country of citizenship.</p>
 
-		<br>
 	</div>
 </div>
 <div id="dt3" style="display: <% If tab = 3 Then %>inline<% Else %>none<% End If %>;">
-	<div style="padding: 0px 12px;">
+	<div class="innerTab">
 
-<h2 class="bacs">How do I apply?</h2>
+<h2 class="bac">How do I apply?</h2>
 <p class="bac">We recruit candidates through the university careers centers of our target schools.  Please contact your university careers center for more details.</p>
 <p class="bac">If you are not a student completing a Bachelor's or MBA degree, or are interested in opportunities in another area of the company, please visit <a href="http://www.bankofamerica.com/asiacareers" target="_blank" class="bac" title="Asia Careers Website">www.bankofamerica.com/asiacareers</a>.</p>
 
@@ -139,9 +137,8 @@ tabs[<%=tab%>-1].coremetrics = true;
 <p class="bac">Candidates will need the appropriate work authorizations if hired outside of their country of citizenship.</p>
 
 <h2 class="bacs">Is it appropriate to send a thank-you note after my interview? </h2>
-<p class="bac">An e-mail thank you to the person who interviewed you is appropriate but not required. If you do choose to send a thank-you note, make sure to tailor the message for the person you met with. It is not appropriate to send the same e-mail to multiple interviewers.<p class="bac">
+<p class="bac">An e-mail thank you to the person who interviewed you is appropriate but not required. If you do choose to send a thank-you note, make sure to tailor the message for the person you met with. It is not appropriate to send the same e-mail to multiple interviewers.</p>
 
-		<br>
 	</div>
 </div>
 				</td>

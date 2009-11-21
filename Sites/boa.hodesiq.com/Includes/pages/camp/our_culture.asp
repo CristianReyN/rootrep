@@ -12,7 +12,7 @@
 		<a name="skipmaincontent"></a><H1 class="hidden">Our Culture</H1>
 		<table width="578" cellpadding="0" cellspacing="0" border="0" summary="">
 			<tr valign="top">
-				<td width="393" height="100%" valign="top" style="padding: 0px <%=right_margin%>px 0px <%=left_margin_0%>px;">
+				<td width="393" height="100%" valign="top" style="<%=middle_content_padding%>">
 <h2 class="bach">It's all about options.</h2>
 <p class="bac">
 <b>Choose.</b> Thanks to our size and global reach, Bank of America can offer a depth and breadth of opportunity that can keep pace with your evolving skills and interests. Your biggest challenge here will be sorting through your options.
@@ -21,14 +21,14 @@
 <b>Connect.</b> We never forget that our people are responsible for our success in the first place. As a result, the caliber of our team lends itself to unparalleled mentorship and networking opportunities for you.
 </p>
 <p class="bac">
-<b>Grow.</b> When it comes to career development, our training-combined with your experience and performance-help you get where you're going. At the end of the day, it's our job to give you the freedom to choose your own path, responsibility enough to stay challenged, and the support you need to grow. And it's your job to keep raising the bar on what you think is possible.
+<b>Grow.</b> When it comes to career development, our training &mdash; combined with your experience and performance &mdash; help you get where you're going. At the end of the day, it's our job to give you the freedom to choose your own path, responsibility enough to stay challenged, and the support you need to grow. And it's your job to keep raising the bar on what you think is possible.
 </p>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
 
 <h2 class="bac"><b>Learn more:</b></h2>
 
-<ul class="bac">
+<ul class="bacp">
 	<li><a href="diversity_and_inclusion.asp" class="bacb" title="Diversity and inclusion">Diversity and inclusion</a></li>
 	<li><a href="making_a_difference.asp" class="bacb" title="Making a difference">Making a difference</a></li>
 	<li><a href="the_environment.asp" class="bacb" title="The environment">The environment</a></li>

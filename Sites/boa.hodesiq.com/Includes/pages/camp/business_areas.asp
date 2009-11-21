@@ -1,7 +1,7 @@
 		<img src="../images/clear.gif" width="100%" height="<%=(top_content_padding_bottom-3)%>" alt="" border="0"><br />
 		<table width="578" cellpadding="0" cellspacing="0" border="0" summary="">
 			<tr valign="top">
-				<td width="393" height="100%" valign="top" style="padding: 0px <%=right_margin%>px 0px <%=left_margin_0%>px;">
+				<td width="393" height="100%" valign="top" style="<%=middle_content_padding%>">
 <a name="skipmaincontent"></a><h1 class="bac">Business Areas</h1>
 
 <p class="bac"><a href="<% if page_section <> "ADA" then Response.write "../learnmore/lobcss.asp" Else Response.write "lobcss.asp" End If%>" class="bacb" title="Corporate Staff and Support">Corporate Staff and Support</a></p>
@@ -29,7 +29,7 @@ Global Corporate & Investment Banking connects corporate investors with the most
 
 <h2 class="bacs"><a href="<% if page_section <> "ADA" then Response.write "../wealthmanagement/" Else Response.write "../ada/lobgwim.asp" End If%>" class="bacb" title="">Global Wealth & Investment Management</a></h2>
 <p class="bac">
-A career within Global Wealth & Investment Management lets you hone your knowledge and skills across the financial services spectrum-including financial planning, wealth access strategy, investments, retirement solutions, trusts and specialty asset management. On this team, you'll deliver thoughtful, integrated wealth management solutions to high net worth individuals, middle-market institutions and charitable organizations.
+A career within Global Wealth & Investment Management lets you hone your knowledge and skills across the financial services spectrum &mdash; including financial planning, wealth access strategy, investments, retirement solutions, trusts and specialty asset management. On this team, you'll deliver thoughtful, integrated wealth management solutions to high net worth individuals, middle-market institutions and charitable organizations.
 </p>
 				</td>
 				<td width="185" height="100%" style="padding-top: 7px;" valign="top">

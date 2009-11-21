@@ -7,7 +7,7 @@ If Request("t") <> "" Then tab = Request("t")
 		<a name="skipmaincontent"></a><h1 class="bac">Graduate Internships</h1>
 		<table width="578" cellpadding="0" cellspacing="0" border="0" summary="">
 			<tr valign="top">
-				<td width="578" height="100%" valign="top" style="padding: 0px <%=right_margin%>px 0px <%=left_margin_0%>px;">
+				<td width="578" height="100%" valign="top" style="padding: 0px 0px 0px <%=left_margin_0%>px;">
 <script language="JavaScript1.2" src="../includes/tab.js" type="text/javascript"></script>
 <script language="JavaScript" type="text/javascript">
 var tabs = new Array(), pageId = "<%=pageId%>", categoryId = "<%=categoryId%>";
@@ -36,10 +36,10 @@ tabs[<%=tab%>-1].coremetrics = true;
 		<table width="100%" cellpadding="0" cellspacing="0" border="0" summary="">
 			<tr>
 				<td background="../images/camp/tl.gif" valign="top">
-					<img src="../images/camp/tl.gif" width="6" height="320" border="0" alt="" /></td>
+					<img src="../images/camp/tl.gif" width="6" height="10" border="0" alt="" /></td>
 				<td width="100%" valign="top">
 <div id="dt1" style="display: <% If tab = 1 Then %>inline<% Else %>none<% End If %>;">
-	<div style="padding: 0px 12px;">
+	<div class="innerTab">
 		<p class="bacb">Corporate Staff and Support</p>
 		<ul class="bac">
 			<li><a href="gi_us_ghrldpi.asp" class="bac">Global Human Resources Leadership and Development Program - Internship</a></li>
@@ -64,18 +64,16 @@ tabs[<%=tab%>-1].coremetrics = true;
 			<li><a href="gi_us_rsa.asp" class="bac">Research Summer Associate</a></li>
 			<li><a href="gi_us_stsa.asp" class="bac">Sales and Trading Summer Associate</a></li>
 		</ul>
-		<br>
 	</div>
 </div>
 <div id="dt2" style="display: <% If tab = 2 Then %>inline<% Else %>none<% End If %>;">
-	<div style="padding: 0px 12px;">
+	<div class="innerTab">
 		<p class="bacb">Global Corporate and Investment Banking</p>
 		<ul class="bac">
 			<li><a href="gi_emea_gib.asp" class="bac">Global Investment Banking</a></li>
 			<li><a href="gi_emea_gm.asp" class="bac">Global Markets</a></li>
 			<li><a href="gi_emea_cm.asp" class="bac">Capital Markets</a></li>
 		</ul>
-		<br>
 	</div>
 </div>
 				</td>

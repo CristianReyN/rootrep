@@ -54,6 +54,7 @@ right_margin_split = 20
 top_content_padding_bottom = 12
 top_content_padding_bottom_hd = 0
 middle_content_padding = "padding: 0px 8px 0px 0px;"
+if mpage = "camp" Then middle_content_padding = "padding: 0px 24px 0px 0px;"
 %>
 <script language="javascript1.1" src="../coremetrics/v40/eluminate.js" type="text/javascript"></script>
 <script language="javascript1.1" src="../coremetrics/cmdatatagutils.js" type="text/javascript"></script>

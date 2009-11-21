@@ -26,11 +26,11 @@ Dim left_margin, right_margin, top_content_padding_bottom, top_content_padding_b
 left_margin = 12
 left_margin_0 = 0
 right_margin = 8
-if mpage = "camp" Then right_margin = 15
 right_margin_split = 20
 top_content_padding_bottom = 12
 top_content_padding_bottom_hd = 0
 middle_content_padding = "padding: 0px 8px 0px 0px;"
+if mpage = "camp" Then middle_content_padding = "padding: 0px 24px 0px 0px;"
 %><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html lang="en">
 <head>

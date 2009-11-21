@@ -12,7 +12,7 @@
 		<a name="skipmaincontent"></a><H1 class="hidden">Explore Careers</H1>
 		<table width="578" cellpadding="0" cellspacing="0" border="0" summary="">
 			<tr valign="top">
-				<td width="393" height="100%" valign="top" style="padding: 0px <%=right_margin%>px 0px <%=left_margin_0%>px;">
+				<td width="393" height="100%" valign="top" style="<%=middle_content_padding%>">
 <h2 class="bach">Where it all begins.</h2>
 <p class="bac">
 Thanks to our focus on training, networking, and mentorship, Bank of America is a great place to begin your career. Imagine working alongside people every day who are as serious about your career development as you are. 
@@ -25,7 +25,7 @@ The programs we've established to help get you started with us have an impressiv
 
 <h2 class="bac"><b>Learn more:</b></h2>
 
-<ul class="bac">
+<ul class="bacp">
 	<li><a href="undergraduate_programs.asp" class="bacb" title="Undergraduate programs">Undergraduate programs</a></li>
 	<li><a href="graduate_programs.asp" class="bacb" title="Graduate programs">Graduate programs</a></li>
 	<li><a href="internships.asp" class="bacb" title="Summer internships">Summer internships</a></li>

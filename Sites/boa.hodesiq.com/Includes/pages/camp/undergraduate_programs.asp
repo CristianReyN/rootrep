@@ -7,8 +7,8 @@ If Request("t") <> "" Then tab = Request("t")
 		<a name="skipmaincontent"></a><h1 class="bac">Undergraduate Programs</h1>
 		<table width="578" cellpadding="0" cellspacing="0" border="0" summary="">
 			<tr valign="top">
-				<td width="578" height="100%" valign="top" style="padding: 0px <%=right_margin%>px 0px <%=left_margin_0%>px;">
-<p class="bac" style="margin-bottom: 24px;">
+				<td width="578" height="100%" valign="top" style="padding: 0px 0px 0px <%=left_margin_0%>px;">
+<p class="bac" style="margin-bottom: 12px;">
 Learn from the industry's best in a challenging combination of instructor-led and web-based education, on-the-job training, rotational assignments and networking. From the start, you'll have the opportunity to make a real impact. In fact, we'll expect it.
 </p>
 <script language="JavaScript1.2" src="../includes/tab.js" type="text/javascript"></script>
@@ -42,10 +42,10 @@ tabs[<%=tab%>-1].coremetrics = true;
 		<table width="100%" cellpadding="0" cellspacing="0" border="0" summary="">
 			<tr>
 				<td background="../images/camp/tl.gif" valign="top">
-					<img src="../images/camp/tl.gif" width="6" height="590" border="0" alt="" /></td>
+					<img src="../images/camp/tl.gif" width="6" height="10" border="0" alt="" /></td>
 				<td width="100%" valign="top">
 <div id="dt1" style="display: <% If tab = 1 Then %>inline<% Else %>none<% End If %>;">
-	<div style="padding: 0px 12px;">
+	<div class="innerTab">
 		<p class="bacb">Corporate Staff and Support</p>
 		<ul class="bac">
 			<li><a href="up_us_carp.asp" class="bac">Corporate Audit Management Associate Program</a></li>
@@ -91,11 +91,10 @@ tabs[<%=tab%>-1].coremetrics = true;
 			<li><a href="up_us_gmorp.asp" class="bac">Global Middle Office Rotational Program</a></li>
 			<li><a href="up_us_gtorp.asp" class="bac">Global Treasury Operations Rotational Program</a></li>
 		</ul>
-		<br>
 	</div>
 </div>
 <div id="dt2" style="display: <% If tab = 2 Then %>inline<% Else %>none<% End If %>;">
-	<div style="padding: 0px 12px;">
+	<div class="innerTab">
 		<p class="bacb">Global Consumer and Small Business Banking</p>
 		<ul class="bac">
 			<li><a href="up_emea_cs.asp" class="bac">Card Services</a></li>
@@ -110,16 +109,14 @@ tabs[<%=tab%>-1].coremetrics = true;
 			<li><a href="up_emea_gm.asp" class="bac">Global Markets</a></li>
 			<li><a href="up_emea_cm.asp" class="bac">Capital Markets</a></li>
 		</ul>
-		<br>
 	</div>
 </div>
 <div id="dt3" style="display: <% If tab = 3 Then %>inline<% Else %>none<% End If %>;">
-	<div style="padding: 0px 12px;">
+	<div class="innerTab">
 		<p class="bacb">Global Corporate and Investment Banking</p>
 		<ul class="bac">
 			<li><a href="up_asia_gm.asp" class="bac">Global Markets</a></li>
 		</ul>
-		<br>
 	</div>
 </div>
 				</td>

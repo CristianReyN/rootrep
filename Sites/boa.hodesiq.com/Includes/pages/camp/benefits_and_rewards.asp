@@ -6,9 +6,9 @@ If Request("t") <> "" Then tab = Request("t")
 		<img src="../images/clear.gif" width="100%" height="<%=(top_content_padding_bottom-3)%>" alt="" border="0"><br />
 		<table width="578" cellpadding="0" cellspacing="0" border="0" summary="">
 			<tr valign="top">
-				<td width="393" height="100%" valign="top" style="padding: 0px <%=right_margin%>px 0px <%=left_margin_0%>px;">
+				<td width="393" height="100%" valign="top" style="<%=middle_content_padding%>">
 <a name="skipmaincontent"></a><h1 class="bac">Benefits and Rewards</h1>
-<p class="bac" style="margin-bottom: 24px;">
+<p class="bac" style="margin-bottom: 12px;">
 Because we want to take good care of the people who are at the heart of our business, Bank of America offers a generous rewards and benefits program.
 </p>
 <script language="JavaScript1.2" src="../includes/tab.js" type="text/javascript"></script>
@@ -42,44 +42,49 @@ tabs[<%=tab%>-1].coremetrics = true;
 		<table width="100%" cellpadding="0" cellspacing="0" border="0" summary="">
 			<tr>
 				<td background="../images/camp/tl.gif" valign="top">
-					<img src="../images/camp/tl.gif" width="6" height="1010" border="0" alt="" /></td>
+					<img src="../images/camp/tl.gif" width="6" height="10" border="0" alt="" /></td>
 				<td width="100%" valign="top">
 <div id="dt1" style="display: <% If tab = 1 Then %>inline<% Else %>none<% End If %>;">
-	<div style="padding: 0px 12px;">
+	<div class="innerTab">
 		<p class="bac">Our comprehensive package includes<span style="font-size: 0.6em; position: relative; top: -0.6em;">1</span></span>:</p>
 		
-		<p class="bacb">Financial and retirement support</p>
+		<h2 class="bac" style="margin-top: 6px;">Financial and retirement support</h2>
 		<ul class="bac">
-			<li>Discounts and additional benefits on a wide range of banking and investing products-including checking accounts with no monthly maintenance fee or balance requirement, free checks, free or discounted annual safe deposit box rental and no fees for traveler's checks among others</li>
+			<li>Discounts and additional benefits on a wide range of banking and investing products &mdash; including checking accounts with no monthly maintenance fee or balance requirement, free checks, free or discounted annual safe deposit box rental and no fees for traveler's checks among others</li>
 			<li>401K and pension plan</li>
 		</ul>
 		
-		<p class="bacb">Health care and insurance</p>
+		<img src="../images/clear.gif" class="bac" alt=""><br clear="all">
+		
+		<h2 class="bac">Health care and insurance</h2>
 		<ul class="bac">
 			<li>Comprehensive health care benefits include medical, dental and vision coverage, as well as Health Flex Spending Accounts</li>
 		</ul>
 		
-		<p class="bacb">Work/Life benefits</p>
+		<img src="../images/clear.gif" class="bac" alt=""><br clear="all">
+		
+		<h2 class="bac">Work/Life benefits</h2>
 		<ul class="bac">
 			<li>Flexible work arrangements</li>
 			<li>Paid and unpaid time off</li>
 			<li>Tuition reimbursement</li>
 		</ul>
 		
-		<p class="bacb">Other opportunities, such as:</p>
+		<img src="../images/clear.gif" class="bac" alt=""><br clear="all">
+		
+		<h2 class="bac">Other opportunities, such as:</h2>
 		<ul class="bac">
-			<li>Volunteer time-Full-time associates receive up to 2 paid hours per week including travel time to volunteer at a local organization, including schools, shelters, food banks and mentoring programs</li>
+			<li>Volunteer time &mdash; Full-time associates receive up to 2 paid hours per week including travel time to volunteer at a local organization, including schools, shelters, food banks and mentoring programs</li>
 			<li>Matching gifts program-Bank of America will match associate contributions to qualifying nonprofit organizations up to a specified amount each calendar year</li>
 			<li>Volunteer grants-An unrestricted grant is made to any qualifying nonprofit organization for which an associate has committed substantial volunteer hours within a calendar year</li>
 			<li>Commuter benefits</li>
 		</ul>
 		<br>
 		<p class="bac"><span style="font-size: 0.6em; position: relative; top: -0.6em;">1</span></span> <span class="s">Please note: Benefits may vary by region. Please discuss specific benefit related questions with your recruiter.</span></p>
-		<br>
 	</div>
 </div>
 <div id="dt2" style="display: <% If tab = 2 Then %>inline<% Else %>none<% End If %>;">
-	<div style="padding: 0px 12px;">
+	<div class="innerTab">
 		<p class="bac">Bank of America offers an award winning competitive benefits package to its associates which, we believe, is one of the best in the financial services industry.</p>
 
 		<p class="bac">Bonuses and incentive programmes are important parts of the overall package.  Associate Benefit Choices (ABC) is Bank of America's flexible benefits programme that encourages each associate to actively participate in the selection of their benefits package and gives them the freedom to choose benefits within certain criteria that work for each individual and their dependants.</p>
@@ -88,7 +93,9 @@ tabs[<%=tab%>-1].coremetrics = true;
 
 		<p class="bac">Within ABC there are a range of twenty benefits covering Financial, Healthcare, Lifestyle and Leisure aspects of your life. Some of these benefits offer attractive Income Tax and National Insurance savings. The bank provides the opportunity for associates to receive employer matching contributions for pension, Give as You Earn, learning accounts, leisure accounts and certain health treatments.</p>
 
-		<p class="bac">Benefits within the ABC package include:</p>
+		<img src="../images/clear.gif" class="bac" alt=""><br clear="all">
+
+		<h2 class="bac">Benefits within the ABC package include:</h2>
 		
 		<p class="bacb">Financial</p>
 		<ul class="bac">
@@ -125,7 +132,9 @@ tabs[<%=tab%>-1].coremetrics = true;
 			<li>Retail Vouchers</li>
 		</ul>
 
-		<p class="bacb">Benefits outside of the ABC package include:</p>
+		<img src="../images/clear.gif" class="bac" alt=""><br clear="all">
+
+		<h2 class="bac">Benefits outside of the ABC package include:</h2>
 		<ul class="bac">
 			<li>Personal Accident Insurance</li>
 			<li>Short term sick pay (service-related provision)</li>
@@ -139,17 +148,17 @@ tabs[<%=tab%>-1].coremetrics = true;
 			<li>Employee Assistance Programme</li>
 			<li>Maternity, paternity and adoption leave -above statutory minimum parental leave</li>
 		</ul>
-		<br>
 	</div>
 </div>
 <div id="dt3" style="display: <% If tab = 3 Then %>inline<% Else %>none<% End If %>;">
-	<div style="padding: 0px 12px;">
-		<p class="bacb">Benefits</p>
+	<div class="innerTab">
+		<h2 class="bac" style="margin-top: 6px;">Benefits</h2>
 		<p class="bac">We offer one of the most competitive benefits packages in the financial services industry.</p>
 		
-		<p class="bacb">Performance-based compensation</p>
+		<img src="../images/clear.gif" class="bac" alt=""><br clear="all">
+		
+		<h2 class="bac">Performance-based compensation</h2>
 		<p class="bac">In addition to strong base compensation, bonuses and incentive programs are important parts of our overall compensation package.</p>
-		<br>
 	</div>
 </div>
 				</td>

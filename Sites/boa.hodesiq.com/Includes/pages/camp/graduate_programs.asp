@@ -7,8 +7,8 @@ If Request("t") <> "" Then tab = Request("t")
 		<a name="skipmaincontent"></a><h1 class="bac">Graduate Programs</h1>
 		<table width="578" cellpadding="0" cellspacing="0" border="0" summary="">
 			<tr valign="top">
-				<td width="578" height="100%" valign="top" style="padding: 0px <%=right_margin%>px 0px <%=left_margin_0%>px;">
-					<p class="bac" style="margin-bottom: 24px;">Leverage the power of your advanced degree and/or MBA into real career momentum through a combination of instructor-led and web-based education, on-the-job training, rotational assignments and networking. This is where you combine your education and experience with our incredible range of  opportunities-and the sky's the limit.</p>
+				<td width="578" height="100%" valign="top" style="padding: 0px 0px 0px <%=left_margin_0%>px;">
+					<p class="bac" style="margin-bottom: 12px;">Leverage the power of your advanced degree and/or MBA into real career momentum through a combination of instructor-led and web-based education, on-the-job training, rotational assignments and networking. This is where you combine your education and experience with our incredible range of  opportunities &mdash; and the sky's the limit.</p>
 
 <script language="JavaScript1.2" src="../includes/tab.js" type="text/javascript"></script>
 <script language="JavaScript" type="text/javascript">
@@ -41,10 +41,10 @@ tabs[<%=tab%>-1].coremetrics = true;
 		<table width="100%" cellpadding="0" cellspacing="0" border="0" summary="">
 			<tr>
 				<td background="../images/camp/tl.gif" valign="top">
-					<img src="../images/camp/tl.gif" width="6" height="320" border="0" alt="" /></td>
+					<img src="../images/camp/tl.gif" width="6" height="10" border="0" alt="" /></td>
 				<td width="100%" valign="top">
 <div id="dt1" style="display: <% If tab = 1 Then %>inline<% Else %>none<% End If %>;">
-	<div style="padding: 0px 12px;">
+	<div class="innerTab">
 		<p class="bacb">Corporate Staff and Support</p>
 		<ul class="bac">
 			<li><a href="gp_us_ghrldp.asp" class="bac">Global Human Resources Leadership and Development Program</a></li>
@@ -68,29 +68,26 @@ tabs[<%=tab%>-1].coremetrics = true;
 			<li><a href="gp_us_ra.asp" class="bac">Research Associate</a></li>
 			<li><a href="gp_us_sta.asp" class="bac">Sales and Trading Associate</a></li>
 		</ul>
-		<br>
 	</div>
 </div>
 <div id="dt2" style="display: <% If tab = 2 Then %>inline<% Else %>none<% End If %>;">
-	<div style="padding: 0px 12px;">
+	<div class="innerTab">
 		<p class="bacb">Global Consumer and Small Business Banking</p>
 		<ul class="bac">
 			<li><a href="gp_emea_gib.asp" class="bac">Global Investment Banking</a></li>
 			<li><a href="gp_emea_gm.asp" class="bac">Global Markets</a></li>
 			<li><a href="gp_emea_cm.asp" class="bac">Capital Markets</a></li>
 		</ul>
-		<br>
 	</div>
 </div>
 <div id="dt3" style="display: <% If tab = 3 Then %>inline<% Else %>none<% End If %>;">
-	<div style="padding: 0px 12px;">
+	<div class="innerTab">
 		<p class="bacb">Global Corporate and Investment Banking</p>
 		<ul class="bac">
 			<li><a href="gp_asia_gm.asp" class="bac">Global Markets</a></li>
 			<li><a href="gp_asia_gto.asp" class="bac">Global Technology and Operations</a></li>
 			<li><a href="gp_asia_gpscdp.asp" class="bac">Global Product Solutions - Corporate Debt Products</a></li>
 		</ul>
-		<br>
 	</div>
 </div>
 				</td>
