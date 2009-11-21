@@ -29,7 +29,7 @@
 			<tr valign="top"><td style="background: <% if mpage = "staffingevents" then Response.Write "#eaf1f7" Else Response.Write "#cadceb" end if %>; padding: 0px 6px 0px 6px;"><a href="staffingevents.asp" title="Staffing Events" class="g" onfocus="this.className='g-over';" onblur="this.className='g';">Staffing Events</a></td></tr>
 			<tr valign="top" style="background: #ffffff;"><td><img src="../images/white.gif" width="154" height="1" alt="" border="0"></td></tr>
 
-			<tr valign="top"><td style="background: <% if mpage = "fags" then Response.Write "#eaf1f7" Else Response.Write "#cadceb" end if %>; padding: 0px 6px 0px 6px;"><a class="g" href="faq.asp" title="Frequently Asked Questions" onfocus="this.className='g-over';" onblur="this.className='g';">FAQ's</a></td></tr>
+			<tr valign="top"><td style="background: <% if mpage = "fags" then Response.Write "#eaf1f7" Else Response.Write "#cadceb" end if %>; padding: 0.35em 6px 0.35em 6px;"><a class="g" href="faq.asp" title="Frequently Asked Questions" onfocus="this.className='g-over';" onblur="this.className='g';" style="line-height: 1.2em;">Frequently Asked Questions</a></td></tr>
 			<tr valign="top" style="background: #ffffff;"><td><img src="../images/white.gif" width="154" height="1" alt="" border="0"></td></tr>
 <%
 	return_image = "Return to standard page"

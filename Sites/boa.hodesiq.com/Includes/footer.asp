@@ -126,7 +126,7 @@ function popAoT(show)
 </script>
 <div id="anav" style="position: absolute; left: 0px; top: 0px; visibility: hidden; display: none; z-index: 100; border: 1px solid #7F99B2; font-size: 0.8em;" onmouseover="popAoT(true);" onmouseout="popAoT(false);">
 <table width="160" cellpadding="0" cellspacing="0" border="0" summary="">
-<%	call AreasOfTalentNav("#ffffff") %>
+<%	call AreasOfTalentNav("#7F99B2") %>
 </table>
 </div>
 <%
@@ -142,7 +142,7 @@ function popLearnmore(show)
 </script>
 <div id="anavr" style="position: absolute; left: 0px; top: 0px; visibility: hidden; display: none; z-index: 100; border: 1px solid #7F99B2; font-size: 0.8em;" onmouseover="popLearnmore(true);" onmouseout="popLearnmore(false);">
 <table width="160" cellpadding="0" cellspacing="0" border="0" summary="">
-<%	call RelInfoNav("#ffffff") %>
+<%	call RelInfoNav("#7F99B2") %>
 </table>
 </div>
 <%

@@ -27,9 +27,9 @@ If playflash = "1" Then flashPage = false
 <!-- Left Nav -->
 			<tr valign="top"><td height="450" style="background: #cadceb;">
 <div id="flash1" style="position: absolute;">
-<table width="160" cellpadding="0" cellspacing="0" border="0" summary="">
+<!--<table width="160" cellpadding="0" cellspacing="0" border="0" summary="">
 <tr><td align="right" style="padding: 0px 9px 6px 6px;"><br>
-<% If playflash="" Then %><a href="<%=ada_href %>" id="videotranscript" title="Video Transcripts" class="g" onfocus="this.className='g-over';" onblur="this.className='g';" style="line-height: 1.1em;">Video Transcripts</a><% Else %><a href="<%=ada_href %>" id="videotranscript" title="<%=ada_title %>" class="g" onfocus="this.className='g-over';" onblur="this.className='g';" style="line-height: 1.1em;"><%=textonly_version%></a><% End If %></td></tr></table>
+<% If playflash="" Then %><a href="<%=ada_href %>" id="videotranscript" title="Video transcripts" class="g" onfocus="this.className='g-over';" onblur="this.className='g';" style="line-height: 1.1em;">Video transcripts</a><% Else %><a href="<%=ada_href %>" id="videotranscript" title="<%=ada_title %>" class="g" onfocus="this.className='g-over';" onblur="this.className='g';" style="line-height: 1.1em;"><%=textonly_version%></a><% End If %></td></tr></table>-->
 <script language="JavaScript1.2" type="text/javascript">
 //<!--
 requiredMajorVersion = 8;
@@ -47,7 +47,7 @@ if ( hasRequestedVersion ) {
 	<% If playflash <> "1" Then %>
    document.write(hiddenFlash);
    <%  Else %>
-   document.write('<table width="160" height="60" cellpadding="0" cellspacing="0" border="0" summary="" style="background: #ebebeb; border-top: 1px solid #dadada; border-bottom: 1px solid #dadada;"><tr><td style="padding: 5px 11px 5px 12px;"><div style="border: 1px solid #dadada;"><img src="../images/piper.jpg" width="52" height="52" alt="Replay Video Host" border="0" style="border: 1px solid #ebebeb;"></div></td><td width="100%"><a href="Javascript: replayVirtualHost();" title="Replay Video Host" class="p" onfocus="this.className=\'p-over\';" onblur="this.className=\'p\';">Replay<br>Video Host</a></td></tr></table>');
+   document.write('<table width="160" height="60" cellpadding="0" cellspacing="0" border="0" summary="" style="margin-top: 30px; background: #ebebeb; border-top: 1px solid #dadada; border-bottom: 1px solid #dadada;"><tr><td style="padding: 5px 11px 5px 12px;"><div style="border: 1px solid #dadada;"><img src="../images/piper.jpg" width="52" height="52" alt="Replay Video Host" border="0" style="border: 1px solid #ebebeb;"></div></td><td width="100%"><p style="margin: 0px;"><a href="Javascript: replayVirtualHost();" title="Replay Video Host" class="p" onfocus="this.className=\'p-over\';" onblur="this.className=\'p\';">Replay<br>video host</a></p><p style="margin: 6px 0px 0px 0px;"><a href="<%=ada_href %>" title="Video transcripts" class="p" onfocus="this.className=\'p-over\';" onblur="this.className=\'p\';">Video<br>transcripts</a></p></td></tr></table>');
    <%  End If %>
    document.write('</div>');
 } else {
