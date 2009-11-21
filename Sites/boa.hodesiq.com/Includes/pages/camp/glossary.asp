@@ -25,7 +25,7 @@
 </p>
 
 <p class="bacs">
-<b>College Recruiting Website</b> - <a href="http://www.bankofamerica.com/campusrecruiting" target="_blank" class="bac" title="College Recruiting Website">www.bankofamerica.com/campusrecruiting</a>
+<b>Campus Recruiting Website</b> - <a href="http://www.bankofamerica.com/campusrecruiting" target="_blank" class="bac" title="Campus Recruiting Website">www.bankofamerica.com/campusrecruiting</a>
 </p>
 
 <p class="bacs">

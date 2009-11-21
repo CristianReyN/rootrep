@@ -45,10 +45,10 @@ tabs[<%=tab%>-1].coremetrics = true;
 	<div class="innerTab">
 
 <h2 class="bac">How do I apply?</h2>
-<p class="bac">Please visit <a href="http://www.bankofamerica.com/campusrecruiting" target="_blank" class="bac" title="College Recruiting Website">www.bankofamerica.com/campusrecruiting</a> and navigate to the "How to Apply" page. If you're not a college or advanced degree student, or if you're interested in opportunities in another area of the company, please visit <a href="http://www.bankofamerica.com/careers" target="_blank" class="bac" title="Careers Website">www.bankofamerica.com/careers</a>.</p>
+<p class="bac">Please visit <a href="<% If page_section <> "ADA" Then  %>../campusrecruiting/<% Else  %>../ada_camp/<% End If %>" class="bac" title="Campus Recruiting Website">www.bankofamerica.com/campusrecruiting</a> and navigate to the "How to Apply" page. If you're not a college or advanced degree student, or if you're interested in opportunities in another area of the company, please visit <a href="<% If page_section <> "ADA" Then  %>../overview/<% End If %>overview.asp" class="bac" title="Careers Website">www.bankofamerica.com/careers</a>.</p>
 
 <h2 class="bacs">What are the requirements to be considered for campus opportunities? </h2>
-<p class="bac">Each program has individual requirements. However, to be considered for any program you must be currently enrolled in a college or advanced degree program.  If you are not currently enrolled in college to obtain a degree, you can visit <a href="http://www.bankofamerica.com/careers" target="_blank" class="bac" title="Careers Website">www.bankofamerica.com/careers</a> for opportunities available through our corporate/lateral recruiting group.</p>
+<p class="bac">Each program has individual requirements. However, to be considered for any program you must be currently enrolled in a college or advanced degree program.  If you are not currently enrolled in college to obtain a degree, you can visit <a href="<% If page_section <> "ADA" Then  %>../overview/<% End If %>overview.asp" class="bac" title="Careers Website">www.bankofamerica.com/careers</a> for opportunities available through our corporate/lateral recruiting group.</p>
 
 <h2 class="bacs">When does Bank of America recruit students for full-time opportunities?</h2>
 <p class="bac">Bank of America recruits students for full-time opportunities in September for placement following their December / May graduation date.  For example, we recruit in September of 2008 for roles that begin in June of 2009.</p>
@@ -63,7 +63,7 @@ tabs[<%=tab%>-1].coremetrics = true;
 <p class="bac">All candidates you would like to be considered for full-time employment must be received by September 15th. All internship candidates must be received by January 15th.</p>
 
 <h2 class="bacs">How can I decide what program is best for me?</h2>
-<p class="bac">We have created a guided questionnaire on the campus recruiting website to help you find the opportunities that match your skill set and interests.  Please visit <a href="http://www.bankofamerica.com/campusrecruiting" target="_blank" class="bac" title="College Recruiting Website">www.bankofamerica.com/campusrecruiting</a>.</p>
+<p class="bac">We have created a guided questionnaire on the campus recruiting website to help you find the opportunities that match your skill set and interests.  Please visit <a href="<% If page_section <> "ADA" Then  %>../campusrecruiting/<% Else  %>../ada_camp/<% End If %>" class="bac" title="Campus Recruiting Website">www.bankofamerica.com/campusrecruiting</a>.</p>
 
 <h2 class="bacs">What academic background are you looking for in candidates?</h2>
 <p class="bac">We look for both traditional and non-traditional candidates and encourage candidates of all majors and backgrounds to apply. The one requirement for all: demonstrated superior academic achievement.</p>
@@ -75,7 +75,7 @@ tabs[<%=tab%>-1].coremetrics = true;
 <p class="bac">Bank of America is a global company with offices in more than 35 countries worldwide. Candidates will need the appropriate work authorizations if hired into a program outside of their country of citizenship.</p>
 
 <h2 class="bacs">If I have posted on the Bank of America Campus Recruiting site, do I need to post through my career center as well?</h2>
-<p class="bac">If our opportunity is posted at your campus, you must post at both your career center and <a href="http://www.bankofamerica.com/campusrecruiting" target="_blank" class="bac" title="College Recruiting Website">www.bankofamerica.com/campusrecruiting</a>.</p>
+<p class="bac">If our opportunity is posted at your campus, you must post at both your career center and <a href="<% If page_section <> "ADA" Then  %>../campusrecruiting/<% Else  %>../ada_camp/<% End If %>" class="bac" title="Campus Recruiting Website">www.bankofamerica.com/campusrecruiting</a>.</p>
 
 <h2 class="bacs">Does the bank offer sponsorship?</h2>
 <p class="bac">Sponsorship requirements vary by program.</p>
@@ -89,7 +89,7 @@ tabs[<%=tab%>-1].coremetrics = true;
 	<div class="innerTab">
 
 <h2 class="bac">How do I apply?</h2>
-<p class="bac">Please visit <a href="http://www.bankofamerica.com/campusrecruiting" target="_blank" class="bac" title="College Recruiting Website">www.bankofamerica.com/campusrecruiting</a> and navigate to the "How to Apply" page.  All applications for positions must be made online.  We encourage candidates to apply early.</p>
+<p class="bac">Please visit <a href="<% If page_section <> "ADA" Then  %>../campusrecruiting/<% Else  %>../ada_camp/<% End If %>" class="bac" title="Campus Recruiting Website">www.bankofamerica.com/campusrecruiting</a> and navigate to the "How to Apply" page.  All applications for positions must be made online.  We encourage candidates to apply early.</p>
 
 <h2 class="bacs">What are the requirements to be considered for campus opportunities?</h2>
 <p class="bac">Each business area has individual requirements but candidates must demonstrate a combination of academic aptitude, quantitative skills, strategic and creative thinking and written and oral communications skills.  In addition you must have obtained or are realistically expecting to obtain a minimum 2:1 degree or equivalent.  Underlying all this, you must demonstrate dedication to a career in banking.</p>
@@ -133,7 +133,7 @@ tabs[<%=tab%>-1].coremetrics = true;
 <p class="bac">You should have deep and broad finance knowledge, excellent verbal and written communication skills.  In addition, you must demonstrate superior academic achievement.  If you have fluent written and spoken Asian language skills it would be an advantage.</p>
 
 <h2 class="bacs">Are positions available in the United States, Europe or other parts of Asia, and who is eligible to fill them?</h2>
-<p class="bac">Bank of America is a global company with offices in more than 20 countries worldwide.  If you are interested in opportunities in the United States, Europe or other parts of Asia, please visit <a href="http://www.bankofamerica.com/careers" class="bac" title="Careers Website">www.bankofamerica.com/careers</a>.</p>
+<p class="bac">Bank of America is a global company with offices in more than 20 countries worldwide.  If you are interested in opportunities in the United States, Europe or other parts of Asia, please visit <a href="<% If page_section <> "ADA" Then  %>../overview/<% End If %>overview.asp" class="bac" title="Careers Website">www.bankofamerica.com/careers</a>.</p>
 <p class="bac">Candidates will need the appropriate work authorizations if hired outside of their country of citizenship.</p>
 
 <h2 class="bacs">Is it appropriate to send a thank-you note after my interview? </h2>

@@ -55,7 +55,7 @@ tabs[<%=tab%>-1].coremetrics = true;
 		<p class="bacb">Global Consumer and Small Business Banking</p>
 		<ul class="bac">
 			<li><a href="gp_us_bccmm_mba_ldp.asp" class="bac">Banking Center Channel Market Management MBA Leadership Development Program</a></li>
-			<li><a href="gp_us_gc_sbbp_ldp.asp" class="bac">Global Consumer and Small Business Banking Product Leader</a></li>
+			<li><a href="gp_us_gc_sbbp_ldp.asp" class="bac">Global Consumer & Small Business Banking Product Leader Development Program</a></li>
 			<li><a href="gp_us_omba.asp" class="bac">Operations MBA</a></li>
 		</ul>
 		<p class="bacb">Global Corporate and Investment Banking</p>

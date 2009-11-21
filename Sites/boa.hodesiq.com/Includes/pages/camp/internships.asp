@@ -68,7 +68,7 @@ tabs[<%=tab%>-1].coremetrics = true;
 		<img src="../images/clear.gif" class="bac" alt=""><br clear="all">
 
 		<h2 class="bac">Important Dates</h2>
-		<p class="bac">Internships typically begin in May and continue through September. The application deadline is mid-February of each year, and open positions are usually filled by mid-April.</p>
+		<p class="bac">Internships typically begin in May and continue through August. The application deadline is mid-February of each year, and open positions are usually filled by mid-April.</p>
 
 		<img src="../images/clear.gif" class="bac" alt=""><br clear="all">
 

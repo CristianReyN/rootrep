@@ -5,70 +5,54 @@
 <a name="skipmaincontent"></a><h1 class="bac">Capital Markets</h1>
 <h2 class="bac">Our Business</h2>
 <p class="bac">
-Corporate Workplace is responsible for a $5.5 billion annual budget for over 90 million square feet of bank-owned and occupied facilities worldwide. In support of Bank of America's stated mission to be the "World's Most Admired Company" we charge ourselves with making real estate a differentiating factor for the bank through cutting-edge initiatives such as the Bank of America Tower at One Bryant Park in NYC, one of the world's most environmentally-friendly skyscrapers; developing flexible work options and continually innovating the workplace environment. Corporate Workplace partners with internal bank clients to craft solutions for project and facilities management, real estate strategy and the acquisition and disposition of space. Corporate Workplace ensures real estate is a competitive advantage at Bank of America. To learn more about Bank of America's commitment to innovation and the environment, visit the following:
+World-class debt origination and syndication require premier sales, trading, research and capital markets capabilities. Our sales force maintains active relationships with a broad universe of institutional investors, and our traders are highly experienced at making markets and delivering exceptional execution on behalf of our clients. Our research specialists deliver strategic, forward-looking analyses to help clients evaluate relative value and risk characteristics of various credits, whereas our debt capital markets specialist teams deliver creative solutions for issuers and investors across all asset classes, including high grade, high yield, asset-backed securities, mortgage-backed securities and syndicated loans.
 </p>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
 
 <h2 class="bac">Overview</h2>
 <p class="bac">
-By joining Corporate Workplace you will benefit from:
+Sales and trading professionals together with capital markets product specialists form the core of the global markets business. This is where currencies, interest rates, derivatives and debt instruments are traded across the financial markets and across the globe. Clients include professional counterparties (like other financial institutions), hedge funds, institutional investors (like pension funds), multinational corporations and leading local companies. Working closely together as a team: the research team provides market analysis and up-to-the-minute ideas; the traders price the products and manage the risk; the sales teams match the investment opportunity to the client and close the sale; and the capital markets specialists identify the best funding solution for the client and work with our bankers to structure and price the transaction, and successfully bring it to the global financial markets.
 </p>
-<ul class="bac">
-	<li><b>World-class career development opportunities</b> comprehensive on-boarding, executive mentoring, and Training programs to foster your continuous development</li>
-	<li><b>Enterprise-wide access and exposure</b> cross-functional initiatives providing unparalleled opportunities to learn inside a dynamic, global financial services organization</li>
-</ul>
 <p class="bac">
-The Corporate Workplace Senior Analyst, depending on assignment, may take on roles and responsibilities such as:
+Placed in a sales, trading or specialized capital markets product group position on a specific product desk, Analysts analyze, structure and sell debt securities; execute innovative financial risk programs; and provide integrated solutions to corporate clients and institutional investors, through: 
 </p>
 <ul class="bac">
-	<li>Financial modeling to provide revenue generation, cost reduction, and risk/return strategies to clients</li>
-	<li>Management of a team on an on-going basis</li>
-	<li>Strategic planning of the bank's real estate portfolio to maximize shareholder value</li>
-	<li>Continuous process improvement (e.g. buyer/seller preparation, project management, capital planning)</li>
-	<li>Leading teams in high-profile initiatives that affect both the bottom line and associate satisfaction</li>
-	<li>Innovative change management concerning initiatives from all functional areas of the bank</li>
+	<li>Tracking current market, industry and company activity</li>
+	<li>Developing economic forecasts and research</li>
+	<li>Providing critical data and insight on companies, industries and transactions</li>
+	<li>Demonstrating understanding of client objectives and our comprehensive suite of products and services</li>
+	<li>Preparing and presenting new ideas</li>
+	<li>Conducting client due diligence and advanced financial modeling</li>
+	<li>Structuring, pitching and executing transactions in close coordination with professionals throughout the organization, including senior management, group heads, senior economists, product specialists, corporate bankers and fellow Analysts.</li>
 </ul>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
 
 <h2 class="bac">Qualifications</h2>
 <p class="bac">
-Education and skills:
+Candidates must demonstrate a combination of academic aptitude, quantitative skills, strategic and creative thinking and distinguished written and oral communications skills. Analysts are required to manage several projects at once and work effectively as an individual and as part of a team. Some common driving characteristics we look for assertiveness, attention to detail, exceptional academic achievement, initiative, team focus, intensity and a passion for the markets, leadership, self-confidence, strategic and creative thinking capabilities, strong work ethic, strong communication skills and dedication to a career in global markets.  In addition, you must have obtained or are realistically expecting to obtain a minimum GPA 3.5 or 2:1 degree or equivalent.  Fluency in a second European language is a distinct advantage.
 </p>
-<ul class="bac">
-	<li>MBA or Master's degree s in Real Estate; Undergraduate degree in Finance preferred</li>
-	<li>3 or more years of work experience</li>
-	<li>Professional presentation and communication skills with a high degree of integrity and accuracy</li>
-	<li>Advanced financial and analytical skills</li>
-	<li>Ability to interpret complex data and form conclusions/solutions</li>
-	<li>Strong technical skills including proficiency with tools such as Excel, Access, and PowerPoint</li>
-	<li>Eligibility to work in the United States</li>
-</ul>
 
+<img src="../images/clear.gif" class="bac" alt=""><br clear="all">
+
+<h2 class="bac">Training</h2>
 <p class="bac">
-Personality characteristics:
+Bank of America's summer analyst programme is the ideal opportunity to gain an introduction into the world of technology. The 10-week programme kicks off with an induction week covering core skills before you hit your desk where you will work along side our fulltime associates.  Throughout the summer, as well as receiving support from your line manager, HR and a buddy, you will also experience a number of social and educational events giving you a great insight into Bank of America. If you perform well over the summer, you may go back to university with a job offer for the following year enabling you to truly focus on your studies.
 </p>
-<ul class="bac">
-	<li><b>Client focus</b> - Maintains effective relationships with clients by gaining trust and respect</li>
-	<li><b>Business acumen</b> - Knowledgeable in current and possible future policies, practices, and trends; knows the competition and how strategies and tactics work in the marketplace</li>
-	<li><b>Process management</b> - Knows how to combine tasks into efficient work flow, and simplify complex processes</li>
-	<li><b>Organizational agility</b> - Knows how to get things done through formal channels and informal networks</li>
-	<li><b>Dealing with ambiguity</b> - Can effectively cope with change and comfortably handle risk and uncertainty</li>
-</ul>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
 
 <h2 class="bac">Locations</h2>
 <p class="bac">
-Charlotte, NC <span class="middot">&middot;</span> Dallas, TX <span class="middot">&middot;</span> Houston, TX <span class="middot">&middot;</span> New York, NY <span class="middot">&middot;</span> Chicago, IL <span class="middot">&middot;</span> San Francisco, CA
+Analysts will work in Canary Wharf, London.
 </p>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
 
 <h2 class="bac">How to Apply</h2>
 <p class="bac">
-In order to be considered a candidate for this opportunity, you must apply via this web site.  To <a href="<% If page_section <> "ADA" Then  %>../learnmore/<% Else  %>../ada/<% End If %>sendresume.asp" class="bac">submit your profile</a>, first sign in as a new or returning user.  If you don't have an existing account, you'll need to register as a new user.  Then, complete your Candidate Profile and designate your program(s) of interest.  Please note that in order for your application to be considered complete, you must reach the final “Thank You” page. In addition, please follow any procedures set forth through the Career Services office on your campus. 
+Candidates should apply online through the Bank of America careers website at <a href="<% If page_section <> "ADA" Then  %>../campusrecruiting/<% Else  %>../ada_camp/<% End If %>" class="bac">www.bankofamerica.com/campusrecruiting</a>.
 </p>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">

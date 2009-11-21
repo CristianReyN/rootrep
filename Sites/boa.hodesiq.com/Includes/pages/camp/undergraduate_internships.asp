@@ -86,7 +86,6 @@ tabs[<%=tab%>-1].coremetrics = true;
 			<li><a href="ui_emea_cm.asp" class="bac">Capital Markets</a></li>
 			<li><a href="ui_emea_gib.asp" class="bac">Global Investment Banking</a></li>
 			<li><a href="ui_emea_gm.asp" class="bac">Global Markets</a></li>
-			<li><a href="ui_emea_gmo.asp" class="bac">Global Middle Office</a></li>
 			<li><a href="ui_emea_gps.asp" class="bac">Global Products Solutions</a></li>
 			<li><a href="ui_emea_grm.asp" class="bac">Global Risk Management</a></li>
 			<li><a href="ui_emea_tech.asp" class="bac">Technology</a></li>
