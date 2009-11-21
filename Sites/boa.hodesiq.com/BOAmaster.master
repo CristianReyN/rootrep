@@ -164,7 +164,7 @@ if ( hasRequestedVersion ) {
                                 </tr>
                             </table>
                             <form runat="server" id="frm">
-                            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                            <asp:ContentPlaceHolder ID="cphmain" runat="server">
                             </asp:ContentPlaceHolder>
                             </form>
                             <br />
