@@ -381,6 +381,7 @@ function pauseVideo(objname)
 	}
 }
 var flashplayer = new fpvideo("../Includes/flashplayer.swf",259,166);
+var flashplayer2 = new fpvideo("../Includes/flashplayer.swf",260,167);
 
 function fpvideo(swf_url,w,h)
 {
@@ -483,36 +484,36 @@ shuwen_video = new fvideo(
 
 var alejandro_a1, alejandro_a2, alejandro_a3, alejandro_a4;
 alejandro_a1 = new fvideo(
-					flashplayer.swf_url,
+					flashplayer2.swf_url,
 					"http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/DITL_TESTIMONIAL/alejandro_quest_1.flv",
-					flashplayer,
+					flashplayer2,
 					"#answ1",
 					"../Includes/pages/lob/thumbnails/alejandro_on.jpg",
 					"../Includes/pages/lob/thumbnails/alejandro_on.jpg",
 					fairbrother_video
 					);
 alejandro_a2 = new fvideo(
-					flashplayer.swf_url,
+					flashplayer2.swf_url,
 					"http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/DITL_TESTIMONIAL/alejandro_quest_2.flv",
-					flashplayer,
+					flashplayer2,
 					"#answ2",
 					"../Includes/pages/lob/thumbnails/alejandro_on.jpg",
 					"../Includes/pages/lob/thumbnails/alejandro_on.jpg",
 					fairbrother_video
 					);
 alejandro_a3 = new fvideo(
-					flashplayer.swf_url,
+					flashplayer2.swf_url,
 					"http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/DITL_TESTIMONIAL/alejandro_quest_3.flv",
-					flashplayer,
+					flashplayer2,
 					"#answ3",
 					"../Includes/pages/lob/thumbnails/alejandro_on.jpg",
 					"../Includes/pages/lob/thumbnails/alejandro_on.jpg",
 					fairbrother_video
 					);
 alejandro_a4 = new fvideo(
-					flashplayer.swf_url,
+					flashplayer2.swf_url,
 					"http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/DITL_TESTIMONIAL/alejandro_quest_4.flv",
-					flashplayer,
+					flashplayer2,
 					"#answ4",
 					"../Includes/pages/lob/thumbnails/alejandro_on.jpg",
 					"../Includes/pages/lob/thumbnails/alejandro_on.jpg",
@@ -521,27 +522,27 @@ alejandro_a4 = new fvideo(
 
 var andy_a1, andy_a2, andy_a3;
 andy_a1 = new fvideo(
-					flashplayer.swf_url,
+					flashplayer2.swf_url,
 					"http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/DITL_TESTIMONIAL/BOA_ANDY_PART1.flv",
-					flashplayer,
+					flashplayer2,
 					"#answ1",
 					"../Includes/pages/lob/thumbnails/andy_on.jpg",
 					"../Includes/pages/lob/thumbnails/andy_on.jpg",
 					saulsberry_video
 					);
 andy_a2 = new fvideo(
-					flashplayer.swf_url,
+					flashplayer2.swf_url,
 					"http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/DITL_TESTIMONIAL/BOA_ANDY_PART2.flv",
-					flashplayer,
+					flashplayer2,
 					"#answ2",
 					"../Includes/pages/lob/thumbnails/andy_on.jpg",
 					"../Includes/pages/lob/thumbnails/andy_on.jpg",
 					saulsberry_video
 					);
 andy_a3 = new fvideo(
-					flashplayer.swf_url,
+					flashplayer2.swf_url,
 					"http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/DITL_TESTIMONIAL/BOA_ANDY_PART3.flv",
-					flashplayer,
+					flashplayer2,
 					"#answ3",
 					"../Includes/pages/lob/thumbnails/andy_on.jpg",
 					"../Includes/pages/lob/thumbnails/andy_on.jpg",
@@ -550,27 +551,27 @@ andy_a3 = new fvideo(
 
 var charles_a1, charles_a2, charles_a3;
 charles_a1 = new fvideo(
-					flashplayer.swf_url,
+					flashplayer2.swf_url,
 					"http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/DITL_TESTIMONIAL/charles_quest_1.flv",
-					flashplayer,
+					flashplayer2,
 					"#answ1",
 					"../Includes/pages/lob/thumbnails/charles_on.jpg",
 					"../Includes/pages/lob/thumbnails/charles_on.jpg",
 					price_video
 					);
 charles_a2 = new fvideo(
-					flashplayer.swf_url,
+					flashplayer2.swf_url,
 					"http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/DITL_TESTIMONIAL/charles_quest_2.flv",
-					flashplayer,
+					flashplayer2,
 					"#answ2",
 					"../Includes/pages/lob/thumbnails/charles_on.jpg",
 					"../Includes/pages/lob/thumbnails/charles_on.jpg",
 					price_video
 					);
 charles_a3 = new fvideo(
-					flashplayer.swf_url,
+					flashplayer2.swf_url,
 					"http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/DITL_TESTIMONIAL/charles_quest_3.flv",
-					flashplayer,
+					flashplayer2,
 					"#answ3",
 					"../Includes/pages/lob/thumbnails/charles_on.jpg",
 					"../Includes/pages/lob/thumbnails/charles_on.jpg",
@@ -579,27 +580,27 @@ charles_a3 = new fvideo(
 
 var kim_a1, kim_a2, kim_a3;
 kim_a1 = new fvideo(
-					flashplayer.swf_url,
+					flashplayer2.swf_url,
 					"http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/DITL_TESTIMONIAL/kim_quest_1.flv",
-					flashplayer,
+					flashplayer2,
 					"#answ1",
 					"../Includes/pages/lob/thumbnails/kim_on.jpg",
 					"../Includes/pages/lob/thumbnails/kim_on.jpg",
 					chen_video
 					);
 kim_a2 = new fvideo(
-					flashplayer.swf_url,
+					flashplayer2.swf_url,
 					"http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/DITL_TESTIMONIAL/kim_quest_2.flv",
-					flashplayer,
+					flashplayer2,
 					"#answ2",
 					"../Includes/pages/lob/thumbnails/kim_on.jpg",
 					"../Includes/pages/lob/thumbnails/kim_on.jpg",
 					chen_video
 					);
 kim_a3 = new fvideo(
-					flashplayer.swf_url,
+					flashplayer2.swf_url,
 					"http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/DITL_TESTIMONIAL/kim_quest_3.flv",
-					flashplayer,
+					flashplayer2,
 					"#answ3",
 					"../Includes/pages/lob/thumbnails/kim_on.jpg",
 					"../Includes/pages/lob/thumbnails/kim_on.jpg",
@@ -608,27 +609,27 @@ kim_a3 = new fvideo(
 
 var nancy_a1, nancy_a2, nancy_a3;
 nancy_a1 = new fvideo(
-					flashplayer.swf_url,
+					flashplayer2.swf_url,
 					"http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/DITL_TESTIMONIAL/nancy_quest_1.flv",
-					flashplayer,
+					flashplayer2,
 					"#answ1",
 					"../Includes/pages/lob/thumbnails/nancy_on.jpg",
 					"../Includes/pages/lob/thumbnails/nancy_on.jpg",
 					craig_video
 					);
 nancy_a2 = new fvideo(
-					flashplayer.swf_url,
+					flashplayer2.swf_url,
 					"http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/DITL_TESTIMONIAL/nancy_quest_2.flv",
-					flashplayer,
+					flashplayer2,
 					"#answ2",
 					"../Includes/pages/lob/thumbnails/nancy_on.jpg",
 					"../Includes/pages/lob/thumbnails/nancy_on.jpg",
 					craig_video
 					);
 nancy_a3 = new fvideo(
-					flashplayer.swf_url,
+					flashplayer2.swf_url,
 					"http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/DITL_TESTIMONIAL/nancy_quest_3.flv",
-					flashplayer,
+					flashplayer2,
 					"#answ3",
 					"../Includes/pages/lob/thumbnails/nancy_on.jpg",
 					"../Includes/pages/lob/thumbnails/nancy_on.jpg",
@@ -637,27 +638,27 @@ nancy_a3 = new fvideo(
 
 var ryan_a2, ryan_a3, ryan_a4;
 ryan_a2 = new fvideo(
-					flashplayer.swf_url,
+					flashplayer2.swf_url,
 					"http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/DITL_TESTIMONIAL/ryan_quest_2.flv",
-					flashplayer,
+					flashplayer2,
 					"#answ2",
 					"../Includes/pages/lob/thumbnails/ryan_on.jpg",
 					"../Includes/pages/lob/thumbnails/ryan_on.jpg",
 					cambra_video
 					);
 ryan_a3 = new fvideo(
-					flashplayer.swf_url,
+					flashplayer2.swf_url,
 					"http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/DITL_TESTIMONIAL/ryan_quest_3.flv",
-					flashplayer,
+					flashplayer2,
 					"#answ3",
 					"../Includes/pages/lob/thumbnails/ryan_on.jpg",
 					"../Includes/pages/lob/thumbnails/ryan_on.jpg",
 					cambra_video
 					);
 ryan_a4 = new fvideo(
-					flashplayer.swf_url,
+					flashplayer2.swf_url,
 					"http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/DITL_TESTIMONIAL/ryan_quest_4.flv",
-					flashplayer,
+					flashplayer2,
 					"#answ4",
 					"../Includes/pages/lob/thumbnails/ryan_on.jpg",
 					"../Includes/pages/lob/thumbnails/ryan_on.jpg",
@@ -666,27 +667,27 @@ ryan_a4 = new fvideo(
 
 var sheila_a1, sheila_a2, sheila_a3;
 sheila_a1 = new fvideo(
-					flashplayer.swf_url,
+					flashplayer2.swf_url,
 					"http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/DITL_TESTIMONIAL/sheila_quest_1.flv",
-					flashplayer,
+					flashplayer2,
 					"#answ1",
 					"../Includes/pages/lob/thumbnails/sheila_on.jpg",
 					"../Includes/pages/lob/thumbnails/sheila_on.jpg",
 					shuwen_video
 					);
 sheila_a2 = new fvideo(
-					flashplayer.swf_url,
+					flashplayer2.swf_url,
 					"http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/DITL_TESTIMONIAL/sheila_quest_2.flv",
-					flashplayer,
+					flashplayer2,
 					"#answ2",
 					"../Includes/pages/lob/thumbnails/sheila_on.jpg",
 					"../Includes/pages/lob/thumbnails/sheila_on.jpg",
 					shuwen_video
 					);
 sheila_a3 = new fvideo(
-					flashplayer.swf_url,
+					flashplayer2.swf_url,
 					"http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/DITL_TESTIMONIAL/sheila_quest_3.flv",
-					flashplayer,
+					flashplayer2,
 					"#answ13",
 					"../Includes/pages/lob/thumbnails/sheila_on.jpg",
 					"../Includes/pages/lob/thumbnails/sheila_on.jpg",
@@ -695,36 +696,36 @@ sheila_a3 = new fvideo(
 
 var tammi_a1, tammi_a2, tammi_a3, tammi_a4;
 tammi_a1 = new fvideo(
-					flashplayer.swf_url,
+					flashplayer2.swf_url,
 					"http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/DITL_TESTIMONIAL/tammi_quest_1.flv",
-					flashplayer,
+					flashplayer2,
 					"#answ1",
 					"../Includes/pages/lob/thumbnails/tammi_on.jpg",
 					"../Includes/pages/lob/thumbnails/tammi_on.jpg",
 					diaz_video
 					);
 tammi_a2 = new fvideo(
-					flashplayer.swf_url,
+					flashplayer2.swf_url,
 					"http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/DITL_TESTIMONIAL/tammi_quest_2.flv",
-					flashplayer,
+					flashplayer2,
 					"#answ2",
 					"../Includes/pages/lob/thumbnails/tammi_on.jpg",
 					"../Includes/pages/lob/thumbnails/tammi_on.jpg",
 					diaz_video
 					);
 tammi_a3 = new fvideo(
-					flashplayer.swf_url,
+					flashplayer2.swf_url,
 					"http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/DITL_TESTIMONIAL/tammi_quest_3.flv",
-					flashplayer,
+					flashplayer2,
 					"#answ3",
 					"../Includes/pages/lob/thumbnails/tammi_on.jpg",
 					"../Includes/pages/lob/thumbnails/tammi_on.jpg",
 					diaz_video
 					);
 tammi_a4 = new fvideo(
-					flashplayer.swf_url,
+					flashplayer2.swf_url,
 					"http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/DITL_TESTIMONIAL/tammi_quest_4.flv",
-					flashplayer,
+					flashplayer2,
 					"#answ1",
 					"../Includes/pages/lob/thumbnails/tammi_on.jpg",
 					"../Includes/pages/lob/thumbnails/tammi_on.jpg",
@@ -733,27 +734,27 @@ tammi_a4 = new fvideo(
 
 var tara_a1, tara_a2, tara_a3;
 tara_a1 = new fvideo(
-					flashplayer.swf_url,
+					flashplayer2.swf_url,
 					"http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/DITL_TESTIMONIAL/tara_quest_1.flv",
-					flashplayer,
+					flashplayer2,
 					"#answ1",
 					"../Includes/pages/lob/thumbnails/tara_on.jpg",
 					"../Includes/pages/lob/thumbnails/tara_on.jpg",
 					jeremy_video
 					);
 tara_a2 = new fvideo(
-					flashplayer.swf_url,
+					flashplayer2.swf_url,
 					"http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/DITL_TESTIMONIAL/tara_quest_2.flv",
-					flashplayer,
+					flashplayer2,
 					"#answ2",
 					"../Includes/pages/lob/thumbnails/tara_on.jpg",
 					"../Includes/pages/lob/thumbnails/tara_on.jpg",
 					jeremy_video
 					);
 tara_a3 = new fvideo(
-					flashplayer.swf_url,
+					flashplayer2.swf_url,
 					"http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/DITL_TESTIMONIAL/tara_quest_3.flv",
-					flashplayer,
+					flashplayer2,
 					"#answ3",
 					"../Includes/pages/lob/thumbnails/tara_on.jpg",
 					"../Includes/pages/lob/thumbnails/tara_on.jpg",

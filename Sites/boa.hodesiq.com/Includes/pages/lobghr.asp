@@ -46,6 +46,8 @@
 At Bank&nbsp;of&nbsp;America, we understand that the success of an organization depends on its people. The Global Human Resources team at Bank&nbsp;of&nbsp;America plays an integral role in driving that success. It aligns Human Resources strategy to the business strategy, enabling the company to drive revenue growth through attracting, developing and retaining a world-class workforce. 
 <br><br>
 In addition to advising our clients on a wide variety of topics, the Global Human Resources team helps the company deliver a higher standard of benefits, work/life commitment and satisfaction to our over 200,000 associates world-wide. Our Global Human Resources associates must display strong business acumen, relationship building and strategic partnership and execution across several businesses.
+<br><br>
+Interested in joining the "World's Most Admired Global Bank"? We invite you to explore career opportunities on our dynamic Human Resources team.
 </p>
 <br>
 <H1 style="margin: 0px <%=right_margin%>px 9px <%=left_margin_0%>px; width: <%=(315-right_margin_split-left_margin_0)%>px;">Frequently Asked Questions</H1>
@@ -109,10 +111,7 @@ Associates with a proven track record for success have an opportunity to grow in
 
 </div>
 <br><br>
-<H2 class="h2" style="margin: 12px <%=right_margin%>px 2px <%=left_margin_0%>px;">Hot Job Postings</H2>
-<p style="margin: 6px 12px 12px <%=left_margin_0%>px;">
-Interested in joining the "World's Most Admired Global Bank"? We invite you to explore career opportunities on our dynamic Human Resources team.
-</p>
+<H2 class="h2" style="margin: 12px <%=right_margin%>px 12px <%=left_margin_0%>px;">Hot Job Postings</H2>
 <table cellpadding="2" cellspacing="0" border="0" summary="" style="margin-left: <%=left_margin_0%>px;">
 <!--#include file="../../hot_jobs.asp"-->
 </table>
