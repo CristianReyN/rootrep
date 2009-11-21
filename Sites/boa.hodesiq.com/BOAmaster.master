@@ -331,19 +331,19 @@ function popAoT(show)
 			<tr valign="top"><td style="background: #7F99B2;"><img src="images/clear.gif" width="154" height="1" alt="" border="0" /></td></tr>
 			<tr valign="top"><td style="background: #cadceb; padding: 5px 6px 5px 14px;"><a href="communications/" class="sbtxt" title="Communications" onfocus="this.className='sbtxt-over';tdiv(false);" onblur="this.className='sbtxt';tdiv(true);">Communications</a></td></tr>
 			<tr valign="top"><td style="background: #7F99B2;"><img src="images/clear.gif" width="154" height="1" alt="" border="0" /></td></tr>
-			<tr valign="top"><td style="background: #cadceb; padding: 5px 6px 5px 14px;"><a href="finance/" class="sbtxt" title="Finance" onfocus="this.className='sbtxt-over';tdiv(false);" onblur="this.className='sbtxt';tdiv(true);">Finance</a></td></tr>
+			<tr valign="top"><td style="background: #cadceb; padding: 5px 6px 5px 14px;"><a href="finance/" class="sbtxt" title="CFO Group/Finance" onfocus="this.className='sbtxt-over';tdiv(false);" onblur="this.className='sbtxt';tdiv(true);">CFO Group/Finance</a></td></tr>
 			<tr valign="top"><td style="background: #7F99B2;"><img src="images/clear.gif" width="154" height="1" alt="" border="0" /></td></tr>
-			<tr valign="top"><td style="background: #cadceb; padding: 5px 6px 5px 14px;"><a href="humanresources/" class="sbtxt" title="Human Resources" onfocus="this.className='sbtxt-over';tdiv(false);" onblur="this.className='sbtxt';tdiv(true);">Human Resources</a></td></tr>
+			<tr valign="top"><td style="background: #cadceb; padding: 5px 6px 5px 14px;"><a href="hr/" class="sbtxt" title="Human Resources" onfocus="this.className='sbtxt-over';tdiv(false);" onblur="this.className='sbtxt';tdiv(true);">Human Resources</a></td></tr>
 			<tr valign="top"><td style="background: #7F99B2;"><img src="images/clear.gif" width="154" height="1" alt="" border="0" /></td></tr>
 			<tr valign="top"><td style="background: #cadceb; padding: 5px 6px 5px 14px;"><a href="operations/" class="sbtxt" title="Operations" onfocus="this.className='sbtxt-over';tdiv(false);" onblur="this.className='sbtxt';tdiv(true);">Operations</a></td></tr>
 			<tr valign="top"><td style="background: #7F99B2;"><img src="images/clear.gif" width="154" height="1" alt="" border="0" /></td></tr>
-			<tr valign="top"><td style="background: #cadceb; padding: 5px 6px 5px 14px;"><a href="riskevaluation/" class="sbtxt" title="Risk Evaluation" onfocus="this.className='sbtxt-over';tdiv(false);" onblur="this.className='sbtxt';tdiv(true);">Risk Evaluation</a></td></tr>
+			<tr valign="top"><td style="background: #cadceb; padding: 5px 6px 5px 14px;"><a href="riskevaluation/" class="sbtxt" title="Risk" onfocus="this.className='sbtxt-over';tdiv(false);" onblur="this.className='sbtxt';tdiv(true);">Risk</a></td></tr>
 			<tr valign="top"><td style="background: #7F99B2;"><img src="images/clear.gif" width="154" height="1" alt="" border="0" /></td></tr>
 			<tr valign="top"><td style="background: #cadceb; padding: 5px 6px 5px 14px;"><a href="sales/" class="sbtxt" title="Sales" onfocus="this.className='sbtxt-over';tdiv(false);" onblur="this.className='sbtxt';tdiv(true);">Sales</a></td></tr>
 			<tr valign="top"><td style="background: #7F99B2;"><img src="images/clear.gif" width="154" height="1" alt="" border="0" /></td></tr>
 			<tr valign="top"><td style="background: #cadceb; padding: 5px 6px 5px 14px;"><a href="technology/" class="sbtxt" title="Technology" onfocus="this.className='sbtxt-over';tdiv(false);" onblur="this.className='sbtxt';tdiv(true);">Technology</a></td></tr>
 			<tr valign="top"><td style="background: #7F99B2;"><img src="images/clear.gif" width="154" height="1" alt="" border="0" /></td></tr>
-			<tr valign="top"><td style="background: #cadceb; padding: 5px 6px 5px 14px;"><a href="consumerbanking/" id="consumerbanking" class="sbtxt" title="Consumer Banking" onfocus="this.className='sbtxt-over';tdiv(false);" onblur="this.className='sbtxt';tdiv(true);">Consumer Banking</a></td></tr>
+			<tr valign="top"><td style="background: #cadceb; padding: 5px 6px 5px 14px;"><a href="consumerbank/" id="consumerbanking" class="sbtxt" title="Consumer Banking" onfocus="this.className='sbtxt-over';tdiv(false);" onblur="this.className='sbtxt';tdiv(true);">Consumer Banking</a></td></tr>
 </table>
 </div>
 
@@ -376,11 +376,11 @@ function poplob(show)
 <table width="160" cellpadding="0" cellspacing="0" border="0" summary="">
 			<tr valign="top"><td style="background: #cadceb; padding: 5px 6px 5px 14px;"><div id="lobpopupdv" style="position: absolute;"><a name="lnav7" id="lobpopup"></a></div><a href="learnmore/lobgcsbb.asp" id="globalconsumer" class="sbtxt" title="Global Consumer &amp; Small Business Banking" onfocus="this.className='sbtxt-over'; tdiv(false);" onblur="this.className='sbtxt';tdiv(true);">Global Consumer &amp; Small Business Banking</a></td></tr>
 			<tr valign="top"><td style="background: #7F99B2;"><img src="images/clear.gif" width="154" height="1" alt="" border="0" /></td></tr>
-			<tr valign="top"><td style="background: #cadceb; padding: 5px 6px 5px 14px;"><a href="learnmore/lobgcib.asp" class="sbtxt" title="Global Corporate &amp; Investment Banking" onfocus="this.className='sbtxt-over';tdiv(false);" onblur="this.className='sbtxt';tdiv(true);">Global Corporate &amp; Investment Banking</a></td></tr>
+			<tr valign="top"><td style="background: #cadceb; padding: 5px 6px 5px 14px;"><a href="gcib/" class="sbtxt" title="Global Corporate &amp; Investment Banking" onfocus="this.className='sbtxt-over';tdiv(false);" onblur="this.className='sbtxt';tdiv(true);">Global Corporate &amp; Investment Banking</a></td></tr>
 			<tr valign="top"><td style="background: #7F99B2;"><img src="images/clear.gif" width="154" height="1" alt="" border="0" /></td></tr>
-			<tr valign="top"><td style="background: #cadceb; padding: 5px 6px 5px 14px;"><a href="learnmore/lobgwim.asp" class="sbtxt" title="Global Wealth &amp; Investment Management" onfocus="this.className='sbtxt-over';tdiv(false);" onblur="this.className='sbtxt';tdiv(true);">Global Wealth &amp; Investment Management</a></td></tr>
+			<tr valign="top"><td style="background: #cadceb; padding: 5px 6px 5px 14px;"><a href="wealthmanagement/" class="sbtxt" title="Global Wealth &amp; Investment Management" onfocus="this.className='sbtxt-over';tdiv(false);" onblur="this.className='sbtxt';tdiv(true);">Global Wealth &amp; Investment Management</a></td></tr>
 			<tr valign="top"><td style="background: #7F99B2;"><img src="images/clear.gif" width="154" height="1" alt="" border="0" /></td></tr>
-			<tr valign="top"><td style="background: #cadceb; padding: 5px 6px 5px 14px;"><a href="learnmore/lobgto.asp" class="sbtxt" title="Global Technology &amp; Operations" onfocus="this.className='sbtxt-over';tdiv(false);" onblur="this.className='sbtxt';tdiv(true);">Global Technology &amp; Operations</a></td></tr>
+			<tr valign="top"><td style="background: #cadceb; padding: 5px 6px 5px 14px;"><a href="technology/" class="sbtxt" title="Global Technology &amp; Operations" onfocus="this.className='sbtxt-over';tdiv(false);" onblur="this.className='sbtxt';tdiv(true);">Global Technology &amp; Operations</a></td></tr>
 			<tr valign="top"><td style="background: #7F99B2;"><img src="images/clear.gif" width="154" height="1" alt="" border="0" /></td></tr>
 			<tr valign="top"><td style="background: #cadceb; padding: 5px 6px 5px 14px;"><a href="learnmore/lobcss.asp" class="sbtxt" title="Corporate Staff &amp; Support" onfocus="this.className='sbtxt-over';tdiv(false);" onblur="this.className='sbtxt';tdiv(true);">Corporate Staff &amp; Support</a></td></tr>
 			<tr valign="top"><td style="background: #7F99B2;"><img src="images/clear.gif" width="154" height="1" alt="" border="0" /></td></tr>
