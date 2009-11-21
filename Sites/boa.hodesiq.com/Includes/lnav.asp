@@ -96,9 +96,6 @@
 				<li<% if spage = "humanresources" then Response.Write " style=""background: #eaf1f7;""" end if %>>
 <div><a href="../hr/" class="sbtxt" title="Human Resources" onfocus="this.className='sbtxt-over';" onblur="this.className='sbtxt';">Human Resources</a></div>
 				</li>
-				<li<% if spage = "mortgagecareers" then Response.Write " style=""background: #eaf1f7;""" end if %>>
-<div><a href="../mortgagecareers/" class="sbtxt" title="Mortgage" onfocus="this.className='sbtxt-over';" onblur="this.className='sbtxt';">Mortgage</a></div>
-				</li>
 				<li<% if spage = "operations" then Response.Write " style=""background: #eaf1f7;""" end if %>>
 <div><a href="../operations/" class="sbtxt" title="Operations" onfocus="this.className='sbtxt-over';" onblur="this.className='sbtxt';">Operations</a></div>
 				</li>
