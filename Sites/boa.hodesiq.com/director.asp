@@ -24,7 +24,7 @@ end if
 		scrolling   ="no"
 		frameborder ="no"
 		noresize="noresize"
-		src= "images/BoA_Header.jpg"
+		src= "frameheader.asp"
 		title="Bank of America header"
 		/>
 	<frame name="main" 
