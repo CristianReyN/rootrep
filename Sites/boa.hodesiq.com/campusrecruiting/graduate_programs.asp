@@ -9,7 +9,7 @@ ada_href = "../ada_camp/graduate_programs.asp"
 page_self = "../campusrecruiting/graduate_programs.asp"
 ada_title = breadcrumb & "Campus Recruiting | Explore Careers | Graduate Programs"
 job_search_action = "../jobsearch/searchresult.asp"
-Metatag=""
+Metatag="Graduate Programs Overview page of campus site. Lists programs available for students with advanced degrees within the Bank's many Lines of Business, in the U.S. and internationally."
 Dim r1,r2,r3
 r1 = False
 r2 = False

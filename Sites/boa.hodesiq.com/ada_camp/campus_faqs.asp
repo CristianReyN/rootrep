@@ -8,7 +8,7 @@ tpage = "campus_faqs"
 standart_href = "../campusrecruiting/campus_faqs.asp"
 page_self = "../ada_camp/campus_faqs.asp"
 job_search_action = "../jobsearch/searchresult.asp"
-Metatag=""
+Metatag="FAQs Overview page of campus site. Includes answers to common questions about Bank of America and careers in the U.S. and internationally. Campus Events and Career Fit & Profile Submission Tools."
 page_section="ADA"
 Dim flashPage
 flashPage = false

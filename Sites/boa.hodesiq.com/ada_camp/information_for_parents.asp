@@ -8,7 +8,7 @@ tpage = "information_for_parents"
 standart_href = "../campusrecruiting/information_for_parents.asp"
 page_self = "../ada_camp/information_for_parents.asp"
 job_search_action = "../jobsearch/searchresult.asp"
-Metatag=""
+Metatag="Information for Parents Overview page on campus site. Includes links to benefits, development, community involvement programs and Campus Events, Career Fit & Profile Submission Tools."
 page_section="ADA"
 Dim flashPage
 flashPage = false

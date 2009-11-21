@@ -8,7 +8,7 @@ tpage = "interview_tips"
 standart_href = "../campusrecruiting/interview_tips.asp"
 page_self = "../ada_camp/interview_tips.asp"
 job_search_action = "../jobsearch/searchresult.asp"
-Metatag=""
+Metatag="Interview Tips Overview page on campus site. Provides in-depth suggestions for preparing for and succeeding in the interview process. Campus Events and Career Fit & Profile Submission Tools."
 page_section="ADA"
 Dim flashPage
 flashPage = false

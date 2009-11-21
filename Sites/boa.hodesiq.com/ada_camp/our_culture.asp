@@ -6,7 +6,7 @@ mpage = "camp"
 spage = "our_culture"
 standart_href = "../campusrecruiting/our_culture.asp"
 job_search_action = "../jobsearch/searchresult.asp"
-Metatag=""
+Metatag="Culture Overview page of campus site. Includes links to details on diversity, benefits, work environment, info for parents, Campus Events and Career Fit and Profile Submission Tools."
 page_section="ADA"
 Dim flashPage
 flashPage = false

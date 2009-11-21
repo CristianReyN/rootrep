@@ -8,7 +8,8 @@ ada_href = "../ada_camp/default.asp"
 page_self = "../campusrecruiting/default.asp"
 ada_title = breadcrumb & "Campus Recruiting"
 job_search_action = "../jobsearch/searchresult.asp"
-Metatag=""
+Metatag="Bank of America's main college campus recruiting page. User functions include a Career Fit Tool, Campus Events and Profile Submission Tool."
+Keywords="Bank of America, Bank, Careers, Talent, Training, Opportunities, Career Fit, Campus Events, Find Your Match, Meet Recruiters, Get Started, Campus, Campus Recruiting, Recruiting, Recruiter, Lines of Business, Explore Careers, Find Your Fit, Global Careers. Choose. Connect. Grow."
 Dim r1,r2,r3
 r1 = True
 r2 = True

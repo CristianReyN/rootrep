@@ -8,7 +8,7 @@ tpage = "making_a_difference"
 standart_href = "../campusrecruiting/making_a_difference.asp"
 page_self = "../ada_camp/making_a_difference.asp"
 job_search_action = "../jobsearch/searchresult.asp"
-Metatag=""
+Metatag="Community Involvement Overview page of campus site. Includes details of the Bank's community and corporate philanthropy programs, Campus Events and Career Fit and Profile Submission Tools."
 page_section="ADA"
 Dim flashPage
 flashPage = false

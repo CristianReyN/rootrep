@@ -9,7 +9,7 @@ ada_href = "../ada_camp/making_a_difference.asp"
 page_self = "../campusrecruiting/making_a_difference.asp"
 ada_title = breadcrumb & "Campus Recruiting | Our Culture | Making a difference"
 job_search_action = "../jobsearch/searchresult.asp"
-Metatag=""
+Metatag="Community Involvement Overview page of campus site. Includes details of the Bank's community and corporate philanthropy programs, Campus Events and Career Fit and Profile Submission Tools."
 Dim r1,r2,r3
 r1 = True
 r2 = True

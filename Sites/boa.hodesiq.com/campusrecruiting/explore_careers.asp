@@ -8,7 +8,7 @@ ada_href = "../ada_camp/explore_careers.asp"
 page_self = "../campusrecruiting/explore_careers.asp"
 ada_title = breadcrumb & "Campus Recruiting | Explore Careers"
 job_search_action = "../jobsearch/searchresult.asp"
-Metatag=""
+Metatag="Student Programs Overview page of campus site. Includes details on Undergrad, Graduate and Internship programs, Campus Events and Career Fit and Profile Submission Tools."
 Dim r1,r2,r3
 r1 = True
 r2 = True

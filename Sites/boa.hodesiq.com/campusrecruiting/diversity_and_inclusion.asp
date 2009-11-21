@@ -9,7 +9,7 @@ ada_href = "../ada_camp/diversity_and_inclusion.asp"
 page_self = "../campusrecruiting/diversity_and_inclusion.asp"
 ada_title = breadcrumb & "Campus Recruiting | Our Culture | Diversity and inclusion"
 job_search_action = "../jobsearch/searchresult.asp"
-Metatag=""
+Metatag="Diversity and Inclusion Overview page of campus site. Includes workforce data, facts, awards & recognition for the Bank's commitment to diversity, Campus Events, Career Fit and Profile Submission Tools."
 Dim r1,r2,r3
 r1 = True
 r2 = True

@@ -8,7 +8,7 @@ tpage = "glossary"
 standart_href = "../campusrecruiting/glossary.asp"
 page_self = "../ada_camp/glossary.asp"
 job_search_action = "../jobsearch/searchresult.asp"
-Metatag=""
+Metatag="Glossary Overview page on campus site. Includes a list of and definitions for common Bank terms and acronyms of value to candidates. Campus Events and Career Fit & Profile Submission Tools."
 page_section="ADA"
 Dim flashPage
 flashPage = false

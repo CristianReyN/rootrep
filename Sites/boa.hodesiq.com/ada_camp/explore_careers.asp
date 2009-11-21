@@ -6,7 +6,7 @@ mpage = "camp"
 spage = "explore_careers"
 standart_href = "../campusrecruiting/explore_careers.asp"
 job_search_action = "../jobsearch/searchresult.asp"
-Metatag=""
+Metatag="Student Programs Overview page of campus site. Includes details on Undergrad, Graduate and Internship programs, Campus Events and Career Fit and Profile Submission Tools."
 page_section="ADA"
 Dim flashPage
 flashPage = false

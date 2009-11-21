@@ -9,7 +9,7 @@ ada_href = "../ada_camp/glossary.asp"
 page_self = "../campusrecruiting/glossary.asp"
 ada_title = breadcrumb & "Campus Recruiting | How to Apply | Glossary"
 job_search_action = "../jobsearch/searchresult.asp"
-Metatag=""
+Metatag="Glossary Overview page on campus site. Includes a list of and definitions for common Bank terms and acronyms of value to candidates. Campus Events and Career Fit & Profile Submission Tools."
 Dim r1,r2,r3
 r1 = True
 r2 = True

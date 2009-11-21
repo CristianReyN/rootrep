@@ -7,7 +7,7 @@ spage = "explore_careers"
 tpage = "graduate_programs"
 standart_href = "../campusrecruiting/graduate_programs.asp"
 job_search_action = "../jobsearch/searchresult.asp"
-Metatag=""
+Metatag="Graduate Programs Overview page of campus site. Lists programs available for students with advanced degrees within the Bank's many Lines of Business, in the U.S. and internationally."
 page_section="ADA"
 Dim flashPage
 flashPage = false

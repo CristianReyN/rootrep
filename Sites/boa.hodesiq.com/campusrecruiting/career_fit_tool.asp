@@ -9,7 +9,7 @@ ada_href = "../ada_camp/career_fit_tool.asp"
 page_self = "../campusrecruiting/career_fit_tool.asp"
 ada_title = breadcrumb & "Campus Recruiting | Find Your Fit | Career Fit Tool"
 job_search_action = "../jobsearch/searchresult.asp"
-Metatag=""
+Metatag="Career Fit Tool detail page on campus site. Provides tailored questionnaire tool to match candidates' skills to ideal positions within the Bank's various Business Areas."
 Dim r1,r2,r3
 r1 = True
 r2 = True

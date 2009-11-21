@@ -6,7 +6,8 @@ mpage = "camp"
 spage = ""
 standart_href = "../campusrecruiting/default.asp"
 job_search_action = "../jobsearch/searchresult.asp"
-Metatag=""
+Metatag="Bank of America's main college campus recruiting page. User functions include a Career Fit Tool, Campus Events and Profile Submission Tool."
+Keywords="Bank of America, Bank, Careers, Talent, Training, Opportunities, Career Fit, Campus Events, Find Your Match, Meet Recruiters, Get Started, Campus, Campus Recruiting, Recruiting, Recruiter, Lines of Business, Explore Careers, Find Your Fit, Global Careers. Choose. Connect. Grow."
 page_section="ADA"
 Dim flashPage
 flashPage = false

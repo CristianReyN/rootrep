@@ -10,7 +10,7 @@ ada_href = "../ada_camp/undergraduate_internships.asp"
 page_self = "../campusrecruiting/undergraduate_internships.asp"
 ada_title = breadcrumb & "Campus Recruiting | Explore Careers | Undergraduate internships"
 job_search_action = "../jobsearch/searchresult.asp"
-Metatag=""
+Metatag="Undergraduate Internships detail page of campus site. Lists internships available specifically for undergrads within the Bank's many Lines of Business in the U.S. and internationally."
 Dim r1,r2,r3
 r1 = False
 r2 = False

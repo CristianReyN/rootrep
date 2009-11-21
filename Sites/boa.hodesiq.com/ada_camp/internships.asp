@@ -7,7 +7,7 @@ spage = "explore_careers"
 tpage = "internships"
 standart_href = "../campusrecruiting/internships.asp"
 job_search_action = "../jobsearch/searchresult.asp"
-Metatag=""
+Metatag="Internship Programs Overview page of campus site. Includes details, benefits and requirements of undergrad and graduate internships available at the Bank in the U.S. and internationally."
 page_section="ADA"
 Dim flashPage
 flashPage = false

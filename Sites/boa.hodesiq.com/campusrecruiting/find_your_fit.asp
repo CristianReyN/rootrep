@@ -8,7 +8,7 @@ ada_href = "../ada_camp/find_your_fit.asp"
 page_self = "../campusrecruiting/find_your_fit.asp"
 ada_title = breadcrumb & "Campus Recruiting | Find Your Fit"
 job_search_action = "../jobsearch/searchresult.asp"
-Metatag=""
+Metatag="Fit Your Fit Overview page on campus site. Provides links to details of the Bank's various Business Area as well as Campus Events, Career Fit & Profile Submission Tools."
 Dim r1,r2,r3
 r1 = True
 r2 = True

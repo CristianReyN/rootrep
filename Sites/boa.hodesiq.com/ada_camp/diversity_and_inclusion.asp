@@ -8,7 +8,7 @@ tpage = "diversity_and_inclusion"
 standart_href = "../campusrecruiting/diversity_and_inclusion.asp"
 page_self = "../ada_camp/diversity_and_inclusion.asp"
 job_search_action = "../jobsearch/searchresult.asp"
-Metatag=""
+Metatag="Diversity and Inclusion Overview page of campus site. Includes workforce data, facts, awards & recognition for the Bank's commitment to diversity, Campus Events, Career Fit and Profile Submission Tools."
 page_section="ADA"
 Dim flashPage
 flashPage = false

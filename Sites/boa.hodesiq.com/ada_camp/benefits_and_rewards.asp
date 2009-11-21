@@ -8,7 +8,7 @@ tpage = "benefits_and_rewards"
 standart_href = "../campusrecruiting/benefits_and_rewards.asp"
 page_self = "../ada_camp/benefits_and_rewards.asp"
 job_search_action = "../jobsearch/searchresult.asp"
-Metatag=""
+Metatag="Benefits Overview page of campus site. Lists details of benefits & rewards available to employees in the U.S. & internationally. Includes Campus Events, Career Fit & Profile Submission Tools."
 page_section="ADA"
 Dim flashPage
 flashPage = false

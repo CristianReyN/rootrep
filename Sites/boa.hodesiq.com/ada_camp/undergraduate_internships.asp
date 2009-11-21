@@ -9,7 +9,7 @@ fpage = "undergraduate_internships"
 standart_href = "../campusrecruiting/undergraduate_internships.asp"
 page_self = "../ada_camp/undergraduate_internships.asp"
 job_search_action = "../jobsearch/searchresult.asp"
-Metatag=""
+Metatag="Undergraduate Internships detail page of campus site. Lists internships available specifically for undergrads within the Bank's many Lines of Business in the U.S. and internationally."
 page_section="ADA"
 Dim flashPage
 flashPage = false

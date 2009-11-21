@@ -6,7 +6,7 @@ mpage = "camp"
 spage = "find_your_fit"
 standart_href = "../campusrecruiting/find_your_fit.asp"
 job_search_action = "../jobsearch/searchresult.asp"
-Metatag=""
+Metatag="Fit Your Fit Overview page on campus site. Provides links to details of the Bank's various Business Area as well as Campus Events, Career Fit & Profile Submission Tools."
 page_section="ADA"
 Dim flashPage
 flashPage = false

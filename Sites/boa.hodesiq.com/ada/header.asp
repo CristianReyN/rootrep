@@ -3,6 +3,7 @@
 <head>
 <title><% Response.Write title & ", Text Only Version" %></title>
 <meta name="Description" content="<%=Metatag%>">
+<%If Keywords <> "" Then %><meta name="Keywords" content="<%=Keywords%>"><%End If %>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
 <link rel="stylesheet" href="../includes/styles.css" type="text/css">
 <link rel="stylesheet" href="../includes/hs_safebutton.css" type="text/css">

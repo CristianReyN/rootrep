@@ -9,7 +9,7 @@ ada_href = "../ada_camp/business_areas.asp"
 page_self = "../campusrecruiting/business_areas.asp"
 ada_title = breadcrumb & "Campus Recruiting | Find Your Fit | Business Areas"
 job_search_action = "../jobsearch/searchresult.asp"
-Metatag=""
+Metatag="Business Areas detail page on campus site. Includes extensive details on the Bank's various U.S. and international Business Areas, Campus Events, Career Fit & Profile Submission Tools."
 Dim r1,r2,r3
 r1 = True
 r2 = True

@@ -9,7 +9,7 @@ fpage = "graduate_internships"
 standart_href = "../campusrecruiting/graduate_internships.asp"
 page_self = "../ada_camp/graduate_internships.asp"
 job_search_action = "../jobsearch/searchresult.asp"
-Metatag=""
+Metatag="Graduate Internships detail page of campus site. Lists internship programs available for students with advanced degrees within the Bank's many Lines of Business, in the U.S. and internationally."
 page_section="ADA"
 Dim flashPage
 flashPage = false

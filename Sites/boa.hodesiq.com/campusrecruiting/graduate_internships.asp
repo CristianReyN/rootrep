@@ -10,7 +10,7 @@ ada_href = "../ada_camp/graduate_internships.asp"
 page_self = "../campusrecruiting/graduate_internships.asp"
 ada_title = breadcrumb & "Campus Recruiting | Explore Careers | Graduate internships"
 job_search_action = "../jobsearch/searchresult.asp"
-Metatag=""
+Metatag="Graduate Internships detail page of campus site. Lists internship programs available for students with advanced degrees within the Bank's many Lines of Business, in the U.S. and internationally."
 Dim r1,r2,r3
 r1 = False
 r2 = False

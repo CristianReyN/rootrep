@@ -8,7 +8,7 @@ ada_href = "../ada_camp/our_culture.asp"
 page_self = "../campusrecruiting/our_culture.asp"
 ada_title = breadcrumb & "Campus Recruiting | Our Culture"
 job_search_action = "../jobsearch/searchresult.asp"
-Metatag=""
+Metatag="Culture Overview page of campus site. Includes links to details on diversity, benefits, work environment, info for parents, Campus Events and Career Fit and Profile Submission Tools."
 Dim r1,r2,r3
 r1 = True
 r2 = True

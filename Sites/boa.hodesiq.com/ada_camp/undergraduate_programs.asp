@@ -7,7 +7,7 @@ spage = "explore_careers"
 tpage = "undergraduate_programs"
 standart_href = "../campusrecruiting/undergraduate_programs.asp"
 job_search_action = "../jobsearch/searchresult.asp"
-Metatag=""
+Metatag="Undergraduate Programs Overview page of campus site. Lists programs available for undergrads within the Bank's many Lines of Business in the U.S. and internationally."
 page_section="ADA"
 Dim flashPage
 flashPage = false

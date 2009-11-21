@@ -6,7 +6,7 @@ mpage = "camp"
 spage = "how_to_apply"
 standart_href = "../campusrecruiting/how_to_apply.asp"
 job_search_action = "../jobsearch/searchresult.asp"
-Metatag=""
+Metatag="Application Overview page on campus site. Provides direct Profile Submission Tool for positions in the U.S. & internationally, and Campus Events & Career Fit Tools."
 page_section="ADA"
 Dim flashPage
 flashPage = false

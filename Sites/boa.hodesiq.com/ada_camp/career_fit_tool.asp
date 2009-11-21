@@ -7,7 +7,7 @@ spage = "find_your_fit"
 tpage = "career_fit_tool"
 standart_href = "../campusrecruiting/career_fit_tool.asp"
 job_search_action = "../jobsearch/searchresult.asp"
-Metatag=""
+Metatag="Career Fit Tool detail page on campus site. Provides tailored questionnaire tool to match candidates' skills to ideal positions within the Bank's various Business Areas."
 page_self = "../ada_camp/career_fit_tool.asp"
 page_section="ADA"
 Dim flashPage

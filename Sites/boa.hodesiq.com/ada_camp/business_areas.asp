@@ -8,7 +8,7 @@ tpage = "business_areas"
 standart_href = "../campusrecruiting/business_areas.asp"
 page_self = "../ada_camp/business_areas.asp"
 job_search_action = "../jobsearch/searchresult.asp"
-Metatag=""
+Metatag="Business Areas detail page on campus site. Includes extensive details on the Bank's various U.S. and international Business Areas, Campus Events, Career Fit & Profile Submission Tools."
 page_section="ADA"
 Dim flashPage
 flashPage = false

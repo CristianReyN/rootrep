@@ -8,7 +8,7 @@ ada_href = "../ada_camp/how_to_apply.asp"
 page_self = "../campusrecruiting/how_to_apply.asp"
 ada_title = breadcrumb & "Campus Recruiting | How to Apply"
 job_search_action = "../jobsearch/searchresult.asp"
-Metatag=""
+Metatag="Application Overview page on campus site. Provides direct Profile Submission Tool for positions in the U.S. & internationally, and Campus Events & Career Fit Tools."
 Dim r1,r2,r3
 r1 = True
 r2 = True

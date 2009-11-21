@@ -9,7 +9,7 @@ ada_href = "../ada_camp/information_for_parents.asp"
 page_self = "../campusrecruiting/information_for_parents.asp"
 ada_title = breadcrumb & "Campus Recruiting | Our Culture | Information for Parents"
 job_search_action = "../jobsearch/searchresult.asp"
-Metatag=""
+Metatag="Information for Parents Overview page on campus site. Includes links to benefits, development, community involvement programs and Campus Events, Career Fit & Profile Submission Tools."
 Dim r1,r2,r3
 r1 = True
 r2 = True
