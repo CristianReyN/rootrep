@@ -1,132 +1,70 @@
 <%
-	Dim areasoftalent,jfamily,stateid,keywords
-	areasoftalent = Request("areasoftalent")
-		If areasoftalent = "" Then areasoftalent = "0"
-	jfamily = Request("jfamily")
+	Dim jobareas,stateid,keywords
+	jobareas = Request("jobareas")
 	stateid = Request("stateid")
 	keywords = Request("keywords")
 	
-	Dim key_()
-		Redim Preserve key_(0)
-	Dim value_()
-		Redim Preserve value_(0)
-	
-	Function set_(key,value)
-		Dim size_
-		size_ = UBound(key_)
-		Redim Preserve key_(size_+1)
-		Redim Preserve value_(size_+1)
-		key_(size_+1) = key
-		value_(size_+1) = value
-	End Function
-	
-	Function get_(key)
-		Dim values()
-		Redim Preserve values(0)
-		If key = "-1" Then
-			'size_key = UBound(JobFamily)
-			'For i=1 To size_key 
-			'	size_values = UBound(values)
-			'	Redim Preserve values(size_values+1)
-			'	values(i) = i
-			'Next
-		Else
-			size_key = UBound(key_)
-			For i=1 To size_key 
-				If cint(key_(i)) = cint(key) Then
-					size_values = UBound(values)
-					Redim Preserve values(size_values+1)
-					values(size_values+1) = value_(i)
-				End If
-			Next
-		End If
-		get_ = values
-	End Function
-	
-	
-set_ 1,1
-set_ 1,2
-set_ 1,3
-set_ 1,4
-set_ 1,5
-set_ 1,6
-set_ 1,7
-set_ 2,8
-set_ 2,9
-set_ 3,10
-set_ 3,11
-set_ 4,12
-set_ 4,13
-set_ 4,14
-set_ 4,15
-set_ 5,16
-set_ 5,7
-set_ 6,17
-set_ 6,4
-set_ 6,5
-set_ 6,6
-set_ 2,3
-set_ 7,18
-set_ 8,19
-set_ 8,20
-set_ 9,21
-set_ 10,20
-
-Dim JobFamily(22)
-JobFamily(1)="A-Administration"
-JobFamily(2)="X-Corporate Executive"
-JobFamily(3)="G-Corporate Workplace"
-JobFamily(4)="N-Change Mgmt & Process"
-JobFamily(5)="L-Legal"
-JobFamily(6)="J-Services"
-JobFamily(7)="H-Learning & Org Effectiveness"
-JobFamily(8)="B- Relationship Management"
-JobFamily(9)="C-Customer Service"
-JobFamily(10)="E-Communications"
-JobFamily(11)="M-Marketing"
-JobFamily(12)="F-Finance"
-JobFamily(13)="D-Credit"
-JobFamily(14)="I-Investment Banking"
-JobFamily(15)="W-Wealth & Investment Mgmt"
-JobFamily(16)="P-Human Resources"
-JobFamily(17)="O-Operations"
-JobFamily(18)="K-Risk Evaluation"
-JobFamily(19)="S-Sales"
-JobFamily(20)="R-Consumer banking"
-JobFamily(21)="T-Technology"
-JobFamily(22)="V-VA-International Contractor"
-
-
-	Function getAreasOfTalentOptions()
+	Function getJobAreasSelect(c_lass,style)
 %>
-	<option value="1"<%If areasoftalent="1" Then Response.write " selected"%>>Administration&nbsp;</option>
-	<option value="2"<%If areasoftalent="2" Then Response.write " selected"%>>Customer Care&nbsp;</option>
-	<option value="3"<%If areasoftalent="3" Then Response.write " selected"%>>Communications&nbsp;</option>
-	<option value="4"<%If areasoftalent="4" Then Response.write " selected"%>>Finance&nbsp;</option>
-	<option value="5"<%If areasoftalent="5" Then Response.write " selected"%>>Human Resources&nbsp;</option>
-	<option value="6"<%If areasoftalent="6" Then Response.write " selected"%>>Operations&nbsp;</option>
-	<option value="7"<%If areasoftalent="7" Then Response.write " selected"%>>Risk Evaluation&nbsp;</option>
-	<option value="8"<%If areasoftalent="8" Then Response.write " selected"%>>Sales&nbsp;</option>
-	<option value="9"<%If areasoftalent="9" Then Response.write " selected"%>>Technology&nbsp;</option>
-	<option value="10"<%If areasoftalent="10" Then Response.write " selected"%>>Consumer Banking&nbsp;</option>
+<select name="jobareas" id="jobareas" title="Select a Job Area"<%=c_lass%><%=style%>>
+	<option value="Select a Job Area"<%If jobareas="Select a job area" Or jobareas="" Then Response.write " selected"%>>Select a job area</option>
+<optgroup label="Administration">
+	<option value="1|-1" OptionGroup="Administration"<%If jobareas="1|-1" Then Response.write " selected"%>>All Administration</option>
+	<option value="1|4" OptionGroup="Administration"<%If jobareas="1|4" Then Response.write " selected"%>>Change Mgmt &amp; Process</option>
+	<option value="1|2" OptionGroup="Administration"<%If jobareas="1|2" Then Response.write " selected"%>>Corporate Executive</option>
+	<option value="1|3" OptionGroup="Administration"<%If jobareas="1|3" Then Response.write " selected"%>>Corporate Workplace</option>
+	<option value="1|7" OptionGroup="Administration"<%If jobareas="1|7" Then Response.write " selected"%>>Learning &amp; Leadership Development</option>
+	<option value="1|5" OptionGroup="Administration"<%If jobareas="1|5" Then Response.write " selected"%>>Legal</option>
+	<option value="1|6" OptionGroup="Administration"<%If jobareas="1|6" Then Response.write " selected"%>>Services</option>
+</optgroup>
+<optgroup label="Communications">
+	<option value="3|-1" OptionGroup="Communications"<%If jobareas="3|-1" Then Response.write " selected"%>>All Communications</option>
+	<option value="3|11" OptionGroup="Communications"<%If jobareas="3|11" Then Response.write " selected"%>>Marketing</option>
+</optgroup>
+<optgroup label="Consumer Banking">
+	<option value="10|-1" OptionGroup="Consumer Banking"<%If jobareas="10|-1" Then Response.write " selected"%>>All Consumer Banking</option>
+</optgroup>
+<optgroup label="Customer Care">
+	<option value="2|-1" OptionGroup="Customer Care"<%If jobareas="2|-1" Then Response.write " selected"%>>All Customer Care</option>
+	<option value="2|8" OptionGroup="Customer Care"<%If jobareas="2|8" Then Response.write " selected"%>> Relationship Management</option>
+	<option value="2|3" OptionGroup="Customer Care"<%If jobareas="2|3" Then Response.write " selected"%>>Corporate Workplace</option>
+	<option value="2|9" OptionGroup="Customer Care"<%If jobareas="2|9" Then Response.write " selected"%>>Customer Service</option>
+</optgroup>
+<optgroup label="Finance">
+	<option value="4|-1" OptionGroup="Finance"<%If jobareas="4|-1" Then Response.write " selected"%>>All Finance</option>
+	<option value="4|13" OptionGroup="Finance"<%If jobareas="4|13" Then Response.write " selected"%>>Credit</option>
+	<option value="4|14" OptionGroup="Finance"<%If jobareas="4|14" Then Response.write " selected"%>>Investment Banking</option>
+	<option value="4|15" OptionGroup="Finance"<%If jobareas="4|15" Then Response.write " selected"%>>Wealth &amp; Investment Mgmt</option>
+</optgroup>
+<optgroup label="Human Resources">
+	<option value="5|-1" OptionGroup="Human Resources"<%If jobareas="5|-1" Then Response.write " selected"%>>All Human Resources</option>
+	<option value="5|7" OptionGroup="Human Resources"<%If jobareas="5|7" Then Response.write " selected"%>>Learning &amp; Org Effectiveness</option>
+</optgroup>
+<optgroup label="Operations">
+	<option value="6|-1" OptionGroup="Operations"<%If jobareas="6|-1" Then Response.write " selected"%>>All Operations</option>
+	<option value="6|4" OptionGroup="Operations"<%If jobareas="6|4" Then Response.write " selected"%>>Change Mgmt &amp; Process</option>
+	<option value="6|5" OptionGroup="Operations"<%If jobareas="6|5" Then Response.write " selected"%>>Legal</option>
+	<option value="6|6" OptionGroup="Operations"<%If jobareas="6|6" Then Response.write " selected"%>>Services</option>
+</optgroup>
+<optgroup label="Risk Evaluation">
+	<option value="7|-1" OptionGroup="Risk Evaluation"<%If jobareas="7|-1" Then Response.write " selected"%>>All Risk Evaluation</option>
+</optgroup>
+<optgroup label="Sales">
+	<option value="8|-1" OptionGroup="Sales"<%If jobareas="8|-1" Then Response.write " selected"%>>All Sales</option>
+	<option value="8|20" OptionGroup="Sales"<%If jobareas="8|20" Then Response.write " selected"%>>Consumer banking</option>
+</optgroup>
+<optgroup label="Technology">
+	<option value="9|-1" OptionGroup="Technology"<%If jobareas="9|-1" Then Response.write " selected"%>>All Technology</option>
+</optgroup>
+</select>
 <%
 	End Function
 	
 	
-	Function getJobfamiliesOptions()
-		Dim size_families
-		JobFamilies = get_(areasoftalent)
-		size_families = UBound(JobFamilies)
-		For j=1 To size_families
+	Function getStateSelect(c_lass,style)
 %>
-	<option value="<%Response.write JobFamilies(j)%>"<%If jfamily=trim(JobFamilies(j)) Then Response.write " selected"%>><%Response.write JobFamily(JobFamilies(j))%>&nbsp;</option>
-<%
-		Next
-	End Function
-	
-	
-	Function getStateOptions()
-%>
+<select name="stateid" id="stateid" title="Select a State"<%=c_lass%><%=style%>>
+	<option value="-1"<%If stateid="-2" Or stateid="" Then Response.write " selected"%>>All states</option>
 	<option value="1"<%If stateid="1" Then Response.write " selected"%>>Alabama&nbsp;</option>
 	<option value="2"<%If stateid="2" Then Response.write " selected"%>>Alaska&nbsp;</option>
 	<option value="3"<%If stateid="3" Then Response.write " selected"%>>Arizona&nbsp;</option>
@@ -178,6 +116,7 @@ JobFamily(22)="V-VA-International Contractor"
 	<option value="49"<%If stateid="49" Then Response.write " selected"%>>West Virginia&nbsp;</option>
 	<option value="50"<%If stateid="50" Then Response.write " selected"%>>Wisconsin&nbsp;</option>
 	<option value="51"<%If stateid="51" Then Response.write " selected"%>>Wyoming&nbsp;</option>
+</select>
 <%
 	End Function
 	
