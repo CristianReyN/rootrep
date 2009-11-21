@@ -10,6 +10,8 @@ ada_title = "Bank of America | Career | College Recruiting | Career Compass"
 job_search_action = "../jobsearch/searchresult.asp"
 Metatag="Page designed for student recruiting. Links available on the page: undergraduate/analyst programs, graduate/associate programs, internships and a campus recruiting calendar. The option to do a job search is also present on this page."
 %>
+<!-- #include file="../includes/pages/career_compass_function.asp" -->
+
 <!-- Header -->
 <!-- #include file="../includes/header.asp" -->
 <!-- Header -->

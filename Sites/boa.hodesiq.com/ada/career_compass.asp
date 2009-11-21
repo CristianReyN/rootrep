@@ -12,6 +12,7 @@ page_section="ADA"
 Dim flashPage
 flashPage = false
 %>
+<!-- #include file="../includes/pages/career_compass_function.asp" -->
 <!-- Header -->
 <!-- #include file="header.asp" -->
 <!-- Header -->
