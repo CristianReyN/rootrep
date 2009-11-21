@@ -56,6 +56,7 @@ public class DropDownListAdapter : System.Web.UI.WebControls.Adapters.WebControl
 		{
 			RenderOptionGroupEndTag(writer);
 		}
+
 	}
 
 	private void RenderOptionGroupBeginTag(string name, HtmlTextWriter writer)
