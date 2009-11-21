@@ -37,7 +37,7 @@
                                     </asp:HyperLinkField>
                                     <asp:TemplateField HeaderText="Remove">
                                         <ItemTemplate>
-                                            <asp:CheckBox ID="ChkRemove" runat="server" />
+                                            &nbsp;&nbsp;&nbsp;&nbsp;<asp:CheckBox ID="ChkRemove" runat="server" />
                                         </ItemTemplate>
                                     </asp:TemplateField>
                                     <asp:TemplateField>
