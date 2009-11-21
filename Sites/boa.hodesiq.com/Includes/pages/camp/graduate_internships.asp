@@ -42,11 +42,11 @@ tabs[<%=tab%>-1].coremetrics = true;
 	<div class="innerTab">
 		<p class="bacb">Corporate Staff and Support</p>
 		<ul class="bac">
-			<li><a href="gi_us_ghrldpi.asp" class="bac">Global Human Resources Leadership and Development Program - Internship</a></li>
 			<li><a href="gi_us_cw_mba_sai.asp" class="bac">Corporate Workplace MBA Senior Analyst Internship</a></li>
+			<li><a href="gi_us_ghrldpi.asp" class="bac">Global Human Resources Leadership and Development Program - Internship</a></li>
+			<li><a href="gi_us_gmca_ip.asp" class="bac">Global Marketing and Corporate Affairs  Internship Program</a></li>
 			<li><a href="gi_us_qp_mba_ci.asp" class="bac">Quality and Productivity MBA Consultant Internship</a></li>
 			<li><a href="gi_us_tmba_ip.asp" class="bac">Technology MBA Intern Program</a></li>
-			<li><a href="gi_us_gmca_ip.asp" class="bac">Global Marketing and Corporate Affairs  Internship Program</a></li>
 		</ul>
 		<p class="bacb">Global Consumer and Small Business Banking</p>
 		<ul class="bac">
@@ -56,9 +56,9 @@ tabs[<%=tab%>-1].coremetrics = true;
 		</ul>
 		<p class="bacb">Global Corporate and Investment Banking</p>
 		<ul class="bac">
-			<li><a href="gi_us_gcbgps_mba_ip.asp" class="bac">Global Commercial Banking and Global Product Solutions MBA Intern Program</a></li>
-			<li><a href="gi_us_cdpsap.asp" class="bac">Corporate Debt Products Summer Associate Program</a></li>
 			<li><a href="gi_us_cmsa.asp" class="bac">Capital Markets Summer Associate</a></li>
+			<li><a href="gi_us_cdpsap.asp" class="bac">Corporate Debt Products Summer Associate Program</a></li>
+			<li><a href="gi_us_gcbgps_mba_ip.asp" class="bac">Global Commercial Banking and Global Product Solutions MBA Intern Program</a></li>
 			<li><a href="gi_us_gibsap.asp" class="bac">Global Investment Banking Summer Associate Program</a></li>
 			<li><a href="gi_us_pfsa.asp" class="bac">Public Finance Summer Associate</a></li>
 			<li><a href="gi_us_rsa.asp" class="bac">Research Summer Associate</a></li>
@@ -70,9 +70,9 @@ tabs[<%=tab%>-1].coremetrics = true;
 	<div class="innerTab">
 		<p class="bacb">Global Corporate and Investment Banking</p>
 		<ul class="bac">
+			<li><a href="gi_emea_cm.asp" class="bac">Capital Markets</a></li>
 			<li><a href="gi_emea_gib.asp" class="bac">Global Investment Banking</a></li>
 			<li><a href="gi_emea_gm.asp" class="bac">Global Markets</a></li>
-			<li><a href="gi_emea_cm.asp" class="bac">Capital Markets</a></li>
 		</ul>
 	</div>
 </div>

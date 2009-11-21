@@ -50,25 +50,25 @@ tabs[<%=tab%>-1].coremetrics = true;
 		<ul class="bac">
 			<li><a href="up_us_carp.asp" class="bac">Corporate Audit Management Associate Program</a></li>
 			<li><a href="up_us_ctap.asp" class="bac">Corporate Treasury Associate Program</a></li>
-			<li><a href="up_us_fmap.asp" class="bac">Finance Management Associate Program</a></li>
-			<li><a href="up_us_lsgtsap.asp" class="bac">LaSalle Global Trust Services Associate Program<span style="font-size: 0.6em; position: relative; top: -0.6em;">TM</span></span></a></li>
-			<li><a href="up_us_grmap.asp" class="bac">Global Risk Management Associate Program</a></li>
-			<li><a href="up_us_scmap.asp" class="bac">Supply Chain Management - Management Associate Program</a></li>
 			<li><a href="up_us_cwap.asp" class="bac">Corporate Workplace Analyst</a></li>
-			<li><a href="up_us_qpap.asp" class="bac">Quality and Productivity Analyst</a></li>
+			<li><a href="up_us_fmap.asp" class="bac">Finance Management Associate Program</a></li>
 			<li><a href="up_us_gipbc.asp" class="bac">Global Information Protection Business Continuity</a></li>
-			<li><a href="up_us_ncgl_drp.asp" class="bac">Network Computing Group Leader - Development Rotational Program</a></li>
-			<li><a href="up_us_ncg_mtp.asp" class="bac">Network Computing Group - Mainframe Technologies Program</a></li>
+			<li><a href="up_us_grmap.asp" class="bac">Global Risk Management Associate Program</a></li>
 			<li><a href="up_us_gwim_crmp.asp" class="bac">GWIM Credit Risk Management Program</a></li>
+			<li><a href="up_us_lsgtsap.asp" class="bac">LaSalle Global Trust Services Associate Program<span style="font-size: 0.6em; position: relative; top: -0.6em;">TM</span></span></a></li>
+			<li><a href="up_us_ncg_mtp.asp" class="bac">Network Computing Group - Mainframe Technologies Program</a></li>
+			<li><a href="up_us_ncgl_drp.asp" class="bac">Network Computing Group Leader - Development Rotational Program</a></li>
+			<li><a href="up_us_qpap.asp" class="bac">Quality and Productivity Analyst</a></li>
 			<li><a href="up_us_qmap.asp" class="bac">Quantitative Management Associate Program</a></li>
+			<li><a href="up_us_scmap.asp" class="bac">Supply Chain Management - Management Associate Program</a></li>
 		</ul>
 
 		<p class="bacb">Global Consumer and Small Business Banking</p>
 		<ul class="bac">
-			<li><a href="up_us_omap.asp" class="bac">Operations Management Associate Program</a></li>
+			<li><a href="up_us_cs_caam.asp" class="bac">Card Services – Customer Assistance Account Manager</a></li>
 			<li><a href="up_us_cs_csa.asp" class="bac">Card Services – Customer Service Associate</a></li>
 			<li><a href="up_us_cs_fa.asp" class="bac">Card Services – Fraud Analyst</a></li>
-			<li><a href="up_us_cs_caam.asp" class="bac">Card Services – Customer Assistance Account Manager</a></li>
+			<li><a href="up_us_omap.asp" class="bac">Operations Management Associate Program</a></li>
 		</ul>
 
 		<p class="bacb">Global Wealth and Investment Management</p>
@@ -78,18 +78,18 @@ tabs[<%=tab%>-1].coremetrics = true;
 
 		<p class="bacb">Global Corporate and Investment Banking</p>
 		<ul class="bac">
-			<li><a href="up_us_cdpa.asp" class="bac">Corporate Debt Products Analyst</a></li>
-			<li><a href="up_us_crebadp.asp" class="bac">Commercial Real Estate Banking Analyst Development Program</a></li>
-			<li><a href="up_us_gcbgpsap.asp" class="bac">Global Commercial Banking and Global Product Solutions Analyst Program</a></li>
 			<li><a href="up_us_cma.asp" class="bac">Capital Markets Analyst</a></li>
+			<li><a href="up_us_crebadp.asp" class="bac">Commercial Real Estate Banking Analyst Development Program</a></li>
+			<li><a href="up_us_cdpa.asp" class="bac">Corporate Debt Products Analyst</a></li>
+			<li><a href="up_us_gcbgpsap.asp" class="bac">Global Commercial Banking and Global Product Solutions Analyst Program</a></li>
 			<li><a href="up_us_giba.asp" class="bac">Global Investment Banking Analyst</a></li>
-			<li><a href="up_us_pfa.asp" class="bac">Public Finance Analyst</a></li>
-			<li><a href="up_us_ra.asp" class="bac">Research Analyst</a></li>
-			<li><a href="up_us_sta.asp" class="bac">Sales and Trading Analyst</a></li>
 			<li><a href="up_us_gmgorp.asp" class="bac">Global Markets Group Operations Rotational Program</a></li>
 			<li><a href="up_us_gmta.asp" class="bac">Global Markets Technology Associate</a></li>
 			<li><a href="up_us_gmorp.asp" class="bac">Global Middle Office Rotational Program</a></li>
 			<li><a href="up_us_gtorp.asp" class="bac">Global Treasury Operations Rotational Program</a></li>
+			<li><a href="up_us_pfa.asp" class="bac">Public Finance Analyst</a></li>
+			<li><a href="up_us_ra.asp" class="bac">Research Analyst</a></li>
+			<li><a href="up_us_sta.asp" class="bac">Sales and Trading Analyst</a></li>
 		</ul>
 	</div>
 </div>
@@ -101,13 +101,13 @@ tabs[<%=tab%>-1].coremetrics = true;
 		</ul>
 		<p class="bacb">Global Corporate and Investment Banking</p>
 		<ul class="bac">
+			<li><a href="up_emea_cm.asp" class="bac">Capital Markets</a></li>
 			<li><a href="up_emea_gib.asp" class="bac">Global Investment Banking</a></li>
+			<li><a href="up_emea_gm.asp" class="bac">Global Markets</a></li>
+			<li><a href="up_emea_gmo.asp" class="bac">Global Middle Office</a></li>
 			<li><a href="up_emea_gps.asp" class="bac">Global Product Solutions</a></li>
 			<li><a href="up_emea_grm.asp" class="bac">Global Risk Management</a></li>
-			<li><a href="up_emea_gmo.asp" class="bac">Global Middle Office</a></li>
 			<li><a href="up_emea_tech.asp" class="bac">Technology</a></li>
-			<li><a href="up_emea_gm.asp" class="bac">Global Markets</a></li>
-			<li><a href="up_emea_cm.asp" class="bac">Capital Markets</a></li>
 		</ul>
 	</div>
 </div>

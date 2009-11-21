@@ -47,8 +47,8 @@ tabs[<%=tab%>-1].coremetrics = true;
 	<div class="innerTab">
 		<p class="bacb">Corporate Staff and Support</p>
 		<ul class="bac">
-			<li><a href="gp_us_ghrldp.asp" class="bac">Global Human Resources Leadership and Development Program</a></li>
 			<li><a href="gp_us_cw_mba_sa.asp" class="bac">Corporate Workplace MBA Senior Analyst</a></li>
+			<li><a href="gp_us_ghrldp.asp" class="bac">Global Human Resources Leadership and Development Program</a></li>
 			<li><a href="gp_us_qp_mbac.asp" class="bac">Quality and Productivity MBA Consultant</a></li>
 			<li><a href="gp_us_tmba_lrp.asp" class="bac">Technology MBA Leadership Rotational Program</a></li>
 		</ul>
@@ -60,9 +60,9 @@ tabs[<%=tab%>-1].coremetrics = true;
 		</ul>
 		<p class="bacb">Global Corporate and Investment Banking</p>
 		<ul class="bac">
-			<li><a href="gp_us_gcb_gps_mba_lp.asp" class="bac">Global Commercial Banking and Global Product Solutions MBA Leadership Program</a></li>
-			<li><a href="gp_us_cdpsa.asp" class="bac">Corporate Debt Products Senior Analyst</a></li>
 			<li><a href="gp_us_cma.asp" class="bac">Capital Markets Associate</a></li>
+			<li><a href="gp_us_cdpsa.asp" class="bac">Corporate Debt Products Senior Analyst</a></li>
+			<li><a href="gp_us_gcb_gps_mba_lp.asp" class="bac">Global Commercial Banking and Global Product Solutions MBA Leadership Program</a></li>
 			<li><a href="gp_us_giba.asp" class="bac">Global Investment Banking Associate</a></li>
 			<li><a href="gp_us_pfa.asp" class="bac">Public Finance Associate</a></li>
 			<li><a href="gp_us_ra.asp" class="bac">Research Associate</a></li>
@@ -74,9 +74,9 @@ tabs[<%=tab%>-1].coremetrics = true;
 	<div class="innerTab">
 		<p class="bacb">Global Consumer and Small Business Banking</p>
 		<ul class="bac">
+			<li><a href="gp_emea_cm.asp" class="bac">Capital Markets</a></li>
 			<li><a href="gp_emea_gib.asp" class="bac">Global Investment Banking</a></li>
 			<li><a href="gp_emea_gm.asp" class="bac">Global Markets</a></li>
-			<li><a href="gp_emea_cm.asp" class="bac">Capital Markets</a></li>
 		</ul>
 	</div>
 </div>
@@ -85,8 +85,8 @@ tabs[<%=tab%>-1].coremetrics = true;
 		<p class="bacb">Global Corporate and Investment Banking</p>
 		<ul class="bac">
 			<li><a href="gp_asia_gm.asp" class="bac">Global Markets</a></li>
-			<li><a href="gp_asia_gto.asp" class="bac">Global Technology and Operations</a></li>
 			<li><a href="gp_asia_gpscdp.asp" class="bac">Global Product Solutions - Corporate Debt Products</a></li>
+			<li><a href="gp_asia_gto.asp" class="bac">Global Technology and Operations</a></li>
 		</ul>
 	</div>
 </div>

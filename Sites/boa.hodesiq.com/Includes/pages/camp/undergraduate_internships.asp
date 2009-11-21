@@ -44,15 +44,15 @@ tabs[<%=tab%>-1].coremetrics = true;
 		<ul class="bac">
 			<li><a href="ui_us_caip.asp" class="bac">Corporate Audit Intern Program</a></li>
 			<li><a href="ui_us_ctip.asp" class="bac">Corporate Treasury Intern Program</a></li>
-			<li><a href="ui_us_fip.asp" class="bac">Finance Intern Program</a></li>
-			<li><a href="ui_us_lsgtsip.asp" class="bac">LaSalle Global Trust Services Intern Program<span style="font-size: 0.6em; position: relative; top: -0.6em;">TM</span></span></a></li>
-			<li><a href="ui_us_grmip.asp" class="bac">Global Risk Management Intern Program</a></li>
-			<li><a href="ui_us_scmip.asp" class="bac">Supply Chain Management  Intern Program</a></li>
 			<li><a href="ui_us_cwai.asp" class="bac">Corporate Workplace Analyst Internship</a></li>
-			<li><a href="ui_us_qpai.asp" class="bac">Quality and Productivity Analyst Internship</a></li>
+			<li><a href="ui_us_fip.asp" class="bac">Finance Intern Program</a></li>
 			<li><a href="ui_us_gipbcip.asp" class="bac">Global Information Protection Business Continuity Intern Program</a></li>
+			<li><a href="ui_us_grmip.asp" class="bac">Global Risk Management Intern Program</a></li>
+			<li><a href="ui_us_lsgtsip.asp" class="bac">LaSalle Global Trust Services Intern Program<span style="font-size: 0.6em; position: relative; top: -0.6em;">TM</span></span></a></li>
 			<li><a href="ui_us_ncgldip.asp" class="bac">Network Computing Group Leader Development Internship Program</a></li>
 			<li><a href="ui_us_ncgmtip.asp" class="bac">Network Computing Group Mainframe Technologies Intern Program</a></li>
+			<li><a href="ui_us_qpai.asp" class="bac">Quality and Productivity Analyst Internship</a></li>
+			<li><a href="ui_us_scmip.asp" class="bac">Supply Chain Management  Intern Program</a></li>
 		</ul>
 		<p class="bacb">Global Consumer and Small Business Banking</p>
 		<ul class="bac">
@@ -64,18 +64,18 @@ tabs[<%=tab%>-1].coremetrics = true;
 		</ul>
 		<p class="bacb">Global Corporate and Investment Banking</p>
 		<ul class="bac">
-			<li><a href="ui_us_cdpsap.asp" class="bac">Corporate Debt Products Summer Analyst Program</a></li>
-			<li><a href="ui_us_crebsap.asp" class="bac">Commercial Real Estate Banking Summer Analyst Program</a></li>
-			<li><a href="ui_us_gcb_gps_saip.asp" class="bac">Global Commercial Banking and Global Product Solutions Summer Analyst Intern Program</a></li>
 			<li><a href="ui_us_cmsa.asp" class="bac">Capital Markets Summer Analyst</a></li>
+			<li><a href="ui_us_crebsap.asp" class="bac">Commercial Real Estate Banking Summer Analyst Program</a></li>
+			<li><a href="ui_us_cdpsap.asp" class="bac">Corporate Debt Products Summer Analyst Program</a></li>
+			<li><a href="ui_us_gcb_gps_saip.asp" class="bac">Global Commercial Banking and Global Product Solutions Summer Analyst Intern Program</a></li>
 			<li><a href="ui_us_gibsa.asp" class="bac">Global Investment Banking Summer Analyst</a></li>
-			<li><a href="ui_us_pfsa.asp" class="bac">Public Finance Summer Analyst</a></li>
-			<li><a href="ui_us_rsa.asp" class="bac">Research Summer Analyst</a></li>
-			<li><a href="ui_us_stsa.asp" class="bac">Sales and Trading Summer Analyst</a></li>
 			<li><a href="ui_us_gmgosip.asp" class="bac">Global Markets Group Operations Summer Internship Program</a></li>
 			<li><a href="ui_us_gmtsa.asp" class="bac">Global Markets Technology Summer Analyst</a></li>
 			<li><a href="ui_us_gmosip.asp" class="bac">Global Middle Office Summer Intern Program</a></li>
 			<li><a href="ui_us_gtoip.asp" class="bac">Global Treasury Operations Intern Program</a></li>
+			<li><a href="ui_us_pfsa.asp" class="bac">Public Finance Summer Analyst</a></li>
+			<li><a href="ui_us_rsa.asp" class="bac">Research Summer Analyst</a></li>
+			<li><a href="ui_us_stsa.asp" class="bac">Sales and Trading Summer Analyst</a></li>
 		</ul>
 	</div>
 </div>
@@ -83,13 +83,13 @@ tabs[<%=tab%>-1].coremetrics = true;
 	<div class="innerTab">
 		<p class="bacb">Global Corporate and Investment Banking</p>
 		<ul class="bac">
+			<li><a href="ui_emea_cm.asp" class="bac">Capital Markets</a></li>
 			<li><a href="ui_emea_gib.asp" class="bac">Global Investment Banking</a></li>
+			<li><a href="ui_emea_gm.asp" class="bac">Global Markets</a></li>
+			<li><a href="ui_emea_gmo.asp" class="bac">Global Middle Office</a></li>
 			<li><a href="ui_emea_gps.asp" class="bac">Global Products Solutions</a></li>
 			<li><a href="ui_emea_grm.asp" class="bac">Global Risk Management</a></li>
-			<li><a href="ui_emea_gmo.asp" class="bac">Global Middle Office</a></li>
 			<li><a href="ui_emea_tech.asp" class="bac">Technology</a></li>
-			<li><a href="ui_emea_gm.asp" class="bac">Global Markets</a></li>
-			<li><a href="ui_emea_cm.asp" class="bac">Capital Markets</a></li>
 		</ul>
 	</div>
 </div>
