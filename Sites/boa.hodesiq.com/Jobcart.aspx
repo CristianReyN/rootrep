@@ -6,11 +6,11 @@
 	
 <span class='auraltext'>
 <h2 style="margin: 0px 0px 0px 12px; ">Important information on applying for positions</h2>
-You are encouraged to complete the online application, however if you have difficulty, you should:
+Apply Now. You are encouraged to complete this online application, however if you have difficulty, you should:
 <li /> Email your resume to <a href="mailto:bac@resume.bankofamerica.com">bac@resume.bankofamerica.com</a>
-<li /> In the Subject Line of your email, include "Bank of America Careers/Bank of America Careers" and the specific position number found at the top of the job posting
+<li /> In the Subject Line of your email, include "Source = Bank of America Careers" and the specific position number found at the top of the job posting
 </span>
-          
+  
     <table border="0" cellpadding="0" cellspacing="0" summary="" width="100%">
         <tr valign="top">
             <td style="padding: 6px 12px 0px 12px; height: 100%" valign="top">

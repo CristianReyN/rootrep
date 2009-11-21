@@ -103,11 +103,17 @@ create_safebutton("Search","javascript: submit_search();",0,0,0,0,"Search");
 
 			<tr valign="top" style="background: #ffffff;"><td><img src="images/white.gif" width="154" height="1" alt="" border="0" /></td></tr>
 
-			<tr valign="top" onmouseover="tdiv(false);" onmouseout="tdiv(true);"><td id="tdnav" valign="middle" style="background: #cadceb; padding: 0px 6px 0px 6px;" onmouseover="popAoT(true);" onmouseout="popAoT(false);"><div id="aotstartdv" style="position: absolute;"><a name="lnav1" id="aotstart"></a></div><a class="g" href="areasoftalent/areasoftalent.asp" id="aroftalent" title="Job Areas" onfocus="this.className='g-over'; popAoT(true); tdiv(false);" onblur="this.className='g'; popAoT(false); tdiv(true);">Job Areas</a><div id="aotenddv" style="position: absolute;"><a name="lnav2" id="aotend"></a></div></td></tr>
+<tr valign="top" onmouseover="tdiv(false);" onmouseout="tdiv(true);"><td id="tdnav" valign="middle" style="background: #cadceb; padding: 0px 6px 0px 6px;" onmouseover="popAoT(true);" onmouseout="popAoT(false);"><div id="aotstartdv" style="position: absolute;"><a name="lnav1" id="aotstart"></a></div><a class="g" href="areasoftalent/areasoftalent.asp" id="aroftalent" title="Job Areas" onfocus="this.className='g-over'; popAoT(true); tdiv(false);" onblur="this.className='g'; popAoT(false); tdiv(true);">Job Areas</a><div id="aotenddv" style="position: absolute;"><a name="lnav2" id="aotend"></a></div></td></tr>
 
 			<tr valign="top" style="background: #ffffff;"><td><img src="images/white.gif" width="154" height="1" alt="" border="0" /></td></tr>
 
-			<tr valign="top" onmouseover="tdiv(false);" onmouseout="tdiv(true);"><td id="tdnavr" valign="middle" style="background: #cadceb; padding: 0px 6px 0px 6px;" onmouseover="popLearnmore(true);" onmouseout="popLearnmore(false);"><div id="learnmorestartdv" style="position: absolute;"><a name="lnav3" id="learnmorestart"></a></div><a class="g" href="learnmore/learnmore.asp" id="learnmore" title="Related Information" onfocus="this.className='g-over'; popLearnmore(true); tdiv(false);" onblur="this.className='g'; popLearnmore(false); tdiv(true);">Related Information</a><div id="learnmoreenddv" style="position: absolute;"><a name="lnav4" id="learnmoreend"></a></div></td></tr>
+
+<tr valign="top" onmouseover="tdiv(false);" onmouseout="tdiv(true);"><td id="tdnavlob" valign="middle" style="background: #cadceb; padding: 0px 6px 0px 6px;" onmouseover="poplob(true);" onmouseout="poplob(false);"><div id="lobstartdv" style="position: absolute;"><a name="lnav2" id="lobstart"></a></div><a class="g" href="learnmore/lob.asp" id="lob" title="Lines of Business" onfocus="this.className='g-over'; poplob(true); tdiv(false);" onblur="this.className='g'; poplob(false); tdiv(true);">Lines of Business</a><div id="lobenddv" style="position: absolute;"><a name="lnav3" id="lobend"></a></div></td></tr>
+
+
+			<tr valign="top" style="background: #ffffff;"><td><img src="images/white.gif" width="154" height="1" alt="" border="0" /></td></tr>
+
+<tr valign="top" onmouseover="tdiv(false);" onmouseout="tdiv(true);"><td id="tdnavr" valign="middle" style="background: #cadceb; padding: 0px 6px 0px 6px;" onmouseover="popLearnmore(true);" onmouseout="popLearnmore(false);"><div id="learnmorestartdv" style="position: absolute;"><a name="lnav3" id="learnmorestart"></a></div><a class="g" href="learnmore/learnmore.asp" id="learnmore" title="Related Information" onfocus="this.className='g-over'; popLearnmore(true); tdiv(false);" onblur="this.className='g'; popLearnmore(false); tdiv(true);">Related Information</a><div id="learnmoreenddv" style="position: absolute;"><a name="lnav4" id="learnmoreend"></a></div></td></tr>
 
 			<tr valign="top" style="background: #ffffff;"><td><img src="images/white.gif" width="154" height="1" alt="" border="0" /></td></tr>
 
@@ -202,6 +208,13 @@ function startKeybordNav()
 		document.getElementById("administration").onkeydown=setNextTabAotShift;
 	if(document.getElementById("consumerbanking"))
 		document.getElementById("consumerbanking").onkeydown=setNextTabAotPopupQuit;
+		
+	if(document.getElementById("lob"))
+		document.getElementById("lob").onkeydown=setNextTablobPopup;
+	if(document.getElementById("globalconsumer"))
+		document.getElementById("globalconsumer").onkeydown=setNextTablobShift;
+	if(document.getElementById("skillsassessment"))
+		document.getElementById("skillsassessment").onkeydown=setNextTablobPopupQuit;		
 
 }
 
@@ -273,10 +286,36 @@ function setNextTabAotPopup(ev)
 }
 function setNextTabAotPopupQuit(ev)
 {	if(transferFocus(ev)&& !isShiftKey(ev) && document.getElementById("aotend"))
-	{	aotPopupShow = false; popAoT(false);
+	{	lobPopupShow = false; popAoT(false);
 		document.getElementById("aotend"+(isIE?"dv":"")).focus();
 }}
 
+//LoB
+function setNextTablob(ev)
+{	if(transferFocus(ev) && isShiftKey(ev) && document.getElementById("lobstart"))
+		document.getElementById("lobstart"+(isIE?"dv":"")).focus();
+}
+function setNextTablobShift(ev)
+{	if(transferFocus(ev) && isShiftKey(ev) && document.getElementById("lobend"))
+		document.getElementById("lobend"+(isIE?"dv":"")).focus();
+}
+
+function setNextTablobPopup(ev)
+{	if(isShiftKey(ev) && transferFocus(ev))
+	{
+		if(document.getElementById("lobstart"))
+			document.getElementById("lobstart"+(isIE?"dv":"")).focus();
+	}
+	else if(transferFocus(ev) && document.getElementById("lobpopupdv"))
+	{	lobPopupShow = true; poplob(true);
+		document.getElementById("lobpopup"+(isIE?"dv":"")).focus();
+	}
+}
+function setNextTablobPopupQuit(ev)
+{	if(transferFocus(ev)&& !isShiftKey(ev) && document.getElementById("lobend"))
+	{	lobPopupShow = false; poplob(false);
+		document.getElementById("lobend"+(isIE?"dv":"")).focus();
+}}
 </script>
 
 <script language="JavaScript1.2" type="text/javascript">
@@ -324,6 +363,28 @@ function popLearnmore(show)
 			<tr valign="top"><td style="background: #cadceb; padding: 5px 6px 5px 14px;"><a href="learnmore/collrecruiting.asp" class="sbtxt" title="Campus recruiting" onfocus="this.className='sbtxt-over';tdiv(false);" onblur="this.className='sbtxt';tdiv(true);">Campus recruiting</a></td></tr>
 			<tr valign="top"><td style="background: #7F99B2;"><img src="images/clear.gif" width="154" height="1" alt="" border="0" /></td></tr>
 			<tr valign="top"><td style="background: #cadceb; padding: 5px 6px 5px 14px;"><a href="learnmore/globalloc.asp" id="investment" class="sbtxt" title="Global locations" onfocus="this.className='sbtxt-over';tdiv(false);" onblur="this.className='sbtxt';tdiv(true);">Global locations</a></td></tr>
+</table>
+</div>
+
+
+<script language="JavaScript1.2" type="text/javascript">
+function poplob(show)
+{var d=document; if(d.getElementById("tdtbnav")&&d.getElementById("tbnav")&&d.getElementById("tdnavlob")&&d.getElementById("anavlob")){if(show || lobPopupShow){d.getElementById("anavlob").style.visibility = "visible"; d.getElementById("anavlob").style.display = "block";d.getElementById("anavlob").style.left=d.getElementById("tdtbnav").offsetLeft+d.getElementById("tbnav").offsetLeft+d.getElementById("tdnavlob").offsetLeft+d.getElementById("tdnavlob").offsetWidth-3;d.getElementById("anavlob").style.top=d.getElementById("tdtbnav").offsetTop+d.getElementById("tbnav").offsetTop+d.getElementById("tdnavlob").offsetTop;}else{d.getElementById("anavlob").style.visibility = "hidden"; d.getElementById("anavlob").style.display = "none";}
+} setTimeout("lobPopupShow = false;",500);}
+</script>
+<div id="anavlob" style="position: absolute; left: 0px; top: 0px; visibility: hidden; display: none; z-index: 100; border: 1px solid #7F99B2; font-size: 0.8em;" onmouseover="poplob(true);tdiv(false);" onmouseout="poplob(false);tdiv(true);">
+<table width="160" cellpadding="0" cellspacing="0" border="0" summary="">
+			<tr valign="top"><td style="background: #cadceb; padding: 5px 6px 5px 14px;"><div id="lobpopupdv" style="position: absolute;"><a name="lnav7" id="lobpopup"></a></div><a href="learnmore/lobgcsbb.asp" id="globalconsumer" class="sbtxt" title="Global Consumer &amp; Small Business Banking" onfocus="this.className='sbtxt-over'; tdiv(false);" onblur="this.className='sbtxt';tdiv(true);">Global Consumer &amp; Small Business Banking</a></td></tr>
+			<tr valign="top"><td style="background: #7F99B2;"><img src="images/clear.gif" width="154" height="1" alt="" border="0" /></td></tr>
+			<tr valign="top"><td style="background: #cadceb; padding: 5px 6px 5px 14px;"><a href="learnmore/lobgcib.asp" class="sbtxt" title="Global Corporate &amp; Investment Banking" onfocus="this.className='sbtxt-over';tdiv(false);" onblur="this.className='sbtxt';tdiv(true);">Global Corporate &amp; Investment Banking</a></td></tr>
+			<tr valign="top"><td style="background: #7F99B2;"><img src="images/clear.gif" width="154" height="1" alt="" border="0" /></td></tr>
+			<tr valign="top"><td style="background: #cadceb; padding: 5px 6px 5px 14px;"><a href="learnmore/lobgwim.asp" class="sbtxt" title="Global Wealth &amp; Investment Management" onfocus="this.className='sbtxt-over';tdiv(false);" onblur="this.className='sbtxt';tdiv(true);">Global Wealth &amp; Investment Management</a></td></tr>
+			<tr valign="top"><td style="background: #7F99B2;"><img src="images/clear.gif" width="154" height="1" alt="" border="0" /></td></tr>
+			<tr valign="top"><td style="background: #cadceb; padding: 5px 6px 5px 14px;"><a href="learnmore/lobgto.asp" class="sbtxt" title="Global Technology &amp; Operations" onfocus="this.className='sbtxt-over';tdiv(false);" onblur="this.className='sbtxt';tdiv(true);">Global Technology &amp; Operations</a></td></tr>
+			<tr valign="top"><td style="background: #7F99B2;"><img src="images/clear.gif" width="154" height="1" alt="" border="0" /></td></tr>
+			<tr valign="top"><td style="background: #cadceb; padding: 5px 6px 5px 14px;"><a href="learnmore/lobcss.asp" class="sbtxt" title="Corporate Staff &amp; Support" onfocus="this.className='sbtxt-over';tdiv(false);" onblur="this.className='sbtxt';tdiv(true);">Corporate Staff &amp; Support</a></td></tr>
+			<tr valign="top"><td style="background: #7F99B2;"><img src="images/clear.gif" width="154" height="1" alt="" border="0" /></td></tr>
+			<tr valign="top"><td style="background: #cadceb; padding: 5px 6px 5px 14px;"><a href="learnmore/lb_career_compass.asp" id="skillsassessment" class="sbtxt" title="Skills Assessment" onfocus="this.className='sbtxt-over';tdiv(false);" onblur="this.className='sbtxt';tdiv(true);">Skills Assessment</a></td></tr>
 </table>
 </div>
 
