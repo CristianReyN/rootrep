@@ -66,10 +66,10 @@ public partial class BOAmaster : System.Web.UI.MasterPage
         strScript += "<script language='javascript1.1' src='coremetrics/v40/eluminate.js'  type='text/javascript'></script>" + System.Environment.NewLine;
         strScript += "<script language='javascript1.1' src='coremetrics/cmdatatagutils.js' type='text/javascript'></script>" + System.Environment.NewLine;
         strScript += "<script language='javascript1.1' type='text/javascript'>" + System.Environment.NewLine;
-        strScript += "<!—" + System.Environment.NewLine;
+        strScript += "//<!—" + System.Environment.NewLine;
         if (ConfigurationManager.AppSettings["StrAppServerName"] == "PRO" && intPage == 1) 
            {strScript += "cmSetProduction();" + System.Environment.NewLine;}
-        strScript += "cmCreatePageviewTag('Career | " + strPageName + "', null, null, 'career:jobsearch', false, false, null, false, false, null, null, null);" + System.Environment.NewLine;
+        strScript += "cmCreatePageviewTag('Career | " + strPageName + "', null, null, 'career:jobsearch');" + System.Environment.NewLine; //, false, false, null, false, false, null, null, null
         strScript += "//-->" + System.Environment.NewLine;
         strScript += "</script>" + System.Environment.NewLine;
         strScript += "<!-- END COREMETRICS -->" + System.Environment.NewLine;
