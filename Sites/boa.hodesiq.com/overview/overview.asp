@@ -27,7 +27,7 @@ If playflash = "1" Then flashPage = false
 			<tr valign="top"><td style="background: #cadceb;" height="50">
 <div id="flash1" style="position: absolute;">
 <table width="160" cellpadding="0" cellspacing="0" border="0" summary="">
-<tr><td align="right"><br><a href="<%=ada_href %>" title="<%=ada_title %>" class="g" onfocus="this.className='g-over';" onblur="this.className='g';"><% If playflash="" Then %>Video Transcript<% Else %>Text Only Version<% End If %></a>&nbsp;&nbsp;</td></tr>
+<tr><td align="right"><br><a href="<%=ada_href %>" id="videotranscript" title="<%=ada_title %>" class="g" onfocus="this.className='g-over';" onblur="this.className='g';"><% If playflash="" Then %>Video Transcript<% Else %>Text Only Version<% End If %></a>&nbsp;&nbsp;</td></tr>
 </table>
 <script language="JavaScript1.2" type="text/javascript">
 //<!--
@@ -35,15 +35,18 @@ requiredMajorVersion = 8;
 requiredVersion = 8;
 hasRequestedVersion = DetectFlashVer(requiredMajorVersion, requiredMinorVersion, requiredRevision);
 if ( hasRequestedVersion ) {
-   document.write('<div id="flash_in" style="display: <% If playflash="1" Then Response.write "none" Else Response.write "inline"%>;">');
+	var hiddenFlash = '<a class="auraltext" href="#skipflash" onFocus="hover(this,\'show-tab\'); this.focus()" onblur="hover(this,\'auraltext\')">Skip Flash content</a><br>';
+	hiddenFlash += '<object tabindex="0" onmousedown="if(document.getElementById(\'skipflash2\')) document.getElementById(\'skipflash2\').focus();" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"  codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="310" height="390" title="virtualhost" id="ShockwaveFlash1">';
+	hiddenFlash += '<param name="movie" value="virtualhost.swf" />';
+	hiddenFlash += '<param name="quality" value="high" />';
+	hiddenFlash += '<param value="transparent" name="wmode" />';
+	hiddenFlash += '<embed src="virtualhost.swf" wmode="transparent" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="310" height="390"></embed>';
+	hiddenFlash += '</object>';
+   document.write('<div id="flash_in" style="display: inline; width: auto; height: auto;">');
 	<% If playflash <> "1" Then %>
-   document.write('<a class="auraltext" href="#skipflash" onFocus="hover(this,\'show-tab\'); this.focus()" onblur="hover(this,\'auraltext\')">Skip Flash content</a><br>');
-   document.write('<object tabindex="0" onmousedown="if(document.getElementById(\'skipflash2\')) document.getElementById(\'skipflash2\').focus();" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"  codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="310" height="390" title="virtualhost" id="ShockwaveFlash1">');
-   document.write('<param name="movie" value="virtualhost.swf" />');
-   document.write('<param name="quality" value="high" />');
-   document.write('<param value="transparent" name="wmode" />');
-   document.write('<embed src="virtualhost.swf" wmode="transparent" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="310" height="390"></embed>');
-   document.write('</object>');
+   document.write(hiddenFlash);
+   <%  Else %>
+   document.write('<table width="160" height="400" cellpadding="0" cellspacing="0" border="0" summary=""><tr><td valign="bottom"><a href="Javascript: replayVirtualHost();" title="Replay Virtual Host" class="g" onfocus="this.className=\'g-over\';" onblur="this.className=\'g\';"><img src="../images/replay.gif" width="40" height="13" alt="Replay Virtual Host" border="0" onmouseover="this.src=\'../images/replay-over.gif\';" onmouseout="this.src=\'../images/replay.gif\';"></a></td></tr></table>');
    <%  End If %>
    document.write('</div>');
 } else {

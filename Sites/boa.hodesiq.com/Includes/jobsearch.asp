@@ -59,9 +59,7 @@
 							</td>
 						</tr>
 						<tr>
-							<td colspan="2" valign="top" width="100%" align="center" style="padding: 6px 6px 0px 12px;">
-<input type="submit" name="bsearch" value="Begin Search" title="Begin Search" alt="Begin Search" class="bodybtn"> <input type="submit" name="vjobs" value="View All Jobs" title="View All Jobs" alt="View All Jobs" class="bodybtn">
-							</td>
+							<td colspan="2" valign="top" width="100%" align="center" style="padding: 6px 6px 0px 12px;"><input type="submit" name="bsearch" value="Begin Search" title="Begin Search" alt="Begin Search" class="bodybtn"></td>
 						</tr>
 						</table>
 </form>
