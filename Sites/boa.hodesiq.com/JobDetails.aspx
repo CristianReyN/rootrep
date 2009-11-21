@@ -44,8 +44,8 @@
                             <asp:button runat="server" cssclass="bodybtn" id="bttnAddToJobCart" width="150" text="Add to Job Cart" OnClick="bttnAddToJobCart_Click" />
                             <asp:button runat="server" cssclass="bodybtn" id="bttnRemoveFromJobCart" width="150" text="Remove from Job Cart" OnClick="bttnRemoveFromJobCart_Click"  />
                             <asp:button runat="server" cssclass="bodybtn" id="bsearchTop" text="View Job Cart" width="150" OnClick="bsearchTop_Click"/><br/>
-                            <asp:button runat="server" cssclass="bodybtn" id="bttnApplyNow" width="150" text="Apply Now" OnClick="bttnApplyNow_Click" /><br/>
-                            <!--<asp:HyperLink ID="applylnk" CssClass="p" runat="server" NavigateUrl="" Target="_blank" >Apply Now</asp:HyperLink>-->
+                            <!--<asp:button runat="server" cssclass="bodybtn" id="bttnApplyNow1" width="150" text="Apply Now" OnClick="bttnApplyNow_Click" /><br/>-->
+                            <asp:HyperLink ID="applylnk" CssClass="p" runat="server" NavigateUrl="" Target="_blank" ><img src="images/apply_now.gif" alt="Apply Now" style="border-top-style: none; border-right-style: none; border-left-style: none; border-bottom-style: none;" /></asp:HyperLink>
                         </td>
                     </tr>
                     <tr>
@@ -109,8 +109,8 @@
                             <asp:button runat="server" cssclass="bodybtn" id="bttnAddToJobCart_bottom" width="150" text="Add to Job Cart" OnClick="bttnAddToJobCart_Click" />
                             <asp:button runat="server" cssclass="bodybtn" id="bttnRemoveFromJobCart_bottom" width="150" text="Remove from Job Cart" OnClick="bttnRemoveFromJobCart_Click"  />
                             <asp:Button  runat="server" cssclass="bodybtn" id="bsearch" text="View Job Cart" width="150" OnClick="bsearch_Click"/><br/>
-                            <asp:button runat="server" cssclass="bodybtn" id="bttnApplyNow_bottom" width="150" text="Apply Now" OnClick="bttnApplyNow_Click"/><br/>
-                            <!--<asp:HyperLink ID="applylink" CssClass="p" runat="server" NavigateUrl="" Target="_blank" >Apply Now</asp:HyperLink>-->
+                            <!--<asp:button runat="server" cssclass="bodybtn" id="bttnApplyNow_bottom" width="150" text="Apply Now" OnClick="bttnApplyNow_Click"/><br/>-->
+                            <asp:HyperLink ID="applylink" CssClass="p" runat="server" NavigateUrl="" Target="_blank" ><img src="images/apply_now.gif" alt="Apply Now" style="border-top-style: none; border-right-style: none; border-left-style: none; border-bottom-style: none;" /></asp:HyperLink>
                         </td>
                     </tr>
                 </table>
