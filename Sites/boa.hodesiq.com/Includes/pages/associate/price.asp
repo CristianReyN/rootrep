@@ -35,7 +35,7 @@ data="../Includes/pages/associate/Price.swf" width="259" height="166" id="javafl
 >>Allen Price, GMRM Global Credit: My name is Allen Price.<br>
 I am a Senior Vice President in the Global Corporate Investment Bank Risk Management Group.<br>
 My responsibility is the risk management of and support of the Global Structure Finance Business line.<br>
-My favorite part of kind of what I do on a daytoday basis is really working with my front office partners, the folks who are in the origination and structuring role as they think about how we can best bring value to our customers.<br>
+My favorite part of kind of what I do on a day-to-day basis is really working with my front office partners, the folks who are in the origination and structuring role as they think about how we can best bring value to our customers.<br>
 I think one of the things that as a risk officer I am charged with keeping in the back of my mind or the front of my mind, I guess, is the risk reward equation.<br>
 The folks who are going out and talking to the customers to sort of develop the business, if you will, they're focusing on the risk and reward, but with more emphasis toward reward.<br>
 The risk officers we focus on the risk, but you have to keep that balance in place at all times.<br>

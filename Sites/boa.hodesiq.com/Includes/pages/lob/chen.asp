@@ -54,9 +54,9 @@ I think my favorite thing about the job is that it is so fluid in nature because
 It allows me to be involved with several different things which prevents, I guess, a job from becoming routine, and I really like to be, you know, challenged from a, I guess, a multitasking perspective, so I really enjoy on being on multiple, different projects at the time and having to balance the priorities for yourself and figure out what needs to be done at any given moment while also keeping things on your mind in the back burner.<br>
 Coming in from a legacy company, I think the thing that surprised me most about Bank of America was the intimate feel you get within your team or respective group that you're within.<br>
 I guess just seeing how large Bank of America is, currently with 200,000 plus associates, you think it's easy to get lost in the shuffle of things.<br>
-However, you know, through my four or five years, I definitely feel that the work that you do, you see the value of it on a daytoday basis.<br>
+However, you know, through my four or five years, I definitely feel that the work that you do, you see the value of it on a day-to-day basis.<br>
 It doesn't really get lost in the whole grand scheme of things, and I guess that's something that I was really impressed by in joining in this company.<br>
-There's a true connection between what we do and what the line of business ends up carrying out on a daytoday basis, and you really see the connection and results that you're basically Impacting on a daytoday basis.<br>
+There's a true connection between what we do and what the line of business ends up carrying out on a day-to-day basis, and you really see the connection and results that you're basically Impacting on a day-to-day basis.<br>
 I can't say that you'll experience that necessarily at any other company, but I know that at Bank of America, you definitely will.
 </p>
 <br>
