@@ -393,4 +393,88 @@ public class Jobs
 			throw ex;
 		}
 	}
+
+	public OleDbDataReader TravelDR()
+	{
+		OleDbConnection con = new OleDbConnection(constring);
+		con.Open();
+		OleDbDataReader rdr;
+		OleDbCommand cmd = new OleDbCommand();
+		cmd.Connection = con;
+		cmd.CommandType = CommandType.StoredProcedure;
+		cmd.CommandText = "p_SelectTravelPercent";
+
+		try
+		{
+			rdr = cmd.ExecuteReader(CommandBehavior.CloseConnection);
+			return rdr;
+		}
+		catch (Exception ex)
+		{
+			throw ex;
+		}
+	}
+
+	public OleDbDataReader ShiftDR()
+	{
+		OleDbConnection con = new OleDbConnection(constring);
+		con.Open();
+		OleDbDataReader rdr;
+		OleDbCommand cmd = new OleDbCommand();
+		cmd.Connection = con;
+		cmd.CommandType = CommandType.StoredProcedure;
+		cmd.CommandText = "p_SelectShift";
+
+		try
+		{
+			rdr = cmd.ExecuteReader(CommandBehavior.CloseConnection);
+			return rdr;
+		}
+		catch (Exception ex)
+		{
+			throw ex;
+		}
+	}
+
+	public OleDbDataReader TypeDR()
+	{
+		OleDbConnection con = new OleDbConnection(constring);
+		con.Open();
+		OleDbDataReader rdr;
+		OleDbCommand cmd = new OleDbCommand();
+		cmd.Connection = con;
+		cmd.CommandType = CommandType.StoredProcedure;
+		cmd.CommandText = "p_SelectFullTimePartTime";
+
+		try
+		{
+			rdr = cmd.ExecuteReader(CommandBehavior.CloseConnection);
+			return rdr;
+		}
+		catch (Exception ex)
+		{
+			throw ex;
+		}
+	}
+
+	public OleDbDataReader LanguageDR()
+	{
+		OleDbConnection con = new OleDbConnection(constring);
+		con.Open();
+		OleDbDataReader rdr;
+		OleDbCommand cmd = new OleDbCommand();
+		cmd.Connection = con;
+		cmd.CommandType = CommandType.StoredProcedure;
+		cmd.CommandText = "p_SelectLanguageRequirements";
+
+		try
+		{
+			rdr = cmd.ExecuteReader(CommandBehavior.CloseConnection);
+			return rdr;
+		}
+		catch (Exception ex)
+		{
+			throw ex;
+		}
+	}
 }
