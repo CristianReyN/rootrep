@@ -4,14 +4,14 @@ Dim title, mpage, spage, ada_href, ada_title, job_search_action, Metatag%>
 <!-- #include file="../includes/career_fit_tool_programs.asp" -->
 <%
 Set program = programs(52)
-title = breadcrumb & "Campus Recruiting | Explore Careers | " & program.Item("full_degree") & " | " & program.Item("region") & " | " & Replace(program.Item("title"),"<span style=""font-size: 0.6em; position: relative; top: -0.6em;"">TM</span></span>","")
+title = breadcrumb & "Campus Recruiting | Explore Careers | " & program.Item("full_degree") & " | " & program.Item("region") & " | " & Replace(program.Item("title"),"<span style=""font-size: 0.6em; position: relative; top: -0.6em;"">TM</span>","")
 mpage = "camp"
 spage = "explore_careers"
 tpage = "internships"
 fpage = "usin-lasalle-global-trust-services-analyst-internship"
 ada_href = "../ada_camp/usin-lasalle-global-trust-services-analyst-internship.asp"
 page_self = "../campusrecruiting/usin-lasalle-global-trust-services-analyst-internship.asp"
-ada_title = breadcrumb & "Campus Recruiting | Explore Careers | " & program.Item("full_degree") & " | " & program.Item("region") & " | " & Replace(program.Item("title"),"<span style=""font-size: 0.6em; position: relative; top: -0.6em;"">TM</span></span>","")
+ada_title = breadcrumb & "Campus Recruiting | Explore Careers | " & program.Item("full_degree") & " | " & program.Item("region") & " | " & Replace(program.Item("title"),"<span style=""font-size: 0.6em; position: relative; top: -0.6em;"">TM</span>","")
 job_search_action = "../jobsearch/searchresult.asp"
 %><!-- #include file="../includes/camp_program_meta_description.asp" --><%
 Metatag=CAMP_META_DESRIPTION

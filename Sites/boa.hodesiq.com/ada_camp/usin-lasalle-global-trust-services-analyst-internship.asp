@@ -4,7 +4,7 @@ Dim title, mpage, spage, ada_href, ada_title, job_search_action,page_section, Me
 <!-- #include file="../includes/career_fit_tool_programs.asp" -->
 <%
 Set program = programs(52)
-title = breadcrumb & "Campus Recruiting | Explore Careers | " & program.Item("full_degree") & " | " & program.Item("region") & " | " & Replace(program.Item("title"),"<span style=""font-size: 0.6em; position: relative; top: -0.6em;"">TM</span></span>","")
+title = breadcrumb & "Campus Recruiting | Explore Careers | " & program.Item("full_degree") & " | " & program.Item("region") & " | " & Replace(program.Item("title"),"<span style=""font-size: 0.6em; position: relative; top: -0.6em;"">TM</span>","")
 mpage = "camp"
 spage = "explore_careers"
 tpage = "internships"

@@ -18,9 +18,6 @@ Bank&nbsp;of&nbsp;America Technology couples technological expertise with the fi
 Infrastructure covers the firm&#39;s core networks, data centers, and end-user services, which underpin our corporate and business platforms and connect our employees, clients, suppliers, and vendors together. 
 </p>
 <p class="bac">
-You will join a 2 year rotation programme and will have two year long placements within the division. 
-</p>
-<p class="bac">
 Responsibilities can range from establishing a distributed computing framework using in-house developed technologies to being the system administrator for a global UNIX platform, or be providing first-level support on one of our state-of-the-art trading systems.
 </p>
 

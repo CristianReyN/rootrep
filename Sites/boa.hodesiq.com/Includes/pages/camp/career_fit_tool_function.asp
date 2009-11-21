@@ -53,9 +53,9 @@ If programs(program_number).Item("is_active") Then programs(program_number).Item
 		Next
 '************ SORT PROGRAMS ************'
 		Dim min_programs_per_page
-		'select all (150) programs
-		Redim Preserve selected_programs(150)
-		Redim Preserve selected_program_points(150)
+		'select all (163) programs
+		Redim Preserve selected_programs(163)
+		Redim Preserve selected_program_points(163)
 		For sprg=1 To UBound(selected_programs) Step 1
 			selected_programs(sprg) = 0
 			selected_program_points(sprg) = 0

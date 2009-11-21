@@ -25,8 +25,9 @@ call createProgramGroup (gbgwim_program_group," Global Banking and Global Wealth
 call createProgramGroup (gcps_program_group,"Global Corporate Planning and Strategy", TRUE)
 call createProgramGroup (gm_program_group,"Global Markets", TRUE)
 call createProgramGroup (gr_program_group,"Global Risk", TRUE)
+call createProgramGroup (mheis_program_group,"Mortgage, Home Equity &amp; Insurance Services", TRUE)
 
-Dim program_groups(8)
+Dim program_groups(9)
 Set program_groups(1) = cao_program_group
 Set program_groups(2) = cs_program_group
 Set program_groups(3) = cfo_program_group
@@ -35,8 +36,9 @@ Set program_groups(5) = gbgwim_program_group
 Set program_groups(6) = gcps_program_group
 Set program_groups(7) = gm_program_group
 Set program_groups(8) = gr_program_group
+Set program_groups(9) = mheis_program_group
 
-Dim programs(150)
+Dim programs(163)
 '		program number			program title, program group, program page, program degree, program fulltime or intern, program sub_programs,is_active
 
 'US FULLTIME ANALYST PROGRAMS
@@ -55,26 +57,34 @@ Set programs(9) = createProgram("Operations Management Analyst Program", csbb_pr
 
 Set programs(10) = createProgram("Commercial Real Estate Bank Development Program", gbgwim_program_group, "usfn-commercial-real-estate-bank-development.asp", AMERICAS, U_S_A, ANALYST, FULLTIME, FALSE, TRUE)
 Set programs(11) = createProgram("Corporate &amp; Financial Institutions Debt Products Program ",gbgwim_program_group,"usfn-corporate-financial-institutions-debt-products.asp", AMERICAS, U_S_A, ANALYST, FULLTIME, FALSE, TRUE)
-Set programs(12) = createProgram("Corporate &amp; Investment Banking Analyst Program", gbgwim_program_group, "usfn-corporate-investment-banking-analyst.asp", AMERICAS, U_S_A, ANALYST, FULLTIME, FALSE,TRUE)
-Set programs(71) = createProgram("Corporate &amp; Investment Banking Analyst Program", gbgwim_program_group, "cafn-corporate-investment-banking-analyst.asp", AMERICAS, CANADA, ANALYST, FULLTIME, FALSE,TRUE)
-Set programs(13) = createProgram("Global Commercial Banking and Global Product Solutions Analyst Program", gbgwim_program_group, "usfn-global-commercial-banking-global-product-solutions-analyst.asp", AMERICAS, U_S_A, ANALYST, FULLTIME, FALSE,TRUE)
+Set programs(12) = createProgram("Corporate &amp; Investment Banking Analyst Program", gbgwim_program_group, "usfn-corporate-investment-banking-analyst.asp", AMERICAS, U_S_A, ANALYST, FULLTIME, FALSE, TRUE)
+Set programs(71) = createProgram("Corporate &amp; Investment Banking Analyst Program", gbgwim_program_group, "cafn-corporate-investment-banking-analyst.asp", AMERICAS, CANADA, ANALYST, FULLTIME, FALSE, TRUE)
+Set programs(13) = createProgram("Global Commercial Banking and Global Product Solutions Analyst Program", gbgwim_program_group, "usfn-global-commercial-banking-global-product-solutions-analyst.asp", AMERICAS, U_S_A, ANALYST, FULLTIME, FALSE, FALSE)'program removed
 Set programs(14) = createProgram("Global Markets Operations/Middle Office Rotational Program", gbgwim_program_group,"usfn-global-markets-operations-middle-office-rotational.asp", AMERICAS, U_S_A, ANALYST, FULLTIME, FALSE, TRUE)
 Set programs(15) = createProgram("Global Wealth and Investment Management Analyst Program", gbgwim_program_group, "usfn-global-wealth-investment-management-analyst.asp", AMERICAS, U_S_A, ANALYST, FULLTIME, FALSE, TRUE)
 Set programs(16) = createProgram("Technology Analyst Program", gbgwim_program_group, "usfn-technology-analyst.asp", AMERICAS, U_S_A, ANALYST, FULLTIME, FALSE, TRUE)
 Set programs(72) = createProgram("Technology Analyst Program", gbgwim_program_group, "cafn-technology-analyst.asp", AMERICAS, CANADA, ANALYST, FULLTIME, FALSE, TRUE)
+Set programs(159) = createProgram("Global Commercial Banking Analyst Program", gbgwim_program_group, "usfn-global-commercial-banking-analyst.asp", AMERICAS, U_S_A, ANALYST, FULLTIME, FALSE, TRUE)
+Set programs(160) = createProgram("Global Corporate &amp; Financial Institutions Treasury Analyst Program", gbgwim_program_group, "usfn-global-corporate-financial-institutions-treasury-analyst.asp", AMERICAS, U_S_A, ANALYST, FULLTIME, FALSE, TRUE)
+Set programs(161) = createProgram("Corporate Banking Analyst", gbgwim_program_group, "usfn-corporate-banking-analyst.asp", AMERICAS, U_S_A, ANALYST, FULLTIME, FALSE, TRUE)
 
-Set programs(17) = createProgram("LaSalle Global Trust Services<span style=""font-size: 0.6em; position: relative; top: -0.6em;"">TM</span></span> Analyst Program", gcps_program_group, "usfn-lasalle-global-trust-services-analyst.asp", AMERICAS, U_S_A, ANALYST, FULLTIME, FALSE, TRUE)
-Set programs(18) = createProgram("Global Transition, Quality &amp; Change Delivery Analyst", gcps_program_group, "usfn-quality-productivity-analyst.asp", AMERICAS, U_S_A, ANALYST, FULLTIME, FALSE,TRUE)
+Set programs(17) = createProgram("LaSalle Global Trust Services<span style=""font-size: 0.6em; position: relative; top: -0.6em;"">TM</span> Analyst Program", gcps_program_group, "usfn-lasalle-global-trust-services-analyst.asp", AMERICAS, U_S_A, ANALYST, FULLTIME, FALSE, TRUE)
+Set programs(18) = createProgram("Global Transition, Quality &amp; Change Delivery Analyst", gcps_program_group, "usfn-quality-productivity-analyst.asp", AMERICAS, U_S_A, ANALYST, FULLTIME, FALSE, TRUE)
 
-Set programs(19) = createProgram("Global Capital Markets Analyst Program", gm_program_group, "usfn-global-capital-markets-analyst.asp", AMERICAS, U_S_A, ANALYST, FULLTIME, FALSE,TRUE)
-Set programs(73) = createProgram("Capital Markets Analyst Program", gm_program_group, "cafn-capital-markets-analyst.asp", AMERICAS, CANADA, ANALYST, FULLTIME, FALSE,FALSE)'program removed
+Set programs(19) = createProgram("Global Capital Markets Analyst Program", gm_program_group, "usfn-global-capital-markets-analyst.asp", AMERICAS, U_S_A, ANALYST, FULLTIME, FALSE, TRUE)
+Set programs(73) = createProgram("Capital Markets Analyst Program", gm_program_group, "cafn-capital-markets-analyst.asp", AMERICAS, CANADA, ANALYST, FULLTIME, FALSE, FALSE)'program and file removed
 Set programs(20) = createProgram("Global Research Analyst Program", gm_program_group, "usfn-global-research-analyst.asp", AMERICAS, U_S_A, ANALYST, FULLTIME, FALSE, TRUE)
-Set programs(74) = createProgram("Research Analyst Program", gm_program_group, "cafn-research-analyst.asp", AMERICAS, CANADA, ANALYST, FULLTIME, FALSE, FALSE)'program removed
+Set programs(74) = createProgram("Research Analyst Program", gm_program_group, "cafn-research-analyst.asp", AMERICAS, CANADA, ANALYST, FULLTIME, FALSE, FALSE)'program and file removed
 Set programs(21) = createProgram("Global Sales &amp; Trading Analyst Program", gm_program_group,"usfn-global-sales-trading-analyst.asp", AMERICAS, U_S_A, ANALYST, FULLTIME, FALSE, TRUE)
 Set programs(75) = createProgram("Sales &amp; Trading Analyst Program", gm_program_group,"cafn-sales-trading-analyst.asp", AMERICAS, CANADA, ANALYST, FULLTIME, FALSE, TRUE)
 
 Set programs(22) = createProgram("Global Risk Management  Program", gr_program_group, "usfn-global-risk-management.asp", AMERICAS, U_S_A, ANALYST, FULLTIME, FALSE, TRUE)
 Set programs(23) = createProgram("Quantitative Management Program", gr_program_group, "usfn-quantitative-management.asp", AMERICAS, U_S_A, ANALYST, FULLTIME, FALSE, TRUE)
+
+Set programs(151) = createProgram("Actuarial Analyst I Program", mheis_program_group, "usfn-actuarial-analyst-I.asp", AMERICAS, U_S_A, ANALYST, FULLTIME, FALSE, TRUE)
+Set programs(152) = createProgram("Actuarial Analyst II Program", mheis_program_group, "usfn-actuarial-analyst-II.asp", AMERICAS, U_S_A, ANALYST, FULLTIME, FALSE, TRUE)
+Set programs(153) = createProgram("Institutional Mortgage Services Development Program", mheis_program_group, "usfn-institutional-mortgage-services.asp", AMERICAS, U_S_A, ANALYST, FULLTIME, FALSE, TRUE)
+Set programs(154) = createProgram("Underwriter Quality Assurance Analyst Program", mheis_program_group, "usfn-underwriter-quality-assurance-analyst.asp", AMERICAS, U_S_A, ANALYST, FULLTIME, FALSE, TRUE)
 
 'US FULLTIME ASSOCIATE PROGRAMS
 
@@ -88,17 +98,24 @@ Set programs(29) = createProgram("Technology MBA Program", csbb_program_group, "
 
 Set programs(30) = createProgram("Corporate &amp; Investment Banking Associate Program", gbgwim_program_group, "usfs-corporate-investment-banking-associate.asp", AMERICAS, U_S_A, ASSOCIATE, FULLTIME, FALSE, TRUE)
 Set programs(76) = createProgram("Corporate &amp; Investment Banking Associate Program", gbgwim_program_group,"cafs-corporate-investment-banking-associate.asp", AMERICAS, CANADA, ASSOCIATE, FULLTIME, FALSE, TRUE)
-Set programs(31) = createProgram("Global Commercial Banking and Global Product Solutions MBA Leadership Program", gbgwim_program_group, "usfs-global-commercial-banking-global-product-solutions-mba-leadership.asp", AMERICAS, U_S_A, ASSOCIATE, FULLTIME, FALSE, TRUE)
+Set programs(31) = createProgram("Global Commercial Banking and Global Product Solutions MBA Leadership Program", gbgwim_program_group, "usfs-global-commercial-banking-global-product-solutions-mba-leadership.asp", AMERICAS, U_S_A, ASSOCIATE, FULLTIME, FALSE, FALSE)'program removed
 Set programs(32) = createProgram("Global Wealth and Investment Management Associate Program", gbgwim_program_group, "usfs-global-wealth-investment-management-associate.asp", AMERICAS, U_S_A, ASSOCIATE, FULLTIME, FALSE, TRUE)
+Set programs(162) = createProgram("Corporate Banking Associate Program", gbgwim_program_group, "usfs-corporate-banking-associate.asp", AMERICAS, U_S_A, ASSOCIATE, FULLTIME, FALSE, TRUE)
+Set programs(163) = createProgram("Global Commercial Banking MBA Leadership Program", gbgwim_program_group, "usfs-global-commercial-banking-mba-leadership.asp", AMERICAS, U_S_A, ASSOCIATE, FULLTIME, FALSE, TRUE)
 
 Set programs(33) = createProgram("Global Transition, Quality &amp; Change Delivery Associate", gcps_program_group, "usfs-quality-productivity-associate.asp", AMERICAS, U_S_A, ASSOCIATE, FULLTIME, FALSE, TRUE)
 
 Set programs(34) = createProgram("Global Capital Markets Associate Program", gm_program_group, "usfs-global-capital-markets-associate.asp", AMERICAS, U_S_A, ASSOCIATE, FULLTIME, FALSE, TRUE)
-Set programs(77) = createProgram("Capital Markets Associate Program", gm_program_group,"cafs-capital-markets-associate.asp", AMERICAS, CANADA, ASSOCIATE, FULLTIME, FALSE, FALSE)'program removed
+Set programs(77) = createProgram("Capital Markets Associate Program", gm_program_group,"cafs-capital-markets-associate.asp", AMERICAS, CANADA, ASSOCIATE, FULLTIME, FALSE, FALSE)'program and file removed
 Set programs(35) = createProgram("Global Research Associate Program", gm_program_group, "usfs-global-research-associate.asp", AMERICAS, U_S_A, ASSOCIATE, FULLTIME, FALSE, TRUE)
-Set programs(78) = createProgram("Research Associate Program", gm_program_group,"cafs-research-associate.asp", AMERICAS, CANADA, ASSOCIATE, FULLTIME, FALSE, FALSE)'program removed
+Set programs(78) = createProgram("Research Associate Program", gm_program_group,"cafs-research-associate.asp", AMERICAS, CANADA, ASSOCIATE, FULLTIME, FALSE, FALSE)'program and file removed
 Set programs(36) = createProgram("Global Sales &amp; Trading Associate Program", gm_program_group, "usfs-global-sales-trading-associate.asp", AMERICAS, U_S_A, ASSOCIATE, FULLTIME, FALSE, TRUE)
 Set programs(79) = createProgram("Sales &amp; Trading Associate Program", gm_program_group,"cafs-sales-trading-associate.asp", AMERICAS, CANADA, ASSOCIATE, FULLTIME, FALSE, TRUE)
+
+Set programs(155) = createProgram("Home Loans &amp; Insurance MBA Management Program", mheis_program_group, "usfs-home-loans-insurance-services.asp", AMERICAS, U_S_A, ASSOCIATE, FULLTIME, FALSE, TRUE)
+Set programs(156) = createProgram("Home Loans &amp; Insurance Quantitative Financial Associate - Pricing Team Program", mheis_program_group, "usfs-home-loans-insurance-quantitative-financial-associate.asp", AMERICAS, U_S_A, ASSOCIATE, FULLTIME, FALSE, TRUE)
+Set programs(157) = createProgram("Quantitative Financial Associate - Trading Team Program", mheis_program_group, "usfs-quantitative-financial-associate-trading-team.asp", AMERICAS, U_S_A, ASSOCIATE, FULLTIME, FALSE, TRUE)
+Set programs(158) = createProgram("Senior Operational Risk Specialist Program", mheis_program_group, "usfs-senior-operational-risk-specialist.asp", AMERICAS, U_S_A, ASSOCIATE, FULLTIME, FALSE, TRUE)
 
 'US INTERN ANALYST PROGRAMS
 
@@ -123,7 +140,7 @@ Set programs(50) = createProgram("Global Wealth and Investment Management Analys
 Set programs(51) = createProgram("Technology Analyst Intern Program", gbgwim_program_group, "usin-technology-analyst-internship.asp", AMERICAS, U_S_A, ANALYST, INTERN, FALSE, TRUE)
 Set programs(81) = createProgram("Technology Analyst Intern Program", gbgwim_program_group,"cain-technology-analyst-internship.asp", AMERICAS, CANADA, ANALYST, INTERN, FALSE, TRUE)
 
-Set programs(52) = createProgram("LaSalle Global Trust Services<span style=""font-size: 0.6em; position: relative; top: -0.6em;"">TM</span></span> Analyst Intern Program", gcps_program_group, "usin-lasalle-global-trust-services-analyst-internship.asp", AMERICAS, U_S_A, ANALYST, INTERN, FALSE, TRUE)
+Set programs(52) = createProgram("LaSalle Global Trust Services<span style=""font-size: 0.6em; position: relative; top: -0.6em;"">TM</span> Analyst Intern Program", gcps_program_group, "usin-lasalle-global-trust-services-analyst-internship.asp", AMERICAS, U_S_A, ANALYST, INTERN, FALSE, TRUE)
 Set programs(53) = createProgram("Global Transition, Quality &amp; Change Delivery Analyst Internship", gcps_program_group, "usin-quality-productivity-analyst-internship.asp", AMERICAS, U_S_A, ANALYST, INTERN, FALSE, TRUE)
 
 Set programs(54) = createProgram("Global Capital Markets Analyst Intern Program", gm_program_group, "usin-global-capital-markets-analyst-internship.asp", AMERICAS, U_S_A, ANALYST, INTERN, FALSE, TRUE)
@@ -192,92 +209,92 @@ Set programs(88) = createProgram("Sales and Trading Associate Intern Program", g
 
 'EMEA FULLTIME ANALYST PROGRAMS
 
-Set programs(89) = createProgram("Global Human Resources Analyst", cao_program_group, "emeafn-global-human-resources-analyst.asp", EMEA, "", ANALYST, FULLTIME, FALSE,TRUE)
-Set programs(90) = createProgram("Card Services Analyst", cs_program_group, "emeafn-card-services-analyst.asp", EMEA, "", ANALYST, FULLTIME, FALSE,TRUE)
-Set programs(91) = createProgram("Corporate &amp; Financial Institutions Debt Products Analyst", gbgwim_program_group, "emeafn-corporate-financial-institutions-debt-products-analyst.asp", EMEA, "", ANALYST, FULLTIME, FALSE,TRUE)
-Set programs(92) = createProgram("Corporate and Investment Banking Analyst", gbgwim_program_group, "emeafn-corporate-investment-banking-analyst.asp", EMEA, "", ANALYST, FULLTIME, FALSE,TRUE)
-Set programs(93) = createProgram("Global Wealth and Investment Management Analyst", gbgwim_program_group, "emeafn-global-wealth-investment-management-analyst.asp", EMEA, "", ANALYST, FULLTIME, FALSE,TRUE)
-Set programs(94) = createProgram("Technology Analyst", gbgwim_program_group, "emeafn-technology-analyst.asp", EMEA, "", ANALYST, FULLTIME, FALSE,TRUE)
-Set programs(95) = createProgram("Treasury Management Analyst", gbgwim_program_group, "emeafn-treasury-management-analyst.asp", EMEA, "", ANALYST, FULLTIME, FALSE,TRUE)
-Set programs(96) = createProgram("Enterprise Technology &amp; Delivery Analyst", csbb_program_group, "emeafn-enterprise-technology-delivery-analyst.asp", EMEA, "", ANALYST, FULLTIME, FALSE,TRUE)
-Set programs(97) = createProgram("Capital Markets Analyst", gm_program_group, "emeafn-capital-markets-analyst.asp", EMEA, "", ANALYST, FULLTIME, FALSE,TRUE)
-Set programs(98) = createProgram("Research Analyst", gm_program_group, "emeafn-research-analyst.asp", EMEA, "", ANALYST, FULLTIME, FALSE,TRUE)
-Set programs(105) = createProgram("Research Quant Analyst", gm_program_group, "emeafs-research-quant-analyst.asp", EMEA, "", ANALYST, FULLTIME, FALSE,TRUE)
-Set programs(99) = createProgram("Sales and Trading Analyst", gm_program_group, "emeafn-sales-trading-analyst.asp", EMEA, "", ANALYST, FULLTIME, FALSE,TRUE)
-Set programs(100) = createProgram("Global Markets Risk Management Analyst", gr_program_group, "emeafn-global-markets-risk-management-analyst.asp", EMEA, "", ANALYST, FULLTIME, FALSE,TRUE)
-Set programs(150) = createProgram("LaSalle Global Trust Services<span style=""font-size: 0.6em; position: relative; top: -0.6em;"">TM</span></span>", gcps_program_group, "emeafn-lasalle-global-trust-services.asp", EMEA, "", ANALYST, FULLTIME, FALSE,TRUE)
+Set programs(89) = createProgram("Global Human Resources Analyst", cao_program_group, "emeafn-global-human-resources-analyst.asp", EMEA, "", ANALYST, FULLTIME, FALSE, TRUE)
+Set programs(90) = createProgram("Card Services Analyst", cs_program_group, "emeafn-card-services-analyst.asp", EMEA, "", ANALYST, FULLTIME, FALSE, FALSE)'program removed
+Set programs(91) = createProgram("Corporate &amp; Financial Institutions Debt Products Analyst", gbgwim_program_group, "emeafn-corporate-financial-institutions-debt-products-analyst.asp", EMEA, "", ANALYST, FULLTIME, FALSE, TRUE)
+Set programs(92) = createProgram("Corporate and Investment Banking Analyst", gbgwim_program_group, "emeafn-corporate-investment-banking-analyst.asp", EMEA, "", ANALYST, FULLTIME, FALSE, TRUE)
+Set programs(93) = createProgram("Global Wealth and Investment Management Analyst", gbgwim_program_group, "emeafn-global-wealth-investment-management-analyst.asp", EMEA, "", ANALYST, FULLTIME, FALSE, TRUE)
+Set programs(94) = createProgram("Technology Analyst", gbgwim_program_group, "emeafn-technology-analyst.asp", EMEA, "", ANALYST, FULLTIME, FALSE, TRUE)
+Set programs(95) = createProgram("Treasury Management Analyst", gbgwim_program_group, "emeafn-treasury-management-analyst.asp", EMEA, "", ANALYST, FULLTIME, FALSE, TRUE)
+Set programs(96) = createProgram("Enterprise Technology &amp; Delivery Analyst", csbb_program_group, "emeafn-enterprise-technology-delivery-analyst.asp", EMEA, "", ANALYST, FULLTIME, FALSE, TRUE)
+Set programs(97) = createProgram("Capital Markets Analyst", gm_program_group, "emeafn-capital-markets-analyst.asp", EMEA, "", ANALYST, FULLTIME, FALSE, TRUE)
+Set programs(98) = createProgram("Research Analyst", gm_program_group, "emeafn-research-analyst.asp", EMEA, "", ANALYST, FULLTIME, FALSE, TRUE)
+Set programs(105) = createProgram("Research Quant Analyst", gm_program_group, "emeafs-research-quant-analyst.asp", EMEA, "", ANALYST, FULLTIME, FALSE, TRUE)
+Set programs(99) = createProgram("Sales and Trading Analyst", gm_program_group, "emeafn-sales-trading-analyst.asp", EMEA, "", ANALYST, FULLTIME, FALSE, TRUE)
+Set programs(100) = createProgram("Global Risk Management Analyst", gr_program_group, "emeafn-global-markets-risk-management-analyst.asp", EMEA, "", ANALYST, FULLTIME, FALSE, TRUE)
+Set programs(150) = createProgram("LaSalle Global Trust Services<span style=""font-size: 0.6em; position: relative; top: -0.6em;"">TM</span>", gcps_program_group, "emeafn-lasalle-global-trust-services.asp", EMEA, "", ANALYST, FULLTIME, FALSE, TRUE)
 
 'EMEA FULLTIME ASSOCIATE PROGRAMS
 
-Set programs(101) = createProgram("Corporate and Investment Banking Associate", gbgwim_program_group, "emeafs-corporate-investment-banking-associate.asp", EMEA, "", ASSOCIATE, FULLTIME, FALSE,TRUE)
-Set programs(102) = createProgram("Global Markets PhD Associate", gm_program_group, "emeafs-global-markets-phd-associate.asp", EMEA, "", ASSOCIATE, FULLTIME, FALSE,TRUE)
-Set programs(103) = createProgram("Research Associate", gm_program_group, "emeafs-research-associate.asp", EMEA, "", ASSOCIATE, FULLTIME, FALSE,TRUE)
-Set programs(104) = createProgram("Research PhD Associate", gm_program_group, "emeafs-research-phd-associate.asp", EMEA, "", ASSOCIATE, FULLTIME, FALSE,TRUE)
-Set programs(106) = createProgram("Sales and Trading Associate", gm_program_group, "emeafs-sales-trading-associate.asp", EMEA, "", ASSOCIATE, FULLTIME, FALSE,TRUE)
+Set programs(101) = createProgram("Corporate and Investment Banking Associate", gbgwim_program_group, "emeafs-corporate-investment-banking-associate.asp", EMEA, "", ASSOCIATE, FULLTIME, FALSE, TRUE)
+Set programs(102) = createProgram("Global Markets PhD Associate", gm_program_group, "emeafs-global-markets-phd-associate.asp", EMEA, "", ASSOCIATE, FULLTIME, FALSE, TRUE)
+Set programs(103) = createProgram("Research Associate", gm_program_group, "emeafs-research-associate.asp", EMEA, "", ASSOCIATE, FULLTIME, FALSE, TRUE)
+Set programs(104) = createProgram("Research PhD Associate", gm_program_group, "emeafs-research-phd-associate.asp", EMEA, "", ASSOCIATE, FULLTIME, FALSE, FALSE)'program removed
+Set programs(106) = createProgram("Sales and Trading Associate", gm_program_group, "emeafs-sales-trading-associate.asp", EMEA, "", ASSOCIATE, FULLTIME, FALSE, TRUE)
 
 'EMEA INTERN ANALYST PROGRAMS
 
-Set programs(107) = createProgram("Global Human Resources Analyst Internship", cao_program_group, "emeain-global-human-resources-analyst-internship.asp", EMEA, "", ANALYST, INTERN, FALSE,TRUE)
-Set programs(108) = createProgram("Card Services Analyst Internship", cs_program_group, "emeain-card-services-analyst-internship.asp", EMEA, "", ANALYST, INTERN, FALSE,FALSE)
-Set programs(109) = createProgram("Enterprise Technology &amp; Delivery Analyst Internship", csbb_program_group, "emeain-enterprise-technology-delivery-analyst-internship.asp", EMEA, "", ANALYST, INTERN, FALSE,TRUE)
-Set programs(110) = createProgram("Corporate &amp; Financial Institutions Debt Products Analyst Internship", gbgwim_program_group, "emeain-corporate-financial-institutions-debt-products-analyst-internship.asp", EMEA, "", ANALYST, INTERN, FALSE,TRUE)
-Set programs(111) = createProgram("Corporate and Investment Banking Analyst Internship", gbgwim_program_group, "emeain-corporate-investment-banking-analyst-internship.asp", EMEA, "", ANALYST, INTERN, FALSE,TRUE)
-Set programs(112) = createProgram("Global Wealth and Investment Management Analyst Internship", gbgwim_program_group, "emeain-global-wealth-investment-management-analyst-internship.asp", EMEA, "", ANALYST, INTERN, FALSE,TRUE)
-Set programs(113) = createProgram("Technology Analyst Internship", gbgwim_program_group, "emeain-technology-analyst-internship.asp", EMEA, "", ANALYST, INTERN, FALSE,TRUE)
-Set programs(114) = createProgram("Treasury Management Analyst Internship", gbgwim_program_group, "emeain-treasury-management-analyst-internship.asp", EMEA, "", ANALYST, INTERN, FALSE,TRUE)
-Set programs(115) = createProgram("Capital Markets Analyst Internship", gm_program_group, "emeain-capital-markets-analyst-internship.asp", EMEA, "", ANALYST, INTERN, FALSE,TRUE)
-Set programs(116) = createProgram("Research Analyst Internship", gm_program_group, "emeain-research-analyst-internship.asp", EMEA, "", ANALYST, INTERN, FALSE,TRUE)
-Set programs(122) = createProgram("Research Quant Analyst Internship", gm_program_group, "emeais-research-quant-analyst-internship.asp", EMEA, "", ANALYST, INTERN, FALSE,TRUE)
-Set programs(117) = createProgram("Sales and Trading Analyst Internship", gm_program_group, "emeain-sales-trading-analyst-internship.asp", EMEA, "", ANALYST, INTERN, FALSE,TRUE)
-Set programs(118) = createProgram("Global Markets Risk Management Analyst Internship", gr_program_group, "emeain-global-markets-risk-management-analyst-internship.asp", EMEA, "", ANALYST, INTERN, FALSE,TRUE)
+Set programs(107) = createProgram("Global Human Resources Analyst Internship", cao_program_group, "emeain-global-human-resources-analyst-internship.asp", EMEA, "", ANALYST, INTERN, FALSE, TRUE)
+Set programs(108) = createProgram("Card Services Analyst Internship", cs_program_group, "emeain-card-services-analyst-internship.asp", EMEA, "", ANALYST, INTERN, FALSE, FALSE)'program removed
+Set programs(109) = createProgram("Enterprise Technology &amp; Delivery Analyst Internship", csbb_program_group, "emeain-enterprise-technology-delivery-analyst-internship.asp", EMEA, "", ANALYST, INTERN, FALSE, TRUE)
+Set programs(110) = createProgram("Corporate &amp; Financial Institutions Debt Products Analyst Internship", gbgwim_program_group, "emeain-corporate-financial-institutions-debt-products-analyst-internship.asp", EMEA, "", ANALYST, INTERN, FALSE, TRUE)
+Set programs(111) = createProgram("Corporate and Investment Banking Analyst Internship", gbgwim_program_group, "emeain-corporate-investment-banking-analyst-internship.asp", EMEA, "", ANALYST, INTERN, FALSE, TRUE)
+Set programs(112) = createProgram("Global Wealth and Investment Management Analyst Internship", gbgwim_program_group, "emeain-global-wealth-investment-management-analyst-internship.asp", EMEA, "", ANALYST, INTERN, FALSE, TRUE)
+Set programs(113) = createProgram("Technology Analyst Internship", gbgwim_program_group, "emeain-technology-analyst-internship.asp", EMEA, "", ANALYST, INTERN, FALSE, TRUE)
+Set programs(114) = createProgram("Treasury Management Analyst Internship", gbgwim_program_group, "emeain-treasury-management-analyst-internship.asp", EMEA, "", ANALYST, INTERN, FALSE, TRUE)
+Set programs(115) = createProgram("Capital Markets Analyst Internship", gm_program_group, "emeain-capital-markets-analyst-internship.asp", EMEA, "", ANALYST, INTERN, FALSE, TRUE)
+Set programs(116) = createProgram("Research Analyst Internship", gm_program_group, "emeain-research-analyst-internship.asp", EMEA, "", ANALYST, INTERN, FALSE, TRUE)
+Set programs(122) = createProgram("Research Quant Analyst Internship", gm_program_group, "emeais-research-quant-analyst-internship.asp", EMEA, "", ANALYST, INTERN, FALSE, TRUE)
+Set programs(117) = createProgram("Sales and Trading Analyst Internship", gm_program_group, "emeain-sales-trading-analyst-internship.asp", EMEA, "", ANALYST, INTERN, FALSE, TRUE)
+Set programs(118) = createProgram("Global Markets Risk Management Analyst Internship", gr_program_group, "emeain-global-markets-risk-management-analyst-internship.asp", EMEA, "", ANALYST, INTERN, FALSE, TRUE)
 
 'EMEA INTERN ASSOCIATE PROGRAMS
 
-Set programs(119) = createProgram("Corporate and Investment Banking Associate Internship", gbgwim_program_group, "emeais-corporate-investment-banking-associate-internship.asp", EMEA, "", ASSOCIATE, INTERN, FALSE,TRUE)
-Set programs(120) = createProgram("Global Markets PhD Associate Internship", gm_program_group, "emeais-global-markets-phd-associate-internship.asp", EMEA, "", ASSOCIATE, INTERN, FALSE,TRUE)
-Set programs(121) = createProgram("Research Associate Internship", gm_program_group, "emeais-research-associate-internship.asp", EMEA, "", ASSOCIATE, INTERN, FALSE,TRUE)
-Set programs(123) = createProgram("Sales and Trading Associate Internship", gm_program_group, "emeais-sales-trading-associate-internship.asp", EMEA, "", ASSOCIATE, INTERN, FALSE,TRUE)
+Set programs(119) = createProgram("Corporate and Investment Banking Associate Internship", gbgwim_program_group, "emeais-corporate-investment-banking-associate-internship.asp", EMEA, "", ASSOCIATE, INTERN, FALSE, TRUE)
+Set programs(120) = createProgram("Global Markets PhD Associate Internship", gm_program_group, "emeais-global-markets-phd-associate-internship.asp", EMEA, "", ASSOCIATE, INTERN, FALSE, TRUE)
+Set programs(121) = createProgram("Research Associate Internship", gm_program_group, "emeais-research-associate-internship.asp", EMEA, "", ASSOCIATE, INTERN, FALSE, TRUE)
+Set programs(123) = createProgram("Sales and Trading Associate Internship", gm_program_group, "emeais-sales-trading-associate-internship.asp", EMEA, "", ASSOCIATE, INTERN, FALSE, TRUE)
 
 
 
 
 'ASIA FULLTIME ANALYST PROGRAMS
 
-Set programs(124) = createProgram("Chief Financial Office Analyst", cfo_program_group, "asiafn-chief-financial-office-analyst.asp", ASIA, "", ANALYST, FULLTIME, FALSE,TRUE)
-Set programs(125) = createProgram("Commercial Banking &amp; Product Solutions Analyst", gbgwim_program_group, "asiafn-commercial-banking-product-solutions-analyst.asp", ASIA, "", ANALYST, FULLTIME, FALSE,TRUE)
-Set programs(126) = createProgram("Corporate and Investment Banking Analyst", gbgwim_program_group, "asiafn-corporate-investment-banking-analyst.asp", ASIA, "", ANALYST, FULLTIME, FALSE,TRUE)
-Set programs(127) = createProgram("Global Wealth Management Analyst", gbgwim_program_group, "asiafn-global-wealth-management-analyst.asp", ASIA, "", ANALYST, FULLTIME, FALSE,TRUE)
-Set programs(128) = createProgram("Operations Analyst", gbgwim_program_group, "asiafn-operations-analyst.asp", ASIA, "", ANALYST, FULLTIME, FALSE,TRUE)
-Set programs(129) = createProgram("Technology Analyst", gbgwim_program_group, "asiafn-technology-analyst.asp", ASIA, "", ANALYST, FULLTIME, FALSE,TRUE)
-Set programs(130) = createProgram("Capital Markets Analyst", gm_program_group, "asiafn-capital-markets-analyst.asp", ASIA, "", ANALYST, FULLTIME, FALSE,TRUE)
-Set programs(131) = createProgram("Global Markets Analyst", gm_program_group, "asiafn-global-markets-analyst.asp", ASIA, "", ANALYST, FULLTIME, FALSE,TRUE)
-Set programs(132) = createProgram("Research Analyst", gm_program_group, "asiafn-research-analyst.asp", ASIA, "", ANALYST, FULLTIME, FALSE,TRUE)
+Set programs(124) = createProgram("Chief Financial Office Analyst", cfo_program_group, "asiafn-chief-financial-office-analyst.asp", ASIA, "", ANALYST, FULLTIME, FALSE, TRUE)
+Set programs(125) = createProgram("Commercial Banking &amp; Product Solutions Analyst", gbgwim_program_group, "asiafn-commercial-banking-product-solutions-analyst.asp", ASIA, "", ANALYST, FULLTIME, FALSE, TRUE)
+Set programs(126) = createProgram("Corporate and Investment Banking Analyst", gbgwim_program_group, "asiafn-corporate-investment-banking-analyst.asp", ASIA, "", ANALYST, FULLTIME, FALSE, TRUE)
+Set programs(127) = createProgram("Global Wealth Management Analyst", gbgwim_program_group, "asiafn-global-wealth-management-analyst.asp", ASIA, "", ANALYST, FULLTIME, FALSE, TRUE)
+Set programs(128) = createProgram("Operations Analyst", gbgwim_program_group, "asiafn-operations-analyst.asp", ASIA, "", ANALYST, FULLTIME, FALSE, TRUE)
+Set programs(129) = createProgram("Technology Analyst", gbgwim_program_group, "asiafn-technology-analyst.asp", ASIA, "", ANALYST, FULLTIME, FALSE, TRUE)
+Set programs(130) = createProgram("Capital Markets Analyst", gm_program_group, "asiafn-capital-markets-analyst.asp", ASIA, "", ANALYST, FULLTIME, FALSE, TRUE)
+Set programs(131) = createProgram("Global Markets Analyst", gm_program_group, "asiafn-global-markets-analyst.asp", ASIA, "", ANALYST, FULLTIME, FALSE, TRUE)
+Set programs(132) = createProgram("Research Analyst", gm_program_group, "asiafn-research-analyst.asp", ASIA, "", ANALYST, FULLTIME, FALSE, TRUE)
 
 'ASIA FULLTIME ASSOCIATE PROGRAMS
 
-Set programs(133) = createProgram("Corporate and Investment Banking Associate", gbgwim_program_group, "asiafs-corporate-investment-banking-associate.asp", ASIA, "", ASSOCIATE, FULLTIME, FALSE,TRUE)
-Set programs(134) = createProgram("Capital Markets Associate", gm_program_group, "asiafs-capital-markets-associate.asp", ASIA, "", ASSOCIATE, FULLTIME, FALSE,TRUE)
-Set programs(135) = createProgram("Global Markets Associate", gm_program_group, "asiafs-global-markets-associate.asp", ASIA, "", ASSOCIATE, FULLTIME, FALSE,TRUE)
-Set programs(136) = createProgram("Research Associate", gm_program_group, "asiafs-research-associate.asp", ASIA, "", ASSOCIATE, FULLTIME, FALSE,TRUE)
+Set programs(133) = createProgram("Corporate and Investment Banking Associate", gbgwim_program_group, "asiafs-corporate-investment-banking-associate.asp", ASIA, "", ASSOCIATE, FULLTIME, FALSE, TRUE)
+Set programs(134) = createProgram("Capital Markets Associate", gm_program_group, "asiafs-capital-markets-associate.asp", ASIA, "", ASSOCIATE, FULLTIME, FALSE, TRUE)
+Set programs(135) = createProgram("Global Markets Associate", gm_program_group, "asiafs-global-markets-associate.asp", ASIA, "", ASSOCIATE, FULLTIME, FALSE, TRUE)
+Set programs(136) = createProgram("Research Associate", gm_program_group, "asiafs-research-associate.asp", ASIA, "", ASSOCIATE, FULLTIME, FALSE, TRUE)
 
 'ASIA INTERN ANALYST PROGRAMS
 
-Set programs(137) = createProgram("Chief Financial Office Analyst Internship", cfo_program_group, "asiain-chief-financial-office-analyst-internship.asp", ASIA, "", ANALYST, INTERN, FALSE,TRUE)
-Set programs(138) = createProgram("Commercial Banking &amp; Product Solutions Analyst Internship", gbgwim_program_group, "asiain-commercial-banking-product-solutions-analyst-internship.asp", ASIA, "", ANALYST, INTERN, FALSE,TRUE)
-Set programs(139) = createProgram("Corporate and Investment Banking Analyst Internship", gbgwim_program_group, "asiain-corporate-investment-banking-analyst-internship.asp", ASIA, "", ANALYST, INTERN, FALSE,TRUE)
-Set programs(140) = createProgram("Global Wealth Management Analyst Internship", gbgwim_program_group, "asiain-global-wealth-management-analyst-internship.asp", ASIA, "", ANALYST, INTERN, FALSE,TRUE)
-Set programs(141) = createProgram("Operations Analyst Internship", gbgwim_program_group, "asiain-operations-analyst-internship.asp", ASIA, "", ANALYST, INTERN, FALSE,TRUE)
-Set programs(142) = createProgram("Technology Analyst Internship", gbgwim_program_group, "asiain-technology-analyst-internship.asp", ASIA, "", ANALYST, INTERN, FALSE,TRUE)
-Set programs(143) = createProgram("Capital Markets Analyst Internship", gm_program_group, "asiain-capital-markets-analyst-internship.asp", ASIA, "", ANALYST, INTERN, FALSE,TRUE)
-Set programs(144) = createProgram("Global Markets Analyst Internship", gm_program_group, "asiain-global-markets-analyst-internship.asp", ASIA, "", ANALYST, INTERN, FALSE,TRUE)
-Set programs(145) = createProgram("Research Analyst Internship", gm_program_group, "asiain-research-analyst-internship.asp", ASIA, "", ANALYST, INTERN, FALSE,TRUE)
+Set programs(137) = createProgram("Chief Financial Office Analyst Internship", cfo_program_group, "asiain-chief-financial-office-analyst-internship.asp", ASIA, "", ANALYST, INTERN, FALSE, TRUE)
+Set programs(138) = createProgram("Commercial Banking &amp; Product Solutions Analyst Internship", gbgwim_program_group, "asiain-commercial-banking-product-solutions-analyst-internship.asp", ASIA, "", ANALYST, INTERN, FALSE, TRUE)
+Set programs(139) = createProgram("Corporate and Investment Banking Analyst Internship", gbgwim_program_group, "asiain-corporate-investment-banking-analyst-internship.asp", ASIA, "", ANALYST, INTERN, FALSE, TRUE)
+Set programs(140) = createProgram("Global Wealth Management Analyst Internship", gbgwim_program_group, "asiain-global-wealth-management-analyst-internship.asp", ASIA, "", ANALYST, INTERN, FALSE, TRUE)
+Set programs(141) = createProgram("Operations Analyst Internship", gbgwim_program_group, "asiain-operations-analyst-internship.asp", ASIA, "", ANALYST, INTERN, FALSE, TRUE)
+Set programs(142) = createProgram("Technology Analyst Internship", gbgwim_program_group, "asiain-technology-analyst-internship.asp", ASIA, "", ANALYST, INTERN, FALSE, TRUE)
+Set programs(143) = createProgram("Capital Markets Analyst Internship", gm_program_group, "asiain-capital-markets-analyst-internship.asp", ASIA, "", ANALYST, INTERN, FALSE, TRUE)
+Set programs(144) = createProgram("Global Markets Analyst Internship", gm_program_group, "asiain-global-markets-analyst-internship.asp", ASIA, "", ANALYST, INTERN, FALSE, TRUE)
+Set programs(145) = createProgram("Research Analyst Internship", gm_program_group, "asiain-research-analyst-internship.asp", ASIA, "", ANALYST, INTERN, FALSE, TRUE)
 
 'ASIA INTERN ASSOCIATE PROGRAMS
 
-Set programs(146) = createProgram("Corporate and Investment Banking Associate Internship", gbgwim_program_group, "asiais-corporate-investment-banking-associate-internship.asp", ASIA, "", ASSOCIATE, INTERN, FALSE,TRUE)
-Set programs(147) = createProgram("Capital Markets Associate Internship", gm_program_group, "asiais-capital-markets-associate-internship.asp", ASIA, "", ASSOCIATE, INTERN, FALSE,TRUE)
-Set programs(148) = createProgram("Global Markets Associate Internship", gm_program_group, "asiais-global-markets-associate-internship.asp", ASIA, "", ASSOCIATE, INTERN, FALSE,TRUE)
-Set programs(149) = createProgram("Research Associate Internship", gm_program_group, "asiais-research-associate-internship.asp", ASIA, "", ASSOCIATE, INTERN, FALSE,TRUE)
+Set programs(146) = createProgram("Corporate and Investment Banking Associate Internship", gbgwim_program_group, "asiais-corporate-investment-banking-associate-internship.asp", ASIA, "", ASSOCIATE, INTERN, FALSE, TRUE)
+Set programs(147) = createProgram("Capital Markets Associate Internship", gm_program_group, "asiais-capital-markets-associate-internship.asp", ASIA, "", ASSOCIATE, INTERN, FALSE, TRUE)
+Set programs(148) = createProgram("Global Markets Associate Internship", gm_program_group, "asiais-global-markets-associate-internship.asp", ASIA, "", ASSOCIATE, INTERN, FALSE, TRUE)
+Set programs(149) = createProgram("Research Associate Internship", gm_program_group, "asiais-research-associate-internship.asp", ASIA, "", ASSOCIATE, INTERN, FALSE, TRUE)
 
 
 Function createProgram(title, program_group, url, region, sub_region, degree, ft_int, sub_programs, is_active)

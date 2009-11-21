@@ -39,7 +39,7 @@ tabs[tab-1].coremetrics = true;
 		<% End If %>
 function preload_add()
 {
-	MM_preloadImages("../images/camp/apply_us_on.gif","../images/camp/apply_canada_on.gif","../images/camp/apply_on.gif");
+	MM_preloadImages("../images/camp/apply_us_on.gif","../images/camp/apply_canada_on.gif","../images/camp/apply_on.gif","../images/camp/japan_website_on.gif");
 }
 </script>
 <table width="100%" cellpadding="0" cellspacing="0" border="0" summary="">
@@ -118,7 +118,7 @@ function preload_add()
 					<li />In the Subject Line of your email, include "Source = Bank&nbsp;of&nbsp;America Campus Careers" and the specific position title found at the top of the job posting.
 				</ul>
 		</span>
-		<a href="https://apply.ml.com/Students/Login.aspx" target="_blank" title="Apply Canada. Link opens a new window." onmouseover="MM_swapImage('us_spr','','../images/camp/apply_canada_on.gif');" onmouseout="MM_swapImgRestore();"><img name="us_spr" src="../images/camp/apply_canada_off.gif" border="0" style="cursor: pointer;" alt="Apply Canada. Link opens a new window." title="Apply Canada. Link opens a new window." /></a>
+		<a href="https://apply.ml.com/Students/Login.aspx" target="_blank" title="Apply Canada. Link opens a new window." onmouseover="MM_swapImage('canada_spr','','../images/camp/apply_canada_on.gif');" onmouseout="MM_swapImgRestore();"><img name="canada_spr" src="../images/camp/apply_canada_off.gif" border="0" style="cursor: pointer;" alt="Apply Canada. Link opens a new window." title="Apply Canada. Link opens a new window." /></a>
 	</div>
 </div>
 		<% If page_section = "ADA" Then %>
@@ -240,7 +240,7 @@ function preload_add()
 		<% End If %>
 <div id="dt3" style="display: <% If tab = 3 Or page_section = "ADA" Then %>inline<% Else %>none<% End If %>;">
 	<div class="innerTab">
-		<p class="bac">For positions in Asia, you must apply through our online application system. Simply click the link below and follow the instructions to apply and track the progress of your application.</p>
+		<p class="bac">For positions in Asia Pacific, you must apply through our online application system. Simply click the link below and follow the instructions to apply and track the progress of your application.</p>
 		<br><br>
 		<span class='auraltext'>
 			<h2 style="margin: 0px 0px 0px 12px; ">Important information on applying for positions.</h2>
@@ -250,7 +250,10 @@ function preload_add()
 					<li />In the Subject Line of your email, include "Source = Bank&nbsp;of&nbsp;America Campus Careers" and the specific position title found at the top of the job posting.
 				</ul>
 		</span>
-		<a href="https://static.wcn.co.uk/company/ml/apply_now.html" target="_blank" title="Apply. Link opens a new window." onmouseover="MM_swapImage('emea_spr','','../images/camp/apply_on.gif');" onmouseout="MM_swapImgRestore();"><img name="emea_spr" src="../images/camp/apply_off.gif" border="0" style="cursor: pointer;" alt="Apply. Link opens a new window." title="Apply. Link opens a new window." /></a>
+		<a href="https://static.wcn.co.uk/company/ml/apply_now.html" target="_blank" title="Apply. Link opens a new window." onmouseover="MM_swapImage('asia_spr','','../images/camp/apply_on.gif');" onmouseout="MM_swapImgRestore();"><img name="asia_spr" src="../images/camp/apply_off.gif" border="0" style="cursor: pointer;" alt="Apply. Link opens a new window." title="Apply. Link opens a new window." /></a>
+		<p class="bac">For more information on the programs in Japan, simply click the link below.</p>
+		<br>
+		<a href="http://www.japan.ml.com/recruiting/home/index/index.html" target="_blank" title="Japan Website. Link opens a new window." onmouseover="MM_swapImage('japan_spr','','../images/camp/japan_website_on.gif');" onmouseout="MM_swapImgRestore();"><img name="japan_spr" src="../images/camp/japan_website_off.gif" border="0" style="cursor: pointer;" alt="Apply. Link opens a new window." title="Japan Website. Link opens a new window." /></a>
 	</div>
 </div>
 				</td>

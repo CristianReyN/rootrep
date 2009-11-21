@@ -158,16 +158,25 @@ tabs[tab-1].coremetrics = true;
 					Set program_group_all_programs = program_group.Item("programs")
 					If program_group_all_programs.Exists(EMEA&ANALYST&FULLTIME) Then
 						Set program_group_programs = program_group_all_programs.Item(EMEA&ANALYST&FULLTIME)
-						program_group_program_keys = program_group_programs.Keys %>
+						program_group_program_keys = program_group_programs.Keys
+						active_programs = 0
+						For p=0 To UBound(program_group_program_keys) Step 1 
+							Set program_group_program = program_group_programs.Item(program_group_program_keys(p))
+							If program_group_program.Item("is_active") Then
+								active_programs = active_programs + 1
+							End If
+						Next
+						If active_programs > 0 Then%>
 		<H3 class="bac" style="margin-top: 15px;"><%=program_group.Item("group_name")%></H3>
 		<ul class="bac">
-					<% For p=0 To UBound(program_group_program_keys) Step 1 
-							Set program_group_program = program_group_programs.Item(program_group_program_keys(p))
-							If program_group_program.Item("is_active") Then %>
+						<% For p=0 To UBound(program_group_program_keys) Step 1 
+								Set program_group_program = program_group_programs.Item(program_group_program_keys(p))
+								If program_group_program.Item("is_active") Then %>
 			<li><a href="<%=program_group_program.Item("url")%>" class="bac"><%=program_group_program.Item("title")%></a></li>
-						<% End If
-						Next %>
+							<% End If
+							Next %>
 		</ul>
+						<% End If %>
 					<% End If
 				End If
 			Next %>
@@ -245,6 +254,8 @@ tabs[tab-1].coremetrics = true;
 					<% End If
 				End If
 			Next %>
+		<br><br>
+		<a href="http://www.japan.ml.com/recruiting/home/index/index.html" class="bac">Some Program Descriptions in Japanese</a>
 	</div>
 </div>
 				</td>

@@ -3,15 +3,15 @@ Dim title, mpage, spage, ada_href, ada_title, job_search_action, Metatag%>
 <!-- #include file="../includes/breadcrumb.asp" -->
 <!-- #include file="../includes/career_fit_tool_programs.asp" -->
 <%
-Set program = programs(150)
-title = breadcrumb & "Campus Recruiting | Explore Careers | " & program.Item("full_degree") & " | " & program.Item("region") & " | " & Replace(program.Item("title"),"<span style=""font-size: 0.6em; position: relative; top: -0.6em;"">TM</span>","")
+Set program = programs(160)
+title = breadcrumb & "Campus Recruiting | Explore Careers | " & program.Item("full_degree") & " | " & program.Item("region") & " | " & program.Item("title")
 mpage = "camp"
 spage = "explore_careers"
 tpage = "undergraduate_programs"
-fpage = "emeafn-lasalle-global-trust-services"
-ada_href = "../ada_camp/emeafn-lasalle-global-trust-services.asp"
-page_self = "../campusrecruiting/emeafn-lasalle-global-trust-services.asp"
-ada_title = breadcrumb & "Campus Recruiting | Explore Careers | " & program.Item("full_degree") & " | " & program.Item("region") & " | " & Replace(program.Item("title"),"<span style=""font-size: 0.6em; position: relative; top: -0.6em;"">TM</span>","")
+fpage = "usfn-global-corporate-financial-institutions-treasury-analyst"
+ada_href = "../ada_camp/usfn-global-corporate-financial-institutions-treasury-analyst.asp"
+page_self = "../campusrecruiting/usfn-global-corporate-financial-institutions-treasury-analyst.asp"
+ada_title = breadcrumb & "Campus Recruiting | Explore Careers | " & program.Item("full_degree") & " | " & program.Item("region") & " | " & program.Item("title")
 job_search_action = "../jobsearch/searchresult.asp"
 %><!-- #include file="../includes/camp_program_meta_description.asp" --><%
 Metatag=CAMP_META_DESRIPTION
@@ -35,7 +35,7 @@ r4 = True
 	<td valign="top" width="578" height="100%">
 <!-- Body-->
 <img src="../images/clear.gif" width="15" height="4" alt="" border="0"><br>
-<!-- #include file="../includes/pages/camp/emeafn-lasalle-global-trust-services.asp" -->
+<!-- #include file="../includes/pages/camp/usfn-global-corporate-financial-institutions-treasury-analyst.asp" -->
 <br><br>
 <!-- Body-->
 	</td>

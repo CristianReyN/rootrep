@@ -27,6 +27,19 @@ Analysts are involved in:
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
 
+<h2 class="bac">Compliance:</h2>
+<p class="bac">
+Compliance is at the core of the Bank of America cultural values and is a key component of our risk management discipline.  Our culture of accountability and compliance requires that all associates comply with all relevant laws, regulations, ethical standards and internal policies and procedures.  The Compliance Department drives this culture through the organisation through monitoring the firm’s business activities, reviewing and approving complex transactions, advising on regulatory interpretation, training, assessing regulatory developments and implementing policies.  The Compliance function plays a key role in ensuring that all associates understand their compliance and ethical accountabilities.
+</p>
+<p class="bac">
+This unique program allows analysts to rotate through EMEA Compliance and provides exposure to different areas within the group.  Compliance Analysts will complete rotations structured to develop analysts into subject matter experts by function e.g. Control Room, Surveillance & Monitoring, Line of Business Advisory.
+</p>
+<p class="bac">
+In addition to developing cross-functional thinking and strong technical skills, analysts also receive on-the-job training, a defined learning curriculum, participate in bi-monthly speaker seminars, and attend events with analysts and associates from across Bank of America.
+</p>
+
+<img src="../images/clear.gif" class="bac" alt=""><br clear="all">
+
 <h2 class="bac">Qualifications:</h2>
 <p class="bac">
 Candidates must demonstrate a combination of academic aptitude, quantitative skills, strategic and creative thinking and written and oral communications skills.  In addition you must have obtained or are realistically expecting to obtain a minimum 2:1 degree or equivalent. 
