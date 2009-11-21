@@ -53,14 +53,14 @@ Interested in joining the "World's Most Admired Global Bank"? We invite you to e
 </script>
 </div>
 <p style="margin: 6px 0px 0px 0px;">
-Click on question below to play the video responce.
+Click on a question below to play the video response.
 </p>
 <% End If %>
 <img class="dotdiv" style="margin: 6px 0px 0px 0px;" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
 <p style="margin: 6px 0px 0px 0px;" class="faqpa">
 <b>What are the main areas of GHR at Bank of America?</b>
 <% If page_section <> "ADA" Then %>
-<br><a href="Javascript: vo_id();" onclick="playResponce(this);" class="ip">Play responce</a>&nbsp;<a href="Javascript: void();" onclick="playResponce(this);"><img style="margin: 0px 0px 0px 0px;" src="../images/video_off_faq.gif" alt="" border="0" align="absmiddle" class="pai" name="pa1"></a><span class="auraltext"><br class="ryan_a2"></span>
+<br><a href="Javascript: vo_id();" onclick="playResponce(this);" class="ip">Play response</a>&nbsp;<a href="Javascript: void();" onclick="playResponce(this);"><img style="margin: 0px 0px 0px 0px;" src="../images/video_off_faq.gif" alt="" border="0" align="absmiddle" class="pai" name="pa1"></a><span class="auraltext"><br class="ryan_a2"></span>
 <% Else %>
 </p>
 <p style="margin: 6px 0px 0px 0px;"><a name="answ2"></a>
@@ -74,7 +74,7 @@ Staffing, which is responsible for strategically partnering with the lines of bu
 <p style="margin: 6px 0px 0px 0px;" class="faqpa">
 <b>What kinds of positions are considered part of Global HR?</b>
 <% If page_section <> "ADA" Then %>
-<br><a href="Javascript: vo_id();" onclick="playResponce(this);" class="ip">Play responce</a>&nbsp;<a href="Javascript: vo_id();" onclick="playResponce(this);"><img style="margin: 0px 0px 0px 0px;" src="../images/video_off_faq.gif" alt="" border="0" align="absmiddle" class="pai" name="pa2"></a><span class="auraltext"><br class="ryan_a3"></span>
+<br><a href="Javascript: vo_id();" onclick="playResponce(this);" class="ip">Play response</a>&nbsp;<a href="Javascript: vo_id();" onclick="playResponce(this);"><img style="margin: 0px 0px 0px 0px;" src="../images/video_off_faq.gif" alt="" border="0" align="absmiddle" class="pai" name="pa2"></a><span class="auraltext"><br class="ryan_a3"></span>
 <% Else %>
 </p>
 <p style="margin: 6px 0px 0px 0px;"><a name="answ3"></a>
@@ -86,7 +86,7 @@ The different positions within HR vary depending on the group.  We look for a va
 <p style="margin: 6px 0px 0px 0px;" class="faqpa">
 <b>What is a typical career path in GHR?</b>
 <% If page_section <> "ADA" Then %>
-<br><a href="Javascript: vo_id();" onclick="playResponce(this);" class="ip">Play responce</a>&nbsp;<a href="Javascript: vo_id();" onclick="playResponce(this);"><img style="margin: 0px 0px 0px 0px;" src="../images/video_off_faq.gif" alt="" border="0" align="absmiddle" class="pai" name="pa3"></a><span class="auraltext"><br class="ryan_a4"></span>
+<br><a href="Javascript: vo_id();" onclick="playResponce(this);" class="ip">Play response</a>&nbsp;<a href="Javascript: vo_id();" onclick="playResponce(this);"><img style="margin: 0px 0px 0px 0px;" src="../images/video_off_faq.gif" alt="" border="0" align="absmiddle" class="pai" name="pa3"></a><span class="auraltext"><br class="ryan_a4"></span>
 <% Else %>
 </p>
 <p style="margin: 6px 0px 0px 0px;"><a name="answ4"></a>

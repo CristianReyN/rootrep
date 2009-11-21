@@ -51,14 +51,14 @@ The technological superiority of our systems is as important as the quality of t
 </script>
 </div>
 <p style="margin: 6px 0px 0px 0px;">
-Click on question below to play the video responce.
+Click on a question below to play the video response.
 </p>
 <% End If %>
 <img class="dotdiv" style="margin: 6px 0px 0px 0px;" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
 <p style="margin: 6px 0px 0px 0px;" class="faqpa">
 <b>What are some of the Cutting Edge technologies Bank of America supports and how does Innovation play a part in the development of new Products and Services?</b>
 <% If page_section <> "ADA" Then %>
-<br><a href="Javascript: vo_id();" onclick="playResponce(this);" class="ip">Play responce</a>&nbsp;<a href="Javascript: void();" onclick="playResponce(this);"><img style="margin: 0px 0px 0px 0px;" src="../images/video_off_faq.gif" alt="" border="0" align="absmiddle" class="pai" name="pa1"></a><span class="auraltext"><br class="andy_a1"></span>
+<br><a href="Javascript: vo_id();" onclick="playResponce(this);" class="ip">Play response</a>&nbsp;<a href="Javascript: void();" onclick="playResponce(this);"><img style="margin: 0px 0px 0px 0px;" src="../images/video_off_faq.gif" alt="" border="0" align="absmiddle" class="pai" name="pa1"></a><span class="auraltext"><br class="andy_a1"></span>
 <% Else %>
 </p>
 <p style="margin: 6px 0px 0px 0px;"><a name="answ1"></a>
@@ -81,7 +81,7 @@ We are constantly innovating to give customers and clients opportunities to do t
 <p style="margin: 6px 0px 0px 0px;" class="faqpa">
 <b>What types of Technical Career paths and opportunities are available at Bank of America, and how does personal development and training play a part in achieving those goals?</b>
 <% If page_section <> "ADA" Then %>
-<br><a href="Javascript: vo_id();" onclick="playResponce(this);" class="ip">Play responce</a>&nbsp;<a href="Javascript: vo_id();" onclick="playResponce(this);"><img style="margin: 0px 0px 0px 0px;" src="../images/video_off_faq.gif" alt="" border="0" align="absmiddle" class="pai" name="pa2"></a><span class="auraltext"><br class="andy_a2"></span>
+<br><a href="Javascript: vo_id();" onclick="playResponce(this);" class="ip">Play response</a>&nbsp;<a href="Javascript: vo_id();" onclick="playResponce(this);"><img style="margin: 0px 0px 0px 0px;" src="../images/video_off_faq.gif" alt="" border="0" align="absmiddle" class="pai" name="pa2"></a><span class="auraltext"><br class="andy_a2"></span>
 <% Else %>
 </p>
 <p style="margin: 6px 0px 0px 0px;"><a name="answ2"></a>
@@ -98,7 +98,7 @@ The bank has an associate learning portal that provides access to career paths, 
 <b>I've heard a lot about Bank of America being a global organization.    
 How do you see globalization in the People, Projects and Business you deal with on a daily basis?</b>
 <% If page_section <> "ADA" Then %>
-<br><a href="Javascript: vo_id();" onclick="playResponce(this);" class="ip">Play responce</a>&nbsp;<a href="Javascript: vo_id();" onclick="playResponce(this);"><img style="margin: 0px 0px 0px 0px;" src="../images/video_off_faq.gif" alt="" border="0" align="absmiddle" class="pai" name="pa3"></a><span class="auraltext"><br class="andy_a3"></span>
+<br><a href="Javascript: vo_id();" onclick="playResponce(this);" class="ip">Play response</a>&nbsp;<a href="Javascript: vo_id();" onclick="playResponce(this);"><img style="margin: 0px 0px 0px 0px;" src="../images/video_off_faq.gif" alt="" border="0" align="absmiddle" class="pai" name="pa3"></a><span class="auraltext"><br class="andy_a3"></span>
 <% Else %>
 </p>
 <p style="margin: 6px 0px 0px 0px;"><a name="answ3"></a>
