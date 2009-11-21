@@ -9,7 +9,7 @@
                                            <table border="0" cellpadding="0" cellspacing="0" summary="" width="100%">
                                                 <tr>
                                                     <td valign="top" colspan="3">
-                                                        <h1 style="margin: 0px 0px 0px 0px; ">
+                                                        <h1 style="margin: 3px 0px 0px 0px; ">
                                                             Basic Search</h1>
                                                     </td>
                                                 </tr>

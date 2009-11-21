@@ -10,7 +10,7 @@
     
     <tr>
         <td style="width: 416px">
-            <h1 style="margin: 0px 0px 0px 0px; ">            
+            <h1 style="margin: 3px 0px 0px 0px; ">            
             Send This Job To a Friend</h1>
         </td>
     </tr>

@@ -8,7 +8,7 @@
                 <table cellpadding="0" cellspacing="0" style="width: 100%" summary="">
                     <tr>
                         <td style="padding: 3px 0px 0px 0px; width: 70%" valign="top">
-                            <h1 style="margin: 0px 0px 0px 0px; ">
+                            <h1 style="margin: 3px 0px 0px 0px; ">
                                 Manage Your Job Cart</h1>
                         </td>
                         <td align="right" valign="top">

@@ -157,7 +157,7 @@ function tdiv(tf)
                                         <img alt="" height="4" src="images/clear.gif" width="100%" /></td>
                                 </tr>
                             </table>
-                            <form runat="server" id="frm">
+                            <form runat="server" id="frm" style="margin:0px;">
                             <asp:ContentPlaceHolder ID="cphmain" runat="server">
                             </asp:ContentPlaceHolder>
                             </form>
