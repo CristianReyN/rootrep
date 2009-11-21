@@ -18,7 +18,7 @@ window.open(imnam,"pop","directory=no,height=450,width=500,toolbar=no,scrollbars
 //-->
 </script>
 </head>
-<body id="body" onload="startKeybordNav(); startPs();" >
+<body id="body" onload="startKeybordNav(); startPs();" onunload="">
 <script language="javascript" type="text/javascript">
 //<!--
     examineFontSize("body");
