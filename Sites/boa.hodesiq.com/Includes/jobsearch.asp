@@ -12,9 +12,9 @@ If you are currently a Bank of America associate, you should access the <a href=
 						</tr>
 						<tr>
 							<td width="192" colspan="2" nowrap style="padding: 0px 0px 0px 0px;">
-<label for="jobareas" class="p" style="margin: 0px;"><b>Job Areas</b></label><br>
+<label for="jobareas" class="p" style="margin: 0px;"><b>Job areas</b></label><br>
 <select name="jobareas" id="jobareas" title="Select a Job Area" style="position: relative; width: 100%; z-index: auto;">
-	<option value="Select a Job Area" selected="selected">Select a Job Area</option>
+	<option value="Select a Job Area" selected="selected">Select a job area</option>
 <optgroup label="Administration">
 	<option value="1|-1" OptionGroup="Administration">All Administration</option>
 	<option value="1|4" OptionGroup="Administration">Change Mgmt &amp; Process</option>
@@ -69,7 +69,7 @@ If you are currently a Bank of America associate, you should access the <a href=
 							<td width="192" colspan="2" nowrap style="padding: 0px 0px 0px 0px;">
 <label for="stateid" class="p" style="margin: 0px;"><b>Locations</b></label><br>
 <select name="stateid"  id="stateid" style="width: 100%; z-index: auto;">
-	<option value="-1">All&nbsp;</option>
+	<option value="-1">All states</option>
 <% 
 	call getStateOptions()
 %>
