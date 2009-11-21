@@ -125,7 +125,7 @@ public class Jobs
 
     }
 
-    public DataTable Search(string aot,string Jobfamily,string state,string city,string keywords)
+    public DataTable Search(string aot,string Jobfamily,string state,string city,string keywords,int strRec,int endRec)
     {
         DBUtils db;
         try
@@ -142,7 +142,12 @@ public class Jobs
 
             OleDbDataAdapter da = new OleDbDataAdapter(cmd);
             DataSet ds = new DataSet();
-            da.Fill(ds);
+           
+            da.Fill(ds,strRec,endRec,"SearchResults");
+            //da.Fill(ds);
+            //int o;
+            //o = ds.Tables[0].Rows.Count;
+
             return ds.Tables[0];                        
         }
         catch (Exception ex)

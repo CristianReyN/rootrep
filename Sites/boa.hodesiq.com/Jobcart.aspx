@@ -15,36 +15,41 @@
                                                         Manage Your Job Cart</h2>
                                                 </td>
                                                 <td align="right" valign="top">
-                                                    <a class="sblnk" href="jobsearch.aspx" title="Return to Search">Return to Search</a>
+                                                    <asp:HyperLink ID="SearchReturn" runat="server" cssclass="sblnk" ToolTip="Return to Search">Return to Search</asp:HyperLink>
+                                                    
                                                 </td>
                                             </tr>
                                             <tr>
                                                 <td colspan="2" style="padding: 3px 0px 0px 0px;" valign="top">
-                                                    <asp:GridView ID="GridView1" runat="server">
-                                                     <Columns>
-                                                     
-                                                     <asp:BoundField HeaderText="Job Title" DataField="JobTitle" />
-                                                         <asp:BoundField DataField="Location" HeaderText="Location" />
-                                                         <asp:ButtonField HeaderText="Apply" /> 
-                                                         <asp:BoundField DataField="JobTitle" HeaderText="Remove" />                                                         
-                                                    </Columns>  
-                                                     
-                                                    </asp:GridView>
+                                                    
                                                     <table border="0" cellpadding="0" cellspacing="0" summary="Job cart results table will contain the job title, location, button to apply for position and the option of selecting a job for it to be removed from the current job cart."
                                                         width="100%">
-                                                        <tr>
-                                                            <th align="left" scope="col">
-                                                                <span class="tblH">#</span></th>
-                                                            <th align="left" scope="col" style="width: 50%">
-                                                                <span class="tblH">Job Title</span></th>
-                                                            <th align="left" scope="col" style="width: 25%">
-                                                                <span class="tblH">Location</span></th>
-                                                            <th align="left" scope="col" style="width: 10%">
-                                                                <span class="tblH">&nbsp;</span></th>
-                                                            <th align="left" scope="col" style="width: 10%">
-                                                                <span class="tblH">Remove</span></th>
-                                                        </tr>
-                                                        
+                                                        <asp:GridView ID="grdJobcart" runat="server" AutoGenerateColumns="false">
+                                                            <RowStyle BackColor="#CADCEB" Height="10px" />
+                                                            <AlternatingRowStyle BackColor="#EAF1F7" Height="10px" />
+                                                            <HeaderStyle BackColor="#EAF1F7" Height="10px" />
+                                                            <Columns>
+                                                                <asp:HyperLinkField DataNavigateUrlFields="JobsID" DataNavigateUrlFormatString="JobDetails.aspx?SearchPage=Sp&JobId={0}"
+                                                                    DataTextField="JobTitle" HeaderText="JobName">
+                                                                    <HeaderStyle HorizontalAlign="Left" />
+                                                                </asp:HyperLinkField>
+                                                                <asp:BoundField DataField="Location" HeaderText="Location">
+                                                                    <HeaderStyle HorizontalAlign="Left" />
+                                                                </asp:BoundField>
+                                                                <asp:HyperLinkField DataNavigateUrlFields="JobsID" DataNavigateUrlFormatString="JobDetails.aspx?SearchPage=Sp&JobId={0}"
+                                                                    DataTextField="JobTitle" HeaderText="Apply">
+                                                                    <HeaderStyle HorizontalAlign="Left" />
+                                                                </asp:HyperLinkField>
+                                                                <asp:TemplateField HeaderText="Remove">
+                                                                    <ItemTemplate>
+                                                                        <asp:CheckBox ID="ChkRemove" runat="server" Text="JobID"/></ItemTemplate>
+                                                                </asp:TemplateField>
+                                                            </Columns>
+                                                            <PagerStyle CssClass="mh-link1" />
+                                                            <EmptyDataTemplate>
+                                                                <b>There are no matching records found</b>
+                                                            </EmptyDataTemplate>
+                                                        </asp:GridView>
                                                     </table>
                                                 </td>
                                             </tr>
@@ -54,7 +59,7 @@
                                             </tr>
                                             <tr valign="top">
                                                 <td align="right" class="tbl" colspan="2" valign="top">
-                                                    <asp:Button cssclass="bodybtn" id="Remove" text="Remove Selected" runat="server"/></td>
+                                                    <asp:Button cssclass="bodybtn" id="Remove" text="Remove Selected" runat="server" OnClick="Remove_Click"/></td>
                                             </tr>
                                         </table>
                                     </td>

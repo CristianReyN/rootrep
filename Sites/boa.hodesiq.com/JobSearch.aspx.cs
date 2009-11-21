@@ -83,23 +83,51 @@ public partial class JobSearch : System.Web.UI.Page
     }
     protected void bsearch_Click(object sender, EventArgs e)
     {
+        FunSearch();
+
+    }
+    protected void LnkNxt_Click(object sender, EventArgs e)
+    {
+        
+        ViewState["strRec"] = (int)(ViewState["strRec"]) + 12;
+        FunSearch();
+        //ViewState["endRec"] = (int)(ViewState["endRec"]) + 12;
+    }
+    protected void LnkPrvs_Click(object sender, EventArgs e)
+    {
+        
+        if ((int)ViewState["strRec"] <= 12)
+        {
+            ViewState["strRec"] = 1;
+            //ViewState["endRec"] = 12;
+        }
+        else
+        {
+            ViewState["strRec"] = (int)(ViewState["strRec"]) - 12;
+            //ViewState["endRec"] = (int)(ViewState["endRec"]) - 12;
+        }
+        FunSearch();
+    }
+
+    public void FunSearch()
+    {
         string aot;
-        string jf="";
+        string jf = "";
         string state;
         string city;
         string keywrd;
-        aot=areasoftalent.SelectedItem.Value.ToString();
+        aot = areasoftalent.SelectedItem.Value.ToString();
         for (int i = 0; i < jfamily.Items.Count; i++)
         {
-            if(jfamily.SelectedIndex != 0 )
+            if (jfamily.SelectedIndex != 0)
             {
-            if (jfamily.Items[i].Selected)
-            {
-                if (jf == "")
-                    jf = "'"+jfamily.Items[i].Text.ToString()+"'";
-                else
-                    jf += "," + "'"+jfamily.Items[i].Text.ToString()+"'";
-            }
+                if (jfamily.Items[i].Selected)
+                {
+                    if (jf == "")
+                        jf = "'" + jfamily.Items[i].Text.ToString() + "'";
+                    else
+                        jf += "," + "'" + jfamily.Items[i].Text.ToString() + "'";
+                }
             }
         }
         if (State.SelectedIndex == 0)
@@ -120,8 +148,16 @@ public partial class JobSearch : System.Web.UI.Page
         }
         keywrd = keywords.Text;
         Jobs Job = new Jobs();
-        GrdResults.DataSource=Job.Search(aot,jf,state,city,keywrd);
+        if (ViewState["strRec"] == null)
+        {
+            ViewState["strRec"] = 1;
+            ViewState["endRec"] = 12;
+        }
+        GrdResults.DataSource = Job.Search(aot, jf, state, city, keywrd, (int)(ViewState["strRec"]), (int)(ViewState["endRec"]));
         GrdResults.DataBind();
-
+        LnkNxt.Visible = true;
+        LnkPrvs.Visible = true;
+        
     }
+
 }

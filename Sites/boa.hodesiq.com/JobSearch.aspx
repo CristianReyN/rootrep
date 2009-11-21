@@ -1,5 +1,5 @@
 ﻿<%@ Page AutoEventWireup="true" CodeFile="JobSearch.aspx.cs" Inherits="JobSearch"
-    Language="C#" MasterPageFile="~/BOAmaster.master" Title="Untitled Page" %>
+    Language="C#" MasterPageFile="~/BOAmaster.master" Title="Search Page" %>
 
                             <asp:Content ID="Content1" Runat="Server" ContentPlaceHolderID="ContentPlaceHolder1">
                                 
@@ -8,9 +8,12 @@
                                         <td style="padding: 6px 12px 0px 12px; height: 100%" valign="top">
                                             <table border="0" cellpadding="0" cellspacing="0" summary="" width="100%">
                                                 <tr>
-                                                    <td valign="top" colspan="2">
+                                                    <td valign="top" >
                                                         <h2 style="margin: 0px;">
                                                             Guided Job Search</h2>
+                                                    </td>
+                                                    <td align="right" valign="top">
+                                                        &nbsp;
                                                     </td>
                                                     
                                                 </tr>
@@ -83,7 +86,7 @@
                                                     </td>
                                                 </tr>
                                             </table>
-                                            <asp:GridView ID="GrdResults" runat="server" Width="554px" AutoGenerateColumns="False" CellPadding="0" GridLines="None" AllowPaging="True" AllowSorting="True" ToolTip="Search Results ">
+                                            <asp:GridView ID="GrdResults" runat="server" Width="554px" AutoGenerateColumns="False" CellPadding="0" GridLines="None" AllowPaging="false" AllowSorting="True" ToolTip="Search Results ">
                                                 <RowStyle BackColor="#CADCEB" Height="10px" />
                                                 <AlternatingRowStyle BackColor="#EAF1F7" Height="10px" />
                                                 <HeaderStyle Height="10px" BackColor="#EAF1F7" />
@@ -103,7 +106,11 @@
                                                 <EmptyDataTemplate>
                                                 <b>There are no matching records found</b>
                                                 </EmptyDataTemplate>
-                                            </asp:GridView>
+                                            </asp:GridView><br />
+                                            <center>
+                                                <asp:Button visible="false" ID="LnkPrvs" runat="server" BackColor="Transparent" Text="Previous" OnClick="LnkPrvs_Click" />&nbsp;&nbsp;<span
+                                                    class="ftrtxt">|</span>&nbsp;&nbsp;
+                                                <asp:Button ID="LnkNxt" runat="server" BackColor="Transparent" Text="Next" Visible="false" OnClick="LnkNxt_Click" /></center>
                                         </td>
                                     </tr>
                                 </table>

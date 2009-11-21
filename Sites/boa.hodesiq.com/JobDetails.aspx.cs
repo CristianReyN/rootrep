@@ -41,8 +41,8 @@ public partial class JobDetails : System.Web.UI.Page
             returntoJobsearch.NavigateUrl = "AdvanceSearch.aspx";
         }
         TellaFriend.NavigateUrl="Tell_a_friend.aspx?JobId="+ Request.QueryString["JobId"].ToString();
-        Jobcart.NavigateUrl = "jobcart.aspx?JobId=" + Request.QueryString["JobId"].ToString();
-        JobcartTop.NavigateUrl = "jobcart.aspx?JobId=" + Request.QueryString["JobId"].ToString();
+        Jobcart.NavigateUrl = "jobcart.aspx?JobId=" + Request.QueryString["JobId"].ToString() +"&SearchPage="+Request.QueryString["SearchPage"].ToString();
+        JobcartTop.NavigateUrl = "jobcart.aspx?JobId=" + Request.QueryString["JobId"].ToString() + "&SearchPage=" + Request.QueryString["SearchPage"].ToString();
 
 
     }
