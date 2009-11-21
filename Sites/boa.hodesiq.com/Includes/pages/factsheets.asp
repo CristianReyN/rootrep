@@ -13,7 +13,7 @@ We are proud of Bank&nbsp;of&nbsp;America&#39;s legacy as a leader in corporate 
 <ul>
 	<li>Established an executive <b>Global Diversity and Inclusion Council</b>, which sets the direction and guides the implementation for diversity and inclusion at Bank&nbsp;of&nbsp;America.</li>
 	<li>In late 2006, Global Corporate and Investment Banking President Brian Moynihan was appointed chairman of the bank&#39;s Global Diversity and Inclusion Council. Prior to his appointment to the council, he was the sponsoring executive for the bank&#39;s Disability Affinity Group.</li>
-	<li>The bank has <b>Diversity and Inclusion Business and Regional Councils</b>, which operate in various business lines and global regions to address and promote diversity and inclusion.</b>.</li>
+	<li>The bank has <b>Diversity and Inclusion Business and Regional Councils</b>, which operate in various business lines and global regions to address and promote diversity and inclusion</b>.</li>
 	<li>Nine <b>affinity groups</b> (formal, company-recognized groups of associates with common interests) that network and support one another&#39;s development and success.</li>
 	<li><b>Team Bank&nbsp;of&nbsp;America diversity networks</b> consist of geographically based volunteer teams of associates, encourage and capitalize on the diversity of our associates and promote personal and professional development.</li>
 	<li><b>Women, people of color, GLBT, disabled and veterans serve at the highest levels of the company&#39;s management.</b></li>
