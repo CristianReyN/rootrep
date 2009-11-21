@@ -230,7 +230,6 @@
                                                                 <label for="jfamily">
                                                                     Job Family</label></b></p>
                                                         <asp:ListBox ID="jfamily" Cssclass="left" tooltip="Select Family" Style="width: 100%; z-index: auto;" runat="server" SelectionMode="Multiple">
-                                                        
                                                             <asp:ListItem value="">Job Family&nbsp;</asp:ListItem>
                                                         </asp:ListBox>
                                                     </td>
