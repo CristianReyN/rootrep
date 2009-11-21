@@ -35,7 +35,7 @@ Dim familyid,rowcount
 talentid=11
 rowcount=6
 %>
-<!--#include file="../../hot_jobs2.asp"-->
+<!--#include file="../../hot_jobs.asp"-->
 </table>
 
 <p style="margin: 12px <%=right_margin%>px 2px <%=left_margin_0%>px;"><a class="ip" href="../jobsearch.aspx?jobareas=11|-1&stateid=-1&cityid=-1&keywords=&SearchPage=Sp">View current jobs in Corporate Workplace</a></p>

@@ -28,15 +28,15 @@
 <optgroup label="Consumer Banking">
 	<option value="10|-1"<%If jobareas="10|-1" Then Response.write " selected"%>>All Consumer Banking</option>
 </optgroup>
+<optgroup label="Corporate Workplace">
+	<option value="11|-1"<%If jobareas="11|-1" Then Response.write " selected"%>>All Corporate Workplace</option>
+</optgroup>
 <optgroup label="Customer Care">
 	<option value="2|-1"<%If jobareas="2|-1" Then Response.write " selected"%>>All Customer Care</option>
 	<option value="2|13"<%If jobareas="2|13" Then Response.write " selected"%>>Credit</option>
 	<option value="2|9"<%If jobareas="2|9" Then Response.write " selected"%>>Customer Service</option>
 	<option value="2|8"<%If jobareas="2|8" Then Response.write " selected"%>>Relationship Management</option>
 	<option value="2|19"<%If jobareas="2|19" Then Response.write " selected"%>>Sales</option>
-</optgroup>
-<optgroup label="Corporate Workplace">
-	<option value="11|-1"<%If jobareas="11|-1" Then Response.write " selected"%>>All Corporate Workplace</option>
 </optgroup>
 <optgroup label="Human Resources">
 	<option value="5|-1"<%If jobareas="5|-1" Then Response.write " selected"%>>All Human Resources</option>
