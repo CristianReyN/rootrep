@@ -51,8 +51,8 @@ public partial class JobDetails : System.Web.UI.Page
             lblHoursPerWeek.Text = dt.Rows[0]["HrsPerWeek"].ToString();
             lblQualification.Text = dt.Rows[0]["Qualification"].ToString();
             ApplyURL = dt.Rows[0]["ApplyURL"].ToString();
-            this.applylink.NavigateUrl = ApplyURL;
-            this.applylnk.NavigateUrl = ApplyURL;
+			this.applylink.NavigateUrl = "applyrd.aspx?" + HttpUtility.UrlEncode(ApplyURL);
+			this.applylnk.NavigateUrl = "applyrd.aspx?" + HttpUtility.UrlEncode(ApplyURL);
             //bttnApplyNow.PostBackUrl = ApplyURL;
             bttnApplyNow_bottom.PostBackUrl = ApplyURL;
         }
