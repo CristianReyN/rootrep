@@ -103,6 +103,27 @@ public class Jobs
         return db.GetDataTable(Sql);
 
     }
+    public DataTable JobDetails(string JobId)
+    {
+        DBUtils db;
+        try
+        {
+            db = new DBUtils();
+            OleDbCommand cmd = new OleDbCommand("Sp_Career_Sites_JobDetails", db.GetConnection());
+            cmd.CommandType = CommandType.StoredProcedure;
+            cmd.Parameters.AddWithValue("@JobId", JobId);
+            OleDbDataAdapter da = new OleDbDataAdapter(cmd);
+            DataSet ds = new DataSet();
+            da.Fill(ds);
+            return ds.Tables[0];   
+        }
+        catch (Exception ex)
+        {
+            throw ex;
+        }
+        return db.GetDataTable(Sql);
+
+    }
 
     public DataTable Search(string aot,string Jobfamily,string state,string city,string keywords)
     {

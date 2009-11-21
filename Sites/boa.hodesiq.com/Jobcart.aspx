@@ -2,7 +2,7 @@
     MasterPageFile="~/BOAmaster.master" Title="Untitled Page" %>
 
 <asp:Content ID="Content1" runat="Server" ContentPlaceHolderID="ContentPlaceHolder1">
-    <form id="JCart" runat="server">
+    
     <table border="0" cellpadding="0" cellspacing="0" summary="" width="100%">
         
         
@@ -98,6 +98,6 @@
                                 </tr>
         
                             </table>
-    </form>
+    
 <asp:label id="lblMessage" runat="server"></asp:label>
 </asp:Content>
