@@ -1,12 +1,13 @@
 <% Response.Buffer=True 
-Dim title, mpage, spage, ada_href, ada_title, job_search_action, Metatag
-title = "Bank of America | Career | Insurance Plans"
+Dim title, mpage, spage, ada_href, ada_title, job_search_action, Metatag%>
+<!-- #include file="../includes/breadcrumb.asp" -->
+<% title = breadcrumb & "Insurance Plans"
 mpage = "learnmore"
 spage = "benefitsadv"
 tpage = "insurance"
 ada_href = "../ada/insurance.asp"
 page_self = "../learnmore/insurance.asp"
-ada_title = "Bank of America | Career | Insurance Plans"
+ada_title = breadcrumb & "Insurance Plans"
 job_search_action = "../jobsearch/searchresult.asp"
 Metatag="Information is available on this page highlighting the plans available through Bank of America for Insurance."
 %>

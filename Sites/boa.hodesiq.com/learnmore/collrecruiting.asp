@@ -1,11 +1,12 @@
 <% Response.Buffer=True 
-Dim title, mpage, spage, ada_href, ada_title, job_search_action, Metatag
-title = "Bank of America | Career | Campus Recruiting"
+Dim title, mpage, spage, ada_href, ada_title, job_search_action, Metatag%>
+<!-- #include file="../includes/breadcrumb.asp" -->
+<% title = breadcrumb & "Campus Recruiting"
 mpage = "learnmore"
 spage = "collrecruiting"
 ada_href = "../ada/collrecruiting.asp"
 page_self = "../learnmore/collrecruiting.asp"
-ada_title = "Bank of America | Career | Campus Recruiting"
+ada_title = breadcrumb & "Campus Recruiting"
 job_search_action = "../jobsearch/searchresult.asp"
 Metatag="Page designed for student recruiting. Links available on the page: undergraduate/analyst programs, graduate/associate programs, internships and a campus recruiting calendar. The option to do a job search is also present on this page."
 %>

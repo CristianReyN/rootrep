@@ -1,11 +1,12 @@
 <% Response.Buffer=True 
-Dim title, mpage, spage, ada_href, ada_title, job_search_action, Metatag
-title = "Bank of America | Career | Campus Recruiting | Career Compass"
+Dim title, mpage, spage, ada_href, ada_title, job_search_action, Metatag%>
+<!-- #include file="../includes/breadcrumb.asp" -->
+<%
 mpage = "lob"
 spage = "lb_career_compass"
 ada_href = "../ada/lb_career_compass.asp"
 page_self = "../learnmore/lb_career_compass.asp"
-ada_title = "Bank of America | Career | Campus Recruiting | Career Compass"
+ada_title = breadcrumb & "Campus Recruiting | Career Compass"
 job_search_action = "../jobsearch/searchresult.asp"
 Metatag="This tool can help you determine which Bank of America lines of business match your skills and interests."
 	
@@ -15,7 +16,7 @@ Metatag="This tool can help you determine which Bank of America lines of busines
 %>
 <!-- #include file="../includes/pages/lb_career_compass_function.asp" -->
 <%
-title = "Bank of America | Career | Campus Recruiting | Career Compass | Step " & page_number
+title = breadcrumb & "Campus Recruiting | Career Compass | Step " & page_number
 %>
 <!-- Header -->
 <!-- #include file="../includes/header.asp" -->

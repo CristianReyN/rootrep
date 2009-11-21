@@ -1,13 +1,14 @@
 <% Response.Buffer=True 
-Dim title, mpage, spage, ada_href, ada_title, job_search_action, Metatag
-title = "Bank of America | Career | Campus Recruiting | Internship Programs | Global Marketing &amp; Corporate Affairs"
+Dim title, mpage, spage, ada_href, ada_title, job_search_action, Metatag%>
+<!-- #include file="../includes/breadcrumb.asp" -->
+<% title = breadcrumb & "Campus Recruiting | Internship Programs | Global Marketing &amp; Corporate Affairs"
 mpage = "learnmore"
 spage = "collrecruiting"
 tpage = "internships_program"
 fpage = "ip_gmca"
 ada_href = "../ada/ip_gmca.asp"
 page_self = "../learnmore/ip_gmca.asp"
-ada_title = "Bank of America | Career | Campus Recruiting | Internship Programs | Global Marketing &amp; Corporate Affairs"
+ada_title = breadcrumb & "Campus Recruiting | Internship Programs | Global Marketing &amp; Corporate Affairs"
 job_search_action = "../jobsearch/searchresult.asp"
 Metatag=""
 %>

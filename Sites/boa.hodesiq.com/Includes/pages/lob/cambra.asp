@@ -54,7 +54,7 @@ How do we manage the talent that we have and really develop them?<br>
 All the way down to certain issues or daily items that might come up from an associate or manager perspective.
 My job is exciting.<br>
 No day looks the same.<br>
-The people that I work with are great and because you're working with people so much and so many different varieties of people, I mean, I support probably 800 in total and so with 800 people, you're bound to get just a number of different personalities, perspectives, experiences, cultures, diversity of thought and it's it's anything but boring.
+The people that I work with are great and because you're working with people so much and so many different varieties of people, I mean, I support probably 800 in total and so with 800 people, you're bound to get just a number of different personalities, perspectives, experiences, cultures, diversity of thought and it's anything but boring.
 </p>
 <br>
 <a href="<%= standart_href%>" title="Return to standard page with video" class="p" onfocus="this.className='p-over';" onblur="this.className='p';">Return to standard page with video</a>

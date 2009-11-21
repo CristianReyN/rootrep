@@ -191,7 +191,7 @@ create_safebutton("Search","javascript: submit_search();",0,0,0,0,"Search");
 </tr>
 <tr>
 	<td colspan="4" style="background: #d4100a;" width="750" valign="top">
-<img src="../images/careers.gif" width="76" height="25" alt="Bank of America | Career" title="Bank of America | Career" border="0"></td>
+<img src="../images/careers.gif" width="76" height="25" alt="Bank of America | Careers" title="Bank of America | Careers" border="0"></td>
 </tr>
 <tr>
 	<td width="160" style="background: #cadceb;"><img src="../images/clear.gif" width="160" height="1" alt="" border="0"></td>

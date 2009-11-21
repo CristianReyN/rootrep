@@ -1,12 +1,13 @@
 <% Response.Buffer=True 
-Dim title, mpage, spage, ada_href, ada_title, job_search_action, Metatag
-title = "Bank of America | Career | Fact Sheets"
+Dim title, mpage, spage, ada_href, ada_title, job_search_action, Metatag%>
+<!-- #include file="../includes/breadcrumb.asp" -->
+<% title = breadcrumb & "Fact Sheets"
 mpage = "learnmore"
 spage = "diversity"
 tpage = "factsheets"
 ada_href = "../ada/factsheets.asp"
 page_self = "../learnmore/factsheets.asp"
-ada_title = "Bank of America | Career | Fact Sheets"
+ada_title = breadcrumb & "Fact Sheets"
 job_search_action = "../jobsearch/searchresult.asp"
 Metatag="Detailed facts on diversity within Bank of America are depicted on this page."
 %>

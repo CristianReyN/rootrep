@@ -1,12 +1,13 @@
 <% Response.Buffer=True 
-Dim title, mpage, spage, ada_href, ada_title, job_search_action, Metatag
-title = "Bank of America | Career | Employee Assistance Program (EAP)"
+Dim title, mpage, spage, ada_href, ada_title, job_search_action, Metatag%>
+<!-- #include file="../includes/breadcrumb.asp" -->
+<% title = breadcrumb & "Employee Assistance Program (EAP)"
 mpage = "learnmore"
 spage = "benefitsadv"
 tpage = "employeeassistance"
 ada_href = "../ada/emplassistance.asp"
 page_self = "../learnmore/emplassistance.asp"
-ada_title = "Bank of America | Career | Employee Assistance Program (EAP)"
+ada_title = breadcrumb & "Employee Assistance Program (EAP)"
 job_search_action = "../jobsearch/searchresult.asp"
 Metatag="Highlight information on the Employee Assistance Program available to Bank of America associates."
 %>

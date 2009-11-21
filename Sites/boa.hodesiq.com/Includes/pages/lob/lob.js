@@ -138,7 +138,7 @@ if(!window.MM_swapImage)
 
 if(!window.preloadCC)
 {
-	function preloadCC(){MM_preloadImages('../Includes/pages/buttons/01btn-over.gif','../Includes/pages/buttons/02btn-over.gif','../Includes/pages/buttons/03btn-over.gif','../Includes/pages/buttons/05btn-over.gif','../Includes/pages/buttons/06btn-over.gif');}
+	function preloadCC(){MM_preloadImages('../Includes/pages/buttons/01btn-over.gif','../Includes/pages/buttons/02btn-over.gif','../Includes/pages/buttons/03btn-over.gif','../Includes/pages/buttons/05btn-over.gif','../Includes/pages/buttons/06btn-over.gif','../images/video_on_faq.gif','../images/video_off_faq.gif');}
 }
 
 function strReplace(s,p,r){var pos=s.indexOf(p);var len=p.length;while(pos != -1){s1=s.substring(0,pos);s2=s.substring(pos+len,s.length);s=s1+r+s2;pos=s.indexOf(p);}return s;}
@@ -380,7 +380,6 @@ function pauseVideo(objname)
 		videoplaying = null;
 	}
 }
-
 var flashplayer = new fpvideo("../Includes/flashplayer.swf",259,166);
 var flashplayer2 = new fpvideo("../Includes/flashplayer.swf",260,167);
 var flashplayer3 = new fpvideo("../Includes/flashplayer.swf",260,167);
@@ -392,7 +391,34 @@ function fpvideo(swf_url,w,h)
 	this.h = h;
 }
 
-var craig_video, jeremy_video, michael_video, fairbrother_video, diaz_video, saulsberry_video, price_video, cambra_video, chen_video, shuwen_video;
+var craig_video, jeremy_video, michael_video, fairbrother_video, diaz_video, saulsberry_video, price_video, cambra_video, chen_video, shuwen_video, placencia_video;
+benitez_video = new fvideo(
+					"../Includes/pages/associate/Benitez.swf",
+					false,
+					null,
+					"#vt",
+					"../Includes/pages/associate/thumbnails/benitez_on.jpg",
+					"../Includes/pages/associate/thumbnails/benitez_off.jpg",
+					null
+					);
+cambra_video = new fvideo(
+					"../Includes/pages/associate/Cambra.swf",
+					false,
+					null,
+					"#vt",
+					"../Includes/pages/lob/thumbnails/cambra_on.jpg",
+					"../Includes/pages/lob/thumbnails/cambra_off.jpg",
+					null
+					);
+chen_video = new fvideo(
+					"../Includes/pages/associate/Chen.swf",
+					false,
+					null,
+					"#vt",
+					"../Includes/pages/lob/thumbnails/chen_on.jpg",
+					"../Includes/pages/lob/thumbnails/chen_off.jpg",
+					null
+					);
 craig_video = new fvideo(
 					flashplayer.swf_url,
 					"http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/DITL_TESTIMONIAL/craig_test.flv",
@@ -400,6 +426,42 @@ craig_video = new fvideo(
 					"#vt",
 					"../Includes/pages/lob/thumbnails/craig_on.jpg",
 					"../Includes/pages/lob/thumbnails/craig_off.jpg",
+					null
+					);
+cucchi_video = new fvideo(
+					"../Includes/pages/associate/Cucchi.swf",
+					false,
+					null,
+					"#vt",
+					"../Includes/pages/associate/thumbnails/cucchi_on.jpg",
+					"../Includes/pages/associate/thumbnails/cucchi_off.jpg",
+					null
+					);
+diaz_video = new fvideo(
+					"../Includes/pages/associate/Diaz.swf",
+					false,
+					null,
+					"#vt",
+					"../Includes/pages/lob/thumbnails/diaz_on.jpg",
+					"../Includes/pages/lob/thumbnails/diaz_off.jpg",
+					null
+					);
+fairbrother_video = new fvideo(
+					"../Includes/pages/associate/Fairbrother.swf",
+					false,
+					null,
+					"#vt",
+					"../Includes/pages/lob/thumbnails/fairbrother_on.jpg",
+					"../Includes/pages/lob/thumbnails/fairbrother_off.jpg",
+					null
+					);
+henderson_video = new fvideo(
+					"../Includes/pages/associate/Henderson.swf",
+					false,
+					null,
+					"#vt",
+					"../Includes/pages/associate/thumbnails/henderson_on.jpg",
+					"../Includes/pages/associate/thumbnails/henderson_off.jpg",
 					null
 					);
 jeremy_video = new fvideo(
@@ -420,31 +482,13 @@ michael_video = new fvideo(
 					"../Includes/pages/lob/thumbnails/michael_off.jpg",
 					null
 					);
-fairbrother_video = new fvideo(
-					"../Includes/pages/associate/Fairbrother.swf",
+placencia_video = new fvideo(
+					"../Includes/pages/associate/Placencia.swf",
 					false,
 					null,
 					"#vt",
-					"../Includes/pages/lob/thumbnails/fairbrother_on.jpg",
-					"../Includes/pages/lob/thumbnails/fairbrother_off.jpg",
-					null
-					);
-diaz_video = new fvideo(
-					"../Includes/pages/associate/Diaz.swf",
-					false,
-					null,
-					"#vt",
-					"../Includes/pages/lob/thumbnails/diaz_on.jpg",
-					"../Includes/pages/lob/thumbnails/diaz_off.jpg",
-					null
-					);
-saulsberry_video = new fvideo(
-					"../Includes/pages/associate/Saulsberry.swf",
-					false,
-					null,
-					"#vt",
-					"../Includes/pages/lob/thumbnails/saulsberry_on.jpg",
-					"../Includes/pages/lob/thumbnails/saulsberry_off.jpg",
+					"../Includes/pages/associate/thumbnails/placencia_on.jpg",
+					"../Includes/pages/associate/thumbnails/placencia_off.jpg",
 					null
 					);
 price_video = new fvideo(
@@ -456,22 +500,13 @@ price_video = new fvideo(
 					"../Includes/pages/lob/thumbnails/price_off.jpg",
 					null
 					);
-cambra_video = new fvideo(
-					"../Includes/pages/associate/Cambra.swf",
+saulsberry_video = new fvideo(
+					"../Includes/pages/associate/Saulsberry.swf",
 					false,
 					null,
 					"#vt",
-					"../Includes/pages/lob/thumbnails/cambra_on.jpg",
-					"../Includes/pages/lob/thumbnails/cambra_off.jpg",
-					null
-					);
-chen_video = new fvideo(
-					"../Includes/pages/associate/Chen.swf",
-					false,
-					null,
-					"#vt",
-					"../Includes/pages/lob/thumbnails/chen_on.jpg",
-					"../Includes/pages/lob/thumbnails/chen_off.jpg",
+					"../Includes/pages/lob/thumbnails/saulsberry_on.jpg",
+					"../Includes/pages/lob/thumbnails/saulsberry_off.jpg",
 					null
 					);
 shuwen_video = new fvideo(
@@ -690,7 +725,7 @@ sheila_a3 = new fvideo(
 					flashplayer2.swf_url,
 					"http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/DITL_TESTIMONIAL/sheila_quest_3.flv",
 					flashplayer2,
-					"#answ13",
+					"#answ3",
 					"../Includes/pages/lob/thumbnails/sheila_on.jpg",
 					"../Includes/pages/lob/thumbnails/sheila_on.jpg",
 					null
@@ -728,7 +763,7 @@ tammi_a4 = new fvideo(
 					flashplayer2.swf_url,
 					"http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/DITL_TESTIMONIAL/tammi_quest_4.flv",
 					flashplayer2,
-					"#answ1",
+					"#answ4",
 					"../Includes/pages/lob/thumbnails/tammi_on.jpg",
 					"../Includes/pages/lob/thumbnails/tammi_on.jpg",
 					diaz_video

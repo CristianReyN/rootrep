@@ -70,7 +70,7 @@ Click on a question below to play the video response.
 <% End If %>
 <img class="dotdiv" style="margin: 6px 0px 0px 0px;" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
 <p style="margin: 6px 0px 0px 0px;" class="faqpa">
-<b>What are some of the Cutting Edge technologies Bank&nbsp;of&nbsp;America supports and how does Innovation play a part in the development of new Products and Services?</b>
+<b>What role does technology and innovation play in new product development?</b>
 <% If page_section <> "ADA" Then %>
 <br><img class="plresp" src="../images/clear.gif" width="10" height="1"  alt="" border="0"><br><a href="Javascript: vo_id();" onclick="playResponce(this);" class="ip">Play response</a>&nbsp;<a href="Javascript: void();" onclick="playResponce(this);"><img style="margin: 0px 0px 0px 0px;" src="../images/video_off_faq.gif" alt="" border="0" align="absmiddle" class="pai" name="pa1"></a><span class="auraltext"><br class="andy_a1"></span>
 <% Else %>
@@ -78,7 +78,7 @@ Click on a question below to play the video response.
 <p style="margin: 6px 0px 0px 0px;"><a name="answ1"></a>
 Bank&nbsp;of&nbsp;America is committed to innovation, it's an essential part of our growth strategy.  Whether we're leading the way in making online banking more secure and worry-free or creating programs to attract and retain diverse customers, innovation is simply key to our efforts. The bank currently has 52 patents, including the bank's mini card, as well as an additional 100 patents currently filed. Among our recent innovations are:
 <br><br>
-"SiteKey", which is a two-step sign-in process that protects online customers from identity theft and fraud. This was named one of the best innovative products byBusiness Week magazine. 
+"SiteKey", which is a two-step sign-in process that protects online customers from identity theft and fraud. This was named one of the best innovative products by Business Week magazine. 
 <br><br>
 "Keep the Change" is an industry first, offering an easy way to save in the form of an "electronic change jar." 
 Telephones and phone systems across the company are being changed to Voice over Internet Protocol (VoIP) technology.
@@ -95,7 +95,7 @@ We are constantly innovating to give customers and clients opportunities to do t
 
 <img class="dotdiv" style="margin: 6px 0px 0px 0px;" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
 <p style="margin: 6px 0px 0px 0px;" class="faqpa">
-<b>What types of Technical Career paths and opportunities are available at Bank&nbsp;of&nbsp;America, and how does personal development and training play a part in achieving those goals?</b>
+<b>What types of technical career paths and opportunities exist at Bank&nbsp;of&nbsp;America?</b>
 <% If page_section <> "ADA" Then %>
 <br><img class="plresp" src="../images/clear.gif" width="10" height="1"  alt="" border="0"><br><a href="Javascript: vo_id();" onclick="playResponce(this);" class="ip">Play response</a>&nbsp;<a href="Javascript: vo_id();" onclick="playResponce(this);"><img style="margin: 0px 0px 0px 0px;" src="../images/video_off_faq.gif" alt="" border="0" align="absmiddle" class="pai" name="pa2"></a><span class="auraltext"><br class="andy_a2"></span>
 <% Else %>
@@ -105,7 +105,7 @@ Bank&nbsp;of&nbsp;America offers associates many opportunities to grow and to de
 <br><br>
 The bank has an associate learning portal that provides access to career paths, planning tools, leadership models, and success profiles for each role. There are literally thousands of courses on various topics.
 <br><br>
-"The U" is an online University dedicated to technology associates.  It provides an all-inclusive development headquarters that provides several tools and resources with formal development programs to help improve and build the skills needed to further our associates careers.
+"The U" is an online University dedicated to technology associates.  It provides an all-inclusive development headquarters that provides several tools and resources with formal development programs to help improve and build the skills needed to further our associate's careers.
 <br><br>
 <a href="<%= standart_href%>" title="Return to standard page with video" class="p" onfocus="this.className='p-over';" onblur="this.className='p';">Return to standard page with video</a>
 <% End If %>
@@ -113,8 +113,7 @@ The bank has an associate learning portal that provides access to career paths, 
 
 <img class="dotdiv" style="margin: 6px 0px 0px 0px;" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
 <p style="margin: 6px 0px 0px 0px;" class="faqpa">
-<b>I've heard a lot about Bank&nbsp;of&nbsp;America being a global organization.    
-How do you see globalization in the People, Projects and Business you deal with on a daily basis?</b>
+<b>How do you see globalization in the people, projects and business you deal with on a daily basis?</b>
 <% If page_section <> "ADA" Then %>
 <br><img class="plresp" src="../images/clear.gif" width="10" height="1"  alt="" border="0"><br><a href="Javascript: vo_id();" onclick="playResponce(this);" class="ip">Play response</a>&nbsp;<a href="Javascript: vo_id();" onclick="playResponce(this);"><img style="margin: 0px 0px 0px 0px;" src="../images/video_off_faq.gif" alt="" border="0" align="absmiddle" class="pai" name="pa3"></a><span class="auraltext"><br class="andy_a3"></span>
 <% Else %>

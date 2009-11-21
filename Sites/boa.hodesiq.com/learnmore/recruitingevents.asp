@@ -1,12 +1,13 @@
 <% Response.Buffer=True 
-Dim title, mpage, spage, ada_href, ada_title, job_search_action, Metatag
-title = "Bank of America | Career | Recruiting events"
+Dim title, mpage, spage, ada_href, ada_title, job_search_action, Metatag%>
+<!-- #include file="../includes/breadcrumb.asp" -->
+<% title = breadcrumb & "Recruiting events"
 mpage = "learnmore"
 spage = "diversity"
 tpage = "recruitingevents"
 ada_href = "../ada/recruitingevents.asp"
 page_self = "../learnmore/recruitingevents.asp"
-ada_title = "Bank of America | Career | Recruiting events"
+ada_title = breadcrumb & "Recruiting events"
 job_search_action = "../jobsearch/searchresult.asp"
 Metatag=""
 %>

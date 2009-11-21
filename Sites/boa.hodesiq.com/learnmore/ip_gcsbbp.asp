@@ -1,13 +1,14 @@
 <% Response.Buffer=True 
-Dim title, mpage, spage, ada_href, ada_title, job_search_action, Metatag
-title = "Bank of America | Career | Campus Recruiting | Internship Programs | Global Consumer and Small Business Banking Product Intern"
+Dim title, mpage, spage, ada_href, ada_title, job_search_action, Metatag%>
+<!-- #include file="../includes/breadcrumb.asp" -->
+<% title = breadcrumb & "Campus Recruiting | Internship Programs | Global Consumer and Small Business Banking Product Intern"
 mpage = "learnmore"
 spage = "collrecruiting"
 tpage = "internships_program"
 fpage = "ip_gcsbbp"
 ada_href = "../ada/ip_gcsbbp.asp"
 page_self = "../learnmore/ip_gcsbbp.asp"
-ada_title = "Bank of America | Career | Campus Recruiting | Internship Programs | Global Consumer and Small Business Banking Product Intern"
+ada_title = breadcrumb & "Campus Recruiting | Internship Programs | Global Consumer and Small Business Banking Product Intern"
 job_search_action = "../jobsearch/searchresult.asp"
 Metatag="Page designed for student recruiting. Links available on the page: undergraduate/analyst programs, graduate/associate programs, internships and a campus recruiting calendar. The option to do a job search is also present on this page."
 %>

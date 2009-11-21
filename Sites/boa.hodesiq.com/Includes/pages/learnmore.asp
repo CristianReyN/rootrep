@@ -41,7 +41,7 @@ With offices in more than 30 countries, we support our clients' activities aroun
 <p style="margin-top: 6px;">
 Get basic advice on developing or updating your resume.</p>
 
-<H2 class="p" style="margin: 0px; padding: 0px;"><a href="<% if page_section <> "ADA" then Response.write "../military/" Else Response.write "mulitary_veteran_recruiting.asp" End If%>" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="Military &amp; veteran recruiting">Military &amp; veteran recruiting</a></H2>
+<H2 class="p" style="margin: 0px; padding: 0px;"><a href="<% if page_section <> "ADA" then Response.write "../military/" Else Response.write "military_veteran_recruiting.asp" End If%>" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="Military &amp; veteran recruiting">Military &amp; veteran recruiting</a></H2>
 <p style="margin-top: 6px;">
 At Bank of America we welcome the unique skills, experience and values of military service members.</p>
 				</td>

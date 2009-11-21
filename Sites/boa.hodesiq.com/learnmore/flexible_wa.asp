@@ -1,12 +1,13 @@
 <% Response.Buffer=True 
-Dim title, mpage, spage, ada_href, ada_title, job_search_action, Metatag
-title = "Bank of America | Career | Flexible Work Arrangements"
+Dim title, mpage, spage, ada_href, ada_title, job_search_action, Metatag%>
+<!-- #include file="../includes/breadcrumb.asp" -->
+<% title = breadcrumb & "Flexible Work Arrangements"
 mpage = "learnmore"
 spage = "benefitsadv"
 tpage = "flexibleworkarrangements"
 ada_href = "../ada/flexible_wa.asp"
 page_self = "../learnmore/flexible_wa.asp"
-ada_title = "Bank of America | Career | Flexible Work Arrangements"
+ada_title = breadcrumb & "Flexible Work Arrangements"
 job_search_action = "../jobsearch/searchresult.asp"
 Metatag="Highlight information on the programs offered to associates of Bank of America in regards to flexible work arrangements."
 %>

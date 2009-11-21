@@ -30,6 +30,7 @@
 <p style="margin: 6px 6px 0px 6px;"><a class="left" onfocus="this.className='left-over';" onblur="this.className='left';" href="../jobsearch.aspx?jobareas=2|8&stateid=-1&cityid=-1&keywords=&SearchPage=Sp">View current jobs in Relationship Management</a></p>
 <p style="margin: 6px 6px 0px 6px;"><a class="left" onfocus="this.className='left-over';" onblur="this.className='left';" href="../jobsearch.aspx?jobareas=2|9&stateid=-1&cityid=-1&keywords=&SearchPage=Sp">View current jobs in Customer Service</a></p>
 <p style="margin: 6px 6px 0px 6px;"><a class="left" onfocus="this.className='left-over';" onblur="this.className='left';" href="../jobsearch.aspx?jobareas=2|13&stateid=-1&cityid=-1&keywords=&SearchPage=Sp">View current jobs in Credit</a></p>
+<p style="margin: 6px 6px 0px 6px;"><a class="left" onfocus="this.className='left-over';" onblur="this.className='left';" href="../jobsearch.aspx?jobareas=8|19&stateid=-1&cityid=-1&keywords=&SearchPage=Sp">View current jobs in Sales</a></p>
 </div>
 <% ElseIf tpage = "lobnbcc" Then %>
 <div style="width: 201px; text-align: left; border: 1px solid #e8e8e9; background: #ffffff; margin: 12px 0px 12px 0px; padding: 0px 0px 6px 0px;">
@@ -125,6 +126,11 @@ For those prepared to drive their professional development, Bank&nbsp;of&nbsp;Am
 <H2 class="h2" style="margin: 12px <%=right_margin%>px 2px <%=left_margin_0%>px;">Hot Job Postings</H2>
 <table cellpadding="2" cellspacing="0" border="0" summary="" style="margin-left: <%=left_margin_0%>px;">
 <!--#include file="../../hot_jobs.asp"-->
+<% 
+talentid=8 
+rowcount=6
+%>
+<!--#include file="../../hot_jobs2.asp"-->
 </table>
 <br><br>
 				</td>

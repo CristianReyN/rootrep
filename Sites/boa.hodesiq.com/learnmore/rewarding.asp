@@ -1,12 +1,13 @@
 <% Response.Buffer=True 
-Dim title, mpage, spage, ada_href, ada_title, job_search_action, Metatag
-title = "Bank of America | Career | Rewarding Success"
+Dim title, mpage, spage, ada_href, ada_title, job_search_action, Metatag%>
+<!-- #include file="../includes/breadcrumb.asp" -->
+<% title = breadcrumb & "Rewarding Success"
 mpage = "learnmore"
 spage = "benefitsadv"
 tpage = "rewarding"
 ada_href = "../ada/rewarding.asp"
 page_self = "../learnmore/rewarding.asp"
-ada_title = "Bank of America | Career | Rewarding Success"
+ada_title = breadcrumb & "Rewarding Success"
 job_search_action = "../jobsearch/searchresult.asp"
 Metatag="Page is specific to information on the rewarding success program offered to associates of Bank of America."
 %>

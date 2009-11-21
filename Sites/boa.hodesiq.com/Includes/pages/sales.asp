@@ -28,7 +28,6 @@
 	<img src="../images/clear.gif" width="100%" height="1" alt="" border="0" style="margin: 0px 0px 0px 0px; background: #e8e8e9;" align="top"><br clear="all">
 <p style="margin: 6px 6px 0px 6px;"><a class="left" onfocus="this.className='left-over';" onblur="this.className='left';" href="../jobsearch.aspx?jobareas=8|19&stateid=-1&cityid=-1&keywords=&SearchPage=Sp">View current jobs in Sales</a></p>
 <p style="margin: 6px 6px 0px 6px;"><a class="left" onfocus="this.className='left-over';" onblur="this.className='left';" href="../jobsearch.aspx?jobareas=8|20&stateid=-1&cityid=-1&keywords=&SearchPage=Sp">View current jobs in Consumer Banking</a></p>
-<!--<p style="margin: 6px 6px 0px 6px;"><a class="left" onfocus="this.className='left-over';" onblur="this.className='left';" href="../jobsearch.aspx?jobareas=8|21&stateid=-1&cityid=-1&keywords=&SearchPage=Sp">View current jobs in Technology</a></p>-->
 </div>
 
 <div style="width: 201px; text-align: center; margin: 0px; padding: 0px;">

@@ -53,9 +53,9 @@ As a former college student as well, I was able to take advantage of the tuition
 As a new associate, it can be overwhelming as far as having to deal with our customers initially, but we do provide you a terrific training program within the company.<br>
 We make sure that you are ready for success before you even take a phone call.<br>
 We give you the classroom training where it's about 12 days worth of classroom training.<br>
-You're learning every bit of what you're going to apply on the phone, and then we offer you about five weeks worth of onthejob training where you are learning and growing with a computer and a customer as well.<br>
-We provide support in the form OnTheJob Training Coaches, or also known as OJT Coaches.<br>
-We allow you the opportunity to come out onto the production floor and participate in pod visioning, where you sit with an associate that is currently exceeding expectations and assists you in your development and you actually take calls and you're able to develop your skills at that point and have the guidance on a oneonone basis. 
+You're learning every bit of what you're going to apply on the phone, and then we offer you about five weeks worth of on-the-job training where you are learning and growing with a computer and a customer as well.<br>
+We provide support in the form On-The-Job Training Coaches, or also known as OJT Coaches.<br>
+We allow you the opportunity to come out onto the production floor and participate in pod visioning, where you sit with an associate that is currently exceeding expectations and assists you in your development and you actually take calls and you're able to develop your skills at that point and have the guidance on a one-on-one basis. 
 </p>
 <br>
 <a href="<%= standart_href%>" title="Return to standard page with video" class="p" onfocus="this.className='p-over';" onblur="this.className='p';">Return to standard page with video</a>
