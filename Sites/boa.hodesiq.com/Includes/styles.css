@@ -185,14 +185,12 @@ H2.g
 
 H2
 {
-    font-family: Verdana, Helvetica, sans-serif;
-    font-size: 0.9em;
-    line-height: 0.9em;
+   font-family: Verdana, Helvetica, sans-serif;
+    font-size: 1.0em;
+    line-height: 1.4em;
     font-weight: bold;
     color: #333333;
-    background-color: transparent;
-    text-decoration: none;
-    padding: 6px 0px 6px 0px;
+
 }
 
 H1.cc
