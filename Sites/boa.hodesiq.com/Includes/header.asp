@@ -72,7 +72,7 @@ End If
 <table cellpadding="0" cellspacing="0" border="0" summary=""><tr><td>
 <div id="stopaudio">
 <% If flashPage Then %>
-<a class="auraltext" href="JavaScript: if(window.hideFlash) hideFlash();" onFocus="hover(this,'show-tab'); this.focus();" onblur="hover(this,'auraltext');" title="<%=hide_flash_title%>"><%=hide_flash_title%></a>
+<a href="<%=ada_href %>" id="tonly" title="<%=textonly_version %>" class="auraltext"><%=textonly_version %></a>
 <% End If %>
 </div>
 </td></tr></table>

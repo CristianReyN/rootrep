@@ -15,16 +15,21 @@ hide_flash_title2 = "Stop  We Are Bankers Audio"
 Metatag="Main page of the careers site. From this page you can listen to a video host who gives a quick tour to point in the direction of either engaging information, job search information or more in-depth information about employment with Bank of America. From this page you can job search to find if there is an opportunity available. You can click to more links about benefits, diversity, corporate information, college information, global locations and to Investment Banking Careers."
 playflash = Request.Cookies("PFOT")
 If playflash = "" Then
+'Response.write "playflash 1: " & playflash & "<br>"
 	Response.Cookies("PFOT") = "2"
 	Response.Cookies("PFOT").Expires = "January 1,2038"
 Else
+'Response.write "playflash 2: " & playflash & "<br>"
 	If playflash = "2" Then
+'Response.write "playflash 3: " & playflash & "<br>"
 		Response.Cookies("PFOT") = "1"
 		Response.Cookies("PFOT").Expires = "January 1,2038"
 		playflash = "1"
 	End If
 End If
+'Response.write "playflash 4: " & playflash & "<br>"
 If playflash = "1" Then flashPage = false
+'Response.write "flashPage: " & flashPage & "<br>"
 %>
 <!-- #include file="../includes/header.asp" -->
 <!-- Header -->
@@ -65,8 +70,12 @@ function getCookie(c_name)
 	return false;
 }
 
+var textOnlyVersion = '<a href="<%=ada_href %>" id="tonly" title="<%=textonly_version %>" class="auraltext" onfocus="hover(this,\'show-tab\');" onblur="hover(this,\'auraltext\');"><%=textonly_version %></a>';
+
 var replayVideoHost = '<p style="margin: 0px;"><a href="Javascript: replayVirtualHost();" title="Replay Video Host" class="p" onfocus="this.className=\'p-over\';" onblur="this.className=\'p\';">Replay<br>video host</a></p>';
 var videoTranscripts = '<p style="margin: 6px 0px 0px 0px;"><a href="<%=ada_href %>" title="Video transcripts" class="p" onfocus="this.className=\'p-over\';" onblur="this.className=\'p\';">Video<br>transcripts</a></p>';
+var stopVHAudio = '<a class="auraltext" href="JavaScript: if(window.hideFlash) hideFlash();" onFocus="hover(this,\'show-tab\'); this.focus();" onblur="hover(this,\'auraltext\');" title="<%=hide_flash_title%>"><%=hide_flash_title%></a>';
+var stopWABAudio = '<a class="auraltext" href="JavaScript: if(window.hideFlash) hideFlash();" onFocus="hover(this,\'show-tab\'); this.focus();" onblur="hover(this,\'auraltext\');" title="<%=hide_flash_title2%>"><%=hide_flash_title2%></a>';
 
 function loadVideoHost()
 {if(document.getElementById("flash_in")){
@@ -74,10 +83,20 @@ function loadVideoHost()
 	if(!playflash || playflash != "1")
 	{
 		document.getElementById("flash_in").innerHTML = hiddenFlash;
+		if(document.getElementById("stopaudio"))
+		{
+			document.getElementById("stopaudio").innerHTML = stopVHAudio;
+		}
 		setCookie("PFOT",1,10000);
 	}
 	else
+	{
 		document.getElementById("flash_in").innerHTML = helpLinks;
+		if(document.getElementById("stopaudio"))
+		{
+			document.getElementById("stopaudio").innerHTML = textOnlyVersion;
+		}
+	}
 }}
 
 requiredMajorVersion = 8;
@@ -107,7 +126,7 @@ if ( hasRequestedVersion ) {
 <noscript>
 <% If playflash = "" Then %>
 <div id="flash_in" style="position: absolute; display: inline; z-index: 200;">
-<object tabindex="0" onmousedown="if(document.getElementById('skipflash2')) document.getElementById('skipflash2').focus();" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"  codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="310" height="390" title="virtualhost" id="ShockwaveFlash1">
+<object tabindex="0" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"  codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="310" height="390" title="virtualhost" id="ShockwaveFlash1">
   <param name="movie" value="http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/virtualhost.swf" />
   <param name="quality" value="high" />
   <param name="wmode" value="transparent" />
