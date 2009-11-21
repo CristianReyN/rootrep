@@ -14,7 +14,7 @@
                                                     </td>
                                                 </tr>
                                                 <tr>
-													<td valign="top" colspan="3" >
+													<td valign="top" colspan="2" style="width:100%">
 														<asp:Label ID="lblJobAreas" runat="server" Text="Job Areas" Visible="true" AssociatedControlID="ddlJobAreas"></asp:Label><br />
 														<span id="d1" style="display: inline;">
 															<asp:DropDownList ID="ddlJobAreas" runat="server" CssClass="left" Style="width: 50%; z-index: auto;"
@@ -22,9 +22,10 @@
 															</asp:DropDownList>
 														</span>
 													</td>
+													<td valign="top" colspan="1" style="height:40px; " >&nbsp;</td>
                                                 </tr>
                                                 <tr>
-													<td  valign="top" colspan="3" >
+													<td  valign="top" colspan="2" style="width:100%">
 														<asp:Label ID="lblState" runat="server" Text="Location" AssociatedControlID="ddlState"></asp:Label><br />
 														<div id="d2" style="display: inline;">
 														<asp:DropDownList ID="ddlState" runat="server" CssClass="left" Style="width: 50%; z-index: auto;"
@@ -38,9 +39,10 @@
 														</noscript>
 														</div>
 													</td>
+													<td valign="top" colspan="1" style="height:40px; ">&nbsp;</td>
                                                 </tr>
                                                 <tr>
-													<td  valign="top" colspan="3" >
+													<td  valign="top" colspan="2" style="width:100%">
 														<asp:Label ID="lblCity" runat="server" Text="City" Visible="false" AssociatedControlID="ddlCity"></asp:Label><br />
 														<span id="d3" style="display: inline;">
 															<asp:DropDownList ID="ddlCity" runat="server" CssClass="left" Style="width: 50%; z-index: auto;"
@@ -49,6 +51,7 @@
 															</asp:DropDownList>
 														</span>
 													</td>
+													<td valign="top" colspan="1" style="height:40px; ">&nbsp;</td>
                                                 </tr>
                                                 <tr><td colspan="3">&nbsp;</td></tr>
                                                 <tr>
