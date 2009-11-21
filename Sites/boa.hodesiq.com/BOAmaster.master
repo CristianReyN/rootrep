@@ -132,20 +132,8 @@ create_safebutton("Search","javascript: submit_search();",0,0,0,0,"Search");
 //<!--
 function tdiv(tf)
 {
-if (tf)
-    {
-    document.getElementById("d1").style.display="inline";
-    document.getElementById("d2").style.display="inline";
-    document.getElementById("d3").style.display="inline";
-    document.getElementById("d4").style.display="inline";
-    }
-    else
-    {
-    document.getElementById("d1").style.display="none";
-    document.getElementById("d2").style.display="none";
-    document.getElementById("d3").style.display="none";
-    document.getElementById("d4").style.display="none";
-    }
+    for(var i=1; i<=4; i++)
+		document.getElementById("d" + String(i)).style.display=tf==true?"inline":"none";
 }
 //-->
 </script>
