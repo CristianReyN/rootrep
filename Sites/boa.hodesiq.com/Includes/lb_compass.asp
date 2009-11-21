@@ -81,7 +81,7 @@ Function createPages(pages)
 	call addQuestionGroup(page,group)
 	
 	call createQuestionGroup(group,4,"I work most effectively in the following atmosphere:","radio",1)
-	call createQuestion(q,30,"One with clearly defined with specific goals and structured schedules","I work most effectively in the atmosphere with clearly defined with specific goals and structured schedules",3)
+	call createQuestion(q,30,"One with specific and clearly defined goals and a structured schedule","I work most effectively in the atmosphere with specific and clearly defined goals and a structured schedule",3)
 	call addQuestion(group,q)
 	call createQuestion(q,31,"An environment which encourages an opportunity to be entrepreneurial and/or innovative","I work most effectively in the environment which encourages an opportunity to be entrepreneurial and/or innovative",3)
 	call addQuestion(group,q)
