@@ -27,8 +27,8 @@ public partial class Tell_a_friend : System.Web.UI.Page
     {
         strJobID = Request.QueryString["JobId"];        
 		//write the boa buttons
-		boanet_safebutton.writeBOASafeButton("Send", phSend, "Send", Send_Click, this.Request);
-		boanet_safebutton.writeBOASafeButton("Cancel", phCancel, "Cancel", Cancel_Click, this.Request);
+        boanet_safebutton.writeBOASafeButton("Send", phSend, "Send", Send_Click, this.Request, "");
+        boanet_safebutton.writeBOASafeButton("Cancel", phCancel, "Cancel", Cancel_Click, this.Request, "");
         this.YourEmail.Focus();
     }
     protected void Cancel_Click(object sender, EventArgs e)
@@ -39,76 +39,85 @@ public partial class Tell_a_friend : System.Web.UI.Page
     {
         string strMailBody;
         this.ltrlError0.Text = "";
+        this.ltrlError1.Text = "";
         this.ltrlError.Text = "";
         if (isEmail(this.YourEmail.Text.ToString()))
         {
-            if (isEmail(this.FriendEmail.Text.ToString()))
+            if (this.YourName.Text.Trim() != "")
             {
-                MailMessage message = new MailMessage();
-                message.Sender  = new MailAddress(ConfigurationManager.AppSettings["boafromaddress"].ToString()); 
-				message.ReplyTo = new MailAddress(this.YourEmail.Text.ToString());
-                message.From    = new MailAddress(this.YourEmail.Text.ToString());
-                message.To.Add(new MailAddress(this.FriendEmail.Text.ToString()));
-                message.Subject = "Career opportunity with Bank Of America";
-                message.IsBodyHtml = true;
-
-                //get this job details:
-                Jobs JobDetail = new Jobs();
-                DataTable dt = JobDetail.JobDetails(strJobID);
-                if (dt.Rows.Count > 0)
+                if (isEmail(this.FriendEmail.Text.ToString()))
                 {
-                    strJobTitle = dt.Rows[0]["JobTitle"].ToString() + " : " + dt.Rows[0]["JobsId"].ToString();
-                    strDescripton = dt.Rows[0]["Description"].ToString();
-                    strQualification = dt.Rows[0]["Qualification"].ToString();
-                }
+                    MailMessage message = new MailMessage();
+                    message.Sender  = new MailAddress(ConfigurationManager.AppSettings["boafromaddress"].ToString()); 
+				    message.ReplyTo = new MailAddress(this.YourEmail.Text.ToString());
+                    message.From    = new MailAddress(this.YourName.Text.ToString()+" <"+this.YourEmail.Text.ToString()+">");
+                    message.To.Add(new MailAddress(this.FriendEmail.Text.ToString()));
+                    message.Subject = "Career opportunity with Bank Of America";
+                    message.IsBodyHtml = true;
 
-                strMailBody = "<table align='left' style='width: 560px;' border=0><tr><td>";
-                strMailBody = strMailBody + MessageBox.Text.ToString();
-                strMailBody = strMailBody + "<br/><br/>";
-                strMailBody = strMailBody + "<b>" + strJobTitle + "</b>";
-                strMailBody = strMailBody + "<br/><br/>";
-                strMailBody = strMailBody + "<b>Job Description</b>";
-                strMailBody = strMailBody + "<br/>";
-                strMailBody = strMailBody + strDescripton.Replace(Environment.NewLine, "<br/>");
-                strMailBody = strMailBody + "<br/><br/>";
-                strMailBody = strMailBody + "<b>Qualifications</b>";
-                strMailBody = strMailBody + "<br/>";
-                strMailBody = strMailBody + strQualification.Replace(Environment.NewLine,"<br/>");
-                strMailBody = strMailBody + "<br/><br/>";
-                //url to apply online: strApplyNow 
-                //url to job description
-                strMailBody = strMailBody + "<a href='" + Request.Url.ToString().Substring(0, Request.Url.ToString().LastIndexOf("/")) + "/jobdetails.aspx?JobId=" + strJobID + "&SearchPage=Sp' title='Click Here To View More Details About This Opportunity'>Click this link</a> to view more details about this opportunity.";
-                strMailBody = strMailBody + "<br/><br/>";
-                strMailBody = strMailBody + "Thank you.";
-                strMailBody = strMailBody + "<br/><br/>";
-                strMailBody = strMailBody + "*Disclaimer : Bank of America and Taleo shall not be liable for the content or any errors or omissions in the information provided, and conclusions drawn from such information are the responsibility of the user.";
-                strMailBody = strMailBody + "<br/><br/>";
-                strMailBody = strMailBody + "<i><b>BANK of AMERICA - CONFIDENTIAL";
-                strMailBody = strMailBody + "<br/>";
-                strMailBody = strMailBody + "Important - this message (including any attachments) is intended only for the use of the individual or entity to which it is addressed, and may contain information that is privileged, confidential and exempt from disclosure under applicable law. ";
-                strMailBody = strMailBody + "If you are not the intended recipient, you should delete this message immediately and you are hereby notified that any review, dissemination, distribution or copying of this message, or the taking of any action based on it is strictly prohibited.  ";
-                strMailBody = strMailBody + "If you have received this communication in error, please notify the sender immediately by telephone.</b></i>";
-                strMailBody = strMailBody + "<br/><br/></td></tr></table>";
-                message.Body = strMailBody;
+                    //get this job details:
+                    Jobs JobDetail = new Jobs();
+                    DataTable dt = JobDetail.JobDetails(strJobID);
+                    if (dt.Rows.Count > 0)
+                    {
+                        strJobTitle = dt.Rows[0]["JobTitle"].ToString() + " : " + dt.Rows[0]["JobsId"].ToString();
+                        strDescripton = dt.Rows[0]["Description"].ToString();
+                        strQualification = dt.Rows[0]["Qualification"].ToString();
+                    }
 
-                SmtpClient client = new SmtpClient("localhost");
-                client.DeliveryMethod = SmtpDeliveryMethod.PickupDirectoryFromIis;
-                try
-                {
-                    client.Send(message);
+                    strMailBody = "<table align='left' style='width: 560px;' border=0><tr><td>";
+                    strMailBody = strMailBody + MessageBox.Text.ToString();
+                    strMailBody = strMailBody + "<br/><br/>";
+                    strMailBody = strMailBody + "<b>" + strJobTitle + "</b>";
+                    strMailBody = strMailBody + "<br/><br/>";
+                    strMailBody = strMailBody + "<b>Job Description</b>";
+                    strMailBody = strMailBody + "<br/>";
+                    strMailBody = strMailBody + strDescripton.Replace(Environment.NewLine, "<br/>");
+                    strMailBody = strMailBody + "<br/><br/>";
+                    strMailBody = strMailBody + "<b>Qualifications</b>";
+                    strMailBody = strMailBody + "<br/>";
+                    strMailBody = strMailBody + strQualification.Replace(Environment.NewLine,"<br/>");
+                    strMailBody = strMailBody + "<br/><br/>";
+                    //url to apply online: strApplyNow 
+                    //url to job description
+                    strMailBody = strMailBody + "<a href='" + Request.Url.ToString().Substring(0, Request.Url.ToString().LastIndexOf("/")) + "/jobdetails.aspx?JobId=" + strJobID + "&SearchPage=Sp' title='Click Here To View More Details About This Opportunity'>Click this link</a> to view more details about this opportunity.";
+                    strMailBody = strMailBody + "<br/><br/>";
+                    strMailBody = strMailBody + "Thank you.";
+                    strMailBody = strMailBody + "<br/><br/>";
+                    strMailBody = strMailBody + "*Disclaimer : Bank of America and Taleo shall not be liable for the content or any errors or omissions in the information provided, and conclusions drawn from such information are the responsibility of the user.";
+                    strMailBody = strMailBody + "<br/><br/>";
+                    strMailBody = strMailBody + "<i><b>BANK of AMERICA - CONFIDENTIAL";
+                    strMailBody = strMailBody + "<br/>";
+                    strMailBody = strMailBody + "Important - this message (including any attachments) is intended only for the use of the individual or entity to which it is addressed, and may contain information that is privileged, confidential and exempt from disclosure under applicable law. ";
+                    strMailBody = strMailBody + "If you are not the intended recipient, you should delete this message immediately and you are hereby notified that any review, dissemination, distribution or copying of this message, or the taking of any action based on it is strictly prohibited.  ";
+                    //strMailBody = strMailBody + "If you have received this communication in error, please notify the sender immediately by telephone.</b></i>";
+                    strMailBody = strMailBody + "</b></i>f<br/><br/></td></tr></table>";
+                    message.Body = strMailBody;
+
+                    SmtpClient client = new SmtpClient("localhost");
+                    client.DeliveryMethod = SmtpDeliveryMethod.PickupDirectoryFromIis;
+                    try
+                    {
+                        client.Send(message);
+                    }
+                    catch (Exception ex)
+                    {
+                        Response.Write(ex.ToString());
+                    }
+                    //insert record into tracking table
+                    TrackTellAFriend();
+                    Response.Redirect("Jobdetails.aspx?" + Request.QueryString);
                 }
-                catch (Exception ex)
+                else
                 {
-                    Response.Write(ex.ToString());
+                    this.ltrlError.Text = "<li><font color='red'> Field must contain only one valid email address:</font>";
+                    this.FriendEmail.Focus();
                 }
-                //insert record into tracking table
-                TrackTellAFriend();
-                Response.Redirect("Jobdetails.aspx?" + Request.QueryString);
             }
             else
             {
-                this.ltrlError.Text = "<li><font color='red'> Field must contain only one valid email address:</font>";
-                this.FriendEmail.Focus();
+                this.ltrlError1.Text = "<li><font color='red'> Field must contain your name:</font>";
+                this.YourName.Focus();
             }
         }
         else

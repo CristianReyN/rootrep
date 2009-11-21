@@ -26,11 +26,6 @@ public partial class JobDetails : System.Web.UI.Page
     protected void Page_Load(object sender, EventArgs e)
     {
 
-        boanet_safebutton.writeBOASafeButton("Apply1", phApply1, " Apply Now ", Apply_Click, this.Request);
-        boanet_safebutton.writeBOASafeButton("Apply2", phApply2, " Apply Now ", Apply_Click, this.Request);
-
-		prepbuttons();
-
 		if (this.Request.UrlReferrer != null &&
 		(this.Request.UrlReferrer.ToString().ToLowerInvariant().Contains("jobsearch.aspx") || this.Request.UrlReferrer.ToString().ToLowerInvariant().Contains("advancesearch.aspx")
 			|| this.Request.UrlReferrer.ToString().ToLowerInvariant().Contains("jobdetails.aspx") || this.Request.UrlReferrer.ToString().ToLowerInvariant().Contains("tell_a_friend.aspx")))
@@ -72,8 +67,13 @@ public partial class JobDetails : System.Web.UI.Page
             returntoJobsearch.NavigateUrl = "AdvanceSearch.aspx?" + Request.QueryString;
         }
 
+        boanet_safebutton.writeBOASafeButton("Apply1", phApply1, " Apply Now ", Apply_Click_NoJS, this.Request, this.hApplyNow.Value);
+        boanet_safebutton.writeBOASafeButton("Apply2", phApply2, " Apply Now ", Apply_Click_NoJS, this.Request, this.hApplyNow.Value);
+
+        prepbuttons();
+
 		//not ready For Pro Yet!! 
-        //TellaFriend.NavigateUrl = "Tell_a_friend.aspx?" + Request.QueryString;
+        TellaFriend.NavigateUrl = "Tell_a_friend.aspx?" + Request.QueryString;
 
 
         //check if this job is in the jobcart. If so, display remove Job Cart Link
@@ -104,6 +104,11 @@ public partial class JobDetails : System.Web.UI.Page
     }
 
     protected void Apply_Click(object sender, EventArgs e)
+    {
+        //Response.Redirect(this.hApplyNow.Value);
+    }
+
+    protected void Apply_Click_NoJS(object sender, EventArgs e)
     {
         Response.Redirect(this.hApplyNow.Value);
     }
@@ -263,8 +268,8 @@ public partial class JobDetails : System.Web.UI.Page
 		returntoJobsearch.Attributes.Add("onblur", "this.className='p';");
         
         //not ready For Pro Yet!!
-        //TellaFriend.Attributes.Add("onfocus", "this.className='p-over';");
-		//TellaFriend.Attributes.Add("onblur", "this.className='p';");
+        TellaFriend.Attributes.Add("onfocus", "this.className='p-over';");
+		TellaFriend.Attributes.Add("onblur", "this.className='p';");
 
 		btnAddToCart.Attributes.Add("onfocus", "this.style.color='#0000FF';");
 		btnAddToCart.Attributes.Add("onblur", "this.style.color='#405EBE';");
@@ -304,6 +309,7 @@ public partial class JobDetails : System.Web.UI.Page
 
 		bttnRemoveFromJobCart.Visible = false;
 		btnRemoveFromCart.Visible = false;
+
 	}
 
 }

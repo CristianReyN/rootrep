@@ -26,7 +26,7 @@ public partial class Jobcart : System.Web.UI.Page
     protected void Page_Load(object sender, EventArgs e)
     {
 		//write the boa buttons
-		boanet_safebutton.writeBOASafeButton("Remove", phRemove, "Remove Selected", Remove_Click, this.Request);
+		boanet_safebutton.writeBOASafeButton("Remove", phRemove, "Remove Selected", Remove_Click, this.Request, "");
         
 		//if(ViewState["Cookie"]==null)
         //{

@@ -38,7 +38,7 @@
                             <asp:Button runat="server" ID="bttnAddToJobCart" OnClick="bttnAddToJobCart_Click" Text="Add to job cart" ToolTip="Add to job cart" CssClass="btnlink"/>
                             <asp:Button runat="server" ID="bttnRemoveFromJobCart" OnClick="bttnRemoveFromJobCart_Click" Text="Remove from job cart" ToolTip="Remove from job cart" CssClass="btnlink"/><br />
                             <asp:Button runat="server" ID="bsearchTop" OnClick="bsearch_Click" Text="View job cart" ToolTip="View job cart" CssClass="btnlink"/><br /><br />
-                            <asp:HiddenField runat="server" ID="hApplyNow" /> 
+                            <asp:HiddenField runat="server" ID="hApplyNow" />
                             <asp:PlaceHolder ID="phApply1" runat="server" Visible="true"></asp:PlaceHolder>
                             <%--<asp:HyperLink ID="applylnk" CssClass="p" runat="server" NavigateUrl="" Target="_blank" ><img src="images/apply_now.gif" alt="Apply Now" style="border-top-style: none; border-right-style: none; border-left-style: none; border-bottom-style: none;" /></asp:HyperLink>--%>
                         </td>
@@ -87,12 +87,12 @@
                     </tr>
                     <tr>
                         <td style="padding: 18px 6px 0px 0px; height: 156px;" valign="top">
-                        <%--<asp:HyperLink ID="TellaFriend" runat="server" CssClass="p" ToolTip="Send this job to a friend" >Send this job to a friend</asp:HyperLink><br /><br />--%>
+                        <asp:HyperLink ID="TellaFriend" runat="server" CssClass="p" ToolTip="Send this job to a friend" >Send this job to a friend</asp:HyperLink><br /><br />
                         <asp:HyperLink ID="returntoJobsearch" runat="server" CssClass="p" ToolTip="Return to job list" Visible="false">Return to job list</asp:HyperLink><br />
                            
                         </td>
                         <td style="height: 156px">
-                            <asp:Button runat="server" ID="btnAddToCart" OnClick="bttnAddToJobCart_Click" Text="Add to job cart" ToolTip="Add to job cart" CssClass="btnlink"/>
+                            <asp:Button runat="server" ID="btnAddToCart" OnClick="bttnAddToJobCart_Click"  Text="Add to job cart" ToolTip="Add to job cart" CssClass="btnlink"/>
                             <asp:Button runat="server" ID="btnRemoveFromCart" OnClick="bttnRemoveFromJobCart_Click" Text="Remove from job cart" ToolTip="Remove from job cart" CssClass="btnlink"/><br />
                             <asp:Button runat="server" ID="bsearch" OnClick="bsearch_Click" Text="View job cart" ToolTip="View job cart" CssClass="btnlink"/><br /><br />
                             <asp:PlaceHolder ID="phApply2" runat="server" Visible="true"></asp:PlaceHolder>
@@ -104,4 +104,7 @@
         </tr>
     </table>
 <asp:label id="lblMessage" runat="server"></asp:label>
+<script type="text/javascript">
+<asp:literal runat="server" id="ltScript"></asp:literal>
+</script>
 </asp:Content>

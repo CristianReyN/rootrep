@@ -23,9 +23,9 @@ public partial class AdvanceSearchTest : System.Web.UI.Page
         if (Statehidden.Value == "All Locations") Statehidden.Value = "-1";
 
         //write the boa buttons
-        boanet_safebutton.writeBOASafeButton("Search", phSearch, "Search", bsearch_Click, this.Request);
-        boanet_safebutton.writeBOASafeButton("Previous", phPrevious, "Previous", LnkPrvs_Click, this.Request);
-        boanet_safebutton.writeBOASafeButton("Next", phNext, "Next", LnkNxt_Click, this.Request);
+        boanet_safebutton.writeBOASafeButton("Search", phSearch, "Search", bsearch_Click, this.Request, "");
+        boanet_safebutton.writeBOASafeButton("Previous", phPrevious, "Previous", LnkPrvs_Click, this.Request, "");
+        boanet_safebutton.writeBOASafeButton("Next", phNext, "Next", LnkNxt_Click, this.Request, "");
 
         //
         lnkBasicSearch.Attributes.Add("onblur", "this.className='p';");

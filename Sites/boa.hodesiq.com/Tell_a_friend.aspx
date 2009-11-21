@@ -34,6 +34,15 @@
                     </td>
                     </tr> 	
                     <tr><td style="width: 100%">  <br /></td></tr>				
+
+                    <tr>
+                    <td style="width: 100%"><asp:Label ID="Label2" runat="server" AssociatedControlID="YourName" Text="Your name*"></asp:Label><br />
+                        <asp:Literal ID="ltrlError1" runat="server" Text=""  /> 
+                        <asp:TextBox ID="YourName" ToolTip="Your name" runat="server" Width="400px"></asp:TextBox>
+                    </td>
+                    </tr> 	
+                    <tr><td style="width: 100%">  <br /></td></tr>	
+                    
 					<tr>
 					<td style="width: 100%"><asp:Label runat="server" AssociatedControlID="FriendEmail" Text="Your friend's email address*"></asp:Label><br />
 					    <asp:Literal ID="ltrlError" runat="server" Text=""  /> 
