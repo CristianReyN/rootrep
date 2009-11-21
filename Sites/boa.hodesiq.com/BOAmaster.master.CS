@@ -24,13 +24,6 @@ public partial class BOAmaster : System.Web.UI.MasterPage
         string strPageName = "";
         string strContent = "";
         int intPage = 1; // true
-        if (Request.ServerVariables["SCRIPT_NAME"].IndexOf("CampusEvents.aspx", StringComparison.CurrentCultureIgnoreCase) > 0)
-        {
-            jobsearchColor = "#cadceb;";
-            ceventsColor = "#eaf1f7;";
-            breadCrum = " | Campus Recruiting | Campus Events";
-            IsCampusEvents = true;
-        }
         if (Request.ServerVariables["SCRIPT_NAME"].IndexOf("jobsearch.aspx", StringComparison.CurrentCultureIgnoreCase) > 0)
         {
             strContent = "Main page for job search functionality for careers site.";
@@ -56,6 +49,15 @@ public partial class BOAmaster : System.Web.UI.MasterPage
             strContent = "Allows users to send the job to a friend.";
             strPageName = "Tell a Friend";
 		}
+        else if (Request.ServerVariables["SCRIPT_NAME"].IndexOf("CampusEvents.aspx", StringComparison.CurrentCultureIgnoreCase) > 0)
+        {
+            jobsearchColor = "#cadceb;";
+            ceventsColor = "#eaf1f7;";
+            breadCrum = " | Campus Recruiting | Campus Events";
+            strContent = "Campus Events Overview page on campus site. Includes a searchable guide (with times, dates and locations) to the Bank's many visits to college and universities in the U.S and internationally.";
+            IsCampusEvents = true;
+        }
+        
         else
         {
             strContent = "Main page for job search functionality for careers site.";
