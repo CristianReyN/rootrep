@@ -8,14 +8,11 @@
                                         <td style="padding: 6px 12px 0px 12px; height: 100%" valign="top">
                                             <table border="0" cellpadding="0" cellspacing="0" summary="" width="100%">
                                                 <tr>
-                                                    <td valign="top">
+                                                    <td valign="top" colspan="2">
                                                         <h2 style="margin: 0px;">
                                                             Guided Job Search</h2>
                                                     </td>
-                                                    <td align="right" valign="top">
-                                                        <a class="p" href="" title="Previous">Previous</a>&nbsp;&nbsp;<span class="ftrtxt">|</span>&nbsp;&nbsp;<a
-                                                            class="p" href="" title="Next">Next</a>
-                                                    </td>
+                                                    
                                                 </tr>
                                                 <tr>
                                                     <td style="padding: 0px 6px 0px 0px; width: 50%" valign="top">
@@ -51,10 +48,10 @@
                                                     <td style="padding: 0px 6px 0px 0px; width: 50%;" valign="top">
                                                         <p style="margin: 0px; text-align: left;">
                                                             <b>
-                                                                <label for="locations">
-                                                                    City</label></b></p>
+                                                                <asp:Label ID="LblCity" runat="server" Text="City" Visible="false"></asp:Label>
+                                                                </b></p>
                                                         <asp:DropDownList ID="City" runat="server" CssClass="left" Style="width: 100%; z-index: auto;"
-                                                            TabIndex="3" ToolTip="Select a City">
+                                                            TabIndex="3" ToolTip="Select a City" Visible="false">
                                                             <asp:ListItem>All Locations&#160;</asp:ListItem>
                                                         </asp:DropDownList>
                                                     </td>
@@ -91,7 +88,7 @@
                                                 <AlternatingRowStyle BackColor="#EAF1F7" Height="10px" />
                                                 <HeaderStyle Height="10px" BackColor="#EAF1F7" />
                                                 <Columns>
-                                                    <asp:HyperLinkField DataNavigateUrlFields="JobsID" DataNavigateUrlFormatString="JobDetails.aspx?JobId={0}"
+                                                    <asp:HyperLinkField DataNavigateUrlFields="JobsID" DataNavigateUrlFormatString="JobDetails.aspx?SearchPage=Sp&JobId={0}"
                                                         DataTextField="JobName" HeaderText="JobName">
                                                         <HeaderStyle HorizontalAlign="Left" />
                                                     </asp:HyperLinkField>

@@ -8,6 +8,7 @@
 </head>
 <body>
             <form id="jsearch" runat="server"  >
+            <%Response.Redirect("Jobsearch.aspx");%>
                 <table border="0" cellpadding="0" cellspacing="0" summary="" width="578">
                     <tr valign="top">
                         <td style="padding: 6px 12px 0px 12px; height: 100%" valign="top">

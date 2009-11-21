@@ -53,6 +53,11 @@ public partial class JobSearch : System.Web.UI.Page
 
     protected void brefine_Click(object sender, EventArgs e)
     {
+        if (State.SelectedIndex != 0 && State.SelectedIndex != 1)
+        {
+            City.Visible = true;
+            LblCity.Visible = true;
+        }
         AreaofTalent at = new AreaofTalent();
 
         jfamily.Items.Clear();
