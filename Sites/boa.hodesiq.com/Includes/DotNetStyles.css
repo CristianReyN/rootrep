@@ -291,7 +291,14 @@ H3.pb
 
 H3.normal
 {
-    color:Black;
+   font-family: Verdana, Helvetica, sans-serif;
+    font-size: 1.0em;
+    line-height: 1.0em;
+    font-weight: bold;
+    color: #333333;
+    background-color: transparent;
+    text-decoration: none;
+    padding: 6px 0px 6px 0px;
 }
 
 H1.hidden, H2.hidden, H3.hidden, DIV.hidden, P.hidden, SPAN.hidden

@@ -30,13 +30,16 @@
 							</td>
 							</tr>
 							</table>
+							<asp:Panel ID="PnlCanada" runat="server" Visible="false">
+                            </br><a id="LnkCanada"  class="p" href="http://ig12.i-grasp.com/fe/tpl_bankofamerica06.asp"  title="Search and apply for jobs in Canada." runat="server">Search and apply for jobs in Canada.</a></br></br></asp:Panel>
 							<asp:Panel ID="PnlFilter" runat="server" >
+							
 							<table border="0" cellpadding="0" cellspacing="0" summary=""
                             width="550px">					
 							<tr id="trInternationalLocation" runat="server"  visible="false">							
 							<td  valign="top"  style="width:50%; height:45;">
 							   <div id="Div1" style="display: inline;">
-							    <asp:Label ID="LblInternationalCity" runat="server" Text="International City" Visible="true" AssociatedControlID="InternationalCity"></asp:Label><br />
+							    <asp:Label ID="LblInternationalCity" runat="server" Text="City" Visible="true" AssociatedControlID="InternationalCity"></asp:Label><br />
 								<asp:DropDownList ID="InternationalCity" runat="server" CssClass="left" Style="width: 90%; z-index: auto;"
 								ToolTip="Select a city" Visible="true" Enabled="true">
 								<asp:ListItem>All cities&#160;</asp:ListItem>
@@ -182,7 +185,7 @@
                     GridLines="None" 
                     ToolTip="Search Results "
                     summary="Search Results. The first column is the Job Title.  The second column is the Location.  The third column is the Date. " 
-                    Width="550px"
+                    Width="554px"
                     Height="18"  
                     PageSize="12"    
                     AllowPaging="false" 

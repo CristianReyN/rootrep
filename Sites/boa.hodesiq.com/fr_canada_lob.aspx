@@ -38,7 +38,8 @@
 
 <p>Les activités de Merrill Lynch au Canada relèvent de deux unités à la fois indépendantes et interdépendantes :</p>
 
-<h3 class="normal">&nbsp;&nbsp;-&nbsp;&nbsp;Services bancaires mondiaux aux entreprises et services bancaires mondiaux d'investissement</h3>
+<h3 class="normal">&nbsp;&nbsp;-&nbsp;&nbsp;Services bancaires mondiaux aux entreprises et <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;services bancaires mondiaux d'investissement</h3>
 
 <p>Le groupe Global Corporate & Investment Banking s'occupe des activités de crédit aux entreprises et de services-conseils de même que des interventions sur les marchés des capitaux de Bank of America Merrill Lynch. Il répond aux besoins à long terme des entreprises et des institutions financières, en puisant dans l'expertise internationale de la banque et sa connaissance des marchés locaux dans tous les secteurs.</p>
  

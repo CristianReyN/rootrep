@@ -12,7 +12,7 @@
      
 
 
-<p>Notre processus de demande d’emploi en ligne nous permet de faire le suivi, de gérer et de répondre à votre demande de façon conforme et opportune. Vous pouvez <b>utiliser la fonction de recherche d’emploi guidée pour présenter votre cv en ligne</b>. Vous pouvez consulter les postes à pourvoir dans tout le Canada par emplacement et par famille d’emploi. Après avoir soumis votre CV, vous recevrez un courriel accusant réception de votre demande.</p>
+<p>Notre processus de demande d’emploi en ligne nous permet de faire le suivi, de gérer et de répondre à votre demande de façon conforme et opportune. Vous pouvez <b>Utilisez le bouton Appliquer à partir de toute description de poste pour envoyer votre CV en ligne.</b> Vous pouvez consulter les postes à pourvoir dans tout le Canada par emplacement et par famille d’emploi. Après avoir soumis votre CV, vous recevrez un courriel accusant réception de votre demande.</p>
 
 <p>Bank of America s’efforce d’identifier et de sélectionner le meilleur candidat pour chaque poste. Dans le cadre de notre processus d’évaluation, nous utilisons des entrevues axées sur la compétence pour mesurer les aptitudes clés, les attributs et les valeurs dont une personne doit faire montre pour réussir à son poste. Le nombre d’entrevues variera selon le poste et le secteur d’activité.<p>
 

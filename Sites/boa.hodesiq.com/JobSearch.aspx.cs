@@ -78,10 +78,19 @@ public partial class JobSearch : System.Web.UI.Page
         if (Country.SelectedValue == Location.USA)
         {
             PnlUSJobsContent.Visible = true;
+            PnlCanada.Visible = false;
+        }
+        else if (Country.SelectedValue == Location.CANADA)
+        {
+            PnlUSJobsContent.Visible = false;
+            PnlResults.Visible = false;
+            PnlFilter.Visible = false;
+            PnlCanada.Visible = true;
         }
         else
         {
             PnlUSJobsContent.Visible = false;
+            PnlCanada.Visible = false;
         }
         
     }
