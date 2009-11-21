@@ -56,7 +56,7 @@ Set programs(8) = createProgram("Infrastructure Design &amp; Build Program", csb
 Set programs(9) = createProgram("Operations Management Analyst Program", csbb_program_group, "usfn-operations-management-analyst.asp", AMERICAS, U_S_A, ANALYST, FULLTIME, FALSE, TRUE)
 
 Set programs(10) = createProgram("Commercial Real Estate Bank Development Program", gbgwim_program_group, "usfn-commercial-real-estate-bank-development.asp", AMERICAS, U_S_A, ANALYST, FULLTIME, FALSE, TRUE)
-Set programs(161) = createProgram("Corporate Banking Analyst", gbgwim_program_group, "usfn-corporate-banking-analyst.asp", AMERICAS, U_S_A, ANALYST, FULLTIME, FALSE, TRUE)
+Set programs(161) = createProgram("Corporate Banking Analyst Program", gbgwim_program_group, "usfn-corporate-banking-analyst.asp", AMERICAS, U_S_A, ANALYST, FULLTIME, FALSE, TRUE)
 Set programs(11) = createProgram("Corporate &amp; Financial Institutions Debt Products Program ",gbgwim_program_group,"usfn-corporate-financial-institutions-debt-products.asp", AMERICAS, U_S_A, ANALYST, FULLTIME, FALSE, TRUE)
 Set programs(12) = createProgram("Corporate &amp; Investment Banking Analyst Program", gbgwim_program_group, "usfn-corporate-investment-banking-analyst.asp", AMERICAS, U_S_A, ANALYST, FULLTIME, FALSE, TRUE)
 Set programs(71) = createProgram("Corporate &amp; Investment Banking Analyst Program", gbgwim_program_group, "cafn-corporate-investment-banking-analyst.asp", AMERICAS, CANADA, ANALYST, FULLTIME, FALSE, TRUE)
@@ -210,7 +210,7 @@ Set programs(88) = createProgram("Sales and Trading Associate Intern Program", g
 'EMEA FULLTIME ANALYST PROGRAMS
 
 Set programs(89) = createProgram("Global Human Resources Analyst", cao_program_group, "emeafn-global-human-resources-analyst.asp", EMEA, "", ANALYST, FULLTIME, FALSE, TRUE)
-Set programs(90) = createProgram("Card Services Analyst", cs_program_group, "emeafn-card-services-analyst.asp", EMEA, "", ANALYST, FULLTIME, FALSE, FALSE)'program removed
+Set programs(90) = createProgram("Card Services Analyst", cs_program_group, "emeafn-card-services-analyst.asp", EMEA, "", ANALYST, FULLTIME, FALSE, TRUE)
 Set programs(91) = createProgram("Corporate &amp; Financial Institutions Debt Products Analyst", gbgwim_program_group, "emeafn-corporate-financial-institutions-debt-products-analyst.asp", EMEA, "", ANALYST, FULLTIME, FALSE, TRUE)
 Set programs(92) = createProgram("Corporate and Investment Banking Analyst", gbgwim_program_group, "emeafn-corporate-investment-banking-analyst.asp", EMEA, "", ANALYST, FULLTIME, FALSE, TRUE)
 Set programs(93) = createProgram("Global Wealth and Investment Management Analyst", gbgwim_program_group, "emeafn-global-wealth-investment-management-analyst.asp", EMEA, "", ANALYST, FULLTIME, FALSE, TRUE)
