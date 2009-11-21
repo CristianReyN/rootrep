@@ -36,7 +36,7 @@
 Global Consumer &amp; Small Business Banking contains six of the largest divisions within Bank of America. Our teams service approximately 54 million consumer households through checking, savings, credit and debit cards, home equity lending and mortgages. Helping a family acquire their first home, assisting someone with establishing credit, paying bills via mobile phone, providing a six-year-old with a savings account and funding a small business owner's dream - these are some of the opportunities we provide to our customers and to the thousands of Bank of America associates in our diverse groups.
 </p>
 <H2 class="h2" style="margin: 12px 12px 2px 12px;">Hot Job Postings</H2>
-<table cellpadding="2" cellspacing="0" border="0" summary="">
+<table cellpadding="2" cellspacing="0" border="0" summary="" style="margin-left: 12px;">
 <!--#include file="../../hot_jobs.asp"-->
 </table>
 <br><br>

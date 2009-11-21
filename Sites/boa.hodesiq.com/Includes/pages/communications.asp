@@ -28,7 +28,7 @@
 The role of a communications expert is critical in proactively shaping a company's reputation through the eyes of its customers.  We're looking for outstanding people with impressive credentials who relish the prospect of building on the success of one of the world's most recognized brands. Those who join us enjoy the exhilaration and fulfillment of ensuring our 200,000 associates and 54 million consumer and small business customers stay "in the know."
 </p>
 <H2 class="h2" style="margin: 12px 12px 2px 12px;">Hot Job Postings</H2>
-<table cellpadding="2" cellspacing="0" border="0" summary="">
+<table cellpadding="2" cellspacing="0" border="0" summary="" style="margin-left: 12px;">
 <!--#include file="../../hot_jobs.asp"-->
 </table>
 <br><br>

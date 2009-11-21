@@ -41,7 +41,7 @@ In addition to advising our clients on a wide variety of topics, the Global Huma
 <p style="margin: 6px 12px 12px 12px;">
 Interested in joining the "World's Most Admired Global Bank"? We invite you to explore career opportunities on our dynamic Human Resources team.
 </p>
-<table cellpadding="2" cellspacing="0" border="0" summary="">
+<table cellpadding="2" cellspacing="0" border="0" summary="" style="margin-left: 12px;">
 <!--#include file="../../hot_jobs.asp"-->
 </table>
 <br><br>

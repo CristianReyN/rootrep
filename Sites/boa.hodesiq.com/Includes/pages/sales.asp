@@ -29,7 +29,7 @@
 Those in sales and product development groups will find a fast-paced and rewarding environment.  By planning and executing in closely aligned teams, with shared accountability, our sales specialists generate sales and increase our market share.
 </p>
 <H2 class="h2" style="margin: 12px 12px 2px 12px;">Hot Job Postings</H2>
-<table cellpadding="2" cellspacing="0" border="0" summary="">
+<table cellpadding="2" cellspacing="0" border="0" summary="" style="margin-left: 12px;">
 <!--#include file="../../hot_jobs.asp"-->
 </table>
 <br><br>
