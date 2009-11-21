@@ -7,8 +7,8 @@
 <span class='auraltext'>
 <h2 style="margin: 0px 0px 0px 12px; ">Important information on applying for positions</h2>
 You are encouraged to complete the online application, however if you have difficulty, you should:
-<li /> Email your resume to <a href="mailto:bac@sosolutions.com">bac@sosolutions.com</a>
-<li /> In the Subject Line of your email, include "Source Internet/Bank of America Careers" and the specific position number found at the top of the job posting
+<li /> Email your resume to <a href="mailto:bac@resume.bankofamerica.com">bac@resume.bankofamerica.com</a>
+<li /> In the Subject Line of your email, include "Bank of America Careers/Bank of America Careers" and the specific position number found at the top of the job posting
 </span>
           
     <table border="0" cellpadding="0" cellspacing="0" summary="" width="100%">
