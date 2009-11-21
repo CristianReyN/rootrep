@@ -373,4 +373,24 @@ public class Jobs
         }
         return ShowButton;
     }
+
+	public OleDbDataReader JobDetailsDR(string JobId)
+	{
+		OleDbDataReader rdr;
+		OleDbConnection con = new OleDbConnection(constring);
+		con.Open();
+		try
+		{
+			OleDbCommand cmd = new OleDbCommand("Sp_Career_Sites_JobDetails ", con);
+			cmd.CommandType = CommandType.StoredProcedure;
+			cmd.Parameters.AddWithValue("@jobid", JobId);
+			cmd.Connection = con;
+			rdr = cmd.ExecuteReader();
+			return rdr;
+		}
+		catch (Exception ex)
+		{
+			throw ex;
+		}
+	}
 }
