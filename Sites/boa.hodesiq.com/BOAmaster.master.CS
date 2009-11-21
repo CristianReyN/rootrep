@@ -16,10 +16,22 @@ public partial class BOAmaster : System.Web.UI.MasterPage
 {
     protected void Page_Load(object sender, EventArgs e)
     {
+        this.ltrlCorremetrixScripts.Text = "";
         if (Request.ServerVariables["SCRIPT_NAME"].IndexOf("jobsearch.aspx", StringComparison.CurrentCultureIgnoreCase) > 0)
         {
             this.metadescription.Attributes["content"] = "Main page for job search functionality for careers site.";
 			this.Page.Title = "Bank of America | Career | Guided Job Search";
+
+            this.ltrlCorremetrixScripts.Text = "<!-- BEGIN COREMETRICS SUPPORT -->" + System.Environment.NewLine;
+            this.ltrlCorremetrixScripts.Text += "<script language='javascript1.1' src='/coremetrics/v40/eluminate.js'  type='text/javascript'></script>" + System.Environment.NewLine;
+            this.ltrlCorremetrixScripts.Text += "<script language='javascript1.1' src='/coremetrics/cmdatatagutils.js' type='text/javascript'></script>" + System.Environment.NewLine;
+            this.ltrlCorremetrixScripts.Text += "<script language='javascript1.1' type='text/javascript'>" + System.Environment.NewLine;
+            this.ltrlCorremetrixScripts.Text += "<!—" + System.Environment.NewLine;
+            this.ltrlCorremetrixScripts.Text += "cmSetProduction();" + System.Environment.NewLine;
+            this.ltrlCorremetrixScripts.Text += "cmCreatePageviewTag('Career | Guided Job Search', null, null, 'career:jobsearch');" + System.Environment.NewLine;
+            this.ltrlCorremetrixScripts.Text += "//-->" + System.Environment.NewLine;
+            this.ltrlCorremetrixScripts.Text += "</script>" + System.Environment.NewLine;
+            this.ltrlCorremetrixScripts.Text += "<!-- END COREMETRICS -->" + System.Environment.NewLine;
         }
         else if (Request.ServerVariables["SCRIPT_NAME"].IndexOf("AdvanceSearch.aspx", StringComparison.CurrentCultureIgnoreCase) > 0)
         {
