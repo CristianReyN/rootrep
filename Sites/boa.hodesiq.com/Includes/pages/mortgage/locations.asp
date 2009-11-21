@@ -34,7 +34,8 @@
 		<td style="background : url(../../images/loc/loc_l.gif);">
 			<img src="../../images/clear.gif" width="8" height="400" alt=""></td>
 		<td align="center">
-		<H2 class="cfth" style="margin: 0px 0px 9px 0px; width: 100%; text-align: left;">Select location</H2>
+		<a class="hide-tab" href="<%=ada_href%>" onFocus="hover(this,'show-tab');" onblur="hover(this,'hide-tab');" title="Access non-flash version of Locations">Access non-flash version of Locations</a>
+		<H2 class="cfth" style="margin: 0px 0px 9px 0px; width: 100%; text-align: left;">Select a state</H2>
 <script language="JavaScript1.2" src="../../Includes/pages/mortgage/mortgage.js" type="text/javascript"></script>
 <script language="JavaScript1.2" type="text/javascript">
 if ( hasRequestedVersion) {
@@ -49,11 +50,11 @@ if ( hasRequestedVersion) {
 <object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0" width="350" height="400" id="locflash" align="middle">
 	<param name="wmode" value="transparent" />
 	<param name="allowScriptAccess" value="always" />
-	<param name="movie" value="../Includes/pages/mortgage/BoA_Locations_001.swf"  />
+	<param name="movie" value="../Includes/pages/mortgage/BoA_Locations.swf"  />
 	<param name="quality" value="high" />
 	<param name="bgcolor" value="#ffffff" />
 	<param name="loop" value="false" />
-	<embed src="../Includes/pages/mortgage/BoA_Locations_001.swf" quality="high" bgcolor="#ffffff" width="350" height="400" alt="" name="locflash" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer"  wmode="transparent" swLiveConnect="true" loop="false"></embed>
+	<embed src="../Includes/pages/mortgage/BoA_Locations.swf" quality="high" bgcolor="#ffffff" width="350" height="400" alt="" name="locflash" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer"  wmode="transparent" swLiveConnect="true" loop="false"></embed>
 </object>
 </noscript>
 		</td>
@@ -75,6 +76,7 @@ if ( hasRequestedVersion) {
 <p class="bacg">We are committed to providing a broad suite of products that are focused on Bringing Opportunity Home for those we serve.  We are also committed to hiring the best talent to meet the needs of our ever-growing customer base.</p>
 <br><img src="../../images/clear.gif" width="10" height="12" alt="" border="0" /><br>
 <p class="bacg">To view Mortgage opportunities, use the USA Guided Job Search.</p>
+<a class="hide-tab" href="<%=standart_href%>" title="Return to standard page with flash">Return to standard page with flash</a>
 <% End If %>
 <br><br>
 				</td>

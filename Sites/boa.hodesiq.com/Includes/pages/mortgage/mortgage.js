@@ -343,11 +343,11 @@ mortgage_video = new fvideo(
 locations_flash = '<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0" width="350" height="400" id="locflash" align="middle">';
 locations_flash += '<param name="wmode" value="transparent" />';
 locations_flash += '<param name="allowScriptAccess" value="always" />';
-locations_flash += '<param name="movie" value="../Includes/pages/mortgage/BoA_Locations_001.swf"  />';
+locations_flash += '<param name="movie" value="../Includes/pages/mortgage/BoA_Locations.swf"  />';
 locations_flash += '<param name="quality" value="high" />';
 locations_flash += '<param name="bgcolor" value="#ffffff" />';
 locations_flash += '<param name="loop" value="false" />';
-locations_flash += '<embed src="../Includes/pages/mortgage/BoA_Locations_001.swf" quality="high" bgcolor="#ffffff" width="350" height="400" alt="" name="locflash" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer"  wmode="transparent" swLiveConnect="true" loop="false"><\/embed>';
+locations_flash += '<embed src="../Includes/pages/mortgage/BoA_Locations.swf" quality="high" bgcolor="#ffffff" width="350" height="400" alt="" name="locflash" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer"  wmode="transparent" swLiveConnect="true" loop="false"><\/embed>';
 locations_flash += '<\/object>';
 
 function getVideo(video,w,h,na_me,alt)
