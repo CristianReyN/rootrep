@@ -19,7 +19,7 @@ If Request("t") <> "" Then tab = Request("t")
 			<tr valign="top">
 				<td width="393" height="100%" valign="top" style="<%=middle_content_padding%>">
 <h2 class="bach">Choose. Connect. Grow.</h2>
-<p class="bac" style="margin-bottom: 12px;">We're ready when you are. Once you've taken a look at our <a href="explore_careers.asp" class="bac" title="Explore Careers">programs</a> and have found a good fit, this is the place to start the application process. Remember to also check our <a href="CampusEvents.aspx" class="bac" title="Campus Events">campus events listings</a> to see when our recruiters will be coming your way. We'd love to meet you.</p>
+<p class="bac" style="margin-bottom: 12px;">We're ready when you are. Once you've taken a look at our <a href="explore_careers.asp" class="bac" title="Explore Careers">programs</a> and have found a good fit, this is the place to start the application process. Remember to also check our <a href="../CampusEvents.aspx" class="bac" title="Campus Events">campus events listings</a> to see when our recruiters will be coming your way. We'd love to meet you.</p>
 <script language="JavaScript1.2" src="../includes/tab.js" type="text/javascript"></script>
 <script language="JavaScript" type="text/javascript">
 var tabs = new Array(), pageId = "<%=pageId%>", categoryId = "<%=categoryId%>";
