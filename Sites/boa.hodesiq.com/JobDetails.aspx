@@ -113,5 +113,4 @@
         </tr>
     </table>
 <asp:label id="lblMessage" runat="server"></asp:label>
-<a >Apply Now</a>
 </asp:Content>
