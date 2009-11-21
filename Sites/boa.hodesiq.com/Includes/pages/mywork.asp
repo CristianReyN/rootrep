@@ -5,7 +5,7 @@
 
 <div id="Layer1" style="position: relative; z-index: 12;">		
 <img class="dotdiv" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
-<p style="margin: 0px;">Bank of America is committed to offering work place options that enhances associate satisfaction, the ability to competitively attract and retain associates and meet our business needs. We are also committed to environmental leadership in our communities. By reducing associate commutes and developing satellite buildings that are environmentally friendly, we are able to reduce fuel consumption and greenhouse gas emissions across the country.
+<p style="margin: 0px;">Bank&nbsp;of&nbsp;America is committed to offering work place options that enhances associate satisfaction, the ability to competitively attract and retain associates and meet our business needs. We are also committed to environmental leadership in our communities. By reducing associate commutes and developing satellite buildings that are environmentally friendly, we are able to reduce fuel consumption and greenhouse gas emissions across the country.
 <br><br>
 Through our commitment to provide associates and their managers more flexibility in when and where to do business, My Work:
 </p>
@@ -31,9 +31,9 @@ Industry (Research) Quote -
 <p style="margin: 0px;">
 Associate Quotes -
 <br>
-<i>"Simply put the work at home program is what I consider "priceless", it has allowed me to better my quality of work life, increase my overall productivity, become more responsive to my clients and to have a true love and greater satisfaction for my work and the Bank of America organization, that I'm so proud to be part of."</i>
+<i>"Simply put the work at home program is what I consider "priceless", it has allowed me to better my quality of work life, increase my overall productivity, become more responsive to my clients and to have a true love and greater satisfaction for my work and the Bank&nbsp;of&nbsp;America organization, that I'm so proud to be part of."</i>
 </p>
-<img class="dotdiv" style="margin: 9px 0px 5px 0px;" src="../images/clear.gif" width="100%" height="1" alt="" border="0">s
+<img class="dotdiv" style="margin: 9px 0px 5px 0px;" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
 
 <br><br>
 <!-- #include file="../worklifenav.asp" -->
