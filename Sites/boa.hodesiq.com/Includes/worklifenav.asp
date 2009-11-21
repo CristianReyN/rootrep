@@ -1,5 +1,10 @@
 	<%	href_pre = ""
 		If page_section <> "ADA" Then href_pre = "../learnmore/" %>
+<%	If tpage = "flexibleworkarrangements" Or tpage = "timeoff" Or tpage = "mywork" Then %>
+<p style="margin: 12px 0px 0px 0px;">
+<a href="<%Response.write href_pre%>lifemanagement.asp" class="bacb" title="Life Management Benefits">Life Management Benefits</a>
+</p>
+<%	End If %>
 <%	If tpage = "timeoff" Then %>
 <p style="margin: 12px 0px 0px 0px;">
 <a href="<%Response.write href_pre%>mywork.asp" class="bacb" title="My Work &reg;">My Work<span style="font-size: 0.8em; position: relative; top: -0.6em;">&reg;</span></a>

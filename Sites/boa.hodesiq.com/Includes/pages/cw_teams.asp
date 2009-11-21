@@ -20,7 +20,7 @@
 <br><img src="../images/clear.gif" width="10" height="12" alt="" border="0" /><br>
 <H2 class="bacg">Project Management</H2><p class="bacg">&nbsp;leads all projects to build new space and buildings and upgrade existing space including the management of projects executed by outsourced support partners.</p>
 <br><img src="../images/clear.gif" width="10" height="12" alt="" border="0" /><br>
-<H2 class="bacg">Transactions &amp; Investments</H2><p class="bacg">&nbsp;is responsible for the acquisition and disposition of space within our Administrative portfolio as well as leasing and subleasing office space to tenants in its owned and leased facilities. In addition, this group oversees the sale of real estate assets, and acts as the point-of-contact of any real estate joint ventures related Bank&nbsp;of&nbsp;America.</p>
+<H2 class="bacg">Transactions &amp; Investments</H2><p class="bacg">&nbsp;is responsible for the acquisition and disposition of space within our Administrative portfolio as well as leasing and subleasing office space to tenants in its owned and leased facilities. In addition, this group oversees the sale of real estate assets, and acts as the point-of-contact of any real estate joint ventures related to Bank&nbsp;of&nbsp;America.</p>
 <br><img src="../images/clear.gif" width="10" height="12" alt="" border="0" /><br>
 <H2 class="bacg">Business Enablement Services Team</H2><p class="bacg">&nbsp;is engaged in the technology and operations of Corporate Workplace, including everything from lease administration and space management to technology and risk management.  The group is also responsible for the organization and management of Transition activities.</p>
 <br><img src="../images/clear.gif" width="10" height="12" alt="" border="0" /><br>
