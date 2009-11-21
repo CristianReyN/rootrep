@@ -412,20 +412,20 @@ alejandro_a4 = new fvideo("http://http.vitalstreamcdn.com/hodesgroup_vitalstream
 var andy_a1, andy_a2, andy_a3;
 andy_a1 = new fvideo("http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/DITL_TESTIMONIAL/swf/BOA_ANDY.swf",
 					"#answ1",
-					"../Includes/pages/lob/thumbnails/charles_on.jpg",
-					"../Includes/pages/lob/thumbnails/charles_on.jpg",
+					"../Includes/pages/lob/thumbnails/andy_on.jpg",
+					"../Includes/pages/lob/thumbnails/andy_on.jpg",
 					saulsberry_video
 					);
 andy_a2 = new fvideo("http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/DITL_TESTIMONIAL/swf/BOA_ANDY.swf",
 					"#answ2",
-					"../Includes/pages/lob/thumbnails/charles_on.jpg",
-					"../Includes/pages/lob/thumbnails/charles_on.jpg",
+					"../Includes/pages/lob/thumbnails/andy_on.jpg",
+					"../Includes/pages/lob/thumbnails/andy_on.jpg",
 					saulsberry_video
 					);
 andy_a3 = new fvideo("http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/DITL_TESTIMONIAL/swf/BOA_ANDY.swf",
 					"#answ3",
-					"../Includes/pages/lob/thumbnails/charles_on.jpg",
-					"../Includes/pages/lob/thumbnails/charles_on.jpg",
+					"../Includes/pages/lob/thumbnails/andy_on.jpg",
+					"../Includes/pages/lob/thumbnails/andy_on.jpg",
 					saulsberry_video
 					);
 
