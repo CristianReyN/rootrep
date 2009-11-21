@@ -90,8 +90,8 @@
                         <td style="height: 156px">
                             <asp:HyperLink ID="Jobcart" runat="server" CssClass="p" ToolTip="Add to Job Cart">Add to Job Cart</asp:HyperLink><br />
                             <br />
-                            <asp:Button  runat="server" cssclass="bodybtn" id="bsearch" text="View Job Cart"/><br/>
-                            <asp:Button runat="server" cssclass="bodybtn" id="apply" text="Apply Now"/>
+                            <asp:Button  runat="server" cssclass="bodybtn" id="bsearch" text="View Job Cart" OnClick="bsearch_Click"/><br/>
+                            <asp:Button runat="server" cssclass="bodybtn" id="apply" text="Apply Now" OnClick="apply_Click"/>
                         </td>
                     </tr>
                 </table>

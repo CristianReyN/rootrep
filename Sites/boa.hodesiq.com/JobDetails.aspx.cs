@@ -50,7 +50,16 @@ public partial class JobDetails : System.Web.UI.Page
     {
         Response.Redirect("Jobcart.aspx?SearchPage="+Request.QueryString["SearchPage"].ToString());
     }
+
     protected void applyTop_Click(object sender, EventArgs e)
+    {
+        Response.Redirect("Jobsearch.aspx?SearchPage=" + Request.QueryString["SearchPage"].ToString());
+    }
+    protected void bsearch_Click(object sender, EventArgs e)
+    {
+        Response.Redirect("Jobcart.aspx?SearchPage=" + Request.QueryString["SearchPage"].ToString());
+    }
+    protected void apply_Click(object sender, EventArgs e)
     {
         Response.Redirect("Jobsearch.aspx?SearchPage=" + Request.QueryString["SearchPage"].ToString());
     }

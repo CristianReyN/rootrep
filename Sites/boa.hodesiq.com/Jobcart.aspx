@@ -22,19 +22,19 @@
                                             <tr>
                                                 <td colspan="2" style="padding: 3px 0px 0px 0px;" valign="top" >
                                                     
-                                                    <asp:GridView ID="grdJobcart" runat="server" AutoGenerateColumns="false" Width="554px" BorderWidth="0" BorderStyle="none" AlternatingRowStyle-BorderStyle="None" RowStyle-BorderStyle="None">
-                                                        <RowStyle BackColor="#CADCEB"  BorderWidth="0" BorderStyle="none" />
-                                                        <AlternatingRowStyle BackColor="#EAF1F7"  />
+                                                    <asp:GridView ID="grdJobcart" runat="server" AutoGenerateColumns="false" Width="554px" BorderStyle="none" AlternatingRowStyle-BorderStyle="None" RowStyle-BorderStyle="None" AllowSorting="True">
+                                                        <RowStyle BorderStyle="None" CssClass="C1" />
+                                                        <AlternatingRowStyle BorderStyle="None" CssClass="C2"  />
                                                         <HeaderStyle BackColor="#EAF1F7"  />
                                                         <Columns>
-                                                            <asp:HyperLinkField DataNavigateUrlFields="JobsID" DataNavigateUrlFormatString="JobDetails.aspx?SearchPage=Sp&JobId={0}"
+                                                            <asp:HyperLinkField DataNavigateUrlFields="JobsID" DataNavigateUrlFormatString="JobDetails.aspx?SearchPage=Sp&amp;JobId={0}"
                                                                 DataTextField="JobTitle" HeaderText="JobName">
                                                                 <HeaderStyle HorizontalAlign="Left" />
                                                             </asp:HyperLinkField>
                                                             <asp:BoundField DataField="Location" HeaderText="Location">
                                                                 <HeaderStyle HorizontalAlign="Left" />
                                                             </asp:BoundField>
-                                                            <asp:HyperLinkField DataNavigateUrlFields="JobsID" DataNavigateUrlFormatString="JobDetails.aspx?SearchPage=Sp&JobId={0}"
+                                                            <asp:HyperLinkField DataNavigateUrlFields="JobsID" DataNavigateUrlFormatString="JobDetails.aspx?SearchPage=Sp&amp;JobId={0}"
                                                                 HeaderText="Apply" Text="Apply">
                                                                 <HeaderStyle HorizontalAlign="Left" />
                                                             </asp:HyperLinkField>
