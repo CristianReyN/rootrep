@@ -220,8 +220,8 @@
                                                                 <label for="locations">
                                                                     City</label></b></p>
                                                         <asp:DropDownList ID="City" runat="server" tooltip ="Select a City" CssClass="left" Style="width: 100%;
-                                                            z-index: auto;">
-                                                            <asp:ListItem Value="">All Locations&nbsp;</asp:ListItem>
+                                                            z-index: auto;" TabIndex="2">
+                                                            <asp:ListItem>All Locations&#160;</asp:ListItem>
                                                         </asp:DropDownList>
                                                     </td>
                                                     <td style="padding: 0px 0px 0px 6px; width: 50%" valign="top">
@@ -229,8 +229,8 @@
                                                             <b>
                                                                 <label for="jfamily">
                                                                     Job Family</label></b></p>
-                                                        <asp:ListBox ID="jfamily" Cssclass="left" tooltip="Select Family" Style="width: 100%; z-index: auto;" runat="server" SelectionMode="Multiple">
-                                                            <asp:ListItem value="">Job Family&nbsp;</asp:ListItem>
+                                                        <asp:ListBox ID="jfamily" Cssclass="left" tooltip="Select Family" Style="width: 100%; z-index: auto;" runat="server" SelectionMode="Multiple" TabIndex="1">
+                                                            <asp:ListItem>Job Family&#160;</asp:ListItem>
                                                         </asp:ListBox>
                                                     </td>
                                                 </tr>
@@ -240,8 +240,8 @@
                                                             <b>
                                                                 <label for="locations">
                                                                     State</label></b></p>
-                                                        <asp:DropDownList id="State" CssClass="left" tooltip="Select a State" style="width: 100%; z-index: auto;" runat="server">
-                                                            <asp:ListItem value="">All Locations&nbsp;</asp:ListItem>
+                                                        <asp:DropDownList id="State" CssClass="left" tooltip="Select a State" style="width: 100%; z-index: auto;" runat="server" TabIndex="3">
+                                                            <asp:ListItem>All Locations&#160;</asp:ListItem>
                                                         </asp:DropDownList>
                                                     </td>
                                                     <td style="padding: 0px 0px 0px 6px; width: 50%;" valign="top">
@@ -249,23 +249,22 @@
                                                             <b>
                                                                 <label for="keywords">
                                                                     Keywords</label></b></p>
-                                                        <asp:TextBox ID="keywords" runat="server" CssClass="left" tooltip="Keywords" Style="width: 100%;size:20">
-                                                        </asp:TextBox>
+                                                        <asp:TextBox ID="keywords" runat="server" CssClass="left" tooltip="Keywords" Style="width: 100%;size:20" TabIndex="4"></asp:TextBox>
                                                     </td>
                                                 </tr>
                                                 <tr>
                                                     <td style="padding: 0px 12px 0px 12px;">
                                                         &nbsp;</td>
                                                     <td align="right" valign="top">
-                                                        <input id="bsearch" class="bodybtn" type="submit" value="Begin Search" />
+                                                        <input id="bsearch" class="bodybtn" type="submit" value="Begin Search" tabindex="5" />
                                                     </td>
                                                 </tr>
                                                 <tr>
                                                     <td style="padding: 0px 12px 0px 12px;">
                                                         &nbsp;</td>
                                                     <td align="right" valign="top">
-                                                        <a class="sblnk" href="jobcart.aspx" title="View Job Cart">View Job Cart</a>&nbsp;&nbsp;&nbsp;&nbsp;<a
-                                                            class="sblnk" href="AdvanceSearch.aspx" title="Advanced Search">Advanced Search</a>
+                                                        <a class="sblnk" href="jobcart.aspx" title="View Job Cart" tabindex="6">View Job Cart</a>&nbsp;&nbsp;&nbsp;&nbsp;<a
+                                                            class="sblnk" href="AdvanceSearch.aspx" title="Advanced Search" tabindex="7">Advanced Search</a>
                                                     </td>
                                                 </tr>
                                             </table>

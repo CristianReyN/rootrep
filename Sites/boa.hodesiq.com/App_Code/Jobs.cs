@@ -46,7 +46,7 @@ public class Jobs
     public DataTable Language()
     {
         Sql = string.Empty;
-        Sql = "select Language_requirements from Jobs";
+        Sql = "select distinct Language_requirements from Jobs";
         DBUtils db = new DBUtils();
         return db.GetDataTable(Sql);
 
