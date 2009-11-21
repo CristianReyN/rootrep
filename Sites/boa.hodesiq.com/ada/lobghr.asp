@@ -6,11 +6,18 @@ spage = "lobcss"
 tpage = "lobghr"
 standart_href = "../learnmore/lobghr.asp"
 job_search_action = "../jobsearch/searchresult.asp"
-Metatag="Information is available on this page discussing the lines of business within Bank of America and a link to the values of the organization."
+Metatag="Human Resource is one area of talent for careers at Bank of America. From this page you can listen to an associate, see hot job opportunities, and click to positions in human resources, learning & organizational effectiveness."
 page_self = "../ada/lobghr.asp"
 page_section="ADA"
 Dim flashPage
 flashPage = false
+Dim subtitle
+subtitle="Global Human Resources"
+
+'****************************** ADDED FOR HOT JOB OPENING***************************
+Dim talentid,rowcount
+talentid=5 
+rowcount=6
 %>
 <!-- Header -->
 <!-- #include file="header.asp" -->

@@ -22,7 +22,7 @@ The role of a communications expert is critical in proactively shaping a company
 		<table width="578" height="100%" cellpadding="0" cellspacing="0" border="0" summary="">
 			<tr valign="top">
 				<td width="386" height="100%" valign="top" style="padding: 0px 5px 0px 12px;">
-<H2 style="margin: 12px 0px 2px 0px;">Hot Job Postings</H2>
+<H2 class="h2" style="margin: 12px 0px 2px 0px;">Hot Job Postings</H2>
 <table cellpadding="2" cellspacing="0" border="0" summary="">
 <!--#include file="../../hot_jobs.asp"-->
 </table>

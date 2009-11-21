@@ -6,11 +6,15 @@ spage = "lobgcsbb"
 tpage = "lobnbcc"
 standart_href = "../learnmore/lobnbcc.asp"
 job_search_action = "../jobsearch/searchresult.asp"
-Metatag="Information is available on this page discussing the lines of business within Bank of America and a link to the values of the organization."
+Metatag="Customer Care is one area of talent for careers at Bank of America. From this page you can listen to an associate, see hot job opportunities, and click to positions in relationship management and customer service."
 page_self = "../ada/lobnbcc.asp"
 page_section="ADA"
 Dim flashPage
 flashPage = false
+'****************************** ADDED FOR HOT JOB OPENING***************************
+Dim talentid,rowcount
+talentid=2 
+rowcount=6
 %>
 <!-- Header -->
 <!-- #include file="header.asp" -->

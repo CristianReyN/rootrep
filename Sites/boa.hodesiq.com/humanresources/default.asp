@@ -3,9 +3,11 @@ Dim title, mpage, spage, ada_href, ada_title, flash, Metatag
 title = "Bank of America | Career | Global Human Resources"
 mpage = "areasoftalent"
 spage = "humanresources"
+
 ada_href = "../ada/humanresources.asp"
 page_self = "../humanresources/default.asp"
 ada_title = "Bank of America | Career | Global Human Resources"
+job_search_action = "../jobsearch/searchresult.asp"
 Dim flashPage
 flashPage = false
 Dim subtitle

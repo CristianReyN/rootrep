@@ -5,11 +5,15 @@ mpage = "lob"
 spage = "lobgto"
 standart_href = "../learnmore/lobgto.asp"
 job_search_action = "../jobsearch/searchresult.asp"
-Metatag="Information is available on this page discussing the lines of business within Bank of America and a link to the values of the organization."
+Metatag="Technology is one area of talent for careers at Bank of America. From this page you can listen to an associate, see hot job opportunities, and click to positions in technology."
 page_self = "../ada/lobgto.asp"
 page_section="ADA"
 Dim flashPage
 flashPage = false
+'****************************** ADDED FOR HOT JOB OPENING***************************
+Dim talentid,rowcount
+talentid=9 
+rowcount=6
 %>
 <!-- Header -->
 <!-- #include file="header.asp" -->

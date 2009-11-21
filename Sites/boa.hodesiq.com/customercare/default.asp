@@ -3,15 +3,16 @@ Dim title, mpage, spage, ada_href, ada_title, flash, Metatag
 title = "Bank of America | Career | Customer Care"
 mpage = "areasoftalent"
 spage = "customercare"
+
 ada_href = "../ada/customercare.asp"
 page_self = "../customercare/default.asp"
 ada_title = "Bank of America | Career | Customer Care"
+job_search_action = "../jobsearch/searchresult.asp"
 Dim flashPage
 flashPage = false
 Dim subtitle
 subtitle="Customer Care"
 Metatag="Customer Care is one area of talent for careers at Bank of America. From this page you can listen to an associate, see hot job opportunities, and click to positions in relationship management and customer service."
-
 '****************************** ADDED FOR HOT JOB OPENING***************************
 Dim talentid,rowcount
 talentid=2 

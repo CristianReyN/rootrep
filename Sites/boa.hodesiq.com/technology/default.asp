@@ -6,6 +6,7 @@ spage = "technology"
 ada_href = "../ada/technology.asp"
 page_self = "../technology/default.asp"
 ada_title = "Bank of America | Career | Technology"
+job_search_action = "../jobsearch/searchresult.asp"
 Dim flashPage
 flashPage = false
 Dim subtitle
