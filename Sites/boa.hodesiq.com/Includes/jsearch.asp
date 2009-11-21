@@ -88,7 +88,7 @@ JobFamily(12)="F-Finance"
 JobFamily(13)="D-Credit"
 JobFamily(14)="I-Investment Banking"
 JobFamily(15)="W-Wealth & Investment Mgmt"
-JobFamily(16)="P-Human Resource"
+JobFamily(16)="P-Human Resources"
 JobFamily(17)="O-Operations"
 JobFamily(18)="K-Risk Evaluation"
 JobFamily(19)="S-Sales"
@@ -103,7 +103,7 @@ JobFamily(22)="V-VA-International Contractor"
 	<option value="2"<%If areasoftalent="2" Then Response.write " selected"%>>Customer Care&nbsp;</option>
 	<option value="3"<%If areasoftalent="3" Then Response.write " selected"%>>Communications&nbsp;</option>
 	<option value="4"<%If areasoftalent="4" Then Response.write " selected"%>>Finance&nbsp;</option>
-	<option value="5"<%If areasoftalent="5" Then Response.write " selected"%>>Human Resource&nbsp;</option>
+	<option value="5"<%If areasoftalent="5" Then Response.write " selected"%>>Human Resources&nbsp;</option>
 	<option value="6"<%If areasoftalent="6" Then Response.write " selected"%>>Operations&nbsp;</option>
 	<option value="7"<%If areasoftalent="7" Then Response.write " selected"%>>Risk Evaluation&nbsp;</option>
 	<option value="8"<%If areasoftalent="8" Then Response.write " selected"%>>Sales&nbsp;</option>
