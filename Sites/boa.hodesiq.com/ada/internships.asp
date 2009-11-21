@@ -7,7 +7,8 @@ job_search_action = "../jobsearch/searchresult.asp"
 Metatag="Detailed information on internship programs with Bank of America."
 page_self = "../ada/internships.asp"
 page_section="ADA"
-flash = false
+Dim flashPage
+flashPage = false
 %>
 <!-- Header -->
 <!-- #include file="header.asp" -->
@@ -23,7 +24,7 @@ flash = false
 	<td width="1"><img src="../images/clear.gif" width="1" height="1" alt="" border="0"></td>
 	<td width="11" class="divl"><img src="../images/clear.gif" width="10" height="1" alt="" border="0"></td>
 	<td valign="top" width="578" height="100%">
-<!-- Body--><a name="skipmaincontent"></a>
+<!-- Body-->
 <img src="../images/clear.gif" width="15" height="4" alt="" border="0"><br>
 <!-- #include file="../includes/pages/internships.asp" -->
 <br><br>

@@ -27,8 +27,8 @@ window.open(imnam,"pop","directory=no,height=450,width=500,toolbar=no,scrollbars
 	<td valign="top" colspan="4" height="71">
 		<table width="750" border="0" cellspacing="0" cellpadding="0" summary="">
 			<tr>
-				<td width="262" valign="top"><a name="top"></a><img src="../images/clear.gif" width="9" height="51" alt="" border="0" /><a href="http://www.bankofamerica.com" title="Bank of America  Higher Standards home page"><img src="../images/mhd_reg_logo.gif" width="250" height="69" alt="Bank of America Higher Standards home page" border="0" /></a></td>
-				<td width="232"><a href="http://www.bankofamerica.com/help/index.cfm?template=sitemap.cfm" title="Go to site map."><img src="../images/clear.gif" width="1" height="69" alt="Go to site map." border="0" /></a><a href="#skipnav" title="Skip global navigational links."><img src="../images/clear.gif" width="1" height="51" alt="Skip global navigational links." border="0" /></a><img src="../images/clear.gif" width="1" height="1" alt="" border="0" /></td>
+				<td width="262" valign="top"><a name="top"></a><a href="#skipmaincontent" title="Skip To Main Content."><img src="../images/clear.gif" width="1" height="69" alt="Skip To Main Content." border="0" /></a><img src="../images/clear.gif" width="10" height="69" alt="" border="0" /><a href="http://www.bankofamerica.com" title="Bank of America  Higher Standards home page"><img src="../images/mhd_reg_logo.gif" width="250" height="69" alt="Bank of America Higher Standards home page" border="0" /></a><a href="http://www.bankofamerica.com/help/index.cfm?template=sitemap.cfm" title="Go to site map."><img src="../images/clear.gif" width="1" height="69" alt="Go to site map." border="0" /></a></td>
+				<td width="232"><a href="#skipnav" title="Skip global navigational links."><img src="../images/clear.gif" width="1" height="69" alt="Skip global navigational links." border="0" /></a><img src="../images/clear.gif" width="1" height="69" alt="" border="0" /></td>
 				<td width="256" valign="bottom">
 					<table width="100%" border="0" cellspacing="0" cellpadding="0" summary="">
 						<tr>
@@ -83,10 +83,10 @@ create_button("Search","javascript:submit_search();","btn1",null,null,null,null)
 	<td width="160" style="background: #cadceb;"><img src="../images/clear.gif" width="160" height="1" alt="" border="0"></td>
 	<td width="1"><img src="../images/clear.gif" width="1" height="1" alt="" border="0"></td>
 	<td width="11"><img src="../images/clear.gif" width="11" height="1" alt="" border="0"></td>
-	<td width="578"><a name="skipnav"></a><a href="#skipmaincontent" title="Skip To Main Content."><img src="../images/clear.gif" width="1" height="1" alt="Skip To Main Content." border="0" /></a></td>
+	<td width="578"><a name="skipnav"></a></td>
 </tr>
 <tr valign="top">
 	<td id="tdtbnav" width="160" valign="top" align="center"><img src="../images/clear.gif" width="160" height="1" alt="" border="0"><br>
 		<table id="tbnav" width="160" cellpadding="0" cellspacing="0" border="0" summary="Site Navigation">
-			<tr valign="top" style="background: #cadceb;"><td valign="middle" height="10"><img src="../images/clear.gif" width="154" height="10" alt="" border="0"></td></tr>
-			<tr valign="top" style="background: #ffffff;"><td valign="middle"><img src="../images/white.gif" width="154" height="1" alt="" border="0"></td></tr>
+			<tr valign="top" style="background: #cadceb;"><td valign="top" height="10"><img src="../images/clear.gif" width="154" height="10" alt="" border="0"></td></tr>
+			<tr valign="top" style="background: #ffffff;"><td valign="top"><img src="../images/white.gif" width="154" height="1" alt="" border="0"></td></tr>

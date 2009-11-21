@@ -10,7 +10,7 @@
 						</tr>
 						<tr>
 							<td nowrap style="padding: 0px 6px 0px 12px;">
-<label for="areasoftalent"><p style="margin: 0px;">Areas of Talent</p></label>
+<label for="areasoftalent" class="p" style="margin: 0px;">Areas of Talent</label><br>
 <select name="areasoftalent" id="areasoftalent" style="position: relative; width: 100%;">
 	<option value="-1">All&nbsp;</option>
 <% 
@@ -24,7 +24,7 @@
 						</tr>
 						<tr>
 							<td colspan="2" nowrap style="padding: 0px 6px 0px 12px;">
-<label for="jfamily"><p style="margin: 0px;">Job Family</p></label>
+<label for="jfamily" class="p" style="margin: 0px;">Job Family</label><br>
 <select name="jfamily" id="jfamily" style="width: 100%;">
 <%
 	If areasoftalent <> "" Then
@@ -43,7 +43,7 @@
 						</tr>
 						<tr>
 							<td colspan="2" nowrap style="padding: 0px 6px 0px 12px;">
-<label for="stateid"><p style="margin: 0px;">Locations</p></label>
+<label for="stateid" class="p" style="margin: 0px;">Locations</label><br>
 <select name="stateid"  id="stateid" style="width: 100%; z-index: auto;">
 	<option value="-1">All&nbsp;</option>
 <% 
@@ -54,7 +54,7 @@
 						</tr>						
 						<tr>
 							<td colspan="2" nowrap style="padding: 0px 6px 0px 12px;">
-<p style="margin: 0px;"><label for="keywords">Keywords or Job Number (if known)</label></p>
+<label for="keywords" class="p" style="margin: 0px;">Keywords or Job Number (if known)</label><br>
 <input type="text" name="keywords" id="keywords" value="<%Response.write keywords%>" style="width: 217px;">
 							</td>
 						</tr>

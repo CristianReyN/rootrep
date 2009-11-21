@@ -7,7 +7,8 @@ job_search_action = "../jobsearch/searchresult.asp"
 Metatag="Sales is one area of talent for careers at Bank of America. From this page you can listen to an associate, see hot job opportunities, and click to positions in sales, consumer banking and technology."
 page_self = "../ada/sales..asp"
 page_section="ADA"
-flash = false
+Dim flashPage
+flashPage = false
 '****************************** ADDED FOR HOT JOB OPENING***************************
 Dim talentid,rowcount
 talentid=8 
@@ -27,7 +28,7 @@ rowcount=6
 	<td width="1"><img src="../images/clear.gif" width="1" height="1" alt="" border="0"></td>
 	<td width="11" class="divl"><img src="../images/clear.gif" width="10" height="1" alt="" border="0"></td>
 	<td valign="top" width="578" height="100%">
-<!-- Body--><a name="skipmaincontent"></a>
+<!-- Body-->
 <img src="../images/clear.gif" width="15" height="4" alt="" border="0"><br>
 <!-- #include file="../includes/pages/sales.asp" -->
 <br><br>

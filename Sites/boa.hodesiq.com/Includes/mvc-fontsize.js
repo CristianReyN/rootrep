@@ -74,8 +74,8 @@ function examineFontSize(ref)
 			//alert(newstr);
 			if (newstr < 10) multipleFontSize(1.1);
 			else if (newstr < 12) multipleFontSize(1.05);
-			else if (newstr > 15) multipleFontSize(0.85);
-			else if (newstr > 12) multipleFontSize(0.9);
+			else if (newstr > 15) multipleFontSize(0.9);
+			else if (newstr > 12) multipleFontSize(0.95);
 		}
 }
 
