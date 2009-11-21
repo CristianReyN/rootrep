@@ -71,9 +71,9 @@ End If
 </script>
 <table cellpadding="0" cellspacing="0" border="0" summary=""><tr><td>
 <div id="stopaudio">
-<% If flashPage Then %>
+<% 'If flashPage Then %>
 <a href="<%=ada_href %>" id="tonly" title="<%=textonly_version %>" class="auraltext"><%=textonly_version %></a>
-<% End If %>
+<% 'End If %>
 </div>
 </td></tr></table>
 
