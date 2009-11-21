@@ -12,7 +12,7 @@ using System.Data.SqlClient;
 using System.IO;
 
 
-public partial class _Default : System.Web.UI.Page 
+public partial class JobSearch : System.Web.UI.Page 
 {
     public int GlbLoadCheck;
     protected void Page_Load(object sender, EventArgs e)
