@@ -8,24 +8,27 @@
                 <table cellpadding="0" cellspacing="0" style="width: 100%" summary="">
                     <tr>
                         <td style="padding: 3px 0px 0px 0px; width: 70%" valign="top">
-                            <h2 style="margin: 0px;">
-                                Manage Your Job Cart</h2>
+                            <h1 style="margin: 0px 0px 0px 0px; ">
+                                Manage Your Job Cart</h1>
                         </td>
                         <td align="right" valign="top">
-                            <asp:HyperLink ID="SearchReturn" runat="server" CssClass="sblnk" ToolTip="Return to Search" NavigateUrl="JobSearch.aspx">Return to Search</asp:HyperLink>
+                            <asp:HyperLink ID="SearchReturn" runat="server" CssClass="sblnk" ToolTip="Return to search" NavigateUrl="JobSearch.aspx">Return to search</asp:HyperLink>
                         </td>
+                    </tr>
+                    <tr>
+						<td colspan="2"><br /><asp:Label runat="server" ID="lblNoResults" Visible="false" Text="Your job cart is empty." Font-Bold="true"></asp:Label></td>
                     </tr>
                     <tr>
                         <td colspan="2" style="padding: 3px 0px 0px 0px;" valign="top">
                             <asp:GridView ID="grdJobcart" runat="server" AutoGenerateColumns="false" Width="554px"
                                 BorderStyle="none" AlternatingRowStyle-BorderStyle="None" RowStyle-BorderStyle="None"
-                                AllowSorting="True" OnRowDataBound="grdJobcart_RowDataBound" >
-                                <RowStyle CssClass="C1" />
-                                <AlternatingRowStyle CssClass="C2" />
+                                AllowSorting="True" OnRowDataBound="grdJobcart_RowDataBound" BorderWidth="0px" EmptyDataText="Your job cart is empty." >
+                                <RowStyle CssClass="C1" BorderStyle="None" />
+                                <AlternatingRowStyle CssClass="C2" BorderStyle="None" />
                                 <HeaderStyle BackColor="#EAF1F7" />
                                 <Columns>
                                     <asp:HyperLinkField DataNavigateUrlFields="JobsID" DataNavigateUrlFormatString="JobDetails.aspx?SearchPage=Sp&amp;JobId={0}"
-                                        DataTextField="JobTitle" HeaderText="JobName">
+                                        DataTextField="JobTitle" HeaderText="Job name">
                                         <HeaderStyle HorizontalAlign="Left" />
                                     </asp:HyperLinkField>
                                     <asp:BoundField DataField="Location" HeaderText="Location">
@@ -47,8 +50,9 @@
                                     </asp:TemplateField>
                                 </Columns>
                                 <EmptyDataTemplate>
-                                    <b>There are no matching records found</b>
+                                    <b><span id="ctl00_cphmain_lblNoResults">Your job cart is empty.</span></b>
                                 </EmptyDataTemplate>
+								<EmptyDataRowStyle BorderColor="White" />
                             </asp:GridView>
                         </td>
                     </tr>

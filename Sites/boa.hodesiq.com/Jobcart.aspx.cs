@@ -42,19 +42,24 @@ public partial class Jobcart : System.Web.UI.Page
             SearchReturn.NavigateUrl = "AdvanceSearch.aspx";
         }
         HttpCookie MyCookie = Request.Cookies["JobCartID"];
-        if (MyCookie != null)
-        {
-            JobCartID = MyCookie.Value.ToString();
-            Jobs Jobs = new Jobs();
-            DataView DW = Jobs.RetrieveJobCart(JobCartID);
-            if (DW.Count > 0)
-            {
+		if (MyCookie != null)
+		{
+			JobCartID = MyCookie.Value.ToString();
+			Jobs Jobs = new Jobs();
+			DataView DW = Jobs.RetrieveJobCart(JobCartID);
+			if (DW.Count > 0)
+			{
 				phRemove.Visible = true;
-            }
-            
-            grdJobcart.DataSource = DW;
-            grdJobcart.DataBind();
-        }
+
+			}
+
+			grdJobcart.DataSource = DW;
+			grdJobcart.DataBind();
+		}
+		else
+		{
+			lblNoResults.Visible = true;
+		}
     }
     
     protected void Remove_Click(object sender, EventArgs e)
