@@ -27,7 +27,7 @@ function startPs()
 		}
 	}
 	
-	
+if(document.getElementById("lnav")){
 	var elements = document.getElementById("lnav").getElementsByTagName("li");
 	for (var i=0; i<elements.length; i++)
 	{
@@ -42,9 +42,11 @@ function startPs()
 		{
 			elements[i].onmouseover=function() {
 				this.className+=" fover";
+				if(tdiv && (this.id=="areasoftalentli" || this.id=="learnmoreli"))tdiv(false);
 			}
 			elements[i].onmouseout=function() {
 				this.className=this.className.replace(new RegExp(" fover\\b"), "");
+				if(tdiv && (this.id=="areasoftalentli" || this.id=="learnmoreli"))tdiv(true);
 			}
 			
 			lia = elements[i].getElementsByTagName("a");
@@ -62,14 +64,19 @@ function startPs()
 					this.className=this.baseClassName+'-over';
 					this.li.className+=" fover";
 					if(this.pli) this.pli.className+=" fover";
+					if(tdiv && this.li && (this.li.id=="areasoftalentli" || this.li.id=="learnmoreli"))tdiv(false);
+					if(tdiv && this.pli && (this.pli.id=="areasoftalentli" || this.pli.id=="learnmoreli"))tdiv(false);
 				}
 				lia[0].onblur=function() {
 					this.className=this.baseClassName;
 					this.li.className=this.li.className.replace(new RegExp(" fover\\b"), "");
 					if(this.pli) this.pli.className=
 						this.pli.className.replace(new RegExp(" fover\\b"), "");
+					if(tdiv && this.li && (this.li.id=="areasoftalentli" || this.li.id=="learnmoreli"))tdiv(true);
+					if(tdiv && this.pli && (this.pli.id=="areasoftalentli" || this.pli.id=="learnmoreli"))tdiv(true);
 				}
 			}
 		}
 	}
+}
 }

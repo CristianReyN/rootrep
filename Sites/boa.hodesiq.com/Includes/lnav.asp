@@ -7,7 +7,7 @@
 		<li<% if mpage = "jobsearch" then Response.Write " style=""background: #eaf1f7;""" end if %>>
 <div><a class="g" href="../jobsearch.aspx" title="Job Search" onfocus="this.className='g-over';" onblur="this.className='g';">Job Search</a></div>
 		</li>
-		<li<% if mpage = "areasoftalent" then Response.Write " class=""home""" end if %>>
+		<li id="areasoftalentli"<% if mpage = "areasoftalent" then Response.Write " class=""home""" end if %>>
 <div><a class="g" href="../areasoftalent/areasoftalent.asp" id="areasoftalent" title="Job Areas" onfocus="this.className='g-over';" onblur="this.className='g';">Job Areas</a>
 <%
 	If mpage = "areasoftalent" Then
@@ -18,7 +18,7 @@
 %>
 </div>
 		</li>
-		<li<% if mpage = "learnmore" then Response.Write " class=""home""" end if %>>
+		<li id="learnmoreli"<% if mpage = "learnmore" then Response.Write " class=""home""" end if %>>
 <div><a class="g" href="../learnmore/learnmore.asp" id="learnmore" title="Related Information" onfocus="this.className='g-over';" onblur="this.className='g';">Related Information</a>
 <%
 	If mpage = "learnmore" Then

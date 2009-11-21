@@ -1,0 +1,236 @@
+<%@ Master Language="C#" CodeFile="BOAmaster.master.CS"  Inherits="BOAmaster" %>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta http-equiv="content-type" content="text/html; charset=iso-8859-1">
+    <meta name="Description" content="" runat="server" id="metadescription"> 
+<title>Bank of America | Career | Job Search</title>
+<link rel="stylesheet" href="includes/styles.css" type="text/css">
+<link rel="stylesheet" href="Includes/hs_safebutton.css" type="text/css">
+<script language="JavaScript1.2" src="includes/masthead.js" type="text/javascript"></script>
+<script language="JavaScript1.2" src="includes/mvc-fontsize.js" type="text/javascript"></script>
+<script language="JavaScript1.2" src="includes/ps.js" type="text/javascript"></script>
+<script language="JavaScript1.2" src="includes/fixit.js" type="text/javascript"></script>
+<script language="javascript" type="text/javascript">
+//<!--
+function popup(imnam) { 
+window.open(imnam,"pop","directory=no,height=450,width=500,toolbar=no,scrollbars=yes,location=no,resizable=yes"); 
+}
+//-->
+</script>
+</head>
+<body id="body" onload="startPs(); fixIE();" onunload="">
+<asp:Literal ID="ltrlCorremetrixScripts" runat="server" Text="" ></asp:Literal>
+<script language="javascript" type="text/javascript">
+//<!--
+    examineFontSize("body");
+//-->
+</script>
+<table width="750" cellpadding="0" cellspacing="0" border="0" summary="">
+<tr>
+	<td valign="top" colspan="3" height="71">
+		<table width="750" border="0" cellspacing="0" cellpadding="0" summary="">
+			<tr>
+				<td width="262" valign="top"><a name="top"></a><a href="#skipmaincontent" title="Skip To Main Content."><img src="images/clear.gif" width="1" height="69" alt="Skip To Main Content." border="0" /></a><img src="images/clear.gif" width="10" height="69" alt="" border="0" /><a href="http://www.bankofamerica.com/" title="Bank of America home page"><img src="images/mhd_reg_logo.gif" width="250" height="69" alt="Bank of America home page" border="0" /></a><a href="http://www.bankofamerica.com/help/index.cfm?template=sitemap.cfm" title="Go to site map."><img src="images/clear.gif" width="1" height="69" alt="Go to site map." border="0" /></a></td>
+				<td width="232"><a href="#skipnav" title="Skip global navigational links."><img src="images/clear.gif" width="1" height="69" alt="Skip global navigational links." border="0" /></a></td>
+				<td width="256" valign="bottom">
+					<table width="100%" border="0" cellspacing="0" cellpadding="0" summary="">
+						<tr>
+							<td colspan="2" valign="bottom" align="right" nowrap>
+<a href="http://www.bankofamerica.com/" class="mh-link1" title="Home" onfocus="this.className='mh-link1-over';" onblur="this.className='mh-link1';">Home</a>&#160;<span class="linksep1">&#8226;</span>&#160;<a href="http://www.bankofamerica.com/findit/locator.cfm" class="mh-link1" title="Locations" onfocus="this.className='mh-link1-over';" onblur="this.className='mh-link1';">Locations</a>&#160;<span class="linksep1">&#8226;</span>&#160;<a href="overview/contact_us.asp" class="mh-link1" title="Contact Us" onfocus="this.className='mh-link1-over';" onblur="this.className='mh-link1';">Contact Us</a>&#160;<span class="linksep1">&#8226;</span>&#160;<a href="http://www.bankofamerica.com/help" class="mh-link1" title="Help" onfocus="this.className='mh-link1-over';" onblur="this.className='mh-link1';">Help</a>&#160;<span class="linksep1">&#8226;</span>&#160;<a href="http://www.bankofamerica.com/signin/" class="mh-link2" title="Sign In" onfocus="this.className='mh-link2-over';" onblur="this.className='mh-link2';">Sign In</a></td>
+						</tr>
+						<tr><td colspan="2"><img src="images/clear.gif" width="1" height="3" alt="" border="0" /></td></tr>
+						<tr>
+							<td width="5"><img src="images/mhd_5x5_search_corner.gif" alt="" width="5" height="5" border="0" /></td>
+							<td width="100%" class="mh-hline"><img src="images/clear.gif" width="100%" height="5" alt="" border="0" /></td>
+						</tr>
+						<tr align="right">
+							<td width="5" class="mh-vline"><img src="images/clear.gif" width="5" height="1" alt="" border="0" /></td>
+							<td width="100%" class="mh-hline-bkg" valign="bottom">
+<form method="post" action="http://www.bankofamerica.com/search/" style="margin: 0px;" name="SiteSearchForm" target="_parent">
+<input name="ui_mode" type="hidden" value="question" />
+								<table width="100%" border="0" cellspacing="0" cellpadding="0" summary="SearchBox">
+									<tr>
+										<td width="10"><img src="images/clear.gif" width="10" height="0" alt="" border="0" /><br /><span class="ada-search"><label for="question_box" class="ada-search" style="display: none;">Search</label></span></td>
+										<td width="100%" style="padding: 0px;">
+<input type="text" maxlength="75" class="searchbox" style="width: 100%;" id="question_box" name="question_box" value="" alt="Question or phrase to search." title="Get answers fast. Type in a question or phrase." /></td>
+										<td width="10"><img src="images/clear.gif" width="10" height="0" alt="" border="0" /></td>										<td width="60" valign="top" nowrap>
+<script src="Includes/hs_safebutton.js" language="JavaScript" type="text/javascript"></script>
+
+<script language="JavaScript" type="text/javascript">
+<!--
+create_safebutton("Search","javascript: submit_search();",0,0,0,0,"Search");
+//-->
+</script>
+<noscript><input name="Search" alt="Search" value="Search" title="Search" type="Submit"  class="btn"/></noscript>
+										</td>
+										<td width="4"><img src="images/clear.gif" width="4" height="0" alt="" border="0" /></td>
+									</tr>
+								</table>
+</form>
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2" class="mh-hline"><img src="images/clear.gif" width="1" height="5" alt="" border="0" /></td>
+    			<td class="mh-hline-bkg"><img src="images/clear.gif" width="1" height="5" alt="" border="0" /></td>
+			</tr>
+		</table>
+	</td>
+</tr>
+<tr>
+	<td colspan="4" style="background: #d4100a;" width="750" valign="top">
+<img src="images/careers.gif" width="76" height="25" alt="Bank of America | Career" title="Bank of America | Career" border="0" /></td>
+</tr>
+<tr>
+	<td width="160" style="background: #cadceb;"><img src="images/clear.gif" width="160" height="1" alt="" border="0" /></td>
+	<td width="12"><img src="images/clear.gif" width="12" height="1" alt="" border="0" /></td>
+	<td width="578"><a name="skipnav"></a></td>
+</tr>
+<tr valign="top">
+	<td id="tdtbnav" width="160" valign="top" align="center" style="background: #cadceb;"><img src="images/clear.gif" width="160" height="1" alt="" border="0" /><br />
+		<table id="tbnav" width="160" cellpadding="0" cellspacing="0" border="0" summary="">
+			<tr valign="top"><td valign="top" height="2"><img src="images/clear.gif" width="154" height="2" alt="" border="0" /></td></tr>
+<!-- Header -->
+<!-- Left Nav -->
+<div id="lnav">
+	<ul>
+		<li>
+<div><a class="g" href="overview/overview.asp" title="Overview" onfocus="this.className='g-over';" onblur="this.className='g';">Overview</a></div>
+		</li>
+		<li style="background: #eaf1f7;">
+<div><a class="g" href="jobsearch.aspx" title="Job Search" onfocus="this.className='g-over';" onblur="this.className='g';">Job Search</a></div>
+		</li>
+		<li id="areasoftalentli">
+<div><a class="g" href="areasoftalent/areasoftalent.asp" id="areasoftalent" title="Job Areas" onfocus="this.className='g-over';" onblur="this.className='g';">Job Areas</a>
+			<ul id="jobareas">
+				<li>
+<div><a href="administration/" class="sbtxt" title="Administration" onfocus="this.className='sbtxt-over';" onblur="this.className='sbtxt';">Administration</a></div>
+				</li>
+				<li>
+<div><a href="customercare/" class="sbtxt" title="Customer Care" onfocus="this.className='sbtxt-over';" onblur="this.className='sbtxt';">Customer Care</a></div>
+				</li>
+				<li>
+<div><a href="communications/" class="sbtxt" title="Communications" onfocus="this.className='sbtxt-over';" onblur="this.className='sbtxt';">Communications</a></div>
+				</li>
+				<li>
+<div><a href="finance/" class="sbtxt" title="Finance" onfocus="this.className='sbtxt-over';" onblur="this.className='sbtxt';">Finance</a></div>
+				</li>
+				<li>
+<div><a href="humanresources/" class="sbtxt" title="Human Resources" onfocus="this.className='sbtxt-over';" onblur="this.className='sbtxt';">Human Resources</a></div>
+				</li>
+				<li>
+<div><a href="operations/" class="sbtxt" title="Operations" onfocus="this.className='sbtxt-over';" onblur="this.className='sbtxt';">Operations</a></div>
+				</li>
+				<li>
+<div><a href="riskevaluation/" class="sbtxt" title="Risk Evaluation" onfocus="this.className='sbtxt-over';" onblur="this.className='sbtxt';">Risk Evaluation</a></div>
+				</li>
+				<li>
+<div><a href="sales/" class="sbtxt" title="Sales" onfocus="this.className='sbtxt-over';" onblur="this.className='sbtxt';">Sales</a></div>
+				</li>
+				<li>
+<div><a href="technology/" class="sbtxt" title="Technology" onfocus="this.className='sbtxt-over';" onblur="this.className='sbtxt';">Technology</a></div>
+				</li>
+				<li>
+<div><a href="consumerbanking/" class="sbtxt" title="Consumer Banking" onfocus="this.className='sbtxt-over';" onblur="this.className='sbtxt';">Consumer Banking</a></div>
+				</li>
+			</ul>
+</div>
+		</li>
+		<li id="learnmoreli">
+<div><a class="g" href="learnmore/learnmore.asp" id="learnmore" title="Related Information" onfocus="this.className='g-over';" onblur="this.className='g';">Related Information</a>
+			<ul id="relinfo">
+				<li><div><a href="learnmore/benefitsadv.asp" class="sbtxt" title="Benefits and Advantages" onfocus="this.className='sbtxt-over';" onblur="this.className='sbtxt';">Benefits and advantages</a></div>
+				</li>
+				<li><div><a href="learnmore/diversity.asp" class="sbtxt" title="Diversity" onfocus="this.className='sbtxt-over';" onblur="this.className='sbtxt';">Diversity and inclusion</a></div>
+
+				</li>
+				<li><div><a href="learnmore/corpinfo.asp" class="sbtxt" title="Corporate Information" onfocus="this.className='sbtxt-over';" onblur="this.className='sbtxt';">Corporate information</a></div>
+				</li>
+				<li><div><a href="staffingevents/staffingprocess.asp" class="sbtxt" title="Our Staffing Process" onfocus="this.className='sbtxt-over';" onblur="this.className='sbtxt';">Our staffing process</a></div>
+				</li>
+				<li><div><a href="learnmore/collrecruiting.asp" class="sbtxt" title="College Recruiting" onfocus="this.className='sbtxt-over';" onblur="this.className='sbtxt';">College recruiting</a></div>
+				</li>
+				<li><div><a href="learnmore/globalloc.asp" class="sbtxt" title="Global Locations" onfocus="this.className='sbtxt-over';" onblur="this.className='sbtxt';">Global locations</a></div>
+				</li>
+			</ul>
+</div>
+		</li>
+		<li>
+<div><a class="g" href="staffingevents/staffingevents.asp" title="Staffing Events" onfocus="this.className='g-over';" onblur="this.className='g';">Staffing Events</a></div>
+		</li>
+		<li>
+<div><a class="g" href="faq/faq.asp" title="Frequently Asked Questions" onfocus="this.className='g-over';" onblur="this.className='g';">Frequently Asked Questions</a></div>
+		</li>
+	</ul>
+</div>
+</td></tr>
+<!-- Left Nav -->
+			<tr valign="top"><td height="30" style="background: #cadceb;" valign="bottom" align="right"><img src="images/clear.gif" width="154" height="1" alt="" border="0" /><br>
+			</td></tr>
+			<tr valign="top"><td height="50"><img src="images/clear.gif" width="154" height="1" alt="" border="0" />
+			</td></tr>
+			<tr valign="top"><td height="50"><img src="images/clear.gif" width="154" height="1" alt="" border="0" /></td></tr>
+		</table>
+<script language="javascript" type="text/javascript">
+//<!--
+function tdiv(tf)
+{
+    for(var i=1; i<=5; i++)
+		if(document.getElementById("d" + String(i)))
+		{
+			document.getElementById("d" + String(i)).style.display=tf==true?"inline":"none";
+		}
+}
+//-->
+</script>
+	</td>
+	<td width="12"><img src="images/clear.gif" width="12" height="1" alt="" border="0" /></td>
+	<td valign="top" width="578" height="100%">
+<!-- Body-->
+        <a id="skipmaincontent"></a>
+        <img alt="" height="4" src="images/clear.gif" width="15" /><br />
+		
+        <table border="0" cellpadding="0" cellspacing="0" summary="" width="578">
+            <tr valign="top">
+                <td valign="top">
+                    <img alt="" height="4" src="images/clear.gif" width="100%" /></td>
+            </tr>
+            <tr valign="top">
+				<td width="100%" valign="top">
+					<form runat="server" id="frm" style="margin:0px;">
+					<asp:ContentPlaceHolder ID="cphmain" runat="server">
+					</asp:ContentPlaceHolder>
+					</form>
+				</td>
+            </tr>
+        </table>
+        <br />
+        <br />
+<!-- Body-->
+
+	</td>
+</tr>
+</table>
+<!-- Footer -->
+<div class="hs-footer">
+<table width="749" border="0" cellspacing="0" cellpadding="0" summary="">
+	<tr><td colspan="3" style="background: #000000;"><img src="images/clear.gif" width="1" height="1" alt="" border="0" /></td></tr>
+	<tr><td colspan="3"><img src="images/clear.gif" width="1" height="3" alt="" border="0" /></td></tr>
+	<tr valign="top">
+
+		<td width="8"><img src="images/clear.gif" width="8" height="1" alt="" border="0" /></td>
+		<td valign="top"><a href="http://www.bankofamerica.com/privacy/" class="ftrlnk" onfocus="this.className='ftrlnk-over';" onblur="this.className='ftrlnk';" title="Privacy &amp; Security">Privacy &amp; Security</a>&nbsp;<span class="ftrtxt">|</span>&nbsp;<a href="http://www.bankofamerica.com/careers/" class="ftrlnk" onfocus="this.className='ftrlnk-over';" onblur="this.className='ftrlnk';" title="Careers">Careers</a>&nbsp;<span class="ftrtxt">|</span>&nbsp;<a href="http://www.bankofamerica.com/help/index.cfm?template=sitemap.cfm" class="ftrlnk" onfocus="this.className='ftrlnk-over';" onblur="this.className='ftrlnk';" title="Site Map">Site Map</a><br />
+		<img src="images/clear.gif" width="1" height="19" alt="" border="0" />
+		<div class="ftrtxt2">Bank of America, N.A. Member FDIC.
+		<a href="http://www.bankofamerica.com/help/equalhousing_popup.cfm" onclick="javascript:window.open('http://www.bankofamerica.com/help/equalhousing_popup.cfm','newwin','width=640,height=371,scrollbars=yes,resizable=yes,left=35,top=161'); return false;" target="_blank" class="ftrlnk" onfocus="this.className='ftrlnk-over';" onblur="this.className='ftrlnk';" title="Link opens Equal Housing Lender pop-up window">Equal Housing Lender</a><a href="http://www.bankofamerica.com/help/equalhousing_popup.cfm" onclick="javascript:window.open('http://www.bankofamerica.com/help/equalhousing_popup.cfm','newwin','width=640,height=371,scrollbars=yes,resizable=yes,left=35,top=161'); return false;" target="_blank" title="Link opens Equal Housing Lender pop-up window"><img src="images/house.gif" width="14" height="9" hspace="3" alt="Link opens Equal Housing Lender pop-up window" border="0" /></a><br />
+		&copy; 2007 Bank of America Corporation. All rights reserved.</div><br /></td>
+		<td align="right" width="131"><a href="http://www.bankofamerica.com/sponsorships/" title="Official Sponsor 2004-2008 U.S. Olympic Teams"><img src="images/foot_olympic.gif" alt="Official Sponsor 2004-2008 U.S. Olympic Teams" width="131" height="33" border="0" align="right" vspace="7" /></a></td>
+	</tr>
+</table>
+</div>
+</body>
+</html>
+<!-- Footer -->
