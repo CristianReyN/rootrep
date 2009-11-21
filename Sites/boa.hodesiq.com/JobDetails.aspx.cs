@@ -25,8 +25,10 @@ public partial class JobDetails : System.Web.UI.Page
 
     protected void Page_Load(object sender, EventArgs e)
     {
-       LnkRemoveFromJobCart.Visible = false;
-       LnkRemoveFromJobCart_bottom.Visible = false; 
+       //LnkRemoveFromJobCart.Visible = false;
+       //LnkRemoveFromJobCart_bottom.Visible = false;
+       bttnRemoveFromJobCart.Visible = false;
+       bttnRemoveFromJobCart_bottom.Visible = false;
 
         Jobs Jobs = new Jobs();
         DataTable dt = Jobs.JobDetails(Request.QueryString["JobId"].ToString());
@@ -51,18 +53,24 @@ public partial class JobDetails : System.Web.UI.Page
             ApplyURL = dt.Rows[0]["ApplyURL"].ToString();
             this.applylink.NavigateUrl = ApplyURL;
             this.applylnk.NavigateUrl = ApplyURL;
+            //bttnApplyNow.PostBackUrl = ApplyURL;
+            bttnApplyNow_bottom.PostBackUrl = ApplyURL;
         }
         if (Request.QueryString["SearchPage"].ToString() == "Sp")
         {
             returntoJobsearch.NavigateUrl = "jobsearch.aspx?" + Request.QueryString;
+            bttnJobList.PostBackUrl = "jobsearch.aspx?" + Request.QueryString;
         }
         else
         {
             returntoJobsearch.NavigateUrl = "AdvanceSearch.aspx?" + Request.QueryString;
+            bttnJobList.PostBackUrl = "AdvanceSearch.aspx?" + Request.QueryString;
         }
         TellaFriend.NavigateUrl = "Tell_a_friend.aspx?JobId=" + Request.QueryString["JobId"].ToString() + "&SearchPage=" + Request.QueryString["SearchPage"].ToString();
         //Jobcart.NavigateUrl = "jobcart.aspx?JobId=" + Request.QueryString["JobId"].ToString() +"&SearchPage="+Request.QueryString["SearchPage"].ToString();
         JobcartTop.NavigateUrl = "jobcart.aspx?JobId=" + Request.QueryString["JobId"].ToString() + "&SearchPage=" + Request.QueryString["SearchPage"].ToString();
+
+        bttnTellAFriend.PostBackUrl = "Tell_a_friend.aspx?JobId=" + Request.QueryString["JobId"].ToString() + "&SearchPage=" + Request.QueryString["SearchPage"].ToString();
 
         //check if this job is in the jobcart. If so, display remove Job Cart Link
         HttpCookie MyCookie = Request.Cookies["JobCartID"];
@@ -77,10 +85,15 @@ public partial class JobDetails : System.Web.UI.Page
                 {
                    if (strJobID == Row["JobsID"].ToString())
                     {
-                        LnkRemoveFromJobCart.Visible = true;
-                        LnkRemoveFromJobCart_bottom.Visible = true; 
-                        LnkAddJobCart.Visible = false;
-                        LnkAddJobCart_bottom.Visible = false;
+                        //LnkRemoveFromJobCart.Visible = true;
+                        //LnkRemoveFromJobCart_bottom.Visible = true; 
+                        //LnkAddJobCart.Visible = false;
+                        //LnkAddJobCart_bottom.Visible = false;
+
+                        bttnRemoveFromJobCart.Visible = true;
+                        bttnRemoveFromJobCart_bottom.Visible = true; 
+                        bttnAddToJobCart.Visible = false;
+                        bttnAddToJobCart_bottom.Visible = false;
 
                     }
                 }
@@ -166,5 +179,87 @@ public partial class JobDetails : System.Web.UI.Page
     protected void apply_Click(object sender, EventArgs e)
     {
         Response.Redirect("Jobsearch.aspx?SearchPage=" + Request.QueryString["SearchPage"].ToString());
+    }
+
+    protected void bttnAddToJobCart_Click(object sender, EventArgs e)
+    {
+        string GUID = "";
+
+        HttpCookie MyCookie = Request.Cookies["JobCartID"];
+        if (MyCookie == null)
+        {
+            GUID = Convert.ToString(Guid.NewGuid());
+            MyCookie = new HttpCookie("JobCartID", GUID);
+            Response.Cookies.Add(MyCookie);
+        }
+        else
+        {
+            GUID = MyCookie.Value.ToString();
+        }
+        Jobs Jobs = new Jobs();
+        DataView DW = Jobs.AddJobCart(GUID, Request.QueryString["JobId"].ToString());
+        //LnkAddJobCart.Visible = false;
+        //LnkAddJobCart_bottom.Visible = false;
+        //LnkRemoveFromJobCart.Visible = true;
+        //LnkRemoveFromJobCart_bottom.Visible = true;
+
+        bttnAddToJobCart.Visible = false;
+        bttnAddToJobCart_bottom.Visible = false;
+
+        bttnRemoveFromJobCart.Visible = true;
+        bttnRemoveFromJobCart_bottom.Visible = true;
+
+    }
+    protected void bttnRemoveFromJobCart_Click(object sender, EventArgs e)
+    {
+        string GUID = "";
+
+        HttpCookie MyCookie = Request.Cookies["JobCartID"];
+        if (MyCookie != null)
+        {
+            GUID = MyCookie.Value.ToString();
+        }
+        XmlDocument Document = new XmlDocument();
+        XmlElement Root, Element;
+
+        Root = Document.CreateElement("Root");
+        Document.AppendChild(Root);
+
+        Element = Document.CreateElement("JobCart");
+        Element.SetAttribute("JobID", Request.QueryString["JobId"].ToString());
+        Root.AppendChild(Element);
+
+
+        XmlDeclaration declaration = Document.CreateXmlDeclaration("1.0", "utf-8", null);
+        declaration.Encoding = "Windows-1252";
+        Document.InsertBefore(declaration, Document.DocumentElement);
+
+        Jobs Jobs = new Jobs();
+        DataView DW = Jobs.RemoveJobCart(GUID, Document.OuterXml);
+
+        Root.RemoveAll();
+        Document.RemoveAll();
+
+        //LnkAddJobCart.Visible = true;
+        //LnkAddJobCart_bottom.Visible = true;
+        //LnkRemoveFromJobCart.Visible = false;
+        //LnkRemoveFromJobCart_bottom.Visible = false;
+
+        bttnAddToJobCart.Visible = true;
+        bttnAddToJobCart_bottom.Visible = true;
+        bttnRemoveFromJobCart.Visible = false;
+        bttnRemoveFromJobCart_bottom.Visible = false;
+    }
+    protected void bttnApplyNow_Click(object sender, EventArgs e)
+    {
+        Response.Redirect(ApplyURL);
+    }
+    protected void bttnTellAFriend_Click(object sender, EventArgs e)
+    {
+        Response.Redirect("Tell_a_friend.aspx?JobId=" + Request.QueryString["JobId"].ToString() + "&SearchPage=" + Request.QueryString["SearchPage"].ToString());
+    }
+    protected void bttnJobList_Click(object sender, EventArgs e)
+    {
+        Response.Redirect(bttnJobList.PostBackUrl);
     }
 }

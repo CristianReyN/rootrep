@@ -36,12 +36,16 @@
                                 &nbsp;</p>
                         </td>
                         <td  style="padding: 18px 0px 0px 6px;" valign="top">
-                            <asp:LinkButton ID="LnkRemoveFromJobCart" runat="server" CssClass="p" Text="Remove from Job Cart" OnClick="LnkRemoveJobCart_OnClick"></asp:LinkButton>
+                            <!--<asp:LinkButton ID="LnkRemoveFromJobCart" runat="server" CssClass="p" Text="Remove from Job Cart" OnClick="LnkRemoveJobCart_OnClick"></asp:LinkButton>
                             <asp:LinkButton ID="LnkAddJobCart" runat="server" CssClass="p" Text="Add to Job Cart" OnClick="LnkAddJobCart_OnClick"></asp:LinkButton>
+                            -->
                             <asp:HyperLink ID="JobcartTop" runat="server" CssClass="p" ToolTip="Add to Job Cart" Visible="false">Add to Job Cart</asp:HyperLink><br />
                             <br />
-                            <asp:button runat="server" cssclass="bodybtn" id="bsearchTop" text="View Job Cart" OnClick="bsearchTop_Click"/><br/>
-                            <asp:HyperLink ID="applylnk" CssClass="p" runat="server" NavigateUrl="" Target="_blank" >Apply Now</asp:HyperLink>
+                            <asp:button runat="server" cssclass="bodybtn" id="bttnAddToJobCart" width="150" text="Add to Job Cart" OnClick="bttnAddToJobCart_Click" />
+                            <asp:button runat="server" cssclass="bodybtn" id="bttnRemoveFromJobCart" width="150" text="Remove from Job Cart" OnClick="bttnRemoveFromJobCart_Click"  />
+                            <asp:button runat="server" cssclass="bodybtn" id="bsearchTop" text="View Job Cart" width="150" OnClick="bsearchTop_Click"/><br/>
+                            <asp:button runat="server" cssclass="bodybtn" id="bttnApplyNow" width="150" text="Apply Now" OnClick="bttnApplyNow_Click" /><br/>
+                            <!--<asp:HyperLink ID="applylnk" CssClass="p" runat="server" NavigateUrl="" Target="_blank" >Apply Now</asp:HyperLink>-->
                         </td>
                     </tr>
                     <tr>
@@ -88,18 +92,25 @@
                     </tr>
                     <tr>
                         <td style="padding: 18px 6px 0px 0px; height: 156px;" valign="top">
+                        <asp:button runat="server" cssclass="bodybtn" id="bttnTellAFriend" width="150" text="Send this Job to a Friend" OnClick="bttnTellAFriend_Click" /><br />
+                        <asp:button runat="server" cssclass="bodybtn" id="bttnJobList" width="150" text="Return to Job List" OnClick="bttnJobList_Click"/>
+                           <!-- 
                             <asp:HyperLink ID="TellaFriend" runat="server" CssClass="p" ToolTip="Send this job to a friend">Send this job to a friend</asp:HyperLink><br />
                             <br />
                             <asp:HyperLink cssclass="p" ID="returntoJobsearch" runat="server" ToolTip="Return To Search Page">Return to Job List</asp:HyperLink><br/>
-                            
+                            -->
                         </td>
                         <td style="height: 156px">
-                            <asp:LinkButton ID="LnkRemoveFromJobCart_bottom" runat="server" CssClass="p" Text="Remove from Job Cart" OnClick="LnkRemoveJobCart_OnClick"></asp:LinkButton>
+                            <!--<asp:LinkButton ID="LnkRemoveFromJobCart_bottom" runat="server" CssClass="p" Text="Remove from Job Cart" OnClick="LnkRemoveJobCart_OnClick"></asp:LinkButton>
                             <asp:LinkButton ID="LnkAddJobCart_bottom" runat="server" CssClass="p" Text="Add to Job Cart" OnClick="LnkAddJobCart_OnClick"></asp:LinkButton>
+                            -->
                             <asp:HyperLink ID="Jobcart" runat="server" CssClass="p" ToolTip="Add to Job Cart" Visible="false">Add to Job Cart</asp:HyperLink><br />
                             <br />
-                            <asp:Button  runat="server" cssclass="bodybtn" id="bsearch" text="View Job Cart" OnClick="bsearch_Click"/><br/>
-                            <asp:HyperLink ID="applylink" CssClass="p" runat="server" NavigateUrl="" Target="_blank" >Apply Now</asp:HyperLink>
+                            <asp:button runat="server" cssclass="bodybtn" id="bttnAddToJobCart_bottom" width="150" text="Add to Job Cart" OnClick="bttnAddToJobCart_Click" />
+                            <asp:button runat="server" cssclass="bodybtn" id="bttnRemoveFromJobCart_bottom" width="150" text="Remove from Job Cart" OnClick="bttnRemoveFromJobCart_Click"  />
+                            <asp:Button  runat="server" cssclass="bodybtn" id="bsearch" text="View Job Cart" width="150" OnClick="bsearch_Click"/><br/>
+                            <asp:button runat="server" cssclass="bodybtn" id="bttnApplyNow_bottom" width="150" text="Apply Now" OnClick="bttnApplyNow_Click"/><br/>
+                            <!--<asp:HyperLink ID="applylink" CssClass="p" runat="server" NavigateUrl="" Target="_blank" >Apply Now</asp:HyperLink>-->
                         </td>
                     </tr>
                 </table>
