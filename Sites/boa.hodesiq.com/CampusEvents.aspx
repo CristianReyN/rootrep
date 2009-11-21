@@ -148,13 +148,13 @@
                                     <asp:TableRow ID="TableRow1" runat="server">
                                     <asp:TableCell ID="TableCell1" runat="server" Width="15%" CssClass="warningImage"><img src="<%=imagePath %>/images/camp/warning.gif" border="0" alt="" />
                                     </asp:TableCell>
-                                    <asp:TableCell ID="TableCell2" runat="server" Width="85%" CssClass="warningCopy">There was a problem processing your request.
+                                    <asp:TableCell ID="TableCell2" runat="server" Width="85%" CssClass="warningCopy">No Events Found.
                                     </asp:TableCell>
                                     </asp:TableRow>
                                     <asp:TableRow ID="TableRow2" runat="server">
                                     <asp:TableCell ID="TableCell3" runat="server" Width="15%" CssClass="warningImage">&nbsp;
                                     </asp:TableCell>
-                                    <asp:TableCell ID="TableCell4" runat="server" Width="85%" CssClass="warningCopyTab">Unfortunately, there's nothing scheduled for your school at this time, but please check back again soon. You're also welcome to <a href="campusrecruiting/how_to_apply.asp" title="submit a profile" class="noUnderLine">submit a profile</a> online right now.         
+                                    <asp:TableCell ID="TableCell4" runat="server" Width="85%" CssClass="warningCopyTab">We’re sorry, we currently do not have any events scheduled at your school. Please be sure to check back periodically for updates. You're also welcome to <a href="campusrecruiting/how_to_apply.asp" title="submit a profile" class="noUnderLine">submit a profile</a> online right now.         
                                     </asp:TableCell>
                                     </asp:TableRow>
                                 </asp:Table>
