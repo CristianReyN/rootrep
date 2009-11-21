@@ -34,7 +34,8 @@ public partial class JobDetails : System.Web.UI.Page
         }
         returntoJobsearch.NavigateUrl = "jobsearch.aspx";
         TellaFriend.NavigateUrl="Tell_a_friend.aspx?JobId="+ Request.QueryString["JobId"].ToString();
-        Jobcart.NavigateUrl = "jobcart.aspx?=" + Request.QueryString["JobId"].ToString();
+        Jobcart.NavigateUrl = "jobcart.aspx?JobId=" + Request.QueryString["JobId"].ToString();
+        JobcartTop.NavigateUrl = "jobcart.aspx?JobId=" + Request.QueryString["JobId"].ToString();
 
 
     }
