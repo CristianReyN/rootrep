@@ -38,7 +38,7 @@
 </optgroup>
 <optgroup label="Human Resources">
 	<option value="5|-1" OptionGroup="Human Resources"<%If jobareas="5|-1" Then Response.write " selected"%>>All Human Resources</option>
-	<option value="5|7" OptionGroup="Human Resources"<%If jobareas="5|7" Then Response.write " selected"%>>Learning &amp; Org Effectiveness</option>
+	<option value="5|7" OptionGroup="Human Resources"<%If jobareas="5|7" Then Response.write " selected"%>>Learning &amp; Leadership Development</option>
 </optgroup>
 <optgroup label="Operations">
 	<option value="6|-1" OptionGroup="Operations"<%If jobareas="6|-1" Then Response.write " selected"%>>All Operations</option>
