@@ -5,8 +5,8 @@
           <autoPlay>true</autoPlay>
           <autoRewind>true</autoRewind>
           <totalTime></totalTime>
-          <contentPathNS>http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/RJP/CORE.flv</contentPathNS>
-          <contentPathOC>http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/RJP/CORE_OC.flv</contentPathOC>
+          <contentPathNS>http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/RJP/v2/CORE_400.flv</contentPathNS>
+          <contentPathOC>http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/RJP/v2/CORE_OC_400.flv</contentPathOC>
           <firstFrame>../Includes/pages/rjp/imx/CMA.jpg</firstFrame>
           <skin>http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/skinsflvplayback/SteelOverPlaySeekMute.swf</skin>
           <next>1</next>
@@ -16,8 +16,8 @@
           <autoPlay>true</autoPlay>
           <autoRewind>true</autoRewind>
           <totalTime></totalTime>
-          <contentPathNS>http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/RJP/CMA.flv</contentPathNS>
-          <contentPathOC>http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/RJP/CMA_OC.flv</contentPathOC>
+          <contentPathNS>http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/RJP/v2/CMA_400.flv</contentPathNS>
+          <contentPathOC>http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/RJP/v2/CMA_OC_400.flv</contentPathOC>
           <firstFrame>../Includes/pages/rjp/imx/CMA.jpg</firstFrame>
           <skin>http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/skinsflvplayback/SteelOverPlaySeekMute.swf</skin>
           <next>2</next>
@@ -27,8 +27,8 @@
           <autoPlay>false</autoPlay>
           <autoRewind>true</autoRewind>
           <totalTime></totalTime>
-          <contentPathNS>http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/RJP/CORE.flv</contentPathNS>
-          <contentPathOC>http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/RJP/CORE_OC.flv</contentPathOC>
+          <contentPathNS>http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/RJP/v2/CORE_400.flv</contentPathNS>
+          <contentPathOC>http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/RJP/v2/CORE_OC_400.flv</contentPathOC>
           <firstFrame>../Includes/pages/rjp/imx/CMA.jpg</firstFrame>
           <skin>http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/skinsflvplayback/SteelOverPlaySeekMute.swf</skin>
           <next>1</next>

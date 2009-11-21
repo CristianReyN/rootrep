@@ -3,27 +3,27 @@
 var ada_href = "<%=ada_href %>";
 action_script = true;
 if ( hasRequestedVersion && rjp_video ) {
-	document.write('<H2 class="hidden">Realistic Job Preview Video<\/H2>');
+	document.write('<H2 class="hidden">Realistic Job Preview - Customer Care Video<\/H2>');
 	document.write('<div id="mainvideo" style="display: none;"><a name="video"></a>');
-	document.write(getVideo(rjp_video,259,180,"javaflash",""));
-	document.write(strReplace(strReplace(strReplace(strReplace(getHTMLControl("javaflash",259,22,true,true,true,false,true,true),"<text>","Video transcript"),"<title>","Video transcript"),"<href>",ada_href),"<anchor>",rjp_video.ada_anchor));
+	document.write(getVideo(rjp_video,400,300,"javaflash",""));
+	document.write(strReplace(strReplace(strReplace(strReplace(getHTMLControl("javaflash",400,22,true,true,true,true,true,true),"<text>","Video transcript"),"<title>","Video transcript"),"<href>",ada_href),"<anchor>",rjp_video.ada_anchor));
 	document.write('</div>');
 	document.write('<div id="videothumb">');
-	document.write('<a href="Javascript: vo_id();" onmouseover="MM_swapImage(\'dilstart\',\'\',\''+rjp_video.thumb_on+'\',1);" onmouseout="MM_swapImgRestore();" onclick="playVideo(rjp_video,true,true,true,false,true,true);"><img name="dilstart" style="margin: 0px;" src="'+rjp_video.thumb_off+'" alt="" border="0" align="absmiddle"></a>');
-	document.write(strReplace(strReplace(strReplace(strReplace(getHTMLControl("javaflash",259,22,false,false,false,false,false,false),"<text>","Video transcript"),"<title>","Video transcript"),"<href>",ada_href),"<anchor>",rjp_video.ada_anchor));
+	document.write('<a href="Javascript: vo_id();" onmouseover="MM_swapImage(\'dilstart\',\'\',\''+rjp_video.thumb_on+'\',1);" onmouseout="MM_swapImgRestore();" onclick="playVideo(rjp_video,true,true,true,true,true,true);"><img name="dilstart" style="margin: 0px;" src="'+rjp_video.thumb_off+'" alt="" border="0" align="absmiddle"></a>');
+	document.write(strReplace(strReplace(strReplace(strReplace(getHTMLControl("javaflash",400,22,false,false,false,true,false,false),"<text>","Video transcript"),"<title>","Video transcript"),"<href>",ada_href),"<anchor>",rjp_video.ada_anchor));
 	document.write('</div>');
 	document.write('<div id="videothumb_off" style="display: none;">');
 	document.write('<img style="margin: 0px;" src="'+rjp_video.thumb_off+'" alt="" border="0" align="absmiddle">');
-	document.write(strReplace(strReplace(strReplace(strReplace(getHTMLControl("javaflash",259,22,false,false,false,false,false,false),"<text>","Video transcript"),"<title>","Video transcript"),"<href>",ada_href),"<anchor>",rjp_video.ada_anchor));
+	document.write(strReplace(strReplace(strReplace(strReplace(getHTMLControl("javaflash",400,22,false,false,false,true,false,false),"<text>","Video transcript"),"<title>","Video transcript"),"<href>",ada_href),"<anchor>",rjp_video.ada_anchor));
 	document.write('</div>');
 } else {
 	document.write(reqFlashPlayer+rjp_video.thumb_on+reqFlashPlayer2);
 }
 </script>
 <noscript>
-<a name="video"></a><H2 class="hidden">Realistic Job Preview Video</H2>
+<a name="video"></a><H2 class="hidden">Realistic Job Preview - Customer Care Video</H2>
 <object type="application/x-shockwave-flash"
-data="../Includes/pages/rjp/flashplayer_xml20080308.swf" width="259" height="180" FlashVars="var1=../Includes/pages/rjp/ANAYST.xml" id="javaflash" align="middle">
+data="../Includes/pages/rjp/flashplayer_xml20080308.swf" width="400" height="300" FlashVars="var1=../Includes/pages/rjp/ANAYST.xml" id="javaflash" align="middle">
 	<param name="wmode" value="transparent">
 	<param name="allowScriptAccess" value="always" />
 	<param name="movie" value="../Includes/pages/rjp/flashplayer_xml20080308.swf" />

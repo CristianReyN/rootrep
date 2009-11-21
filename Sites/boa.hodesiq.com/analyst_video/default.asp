@@ -4,7 +4,7 @@ Dim title, mpage, spage, ada_href, ada_title, job_search_action, Metatag%>
 <% title = breadcrumb & "Realistic Job Preview - Fraud Analyst"
 mpage = "jobsearch"
 spage = ""
-ada_href = "../analyst_video/default.asp"
+ada_href = "../ada/analyst_video.asp"
 page_self = "../analyst_video/default.asp"
 ada_title = breadcrumb & "Realistic Job Preview - Fraud Analyst"
 job_search_action = "../jobsearch/searchresult.asp"

@@ -2,7 +2,7 @@
 			<tr valign="top"><td valign="top"><img src="../images/clear.gif" width="100%" height="10" alt="" border="0"></td></tr>
 			<tr valign="top">
 				<td width="100%" height="26" style="background: #d3d5d6;">
-<a name="skipmaincontent"></a><H1 class="rjp">Realistic Job Preview</H1>
+<a name="skipmaincontent"></a><H1 class="rjp">Realistic Job Preview - Customer Care</H1>
 				</td>
 			</tr>
 			<tr valign="top"><td valign="top"><img src="../images/clear.gif" width="100%" height="2" alt="" border="0"></td></tr>
@@ -12,12 +12,10 @@
 		<table width="578" cellpadding="0" cellspacing="0" border="0" summary="">
 			<tr valign="top">
 				<td width="100%" valign="top">
-					<div align="right" style="float: right; margin: 0px 0px 0px <%=right_margin_split%>px; padding: 0px; width: 259px;">
-<span class="hidden"><p>Screen reader users please note: all the content contained in the video on this page is duplicated in text on this page.</p></span>
-<!-- #include file="rjp/rjp.asp" -->
-<a href="#video" class="hlink">Realistic Job Preview Video</a>
-					</div>
-<h2 class="rjp">Transcript</h2>
+<% If page_section = "ADA" Then %>
+<div class="transcript">
+<a name="vt"></a><h2 class="h1" style="margin: 0px 0px 18px 0px; font-size: 1.2em; font-weight: bold;">Video transcript</h2>
+<!--<h2 class="rjp">Transcript</h2>-->
 <p style="margin: 0px <%=right_margin_split%>px 0px <%=left_margin_0%>px;">
 Welcome to Bank of America. 
 <br><br>
@@ -95,8 +93,17 @@ Now you know more about Bank of America and career opportunities in our Contact 
 <br><br>
 Whatever your choice, we wish you good luck in the future, and we thank you for considering Bank of America in your job search.
 </p>
+</div>
+<% Else %>
+					<div align="center" style="margin: 0px 0px 0px <%=right_margin_split%>px; padding: 0px; width: 100%;"><div style="margin: 0px; padding: 0px; width: 400px;">
+<!-- #include file="rjp/rjp.asp" -->
+<a href="#video" class="hlink">Realistic Job Preview - Customer Care Video</a>
+					</div></div>
+<% End If %>
 <br><br>
 				</td>
 			</tr>
+<% If page_section = "ADA" Then %>
 			<tr valign="top"><td valign="top" class="divb"><img src="../images/clear.gif" width="100%" height="4" alt="" border="0"></td></tr>
+<% End If %>
 		</table>

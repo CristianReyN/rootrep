@@ -144,7 +144,7 @@ if(!window.preloadCC)
 function strReplace(s,p,r){var pos=s.indexOf(p);var len=p.length;while(pos != -1){s1=s.substring(0,pos);s2=s.substring(pos+len,s.length);s=s1+r+s2;pos=s.indexOf(p);}return s;}
 
 var reqFlashPlayer = '<a href="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash" title="This video requires Adobe Flash Player version '+requiredMajorVersion+'. Please download latest version." class="p" onfocus="this.className=\'p-over\';" onblur="this.className=\'p\';"><img src="../Includes/pages/college/thumbnails/';
-var reqFlashPlayer2 = '" width="259" height="166" alt="This video requires Adobe Flash Player version '+requiredMajorVersion+'. Please download latest version." border="0" \/><\/a>';
+var reqFlashPlayer2 = '" width="400" height="300" alt="This video requires Adobe Flash Player version '+requiredMajorVersion+'. Please download latest version." border="0" \/><\/a>';
 
 function getHTMLControl(objname,w,h,play,pause,stop,ada,mute,ccoc)
 {
@@ -288,7 +288,7 @@ function playVideo(video,play,pause,stop,ada,mute,ccoc)
 	if(!vthumb_off) vthumb_off=$x("videothumb_off");
 	if(video && mv && vthumb && vthumb_off)
 	{
-		mv.innerHTML = getVideo(video,259,180,"javaflash","") + strReplace(strReplace(strReplace(strReplace(getHTMLControl("javaflash",259,22,play,pause,stop,ada,mute,ccoc),"<text>","Video transcript"),"<title>","Video transcript"),"<href>",ada_href),"<anchor>",video.ada_anchor);
+		mv.innerHTML = getVideo(video,400,300,"javaflash","") + strReplace(strReplace(strReplace(strReplace(getHTMLControl("javaflash",400,22,play,pause,stop,ada,mute,ccoc),"<text>","Video transcript"),"<title>","Video transcript"),"<href>",ada_href),"<anchor>",video.ada_anchor);
 		mv.style.display = "inline";
 		vthumb.style.display = "none";
 		vthumb_off.style.display = "none";
@@ -322,7 +322,7 @@ function ccfvideo(swf_url,flv_url,flashplayer)
 	this.flashplayer = flashplayer;
 }
 
-var flashplayer = new fpvideo("../Includes/pages/rjp/flashplayer_xml20080308.swf",259,180);
+var flashplayer = new fpvideo("../Includes/pages/rjp/flashplayer_xml20080308.swf",400,300);
 
 //var analyst_cc_video;
 var analyst_video, cma_video, retention_video, customersat_video, collectors_video, rjp_video;

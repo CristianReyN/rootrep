@@ -22,12 +22,12 @@ Our work environment draws on the strength of every associate to build an atmosp
 </p>
 <ul>
 	<li><b>The Global Diversity and Inclusion Council</b>
-		<br>A group of 25 associates who are recognized as leaders in their businesses and who can have an impact for change at the corporate level.<br><br></li>
+		<br>A group of appointed senior leaders from various lines of business and support units who guide and implement diversity and inclusion initiatives at the corporate level.<br><br></li>
 	<li><b>The Diversity Business Councils</b>
-		<br>Line of Business Councils that address inclusion issues across our businesses. These groups identify issues and recommend strategies to make their business group a place where all associates can do their best work.<br><br></li>
+		<br>Line of business councils worldwide that address inclusion issues across our businesses. These groups identify issues and recommend strategies to make their business group a place where all associates can do their best work.<br><br></li>
 	<li><b>Affinity Groups</b>
-		<br>Bank of America recognizes several affinity groups, that is, groups of associates with a common interest and those who support them. Currently, there are six groups organized by affinity: Asian, Black and African American, people with disabilities, Hispanic/Latino, Lesbian/Gay/Bisexual/Transgender and women.<br><br></li>
-	<li><b>The Diversity Network</b>
+		<br>Groups of associates with a common interest and those who support them. Currently, there are seven groups organized by affinity: Asian, Black, people with disabilities, Hispanic/Latino, women, military veterans,  and gay, lesbian, bisexual and transgender.<br><br></li>
+	<li><b>Diversity Network</b>
 		<br>One of five networks that make up <a href="http://www.bankofamerica.com/teambank/" target="_blank" class="p" onfocus="this.className='p-over';" onblur="this.className='p';" title="Team Bank of America">Team Bank of America</a>, the Diversity Network is comprised of geographically based volunteer teams of associates. The Network's mission is to encourage and capitalize on the diversity of our associates and promote personal and professional development. Membership is open to associates at all levels of the company.<br><br></li>
 </ul>
 <!-- #include file="../diversitynav.asp" -->
