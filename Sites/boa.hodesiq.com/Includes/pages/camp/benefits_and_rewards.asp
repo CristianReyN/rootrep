@@ -77,7 +77,7 @@ tabs[tab-1].coremetrics = true;
 		<% End If %>
 <div id="dt1" style="display: <% If tab = 1 Or page_section = "ADA" Then %>inline<% Else %>none<% End If %>;">
 	<div class="innerTab">
-		<p class="bac">Our comprehensive package includes<span style="font-size: 0.6em; position: relative; top: -0.6em;"><a href="#footnote1" title="Footnote 1 " class="p">&nbsp;1&nbsp;</a></span></span>:</p>
+		<p class="bac">Our comprehensive package includes<span style="font-size: 0.6em; position: relative; top: -0.6em;"><a href="#footnote1" title="Footnote 1 " class="p">&nbsp;1&nbsp;<span class="auraltext">Link to Footnote 1.</span></a></span></span>:</p>
 		
 		<H3 class="bac" style="margin-top: 6px;">Financial and retirement support</H3>
 		<ul class="bac">
@@ -179,7 +179,7 @@ tabs[tab-1].coremetrics = true;
 
 		<H3 class="bac">Benefits within the ABC package include:</H3>
 		
-		<p class="bacb">Financial</p>
+		<H4 class="bac" style="margin: 12px 0px 0px 0px;">Financial</H4>
 		<ul class="bac">
 			<li>Critical Illness Insurance</li>
 			<li>Group Income Protection</li>
@@ -187,7 +187,7 @@ tabs[tab-1].coremetrics = true;
 			<li>Pension Plan</li>
 		</ul>
 
-		<p class="bacb">Healthcare</p>
+		<H4 class="bac" style="margin: 12px 0px 0px 0px;">Healthcare</H4>
 		<ul class="bac">
 			<li>Dental Cover</li>
 			<li>Health Account</li>
@@ -196,7 +196,7 @@ tabs[tab-1].coremetrics = true;
 			<li>Private Healthcare</li>
 		</ul>
 
-		<p class="bacb">Lifestyle</p>
+		<H4 class="bac" style="margin: 12px 0px 0px 0px;">Lifestyle</H4>
 		<ul class="bac">
 			<li>Car Parking</li>
 			<li>Childcare Vouchers</li>
@@ -206,7 +206,7 @@ tabs[tab-1].coremetrics = true;
 			<li>Vacation</li>
 		</ul>
 
-		<p class="bacb">Leisure</p>
+		<H4 class="bac" style="margin: 12px 0px 0px 0px;">Leisure</H4>
 		<ul class="bac">
 			<li>Bicycles</li>
 			<li>Learning Account</li>

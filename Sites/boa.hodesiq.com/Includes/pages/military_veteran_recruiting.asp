@@ -55,7 +55,7 @@ Join the thousands of veterans who now call Bank&nbsp;of&nbsp;America their Empl
 <div id="panswer" style="width: 205px; height: 152px; text-align: left;">
 <img style="margin: 0px;" src="../Includes/pages/lob/thumbnails/military_diversity_on.jpg" alt="" border="0" align="absmiddle">
 <script language="JavaScript1.2" type="text/javascript">
-	document.write(strReplace(strReplace(strReplace(strReplace(getHTMLControl("ansvideo",205,22,false,false,false,true,false,false),"<text>","Video transcript"),"<title>","Video transcript"),"<href>",ada_href),"<anchor>",sheila_a1.ada_anchor));
+	document.write(strReplace(strReplace(strReplace(strReplace(getHTMLControl("ansvideo",205,22,false,false,false,true,false,false),"<text>","Video transcript"),"<title>","Video transcript"),"<href>",ada_href),"<anchor>",military_diversity.ada_anchor));
 </script>
 </div>
 <% End If %>

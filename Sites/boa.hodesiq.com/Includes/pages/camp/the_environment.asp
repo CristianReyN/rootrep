@@ -15,8 +15,8 @@ Taking responsibility for our impact on the environment is more than just the ri
 <h2 class="bac"><b>Learn more:</b></h2>
 
 <ul class="bac">
-	<li><a href="http://www.bankofamerica.com/environment/index.cfm" class="bacb" title="Initiative to address climate change" target="_blank">Initiative to address climate change</a></li>
-	<li><a href="http://www.bankofamerica.com/environment/index.cfm?template=env_assoc_inv" class="bacb" title="Associate involvement" target="_blank">Associate involvement</a></li>
+	<li><a href="http://www.bankofamerica.com/environment/index.cfm" class="bacb" title="Initiative to address climate change. Link opens a new window." target="_blank">Initiative to address climate change</a></li>
+	<li><a href="http://www.bankofamerica.com/environment/index.cfm?template=env_assoc_inv" class="bacb" title="Associate involvement. Link opens a new window." target="_blank">Associate involvement</a></li>
 </ul>
 				</td>
 				<td width="185" height="100%" style="padding-top: 7px;" valign="top">

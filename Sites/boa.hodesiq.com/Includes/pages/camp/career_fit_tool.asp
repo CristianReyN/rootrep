@@ -50,7 +50,7 @@ if(fragmentoTexto.length>1)
 		<table width="578" cellpadding="0" cellspacing="0" border="0" summary="">
 			<tr valign="top">
 				<td width="578" height="100%" valign="top" style="padding: 0px 0px 0px <%=left_margin_0%>px;">
-<a name="skipmaincontent"></a><h1 class="hidden">Career Fit Tool</h1>
+<a name="skipmaincontent"></a><h1 class="hidden">Career Fit Tool</h1><a class="auraltext" href="<%=ada_href %>" onFocus="hover(this,'show-tab');" onblur="hover(this,'auraltext');" title="View flash content in Text Only Version">View flash content in Text Only Version</a>
 <script type="text/javascript">
 // <![CDATA[
 document.write('<div id="career_fit_tool_links"></div><div id="career_fit_tool" style="height: auto;"><a href="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash" title="In order to view this page you need Flash Player 8+ support! Please download latest version."><img src="../images/camp/cft_flash.jpg" width="577" height="580" alt="In order to view this page you need Flash Player 8+ support! Please download latest version." title="In order to view this page you need Flash Player 8+ support! Please download latest version." border="0" style="margin: 0px;" /><\/a><\/div>');
@@ -77,7 +77,7 @@ if(values)
 so.useExpressInstall('swfobject/expressinstall.swf');
 so.addParam('menu', 'false');
 //if(so.write('career_fit_tool')){}
-if(so.write('career_fit_tool')) document.getElementById("career_fit_tool_links").innerHTML = '<a class="auraltext" href="<%=ada_href %>" onFocus="hover(this,\'show-tab\');" onblur="hover(this,\'auraltext\');" title="Access non-flash Version of Career Fit Tool">Access non-flash Version of Career Fit Tool<\/a><a class="auraltext" href="#skipflash" onFocus="hover(this,\'show-tab\');" onblur="hover(this,\'auraltext\');" title="Skip Flash content">Skip Flash content<\/a>';
+if(so.write('career_fit_tool')) document.getElementById("career_fit_tool_links").innerHTML = '<a class="auraltext" href="#skipflash" onFocus="hover(this,\'show-tab\');" onblur="hover(this,\'auraltext\');" title="Skip Flash content">Skip Flash content<\/a>';
 // ]]>
 </script>
 <noscript>
