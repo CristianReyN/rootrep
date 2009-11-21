@@ -5,11 +5,11 @@ const adParamReturnValue = &H0004
 const adParamOutput      = 2
 const adCmdStoredProc    = &H0004
 const adUseClient        = 3
-const adInteger			 = 3
+const adInteger		 = 3
 
-dim talentid : talentid = Trim(Request.QueryString("talentid"))
-dim familyid : familyid = Trim(Request.QueryString("familyid"))
-dim rowcount : rowcount = Trim(Request.QueryString("rowcount"))
+'dim talentid : talentid = Trim(Request.QueryString("talentid"))
+'dim familyid : familyid = Trim(Request.QueryString("familyid"))
+'dim rowcount : rowcount = Trim(Request.QueryString("rowcount"))
 
 dim objCon
         set  objCon  = server.CreateObject("ADODB.Connection")
@@ -62,7 +62,7 @@ End If
 if objRS.state = 1 then  
    With objRS		
 		do while not .eof		
-		   Response.write ("<tr><td><a href=""jobdetail.aspx?JobID=""" & .fields.item("req_id").value & ">" & .fields.item("job_title").value & ", " & .fields.item("locations").value & "</a></td></tr>") 		
+		   Response.write ("<tr><td><a href=""jobdetail.aspx?JobID=" & .fields.item("req_id").value & "&areasoftalent=" & areasoftalent & "&jfamily=" & jfamily & "&keywords=" & keywords & """>" & .fields.item("job_title").value & ", " & .fields.item("locations").value & "</a></td></tr>") 		
    		   .moveNext				
 		loop			
 		.Close			
