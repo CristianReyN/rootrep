@@ -130,9 +130,70 @@ requiredMajorVersion = 8;
 requiredVersion = 8;
 hasRequestedVersion = DetectFlashVer(requiredMajorVersion, requiredMinorVersion, requiredRevision);
 
+var mutted = false;
 function doPassVar(args){
-   var sendText = args;
-  window.document.javaflash.SetVariable("myVar", sendText);
+	var sendText = args;
+	window.document.javaflash.SetVariable("myVar", sendText);
+	
+	switch(sendText)
+	{
+		case 'play':
+			if(!mutted) createStopAudio();
+		break;
+		case 'pause':
+		break;
+		case 'stop':
+			removeStopAudio();
+		break;
+		case 'mute':
+			if(mutted) {mutted = false;}
+			else {mutted = true;}
+			createStopAudio();
+		break;
+		case 'ccoc':
+			createStopAudio();
+		break;
+	}
+}
+
+function createStopAudio()
+{
+	if(document.body.firstChild)
+	{
+		var new_a = document.getElementById("stopaudio");
+		if(!new_a) new_a = document.createElement("a");
+		new_a.href = "JavaScript: if(window.doPassVar) doPassVar('mute');";
+		new_a.innerHTML = "Stop Audio";
+		new_a.title = "Stop Audio";
+		new_a.id = "stopaudio";
+		new_a.className = "hlink";
+		if(!document.getElementById("stopaudio"))
+			document.body.insertBefore(new_a,document.body.firstChild);
+	}
+	else if (document.all)
+	{
+		if(!document.getElementById("stopaudio"))
+			document.body.insertAdjacentHTML("afterBegin",'<div id="stopaudio"></div>');
+		document.getElementById("stopaudio").innerHTML = '<a href="JavaScript: if(window.doPassVar) doPassVar(\'mute\');" class="hlink"'+' title="'+'Stop Audio'+'">'+'Stop Audio'+'</a>';
+		document.getElementById("stopaudio").style.display = "inline";
+	}
+	
+}
+
+function removeStopAudio()
+{
+	if(document.body.firstChild && document.body.firstChild.id == "stopaudio")
+	{
+		document.body.removeChild(document.body.firstChild);
+	}
+	else if (document.all)
+	{
+		if(document.getElementById("stopaudio"))
+		{
+			document.getElementById("stopaudio").innerHTML = '';
+			document.getElementById("stopaudio").style.display = "none";
+		}
+	}
 }
 
 function strReplace(s,p,r){var pos=s.indexOf(p);var len=p.length;while(pos != -1){s1=s.substring(0,pos);s2=s.substring(pos+len,s.length);s=s1+r+s2;pos=s.indexOf(p);}return s;}
