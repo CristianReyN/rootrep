@@ -304,22 +304,20 @@ public class Jobs
         cmd.Parameters.AddWithValue("@State", stateid);
         cmd.Parameters.AddWithValue("@City", cityid);
         cmd.Parameters.AddWithValue("@KeyWords", keywords);
+		OleDbParameter trows = cmd.Parameters.Add("@totalrows", OleDbType.Integer);
+		trows.Direction = ParameterDirection.Output;
 
         OleDbDataAdapter da = new OleDbDataAdapter(cmd);
         DataSet ds = new DataSet();
-        DataSet dsCount = new DataSet();
+        da.Fill(ds, (PageNumber - 1) * RowPerPage, RowPerPage, "SearchResults");
 
-        da.Fill(dsCount);
-        int TotalRow = dsCount.Tables[0].Rows.Count;
+		int TotalRow = Convert.ToInt32(trows.Value);
         int partialpagefactor;
         partialpagefactor = TotalRow % RowPerPage > 0 ? 1 : 0;
         int TotalPage = (TotalRow / RowPerPage) + partialpagefactor;
 
-
-        da.Fill(ds, (PageNumber - 1) * RowPerPage, RowPerPage, "SearchResults");
-
         ListDictionary MyListDictionary = new ListDictionary();
-        MyListDictionary.Add("RecordCount", dsCount.Tables[0].Rows.Count);
+        MyListDictionary.Add("RecordCount", TotalRow);
         MyListDictionary.Add("JobSearchResults", ds.Tables[0]);
         MyListDictionary.Add("NextButton", ShowNextButton(TotalRow, PageNumber, TotalPage));
         MyListDictionary.Add("PrevButton", ShowPrevButton(TotalRow, PageNumber, TotalPage));
@@ -495,22 +493,21 @@ public class Jobs
 		cmd.Parameters.AddWithValue("@Shift", Shift.TrimEnd(",".ToCharArray()));
 		cmd.Parameters.AddWithValue("@PostDate", PostDate);
 		cmd.Parameters.AddWithValue("@KeyWords", keywrd);
-
+		OleDbParameter trows = cmd.Parameters.Add("@totalrows", OleDbType.Integer);
+		trows.Direction = ParameterDirection.Output;
+		
 		OleDbDataAdapter da = new OleDbDataAdapter(cmd);
 		DataSet ds = new DataSet();
-		DataSet dsCount = new DataSet();
 
-		da.Fill(dsCount);
-		int TotalRow = dsCount.Tables[0].Rows.Count;
+		da.Fill(ds, (PageNumber - 1) * RowPerPage, RowPerPage, "SearchResults");
+		
+		int TotalRow = Convert.ToInt32(trows.Value);
 		int partialpagefactor;
 		partialpagefactor = TotalRow % RowPerPage > 0 ? 1 : 0;
 		int TotalPage = (TotalRow / RowPerPage) + partialpagefactor;
 
-
-		da.Fill(ds, (PageNumber - 1) * RowPerPage, RowPerPage, "SearchResults");
-
 		ListDictionary MyListDictionary = new ListDictionary();
-		MyListDictionary.Add("RecordCount", dsCount.Tables[0].Rows.Count);
+		MyListDictionary.Add("RecordCount", TotalRow);
 		MyListDictionary.Add("JobSearchResults", ds.Tables[0]);
 		MyListDictionary.Add("NextButton", ShowNextButton(TotalRow, PageNumber, TotalPage));
 		MyListDictionary.Add("PrevButton", ShowPrevButton(TotalRow, PageNumber, TotalPage));
