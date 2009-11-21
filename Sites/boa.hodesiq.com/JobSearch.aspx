@@ -6,14 +6,13 @@
         <p><span class='auraltext'>
          After you select a country from the country field, the page will refresh. For the United States, you can then pick a state.  After you select a state from the 'State" field, the page will refresh.  You will then be able to select a city from the 'City' field.  For all other countries, after you select a country other than the United States from the country field, the page will refresh and you can then select a city from the 'City' field.
         </span></p>
-        <table border="0" cellpadding="0" cellspacing="0" summary=""
-            width="578">
+        <table border="0" cellpadding="0" cellspacing="0" summary="" width="578">
             <tr valign="top">
                 <td style="padding: 6px 12px 0px 12px; height: 100%" valign="top">
 					<table border="0" cellpadding="1" cellspacing="1" summary="" width="100%">
                         <tr>
                             <td valign="top" colspan="2">To find a career suited to your skill set, begin by selecting a country from the list below. Then you may narrow your selection further by choosing additional search criteria and/or entering keywords.</td>
-                            <br />                         
+                            </br>                         
                         </tr>
 						<tr>
 							<td colspan="2" valign="top" align="left">&nbsp;
@@ -48,10 +47,10 @@
 						<tr id="trUsLocation" runat="server" >
 							<td  valign="top" style="width:50%; height:45;">
 							    <div id="d1" style="display: inline;">
-								    <asp:Label ID="lblState" runat="server" Text="Location" AssociatedControlID="State"></asp:Label><br />
+								    <asp:Label ID="lblState" runat="server" Text="State" AssociatedControlID="State"></asp:Label><br />
 								    <asp:DropDownList ID="State" runat="server" CssClass="left" Style="width: 100%; z-index: auto;"
 								    ToolTip="Select a state" AutoPostBack="false" OnSelectedIndexChanged="brefine_Click">
-								    <asp:ListItem Value="-1">All locations&#160;</asp:ListItem>
+								    <asp:ListItem Value="-1">All states&#160;</asp:ListItem>
 								    </asp:DropDownList>
 								</div>
 								
@@ -163,7 +162,7 @@
 					<asp:Panel ID="PnlUSJobsContent" runat="server">					
 					<a href="overview/manage_your_profile.asp" target="_blank" class="p" onblur="this.className='p';" onfocus="this.className='p-over';" >Manage Your Profile</a><BR/>
 					Create or update your existing candidate profile.<br /><br />
-					Bank of America associates should access the <a href="http://www.bankofamerica.com/careers/index.cfm?template=jobs_interstitial" id="ctl00_cphmain_lnkInternal" title="Internal Jobs Database" class="p" onblur="this.className='p';" onfocus="this.className='p-over';">internal jobs database</a><br /><br />					
+					Bank of America associates should access the <a href="http://www.bankofamerica.com/careers/index.cfm?template=jobs_interstitial" id="ctl00_cphmain_lnkInternal" title="Internal Jobs Database" class="p" onblur="this.className='p';" onfocus="this.className='p-over';">internal jobs database</a>.<br /><br />					
 					</asp:Panel>
 					<asp:Panel ID="PnlResults" runat="server">
 					<table border="0" cellpadding="0" cellspacing="0" summary="Table containing Advanced job search form."
@@ -258,7 +257,7 @@
              </tr>
         </table>
 <asp:label id="lblMessage" runat="server"></asp:label></asp:Panel>
-           </td>< </tr>
+           </td> </tr>
         </table>
      
 

@@ -122,7 +122,7 @@
                 <div id="retuntomap"> </div>
                 <p> <a href="ada_asia.aspx#mapstart" class="ada2adalink" onfocus="this.className='ada2adalink-over';"
                         onblur="this.className='ada2adalink';" title="View locations as text">View locations
-                    as text</a></p></td>
+                    as text</a></p></br></td>
         </tr>
     </table>
 </asp:Content>
@@ -131,7 +131,7 @@
     <table summary="" width="204" border="0" cellspacing="0" cellpadding="0">
         <tr>
             <td><div style="border: 1px solid #e8e8e9; margin: 1px 0px 1px 0px; padding: 0px 0px 6px 0px;">
-                    <h2 class="g" style="margin: 0px 0px 0px 0px;">Related Information</h2>
+                    <h2 class="g-bold" style="margin: 0px 0px 0px 0px;">Related Information</h2>
                     <div style="padding: 0px 0px 0px 4px;">
                         <table summary="" width="190" border="0" cellspacing="0" cellpadding="0" align="top">
                             <tr>

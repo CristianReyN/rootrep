@@ -61,7 +61,7 @@
         <tr>
             <td>
                 <div style="border: 1px solid #e8e8e9; margin: 1px 0px 1px 0px; padding: 0px 0px 6px 0px;">
-                    <h2 class="g" style="margin: 0px 0px 0px 0px;">
+                    <h2 class="g-bold" style="margin: 0px 0px 0px 0px;">
                        Related Information</h2>
                     <div style="padding: 0px 0px 0px 4px;">
                         <table width="190" border="0" cellspacing="0" cellpadding="0" align="top" summary="">

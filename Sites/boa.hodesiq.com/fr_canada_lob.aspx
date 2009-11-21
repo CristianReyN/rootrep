@@ -38,7 +38,7 @@
 
 <p>Les activités de Merrill Lynch au Canada relèvent de deux unités à la fois indépendantes et interdépendantes :</p>
 
-<h3>&nbsp;&nbsp;-&nbsp;&nbsp;Services bancaires mondiaux aux entreprises et services bancaires mondiaux d'investissement</h3>
+<h3 class="normal">&nbsp;&nbsp;-&nbsp;&nbsp;Services bancaires mondiaux aux entreprises et services bancaires mondiaux d'investissement</h3>
 
 <p>Le groupe Global Corporate & Investment Banking s'occupe des activités de crédit aux entreprises et de services-conseils de même que des interventions sur les marchés des capitaux de Bank of America Merrill Lynch. Il répond aux besoins à long terme des entreprises et des institutions financières, en puisant dans l'expertise internationale de la banque et sa connaissance des marchés locaux dans tous les secteurs.</p>
  
@@ -46,7 +46,7 @@
  
 <p>Notre division des marchés des capitaux (Capital Markets) œuvre sur les marchés des capitaux d'emprunt, des capitaux propres et des instruments rattachés à des actions et aide les entreprises à trouver du financement sur les marchés internationaux des capitaux tant publics que privés. Le travail de l'unité des produits est complété par celui de notre division de la gestion financière et de la restructuration des entreprises (Corporate Finance and Restructuring), qui aide les clients à élaborer la stratégie de gestion financière la plus susceptible d'assurer leur croissance.</p>
 
-<h3>&nbsp;&nbsp;-&nbsp;&nbsp;Marchés mondiaux</h3>
+<h3 class="normal">&nbsp;&nbsp;-&nbsp;&nbsp;Marchés mondiaux</h3>
 
 <p>Le groupe Global Markets de Bank of America Merrill Lynch est un intervenant de premier plan sur les marchés financiers, où il assure des services de financement, d'établissement de prix et d'exécution sur les marchés des actions, des titres à revenu fixe, des instruments dérivés, des taux d'intérêt, des devises et des produits de base.</p>
 
@@ -56,7 +56,7 @@
 
 <p>Banc of America Securities-Merrill Lynch Research est l'un des centres de recherche les plus importants de la région. Elle publie à l'intention d'une clientèle institutionnelle internationale des études indépendantes et complètes qui donnent l'heure juste sur les tendances macroéconomiques, les investissements à revenu fixe, les stratégies, les données quantitatives, les instruments dérivés, les marchés boursiers, les secteurs et les entreprises. </p>
 
-<h3>&nbsp;&nbsp;-&nbsp;&nbsp;Solutions mondiales </h3>
+<h3 class="normal">&nbsp;&nbsp;-&nbsp;&nbsp;Solutions mondiales </h3>
 <p>L'unité Global Product Solutions de Bank of America Merrill Lynch est le plus important fournisseur de services de gestion de trésorerie, de gestion des liquidités, de commerce mondial et de production de rapports. Nous comptons parmi nos clients des PME, de grandes entreprises, des institutions financières et des gouvernements, que nous aidons à concevoir une gamme complète de produits de crédit et de trésorerie intégrés.</p>
 
 <p>Le groupe répond aussi aux besoins de fonds de roulement de ses clients en offrant des services complets d'opération de change de devises étrangères, de placement à court terme, de financement et autres services connexes.</p>

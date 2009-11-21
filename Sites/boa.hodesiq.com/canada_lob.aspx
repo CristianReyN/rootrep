@@ -48,7 +48,7 @@
 
 <p>Merrill Lynch’s activities in Canada are organized into independent but interrelated business lines and support units such as:</p>
 
-<h3>&nbsp;&nbsp;-&nbsp;&nbsp;Global Corporate & Investment Banking</h3>
+<h3 class="normal">&nbsp;&nbsp;-&nbsp;&nbsp;Global Corporate & Investment Banking</h3>
 
 <p>Global Corporate & Investment Banking encompasses Bank of America Merrill Lynch’s corporate lending, advisory and capital markets businesses in the region. It serves the long-term needs of corporations and financial institutions, drawing on the bank’s global expertise and local knowledge across all industry sectors.</p>
  
@@ -56,7 +56,7 @@
  
 <p>The Capital Markets division includes debt capital markets, equity capital markets and equity-linked capital markets and assists corporations in raising funds through both the public and private international capital markets. Alongside the product units is the Corporate Finance and Restructuring division, which assists clients in determining the best course of corporate finance management to grow their businesses.</p>
 
-<h3>&nbsp;&nbsp;-&nbsp;&nbsp;Global Markets</h3>
+<h3 class="normal">&nbsp;&nbsp;-&nbsp;&nbsp;Global Markets</h3>
 
 <p>The Bank of America Merrill Lynch Global Markets group is at the forefront of the world’s financial markets, providing liquidity, pricing and execution across the equity, fixed income, derivatives, interest rate, foreign exchange and commodities markets.</p>
 
@@ -66,7 +66,7 @@
 
 <p>Banc of America Securities-Merrill Lynch Research is one of the region’s leading research houses. It provides timely, insightful, independent and comprehensive macroeconomic, fixed-income, strategy, quantitative, derivatives, equity-linked, industry and corporate research to an international institutional client base.</p>
 
-<h3>&nbsp;&nbsp;-&nbsp;&nbsp;Global Product Solutions</h3>
+<h3 class="normal">&nbsp;&nbsp;-&nbsp;&nbsp;Global Product Solutions</h3>
 
 <p>Bank of America Merrill Lynch is the leading provider of treasury management, liquidity management, global trade solutions and reporting services through the Global Product Solutions unit. Our clients include small businesses, middle-market and large corporations, financial institutions and governments, and we assist them in designing and implementing the full range of integrated credit and treasury products.</p>
 
@@ -96,7 +96,7 @@
         <tr>
             <td>
                 <div style="border: 1px solid #e8e8e9; margin: 1px 0px 1px 0px; padding: 0px 0px 6px 0px;">
-                    <h2 class="g" style="margin: 0px 0px 0px 0px;">
+                    <h2 class="g-bold" style="margin: 0px 0px 0px 0px;">
                        Related Information</h2>
                     <div style="padding: 0px 0px 0px 4px;">
                         <table summary="" width="190" border="0" cellspacing="0" cellpadding="0" align="top">

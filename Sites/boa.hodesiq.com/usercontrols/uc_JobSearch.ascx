@@ -2,7 +2,7 @@
 <link href="../resources/style.css" rel="stylesheet" type="text/css" />
 <table width="200" border="0" cellspacing="0" cellpadding="0" summary="">
                           <tr>
-                            <td width="200" height="22" align="left" valign="middle" style="background-image:url(images/search_results_31.gif); background-position: right top; background-repeat:no-repeat;  "> <h2 class="g" style="margin: 0px;"><a name="jobsearch"></a>Guided Job Search</h2></td>
+                            <td width="200" height="22" align="left" valign="middle" style="background-image:url(images/search_results_31.gif); background-position: right top; background-repeat:no-repeat;  "> <h2 class="g-bold" style="margin: 0px;"><a name="jobsearch"></a>Guided Job Search</h2></td>
                           </tr>
                           <tr>
                                 <td width="200"  valign="top" style="border:1px solid #e8e8e8;">
@@ -115,12 +115,12 @@
 						</td>
 						</tr>
 						<tr id="TrUsJobs2" runat="server" valign="top">
-						<td>Create or update your existing candidate profile.<br /><br />
+						<td><p style="margin: 0px 0px 0px 0px;">Create or update your existing candidate profile.</p></br>
 						</td></tr>																	
-						<tr id="TrUsJobs3" runat="server" valign="bottom">
+						<tr id="TrUsJobs3" runat="server" valign="top">
 						<td height="26" align="left" valign="bottom" style="background-image: url(images/dotted.gif);
                                     background-position: left top; background-repeat: repeat-x;">                      
-						</br>Bank of America associates should access the <a href="http://www.bankofamerica.com/careers/index.cfm?template=jobs_interstitial" id="A1" title="Internal Jobs Database" class="p" onblur="this.className='p';" onfocus="this.className='p-over';">internal jobs database.</a></td>
+						</br><p style="margin: 0px 0px 0px 0px;">Bank of America associates should access the <a href="http://www.bankofamerica.com/careers/index.cfm?template=jobs_interstitial" id="A1" title="Internal Jobs Database" class="p" onblur="this.className='p';" onfocus="this.className='p-over';">internal jobs database.</a></p></br></td>
 						</tr>
 					</table></td></tr></table>
 						

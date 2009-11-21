@@ -11,6 +11,8 @@ TD, TH
     font-family: Verdana, helvetica, sans-serif;
 }
 
+
+
 P, UL, LI, H1.p, H2.p, H3.p, H3.pb, LABEL.p
 {
     font-family: Verdana, Helvetica, sans-serif;
@@ -183,6 +185,25 @@ H2.g
     padding: 4px 4px 6px 4px;
 }
 
+H2.g-bold
+{
+    background-color: #e8e8e9;
+    padding: 4px 4px 6px 4px;
+    font-size: 0.9em;
+}
+
+H2.bold
+{
+    font-family: Verdana, Helvetica, sans-serif;
+    font-size: 0.9em;
+    line-height: 0.9em;
+    font-weight: bold;
+    color: #333333;
+    background-color: transparent;
+    text-decoration: none;
+     padding: 4px 4px 6px 4px;
+
+}
 H2
 {
    font-family: Verdana, Helvetica, sans-serif;
@@ -266,6 +287,11 @@ H3, P.H3
 H3.pb
 {
     font-weight: bold;
+}
+
+H3.normal
+{
+    color:Black;
 }
 
 H1.hidden, H2.hidden, H3.hidden, DIV.hidden, P.hidden, SPAN.hidden
