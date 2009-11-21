@@ -6,7 +6,7 @@
 <!--<ul id="faqs" style="list-style-type : none;">-->
 	<li><a href="#q1" class="p" onfocus="this.className='p-over';" onblur="this.className='p';">How do I submit a resume?</a></li>
 	<li><a href="#q2" class="p" onfocus="this.className='p-over';" onblur="this.className='p';">Can I submit my resume to a local Banking Center?</a></li>
-	<li><a href="#q22" class="p" onfocus="this.className='p-over';" onblur="this.className='p';">If I have trouble completing my profile and/or application online, is there another way to submit my information?</a></li>
+	<li style="list-style-image : url(../images/bull3o.gif); margin-left: 18px;"><a href="#q22" class="p" onfocus="this.className='p-over';" onblur="this.className='p';">If I have trouble completing my profile and/or application online, is there another way to submit my information?</a></li>
 	<li><a href="#q3" class="p" onfocus="this.className='p-over';" onblur="this.className='p';">Can I submit my information without applying for a position?</a></li>
 	<li><a href="#q4" class="p" onfocus="this.className='p-over';" onblur="this.className='p';">What are the basic requirements for becoming an associate for Bank of America other than the job related qualifications listed in the posting?</a></li>
 	<li><a href="#q5" class="p" onfocus="this.className='p-over';" onblur="this.className='p';">Will I be considered for other positions when applying for a specific position?</a></li>

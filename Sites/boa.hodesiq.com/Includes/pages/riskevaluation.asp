@@ -2,8 +2,8 @@
 			<tr valign="top"><td valign="top" class="divt"><img src="../images/clear.gif" width="100%" height="4" alt="" border="0"></td></tr>
 			<tr valign="top">
 				<td width="100%" valign="top">
-<img src="../images/gr.jpg" width="578" height="166" alt="Explore a career with the Bank of Opportunity." title="Explore a career with the Bank of Opportunity." border="0">
-<div class="hidden">Global Risk. Explore a career with the Bank of Opportunity.</div>
+<img src="../images/rm.jpg" width="578" height="166" alt="Explore a career with the Bank of Opportunity." title="Explore a career with the Bank of Opportunity." border="0">
+<div class="hidden">Risk Management. Explore a career with the Bank of Opportunity.</div>
 				</td>
 			</tr>
 			<tr valign="top"><td colspan="2" valign="top" class="divb"><img src="../images/clear.gif" width="100%" height="4" alt="" border="0"></td></tr>
@@ -12,7 +12,7 @@
 		<table width="578" cellpadding="0" cellspacing="0" border="0" summary="">
 			<tr valign="top">
 				<td width="100%" valign="top">
-<a name="skipmaincontent"></a><H1 class="hidden">Risk</H1>
+<a name="skipmaincontent"></a><H1 class="hidden">Risk Management</H1>
 <% If page_section = "ADA" Then %>
 <!-- #include file="associate/price.asp" -->
 					<div align="right" style="float: right; margin: 0px 0px 0px <%=right_margin_split%>px; padding: 0px 0px 0px 0px; width: 201px;">

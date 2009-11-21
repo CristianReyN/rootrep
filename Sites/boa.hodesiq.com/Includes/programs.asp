@@ -192,6 +192,7 @@ function none(){}
 <optgroup label="Global Wealth and Investment Management">
 	<option value="ip_ungr.asp"<% If fpage = "ip_ungr" Then %> disabled<% End If %>>Undergraduate Intern</option>
 	<option value="ip_gr.asp"<% If fpage = "ip_gr" Then %> disabled<% End If %>>Graduate Intern</option>
+	<option value="ip_gmca.asp"<% If fpage = "ip_gmca" Then %> disabled<% End If %>>Global Marketing &amp; Corporate Affairs</option>
 </optgroup>
 
 <optgroup label="Global Corporate Investment Banking Summer Analyst">

@@ -1,15 +1,15 @@
 <% Response.Buffer=True 
 Dim title, mpage, spage, ada_href, ada_title, job_search_action, Metatag
-title = "Bank of America | Career | Campus Recruiting | Internship Programs | Global Wealth &amp; Investment Management Graduate Internship Program"
+title = "Bank of America | Career | Campus Recruiting | Internship Programs | Global Marketing &amp; Corporate Affairs"
 mpage = "learnmore"
 spage = "collrecruiting"
 tpage = "internships_program"
-fpage = "ip_gr"
-ada_href = "../ada/ip_gr.asp"
-page_self = "../learnmore/ip_gr.asp"
-ada_title = "Bank of America | Career | Campus Recruiting | Internship Programs | Global Wealth &amp; Investment Management Graduate Internship Program"
+fpage = "ip_gmca"
+ada_href = "../ada/ip_gmca.asp"
+page_self = "../learnmore/ip_gmca.asp"
+ada_title = "Bank of America | Career | Campus Recruiting | Internship Programs | Global Marketing &amp; Corporate Affairs"
 job_search_action = "../jobsearch/searchresult.asp"
-Metatag="Page designed for student recruiting. Links available on the page: undergraduate/analyst programs, graduate/associate programs, internships and a campus recruiting calendar. The option to do a job search is also present on this page."
+Metatag=""
 %>
 <!-- Header -->
 <!-- #include file="../includes/header.asp" -->
@@ -25,7 +25,7 @@ Metatag="Page designed for student recruiting. Links available on the page: unde
 	<td valign="top" width="578" height="100%">
 <!-- Body-->
 <img src="../images/clear.gif" width="15" height="4" alt="" border="0"><br>
-<!-- #include file="../includes/pages/ip_gr.asp" -->
+<!-- #include file="../includes/pages/ip_gmca.asp" -->
 <br><br>
 <!-- Body-->
 	</td>

@@ -56,7 +56,7 @@ Rising seniors who meet or exceed internship performance expectations may receiv
 
 <h2 class="h2" style="margin: 0px;">Locations</h2>
 <p style="margin: 0px 0px 12px 0px;">
-Addison, TX; Richmond, VA
+Addison, TX <span class="middot">&middot;</span> Richmond, VA
 </p>
 <!-- #include file="../authorizedus.asp" -->
 <!-- #include file="../sendresume.asp" -->

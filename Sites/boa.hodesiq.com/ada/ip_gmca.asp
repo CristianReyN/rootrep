@@ -1,22 +1,17 @@
 <% Response.Buffer=True 
 Dim title, mpage, spage, ada_href, ada_title, job_search_action,page_section, Metatag
-title = "Bank of America | Career | Risk Management"
-mpage = "areasoftalent"
-spage = "riskevaluation"
-
-standart_href = "../riskevaluation/"
+title = "Bank of America | Career | Campus Recruiting | Internship Programs | Global Marketing &amp; Corporate Affairs"
+mpage = "learnmore"
+spage = "collrecruiting"
+tpage = "internships_program"
+fpage = "ip_gmca"
+standart_href = "../learnmore/ip_gmca.asp"
 job_search_action = "../jobsearch/searchresult.asp"
-Metatag="Risk Evaluation is one area of talent for careers at Bank of America. From this page you can listen to an associate, see hot job opportunities, and click to positions in risk evaluation."
-page_self = "../ada/riskevaluation.asp"
+Metatag=""
+page_self = "../ada/ip_gmca.asp"
 page_section="ADA"
 Dim flashPage
 flashPage = false
-Dim subtitle
-subtitle="Risk Management"
-'****************************** ADDED FOR HOT JOB OPENING***************************
-Dim talentid,rowcount
-talentid=7 
-rowcount=6
 %>
 <!-- Header -->
 <!-- #include file="header.asp" -->
@@ -33,7 +28,7 @@ rowcount=6
 	<td valign="top" width="578" height="100%">
 <!-- Body-->
 <img src="../images/clear.gif" width="15" height="4" alt="" border="0"><br>
-<!-- #include file="../includes/pages/riskevaluation.asp" -->
+<!-- #include file="../includes/pages/ip_gmca.asp" -->
 <br><br>
 <!-- Body-->
 	</td>

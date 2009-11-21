@@ -1,17 +1,17 @@
 <% Response.Buffer=True 
 Dim title, mpage, spage, ada_href, ada_title, job_search_action, Metatag
-title = "Bank of America | Career | Global Risk"
+title = "Bank of America | Career | Risk Management"
 mpage = "lob"
 spage = "lobcss"
 tpage = "lobgr"
 ada_href = "../ada/lobgr.asp"
 page_self = "../risk/default.asp"
-ada_title = "Bank of America | Global Risk"
+ada_title = "Bank of America | Risk Management"
 job_search_action = "../jobsearch/searchresult.asp"
 Dim flashPage
 flashPage = false
 Dim subtitle
-subtitle="Global Risk"
+subtitle="Risk Management"
 Metatag="Explore a career in Global Risk with Bank of America's Corporate Staff & Support."
 
 '****************************** ADDED FOR HOT JOB OPENING***************************
