@@ -41,8 +41,12 @@ public static class boanet_safebutton
 		HtmlGenericControl noscripttag = new HtmlGenericControl("noscript");
 		Button btnSubmit = new Button();
 		btnSubmit.ID = "btn" + id;
-		btnSubmit.Text = buttontext;
-        btnSubmit.ToolTip = buttontext;
+        btnSubmit.Text = buttontext;
+
+        if (buttontext == "Next") { btnSubmit.ToolTip = "View next page"; }
+        else if (buttontext == "Previous") { btnSubmit.ToolTip = "View previous page"; }
+        else { btnSubmit.ToolTip = buttontext; }
+
 		btnSubmit.CssClass = "btn";
         btnSubmit.Click += new EventHandler(onclickserverfunction);
 
@@ -80,7 +84,11 @@ public static class boanet_safebutton
         else
         {
             l.Text = buttontext;
-            l.ToolTip = buttontext;
+
+            if (buttontext == "Next") { l.ToolTip = "View next page"; }
+            else if (buttontext == "Previous") { l.ToolTip = "View previous page"; }
+            else { l.ToolTip = buttontext; }
+
             l.Click += new EventHandler(onclickserverfunction);
         }
 

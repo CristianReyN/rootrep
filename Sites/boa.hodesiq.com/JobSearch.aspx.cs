@@ -61,7 +61,7 @@ public partial class JobSearch : System.Web.UI.Page
             {
                 BindSearchString();
                 ViewState["PageNumber"] = 1;
-                FunSearch();
+                FunSearch(0);
             }
         }
         PopulateJobAreas();
@@ -79,6 +79,7 @@ public partial class JobSearch : System.Web.UI.Page
             this.ddlCity.Focus();
         }
     }
+
     public void BindSearchString()
     {
         ListItem MyListItem;
@@ -120,6 +121,7 @@ public partial class JobSearch : System.Web.UI.Page
         FilterCity(Convert.ToInt32(ddlState.SelectedValue));
         ddlCity.SelectedIndex = 0;
     }
+
     public void FilterCity(int CityID)
     {
         DataTable dt;
@@ -140,6 +142,7 @@ public partial class JobSearch : System.Web.UI.Page
         }
         ddlCity.Items.Insert(0, new ListItem("All cities", "-1"));
     }
+
     public void RefineSearch(string StateID)
     {
         if (ddlState.SelectedItem.Value != "-1" & !string.IsNullOrEmpty(StateID))
@@ -157,30 +160,15 @@ public partial class JobSearch : System.Web.UI.Page
             ddlCity.SelectedIndex = -1;
         }
     }
+
     protected void brefine_Click(object sender, EventArgs e)
     {
         RefineSearch(ddlState.SelectedItem.Value);
         bsearch_Click(sender, e);
 
     }
-    protected void bsearch_Click(object sender, EventArgs e)
-    {
-        ViewState["PageNumber"] = 1;
-        FunSearch();
-        GrdResults.Visible = true;
-    }
-    protected void LnkNxt_Click(object sender, EventArgs e)
-    {
-        ViewState["PageNumber"] = (int)(ViewState["PageNumber"]) + 1;
-        FunSearch();
-    }
-    protected void LnkPrvs_Click(object sender, EventArgs e)
-    {
-        ViewState["PageNumber"] = (int)(ViewState["PageNumber"]) - 1;
-        FunSearch();
-    }
 
-    public void FunSearch()
+    public void FunSearch(int iFrom)
     {
         string[] aja = { "-1", "-1" };
         if (ddlJobAreas.SelectedValue != "-1" & ddlJobAreas.SelectedValue != string.Empty)
@@ -204,20 +192,65 @@ public partial class JobSearch : System.Web.UI.Page
             cityid = string.IsNullOrEmpty(ddlCity.SelectedValue) ? -1 : Convert.ToInt32(ddlCity.SelectedItem.Value);
         string keywrd = keywords.Text;
 
-        Jobs Job = new Jobs();
+        if (iFrom == 0) // Reset | ReSearch
+        {
+            ViewState["MysortDirection"] = null;
+            ViewState["sortExpression"] = null;
+        }
 
+        Jobs Job = new Jobs();   
         ListDictionary MyListDictionary = new ListDictionary();
-        MyListDictionary = Job.SearchJobs(aot, jf, stateid, cityid, keywrd, (int)(ViewState["PageNumber"]), RecPerPage);
+        MyListDictionary = Job.SearchJobs_ListDictionary(aot, jf, stateid, cityid, keywrd, (int)(ViewState["PageNumber"]), RecPerPage, (string)ViewState["sortExpression"], (string)ViewState["MysortDirection"]);
         DataTable DT = (DataTable)MyListDictionary["JobSearchResults"];
 
         foreach (DataControlField c in GrdResults.Columns)
         {
-            //Set all column headers as bold!!!
-            c.HeaderText = "<b>" + c.HeaderText + "</b>";
+            //Set all column headers as bold!!! | Remove all images!!!
+            if (!c.HeaderText.Contains("<span title="))
+            {
+                if (c.HeaderText.Contains("Title")) { c.HeaderText = "<span title='Sort by job title in either ascending or descending order'><b>" + c.HeaderText + "</b></span>"; }
+                if (c.HeaderText.Contains("Location")) { c.HeaderText = "<span title='Sort by location in either ascending or descending order'><b>" + c.HeaderText + "</b></span>"; }
+                if (c.HeaderText.Contains("Date")) { c.HeaderText = "<span title='Sort by date in either ascending or descending order'><b>" + c.HeaderText + "</b></span>"; }
+            }
+            if (iFrom != 1) // from Next | Previous
+            {
+                c.HeaderText = c.HeaderText.Replace(" <img src='images/upArrow.gif' border='0'>", String.Empty);
+                c.HeaderText = c.HeaderText.Replace(" <img src='images/dnArrow.gif' border='0'>", String.Empty);
+            }
+            if (iFrom == 2)  // from Sort(GrdResults_OnSorting)
+            {
+                //Assign proper image to proper column
+                if (c.SortExpression == (string)ViewState["sortExpression"])
+                {
+                    if ((string)ViewState["MysortDirection"] == " ASC")
+                    { c.HeaderText += " <img src='images/upArrow.gif' border='0'>"; }
+                    if ((string)ViewState["MysortDirection"] == " DESC")
+                    { c.HeaderText += " <img src='images/dnArrow.gif' border='0'>"; }
+                }
+            }
         }
 
-        GrdResults.DataSource = DT;
-        GrdResults.DataBind();
+        if (iFrom == 0) // Reset | ReSearch
+        {
+            GrdResults.DataSource = DT;
+            GrdResults.DataBind();
+        }
+        else if (iFrom == 1) // from Next | Previous
+        {
+            DataView dv = new DataView(DT);
+            dv.Sort = (string)ViewState["sortExpression"] + (string)ViewState["MysortDirection"];
+            GrdResults.DataSource = dv;
+            GrdResults.DataBind();
+            GrdResults.PageIndex = (int)ViewState["PageNumber"];
+        }
+        else if (iFrom == 2) // from Sort(GrdResults_OnSorting)
+        {
+            DataView dv = new DataView(DT);
+            dv.Sort = (string)ViewState["sortExpression"] + (string)ViewState["MysortDirection"];
+            GrdResults.DataSource = dv;
+            GrdResults.DataBind();
+            GrdResults.PageIndex = 0;
+        }   
 
         this.divNext.Attributes["style"] = ((Boolean)MyListDictionary["NextButton"]) ? " display: inline;" : " display: none;";
         this.divPrev.Attributes["style"] = ((Boolean)MyListDictionary["PrevButton"]) ? " display: inline;" : " display: none;";
@@ -234,16 +267,18 @@ public partial class JobSearch : System.Web.UI.Page
     protected void GrdResults_OnSorting(object sender, GridViewSortEventArgs e)
     {
         string sortExpression = e.SortExpression;
+        ViewState["sortExpression"] = sortExpression;
         if (GridViewSortDirection == SortDirection.Ascending)
         {
             GridViewSortDirection = SortDirection.Descending;
-            SortGridView(sender, sortExpression, " DESC");
+            ViewState["MysortDirection"] = " DESC";
         }
         else
         {
             GridViewSortDirection = SortDirection.Ascending;
-            SortGridView(sender, sortExpression, " ASC");
+            ViewState["MysortDirection"] = " ASC";
         }
+        FunSearch(2);
     }
 
     public SortDirection GridViewSortDirection
@@ -257,69 +292,25 @@ public partial class JobSearch : System.Web.UI.Page
         set { ViewState["sortDirection"] = value; }
     }
 
-    private void SortGridView(object sender, string sSortExpression, string sDirection)
+    #endregion
+
+    protected void bsearch_Click(object sender, EventArgs e)
     {
-        string[] aja = { "-1", "-1" };
-        if (ddlJobAreas.SelectedValue != "-1" & ddlJobAreas.SelectedValue != string.Empty)
-        {
-            aja = ddlJobAreas.SelectedValue.Split("|".ToCharArray());
-        }
-        else if (!string.IsNullOrEmpty(Request.QueryString["jobareas"]) && Request.QueryString["jobareas"].ToLowerInvariant() != "select a job area")
-        {
-            aja = Request.QueryString["jobareas"].Split("|".ToCharArray());
-        }
-        int aot = (aja[0] == null) ? -1 : Convert.ToInt32(aja[0]);
-        string jf = string.IsNullOrEmpty(aja[1].ToString()) ? "" : aja[1];
-
-        //int stateid = string.IsNullOrEmpty(ddlState.SelectedValue) ? -1 : Convert.ToInt32(string.IsNullOrEmpty(ViewState["statequery"].ToString()) ? ddlState.SelectedItem.Value : ViewState["statequery"].ToString());
-        int stateid = string.IsNullOrEmpty(ddlState.SelectedValue) ? -1 : Convert.ToInt32(ddlState.SelectedValue);
-        ViewState["statequery"] = null;
-        int cityid;
-        if (stateid < 0)
-            cityid = -1;
-        else
-            cityid = string.IsNullOrEmpty(ddlCity.SelectedValue) ? -1 : Convert.ToInt32(ddlCity.SelectedItem.Value);
-        string keywrd = keywords.Text;
-
-        Jobs Job = new Jobs();
-
-        ListDictionary MyListDictionary = new ListDictionary();
-        MyListDictionary = Job.SearchJobs(aot, jf, stateid, cityid, keywrd, (int)(ViewState["PageNumber"]), RecPerPage);
-        DataTable DT = (DataTable)MyListDictionary["JobSearchResults"];
-
-        foreach (DataControlField c in ((GridView)sender).Columns)
-        {
-            //Clear any <img> tags that might be present for all columns!!!
-            c.HeaderText = c.HeaderText.Replace(" <img src='images/upArrow.gif' border='0'>", String.Empty);
-            c.HeaderText = c.HeaderText.Replace(" <img src='images/dnArrow.gif' border='0'>", String.Empty);
-
-            //Assign proper image to proper column
-            if (c.SortExpression == sSortExpression)
-            {
-                if (sDirection == " ASC")
-                { c.HeaderText += " <img src='images/upArrow.gif' border='0'>"; }
-                if (sDirection == " DESC")
-                { c.HeaderText += " <img src='images/dnArrow.gif' border='0'>"; }
-            }
-        }
-
-        DataView dv = new DataView(DT);
-        dv.Sort = sSortExpression + sDirection;
-        ((GridView)sender).DataSource = dv;
-        ((GridView)sender).DataBind();
-        ((GridView)sender).PageIndex = 0;
-
-        this.divNext.Attributes["style"] = ((Boolean)MyListDictionary["NextButton"]) ? " display: inline;" : " display: none;";
-        this.divPrev.Attributes["style"] = ((Boolean)MyListDictionary["PrevButton"]) ? " display: inline;" : " display: none;";
-        //this.dNext.Attributes["style"] = ((Boolean)MyListDictionary["NextButton"]) ? " display: inline;" : " display: none;";
-        //this.dPrev.Attributes["style"] = ((Boolean)MyListDictionary["PrevButton"]) ? " display: inline;" : " display: none;";
-
-        LblPageOfPages.Text = MyListDictionary["PageOfPages"].ToString();
-        this.lblJobofJobs.Visible = Convert.ToBoolean(MyListDictionary["RecordCount"]);
-        this.lblJobofJobs.Text = MyListDictionary["JobToJobs"].ToString();
+        ViewState["PageNumber"] = 1;
+        FunSearch(0);
+        GrdResults.Visible = true;
     }
 
-    #endregion
+    protected void LnkNxt_Click(object sender, EventArgs e)
+    {
+        ViewState["PageNumber"] = (int)(ViewState["PageNumber"]) + 1;
+        FunSearch(1);
+    }
+    protected void LnkPrvs_Click(object sender, EventArgs e)
+    {
+        ViewState["PageNumber"] = (int)(ViewState["PageNumber"]) - 1;
+        FunSearch(1);
+    }
 
     protected void PopulateLocations()
     {

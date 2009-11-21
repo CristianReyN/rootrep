@@ -107,7 +107,7 @@
                 CellPadding="0" 
                 GridLines="None"                
                 ToolTip="Search Results " 
-                summary="Search Results " 
+                summary="Search Results. The first column is the Job Title.  The second column is the Location.  The third column is the Date. " 
                 EmptyDataRowStyle-ForeColor="Red"
                 AllowSorting="True" OnSorting="GrdResults_OnSorting"
                 >
