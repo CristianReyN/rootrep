@@ -23,76 +23,111 @@ public class Jobs
     #endregion
 
     string Sql;
+	private string constring;
     public Jobs()
     {
-        //
-        // TODO: Add constructor logic here
-        //
+		constring = ConfigurationManager.AppSettings["StrUdlFileName"];
     }
     public DataTable Travel()
     {
-        DBUtils db;
-        try
+		OleDbConnection con = new OleDbConnection(constring);
+		con.Open();
+		try
         {
             Sql = string.Empty;
             Sql = "select TravelID,Travel from Travel";
-            db = new DBUtils();
-        }
-        catch (Exception ex)
-        {
-            throw ex;
-        }
-        return db.GetDataTable(Sql);
+			DataSet ds = new DataSet();
+
+			OleDbDataAdapter da = new OleDbDataAdapter(Sql, con);
+			da.Fill(ds);
+			con.Close();
+			return ds.Tables[0];
+		}
+		catch (Exception ex)
+		{
+			throw ex;
+		}
+		finally
+		{
+			con.Close();
+		}
 
     }
 
     public DataTable Type()
     {
-        DBUtils db;
-        try
+		OleDbConnection con = new OleDbConnection(constring);
+		con.Open();
+		try
         {
             Sql = string.Empty;
             Sql = "select FullTimePartTimeID,FullTimePartTime from FullTimePartTime";
-            db = new DBUtils();
-        }
-        catch (Exception ex)
-        {
-            throw ex;
-        }
-        return db.GetDataTable(Sql);
+			DataSet ds = new DataSet();
+
+			OleDbDataAdapter da = new OleDbDataAdapter(Sql, con);
+			da.Fill(ds);
+			con.Close();
+			return ds.Tables[0];
+		}
+		catch (Exception ex)
+		{
+			throw ex;
+		}
+		finally
+		{
+			con.Close();
+		}
 
     }
     public DataTable Shift()
     {
-        DBUtils db;
-        try
+		OleDbConnection con = new OleDbConnection(constring);
+		con.Open();
+		try
         {
             Sql = string.Empty;
             Sql = "select ShiftID,Shift from Shift";
-            db = new DBUtils();
-        }
-        catch (Exception ex)
-        {
-            throw ex;
-        }
-        return db.GetDataTable(Sql);
+			DataSet ds = new DataSet();
+
+			OleDbDataAdapter da = new OleDbDataAdapter(Sql, con);
+			da.Fill(ds);
+			con.Close();
+			return ds.Tables[0];
+		}
+		catch (Exception ex)
+		{
+			throw ex;
+		}
+		finally
+		{
+			con.Close();
+		}
 
     }
 
     public DataTable Language()
     {
-        DBUtils db;
-        try
+		OleDbConnection con = new OleDbConnection(constring);
+		con.Open();
+		try
         {
             Sql = string.Empty;
             Sql = "select distinct Language_requirements from Jobs1";
-            db = new DBUtils();
-        }
-        catch (Exception ex)
-        {
-            throw ex;
-        }
-        return db.GetDataTable(Sql);
+			DataSet ds = new DataSet();
+
+			OleDbDataAdapter da = new OleDbDataAdapter(Sql, con);
+			da.Fill(ds);
+			con.Close();
+			return ds.Tables[0];
+		}
+		catch (Exception ex)
+		{
+			throw ex;
+		}
+		finally
+		{
+			con.Close();
+		}
 
     }
     /// <summary>
@@ -101,115 +136,124 @@ public class Jobs
     /// <returns>Dataset Containg</returns>
     public DataTable PostDate()
     {
-        DBUtils db;
-        try
+		OleDbConnection con = new OleDbConnection(constring);
+		con.Open();
+		try
         {
             Sql = string.Empty;
             Sql = "select Posting_Date from Jobs1";
-            db = new DBUtils();
-        }
-        catch (Exception ex)
-        {
-            throw ex;
-        }
-        return db.GetDataTable(Sql);
+			DataSet ds = new DataSet();
+
+			OleDbDataAdapter da = new OleDbDataAdapter(Sql, con);
+			da.Fill(ds);
+			con.Close();
+			return ds.Tables[0];
+		}
+		catch (Exception ex)
+		{
+			throw ex;
+		}
+		finally
+		{
+			con.Close();
+		}
 
     }
     public DataTable JobDetails(string JobId)
     {
-        DBUtils db;
-        try
-        {
-            db = new DBUtils();
-            OleDbCommand cmd = new OleDbCommand("Sp_Career_Sites_JobDetails", db.GetConnection());
-            cmd.CommandType = CommandType.StoredProcedure;
-            cmd.Parameters.AddWithValue("@JobId", JobId);
-            OleDbDataAdapter da = new OleDbDataAdapter(cmd);
-            DataSet ds = new DataSet();
-            da.Fill(ds);
-            return ds.Tables[0];
-        }
-        catch (Exception ex)
-        {
-            throw ex;
-        }
-        return db.GetDataTable(Sql);
+		OleDbConnection con = new OleDbConnection(constring);
+		con.Open();
+		try
+		{
+			OleDbCommand cmd = new OleDbCommand("Sp_Career_Sites_JobDetails", con);
+			cmd.CommandType = CommandType.StoredProcedure;
+			cmd.Parameters.AddWithValue("@JobId", JobId);
+			OleDbDataAdapter da = new OleDbDataAdapter(cmd);
+			DataSet ds = new DataSet();
+			da.Fill(ds);
+			return ds.Tables[0];
+		}
+		catch (Exception ex)
+		{
+			throw ex;
+		}
+		finally
+		{
+			con.Close();
+		}
 
     }
 
     public DataTable Search(int aot, string Jobfamily, int stateid, int cityid, string keywords, int strRec, int endRec)
     {
-        DBUtils db;
-        try
-        {
+		OleDbConnection con = new OleDbConnection(constring);
+		con.Open();
+		try
+		{
+			OleDbCommand cmd = new OleDbCommand("p_boaJobSearch", con);
+			cmd.CommandType = CommandType.StoredProcedure;
+			cmd.Parameters.AddWithValue("@AreasOfTalent", aot);
+			cmd.Parameters.AddWithValue("@Family", Jobfamily.TrimEnd(",".ToCharArray()));
+			cmd.Parameters.AddWithValue("@State", stateid);
+			cmd.Parameters.AddWithValue("@City", cityid);
+			cmd.Parameters.AddWithValue("@KeyWords", keywords);
 
-            db = new DBUtils();
-            OleDbCommand cmd = new OleDbCommand("p_boaJobSearch", db.GetConnection());
-            cmd.CommandType = CommandType.StoredProcedure;
-            cmd.Parameters.AddWithValue("@AreasOfTalent", aot);
-            cmd.Parameters.AddWithValue("@Family", Jobfamily.TrimEnd(",".ToCharArray()));
-            cmd.Parameters.AddWithValue("@State", stateid);
-            cmd.Parameters.AddWithValue("@City", cityid);
-            cmd.Parameters.AddWithValue("@KeyWords", keywords);
+			OleDbDataAdapter da = new OleDbDataAdapter(cmd);
+			DataSet ds = new DataSet();
 
-            OleDbDataAdapter da = new OleDbDataAdapter(cmd);
-            DataSet ds = new DataSet();
-
-
-            da.Fill(ds, strRec, endRec, "SearchResults");
-
-            //da.Fill(ds);
-            //da.Fill(ds, 1, 3, "SearchResults");
-            //int o;
-            //o = ds.Tables[0].Rows.Count;
-
-            return ds.Tables[0];
-        }
-        catch (Exception ex)
-        {
-            throw ex;
-        }
-        return db.GetDataTable(Sql);
-
+			da.Fill(ds, strRec, endRec, "SearchResults");
+			return ds.Tables[0];
+		}
+		catch (Exception ex)
+		{
+			throw ex;
+		}
+		finally
+		{
+			con.Close();
+		}
     }
 
     public DataTable AdvSearch(string jf, string state, string city, string Travel, string Lang, string fullPart, string Shift, string PostDate, string keywrd, int strRec, int endRec)
     {
-        DBUtils db;
-        try
-        {
-            if (PostDate == "0")
-                PostDate = "";
+		OleDbConnection con = new OleDbConnection(constring);
+		con.Open();
+		try
+		{
+			if (PostDate == "0")
+				PostDate = "";
 
-            db = new DBUtils();
-            OleDbCommand cmd = new OleDbCommand("Sp_Career_Sites_select_AdvSearch_results", db.GetConnection());
-            cmd.CommandType = CommandType.StoredProcedure;
-            cmd.Parameters.AddWithValue("@Family", jf);
-            cmd.Parameters.AddWithValue("@State", state);
-            cmd.Parameters.AddWithValue("@City", city);
-            cmd.Parameters.AddWithValue("@Travel", Travel);
-            cmd.Parameters.AddWithValue("@Lang", Lang);
-            cmd.Parameters.AddWithValue("@fullPart", fullPart);
-            cmd.Parameters.AddWithValue("@Shift", Shift);
-            cmd.Parameters.AddWithValue("@PostDate", PostDate);
-            cmd.Parameters.AddWithValue("@KeyWords", keywrd);
+			OleDbCommand cmd = new OleDbCommand("Sp_Career_Sites_select_AdvSearch_results", con);
+			cmd.CommandType = CommandType.StoredProcedure;
+			cmd.Parameters.AddWithValue("@Family", jf);
+			cmd.Parameters.AddWithValue("@State", state);
+			cmd.Parameters.AddWithValue("@City", city);
+			cmd.Parameters.AddWithValue("@Travel", Travel);
+			cmd.Parameters.AddWithValue("@Lang", Lang);
+			cmd.Parameters.AddWithValue("@fullPart", fullPart);
+			cmd.Parameters.AddWithValue("@Shift", Shift);
+			cmd.Parameters.AddWithValue("@PostDate", PostDate);
+			cmd.Parameters.AddWithValue("@KeyWords", keywrd);
 
-            OleDbDataAdapter da = new OleDbDataAdapter(cmd);
-            DataSet ds = new DataSet();
-            da.Fill(ds, strRec, endRec, "AdvSearch");
-            return ds.Tables[0];
-        }
-        catch (Exception ex)
-        {
-            throw ex;
-        }
-        return db.GetDataTable(Sql);
-
+			OleDbDataAdapter da = new OleDbDataAdapter(cmd);
+			DataSet ds = new DataSet();
+			da.Fill(ds, strRec, endRec, "AdvSearch");
+			return ds.Tables[0];
+		}
+		catch (Exception ex)
+		{
+			throw ex;
+		}
+		finally
+		{
+			con.Close();
+		}
     }
     public DataView AddJobCart(string JobCartID, string JobID)
     {
-        DBUtils db = new DBUtils();
-        OleDbCommand cmd = new OleDbCommand("Sp_Career_AddJobCard", db.GetConnection());
+		OleDbConnection con = new OleDbConnection(constring);
+		con.Open();
+		OleDbCommand cmd = new OleDbCommand("Sp_Career_AddJobCard", con);
         cmd.CommandType = CommandType.StoredProcedure;
         cmd.Parameters.AddWithValue("@JobCartID", JobCartID);
         cmd.Parameters.AddWithValue("@JobID", JobID);
@@ -217,12 +261,14 @@ public class Jobs
         OleDbDataAdapter da = new OleDbDataAdapter(cmd);
         DataSet ds = new DataSet();
         da.Fill(ds);
+		con.Close();
         return ds.Tables[0].DefaultView;
     }
     public DataView RemoveJobCart(string JobCartID, string JobList)
     {
-        DBUtils db = new DBUtils();
-        OleDbCommand cmd = new OleDbCommand("Sp_Career_RemoveJobCart", db.GetConnection());
+		OleDbConnection con = new OleDbConnection(constring);
+		con.Open();
+		OleDbCommand cmd = new OleDbCommand("Sp_Career_RemoveJobCart", con);
         cmd.CommandType = CommandType.StoredProcedure;
         cmd.Parameters.AddWithValue("@JobCartID", JobCartID);
         cmd.Parameters.AddWithValue("@JobList", JobList);
@@ -230,26 +276,28 @@ public class Jobs
         OleDbDataAdapter da = new OleDbDataAdapter(cmd);
         DataSet ds = new DataSet();
         da.Fill(ds);
+		con.Close();
         return ds.Tables[0].DefaultView;
     }
     public DataView RetrieveJobCart(string JobCartID)
     {
-        DBUtils db = new DBUtils();
-        OleDbCommand cmd = new OleDbCommand("Sp_Career_RetrieveJobCart", db.GetConnection());
+		OleDbConnection con = new OleDbConnection(constring);
+		con.Open();
+		OleDbCommand cmd = new OleDbCommand("Sp_Career_RetrieveJobCart", con);
         cmd.CommandType = CommandType.StoredProcedure;
         cmd.Parameters.AddWithValue("@JobCartID", JobCartID);
 
         OleDbDataAdapter da = new OleDbDataAdapter(cmd);
         DataSet ds = new DataSet();
         da.Fill(ds);
+		con.Close();
         return ds.Tables[0].DefaultView;
     }
     public ListDictionary SearchJobs(int aot, string Jobfamily, int stateid, int cityid, string keywords, int PageNumber, int RowPerPage)
     {
-        DBUtils db;
-
-        db = new DBUtils();
-        OleDbCommand cmd = new OleDbCommand("p_boaJobSearch", db.GetConnection());
+		OleDbConnection con = new OleDbConnection(constring);
+		con.Open();
+		OleDbCommand cmd = new OleDbCommand("p_boaJobSearch", con);
         cmd.CommandType = CommandType.StoredProcedure;
         cmd.Parameters.AddWithValue("@AreasOfTalent", aot);
         cmd.Parameters.AddWithValue("@Family", Jobfamily.TrimEnd(",".ToCharArray()));
@@ -284,6 +332,7 @@ public class Jobs
         startpage = 1 + (RowPerPage * (PageNumber - 1));
         endpage = startpage + ds.Tables[0].Rows.Count - 1;
         MyListDictionary.Add("JobToJobs", "Showing " + Convert.ToString(startpage) + " to " + Convert.ToString(endpage) + " of " + TotalRow + " jobs.");
+		con.Close();
         return MyListDictionary;
     }
     public static Boolean ShowNextButton(int TotalRow, int PageNumber, int TotalPage)

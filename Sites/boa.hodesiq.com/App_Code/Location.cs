@@ -12,66 +12,84 @@ using System.Web.Security;
 public class Location
 {
     string Sql;
+	private string constring;
+
 	public Location()
 	{
-		//
-		// TODO: Add constructor logic here
-		//
+		constring = ConfigurationManager.AppSettings["StrUdlFileName"];
 	}
     public DataTable City()
     {
-        DBUtils db;
-        try
+		OleDbConnection con = new OleDbConnection(constring);
+		con.Open();
+		try
         {
             Sql = string.Empty;
             Sql = "select distinct cityid, city from locations1";
-            db = new DBUtils();
-        }
-        catch (Exception ex)
-        {
-            throw ex;
+			DataSet ds = new DataSet();
 
-        }
-
-        return db.GetDataTable(Sql);
+			OleDbDataAdapter da = new OleDbDataAdapter(Sql, con);
+			da.Fill(ds);
+			con.Close();
+			return ds.Tables[0];
+		}
+		catch (Exception ex)
+		{
+			throw ex;
+		}
+		finally
+		{
+			con.Close();
+		}
     
     }
     public DataTable State()
     {
-        DBUtils db;
-        try
+		OleDbConnection con = new OleDbConnection(constring);
+		con.Open();
+		try
         {
             Sql = string.Empty;
             Sql = "SELECT DISTINCT State AS State, StateID FROM Locations1 l ORDER BY StateID";
-            db = new DBUtils();
-        }
-        catch (Exception ex)
-        {
-            throw ex;
-        }
-        return db.GetDataTable(Sql);
+			DataSet ds = new DataSet();
+
+			OleDbDataAdapter da = new OleDbDataAdapter(Sql, con);
+			da.Fill(ds);
+			con.Close();
+			return ds.Tables[0];
+		}
+		catch (Exception ex)
+		{
+			throw ex;
+		}
+		finally
+		{
+			con.Close();
+		}
     }
 
     public DataTable StatewiseCity(int StateVal)
     {
-        DBUtils db;
-        try
-        {
-
-            db = new DBUtils();
-            OleDbCommand cmd = new OleDbCommand("p_Career_Sites_select_City ", db.GetConnection());
-            cmd.CommandType = CommandType.StoredProcedure;
-            cmd.Parameters.AddWithValue("@Stateid", StateVal);
-            OleDbDataAdapter da = new OleDbDataAdapter(cmd);
-            DataSet ds = new DataSet();
-            da.Fill(ds);
-            return ds.Tables[0];
-        }
-        catch (Exception ex)
-        {
-            throw ex;
-        }
-        return db.GetDataTable(Sql);
+		OleDbConnection con = new OleDbConnection(constring);
+		con.Open();
+		try
+		{
+			OleDbCommand cmd = new OleDbCommand("p_Career_Sites_select_City ", con);
+			cmd.CommandType = CommandType.StoredProcedure;
+			cmd.Parameters.AddWithValue("@Stateid", StateVal);
+			OleDbDataAdapter da = new OleDbDataAdapter(cmd);
+			DataSet ds = new DataSet();
+			da.Fill(ds);
+			return ds.Tables[0];
+		}
+		catch (Exception ex)
+		{
+			throw ex;
+		}
+		finally
+		{
+			con.Close();
+		}
 
 
     }
