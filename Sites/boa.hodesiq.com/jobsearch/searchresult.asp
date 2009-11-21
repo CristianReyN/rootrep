@@ -9,6 +9,6 @@ Dim selareas, requestfrom, areasoftalent, jobareas
 	'If selareas = "Select" and requestfrom <> "" Then Response.Redirect(requestfrom&"?areasoftalent="&areasoftalent&"&jfamily="&jfamily&"&stateid="&stateid&"&keywords="&keywords)
 	
 	jobareas = Request("jobareas")
-	Response.Redirect("http://boa.hodesiq.com/jobsearch.aspx"&"?jobareas="&jobareas&"&stateid="&stateid&"&keywords="&keywords)
+	Response.Redirect("../jobsearch.aspx"&"?jobareas="&jobareas&"&stateid="&stateid&"&keywords="&keywords)
 %>
 
