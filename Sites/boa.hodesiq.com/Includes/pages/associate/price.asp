@@ -2,6 +2,7 @@
 <script language="JavaScript1.2" src="../Includes/pages/associate/associate.js" type="text/javascript"></script>
 <script language="JavaScript1.2" type="text/javascript">
 if ( hasRequestedVersion ) {
+	document.write('<span class="ada-label">Allen Price&acute;s Associate Testimonial Video</span>');
 	document.write(Price_video);
 	document.write(strReplace(strReplace(strReplace(html_control,"<text>","Video transcript"),"<title>","Video transcript"),"<href>","<%=ada_href %>"));
 	createStopAudio();
@@ -10,6 +11,7 @@ if ( hasRequestedVersion ) {
 }
 </script>
 <noscript>
+<span class="ada-label">Allen Price&acute;s Associate Testimonial Video</span>
 <object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0" width="259" height="166" id="javaflash" align="middle">
 	<param name="wmode" value="transparent">
 	<param name="allowScriptAccess" value="always" />
@@ -21,7 +23,7 @@ if ( hasRequestedVersion ) {
 </noscript>
 <% Else %>
 <div class="transcript">
-<a name="vt"></a><h2 class="h1" style="margin: 0px 0px 6px 0px;"><span>Video trascript</span></h2>
+<a name="vt"></a><h2 class="h1" style="margin: 0px 0px 6px 0px;"><span>Video transcript</span></h2>
 <p>
 >>Allen Price, GMRM Global Credit: My name is Allen Price.<br>
 I am a Senior Vice President in the Global Corporate Investment Bank Risk Management Group.<br>
