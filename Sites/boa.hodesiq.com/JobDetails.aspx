@@ -88,7 +88,7 @@
                     <tr>
                         <td style="padding: 18px 6px 0px 0px; height: 156px;" valign="top">
                         <asp:ImageButton runat="server" id="bttnTellAFriend" Height="23" Width="153" OnClick="bttnTellAFriend_Click" AlternateText="Send this job to a friend" ImageUrl="~/images/tellafriend.GIF"/><br />
-                        <asp:ImageButton runat="server" id="bttnJobList" Height="23" Width="154" OnClick="bttnJobList_Click" AlternateText="Return to Job List" ImageUrl="~/images/joblistreturn.GIF"/><br />
+                        <asp:ImageButton runat="server" id="bttnJobList" Height="23" Width="154" OnClick="bttnJobList_Click" AlternateText="Return to Job List" ImageUrl="~/images/joblistreturn.GIF" Visible="false" /><br />
                            <!-- 
                             <asp:HyperLink ID="TellaFriend" runat="server" CssClass="p" ToolTip="Send this job to a friend">Send this job to a friend</asp:HyperLink><br />
                             <br />
