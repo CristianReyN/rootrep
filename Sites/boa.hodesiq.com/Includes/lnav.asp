@@ -58,15 +58,7 @@
 <div><a class="g" href="../staffingevents/staffingevents.asp" title="Staffing Events" onfocus="this.className='g-over';" onblur="this.className='g';">Staffing Events</a></div>
 		</li>
 		<li id="globalli"<% if mpage = "globalcareers" And spage = "" then Response.Write " class=""home""" end if %>>
-<div<%If mpage = "globalcareers" Then%> style="padding-right: 0px;"<%End If%>><a class="g" href="<%=GLOBAL_URL%>" id="globallia" title="Global Careers" onfocus="this.className='g-over';" onblur="this.className='g';">Global Careers</a>
-<%
-	If mpage = "globalcareers" Then
-		call GlobalCareersNav(""," class=""home""")
-	Else
-		call GlobalCareersNav(" id=""glc""","")
-	End If
-%>
-</div>
+<div<%If mpage = "globalcareers" Then%> style="padding-right: 0px;"<%End If%>><a class="g" href="<%=GLOBAL_URL%>" id="globallia" title="Global Careers" onfocus="this.className='g-over';" onblur="this.className='g';">Global Careers</a></div>
 		</li>
 		<li<% if mpage = "fags" then Response.Write " style=""background: #eaf1f7;""" end if %>>
 <div><a class="g" href="../faq/faq.asp" title="Frequently Asked Questions" onfocus="this.className='g-over';" onblur="this.className='g';">Frequently Asked Questions</a></div>
@@ -172,61 +164,6 @@
 <%	End If %>
 				<li<% Response.Write li %><% if spage = "lb_career_compass" then Response.Write " style=""background: #eaf1f7;""" end if %>><div><a href="../learnmore/lb_career_compass.asp" class="sbtxt" title="Skills Assessment" onfocus="this.className='sbtxt-over';" onblur="this.className='sbtxt';">Skills Assessment</a></div>
 				</li>
-			</ul>
-<%
-	End Function
-%>
-
-
-
-<%
-	Function GlobalCareersNav(id,ul)
-%>			<ul<% Response.Write id %><% Response.Write ul %>>
-				<li<% if spage = "asia" And tpage = "" then Response.Write " style=""background: #eaf1f7;""" end if %>>
-<div><a href="<%=GLOBAL_URL%>asia.aspx" class="sbtxt" title="Asia" onfocus="this.className='sbtxt-over';" onblur="this.className='sbtxt';">Asia</a></div>
-				</li>
-<%	If mpage = "globalcareers" And spage = "asia" Then %>
-				<li class="tertiary"<% if tpage = "bana" then Response.Write " style=""background: #eaf1f7;""" end if %>><div><a href="<%=GLOBAL_URL%>bana.aspx" class="sbtxt" title="Bank of America in Asia" onfocus="this.className='sbtxt-over';" onblur="this.className='sbtxt';">Bank of America in Asia</a></div>
-				</li>
-				<li class="tertiary"<% if tpage = "bacs" And fpage = "" then Response.Write " style=""background: #eaf1f7;""" end if %>><div><a href="<%=GLOBAL_URL%>ba_continuum.aspx" class="sbtxt" title="BA Continuum" onfocus="this.className='sbtxt-over';" onblur="this.className='sbtxt';">BA Continuum</a></div>
-				</li>
-<%	End If %>
-<%	If mpage = "globalcareers" And spage = "asia" And tpage = "bacs" Then %>
-				<li class="quaternary"<% if fpage = "continuum_lob" then Response.Write " style=""background: #eaf1f7;""" end if %>><div><a href="<%=GLOBAL_URL%>continuum_lob.aspx" class="sbtxt" title="BA Continuum Lines of Business" onfocus="this.className='sbtxt-over';" onblur="this.className='sbtxt';">Lines of Business</a></div>
-				</li>
-				<li class="quaternary"<% if fpage = "continuum_benefits" then Response.Write " style=""background: #eaf1f7;""" end if %>><div><a href="<%=GLOBAL_URL%>continuum_benefits.aspx" class="sbtxt" title="BA Continuum Benefits" onfocus="this.className='sbtxt-over';" onblur="this.className='sbtxt';">Benefits</a></div>
-				</li>
-				<li class="quaternary"<% if fpage = "continuum_culture" then Response.Write " style=""background: #eaf1f7;""" end if %>><div><a href="<%=GLOBAL_URL%>continuum_culture.aspx" class="sbtxt" title="BA Continuum Culture &amp; Work Environment" onfocus="this.className='sbtxt-over';" onblur="this.className='sbtxt';">Culture &amp; Work Environment</a></div>
-				</li>
-				<li class="quaternary"<% if fpage = "continuum_staffing" then Response.Write " style=""background: #eaf1f7;""" end if %>><div><a href="<%=GLOBAL_URL%>continuum_staffing.aspx" class="sbtxt" title="BA Continuum Staffing Process" onfocus="this.className='sbtxt-over';" onblur="this.className='sbtxt';">Staffing Process</a></div>
-				</li>
-<%	End If %>
-				<li<% if spage = "canada" And tpage = "" then Response.Write " style=""background: #eaf1f7;""" end if %>>
-<div><a href="<%=GLOBAL_URL%>canada.aspx" class="sbtxt" title="Canada" onfocus="this.className='sbtxt-over';" onblur="this.className='sbtxt';">Canada</a></div>
-				</li>
-<%	If mpage = "globalcareers" And spage = "canada" Then %>
-				<li class="tertiary"<% if tpage = "canada_lob" then Response.Write " style=""background: #eaf1f7;""" end if %>><div><a href="<%=GLOBAL_URL%>canada_lob.aspx" class="sbtxt" title="Canada Lines of Business" onfocus="this.className='sbtxt-over';" onblur="this.className='sbtxt';">Lines of Business</a></div>
-				</li>
-				<li class="tertiary"<% if tpage = "canada_benefits" then Response.Write " style=""background: #eaf1f7;""" end if %>><div><a href="<%=GLOBAL_URL%>canada_benefits.aspx" class="sbtxt" title="Canada Benefits" onfocus="this.className='sbtxt-over';" onblur="this.className='sbtxt';">Benefits</a></div>
-				</li>
-				<li class="tertiary"<% if tpage = "canada_culture" then Response.Write " style=""background: #eaf1f7;""" end if %>><div><a href="<%=GLOBAL_URL%>canada_culture.aspx" class="sbtxt" title="Canada Culture &amp; Work Environment" onfocus="this.className='sbtxt-over';" onblur="this.className='sbtxt';">Culture &amp; Work Environment</a></div>
-				</li>
-				<li class="tertiary"<% if tpage = "canada_staffing" then Response.Write " style=""background: #eaf1f7;""" end if %>><div><a href="<%=GLOBAL_URL%>canada_staffing.aspx" class="sbtxt" title="Canada Staffing Process" onfocus="this.className='sbtxt-over';" onblur="this.className='sbtxt';">Staffing Process</a></div>
-				</li>
-<%	End If %>
-				<li<% if spage = "emea" And tpage = "" then Response.Write " style=""background: #eaf1f7;""" end if %>>
-<div><a href="<%=GLOBAL_URL%>emea.aspx" class="sbtxt" title="Europe, Middle East and Africa" onfocus="this.className='sbtxt-over';" onblur="this.className='sbtxt';">Europe, Middle East and Africa</a></div>
-				</li>
-<%	If mpage = "globalcareers" And spage = "emea" Then %>
-				<li class="tertiary"<% if tpage = "emea_lob" then Response.Write " style=""background: #eaf1f7;""" end if %>><div><a href="<%=GLOBAL_URL%>emea_lob.aspx" class="sbtxt" title="Europe, Middle East and Africa Lines of Business" onfocus="this.className='sbtxt-over';" onblur="this.className='sbtxt';">Lines of Business</a></div>
-				</li>
-				<li class="tertiary"<% if tpage = "emea_benefits" then Response.Write " style=""background: #eaf1f7;""" end if %>><div><a href="<%=GLOBAL_URL%>emea_benefits.aspx" class="sbtxt" title="Europe, Middle East and Africa Benefits" onfocus="this.className='sbtxt-over';" onblur="this.className='sbtxt';">Benefits</a></div>
-				</li>
-				<li class="tertiary"<% if tpage = "emea_culture" then Response.Write " style=""background: #eaf1f7;""" end if %>><div><a href="<%=GLOBAL_URL%>emea_culture.aspx" class="sbtxt" title="Europe, Middle East and Africa Culture &amp; Work Environment" onfocus="this.className='sbtxt-over';" onblur="this.className='sbtxt';">Culture &amp; Work Environment</a></div>
-				</li>
-				<li class="tertiary"<% if tpage = "emea_staffing" then Response.Write " style=""background: #eaf1f7;""" end if %>><div><a href="<%=GLOBAL_URL%>emea_staffing.aspx" class="sbtxt" title="Europe, Middle East and Africa Staffing Process" onfocus="this.className='sbtxt-over';" onblur="this.className='sbtxt';">Staffing Process</a></div>
-				</li>
-<%	End If %>
 			</ul>
 <%
 	End Function
