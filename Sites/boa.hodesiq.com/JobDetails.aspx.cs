@@ -121,9 +121,7 @@ public partial class JobDetails : System.Web.UI.Page
         }
         Jobs Jobs = new Jobs();
         DataView DW = Jobs.AddJobCart(GUID, Request.QueryString["JobId"].ToString());
-        LnkAddJobCart.Visible = false;
         LnkAddJobCart_bottom.Visible = false;
-        LnkRemoveFromJobCart.Visible = true;
         LnkRemoveFromJobCart_bottom.Visible = true;
         
     }
@@ -157,9 +155,7 @@ public partial class JobDetails : System.Web.UI.Page
         Root.RemoveAll();
         Document.RemoveAll();
 
-        LnkAddJobCart.Visible = true;
         LnkAddJobCart_bottom.Visible = true;
-        LnkRemoveFromJobCart.Visible = false;
         LnkRemoveFromJobCart_bottom.Visible = false;
 
     }

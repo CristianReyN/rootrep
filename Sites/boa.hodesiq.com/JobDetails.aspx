@@ -36,16 +36,11 @@
                                 &nbsp;</p>
                         </td>
                         <td  style="padding: 18px 0px 0px 6px;" valign="top">
-                            <!--<asp:LinkButton ID="LnkRemoveFromJobCart" runat="server" CssClass="p" Text="Remove from Job Cart" OnClick="LnkRemoveJobCart_OnClick"></asp:LinkButton>
-                            <asp:LinkButton ID="LnkAddJobCart" runat="server" CssClass="p" Text="Add to Job Cart" OnClick="LnkAddJobCart_OnClick"></asp:LinkButton>
-                            -->
-                            <asp:HyperLink ID="JobcartTop" runat="server" CssClass="p" ToolTip="Add to Job Cart" Visible="false">Add to Job Cart</asp:HyperLink><br />
-                            <br />
+                            <asp:HyperLink ID="JobcartTop" runat="server" CssClass="p" ToolTip="Add to Job Cart" Visible="false">Add to Job Cart</asp:HyperLink>
                             <asp:ImageButton runat="server" id="bttnAddToJobCart" Height="23" Width="101" OnClick="bttnAddToJobCart_Click" AlternateText="Add to Job Cart" ImageUrl="~/images/jobcartaddto.GIF"/>
-                            <asp:ImageButton runat="server" id="bttnRemoveFromJobCart" Height="23" Width="143" OnClick="bttnRemoveFromJobCart_Click" AlternateText="Remove from Job Cart" ImageUrl="~/images/jobcartremovefrom.GIF"/><br />
+                            <asp:ImageButton runat="server" id="bttnRemoveFromJobCart" Height="23" Width="143" OnClick="bttnRemoveFromJobCart_Click" AlternateText="Remove from Job Cart" ImageUrl="~/images/jobcartremovefrom.GIF"/>
                             &nbsp;<asp:ImageButton runat="server" id="bsearchTop" Height="23" Width="87" OnClick="bsearchTop_Click" AlternateText="View Job Cart" ImageUrl="~/images/jobcartview.GIF"/>
-                            <!--<asp:button runat="server" cssclass="bodybtn" id="bttnApplyNow1" width="150" text="Apply Now" OnClick="bttnApplyNow_Click" /><br/>-->
-                            <asp:HyperLink ID="applylnk" CssClass="p" runat="server" NavigateUrl="" Target="_blank" ><img src="images/apply_now.gif" alt="Apply Now" style="border-top-style: none; border-right-style: none; border-left-style: none; border-bottom-style: none;" /></asp:HyperLink>
+                            &nbsp;<asp:HyperLink ID="applylnk" CssClass="p" runat="server" NavigateUrl="" Target="_blank" ><img src="images/apply_now.gif" alt="Apply Now" style="border-top-style: none; border-right-style: none; border-left-style: none; border-bottom-style: none;" /></asp:HyperLink>
                         </td>
                     </tr>
                     <tr>
@@ -110,7 +105,7 @@
                             <asp:ImageButton runat="server" id="bttnRemoveFromJobCart_bottom" Height="23" Width="143" OnClick="bttnRemoveFromJobCart_Click" AlternateText="Remove from Job Cart" ImageUrl="~/images/jobcartremovefrom.GIF"/><br />
                             &nbsp;<asp:ImageButton runat="server" id="bsearch" Height="23" Width="87" OnClick="bsearch_Click" AlternateText="View Job Cart" ImageUrl="~/images/jobcartview.GIF"/>
                             <!--<asp:button runat="server" cssclass="bodybtn" id="bttnApplyNow_bottom" width="150" text="Apply Now" OnClick="bttnApplyNow_Click"/><br/>-->
-                            <asp:HyperLink ID="applylink" CssClass="p" runat="server" NavigateUrl="" Target="_blank" ><img src="images/apply_now.gif" alt="Apply Now" style="border-top-style: none; border-right-style: none; border-left-style: none; border-bottom-style: none;" /></asp:HyperLink>
+                            &nbsp;<asp:HyperLink ID="applylink" CssClass="p" runat="server" NavigateUrl="" Target="_blank" ><img src="images/apply_now.gif" alt="Apply Now" style="border-top-style: none; border-right-style: none; border-left-style: none; border-bottom-style: none;" /></asp:HyperLink>
                         </td>
                     </tr>
                 </table>
@@ -118,4 +113,5 @@
         </tr>
     </table>
 <asp:label id="lblMessage" runat="server"></asp:label>
+<a >Apply Now</a>
 </asp:Content>
