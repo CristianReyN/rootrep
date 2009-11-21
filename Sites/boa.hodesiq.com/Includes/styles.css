@@ -78,6 +78,14 @@ H2
     padding: 6px 0px 6px 0px;
 }
 
+H3, P.H3
+{
+    font: normal 1.1em/1.2em Verdana, helvetica, sans-serif;
+    color: #D40019;
+    text-decoration: none;
+    padding: 0px;
+}
+
 TD.tbl
 {
 	padding-right: 6px;
