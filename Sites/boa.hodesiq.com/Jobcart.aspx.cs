@@ -14,13 +14,13 @@ public partial class Jobcart : System.Web.UI.Page
     protected void Page_Load(object sender, EventArgs e)
     {
         string JobSearch;
-        string JobId;
+        string JobId="";
         JobSearch = Request.QueryString["SearchPage"];
-        if (Request.QueryString["SearchPage"].ToString() == "Sp")
+        if (Request.QueryString["SearchPage"] == "Sp")
         {
             SearchReturn.NavigateUrl = "jobsearch.aspx";
         }
-        else
+        else if (Request.QueryString["SearchPage"] == "ASP")
         {
             SearchReturn.NavigateUrl = "AdvanceSearch.aspx";
         }
@@ -36,11 +36,23 @@ public partial class Jobcart : System.Web.UI.Page
         }
         else
         {
-            
-            JobId = Request.Cookies["BOA"].Value.Replace("JobId=","").ToString();
-            Jobs Jobs = new Jobs();
-            grdJobcart.DataSource = Jobs.JobDetails(JobId);
-            grdJobcart.DataBind();
+            try
+            {
+                if (Request.Cookies["BOA"].Value != "" && Request.Cookies["BOA"].Value != null)
+                {
+                    JobId = Request.Cookies["BOA"].Value.Replace("JobId=", "").ToString();
+                }
+                Jobs Jobs = new Jobs();
+                grdJobcart.DataSource = Jobs.JobDetails(JobId);
+                grdJobcart.DataBind();
+            }
+            catch 
+            {
+                Jobs Jobs = new Jobs();
+                grdJobcart.DataSource = Jobs.JobDetails(JobId);
+                grdJobcart.DataBind();
+                
+            }
 
         }
 

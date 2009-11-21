@@ -158,7 +158,7 @@ public class Jobs
 
     }
 
-    public DataTable AdvSearch(string jf, string state, string city, string Travel, string Lang, string fullPart, string Shift, string PostDate, string keywrd)
+    public DataTable AdvSearch(string jf, string state, string city, string Travel, string Lang, string fullPart, string Shift, string PostDate, string keywrd, int strRec, int endRec)
     {
         DBUtils db;
         try
@@ -181,7 +181,7 @@ public class Jobs
 
             OleDbDataAdapter da = new OleDbDataAdapter(cmd);
             DataSet ds = new DataSet();
-            da.Fill(ds);
+            da.Fill(ds,strRec,endRec,"AdvSearch");
             return ds.Tables[0];
         }
         catch (Exception ex)

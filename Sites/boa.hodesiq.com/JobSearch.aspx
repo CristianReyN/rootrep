@@ -107,10 +107,14 @@
                                                 <b>There are no matching records found</b>
                                                 </EmptyDataTemplate>
                                             </asp:GridView><br />
+                                            <br />
+                                            <br />
+                                            
                                             <center>
-                                                <asp:Button visible="false" ID="LnkPrvs" runat="server" BackColor="Transparent" Text="Previous" OnClick="LnkPrvs_Click" />&nbsp;&nbsp;<span
-                                                    class="ftrtxt">|</span>&nbsp;&nbsp;
-                                                <asp:Button ID="LnkNxt" runat="server" BackColor="Transparent" Text="Next" Visible="false" OnClick="LnkNxt_Click" /></center>
+                                                <asp:Button ID="LnkPrvs" runat="server" CssClass="bodybtn" OnClick="LnkPrvs_Click"
+                                                    Text="Previous" Visible="false" />&nbsp;&nbsp;&nbsp;&nbsp;
+                                                <asp:Button ID="LnkNxt" runat="server" CssClass="bodybtn" OnClick="LnkNxt_Click"
+                                                    Text="Next" Visible="false" /></center>
                                         </td>
                                     </tr>
                                 </table>
