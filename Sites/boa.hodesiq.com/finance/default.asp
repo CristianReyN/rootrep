@@ -1,14 +1,14 @@
 <% Response.Buffer=True 
 Dim title, mpage, spage, ada_href, ada_title, flash, Metatag
-title = "Bank of America | Career | Operations"
+title = "Bank of America | Career | Finance"
 mpage = "areasoftalent"
-spage = "operations"
-ada_href = "../ada/operations.asp"
-page_self = "../operations/default.asp"
-ada_title = "Bank of America | Career | Operations, Text Only Version"
+spage = "finance"
+ada_href = "../ada/finance.asp"
+page_self = "../finance/default.asp"
+ada_title = "Bank of America | Career | Finance, Text Only Version"
 flash = true
 Dim subtitle
-subtitle="Operations"
+subtitle="Finance"
 Metatag="Areas of Talent: Job families have been categorized into a particular area of talent.  " & subtitle & " page includes a small description of the area of talent along with a video testimonial from an employee within the " & subtitle & " area.  Included on this page as well are hot job postings pulled from each of the job families within the finance area.  There are links as well to the career opportunities for the " & subtitle & " area."
 
 '****************************** ADDED FOR HOT JOB OPENING***************************
@@ -32,7 +32,7 @@ rowcount=6
 	<td valign="top" width="578" height="100%">
 <!-- Body--><a name="skipmaincontent"></a>
 <img src="../images/clear.gif" width="15" height="4" alt="" border="0"><br>
-<!-- #include file="../includes/pages/operations.asp" -->
+<!-- #include file="../includes/pages/finance.asp" -->
 <br><br>
 <!-- Body-->
 	</td>
