@@ -107,9 +107,9 @@ create_button("Search","javascript:submit_search();","btn1",null,null,null,null)
 <!-- Left Nav -->
 			<tr valign="top"><td valign="middle" style="background: #cadceb; padding: 0px 6px 0px 6px;"><a class="g" href="overview/overview.asp" id="overview" title="Overview" onfocus="this.className='g-over';" onblur="this.className='g';">Overview</a><a name="lnav1" id="overviewm"></a></td></tr>
 			<tr valign="top" style="background: #ffffff;"><td><img src="images/white.gif" width="154" height="1" alt="" border="0"></td></tr>
-			<tr valign="top"><td id="tdnavr" valign="middle" style="background: #cadceb; padding: 0px 6px 0px 6px;"onmouseover="popnavr(true);" onmouseout="popnavr(false);"><a class="g" href="learnmore/learnmore.asp" id="learnmore" title="Related Information" onfocus="this.className='g-over'; popnavr(true);" onblur="this.className='g'; popnavr(false);">Related Information</a><a name="lnav2" id="anavrm"></a></td></tr>
+			<tr valign="top"onmouseover="tdiv(false);" onmouseout="tdiv(true);"><td id="tdnavr" valign="middle" style="background: #cadceb; padding: 0px 6px 0px 6px;"onmouseover="popnavr(true);" onmouseout="popnavr(false);"><a class="g" href="learnmore/learnmore.asp" id="learnmore" title="Related Information" onfocus="this.className='g-over'; popnavr(true);" onblur="this.className='g'; popnavr(false);">Related Information</a><a name="lnav2" id="anavrm"></a></td></tr>
 			<tr valign="top" style="background: #ffffff;"><td><img src="images/white.gif" width="154" height="1" alt="" border="0"></td></tr>
-			<tr valign="top"><td id="tdnav" valign="middle" style="background: #cadceb; padding: 0px 6px 0px 6px;" onmouseover="popnav(true);" onmouseout="popnav(false);"><a name="lnav3" id="anavm"></a><a class="g" href="areasoftalent/areasoftalent.asp" id="areasoftalent" title="Areas of Talent" onfocus="this.className='g-over'; popnav(true);" onblur="this.className='g'; popnav(false);">Areas of Talent</a></td></tr>
+			<tr valign="top" onmouseover="tdiv(false);" onmouseout="tdiv(true);"><td id="tdnav" valign="middle" style="background: #cadceb; padding: 0px 6px 0px 6px;" onmouseover="popnav(true); " onmouseout="popnav(false);"><a name="lnav3" id="anavm"></a><a class="g" href="areasoftalent/areasoftalent.asp" id="areasoftalent" title="Areas of Talent" onfocus="this.className='g-over'; popnav(true);" onblur="this.className='g'; popnav(false);">Areas of Talent</a></td></tr>
 			<tr valign="top" style="background: #ffffff;"><td><img src="images/white.gif" width="154" height="1" alt="" border="0"></td></tr>
 			<tr valign="top"><td style="background: #cadceb; padding: 0px 6px 0px 6px;"><a name="lnav4" id="jsearchd"></a><a class="g" href="jobsearch.aspx" id="jsearch" title="Job Search" onfocus="this.className='g-over';" onblur="this.className='g';">Job Search</a></td></tr>
 			<tr valign="top" style="background: #ffffff;"><td><img src="images/white.gif" width="154" height="1" alt="" border="0"></td></tr>
@@ -119,6 +119,27 @@ create_button("Search","javascript:submit_search();","btn1",null,null,null,null)
 			<tr valign="top"><td style="background: #cadceb;" height="50" valign="bottom" align="right"><img src="images/clear.gif" width="154" height="1" alt="" border="0"><br>
 			</td></tr>
 			<tr valign="top"><td style="background: #ececec;" height="300" align="center">
+<script language="javascript" type="text/javascript">
+//<!--
+function tdiv(tf)
+{
+if (tf)
+    {
+    document.getElementById("d1").style.display="block";
+    document.getElementById("d2").style.display="block";
+    document.getElementById("d3").style.display="block";
+    document.getElementById("d4").style.display="block";
+    }
+    else
+    {
+    document.getElementById("d1").style.display="none";
+    document.getElementById("d2").style.display="none";
+    document.getElementById("d3").style.display="none";
+    document.getElementById("d4").style.display="none";
+    }
+}
+//-->
+</script>
 <script language="JavaScript1.2" type="text/javascript">
 //<!--
 requiredMajorVersion = 8;
@@ -304,7 +325,7 @@ function popnav(show)
 {var d=document; if(d.getElementById("tdtbnav")&&d.getElementById("tbnav")&&d.getElementById("tdnav")&&d.getElementById("anav")){if(show || anavShow){d.getElementById("anav").style.visibility = "visible"; d.getElementById("anav").style.display = "block";d.getElementById("anav").style.left=d.getElementById("tdtbnav").offsetLeft+d.getElementById("tbnav").offsetLeft+d.getElementById("tdnav").offsetLeft+d.getElementById("tdnav").offsetWidth-3;d.getElementById("anav").style.top=d.getElementById("tdtbnav").offsetTop+d.getElementById("tbnav").offsetTop+d.getElementById("tdnav").offsetTop;}else{d.getElementById("anav").style.visibility = "hidden"; d.getElementById("anav").style.display = "none";}
 } setTimeout("anavShow = false;",500);}
 </script>
-<div id="anav" style="position: absolute; left: 0px; top: 0px; visibility: hidden; display: none; z-index: 100; border: 1px solid #cccccc; font-size: 0.8em;" onmouseover="popnav(true);" onmouseout="popnav(false);">
+<div id="anav" style="position: absolute; left: 0px; top: 0px; visibility: hidden; display: none; z-index: 100; border: 1px solid #cccccc; font-size: 0.8em;" onmouseover="popnav(true);tdiv(false);" onmouseout="popnav(false);tdiv(true)">
 <table width="160" cellpadding="0" cellspacing="0" border="0" summary="Areas of Talent Navigation">
 			<tr valign="top"><td valign="middle" style="background: #cadceb; padding: 5px 6px 5px 14px;"><a name="lnav5" id="anavd"></a><a href="administration/" id="administration" class="sbtxt" title="Administration" onfocus="this.className='sbtxt-over';" onblur="this.className='sbtxt';">Administration</a></td></tr>
 			<tr valign="top"><td style="background: #cccccc;"><img src="images/clear.gif" width="154" height="1" alt="" border="0"></td></tr>
@@ -334,7 +355,7 @@ function popnavr(show)
 {var d=document; if(d.getElementById("tdtbnav")&&d.getElementById("tbnav")&&d.getElementById("tdnavr")&&d.getElementById("anavr")){if(show || anavrShow){d.getElementById("anavr").style.visibility = "visible"; d.getElementById("anavr").style.display = "block";d.getElementById("anavr").style.left=d.getElementById("tdtbnav").offsetLeft+d.getElementById("tbnav").offsetLeft+d.getElementById("tdnavr").offsetLeft+d.getElementById("tdnavr").offsetWidth-3;d.getElementById("anavr").style.top=d.getElementById("tdtbnav").offsetTop+d.getElementById("tbnav").offsetTop+d.getElementById("tdnavr").offsetTop;}else{d.getElementById("anavr").style.visibility = "hidden"; d.getElementById("anavr").style.display = "none";}
 } setTimeout("anavrShow = false;",500);}
 </script>
-<div id="anavr" style="position: absolute; left: 0px; top: 0px; visibility: hidden; display: none; z-index: 100; border: 1px solid #cccccc; font-size: 0.8em;" onmouseover="popnavr(true);" onmouseout="popnavr(false);">
+<div id="anavr" style="position: absolute; left: 0px; top: 0px; visibility: hidden; display: none; z-index: 100; border: 1px solid #cccccc; font-size: 0.8em;" onmouseover="popnavr(true);tdiv(false);" onmouseout="popnavr(false);tdiv(true)">
 <table width="160" cellpadding="0" cellspacing="0" border="0" summary="Related Information Navigation">
 			<tr valign="top"><td valign="middle" style="background: #cadceb; padding: 5px 6px 5px 14px;"><a name="lnav6" id="anavrd"></a><a href="learnmore/benefitsadv.asp" id="benefitsadv" class="sbtxt" title="Benefits and Advantages" onfocus="this.className='sbtxt-over';" onblur="this.className='sbtxt';">Benefits and Advantages</a></td></tr>
 			<tr valign="top"><td style="background: #cccccc;"><img src="images/clear.gif" width="154" height="1" alt="" border="0"></td></tr>
