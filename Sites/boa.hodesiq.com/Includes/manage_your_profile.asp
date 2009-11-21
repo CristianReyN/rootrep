@@ -14,9 +14,9 @@ If after_taleo_upgrade Then
 	End If
 	OVERVIEW_TARGET = "_blank"
 	If trim(Request.ServerVariables("SERVER_NAME")) = "boa.stg.hodesiq.com" Then 'staging
-		HOWTOAPPLY_URL = "../profilerd.aspx?" & server.urlencode("https://stgbacfhrs75.taleo.net/careersection/bacextprofile/profile.ftl?lang=en")
+		HOWTOAPPLY_URL = "../profilerd.aspx?" & server.urlencode("https://stgbacfhrs75.taleo.net/careersection/baccolprofile/profile.ftl?lang=en")
 	Else
-		HOWTOAPPLY_URL = "../profilerd.aspx?" & server.urlencode("https://bacfhrs.taleo.net/careersection/bacextprofile/profile.ftl?lang=en")
+		HOWTOAPPLY_URL = "../profilerd.aspx?" & server.urlencode("https://bacfhrs.taleo.net/careersection/baccolprofile/profile.ftl?lang=en")
 	End If
 	HOWTOAPPLY_TARGET = "_blank"
 ElseIf taleo_upgrade Then
