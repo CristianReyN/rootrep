@@ -76,7 +76,7 @@
     </tr>
     <tr>
         <td style="width: 416px"><b>Message</b>(Maximum 512 Characters)
-            <asp:TextBox ID="MessageBox" tooltip="Message" runat="server" Height="55px" TextMode="MultiLine" Width="400px"></asp:TextBox>
+            <asp:TextBox ID="MessageBox" tooltip="Message" runat="server" Height="55px" TextMode="MultiLine" Width="400px">I thought you might be interested in this new job opportunity with Bank of America.</asp:TextBox>
         </td>
     </tr>
     <tr>
