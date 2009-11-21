@@ -62,7 +62,7 @@ End If
 if objRS.state = 1 then  
    With objRS		
 		do while not .eof		
-		   Response.write ("<tr><td><a href=""JobDetails.aspx?JobID=" & .fields.item("req_id").value & "&areasoftalent=" & areasoftalent & "&jfamily=" & jfamily & "&keywords=" & keywords & """>" & .fields.item("job_title").value & ", " & .fields.item("locations").value & "</a></td></tr>") 		
+		   Response.write ("<tr><td><a href=""JobDetails.aspx?JobID=" & .fields.item("req_id").value & "&areasoftalent=" & areasoftalent & "&jfamily=" & jfamily & "&keywords=" & keywords & "&SearchPage=" & SearchPage & """>" & .fields.item("job_title").value & ", " & .fields.item("locations").value & "</a></td></tr>") 		
    		   .moveNext				
 		loop			
 		.Close			
