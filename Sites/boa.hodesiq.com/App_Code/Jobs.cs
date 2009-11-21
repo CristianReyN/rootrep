@@ -214,7 +214,7 @@ public class Jobs
 		}
     }
 
-    public DataTable AdvSearch(string jf, string state, string city, string Travel, string Lang, string fullPart, string Shift, string PostDate, string keywrd, int strRec, int endRec)
+	public DataTable AdvSearch(int aot, string jf, string state, string city, string Travel, string Lang, string fullPart, string Shift, string PostDate, string keywrd, int strRec, int endRec)
     {
 		OleDbConnection con = new OleDbConnection(constring);
 		con.Open();
@@ -477,13 +477,14 @@ public class Jobs
 	}
 
 
-	public ListDictionary AdvSearch(string jf, int state, int city, int Travel, string Lang, string fullPart, string Shift, int PostDate, string keywrd, int PageNumber, int RowPerPage)
+	public ListDictionary AdvSearch(int aot, string jf, int state, int city, int Travel, string Lang, string fullPart, string Shift, int PostDate, string keywrd, int PageNumber, int RowPerPage)
 	{
 		OleDbConnection con = new OleDbConnection(constring);
 		con.Open();
 		OleDbCommand cmd = new OleDbCommand("p_boaJobSearchAdvanced", con);
 		cmd.CommandType = CommandType.StoredProcedure;
 
+		cmd.Parameters.AddWithValue("@aot", aot);
 		cmd.Parameters.AddWithValue("@Family", jf.TrimEnd(",".ToCharArray()));
 		cmd.Parameters.AddWithValue("@State", state);
 		cmd.Parameters.AddWithValue("@City", city);
