@@ -52,7 +52,7 @@ Analysts will work in Canary Wharf, London.
 
 <h2 class="bac">How to Apply</h2>
 <p class="bac">
-Candidates should apply online through the Bank of America careers website at <a href="<% If page_section <> "ADA" Then  %>../campusrecruiting/<% Else  %>../ada_camp/<% End If %>" class="bac">www.bankofamerica.com/campusrecruiting</a>.
+All applications must be made through this website. Follow this link to the <a href="<% If page_section <> "ADA" Then  %>../campusrecruiting/<% Else  %>../ada_camp/<% End If %>how_to_apply.asp?t=2" class="bac">&quot;How to Apply&quot;</a> page.
 </p>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">

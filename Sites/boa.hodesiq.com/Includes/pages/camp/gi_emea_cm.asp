@@ -53,7 +53,7 @@ Associates will work in Canary Wharf, London.
 
 <h2 class="bac">How to Apply</h2>
 <p class="bac">
-In order to be considered a candidate for this opportunity, you must apply via this web site.  To <a href="<% If page_section <> "ADA" Then  %>../learnmore/<% Else  %>../ada/<% End If %>sendresume.asp" class="bac">submit your profile</a>, first sign in as a new or returning user.  If you don't have an existing account, you'll need to register as a new user.  Then, complete your Candidate Profile and designate your program(s) of interest.  Please note that in order for your application to be considered complete, you must reach the final “Thank You” page. In addition, please follow any procedures set forth through the Career Services office on your campus. 
+All applications must be made through this website. Follow this link to the <a href="<% If page_section <> "ADA" Then  %>../campusrecruiting/<% Else  %>../ada_camp/<% End If %>how_to_apply.asp?t=2" class="bac">&quot;How to Apply&quot;</a> page.
 </p>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
