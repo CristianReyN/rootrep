@@ -1,11 +1,12 @@
 <% Response.Buffer=True 
-Dim title, mpage, spage, ada_href, ada_title, flash, Metatag
-title = "Bank of America | Career | Administration"
+Dim title, mpage, spage, ada_href, ada_title, flash, Metatag%>
+<!-- #include file="../includes/breadcrumb.asp" -->
+<% title = breadcrumb & "Administration"
 mpage = "areasoftalent"
 spage = "administration"
 ada_href = "../ada/administration.asp"
 page_self = "../administration/default.asp"
-ada_title = "Bank of America | Career | Administration"
+ada_title = breadcrumb & "Administration"
 Dim flashPage
 flashPage = false
 Dim subtitle

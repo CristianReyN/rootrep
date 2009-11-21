@@ -1,11 +1,12 @@
 <% Response.Buffer=True 
-Dim title, mpage, spage, ada_href, ada_title, job_search_action, Metatag
-title = "Bank of America | Career | Frequently Asked Questions"
+Dim title, mpage, spage, ada_href, ada_title, job_search_action, Metatag%>
+<!-- #include file="../includes/breadcrumb.asp" -->
+<% title = breadcrumb & "Frequently Asked Questions"
 mpage = "fags"
 spage = ""
 ada_href = "../ada/faq.asp"
 page_self = "../faq/faq.asp"
-ada_title = "Bank of America | Career | Frequently Asked Questions"
+ada_title = breadcrumb & "Frequently Asked Questions"
 job_search_action = "../jobsearch/searchresult.asp"
 Metatag=""
 %>
