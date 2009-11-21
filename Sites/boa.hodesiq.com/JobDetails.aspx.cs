@@ -67,8 +67,8 @@ public partial class JobDetails : System.Web.UI.Page
             returntoJobsearch.NavigateUrl = "AdvanceSearch.aspx?" + Request.QueryString;
         }
 
-        boanet_safebutton.writeBOASafeButton("Apply1", phApply1, " Apply Now ", Apply_Click_NoJS, this.Request, this.hApplyNow.Value);
-        boanet_safebutton.writeBOASafeButton("Apply2", phApply2, " Apply Now ", Apply_Click_NoJS, this.Request, this.hApplyNow.Value);
+        boanet_safebutton.writeBOASafeButton("Apply1", phApply1, "ApplyNow|*|" + dt.Rows[0]["JobTitle"].ToString(), Apply_Click_NoJS, this.Request, this.hApplyNow.Value);
+        boanet_safebutton.writeBOASafeButton("Apply2", phApply2, "ApplyNow|*|" + dt.Rows[0]["JobTitle"].ToString(), Apply_Click_NoJS, this.Request, this.hApplyNow.Value);
 
         prepbuttons();
 

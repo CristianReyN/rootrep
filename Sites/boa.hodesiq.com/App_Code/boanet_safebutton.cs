@@ -68,19 +68,22 @@ public static class boanet_safebutton
         
         l.Attributes.Add("class", cssType + "-btn");
         l.Attributes.Add("onfocus", "bt_rollover(this,'" + cssType + "-btn-over" + "')");
-        l.Attributes.Add("onBlur", "bt_rollover(this,'" + cssType + "-btn" + "')");
-        l.Text = buttontext;
-        l.ToolTip = buttontext;
+        l.Attributes.Add("onBlur", "bt_rollover(this,'" + cssType + "-btn" + "')");        
         l.ID = "lb" + id;
 
-        if (buttontext == " Apply Now ")
+        if (buttontext.StartsWith("ApplyNow|*|"))
         {
+            l.Text = " Apply Now <span class='auraltext'>For `" + buttontext.Replace("ApplyNow|*|", "").ToString() + "`. If you have any difficulties, refer to the above alternatives.</span> ";
+            l.ToolTip = " Apply Now ";
             l.Attributes.Add("onclick", "javascript:window.open('" + LinkURL + "','ApplyNow')");
         }
         else
         {
+            l.Text = buttontext;
+            l.ToolTip = buttontext;
             l.Click += new EventHandler(onclickserverfunction);
         }
+
 		d.Controls.Add(l);
 		td.Controls.Add(d);
 		tr.Cells.Add(td);

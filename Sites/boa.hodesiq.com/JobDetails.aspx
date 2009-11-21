@@ -3,6 +3,14 @@
 
 <asp:Content ID="Content1" runat="Server" ContentPlaceHolderID="cphmain">
 	<h1 style="margin: 0px 0px 0px 12px; " runat="server" id="lblJobTitle">Advanced Search</h1>
+
+<span class='auraltext'>
+<h2 style="margin: 0px 0px 0px 12px; ">Important information on applying for positions</h2>
+You are encouraged to complete the online application, however if you have difficulty, you should:
+<li /> Email your resume to <a href="mailto:bac@sosolutions.com">bac@sosolutions.com</a>
+<li /> In the Subject Line of your email, include "Source Internet/Bank of America Careers" and the specific position number found at the top of the job posting
+</span>
+
     <table border="0" cellpadding="0" cellspacing="0" summary="" width="578">
         <tr valign="top">
             <td  style="padding: 6px 12px 0px 12px; height:100%" valign="top">
