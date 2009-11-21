@@ -382,6 +382,7 @@ function pauseVideo(objname)
 }
 var flashplayer = new fpvideo("../Includes/flashplayer.swf",259,166);
 var flashplayer2 = new fpvideo("../Includes/flashplayer.swf",260,167);
+var flashplayer3 = new fpvideo("../Includes/flashplayer.swf",255,167);
 
 function fpvideo(swf_url,w,h)
 {
@@ -522,18 +523,18 @@ alejandro_a4 = new fvideo(
 
 var andy_a1, andy_a2, andy_a3;
 andy_a1 = new fvideo(
-					flashplayer2.swf_url,
+					flashplayer3.swf_url,
 					"http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/DITL_TESTIMONIAL/BOA_ANDY_PART1.flv",
-					flashplayer2,
+					flashplayer3,
 					"#answ1",
 					"../Includes/pages/lob/thumbnails/andy_on.jpg",
 					"../Includes/pages/lob/thumbnails/andy_on.jpg",
 					saulsberry_video
 					);
 andy_a2 = new fvideo(
-					flashplayer2.swf_url,
+					flashplayer3.swf_url,
 					"http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/DITL_TESTIMONIAL/BOA_ANDY_PART2.flv",
-					flashplayer2,
+					flashplayer3,
 					"#answ2",
 					"../Includes/pages/lob/thumbnails/andy_on.jpg",
 					"../Includes/pages/lob/thumbnails/andy_on.jpg",
