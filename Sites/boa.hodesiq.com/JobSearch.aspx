@@ -6,10 +6,11 @@
     <table summary="Job Search and Job List Page" border="0" cellpadding="0" cellspacing="0" width="578">
         <tr valign="top">
             <td style="padding: 6px 12px 0px 12px; height: 100%" valign="top">
-               <table border="0" cellpadding="0" cellspacing="0" summary="" width="100%">
+               <table border="0" cellpadding="1" cellspacing="0" summary="" width="100%">
                     <tr>
-                        <td valign="top" colspan="3">
+                        <td valign="top" colspan="2">To find a career suited to your skill set, select a job area from the list below. Then you may narrow your selection further by choosing a location and/or entering a keyword. <br />
                         </td>
+                        <td>&nbsp;</td>
                     </tr>
                     <tr>
 						<td valign="top" colspan="2" style="width:100%">
