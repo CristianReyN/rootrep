@@ -12,7 +12,7 @@
 		<table width="578" cellpadding="0" cellspacing="0" border="0" summary="">
 			<tr valign="top">
 				<td width="100%" valign="top">
-<a name="skipmaincontent"></a><H1 class="hidden">Global Risk Management</H1>
+<a name="skipmaincontent"></a><H1 class="hidden">Global Risk</H1>
 <% If page_section = "ADA" Then %>
 <!-- #include file="associate/price.asp" -->
 					<div align="right" style="float: right; margin: 0px 0px 0px <%=right_margin_split%>px; padding: 0px; width: 201px;">

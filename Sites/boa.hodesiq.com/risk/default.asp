@@ -1,12 +1,12 @@
 <% Response.Buffer=True 
 Dim title, mpage, spage, ada_href, ada_title, job_search_action, Metatag
-title = "Bank of America | Career | Global Risk Management"
+title = "Bank of America | Career | Global Risk"
 mpage = "lob"
 spage = "lobcss"
 tpage = "lobgr"
 ada_href = "../ada/lobgr.asp"
 page_self = "../risk/default.asp"
-ada_title = "Bank of America | Global Risk Management"
+ada_title = "Bank of America | Global Risk"
 job_search_action = "../jobsearch/searchresult.asp"
 Dim flashPage
 flashPage = false
