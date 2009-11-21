@@ -29,6 +29,10 @@ public partial class JobSearch : System.Web.UI.Page
 	private int RecPerPage = 12;
 	protected void Page_Load(object sender, EventArgs e)
 	{
+		//ddlState.ClientID
+
+		this.ddlState.Attributes.Add("onblur","javascript:setTimeout('__doPostBack(\'" + this.ddlState.ClientID + "\',\'\')', 0)"); 
+
 		ViewState["statequery"] = string.Empty;
 		if (!this.IsPostBack)
 		{
