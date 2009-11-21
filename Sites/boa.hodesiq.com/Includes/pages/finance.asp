@@ -15,6 +15,20 @@
 <% If page_section <> "ADA" Then %>
 					<div align="right" style="float: right; margin: 0px 0px 0px 12px; padding: 0px; width: 259px;">
 <!-- #include file="associate/chen.asp" -->
+<div style="width: 259px; text-align: left; border: 1px solid #e8e8e9; background: #ffffff; margin: 12px 0px 12px 0px; padding: 0px 0px 6px 0px;">
+<H2 class="g" style="margin: 0px 0px 0px 0px;">Career Opportunities</H2>
+	<img src="../images/clear.gif" width="100%" height="1" alt="" border="0" style="margin: 0px 0px 0px 0px; background: #ffffff;" align="top"><br clear="all">
+	<img src="../images/clear.gif" width="100%" height="1" alt="" border="0" style="margin: 0px 0px 0px 0px; background: #e8e8e9;" align="top"><br clear="all">
+<p style="margin: 6px 6px 0px 6px;"><a class="left" onfocus="this.className='left-over';" onblur="this.className='left';" href="../jobsearch.aspx?jobareas=4|12&stateid=-1&cityid=-1&keywords=&SearchPage=Sp">View current jobs in Finance</a></p>
+<p style="margin: 6px 6px 0px 6px;"><a class="left" onfocus="this.className='left-over';" onblur="this.className='left';" href="../jobsearch.aspx?jobareas=4|13&stateid=-1&cityid=-1&keywords=&SearchPage=Sp">View current jobs in Credit</a></p>
+<p style="margin: 6px 6px 0px 6px;"><a class="left" onfocus="this.className='left-over';" onblur="this.className='left';" href="../jobsearch.aspx?jobareas=4|14&stateid=-1&cityid=-1&keywords=&SearchPage=Sp">View current jobs in Investment Banking</a></p>
+<p style="margin: 6px 6px 0px 6px;"><a class="left" onfocus="this.className='left-over';" onblur="this.className='left';" href="../jobsearch.aspx?jobareas=4|15&stateid=-1&cityid=-1&keywords=&SearchPage=Sp">View current jobs in Wealth &amp; Investment Mgmt</a></p>
+<!--<p style="margin: 6px 6px 0px 6px;"><a class="left" onfocus="this.className='left-over';" onblur="this.className='left';" href="../jobsearch.aspx?jobareas=4|16&stateid=-1&cityid=-1&keywords=&SearchPage=Sp">View current jobs in Human Resources</a></p>-->
+</div>
+<div style="width: 259px; text-align: center; margin: 0px; padding: 0px;">
+<!-- #include file="../talkingatm.html" -->
+</div>
+<br><br>
 					</div>
 <% End If  %>
 <a name="skipmaincontent"></a><H1 class="hidden">Finance</H1><a href="#video" class="hlink">Rich Chen&acute;s Associate Testimonial Video</a>
@@ -31,17 +45,6 @@ Each line of business has its own CFO and a team dedicated to supporting its bus
 	<li>Global Wealth and Investment Management (GWIM)</li>
 	<li>Corporate Infrastructure (Global Technology & Operations, Staff Support Functions)</li>
 </ul>
-<% If page_section = "ADA" Then %>
-<!-- #include file="associate/chen.asp" -->
-<% End If %>
-				</td>
-			</tr>
-			<tr valign="top"><td colspan="2" valign="top" class="divb"><img src="../images/clear.gif" width="100%" height="4" alt="" border="0"></td></tr>
-		</table>
-		
-		<table width="578" height="100%" cellpadding="0" cellspacing="0" border="0" summary="">
-			<tr valign="top">
-				<td width="386" height="100%" valign="top" style="padding: 0px 5px 0px 12px;">
 <p style="margin: 12px 0px 12px 0px;">
 <b>Financial Accounting &amp; Control</b>
 <br><br>
@@ -68,23 +71,10 @@ Investor Relations is the contact for analysts and investors and is responsible 
 <!--#include file="../../hot_jobs.asp"-->
 </table>
 <br><br>
-				</td>
-				<td width="192" height="100%" valign="top" class="div0" style="padding: 6px 0px 0px 4px;">
-<div style="border: 1px solid #e8e8e9; background: #ffffff; margin: 12px 0px 12px 0px; padding: 0px 0px 6px 0px;">
-<H2 class="g" style="margin: 0px 0px 0px 0px;">Career Opportunities</H2>
-	<img src="../images/clear.gif" width="100%" height="1" alt="" border="0" style="margin: 0px 0px 0px 0px; background: #ffffff;" align="top"><br clear="all">
-	<img src="../images/clear.gif" width="100%" height="1" alt="" border="0" style="margin: 0px 0px 0px 0px; background: #e8e8e9;" align="top"><br clear="all">
-<p style="margin: 6px 6px 0px 6px;"><a class="left" onfocus="this.className='left-over';" onblur="this.className='left';" href="../jobsearch.aspx?jobareas=4|12&stateid=-1&cityid=-1&keywords=&SearchPage=Sp">View current jobs in Finance</a></p>
-<p style="margin: 6px 6px 0px 6px;"><a class="left" onfocus="this.className='left-over';" onblur="this.className='left';" href="../jobsearch.aspx?jobareas=4|13&stateid=-1&cityid=-1&keywords=&SearchPage=Sp">View current jobs in Credit</a></p>
-<p style="margin: 6px 6px 0px 6px;"><a class="left" onfocus="this.className='left-over';" onblur="this.className='left';" href="../jobsearch.aspx?jobareas=4|14&stateid=-1&cityid=-1&keywords=&SearchPage=Sp">View current jobs in Investment Banking</a></p>
-<p style="margin: 6px 6px 0px 6px;"><a class="left" onfocus="this.className='left-over';" onblur="this.className='left';" href="../jobsearch.aspx?jobareas=4|15&stateid=-1&cityid=-1&keywords=&SearchPage=Sp">View current jobs in Wealth &amp; Investment Mgmt</a></p>
-<!--<p style="margin: 6px 6px 0px 6px;"><a class="left" onfocus="this.className='left-over';" onblur="this.className='left';" href="../jobsearch.aspx?jobareas=4|16&stateid=-1&cityid=-1&keywords=&SearchPage=Sp">View current jobs in Human Resources</a></p>-->
-</div>
-
-<div style="text-align: center; margin: 0px; padding: 0px;">
-<!-- #include file="../talkingatm.html" -->
-</div>
-<br><br>
+<% If page_section = "ADA" Then %>
+<!-- #include file="associate/chen.asp" -->
+<% End If %>
 				</td>
 			</tr>
+			<tr valign="top"><td colspan="2" valign="top" class="divb"><img src="../images/clear.gif" width="100%" height="4" alt="" border="0"></td></tr>
 		</table>

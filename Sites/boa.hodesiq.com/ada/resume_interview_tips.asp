@@ -5,7 +5,7 @@ mpage = "learnmore"
 spage = "resume_interview_tips"
 standart_href = "../learnmore/resume_interview_tips.asp"
 job_search_action = "../jobsearch/searchresult.asp"
-Metatag="Information is available on this page discussing the lines of business within Bank of America and a link to the values of the organization."
+Metatag="Get basic tips and advice on resume-building and interviewing."
 page_self = "../ada/resume_interview_tips.asp"
 page_section="ADA"
 Dim flashPage

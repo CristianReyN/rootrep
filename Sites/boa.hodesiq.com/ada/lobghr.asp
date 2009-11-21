@@ -6,7 +6,7 @@ spage = "lobcss"
 tpage = "lobghr"
 standart_href = "../learnmore/lobghr.asp"
 job_search_action = "../jobsearch/searchresult.asp"
-Metatag="Human Resource is one area of talent for careers at Bank of America. From this page you can listen to an associate, see hot job opportunities, and click to positions in human resources, learning & organizational effectiveness."
+Metatag="Explore a career in Global Human Resources with Bank of America's Corporate Staff & Support."
 page_self = "../ada/lobghr.asp"
 page_section="ADA"
 Dim flashPage

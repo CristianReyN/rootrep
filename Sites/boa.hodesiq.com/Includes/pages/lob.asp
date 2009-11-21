@@ -31,10 +31,7 @@ Opportunity awaits. Learn more about:
 <a href="<% Response.write href_pre %>lobcss.asp" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="Corporate Staff &amp; Support">Corporate Staff &amp; Support</a>
 <br><br>
 <a href="<% Response.write href_pre %>lb_career_compass.asp" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="Skills Assessment">Skills Assessment</a>
-<br><br><br>
-<div style="width: 187px; text-align: center; margin: 0px; padding: 0px;">
-<!-- #include file="../talkingatm.html" -->
-</div>
+<br><br>
 				</td>
 				<td width="205" height="100%" valign="top">
 <div style="border: 1px solid #e8e8e9; margin: 12px 0px 12px 0px; padding: 0px 0px 6px 0px;">
@@ -52,7 +49,7 @@ Opportunity awaits. Learn more about:
 </div>
 
 <div style="text-align: center; margin: 0px; padding: 0px;">
-<!-- include file="../talkingatm.html" -->
+<!-- #include file="../talkingatm.html" -->
 </div>
 				</td>
 			</tr>

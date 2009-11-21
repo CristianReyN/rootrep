@@ -7,7 +7,7 @@ ada_href = "../ada/lb_career_compass.asp"
 page_self = "../learnmore/lb_career_compass.asp"
 ada_title = "Bank of America | Career | Campus Recruiting | Career Compass"
 job_search_action = "../jobsearch/searchresult.asp"
-Metatag="Page designed for student recruiting. Links available on the page: undergraduate/analyst programs, graduate/associate programs, internships and a campus recruiting calendar. The option to do a job search is also present on this page."
+Metatag="This tool can help you determine which Bank of America lines of business match your skills and interests."
 	
 	page_number = 2
 	previous_page_number = page_number - 1

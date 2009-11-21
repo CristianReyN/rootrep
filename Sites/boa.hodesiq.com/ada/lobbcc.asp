@@ -6,7 +6,7 @@ spage = "lobgcsbb"
 tpage = "lobbcc"
 standart_href = "../learnmore/lobbcc.asp"
 job_search_action = "../jobsearch/searchresult.asp"
-Metatag="Consumer Banking is one area of talent for careers at Bank of America. From this page you can listen to an associate, see hot job opportunities, and click to positions in consumer banking."
+Metatag="Explore careers in our banking centers, with Bank of America's Global Consumer & Small Business Banking."
 page_self = "../ada/lobbcc.asp"
 page_section="ADA"
 Dim flashPage

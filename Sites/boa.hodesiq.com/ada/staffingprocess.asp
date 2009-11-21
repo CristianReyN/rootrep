@@ -5,7 +5,7 @@ mpage = "learnmore"
 spage = "staffingprocess"
 standart_href = "../staffingevents/staffingprocess.asp"
 job_search_action = "../jobsearch/searchresult.asp"
-Metatag="You can link to two sites to see where in the United States a representative from Bank of America will be present at a recruiting event."
+Metatag="Learn about our staffing porcess and what you can expect when you apply for a position at Bank of America."
 page_self = "../ada/staffingprocess.asp"
 page_section="ADA"
 Dim flashPage

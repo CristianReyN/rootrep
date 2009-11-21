@@ -23,7 +23,7 @@ The Corporate Finance Group serves a number of essential functions within Bank o
 <br><br>
 <b>Finance Business Client Support</b>
 <br><br>
-Each line of business has its own CFO and a team dedicated to supporting its business, strategic planning and financial analysis function:
+Each line of business (LOB) has its own CFO and a team dedicated to supporting its business, strategic planning and financial analysis function:
 </p>
 <ul>
 	<li>Global Consumer and Small Business Banking (GCSBB)</li>

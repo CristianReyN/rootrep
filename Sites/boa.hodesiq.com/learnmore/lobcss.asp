@@ -7,7 +7,7 @@ ada_href = "../ada/lobcss.asp"
 page_self = "../learnmore/lobcss.asp"
 ada_title = "Bank of America | Career | Corporate Information | Corporate Staff &amp; Support"
 job_search_action = "../jobsearch/searchresult.asp"
-Metatag="Information is available on this page discussing the lines of business within Bank of America and a link to the values of the organization."
+Metatag="Explore a career with Bank of America's Corporate Staff & Support."
 %>
 <!-- Header -->
 <!-- #include file="../includes/header.asp" -->

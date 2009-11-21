@@ -6,7 +6,7 @@ spage = "lobgcsbb"
 tpage = "lobnbcc"
 standart_href = "../learnmore/lobnbcc.asp"
 job_search_action = "../jobsearch/searchresult.asp"
-Metatag="Customer Care is one area of talent for careers at Bank of America. From this page you can listen to an associate, see hot job opportunities, and click to positions in relationship management and customer service."
+Metatag="Explore careers beyond the banking center, with Bank of America's Global Consumer & Small Business Banking."
 page_self = "../ada/lobnbcc.asp"
 page_section="ADA"
 Dim flashPage

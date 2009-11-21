@@ -7,7 +7,7 @@ ada_href = "../ada/staffingprocess.asp"
 page_self = "../staffingevents/staffingprocess.asp"
 ada_title = "Bank of America | Career | Staffing Process"
 job_search_action = "../jobsearch/searchresult.asp"
-Metatag="You can link to two sites to see where in the United States a representative from Bank of America will be present at a recruiting event."
+Metatag="Learn about our staffing porcess and what you can expect when you apply for a position at Bank of America."
 %>
 <!-- Header -->
 <!-- #include file="../includes/header.asp" -->

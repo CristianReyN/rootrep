@@ -27,7 +27,7 @@ The role of a communications expert is critical in proactively shaping a company
 <!--#include file="../../hot_jobs.asp"-->
 </table>
 				</td>
-				<td width="192" height="100%" valign="top" class="divl" style="padding: 6px 0px 0px 4px;">
+				<td width="192" height="100%" valign="top" class="div0" style="padding: 6px 0px 0px 4px;">
 <div style="border: 1px solid #e8e8e9; background: #ffffff; margin: 12px 0px 12px 0px; padding: 0px 0px 6px 0px;">
 <H2 class="g" style="margin: 0px 0px 0px 0px;">Career Opportunities</H2>
 	<img src="../images/clear.gif" width="100%" height="1" alt="" border="0" style="margin: 0px 0px 0px 0px; background: #ffffff;" align="top"><br clear="all">

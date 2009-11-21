@@ -5,7 +5,7 @@ mpage = "lob"
 spage = "lob"
 standart_href = "../learnmore/lob.asp"
 job_search_action = "../jobsearch/searchresult.asp"
-Metatag="Information is available on this page discussing the lines of business within Bank of America and a link to the values of the organization."
+Metatag="Explore a career at Bank of America and discover which line of business is right for you."
 page_self = "../ada/lob.asp"
 page_section="ADA"
 Dim flashPage

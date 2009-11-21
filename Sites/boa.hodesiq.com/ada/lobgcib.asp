@@ -5,7 +5,7 @@ mpage = "lob"
 spage = "lobgcib"
 standart_href = "../learnmore/lobgcib.asp"
 job_search_action = "../jobsearch/searchresult.asp"
-Metatag="Information is available on this page discussing the lines of business within Bank of America and a link to the values of the organization."
+Metatag="Explore a career with Bank of America's Global Corporate & Investment Banking."
 page_self = "../ada/lobgwim.asp"
 page_section="ADA"
 Dim flashPage

@@ -7,7 +7,7 @@ ada_href = "../ada/corpinfo.asp"
 page_self = "../learnmore/corpinfo.asp"
 ada_title = "Bank of America | Career | Corporate Information"
 job_search_action = "../jobsearch/searchresult.asp"
-Metatag="Information is available on this page discussing the lines of business within Bank of America and a link to the values of the organization."
+Metatag="Learn about Bank of America, including our values and how we make a difference in communites worldwide. "
 %>
 <!-- Header -->
 <!-- #include file="../includes/header.asp" -->

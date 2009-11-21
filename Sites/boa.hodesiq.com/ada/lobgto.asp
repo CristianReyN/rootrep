@@ -5,7 +5,7 @@ mpage = "lob"
 spage = "lobgto"
 standart_href = "../learnmore/lobgto.asp"
 job_search_action = "../jobsearch/searchresult.asp"
-Metatag="Technology is one area of talent for careers at Bank of America. From this page you can listen to an associate, see hot job opportunities, and click to positions in technology."
+Metatag="Explore a career with Bank of America's Global Technology & Operations."
 page_self = "../ada/lobgto.asp"
 page_section="ADA"
 Dim flashPage

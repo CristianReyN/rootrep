@@ -7,7 +7,7 @@ ada_href = "../ada/lob.asp"
 page_self = "../learnmore/lob.asp"
 ada_title = "Bank of America | Career | Lines of Business"
 job_search_action = "../jobsearch/searchresult.asp"
-Metatag="Information is available on this page discussing the lines of business within Bank of America and a link to the values of the organization."
+Metatag="Explore a career at Bank of America and discover which line of business is right for you."
 %>
 <!-- Header -->
 <!-- #include file="../includes/header.asp" -->

@@ -6,7 +6,7 @@ spage = "lobcss"
 tpage = "lobgr"
 standart_href = "../learnmore/lobgr.asp"
 job_search_action = "../jobsearch/searchresult.asp"
-Metatag="Risk Evaluation is one area of talent for careers at Bank of America. From this page you can listen to an associate, see hot job opportunities, and click to positions in risk evaluation."
+Metatag="Explore a career in Global Risk with Bank of America's Corporate Staff & Support."
 page_self = "../ada/lobgr.asp"
 page_section="ADA"
 Dim flashPage

@@ -7,7 +7,7 @@ ada_href = "../ada/resume_interview_tips.asp"
 page_self = "../learnmore/resume_interview_tips.asp"
 ada_title = "Bank of America | Resume &amp; interview tips"
 job_search_action = "../jobsearch/searchresult.asp"
-Metatag="Information is available on this page discussing the lines of business within Bank of America and a link to the values of the organization."
+Metatag="Get basic tips and advice on resume-building and interviewing."
 %>
 <!-- Header -->
 <!-- #include file="../includes/header.asp" -->
