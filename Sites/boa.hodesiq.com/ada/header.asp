@@ -33,10 +33,11 @@ End If
 %>
 <script language="javascript1.1" src="../coremetrics/v40/eluminate.js" type="text/javascript"></script>
 <script language="javascript1.1" src="../coremetrics/cmdatatagutils.js" type="text/javascript"></script>
+<!-- #include file="../Includes/env.asp" -->
 <script language="JavaScript1.2" type="text/javascript">
 //<!--
-    examineFontSize("body");
-	cmSetProduction();
+	examineFontSize("body");
+	<% If ENV="production" Then Response.write "cmSetProduction();" %>
 	cmCreatePageviewTag("<%= pageId %>", null, null,"<%= categoryId %>");
 //-->
 </script>
