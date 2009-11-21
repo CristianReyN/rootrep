@@ -1,12 +1,13 @@
 <% Response.Buffer=True 
 Dim title, mpage, spage, ada_href, ada_title, job_search_action, Metatag
-title = "Bank of America | Career | College Recruiting | Graduate Programs"
+title = "Bank of America | Career | College Recruiting | Internship Programs"
 mpage = "learnmore"
 spage = "collrecruiting"
-tpage = "graduate_programs"
-ada_href = "../ada/graduate_programs.asp"
-page_self = "../learnmore/graduate_programs.asp"
-ada_title = "Bank of America | Career | College Recruiting | Graduate Programs"
+tpage = "internships_program"
+fpage = ""
+ada_href = "../ada/internships_program.asp"
+page_self = "../learnmore/internships_program.asp"
+ada_title = "Bank of America | Career | College Recruiting | Internship Programs"
 job_search_action = "../jobsearch/searchresult.asp"
 Metatag="Page designed for student recruiting. Links available on the page: undergraduate/analyst programs, graduate/associate programs, internships and a campus recruiting calendar. The option to do a job search is also present on this page."
 %>
@@ -24,7 +25,7 @@ Metatag="Page designed for student recruiting. Links available on the page: unde
 	<td valign="top" width="578" height="100%">
 <!-- Body-->
 <img src="../images/clear.gif" width="15" height="4" alt="" border="0"><br>
-<!-- #include file="../includes/pages/graduate_programs.asp" -->
+<!-- #include file="../includes/pages/internships_program.asp" -->
 <br><br>
 <!-- Body-->
 	</td>

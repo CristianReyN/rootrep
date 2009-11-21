@@ -101,7 +101,7 @@ function none(){}
 <form name="lob" action="" style="margin: 0px;">
 <select name="lob" id="lob" title="<% Response.write sel_ect %>"<%=c_lass%><%=style%>>
 	<option value="0"><% Response.write sel_ect %></option>
-	<% If tpage <> "lobcfo" Then %><option value="lobcfo.asp">Corporate Financial Operations</option><% End If %>
+	<% If tpage <> "lobcfo" Then %><!--<option value="lobcfo.asp">Corporate Financial Operations</option>--><% End If %>
 	<% If tpage <> "lobgcsbb" Then %><option value="lobgcsbb.asp">Global Consumer & Small Business Banking</option><% End If %>
 	<% If tpage <> "lobgcib" Then %><option value="lobgcib.asp">Global Corporate Investment Bank</option><% End If %>
 	<% If tpage <> "lobgwim" Then %><option value="lobgwim.asp">Global Wealth & Investment Management</option><% End If %>
@@ -122,4 +122,89 @@ function none(){}
 </form>
 <%
 	End Function
+	
+	Function getInternshipProgramForm(c_lass,style,sel_ect,href_pre,fpage)
 %>
+<form name="internship" action="" style="margin: 0px;">
+<select name="ip" id="ip" title="<% Response.write sel_ect %>"<%=c_lass%><%=style%>>
+	<option value="0"><% Response.write sel_ect %></option>
+<optgroup label="Global Technology and Operations">
+	<option value="gp_cwsa.asp"<% If fpage = "gp_cwsa" Then %> disabled<% End If %>>Corporate Workplace Analyst Internship</option>
+	<option value="gp_cwsa.asp"<% If fpage = "gp_cwsa" Then %> disabled<% End If %>>Global Markets Group Operations Intern</option>
+	<option value="gp_cwsa.asp"<% If fpage = "gp_cwsa" Then %> disabled<% End If %>>Global Middle Office Intern</option>
+	<option value="gp_cwsa.asp"<% If fpage = "gp_cwsa" Then %> disabled<% End If %>>Information Security Business Continuity Intern</option>
+	<option value="gp_cwsa.asp"<% If fpage = "gp_cwsa" Then %> disabled<% End If %>>Network Computing Group Intern</option>
+	<option value="gp_cwsa.asp"<% If fpage = "gp_cwsa" Then %> disabled<% End If %>>Network Computing Group Mainframe Build Intern</option>
+	<option value="gp_cwsa.asp"<% If fpage = "gp_cwsa" Then %> disabled<% End If %>>Quality and Productivity Change Analyst Intern</option>
+	<option value="gp_cwsa.asp"<% If fpage = "gp_cwsa" Then %> disabled<% End If %>>Operations Management Associate Program Intern</option>
+	<option value="gp_cwsa.asp"<% If fpage = "gp_cwsa" Then %> disabled<% End If %>>Global Markets Technology Intern</option>
+	<option value="gp_cwsa.asp"<% If fpage = "gp_cwsa" Then %> disabled<% End If %>>Corporate Workplace Senior Analyst Internship</option>
+	<option value="gp_cwsa.asp"<% If fpage = "gp_cwsa" Then %> disabled<% End If %>>Quality and Productivity Consultant Intern</option>
+	<option value="gp_cwsa.asp"<% If fpage = "gp_cwsa" Then %> disabled<% End If %>>Service and Fulfillment Intern</option>
+	<option value="gp_cwsa.asp"<% If fpage = "gp_cwsa" Then %> disabled<% End If %>>Technology MBA Intern</option>
+</optgroup>
+
+<optgroup label="Global Risk">
+	<option value="gp_cwsa.asp"<% If fpage = "gp_cwsa" Then %> disabled<% End If %>>Corporate Audit Intern</option>
+	<option value="gp_cwsa.asp"<% If fpage = "gp_cwsa" Then %> disabled<% End If %>>Corporate Security Intern</option>
+	<option value="gp_cwsa.asp"<% If fpage = "gp_cwsa" Then %> disabled<% End If %>>Debt Products Analyst Intern</option>
+	<option value="gp_cwsa.asp"<% If fpage = "gp_cwsa" Then %> disabled<% End If %>>Global Risk Management Associate Program Intern</option>
+	<option value="gp_cwsa.asp"<% If fpage = "gp_cwsa" Then %> disabled<% End If %>>Markets Risk Intern</option>
+	<option value="gp_cwsa.asp"<% If fpage = "gp_cwsa" Then %> disabled<% End If %>>Debt Products Senior Analyst Intern</option>
+</optgroup>
+
+
+<optgroup label="Corporate Investments Group">
+	<option value="gp_cwsa.asp"<% If fpage = "gp_cwsa" Then %> disabled<% End If %>>Corporate Investments Intern</option>
+</optgroup>
+
+<optgroup label="Corporate Treasury">
+	<option value="gp_cwsa.asp"<% If fpage = "gp_cwsa" Then %> disabled<% End If %>>Corporate Treasury Intern</option>
+</optgroup>
+
+<optgroup label="Corporate Finance">
+	<option value="gp_cwsa.asp"<% If fpage = "gp_cwsa" Then %> disabled<% End If %>>Finance Intern</option>
+</optgroup>
+
+<optgroup label="Supply Chain Management">
+	<option value="gp_cwsa.asp"<% If fpage = "gp_cwsa" Then %> disabled<% End If %>>Supply Chain Management Intern</option>
+</optgroup>
+
+<optgroup label="Global Human Resources">
+	<option value="gp_cwsa.asp"<% If fpage = "gp_cwsa" Then %> disabled<% End If %>>Leadership Development Consultant Intern</option>
+	<option value="gp_cwsa.asp"<% If fpage = "gp_cwsa" Then %> disabled<% End If %>>Learning Consultant Intern</option>
+	<option value="gp_cwsa.asp"<% If fpage = "gp_cwsa" Then %> disabled<% End If %>>Instructional Designer Intern</option>
+	<option value="gp_cwsa.asp"<% If fpage = "gp_cwsa" Then %> disabled<% End If %>>Compensation Consultant Intern</option>
+	<option value="gp_cwsa.asp"<% If fpage = "gp_cwsa" Then %> disabled<% End If %>>Staffing Operations - Selection and Assessment Analyst Intern</option>
+	<option value="gp_cwsa.asp"<% If fpage = "gp_cwsa" Then %> disabled<% End If %>>Staffing Operations - Workforce Planning Analyst Intern</option>
+	<option value="gp_cwsa.asp"<% If fpage = "gp_cwsa" Then %> disabled<% End If %>>Shared Services - Case Manager Intern</option>
+	<option value="gp_cwsa.asp"<% If fpage = "gp_cwsa" Then %> disabled<% End If %>>Shared Services - Workforce Communications Intern</option>
+</optgroup>
+
+<optgroup label="Global Consumer Small Business Banking">
+	<option value="gp_cwsa.asp"<% If fpage = "gp_cwsa" Then %> disabled<% End If %>>Banking Center Channel Market Manager Leader Development Intern</option> 
+	<option value="gp_cwsa.asp"<% If fpage = "gp_cwsa" Then %> disabled<% End If %>>Global Consumer Small Business Banking Product Intern</option>
+</optgroup>
+
+<optgroup label="Global Wealth and Investment Management">
+	<option value="gp_cwsa.asp"<% If fpage = "gp_cwsa" Then %> disabled<% End If %>>Undergraduate Intern</option>
+	<option value="gp_cwsa.asp"<% If fpage = "gp_cwsa" Then %> disabled<% End If %>>Graduate Intern</option>
+</optgroup>
+</select>
+<script language="JavaScript" type="text/javascript">
+<!--
+create_safebutton("Select A Program","JavaScript: none();","selectProgram(document.internship); return true;",0,0,0,"Select A Program");
+function selectProgram(f)
+{if(f && f.ip && f.ip.selectedIndex != 0){
+	self.location.href='<% Response.write href_pre %>'+f.ip.options[f.ip.selectedIndex].value;
+}}
+function none(){}
+//-->
+</script>
+<noscript><button name="go" value="Select A Program" title="Go Select A Program"  class="btn" onclick="selectProgram(document.internship); return false;">Select A Program</button></noscript>
+</form>
+<%
+	End Function
+%>
+
+

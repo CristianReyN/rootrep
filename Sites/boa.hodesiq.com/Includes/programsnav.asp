@@ -10,8 +10,8 @@
 <a href="<%Response.write href_pre%>graduate_programs.asp" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="Graduate/Associate Programs">Graduate/Associate Programs</a>
 </p>
 <%	End If %>
-<%	If tpage <> "internshipsp" Then %>
+<%	If tpage <> "internships_program" Then %>
 <p style="margin: 12px 0px 0px 0px;">
-<a href="<%Response.write href_pre%>internshipsp.asp" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="Internships">Internships</a>
+<a href="<%Response.write href_pre%>internships_program.asp" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="Internships">Internships</a>
 </p>
 <%	End If %>
