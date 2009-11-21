@@ -33,8 +33,8 @@
                                     <asp:BoundField DataField="Location" HeaderText="Location">
                                         <HeaderStyle HorizontalAlign="Left" />
                                     </asp:BoundField>
-                                    <asp:HyperLinkField DataNavigateUrlFields="JobsID" DataNavigateUrlFormatString="JobDetails.aspx?SearchPage=Sp&amp;JobId={0}"
-                                        HeaderText="Apply" Text="Apply now " AccessibleHeaderText="as">
+                                    <asp:HyperLinkField DataNavigateUrlFields="APPLY_ONLINE_URL" 
+                                        HeaderText="Apply" Text="Apply now " AccessibleHeaderText="Apply now " Target="_blank">
                                         <HeaderStyle HorizontalAlign="Left" />
                                     </asp:HyperLinkField>
                                     <asp:TemplateField HeaderText="Remove">
