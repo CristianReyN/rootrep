@@ -4,9 +4,9 @@
 				<td width="373" height="100%" valign="top" style="<%=middle_content_padding%>">
 <div id="Layer1" style="position: relative; z-index: 12;">		
 <img class="dotdiv" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
-<table width="100%" cellspacing="0" cellpadding="4" border="0" style="border: 1px solid #cccccc;" summary="">
+<table width="100%" cellspacing="0" cellpadding="4" border="0" style="border: 1px solid #cccccc;" summary="2008 Workforce Breakdown">
 	<tr style="background: #ececec;">
-		<td colspan="3" valign="top" class="p" style="border-bottom: 1px solid #cccccc;"><b>2007 Workforce Breakdown</b></td>
+		<td colspan="3" valign="top" class="p" style="border-bottom: 1px solid #cccccc;"><b>2008 Workforce Breakdown</b></td>
 	</tr>
 	<tr>
 		<td width="50%" valign="top" class="p" style="border-bottom: 1px solid #cccccc; border-right: 1px solid #cccccc;">Job Category</td>
@@ -15,43 +15,43 @@
 	</tr>
 	<tr>
 		<td valign="top" class="p" style="border-bottom: 1px solid #cccccc; border-right: 1px solid #cccccc;">01 - Officials and Managers</td>
-		<td valign="top" class="p" style="border-bottom: 1px solid #cccccc; border-right: 1px solid #cccccc;">49.24%</td>
-		<td valign="top" class="p" style="border-bottom: 1px solid #cccccc;">24.52%</td>
+		<td valign="top" class="p" style="border-bottom: 1px solid #cccccc; border-right: 1px solid #cccccc;">49.82%</td>
+		<td valign="top" class="p" style="border-bottom: 1px solid #cccccc;">25.27%</td>
 	</tr>
 	<tr>
 		<td valign="top" class="p" style="border-bottom: 1px solid #cccccc; border-right: 1px solid #cccccc;">02 - Professionals</td>
-		<td valign="top" class="p" style="border-bottom: 1px solid #cccccc; border-right: 1px solid #cccccc;">47.07%</td>
-		<td valign="top" class="p" style="border-bottom: 1px solid #cccccc;">27.06%</td>
+		<td valign="top" class="p" style="border-bottom: 1px solid #cccccc; border-right: 1px solid #cccccc;">46.27%</td>
+		<td valign="top" class="p" style="border-bottom: 1px solid #cccccc;">25.89%</td>
 	</tr>
 	<tr>
 		<td valign="top" class="p" style="border-bottom: 1px solid #cccccc; border-right: 1px solid #cccccc;">03 - Technicians</td>
-		<td valign="top" class="p" style="border-bottom: 1px solid #cccccc; border-right: 1px solid #cccccc;">41.66%</td>
-		<td valign="top" class="p" style="border-bottom: 1px solid #cccccc;">41.85%</td>
+		<td valign="top" class="p" style="border-bottom: 1px solid #cccccc; border-right: 1px solid #cccccc;">39.71%</td>
+		<td valign="top" class="p" style="border-bottom: 1px solid #cccccc;">41.93%</td>
 	</tr>
 	<tr>
 		<td valign="top" class="p" style="border-bottom: 1px solid #cccccc; border-right: 1px solid #cccccc;">04 - Sales Workers</td>
-		<td valign="top" class="p" style="border-bottom: 1px solid #cccccc; border-right: 1px solid #cccccc;">36.90%</td>
-		<td valign="top" class="p" style="border-bottom: 1px solid #cccccc;">24.86%</td>
+		<td valign="top" class="p" style="border-bottom: 1px solid #cccccc; border-right: 1px solid #cccccc;">32.10%</td>
+		<td valign="top" class="p" style="border-bottom: 1px solid #cccccc;">23.35%</td>
 	</tr>
 	<tr>
 		<td valign="top" class="p" style="border-bottom: 1px solid #cccccc; border-right: 1px solid #cccccc;">05 - Office and Clerical</td>
-		<td valign="top" class="p" style="border-bottom: 1px solid #cccccc; border-right: 1px solid #cccccc;">76.97%</td>
-		<td valign="top" class="p" style="border-bottom: 1px solid #cccccc;">54.45%</td>
+		<td valign="top" class="p" style="border-bottom: 1px solid #cccccc; border-right: 1px solid #cccccc;">76.44%</td>
+		<td valign="top" class="p" style="border-bottom: 1px solid #cccccc;">54.95%</td>
 	</tr>
 	<tr>
 		<td valign="top" class="p" style="border-bottom: 1px solid #cccccc; border-right: 1px solid #cccccc;">07 - Operatives</td>
-		<td valign="top" class="p" style="border-bottom: 1px solid #cccccc; border-right: 1px solid #cccccc;">40.48%</td>
-		<td valign="top" class="p" style="border-bottom: 1px solid #cccccc;">52.06%</td>
+		<td valign="top" class="p" style="border-bottom: 1px solid #cccccc; border-right: 1px solid #cccccc;">36.64%</td>
+		<td valign="top" class="p" style="border-bottom: 1px solid #cccccc;">69.28%</td>
 	</tr>
 	<tr>
 		<td valign="top" class="p" style="border-bottom: 1px solid #cccccc; border-right: 1px solid #cccccc;">09 - Service Workers</td>
-		<td valign="top" class="p" style="border-bottom: 1px solid #cccccc; border-right: 1px solid #cccccc;">54.69%</td>
-		<td valign="top" class="p" style="border-bottom: 1px solid #cccccc;">42.19%</td>
+		<td valign="top" class="p" style="border-bottom: 1px solid #cccccc; border-right: 1px solid #cccccc;">51.16%</td>
+		<td valign="top" class="p" style="border-bottom: 1px solid #cccccc;">34.88%</td>
 	</tr>
 	<tr>
 		<td valign="top" class="p" style="border-right: 1px solid #cccccc;"><b>Total</b></td>
-		<td valign="top" class="p" style="border-right: 1px solid #cccccc;"><b>66.01%</b></td>
-		<td valign="top" class="p"><b>44.41%</b></td>
+		<td valign="top" class="p" style="border-right: 1px solid #cccccc;"><b>65.72%</b></td>
+		<td valign="top" class="p"><b>44.96%</td>
 	</tr>
 </table>
 

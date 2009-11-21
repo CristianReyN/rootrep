@@ -14,7 +14,7 @@
 	</tr>
 </table>
 </div>
-<% If ((mpage = "overview" And spage = "") Or (mpage = "camp" And spage = "") Or (mpage = "learnmore" And spage = "diversity")) Then %>
+<% If ((mpage = "overview" And spage = "") Or (mpage = "camp" And spage = "") Or (mpage = "learnmore" And spage = "diversity" And tpage = "")) Then %>
 <!--oobegin 
 * OnlineOpinionF3cS v3.1
 * The following code is Copyright 1998-2008 Opinionlab, Inc.

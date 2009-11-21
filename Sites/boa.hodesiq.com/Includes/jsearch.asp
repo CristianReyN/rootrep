@@ -41,6 +41,17 @@
 <optgroup label="Human Resources">
 	<option value="5|-1"<%If jobareas="5|-1" Then Response.write " selected"%>>All Human Resources</option>
 </optgroup>
+<optgroup label="Mortgage ">
+	<option value="12|1"<%If jobareas="12|1" Then Response.write " selected"%>>Administration</option>
+	<option value="12|13"<%If jobareas="12|13" Then Response.write " selected"%>>Credit</option>
+	<option value="12|9"<%If jobareas="12|9" Then Response.write " selected"%>>Customer Service</option>
+	<option value="12|11"<%If jobareas="12|11" Then Response.write " selected"%>>Marketing</option>
+	<option value="12|17"<%If jobareas="12|17" Then Response.write " selected"%>>Operations</option>
+	<option value="12|8"<%If jobareas="12|8" Then Response.write " selected"%>>Relationship Management</option>
+	<option value="12|18"<%If jobareas="12|18" Then Response.write " selected"%>>Risk Evaluation</option>
+	<option value="12|19"<%If jobareas="12|19" Then Response.write " selected"%>>Sales</option>
+	<option value="12|21"<%If jobareas="12|21" Then Response.write " selected"%>>Technology</option>
+</optgroup>
 <optgroup label="Operations">
 	<option value="6|17"<%If jobareas="6|17" Then Response.write " selected"%>>All Operations</option>
 	<option value="6|4"<%If jobareas="6|4" Then Response.write " selected"%>>Change Mgmt &amp; Process</option>
