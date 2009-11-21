@@ -158,7 +158,7 @@
                                 <!-- Left Nav -->
                                 <tr valign="top">
                                     <td align="right" style="background-color: #cadceb; height: 50" valign="bottom">
-                                        <object data="daisy.swf" type="application/x-shockwave-flash">
+                                        <object data="images/daisy.swf" type="application/x-shockwave-flash">
                                             <param name="movie" value="daisy.swf" />
                                             <param name="scale" value="exactfit" />
                                             If you are reading this it means you don't have flash player installed. Get it <a

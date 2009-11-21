@@ -17,14 +17,14 @@ public class Location
 		// TODO: Add constructor logic here
 		//
 	}
-    public DataTable City()
-    {
-        Sql = string.Empty;
-        Sql = "select req_id,city from location";
-        DBUtils db = new DBUtils();
-        return db.GetDataTable(Sql);
-    
-    }
+        public DataTable City()
+        {
+            Sql = string.Empty;
+            Sql = "select req_id,city from location";
+            DBUtils db = new DBUtils();
+            return db.GetDataTable(Sql);
+        
+        }
     public DataTable State()
     {
         Sql = string.Empty;
