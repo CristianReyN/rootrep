@@ -49,7 +49,7 @@
 			If UBound(questions) > 0 Then %>
 						<tr>
 							<td align="right" nowrap style="padding: 0px;" valign="top"><b><% Response.write question_group.Item("group_number") %>.&nbsp;</b></td>
-							<td nowrap colspan="<% Response.write colspan %>" style="padding: 0px; width: 510px;"><b style="margin: 0px;"><% Response.write question_group.Item("title") %></b></td>
+							<td nowrap colspan="<% Response.write colspan %>" style="padding: 0px; width: 504px;"><b style="margin: 0px;"><% Response.write question_group.Item("title") %></b></td>
 						</tr>
 <%
 				For q=1 To UBound(questions) Step 1

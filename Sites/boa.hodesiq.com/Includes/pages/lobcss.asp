@@ -24,7 +24,7 @@ Careers within Corporate Staff &amp; Support are typically concentrated in one o
 <br><br>
 <a href="<%If page_section <> "ADA" Then%>../marketing/<%Else%>lobgmca.asp<%End If%>" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="Global Marketing &amp; Corporate Affairs">Global Marketing &amp; Corporate Affairs</a> is responsible for promoting and protecting the Bank of America brand.
 <br><br>
-<a href="<%If page_section <> "ADA" Then%>../risk/<%Else%>lobgr.asp<%End If%>" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="Global Risk">Global Risk</a> effectively manages the risk and rewards for each area of the bank.
+<a href="<%If page_section <> "ADA" Then%>../risk/<%Else%>lobgr.asp<%End If%>" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="Global Risk Management">Global Risk Management</a> effectively manages the risk and rewards for each area of the bank.
 <br><br>
 <!--Corporate Treasury executes funding, liquidity and interest rate risk strategies through structured transitions and the sale of debt products to our corporate clients. 
 <br><br>

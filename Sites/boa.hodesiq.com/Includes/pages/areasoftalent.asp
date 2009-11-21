@@ -31,7 +31,7 @@
 <H2 class="left2" style="margin: 0px; padding: 0px;"><a href="<% if page_section <> "ADA" then Response.write "../operations/" Else Response.write "operations.asp" End If%>" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="Operations">Operations</a></H2>
 <p style="margin: 6 0 15 0;">Positions within Operations provide overall support for many key areas within Bank of America.</p>
 
-<H2 class="left2" style="margin: 0px; padding: 0px;"><a href="<% if page_section <> "ADA" then Response.write "../riskevaluation/" Else Response.write "riskevaluation.asp" End If%>" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="Risk">Risk</a></H2>
+<H2 class="left2" style="margin: 0px; padding: 0px;"><a href="<% if page_section <> "ADA" then Response.write "../riskevaluation/" Else Response.write "riskevaluation.asp" End If%>" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="Risk Management">Risk Management</a></H2>
 <p style="margin: 6 0 15 0;">An effective risk management model requires a healthy blend of intuitive and analytical individuals who are responsible for ensuring the optimum balance between risk and reward on an enterprise-wide scale.</p>
 
 <H2 class="left2" style="margin: 0px; padding: 0px;"><a href="<% if page_section <> "ADA" then Response.write "../sales/" Else Response.write "sales.asp" End If%>" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="Sales">Sales</a></H2>
