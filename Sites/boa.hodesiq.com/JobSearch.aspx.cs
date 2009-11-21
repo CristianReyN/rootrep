@@ -32,11 +32,10 @@ public partial class JobSearch : System.Web.UI.Page
 		if (!this.IsPostBack)
 		{
 			PopulateAreasofTalentandJobFamily();
-			//areasoftalent.SelectedIndex = 0;
-			//jfamily.SelectedIndex = 0;
 			PopulateLocations();
 			PopulateCity();
-			//State.SelectedIndex = 0;
+			this.btnReset.Visible = true;
+
 			if (string.IsNullOrEmpty(Request["stateid"]))
 			{
 				areasoftalent.SelectedIndex = 0;
@@ -150,15 +149,15 @@ public partial class JobSearch : System.Web.UI.Page
 	}
 	protected void brefine_Click(object sender, EventArgs e)
 	{
-
 		RefineSearch(areasoftalent.SelectedItem.Value, jfamily.SelectedItem.Value, State.SelectedItem.Value);
+		this.btnReset.Visible = false;
 	}
 	protected void bsearch_Click(object sender, EventArgs e)
 	{
 		ViewState["PageNumber"] = 1;
 		FunSearch();
 		GrdResults.Visible = true;
-
+		this.btnReset.Visible = false;
 	}
 	protected void LnkNxt_Click(object sender, EventArgs e)
 	{

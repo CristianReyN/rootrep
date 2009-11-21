@@ -66,7 +66,7 @@
                                                 <tr><td align="left" valign="top" colspan="2">To specify a particular Job Family, choose an Area of Talent you are interested in, and then click the Refine Search button to select a specific Job Family. Same process applies for selecting a specific city within a state.</td></tr>
                                                 <tr>
                                                     <td align="right" valign="top">
-                                                        <input id="btnReset" type="reset" value="Reset Search"  class="bodybtn"/>&nbsp;</td>
+                                                        <input id="btnReset" type="reset" value="Reset Search"  class="bodybtn" runat="server"/>&nbsp;</td>
                                                     <td align="right" valign="top"><asp:Button ID="brefine" runat="server" CssClass="bodybtn"  Text="Refine Search" OnClick="brefine_Click" />&nbsp;
                                                         <asp:Button ID="bsearch" runat="server" CssClass="bodybtn"  Text="Begin Search" OnClick="bsearch_Click" />
                                                     </td>
