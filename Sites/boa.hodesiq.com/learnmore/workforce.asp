@@ -1,5 +1,5 @@
 <% Response.Buffer=True 
-Dim title, mpage, spage, ada_href, ada_title, job_search_action
+Dim title, mpage, spage, ada_href, ada_title, job_search_action, Metatag
 title = "Bank of America | Career | Workforce Data"
 mpage = "learnmore"
 spage = "diversity"
@@ -7,6 +7,7 @@ ada_href = "../ada/workforce.asp"
 page_self = "../learnmore/workforce.asp"
 ada_title = "Bank of America | Career | Workforce Data, Text Only Version"
 job_search_action = "../jobsearch/searchresult.asp"
+Metatag="Percentage information is available on how many female and minority workers make up the largest job families within Bank of America."
 %>
 <!-- Header -->
 <!-- #include file="../includes/header.asp" -->

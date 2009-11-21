@@ -1,9 +1,10 @@
 <% Response.Buffer=True 
-Dim title, mpage, spage, ada_href, ada_title, job_search_action,page_section
+Dim title, mpage, spage, ada_href, ada_title, job_search_action,page_section, Metatag
 title = "Bank of America | Career | Education initiatives, Text Only Version"
 mpage = "learnmore"
 spage = "benefitsadv"
 job_search_action = "../jobsearch/searchresult.asp"
+Metatag="Your education and personal development are a high priority when you work for Bank of America.  Page highlights the two areas in more detail."
 page_self = "../ada/educationinit.asp"
 page_section="ADA"
 flash = false

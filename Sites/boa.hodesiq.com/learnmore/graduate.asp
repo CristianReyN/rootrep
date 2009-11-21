@@ -1,5 +1,5 @@
 <% Response.Buffer=True 
-Dim title, mpage, spage, ada_href, ada_title, job_search_action
+Dim title, mpage, spage, ada_href, ada_title, job_search_action, Metatag
 title = "Bank of America | Career | Graduate/Associate Programs"
 mpage = "learnmore"
 spage = "collrecruiting"
@@ -7,6 +7,7 @@ ada_href = "../ada/graduate.asp"
 page_self = "../learnmore/graduate.asp"
 ada_title = "Bank of America | Career | Graduate/Associate Programs, Text Only Version"
 job_search_action = "../jobsearch/searchresult.asp"
+Metatag="The graduate/associate career programs are for those recent graduates/associates with MBAs or advanced degrees in other fields or those currently enrolled in college/university to obtain an MBA or advanced degree. Detailed information is available on the page for these types of programs."
 %>
 <!-- Header -->
 <!-- #include file="../includes/header.asp" -->

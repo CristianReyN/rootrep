@@ -1,5 +1,5 @@
 <% Response.Buffer=True 
-Dim title, mpage, spage, ada_href, ada_title, job_search_action
+Dim title, mpage, spage, ada_href, ada_title, job_search_action, Metatag
 title = "Bank of America | Career | Home Loans"
 mpage = "learnmore"
 spage = "benefitsadv"
@@ -7,6 +7,7 @@ ada_href = "../ada/homeloans.asp"
 page_self = "../learnmore/homeloans.asp"
 ada_title = "Bank of America | Career | Home Loans, Text Only Version"
 job_search_action = "../jobsearch/searchresult.asp"
+Metatag="Information is available on this page highlighting the Borrowers Protection Plan and Additional Savings plan."
 %>
 <!-- Header -->
 <!-- #include file="../includes/header.asp" -->

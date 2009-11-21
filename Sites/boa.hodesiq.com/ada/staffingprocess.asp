@@ -1,9 +1,10 @@
 <% Response.Buffer=True 
-Dim title, mpage, spage, ada_href, ada_title, job_search_action,page_section
+Dim title, mpage, spage, ada_href, ada_title, job_search_action,page_section, Metatag
 title = "Bank of America | Career | Staffing Process, Text Only Version"
 mpage = "staffingevents"
 spage = ""
 job_search_action = "../jobsearch/searchresult.asp"
+Metatag="You can link to two sites to see where in the United States a representative from Bank of America will be present at a recruiting event."
 page_self = "../ada/staffingprocess.asp"
 page_section="ADA"
 flash = false

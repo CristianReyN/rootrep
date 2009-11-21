@@ -9,7 +9,7 @@ ada_title = "Bank of America | Career | Human Resources, Text Only Version"
 flash = true
 Dim subtitle
 subtitle="Human Resources"
-Metatag="Areas of Talent: Job families have been categorized into a particular area of talent.  " & subtitle & " page includes a small description of the area of talent along with a video testimonial from an employee within the " & subtitle & " area.  Included on this page as well are hot job postings pulled from each of the job families within the finance area.  There are links as well to the career opportunities for the " & subtitle & " area."
+Metatag="Human Resource is one area of talent for careers at Bank of America. From this page you can listen to an associate, see hot job opportunities, and click to positions in human resources, learning & organizational effectiveness."
 
 '****************************** ADDED FOR HOT JOB OPENING***************************
 Dim talentid,rowcount

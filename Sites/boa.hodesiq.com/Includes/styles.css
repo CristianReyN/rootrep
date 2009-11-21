@@ -1,14 +1,14 @@
 BODY
 {
-    MARGIN: 0px;
-    COLOR: #000000;
-    BACKGROUND-COLOR: #ffffff
+    margin: 0px;
+    color: #000000;
+    background-color: #ffffff;
 }
 TD, TH
 {
     font-size: 0.7em;
     color: #333333;
-    font-family: Verdana, helvetica, sans-serif
+    font-family: Verdana, helvetica, sans-serif;
 }
 
 P, UL, LI
@@ -27,19 +27,16 @@ P.s, UL.s, LI.s
 
 .ftrtxt
 {
-    font-weight: normal;
-    font-size: 0.9em;
+    font: normal 0.9em Verdana, Helvetica, sans-serif;
     color: #405ebe;
     background-color: transparent;
-    font-family: verdana, helvetica, sans-serif;
     text-decoration: none;
 }
 .ftrtxt2
 {
-    font-size: 0.9em;
+    font: normal 0.9em Verdana, Helvetica, sans-serif;
     color: #000000;
     background-color: transparent;
-    font-family: verdana, helvetica, sans-serif
 }
 
 H1
@@ -169,8 +166,7 @@ INPUT.btn1
 
 INPUT.bodybtn
 {
-	font-size: 0.9em;
-	font-weight: normal; 
+    font: normal 0.9em Verdana, Helvetica, sans-serif;
 	color: #ffffff;
 	background: #366496;
 	border-style: groove;
@@ -181,8 +177,7 @@ INPUT.bodybtn
 }
 INPUT.navbtn
 {
-	font-size: 0.9em;
-	font-weight: normal; 
+    font: normal 0.9em/1.1em Verdana, Helvetica, sans-serif;
 	color: #ffffff;
 	background: #366496;
 	border-style: groove;
@@ -195,21 +190,21 @@ A
 {
     font: bold 0.9em/2.1em Verdana, Helvetica, sans-serif;
     color: #333333;
-background-color: transparent;
+    background-color: transparent;
     text-decoration: none;
 }
 A:visited
 {
     font: bold 0.9em/2.1em Verdana, Helvetica, sans-serif;
     color: #333333;
-background-color: transparent;
+    background-color: transparent;
     text-decoration: none;
 }
 A:hover
 {
     font: bold 0.9em/2.1em Verdana, Helvetica, sans-serif;
     color: #be5a33;
-background-color: transparent;
+    background-color: transparent;
     text-decoration: none;
 }
 A.nv
@@ -301,104 +296,84 @@ A.left2:hover
 
 A.sbtxt
 {
-    font-weight: normal;
-    font-size: 0.9em;
+    font: normal 0.9em/1.2em Verdana, Helvetica, sans-serif;
     color: #333333;
     background-color: transparent;
-    line-height: 1.2em;
-    font-family: verdana, helvetica, sans-serif;
     text-decoration: none;
 }
 A.sbtxt:visited
 {
-    font-weight: normal;
-    font-size: 0.9em;
+    font: normal 0.9em/1.2em Verdana, Helvetica, sans-serif;
     color: #333333;
     background-color: transparent;
-    line-height: 1.2em;
-    font-family: verdana, helvetica, sans-serif;
     text-decoration: none;
 }
 A.sbtxt:hover
 {
-    font-weight: normal;
-    font-size: 0.9em;
+    font: normal 0.9em/1.2em Verdana, Helvetica, sans-serif;
     color: #be5a33;
     background-color: transparent;
-    line-height: 1.2em;
-    font-family: verdana, helvetica, sans-serif;
     text-decoration: none;
 }
 
 A.sblnk
 {
-    font-weight: normal;
-    font-size: 1em;
+    font: normal 1em Verdana, Helvetica, sans-serif;
     color: #405ebe;
     background-color: transparent;
-    font-family: verdana, helvetica, sans-serif;
     text-decoration: underline;
 }
 A.sblnk:visited
 {
-    font-weight: normal;
-    font-size: 1em;
+    font: normal 1em Verdana, Helvetica, sans-serif;
     color: #405ebe;
     background-color: transparent;
-    font-family: verdana, helvetica, sans-serif;
     text-decoration: underline;
 }
 A.sblnk:hover
 {
-    font-weight: normal;
-    font-size: 1em;
+    font: normal 1em Verdana, Helvetica, sans-serif;
     color: #0000ee;
     background-color: transparent;
-    font-family: verdana, helvetica, sans-serif;
     text-decoration: underline;
 }
 
 A.ftrlnk
 {
-    font-weight: normal;
-    font-size: 0.9em;
+    font: normal 0.9em Verdana, Helvetica, sans-serif;
     color: #405ebe;
     background-color: transparent;
-    font-family: verdana, helvetica, sans-serif;
     text-decoration: none;
 }
 A.ftrlnk:visited
 {
-    font-weight: normal;
-    font-size: 0.9em;
+    font: normal 0.9em Verdana, Helvetica, sans-serif;
     color: #405ebe;
     background-color: transparent;
-    font-family: verdana, helvetica, sans-serif;
     text-decoration: none;
 }
 A.ftrlnk:hover
 {
-    font-weight: normal;
-    font-size: 0.9em;
+    font: normal 0.9em Verdana, Helvetica, sans-serif;
     color: #0000ee;
     background-color: transparent;
-    font-family: verdana, helvetica, sans-serif;
     text-decoration: none;
 }
 
-.mh-link1, .mh-link2 {font-size: 0.9em; line-height: 0.9em; font-weight: bold; color: #666666;     text-decoration: none; display: inline;}
-.mh-link2 {font-size: 0.9em; line-height: 0.9em; color: #D4001A;}
-.mh-link1:hover {font-size: 0.9em; line-height: 0.9em; color: #5C94D0;}
-.mh-link2:hover {font-size: 0.9em; line-height: 0.9em; color: #AA051A;}
+.mh-link1, .mh-link2 {
+    font: bold 0.9em/0.9em Verdana, Helvetica, sans-serif; color: #666666; text-decoration: none; display: inline;}
+.mh-link2 {font: bold 0.9em/0.9em Verdana, Helvetica, sans-serif; color: #D4001A;}
+.mh-link1:hover {font: bold 0.9em/0.9em Verdana, Helvetica, sans-serif; color: #5C94D0;}
+.mh-link2:hover {font: bold 0.9em/0.9em Verdana, Helvetica, sans-serif; color: #AA051A;}
 .mh-hline {background-color: #ECECEC; background-image: url(../images/mhd_reg_5x1_lines.gif); background-repeat: repeat-x;}
 .mh-vline {background-color: #ECECEC; background-image: url(../images/mhd_reg_1x5_lines.gif); background-repeat: repeat-y;}
 .mh-hline-bkg {background: #ECECEC;}
-.ada-search {color: #ececec; background: #ececec; font-size: 0.1em; line-height: 0.01em; margin: 0px;}
-a.btn1 {font-size: 0.9em; line-height: 120%; font-weight: bold; color: #ffffff; background: #366496; border: 1px solid; border-color: #CBE3FF #003366 #003366 #B7CFEB; padding: 1px 4px 1px 4px; text-decoration: none; width: auto;}
-a.btn1:hover {color: #C7D2DC;}
+.ada-search {color: #ececec; background: #ececec; font: normal 0.1em/0.01em Verdana, Helvetica, sans-serif; margin: 0px;}
+a.btn1 {font: bold 0.9em/120% Verdana, Helvetica, sans-serif; color: #ffffff; background: #366496; border: 1px solid; border-color: #CBE3FF #003366 #003366 #B7CFEB; padding: 1px 4px 1px 4px; text-decoration: none; width: auto;}
+a.btn1:hover,a.btn1-over {font: bold 0.9em/120% Verdana, Helvetica, sans-serif; color: #C7D2DC; background: #366496; border: 1px solid; border-color: #CBE3FF #003366 #003366 #B7CFEB; padding: 1px 4px 1px 4px; text-decoration: none; width: auto;}
 div.btn1 {border-right: 1px solid #000000;	border-bottom: 1px solid #000000; border-top:1px solid #CBE3FF; border-left:1px solid #B7CFEB;}
-.searchbox {font-size: 1em; border-style: inset; border-bottom: none; width: 17.5em;}
-.linksep1 {	font-size: 0.5em;	color: #666666;	border: 0px; margin: 0px;}
+.searchbox {font-size: 1.6ex; border-style: inset; border-bottom: none; width: 17.5em;}
+.linksep1 {	font-size: 0.5em; color: #666666; border: 0px; margin: 0px;}
 
 .auraltext {font-size: 0px; left: -10000px; position: absolute;} 
-.show-tab {font-family: verdana, arial, sans-serif; font-size: 0.8em; border: none; left: 0px; position: relative; } 
+.show-tab {font: normal 0.8em Verdana, Helvetica, sans-serif; border: none; left: 0px; position: relative; } 

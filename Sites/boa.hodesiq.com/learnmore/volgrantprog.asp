@@ -1,5 +1,5 @@
 <% Response.Buffer=True 
-Dim title, mpage, spage, ada_href, ada_title, job_search_action
+Dim title, mpage, spage, ada_href, ada_title, job_search_action, Metatag
 title = "Bank of America | Career | Volunteer Grants"
 mpage = "learnmore"
 spage = "benefitsadv"
@@ -7,6 +7,7 @@ ada_href = "../ada/volgrantprog.asp"
 page_self = "../learnmore/volgrantprog.asp"
 ada_title = "Bank of America | Career | Volunteer Grants, Text Only Version"
 job_search_action = "../jobsearch/searchresult.asp"
+Metatag="Page is designed to help those who are interested in learning once they are an associate ways to volunteer with Bank of America to give back to the community."
 %>
 <!-- Header -->
 <!-- #include file="../includes/header.asp" -->

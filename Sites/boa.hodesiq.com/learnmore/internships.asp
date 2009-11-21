@@ -1,5 +1,5 @@
 <% Response.Buffer=True 
-Dim title, mpage, spage, ada_href, ada_title, job_search_action
+Dim title, mpage, spage, ada_href, ada_title, job_search_action, Metatag
 title = "Bank of America | Career | Internships"
 mpage = "learnmore"
 spage = "collrecruiting"
@@ -7,6 +7,7 @@ ada_href = "../ada/internships.asp"
 page_self = "../learnmore/internships.asp"
 ada_title = "Bank of America | Career | Internships, Text Only Version"
 job_search_action = "../jobsearch/searchresult.asp"
+Metatag="Detailed information on internship programs with Bank of America."
 %>
 <!-- Header -->
 <!-- #include file="../includes/header.asp" -->

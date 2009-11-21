@@ -9,7 +9,7 @@ ada_title = "Bank of America | Career | Customer Care, Text Only Version"
 flash = true
 Dim subtitle
 subtitle="Customer Care"
-Metatag="Areas of Talent: Job families have been categorized into a particular area of talent.  " & subtitle & " page includes a small description of the area of talent along with a video testimonial from an employee within the " & subtitle & " area.  Included on this page as well are hot job postings pulled from each of the job families within the finance area.  There are links as well to the career opportunities for the " & subtitle & " area."
+Metatag="Customer Care is one area of talent for careers at Bank of America. From this page you can listen to an associate, see hot job opportunities, and click to positions in relationship management and customer service."
 
 '****************************** ADDED FOR HOT JOB OPENING***************************
 Dim talentid,rowcount

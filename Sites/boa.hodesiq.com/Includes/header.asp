@@ -12,8 +12,8 @@ ADA_iQ_NAV4 = "jobsearch.asp"
 ADA_iQ_TITLE4 = "Job Search"
 ADA_iQ_NAV5 = "../ada/staffingevents.asp"
 ADA_iQ_TITLE5 = "Overview"
-ADA_HEADER_LINKS =	"<a href=""#h1"" title=""Skip to Level 1 Heading.""><img src=""../images/clear.gif"" width=""1"" height=""1"" alt=""Skip to Level 1 Heading."" border=""0"" /></a>" &_
-					"<a href=""" & ADA_iQ_NAV1 & """ title=""" & ADA_iQ_TITLE1 & """><img src=""../images/clear.gif"" width=""1"" height=""1"" alt=""" & ADA_iQ_TITLE1 & """ border=""0"" /></a>" &_
+'ADA_HEADER_LINKS =	"<a href=""#h1"" title=""Skip to Level 1 Heading.""><img src=""../images/clear.gif"" width=""1"" height=""1"" alt=""Skip to Level 1 Heading."" border=""0"" /></a>" &_
+ADA_HEADER_LINKS =	"<a href=""" & ADA_iQ_NAV1 & """ title=""" & ADA_iQ_TITLE1 & """><img src=""../images/clear.gif"" width=""1"" height=""1"" alt=""" & ADA_iQ_TITLE1 & """ border=""0"" /></a>" &_
 					"<a href=""" & ADA_iQ_NAV2 & """ title=""" & ADA_iQ_TITLE2 & """><img src=""../images/clear.gif"" width=""1"" height=""1"" alt=""" & ADA_iQ_TITLE2 & """ border=""0"" /></a>" &_
 					"<a href=""" & ADA_iQ_NAV3 & """ title=""" & ADA_iQ_TITLE3 & """><img src=""../images/clear.gif"" width=""1"" height=""1"" alt=""" & ADA_iQ_TITLE3 & """ border=""0"" /></a>" &_ 
 					"<a href=""" & ADA_iQ_NAV4 & """ title=""" & ADA_iQ_TITLE4 & """><img src=""../images/clear.gif"" width=""1"" height=""1"" alt=""" & ADA_iQ_TITLE4 & """ border=""0"" /></a>" &_
@@ -37,22 +37,22 @@ function hover(ref, classRef) { eval(ref).className = classRef; }
 //-->
 </script>
 </head>
-<body id="body">
+<body id="body" onload="startKeybordNav();">
 <script language="javascript" type="text/javascript">
 //<!--
     examineFontSize("body");
 	function hideFlash(id){if(document.getElementById(id).style.display = 'inline') document.getElementById(id).style.display = 'none';}
 //-->
 </script>
-<% if trim(skipFlash) = "1" then Response.write("<a class=""auraltext"" href="" & ada_href & "" onFocus=""hover(this,'show-tab'); this.focus()"" onblur=""hover(this,'auraltext')"">Low-bandwidth version</a>")%>
+<% if trim(skipFlash) = "1" then Response.write("<table cellpadding=""0"" cellspacing=""0"" border=""0"" summary=""""><tr><td><a class=""auraltext"" href=""" & ada_href & """ onFocus=""hover(this,'show-tab'); this.focus()"" onblur=""hover(this,'auraltext')"">Low-bandwidth version</a></td></tr></table>")%>
 
 <table width="750" cellpadding="0" cellspacing="0" border="0" summary="">
 <tr>
 	<td valign="top" colspan="4" height="71">
 		<table width="750" border="0" cellspacing="0" cellpadding="0" summary="">
 			<tr>
-				<td width="262" valign="top"><a name="top"></a><%=ADA_HEADER_LINKS%><a href="#skipnav" title="Skip global navigational links."><img src="../images/clear.gif" width="1" height="51" alt="Skip global navigational links." border="0" /></a><a href="http://www.bankofamerica.com/help/index.cfm?template=sitemap.cfm" title="Go to site map."><img src="../images/clear.gif" width="1" height="69" alt="Go to site map." border="0" /></a><img src="../images/clear.gif" width="4" height="51" alt="" border="0" /><a href="http://www.bankofamerica.com" title="Bank of America  Higher Standards home page"><img src="../images/mhd_reg_logo.gif" width="250" height="69" alt="Bank of America Higher Standards home page" border="0" /></a></td>
-				<td width="232"><a href="JavaScript: hideFlash('flash_in');" title="Stop Flash audio."><img src="../images/clear.gif" width="1" height="1" alt="Stop Flash audio." border="0" /></a></td>
+				<td width="262" valign="top"><a name="top"></a><img src="../images/clear.gif" width="9" height="51" alt="" border="0" /><a href="http://www.bankofamerica.com" title="Bank of America  Higher Standards home page"><img src="../images/mhd_reg_logo.gif" width="250" height="69" alt="Bank of America Higher Standards home page" border="0" /></a><a href="http://www.bankofamerica.com/help/index.cfm?template=sitemap.cfm" title="Go to site map."><img src="../images/clear.gif" width="1" height="69" alt="Go to site map." border="0" /></a></td>
+				<td width="232"><%=ADA_HEADER_LINKS%><a href="#skipnav" title="Skip global navigational links."><img src="../images/clear.gif" width="1" height="51" alt="Skip global navigational links." border="0" /></a><a href="JavaScript: hideFlash('flash_in');" title="Stop Flash audio."><img src="../images/clear.gif" width="1" height="1" alt="Stop Flash audio." border="0" /></a></td>
 				<td width="256" valign="bottom">
 					<table width="100%" border="0" cellspacing="0" cellpadding="0" summary="">
 						<tr>
@@ -81,7 +81,7 @@ function hover(ref, classRef) { eval(ref).className = classRef; }
 create_button("Search","javascript:submit_search();","btn1",null,null,null,null);
 //-->
 </script>
-<noscript><input type="submit" name="Search" value="Search" alt="Search" class="btn1" ></noscript>
+<noscript><input type="submit" name="Search" value="Search" title="Search" alt="Search" class="btn1" ></noscript>
 										</td>
 										<td width="10"><img src="../images/clear.gif" width="10" height="1" alt="" border="0" /></td>
 									</tr>
@@ -101,7 +101,7 @@ create_button("Search","javascript:submit_search();","btn1",null,null,null,null)
 </tr>
 <tr>
 	<td colspan="4" style="background: #d4100a;" width="750" valign="top">
-<img src="../images/careers.gif" width="76" height="25" alt="" border="0"></td>
+<img src="../images/careers.gif" width="76" height="25" alt="Bank of America | Career" title="Bank of America | Career" border="0"></td>
 </tr>
 <tr>
 	<td width="160" style="background: #cadceb;"><img src="../images/clear.gif" width="160" height="1" alt="" border="0"></td>
@@ -112,5 +112,5 @@ create_button("Search","javascript:submit_search();","btn1",null,null,null,null)
 <tr valign="top">
 	<td id="tdtbnav" width="160" valign="top" align="center"><img src="../images/clear.gif" width="160" height="1" alt="" border="0"><br>
 		<table id="tbnav" width="160" cellpadding="0" cellspacing="0" border="0" summary="Site Navigation">
-			<tr valign="top" style="background: #cadceb;"><td valign="middle"  height="10"><img src="../images/clear.gif" width="154" height="10" alt="" border="0"></td></tr>
+			<tr valign="top" style="background: #cadceb;"><td valign="middle" height="10"><img src="../images/clear.gif" width="154" height="10" alt="" border="0"></td></tr>
 			<tr valign="top" style="background: #ffffff;"><td valign="middle"><img src="../images/white.gif" width="154" height="1" alt="" border="0"></td></tr>

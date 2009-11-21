@@ -1,9 +1,10 @@
 <% Response.Buffer=True 
-Dim title, mpage, spage, ada_href, ada_title, job_search_action,page_section
+Dim title, mpage, spage, ada_href, ada_title, job_search_action,page_section, Metatag
 title = "Bank of America | Career | Insurance Plans, Text Only Version"
 mpage = "learnmore"
 spage = "benefitsadv"
 job_search_action = "../jobsearch/searchresult.asp"
+Metatag="Information is available on this page highlighting the plans available through Bank of America for Insurance."
 page_self = "../ada/insurance.asp"
 page_section="ADA"
 flash = false

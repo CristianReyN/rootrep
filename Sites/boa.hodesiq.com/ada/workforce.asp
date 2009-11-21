@@ -1,9 +1,10 @@
 <% Response.Buffer=True 
-Dim title, mpage, spage, ada_href, ada_title, job_search_action,page_section
+Dim title, mpage, spage, ada_href, ada_title, job_search_action,page_section, Metatag
 title = "Bank of America | Career | Workforce Data, Text Only Version"
 mpage = "learnmore"
 spage = "diversity"
 job_search_action = "../jobsearch/searchresult.asp"
+Metatag="Percentage information is available on how many female and minority workers make up the largest job families within Bank of America."
 page_self = "../ada/workforce.asp"
 page_section="ADA"
 flash = false

@@ -1,5 +1,5 @@
 <% Response.Buffer=True 
-Dim title, mpage, spage, ada_href, ada_title, job_search_action
+Dim title, mpage, spage, ada_href, ada_title, job_search_action, Metatag
 title = "Bank of America | Career | Corporate Partnerships"
 mpage = "learnmore"
 spage = "diversity"
@@ -7,6 +7,7 @@ ada_href = "../ada/corppartn.asp"
 page_self = "../learnmore/corppartn.asp"
 ada_title = "Bank of America | Career | Corporate Partnerships, Text Only Version"
 job_search_action = "../jobsearch/searchresult.asp"
+Metatag="Links to partnerships Bank of America has partnered with to find new talent."
 %>
 <!-- Header -->
 <!-- #include file="../includes/header.asp" -->

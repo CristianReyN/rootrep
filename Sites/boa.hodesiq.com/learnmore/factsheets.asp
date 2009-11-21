@@ -1,5 +1,5 @@
 <% Response.Buffer=True 
-Dim title, mpage, spage, ada_href, ada_title, job_search_action
+Dim title, mpage, spage, ada_href, ada_title, job_search_action, Metatag
 title = "Bank of America | Career | Fact Sheets"
 mpage = "learnmore"
 spage = "diversity"
@@ -7,6 +7,7 @@ ada_href = "../ada/factsheets.asp"
 page_self = "../learnmore/factsheets.asp"
 ada_title = "Bank of America | Career | Fact Sheets, Text Only Version"
 job_search_action = "../jobsearch/searchresult.asp"
+Metatag="Detailed facts on diversity within Bank of America are depicted on this page."
 %>
 <!-- Header -->
 <!-- #include file="../includes/header.asp" -->

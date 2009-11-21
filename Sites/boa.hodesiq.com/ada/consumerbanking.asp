@@ -1,9 +1,10 @@
 <% Response.Buffer=True 
-Dim title, mpage, spage, ada_href, ada_title, job_search_action,page_section
+Dim title, mpage, spage, ada_href, ada_title, job_search_action,page_section, Metatag
 title = "Bank of America | Career | Consumer Banking, Text Only Version"
 mpage = "areasoftalent"
 spage = "consumerbanking"
 job_search_action = "../jobsearch/searchresult.asp"
+Metatag="Consumer Banking is one area of talent for careers at Bank of America. From this page you can listen to an associate, see hot job opportunities, and click to positions in consumer banking."
 page_self = "../ada/consumerbanking.asp"
 page_section="ADA"
 flash = false

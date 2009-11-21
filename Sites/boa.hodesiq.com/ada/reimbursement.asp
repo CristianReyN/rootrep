@@ -1,9 +1,10 @@
 <% Response.Buffer=True 
-Dim title, mpage, spage, ada_href, ada_title, job_search_action,page_section
+Dim title, mpage, spage, ada_href, ada_title, job_search_action,page_section, Metatag
 title = "Bank of America | Career | Reimbursement Accounts, Text Only Version"
 mpage = "learnmore"
 spage = "benefitsadv"
 job_search_action = "../jobsearch/searchresult.asp"
+Metatag="Page highlights how an associate can pay for eligible expenses with pre-tax dollars helps to lower the costs of health and dependent care."
 page_self = "../ada/reimbursement.asp"
 page_section="ADA"
 %>

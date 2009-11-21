@@ -1,9 +1,10 @@
 <% Response.Buffer=True 
-Dim title, mpage, spage, ada_href, ada_title, job_search_action,page_section
+Dim title, mpage, spage, ada_href, ada_title, job_search_action,page_section, Metatag
 title = "Bank of America | Career | Benefits and Advantages, Text Only Version"
 mpage = "learnmore"
 spage = "benefitsadv"
 job_search_action = "../jobsearch/searchresult.asp"
+Metatag="Link from related information where an individual is going to learn more in-depth information about the organization.  From Benefits and Advantages you can click through to learn about the benefits of the company, learn what is offered in terms of work/life balance and find out more information about life in the major markets.  You can also job search from this page or go to the other areas within related information such as diversity, corporate information, college recruiting, and investment banking careers."
 page_self = "../ada/benefitsadv.asp"
 page_section="ADA"
 flash = false

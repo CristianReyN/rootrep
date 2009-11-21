@@ -1,9 +1,10 @@
 <% Response.Buffer=True 
-Dim title, mpage, spage, ada_href, ada_title, job_search_action,page_section
+Dim title, mpage, spage, ada_href, ada_title, job_search_action,page_section, Metatag
 title = "Bank of America | Career | Work/Life Balance, Text Only Version"
 mpage = "learnmore"
 spage = "benefitsadv"
 job_search_action = "../jobsearch/searchresult.asp"
+Metatag="Detailed information on the benefits offered for work/life balance.  The option to do a job search is also present on this page."
 page_self = "../ada/worklife.asp"
 page_section="ADA"
 flash = false

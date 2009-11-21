@@ -1,5 +1,5 @@
 <% Response.Buffer=True 
-Dim title, mpage, spage, ada_href, ada_title, job_search_action
+Dim title, mpage, spage, ada_href, ada_title, job_search_action, Metatag
 title = "Bank of America | Career | Staffing Events"
 mpage = "staffingevents"
 spage = ""
@@ -7,6 +7,7 @@ ada_href = "../ada/staffingevents.asp"
 page_self = "../staffingevents/staffingevents.asp"
 ada_title = "Bank of America | Career | Areas of Talent, Text Only Version"
 job_search_action = "../jobsearch/searchresult.asp"
+Metatag="You can link to two sites to see where in the United States a representative from Bank of America will be present at a recruiting event."
 %>
 <!-- Header -->
 <!-- #include file="../includes/header.asp" -->
@@ -14,7 +15,6 @@ job_search_action = "../jobsearch/searchresult.asp"
 <!-- Left Nav -->
 <!-- #include file="../includes/lnav.asp" -->
 <!-- Left Nav -->
-
 			<tr valign="top"><td style="background: #cadceb;" height="50" valign="bottom" align="right">
 <a href="<%=ada_href %>" title="<%=ada_title %>" class="p2">Text Only Version</a>&nbsp;&nbsp;
 			</td></tr>

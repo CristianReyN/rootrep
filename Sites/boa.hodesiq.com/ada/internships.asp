@@ -1,9 +1,10 @@
 <% Response.Buffer=True 
-Dim title, mpage, spage, ada_href, ada_title, job_search_action,page_section
+Dim title, mpage, spage, ada_href, ada_title, job_search_action,page_section, Metatag
 title = "Bank of America | Career | Internships, Text Only Version"
 mpage = "learnmore"
 spage = "collrecruiting"
 job_search_action = "../jobsearch/searchresult.asp"
+Metatag="Detailed information on internship programs with Bank of America."
 page_self = "../ada/internships.asp"
 page_section="ADA"
 flash = false

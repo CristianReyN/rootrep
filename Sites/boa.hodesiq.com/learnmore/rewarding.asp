@@ -1,5 +1,5 @@
 <% Response.Buffer=True 
-Dim title, mpage, spage, ada_href, ada_title, job_search_action
+Dim title, mpage, spage, ada_href, ada_title, job_search_action, Metatag
 title = "Bank of America | Career | Rewarding Success"
 mpage = "learnmore"
 spage = "benefitsadv"
@@ -7,6 +7,7 @@ ada_href = "../ada/rewarding.asp"
 page_self = "../learnmore/rewarding.asp"
 ada_title = "Bank of America | Career | Rewarding Success, Text Only Version"
 job_search_action = "../jobsearch/searchresult.asp"
+Metatag="Page is specific to information on the rewarding success program offered to associates of Bank of America."
 %>
 <!-- Header -->
 <!-- #include file="../includes/header.asp" -->

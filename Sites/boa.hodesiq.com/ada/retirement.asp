@@ -1,9 +1,10 @@
 <% Response.Buffer=True 
-Dim title, mpage, spage, ada_href, ada_title, job_search_action,page_section
+Dim title, mpage, spage, ada_href, ada_title, job_search_action,page_section, Metatag
 title = "Bank of America | Career | Retirement Plans, Text Only Version"
 mpage = "learnmore"
 spage = "benefitsadv"
 job_search_action = "../jobsearch/searchresult.asp"
+Metatag="Offered to associates at Bank of America are two plans the 401(K) and Pension plans.  Page highlights information on both."
 page_self = "../ada/retirement.asp"
 page_section="ADA"
 flash = false

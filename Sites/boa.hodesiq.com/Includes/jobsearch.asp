@@ -13,7 +13,7 @@
 </select>
 							</td>
 							<td nowrap style="padding: 12px 0px 0px 0px;">
-<input type="submit" name="selareas" value="Select" alt="Select" class="bodybtn">
+<input type="submit" name="selareas" value="Select" title="Select Areas of talent first" alt="Select Areas of talent first" class="bodybtn">
 							</td>
 						</tr>
 						<tr>
@@ -48,13 +48,13 @@
 						</tr>						
 						<tr>
 							<td colspan="2" nowrap style="padding: 0px 6px 0px 12px;">
-<label for="Keywords"><p style="margin: 0px;">Keywords</p></label>
-<input type="text" name="keywords" id="keywords" value="<%Response.write keywords%>" class="right" style="width: 217px;">
+<p style="margin: 0px;"><label for="keywords">Keywords or Job Number(if known)</label></p>
+<input type="text" name="keywords" id="keywords" value="<%Response.write keywords%>" style="width: 217px;">
 							</td>
 						</tr>
 						<tr>
 							<td colspan="2" valign="top" width="100%" align="center" style="padding: 6px 6px 0px 12px;">
-<input type="submit" name="bsearch" value="Begin Search" alt="Begin Search" class="bodybtn">&nbsp;<input type="submit" name="vjobs" value="View All Jobs" alt="View All Jobs" class="bodybtn">
+<input type="submit" name="bsearch" value="Begin Search" title="Begin Search" alt="Begin Search" class="bodybtn"> <input type="submit" name="vjobs" value="View All Jobs" title="View All Jobs" alt="View All Jobs" class="bodybtn">
 							</td>
 						</tr>
 						</table>

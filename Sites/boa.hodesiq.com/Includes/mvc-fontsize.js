@@ -57,21 +57,25 @@ function examineFontSize(ref)
 		{
 			var size = document.getElementById(ref).currentStyle.fontSize;
 			var index = size.indexOf("pt");
+			var newstr = 12;
 			if(index > 0)
 			{
-				var newstr = parseInt(size.substr(0,index));
-				if (newstr < 10) multipleFontSize(1.5);
-				else if (newstr < 12) multipleFontSize(1.2);
+				newstr = parseInt(size.substr(0,index));//alert(newstr);
 			}
-			else if (size.indexOf("%") > 0)
+			else if (size.indexOf("%") > 0 || size.indexOf("em") > 0)
 			{
 				var htmls = document.getElementsByTagName("html");
 				var hsize = htmls[0].currentStyle.fontSize;
-				hsize = parseInt(hsize.substr(0,hsize.indexOf("pt")));
-				var newstr = parseInt(size.substr(0,size.indexOf("%")));
-				newstr = newstr + ((12-hsize)/12)*75;
-				document.getElementById(ref).style.fontSize = newstr+"%";
+				newstr = parseInt(hsize.substr(0,hsize.indexOf("pt")));//alert(newstr);
+				//var newstr = parseInt(size.substr(0,size.indexOf("%")));
+				//newstr = newstr + ((12-hsize)/12)*75;
+				//document.getElementById(ref).style.fontSize = newstr+"%";
 			}
+			
+			if (newstr < 10) multipleFontSize(1.8);
+			else if (newstr < 12) multipleFontSize(1.5);
+			else if (newstr > 15) multipleFontSize(0.7);
+			else if (newstr > 12) multipleFontSize(0.8);
 		}
 }
 
@@ -82,7 +86,7 @@ function detect(ref){
 			var index = size.indexOf("pt");
 			var newstr = parseInt(size.substr(0,index));
 			if (newstr < 12) {   
-				document.write('<br \/><table summary=\"Layout Table\" width=\"100%\" cellpadding=\"5\" cellspacing=\"0\" border=\"1\" bordercolor=\"#ff0000\"><tr><td><div style=\"font-size: 10pt; font-weight: bold;\"><h2 class=\"module-title\">Text Size Too Small?<\/h2><p style=\"font-size: 9pt; font-color: #000000; font-weight: normal; margin-top: 1em; margin-bottom: .5em;\">Follow these steps to increase your text size.<\/p><ol style=\"font-size: 9pt; font-color: #000000; font-weight: normal; margin-top: .5em; margin-bottom: .5em; margin-right: .5em; margin-left: 2em;\"><li>Click <strong>View<\/strong> on your browser tool bar.<\/li><li>Select <strong>Text Size<\/strong>.<\/li><li>Select the text size you want.<\/li><\/ol><\/div><\/td><\/tr><\/table><br \/>');
+				document.write('<br \/><table summary=\"\" width=\"100%\" cellpadding=\"5\" cellspacing=\"0\" border=\"1\" bordercolor=\"#ff0000\"><tr><td><div style=\"font-size: 10pt; font-weight: bold;\"><h2 class=\"module-title\">Text Size Too Small?<\/h2><p style=\"font-size: 9pt; font-color: #000000; font-weight: normal; margin-top: 1em; margin-bottom: .5em;\">Follow these steps to increase your text size.<\/p><ol style=\"font-size: 9pt; font-color: #000000; font-weight: normal; margin-top: .5em; margin-bottom: .5em; margin-right: .5em; margin-left: 2em;\"><li>Click <strong>View<\/strong> on your browser tool bar.<\/li><li>Select <strong>Text Size<\/strong>.<\/li><li>Select the text size you want.<\/li><\/ol><\/div><\/td><\/tr><\/table><br \/>');
 			}
 		}
 }

@@ -1,5 +1,5 @@
 <% Response.Buffer=True 
-Dim title, mpage, spage, ada_href, ada_title, job_search_action
+Dim title, mpage, spage, ada_href, ada_title, job_search_action, Metatag
 title = "Bank of America | Career | Dependent Care Programs"
 mpage = "learnmore"
 spage = "benefitsadv"
@@ -7,6 +7,7 @@ ada_href = "../ada/dependentcare.asp"
 page_self = "../learnmore/dependentcare.asp"
 ada_title = "Bank of America | Career | Dependent Care Programs, Text Only Version"
 job_search_action = "../jobsearch/searchresult.asp"
+Metatag="Highlight information on the different programs related to dependent care for Bank of America associates."
 %>
 <!-- Header -->
 <!-- #include file="../includes/header.asp" -->

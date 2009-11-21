@@ -1,9 +1,10 @@
 <% Response.Buffer=True 
-Dim title, mpage, spage, ada_href, ada_title, job_search_action,page_section
+Dim title, mpage, spage, ada_href, ada_title, job_search_action,page_section, Metatag
 title = "Bank of America | Career | Administration, Text Only Version"
 mpage = "areasoftalent"
 spage = "administration"
 job_search_action = "../jobsearch/searchresult.asp"
+Metatag="Administration is one area of talent for careers at Bank of America. From this page you can listen to an associate, see hot job opportunities, and click to positions in administration, corporate executive, corporate workplace, change management and process, legal, services and learning and organizational effectiveness."
 page_self = "../ada/administration.asp"
 page_section="ADA"
 flash = false

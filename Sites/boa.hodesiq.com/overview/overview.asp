@@ -1,5 +1,5 @@
 <% Response.Buffer=True 
-Dim title, mpage, spage, ada_href, ada_title, job_search_action,page_section
+Dim title, mpage, spage, ada_href, ada_title, job_search_action,page_section, Metatag
 title = "Bank of America | Career | Overview"
 mpage = "overview"
 spage = ""
@@ -10,6 +10,7 @@ job_search_action = "../jobsearch/searchresult.asp"
 page_section=""
 Dim skipFlash
 skipFlash="1"
+Metatag="Main page of the careers site. From this page you can listen to a virtual host who gives a quick tour to point in the direction of either engaging information, job search information or more in-depth information about employment with Bank of America. From this page you can job search to find if there is an opportunity available. You can click to more links about benefits, diversity, corporate information, college information, global locations and to Investment Banking Careers."
 playflash = Request.Cookies("PFOT")
 If playflash = "" Then Response.Cookies("PFOT") = "1"
 %>
@@ -41,7 +42,6 @@ If playflash = "" Then Response.Cookies("PFOT") = "1"
 <!-- Body--><a name="skipmaincontent"></a>
 <img src="../images/clear.gif" width="15" height="4" alt="" border="0"><br>
 <!-- #include file="../includes/pages/overview.asp" -->
-<br><br>
 <!-- Body-->
 	</td>
 </tr>

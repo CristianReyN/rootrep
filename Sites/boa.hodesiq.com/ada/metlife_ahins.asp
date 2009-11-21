@@ -1,9 +1,10 @@
 <% Response.Buffer=True 
-Dim title, mpage, spage, ada_href, ada_title, job_search_action,page_section
+Dim title, mpage, spage, ada_href, ada_title, job_search_action,page_section, Metatag
 title = "Bank of America | Career | MetLife Auto & Home Insurance Program, Text Only Version"
 mpage = "learnmore"
 spage = "benefitsadv"
 job_search_action = "../jobsearch/searchresult.asp"
+Metatag="Page is specific to information on the MetLife Auto & Home Insurance Program."
 page_self = "../ada/metlife_ahins.asp"
 page_section="ADA"
 flash = false

@@ -1,5 +1,5 @@
 <% Response.Buffer=True 
-Dim title, mpage, spage, ada_href, ada_title, job_search_action
+Dim title, mpage, spage, ada_href, ada_title, job_search_action, Metatag
 title = "Bank of America | Career | LifeWorks®"
 mpage = "learnmore"
 spage = "benefitsadv"
@@ -7,6 +7,7 @@ ada_href = "../ada/lifeworks.asp"
 page_self = "../learnmore/lifeworks.asp"
 ada_title = "Bank of America | Career | LifeWorks®, Text Only Version"
 job_search_action = "../jobsearch/searchresult.asp"
+Metatag="The page is an explanation of the LifeWorks program for associates at Bank of America."
 %>
 <!-- Header -->
 <!-- #include file="../includes/header.asp" -->

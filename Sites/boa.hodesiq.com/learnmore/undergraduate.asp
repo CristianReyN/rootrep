@@ -1,5 +1,5 @@
 <% Response.Buffer=True 
-Dim title, mpage, spage, ada_href, ada_title, job_search_action
+Dim title, mpage, spage, ada_href, ada_title, job_search_action, Metatag
 title = "Bank of America | Career | Undergraduate/Analyst Programs"
 mpage = "learnmore"
 spage = "collrecruiting"
@@ -7,6 +7,7 @@ ada_href = "../ada/undergraduate.asp"
 page_self = "../learnmore/undergraduate.asp"
 ada_title = "Bank of America | Career | Undergraduate/Analyst Programs, Text Only Version"
 job_search_action = "../jobsearch/searchresult.asp"
+Metatag="The undergraduate/analyst career programs are for students currently enrolled in college/university and for recent graduates.  Detailed information is available on the page for these types of programs."
 %>
 <!-- Header -->
 <!-- #include file="../includes/header.asp" -->
