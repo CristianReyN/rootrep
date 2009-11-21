@@ -18,8 +18,7 @@ public partial class _Default : System.Web.UI.Page
     {
         areasoftalent.Focus();
         lblMessage.Text = "";
-        if (!IsPostBack)
-        {
+        
             try
             {
                 AreaofTalent at = new AreaofTalent();
@@ -60,15 +59,6 @@ public partial class _Default : System.Web.UI.Page
 
         }
        
-    }
-    protected void areasoftalent_SelectedIndexChanged(object sender, EventArgs e)
-    {
-        AreaofTalent at = new AreaofTalent();
-        jfamily.DataTextField = "Family";
-        jfamily.DataValueField = "FamilyID";
-        jfamily.DataSource = at.TalentwiseJobfamily(areasoftalent.Text);
-        jfamily.DataBind();
-        jfamily.Items.Insert(0, new ListItem("Select a Family", ""));
-        jfamily.SelectedIndex = 0;
-    }
+    
+    
 }
