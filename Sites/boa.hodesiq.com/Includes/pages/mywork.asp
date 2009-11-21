@@ -21,14 +21,14 @@ Note:  Not all positions are eligible for My Work. If you are interested in find
 </p>
 
 <img class="dotdiv" style="margin: 18px 0px 5px 0px;" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
-<p style="margin: 0px;">
+<p style="margin: 0px 0px 0px 1px;">
 Industry (Research) Quote -
 <br>
 <i>Almost 90% of flexible workers report improved morale due to the opportunity to work flexibly, and 80% of managers agreed that staff morale was up as a result of working flexibly.<br>
 - Georgia's Clean Air Campaign, 2006</i>
 </p>
 <img class="dotdiv" style="margin: 9px 0px 5px 0px;" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
-<p style="margin: 0px;">
+<p style="margin: 0px 0px 0px 1px;">
 Associate Quotes -
 <br>
 <i>"Simply put the work at home program is what I consider "priceless", it has allowed me to better my quality of work life, increase my overall productivity, become more responsive to my clients and to have a true love and greater satisfaction for my work and the Bank&nbsp;of&nbsp;America organization, that I'm so proud to be part of."</i>
