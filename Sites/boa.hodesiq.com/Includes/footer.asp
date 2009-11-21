@@ -30,3 +30,4 @@
 </body>
 </html>
 <% If tpage <> "career_compass" Then session.Contents.Remove("page_number") %>
+<% If IsObject(cnnDB) Then Call CloseDBConnection()%>

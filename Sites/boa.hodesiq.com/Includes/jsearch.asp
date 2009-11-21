@@ -2,7 +2,7 @@
 	Function getJobAreasSelect(c_lass,style)
 %>
 <select name="jobareas" id="jobareas" title="Select a Job Area"<%=c_lass%><%=style%>>
-	<option value="Select a Job Area"<%If jobareas="Select a job area" Or jobareas="" Then Response.write " selected"%>>Select a job area</option>
+	<option value=""<%If jobareas="" Then Response.write " selected"%>>Select a job area</option>
 <optgroup label="Administration">
 	<option value="1|-1"<%If jobareas="1|-1" Then Response.write " selected"%>>All Administration</option>
 	<option value="1|4"<%If jobareas="1|4" Then Response.write " selected"%>>Change Mgmt &amp; Process</option>
@@ -200,26 +200,221 @@
 	
 	
 	Function getCountrySelect(c_lass,style)
+		Call setCmd()
+		cmd.CommandText = "p_SelectISOCountries"
+		Set rssCountries=server.CreateObject ("ADODB.Recordset")
+		rssCountries.LockType = adLockOptimistic
+		rssCountries.CursorLocation = adUseClient
+		rssCountries.CursorType = adOpenDynamic
+		rssCountries.Open cmd
+		
+		Set countries = Server.CreateObject("Scripting.Dictionary")
+		
+		If not (rssCountries.EOF And rssCountries.BOF) And Not Err.Number > 0 Then
+			rssCountries.MoveFirst
+			Do While not rssCountries.EOF
+				Set country = Server.CreateObject("Scripting.Dictionary")
+				country.add "countryid", Trim(rssCountries("countryid"))
+				country.add "country", Trim(rssCountries("country"))
+				country.add "Country_Code_2", Trim(rssCountries("Country_Code_2"))
+				
+				country_number = countries.Count + 1
+				countries.add country_number, country
+				rssCountries.MoveNext
+			Loop
+		End If
+		rssCountries.Close
+		Set  rssCountries = nothing
 %>
-<select name="countryid" id="countryid" title="Select a Country"<%=c_lass%><%=style%>>
+<select name="countryid" id="countryid" title="Select a country"<%=c_lass%><%=style%>>
 	<option value="-1"<%If countryid="-1" Or countryid="" Then Response.write " selected"%>>Select a country</option>
-	<option value="1"<%If countryid="1" Then Response.write " selected"%>>United States</option>
-	<option value="15"<%If countryid="15" Then Response.write " selected"%>>Australia</option>
-	<option value="96"<%If countryid="96" Then Response.write " selected"%>>Hong Kong</option>
-	<option value="105"<%If countryid="105" Then Response.write " selected"%>>India</option>
-	<option value="114"<%If countryid="114" Then Response.write " selected"%>>Japan</option>
-	<option value="199"<%If countryid="199" Then Response.write " selected"%>>Singapore</option>
-	<option value="228"<%If countryid="228" Then Response.write " selected"%>>Taiwan</option>
+<%
+		country_numbers = countries.Keys
+		If countries.Count > 0 Then
+			For c = 0 To countries.Count -1
+				country_number = country_numbers(c)
+				Set country = countries.Item(country_number)
+%>
+	<option value="<%=country.Item("countryid")%>"<% If country.Item("countryid") = countryid Then %> selected<% End If %>><%=country.Item("country")%></option>
+<%		   Next
+		End If %>
+</select>
+<%
+	End Function
+	
+	
+	Function getUSStateSelectDB(c_lass,style)
+		Call setCmd()
+		cmd.CommandText = "p_SelectStateList"
+		Set rssStates=server.CreateObject ("ADODB.Recordset")
+		rssStates.LockType = adLockOptimistic
+		rssStates.CursorLocation = adUseClient
+		rssStates.CursorType = adOpenDynamic
+		rssStates.Open cmd
+		
+		Set states = Server.CreateObject("Scripting.Dictionary")
+		
+		If not (rssStates.EOF And rssStates.BOF) And Not Err.Number > 0 Then
+			rssStates.MoveFirst
+			Do While not rssStates.EOF
+				Set state = Server.CreateObject("Scripting.Dictionary")
+				state.add "StateID", Trim(rssStates("StateID"))
+				state.add "State", Trim(rssStates("State"))
+				
+				state_number = states.Count + 1
+				states.add state_number, state
+				rssStates.MoveNext
+			Loop
+		End If
+		rssStates.Close
+		Set  rssStates = nothing
+%>
+<select name="stateid" id="stateid" title="Select a State"<%=c_lass%><%=style%>>
+	<option value="-1"<%If stateid="-1" Or stateid="" Then Response.write " selected"%>>All states</option>
+<%
+		state_numbers = states.Keys
+		If states.Count > 0 Then
+			For s = 0 To states.Count -1
+				state_number = state_numbers(s)
+				Set state = states.Item(state_number)
+%>
+	<option value="<%=state.Item("StateID")%>"<% If state.Item("StateID") = stateid Then %> selected<% End If %>><%=state.Item("State")%></option>
+<%		   Next
+		End If %>
 </select>
 <%
 	End Function
 	
 	
 	Function getCitySelect(c_lass,style)
+		Call setCmd()
+		
+		Set cities = Server.CreateObject("Scripting.Dictionary")
+		
+		If CInt(countryid) > 0 Then
+			If countryid = "1" Then
+				cmd.Parameters.Append cmd.CreateParameter("Stateid",adInteger,adParamInput)
+					cmd.Parameters("Stateid") = stateid
+					param_number = cmd_params.Count + 1
+					cmd_params.add param_number, "Stateid"
+				cmd.CommandText = "p_Career_Sites_select_City"
+			Else
+				cmd.Parameters.Append cmd.CreateParameter("countryid",adInteger,adParamInput)
+					cmd.Parameters("countryid") = countryid
+					param_number = cmd_params.Count + 1
+					cmd_params.add param_number, "countryid"
+				cmd.CommandText = "p_SelectInternationalCityByCountry"
+			End If
+			Set rssCities=server.CreateObject ("ADODB.Recordset")
+			rssCities.LockType = adLockOptimistic
+			rssCities.CursorLocation = adUseClient
+			rssCities.CursorType = adOpenDynamic
+			rssCities.Open cmd
+			
+			If not (rssCities.EOF And rssCities.BOF) And Not Err.Number > 0 Then
+				rssCities.MoveFirst
+				Do While not rssCities.EOF
+					Set city = Server.CreateObject("Scripting.Dictionary")
+					If countryid = "1" Then
+						city.add "cityid", Trim(rssCities("CityID"))
+						city.add "city", Trim(rssCities("City"))
+					Else
+						city.add "cityid", Trim(rssCities("locationid"))
+						city.add "city", Trim(rssCities("city"))
+					End If
+					
+					city_number = cities.Count + 1
+					cities.add city_number, city
+					rssCities.MoveNext
+				Loop
+			End If
+			rssCities.Close
+			Set  rssCities = nothing
+		End If
 %>
-<select name="cityid" id="cityid" title="Select a Country"<%=c_lass%><%=style%>>
+<select name="cityid" id="cityid" title="Select a city"<%=c_lass%><%=style%>>
 	<option value="-1"<%If cityid="-1" Or cityid="" Then Response.write " selected"%>>All cities</option>
+<%
+		city_numbers = cities.Keys
+		If cities.Count > 0 Then
+			For c = 0 To cities.Count -1
+				city_number = city_numbers(c)
+				Set city = cities.Item(city_number)
+%>
+	<option value="<%=city.Item("cityid")%>"<% If city.Item("cityid") = cityid Then %> selected<% End If %>><%=city.Item("city")%></option>
+<%		   Next
+		End If %>
 </select>
 <%
+	End Function
+	
+	Function getJobFamilySelect(c_lass,style)
+		Call setCmd()
+		cmd.CommandText = "p_SelectGlobalJobFamily"
+		Set rssJobFamilies=server.CreateObject ("ADODB.Recordset")
+		rssJobFamilies.LockType = adLockOptimistic
+		rssJobFamilies.CursorLocation = adUseClient
+		rssJobFamilies.CursorType = adOpenDynamic
+		rssJobFamilies.Open cmd
+		
+		Set job_families = Server.CreateObject("Scripting.Dictionary")
+		
+		If not (rssJobFamilies.EOF And rssJobFamilies.BOF) And Not Err.Number > 0 Then
+			rssJobFamilies.MoveFirst
+			Do While not rssJobFamilies.EOF
+				Set job_family = Server.CreateObject("Scripting.Dictionary")
+				job_family.add "FamilyID", Trim(rssJobFamilies("FamilyID"))
+				job_family.add "Family", Trim(rssJobFamilies("Family"))
+				
+				family_number = job_families.Count + 1
+				job_families.add family_number, job_family
+				rssJobFamilies.MoveNext
+			Loop
+		End If
+		rssJobFamilies.Close
+		Set  rssJobFamilies = nothing
+%>
+<select name="jobfamilyid" id="jobfamilyid" title="Select a Job Family"<%=c_lass%><%=style%>>
+<%
+		family_numbers = job_families.Keys
+		If job_families.Count > 0 Then
+			For f = 0 To job_families.Count -1
+				family_number = family_numbers(f)
+				Set job_family = job_families.Item(family_number)
+%>
+	<option value="<%=job_family.Item("FamilyID")%>"<% If job_family.Item("FamilyID") = jobfamilyid Then %> selected<% End If %>><%=job_family.Item("Family")%></option>
+<%		   Next
+		End If %>
+	<option value="-1"<%If jobfamilyid="-1" Or jobfamilyid="" Then Response.write " selected"%>>All</option>
+</select>
+<%
+	End Function
+	
+	Dim cmd_params
+	
+	Function setCmd()
+		If Not IsObject(cmd) Then
+			SetLocale(1033)
+			Call OpenDBConnection()
+			
+			Set cmd = server.CreateObject("ADODB.Command")
+			cmd.ActiveConnection = cnnDB
+			cmd.CommandType = adCmdStoredProc
+				cmd.Parameters.Append cmd.CreateParameter("returnCode",adInteger,adParamReturnValue)
+		End If
+		
+		If Not IsObject(cmd_params) Then
+			Set cmd_params = Server.CreateObject("Scripting.Dictionary")
+		End If
+		
+		param_numbers = cmd_params.Keys
+		If cmd_params.Count > 0 Then
+			For p = 0 To cmd_params.Count -1
+				param_number = param_numbers(p)
+				cmd_param = cmd_params.Item(param_number)
+				cmd.Parameters.Delete cmd_param
+				cmd_params.Remove(param_number)
+			Next 
+		End If
 	End Function
 %>

@@ -3,7 +3,9 @@
 jwdt = 192
 If jwidth Then jwdt = jwidth
 stl = "margin: 0px 5px 0px 4px"
-If style <> "" Then stl = style %>
+If style <> "" Then stl = style
+dsp_p = " display: none;"
+If display_p = True Then dsp_p = "" %>
 <%
 	begin = "Begin Search"
 	disabled = ""
@@ -11,6 +13,7 @@ If style <> "" Then stl = style %>
 	disable_state = ""
 	display_state = ""
 	disable_city = ""
+	display_manage = ""
 	countryid = Request("countryid")
 		If countryid = "" Then countryid = "-1"
 		If countryid = "-1" Then
@@ -22,6 +25,7 @@ If style <> "" Then stl = style %>
 		If countryid <> "1" Then
 			disable_state = " disabled"
 			display_state = " display: none;"
+			display_manage = " display: none;"
 		End If
 	stateid = Request("stateid")
 		If stateid = "" Then stateid = "-1"
@@ -31,7 +35,8 @@ If style <> "" Then stl = style %>
 			disable_city = " disabled"
 		End If
 	jobareas = Request("jobareas")
-		If jobareas = "" Then jobareas = "Select a Job Area"
+	jobfamilyid = Request("jobfamilyid")
+		If jobfamilyid = "" Then jobfamilyid = "-1"
 	keywords = Request("keywords")
 %>
 <script language="JavaScript" type="text/javascript">
@@ -64,6 +69,7 @@ function changeCity()
 						<tr>
 							<td style="padding: 0px 0px 0px 0px;">
 <p style="margin: 0px;">To find a career suited to your skill set, begin by selecting a country from the list below. Then you may narrow your selection further by choosing additional search criteria and/or entering keywords.</p>
+<p class="ada-label">After you select a country from the country field, the page will refresh. For the United States, you can then pick a state.  After you select a state from the 'State' field, the page will refresh.  You will then be able to select a city from the 'City' field.  For all other countries, after you select a country other than the United States from the country field, the page will refresh and you can then select a city from the 'City' field.</p>
 <img class="dotdiv" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
 							</td>
 						</tr>
@@ -82,7 +88,7 @@ function changeCity()
 <label for="stateid" class="p" style="margin: 0px;"><b>State</b></label><br>
 <div id="L102" style="position: relative; z-index: 12;">
 <% 
-	call getStateSelect(" onchange=""changeState();"""&disable_state," style=""position: relative; width: 100%; z-index: auto;"&display_state&"""")
+	call getUSStateSelectDB(" onchange=""changeState();"""&disable_state," style=""position: relative; width: 100%; z-index: auto;"&display_state&"""")
 %>
 </div>
 							</td>
@@ -100,10 +106,14 @@ function changeCity()
 						</tr>
 						<tr style="<%=display%>">
 							<td width="<%=jwdt%>" nowrap style="padding: 0px 0px 0px 0px;">
-<label for="jobareas" class="p" style="margin: 0px;"><b>Job areas</b></label><br>
+<label for="jobareas" class="p" style="margin: 0px;"><b><%If countryid = "1" Then%>Job areas<%Else%>Job Family<%End If%></b></label><br>
 <div id="L104" style="position: relative; z-index: 12;">
 <% 
-	call getJobAreasSelect(disabled," style=""position: relative; width: 100%; z-index: auto;"&display&"""")
+	If countryid = "1" Then
+		call getJobAreasSelect(disabled," style=""position: relative; width: 100%; z-index: auto;"&display&"""")
+	Else
+		call getJobFamilySelect(disabled," style=""position: relative; width: 100%; z-index: auto;"&display&"""")
+	End If
 %>
 </div>
 							</td>
@@ -124,6 +134,25 @@ create_safebutton("<%=begin%>","javascript: _submit();",0,0,0,0,"<%=begin%>");
 //-->
 </script>
 <noscript><input type="submit" name="bsearch" value="<%=begin%>" alt="<%=begin%>" title="<%=begin%>" class="btn"/></noscript>
+							</td>
+						</tr>
+						<tr style="<%=display_manage%>">
+							<td width="<%=jwdt%>" valign="top" style="padding: 6px 0px 0px 0px;">
+<div id="L106" style="position: relative; z-index: 12;">
+<img class="dotdiv" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
+<p class="ada-label">Manage Your Profile. You are encouraged to complete the online candidate profile, however if you have difficulty, you should:</p>
+<ul class="ada-label">
+	<li>Email your resume to <a href="mailto:"bac@resume.bankofamerica.com>bac@resume.bankofamerica.com</a></li>
+	<li>In the Subject Line of your email, include "Source = Bank of America Careers"</li>
+</ul>
+<p style="margin: 3px 0px 3px 0px;">
+<a href="manage_your_profile.asp" target="<%=OVERVIEW_TARGET%>" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" style="margin: 0px 0px 0px 0px;" title="Manage Your Profile<% If OVERVIEW_TARGET = "_blank" Then %>. Link opens a new window.<% End If%>">Manage Your Profile<span class="ada-label">If you have any difficulties, refer to above alternatives.</span></a>
+</p>
+<p style="margin: 3px 0px 0px 0px;<%=dsp_p%>">Create or update your existing candidate profile.</p>
+<img class="dotdiv" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
+<p style="margin: 0px 0px 0px 0px;">
+Bank of America associates should access the <a href="http://www.bankofamerica.com/careers/index.cfm?template=jobs_interstitial" class="p" title="Internal Jobs Database">internal jobs database</a>.</p>
+</div>
 							</td>
 						</tr>
 					</table>

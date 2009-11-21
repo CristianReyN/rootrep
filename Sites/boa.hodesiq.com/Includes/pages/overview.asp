@@ -151,14 +151,15 @@ Bank of Opportunity.
 			<tr valign="top">
 				<td width="378" height="100%" valign="top" style="padding: 12px 0px 0px 0px;">
 <% jwidth = 378
-style = "margin: 0px"%>
+style = "margin: 0px"
+display_p = True%>
 <!-- #include file="../jobsearch.asp" -->
-					<table width="378" style="margin: 6px 0px 0px 0px;" cellpadding="0" cellspacing="0" border="0" summary="">
+					<table width="378" style="margin: 0px 0px 0px 0px;" cellpadding="0" cellspacing="0" border="0" summary="">
 						<tr>
 							<td colspan="2" valign="top" width="100%" style="padding: 0px 0px 0px 0px;">
 <div id="L01" style="position: relative; z-index: 12;">
 <img class="dotdiv" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
-<p style="margin: 6px 0px 0px 0px;">
+<p style="margin: 3px 0px 0px 0px;">
 Throughout Bank&nbsp;of&nbsp;America&#39;s history, we have held one purpose - to help everyone we work with realize their dreams. In fulfilling this purpose, a constant theme in our work has been &ldquo;opportunity.&rdquo;
 </p>
 <p style="margin: 6px 0px 0px 0px;">
@@ -171,16 +172,15 @@ We create opportunities for customers to buy a home, to attend college, or to re
 							<td colspan="2" valign="top" style="padding: 3px 0px 0px 0px;">
 <div id="L02" style="position: relative; z-index: 12;">
 <img class="dotdiv" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
-<br>
+<p style="margin: 3px 0px 6px 0px;">
 <a href="eeoc.asp" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="Equal Employment Opportunity and Affirmative Action Statement">Equal Employment Opportunity and Affirmative Action Statement</a>
-<br>
+</p>
 <img class="dotdiv" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
-<br>
+<p style="margin: 3px 0px 6px 0px;">
 <a href="eadpn.asp" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="Employment Application Data Protection Notice">Employment Application Data Protection Notice</a>
-<br>
+</p>
 <img class="dotdiv" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
-<br>
-<p style="margin: 0px 0px 0px 0px;">
+<p style="margin: 3px 0px 0px 0px;">
 In an effort to continue our commitment to help &ldquo;Put America Back to Work&rdquo;, Bank&nbsp;of&nbsp;America has become a member of Alliance Q, a collaboration of companies working together to showcase career opportunities in your community. Alliance Q is a free and confidential program aimed at helping &ldquo;Put America Back to Work.&rdquo;
 </p>
 <p style="margin: 6px 0px 0px 0px;">

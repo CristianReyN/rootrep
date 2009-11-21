@@ -64,6 +64,7 @@ if mpage = "camp" Then middle_content_padding = "padding: 0px 24px 0px 0px;"
 <script language="javascript1.1" src="../coremetrics/cmdatatagutils.js" type="text/javascript"></script>
 <!-- #include file="../Includes/env.asp" -->
 <!-- #include file="../Includes/url.asp" -->
+<!-- #include file="../Includes/conn.asp" -->
 <script language="JavaScript1.2" type="text/javascript">
 //<!--
 	examineFontSize("body");

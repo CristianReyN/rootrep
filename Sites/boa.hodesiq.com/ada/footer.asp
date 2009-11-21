@@ -28,3 +28,4 @@
 <% End If %>
 </body>
 </html>
+<% If IsObject(cnnDB) Then Call CloseDBConnection()%>
