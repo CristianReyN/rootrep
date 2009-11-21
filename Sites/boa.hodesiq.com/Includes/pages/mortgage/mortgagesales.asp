@@ -46,10 +46,7 @@ rowcount=6
 	<img src="../../images/clear.gif" width="100%" height="1" alt="" border="0" style="margin: 1px 0px 6px 0px; background: #e8e8e9;" align="top"><br clear="all">
 <!-- #include file="../../jobsearch.asp" -->
 </div>
-
-<div style="width: 201px; text-align: center; margin: 0px; padding: 0px;">
-<!-- #include file="../../talkingatm.html" -->
-</div>
+<br><br>
 				</td>
 			</tr>
 		</table>
