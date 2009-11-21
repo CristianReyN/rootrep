@@ -6,7 +6,7 @@
 <h2 class="bac">Our Business</h2>
 <p class="bac">
 Bank of America Europe Card Services (ECS) is the number one credit card lender in Europe.
-Serving over 7 million customers and with outstanding balances of over ?15 billion, we provide credit card services in affinity with over 900 partners including Virgin, BT, Alliance and Leicester, Liverpool Football Club, Breakthrough Breast Cancer and The National Trust.
+Serving over 7 million customers and with outstanding balances of over &pound;15 billion, we provide credit card services in affinity with over 900 partners including Virgin, BT, Alliance and Leicester, Liverpool Football Club, Breakthrough Breast Cancer and The National Trust.
 </p>
 <p class="bac">
 ECS employs over 5,000 people, the majority of which are based at our Head office in Chester (UK), with additional locations in Ireland and Spain.
