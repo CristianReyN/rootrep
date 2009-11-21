@@ -3,10 +3,10 @@
 <%
 dim stitle,surl
 if request.QueryString("m")=1 then
-	stitle="Bank of America | Careers | Manage My Profile"
+	stitle="Bank of America | Manage your Careers Profile Account"
 	surl=Request.QueryString("u").item
 else
-	stitle="Bank of America | Careers | Job Search"
+	stitle="Bank of America | Careers Job Application"
 	surl="applyrd.aspx?" & Request.QueryString
 end if
 %>
@@ -25,6 +25,7 @@ end if
 		frameborder ="no"
 		noresize="noresize"
 		src= "images/BoA_Header.jpg"
+		title="Bank of America header"
 		/>
 	<frame name="main" 
 		marginwidth ="0"
