@@ -109,7 +109,7 @@ public class Jobs
         try
         {
             Sql = string.Empty;
-            Sql = "select Req_ID as Jobs,Description as Location,PostingDate as Date from Jobs";
+            Sql = "select JobsID as JobID,JobTitle as JobName,Description as Location,PostingDate as Date from Jobs";
             db = new DBUtils();
         }
         catch (Exception ex)

@@ -91,12 +91,12 @@
                                                 <AlternatingRowStyle BackColor="#EAF1F7" Height="10px" />
                                                 <HeaderStyle Height="10px" BackColor="#EAF1F7" />
                                                 <Columns>
-                                                    <asp:BoundField DataField="Jobs" HeaderText="JobName" >
-                                                        <HeaderStyle HorizontalAlign="Left" />
-                                                    </asp:BoundField>
-                                                    <asp:HyperLinkField DataNavigateUrlFields="Jobs" DataNavigateUrlFormatString="JobDetails.aspx?reqid={0}" DataTextField="Location" HeaderText="Description" >
+                                                    <asp:HyperLinkField DataNavigateUrlFields="JobID" DataNavigateUrlFormatString="JobDetails.aspx?JobId={0}"  DataTextField="JobName" HeaderText="JobName">
                                                         <HeaderStyle HorizontalAlign="Left" />
                                                     </asp:HyperLinkField>
+                                                    <asp:BoundField DataField="Location" HeaderText="Location" >
+                                                        <HeaderStyle HorizontalAlign="Left" />
+                                                    </asp:BoundField>
                                                 </Columns>
                                                 <PagerStyle CssClass="mh-link1" />
                                             </asp:GridView>

@@ -58,7 +58,7 @@ public partial class _Default : System.Web.UI.Page
         jfamily.Items.Clear();
         jfamily.DataTextField = "Family";
         jfamily.DataValueField = "FamilyID";
-        jfamily.DataSource = at.TalentwiseJobfamily(areasoftalent.SelectedIndex.ToString());
+        jfamily.DataSource = at.TalentwiseJobfamily(areasoftalent.SelectedValue.ToString());
         jfamily.DataBind();
         jfamily.Items.Insert(0, new ListItem("Select a Family", ""));
         //jfamily.SelectedIndex = 0;
@@ -69,7 +69,7 @@ public partial class _Default : System.Web.UI.Page
         City.Items.Clear();
         City.DataTextField = "City";
         City.DataValueField = "Req_ID";
-        City.DataSource = Lo.StatewiseCity(State.SelectedIndex.ToString());
+        City.DataSource = Lo.StatewiseCity(State.SelectedValue.ToString());
         City.DataBind();
         City.Items.Insert(0, new ListItem("Select a City", ""));
         City.SelectedIndex = 0;
