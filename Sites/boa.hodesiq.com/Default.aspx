@@ -4,8 +4,7 @@
 
 <asp:Content ID="Content1" Runat="Server" ContentPlaceHolderID="cphmain">
                <%
-                   //Response.Redirect("overview/overview.asp");
-                   Response.Redirect("maintenance.aspx");               
+                   Response.Redirect("overview/overview.asp");           
                %>
                <h1 style="margin: 0px 0px 0px 12px; ">BOA Maintenance</h1>
                 <table border="0" cellpadding="0" cellspacing="0" summary="" width="578">
