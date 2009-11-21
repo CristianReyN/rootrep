@@ -15,8 +15,10 @@ Metatag="You can link to two sites to see where in the United States a represent
 <!-- Left Nav -->
 <!-- #include file="../includes/lnav.asp" -->
 <!-- Left Nav -->
-			<tr valign="top"><td style="background: #cadceb;" height="300" valign="top" align="center">
+			<tr valign="top"><td style="background: #cadceb;" height="50" valign="bottom" align="right">
 <a href="<%=ada_href %>" title="<%=ada_title %>" class="g" onfocus="this.className='g-over';" onblur="this.className='g';">Text Only Version</a>&nbsp;&nbsp;<br>
+			</td></tr>
+			<tr valign="top"><td style="background: #ececec;" height="300" align="center">
 <script language="JavaScript1.2" type="text/javascript">
 //<!--
 requiredMajorVersion = 8;
@@ -52,7 +54,6 @@ if ( hasRequestedVersion ) {
 </object>
 </noscript>
 			</td></tr>
-			<tr valign="top"><td style="background: #ececec;" height="50"><img src="../images/clear.gif" width="154" height="1" alt="" border="0"></td></tr>
 			<tr valign="top"><td height="50"><img src="../images/clear.gif" width="154" height="1" alt="" border="0"></td></tr>
 		</table>
 	</td>

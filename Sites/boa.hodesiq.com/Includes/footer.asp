@@ -177,5 +177,6 @@ function popnavr(show)
 <%
 	end if
 %>
+<script type="text/javascript" src="../includes/fixit.js"></script>
 </body>
 </html>

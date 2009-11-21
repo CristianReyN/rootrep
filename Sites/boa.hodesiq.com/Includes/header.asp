@@ -41,7 +41,10 @@ function hover(ref, classRef) { eval(ref).className = classRef; }
 <script language="javascript" type="text/javascript">
 //<!--
     examineFontSize("body");
-	function hideFlash(){if(document.getElementById("flash_in").style.display = 'inline') document.getElementById("flash_in").style.display = 'none';}
+	function hideFlash(){if(document.getElementById("flash_in") && document.getElementById("flash_in").style.display == 'inline'){
+	document.getElementById("flash_in").innerHTML = '';
+	document.getElementById("flash_in").style.display = 'none';
+}}
 //-->
 </script>
 <%	if flashPage then %>

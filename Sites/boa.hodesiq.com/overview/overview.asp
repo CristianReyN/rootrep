@@ -36,13 +36,15 @@ requiredVersion = 8;
 hasRequestedVersion = DetectFlashVer(requiredMajorVersion, requiredMinorVersion, requiredRevision);
 if ( hasRequestedVersion ) {
    document.write('<div id="flash_in" style="display: <% If playflash="1" Then Response.write "none" Else Response.write "inline"%>;">');
+	<% If playflash <> "1" Then %>
    document.write('<a class="auraltext" href="#skipflash" onFocus="hover(this,\'show-tab\'); this.focus()" onblur="hover(this,\'auraltext\')">Skip Flash content</a><br>');
-   document.write('<object tabindex="0" onmousedown="document.getElementById("skipflash2").focus();" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"  codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="310" height="390" title="virtualhost" id=ShockwaveFlash1>');
+   document.write('<object tabindex="0" onmousedown="if(document.getElementById(\'skipflash2\')) document.getElementById(\'skipflash2\').focus();" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"  codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="310" height="390" title="virtualhost" id="ShockwaveFlash1">');
    document.write('<param name="movie" value="virtualhost.swf" />');
    document.write('<param name="quality" value="high" />');
    document.write('<param value="transparent" name="wmode" />');
    document.write('<embed src="virtualhost.swf" wmode="transparent" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="310" height="390"></embed>');
    document.write('</object>');
+   <%  End If %>
    document.write('</div>');
 } else {
    document.write('<div style="position: relative; width: 152; height: 300;">');
@@ -53,7 +55,7 @@ if ( hasRequestedVersion ) {
 </script>
 <noscript>
 <div id="flash_in" style="display: <% If playflash="1" Then Response.write "none" Else Response.write "inline"%>;">
-<object tabindex="0" onmousedown="document.getElementById("skipflash2").focus();" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"  codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="310" height="390" title="virtualhost" id=ShockwaveFlash1>
+<object tabindex="0" onmousedown="if(document.getElementById('skipflash2')) document.getElementById('skipflash2').focus();" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"  codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="310" height="390" title="virtualhost" id=ShockwaveFlash1>
   <param name="movie" value="virtualhost.swf" />
   <param name="quality" value="high" />
   <param value="transparent" name="wmode" />
