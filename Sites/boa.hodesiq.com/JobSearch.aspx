@@ -67,7 +67,7 @@
 							<asp:PlaceHolder runat="server" ID="phSearch"></asp:PlaceHolder>
 						</td>
 						<td align="left" valign="top">
-							<asp:HyperLink runat="server" ID="lnkAdvanceSearch" NavigateUrl="~/AdvanceSearch.aspx" Text="Advanced search" />&nbsp;&nbsp;&nbsp;&nbsp;<asp:HyperLink runat="server" ID="lnkJobCart" NavigateUrl="~/jobcart.aspx" Text="View job cart" />
+							<asp:HyperLink runat="server" ID="lnkAdvanceSearch" NavigateUrl="~/AdvanceSearch.aspx" Text="Advanced search" CssClass="p" />&nbsp;&nbsp;&nbsp;&nbsp;<asp:HyperLink runat="server" ID="lnkJobCart" NavigateUrl="~/jobcart.aspx" Text="View job cart" CssClass="p"/>
 						</td>
 						<td align="left" valign="top">
 							

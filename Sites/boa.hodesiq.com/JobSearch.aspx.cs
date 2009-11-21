@@ -51,6 +51,13 @@ public partial class JobSearch : System.Web.UI.Page
 		boanet_safebutton.writeBOASafeButton("Search", phSearch, "Search", bsearch_Click, this.Request);
 		boanet_safebutton.writeBOASafeButton("Previous", phPrevious, "Previous", LnkPrvs_Click, this.Request);
 		boanet_safebutton.writeBOASafeButton("Next", phNext, "Next", LnkNxt_Click, this.Request);
+
+		//
+		lnkAdvanceSearch.Attributes.Add("onblur", "this.className='p';");
+		lnkAdvanceSearch.Attributes.Add("onfocus", "this.className='p-over';");
+
+		lnkJobCart.Attributes.Add("onblur", "this.className='p';");
+		lnkJobCart.Attributes.Add("onfocus", "this.className='p-over';");
 	}
 
 	protected void Page_PreRender()
