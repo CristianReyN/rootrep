@@ -56,8 +56,11 @@ function getCookie(c_name)
 	return false;
 }
 
+var replayVideoHost = '<p style="margin: 0px;"><a href="Javascript: replayVirtualHost();" title="Replay Video Host" class="p" onfocus="this.className=\'p-over\';" onblur="this.className=\'p\';">Replay<br>video host</a></p>';
+var videoTranscripts = '<p style="margin: 6px 0px 0px 0px;"><a href="<%=ada_href %>" title="Video transcripts" class="p" onfocus="this.className=\'p-over\';" onblur="this.className=\'p\';">Video<br>transcripts</a></p>';
+
 function loadVideoHost()
-{
+{if(document.getElementById("flash_in")){
 	var playflash = getCookie("PFOT");
 	if(!playflash || playflash != "1")
 	{
@@ -65,12 +68,15 @@ function loadVideoHost()
 		setCookie("PFOT",1,10000);
 	}
 	else
-		document.getElementById("flash_in").innerHTML = '<table width="160" height="60" cellpadding="0" cellspacing="0" border="0" summary="" style="margin-top: 13px; background: #ebebeb; border-top: 1px solid #dadada; border-bottom: 1px solid #dadada;"><tr><td style="padding: 5px 11px 5px 12px;"><div style="border: 1px solid #dadada;"><img src="../images/piper.jpg" width="52" height="52" alt="Replay Video Host" border="0" style="border: 1px solid #ebebeb;"></div></td><td width="100%"><p style="margin: 0px;"><a href="Javascript: replayVirtualHost();" title="Replay Video Host" class="p" onfocus="this.className=\'p-over\';" onblur="this.className=\'p\';">Replay<br>video host</a></p><p style="margin: 6px 0px 0px 0px;"><a href="<%=ada_href %>" title="Video transcripts" class="p" onfocus="this.className=\'p-over\';" onblur="this.className=\'p\';">Video<br>transcripts</a></p></td></tr></table>';
-}
+		document.getElementById("flash_in").innerHTML = helpLinks;
+}}
 
 requiredMajorVersion = 8;
 requiredVersion = 8;
 hasRequestedVersion = DetectFlashVer(requiredMajorVersion, requiredMinorVersion, requiredRevision);
+var reqFlashPlayer = '<a href="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash" title="This page requires Adobe Flash Player version '+requiredMajorVersion+'. Please download latest version." class="p" onfocus="this.className=\'p-over\';" onblur="this.className=\'p\';">This page requires Adobe Flash Player version '+requiredMajorVersion+'. Please download latest version.</a>';
+var helpLinks = '<table width="160" height="60" cellpadding="0" cellspacing="0" border="0" summary="" style="margin-top: 13px; background: #ebebeb; border-top: 1px solid #dadada; border-bottom: 1px solid #dadada;"><tr><td style="padding: 5px 11px 5px 12px;"><div style="border: 1px solid #dadada;"><img src="../images/piper.jpg" width="52" height="52" alt="Replay Video Host" border="0" style="border: 1px solid #ebebeb;"></div></td><td width="100%">'+(hasRequestedVersion?replayVideoHost:'')+videoTranscripts+'</td></tr></table>'+(hasRequestedVersion?'':'<p style="margin: 6px 6px 0px 6px;">'+reqFlashPlayer+'</p>');
+
 if ( hasRequestedVersion ) {
 	var hiddenFlash = '<a class="auraltext" href="#skipflash" onFocus="hover(this,\'show-tab\'); this.focus()" onblur="hover(this,\'auraltext\')">Skip Flash content</a><br>';
 	hiddenFlash += '<object tabindex="0" onmousedown="if(document.getElementById(\'skipflash2\')) document.getElementById(\'skipflash2\').focus();" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"  codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="310" height="390" title="virtualhost" id="ShockwaveFlash1">';
@@ -83,7 +89,7 @@ if ( hasRequestedVersion ) {
    document.write('</div>');
 } else {
    document.write('<div style="position: relative; width: 152; height: 300;">');
-   document.write('<a class="g" onfocus="this.className=\'g-over\';" onblur="this.className=\'g\';" href="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash" title="This page requires Adobe Flash Player version '+requiredMajorVersion+'. Please download latest version.">This page requires Adobe Flash Player version '+requiredMajorVersion+'. Please download latest version.</a><br>'); 
+   document.write(helpLinks); 
    document.write('</div>');
 }
 //-->

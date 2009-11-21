@@ -51,11 +51,11 @@ function hover(ref, classRef) { eval(ref).className = classRef; }
 //-->
 </script>
 <table cellpadding="0" cellspacing="0" border="0" summary=""><tr><td>
+<div id="stopaudio">
 <% If flashPage Then %>
-<a class="auraltext" id="stopaudio" href="JavaScript: if(window.hideFlash) hideFlash();" onFocus="hover(this,'show-tab'); this.focus();" onblur="hover(this,'auraltext');" title="<%=hide_flash_title%>"><%=hide_flash_title%></a>
-<% Else %>
-<a class="auraltext" id="stopaudio" href="<%=ada_href%>" onFocus="hover(this,'show-tab'); this.focus();" onblur="hover(this,'auraltext');" title="<%=ada_title%>"><%=ada_title%></a>
+<a class="auraltext" href="JavaScript: if(window.hideFlash) hideFlash();" onFocus="hover(this,'show-tab'); this.focus();" onblur="hover(this,'auraltext');" title="<%=hide_flash_title%>"><%=hide_flash_title%></a>
 <% End If %>
+</div>
 </td></tr></table>
 
 <table width="750" cellpadding="0" cellspacing="0" border="0" summary="">
@@ -63,13 +63,13 @@ function hover(ref, classRef) { eval(ref).className = classRef; }
 	<td valign="top" colspan="3" height="71">
 		<table width="750" border="0" cellspacing="0" cellpadding="0" summary="">
 			<tr>
-				<td width="262" valign="top"><a name="top"></a><a href="#skipmaincontent" title="Skip To Main Content."><img src="../images/clear.gif" width="1" height="69" alt="Skip To Main Content." border="0" /></a><img src="../images/clear.gif" width="10" height="69" alt="" border="0" /><a href="http://www.bankofamerica.com" title="Bank of America  Higher Standards home page"><img src="../images/mhd_reg_logo.gif" width="250" height="69" alt="Bank of America Higher Standards home page" border="0" /></a><a href="http://www.bankofamerica.com/help/index.cfm?template=sitemap.cfm" title="Go to site map."><img src="../images/clear.gif" width="1" height="69" alt="Go to site map." border="0" /></a></td>
+				<td width="262" valign="top"><a name="top"></a><a href="#skipmaincontent" title="Skip To Main Content."><img src="../images/clear.gif" width="1" height="69" alt="Skip To Main Content." border="0" /></a><img src="../images/clear.gif" width="10" height="69" alt="" border="0" /><a href="http://www.bankofamerica.com" title="Bank of America home page"><img src="../images/mhd_reg_logo.gif" width="250" height="69" alt="Bank of America home page" border="0" /></a><a href="http://www.bankofamerica.com/help/index.cfm?template=sitemap.cfm" title="Go to site map."><img src="../images/clear.gif" width="1" height="69" alt="Go to site map." border="0" /></a></td>
 				<td width="232"><a href="#skipnav" title="Skip global navigational links."><img src="../images/clear.gif" width="1" height="69" alt="Skip global navigational links." border="0" /></a></td>
 				<td width="256" valign="bottom">
 					<table width="100%" border="0" cellspacing="0" cellpadding="0" summary="">
 						<tr>
 							<td colspan="2" valign="bottom" align="right" nowrap>
-<a href="http://www.bankofamerica.com/index.cfm?page=about" class="mh-link1" title="Home" onfocus="this.className='mh-link1-over';" onblur="this.className='mh-link1';">Home</a>&#160;<span class="linksep1">&#8226;</span>&#160;<a href="http://www.bankofamerica.com/findit/locator.cfm" class="mh-link1" title="Locations" onfocus="this.className='mh-link1-over';" onblur="this.className='mh-link1';">Locations</a>&#160;<span class="linksep1">&#8226;</span>&#160;<a href="http://www.bankofamerica.com/careers/index.cfm?template=contact_us" class="mh-link1" title="Contact Us" onfocus="this.className='mh-link1-over';" onblur="this.className='mh-link1';">Contact Us</a>&#160;<span class="linksep1">&#8226;</span>&#160;<a href="http://www.bankofamerica.com/help" class="mh-link1" title="Help" onfocus="this.className='mh-link1-over';" onblur="this.className='mh-link1';">Help</a>&#160;<span class="linksep1">&#8226;</span>&#160;<a href="http://www.bankofamerica.com/signin/" class="mh-link2" title="Sign In" onfocus="this.className='mh-link2-over';" onblur="this.className='mh-link2';">Sign In</a></td>
+<a href="../overview/overview.asp" class="mh-link1" title="Home" onfocus="this.className='mh-link1-over';" onblur="this.className='mh-link1';">Home</a>&#160;<span class="linksep1">&#8226;</span>&#160;<a href="http://www.bankofamerica.com/findit/locator.cfm" class="mh-link1" title="Locations" onfocus="this.className='mh-link1-over';" onblur="this.className='mh-link1';">Locations</a>&#160;<span class="linksep1">&#8226;</span>&#160;<a href="http://www.bankofamerica.com/careers/index.cfm?template=contact_us" class="mh-link1" title="Contact Us" onfocus="this.className='mh-link1-over';" onblur="this.className='mh-link1';">Contact Us</a>&#160;<span class="linksep1">&#8226;</span>&#160;<a href="http://www.bankofamerica.com/help" class="mh-link1" title="Help" onfocus="this.className='mh-link1-over';" onblur="this.className='mh-link1';">Help</a>&#160;<span class="linksep1">&#8226;</span>&#160;<a href="http://www.bankofamerica.com/signin/" class="mh-link2" title="Sign In" onfocus="this.className='mh-link2-over';" onblur="this.className='mh-link2';">Sign In</a></td>
 						</tr>
 						<tr><td colspan="2"><img src="../images/clear.gif" width="1" height="3" alt="" border="0" /></td></tr>
 						<tr>

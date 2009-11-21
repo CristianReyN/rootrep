@@ -16,11 +16,12 @@ function startPs()
 	aa = addElementsByClassName("a","left2",aa);
 	aa = addElementsByClassName("a","ftrlnk",aa);
 	for (var i=0; i<aa.length; i++) {
+		aa[i].baseClassName = aa[i].className;
 		aa[i].onmouseover=function() {
-			this.wasClassName=this.className; this.className=this.className+'-over';
+			this.className=this.baseClassName+'-over';
 		}
 		aa[i].onmouseout=function() {
-			this.className=this.wasClassName;
+			this.className=this.baseClassName;
 		}
 	}
 }

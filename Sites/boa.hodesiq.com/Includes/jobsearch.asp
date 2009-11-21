@@ -83,7 +83,7 @@ If you are currently a Bank of America associate, you should access the <a href=
 							</td>
 						</tr>
 						<tr>
-							<td width="192" colspan="2" valign="top" width="100%" align="center" style="padding: 6px 0px 0px 12px;">
+							<td width="192" colspan="2" valign="top" width="100%" style="padding: 6px 0px 0px 0px;">
 <script language="JavaScript" type="text/javascript">
 <!--
 create_safebutton("Begin Search","javascript: document.jsearch.submit();",0,0,0,0,"Begin Search");

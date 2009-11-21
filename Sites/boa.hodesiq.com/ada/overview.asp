@@ -22,19 +22,16 @@ flashPage = false
 <a name="vht"></a>
 <H2 class="h1" style="margin: 12px 12px 0px 13px;">Video Host<br><span>Transcript</span></H2>
 <p class="s" style="margin: 12px 12px 12px 13px;">
-Welcome to Bank of America.  Our global corporation offers talented and motivated individuals the opportunity to excel in many different areas.</p>
+Welcome to Bank of America. Our global corporation offers talented and motivated individuals the opportunity to excel in many different areas.</p>
 
 <p class="s" style="margin: 12px 12px 0px 13px;">
-Our site is separated into three sections for ease of navigation.</p>
+The "Why Choose Bank of America" banner at the top of the page launches a video with information about the culture and work environment at Bank of America.</p>
 
 <p class="s" style="margin: 12px 12px 0px 13px;">
-'Why Choose Bank of America' see section at top of page if you are interested in learning more about the culture and work environment. In this section, you'll have the opportunity to listen to what other Bank of America associates have to say - which can help you decide where your job skills are best applied.</p>
+If you already know that we're a good fit and you're ready to learn about our current opportunities, go to the <a href="../jobsearch.aspx" style="line-height: 1.1em;" class="p" onfocus="this.className='p-over';" onblur="this.className='p';">"Job Search"</a> section to get started.</p>
 
 <p class="s" style="margin: 12px 12px 0px 13px;">
-If you already know that we're a good fit and you're ready to learn about our current opportunities, click straight through to our <a href="../jobsearch.aspx" style="line-height: 1.1em;">'Job Search'</a> section and begin the process.</p>
-
-<p class="s" style="margin: 12px 12px 0px 13px;">
-Now that you're ready to explore options within our organization, you'll find a wealth of valuable information on everything from benefits, to policies and procedures in the <a href="learnmore.asp" style="line-height: 1.1em;">'Related Information'</a> section of the site.</p>
+If you want to learn more about what Bank of America has to offer, you'll find a wealth of valuable information on everything from benefits to policies and procedures in the "Related Information" section.</p>
 
 <p class="s" style="margin: 12px 12px 12px 13px;">
 Thank you for your interest in Bank of America!</p>
