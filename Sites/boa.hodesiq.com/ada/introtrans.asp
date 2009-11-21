@@ -1,9 +1,3 @@
-Just to have that good feeling that I helped somebody today. And that just feels good.
-<br><br>
-Bank of America has so many places where you can really go and achieve what you want to do.
-<br><br>
-I love not only the people I work with, but the people that I help.
-<br><br>
 <b>Realistic Preview for Call Center Positions</b>
 <br><br>
 Hello, and welcome to Bank of America. We&acute;re excited about your interest in joining our winning team and in becoming one of our valued Call Center Associates.
