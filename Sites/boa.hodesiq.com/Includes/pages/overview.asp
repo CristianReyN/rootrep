@@ -58,7 +58,7 @@ if ( hasRequestedVersion ) {
 	document.write('<div id="image2" style="display: inline;">');
 	document.write('<a class="auraltext" href="JavaScript: ow(\'bc_cc\');" onFocus="hover(this,\'show-tab\');" onblur="hover(this,\'auraltext\');" title="'+accessFlash+'">'+accessFlash+'<\/a>');
 	document.write('<img src="../images/whyworkhere_cc.jpg" width="578" height="166" border="0" usemap="#whywork" alt="Perform well. Get rewarded - that\'s why I work here." title="Perform well. Get rewarded - that\'s why I work here.">');
-document.write('<map name="whywork"><area alt="Why Work Here" title="Why Work Here" shape="poly" coords="0,0,0,166,545,166,545,147,551,141,572,141,578,147,578,0" href="Javascript: showFlash(bc_ns);"><area alt="Why Work Here CC" title="Why Work Here CC" shape="poly" coords="545,166,545,147,551,141,572,141,578,147,578,166" href="Javascript: showFlash(bc_cc);"><\/map>');
+document.write('<map name="whywork"><area alt="Question: Why choose Bank of America? Answer: Perform well, get rewarded. That&#39;s why I work here. My success is up to me." title="Question: Why choose Bank of America? Answer: Perform well, get rewarded. That&#39;s why I work here. My success is up to me." shape="poly" coords="0,0,0,166,545,166,545,147,551,141,572,141,578,147,578,0" href="Javascript: showFlash(bc_ns);"><area alt="View this video with closed captioning." title="View this video with closed captioning." shape="poly" coords="545,166,545,147,551,141,572,141,578,147,578,166" href="Javascript: showFlash(bc_cc);"><\/map>');
 	document.write('<\/div>');
 } else {
 	document.write('<a href="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash" title="This video requires Adobe Flash Player version '+requiredMajorVersion+'. Please download latest version."><img src="../images/whyworkhere_cc.jpg" width="578" height="166" alt="This video requires Adobe Flash Player version '+requiredMajorVersion+'. Please download latest version." title="This video requires Adobe Flash Player version '+requiredMajorVersion+'. Please download latest version." border="0" style="margin: 0px;" /><\/a><br>'+reqFlashPlayer+'<br><br>'); 
@@ -195,7 +195,7 @@ Bank of Opportunity.
 			<%end if%>
 		</table>
 		<a name="jobsearch"></a><a name="skipmaincontent"></a>
-		<table width="578"  cellpadding="0" cellspacing="0" border="0" summary="">
+		<table width="578" cellpadding="0" cellspacing="0" border="0" summary="">
 <!-- #include file="../jsearch.asp" -->
 			<tr valign="top">
 				<td width="386" height="100%" valign="top" style="padding: 0px 0px 0px 0px;">
@@ -206,7 +206,7 @@ Bank of Opportunity.
 					<table width="378" style="margin: 6px 0px 0px 0px;" cellpadding="0" cellspacing="0" border="0" summary="">
 						<tr>
 							<td colspan="2" style="padding: 0px;">
-<p style="margin: 0px;">Use the Search below to find a career suited to your skill set.  You may narrow your selection further by selecting a job area, location or entering a keyword.</p>
+<p style="margin: 0px;">Use the Search below to find a career suited to your skill set. You may narrow your selection further by selecting a job area, location or entering a keyword.</p>
 <img class="dotdiv" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
 							</td>
 						</tr>
@@ -259,7 +259,7 @@ Bank of Opportunity.
 create_safebutton("Begin Search","javascript: document.jsearch.submit();",0,0,0,0,"Begin Search");
 //-->
 </script>
-<noscript><input type="submit" name="bsearch" value="Begin Search" alt="Begin Search" title="Begin Search"  class="btn"/></noscript>
+<noscript><input type="submit" name="bsearch" value="Begin Search" alt="Begin Search" title="Begin Search" class="btn"/></noscript>
 </div>
 							</td>
 						</tr>
@@ -272,7 +272,7 @@ Bank of America and Merrill Lynch have officially joined forces, creating a lead
 <p style="margin: 6px 0px 0px 0px;">
 Bank of America associates should access the <a href="http://www.bankofamerica.com/careers/index.cfm?template=jobs_interstitial" class="p" title="Internal Jobs Database">internal jobs database</a>.</p>
 <p style="margin: 6px 0px 6px 0px;">
-Please use  the <a href="http://globalcareers.bankofamerica.com/" class="p" title="Global Careers Job Search">Global Careers Job Search</a> to find opportunities outside of the USA.</p>
+Please use the <a href="http://globalcareers.bankofamerica.com/" class="p" title="Global Careers Job Search">Global Careers Job Search</a> to find opportunities outside of the USA.</p>
 <p class="ada-label">Manage Your Profile. You are encouraged to complete the online candidate profile, however if you have difficulty, you should:</p>
 <ul class="ada-label">
 	<li>Email your resume to <a href="mailto:"bac@resume.bankofamerica.com>bac@resume.bankofamerica.com</a></li>

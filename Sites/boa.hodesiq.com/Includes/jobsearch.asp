@@ -4,10 +4,10 @@ jwdt = 192
 If jwidth Then jwdt = jwidth %>
 <form style="margin: 0px;" name="jsearch" action="<% Response.write job_search_action %>">
 <input type="hidden" name="from" id="from" value="<% Response.write page_self %>">
-					<table width="<%=jwdt%>" cellpadding="0" cellspacing="0" border="0" summary="" style="margin: 0px 5px 0px 4px;">
+					<table width="<%=jwdt%>" cellpadding="0" cellspacing="0" border="0" summary="" style="margin: 0px 0px 0px 4px;">
 						<tr>
 							<td style="padding: 0px 0px 0px 0px;">
-<p style="margin: 0px;">Use the Search below to find a career suited to your skill set.  You may narrow your selection further by selecting a job area, location or entering a keyword.</p>
+<p style="margin: 0px;">Use the Search below to find a career suited to your skill set. You may narrow your selection further by selecting a job area, location or entering a keyword.</p>
 <p style="margin: 6px 0px 0px 0px;">
 Bank of America associates should access the <a href="http://www.bankofamerica.com/careers/index.cfm?template=jobs_interstitial" class="p" onfocus="this.className='p-over';" onblur="this.className='p';" title="Internal Jobs Database">internal jobs database</a>.</p>
 <img class="dotdiv" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
@@ -42,7 +42,7 @@ Bank of America associates should access the <a href="http://www.bankofamerica.c
 create_safebutton("Begin Search","javascript: document.jsearch.submit();",0,0,0,0,"Begin Search");
 //-->
 </script>
-<noscript><input type="submit" name="bsearch" value="Begin Search" alt="Begin Search" title="Begin Search"  class="btn"/></noscript>
+<noscript><input type="submit" name="bsearch" value="Begin Search" alt="Begin Search" title="Begin Search" class="btn"/></noscript>
 							</td>
 						</tr>
 					</table>

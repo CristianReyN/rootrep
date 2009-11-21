@@ -13,7 +13,8 @@ Dim flashPage
 flashPage = false
 Dim subtitle
 subtitle="Locations"
-Metatag=""
+Metatag="From this page you can do a search to find Bank of America Mortgage jobs."
+Keywords="Bank of America, Mortgage, Fulfillment, Home Equity, Reverse Mortgages, Insurance, Sales, Servicing, Mortgage Lender, Loan Servicer, Home Lending, Job Opportunities, Job Search, Career Search."
 '****************************** ADDED FOR HOT JOB OPENING***************************
 %>
 <!-- Header -->

@@ -150,6 +150,7 @@ rowcount=6
 	<!-- #include file="../mortgage/mortgagevideo.asp" -->
 	<a href="#video" class="hlink">Mortgage Careers Video</a>
 <% End If  %>
+<% If spage = "mortgagecareers" Then %>
 	<div style="width: 201px; text-align: left; border: 1px solid #e8e8e9; background: #ffffff; margin: 12px 0px 12px 0px; padding: 0px 0px 6px 0px;">
 		<H2 class="g" style="margin: 0px 0px 0px 0px;">Career Opportunities</H2>
 			<img src="../../images/clear.gif" width="100%" height="1" alt="" border="0" style="margin: 0px 0px 0px 0px; background: #ffffff;" align="top"><br clear="all">
@@ -164,6 +165,13 @@ rowcount=6
 			<p style="margin: 6px 6px 0px 6px;"><a class="left" href="../../jobsearch.aspx?jobareas=12|19&stateid=-1&cityid=-1&keywords=&SearchPage=Sp">View current jobs in Sales</a></p>
 			<p style="margin: 6px 6px 0px 6px;"><a class="left" href="../../jobsearch.aspx?jobareas=12|21&stateid=-1&cityid=-1&keywords=&SearchPage=Sp">View current jobs in Technology</a></p>
 	</div>
+<% Else  %>
+<div style="width: 201px; border: 1px solid #e8e8e9; margin: 12px 0px 12px 0px; padding: 0px 0px 6px 0px;">
+	<H2 class="g" style="margin: 0px 0px 0px 0px;"><%=JOB_SEARCH_TITLE%></H2>
+	<img src="../../images/clear.gif" width="100%" height="1" alt="" border="0" style="margin: 1px 0px 6px 0px; background: #e8e8e9;" align="top"><br clear="all">
+<!-- #include file="../../jobsearch.asp" -->
+</div>
+<% End If  %>
 	<div style="width: 201px; text-align: center; margin: 0px; padding: 0px;">
 		<!-- #include file="../../talkingatm.html" -->
 	</div>

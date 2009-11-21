@@ -13,8 +13,8 @@ Dim flashPage
 flashPage = false
 Dim subtitle
 subtitle="Mortgage Careers"
-Metatag=""
-Keywords=""
+Metatag="Landing page for Bank of America Mortgage. From this page you can view the interview of a Home Loan Manager and view current opportunities with Mortgage."
+Keywords="Bank of America, Mortgage, Fulfillment, Home Equity, Reverse Mortgages, Insurance, Sales, Servicing, Mortgage Lender, Loan Servicer, Home Lending, Job Opportunities, Job Search, Career Search."
 '****************************** ADDED FOR HOT JOB OPENING***************************
 %>
 <!-- Header -->
