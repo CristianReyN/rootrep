@@ -2,7 +2,17 @@
 			<tr valign="top"><td valign="top" class="divt"><img src="../images/clear.gif" width="100%" height="4" alt="" border="0"></td></tr>
 			<tr valign="top">
 				<td valign="top" width="578" height="300">
-				<%if page_section <> "ADA" then %>
+<%
+'On Error Resume Next
+	countryid = Request("countryid")
+		If countryid = "" Then countryid = "-1"
+%>
+				<%if page_section <> "ADA" Then %>
+					<%if CInt(countryid) > 0 Then %>
+						<!-- #include file="../regions.asp" -->
+						<% image = getImage(  countryid, "" )%>
+						<img src="<%=image%>" alt="" border="0">
+					<%Else%>
 <script language="JavaScript1.2" src="../includes/flash.js" type="text/javascript"></script>
 <script language="JavaScript1.2" type="text/javascript">
 //<!--
@@ -21,14 +31,14 @@ if ( hasRequestedVersion ) {
 <img src="../images/whyworkhere_cc.jpg" width="578" height="166" border="0" alt="Perform well. Get rewarded - that's why I work here." title="Perform well. Get rewarded - that's why I work here.">
 </noscript>
 <div class="hidden">Why Choose Bank of America? Perform well. Get rewarded - that's why I work here. My Success is up to me.</div>
+					<%End If%>
 				</td>
 			</tr>
-			<tr valign="top"><td valign="top" class="divb"><img src="../images/clear.gif" width="100%" height="4" alt="" border="0" align="left">
-			</td></tr>
+			<tr valign="top"><td valign="top" class="divb"><img src="../images/clear.gif" width="100%" height="4" alt="" border="0" align="left"></td></tr>
 			<tr valign="top"><td valign="top">
 <a name="skipflash"></a>
 			</td></tr>
-				<%else%>
+				<%Else%>
 				<a href="#jobsearch" title="Jump to jobsearch"><a name="wab"></a><img src="../images/clear.gif" width="1" height="1" alt="Jump to jobsearch function" border="0" /></a><br clear="all">
 <p style="margin: 9px 0px 3px 0px; font : normal 2.0em/1.25em Times New Roman, Times, serif; color: #333333;">
 Why Choose Bank of America?

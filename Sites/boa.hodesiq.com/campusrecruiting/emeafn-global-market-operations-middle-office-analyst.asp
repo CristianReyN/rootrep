@@ -1,23 +1,25 @@
 <% Response.Buffer=True 
 Dim title, mpage, spage, ada_href, ada_title, job_search_action, Metatag%>
 <!-- #include file="../includes/breadcrumb.asp" -->
+<!-- #include file="../includes/career_fit_tool_programs.asp" -->
 <%
-mpage = "locations"
-spage = "united_states"
-tpage = "lb_career_compass"
-ada_href = "../ada/lb_career_compass.asp"
-page_self = "../learnmore/lb_career_compass.asp"
-ada_title = breadcrumb & "Lines of Business | Career Compass"
+Set program = programs(164)
+title = breadcrumb & "Campus Recruiting | Explore Careers | " & program.Item("full_degree") & " | " & program.Item("region") & " | " & program.Item("title")
+mpage = "camp"
+spage = "explore_careers"
+tpage = "undergraduate_programs"
+fpage = "emeafn-global-market-operations-middle-office-analyst"
+ada_href = "../ada_camp/emeafn-global-market-operations-middle-office-analyst.asp"
+page_self = "../campusrecruiting/emeafn-global-market-operations-middle-office-analyst.asp"
+ada_title = breadcrumb & "Campus Recruiting | Explore Careers | " & program.Item("full_degree") & " | " & program.Item("region") & " | " & program.Item("title")
 job_search_action = "../jobsearch/searchresult.asp"
-Metatag="This tool can help you determine which Bank of America lines of business match your skills and interests."
-	
-	page_number = 3
-	previous_page_number = page_number - 1
-	next_page_number = page_number + 1
-%>
-<!-- #include file="../includes/pages/lb_career_compass_function.asp" -->
-<%
-title = breadcrumb & "Lines of Business | Career Compass | Step " & page_number
+%><!-- #include file="../includes/camp_program_meta_description.asp" --><%
+Metatag=CAMP_META_DESRIPTION
+Dim r1,r2,r3
+r1 = True
+r2 = True
+r3 = True
+r4 = True
 %>
 <!-- Header -->
 <!-- #include file="../includes/header.asp" -->
@@ -33,7 +35,7 @@ title = breadcrumb & "Lines of Business | Career Compass | Step " & page_number
 	<td valign="top" width="578" height="100%">
 <!-- Body-->
 <img src="../images/clear.gif" width="15" height="4" alt="" border="0"><br>
-<!-- #include file="../includes/pages/lb_career_compass.asp" -->
+<!-- #include file="../includes/pages/camp/emeafn-global-market-operations-middle-office-analyst.asp" -->
 <br><br>
 <!-- Body-->
 	</td>

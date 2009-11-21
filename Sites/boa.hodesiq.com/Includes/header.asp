@@ -62,7 +62,7 @@ H2.p, H3.p {
 <%If mpage = "camp" Then %>
 <script language="JavaScript1.2" src="../includes/flash.js" type="text/javascript"></script>
 <%End If %>
-<% If (spage = "collrecruiting" And (tpage = "" Or tpage = "career_compass") And fpage = "") Or (mpage = "lob" And spage = "lb_career_compass") Or (spage = "collrecruiting" And (tpage = "graduate_programs" Or tpage = "undergraduate_programs" Or tpage = "internships_program") And fpage <> "") Or (mpage = "areasoftalent" And spage <> "") Then %>
+<% If (spage = "collrecruiting" And (tpage = "" Or tpage = "career_compass") And fpage = "") Or (mpage = "locations" And spage = "united_states" And tpage = "lb_career_compass") Or (spage = "collrecruiting" And (tpage = "graduate_programs" Or tpage = "undergraduate_programs" Or tpage = "internships_program") And fpage <> "") Or (mpage = "areasoftalent" And spage <> "") Then %>
 <script language="JavaScript1.2" src="../includes/mm.js" type="text/javascript"></script>
 <% End If %>
 <% If spage = "collrecruiting" And tpage = "" And fpage = "" Then %>
@@ -135,7 +135,7 @@ function tdiv(tf){}
 <%
 Dim pageId, categoryId
 pageId = "career:" & Replace(page_self, "../", "", 1, -1, 0)
-If spage = "lb_career_compass" Then
+If tpage = "lb_career_compass" Then
 	pageId = Replace(pageId, "lb_career_compass", "lb_career_compass_"&page_number, 1, 1, 0)
 ElseIf tpage = "career_compass" Then
 	pageId = Replace(pageId, "career_compass", "career_compass_"&page_number, 1, 1, 0)

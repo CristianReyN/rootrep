@@ -1,6 +1,6 @@
 <%	href_pre = ""
 	If page_section <> "ADA" Then href_pre = "../learnmore/" %>
-<%	If tpage <> "values" Then %>
+<%	If fpage <> "values" Then %>
 <p style="margin: 12px 0px 0px 0px;">
 <a href="<%Response.write href_pre%>values.asp" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="Values">Values</a>
 </p>

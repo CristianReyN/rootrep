@@ -9,10 +9,18 @@
 			<tr valign="top"><td colspan="2" valign="top" class="divb"><img src="../images/clear.gif" width="100%" height="4" alt="" border="0"></td></tr>
 		</table>
 		<img src="../images/clear.gif" width="100%" height="<%=top_content_padding_bottom%>" alt="" border="0"><br />
-		<a name="skipmaincontent"></a>
 		<table width="578" cellpadding="0" cellspacing="0" border="0" summary="">
 			<tr valign="top">
-				<td width="373" height="100%" valign="top" style="padding: 0px <%=right_margin%>px 0px <%=left_margin_0%>px;">
+				<td colspan="2" width="100%" valign="top">
+<a name="skipmaincontent"></a>
+					<div align="right" style="float: right; margin: 0px 0px 0px <%=right_margin_split%>px; padding: 0px; width: 201px;">
+<div style="width: 201px; text-align: left; border: 1px solid #e8e8e9; background: #ffffff; margin: 0px 0px 12px 0px; padding: 0px 0px 6px 0px;">
+	<H2 class="g" style="margin: 0px 0px 0px 0px;"><%=JOB_SEARCH_TITLE%></H2>
+	<img src="../images/clear.gif" width="100%" height="1" alt="" border="0" style="margin: 1px 0px 6px 0px; background: #e8e8e9;" align="top"><br clear="all">
+<!-- #include file="../jobsearch.asp" -->
+</div>
+<br><br>
+					</div>
 <H1 class="h1" style="margin: 0px 0px 0px 0px; padding: 0px;">Global Commercial Banking</H1>
 
 <p style="margin-top: 12px;">
@@ -28,7 +36,7 @@ In this unprecedented economic environment, nearly every business has encountere
 </p>
 
 <p style="margin-top: 12px;">
-<b>Global Commercial Banking (GCB)</b> serves as that trusted advisor to more than 160,000 companies, ranging in size from $2.5 million to more than $2 billion in annual revenues
+<b>Global Commercial Banking (GCB)</b> serves as that trusted advisor to more than 160,000 companies, ranging in size from $2.5 million to more than $2 billion in annual revenues.
 </p>
 
 <p style="margin-top: 12px;">
@@ -42,16 +50,6 @@ GCB is excited about the expanded capabilities it can offer commercial clients a
 <p style="margin-top: 12px;">
 For more information on GCB, specifically, and Bank&nbsp;of&nbsp;America Merrill Lynch, overall, please visit us at <a href="http://www.bankofamerica.com/corporate" class="p" target="_blank" title="Link opens a new window.">www.bankofamerica.com/corporate</a>.
 </p>
-
-<br>
-				</td>
-				<td width="205" height="100%" valign="top">
-<div style="border: 1px solid #e8e8e9; margin: 0px 0px 12px 0px; padding: 0px 0px 6px 0px;">
-	<H2 class="g" style="margin: 0px 0px 0px 0px;"><%=JOB_SEARCH_TITLE%></H2>
-	<img src="../images/clear.gif" width="100%" height="1" alt="" border="0" style="margin: 1px 0px 6px 0px; background: #e8e8e9;" align="top"><br clear="all">
-<!-- #include file="../jobsearch.asp" -->
-</div>
-<br><br>
 				</td>
 			</tr>
 		</table>

@@ -26,19 +26,25 @@ Merrill Lynch Wealth Management is, and always has been, a choice for Financial 
 </p>
 
 <H2 class="p" style="margin: 12px 0px 0px 0px; padding: 0px;"><b>Every Financial Advisor benefits from:</b></H2>
-<br>
-<H2 class="bacg" style="margin: 0px; padding: 0px;">Culture</H2>&nbsp;<p class="bacg">We are built on putting clients&#39; needs first and a legacy of wealth management experience.</p>
-<br><br>
-<H2 class="bacg" style="margin: 0px; padding: 0px;">Leadership</H2>&nbsp;<p class="bacg">Our executive field leadership team began as Financial Advisors and average 20 years of wealth management service.</p>
-<br><br>
-<H2 class="bacg" style="margin: 0px; padding: 0px;">Platform</H2>&nbsp;<p class="bacg">Year after year, we reinvest millions of dollars back into the platform that helps our Financial Advisors serve their clients.</p>
-<br><br>
-<H2 class="bacg" style="margin: 0px; padding: 0px;">Research</H2>&nbsp;<p class="bacg">We offer industry-leading, world-class research that provides timely insights.</p>
-<br><br>
-<H2 class="bacg" style="margin: 0px; padding: 0px;">Access to Bank&nbsp;of&nbsp;America products</H2>&nbsp;<p class="bacg">From standard banking to credit products to customized solutions, we now can offer clients access to more options than ever before.</p>
-<br><br>
-<H2 class="bacg" style="margin: 0px; padding: 0px;">Training</H2>&nbsp;<p class="bacg">As a new Financial Advisor, you will participate in a three-year training program called Practice Management Development Program (PMDP), which includes training, coaching and assessment. PMDP has a tailored curriculum designed to help you develop a strong foundation of the critical wealth management skills and knowledge necessary for acquiring affluent clients, enhancing relationships and providing tailored solutions.</p>
-<br>
+
+<H3 class="bac" style="margin: 12px 0px 0px 0px; padding: 0px;">Culture</H3>
+<p class="bac" style="margin: 0px 0px 0px 0px; padding: 0px;">We are built on putting clients&#39; needs first and a legacy of wealth management experience.</p>
+
+<H3 class="bac" style="margin: 12px 0px 0px 0px; padding: 0px;">Leadership</H3>
+<p class="bac" style="margin: 0px 0px 0px 0px; padding: 0px;">Our executive field leadership team began as Financial Advisors and average 20 years of wealth management service.</p>
+
+<H3 class="bac" style="margin: 12px 0px 0px 0px; padding: 0px;">Platform</H3>
+<p class="bac" style="margin: 0px 0px 0px 0px; padding: 0px;">Year after year, we reinvest millions of dollars back into the platform that helps our Financial Advisors serve their clients.</p>
+
+<H3 class="bac" style="margin: 12px 0px 0px 0px; padding: 0px;">Research</H3>
+<p class="bac" style="margin: 0px 0px 0px 0px; padding: 0px;">We offer industry-leading, world-class research that provides timely insights.</p>
+
+<H3 class="bac" style="margin: 12px 0px 0px 0px; padding: 0px;">Access to Bank&nbsp;of&nbsp;America products</H3>
+<p class="bac" style="margin: 0px 0px 0px 0px; padding: 0px;">From standard banking to credit products to customized solutions, we now can offer clients access to more options than ever before.</p>
+
+<H3 class="bac" style="margin: 12px 0px 0px 0px; padding: 0px;">Training</H3>
+<p class="bac" style="margin: 0px 0px 0px 0px; padding: 0px;">As a new Financial Advisor, you will participate in a three-year training program called Practice Management Development Program (PMDP), which includes training, coaching and assessment. PMDP has a tailored curriculum designed to help you develop a strong foundation of the critical wealth management skills and knowledge necessary for acquiring affluent clients, enhancing relationships and providing tailored solutions.</p>
+
 <p style="margin-top: 12px;">
 The first stage of PMDP is a preproduction period devoted to earning the Series 7 and Series 66 licenses, acquiring applicable knowledge and skills and becoming acclimated to the industry. You will become familiar with Merrill Lynch Wealth Management products and services and wealth management processes and tools.
 </p>
@@ -55,9 +61,13 @@ In the next stage, you will perform against quarterly business hurdles, complete
 To apply for the Financial Advisor transition role in the Americas region, you may apply now.
 </p>
 
-<br><br>
+<p style="margin-top: 12px;">
+Your application will be reviewed, and you will be contacted if there is an interest in your qualifications.
+</p>
+
+<p style="margin-top: 24px;">
 <a href="<%	if page_section <> "ADA" then%>../financialadvisor/lobfaamericas.asp<% Else %>lobfaamericas.asp<%End If %>" class="bacb" title="Return">Return</a>
-<br><br>
+</p>
 				</td>
 				<td width="205" height="100%" valign="top">
 <div style="border: 1px solid #e8e8e9; margin: 0px 0px 12px 0px; padding: 0px 0px 6px 0px;">

@@ -118,7 +118,7 @@ function preload_add()
 					<li />In the Subject Line of your email, include "Source = Bank&nbsp;of&nbsp;America Campus Careers" and the specific position title found at the top of the job posting.
 				</ul>
 		</span>
-		<a href="https://apply.ml.com/Students/Login.aspx" target="_blank" title="Apply Canada. Link opens a new window." onmouseover="MM_swapImage('canada_spr','','../images/camp/apply_canada_on.gif');" onmouseout="MM_swapImgRestore();"><img name="canada_spr" src="../images/camp/apply_canada_off.gif" border="0" style="cursor: pointer;" alt="Apply Canada. Link opens a new window." title="Apply Canada. Link opens a new window." /></a>
+		<a href="https://static.wcn.co.uk/company/ml/apply_now.html" target="_blank" title="Apply Canada. Link opens a new window." onmouseover="MM_swapImage('canada_spr','','../images/camp/apply_canada_on.gif');" onmouseout="MM_swapImgRestore();"><img name="canada_spr" src="../images/camp/apply_canada_off.gif" border="0" style="cursor: pointer;" alt="Apply Canada. Link opens a new window." title="Apply Canada. Link opens a new window." /></a>
 	</div>
 </div>
 		<% If page_section = "ADA" Then %>

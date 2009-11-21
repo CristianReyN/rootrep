@@ -38,7 +38,7 @@ Set program_groups(7) = gm_program_group
 Set program_groups(8) = gr_program_group
 Set program_groups(9) = mheis_program_group
 
-Dim programs(163)
+Dim programs(164)
 '		program number			program title, program group, program page, program degree, program fulltime or intern, program sub_programs,is_active
 
 'US FULLTIME ANALYST PROGRAMS
@@ -213,6 +213,7 @@ Set programs(89) = createProgram("Global Human Resources Analyst", cao_program_g
 Set programs(90) = createProgram("Card Services Analyst", cs_program_group, "emeafn-card-services-analyst.asp", EMEA, "", ANALYST, FULLTIME, FALSE, TRUE)
 Set programs(91) = createProgram("Corporate &amp; Financial Institutions Debt Products Analyst", gbgwim_program_group, "emeafn-corporate-financial-institutions-debt-products-analyst.asp", EMEA, "", ANALYST, FULLTIME, FALSE, TRUE)
 Set programs(92) = createProgram("Corporate and Investment Banking Analyst", gbgwim_program_group, "emeafn-corporate-investment-banking-analyst.asp", EMEA, "", ANALYST, FULLTIME, FALSE, TRUE)
+Set programs(164) = createProgram("Global Market Operations &amp; Middle Office Analyst Programme", gbgwim_program_group, "emeafn-global-market-operations-middle-office-analyst.asp", EMEA, "", ANALYST, FULLTIME, FALSE, TRUE)
 Set programs(93) = createProgram("Global Wealth and Investment Management Analyst", gbgwim_program_group, "emeafn-global-wealth-investment-management-analyst.asp", EMEA, "", ANALYST, FULLTIME, FALSE, TRUE)
 Set programs(94) = createProgram("Technology Analyst", gbgwim_program_group, "emeafn-technology-analyst.asp", EMEA, "", ANALYST, FULLTIME, FALSE, TRUE)
 Set programs(95) = createProgram("Treasury Management Analyst", gbgwim_program_group, "emeafn-treasury-management-analyst.asp", EMEA, "", ANALYST, FULLTIME, FALSE, TRUE)

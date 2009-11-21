@@ -242,12 +242,12 @@ function none(){}
 <span class="ada-label"><label class="ada-label" for="program">Select for Program Detail</label></span>
 <select name="program" id="program" title="<% Response.write sel_ect %>"<%=c_lass%><%=style%>>
 	<option value="0"><% Response.write sel_ect %></option>
-	<% If tpage <> "lobcfo" Then %><!--<option value="lobcfo.asp">Corporate Financial Operations</option>--><% End If %>
-	<% If tpage <> "lobgcsbb" Then %><option value="lobgcsbb.asp">Global Consumer &amp; Small Business Banking</option><% End If %>
+	<% If spage <> "lobcfo" Then %><!--<option value="lobcfo.asp">Corporate Financial Operations</option>--><% End If %>
+	<% If spage <> "lobgcsbb" Then %><option value="lobgcsbb.asp">Global Consumer &amp; Small Business Banking</option><% End If %>
 	<% If tpage <> "lobgcib" Then %><option value="../gcib/">Global Corporate &amp; Investment Banking</option><% End If %>
 	<% If tpage <> "lobgwim" Then %><option value="../wealthmanagement/">Global Wealth &amp; Investment Management</option><% End If %>
-	<% If tpage <> "lobgto" Then %><option value="../technology/">Global Technology &amp; Operations</option><% End If %>
-	<% If tpage <> "lobcss" Then %><option value="lobcss.asp">Corporate Staff &amp; Support</option><% End If %>
+	<% If spage <> "lobgto" Then %><option value="../technology/">Global Technology &amp; Operations</option><% End If %>
+	<% If spage <> "lobcss" Then %><option value="lobcss.asp">Corporate Staff &amp; Support</option><% End If %>
 </select>
 <script language="JavaScript" type="text/javascript">
 <!--

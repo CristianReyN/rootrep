@@ -14,7 +14,7 @@
 				<td width="100%" valign="top">
 <a name="skipmaincontent"></a><H1 class="hidden">Global Banking &amp; Markets</H1>
 					<div align="right" style="float: right; margin: 0px 0px 0px <%=right_margin_split%>px; padding: 0px; width: 201px;">
-<div style="width: 201px; text-align: left; border: 1px solid #e8e8e9; background: #ffffff; margin: 12px 0px 12px 0px; padding: 0px 0px 6px 0px;">
+<div style="width: 201px; text-align: left; border: 1px solid #e8e8e9; background: #ffffff; margin: 0px 0px 12px 0px; padding: 0px 0px 6px 0px;">
 	<H2 class="g" style="margin: 0px 0px 0px 0px;"><%=JOB_SEARCH_TITLE%></H2>
 	<img src="../images/clear.gif" width="100%" height="1" alt="" border="0" style="margin: 1px 0px 6px 0px; background: #e8e8e9;" align="top"><br clear="all">
 <!-- #include file="../jobsearch.asp" -->
@@ -60,24 +60,6 @@ More than 700 professionals of the award winning Global Research organization su
 	<li>Global credit research encompasses high grade, high yield, credit strategy, credit derivatives, mortgages and other structured finance, convertibles, municipals and indices.</li>
 	<li>Global macro research encompasses economics, currencies, commodities, rates, derivatives and equity investment strategies.</li>
 </ul>
-<br>
-<img class="dotdiv" style="margin: 6px 0px 0px 0px;" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
-<br>
-
-<H2 class="h2" style="margin: 12px <%=right_margin%>px 2px <%=left_margin_0%>px;">New Opportunities</H2>
-<table cellpadding="2" cellspacing="0" border="0" summary="" style="margin-left: <%=left_margin_0%>px;">
-<% 
-familyid=14
-rowcount=6
-%>
-<!--#include file="../../hot_jobs.asp"-->
-</table>
-<%	If mpage = "lob" Then %>
-<br>
-<a href="../jobsearch/searchresult.asp?jobareas=4|14&stateid=-1&cityid=-1&keywords=&SearchPage=Sp">View all jobs in Global Corporate Investment Banking</a>
-<%	End If %>
-<br><br>
 				</td>
 			</tr>
-			<tr valign="top"><td valign="top" class="divb"><img src="../images/clear.gif" width="100%" height="4" alt="" border="0"></td></tr>
 		</table>

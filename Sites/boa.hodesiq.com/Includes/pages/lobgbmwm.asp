@@ -9,10 +9,18 @@
 			<tr valign="top"><td colspan="2" valign="top" class="divb"><img src="../images/clear.gif" width="100%" height="4" alt="" border="0"></td></tr>
 		</table>
 		<img src="../images/clear.gif" width="100%" height="<%=top_content_padding_bottom%>" alt="" border="0"><br />
-		<a name="skipmaincontent"></a><H1 class="hidden">Global Banking, Markets &amp;amp; Wealth Management</H1>
 		<table width="578" cellpadding="0" cellspacing="0" border="0" summary="">
 			<tr valign="top">
-				<td width="373" height="100%" valign="top" style="padding: 0px <%=right_margin%>px 0px <%=left_margin_0%>px;">
+				<td colspan="2" width="100%" valign="top">
+<a name="skipmaincontent"></a><H1 class="hidden">Global Banking, Markets &amp;amp; Wealth Management</H1>
+					<div align="right" style="float: right; margin: 0px 0px 0px <%=right_margin_split%>px; padding: 0px; width: 201px;">
+<div style="width: 201px; text-align: left; border: 1px solid #e8e8e9; background: #ffffff; margin: 0px 0px 0px 0px; padding: 0px 0px 6px 0px;">
+	<H2 class="g" style="margin: 0px 0px 0px 0px;"><%=JOB_SEARCH_TITLE%></H2>
+	<img src="../images/clear.gif" width="100%" height="1" alt="" border="0" style="margin: 1px 0px 6px 0px; background: #e8e8e9;" align="top"><br clear="all">
+<!-- #include file="../jobsearch.asp" -->
+</div>
+<br><br>
+					</div>
 <p style="margin-top: 0px;">
 Bank&nbsp;of&nbsp;America is one of the world&#39;s largest financial institutions, serving individual consumers, small- and middle-market businesses, large corporations and institutional investors with a full range of banking, investing, asset management and other financial and risk management products and services.
 </p>
@@ -45,14 +53,6 @@ Through Merrill Lynch Global Wealth Management and U.S. Trust, Bank&nbsp;of&nbsp
 <a href="<%	if page_section <> "ADA" then%>../financialadvisor/<% Else %>lobfa.asp<%End If %>" class="left2" title="Financial Advisor">Financial Advisor</a>
 <br><br>
 <a href="<%	if page_section <> "ADA" then%>../globalcommercialbanking/<% Else %>lobgcb.asp<%End If %>" class="left2" title="Global Commercial Banking">Global Commercial Banking</a>
-<br><br>
-				</td>
-				<td width="205" height="100%" valign="top">
-<div style="border: 1px solid #e8e8e9; margin: 0px 0px 12px 0px; padding: 0px 0px 6px 0px;">
-	<H2 class="g" style="margin: 0px 0px 0px 0px;"><%=JOB_SEARCH_TITLE%></H2>
-	<img src="../images/clear.gif" width="100%" height="1" alt="" border="0" style="margin: 1px 0px 6px 0px; background: #e8e8e9;" align="top"><br clear="all">
-<!-- #include file="../jobsearch.asp" -->
-</div>
 <br><br>
 				</td>
 			</tr>

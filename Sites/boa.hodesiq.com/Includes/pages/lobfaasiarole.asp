@@ -60,12 +60,12 @@ Above all, there&#39;s the support private wealth managers receive from the enti
 
 <H2 class="p" style="margin: 12px 0px 0px 0px; padding: 0px;"><b>How to Apply</b></H2>
 <p style="margin-top: 12px;">
-To apply for the private wealth manager role in the Asia Pacific region, you may <a href="http://globalcareers.bankofamerica.com/jobdescription.aspx?identifier=HKG00162" class="p" target="_blank" title="Link opens a new window.">apply now</a>.
+To apply for the private wealth manager role in the Asia Pacific region, you may <a href="http://globalcareers.bankofamerica.com/jobdescription.aspx?identifier=HKG00162" class="p" title="Apply now">apply now</a>.
 </p>
 
-<br><br>
+<p style="margin-top: 24px;">
 <a href="<%	if page_section <> "ADA" then%>../financialadvisor/lobfaasia.asp<% Else %>lobfaasia.asp<%End If %>" class="bacb" title="Return">Return</a>
-<br><br>
+</p>
 				</td>
 				<td width="205" height="100%" valign="top">
 <div style="border: 1px solid #e8e8e9; margin: 0px 0px 12px 0px; padding: 0px 0px 6px 0px;">

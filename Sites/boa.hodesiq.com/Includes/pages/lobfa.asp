@@ -23,13 +23,18 @@ Merrill Lynch Financial Advisors are driven to be the best; they have a passion 
 <p style="margin-top: 12px;">
 Our company offers integrated and comprehensive products and services across all businesses, leveraging the best of local knowledge and international expertise. With a global footprint covering more than 700 offices in 40 countries and territories, serving clients in over 150 countries, membership in 70 exchanges around the world, and industry leading research, our Financial Advisors have the power to deliver what their clients want and need.
 </p>
-<br>
+
+<p style="margin-top: 24px;">
 <a href="<%	if page_section <> "ADA" then%>../financialadvisor/lobfaamericas.asp<% Else %>lobfaamericas.asp<%End If %>" class="bacb" title="Americas">Americas</a>
-<br><br>
+</p>
+
+<p style="margin-top: 12px;">
 <a href="<%	if page_section <> "ADA" then%>../financialadvisor/lobfaemea.asp<% Else %>lobfaemea.asp<%End If %>" class="bacb" title="Europe, Middle East and Africa">Europe, Middle East and Africa</a>
-<br><br>
+</p>
+
+<p style="margin-top: 12px;">
 <a href="<%	if page_section <> "ADA" then%>../financialadvisor/lobfaasia.asp<% Else %>lobfaasia.asp<%End If %>" class="bacb" title="Asia Pacific">Asia Pacific</a>
-<br><br>
+</p>
 				</td>
 				<td width="205" height="100%" valign="top">
 <div style="border: 1px solid #e8e8e9; margin: 0px 0px 12px 0px; padding: 0px 0px 6px 0px;">

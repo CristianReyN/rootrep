@@ -2,8 +2,9 @@
 Dim title, mpage, spage, ada_href, ada_title, job_search_action, Metatag%>
 <!-- #include file="../includes/breadcrumb.asp" -->
 <%
-mpage = "lob"
-spage = "lb_career_compass"
+mpage = "locations"
+spage = "united_states"
+tpage = "lb_career_compass"
 ada_href = "../ada/lb_career_compass.asp"
 page_self = "../learnmore/lb_career_compass.asp"
 ada_title = breadcrumb & "Lines of Business | Career Compass"

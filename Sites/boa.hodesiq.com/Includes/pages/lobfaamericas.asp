@@ -43,11 +43,13 @@ If you are an experienced professional, attorney, banker, or transitioning from 
 Financial advisors serve in more than 600 offices across the U.S. -- in cities, major metropolitan centers, suburban areas and small towns.  We also serve clients in Brazil, Chile and Uruguay with even more Financial Advisors located in U.S. cities covering other Latin American countries.
 </p>
 
-<br>
+<p style="margin-top: 24px;">
 <a href="<%	if page_section <> "ADA" then%>../financialadvisor/lobfaamericasrole.asp<% Else %>lobfaamericasrole.asp<%End If %>" class="bacb" title="Americas - Financial Advisor Role">Americas - Financial Advisor Role</a>
-<br><br><br>
+</p>
+
+<p style="margin-top: 12px;">
 <a href="<%	if page_section <> "ADA" then%>../financialadvisor/<% Else %>lobfa.asp<%End If %>" class="bacb" title="Return">Return</a>
-<br><br>
+</p>
 				</td>
 				<td width="205" height="100%" valign="top">
 <div style="border: 1px solid #e8e8e9; margin: 0px 0px 12px 0px; padding: 0px 0px 6px 0px;">

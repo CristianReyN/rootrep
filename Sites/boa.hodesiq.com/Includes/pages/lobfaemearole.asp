@@ -68,9 +68,9 @@ To apply for the Financial Advisor role in the Europe, Middle East &amp; Africa 
 Your application will be reviewed, and you will be contacted if there is an interest in your qualifications.
 </p>
 
-<br><br>
+<p style="margin-top: 24px;">
 <a href="<%	if page_section <> "ADA" then%>../financialadvisor/lobfaemea.asp<% Else %>lobfaemea.asp<%End If %>" class="bacb" title="Return">Return</a>
-<br><br>
+</p>
 				</td>
 				<td width="205" height="100%" valign="top">
 <div style="border: 1px solid #e8e8e9; margin: 0px 0px 12px 0px; padding: 0px 0px 6px 0px;">

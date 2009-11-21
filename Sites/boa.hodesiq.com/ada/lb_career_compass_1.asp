@@ -2,8 +2,9 @@
 Dim title, mpage, spage, ada_href, ada_title, job_search_action,page_section, Metatag%>
 <!-- #include file="../includes/breadcrumb.asp" -->
 <%
-mpage = "lob"
-spage = "lb_career_compass"
+mpage = "locations"
+spage = "united_states"
+tpage = "lb_career_compass"
 standart_href = "../learnmore/lb_career_compass.asp"
 job_search_action = "../jobsearch/searchresult.asp"
 Metatag="This tool can help you determine which Bank of America lines of business match your skills and interests."
