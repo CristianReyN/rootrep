@@ -15,7 +15,7 @@
                         <td>&nbsp;</td>
                     </tr>
 					<tr>
-						<td colspan="2" valign="top" align="left">
+						<td colspan="2" valign="top" align="left">&nbsp;
 						</td>
 					</tr>                   
                     <tr>
