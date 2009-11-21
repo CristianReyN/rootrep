@@ -34,7 +34,7 @@ Our Customer Service/Care positions represent some of the most critical areas wi
 	<img src="../images/clear.gif" width="100%" height="1" alt="" border="0" style="margin: 0px 0px 0px 0px; background: #e8e8e9;" align="top"><br clear="all">
 <p style="margin: 6px 6px 0px 6px;"><a class="left" onfocus="this.className='left-over';" onblur="this.className='left';" href="../jobsearch.aspx?jobareas=2|8&stateid=-1&cityid=-1&keywords=&SearchPage=Sp">View current jobs in Relationship Management</a></p>
 <p style="margin: 6px 6px 0px 6px;"><a class="left" onfocus="this.className='left-over';" onblur="this.className='left';" href="../jobsearch.aspx?jobareas=2|9&stateid=-1&cityid=-1&keywords=&SearchPage=Sp">View current jobs in Customer Service</a></p>
-<p style="margin: 6px 6px 0px 6px;"><a class="left" onfocus="this.className='left-over';" onblur="this.className='left';" href="../jobsearch.aspx?jobareas=2|13&stateid=-1&cityid=-1&keywords=&SearchPage=Sp">View Current Job in Credit</a></p>
+<p style="margin: 6px 6px 0px 6px;"><a class="left" onfocus="this.className='left-over';" onblur="this.className='left';" href="../jobsearch.aspx?jobareas=2|13&stateid=-1&cityid=-1&keywords=&SearchPage=Sp">View current jobs in Credit</a></p>
 </div>
 
 <div style="text-align: center; margin: 0px; padding: 0px;">
