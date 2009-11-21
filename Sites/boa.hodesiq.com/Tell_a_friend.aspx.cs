@@ -110,7 +110,7 @@ public partial class Tell_a_friend : System.Web.UI.Page
                 }
                 else
                 {
-                    this.ltrlError.Text = "<li><font color='red'> Field must contain only one valid email address:</font>";
+                    this.ltrlError.Text = "<li><font color='red'> There was an error processing your request. The email address you have entered is not valid. Please verify the address of your recipient (including case size and spaces) and re-enter. In addition, please enter only one email address per attempt:</font>";
                     this.FriendEmail.Focus();
                 }
             }
@@ -122,7 +122,7 @@ public partial class Tell_a_friend : System.Web.UI.Page
         }
         else
         {
-            this.ltrlError0.Text = "<li><font color='red'> Field must contain only one valid email address:</font>";
+            this.ltrlError0.Text = "<li><font color='red'> There was an error processing your request. The email address you have entered is not valid. Please verify the address of your recipient (including case size and spaces) and re-enter. In addition, please enter only one email address per attempt:</font>";
             this.YourEmail.Focus();
         }
     }
