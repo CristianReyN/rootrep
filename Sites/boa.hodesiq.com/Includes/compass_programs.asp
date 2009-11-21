@@ -2,60 +2,61 @@
 Dim U_G_D, G_D, I_N_T, U_R_L
 U_G_D = "undergraduate"
 G_D = "graduate"
+B_O_T_H = "both"
 I_N_T = "intern"
 U_R_L = "../learnmore/"
 If page_section = "ADA" Then U_R_L = "../ada/"
 
 Dim programs(31)
 '		program number			program title,program group,program page
-Set programs(1) = createProgram("Corporate Audit","",U_R_L&"up_ca.asp",FALSE)
-Set programs(2) = createProgram("Corporate Security","",U_R_L&"up_cs.asp",FALSE)
-Set programs(3) = createProgram("Debt Products Analyst","",U_R_L&"up_dpa.asp",FALSE)
-Set programs(4) = createProgram("Debt Products Senior Analyst","",U_R_L&"gp_dpsa.asp",FALSE)
-Set programs(5) = createProgram("Global Wealth and Investment Management Compliance Risk","",U_R_L&"up_gwimcr.asp",FALSE)
-Set programs(6) = createProgram("Markets Risk Associate Program","",U_R_L&"up_mrap.asp",FALSE)
-Set programs(7) = createProgram("Quantitative Management Associate Program","",U_R_L&"up_qmap.asp",FALSE)
-Set programs(8) = createProgram("Global Risk Management Associate Program","",U_R_L&"up_grmap.asp",FALSE)
-Set programs(9) = createProgram("Corporate Treasury Associate Program","",U_R_L&"up_ctap.asp",FALSE)
-Set programs(10) = createProgram("Finance Management Associate Program","",U_R_L&"up_fmap.asp",FALSE)
-Set programs(11) = createProgram("Supply Chain Management Associate Program","",U_R_L&"up_scmap.asp",FALSE)
+Set programs(1) = createProgram("Corporate Audit",B_O_T_H,U_R_L&"up_ca.asp",FALSE,TRUE)
+Set programs(2) = createProgram("Corporate Security",U_G_D,U_R_L&"up_cs.asp",FALSE,TRUE)
+Set programs(3) = createProgram("Debt Products Analyst",U_G_D,U_R_L&"up_dpa.asp",FALSE,TRUE)
+Set programs(4) = createProgram("Debt Products Senior Analyst",G_D,U_R_L&"gp_dpsa.asp",FALSE,TRUE)
+Set programs(5) = createProgram("Global Wealth and Investment Management Compliance Risk",U_G_D,U_R_L&"up_gwimcr.asp",FALSE,TRUE)
+Set programs(6) = createProgram("Markets Risk Associate Program",B_O_T_H,U_R_L&"up_mrap.asp",FALSE,TRUE)
+Set programs(7) = createProgram("Quantitative Management Associate Program",B_O_T_H,U_R_L&"up_qmap.asp",FALSE,TRUE)
+Set programs(8) = createProgram("Global Risk Management Associate Program",U_G_D,U_R_L&"up_grmap.asp",FALSE,TRUE)
+Set programs(9) = createProgram("Corporate Treasury Associate Program",U_G_D,U_R_L&"up_ctap.asp",FALSE,TRUE)
+Set programs(10) = createProgram("Finance Management Associate Program",B_O_T_H,U_R_L&"up_fmap.asp",FALSE,TRUE)
+Set programs(11) = createProgram("Supply Chain Management Associate Program",U_G_D,U_R_L&"up_scmap.asp",FALSE,TRUE)
 	Dim cig_subprograms(1)
-	Set cig_subprograms(1) = createProgram("Corporate Investments Intern","",U_R_L&"ip_ci.asp",FALSE)
-Set programs(12) = createProgram("Corporate Investments Group",I_N_T,U_R_L&"ip_ci.asp",cig_subprograms)'program group???
+	Set cig_subprograms(1) = createProgram("Corporate Investments Intern",B_O_T_H,U_R_L&"ip_ci.asp",FALSE,FALSE)'program removed
+Set programs(12) = createProgram("Corporate Investments Group",B_O_T_H,U_R_L&"ip_ci.asp",cig_subprograms,FALSE)'program removed
 	Dim hm_subprograms(6)
-	Set hm_subprograms(1) = createProgram("Leadership Development Consultant","","U_R_L&gp_ldc.asp",FALSE)
-	Set hm_subprograms(2) = createProgram("Learning Consultant","",U_R_L&"gp_lc.asp",FALSE)
-	Set hm_subprograms(3) = createProgram("Instructional Designer","",U_R_L&"gp_iditd.asp",FALSE)
-	Set hm_subprograms(4) = createProgram("Compensation Consultant","",U_R_L&"gp_cc.asp",FALSE)
-	Set hm_subprograms(5) = createProgram("Staffing Operations - Selection and Assessment Analyst","",U_R_L&"gp_sosaa.asp",FALSE)
-	Set hm_subprograms(6) = createProgram("Staffing Operations - Workforce Planning Analyst","",U_R_L&"gp_wpa.asp",FALSE)
+	Set hm_subprograms(1) = createProgram("Leadership Development Consultant",G_D,U_R_L&"gp_ldc.asp",FALSE,TRUE)
+	Set hm_subprograms(2) = createProgram("Learning Consultant",G_D,U_R_L&"gp_lc.asp",FALSE,TRUE)
+	Set hm_subprograms(3) = createProgram("Instructional Designer",G_D,U_R_L&"gp_iditd.asp",FALSE,TRUE)
+	Set hm_subprograms(4) = createProgram("Compensation Consultant",G_D,U_R_L&"gp_cc.asp",FALSE,TRUE)
+	Set hm_subprograms(5) = createProgram("Staffing Operations - Selection and Assessment Analyst",G_D,U_R_L&"gp_sosaa.asp",FALSE,TRUE)
+	Set hm_subprograms(6) = createProgram("Staffing Operations - Workforce Planning Analyst",G_D,U_R_L&"gp_wpa.asp",FALSE,TRUE)
 	Dim H_R_U_R_L
 	H_R_U_R_L = "../humanresources/default.asp"
 	If page_section = "ADA" Then H_R_U_R_L = "../ada/humanresources.asp"
-Set programs(13) = createProgram("Global Human Resources","",H_R_U_R_L,hm_subprograms)'???
-Set programs(14) = createProgram("Technology MBA Program","",U_R_L&"gp_tmbap.asp",FALSE)
-Set programs(15) = createProgram("Service and Fulfillment Leadership Rotational Program","",U_R_L&"gp_sflrp.asp",FALSE)
-Set programs(16) = createProgram("Quality and Productivity Consultant","",U_R_L&"gp_qpc.asp",FALSE)
-Set programs(17) = createProgram("Quality and Productivity Change Analyst",I_N_T,U_R_L&"ip_qpcas.asp",FALSE)
-Set programs(18) = createProgram("Corporate Workplace Analyst","",U_R_L&"up_cwa.asp",FALSE)
-Set programs(19) = createProgram("Corporate Workplace Senior Analyst","",U_R_L&"gp_cwsa.asp",FALSE)
-Set programs(20) = createProgram("Global Markets Technology","",U_R_L&"up_gmt.asp",FALSE)
-Set programs(21) = createProgram("Global Markets Group Operations Rotational Program","",U_R_L&"up_gmgorp.asp",FALSE)
-Set programs(22) = createProgram("Global Middle Office Rotational Program","",U_R_L&"up_gmorp.asp",FALSE)
-Set programs(23) = createProgram("Network Computing Group Leadership Development Rotational Program","",U_R_L&"up_ncgldrp.asp",FALSE)
-Set programs(24) = createProgram("Network Computing Group Mainframe Build Program","",U_R_L&"up_ncgmbp.asp",FALSE)
-Set programs(25) = createProgram("Operations Management Associate Program Intern",I_N_T,U_R_L&"ip_omap.asp",FALSE)
-Set programs(26) = createProgram("Information Security Business Continuity","",U_R_L&"up_isbc.asp",FALSE)
-Set programs(27) = createProgram("North American Treasury Operations Rotational Program","",U_R_L&"up_natorp.asp",FALSE)
-Set programs(28) = createProgram("Global Wealth and Investment Management Undergraduate","",U_R_L&"up_gwimcr.asp",FALSE)
-Set programs(29) = createProgram("Global Wealth and Investment Management Graduate","",U_R_L&"gp_g.asp",FALSE)
-Set programs(30) = createProgram("Banking Center Channel Market Manager Leader Development Program","",U_R_L&"gp_bccmmldp.asp",FALSE)
-Set programs(31) = createProgram("Global Consumer and Small Business Banking Product Leader Development Program","",U_R_L&"gp_gcsbbd.asp",FALSE)
+Set programs(13) = createProgram("Global Human Resources",G_D,H_R_U_R_L,hm_subprograms,TRUE)
+Set programs(14) = createProgram("Technology MBA Program",G_D,U_R_L&"gp_tmbap.asp",FALSE,TRUE)
+Set programs(15) = createProgram("Service and Fulfillment Leadership Rotational Program",G_D,U_R_L&"gp_sflrp.asp",FALSE,TRUE)
+Set programs(16) = createProgram("Quality and Productivity Consultant",G_D,U_R_L&"gp_qpc.asp",FALSE,TRUE)
+Set programs(17) = createProgram("Quality and Productivity Change Analyst",U_G_D,U_R_L&"ip_qpcas.asp",FALSE,TRUE)
+Set programs(18) = createProgram("Corporate Workplace Analyst",U_G_D,U_R_L&"up_cwa.asp",FALSE,TRUE)
+Set programs(19) = createProgram("Corporate Workplace Senior Analyst",G_D,U_R_L&"gp_cwsa.asp",FALSE,TRUE)
+Set programs(20) = createProgram("Global Markets Technology",B_O_T_H,U_R_L&"up_gmt.asp",FALSE,TRUE)
+Set programs(21) = createProgram("Global Markets Group Operations Rotational Program",U_G_D,U_R_L&"up_gmgorp.asp",FALSE,TRUE)
+Set programs(22) = createProgram("Global Middle Office Rotational Program",U_G_D,U_R_L&"up_gmorp.asp",FALSE,TRUE)
+Set programs(23) = createProgram("Network Computing Group Leadership Development Rotational Program",U_G_D,U_R_L&"up_ncgldrp.asp",FALSE,TRUE)
+Set programs(24) = createProgram("Network Computing Group Mainframe Build Program",U_G_D,U_R_L&"up_ncgmbp.asp",FALSE,TRUE)
+Set programs(25) = createProgram("Operations Management Associate Program Intern",U_G_D,U_R_L&"ip_omap.asp",FALSE,TRUE)
+Set programs(26) = createProgram("Information Security Business Continuity",U_G_D,U_R_L&"up_isbc.asp",FALSE,TRUE)
+Set programs(27) = createProgram("North American Treasury Operations Rotational Program",U_G_D,U_R_L&"up_natorp.asp",FALSE,TRUE)
+Set programs(28) = createProgram("Global Wealth and Investment Management Undergraduate",U_G_D,U_R_L&"up_gwimcr.asp",FALSE,TRUE)
+Set programs(29) = createProgram("Global Wealth and Investment Management Graduate",G_D,U_R_L&"gp_g.asp",FALSE,TRUE)
+Set programs(30) = createProgram("Banking Center Channel Market Manager Leader Development Program",G_D,U_R_L&"gp_bccmmldp.asp",FALSE,TRUE)
+Set programs(31) = createProgram("Global Consumer and Small Business Banking Product Leader Development Program",G_D,U_R_L&"gp_gcsbbd.asp",FALSE,TRUE)
 
-Function createProgram(title,program_group,url,sub_programs)
+Function createProgram(title,gd_ugd,url,sub_programs,is_active)
 	Set program = Server.CreateObject("Scripting.Dictionary")
 	program.add "title", title
-	program.add "program_group", program_group
+	program.add "gd_ugd", gd_ugd
 	program.add "url", url
 	If isArray(sub_programs) Then
 		program.add "sub_programs", sub_programs
@@ -63,7 +64,9 @@ Function createProgram(title,program_group,url,sub_programs)
 		Dim subprograms(0)
 		program.add "sub_programs", subprograms
 	End If
+	program.add "is_active", is_active
 	program.add "points", 0
+	program.add "listed", FALSE
 	Set createProgram = program
 End Function
 

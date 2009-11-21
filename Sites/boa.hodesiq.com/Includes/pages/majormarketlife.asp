@@ -17,7 +17,7 @@ The Charlotte-Mecklenburg area offers more than a great quality of life, it prov
 </p>
 <H2 class="p"><b>New York City, NY</b></H2>
 <p style="margin: 12px 0px 6px 0px;">
-From Manhattan to the Bronx, from TriBeCa to Chinatown, New York City is like no other place on earth. Only here will you find the diversity, the culture, and the style intensified in such an intriguing way.  There are endless opportunities to experience the best in performing arts and there's no doubt that NYC is a shopper's paradise and a culinary feast. Whether you enjoy museums or concerts, whether you like to eat at 7PM or midnight, you'll find what you are looking for. And whether you live on the Upper West Side, or in Connecticut or New Jersey, public transportation operates 24 hours a day to make commuting easy.
+From Manhattan to the Bronx, from TriBeCa to Chinatown, New York City is like no other place on earth. Only here will you find the diversity, the culture, and the style intensified in such an intriguing way.  There are endless opportunities to experience the best in performing arts and there's no doubt that NYC is a shopper's paradise and a culinary feast. Whether you enjoy museums or concerts, whether you like to eat at 7 p.m. or midnight, you'll find what you are looking for. And whether you live on the Upper West Side, or in Connecticut or New Jersey, public transportation operates 24 hours a day to make commuting easy.
 </p>
 
 <br><br>

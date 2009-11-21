@@ -201,7 +201,7 @@ function strReplace(s,p,r){var pos=s.indexOf(p);var len=p.length;while(pos != -1
 var reqFlashPlayer = '<a href="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash" title="This video requires Adobe Flash Player version '+requiredMajorVersion+'. Please download latest version." class="p" onfocus="this.className=\'p-over\';" onblur="this.className=\'p\';"><img src="../Includes/pages/college/thumbnails/';
 var reqFlashPlayer2 = '" width="259" height="166" alt="This video requires Adobe Flash Player version '+requiredMajorVersion+'. Please download latest version." border="0" \/><\/a>';
 
-var html_control = '<table border="0" cellspacing="0" cellpadding="0" bgcolor="#e7313c" width="100%">';
+var html_control = '<table border="0" cellspacing="0" cellpadding="0" bgcolor="#d4001a" width="100%">';
 html_control += '<tr>';
 html_control += '<td nowrap>';
 html_control += '<div align="left" style="padding: 2px 5px;">';

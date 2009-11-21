@@ -37,8 +37,7 @@ Globalization is here. Bank of America and its affiliates deliver a variety of s
 
 <H2 class="p" style="margin: 0px; padding: 0px;"><a href="http://corp.bankofamerica.com/public/career/home.jsp" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="Investment banking careers" target="_blank">Investment banking careers</a></H2>
 <p style="margin-top: 6px;">
-Discover how we use our scale and scope as a universal bank to deliver greater value and opportunities to clients in the U.S., Europe, Asia and worldwide ­ working across lines of business, including Capital Markets,
-Commercial Banking, Investment Banking, Research, Sales and Trading and Treasury Services.
+Discover how we use our scale and scope as a universal bank to deliver greater value and opportunities to clients in the U.S., Europe, Asia and worldwide working across lines of business, including Capital Markets, Commercial Banking, Investment Banking, Research, Sales and Trading and Treasury Services.
 </p>
 				</td>
 				<td width="205" height="100%" valign="top">

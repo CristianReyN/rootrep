@@ -80,12 +80,26 @@
 						<tr>
 							<td>
 <%		stop_points = 0
+		num_listed = 0
 		For sprg=1 To UBound(selected_programs) Step 1
 			'If sprg = min_programs_per_page Then stop_points = selected_program_points(sprg)
 			'If selected_program_points(sprg) > 0 And (sprg <= min_programs_per_page Or selected_program_points(sprg) >= stop_points) Then
-			If selected_program_points(sprg) > 0 And sprg <= min_programs_per_page Then
+			program_index = selected_programs(sprg)
+			If selected_program_points(sprg) > 0 And programs(program_index).Item("is_active") And (programs(program_index).Item("gd_ugd") = gd_ugd Or programs(program_index).Item("gd_ugd") = B_O_T_H) And num_listed < min_programs_per_page Then
+				
+				programs(selected_programs(sprg)).Item("listed") = TRUE
+				num_listed = num_listed + 1
 %>
-<p style="margin: 0px 0px 12px 0px;"><a class="left2" href="<% Response.write programs(selected_programs(sprg)).Item("url") %>"><% Response.write programs(selected_programs(sprg)).Item("title")' &" ("&programs(selected_programs(sprg)).Item("points")&")" %></a></p>
+<p style="margin: 0px 0px 12px 0px;"><a class="left2" href="<% Response.write programs(selected_programs(sprg)).Item("url") %>"><% Response.write programs(selected_programs(sprg)).Item("title") &" ("&programs(selected_programs(sprg)).Item("points")&")" &" ["&programs(selected_programs(sprg)).Item("gd_ugd")&"]" %></a></p>
+<%			End If
+		Next %>
+
+<br><br><br>Not included programs
+<%		For sprg=1 To UBound(selected_programs) Step 1
+			program_index = selected_programs(sprg)
+			If programs(program_index).Item("is_active") And (Not programs(program_index).Item("listed")) Then
+%>
+<p style="margin: 0px 0px 12px 0px;"><a class="left2" href="<% Response.write programs(selected_programs(sprg)).Item("url") %>"><% Response.write programs(selected_programs(sprg)).Item("title") &" ("&programs(selected_programs(sprg)).Item("points")&")" &" ["&programs(selected_programs(sprg)).Item("gd_ugd")&"]" %></a></p>
 <%			End If
 		Next %>
 							</td>

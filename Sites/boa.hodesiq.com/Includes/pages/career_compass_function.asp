@@ -109,6 +109,8 @@
 	End If
 	
 	Dim page
+	Dim gd_ugd
+		d_ugd = G_D
 	If page_number < 5 Then
 '******** GET NEW PAGE ********'
 		Set page = pages(page_number)
@@ -125,10 +127,11 @@
 					result_questions =  result_question_group.Item("questions")
 					If UBound(result_questions) > 0 Then
 						For q=1 To UBound(result_questions) Step 1
+							If CInt(result_question_group.Item("group_number")) = 1 And CInt(result_questions(q).Item("question_number")) = 1 And result_questions(q).Item("answer") Then gd_ugd = U_G_D
 							program_numbers = result_questions(q).Item("programs")
 							If result_questions(q).Item("answer") And UBound(program_numbers) > 0 Then
 								For pr=0 To UBound(program_numbers) Step 1
-									programs(program_numbers(pr)).Item("points") = programs(program_numbers(pr)).Item("points") + result_questions(q).Item("points") '+ 1
+									If programs(program_numbers(pr)).Item("is_active") Then programs(program_numbers(pr)).Item("points") = programs(program_numbers(pr)).Item("points") + result_questions(q).Item("points") '+ 1
 								Next
 							End If
 						Next
@@ -152,7 +155,7 @@
 			Set program = programs(prg)
 			program_not_set = True
 			For sprg=1 To UBound(selected_programs) Step 1
-				If program_not_set And program.Item("points") > selected_program_points(sprg) Then
+				If program_not_set And program.Item("points") >= selected_program_points(sprg) Then
 					For sprgn=UBound(selected_programs) To sprg+1 Step -1
 						selected_programs(sprgn) = selected_programs(sprgn-1)
 						selected_program_points(sprgn) = selected_program_points(sprgn-1)

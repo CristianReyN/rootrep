@@ -5,11 +5,11 @@
 <img class="dotdiv" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
 <h2 class="h2" style="margin: 0px;">Our business</h2>
 <p style="margin: 0px 0px 12px 0px;">
-The Operations MBA Program within Global Consumer &amp; Small Business Banking and Global Technology &amp; Operations gives participants the chance to experience one year rotational assignments in two sub-lines of business within these organizations including but not limited to: Deposits Contact Centers (DCC) and Service &amp; Fulfillment Operations (SFO).
+The Operations MBA Program within Global Consumer &amp; Small Business Banking and Global Technology &amp; Operations gives participants the chance to experience one year rotational assignments in two sub-lines of business within these organizations including but not limited to: Deposits Contact Centers (DCC) and Operations MBA.
 <br><br>
 <b>Deposits Contact Centers (DCC)</b> provides service and financial solutions to more than 179 million phone customers and 5.1 million email customers each year, making our contact centers among the busiest in the country. In support of the associates servicing our customer's needs, the bank also leverages voice response units (VRU) to answer account inquiries. In 2005, VRUs handled more than 568 million phone calls.
 <br><br>
-<b>Service and Fulfillment Operations (SFO)</b> offers processing services for Bank of America customer households and businesses. These services include check processing, statement rendering, cash vault, banking center operations, and lockbox services. Key SFO accomplishments include:
+<b>Operations MBA</b> offers processing services for Bank of America customer households and businesses. These services include check processing, statement rendering, cash vault, banking center operations, and lockbox services. Key SFO accomplishments include:
 </p>
 <ul>
 	<li>Processing over 8.97 billion checks annually</li>
@@ -19,7 +19,7 @@ The Operations MBA Program within Global Consumer &amp; Small Business Banking a
 
 <h2 class="h2" style="margin: 0px;">Overview</h2>
 <p style="margin: 0px 0px 12px 0px;">
-The Service &amp; Fulfillment (S&F) MBA Program is a high visibility, graduate, rotational program designed to provide candidates with an opportunity to prepare for future leadership positions in the bank's operational lines of business. Associates participate in 1-year rotational assignments with 2 sub-lines of business within these organizations, including but not limited to Deposits Contact Centers (DCC) and Service &amp; Fulfillment Operations (SFO)
+The Operations MBA Program is a high visibility, graduate, rotational program designed to provide candidates with an opportunity to prepare for future leadership positions in the bank's operational lines of business. Associates participate in 1-year rotational assignments with 2 sub-lines of business within these organizations, including but not limited to Deposits Contact Centers (DCC) and Operations MBA.
 </p>
 
 <h2 class="h2" style="margin: 0px;">Qualifications</h2>
