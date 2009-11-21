@@ -30,7 +30,7 @@ data="../Includes/pages/associate/Price.swf" width="259" height="166" id="javafl
 </noscript>
 <% Else %>
 <div class="transcript">
-<a name="vt"></a><h2 class="h1" style="margin: 0px 0px 6px 0px;"><span>Video transcript</span></h2>
+<a name="vt"></a><h2 class="h1" style="margin: 0px 0px 6px 0px; text-align: left;"><span>Video transcript</span></h2>
 <p>
 >>Allen Price, GMRM Global Credit: My name is Allen Price.<br>
 I am a Senior Vice President in the Global Corporate Investment Bank Risk Management Group.<br>

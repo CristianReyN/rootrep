@@ -34,7 +34,7 @@ data="<% Response.write SITE_U_R_L %>Includes/pages/college/Chris.swf" width="20
 </noscript>
 <% Else %>
 <div class="ptranscript">
-<a name="vt"></a><h2 class="h1" style="margin: 0px 0px 6px 0px;"><span>Video transcript</span></h2>
+<a name="vt"></a><h2 class="h1" style="margin: 0px 0px 6px 0px; text-align: left;"><span>Video transcript</span></h2>
 <p>
 I was attracted to come to work for Bank of America because I had two former classmates who joined the same group within the bank that I currently work for.  They had a great experience and came back to campus and did a really great job of selling it to me and talking about the opportunities within a large company and how they were encouraged to pursue their various interests.  The diversity of people they had gotten to work with really sounded like an appealing place to work for a young professional and I was hooked.  One of the things that helped me prepare for my interview process with Bank of America is all the involvement I had with professional organizations during my graduate school program.  Organizations specific to the discipline that you are interested in can be very helpful in providing resources and exposing you to professionals and some of the challenges they face in their careers.
 </p>

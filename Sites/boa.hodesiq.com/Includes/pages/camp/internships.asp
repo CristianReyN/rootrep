@@ -9,31 +9,48 @@ If Request("t") <> "" Then tab = Request("t")
 				<td width="393" height="100%" valign="top" style="<%=middle_content_padding%>">
 <a name="skipmaincontent"></a><h1 class="bac">Internships</h1>
 					<p class="bac">An internship at Bank of America is more than an impressive line on a resume. Here you'll work alongside our full-time associates performing real tasks with the potential for measurable impact on our business. The skill-building and networking opportunities you'll get with us can make all the difference after graduation.</p>
-					<ul class="bac" style="margin-top: 12px; margin-bottom: 12px;">
+					<ul class="bac" style="margin-top: 12px;<% If page_section <> "ADA" Then %> margin-bottom: 12px;<% End If %>">
 						<li><a href="undergraduate_internships.asp" class="bacb" title="Undergraduate Internships">Undergraduate Internships</a></li>
 						<li><a href="graduate_internships.asp" class="bacb" title="Graduate Internships">Graduate Internships</a></li>
 					</ul>
+		<% If page_section <> "ADA" Then %>
 <script language="JavaScript1.2" src="../includes/tab.js" type="text/javascript"></script>
 <script language="JavaScript" type="text/javascript">
 var tabs = new Array(), pageId = "<%=pageId%>", categoryId = "<%=categoryId%>";
-tabs[0] = new Tab("U.S.","t1","../images/camp/t1.gif","../images/camp/t1a.gif","dt1");
-tabs[1] = new Tab("EMEA","t2","../images/camp/t2.gif","../images/camp/t2a.gif","dt2");
+tabs[0] = new Tab(1,"U.S.","t1","../images/camp/t1.gif","../images/camp/t1a.gif","dt1");
+tabs[1] = new Tab(2,"EMEA","t2","../images/camp/t2.gif","../images/camp/t2a.gif","dt2");
 if(window.cmCreatePageviewTag) cmCreatePageviewTag(pageId+":"+tabs[<%=tab%>-1].t, null, null,categoryId);
 tabs[<%=tab%>-1].coremetrics = true;
+var tab_page = "ints";
 </script>
+		<% End If %>
 <table width="100%" cellpadding="0" cellspacing="0" border="0" summary="">
 <tr>
 	<td valign="top">
-		<table width="100%" cellpadding="0" cellspacing="0" border="0" summary="">
+		<% If page_section = "ADA" Then %>
+		<a name="t1"></a>
+		<table width="100%" cellpadding="0" cellspacing="0" border="0" style="margin-top: 12px;" summary="">
 			<tr>
 				<td valign="top">
-					<img id="t1" name="t1" class="h" src="../images/camp/t1<% If tab = 1 Then %>a<% End If %>.gif" border="0" alt="" /></td>
+					<img src="../images/camp/t1a.gif" border="0" alt="U.S." /></td>
 				<td valign="top">
-					<img id="t2" name="t2" class="h" src="../images/camp/t2<% If tab = 2 Then %>a<% End If %>.gif" border="0" alt="" /></td>
+					<a href="#t2"><img src="../images/camp/t2.gif" border="0" alt="EMEA" /></a></td>
 				<td width="100%" background="../images/camp/trtb.gif" valign="top" align="right">
 					<img src="../images/camp/trt.gif" border="0" alt="" /></td>
 			</tr>
 		</table>
+		<% Else %>
+		<table width="100%" cellpadding="0" cellspacing="0" border="0" summary="">
+			<tr>
+				<td valign="top">
+					<img id="t1" name="t1" class="h" src="../images/camp/t1<% If tab = 1 Then %>a<% End If %>.gif" border="0" alt="U.S." /></td>
+				<td valign="top">
+					<img id="t2" name="t2" class="h" src="../images/camp/t2<% If tab = 2 Then %>a<% End If %>.gif" border="0" alt="EMEA" /></td>
+				<td width="100%" background="../images/camp/trtb.gif" valign="top" align="right">
+					<img src="../images/camp/trt.gif" border="0" alt="" /></td>
+			</tr>
+		</table>
+		<% End If %>
 	</td>
 </tr>
 <tr>
@@ -43,7 +60,7 @@ tabs[<%=tab%>-1].coremetrics = true;
 				<td background="../images/camp/tl.gif" valign="top">
 					<img src="../images/camp/tl.gif" width="6" height="10" border="0" alt="" /></td>
 				<td width="100%" valign="top">
-<div id="dt1" style="display: <% If tab = 1 Then %>inline<% Else %>none<% End If %>;">
+<div id="dt1" style="display: <% If tab = 1 Or page_section = "ADA" Then %>inline<% Else %>none<% End If %>;">
 	<div class="innerTab">
 		<h2 class="bac">Eligibility</h2>
 		<p class="bac">Internships are available to full-time undergraduate or graduate students attending an accredited college/university who also meet the following requirements:</p>
@@ -102,7 +119,46 @@ tabs[<%=tab%>-1].coremetrics = true;
 		</table>
 	</div>
 </div>
-<div id="dt2" style="display: <% If tab = 2 Then %>inline<% Else %>none<% End If %>;">
+		<% If page_section = "ADA" Then %>
+				</td>
+				<td background="../images/camp/tr.gif" valign="top">
+					<img src="../images/camp/tr.gif" width="6" height="4" border="0" alt="" /></td>
+			</tr>
+			<tr>
+				<td valign="top">
+					<img src="../images/camp/tlb.gif" border="0" alt="" /></td>
+				<td width="100%" background="../images/camp/tb.gif" valign="top">
+					<img src="../images/camp/tb.gif" height="6" width="100%"  border="0" alt="" /></td>
+				<td valign="top">
+					<img src="../images/camp/trb.gif" border="0" alt="" /></td>
+			</tr>
+		</table>
+	</td>
+</tr>
+<tr>
+	<td valign="top">
+		<a name="t2"></a>
+		<table width="100%" cellpadding="0" cellspacing="0" border="0" style="margin-top: 12px;" summary="">
+			<tr>
+				<td valign="top">
+					<a href="#t1"><img src="../images/camp/t1.gif" border="0" alt="U.S." /></a></td>
+				<td valign="top">
+					<img src="../images/camp/t2a.gif" border="0" alt="EMEA" /></td>
+				<td width="100%" background="../images/camp/trtb.gif" valign="top" align="right">
+					<img src="../images/camp/trt.gif" border="0" alt="" /></td>
+			</tr>
+		</table>
+	</td>
+</tr>
+<tr>
+	<td valign="top">
+		<table width="100%" cellpadding="0" cellspacing="0" border="0" summary="">
+			<tr>
+				<td background="../images/camp/tl.gif" valign="top">
+					<img src="../images/camp/tl.gif" width="6" height="10" border="0" alt="" /></td>
+				<td width="100%" valign="top">
+		<% End If %>
+<div id="dt2" style="display: <% If tab = 2 Or page_section = "ADA" Then %>inline<% Else %>none<% End If %>;">
 	<div class="innerTab">
 		<p class="bac">Bank of America's summer analyst programme is the ideal opportunity to gain an introduction into the world of banking. The 10-week programme kicks off with an induction week covering core skills before you hit your desk where you will work along side our fulltime associates gaining valuable work experience in the financial industry.</p>
 

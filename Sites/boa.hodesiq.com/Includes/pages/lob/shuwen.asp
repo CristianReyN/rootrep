@@ -41,7 +41,7 @@ data="http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/DITL_TESTIMO
 </noscript>
 <% Else %>
 <div class="transcript">
-<a name="vt"></a><h2 class="h1" style="margin: 0px 0px 6px 0px;"><span>Video transcript</span></h2>
+<a name="vt"></a><h2 class="h1" style="margin: 0px 0px 6px 0px; text-align: left;"><span>Video transcript</span></h2>
 <p>
 >>Shu-Wen, Global Markets Group, Singapore<br><br>
 I have been at Bank of America for two years now and I currently work in the Global Markets Financial Exchange corporate sales group.  

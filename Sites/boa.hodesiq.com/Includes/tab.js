@@ -1,6 +1,7 @@
 
-function Tab(t,n,na,a,d)
+function Tab(m,t,n,na,a,d)
 {
+	this.m = m;
 	this.t = t;
 	this.n = n;
 	this.na = na;

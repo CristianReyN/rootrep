@@ -41,7 +41,7 @@ data="../Includes/pages/associate/Chen.swf" width="259" height="166" id="javafla
 </noscript>
 <% Else %>
 <div class="transcript">
-<a name="vt"></a><h2 class="h1" style="margin: 0px 0px 6px 0px;"><span>Video transcript</span></h2>
+<a name="vt"></a><h2 class="h1" style="margin: 0px 0px 6px 0px; text-align: left;"><span>Video transcript</span></h2>
 <p>
 >>Rich Chen, Finance Business Support:  Hi.<br>
 My name is Rich Chen, and I work in Finance Business Support for Global Wealth and Investment Management Business.<br>

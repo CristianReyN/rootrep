@@ -41,7 +41,7 @@ data="http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/DITL_TESTIMO
 </noscript>
 <% Else %>
 <div class="transcript">
-<a name="vt"></a><h2 class="h1" style="margin: 0px 0px 6px 0px;"><span>Video transcript</span></h2>
+<a name="vt"></a><h2 class="h1" style="margin: 0px 0px 6px 0px; text-align: left;"><span>Video transcript</span></h2>
 <p>
 >>Craig, SVP Global Marketing Olympics<br><br>
 I'd say there are two things that I really like about working at the bank, one is just the people that I've had a chance to go and work with.  They really like to be part of a team, really like working together in order to accomplish our business objectives, both for our customers, other associates and for our shareholders.  And then, the other thing that I really like is the variety of projects and roles that I've had a chance to have.  It's really been great for me in terms of my being able to continue to learn and grow and apply myself in new ways.

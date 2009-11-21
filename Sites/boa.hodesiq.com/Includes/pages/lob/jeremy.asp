@@ -41,7 +41,7 @@ data="http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/DITL_TESTIMO
 </noscript>
 <% Else %>
 <div class="transcript">
-<a name="vt"></a><h2 class="h1" style="margin: 0px 0px 6px 0px;"><span>Video transcript</span></h2>
+<a name="vt"></a><h2 class="h1" style="margin: 0px 0px 6px 0px; text-align: left;"><span>Video transcript</span></h2>
 <p>
 >>Jeremy, Senior Investment Specialist<br><br>
 One of the things I like best about my typical workday is coaching the associates on my team. I'm very privileged to work with such a great and cohesive group of people, that all have different strengths.  And, we utilize those strengths to all reach a common goal, which is delivering a consistent and branded client experience.  Some of us have talents in trading, others in sales and new accounts, others in servicing existing accounts.  As a Senior Investment Specialist, I'm responsible for coaching everything from industry knowledge that I've gained to sharing best practices.  And by sharing that we all come to reach the same common goal, which is delivering a consistent, branding client experience.

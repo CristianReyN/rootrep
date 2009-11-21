@@ -41,7 +41,7 @@ data="../Includes/pages/associate/Benitez.swf" width="259" height="166" id="java
 </noscript>
 <% Else %>
 <div class="transcript">
-<a name="vt"></a><h2 class="h1" style="margin: 0px 0px 6px 0px;"><span>Video transcript</span></h2>
+<a name="vt"></a><h2 class="h1" style="margin: 0px 0px 6px 0px; text-align: left;"><span>Video transcript</span></h2>
 <p>
 >>Deborah BenitezLedtje, Southeast Vault Services:  My name is Deborah BenitezLedtje.<br>
 I am an Operations Manager with Cash Services and I have been with the bank for almost four years now.<br>

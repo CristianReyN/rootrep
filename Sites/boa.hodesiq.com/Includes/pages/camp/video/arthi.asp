@@ -1,3 +1,4 @@
+<% If page_section <> "ADA" Then %>
 <script language="JavaScript1.2" src="../Includes/pages/camp/video/campr.js" type="text/javascript"></script>
 <script language="JavaScript1.2" type="text/javascript">
 function preloadThumb()
@@ -35,4 +36,22 @@ data="../Includes/pages/rjp/flashplayer_xml20080308.swf" width="231" height="131
 	<param name="quality" value="high" />
 	<param name="bgcolor" value="#ffffff" />
 </object>
+<table border="0" cellspacing="0" cellpadding="0" bgcolor="#d4001a" width="100%">
+	<tr>
+		<td nowrap align="center" height="18" width="100%">
+			<a href="<%=ada_href %>#vt" title="Video transcript" class="btn1">Video transcript</a>
+		</td>
+	</tr>
+</table>
 </noscript>
+<% Else %>
+<div class="transcript">
+<a name="vt"></a><h2 class="h1" style="margin: 0px 0px 6px 0px; text-align: left;"><span>Video transcript</span></h2>
+<p>
+
+<br>
+<br>
+<a href="<%= standart_href%>" title="Return to standard page with video" class="bac" onfocus="this.className='p-over';" onblur="this.className='p';">Return to standard page with video</a>
+</p>
+</div>
+<% End If %>

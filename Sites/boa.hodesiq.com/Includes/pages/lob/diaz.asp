@@ -41,7 +41,7 @@ data="../Includes/pages/associate/Diaz.swf" width="259" height="166" id="javafla
 </noscript>
 <% Else %>
 <div class="transcript">
-<a name="vt"></a><h2 class="h1" style="margin: 0px 0px 6px 0px;"><span>Video transcript</span></h2>
+<a name="vt"></a><h2 class="h1" style="margin: 0px 0px 6px 0px; text-align: left;"><span>Video transcript</span></h2>
 <p>
 >>Anthony Diaz, Banking Center Manager:  My name is Anthony Diaz.<br>
 I'm a Banking Center Manager for Bank of America in Mount Kisco, New York.<br>

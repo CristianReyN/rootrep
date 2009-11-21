@@ -23,11 +23,12 @@ If Request("t") <> "" Then tab = Request("t")
 <script language="JavaScript1.2" src="../includes/tab.js" type="text/javascript"></script>
 <script language="JavaScript" type="text/javascript">
 var tabs = new Array(), pageId = "<%=pageId%>", categoryId = "<%=categoryId%>";
-tabs[0] = new Tab("U.S.","t1","../images/camp/t1.gif","../images/camp/t1a.gif","dt1");
-tabs[1] = new Tab("EMEA","t2","../images/camp/t2.gif","../images/camp/t2a.gif","dt2");
-tabs[2] = new Tab("Asia","t3","../images/camp/t3.gif","../images/camp/t3a.gif","dt3");
+tabs[0] = new Tab(1,"U.S.","t1","../images/camp/t1.gif","../images/camp/t1a.gif","dt1");
+tabs[1] = new Tab(2,"EMEA","t2","../images/camp/t2.gif","../images/camp/t2a.gif","dt2");
+tabs[2] = new Tab(3,"Asia","t3","../images/camp/t3.gif","../images/camp/t3a.gif","dt3");
 if(window.cmCreatePageviewTag) cmCreatePageviewTag(pageId+":"+tabs[<%=tab%>-1].t, null, null,categoryId);
 tabs[<%=tab%>-1].coremetrics = true;
+var tab_page = "ce";
 </script>
 <table width="100%" cellpadding="0" cellspacing="0" border="0" summary="">
 <tr>
