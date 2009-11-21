@@ -35,7 +35,10 @@ Associate Quotes -
 </p>
 <img class="dotdiv" style="margin: 9px 0px 5px 0px;" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
 
-<br><br>
+<p style="margin: 24px 0px 24px 0px;"><span style="font-size: 0.9em; line-height: 0.9em;">
+Not all associates are eligible to participate in all benefit programs. The terms and conditions of the benefits described above may be governed by written benefit plans and/or other documents. The above stated description of benefits is intended as a summary and for informational purposes only; this document does not create a contract between the company and any associate or potential associate. All programs and benefits are subject to change at any time.
+</span></p>
+
 <!-- #include file="../worklifenav.asp" -->
 </div>
 				</td>
