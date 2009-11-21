@@ -65,15 +65,14 @@
                                                 </tr>
                                                 <tr>
                                                     <td align="right" valign="top">
-                                                        <asp:Button ID="brefine" runat="server" CssClass="bodybtn" TabIndex="6" Text="Refine Search" OnClick="brefine_Click" />
-                                                    </td>
-                                                    <td align="right" valign="top">
+                                                        <input id="btnReset" type="reset" value="Reset Search" tabindex="6" class="bodybtn"/>&nbsp;</td>
+                                                    <td align="right" valign="top"><asp:Button ID="brefine" runat="server" CssClass="bodybtn" TabIndex="6" Text="Refine Search" OnClick="brefine_Click" />&nbsp;
                                                         <asp:Button ID="bsearch" runat="server" CssClass="bodybtn" TabIndex="7" Text="Begin Search" OnClick="bsearch_Click" />
                                                     </td>
                                                 </tr>
                                                 <tr>
-                                                    <td style="padding: 0px 12px 0px 12px;">
-                                                        &nbsp;</td>
+                                                    <td style="padding: 0px 12px 0px 12px;" align="left">
+                                                        <b><asp:Label ID="lblJobofJobs" runat="server" Text=""></asp:Label></b>&nbsp;</td>
                                                     <td align="right" valign="top">
                                                         <a class="sblnk" href="jobcart.aspx" tabindex="8" title="View Job Cart">View Job Cart</a>&nbsp;&nbsp;&nbsp;&nbsp;<a
                                                             class="sblnk" href="AdvanceSearch.aspx" tabindex="9" title="Advanced Search">Advanced

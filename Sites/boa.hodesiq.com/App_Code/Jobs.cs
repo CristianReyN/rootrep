@@ -263,7 +263,9 @@ public class Jobs
 
         da.Fill(dsCount);
         int TotalRow = dsCount.Tables[0].Rows.Count;
-        int TotalPage = (TotalRow / RowPerPage) + 1;
+        int partialpagefactor;
+        partialpagefactor = TotalRow % RowPerPage > 0 ? 1 : 0;
+        int TotalPage = (TotalRow / RowPerPage) + partialpagefactor;
 
 
         da.Fill(ds, (PageNumber - 1) * RowPerPage, RowPerPage, "SearchResults");
@@ -277,7 +279,11 @@ public class Jobs
             MyListDictionary.Add("PageOfPages", "Page 0 of 0");
         else
             MyListDictionary.Add("PageOfPages", "Page " + Convert.ToString(PageNumber) + " of " + Convert.ToString(TotalPage));
-
+        int startpage;
+        int endpage;
+        startpage = 1 + (RowPerPage * (PageNumber - 1));
+        endpage = startpage + RowPerPage - 1;
+        MyListDictionary.Add("JobToJobs", "Showing " + Convert.ToString(startpage) + " to " + Convert.ToString(endpage) + " of " + TotalRow + " job postings.");
         return MyListDictionary;
     }
     public static Boolean ShowNextButton(int TotalRow, int PageNumber, int TotalPage)

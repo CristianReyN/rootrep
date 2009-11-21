@@ -197,6 +197,8 @@ public partial class JobSearch : System.Web.UI.Page
         LnkPrvs.Visible = (Boolean)MyListDictionary["PrevButton"];
         LnkNxt.Visible = (Boolean)MyListDictionary["NextButton"];
         LblPageOfPages.Text = MyListDictionary["PageOfPages"].ToString();
+        this.lblJobofJobs.Visible = Convert.ToBoolean(MyListDictionary["RecordCount"]);
+        this.lblJobofJobs.Text = MyListDictionary["JobToJobs"].ToString();
     }
 
 
