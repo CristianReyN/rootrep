@@ -18,10 +18,11 @@ function popup(imnam) {
 window.open(imnam,"pop","directory=no,height=450,width=500,toolbar=no,scrollbars=yes,location=no,resizable=yes"); 
 }
 var openCampus = <%=IsCampusEvents.ToString().ToLower() %>;
+function namewindow(){window.name="boamain";}
 //-->
 </script>
 </head>
-<body id="body" onload="startKeybordNav(); startPs(); fixIE();" onunload="">
+<body id="body" onload="startKeybordNav(); startPs(); fixIE(); namewindow();" onunload="">
 <asp:Literal ID="ltrlCorremetrixScripts" runat="server" Text="" ></asp:Literal>
 <script language="javascript" type="text/javascript">
 //<!--

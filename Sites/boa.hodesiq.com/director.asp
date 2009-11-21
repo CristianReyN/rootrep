@@ -23,9 +23,11 @@ end if
 	<tr><td align="center" height="103">
 		<img src="images/BoA_Header.jpg" width="752" height="103" border="0" alt="Bank of America Careers" title="Bank of America Careers" /></td></tr>
 	<tr><td align="center">
-		<p style="width: 752px; margin: 12px auto 12px auto; padding: 0px; text-align: left;">Once you reach the Summary page, after completing each of the steps, you will be able to go back and edit any one of these steps before your final submission.  If you have difficulty completing this process, please refer to the Frequently Asked Questions page.</p></td></tr>
+		<p style="width: 752px; margin: 12px auto 12px auto; padding: 0px; text-align: left;">
+		After completing each of the steps in your profile or application and reach the Summary page, you can edit any of the steps prior to your final submission. If you have difficulty completing this process, please refer to the <a href="faq/faq.asp" target="boamain" onclick="window.opener.focus();">Frequently Asked Questions</a> page.
+		</p></td></tr>
 	<tr><td align="center" height="100%">
-		<iframe frameborder="0" src="<%=surl%>"style="width: 752px; height: 100%;"></iframe></td></tr>
+		<iframe frameborder="0" src="<%=surl%>"style="width: 752px; height: 100%;" height="100%" width="752px"></iframe></td></tr>
 </table>
 </body>
 </html>
