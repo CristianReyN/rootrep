@@ -124,6 +124,36 @@ public partial class JobDetails : System.Web.UI.Page
 
     protected void Page_PreRender(object sender, EventArgs e)
     {
+        string feedname="";
+        BOAFeedUSA.Visible = false;
+        BOAFeedEuropeMBNA.Visible = false;
+        BOAFeedEurope.Visible = false;
+        BOAFeedCanadaFrench.Visible = false;
+        BOAFeedCanada.Visible = false;
+        BOAFeedAsia.Visible = false;
+        BoaFeedIndia.Visible = false;
+
+        if (!IsPostBack)
+        {
+            feedname = Request.QueryString["feedname"] == null ? "" : Request.QueryString["feedname"].ToString();
+            ViewState["feedname"] = feedname;
+        }
+        else
+        {
+            feedname = ViewState["feedname"].ToString();
+        }
+
+        switch (feedname)
+        { 
+            case  "BOAFeedAsia"         : BOAFeedAsia.Visible = true;break;
+            case  "BOAFeedCanada"       : BOAFeedCanada.Visible = true; break;
+            case  "BOAFeedCanadaFrench" : BOAFeedCanadaFrench.Visible=true;break;
+            case  "BOAFeedEurope"       : BOAFeedEurope.Visible = true;break;
+            case  "BOAFeedEurope MBNA"  : BOAFeedEuropeMBNA.Visible = true ;break;
+            case  "BOAFEEDIndia"        : BoaFeedIndia.Visible = true; break;
+            case  "BOAFEEDUSA"          : BOAFeedUSA.Visible = true;break;
+            default                     : break;        
+        }
     }
 
     protected void Apply_Click(object sender, EventArgs e)

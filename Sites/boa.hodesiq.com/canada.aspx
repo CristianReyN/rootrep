@@ -16,123 +16,33 @@
     <table summary="Global Careers - Canada" width="366" border="0" cellspacing="0" cellpadding="0">
         <tr>
             <td width="366" align="left" valign="top">
-               <div> 
+                <div> 
+                  <h3 class="h1">
+                    CANADA</h3>
     <p>Bank of America recognizes and embraces the importance of building a strong presence in Canada &ndash; and the bank provides financial products and services throughout the country. Bank of America&rsquo;s affiliated entities in Canada include MBNA Canada Bank, Bank of America National Association and Merrill Lynch Canada Inc. We hire talented people from diverse backgrounds who are committed to providing the very best products and services to Bank of America customers.</p> 
-     </div> 
-         
-                <p>
-                    <a href="ada_canada.aspx#MapCanada" class="ada2adalink" onfocus="this.className='ada2adalink-over';"
-                        onblur="this.className='ada2adalink';" title="View locations as text">View locations
-                        as text</a><br />
-                    <br />
-                </p>
-                       <div id="retuntocanadamap">
-                </div>
-            </td>
-        </tr>
-        <tr>
-            <td align="left" valign="top" style="width: 366px">
-                <table summary="" width="361" border="0" cellspacing="0" cellpadding="0">
-                    <tr>
-                        <td width="361" align="left" valign="top">
-                            <table summary="" width="361" border="0" cellpadding="0" cellspacing="0">
-                                <tr>
-                                    <td width="361" height="34" align="left" valign="top">
-                                        <a id="A2"></a>
-                                        <img src="images/canada_top_03.gif" alt="Canada" title="Canada" width="361" height="35" /></td>
-                                </tr>
-                                <tr>
-                                    <td width="361" align="left" valign="top" bgcolor="#FFFFFF">
-                                        <table summary="" width="361" height="272" border="0" cellpadding="0" cellspacing="0">
-                                            <tr>
-                                                <td width="6" align="left" valign="top">
-                                                    <img src="images/emea_gcib_05.gif" width="6" height="272" alt=""></td>
-                                                <td width="349" align="left" valign="top" style="background-image: url(images/canada_06.gif);
-                                                    background-position: left top; background-repeat: no-repeat;">
-                                                    <table summary="" width="349" height="272" border="0" cellpadding="0" cellspacing="0">
-                                                        <tr>
-                                                            <td height="243">
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-
-                                                            <script language="javascript">
-<!--
-
-function mapcheck(image,dives)
-{
-		
-		document.getElementById(image).src="images/ottawa_hvr.gif";
-		
-		
-		document.getElementById(dives).style.display="inline";
-		
-		
-
-}
-
-function mapout()
-{
-		
-document.getElementById('img7').src="images/ottawa.gif";
-document.getElementById('div7').style.display="none";
-
-}
-
-//-->
-                                                            </script>
-
-                                                            <td height="11">
-                                                                <table summary="" width="349" border="0" cellspacing="0" cellpadding="0">
-                                                                    <tr>
-                                                                        <td width="255" height="11">
-                                                                        </td>
-                                                                        <td height="11" style="width: 11px">
-                                                                            <a href="#A2" onfocus="mapcheck('img7','div7')" onblur="mapout()" onmouseover="mapcheck('img7','div7')" onmouseout="mapout()">
-                                                                                <img src="images/ottawa.gif" alt="Ottawa" title="Ottawa" border="0" id="img7" /></a></td>
-                                                                        <td width="83" height="11">
-                                                                        </td>
-                                                                    </tr>
-                                                                </table>
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td height="18">
-                                                            </td>
-                                                        </tr>
-                                                    </table>
-                                                </td>
-                                                <td width="6" align="left" valign="top">
-                                                    <img src="images/emea_gcib_07.gif" width="6" height="272" alt=""></td>
-                                            </tr>
-                                        </table>
-                                    </td>
-                                </tr>
-                            </table>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td width="361" height="128" align="left" valign="top" bgcolor="#FFFFFF" class="address"
-                            style="background-image: url(images/bottom_bg_map.gif); background-position: left top;
-                            background-repeat: no-repeat;">
-                            <div id="div7" style="display: none">
-                                <table summary="" width="361" height="128" border="0" cellpadding="0" cellspacing="0">
-                                    <tr>
-                                        <td width="361" align="left" valign="top" style="height: 128px">
-                                            <img src="images/canada_08.gif" alt="emea_gcib_Belgium" width="361" height="128" /></td>
-                                    </tr>
-                                </table>
-                            </div>
-                        </td>
-                    </tr>
-                </table>
+     
+    <p><span class="text_bold_under">Toronto</span><br />Merrill Lynch Canada, Inc.<br /> Brookfield Place, Wellington Tower<br /> 181 Bay Street<br /> 4th and 5th Floors<br /> Toronto, ON M5J 2V8<br /> <br /> </p> 
+    <p>Toronto Eaton Center<br /> 250 Yonge ST<br /> Toronto , ON M5B 2L7<br /><br />
+    200 Front St.<br />
+    Toronto, ON M5V 3L2</p>   
+    <p><span class="text_bold_under">Montreal</span><br />Merrill Lynch Canada Inc.<br /> 1250 Rene Levesque Blvd. West<br /> Suite 3715<br /> Montreal, QC H3B 4W8<br /> <br /> </p>  
+    <p><span class="text_bold_under">Calgary</span><br />Merrill Lynch Canada, Inc.<br /> Bow Valley Square III, <br /> Suite 2620, <br /> 255 5th Ave SW, <br /> Calgary, AB T2P 3G6 <br />  <br />
+    888-3rd Street SW</br>
+    Calgary, AB T2P 5C5</p>  
+    <p><span class="text_bold_under">Vancouver</span><br />Merrill Lynch Canada, Inc.<br /> Cathedral Place<br /> 925 West Georgia Street<br /> 7th Floor<br /> Vancouver, BC V6C 3L2<br /> <br />
+    1055 Dunsmuir Street Suite 574 </br> 
+    Vancouver, BC 'V7X 1L3</p>  
+    <p><span class="text_bold_under">Ottawa</span><br />MBNA Canada Bank<br /> Banque MBNA Canada<br /> 1600 James Naismith Drive<br /> Ottawa, ON  K1B 5N8</p>  
+    <span class="text_bold_under">Regina</span><br />
+    2055 Albert St.</br> 
+    Regina, SK S4P 3G8</p>  </div> 
             </td>
         </tr>
     </table>
 </asp:Content>
 
-<asp:Content ID="info" runat="server" ContentPlaceHolderID="Info">
-    <table summary="Global Information" width="204" border="0" cellspacing="0" cellpadding="0">
+<asp:Content ID="Info" runat="server" ContentPlaceHolderID="Info">
+    <table summary=" " width="204" border="0" cellspacing="0" cellpadding="0">
         <tr>
             <td>
                 <div style="border: 1px solid #e8e8e9; margin: 1px 0px 1px 0px; padding: 0px 0px 6px 0px;">
@@ -145,27 +55,34 @@ document.getElementById('div7').style.display="none";
                                 </td>
                             </tr>
                             <tr>
-                                <td height="26" align="left" valign="middle" style="background-image: url(images/dotted.gif);
+                                <td height="26" align="left" valign="middle" style="background-image: url(../images/dotted.gif);
                                     background-position: left top; background-repeat: repeat-x;">
                                     <a href="canada_lob.aspx" target="_self" class="ritnavlinks" onfocus="this.className='ritnavlinks-over';"
                                         onblur="this.className='ritnavlinks';" title="Lines of Business">Lines of business</a></td>
                             </tr>
                             <tr>
-                                <td height="26" align="left" valign="middle" style="background-image: url(images/dotted.gif);
-                                    background-position: left top; background-repeat: repeat-x;">
+                                <td height="26" align="left" valign="middle" style="background-image: url(../images/dotted.gif);
+                                    background-position: left 
+
+top; background-repeat: repeat-x;">
                                     <a href="canada_benefits.aspx" target="_self" class="ritnavlinks" onfocus="this.className='ritnavlinks-over';"
                                         onblur="this.className='ritnavlinks';" title="Benefits">Benefits</a></td>
                             </tr>
                             <tr>
-                                <td height="26" align="left" valign="middle" style="background-image: url(images/dotted.gif);
-                                    background-position: left top; background-repeat: repeat-x;">
+                                <td height="26" align="left" valign="middle" style="background-image: url(../images/dotted.gif);
+                                    background-position: left 
+
+top; background-repeat: repeat-x;">
                                     <a href="canada_culture.aspx" target="_self" class="ritnavlinks" onfocus="this.className='ritnavlinks-over';"
-                                        onblur="this.className='ritnavlinks';" title="Culture & Work Environment">Culture
-                                        & work environment</a></td>
+                                        onblur="this.className='ritnavlinks';" title="Culture & Work 
+
+Environment">Culture & work environment</a></td>
                             </tr>
                             <tr>
-                                <td height="26" align="left" valign="middle" style="background-image: url(images/dotted.gif);
-                                    background-position: left top; background-repeat: repeat-x;">
+                                <td height="26" align="left" valign="middle" style="background-image: url(../images/dotted.gif);
+                                    background-position: left 
+
+top; background-repeat: repeat-x;">
                                     <a href="canada_staffing.aspx" target="_self" class="ritnavlinks" onfocus="this.className='ritnavlinks-over';"
                                         onblur="this.className='ritnavlinks';" title="Staffing Process">Staffing process</a></td>
                             </tr>
@@ -180,8 +97,7 @@ document.getElementById('div7').style.display="none";
         </tr>
     </table>
 </asp:Content>
-<asp:Content ID="Content1" runat="server" ContentPlaceHolderID="en">
+<asp:Content ID="Content1" runat="server" ContentPlaceHolderID="languagelink">
     <div class="franch_btn">
-        <a href="fr_canada.aspx" onfocus="this.className='franch_btn-over';" onblur="this.className='franch_btn-hover';"
-            alt="En Francais" title="En Francais">En Francais</a></div>
+        <a href="fr_canada.aspx" onfocus="this.className='franch_btn-over';"  onblur="this.className='franch_btn-hover';" alt="En Francais" title="En Francais">En Francais</a></div>
 </asp:Content>

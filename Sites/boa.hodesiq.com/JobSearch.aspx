@@ -195,8 +195,8 @@
                         <Columns>
                         
                             <asp:HyperLinkField   
-                                DataNavigateUrlFields="CountryID,JobsID,stateid,cityid,travelids,jfamily,langs,ftpt,shftid,pds,keywords,jobareas" 
-                                DataNavigateUrlFormatString="JobDetails.aspx?SearchPage=ASP&amp;CountryId={0}&amp;JobId={1}&amp;stateid={2}&amp;cityid={3}&amp;travel={4}&amp;jfamily={5}&amp;lang={6}&amp;fullpart={7}&amp;shift={8}&amp;datepost={9}&amp;keywords={10}&amp;jobareas={11}"
+                                DataNavigateUrlFields="CountryID,JobsID,stateid,cityid,travelids,jfamily,langs,ftpt,shftid,pds,keywords,jobareas,feedname" 
+                                DataNavigateUrlFormatString="JobDetails.aspx?SearchPage=ASP&amp;CountryId={0}&amp;JobId={1}&amp;stateid={2}&amp;cityid={3}&amp;travel={4}&amp;jfamily={5}&amp;lang={6}&amp;fullpart={7}&amp;shift={8}&amp;datepost={9}&amp;keywords={10}&amp;jobareas={11}&amp;feedname={12}"
                                 DataTextField="JobName"                                   
                                 HeaderText="Job Title"                                  
                                 SortExpression="JobName">                                
