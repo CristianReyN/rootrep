@@ -2,8 +2,8 @@
 <main>
         <objet>
           <vidTitle show="false" posx="10" posy="10">video1</vidTitle>
-          <autoPlay>true</autoPlay>
-          <autoRewind>false</autoRewind>
+          <autoPlay>false</autoPlay>
+          <autoRewind>true</autoRewind>
           <totalTime></totalTime>
           <contentPathNS>http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/RJP/CORE.flv</contentPathNS>
           <contentPathOC>http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/RJP/CORE_OC.flv</contentPathOC>
@@ -18,21 +18,19 @@
           <totalTime></totalTime>
           <contentPathNS>http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/RJP/CUSTOMERSAT.flv</contentPathNS>
           <contentPathOC>http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/RJP/CUSTOMERSAT_OC.flv</contentPathOC>
-          <firstFrame></firstFrame>
+          <firstFrame>../Includes/pages/rjp/imx/CUSTOMERSAT.jpg</firstFrame>
           <skin>http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/skinsflvplayback/SteelOverPlaySeekMute.swf</skin>
           <next>2</next>
         </objet>
-       
         <objet>
           <vidTitle show="false" posx="10" posy="10">video3</vidTitle>
           <autoPlay>false</autoPlay>
           <autoRewind>true</autoRewind>
           <totalTime></totalTime>
-          <contentPathNS>http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/RJP/CORE.flv.flv</contentPathNS>
+          <contentPathNS>http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/RJP/CORE.flv</contentPathNS>
           <contentPathOC>http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/RJP/CORE_OC.flv</contentPathOC>
           <firstFrame>../Includes/pages/rjp/imx/CUSTOMERSAT.jpg</firstFrame>
           <skin>http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/skinsflvplayback/SteelOverPlaySeekMute.swf</skin>
           <next>1</next>
         </objet>
-        
 </main>
