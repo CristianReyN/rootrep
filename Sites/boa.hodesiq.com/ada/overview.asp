@@ -16,7 +16,7 @@ flashPage = false
 <!-- Left Nav -->
 <!-- #include file="lnav.asp" -->
 <!-- Left Nav -->
-			<tr valign="top"><td style="background: #cadceb;" height="50" valign="bottom">
+			<tr valign="top"><td height="50" valign="bottom" style="background: #cadceb;">
 <a name="vht"></a>
 <p style="margin: 12px 12px 0px 13px;"><span class="left2" style="color: #D40019;">Virtual Host (Video Transcript)</span></p>
 <p class="s" style="margin: 12px 12px 12px 13px;">
@@ -34,15 +34,14 @@ If you already know that we're a good fit and you're ready to learn about our cu
 <p class="s" style="margin: 12px 12px 0px 13px;">
 Now that you're ready to explore options within our organization, you'll find a wealth of valuable information on everything from benefits, to policies and procedures in the <a href="learnmore.asp" style="line-height: 1.1em;">'Related Information'</a> section of the site.</p>
 
-<p class="s" style="margin: 12px 12px 0px 13px;">
+<p class="s" style="margin: 12px 12px 12px 13px;">
 Thank you for your interest in Bank of America!</p>
 			</td></tr>
-			<tr valign="top"><td style="background: #ececec;" height="50"><img src="../images/clear.gif" width="154" height="1" alt="" border="0"></td></tr>
+			<tr valign="top"><td height="50"><img src="../images/clear.gif" width="154" height="1" alt="" border="0"></td></tr>
 			<tr valign="top"><td height="50"><img src="../images/clear.gif" width="154" height="1" alt="" border="0"></td></tr>
 		</table>
 	</td>
-	<td width="1"><img src="../images/clear.gif" width="1" height="1" alt="" border="0"></td>
-	<td width="11" class="divl"><img src="../images/clear.gif" width="10" height="1" alt="" border="0"></td>
+	<td width="12"><img src="../images/clear.gif" width="12" height="1" alt="" border="0"></td>
 	<td valign="top" width="578" height="100%">
 <!-- Body-->
 <img src="../images/clear.gif" width="15" height="4" alt="" border="0"><br>

@@ -1,18 +1,14 @@
 <% Response.Buffer=True 
 Dim title, mpage, spage, ada_href, ada_title, job_search_action,page_section, Metatag
-title = "Bank of America | Career | Operations, Text Only Version"
-mpage = "areasoftalent"
-spage = "operations"
+title = "Bank of America | Career | Employee assistance program (EAP), Text Only Version"
+mpage = "learnmore"
+spage = "benefitsadv"
 job_search_action = "../jobsearch/searchresult.asp"
-Metatag="Operations is one area of talent for careers at Bank of America. From this page you can listen to an associate, see hot job opportunities, and click to positions in operations, change management & process, legal and services."
-page_self = "../ada/operations.asp"
+Metatag="Highlight information on the Employee Assistance Program available to Bank of America associates."
+page_self = "../ada/emplassistance.asp"
 page_section="ADA"
 Dim flashPage
 flashPage = false
-'****************************** ADDED FOR HOT JOB OPENING***************************
-Dim talentid,rowcount
-talentid=6 
-rowcount=6
 %>
 <!-- Header -->
 <!-- #include file="header.asp" -->
@@ -29,7 +25,7 @@ rowcount=6
 	<td valign="top" width="578" height="100%">
 <!-- Body-->
 <img src="../images/clear.gif" width="15" height="4" alt="" border="0"><br>
-<!-- #include file="../includes/pages/operations.asp" -->
+<!-- #include file="../includes/pages/emplassistance.asp" -->
 <br><br>
 <!-- Body-->
 	</td>

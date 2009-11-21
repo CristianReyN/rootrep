@@ -37,12 +37,11 @@ flashPage = false
 <p class="s" style="margin-bottom: 0px;"><b>6) What if I missed an event at my school?</b></p>
 <p class="s" style="margin-top: 0px; margin-bottom: 0px;"><i>If you happen to miss an event, we recommend you check with your career center to obtain contact information of recruiters who visited your college.</i></p>
 			</td></tr>
-			<tr valign="top"><td style="background: #ececec;" height="50"><img src="../images/clear.gif" width="154" height="1" alt="" border="0"></td></tr>
+			<tr valign="top"><td height="50"><img src="../images/clear.gif" width="154" height="1" alt="" border="0"></td></tr>
 			<tr valign="top"><td height="50"><img src="../images/clear.gif" width="154" height="1" alt="" border="0"></td></tr>
 		</table>
 	</td>
-	<td width="1"><img src="../images/clear.gif" width="1" height="1" alt="" border="0"></td>
-	<td width="11" class="divl"><img src="../images/clear.gif" width="10" height="1" alt="" border="0"></td>
+	<td width="12"><img src="../images/clear.gif" width="12" height="1" alt="" border="0"></td>
 	<td valign="top" width="578" height="100%">
 <!-- Body-->
 <img src="../images/clear.gif" width="15" height="4" alt="" border="0"><br>
