@@ -10,7 +10,7 @@
 <head id="myhead6" runat="server">
     <meta http-equiv="content-type" content="text/html; charset=iso-8859-1">
     <meta name="keywords" content="Bank of America, Mondial, Carrières, Banque, Services bancaires, Banque de possibilités, BA Continuum, BANA, EMOA, Asie, Canada, Europe, Moyen-Orient, Afrique, États-Unis, Mondialisation, Services bancaires aux entreprises, Services bancaires d’investissement, Institutions financières, Recrutement sur les campus universitaires, Recherche d’emploi guidée, Postes et débouchés internationaux" />
-    <link rel="stylesheet" href="includes/styles.css" type="text/css">
+    <link rel="stylesheet" href="includes/DotNetStyles.css" type="text/css">
     <link rel="stylesheet" href="includes/hs_safebutton.css" type="text/css">
     <link rel="stylesheet" href="resources/style.css" type="text/css">
     <style type="text/css">
@@ -89,13 +89,7 @@ function DisableClearImage()
 //-->
     </script>
 
-    <table cellpadding="0" cellspacing="0" border="0" summary="">
-        <tr>
-            <td>
-                <a href="ada/default.aspx" id="tonly" title="" class="hide-tab" runat="server"></a>
-            </td>
-        </tr>
-    </table>
+   
     <table width="750" cellpadding="0" cellspacing="0" border="0" summary="">
         <tr>
             <td valign="top" colspan="3" height="71">
@@ -337,7 +331,7 @@ create_safebutton("Recherche","javascript: submit_search();",0,0,0,0,"Recherche"
                                 target="_blank" title="Equal Housing Lender. Link opens a new window."><img src="http://careers.bankofamerica.com/images/house.gif"
                                     width="14" height="9" hspace="3" alt="Equal Housing Lender. Link opens a new window."
                                     border="0"></a><br>
-                        &copy; 2009 Bank of America Corporation. Tous droits réservés.</div>
+                        &copy; 2010 Bank of America Corporation. Tous droits réservés.</div>
                     <br>
                 </td>
                 <td align="right" width="66">

@@ -20,7 +20,7 @@
 							</td>
 						</tr></table>
 							<table border="0" cellpadding="0" cellspacing="0" summary=""
-                            width="289">
+                            width="275px">
 						<tr>
 							<td  valign="top" style="width:50%; height:45;">
 							    <div id="Div3" style="display: inline;">						
@@ -33,7 +33,7 @@
 							</table>
 							<asp:Panel ID="PnlFilter" runat="server" >
 							<table border="0" cellpadding="0" cellspacing="0" summary=""
-                            width="578">					
+                            width="550px">					
 							<tr id="trInternationalLocation" runat="server"  visible="false">							
 							<td  valign="top"  style="width:50%; height:45;">
 							   <div id="Div1" style="display: inline;">
@@ -183,7 +183,7 @@
                     GridLines="None" 
                     ToolTip="Search Results "
                     summary="Search Results. The first column is the Job Title.  The second column is the Location.  The third column is the Date. " 
-                    Width="554px"
+                    Width="550px"
                     Height="18"  
                     PageSize="12"    
                     AllowPaging="false" 
@@ -234,10 +234,7 @@
                     </asp:GridView>
                     <br />
                     <br />
-                </td>
-            </tr>
-        </table>
-     
+                
 		<table border="0" cellpadding="0" cellspacing="0" summary="" width="100%">
 			<tr><td colspan="3">&nbsp;</td></tr>
             <tr valign="top">
@@ -259,7 +256,10 @@
 					<br /><asp:Label ID="LblPageOfPages" runat="server"></asp:Label>    
 				</td>
              </tr>
-        </table></asp:Panel>
-<asp:label id="lblMessage" runat="server"></asp:label>
+        </table>
+<asp:label id="lblMessage" runat="server"></asp:label></asp:Panel>
+           </td>< </tr>
+        </table>
+     
 
   </asp:Content>

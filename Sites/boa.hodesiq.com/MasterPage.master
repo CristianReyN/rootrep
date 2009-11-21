@@ -10,7 +10,7 @@
 <meta name="verify-v1" content="6WIJiaM285a+e0IHvu0RfrHoW4DbaMdT2rFnVlmR40U=" />
     <meta http-equiv="content-type" content="text/html; charset=iso-8859-1">
     <meta name="keywords" content="Bank of America, Global, Careers, Bank, Banking, Bank of Opportunity, BA Continuum, BANA, EMEA, Asia, Canada, Europe, Middle East, Africa, United States, Globalization, Corporate banking, Investment banking, Financial institutions, Campus recruiting, Guided job search, International jobs and opportunities" />
-    <link rel="stylesheet" href="includes/styles.css" type="text/css">
+    <link rel="stylesheet" href="includes/DotNetStyles.css" type="text/css">
     <link rel="stylesheet" href="includes/hs_safebutton.css" type="text/css">
     <link rel="stylesheet" href="resources/style.css" type="text/css">
     <style type="text/css">
@@ -64,13 +64,7 @@ function tdiv(tf){}
 //-->
     </script>
 
-    <table cellpadding="0" cellspacing="0" border="0" summary="">
-        <tr>
-            <td>
-                <a href="ada/default.aspx" id="tonly" title="" class="hide-tab" runat="server"></a>
-            </td>
-        </tr>
-    </table>
+
     <table width="750" cellpadding="0" cellspacing="0" border="0" summary="">
         <tr>
             <td valign="top" colspan="3" height="71">
@@ -134,7 +128,7 @@ function tdiv(tf){}
                                                                 Search</label></span></td>
                                                     <td width="100%" style="padding: 0px;">
                                                         <input type="text" maxlength="75" class="searchbox" style="width: 100%;" id="question_box"
-                                                            name="question_box" value="" title="Get answers fast. Type in a question or phrase."></td>
+                                                            name="question_box" value="" title="Get answers fast. Type in a question or phrase."/></td>
                                                     <td width="10">
                                                         <img src="http://careers.bankofamerica.com/images/clear.gif" width="10" height="0"
                                                             alt="" border="0" /></td>
@@ -278,11 +272,12 @@ create_safebutton("Search","javascript: submit_search();",0,0,0,0,"Search");
                         </tr>
                     </table>
                 </form>
-                <br>
-                <br>
+                </br>
+                </br>
             </td>
         </tr>
     </table>
+
     <div class="hs-footer">
         <table width="749" border="0" cellspacing="0" cellpadding="0" summary="">
             <tr>
@@ -321,7 +316,7 @@ create_safebutton("Search","javascript: submit_search();",0,0,0,0,"Search");
                         &copy; 2010 Bank of America Corporation. All rights reserved.</div>
                     <br>
                 </td>
- 
+
             </tr>
         </table>
     </div>

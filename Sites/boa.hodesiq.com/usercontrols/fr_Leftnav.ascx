@@ -1,5 +1,5 @@
 <%@ Control Language="C#" AutoEventWireup="true" CodeFile="fr_Leftnav.ascx.cs" Inherits="fr_Leftnav" %>
-<link rel="stylesheet" href="includes/styles.css" type="text/css" />
+<link rel="stylesheet" href="includes/DotNetStyles.css" type="text/css" />
 <link rel="stylesheet" href="includes/hs_safebutton.css" type="text/css" />
 
 <script language="JavaScript1.2" src="includes/masthead.js" type="text/javascript"></script>

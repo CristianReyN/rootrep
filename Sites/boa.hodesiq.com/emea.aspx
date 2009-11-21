@@ -36,6 +36,17 @@
                     <a href="#NETHERLANDS">The NETHERLANDS</a> <a href="#SPAIN">SPAIN</a> <a href="#UK">
                         UK</a>
                 </div>
+                
+                     <h3 class="h1">BAHRAIN</h3>  
+                 <a name="BAHRAIN"></a>
+
+                  <p>
+                    <span class="text_bold_under">Manama</span><br />
+               Bahrain Middle East Bank Building<br />
+               Diplomatic Area<br />
+               Manama, Bahrain<br />
+
+
                 <h3 class="h1">
                     BELGIUM</h3>
                 <a name="BELGIUM"></a>
@@ -125,6 +136,18 @@
                 </p>
                 <div class="hidden">
                     <a href="#mapstart">Back to Location List</a></div>
+                    
+                 <h3 class="h1">ISRAEL</h3>
+                    <a name="ISRAEL"></a>
+
+                     <p>
+                        <span class="text_bold_under">Tel Aviv</span><br />
+                    1 Azrieli Centre<br />
+                   37th Floor, Round Tower<br />
+                 132 Petach Tikvah Road<br />
+                 Tel Aviv, 67021 
+                     </p>
+             
                 <h3 class="h1">
                     ITALY</h3>
                 <a name="ITALY"></a>
@@ -132,7 +155,7 @@
                     <span class="text_bold_under">Milan</span><br />
                     5th Floor<br />
                     Corso Matteotti 10<br />
-                    20121 Milan
+                    Milan, 20121 
                 </p>
                 
                 <p>
@@ -148,7 +171,18 @@
                             Rome, 00186<br />
                </p>
                <div class="hidden">
-                    <a href="#mapstart">Back to Location List</a></div>
+                    <a href="#mapstart">Back to Location List</a></div
+                    
+                                      
+            <h3 class="h1">LEBANON  </h3>  
+                 <a name= "LEBANON"></a>            
+             <p>
+                    <span class="text_bold_under">Beirut</span><br />
+            Maarad Street</br>
+            Atrium Building</br>
+            4th Floor</br>
+            Beirut Central Business District</p>
+            
                 <h3 class="h1">
                     LUXEMBOURG</h3>
                 <a name="LUXEMBOURG"></a>
@@ -175,26 +209,7 @@
 
                 <div class="hidden">
                     <a href="#mapstart">Back to Location List</a></div>
-                <h3 class="h1">
-                    The NETHERLAND</h3>
-                <a name="NETHERLANDS"></a>
-                <p>
-                    <span class="text_bold_under">Amsterdam</span><br />
-                    Rembrandt Tower<br />
-                    27th Floor<br />
-                    No.1 Amstelplein<br />
-                    Amsterdam, 1096 HA<br /><br />
-
-                    Herengracht 469<br />
-                    1017 BS Amsterdam<br />
-                    Nederland
-                    <br />
-                    <em>Post address: </em>
-                    <br />
-                    Postbus 1638<br />
-                    1000 BP Amsterdam</p>
-                <div class="hidden">
-                    <a href="#mapstart">Back to Location List</a></div>
+               
                     
                 <h3 class="h1">POLAND</h3>
                 <a name="POLAND"></a>
@@ -213,6 +228,27 @@
                 Edificio Duarte Pacheco 26<br />
                 Av. Engenheiro Duarte Pacheco, 26 6 Piso A<br />
                 Lisbon, 1070-110<br /></p>
+                
+                 <h3 class="h1">RUSSIA</h3>  
+                 <a name="RUSSIA"></a>
+
+            <p>
+                    <span class="text_bold_under"> Moscow</span><br />
+            Znamenka Street, 7</br>
+            Building 3</br>
+            Moscow, 119019</br>
+            Russia</p>
+            
+                 <h3 class="h1">SAUDI ARABIA</h3>  
+                 <a name="SAUDI ARABIA"></a>
+
+            <p>
+                    <span class="text_bold_under"> Riyadh</span><br />
+            Kingdom Tower - 20th Floor</br>
+            Olaya Street</br>
+            Riyadh</p>
+          
+            
                                         
                     
                 <h3 class="h1">
@@ -236,8 +272,18 @@
          
                   </p>
                     
+            <h3 class="h1">SOUTH AFRICA</h3>  
+               <a name="SOUTH AFRICA"></a>
+
+             <p>
+                    <span class="text_bold_under">Johannesburg</span><br />
+            138 West Street</br>
+            Sandown</br>
+            Sandton</br>
+            Johannesburg, 2120</p>
+                    
                        <h3 class="h1">
-                    Switzerland</h3>
+                    SWITZERLAND</h3>
                 <a name="Switzerland"></a>
                 <p>
                     <span class="text_bold_under">Geneva</span><br />
@@ -249,7 +295,58 @@
                    Stockerhof<br />
                   Stockerstrasse 23<br />
                     Zurich, 8039</p>
+                    
+         <h3 class="h1">
+                    The NETHERLANDS</h3>
+                <a name="NETHERLANDS"></a>
+                <p>
+                    <span class="text_bold_under">Amsterdam</span><br />
+                    Rembrandt Tower<br />
+                    27th Floor<br />
+                    No.1 Amstelplein<br />
+                    Amsterdam, 1096 HA<br /><br />
+
+                    Herengracht 469<br />
+                    1017 BS Amsterdam<br />
+                    Nederland
+                    <br />
+                    <em>Post address: </em>
+                    <br />
+                    Postbus 1638<br />
+                    1000 BP Amsterdam</p>
+                <div class="hidden">
+                    <a href="#mapstart">Back to Location List</a></div>                    
+                    
+       
+
+             <h3 class="h1">TURKEY</h3>  
+               <a name="TURKEY"></a>
+            <p>
+                    <span class="text_bold_under">      
+            Istanbul</span><br />
+            Kanyon Office Block<br />
+            11th Floor, Buyukdere Street<br />
+            34394 Levent<br />
+            Istanbul<br /></p>
            
+           
+           
+             <h3 class="h1">UNITED ARAB EMIRATES</h3>  
+               <a name="UNITED ARAB EMIRATES<"></a>
+             <p>
+                    <span class="text_bold_under">
+            Dubai</span><br />
+            Dubai International Financial Centre:<br />
+            5th Floor, The Gate<br />
+            East Wing<br />
+            P.O. Box 3911<br />
+            Dubai, United Arab Emirates<br /><br />
+
+            Bur Dubai office:<br />
+            6th Floor, Business Centre<br />
+            Khalid Bin Al Waleed St<br />
+            P.O. Box 3911<br />
+            Dubai, United Arab Emirates</p>
            
                 <div class="hidden">
                     <a href="#mapstart">Back to Location List</a></div>
@@ -260,6 +357,9 @@
                     <span class="text_bold_under">London</span><br />
                         2 King Edward Street<br />                       
                         London, EC1A 1HQ<br /><br />
+                                               
+                        5 Canada Square<br />
+                        London E14 5AQ<br /><br />
 
                         20 Farringdon Road<br />
                         London, EC1<br /><br />
@@ -310,91 +410,14 @@
                     
                 </p>
                     
-                  <h3 class="h1">BAHRAIN</h3>  
-                 <a name="BAHRAIN"></a>
-
-                  <p>
-                    <span class="text_bold_under">Manama</span><br />
-               Bahrain Middle East Bank Building<br />
-               Diplomatic Area<br />
-               Manama, Bahrain<br />
-
-                <h3 class="h1">ISRAEL</h3>
-                <a name="ISRAEL"></a>
-
-                 <p>
-                    <span class="text_bold_under">Tel Aviv</span><br />
-                1 Azrieli Centre<br />
-               37th Floor, Round Tower<br />
-             132 Petach Tikvah Road<br />
-             Tel Aviv, 67021 
-             </p>
+             
+               
                 
-                            
-            <h3 class="h1">LEBANON  </h3>  
-                 <a name= "LEBANON"></a>            
-             <p>
-                    <span class="text_bold_under">Beirut</span><br />
-            Maarad Street</br>
-            Atrium Building</br>
-            4th Floor</br>
-            Beirut Central Business District</p>
+          
 
-            <h3 class="h1">RUSSIA</h3>  
-                 <a name="RUSSIA"></a>
+           
 
-            <p>
-                    <span class="text_bold_under"> Moscow</span><br />
-            Znamenka Street, 7</br>
-            Building 3</br>
-            Moscow, 119019</br>
-            Russia</p>
 
-            <h3 class="h1">SAUDI ARABIA</h3>  
-                 <a name="SAUDI ARABIA"></a>
-
-            <p>
-                    <span class="text_bold_under"> Riyadh</span><br />
-            Kingdom Tower - 20th Floor</br>
-            Olaya Street</br>
-            Riyadh</p>
-
-            <h3 class="h1">SOUTH AFRICA</h3>  
-               <a name="SOUTH AFRICA"></a>
-
-             <p>
-                    <span class="text_bold_under">Johannesburg</span><br />
-            138 West Street</br>
-            Sandown</br>
-            Sandton</br>
-            Johannesburg, 2120</p>
-            
-             <h3 class="h1">TURKEY</h3>  
-               <a name="TURKEY"></a>
-            <p>
-                    <span class="text_bold_under">      
-            Istanbul</span><br />
-            Kanyon Office Block<br />
-            11th Floor, Buyukdere Street<br />
-            34394 Levent<br />
-            Istanbul<br /></p>
-
-             <h3 class="h1">UNITED ARAB EMIRATES</h3>  
-               <a name="UNITED ARAB EMIRATES<"></a>
-             <p>
-                    <span class="text_bold_under">
-            Dubai</span><br />
-            Dubai International Financial Centre:<br />
-            5th Floor, The Gate<br />
-            East Wing<br />
-            P.O. Box 3911<br />
-            Dubai, United Arab Emirates<br /><br />
-
-            Bur Dubai office:<br />
-            6th Floor, Business Centre<br />
-            Khalid Bin Al Waleed St<br />
-            P.O. Box 3911<br />
-            Dubai, United Arab Emirates</p>
 
 
                 

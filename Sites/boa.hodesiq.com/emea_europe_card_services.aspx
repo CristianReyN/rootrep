@@ -57,9 +57,9 @@
                
        </table>     
            <p>
-                        <a href="emea_europe_card_services_teams.aspx" class="ritnavlinks" onblur="this.className='ritnavlinks';" onfocus="this.className='ritnavlinks-over';" title="Learn about Europe Card Services departments">Learn about Europe Card Services departments</a> <br />
+                        <a href="emea_europe_card_services_teams.aspx" class="ritnavlinks" onblur="this.className='ritnavlinks';" onfocus="this.className='ritnavlinks-over';" title="Learn about Europe Card Services departments">Learn about Europe Card Services departments</a> <br /><br />
                              
-                        <a href="emea_lob.aspx" class="ritnavlinks" onblur="this.className='ritnavlinks';" onfocus="this.className='ritnavlinks-over';" title="Benefits">Return</a>
+                        <a href="emea_lob.aspx" class="ritnavlinks" onblur="this.className='ritnavlinks';" onfocus="this.className='ritnavlinks-over';" title="Return">Return</a><br />
 
                     </p>   
     

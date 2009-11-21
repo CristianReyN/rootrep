@@ -149,9 +149,9 @@ Which is why, whatever stage you’re at in your career, we have a training and 
                
      </td></tr>  </table> 
       <p>
-                        <a href="emea_europe_card_services.aspx" class="ritnavlinks" onblur="this.className='ritnavlinks';" onfocus="this.className='ritnavlinks-over';" title="Learn more about Europe Card Services">Learn more about Europe Card Services</a><br />
+                        <a href="emea_europe_card_services.aspx" class="ritnavlinks" onblur="this.className='ritnavlinks';" onfocus="this.className='ritnavlinks-over';" title="Learn more about Europe Card Services">Learn more about Europe Card Services</a><br /><br />
                              
-                        <a href="emea_lob.aspx" class="ritnavlinks" onblur="this.className='ritnavlinks';" onfocus="this.className='ritnavlinks-over';" Title="Benefits" >Return</a>
+                        <a href="emea_lob.aspx" class="ritnavlinks" onblur="this.className='ritnavlinks';" onfocus="this.className='ritnavlinks-over';" Title="Return" >Return</a><br />
 
                     </p>       
     

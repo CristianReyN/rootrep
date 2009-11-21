@@ -25,7 +25,7 @@
                     lending, and this is done through a variety of techniques to make the right decision.</p>
                     
                     <p>
-                        <a href="emea_europe_card_services.aspx" class="ritnavlinks" onblur="this.className='ritnavlinks';" onfocus="this.className='ritnavlinks-over';" title='Learn more about Europe Card Services'>Learn more about Europe Card Services</a><br />
+                        <a href="emea_europe_card_services.aspx" class="ritnavlinks" onblur="this.className='ritnavlinks';" onfocus="this.className='ritnavlinks-over';" title='Learn more about Europe Card Services'>Learn more about Europe Card Services</a><br /><br />
                         <a href="emea_europe_card_services_teams.aspx" class="ritnavlinks" onblur="this.className='ritnavlinks';" onfocus="this.className='ritnavlinks-over';" title='Learn about Europe Card Services departments'>Learn about Europe Card Services departments</a> 
 
                     </p>
@@ -56,9 +56,9 @@
         </tr>
     </table><br />
    
-<a title="Global Technology" href="technology/" class="ritnavlinks" onblur="this.className='ritnavlinks';" onfocus="this.className='ritnavlinks-over';" title="Global Technology">Global Technology</a><br />
+<a title="Global Technology" href="technology/" class="ritnavlinks" onblur="this.className='ritnavlinks';" onfocus="this.className='ritnavlinks-over';" title="Global Technology">Global Technology</a><br /><br />
 
-<a title="Corporate Staff & Support" href="learnmore/lobcss.asp" class="ritnavlinks" onblur="this.className='ritnavlinks';" onfocus="this.className='ritnavlinks-over';" title="Corporate Staff & Support">Corporate Staff & Support</a>
+<a title="Corporate Staff & Support" href="learnmore/lobcss.asp" class="ritnavlinks" onblur="this.className='ritnavlinks';" onfocus="this.className='ritnavlinks-over';" title="Corporate Staff & Support">Corporate Staff & Support</a><br />
 
 </asp:Content>
 

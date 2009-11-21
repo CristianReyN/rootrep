@@ -1,5 +1,5 @@
 ﻿<%@ Control Language="C#" AutoEventWireup="true" CodeFile="uc_LeftNavigation.ascx.cs" Inherits="uc_LeftNavigation" %>
-<link rel="stylesheet" href="includes/styles.css" type="text/css" />
+<link rel="stylesheet" href="includes/DotNetStyles.css" type="text/css" />
 <link rel="stylesheet" href="includes/hs_safebutton.css" type="text/css" />
 
 

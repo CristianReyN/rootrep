@@ -70,19 +70,18 @@
                                 </td>
                             </tr>                    
                             <tr>
-                                <td height="26"  style="width:50%" aligh="left" valign="middle" style="background-image: url(images/dotted.gif);
+                                <td height="26"  style="width:150px" align="left" valign="middle" style="background-image: url(images/dotted.gif);
                                     background-position: left top; background-repeat: repeat-x;">
                                     <a href="asia.aspx" target="_self" class="ritnavlinks" onfocus="this.className='ritnavlinks-over';"
-                                        onblur="this.className='ritnavlinks';" title="Bank of America Merrill Lynch">Bank of America Merrill Lynch</a></br>
+                                        onblur="this.className='ritnavlinks';" title="Bank of America Merrill Lynch">Bank of America Merrill Lynch </a></br>
                                        </td>
-                            </tr></td>
-                            </tr>
+                            </tr>                            
                              <tr>
                                 <td height="26"  style="width:100%" align="left" valign="middle" style="background-image: url(images/dotted.gif);
                                     background-position: left top; background-repeat: repeat-x;">
                                     <a href="bacs.aspx" target="_self" class="ritnavlinks" onfocus="this.className='ritnavlinks-over';"
                                         onblur="this.className='ritnavlinks';" title="BA Continuum in India">BA Continuum in India</a></td>
-                            </tr></div></td></tr></table>                
+                            </tr></table></div></td></tr></table>
                                                 
 </asp:Content>
 

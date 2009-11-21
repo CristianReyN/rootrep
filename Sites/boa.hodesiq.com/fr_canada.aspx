@@ -24,6 +24,7 @@
     888-3rd Street SW</br>
     Calgary, AB T2P 5C5</p>  
     <h2>Montreal</h2>Merrill Lynch Canada Inc.<br /> 1250 Rene Levesque Blvd. West<br /> Suite 3715<br /> Montreal, QC H3B 4W8<br /> <br /> </p>  
+    <h2>Ottawa</h2><br />MBNA Canada Bank<br /> Banque MBNA Canada<br /> 1600 James Naismith Drive<br /> Ottawa, ON  K1B 5N8</p>  
     <h2>Regina</h2>
     2055 Albert St.</br> 
     Regina, SK S4P 3G8</p> 
@@ -34,7 +35,7 @@
     <h2>Vancouver</h2>Merrill Lynch Canada, Inc.<br /> Cathedral Place<br /> 925 West Georgia Street<br /> 7th Floor<br /> Vancouver, BC V6C 3L2<br /> <br />
     1055 Dunsmuir Street Suite 574 </br> 
     Vancouver, BC 'V7X 1L3</p>  
-    <h2>Ottawa</h2><br />MBNA Canada Bank<br /> Banque MBNA Canada<br /> 1600 James Naismith Drive<br /> Ottawa, ON  K1B 5N8</p>  
+    
      </div> 
             </td>
           
