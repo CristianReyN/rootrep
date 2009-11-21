@@ -80,10 +80,10 @@ var helpLinks = '<table width="160" height="60" cellpadding="0" cellspacing="0" 
 if ( hasRequestedVersion ) {
 	var hiddenFlash = '<a class="auraltext" href="#skipflash" onFocus="hover(this,\'show-tab\'); this.focus()" onblur="hover(this,\'auraltext\')">Skip Flash content</a><br>';
 	hiddenFlash += '<object tabindex="0" onmousedown="if(document.getElementById(\'skipflash2\')) document.getElementById(\'skipflash2\').focus();" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"  codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="310" height="390" title="virtualhost" id="ShockwaveFlash1">';
-	hiddenFlash += '<param name="movie" value="http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/virtualhost.swf" />';
+	hiddenFlash += '<param name="movie" value="virtualhost.swf" />';
 	hiddenFlash += '<param name="quality" value="high" />';
 	hiddenFlash += '<param value="transparent" name="wmode" />';
-	hiddenFlash += '<embed src="http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/virtualhost.swf" wmode="transparent" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="310" height="390"></embed>';
+	hiddenFlash += '<embed src="virtualhost.swf" wmode="transparent" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="310" height="390"></embed>';
 	hiddenFlash += '</object>';
    document.write('<div id="flash_in" style="display: inline; width: auto; height: auto;">');
    document.write('</div>');
@@ -98,10 +98,10 @@ if ( hasRequestedVersion ) {
 <% If playflash = "" Then %>
 <div id="flash_in" style="display: inline;">
 <object tabindex="0" onmousedown="if(document.getElementById('skipflash2')) document.getElementById('skipflash2').focus();" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"  codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="310" height="390" title="virtualhost" id=ShockwaveFlash1>
-  <param name="movie" value="http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/virtualhost.swf" />
+  <param name="movie" value="virtualhost.swf" />
   <param name="quality" value="high" />
   <param value="transparent" name="wmode" />
-  <embed src="http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/virtualhost.swf" wmode="transparent" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="310" height="390"></embed>
+  <embed src="virtualhost.swf" wmode="transparent" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="310" height="390"></embed>
 </object>
 </div>
 <% Else %>
