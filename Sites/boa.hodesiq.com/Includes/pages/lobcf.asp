@@ -22,30 +22,44 @@
 <!-- #include file="lob/chen.asp" -->
 <a href="#video" class="hlink">Rich Chen&acute;s Associate Testimonial Video</a>
 <% End If  %>
+<% If spage = "finance" Then %>
+<div style="width: 201px; text-align: left; border: 1px solid #e8e8e9; background: #ffffff; margin: 12px 0px 12px 0px; padding: 0px 0px 6px 0px;">
+<H2 class="g" style="margin: 0px 0px 0px 0px;">Career Opportunities</H2>
+	<img src="../images/clear.gif" width="100%" height="1" alt="" border="0" style="margin: 0px 0px 0px 0px; background: #ffffff;" align="top"><br clear="all">
+	<img src="../images/clear.gif" width="100%" height="1" alt="" border="0" style="margin: 0px 0px 0px 0px; background: #e8e8e9;" align="top"><br clear="all">
+<p style="margin: 6px 6px 0px 6px;"><a class="left" onfocus="this.className='left-over';" onblur="this.className='left';" href="../jobsearch.aspx?jobareas=4|12&stateid=-1&cityid=-1&keywords=&SearchPage=Sp">View current jobs in Finance</a></p>
+<p style="margin: 6px 6px 0px 6px;"><a class="left" onfocus="this.className='left-over';" onblur="this.className='left';" href="../jobsearch.aspx?jobareas=4|13&stateid=-1&cityid=-1&keywords=&SearchPage=Sp">View current jobs in Credit</a></p>
+<p style="margin: 6px 6px 0px 6px;"><a class="left" onfocus="this.className='left-over';" onblur="this.className='left';" href="../jobsearch.aspx?jobareas=4|14&stateid=-1&cityid=-1&keywords=&SearchPage=Sp">View current jobs in Investment Banking</a></p>
+<p style="margin: 6px 6px 0px 6px;"><a class="left" onfocus="this.className='left-over';" onblur="this.className='left';" href="../jobsearch.aspx?jobareas=4|15&stateid=-1&cityid=-1&keywords=&SearchPage=Sp">View current jobs in Wealth &amp; Investment Mgmt</a></p>
+<!--<p style="margin: 6px 6px 0px 6px;"><a class="left" onfocus="this.className='left-over';" onblur="this.className='left';" href="../jobsearch.aspx?jobareas=4|16&stateid=-1&cityid=-1&keywords=&SearchPage=Sp">View current jobs in Human Resources</a></p>-->
+</div>
+<% ElseIf tpage = "lobcf" Then %>
 <div style="width: 201px; text-align: left; border: 1px solid #e8e8e9; background: #ffffff; margin: 12px 0px 12px 0px; padding: 0px 0px 6px 0px;">
 	<H2 class="g" style="margin: 0px 0px 0px 0px;">Guided Job Search</H2>
 	<img src="../images/clear.gif" width="100%" height="1" alt="" border="0" style="margin: 1px 0px 6px 0px; background: #e8e8e9;" align="top"><br clear="all"><% jwidth = 192 %>
 <!-- #include file="../jobsearch.asp" -->
 </div>
-
+<% End If  %>
 <div style="width: 201px; text-align: center; margin: 0px; padding: 0px;">
 <!-- #include file="../talkingatm.html" -->
 </div>
 <br><br>
 					</div>
 <p style="margin: <% If page_section = "ADA" Then %>12<% Else %>0<%End If%>px <%=right_margin_split%>px 0px <%=left_margin_0%>px;">
-The CFO Group serves a number of essential functions within Bank of America, organized in the following groups:
+The CFO Group serves a number of essential functions within Bank&nbsp;of&nbsp;America, organized in the following groups:
 <br><br>
 <b>Finance Business Client Support</b>
 <br><br>
 Each line of business has its own CFO and a team dedicated to supporting its business, strategic planning and financial analysis function:
 </p>
-<ul style="margin-left: <%=left_margin_0%>px;">
+<p style="margin: 0px 0px 0px <%=left_margin_0%>px;">
+<ul>
 	<li>Global Consumer and Small Business Banking (GCSBB)</li>
 	<li>Global Corporate and Investment Banking (GCIB)</li>
 	<li>Global Wealth and Investment Management (GWIM)</li>
 	<li>Corporate Infrastructure (Global Technology & Operations, Staff Support Functions)</li>
 </ul>
+</p>
 <p style="margin: 12px 12px 12px <%=left_margin_0%>px;">
 <b>Financial Accounting &amp; Control</b>
 <br><br>
@@ -68,7 +82,7 @@ Corporate Investments manages the bank's diversified financial portfolio through
 Investor Relations is the contact for analysts and investors and is responsible for implementing a comprehensive investor relations program designed to improve the company's stock valuation.
 </p>
 <br>
-<H1 style="margin: 0px <%=right_margin%>px 0px <%=left_margin_0%>px; width: <%=(315-right_margin_split-left_margin_0)%>px;">Frequently Asked Questions</H1>
+<H1 style="margin: 0px <%=right_margin%>px 9px <%=left_margin_0%>px; width: <%=(315-right_margin_split-left_margin_0)%>px;">Frequently Asked Questions</H1>
 <div style="margin: <% If page_section = "ADA" Then %>12<% Else %>0<%End If%>px <%=right_margin_split%>px 0px <%=left_margin_0%>px; width: <% If page_section <> "ADA" Then %><%=(315-right_margin_split-left_margin_0)%>px;<% Else %>100%<%End If%>">
 <% If page_section <> "ADA" Then %>
 <div id="panswer" style="width: 205px; height: 152px; text-align: left;">
@@ -85,7 +99,7 @@ Click on a question below to play the video response.
 <p style="margin: 6px 0px 0px 0px;" class="faqpa">
 <b>What career resources are available?</b>
 <% If page_section <> "ADA" Then %>
-<br><a href="Javascript: vo_id();" onclick="playResponce(this);" class="ip">Play response</a>&nbsp;<a href="Javascript: void();" onclick="playResponce(this);"><img style="margin: 0px 0px 0px 0px;" src="../images/video_off_faq.gif" alt="" border="0" align="absmiddle" class="pai" name="pa1"></a><span class="auraltext"><br class="kim_a1"></span>
+<br><img class="plresp" src="../images/clear.gif" width="10" height="1"  alt="" border="0"><br><a href="Javascript: vo_id();" onclick="playResponce(this);" class="ip">Play response</a>&nbsp;<a href="Javascript: void();" onclick="playResponce(this);"><img style="margin: 0px 0px 0px 0px;" src="../images/video_off_faq.gif" alt="" border="0" align="absmiddle" class="pai" name="pa1"></a><span class="auraltext"><br class="kim_a1"></span>
 <% Else %>
 </p>
 <p style="margin: 6px 0px 0px 0px;"><a name="answ1"></a>
@@ -105,7 +119,7 @@ Associates can enlist the efforts of formal and informal mentors to provide guid
 <p style="margin: 6px 0px 0px 0px;" class="faqpa">
 <b>When an associate does a good job, how will he or she be rewarded?</b>
 <% If page_section <> "ADA" Then %>
-<br><a href="Javascript: vo_id();" onclick="playResponce(this);" class="ip">Play response</a>&nbsp;<a href="Javascript: vo_id();" onclick="playResponce(this);"><img style="margin: 0px 0px 0px 0px;" src="../images/video_off_faq.gif" alt="" border="0" align="absmiddle" class="pai" name="pa2"></a><span class="auraltext"><br class="kim_a2"></span>
+<br><img class="plresp" src="../images/clear.gif" width="10" height="1"  alt="" border="0"><br><a href="Javascript: vo_id();" onclick="playResponce(this);" class="ip">Play response</a>&nbsp;<a href="Javascript: vo_id();" onclick="playResponce(this);"><img style="margin: 0px 0px 0px 0px;" src="../images/video_off_faq.gif" alt="" border="0" align="absmiddle" class="pai" name="pa2"></a><span class="auraltext"><br class="kim_a2"></span>
 <% Else %>
 </p>
 <p style="margin: 6px 0px 0px 0px;"><a name="answ2"></a>
@@ -127,11 +141,11 @@ We believe hard work should be rewarded and there are a variety of ways to demon
 <p style="margin: 6px 0px 0px 0px;" class="faqpa">
 <b>How is the CFO group connected to other lines of business in the bank?</b>
 <% If page_section <> "ADA" Then %>
-<br><a href="Javascript: vo_id();" onclick="playResponce(this);" class="ip">Play response</a>&nbsp;<a href="Javascript: vo_id();" onclick="playResponce(this);"><img style="margin: 0px 0px 0px 0px;" src="../images/video_off_faq.gif" alt="" border="0" align="absmiddle" class="pai" name="pa3"></a><span class="auraltext"><br class="kim_a3"></span>
+<br><img class="plresp" src="../images/clear.gif" width="10" height="1"  alt="" border="0"><br><a href="Javascript: vo_id();" onclick="playResponce(this);" class="ip">Play response</a>&nbsp;<a href="Javascript: vo_id();" onclick="playResponce(this);"><img style="margin: 0px 0px 0px 0px;" src="../images/video_off_faq.gif" alt="" border="0" align="absmiddle" class="pai" name="pa3"></a><span class="auraltext"><br class="kim_a3"></span>
 <% Else %>
 </p>
 <p style="margin: 6px 0px 0px 0px;"><a name="answ3"></a>
-The CFO group serves a number of essential functions within Bank of America, organized in the following groups:
+The CFO group serves a number of essential functions within Bank&nbsp;of&nbsp;America, organized in the following groups:
 <br><br>
 Finance Business Client Support<br>
 Financial Accounting and Control<br>

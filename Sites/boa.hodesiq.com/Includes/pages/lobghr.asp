@@ -22,28 +22,33 @@
 <!-- #include file="lob/cambra.asp" -->
 <a href="#video" class="hlink">Gretchen Cambra&acute;s Associate Testimonial Video</a>
 <% End If  %>
+<% If spage = "humanresources" Then %>
+<div style="width: 201px; text-align: left; border: 1px solid #e8e8e9; background: #ffffff; margin: 12px 0px 12px 0px; padding: 0px 0px 6px 0px;">
+<H2 class="g" style="margin: 0px 0px 0px 0px;">Career Opportunities</H2>
+	<img src="../images/clear.gif" width="100%" height="1" alt="" border="0" style="margin: 0px 0px 0px 0px; background: #ffffff;" align="top"><br clear="all">
+	<img src="../images/clear.gif" width="100%" height="1" alt="" border="0" style="margin: 0px 0px 0px 0px; background: #e8e8e9;" align="top"><br clear="all">
+<!--<p style="margin: 6px 6px 0px 6px;"><a class="left" onfocus="this.className='left-over';" onblur="this.className='left';" href="../jobsearch.aspx?jobareas=5|16&stateid=-1&cityid=-1&keywords=&SearchPage=Sp">View current jobs in Human Resources</a></p>-->
+<p style="margin: 6px 6px 0px 6px;"><a class="left" onfocus="this.className='left-over';" onblur="this.className='left';" href="../jobsearch.aspx?jobareas=5|-1&stateid=-1&cityid=-1&keywords=&SearchPage=Sp">View current jobs in Human Resources</a></p>
+</div>
+<% ElseIf tpage = "lobghr" Then %>
 <div style="width: 201px; text-align: left; border: 1px solid #e8e8e9; background: #ffffff; margin: 12px 0px 12px 0px; padding: 0px 0px 6px 0px;">
 	<H2 class="g" style="margin: 0px 0px 0px 0px;">Guided Job Search</H2>
 	<img src="../images/clear.gif" width="100%" height="1" alt="" border="0" style="margin: 1px 0px 6px 0px; background: #e8e8e9;" align="top"><br clear="all"><% jwidth = 192 %>
 <!-- #include file="../jobsearch.asp" -->
 </div>
-
+<% End If  %>
 <div style="width: 201px; text-align: center; margin: 0px; padding: 0px;">
 <!-- #include file="../talkingatm.html" -->
 </div>
 <br><br>
 					</div>
 <p style="margin: <% If page_section = "ADA" Then %>12<% Else %>0<%End If%>px <%=right_margin_split%>px 0px <%=left_margin_0%>px;">
-At Bank of America, we understand that the success of an organization depends on its people. The Global Human Resources team at Bank of America plays an integral role in driving that success. It aligns Human Resources strategy to the business strategy, enabling the company to drive revenue growth through attracting, developing and retaining a world-class workforce. 
+At Bank&nbsp;of&nbsp;America, we understand that the success of an organization depends on its people. The Global Human Resources team at Bank&nbsp;of&nbsp;America plays an integral role in driving that success. It aligns Human Resources strategy to the business strategy, enabling the company to drive revenue growth through attracting, developing and retaining a world-class workforce. 
 <br><br>
 In addition to advising our clients on a wide variety of topics, the Global Human Resources team helps the company deliver a higher standard of benefits, work/life commitment and satisfaction to our over 200,000 associates world-wide. Our Global Human Resources associates must display strong business acumen, relationship building and strategic partnership and execution across several businesses.
 </p>
-<H2 class="h2" style="margin: 12px <%=right_margin%>px 2px <%=left_margin_0%>px;">Hot Job Postings</H2>
-<p style="margin: 6px 12px 12px <%=left_margin_0%>px;">
-Interested in joining the "World's Most Admired Global Bank"? We invite you to explore career opportunities on our dynamic Human Resources team.
-</p>
 <br>
-<H1 style="margin: 0px <%=right_margin%>px 0px <%=left_margin_0%>px; width: <%=(315-right_margin_split-left_margin_0)%>px;">Frequently Asked Questions</H1>
+<H1 style="margin: 0px <%=right_margin%>px 9px <%=left_margin_0%>px; width: <%=(315-right_margin_split-left_margin_0)%>px;">Frequently Asked Questions</H1>
 <div style="margin: <% If page_section = "ADA" Then %>12<% Else %>0<%End If%>px <%=right_margin_split%>px 0px <%=left_margin_0%>px; width: <%=(315-right_margin_split-left_margin_0)%>px;">
 <% If page_section <> "ADA" Then %>
 <div id="panswer" style="width: 205px; height: 152px; text-align: left;">
@@ -58,9 +63,9 @@ Click on a question below to play the video response.
 <% End If %>
 <img class="dotdiv" style="margin: 6px 0px 0px 0px;" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
 <p style="margin: 6px 0px 0px 0px;" class="faqpa">
-<b>What are the main areas of GHR at Bank of America?</b>
+<b>What are the main areas of GHR at Bank&nbsp;of&nbsp;America?</b>
 <% If page_section <> "ADA" Then %>
-<br><a href="Javascript: vo_id();" onclick="playResponce(this);" class="ip">Play response</a>&nbsp;<a href="Javascript: void();" onclick="playResponce(this);"><img style="margin: 0px 0px 0px 0px;" src="../images/video_off_faq.gif" alt="" border="0" align="absmiddle" class="pai" name="pa1"></a><span class="auraltext"><br class="ryan_a2"></span>
+<br><img class="plresp" src="../images/clear.gif" width="10" height="1"  alt="" border="0"><br><a href="Javascript: vo_id();" onclick="playResponce(this);" class="ip">Play response</a>&nbsp;<a href="Javascript: void();" onclick="playResponce(this);"><img style="margin: 0px 0px 0px 0px;" src="../images/video_off_faq.gif" alt="" border="0" align="absmiddle" class="pai" name="pa1"></a><span class="auraltext"><br class="ryan_a2"></span>
 <% Else %>
 </p>
 <p style="margin: 6px 0px 0px 0px;"><a name="answ2"></a>
@@ -76,7 +81,7 @@ Staffing, which is responsible for strategically partnering with the lines of bu
 <p style="margin: 6px 0px 0px 0px;" class="faqpa">
 <b>What kinds of positions are considered part of Global HR?</b>
 <% If page_section <> "ADA" Then %>
-<br><a href="Javascript: vo_id();" onclick="playResponce(this);" class="ip">Play response</a>&nbsp;<a href="Javascript: vo_id();" onclick="playResponce(this);"><img style="margin: 0px 0px 0px 0px;" src="../images/video_off_faq.gif" alt="" border="0" align="absmiddle" class="pai" name="pa2"></a><span class="auraltext"><br class="ryan_a3"></span>
+<br><img class="plresp" src="../images/clear.gif" width="10" height="1"  alt="" border="0"><br><a href="Javascript: vo_id();" onclick="playResponce(this);" class="ip">Play response</a>&nbsp;<a href="Javascript: vo_id();" onclick="playResponce(this);"><img style="margin: 0px 0px 0px 0px;" src="../images/video_off_faq.gif" alt="" border="0" align="absmiddle" class="pai" name="pa2"></a><span class="auraltext"><br class="ryan_a3"></span>
 <% Else %>
 </p>
 <p style="margin: 6px 0px 0px 0px;"><a name="answ3"></a>
@@ -90,7 +95,7 @@ The different positions within HR vary depending on the group.  We look for a va
 <p style="margin: 6px 0px 0px 0px;" class="faqpa">
 <b>What is a typical career path in GHR?</b>
 <% If page_section <> "ADA" Then %>
-<br><a href="Javascript: vo_id();" onclick="playResponce(this);" class="ip">Play response</a>&nbsp;<a href="Javascript: vo_id();" onclick="playResponce(this);"><img style="margin: 0px 0px 0px 0px;" src="../images/video_off_faq.gif" alt="" border="0" align="absmiddle" class="pai" name="pa3"></a><span class="auraltext"><br class="ryan_a4"></span>
+<br><img class="plresp" src="../images/clear.gif" width="10" height="1"  alt="" border="0"><br><a href="Javascript: vo_id();" onclick="playResponce(this);" class="ip">Play response</a>&nbsp;<a href="Javascript: vo_id();" onclick="playResponce(this);"><img style="margin: 0px 0px 0px 0px;" src="../images/video_off_faq.gif" alt="" border="0" align="absmiddle" class="pai" name="pa3"></a><span class="auraltext"><br class="ryan_a4"></span>
 <% Else %>
 </p>
 <p style="margin: 6px 0px 0px 0px;"><a name="answ4"></a>
@@ -104,7 +109,10 @@ Associates with a proven track record for success have an opportunity to grow in
 
 </div>
 <br><br>
-
+<H2 class="h2" style="margin: 12px <%=right_margin%>px 2px <%=left_margin_0%>px;">Hot Job Postings</H2>
+<p style="margin: 6px 12px 12px <%=left_margin_0%>px;">
+Interested in joining the "World's Most Admired Global Bank"? We invite you to explore career opportunities on our dynamic Human Resources team.
+</p>
 <table cellpadding="2" cellspacing="0" border="0" summary="" style="margin-left: <%=left_margin_0%>px;">
 <!--#include file="../../hot_jobs.asp"-->
 </table>

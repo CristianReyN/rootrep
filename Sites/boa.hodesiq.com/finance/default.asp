@@ -13,7 +13,6 @@ flashPage = false
 Dim subtitle
 subtitle="CFO Group/Finance"
 Metatag="Finance is one area of talent for careers at Bank of America. From this page you can listen to an associate, see hot job opportunities, and click to positions in finance, credit, investment banking, wealth & investment management and human resource."
-
 '****************************** ADDED FOR HOT JOB OPENING***************************
 Dim talentid,rowcount
 talentid=4 
@@ -33,7 +32,8 @@ rowcount=6
 	<td valign="top" width="578" height="100%">
 <!-- Body-->
 <img src="../images/clear.gif" width="15" height="4" alt="" border="0"><br>
-<!-- #include file="../includes/pages/finance.asp" -->
+<!-- #include file="../includes/pages/lobcf.asp" -->
+<br><br>
 <!-- Body-->
 	</td>
 </tr>
