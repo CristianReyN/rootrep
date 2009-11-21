@@ -334,7 +334,7 @@ public partial class AdvanceSearchTest : System.Web.UI.Page
     }
     protected void btnBasicSearch_Click(object sender, EventArgs e)
     {
-        Response.Redirect("jobsearch.aspx");
+        Response.Redirect("jobsearchtest.aspx");
     }
 
     protected void PopulateJobAreas()

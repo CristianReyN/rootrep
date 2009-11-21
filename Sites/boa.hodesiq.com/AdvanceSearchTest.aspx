@@ -114,7 +114,7 @@
 									<tr>	
 										<td align="left" valign="top"><asp:PlaceHolder runat="server" ID="phSearch"></asp:PlaceHolder></td>
 										<td width="10">&nbsp;</td>
-										<td align="left" valign="top"><asp:HyperLink runat="server" ID="lnkBasicSearch" NavigateUrl="~/JobSearch.aspx" Text="Guided job search" CssClass="p" ToolTip="Guided job search" /></td>
+										<td align="left" valign="top"><asp:HyperLink runat="server" ID="lnkBasicSearch" NavigateUrl="~/JobSearchTest.aspx" Text="Guided job search" CssClass="p" ToolTip="Guided job search" /></td>
 										<td width="10">&nbsp;</td>
 										<td align="left" valign="top"><asp:HyperLink runat="server" ID="lnkJobCart" NavigateUrl="~/jobcart.aspx" Text="View job cart" CssClass="p" ToolTip="View job cart" /></td>
 									</tr>
