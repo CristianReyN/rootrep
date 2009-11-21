@@ -91,7 +91,7 @@ public partial class Tell_a_friend : System.Web.UI.Page
                     strMailBody = strMailBody + "Important - this message (including any attachments) is intended only for the use of the individual or entity to which it is addressed, and may contain information that is privileged, confidential and exempt from disclosure under applicable law. ";
                     strMailBody = strMailBody + "If you are not the intended recipient, you should delete this message immediately and you are hereby notified that any review, dissemination, distribution or copying of this message, or the taking of any action based on it is strictly prohibited.  ";
                     //strMailBody = strMailBody + "If you have received this communication in error, please notify the sender immediately by telephone.</b></i>";
-                    strMailBody = strMailBody + "</b></i>f<br/><br/></td></tr></table>";
+                    strMailBody = strMailBody + "</b></i><br/><br/></td></tr></table>";
                     message.Body = strMailBody;
 
                     SmtpClient client = new SmtpClient("localhost");
