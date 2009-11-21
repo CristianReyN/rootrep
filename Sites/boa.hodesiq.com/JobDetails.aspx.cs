@@ -67,7 +67,9 @@ public partial class JobDetails : System.Web.UI.Page
         {
             returntoJobsearch.NavigateUrl = "AdvanceSearch.aspx?" + Request.QueryString;
         }
-		TellaFriend.NavigateUrl = "Tell_a_friend.aspx?" + Request.QueryString;
+
+		//not ready For Pro Yet!! 
+        //TellaFriend.NavigateUrl = "Tell_a_friend.aspx?" + Request.QueryString;
 
 
         //check if this job is in the jobcart. If so, display remove Job Cart Link
@@ -251,8 +253,10 @@ public partial class JobDetails : System.Web.UI.Page
 	{
 		returntoJobsearch.Attributes.Add("onfocus", "this.className='p-over';");
 		returntoJobsearch.Attributes.Add("onblur", "this.className='p';");
-		TellaFriend.Attributes.Add("onfocus", "this.className='p-over';");
-		TellaFriend.Attributes.Add("onblur", "this.className='p';");
+        
+        //not ready For Pro Yet!!
+        //TellaFriend.Attributes.Add("onfocus", "this.className='p-over';");
+		//TellaFriend.Attributes.Add("onblur", "this.className='p';");
 
 		btnAddToCart.Attributes.Add("onfocus", "this.style.color='#0000FF';");
 		btnAddToCart.Attributes.Add("onblur", "this.style.color='#405EBE';");
