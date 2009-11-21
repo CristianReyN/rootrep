@@ -28,6 +28,7 @@ function startPs()
 	if(window.preloadCC) preloadCC();
 	var aa = new Array();
 	aa = addElementsByClassName("a","p",aa);
+	aa = addElementsByClassName("a","ip",aa);
 	aa = addElementsByClassName("a","g",aa);
 	aa = addElementsByClassName("a","sbtxt",aa);
 	aa = addElementsByClassName("a","left",aa);
@@ -39,7 +40,13 @@ function startPs()
 		aa[i].onmouseover=function() {
 			this.className=this.baseClassName+'-over';
 		}
+		aa[i].onfocus=function() {
+			this.className=this.baseClassName+'-over';
+		}
 		aa[i].onmouseout=function() {
+			this.className=this.baseClassName;
+		}
+		aa[i].onblur=function() {
 			this.className=this.baseClassName;
 		}
 	}

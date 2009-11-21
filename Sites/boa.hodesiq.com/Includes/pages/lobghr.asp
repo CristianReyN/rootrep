@@ -14,12 +14,12 @@
 				<td width="100%" valign="top">
 <a name="skipmaincontent"></a><H1 class="hidden">Global Human Resources</H1>
 <% If page_section = "ADA" Then %>
-<!-- #include file="associate/cambra.asp" -->
+<!-- #include file="lob/cambra.asp" -->
 					<div align="right" style="float: right; margin: 0px 0px 0px <%=right_margin_split%>px; padding: 0px; width: 201px;">
 <% End If %>
 <% If page_section <> "ADA" Then %>
 					<div align="right" style="float: right; margin: 0px 0px 0px <%=right_margin_split%>px; padding: 0px; width: 259px;">
-<!-- #include file="associate/cambra.asp" -->
+<!-- #include file="lob/cambra.asp" -->
 <a href="#video" class="hlink">Gretchen Cambra&acute;s Associate Testimonial Video</a>
 <% End If  %>
 <div style="width: 201px; text-align: left; border: 1px solid #e8e8e9; background: #ffffff; margin: 12px 0px 12px 0px; padding: 0px 0px 6px 0px;">
@@ -42,6 +42,62 @@ In addition to advising our clients on a wide variety of topics, the Global Huma
 <p style="margin: 6px 12px 12px <%=left_margin_0%>px;">
 Interested in joining the "World's Most Admired Global Bank"? We invite you to explore career opportunities on our dynamic Human Resources team.
 </p>
+<br>
+<H1 style="margin: 0px <%=right_margin%>px 0px <%=left_margin_0%>px;">Frequently Asked Questions</H1>
+<div style="margin: <% If page_section = "ADA" Then %>12<% Else %>0<%End If%>px <%=right_margin_split%>px 0px <%=left_margin_0%>px; width: <%=(319-right_margin_split-left_margin_0)%>px;">
+<% If page_section <> "ADA" Then %>
+<div id="panswer" style="width: 259px;">
+<img style="margin: 0px;" src="../Includes/pages/lob/thumbnails/ryan_on.jpg" alt="" border="0" align="absmiddle">
+<script language="JavaScript1.2" type="text/javascript">
+	document.write(getHTMLControl("ansvideo",false,false,false,false,false,false));
+</script>
+</div>
+<p style="margin: 6px 0px 0px 0px;">
+Click on question below to play the video responce.
+</p>
+<% End If %>
+<img class="dotdiv" style="margin: 6px 0px 0px 0px;" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
+<p style="margin: 6px 0px 0px 0px;" class="faqpa">
+<b>What are the main areas of GHR at Bank of America?</b>
+<% If page_section <> "ADA" Then %>
+<br><a href="Javascript: vo_id();" onclick="playResponce(this);" class="ip">Play response</a>&nbsp;<a href="Javascript: void();" onclick="playResponce(this);"><img style="margin: 0px 0px 0px 0px;" src="../images/video_off_faq.gif" alt="" border="0" align="absmiddle" class="pai" name="pa1"></a><span class="auraltext"><br class="ryan_a2"></span>
+<% Else %>
+</p>
+<p style="margin: 6px 0px 0px 0px;"><a name="answ2"></a>
+Global Human Resources is comprised of 4 key areas. 
+<br><br>
+Staffing, which is responsible for strategically partnering with the lines of business to identify and attract a diverse talent pipeline. Learning and Leadership Development, whose responsibility includes accelerating the organizational and people capabilities by attracting, developing and retaining world class talent. HR Generalist, who is responsible for strategic planning and execution of effective human resources processes, policies and programs.  And Global Compensation, Benefits & HR Shared Services. Within this last group, the compensation team is responsible for strategic planning, development and execution of all compensation processes and initiatives. The benefits group is responsible for Global Strategy, Design, Full Implementation, Governance and Vendor Relations of all benefit programs. And finally, the HR Shared Services group is responsible for defining, managing and delivering GHR operational processes to ensure best in class experiences.
+<% End If %>
+</p>
+
+<img class="dotdiv" style="margin: 6px 0px 0px 0px;" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
+<p style="margin: 6px 0px 0px 0px;" class="faqpa">
+<b>What kinds of positions are considered part of Global HR?</b>
+<% If page_section <> "ADA" Then %>
+<br><a href="Javascript: vo_id();" onclick="playResponce(this);" class="ip">Play response</a>&nbsp;<a href="Javascript: vo_id();" onclick="playResponce(this);"><img style="margin: 0px 0px 0px 0px;" src="../images/video_off_faq.gif" alt="" border="0" align="absmiddle" class="pai" name="pa2"></a><span class="auraltext"><br class="ryan_a3"></span>
+<% Else %>
+</p>
+<p style="margin: 6px 0px 0px 0px;"><a name="answ3"></a>
+The different positions within HR vary depending on the group.  We look for a variety of skill sets such as: HR subject matter expertise, process design and improvement, project management, change management, vendor relations, data analysis, recruiting and sourcing, people management and strategy development.
+<% End If %>
+</p>
+
+<img class="dotdiv" style="margin: 6px 0px 0px 0px;" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
+<p style="margin: 6px 0px 0px 0px;" class="faqpa">
+<b>What is a typical career path in GHR?</b>
+<% If page_section <> "ADA" Then %>
+<br><a href="Javascript: vo_id();" onclick="playResponce(this);">Play response</a>&nbsp;<a href="Javascript: vo_id();" onclick="playResponce(this);"><img style="margin: 0px 0px 0px 0px;" src="../images/video_off_faq.gif" alt="" border="0" align="absmiddle" class="pai" name="pa3"></a><span class="auraltext"><br class="ryan_a4"></span>
+<% Else %>
+</p>
+<p style="margin: 6px 0px 0px 0px;"><a name="answ4"></a>
+Associates with a proven track record for success have an opportunity to grow into more senior roles within their designated HR space or expand their knowledge into other areas of the organization.  Due to the strategic alignment and business focus of HR, many proven leaders are selected for leadership roles in the businesses they support. Career paths within HR vary depending on associate interests, experience and proven ability.
+<% End If %>
+</p>
+
+<img class="dotdiv" style="margin: 6px 0px 0px 0px;" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
+</div>
+<br><br>
+
 <table cellpadding="2" cellspacing="0" border="0" summary="" style="margin-left: <%=left_margin_0%>px;">
 <!--#include file="../../hot_jobs.asp"-->
 </table>
