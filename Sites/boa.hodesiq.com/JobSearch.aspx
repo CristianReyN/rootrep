@@ -70,10 +70,12 @@
                     <tr><td colspan="3">&nbsp;</td></tr>
                     <tr>
 						<td colspan="3">
-							<table border="0" cellspacing="10" cellpadding="0">
+							<table border="0" cellspacing="0" cellpadding="0">
 								<tr>	
 									<td align="left" valign="top"><asp:PlaceHolder runat="server" ID="phSearch"></asp:PlaceHolder></td>
+									<td width="10">&nbsp;</td>
 									<td align="left" valign="top"><asp:HyperLink runat="server" ID="lnkAdvanceSearch" NavigateUrl="~/AdvanceSearch.aspx" Text="Advanced search" CssClass="p" ToolTip="Advanced search" /></td>
+									<td width="10">&nbsp;</td>
 									<td align="left" valign="top"><asp:HyperLink runat="server" ID="lnkJobCart" NavigateUrl="~/jobcart.aspx" Text="View job cart" CssClass="p" ToolTip="View job cart" /></td>
 								</tr>
 							</table>
