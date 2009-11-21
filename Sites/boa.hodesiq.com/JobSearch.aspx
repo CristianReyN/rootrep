@@ -25,7 +25,6 @@
                                                                     Areas of Talent</label></b></p>
                                                         <asp:DropDownList ID="areasoftalent" runat="server" CssClass="left" Style="width: 100%;
                                                             z-index: auto;" TabIndex="1" ToolTip="Areas Of Talent">
-                                                            <asp:ListItem>All Areas of Talent&#160;</asp:ListItem>
                                                         </asp:DropDownList><br />
                                                         <p style="margin: 0px; text-align: left;">
                                                             <b>
@@ -86,19 +85,19 @@
                                                     </td>
                                                 </tr>
                                             </table>
-                                            <asp:GridView ID="GrdResults" runat="server" Width="554px" AutoGenerateColumns="False" CellPadding="0" GridLines="None" AllowPaging="false" AllowSorting="True" ToolTip="Search Results ">
+                                            <asp:GridView ID="GrdResults" runat="server" Width="554px" AutoGenerateColumns="False" CellPadding="0" GridLines="None" AllowSorting="True" ToolTip="Search Results ">
                                                 <RowStyle BackColor="#CADCEB" Height="10px" />
                                                 <AlternatingRowStyle BackColor="#EAF1F7" Height="10px" />
                                                 <HeaderStyle Height="10px" BackColor="#EAF1F7" />
                                                 <Columns>
-                                                    <asp:HyperLinkField DataNavigateUrlFields="JobsID" DataNavigateUrlFormatString="JobDetails.aspx?SearchPage=Sp&JobId={0}"
-                                                        DataTextField="JobName" HeaderText="JobName">
+                                                    <asp:HyperLinkField DataNavigateUrlFields="JobsID,stateid,cityid,areaoftalent,jfamily,keywords" DataNavigateUrlFormatString="JobDetails.aspx?SearchPage=Sp&amp;JobId={0}&amp;stateid={1}&amp;cityid={2}&amp;areaoftalent={3}&amp;jfamily={4}&amp;keywords={5}"
+                                                        DataTextField="JobName" HeaderText="Job Title">
                                                         <HeaderStyle HorizontalAlign="Left" />
                                                     </asp:HyperLinkField>
                                                     <asp:BoundField DataField="Location" HeaderText="Location" >
                                                         <HeaderStyle HorizontalAlign="Left" />
                                                     </asp:BoundField>
-                                                    <asp:BoundField DataField="Date" HeaderText="Date">
+                                                    <asp:BoundField DataField="postdate" HeaderText="Date">
                                                         <HeaderStyle HorizontalAlign="Left" />
                                                     </asp:BoundField>
                                                 </Columns>
@@ -106,6 +105,7 @@
                                                 <EmptyDataTemplate>
                                                 <b>There are no matching records found</b>
                                                 </EmptyDataTemplate>
+                                                <PagerSettings Mode="NextPrevious" NextPageText="Next" Position="TopAndBottom" PreviousPageText="Previous" />
                                             </asp:GridView><br />
                                             <br />
                                             <br />

@@ -125,20 +125,21 @@ public class Jobs
 
     }
 
-    public DataTable Search(string aot,string Jobfamily,string state,string city,string keywords,int strRec,int endRec)
+    public DataTable Search(int aot,string Jobfamily,int stateid,int cityid,string keywords,int strRec,int endRec)
     {
         DBUtils db;
         try
         {
             
             db = new DBUtils();
-            OleDbCommand cmd = new OleDbCommand("Sp_Career_Sites_select_search_results", db.GetConnection());
+            OleDbCommand cmd = new OleDbCommand("p_boaJobSearch", db.GetConnection());
             cmd.CommandType = CommandType.StoredProcedure;
-            cmd.Parameters.AddWithValue("@State", state);
-            cmd.Parameters.AddWithValue("@City", city);
-            cmd.Parameters.AddWithValue("@Family", Jobfamily);
             cmd.Parameters.AddWithValue("@AreasOfTalent", aot);
+            cmd.Parameters.AddWithValue("@Family", Jobfamily);
+            cmd.Parameters.AddWithValue("@State", stateid);
+            cmd.Parameters.AddWithValue("@City", cityid);
             cmd.Parameters.AddWithValue("@KeyWords", keywords);
+            cmd.Parameters.AddWithValue("@whichtable", Convert.ToInt32(ConfigurationManager.AppSettings["searchtableOne"]));
 
             OleDbDataAdapter da = new OleDbDataAdapter(cmd);
             DataSet ds = new DataSet();

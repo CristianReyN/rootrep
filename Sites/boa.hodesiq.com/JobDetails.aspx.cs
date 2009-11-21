@@ -34,11 +34,11 @@ public partial class JobDetails : System.Web.UI.Page
         }
         if (Request.QueryString["SearchPage"].ToString() == "Sp")
         {
-            returntoJobsearch.NavigateUrl = "jobsearch.aspx";
+            returntoJobsearch.NavigateUrl = "jobsearch.aspx?" + Request.QueryString;
         }
         else
         {
-            returntoJobsearch.NavigateUrl = "AdvanceSearch.aspx";
+            returntoJobsearch.NavigateUrl = "AdvanceSearch.aspx?" + Request.QueryString;
         }
         TellaFriend.NavigateUrl = "Tell_a_friend.aspx?JobId=" + Request.QueryString["JobId"].ToString() + "&SearchPage=" + Request.QueryString["SearchPage"].ToString();
         Jobcart.NavigateUrl = "jobcart.aspx?JobId=" + Request.QueryString["JobId"].ToString() +"&SearchPage="+Request.QueryString["SearchPage"].ToString();

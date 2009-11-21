@@ -31,7 +31,6 @@
                                                     Areas of Talent</label></b></p>
                                         <asp:DropDownList ID="areasoftalent" runat="server" CssClass="left" Style="width: 100%;
                                             z-index: auto;" TabIndex="1" ToolTip="Areas Of Talent">
-                                            <asp:ListItem>All Areas of Talent&#160;</asp:ListItem>
                                         </asp:DropDownList><br />
                                         <p style="margin: 0px; text-align: left;">
                                             <b>

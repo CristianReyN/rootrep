@@ -24,7 +24,7 @@ public class Location
         try
         {
             Sql = string.Empty;
-            Sql = "select distinct city from locations1";
+            Sql = "select distinct cityid, city from locations1";
             db = new DBUtils();
         }
         catch (Exception ex)
@@ -42,7 +42,7 @@ public class Location
         try
         {
             Sql = string.Empty;
-            Sql = "select distinct State from Locations1";
+            Sql = "SELECT DISTINCT State AS State, StateID FROM Locations1 l ORDER BY StateID";
             db = new DBUtils();
         }
         catch (Exception ex)
@@ -52,16 +52,16 @@ public class Location
         return db.GetDataTable(Sql);
     }
 
-    public DataTable StatewiseCity(string StateVal)
+    public DataTable StatewiseCity(int StateVal)
     {
         DBUtils db;
         try
         {
 
             db = new DBUtils();
-            OleDbCommand cmd = new OleDbCommand("Sp_Career_Sites_select_City ", db.GetConnection());
+            OleDbCommand cmd = new OleDbCommand("p_Career_Sites_select_City ", db.GetConnection());
             cmd.CommandType = CommandType.StoredProcedure;
-            cmd.Parameters.AddWithValue("@State", StateVal);
+            cmd.Parameters.AddWithValue("@Stateid", StateVal);
             OleDbDataAdapter da = new OleDbDataAdapter(cmd);
             DataSet ds = new DataSet();
             da.Fill(ds);

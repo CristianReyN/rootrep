@@ -69,7 +69,7 @@ public class AreaofTalent
         try
         {
             Sql = string.Empty;
-            if (TalentVal != "")
+            if (TalentVal != "-1")
             {
                 StrCondation = "where AOT.TalentID=" + TalentVal;
             }
