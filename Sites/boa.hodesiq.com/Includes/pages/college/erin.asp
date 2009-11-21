@@ -6,6 +6,7 @@ ENV = '<% Response.write SITE_U_R_L %>';
 <script language="JavaScript1.2" src="../Includes/pages/college/college.js" type="text/javascript"></script>
 <script language="JavaScript1.2" type="text/javascript">
 if ( hasRequestedVersion ) {
+	document.write('<span class="ada-label">Erin&acute;s Associate Testimonial Video</span>');
 	document.write(Erin_video);
 	document.write(strReplace(strReplace(strReplace(html_control,"<text>","Video transcript"),"<title>","Video transcript"),"<href>","<%=ada_href %>"));
 	createStopAudio();
@@ -14,6 +15,7 @@ if ( hasRequestedVersion ) {
 }
 </script>
 <noscript>
+<span class="ada-label">Erin&acute;s Associate Testimonial Video</span>
 <object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0" width="205" height="131" id="javaflash" align="middle">
 	<param name="wmode" value="transparent">
 	<param name="allowScriptAccess" value="always" />
