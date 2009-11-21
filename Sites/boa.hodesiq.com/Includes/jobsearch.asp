@@ -3,6 +3,12 @@
 <input type="hidden" name="from" id="from" value="<% Response.write page_self %>">
 					<table width="217" cellpadding="0" cellspacing="0" border="0" summary="">
 						<tr>
+							<td colspan="2" style="padding: 0px 6px 0px 12px;">
+<p style="margin: 0px;">To specify a particular Job Family, choose an Area of Talent you are interested in, and then click the Select button.</p>
+<img class="dotdiv" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
+							</td>
+						</tr>
+						<tr>
 							<td nowrap style="padding: 0px 6px 0px 12px;">
 <label for="areasoftalent"><p style="margin: 0px;">Areas of Talent</p></label>
 <select name="areasoftalent" id="areasoftalent" class="right" style="position: relative; width: 100%;">
@@ -48,7 +54,7 @@
 						</tr>						
 						<tr>
 							<td colspan="2" nowrap style="padding: 0px 6px 0px 12px;">
-<p style="margin: 0px;"><label for="keywords">Keywords or Job Number(if known)</label></p>
+<p style="margin: 0px;"><label for="keywords">Keywords or Job Number (if known)</label></p>
 <input type="text" name="keywords" id="keywords" value="<%Response.write keywords%>" style="width: 217px;">
 							</td>
 						</tr>

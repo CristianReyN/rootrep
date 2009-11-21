@@ -4,6 +4,7 @@ title = "Bank of America | Career | Global Locations, Text Only Version"
 mpage = "learnmore"
 spage = "globalloc"
 job_search_action = "../jobsearch/searchresult.asp"
+Metatag="There are links available on this page to the various sites for careers at Bank of America: Asia, Europe, Middle East and Africa, Latin America, European Opportunties, MBNA European Opportunities."
 page_self = "../ada/globalloc.asp"
 page_section="ADA"
 flash = false

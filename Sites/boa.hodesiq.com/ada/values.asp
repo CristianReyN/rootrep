@@ -4,6 +4,7 @@ title = "Bank of America | Career | Workforce Data, Text Only Version"
 mpage = "learnmore"
 spage = "corpinfo"
 job_search_action = "../jobsearch/searchresult.asp"
+Metatag="Information is available on page highlighting the core values of Bank of America."
 page_self = "../ada/values.asp"
 page_section="ADA"
 flash = false

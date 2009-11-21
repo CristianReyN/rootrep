@@ -44,7 +44,7 @@ function hover(ref, classRef) { eval(ref).className = classRef; }
 	function hideFlash(id){if(document.getElementById(id).style.display = 'inline') document.getElementById(id).style.display = 'none';}
 //-->
 </script>
-<% if trim(skipFlash) = "1" then Response.write("<table cellpadding=""0"" cellspacing=""0"" border=""0"" summary=""""><tr><td><a class=""auraltext"" href=""" & ada_href & """ onFocus=""hover(this,'show-tab'); this.focus()"" onblur=""hover(this,'auraltext')"">Low-bandwidth version</a></td></tr></table>")%>
+<% if trim(skipFlash) = "1" then Response.write("<table cellpadding=""0"" cellspacing=""0"" border=""0"" summary=""""><tr><td><a class=""auraltext"" href=""" & ada_href & """ onFocus=""hover(this,'show-tab'); this.focus()"" onblur=""hover(this,'auraltext')"">"&ada_title&"</a></td></tr></table>")%>
 
 <table width="750" cellpadding="0" cellspacing="0" border="0" summary="">
 <tr>
@@ -57,33 +57,33 @@ function hover(ref, classRef) { eval(ref).className = classRef; }
 					<table width="100%" border="0" cellspacing="0" cellpadding="0" summary="">
 						<tr>
 							<td colspan="2" valign="bottom" align="right" nowrap>
-<a href="http://www.bankofamerica.com/index.cfm?page=about" class="mh-link1" title="Home">Home</a>&#160;<span class="linksep1">&#8226;</span>&#160;<a href="http://www.bankofamerica.com/findit/locator.cfm" class="mh-link1" title="Locations">Locations</a>&#160;<span class="linksep1">&#8226;</span>&#160;<a href="http://www.bankofamerica.com/careers/index.cfm?template=contact_us" class="mh-link1" title="Contact Us">Contact Us</a>&#160;<span class="linksep1">&#8226;</span>&#160;<a href="http://www.bankofamerica.com/help" class="mh-link1" title="Help">Help</a>&#160;<span class="linksep1">&#8226;</span>&#160;<a href="http://www.bankofamerica.com/signin/" class="mh-link2" title="Sign In">Sign In</a></td>
+<a href="http://www.bankofamerica.com/index.cfm?page=about" class="mh-link1" title="Home" onfocus="this.className='mh-link1-over';" onblur="this.className='mh-link1';">Home</a>&#160;<span class="linksep1">&#8226;</span>&#160;<a href="http://www.bankofamerica.com/findit/locator.cfm" class="mh-link1" title="Locations" onfocus="this.className='mh-link1-over';" onblur="this.className='mh-link1';">Locations</a>&#160;<span class="linksep1">&#8226;</span>&#160;<a href="http://www.bankofamerica.com/careers/index.cfm?template=contact_us" class="mh-link1" title="Contact Us" onfocus="this.className='mh-link1-over';" onblur="this.className='mh-link1';">Contact Us</a>&#160;<span class="linksep1">&#8226;</span>&#160;<a href="http://www.bankofamerica.com/help" class="mh-link1" title="Help" onfocus="this.className='mh-link1-over';" onblur="this.className='mh-link1';">Help</a>&#160;<span class="linksep1">&#8226;</span>&#160;<a href="http://www.bankofamerica.com/signin/" class="mh-link2" title="Sign In" onfocus="this.className='mh-link2-over';" onblur="this.className='mh-link2';">Sign In</a></td>
 						</tr>
 						<tr><td colspan="2"><img src="../images/clear.gif" width="1" height="3" alt="" border="0" /></td></tr>
 						<tr>
 							<td width="5"><img src="../images/mhd_5x5_search_corner.gif" alt="" width="5" height="5" border="0" /></td>
-							<td width="251" class="mh-hline"><img src="../images/clear.gif" width="1" height="5" alt="" border="0" /></td>
+							<td width="100%" class="mh-hline"><img src="../images/clear.gif" width="1" height="5" alt="" border="0" /></td>
 						</tr>
 						<tr align="right">
-							<td width="5" class="mh-vline"><img src="../images/clear.gif" width="1" height="1" alt="" border="0" /></td>
-							<td width="251" class="mh-hline-bkg" valign="bottom">
-							<form method="post" action="http://www.bankofamerica.com/search/" style="margin: 0px;" name="SiteSearchForm" target="_parent">
-							<input name="ui_mode" type="hidden" value="question">
-								<table width="251" border="0" cellspacing="0" cellpadding="0" summary="SearchBox" align="right">
-									<tr valign="middle">
-										<td><span class="ada-search"><label for="question_box" class="ada-search">Search</label></span></td>
-										<td>
-<input type="text" maxlength="75" class="searchbox" id="question_box" name="question_box" value="" alt="Question or phrase to search." title="Get answers fast. Type in a question or phrase."></td>
-										<td width="5"><img src="../images/clear.gif" width="5" height="0" alt="" border="0" /></td>
-										<td>
+							<td width="5" class="mh-vline"><img src="../images/clear.gif" width="5" height="1" alt="" border="0" /></td>
+							<td width="100%" class="mh-hline-bkg" valign="bottom">
+<form method="post" action="http://www.bankofamerica.com/search/" style="margin: 0px;" name="SiteSearchForm" target="_parent">
+<input name="ui_mode" type="hidden" value="question">
+								<table width="100%" border="0" cellspacing="0" cellpadding="0" summary="SearchBox">
+									<tr>
+										<td width="10"><img src="../images/clear.gif" width="10" height="0" alt="" border="0" /><br><span class="ada-search"><label for="question_box" class="ada-search" style="display: none;">Search</label></span></td>
+										<td width="100%" style="padding: 0px;">
+<input type="text" maxlength="75" class="searchbox" style="width: 100%;" id="question_box" name="question_box" value="" alt="Question or phrase to search." title="Get answers fast. Type in a question or phrase."></td>
+										<td width="10"><img src="../images/clear.gif" width="10" height="0" alt="" border="0" /></td>
+										<td valign="top" nowrap>
 <script language="JavaScript1.1" type="text/javascript">
 <!--
 create_button("Search","javascript:submit_search();","btn1",null,null,null,null);
 //-->
 </script>
-<noscript><input type="submit" name="Search" value="Search" title="Search" alt="Search" class="btn1" ></noscript>
+<noscript><input type="submit" name="Search" value="Search" title="Search" alt="Search" class="btn1"></noscript>
 										</td>
-										<td width="10"><img src="../images/clear.gif" width="10" height="1" alt="" border="0" /></td>
+										<td width="10"><img src="../images/clear.gif" width="10" height="0" alt="" border="0" /></td>
 									</tr>
 								</table>
 </form>

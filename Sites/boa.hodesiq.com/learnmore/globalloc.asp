@@ -7,6 +7,7 @@ ada_href = "../ada/globalloc.asp"
 page_self = "../learnmore/globalloc.asp"
 ada_title = "Bank of America | Career | Global Locations, Text Only Version"
 job_search_action = "../jobsearch/searchresult.asp"
+Metatag="There are links available on this page to the various sites for careers at Bank of America: Asia, Europe, Middle East and Africa, Latin America, European Opportunties, MBNA European Opportunities."
 %>
 <!-- Header -->
 <!-- #include file="../includes/header.asp" -->
@@ -16,7 +17,7 @@ job_search_action = "../jobsearch/searchresult.asp"
 <!-- Left Nav -->
 
 			<tr valign="top"><td style="background: #cadceb;" height="50" valign="bottom" align="right">
-<a href="<%=ada_href %>" title="<%=ada_title %>" class="p2">Text Only Version</a>&nbsp;&nbsp;
+<a href="<%=ada_href %>" title="<%=ada_title %>" class="g" onfocus="this.className='g-over';" onblur="this.className='g';">Text Only Version</a>&nbsp;&nbsp;
 			</td></tr>
 			<tr valign="top"><td style="background: #ececec;" height="50"><img src="../images/clear.gif" width="154" height="1" alt="" border="0"></td></tr>
 			<tr valign="top"><td height="50"><img src="../images/clear.gif" width="154" height="1" alt="" border="0"></td></tr>

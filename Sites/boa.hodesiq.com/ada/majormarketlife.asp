@@ -4,6 +4,7 @@ title = "Bank of America | Career | Life in our Major Markets, Text Only Version
 mpage = "learnmore"
 spage = "benefitsadv"
 job_search_action = "../jobsearch/searchresult.asp"
+Metatag="Primary locations for Bank of America are New York, NY and Charlotte, NC and this page gives a little information on each of the markets."
 page_self = "../ada/majormarketlife.asp"
 page_section="ADA"
 flash = false

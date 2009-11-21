@@ -17,7 +17,7 @@ Metatag="Offered to associates at Bank of America are two plans the 401(K) and P
 <!-- Left Nav -->
 
 			<tr valign="top"><td style="background: #cadceb;" height="50" valign="bottom" align="right">
-<a href="<%=ada_href %>" title="<%=ada_title %>" class="p2">Text Only Version</a>&nbsp;&nbsp;
+<a href="<%=ada_href %>" title="<%=ada_title %>" class="g" onfocus="this.className='g-over';" onblur="this.className='g';">Text Only Version</a>&nbsp;&nbsp;
 			</td></tr>
 			<tr valign="top"><td style="background: #ececec;" height="50"><img src="../images/clear.gif" width="154" height="1" alt="" border="0"></td></tr>
 			<tr valign="top"><td height="50"><img src="../images/clear.gif" width="154" height="1" alt="" border="0"></td></tr>
