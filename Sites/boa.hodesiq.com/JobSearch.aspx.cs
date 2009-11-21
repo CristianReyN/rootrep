@@ -74,4 +74,11 @@ public partial class _Default : System.Web.UI.Page
         City.Items.Insert(0, new ListItem("Select a City", ""));
         City.SelectedIndex = 0;
     }
+    protected void bsearch_Click(object sender, EventArgs e)
+    {
+        Jobs Job = new Jobs();
+        GrdResults.DataSource=Job.Search();
+        GrdResults.DataBind();
+
+    }
 }

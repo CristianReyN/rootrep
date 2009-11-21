@@ -73,7 +73,7 @@
                                                         <asp:Button ID="brefine" runat="server" CssClass="bodybtn" TabIndex="6" Text="Refine Search" OnClick="brefine_Click" />
                                                     </td>
                                                     <td align="right" valign="top">
-                                                        <asp:Button ID="bsearch" runat="server" CssClass="bodybtn" TabIndex="7" Text="Begin Search" />
+                                                        <asp:Button ID="bsearch" runat="server" CssClass="bodybtn" TabIndex="7" Text="Begin Search" OnClick="bsearch_Click" />
                                                     </td>
                                                 </tr>
                                                 <tr>
@@ -86,6 +86,20 @@
                                                     </td>
                                                 </tr>
                                             </table>
+                                            <asp:GridView ID="GrdResults" runat="server" Height="119px" Width="554px" AutoGenerateColumns="False" CellPadding="0" GridLines="None" AllowPaging="True" AllowSorting="True" ToolTip="Search Results ">
+                                                <RowStyle BackColor="#CADCEB" Height="10px" />
+                                                <AlternatingRowStyle BackColor="#EAF1F7" Height="10px" />
+                                                <HeaderStyle Height="10px" BackColor="#EAF1F7" />
+                                                <Columns>
+                                                    <asp:BoundField DataField="Jobs" HeaderText="JobName" >
+                                                        <HeaderStyle HorizontalAlign="Left" />
+                                                    </asp:BoundField>
+                                                    <asp:HyperLinkField DataNavigateUrlFields="Jobs" DataNavigateUrlFormatString="JobDetails.aspx?reqid={0}" DataTextField="Location" HeaderText="Description" >
+                                                        <HeaderStyle HorizontalAlign="Left" />
+                                                    </asp:HyperLinkField>
+                                                </Columns>
+                                                <PagerStyle CssClass="mh-link1" />
+                                            </asp:GridView>
                                         </td>
                                     </tr>
                                 </table>
