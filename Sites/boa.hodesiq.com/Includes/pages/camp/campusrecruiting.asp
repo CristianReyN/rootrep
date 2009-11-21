@@ -2,6 +2,7 @@
 			<tr valign="top"><td colspan="2" valign="top" class="divt"><img src="../images/clear.gif" width="100%" height="4" alt="" border="0"></td></tr>
 			<tr valign="top">
 				<td width="100%" colspan="2" valign="top">
+				<%if page_section <> "ADA" then %>
 				<script language="JavaScript1.2" type="text/javascript">
 //<!--
 function hover(ref, classRef) { eval(ref).className = classRef; }
@@ -34,6 +35,12 @@ if ( hasRequestedVersion ) {
 	<embed src="../images/camp/mks_template_med.swf" quality="high" bgcolor="#ffffff" width="578" height="152" name="mks_template_med" id="mks_template_med" align="middle" allowScriptAccess="sameDomain" allowFullScreen="false" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" wmode="transparent" style="margin: 0px;" /></embed>
 </object>
 </noscript>
+				<%else%>
+<img src="../images/camp/campusrecruiting.jpg" width="578" height="152" alt="Campus Recruiting. Choose. Connect. Grow. Learn more." title="Campus Recruiting. Choose. Connect. Grow. Learn more." border="0" style="margin: 0px;" usemap="#crlearn" />
+<map name="crlearn">
+<area alt="Campus Recruiting. Choose. Connect. Grow. Learn more." title="Campus Recruiting. Choose. Connect. Grow. Learn more." coords="472,122,568,143" href="our_culture.asp">
+</map>
+				<%end if%>
 <div class="hidden">Campus Recruiting. Choose. Connect. Grow. Learn more.</div>
 				</td>
 			</tr>

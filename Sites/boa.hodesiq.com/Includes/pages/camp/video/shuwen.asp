@@ -65,8 +65,9 @@ My team consists of six people and I must say I really love my team a lot.  They
 I think Bank of America has a more open culture.  There's less bureaucracy and a lot more processes are definitely more efficient.  I think there's a lot of accession to senior management.  From the day I stepped in, until now, I believe my knowledge and skills have definitely improved a lot.  I have grown confidence in executing client trades and I'm actually doing client trades on a daily basis.
 <br><br>
 I'm trying to learn more on the derivatives side, the options products, because we do have clients who are interested in the more exotic options so that's why I want to learn more, so that I can hopefully, in the future when I handle these client accounts, I can serve them better.
-</p>
+<br>
 <br>
 <a href="<%= standart_href%>" title="Return to standard page with video" class="bac" onfocus="this.className='p-over';" onblur="this.className='p';">Return to standard page with video</a>
+</p>
 </div>
 <% End If %>
