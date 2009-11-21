@@ -410,7 +410,7 @@ In order to be considered a candidate for this opportunity, you must apply via t
 <%
 				case CANADA
 %>
-In order to be considered a candidate for this opportunity, you must apply via this web site. To <a href="https://apply.ml.com/Students/Login.aspx" target="_blank" title="Apply. Link opens a new window." class="bac">Apply</a>, first sign in as a new or returning user. If you don't have an existing account, you'll need to register as a new user. Then, complete your Candidate Profile and designate your program(s) of interest. Please note that in order for your application to be considered complete, you must reach the final "Thank You" page.
+In order to be considered a candidate for this opportunity, you must apply via this web site. To <a href="https://static.wcn.co.uk/company/ml/apply_now.html" target="_blank" title="Apply. Link opens a new window." class="bac">Apply</a>, first sign in as a new or returning user. If you don't have an existing account, you'll need to register as a new user. Then, complete your Candidate Profile and designate your program(s) of interest. Please note that in order for your application to be considered complete, you must reach the final "Thank You" page.
 <%
 				case else
 			end select
