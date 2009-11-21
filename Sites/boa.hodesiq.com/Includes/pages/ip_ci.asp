@@ -10,7 +10,7 @@ Corporate Debt Products is responsible for managing the Global Corporate Investm
 
 <h2 class="h2" style="margin: 0px;">Overview</h2>
 <p style="margin: 0px 0px 12px 0px;">
-Corporate Debt Associate Interns perform intensive qualitative and quantitative due diligence on industry and company factors, and are additionally responsible for:
+Corporate Debt Products Associate Interns perform intensive qualitative and quantitative due diligence on industry and company factors, and are additionally responsible for:
 </p>
 <ul>
 	<li>Participating in the structuring, underwriting and documentation of syndicated credit facilities designed to meet both client and investor needs</li>

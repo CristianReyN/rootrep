@@ -1,16 +1,16 @@
-		<a name="skipmaincontent"></a><H1 style="margin: 2px 0px 0px 0px;">Corporate Debt Associate</H1>
+		<a name="skipmaincontent"></a><H1 style="margin: 2px 0px 0px 0px;">Corporate Debt Products Associate</H1>
 		<table width="578" cellpadding="0" cellspacing="0" border="0" summary="">
 			<tr valign="top">
 				<td width="373" height="100%" valign="top" style="padding: 6px 5px 0px 12px;">
 <img class="dotdiv" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
 <h2 class="h2" style="margin: 0px;">Our business</h2>
 <p style="margin: 0px 0px 12px 0px;">
-Corporate Debt Products is responsible for managing the Global Corporate Investment Bank's loan and trading portfolios, which includes underwriting, managing and monitoring the credit, market and operational risks within those client relationships. Corporate Debt Products employs a variety of fundamental and technical risk management tools to support Bank of America's commitment to maintaining acceptable levels of credit and trading loss volatility. Debt Products Managers work within the following industry groups: Consumer and Retail, Financial Institutions, Insurance, Gaming, General Industrials, Healthcare, Media and Telecom, Natural Resources, Real Estate, Financial Sponsors and Technology.
+Corporate Debt Products Associate is responsible for managing the Global Corporate Investment Bank's loan and trading portfolios, which includes underwriting, managing and monitoring the credit, market and operational risks within those client relationships. Corporate Debt Products employs a variety of fundamental and technical risk management tools to support Bank of America's commitment to maintaining acceptable levels of credit and trading loss volatility. Debt Products Managers work within the following industry groups: Consumer and Retail, Financial Institutions, Insurance, Gaming, General Industrials, Healthcare, Media and Telecom, Natural Resources, Real Estate, Financial Sponsors and Technology.
 </p>
 
 <h2 class="h2" style="margin: 0px;">Overview</h2>
 <p style="margin: 0px 0px 12px 0px;">
-Corporate Debt Associate perform intensive qualitative and quantitative due diligence on industry and company factors, and are additionally responsible for:
+Corporate Debt Products Associate perform intensive qualitative and quantitative due diligence on industry and company factors, and are additionally responsible for:
 </p>
 <ul>
 	<li>Participating in the structuring, underwriting and documentation of syndicated credit facilities designed to meet both client and investor needs</li>

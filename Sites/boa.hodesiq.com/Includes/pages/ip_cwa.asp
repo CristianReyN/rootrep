@@ -6,10 +6,10 @@
 <h2 class="h2" style="margin: 0px;">Our business</h2>
 <p style="margin: 0px 0px 12px 0px;">
 Corporate Workplace is responsible for a $5.5 Billion annual budget for over 90 million square feet of Bank-owned and occupied facilities worldwide. In support of Bank of America's stated mission to be the "World's Most Admired Company", we charge ourselves with making real estate a differentiating factor for the Bank through cutting-edge initiatives such as the Bank of America Tower at One Bryant Park in NYC, one of the world's most environmentally-friendly skyscrapers; developing flexible work options and continually innovating the workplace environment. Corporate Workplace partners with internal bank clients to craft solutions for project and facilities management, real estate strategy and the acquisition and disposition of space. Corporate Workplace ensures real estate is a competitive advantage at Bank of America. To learn more about Bank of America's commitment to innovation and the environment, visit the following:
+<br><br>
+<a href="http://newsroom.bankofamerica.com/index.php?s=press_kit&item=71" target="_blank" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="Bank of America Tower at One Bryant Park">Bank of America Tower at One Bryant Park</a>
 <br>
-<a href="http://newsroom.bankofamerica.com/index.php?s=press_kit&item=71" target="_blank" class="p" onfocus="this.className='p-over';" onblur="this.className='p';" title="Bank of America Tower at One Bryant Park">Bank of America Tower at One Bryant Park</a>
-<br>
-<a href="http://newsroom.bankofamerica.com/index.php?s=press_releases&item=7697" target="_blank" class="p" onfocus="this.className='p-over';" onblur="this.className='p';" title="Environmental Commitment">Environmental commitment</a>
+<a href="http://newsroom.bankofamerica.com/index.php?s=press_releases&item=7697" target="_blank" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="Environmental Commitment">Environmental commitment</a>
 </p>
 
 <h2 class="h2" style="margin: 0px;">Overview</h2>

@@ -17,7 +17,7 @@
 	<option value="up_gmt.asp"<% If fpage = "up_gmt" Then %> disabled<% End If %>>Global Markets Technology</option>
 </optgroup>
 <optgroup label="Global Risk">
-	<option value="up_dpa.asp"<% If fpage = "up_dpa" Then %> disabled<% End If %>>Debt Products Analyst</option>
+	<option value="up_dpa.asp"<% If fpage = "up_dpa" Then %> disabled<% End If %>>Corporate Debt Products Analyst</option>
 	<option value="up_grmap.asp"<% If fpage = "up_grmap" Then %> disabled<% End If %>>Global Risk Management Associate Program</option>
 	<option value="up_gwimcr.asp"<% If fpage = "up_gwimcr" Then %> disabled<% End If %>>Global Wealth and Investment Management Compliance Risk</option>
 	<option value="up_mrap.asp"<% If fpage = "up_mrap" Then %> disabled<% End If %>>Markets Risk Associate Program</option>
@@ -83,7 +83,7 @@ function none(){}
 	<option value="gp_tmbap.asp"<% If fpage = "gp_tmbap" Then %> disabled<% End If %>>Technology MBA Program</option>
 </optgroup>
 <optgroup label="Global Risk">
-	<option value="gp_dpsa.asp"<% If fpage = "gp_dpsa" Then %> disabled<% End If %>>Corporate Debt Associate</option>
+	<option value="gp_dpsa.asp"<% If fpage = "gp_dpsa" Then %> disabled<% End If %>>Corporate Debt Products Associate</option>
 </optgroup>
 <optgroup label="Global Human Resources">
 	<option value="gp_ldc.asp"<% If fpage = "gp_ldc" Then %> disabled<% End If %>>Leadership Development Consultant</option>
@@ -153,7 +153,7 @@ function none(){}
 	<option value="ip_dpa.asp"<% If fpage = "ip_dpa" Then %> disabled<% End If %>>Debt Products Analyst Intern</option>
 	<option value="ip_grmap.asp"<% If fpage = "ip_grmap" Then %> disabled<% End If %>>Global Risk Management Associate Program Intern</option>
 	<option value="ip_mr.asp"<% If fpage = "ip_mr" Then %> disabled<% End If %>>Markets Risk Intern</option>
-	<option value="ip_dpsa.asp"<% If fpage = "ip_dpsa" Then %> disabled<% End If %>>Corporate Debt Associate Intern</option>
+	<option value="ip_dpsa.asp"<% If fpage = "ip_dpsa" Then %> disabled<% End If %>>Corporate Debt Products Associate Intern</option>
 </optgroup>
 
 
