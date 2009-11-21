@@ -24,7 +24,10 @@ public class DBUtils
         
 
     }
-
+    /// <summary>
+    /// Db Connection String is fetched fro the UDL
+    /// </summary>
+    /// <returns>Connection String</returns>
     private string GetConnectionString()
     {
         try
@@ -44,7 +47,11 @@ public class DBUtils
             throw new Exception(ex.Message);
         }
     }
-
+    /// <summary>
+    /// Fetches  the Data for the given Query and filles the Dataset
+    /// </summary>
+    /// <param name="sql">Sql Query</param>
+    /// <returns>Dataset (Recordset)</returns>
     public DataTable GetDataTable(string sql)
     {
         DataSet ds = new DataSet();

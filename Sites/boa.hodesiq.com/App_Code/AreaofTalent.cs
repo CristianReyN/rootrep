@@ -6,7 +6,7 @@ using System.Web.Security;
 
 
 /// <summary>
-/// Summary description for AreaofTalent
+/// Functions are described here to fetch the values from Db
 /// </summary>
 public class AreaofTalent
 {
@@ -18,6 +18,10 @@ public class AreaofTalent
 		// TODO: Add constructor logic here
 		//
 	}
+    /// <summary>
+    /// This Function is used to fetch the Talents From the areasoftalents table.
+    /// </summary>
+    /// <returns>Dataset Containing TalentId and Talent From Talent Table.</returns>
     public DataTable Talent()
     {
         DBUtils db;
@@ -33,6 +37,11 @@ public class AreaofTalent
         }
         return db.GetDataTable(Sql);
     }
+
+    /// <summary>
+    /// This Function is used to fetch the Jobfamily from the jobfamily table.
+    /// </summary>
+    /// <returns>Dataset containing JobFamilyId and JobFamily</returns>
     public DataTable Jobfamily()
     {
         DBUtils db;
@@ -48,6 +57,12 @@ public class AreaofTalent
         }
         return db.GetDataTable(Sql);
     }
+
+    /// <summary>
+    /// This Function is used to fetch the Jobfamily for the selected Talent.
+    /// </summary>
+    /// <param name="TalentVal">Talent Id </param>
+    /// <returns>Dataset Containing JobFamilyID and JobFamily.</returns>
     public DataTable TalentwiseJobfamily(string TalentVal)
     {
         DBUtils db;
