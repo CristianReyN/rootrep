@@ -13,7 +13,7 @@ The Technology team is divided into three distinct groups, servicing a diverse r
 	<li>The International Treasury and Capital Markets Technology group provides development, maintenance and support of software applications supporting the Global Treasury Services (GTS) as well as other financial businesses.</li>
 </ul>
 <p class="bac">
-In all three areas, we use cutting edge technologies to service activities that make Bank Of America one of the world&apos;s leading providers of Financial Services.
+In all three areas, we use cutting edge technologies to service activities that make Bank Of America one of the world&#39;s leading providers of Financial Services.
 </p>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">

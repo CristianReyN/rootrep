@@ -26,7 +26,7 @@ The Corporate Workplace Analyst, depending on assignment, may take on roles and 
 	<li>Coordinating and analyzing data to support Corporate Workplace initiatives, strategic decisions and other real estate related modeling efforts.</li>
     <li>Applying financial, demographic and modeling tools to aid in the development of real estate portfolio strategies that enhance investment returns and risk levels.</li>
     <li>Conducting research such as, financial performance, supply/demand analysis and rental rate trends.</li>
-    <li>Conducting competitive analysis, ad-hoc reporting and scorecard production to support our client&apos;s goals.</li>  
+    <li>Conducting competitive analysis, ad-hoc reporting and scorecard production to support our client&#39;s goals.</li>  
     <li>Participating in and supporting projects that require cross-divisional coordination, communication, influence and negotiation.  Contributing to the design, development and completion of project deliverables.</li>
     <li>Providing proactive business partnering, improved financial analysis, continued process improvement and achievement of sustainable, consistently defined service levels related to the financial/accounting matters associated with commercial real estate.</li>
 </ul>

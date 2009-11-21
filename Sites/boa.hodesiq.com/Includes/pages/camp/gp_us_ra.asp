@@ -14,7 +14,7 @@
 <p class="bac">Modeling and Analysis</p>
 <ul class="bac">
 <li>Assembling historical financial models on covered companies using SEC filings, company conference calls, and press releases </li>
-<li>Conducting financial, statistical and industry analysis on companies and the industry to support the team&apos;s investment thesis </li>
+<li>Conducting financial, statistical and industry analysis on companies and the industry to support the team&#39;s investment thesis </li>
 <li>Updating financial models regularly and ad hoc</li>
 </ul>
 <p class="bac">Primary Research</p>
@@ -58,7 +58,7 @@
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
 
 <h2 class="bac">Full Time Program</h2>
-<p class="bac">As a Research Associate you will begin your career at Bank of America with an intensive training program. Initially, you will train with your peers from other lines of business. You will then participate in a program designed specifically for Global Markets Associates.  The program is an interactive, experientially based mix of  group projects, elearning, lectures, case studies ,business representative presentations and teambuilding activities which will provide you with a solid grounding in global markets and economics and how Bank of America&apos;s businesses, products and services operate in this global context.  Throughout the program you will have ample opportunity to meet and work with your peers and other colleagues across all levels of the Bank. The network you build during this time will be a tremendous resource to you throughout your career.</p>
+<p class="bac">As a Research Associate you will begin your career at Bank of America with an intensive training program. Initially, you will train with your peers from other lines of business. You will then participate in a program designed specifically for Global Markets Associates.  The program is an interactive, experientially based mix of  group projects, elearning, lectures, case studies ,business representative presentations and teambuilding activities which will provide you with a solid grounding in global markets and economics and how Bank of America&#39;s businesses, products and services operate in this global context.  Throughout the program you will have ample opportunity to meet and work with your peers and other colleagues across all levels of the Bank. The network you build during this time will be a tremendous resource to you throughout your career.</p>
 
 <p class="bac">Research opportunities are available in New York.  The Research team will extend offers by product group – Equity or Debt. Specific industry group assignments are made after initial training and are based on candidate preference and business need.  Throughout the recruiting and orientation process candidates have the opportunity to learn about each group and meet team members.</p>
 

@@ -8,7 +8,7 @@
 The Operations MBA Program gives participants the chance to experience one year rotational assignments in two sub-lines of business within these organizations including but not limited to: Deposits Contact Centers (DCC) and Service &amp; Fulfillment Operations (SFO).
 </p>
 <p class="bac">
-	<b>Deposits Contact Centers (DCC)</b> Associates in DCC provide service and financial solutions to more than 179 million phone customers and 5.1 million e-mail customers each year, making our contact centers among the busiest in the country. In addition to our associates servicing our customer&apos;s needs, our voice response units (VRU) can answer account inquiries, and in 2005, the VRUs handled more than 568 million phone calls.  
+	<b>Deposits Contact Centers (DCC)</b> Associates in DCC provide service and financial solutions to more than 179 million phone customers and 5.1 million e-mail customers each year, making our contact centers among the busiest in the country. In addition to our associates servicing our customer&#39;s needs, our voice response units (VRU) can answer account inquiries, and in 2005, the VRUs handled more than 568 million phone calls.  
 </p>
 <p class="bac">
 	<b>Service and Fulfillment Operations (SFO)</b> Associates in SFO perform processing services for Bank of America customer households and businesses. These processing services include check processing, statement rendering, cash vault, banking center operations and lockbox services.  Key SFO accomplishments include: 

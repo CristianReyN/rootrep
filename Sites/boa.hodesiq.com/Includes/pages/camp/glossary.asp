@@ -11,7 +11,7 @@
 <h2 class="bacg">Associate</h2><p class="bacg">&nbsp;-&nbsp;An entry-level position for advanced degree graduates in the Global Corporate and Investment Banking group at Bank of America.  An employee of Bank of America, also interchangeable with colleague. (Note: when using this definition, the "-a" is lowercase.)</p>
 
 <img src="../images/clear.gif" width="100%" height="15" alt="" border="0" />
-<h2 class="bacg">BAC</h2><p class="bacg">&nbsp;-&nbsp;Bank of America Corporation (NYSE: BAC), one of the world&apos;s largest financial institutions, serving individual consumers, small and middle market businesses and large corporations with a full range of banking, investing, asset management and other financial products and services. BAC holds more than $1,000 billion in assets, over 200,000 associates, and offices in 35 countries serving clients in more than 175 countries. Bank of America offers extensive consumer banking services as well as global corporate and investment services through its subsidiary, Banc of America Securities.
+<h2 class="bacg">BAC</h2><p class="bacg">&nbsp;-&nbsp;Bank of America Corporation (NYSE: BAC), one of the world&#39;s largest financial institutions, serving individual consumers, small and middle market businesses and large corporations with a full range of banking, investing, asset management and other financial products and services. BAC holds more than $1,000 billion in assets, over 200,000 associates, and offices in 35 countries serving clients in more than 175 countries. Bank of America offers extensive consumer banking services as well as global corporate and investment services through its subsidiary, Banc of America Securities.
 </p>
 
 <img src="../images/clear.gif" width="100%" height="15" alt="" border="0" />

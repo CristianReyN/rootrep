@@ -13,7 +13,7 @@
 		<table width="578" cellpadding="0" cellspacing="0" border="0" summary="">
 			<tr valign="top">
 				<td width="393" height="100%" valign="top" style="<%=middle_content_padding%>">
-<h2 class="bach">It&apos;s where you belong.</h2>
+<h2 class="bach">It&#39;s where you belong.</h2>
 <p class="bac">
 At a company with our scale and reach, your biggest challenge from the start will be sorting through your options. Which role is the best match for your skills and interests today &mdash; and has the most opportunity for where you want your career to grow tomorrow? 
 </p>

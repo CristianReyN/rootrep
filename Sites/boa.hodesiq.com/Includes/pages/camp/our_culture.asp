@@ -13,7 +13,7 @@
 		<table width="578" cellpadding="0" cellspacing="0" border="0" summary="">
 			<tr valign="top">
 				<td width="393" height="100%" valign="top" style="<%=middle_content_padding%>">
-<H2 class="bach">It&apos;s all about options.</H2>
+<H2 class="bach">It&#39;s all about options.</H2>
 
 <img src="../images/clear.gif" width="100%" height="12" alt="" border="0" />
 <H3 class="bacg">Choose.</H3><p class="bacg">&nbsp;Thanks to our size and global reach, Bank of America can offer a depth and breadth of opportunity that can keep pace with your evolving skills and interests. Your biggest challenge here will be sorting through your options.</p>
@@ -22,7 +22,7 @@
 <H3 class="bacg">Connect.</H3><p class="bacg">&nbsp;We never forget that our people are responsible for our success in the first place. As a result, the caliber of our team lends itself to unparalleled mentorship and networking opportunities for you.</p>
 
 <img src="../images/clear.gif" width="100%" height="12" alt="" border="0" />
-<H3 class="bacg">Grow.</H3><p class="bacg">&nbsp;When it comes to career development, our training &mdash; combined with your experience and performance &mdash; help you get where you're going. At the end of the day, it&apos;s our job to give you the freedom to choose your own path, responsibility enough to stay challenged, and the support you need to grow. And it&apos;s your job to keep raising the bar on what you think is possible.</p>
+<H3 class="bacg">Grow.</H3><p class="bacg">&nbsp;When it comes to career development, our training &mdash; combined with your experience and performance &mdash; help you get where you're going. At the end of the day, it&#39;s our job to give you the freedom to choose your own path, responsibility enough to stay challenged, and the support you need to grow. And it&#39;s your job to keep raising the bar on what you think is possible.</p>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
 

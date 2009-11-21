@@ -5,7 +5,7 @@
 <a name="skipmaincontent"></a><h1 class="bac">Corporate Debt Products Summer Analyst Program</h1>
 <h2 class="bac">Our Business</h2>
 <p class="bac">
-Corporate Debt Products is responsible for managing the Global Corporate Investment Bank&apos;s loan and trading portfolios, which includes underwriting, managing and monitoring the credit, market and operational risks within those client relationships. Corporate Debt Products employs a variety of fundamental and technical risk management tools to support Bank of America’s commitment to maintaining acceptable levels of credit and trading loss volatility.   Corporate Debt Products Managers work within the following industry groups: Consumer &amp; Retail, Insurance, Gaming, General Industrials, Healthcare, Media &amp; Telecom, Natural Resources, Real Estate, Financial Sponsors, Sports, Restaurants, and Technology.</p>
+Corporate Debt Products is responsible for managing the Global Corporate Investment Bank&#39;s loan and trading portfolios, which includes underwriting, managing and monitoring the credit, market and operational risks within those client relationships. Corporate Debt Products employs a variety of fundamental and technical risk management tools to support Bank of America’s commitment to maintaining acceptable levels of credit and trading loss volatility.   Corporate Debt Products Managers work within the following industry groups: Consumer &amp; Retail, Insurance, Gaming, General Industrials, Healthcare, Media &amp; Telecom, Natural Resources, Real Estate, Financial Sponsors, Sports, Restaurants, and Technology.</p>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
 

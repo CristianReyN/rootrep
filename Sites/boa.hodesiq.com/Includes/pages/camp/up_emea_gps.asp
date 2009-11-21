@@ -27,7 +27,7 @@ In order to achieve these goals, Analysts will typically be responsible for the 
 <ul class="bac">
 	<li>Establishing an excellent relationship with clients and prospective clients. Often being the first point of contact for client queries.</li>
 	<li>Taking part in client / prospective client visits to grow and win new business. Preparing - and eventually delivering - proposals and presentations to clients. Please note that occasional travel will be required.</li>
-	<li>When new business is won, ensuring an effective hand over process to the Bank&apos;s Implementation team. Maintaining contact through the implementation process to ensure that the client&apos;s needs are being met.</li>
+	<li>When new business is won, ensuring an effective hand over process to the Bank&#39;s Implementation team. Maintaining contact through the implementation process to ensure that the client&#39;s needs are being met.</li>
 	<li>Having the drive and tenacity to follow up client calls with the necessary administration to achieve efficient client service. This will involve tasks such as maintaining and updating client billing spreadsheets and populating regulatory documentation.</li>
 </ul>
 

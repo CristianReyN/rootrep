@@ -12,7 +12,7 @@ Global Marketing &amp; Corporate Affairs is responsible for understanding market
 Specific responsibilities include:
 </p>
 <ul>
-	<li>Support marketing programs that  provide client-facing associates with marketing content that reflects the entity&apos;s value proposition and can support meaningful contact opportunities to acquire and deepen client relationships</li>
+	<li>Support marketing programs that  provide client-facing associates with marketing content that reflects the entity&#39;s value proposition and can support meaningful contact opportunities to acquire and deepen client relationships</li>
 	<li>Develop and execute strategic client communications that support specific client segment strategies through physical and electronic channels</li>
 	<li>Closely partner with line of business marketing and cross-functional business partners to implement and maintain programs that deliver against acquisition, retention and relationship deepening goals while adhering to current brand guidelines and compliance requirements</li>
 	<li>Manage external creative agencies and provide continuous guidance over the creative development process for existing and new collateral</li>

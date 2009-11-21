@@ -20,7 +20,7 @@
 <% If page_section <> "ADA" Then %>
 					<div align="right" style="float: right; margin: 0px 0px 0px <%=right_margin_split%>px; padding: 0px; width: 259px;">
 <!-- #include file="lob/jeremy.asp" -->
-<a href="#video" class="hlink">Jeremy&apos;s Associate Testimonial Video</a>
+<a href="#video" class="hlink">Jeremy&#39;s Associate Testimonial Video</a>
 <% End If  %>
 <div style="width: 201px; text-align: left; border: 1px solid #e8e8e9; background: #ffffff; margin: 12px 0px 12px 0px; padding: 0px 0px 6px 0px;">
 	<H2 class="g" style="margin: 0px 0px 0px 0px;">Guided Job Search</H2>
@@ -98,7 +98,7 @@ Global Wealth and Investment Management (GWIM) earned 2.4 billion in net income 
 <% Else %>
 </p>
 <p style="margin: 6px 0px 0px 0px;"><a name="answ3"></a>
-Career opportunities vary by discipline and management structure.  Global Wealth &amp; Investment Management strives to provide challenging and development-focused career paths to associates throughout their careers.  We enable those joining earlier in their careers to grow and assume new responsibilities, while offering associates at more senior levels the opportunity to leverage their proven skills and experience in addressing new challenges.  Associates can expect to move to different roles and responsibilities periodically as their manager offers new developmental assignments and recognizes their proven capabilities.  Associates have the opportunity to experience these new career opportunities and development assignments across all five lines of business within GWIM which are: Premier Banking and Investments, US Trust Bank&nbsp;of&nbsp;America Private Wealth Management Group, Columbia Management, Bank&nbsp;of&nbsp;America Retirement, and Client Solutions, and Alternative Investments.  The frequency of that movement depends on an individual&apos;s overall contributions and performance and the availability of the right career advancement role.
+Career opportunities vary by discipline and management structure.  Global Wealth &amp; Investment Management strives to provide challenging and development-focused career paths to associates throughout their careers.  We enable those joining earlier in their careers to grow and assume new responsibilities, while offering associates at more senior levels the opportunity to leverage their proven skills and experience in addressing new challenges.  Associates can expect to move to different roles and responsibilities periodically as their manager offers new developmental assignments and recognizes their proven capabilities.  Associates have the opportunity to experience these new career opportunities and development assignments across all five lines of business within GWIM which are: Premier Banking and Investments, US Trust Bank&nbsp;of&nbsp;America Private Wealth Management Group, Columbia Management, Bank&nbsp;of&nbsp;America Retirement, and Client Solutions, and Alternative Investments.  The frequency of that movement depends on an individual&#39;s overall contributions and performance and the availability of the right career advancement role.
 <br><br>
 <a href="<%= standart_href%>" title="Return to standard page with video" class="p" onfocus="this.className='p-over';" onblur="this.className='p';">Return to standard page with video</a>
 <% End If %>

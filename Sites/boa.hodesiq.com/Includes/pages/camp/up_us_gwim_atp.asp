@@ -18,7 +18,7 @@ Premier Banking &amp; Investments delivers tailored banking and investment solut
 U.S. Trust, Bank of America Private Wealth Management provides integrated wealth-management solutions to high-net-worth individuals, middle-market institutions and charitable organizations with investable assets greater than $3 million. U.S. Trust, Bank of America Private Wealth Management provides credit, deposit, investment and trust services as well as specialty asset management services.
 </p>
 <p class="bac">
-Columbia Management, Bank of America&apos;s asset management organization, provides investment management solutions to institutional clients and individual investors. These include separately managed accounts, liquidity strategies, and mutual funds across a variety of investment disciplines within equities, fixed income (taxable and nontaxable) and cash (taxable and nontaxable).
+Columbia Management, Bank of America&#39;s asset management organization, provides investment management solutions to institutional clients and individual investors. These include separately managed accounts, liquidity strategies, and mutual funds across a variety of investment disciplines within equities, fixed income (taxable and nontaxable) and cash (taxable and nontaxable).
 </p>
 <p class="bac">
 GWIM Alternative Investments is responsible for alternative investment solutions for high net worth, endowment, foundation, pension fund and institutional clients, and currently oversees approximately $6 billion in client assets.

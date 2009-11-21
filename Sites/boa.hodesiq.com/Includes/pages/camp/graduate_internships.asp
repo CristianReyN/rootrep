@@ -59,7 +59,7 @@ tabs[tab-1].coremetrics = true;
 				<td width="100%" valign="top"><% If page_section <> "ADA" Then %><H2 class="hidden">Graduate Internships U.S.</H2><% End If %>
 <div id="dt1" style="display: <% If tab = 1 Or page_section = "ADA" Then %>inline<% Else %>none<% End If %>;">
 	<div class="innerTab">
-		<p class="bacb">Corporate Staff and Support</p>
+		<H3 class="bac" style="margin-top: 15px;">Corporate Staff and Support</H3>
 		<ul class="bac">
 			<li><a href="gi_us_cw_mba_sai.asp" class="bac">Corporate Workplace MBA Senior Analyst Internship</a></li>
 			<li><a href="gi_us_ghrldpi.asp" class="bac">Global Human Resources Leadership and Development Program - Internship</a></li>
@@ -67,13 +67,13 @@ tabs[tab-1].coremetrics = true;
 			<li><a href="gi_us_qp_mba_ci.asp" class="bac">Quality and Productivity MBA Consultant Internship</a></li>
 			<li><a href="gi_us_tmba_ip.asp" class="bac">Technology MBA Intern Program</a></li>
 		</ul>
-		<p class="bacb">Global Consumer and Small Business Banking</p>
+		<H3 class="bac" style="margin-top: 15px;">Global Consumer and Small Business Banking</H3>
 		<ul class="bac">
 			<li><a href="gi_us_bccma_mba_ldi.asp" class="bac">Banking Center Channel Market Manager MBA Leadership Development Intern</a></li>
 			<li><a href="gi_us_gcsbbpi.asp" class="bac">Global Consumer and Small Business Banking Product Intern</a></li>
 			<li><a href="gi_us_omba_ip.asp" class="bac">Operations MBA Internship Program</a></li>
 		</ul>
-		<p class="bacb">Global Corporate and Investment Banking</p>
+		<H3 class="bac" style="margin-top: 15px;">Global Corporate and Investment Banking</H3>
 		<ul class="bac">
 			<li><a href="gi_us_cmsa.asp" class="bac">Capital Markets Summer Associate</a></li>
 			<li><a href="gi_us_cdpsap.asp" class="bac">Corporate Debt Products Summer Associate Program</a></li>
@@ -126,7 +126,7 @@ tabs[tab-1].coremetrics = true;
 		<% Else %><H2 class="hidden">Graduate Internships EMEA</H2><% End If %>
 <div id="dt2" style="display: <% If tab = 2 Or page_section = "ADA" Then %>inline<% Else %>none<% End If %>;">
 	<div class="innerTab">
-		<p class="bacb">Global Corporate and Investment Banking</p>
+		<H3 class="bac" style="margin-top: 15px;">Global Corporate and Investment Banking</H3>
 		<ul class="bac">
 			<li><a href="gi_emea_cm.asp" class="bac">Capital Markets</a></li>
 			<li><a href="gi_emea_gib.asp" class="bac">Global Investment Banking</a></li>

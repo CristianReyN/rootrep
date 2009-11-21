@@ -43,7 +43,7 @@ if ( hasRequestedVersion ) {
 		<table width="578" cellpadding="0" cellspacing="0" border="0" summary="">
 			<tr><td valign="top"><img src="../images/clear.gif" width="100%" height="<%=(top_content_padding_bottom+3)%>" alt="" border="0"><br /></td>
 				<%if page_section = "ADA" then %>
-			<td align="right" valign="top" style="padding-top: 2px;"><a href="<%= standart_href%>" title="Return to standard page with video" class="bac" onfocus="this.className='p-over';" onblur="this.className='p';">Return to standard page with video</a></td>
+			<td align="right" valign="top" style="padding-top: 2px;"><a href="<%= standart_href%>" title="Return to standard page with video" class="bac" onfocus="this.className='p-over';" onblur="this.className='p';">Return to standard page with flash</a></td>
 				<%end if%>
 			</tr>
 		</table>

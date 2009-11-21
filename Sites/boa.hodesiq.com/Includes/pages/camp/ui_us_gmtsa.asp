@@ -5,7 +5,7 @@
 <a name="skipmaincontent"></a><h1 class="bac">Global Markets Technology Summer Analyst</h1>
 <h2 class="bac">Our Business</h2>
 <p class="bac">
-Bank of America&apos;s Global Markets technology teams partner with our Global Markets, Corporate Treasury and Corporate Investments Groups to develop leading-edge applications supporting the entire range of Our Business activities - from client-facing sales and trading applications to security analytics, risk management, trade processing, management reporting, reference and market data, and customer relationship management.  Our teams work very closely with Our Business partners, developing strategies and delivering solutions that are integral to the day-to-day running of Our Business.
+Bank of America&#39;s Global Markets technology teams partner with our Global Markets, Corporate Treasury and Corporate Investments Groups to develop leading-edge applications supporting the entire range of Our Business activities - from client-facing sales and trading applications to security analytics, risk management, trade processing, management reporting, reference and market data, and customer relationship management.  Our teams work very closely with Our Business partners, developing strategies and delivering solutions that are integral to the day-to-day running of Our Business.
 </p>
 <p class="bac">
 There are five job profiles for a Global Markets technology summer analyst:

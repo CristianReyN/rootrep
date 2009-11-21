@@ -4,7 +4,7 @@
 				<td width="393" height="100%" valign="top" style="<%=middle_content_padding%>">
 <a name="skipmaincontent"></a><h1 class="bac">The Environment</h1>
 <p class="bac">
-Everybody&apos;s talking about going green. We're actually doing it. Bank of America&apos;s commitment to the environment is as big as helping commercial clients finance the use and production of green products and technologies, as small as promoting online banking or encouraging associates to recycle and everywhere in between.
+Everybody&#39;s talking about going green. We're actually doing it. Bank of America&#39;s commitment to the environment is as big as helping commercial clients finance the use and production of green products and technologies, as small as promoting online banking or encouraging associates to recycle and everywhere in between.
 </p>
 <p class="bac">
 Taking responsibility for our impact on the environment is more than just the right thing to do. It reflects the will of our customers and shareholders, and it makes our forward-thinking associates genuinely proud to be a part of the solution.

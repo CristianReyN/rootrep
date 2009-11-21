@@ -191,7 +191,7 @@
 			</tr>
 			<tr>
 				<td align="right" colspan="3" style="padding-top: 6px;">
-<a href="<%= standart_href%>" title="Return to standard page with video" class="bac" onfocus="this.className='p-over';" onblur="this.className='p';">Return to standard page with video</a>
+<a href="<%= standart_href%>" title="Return to standard page with video" class="bac" onfocus="this.className='p-over';" onblur="this.className='p';">Return to standard page with flash</a>
 			</tr>
 		</table>
 </form>

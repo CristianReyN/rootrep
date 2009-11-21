@@ -19,7 +19,7 @@ As a Sales associate, you will be responsible for building and maintaining relat
 
 <p class="bac">
 <b>Trading</b><br>
-As a Trading associate, you will help senior traders make markets, manage the Bank&apos;s capital and partner with Sales to deliver exceptional trade execution to our clients.  </p>
+As a Trading associate, you will help senior traders make markets, manage the Bank&#39;s capital and partner with Sales to deliver exceptional trade execution to our clients.  </p>
 <p class="bac">As a Trading professional you will focus on a specific product line and/or industry sector. Our <u>Debt product areas</u> include Interest Rate Products, Foreign Exchange, Commodities, Investment Grade, Leverage Finance, Mortgage and Asset Backed Products, as well as Structured Securities.  Our <u>Equity product areas</u> include Listed, Over-the-Counter and Derivative Securities.   Bank of America Securities covers a wide array of industry sectors in both the Debt and Equity markets.</p>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
@@ -46,7 +46,7 @@ Associates are called on to:
 
 <h2 class="bac">Full Time Program</h2>
 <p class="bac">Full Time offers are made for a specific office location and product desk based on candidate preference and business needs.
-<p class="bac">As a Sales and Trading Associate you will begin your career at Bank of America with an intensive training program. Initially, you will train with your peers from other lines of business. You will then participate in a program designed specifically for Global Markets Associates.   The program is an interactive, experientially based mix of  group projects, elearning, lectures, case studies, business representative presentations and teambuilding activities which will provide you with a solid grounding in global markets and economics and how Bank of America&apos;s businesses, products and services operate in this global context.  Throughout the program you will have ample opportunity to meet and work with your peers and other colleagues across all levels of the Bank. The network you build during this time will be a tremendous resource to you throughout your career.</p>
+<p class="bac">As a Sales and Trading Associate you will begin your career at Bank of America with an intensive training program. Initially, you will train with your peers from other lines of business. You will then participate in a program designed specifically for Global Markets Associates.   The program is an interactive, experientially based mix of  group projects, elearning, lectures, case studies, business representative presentations and teambuilding activities which will provide you with a solid grounding in global markets and economics and how Bank of America&#39;s businesses, products and services operate in this global context.  Throughout the program you will have ample opportunity to meet and work with your peers and other colleagues across all levels of the Bank. The network you build during this time will be a tremendous resource to you throughout your career.</p>
 
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">

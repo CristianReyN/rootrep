@@ -20,7 +20,7 @@
 <% If page_section <> "ADA" Then %>
 					<div align="right" style="float: right; margin: 0px 0px 0px <%=right_margin_split%>px; padding: 0px; width: 259px;">
 <!-- #include file="lob/cambra.asp" -->
-<a href="#video" class="hlink">Gretchen Cambra&apos;s Associate Testimonial Video</a>
+<a href="#video" class="hlink">Gretchen Cambra&#39;s Associate Testimonial Video</a>
 <% End If  %>
 <% If spage = "humanresources" Then %>
 <div style="width: 201px; text-align: left; border: 1px solid #e8e8e9; background: #ffffff; margin: 12px 0px 12px 0px; padding: 0px 0px 6px 0px;">
@@ -47,7 +47,7 @@ At Bank&nbsp;of&nbsp;America, we understand that the success of an organization 
 <br><br>
 In addition to advising our clients on a wide variety of topics, the Global Human Resources team helps the company deliver a higher standard of benefits, work/life commitment and satisfaction to our over 200,000 associates world-wide. Our Global Human Resources associates must display strong business acumen, relationship building and strategic partnership and execution across several businesses.
 <br><br>
-Interested in joining the "World&apos;s Most Admired Global Bank"? We invite you to explore career opportunities on our dynamic Human Resources team.
+Interested in joining the "World&#39;s Most Admired Global Bank"? We invite you to explore career opportunities on our dynamic Human Resources team.
 </p>
 <br>
 <H1 style="margin: 0px <%=right_margin%>px 9px <%=left_margin_0%>px; width: <%=(315-right_margin_split-left_margin_0)%>px;">Frequently Asked Questions</H1>

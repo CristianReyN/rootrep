@@ -24,7 +24,7 @@ SFO is part of the Global Technology &amp; Operations Organization.
 </p>
 <p class="bac">
 <b>Deposits Contact Centers (DCC)</b><br>
-Associates in DCC provide service and financial solutions to more than 179 million phone customers and 5.1 million e-mail customers each year, making our contact centers among the busiest in the country. In addition to our associates servicing our customer&apos;s needs, our voice response units (VRU) can answer account inquiries, and in 2005, the VRUs handled more than 568 million phone calls.  DCC is part of the Global Consumer &amp; Small Business Banking organization.
+Associates in DCC provide service and financial solutions to more than 179 million phone customers and 5.1 million e-mail customers each year, making our contact centers among the busiest in the country. In addition to our associates servicing our customer&#39;s needs, our voice response units (VRU) can answer account inquiries, and in 2005, the VRUs handled more than 568 million phone calls.  DCC is part of the Global Consumer &amp; Small Business Banking organization.
 </p>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">

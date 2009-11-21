@@ -20,7 +20,7 @@
 <% If page_section <> "ADA" Then %>
 					<div align="right" style="float: right; margin: 0px 0px 0px <%=right_margin_split%>px; padding: 0px; width: 259px;">
 <!-- #include file="associate/chen.asp" -->
-<a href="#video" class="hlink">Rich Chen&apos;s Associate Testimonial Video</a>
+<a href="#video" class="hlink">Rich Chen&#39;s Associate Testimonial Video</a>
 <% End If  %>
 <div style="width: 201px; text-align: left; border: 1px solid #e8e8e9; background: #ffffff; margin: 12px 0px 12px 0px; padding: 0px 0px 6px 0px;">
 <H2 class="g" style="margin: 0px 0px 0px 0px;">Career Opportunities</H2>
@@ -65,11 +65,11 @@ Corporate Treasury is responsible for interest rate risk analysis, managing the 
 <br><br>
 <b>Corporate Investments</b>
 <br><br>
-Corporate Investments manages the bank&apos;s diversified financial portfolio through quantitative analysis and modeling to support management of the company&apos;s market and interest rate risk exposure.
+Corporate Investments manages the bank&#39;s diversified financial portfolio through quantitative analysis and modeling to support management of the company&#39;s market and interest rate risk exposure.
 <br><br>
 <b>Investor Relations</b>
 <br><br>
-Investor Relations is the contact for analysts and investors and is responsible for implementing a comprehensive investor relations program designed to improve the company&apos;s stock valuation.
+Investor Relations is the contact for analysts and investors and is responsible for implementing a comprehensive investor relations program designed to improve the company&#39;s stock valuation.
 </p>
 <H2 class="h2" style="margin: 12px <%=right_margin%>px 2px <%=left_margin_0%>px;">New Opportunities</H2>
 <table cellpadding="2" cellspacing="0" border="0" summary="" style="margin-left: <%=left_margin_0%>px;">

@@ -11,7 +11,7 @@ Global Wealth &amp; Investment Management provides comprehensive banking and inv
 <br><br>
 <u>U.S. Trust, Bank of America Private Wealth Management</u> provides integrated wealth-management solutions to high-net-worth individuals, middle-market institutions and charitable organizations with investable assets greater than $3 million. 
 <br><br>
-<u>Columbia Management</u>, Bank of America&apos;s asset management organization, provides investment management solutions to institutional clients and individual investors. These include separately managed accounts, liquidity strategies, and mutual funds across a variety of investment disciplines within equities, fixed income (taxable and nontaxable) and cash (taxable and nontaxable). 
+<u>Columbia Management</u>, Bank of America&#39;s asset management organization, provides investment management solutions to institutional clients and individual investors. These include separately managed accounts, liquidity strategies, and mutual funds across a variety of investment disciplines within equities, fixed income (taxable and nontaxable) and cash (taxable and nontaxable). 
 <br><br>
 <u>GWIM Alternative Investments</u> is responsible for alternative investment solutions for high net worth, endowment, foundation, pension fund and institutional clients, and currently oversees approximately $6 billion in client assets. 
 <br><br>

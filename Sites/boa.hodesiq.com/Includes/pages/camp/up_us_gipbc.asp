@@ -25,7 +25,7 @@ The Information Security Engineer Analyst responsibilities, depending on assignm
 </p>
 <ul class="bac">
 	<li>Supports daily operational aspects of information security &amp; directory technology systems (software &amp; hardware).</li>
-    <li>Utilizes technical knowledge and business requirements to design secure business driven solutions to meet customer / client needs while protecting the Bank&apos;s assets.</li> 
+    <li>Utilizes technical knowledge and business requirements to design secure business driven solutions to meet customer / client needs while protecting the Bank&#39;s assets.</li> 
     <li>Contributes to the development of security standards, procedures, and guidelines for multiple platforms and diverse environment (e.g. client server, distributed, mainframe, etc.).</li> 
     <li>Works with senior staff &amp; team manager to determine methods, techniques, and evaluation criteria for obtaining results.</li> 
 </ul>

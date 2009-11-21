@@ -38,7 +38,7 @@ Candidates must demonstrate a combination of academic aptitude, quantitative ski
 
 <h2 class="bac">Training</h2>
 <p class="bac">
-Bank of America&apos;s summer analyst programme is the ideal opportunity to gain an introduction into the world of technology. The 10-week programme kicks off with an induction week covering core skills before you hit your desk where you will work along side our fulltime associates.  Throughout the summer, as well as receiving support from your line manager, HR and a buddy, you will also experience a number of social and educational events giving you a great insight into Bank of America. If you perform well over the summer, you may go back to university with a job offer for the following year enabling you to truly focus on your studies.
+Bank of America&#39;s summer analyst programme is the ideal opportunity to gain an introduction into the world of technology. The 10-week programme kicks off with an induction week covering core skills before you hit your desk where you will work along side our fulltime associates.  Throughout the summer, as well as receiving support from your line manager, HR and a buddy, you will also experience a number of social and educational events giving you a great insight into Bank of America. If you perform well over the summer, you may go back to university with a job offer for the following year enabling you to truly focus on your studies.
 </p>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">

@@ -162,7 +162,7 @@ tabs[tab-1].coremetrics = true;
 		<% Else %><H2 class="hidden">Internships EMEA</H2><% End If %>
 <div id="dt2" style="display: <% If tab = 2 Or page_section = "ADA" Then %>inline<% Else %>none<% End If %>;">
 	<div class="innerTab">
-		<p class="bac">Bank of America&apos;s summer analyst programme is the ideal opportunity to gain an introduction into the world of banking. The 10-week programme kicks off with an induction week covering core skills before you hit your desk where you will work along side our fulltime associates gaining valuable work experience in the financial industry.</p>
+		<p class="bac">Bank of America&#39;s summer analyst programme is the ideal opportunity to gain an introduction into the world of banking. The 10-week programme kicks off with an induction week covering core skills before you hit your desk where you will work along side our fulltime associates gaining valuable work experience in the financial industry.</p>
 
 		<p class="bac">Throughout the summer, as well as receiving support from your line manager, HR and a buddy, you will also experience a number of social and educational events giving you a great insight into Bank of America.  There will be an opportunity to receive formal feedback in the middle and at the end of your internship.</p>
 

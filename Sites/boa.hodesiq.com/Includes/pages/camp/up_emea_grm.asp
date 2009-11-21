@@ -19,9 +19,9 @@ Graduates will work in either the Financial Institutions Risk Management or the 
 	<li>Participating in structuring, underwriting and documentation of syndicated credit facilities</li>
 	<li>Researching, writing and presenting financial industry analyses supporting company and portfolio decisions</li>
 	<li>Evaluating transaction and relationship risk-adjusted profitability to facilitate the allocation of capital</li>
-	<li>Monitoring the bank&apos;s credit exposure to its clients across international networks, including periodically reassessing internally-assigned risk ratings</li>
-	<li>Financial Institutions Risk Management: Managing the bank&apos;s credit risk exposures arising from its trading operations. Products traded include credit, interest rates, foreign exchange and equities, together with a wide range of derivative products on these asset classes.</li>
-	<li>Global Markets Risk Management: Managing the bank&apos;s market risk exposures arising from its trading operations. Products traded include credit, interest rates, foreign exchange and equities, together with a wide range of derivative products on these asset classes and combinations of these asset classes. Analysis covers the production of Value at Risk, stress and various other risk metrics used in the management of the trading business, together with ad hoc qualitative and quantitative risk assessments.</li>
+	<li>Monitoring the bank&#39;s credit exposure to its clients across international networks, including periodically reassessing internally-assigned risk ratings</li>
+	<li>Financial Institutions Risk Management: Managing the bank&#39;s credit risk exposures arising from its trading operations. Products traded include credit, interest rates, foreign exchange and equities, together with a wide range of derivative products on these asset classes.</li>
+	<li>Global Markets Risk Management: Managing the bank&#39;s market risk exposures arising from its trading operations. Products traded include credit, interest rates, foreign exchange and equities, together with a wide range of derivative products on these asset classes and combinations of these asset classes. Analysis covers the production of Value at Risk, stress and various other risk metrics used in the management of the trading business, together with ad hoc qualitative and quantitative risk assessments.</li>
 </ul>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">

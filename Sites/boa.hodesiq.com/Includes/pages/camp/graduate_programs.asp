@@ -8,7 +8,7 @@ If Request("t") <> "" Then tab = Request("t")
 		<table width="578" cellpadding="0" cellspacing="0" border="0" summary="">
 			<tr valign="top">
 				<td width="578" height="100%" valign="top" style="padding: 0px 0px 0px <%=left_margin_0%>px;">
-					<p class="bac"<% If page_section <> "ADA" Then %> style="margin-bottom: 12px;"<% End If %>>Leverage the power of your advanced degree and/or MBA into real career momentum through a combination of instructor-led and web-based education, on-the-job training, rotational assignments and networking. This is where you combine your education and experience with our incredible range of  opportunities &mdash; and the sky&apos;s the limit.</p>
+					<p class="bac"<% If page_section <> "ADA" Then %> style="margin-bottom: 12px;"<% End If %>>Leverage the power of your advanced degree and/or MBA into real career momentum through a combination of instructor-led and web-based education, on-the-job training, rotational assignments and networking. This is where you combine your education and experience with our incredible range of  opportunities &mdash; and the sky&#39;s the limit.</p>
 		<% If page_section <> "ADA" Then %>
 <script language="JavaScript1.2" src="../includes/tab.js" type="text/javascript"></script>
 <script language="JavaScript" type="text/javascript">
@@ -65,20 +65,20 @@ tabs[tab-1].coremetrics = true;
 				<td width="100%" valign="top"><% If page_section <> "ADA" Then %><H2 class="hidden">Graduate Programs U.S.</H2><% End If %>
 <div id="dt1" style="display: <% If tab = 1 Or page_section = "ADA" Then %>inline<% Else %>none<% End If %>;">
 	<div class="innerTab">
-		<p class="bacb">Corporate Staff and Support</p>
+		<H3 class="bac" style="margin-top: 15px;">Corporate Staff and Support</H3>
 		<ul class="bac">
 			<li><a href="gp_us_cw_mba_sa.asp" class="bac">Corporate Workplace MBA Senior Analyst</a></li>
 			<li><a href="gp_us_ghrldp.asp" class="bac">Global Human Resources Leadership and Development Program</a></li>
 			<li><a href="gp_us_qp_mbac.asp" class="bac">Quality and Productivity MBA Consultant</a></li>
 			<li><a href="gp_us_tmba_lrp.asp" class="bac">Technology MBA Leadership Rotational Program</a></li>
 		</ul>
-		<p class="bacb">Global Consumer and Small Business Banking</p>
+		<H3 class="bac" style="margin-top: 15px;">Global Consumer and Small Business Banking</H3>
 		<ul class="bac">
 			<li><a href="gp_us_bccmm_mba_ldp.asp" class="bac">Banking Center Channel Market Management MBA Leadership Development Program</a></li>
 			<li><a href="gp_us_gc_sbbp_ldp.asp" class="bac">Global Consumer &amp; Small Business Banking Product Leader Development Program</a></li>
 			<li><a href="gp_us_omba.asp" class="bac">Operations MBA</a></li>
 		</ul>
-		<p class="bacb">Global Corporate and Investment Banking</p>
+		<H3 class="bac" style="margin-top: 15px;">Global Corporate and Investment Banking</H3>
 		<ul class="bac">
 			<li><a href="gp_us_cma.asp" class="bac">Capital Markets Associate</a></li>
 			<li><a href="gp_us_cdpsa.asp" class="bac">Corporate Debt Products Senior Analyst</a></li>
@@ -133,7 +133,7 @@ tabs[tab-1].coremetrics = true;
 		<% Else %><H2 class="hidden">Graduate Programs EMEA</H2><% End If %>
 <div id="dt2" style="display: <% If tab = 2 Or page_section = "ADA" Then %>inline<% Else %>none<% End If %>;">
 	<div class="innerTab">
-		<p class="bacb">Global Corporate and Investment Banking</p>
+		<H3 class="bac" style="margin-top: 15px;">Global Corporate and Investment Banking</H3>
 		<ul class="bac">
 			<li><a href="gp_emea_cm.asp" class="bac">Capital Markets</a></li>
 			<li><a href="gp_emea_gib.asp" class="bac">Global Investment Banking</a></li>
@@ -184,7 +184,7 @@ tabs[tab-1].coremetrics = true;
 		<% Else %><H2 class="hidden">Graduate Programs Asia</H2><% End If %>
 <div id="dt3" style="display: <% If tab = 3 Or page_section = "ADA" Then %>inline<% Else %>none<% End If %>;">
 	<div class="innerTab">
-		<p class="bacb">Global Corporate and Investment Banking</p>
+		<H3 class="bac" style="margin-top: 15px;">Global Corporate and Investment Banking</H3>
 		<ul class="bac">
 			<li><a href="gp_asia_gm.asp" class="bac">Global Markets</a></li>
 			<li><a href="gp_asia_gpscdp.asp" class="bac">Global Product Solutions - Corporate Debt Products</a></li>

@@ -10,7 +10,7 @@ As parents, you never stop trying to create opportunities for your children to s
 At Bank of America, the same things are important to us as a company. We work continuously to create opportunities for every member of our associate family. And we share your belief in the importance of doing the right thing, treating people with respect and acting with honesty and integrity.
 </p>
 <p class="bac">
-These commitments have not only made Bank of America one of the world&apos;s most admired companies, but also a place you and your family can be proud to be part of.
+These commitments have not only made Bank of America one of the world&#39;s most admired companies, but also a place you and your family can be proud to be part of.
 </p>
 <p class="bac">
 A career with Bank of America can provide:

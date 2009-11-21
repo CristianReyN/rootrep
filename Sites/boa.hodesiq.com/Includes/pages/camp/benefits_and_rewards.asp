@@ -71,7 +71,7 @@ tabs[tab-1].coremetrics = true;
 		
 		<H3 class="bac" style="margin-top: 6px;">Financial and retirement support</H3>
 		<ul class="bac">
-			<li>Discounts and additional benefits on a wide range of banking and investing products &mdash; including checking accounts with no monthly maintenance fee or balance requirement, free checks, free or discounted annual safe deposit box rental and no fees for traveler&apos;s checks among others</li>
+			<li>Discounts and additional benefits on a wide range of banking and investing products &mdash; including checking accounts with no monthly maintenance fee or balance requirement, free checks, free or discounted annual safe deposit box rental and no fees for traveler&#39;s checks among others</li>
 			<li>401K and pension plan</li>
 		</ul>
 		
@@ -149,9 +149,9 @@ tabs[tab-1].coremetrics = true;
 	<div class="innerTab">
 		<p class="bac">Bank of America offers an award winning competitive benefits package to its associates which, we believe, is one of the best in the financial services industry.</p>
 
-		<p class="bac">Bonuses and incentive programmes are important parts of the overall package.  Associate Benefit Choices (ABC) is Bank of America&apos;s flexible benefits programme that encourages each associate to actively participate in the selection of their benefits package and gives them the freedom to choose benefits within certain criteria that work for each individual and their dependants.</p>
+		<p class="bac">Bonuses and incentive programmes are important parts of the overall package.  Associate Benefit Choices (ABC) is Bank of America&#39;s flexible benefits programme that encourages each associate to actively participate in the selection of their benefits package and gives them the freedom to choose benefits within certain criteria that work for each individual and their dependants.</p>
 
-		<p class="bac">The package can be adapted as personal circumstances change. It is a programme designed to make the bank a better place to work and it is a key element of the company&apos;s proposition to associates.</p>
+		<p class="bac">The package can be adapted as personal circumstances change. It is a programme designed to make the bank a better place to work and it is a key element of the company&#39;s proposition to associates.</p>
 
 		<p class="bac">Within ABC there are a range of twenty benefits covering Financial, Healthcare, Lifestyle and Leisure aspects of your life. Some of these benefits offer attractive Income Tax and National Insurance savings. The bank provides the opportunity for associates to receive employer matching contributions for pension, Give as You Earn, learning accounts, leisure accounts and certain health treatments.</p>
 

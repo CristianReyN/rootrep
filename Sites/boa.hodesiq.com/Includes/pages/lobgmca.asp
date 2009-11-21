@@ -20,7 +20,7 @@
 <% If page_section <> "ADA" Then %>
 					<div align="right" style="float: right; margin: 0px 0px 0px <%=right_margin_split%>px; padding: 0px; width: 259px;">
 <!-- #include file="lob/craig.asp" -->
-<a href="#video" class="hlink">Craig&apos;s Associate Testimonial Video</a>
+<a href="#video" class="hlink">Craig&#39;s Associate Testimonial Video</a>
 <% End If  %>
 <div style="width: 201px; text-align: left; border: 1px solid #e8e8e9; background: #ffffff; margin: 12px 0px 12px 0px; padding: 0px 0px 6px 0px;">
 	<H2 class="g" style="margin: 0px 0px 0px 0px;">Guided Job Search</H2>
@@ -38,7 +38,7 @@ The associates in Global Marketing &amp; Corporate Affairs work collaboratively 
 <br><br>
 Global Marketing develops and drives effective strategies in creative advertising, brand management, enterprise media, sponsorships and agency management. 
 <br><br>
-Corporate Affairs - comprised of Corporate Communications, Global Community Impact, Public Policy and Market Presidents - works to ensure a variety of audiences understand Bank&nbsp;of&nbsp;America&apos;s strategy, company news, community commitment and positions on key company, economic and environmental issues.
+Corporate Affairs - comprised of Corporate Communications, Global Community Impact, Public Policy and Market Presidents - works to ensure a variety of audiences understand Bank&nbsp;of&nbsp;America&#39;s strategy, company news, community commitment and positions on key company, economic and environmental issues.
 <br><br>
 Our associates bring a variety of professional and educational experiences and backgrounds to their roles, including advertising, banking, consumer goods, financial services, hospitality, human resources, journalism, media production and retail disciplines.
 </p>

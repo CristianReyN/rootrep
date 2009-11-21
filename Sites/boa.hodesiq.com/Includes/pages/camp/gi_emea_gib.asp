@@ -15,7 +15,7 @@ Our strategy for success starts and ends with serving our clients the solutions 
 </p> 
 
 <p class="bac">
-In Europe the company is extending long-term relationships with clients and providing them with integrated business solutions. This is done by capitalising on Bank of America&apos;s strong balance sheet, debt and equity product expertise and M&A capabilities in targeted areas that leverage the bank’s U.S. strengths. Bank of America is committed to building its investment banking businesses in Europe methodically and in specific areas where the company can attain a leadership position and/or fulfill its global clients’ needs.
+In Europe the company is extending long-term relationships with clients and providing them with integrated business solutions. This is done by capitalising on Bank of America&#39;s strong balance sheet, debt and equity product expertise and M&A capabilities in targeted areas that leverage the bank’s U.S. strengths. Bank of America is committed to building its investment banking businesses in Europe methodically and in specific areas where the company can attain a leadership position and/or fulfill its global clients’ needs.
 </p> 
 
 

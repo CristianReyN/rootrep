@@ -8,7 +8,7 @@ function preloadThumb()
 var ada_href = "<%=ada_href %>";
 action_script = true;
 if ( hasRequestedVersion && erin_video ) {
-	document.write('<H2 class="hidden">Erin&apos;s Associate Testimonial Video<\/H2>');
+	document.write('<H2 class="hidden">Erin&#39;s Associate Testimonial Video<\/H2>');
 	document.write('<div id="mainvideo" style="display: none;"><a name="video"></a>');
 	document.write(getVideo(erin_video,205,131,"javaflash",""));
 	document.write(strReplace(strReplace(strReplace(strReplace(getHTMLControl("javaflash",205,22,true,true,true,true,true,true),"<text>","Video transcript"),"<title>","Video transcript"),"<href>",ada_href),"<anchor>",erin_video.ada_anchor));
@@ -26,7 +26,7 @@ if ( hasRequestedVersion && erin_video ) {
 }
 </script>
 <noscript>
-<a name="video"></a><H2 class="hidden">Erin&apos;s Associate Testimonial Video</H2>
+<a name="video"></a><H2 class="hidden">Erin&#39;s Associate Testimonial Video</H2>
 <object type="application/x-shockwave-flash"
 data="../Includes/pages/college/Erin.swf" width="205" height="131" id="javaflash" align="middle">
 	<param name="wmode" value="transparent">
@@ -47,7 +47,7 @@ data="../Includes/pages/college/Erin.swf" width="205" height="131" id="javaflash
 <div class="transcript">
 <a name="vt"></a><h2 class="h1" style="margin: 0px 0px 6px 0px; text-align: left;"><span>Video transcript</span></h2>
 <p>
-I learned about my current position from a conference called NSHMBA and there I talked to a recruiter about the Global Consumer position that I currently have became very interested and pursued the position from there.  What&apos;s important to me in my career is learning and growth and opportunity for advancement, Bank of America offers all of those things and I have really been looking forward to my future at Bank of America. Two things that stands out to me when I think of Global Consumer Business Bank is my exposure to executives and two is the focus on the customer.
+I learned about my current position from a conference called NSHMBA and there I talked to a recruiter about the Global Consumer position that I currently have became very interested and pursued the position from there.  What&#39;s important to me in my career is learning and growth and opportunity for advancement, Bank of America offers all of those things and I have really been looking forward to my future at Bank of America. Two things that stands out to me when I think of Global Consumer Business Bank is my exposure to executives and two is the focus on the customer.
 <br>
 <br>
 <a href="<%= standart_href%>" title="Return to standard page with video" class="bac" onfocus="this.className='p-over';" onblur="this.className='p';">Return to standard page with video</a>

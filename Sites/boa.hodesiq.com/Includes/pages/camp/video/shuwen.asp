@@ -8,7 +8,7 @@ function preloadThumb()
 var ada_href = "<%=ada_href %>";
 action_script = true;
 if ( hasRequestedVersion && shuwen_video ) {
-	document.write('<H2 class="hidden">Shu-Wen&apos;s Associate Testimonial Video<\/H2>');
+	document.write('<H2 class="hidden">Shu-Wen&#39;s Associate Testimonial Video<\/H2>');
 	document.write('<div id="mainvideo" style="display: none;"><a name="video"></a>');
 	document.write(getVideo(shuwen_video,231,131,"javaflash",""));
 	document.write(strReplace(strReplace(strReplace(strReplace(getHTMLControl("javaflash",231,22,true,true,true,false,true,false),"<text>","Video transcript"),"<title>","Video transcript"),"<href>",ada_href),"<anchor>",shuwen_video.ada_anchor));
@@ -26,7 +26,7 @@ if ( hasRequestedVersion && shuwen_video ) {
 }
 </script>
 <noscript>
-<a name="video"></a><H2 class="hidden">Shu-Wen&apos;s Associate Testimonial Video</H2>
+<a name="video"></a><H2 class="hidden">Shu-Wen&#39;s Associate Testimonial Video</H2>
 <object type="application/x-shockwave-flash"
 data="http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/GCIB/SHU-Wen_FINALs_VP6_512K_282x160.swf" width="231" height="131" id="javaflash" align="middle">
 	<param name="wmode" value="transparent">
@@ -56,15 +56,15 @@ I love meeting new people and I love interacting with people and I think this is
 <br><br>
 My main functions are really to actually support my team in executing the FX trades and actually answering to client inquiries.
 <br><br>
-Every single second of every single minute the markets are actually moving.  We need to really execute the trades as soon as possible and we need to get the rates quickly from the traders, get it back to the client, let them know if there are any changes in the market, whether it&apos;s down or not and what other movements in the market are happening right now so they can make the decision as to whether or not they should execute the various hedging or trading positions. 
+Every single second of every single minute the markets are actually moving.  We need to really execute the trades as soon as possible and we need to get the rates quickly from the traders, get it back to the client, let them know if there are any changes in the market, whether it&#39;s down or not and what other movements in the market are happening right now so they can make the decision as to whether or not they should execute the various hedging or trading positions. 
 <br><br>
 If and when there are any major moves or news in the market, we actually try to understand better, understand the moves in the market so we actually serve more of an advisory role in this sense.
 <br><br>
 My team consists of six people and I must say I really love my team a lot.  They have been very supportive of me, especially my boss.  A lot of guidance has been given to me from the start when I had to grasp the basics and foundation of the way to handle client accounts.  
 <br><br>
-I think Bank of America has a more open culture.  There&apos;s less bureaucracy and a lot more processes are definitely more efficient.  I think there&apos;s a lot of accession to senior management.  From the day I stepped in, until now, I believe my knowledge and skills have definitely improved a lot.  I have grown confidence in executing client trades and I'm actually doing client trades on a daily basis.
+I think Bank of America has a more open culture.  There&#39;s less bureaucracy and a lot more processes are definitely more efficient.  I think there&#39;s a lot of accession to senior management.  From the day I stepped in, until now, I believe my knowledge and skills have definitely improved a lot.  I have grown confidence in executing client trades and I'm actually doing client trades on a daily basis.
 <br><br>
-I'm trying to learn more on the derivatives side, the options products, because we do have clients who are interested in the more exotic options so that&apos;s why I want to learn more, so that I can hopefully, in the future when I handle these client accounts, I can serve them better.
+I'm trying to learn more on the derivatives side, the options products, because we do have clients who are interested in the more exotic options so that&#39;s why I want to learn more, so that I can hopefully, in the future when I handle these client accounts, I can serve them better.
 <br>
 <br>
 <a href="<%= standart_href%>" title="Return to standard page with video" class="bac" onfocus="this.className='p-over';" onblur="this.className='p';">Return to standard page with video</a>

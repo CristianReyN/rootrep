@@ -8,7 +8,7 @@ function preloadThumb()
 var ada_href = "<%=ada_href %>";
 action_script = true;
 if ( hasRequestedVersion && tony_video ) {
-	document.write('<H2 class="hidden">Tony&apos;s Associate Testimonial Video<\/H2>');
+	document.write('<H2 class="hidden">Tony&#39;s Associate Testimonial Video<\/H2>');
 	document.write('<div id="mainvideo" style="display: none;"><a name="video"></a>');
 	document.write(getVideo(tony_video,205,131,"javaflash",""));
 	document.write(strReplace(strReplace(strReplace(strReplace(getHTMLControl("javaflash",205,22,true,true,true,true,true,true),"<text>","Video transcript"),"<title>","Video transcript"),"<href>",ada_href),"<anchor>",tony_video.ada_anchor));
@@ -26,7 +26,7 @@ if ( hasRequestedVersion && tony_video ) {
 }
 </script>
 <noscript>
-<a name="video"></a><H2 class="hidden">Tony&apos;s Associate Testimonial Video</H2>
+<a name="video"></a><H2 class="hidden">Tony&#39;s Associate Testimonial Video</H2>
 <object type="application/x-shockwave-flash"
 data="../Includes/pages/college/Tony.swf" width="205" height="131" id="javaflash" align="middle">
 	<param name="wmode" value="transparent">
@@ -47,7 +47,7 @@ data="../Includes/pages/college/Tony.swf" width="205" height="131" id="javaflash
 <div class="transcript">
 <a name="vt"></a><h2 class="h1" style="margin: 0px 0px 6px 0px; text-align: left;"><span>Video transcript</span></h2>
 <p>
-Though I have only been with the bank for five months now I have already been able to work on a Six Sigma project with several senior level managers and through that experience I networked with these individuals and learned from them how they do their jobs.  I learned about the corporate treasury associate program through an on-campus recruiting event where several bank associates came down and spoke with students that were interested.  After that we had a round of on-campus interviews which were followed by the final round which were up in Charlotte.  We were actually able to visit the bank&apos;s headquarters and meet with the senior member executives as well as people we would be working with from day to day.
+Though I have only been with the bank for five months now I have already been able to work on a Six Sigma project with several senior level managers and through that experience I networked with these individuals and learned from them how they do their jobs.  I learned about the corporate treasury associate program through an on-campus recruiting event where several bank associates came down and spoke with students that were interested.  After that we had a round of on-campus interviews which were followed by the final round which were up in Charlotte.  We were actually able to visit the bank&#39;s headquarters and meet with the senior member executives as well as people we would be working with from day to day.
 <br>
 <br>
 <a href="<%= standart_href%>" title="Return to standard page with video" class="bac" onfocus="this.className='p-over';" onblur="this.className='p';">Return to standard page with video</a>

@@ -222,14 +222,14 @@ tabs[tab-1].coremetrics = true;
 
 <H3 class="bac">How do I apply?</H3>
 <p class="bac">We recruit candidates through the university careers centers of our target schools.  Please contact your university careers center for more details.</p>
-<p class="bac">If you are not a student completing a Bachelor&apos;s or MBA degree, or are interested in opportunities in another area of the company, please visit <a href="http://www.bankofamerica.com/asiacareers" target="_blank" class="bac" title="Asia Careers Website">www.bankofamerica.com/asiacareers</a>.</p>
+<p class="bac">If you are not a student completing a Bachelor&#39;s or MBA degree, or are interested in opportunities in another area of the company, please visit <a href="http://www.bankofamerica.com/asiacareers" target="_blank" class="bac" title="Asia Careers Website">www.bankofamerica.com/asiacareers</a>.</p>
 
 <H3 class="bacs">What are the requirements to be considered for campus opportunities?</H3>
-<p class="bac">Each program has individual requirements; however, to be considered for any program you must be currently enrolled in a Bachelor&apos;s degree or MBA program.</p>
+<p class="bac">Each program has individual requirements; however, to be considered for any program you must be currently enrolled in a Bachelor&#39;s degree or MBA program.</p>
 <p class="bac">If you are not currently completing a degree, you can visit <a href="http://www.bankofamerica.com/asiacareers" target="_blank" class="bac" title="Asia Careers Website">www.bankofamerica.com/asiacareers</a> for experienced-hire opportunities.</p>
 
 <H3 class="bacs">When does Bank of America recruit students for full time opportunities?</H3>
-<p class="bac">Tokyo &amp; Singapore:  Bank of America recruits Bachelor&apos;s degree students for full-time opportunities in the Fall of 2008 for roles that begin in June 2009.</p>
+<p class="bac">Tokyo &amp; Singapore:  Bank of America recruits Bachelor&#39;s degree students for full-time opportunities in the Fall of 2008 for roles that begin in June 2009.</p>
 <p class="bac">India:  Bank of America recruits MBA students for full-time opportunities in the Spring of 2009 for roles that begin in April/May 2009.</p>
 
 <H3 class="bacs">What academic background are you looking for in candidates?</H3>

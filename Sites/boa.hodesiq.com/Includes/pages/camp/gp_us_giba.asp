@@ -6,7 +6,7 @@
 
 <h2 class="bac">Our Business:</h2>
 <p class="bac">Organized by industry sector, our Global Investment bankers are dedicated to understanding the unique competitive and operating environments of our clients, and to building strong, enduring client relationships. We are primarily organized into 11 industry/product teams focused on specific sectors. Focus industries are: Consumer &amp; Retail, Financial Institutions, Financial Sponsors, Gaming, Global Industries, Healthcare, Technology, Media &amp; Telecom, Natural Resources, Real Estate, and Transaction Development Group and M&A. Integrated within each industry team are M&A specialists. </p>
-<p class="bac">What&apos;s our strategy for success? It starts and ends with serving our clients the solutions and execution they need in today&apos;s market.  Award-winning execution – Our product origination specialists work closely with industry bankers, sales and trading to develop creative solutions for our clients. We set ourselves apart by delivering innovative ideas and strategies, advanced technology and objective, timely analysis covering a large universe of companies, industries, products and geographies.</p>
+<p class="bac">What&#39;s our strategy for success? It starts and ends with serving our clients the solutions and execution they need in today&#39;s market.  Award-winning execution – Our product origination specialists work closely with industry bankers, sales and trading to develop creative solutions for our clients. We set ourselves apart by delivering innovative ideas and strategies, advanced technology and objective, timely analysis covering a large universe of companies, industries, products and geographies.</p>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
 
@@ -28,7 +28,7 @@
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
 
 <h2 class="bac">Training:</h2>
-<p class="bac">As an associate, you will begin your career at Bank of America with an extensive training program in New York. The first part of the program combines associates from all lines of business.  The full program is a combination of classroom instruction, e-learning modules, case studies, and presentations. Throughout the program, you&apos;ll have ample opportunities to work closely with professionals and peers throughout our organization. This is a great opportunity to build a network of colleagues from across the company that will prove to be a tremendous resource to you throughout your career.</p>
+<p class="bac">As an associate, you will begin your career at Bank of America with an extensive training program in New York. The first part of the program combines associates from all lines of business.  The full program is a combination of classroom instruction, e-learning modules, case studies, and presentations. Throughout the program, you&#39;ll have ample opportunities to work closely with professionals and peers throughout our organization. This is a great opportunity to build a network of colleagues from across the company that will prove to be a tremendous resource to you throughout your career.</p>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
 
