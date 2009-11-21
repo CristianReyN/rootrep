@@ -39,7 +39,6 @@ Individuals who take initiative and possess exceptional communications skills th
 <p style="margin: 6px 6px 0px 6px;"><a class="left" onfocus="this.className='left-over';" onblur="this.className='left';" href="../jobsearch.aspx?jobareas=1|4&stateid=-1&cityid=-1&keywords=&SearchPage=Sp">View current jobs in Change Mgmt &amp; Process</a></p>
 <p style="margin: 6px 6px 0px 6px;"><a class="left" onfocus="this.className='left-over';" onblur="this.className='left';" href="../jobsearch.aspx?jobareas=1|5&stateid=-1&cityid=-1&keywords=&SearchPage=Sp">View current jobs in Legal</a></p>
 <p style="margin: 6px 6px 0px 6px;"><a class="left" onfocus="this.className='left-over';" onblur="this.className='left';" href="../jobsearch.aspx?jobareas=1|6&stateid=-1&cityid=-1&keywords=&SearchPage=Sp">View current jobs in Services</a></p>
-<p style="margin: 6px 6px 0px 6px;"><a class="left" onfocus="this.className='left-over';" onblur="this.className='left';" href="../jobsearch.aspx?jobareas=1|7&stateid=-1&cityid=-1&keywords=&SearchPage=Sp">View current jobs in Learning &amp; Leadership Development</a></p>
 </div>
 
 <div style="text-align: center; margin: 0px; padding: 0px;">
