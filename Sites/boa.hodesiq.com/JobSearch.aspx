@@ -59,26 +59,14 @@
 														</asp:TextBox>
 													</td>
                                                 </tr>
+                                                <tr><td colspan="3">&nbsp;</td></tr>
                                                 <tr>
-													<td>												
-														<div id="dsubmit" runat="server">
-														<table cellpadding="0" cellspacing="0" border="0" summary=""><tr>
-														<td class="whitebg">
-														<div runat="server" id="dsearch" class="ie-btn">
-														<asp:LinkButton runat="server" OnClick="bsearch_Click" ID="lsearch" Text="Search"></asp:LinkButton>
-														</div>
-														</td>
-														</tr></table>
-														</div>
-														<noscript><asp:Button ID="bsearch" runat="server" CssClass="bodybtn"  Text="Search" OnClick="bsearch_Click" /></noscript>
-													</td>
-													<td>
-														
-													</td>
-													<td>
-														
+													
+													<td colspan="3">												
+														<asp:PlaceHolder runat="server" ID="phSearch"></asp:PlaceHolder>
 													</td>
                                                 </tr>
+                                                <tr><td colspan="3">&nbsp;</td></tr>
                                             </table>
                                             <table border="0" cellpadding="0" cellspacing="0" summary="" width="100%">
                                                 <tr>
@@ -118,39 +106,20 @@
                                     </tr>
                                     </table>
 									<table border="0" cellpadding="0" cellspacing="0" summary="" width="100%">
+									<tr><td colspan="2">&nbsp;</td></tr>
                                     <tr valign="top">
                                         <td valign="top" align="right" style="width: 50%;">&nbsp;
-                                        <div id="dPrev" runat="server">
-											<table cellpadding="0" cellspacing="0" border="0" summary=""><tr>
-												<td class="whitebg">
-												<div runat="server" id="dPrv" class="ie-btn">
-												<asp:LinkButton runat="server" OnClick="LnkPrvs_Click" ID="lPrev" Text="Previous" Visible="false"></asp:LinkButton>
-												</div>
-												</td>
-											</tr></table>
+                                        <div id="divPrev" runat="server" style="display:none">
+											<asp:PlaceHolder runat="server" ID="phPrevious"></asp:PlaceHolder>
 										</div>
 										</td>
 										<td valign="top" align="left" style="width: 50%;">&nbsp;
-										<div id="dNext" runat="server">
-											<table cellpadding="0" cellspacing="0" border="0" summary=""><tr>
-												<td class="whitebg"><img src="images/blank.gif" height="0" width="20" alt="spacer"/>
-												<div id="dNxt" runat="server">
-												<asp:LinkButton runat="server" OnClick="LnkNxt_Click" ID="lNext" Text="Next" Visible="false"></asp:LinkButton>
-												</div>
-												</td>
-											</tr></table>
+										<div id="divNext" runat="server" style="display:none">
+											<asp:PlaceHolder runat="server" ID="phNext"></asp:PlaceHolder>
                                          </div>
                                          </td>
                                      </tr>
-                                     <tr>
-										<td colspan="2" align="center" valign="top">
-										   <noscript>
-										   <asp:Button ID="LnkPrvs" runat="server" CssClass="bodybtn" OnClick="LnkPrvs_Click"
-												Text="Previous" Visible="false" />&nbsp;&nbsp;&nbsp;&nbsp;
-											<asp:Button ID="LnkNxt" runat="server" CssClass="bodybtn" OnClick="LnkNxt_Click"
-												Text="Next" Visible="false" />&nbsp;&nbsp;&nbsp;&nbsp;</noscript><br />
-										</td>
-                                     </tr>
+									<tr><td colspan="2">&nbsp;</td></tr>
                                      <tr>
 										<td colspan="2" align="center" valign="top">
 											<br /><asp:Label ID="LblPageOfPages" runat="server"></asp:Label>    
@@ -159,6 +128,5 @@
                                 </table>
                                 <asp:Label ID="lblMessage" runat="server"></asp:Label>
                                 <div id="d4"></div>
-								<asp:Literal runat="server" ID="litScript"></asp:Literal>
                             </asp:Content>
                         
