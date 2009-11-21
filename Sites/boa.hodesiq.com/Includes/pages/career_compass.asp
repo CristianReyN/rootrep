@@ -54,8 +54,8 @@ function preloadCC(){MM_preloadImages('../images/cc_next_over.gif','../images/cc
 			If question_group.Item("group_number") = "5" Then two_bank = True
 			If UBound(questions) > 0 Then %>
 						<tr>
-							<td nowrap style="padding: 0px;"><b><% Response.write question_group.Item("group_number") %>.</b></td>
-							<td nowrap colspan="<% Response.write colspan %>" style="padding: 0px;"><h2 style="margin: 0px;"><% Response.write question_group.Item("title") %></h2></td>
+							<td align="right" nowrap style="padding: 0px;"><b><% Response.write question_group.Item("group_number") %>.&nbsp;</b></td>
+							<td nowrap colspan="<% Response.write colspan %>" style="padding: 0px;"><b style="margin: 0px;"><% Response.write question_group.Item("title") %></b></td>
 						</tr>
 <%
 				For q=1 To UBound(questions) Step 1

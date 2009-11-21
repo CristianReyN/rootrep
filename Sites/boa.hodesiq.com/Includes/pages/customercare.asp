@@ -7,7 +7,7 @@
 <!-- #include file="associate/fairbrother.asp" -->
 					</div>
 <% End If  %>
-<a name="skipmaincontent"></a><H1 style="margin: 0px 12px 0px 12px;">Customer Care</H1>
+<a name="skipmaincontent"></a><H1 style="margin: 0px 12px 0px 12px;">Customer Care</H1><a href="#video" class="hlink">Jonathan Fairbrother&acute;s Associate Testimonial Video</a>
 <p style="margin: 6px 12px 0px 12px;">
 Our Customer Service/Care positions represent some of the most critical areas within our organization.  Financial services is a customer-driven industry, and the service professionals we employ form the nucleus of a team that shapes our customers' experience with us.  We embrace the notion that each and every interaction with a customer is a defining moment of who we are as a company.
 </p>

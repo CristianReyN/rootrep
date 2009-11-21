@@ -7,7 +7,7 @@
 <!-- #include file="associate/diaz.asp" -->
 					</div>
 <% End If  %>
-<a name="skipmaincontent"></a><H1 style="margin: 0px 12px 0px 12px;">Consumer Banking</H1>
+<a name="skipmaincontent"></a><H1 style="margin: 0px 12px 0px 12px;">Consumer Banking</H1><a href="#video" class="hlink">Anthony Diaz&acute;s Associate Testimonial Video</a>
 <p style="margin: 6px 12px 0px 12px;">
 To serve a customer base of more than 54 million consumer and small business clients effectively, we must maintain a network of dedicated individuals who listen to our customers, build strong relationships and implement strategies to help our clients exceed their financial goals.
 </p>

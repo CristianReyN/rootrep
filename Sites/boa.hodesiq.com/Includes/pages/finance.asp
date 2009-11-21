@@ -7,7 +7,7 @@
 <!-- #include file="associate/chen.asp" -->
 					</div>
 <% End If  %>
-<a name="skipmaincontent"></a><H1 style="margin: 0px 12px 0px 12px;">Finance</H1>
+<a name="skipmaincontent"></a><H1 style="margin: 0px 12px 0px 12px;">Finance</H1><a href="#video" class="hlink">Rich Chen&acute;s Associate Testimonial Video</a>
 <p style="margin: 6px 12px 0px 12px;">
 Bank of America's strong financial performance relies on a strong team.  With the vision, skills and financial wherewithal to pursue growth, our financial group successfully analyzes, budgets and forecasts opportunities and ventures.  Because each business unit houses its own finance team, the potential for cross-training and diverse challenges is also available.
 </p>

@@ -105,7 +105,6 @@
 				<li class="tertiary"<% if tpage = "internships_program" then Response.Write " style=""background: #eaf1f7;""" end if %>><div><a href="../learnmore/internships_program.asp" class="sbtxt" title="Internships" onfocus="this.className='sbtxt-over';" onblur="this.className='sbtxt';">Internships</a></div>
 				</li>
 <%	End If %>
-				</li>
 				<li<% if spage = "globalloc" then Response.Write " style=""background: #eaf1f7;""" end if %>><div><a href="../learnmore/globalloc.asp" class="sbtxt" title="Global Locations" onfocus="this.className='sbtxt-over';" onblur="this.className='sbtxt';">Global locations</a></div>
 				</li>
 			</ul>

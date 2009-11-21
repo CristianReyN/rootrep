@@ -2,7 +2,7 @@
 <script language="JavaScript1.2" src="../Includes/pages/associate/associate.js" type="text/javascript"></script>
 <script language="JavaScript1.2" type="text/javascript">
 if ( hasRequestedVersion ) {
-	document.write('<span class="ada-label">Deborah BenitezLedtje&acute;s Associate Testimonial Video</span>');
+	document.write('<a name="video"></a><H2 class="hidden">Deborah BenitezLedtje&acute;s Associate Testimonial Video</H2>');
 	document.write(Benitez_video);
 	document.write(strReplace(strReplace(strReplace(html_control,"<text>","Video transcript"),"<title>","Video transcript"),"<href>","<%=ada_href %>"));
 	createStopAudio();
@@ -11,7 +11,7 @@ if ( hasRequestedVersion ) {
 }
 </script>
 <noscript>
-<span class="ada-label">Deborah BenitezLedtje&acute;s Associate Testimonial Video</span>
+<a name="video"></a><H2 class="hidden">Deborah BenitezLedtje&acute;s Associate Testimonial Video</H2>
 <object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0" width="259" height="166" id="javaflash" align="middle">
 	<param name="wmode" value="transparent">
 	<param name="allowScriptAccess" value="always" />
@@ -20,6 +20,13 @@ if ( hasRequestedVersion ) {
 	<param name="bgcolor" value="#ffffff" />
 <embed src="../Includes/pages/associate/Benitez.swf" quality="high" bgcolor="#ffffff" width="259" height="166" alt="Video plays with information about the culture and work environment at Bank of America" name="javaflash" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" wmode="transparent" swLiveConnect="true"></embed>
 </object>
+<table border="0" cellspacing="0" cellpadding="0" bgcolor="#e7313c" width="100%">
+	<tr>
+		<td nowrap align="center" height="18" width="100%">
+			<a href="<%=ada_href %>#vt" title="Video transcript" class="btn1">Video transcript</a>
+		</td>
+	</tr>
+</table>
 </noscript>
 <% Else %>
 <div class="transcript">
@@ -44,7 +51,9 @@ And you kind of have to know that going in.<br>
 There's a lot of benefits on the other side.<br>
 It's a little more relaxed, a little more casual.<br>
 You aren't customerfacing, so it's a little bit more laid back.<br>
-We have a lot of fun at work, and we like to kick back and play music and it's a totally different atmosphere, but you do have to remember because it is production driven, it is an operations unit that is driven by volume.                      If the volume is there, we have to be there, and my associates know that, our whole team knows that.
+We have a lot of fun at work, and we like to kick back and play music and it's a totally different atmosphere, but you do have to remember because it is production driven, it is an operations unit that is driven by volume. If the volume is there, we have to be there, and my associates know that, our whole team knows that.
 </p>
+<br>
+<a href="<%= standart_href%>" title="Return to standard page with video" class="p" onfocus="this.className='p-over';" onblur="this.className='p';">Return to standard page with video</a>
 </div>
 <% End If %>

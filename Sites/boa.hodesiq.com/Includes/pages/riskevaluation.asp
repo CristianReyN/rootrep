@@ -7,7 +7,7 @@
 <!-- #include file="associate/price.asp" -->
 					</div>
 <% End If  %>
-<a name="skipmaincontent"></a><H1 style="margin: 0px 12px 0px 12px;">Risk Evaluation</H1>
+<a name="skipmaincontent"></a><H1 style="margin: 0px 12px 0px 12px;">Risk Evaluation</H1><a href="#video" class="hlink">Allen Price&acute;s Associate Testimonial Video</a>
 <p style="margin: 6px 12px 0px 12px;">
 An effective risk management model requires a healthy blend of intuitive and analytical individuals who are responsible for ensuring the optimum balance between risk and reward on an enterprise-wide scale.  Our end-to-end management of risk relies on a comprehensive plan with a primary objective of adding value for our shareholders.
 </p>

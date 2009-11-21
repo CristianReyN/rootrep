@@ -7,7 +7,7 @@
 <!-- #include file="associate/henderson.asp" -->
 					</div>
 <% End If  %>
-<a name="skipmaincontent"></a><H1 style="margin: 0px 12px 0px 12px;">Administration</H1>
+<a name="skipmaincontent"></a><H1 style="margin: 0px 12px 0px 12px;">Administration</H1><a href="#video" class="hlink">Chanel Henderson&acute;s Associate Testimonial Video</a>
 <p style="margin: 6px 12px 0px 12px;">
 Individuals who take initiative and possess exceptional communications skills thrive within our dynamic environment. We need individuals who understand our services and who are looking to make a difference in an atmosphere full of energy and excitement. Those who join us enjoy the exhilaration and fulfillment of ensuring our 200,000 associates and 54 million consumer and small business customers stay "in the know."
 </p>

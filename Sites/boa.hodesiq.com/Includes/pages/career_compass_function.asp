@@ -46,27 +46,27 @@
 								End If
 							ElseIf ExistsInRequest("q-" & store_questions(q).Item("question_number")) Then
 								answered_questions = answered_questions + 1
-								If answered_questions > store_question_group.Item("max_answers") And store_question_group.Item("max_answers") <> -1 Then
-									session.Contents("err") = "Please select up to " & store_question_group.Item("max_answers") & " answers for question " & store_question_group.Item("group_number")
-									session.Contents("page_number") = store_page_number
-									Set store_pages(store_page_number) = store_page
-									session.Contents("pages") = store_pages
-									Response.Redirect("career_compass.asp")
-								End If
 								store_questions(q).Item("answer") = True
 							Else
 								store_questions(q).Item("answer") = False
 							End If
 						Next
 						If answered_questions = 0 Then
-							session.Contents("err") = "Please select answer for question " & store_question_group.Item("group_number")
-							session.Contents("page_number") = store_page_number
-							Set store_pages(store_page_number) = store_page
-							session.Contents("pages") = store_pages
-							Response.Redirect("career_compass.asp")
+							If session.Contents("err") <> "" Then session.Contents("err") = session.Contents("err") & "<br>"
+							session.Contents("err") = session.Contents("err") & "Please select answer for question " & store_question_group.Item("group_number")
+						ElseIf answered_questions > store_question_group.Item("max_answers") And store_question_group.Item("max_answers") <> -1 Then
+							If session.Contents("err") <> "" Then session.Contents("err") = session.Contents("err") & "<br>"
+							session.Contents("err") = session.Contents("err") & "Please select up to " & store_question_group.Item("max_answers") & " answers for question " & store_question_group.Item("group_number")
 						End If
 					End If
 				Next
+				
+				If session.Contents("err") <> "" Then
+					session.Contents("page_number") = store_page_number
+					Set store_pages(store_page_number) = store_page
+					session.Contents("pages") = store_pages
+					Response.Redirect("career_compass.asp")
+				End If
 			End If
 			session.Contents("pages") = store_pages
 		End If

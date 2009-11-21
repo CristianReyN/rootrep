@@ -7,7 +7,7 @@
 <!-- #include file="associate/cucchi.asp" -->
 					</div>
 <% End If  %>
-<a name="skipmaincontent"></a><H1 style="margin: 0px 12px 0px 12px;">Communications</H1>
+<a name="skipmaincontent"></a><H1 style="margin: 0px 12px 0px 12px;">Communications</H1><a href="#video" class="hlink">Marina LanniCucchi&acute;s Associate Testimonial Video</a>
 <p style="margin: 6px 12px 0px 12px;">
 The role of a communications expert is critical in proactively shaping a company's reputation through the eyes of its customers.  We're looking for outstanding people with impressive credentials who relish the prospect of building on the success of one of the world's most recognized brands. Those who join us enjoy the exhilaration and fulfillment of ensuring our 200,000 associates and 54 million consumer and small business customers stay "in the know."
 </p>

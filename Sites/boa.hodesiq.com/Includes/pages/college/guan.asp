@@ -6,7 +6,7 @@ ENV = '<% Response.write SITE_U_R_L %>';
 <script language="JavaScript1.2" src="../Includes/pages/college/college.js" type="text/javascript"></script>
 <script language="JavaScript1.2" type="text/javascript">
 if ( hasRequestedVersion ) {
-	document.write('<span class="ada-label">Guan&acute;s Associate Testimonial Video</span>');
+	document.write('<H2 class="hidden">Guan&acute;s Associate Testimonial Video</H2>');
 	document.write(Guan_video);
 	document.write(strReplace(strReplace(strReplace(html_control,"<text>","Video transcript"),"<title>","Video transcript"),"<href>","<%=ada_href %>"));
 	createStopAudio();
@@ -15,7 +15,7 @@ if ( hasRequestedVersion ) {
 }
 </script>
 <noscript>
-<span class="ada-label">Guan&acute;s Associate Testimonial Video</span>
+<H2 class="hidden">Guan&acute;s Associate Testimonial Video</H2>
 <object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0" width="205" height="131" id="javaflash" align="middle">
 	<param name="wmode" value="transparent">
 	<param name="allowScriptAccess" value="always" />
@@ -24,6 +24,13 @@ if ( hasRequestedVersion ) {
 	<param name="bgcolor" value="#ffffff" />
 <embed src="<% Response.write SITE_U_R_L %>Includes/pages/college/Guan.swf" quality="high" bgcolor="#ffffff" width="205" height="131" alt="Video plays with information about the culture and work environment at Bank of America" name="javaflash" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" wmode="transparent" swLiveConnect="true"></embed>
 </object>
+<table border="0" cellspacing="0" cellpadding="0" bgcolor="#e7313c" width="100%">
+	<tr>
+		<td nowrap align="center" height="18" width="100%">
+			<a href="<%=ada_href %>#vt" title="Video transcript" class="btn1">Video transcript</a>
+		</td>
+	</tr>
+</table>
 </noscript>
 <% Else %>
 <div class="ptranscript">
@@ -31,5 +38,7 @@ if ( hasRequestedVersion ) {
 <p>
 The culture at Bank of America is quite diverse depending upon which group you work the culture can be quite different.  For example the current group I am working in is very academic because we hire a group of PhDs who do very complicated credit modeling.  However, in my previous job because I was involved in a two year rotational program it was much more fast paced because we were on the trading floor and we were aiding the traders and measuring their risk.
 </p>
+<br>
+<a href="<%= standart_href%>" title="Return to standard page with video" class="p" onfocus="this.className='p-over';" onblur="this.className='p';">Return to standard page with video</a>
 </div>
 <% End If %>

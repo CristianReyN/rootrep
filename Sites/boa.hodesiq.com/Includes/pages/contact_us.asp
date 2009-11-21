@@ -18,7 +18,7 @@ We have a centralized resume database available to all recruiters throughout our
 database, you can:
 </p>
 <ul>
-	<li style="padding-bottom: 6px;">Use Jobs Search to identify a position(s) you are interested in, and then cut, paste and submit your resume using the form provided.</li>
+	<li style="padding-bottom: 6px;">Use Job Search to identify a position(s) you are interested in, and then cut, paste and submit your resume using the form provided.</li>
 	<li style="padding-bottom: 6px;">Send us your resume using our Resume Submission Form.</li>
 	<li style="padding-bottom: 6px;">Or, if you don't have a resume, create one using Candidate Profiler.</li>
 </ul>

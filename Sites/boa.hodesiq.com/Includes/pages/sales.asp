@@ -7,7 +7,7 @@
 <!-- #include file="associate/placencia.asp" -->
 					</div>
 <% End If  %>
-<a name="skipmaincontent"></a><H1 style="margin: 0px 12px 0px 12px;">Sales</H1>
+<a name="skipmaincontent"></a><H1 style="margin: 0px 12px 0px 12px;">Sales</H1><a href="#video" class="hlink">Patricia Placencia&acute;s Associate Testimonial Video</a>
 <p style="margin: 6px 12px 0px 12px;">
 Those in sales and product development groups will find a fast-paced and rewarding environment.  By planning and executing in closely aligned teams, with shared accountability, our sales specialists generate sales and increase our market share.
 </p>

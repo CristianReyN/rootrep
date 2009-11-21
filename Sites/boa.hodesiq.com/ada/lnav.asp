@@ -102,7 +102,7 @@
 				</li>
 				<li<% if spage = "staffingprocess" then Response.Write " style=""background: #eaf1f7;""" end if %>><div><a href="staffingprocess.asp" class="sbtxt" title="Our Staffing Process" onfocus="this.className='sbtxt-over';" onblur="this.className='sbtxt';">Our staffing process</a></div>
 				</li>
-				<li<% If spage = "collrecruiting" And tpage <> "career_compass" then Response.Write " style=""background: #eaf1f7;""" end if %>><div><a href="collrecruiting.asp" class="sbtxt" title="College Recruiting" onfocus="this.className='sbtxt-over';" onblur="this.className='sbtxt';">College recruiting</a></div>
+				<li<% If spage = "collrecruiting" And tpage <> "career_compass" then Response.Write " style=""background: #eaf1f7;""" end if %>><div><a href="collrecruiting.asp" class="sbtxt" title="Campus Recruiting" onfocus="this.className='sbtxt-over';" onblur="this.className='sbtxt';">Campus Recruiting</a></div>
 <%	If mpage = "learnmore" And spage = "collrecruiting" Then %>
 				<li class="tertiary"<% if tpage = "career_compass" then Response.Write " style=""background: #eaf1f7;""" end if %>><div><a href="explore.asp" class="sbtxt" title="Career Compass" onfocus="this.className='sbtxt-over';" onblur="this.className='sbtxt';">College Career Compass</a></div>
 				</li>
@@ -113,7 +113,6 @@
 				<li class="tertiary"<% if tpage = "internships_program" then Response.Write " style=""background: #eaf1f7;""" end if %>><div><a href="internships_program.asp" class="sbtxt" title="Internships" onfocus="this.className='sbtxt-over';" onblur="this.className='sbtxt';">Internships</a></div>
 				</li>
 <%	End If %>
-				</li>
 				<li<% if spage = "globalloc" then Response.Write " style=""background: #eaf1f7;""" end if %>><div><a href="globalloc.asp" class="sbtxt" title="Global Locations" onfocus="this.className='sbtxt-over';" onblur="this.className='sbtxt';">Global locations</a></div>
 				</li>
 			</ul>

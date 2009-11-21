@@ -7,7 +7,7 @@
 <!-- #include file="associate/saulsberry.asp" -->
 					</div>
 <% End If  %>
-<a name="skipmaincontent"></a><H1 style="margin: 0px 12px 0px 12px;">Technology</H1>
+<a name="skipmaincontent"></a><H1 style="margin: 0px 12px 0px 12px;">Technology</H1><a href="#video" class="hlink">Shawn Saulsberry&acute;s Associate Testimonial Video</a>
 <p style="margin: 6px 12px 0px 12px;">
 The technological superiority of our systems is as important as the quality of the services and products we offer.  A highly experienced team, leading-edge initiatives, visible products and our commitment to training combine to form an environment of unparalleled opportunity for IT professionals.
 </p>
