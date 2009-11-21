@@ -1,11 +1,12 @@
 <% Response.Buffer=True 
-Dim title, mpage, spage, ada_href, ada_title, job_search_action, Metatag
-title = "Bank of America | Career | Equal Employment Opportunity and Affirmative Action Statement"
+Dim title, mpage, spage, ada_href, ada_title, job_search_action, Metatag%>
+<!-- #include file="../includes/breadcrumb.asp" -->
+<% title = breadcrumb & "Equal Employment Opportunity and Affirmative Action Statement"
 mpage = "overview"
 spage = "eeoc"
 ada_href = "../ada/eeoc.asp"
 page_self = "../overview/eeoc.asp"
-ada_title = "Bank of America | Career | Equal Employment Opportunity and Affirmative Action Statement"
+ada_title = breadcrumb & "Equal Employment Opportunity and Affirmative Action Statement"
 job_search_action = "../jobsearch/searchresult.asp"
 Dim flashPage
 flashPage = false

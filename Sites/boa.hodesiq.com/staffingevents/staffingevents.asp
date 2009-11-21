@@ -1,11 +1,12 @@
 <% Response.Buffer=True 
-Dim title, mpage, spage, ada_href, ada_title, job_search_action, Metatag
-title = "Bank of America | Career | Staffing Events"
+Dim title, mpage, spage, ada_href, ada_title, job_search_action, Metatag%>
+<!-- #include file="../includes/breadcrumb.asp" -->
+<% title = breadcrumb & "Staffing Events"
 mpage = "staffingevents"
 spage = ""
 ada_href = "../ada/staffingevents.asp"
 page_self = "../staffingevents/staffingevents.asp"
-ada_title = "Bank of America | Career | Staffing Events"
+ada_title = breadcrumb & "Staffing Events"
 job_search_action = "../jobsearch/searchresult.asp"
 Metatag="You can link to two sites to see where in the United States a representative from Bank of America will be present at a recruiting event."
 %>
