@@ -450,6 +450,17 @@ A.visited
     text-decoration: underline;
 }
 */
+
+.gg:hover, .gg-over
+{
+	font-size : 2.1em;
+	line-height : 2.1em;
+	font-weight : bold;
+	color: red;
+	background-color: transparent;
+	text-decoration: none;
+}
+
 A.g, A.g:visited
 {
 	font-family : Verdana, Helvetica, sans-serif;
