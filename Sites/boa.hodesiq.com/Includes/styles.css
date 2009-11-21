@@ -11,7 +11,7 @@ TD, TH
     font-family: Verdana, helvetica, sans-serif;
 }
 
-P, UL, LI, H2.p, H3.p, LABEL.p
+P, UL, LI, H2.p, H3.p, H3.pb, LABEL.p
 {
 	font-family : Verdana, Helvetica, sans-serif;
 	font-size : 1.0em;
@@ -74,7 +74,7 @@ H2.h1 span{
 	line-height: 1.0em;
 }
 
-H2, P.H2
+H2, H2.h2, H2.h2u, P.h2
 {
 	font-family : Verdana, Helvetica, sans-serif;
 	font-size : 1.0em;
@@ -85,6 +85,7 @@ H2, P.H2
     text-decoration: none;
     padding: 6px 0px 6px 0px;
 }
+H2.h2u { text-decoration: underline; }
 P.H2{padding: 0px 0px 0px 0px;}
 H2.hi
 {
@@ -120,6 +121,7 @@ H3, P.H3
     text-decoration: none;
     padding: 0px;
 }
+H3.pb {font-weight : bold;}
 
 H1.hidden, H2.hidden, H3.hidden, DIV.hidden, P.hidden, SPAN.hidden
 {
@@ -534,7 +536,7 @@ div.btn1 {
 	position: relative;
 }
 
-span.auraltext, a.hlink {
+span.auraltext, a.hlink, .hide-tab {
 	font-size: 0px;
 	left: -10000px;
 	top: -10000px;
@@ -558,3 +560,35 @@ INPUT.btnlink
 	text-align: left;  
 	text-decoration: underline;  	
 }
+
+
+
+DIV#lnav { position: relative; top: 0px; left: 0px; width: 160px; z-index: 1000000; background: Silver; text-align: left; }
+
+DIV#lnav ul, DIV#lnav div { margin: 0px; padding: 0px; z-index: 0; }
+DIV#lnav ul { list-style: none; margin: 0px 0px 0px 0px; background: Teal; }
+DIV#lnav li { margin: 0px; padding: 5px 0px 5px 0px; text-align: left; background: #cadceb; border-bottom: 1px solid #ffffff; width: 160px; }
+DIV#lnav li.home, DIV#lnav li.home ul.home li.home { padding-bottom: 0px; background: #eaf1f7; }
+
+DIV#lnav li ul { position: absolute; left: -999em; margin: 0px; border: 1px solid #7F99B2; border-bottom: none; }
+DIV#lnav li ul.home, DIV#lnav li:hover ul.home, DIV#lnav li.fover ul.home { position: relative; left: 0px; top: 0px; margin: 5px 0px 0px -6px; border: none; }
+DIV#lnav li:hover ul, DIV#lnav li:focus ul, DIV#lnav li.fover ul { left: 155px; margin: 0px;  z-index: 1000001; }
+DIV#lnav li:hover ul#jobareas, DIV#lnav li:focus ul#jobareas, DIV#lnav li.fover ul#jobareas { top: 45px; }
+DIV#lnav li:hover ul#relinfo, DIV#lnav li:focus ul#relinfo, DIV#lnav li.fover ul#relinfo { top: 68px; }
+DIV#lnav li:hover ul#relinfo2, DIV#lnav li:focus ul#relinfo2, DIV#lnav li.fover ul#relinfo2 { top: 298px; }
+
+
+DIV#lnav ul li ul li { margin: 0px; padding: 5px 0px 5px 0px; text-align: left; background: #cadceb; border-top: none; border-bottom: 1px solid #7F99B2;   width: 160px;}
+
+DIV#lnav ul li ul.home li { margin: 0px; padding: 5px 0px 5px 0px; text-align: left; background: #cadceb; border-top: 1px solid #ffffff; border-bottom: none;   width: 160px;}
+
+DIV#lnav li a.g, DIV#lnav li a.g-over { line-height: 1.2em; padding: 0px 0px 0px 0px;}
+DIV#lnav ul div { padding: 0px 6px 0px 6px;}
+DIV#lnav li.home div { padding: 0px 0px 0px 6px;}
+DIV#lnav li.home div ul li div { padding: 0px 0px 0px 12px;}
+
+DIV#lnav li ul.home li.tertiary, DIV#lnav li:hover ul.home li.tertiary, DIV#lnav li.fover ul.home li.tertiary { position: inherit; left: 0px; top: 0px; margin: 0px 0px 0px 0px; border-top: 1px solid #ffffff; border-bottom: none; }
+DIV#lnav li ul.home li.tertiary div { padding: 0px 0px 0px 18px; }
+
+P.step {width: 400px; text-align: center; margin: 0px; padding: 0px; float: right;}
+.middot { font-size: 2.0em; line-height: 0.1em; }

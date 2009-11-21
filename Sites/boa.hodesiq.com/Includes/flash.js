@@ -130,11 +130,11 @@ var hasRequestedVersion = DetectFlashVer(requiredMajorVersion, requiredMinorVers
 
 var hiddenFlash = '<a class="auraltext" href="#skipflash" onFocus="hover(this,\'show-tab\'); this.focus();" onblur="hover(this,\'auraltext\')">Skip Flash content<\/a><br>';
 	hiddenFlash += '<object tabindex="0" onmousedown="if(document.getElementById(\'skipflash2\')) document.getElementById(\'skipflash2\').focus();" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"  codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="310" height="390" title="virtualhost" id="ShockwaveFlash1">';
-	hiddenFlash += '<param name="movie" value="http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/virtualhost.swf" />';
+	hiddenFlash += '<param name="movie" value="http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/boa_vh.swf" />';
 	hiddenFlash += '<param name="quality" value="high" />';
 	hiddenFlash += '<param value="transparent" name="wmode" />';
 	hiddenFlash += '<param name="allowScriptAccess" value="always" />';
-	hiddenFlash += '<embed src="http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/virtualhost.swf" wmode="transparent" allowScriptAccess="always" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="310" height="390"><\/embed>';
+	hiddenFlash += '<embed src="http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/boa_vh.swf" wmode="transparent" allowScriptAccess="always" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="310" height="390"><\/embed>';
 	hiddenFlash += '<\/object>';
 
 var bc_ns = '<a class="auraltext" href="JavaScript: ow(\'bc_ns\');" onFocus="hover(this,\'show-tab\');" onblur="hover(this,\'auraltext\');" title="'+accessFlash+'">'+accessFlash+'<\/a><a class="auraltext" href="#skipflash" onFocus="hover(this,\'show-tab\');" onblur="hover(this,\'auraltext\');" title="Skip Flash content">Skip Flash content<\/a>';

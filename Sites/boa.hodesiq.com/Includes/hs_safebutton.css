@@ -23,6 +23,6 @@ a.ie-btn:hover, a.ie-btn-over {color: #C7D2DC;}
 div.ie-btn {font-family : Verdana, Geneva, Arial, Helvetica, sans-serif; border-right: 1px solid #000000; border-bottom: 1px solid #000000; border-top:1px solid #CBE3FF; border-left:1px solid #B7CFEB;}
 
 
-input.btn, a.btn, a.btn-over{font-family:Verdana, Geneva, Arial, Helvetica, sans-serif; font-size: 0.77em; font-weight: bold; color: #ffffff; background:#366496; border-right: 2px solid #000000; border-bottom: 2px solid #000000; border-top: 2px solid #CBE3FF; border-left: 2px solid #B7CFEB; width: auto; padding: 2px 4px 2px 4px;}
+input.btn, button.btn, a.btn, a.btn-over{font-family:Verdana, Geneva, Arial, Helvetica, sans-serif; font-size: 0.77em; font-weight: bold; color: #ffffff; background:#366496; border-right: 2px solid #000000; border-bottom: 2px solid #000000; border-top: 2px solid #CBE3FF; border-left: 2px solid #B7CFEB; width: auto; padding: 2px 4px 2px 4px;}
 
 input.btn { display:block;}
