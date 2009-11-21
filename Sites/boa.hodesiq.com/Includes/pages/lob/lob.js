@@ -93,12 +93,12 @@ function JSGetSwfVer(i){
 
 function DetectFlashVer(reqMajorVer, reqMinorVer, reqRevision) {
  	
-	reqVer = parseFloat(reqMajorVer + "." + reqRevision);
+	var reqVer = parseFloat(reqMajorVer + "." + reqRevision);
 	if(isIE && isWin && !isOpera){
 		return JSGetSwfVerIE();
 	}else{
 		for (i=25;i>0;i--) {
-			versionStr = JSGetSwfVer(i);
+			var versionStr = JSGetSwfVer(i);
 			
 			if (versionStr == -1) {
 				return false;
@@ -128,7 +128,7 @@ function DetectFlashVer(reqMajorVer, reqMinorVer, reqRevision) {
 
 requiredMajorVersion = 8;
 requiredVersion = 8;
-hasRequestedVersion = DetectFlashVer(requiredMajorVersion, requiredMinorVersion, requiredRevision);
+var hasRequestedVersion = DetectFlashVer(requiredMajorVersion, requiredMinorVersion, requiredRevision);
 
 if(!window.MM_swapImage)
 {
@@ -147,7 +147,8 @@ var reqFlashPlayer = '<a href="http://www.adobe.com/shockwave/download/download.
 var reqFlashPlayer2 = '" width="259" height="166" alt="This video requires Adobe Flash Player version '+requiredMajorVersion+'. Please download latest version." border="0" \/><\/a>';
 
 function getHTMLControl(objname,w,h,play,pause,stop,ada,mute,ccoc)
-{	w = (w == 0?"100%":w);
+{
+	w = (w == 0?"100%":w);
 	var html_control = '<table border="0" cellspacing="0" cellpadding="0" bgcolor="#d4001a" width="'+w+'">';
 	html_control += '<tr>';
 	if(play || pause || stop)
@@ -203,17 +204,39 @@ function getHTMLControl(objname,w,h,play,pause,stop,ada,mute,ccoc)
 
 
 
-var mutted = false, action_script = false;
+var videoplaying, action_script = false;
 function doPassVar(objname,args)
 {
-	var vo = $x(objname);
-	if(vo = eval("window.document."+objname))
+	var vo = eval("window.document."+objname);
+	if(vo)
 	{
 		switch(objname)
 		{
 			case 'ansvideo':
-				enableVideo();
-				stopResponce();
+				//enableVideo();
+				//stopResponce();
+				var sendText = args;
+				vo.SetVariable("myVar", sendText);
+				switch(sendText)
+				{
+					case 'play':
+						stopVideo("javaflash");
+						createStopAudio('ansvideo');
+						videoplaying = 'ansvideo';
+					break;
+					case 'pause':
+						if(!videoplaying || videoplaying=='ansvideo') removeStopAudio();
+					break;
+					case 'stop':
+						if(!videoplaying || videoplaying=='ansvideo') removeStopAudio();
+					break;
+					case 'mute':
+						if(!videoplaying || videoplaying=='ansvideo') createStopAudio('ansvideo');
+					break;
+					case 'ccoc':
+						if(!videoplaying || videoplaying=='ansvideo') createStopAudio('ansvideo');
+					break;
+				}
 			break;
 			case 'javaflash':
 				var sendText = args;
@@ -221,20 +244,21 @@ function doPassVar(objname,args)
 				switch(sendText)
 				{
 					case 'play':
-						if(!mutted) createStopAudio();
+						stopVideo("ansvideo");
+						createStopAudio('javaflash');
+						videoplaying = 'ansvideo';
 					break;
 					case 'pause':
+						if(!videoplaying || videoplaying=='javaflash') removeStopAudio();
 					break;
 					case 'stop':
-						removeStopAudio();
+						if(!videoplaying || videoplaying=='javaflash') removeStopAudio();
 					break;
 					case 'mute':
-						if(mutted) {mutted = false;}
-						else {mutted = true;}
-						createStopAudio();
+						if(!videoplaying || videoplaying=='javaflash') createStopAudio('javaflash');
 					break;
 					case 'ccoc':
-						createStopAudio();
+						if(!videoplaying || videoplaying=='javaflash') createStopAudio('javaflash');
 					break;
 				}
 			break;
@@ -244,13 +268,14 @@ function doPassVar(objname,args)
 	}
 }
 
-function createStopAudio()
+function createStopAudio(objname)
 {
+	removeStopAudio();
 	if(document.body.firstChild)
 	{
 		var new_a = document.getElementById("stopaudio");
 		if(!new_a) new_a = document.createElement("a");
-		new_a.href = "JavaScript: if(window.doPassVar) doPassVar('mute');";
+		new_a.href = "JavaScript: if(window.doPassVar) doPassVar('"+objname+"','mute');";
 		new_a.innerHTML = "Stop Audio";
 		new_a.title = "Stop Audio";
 		new_a.id = "stopaudio";
@@ -262,7 +287,7 @@ function createStopAudio()
 	{
 		if(!document.getElementById("stopaudio"))
 			document.body.insertAdjacentHTML("afterBegin",'<div id="stopaudio"></div>');
-		document.getElementById("stopaudio").innerHTML = '<a href="JavaScript: if(window.doPassVar) doPassVar(\'mute\');" class="hlink"'+' title="'+'Stop Audio'+'">'+'Stop Audio'+'<\/a>';
+		document.getElementById("stopaudio").innerHTML = '<a href="JavaScript: if(window.doPassVar) doPassVar(\''+objname+'\',\'mute\');" class="hlink"'+' title="'+'Stop Audio'+'">'+'Stop Audio'+'<\/a>';
 		document.getElementById("stopaudio").style.display = "inline";
 	}
 	
@@ -282,6 +307,7 @@ function removeStopAudio()
 			document.getElementById("stopaudio").style.display = "none";
 		}
 	}
+	videoplaying = null;
 }
 
 var mv, vthumb, vthumb_off;
@@ -292,11 +318,13 @@ function playVideo(video,play,pause,stop,ada,mute,ccoc)
 	if(!vthumb_off) vthumb_off=$x("videothumb_off");
 	if(video && mv && vthumb && vthumb_off)
 	{
-		mv.innerHTML = getVideo(video.url,259,166,"javaflash","") + strReplace(strReplace(strReplace(strReplace(getHTMLControl("javaflash",259,22,play,pause,stop,ada,mute,ccoc),"<text>","Video transcript"),"<title>","Video transcript"),"<href>",ada_href),"<anchor>",video.ada_anchor);
+		mv.innerHTML = getVideo(video,259,166,"javaflash","") + strReplace(strReplace(strReplace(strReplace(getHTMLControl("javaflash",259,22,play,pause,stop,ada,mute,ccoc),"<text>","Video transcript"),"<title>","Video transcript"),"<href>",ada_href),"<anchor>",video.ada_anchor);
 		mv.style.display = "inline";
 		vthumb.style.display = "none";
 		vthumb_off.style.display = "none";
-		if(action_script) createStopAudio();
+		stopVideo("ansvideo");
+		if(action_script) createStopAudio('javaflash');
+		videoplaying = 'javaflash';
 	}
 }
 function disableVideo()
@@ -311,6 +339,7 @@ function disableVideo()
 		vthumb.style.display = "none";
 		vthumb_off.style.display = "inline";
 		if(action_script) removeStopAudio();
+		videoplaying = null;
 	}
 }
 function enableVideo()
@@ -324,65 +353,115 @@ function enableVideo()
 		mv.style.display = "none";
 		vthumb.style.display = "inline";
 		vthumb_off.style.display = "none";
+		videoplaying = 'javaflash';
 	}
 }
 
+function stopVideo(objname)
+{
+	if(!mv) mv=$x("mainvideo");
+	var vo = eval("window.document."+objname);
+	if(vo && (objname != "javaflash" || mv.style.display == "inline"))
+	{
+		doPassVar(objname,"stop");
+		videoplaying = null;
+	}
+}
+var flashplayer = new fpvideo("../Includes/flashplayer.swf",259,166);
+
+function fpvideo(swf_url,w,h)
+{
+	this.swf_url = swf_url;
+	this.w = w;
+	this.h = h;
+}
+
 var craig_video, jeremy_video, michael_video, fairbrother_video, diaz_video, saulsberry_video, price_video, cambra_video, chen_video, shuwen_video;
-craig_video = new fvideo("http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/DITL_TESTIMONIAL/swf/craig_test.swf",
+craig_video = new fvideo(
+					flashplayer.swf_url,
+					"http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/DITL_TESTIMONIAL/craig_test.flv",
+					flashplayer,
 					"#vt",
 					"../Includes/pages/lob/thumbnails/craig_on.jpg",
 					"../Includes/pages/lob/thumbnails/craig_off.jpg",
 					null
 					);
-jeremy_video = new fvideo("http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/DITL_TESTIMONIAL/swf/jeremy_test.swf",
+jeremy_video = new fvideo(
+					flashplayer.swf_url,
+					"http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/DITL_TESTIMONIAL/jeremy_test.flv",
+					flashplayer,
 					"#vt",
 					"../Includes/pages/lob/thumbnails/jeremy_on.jpg",
 					"../Includes/pages/lob/thumbnails/jeremy_off.jpg",
 					null
 					);
-michael_video = new fvideo("http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/DITL_TESTIMONIAL/swf/michael_test.swf",
+michael_video = new fvideo(
+					flashplayer.swf_url,
+					"http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/DITL_TESTIMONIAL/michael_test.flv",
+					flashplayer,
 					"#vt",
 					"../Includes/pages/lob/thumbnails/michael_on.jpg",
 					"../Includes/pages/lob/thumbnails/michael_off.jpg",
 					null
 					);
-fairbrother_video = new fvideo("../Includes/pages/associate/Fairbrother.swf",
+fairbrother_video = new fvideo(
+					"../Includes/pages/associate/Fairbrother.swf",
+					false,
+					null,
 					"#vt",
 					"../Includes/pages/lob/thumbnails/fairbrother_on.jpg",
 					"../Includes/pages/lob/thumbnails/fairbrother_off.jpg",
 					null
 					);
-diaz_video = new fvideo("../Includes/pages/associate/Diaz.swf",
+diaz_video = new fvideo(
+					"../Includes/pages/associate/Diaz.swf",
+					false,
+					null,
 					"#vt",
 					"../Includes/pages/lob/thumbnails/diaz_on.jpg",
 					"../Includes/pages/lob/thumbnails/diaz_off.jpg",
 					null
 					);
-saulsberry_video = new fvideo("../Includes/pages/associate/Saulsberry.swf",
+saulsberry_video = new fvideo(
+					"../Includes/pages/associate/Saulsberry.swf",
+					false,
+					null,
 					"#vt",
 					"../Includes/pages/lob/thumbnails/saulsberry_on.jpg",
 					"../Includes/pages/lob/thumbnails/saulsberry_off.jpg",
 					null
 					);
-price_video = new fvideo("../Includes/pages/associate/Price.swf",
+price_video = new fvideo(
+					"../Includes/pages/associate/Price.swf",
+					false,
+					null,
 					"#vt",
 					"../Includes/pages/lob/thumbnails/price_on.jpg",
 					"../Includes/pages/lob/thumbnails/price_off.jpg",
 					null
 					);
-cambra_video = new fvideo("../Includes/pages/associate/Cambra.swf",
+cambra_video = new fvideo(
+					"../Includes/pages/associate/Cambra.swf",
+					false,
+					null,
 					"#vt",
 					"../Includes/pages/lob/thumbnails/cambra_on.jpg",
 					"../Includes/pages/lob/thumbnails/cambra_off.jpg",
 					null
 					);
-chen_video = new fvideo("../Includes/pages/associate/Chen.swf",
+chen_video = new fvideo(
+					"../Includes/pages/associate/Chen.swf",
+					false,
+					null,
 					"#vt",
 					"../Includes/pages/lob/thumbnails/chen_on.jpg",
 					"../Includes/pages/lob/thumbnails/chen_off.jpg",
 					null
 					);
-shuwen_video = new fvideo("http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/DITL_TESTIMONIAL/swf/Shu_Wen_OrginalSize.swf",
+shuwen_video = new fvideo(
+					flashplayer.swf_url,
+					"http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/DITL_TESTIMONIAL/Shu_Wen.flv",
+					flashplayer,
 					"#vt",
 					"../Includes/pages/lob/thumbnails/shuwen_on.jpg",
 					"../Includes/pages/lob/thumbnails/shuwen_off.jpg",
@@ -390,25 +469,37 @@ shuwen_video = new fvideo("http://http.vitalstreamcdn.com/hodesgroup_vitalstream
 					);
 
 var alejandro_a1, alejandro_a2, alejandro_a3, alejandro_a4;
-alejandro_a1 = new fvideo("http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/DITL_TESTIMONIAL/swf/alejandro_quest_1.swf",
+alejandro_a1 = new fvideo(
+					flashplayer.swf_url,
+					"http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/DITL_TESTIMONIAL/alejandro_quest_1.flv",
+					flashplayer,
 					"#answ1",
 					"../Includes/pages/lob/thumbnails/alejandro_on.jpg",
 					"../Includes/pages/lob/thumbnails/alejandro_on.jpg",
 					fairbrother_video
 					);
-alejandro_a2 = new fvideo("http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/DITL_TESTIMONIAL/swf/alejandro_quest_2.swf",
+alejandro_a2 = new fvideo(
+					flashplayer.swf_url,
+					"http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/DITL_TESTIMONIAL/alejandro_quest_2.flv",
+					flashplayer,
 					"#answ2",
 					"../Includes/pages/lob/thumbnails/alejandro_on.jpg",
 					"../Includes/pages/lob/thumbnails/alejandro_on.jpg",
 					fairbrother_video
 					);
-alejandro_a3 = new fvideo("http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/DITL_TESTIMONIAL/swf/alejandro_quest_3.swf",
+alejandro_a3 = new fvideo(
+					flashplayer.swf_url,
+					"http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/DITL_TESTIMONIAL/alejandro_quest_3.flv",
+					flashplayer,
 					"#answ3",
 					"../Includes/pages/lob/thumbnails/alejandro_on.jpg",
 					"../Includes/pages/lob/thumbnails/alejandro_on.jpg",
 					fairbrother_video
 					);
-alejandro_a4 = new fvideo("http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/DITL_TESTIMONIAL/swf/alejandro_quest_4.swf",
+alejandro_a4 = new fvideo(
+					flashplayer.swf_url,
+					"http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/DITL_TESTIMONIAL/alejandro_quest_4.flv",
+					flashplayer,
 					"#answ4",
 					"../Includes/pages/lob/thumbnails/alejandro_on.jpg",
 					"../Includes/pages/lob/thumbnails/alejandro_on.jpg",
@@ -416,19 +507,28 @@ alejandro_a4 = new fvideo("http://http.vitalstreamcdn.com/hodesgroup_vitalstream
 					);
 
 var andy_a1, andy_a2, andy_a3;
-andy_a1 = new fvideo("http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/DITL_TESTIMONIAL/swf/BOA_ANDY.swf",
+andy_a1 = new fvideo(
+					flashplayer.swf_url,
+					"http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/DITL_TESTIMONIAL/BOA_ANDY_PART1.flv",
+					flashplayer,
 					"#answ1",
 					"../Includes/pages/lob/thumbnails/andy_on.jpg",
 					"../Includes/pages/lob/thumbnails/andy_on.jpg",
 					saulsberry_video
 					);
-andy_a2 = new fvideo("http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/DITL_TESTIMONIAL/swf/BOA_ANDY.swf",
+andy_a2 = new fvideo(
+					flashplayer.swf_url,
+					"http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/DITL_TESTIMONIAL/BOA_ANDY_PART2.flv",
+					flashplayer,
 					"#answ2",
 					"../Includes/pages/lob/thumbnails/andy_on.jpg",
 					"../Includes/pages/lob/thumbnails/andy_on.jpg",
 					saulsberry_video
 					);
-andy_a3 = new fvideo("http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/DITL_TESTIMONIAL/swf/BOA_ANDY.swf",
+andy_a3 = new fvideo(
+					flashplayer.swf_url,
+					"http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/DITL_TESTIMONIAL/BOA_ANDY_PART3.flv",
+					flashplayer,
 					"#answ3",
 					"../Includes/pages/lob/thumbnails/andy_on.jpg",
 					"../Includes/pages/lob/thumbnails/andy_on.jpg",
@@ -436,19 +536,28 @@ andy_a3 = new fvideo("http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/
 					);
 
 var charles_a1, charles_a2, charles_a3;
-charles_a1 = new fvideo("http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/DITL_TESTIMONIAL/swf/charles_quest_1.swf",
+charles_a1 = new fvideo(
+					flashplayer.swf_url,
+					"http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/DITL_TESTIMONIAL/charles_quest_1.flv",
+					flashplayer,
 					"#answ1",
 					"../Includes/pages/lob/thumbnails/charles_on.jpg",
 					"../Includes/pages/lob/thumbnails/charles_on.jpg",
 					price_video
 					);
-charles_a2 = new fvideo("http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/DITL_TESTIMONIAL/swf/charles_quest_2.swf",
+charles_a2 = new fvideo(
+					flashplayer.swf_url,
+					"http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/DITL_TESTIMONIAL/charles_quest_2.flv",
+					flashplayer,
 					"#answ2",
 					"../Includes/pages/lob/thumbnails/charles_on.jpg",
 					"../Includes/pages/lob/thumbnails/charles_on.jpg",
 					price_video
 					);
-charles_a3 = new fvideo("http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/DITL_TESTIMONIAL/swf/charles_quest_3.swf",
+charles_a3 = new fvideo(
+					flashplayer.swf_url,
+					"http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/DITL_TESTIMONIAL/charles_quest_3.flv",
+					flashplayer,
 					"#answ3",
 					"../Includes/pages/lob/thumbnails/charles_on.jpg",
 					"../Includes/pages/lob/thumbnails/charles_on.jpg",
@@ -456,19 +565,28 @@ charles_a3 = new fvideo("http://http.vitalstreamcdn.com/hodesgroup_vitalstream_c
 					);
 
 var kim_a1, kim_a2, kim_a3;
-kim_a1 = new fvideo("http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/DITL_TESTIMONIAL/swf/kim_quest_1.swf",
+kim_a1 = new fvideo(
+					flashplayer.swf_url,
+					"http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/DITL_TESTIMONIAL/kim_quest_1.flv",
+					flashplayer,
 					"#answ1",
 					"../Includes/pages/lob/thumbnails/kim_on.jpg",
 					"../Includes/pages/lob/thumbnails/kim_on.jpg",
 					chen_video
 					);
-kim_a2 = new fvideo("http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/DITL_TESTIMONIAL/swf/kim_quest_2.swf",
+kim_a2 = new fvideo(
+					flashplayer.swf_url,
+					"http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/DITL_TESTIMONIAL/kim_quest_2.flv",
+					flashplayer,
 					"#answ2",
 					"../Includes/pages/lob/thumbnails/kim_on.jpg",
 					"../Includes/pages/lob/thumbnails/kim_on.jpg",
 					chen_video
 					);
-kim_a3 = new fvideo("http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/DITL_TESTIMONIAL/swf/kim_quest_3.swf",
+kim_a3 = new fvideo(
+					flashplayer.swf_url,
+					"http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/DITL_TESTIMONIAL/kim_quest_3.flv",
+					flashplayer,
 					"#answ3",
 					"../Includes/pages/lob/thumbnails/kim_on.jpg",
 					"../Includes/pages/lob/thumbnails/kim_on.jpg",
@@ -476,19 +594,28 @@ kim_a3 = new fvideo("http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/B
 					);
 
 var nancy_a1, nancy_a2, nancy_a3;
-nancy_a1 = new fvideo("http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/DITL_TESTIMONIAL/swf/nancy_quest_1.swf",
+nancy_a1 = new fvideo(
+					flashplayer.swf_url,
+					"http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/DITL_TESTIMONIAL/nancy_quest_1.flv",
+					flashplayer,
 					"#answ1",
 					"../Includes/pages/lob/thumbnails/nancy_on.jpg",
 					"../Includes/pages/lob/thumbnails/nancy_on.jpg",
 					craig_video
 					);
-nancy_a2 = new fvideo("http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/DITL_TESTIMONIAL/swf/nancy_quest_2.swf",
+nancy_a2 = new fvideo(
+					flashplayer.swf_url,
+					"http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/DITL_TESTIMONIAL/nancy_quest_2.flv",
+					flashplayer,
 					"#answ2",
 					"../Includes/pages/lob/thumbnails/nancy_on.jpg",
 					"../Includes/pages/lob/thumbnails/nancy_on.jpg",
 					craig_video
 					);
-nancy_a3 = new fvideo("http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/DITL_TESTIMONIAL/swf/nancy_quest_3.swf",
+nancy_a3 = new fvideo(
+					flashplayer.swf_url,
+					"http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/DITL_TESTIMONIAL/nancy_quest_3.flv",
+					flashplayer,
 					"#answ3",
 					"../Includes/pages/lob/thumbnails/nancy_on.jpg",
 					"../Includes/pages/lob/thumbnails/nancy_on.jpg",
@@ -496,19 +623,28 @@ nancy_a3 = new fvideo("http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com
 					);
 
 var ryan_a2, ryan_a3, ryan_a4;
-ryan_a2 = new fvideo("http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/DITL_TESTIMONIAL/swf/ryan_quest_2.swf",
+ryan_a2 = new fvideo(
+					flashplayer.swf_url,
+					"http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/DITL_TESTIMONIAL/ryan_quest_2.flv",
+					flashplayer,
 					"#answ2",
 					"../Includes/pages/lob/thumbnails/ryan_on.jpg",
 					"../Includes/pages/lob/thumbnails/ryan_on.jpg",
 					cambra_video
 					);
-ryan_a3 = new fvideo("http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/DITL_TESTIMONIAL/swf/ryan_quest_3.swf",
+ryan_a3 = new fvideo(
+					flashplayer.swf_url,
+					"http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/DITL_TESTIMONIAL/ryan_quest_3.flv",
+					flashplayer,
 					"#answ3",
 					"../Includes/pages/lob/thumbnails/ryan_on.jpg",
 					"../Includes/pages/lob/thumbnails/ryan_on.jpg",
 					cambra_video
 					);
-ryan_a4 = new fvideo("http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/DITL_TESTIMONIAL/swf/ryan_quest_4.swf",
+ryan_a4 = new fvideo(
+					flashplayer.swf_url,
+					"http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/DITL_TESTIMONIAL/ryan_quest_4.flv",
+					flashplayer,
 					"#answ4",
 					"../Includes/pages/lob/thumbnails/ryan_on.jpg",
 					"../Includes/pages/lob/thumbnails/ryan_on.jpg",
@@ -516,19 +652,28 @@ ryan_a4 = new fvideo("http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/
 					);
 
 var sheila_a1, sheila_a2, sheila_a3;
-sheila_a1 = new fvideo("http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/DITL_TESTIMONIAL/swf/sheila_quest_1.swf",
+sheila_a1 = new fvideo(
+					flashplayer.swf_url,
+					"http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/DITL_TESTIMONIAL/sheila_quest_1.flv",
+					flashplayer,
 					"#answ1",
 					"../Includes/pages/lob/thumbnails/sheila_on.jpg",
 					"../Includes/pages/lob/thumbnails/sheila_on.jpg",
 					shuwen_video
 					);
-sheila_a2 = new fvideo("http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/DITL_TESTIMONIAL/swf/sheila_quest_2.swf",
+sheila_a2 = new fvideo(
+					flashplayer.swf_url,
+					"http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/DITL_TESTIMONIAL/sheila_quest_2.flv",
+					flashplayer,
 					"#answ2",
 					"../Includes/pages/lob/thumbnails/sheila_on.jpg",
 					"../Includes/pages/lob/thumbnails/sheila_on.jpg",
 					shuwen_video
 					);
-sheila_a3 = new fvideo("http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/DITL_TESTIMONIAL/swf/sheila_quest_3.swf",
+sheila_a3 = new fvideo(
+					flashplayer.swf_url,
+					"http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/DITL_TESTIMONIAL/sheila_quest_3.flv",
+					flashplayer,
 					"#answ13",
 					"../Includes/pages/lob/thumbnails/sheila_on.jpg",
 					"../Includes/pages/lob/thumbnails/sheila_on.jpg",
@@ -536,25 +681,37 @@ sheila_a3 = new fvideo("http://http.vitalstreamcdn.com/hodesgroup_vitalstream_co
 					);
 
 var tammi_a1, tammi_a2, tammi_a3, tammi_a4;
-tammi_a1 = new fvideo("http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/DITL_TESTIMONIAL/swf/tammi_quest_1.swf",
+tammi_a1 = new fvideo(
+					flashplayer.swf_url,
+					"http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/DITL_TESTIMONIAL/tammi_quest_1.flv",
+					flashplayer,
 					"#answ1",
 					"../Includes/pages/lob/thumbnails/tammi_on.jpg",
 					"../Includes/pages/lob/thumbnails/tammi_on.jpg",
 					diaz_video
 					);
-tammi_a2 = new fvideo("http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/DITL_TESTIMONIAL/swf/tammi_quest_2.swf",
+tammi_a2 = new fvideo(
+					flashplayer.swf_url,
+					"http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/DITL_TESTIMONIAL/tammi_quest_2.flv",
+					flashplayer,
 					"#answ2",
 					"../Includes/pages/lob/thumbnails/tammi_on.jpg",
 					"../Includes/pages/lob/thumbnails/tammi_on.jpg",
 					diaz_video
 					);
-tammi_a3 = new fvideo("http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/DITL_TESTIMONIAL/swf/tammi_quest_3.swf",
+tammi_a3 = new fvideo(
+					flashplayer.swf_url,
+					"http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/DITL_TESTIMONIAL/tammi_quest_3.flv",
+					flashplayer,
 					"#answ3",
 					"../Includes/pages/lob/thumbnails/tammi_on.jpg",
 					"../Includes/pages/lob/thumbnails/tammi_on.jpg",
 					diaz_video
 					);
-tammi_a4 = new fvideo("http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/DITL_TESTIMONIAL/swf/tammi_quest_4.swf",
+tammi_a4 = new fvideo(
+					flashplayer.swf_url,
+					"http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/DITL_TESTIMONIAL/tammi_quest_4.flv",
+					flashplayer,
 					"#answ1",
 					"../Includes/pages/lob/thumbnails/tammi_on.jpg",
 					"../Includes/pages/lob/thumbnails/tammi_on.jpg",
@@ -562,36 +719,80 @@ tammi_a4 = new fvideo("http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com
 					);
 
 var tara_a1, tara_a2, tara_a3;
-tara_a1 = new fvideo("http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/DITL_TESTIMONIAL/swf/tara_quest_1.swf",
+tara_a1 = new fvideo(
+					flashplayer.swf_url,
+					"http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/DITL_TESTIMONIAL/tara_quest_1.flv",
+					flashplayer,
 					"#answ1",
 					"../Includes/pages/lob/thumbnails/tara_on.jpg",
 					"../Includes/pages/lob/thumbnails/tara_on.jpg",
 					jeremy_video
 					);
-tara_a2 = new fvideo("http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/DITL_TESTIMONIAL/swf/tara_quest_2.swf",
+tara_a2 = new fvideo(
+					flashplayer.swf_url,
+					"http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/DITL_TESTIMONIAL/tara_quest_2.flv",
+					flashplayer,
 					"#answ2",
 					"../Includes/pages/lob/thumbnails/tara_on.jpg",
 					"../Includes/pages/lob/thumbnails/tara_on.jpg",
 					jeremy_video
 					);
-tara_a3 = new fvideo("http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/DITL_TESTIMONIAL/swf/tara_quest_3.swf",
+tara_a3 = new fvideo(
+					flashplayer.swf_url,
+					"http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/DITL_TESTIMONIAL/tara_quest_3.flv",
+					flashplayer,
 					"#answ3",
 					"../Includes/pages/lob/thumbnails/tara_on.jpg",
 					"../Includes/pages/lob/thumbnails/tara_on.jpg",
 					jeremy_video
 					);
 
-function getVideo(swf_url,w,h,na_me,alt)
+function getVideo(video,w,h,na_me,alt)
 {
 	var vi_deo = '<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0" width="'+w+'" height="'+h+'" id="'+na_me+'" align="middle">';
 	vi_deo += '<param name="wmode" value="transparent">';
 	vi_deo += '<param name="allowScriptAccess" value="always" />';
-	vi_deo += '<param name="movie" value="'+swf_url+'"  />';
+	vi_deo += '<param name="movie" value="'+video.swf_url+'"  />';
+	if(video.flv_url) vi_deo += '<param name="FlashVars" value="var1='+video.flv_url+'" />';
 	vi_deo += '<param name="quality" value="high" />';
 	vi_deo += '<param name="loop" value="false" />';
 	vi_deo += '<param name="bgcolor" value="#ffffff" />';
-	vi_deo += '<embed src="'+swf_url+'" quality="high" bgcolor="#ffffff" width="'+w+'" height="'+h+'" alt="'+alt+'" name="'+na_me+'" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" wmode="transparent" swLiveConnect="true" loop="false"><\/embed>';
+	vi_deo += '<embed src="'+video.swf_url+'" quality="high" bgcolor="#ffffff" width="'+w+'" height="'+h+'" alt="'+alt+'" name="'+na_me+'" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" wmode="transparent" swLiveConnect="true" loop="false"'+(video.flv_url?(' FlashVars="var1='+video.flv_url+'"'):'')+'><\/embed>';
 	vi_deo += '<\/object>';
+	return vi_deo;
+}
+
+function getFAQVideo(video,w,h,na_me,alt)
+{
+	if(isIE) return getFAQIeVideo(video,w,h,na_me,alt);
+	else return getFAQFfVideo(video,w,h,na_me,alt);
+}
+function getFAQFfVideo(video,w,h,na_me,alt)
+{
+	var vi_deo = '<div style="width: '+w+'px; height: '+h+'px;"><object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0" width="'+(video.flv_url&&video.flashplayer?video.flashplayer.w:w)+'" height="'+(video.flv_url&&video.flashplayer?video.flashplayer.h:h)+'" id="'+na_me+'" align="middle">';
+	vi_deo += '<param name="wmode" value="transparent" />';
+	vi_deo += '<param name="allowScriptAccess" value="always" />';
+	vi_deo += '<param name="movie" value="'+video.swf_url+'"  />';
+	if(video.flv_url) vi_deo += '<param name="FlashVars" value="var1='+video.flv_url+'" />';
+	vi_deo += '<param name="quality" value="high" />';
+	vi_deo += '<param name="bgcolor" value="#ffffff" />';
+	vi_deo += '<param name="loop" value="false" />';
+	vi_deo += '<embed style="position: absolute; clip: rect('+h+'px, 0px, 0px, '+w+'px);" src="'+video.swf_url+'" quality="high" bgcolor="#ffffff" width="'+(video.flv_url&&video.flashplayer?video.flashplayer.w:w)+'" height="'+(video.flv_url&&video.flashplayer?video.flashplayer.h:h)+'" alt="'+alt+'" name="'+na_me+'" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" wmode="transparent" swLiveConnect="true" loop="false"'+(video.flv_url?(' FlashVars="var1='+video.flv_url+'"'):'')+'><\/embed>';
+	vi_deo += '<\/object><\/div>';
+	return vi_deo;
+}
+function getFAQIeVideo(video,w,h,na_me,alt)
+{
+	var vi_deo = '<div style=" width: '+w+'px; height: '+h+'px;"><div style="position: absolute; width: '+w+'px; height: '+h+'px;"><object style="" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0" width="'+(video.flv_url&&video.flashplayer?video.flashplayer.w:w)+'" height="'+(video.flv_url&&video.flashplayer?video.flashplayer.h:h)+'" id="'+na_me+'" align="middle">';
+	vi_deo += '<param name="wmode" value="transparent" />';
+	vi_deo += '<param name="allowScriptAccess" value="always" />';
+	vi_deo += '<param name="movie" value="'+video.swf_url+'"  />';
+	if(video.flv_url) vi_deo += '<param name="FlashVars" value="var1='+video.flv_url+'" />';
+	vi_deo += '<param name="quality" value="high" />';
+	vi_deo += '<param name="bgcolor" value="#ffffff" />';
+	vi_deo += '<param name="loop" value="false" />';
+	vi_deo += '<embed style="position: absolute; clip: rect('+h+'px, 0px, 0px, '+w+'px);" src="'+video.swf_url+'" quality="high" bgcolor="#ffffff" width="'+(video.flv_url&&video.flashplayer?video.flashplayer.w:w)+'" height="'+(video.flv_url&&video.flashplayer?video.flashplayer.h:h)+'" alt="'+alt+'" name="'+na_me+'" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" wmode="transparent" swLiveConnect="true" loop="false"'+(video.flv_url?(' FlashVars="var1='+video.flv_url+'"'):'')+'><\/embed>';
+	vi_deo += '<\/object><\/div><\/div>';
 	return vi_deo;
 }
 
@@ -609,16 +810,20 @@ function playResponce(s)
 		var v = false;
 		var vo = false;
 		if(pv && pv.getElementsByTagName("br")[0] && pv.getElementsByTagName("br")[0].className)
-			if(vo=eval(pv.getElementsByTagName("br")[0].className)) v = getVideo(vo.url,205,131,"ansvideo","");
-		if(pa && v){
+			if(vo=eval(pv.getElementsByTagName("br")[0].className)) v = getFAQVideo(vo,205,131,"ansvideo","");
+		if(pa && v)
+		{
 			if(pa_video) stopResponce();
 			pa_video = vo;
 			var pi = findChild(p,"img","pai");
 			if(pi) pa_img = pi;
 			if(pi) MM_swapImage(pi.name,"","../images/video_on_faq.gif",1);
-			disableVideo();
-			pa.innerHTML = v + strReplace(strReplace(strReplace(strReplace(getHTMLControl("ansvideo",205,22,false,false,true,true,false,false),"<text>","Video transcript"),"<title>","Video transcript"),"<href>",ada_href),"<anchor>",vo.ada_anchor);
-	}}
+			stopVideo("javaflash");//disableVideo();
+			createStopAudio('ansvideo');
+			pa.innerHTML = v + strReplace(strReplace(strReplace(strReplace(getHTMLControl("ansvideo",205,22,true,true,true,true,true,false),"<text>","Video transcript"),"<title>","Video transcript"),"<href>",ada_href),"<anchor>",vo.ada_anchor);
+			videoplaying = 'ansvideo';
+		}
+	}
 }
 
 function stopResponce()
@@ -626,7 +831,7 @@ function stopResponce()
 	if(!pa) pa=$x("panswer");
 	if(pa && pa_video)
 	{
-		pa.innerHTML = '<img style="margin: 0px;" src="'+pa_video.thumb_on+'" alt="" border="0" align="absmiddle">' + getHTMLControl("ansvideo",205,22,false,false,false,false,false,false);
+		pa.innerHTML = '<img style="margin: 0px;" src="'+pa_video.thumb_on+'" alt="" border="0" align="absmiddle">' + strReplace(strReplace(strReplace(strReplace(getHTMLControl("ansvideo",205,22,false,false,false,true,false,false),"<text>","Video transcript"),"<title>","Video transcript"),"<href>",ada_href),"<anchor>",pa_video.ada_anchor);
 	}
 	if(pa_img) MM_swapImage(pa_img.name,"","../images/video_off_faq.gif",1);
 	pa_video = null;
@@ -648,7 +853,7 @@ function findChild(s,tag,cls)
 			if(ch) return ch;
 		}
 	return false;
-}}}
+}return false;}return false;}
 function $x(pNd)
 {	try
 	{	var node;
@@ -660,9 +865,11 @@ function $x(pNd)
 	} catch(e){return false;}
 }
 
-function fvideo(url,ada_anchor,thumb_on,thumb_off,main_video)
+function fvideo(swf_url,flv_url,flashplayer,ada_anchor,thumb_on,thumb_off,main_video)
 {
-	this.url = url;
+	this.swf_url = swf_url;
+	this.flv_url = flv_url;
+	this.flashplayer = flashplayer;
 	this.ada_anchor = ada_anchor;
 	this.thumb_on = thumb_on;
 	this.thumb_off = thumb_off;

@@ -6,16 +6,16 @@ action_script = true;
 if ( hasRequestedVersion && shuwen_video ) {
 	document.write('<H2 class="hidden">Shu Wen&acute;s Associate Testimonial Video<\/H2>');
 	document.write('<div id="mainvideo" style="display: none;"><a name="video"></a>');
-	document.write(getVideo(shuwen_video.url,259,166,"javaflash",""));
-	document.write(strReplace(strReplace(strReplace(strReplace(getHTMLControl("javaflash",259,22,false,false,false,true,false,false),"<text>","Video transcript"),"<title>","Video transcript"),"<href>",ada_href),"<anchor>",shuwen_video.ada_anchor));
+	document.write(getVideo(shuwen_video,259,166,"javaflash",""));
+	document.write(strReplace(strReplace(strReplace(strReplace(getHTMLControl("javaflash",259,22,true,true,true,true,true,true),"<text>","Video transcript"),"<title>","Video transcript"),"<href>",ada_href),"<anchor>",shuwen_video.ada_anchor));
 	document.write('</div>');
 	document.write('<div id="videothumb">');
-	document.write('<a href="Javascript: vo_id();" onclick="playVideo(shuwen_video,false,false,false,true,false,false);"><img style="margin: 0px;" src="'+shuwen_video.thumb_on+'" alt="" border="0" align="absmiddle"></a>');
-	document.write(getHTMLControl("javaflash",259,22,false,false,false,false,false,false));
+	document.write('<a href="Javascript: vo_id();" onclick="playVideo(shuwen_video,true,true,true,true,true,true);"><img style="margin: 0px;" src="'+shuwen_video.thumb_on+'" alt="" border="0" align="absmiddle"></a>');
+	document.write(strReplace(strReplace(strReplace(strReplace(getHTMLControl("javaflash",259,22,false,false,false,true,false,false),"<text>","Video transcript"),"<title>","Video transcript"),"<href>",ada_href),"<anchor>",jeremy_video.ada_anchor));
 	document.write('</div>');
 	document.write('<div id="videothumb_off" style="display: none;">');
 	document.write('<img style="margin: 0px;" src="'+shuwen_video.thumb_off+'" alt="" border="0" align="absmiddle">');
-	document.write(getHTMLControl("javaflash",259,22,false,false,false,false,false,false));
+	document.write(strReplace(strReplace(strReplace(strReplace(getHTMLControl("javaflash",259,22,false,false,false,true,false,false),"<text>","Video transcript"),"<title>","Video transcript"),"<href>",ada_href),"<anchor>",jeremy_video.ada_anchor));
 	document.write('</div>');
 } else {
 	document.write(reqFlashPlayer+shuwen_video.thumb_on+reqFlashPlayer2);
@@ -43,18 +43,23 @@ data="http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/DITL_TESTIMO
 <div class="transcript">
 <a name="vt"></a><h2 class="h1" style="margin: 0px 0px 6px 0px;"><span>Video transcript</span></h2>
 <p>
->>Gretchen Cambra, Technology Personnel:  My name is Gretchen Cambra.<br>
-I'm a Human Resources Manager, and I support Global Technology and Operations, and I've been with the bank for six years.<br>
-Well, I think probably the best part about my job is there is no typical day.<br>
-Each day brings a new challenge, particularly in this role where I'm dealing with senior leaders and they're dealing with new challenges every day, whether it's business challenge, a technology challenge, a people challenge.<br>
-So really no one day looks the same.<br>
-I handle things such as organizational design and structure.<br>
-I handle things such as talent management and talent planning: Where are we getting our talent from?<br>
-How do we manage the talent that we have and really develop them?<br>
-All the way down to certain issues or daily items that might come up from an associate or manager perspective.
-My job is exciting.<br>
-No day looks the same.<br>
-The people that I work with are great and because you're working with people so much and so many different varieties of people, I mean, I support probably 800 in total and so with 800 people, you're bound to get just a number of different personalities, perspectives, experiences, cultures, diversity of thought and it's it's anything but boring.
+I have been at Bank of America for two years now and I currently work in the Global Markets Financial Exchange corporate sales group.  
+<br><br>
+I graduated from an accounting program from graduate school so the natural progression for most accountants is to go to one of the big firms.  I realized that the job in the banking industry at Bank of America would be one that is so much more interesting and dynamic and challenging.  
+<br><br>
+I love meeting new people and I love interacting with people and I think this is precisely the reason why I wanted to join the FX team.  Everyday there are new challenges and everyday you are working to meet these challenges and to make sure that the deals and your clients are fulfilled to the best.
+<br><br>
+My main functions are really to actually support my team in executing the FX trades and actually answering to client inquiries.
+<br><br>
+Every single second of every single minute the markets are actually moving.  We need to really execute the trades as soon as possible and we need to get the rates quickly from the traders, get it back to the client, let them know if there are any changes in the market, whether it's down or not and what other movements in the market are happening right now so they can make the decision as to whether or not they should execute the various hedging or trading positions. 
+<br><br>
+If and when there are any major moves or news in the market, we actually try to understand better, understand the moves in the market so we actually serve more of an advisory role in this sense.
+<br><br>
+My team consists of six people and I must say I really love my team a lot.  They have been very supportive of me, especially my boss.  A lot of guidance has been given to me from the start when I had to grasp the basics and foundation of the way to handle client accounts.  
+<br><br>
+I think Bank of America has a more open culture.  There's less bureaucracy and a lot more processes are definitely more efficient.  I think there's a lot of accession to senior management.  From the day I stepped in, until now, I believe my knowledge and skills have definitely improved a lot.  I have grown confidence in executing client trades and I'm actually doing client trades on a daily basis.
+<br><br>
+I'm trying to learn more on the derivatives side, the options products, because we do have clients who are interested in the more exotic options so that's why I want to learn more, so that I can hopefully, in the future when I handle these client accounts, I can serve them better.
 </p>
 <br>
 <a href="<%= standart_href%>" title="Return to standard page with video" class="p" onfocus="this.className='p-over';" onblur="this.className='p';">Return to standard page with video</a>

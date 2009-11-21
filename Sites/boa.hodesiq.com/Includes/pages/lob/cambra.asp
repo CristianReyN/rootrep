@@ -6,16 +6,16 @@ action_script = true;
 if ( hasRequestedVersion && cambra_video ) {
 	document.write('<H2 class="hidden">Gretchen Cambra&acute;s Associate Testimonial Video<\/H2>');
 	document.write('<div id="mainvideo" style="display: none;"><a name="video"></a>');
-	document.write(getVideo(cambra_video.url,259,166,"javaflash",""));
+	document.write(getVideo(cambra_video,259,166,"javaflash",""));
 	document.write(strReplace(strReplace(strReplace(strReplace(getHTMLControl("javaflash",259,22,true,true,true,true,true,true),"<text>","Video transcript"),"<title>","Video transcript"),"<href>",ada_href),"<anchor>",cambra_video.ada_anchor));
 	document.write('</div>');
 	document.write('<div id="videothumb">');
 	document.write('<a href="Javascript: vo_id();" onclick="playVideo(cambra_video,true,true,true,true,true,true);"><img style="margin: 0px;" src="'+cambra_video.thumb_on+'" alt="" border="0" align="absmiddle"></a>');
-	document.write(getHTMLControl("javaflash",259,22,false,false,false,false,false,false));
+	document.write(strReplace(strReplace(strReplace(strReplace(getHTMLControl("javaflash",259,22,false,false,false,true,false,false),"<text>","Video transcript"),"<title>","Video transcript"),"<href>",ada_href),"<anchor>",jeremy_video.ada_anchor));
 	document.write('</div>');
 	document.write('<div id="videothumb_off" style="display: none;">');
 	document.write('<img style="margin: 0px;" src="'+cambra_video.thumb_off+'" alt="" border="0" align="absmiddle">');
-	document.write(getHTMLControl("javaflash",259,22,false,false,false,false,false,false));
+	document.write(strReplace(strReplace(strReplace(strReplace(getHTMLControl("javaflash",259,22,false,false,false,true,false,false),"<text>","Video transcript"),"<title>","Video transcript"),"<href>",ada_href),"<anchor>",jeremy_video.ada_anchor));
 	document.write('</div>');
 } else {
 	document.write(reqFlashPlayer+cambra_video.thumb_on+reqFlashPlayer2);
