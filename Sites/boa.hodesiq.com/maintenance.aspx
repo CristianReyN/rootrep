@@ -1,9 +1,9 @@
-<%@ Page Language="C#" AutoEventWireup="true" CodeFile="maintenance.aspx.cs" Inherits="maintenance" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="maintenance.aspx.cs" Inherits="maintenance" %>
 
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head><meta http-equiv="content-type" content="text/html; charset=iso-8859-1" /><meta id="ctl00_metadescription" name="Description" content="Main page for job search functionality for careers site." /><title>
-	Bank of America | Career | Job Search
+	Bank of America | Careers | Job Search
 </title><link rel="stylesheet" href="includes/styles.css" type="text/css" /><link href="Includes/hs_safebutton.css" type="text/css" rel="stylesheet" />
 <script language="JavaScript1.2" src="includes/masthead.js" type="text/javascript"></script>
 <script language="JavaScript1.2" src="includes/mvc-fontsize.js" type="text/javascript"></script>
@@ -23,7 +23,7 @@ window.open(imnam,"pop","directory=no,height=450,width=500,toolbar=no,scrollbars
 <script language='javascript1.1' src='coremetrics/v40/eluminate.js'  type='text/javascript'></script>
 <script language='javascript1.1' src='coremetrics/cmdatatagutils.js' type='text/javascript'></script>
 <script language='javascript1.1' type='text/javascript'>
-//<!�
+//<!—
 cmCreatePageviewTag('Career | Job Search', null, null, 'career:jobsearch');
 //-->
 </script>

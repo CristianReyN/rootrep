@@ -60,7 +60,7 @@ public partial class BOAmaster : System.Web.UI.MasterPage
 
         string strScript = "";
         this.metadescription.Attributes["content"] = strContent;
-        this.Page.Title = "Bank of America | Career | " + strPageName;
+        this.Page.Title = "Bank of America | Careers | " + strPageName;
         
         strScript = "<!-- BEGIN COREMETRICS SUPPORT -->" + System.Environment.NewLine;
         strScript += "<script language='javascript1.1' src='coremetrics/v40/eluminate.js'  type='text/javascript'></script>" + System.Environment.NewLine;
