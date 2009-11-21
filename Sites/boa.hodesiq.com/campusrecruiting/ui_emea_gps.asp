@@ -1,14 +1,14 @@
 <% Response.Buffer=True 
 Dim title, mpage, spage, ada_href, ada_title, job_search_action, Metatag%>
 <!-- #include file="../includes/breadcrumb.asp" -->
-<% title = breadcrumb & "Campus Recruiting | Explore Careers | Undergraduate Internships | EMEA | Global Products Solutions"
+<% title = breadcrumb & "Campus Recruiting | Explore Careers | Undergraduate Internships | EMEA | Global Product Solutions"
 mpage = "camp"
 spage = "explore_careers"
 tpage = "internships"
 fpage = "ui_emea_gps"
 ada_href = "../ada_camp/ui_emea_gps.asp"
 page_self = "../campusrecruiting/ui_emea_gps.asp"
-ada_title = breadcrumb & "Campus Recruiting | Explore Careers | Undergraduate Internships | EMEA | Global Products Solutions"
+ada_title = breadcrumb & "Campus Recruiting | Explore Careers | Undergraduate Internships | EMEA | Global Product Solutions"
 job_search_action = "../jobsearch/searchresult.asp"
 Metatag=""
 Dim r1,r2,r3

@@ -1,7 +1,7 @@
 <% Response.Buffer=True 
 Dim title, mpage, spage, ada_href, ada_title, job_search_action,page_section, Metatag%>
 <!-- #include file="../includes/breadcrumb.asp" -->
-<% title = breadcrumb & "Campus Recruiting | Explore Careers | Undergraduate Internships | EMEA | Global Products Solutions"
+<% title = breadcrumb & "Campus Recruiting | Explore Careers | Undergraduate Internships | EMEA | Global Product Solutions"
 mpage = "camp"
 spage = "explore_careers"
 tpage = "internships"
