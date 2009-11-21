@@ -43,10 +43,10 @@
                                                 </tr>
                                                 <tr>
 													<td  valign="top" colspan="2" style="width:100%">
-														<asp:Label ID="lblCity" runat="server" Text="City" Visible="false" AssociatedControlID="ddlCity"></asp:Label><br />
+														<asp:Label ID="lblCity" runat="server" Text="City" Visible="true" AssociatedControlID="ddlCity"></asp:Label><br />
 														<span id="d3" style="display: inline;">
 															<asp:DropDownList ID="ddlCity" runat="server" CssClass="left" Style="width: 50%; z-index: auto;"
-															ToolTip="Select a City" Visible="false">
+															ToolTip="Select a City" Visible="true" Enabled="false">
 															<asp:ListItem>All Locations&#160;</asp:ListItem>
 															</asp:DropDownList>
 														</span>

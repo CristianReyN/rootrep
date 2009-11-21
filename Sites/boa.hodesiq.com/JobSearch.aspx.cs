@@ -118,11 +118,13 @@ public partial class JobSearch : System.Web.UI.Page
 			ddlCity.Visible = true;
 			ddlCity.SelectedIndex = 0;
 			lblCity.Visible = true;
+			ddlCity.Enabled = true;
 		}
 		else
 		{
-			ddlCity.Visible = false;
-			lblCity.Visible = false;
+			ddlCity.Enabled = false;
+			//lblCity.Visible = false;
+			ddlCity.SelectedIndex = -1;
 		}
 	}
 	protected void brefine_Click(object sender, EventArgs e)
