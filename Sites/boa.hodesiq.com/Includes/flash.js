@@ -162,7 +162,7 @@ var bc_cc = '<a class="auraltext" href="JavaScript: ow(\'bc_cc\');" onFocus="hov
 	bc_cc += '<\/div>';
 	
 function ow(fl) { 
-	var popWin = openWindow((fl=="bc_ns"?"http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/boa_career_cc_ada1.html":"http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/boa_career_cc_ada1.html"), "pdfPop", 590, 178, 0,0,1,"auto",1,0,0,0,true,0);
+	var popWin = openWindow((fl=="bc_ns"?"http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/boa_career_cc_ada.html":"http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/boa_career_cc_ada.html"), "videoPop", 590, 240, 0,0,1,1,1,0,0,0,true,0);
 	popWin.focus();
 }
 function openWindow(pageToLoad,winName,width,height,lo,me,re,sc,st,ti,to,ho,center,fs) { xposition=0; yposition=0; if ((parseInt(navigator.appVersion) >= 4 ) && (center)){ xposition = (screen.width - width) / 2; yposition = (screen.height - height) / 2; } args = "width=" + width + "," + "height=" + height + "," + "location="+lo+"," + "menubar="+me+"," + "resizable="+re+"," + "scrollbars="+sc+"," + "status="+st+"," + "titlebar="+ti+"," + "toolbar="+to+"," + "hotkeys="+ho+"," + "screenx=" + xposition + "," + "screeny=" + yposition + "," + "left=" + xposition + "," + "top=" + yposition + "," + "fullscreen=" + fs; return window.open( pageToLoad,winName,args);}
