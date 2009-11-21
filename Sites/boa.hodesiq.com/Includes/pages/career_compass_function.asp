@@ -11,7 +11,7 @@
 	
 	Dim page
 	Dim gd_ugd
-		d_ugd = G_D
+		gd_ugd = G_D
 	If page_number < 5 Then
 '************** GET PAGE ***************'
 		Set page = pages(page_number)
@@ -40,6 +40,7 @@
 				Next
 			End If
 		Next
+		'Response.write "gd_ugd: " & gd_ugd & "<br>"
 '************ SORT PROGRAMS ************'
 		Dim min_programs_per_page
 		'select all (31) programs

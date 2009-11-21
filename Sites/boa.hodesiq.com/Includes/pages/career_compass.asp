@@ -81,16 +81,28 @@
 							<td>
 <%		stop_points = 0
 		num_listed = 0
+		'Response.write "gd_ugd: " & gd_ugd & "<br>"
+		'Response.write "U_G_D: " & U_G_D & "<br>"
+		'Response.write "G_D: " & G_D & "<br>"
+		'Response.write "B_O_T_H: " & B_O_T_H & "<br>"
 		For sprg=1 To UBound(selected_programs) Step 1
 			'If sprg = min_programs_per_page Then stop_points = selected_program_points(sprg)
 			'If selected_program_points(sprg) > 0 And (sprg <= min_programs_per_page Or selected_program_points(sprg) >= stop_points) Then
 			program_index = selected_programs(sprg)
-			If selected_program_points(sprg) > 0 And programs(program_index).Item("is_active") And (programs(program_index).Item("gd_ugd") = gd_ugd Or programs(program_index).Item("gd_ugd") = B_O_T_H) And num_listed < min_programs_per_page Then
-				
-				programs(selected_programs(sprg)).Item("listed") = TRUE
+			Dim list_program
+			If programs(program_index).Item("gd_ugd") = gd_ugd Then
+				list_program = true
+			ElseIf programs(program_index).Item("gd_ugd") = B_O_T_H Then
+				list_program = true
+			Else
+				list_program = false
+			End If
+			'list_program = true
+			If selected_program_points(sprg) > 0 And programs(program_index).Item("is_active") And num_listed < min_programs_per_page And list_program Then
+				programs(program_index).Item("listed") = TRUE
 				num_listed = num_listed + 1
 %>
-<p style="margin: 0px 0px 12px 0px;"><a class="left2" href="<% Response.write programs(selected_programs(sprg)).Item("url") %>"><% Response.write programs(selected_programs(sprg)).Item("title") &" ("&programs(selected_programs(sprg)).Item("points")&")" &" ["&programs(selected_programs(sprg)).Item("gd_ugd")&"]" %></a></p>
+<p style="margin: 0px 0px 12px 0px;"><a class="left2" href="<% Response.write programs(program_index).Item("url") %>"><% Response.write programs(program_index).Item("title") &" ("&programs(program_index).Item("points")&")" &" ["&programs(program_index).Item("gd_ugd")&"]" %></a></p>
 <%			End If
 		Next %>
 
@@ -99,7 +111,7 @@
 			program_index = selected_programs(sprg)
 			If programs(program_index).Item("is_active") And (Not programs(program_index).Item("listed")) Then
 %>
-<p style="margin: 0px 0px 12px 0px;"><a class="left2" href="<% Response.write programs(selected_programs(sprg)).Item("url") %>"><% Response.write programs(selected_programs(sprg)).Item("title") &" ("&programs(selected_programs(sprg)).Item("points")&")" &" ["&programs(selected_programs(sprg)).Item("gd_ugd")&"]" %></a></p>
+<p style="margin: 0px 0px 12px 0px;"><a class="left2" href="<% Response.write programs(program_index).Item("url") %>"><% Response.write programs(program_index).Item("title") &" ("&programs(program_index).Item("points")&")" &" ["&programs(program_index).Item("gd_ugd")&"]" %></a></p>
 <%			End If
 		Next %>
 							</td>
