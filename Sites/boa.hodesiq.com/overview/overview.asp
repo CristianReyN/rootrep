@@ -74,37 +74,59 @@ var stopWABAudio = "<%=hide_flash_title2%>";
 
 var replayVideoHost = '<p style="margin: 0px;"><a href="Javascript: replayVirtualHost();" title="Replay Video Host" class="p" onfocus="this.className=\'p-over\';" onblur="this.className=\'p\';">Replay<br>video host<\/a><\/p>';
 var videoTranscripts = '<p style="margin: 6px 0px 0px 0px;"><a href="<%=ada_href %>" title="Video transcripts" class="p" onfocus="this.className=\'p-over\';" onblur="this.className=\'p\';">Video<br>transcripts<\/a><\/p>';
+function createStopAudio(fo_r)
+{
+	if(document.body.firstChild)
+	{
+		var new_a = document.createElement("a");
+		new_a.href = "JavaScript: if(window.hideFlash) hideFlash();";
+		new_a.innerHTML = fo_r;
+		new_a.title = fo_r;
+		new_a.className = "auraltext";
+		new_a.onfocus=function(){hover(this,'show-tab'); this.style.fontSize = "0.56em";}
+		new_a.onblur=function(){hover(this,'auraltext');}
+		document.body.insertBefore(new_a,document.body.firstChild);
+	}
+	else if (document.all)
+	{
+		if(!document.getElementById("stopaudio"))
+			document.body.insertAdjacentHTML("afterBegin",'<div id="stopaudio"></div>');
+		document.getElementById("stopaudio").innerHTML = '<a href="JavaScript: if(window.hideFlash) hideFlash();" class="auraltext" onfocus="hover(this,\'show-tab\'); this.style.fontSize = \'0.56em\';" onblur="hover(this,\'auraltext\');" title="'+fo_r+'">'+fo_r+'</a>';
+		document.getElementById("stopaudio").style.display = "inline";
+	}
+	
+}
 
+function removeStopAudio()
+{
+	if(document.body.firstChild)
+	{
+		document.body.removeChild(document.body.firstChild);
+	}
+	else if (document.all)
+	{
+		if(document.getElementById("stopaudio"))
+		{
+			document.getElementById("stopaudio").innerHTML = '';
+			document.getElementById("stopaudio").style.display = "none";
+		}
+	}
+}
+		
 function loadVideoHost()
 {
-	if(document.getElementById("tonly"))
-	{
-		document.getElementById("tonly").className = "auraltext";
-		document.getElementById("tonly").onfocus=function(){hover(this,'show-tab');}
-		document.getElementById("tonly").onblur=function(){hover(this,'auraltext');}
-	}
 	if(document.getElementById("flash_in")){
 	var playflash = getCookie("PFOT");
 	if(!playflash || playflash != "1")
 	{
 		document.getElementById("flash_in").innerHTML = hiddenFlash;
-		if(document.getElementById("tonly"))
-		{
-			document.getElementById("tonly").innerHTML = stopVHAudio;
-			document.getElementById("tonly").title = stopVHAudio;
-			document.getElementById("tonly").href = "JavaScript: if(window.hideFlash) hideFlash();";
-		}
+		createStopAudio(stopVHAudio);
 		setCookie("PFOT",1,10000);
 	}
 	else
 	{
 		document.getElementById("flash_in").innerHTML = helpLinks;
-		if(document.getElementById("tonly"))
-		{
-			document.getElementById("tonly").innerHTML = textOnlyVersion;
-			document.getElementById("tonly").title = textOnlyVersion;
-			document.getElementById("tonly").href = "<%=ada_href %>";
-		}
+		removeStopAudio();
 	}
 }
 if(document.getElementById("vtm1"))document.getElementById("vtm1").style.display = "none";

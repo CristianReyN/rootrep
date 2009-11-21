@@ -137,7 +137,7 @@ var hiddenFlash = '<a class="auraltext" href="#skipflash" onFocus="hover(this,\'
 	hiddenFlash += '<embed src="http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/virtualhost.swf" wmode="transparent" allowScriptAccess="always" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="310" height="390"><\/embed>';
 	hiddenFlash += '<\/object>';
 
-var bc_ns = '<a class="auraltext" href="#skipflash" onFocus="hover(this,\'show-tab\');" onblur="hover(this,\'auraltext\');">Skip Flash content<\/a>';
+var bc_ns = '<a class="auraltext" href="JavaScript: ow(\'bc_ns\');" onFocus="hover(this,\'show-tab\');" onblur="hover(this,\'auraltext\');" title="Click to access Flash">Click to access Flash<\/a><a class="auraltext" href="#skipflash" onFocus="hover(this,\'show-tab\');" onblur="hover(this,\'auraltext\');" title="Skip Flash content">Skip Flash content<\/a>';
 	bc_ns += '<div style="position: relative; top: 0; left: 0; ">';
 	bc_ns += '<object name="wabo" id="wabo" tabindex="0" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0" width="578" height="166" align="middle" title="Flash Animation" style="margin: 0px;">';
 	bc_ns += '<param name="allowScriptAccess" value="always" />';
@@ -149,7 +149,7 @@ var bc_ns = '<a class="auraltext" href="#skipflash" onFocus="hover(this,\'show-t
 	bc_ns += '<\/object>';
 	bc_ns += '<\/div>';
 
-var bc_cc = '<a class="auraltext" href="#skipflash" onFocus="hover(this,\'show-tab\');" onblur="hover(this,\'auraltext\');">Skip Flash content<\/a>';
+var bc_cc = '<a class="auraltext" href="JavaScript: ow(\'bc_cc\');" onFocus="hover(this,\'show-tab\');" onblur="hover(this,\'auraltext\');" title="Click to access Flash">Click to access Flash<\/a><a class="auraltext" href="#skipflash" onFocus="hover(this,\'show-tab\');" onblur="hover(this,\'auraltext\');" title="Skip Flash content">Skip Flash content<\/a>';
 	bc_cc += '<div style="position: relative; top: 0; left: 0; ">';
 	bc_cc += '<object name="wabo" id="wabo" tabindex="0" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0" width="578" height="166" align="middle" title="Flash Animation" style="margin: 0px;">';
 	bc_cc += '<param name="allowScriptAccess" value="always" />';
@@ -160,3 +160,9 @@ var bc_cc = '<a class="auraltext" href="#skipflash" onFocus="hover(this,\'show-t
 	bc_cc += '<embed name="wabe" id="wabe" src="http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/boa_OPP_cc.swf" wmode="transparent" quality="high" bgcolor="#ffffff" width="578" height="166" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" style="margin: 0px;" /><\/embed>';
 	bc_cc += '<\/object>';
 	bc_cc += '<\/div>';
+	
+function ow(fl) { 
+	var popWin = openWindow((fl=="bc_ns"?"http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/boa_career_cc_ada1.html":"http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/boa_career_cc_ada1.html"), "pdfPop", 590, 178, 0,0,1,"auto",1,0,0,0,true,0);
+	popWin.focus();
+}
+function openWindow(pageToLoad,winName,width,height,lo,me,re,sc,st,ti,to,ho,center,fs) { xposition=0; yposition=0; if ((parseInt(navigator.appVersion) >= 4 ) && (center)){ xposition = (screen.width - width) / 2; yposition = (screen.height - height) / 2; } args = "width=" + width + "," + "height=" + height + "," + "location="+lo+"," + "menubar="+me+"," + "resizable="+re+"," + "scrollbars="+sc+"," + "status="+st+"," + "titlebar="+ti+"," + "toolbar="+to+"," + "hotkeys="+ho+"," + "screenx=" + xposition + "," + "screeny=" + yposition + "," + "left=" + xposition + "," + "top=" + yposition + "," + "fullscreen=" + fs; return window.open( pageToLoad,winName,args);}
