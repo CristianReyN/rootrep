@@ -7,6 +7,24 @@
 
 <p style="margin: 12px 0px 0px 0px;">
 The bank's commitment to supporting a diverse workforce has earned Bank of America significant public recognition.</p>
+
+<H2 class="p" style="margin: 12px 0px 6px 0px; padding: 0px;"><span class="bd"><b>In 2008</b></span></H2>
+<ul>
+
+	<li>Bank of America ranked No. 3 on <b><i>DiversityInc</i></b> magazine's "Top 50 Companies for Diversity" annual list. The bank received special recognition on three specialty lists: Top Companies for Latinos, Top Companies for Supplier Diversity and Top Companies for Recruitment and Retention.</li>
+
+	<li>The <b><i>Long Island GLBT Services Network</i></b> recognized Bank of America as one of the best companies for supporting GLBT individuals.</li>
+	
+	<li>For the sixth time, <b><i>Women's Business Enterprise National Council (WBENC)</i></b> recognized Bank of America as one of America's Top Corporations for Women's Business Enterprises (WBEs). The 2007 award was presented March 20, 2008, to Bank of America for its companywide programs offering equal access for WBEs in competing for, and winning, corporate contracts for goods and services.</li>
+
+	<li>During the eighth annual Legacy Awards held in Kansas City in January, the <b><i>Negro Leagues Baseball Museum (NLBM)</i></b> proudly presented Bank of America with the Buck O'Neil Legacy Award in recognition of the bank's outstanding support of the NLBM.</li>
+
+	<li>Bank of America received <b><i>Conceive magazine's</i></b> "Top 50 Best Companies" award for offering generous fertility and/or adoption benefits. The bank and its family-building benefits will be featured in the magazine's cover story in the Spring 2008 issue.</li>
+
+	<li>Recognized by the <b><i>Greenlining Institute</i></b> as the No. 1 Small Business Administration (SBA) lender to minorities. The Institute produces an annual report card that grades banks based on their rate of lending to African-Americans, Asian-Americans and Latinos; Bank of America received the only A with 1,422 loans made. The bank was also recognized as the top SBA lender in the nation for the 10th consecutive year.</li>
+
+</ul>
+	
 <H2 class="p" style="margin: 12px 0px 6px 0px; padding: 0px;"><span class="bd"><b>In 2007:</b></span></H2>
 <ul>
 	<li>For the 19th year, Bank of America has been recognized as one of the "100 Best Companies" for working mothers by <b><i>Working Mother Magazine</i></b>.</li>
@@ -33,8 +51,6 @@ The bank's commitment to supporting a diverse workforce has earned Bank of Ameri
 
 	<li>Geri Thomas, Global Consumer and Small Business Banking Staffing Executive and Global Diversity and Inclusion Executive, was featured in March and June issue of <b><i>DiversityInc</i></b> magazine and in the March issue of Minority Business News. In April she spoke at The Conference Board's "Diversity" conference. She also received an award from the Trumpet Awards Foundation in January.</li>
 
-	<li>Sanjay Gupta, Global Consumer and Small Business Banking Marketing Executive, was featured in profiles of <b><i>Diversity Journal</i></b> May issue on Asian Americans in the workplace.</li>
-
 	<li>Jim Eckerle, Corporate Enterprise Initiative Development executive, was featured in the June issue of <b><i>The Advocate</i></b> magazine about the banks GLBT efforts.</li>
 
 	<li>The Bank of America Charitable Foundation donated $300,000 to the <b><i>Negro Leagues Baseball Museum</i></b> (NLBM) to support two traveling exhibitions - one to Historically Black Colleges and Universities and African-American Museums across the country over the next three years and one for a concourse exhibition at ten Major League ballparks.</li>
@@ -46,6 +62,20 @@ The bank's commitment to supporting a diverse workforce has earned Bank of Ameri
 	<li><b><i>IT Senior Management Forum (ITSMF)</i></b> recognized Bank of America as the 2007 Organization of the Year.  This award is presented annually to an organization that has shown leadership in the areas of developing and embracing a diverse workforce.</li>
 
 	<li><b><i>Jungle Magazine</i></b>, a publication targeted to MBA and college graduates, in an independent survey, ranked the Bank of America as one of the top 20 preferred employer's by minority MBA's. Bank of America also placed in the top ten amongst African American respondents and in the top 20 amongst Asian American respondents.</li>
+
+	<li>For the second year in a row, the <b><i>Human Rights Campaign Corporate Equality Index</i></b> gave Bank of America 100% for its support of Gay, Lesbian, Bisexual and Transgender associates.</li>
+
+	<li><b><i>GI Jobs magazine</i></b> recognized the bank as one of the "Top 50 Military Friendly Employers" for the second year in a row. The bank ranked No. 42 up two spots from the previous year.</li>
+
+	<li><b><i>U.S. Banker</i></b> honored Global Risk Executive Amy Brinkley and Global Technology & Operations Executive Barbara Desoer in its "25 Most Powerful Women in Banking."</li>
+
+	<li><b><i>Fortune magazine</i></b> recognized Global Risk Executive, Amy Brinkley as one of the "50 Most Powerful Women in Business."</li>
+
+	<li><b><i>The Wall Street Journal</i></b> named Global Risk Executive, Amy Brinkley and Frances Aldrich Sevilla-Sacasa, president, U.S. Trust, Bank of America Wealth Management in its annual "50 Women to Watch" issue.</li>
+
+	<li><b><i>Careers & the Disabled magazine</i></b> ranked the bank No. 23 in the 17th annual "Top 50 Companies" for supporting people with disabilities.</li>
+
+	<li><b><i>Latin American Community</i></b> named Bank of America Corporate Partner of the Year by the Latin American Community Center during the Annual Grand Ball, Un Toque de Carnaval. The award recognizes the bank's extraordinary effort and commitment to the growth and expansion of the Latin American community.</li>
 
 </ul>
 

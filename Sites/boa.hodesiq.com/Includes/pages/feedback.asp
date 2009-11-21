@@ -9,8 +9,10 @@
 <div id="Layer1" style="position: relative; z-index: 12; width: 500px;">
 	<%	href_pre = ""
 		if page_section <> "ADA" then href_pre = "../feedback/" %>
-<p style="margin: 0px;">Bank of America is committed to building and maintaining a world-class Careers web site.</p>
-<p style="margin: 12px 0px 6px 0px;">To that end, we welcome your feedback. Please take a moment to provide us with any comments or suggestions on how we might improve the content or the overall user experience of the site.</p>
+<p style="margin: 0px;">Bank of America is committed to building and maintaining a world-class Careers web site. To that end, we welcome your feedback.</p>
+<p style="margin: 12px 0px 6px 0px;">Please take a moment to provide us with any comments or suggestions on how we might improve the content or the overall user experience of the site. Please note: this message is the only correspondence you will receive related to your submission.</p>
+<p style="margin: 12px 0px 6px 0px;">If you are interested in applying for a current career opportunity, you are most likely to receive a direct and timely response by submitting your resume via the <a href="../jobsearch.aspx" class="p">job search</a> section of the site.
+</p>
 <p style="margin: 12px 0px 6px 0px;">Thanks for your input.</p>
 <br>
 <p style="margin: 12px 0px 3px 0px;">Your comments/suggestions</p>

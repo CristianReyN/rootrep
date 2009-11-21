@@ -44,7 +44,7 @@
 <p style="margin: <% If page_section = "ADA" Then %>12<% Else %>0<%End If%>px <%=right_margin_split%>px 0px <%=left_margin_0%>px;">
 At Bank&nbsp;of&nbsp;America, we believe that the right people form the critical cornerstone of our foundation for growth. With more than 30,000 technologists working from across the corners of globe, we are focused on providing innovative and creative technology solutions, leading to literally billions of opportunities to "touch" our customer every month. Building a world-class, global workforce is critical to our priorities and we have many exciting opportunities to take your career higher - part of our commitment to being the employer of choice.
 <br><br>
-Global Technology &amp; Operations builds and maintains a world-class data network linking more than 5,700 banking centers, 17,000+ ATMs and the nation's leading online banking and bill pay service. Global Technology &amp; Operations runs multiple data centers while providing support for tens of thousands of desktops throughout the corporation.
+Global Technology &amp; Operations builds and maintains a world-class data network linking more than 6,000 banking centers, 18,000+ ATMs and the nation's leading online banking and bill pay service. Global Technology &amp; Operations runs multiple data centers while providing support for tens of thousands of desktops throughout the corporation.
 <br><br>
 The technological superiority of our systems is as important as the quality of the services and products we offer. A highly experienced team, leading-edge initiatives, visible products and our commitment to training add up to an environment of unparalleled opportunity for dedicated technical professionals.
 </p>
