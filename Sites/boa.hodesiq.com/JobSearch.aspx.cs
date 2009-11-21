@@ -29,8 +29,7 @@ public partial class JobSearch : System.Web.UI.Page
     private int RecPerPage = 12;
     protected void Page_Load(object sender, EventArgs e)
     {
-
-		checknotfound();
+        checknotfound();
 		//init hidden location value
         ddlStatehidden.Value = ddlState.SelectedItem.Value.Trim();
         if (ddlStatehidden.Value == "All Locations") ddlStatehidden.Value = "-1";
