@@ -10,8 +10,8 @@
                     <tr>
                         <td valign="top" colspan="3">To find a career suited to your skill set, select a job area from the list below. Then you may narrow your selection further by choosing additional search criteria and/or entering keywords. 
                             <br /><br />
-                            <script type="text/javascript">document.write("<span class='auraltext'>After you select your state from the Location field, the page will refresh. You will then be able to select your city from the ‘City’ field.</span>");</script> 
-                            <noscript>After you select your state from the Location field, click on the link ‘Select Cities’. The page will refresh. You will then be able to select your city from the ‘City’ field.</noscript> 
+                            <script type="text/javascript">document.write("<span class='auraltext'>After you select your state from the Location field, the page will refresh. You will then be able to select your city from the 'City' field.</span>");</script> 
+                            <noscript>After you select your state from the Location field, click on the link 'Select Cities'. The page will refresh. You will then be able to select your city from the 'City' field.</noscript> 
                             <br /><br />
                             Bank of America associates should access the <a href="http://www.bankofamerica.com/careers/index.cfm?template=jobs_interstitial" id="ctl00_cphmain_lnkInternal" title="Internal Jobs Database" class="p" onblur="this.className='p';" onfocus="this.className='p-over';">internal jobs database</a>.
                         </td>
