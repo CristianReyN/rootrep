@@ -2,7 +2,7 @@
 		<table width="578" cellpadding="0" cellspacing="0" border="0" summary="">
 			<tr valign="top">
 				<td width="373" height="100%" valign="top" style="<%=middle_content_padding%>">
-<a name="skipmaincontent"></a><h1 class="bac">EMEA Global Markets Intern Analyst</h1>
+<a name="skipmaincontent"></a><h1 class="bac">Global Markets</h1>
 <h2 class="bac">Our Business</h2>
 <p class="bac">
 World-class debt origination and syndication require premier sales, trading, research and capital markets capabilities. Our sales force maintains active relationships with a broad universe of institutional investors, and our traders are highly experienced at making markets and delivering exceptional execution on behalf of our clients. Our research specialists deliver strategic, forward-looking analyses to help clients evaluate relative value and risk characteristics of various credits, whereas our debt capital markets specialist teams deliver creative solutions for issuers and investors across all asset classes, including high grade, high yield, asset–backed securities, mortgage–backed securities and syndicated loans.

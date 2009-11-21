@@ -29,14 +29,6 @@ Learn about some of the ways Bank of America is making a difference in the commu
 <p style="margin-top: 6px;">
 Learn what to expect as you apply and interview for a position with Bank of America.</p>
 
-<H2 class="p" style="margin: 0px; padding: 0px;"><a href="<% if page_section <> "ADA" then Response.write "../learnmore/collrecruiting.asp" Else Response.write "collrecruiting.asp" End If%>" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="Campus recruiting">Campus recruiting</a></H2>
-<p style="margin-top: 6px;">
-New associates will find fertile ground in which to build valuable skills, network and discover rewarding career paths.</p>
-
-<H2 class="p" style="margin: 0px; padding: 0px;"><a href="<%=GLOBAL_URL%><% if page_section = "ADA" then %>ada/<% End If %>" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="Global locations">Global locations</a></H2>
-<p style="margin-top: 6px;">
-With offices in more than 30 countries, we support our clients' activities around the world and partner with leading corporations of all sizes.</p>
-
 <H2 class="p" style="margin: 0px; padding: 0px;"><a href="<% if page_section <> "ADA" then Response.write "../learnmore/resume_interview_tips.asp" Else Response.write "resume_interview_tips.asp" End If%>" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="Resume &amp; interview tips">Resume &amp; interview tips</a></H2>
 <p style="margin-top: 6px;">
 Get basic advice on developing or updating your resume.</p>
