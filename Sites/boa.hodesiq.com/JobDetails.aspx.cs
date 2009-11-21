@@ -26,8 +26,11 @@ public partial class JobDetails : System.Web.UI.Page
     private string JobCartID = "";
 	private string srcvalue = string.Empty;
 
+	private string targetpage = string.Empty;
+
     protected void Page_Load(object sender, EventArgs e)
     {
+		targetpage = ConfigurationManager.AppSettings["targetpage"];
 		if (this.Request.UrlReferrer != null &&
 		(this.Request.UrlReferrer.ToString().ToLowerInvariant().Contains("jobsearch.aspx") || this.Request.UrlReferrer.ToString().ToLowerInvariant().Contains("advancesearch.aspx")
 			|| this.Request.UrlReferrer.ToString().ToLowerInvariant().Contains("jobdetails.aspx") || this.Request.UrlReferrer.ToString().ToLowerInvariant().Contains("tell_a_friend.aspx")))
@@ -59,7 +62,7 @@ public partial class JobDetails : System.Web.UI.Page
 			srcvalue = string.IsNullOrEmpty(Request["src"]) ? string.Empty : Request["src"];
 			ApplyURL = ConfigurationManager.AppSettings["taleoBaseURL"].Replace("{REQNOPLACEHOLDER}", dt.Rows[0]["reqNo"].ToString()) + srcvalue.Replace("-", "%2D"); 
 			//ApplyURL = dt.Rows[0]["ApplyURL"].ToString() + "&src=" + Request["src"];
-			this.hApplyNow.Value = "applyrd.aspx?" + HttpUtility.UrlEncode(ApplyURL);
+			this.hApplyNow.Value = targetpage + "?" + HttpUtility.UrlEncode(ApplyURL);
 
 		}
 		else

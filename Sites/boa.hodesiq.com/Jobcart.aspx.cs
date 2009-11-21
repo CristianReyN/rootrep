@@ -23,8 +23,13 @@ public partial class Jobcart : System.Web.UI.Page
     /// </summary>
     #endregion
     private string JobCartID = "";
+
+	private string targetpage = string.Empty;
+
     protected void Page_Load(object sender, EventArgs e)
     {
+		targetpage = ConfigurationManager.AppSettings["targetpage"];
+
 		//write the boa buttons
 		boanet_safebutton.writeBOASafeButton("Remove", phRemove, "Remove Selected", Remove_Click, this.Request, "");
         
@@ -115,7 +120,7 @@ public partial class Jobcart : System.Web.UI.Page
             MyApplyLink.ID = "hlnkApply" + e.Row.RowIndex;
             MyApplyLink.Text = "Apply Now <span class='auraltext'>For `" + DrvRow["JobTitle"].ToString() + "`. If you have any difficulties, refer to the above alternatives.</span>";
             //apply process goes trough clients page for hits counting:
-            MyApplyLink.NavigateUrl = "applyrd.aspx?" + HttpUtility.UrlEncode(DrvRow["APPLY_ONLINE_URL"].ToString());
+			MyApplyLink.NavigateUrl = targetpage + "?" + HttpUtility.UrlEncode(DrvRow["APPLY_ONLINE_URL"].ToString());
             //MyApplyLink.NavigateUrl = DrvRow["APPLY_ONLINE_URL"].ToString();
 
             MyLabel = (Label)e.Row.FindControl("lblCheckBox");
