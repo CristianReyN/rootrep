@@ -13,7 +13,7 @@ Metatag="Areas of Talent: Job families have been categorized into a particular a
 
 '****************************** ADDED FOR HOT JOB OPENING***************************
 Dim talentid,rowcount
-talentid=1 
+talentid=2 
 rowcount=6
 %>
 <!-- Header -->
