@@ -12,12 +12,12 @@ Dim flashPage
 flashPage = true
 hide_flash_title = "Stop Video"
 Metatag="Main page of the careers site. From this page you can listen to a virtual host who gives a quick tour to point in the direction of either engaging information, job search information or more in-depth information about employment with Bank of America. From this page you can job search to find if there is an opportunity available. You can click to more links about benefits, diversity, corporate information, college information, global locations and to Investment Banking Careers."
-'playflash = Request.Cookies("PFOT")
-'If playflash = "" Then
-'	Response.Cookies("PFOT") = "1"
-'	Response.Cookies("PFOT").Expires = "January 1,2038"
-'End If
-'If playflash = "1" Then flashPage = false
+playflash = Request.Cookies("PFOT")
+If playflash = "" Then
+	Response.Cookies("PFOT") = "1"
+	Response.Cookies("PFOT").Expires = "January 1,2038"
+End If
+If playflash = "1" Then flashPage = false
 %>
 <!-- #include file="../includes/header.asp" -->
 <!-- Header -->
