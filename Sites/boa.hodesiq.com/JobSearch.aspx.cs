@@ -29,7 +29,9 @@ public partial class JobSearch : System.Web.UI.Page
     private int RecPerPage = 12;
     protected void Page_Load(object sender, EventArgs e)
     {
-        //init hidden location value
+
+		checknotfound();
+		//init hidden location value
         ddlStatehidden.Value = ddlState.SelectedItem.Value.Trim();
         if (ddlStatehidden.Value == "All Locations") ddlStatehidden.Value = "-1";
 
@@ -282,7 +284,20 @@ public partial class JobSearch : System.Web.UI.Page
         Response.Redirect("AdvanceSearch.aspx");
     }
 
+	protected void checknotfound()
+	{
+		if (Request["nf"] == "1" && !this.IsPostBack)
+		{
+			this.nojobtext.Text = ConfigurationManager.AppSettings["jobnotfoundhtml"];
+			this.nojob.Style["display"] = "inline";
+		}
+		else
+		{
+			this.nojobtext.Text = string.Empty;
+			this.nojob.Style["display"] = "none";
+		}
 
+	}
 
 
 }

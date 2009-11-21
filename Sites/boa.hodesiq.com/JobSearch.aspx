@@ -2,6 +2,7 @@
     Language="C#" MasterPageFile="~/BOAmaster.master" Title="Search Page" %>
 
 <asp:Content ID="Content1" Runat="Server" ContentPlaceHolderID="cphmain">
+<div id="nojob" style="display:none" runat="server"><asp:Literal runat="server" ID="nojobtext" /></div>
 <h1 style="margin: 0px 0px 0px 12px; ">Guided Job Search</h1>
     <table summary="" border="0" cellpadding="0" cellspacing="0" width="578">
         <tr valign="top">

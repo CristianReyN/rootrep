@@ -17,6 +17,7 @@ public partial class JobDetails : System.Web.UI.Page
     // -----------	----------	    ----------
     //  11/27/06    Jonathan Do     (1) added LnkAddJobCart_OnClick
     //  12/05/06    Don Nguyen      (2) added Remove Job Cart links and functionality
+	//	01/11/08	Pat Sugar		(3) added logic to redirect to search page if jobid not found.
     /// </summary>
     #endregion
     private string ApplyURL = string.Empty;
@@ -35,29 +36,33 @@ public partial class JobDetails : System.Web.UI.Page
 
         Jobs Jobs = new Jobs();
         DataTable dt = Jobs.JobDetails(Request.QueryString["JobId"].ToString());
-        if (dt.Rows.Count > 0)
-        {
-            strJobID = dt.Rows[0]["JobsId"].ToString();
+		if (dt.Rows.Count > 0)
+		{
+			strJobID = dt.Rows[0]["JobsId"].ToString();
 
-            lblDescripton.Text = dt.Rows[0]["Description"].ToString();
-            lblJobTitle.InnerText = dt.Rows[0]["JobTitle"].ToString() + " : " + dt.Rows[0]["JobsId"].ToString();
-            lblLocation.Text = dt.Rows[0]["Location"].ToString();
-            lblLocationFooter.Text = dt.Rows[0]["Location"].ToString();
-            lblPartTimeFullTime.Text = dt.Rows[0]["FullPartTime"].ToString();
-            lblPostingDate.Text = dt.Rows[0]["PostingDate"].ToString();
-            lblSchedule.Text = dt.Rows[0]["WeeklySchedule"].ToString();
-            lblShift.Text = dt.Rows[0]["Shift"].ToString();
-            lblTravel.Text = dt.Rows[0]["Travel"].ToString();
-            lblUnpostingDate.Text = dt.Rows[0]["UnPostingDate"].ToString() ;
-            lblLanguage.Text = dt.Rows[0]["Language"].ToString();
-            lblJobFamily.Text = dt.Rows[0]["family"].ToString();
-            lblHoursPerWeek.Text = dt.Rows[0]["HrsPerWeek"].ToString();
-            lblQualification.Text = dt.Rows[0]["Qualification"].ToString();
-            //apply process goes trough clients page for hits counting:
-            ApplyURL = dt.Rows[0]["ApplyURL"].ToString();
-            this.hApplyNow.Value = "applyrd.aspx?" + HttpUtility.UrlEncode(ApplyURL);
+			lblDescripton.Text = dt.Rows[0]["Description"].ToString();
+			lblJobTitle.InnerText = dt.Rows[0]["JobTitle"].ToString() + " : " + dt.Rows[0]["JobsId"].ToString();
+			lblLocation.Text = dt.Rows[0]["Location"].ToString();
+			lblLocationFooter.Text = dt.Rows[0]["Location"].ToString();
+			lblPartTimeFullTime.Text = dt.Rows[0]["FullPartTime"].ToString();
+			lblPostingDate.Text = dt.Rows[0]["PostingDate"].ToString();
+			lblSchedule.Text = dt.Rows[0]["WeeklySchedule"].ToString();
+			lblShift.Text = dt.Rows[0]["Shift"].ToString();
+			lblTravel.Text = dt.Rows[0]["Travel"].ToString();
+			lblUnpostingDate.Text = dt.Rows[0]["UnPostingDate"].ToString();
+			lblLanguage.Text = dt.Rows[0]["Language"].ToString();
+			lblJobFamily.Text = dt.Rows[0]["family"].ToString();
+			lblHoursPerWeek.Text = dt.Rows[0]["HrsPerWeek"].ToString();
+			lblQualification.Text = dt.Rows[0]["Qualification"].ToString();
+			//apply process goes trough clients page for hits counting:
+			ApplyURL = dt.Rows[0]["ApplyURL"].ToString();
+			this.hApplyNow.Value = "applyrd.aspx?" + HttpUtility.UrlEncode(ApplyURL);
 
-        }
+		}
+		else
+		{
+			Response.Redirect(ConfigurationManager.AppSettings["jobnotfoundredirectpage"] + "?nf=1");
+		}
         if (Request.QueryString["SearchPage"].ToString() == "Sp")
         {
             returntoJobsearch.NavigateUrl = "jobsearch.aspx?" + Request.QueryString;
