@@ -40,6 +40,12 @@ Global Technology &amp; Operations builds and maintains a world-class data netwo
 <br><br>
 The technological superiority of our systems is as important as the quality of the services and products we offer. A highly experienced team, leading-edge initiatives, visible products and our commitment to training add up to an environment of unparalleled opportunity for dedicated technical professionals.
 </p>
+<img class="dotdiv" style="margin: 12px 0px 0px 0px;" src="../images/clear.gif" width="<%=(315-right_margin_split-left_margin_0)%>" height="1" alt="" border="0">
+<p style="margin: 6px 0px 0px 0px;" class="faqpa">
+<b>Bank of America Honors Technology Fellows</b>
+<br><a href="http://www.cnbc.com/id/22732536/" target="_blank" class="ip">Click here to learn more</a>
+</p>
+<img class="dotdiv" style="margin: 6px 0px 6px 0px;" src="../images/clear.gif" width="<%=(315-right_margin_split-left_margin_0)%>" height="1" alt="" border="0">
 <br>
 <H1 style="margin: 0px <%=right_margin%>px 0px <%=left_margin_0%>px; width: <%=(315-right_margin_split-left_margin_0)%>px;">Frequently Asked Questions</H1>
 <div style="margin: <% If page_section = "ADA" Then %>12<% Else %>0<%End If%>px <%=right_margin_split%>px 0px <%=left_margin_0%>px; width: <%=(315-right_margin_split-left_margin_0)%>px;">
@@ -54,11 +60,6 @@ The technological superiority of our systems is as important as the quality of t
 Click on a question below to play the video response.
 </p>
 <% End If %>
-<img class="dotdiv" style="margin: 6px 0px 0px 0px;" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
-<p style="margin: 6px 0px 0px 0px;" class="faqpa">
-<b>Bank of America Honors Technology Fellows</b>
-<br><a href="http://www.cnbc.com/id/22732536/" target="_blank" class="ip">Click here to learn more</a>
-</p>
 <img class="dotdiv" style="margin: 6px 0px 0px 0px;" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
 <p style="margin: 6px 0px 0px 0px;" class="faqpa">
 <b>What are some of the Cutting Edge technologies Bank of America supports and how does Innovation play a part in the development of new Products and Services?</b>
