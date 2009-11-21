@@ -383,6 +383,7 @@ public partial class CampusEvents : System.Web.UI.Page
         bool biz = (bool)Session["biz"];
         sortBy = (string)Session["sortBy"];
         up = (string)Session["up"];
+        regionId = regionElem.Value;
         SetSortFlags(sortBy);
         pageNo = Convert.ToInt32(Request["pageNum"]) - 1;
         pager.Intialize(ger.OutData.Regions[0].RegionEvents.Length, pageNo, pageSize);
@@ -396,6 +397,7 @@ public partial class CampusEvents : System.Web.UI.Page
         bool biz = (bool)Session["biz"];
         sortBy = (string)Session["sortBy"];
         up = (string)Session["up"];
+        regionId = regionElem.Value;
         SetSortFlags(sortBy);
         pageNo = Convert.ToInt32(Request["pageNum"]) - 1;
         pager.Intialize(ger.OutData.Regions[0].RegionEvents.Length, pageNo, pageSize);
@@ -429,6 +431,7 @@ public partial class CampusEvents : System.Web.UI.Page
         bool biz = (bool)Session["biz"];
         sortBy = (string)Session["sortBy"];
         up = (string)Session["up"];
+        regionId = regionElem.Value;
         SetSortFlags(sortBy);
         pageNo = Convert.ToInt32(Request["pageNum"]) + 1;
         pager.Intialize(ger.OutData.Regions[0].RegionEvents.Length, pageNo, pageSize);
@@ -442,6 +445,7 @@ public partial class CampusEvents : System.Web.UI.Page
         bool biz = (bool)Session["biz"];
         sortBy = (string)Session["sortBy"];
         up = (string)Session["up"];
+        regionId = regionElem.Value;
         SetSortFlags(sortBy);
         pageNo = Convert.ToInt32(Request["pageNum"]) + 1;
         pager.Intialize(ger.OutData.Regions[0].RegionEvents.Length, pageNo, pageSize);
