@@ -40,7 +40,7 @@ We are proud of Bank&nbsp;of&nbsp;America&#39;s legacy as a leader in corporate 
 	
 	<li>The bank was named for the third year in a row to the <b>Latin Business</b> magazine&#39;s "Corporate Diversity Honor Roll."</li>
 	
-	<li>Bank&nbsp;of&nbsp;America was named to <b>LATINAStyle</b> magazine&#39;s "Top 50 Companies" list. The magazine ranks the best companies in the United States for Latinas to work based on achievements in diversity and inclusion.</li>
+	<li>Bank&nbsp;of&nbsp;America was named to <b>LATINA <i>Style</i></b> magazine&#39;s "Top 50 Companies" list. The magazine ranks the best companies in the United States for Latinas to work based on achievements in diversity and inclusion.</li>
 </ul>
 
 <H2 class="p" style="margin: 12px 0px 6px 0px; padding: 0px;"><span class="bd"><b>Diversity Recruitment and Educational Commitment</b></span></H2>

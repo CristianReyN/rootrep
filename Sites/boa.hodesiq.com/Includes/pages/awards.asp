@@ -10,23 +10,23 @@ The bank&#39;s commitment to supporting a diverse workforce has earned Bank&nbsp
 
 <H2 class="p" style="margin: 12px 0px 6px 0px; padding: 0px;"><span class="bd"><b>In 2008</b></span></H2>
 <ul>
-	<li>Bank&nbsp;of&nbsp;America ranked No. 3 on <b><i>DiversityInc</i></b> magazine&#39;s "Top 50 Companies for Diversity" annual list. The bank received special recognition on three specialty lists: Top Companies for Latinos, Top Companies for Supplier Diversity and Top Companies for Recruitment and Retention.</li>
+	<li>Bank&nbsp;of&nbsp;America ranked No. 3 on <b>DiversityInc</b> magazine&#39;s "Top 50 Companies for Diversity" annual list. The bank received special recognition on three specialty lists: Top Companies for Latinos, Top Companies for Supplier Diversity and Top Companies for Recruitment and Retention.</li>
 
-	<li><b><i>Working Mother</i></b> magazine, for the 20th year, recognized Bank&nbsp;of&nbsp;America as one of the "100 Best Companies" for working mothers.</li>
+	<li><b>Working Mother</b> magazine, for the 20th year, recognized Bank&nbsp;of&nbsp;America as one of the "100 Best Companies" for working mothers.</li>
 
-	<li><b><i>Black Enterprise</i></b> magazine named Bank&nbsp;of&nbsp;America one of its "40 Best Companies for Diversity" for the fourth year in a row. The list evaluates a company&#39;s board representation, supplier diversity, associate networks, senior management and diversity programs.</li>
+	<li><b>Black Enterprise</b> magazine named Bank&nbsp;of&nbsp;America one of its "40 Best Companies for Diversity" for the fourth year in a row. The list evaluates a company&#39;s board representation, supplier diversity, associate networks, senior management and diversity programs.</li>
 
-	<li>Bank&nbsp;of&nbsp;America received top honors in the <b><i>National Association for the Advancement of Colored People (NAACP)&#39;s</i></b> Economic Reciprocity Initiative Report, which rates companies based on account employment, marketing/communications expenditures, supplier diversity, charitable/philanthropic giving and community service and reinvestment. The bank received a score of 3.45 out of 4, the highest score ever awarded to a company by the organization.</li>
+	<li>Bank&nbsp;of&nbsp;America received top honors in the <b>National Association for the Advancement of Colored People (NAACP)&#39;s</b> Economic Reciprocity Initiative Report, which rates companies based on account employment, marketing/communications expenditures, supplier diversity, charitable/philanthropic giving and community service and reinvestment. The bank received a score of 3.45 out of 4, the highest score ever awarded to a company by the organization.</li>
 
-	<li><b><i>Human Rights Campaign</i></b> again gave Bank&nbsp;of&nbsp;America a rating of 100% in its Corporate Equality Index for the third year in a row. The rating is based on the bank&#39;s policies and efforts to support its gay, lesbian, bisexual and transgender associates.</li>
+	<li><b>Human Rights Campaign</b> again gave Bank&nbsp;of&nbsp;America a rating of 100% in its Corporate Equality Index for the third year in a row. The rating is based on the bank&#39;s policies and efforts to support its gay, lesbian, bisexual and transgender associates.</li>
 
-	<li><b><i>GI Jobs</i></b> magazine ranked the bank No. 38 on its annual "Top 50 Military Friendly Employers". <b><i>GI Jobs</i></b> gives military personnel who are transitioning out of the military into civilian or traditional government jobs relevant and useful assistance as well as information on companies they may want to consider working for after their military service is complete.</li>
+	<li><b>GI Jobs</b> magazine ranked the bank No. 38 on its annual "Top 50 Military Friendly Employers". <b>GI Jobs</b> gives military personnel who are transitioning out of the military into civilian or traditional government jobs relevant and useful assistance as well as information on companies they may want to consider working for after their military service is complete.</li>
 
-	<li><b><i>Hispanic Business</i></b> magazine selected Bank&nbsp;of&nbsp;America as one of its "Top 60 Diversity Elite." The recognition is based on the bank&#39;s dedication to diversity.</li>
+	<li><b>Hispanic Business</b> magazine selected Bank&nbsp;of&nbsp;America as one of its "Top 60 Diversity Elite." The recognition is based on the bank&#39;s dedication to diversity.</li>
 
-	<li>The bank was named for the third year in a row to the <b><i>Latin Business</i></b> magazine&#39;s "Corporate Diversity Honor Roll."</li>
+	<li>The bank was named for the third year in a row to the <b>Latin Business</b> magazine&#39;s "Corporate Diversity Honor Roll."</li>
 
-	<li>Bank&nbsp;of&nbsp;America was named to <b><i>LATINAStyle</i></b> magazine&#39;s "Top 50 Companies" list. The magazine ranks the best companies in the United States for Latinas to work based on achievements in diversity and inclusion.</li>
+	<li>Bank&nbsp;of&nbsp;America was named to <b>LATINA <i>Style</i></b> magazine&#39;s "Top 50 Companies" list. The magazine ranks the best companies in the United States for Latinas to work based on achievements in diversity and inclusion.</li>
 
 </ul>
 
