@@ -1,5 +1,6 @@
 using System;
 using System.Data;
+using System.Data.OleDb;
 using System.Configuration;
 using System.Web;
 using System.Web.Security;
@@ -103,14 +104,25 @@ public class Jobs
 
     }
 
-    public DataTable Search()
+    public DataTable Search(string aot,string Jobfamily,string state,string city,string keywords)
     {
         DBUtils db;
         try
         {
-            Sql = string.Empty;
-            Sql = "select JobsID as JobID,JobTitle as JobName,Description as Location,PostingDate as Date from Jobs";
+            
             db = new DBUtils();
+            OleDbCommand cmd = new OleDbCommand("Sp_Career_Sites_select_search_results", db.GetConnection());
+            cmd.CommandType = CommandType.StoredProcedure;
+            cmd.Parameters.AddWithValue("@State", state);
+            cmd.Parameters.AddWithValue("@City", city);
+            cmd.Parameters.AddWithValue("@Family", Jobfamily);
+            cmd.Parameters.AddWithValue("@AreasOfTalent", aot);
+            cmd.Parameters.AddWithValue("@KeyWords", keywords);
+
+            OleDbDataAdapter da = new OleDbDataAdapter(cmd);
+            DataSet ds = new DataSet();
+            da.Fill(ds);
+            return ds.Tables[0];                        
         }
         catch (Exception ex)
         {

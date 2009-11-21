@@ -12,7 +12,7 @@ using System.IO;
 public class DBUtils
 {
     string ConnectionStr;
-
+    OleDbConnection con;   
 	public DBUtils()
 	{
         
@@ -28,19 +28,16 @@ public class DBUtils
     /// Db Connection String is fetched fro the UDL
     /// </summary>
     /// <returns>Connection String</returns>
-    private string GetConnectionString()
+    public OleDbConnection GetConnection()
     {
         try
         {
-
-            if (ConnectionStr == null)
-            {               
-                StreamReader sr = new StreamReader(@ConfigurationManager.AppSettings["StrUdlFileName"]);
-                ConnectionStr = sr.ReadToEnd().ToString();
-                ConnectionStr = ConnectionStr.Substring(ConnectionStr.IndexOf("Integrated Security"));
-                sr.Close();
+            if (con == null)
+            {
+                con = new OleDbConnection(ConfigurationManager.AppSettings["StrUdlFileName"]);
+                con.Open();
             }
-            return ConnectionStr;
+            return con;
         }
         catch(Exception ex)
         {
@@ -57,9 +54,8 @@ public class DBUtils
         DataSet ds = new DataSet();
         try
         {
-            OleDbConnection con = new OleDbConnection(ConfigurationManager.AppSettings["StrUdlFileName"]);
-            con.Open();
-            OleDbDataAdapter da = new OleDbDataAdapter(sql, con);
+
+            OleDbDataAdapter da = new OleDbDataAdapter(sql, GetConnection());
             da.Fill(ds);
             con.Close();
             
@@ -70,5 +66,5 @@ public class DBUtils
         }
         return ds.Tables[0]; 
     }
-
+    
 }

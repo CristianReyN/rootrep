@@ -65,19 +65,54 @@ public partial class JobSearch : System.Web.UI.Page
 
 
         Location Lo = new Location();
-
         City.Items.Clear();
         City.DataTextField = "City";
-        City.DataValueField = "Req_ID";
-        City.DataSource = Lo.StatewiseCity(State.SelectedValue.ToString());
+        City.DataValueField = "LocationId";
+        if (State.SelectedIndex ==0)
+        City.DataSource = Lo.StatewiseCity("1");
+        else
+        City.DataSource = Lo.StatewiseCity(State.SelectedItem.ToString());
         City.DataBind();
         City.Items.Insert(0, new ListItem("Select a City", ""));
         City.SelectedIndex = 0;
     }
     protected void bsearch_Click(object sender, EventArgs e)
     {
+        string aot;
+        string jf="";
+        string state;
+        string city;
+        string keywrd;
+        aot=areasoftalent.SelectedItem.Value.ToString();
+        for (int i = 0; i < jfamily.Items.Count; i++)
+        {
+            if (jfamily.Items[i].Selected)
+            {
+                if (jf == "")
+                    jf = jfamily.Items[i].Value.ToString();
+                else
+                    jf += "," + jfamily.Items[i].Value.ToString();
+            }
+        }
+        if (State.SelectedIndex == 0)
+        {
+            state = "1";
+        }
+        else
+        {
+            state = State.SelectedItem.Text.ToString();
+        }
+        if (City.SelectedIndex == 0)
+        {
+            city = "1";
+        }
+        else
+        {
+            city = City.SelectedItem.Text.ToString();
+        }
+        keywrd = keywords.Text;
         Jobs Job = new Jobs();
-        GrdResults.DataSource=Job.Search();
+        GrdResults.DataSource=Job.Search(aot,jf,state,city,keywrd);
         GrdResults.DataBind();
 
     }

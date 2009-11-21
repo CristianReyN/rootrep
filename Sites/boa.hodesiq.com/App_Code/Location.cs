@@ -1,5 +1,6 @@
 using System;
 using System.Data;
+using System.Data.OleDb;
 using System.Configuration;
 using System.Web;
 using System.Web.Security;
@@ -56,19 +57,22 @@ public class Location
         DBUtils db;
         try
         {
-            Sql = string.Empty;
-            if (StateVal != "")
-            {
-                //StrCondation = "where AOT.TalentID=" + StateVal;
-            }
-            Sql = "select City,Req_ID From Location";
+
             db = new DBUtils();
+            OleDbCommand cmd = new OleDbCommand("Sp_Career_Sites_select_City ", db.GetConnection());
+            cmd.CommandType = CommandType.StoredProcedure;
+            cmd.Parameters.AddWithValue("@State", StateVal);
+            OleDbDataAdapter da = new OleDbDataAdapter(cmd);
+            DataSet ds = new DataSet();
+            da.Fill(ds);
+            return ds.Tables[0];
         }
         catch (Exception ex)
         {
             throw ex;
         }
         return db.GetDataTable(Sql);
+
 
     }
 

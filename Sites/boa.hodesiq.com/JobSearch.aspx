@@ -86,19 +86,26 @@
                                                     </td>
                                                 </tr>
                                             </table>
-                                            <asp:GridView ID="GrdResults" runat="server" Height="119px" Width="554px" AutoGenerateColumns="False" CellPadding="0" GridLines="None" AllowPaging="True" AllowSorting="True" ToolTip="Search Results ">
+                                            <asp:GridView ID="GrdResults" runat="server" Width="554px" AutoGenerateColumns="False" CellPadding="0" GridLines="None" AllowPaging="True" AllowSorting="True" ToolTip="Search Results ">
                                                 <RowStyle BackColor="#CADCEB" Height="10px" />
                                                 <AlternatingRowStyle BackColor="#EAF1F7" Height="10px" />
                                                 <HeaderStyle Height="10px" BackColor="#EAF1F7" />
                                                 <Columns>
-                                                    <asp:HyperLinkField DataNavigateUrlFields="JobID" DataNavigateUrlFormatString="JobDetails.aspx?JobId={0}"  DataTextField="JobName" HeaderText="JobName">
+                                                    <asp:HyperLinkField DataNavigateUrlFields="JobsID" DataNavigateUrlFormatString="JobDetails.aspx?JobId={0}"
+                                                        DataTextField="JobName" HeaderText="JobName">
                                                         <HeaderStyle HorizontalAlign="Left" />
                                                     </asp:HyperLinkField>
                                                     <asp:BoundField DataField="Location" HeaderText="Location" >
                                                         <HeaderStyle HorizontalAlign="Left" />
                                                     </asp:BoundField>
+                                                    <asp:BoundField DataField="Date" HeaderText="Date">
+                                                        <HeaderStyle HorizontalAlign="Left" />
+                                                    </asp:BoundField>
                                                 </Columns>
                                                 <PagerStyle CssClass="mh-link1" />
+                                                <EmptyDataTemplate>
+                                                <b>There are no matching records found</b>
+                                                </EmptyDataTemplate>
                                             </asp:GridView>
                                         </td>
                                     </tr>
