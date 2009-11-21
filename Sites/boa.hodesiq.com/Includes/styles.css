@@ -534,7 +534,7 @@ div.btn1 {
 	position: relative;
 }
 
-span.auraltext {
+span.auraltext, a.hlink {
 	font-size: 0px;
 	left: -10000px;
 	top: -10000px;

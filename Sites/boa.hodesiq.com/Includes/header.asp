@@ -33,6 +33,7 @@ ada_title = ada_title  & ", " & textonly_version
 <%If mpage = "overview" Then %>
 <script language="javascript" type="text/javascript">
 //<!--
+var accessFlash = "<%=sccess_flash_title%>";
 document.write('<style type="text/css">.auraltext{font-size: 0px; left: -10000px; top: -10000px; position: absolute;}<\/style>');
 //-->
 </script>

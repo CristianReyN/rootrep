@@ -137,7 +137,7 @@ var hiddenFlash = '<a class="auraltext" href="#skipflash" onFocus="hover(this,\'
 	hiddenFlash += '<embed src="http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/virtualhost.swf" wmode="transparent" allowScriptAccess="always" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="310" height="390"><\/embed>';
 	hiddenFlash += '<\/object>';
 
-var bc_ns = '<a class="auraltext" href="JavaScript: ow(\'bc_ns\');" onFocus="hover(this,\'show-tab\');" onblur="hover(this,\'auraltext\');" title="Tab Enabled Video">Tab Enabled Video<\/a><a class="auraltext" href="#skipflash" onFocus="hover(this,\'show-tab\');" onblur="hover(this,\'auraltext\');" title="Skip Flash content">Skip Flash content<\/a>';
+var bc_ns = '<a class="auraltext" href="JavaScript: ow(\'bc_ns\');" onFocus="hover(this,\'show-tab\');" onblur="hover(this,\'auraltext\');" title="'+accessFlash+'">'+accessFlash+'<\/a><a class="auraltext" href="#skipflash" onFocus="hover(this,\'show-tab\');" onblur="hover(this,\'auraltext\');" title="Skip Flash content">Skip Flash content<\/a>';
 	bc_ns += '<div style="position: relative; top: 0; left: 0; ">';
 	bc_ns += '<object name="wabo" id="wabo" tabindex="0" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0" width="578" height="166" align="middle" title="Flash Animation" style="margin: 0px;">';
 	bc_ns += '<param name="allowScriptAccess" value="always" />';
@@ -149,7 +149,7 @@ var bc_ns = '<a class="auraltext" href="JavaScript: ow(\'bc_ns\');" onFocus="hov
 	bc_ns += '<\/object>';
 	bc_ns += '<\/div>';
 
-var bc_cc = '<a class="auraltext" href="JavaScript: ow(\'bc_cc\');" onFocus="hover(this,\'show-tab\');" onblur="hover(this,\'auraltext\');" title="Tab Enabled Video">Tab Enabled Video<\/a><a class="auraltext" href="#skipflash" onFocus="hover(this,\'show-tab\');" onblur="hover(this,\'auraltext\');" title="Skip Flash content">Skip Flash content<\/a>';
+var bc_cc = '<a class="auraltext" href="JavaScript: ow(\'bc_cc\');" onFocus="hover(this,\'show-tab\');" onblur="hover(this,\'auraltext\');" title="'+accessFlash+'">'+accessFlash+'<\/a><a class="auraltext" href="#skipflash" onFocus="hover(this,\'show-tab\');" onblur="hover(this,\'auraltext\');" title="Skip Flash content">Skip Flash content<\/a>';
 	bc_cc += '<div style="position: relative; top: 0; left: 0; ">';
 	bc_cc += '<object name="wabo" id="wabo" tabindex="0" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0" width="578" height="166" align="middle" title="Flash Animation" style="margin: 0px;">';
 	bc_cc += '<param name="allowScriptAccess" value="always" />';
