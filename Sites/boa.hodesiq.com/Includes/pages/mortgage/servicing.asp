@@ -14,7 +14,7 @@
 			<tr valign="top">
 				<td width="373" height="100%" valign="top" style="padding: 0px <%=right_margin%>px 0px <%=left_margin_0%>px;">
 <H1 class="hidden">Mortgage Servicing</H1>
-<p class="bacg">Our&nbsp;</p><H2 class="bacg">Loan Servicing</H2><p class="bacg">&nbsp;group (also referred to as Loan Administration) provides vital support to the Bank&#39;s Mortgage units through the completion of multiple tasks associated with the daily management of closed mortgage loans.  The successful administration of these duties bolsters our level of customer service, and continually strengthens our reputation as the world&#39;s most trusted lender.</p>
+<p class="bacg">Our&nbsp;</p><H2 class="bacg">Loan Servicing</H2><p class="bacg">&nbsp;group provides vital support to the Bank&#39;s&nbsp;Mortgage units through the completion of multiple tasks associated with the daily management of closed mortgage loans.  The successful administration of these duties bolsters our level of customer service, and continually strengthens our reputation as the world&#39;s most trusted lender.</p>
 <br><img src="../../images/clear.gif" width="10" height="12" alt="" border="0" /><br>
 <p class="bacg">These various tasks include, but may not be limited to: the application of monthly loan payments, administering the escrow account for the payment of property taxes and insurance, providing customer service, collecting on delinquent accounts, and various default servicing activities in an effort to help the borrower retain the property while mitigating losses to the bank and investor.</p>
 <br><img src="../../images/clear.gif" width="10" height="12" alt="" border="0" /><br>

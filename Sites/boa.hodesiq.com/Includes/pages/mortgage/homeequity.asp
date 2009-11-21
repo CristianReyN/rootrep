@@ -18,7 +18,7 @@
 <br><img src="../../images/clear.gif" width="10" height="12" alt="" border="0" /><br>
 <p class="bacg">Our <b>Home Equity</b> group is focused on helping our customers leverage the financial resources available to them &mdash; in the form of the equity they&#39;ve built in their homes &mdash; to achieve their financial goals, such as major home repairs, medical or other bills, and college tuition. Examples of some of the strategies we facilitate for our mortgage customers include:</p>
 <br><img src="../../images/clear.gif" width="10" height="12" alt="" border="0" /><br>
-<H2 class="bacg">Home Equity Loans</H2><p class="bacg">&nbsp;&mdash; a loan in which the borrower uses the equity in their home as collateral.  Often referred to as second mortgages, these loans are secured against the value of the property, and create a lien against the borrower&#39;s house, reducing the actual total home equity.</p>
+<H2 class="bacg">Home Equity Loans</H2><p class="bacg">&nbsp;&mdash; A loan in which the borrower uses the equity in their home as collateral.  Often referred to as second mortgages, these loans are secured against the value of the property, and create a lien against the borrower&#39;s house, reducing the actual total home equity.</p>
 <br><img src="../../images/clear.gif" width="10" height="12" alt="" border="0" /><br>
 <H2 class="bacg">Home Equity Lines of Credit</H2><p class="bacg">&nbsp;(HELOC) &mdash; The specific difference between a home equity loan and a HELOC is that HELOCs are lines of revolving credit with an adjustable interest rate, whereas a home equity loan is a one-time lump-sum loan, often with a fixed interest rate.</p>
 <br><img src="../../images/clear.gif" width="10" height="12" alt="" border="0" /><br>
