@@ -39,7 +39,7 @@ Our every action is focused on Bringing Opportunity Home for those we serve, ass
 	End If
 %>
 	<p style="margin: 12px <%=right_margin%>px 0px <%=left_margin_0%>px;">
-To meet this challenge, Bank&nbsp;of&nbsp;America relies on a world-class team of over 15,000 associates operating out of <a class="p" href="<%=href%>" title="Locations">locations</a> that include more than 1,000 field offices across the country.
+To meet this challenge, Bank&nbsp;of&nbsp;America relies on a world-class team of associates operating out of <a class="p" href="<%=href%>" title="Locations">locations</a> across the country.
 	</p>
 	<p style="margin: 12px <%=right_margin%>px 0px <%=left_margin_0%>px;">
 Individuals who choose to build a career at Bank&nbsp;of&nbsp;America Home Loans typically join in one of the following areas:
@@ -143,7 +143,7 @@ rowcount=6
 	<br><br>
 </div>
 <% If page_section = "ADA" Then %>
-<div style="float: right; margin: 0px 0px 0px 20px; padding: 0px; width: 201px;">
+<div style="float: right; margin: 0px 0px 0px 18px; padding: 0px; width: 203px;">
 	<!-- #include file="../mortgage/mortgagevideo.asp" -->
 <% ElseIf page_section <> "ADA" Then %>
 <div align="right" style="float: right; margin: 0px 0px 0px 20px; padding: 0px; width: 259px;">
