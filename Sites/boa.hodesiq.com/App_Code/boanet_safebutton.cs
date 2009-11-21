@@ -42,6 +42,7 @@ public static class boanet_safebutton
 		Button btnSubmit = new Button();
 		btnSubmit.ID = "btn" + id;
 		btnSubmit.Text = buttontext;
+        btnSubmit.ToolTip = buttontext;
 		btnSubmit.CssClass = "btn";
 		btnSubmit.Click += new EventHandler(onclickserverfunction);
 
@@ -67,6 +68,7 @@ public static class boanet_safebutton
 		l.Attributes.Add("onfocus", "bt_rollover(this,'" + cssType + "-btn-over" + "')");
 		l.Attributes.Add("onBlur", "bt_rollover(this,'" + cssType + "-btn" + "')");
 		l.Text = buttontext;
+        l.ToolTip = buttontext;
 		l.ID = "lb" + id;
 		d.Controls.Add(l);
 		td.Controls.Add(d);

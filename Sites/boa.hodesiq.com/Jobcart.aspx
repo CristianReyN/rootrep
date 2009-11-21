@@ -19,9 +19,19 @@
                     </tr>
                     <tr>
                         <td colspan="2" style="padding: 3px 0px 0px 0px;" valign="top">
-                            <asp:GridView ID="grdJobcart" runat="server" AutoGenerateColumns="false" Width="554px"
-                                BorderStyle="none" AlternatingRowStyle-BorderStyle="None" RowStyle-BorderStyle="None"
-                                AllowSorting="True" OnRowDataBound="grdJobcart_RowDataBound" BorderWidth="0px" EmptyDataText="Your job cart is empty." ToolTip="Job cart results">
+                            <asp:GridView 
+                            ID="grdJobcart" 
+                            runat="server" 
+                            AutoGenerateColumns="false" 
+                            Width="554px"
+                            BorderStyle="none" 
+                            AlternatingRowStyle-BorderStyle="None" 
+                            RowStyle-BorderStyle="None"
+                            AllowSorting="True" 
+                            OnRowDataBound="grdJobcart_RowDataBound" 
+                            BorderWidth="0px" 
+                            EmptyDataText="Your job cart is empty." 
+                            ToolTip="Job cart results">
                                 <RowStyle CssClass="C1" BorderStyle="None" />
                                 <AlternatingRowStyle CssClass="C2" BorderStyle="None" />
                                 <HeaderStyle BackColor="#EAF1F7" />
@@ -33,11 +43,13 @@
                                     <asp:BoundField DataField="Location" HeaderText="Location">
                                         <HeaderStyle HorizontalAlign="Left" />
                                     </asp:BoundField>
+                                    
                                     <asp:HyperLinkField DataNavigateUrlFields="APPLY_ONLINE_URL" 
-                                        HeaderText="Apply" Text="Apply now " AccessibleHeaderText="Apply now " Target="_blank">
+                                        HeaderText="Apply" Text="Apply now <noscript><span class='auraltext'>Apply now.</span></noscript>"  AccessibleHeaderText="Apply now " Target="_blank" >
                                         <HeaderStyle HorizontalAlign="Left" />
                                     </asp:HyperLinkField>
-                                    <asp:TemplateField HeaderText="Remove">
+                                    
+                                    <asp:TemplateField HeaderText="Remove" ItemStyle-HorizontalAlign="Center" >
                                         <ItemTemplate>
                                             <asp:CheckBox ID="ChkRemove" runat="server" />
                                         </ItemTemplate>

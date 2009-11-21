@@ -26,6 +26,9 @@ public partial class JobDetails : System.Web.UI.Page
     protected void Page_Load(object sender, EventArgs e)
     {
 
+        boanet_safebutton.writeBOASafeButton("Apply1", phApply1, " Apply Now ", Apply_Click, this.Request);
+        boanet_safebutton.writeBOASafeButton("Apply2", phApply2, " Apply Now ", Apply_Click, this.Request);
+
 		prepbuttons();
 
 		if (this.Request.UrlReferrer != null &&
@@ -55,9 +58,10 @@ public partial class JobDetails : System.Web.UI.Page
             lblJobFamily.Text = dt.Rows[0]["family"].ToString();
             lblHoursPerWeek.Text = dt.Rows[0]["HrsPerWeek"].ToString();
             lblQualification.Text = dt.Rows[0]["Qualification"].ToString();
-            ApplyURL = dt.Rows[0]["ApplyURL"].ToString();
-			this.applylink.NavigateUrl = "applyrd.aspx?" + HttpUtility.UrlEncode(ApplyURL);
-			this.applylnk.NavigateUrl = "applyrd.aspx?" + HttpUtility.UrlEncode(ApplyURL);
+            this.hApplyNow.Value = dt.Rows[0]["ApplyURL"].ToString();
+            //ApplyURL = dt.Rows[0]["ApplyURL"].ToString();
+			//this.applylink.NavigateUrl = "applyrd.aspx?" + HttpUtility.UrlEncode(ApplyURL);
+			//this.applylnk.NavigateUrl = "applyrd.aspx?" + HttpUtility.UrlEncode(ApplyURL);
         }
         if (Request.QueryString["SearchPage"].ToString() == "Sp")
         {
@@ -96,10 +100,14 @@ public partial class JobDetails : System.Web.UI.Page
             }
 
         }
-        
-
 
     }
+
+    protected void Apply_Click(object sender, EventArgs e)
+    {
+        Response.Redirect(this.hApplyNow.Value);
+    }
+
     protected void LnkAddJobCart_OnClick(object sender, EventArgs e)
     {
         string GUID = "";

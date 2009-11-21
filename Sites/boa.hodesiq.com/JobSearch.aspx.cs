@@ -29,9 +29,7 @@ public partial class JobSearch : System.Web.UI.Page
 	private int RecPerPage = 12;
 	protected void Page_Load(object sender, EventArgs e)
 	{
-		//ddlState.ClientID
-
-		this.ddlState.Attributes.Add("onblur", "javascript:setTimeout('__doPostBack(\'" + this.ddlState.ClientID + "\',\'\')', 0)"); 
+        this.ddlState.Attributes.Add("onblur", "javascript:setTimeout('__doPostBack(\\'" + this.ddlState.ClientID.Replace("_", "$") + "\\',\\'\\')', 0)"); 
 
 		ViewState["statequery"] = string.Empty;
 		if (!this.IsPostBack)
@@ -152,17 +150,8 @@ public partial class JobSearch : System.Web.UI.Page
 	protected void brefine_Click(object sender, EventArgs e)
 	{
         RefineSearch( ddlState.SelectedItem.Value);
-        if (sender.GetType()==typeof (System.Web.UI.WebControls.DropDownList) )
-        {
-            //DropDownList event
-            ddlState.Focus();
-        }
-        else
-        {
-            //ImageButton event
-            ddlCity.Focus();
-        }
-
+        //if (sender.GetType()== typeof(System.Web.UI.WebControls.DropDownList))
+        this.ddlCity.Focus();
 	}
 	protected void bsearch_Click(object sender, EventArgs e)
 	{
