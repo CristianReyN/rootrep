@@ -124,7 +124,7 @@ create_safebutton("Search","javascript: submit_search();",0,0,0,0,"Search");
 	</td>
 </tr>
 <tr>
-	<td colspan="3" style="background: #d4100a;" width="750" valign="top">
+	<td colspan="3" style="background: #D4001A;" width="750" valign="top">
 <img src="../images/careers.gif" width="76" height="25"  alt="Bank of America | Careers" title="Bank of America | Careers" border="0"></td>
 </tr>
 <tr>
