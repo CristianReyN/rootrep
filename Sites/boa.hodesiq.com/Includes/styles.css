@@ -126,6 +126,14 @@ H2.h1 span{
 	line-height: 1.0em;
 }
 
+H2.h1 span.loc{
+	font-size: 0.75em;
+	font-weight: bold;
+	line-height: 1.0em;
+	text-align: center;
+	width: 205px;
+}
+
 H2, H2.h2, H2.h2u, P.h2
 {
 	font-family : Verdana, Helvetica, sans-serif;
@@ -529,8 +537,8 @@ A.left2, SPAN.left2, H2.left2
     background-color: transparent;
     text-decoration: underline;
 }
-SPAN.left2{color: #003366; text-decoration: none;}
-A.left2:hover, A.left2-over
+SPAN.left2{text-decoration: none;}
+A.left2:hover, A.left2-over, SPAN.left2-over
 {
 	font-family : Verdana, Helvetica, sans-serif;
 	font-size : 1.0em;

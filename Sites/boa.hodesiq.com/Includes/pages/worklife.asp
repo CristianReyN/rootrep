@@ -17,6 +17,8 @@
 		if page_section <> "ADA" then href_pre = "../learnmore/" %>
 <p>We encourage a healthy balance between work and life by offering the following:</p>
 <ul>
+	<li><a href="<%Response.write href_pre%>mywork.asp" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" style="text-decoration: none;" title="MyWork TM"><span style="text-decoration: underline;">MyWork</span><span style="font-size: 0.6em; position: relative; top: -0.6em;">TM</span></a><br>
+With My Work, associates are provided the opportunity to work from a variety of corporate bank locations or from home instead of a traditional, dedicated cube or office.<br><br></li>
 	<li><a href="<%Response.write href_pre%>flexible_wa.asp" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="Flexible work arrangements">Flexible work arrangements</a><br>
 Our associates often take advantage of flexible work arrangements such as telecommuting, compressed workweeks, flextime, and other options.<br><br></li>
 	<li><a href="<%Response.write href_pre%>lifeworks.asp" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" style="text-decoration: none;" title="LifeWorks &reg;"><span style="text-decoration: underline;">LifeWorks</span><span style="font-size: 0.8em; position: relative; top: -0.6em;">&reg;</span></a><br>

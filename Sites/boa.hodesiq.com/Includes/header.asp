@@ -81,6 +81,41 @@ function preloadCC(){MM_preloadImages('../images/cc_next_over.gif','../images/cc
 function preloadCC(){MM_preloadImages('../Includes/pages/buttons/01btn-over.gif','../Includes/pages/buttons/02btn-over.gif','../Includes/pages/buttons/03btn-over.gif','../Includes/pages/buttons/05btn-over.gif','../Includes/pages/buttons/06btn-over.gif');}
 //-->
 </script>
+<% ElseIf tpage = "mywork" Then%>
+<script language="javascript" type="text/javascript">
+<!--
+var rotim,rotims,rottm,imidx;
+function preloadCC()
+{
+	rotims = new Array();
+	rotims[rotims.length] = _preloadImage('../images/mywork/rot1.jpg');
+	rotims[rotims.length] = _preloadImage('../images/mywork/rot2.jpg');
+	rotims[rotims.length] = _preloadImage('../images/mywork/rot3.jpg');
+	rotims[rotims.length] = _preloadImage('../images/mywork/rot4.jpg');
+	rotims[rotims.length] = _preloadImage('../images/mywork/rot5.jpg');
+	rotims[rotims.length] = _preloadImage('../images/mywork/rot6.jpg');
+	rotim = document.getElementById("rotim");
+	imidx = 0;
+	rottm = setTimeout("rotate();",2000);
+}
+
+function rotate()
+{	if(rotim && rotims)
+	{	if(imidx < rotims.length-1) imidx++;
+		else imidx = 0;
+		rotim.src = rotims[imidx].src;
+		rottm = setTimeout("rotate();",2000);
+	}
+	else clearTimeout(rottm);
+}
+function _preloadImage(im)
+{
+	var d=document;
+	if(d.images){ var new_im=new Image; new_im.src=im; return new_im; }
+	return false;
+}
+//-->
+</script>
 <% End If %>
 <script language="JavaScript1.2" src="../includes/ps.js" type="text/javascript"></script>
 <script language="javascript" type="text/javascript">

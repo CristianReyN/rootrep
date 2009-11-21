@@ -1,5 +1,10 @@
 	<%	href_pre = ""
 		If page_section <> "ADA" Then href_pre = "../learnmore/" %>
+<%	If tpage <> "mywork" Then %>
+<p style="margin: 12px 0px 0px 0px;">
+<a href="<%Response.write href_pre%>mywork.asp" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" style="text-decoration: none;" title="MyWork TM"><span style="text-decoration: underline;">MyWork</span><span style="font-size: 0.6em; position: relative; top: -0.6em;">TM</span></a>
+</p>
+<%	End If %>
 <%	If tpage <> "flexibleworkarrangements" Then %>
 <p style="margin: 12px 0px 0px 0px;">
 <a href="<%Response.write href_pre%>flexible_wa.asp" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="Flexible work arrangements">Flexible work arrangements</a>
@@ -7,7 +12,7 @@
 <%	End If %>
 <%	If tpage <> "lifeworks" Then %>
 <p style="margin: 12px 0px 0px 0px;">
-<a href="<%Response.write href_pre%>lifeworks.asp" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="LifeWorks &reg;">LifeWorks</a><sup><span class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" style="font-size: 90%;">&reg;</span></sup>
+<a href="<%Response.write href_pre%>lifeworks.asp" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" style="text-decoration: none;" title="LifeWorks &reg;"><span style="text-decoration: underline;">LifeWorks</span><span style="font-size: 0.6em; position: relative; top: -0.6em;">&reg;</span></a>
 </p>
 <%	End If %>
 <%	If tpage <> "employeeassistance" Then %>
