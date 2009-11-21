@@ -1,7 +1,7 @@
 ﻿<%@ Page AutoEventWireup="true" CodeFile="JobSearch.aspx.cs" Inherits="JobSearch"
     Language="C#" MasterPageFile="~/BOAmaster.master" Title="Search Page" %>
 
-                            <asp:Content ID="Content1" Runat="Server" ContentPlaceHolderID="ContentPlaceHolder1">
+                            <asp:Content ID="Content1" Runat="Server" ContentPlaceHolderID="cphmain">
                                 
                                 <table summary="Job Search and Job List Page" border="0" cellpadding="0" cellspacing="0" width="578">
                                     <tr valign="top">

@@ -1,5 +1,5 @@
 <%@ Page Language="C#" MasterPageFile="~/BOAmaster.master" AutoEventWireup="true" CodeFile="MasterTest.aspx.cs" Inherits="_Default" Title="Untitled Page" %>
-<asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
+<asp:Content ID="Content1" ContentPlaceHolderID="cphmain" Runat="Server">
 <table border="0" cellpadding="0" cellspacing="0" summary="" width="100%">
                                                 <tr>
                                                     <td valign="top">

@@ -1,7 +1,7 @@
 <%@ Page AutoEventWireup="true" CodeFile="JobDetails.aspx.cs" Inherits="JobDetails"
     Language="C#" MasterPageFile="~/BOAmaster.master" Title="Job Details Page" %>
 
-<asp:Content ID="Content1" runat="Server" ContentPlaceHolderID="ContentPlaceHolder1">
+<asp:Content ID="Content1" runat="Server" ContentPlaceHolderID="cphmain">
     <table border="0" cellpadding="0" cellspacing="0" summary="" width="578">
         <tr valign="top">
             <td  style="padding: 6px 12px 0px 12px; height:100%" valign="top">

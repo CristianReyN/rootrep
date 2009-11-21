@@ -1,7 +1,7 @@
 <%@ Page AutoEventWireup="true" CodeFile="Tell_a_friend.aspx.cs" Inherits="Tell_a_friend"
     Language="C#" MasterPageFile="~/BOAmaster.master" Title="Tell a Friend Page" %>
 
-<asp:Content ID="Content1" runat="Server" ContentPlaceHolderID="ContentPlaceHolder1">
+<asp:Content ID="Content1" runat="Server" ContentPlaceHolderID="cphmain">
 <table border="0" cellpadding="0" cellspacing="0">
     <tr>
         <td style="width: 416px">
