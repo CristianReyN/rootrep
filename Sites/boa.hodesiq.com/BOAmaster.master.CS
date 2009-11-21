@@ -36,6 +36,11 @@ public partial class BOAmaster : System.Web.UI.MasterPage
             this.metadescription.Attributes["content"] = "Page entails detailed description of positions within Bank of America.  Also the user is able to add the job to a job cart, apply, send the job to a friend or return to the job listing.";
 			this.Page.Title = "Bank of America | Career | Job Details";
         }
+		else if (Request.ServerVariables["SCRIPT_NAME"].IndexOf("Tell_a_friend.aspx", StringComparison.CurrentCultureIgnoreCase) > 0)
+		{
+			this.metadescription.Attributes["content"] = "Allows users to send the job to a friend.";
+			this.Page.Title = "Bank of America | Career | Tell a Friend";
+		}
         else
         {
             this.metadescription.Attributes["content"] = "Main page for job search functionality for careers site.";
