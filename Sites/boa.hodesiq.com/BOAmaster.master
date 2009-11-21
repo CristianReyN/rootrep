@@ -139,10 +139,10 @@ function tdiv(tf)
 {
 if (tf)
     {
-    document.getElementById("d1").style.display="block";
-    document.getElementById("d2").style.display="block";
-    document.getElementById("d3").style.display="block";
-    document.getElementById("d4").style.display="block";
+    document.getElementById("d1").style.display="inline";
+    document.getElementById("d2").style.display="inline";
+    document.getElementById("d3").style.display="inline";
+    document.getElementById("d4").style.display="inline";
     }
     else
     {
