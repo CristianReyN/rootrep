@@ -14,8 +14,7 @@
                                 <asp:Label ID="lblLocation" runat="server"></asp:Label>&nbsp;</h2>
                         </td>
                         <td align="right"  valign="top">
-                            <a class="p" href="" title="Previous">Previous</a>&nbsp;&nbsp;<span class="ftrtxt">|</span>&nbsp;&nbsp;<a
-                                class="p" href="" title="Next">Next</a></td>
+                            &nbsp;</td>
                     </tr>
                     <tr>
                         <td style="padding: 18px 6px 0px 0px;" valign="top">
