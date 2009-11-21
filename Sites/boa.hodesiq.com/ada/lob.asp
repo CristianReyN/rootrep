@@ -2,7 +2,7 @@
 Dim title, mpage, spage, ada_href, ada_title, job_search_action,page_section, Metatag
 title = "Bank of America | Career | Lines of Business"
 mpage = "lob"
-spage = "lob"
+spage = ""
 standart_href = "../learnmore/lob.asp"
 job_search_action = "../jobsearch/searchresult.asp"
 Metatag="Explore a career at Bank of America and discover which line of business is right for you."

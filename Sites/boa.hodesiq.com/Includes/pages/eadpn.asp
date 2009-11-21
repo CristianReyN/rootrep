@@ -1,7 +1,8 @@
-		<a name="skipmaincontent"></a><H1 style="margin: 0px 192px 0px 12px;">EMPLOYMENT APPLICANT DATA PROTECTION NOTICE</H1>
+		<a name="skipmaincontent"></a><H1 style="margin: 0px 192px 0px <%=left_margin_0%>px;">EMPLOYMENT APPLICANT DATA PROTECTION NOTICE</H1>
+		<img src="../images/clear.gif" width="100%" height="<%=top_content_padding_bottom%>" alt="" border="0"><br />
 		<table width="578" cellpadding="0" cellspacing="0" border="0" summary="">
 			<tr valign="top">
-				<td width="373" height="100%" valign="top" style="padding: 15px 5px 0px 12px;">
+				<td width="373" height="100%" valign="top" style="<%=middle_content_padding%>">
 <H2 class="p" style="margin: 12px 0px 0px 0px; padding: 0px;"><b>I.	POLICY STATEMENT</b></H2>
 <p style="margin: 0px 0px 36px 0px;">Bank of America / MBNA Europe Bank Limited (the “Bank”) has prepared this Employment Applicant Data Protection Notice (the “Notice”) to outline its practices regarding the collection, use, storage, transfer and other processing of individually identifiable information about employment applicants (“Personal Data”).  If an employment applicant is hired by the Bank, he/she will be provided with the Associate Data Protection Policy and Procedures, which outlines the Bank’s practices regarding Personal Data once an employment applicant becomes a Bank Associate.</p> 
  

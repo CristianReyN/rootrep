@@ -1,7 +1,7 @@
-		<a name="skipmaincontent"></a><span style="position:absolute;"><a name="qtop" style="text-decoration: none;">&nbsp;</a></span><H1 style="margin: 0px 12px 0px 12px;">Careers Frequently Asked Questions (FAQs)</H1>
+		<a name="skipmaincontent"></a><span style="position:absolute;"><a name="qtop" style="text-decoration: none;">&nbsp;</a></span><H1 style="margin: 0px <%=right_margin%>px 0px <%=left_margin_0%>px;">Careers Frequently Asked Questions (FAQs)</H1>
 		<table width="578" cellpadding="0" cellspacing="0" border="0" summary="">
 			<tr valign="top">
-				<td width="373" height="100%" valign="top" style="padding: 15px 5px 0px 12px;">
+				<td width="373" height="100%" valign="top" style="padding: <%=top_content_padding_bottom%>px <%=right_margin%>px 0px <%=left_margin_0%>px;">
 <ul id="faqs" style="list-style-image : url(../images/bull3.gif);">
 <!--<ul id="faqs" style="list-style-type : none;">-->
 	<li><a href="#q1" class="p" onfocus="this.className='p-over';" onblur="this.className='p';">How do I submit a resume?</a></li>
@@ -180,7 +180,7 @@
 <br><br>
 				</td>
 				<td width="205" height="100%" valign="top">
-<div style="border: 1px solid #e8e8e9; margin: 12px 0px 12px 0px; padding: 0px 0px 6px 0px;">
+<div style="border: 1px solid #e8e8e9; margin: <%=top_content_padding_bottom%>px 0px 12px 0px; padding: 0px 0px 6px 0px;">
 	<H2 class="g" style="margin: 0px 0px 0px 0px;">Guided Job Search</H2>
 	<img src="../images/clear.gif" width="100%" height="1" alt="" border="0" style="margin: 1px 0px 6px 0px; background: #e8e8e9;" align="top"><br clear="all">
 <!-- #include file="../jobsearch.asp" -->

@@ -22,6 +22,14 @@ if mpage <> "staffingevents" Then ADA_HEADER_LINKS = ADA_HEADER_LINKS & "<a href
 Dim to_version
 textonly_version = "Text Only Version"
 ada_title = ada_title  & ", " & textonly_version
+Dim left_margin, right_margin, top_content_padding_bottom, top_content_padding_bottom_hd, middle_content_padding
+left_margin = 12
+left_margin_0 = 0
+right_margin = 8
+right_margin_split = 20
+top_content_padding_bottom = 12
+top_content_padding_bottom_hd = 0
+middle_content_padding = "padding: 0px 8px 0px 0px;"
 %><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html lang="en">
 <head>

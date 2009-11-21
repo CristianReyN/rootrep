@@ -9,9 +9,10 @@
 			<tr valign="top"><td colspan="2" valign="top" class="divb"><img src="../images/clear.gif" width="100%" height="4" alt="" border="0"></td></tr>
 		</table>
 		<a name="skipmaincontent"></a><H1 class="hidden">Lines of Business</H1>
+		<img src="../images/clear.gif" width="100%" height="<%=top_content_padding_bottom%>" alt="" border="0"><br />
 		<table width="578" cellpadding="0" cellspacing="0" border="0" summary="">
 			<tr valign="top">
-				<td width="373" height="100%" valign="top" style="padding: 15px 5px 0px 12px;">
+				<td width="373" height="100%" valign="top" style="<%=middle_content_padding%>">
 <p style="margin: 0px 0px 12px 0px;">There's opportunity everywhere you look at Bank of America. No matter what your specialty is, you'll find unbounded possibilities to expand your skills and grow your career.
 <br><br>
 Opportunity awaits. Learn more about:
@@ -34,7 +35,7 @@ Opportunity awaits. Learn more about:
 <br><br>
 				</td>
 				<td width="205" height="100%" valign="top">
-<div style="border: 1px solid #e8e8e9; margin: 12px 0px 12px 0px; padding: 0px 0px 6px 0px;">
+<div style="border: 1px solid #e8e8e9; margin: 0px 0px 12px 0px; padding: 0px 0px 6px 0px;">
 	<H2 class="g" style="margin: 0px 0px 0px 0px;">Guided Job Search</H2>
 	<img src="../images/clear.gif" width="100%" height="1" alt="" border="0" style="margin: 1px 0px 6px 0px; background: #e8e8e9;" align="top"><br clear="all">
 <!-- #include file="../jobsearch.asp" -->

@@ -31,7 +31,7 @@ UL
 	list-style-image : url(../images/bull3.gif);
 }
 
-UL UL
+UL.secondary
 {
 	list-style-image : url(../images/bull3o.gif);
 }

@@ -15,7 +15,7 @@
 <% If page_section = "ADA" Then %>
 <!-- #include file="associate/fairbrother.asp" -->
 <% End If %>
-					<div align="right" style="float: right; margin: 0px 0px 0px 12px; padding: 0px; width: 259px;">
+					<div align="right" style="float: right; margin: 0px 0px 0px <%=right_margin_split%>px; padding: 0px; width: 259px;">
 <% If page_section <> "ADA" Then %>
 <!-- #include file="associate/fairbrother.asp" -->
 <a href="#video" class="hlink">Jonathan Fairbrother&acute;s Associate Testimonial Video</a>
@@ -34,11 +34,11 @@
 </div>
 <br><br>
 					</div>
-<p style="margin: 6px 12px 0px 12px;">
+<p style="margin: 0px <%=right_margin_split%>px 0px <%=left_margin_0%>px;">
 Global Consumer &amp; Small Business Banking contains six of the largest divisions within Bank of America. Our teams service approximately 54 million consumer households through checking, savings, credit and debit cards, home equity lending and mortgages. Helping a family acquire their first home, assisting someone with establishing credit, paying bills via mobile phone, providing a six-year-old with a savings account and funding a small business owner's dream - these are some of the opportunities we provide to our customers and to the thousands of Bank of America associates in our diverse groups.
 </p>
-<H2 class="h2" style="margin: 12px 12px 2px 12px;">Hot Job Postings</H2>
-<table cellpadding="2" cellspacing="0" border="0" summary="" style="margin-left: 12px;">
+<H2 class="h2" style="margin: 12px <%=right_margin%>px 2px <%=left_margin_0%>px;">Hot Job Postings</H2>
+<table cellpadding="2" cellspacing="0" border="0" summary="" style="margin-left: <%=left_margin_0%>px;">
 <!--#include file="../../hot_jobs.asp"-->
 </table>
 <br><br>

@@ -8,15 +8,15 @@
 			</tr>
 			<tr valign="top"><td colspan="2" valign="top" class="divb"><img src="../images/clear.gif" width="100%" height="4" alt="" border="0"></td></tr>
 		</table>
+		<img src="../images/clear.gif" width="100%" height="<%=top_content_padding_bottom%>" alt="" border="0"><br />
 		<table width="578" cellpadding="0" cellspacing="0" border="0" summary="">
-			<tr valign="top"><td colspan="2" valign="top" class="divt"><img src="../images/clear.gif" width="100%" height="4" alt="" border="0"></td></tr>
 			<tr valign="top">
 				<td colspan="2" width="100%" valign="top">
 <a name="skipmaincontent"></a><H1 class="hidden">CFO Group/Finance</H1>
 <% If page_section = "ADA" Then %>
 <!-- #include file="associate/chen.asp" -->
 <% End If %>
-					<div align="right" style="float: right; margin: 0px 0px 0px 12px; padding: 0px; width: 259px;">
+					<div align="right" style="float: right; margin: 0px 0px 0px <%=right_margin_split%>px; padding: 0px; width: 259px;">
 <% If page_section <> "ADA" Then %>
 <!-- #include file="associate/chen.asp" -->
 <a href="#video" class="hlink">Rich Chen&acute;s Associate Testimonial Video</a>
@@ -32,20 +32,20 @@
 </div>
 <br><br>
 					</div>
-<p style="margin: 6px 12px 0px 12px;">
+<p style="margin: 0px <%=right_margin_split%>px 0px <%=left_margin_0%>px;">
 The CFO Group serves a number of essential functions within Bank of America, organized in the following groups:
 <br><br>
 <b>Finance Business Client Support</b>
 <br><br>
-Each line of business (LOB) has its own CFO and a team dedicated to supporting its business, strategic planning and financial analysis function:
+Each line of business has its own CFO and a team dedicated to supporting its business, strategic planning and financial analysis function:
 </p>
-<ul>
+<ul style="margin-left: <%=left_margin_0%>px;">
 	<li>Global Consumer and Small Business Banking (GCSBB)</li>
 	<li>Global Corporate and Investment Banking (GCIB)</li>
 	<li>Global Wealth and Investment Management (GWIM)</li>
 	<li>Corporate Infrastructure (Global Technology & Operations, Staff Support Functions)</li>
 </ul>
-<p style="margin: 12px 12px 12px 12px;">
+<p style="margin: 12px 12px 12px <%=left_margin_0%>px;">
 <b>Financial Accounting &amp; Control</b>
 <br><br>
 The Chief Accounting Officer includes a Controllership function that works in conjunction with the Line of Business Corporate Finance groups to provide financial accounting and reporting. The Chief Accounting Officer also contains accounting policy, corporate tax, regulatory reporting, SEC and other external reporting activities.
@@ -66,8 +66,8 @@ Corporate Investments manages the bank's diversified financial portfolio through
 <br><br>
 Investor Relations is the contact for analysts and investors and is responsible for implementing a comprehensive investor relations program designed to improve the company's stock valuation.
 </p>
-<H2 class="h2" style="margin: 12px 12px 2px 12px;">Hot Job Postings</H2>
-<table cellpadding="2" cellspacing="0" border="0" summary="" style="margin-left: 12px;">
+<H2 class="h2" style="margin: 12px <%=right_margin%>px 2px <%=left_margin_0%>px;">Hot Job Postings</H2>
+<table cellpadding="2" cellspacing="0" border="0" summary="" style="margin-left: <%=left_margin_0%>px;">
 <!--#include file="../../hot_jobs.asp"-->
 </table>
 <br><br>

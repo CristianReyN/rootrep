@@ -9,23 +9,11 @@
 			<tr valign="top"><td colspan="2" valign="top" class="divb"><img src="../images/clear.gif" width="100%" height="4" alt="" border="0"></td></tr>
 		</table>
 		<a name="skipmaincontent"></a><H1 class="hidden">Global Wealth &amp; Investment Management</H1>
+		<img src="../images/clear.gif" width="100%" height="<%=top_content_padding_bottom%>" alt="" border="0"><br />
 		<table width="578" cellpadding="0" cellspacing="0" border="0" summary="">
 			<tr valign="top">
-				<td width="578" colspan="2" valign="top" style="padding: 15px 0px 0px 12px;">
-				</td>
-			</tr>
-			<tr valign="top">
-				<td width="373" height="100%" valign="top" style="padding: 0px 5px 0px 12px;">
-<p style="margin: 12px 0px 12px 0;">
-A career within Bank of America's Global Wealth &amp; Investment Management group is your opportunity to:
-</p>
-<!--<ul>
-	<li>Join specialized client relationship teams offering a complete range of customized financial services to affluent clients worldwide</li>
-	<li>Develop broad expertise in such varied areas as financial planning, wealth access strategy, investments and trust and specialty asset management</li>
-	<li>Deliver integrated wealth management solutions to high net worth individuals, middle-market institutions and charitable organizations</li>
-</ul>-->
-
-<p style="margin: 12px 0px 12px 0;">
+				<td width="373" height="100%" valign="top" style="<%=middle_content_padding%>">
+<p style="margin: 0px 0px 12px 0;">
 Global Wealth &amp; Investment Management offers opportunities to highly motivated and talented individuals in most major cities in the United States. Global Wealth &amp; Investment Management associates provide comprehensive banking and investment services tailored to meet the changing wealth management goals of more than three million individual and institutional customers. A career within Global Wealth &amp; Investment Management is your opportunity to develop broad expertise in such varied areas as financial planning, wealth access strategy, investments, retirement solutions, trusts and specialty asset management. We offer the opportunity to listen to our customer and deliver integrated wealth management solutions to high net worth individuals, middle-market institutions, and charitable organizations.
 <br><br>
 Global Wealth &amp; Investment Management consists of several unique lines of business which reach the needs of our clients:
@@ -51,7 +39,7 @@ Global Wealth &amp; Investment Management consists of several unique lines of bu
 <br><br>
 				</td>
 				<td width="205" height="100%" valign="top">
-<div style="border: 1px solid #e8e8e9; margin: 12px 0px 12px 0px; padding: 0px 0px 6px 0px;">
+<div style="border: 1px solid #e8e8e9; margin: 0px 0px 12px 0px; padding: 0px 0px 6px 0px;">
 	<H2 class="g" style="margin: 0px 0px 0px 0px;">Guided Job Search</H2>
 	<img src="../images/clear.gif" width="100%" height="1" alt="" border="0" style="margin: 1px 0px 6px 0px; background: #e8e8e9;" align="top"><br clear="all">
 <!-- #include file="../jobsearch.asp" -->

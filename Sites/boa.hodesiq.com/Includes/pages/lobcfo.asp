@@ -6,7 +6,7 @@
 				</td>
 			</tr>
 			<tr valign="top">
-				<td width="373" height="100%" valign="top" style="padding: 0px 5px 0px 12px;">
+				<td width="373" height="100%" valign="top" style="<%=middle_content_padding%>">
 <p style="margin: 12px 0px 12px 0;">
 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi iaculis arcu nec ligula. Aliquam erat volutpat. Sed vel turpis sit amet libero blandit feugiat. Proin sed enim vel mi cursus tincidunt. Suspendisse fermentum arcu et sapien. Suspendisse potenti. 
 <br><br>

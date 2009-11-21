@@ -1,8 +1,8 @@
-		<a name="skipmaincontent"></a><H1 style="margin: 0px 12px 0px 12px;">Internships Details</H1>
+		<a name="skipmaincontent"></a><H1 style="margin: 0px <%=right_margin%>px 0px <%=left_margin_0%>px; padding: 0px;">Internships Details</H1>
 
 		<table width="578" cellpadding="0" cellspacing="0" border="0" summary="">
 			<tr valign="top">
-				<td width="373" height="100%" valign="top" style="padding: 6px 5px 0px 12px;">
+				<td width="373" height="100%" valign="top" style="<%=middle_content_padding%>">
 <img class="dotdiv" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
 
 <H2 class="p" style="margin-top: 0px;"><b>Overview</b></H2>

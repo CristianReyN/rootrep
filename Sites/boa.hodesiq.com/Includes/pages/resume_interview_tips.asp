@@ -9,9 +9,10 @@
 			<tr valign="top"><td colspan="2" valign="top" class="divb"><img src="../images/clear.gif" width="100%" height="4" alt="" border="0"></td></tr>
 		</table>
 		<a name="skipmaincontent"></a><H1 class="hidden">Resume &amp; interview tips</H1>
+		<img src="../images/clear.gif" width="100%" height="<%=top_content_padding_bottom%>" alt="" border="0"><br />
 		<table width="578" cellpadding="0" cellspacing="0" border="0" summary="">
 			<tr valign="top">
-				<td width="373" height="100%" valign="top" style="padding: 15px 5px 0px 12px;">
+				<td width="373" height="100%" valign="top" style="<%=middle_content_padding%>">
 <p style="margin: 0px 0px 12px 0px;">As you consider an opportunity with Bank of America, you should spend some time developing or updating your resume. Your resume offers you a chance to market your skills, abilities, accomplishments and experience. A good resume defines your qualifications as a job candidate and provides the hiring manager with a favorable first impression of you.
 </p>
 <H2 class="p" style="margin: 12px 0px 12px 0px; padding: 0px;"><b>Getting Started</b></H2>
@@ -82,7 +83,7 @@ Interviewing is a process. One of the biggest advantages you can have in intervi
 <br><br>
 				</td>
 				<td width="205" height="100%" valign="top">
-<div style="border: 1px solid #e8e8e9; margin: 12px 0px 12px 0px; padding: 0px 0px 6px 0px;">
+<div style="border: 1px solid #e8e8e9; margin: 0px 0px 12px 0px; padding: 0px 0px 6px 0px;">
 	<H2 class="g" style="margin: 0px 0px 0px 0px;">Guided Job Search</H2>
 	<img src="../images/clear.gif" width="100%" height="1" alt="" border="0" style="margin: 1px 0px 6px 0px; background: #e8e8e9;" align="top"><br clear="all">
 <!-- #include file="../jobsearch.asp" -->

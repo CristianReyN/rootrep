@@ -2,11 +2,11 @@
 			<tr valign="top"><td valign="top" class="divt"><img src="../images/clear.gif" width="100%" height="4" alt="" border="0"></td></tr>
 			<tr valign="top">
 				<td width="100%" valign="top">
-<a name="skipmaincontent"></a><H1 style="margin: 0px 12px 0px 12px;">Operations</H1>
+<a name="skipmaincontent"></a><H1 style="margin: 0px 12px 0px <%=left_margin_0%>px; padding: 0px;">Operations</H1>
 <% If page_section = "ADA" Then %>
 <!-- #include file="associate/benitez.asp" -->
 <% End If %>
-					<div align="right" style="float: right; margin: 0px 0px 0px 12px; padding: 0px; width: 259px;">
+					<div align="right" style="float: right; margin: -18px 0px 0px <%=right_margin_split%>px; padding: 0px; width: 259px;">
 <% If page_section <> "ADA" Then %>
 <!-- #include file="associate/benitez.asp" -->
 <a href="#video" class="hlink">Deborah BenitezLedtje&acute;s Associate Testimonial Video</a>
@@ -26,11 +26,11 @@
 </div>
 <br><br>
 					</div>
-<p style="margin: 6px 12px 0px 12px;">
+<p style="margin: 6px <%=right_margin_split%>px 0px <%=left_margin_0%>px;">
 Positions within Operations provide overall support for many key areas within Bank of America.  Operations is primarily responsible for overseeing the processes and transactions which help Bank of America maximize profitability and minimize risk.
 </p>
-<H2 class="h2" style="margin: 12px 12px 2px 12px;">Hot Job Postings</H2>
-<table cellpadding="2" cellspacing="0" border="0" summary="" style="margin-left: 12px;">
+<H2 class="h2" style="margin: 12px <%=right_margin%>px 2px <%=left_margin_0%>px;">Hot Job Postings</H2>
+<table cellpadding="2" cellspacing="0" border="0" summary="" style="margin-left: <%=left_margin_0%>px;">
 <!--#include file="../../hot_jobs.asp"-->
 </table>
 <br><br>

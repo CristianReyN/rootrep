@@ -1,7 +1,7 @@
-		<a name="skipmaincontent"></a><H1 style="margin: 2px 0px 0px 0px;">TRUST OFFICER, U.S. Trust, Bank of America Private Wealth Management</H1>
+		<a name="skipmaincontent"></a><H1 style="margin: 0px <%=right_margin%>px 0px <%=left_margin_0%>px; padding: 0px;">TRUST OFFICER, U.S. Trust, Bank of America Private Wealth Management</H1>
 		<table width="578" cellpadding="0" cellspacing="0" border="0" summary="">
 			<tr valign="top">
-				<td width="373" height="100%" valign="top" style="padding: 6px 5px 0px 12px;">
+				<td width="373" height="100%" valign="top" style="<%=middle_content_padding%>">
 <img class="dotdiv" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
 <h2 class="h2" style="margin: 0px;">Our Business</h2>
 <p style="margin: 0px 0px 12px 0px;">
@@ -62,7 +62,7 @@ Providence, Rhode Island <span class="middot">&middot;</span> Hartford, Connecti
 %>
 <br>
 				</td>
-				<td width="205" height="100%" valign="top">
+				<td width="205" height="100%" valign="top" style="padding-top: 8px;">
 <!-- #include file="college/nathan.asp" -->
 <!-- #include file="../lobnav.asp" -->
 				</td>

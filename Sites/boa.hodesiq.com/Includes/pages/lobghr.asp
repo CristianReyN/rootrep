@@ -8,15 +8,15 @@
 			</tr>
 			<tr valign="top"><td colspan="2" valign="top" class="divb"><img src="../images/clear.gif" width="100%" height="4" alt="" border="0"></td></tr>
 		</table>
+		<img src="../images/clear.gif" width="100%" height="<%=top_content_padding_bottom%>" alt="" border="0"><br />
 		<table width="578" cellpadding="0" cellspacing="0" border="0" summary="">
-			<tr valign="top"><td colspan="2" valign="top" class="divt"><img src="../images/clear.gif" width="100%" height="4" alt="" border="0"></td></tr>
 			<tr valign="top">
-				<td colspan="2" width="100%" valign="top">
+				<td width="100%" valign="top">
 <a name="skipmaincontent"></a><H1 class="hidden">Global Human Resources</H1>
 <% If page_section = "ADA" Then %>
 <!-- #include file="associate/cambra.asp" -->
 <% End If %>
-					<div align="right" style="float: right; margin: 0px 0px 0px 12px; padding: 0px; width: 259px;">
+					<div align="right" style="float: right; margin: 0px 0px 0px <%=right_margin_split%>px; padding: 0px; width: 259px;">
 <% If page_section <> "ADA" Then %>
 <!-- #include file="associate/cambra.asp" -->
 <a href="#video" class="hlink">Gretchen Cambra&acute;s Associate Testimonial Video</a>
@@ -32,16 +32,16 @@
 </div>
 <br><br>
 					</div>
-<p style="margin: 6px 12px 0px 12px;">
+<p style="margin: 0px <%=right_margin_split%>px 0px <%=left_margin_0%>px;">
 At Bank of America, we understand that the success of an organization depends on its people. The Global Human Resources team at Bank of America plays an integral role in driving that success. It aligns Human Resources strategy to the business strategy, enabling the company to drive revenue growth through attracting, developing and retaining a world-class workforce. 
 <br><br>
 In addition to advising our clients on a wide variety of topics, the Global Human Resources team helps the company deliver a higher standard of benefits, work/life commitment and satisfaction to our over 200,000 associates world-wide. Our Global Human Resources associates must display strong business acumen, relationship building and strategic partnership and execution across several businesses.
 </p>
-<H2 class="h2" style="margin: 12px 12px 2px 12px;">Hot Job Postings</H2>
+<H2 class="h2" style="margin: 12px <%=right_margin%>px 2px <%=left_margin_0%>px;">Hot Job Postings</H2>
 <p style="margin: 6px 12px 12px 12px;">
 Interested in joining the "World's Most Admired Global Bank"? We invite you to explore career opportunities on our dynamic Human Resources team.
 </p>
-<table cellpadding="2" cellspacing="0" border="0" summary="" style="margin-left: 12px;">
+<table cellpadding="2" cellspacing="0" border="0" summary="" style="margin-left: <%=left_margin_0%>px;">
 <!--#include file="../../hot_jobs.asp"-->
 </table>
 <br><br>

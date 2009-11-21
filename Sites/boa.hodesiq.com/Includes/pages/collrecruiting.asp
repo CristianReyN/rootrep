@@ -14,7 +14,7 @@
 		<a name="skipmaincontent"></a><H1 class="hidden">Campus Recruiting</H1>
 		<table width="578" cellpadding="0" cellspacing="0" border="0" summary="">
 			<tr valign="top">
-				<td width="373" height="100%" valign="top" style="padding: 0px 20px 0px 12px;">
+				<td width="373" height="100%" valign="top" style="<%=middle_content_padding%>">
 <H2 class="h1" style="margin: 2px 0px 0px 0px;">Opportunity for Innovation</H2>
 <p style="margin: 0px 0px 12px 0px;">
 At Bank of America, we believe new ideas are the currency of success. Join the thousands of talented professionals just like you who are making a real impact every single day. Help shape the future of the global banking industry. You can at Bank of America.

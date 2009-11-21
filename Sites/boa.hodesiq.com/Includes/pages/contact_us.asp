@@ -1,9 +1,9 @@
 <%	href_pre = ""
 	if page_section <> "ADA" then href_pre = "../faq/" %>
-		<a name="skipmaincontent"></a><H1 style="margin: 0px 12px 0px 12px;">Contact Us</H1>
+		<a name="skipmaincontent"></a><H1 style="margin: 0px <%=right_margin%>px 0px <%=left_margin_0%>px; padding: 0px;">Contact Us</H1>
 		<table width="578" cellpadding="0" cellspacing="0" border="0" summary="">
 			<tr valign="top">
-				<td width="373" height="100%" valign="top" style="padding: 6px 5px 0px 12px;">
+				<td width="373" height="100%" valign="top" style="<%=middle_content_padding%>">
 <img class="dotdiv" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
 <p style="margin: 0px;">
 Please submit your resume online.  You are most likely to receive a response and/or advance through the process if the position to which you apply closely matches your skills and background.</p>
@@ -25,7 +25,7 @@ database, you can:
 <br><br>
 				</td>
 				<td width="205" height="100%" valign="top">
-<div style="border: 1px solid #e8e8e9; margin: 12px 0px 12px 0px; padding: 0px 0px 6px 0px;">
+<div style="border: 1px solid #e8e8e9; margin: 8px 0px 12px 0px; padding: 0px 0px 6px 0px;">
 	<H2 class="g" style="margin: 0px 0px 0px 0px;">Guided Job Search</H2>
 	<img src="../images/clear.gif" width="100%" height="1" alt="" border="0" style="margin: 1px 0px 6px 0px; background: #e8e8e9;" align="top"><br clear="all">
 <!-- #include file="../jobsearch.asp" -->

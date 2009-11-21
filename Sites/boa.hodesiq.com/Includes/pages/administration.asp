@@ -2,11 +2,11 @@
 			<tr valign="top"><td valign="top" class="divt"><img src="../images/clear.gif" width="100%" height="4" alt="" border="0"></td></tr>
 			<tr valign="top">
 				<td width="100%" valign="top">
-<a name="skipmaincontent"></a><H1 style="margin: 0px 12px 0px 12px;">Administration</H1>
+<a name="skipmaincontent"></a><H1 style="margin: 0px 12px 0px <%=left_margin_0%>px; padding: 0px;">Administration</H1>
 <% If page_section = "ADA" Then %>
 <!-- #include file="associate/henderson.asp" -->
 <% End If %>
-					<div align="right" style="float: right; margin: 0px 0px 0px 12px; padding: 0px; width: 259px;">
+					<div align="right" style="float: right; margin: -18px 0px 0px <%=right_margin_split%>px; padding: 0px; width: 259px;">
 <% If page_section <> "ADA" Then %>
 <!-- #include file="associate/henderson.asp" -->
 <a href="#video" class="hlink">Chanel Henderson&acute;s Associate Testimonial Video</a>
@@ -29,11 +29,11 @@
 </div>
 <br><br>
 					</div>
-<p style="margin: 6px 12px 0px 12px;">
+<p style="margin: 6px <%=right_margin_split%>px 0px <%=left_margin_0%>px;">
 Individuals who take initiative and possess exceptional communications skills thrive within our dynamic environment. We need individuals who understand our services and who are looking to make a difference in an atmosphere full of energy and excitement. Those who join us enjoy the exhilaration and fulfillment of ensuring our 200,000 associates and 54 million consumer and small business customers stay "in the know."
 </p>
-<H2 class="h2" style="margin: 12px 12px 2px 12px;">Hot Job Postings</H2>
-<table cellpadding="2" cellspacing="0" border="0" summary="" style="margin-left: 12px;">
+<H2 class="h2" style="margin: 12px <%=right_margin%>px 2px <%=left_margin_0%>px;">Hot Job Postings</H2>
+<table cellpadding="2" cellspacing="0" border="0" summary="" style="margin-left: <%=left_margin_0%>px;">
 <!--#include file="../../hot_jobs.asp"-->
 </table>
 <br><br>

@@ -9,10 +9,11 @@
 			<tr valign="top"><td colspan="2" valign="top" class="divb"><img src="../images/clear.gif" width="100%" height="4" alt="" border="0"></td></tr>
 		</table>
 		<a name="skipmaincontent"></a><H1 class="hidden">Global Locations</H1>
+		<img src="../images/clear.gif" width="100%" height="<%=top_content_padding_bottom%>" alt="" border="0"><br />
 		<table width="578" cellpadding="0" cellspacing="0" border="0" summary="">
 			<tr valign="top">
-				<td width="373" height="100%" valign="top" style="padding: 15px 5px 0px 12px;">
-<p style="margin: 3px 0px 6px 0px;">
+				<td width="373" height="100%" valign="top" style="<%=middle_content_padding%>">
+<p style="margin: 0px 0px 6px 0px;">
 Globalization is here. Bank of America and its affiliates deliver a variety of sophisticated corporate and investment banking services to help clients succeed on a global scale. We operate offices in more than 30 countries and support our clients' activities around the world, maintaining relationships with leading corporations of all sizes. Bank of America serves multinational corporations, select local businesses, financial institutions and government agencies.</p>
 
 <p style="margin: 18px 0px 6px 0px;">
@@ -41,7 +42,7 @@ To search for all other European career opportunities, visit this site:
 </p>
 				</td>
 				<td width="205" height="100%" valign="top">
-<div style="border: 1px solid #e8e8e9; margin: 12px 0px 12px 0px; padding: 0px 0px 6px 0px;">
+<div style="border: 1px solid #e8e8e9; margin: 0px 0px 12px 0px; padding: 0px 0px 6px 0px;">
 	<H2 class="g" style="margin: 0px 0px 0px 0px;">Guided Job Search</H2>
 	<img src="../images/clear.gif" width="100%" height="1" alt="" border="0" style="margin: 1px 0px 6px 0px; background: #e8e8e9;" align="top"><br clear="all">
 <!-- #include file="../jobsearch.asp" -->
