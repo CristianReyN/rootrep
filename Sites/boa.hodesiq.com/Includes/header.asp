@@ -41,17 +41,13 @@ function hover(ref, classRef) { eval(ref).className = classRef; }
 <script language="javascript" type="text/javascript">
 //<!--
     examineFontSize("body");
-	function hideFlash(){if(document.getElementById("flash_in") && document.getElementById("flash_in").style.display == 'inline'){
-	document.getElementById("flash_in").innerHTML = '';
-	document.getElementById("flash_in").style.display = 'none';
-}}
 //-->
 </script>
 <%	if flashPage then %>
 <table cellpadding="0" cellspacing="0" border="0" summary=""><tr><td>
 <script type="text/javascript">
 <!--
-document.write('<a class="auraltext" href="JavaScript: hideFlash();" onFocus="hover(this,\'show-tab\'); this.focus()"" onblur="hover(this,\'auraltext\');" title="<%=hide_flash_title%>"><%=hide_flash_title%></a>');
+document.write('<a class="auraltext" href="JavaScript: if(window.hideFlash) hideFlash();" onFocus="hover(this,\'show-tab\'); this.focus()"" onblur="hover(this,\'auraltext\');" title="<%=hide_flash_title%>"><%=hide_flash_title%></a>');
 //-->
 </script>
 <noscript>
@@ -77,7 +73,7 @@ document.write('<a class="auraltext" href="<%=ada_href%>" onFocus="hover(this,\'
 		<table width="750" border="0" cellspacing="0" cellpadding="0" summary="">
 			<tr>
 				<td width="262" valign="top"><a name="top"></a><a href="#skipmaincontent" title="Skip To Main Content."><img src="../images/clear.gif" width="1" height="69" alt="Skip To Main Content." border="0" /></a><img src="../images/clear.gif" width="10" height="69" alt="" border="0" /><a href="http://www.bankofamerica.com" title="Bank of America  Higher Standards home page"><img src="../images/mhd_reg_logo.gif" width="250" height="69" alt="Bank of America Higher Standards home page" border="0" /></a><a href="http://www.bankofamerica.com/help/index.cfm?template=sitemap.cfm" title="Go to site map."><img src="../images/clear.gif" width="1" height="69" alt="Go to site map." border="0" /></a></td>
-				<td width="232"><%=ADA_HEADER_LINKS%><a href="#skipnav" title="Skip global navigational links."><img src="../images/clear.gif" width="1" height="69" alt="Skip global navigational links." border="0" /></a></td>
+				<td width="232"><a href="#skipnav" title="Skip global navigational links."><img src="../images/clear.gif" width="1" height="69" alt="Skip global navigational links." border="0" /></a></td>
 				<td width="256" valign="bottom">
 					<table width="100%" border="0" cellspacing="0" cellpadding="0" summary="">
 						<tr>

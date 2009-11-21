@@ -10,7 +10,7 @@ job_search_action = "../jobsearch/searchresult.asp"
 page_section=""
 Dim flashPage
 flashPage = true
-hide_flash_title = "Stop Video"
+hide_flash_title = "Stop Audio"
 Metatag="Main page of the careers site. From this page you can listen to a virtual host who gives a quick tour to point in the direction of either engaging information, job search information or more in-depth information about employment with Bank of America. From this page you can job search to find if there is an opportunity available. You can click to more links about benefits, diversity, corporate information, college information, global locations and to Investment Banking Careers."
 playflash = Request.Cookies("PFOT")
 If playflash = "" Then
@@ -27,7 +27,7 @@ If playflash = "1" Then flashPage = false
 			<tr valign="top"><td style="background: #cadceb;" height="50">
 <div id="flash1" style="position: absolute;">
 <table width="160" cellpadding="0" cellspacing="0" border="0" summary="">
-<tr><td align="right"><br><a href="<%=ada_href %>" id="videotranscript" title="<%=ada_title %>" class="g" onfocus="this.className='g-over';" onblur="this.className='g';"><% If playflash="" Then %>Video Transcript<% Else %>Text Only Version<% End If %></a>&nbsp;&nbsp;</td></tr>
+<tr><td align="right"><br><a href="<%=ada_href %>#vht" id="videotranscript" title="<% If playflash="" Then %>Virtual Host Video Transcript<% Else %><%=ada_title %><% End If %>" class="g" onfocus="this.className='g-over';" onblur="this.className='g';"><% If playflash="" Then %>Video Transcript<% Else %>Text Only Version<% End If %></a>&nbsp;&nbsp;</td></tr>
 </table>
 <script language="JavaScript1.2" type="text/javascript">
 //<!--

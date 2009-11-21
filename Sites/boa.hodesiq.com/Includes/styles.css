@@ -11,7 +11,7 @@ TD, TH
     font-family: Verdana, helvetica, sans-serif;
 }
 
-P, UL, LI, H3.p, LABEL.p
+P, UL, LI, H2.p, H3.p, LABEL.p
 {
 	font-family : Verdana, Helvetica, sans-serif;
 	font-size : 1.0em;

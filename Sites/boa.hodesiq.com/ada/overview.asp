@@ -17,6 +17,8 @@ flashPage = false
 <!-- #include file="lnav.asp" -->
 <!-- Left Nav -->
 			<tr valign="top"><td style="background: #cadceb;" height="50" valign="bottom">
+<a name="vht"></a>
+<p style="margin: 12px 12px 0px 13px;"><span class="left2" style="color: #D40019;">Virtual Host (Video Transcript)</span></p>
 <p class="s" style="margin: 12px 12px 12px 13px;">
 Welcome to Bank of America.  Our global corporation offers talented and motivated individuals the opportunity to excel in many different areas.</p>
 
@@ -45,7 +47,6 @@ Thank you for your interest in Bank of America!</p>
 <!-- Body-->
 <img src="../images/clear.gif" width="15" height="4" alt="" border="0"><br>
 <!-- #include file="../includes/pages/overview.asp" -->
-<br><br>
 <!-- Body-->
 	</td>
 </tr>
