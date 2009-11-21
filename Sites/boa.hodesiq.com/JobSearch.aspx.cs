@@ -217,7 +217,7 @@ public partial class JobSearch : System.Web.UI.Page
 	protected void PopulateJobAreas()
 	{
 		string selVal;
-		selVal = String.IsNullOrEmpty(Request.QueryString["jobareas"]) == false ? Request.QueryString["jobareas"] : this.ddlJobAreas.SelectedValue;
+		selVal = String.IsNullOrEmpty(Request.QueryString["jobareas"]) == false ? string.IsNullOrEmpty(this.ddlJobAreas.SelectedValue) ? Request.QueryString["jobareas"] : this.ddlJobAreas.SelectedValue : this.ddlJobAreas.SelectedValue;
 		this.ddlJobAreas.Items.Clear();
 		OleDbDataReader dr;
 		AreaofTalent ja = new AreaofTalent();
