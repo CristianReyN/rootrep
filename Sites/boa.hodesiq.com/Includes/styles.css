@@ -107,6 +107,19 @@ H1, H2.h1
     text-decoration: none;
     padding: 6px 0px 0px 0px;
 }
+
+H1.rjp
+{
+	font-family : Verdana, Helvetica, sans-serif;
+	font-size : 1.25em;
+	font-weight : bold;
+    color: #505153;
+    background-color: #d3d5d6;
+    text-decoration: none;
+    padding: 2px 12px 0px 12px;
+	margin: 0px;
+}
+
 H2.h1 span{
 	font-size: 0.65em;
 	font-weight: bold;
@@ -125,6 +138,13 @@ H2, H2.h2, H2.h2u, P.h2
     padding: 6px 0px 6px 0px;
 }
 H2.h2u { text-decoration: underline; }
+H2.rjp
+{
+	font-family : Verdana, Helvetica, sans-serif;
+	font-size : 1.2em;
+	margin-top: 0px;
+	padding-top: 0px;
+}
 P.H2{padding: 0px 0px 0px 0px;}
 H2.hi
 {

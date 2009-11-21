@@ -42,6 +42,10 @@
 <div style="width: 201px; text-align: center; margin: 0px; padding: 0px;">
 <!-- #include file="../talkingatm.html" -->
 </div>
+<% rjp_standalone = false %>
+<div style="width: 201px; text-align: center; margin: 0px; padding: 0px;">
+<!-- #include file="../rjp.asp" -->
+</div>
 <br><br>
 					</div>
 <p style="margin: <% If page_section = "ADA" Then %>12<% Else %>0<%End If%>px <%=right_margin_split%>px 0px <%=left_margin_0%>px;">
