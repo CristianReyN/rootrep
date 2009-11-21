@@ -29,6 +29,7 @@ ada_title = ada_title  & ", " & textonly_version
 <meta name="Description" content="<%=Metatag%>">
 <title><%=title %></title>
 <link rel="stylesheet" href="../includes/styles.css" type="text/css">
+<link rel="stylesheet" href="../includes/hs_safebutton.css" type="text/css">
 <script language="JavaScript1.2" src="../includes/masthead.js" type="text/javascript"></script>
 <script language="JavaScript1.2" src="../includes/mvc-fontsize.js" type="text/javascript"></script>
 <script language="JavaScript1.2" src="../includes/flash.js" type="text/javascript"></script>
@@ -106,7 +107,6 @@ End If
 <input type="text" maxlength="75" class="searchbox" style="width: 100%;" id="question_box" name="question_box" value="" alt="Question or phrase to search." title="Get answers fast. Type in a question or phrase."></td>
 										<td width="10"><img src="../images/clear.gif" width="10" height="0" alt="" border="0" /></td>
 										<td width="60" valign="top" nowrap>
-<link href="../Includes/hs_safebutton.css" type="text/css" rel="stylesheet">
 <script src="../Includes/hs_safebutton.js" language="JavaScript" type="text/javascript"></script>
 <script language="JavaScript" type="text/javascript">
 <!--

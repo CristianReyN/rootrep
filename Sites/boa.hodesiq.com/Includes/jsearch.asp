@@ -9,52 +9,52 @@
 <select name="jobareas" id="jobareas" title="Select a Job Area"<%=c_lass%><%=style%>>
 	<option value="Select a Job Area"<%If jobareas="Select a job area" Or jobareas="" Then Response.write " selected"%>>Select a job area</option>
 <optgroup label="Administration">
-	<option value="1|-1" OptionGroup="Administration"<%If jobareas="1|-1" Then Response.write " selected"%>>All Administration</option>
-	<option value="1|4" OptionGroup="Administration"<%If jobareas="1|4" Then Response.write " selected"%>>Change Mgmt &amp; Process</option>
-	<option value="1|2" OptionGroup="Administration"<%If jobareas="1|2" Then Response.write " selected"%>>Corporate Executive</option>
-	<option value="1|3" OptionGroup="Administration"<%If jobareas="1|3" Then Response.write " selected"%>>Corporate Workplace</option>
-	<option value="1|7" OptionGroup="Administration"<%If jobareas="1|7" Then Response.write " selected"%>>Learning &amp; Leadership Development</option>
-	<option value="1|5" OptionGroup="Administration"<%If jobareas="1|5" Then Response.write " selected"%>>Legal</option>
-	<option value="1|6" OptionGroup="Administration"<%If jobareas="1|6" Then Response.write " selected"%>>Services</option>
+	<option value="1|-1" OptGroup="Administration"<%If jobareas="1|-1" Then Response.write " selected"%>>All Administration</option>
+	<option value="1|4" OptGroup="Administration"<%If jobareas="1|4" Then Response.write " selected"%>>Change Mgmt &amp; Process</option>
+	<option value="1|2" OptGroup="Administration"<%If jobareas="1|2" Then Response.write " selected"%>>Corporate Executive</option>
+	<option value="1|3" OptGroup="Administration"<%If jobareas="1|3" Then Response.write " selected"%>>Corporate Workplace</option>
+	<option value="1|7" OptGroup="Administration"<%If jobareas="1|7" Then Response.write " selected"%>>Learning &amp; Leadership Development</option>
+	<option value="1|5" OptGroup="Administration"<%If jobareas="1|5" Then Response.write " selected"%>>Legal</option>
+	<option value="1|6" OptGroup="Administration"<%If jobareas="1|6" Then Response.write " selected"%>>Services</option>
 </optgroup>
 <optgroup label="Communications">
-	<option value="3|-1" OptionGroup="Communications"<%If jobareas="3|-1" Then Response.write " selected"%>>All Communications</option>
-	<option value="3|11" OptionGroup="Communications"<%If jobareas="3|11" Then Response.write " selected"%>>Marketing</option>
+	<option value="3|-1" OptGroup="Communications"<%If jobareas="3|-1" Then Response.write " selected"%>>All Communications</option>
+	<option value="3|11" OptGroup="Communications"<%If jobareas="3|11" Then Response.write " selected"%>>Marketing</option>
 </optgroup>
 <optgroup label="Consumer Banking">
-	<option value="10|-1" OptionGroup="Consumer Banking"<%If jobareas="10|-1" Then Response.write " selected"%>>All Consumer Banking</option>
+	<option value="10|-1" OptGroup="Consumer Banking"<%If jobareas="10|-1" Then Response.write " selected"%>>All Consumer Banking</option>
 </optgroup>
 <optgroup label="Customer Care">
-	<option value="2|-1" OptionGroup="Customer Care"<%If jobareas="2|-1" Then Response.write " selected"%>>All Customer Care</option>
-	<option value="2|8" OptionGroup="Customer Care"<%If jobareas="2|8" Then Response.write " selected"%>> Relationship Management</option>
-	<option value="2|3" OptionGroup="Customer Care"<%If jobareas="2|3" Then Response.write " selected"%>>Corporate Workplace</option>
-	<option value="2|9" OptionGroup="Customer Care"<%If jobareas="2|9" Then Response.write " selected"%>>Customer Service</option>
+	<option value="2|-1" OptGroup="Customer Care"<%If jobareas="2|-1" Then Response.write " selected"%>>All Customer Care</option>
+	<option value="2|8" OptGroup="Customer Care"<%If jobareas="2|8" Then Response.write " selected"%>> Relationship Management</option>
+	<option value="2|3" OptGroup="Customer Care"<%If jobareas="2|3" Then Response.write " selected"%>>Corporate Workplace</option>
+	<option value="2|9" OptGroup="Customer Care"<%If jobareas="2|9" Then Response.write " selected"%>>Customer Service</option>
 </optgroup>
 <optgroup label="Finance">
-	<option value="4|-1" OptionGroup="Finance"<%If jobareas="4|-1" Then Response.write " selected"%>>All Finance</option>
-	<option value="4|13" OptionGroup="Finance"<%If jobareas="4|13" Then Response.write " selected"%>>Credit</option>
-	<option value="4|14" OptionGroup="Finance"<%If jobareas="4|14" Then Response.write " selected"%>>Investment Banking</option>
-	<option value="4|15" OptionGroup="Finance"<%If jobareas="4|15" Then Response.write " selected"%>>Wealth &amp; Investment Mgmt</option>
+	<option value="4|-1" OptGroup="Finance"<%If jobareas="4|-1" Then Response.write " selected"%>>All Finance</option>
+	<option value="4|13" OptGroup="Finance"<%If jobareas="4|13" Then Response.write " selected"%>>Credit</option>
+	<option value="4|14" OptGroup="Finance"<%If jobareas="4|14" Then Response.write " selected"%>>Investment Banking</option>
+	<option value="4|15" OptGroup="Finance"<%If jobareas="4|15" Then Response.write " selected"%>>Wealth &amp; Investment Mgmt</option>
 </optgroup>
 <optgroup label="Human Resources">
-	<option value="5|-1" OptionGroup="Human Resources"<%If jobareas="5|-1" Then Response.write " selected"%>>All Human Resources</option>
-	<option value="5|7" OptionGroup="Human Resources"<%If jobareas="5|7" Then Response.write " selected"%>>Learning &amp; Leadership Development</option>
+	<option value="5|-1" OptGroup="Human Resources"<%If jobareas="5|-1" Then Response.write " selected"%>>All Human Resources</option>
+	<option value="5|7" OptGroup="Human Resources"<%If jobareas="5|7" Then Response.write " selected"%>>Learning &amp; Leadership Development</option>
 </optgroup>
 <optgroup label="Operations">
-	<option value="6|-1" OptionGroup="Operations"<%If jobareas="6|-1" Then Response.write " selected"%>>All Operations</option>
-	<option value="6|4" OptionGroup="Operations"<%If jobareas="6|4" Then Response.write " selected"%>>Change Mgmt &amp; Process</option>
-	<option value="6|5" OptionGroup="Operations"<%If jobareas="6|5" Then Response.write " selected"%>>Legal</option>
-	<option value="6|6" OptionGroup="Operations"<%If jobareas="6|6" Then Response.write " selected"%>>Services</option>
+	<option value="6|-1" OptGroup="Operations"<%If jobareas="6|-1" Then Response.write " selected"%>>All Operations</option>
+	<option value="6|4" OptGroup="Operations"<%If jobareas="6|4" Then Response.write " selected"%>>Change Mgmt &amp; Process</option>
+	<option value="6|5" OptGroup="Operations"<%If jobareas="6|5" Then Response.write " selected"%>>Legal</option>
+	<option value="6|6" OptGroup="Operations"<%If jobareas="6|6" Then Response.write " selected"%>>Services</option>
 </optgroup>
 <optgroup label="Risk Evaluation">
-	<option value="7|-1" OptionGroup="Risk Evaluation"<%If jobareas="7|-1" Then Response.write " selected"%>>All Risk Evaluation</option>
+	<option value="7|-1" OptGroup="Risk Evaluation"<%If jobareas="7|-1" Then Response.write " selected"%>>All Risk Evaluation</option>
 </optgroup>
 <optgroup label="Sales">
-	<option value="8|-1" OptionGroup="Sales"<%If jobareas="8|-1" Then Response.write " selected"%>>All Sales</option>
-	<option value="8|20" OptionGroup="Sales"<%If jobareas="8|20" Then Response.write " selected"%>>Consumer banking</option>
+	<option value="8|-1" OptGroup="Sales"<%If jobareas="8|-1" Then Response.write " selected"%>>All Sales</option>
+	<option value="8|20" OptGroup="Sales"<%If jobareas="8|20" Then Response.write " selected"%>>Consumer banking</option>
 </optgroup>
 <optgroup label="Technology">
-	<option value="9|-1" OptionGroup="Technology"<%If jobareas="9|-1" Then Response.write " selected"%>>All Technology</option>
+	<option value="9|-1" OptGroup="Technology"<%If jobareas="9|-1" Then Response.write " selected"%>>All Technology</option>
 </optgroup>
 </select>
 <%
