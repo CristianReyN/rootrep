@@ -9,6 +9,7 @@ using System.Web.UI.WebControls;
 using System.Web.UI.WebControls.WebParts;
 using System.Web.UI.HtmlControls;
 using System.Xml;
+using System.Text;
 
 public partial class JobDetails : System.Web.UI.Page
 {
@@ -323,6 +324,10 @@ public partial class JobDetails : System.Web.UI.Page
     #region :: PARSING BY LINKS AND WEB ENABLE THEM ::
     private string LinkBuilder(string sText, string sFieldName)
     {
+        StringBuilder strParsedText = new StringBuilder();
+        StringBuilder strWWWText = new StringBuilder();
+        StringBuilder strURL = new StringBuilder();
+        StringBuilder strHref = new StringBuilder();
 
         string sParsedText = sText;
         string sRight = "";
@@ -337,10 +342,13 @@ public partial class JobDetails : System.Web.UI.Page
         {
             // by "http"
             string[] sSplit = SplitByString(sText, "http");
+            strParsedText.Append(sSplit[0].Substring(0, sSplit[0].Length - 4));
             for (int i = 1; i < sSplit.Length; i++)
             {
-                sHref = sHrefTemplate;
+                //sHref = sHrefTemplate;
+                //strHref.Append("<a href='link_here' target='_blank'>link_here</a>");
                 sRight = sSplit[i];
+                iSpaceIndex = sRight.IndexOf(" ");
 
                 try
                 {
@@ -355,21 +363,29 @@ public partial class JobDetails : System.Web.UI.Page
                     }
                     else
                     {
-                        if (iSpaceIndex > iDotIndex && iDotIndex != -1) iSpaceIndex = iDotIndex;
+                        if (iSpaceIndex > iDotIndex && iDotIndex != -1) 
+                            iSpaceIndex = iDotIndex;
                     }
                 }
-
-                sURL = "http" + sRight.Substring(0, iSpaceIndex).Trim();
-                sHref = sHref.Replace("link_here", sURL);
-                sParsedText = sParsedText.Replace(sURL, sHref);
+                
+                sURL = sRight.Substring(0, iSpaceIndex).Trim();
+                strParsedText.Append("<a href='http");
+                strParsedText.Append(sURL);
+                strParsedText.Append("' target='_blank'>");
+                strParsedText.Append("http" + sURL);
+                strParsedText.Append("</a>");
+                strParsedText.Append(sRight.Substring(iSpaceIndex));
+                //sHref = sHref.Replace("link_here", sURL);
+                //sParsedText = sParsedText.Replace(sURL, sHref);
             }
 
             // by " www."
-            sSplit = SplitByString(sText, " www.");
-            for (int i = 1; i < sSplit.Length; i++)
+            sSplit = SplitByString(strParsedText.ToString(), "www");
+            strWWWText.Append(sSplit[0].Substring(0, sSplit[0].Length));
+            for (int ii = 1; ii < sSplit.Length; ii++)
             {
-                sHref = sHrefWWWTemplate;
-                sRight = sSplit[i];
+                sRight = sSplit[ii];
+                //iSpaceIndex = sRight.IndexOf(" ");
 
                 try
                 {
@@ -384,18 +400,25 @@ public partial class JobDetails : System.Web.UI.Page
                     }
                     else
                     {
-                        if (iSpaceIndex > iDotIndex && iDotIndex != -1) iSpaceIndex = iDotIndex;
+                        if (iSpaceIndex > iDotIndex && iDotIndex != -1) 
+                            iSpaceIndex = iDotIndex;
                     }
                 }
 
-                sURL = "www." + sRight.Substring(0, iSpaceIndex).Trim();
-                sHref = " " + sHref.Replace("link_here", sURL);
-                sURL = " " + sURL;
-                sParsedText = sParsedText.Replace(sURL, sHref);
+                sURL = sRight.Substring(0, iSpaceIndex).Trim();
+                strWWWText.Append("<a href='http://www");
+                strWWWText.Append(sURL);
+                strWWWText.Append("' target='_blank'>");
+                strWWWText.Append("www" + sURL);
+                strWWWText.Append("</a>");
+                strWWWText.Append(sRight.Substring(iSpaceIndex + 1));
             }
         }
+        else
+            strWWWText.Append(sText);
 
-        return sParsedText;
+        return strWWWText.ToString();
+        //return sParsedText;
     }
     #endregion
 
