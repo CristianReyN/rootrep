@@ -21,7 +21,7 @@
 <%		End if %>
 <%		if r5 then %>
 <img class="dotdiv" style="margin: 10px 0px 6px 0px;" src="../images/clear.gif" width="185" height="1" alt="" border="0">
-	<a href="http://www.bankofamerica.com/merrill" title="Bank of America and Merrill Lynch are joining forces. Learn more &raquo; " target="_blank" class="left2" style="text-decoration: none;"><div><span style="font : bold 1.2em Times New Roman, Times, serif; color: #333333;">Bank of America and Merrill Lynch are joining forces.</span><br>Learn more &raquo;</div></a>
+	<a href="http://www.bankofamerica.com/merrill" title="Bank of America and Merrill Lynch are joining forces. Learn more &raquo;, link opens in a new window. " target="_blank" class="left2" style="text-decoration: none;"><div><span style="font : bold 1.2em Times New Roman, Times, serif; color: #333333;">Bank of America and Merrill Lynch are joining forces.</span><br>Learn more &raquo;</div></a>
 <img class="dotdiv" style="margin: 6px 0px 0px 0px;" src="../images/clear.gif" width="185" height="1" alt="" border="0"><br clear="all">
 <%		End if %>
 </div>

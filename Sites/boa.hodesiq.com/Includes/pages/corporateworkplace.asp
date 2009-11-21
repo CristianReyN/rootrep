@@ -15,7 +15,7 @@
 <a name="skipmaincontent"></a><H1 class="hidden">Corporate Workplace</H1>
 <div style="float: left; width: <% If page_section = "ADA" Then %>357<% ElseIf page_section <> "ADA" Then %>299<%End If%>px;">
 	<p style="margin: <% If page_section = "ADA" Then %>12<% Else %>0<%End If%>px <%=right_margin%>px 0px <%=left_margin_0%>px;">
-Corporate Workplace is responsible for 115 million square feet of bank-owned and occupied facilities worldwide. The group strives to discover innovative ways to evolve workspace and differentiate real estate for the bank. Corporate Workplace will soon open the world's most environmentally-friendly skyscraper in New York City and continues to develop flexible work options for associates.
+Corporate Workplace is responsible for 115 million square feet of bank-owned and occupied facilities worldwide. The group strives to discover innovative ways to evolve workspace and differentiate real estate for the bank. Corporate Workplace has opened the world's most environmentally-friendly skyscraper in New York City (at One Bryant Park) and continues to develop flexible work options for associates.
 	</p>
 	<p style="margin: 12px <%=right_margin%>px 0px <%=left_margin_0%>px;">
 Corporate Workplace partners with each line of business to craft solutions for project and facilities management, associate awareness, energy management, and the acquisition and disposition of space. The goal of this partnership is to ensure real estate is a competitive advantage for Bank&nbsp;of&nbsp;America.

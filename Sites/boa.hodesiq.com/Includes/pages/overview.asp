@@ -304,7 +304,7 @@ Please use  the <a href="http://globalcareers.bankofamerica.com/" class="p" titl
 				<td width="192" height="100%" valign="top" style="padding: 0px 0px 0px 0px;">
 <H2 class="h1" style="margin: 0px 0px 0px 4px;">Related Information</H2>
 <img src="../images/clear.gif" width="100%" height="1" alt="" border="0" class="divb"><br clear="all">
-					<table width="192" cellpadding="0" cellspacing="0" border="0" summary="" style="margin: 0px 0px 0px 0px;">
+					<table width="192" height="100%" cellpadding="0" cellspacing="0" border="0" summary="" style="margin: 0px 0px 0px 0px;">
 						<tr valign="top">
 							<td width="192" height="100%" valign="top" class="divl" style="padding: 6px 0px 0px 4px;">
 <p style="margin: 0px;">Here you'll find valuable information to help you in your decision making process.</p>
@@ -314,6 +314,10 @@ Please use  the <a href="http://globalcareers.bankofamerica.com/" class="p" titl
 <div style="text-align: center; margin: 0px; padding: 0px;">
 <!-- #include file="../talkingatm.html" -->
 </div>
+
+<img class="dotdiv" style="margin: 15px 0px 6px 0px;" src="../images/clear.gif" width="185" height="1" alt="" border="0">
+	<a href="http://www.bankofamerica.com/merrill" title="Bank of America and Merrill Lynch are joining forces. Learn more &raquo;, link opens in a new window. " target="_blank" class="left2" style="text-decoration: none;"><div><span style="font : bold 1.2em Times New Roman, Times, serif; color: #333333;">Bank of America and Merrill Lynch are joining forces.</span><br>Learn more &raquo;</div></a>
+<img class="dotdiv" style="margin: 6px 0px 0px 0px;" src="../images/clear.gif" width="185" height="1" alt="" border="0"><br clear="all">
 							</td>
 						</tr>
 					</table>
