@@ -270,8 +270,6 @@ create_safebutton("Begin Search","javascript: document.jsearch.submit();",0,0,0,
 <p style="margin: 6px 0px 0px 0px;">
 Bank of America and Merrill Lynch have officially joined forces, creating a leading global banking and wealth management franchise, and a premier corporate and investment banking and capital markets business. To search for Merrill Lynch career opportunities, please visit <a href="http://careers.ml.com/" class="p" title="Merrill Lynch Careers" target="_blank">http://careers.ml.com/</a>.</p>
 <p style="margin: 6px 0px 0px 0px;">
-Bank of America and Countrywide Financial have officially joined forces to become America's leading home loan provider. To search for Countrywide career opportunities, please visit <a href="http://www.countrywidecareers.com/" class="p" title="Countrywide Financial" target="_blank">http://www.countrywidecareers.com/</a>.</p>
-<p style="margin: 6px 0px 0px 0px;">
 Bank of America associates should access the <a href="http://www.bankofamerica.com/careers/index.cfm?template=jobs_interstitial" class="p" title="Internal Jobs Database">internal jobs database</a>.</p>
 <p style="margin: 6px 0px 6px 0px;">
 Please use  the <a href="http://globalcareers.bankofamerica.com/" class="p" title="Global Careers Job Search">Global Careers Job Search</a> to find opportunities outside of the USA.</p>
