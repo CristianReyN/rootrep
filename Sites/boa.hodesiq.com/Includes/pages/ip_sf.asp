@@ -1,9 +1,9 @@
-		<a name="skipmaincontent"></a><H1 style="margin: 2px 0px 0px 0px;">Service &amp; Fulfillment MBA - Leadership Internship Program</H1>
+		<a name="skipmaincontent"></a><H1 style="margin: 2px 0px 0px 0px;">Operations MBA Program Internship</H1>
 		<table width="578" cellpadding="0" cellspacing="0" border="0" summary="">
 			<tr valign="top">
 				<td width="373" height="100%" valign="top" style="padding: 6px 5px 0px 12px;">
 <img class="dotdiv" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
-<h2 class="h2u" style="margin: 0px 0px 0px 0;">Our Business:</h2>
+<h2 class="h2" style="margin: 0px;">Our business</h2>
 <p style="margin: 0px 0px 12px 0px;">
 Operating within the Global Consumer &amp; Small Business Banking and Global Technology &amp; Operations areas, Services &amp; Fulfillment includes, but is not limited, to the following sub-lines of business:
 <br><br>
@@ -17,12 +17,12 @@ Operating within the Global Consumer &amp; Small Business Banking and Global Tec
 	<li>Processing over 31 million customer statements monthly</li>
 </ul>
 
-<h2 class="h2u" style="margin: 0px 0px 0px 0px;">Overview:</h2>
+<h2 class="h2" style="margin: 0px;">Overview</h2>
 <p style="margin: 0px 0px 12px 0px;">
-This internship program is designed to provide external candidates with an opportunity to prepare for future opportunities in the Service and Fulfillment MBA Leadership Rotational Program. Participants will experience an assignment in either Service and Fulfillment Operations (SFO) or Deposit Contact Centers (DCC).
+This internship program is designed to provide external candidates with an opportunity to prepare for future opportunities in the Service and Operations MBA Program. Participants will experience an assignment in either Service and Fulfillment Operations (SFO) or Deposit Contact Centers (DCC).
 </p>
 
-<h2 class="h2u" style="margin: 0px 0px 0px 0px;">Qualifications:</h2>
+<h2 class="h2" style="margin: 0px;">Qualifications</h2>
 <p style="margin: 0px 0px 12px 0;">Education & Skills:</p>
 <ul>
 	<li>MBA degree from an accredited college or university</li>
@@ -42,7 +42,7 @@ This internship program is designed to provide external candidates with an oppor
 	<li>Developed sense of customer and associate satisfaction to drive shareholder value</li>
 </ul>
 
-<h2 class="h2u" style="margin: 0px 0px 0px 0px;">Training:</h2>
+<h2 class="h2" style="margin: 0px;">Training</h2>
 <p style="margin: 0px 0px 12px 0px;">
 The program consists of the following developmental activities and opportunities:
 </p>
@@ -53,7 +53,7 @@ The program consists of the following developmental activities and opportunities
 	<li>Exposure to senior leadership teams and networking events</li>
 </ul>
 
-<h2 class="h2u" style="margin: 0px 0px 0px 0px;">Locations:</h2>
+<h2 class="h2" style="margin: 0px;">Locations</h2>
 <p style="margin: 0px 0px 12px 0px;">
 Charlotte, North Carolina <span class="middot">&middot;</span> Dallas and Irving, Texas <span class="middot">&middot;</span> Jacksonville and Tampa, Florida <span class="middot">&middot;</span> Phoenix and Tempe, Arizona <span class="middot">&middot;</span> St. Louis, Missouri <span class="middot">&middot;</span> Concord and San Francisco, California <span class="middot">&middot;</span> Chicago, Illinois.
 </p>

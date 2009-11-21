@@ -3,12 +3,12 @@
 			<tr valign="top">
 				<td width="373" height="100%" valign="top" style="padding: 6px 5px 0px 12px;">
 <img class="dotdiv" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
-<h2 class="h2u" style="margin: 0px 0px 0px 0;">Our Business:</h2>
+<h2 class="h2" style="margin: 0px;">Our business</h2>
 <p style="margin: 0px 0px 12px 0px;">
 The Quantitative Management Associate Program (QMAP) is designed to develop and coach analytical and quantitative talent to be deployed in Global Risk and Corporate Treasury. The program consists of two one-year rotations in quantitative disciplines along with customized training and continuing education. Upon completion of the program, QMAP graduates have a broad range of global career opportunities within the Bank.
 </p>
 
-<h2 class="h2u" style="margin: 0px 0px 0px 0;">Overview:</h2>
+<h2 class="h2" style="margin: 0px;">Overview</h2>
 <p style="margin: 0px 0px 12px 0px;">
 The two-year, entry-level program spans two rotational assignments focusing on credit, market or operational risk management within different areas of the Bank. Participants gain real, in-depth experience applying quantitative knowledge to specific financial challenges.
 <br><br>
@@ -22,7 +22,7 @@ During the program, Associates will be responsible for:
 	<li>Partnering with Bank Associates at all levels to complete job assignments and objectives</li>
 </ul>
 
-<h2 class="h2u" style="margin: 0px 0px 0px 0px;">Qualifications:</h2>
+<h2 class="h2" style="margin: 0px;">Qualifications</h2>
 <p style="margin: 0px 0px 12px 0px;">
 The Quantitative Management Associate Program is seeking a combination of academic aptitude and quantitative skills including:
 </p>
@@ -34,7 +34,7 @@ The Quantitative Management Associate Program is seeking a combination of academ
 	<li>Geographic mobility</li>
 </ul>
 
-<h2 class="h2u" style="margin: 0px 0px 0px 0px;">Locations:</h2>
+<h2 class="h2" style="margin: 0px;">Locations</h2>
 <p style="margin: 0px 0px 12px 0px;">
 Atlanta, GA <span class="middot">&middot;</span> Boston, MA <span class="middot">&middot;</span> Charlotte, NC <span class="middot">&middot;</span> Chicago, IL <span class="middot">&middot;</span> New York, NY <span class="middot">&middot;</span> San Francisco, CA
 </p>

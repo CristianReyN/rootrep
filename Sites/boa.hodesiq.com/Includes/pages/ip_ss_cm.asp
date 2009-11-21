@@ -3,12 +3,12 @@
 			<tr valign="top">
 				<td width="373" height="100%" valign="top" style="padding: 6px 5px 0px 12px;">
 <img class="dotdiv" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
-<h2 class="h2u" style="margin: 0px 0px 0px 0;">Our Business:</h2>
+<h2 class="h2" style="margin: 0px;">Our business</h2>
 <p style="margin: 0px 0px 12px 0px;">
 The Global Human Resources (HR) group at Bank of America enables the company to drive revenue through attracting, developing and retaining a world-class workforce.  A part of the HR group is Advice & Counsel Case Management. The Case Management Team function provides reviews of "high impact" personnel issues that have not been resolved by management, a Human Resource Manager, or the Advice and Counsel Advisor.  "High Impact" issues are those that have potential risk for the Company if they are not resolved internally.
 </p>
 
-<h2 class="h2u" style="margin: 0px 0px 0px 0px;">Overview:</h2>
+<h2 class="h2" style="margin: 0px;">Overview</h2>
 <p style="margin: 0px 0px 12px 0px;">
 In part, the Case Manager investigates allegations of sexual harassment and Title VII discrimination, and situations involving group or concerted activity. Many of the issues reviewed and investigated by the Case Manager are referred by Advice & Counsel Advisors, HR Executives/Managers and the Bank's Legal Department. Case Managers also investigate and respond to formal state and federal agency discrimination charges, and are the Company's primary point of contact with these agencies and their local offices on individual charges and issues, interacting with HR Legal as appropriate. Responsibilities also include:
 </p>
@@ -26,7 +26,7 @@ Additionally, Case Managers support the Labor Relations Group by helping conduct
 	<li>Helpful in mitigating risks associated with union organizing, individual or class action litigation, media attention and reputation risks</li>
 </ul>
 
-<h2 class="h2u" style="margin: 0px 0px 0px 0px;">Qualifications:</h2>
+<h2 class="h2" style="margin: 0px;">Qualifications</h2>
 <ul>
 	<li>Excellent written/oral communications skills</li>
 	<li>Demonstrated analytical and negotiation skills</li>
@@ -37,7 +37,7 @@ Additionally, Case Managers support the Labor Relations Group by helping conduct
 	<li>MBA Required</li>
 </ul>
 
-<h2 class="h2u" style="margin: 0px 0px 0px 0px;">Locations:</h2>
+<h2 class="h2" style="margin: 0px;">Locations</h2>
 <p style="margin: 0px 0px 12px 0px;">
 Charlotte, North Carolina
 </p>

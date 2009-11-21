@@ -3,12 +3,12 @@
 			<tr valign="top">
 				<td width="373" height="100%" valign="top" style="padding: 6px 5px 0px 12px;">
 <img class="dotdiv" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
-<h2 class="h2u" style="margin: 0px 0px 0px 0;">Our Business:</h2>
+<h2 class="h2" style="margin: 0px;">Our business</h2>
 <p style="margin: 0px 0px 12px 0px;">
 The Global Human Resources (HR) group at Bank of America drives revenue and impacts the performance of the Company by continually attracting, developing and retaining a world-class workforce; and by aligning HR strategy to business strategy to ensure the Company always has the talent needed to achieve its business objectives. Key units within Global HR are Staffing, Compensation, Benefits, Leadership Development, Learning, and a team of Generalists. In addition to advising business leaders, Global HR helps the Company deliver a quality working environment, and exceptional benefits, work/life balance and overall satisfaction for our 200,000 associates.
 </p>
 
-<h2 class="h2u" style="margin: 0px 0px 0px 0px;">Overview:</h2>
+<h2 class="h2" style="margin: 0px;">Overview</h2>
 <p style="margin: 0px 0px 12px 0px;">
 The objective of the Workforce Planning, Process Design Analyst internship is to present graduates with the opportunity to expand upon their academic foundation - specifically their technical skills, their knowledge of the industry and their familiarity with a corporate environment. This position will introduce recent graduates to Bank of America, the Global Human Resources group and the Workforce Planning team.
 <br><br>
@@ -20,7 +20,7 @@ Workforce Planning, Process Design Analyst responsibilities include:
 	<li>Achieving hiring targets and maintaining customer requirements by uploading the base hiring forecast in the demand planning system, monitoring performance, and partnering with Process Design Consultant to recommend action plans</li>
 </ul>
 
-<h2 class="h2u" style="margin: 0px 0px 0px 0px;">Qualifications:</h2>
+<h2 class="h2" style="margin: 0px;">Qualifications</h2>
 <ul>
 	<li>Degree in Statistics, Mathematics, Supply Chain, Finance or related major</li>
 	<li>Ability to use analytical and statistical models to prepare forecasts</li>
@@ -28,7 +28,7 @@ Workforce Planning, Process Design Analyst responsibilities include:
 	<li>Proficiency in MS Excel, Access, Word and PowerPoint</li>
 </ul>
 
-<h2 class="h2u" style="margin: 0px 0px 0px 0px;">Locations:</h2>
+<h2 class="h2" style="margin: 0px;">Locations</h2>
 <p style="margin: 0px 0px 12px 0px;">
 Charlotte, North Carolina
 </p>

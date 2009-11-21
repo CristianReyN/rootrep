@@ -3,17 +3,17 @@
 			<tr valign="top">
 				<td width="373" height="100%" valign="top" style="padding: 6px 5px 0px 12px;">
 <img class="dotdiv" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
-<h2 class="h2u" style="margin: 0px 0px 0px 0;">Our Business:</h2>
+<h2 class="h2" style="margin: 0px;">Our business</h2>
 <p style="margin: 0px 0px 12px 0px;">
 The Technology Organization within Bank of America provides comprehensive support to functional groups and lines of business across the entire Company, including: Wealth & Investment Management Technology, Consumer & Small Business Banking, Corporate Staff Support Technology, Capital Markets & Wholesale Banking Technology, Corporate Information Security/Business Continuity and the Network Computing Group.
 </p>
 
-<h2 class="h2u" style="margin: 0px 0px 0px 0;">Overview:</h2>
+<h2 class="h2" style="margin: 0px;">Overview</h2>
 <p style="margin: 0px 0px 12px 0px;">
 The Technology MBA leadership rotational program provides the opportunity to gain foundational knowledge within Bank of America's Technology organization through 2-3 rotations over a 36-month period. Participants will learn end-to-end technology and business strategy, and develop the skills necessary to move into potential leadership positions upon completion of the program.
 </p>
 
-<h2 class="h2u" style="margin: 0px 0px 0px 0px;">Qualifications:</h2>
+<h2 class="h2" style="margin: 0px;">Qualifications</h2>
 <p style="margin: 0px 0px 12px 0;">
 Education & Skills:
 </p>
@@ -41,12 +41,12 @@ Personality Characteristics:
 </ul>
 
 
-<h2 class="h2u" style="margin: 0px 0px 0px 0px;">Training:</h2>
+<h2 class="h2" style="margin: 0px;">Training</h2>
 <p style="margin: 0px 0px 12px 0px;">
 Associates will attend a formal Education and Orientation program to learn more about Bank of America business, culture and values, as well as to network with Executives and other college hires.  Additionally, Associates will participate in various networking and learning opportunities throughout the duration of the program.
 </p>
 
-<h2 class="h2u" style="margin: 0px 0px 0px 0px;">Locations:</h2>
+<h2 class="h2" style="margin: 0px;">Locations</h2>
 <p style="margin: 0px 0px 12px 0px;">
 Opportunities exist in major US cities across the Bank of America franchise, including but not limited to:
 <span class="middot">&middot;</span> Charlotte, NC <span class="middot">&middot;</span> Boston, MA <span class="middot">&middot;</span> New York, NY <span class="middot">&middot;</span> (Other, including select international, locations are TBD)

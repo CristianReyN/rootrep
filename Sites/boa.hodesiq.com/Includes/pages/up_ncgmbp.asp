@@ -3,17 +3,17 @@
 			<tr valign="top">
 				<td width="373" height="100%" valign="top" style="padding: 6px 5px 0px 12px;">
 <img class="dotdiv" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
-<h2 class="h2u" style="margin: 0px 0px 0px 0;">Our Business:</h2>
+<h2 class="h2" style="margin: 0px;">Our business</h2>
 <p style="margin: 0px 0px 12px 0px;">
 The Mainframe Build group is a division within the Network Computing Group. The Mainframe Build group provides continuous operating, computing and network services for the Bank of America consumer, commercial, global and wholesale banking groups. Mainframe Build is responsible for the transaction, database and message queue managers, as well as mainframe operating systems and logical network services. Mainframe Build teams include CICS, DB2, IMS, WMQ, Z/OS Communications and Operating System Services.
 </p>
 
-<h2 class="h2u" style="margin: 0px 0px 0px 0;">Overview:</h2>
+<h2 class="h2" style="margin: 0px;">Overview</h2>
 <p style="margin: 0px 0px 12px 0px;">
 Mainframe Build has created a college program to develop its next generation of mainframe technicians. College candidates with mainframe technology education may be eligible for a full-time Associate position. Associate then participate in a 2-3 year program that includes training, on-the-job job experience and career development in one or more mainframe technology areas.
 </p>
 
-<h2 class="h2u" style="margin: 0px 0px 0px 0;">Qualifications:</h2>
+<h2 class="h2" style="margin: 0px;">Qualifications</h2>
 <p style="margin: 0px 0px 12px 0px;">
 Education & Skills:
 </p>
@@ -38,12 +38,12 @@ Personality Characteristics:
 	<li>Strong focus on customer satisfaction and drive to meet business goals.</li>
 </ul>
 
-<h2 class="h2u" style="margin: 0px 0px 0px 0;">Training:</h2>
+<h2 class="h2" style="margin: 0px;">Training</h2>
 <p style="margin: 0px 0px 12px 0px;">
 The technology training curriculums spans 2-3 years, and will focus primarily in one mainframe technology, to be determined based on the candidate's education, career request and available positions. The mainframe technology training curriculum is comprised of formal technology classes, in-house courses, self study and job mentoring from a senior technician. Training occurs in conjunction with technical job assignments so as to reinforce education as well as build on-the-job experience.
 </p>
 
-<h2 class="h2u" style="margin: 0px 0px 0px 0;">Locations:</h2>
+<h2 class="h2" style="margin: 0px;">Locations</h2>
 <p style="margin: 0px 0px 12px 0px;">
 Opportunities exist in Charlotte, North Carolina; Addison, Texas; Richmond, Virginia
 </p>

@@ -3,12 +3,12 @@
 			<tr valign="top">
 				<td width="373" height="100%" valign="top" style="padding: 6px 5px 0px 12px;">
 <img class="dotdiv" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
-<h2 class="h2u" style="margin: 0px 0px 0px 0;">Our Business:</h2>
+<h2 class="h2" style="margin: 0px;">Our business</h2>
 <p style="margin: 0px 0px 12px 0px;">
 Quality &&amp; Productivity (Q&amp;P) is the division within Bank of America that partners with the lines of business to apply quality, Six Sigma and Change and Project Management tools and methods to improve business performance. Q&P works with businesses to identify and improve high-impact, end-to-end processes and focus on key enterprise priorities such as customer delight, expense reduction, revenue growth, risk mitigation, change initiatives and process/product quality and speed. Six Sigma, Change and Project Management, Process Excellence, Lean and Management by Fact are the primary tools used to execute improvement activities across the Company. Since its introduction in 2001, Q&P has become an integral the Company, creating significant improvements in the efficiency and effectiveness of key processes, while accelerating results and driving cost savings, customer delight and revenue.
 </p>
 
-<h2 class="h2u" style="margin: 0px 0px 0px 0px;">Overview:</h2>
+<h2 class="h2" style="margin: 0px;">Overview</h2>
 <p style="margin: 0px 0px 12px 0px;">
 Quality and Productivity Interns will participate in a program that is designed to foster teamwork, networking and accelerated development. Intern responsibilities include:
 </p>
@@ -20,7 +20,7 @@ Quality and Productivity Interns will participate in a program that is designed 
 	<li>Supporting the deployment of Q&P capabilities and toolsets to facilitate improvements in the design, development, and implementation of project deliverables</li>
 </ul>
 
-<h2 class="h2u" style="margin: 0px 0px 0px 0px;">Qualifications:</h2>
+<h2 class="h2" style="margin: 0px;">Qualifications</h2>
 <ul>
 	<li>Bachelor's degree in Business, Engineering or other technical major</li>
 	<li>3-5 years relevant work experience</li>
@@ -33,12 +33,12 @@ Quality and Productivity Interns will participate in a program that is designed 
 	<li>Eligibility to work in the United States</li>
 </ul>
 
-<h2 class="h2u" style="margin: 0px 0px 0px 0px;">Training:</h2>
+<h2 class="h2" style="margin: 0px;">Training</h2>
 <p style="margin: 0px 0px 12px 0px;">
 The Internship program integrates business critical assignments, experiential learning and formal on-boarding. Participants will have the opportunity to participate in structured performance management and networking events.
 </p>
 
-<h2 class="h2u" style="margin: 0px 0px 0px 0px;">Locations:</h2>
+<h2 class="h2" style="margin: 0px;">Locations</h2>
 <p style="margin: 0px 0px 12px 0px;">
 Charlotte, NC <span class="middot">&middot;</span> Boston, MA
 </p>

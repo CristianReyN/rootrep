@@ -3,12 +3,12 @@
 			<tr valign="top">
 				<td width="373" height="100%" valign="top" style="padding: 6px 5px 0px 12px;">
 <img class="dotdiv" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
-<h2 class="h2u" style="margin: 0px 0px 0px 0;">Our Business:</h2>
+<h2 class="h2" style="margin: 0px;">Our business</h2>
 <p style="margin: 0px 0px 12px 0px;">
 The Mainframe Build group is a division within the Network Computing Group that provides continuous operating, computing and network services for the Bank of America consumer, commercial, global and wholesale banking groups. Mainframe Build is responsible for the transaction, database and message queue managers, mainframe operating systems and logical network services. Mainframe Build teams include CICS, DB2, IMS, WMQ, Z/OS Communications and Operating System Services.
 </p>
 
-<h2 class="h2u" style="margin: 0px 0px 0px 0;">Overview:</h2>
+<h2 class="h2" style="margin: 0px;">Overview</h2>
 <p style="margin: 0px 0px 12px 0px;">
 The Mainframe Build College graduate program exists to help develop the next generation of mainframe technicians. Part of the program is a summer intern program which gives students hands-on mainframe experience in a summer job and provides a potential pathway to a full-time associate position within the Mainframe Build College graduate program.
 <br><br>
@@ -37,7 +37,7 @@ In addition, interns can expect to:
 Rising seniors who meet or exceed internship performance expectations may receive a full-time offer of employment, following their internships. Full-time NCG hires will participate in the Network Computing Group <b>Mainframe Build Program</b>, a 2-3 year program within the Mainframe organization in the Network Computing Group.
 </p>
 
-<h2 class="h2u" style="margin: 0px 0px 0px 0px;">Qualifications:</h2>
+<h2 class="h2" style="margin: 0px;">Qualifications</h2>
 <p style="margin: 0px 0px 12px 0;">Education & Skills:</p>
 <ul>
 	<li>Rising college seniors currently enrolled in a full-time program, pursuing a degree in Computer Science or Information Technology</li>
@@ -54,7 +54,7 @@ Rising seniors who meet or exceed internship performance expectations may receiv
 	<li>Teamwork mentality</li>
 </ul>
 
-<h2 class="h2u" style="margin: 0px 0px 0px 0px;">Locations:</h2>
+<h2 class="h2" style="margin: 0px;">Locations</h2>
 <p style="margin: 0px 0px 12px 0px;">
 Addison, TX; Richmond, VA
 </p>

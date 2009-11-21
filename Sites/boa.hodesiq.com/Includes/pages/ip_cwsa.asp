@@ -3,7 +3,7 @@
 			<tr valign="top">
 				<td width="373" height="100%" valign="top" style="padding: 6px 5px 0px 12px;">
 <img class="dotdiv" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
-<h2 class="h2u" style="margin: 0px 0px 0px 0;">Our Business:</h2>
+<h2 class="h2" style="margin: 0px;">Our business</h2>
 <p style="margin: 0px 0px 12px 0px;">
 Corporate Workplace is responsible for a $5.5 Billion annual budget for over 90 million square feet of Bank-owned and occupied facilities worldwide. In support of Bank of America's stated mission to be the "World's Most Admired Company", we charge ourselves with making real estate a differentiating factor for the Bank through cutting-edge initiatives such as the Bank of America Tower at One Bryant Park in NYC, one of the world's most environmentally-friendly skyscrapers; developing flexible work options and continually innovating the workplace environment. Corporate Workplace partners with internal bank clients to craft solutions for project and facilities management, real estate strategy and the acquisition and disposition of space. Corporate Workplace ensures real estate is a competitive advantage at Bank of America. To learn more about Bank of America's commitment to innovation and the environment, visit the following:
 <br><br>
@@ -12,7 +12,7 @@ Corporate Workplace is responsible for a $5.5 Billion annual budget for over 90 
 <a href="http://newsroom.bankofamerica.com/index.php?s=press_releases&item=7697" target="_blank" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="Environmental Commitment">Environmental Commitment</a>
 </p>
 
-<h2 class="h2u" style="margin: 0px 0px 0px 0px;">Overview:</h2>
+<h2 class="h2" style="margin: 0px;">Overview</h2>
 <p style="margin: 0px 0px 12px 0px;">
 By joining Corporate Workplace you will benefit from:
 </p>
@@ -32,7 +32,7 @@ The Corporate Workplace Senior Analyst Intern, depending on assignment, may take
 	<li>Innovative change management concerning initiatives from all functional areas of the Bank</li>
 </ul>
 
-<h2 class="h2u" style="margin: 0px 0px 0px 0px;">Qualifications:</h2>
+<h2 class="h2" style="margin: 0px;">Qualifications</h2>
 <p style="margin: 0px 0px 12px 0;">Education & Skills:</p>
 <ul>
 	<li>MBA or Master's degree s in Real Estate; Undergraduate degree in Finance preferred</li>
@@ -53,7 +53,7 @@ The Corporate Workplace Senior Analyst Intern, depending on assignment, may take
 	<li><b>Dealing with Ambiguity</b> - Can effectively cope with change, and comfortably handle risk and uncertainty</li>
 </ul>
 
-<h2 class="h2u" style="margin: 0px 0px 0px 0px;">Locations:</h2>
+<h2 class="h2" style="margin: 0px;">Locations</h2>
 <p style="margin: 0px 0px 12px 0px;">
 Charlotte, NC
 </p>

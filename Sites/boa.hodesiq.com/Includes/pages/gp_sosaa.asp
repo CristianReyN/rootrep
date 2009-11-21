@@ -3,12 +3,12 @@
 			<tr valign="top">
 				<td width="373" height="100%" valign="top" style="padding: 6px 5px 0px 12px;">
 <img class="dotdiv" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
-<h2 class="h2u" style="margin: 0px 0px 0px 0;">Our Business:</h2>
+<h2 class="h2" style="margin: 0px;">Our business</h2>
 <p style="margin: 0px 0px 12px 0px;">
 The Global Human Resources (HR) group at Bank of America drives revenue and impacts the performance of the Company by continually attracting, developing and retaining a world-class workforce; and by aligning HR strategy to business strategy to ensure the Company always has the talent needed to achieve its business objectives. Key units within Global HR are Staffing, Compensation, Benefits, Leadership Development, Learning, and a team of Generalists. In addition to advising business leaders, Global HR helps the Company deliver a quality working environment, and exceptional benefits, work/life balance and overall satisfaction for our 200,000 associates.
 </p>
 
-<h2 class="h2u" style="margin: 0px 0px 0px 0;">Overview:</h2>
+<h2 class="h2" style="margin: 0px;">Overview</h2>
 <p style="margin: 0px 0px 12px 0px;">
 The objective of the Selection and Assessment Analyst role is to provide graduates in Industrial/Organizational psychology or related areas with practical experience in employment selection, and present them with the opportunity to expand upon their academic foundation - specifically to assist in the development, validation, implementation and monitoring of employment selection systems and tools throughout the Company.
 <br><br>
@@ -21,14 +21,14 @@ Job assignments may include:
 	<li>Providing support for various initiatives led by the Assessment Consultants</li>
 </ul>
 
-<h2 class="h2u" style="margin: 0px 0px 0px 0px;">Qualifications:</h2>
+<h2 class="h2" style="margin: 0px;">Qualifications</h2>
 <ul>
 	<li>Master's degree in Industrial/Organizational Psychology</li>
 	<li>Strong communication and business partnering skills</li>
 	<li>Proficiency in MS Excel, Word and PowerPoint</li>
 </ul>
 
-<h2 class="h2u" style="margin: 0px 0px 0px 0px;">Locations:</h2>
+<h2 class="h2" style="margin: 0px;">Locations</h2>
 <p style="margin: 0px 0px 12px 0px;">
 Charlotte, NC <span class="middot">&middot;</span> Tampa, FL
 </p>

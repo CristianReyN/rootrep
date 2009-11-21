@@ -3,7 +3,7 @@
 			<tr valign="top">
 				<td width="373" height="100%" valign="top" style="padding: 6px 5px 0px 12px;">
 <img class="dotdiv" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
-<h2 class="h2u" style="margin: 0px 0px 0px 0;">Our Business:</h2>
+<h2 class="h2" style="margin: 0px;">Our business</h2>
 <p style="margin: 0px 0px 12px 0px;">
 <b>Global Markets Group Operations (GMG Ops)</b> provides operational support for all products in Global Markets, Corporate Treasury and Corporate Investments.  GMG Operations is comprised of four major product groupings and is aligned geographically as well as to provide optimal business support to specific products and business management as follows:
 </p>
@@ -14,12 +14,12 @@
 	<li><b>Global Derivatives and Foreign Exchange</b> - provides back office support for Foreign Exchange, Interest Rate Commodity and Credit Derivative businesses. This support includes confirmations, settlements, collateral management and customer service.</li>
 </ul>
 
-<h2 class="h2u" style="margin: 0px 0px 0px 0;">Overview:</h2>
+<h2 class="h2" style="margin: 0px;">Overview</h2>
 <p style="margin: 0px 0px 12px 0px;">
 This unique, 2-3 year program allows Analysts to rotate through our Global Markets Group Operations, while participating in three 9-12 month rotations within GMG Ops. In addition to developing cross-functional thinking and strong technical skills, Analysts also receive on-the-job training, participate in bi-monthly speaker seminars, and attend events with Analysts and associates from across GT&O. Potential rotations include key product areas (i.e. Equity Operations, Fixed Income, and FX Derivatives) and key functional areas (Accounting, Customer Service, Trade Support and Settlements). An analyst in Global Operations will provide technical and analytical operational support, including monitoring trade flow & balancing trades from the trading desk to our Back-Office systems for Buy/Sell transactions, and performing Trade Date comparison for Municipal and Corporate Bond trades.
 </p>
 
-<h2 class="h2u" style="margin: 0px 0px 0px 0;">Qualifications:</h2>
+<h2 class="h2" style="margin: 0px;">Qualifications</h2>
 <p style="margin: 0px 0px 12px 0px;">
 Education & Skills:
 </p>
@@ -43,12 +43,12 @@ Personality Characteristics:
 	<li>Geographic mobility</li>
 </ul>
 
-<h2 class="h2u" style="margin: 0px 0px 0px 0;">Training:</h2>
+<h2 class="h2" style="margin: 0px;">Training</h2>
 <p style="margin: 0px 0px 12px 0px;">
 As an analyst, you will begin your career at Bank of America with an extensive training program. The full program is a combination of classroom instruction, e-learning modules, case studies and presentations. Throughout the program, you'll have ample opportunities to work closely with professionals and peers throughout our organization. This is a great opportunity to build a network of colleagues from across the Company that will prove to be a tremendous resource to you throughout your career.
 </p>
 
-<h2 class="h2u" style="margin: 0px 0px 0px 0;">Locations:</h2>
+<h2 class="h2" style="margin: 0px;">Locations</h2>
 <p style="margin: 0px 0px 12px 0px;">
 Charlotte, NC <span class="middot">&middot;</span> Chicago, IL <span class="middot">&middot;</span> New York, NY
 </p>

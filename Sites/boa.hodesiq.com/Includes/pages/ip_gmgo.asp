@@ -3,7 +3,7 @@
 			<tr valign="top">
 				<td width="373" height="100%" valign="top" style="padding: 6px 5px 0px 12px;">
 <img class="dotdiv" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
-<h2 class="h2u" style="margin: 0px 0px 0px 0;">Our Business:</h2>
+<h2 class="h2" style="margin: 0px;">Our business</h2>
 <p style="margin: 0px 0px 12px 0px;">
 <b>Global Markets Group Operations (GMG Ops)</b> provides operational support for all products in Global Markets, Corporate Treasury and Corporate Investments. GMG Operations is comprised of 4 groups, organized into major product groupings and aligned geographically to provide optimal business support to specific products and management, as follows:
 </p>
@@ -14,14 +14,14 @@
 	<li><b>Global Derivatives and Foreign Exchange</b> provides back office support for Foreign Exchange, Interest Rate Commodity and Credit Derivative businesses. This support includes confirmations, settlements, collateral management and customer service.</li>
 </ul>
 
-<h2 class="h2u" style="margin: 0px 0px 0px 0;">Overview:</h2>
+<h2 class="h2" style="margin: 0px;">Overview</h2>
 <p style="margin: 0px 0px 12px 0px;">
 Summer Analysts in Global Markets Group Operations will provide technical and analytical operational support; monitoring trade flow, and balancing trades from the trading desk to our Back-Office systems for Buy/Sell transactions, as well as Trade Date comparison for Municipal and Corporate Bond trades.
 <br><br>
 The summer program begins with an orientation session where participants learn some Bank of America's basics, including technical and professional skills designed to maximize the value of the summer program experience. Training will then continue throughout the summer as candidates participate in presentations and other group and individual projects. Outstanding performers may be considered for a full-time position upon graduation.
 </p>
 
-<h2 class="h2u" style="margin: 0px 0px 0px 0px;">Qualifications:</h2>
+<h2 class="h2" style="margin: 0px;">Qualifications</h2>
 <p style="margin: 0px 0px 12px 0;">Education & Skills:</p>
 <ul>
 	<li>Final year candidates from a four year college or university</li>
@@ -42,7 +42,7 @@ The summer program begins with an orientation session where participants learn s
 	<li>Geographic mobility</li>
 </ul>
 
-<h2 class="h2u" style="margin: 0px 0px 0px 0px;">Locations:</h2>
+<h2 class="h2" style="margin: 0px;">Locations</h2>
 <p style="margin: 0px 0px 12px 0px;">
 Summer Analysts work in New York, Charlotte and Chicago. Specific assignments are made prior to the first day of the program, and are based on candidate preferences and business needs.
 </p>

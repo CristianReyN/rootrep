@@ -3,12 +3,12 @@
 			<tr valign="top">
 				<td width="373" height="100%" valign="top" style="padding: 6px 5px 0px 12px;">
 <img class="dotdiv" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
-<h2 class="h2u" style="margin: 0px 0px 0px 0;">Our Business:</h2>
+<h2 class="h2" style="margin: 0px;">Our business</h2>
 <p style="margin: 0px 0px 12px 0px;">
 The goal of Corporate Treasury is to optimize shareholder value by providing world-class management of capital, liquidity, interest rate and operational risk; creating a state-of-the-art framework for managing the tradeoffs between risk and return; and training and exporting enterprise leaders.
 </p>
 
-<h2 class="h2u" style="margin: 0px 0px 0px 0px;">Overview:</h2>
+<h2 class="h2" style="margin: 0px;">Overview</h2>
 <p style="margin: 0px 0px 12px 0px;">
 The Corporate Treasury Associate Program (CTAP) is a two-year Associate Development program, which aggressively moves associates through rotational assignments within Corporate Treasury. This rotational process helps associates develop a solid understanding of the core roles and responsibilities of Corporate Treasury, while developing a broad range of skills that are applicable throughout much of the corporation - including all the various Lines of Business. CTAP Associates participate in a variety of activities within Corporate Treasury and bank-wide, designed to foster teamwork, encourage networking and demonstrate Bank of America's vision and culture. The CTAP program builds relationships and coordinates events with other rotational programs within the Bank to create a strong network of highly talented new associates.
 <br><br>
@@ -29,7 +29,7 @@ The CTAP training curriculum is a multi-phase program that complements the hands
 Interns work for 10-12 weeks in Corporate Treasury roles that mirror the positions of full-time CTAP Associates. In conjunction with those responsibilities, interns will also participate in CTAP functions including training sessions, informational lunches, networking events and community service opportunities. At the completion of the internship, eligible interns will be given the opportunity to interview for the Corporate Treasury Associate Program.
 </p>
 
-<h2 class="h2u" style="margin: 0px 0px 0px 0px;">Qualifications:</h2>
+<h2 class="h2" style="margin: 0px;">Qualifications</h2>
 <ul>
 	<li>Undergraduate degree in Finance, Economics, Accounting, and/or business, with a recommended 6 hours of accounting</li>
 	<li>Strong academics and technical skills, accompanied by proficiencies in critical thinking, leadership, business acumen and relationship building</li>
@@ -38,7 +38,7 @@ Interns work for 10-12 weeks in Corporate Treasury roles that mirror the positio
 	<li>Program start dates are January and July</li>
 </ul>
 
-<h2 class="h2u" style="margin: 0px 0px 0px 0px;">Locations:</h2>
+<h2 class="h2" style="margin: 0px;">Locations</h2>
 <p style="margin: 0px 0px 12px 0px;">
 Charlotte, NC
 </p>

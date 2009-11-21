@@ -3,12 +3,12 @@
 			<tr valign="top">
 				<td width="373" height="100%" valign="top" style="padding: 6px 5px 0px 12px;">
 <img class="dotdiv" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
-<h2 class="h2u" style="margin: 0px 0px 0px 0;">Our Business:</h2>
+<h2 class="h2" style="margin: 0px;">Our business</h2>
 <p style="margin: 0px 0px 12px 0px;">
 Bank of America's Corporate Security Division is seeking dynamic individuals who are interested in joining the team as a summer intern. By joining Corporate Security, you will develop leadership skills, foster strategic thinking, and gain an understanding of the Corporate Security business model. Successful interns may be hired into one of Corporate Security's key disciplines: Investigative Services, Due Diligence Investigations, or Protective Services.
 </p>
 
-<h2 class="h2u" style="margin: 0px 0px 0px 0px;">Overview:</h2>
+<h2 class="h2" style="margin: 0px;">Overview</h2>
 <p style="margin: 0px 0px 12px 0px;">
 <b>Corporate Security Key Disciplines:</b>
 </p>
@@ -19,7 +19,7 @@ Bank of America's Corporate Security Division is seeking dynamic individuals who
 	<li><b>Security Operations &amp; Analysis Command Center:</b> provides intelligence and situational awareness services for the Bank through a series of briefings, reports and communications. Responsible for monitoring alarm and video data in all Bank of America branches. Coordinates event and crisis management activities.</li>
 </ul>
 
-<h2 class="h2u" style="margin: 0px 0px 0px 0px;">Qualifications:</h2>
+<h2 class="h2" style="margin: 0px;">Qualifications</h2>
 <ul>
 	<li>Pursuing a BA/BS in Criminal Justice, Business Management, Finance, International Business or other related area</li>
 	<li>Minimum GPA of 3.0</li>
@@ -34,7 +34,7 @@ Bank of America's Corporate Security Division is seeking dynamic individuals who
 	<li>Strong technical aptitude; proficiency in MS Word, Excel and PowerPoint required, experience with MS Access, MS Project and Visio also preferred</li>
 </ul>
 
-<h2 class="h2u" style="margin: 0px 0px 0px 0px;">Locations:</h2>
+<h2 class="h2" style="margin: 0px;">Locations</h2>
 <p style="margin: 0px 0px 12px 0px;">
 Charlotte, North Carolina <span class="middot">&middot;</span> Chicago, Illinois <span class="middot">&middot;</span> Los Angeles, California
 </p>

@@ -3,7 +3,7 @@
 			<tr valign="top">
 				<td width="373" height="100%" valign="top" style="padding: 6px 5px 0px 12px;">
 <img class="dotdiv" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
-<h2 class="h2u" style="margin: 0px 0px 0px 0;">Our Business:</h2>
+<h2 class="h2" style="margin: 0px;">Our business</h2>
 <p style="margin: 0px 0px 12px 0px;">
 <b>The Global Middle Office (GMO)</b> Group is primarily a control function responsible for providing assurance over data and processes used to record Risk, P/L, Balance Sheet and Financial Results. The seven GMO functions that are critical to ensure business process control include:
 </p>
@@ -17,7 +17,7 @@
 	<li><b>Front-Back Process Oversight:</b> Ensuring no control gaps exist for timely and accurate P/L, Balance Sheet and Position reporting</li>
 </ul>
 
-<h2 class="h2u" style="margin: 0px 0px 0px 0;">Overview:</h2>
+<h2 class="h2" style="margin: 0px;">Overview</h2>
 <p style="margin: 0px 0px 12px 0px;">
 GMO Group members interface with various departments including the P&L team, Finance, Compliance, Risk, Technology and Front Office; working with various business representatives to design workflows for new products, and developing and implementing automation solutions to capture processing efficiencies. Summer analyst responsibilities will include:
 </p>
@@ -30,7 +30,7 @@ GMO Group members interface with various departments including the P&L team, Fin
 The summer program begins with an orientation session where participants learn some Bank of America's basics, including technical and professional skills designed to maximize the value of the summer program experience. Training will then continue throughout the summer as candidates participate in presentations and other group and individual projects. Outstanding performers may be considered for a full-time position upon graduation.
 </p>
 
-<h2 class="h2u" style="margin: 0px 0px 0px 0px;">Qualifications:</h2>
+<h2 class="h2" style="margin: 0px;">Qualifications</h2>
 <ul>
 	<li>Exceptional academic achievement</li>
 	<li>Demonstrated quantitative skills and strategic/creative thinking skills</li>
@@ -44,7 +44,7 @@ The summer program begins with an orientation session where participants learn s
 	<li>Geographic mobility</li>
 </ul>
 
-<h2 class="h2u" style="margin: 0px 0px 0px 0px;">Locations:</h2>
+<h2 class="h2" style="margin: 0px;">Locations</h2>
 <p style="margin: 0px 0px 12px 0px;">
 Summer Analysts work in New York, Charlotte and Chicago. Specific assignments are made prior to the first day of the program, and are based on candidate preferences and business needs.
 </p>

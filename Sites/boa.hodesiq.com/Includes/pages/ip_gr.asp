@@ -3,12 +3,12 @@
 			<tr valign="top">
 				<td width="373" height="100%" valign="top" style="padding: 6px 5px 0px 12px;">
 <img class="dotdiv" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
-<h2 class="h2u" style="margin: 0px 0px 0px 0;">Our Business:</h2>
+<h2 class="h2" style="margin: 0px;">Our business</h2>
 <!--<p style="margin: 0px 0px 12px 0px;">
 Global Consumer and Small Business Banking (GCSBB) serves more than 53 million consumer households and small business clients through a distribution network of 5,700 banking centers, 17,000+ ATMs, and the nation's leading online banking and electronic bill pay service.
 </p>
 
-<h2 class="h2u" style="margin: 0px 0px 0px 0px;">Overview:</h2>
+<h2 class="h2" style="margin: 0px;">Overview</h2>
 <p style="margin: 0px 0px 12px 0px;">
 This internship program is designed to provide external MBA candidates with an opportunity to prepare for future opportunities in the Global Consumer & Small Business Banking Leader Development Program.
 <br><br>
@@ -29,7 +29,7 @@ Key Facts about Global Consumer and Small Business Banking Internship:
 	<li>Each position offers a wide range of responsibilities and business opportunities for the intern.</li>
 </ul>
 
-<h2 class="h2u" style="margin: 0px 0px 0px 0px;">Qualifications:</h2>
+<h2 class="h2" style="margin: 0px;">Qualifications</h2>
 <p style="margin: 0px 0px 12px 0;">Education & Skills:</p>
 <ul>
 	<li>MBA or Master's graduate from an accredited business school or university (Spring/Summer 2009 graduation date)</li>
@@ -63,10 +63,10 @@ Key Facts about Global Consumer and Small Business Banking Internship:
 	<li>Geographic mobility</li>
 </ul>
 
-<h2 class="h2u" style="margin: 0px 0px 0px 0px;">Training:</h2>
+<h2 class="h2" style="margin: 0px;">Training</h2>
 <p style="margin: 0px 0px 12px 0;">Associates will participate in a formal Education and Orientation program to learn more about Bank of America business, culture and values, as well as to network with Executives and other college hires. Additionally, interns will participate in various networking and learning opportunities throughout the duration of the program.</p>
 
-<h2 class="h2u" style="margin: 0px 0px 0px 0px;">Locations:</h2>
+<h2 class="h2" style="margin: 0px;">Locations</h2>
 <p style="margin: 0px 0px 12px 0px;">
 Charlotte, NC
 </p>

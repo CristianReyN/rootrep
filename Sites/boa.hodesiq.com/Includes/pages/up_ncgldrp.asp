@@ -3,17 +3,17 @@
 			<tr valign="top">
 				<td width="373" height="100%" valign="top" style="padding: 6px 5px 0px 12px;">
 <img class="dotdiv" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
-<h2 class="h2u" style="margin: 0px 0px 0px 0;">Our Business:</h2>
+<h2 class="h2" style="margin: 0px;">Our business</h2>
 <p style="margin: 0px 0px 12px 0px;">
 The Network Computing Group (NCG) provides continuous operating, computing and telecommunications services to business partners within Global Technology, Service & Fulfillment and Bank of America. This includes large network server operations, client server technology, local area and wide area network (LAN/WAN) functions, telecommunications, business recovery and other critical systems. 
 </p>
 
-<h2 class="h2u" style="margin: 0px 0px 0px 0;">Overview:</h2>
+<h2 class="h2" style="margin: 0px;">Overview</h2>
 <p style="margin: 0px 0px 12px 0px;">
 The Network Computing Group Leader Development Rotation (LDR) Program is an undergraduate rotational program designed to provide external candidates with an opportunity to prepare for future leadership positions within the Bank's technology division.  This high-visibility program gives participants the chance to experience two one-year rotational assignments in different divisions within the Network Computing Group.
 </p>
 
-<h2 class="h2u" style="margin: 0px 0px 0px 0;">Qualifications:</h2>
+<h2 class="h2" style="margin: 0px;">Qualifications</h2>
 <ul>
 	<li>Bachelor's degree in Computer Science, Business, Engineering or Management Information Systems</li>
 	<li>Grade Point Average of a 3.0 on a 4 point scale preferred</li>
@@ -27,7 +27,7 @@ The Network Computing Group Leader Development Rotation (LDR) Program is an unde
 	<li>Candidate must have eligibility to work in the US.</li>
 </ul>
 
-<h2 class="h2u" style="margin: 0px 0px 0px 0;">Training:</h2>
+<h2 class="h2" style="margin: 0px;">Training</h2>
 <p style="margin: 0px 0px 12px 0px;">
 The rotational program consists of the following developmental activities:
 </p>
@@ -38,7 +38,7 @@ The rotational program consists of the following developmental activities:
 	<li>Business critical assignments</li>
 </ul>
 
-<h2 class="h2u" style="margin: 0px 0px 0px 0;">Locations:</h2>
+<h2 class="h2" style="margin: 0px;">Locations</h2>
 <p style="margin: 0px 0px 12px 0px;">
 Opportunities exist in Charlotte, North Carolina; Dallas, Texas; Jacksonville, Florida; and New York, New York
 </p>

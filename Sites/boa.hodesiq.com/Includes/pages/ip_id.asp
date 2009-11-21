@@ -3,7 +3,7 @@
 			<tr valign="top">
 				<td width="373" height="100%" valign="top" style="padding: 6px 5px 0px 12px;">
 <img class="dotdiv" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
-<h2 class="h2u" style="margin: 0px 0px 0px 0;">Overview:</h2>
+<h2 class="h2" style="margin: 0px;">Overview</h2>
 <p style="margin: 0px 0px 12px 0px;">
 <b>The Instructional Designer</b> is charged with prescribing and designing learning solutions.  This position serves as the key connection point between the Learning Shared Services team and Learning Managers during solution design and development. The Instructional Designer is responsible for determining the learning solution and components that address knowledge gaps of the target audience.  The primary role of the Instructional Designer is to validate provided analysis, prescribe, and design appropriate learning solutions employing instructional technologies and modalities including Web Based Training (WBT), Instructor Led Learning (ILT), on-line and paper-based references, and other forms of learning.  The Instructional Designer assists the Learning Shared Services management team in driving increased efficiencies in learning solution development. Responsibilities include:
 </p>
@@ -24,7 +24,7 @@
 <b>The Instructional Technology Designer</b> should have strong web authoring skills and be able to develop and implement instructional materials including courseware, performance support and various assessments in a variety of different delivery formats including Windows and OS2, Power Point and Paper Manuals.  Significant experience utilizing Lectora is a plus, but in lieu of Lectora experience, the ability to code in DHTML, JavaScript and Flash provide competitive advantage.  This role requires the ability to deliver under pressure on tight timelines, confidence to accept feedback gracefully, and willingness to work as a member of a high performance team.  The Developer should be extremely interested in helping solve key educational challenges faced by our Company and highly desire to work in a training organization on e-learning type projects. Knowledge of adult learning research/educational theory are a plus.
 </p>
 
-<h2 class="h2u" style="margin: 0px 0px 0px 0px;">Qualifications:</h2>
+<h2 class="h2" style="margin: 0px;">Qualifications</h2>
 <p style="margin: 0px 0px 12px 0px;"><b>Instructional Designer:</b></p>
 <ul>
 	<li>Masters degree candidate in Instructional Design discipline preferred, with a Bachelors degree in Instructional Design or Development, Training, Human Performance Improvement or Business</li>
@@ -46,7 +46,7 @@
 	<li>Code in HTML; DHTML; JavaScript</li>
 </ul>
 
-<h2 class="h2u" style="margin: 0px 0px 0px 0px;">Locations:</h2>
+<h2 class="h2" style="margin: 0px;">Locations</h2>
 <p style="margin: 0px 0px 12px 0px;">
 Charlotte, NC <span class="middot">&middot;</span> Boston, Massachusetts 
 </p>

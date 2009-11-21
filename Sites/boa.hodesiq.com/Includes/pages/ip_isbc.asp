@@ -3,7 +3,7 @@
 			<tr valign="top">
 				<td width="373" height="100%" valign="top" style="padding: 6px 5px 0px 12px;">
 <img class="dotdiv" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
-<h2 class="h2u" style="margin: 0px 0px 0px 0;">Our Business:</h2>
+<h2 class="h2" style="margin: 0px;">Our business</h2>
 <p style="margin: 0px 0px 12px 0px;">
 <b>Information Security Business Continuity (ISBC)</b><br>
 Associates in ISBC provide industry-leading business continuity and information protection services to all Bank of America lines of business including crisis management, change management, identity and access management, immunity assurance, strategy and operational planning and vulnerability management.
@@ -18,7 +18,7 @@ Associates in ISBC provide industry-leading business continuity and information 
 	<li>"Extended Enterprise": More processing and support functions by third parties outside the bank coupled with global expansion, increase our vulnerability</li>
 </ul>
 
-<h2 class="h2u" style="margin: 0px 0px 0px 0;">Overview:</h2>
+<h2 class="h2" style="margin: 0px;">Overview</h2>
 <p style="margin: 0px 0px 12px 0px;">
 The Bank of America Intern Program is designed to provide students with corporate experience in business banking policies and practices.  Students are given a true associate experience, as internships mirror full-time positions and include goal-setting and a formal review process.  Interns are required to work a minimum 40-hour week for 10 -12 weeks between the months of May and September. On-the-job training, mentoring relationships and networking opportunities are provided for all interns.
 <br><br>
@@ -27,7 +27,7 @@ Interns will participate in a formal program providing orientation and education
 Interns who meet or exceed internship performance expectations may receive a full-time offer of employment to join Information Security Business Continuity, following their internships. Offer details such as location and specific group are based on candidate interests and business needs, which will be determined during the Fall recruiting period.
 </p>
 
-<h2 class="h2u" style="margin: 0px 0px 0px 0px;">Qualifications:</h2>
+<h2 class="h2" style="margin: 0px;">Qualifications</h2>
 <p style="margin: 0px 0px 12px 0;">Education & Skills:</p>
 <ul>
 	<li>Currently enrolled full-time at an accredited college/university, pursuing a graduate degree in Technology, Business Management, or Engineering (i.e. must not graduate prior to December of 2008)</li>
@@ -48,7 +48,7 @@ Interns who meet or exceed internship performance expectations may receive a ful
 	<li>Ability to succeed in a fast-paced, collaborative environment</li>
 </ul>
 
-<h2 class="h2u" style="margin: 0px 0px 0px 0px;">Locations:</h2>
+<h2 class="h2" style="margin: 0px;">Locations</h2>
 <p style="margin: 0px 0px 12px 0px;">
 Typical internship locations include, but are not limited to: Charlotte, NC, Dallas, TX
 </p>

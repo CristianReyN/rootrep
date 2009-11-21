@@ -3,12 +3,12 @@
 			<tr valign="top">
 				<td width="373" height="100%" valign="top" style="padding: 6px 5px 0px 12px;">
 <img class="dotdiv" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
-<h2 class="h2u" style="margin: 0px 0px 0px 0;">Our Business:</h2>
+<h2 class="h2" style="margin: 0px;">Our business</h2>
 <p style="margin: 0px 0px 12px 0px;">
 The goal of Global Markets Risk Management (GMRM) is to enable growth of the Global Markets businesses and optimize shareholder value by providing world-class management of credit, market and operational risk, creating a state-of-the-art framework for managing the tradeoffs between risk and return.
 </p>
 
-<h2 class="h2u" style="margin: 0px 0px 0px 0;">Overview:</h2>
+<h2 class="h2" style="margin: 0px;">Overview</h2>
 <p style="margin: 0px 0px 12px 0px;">
 The Markets Risk Associate Program (MRAP) is a two-year Associate Development program that aggressively develops associates to be successful Risk Analysts within GMRM. Associates will be hired into a Risk Analyst position and provided with extensive training to develop a solid understanding of the core roles and responsibilities of GMRM. In addition, Management has created a specific curriculum designed for this advanced program. MRAP Associates will participate in a variety of activities designed to foster teamwork, encourage networking and demonstrate Bank of America's vision and culture.  
 <br><br>
@@ -17,7 +17,7 @@ As a MRAP Associate, you will be responsible for completing the training curricu
 New hires start in June. Each MRAP Associate will be assigned a mentor to help ensure growth and development during their time with the program.
 </p>
 
-<h2 class="h2u" style="margin: 0px 0px 0px 0px;">Qualifications:</h2>
+<h2 class="h2" style="margin: 0px;">Qualifications</h2>
 <ul>
 	<li>Undergraduate degree in Economics, Finance, Mathematics, Science and/or Business</li>
 	<li>Strong academic and technical skills should be accompanied by proficiencies in critical thinking, leadership, business acumen and relationship building</li>
@@ -25,7 +25,7 @@ New hires start in June. Each MRAP Associate will be assigned a mentor to help e
 	<li>Must be poised, self-confident and demonstrate composure when challenging business situations arise</li>
 </ul>
 
-<h2 class="h2u" style="margin: 0px 0px 0px 0px;">Training:</h2>
+<h2 class="h2" style="margin: 0px;">Training</h2>
 <p style="margin: 0px 0px 12px 0px;">
 Associate Development is critical to the success of Global Markets Risk Management and Bank of America in general. Executive leadership within the Global Markets Risk organization is committed to the success of our young associates. Training and education is a core competency of our division.
 <br><br>
@@ -37,7 +37,7 @@ Geared for young professionals, the MRAP training curriculum is a multi-phase pr
 	<li>Behavioral courses</li>
 </ul>
 
-<h2 class="h2u" style="margin: 0px 0px 0px 0px;">Locations:</h2>
+<h2 class="h2" style="margin: 0px;">Locations</h2>
 <p style="margin: 0px 0px 12px 0px;">
 Charlotte, North Carolina <span class="middot">&middot;</span> New York, New York
 </p>

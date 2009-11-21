@@ -3,7 +3,7 @@
 			<tr valign="top">
 				<td width="373" height="100%" valign="top" style="padding: 6px 5px 0px 12px;">
 <img class="dotdiv" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
-<h2 class="h2u" style="margin: 0px 0px 0px 0;">Our Business:</h2>
+<h2 class="h2" style="margin: 0px;">Our business</h2>
 <p style="margin: 0px 0px 12px 0px;">
 Bank of America's Global Markets Technology (GMT) teams partner with our Global Markets, Corporate Treasury and Corporate Investments Groups to develop leading-edge applications supporting the entire range of our business activities - from client-facing sales and trading applications to security analytics, risk management, trade processing, management reporting, reference and market data, and customer relationship management. GMT teams work closely with our business partners, developing strategies and delivering solutions that are integral to the day-to-day running of our business.
 <br><br>
@@ -36,7 +36,7 @@ GMT Associates perform a variety of duties, within one of five job profiles, as 
 	<li>Communicating and interacting with internal clients on a regular basis</li>
 </ul>
 
-<h2 class="h2u" style="margin: 0px 0px 0px 0px;">Qualifications:</h2>
+<h2 class="h2" style="margin: 0px;">Qualifications</h2>
 <p style="margin: 0px 0px 12px 0px;">
 Candidates must demonstrate a combination of academic aptitude, quantitative skills, strategic and creative thinking and distinguished written and oral communication skills. Associates will be required to support several projects at once and work effectively, both individually and as part of a team. Though they come from a variety of backgrounds, all associates must share common driving characteristics that we look for such as:
 </p>
@@ -48,12 +48,12 @@ Candidates must demonstrate a combination of academic aptitude, quantitative ski
 	<li>Strong work ethic</li>
 </ul>
 
-<h2 class="h2u" style="margin: 0px 0px 0px 0px;">Training:</h2>
+<h2 class="h2" style="margin: 0px;">Training</h2>
 <p style="margin: 0px 0px 12px 0px;">
 The GMT direct hire program is a two-year program that consists of: orientation with a 4-6 week training program, ongoing structured learning curriculum, business critical assignments, mentoring and peer coach assignments, exposure to senior leadership teams, networking and social events.
 </p>
 
-<h2 class="h2u" style="margin: 0px 0px 0px 0px;">Locations:</h2>
+<h2 class="h2" style="margin: 0px;">Locations</h2>
 <p style="margin: 0px 0px 12px 0px;">
 Charlotte, NC * Chicago, IL * London, England * New York, NY
 </p>

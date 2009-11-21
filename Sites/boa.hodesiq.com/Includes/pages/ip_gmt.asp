@@ -3,7 +3,7 @@
 			<tr valign="top">
 				<td width="373" height="100%" valign="top" style="padding: 6px 5px 0px 12px;">
 <img class="dotdiv" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
-<h2 class="h2u" style="margin: 0px 0px 0px 0;">Our Business:</h2>
+<h2 class="h2" style="margin: 0px;">Our business</h2>
 <p style="margin: 0px 0px 12px 0px;">
 Bank of America's Global Markets Technology teams partner with our Global Markets, Corporate Treasury and Corporate Investments Groups to develop leading-edge applications supporting the entire range of our business activities - from client-facing sales and trading applications to security analytics, risk management, trade processing, management reporting, reference and market data, and customer relationship management. Our teams work very closely with our business partners, developing strategies and delivering solutions that are integral to the day-to-day running of our business.
 <br><br>
@@ -40,7 +40,7 @@ There are five job profiles for a Global Markets technology summer analyst, with
 The Global Markets technology summer analysts participate in a 10 to 12 week program consisting of the following developmental activities: orientation, business critical assignments, exposure to senior leadership teams, community service project, networking and social events.
 </p>
 
-<h2 class="h2u" style="margin: 0px 0px 0px 0px;">Qualifications:</h2>
+<h2 class="h2" style="margin: 0px;">Qualifications</h2>
 <p style="margin: 0px 0px 12px 0;">Education & Skills:</p>
 <ul>
 	<li>Academic aptitude</li>
@@ -60,7 +60,7 @@ The Global Markets technology summer analysts participate in a 10 to 12 week pro
 	<li>Strong work ethic</li>
 </ul>
 
-<h2 class="h2u" style="margin: 0px 0px 0px 0px;">Locations:</h2>
+<h2 class="h2" style="margin: 0px;">Locations</h2>
 <p style="margin: 0px 0px 12px 0px;">
 Charlotte, NC <span class="middot">&middot;</span> Chicago, IL <span class="middot">&middot;</span> London, England <span class="middot">&middot;</span> New York, NY
 </p>

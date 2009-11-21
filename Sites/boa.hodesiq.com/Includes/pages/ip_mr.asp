@@ -3,12 +3,12 @@
 			<tr valign="top">
 				<td width="373" height="100%" valign="top" style="padding: 6px 5px 0px 12px;">
 <img class="dotdiv" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
-<h2 class="h2u" style="margin: 0px 0px 0px 0;">Our Business:</h2>
+<h2 class="h2" style="margin: 0px;">Our business</h2>
 <p style="margin: 0px 0px 12px 0px;">
 The goal of Global Markets Risk Management (GMRM) is to enable growth of the Global Markets businesses and optimize shareholder value by providing world-class management of credit, market and operational risk, creating a state-of-the-art framework for managing the tradeoffs between risk and return.
 </p>
 
-<h2 class="h2u" style="margin: 0px 0px 0px 0px;">Overview:</h2>
+<h2 class="h2" style="margin: 0px;">Overview</h2>
 <p style="margin: 0px 0px 12px 0px;">
 The Markets Risk Associate Program (MRAP) is an associate development program that aggressively develops associates to be successful Risk Analysts within GMRM. The summer interns for the Markets Risk Associate Program will be hired into a Risk Analyst position and provided with training to develop a solid understanding of the core roles and responsibilities of GMRM.  MRAP Summer Interns will participate in a variety of activities designed to foster teamwork, encourage networking and demonstrate Bank of America's vision and culture.  
 <br><br>
@@ -17,7 +17,7 @@ As a Summer Intern, you will be responsible for actively managing your developme
 The Summer Intern program begins in May and June and is a 10-12 week commitment, during which Interns will be expected to work 40 hours a week.
 </p>
 
-<h2 class="h2u" style="margin: 0px 0px 0px 0px;">Qualifications:</h2>
+<h2 class="h2" style="margin: 0px;">Qualifications</h2>
 <ul>
 	<li>Pursuing an undergraduate degree in Economics, Finance, Mathematics, Science and/or Business</li>
 	<li>Strong academic and technical skills should be accompanied by proficiencies in critical thinking, leadership, business acumen and relationship building</li>
@@ -25,7 +25,7 @@ The Summer Intern program begins in May and June and is a 10-12 week commitment,
 	<li>Must be poised, self-confident and demonstrate composure when challenging business situations arise</li>
 </ul>
 
-<h2 class="h2u" style="margin: 0px 0px 0px 0px;">Locations:</h2>
+<h2 class="h2" style="margin: 0px;">Locations</h2>
 <p style="margin: 0px 0px 12px 0px;">
 Charlotte, North Carolina <span class="middot">&middot;</span> New York, New York
 </p>

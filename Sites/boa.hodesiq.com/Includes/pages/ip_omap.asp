@@ -3,14 +3,14 @@
 			<tr valign="top">
 				<td width="373" height="100%" valign="top" style="padding: 6px 5px 0px 12px;">
 <img class="dotdiv" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
-<h2 class="h2u" style="margin: 0px 0px 0px 0;">Our Business:</h2>
+<h2 class="h2" style="margin: 0px;">Our business</h2>
 <p style="margin: 0px 0px 12px 0px;">
 <b>Service and Fulfillment Operations (SFO)</b> is part of the Global Technology & Operations Organization, and currently processes over 8.97 billion checks and 31 million customer statements annually. SFO Associates perform processing services for Bank of America customer households and businesses, including check processing, statement rendering, cash vault, banking center operations and lockbox services. 
 <br><br>
 <b>Deposits Contact Centers (DCC)</b> is part of the Global Consumer & Small Business Banking organization. Associates in DCC provide service and financial solutions to more than 179 million phone customers and 5.1 million e-mail customers each year, making our contact centers among the busiest in the country. In addition to our associates servicing our customer's needs, our voice response units (VRU) can answer account inquiries, and in 2005, the VRUs handled more than 568 million phone calls. 
 </p>
 
-<h2 class="h2u" style="margin: 0px 0px 0px 0;">Overview:</h2>
+<h2 class="h2" style="margin: 0px;">Overview</h2>
 <p style="margin: 0px 0px 12px 0px;">
 The Bank of America Intern Program is designed to provide students with corporate experience in business banking policies and practices.  Students are given a true associate experience, as internships mirror full-time positions and include goal-setting and a formal review process.  Interns are required to work 40-hour weeks for 10 -12 weeks between the months of May and September.  On-the-job training, mentoring relationships, and networking opportunities are provided for all interns.
 <br><br>
@@ -23,7 +23,7 @@ Interns assigned to Deposits Contact Centers will be given the opportunity to wo
 Interns will participate in a formal program providing orientation and education to learn more about Bank of America's business, culture and values.  Additionally, interns will participate in various networking and learning opportunities throughout the duration of the summer.
 </p>
 
-<h2 class="h2u" style="margin: 0px 0px 0px 0px;">Qualifications:</h2>
+<h2 class="h2" style="margin: 0px;">Qualifications</h2>
 <ul>
 	<li>Enrolled in a full-time program, pursuing a degree in Operations, Business Management or Engineering</li>
 	<li>Relevant work experience with a demonstrated record of achievement</li>
@@ -35,7 +35,7 @@ Interns will participate in a formal program providing orientation and education
 	<li>Six Sigma experience a plus</li>
 </ul>
 
-<h2 class="h2u" style="margin: 0px 0px 0px 0px;">Locations:</h2>
+<h2 class="h2" style="margin: 0px;">Locations</h2>
 <p style="margin: 0px 0px 12px 0px;">
 Opportunities exist in US cities across the Bank of America franchise.
 </p>

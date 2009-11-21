@@ -1,9 +1,9 @@
-		<a name="skipmaincontent"></a><H1 style="margin: 2px 0px 0px 0px;">Service and Fulfillment Leadership Rotational Program</H1>
+		<a name="skipmaincontent"></a><H1 style="margin: 2px 0px 0px 0px;">Operations MBA Program</H1>
 		<table width="578" cellpadding="0" cellspacing="0" border="0" summary="">
 			<tr valign="top">
 				<td width="373" height="100%" valign="top" style="padding: 6px 5px 0px 12px;">
 <img class="dotdiv" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
-<h2 class="h2u" style="margin: 0px 0px 0px 0;">Our Business:</h2>
+<h2 class="h2" style="margin: 0px;">Our business</h2>
 <p style="margin: 0px 0px 12px 0px;">
 Operating within the Global Consumer & Small Business Banking and Global Technology & Operations areas, Services & Fulfillment includes, but is not limited, to the following sub-lines of business:
 <br><br>
@@ -17,12 +17,12 @@ Operating within the Global Consumer & Small Business Banking and Global Technol
 	<li>Processing over 31 million customer statements monthly</li>
 </ul>
 
-<h2 class="h2u" style="margin: 0px 0px 0px 0;">Overview:</h2>
+<h2 class="h2" style="margin: 0px;">Overview</h2>
 <p style="margin: 0px 0px 12px 0px;">
 The Service & Fulfillment (S&F) MBA Program is a high visibility, graduate, rotational program designed to provide candidates with an opportunity to prepare for future leadership positions in the bank's operational lines of business. Associates participate in one-year rotational assignments with two sub-lines of business within these organizations, including but not limited to: Deposits Contact Centers (DCC) and Service & Fulfillment Operations (SFO)
 </p>
 
-<h2 class="h2u" style="margin: 0px 0px 0px 0px;">Qualifications:</h2>
+<h2 class="h2" style="margin: 0px;">Qualifications</h2>
 <p style="margin: 0px 0px 12px 0;">Education & Skills:</p>
 <ul>
 	<li>MBA degree from an accredited college or university</li>
@@ -44,7 +44,7 @@ The Service & Fulfillment (S&F) MBA Program is a high visibility, graduate, rota
 </ul>
 
 
-<h2 class="h2u" style="margin: 0px 0px 0px 0px;">Training:</h2>
+<h2 class="h2" style="margin: 0px;">Training</h2>
 <p style="margin: 0px 0px 12px 0px;">
 The program consists of the following developmental activities and opportunities:
 </p>
@@ -56,7 +56,7 @@ The program consists of the following developmental activities and opportunities
 	<li>Exposure to senior leadership teams and networking events</li>
 </ul>
 
-<h2 class="h2u" style="margin: 0px 0px 0px 0px;">Locations:</h2>
+<h2 class="h2" style="margin: 0px;">Locations</h2>
 <p style="margin: 0px 0px 12px 0px;">
 Charlotte, North Carolina <span class="middot">&middot;</span> Dallas and Irving, Texas <span class="middot">&middot;</span> Jacksonville and Tampa, Florida <span class="middot">&middot;</span> Phoenix and Tempe, Arizona <span class="middot">&middot;</span> St. Louis, Missouri <span class="middot">&middot;</span> Concord and San Francisco, California <span class="middot">&middot;</span> Chicago, Illinois.
 </p>

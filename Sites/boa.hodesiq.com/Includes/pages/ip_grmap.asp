@@ -3,19 +3,19 @@
 			<tr valign="top">
 				<td width="373" height="100%" valign="top" style="padding: 6px 5px 0px 12px;">
 <img class="dotdiv" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
-<h2 class="h2u" style="margin: 0px 0px 0px 0;">Our Business:</h2>
+<h2 class="h2" style="margin: 0px;">Our business</h2>
 <p style="margin: 0px 0px 12px 0px;">
 The Global Risk Management Organization effectively manages risk and reward for each of the Bank's major lines of business. The foundation of Bank of America's risk governance is individual accountability and adherence to the highest standards of conduct. We strive to do the right thing and to do things right. Understanding, identifying and managing risk and reward is part of every associate's job.  
 <br><br>
 Global Risk employs 5,000 associates in more than 35 countries. With the increased focus on risk management in the market place, Global Risk Management offers challenging and exciting career opportunities.
 </p>
 
-<h2 class="h2u" style="margin: 0px 0px 0px 0px;">Overview:</h2>
+<h2 class="h2" style="margin: 0px;">Overview</h2>
 <p style="margin: 0px 0px 12px 0px;">
 The Global Risk Management Associate Program (GRMAP) is a three-year Associate Development program which rotates associates through challenging and valuable one-year assignments within Global Risk. This rotational process helps associates develop a solid understanding of the core roles and responsibilities of Global Risk, while developing a broad range of skills that are applicable throughout much of the Company. Summer interns for the Global Risk Management Associate Program will participate in a variety of activities within Global Risk and throughout the Company, designed to foster teamwork, encourage networking, and demonstrate Bank of America's vision and culture.
 </p>
 
-<h2 class="h2u" style="margin: 0px 0px 0px 0px;">Qualifications:</h2>
+<h2 class="h2" style="margin: 0px;">Qualifications</h2>
 <ul>
 	<li>Pursuing an undergraduate degree in Accounting, Finance, Business Administration, Economics, Mathematics and/or Liberal Arts</li>
 	<li>Exceptional communication skills</li>
@@ -25,7 +25,7 @@ The Global Risk Management Associate Program (GRMAP) is a three-year Associate D
 	<li>Minimum GPA of 3.0</li>
 </ul>
 
-<h2 class="h2u" style="margin: 0px 0px 0px 0px;">Locations:</h2>
+<h2 class="h2" style="margin: 0px;">Locations</h2>
 <p style="margin: 0px 0px 12px 0px;">
 Charlotte, North Carolina <span class="middot">&middot;</span> New York, New York <span class="middot">&middot;</span> Boston, Massachusetts
 </p>

@@ -3,12 +3,12 @@
 			<tr valign="top">
 				<td width="373" height="100%" valign="top" style="padding: 6px 5px 0px 12px;">
 <img class="dotdiv" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
-<h2 class="h2u" style="margin: 0px 0px 0px 0;">Our Business:</h2>
+<h2 class="h2" style="margin: 0px;">Our business</h2>
 <p style="margin: 0px 0px 12px 0px;">
 Global Consumer and Small Business Banking (GCSBB) serves more than 53 million consumer households and small business clients through a distribution network of 5,700 banking centers, 17,000+ ATMs, and the nation's leading online banking and electronic bill pay service.
 </p>
 
-<h2 class="h2u" style="margin: 0px 0px 0px 0;">Overview:</h2>
+<h2 class="h2" style="margin: 0px;">Overview</h2>
 <p style="margin: 0px 0px 12px 0px;">
 The Global Consumer & Small Business Banking Product Leader Development Program develops future senior leaders while engaging them in challenging projects critical to the future of Bank of America. Recent MBA/Masters-level graduates experience 2-3 rotational assignments (6-8 months each) over 18-24 months.
 <br><br>
@@ -22,7 +22,7 @@ Rotational opportunities include:
 	<li>Distribution Strategy</li>
 </ul>
 
-<h2 class="h2u" style="margin: 0px 0px 0px 0px;">Qualifications:</h2>
+<h2 class="h2" style="margin: 0px;">Qualifications</h2>
 <p style="margin: 0px 0px 12px 0;">
 Education & Skills:
 </p>
@@ -63,12 +63,12 @@ Personality Characteristics:
 </ul>
 
 
-<h2 class="h2u" style="margin: 0px 0px 0px 0px;">Training:</h2>
+<h2 class="h2" style="margin: 0px;">Training</h2>
 <p style="margin: 0px 0px 12px 0px;">
 Associates will participate in a formal Education and Orientation program to learn more about Bank of America business, culture and values, as well as to network with Executives and other college hires.  Associates will also participate in various networking and learning opportunities throughout the duration of the program. LDP participants will attend an exclusive sessions designed to build critical leadership skills using assessments, experiential learning and senior leader exposure.
 </p>
 
-<h2 class="h2u" style="margin: 0px 0px 0px 0px;">Locations:</h2>
+<h2 class="h2" style="margin: 0px;">Locations</h2>
 <p style="margin: 0px 0px 12px 0px;">
 Charlotte, North Carolina 
 </p>

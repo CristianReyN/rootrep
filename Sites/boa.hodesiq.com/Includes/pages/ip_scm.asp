@@ -10,7 +10,7 @@ Functions supported within Supply Chain Management (SCM) include sourcing and su
 The Supply Chain Management Associate Program (SCM-MAP) is designed to champion Supply Chain Management Associate development through experiential learning, training and networking opportunities. The program seeks to empower Associates early in their careers to manage their professional development, realize their potential and maximize their contributions to Bank of America.
 </p>
 
-<h2 class="h2u" style="margin: 0px 0px 0px 0px;">Overview:</h2>
+<h2 class="h2" style="margin: 0px;">Overview</h2>
 <p style="margin: 0px 0px 12px 0px;">
 SCM-MAP Associates participate in two 1-year rotational assignments, with responsibilities that may include:
 </p>
@@ -23,7 +23,7 @@ SCM-MAP Associates participate in two 1-year rotational assignments, with respon
 	<li>Facilitating the identification and competitive selection of companies to provide products and services based on a optimum mix of price, quality products and services offered</li>
 </ul>
 
-<h2 class="h2u" style="margin: 0px 0px 0px 0px;">Qualifications:</h2>
+<h2 class="h2" style="margin: 0px;">Qualifications</h2>
 <ul>
 	<li>Bachelor's degree in Supply Chain Management</li>
 	<li>Analytical/problem solving skills</li>
@@ -37,7 +37,7 @@ SCM-MAP Associates participate in two 1-year rotational assignments, with respon
 	<li>A high level of initiative, integrity and creativity</li>
 </ul>
 
-<h2 class="h2u" style="margin: 0px 0px 0px 0px;">Training:</h2>
+<h2 class="h2" style="margin: 0px;">Training</h2>
 <p style="margin: 0px 0px 12px 0px;">
 The MAP Associate training curriculum is a two-phase program that complements the hands-on experience MAP Associates develop in their rotational assignments. Geared for young professionals, the curriculum focuses on three main areas:
 </p>
@@ -47,7 +47,7 @@ The MAP Associate training curriculum is a two-phase program that complements th
 	<li>Behavioral courses</li>
 </ul>
 
-<h2 class="h2u" style="margin: 0px 0px 0px 0px;">Locations:</h2>
+<h2 class="h2" style="margin: 0px;">Locations</h2>
 <p style="margin: 0px 0px 12px 0px;">
 Charlotte, North Carolina
 </p>

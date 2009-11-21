@@ -1,63 +1,52 @@
-		<a name="skipmaincontent"></a><H1 style="margin: 2px 0px 0px 0px;">Information Security Business Continuity</H1>
+		<a name="skipmaincontent"></a><H1 style="margin: 2px 0px 0px 0px;">Information Security Business Continuity Opportunities</H1>
 		<table width="578" cellpadding="0" cellspacing="0" border="0" summary="">
 			<tr valign="top">
 				<td width="373" height="100%" valign="top" style="padding: 6px 5px 0px 12px;">
 <img class="dotdiv" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
-<h2 class="h2u" style="margin: 0px 0px 0px 0;">Our Business:</h2>
+<h2 class="h2" style="margin: 0px;">Our business</h2>
 <p style="margin: 0px 0px 12px 0px;">
 <b>Information Security Business Continuity (ISBC)</b>
 <br><br>
-Associates in ISBC provide industry-leading business continuity and information protection services to all Bank of America lines of business including crisis management, change management, identity and access management, immunity assurance, strategy and operational planning and vulnerability management.
+Associates in ISBC provide industry leading business continuity and information protection services to all Bank of America (BAC) lines of business.  Some of the Business Continuity and Information Protection services are crisis management, change management, identity and access management, immunity assurance, strategy and operational planning, and vulnerability management.
 </p>
 <ul>
-	<li>BAC has almost unmatched scale and scope in global financial services; our ISBC is consistently recognized as best in the world</li>
-	<li>New and rising threats include:  500% increase in phishing sites, 136M viruses, 500% growth in litigation-related electronic discovery</li>
+	<li>BAC has almost unmatched scale and scope in global financial services; our IS & BC consistently recognized as best in the world</li>
+	<li>The industry is seeing new and rising threats that can include:  500% increase in phishing sites, 136M viruses, 500% growth in litigation related electronic discovery</li>
 	<li>More frequent and significant natural events (hurricanes, flu strains and other potential pandemics) threaten business continuity</li>
 	<li>Growing, increasingly sophisticated criminal activity threaten our business, our brand, and our customers</li>
 	<li>Increased regulatory pressures and scrutiny</li>
-	<li>Increased risk that line of business will ignore or under-react to threats in pursuit of operational efficiencies (cost savings)</li>
-	<li>"Extended Enterprise": More processing and support functions by third parties outside the bank coupled with global expansion, increase our vulnerability</li>
+	<li>Increased risk that line of business will ignore or under-react to threats in pursuit of operational efficiencies (cost savings).</li>
+	<li>"Extended Enterprise": More processing and support functions by third parties outside the bank coupled with global expansion, increase our vulnerability.</li>
 </ul>
 
-<h2 class="h2u" style="margin: 0px 0px 0px 0;">Overview:</h2>
+<h2 class="h2" style="margin: 0px;">Overview</h2>
 <p style="margin: 0px 0px 12px 0px;">
-The Senior Analyst-Information Security Engineer, depending on assignment, may be responsible for:
+The Information Security Engineer Analyst responsibilities, depending on assignment, may include:
 </p>
 <ul>
-	<li>Researching, designing, engineering, implementing and supporting ISBC within Bank of America</li> 
-	<li>Utilizing technical knowledge and business requirements to design secure business driven solutions to meet customer / client needs while protecting the Bank's assets</li>
-	<li>Working on problems of diverse scope where analysis of data requires evaluation of identifiable factors</li>
-	<li>Using and applying basic technical principles, concepts and techniques</li>
-	<li>Contributing to the development of security standards, procedures and guidelines for multiple platforms and diverse environments (e.g. - client server, distributed, mainframe, etc.)</li>
-	<li>Working with senior staff & team managers to determine methods, techniques and evaluation criteria for obtaining results</li>
+	<li>Supports daily operational aspects of information security & directory technology systems (software & hardware).</li>
+	<li>Utilizes technical knowledge and business requirements to design secure business driven solutions to meet customer / client needs while protecting the Bank's assets.</li>
+	<li>Contributes to the development of security standards, procedures, and guidelines for multiple platforms and diverse environment (e.g. client server, distributed, mainframe, etc.).</li>
+	<li>Works with senior staff & team manager to determine methods, techniques, and evaluation criteria for obtaining results.</li>
 </ul>
 
-<h2 class="h2u" style="margin: 0px 0px 0px 0;">Qualifications:</h2>
+<h2 class="h2" style="margin: 0px;">Qualifications</h2>
 <p style="margin: 0px 0px 12px 0px;">
-Education & Skills:
+The ideal candidate will exhibit a strong drive for results; succeed in a fast-paced, empowered, and collaborative environment; enjoy teamwork and partnering with others; possess excellent organizational and analytical skills; understand technology and business requirements.  The candidate must be pursuing a major in Technology, Business Management, or Engineering.  Preferred Grade Point Average of a 3.0 or above on a 4 point scale.
+<br><br>
+Candidate Profile:
 </p>
 <ul>
-	<li>Pursuing a major in Technology, Business Management or Engineering</li>
-	<li>Grade Point Average of 3.0 on a 4.0 scale preferred</li>
-	<li>Excellent planning, organizational and project management skills</li>
+	<li>Currently obtaining an undergraduate degree at an accredited college/university</li>
+	<li>Work experience with a demonstrated record of achievement</li>
+	<li>Well organized with excellent planning and project management skills</li>
 	<li>Ability to communicate effectively in both written and oral forms with varying levels of management & executives</li>
 	<li>Aptitude for building rapport and effective relationships</li>
 	<li>Critical thinking/analytical skills</li>
 	<li>Six Sigma experience a plus</li>
 </ul>
 
-<p style="margin: 0px 0px 12px 0px;">
-Personality Characteristics:
-</p>
-<ul>
-	<li>Strong drive for results</li>
-	<li>Ability to succeed in a fast-paced, empowered and collaborative environment</li>
-	<li>Teamwork and partnering mentality</li>
-	<li>Ability to understand technology and business requirements</li>
-	<li>Candidate must have eligibility to work in the United States</li>
-</ul>
-
-<h2 class="h2u" style="margin: 0px 0px 0px 0;">Training:</h2>
+<h2 class="h2" style="margin: 0px;">Training</h2>
 <p style="margin: 0px 0px 12px 0px;">
 The Direct Hire program consists of the following developmental activities: 
 </p>
@@ -69,10 +58,16 @@ The Direct Hire program consists of the following developmental activities:
 	<li>Networking events</li>
 </ul>
 
-<h2 class="h2u" style="margin: 0px 0px 0px 0;">Locations:</h2>
+<h2 class="h2" style="margin: 0px;">Locations</h2>
 <p style="margin: 0px 0px 12px 0px;">
 Charlotte, NC <span class="middot">&middot;</span> Dallas, TX
 </p>
+
+<h2 class="h2u" style="margin: 0px 0px 0px 0;">How to Apply:</h2>
+<p style="margin: 0px 0px 12px 0px;">
+In order to be considered, you <b>MUST</b> submit your profile via the Bank of America careers webpage at <a href="http://www.bankofamerica.com/collegerecruiting">www.bankofamerica.com/collegerecruiting</a>. Select "Undergraduate, Graduate, or Internship Programs", and then "send us your resume".  Sign in as a new or returning user.  If you do not have an existing account, you will need to register as a new user.  Complete your Candidate Profile and designate your program(s) of interest.  In order for your profile to be considered complete, you must reach the final "Thank You" page. <b>In addition, please follow any procedures set forth through the Career Services Office on your campus.</b>
+</p>
+
 <p style="margin: 0px 0px 12px 0px;">
 Candidates must be legally authorized to work in the US without sponsorship.
 </p>

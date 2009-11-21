@@ -3,7 +3,7 @@
 			<tr valign="top">
 				<td width="373" height="100%" valign="top" style="padding: 6px 5px 0px 12px;">
 <img class="dotdiv" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
-<h2 class="h2u" style="margin: 0px 0px 0px 0;">Our Business:</h2>
+<h2 class="h2" style="margin: 0px;">Our business</h2>
 <p style="margin: 0px 0px 12px 0px;">
 North America Treasury Operations (NTO) provides a range of treasury products and services to clients within the U.S. and Canada. These products and services allow corporate treasurers to manage working capital within their organizations. While much of NTO supports Global Treasury Services (GTS) clients, there are business units such as Wire Transfer Services that support all customer segments across the Company.
 <br><br>
@@ -21,12 +21,12 @@ North America Treasury Operations is organized into several major business units
 	<li><b>Operations Risk Management</b> - assumes primary accountability for ensuring that effective systems of Internal Control and Compliance are in place throughout the Company, and validates the integrity of those controls through a broad and comprehensive monitoring program that meets, and often exceeds, Corporate standards</li>
 </ul>
 
-<h2 class="h2u" style="margin: 0px 0px 0px 0;">Overview:</h2>
+<h2 class="h2" style="margin: 0px;">Overview</h2>
 <p style="margin: 0px 0px 12px 0px;">
 This unique, 2-year program allows Analysts to rotate through our North America Treasury Operations. The program offers exposure to many different areas within North America Treasury Operations and provides a better understanding of where Analysts' skills would be best utilized. Analysts will participate in three 8-month rotations within North America Treasury Operations.
 </p>
 
-<h2 class="h2u" style="margin: 0px 0px 0px 0;">Qualifications:</h2>
+<h2 class="h2" style="margin: 0px;">Qualifications</h2>
 <p style="margin: 0px 0px 12px 0px;">
 Education & Skills:
 </p>
@@ -49,7 +49,7 @@ Personality Characteristics:
 	<li>Geographic mobility</li>
 </ul>
 
-<h2 class="h2u" style="margin: 0px 0px 0px 0;">Locations:</h2>
+<h2 class="h2" style="margin: 0px;">Locations</h2>
 <p style="margin: 0px 0px 12px 0px;">
 Scranton, Pennsylvania; Los Angeles, California; Concord, California; Dallas, Texas; Atlanta, Georgia
 </p>

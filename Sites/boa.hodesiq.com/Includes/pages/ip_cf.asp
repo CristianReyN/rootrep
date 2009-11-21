@@ -3,12 +3,12 @@
 			<tr valign="top">
 				<td width="373" height="100%" valign="top" style="padding: 6px 5px 0px 12px;">
 <img class="dotdiv" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
-<h2 class="h2u" style="margin: 0px 0px 0px 0;">Our Business:</h2>
+<h2 class="h2" style="margin: 0px;">Our business</h2>
 <p style="margin: 0px 0px 12px 0px;">
 To deliver a best-in-class opportunity for Finance interns through experiential learning, training, and networking opportunities, the Finance Intern Program is designed to give associates the necessary experiences and exposure to determine their level of interest in the Finance Management Associate Program, while maximizing their contributions to Bank of America.
 </p>
 
-<h2 class="h2u" style="margin: 0px 0px 0px 0px;">Overview:</h2>
+<h2 class="h2" style="margin: 0px;">Overview</h2>
 <p style="margin: 0px 0px 12px 0px;">
 The Finance Management Associate Program (FMAP) is a two-year associate development program, which aggressively moves Finance MAP Associates through rotational assignments within Finance. This rotational process helps associates develop a solid knowledge base of the functional areas of the Finance Group and a broad range of skills. Finance MAP Associates are encouraged to develop leadership skills by leading projects or committees, and participating in a variety of activities designed to foster teamwork, networking and an understanding of Bank of America's vision and culture.
 <br><br>
@@ -32,14 +32,14 @@ Performance appraisals are provided twice during the internship, at the mid-poin
 Bank of America hires up to 30 interns per year.  Interns receive a competitive hourly wage.  The program runs from late May to early August.
 </p>
 
-<h2 class="h2u" style="margin: 0px 0px 0px 0px;">Qualifications:</h2>
+<h2 class="h2" style="margin: 0px;">Qualifications</h2>
 <ul>
 	<li>Interest and aptitude in finance and accounting functions</li>
 	<li>Pursuing a degree in Accounting, Finance and/or Business Administration</li>
 	<li>Strong academics, accompanied by competencies in critical thinking, leadership, business acumen and relationship building</li>
 </ul>
 
-<h2 class="h2u" style="margin: 0px 0px 0px 0px;">Locations:</h2>
+<h2 class="h2" style="margin: 0px;">Locations</h2>
 <p style="margin: 0px 0px 12px 0px;">
 Charlotte, North Carolina
 </p>
