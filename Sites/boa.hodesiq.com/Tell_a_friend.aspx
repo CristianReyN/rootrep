@@ -12,12 +12,13 @@
 					</tr>
 					<tr><td style="width: 100%">  <br /></td></tr>
 					<tr>
-						<td style="width: 100%">
-							<br />
+						<td style="width: 100%">							
+						<br />
 						</td>
 					</tr>
 					<tr>
 						<td style="width: 100%"><asp:Label runat="server" AssociatedControlID="FriendEmail" Text="Your Friend's Email Address.*"></asp:Label><br />
+						    <asp:Literal ID="ltrlError" runat="server" Text=""  /> 
 							<asp:TextBox ID="FriendEmail" ToolTip="Friend's Email Address" runat="server" Width="400px"></asp:TextBox>
 						</td>
 					</tr>
@@ -59,7 +60,7 @@
 					</tr>
 					<tr>
 						<td style="width: 100%"><asp:Label runat="server" AssociatedControlID="MessageBox" Text="Message (Maximum 512 characters.)"></asp:Label>
-							<asp:TextBox ID="MessageBox" tooltip="Message" runat="server" Height="55px" TextMode="MultiLine" Width="400px">I thought you might be interested in this new job opportunity with Bank of America.</asp:TextBox>
+							<asp:TextBox ID="MessageBox" tooltip="Message" runat="server" Height="55px" MaxLength="512" TextMode="MultiLine" Width="400px">I thought you might be interested in this new job opportunity with Bank of America.</asp:TextBox>
 						</td>
 					</tr>
 					<tr>
@@ -74,9 +75,8 @@
 						<td align="left" valign="top" style="width:50%">		
 							<asp:PlaceHolder runat="server" ID="phCancel"></asp:PlaceHolder>
 						</td>
-					</tr>
-				    
-				</table>
+					</tr>				    
+				</table>				
             </td>
         </tr>
     </table>
