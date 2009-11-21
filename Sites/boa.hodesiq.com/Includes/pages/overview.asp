@@ -269,7 +269,12 @@ create_safebutton("Begin Search","javascript: document.jsearch.submit();",0,0,0,
 							<td colspan="2" valign="top" width="100%" style="padding: 0px 0px 0px 0px;">
 <div id="Layer3" style="position: relative; z-index: 12;">
 <img class="dotdiv" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
-<a href="<%="../profilerd.aspx?" & server.urlencode("https://bacfhrs.taleo.net/servlets/CareerSection?art_ip_action=FlowDispatcher&flowTypeNo=3&alt=1&art_servlet_language=en&csNo=2") %>" target="_blank" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" style="margin: 3px 0px 0px 0px;" title="Manage Your Profile">Manage Your Profile</a>
+<p class="ada-label">Manage Your Profile. You are encouraged to complete the online candidate profile, however if you have difficulty, you should:</p>
+<ul class="ada-label">
+	<li>Email your resume to <a href="mailto:"bac@sosolutions.com>bac@sosolutions.com</a></li>
+	<li>In the Subject Line of your email, include "Source = Internet/Bank of America Careers"</li>
+</ul>
+<a href="<%="../profilerd.aspx?" & server.urlencode("https://bacfhrs.taleo.net/servlets/CareerSection?art_ip_action=FlowDispatcher&flowTypeNo=3&alt=1&art_servlet_language=en&csNo=2") %>" target="_blank" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" style="margin: 3px 0px 0px 0px;" title="Manage Your Profile">Manage Your Profile<span class="ada-label">If you have any difficulties, refer to above alternatives.</span></a>
 <p style="margin: 3px 0px 0px 0px;">Create or update your existing candidate profile.</p>
 </div>
 							</td>

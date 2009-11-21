@@ -31,12 +31,12 @@ function preloadCC(){MM_preloadImages('../images/cc_next_over.gif','../images/cc
 				<td height="100%" valign="top" style="padding: 0px 0px 0px 0px;">
 <H1 class="cc" style="margin: -8px 0px 4px -1px; padding-bottom: 5px;"><% If isObject(page) Then Response.write page.Item("title") %></H1>
 <div style=" background: #999999; margin: 0px 0px 7px 0px;"><img src="../images/clear.gif" width="100%" height="1" align="top" alt="" /></div>
+<%	If er_ror <> "" Then %>
+<a name="error"></a><p style="margin: 0px 0px 9px -1px; color: Red;"><% Response.write er_ror %></p>
+<%	End If %>
 <input type="hidden" name="page_number" value="<% Response.write next_page_number %>">
 <%	If isObject(page) And trim(page.Item("copy")) <> "" Then %>
 <p style="margin: 0px 0px 9px -1px;"><% Response.write page.Item("copy") %></p>
-<%	End If %>
-<%	If er_ror <> "" Then %>
-<p style="margin: 0px 0px 9px -1px; color: Red;"><% Response.write er_ror %></p>
 <%	End If %>
 					<table width="100%" cellpadding="0" cellspacing="0" border="0" style="margin: 0px 0px 0px 0px;" summary="">
 <%	If isObject(page) And UBound(page.Item("question_groups")) > 0 Then 
