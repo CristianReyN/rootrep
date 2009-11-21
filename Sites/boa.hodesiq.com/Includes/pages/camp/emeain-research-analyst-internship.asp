@@ -78,8 +78,8 @@ In addition to our London opportunities we also offer a number of internships wi
 <br>
 				</td>
 				<td width="205" height="100%" valign="top" style="padding-top: 8px;" align="right">
-<img src="../Includes/pages/camp/profile/ResearchAnalyst_Natasha.jpg" width="205" height="153" alt="Natasha" border="0"><br clear="all">
-<p align="center" style="margin: 6px 0px 24px 0px;"><a target="_blank" href="../Includes/pages/camp/profile/ResearchAnalyst_Natasha.pdf" class="p" title="View Natasha&#39;s profile. Link opens a new window.">View Natasha&#39;s profile</a></p>
+<img src="../Includes/pages/camp/profile/ResearchAnalyst_Aurelie.jpg" width="205" height="153" alt="Aurelie" border="0"><br clear="all">
+<p align="center" style="margin: 6px 0px 24px 0px;"><a target="_blank" href="../Includes/pages/camp/profile/ResearchAnalyst_Aurelie.pdf" class="p" title="View Aurelie&#39;s profile. Link opens a new window.">View Aurelie&#39;s profile</a></p>
 <!-- #include file="../../camprnav.asp" -->
 				</td>
 			</tr>

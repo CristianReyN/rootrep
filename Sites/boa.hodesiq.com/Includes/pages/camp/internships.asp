@@ -202,13 +202,13 @@ tabs[tab-1].coremetrics = true;
 		<% End If %>
 <div id="dt2" style="display: <% If tab = 2 Or page_section = "ADA" Then %>inline<% Else %>none<% End If %>;">
 	<div class="innerTab">
-		<p class="bac" style="margin: 0px 0px 12px 0px;">Bank&nbsp;of&nbsp;America&#39;s summer analyst programme is the ideal opportunity to gain an introduction into the world of banking. The nine week programme kicks off with an induction week covering core skills where you will work along side our fulltime associates gaining valuable work experience in the financial industry.</p>
+		<p class="bac" style="margin: 0px 0px 12px 0px;">Bank&nbsp;of&nbsp;America&#39;s summer internship programme is the ideal opportunity to gain an introduction into the world of banking. The nine week programme kicks off with an induction week covering core skills where you will work along side our fulltime associates gaining valuable work experience in the financial industry.</p>
 		
 		<H3 class="bac">Eligibility</H3>
 		<ul class="bac">
-			<li>Our nine week summer programme is aimed at penultimate year students.</li>
+			<li>Our nine week summer programme is aimed at penultimate year students (analyst) or first year MBA students (associate).</li>
 			<li>Candidates must demonstrate a combination of academic aptitude, quantitative skills, strategic and creative thinking and written and oral communications skills.</li>
-			<li>In addition you must be realistically expecting to obtain a minimum 2:1 degree or equivalent. Underlying all this, you must demonstrate dedication to a career in banking.</li>
+			<li>In addition, you must be realistically expecting to obtain a minimum 2:1 degree or equivalent for our analyst internships.</li>
 		</ul>
 
 		<img src="../images/clear.gif" class="bac" alt=""><br clear="all">
@@ -235,12 +235,13 @@ tabs[tab-1].coremetrics = true;
 			<tr>
 				<td valign="top">
 					<ul class="bac">
-						<li>Dubai</li>
 						<li>Frankfurt</li>
 						<li>London</li>
 						<li>Madrid</li>
 						<li>Milan</li>
 						<li>Paris</li>
+						<li>Camberley</li>
+						<li>Croydon</li>
 					</ul>
 				</td>
 			</tr>

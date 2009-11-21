@@ -92,7 +92,8 @@ Full Time offers are made for a specific office location and product desk based 
 <br>
 				</td>
 				<td width="205" height="100%" valign="top" style="padding-top: 8px;" align="right">
-<img src="../Includes/pages/camp/profile/logo.jpg" width="205" height="153" alt="Bank of America" border="0" style="margin: 0px 0px 0px 0px;">
+<img src="../Includes/pages/camp/profile/GlobalStAnalyst_Dan.jpg" width="205" height="153" alt="Dan" border="0"><br clear="all">
+<p align="center" style="margin: 6px 0px 24px 0px;"><a target="_blank" href="../Includes/pages/camp/profile/GlobalStAnalyst_Dan.pdf" class="p" title="View Dan&#39;s profile. Link opens a new window.">View Dan&#39;s profile</a></p>
 <!-- #include file="../../camprnav.asp" -->
 				</td>
 			</tr>

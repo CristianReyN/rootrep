@@ -5,67 +5,79 @@
 <a name="skipmaincontent"></a><h1 class="bac"><%=program.Item("title")%></h1>
 <h2 class="bac">Our Business:</h2>
 <p class="bac">
-The Global Wealth and Investment Management (GWIM) business is one of the largest wealth management platforms in the world. With approximately $2 trillion in client assets under supervision and more than 18,000 financial advisors across the wealth spectrum, GWIM can provide clients with seamless execution through its global capabilities. 
-</p>
-<p class="bac">
-GWIM&#39;s leadership position in key products and services ensures comprehensive coverage for a broad range of clients – from affluent to high- and ultra-high-net-worth. Capabilities include brokerage, investment management, wealth structuring and credit, delivered through three principal business lines.
-</p>
-<br>
-<h3 class="bacg">Merrill Lynch Wealth Management</h3>
-<p class="bacg">
-&nbsp;provides advice-based wealth management products and services globally to individuals, small- and mid-size businesses and employee benefit plans. Financial advisors build one-to-one relationships with individuals and families to understand their personal goals and deliver customized financial strategies and wealth management advice, products and services. For business clients, key corporate services include employee stock option plans, directed share programs, defined benefit and defined contribution plans and philanthropic advisory. 
+Global Wealth & Investment Management provides comprehensive banking and investment services tailored to meet the changing wealth-management goals of more than three million individual and institutional customers. Clients have access to services offered through Merrill Lynch Wealth Management, Alternative Investments & Asset Management, US Trust, and Institutional Retirement and Philanthropy.
+Merrill Lynch Wealth Management group provides advice-based wealth management services and products to individual clients and businesses. The GWM business model is based on our network of more than 16,000 financial advisors (FAs) in nearly 700 offices around the world and the one-to-one relationships they develop with their clients.
 </p>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
 
-<h2 class="bac">Overview:</h2>  
-<br>
-<h3 class="bacg">U.S. Trust</h3>
-<p class="bacg">
-&nbsp;is a private wealth management business that brings personal service and innovative solutions to the wealthiest U.S. individuals and families. Services include wealth structuring, investment management, credit and banking, and strategic philanthropy – all delivered to meet the unique needs of each client. 
-</p>
-<br>
-<br>
-<h3 class="bacg">Columbia Management</h3>
-<p class="bacg">
-&nbsp;furnishes investment management services and products for institutional, individual and high-net-worth investors. The group invests its resources in research, product development and portfolio management to build investment platforms designed to deliver strong, sustainable results for clients. 
-</p>
+<h2 class="bac">Overview:</h2>
+<ul>
+	<li>
+		<h3 class="bac">Alternative Investments & Asset Management (New York, NY)</h3>
+		<p class="bac" style="margin-top: 3px;">
+Alternative Investment Asset Management is dedicated to delivering products to qualified institutional and high net worth clients that extend beyond traditional stock and bond offerings. The group is responsible for research and portfolio management for a range of diversified alternative investment solutions, encompassing hedge funds, private equity funds and real estate.
+		</p>
+		<p class="bac" style="margin-top: 3px;;">
+The primary objective of Alternative Investment Asset Management is to provide qualified clients with a wide range of alternative investment products that have the potential to achieve attractive risk-adjusted returns. Investors will obtain cost-effective access to top firms (some of which may otherwise be closed to new investors), as well as diversification by sector and investment strategy.
+		</p>
+		<p class="bac" style="margin-top: 3px; margin-bottom: 12px;">
+The group's solutions are typically offered via prospectus or private placement memorandums only, and prospective investors must meet certain eligibility criteria.
+		</p>
+	</li>
+	<li>
+		<h3 class="bacg">US Trust, Bank of America Private Wealth Management</h3>&nbsp;<p class="bacg" style="margin-top: 3px; margin-bottom: 12px;">
+provides integrated wealth-management solutions to high-net-worth individuals, middle-market institutions and charitable organizations with investable assets greater than $3 million. U.S. Trust, Bank of America Private Wealth Management provides credit, deposit, investment and trust services as well as specialty asset management services.
+		</p>
+		<ul style="list-style-image: none; list-style-type: square;">
+			<li>
+				<h3 class="bac">Private Client Manager (New York, NY)</h3>
+			</li>
+		</ul>
+	</li>
+</ul>
+
+<h2 class="bac"><i>Merrill Lynch Wealth Management</i></h2>
+<ul>
+	<li>
+		<h3 class="bac">Global Investment Solutions (Jersey City, NJ and New York, NY)</h3>
+		<p class="bac" style="margin-top: 3px;">Deliver high quality investment advice and product capabilities commensurate with the client segment & business channel.  Provide investment solutions across all product platforms, including equity, debt and structured products and alternative investments. Deliver due diligence and cohesive investment management solutions for client portfolios.
+		</p>
+	</li>
+</ul>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
 
 <h2 class="bac">Qualifications:</h2>
 <ul class="bac">
-	<li>Pursuing MBA</li>
-	<li>3-5 years work experience</li>
-	<li>3.2 GPA </li>
-	<li>Demonstrative leadership abilities </li>
-	<li>Effective oral and written communication </li>
-	<li>Adaptable to fast paced, changing environments </li>
-	<li>Ability to think independently, and work collaboratively </li>
+	<li>Successful completion of MBA program</li>
+	<li>3.5 GPA</li>
+	<li>Demonstrative leadership abilities</li>
+	<li>Effective oral and written communication</li>
+	<li>Adaptable to fast paced, changing environments</li>
+	<li>Ability to think independently, and work collaboratively</li>
 </ul>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
 
 <h2 class="bac">Training:</h2>
 <p class="bac">
-Our Associate program is a year long training program developed to provide participants with the tools to launch a successful career in GWIM.  Two to three weeks of upfront business training is delivered as well as the opportunity to get a Series 7&amp;66 license, based on business needs.  Following upfront training Associates participate in year long training delivered monthly consists of professional development, core business skills, networking opportunities, and additional business training.
+Our Associate program is designed to provide you with the skills and knowledge you need to launch a successful career within the Global Wealth and Investment Management (GWIM) Business.  The full time program is a direct placement program; while participants work directly in their business groups they receive training for one year.  The program begins with a formal training about the company, business divisions, organizational structure, and product groups.  The program also provides networking opportunities across the organization.  In addition to orientation, the program consists of:
 </p>
-
-<img src="../images/clear.gif" class="bac" alt=""><br clear="all">
-
-<h2 class="bac">Locations:</h2>
 <ul class="bac">
-	<li>New York City, New York</li>
-	<li>Jersey City, New Jersey</li>
-	<li>Hopewell, New Jersey</li>
-	<li>Boston, Massachusetts</li>
+	<li>Networking opportunities</li>
+	<li>Product and services training</li>
+	<li>Professional development training</li>
+	<li>Exposure to branch operations</li>
+	<li>Mentoring  program</li>
+	<li>Community service opportunities</li>
 </ul>
 
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
 
 <h2 class="bac">How to Apply</h2>
-<p class="bac"><% howToApply(program) %></p>
+<p class="bac"><% 'howToApply(program) %>In order to be considered a candidate for this opportunity, you must apply via <a href="<% If page_section <> "ADA" Then  %>../campusrecruiting/<% Else  %>../ada_camp/<% End If %>" class="bac">www.bankofamerica.com/campusrecruiting</a>. To <a href="<% If page_section <> "ADA" Then  %>../learnmore/<% Else  %>../ada/<% End If %>sendresume.asp" target="<%=HOWTOAPPLY_TARGET%>" title="Submit your profile<% If HOWTOAPPLY_TARGET = "_blank" Then %>. Link opens a new window.<% End If%>" class="bac">submit your profile</a>, first sign in as a new or returning user. If you don't have an existing account, you'll need to register as a new user. Then, complete your Candidate Profile and designate your program(s) of interest. Please note that in order for your application to be considered complete, you must reach the final "Thank You" page. In addition, please follow any procedures set forth through the Career Services office on your campus.</p>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
 <% goBack(program) %>

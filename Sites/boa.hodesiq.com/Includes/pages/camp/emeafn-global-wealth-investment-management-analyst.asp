@@ -15,7 +15,7 @@ Our clients are predominantly private individuals, ranging from smaller accounts
 
 <h2 class="bac">Overview:</h2>  
 <p class="bac">
-Begin your career with a training programme that will help you develop the business, financial and analytical skills you need to hit the ground running when you join your group. Learn from and work with teams of professionals across Bank&nbsp;of&nbsp;America and Merrill Lynch, including senior experts within your group and other areas of the firm, as well as colleagues from around the globe. You will directly assist teams with asset allocation and portfolio reviews and carry out research and analysis of different products. In addition, you will assist in direct client investing, by assisting in structuring client portfolios, investing for both on-shore and off-shore clients on a multi-currency basis.
+Begin your career with a training programme that will help you develop the business, financial and analytical skills you need to hit the ground running when you join your group. Learn from and work with teams of professionals across Bank&nbsp;of&nbsp;America, including senior experts within your group and other areas of the firm, as well as colleagues from around the globe. You will directly assist teams with asset allocation and portfolio reviews and carry out research and analysis of different products. In addition, you will assist in direct client investing, by assisting in structuring client portfolios, investing for both on-shore and off-shore clients on a multi-currency basis.
 </p>
 <p class="bac">
 As an analyst within Global Wealth and Investment Management: 

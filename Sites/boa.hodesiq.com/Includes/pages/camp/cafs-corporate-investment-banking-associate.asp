@@ -78,7 +78,8 @@ Calgary, Montreal, Toronto
 <br>
 				</td>
 				<td width="205" height="100%" valign="top" style="padding-top: 8px;" align="right">
-<img src="../Includes/pages/camp/profile/logo.jpg" width="205" height="153" alt="Bank of America" border="0" style="margin: 0px 0px 0px 0px;">
+<img src="../Includes/pages/camp/profile/CIBAssociate_Pepe.jpg" width="205" height="153" alt="Pepe" border="0"><br clear="all">
+<p align="center" style="margin: 6px 0px 24px 0px;"><a target="_blank" href="../Includes/pages/camp/profile/CIBAssociate_Pepe.pdf" class="p" title="View Pepe&#39;s profile. Link opens a new window.">View Pepe&#39;s profile</a></p>
 <!-- #include file="../../camprnav.asp" -->
 				</td>
 			</tr>

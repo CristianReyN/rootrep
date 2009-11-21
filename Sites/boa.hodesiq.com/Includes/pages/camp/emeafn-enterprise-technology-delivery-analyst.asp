@@ -12,7 +12,7 @@ Enterprise Technology and Delivery provides continuous operating, computing and 
 
 <h2 class="bac">Overview:</h2>  
 <p class="bac">
-Bank&nbsp;of&nbsp;America Merrill Lynch Technology couples technological expertise with the firm&#39;s strategic vision to keep the firm at the forefront of the world&#39;s financial markets. Delivering market-leading technology drives our business forward.
+Bank&nbsp;of&nbsp;America Technology couples technological expertise with the firm&#39;s strategic vision to keep the firm at the forefront of the world&#39;s financial markets. Delivering market-leading technology drives our business forward.
 </p>
 <p class="bac">
 Infrastructure covers the firm&#39;s core networks, data centers, and end-user services, which underpin our corporate and business platforms and connect our employees, clients, suppliers, and vendors together. 

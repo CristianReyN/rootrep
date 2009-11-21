@@ -5,7 +5,7 @@
 <a name="skipmaincontent"></a><h1 class="bac"><%=program.Item("title")%></h1>
 <h2 class="bac">Our Business:</h2>
 <p class="bac">
-Human Resources (HR) provides human resources services to our more than 285,000 employees around the world. A strategic partner with our business and corporate groups, HR provides the expertise essential for maximizing employees&#39; professional achievement and per Working together, the specialist and generalist areas provide a comprehensive service to our clients. They drive the people management aspects of the overall business strategy by delivering superior HR policy development, strategic HR advice, reward and retention programmers, management of employee relations, resourcing, diversity, learning and development and compensation and benefits.
+Human Resources (HR) provides human resources services to more than 285,000 employees around the world. A strategic partner with our business and corporate groups, HR provides the expertise essential for maximizing employees&#39; professional achievement and personal success. Working together, the specialist and generalist areas provide a comprehensive service to our clients. They drive the people management aspects of the overall business strategy by delivering superior HR policy development, strategic HR advice, reward and retention programmes, management of employee relations, resourcing, diversity, learning and development and compensation and benefits.
 </p>
 <p class="bac">
 By joining HR you will become part of a leading team of professionals and partner with an outstanding internal client base comprising leaders in their products and markets. To do this effectively you will require creativity, drive, enthusiasm and an unrelenting focus on achieving excellence.
