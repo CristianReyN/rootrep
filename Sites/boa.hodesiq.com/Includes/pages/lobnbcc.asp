@@ -23,33 +23,23 @@
 <a href="#video" class="hlink">Jonathan Fairbrother&acute;s Associate Testimonial Video</a>
 <% End If  %>
 <% If spage = "customercare" Then %>
-<div style="width: 201px; text-align: left; border: 1px solid #e8e8e9; background: #ffffff; margin: 12px 0px 12px 0px; padding: 0px 0px 6px 0px;">
-<H2 class="g" style="margin: 0px 0px 0px 0px;">Career Opportunities</H2>
-	<img src="../images/clear.gif" width="100%" height="1" alt="" border="0" style="margin: 0px 0px 0px 0px; background: #ffffff;" align="top"><br clear="all">
-	<img src="../images/clear.gif" width="100%" height="1" alt="" border="0" style="margin: 0px 0px 0px 0px; background: #e8e8e9;" align="top"><br clear="all">
-<p style="margin: 6px 6px 0px 6px;"><a class="left" onfocus="this.className='left-over';" onblur="this.className='left';" href="../jobsearch.aspx?jobareas=2|8&stateid=-1&cityid=-1&keywords=&SearchPage=Sp">View current jobs in Relationship Management</a></p>
-<p style="margin: 6px 6px 0px 6px;"><a class="left" onfocus="this.className='left-over';" onblur="this.className='left';" href="../jobsearch.aspx?jobareas=2|9&stateid=-1&cityid=-1&keywords=&SearchPage=Sp">View current jobs in Customer Service</a></p>
-<p style="margin: 6px 6px 0px 6px;"><a class="left" onfocus="this.className='left-over';" onblur="this.className='left';" href="../jobsearch.aspx?jobareas=2|13&stateid=-1&cityid=-1&keywords=&SearchPage=Sp">View current jobs in Credit</a></p>
-<p style="margin: 6px 6px 0px 6px;"><a class="left" onfocus="this.className='left-over';" onblur="this.className='left';" href="../jobsearch.aspx?jobareas=8|19&stateid=-1&cityid=-1&keywords=&SearchPage=Sp">View current jobs in Sales</a></p>
-</div>
+
 <% ElseIf tpage = "lobnbcc" Then %>
-<div style="width: 201px; text-align: left; border: 1px solid #e8e8e9; background: #ffffff; margin: 12px 0px 12px 0px; padding: 0px 0px 6px 0px;">
+
+<% End If  %>
+<div style="width: 201px; text-align: left; border: 1px solid #e8e8e9; background: #ffffff; margin: 12px 0px 0px 0px; padding: 0px 0px 6px 0px;">
 	<H2 class="g" style="margin: 0px 0px 0px 0px;"><%=JOB_SEARCH_TITLE%></H2>
-	<img src="../images/clear.gif" width="100%" height="1" alt="" border="0" style="margin: 1px 0px 6px 0px; background: #e8e8e9;" align="top"><br clear="all"><% jwidth = 192 %>
+	<img src="../images/clear.gif" width="100%" height="1" alt="" border="0" style="margin: 1px 0px 6px 0px; background: #e8e8e9;" align="top"><br clear="all">
 <!-- #include file="../jobsearch.asp" -->
 </div>
-<% End If  %>
-<div style="width: 201px; text-align: center; margin: 0px; padding: 0px;">
-<!-- #include file="../talkingatm.html" -->
-</div>
-<% rjp_standalone = false %>
-<div style="width: 201px; text-align: center; margin: 0px; padding: 0px;">
+<% rjp_standalone = true %>
+<div style="width: 201px; text-align: center; margin: 12px 0px 0px 0px; padding: 0px;">
 <!-- #include file="../rjp.asp" -->
 </div>
 <br><br>
 					</div>
 <p style="margin: <% If page_section = "ADA" Then %>12<% Else %>0<%End If%>px <%=right_margin_split%>px 0px <%=left_margin_0%>px;">
-Global Consumer &amp; Small Business Banking contains six of the largest divisions within Bank&nbsp;of&nbsp;America. Our teams service approximately 54 million consumer households through checking, savings, credit and debit cards, home equity lending and mortgages. Helping a family acquire their first home, assisting someone with establishing credit, paying bills via mobile phone, providing a six-year-old with a savings account and funding a small business owner's dream - these are some of the opportunities we provide to our customers and to the thousands of Bank&nbsp;of&nbsp;America associates in our diverse groups.
+Global Consumer &amp; Small Business Banking contains six of the largest divisions within Bank&nbsp;of&nbsp;America. Our teams service approximately 53 million consumer households through checking, savings, credit and debit cards, home equity lending and mortgages. Helping a family acquire their first home, assisting someone with establishing credit, paying bills via mobile phone, providing a six-year-old with a savings account and funding a small business owner's dream - these are some of the opportunities we provide to our customers and to the thousands of Bank&nbsp;of&nbsp;America associates in our diverse groups.
 </p>
 <br>
 <H1 style="margin: 0px <%=right_margin%>px 9px <%=left_margin_0%>px; width: <%=(315-right_margin_split-left_margin_0)%>px;">Frequently Asked Questions</H1>

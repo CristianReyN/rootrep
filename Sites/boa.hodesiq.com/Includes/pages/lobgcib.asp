@@ -2,8 +2,8 @@
 			<tr valign="top"><td colspan="2" valign="top" class="divt"><img src="../images/clear.gif" width="100%" height="4" alt="" border="0"></td></tr>
 			<tr valign="top">
 				<td width="100%" colspan="2" valign="top">
-<img src="../images/gcib.jpg" width="578" height="166" alt="Explore a career with the Bank of Opportunity." title="Explore a career with the Bank of Opportunity." border="0">
-<div class="hidden">Global Corporate &amp; Investment Banking. Explore a career with the Bank of Opportunity.</div>
+<img src="../images/gcib.jpg" width="578" height="166" alt="Bank&nbsp;of&nbsp;America Merrill Lynch" title="Bank&nbsp;of&nbsp;America Merrill Lynch" border="0">
+<div class="hidden">Bank&nbsp;of&nbsp;America Merrill Lynch</div>
 				</td>
 			</tr>
 			<tr valign="top"><td colspan="2" valign="top" class="divb"><img src="../images/clear.gif" width="100%" height="4" alt="" border="0"></td></tr>
@@ -12,94 +12,57 @@
 		<table width="578" cellpadding="0" cellspacing="0" border="0" summary="">
 			<tr valign="top">
 				<td width="100%" valign="top">
-<a name="skipmaincontent"></a><H1 class="hidden">Global Corporate &amp; Investment Banking</H1>
-<% If page_section = "ADA" Then %>
-<!-- #include file="lob/shuwen.asp" -->
+<a name="skipmaincontent"></a><H1 class="hidden">Global Banking &amp; Markets</H1>
 					<div align="right" style="float: right; margin: 0px 0px 0px <%=right_margin_split%>px; padding: 0px; width: 201px;">
-<% End If %>
-<% If page_section <> "ADA" Then %>
-					<div align="right" style="float: right; margin: 0px 0px 0px <%=right_margin_split%>px; padding: 0px; width: 259px;">
-<!-- #include file="lob/shuwen.asp" -->
-<a href="#video" class="hlink">Shu-Wen&acute;s Associate Testimonial Video</a>
-<% End If  %>
 <div style="width: 201px; text-align: left; border: 1px solid #e8e8e9; background: #ffffff; margin: 12px 0px 12px 0px; padding: 0px 0px 6px 0px;">
 	<H2 class="g" style="margin: 0px 0px 0px 0px;"><%=JOB_SEARCH_TITLE%></H2>
-	<img src="../images/clear.gif" width="100%" height="1" alt="" border="0" style="margin: 1px 0px 6px 0px; background: #e8e8e9;" align="top"><br clear="all"><% jwidth = 192 %>
+	<img src="../images/clear.gif" width="100%" height="1" alt="" border="0" style="margin: 1px 0px 6px 0px; background: #e8e8e9;" align="top"><br clear="all">
 <!-- #include file="../jobsearch.asp" -->
-</div>
-
-<div style="width: 201px; text-align: center; margin: 0px; padding: 0px;">
-<!-- #include file="../talkingatm.html" -->
 </div>
 <br><br>
 					</div>
 <p style="margin: <% If page_section = "ADA" Then %>12<% Else %>0<%End If%>px <%=right_margin_split%>px 0px <%=left_margin_0%>px;">
-Global Corporate &amp; Investment Banking is all about opportunity. It's about recognizing potential, making strategic decisions and maximizing return on investment. Global Corporate &amp; Investment Banking provides comprehensive financial solutions to clients ranging from companies with $2.5 million in revenues to large multinational corporations, governments, institutional investors and hedge funds. 
-<br><br>
-From bank deposit, credit services and cash management to risk management and equity and debt capital development, we do it all. We connect investors with the most advanced debt and equity research, leading-edge sales and trading platforms, and risk management expertise - all to ensure that no opportunity for success goes unrealized. 
-<br><br>
-As the bank of choice for 98% of the U.S. Fortune 500 and 80% of the Global Fortune 500, Bank&nbsp;of&nbsp;America is the place to be for talented professionals who are serious about seizing opportunities to make a difference and helping to shape the future of global banking.
+Global Banking &amp; Markets serves large corporate and institutional clients worldwide. It consists of Global Corporate &amp; Investment Banking, Global Markets and Global Corporate Banking. Aligned with these client-facing groups are Global Capital Markets and Global Research, as well as technology and operations.
 </p>
+
+
+<H2 class="p" style="margin: 12px 0px 0px 0px; padding: 0px;"><b>Global Banking, Securities and Wealth Management Technology &amp; Operations</b></H2>
+<p style="margin: 0px;">
+GBSWM T&amp;O provides tech. &amp; ops support for GBM, as well as Global Wealth &amp; Investment Management, Global Commercial Banking Markets and several other key areas across the bank.
+</p>
+
+<H2 class="p" style="margin: 12px 0px 0px 0px; padding: 0px;"><b>Global Capital Markets</b></H2>
+<p style="margin: 0px;">
+Global Capital Markets originates a wide variety of equity and debt capital offerings as well as risk management products.  When an issuer client decides to raise capital in the public or private markets, corporate and investment bankers turn to the Capital Markets team.  Capital Markets partners with the coverage team and advises clients on optimal methods to access capital, whether it is for acquisitions, refinancing or strengthening their balance sheets.  The offerings can comprise equities, bonds, bank debt, private placements or a combination of securities.
+</p>
+
+<H2 class="p" style="margin: 12px 0px 0px 0px; padding: 0px;"><b>Global Corporate Banking </b></H2>
+<p style="margin: 0px;">
+Global Corporate Banking includes both the Corporate Banking coverage officers as well as the product development and delivery capabilities that have most recently been a part of Global Product Solutions.  Bringing together corporate bankers with product delivery officers and the product development team helps us more fully integrate corporate banking product capabilities with our client coverage model, further pulling the business together end-to-end in partnership with investment banking.
+</p>
+
+<H2 class="p" style="margin: 12px 0px 0px 0px; padding: 0px;"><b>Global Corporate &amp; Investment Banking</b></H2>
+<p style="margin: 0px;">
+Global Corporate &amp; Investment Banking (GCIB) focuses on building long-term relationships with more than 3,000 large U.S. and multinational corporations, financial institutions and financial sponsors, by providing strong advisory expertise and capitalizing on powerful M&amp;A, corporate banking, treasury, debt and equity product expertise to deliver integrated financial solutions.
+</p>
+
+<H2 class="p" style="margin: 12px 0px 0px 0px; padding: 0px;"><b>Global Markets</b></H2>
+<p style="margin: 0px;">
+Global Markets delivers a wide range of securities products and services, powerful sales and trading capabilities and deep risk management expertise across asset classes.  Closely aligned with GCIB&#39;s client-managed groups, Global Markets product specialists anticipate and meet the needs of more than 3,000 institutional investors and 7,000 issuer clients.
+</p>
+
+<H2 class="p" style="margin: 12px 0px 0px 0px; padding: 0px;"><b>Global Research</b></H2>
+<p style="margin: 0px;">
+More than 700 professionals of the award winning Global Research organization support the institutional sales and trading teams and their clients.  Their expertise is at the core of the value delivered to investor clients.  Research analysts provide insightful, objective and decisive research designed to enable clients to make informed investment decisions in three primary disciplines: 
+</p>
+<ul style="margin-top: 3px;">
+	<li>Global equity research analysts provide fundamental analysis on nearly 3,000 companies domiciled in 50 countries.</li>
+	<li>Global credit research encompasses high grade, high yield, credit strategy, credit derivatives, mortgages and other structured finance, convertibles, municipals and indices.</li>
+	<li>Global macro research encompasses economics, currencies, commodities, rates, derivatives and equity investment strategies.</li>
+</ul>
 <br>
-<H1 style="margin: 0px <%=right_margin%>px 9px <%=left_margin_0%>px; width: <%=(315-right_margin_split-left_margin_0)%>px;">Frequently Asked Questions</H1>
-<div style="margin: <% If page_section = "ADA" Then %>12<% Else %>0<%End If%>px <%=right_margin_split%>px 0px <%=left_margin_0%>px; width: <%=(315-right_margin_split-left_margin_0)%>px;">
-<% If page_section <> "ADA" Then %>
-<div id="panswer" style="width: 205px; height: 152px; text-align: left;">
-<img style="margin: 0px;" src="../Includes/pages/lob/thumbnails/sheila_on.jpg" alt="" border="0" align="absmiddle">
-<script language="JavaScript1.2" type="text/javascript">
-	document.write(strReplace(strReplace(strReplace(strReplace(getHTMLControl("ansvideo",205,22,false,false,false,true,false,false),"<text>","Video transcript"),"<title>","Video transcript"),"<href>",ada_href),"<anchor>",sheila_a1.ada_anchor));
-</script>
-</div>
-<p style="margin: 6px 0px 0px 0px;">
-Click on a question below to play the video response.
-</p>
-<% End If %>
 <img class="dotdiv" style="margin: 6px 0px 0px 0px;" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
-<p style="margin: 6px 0px 0px 0px;" class="faqpa">
-<b>How does GCIB make money?</b>
-<% If page_section <> "ADA" Then %>
-<br><img class="plresp" src="../images/clear.gif" width="10" height="1"  alt="" border="0"><br><a href="Javascript: vo_id();" onclick="playResponce(this);" class="ip">Play response</a>&nbsp;<a href="Javascript: void();" onclick="playResponce(this);"><img style="margin: 0px 0px 0px 0px;" src="../images/video_off_faq.gif" alt="" border="0" align="absmiddle" class="pai" name="pa1"></a><span class="auraltext"><br class="sheila_a1"></span>
-<% Else %>
-</p>
-<p style="margin: 6px 0px 0px 0px;"><a name="answ1"></a>
-Global Corporate and Investment Bank is one of Bank&nbsp;of&nbsp;America's three major businesses comprising 28% of the company's revenue.  GCIB provides broad financial services to clients ranging from businesses with $2.5 million in revenue to large Institutional clients such as hedge funds and asset managers.  We bank over 40% of businesses with revenues greater than $20 million and have relationships with over 98% of Fortune 500 companies.  Our Client Managers are industry experts who provide relationship management and advisory services through a variety of products and services such as Deposit and Treasury Management, Credit, Equity and Debt Capital, and Risk Management.
-<br><br>
-<a href="<%= standart_href%>" title="Return to standard page with video" class="p" onfocus="this.className='p-over';" onblur="this.className='p';">Return to standard page with video</a>
-<% End If %>
-</p>
-
-<img class="dotdiv" style="margin: 6px 0px 0px 0px;" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
-<p style="margin: 6px 0px 0px 0px;" class="faqpa">
-<b>How does GCIB align with the rest of the bank?</b>
-<% If page_section <> "ADA" Then %>
-<br><img class="plresp" src="../images/clear.gif" width="10" height="1"  alt="" border="0"><br><a href="Javascript: vo_id();" onclick="playResponce(this);" class="ip">Play response</a>&nbsp;<a href="Javascript: vo_id();" onclick="playResponce(this);"><img style="margin: 0px 0px 0px 0px;" src="../images/video_off_faq.gif" alt="" border="0" align="absmiddle" class="pai" name="pa2"></a><span class="auraltext"><br class="sheila_a2"></span>
-<% Else %>
-</p>
-<p style="margin: 6px 0px 0px 0px;"><a name="answ2"></a>
-Adding value to our clients is how Bank&nbsp;of&nbsp;America has earned leading positions across its three primary lines of business. We have relationships with nearly all of the largest U.S. companies and a vast number of top global companies. Bank&nbsp;of&nbsp;America's scale also enables us to deliver broad industry and product expertise. We understand and anticipate the needs of our clients based on their unique industry and operating environments. Our wide array of products means we can be innovative and thoughtful in devising the right solutions for our clients.
-<br><br>
-<a href="<%= standart_href%>" title="Return to standard page with video" class="p" onfocus="this.className='p-over';" onblur="this.className='p';">Return to standard page with video</a>
-<% End If %>
-</p>
-
-<img class="dotdiv" style="margin: 6px 0px 0px 0px;" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
-<p style="margin: 6px 0px 0px 0px;" class="faqpa">
-<b>Does GCIB have a global presence?</b>
-<% If page_section <> "ADA" Then %>
-<br><img class="plresp" src="../images/clear.gif" width="10" height="1"  alt="" border="0"><br><a href="Javascript: vo_id();" onclick="playResponce(this);" class="ip">Play response</a>&nbsp;<a href="Javascript: vo_id();" onclick="playResponce(this);"><img style="margin: 0px 0px 0px 0px;" src="../images/video_off_faq.gif" alt="" border="0" align="absmiddle" class="pai" name="pa3"></a><span class="auraltext"><br class="sheila_a3"></span>
-<% Else %>
-</p>
-<p style="margin: 6px 0px 0px 0px;"><a name="answ3"></a>
-Bank&nbsp;of&nbsp;America serves 160,000 clients through offices located in 23 countries, and help our clients do business in 175 markets worldwide. And we are continuing to invest and grow so that we can add value to clients in more ways-and in more places-than ever before.
-<br><br>
-<a href="<%= standart_href%>" title="Return to standard page with video" class="p" onfocus="this.className='p-over';" onblur="this.className='p';">Return to standard page with video</a>
-<% End If %>
-</p>
-
-<img class="dotdiv" style="margin: 6px 0px 0px 0px;" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
-
-</div>
-<br><br>
+<br>
 
 <H2 class="h2" style="margin: 12px <%=right_margin%>px 2px <%=left_margin_0%>px;">New Opportunities</H2>
 <table cellpadding="2" cellspacing="0" border="0" summary="" style="margin-left: <%=left_margin_0%>px;">

@@ -16,7 +16,7 @@
 <p style="margin: 0px 0px 12px 0;">
 Every day, Bank of America's Global Consumer &amp; Small Business Banking group is working to create new opportunities for millions of households and countless small businesses, in cities and towns all across America.
 <br><br>
-Our 5,700+ banking centers, 17,000+ ATMs and the nation's leading online banking and bill pay services keep consumers, entrepreneurs and businesses connected day and night to our network of opportunity and success.
+Our 6,100+ retail banking offices, nearly 18,500 ATMs and our award winning online banking  with 29 million active users, keep consumers, entrepreneurs and businesses connected day and night to our network of opportunity and success.
 <br><br>
 As the leading provider of checking, savings, credit and debit cards and home equity lending, Bank of America is making a difference and helping to shape the future of global banking.
 <br><br>
@@ -46,10 +46,7 @@ Careers within Global Consumer &amp; Small Business Banking group fall primarily
 	<img src="../images/clear.gif" width="100%" height="1" alt="" border="0" style="margin: 1px 0px 6px 0px; background: #e8e8e9;" align="top"><br clear="all">
 <!-- #include file="../jobsearch.asp" -->
 </div>
-
-<div style="text-align: center; margin: 0px; padding: 0px;">
-<!-- #include file="../talkingatm.html" -->
-</div>
+<br><br>
 				</td>
 			</tr>
 		</table>

@@ -23,7 +23,7 @@
 <p style="margin: 6 0 15 0;">The role of a communications expert is critical in proactively shaping a company&acute;s reputation through the eyes of its customers.</p>
 
 <H2 class="left2" style="margin: 0px; padding: 0px;"><a href="<% if page_section <> "ADA" then Response.write "../consumerbank/" Else Response.write "consumerbanking.asp" End If%>" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="Consumer Banking">Consumer Banking</a></H2>
-<p style="margin: 6 0 15 0;">To effectively serve a customer base of more than 54 million consumer and small business clients requires a company to maintain a network of dedicated individuals who listen to our customers, build strong relationships  and implement strategies to help our clients exceed their financial goals.</p>
+<p style="margin: 6 0 15 0;">To effectively serve a customer base of more than 53 million consumer and small business clients requires a company to maintain a network of dedicated individuals who listen to our customers, build strong relationships  and implement strategies to help our clients exceed their financial goals.</p>
 
 <H2 class="left2" style="margin: 0px; padding: 0px;"><a href="<% if page_section <> "ADA" then Response.write "../corporateworkplace/" Else Response.write "corporateworkplace.asp" End If%>" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="Corporate Workplace">Corporate Workplace</a></H2>
 <p style="margin: 6 0 15 0;">Corporate Workplace partners with each line of business to craft solutions for project and facilities management, associate awareness, energy management, and the acquisition and disposition of space.</p>
@@ -55,18 +55,7 @@
 	<img src="../images/clear.gif" width="100%" height="1" alt="" border="0" style="margin: 1px 0px 6px 0px; background: #e8e8e9;" align="top"><br clear="all">
 <!-- #include file="../jobsearch.asp" -->
 </div>
-
-<div style="border: 1px solid #e8e8e9; margin: 12px 0px 12px 0px; padding: 0px 0px 6px 0px;">
-	<H2 class="g" style="margin: 0px 0px 0px 0px;">Related Information</H2>
-	<img src="../images/clear.gif" width="100%" height="1" alt="" border="0" style="margin: 1px 0px 0px 0px; background: #e8e8e9;" align="top"><br clear="all">
-	<div  style="padding: 0px 5px 0px 4px;">
-<!-- #include file="../relinfonav.asp" -->
-	</div>					
-</div>
-
-<div style="text-align: center; margin: 0px; padding: 0px;">
-<!-- #include file="../talkingatm.html" -->
-</div>
+<br><br>
 				</td>
 			</tr>
 		</table>

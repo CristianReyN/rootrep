@@ -1,67 +1,19 @@
 		<table width="578" cellpadding="0" cellspacing="0" border="0" summary="">
 			<tr valign="top"><td valign="top" class="divt"><img src="../images/clear.gif" width="100%" height="4" alt="" border="0"></td></tr>
 			<tr valign="top">
-				<td valign="top" width="578" height="166">
+				<td valign="top" width="578" height="300">
 				<%if page_section <> "ADA" then %>
+<script language="JavaScript1.2" src="../includes/flash.js" type="text/javascript"></script>
 <script language="JavaScript1.2" type="text/javascript">
 //<!--
-function hover(ref, classRef) { eval(ref).className = classRef; }
-function showFlash(bc){
-	document.getElementById("flash_in2").innerHTML = bc;
-	document.getElementById('flash_in2').style.display = 'inline';
-	document.getElementById('image2').style.display = 'none';
-	createStopAudio(stopWABAudio);
-	hideVirtualHost(1);
-	fixIE(true);
-}
-
-function hideVirtualHost(k){if(document.getElementById("flash_in")){
-	if(!hiddenFlash) hiddenFlash = document.getElementById("flash_in").innerHTML;
-	document.getElementById("flash_in").innerHTML = '<table width="160" height="60" cellpadding="0" cellspacing="0" border="0" summary="" style="margin-top: 30px; background: #ebebeb; border-top: 1px solid #dadada; border-bottom: 1px solid #dadada;"><tr><td style="padding: 5px 11px 5px 12px;"><div style="border: 1px solid #dadada;"><img src="../images/virtual-host.jpg" width="52" height="52" alt="Replay Video Host" border="0" style="border: 1px solid #ebebeb;"><\/div><\/td><td width="100%"><p style="margin: 0px;"><a href="Javascript: replayVirtualHost();" title="Replay Video Host" class="p" onfocus="this.className=\'p-over\';" onblur="this.className=\'p\';">Replay<br>video host<\/a><\/p><p style="margin: 6px 0px 0px 0px;"><a href="<%=ada_href %>" title="Video transcripts" class="p" onfocus="this.className=\'p-over\';" onblur="this.className=\'p\';">Video<br>transcripts<\/a><\/p><\/td><\/tr><\/table>';
-	if(document.getElementById("videotranscript"))
-	{
-		document.getElementById("videotranscript").innerHTML = k==0?"<%=textonly_version%>":"Video transcripts";
-		document.getElementById("videotranscript").title = "<%=ada_title %>";
-		document.getElementById("videotranscript").href = "<%=ada_href %>";
-	}
-}}
-
-function replayVirtualHost(){if(document.getElementById("flash_in")&& hiddenFlash){
-	document.getElementById("flash_in").innerHTML = hiddenFlash;
-	if(document.getElementById("videotranscript"))
-	{
-		document.getElementById("videotranscript").innerHTML = "Video transcripts";
-		document.getElementById("videotranscript").title = "<%=ada_title %>";
-		document.getElementById("videotranscript").href = "<%=ada_href %>";
-	}
-	createStopAudio(stopVHAudio);
-	hideWeAreBankers();
-	fixIE(true);
-}}
-
-function hideWeAreBankers(){if(document.getElementById("flash_in2") && document.getElementById('image2')){
-	document.getElementById("flash_in2").innerHTML = "";
-	document.getElementById('flash_in2').style.display = "none";
-	document.getElementById('image2').style.display = "inline";
-}}
-
-function hideBothVideo(){
-	hideVirtualHost(0);
-	hideWeAreBankers();
-	removeStopAudio();
-}
-	window.hideFlash = hideBothVideo;
-
+hasRequestedVersion = DetectFlashVer(8, 0, 8);
 if ( hasRequestedVersion ) {
-	document.write('<div id="flash_in2" style="display: none; position: absolute; width: 578; height: 166; clip: rect(0 578 166 0);">');
-	document.write('<\/div>');
-	document.write('<div id="image2" style="display: inline;">');
-	document.write('<a class="auraltext" href="JavaScript: ow(\'bc_cc\');" onFocus="hover(this,\'show-tab\');" onblur="hover(this,\'auraltext\');" title="'+accessFlash+'">'+accessFlash+'<\/a>');
-	document.write('<img src="../images/whyworkhere_cc.jpg" width="578" height="166" border="0" usemap="#whywork" alt="Perform well. Get rewarded - that\'s why I work here." title="Perform well. Get rewarded - that\'s why I work here.">');
-document.write('<map name="whywork"><area alt="Question: Why choose Bank of America? Answer: Perform well, get rewarded. That&#39;s why I work here. My success is up to me." title="Question: Why choose Bank of America? Answer: Perform well, get rewarded. That&#39;s why I work here. My success is up to me." shape="poly" coords="0,0,0,166,545,166,545,147,551,141,572,141,578,147,578,0" href="Javascript: showFlash(bc_ns);"><area alt="View this video with closed captioning." title="View this video with closed captioning." shape="poly" coords="545,166,545,147,551,141,572,141,578,147,578,166" href="Javascript: showFlash(bc_cc);"><\/map>');
-	document.write('<\/div>');
+	shuffle_array(imgs);
+	rotate_img();
+	document.write('<table border="0" cellspacing="0" cellpadding="0" width="578" height="300"><tr><td valign="top" width="312"><div id="fdv" style="position: absolute; width: 578px; height: 300px; clip: rect(0 578 300 0);">'+flash+'<\/div></td>');
+	document.write('<td valign="top" width="266"><img id="idvi" src="" style="position: absolute; width: 266px; height: 425px; clip: rect(0 266 425 0); display: none;" /></td></tr></table>');
 } else {
-	document.write('<a href="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash" title="This video requires Adobe Flash Player version '+requiredMajorVersion+'. Please download latest version."><img src="../images/whyworkhere_cc.jpg" width="578" height="166" alt="This video requires Adobe Flash Player version '+requiredMajorVersion+'. Please download latest version." title="This video requires Adobe Flash Player version '+requiredMajorVersion+'. Please download latest version." border="0" style="margin: 0px;" /><\/a><br>'+reqFlashPlayer+'<br><br>'); 
+	document.write(getReqFlashPlayerImg ( "../images/whyworkhere_cc.jpg",8)); 
 }
 //-->
 </script>
@@ -196,108 +148,28 @@ Bank of Opportunity.
 		</table>
 		<a name="jobsearch"></a><a name="skipmaincontent"></a>
 		<table width="578" cellpadding="0" cellspacing="0" border="0" summary="">
-<!-- #include file="../jsearch.asp" -->
 			<tr valign="top">
-				<td width="386" height="100%" valign="top" style="padding: 0px 0px 0px 0px;">
-<H2 class="h1" style="margin: 0px 0px;"><%=JOB_SEARCH_TITLE%></H2>
-<img src="../images/clear.gif" width="100%" height="1" alt="" border="0" class="divb"><br clear="all">
-<form name="jsearch" action="<% Response.write job_search_action %>" style="margin: 0px;">
-<input type="hidden" name="from" id="from" value="<% Response.write page_self %>">
+				<td width="378" height="100%" valign="top" style="padding: 12px 0px 0px 0px;">
+<% jwidth = 378
+style = "margin: 0px"%>
+<!-- #include file="../jobsearch.asp" -->
 					<table width="378" style="margin: 6px 0px 0px 0px;" cellpadding="0" cellspacing="0" border="0" summary="">
 						<tr>
-							<td colspan="2" style="padding: 0px;">
-<p style="margin: 0px;">
-<% If taleo_upgrade Then%>
-Please note: Our Career Search Tool is currently under maintenance from Friday, 8/21 through Sunday 8/23.  As a result you will be:</p>
-<ul style="margin-top: 0px; margin-bottom: 0px;">
-<li>Unable to create and/or update your existing Careers profile</li>
-<li>Unable to apply for a position(s)</li>
-</ul>
-<p style="margin: 0px;">You may continue to search for jobs, as well as navigate to all other sections within the site during this timeframe.  
-<br>
-As of Monday, 8/24 you will be able to fully utilize all profile and application functionality within the site.</p>
-<p style="margin: 12px 0px 0px 0px;">
-<% End If%>
-Use the Search below to find a career suited to your skill set. You may narrow your selection further by selecting a job area, location or entering a keyword.</p>
-<img class="dotdiv" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
-							</td>
-						</tr>
-						<tr>
-							<td colspan="2" nowrap style="padding: 0px;">
-<label for="jobareas" class="p" style="margin: 0px;"><b>Job areas</b></label>
-							</td>
-						</tr>
-						<tr>
-							<td colspan="2" valign="top" width="100%">
-<% 
-	call getJobAreasSelect(""," style=""width: 100%;""")
-%>
-							</td>
-						</tr>
-						<tr>
-							<td colspan="2" nowrap style="padding: 0px;">
-<img class="dotdiv" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
-							</td>
-						</tr>
-						<tr>
-							<td colspan="2" nowrap style="padding: 0px;">
-<label for="stateid" class="p" style="margin: 0px;"><b>Locations</b></label>
-							</td>
-						</tr>
-						<tr>
-							<td colspan="2" valign="top" width="100%">
-<% 
-	call getStateSelect(""," style=""width: 100%;""")
-%>
-							</td>
-						</tr>
-						<tr>
-							<td colspan="2" nowrap style="padding: 0px;">
-<label for="keywords" class="p" style="margin: 0px 0px 6px 0px; line-height: 1.0em;"><b>Keywords or job number (if known)</b></label>
-							</td>
-						</tr>
-						<tr>
-							<td colspan="2" valign="top" width="100%">
-<div id="Layer1" style="position: relative; z-index: 12;">
-<input type="text" name="keywords" id="keywords" value="<%Response.write keywords%>" size="20" style="width: 100%;">
-</div>
-							</td>
-						</tr>
-						<tr>
-							<td colspan="2" valign="top" width="100%" style="padding: 6px 0px 0px 0px;">
-<div id="Layer2" style="position: relative; z-index: 12;">
-<script language="JavaScript" type="text/javascript">
-<!--
-create_safebutton("Begin Search","javascript: document.jsearch.submit();",0,0,0,0,"Begin Search");
-//-->
-</script>
-<noscript><input type="submit" name="bsearch" value="Begin Search" alt="Begin Search" title="Begin Search" class="btn"/></noscript>
-</div>
-							</td>
-						</tr>
-						<tr>
 							<td colspan="2" valign="top" width="100%" style="padding: 0px 0px 0px 0px;">
-<div id="Layer3" style="position: relative; z-index: 12;">
+<div id="L01" style="position: relative; z-index: 12;">
 <img class="dotdiv" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
 <p style="margin: 6px 0px 0px 0px;">
-Bank of America and Merrill Lynch have officially joined forces, creating a leading global banking and wealth management franchise, and a premier corporate and investment banking and capital markets business. To search for Merrill Lynch career opportunities, please visit <a href="http://careers.ml.com/" class="p" title="Merrill Lynch Careers. Link opens a new window." target="_blank">http://careers.ml.com/</a>.</p>
+Throughout Bank&nbsp;of&nbsp;America&#39;s history, we have held one purpose - to help everyone we work with realize their dreams. In fulfilling this purpose, a constant theme in our work has been &ldquo;opportunity.&rdquo;
+</p>
 <p style="margin: 6px 0px 0px 0px;">
-Bank of America associates should access the <a href="http://www.bankofamerica.com/careers/index.cfm?template=jobs_interstitial" class="p" title="Internal Jobs Database">internal jobs database</a>.</p>
-<p style="margin: 6px 0px 6px 0px;">
-Please use the <a href="http://globalcareers.bankofamerica.com/" class="p" title="Global Careers Job Search">Global Careers Job Search</a> to find opportunities outside of the USA.</p>
-<p class="ada-label">Manage Your Profile. You are encouraged to complete the online candidate profile, however if you have difficulty, you should:</p>
-<ul class="ada-label">
-	<li>Email your resume to <a href="mailto:"bac@resume.bankofamerica.com>bac@resume.bankofamerica.com</a></li>
-	<li>In the Subject Line of your email, include "Source = Bank of America Careers"</li>
-</ul>
-<a href="manage_your_profile.asp" target="<%=OVERVIEW_TARGET%>" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" style="margin: 3px 0px 0px 0px;" title="Manage Your Profile<% If OVERVIEW_TARGET = "_blank" Then %>. Link opens a new window.<% End If%>">Manage Your Profile<span class="ada-label">If you have any difficulties, refer to above alternatives.</span></a>
-<p style="margin: 3px 0px 0px 0px;">Create or update your existing candidate profile.</p>
+We create opportunities for customers to buy a home, to attend college, or to retire with security. We create opportunities for businesses to grow. We create opportunities for all of us to build stronger communities in which to live and work. And, we also create opportunities for our associates to fulfill their personal and professional potential.
+</p>
 </div>
 							</td>
 						</tr>
 						<tr>
 							<td colspan="2" valign="top" style="padding: 3px 0px 0px 0px;">
-<div id="Layer4" style="position: relative; z-index: 12;">
+<div id="L02" style="position: relative; z-index: 12;">
 <img class="dotdiv" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
 <br>
 <a href="eeoc.asp" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="Equal Employment Opportunity and Affirmative Action Statement">Equal Employment Opportunity and Affirmative Action Statement</a>
@@ -309,40 +181,40 @@ Please use the <a href="http://globalcareers.bankofamerica.com/" class="p" title
 <img class="dotdiv" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
 <br>
 <p style="margin: 0px 0px 0px 0px;">
-In an effort to continue our commitment to help &ldquo;Put America Back to Work&rdquo;, Bank&nbsp;of&nbsp;America has become a member of Alliance Q, a collaboration of companies working together to showcase career opportunities in your community. Alliance Q is a free and confidential program aimed at helping &ldquo;Put America Back to Work.&rdquo;</p>
+In an effort to continue our commitment to help &ldquo;Put America Back to Work&rdquo;, Bank&nbsp;of&nbsp;America has become a member of Alliance Q, a collaboration of companies working together to showcase career opportunities in your community. Alliance Q is a free and confidential program aimed at helping &ldquo;Put America Back to Work.&rdquo;
+</p>
 <p style="margin: 6px 0px 0px 0px;">
 If you are interested in joining, simply visit <a href="http://www.AllianceQ.com/BankofAmerica" class="p" title="www.AllianceQ.com/BankofAmerica. Link opens a new window." target="_blank">www.AllianceQ.com/BankofAmerica</a> to create your profile and be considered for thousands of other opportunities with first class employers, including Bank&nbsp;of&nbsp;America.</p>
-
 </div>
 							</td>
 						</tr>
 					</table>
-</form>
 <br><br>
 				</td>
-				<td width="192" height="100%" valign="top" style="padding: 0px 0px 0px 0px;">
-<H2 class="h1" style="margin: 0px 0px 0px 4px;">Related Information</H2>
-<img src="../images/clear.gif" width="100%" height="1" alt="" border="0" class="divb"><br clear="all">
-					<table width="192" height="100%" cellpadding="0" cellspacing="0" border="0" summary="" style="margin: 0px 0px 0px 0px;">
-						<tr valign="top">
-							<td width="192" height="100%" valign="top" class="divl" style="padding: 6px 0px 0px 4px;">
-<p style="margin: 0px;">Here you'll find valuable information to help you in your decision making process.</p>
-<!-- #include file="../relinfonav.asp" -->
-<br><br>
-
+				<td width="192" height="100%" valign="top" style="padding: 12px 0px 0px 4px;" id="foot">
 <div style="text-align: center; margin: 0px; padding: 0px;">
-<!-- #include file="../talkingatm.html" -->
+<map name="opp_starts">
+<area title="Opportunity starts here. Which line of business is right for you? Find out now &gt;&gt;&gt;" alt="Opportunity starts here. Which line of business is right for you? Find out now &gt;&gt;&gt;" coords="0,0,187,105" href="../<% If page_section <> "ADA" Then %>learnmore<% Else %>ada<% End If %>/lob.asp">
+</map>
+<img src="../images/clear.gif" width="100%" height="1" vspace="1" alt="" border="0" style="background: #989898;"><br clear="all">
+<img src="../images/clear.gif" width="100%" height="1" vspace="0" alt="" border="0" style="background: #c9c9c9; margin: 0px 0px 6px 0px;"><br clear="all">
+<img src="../images/opp_starts_home.jpg" width="187" height="105" border="0" style="margin: 6px 0px 0px 0px;" usemap="#opp_starts" alt="Opportunity starts here. Which line of business is right for you? Find out now &gt;&gt;&gt;"><br clear="all">
+<div class="hidden">Opportunity starts here. Which line of business is right for you?. Find out now &gt;&gt;&gt;</div>
+<img src="../images/clear.gif" width="100%" height="1" vspace="0" alt="" border="0" style="background: #c9c9c9; margin: 12px 0px 0px 0px;"><br clear="all">
+<img src="../images/clear.gif" width="100%" height="1" vspace="1" alt="" border="0" style="background: #989898;"><br clear="all">
 </div>
 
-<img class="dotdiv" style="margin: 15px 0px 6px 0px;" src="../images/clear.gif" width="185" height="1" alt="" border="0">
-<img src="../images/125484_ast_aiu-o.gif" width="187" height="105" border="0" style="margin: 0px;" usemap="#additup" alt="Earn cash back when you shop online. Add It Up TM. Earn more &gt;. Bank of America. Bank of Opportunity." title="Earn cash back when you shop online. Add It Up TM. Learn more &gt;. Bank of America. Bank of Opportunity."><map name="additup"><area title="Earn cash back when you shop online. Add It Up TM. Earn more &gt;. Bank of America. Bank of Opportunity. Link opens a new window." alt="Earn cash back when you shop online. Add It Up TM. Earn more &gt;. Bank of America. Bank of Opportunity. Link opens a new window." coords="23,71,93,90" href="additup.asp" target="_blank"></map>
-<br clear="all">
-<img class="dotdiv" style="margin: 6px 0px 6px 0px;" src="../images/clear.gif" width="185" height="1" alt="" border="0">
-	<a href="http://www.bankofamerica.com/merrill" title="Bank of America and Merrill Lynch are joining forces. Learn more &raquo;, link opens in a new window. " target="_blank" class="left2" style="text-decoration: none;"><div><span style="font : bold 1.2em Times New Roman, Times, serif; color: #333333;">Bank of America and Merrill Lynch are joining forces.</span><br>Learn more &raquo;</div></a>
-<img class="dotdiv" style="margin: 6px 0px 0px 0px;" src="../images/clear.gif" width="185" height="1" alt="" border="0"><br clear="all"><br>
-							</td>
-						</tr>
-					</table>
+
+<div style="text-align: center; margin: 0px; padding: 0px;">
+<map name="fin_adv">
+<area title="Welcome Financial Advisor candidates. Find out more &gt;&gt;&gt;" alt="Welcome Financial Advisor candidates. Find out more &gt;&gt;&gt;" coords="0,0,187,105" href="../<% If page_section <> "ADA" Then %>/financialadvisor/<% Else %>ada/lobfa.asp<% End If %>">
+</map>
+<img src="../images/clear.gif" width="100%" height="1" vspace="0" alt="" border="0" style="background: #c9c9c9; margin: 0px 0px 6px 0px;"><br clear="all">
+<img src="../images/finacial_advisor.jpg" width="187" height="105" border="0" style="margin: 6px 0px 0px 0px;" usemap="#fin_adv" alt="Welcome Financial Advisor candidates. Find out more &gt;&gt;&gt;"><br clear="all">
+<div class="hidden">Welcome Financial Advisor candidates. Find out more &gt;&gt;&gt;</div>
+<img src="../images/clear.gif" width="100%" height="1" vspace="0" alt="" border="0" style="background: #c9c9c9; margin: 12px 0px 0px 0px;"><br clear="all">
+<img src="../images/clear.gif" width="100%" height="1" vspace="1" alt="" border="0" style="background: #989898;"><br clear="all">
+</div>
 				</td>
 			</tr>
 		</table>

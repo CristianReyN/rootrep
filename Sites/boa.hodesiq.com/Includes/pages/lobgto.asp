@@ -23,28 +23,21 @@
 <a href="#video" class="hlink">Shawn Saulsberry&acute;s Associate Testimonial Video</a>
 <% End If  %>
 <% If spage = "technology" Then %>
-<div style="width: 201px; text-align: left; border: 1px solid #e8e8e9; background: #ffffff; margin: 12px 0px 12px 0px; padding: 0px 0px 6px 0px;">
-<H2 class="g" style="margin: 0px 0px 0px 0px;">Career Opportunities</H2>
-	<img src="../images/clear.gif" width="100%" height="1" alt="" border="0" style="margin: 0px 0px 0px 0px; background: #ffffff;" align="top"><br clear="all">
-	<img src="../images/clear.gif" width="100%" height="1" alt="" border="0" style="margin: 0px 0px 0px 0px; background: #e8e8e9;" align="top"><br clear="all">
-<p style="margin: 6px 6px 0px 6px;"><a class="left" onfocus="this.className='left-over';" onblur="this.className='left';" href="../jobsearch.aspx?jobareas=9|-1&stateid=-1&cityid=-1&keywords=&SearchPage=Sp">View current jobs in Technology</a></p>
-</div>
+
 <% ElseIf spage = "lobgto" Then %>
-<div style="width: 201px; text-align: left; border: 1px solid #e8e8e9; background: #ffffff; margin: 12px 0px 12px 0px; padding: 0px 0px 6px 0px;">
-	<H2 class="g" style="margin: 0px 0px 0px 0px;"><%=JOB_SEARCH_TITLE%></H2>
-	<img src="../images/clear.gif" width="100%" height="1" alt="" border="0" style="margin: 1px 0px 6px 0px; background: #e8e8e9;" align="top"><br clear="all"><% jwidth = 192 %>
-<!-- #include file="../jobsearch.asp" -->
-</div>
+
 <% End If  %>
-<div style="width: 201px; text-align: center; margin: 0px; padding: 0px;">
-<!-- #include file="../talkingatm.html" -->
+<div style="width: 201px; text-align: left; border: 1px solid #e8e8e9; background: #ffffff; margin: 12px 0px 0px 0px; padding: 0px 0px 6px 0px;">
+	<H2 class="g" style="margin: 0px 0px 0px 0px;"><%=JOB_SEARCH_TITLE%></H2>
+	<img src="../images/clear.gif" width="100%" height="1" alt="" border="0" style="margin: 1px 0px 6px 0px; background: #e8e8e9;" align="top"><br clear="all">
+<!-- #include file="../jobsearch.asp" -->
 </div>
 <br><br>
 					</div>
 <p style="margin: <% If page_section = "ADA" Then %>12<% Else %>0<%End If%>px <%=right_margin_split%>px 0px <%=left_margin_0%>px;">
 At Bank&nbsp;of&nbsp;America, we believe that the right people form the critical cornerstone of our foundation for growth. With thousands of technologists working from across the corners of the globe, we are focused on providing innovative and creative technology solutions, leading to literally billions of opportunities to "touch" our customers every month. Building a world-class, global workforce is critical to our priorities and we have many exciting opportunities to take your career higher   part of our commitment to being the employer of choice. 
 <br><br>
-Bank&nbsp;of&nbsp;America Technology associates build and maintain a world-class data network linking more than 6,100 retail banking offices, 18,500 ATMs and the nation's leading online banking and bill pay service. The team also runs multiple data centers while providing support for tens of thousands of desktops throughout the corporation.
+Bank&nbsp;of&nbsp;America Technology associates build and maintain a world-class data network linking more than 6,100+ retail banking offices, nearly 18,500 ATMs and the nation's leading online banking and bill pay service. The team also runs multiple data centers while providing support for tens of thousands of desktops throughout the corporation.
 <br><br>
 The technological superiority of our systems is as important as the quality of the services and products we offer. A highly experienced team, leading-edge initiatives, visible products and our commitment to training add up to an environment of unparalleled opportunity for dedicated technical professionals.
 </p>

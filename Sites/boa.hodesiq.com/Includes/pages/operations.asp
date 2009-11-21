@@ -22,20 +22,12 @@
 <!-- #include file="associate/benitez.asp" -->
 <a href="#video" class="hlink">Deborah BenitezLedtje&acute;s Associate Testimonial Video</a>
 <% End If  %>
-<div style="width: 201px; text-align: left; border: 1px solid #e8e8e9; background: #ffffff; margin: 12px 0px 12px 0px; padding: 0px 0px 6px 0px;">
-<H2 class="g" style="margin: 0px 0px 0px 0px;">Career Opportunities</H2>
-	<img src="../images/clear.gif" width="100%" height="1" alt="" border="0" style="margin: 0px 0px 0px 0px; background: #ffffff;" align="top"><br clear="all">
-	<img src="../images/clear.gif" width="100%" height="1" alt="" border="0" style="margin: 0px 0px 0px 0px; background: #e8e8e9;" align="top"><br clear="all">
-<p style="margin: 6px 6px 0px 6px;"><a class="left" onfocus="this.className='left-over';" onblur="this.className='left';" href="../jobsearch.aspx?jobareas=6|17&stateid=-1&cityid=-1&keywords=&SearchPage=Sp">View current jobs in Operations</a></p>
-<p style="margin: 6px 6px 0px 6px;"><a class="left" onfocus="this.className='left-over';" onblur="this.className='left';" href="../jobsearch.aspx?jobareas=6|4&stateid=-1&cityid=-1&keywords=&SearchPage=Sp">View current jobs in Change Mgmt &amp; Process</a></p>
-<p style="margin: 6px 6px 0px 6px;"><a class="left" onfocus="this.className='left-over';" onblur="this.className='left';" href="../jobsearch.aspx?jobareas=6|5&stateid=-1&cityid=-1&keywords=&SearchPage=Sp">View current jobs in Legal</a></p>
-<p style="margin: 6px 6px 0px 6px;"><a class="left" onfocus="this.className='left-over';" onblur="this.className='left';" href="../jobsearch.aspx?jobareas=6|6&stateid=-1&cityid=-1&keywords=&SearchPage=Sp">View current jobs in Services</a></p>
+<div style="width: 201px; border: 1px solid #e8e8e9; margin: 12px 0px 0px 0px; padding: 0px 0px 6px 0px;">
+	<H2 class="g" style="margin: 0px 0px 0px 0px; text-align: left;"><%=JOB_SEARCH_TITLE%></H2>
+	<img src="../../images/clear.gif" width="100%" height="1" alt="" border="0" style="margin: 1px 0px 6px 0px; background: #e8e8e9;" align="top"><br clear="all">
+<!-- #include file="../jobsearch.asp" -->
 </div>
-
-<div style="width: 201px; text-align: center; margin: 0px; padding: 0px;">
-<!-- #include file="../talkingatm.html" -->
-</div>
-<div style="width: 201px; text-align: center; margin: 0px; padding: 0px;">
+<div style="width: 201px; text-align: center; margin: 12px 0px 0px 0px; padding: 0px;">
 <%
 	link = "../cashservices_video/"
 	target = ""
@@ -44,7 +36,8 @@
 <map name="cashservices">
 <area title="<%=adAlt%>" alt="<%=adAlt%>" coords="0,0,187,105" href="<%=link%>"<%=target%>>
 </map>
-<img src="../images/clear.gif" width="100%" height="1" vspace="0" alt="" border="0" style="margin: 0px 0px 6px 0px;"><br clear="all">
+<img src="../images/clear.gif" width="100%" height="1" vspace="1" alt="" border="0" style="background: #989898;"><br clear="all">
+<img src="../images/clear.gif" width="100%" height="1" vspace="0" alt="" border="0" style="background: #c9c9c9; margin: 0px 0px 6px 0px;"><br clear="all">
 <img src="../images/cash_services.jpg" width="187" height="105" border="0" style="margin: 6px 0px 0px 0px;" usemap="#cashservices" alt="<%=adAlt%>"><br clear="all">
 <img src="../images/clear.gif" width="100%" height="1" vspace="0" alt="" border="0" style="background: #c9c9c9; margin: 15px 0px 0px 0px;"><br clear="all">
 <img src="../images/clear.gif" width="100%" height="1" vspace="1" alt="" border="0" style="background: #989898;"><br clear="all">

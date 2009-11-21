@@ -13,25 +13,21 @@
 		<table width="578" cellpadding="0" cellspacing="0" border="0" summary="">
 			<tr valign="top">
 				<td width="373" height="100%" valign="top" style="<%=middle_content_padding%>">
-<p style="margin: 0px 0px 12px 0px;">There's opportunity everywhere you look at Bank of America. No matter what your specialty is, you'll find unbounded possibilities to expand your skills and grow your career.
+<p style="margin: 0px 0px 12px 0px;">There&#39;s opportunity everywhere you look at Bank&nbsp;of&nbsp;America. No matter what your specialty is, you&#39;ll find unbounded possibilities to expand your skills and grow your career.
 <br><br>
 Opportunity awaits. Learn more about:
 </p>
 <%	href_pre = ""
 	if page_section <> "ADA" then href_pre = "../learnmore/" %>
-<a href="<%	if page_section <> "ADA" then%>../learnmore/lobgcsbb.asp<% Else %>lobgcsbb.asp<%End If %>" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="Global Consumer &amp; Small Business Banking">Global Consumer &amp; Small Business Banking</a>
+<a href="<%	if page_section <> "ADA" then%>../learnmore/lobgcsbb.asp<% Else %>lobgcsbb.asp<%End If %>" class="left2" title="Global Consumer &amp; Small Business Banking">Global Consumer &amp; Small Business Banking</a>
 <br><br>
-<a href="<%	if page_section <> "ADA" then%>../gcib/<% Else %>lobgcib.asp<%End If %>" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="Global Corporate &amp; Investment Banking">Global Corporate &amp; Investment Banking</a>
+<a href="<%	if page_section <> "ADA" then%>../gbmarketswealthmanagement/<% Else %>lobgbmwm.asp<%End If %>" class="left2" title="Global Banking, Markets &amp; Wealth Management">Global Banking, Markets &amp; Wealth Management</a>
 <br><br>
-<a href="<%	if page_section <> "ADA" then%>../wealthmanagement/<% Else %>lobgwim.asp<%End If %>" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="Global Wealth &amp; Investment Management">Global Wealth &amp; Investment Management</a>
+<a href="<%	if page_section <> "ADA" then%>../technology/<% Else %>lobgto.asp<%End If %>" class="left2" title="Global Technology">Global Technology</a>
 <br><br>
-<a href="<%	if page_section <> "ADA" then%>../technology/<% Else %>lobgto.asp<%End If %>" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="Global Technology">Global Technology</a>
+<a href="<% Response.write href_pre %>lobcss.asp" class="left2" title="Corporate Staff &amp; Support">Corporate Staff &amp; Support</a>
 <br><br>
-<a href="<% Response.write href_pre %>lobcss.asp" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="Corporate Staff &amp; Support">Corporate Staff &amp; Support</a>
-<br><br>
-<a href="<%	if page_section <> "ADA" then%>../mortgage/<% Else %>lob_mortgage.asp<% End If %>" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="Mortgage">Mortgage</a>
-<br><br>
-<a href="<% Response.write href_pre %>lb_career_compass.asp" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="Skills Assessment">Skills Assessment</a>
+<a href="<%	if page_section <> "ADA" then%>../mortgage/<% Else %>lob_mortgage.asp<% End If %>" class="left2" title="Mortgage">Mortgage</a>
 <br><br>
 				</td>
 				<td width="205" height="100%" valign="top">
@@ -40,18 +36,7 @@ Opportunity awaits. Learn more about:
 	<img src="../images/clear.gif" width="100%" height="1" alt="" border="0" style="margin: 1px 0px 6px 0px; background: #e8e8e9;" align="top"><br clear="all">
 <!-- #include file="../jobsearch.asp" -->
 </div>
-
-<div style="border: 1px solid #e8e8e9; margin: 12px 0px 12px 0px; padding: 0px 0px 6px 0px;">
-	<H2 class="g" style="margin: 0px 0px 0px 0px;">Related Information</H2>
-	<img src="../images/clear.gif" width="100%" height="1" alt="" border="0" style="margin: 1px 0px 0px 0px; background: #e8e8e9;" align="top"><br clear="all">
-	<div  style="padding: 0px 5px 0px 4px;">
-<!-- #include file="../relinfonav.asp" -->
-	</div>
-</div>
-
-<div style="text-align: center; margin: 0px; padding: 0px;">
-<!-- #include file="../talkingatm.html" -->
-</div>
+<br><br>
 				</td>
 			</tr>
 		</table>
