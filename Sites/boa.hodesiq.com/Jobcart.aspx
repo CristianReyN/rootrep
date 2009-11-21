@@ -46,13 +46,14 @@
                                     </asp:BoundField>
                                     
                                     <asp:HyperLinkField DataNavigateUrlFields="APPLY_ONLINE_URL" 
-                                        HeaderText="Apply" Text="Apply now <noscript><span class='auraltext'>Apply now.</span></noscript>"  AccessibleHeaderText="Apply now " Target="_blank" >
+                                        HeaderText="Apply" Text="Apply now <noscript>Apply now.</noscript><span class='auraltext'>Apply now.</span>"  AccessibleHeaderText="Apply now " Target="_blank" >
                                         <HeaderStyle HorizontalAlign="Left" />
                                     </asp:HyperLinkField>
                                     
                                     <asp:TemplateField HeaderText="Remove" ItemStyle-HorizontalAlign="Center" >
                                         <ItemTemplate>
-                                            <asp:CheckBox ID="ChkRemove" runat="server" />
+                                            <asp:Label ID="lblCheckBox" Text="" AssociatedControlID="ChkRemove" runat="server" ></asp:Label> 
+                                            <asp:CheckBox ID="ChkRemove"  runat="server" />
                                         </ItemTemplate>
                                     </asp:TemplateField>
                                     <asp:TemplateField>

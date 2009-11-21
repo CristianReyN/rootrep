@@ -101,6 +101,7 @@ public partial class Jobcart : System.Web.UI.Page
         HiddenField MyHidden = null;
         DataRowView DrvRow = null;
         CheckBox MyCheckBox = null;
+        Label MyLabel = null;
 
         // For each DataRow in the GridView, 
         if (e.Row.RowType == DataControlRowType.DataRow)
@@ -109,6 +110,11 @@ public partial class Jobcart : System.Web.UI.Page
 
             MyHidden = (HiddenField)e.Row.FindControl("JobsID");
             MyHidden.Value = DrvRow["JobsID"].ToString();
+
+            MyLabel = (Label)e.Row.FindControl("lblCheckBox");
+            MyLabel.ID = "lblCheckBox" + e.Row.RowIndex;
+            MyLabel.Text = "<script>" + DrvRow["JobTitle"].ToString() + ".</script>" + "<span class='auraltext'>" + DrvRow["JobTitle"].ToString() + ".</span>";
+            MyLabel.AssociatedControlID = "ChkRemove" + e.Row.RowIndex;
 
             MyCheckBox = (CheckBox)e.Row.FindControl("ChkRemove");
             MyCheckBox.ID = "ChkRemove" + e.Row.RowIndex;

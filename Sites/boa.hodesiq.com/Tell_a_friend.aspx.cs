@@ -1,5 +1,6 @@
 using System;
 using System.Data;
+using System.Data.OleDb;
 using System.Configuration;
 using System.Collections;
 using System.Web;
@@ -44,7 +45,7 @@ public partial class Tell_a_friend : System.Web.UI.Page
 		client.DeliveryMethod=SmtpDeliveryMethod.PickupDirectoryFromIis;
         try
         {
-            client.Send(message);
+            client.Send(message);   
         }
         catch (Exception ex)
         {
@@ -52,10 +53,19 @@ public partial class Tell_a_friend : System.Web.UI.Page
             Response.Write(ex.ToString());
         }
 
-		Response.Redirect("Jobdetails.aspx?" + Request.QueryString);
+        //insert record into tracking table
+        TrackTellAFriend();
+
+        Response.Redirect("Jobdetails.aspx?" + Request.QueryString);
 		//Response.Redirect("Jobdetails.aspx?JobId=" + JobId + "&SearchPage=" + Request.QueryString["SearchPage"].ToString());
+    }
 
 
-
+    protected void TrackTellAFriend()
+    {
+        Jobs Jobs = new Jobs();
+        OleDbDataReader dr;
+        dr = Jobs.TrackTellAFriendDR(Request.QueryString["JobId"].ToString(), fromaddress.ToString(), FriendEmail.Text.ToString());
+        dr.Close();
     }
 }

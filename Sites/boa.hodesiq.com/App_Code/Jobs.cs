@@ -524,4 +524,27 @@ public class Jobs
 		con.Close();
 		return MyListDictionary;
 	}
+
+    public OleDbDataReader TrackTellAFriendDR(string JobID, string FromAddress, string ToAddress)
+    {
+        OleDbConnection con = new OleDbConnection(constring);
+        OleDbDataReader rdr;
+        con.Open();
+        try
+        {
+            OleDbCommand cmd = new OleDbCommand("p_track_tell_a_friend ", con);
+            cmd.CommandType = CommandType.StoredProcedure;
+            cmd.Parameters.AddWithValue("@JobID", JobID);
+            cmd.Parameters.AddWithValue("@FromAddress", FromAddress);
+            cmd.Parameters.AddWithValue("@ToAddress", ToAddress);
+            cmd.Connection = con;
+            rdr = cmd.ExecuteReader();
+            return rdr;
+        }
+        catch (Exception ex)
+        {
+            throw ex;
+        }
+    }
+
 }

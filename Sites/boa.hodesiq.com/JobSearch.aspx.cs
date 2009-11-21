@@ -32,23 +32,24 @@ public partial class JobSearch : System.Web.UI.Page
         this.ddlState.Attributes.Add("onblur", "javascript:setTimeout('__doPostBack(\\'" + this.ddlState.ClientID.Replace("_", "$") + "\\',\\'\\')', 0)"); 
 
 		ViewState["statequery"] = string.Empty;
-		if (!this.IsPostBack)
-		{
-			PopulateLocations();
-			PopulateCity();
-			if (string.IsNullOrEmpty(Request["stateid"]))
-			{
-				ddlJobAreas.SelectedIndex = 0;
-				ddlState.SelectedIndex = 0;
-			}
-			else
-			{
-				BindSearchString();
-				ViewState["PageNumber"] = 1;
-				FunSearch();
-			}
-		}
-		PopulateJobAreas();
+        if (!this.IsPostBack)
+        {
+            PopulateLocations();
+            PopulateCity();
+            if (string.IsNullOrEmpty(Request["stateid"]))
+            {
+                ddlJobAreas.SelectedIndex = 0;
+                ddlState.SelectedIndex = 0;
+            }
+            else
+            {
+                BindSearchString();
+                ViewState["PageNumber"] = 1;
+                FunSearch();
+            }
+        }
+
+        PopulateJobAreas();
 
 		//write the boa buttons
 		boanet_safebutton.writeBOASafeButton("Search", phSearch, "Search", bsearch_Click, this.Request);
@@ -61,6 +62,11 @@ public partial class JobSearch : System.Web.UI.Page
 
 		lnkJobCart.Attributes.Add("onblur", "this.className='p';");
 		lnkJobCart.Attributes.Add("onfocus", "this.className='p-over';");
+
+        if (this.IsPostBack)
+        {
+            this.ddlCity.Focus();
+        }
 	}
 
 	protected void Page_PreRender()
