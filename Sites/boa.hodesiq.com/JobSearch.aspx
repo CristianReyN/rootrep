@@ -5,20 +5,17 @@
                                 
                                 <table summary="Job Search and Job List Page" border="0" cellpadding="0" cellspacing="0" width="578">
                                     <tr valign="top">
-                                        <td style="padding: 6px 12px 0px 12px; height: 100%" valign="top">
+                                        <td style="height: 100%; " valign="top">
                                            <table border="0" cellpadding="0" cellspacing="0" summary="" width="100%">
                                                 <tr>
-                                                    <td valign="top" colspan="3">
-                                                        <h1 style="margin: 0px 0px 0px 0px; ">
-                                                            Basic Search</h1>
-                                                    </td>
+                                                    <td valign="top" colspan="3"><h1 style="vertical-align:text-top;">Basic Search</h1></td>
                                                 </tr>
                                                 <tr>
 													<td valign="top" colspan="2" style="width:100%">
-														<asp:Label ID="lblJobAreas" runat="server" Text="Job Areas" Visible="true" AssociatedControlID="ddlJobAreas"></asp:Label><br />
+														<asp:Label ID="lblJobAreas" runat="server" Text="Job areas" Visible="true" AssociatedControlID="ddlJobAreas"></asp:Label><br />
 														<span id="d1" style="display: inline;">
 															<asp:DropDownList ID="ddlJobAreas" runat="server" CssClass="left" Style="width: 50%; z-index: auto;"
-															ToolTip="Select a Job Area" Visible="true">
+															ToolTip="Select a job area" Visible="true">
 															</asp:DropDownList>
 														</span>
 													</td>
@@ -29,7 +26,7 @@
 														<asp:Label ID="lblState" runat="server" Text="Location" AssociatedControlID="ddlState"></asp:Label><br />
 														<div id="d2" style="display: inline;">
 														<asp:DropDownList ID="ddlState" runat="server" CssClass="left" Style="width: 50%; z-index: auto;"
-															ToolTip="Select a State" AutoPostBack="true" OnSelectedIndexChanged="brefine_Click">
+															ToolTip="Select a state" AutoPostBack="true" OnSelectedIndexChanged="brefine_Click">
 															<asp:ListItem>All Locations&#160;</asp:ListItem>
 														</asp:DropDownList>
 														</div>
@@ -56,7 +53,7 @@
                                                 <tr><td colspan="3">&nbsp;</td></tr>
                                                 <tr>
 													<td valign="top" colspan="3" >
-														<asp:Label ID="lblKeywords" runat="server" Text="Keywords or Job Number (if known)" AssociatedControlID="keywords"></asp:Label><br />
+														<asp:Label ID="lblKeywords" runat="server" Text="Keywords or job number (if known)" AssociatedControlID="keywords"></asp:Label><br />
 														<asp:TextBox ID="keywords" runat="server" CssClass="left" Style="width: 50%; size: 20"
 															ToolTip="Keywords">
 														</asp:TextBox>
@@ -64,9 +61,14 @@
                                                 </tr>
                                                 <tr><td colspan="3">&nbsp;</td></tr>
                                                 <tr>
-													
-													<td colspan="3">												
+													<td align="left" valign="top">
 														<asp:PlaceHolder runat="server" ID="phSearch"></asp:PlaceHolder>
+													</td>
+													<td align="left" valign="top">
+														<asp:HyperLink runat="server" ID="lnkAdvanceSearch" NavigateUrl="~/AdvanceSearch.aspx" Text="Advanced search" />&nbsp;&nbsp;&nbsp;&nbsp;<asp:HyperLink runat="server" ID="lnkJobCart" NavigateUrl="~/jobcart.aspx" Text="View job cart" />
+													</td>
+													<td align="left" valign="top">
+														
 													</td>
                                                 </tr>
                                                 <tr><td colspan="3">&nbsp;</td></tr>
@@ -76,8 +78,6 @@
                                                     <td style="padding: 0px 12px 0px 12px;" align="left">
                                                         <b><asp:Label ID="lblJobofJobs" runat="server" Text=""></asp:Label></b>&nbsp;</td>
                                                     <td align="left" valign="top">
-														<asp:HyperLink runat="server" ID="lnkJobCart" NavigateUrl="~/jobcart.aspx" Text="View Job Cart" />&nbsp;&nbsp;&nbsp;&nbsp;
-														<asp:HyperLink runat="server" ID="lnkAdvanceSearch" NavigateUrl="~/AdvanceSearch.aspx" Text="Advanced Search" />
                                                     </td>
                                                 </tr>
                                             </table>

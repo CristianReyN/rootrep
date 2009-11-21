@@ -153,7 +153,7 @@ public partial class JobSearch : System.Web.UI.Page
 		{
 			aja = ddlJobAreas.SelectedValue.Split("|".ToCharArray());
 		}
-		else if (!string.IsNullOrEmpty(Request.QueryString["jobareas"]) & Request.QueryString["jobareas"].ToLowerInvariant() != "select a job area")
+		else if (!string.IsNullOrEmpty(Request.QueryString["jobareas"]) && Request.QueryString["jobareas"].ToLowerInvariant() != "select a job area")
 		{
 			aja = Request.QueryString["jobareas"].Split("|".ToCharArray());
 		}
@@ -196,7 +196,7 @@ public partial class JobSearch : System.Web.UI.Page
 		dr = Lo.StateDR();
 		ddlState.DataSource = dr; 
 		ddlState.DataBind();
-		ddlState.Items.Insert(0, new ListItem("All States", "-1"));
+		ddlState.Items.Insert(0, new ListItem("All states", "-1"));
 		dr.Close();
 	}
 	protected void PopulateCity()
@@ -222,7 +222,7 @@ public partial class JobSearch : System.Web.UI.Page
 		OleDbDataReader dr;
 		AreaofTalent ja = new AreaofTalent();
 		dr = ja.JobAreasList();
-		ListItem l = new ListItem("Select a Job Area", string.Empty);
+		ListItem l = new ListItem("Select a job area", string.Empty);
 		this.ddlJobAreas.Items.Add(l);
 		while (dr.Read())
 		{
