@@ -2,8 +2,8 @@
 			<tr valign="top"><td colspan="2" valign="top" class="divt"><img src="../images/clear.gif" width="100%" height="4" alt="" border="0"></td></tr>
 			<tr valign="top">
 				<td width="100%" colspan="2" valign="top">
-<img src="../images/benefits.jpg" width="578" height="166" alt="Bank of America offers benefits and programs." title="Bank of America offers benefits and programs." border="0">
-<div class="hidden">Bank of America offers me benefits and programs that help me both at work and at home.</div>
+<img src="../images/benefits.jpg" width="578" height="166" alt="Explore a career with the Bank of Opportunity." title="Explore a career with the Bank of Opportunity." border="0">
+<div class="hidden">Benefits. Explore a career with the Bank of Opportunity.</div>
 				</td>
 			</tr>
 			<tr valign="top"><td colspan="2" valign="top" class="divb"><img src="../images/clear.gif" width="100%" height="4" alt="" border="0"></td></tr>

@@ -1,8 +1,18 @@
-		<a name="skipmaincontent"></a><H1 style="margin: 0px <%=right_margin%>px 0px <%=left_margin_0%>px; padding: 0px;">Staffing Events</H1>
+		<table width="578" cellpadding="0" cellspacing="0" border="0" summary="">
+			<tr valign="top"><td colspan="2" valign="top" class="divt"><img src="../images/clear.gif" width="100%" height="4" alt="" border="0"></td></tr>
+			<tr valign="top">
+				<td width="100%" colspan="2" valign="top">
+<img src="../images/staffingevents.jpg" width="578" height="166" alt="Explore a career with the Bank of Opportunity." title="Explore a career with the Bank of Opportunity." border="0">
+<div class="hidden">Staffing Events. Explore a career with the Bank of Opportunity.</div>
+				</td>
+			</tr>
+			<tr valign="top"><td colspan="2" valign="top" class="divb"><img src="../images/clear.gif" width="100%" height="4" alt="" border="0"></td></tr>
+		</table>
 		<img src="../images/clear.gif" width="100%" height="<%=top_content_padding_bottom%>" alt="" border="0"><br />
+		<a name="skipmaincontent"></a><H1 class="hidden">Staffing Events</H1>
 		<table width="578" cellpadding="0" cellspacing="0" border="0" summary="">
 			<tr valign="top">
-				<td width="373" height="100%" valign="top" style="<%=middle_content_padding%>">
+				<td width="373" height="100%" valign="top" style="padding: 0px <%=right_margin%>px 0px <%=left_margin_0%>px;">
 <p>
 Whether you're a new grad or a seasoned professional, we want to talk to you. That's why we schedule regular visits and open houses on campuses and in cities throughout the country. Search our events calendar to find out when we're coming to your campus or city.
 </p>

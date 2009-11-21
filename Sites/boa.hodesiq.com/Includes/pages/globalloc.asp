@@ -2,8 +2,8 @@
 			<tr valign="top"><td colspan="2" valign="top" class="divt"><img src="../images/clear.gif" width="100%" height="4" alt="" border="0"></td></tr>
 			<tr valign="top">
 				<td width="100%" colspan="2" valign="top">
-<img src="../images/globalloc.jpg" width="578" height="166" alt="There&acute;s a lot of opportunity for me to grow within Bank of America." title="There&acute;s a lot of opportunity for me to grow within Bank of America." border="0">
-<div class="hidden">With offices in more than 30 countries there&acute;s a lot of opportunity for me to grow within Bank of America.</div>
+<img src="../images/faq.jpg" width="578" height="166" alt="Explore a career with the Bank of Opportunity." title="Explore a career with the Bank of Opportunity." border="0">
+<div class="hidden">Global Locations. Explore a career with the Bank of Opportunity.</div>
 				</td>
 			</tr>
 			<tr valign="top"><td colspan="2" valign="top" class="divb"><img src="../images/clear.gif" width="100%" height="4" alt="" border="0"></td></tr>
@@ -12,7 +12,7 @@
 		<img src="../images/clear.gif" width="100%" height="<%=top_content_padding_bottom%>" alt="" border="0"><br />
 		<table width="578" cellpadding="0" cellspacing="0" border="0" summary="">
 			<tr valign="top">
-				<td width="373" height="100%" valign="top" style="<%=middle_content_padding%>">
+				<td width="373" height="100%" valign="top" style="padding: 0px <%=right_margin%>px 0px <%=left_margin_0%>px;">
 <p style="margin: 0px 0px 6px 0px;">
 Globalization is here. Bank of America and its affiliates deliver a variety of sophisticated corporate and investment banking services to help clients succeed on a global scale. We operate offices in more than 30 countries and support our clients' activities around the world, maintaining relationships with leading corporations of all sizes. Bank of America serves multinational corporations, select local businesses, financial institutions and government agencies.</p>
 

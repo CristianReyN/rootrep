@@ -1,7 +1,18 @@
-		<a name="skipmaincontent"></a><span style="position:absolute;"><a name="qtop" style="text-decoration: none;">&nbsp;</a></span><H1 style="margin: 0px <%=right_margin%>px 0px <%=left_margin_0%>px;">Careers Frequently Asked Questions (FAQs)</H1>
+		<table width="578" cellpadding="0" cellspacing="0" border="0" summary="">
+			<tr valign="top"><td colspan="2" valign="top" class="divt"><img src="../images/clear.gif" width="100%" height="4" alt="" border="0"></td></tr>
+			<tr valign="top">
+				<td width="100%" colspan="2" valign="top">
+<img src="../images/faq.jpg" width="578" height="166" alt="Explore a career with the Bank of Opportunity." title="Explore a career with the Bank of Opportunity." border="0">
+<div class="hidden">Careers Frequently Asked Questions. Explore a career with the Bank of Opportunity.</div>
+				</td>
+			</tr>
+			<tr valign="top"><td colspan="2" valign="top" class="divb"><img src="../images/clear.gif" width="100%" height="4" alt="" border="0"></td></tr>
+		</table>
+		<a name="skipmaincontent"></a><span style="position:absolute;"><a name="qtop" style="text-decoration: none;">&nbsp;</a></span><H1 class="hidden">Careers Frequently Asked Questions (FAQs)</H1>
+		<img src="../images/clear.gif" width="100%" height="<%=top_content_padding_bottom%>" alt="" border="0"><br />
 		<table width="578" cellpadding="0" cellspacing="0" border="0" summary="">
 			<tr valign="top">
-				<td width="373" height="100%" valign="top" style="padding: <%=top_content_padding_bottom%>px <%=right_margin%>px 0px <%=left_margin_0%>px;">
+				<td width="373" height="100%" valign="top" style="padding: 0px <%=right_margin%>px 0px <%=left_margin_0%>px;">
 <ul id="faqs" style="list-style-image : url(../images/bull3.gif);">
 <!--<ul id="faqs" style="list-style-type : none;">-->
 	<li><a href="#q1" class="p" onfocus="this.className='p-over';" onblur="this.className='p';">How do I submit a resume?</a></li>
@@ -180,7 +191,7 @@
 <br><br>
 				</td>
 				<td width="205" height="100%" valign="top">
-<div style="border: 1px solid #e8e8e9; margin: <%=top_content_padding_bottom%>px 0px 12px 0px; padding: 0px 0px 6px 0px;">
+<div style="border: 1px solid #e8e8e9; margin: 0px 0px 12px 0px; padding: 0px 0px 6px 0px;">
 	<H2 class="g" style="margin: 0px 0px 0px 0px;">Guided Job Search</H2>
 	<img src="../images/clear.gif" width="100%" height="1" alt="" border="0" style="margin: 1px 0px 6px 0px; background: #e8e8e9;" align="top"><br clear="all">
 <!-- #include file="../jobsearch.asp" -->

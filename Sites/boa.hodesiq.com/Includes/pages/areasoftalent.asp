@@ -2,8 +2,8 @@
 			<tr valign="top"><td colspan="2" valign="top" class="divt"><img src="../images/clear.gif" width="100%" height="4" alt="" border="0"></td></tr>
 			<tr valign="top">
 				<td width="100%" colspan="2" valign="top">
-<img src="../images/aot.jpg" width="578" height="166" alt="I work for a company who is widely recognized and respected." title="I work for a company who is widely recognized and respected." border="0">
-<div class="hidden">It&acute;s important that I work for a company who is widely recognized and respected.</div>
+<img src="../images/aot.jpg" width="578" height="166" alt="Explore a career with the Bank of Opportunity." title="Explore a career with the Bank of Opportunity." border="0">
+<div class="hidden">Job Areas. Explore a career with the Bank of Opportunity.</div>
 				</td>
 			</tr>
 			<tr valign="top"><td colspan="2" valign="top" class="divb"><img src="../images/clear.gif" width="100%" height="4" alt="" border="0"></td></tr>
@@ -12,7 +12,7 @@
 		<a name="skipmaincontent"></a><H1 class="hidden">Job Areas</H1>
 		<table width="578" cellpadding="0" cellspacing="0" border="0" summary="">
 			<tr valign="top">
-				<td width="373" height="100%" valign="top" style="<%=middle_content_padding%>">
+				<td width="373" height="100%" valign="top" style="padding: 0px <%=right_margin%>px 0px <%=left_margin_0%>px;">
 <H2 class="left2" style="margin: 0px; padding: 0px;"><a href="<% if page_section <> "ADA" then Response.write "../administration/" Else Response.write "administration.asp" End If%>" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="Administration">Administration</a></H2>
 <p style="margin: 6 0 15 0;">Individuals who take initiative and possess exceptional communications skills thrive within our dynamic environment.</p>
 

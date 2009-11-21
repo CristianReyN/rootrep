@@ -38,7 +38,8 @@ The goal of Global Risk is to manage all types of risk to achieve predictable, c
 <br><br>
 Specific areas of Global Risk Management are:
 </p>
-<ul style="margin-left: <%=left_margin_0%>px;">
+<p style="margin: 0px 0px 0px <%=left_margin_0%>px;">
+<ul>
 	<li>Global Compliance and Operational Risk;</li>
 	<li>Global Corporate &amp; Investment Banking<br>Market Risk &amp; Compliance;</li>
 	<li>Global Consumer and Small Business Risk &amp; Compliance;</li>
@@ -46,6 +47,7 @@ Specific areas of Global Risk Management are:
 	<li>Global Wealth &amp; Investment Management Risk &amp; Compliance;</li>
 	<li>Corporate Security and Corporate Audit.</li>
 </ul>
+</p>
 <br>
 <H1 style="margin: 0px <%=right_margin%>px 0px <%=left_margin_0%>px; width: <%=(315-right_margin_split-left_margin_0)%>px;">Frequently Asked Questions</H1>
 <div style="margin: <% If page_section = "ADA" Then %>12<% Else %>0<%End If%>px <%=right_margin_split%>px 0px <%=left_margin_0%>px; width: <%=(315-right_margin_split-left_margin_0)%>px;">
@@ -97,6 +99,12 @@ The value that Global Risk Management brings to the table at Bank of America, is
 </p>
 
 <img class="dotdiv" style="margin: 6px 0px 0px 0px;" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
+
+<% If page_section = "ADA" Then %>
+<br><br>
+<a href="<%= standart_href%>" title="Return to standard page with video" class="p" onfocus="this.className='p-over';" onblur="this.className='p';">Return to standard page with video</a>
+<% End If %>
+
 </div>
 <br><br>
 

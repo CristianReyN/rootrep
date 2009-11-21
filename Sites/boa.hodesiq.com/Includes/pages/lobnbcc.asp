@@ -91,7 +91,7 @@ Associates' pay is based on competitive market pay data and a robust performance
 <p style="margin: 6px 0px 0px 0px;" class="faqpa">
 <b>In such a large company, how do I know I could fulfill my career aspirations?</b>
 <% If page_section <> "ADA" Then %>
-<br><a href="Javascript: vo_id();" onclick="playResponce(this);" class="ip">Play response</a>&nbsp;<a href="Javascript: vo_id();" onclick="playResponce(this);"><img style="margin: 0px 0px 0px 0px;" src="../images/video_off_faq.gif" alt="" border="0" align="absmiddle" class="pai" name="pa3"></a><span class="auraltext"><br class="alejandro_a4"></span>
+<br><a href="Javascript: vo_id();" onclick="playResponce(this);" class="ip">Play response</a>&nbsp;<a href="Javascript: vo_id();" onclick="playResponce(this);"><img style="margin: 0px 0px 0px 0px;" src="../images/video_off_faq.gif" alt="" border="0" align="absmiddle" class="pai" name="pa4"></a><span class="auraltext"><br class="alejandro_a4"></span>
 <% Else %>
 </p>
 <p style="margin: 6px 0px 0px 0px;"><a name="answ4"></a>
@@ -100,6 +100,12 @@ For those prepared to drive their professional development, Bank of America prov
 </p>
 
 <img class="dotdiv" style="margin: 6px 0px 0px 0px;" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
+
+<% If page_section = "ADA" Then %>
+<br><br>
+<a href="<%= standart_href%>" title="Return to standard page with video" class="p" onfocus="this.className='p-over';" onblur="this.className='p';">Return to standard page with video</a>
+<% End If %>
+
 </div>
 <br><br>
 

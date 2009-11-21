@@ -91,6 +91,12 @@ Bank of America serves 160,000 clients through offices located in 23 countries, 
 </p>
 
 <img class="dotdiv" style="margin: 6px 0px 0px 0px;" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
+
+<% If page_section = "ADA" Then %>
+<br><br>
+<a href="<%= standart_href%>" title="Return to standard page with video" class="p" onfocus="this.className='p-over';" onblur="this.className='p';">Return to standard page with video</a>
+<% End If %>
+
 </div>
 <br><br>
 				</td>

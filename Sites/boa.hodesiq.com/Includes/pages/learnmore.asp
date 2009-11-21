@@ -2,16 +2,17 @@
 			<tr valign="top"><td colspan="2" valign="top" class="divt"><img src="../images/clear.gif" width="100%" height="4" alt="" border="0"></td></tr>
 			<tr valign="top">
 				<td width="100%" colspan="2" valign="top">
-<img src="../images/relinfo.jpg" width="578" height="166" alt="I am proud to work for a company that believes in doing the right thing." title="I am proud to work for a company that believes in doing the right thing." border="0">
+<img src="../images/relinfo.jpg" width="578" height="166" alt="Explore a career with the Bank of Opportunity." title="Explore a career with the Bank of Opportunity." border="0">
+<div class="hidden">Related Information. Explore a career with the Bank of Opportunity.</div>
 				</td>
 			</tr>
 			<tr valign="top"><td colspan="2" valign="top" class="divb"><img src="../images/clear.gif" width="100%" height="4" alt="" border="0"></td></tr>
 		</table>
-		<a name="skipmaincontent"></a><H1 class="hidden">Related Information</H1>
 		<img src="../images/clear.gif" width="100%" height="<%=top_content_padding_bottom%>" alt="" border="0"><br />
+		<a name="skipmaincontent"></a><H1 class="hidden">Related Information</H1>
 		<table width="578" cellpadding="0" cellspacing="0" border="0" summary="">
 			<tr valign="top">
-				<td width="373" height="100%" valign="top" style="<%=middle_content_padding%>">
+				<td width="373" height="100%" valign="top" style="padding: 0px <%=right_margin%>px 0px <%=left_margin_0%>px;">
 <H2 class="p" style="margin: 0px; padding: 0px;"><a href="<% if page_section <> "ADA" then Response.write "../learnmore/benefitsadv.asp" Else Response.write "benefitsadv.asp" End If%>" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="Benefits and advantages">Benefits and advantages</a></H2>
 <p style="margin-top: 6px;">
 Bank of America offers far more than careers to the talented people who work here, and the rewards go well beyond a paycheck.</p>

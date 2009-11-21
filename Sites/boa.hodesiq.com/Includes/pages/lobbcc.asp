@@ -90,15 +90,21 @@ With the largest retail footprint in the nation, Bank of America is a leader in 
 <p style="margin: 6px 0px 0px 0px;" class="faqpa">
 <b>How do Bank of America and our associates contribute to our communities?</b>
 <% If page_section <> "ADA" Then %>
-<br><a href="Javascript: vo_id();" onclick="playResponce(this);" class="ip">Play response</a>&nbsp;<a href="Javascript: vo_id();" onclick="playResponce(this);"><img style="margin: 0px 0px 0px 0px;" src="../images/video_off_faq.gif" alt="" border="0" align="absmiddle" class="pai" name="pa3"></a><span class="auraltext"><br class="tammi_a4"></span>
+<br><a href="Javascript: vo_id();" onclick="playResponce(this);" class="ip">Play response</a>&nbsp;<a href="Javascript: vo_id();" onclick="playResponce(this);"><img style="margin: 0px 0px 0px 0px;" src="../images/video_off_faq.gif" alt="" border="0" align="absmiddle" class="pai" name="pa4"></a><span class="auraltext"><br class="tammi_a4"></span>
 <% Else %>
 </p>
 <p style="margin: 6px 0px 0px 0px;"><a name="answ4"></a>
-Bank of America is committed to giving back to communities. Team Bank of America is an internal group that leads the way with community events and programs. All associates are welcomed and encouraged to get involved with Team Bank of America activities.    In addition, our Bank of America Foundation makes sizable financial contributions to enrich our communities.
+Bank of America is committed to giving back to communities. Team Bank of America is an internal group that leads the way with community events and programs. All associates are welcomed and encouraged to get involved with Team Bank of America activities. In addition, our Bank of America Foundation makes sizable financial contributions to enrich our communities.
 <% End If %>
 </p>
 
 <img class="dotdiv" style="margin: 6px 0px 0px 0px;" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
+
+<% If page_section = "ADA" Then %>
+<br><br>
+<a href="<%= standart_href%>" title="Return to standard page with video" class="p" onfocus="this.className='p-over';" onblur="this.className='p';">Return to standard page with video</a>
+<% End If %>
+
 </div>
 <br><br>
 
