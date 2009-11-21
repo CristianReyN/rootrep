@@ -75,7 +75,7 @@ The bank's commitment to supporting a diverse workforce has earned Bank of Ameri
 
 	<li><b><i>Careers & the Disabled magazine</i></b> ranked the bank No. 23 in the 17th annual "Top 50 Companies" for supporting people with disabilities.</li>
 
-	<li><b><i>Latin American Community</i></b> named Bank of America Corporate Partner of the Year by the Latin American Community Center during the Annual Grand Ball, Un Toque de Carnaval. The award recognizes the bank's extraordinary effort and commitment to the growth and expansion of the Latin American community.</li>
+	<li><b><i>Latin American Community</i></b> named Bank of America Corporate Partner of the Year by the <b><i>Latin American Community Center</i></b> during the Annual Grand Ball, <i>Un Toque de Carnaval</i>. The award recognizes the bank's extraordinary effort and commitment to the growth and expansion of the Latin American community.</li>
 
 </ul>
 
