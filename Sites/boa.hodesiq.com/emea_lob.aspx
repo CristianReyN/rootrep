@@ -25,8 +25,8 @@
                     lending, and this is done through a variety of techniques to make the right decision.</p>
                     
                     <p>
-                        <a href="emea_europe_card_services.aspx">Learn more about Europe Card Services</a><br />
-                        <a href="emea_europe_card_services_teams.aspx">Learn about Europe Card Services departments</a> 
+                        <a href="emea_europe_card_services.aspx" class="p" onblur="this.className='p';" onfocus="this.className='p-over';">Learn more about Europe Card Services</a><br />
+                        <a href="emea_europe_card_services_teams.aspx" class="p" onblur="this.className='p';" onfocus="this.className='p-over';">Learn about Europe Card Services departments</a> 
 
                     </p>
   <h2>Global Corporate &amp; Investment Banking</h2> 
@@ -56,9 +56,9 @@
         </tr>
     </table><br />
    
-<a title="Global Technology" href="http://careers.bankofamerica.com/technology/">Global Technology</a><br />
+<a title="Global Technology" href="http://careers.bankofamerica.com/technology/" class="p" onblur="this.className='p';" onfocus="this.className='p-over';">Global Technology</a><br />
 
-<a title="Corporate Staff & Support" href="http://careers.bankofamerica.com/learnmore/lobcss.asp">Corporate Staff & Support</a>
+<a title="Corporate Staff & Support" href="http://careers.bankofamerica.com/learnmore/lobcss.asp" class="p" onblur="this.className='p';" onfocus="this.className='p-over';">Corporate Staff & Support</a>
 
 </asp:Content>
 

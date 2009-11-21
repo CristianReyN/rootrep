@@ -536,7 +536,7 @@ A.p, A.sblnk, SPAN.pl
     line-height: 1.2em;
     font-weight: normal;
     color: #405EBE;
-    text-decoration: underline;
+    text-decoration: none;
 }
 SPAN.pl
 {
@@ -567,7 +567,7 @@ A.p:visited, A.sblnk:visited
     line-height: 1.2em;
     font-weight: normal;
     color: #651C7E;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 
@@ -1256,12 +1256,12 @@ label.bac
 
 .ada2adalink
 {
-    text-decoration: underline;
+    text-decoration: none;
     font-size:1em;
 }
 A.ada2adalink, A.ada2adalink:visited
 {
-    text-decoration: underline;
+    text-decoration: none;
     outline:none;
 }
 A.ada2adalink:hover, A.ada2adalink-over

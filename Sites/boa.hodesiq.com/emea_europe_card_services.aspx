@@ -57,9 +57,9 @@ Spain – Madrid<br />
                
        </table>     
            <p>
-                        <a href="emea_europe_card_services_teams.aspx">Learn about Europe Card Services departments</a> <br />
+                        <a href="emea_europe_card_services_teams.aspx" class="p" onblur="this.className='p';" onfocus="this.className='p-over';">Learn about Europe Card Services departments</a> <br />
                              
-                        <a href="emea_lob.aspx">Return</a>
+                        <a href="emea_lob.aspx" class="p" onblur="this.className='p';" onfocus="this.className='p-over';">Return</a>
 
                     </p>   
     

@@ -158,7 +158,7 @@
 					</table>
 					<br />
 					<asp:Panel ID="PnlUSJobsContent" runat="server">					
-					<a href="overview/manage_your_profile.asp" target="_blank" class="ritnavlinks" onblur="this.className='p';" onfocus="this.className='p-over';" >Manage Your Profile</a><BR/>
+					<a href="overview/manage_your_profile.asp" target="_blank" class="p" onblur="this.className='p';" onfocus="this.className='p-over';" >Manage Your Profile</a><BR/>
 					Create or update your existing candidate profile.<br /><br />
 					Bank of America associates should access the <a href="http://www.bankofamerica.com/careers/index.cfm?template=jobs_interstitial" id="ctl00_cphmain_lnkInternal" title="Internal Jobs Database" class="p" onblur="this.className='p';" onfocus="this.className='p-over';">internal jobs database</a><br /><br />					
 					</asp:Panel>

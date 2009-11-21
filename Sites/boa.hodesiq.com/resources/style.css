@@ -289,7 +289,7 @@ p
 	font-weight : bold;
     color: #405EBE;
     background-color: transparent;
-    text-decoration: underline;
+    text-decoration: none;
 }
 .ritnavlinks:visited {
 	font-family : Verdana, Helvetica, sans-serif;
@@ -297,7 +297,7 @@ p
 	font-weight : bold;
     color: #651C7E;
     background-color: transparent;
-    text-decoration: underline;
+    text-decoration: none;
 }
 .ritnavlinks:hover, .ritnavlinks-over {
 		font-family : Verdana, Helvetica, sans-serif;

@@ -133,7 +133,7 @@ We are proud to have a number of centres of excellence which provide this suppor
 
 <p><u>Graduates	</u><br />
 
-Bank of America Europe Card Services’ Graduate Programme offers the opportunity to focus on a specific discipline, whilst also providing broad exposure to the entire Europe Card Services business.  Positions are based in Chester and the application process usually runs from September to January. To view our graduate opportunities and apply during this period, <a href="campusrecruiting/?cm_mmc=General-_-vanity-_-campusrecruiting-_-NA">click here.</a>
+Bank of America Europe Card Services’ Graduate Programme offers the opportunity to focus on a specific discipline, whilst also providing broad exposure to the entire Europe Card Services business.  Positions are based in Chester and the application process usually runs from September to January. To view our graduate opportunities and apply during this period, <a href="campusrecruiting/?cm_mmc=General-_-vanity-_-campusrecruiting-_-NA" class="p" onblur="this.className='p';" onfocus="this.className='p-over';">click here.</a>
 
 <p><u>Training and Development   </u><br />
 
@@ -149,9 +149,9 @@ Which is why, whatever stage you’re at in your career, we have a training and 
                
      </td></tr>  </table> 
       <p>
-                        <a href="emea_europe_card_services.aspx">Learn more about Europe Card Services</a><br />
+                        <a href="emea_europe_card_services.aspx" class="p" onblur="this.className='p';" onfocus="this.className='p-over';">Learn more about Europe Card Services</a><br />
                              
-                        <a href="emea_lob.aspx">Return</a>
+                        <a href="emea_lob.aspx" class="p" onblur="this.className='p';" onfocus="this.className='p-over';">Return</a>
 
                     </p>       
     
