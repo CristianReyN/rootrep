@@ -106,13 +106,13 @@ public partial class Tell_a_friend : System.Web.UI.Page
             }
             else
             {
-                this.ltrlError.Text = "<li><font color='red'> You may only enter only one valid email address:</font>";
+                this.ltrlError.Text = "<li><font color='red'> Field must contain only one valid email address:</font>";
                 this.FriendEmail.Focus();
             }
         }
         else
         {
-            this.ltrlError0.Text = "<li><font color='red'> You may only enter only one valid email address:</font>";
+            this.ltrlError0.Text = "<li><font color='red'> Field must contain only one valid email address:</font>";
             this.YourEmail.Focus();
         }
     }
