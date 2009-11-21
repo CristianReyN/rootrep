@@ -116,7 +116,7 @@ public partial class SearchResults : System.Web.UI.Page
         ArrSearchValues = "";
         Session["ArrSearchvalues"] = "";
         selVal = "";
-        ArrSearchValues = selVal + "$" + areasoftalent.SelectedValue + "$" + State.SelectedIndex + "$" + City.SelectedIndex + "$" + keywords.Text;
+        ArrSearchValues = selVal + "$" + CheckSessionAOT + "$" + CheckSessionState + "$" + City.SelectedValue + "$" + keywords.Text;
         Session["ArrSearchvalues"] = Session["ArrSearchvalues"] + "$" + ArrSearchValues;
         
        Response.Redirect("SearchResults.aspx");
@@ -128,6 +128,6 @@ public partial class SearchResults : System.Web.UI.Page
     }
     protected void State_SelectedIndexChanged(object sender, EventArgs e)
     {
-        CheckSessionState = State.SelectedIndex.ToString();
+        CheckSessionState = State.SelectedValue.ToString();
     }
 }
