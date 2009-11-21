@@ -1,17 +1,17 @@
 <% Response.Buffer=True 
 Dim title, mpage, spage, ada_href, ada_title, flash, Metatag
-title = "Bank of America | Career | Finance"
+title = "Bank of America | Career | CFO Group/Finance"
 mpage = "areasoftalent"
 spage = "finance"
 
 ada_href = "../ada/finance.asp"
 page_self = "../finance/default.asp"
-ada_title = "Bank of America | Career | Finance"
+ada_title = "Bank of America | Career | CFO Group/Finance"
 job_search_action = "../jobsearch/searchresult.asp"
 Dim flashPage
 flashPage = false
 Dim subtitle
-subtitle="Finance"
+subtitle="CFO Group/Finance"
 Metatag="Finance is one area of talent for careers at Bank of America. From this page you can listen to an associate, see hot job opportunities, and click to positions in finance, credit, investment banking, wealth & investment management and human resource."
 
 '****************************** ADDED FOR HOT JOB OPENING***************************

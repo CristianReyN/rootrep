@@ -1,6 +1,6 @@
 <% Response.Buffer=True 
 Dim title, mpage, spage, ada_href, ada_title, job_search_action,page_section, Metatag
-title = "Bank of America | Career | Finance"
+title = "Bank of America | Career | CFO Group/Finance"
 mpage = "areasoftalent"
 spage = "finance"
 
@@ -12,7 +12,7 @@ page_section="ADA"
 Dim flashPage
 flashPage = false
 Dim subtitle
-subtitle="Finance"
+subtitle="CFO Group/Finance"
 '****************************** ADDED FOR HOT JOB OPENING***************************
 Dim talentid,rowcount
 talentid=4 

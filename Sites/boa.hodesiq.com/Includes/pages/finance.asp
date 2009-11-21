@@ -11,7 +11,7 @@
 		<table width="578" cellpadding="0" cellspacing="0" border="0" summary="">
 			<tr valign="top">
 				<td width="100%" valign="top" style="padding-top: 12px;">
-<a name="skipmaincontent"></a><H1 class="hidden">Finance</H1>
+<a name="skipmaincontent"></a><H1 class="hidden">CFO Group/Finance</H1>
 <% If page_section = "ADA" Then %>
 <!-- #include file="associate/chen.asp" -->
 <% End If %>
@@ -36,7 +36,7 @@
 <br><br>
 					</div>
 <p style="margin: 0px 12px 0px 12px;">
-The Corporate Finance Group serves a number of essential functions within Bank of America, organized in the following areas:
+The CFO Group serves a number of essential functions within Bank of America, organized in the following groups:
 <br><br>
 <b>Finance Business Client Support</b>
 <br><br>

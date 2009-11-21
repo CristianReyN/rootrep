@@ -19,18 +19,20 @@
 <p style="margin: 12px 0px 12px 0;">
 A career within Bank of America's Global Wealth &amp; Investment Management group is your opportunity to:
 </p>
-<ul>
+<!--<ul>
 	<li>Join specialized client relationship teams offering a complete range of customized financial services to affluent clients worldwide</li>
 	<li>Develop broad expertise in such varied areas as financial planning, wealth access strategy, investments and trust and specialty asset management</li>
 	<li>Deliver integrated wealth management solutions to high net worth individuals, middle-market institutions and charitable organizations</li>
-</ul>
+</ul>-->
 
 <p style="margin: 12px 0px 12px 0;">
-Global Wealth &amp; Investment Management offers opportunities to highly motivated and talented individuals in most major cities in the United States. Global Wealth &amp; Investment Management associates provide comprehensive banking and investment services tailored to meet the changing wealth management goals of more than 3 million individual and institutional customers. A career with Global Wealth &amp; Investment Management is your opportunity to develop broad expertise in varied areas, such as financial planning, wealth access strategy, investments, retirement solutions, trusts and specialty asset management. We offer the opportunity to listen to our customers and deliver integrated wealth management solutions to high net-worth individuals, middle-market institutions and charitable organizations.
+Global Wealth &amp; Investment Management offers opportunities to highly motivated and talented individuals in most major cities in the United States. Global Wealth &amp; Investment Management associates provide comprehensive banking and investment services tailored to meet the changing wealth management goals of more than three million individual and institutional customers. A career within Global Wealth &amp; Investment Management is your opportunity to develop broad expertise in such varied areas as financial planning, wealth access strategy, investments, retirement solutions, trusts and specialty asset management. We offer the opportunity to listen to our customer and deliver integrated wealth management solutions to high net worth individuals, middle-market institutions, and charitable organizations.
 <br><br>
-Global Wealth &amp; Investment Management consists of several unique lines of business each uniquely suited to meet the needs of our clients:
-<!--<br><br>
-<span class="left2" style="color: #405EBE; text-decoration: underline;">Bank of America Retirement &amp; Client Solutions</span>-->
+Global Wealth &amp; Investment Management consists of several unique lines of business which reach the needs of our clients:
+<br><br>
+<b>Alternative Investments</b>
+<br><br>
+<b>Bank of America Retirement &amp; Client Solutions</b>
 <br><br>
 <a href="http://www.columbiafunds.com/home.htm" target="_blank" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="Columbia Management">Columbia Management</a>
 <br><br>

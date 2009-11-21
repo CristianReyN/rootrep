@@ -33,7 +33,7 @@
 <br><br>
 					</div>
 <p style="margin: 6px 12px 0px 12px;">
-The Corporate Finance Group serves a number of essential functions within Bank of America, organized in the following areas:
+The CFO Group serves a number of essential functions within Bank of America, organized in the following groups:
 <br><br>
 <b>Finance Business Client Support</b>
 <br><br>
