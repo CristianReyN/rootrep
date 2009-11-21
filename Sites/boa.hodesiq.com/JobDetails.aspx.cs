@@ -47,7 +47,7 @@ public partial class JobDetails : System.Web.UI.Page
             lblLocationFooter.Text = dt.Rows[0]["Location"].ToString();
             lblPartTimeFullTime.Text = dt.Rows[0]["FullPartTime"].ToString();
             lblPostingDate.Text = dt.Rows[0]["PostingDate"].ToString();
-            lblSchedule.Text = dt.Rows[0]["Shift"].ToString();
+            lblSchedule.Text = dt.Rows[0]["WeeklySchedule"].ToString();
             lblShift.Text = dt.Rows[0]["Shift"].ToString();
             lblTravel.Text = dt.Rows[0]["Travel"].ToString();
             lblUnpostingDate.Text = dt.Rows[0]["UnPostingDate"].ToString() ;
