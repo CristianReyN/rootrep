@@ -44,7 +44,7 @@ public class Location
             Sql = "select req_ID,State from Location";
             db = new DBUtils();
         }
-        catch
+        catch (Exception ex)
         {
             throw ex;
         }

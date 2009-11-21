@@ -92,7 +92,7 @@ public class Jobs
             Sql = "select PostingDate from Jobs";
             db = new DBUtils();
         }
-        catch
+        catch(Exception ex)
         {
             throw ex;
         }
