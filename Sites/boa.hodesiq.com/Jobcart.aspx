@@ -32,7 +32,7 @@
                             BorderWidth="0px" 
                             EmptyDataText="Your job cart is empty." 
                             ToolTip="Job cart results" 
-                            summary="Job cart results. The first two columns are job name and job location. The fourth column contains a checkbox to remove the job from the cart.">
+                            summary="Job cart results. The first two columns are job name and job location. The third column allows you to apply now for the job. The fourth column contains a checkbox to remove the job from the cart.">
                                 <RowStyle CssClass="C1" BorderStyle="None" />
                                 <AlternatingRowStyle CssClass="C2" BorderStyle="None" />
                                 <HeaderStyle BackColor="#EAF1F7" />

@@ -7,7 +7,7 @@
             width="578">
             <tr valign="top">
                 <td style="padding: 6px 12px 0px 12px; height: 100%" valign="top">
-					<table border="0" cellpadding="1" cellspacing="1" summary="Table containing Advanced job search form." width="100%">
+					<table border="0" cellpadding="1" cellspacing="1" summary="" width="100%">
                         <tr>
                             <td valign="top" colspan="2">To find a career suited to your skill set, select a job area from the list below. Then you may narrow your selection further by choosing additional search criteria and/or entering keywords. 
                             <br /><br />

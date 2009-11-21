@@ -114,12 +114,12 @@ public partial class Jobcart : System.Web.UI.Page
 
             MyApplyLink = (HyperLink)e.Row.FindControl("hlnkApply");
             MyApplyLink.ID = "hlnkApply" + e.Row.RowIndex;
-            MyApplyLink.Text = "Apply Now<span class='auraltext'>Apply Now For " + DrvRow["JobTitle"].ToString() + "</span>";
+            MyApplyLink.Text = "Apply Now<span class='auraltext'> For " + DrvRow["JobTitle"].ToString() + "</span>";
             MyApplyLink.NavigateUrl = DrvRow["APPLY_ONLINE_URL"].ToString();
 
             MyLabel = (Label)e.Row.FindControl("lblCheckBox");
             MyLabel.ID = "lblCheckBox" + e.Row.RowIndex;
-            MyLabel.Text = "<span class='auraltext'>" + DrvRow["JobTitle"].ToString() + "</span>"; //"<script>" + DrvRow["JobTitle"].ToString() + "</script>" + 
+            MyLabel.Text = "<span class='auraltext'>Remove " + DrvRow["JobTitle"].ToString() + "</span>"; //"<script>" + DrvRow["JobTitle"].ToString() + "</script>" + 
             MyLabel.AssociatedControlID = "ChkRemove" + e.Row.RowIndex;
 
             MyCheckBox = (CheckBox)e.Row.FindControl("ChkRemove");
