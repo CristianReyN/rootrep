@@ -6,5 +6,7 @@ function fixIE()
 	{
 		theObjects[i].outerHTML = theObjects[i].outerHTML;
 	}
+	document.getElementById('aroftalent').blur();
+	document.getElementById('learnmore').blur();
 }
 //fixIE();
