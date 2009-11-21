@@ -282,8 +282,8 @@ public class Jobs
         int startpage;
         int endpage;
         startpage = 1 + (RowPerPage * (PageNumber - 1));
-        endpage = startpage + RowPerPage - 1;
-        MyListDictionary.Add("JobToJobs", "Showing " + Convert.ToString(startpage) + " to " + Convert.ToString(endpage) + " of " + TotalRow + " job postings.");
+        endpage = startpage + ds.Tables[0].Rows.Count - 1;
+        MyListDictionary.Add("JobToJobs", "Showing " + Convert.ToString(startpage) + " to " + Convert.ToString(endpage) + " of " + TotalRow + " jobs.");
         return MyListDictionary;
     }
     public static Boolean ShowNextButton(int TotalRow, int PageNumber, int TotalPage)
