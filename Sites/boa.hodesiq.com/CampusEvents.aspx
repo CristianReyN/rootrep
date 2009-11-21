@@ -13,10 +13,11 @@
 			</tr>
 		    </table>
 		    <img src="<%=imagePath %>/images/clear.gif" width="550" height="15" alt="" border="0"><br />
+		    <h1 class="hidden">Campus Events</h1>
 		    <table width="100%" cellpadding="0" cellspacing="0" border="0" summary="">
 			    <tr valign="top">
 				<td colspan="2" valign="top">
-                    <h1 class="bach">It's nice to meet you.</h1>
+                    <h2 class="bach">It's nice to meet you.</h2>
                     <p class="bac">
                     
                     As great as you look on paper, you're undoubtedly even more impressive in person. Check here for an updated list of recruiting events to find out when our recruiters are coming to your campus. We'd love to meet you there.
@@ -36,9 +37,9 @@
 				<td valign="bottom">
 					<asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/CampusEvents.aspx?region=U.S." ImageUrl="~/images/camp/t1.gif" ToolTip="Campus events in the US" alt="Campus events in the US"></asp:HyperLink></td>
 				<td valign="bottom">
-					<asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/CampusEvents.aspx?region=EMEA" ImageUrl="~/images/camp/t2a.gif" ToolTip="Campus events in the EMEA" alt="Campus events in the EMEA"></asp:HyperLink></td>
+					<asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/CampusEvents.aspx?region=EMEA" ImageUrl="~/images/camp/t2a.gif" ToolTip="Campus events in EMEA" alt="Campus events in EMEA"></asp:HyperLink></td>
 				<td valign="bottom">
-					<asp:HyperLink ID="HyperLink3" runat="server" NavigateUrl="~/CampusEvents.aspx?region=Asia" ImageUrl="~/images/camp/t3a.gif" ToolTip="Campus events in the Asia" alt="Campus events in the Asia"></asp:HyperLink></td>
+					<asp:HyperLink ID="HyperLink3" runat="server" NavigateUrl="~/CampusEvents.aspx?region=Asia" ImageUrl="~/images/camp/t3a.gif" ToolTip="Campus events in Asia" alt="Campus events in Asia"></asp:HyperLink></td>
 				<td width="100%" background="<%=imagePath %>/images/camp/trtb.gif" valign="bottom" align="right"><img src="<%=imagePath %>/images/camp/trt.gif" border="0" alt="" /></td>
 			    </tr>
 		    </table>
