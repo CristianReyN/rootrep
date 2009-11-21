@@ -10,7 +10,7 @@ fpage = "workforce"
 title = breadcrumb_extended
 ada_href = "../ada/workforce.asp"
 page_self = "../learnmore/workforce.asp"
-ada_title = breadcrumb & "Workforce Data"
+ada_title = breadcrumb_extended
 job_search_action = "../jobsearch/searchresult.asp"
 Metatag="Percentage information is available on how many female and minority workers make up the largest job families within Bank of America."
 %>

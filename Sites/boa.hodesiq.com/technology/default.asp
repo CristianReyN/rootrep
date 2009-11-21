@@ -1,12 +1,14 @@
 <% Response.Buffer=True 
-Dim title, mpage, spage, ada_href, ada_title, job_search_action, Metatag%>
-<!-- #include file="../includes/breadcrumb.asp" -->
-<% title = breadcrumb & "Lines of Business | Global Technology &amp; Operations"
+Dim title, mpage, spage, ada_href, ada_title, job_search_action, Metatag
 mpage = "lob"
 spage = "lobgto"
+%>
+<!-- #include file="../includes/breadcrumb.asp" -->
+<%
+title = breadcrumb_extended
 ada_href = "../ada/lobgto.asp"
 page_self = "../technology/default.asp"
-ada_title = breadcrumb & "Lines of Business | Global Technology &amp; Operations"
+ada_title = breadcrumb_extended
 job_search_action = "../jobsearch/searchresult.asp"
 Dim flashPage
 flashPage = false

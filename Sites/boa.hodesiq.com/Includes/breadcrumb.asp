@@ -3,6 +3,43 @@ breadcrumb = "Bank of America | Careers | "
 
 
 Set page_titles  = Server.CreateObject("Scripting.Dictionary")
+	
+	' LINES OF BUSINESS SECTION
+	'mpage
+	page_titles.add "lob", "Lines of Business"
+	'spage
+	page_titles.add "lob_mortgagecareers", "Mortgage Careers"
+	page_titles.add "lobgto", "Global Technology &amp; Operations"
+	page_titles.add "lobgcsbb", "Global Consumer &amp; Small Business Banking"
+	page_titles.add "lobgbmwm", "Global Banking, Markets and Wealth &amp; Investment Management"
+	page_titles.add "lobcss", "Corporate Staff &amp; Support"
+	page_titles.add "lobcfo", "Corporate Financial Operations"
+	'tpage
+	page_titles.add "lobbcc", "Banking Center Channel/Consumer Banking"
+	page_titles.add "lobcf", "CFO Group/Finance"
+	page_titles.add "lobfa", "Financial Advisor"
+	page_titles.add "lobfaamericas", "Americas"
+	page_titles.add "lobfaamericasrole", "Americas - Financial Advisor Role"
+	page_titles.add "lobfaasia", "Asia Pacific"
+	page_titles.add "lobfaasiarole", "Asia Pacific - Private Wealth Manager Role"
+	page_titles.add "lobfaemea", "Europe, Middle East and Africa"
+	page_titles.add "lobfaemearole", "Europe, Middle East and Africa - Financial Advisor Role"
+	page_titles.add "lobgcb", "Global Commercial Banking"
+	page_titles.add "lobgcib", "Global Banking &amp; Markets"
+	page_titles.add "lobghr", "Corporate Staff &amp; Support | Global Human Resources"
+	page_titles.add "lobgmca", "Global Marketing &amp; Corporate Affairs"
+	page_titles.add "lobgr", "Risk Management"
+	page_titles.add "lobgwim", "Global Wealth &amp; Investment Management"
+	page_titles.add "lobnbcc", "Non-Banking Center Channel/Customer Care"
+	page_titles.add "lob_fulfilment", "Fulfillment"
+	page_titles.add "lob_homeequity", "Home Equity"
+	page_titles.add "lob_insurance", "Insurance"
+	page_titles.add "lob_locations", "Locations"
+	page_titles.add "lob_mortgagesales", "Mortgage Sales"
+	page_titles.add "lob_servicing", "Servicing"
+	
+	
+	' LOCATIONS AND RELATED INFORMATION SECTION
 	page_titles.add "locations", "Locations"
 	page_titles.add "united_states", "United States"
 	

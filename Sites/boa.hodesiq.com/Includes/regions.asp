@@ -76,7 +76,7 @@ regions.add region_number, region
 		region.add "image", "../images/overview/region-canada.jpg"
 			Set countries  = Server.CreateObject("Scripting.Dictionary")
 				Set country  = Server.CreateObject("Scripting.Dictionary")
-				country.add "ID", "1000"
+				country.add "ID", "2"
 				country.add "name", "Canada"
 			country_number = countries.Count
 			countries.add country_number,country

@@ -10,7 +10,7 @@ fpage = "flexibleworkarrangements"
 title = breadcrumb_extended
 ada_href = "../ada/flexible_wa.asp"
 page_self = "../learnmore/flexible_wa.asp"
-ada_title = breadcrumb & "Flexible Work Arrangements"
+ada_title = breadcrumb_extended
 job_search_action = "../jobsearch/searchresult.asp"
 Metatag="Highlight information on the programs offered to associates of Bank of America in regards to flexible work arrangements."
 %>

@@ -11,7 +11,7 @@ fpage = "internships_program"
 title = breadcrumb_extended
 ada_href = "../ada/internships_program.asp"
 page_self = "../learnmore/internships_program.asp"
-ada_title = breadcrumb & "Campus Recruiting | Internship Programs"
+ada_title = breadcrumb_extended
 job_search_action = "../jobsearch/searchresult.asp"
 Metatag="Page designed for student recruiting. Links available on the page: undergraduate/analyst programs, graduate/associate programs, internships and a campus recruiting calendar. The option to do a job search is also present on this page."
 %>

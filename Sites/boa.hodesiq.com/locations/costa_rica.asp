@@ -9,7 +9,8 @@ ada_href = "../ada/costa_rica.asp"
 page_self = "../locations/costa_rica.asp"
 ada_title = breadcrumb & "Locations | Costa Rica"
 job_search_action = "../jobsearch/searchresult.asp"
-Metatag=""
+Metatag="BA Continuum Costa Rica Limitada detail page of Bank of America career web site. Provides overview of the non-bank subsidiary, as well dynamic job search"
+Keywords="BA Continuum Costa Rica, non-bank subsidiary of Bank of America, Bank of America, Consumer and Small Business Banking, Centralized Customer Assistance, Credit Cards, First Notice of Lost (FNOL), Home Loans, Insurance, IndyMac, LandSafe Credit, LandSafe ICC, Partial Release, Teller Positive Pay, Trustee Services, Access Management, Citrix-IIS, ECI, Capacity Planning, Business Analysts, Business Continuity, Data Transmission, DP Metrics Analyst, job search, career, Costa Rica"
 %>
 <!-- Header -->
 <!-- #include file="../includes/header.asp" -->

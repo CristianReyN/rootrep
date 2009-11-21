@@ -10,7 +10,7 @@ fpage = "values"
 title = breadcrumb_extended
 ada_href = "../ada/values.asp"
 page_self = "../learnmore/values.asp"
-ada_title = breadcrumb & "Values"
+ada_title = breadcrumb_extended
 job_search_action = "../jobsearch/searchresult.asp"
 Metatag="Information is available on page highlighting the core values of Bank of America."
 %>

@@ -1,16 +1,19 @@
 <% Response.Buffer=True 
-Dim title, mpage, spage, ada_href, ada_title, job_search_action,page_section, Metatag%>
-<!-- #include file="../includes/breadcrumb.asp" -->
-<% title = breadcrumb & "Lines of Business | Global Banking, Markets &amp; Wealth Management | Financial Advisor"
+Dim title, mpage, spage, ada_href, ada_title, job_search_action,page_section, Metatag
 mpage = "lob"
 spage = "lobgbmwm"
 tpage = "lobfa"
+%>
+<!-- #include file="../includes/breadcrumb.asp" -->
+<%
+title = breadcrumb_extended
 standart_href = "../financialadvisor/"
 job_search_action = "../jobsearch/searchresult.asp"
-Metatag=""
 page_section="ADA"
 Dim flashPage
 flashPage = false
+Metatag="Financial Advisors career overview page of BOA careers site. Provides details, objectives and opportunities for financial advisor candidates at Bank of America Merrill Lynch, as well as dynamic job search."
+Keywords="Bank of America, Merrill Lynch, Financial Advisors, Merrill Lynch Wealth Management, affluent clients, financial strategies, America, Europe, Middle East, Africa, Asia Pacific, job search, career"
 %>
 <!-- Header -->
 <!-- #include file="header.asp" -->

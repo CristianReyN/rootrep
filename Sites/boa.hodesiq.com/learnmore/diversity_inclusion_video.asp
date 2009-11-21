@@ -9,7 +9,7 @@ tpage = "diversity_video"
 title = breadcrumb_extended
 ada_href = "../ada/diversity_inclusion_video.asp"
 page_self = "../learnmore/diversity_inclusion_video.asp"
-ada_title = breadcrumb & "Global Diversity and Inclusion Video"
+ada_title = breadcrumb_extended
 job_search_action = "../jobsearch/searchresult.asp"
 Metatag=""
 %>

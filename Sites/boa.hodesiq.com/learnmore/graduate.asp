@@ -11,7 +11,7 @@ fpage = "graduate"
 title = breadcrumb_extended
 ada_href = "../ada/graduate.asp"
 page_self = "../learnmore/graduate.asp"
-ada_title = breadcrumb & "Graduate/Associate Programs"
+ada_title = breadcrumb_extended
 job_search_action = "../jobsearch/searchresult.asp"
 Metatag="The graduate/associate career programs are for those recent graduates/associates with MBAs or advanced degrees in other fields or those currently enrolled in college/university to obtain an MBA or advanced degree. Detailed information is available on the page for these types of programs."
 %>

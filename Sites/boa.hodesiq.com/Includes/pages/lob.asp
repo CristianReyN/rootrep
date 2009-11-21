@@ -21,7 +21,7 @@ Opportunity awaits. Learn more about:
 	if page_section <> "ADA" then href_pre = "../learnmore/" %>
 <a href="<%	if page_section <> "ADA" then%>../learnmore/lobgcsbb.asp<% Else %>lobgcsbb.asp<%End If %>" class="left2" title="Global Consumer &amp; Small Business Banking">Global Consumer &amp; Small Business Banking</a>
 <br><br>
-<a href="<%	if page_section <> "ADA" then%>../gbmarketswealthmanagement/<% Else %>lobgbmwm.asp<%End If %>" class="left2" title="Global Banking, Markets &amp; Wealth Management">Global Banking, Markets &amp; Wealth Management</a>
+<a href="<%	if page_section <> "ADA" then%>../gbmarketswealthmanagement/<% Else %>lobgbmwm.asp<%End If %>" class="left2" title="Global Banking, Markets and Wealth &amp; Investment Management">Global Banking, Markets and Wealth &amp; Investment Management</a>
 <br><br>
 <a href="<%	if page_section <> "ADA" then%>../technology/<% Else %>lobgto.asp<%End If %>" class="left2" title="Global Technology">Global Technology</a>
 <br><br>

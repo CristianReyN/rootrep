@@ -10,7 +10,7 @@ fpage = "insurance"
 title = breadcrumb_extended
 ada_href = "../ada/insurance.asp"
 page_self = "../learnmore/insurance.asp"
-ada_title = breadcrumb & "Health &amp; Insurance Benefits"
+ada_title = breadcrumb_extended
 job_search_action = "../jobsearch/searchresult.asp"
 Metatag="Information is available on this page highlighting the plans available through Bank of America for Insurance."
 %>

@@ -1,17 +1,20 @@
 <% Response.Buffer=True 
-Dim title, mpage, spage, ada_href, ada_title, job_search_action,page_section, Metatag%>
-<!-- #include file="../includes/breadcrumb.asp" -->
-<% title = breadcrumb & "Lines of Business | Global Banking, Markets &amp; Wealth Management | Financial Advisor | Europe, Middle East and Africa"
+Dim title, mpage, spage, ada_href, ada_title, job_search_action,page_section, Metatag
 mpage = "lob"
 spage = "lobgbmwm"
 tpage = "lobfa"
 fpage = "lobfaemea"
+%>
+<!-- #include file="../includes/breadcrumb.asp" -->
+<%
+title = breadcrumb_extended
 standart_href = "../financialadvisor/lobfaemea.asp"
 job_search_action = "../jobsearch/searchresult.asp"
-Metatag=""
 page_section="ADA"
 Dim flashPage
 flashPage = false
+Metatag="Detail page of Bank of America careers site specific to opportunities for Financial Advisors in Europe, Middle East & Africa,. Provides job profile of the EMEA Financial Advisor position as well as dynamic job search."
+Keywords="Europe, Middle East, Africa, EMEA, Merrill Lynch Wealth Management, Financial Advisor, ultra-high-net-worth individuals, career, Amsterdam, Brussels, Dublin, Geneva, Istanbul, London, Luxembourg, Madrid, Milan, Monte Carlo, Moscow, Paris, Zurich, Beirut, Dubai, Manama (Bahrain), Riyadh, careers, job search"
 %>
 <!-- Header -->
 <!-- #include file="header.asp" -->

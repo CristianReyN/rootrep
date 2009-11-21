@@ -10,7 +10,7 @@ fpage = "mywork"
 title = breadcrumb_extended
 ada_href = "../ada/mywork.asp"
 page_self = "../learnmore/mywork.asp"
-ada_title = breadcrumb & "My Work &reg;"
+ada_title = breadcrumb_extended
 job_search_action = "../jobsearch/searchresult.asp"
 Metatag=""
 %>

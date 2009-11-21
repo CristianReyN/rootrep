@@ -10,7 +10,7 @@ fpage = "corppartn"
 title = breadcrumb_extended
 ada_href = "../ada/corppartn.asp"
 page_self = "../learnmore/corppartn.asp"
-ada_title = breadcrumb & "Corporate Partnerships"
+ada_title = breadcrumb_extended
 job_search_action = "../jobsearch/searchresult.asp"
 Metatag="Links to partnerships Bank of America has partnered with to find new talent."
 %>

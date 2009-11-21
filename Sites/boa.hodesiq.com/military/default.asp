@@ -9,7 +9,7 @@ tpage = "military_veteran_recruiting"
 title = breadcrumb_extended
 ada_href = "../ada/military_veteran_recruiting.asp"
 page_self = "../military/default.asp"
-ada_title = "Bank of America | Military &amp; veteran recruiting"
+ada_title = breadcrumb_extended
 job_search_action = "../jobsearch/searchresult.asp"
 Metatag="Explore a career with Bank of America, where we value the skills and experience of military service members."
 %>

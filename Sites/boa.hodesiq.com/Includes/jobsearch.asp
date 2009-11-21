@@ -5,24 +5,32 @@ Dim jwdt, style
 jwdt = 192
 If jwidth Then jwdt = jwidth
 stl = "margin: 0px 5px 0px 4px"
-If style <> "" Then stl = style
-dsp_p = " display: none;"
-If display_p = True Then dsp_p = "" %>
+If style <> "" Then stl = style%>
 <%
 	begin = "Begin Search"
 	disabled = ""
+	disabled_country = ""
 	display = ""
 	disable_state = ""
 	display_state = ""
 	disable_city = ""
 	display_manage = ""
+	display_canada = " display: none;"
+	display_begin = ""
 	countryid = Request("countryid")
 		If countryid = "" Then countryid = "-1"
-		If countryid = "-1" Then
+		If countryid = "-1" Or countryid = "2" Then
 			disabled = " disabled"
+			disabled_country = " disabled"
 			display = " display: none;"
 			begin = "Begin"
 			disable_city = " disabled"
+		End If
+		If countryid = "2" Then
+			disabled_country = ""
+			begin = "Begin Search"
+			display_canada = ""
+			display_begin = " display: none;"
 		End If
 		If countryid <> "1" Then
 			disable_state = " disabled"
@@ -51,7 +59,7 @@ function _submit()
 
 function changeCountry()
 {
-	if(<%If disabled = "" Then %>true<% Else %>false<% End If %>) document.jsearch.submit();
+	if(<%If disabled_country = "" Then %>true<% Else %>false<% End If %>) document.jsearch.submit();
 }
 
 function changeState()
@@ -128,7 +136,17 @@ function changeCity()
 </div>
 							</td>
 						</tr>
-						<tr>
+						<tr style="<%=display_canada%>">
+							<td width="<%=jwdt%>" valign="top" style="padding: 6px 0px 0px 0px;">
+<div id="L107" style="position: relative; z-index: 12;">
+<img class="dotdiv" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
+<p style="margin: 3px 0px 3px 0px;">
+<a href="http://ig12.i-grasp.com/fe/tpl_bankofamerica06.asp" target="_blank" class="p" style="margin: 0px 0px 0px 0px;" title="Search and apply for jobs in Canada. Link opens a new window.">Search and apply for jobs in Canada.</a>
+</p>
+</div>
+							</td>
+						</tr>
+						<tr style="<%=display_begin%>">
 							<td width="<%=jwdt%>" valign="top" style="padding: 6px 0px 0px 0px;">
 <script language="JavaScript" type="text/javascript">
 <!--
@@ -148,9 +166,9 @@ create_safebutton("<%=begin%>","javascript: _submit();",0,0,0,0,"<%=begin%>");
 	<li>In the Subject Line of your email, include "Source = Bank of America Careers"</li>
 </ul>
 <p style="margin: 3px 0px 3px 0px;">
-<a href="manage_your_profile.asp" target="<%=OVERVIEW_TARGET%>" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" style="margin: 0px 0px 0px 0px;" title="Manage Your Profile<% If OVERVIEW_TARGET = "_blank" Then %>. Link opens a new window.<% End If%>">Manage Your Profile<span class="ada-label">If you have any difficulties, refer to above alternatives.</span></a>
+<a href="manage_your_profile.asp" target="<%=OVERVIEW_TARGET%>" class="p" style="margin: 0px 0px 0px 0px;" title="Manage Your Profile<% If OVERVIEW_TARGET = "_blank" Then %>. Link opens a new window.<% End If%>">Manage Your Profile<span class="ada-label">If you have any difficulties, refer to above alternatives.</span></a>
 </p>
-<p style="margin: 3px 0px 0px 0px;<%=dsp_p%>">Create or update your existing candidate profile.</p>
+<p style="margin: 3px 0px 0px 0px;">Create or update your existing candidate profile.</p>
 <img class="dotdiv" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
 <p style="margin: 0px 0px 0px 0px;">
 Bank of America associates should access the <a href="http://www.bankofamerica.com/careers/index.cfm?template=jobs_interstitial" class="p" title="Internal Jobs Database">internal jobs database</a>.</p>

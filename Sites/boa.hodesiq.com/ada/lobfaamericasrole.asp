@@ -1,17 +1,20 @@
 <% Response.Buffer=True 
-Dim title, mpage, spage, ada_href, ada_title, job_search_action,page_section, Metatag%>
-<!-- #include file="../includes/breadcrumb.asp" -->
-<% title = breadcrumb & "Lines of Business | Global Banking, Markets &amp; Wealth Management | Financial Advisor | Americas - Financial Advisor Role"
+Dim title, mpage, spage, ada_href, ada_title, job_search_action,page_section, Metatag
 mpage = "lob"
 spage = "lobgbmwm"
 tpage = "lobfa"
 fpage = "lobfaamericasrole"
+%>
+<!-- #include file="../includes/breadcrumb.asp" -->
+<%
+title = breadcrumb_extended
 standart_href = "../financialadvisor/lobfaamericas.asp"
 job_search_action = "../jobsearch/searchresult.asp"
-Metatag=""
 page_section="ADA"
 Dim flashPage
 flashPage = false
+Metatag="Detail page of Bank of America careers site specific to benefits for Financial Advisors in the United States. Provides complete list of benefits for the US Financial Advisor position as well as dynamic job search."
+Keywords="Merrill Lynch, Financial Advisors, career, Merrill Lynch Wealth Management, Bank of America, financial advisor, Practice Management Development Program, PMDP, Series 7, Series 66,  wealth management, web-based learning, Americas"
 %>
 <!-- Header -->
 <!-- #include file="header.asp" -->

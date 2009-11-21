@@ -16,13 +16,13 @@
 <script language="JavaScript1.2" src="../includes/flash.js" type="text/javascript"></script>
 <script language="JavaScript1.2" type="text/javascript">
 //<!--
-hasRequestedVersion = DetectFlashVer(8, 0, 8);
+hasRequestedVersion = DetectFlashVer(9, 0, 9);
 if ( hasRequestedVersion ) {
-	shuffle_array(imgs);
-	rotate_img();
+	init_img();
 	document.write('<table border="0" cellspacing="0" cellpadding="0" width="578" height="300"><tr><td valign="top" width="312"><div id="fdv" style="position: absolute; width: 578px; height: 300px; clip: rect(0 578 300 0);">'+flash+'<\/div></td>');
-	document.write('<td valign="top" width="266"><img id="idvi" src="" style="position: absolute; width: 266px; height: 425px; clip: rect(0 266 425 0); display: none;" /></td></tr></table>');
+	document.write('<td valign="top" width="266"><img id="idvi" src="../images/clear.gif" style="position: absolute; width: 266px; height: 425px; clip: rect(0 266 425 0); display: none;" /></td></tr></table>');
 } else {
+	rotate_img("start");
 	document.write(getReqFlashPlayerImg ( "../images/whyworkhere_cc.jpg",8)); 
 }
 //-->
@@ -161,8 +161,7 @@ Bank of Opportunity.
 			<tr valign="top">
 				<td width="378" height="100%" valign="top" style="padding: 12px 0px 0px 0px;">
 <% jwidth = 378
-style = "margin: 0px"
-display_p = True%>
+style = "margin: 0px"%>
 <!-- #include file="../jobsearch.asp" -->
 					<table width="378" style="margin: 0px 0px 0px 0px;" cellpadding="0" cellspacing="0" border="0" summary="">
 						<tr>

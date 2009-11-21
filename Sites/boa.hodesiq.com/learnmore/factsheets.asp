@@ -10,7 +10,7 @@ fpage = "factsheets"
 title = breadcrumb_extended
 ada_href = "../ada/factsheets.asp"
 page_self = "../learnmore/factsheets.asp"
-ada_title = breadcrumb & "Fact Sheets"
+ada_title = breadcrumb_extended
 job_search_action = "../jobsearch/searchresult.asp"
 Metatag="Detailed facts on diversity within Bank of America are depicted on this page."
 %>

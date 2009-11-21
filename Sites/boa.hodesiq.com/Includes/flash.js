@@ -131,30 +131,47 @@ var hasRequestedVersion = DetectFlashVer(requiredMajorVersion, requiredMinorVers
 
 if ( !window.createStopAudio )
 {
-	function createStopAudio( i_d, txt, func_tion)
-	{	if(document.body.firstChild) {
-			var new_a = document.createElement("a");
-			new_a.href = "JavaScript: if(window."+func_tion+") "+func_tion+"();";
-			new_a.innerHTML = txt;
-			new_a.title = txt;
+	function createStopAudio()
+	{
+		removeStopAudio();
+		if(document.body.firstChild)
+		{
+			var new_a = document.getElementById("stopaudio");
+			if(!new_a) new_a = document.createElement("a");
+			new_a.href = "JavaScript: if(window.doPassVar) doPassVar('mute');";
+			new_a.innerHTML = "Stop Audio";
+			new_a.title = "Stop Audio";
+			new_a.id = "stopaudio";
 			new_a.className = "hlink";
-			//new_a.onfocus=function(){hover(this,'show-tab'); this.style.fontSize = "0.56em";}
-			//new_a.onblur=function(){hover(this,'auraltext');}
-			document.body.insertBefore(new_a,document.body.firstChild);
+			if(!document.getElementById("stopaudio"))
+				document.body.insertBefore(new_a,document.body.firstChild);
 		}
-		else if (document.all) {
-			if(!$(i_d)) document.body.insertAdjacentHTML("afterBegin",'<div id="'+i_d+'"></div>');
-			$(i_d).innerHTML = '<a href="JavaScript: if(window.'+func_tion+') '+func_tion+'();" class="hlink"'/*+' onfocus="hover(this,\'show-tab\'); this.style.fontSize = \'0.56em\';" onblur="hover(this,\'auraltext\');"'*/+' title="'+txt+'">'+txt+'</a>';
-			$(i_d).style.display = "inline"; }
+		else if (document.all)
+		{
+			if(!document.getElementById("stopaudio"))
+				document.body.insertAdjacentHTML("afterBegin",'<div id="stopaudio"></div>');
+			document.getElementById("stopaudio").innerHTML = '<a href="JavaScript: if(window.doPassVar) doPassVar(\'mute\');" class="hlink"'+' title="'+'Stop Audio'+'">'+'Stop Audio'+'<\/a>';
+			document.getElementById("stopaudio").style.display = "inline";
+		}
 	}
 }
 if ( !window.removeStopAudio )
 {
 	function removeStopAudio(i_d)
-	{if(document.body.firstChild){
-			document.body.removeChild(document.body.firstChild);}
-		else if (document.all) { if($(i_d)) { $(i_d).innerHTML = ''; $(i_d).style.display = "none"; }
-	}}
+	{
+		if(document.body.firstChild && document.body.firstChild.id == "stopaudio")
+		{
+			document.body.removeChild(document.body.firstChild);
+		}
+		else if (document.all)
+		{
+			if(document.getElementById("stopaudio"))
+			{
+				document.getElementById("stopaudio").innerHTML = '';
+				document.getElementById("stopaudio").style.display = "none";
+			}
+		}
+	}
 }
 
 function getReqFlashPlayer ( requiredMajorVersion )
@@ -168,13 +185,13 @@ function getReqFlashPlayerImg ( img_src, requiredMajorVersion )
 
 var flash = '<a class="auraltext" href="JavaScript: ow();" onFocus="hover(this,\'show-tab\');" onblur="hover(this,\'auraltext\');" title="Access Flash">Access Flash<\/a><a class="auraltext" href="#skipflash" onFocus="hover(this,\'show-tab\');" onblur="hover(this,\'auraltext\');" title="Skip Flash content">Skip Flash content<\/a>';
 	flash += '<div style="position: relative; top: 0; left: 0; ">';
-	flash += '<object name="flo" id="flo" tabindex="0" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0" width="578" height="300" align="middle" title="Flash Animation" style="margin: 0px;">';
-	flash += '<param name="allowScriptAccess" value="always" />';
+	flash += '<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,0,0" id="boa_cws_intro" width="578" height="300" align="middle" tabindex="0" title="Flash Animation" style="margin: 0px;">';
+	flash += '<param name="allowScriptAccess" value="sameDomain" />';
 	flash += '<param name="movie" value="../images/boa_cws_intro.swf" />';
 	flash += '<param name="quality" value="high" />';
 	flash += '<param name="wmode" value="transparent" />';
 	flash += '<param name="bgcolor" value="#ffffff" />';
-	flash += '<embed name="fle" id="fle" src="../images/boa_cws_intro.swf" wmode="transparent" quality="high" bgcolor="#ffffff" width="578" height="300" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" style="margin: 0px;" /><\/embed>';
+	flash += '<embed src="../images/boa_cws_intro.swf" wmode="transparent" quality="high" bgcolor="#ffffff" width="578" height="300" align="middle" allowScriptAccess="sameDomain" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" style="margin: 0px;" swLiveConnect=true id="boa_cws_intro" name="boa_cws_intro" /><\/embed>';
 	flash += '<\/object>';
 	flash += '<\/div>';
 	
@@ -187,10 +204,22 @@ function shuffle_array(arr){ var i = arr.length;if (i==0) return false; while(--
 
 var imgs = new Array ("../images/overview/costarica.png", "../images/overview/emea.png", "../images/overview/usa.png", "../images/overview/canada.png", "../images/overview/apac.png" );
 var current_img, img_timeout;
-var rotated = 0, delay=13000;
-function rotate_img()
+var rotated = 0;
+function rotate_img(args)
 {
-	img_timeout = setTimeout("set_img()",delay==0?5000:delay);
+	if (args=="start")
+	{
+		img_timeout = setTimeout("set_img()",img_timeout?5000:0);
+		removeStopAudio();
+	}
+	else
+	{
+		clearTimeout(img_timeout);
+		img_timeout = null;
+		$("idvi").style.display = "none";
+		$("foot").style.paddingTop = "12px";
+		createStopAudio();
+	}
 }
 function set_img()
 {
@@ -201,5 +230,45 @@ function set_img()
 	current_img++;
 	rotated++;
 	delay = 0;
-	if( rotated <= 20 ) rotate_img();
+	if( rotated <= 20 ) rotate_img("start");
+}
+
+var isInternetExplorer = navigator.appName.indexOf("Microsoft") != -1;
+// Handle all the FSCommand messages in a Flash movie.
+function boa_cws_intro_DoFSCommand(command, args)
+{
+	var boa_cws_introObj = isInternetExplorer ? document.all.boa_cws_intro : document.boa_cws_intro;
+	if (command=="rotate_img") rotate_img(args);
+}
+
+function vb_script()
+{
+	document.write('<SCR' + 'IPT LANGUAGE=VBScript\> \n');
+	document.write('On Error Resume Next\n');
+	document.write('Sub boa_cws_intro_FSCommand(ByVal command, ByVal args)\n');
+	document.write('	Call boa_cws_intro_DoFSCommand(command, args)\n');
+	document.write('End Sub\n');
+	document.write('<\/SCR' + 'IPT\> \n');
+}
+
+function doPassVar(args)
+{
+	var sendText = args;
+	if( window.document.boa_cws_intro ) window.document.boa_cws_intro.SetVariable("myVar", sendText);
+}
+
+function init_img()
+{
+	createStopAudio();
+	shuffle_array(imgs);
+	if (navigator.appName && navigator.appName.indexOf("Microsoft") != -1 && navigator.userAgent.indexOf("Windows") != -1 && navigator.userAgent.indexOf("Windows 3.1") == -1) vb_script();
+	if(!window.MM_preloadImages)
+	{
+		document.write('<scr' + 'ipt language="javascript" src="../Includes/mm.js');
+		document.write('"></scr' + 'ipt>');
+	}
+	if(!window.preloadCC)
+	{
+		window.preloadCC = function(){MM_preloadImages("../images/overview/costarica.png","../images/overview/emea.png","../images/overview/usa.png","../images/overview/canada.png","../images/overview/apac.png");}
+	}
 }

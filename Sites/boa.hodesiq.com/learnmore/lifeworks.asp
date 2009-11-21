@@ -10,7 +10,7 @@ fpage = "lifeworks"
 title = breadcrumb_extended
 ada_href = "../ada/lifeworks.asp"
 page_self = "../learnmore/lifeworks.asp"
-ada_title = breadcrumb & "LifeWorks®"
+ada_title = breadcrumb_extended
 job_search_action = "../jobsearch/searchresult.asp"
 Metatag="The page is an explanation of the LifeWorks program for associates at Bank of America."
 %>

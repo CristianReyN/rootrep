@@ -7,10 +7,11 @@ spage = ""
 tpage = ""
 standart_href = "../locations/"
 job_search_action = "../jobsearch/searchresult.asp"
-Metatag=""
 page_section="ADA"
 Dim flashPage
 flashPage = false
+Metatag="Locations detail page of Bank of America careers web site. Provides overview of Bank's presence in local communities leading markets worldwide."
+Keywords="Bank of America, Bank of Opportunity, locations, Charlotte, North Carolina, USA, banking, investing, asset management, financial, risk management, job search, careers"
 %>
 <!-- Header -->
 <!-- #include file="header.asp" -->

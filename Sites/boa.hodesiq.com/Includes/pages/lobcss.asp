@@ -13,25 +13,29 @@
 		<table width="578" cellpadding="0" cellspacing="0" border="0" summary="">
 			<tr valign="top">
 				<td width="373" height="100%" valign="top" style="<%=middle_content_padding%>">
-<p style="margin: 0px 0px 12px 0;">
-Bank of America's Corporate Staff &amp; Support group provides both functional and logistical value to business units throughout the entire organization. Corporate Staff &amp; Support is the gateway to a wide-open world of opportunity for skilled professionals.
-<br><br>
-Careers within Corporate Staff &amp; Support are typically concentrated in one of the following specialized groups:
-<br><br>
-<a href="<%If page_section <> "ADA" Then%>../humanresources/<%Else%>lobghr.asp<%End If%>" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="Global Human Resources">Global Human Resources</a> leverages leadership in the marketplace and enables us to drive revenue by attracting, developing and retaining a world-class workforce.
-<br><br>
-<a href="<%If page_section <> "ADA" Then%>../CFOgroup/<%Else%>lobcf.asp<%End If%>" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="CFO Group/Finance">CFO Group/Finance</a> leads and integrates our business management process to drive shareholder value growth.
-<br><br>
-<a href="<%If page_section <> "ADA" Then%>../marketing/<%Else%>lobgmca.asp<%End If%>" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="Global Marketing &amp; Corporate Affairs">Global Marketing &amp; Corporate Affairs</a> is responsible for promoting and protecting the Bank of America brand.
-<br><br>
-<a href="<%If page_section <> "ADA" Then%>../risk/<%Else%>lobgr.asp<%End If%>" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="Risk Management">Risk Management</a> effectively manages the risk and rewards for each area of the bank.
-<br><br>
-<a href="<%If page_section <> "ADA" Then%>../corporateworkplace/<%Else%>corporateworkplace.asp<%End If%>" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="Corporate Workplace">Corporate Workplace</a> partners with each line of business to craft solutions for project and facilities management, associate awareness, energy management, and the acquisition and disposition of space.
-<br><br>
-<!--Corporate Treasury executes funding, liquidity and interest rate risk strategies through structured transitions and the sale of debt products to our corporate clients. 
-<br><br>
-Supply Chain Management creates opportunities to increase revenues and decrease expenditures by identifying and qualifying supplier partners that can provide goods and services that meet our high standards of quality.-->
+<p style="margin: 0px 0px 0px 0px;">
+Bank&nbsp;of&nbsp;America Merrill Lynch&#39;s Support groups align with lines of business across the company to provide functional and logistical value.
 </p>
+<p style="margin: 12px 0px 0px 0px;">
+Careers within these groups are typically concentrated in one of the following specialised areas:
+</p>
+<br>
+<h2 class="bacg"><a href="<%If page_section <> "ADA" Then%>../humanresources/<%Else%>lobghr.asp<%End If%>" class="bacb" title="Global Human Resources">Global Human Resources</a></h2>&nbsp;<p class="bacg">leverages leadership in the marketplace and enables the company to drive revenue by attracting, developing and retaining a world-class workforce.</p>
+<br>
+<br>
+<h2 class="bacg"><a href="<%If page_section <> "ADA" Then%>../CFOgroup/<%Else%>lobcf.asp<%End If%>" class="bacb" title="CFO Group/Finance">CFO Group/Finance</a></h2>&nbsp;<p class="bacg">leads and integrates the company&#39;s business management processes to drive shareholder value growth.</p>
+<br>
+<br>
+<h2 class="bacg"><a href="<%If page_section <> "ADA" Then%>../marketing/<%Else%>lobgmca.asp<%End If%>" class="bacb" title="Global Marketing &amp; Corporate Affairs">Global Marketing &amp; Corporate Affairs</a></h2>&nbsp;<p class="bacg">is responsible for promoting and protecting the Bank&nbsp;of&nbsp;America Merrill Lynch brand ensuring that consistent messages accurately convey the company&#39;s corporate image and reputation.</p>
+<br>
+<br>
+<h2 class="bacg"><a href="<%If page_section <> "ADA" Then%>../risk/<%Else%>lobgr.asp<%End If%>" class="bacb" title="Risk Management">Risk Management</a></h2>&nbsp;<p class="bacg">effectively manages the risk and rewards for each area of the company.</p>
+<br>
+<br>
+<h2 class="bacg"><a href="<%If page_section <> "ADA" Then%>../corporateworkplace/<%Else%>corporateworkplace.asp<%End If%>" class="bacb" title="Corporate Workplace">Corporate Workplace</a></h2>&nbsp;<p class="bacg">partners with each line of business to craft solutions for project and facilities management, associate awareness, energy management and the acquisition and disposition of space.</p>
+
+<h2 class="bac" style="margin: 12px 0px 0px 0px;">Legal</h2>
+<p style="margin: 12px 0px 0px 0;">The Legal department is responsible for the provision of legal services for all of the company&#39;s activities across multiple jurisdictions and business activities. The department works closely with its Risk partners, including Compliance, Audit, Tax and Finance to identify and implement both best practices and legally compliant policies and procedures across the company&#39;s business and support unit activities.</p>
 <p style="margin: 24px 0px 12px 0px;">
 <%	href_pre = ""
 	if page_section <> "ADA" then href_pre = "../learnmore/" %>

@@ -1,12 +1,14 @@
 <% Response.Buffer=True 
-Dim title, mpage, spage, ada_href, ada_title, job_search_action, Metatag%>
-<!-- #include file="../includes/breadcrumb.asp" -->
-<% title = breadcrumb & "Lines of Business | Corporate Financial Operations"
+Dim title, mpage, spage, ada_href, ada_title, job_search_action, Metatag
 mpage = "lob"
 spage = "lobcfo"
+%>
+<!-- #include file="../includes/breadcrumb.asp" -->
+<%
+title = breadcrumb_extended
 ada_href = "../ada/lobcfo.asp"
 page_self = "../learnmore/lobcfo.asp"
-ada_title = breadcrumb & "Lines of Business | Corporate Financial Operations"
+ada_title = breadcrumb_extended
 job_search_action = "../jobsearch/searchresult.asp"
 Metatag="Information is available on this page discussing the lines of business within Bank of America and a link to the values of the organization."
 %>

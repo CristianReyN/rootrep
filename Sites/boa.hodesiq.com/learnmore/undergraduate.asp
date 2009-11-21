@@ -11,7 +11,7 @@ fpage = "undergraduate"
 title = breadcrumb_extended
 ada_href = "../ada/undergraduate.asp"
 page_self = "../learnmore/undergraduate.asp"
-ada_title = breadcrumb & "Undergraduate/Analyst Programs"
+ada_title = breadcrumb_extended
 job_search_action = "../jobsearch/searchresult.asp"
 Metatag="The undergraduate/analyst career programs are for students currently enrolled in college/university and for recent graduates.  Detailed information is available on the page for these types of programs."
 %>

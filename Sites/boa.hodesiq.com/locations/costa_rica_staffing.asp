@@ -9,7 +9,8 @@ ada_href = "../ada/costa_rica_staffing.asp"
 page_self = "../locations/costa_rica_staffing.asp"
 ada_title = breadcrumb & "Locations | Costa Rica | Staffing Process"
 job_search_action = "../jobsearch/searchresult.asp"
-Metatag=""
+Metatag="BA Continuum Costa Rica Limitada staffing process detail page of Bank of America career web site. Provides overview of the non-bank subsidiary's job fulfillment process, as well dynamic job search."
+Keywords="hiring managers, BA Continuum Costa Rica, BA Continuum, Costa Rica, staffing process, job requirements, interviews, recruitment, events, recruitment events, job fairs, employment opportunities, referral programs, career, job search, Bank of Opportunity"
 %>
 <!-- Header -->
 <!-- #include file="../includes/header.asp" -->

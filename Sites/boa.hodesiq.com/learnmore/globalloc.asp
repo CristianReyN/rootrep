@@ -1,14 +1,17 @@
 <% 
 Response.Redirect("http://globalcareers.hodesinteractive.com/")
 Response.Buffer=True 
-Dim title, mpage, spage, ada_href, ada_title, job_search_action, Metatag%>
+Dim title, mpage, spage, ada_href, ada_title, job_search_action, Metatag
+mpage = "locations"
+spage = "united_states"
+tpage = "globalloc"
+%>
 <!-- #include file="../includes/breadcrumb.asp" -->
-<% title = breadcrumb & "Global Locations"
-mpage = "learnmore"
-spage = "globalloc"
+<%
+title = breadcrumb_extended
 ada_href = "../ada/globalloc.asp"
 page_self = "../learnmore/globalloc.asp"
-ada_title = breadcrumb & "Global Locations"
+ada_title = breadcrumb_extended
 job_search_action = "../jobsearch/searchresult.asp"
 Metatag="There are links available on this page to the various sites for careers at Bank of America: Asia, Europe, Middle East and Africa, Latin America, European Opportunties, MBNA European Opportunities."
 %>

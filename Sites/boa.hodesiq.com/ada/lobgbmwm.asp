@@ -1,15 +1,18 @@
 <% Response.Buffer=True 
-Dim title, mpage, spage, ada_href, ada_title, job_search_action,page_section, Metatag%>
-<!-- #include file="../includes/breadcrumb.asp" -->
-<% title = breadcrumb & "Lines of Business | Global Banking, Markets &amp; Wealth Management"
+Dim title, mpage, spage, ada_href, ada_title, job_search_action,page_section, Metatag
 mpage = "lob"
 spage = "lobgbmwm"
+%>
+<!-- #include file="../includes/breadcrumb.asp" -->
+<%
+title = breadcrumb_extended
 standart_href = "../gbmarketswealthmanagement/"
 job_search_action = "../jobsearch/searchresult.asp"
-Metatag=""
 page_section="ADA"
 Dim flashPage
 flashPage = false
+Metatag="Global Banking, Markets & Wealth Management detail page of BOA careers site. Provides an overview of various lines of business within this area and dynamic job search."
+Keywords="Bank of America, financial, financial institutions, institutional investors, banking, investing, asset management, risk management, Consumer, small business banking, home loans, global commercial banking, treasury , solutions, retirement, wealth management, credit, hedge funds, insurance companies, corporate banking, capital markets, Merrill Lynch, careers, job search, financial advisor"
 %>
 <!-- Header -->
 <!-- #include file="header.asp" -->

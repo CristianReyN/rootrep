@@ -1,13 +1,15 @@
 <% Response.Buffer=True 
-Dim title, mpage, spage, ada_href, ada_title, job_search_action, Metatag%>
-<!-- #include file="../includes/breadcrumb.asp" -->
-<% title = breadcrumb & "Lines of Business | Global Wealth &amp; Investment Management"
+Dim title, mpage, spage, ada_href, ada_title, job_search_action, Metatag
 mpage = "lob"
 spage = "lobgbmwm"
 tpage = "lobgwim"
+%>
+<!-- #include file="../includes/breadcrumb.asp" -->
+<%
+title = breadcrumb_extended
 ada_href = "../ada/lobgwim.asp"
 page_self = "../wealthmanagement/default.asp"
-ada_title = breadcrumb & "Lines of Business | Global Wealth &amp; Investment Management"
+ada_title = breadcrumb_extended
 job_search_action = "../jobsearch/searchresult.asp"
 Metatag="Explore a career with Bank of America's Global Wealth & Investment Management."
 %>

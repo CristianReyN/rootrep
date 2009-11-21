@@ -10,7 +10,7 @@ fpage = "lifemanagement"
 title = breadcrumb_extended
 ada_href = "../ada/lifemanagement.asp"
 page_self = "../learnmore/lifemanagement.asp"
-ada_title = breadcrumb & "Life Management Benefits"
+ada_title = breadcrumb_extended
 job_search_action = "../jobsearch/searchresult.asp"
 Metatag="Detailed information on the benefits offered for work/life balance.  The option to do a job search is also present on this page."
 %>

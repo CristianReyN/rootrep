@@ -11,7 +11,7 @@ fvpage = "up_scmap"
 title = breadcrumb_extended
 ada_href = "../ada/up_scmap.asp"
 page_self = "../learnmore/up_scmap.asp"
-ada_title = breadcrumb & "Campus Recruiting | Undergraduate/Analyst Programs | Supply Chain Management Associate Program"
+ada_title = breadcrumb_extended
 job_search_action = "../jobsearch/searchresult.asp"
 Metatag="Page designed for student recruiting. Links available on the page: undergraduate/analyst programs, graduate/associate programs, internships and a campus recruiting calendar. The option to do a job search is also present on this page."
 %>

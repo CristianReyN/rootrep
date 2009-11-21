@@ -7,10 +7,11 @@ spage = ""
 tpage = ""
 standart_href = "../overview/media_gallery.asp"
 job_search_action = "../jobsearch/searchresult.asp"
-Metatag=""
 page_section="ADA"
 Dim flashPage
 flashPage = false
+Metatag="Media gallery detail page of Bank of America careers web site. Provides an archived, categorized view of Bank of America's career-related video and multimedia assets, as well as dynamic job search."
+Keywords="Bank of America, media gallery, multi-media, video, videos, streaming media links, career, job search"
 %>
 <!-- Header -->
 <!-- #include file="header.asp" -->

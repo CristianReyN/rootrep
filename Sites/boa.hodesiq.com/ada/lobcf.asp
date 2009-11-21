@@ -1,10 +1,12 @@
 <% Response.Buffer=True 
-Dim title, mpage, spage, ada_href, ada_title, job_search_action,page_section, Metatag%>
-<!-- #include file="../includes/breadcrumb.asp" -->
-<% title = breadcrumb & "Lines of Business | CFO Group/Finance"
+Dim title, mpage, spage, ada_href, ada_title, job_search_action,page_section, Metatag
 mpage = "lob"
 spage = "lobcss"
 tpage = "lobcf"
+%>
+<!-- #include file="../includes/breadcrumb.asp" -->
+<%
+title = breadcrumb_extended
 standart_href = "../CFOgroup/"
 job_search_action = "../jobsearch/searchresult.asp"
 Metatag="Explore a career in Corporate Finance with Bank of America's Corporate Staff & Support."

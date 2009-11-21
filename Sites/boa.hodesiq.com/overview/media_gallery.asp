@@ -9,7 +9,8 @@ ada_href = "../ada/media_gallery.asp"
 page_self = "../overview/media_gallery.asp"
 ada_title = breadcrumb & "Media Gallery"
 job_search_action = "../jobsearch/searchresult.asp"
-Metatag=""
+Metatag="Media gallery detail page of Bank of America careers web site. Provides an archived, categorized view of Bank of America's career-related video and multimedia assets, as well as dynamic job search."
+Keywords="Bank of America, media gallery, multi-media, video, videos, streaming media links, career, job search"
 %>
 <!-- Header -->
 <!-- #include file="../includes/header.asp" -->

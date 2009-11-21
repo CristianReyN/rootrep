@@ -10,7 +10,7 @@ fpage = "metlifeautohomeinsurance"
 title = breadcrumb_extended
 ada_href = "../ada/metlife_ahins.asp"
 page_self = "../learnmore/metlife_ahins.asp"
-ada_title = breadcrumb & "MetLife Auto & Home Insurance Program"
+ada_title = breadcrumb_extended
 job_search_action = "../jobsearch/searchresult.asp"
 Metatag="Page is specific to information on the MetLife Auto & Home Insurance Program."
 %>

@@ -177,10 +177,14 @@ H2.hi
     background-color: transparent;
     text-decoration: underline;
 }
-H2.g
+H2.g, H2.gc
 {
     background-color: #e8e8e9;
     padding: 4px 4px 6px 4px;
+}
+H2.g
+{
+    font-size: 0.9em;
 }
 
 H2

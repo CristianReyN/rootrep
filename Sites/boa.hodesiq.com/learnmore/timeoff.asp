@@ -10,7 +10,7 @@ fpage = "timeoff"
 title = breadcrumb_extended
 ada_href = "../ada/timeoff.asp"
 page_self = "../learnmore/timeoff.asp"
-ada_title = breadcrumb & "Time Away"
+ada_title = breadcrumb_extended
 job_search_action = "../jobsearch/searchresult.asp"
 Metatag="Highlight information related to time off as an associate with Bank of America."
 %>

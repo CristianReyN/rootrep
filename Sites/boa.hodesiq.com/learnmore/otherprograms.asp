@@ -10,7 +10,7 @@ fpage = "otherprograms"
 title = breadcrumb_extended
 ada_href = "../ada/otherprograms.asp"
 page_self = "../learnmore/otherprograms.asp"
-ada_title = breadcrumb & "Other Programs: Your Finances, Community Commitments, and Education"
+ada_title = breadcrumb_extended
 job_search_action = "../jobsearch/searchresult.asp"
 Metatag=""
 %>

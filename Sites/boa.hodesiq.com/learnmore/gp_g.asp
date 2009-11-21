@@ -11,7 +11,7 @@ fvpage = "gp_g"
 title = breadcrumb_extended
 ada_href = "../ada/gp_g.asp"
 page_self = "../learnmore/gp_g.asp"
-ada_title = breadcrumb & "Campus Recruiting | Graduate/Associate Programs | TRUST OFFICER, U.S. Trust, Bank of America Private Wealth Management"
+ada_title = breadcrumb_extended
 job_search_action = "../jobsearch/searchresult.asp"
 Metatag="Page designed for student recruiting. Links available on the page: undergraduate/analyst programs, graduate/associate programs, internships and a campus recruiting calendar. The option to do a job search is also present on this page."
 %>

@@ -1,13 +1,15 @@
 <% Response.Buffer=True 
-Dim title, mpage, spage, ada_href, ada_title, job_search_action, Metatag%>
-<!-- #include file="../includes/breadcrumb.asp" -->
-<% title = breadcrumb & "Lines of Business | Corporate Staff &amp; Support | Global Marketing &amp; Corporate Affairs"
+Dim title, mpage, spage, ada_href, ada_title, job_search_action, Metatag
 mpage = "lob"
 spage = "lobcss"
 tpage = "lobgmca"
+%>
+<!-- #include file="../includes/breadcrumb.asp" -->
+<%
+title = breadcrumb_extended
 ada_href = "../ada/lobgmca.asp"
 page_self = "../marketing/default.asp"
-ada_title = breadcrumb & "Lines of Business | Corporate Staff &amp; Support | Global Marketing &amp; Corporate Affairs"
+ada_title = breadcrumb_extended
 job_search_action = "../jobsearch/searchresult.asp"
 Metatag="Explore a career in Global Marketing & Corporate Affairs with Bank of America's Corporate Staff & Support."
 %>

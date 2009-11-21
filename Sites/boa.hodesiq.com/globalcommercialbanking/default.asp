@@ -1,15 +1,18 @@
 <% Response.Buffer=True 
-Dim title, mpage, spage, ada_href, ada_title, job_search_action, Metatag%>
-<!-- #include file="../includes/breadcrumb.asp" -->
-<% title = breadcrumb & "Lines of Business | Global Banking, Markets &amp; Wealth Management | Global Commercial Banking"
+Dim title, mpage, spage, ada_href, ada_title, job_search_action, Metatag
 mpage = "lob"
 spage = "lobgbmwm"
 tpage = "lobgcb"
+%>
+<!-- #include file="../includes/breadcrumb.asp" -->
+<%
+title = breadcrumb_extended
 ada_href = "../ada/lobgcb.asp"
 page_self = "../globalcommercialbanking/"
-ada_title = breadcrumb & "Lines of Business | Global Banking, Markets &amp; Wealth Management | Global Commercial Banking"
+ada_title = breadcrumb_extended
 job_search_action = "../jobsearch/searchresult.asp"
-Metatag=""
+Metatag="Global Commercial Banking detail page of BOA careers site. Provides an overview of the line of business, as well as dynamic job search."
+Keywords="Bank of America, Merrill Lynch, Global Commercial Banking, financial institutions, small- and middle-market businesses, banking, investing, asset management, financial, risk management, financial advisor, GCB, merger with Merrill Lynch, wealth and investment management, capital markets, credit, cash management solutions, Bank of America Merrill Lynch, career, job search"
 %>
 <!-- Header -->
 <!-- #include file="../includes/header.asp" -->

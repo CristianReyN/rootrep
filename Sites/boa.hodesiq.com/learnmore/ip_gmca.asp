@@ -11,7 +11,7 @@ fvpage = "ip_gmca"
 title = breadcrumb_extended
 ada_href = "../ada/ip_gmca.asp"
 page_self = "../learnmore/ip_gmca.asp"
-ada_title = breadcrumb & "Campus Recruiting | Internship Programs | Global Marketing &amp; Corporate Affairs"
+ada_title = breadcrumb_extended
 job_search_action = "../jobsearch/searchresult.asp"
 Metatag=""
 %>

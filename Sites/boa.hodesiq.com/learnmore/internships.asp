@@ -11,7 +11,7 @@ fpage = "internships"
 title = breadcrumb_extended
 ada_href = "../ada/internships.asp"
 page_self = "../learnmore/internships.asp"
-ada_title = breadcrumb & "Internships"
+ada_title = breadcrumb_extended
 job_search_action = "../jobsearch/searchresult.asp"
 Metatag="Detailed information on internship programs with Bank of America."
 %>
