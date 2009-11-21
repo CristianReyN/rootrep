@@ -1,0 +1,28 @@
+.whitebg {background-color: #FFFFFF;}
+
+/* Saf : Apple Safari, Firefox, Nescape 4.7, Netscape 6+, */
+a.saf-btn, a.saf-btn-over {font-size: 0.84em; font-weight: bold; color: #ffffff; background: #366496; border-color: #CBE3FF #003366 #003366 #B7CFEB; width: 100%; padding: 2px 4px 2px 4px;}
+.saf-btn {width: 100%;}
+a.saf-btn, a.saf-btn-over {font-size: 0.9em; text-decoration: none; padding: 2px 4px 2px 4px; border-top: 1px solid #CBE3FF; border-right: 1px solid #003366; border-bottom: 1px solid #003366; border-left:1px solid #B7CFEB;}
+a.saf-btn:hover, a.saf-btn-over {color: #C7D2DC;}
+div.saf-btn {font-family : Verdana, Geneva, Arial, Helvetica, sans-serif; background: #366496; background: #ffffff; border-right: 1px solid #000000;	border-bottom: 1px solid #000000; border-top:1px solid #CBE3FF;	border-left:1px solid #B7CFEB; width: auto; height: auto; padding: 3px 0px 4px 0px;}
+
+
+/* Opera */
+a.opera-btn, a.opera-btn-over {font-size: 0.84em; font-weight: bold; text-decoration: none;color: #ffffff; background: #366496; border-color: #CBE3FF #003366 #003366 #B7CFEB; width: 100%; padding: 2px 0px 3px 4px;}
+.opera-btn {width: 100%;}
+a.opera-btn, a.opera-btn-over {font-size: 0.9em; text-decoration: none; padding: 2px 0px 3px 4px; border-top: 1px solid #CBE3FF; border-right: 1px solid #003366; border-bottom: 1px solid #003366; border-left: 1px solid #B7CFEB;}
+a.opera-btn:hover, a.opera-btn-over {color: #C7D2DC;}
+div.opera-btn {font-family : Verdana, Geneva, Arial, Helvetica, sans-serif; background: #366496; border-right: 1px solid #000000; border-bottom: 1px solid #000000; border-top:1px solid #CBE3FF; border-left:1px solid #B7CFEB; width: auto; padding: 3px 0px 5px 0px;}
+
+
+/* Standards Compliant Browsers: MSIE 5.5 and up (Win and Mac),  */
+a.ie-btn, a.ie-btn-over {font-size: 0.77em; font-weight: bold; color: #ffffff; background: #366496; border-color: #CBE3FF #003366 #003366 #B7CFEB; width: 100%; padding: 3px 4px 3px 5px;}
+a.ie-btn, a.ie-btn-over {font-size: 0.84em; border: 1px solid; padding: 3px 4px 3px 5px; text-decoration: none; line-height: 120%;}
+a.ie-btn:hover, a.ie-btn-over {color: #C7D2DC;}
+div.ie-btn {font-family : Verdana, Geneva, Arial, Helvetica, sans-serif; border-right: 1px solid #000000; border-bottom: 1px solid #000000; border-top:1px solid #CBE3FF; border-left:1px solid #B7CFEB;}
+
+
+input.btn, a.btn, a.btn-over{font-family:Verdana, Geneva, Arial, Helvetica, sans-serif; font-size: 0.77em; font-weight: bold; color: #ffffff; background:#366496; border-right: 2px solid #000000; border-bottom: 2px solid #000000; border-top: 2px solid #CBE3FF; border-left: 2px solid #B7CFEB; width: auto; padding: 2px 4px 2px 4px;}
+
+input.btn { display:block;}

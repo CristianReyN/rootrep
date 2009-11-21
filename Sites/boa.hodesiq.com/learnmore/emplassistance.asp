@@ -1,13 +1,13 @@
 <% Response.Buffer=True 
 Dim title, mpage, spage, ada_href, ada_title, job_search_action, Metatag
-title = "Bank of America | Career | Fact Sheets"
+title = "Bank of America | Career | Employee Assistance Program (EAP)"
 mpage = "learnmore"
-spage = "diversity"
-ada_href = "../ada/factsheets.asp"
-page_self = "../learnmore/factsheets.asp"
-ada_title = "Bank of America | Career | Fact Sheets, Text Only Version"
+spage = "benefitsadv"
+ada_href = "../ada/emplassistance.asp"
+page_self = "../learnmore/emplassistance.asp"
+ada_title = "Bank of America | Career | Employee Assistance Program (EAP), Text Only Version"
 job_search_action = "../jobsearch/searchresult.asp"
-Metatag="Detailed facts on diversity within Bank of America are depicted on this page."
+Metatag="Highlight information on the Employee Assistance Program available to Bank of America associates."
 %>
 <!-- Header -->
 <!-- #include file="../includes/header.asp" -->
@@ -27,7 +27,7 @@ Metatag="Detailed facts on diversity within Bank of America are depicted on this
 	<td valign="top" width="578" height="100%">
 <!-- Body-->
 <img src="../images/clear.gif" width="15" height="4" alt="" border="0"><br>
-<!-- #include file="../includes/pages/factsheets.asp" -->
+<!-- #include file="../includes/pages/emplassistance.asp" -->
 <br><br>
 <!-- Body-->
 	</td>

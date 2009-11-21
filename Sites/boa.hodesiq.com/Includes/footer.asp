@@ -9,7 +9,7 @@
 		<img src="../images/clear.gif" width="1" height="19" alt="" border="0" />
 		<div class="ftrtxt2">Bank of America, N.A. Member FDIC.
 		<a href="http://www.bankofamerica.com/help/equalhousing_popup.cfm" onclick="javascript:window.open('http://www.bankofamerica.com/help/equalhousing_popup.cfm','newwin','width=640,height=371,scrollbars=yes,resizable=yes,left=35,top=161'); return false;" target="_blank" class="ftrlnk" onfocus="this.className='ftrlnk-over';" onblur="this.className='ftrlnk';" title="Link opens Equal Housing Lender pop-up window">Equal Housing Lender</a><a href="http://www.bankofamerica.com/help/equalhousing_popup.cfm" onclick="javascript:window.open('http://www.bankofamerica.com/help/equalhousing_popup.cfm','newwin','width=640,height=371,scrollbars=yes,resizable=yes,left=35,top=161'); return false;" target="_blank" title="Link opens Equal Housing Lender pop-up window"><img src="../images/house.gif" width="14" height="9" hspace="3" alt="Link opens Equal Housing Lender pop-up window" border="0"></a><br>
-		&copy; 2006 Bank of America Corporation. All rights reserved.</div><br></td>
+		&copy; 2007 Bank of America Corporation. All rights reserved.</div><br></td>
 		<td align="right" width="131"><a href="http://www.bankofamerica.com/sponsorships/" title="Official Sponsor 2004-2008 U.S. Olympic Teams"><img src="../images/foot_olympic.gif" alt="Official Sponsor 2004-2008 U.S. Olympic Teams" width="131" height="33" border="0" align="right" vspace="7"></a></td>
 	</tr>
 </table>
@@ -153,9 +153,9 @@ function popnav(show)
 {var d=document; if(d.getElementById("tdtbnav")&&d.getElementById("tbnav")&&d.getElementById("tdnav")&&d.getElementById("anav")){if(show || anavShow){d.getElementById("anav").style.visibility = "visible"; d.getElementById("anav").style.display = "block";d.getElementById("anav").style.left=d.getElementById("tdtbnav").offsetLeft+d.getElementById("tbnav").offsetLeft+d.getElementById("tdnav").offsetLeft+d.getElementById("tdnav").offsetWidth-3;d.getElementById("anav").style.top=d.getElementById("tdtbnav").offsetTop+d.getElementById("tbnav").offsetTop+d.getElementById("tdnav").offsetTop;}else{d.getElementById("anav").style.visibility = "hidden"; d.getElementById("anav").style.display = "none";}
 } setTimeout("anavShow = false;",500);}
 </script>
-<div id="anav" style="position: absolute; left: 0px; top: 0px; visibility: hidden; display: none; z-index: 100; border: 1px solid #cccccc; font-size: 0.8em;" onmouseover="popnav(true);" onmouseout="popnav(false);">
+<div id="anav" style="position: absolute; left: 0px; top: 0px; visibility: hidden; display: none; z-index: 100; border: 1px solid #7F99B2; font-size: 0.8em;" onmouseover="popnav(true);" onmouseout="popnav(false);">
 <table width="160" cellpadding="0" cellspacing="0" border="0" summary="Areas of Talent Navigation">
-<%	call AreasOfTalentNav("#cccccc") %>
+<%	call AreasOfTalentNav("#7F99B2") %>
 </table>
 </div>
 <%
@@ -169,9 +169,9 @@ function popnavr(show)
 {var d=document; if(d.getElementById("tdtbnav")&&d.getElementById("tbnav")&&d.getElementById("tdnavr")&&d.getElementById("anavr")){if(show || anavrShow){d.getElementById("anavr").style.visibility = "visible"; d.getElementById("anavr").style.display = "block";d.getElementById("anavr").style.left=d.getElementById("tdtbnav").offsetLeft+d.getElementById("tbnav").offsetLeft+d.getElementById("tdnavr").offsetLeft+d.getElementById("tdnavr").offsetWidth-3;d.getElementById("anavr").style.top=d.getElementById("tdtbnav").offsetTop+d.getElementById("tbnav").offsetTop+d.getElementById("tdnavr").offsetTop;}else{d.getElementById("anavr").style.visibility = "hidden"; d.getElementById("anavr").style.display = "none";}
 } setTimeout("anavrShow = false;",500);}
 </script>
-<div id="anavr" style="position: absolute; left: 0px; top: 0px; visibility: hidden; display: none; z-index: 100; border: 1px solid #cccccc; font-size: 0.8em;" onmouseover="popnavr(true);" onmouseout="popnavr(false);">
+<div id="anavr" style="position: absolute; left: 0px; top: 0px; visibility: hidden; display: none; z-index: 100; border: 1px solid #7F99B2; font-size: 0.8em;" onmouseover="popnavr(true);" onmouseout="popnavr(false);">
 <table width="160" cellpadding="0" cellspacing="0" border="0" summary="Related Information Navigation">
-<%	call RelInfoNav("#cccccc") %>
+<%	call RelInfoNav("#7F99B2") %>
 </table>
 </div>
 <%

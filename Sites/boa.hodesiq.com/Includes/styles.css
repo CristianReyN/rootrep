@@ -83,8 +83,8 @@ H2.hi
 }
 H2.g
 {
-    background-color: #ececec;
-	padding: 4px 6px 4px 6px;
+    background-color: #e8e8e9;
+	padding: 4px 4px 6px 4px;
 }
 
 H2
@@ -212,7 +212,7 @@ INPUT.btn1
 	padding: 0px 4px 0px 4px;
 }
 
-INPUT.bodybtn
+INPUT.bodybtn, INPUT.bodybtn-over
 {
 	font-family : Verdana, Helvetica, sans-serif;
 	font-size : 0.9em;
@@ -220,12 +220,26 @@ INPUT.bodybtn
 	font-weight : bold;
 	color: #ffffff;
 	background-color: #366496;
-	border-right: 2px solid #000000;
-	border-bottom: 2px solid #000000;
-	border-top: 2px solid #CBE3FF;
-	border-left: 2px solid #B7CFEB;
+	border-right: 1px solid #003366;
+	border-bottom: 1px solid #003366;
+	border-top: 1px solid #CBE3FF;
+	border-left: 1px solid #B7CFEB;
 	width: auto;
-	padding: 1px 4px 2px 4px;
+	padding: 2px 1px 3px 1px;
+	margin: 0px;
+	cursor: pointer;
+}
+INPUT.bodybtn-over{color: #C7D2DC;}
+DIV.bodybtn
+{
+	background-color: #366496;
+	border-right: 1px solid #000000;
+	border-bottom: 1px solid #000000;
+	border-top: 1px solid #CBE3FF;
+	border-left: 1px solid #B7CFEB;
+	width: auto;
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
 	cursor: pointer;
 }
 INPUT.navbtn
@@ -242,6 +256,36 @@ INPUT.navbtn
 	width: 100px;
 	padding: 0px 4px 0px 4px;
 }
+
+
+A
+{
+	font-family : Verdana, Helvetica, sans-serif;
+	font-size : 0.9em;
+	line-height : 1.1em;
+	font-weight : normal;
+    color: #405EBE;
+    text-decoration: underline;
+}
+A.hover, A.over
+{
+	font-family : Verdana, Helvetica, sans-serif;
+	font-size : 0.9em;
+	line-height : 1.1em;
+	font-weight : normal;
+    color: #0000FF;
+    text-decoration: none;
+}
+A.visited
+{
+	font-family : Verdana, Helvetica, sans-serif;
+	font-size : 0.9em;
+	line-height : 1.1em;
+	font-weight : normal;
+    color: #651C7E;
+    text-decoration: underline;
+}
+
 A.g, A.g:visited
 {
 	font-family : Verdana, Helvetica, sans-serif;
@@ -258,85 +302,7 @@ A.g:hover, A.g-over
 	font-size : 0.9em;
 	line-height : 2.1em;
 	font-weight : bold;
-    color: #be5a33;
-    background-color: transparent;
-    text-decoration: none;
-}
-A.nv, A.nv:visited
-{
-	font-family : Verdana, Helvetica, sans-serif;
-	font-size : 1.0em;
-	line-height : 1.2em;
-	font-weight : normal;
-    color: #000000;
-    text-decoration: underline;
-}
-A.nv:hover, A.nv-over
-{
-	font-family : Verdana, Helvetica, sans-serif;
-	font-size : 1.0em;
-	line-height : 1.2em;
-	font-weight : normal;
-    color: #be5a33;
-    text-decoration: none;
-}
-A.p, A.p:visited, SPAN.pl
-{
-	font-family : Verdana, Helvetica, sans-serif;
-	font-size : 1.0em;
-	line-height : 1.2em;
-	font-weight : normal;
-    color: #405ebe;
-    text-decoration: underline;
-}
-SPAN.pl{text-decoration: none;}
-A.p:hover, A.p-over
-{
-	font-family : Verdana, Helvetica, sans-serif;
-	font-size : 1.0em;
-	line-height : 1.2em;
-	font-weight : normal;
-    color: #be5a33;
-    text-decoration: none;
-}
-
-A.left, A.left:visited
-{
-	font-family : Arial, Helvetica, sans-serif;
-	font-size : 1.0em;
-	line-height : 1.0em;
-	font-weight : normal;
-    color: #003366;
-    text-decoration: underline;
-}
-A.left:hover, A.left-over
-{
-	font-family : Arial, Helvetica, sans-serif;
-	font-size : 1.0em;
-	line-height : 1.0em;
-	font-weight : normal;
-    color: #be5a33;
-    text-decoration: none;
-}
-
-A.left2, A.left2:visited, SPAN.left2
-{
-	font-family : Verdana, Helvetica, sans-serif;
-	font-size : 1.0em;
-	line-height : 1.0em;
-	font-weight : bold;
-    color: #003366;
-    background-color: transparent;
-    text-decoration: underline;
-}
-SPAN.left2{text-decoration: none;}
-A.left2:hover, A.left2-over
-{
-	font-family : Verdana, Helvetica, sans-serif;
-	font-size : 1.0em;
-	line-height : 1.0em;
-	font-weight : bold;
-    color: #be5a33;
+    color: #AA051A;
     background-color: transparent;
     text-decoration: none;
 }
@@ -356,39 +322,109 @@ A.sbtxt:hover, A.sbtxt-over
 	font-size : 0.9em;
 	line-height : 1.2em;
 	font-weight : normal;
-    color: #be5a33;
+    color: #AA051A;
     background-color: transparent;
     text-decoration: none;
 }
 
-A.sblnk, A.sblnk:visited
+A.p, A.sblnk, SPAN.pl
 {
 	font-family : Verdana, Helvetica, sans-serif;
 	font-size : 1.0em;
 	line-height : 1.2em;
 	font-weight : normal;
-    color: #405ebe;
+    color: #405EBE;
+    text-decoration: underline;
+}
+SPAN.pl{text-decoration: none;}
+SPAN.un{text-decoration: underline;}
+SPAN.bd{font-weight : bold;}
+A.p:hover, A.p-over, A.sblnk:hover
+{
+	font-family : Verdana, Helvetica, sans-serif;
+	font-size : 1.0em;
+	line-height : 1.2em;
+	font-weight : normal;
+    color: #0000FF;
+    text-decoration: none;
+}
+A.p:visited, A.sblnk:visited
+{
+	font-family : Verdana, Helvetica, sans-serif;
+	font-size : 1.0em;
+	line-height : 1.2em;
+	font-weight : normal;
+    color: #651C7E;
+    text-decoration: underline;
+}
+
+A.left
+{
+	font-family : Arial, Helvetica, sans-serif;
+	font-size : 1.0em;
+	line-height : 1.0em;
+	font-weight : normal;
+    color: #405EBE;
+    text-decoration: underline;
+}
+A.left:hover, A.left-over
+{
+	font-family : Arial, Helvetica, sans-serif;
+	font-size : 1.0em;
+	line-height : 1.0em;
+	font-weight : normal;
+    color: #0000FF;
+    text-decoration: none;
+}
+A.left:visited
+{
+	font-family : Arial, Helvetica, sans-serif;
+	font-size : 1.0em;
+	line-height : 1.0em;
+	font-weight : normal;
+    color: #651C7E;
+    text-decoration: underline;
+}
+
+A.left2, SPAN.left2
+{
+	font-family : Verdana, Helvetica, sans-serif;
+	font-size : 1.0em;
+	line-height : 1.0em;
+	font-weight : bold;
+    color: #405EBE;
     background-color: transparent;
     text-decoration: underline;
 }
-A.sblnk:hover
+SPAN.left2{color: #003366; text-decoration: none;}
+A.left2:hover, A.left2-over
 {
 	font-family : Verdana, Helvetica, sans-serif;
 	font-size : 1.0em;
-	line-height : 1.2em;
-	font-weight : normal;
-    color: #0000ee;
+	line-height : 1.0em;
+	font-weight : bold;
+    color: #0000FF;
+    background-color: transparent;
+    text-decoration: none;
+}
+A.left2:visited
+{
+	font-family : Verdana, Helvetica, sans-serif;
+	font-size : 1.0em;
+	line-height : 1.0em;
+	font-weight : bold;
+    color: #651C7E;
     background-color: transparent;
     text-decoration: underline;
 }
 
-A.ftrlnk, A.ftrlnk:visited
+A.ftrlnk
 {
 	font-family : Verdana, Helvetica, sans-serif;
 	font-size : 0.9em;
 	line-height : 1.1em;
 	font-weight : normal;
-    color: #405ebe;
+    color: #405EBE;
     text-decoration: none;
 }
 A.ftrlnk:hover, A.ftrlnk-over
@@ -397,7 +433,16 @@ A.ftrlnk:hover, A.ftrlnk-over
 	font-size : 0.9em;
 	line-height : 1.1em;
 	font-weight : normal;
-    color: #0000ee;
+    color: #0000FF;
+    text-decoration: none;
+}
+A.ftrlnk:visited
+{
+	font-family : Verdana, Helvetica, sans-serif;
+	font-size : 0.9em;
+	line-height : 1.1em;
+	font-weight : normal;
+    color: #651C7E;
     text-decoration: none;
 }
 
@@ -460,7 +505,7 @@ div.btn1 {
 	left: -10000px;
 	top: -10000px;
 	position: absolute;
-} 
+}
 .show-tab
 {
 	font-family : Verdana, Helvetica, sans-serif;

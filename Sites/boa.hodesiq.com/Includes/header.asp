@@ -69,7 +69,7 @@ document.write('<a class="auraltext" href="<%=ada_href%>" onFocus="hover(this,\'
 
 <table width="750" cellpadding="0" cellspacing="0" border="0" summary="">
 <tr>
-	<td valign="top" colspan="4" height="71">
+	<td valign="top" colspan="3" height="71">
 		<table width="750" border="0" cellspacing="0" cellpadding="0" summary="">
 			<tr>
 				<td width="262" valign="top"><a name="top"></a><a href="#skipmaincontent" title="Skip To Main Content."><img src="../images/clear.gif" width="1" height="69" alt="Skip To Main Content." border="0" /></a><img src="../images/clear.gif" width="10" height="69" alt="" border="0" /><a href="http://www.bankofamerica.com" title="Bank of America  Higher Standards home page"><img src="../images/mhd_reg_logo.gif" width="250" height="69" alt="Bank of America Higher Standards home page" border="0" /></a><a href="http://www.bankofamerica.com/help/index.cfm?template=sitemap.cfm" title="Go to site map."><img src="../images/clear.gif" width="1" height="69" alt="Go to site map." border="0" /></a></td>
@@ -96,15 +96,17 @@ document.write('<a class="auraltext" href="<%=ada_href%>" onFocus="hover(this,\'
 										<td width="100%" style="padding: 0px;">
 <input type="text" maxlength="75" class="searchbox" style="width: 100%;" id="question_box" name="question_box" value="" alt="Question or phrase to search." title="Get answers fast. Type in a question or phrase."></td>
 										<td width="10"><img src="../images/clear.gif" width="10" height="0" alt="" border="0" /></td>
-										<td valign="top" nowrap>
-<script language="JavaScript1.1" type="text/javascript">
+										<td width="60" valign="top" nowrap>
+<link href="../Includes/hs_safebutton.css" type="text/css" rel="stylesheet">
+<script src="../Includes/hs_safebutton.js" language="JavaScript" type="text/javascript"></script>
+<script language="JavaScript" type="text/javascript">
 <!--
-create_button("Search","javascript:submit_search();","btn1",null,null,null,null);
+create_safebutton("Search","javascript: submit_search();",0,0,0,0,"Search");
 //-->
 </script>
-<noscript><input type="submit" name="Search" value="Search" title="Search" alt="Search" class="btn1"></noscript>
+<noscript><input name="Search" alt="Search" value="Search" title="Search" type="Submit"  class="btn"/></noscript>
 										</td>
-										<td width="10"><img src="../images/clear.gif" width="10" height="0" alt="" border="0" /></td>
+										<td width="4"><img src="../images/clear.gif" width="4" height="0" alt="" border="0" /></td>
 									</tr>
 								</table>
 </form>
@@ -125,13 +127,11 @@ create_button("Search","javascript:submit_search();","btn1",null,null,null,null)
 <img src="../images/careers.gif" width="76" height="25" alt="Bank of America | Career" title="Bank of America | Career" border="0"></td>
 </tr>
 <tr>
-	<td width="160" style="background: #cadceb;"><img src="../images/clear.gif" width="160" height="1" alt="" border="0"></td>
-	<td width="1"><img src="../images/clear.gif" width="1" height="1" alt="" border="0"></td>
-	<td width="11"><img src="../images/clear.gif" width="11" height="1" alt="" border="0"></td>
+	<td width="160" style="background: #0099cc;"><img src="../images/clear.gif" width="160" height="1" alt="" border="0"></td>
+	<td width="12"><img src="../images/clear.gif" width="12" height="1" alt="" border="0"></td>
 	<td width="578"><a name="skipnav"></a></td>
 </tr>
 <tr valign="top">
-	<td id="tdtbnav" width="160" valign="top" align="center"><img src="../images/clear.gif" width="160" height="1" alt="" border="0"><br>
+	<td id="tdtbnav" width="160" valign="top" align="center" style="background: #0099cc;"><img src="../images/clear.gif" width="160" height="1" alt="" border="0"><br>
 		<table id="tbnav" width="160" cellpadding="0" cellspacing="0" border="0" summary="Site Navigation">
-			<tr valign="top" style="background: #cadceb;"><td valign="middle" height="10"><img src="../images/clear.gif" width="154" height="10" alt="" border="0"></td></tr>
-			<tr valign="top" style="background: #ffffff;"><td valign="middle"><img src="../images/white.gif" width="154" height="1" alt="" border="0"></td></tr>
+			<tr valign="top"><td valign="top" height="2"><img src="../images/clear.gif" width="154" height="2" alt="" border="0"></td></tr>

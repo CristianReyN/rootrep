@@ -24,7 +24,7 @@ If playflash = "1" Then flashPage = false
 <!-- Left Nav -->
 <!-- #include file="../includes/lnav.asp" -->
 <!-- Left Nav -->
-			<tr valign="top"><td style="background: #cadceb;" height="50">
+			<tr valign="top"><td height="450" style="background: #cadceb;">
 <div id="flash1" style="position: absolute;">
 <table width="160" cellpadding="0" cellspacing="0" border="0" summary="">
 <tr><td align="right"><br><a href="<%=ada_href %>#vht" id="videotranscript" title="<% If playflash="" Then %>Virtual Host Video Transcript<% Else %><%=ada_title %><% End If %>" class="g" onfocus="this.className='g-over';" onblur="this.className='g';"><% If playflash="" Then %>Video Transcript<% Else %>Text Only Version<% End If %></a>&nbsp;&nbsp;</td></tr>
@@ -46,7 +46,7 @@ if ( hasRequestedVersion ) {
 	<% If playflash <> "1" Then %>
    document.write(hiddenFlash);
    <%  Else %>
-   document.write('<table width="160" height="400" cellpadding="0" cellspacing="0" border="0" summary=""><tr><td valign="bottom"><a href="Javascript: replayVirtualHost();" title="Replay Virtual Host" class="g" onfocus="this.className=\'g-over\';" onblur="this.className=\'g\';"><img src="../images/replay.gif" width="40" height="13" alt="Replay Virtual Host" border="0" onmouseover="this.src=\'../images/replay-over.gif\';" onmouseout="this.src=\'../images/replay.gif\';"></a></td></tr></table>');
+   document.write('<table width="160" height="400" cellpadding="0" cellspacing="0" border="0" summary=""><tr><td valign="bottom"><a href="Javascript: replayVirtualHost();" title="Replay Virtual Host" class="g" onfocus="this.className=\'g-over\';" onblur="this.className=\'g\';"><img src="../images/replay.gif" width="40" height="14" alt="Replay Virtual Host" border="0" onmouseover="this.src=\'../images/replay-over.gif\';" onmouseout="this.src=\'../images/replay.gif\';"></a></td></tr></table>');
    <%  End If %>
    document.write('</div>');
 } else {
@@ -67,13 +67,12 @@ if ( hasRequestedVersion ) {
 </div>
 </noscript>
 </div>
-</td></tr>
-			<tr valign="top"><td style="background: #ececec;" height="50"><img src="../images/clear.gif" width="154" height="1" alt="" border="0"></td></tr>
+			</td></tr>
+			<tr valign="top"><td height="50"><img src="../images/clear.gif" width="154" height="1" alt="" border="0"></td></tr>
 			<tr valign="top"><td height="50"><img src="../images/clear.gif" width="154" height="1" alt="" border="0"></td></tr>
 		</table>
 	</td>
-	<td width="1"><img src="../images/clear.gif" width="1" height="1" alt="" border="0"></td>
-	<td width="11" class="divl"><img src="../images/clear.gif" width="10" height="1" alt="" border="0"></td>
+	<td width="12"><img src="../images/clear.gif" width="12" height="1" alt="" border="0"></td>
 	<td valign="top" width="578" height="100%">
 <!-- Body-->
 <img src="../images/clear.gif" width="15" height="4" alt="" border="0"><br>
