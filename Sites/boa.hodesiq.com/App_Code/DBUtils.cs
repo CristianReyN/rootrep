@@ -61,6 +61,7 @@ public class DBUtils
             con.Open();
             OleDbDataAdapter da = new OleDbDataAdapter(sql, con);
             da.Fill(ds);
+            con.Close();
             
         }
         catch (Exception ex)
