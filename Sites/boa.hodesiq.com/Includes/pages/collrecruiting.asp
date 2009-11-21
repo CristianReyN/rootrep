@@ -4,7 +4,7 @@
 	if page_section <> "ADA" then href_pre = "../learnmore/" %>
 			<tr valign="top">
 				<td width="100%" colspan="2" valign="top">
-<div style="position: relative;"><div style="position: absolute; left: 407; top: 130; z-index: 12;">
+<div style="position: relative;"><div style="position: absolute; left: 407; top: 136; z-index: 12;">
 <a href="<%Response.write href_pre%>career_compass.asp" title="Explore"><img src="../images/boa_explore.gif" alt="Explore" width="106" height="22" border="0"></a>
 </div><img src="../images/collegerecr.jpg" width="389" height="166" alt="Bank of America has proven itself as a leader." title="Bank of America has proven itself as a leader." border="0"><img src="../images/collegerecrt.jpg" width="189" height="166" alt="Find your ideal opportunity  with our Career Compass." title="Find your ideal opportunity  with our Career Compass." border="0">
 </div>
@@ -28,7 +28,7 @@ At Bank of America, we believe new ideas are the currency of success. Join the t
 Find the ideal opportunity that fits your skills and talents.
 </p>
 
-<a href="http://bankofamericacareers.com/college/" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="Campus events" target="_blank">Campus events</a>
+<a href="http://bankofamericacareers.com/college/" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="Campus Calendar" target="_blank">Campus Calendar</a>
 <p style="margin: 3px 0px 12px 0px;">
 Find a recruiting event at your local campus.
 </p>

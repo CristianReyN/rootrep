@@ -1,4 +1,4 @@
-		<a name="skipmaincontent"></a><H1 style="margin: 0px 12px 0px 12px;">Parents Information</H1>
+		<a name="skipmaincontent"></a><H1 style="margin: 0px 12px 0px 12px;">Information for parents</H1>
 
 		<table width="578" cellpadding="0" cellspacing="0" border="0" summary="">
 			<tr valign="top">

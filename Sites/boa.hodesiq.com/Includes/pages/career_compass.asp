@@ -14,11 +14,11 @@
 	
 	store_page_number = 0
 	
-	If ExistsInRequest("restart") Or (request_page_number = 0 And session_page_number = 0) Then
+	If ExistsInRequest("restart.x") Or (request_page_number = 0 And session_page_number = 0) Then
 		session.Contents.RemoveAll()
 		request_page_number = 1
 		store_page_number = 0
-	ElseIf ExistsInRequest("previous") Then
+	ElseIf ExistsInRequest("previous.x") Then
 		request_page_number = request_page_number - 2
 		store_page_number = 0
 	Else

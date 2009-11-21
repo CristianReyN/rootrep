@@ -25,7 +25,8 @@ At Bank of America, we understand that the success of an organization depends on
 				<td width="386" height="100%" valign="top" style="padding: 0px 5px 0px 12px;">
 <H2 style="margin: 12px 0px 2px 0px;">Hot Job Postings</H2>
 <p style="margin: 6px 12px 12px 0px;">
-We invite you to explore career opportunities on our dynamic HR team.
+Interested in joining the "World's Most Admired Global Bank"?<br>
+We invite you to explore career opportunities on our dynamic Human Resources team.
 </p>
 <table cellpadding="2" cellspacing="0" border="0" summary="">
 <!--#include file="../../hot_jobs.asp"-->
@@ -37,7 +38,7 @@ We invite you to explore career opportunities on our dynamic HR team.
 	<img src="../images/clear.gif" width="100%" height="1" alt="" border="0" style="margin: 0px 0px 0px 0px; background: #ffffff;" align="top"><br clear="all">
 	<img src="../images/clear.gif" width="100%" height="1" alt="" border="0" style="margin: 0px 0px 0px 0px; background: #e8e8e9;" align="top"><br clear="all">
 <p style="margin: 6px 6px 0px 6px;"><a class="left" onfocus="this.className='left-over';" onblur="this.className='left';" href="../jobsearch.aspx?jobareas=5|16&stateid=-1&cityid=-1&keywords=&SearchPage=Sp">View current jobs in Human Resources</a></p>
-<p style="margin: 6px 6px 0px 6px;"><a class="left" onfocus="this.className='left-over';" onblur="this.className='left';" href="../jobsearch.aspx?jobareas=5|7&stateid=-1&cityid=-1&keywords=&SearchPage=Sp">View current jobs in Learning & Org Effectiveness</a></p>
+<p style="margin: 6px 6px 0px 6px;"><a class="left" onfocus="this.className='left-over';" onblur="this.className='left';" href="../jobsearch.aspx?jobareas=5|7&stateid=-1&cityid=-1&keywords=&SearchPage=Sp">View current jobs in Learning &amp; Leadership Development</a></p>
 </div>
 
 <div style="text-align: center; margin: 0px; padding: 0px;">

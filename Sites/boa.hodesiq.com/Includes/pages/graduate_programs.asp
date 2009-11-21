@@ -15,7 +15,7 @@
 <%	href_pre = ""
 	if page_section <> "ADA" then href_pre = "../learnmore/" %>
 <!-- #include file="../programs.asp" -->
-<p style="margin: 12px 0px 12px 0px;">To apply, simply sign in as a new or returning user and send us your resume, designating your program(s) of interest from the following options:</p>
+<p style="margin: 12px 0px 0px 0px;">To apply, simply sign in as a new or returning user and send us your resume, designating your program(s) of interest from the following options:<br>&nbsp;</p>
 <% 
 	call getGraduateProgramForm(""," style=""width: 100%; margin: 0px 0px 6px 0px;""","--- Select A Program ---",href_pre,fpage)
 %>

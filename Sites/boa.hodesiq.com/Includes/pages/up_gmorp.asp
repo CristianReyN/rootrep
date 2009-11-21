@@ -1,43 +1,50 @@
-		<a name="skipmaincontent"></a><H1 style="margin: 2px 0px 0px 0px;">Global Middle Office Rotational Program</H1>
+		<a name="skipmaincontent"></a><H1 style="margin: 2px 0px 0px 0px;">Global Middle Office Rotational Program (GMO)</H1>
 		<table width="578" cellpadding="0" cellspacing="0" border="0" summary="">
 			<tr valign="top">
 				<td width="373" height="100%" valign="top" style="padding: 6px 5px 0px 12px;">
 <img class="dotdiv" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
-<h2 class="h2u" style="margin: 0px 0px 0px 0;">Need Copy</h2>
-<!--<p style="margin: 0px 0px 12px 0px;">
-<b>Global Markets Group Operations (GMG Ops)</b> provides operational support for all products in Global Markets, Corporate Treasury and Corporate Investments.  GMG Operations is comprised of four major product groupings and is aligned geographically as well as to provide optimal business support to specific products and business management as follows:
+<h2 class="h2u" style="margin: 0px 0px 0px 0;">Our Business:</h2>
+<p style="margin: 0px 0px 12px 0px;">
+<b>The Global Middle Office (GMO) Group</b> is primarily a control function responsible for providing assurance over data and processes used to record Risk, P/L, Balance Sheet and Financial Results. The seven GMO functions that are critical to ensure business process control include:
 </p>
 <ul>
-	<li><b>Operational Risk, Strategy and Planning</b> - provides quality oversight for GMG Ops as it relates to managing operational risk, overall associate satisfaction and key strategic initiatives</li>
-	<li><b>Global Fixed Income Operations</b> - supports all fixed income cash securities for Banc of America Securities. This Operations team has a unique structure in that clearance and settlement responsibilities are grouped by product type with centralized function groups providing support to the product teams.</li>
-	<li><b>Global Equity and Futures Operations</b> - provides clearance and settlement of all equity and futures products. The mission of this team is to provide a seamless operational platform for trading, sales and underwriting activities by utilizing technology, advanced process and qualified personnel.</li>
-	<li><b>Global Derivatives and Foreign Exchange</b> - provides back office support for Foreign Exchange, Interest Rate Commodity and Credit Derivative businesses. This support includes confirmations, settlements, collateral management and customer service.</li>
+	<li><b>New Business Development:</b> Initiating new product set-ups and coordinating operations processes</li>
+	<li><b>Trade Capture Substantiation:</b> Ensuring new transactions are accurately and consistently recorded</li>
+	<li><b>P&amp;L Validation:</b> Validating P/L through accurate analysis of economic components</li>
+	<li><b>Risk/Position Validation:</b> Proving risks/positions daily</li>
+	<li><b>Balance Sheet Substantiation:</b> Confirming completeness, accuracy and validity of balances </li>
+	<li><b>Event Monitoring:</b> Monitoring for business and positions which have event exposure</li>
+	<li><b>Front-Back Process Oversight:</b> Ensuring no control gaps exist for timely and accurate P/L, Balance Sheet and Position reporting</li>
 </ul>
 
 <h2 class="h2u" style="margin: 0px 0px 0px 0;">Overview:</h2>
 <p style="margin: 0px 0px 12px 0px;">
-This unique, 2-3 year program allows Analysts to rotate through our Global Markets Group Operations, while participating in three 9-12 month rotations within GMG Ops. In addition to developing cross-functional thinking and strong technical skills, Analysts also receive on-the-job training, participate in bi-monthly speaker seminars, and attend events with Analysts and associates from across GT&O. Potential rotations include key product areas (i.e. Equity Operations, Fixed Income, and FX Derivatives) and key functional areas (Accounting, Customer Service, Trade Support and Settlements). An analyst in Global Operations will provide technical and analytical operational support, including monitoring trade flow & balancing trades from the trading desk to our Back-Office systems for Buy/Sell transactions, and performing Trade Date comparison for Municipal and Corporate Bond trades.
+This unique, 2-year program allows analysts to rotate through our Global Middle Office divisions. The program provides exposure to many different areas within Global Middle Office, and a better understanding of where analysts' skills would best be utilized.  
+<br><br>
+Global Middle Office Analysts will complete two, 12-month rotations within Global Middle Office. Potential Middle Office Analyst rotations include key product areas such as Credit Products, Global Liquid Products, Global Structured Products/Equity Financial Products, and key functional areas such as P & L Validation, Risk and Position Validation, and Trade Support. Middle Office Analyst responsibilities include:
+</p>
+<ul>
+	<li>Interfacing with various departments including P&L team, Finance, Compliance, Risk, Technology and Front Office</li>
+	<li>Working with various business representatives to design work streams for new products</li>
+	<li>Developing and implementing automation solutions to capture processing efficiencies</li>
+</ul>
+<p style="margin: 0px 0px 12px 0px;">
+In addition to developing cross-functional thinking and strong technical skills, analysts also receive on-the-job training, participate in bi-monthly speaker seminars and attend events with analysts and associates from across Global Technology and Operations.
 </p>
 
 <h2 class="h2u" style="margin: 0px 0px 0px 0;">Qualifications:</h2>
+<p style="margin: 0px 0px 12px 0px;">Education & Skills:</p>
 <p style="margin: 0px 0px 12px 0px;">
-Education & Skills:
+Candidates must be a final year candidate from a four-year college or university and demonstrate a combination of academic aptitude, quantitative skills, strategic and creative thinking, and excellent written and oral communication skills. Analysts will be required to manage several projects at once and work effectively both individually and as part of a team.
 </p>
-<ul>
-	<li>Final year candidate from a four year college or university</li>
-	<li>Strong academic aptitude, quantitative skills, strategic/creative thinking, and distinguished written/verbal communication skills</li>
-	<li>Ability to manage several projects at once and work effectively both individually and as part of a team. </li>
-</ul>
 
 <p style="margin: 0px 0px 12px 0px;">
 Personality Characteristics:
 </p>
 <ul>
 	<li>Attention to detail</li>
-	<li>Exceptional academic achievement</li>
-	<li>Initiative team focus</li>
+	<li>Initiative; team focus</li>
 	<li>Leadership</li>
-	<li>Strategic and creative thinking capabilities</li>
 	<li>Strong work ethic</li>
 	<li>Dedication to a career in middle office or global operations</li>
 	<li>Geographic mobility</li>
@@ -45,7 +52,7 @@ Personality Characteristics:
 
 <h2 class="h2u" style="margin: 0px 0px 0px 0;">Training:</h2>
 <p style="margin: 0px 0px 12px 0px;">
-As an analyst, you will begin your career at Bank of America with an extensive training program. The full program is a combination of classroom instruction, e-learning modules, case studies and presentations. Throughout the program, you'll have ample opportunities to work closely with professionals and peers throughout our organization. This is a great opportunity to build a network of colleagues from across the Company that will prove to be a tremendous resource to you throughout your career.
+As an analyst, you will begin your career at Bank of America with an extensive training program. The full program is a combination of classroom instruction, e-learning modules, case studies and presentations. Throughout the program, candidates will work closely with professionals and peers throughout our organization, and build a network of colleagues that can provide a solid foundation for future success.
 </p>
 
 <h2 class="h2u" style="margin: 0px 0px 0px 0;">Locations:</h2>
@@ -54,16 +61,15 @@ Charlotte, NC <span class="middot">&middot;</span> Chicago, IL <span class="midd
 </p>
 <p style="margin: 0px 0px 12px 0px;">
 Candidates must be legally authorized to work in the US without sponsorship.
-</p>-->
-<p>&nbsp;</p>
+</p>
+<!-- #include file="../sendresume.asp" -->
+<p style="margin: 0px;">&nbsp;</p>
 <%	href_pre = ""
 	if page_section <> "ADA" then href_pre = "../learnmore/" %>
 <!-- #include file="../programs.asp" -->
 <% 
 	call getUndergraduateProgramForm(""," style=""width: 100%; margin: 0px 0px 6px 0px;""","--- Select A Different Undergraduate Program ---",href_pre,fpage)
 %>
-<br><br>
-<!-- #include file="../sendresume.asp" -->
 <br>
 				</td>
 				<td width="205" height="100%" valign="top">

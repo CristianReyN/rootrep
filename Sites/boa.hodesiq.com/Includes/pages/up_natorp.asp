@@ -56,15 +56,14 @@ Scranton, Pennsylvania; Los Angeles, California; Concord, California; Dallas, Te
 <p style="margin: 0px 0px 12px 0px;">
 Candidates must be legally authorized to work in the US without sponsorship.
 </p>
-<p>&nbsp;</p>
+<!-- #include file="../sendresume.asp" -->
+<p style="margin: 0px;">&nbsp;</p>
 <%	href_pre = ""
 	if page_section <> "ADA" then href_pre = "../learnmore/" %>
 <!-- #include file="../programs.asp" -->
 <% 
 	call getUndergraduateProgramForm(""," style=""width: 100%; margin: 0px 0px 6px 0px;""","--- Select A Different Undergraduate Program ---",href_pre,fpage)
 %>
-<br><br>
-<!-- #include file="../sendresume.asp" -->
 <br>
 				</td>
 				<td width="205" height="100%" valign="top">
