@@ -159,7 +159,7 @@
                                 <!-- Left Nav -->
                                 <tr valign="top">
                                     <td align="right" style="background-color: #cadceb; height: 50" valign="bottom">
-                                        <object data="faq2.swf" type="application/x-shockwave-flash">
+                                        <object data="faq2.swf" type="application/x-shockwave-flash" width="152" height="230">
                                             <param name="movie" value="faq2.swf" />
                                             <param name="scale" value="exactfit" />
                                             If you are reading this it means you don't have flash player installed. Get it <a
