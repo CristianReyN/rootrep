@@ -31,8 +31,8 @@ public partial class Tell_a_friend : System.Web.UI.Page
         message.From = new MailAddress(YourEmail.Text.ToString());
         message.To.Add(new MailAddress(FriendEmail.Text.ToString()));
         message.Subject = "Career opportunity with Bank Of America";
-
-        strMailBody = MessageBox.Text.ToString() + "<br><a href='http://boa.hodesiq.com/jobdetails.aspx?JobId=" + JobId + "'>Click the link for the details of the Job</a>";
+        message.IsBodyHtml = true;
+        strMailBody = MessageBox.Text.ToString() + "<br><a href='http://boa.hodesiq.com/jobdetails.aspx?JobId=" + JobId + "&SearchPage=Sp'>Click the link for the details of the Job</a>";
         message.Body = strMailBody;
         SmtpClient client = new SmtpClient("localhost");
         try
@@ -41,24 +41,9 @@ public partial class Tell_a_friend : System.Web.UI.Page
         }
         catch (Exception ex)
         {
-            Response.Write("Could not send message");
+
+            Response.Write(ex.ToString());
         }
-
-
-           //MailMessage  mail = new MailMessage();
-
-           // mail.To = FriendEmail.Text.ToString();
-           // mail.From = YourEmail.Text.ToString();
-           // mail.Subject = "Career opportunity with Bank Of America";
-           // strMailBody = MessageBox.Text.ToString(); //+ "<br><a href='http://boa.dev.hodesiq.com/jobdetails.aspx?JobId="+JobId+"'>Click the link for the details of the Job</a>";
-           // mail.Body = strMailBody;
-
-           // mail.BodyFormat = MailFormat.Html;
-        
-           // //SmtpMail.SmtpServer = ConfigurationSettings.AppSettings("SmtpServer");
-           // SmtpMail.SmtpServer = ConfigurationManager.GetSection("SmtpServer");
-
-           // SmtpMail.Send(mail);
         
         Response.Redirect("Jobdetails.aspx?JobId=" + JobId + "&SearchPage=" + Request.QueryString["SearchPage"].ToString());
 
