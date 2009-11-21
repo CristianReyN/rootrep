@@ -55,7 +55,7 @@ public partial class JobDetails : System.Web.UI.Page
 			lblHoursPerWeek.Text = dt.Rows[0]["HrsPerWeek"].ToString();
 			lblQualification.Text = dt.Rows[0]["Qualification"].ToString();
 			//apply process goes trough clients page for hits counting:
-			ApplyURL = dt.Rows[0]["ApplyURL"].ToString();
+			ApplyURL = dt.Rows[0]["ApplyURL"].ToString() + "&src=" + Request["src"];
 			this.hApplyNow.Value = "applyrd.aspx?" + HttpUtility.UrlEncode(ApplyURL);
 
 		}
