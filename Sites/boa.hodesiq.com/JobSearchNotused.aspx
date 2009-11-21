@@ -1,4 +1,4 @@
-﻿<%@ Page AutoEventWireup="true" CodeFile="JobSearchNotused.aspx.cs" Inherits="JobSearch"
+﻿<%@ Page AutoEventWireup="true" CodeFile="JobSearchNotused.aspx.cs" Inherits="JobSearchNotused"
     Language="C#" MasterPageFile="~/BOAmaster.master" Title="Search Page" %>
 
 <asp:Content ID="Content1" Runat="Server" ContentPlaceHolderID="cphmain">
