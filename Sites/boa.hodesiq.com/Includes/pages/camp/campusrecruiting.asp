@@ -11,7 +11,7 @@ if ( hasRequestedVersion ) {
 	document.write('<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0" width="578" height="152" align="middle" id="mks_template_med" align="middle" name="mks_template_med" tabindex="0" title="Campus Recruiting. Choose. Connect. Grow. Learn more." style="margin: 0px;">');
 	document.write('<param name="allowScriptAccess" value="sameDomain" />');
 	document.write('<param name="allowFullScreen" value="false" />');
-	document.write('<param name="<param name="movie" value="../images/camp/mks_template_med.swf" />');
+	document.write('<param name="movie" value="../images/camp/mks_template_med.swf" />');
 	document.write('<param name="quality" value="high" />');
 	document.write('<param name="wmode" value="transparent" />');
 	document.write('<param name="bgcolor" value="#ffffff" />');
@@ -23,10 +23,10 @@ if ( hasRequestedVersion ) {
 //-->
 </script>
 <noscript>
-<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0" width="578" height="152" align="middle" id="mks_template_med" align="middle" name="mks_template_med" tabindex="0" title="Campus Recruiting. Choose. Connect. Grow. Learn more." style="margin: 0px;">
+<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0" width="578" height="152" id="mks_template_med" align="middle">
 	<param name="allowScriptAccess" value="sameDomain" />
 	<param name="allowFullScreen" value="false" />
-	<param name="<param name="movie" value="../images/camp/mks_template_med.swf" />
+	<param name="movie" value="../images/camp/mks_template_med.swf" />
 	<param name="quality" value="high" />
 	<param name="wmode" value="transparent" />
 	<param name="bgcolor" value="#ffffff" />
