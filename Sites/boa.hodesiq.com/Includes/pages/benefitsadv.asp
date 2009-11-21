@@ -16,9 +16,9 @@
 	<%	href_pre = ""
 		if page_section <> "ADA" then href_pre = "../learnmore/" %>
 <div id="Layer1" style="position: relative; z-index: 12;">
-<H2 class="left2" style="margin: 0px 0px 6px 0px; padding: 0px;"><a href="<%Response.write href_pre%>benefits.asp" class="left2" title="Benefits &amp; Other Programs">Benefits &amp; Other Programs</a></H2>
+<H2 class="bac" style="margin: 0px 0px 6px 0px; padding: 0px;"><a href="<%Response.write href_pre%>benefits.asp" class="bacb" title="Benefits &amp; Other Programs">Benefits &amp; Other Programs</a></H2>
 <p style="margin: 0px;">We offer one of the most competitive benefits packages in the financial industry, as well as many programs to help our associates achieve a healthy balance between work and life.</p>
-<H2 class="left2" style="margin: 12px 0px 6px 0px; padding: 0px;"><a href="<%Response.write href_pre%>majormarketlife.asp" class="left2" title="Life in our Major Markets">Life in our Major Markets</a></H2>
+<H2 class="bac" style="margin: 12px 0px 6px 0px; padding: 0px;"><a href="<%Response.write href_pre%>majormarketlife.asp" class="bacb" title="Life in our Major Markets">Life in our Major Markets</a></H2>
 <p style="margin: 0px;">With locations coast-to-coast, you're sure to find a community that suits your lifestyle. Our two primary locations in the U.S. are Charlotte, NC and New York, NY.</p>
 <br><br>
 </div>

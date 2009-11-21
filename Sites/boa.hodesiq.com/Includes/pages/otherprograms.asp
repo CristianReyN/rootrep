@@ -27,7 +27,7 @@
 <H2 class="bac" style="margin: 12px 0px 0px 0px; padding: 0px;">Volunteer Grants Program</H2>
 <p style="margin: 6px 0px 0px 0px;">An unrestricted grant is made to any qualifying nonprofit organization for which an associate has committed substantial volunteer hours within a calendar year.</p>
 
-<H2 class="bac" style="margin: 12px 0px 0px 0px; padding: 0px;"><a href="http://www.bankofamerica.com/teambank/" class="left2" title="Team Bank&nbsp;of&nbsp;America" target="_blank">Team Bank&nbsp;of&nbsp;America</a></H2>
+<H2 class="bac" style="margin: 12px 0px 0px 0px; padding: 0px;"><a href="http://www.bankofamerica.com/teambank/" class="bacb" title="Team Bank of America, link opens in a new window." target="_blank">Team Bank&nbsp;of&nbsp;America</a></H2>
 <p style="margin: 6px 0px 0px 0px;">Provides an associate with personal and professional development, as well as volunteering and networking opportunities outside the workplace. Team Bank&nbsp;of&nbsp;America has five networks: Diversity, Volunteer, Speaking, Recreation and Environmental.</p>
 
 <!-- #include file="../benefitsnav.asp" -->

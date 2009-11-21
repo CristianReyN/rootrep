@@ -33,7 +33,7 @@
 <p style="margin: 6px 0px 0px 0px;">A voluntary, confidential service to help associates and their family deal with family problems, job-related issues, stress and other situations.</p>
 
 <H2 class="bac" style="margin: 12px 0px 0px 0px; padding: 0px;">
-<a href="<%Response.write href_pre%>flexible_wa.asp" class="left2" title="Flexible Work Arrangements">Flexible Work Arrangements</a></H2>
+<a href="<%Response.write href_pre%>flexible_wa.asp" class="bacb" title="Flexible Work Arrangements">Flexible Work Arrangements</a></H2>
 <p style="margin: 6px 0px 0px 0px;">Bank&nbsp;of&nbsp;America offers multiple ways for associates and managers to define when and where associates work, including flex-time, telecommuting, compressed work schedules and job sharing. With the My Work<span style="font-size: 0.8em; position: relative; top: -0.6em;">&reg;</span> program, associates have the opportunity to work from a variety of corporate bank locations or from home instead of a traditional, dedicated cube or office.</p>
 
 
@@ -44,7 +44,7 @@
 <p style="margin: 6px 0px 0px 0px;">Enables associates to pay for eligible work-related commuting expenses, like mass transit or parking, with before tax dollars (up to the IRS limit). Parking expenses eligible in all areas except the state of Washington.</p>
 
 <H2 class="bac" style="margin: 12px 0px 0px 0px; padding: 0px;">
-<a href="<%Response.write href_pre%>timeoff.asp" class="left2" title="Flexible Work Arrangements">Time Away</a></H2>
+<a href="<%Response.write href_pre%>timeoff.asp" class="bacb" title="Time Away">Time Away</a></H2>
 <p style="margin: 6px 0px 0px 0px;">Offers associates a range of paid and unpaid leave options for taking the time they need away from work for vacation, health and family issues, and a range of other personal needs.</p>
 
 <!-- #include file="../benefitsnav.asp" -->
