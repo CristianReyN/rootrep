@@ -2,7 +2,7 @@
 			<tr valign="top"><td valign="top"><img src="../images/clear.gif" width="100%" height="10" alt="" border="0"></td></tr>
 			<tr valign="top">
 				<td width="100%" height="26" style="background: #d3d5d6;">
-<a name="skipmaincontent"></a><H1 class="rjp">Realist Job Preview</H1>
+<a name="skipmaincontent"></a><H1 class="rjp">Realistic Job Preview</H1>
 				</td>
 			</tr>
 			<tr valign="top"><td valign="top"><img src="../images/clear.gif" width="100%" height="2" alt="" border="0"></td></tr>

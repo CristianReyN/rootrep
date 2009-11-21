@@ -134,10 +134,14 @@ As a global organization the bank's technology and architecture is highly integr
 </div>
 <br><br>
 
-<H2 class="h2" style="margin: 12px <%=right_margin%>px 2px <%=left_margin_0%>px;">Hot Job Postings</H2>
+<H2 class="h2" style="margin: 12px <%=right_margin%>px 2px <%=left_margin_0%>px;">New Opportunities</H2>
 <table cellpadding="2" cellspacing="0" border="0" summary="" style="margin-left: <%=left_margin_0%>px;">
 <!--#include file="../../hot_jobs.asp"-->
 </table>
+<%	If mpage = "lob" Then %>
+<br>
+<a href="../jobsearch/searchresult.asp?jobareas=9|-1&stateid=-1&cityid=-1&keywords=&SearchPage=Sp">View all jobs in Global Technology and Operations</a>
+<%	End If %>
 <br><br>
 				</td>
 			</tr>

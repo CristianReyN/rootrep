@@ -43,6 +43,7 @@ data="http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/DITL_TESTIMO
 <div class="transcript">
 <a name="vt"></a><h2 class="h1" style="margin: 0px 0px 6px 0px;"><span>Video transcript</span></h2>
 <p>
+>>Michael, Human Resources Executive<br><br>
 I think that the Marine Corps has provided me with a number of transferable skills, some of those are just some of the basic skills that are at the core - such as integrity, personal courage, commitment, camaraderie which are all very transferable to the leadership model that we have at Bank of America. So, by far, those are some of the things that set the skills that military professionals have apart from some of their civilian peers and counterparts.
 <br><br>
 I think some of the things Bank of America does for those that are transitioning into the organization, particularly with their affinity organizations that they have and groups that they have to support that transition, a variety of different networking organizations that we have at Bank of America.  And, some pretty detailed on-boarding plans for some of the executive levels that we bring in really help individuals acclimate well to the Bank of America organization and culture.

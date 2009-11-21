@@ -21,6 +21,7 @@
 					<div align="right" style="float: right; margin: 0px 0px 0px <%=right_margin_split%>px; padding: 0px; width: 259px;">
 <!-- #include file="lob/michael.asp" -->
 <a href="#video" class="hlink">Michael&acute;s Associate Testimonial Video</a>
+<p align="center" style="margin: 6px 0px 0px 0px;">Michael, Human Resources Executive</p>
 <% End If  %>
 <div style="width: 201px; text-align: left; border: 1px solid #e8e8e9; background: #ffffff; margin: 12px 0px 12px 0px; padding: 0px 0px 6px 0px;">
 	<H2 class="g" style="margin: 0px 0px 0px 0px;">Guided Job Search</H2>

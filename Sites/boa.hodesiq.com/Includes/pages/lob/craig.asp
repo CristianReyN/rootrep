@@ -43,6 +43,7 @@ data="http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/DITL_TESTIMO
 <div class="transcript">
 <a name="vt"></a><h2 class="h1" style="margin: 0px 0px 6px 0px;"><span>Video transcript</span></h2>
 <p>
+>>Craig, SVP Global Marketing Olympics<br><br>
 I'd say there are two things that I really like about working at the bank, one is just the people that I've had a chance to go and work with.  They really like to be part of a team, really like working together in order to accomplish our business objectives, both for our customers, other associates and for our shareholders.  And then, the other thing that I really like is the variety of projects and roles that I've had a chance to have.  It's really been great for me in terms of my being able to continue to learn and grow and apply myself in new ways.
 <br><br>
 For me I think the thing that's really most important in terms of my career is the continuing opportunity to learn, develop, and take what I've done in some roles and be able to go and apply it in different ways in new roles.  And that's one of the things I really like about the bank, it fosters an environment that allows you to go do that.  I've been at the bank for over 17 years - and I've probably had 12 different roles during that period of time. So, that ability to stay fresh, and continue to learn and grow is really been something that is very important to me.

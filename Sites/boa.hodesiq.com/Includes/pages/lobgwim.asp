@@ -21,6 +21,7 @@
 					<div align="right" style="float: right; margin: 0px 0px 0px <%=right_margin_split%>px; padding: 0px; width: 259px;">
 <!-- #include file="lob/jeremy.asp" -->
 <a href="#video" class="hlink">Jeremy&acute;s Associate Testimonial Video</a>
+<p align="center" style="margin: 6px 0px 0px 0px;">Jeremy, Senior Investment Specialist</p>
 <% End If  %>
 <div style="width: 201px; text-align: left; border: 1px solid #e8e8e9; background: #ffffff; margin: 12px 0px 12px 0px; padding: 0px 0px 6px 0px;">
 	<H2 class="g" style="margin: 0px 0px 0px 0px;">Guided Job Search</H2>
@@ -109,7 +110,7 @@ Career opportunities vary by discipline and management structure.  Global Wealth
 </div>
 <br><br>
 
-<H2 class="h2" style="margin: 12px <%=right_margin%>px 2px <%=left_margin_0%>px;">Hot Job Postings</H2>
+<H2 class="h2" style="margin: 12px <%=right_margin%>px 2px <%=left_margin_0%>px;">New Opportunities</H2>
 <table cellpadding="2" cellspacing="0" border="0" summary="" style="margin-left: <%=left_margin_0%>px;">
 <% 
 familyid=15
@@ -117,6 +118,10 @@ rowcount=6
 %>
 <!--#include file="../../hot_jobs.asp"-->
 </table>
+<%	If mpage = "lob" Then %>
+<br>
+<a href="../jobsearch/searchresult.asp?jobareas=4|15&stateid=-1&cityid=-1&keywords=&SearchPage=Sp">View all jobs in Global Wealth and Investment Management</a>
+<%	End If %>
 <br><br>
 				</td>
 			</tr>

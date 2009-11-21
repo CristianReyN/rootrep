@@ -43,7 +43,7 @@
 <p style="margin: <% If page_section = "ADA" Then %>12<% Else %>0<%End If%>px <%=right_margin_split%>px 0px <%=left_margin_0%>px;">
 Individuals who take initiative and possess exceptional communications skills thrive within our dynamic environment. We need individuals who understand our services and who are looking to make a difference in an atmosphere full of energy and excitement. Those who join us enjoy the exhilaration and fulfillment of ensuring our 200,000 associates and 54 million consumer and small business customers stay "in the know."
 </p>
-<H2 class="h2" style="margin: 12px <%=right_margin%>px 2px <%=left_margin_0%>px;">Hot Job Postings</H2>
+<H2 class="h2" style="margin: 12px <%=right_margin%>px 2px <%=left_margin_0%>px;">New Opportunities</H2>
 <table cellpadding="2" cellspacing="0" border="0" summary="" style="margin-left: <%=left_margin_0%>px;">
 <!--#include file="../../hot_jobs.asp"-->
 </table>

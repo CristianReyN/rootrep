@@ -4,7 +4,7 @@
 var ada_href = "<%=ada_href %>";
 action_script = true;
 if ( hasRequestedVersion && shuwen_video ) {
-	document.write('<H2 class="hidden">Shu Wen&acute;s Associate Testimonial Video<\/H2>');
+	document.write('<H2 class="hidden">Shu-Wen&acute;s Associate Testimonial Video<\/H2>');
 	document.write('<div id="mainvideo" style="display: none;"><a name="video"></a>');
 	document.write(getVideo(shuwen_video,259,166,"javaflash",""));
 	document.write(strReplace(strReplace(strReplace(strReplace(getHTMLControl("javaflash",259,22,true,true,true,true,true,true),"<text>","Video transcript"),"<title>","Video transcript"),"<href>",ada_href),"<anchor>",shuwen_video.ada_anchor));
@@ -22,7 +22,7 @@ if ( hasRequestedVersion && shuwen_video ) {
 }
 </script>
 <noscript>
-<a name="video"></a><H2 class="hidden">Shu Wen&acute;s Associate Testimonial Video</H2>
+<a name="video"></a><H2 class="hidden">Shu-Wen&acute;s Associate Testimonial Video</H2>
 <object type="application/x-shockwave-flash"
 data="http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/DITL_TESTIMONIAL/swf/Shu_Wen.swf" width="259" height="166" id="javaflash" align="middle">
 	<param name="wmode" value="transparent">
@@ -43,6 +43,7 @@ data="http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/DITL_TESTIMO
 <div class="transcript">
 <a name="vt"></a><h2 class="h1" style="margin: 0px 0px 6px 0px;"><span>Video transcript</span></h2>
 <p>
+>>Shu-Wen, Global Markets Group, Singapore<br><br>
 I have been at Bank of America for two years now and I currently work in the Global Markets Financial Exchange corporate sales group.  
 <br><br>
 I graduated from an accounting program from graduate school so the natural progression for most accountants is to go to one of the big firms.  I realized that the job in the banking industry at Bank of America would be one that is so much more interesting and dynamic and challenging.  

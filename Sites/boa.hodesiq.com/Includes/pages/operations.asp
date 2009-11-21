@@ -40,7 +40,7 @@
 <p style="margin: <% If page_section = "ADA" Then %>12<% Else %>0<%End If%>px <%=right_margin_split%>px 0px <%=left_margin_0%>px;">
 Positions within Operations provide overall support for many key areas within Bank of America.  Operations is primarily responsible for overseeing the processes and transactions which help Bank of America maximize profitability and minimize risk.
 </p>
-<H2 class="h2" style="margin: 12px <%=right_margin%>px 2px <%=left_margin_0%>px;">Hot Job Postings</H2>
+<H2 class="h2" style="margin: 12px <%=right_margin%>px 2px <%=left_margin_0%>px;">New Opportunities</H2>
 <table cellpadding="2" cellspacing="0" border="0" summary="" style="margin-left: <%=left_margin_0%>px;">
 <!--#include file="../../hot_jobs.asp"-->
 </table>
