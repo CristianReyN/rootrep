@@ -104,16 +104,17 @@
                                             </asp:GridView><br />
                                             <br />
                                             <br />
-                                            
-                                            <center>
-                                                <asp:Button ID="LnkPrvs" runat="server" CssClass="bodybtn" OnClick="LnkPrvs_Click"
-                                                    Text="Previous" Visible="false" />&nbsp;&nbsp;&nbsp;&nbsp;
-                                                <asp:Button ID="LnkNxt" runat="server" CssClass="bodybtn" OnClick="LnkNxt_Click"
-                                                    Text="Next" Visible="false" />&nbsp;&nbsp;&nbsp;&nbsp;
-                                                <asp:Label ID="LblPageOfPages" runat="server"></asp:Label>    
-                                            </center>
                                         </td>
                                     </tr>
+                                    <tr valign="top">
+                                        <td style="padding: 6px 12px 0px 12px; height: 100%" valign="top" align="center">
+                                       <asp:Button ID="LnkPrvs" runat="server" CssClass="bodybtn" OnClick="LnkPrvs_Click"
+                                            Text="Previous" Visible="false" />&nbsp;&nbsp;&nbsp;&nbsp;
+                                        <asp:Button ID="LnkNxt" runat="server" CssClass="bodybtn" OnClick="LnkNxt_Click"
+                                            Text="Next" Visible="false" />&nbsp;&nbsp;&nbsp;&nbsp;
+                                        <asp:Label ID="LblPageOfPages" runat="server"></asp:Label>    
+                                         </td>
+                                     </tr>
                                 </table>
                                 <asp:Label ID="lblMessage" runat="server"></asp:Label>
                                 
