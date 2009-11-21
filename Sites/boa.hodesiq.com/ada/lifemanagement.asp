@@ -1,10 +1,13 @@
 <% Response.Buffer=True 
-Dim title, mpage, spage, ada_href, ada_title, job_search_action,page_section, Metatag%>
+Dim title, mpage, spage, ada_href, ada_title, job_search_action,page_section, Metatag
+mpage = "locations"
+spage = "united_states"
+tpage = "benefitsadv"
+fpage = "lifemanagement"
+%>
 <!-- #include file="../includes/breadcrumb.asp" -->
-<% title = breadcrumb & "Life Management Benefits"
-mpage = "learnmore"
-spage = "benefitsadv"
-tpage = "lifemanagement"
+<%
+title = breadcrumb_extended
 standart_href = "../learnmore/lifemanagement.asp"
 job_search_action = "../jobsearch/searchresult.asp"
 Metatag="Detailed information on the benefits offered for work/life balance.  The option to do a job search is also present on this page."

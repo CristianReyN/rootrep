@@ -2,12 +2,14 @@
 Response.Redirect("../ada_camp/")
 %>
 <% Response.Buffer=True 
-Dim title, mpage, spage, ada_href, ada_title, job_search_action,page_section, Metatag%>
+Dim title, mpage, spage, ada_href, ada_title, job_search_action,page_section, Metatag
+mpage = "locations"
+spage = "united_states"
+tpage = "collrecruiting"
+fpage = "career_compass"
+%>
 <!-- #include file="../includes/breadcrumb.asp" -->
 <%
-mpage = "learnmore"
-spage = "collrecruiting"
-tpage = "career_compass"
 standart_href = "../learnmore/career_compass.asp"
 job_search_action = "../jobsearch/searchresult.asp"
 Metatag="Page designed for student recruiting. Links available on the page: undergraduate/analyst programs, graduate/associate programs, internships and a campus recruiting calendar. The option to do a job search is also present on this page."
@@ -22,7 +24,7 @@ flashPage = false
 %>
 <!-- #include file="../includes/pages/career_compass_function.asp" -->
 <%
-title = breadcrumb & "Campus Recruiting | Career Compass | Step " & page_number
+title = breadcrumb_extended & " | Step " & page_number
 %>
 <!-- Header -->
 <!-- #include file="header.asp" -->

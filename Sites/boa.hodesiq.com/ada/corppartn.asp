@@ -1,10 +1,13 @@
 <% Response.Buffer=True 
-Dim title, mpage, spage, ada_href, ada_title, job_search_action,page_section, Metatag%>
+Dim title, mpage, spage, ada_href, ada_title, job_search_action,page_section, Metatag
+mpage = "locations"
+spage = "united_states"
+tpage = "diversity"
+fpage = "corppartn"
+%>
 <!-- #include file="../includes/breadcrumb.asp" -->
-<% title = breadcrumb & "Corporate Partnerships"
-mpage = "learnmore"
-spage = "diversity"
-tpage = "corppartn"
+<%
+title = breadcrumb_extended
 standart_href = "../learnmore/corppartn.asp"
 job_search_action = "../jobsearch/searchresult.asp"
 Metatag="Links to partnerships Bank of America has partnered with to find new talent."

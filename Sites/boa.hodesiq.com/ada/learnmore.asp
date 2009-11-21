@@ -1,9 +1,12 @@
 <% Response.Buffer=True 
-Dim title, mpage, spage, ada_href, ada_title, job_search_action,page_section, Metatag%>
+Dim title, mpage, spage, ada_href, ada_title, job_search_action,page_section, Metatag
+mpage = "locations"
+spage = "united_states"
+tpage = ""
+%>
 <!-- #include file="../includes/breadcrumb.asp" -->
-<% title = breadcrumb & "Related Information"
-mpage = "learnmore"
-spage = ""
+<%
+title = breadcrumb_extended
 standart_href = "../learnmore/learnmore.asp"
 job_search_action = "../jobsearch/searchresult.asp"
 Metatag="This is the first page to guide you to further information as you continue your search with Bank of America. From this page you can click through to learn more about the benefits and advantages of working at Bank of America. In addition there are links available to diversity, corporate information, college recruiting, global locations, investment banking careers. Job search is also available to search directly from on this page."

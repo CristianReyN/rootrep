@@ -1,10 +1,13 @@
 <% Response.Buffer=True 
-Dim title, mpage, spage, ada_href, ada_title, job_search_action,page_section, Metatag%>
+Dim title, mpage, spage, ada_href, ada_title, job_search_action,page_section, Metatag
+mpage = "locations"
+spage = "united_states"
+tpage = "corpinfo"
+fpage = "values"
+%>
 <!-- #include file="../includes/breadcrumb.asp" -->
-<% title = breadcrumb & "Workforce Data"
-mpage = "learnmore"
-spage = "corpinfo"
-tpage = "values"
+<%
+title = breadcrumb_extended
 standart_href = "../learnmore/values.asp"
 job_search_action = "../jobsearch/searchresult.asp"
 Metatag="Information is available on page highlighting the core values of Bank of America."

@@ -1,9 +1,12 @@
 <% Response.Buffer=True 
-Dim title, mpage, spage, ada_href, ada_title, job_search_action,page_section, Metatag%>
+Dim title, mpage, spage, ada_href, ada_title, job_search_action,page_section, Metatag
+mpage = "locations"
+spage = "united_states"
+tpage = "military_veteran_recruiting"
+%>
 <!-- #include file="../includes/breadcrumb.asp" -->
-<% title = breadcrumb & "Military &amp; veteran recruiting"
-mpage = "learnmore"
-spage = "military_veteran_recruiting"
+<%
+title = breadcrumb_extended
 standart_href = "../military/"
 job_search_action = "../jobsearch/searchresult.asp"
 Metatag="Explore a career with Bank of America, where we value the skills and experience of military service members."

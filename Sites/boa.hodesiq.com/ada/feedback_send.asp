@@ -1,6 +1,6 @@
 <% Response.Buffer=True 
-mpage = "learnmore"
-spage = "feedback"
+mpage = "feedback"
+spage = ""
 page_self = "../feedback/feedback_send.asp"
 %>
 <!-- #include file="../includes/fsend.asp" -->

@@ -18,7 +18,7 @@ flashPage = false
 %>
 <!-- #include file="../includes/pages/lb_career_compass_function.asp" -->
 <%
-title = breadcrumb & "Campus Recruiting | Career Compass | Step " & page_number
+title = breadcrumb & "Lines of Business | Career Compass | Step " & page_number
 %>
 <!-- Header -->
 <!-- #include file="header.asp" -->

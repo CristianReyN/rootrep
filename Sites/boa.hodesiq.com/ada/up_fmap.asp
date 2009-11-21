@@ -1,11 +1,14 @@
 <% Response.Buffer=True 
-Dim title, mpage, spage, ada_href, ada_title, job_search_action,page_section, Metatag%>
+Dim title, mpage, spage, ada_href, ada_title, job_search_action,page_section, Metatag
+mpage = "locations"
+spage = "united_states"
+tpage = "collrecruiting"
+fpage = "undergraduate_programs"
+fvpage = "up_fmap"
+%>
 <!-- #include file="../includes/breadcrumb.asp" -->
-<% title = breadcrumb & "Campus Recruiting | Undergraduate/Analyst Programs | Finance Management Associate Program"
-mpage = "learnmore"
-spage = "collrecruiting"
-tpage = "undergraduate_programs"
-fpage = "up_fmap"
+<%
+title = breadcrumb_extended
 standart_href = "../learnmore/up_fmap.asp"
 job_search_action = "../jobsearch/searchresult.asp"
 Metatag="Page designed for student recruiting. Links available on the page: undergraduate/analyst programs, graduate/associate programs, internships and a campus recruiting calendar. The option to do a job search is also present on this page."

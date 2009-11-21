@@ -1,10 +1,13 @@
 <% Response.Buffer=True 
-Dim title, mpage, spage, ada_href, ada_title, job_search_action,page_section, Metatag%>
+Dim title, mpage, spage, ada_href, ada_title, job_search_action,page_section, Metatag
+mpage = "locations"
+spage = "united_states"
+tpage = "benefitsadv"
+fpage = "majormarketlife"
+%>
 <!-- #include file="../includes/breadcrumb.asp" -->
-<% title = breadcrumb & "Life in our Major Markets"
-mpage = "learnmore"
-spage = "benefitsadv"
-tpage = "majormarketlife"
+<%
+title = breadcrumb_extended
 standart_href = "../learnmore/majormarketlife.asp"
 job_search_action = "../jobsearch/searchresult.asp"
 Metatag="Primary locations for Bank of America are New York, NY and Charlotte, NC and this page gives a little information on each of the markets."

@@ -1,10 +1,13 @@
 <% Response.Buffer=True 
-Dim title, mpage, spage, ada_href, ada_title, job_search_action,page_section, Metatag%>
+Dim title, mpage, spage, ada_href, ada_title, job_search_action,page_section, Metatag
+mpage = "locations"
+spage = "united_states"
+tpage = "benefitsadv"
+fpage = "volunteergrants"
+%>
 <!-- #include file="../includes/breadcrumb.asp" -->
-<% title = breadcrumb & "Volunteer Grants"
-mpage = "learnmore"
-spage = "benefitsadv"
-tpage = "volunteergrants"
+<%
+title = breadcrumb_extended
 standart_href = "../learnmore/volgrantprog.asp"
 job_search_action = "../jobsearch/searchresult.asp"
 Metatag="Page is designed to help those who are interested in learning once they are an associate ways to volunteer with Bank of America to give back to the community."

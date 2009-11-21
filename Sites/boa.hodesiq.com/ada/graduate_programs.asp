@@ -2,12 +2,15 @@
 Response.Redirect("../ada_camp/")
 %>
 <% Response.Buffer=True 
-Dim title, mpage, spage, ada_href, ada_title, job_search_action,page_section, Metatag%>
+Dim title, mpage, spage, ada_href, ada_title, job_search_action,page_section, Metatag
+mpage = "locations"
+spage = "united_states"
+tpage = "collrecruiting"
+fpage = "graduate_programs"
+%>
 <!-- #include file="../includes/breadcrumb.asp" -->
-<% title = breadcrumb & "Campus Recruiting | Graduate Programs"
-mpage = "learnmore"
-spage = "collrecruiting"
-tpage = "graduate_programs"
+<%
+title = breadcrumb_extended
 standart_href = "../learnmore/graduate_programs.asp"
 job_search_action = "../jobsearch/searchresult.asp"
 Metatag="Page designed for student recruiting. Links available on the page: undergraduate/analyst programs, graduate/associate programs, internships and a campus recruiting calendar. The option to do a job search is also present on this page."

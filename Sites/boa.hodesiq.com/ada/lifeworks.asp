@@ -1,10 +1,13 @@
 <% Response.Buffer=True 
-Dim title, mpage, spage, ada_href, ada_title, job_search_action,page_section, Metatag%>
+Dim title, mpage, spage, ada_href, ada_title, job_search_action,page_section, Metatag
+mpage = "locations"
+spage = "united_states"
+tpage = "benefitsadv"
+fpage = "lifeworks"
+%>
 <!-- #include file="../includes/breadcrumb.asp" -->
-<% title = breadcrumb & "LifeWorks®"
-mpage = "learnmore"
-spage = "benefitsadv"
-tpage = "lifeworks"
+<%
+title = breadcrumb_extended
 standart_href = "../learnmore/lifeworks.asp"
 job_search_action = "../jobsearch/searchresult.asp"
 Metatag="The page is an explanation of the LifeWorks program for associates at Bank of America."

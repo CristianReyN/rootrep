@@ -22,7 +22,7 @@ window.open(imnam,"pop","directory=no,height=450,width=500,toolbar=no,scrollbars
 <!-- #include file="../includes/manage_your_profile.asp" -->
 <%
 Dim JOB_SEARCH_TITLE
-JOB_SEARCH_TITLE = "USA Guided Job Search"
+JOB_SEARCH_TITLE = "Guided Job Search"
 Dim pageId, categoryId
 pageId = "career:" & Replace(page_self, "../", "", 1, -1, 0)
 If spage = "lb_career_compass" Then
