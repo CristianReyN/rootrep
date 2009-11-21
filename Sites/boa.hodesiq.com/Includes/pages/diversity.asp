@@ -37,11 +37,11 @@ Our work environment draws on the strength of every associate to build an atmosp
 <div style="text-align: center; margin: 0px; padding: 0px;">
 <img src="../images/clear.gif" width="100%" height="1" vspace="1" alt="" border="0" style="background: #989898;"><br clear="all">
 <img src="../images/clear.gif" width="100%" height="1" vspace="0" alt="" border="0" style="background: #c9c9c9; margin: 0px 0px 6px 0px;"><br clear="all">
-<% If FALSE Then %>
-<img src="../images/diversity_inclusion.jpg" width="187" height="156" border="0" style="margin: 6px 0px 0px 0px;" usemap="#divinc" alt="Diversity &amp; Inclusion. It&acute;s the foundation of who we are. View the Global Diversity &amp; Inclusion video &gt;"><% End If %><% If TRUE Then %><img src="../images/diversity_promo.jpg" width="187" height="156" border="0" style="margin: 6px 0px 0px 0px;" alt="Diversity &amp; Inclusion. It&acute;s the foundation of who we are."><% End If %><br clear="all">
+<% If TRUE Then %>
+<img src="../images/diversity_inclusion.jpg" width="187" height="156" border="0" style="margin: 6px 0px 0px 0px;" usemap="#divinc" alt="Diversity &amp; Inclusion. It&acute;s the foundation of who we are. View the Global Diversity &amp; Inclusion video &gt;"><% End If %><% If FALSE Then %><img src="../images/diversity_promo.jpg" width="187" height="156" border="0" style="margin: 6px 0px 0px 0px;" alt="Diversity &amp; Inclusion. It&acute;s the foundation of who we are."><% End If %><br clear="all">
 <img src="../images/clear.gif" width="100%" height="1" vspace="0" alt="" border="0" style="background: #c9c9c9; margin: 12px 0px 0px 0px;"><br clear="all">
 <img src="../images/clear.gif" width="100%" height="1" vspace="1" alt="" border="0" style="background: #989898;"><br clear="all">
-<% If FALSE Then %><map name="divinc">
+<% If TRUE Then %><map name="divinc">
 <area title="Diversity &amp; Inclusion. It&acute;s the foundation of who we are. View the Global Diversity &amp; Inclusion video &gt;" alt="Diversity &amp; Inclusion. It&acute;s the foundation of who we are. View the Global Diversity &amp; Inclusion video &gt;" coords="0,0,180,149" href="diversity_inclusion_video.asp">
 </map><% End If %>
 </div>

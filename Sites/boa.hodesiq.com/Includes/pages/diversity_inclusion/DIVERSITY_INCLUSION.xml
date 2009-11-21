@@ -5,8 +5,8 @@
           <autoPlay>true</autoPlay>
           <autoRewind>true</autoRewind>
           <totalTime></totalTime>
-          <contentPathNS>rtmp://cp17169.edgefcs.net/ondemand/test-non-secure/Banc_of_America/15/401/6677_Diversity_and_Inclusion-FLV.flv</contentPathNS>
-          <contentPathOC>rtmp://cp17169.edgefcs.net/ondemand/test-non-secure/Banc_of_America/15/401/6677_Diversity_and_Inclusion-FLV.flv</contentPathOC>
+          <contentPathNS>rtmp://flash.edgecastcdn.net/0008B0/mps/Banc_of_America/13/817/7074_Diversity_and_Inclusion_2_min-300K_Agency_Michelle_R.flv</contentPathNS>
+          <contentPathOC>rtmp://flash.edgecastcdn.net/0008B0/mps/Banc_of_America/13/817/7074_Diversity_and_Inclusion_2_min-300K_Agency_Michelle_R.flv</contentPathOC>
           <firstFrame>../Includes/pages/diversity_inclusion/imx/DIVERSITY_INCLUSION.jpg</firstFrame>
           <skin>http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/skinsflvplayback/SteelOverPlaySeekMute.swf</skin>
           <next>1</next>
@@ -17,8 +17,8 @@
           <autoPlay>false</autoPlay>
           <autoRewind>true</autoRewind>
           <totalTime></totalTime>
-          <contentPathNS>rtmp://cp17169.edgefcs.net/ondemand/test-non-secure/Banc_of_America/15/401/6677_Diversity_and_Inclusion-FLV.flv</contentPathNS>
-          <contentPathOC>rtmp://cp17169.edgefcs.net/ondemand/test-non-secure/Banc_of_America/15/401/6677_Diversity_and_Inclusion-FLV.flv</contentPathOC>
+          <contentPathNS>rtmp://flash.edgecastcdn.net/0008B0/mps/Banc_of_America/13/817/7074_Diversity_and_Inclusion_2_min-300K_Agency_Michelle_R.flv</contentPathNS>
+          <contentPathOC>rtmp://flash.edgecastcdn.net/0008B0/mps/Banc_of_America/13/817/7074_Diversity_and_Inclusion_2_min-300K_Agency_Michelle_R.flv</contentPathOC>
           <firstFrame>../Includes/pages/diversity_inclusion/imx/DIVERSITY_INCLUSION.jpg</firstFrame>
           <skin>http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/skinsflvplayback/SteelOverPlaySeekMute.swf</skin>
           <next>1</next>
