@@ -33,6 +33,7 @@ An effective risk management model requires a healthy blend of intuitive and ana
 	<img src="../images/clear.gif" width="100%" height="1" alt="" border="0" style="margin: 0px 0px 0px 0px; background: #ffffff;" align="top"><br clear="all">
 	<img src="../images/clear.gif" width="100%" height="1" alt="" border="0" style="margin: 0px 0px 0px 0px; background: #e8e8e9;" align="top"><br clear="all">
 <p style="margin: 6px 6px 0px 6px;"><a class="left" onfocus="this.className='left-over';" onblur="this.className='left';" href="../jobsearch.aspx?jobareas=7|18&stateid=-1&cityid=-1&keywords=&SearchPage=Sp">View current jobs in Risk Evaluation</a></p>
+<p style="margin: 6px 6px 0px 6px;"><a class="left" onfocus="this.className='left-over';" onblur="this.className='left';" href="../jobsearch.aspx?jobareas=7|13&stateid=-1&cityid=-1&keywords=&SearchPage=Sp">View Current Job in Credit</a></p>
 </div>
 
 <div style="text-align: center; margin: 0px; padding: 0px;">
