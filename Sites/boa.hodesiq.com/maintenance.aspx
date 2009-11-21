@@ -1,4 +1,4 @@
-<% Response.Buffer=True%>
+<%@ Page Language="C#" AutoEventWireup="true" CodeFile="maintenance.aspx.cs" Inherits="maintenance" %>
 
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
