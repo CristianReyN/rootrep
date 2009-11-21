@@ -280,9 +280,13 @@ create_safebutton("Begin Search","javascript: document.jsearch.submit();",0,0,0,
 <div id="Layer3" style="position: relative; z-index: 12;">
 <img class="dotdiv" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
 <p style="margin: 6px 0px 0px 0px;">
-Bank of America and Merrill Lynch have officially joined forces, creating a leading global banking and wealth management franchise, and a premier corporate and investment banking and capital markets business. To search for Merrill Lynch career opportunities, please visit <a href="http://careers.ml.com/" class="p" title="Merrill Lynch Careers" target="_blank">http://careers.ml.com/</a>.</p>
+Bank of America and Merrill Lynch have officially joined forces, creating a leading global banking and wealth management franchise, and a premier corporate and investment banking and capital markets business. To search for Merrill Lynch career opportunities, please visit <a href="http://careers.ml.com/" class="p" title="Merrill Lynch Careers. Link opens a new window." target="_blank">http://careers.ml.com/</a>.</p>
 <p style="margin: 6px 0px 0px 0px;">
 Bank of America associates should access the <a href="http://www.bankofamerica.com/careers/index.cfm?template=jobs_interstitial" class="p" title="Internal Jobs Database">internal jobs database</a>.</p>
+<p style="margin: 6px 0px 0px 0px;">
+In an effort to continue our commitment to help &ldquo;Put America Back to Work&rdquo;, Bank&nbsp;of&nbsp;America has become a member of Alliance Q, a collaboration of companies working together to showcase career opportunities in your community. Alliance Q is a free and confidential program aimed at helping &ldquo;Put America Back to Work.&rdquo;</p>
+<p style="margin: 6px 0px 0px 0px;">
+If you are interested in joining, simply visit <a href="http://www.AllianceQ.com/BankofAmerica" class="p" title="www.AllianceQ.com/BankofAmerica. Link opens a new window." target="_blank">www.AllianceQ.com/BankofAmerica</a> to create your profile and be considered for thousands of other opportunities with first class employers, including Bank&nbsp;of&nbsp;America.</p>
 <p style="margin: 6px 0px 6px 0px;">
 Please use the <a href="http://globalcareers.bankofamerica.com/" class="p" title="Global Careers Job Search">Global Careers Job Search</a> to find opportunities outside of the USA.</p>
 <p class="ada-label">Manage Your Profile. You are encouraged to complete the online candidate profile, however if you have difficulty, you should:</p>
