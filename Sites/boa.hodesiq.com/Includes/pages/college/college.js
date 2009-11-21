@@ -174,7 +174,7 @@ function createStopAudio()
 	{
 		if(!document.getElementById("stopaudio"))
 			document.body.insertAdjacentHTML("afterBegin",'<div id="stopaudio"></div>');
-		document.getElementById("stopaudio").innerHTML = '<a href="JavaScript: if(window.doPassVar) doPassVar(\'mute\');" class="hlink"'+' title="'+'Stop Audio'+'">'+'Stop Audio'+'</a>';
+		document.getElementById("stopaudio").innerHTML = '<a href="JavaScript: if(window.doPassVar) doPassVar(\'mute\');" class="hlink"'+' title="'+'Stop Audio'+'">'+'Stop Audio'+'<\/a>';
 		document.getElementById("stopaudio").style.display = "inline";
 	}
 	
@@ -205,20 +205,20 @@ var html_control = '<table border="0" cellspacing="0" cellpadding="0" bgcolor="#
 html_control += '<tr>';
 html_control += '<td nowrap>';
 html_control += '<div align="left" style="padding: 2px 5px;">';
-html_control += '<a href="#" onClick="doPassVar(\'play\')" title="Play Video" onMouseOut="MM_swapImgRestore();" onMouseOver="MM_swapImage(\'btn01\',\'\',\'../Includes/pages/buttons/01btn-over.gif\',1);" onBlur="MM_swapImgRestore();" onFocus="MM_swapImage(\'btn01\',\'\',\'../Includes/pages/buttons/01btn-over.gif\',1);"><img name="btn01" src="../Includes/pages/buttons/01btn.gif" alt="Play Video" width="14" height="18" border="0" /></a>';
-html_control += '<a href="#" onClick="doPassVar(\'pause\')" title="Pause Video" onMouseOut="MM_swapImgRestore();" onMouseOver="MM_swapImage(\'btn02\',\'\',\'../Includes/pages/buttons/02btn-over.gif\',1);" onBlur="MM_swapImgRestore();" onFocus="MM_swapImage(\'btn02\',\'\',\'../Includes/pages/buttons/02btn-over.gif\',1);"><img name="btn02" src="../Includes/pages/buttons/02btn.gif" alt="Pause Video" width="13" height="18" border="0"/></a>';
-html_control += '<a href="#" onClick="doPassVar(\'stop\')" title="Stop Video" onMouseOut="MM_swapImgRestore();" onMouseOver="MM_swapImage(\'btn03\',\'\',\'../Includes/pages/buttons/03btn-over.gif\',1);" onBlur="MM_swapImgRestore();" onFocus="MM_swapImage(\'btn03\',\'\',\'../Includes/pages/buttons/03btn-over.gif\',1);"><img name="btn03" src="../Includes/pages/buttons/03btn.gif" alt="Stop Video" width="17" height="18" border="0"/></a>';
-//html_control += '<a href="#" onClick="doPassVar(\'skip\')" title="Skip Video" onMouseOut="MM_swapImgRestore();" onMouseOver="MM_swapImage(\'btn04\',\'\',\'../Includes/pages/buttons/04btn-over.gif\',1);" onBlur="MM_swapImgRestore();" onFocus="MM_swapImage(\'btn04\',\'\',\'../Includes/pages/buttons/04btn-over.gif\',1);"><img name="btn04" src="../Includes/pages/buttons/04btn.gif" alt="Skip" width="15" height="18" border="0"/></a>';
-html_control += '</div>';
+html_control += '<a href="#" onClick="doPassVar(\'play\')" title="Play Video" onMouseOut="MM_swapImgRestore();" onMouseOver="MM_swapImage(\'btn01\',\'\',\'../Includes/pages/buttons/01btn-over.gif\',1);" onBlur="MM_swapImgRestore();" onFocus="MM_swapImage(\'btn01\',\'\',\'../Includes/pages/buttons/01btn-over.gif\',1);"><img name="btn01" src="../Includes/pages/buttons/01btn.gif" alt="Play Video" width="14" height="18" border="0" /><\/a>';
+html_control += '<a href="#" onClick="doPassVar(\'pause\')" title="Pause Video" onMouseOut="MM_swapImgRestore();" onMouseOver="MM_swapImage(\'btn02\',\'\',\'../Includes/pages/buttons/02btn-over.gif\',1);" onBlur="MM_swapImgRestore();" onFocus="MM_swapImage(\'btn02\',\'\',\'../Includes/pages/buttons/02btn-over.gif\',1);"><img name="btn02" src="../Includes/pages/buttons/02btn.gif" alt="Pause Video" width="13" height="18" border="0"/><\/a>';
+html_control += '<a href="#" onClick="doPassVar(\'stop\')" title="Stop Video" onMouseOut="MM_swapImgRestore();" onMouseOver="MM_swapImage(\'btn03\',\'\',\'../Includes/pages/buttons/03btn-over.gif\',1);" onBlur="MM_swapImgRestore();" onFocus="MM_swapImage(\'btn03\',\'\',\'../Includes/pages/buttons/03btn-over.gif\',1);"><img name="btn03" src="../Includes/pages/buttons/03btn.gif" alt="Stop Video" width="17" height="18" border="0"/><\/a>';
+//html_control += '<a href="#" onClick="doPassVar(\'skip\')" title="Skip Video" onMouseOut="MM_swapImgRestore();" onMouseOver="MM_swapImage(\'btn04\',\'\',\'../Includes/pages/buttons/04btn-over.gif\',1);" onBlur="MM_swapImgRestore();" onFocus="MM_swapImage(\'btn04\',\'\',\'../Includes/pages/buttons/04btn-over.gif\',1);"><img name="btn04" src="../Includes/pages/buttons/04btn.gif" alt="Skip" width="15" height="18" border="0"/><\/a>';
+html_control += '<\/div>';
 html_control += '</td>';
 html_control += '<td nowrap align="center" width="100%">';
-html_control += '<a href="<href>#vt" title="<title>" class="btn1" onfocus="this.className=\'btn1-over\';" onblur="this.className=\'btn1\';"><text></a>';
+html_control += '<a href="<href>#vt" title="<title>" class="btn1" onfocus="this.className=\'btn1-over\';" onblur="this.className=\'btn1\';"><text><\/a>';
 html_control += '</td>';
 html_control += '<td nowrap>';
 html_control += '<div align="right" style="padding: 2px 5px;">';
-html_control += '<a href="#" onClick="doPassVar(\'mute\')" title="Mute Video" onMouseOut="MM_swapImgRestore();" onMouseOver="MM_swapImage(\'btn05\',\'\',\'../Includes/pages/buttons/05btn-over.gif\',1);" onBlur="MM_swapImgRestore();" onFocus="MM_swapImage(\'btn05\',\'\',\'../Includes/pages/buttons/05btn-over.gif\',1);"><img name="btn05" src="../Includes/pages/buttons/05btn.gif" alt="Mute Video" width="16" height="18" border="0"/></a>';
-html_control += '<a href="#" onClick="doPassVar(\'ccoc\')" title="Close Captions" onMouseOut="MM_swapImgRestore();" onMouseOver="MM_swapImage(\'btn06\',\'\',\'../Includes/pages/buttons/06btn-over.gif\',1);" onBlur="MM_swapImgRestore();" onFocus="MM_swapImage(\'btn06\',\'\',\'../Includes/pages/buttons/06btn-over.gif\',1);"><img name="btn06" src="../Includes/pages/buttons/06btn.gif" alt="Close Captions" width="21" height="18" border="0"/></a>';
-html_control += '</div>';
+html_control += '<a href="#" onClick="doPassVar(\'mute\')" title="Mute Video" onMouseOut="MM_swapImgRestore();" onMouseOver="MM_swapImage(\'btn05\',\'\',\'../Includes/pages/buttons/05btn-over.gif\',1);" onBlur="MM_swapImgRestore();" onFocus="MM_swapImage(\'btn05\',\'\',\'../Includes/pages/buttons/05btn-over.gif\',1);"><img name="btn05" src="../Includes/pages/buttons/05btn.gif" alt="Mute Video" width="16" height="18" border="0"/><\/a>';
+html_control += '<a href="#" onClick="doPassVar(\'ccoc\')" title="Close Captions" onMouseOut="MM_swapImgRestore();" onMouseOver="MM_swapImage(\'btn06\',\'\',\'../Includes/pages/buttons/06btn-over.gif\',1);" onBlur="MM_swapImgRestore();" onFocus="MM_swapImage(\'btn06\',\'\',\'../Includes/pages/buttons/06btn-over.gif\',1);"><img name="btn06" src="../Includes/pages/buttons/06btn.gif" alt="Close Captions" width="21" height="18" border="0"/><\/a>';
+html_control += '<\/div>';
 html_control += '</td>';
 html_control += '</tr>';
 html_control += '</table>';
