@@ -11,13 +11,13 @@ function preloadCC(){MM_preloadImages('../images/cc_explore_over.gif','../images
 			<tr valign="top">
 				<td width="100%" colspan="2" valign="top">
 <div style="position: relative;"><div style="position: absolute; left: 407; top: 130; z-index: 12;">
-<a href="<%Response.write href_pre%>explore.asp" title="Explore" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('cc_explore','','../images/cc_explore_over.gif',1)"  onMouseUp="MM_swapImgRestore()" onMouseDown="MM_swapImage('cc_explore','','../images/cc_explore_down.gif',1)"><img name="cc_explore" src="../images/cc_explore.gif" alt="Explore" width="88" height="22" border="0"></a></div><img src="../images/collegerecr.jpg" width="389" height="166" alt="College Recruiting. Find your ideal opportunity with our College Career Compass." title="College Recruiting. Find your ideal opportunity with our College Career Compass." border="0"><img src="../images/collegerecrt.jpg" width="189" height="166" alt="College Recruiting. Find your ideal opportunity with our College Career Compass." title="College Recruiting. Find your ideal opportunity with our College Career Compass." border="0"></div>
-<div class="hidden">College Recruiting. Find your ideal opportunity with our College Career Compass.</div>
+<a href="<%Response.write href_pre%>explore.asp" title="Explore" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('cc_explore','','../images/cc_explore_over.gif',1)"  onMouseUp="MM_swapImgRestore()" onMouseDown="MM_swapImage('cc_explore','','../images/cc_explore_down.gif',1)"><img name="cc_explore" src="../images/cc_explore.gif" alt="Explore" width="88" height="22" border="0"></a></div><img src="../images/camprecruiting.jpg" width="389" height="166" alt="Campus Recruiting. Find your ideal opportunity with our College Career Compass." title="Campus Recruiting. Find your ideal opportunity with our College Career Compass." border="0"><img src="../images/collegerecrt.jpg" width="189" height="166" alt="Campus Recruiting. Find your ideal opportunity with our College Career Compass." title="Campus Recruiting. Find your ideal opportunity with our College Career Compass." border="0"></div>
+<div class="hidden">Campus Recruiting. Find your ideal opportunity with our College Career Compass.</div>
 				</td>
 			</tr>
 			<tr valign="top"><td colspan="2" valign="top" class="divb"><img src="../images/clear.gif" width="100%" height="4" alt="" border="0"></td></tr>
 		</table>
-		<a name="skipmaincontent"></a><H1 class="hidden">College Recruiting</H1>
+		<a name="skipmaincontent"></a><H1 class="hidden">Campus Recruiting</H1>
 		<table width="578" cellpadding="0" cellspacing="0" border="0" summary="">
 			<tr valign="top">
 				<td width="373" height="100%" valign="top" style="padding: 0px 20px 0px 12px;">
@@ -51,6 +51,15 @@ Find out how the bank responds to environmental issues.
 <p style="margin: 3px 0px 12px 0px;">
 Learn how your child can succeed and prosper at Bank of America.
 </p>
+
+<a href="http://www.bofa.com/careers" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="Global  Corporate Investment Banking">Global  Corporate Investment Banking</a>
+<p style="margin: 3px 0px 12px 0px;">
+</p>
+
+<a href="http://www.bofa.com/careers" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="Europe, Middle East, Africa (EMEA) and Asia">Europe, Middle East, Africa (EMEA) and Asia</a>
+<p style="margin: 3px 0px 12px 0px;">
+</p>
+
 <br>
 				</td>
 				<td width="205" height="100%" valign="top">

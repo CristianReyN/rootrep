@@ -1,13 +1,13 @@
 <% Response.Buffer=True 
 Dim title, mpage, spage, ada_href, ada_title, job_search_action, Metatag
-title = "Bank of America | Career | College Recruiting | Graduate/Associate Programs | Staffing Operations - Workforce Planning Analyst"
+title = "Bank of America | Career | Campus Recruiting | Graduate/Associate Programs | Staffing Operations - Workforce Planning Analyst"
 mpage = "learnmore"
 spage = "collrecruiting"
 tpage = "graduate_programs"
 fpage = "gp_wpa"
 ada_href = "../ada/gp_wpa.asp"
 page_self = "../learnmore/gp_wpa.asp"
-ada_title = "Bank of America | Career | College Recruiting | Graduate/Associate Programs | Staffing Operations - Workforce Planning Analyst"
+ada_title = "Bank of America | Career | Campus Recruiting | Graduate/Associate Programs | Staffing Operations - Workforce Planning Analyst"
 job_search_action = "../jobsearch/searchresult.asp"
 Metatag="Page designed for student recruiting. Links available on the page: undergraduate/analyst programs, graduate/associate programs, internships and a campus recruiting calendar. The option to do a job search is also present on this page."
 %>

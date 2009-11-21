@@ -27,7 +27,7 @@ Five major areas encompass Bank of America's interests: Global Consumer & Small 
 <p style="margin-top: 6px;">
 Bank of America provides a world-class orientation experience that immediately engages the hearts and minds of new associates from the first day of their employment.</p>
 
-<H2 class="p" style="margin: 0px; padding: 0px;"><a href="<% if page_section <> "ADA" then Response.write "../learnmore/collrecruiting.asp" Else Response.write "collrecruiting.asp" End If%>" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="College recruiting">College recruiting</a></H2>
+<H2 class="p" style="margin: 0px; padding: 0px;"><a href="<% if page_section <> "ADA" then Response.write "../learnmore/collrecruiting.asp" Else Response.write "collrecruiting.asp" End If%>" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="Campus Recruiting">Campus Recruiting</a></H2>
 <p style="margin-top: 6px;">
 New talent will find Bank of America a fertile ground in which to gain valuable skills, network and discover rewarding, sustainable careers paths.  Internships, undergraduate and graduate programs with classroom and on-the-job training offer a great way to demonstrate your business acumen while receiving guidance to maximize your professional development.</p>
 

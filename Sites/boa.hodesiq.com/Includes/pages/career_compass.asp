@@ -8,8 +8,8 @@ function preloadCC(){MM_preloadImages('../images/cc_next_over.gif','../images/cc
 </script>
 			<tr valign="top">
 				<td width="100%" colspan="2" valign="top">
-<img src="../images/career_compass.jpg" width="389" height="166" alt="College Recruiting" title="College Recruiting" border="0"><img src="../images/career_compasst.jpg" width="189" height="166" alt="I am continually provided with opportunities to be innovative and creative." title="I am continually provided with opportunities to be innovative and creative." border="0">
-<div class="hidden">College Recruiting. I am continually provided with opportunities to be innovative and creative.</div>
+<img src="../images/camprecruiting.jpg" width="389" height="166" alt="Campus Recruiting" title="Campus Recruiting" border="0"><img src="../images/career_compasst.jpg" width="189" height="166" alt="I am continually provided with opportunities to be innovative and creative." title="I am continually provided with opportunities to be innovative and creative." border="0">
+<div class="hidden">Campus Recruiting. I am continually provided with opportunities to be innovative and creative.</div>
 				</td>
 			</tr>
 			<tr valign="top"><td colspan="2" valign="top" class="divb"><img src="../images/clear.gif" width="100%" height="3" alt="" border="0"></td></tr>
@@ -110,7 +110,7 @@ function preloadCC(){MM_preloadImages('../images/cc_next_over.gif','../images/cc
 					<table width="100%" cellpadding="0" cellspacing="0" border="0" summary="">
 						<tr>
 							<td width="100%">
-<a class="left" style="text-decoration: none;" href="<% Response.write href_pre %>collrecruiting.asp">Return to College Recruiting</a>
+<a class="left" style="text-decoration: none;" href="<% Response.write href_pre %>collrecruiting.asp">Return to Campus Recruiting</a>
 							</td>
 							<td width="70" nowrap align="right">
 <%

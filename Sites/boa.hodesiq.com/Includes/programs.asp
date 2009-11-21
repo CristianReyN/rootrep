@@ -34,6 +34,25 @@
 <optgroup label="Supply Chain Management">
 	<option value="up_scmap.asp"<% If fpage = "up_scmap" Then %> disabled<% End If %>>Supply Chain Management Associate Program</option>
 </optgroup>
+<optgroup label="Global Consumer Investment Banking">
+	<option value="http://www.bofa.com/careers">ABS/MBS Analyst</option>
+	<option value="http://www.bofa.com/careers">Commercial Real Estate Analyst</option>
+	<option value="http://www.bofa.com/careers">Treasury Management Associate Program</option>
+	<option value="http://www.bofa.com/careers">Public Finance Analyst</option>
+	<option value="http://www.bofa.com/careers">Sales & Trading Analyst</option>
+	<option value="http://www.bofa.com/careers">Treasury Services Analyst</option>
+</optgroup>
+<optgroup label="EMEA and Asia">
+	<option value="http://www.bofa.com/careers">Investment Banking Analyst</option>
+	<option value="http://www.bofa.com/careers">Capital Markets Analyst</option>
+	<option value="http://www.bofa.com/careers">Sales, Trading, and Research Analyst</option>
+	<option value="http://www.bofa.com/careers">Global Treasury Services Analyst</option>
+	<option value="http://www.bofa.com/careers">Global Markets Technology Analyst</option>
+	<option value="http://www.bofa.com/careers">Risk Management Analyst</option>
+	<option value="http://www.bofa.com/careers">Global Middle Office Analyst</option>
+	<option value="http://www.bofa.com/careers">Global Operations Analyst</option>
+	<option value="http://www.bofa.com/careers">Network Computing Analyst</option>
+</optgroup>
 </select>
 <script language="JavaScript" type="text/javascript">
 <!--
@@ -74,6 +93,17 @@ function none(){}
 <optgroup label="Global Consumer Small Business Banking">
 	<option value="gp_bccmmldp.asp"<% If fpage = "gp_bccmmldp" Then %> disabled<% End If %>>Banking Center Channel Market Manager Leader Development Program</option>
 	<option value="gp_gcsbbd.asp"<% If fpage = "gp_gcsbbd" Then %> disabled<% End If %>>Global Consumer and Small Business Banking Product Leader Development Program</option>
+</optgroup>
+<optgroup label="Global Consumer Investment Banking">
+	<option value="http://www.bofa.com/careers">Global Commercial Banking/Treasury Services Associate</option>
+	<option value="http://www.bofa.com/careers">Investment Banking & Capital Markets Associate</option>
+	<option value="http://www.bofa.com/careers">Research Associate</option>
+	<option value="http://www.bofa.com/careers">Sales & Trading Associate</option>
+</optgroup>
+<optgroup label="EMEA and Asia">
+	<option value="http://www.bofa.com/careers">Investment Banking Associate</option>
+	<option value="http://www.bofa.com/careers">Capital Markets Associate</option>
+	<option value="http://www.bofa.com/careers">Sales, Trading, and Research Associate</option>
 </optgroup>
 </select>
 <script language="JavaScript" type="text/javascript">
@@ -157,6 +187,41 @@ function none(){}
 	<option value="ip_ungr.asp"<% If fpage = "ip_ungr" Then %> disabled<% End If %>>Undergraduate Intern</option>
 	<option value="ip_gr.asp"<% If fpage = "ip_gr" Then %> disabled<% End If %>>Graduate Intern</option>
 </optgroup>
+
+<optgroup label="Global Consumer Investment Banking Summer Analyst">
+	<option value="http://www.bofa.com/careers">Commercial Real Estate Summer BA Analyst (Undergraduate program)</option>
+	<option value="http://www.bofa.com/careers">Investment Banking & Capital Markets Summer BA Analyst  (Undergraduate program)</option>
+	<option value="http://www.bofa.com/careers">Public Finance Summer BA Analyst (Undergraduate program)</option>
+	<option value="http://www.bofa.com/careers">Research Summer BA Analyst (Undergraduate program)</option>
+	<option value="http://www.bofa.com/careers">Sales & Trading Summer BA Analyst  (Undergraduate  program)</option>
+	<option value="http://www.bofa.com/careers">Treasury Services Summer BA Analyst (Undergraduate  program)</option>
+</optgroup>
+
+<optgroup label="Global Consumer Investment Banking Summer Associate">
+	<option value="http://www.bofa.com/careers">Investment Banking & Capital Markets Summer MBA Associate  (Graduate program)</option>
+	<option value="http://www.bofa.com/careers">Sales & Trading Summer MBA Associate (Graduate program)</option>
+	<option value="http://www.bofa.com/careers">Research Summer MBA Associate (Graduate program)</option>
+	<option value="http://www.bofa.com/careers">Global Commercial Banking/Treasury Services MBA Summer Associate  (Graduate program)</option>
+</optgroup>
+
+<optgroup label="EMEA and Asia Summer Analyst">
+	<option value="http://www.bofa.com/careers">Investment Banking Summer Analyst (Undergraduate program)</option>
+	<option value="http://www.bofa.com/careers">Capital Markets Summer Analyst (Undergraduate program)</option>
+	<option value="http://www.bofa.com/careers">Sales, Trading, and Research Summer Analyst (Undergraduate  program)</option>
+	<option value="http://www.bofa.com/careers">Global Treasury Services Analyst (Undergraduate program)</option>
+	<option value="http://www.bofa.com/careers">Global Markets Technology Analyst (Undergraduate program)</option>
+	<option value="http://www.bofa.com/careers">Risk Management Analyst (Undergraduate program)</option>
+	<option value="http://www.bofa.com/careers">Global Middle Office Analyst (Undergraduate program)</option>
+	<option value="http://www.bofa.com/careers">Global Operations Analyst (Undergraduate program)</option>
+	<option value="http://www.bofa.com/careers">Network Computing Analyst (Undergraduate  program)</option>
+</optgroup>
+
+<optgroup label="EMEA and Asia Summer Associate">
+	<option value="http://www.bofa.com/careers">Investment Banking Summer Associate (Graduate program)</option>
+	<option value="http://www.bofa.com/careers">Capital Markets Summer Associate (Graduate program)</option>
+	<option value="http://www.bofa.com/careers">Sales, Trading, and Research Summer Associate (Graduate  program)</option>
+</optgroup>
+
 </select>
 <script language="JavaScript" type="text/javascript">
 <!--

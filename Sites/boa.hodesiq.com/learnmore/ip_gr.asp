@@ -1,13 +1,13 @@
 <% Response.Buffer=True 
 Dim title, mpage, spage, ada_href, ada_title, job_search_action, Metatag
-title = "Bank of America | Career | College Recruiting | Internship Programs | Graduate Intern"
+title = "Bank of America | Career | Campus Recruiting | Internship Programs | Graduate Intern"
 mpage = "learnmore"
 spage = "collrecruiting"
 tpage = "internships_program"
 fpage = "ip_gr"
 ada_href = "../ada/ip_gr.asp"
 page_self = "../learnmore/ip_gr.asp"
-ada_title = "Bank of America | Career | College Recruiting | Internship Programs | Graduate Intern"
+ada_title = "Bank of America | Career | Campus Recruiting | Internship Programs | Graduate Intern"
 job_search_action = "../jobsearch/searchresult.asp"
 Metatag="Page designed for student recruiting. Links available on the page: undergraduate/analyst programs, graduate/associate programs, internships and a campus recruiting calendar. The option to do a job search is also present on this page."
 %>

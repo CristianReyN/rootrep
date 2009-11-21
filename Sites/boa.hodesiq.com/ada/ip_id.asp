@@ -1,6 +1,6 @@
 <% Response.Buffer=True 
 Dim title, mpage, spage, ada_href, ada_title, job_search_action,page_section, Metatag
-title = "Bank of America | Career | College Recruiting | Internship Programs | Instructional Designer Intern"
+title = "Bank of America | Career | Campus Recruiting | Internship Programs | Instructional Designer Intern"
 mpage = "learnmore"
 spage = "collrecruiting"
 tpage = "internships_program"
