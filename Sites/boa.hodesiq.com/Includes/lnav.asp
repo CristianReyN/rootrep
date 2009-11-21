@@ -56,6 +56,9 @@
 		<li<% if mpage = "fags" then Response.Write " style=""background: #eaf1f7;""" end if %>>
 <div><a class="g" href="../faq/faq.asp" title="Frequently Asked Questions" onfocus="this.className='g-over';" onblur="this.className='g';">Frequently Asked Questions</a></div>
 		</li>
+		<li<% if mpage = "feedback" then Response.Write " style=""background: #eaf1f7;""" end if %>>
+<div><a class="g" href="../feedback/feedback.asp" title="Give Us Your Feedback" onfocus="this.className='g-over';" onblur="this.className='g';">Give Us Your Feedback</a></div>
+		</li>
 	</ul>
 </div>
 </td></tr>

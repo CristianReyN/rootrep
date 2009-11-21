@@ -1,13 +1,13 @@
 <% Response.Buffer=True 
 Dim title, mpage, spage, ada_href, ada_title, job_search_action, Metatag%>
 <!-- #include file="../includes/breadcrumb.asp" -->
-<% title = breadcrumb & "My Work &reg;"
-mpage = "learnmore"
-spage = "benefitsadv"
-tpage = "mywork"
-ada_href = "../ada/mywork.asp"
-page_self = "../learnmore/mywork.asp"
-ada_title = breadcrumb & "My Work &reg;"
+<% title = breadcrumb & "Your Feedback"
+mpage = "feedback"
+spage = ""
+tpage = ""
+ada_href = "../ada/feedback_thanks.asp"
+page_self = "../feedback/feedback_thanks.asp"
+ada_title = breadcrumb & "Your Feedback"
 job_search_action = "../jobsearch/searchresult.asp"
 Metatag=""
 %>
@@ -25,7 +25,7 @@ Metatag=""
 	<td valign="top" width="578" height="100%">
 <!-- Body-->
 <img src="../images/clear.gif" width="15" height="4" alt="" border="0"><br>
-<!-- #include file="../includes/pages/mywork.asp" -->
+<!-- #include file="../includes/pages/feedback_thanks.asp" -->
 <br><br>
 <!-- Body-->
 	</td>

@@ -1,4 +1,4 @@
-		<a name="skipmaincontent"></a><H1 style="margin: 0px <%=right_margin%>px 0px <%=left_margin_0%>px; padding: 0px;">MyWork<span style="font-size: 0.6em; position: relative; top: -0.6em;">TM</span></H1>
+		<a name="skipmaincontent"></a><H1 style="margin: 0px <%=right_margin%>px 0px <%=left_margin_0%>px; padding: 0px;">My Work<span style="font-size: 0.8em; position: relative; top: -0.6em;">&reg;</span></H1>
 		<table width="578" cellpadding="0" cellspacing="0" border="0" summary="">
 			<tr valign="top">
 				<td width="373" height="100%" valign="top" style="<%=middle_content_padding%>">
@@ -41,7 +41,7 @@ Associate Quotes -
 				</td>
 				<td width="205" height="100%" valign="top">
 <div style="position: relative; top: -18px; height: 164px;">
-	<H2 class="h1" style="margin: 0px 0px 6px 0px; text-align: center; width: 205px;"><span class="loc">Satellite Locations</span></H2>
+	<H2 class="h1" style="margin: 0px 0px 6px 0px; text-align: center; width: 205px;"><span class="loc">My Work Centers</span></H2>
 <img name="rotim" id="rotim" src="../images/mywork/rot1.jpg" width="205" height="154" alt="" border="0" style="margin: 0px 0px 0px 0px;" align="top">
 </div>
 <div style="border: 1px solid #e8e8e9; margin: 12px 0px 12px 0px; padding: 0px 0px 6px 0px;">

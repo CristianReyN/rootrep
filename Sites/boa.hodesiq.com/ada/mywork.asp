@@ -1,7 +1,7 @@
 <% Response.Buffer=True 
 Dim title, mpage, spage, ada_href, ada_title, job_search_action,page_section, Metatag%>
 <!-- #include file="../includes/breadcrumb.asp" -->
-<% title = breadcrumb & "MyWork TM"
+<% title = breadcrumb & "My Work &reg;"
 mpage = "learnmore"
 spage = "benefitsadv"
 tpage = "mywork"
