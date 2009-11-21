@@ -1,7 +1,7 @@
 <%@ Master Language="C#" CodeFile="BOAmaster.master.CS"  Inherits="BOAmaster" %>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html >
-<head >
+<head runat="server">
     <meta http-equiv="content-type" content="text/html; charset=iso-8859-1">
     <meta name="Description" content="" runat="server" id="metadescription"/>
     <title>Bank of America | Career | Job Search</title>
