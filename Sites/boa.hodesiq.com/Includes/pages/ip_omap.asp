@@ -1,0 +1,68 @@
+		<a name="skipmaincontent"></a><H1 style="margin: 2px 0px 0px 0px;">Operations Management Associate Program Intern</H1>
+		<table width="578" cellpadding="0" cellspacing="0" border="0" summary="">
+			<tr valign="top">
+				<td width="373" height="100%" valign="top" style="padding: 6px 5px 0px 12px;">
+<img class="dotdiv" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
+<h2 class="h2u" style="margin: 0px 0px 0px 0;">Our Business:</h2>
+<p style="margin: 0px 0px 12px 0px;">
+<b>Service and Fulfillment Operations (SFO)</b> is part of the Global Technology & Operations Organization, and currently processes over 8.97 billion checks and 31 million customer statements annually. SFO Associates perform processing services for Bank of America customer households and businesses, including check processing, statement rendering, cash vault, banking center operations and lockbox services. 
+<br><br>
+<b>Deposits Contact Centers (DCC)</b> is part of the Global Consumer & Small Business Banking organization. Associates in DCC provide service and financial solutions to more than 179 million phone customers and 5.1 million e-mail customers each year, making our contact centers among the busiest in the country. In addition to our associates servicing our customer's needs, our voice response units (VRU) can answer account inquiries, and in 2005, the VRUs handled more than 568 million phone calls. 
+</p>
+
+<h2 class="h2u" style="margin: 0px 0px 0px 0;">Overview:</h2>
+<p style="margin: 0px 0px 12px 0px;">
+The Bank of America Intern Program is designed to provide students with corporate experience in business banking policies and practices.  Students are given a true associate experience, as internships mirror full-time positions and include goal-setting and a formal review process.  Interns are required to work 40-hour weeks for 10 -12 weeks between the months of May and September.  On-the-job training, mentoring relationships, and networking opportunities are provided for all interns.
+<br><br>
+The Operations Internship program participants are placed within one of the bank's operational Lines of Business - either Service and Fulfillment Operations (SFO) or Deposit Contact Centers (DCC).
+<br><br>
+Interns placed in Service and Fulfillment Operations will support projects relating to corporate change initiatives impacting multiple business units, product lines or business processes. Projects require cross-divisional coordination, communication and negotiation.  Superior organization, communication, and analytical skills required.
+<br><br>
+Interns assigned to Deposits Contact Centers will be given the opportunity to work on projects, process design initiatives and business support.  Call Center or customer service experience is a plus.  The candidate must demonstrate excellent communication and leadership skills, and preferably have some experience managing and coaching teams.
+<br><br>
+Interns will participate in a formal program providing orientation and education to learn more about Bank of America's business, culture and values.  Additionally, interns will participate in various networking and learning opportunities throughout the duration of the summer.
+</p>
+
+<h2 class="h2u" style="margin: 0px 0px 0px 0px;">Qualifications:</h2>
+<ul>
+	<li>Enrolled in a full-time program, pursuing a degree in Operations, Business Management or Engineering</li>
+	<li>Relevant work experience with a demonstrated record of achievement</li>
+	<li>Strong organizational, planning and project management skills</li>
+	<li>Ability to communicate effectively in both written and oral forms with varying levels of management & executives</li>
+	<li>Aptitude for building rapport and effective relationships</li>
+	<li>Critical thinking/analytical skills</li>
+	<li>Preferred Grade Point Average or 3.0 on a 4.0 scale</li>
+	<li>Six Sigma experience a plus</li>
+</ul>
+
+<h2 class="h2u" style="margin: 0px 0px 0px 0px;">Locations:</h2>
+<p style="margin: 0px 0px 12px 0px;">
+Opportunities exist in US cities across the Bank of America franchise.
+</p>
+
+<p style="margin: 0px 0px 12px 0px;">
+Candidates must be legally authorized to work in the US without sponsorship.
+</p>
+<p>&nbsp;</p>
+<%	href_pre = ""
+	if page_section <> "ADA" then href_pre = "../learnmore/" %>
+<!-- #include file="../programs.asp" -->
+<% 	call getInternshipProgramForm(""," style=""width: 100%; margin: 0px 0px 6px 0px;""","--- Select A Different Internships Program ---",href_pre,fpage)
+%>
+<br><br>
+<!-- #include file="../sendresume.asp" -->
+<br>
+				</td>
+				<td width="205" height="100%" valign="top">
+<!-- #include file="college/tony.asp" -->
+<!-- #include file="../lobnav.asp" -->
+<div style="border: 1px solid #e8e8e9; margin: 12px 0px 12px 0px; padding: 0px 0px 6px 0px;">
+	<H2 class="g" style="margin: 0px 0px 0px 0px;">Related Information</H2>
+	<img src="../images/clear.gif" width="100%" height="1" alt="" border="0" style="margin: 1px 0px 0px 0px; background: #e8e8e9;" align="top"><br clear="all">
+	<div  style="padding: 0px 5px 0px 4px;">
+<!-- #include file="../relinfonav.asp" -->
+	</div>
+</div>
+				</td>
+			</tr>
+		</table>

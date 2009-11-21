@@ -31,6 +31,26 @@ P.s, UL.s, LI.s
     background-color: transparent;
 }
 
+DIV.transcript, DIV.ptranscript
+{
+	border: 1px solid #cecece;
+	background: #dedede;
+	margin: 12px 0px 6px 12px;
+	padding: 0px 6px 6px 6px;
+}
+DIV.ptranscript {margin: 12px 0px 6px 0px;}
+DIV.transcript p, DIV.ptranscript p
+{
+	font-family : Verdana, Helvetica, sans-serif;
+	font-size : 0.9em;
+	line-height : 1.0em;
+	font-weight : normal;
+    color: #333333;
+	text-align: left;
+	margin: 0px;
+	padding: 0px;
+}
+
 label
 {
 	font-weight :bold;
@@ -504,15 +524,16 @@ A.ftrlnk:visited
 .mh-vline {background-color: #ECECEC; background-image: url(../images/mhd_reg_1x5_lines.gif); background-repeat: repeat-y;}
 .mh-hline-bkg {background: #ECECEC;}
 .ada-search {color: #ececec; background: #ececec; font: normal 0.0em/0.0em Verdana, Helvetica, sans-serif; margin: 0px; padding: 0px; visibility: hidden;}
-a.btn1, a.btn1:visited {
-	font: bold 0.9em/1.2em Verdana, Helvetica, sans-serif;
+
+a.btn1, a.btn1:visited, a.btn1:active {
+	font: normal 0.9em/1.2em Verdana, Helvetica, sans-serif;
     color: #ffffff;
     text-decoration: none;
 }
 a.btn1:hover, a.btn1-over {
-	font: bold 0.9em/1.2em Verdana, Helvetica, sans-serif;
-	color: #C7D2DC;
-	text-decoration: none;
+	font: normal 0.9em/1.2em Verdana, Helvetica, sans-serif;
+	color: #ffffff;
+	text-decoration: underline;
 }
 div.btn1 {
 	border-right: 2px solid #000000;

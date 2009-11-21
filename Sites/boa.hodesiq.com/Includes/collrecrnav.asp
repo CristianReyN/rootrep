@@ -7,4 +7,4 @@
 <a href="<%Response.write href_pre%>information_for_parents.asp" title="Information for Parents"><img src="../images/boa_parents.jpg" width="205" height="80" border="0" style="margin: 12px 0px 0px 0px;" alt="Information for Parents"></a>
 <% End If %>
 
-<a href="<%Response.write href_pre%>comm_to_environment.asp" title="Our Commitment to the Environment"><img src="../images/boa_environment.jpg" width="205" height="80" border="0" style="margin: 12px 0px 0px 0px;" alt="Our Commitment to the Environment"></a>
+<a href="http://bankofamerica.com/environment" target="_blank" title="Our Commitment to the Environment"><img src="../images/boa_environment.jpg" width="205" height="80" border="0" style="margin: 12px 0px 0px 0px;" alt="Our Commitment to the Environment"></a>

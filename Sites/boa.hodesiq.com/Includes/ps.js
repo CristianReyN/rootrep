@@ -17,6 +17,7 @@ function startPs()
 	aa = addElementsByClassName("a","left",aa);
 	aa = addElementsByClassName("a","left2",aa);
 	aa = addElementsByClassName("a","ftrlnk",aa);
+	aa = addElementsByClassName("a","btn1",aa);
 	for (var i=0; i<aa.length; i++) {
 		aa[i].baseClassName = aa[i].className;
 		aa[i].onmouseover=function() {
