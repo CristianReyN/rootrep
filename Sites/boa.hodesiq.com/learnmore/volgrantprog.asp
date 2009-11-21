@@ -5,7 +5,7 @@ mpage = "learnmore"
 spage = "benefitsadv"
 ada_href = "../ada/volgrantprog.asp"
 page_self = "../learnmore/volgrantprog.asp"
-ada_title = "Bank of America | Career | Volunteer Grants, Text Only Version"
+ada_title = "Bank of America | Career | Volunteer Grants"
 job_search_action = "../jobsearch/searchresult.asp"
 Metatag="Page is designed to help those who are interested in learning once they are an associate ways to volunteer with Bank of America to give back to the community."
 %>
@@ -17,7 +17,7 @@ Metatag="Page is designed to help those who are interested in learning once they
 <!-- Left Nav -->
 
 			<tr valign="top"><td height="30" style="background: #cadceb;" valign="bottom" align="right">
-<a href="<%=ada_href %>" title="<%=ada_title %>" class="g" onfocus="this.className='g-over';" onblur="this.className='g';">Text Only Version</a>&nbsp;&nbsp;
+<a href="<%=ada_href %>" title="<%=ada_title %>" class="g" onfocus="this.className='g-over';" onblur="this.className='g';"><%=textonly_version%></a>&nbsp;&nbsp;
 			</td></tr>
 			<tr valign="top"><td height="50"><img src="../images/clear.gif" width="154" height="1" alt="" border="0"></td></tr>
 			<tr valign="top"><td height="50"><img src="../images/clear.gif" width="154" height="1" alt="" border="0"></td></tr>

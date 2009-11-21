@@ -5,7 +5,7 @@ mpage = "overview"
 spage = ""
 ada_href = "../ada/eeoc.asp"
 page_self = "../overview/eeoc.asp"
-ada_title = "Bank of America | Career | Equal Employment Opportunity Commission, Text Only Version"
+ada_title = "Bank of America | Career | Equal Employment Opportunity Commission"
 job_search_action = "../jobsearch/searchresult.asp"
 Dim flashPage
 flashPage = false
@@ -18,7 +18,7 @@ Metatag="Main page of the careers site. From this page you can listen to a virtu
 <!-- #include file="../includes/lnav.asp" -->
 <!-- Left Nav -->
 			<tr valign="top"><td height="30" style="background: #cadceb;" valign="bottom" align="right">
-<a href="<%=ada_href %>" title="<%=ada_title %>" class="g" onfocus="this.className='g-over';" onblur="this.className='g';">Text Only Version</a>&nbsp;&nbsp;<br>
+<a href="<%=ada_href %>" title="<%=ada_title %>" class="g" onfocus="this.className='g-over';" onblur="this.className='g';"><%=textonly_version%></a>&nbsp;&nbsp;<br>
 			</td></tr>
 			<tr valign="top"><td height="50"><img src="../images/clear.gif" width="154" height="1" alt="" border="0"></td></tr>
 			<tr valign="top"><td height="50"><img src="../images/clear.gif" width="154" height="1" alt="" border="0"></td></tr>

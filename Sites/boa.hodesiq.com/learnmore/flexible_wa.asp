@@ -5,7 +5,7 @@ mpage = "learnmore"
 spage = "benefitsadv"
 ada_href = "../ada/flexible_wa.asp"
 page_self = "../learnmore/flexible_wa.asp"
-ada_title = "Bank of America | Career | Flexible Work Arrangements, Text Only Version"
+ada_title = "Bank of America | Career | Flexible Work Arrangements"
 job_search_action = "../jobsearch/searchresult.asp"
 Metatag="Highlight information on the programs offered to associates of Bank of America in regards to flexible work arrangements."
 %>
@@ -17,7 +17,7 @@ Metatag="Highlight information on the programs offered to associates of Bank of 
 <!-- Left Nav -->
 
 			<tr valign="top"><td height="30" style="background: #cadceb;" valign="bottom" align="right">
-<a href="<%=ada_href %>" title="<%=ada_title %>" class="g" onfocus="this.className='g-over';" onblur="this.className='g';">Text Only Version</a>&nbsp;&nbsp;
+<a href="<%=ada_href %>" title="<%=ada_title %>" class="g" onfocus="this.className='g-over';" onblur="this.className='g';"><%=textonly_version%></a>&nbsp;&nbsp;
 			</td></tr>
 			<tr valign="top"><td height="50"><img src="../images/clear.gif" width="154" height="1" alt="" border="0"></td></tr>
 			<tr valign="top"><td height="50"><img src="../images/clear.gif" width="154" height="1" alt="" border="0"></td></tr>

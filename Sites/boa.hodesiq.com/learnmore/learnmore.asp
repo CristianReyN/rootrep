@@ -5,7 +5,7 @@ mpage = "learnmore"
 spage = ""
 ada_href = "../ada/learnmore.asp"
 page_self = "../learnmore/learnmore.asp"
-ada_title = "Bank of America | Career | Related Information, Text Only Version"
+ada_title = "Bank of America | Career | Related Information"
 job_search_action = "../jobsearch/searchresult.asp"
 Metatag="This is the first page to guide you to further information as you continue your search with Bank of America. From this page you can click through to learn more about the benefits and advantages of working at Bank of America. In addition there are links available to diversity, corporate information, college recruiting, global locations, investment banking careers. Job search is also available to search directly from on this page."
 %>
@@ -16,7 +16,7 @@ Metatag="This is the first page to guide you to further information as you conti
 <!-- #include file="../includes/lnav.asp" -->
 <!-- Left Nav -->
 			<tr valign="top"><td height="30" style="background: #cadceb;" valign="bottom" align="right">
-<a href="<%=ada_href %>" title="<%=ada_title %>" class="g" onfocus="this.className='g-over';" onblur="this.className='g';">Text Only Version</a>&nbsp;&nbsp;<br>
+<a href="<%=ada_href %>" title="<%=ada_title %>" class="g" onfocus="this.className='g-over';" onblur="this.className='g';"><%=textonly_version%></a>&nbsp;&nbsp;<br>
 			</td></tr>
 			<tr valign="top"><td height="300" align="center" style="background: #cadceb;">
 <script language="JavaScript1.2" type="text/javascript">

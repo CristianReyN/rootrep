@@ -5,7 +5,7 @@ mpage = "staffingevents"
 spage = ""
 ada_href = "../ada/staffingevents.asp"
 page_self = "../staffingevents/staffingevents.asp"
-ada_title = "Bank of America | Career | Staffing Events, Text Only Version"
+ada_title = "Bank of America | Career | Staffing Events"
 job_search_action = "../jobsearch/searchresult.asp"
 Metatag="You can link to two sites to see where in the United States a representative from Bank of America will be present at a recruiting event."
 %>
@@ -16,7 +16,7 @@ Metatag="You can link to two sites to see where in the United States a represent
 <!-- #include file="../includes/lnav.asp" -->
 <!-- Left Nav -->
 			<tr valign="top"><td height="30" style="background: #cadceb;" valign="bottom" align="right">
-<a href="<%=ada_href %>" title="<%=ada_title %>" class="g" onfocus="this.className='g-over';" onblur="this.className='g';">Text Only Version</a>&nbsp;&nbsp;<br>
+<a href="<%=ada_href %>" title="<%=ada_title %>" class="g" onfocus="this.className='g-over';" onblur="this.className='g';"><%=textonly_version%></a>&nbsp;&nbsp;<br>
 			</td></tr>
 			<tr valign="top"><td height="300" style="background: #cadceb;" align="center">
 <script language="JavaScript1.2" type="text/javascript">

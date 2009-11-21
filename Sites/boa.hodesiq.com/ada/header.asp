@@ -1,7 +1,7 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html lang="en-us">
 <head>
-<title><% Response.Write title %></title>
+<title><% Response.Write title & ", Text Only Version" %></title>
 <meta name="Description" content="<%=Metatag%>">
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
 <link rel="stylesheet" href="../includes/styles.css" type="text/css">

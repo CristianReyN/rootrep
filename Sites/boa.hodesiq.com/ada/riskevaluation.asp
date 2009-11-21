@@ -1,6 +1,6 @@
 <% Response.Buffer=True 
 Dim title, mpage, spage, ada_href, ada_title, job_search_action,page_section, Metatag
-title = "Bank of America | Career | Risk Evaluation, Text Only Version"
+title = "Bank of America | Career | Risk Evaluation"
 mpage = "areasoftalent"
 spage = "riskevaluation"
 job_search_action = "../jobsearch/searchresult.asp"

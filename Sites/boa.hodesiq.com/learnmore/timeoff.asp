@@ -5,7 +5,7 @@ mpage = "learnmore"
 spage = "benefitsadv"
 ada_href = "../ada/timeoff.asp"
 page_self = "../learnmore/timeoff.asp"
-ada_title = "Bank of America | Career | Time Off, Text Only Version"
+ada_title = "Bank of America | Career | Time Off"
 job_search_action = "../jobsearch/searchresult.asp"
 Metatag="Highlight information related to time off as an associate with Bank of America."
 %>
@@ -17,7 +17,7 @@ Metatag="Highlight information related to time off as an associate with Bank of 
 <!-- Left Nav -->
 
 			<tr valign="top"><td height="30" style="background: #cadceb;" valign="bottom" align="right">
-<a href="<%=ada_href %>" title="<%=ada_title %>" class="g" onfocus="this.className='g-over';" onblur="this.className='g';">Text Only Version</a>&nbsp;&nbsp;
+<a href="<%=ada_href %>" title="<%=ada_title %>" class="g" onfocus="this.className='g-over';" onblur="this.className='g';"><%=textonly_version%></a>&nbsp;&nbsp;
 			</td></tr>
 			<tr valign="top"><td height="50"><img src="../images/clear.gif" width="154" height="1" alt="" border="0"></td></tr>
 			<tr valign="top"><td height="50"><img src="../images/clear.gif" width="154" height="1" alt="" border="0"></td></tr>

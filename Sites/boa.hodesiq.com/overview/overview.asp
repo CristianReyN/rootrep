@@ -5,7 +5,7 @@ mpage = "overview"
 spage = ""
 ada_href = "../ada/overview.asp"
 page_self = "../overview/overview.asp"
-ada_title = "Bank of America | Career | Overview, Text Only Version"
+ada_title = "Bank of America | Career | Overview"
 job_search_action = "../jobsearch/searchresult.asp"
 page_section=""
 Dim flashPage
@@ -28,7 +28,7 @@ If playflash = "1" Then flashPage = false
 <div id="flash1" style="position: absolute;">
 <table width="160" cellpadding="0" cellspacing="0" border="0" summary="">
 <tr><td align="right" style="padding: 0px 9px 6px 6px;"><br>
-<% If playflash="" Then %><a href="<%=ada_href %>#vht" id="videotranscript" title="Virtual Host Video Transcript" class="g" onfocus="this.className='g-over';" onblur="this.className='g';" style="line-height: 1.1em;">Virtual Host Video Transcript</a><% Else %><a href="<%=ada_href %>" id="videotranscript" title="<%=ada_title %>" class="g" onfocus="this.className='g-over';" onblur="this.className='g';" style="line-height: 1.1em;">Text Only Version</a><% End If %></td></tr></table>
+<% If playflash="" Then %><a href="<%=ada_href %>" id="videotranscript" title="Virtual Host Video Transcript" class="g" onfocus="this.className='g-over';" onblur="this.className='g';" style="line-height: 1.1em;">Video Host Transcripts</a><% Else %><a href="<%=ada_href %>" id="videotranscript" title="<%=ada_title %>" class="g" onfocus="this.className='g-over';" onblur="this.className='g';" style="line-height: 1.1em;"><%=textonly_version%></a><% End If %></td></tr></table>
 <script language="JavaScript1.2" type="text/javascript">
 //<!--
 requiredMajorVersion = 8;

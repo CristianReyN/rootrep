@@ -5,7 +5,7 @@ mpage = "learnmore"
 spage = "benefitsadv"
 ada_href = "../ada/benefitsadv.asp"
 page_self = "../learnmore/benefitsadv.asp"
-ada_title = "Bank of America | Career | Benefits and Advantages, Text Only Version"
+ada_title = "Bank of America | Career | Benefits and Advantages"
 job_search_action = "../jobsearch/searchresult.asp"
 Metatag="Link from related information where an individual is going to learn more in-depth information about the organization.  From Benefits and Advantages you can click through to learn about the benefits of the company, learn what is offered in terms of work/life balance and find out more information about life in the major markets.  You can also job search from this page or go to the other areas within related information such as diversity, corporate information, college recruiting, and investment banking careers."
 %>
@@ -17,7 +17,7 @@ Metatag="Link from related information where an individual is going to learn mor
 <!-- Left Nav -->
 
 			<tr valign="top"><td height="30" style="background: #cadceb;" valign="bottom" align="right">
-<a href="<%=ada_href %>" title="<%=ada_title %>" class="g" onfocus="this.className='g-over';" onblur="this.className='g';">Text Only Version</a>&nbsp;&nbsp;
+<a href="<%=ada_href %>" title="<%=ada_title %>" class="g" onfocus="this.className='g-over';" onblur="this.className='g';"><%=textonly_version%></a>&nbsp;&nbsp;
 			</td></tr>
 			<tr valign="top"><td height="50"><img src="../images/clear.gif" width="154" height="1" alt="" border="0"></td></tr>
 			<tr valign="top"><td height="50"><img src="../images/clear.gif" width="154" height="1" alt="" border="0"></td></tr>

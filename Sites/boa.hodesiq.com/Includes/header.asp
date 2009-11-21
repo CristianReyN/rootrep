@@ -18,6 +18,10 @@ if mpage <> "learnmore" Then ADA_HEADER_LINKS = ADA_HEADER_LINKS & "<a href=""" 
 if mpage <> "areasoftalent" Then ADA_HEADER_LINKS = ADA_HEADER_LINKS & "<a href=""" & ADA_iQ_NAV3 & """ title=""" & ADA_iQ_TITLE3 & """><img src=""../images/clear.gif"" width=""1"" height=""69"" alt=""" & ADA_iQ_TITLE3 & """ border=""0"" /></a>"
 ADA_HEADER_LINKS = ADA_HEADER_LINKS & "<a href=""" & ADA_iQ_NAV4 & """ title=""" & ADA_iQ_TITLE4 & """><img src=""../images/clear.gif"" width=""1"" height=""69"" alt=""" & ADA_iQ_TITLE4 & """ border=""0"" /></a>"
 if mpage <> "staffingevents" Then ADA_HEADER_LINKS = ADA_HEADER_LINKS & "<a href=""" & ADA_iQ_NAV5 & """ title=""" & ADA_iQ_TITLE5 & """><img src=""../images/clear.gif"" width=""1"" height=""69"" alt=""" & ADA_iQ_TITLE5 & """ border=""0"" /></a>"  
+
+Dim to_version
+textonly_version = "Text Only Version"
+ada_title = ada_title  & ", " & textonly_version
 %><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html lang="en">
 <head>
@@ -43,29 +47,25 @@ function hover(ref, classRef) { eval(ref).className = classRef; }
     examineFontSize("body");
 //-->
 </script>
-<%	if flashPage then %>
 <table cellpadding="0" cellspacing="0" border="0" summary=""><tr><td>
+<a class="auraltext" href="<%=ada_href%>" title="<%=ada_title%>" onfocus="if(document.getElementById('aurallink'))document.getElementById('aurallink').focus();"><%=ada_title%></a>
+<% If flashPage then %>
 <script type="text/javascript">
 <!--
-document.write('<a class="auraltext" href="JavaScript: if(window.hideFlash) hideFlash();" onFocus="hover(this,\'show-tab\'); this.focus()"" onblur="hover(this,\'auraltext\');" title="<%=hide_flash_title%>"><%=hide_flash_title%></a>');
+document.write('<a class="auraltext" id="aurallink" href="JavaScript: if(window.hideFlash) hideFlash();" onFocus="hover(this,\'show-tab\'); this.focus();" onblur="hover(this,\'auraltext\');" title="<%=hide_flash_title%>"><%=hide_flash_title%></a>');
 //-->
 </script>
+<% Else %>
+<script type="text/javascript">
+<!--
+document.write('<a class="auraltext" id="aurallink" href="<%=ada_href%>" onFocus="hover(this,\'show-tab\'); this.focus();" onblur="hover(this,\'auraltext\');" title="<%=ada_title%>"><%=ada_title%></a>');
+//-->
+</script>
+<% End If %>
 <noscript>
 <a href="<%=ada_href%>" title="<%=ada_title%>"><%=ada_title%></a>
 </noscript>
 </td></tr></table>
-<% 	Else %>
-<table cellpadding="0" cellspacing="0" border="0" summary=""><tr><td>
-<script type="text/javascript">
-<!--
-document.write('<a class="auraltext" href="<%=ada_href%>" onFocus="hover(this,\'show-tab\'); this.focus()"" onblur="hover(this,\'auraltext\');" title="<%=ada_title%>"><%=ada_title%></a>');
-//-->
-</script>
-<noscript>
-<a href="<%=ada_href%>" title="<%=ada_title%>"><%=ada_title%></a>
-</noscript>
-</td></tr></table>
-<% 	End If %>
 
 <table width="750" cellpadding="0" cellspacing="0" border="0" summary="">
 <tr>

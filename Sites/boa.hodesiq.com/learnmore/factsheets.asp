@@ -5,7 +5,7 @@ mpage = "learnmore"
 spage = "diversity"
 ada_href = "../ada/factsheets.asp"
 page_self = "../learnmore/factsheets.asp"
-ada_title = "Bank of America | Career | Fact Sheets, Text Only Version"
+ada_title = "Bank of America | Career | Fact Sheets"
 job_search_action = "../jobsearch/searchresult.asp"
 Metatag="Detailed facts on diversity within Bank of America are depicted on this page."
 %>
@@ -17,7 +17,7 @@ Metatag="Detailed facts on diversity within Bank of America are depicted on this
 <!-- Left Nav -->
 
 			<tr valign="top"><td height="30" style="background: #cadceb;" valign="bottom" align="right">
-<a href="<%=ada_href %>" title="<%=ada_title %>" class="g" onfocus="this.className='g-over';" onblur="this.className='g';">Text Only Version</a>&nbsp;&nbsp;
+<a href="<%=ada_href %>" title="<%=ada_title %>" class="g" onfocus="this.className='g-over';" onblur="this.className='g';"><%=textonly_version%></a>&nbsp;&nbsp;
 			</td></tr>
 			<tr valign="top"><td height="50"><img src="../images/clear.gif" width="154" height="1" alt="" border="0"></td></tr>
 			<tr valign="top"><td height="50"><img src="../images/clear.gif" width="154" height="1" alt="" border="0"></td></tr>
