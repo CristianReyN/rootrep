@@ -13,12 +13,18 @@ public partial class Jobcart : System.Web.UI.Page
 {
     protected void Page_Load(object sender, EventArgs e)
     {
-        HttpCookie JobCart1 = new HttpCookie("BOA");
-            JobCart1.Values["Boa"] = "Hi";
-            JobCart1.Values["JobId"] = "3";
-            JobCart1.Secure = false;
-            Response.Cookies.Add(JobCart1);
-            string s = JobCart1.Values.ToString();
+        if (Request.QueryString["JobID"].ToString() != "")
+        {
+            HttpCookie ObjJobCart = new HttpCookie("BOA");
+            ObjJobCart.Values["JobId"] = Request.QueryString["JobID"].ToString();
+            ObjJobCart.Secure = false;
+            Response.Cookies.Add(ObjJobCart);
+            
+        }
+        else
+        {
+
+        }
 
     }
 }

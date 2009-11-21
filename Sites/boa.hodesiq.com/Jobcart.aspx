@@ -20,6 +20,16 @@
                                             </tr>
                                             <tr>
                                                 <td colspan="2" style="padding: 3px 0px 0px 0px;" valign="top">
+                                                    <asp:GridView ID="GridView1" runat="server">
+                                                     <Columns>
+                                                     
+                                                     <asp:BoundField HeaderText="Job Title" DataField="JobTitle" />
+                                                         <asp:BoundField DataField="Location" HeaderText="Location" />
+                                                         <asp:ButtonField HeaderText="Apply" /> 
+                                                         <asp:BoundField DataField="JobTitle" HeaderText="Remove" />                                                         
+                                                    </Columns>  
+                                                     
+                                                    </asp:GridView>
                                                     <table border="0" cellpadding="0" cellspacing="0" summary="Job cart results table will contain the job title, location, button to apply for position and the option of selecting a job for it to be removed from the current job cart."
                                                         width="100%">
                                                         <tr>
@@ -34,54 +44,7 @@
                                                             <th align="left" scope="col" style="width: 10%">
                                                                 <span class="tblH">Remove</span></th>
                                                         </tr>
-                                                        <tr class="c1">
-                                                            <td class="tbl">
-                                                                1.</td>
-                                                            <td class="tbl">
-                                                                <a class="nv" href="jobdetails.aspx">Project Manager</a></td>
-                                                            <td align="left" class="tbl">
-                                                                Nashville, TN</td>
-                                                            <td align="center" class="tbl">
-                                                                <input class="bodybtn" name="apply" title="Apply Now" type="submit" value="Apply Now" /></td>
-                                                            <td align="center" class="tbl">
-                                                                <input id="jobcart" type="checkbox" value="" /></td>
-                                                        </tr>
-                                                        <tr class="c2">
-                                                            <td class="tbl">
-                                                                2.</td>
-                                                            <td class="tbl">
-                                                                <a class="nv" href="jobdetails.aspx">Project Manager</a></td>
-                                                            <td align="left" class="tbl">
-                                                                Nashville, TN</td>
-                                                            <td align="center" class="tbl">
-                                                                <input class="bodybtn" name="apply" title="Apply Now" type="submit" value="Apply Now" /></td>
-                                                            <td align="center" class="tbl">
-                                                                <input id="jobcart1" type="checkbox" value="" /></td>
-                                                        </tr>
-                                                        <tr class="c1">
-                                                            <td class="tbl">
-                                                                3.</td>
-                                                            <td class="tbl">
-                                                                <a class="nv" href="jobdetails.aspx">Project Manager</a></td>
-                                                            <td align="left" class="tbl">
-                                                                Nashville, TN</td>
-                                                            <td align="center" class="tbl">
-                                                                <input class="bodybtn" name="apply" title="Apply Now" type="submit" value="Apply Now" /></td>
-                                                            <td align="center" class="tbl">
-                                                                <input id="jobcart2" type="checkbox" value="" /></td>
-                                                        </tr>
-                                                        <tr class="c2">
-                                                            <td class="tbl">
-                                                                4.</td>
-                                                            <td class="tbl">
-                                                                <a class="nv" href="jobdetails.aspx">Project Manager</a></td>
-                                                            <td align="left" class="tbl">
-                                                                Nashville, TN</td>
-                                                            <td align="center" class="tbl">
-                                                                <input class="bodybtn" name="apply" title="Apply Now" type="submit" value="Apply Now" /></td>
-                                                            <td align="center" class="tbl">
-                                                                <input id="jobcart3" type="checkbox" value="" /></td>
-                                                        </tr>
+                                                        
                                                     </table>
                                                 </td>
                                             </tr>
