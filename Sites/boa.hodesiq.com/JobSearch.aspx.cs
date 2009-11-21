@@ -203,44 +203,47 @@ public partial class JobSearch : System.Web.UI.Page
 	protected void PopulateAreasofTalentandJobFamily()
 	{
 		AreaofTalent at = new AreaofTalent();
-
+		OleDbDataReader dr;
 		areasoftalent.DataTextField = "Talent";
 		areasoftalent.DataValueField = "TalentID";
-		areasoftalent.DataSource = at.TalentDR();
+		dr = at.TalentDR();
+		areasoftalent.DataSource = dr;
 		areasoftalent.DataBind();
 		areasoftalent.Items.Insert(0, new ListItem("All Talent", "-1"));
-		//areasoftalent.SelectedIndex = 0;
+		dr.Close();
 
 		jfamily.DataTextField = "Family";
 		jfamily.DataValueField = "FamilyID";
-		jfamily.DataSource = at.JobfamilyDR();
+		dr = at.JobfamilyDR();
+		jfamily.DataSource = dr;
 		jfamily.DataBind();
 		jfamily.Items.Insert(0, new ListItem("All Job Family", "-1"));
-		//jfamily.SelectedIndex = 0;
-
+		dr.Close();
 	}
 	protected void PopulateLocations()
 	{
 		Location Lo = new Location();
+		OleDbDataReader dr;
 		State.DataTextField = "State";
 		State.DataValueField = "Stateid";
-		State.DataSource = Lo.StateDR();
+		dr = Lo.StateDR();
+		State.DataSource = dr; 
 		State.DataBind();
 		State.Items.Insert(0, new ListItem("All States", "-1"));
-		//State.SelectedIndex = 0;
+		dr.Close();
 	}
 	protected void PopulateCity()
 	{
 		Location Lo = new Location();
+		OleDbDataReader dr;
 		City.Items.Clear();
 		City.DataTextField = "City";
 		City.DataValueField = "Cityid";
 		//if (State.SelectedIndex == 0)
-		City.DataSource = Lo.StatewiseCityDR(1);
-		//else
-		//    City.DataSource = Lo.StatewiseCity(CityID);
+		dr = Lo.StatewiseCityDR(1);
+		City.DataSource = dr;
 		City.DataBind();
-		//City.Items.Insert(0, new ListItem("Select a City", ""));
 		City.Items.Insert(0, new ListItem("All Cities", "-1"));
+		dr.Close();
 	}
 }
