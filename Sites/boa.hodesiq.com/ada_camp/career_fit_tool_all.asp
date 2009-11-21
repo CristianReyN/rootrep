@@ -11,6 +11,7 @@
 	store_page_number = 0
 	If ExistsInRequest("restart.x") Or request_page_number = 0 Then
 		session.Contents.Remove("pages")
+		session.Contents.Remove("fit_programs")
 		request_page_number = 0
 	ElseIf ExistsInRequest("previous.x") Then
 		request_page_number = request_page_number - 2

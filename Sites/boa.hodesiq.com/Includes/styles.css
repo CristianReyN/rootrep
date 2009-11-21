@@ -217,6 +217,10 @@ P.cft
 	line-height : 1.7em;
 	color: #333333;
 }
+SPAN.cft
+{
+	color: #405EBE;
+}
 .button_cft
 {
 	border: 0px;

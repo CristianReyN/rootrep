@@ -17,6 +17,17 @@ flashPage = false
 	previous_page_number = page_number - 1
 	next_page_number = page_number + 1
 	session.Contents.Remove("pages")
+	
+	from_request = FALSE
+	fp = session.Contents("fit_programs")
+	if fp <> "" Then
+		fit_programs = Split(fp,":")
+		if UBound(fit_programs) = 3 Then
+			Response.Redirect("career_fit_tool_10.asp?p="&fp)
+		Else
+			session.Contents.Remove("fit_programs")
+		End If
+	End If
 %>
 <!-- #include file="../includes/career_fit_tool_pr.asp" -->
 <%

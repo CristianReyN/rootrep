@@ -16,10 +16,26 @@ flashPage = false
 	page_number = 10
 	previous_page_number = page_number - 1
 	next_page_number = page_number + 1
+	
+	from_request = FALSE
+	fp = Request.QueryString("p")
+	if fp <> "" Then
+		fit_programs = Split(fp,":")
+		if UBound(fit_programs) = 3 Then
+			from_request = TRUE
+			session.Contents("fit_programs") = fp
+		Else
+			session.Contents.Remove("fit_programs")
+		End If
+	End If
+	
+'response.write "isArray fit_programs: " & isArray(fit_programs) & "<br>"
+'response.write "UBound fit_programs: " & UBound(fit_programs) & "<br>"
+'response.write "from_request: " & from_request & "<br>"
 %>
 <!-- #include file="../includes/pages/camp/career_fit_tool_function.asp" -->
 <%
-title = breadcrumb & "Campus Recruiting | Find Your Fit | Career Fit Tool | Step " & page_number
+title = breadcrumb & "Campus Recruiting | Find Your Fit | Career Fit Tool | Program List"
 %>
 <!-- Header -->
 <!-- #include file="../ada/header.asp" -->

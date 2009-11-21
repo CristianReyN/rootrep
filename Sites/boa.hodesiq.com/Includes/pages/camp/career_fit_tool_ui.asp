@@ -52,12 +52,12 @@
 %>
 						<tr>
 							<td style="height: 30px; padding: 2px 0px 2px 18px;" valign="top"><% If question_group.Item("group_type") = "checkbox" Then %><input name="q-<%=questions(q).Item("question_number") %>" id="q-<%=questions(q).Item("question_number") %>" type="checkbox" value="<%=questions(q).Item("question_number") %>"<% If questions(q).Item("answer") Then %> checked<% End If %>><span class="ada-hide"><label class="ada-hide" for="q-<%=questions(q).Item("question_number") %>"><%=questions(q).Item("label") %></label></span><% ElseIf question_group.Item("group_type") = "radio" Then %><input type="radio" name="g-<%=question_group.Item("group_number") %>" id="q-<%=questions(q).Item("question_number") %>" value="<%=questions(q).Item("question_number") %>"<% If questions(q).Item("answer") Then %> checked<% End If %>><span class="ada-hide"><label class="ada-hide" for="q-<%=questions(q).Item("question_number") %>"><%=questions(q).Item("label") %></label></span><% End If %></td>
-							<td <% If Not two_bank Then %>width="100%"<% Else %>width="50%"<% End If %> style="height: 30px; padding: 2px 0px 2px 9px;" valign="top"><div style="margin: 0px;"><%=questions(q).Item("question") %></div></td>
+							<td <% If Not two_bank Then %>width="100%"<% Else %>width="50%"<% End If %> style="height: 30px; padding: 8px 0px 2px 9px;" valign="top"><div style="margin: 0px;"><%=questions(q).Item("question") %></div></td>
 <%
 					If two_bank Then
 						If (q+lo_op) <= UBound(questions) Then %>
 							<td style="height: 30px; padding: 2px 0px 2px 18px;" valign="top"><% If question_group.Item("group_type") = "checkbox" Then %><input name="q-<%=questions(q+lo_op).Item("question_number") %>" id="q-<%=questions(q+lo_op).Item("question_number") %>" type="checkbox" value="<%=questions(q+lo_op).Item("question_number") %>"<% If questions(q+lo_op).Item("answer") Then %> checked<% End If %>><span class="ada-hide"><label class="ada-hide" for="q-<%=questions(q+lo_op).Item("question_number") %>"><%=questions(q+lo_op).Item("label") %></label></span><% ElseIf question_group.Item("group_type") = "radio" Then %><input type="radio" name="g-<%=question_group.Item("group_number") %>" id="q-<%=questions(q+lo_op).Item("question_number") %>" value="<%=questions(q+lo_op).Item("question_number") %>"<% If questions(q+lo_op).Item("answer") Then %> checked<% End If %>><span class="ada-hide"><label class="ada-hide" for="q-<%=questions(q+lo_op).Item("question_number") %>"><%=questions(q+lo_op).Item("label") %></label></span><% End If %></td>
-							<td width="50%" style="height: 30px; padding: 2px 0px 2px 9px;" valign="top"><div style="margin: 0px;"><%=questions(q+lo_op).Item("question") %></div></td>
+							<td width="50%" style="height: 30px; padding: 8px 0px 2px 9px;" valign="top"><div style="margin: 0px;"><%=questions(q+lo_op).Item("question") %></div></td>
 <%
 						Else %>
 							<td nowrap style="height: 30px; padding: 0px;">&nbsp;</td>
@@ -106,6 +106,7 @@
 		End If
 		stop_points = 0
 		num_listed = 0
+		session_programs = ""
 		For sprg=1 To UBound(selected_programs) Step 1
 			'If sprg = min_programs_per_page Then stop_points = selected_program_points(sprg)
 			'If selected_program_points(sprg) > 0 And (sprg <= min_programs_per_page Or selected_program_points(sprg) >= stop_points) Then
@@ -113,11 +114,16 @@
 			If selected_program_points(sprg) > 0 And programs(program_index).Item("is_active") And num_listed < min_programs_per_page Then
 				programs(program_index).Item("listed") = TRUE
 				num_listed = num_listed + 1
+				If session_programs <> "" Then session_programs = session_programs & ":"
+				session_programs = session_programs & program_index
 %>
 <h2 class="cft" style="margin: 0px 0px 0px 0px;"><%=programs(program_index).Item("program_group").Item("group_name") %></h2>
 <p style="margin: 0px 0px 6px 0px;"><a class="cft" href="<%=programs(program_index).Item("url") %>"><%=programs(program_index).Item("title") %></a><% 'response.write (" - "&programs(program_index).Item("points")) %></p>
 <%			End If
-		Next %>
+		Next
+		If session_programs <> "" Then session.Contents("fit_programs") = session_programs
+		If Not from_request Then Response.Redirect("career_fit_tool_10.asp?p="&session_programs)
+%>
 							</td>
 						</tr>
 					</table>
@@ -161,7 +167,7 @@
 <input type="submit" id="finish" name="finish" value="Finish &gt;&gt;" alt="Finish &gt;&gt;" title="Finish &gt;&gt;" class="button_cft">
 <%
 		Else %>
-<p class="cft" style="margin: 0px 0px 9px 0px;">Feel free to change your answers and <a href="career_fit_tool_all.asp" class="cft">try the Career Fit Tool again</a>. You can also bookmark your results after each attempt for later reference.</p>
+<p class="cft" style="margin: 0px 0px 9px 0px;">Feel free to change your answers and <a href="career_fit_tool_all.asp" class="cft" title="Career Fit Tool">try the Career Fit Tool again</a>. You can also <!--<a href="career_fit_tool_10.asp?p=<%=session_programs %>" class="cft" title="Click here to manually bookmark your results">--><span class="cft">bookmark</span><!--</a>--> your results after each attempt for later reference.</p>
 <%
 		End If %>
 										</td>

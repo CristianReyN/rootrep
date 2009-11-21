@@ -45,7 +45,7 @@ Function createPages(pages)
 	call createQuestionGroup(group,4,"My preferred work environment is:","radio",1)
 	call createQuestion(q,12,"Working with internal teams to optimize organizational performance","My preferred work environment is: Working with internal teams to optimize organizational performance",1)
 	call addQuestion(group,q)
-	call createQuestion(q,13,"Building and developing relationships with e1ternal customers (audiences)","My preferred work environment is: Building and developing relationships with e1ternal customers (audiences)",1)
+	call createQuestion(q,13,"Building and developing relationships with external customers (audiences)","My preferred work environment is: Building and developing relationships with e1ternal customers (audiences)",1)
 	call addQuestion(group,q)
 	call addQuestionGroup(page,group)
 	Set pages(4) = page

@@ -4,18 +4,27 @@
 	If isArray(session.Contents("pages")) Then 
 '********** GET STORED PAGES ***********'
 		pages = session.Contents("pages")
-	Else
+	ElseIf Not from_request Then
 '******** REDIRECT TO START PAGE *******'
 		Response.Redirect("career_fit_tool.asp")
 	End If
 	
 	Dim page
-	If page_number > 0 And page_number <= 9 Then
+	min_programs_per_page = 4
+'******** CALCULATE FINAL PAGE *********'
+	If page_number = 10 Then call createPage(page,10,"Choose. Connect. Grow.","Based on your answers, you may find one of the following areas to be the best fit for you:")
+	
+	If from_request Then
+		Redim Preserve selected_programs(4)
+		Redim Preserve selected_program_points(4)
+		For fprg=0 To UBound(fit_programs) Step 1
+			selected_programs(fprg+1) = fit_programs(fprg)
+			selected_program_points(fprg+1) = 1000
+		Next
+	ElseIf page_number > 0 And page_number <= 9 Then
 '************** GET PAGE ***************'
 		Set page = pages(page_number)
 	ElseIf page_number = 10 Then
-'******** CALCULATE FINAL PAGE *********'
-		call createPage(page,10,"Choose. Connect. Grow.","Based on your answers, you may find the following areas to be the fit to you:")
 '****** CALCULATE PROGRAM POINTS *******'
 		For p=1 To UBound(pages) Step 1
 			Set result_page = pages(p)
@@ -40,9 +49,8 @@
 '************ SORT PROGRAMS ************'
 		Dim min_programs_per_page
 		'select all (56) programs
-		min_programs_per_page = 4
-		Dim selected_programs(56)
-		Dim selected_program_points(56)
+		Redim Preserve selected_programs(56)
+		Redim Preserve selected_program_points(56)
 		For sprg=1 To UBound(selected_programs) Step 1
 			selected_programs(sprg) = 0
 			selected_program_points(sprg) = 0
@@ -62,6 +70,15 @@
 					program_not_set = False
 				End If
 			Next
+			If program_not_set And program.Item("points") = 0 Then
+				For sprg=1 To UBound(selected_programs) Step 1
+					If selected_programs(sprg) = 0 Then
+						selected_programs(sprg) = prg
+						selected_program_points(sprg) = program.Item("points")
+						Exit For
+					End If
+				Next
+			End If
 		Next
 		
 '		For sprg=1 To UBound(selected_programs) Step 1
