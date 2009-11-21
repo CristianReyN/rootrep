@@ -773,7 +773,7 @@ DIV#lnav ul li div ul.home li div { padding: 0px 6px 0px 12px;}
 DIV#lnav ul.home div ul li div { padding: 0px 0px 0px 12px;}
 
 DIV#lnav li ul.home li.tertiary, DIV#lnav li:hover ul.home li.tertiary, DIV#lnav li.fover ul.home li.tertiary { position: inherit; left: 0px; top: 0px; margin: 0px 0px 0px 0px; border-top: 1px solid #ffffff; border-bottom: none; }
-DIV#lnav li ul.home li.tertiary div { padding: 0px 6px 0px 18px; }
+DIV#lnav li ul.home li.tertiary div, DIV#lnav li.fover ul.home li.tertiary div { padding: 0px 6px 0px 18px; }
 
 DIV#lnav li ul.home li.quaternary, DIV#lnav li:hover ul.home li.quaternary, DIV#lnav li.fover ul.home li.quaternary { position: inherit; left: 0px; top: 0px; margin: 0px 0px 0px 0px; border-top: 1px solid #ffffff; border-bottom: none; }
 DIV#lnav li ul.home li.quaternary div { padding: 0px 0px 0px 24px; }

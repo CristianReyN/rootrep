@@ -16,7 +16,7 @@
 <H1 class="hidden">Mortgage Fulfillment</H1>
 <H2 class="bacg">Mortgage Fulfillment</H2><p class="bacg">&nbsp;contributes to the overall mortgage sales experience through an array of valuable services, aimed at providing exceptional products to the Bank&#39;s mortgage customers, and solid support for our team of Mortgage Loan Officers.</p>
 <br><img src="../../images/clear.gif" width="10" height="12" alt="" border="0" /><br>
-<p class="bacg">These functions, performed with consistently excellent service, include mortgage underwriting and process, vendor management, document preparation and mortgage loan closings.</p>
+<p class="bacg">These functions, performed with consistently excellent service, include mortgage underwriting and processing, vendor management, document preparation and mortgage loan closings.</p>
 <br><img src="../../images/clear.gif" width="10" height="12" alt="" border="0" /><br>
 <p class="bacg">The Bank&#39;s comprehensive variety of local and centralized underwriting and fulfillment resources are completely integrated and scalable.  This enables our organization to respond quickly to changes in market opportunities, and positions us for strong growth possibilities in all markets and channels.</p>
 <br><img src="../../images/clear.gif" width="10" height="12" alt="" border="0" /><br>

@@ -19,10 +19,64 @@ p {
 <div id="Layer1" style="position: relative; z-index: 12;">		
 <img class="dotdiv" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
 
-<p style="text-align: left;">
+<p style="text-align: left; margin-bottom: 0px;">
 During the course of the year, Bank of America participates in and supports various diverse recruiting events.
-<br><br>
-We are in the process of developing our 2009 calendar of events, so please visit this page again soon for upcoming opportunities.
+</p>
+
+<p style="text-align: left; margin-top: 12px; margin-bottom: 0px;">
+<b>The Consortium (CGSM)</b><br>
+May 28 - June 1, 2009<br>
+Charlotte, NC<br>
+<a href="http://www.cgsm.org" target="_blank">www.cgsm.org</a>
+</p>
+
+<p style="text-align: left; margin-top: 12px; margin-bottom: 0px;">
+<b>Robert Toigo Foundation (TOIGO)</b><br>
+June 17-18, 2009<br>
+New York, NY<br>
+<a href="http://www.toigofoundation.org" target="_blank">www.toigofoundation.org</a>
+</p>
+
+<p style="text-align: left; margin-top: 12px; margin-bottom: 0px;">
+<b>National Association of Black Accountants (NABA)</b><br>
+June 16-20, 2009<br>
+New Orleans, LA<br>
+<a href="http://www.nabainc.org" target="_blank">www.nabainc.org</a>
+</p>
+
+<p style="text-align: left; margin-top: 12px; margin-bottom: 0px;">
+<b>Association of Latino Professionals in Finance & Accounting (ALPFA)</b><br>
+August 8-12, 2009<br>
+Boston, MA<br>
+<a href="http://www.alpfa.org" target="_blank">www.alpfa.org</a>
+</p>
+
+<p style="text-align: left; margin-top: 12px; margin-bottom: 0px;">
+<b>Association for Asian Professionals in Finance & Accounting (ASCEND)</b><br>
+August 23-25, 2009<br>
+New York, NY<br>
+<a href="http://www.naasa.org" target="_blank">www.naasa.org</a>
+</p>
+
+<p style="text-align: left; margin-top: 12px; margin-bottom: 0px;">
+<b>National Black MBA Association (NBMBAA)</b><br>
+September 22-26, 2009<br>
+New Orleans, LA<br>
+<a href="http://www.nbmbaa.org" target="_blank">www.nbmbaa.org</a>
+</p>
+
+<p style="text-align: left; margin-top: 12px; margin-bottom: 0px;">
+<b>National Society of Hispanic MBA's (NSHMBA)</b><br>
+October 8-10, 2009<br>
+Minneapolis,  MN<br>
+<a href="http://www.nshmba.org" target="_blank">www.nshmba.org</a>
+</p>
+
+<p style="text-align: left; margin-top: 12px; margin-bottom: 0px;">
+<b>GLBT- Candidate Five Job Fair / Reaching Out MBA (ROMBA)</b><br>
+October 15-18, 2009<br>
+Atlanta, GA<br>
+<a href="http://www.reachingoutmba.org" target="_blank">www.reachingoutmba.org</a>
 </p>
 
 <br><br>
