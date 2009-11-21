@@ -14,7 +14,7 @@ using System.Web.UI.HtmlControls;
 public static class boanet_safebutton
 {
 	/// <summary>
-	/// Helper method to display both the <noscript> and conventional versions of 
+	/// Helper method to display both the noscript and conventional versions of 
 	/// buttons for BOA.
 	/// </summary>
 	/// <param name="id"></param>
