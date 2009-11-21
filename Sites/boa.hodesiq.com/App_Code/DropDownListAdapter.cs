@@ -85,10 +85,10 @@ public class DropDownListAdapter : System.Web.UI.WebControls.Adapters.WebControl
 
 		foreach (string key in item.Attributes.Keys)
 		{
-            if (key == "OptionGroup")
-            { writer.WriteAttribute("label", item.Attributes[key]); }
-            else
-            { writer.WriteAttribute(key, item.Attributes[key]); }
+            //if (key == "OptionGroup")
+            //{ writer.WriteAttribute("label", item.Attributes[key]); }
+           // else
+           // { writer.WriteAttribute(key, item.Attributes[key]); }
 			
 		}
 
