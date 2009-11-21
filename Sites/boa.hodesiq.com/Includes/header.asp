@@ -60,7 +60,7 @@ H2.p, H3.p {
 <%If mpage = "overview" Then %>
 <script language="JavaScript1.2" src="../includes/flash.js" type="text/javascript"></script>
 <%End If %>
-<% If (spage = "collrecruiting" And (tpage = "" Or tpage = "career_compass") And fpage = "") Or (spage = "collrecruiting" And (tpage = "graduate_programs" Or tpage = "undergraduate_programs" Or tpage = "internships_program") And fpage <> "") Or (mpage = "areasoftalent" And spage <> "") Then %>
+<% If (spage = "collrecruiting" And (tpage = "" Or tpage = "career_compass") And fpage = "") Or (mpage = "lob" And spage = "lb_career_compass") Or (spage = "collrecruiting" And (tpage = "graduate_programs" Or tpage = "undergraduate_programs" Or tpage = "internships_program") And fpage <> "") Or (mpage = "areasoftalent" And spage <> "") Then %>
 <script language="JavaScript1.2" src="../includes/mm.js" type="text/javascript"></script>
 <% End If %>
 <% If spage = "collrecruiting" And tpage = "" And fpage = "" Then %>
