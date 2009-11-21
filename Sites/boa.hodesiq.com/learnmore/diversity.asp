@@ -1,11 +1,11 @@
 <% Response.Buffer=True 
 Dim title, mpage, spage, ada_href, ada_title, job_search_action, Metatag
-title = "Bank of America | Career | Diversity"
+title = "Bank of America | Career | Diversity and inclusion"
 mpage = "learnmore"
 spage = "diversity"
 ada_href = "../ada/diversity.asp"
 page_self = "../learnmore/diversity.asp"
-ada_title = "Bank of America | Career | Diversity"
+ada_title = "Bank of America | Career | Diversity and inclusion"
 job_search_action = "../jobsearch/searchresult.asp"
 Metatag="Page is in reference to the importance of diversity at Bank of America and highlights diversity organizations that are within the organization. The option to do a job search is also present on this page."
 %>
