@@ -33,7 +33,19 @@ Our work environment draws on the strength of every associate to build an atmosp
 <!-- #include file="../diversitynav.asp" -->
 				</td>
 				<td width="205" height="100%" valign="top">
-<div style="border: 1px solid #e8e8e9; margin: 0px 0px 12px 0px; padding: 0px 0px 6px 0px;">
+
+<div style="text-align: center; margin: 0px; padding: 0px;">
+<img src="../images/clear.gif" width="100%" height="1" vspace="1" alt="" border="0" style="background: #989898;"><br clear="all">
+<img src="../images/clear.gif" width="100%" height="1" vspace="0" alt="" border="0" style="background: #c9c9c9; margin: 0px 0px 6px 0px;"><br clear="all">
+<img src="../images/diversity_inclusion.gif" width="180" height="149" border="0" style="margin: 6px 0px 0px 0px;" usemap="#divinc" alt="Diversity &amp; Inclusion. It&acute;s the foundation of who we are. View the Global Diversity &amp; Inclusion video &gt;"><br clear="all">
+<img src="../images/clear.gif" width="100%" height="1" vspace="0" alt="" border="0" style="background: #c9c9c9; margin: 12px 0px 0px 0px;"><br clear="all">
+<img src="../images/clear.gif" width="100%" height="1" vspace="1" alt="" border="0" style="background: #989898;"><br clear="all">
+<map name="divinc">
+<area title="Diversity &amp; Inclusion. It&acute;s the foundation of who we are. View the Global Diversity &amp; Inclusion video &gt;" alt="Diversity &amp; Inclusion. It&acute;s the foundation of who we are. View the Global Diversity &amp; Inclusion video &gt;" coords="0,0,180,149" href="">
+</map>
+</div>
+
+<div style="border: 1px solid #e8e8e9; margin: 12px 0px 12px 0px; padding: 0px 0px 6px 0px;">
 	<H2 class="g" style="margin: 0px 0px 0px 0px;">Guided Job Search</H2>
 	<img src="../images/clear.gif" width="100%" height="1" alt="" border="0" style="margin: 1px 0px 6px 0px; background: #e8e8e9;" align="top"><br clear="all">
 <!-- #include file="../jobsearch.asp" -->
