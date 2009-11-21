@@ -321,7 +321,7 @@ function popLearnmore(show)
 			<tr valign="top"><td style="background: #7F99B2;"><img src="images/clear.gif" width="154" height="1" alt="" border="0" /></td></tr>
 			<tr valign="top"><td style="background: #cadceb; padding: 5px 6px 5px 14px;"><a href="learnmore/corpinfo.asp" class="sbtxt" title="Corporate information" onfocus="this.className='sbtxt-over';tdiv(false);" onblur="this.className='sbtxt';tdiv(true);">Corporate information</a></td></tr>
 			<tr valign="top"><td style="background: #7F99B2;"><img src="images/clear.gif" width="154" height="1" alt="" border="0" /></td></tr>
-			<tr valign="top"><td style="background: #cadceb; padding: 5px 6px 5px 14px;"><a href="learnmore/collrecruiting.asp" class="sbtxt" title="College recruiting" onfocus="this.className='sbtxt-over';tdiv(false);" onblur="this.className='sbtxt';tdiv(true);">College recruiting</a></td></tr>
+			<tr valign="top"><td style="background: #cadceb; padding: 5px 6px 5px 14px;"><a href="learnmore/collrecruiting.asp" class="sbtxt" title="Campus recruiting" onfocus="this.className='sbtxt-over';tdiv(false);" onblur="this.className='sbtxt';tdiv(true);">Campus recruiting</a></td></tr>
 			<tr valign="top"><td style="background: #7F99B2;"><img src="images/clear.gif" width="154" height="1" alt="" border="0" /></td></tr>
 			<tr valign="top"><td style="background: #cadceb; padding: 5px 6px 5px 14px;"><a href="learnmore/globalloc.asp" id="investment" class="sbtxt" title="Global locations" onfocus="this.className='sbtxt-over';tdiv(false);" onblur="this.className='sbtxt';tdiv(true);">Global locations</a></td></tr>
 </table>
