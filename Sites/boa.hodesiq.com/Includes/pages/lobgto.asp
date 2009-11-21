@@ -43,7 +43,7 @@ The technological superiority of our systems is as important as the quality of t
 <img class="dotdiv" style="margin: 12px 0px 0px 0px;" src="../images/clear.gif" width="<%=(315-right_margin_split-left_margin_0)%>" height="1" alt="" border="0">
 <p style="margin: 6px 0px 0px 0px;" class="faqpa">
 <b>Bank of America Honors Technology Fellows</b>
-<br><a href="http://newsroom.bankofamerica.com/index.php?s=press_releases&item=7963" target="_blank" class="ip">Click here to learn more</a>
+<br><a href="http://newsroom.bankofamerica.com/index.php?s=press_releases&item=7963" target="_blank" class="ip">Read the entire story here</a>
 </p>
 <img class="dotdiv" style="margin: 6px 0px 6px 0px;" src="../images/clear.gif" width="<%=(315-right_margin_split-left_margin_0)%>" height="1" alt="" border="0">
 <br>
