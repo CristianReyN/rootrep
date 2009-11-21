@@ -8,7 +8,6 @@
 <link rel="stylesheet" href="../includes/hs_safebutton.css" type="text/css">
 <script language="JavaScript1.2" src="../includes/masthead.js" type="text/javascript"></script>
 <script language="JavaScript1.2" src="../includes/mvc-fontsize.js" type="text/javascript"></script>
-<script language="JavaScript1.2" src="../includes/flash.js" type="text/javascript"></script>
 <script language="JavaScript1.2" src="../includes/ps.js" type="text/javascript"></script>
 <script language="JavaScript1.2" type="text/javascript">
 //<!--

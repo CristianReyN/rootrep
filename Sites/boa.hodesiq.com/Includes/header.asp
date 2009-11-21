@@ -32,7 +32,9 @@ ada_title = ada_title  & ", " & textonly_version
 <link rel="stylesheet" href="../includes/hs_safebutton.css" type="text/css">
 <script language="JavaScript1.2" src="../includes/masthead.js" type="text/javascript"></script>
 <script language="JavaScript1.2" src="../includes/mvc-fontsize.js" type="text/javascript"></script>
+<%If mpage = "overview" Then %>
 <script language="JavaScript1.2" src="../includes/flash.js" type="text/javascript"></script>
+<%End If %>
 <script language="JavaScript1.2" src="../includes/ps.js" type="text/javascript"></script>
 <script language="javascript" type="text/javascript">
 //<!--
@@ -71,9 +73,9 @@ End If
 </script>
 <table cellpadding="0" cellspacing="0" border="0" summary=""><tr><td>
 <div id="stopaudio">
-<% 'If flashPage Then %>
-<a href="<%=ada_href %>" id="tonly" title="<%=textonly_version %>" class="auraltext"><%=textonly_version %></a>
-<% 'End If %>
+<% If mpage = "overview" Then %>
+<a href="<%=ada_href %>" id="tonly" title="<%=textonly_version %>" class="p"><%=textonly_version %></a>
+<% End If %>
 </div>
 </td></tr></table>
 
