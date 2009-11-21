@@ -1,1 +1,1 @@
-<a href="https://bacfhrs.taleo.net/servlets/art.product.common.CareerSectionIdentityProviderServlet?art_servlet_language=en&art_ip_action=art.product.careersection.identityprovider.login.LoginController&csNo=4&flowTypeNo=3&canRegister=true" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="Send us your resume" target="_blank">Send us your resume</a>
+<a href="sendresume.asp" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="Send us your resume" target="_blank">Send us your resume</a>

@@ -15,7 +15,8 @@
 	store_page_number = 0
 	
 	If ExistsInRequest("restart.x") Or (request_page_number = 0 And session_page_number = 0) Then
-		session.Contents.RemoveAll()
+		session.Contents.Remove("page_number")
+		session.Contents.Remove("pages")
 		request_page_number = 1
 		store_page_number = 0
 	ElseIf ExistsInRequest("previous.x") Then
@@ -84,7 +85,8 @@
 	next_page_number = 0
 	
 	If session_page_number = 0 Then
-		session.Contents.RemoveAll()
+		session.Contents.Remove("page_number")
+		session.Contents.Remove("pages")
 		previous_page_number = 0
 		page_number = 1
 		next_page_number = 2

@@ -21,7 +21,17 @@ window.open(imnam,"pop","directory=no,height=450,width=500,toolbar=no,scrollbars
 <%
 Dim pageId, categoryId
 pageId = "career:" & Replace(page_self, "../", "", 1, -1, 0)
-If tpage <> "" Then
+If fpage <> "" Then
+	If tpage = "" Then
+		If spage = "" Then
+			categoryId = "career:ada:" & mpage
+		Else
+			categoryId = "career:ada:" & spage
+		End If
+	Else
+		categoryId = "career:ada:" & tpage
+	End If
+ElseIf tpage <> "" Then
 	If spage = "" Then
 		categoryId = "career:ada:" & mpage
 	Else

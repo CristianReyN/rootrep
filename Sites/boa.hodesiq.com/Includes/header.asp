@@ -67,7 +67,17 @@ function tdiv(tf){}
 <%
 Dim pageId, categoryId
 pageId = "career:" & Replace(page_self, "../", "", 1, -1, 0)
-If tpage <> "" Then
+If fpage <> "" Then
+	If tpage = "" Then
+		If spage = "" Then
+			categoryId = "career:" & mpage
+		Else
+			categoryId = "career:" & spage
+		End If
+	Else
+		categoryId = "career:" & tpage
+	End If
+ElseIf tpage <> "" Then
 	If spage = "" Then
 		categoryId = "career:" & mpage
 	Else
