@@ -5,24 +5,24 @@
 <img class="dotdiv" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
 <h2 class="h2" style="margin: 0px;">Our business</h2>
 <p style="margin: 0px 0px 12px 0px;">
-The Global Human Resources (HR) group at Bank of America enables the company to drive revenue through attracting, developing and retaining a world-class workforce.  A part of the HR group is Advice & Counsel Case Management. The Case Management Team function provides reviews of "high impact" personnel issues that have not been resolved by management, a Human Resource Manager, or the Advice and Counsel Advisor.  "High Impact" issues are those that have potential risk for the Company if they are not resolved internally.
+The Global Human Resources (HR) group at Bank of America enables the company to drive revenue through attracting, developing and retaining a world-class workforce.  A part of the HR group is Advice and Counsel Case Management. The Case Management Team function provides reviews of "high impact" personnel issues that have not been resolved by management, a Human Resource Manager, or the Advice and Counsel Advisor.  "High impact" issues are those that have potential risk for the company if they are not resolved internally.
 </p>
 
 <h2 class="h2" style="margin: 0px;">Overview</h2>
 <p style="margin: 0px 0px 12px 0px;">
-In part, the Case Manager investigates allegations of sexual harassment and Title VII discrimination, and situations involving group or concerted activity. Many of the issues reviewed and investigated by the Case Manager are referred by Advice & Counsel Advisors, HR Executives/Managers and the Bank's Legal Department. Case Managers also investigate and respond to formal state and federal agency discrimination charges, and are the Company's primary point of contact with these agencies and their local offices on individual charges and issues, interacting with HR Legal as appropriate. Responsibilities also include:
+In part, the Case Manager investigates allegations of sexual harassment Title VII discrimination, and situations involving group or concerted activity. Many of the issues reviewed and investigated by the Case Manager are referred by Advice and Counsel Advisors, HR Executives/Managers and the bank's Legal Department. Case Managers also investigate and respond to formal state and federal agency discrimination charges, and are the company's primary point of contact with these agencies and their local offices on individual charges and issues, interacting with HR Legal as appropriate. Responsibilities also include:
 </p>
 <ul>
 	<li>Responding to DOL claims</li>
 	<li>Specialized ad-hoc training/training design</li>
 </ul>
 <p style="margin: 0px 0px 12px 0px;">
-Additionally, Case Managers support the Labor Relations Group by helping conduct Work Environment Assessments (WEA). WEA's are an associate relations intervention strategy, and are generally:
+Additionally, Case Managers support the Labor Relations Group by helping conduct Work Environment Assessments (WEA). WEAs are an associate relations intervention strategy and are generally:
 </p>
 <ul>
 	<li>An evaluation methodology to identify manager/associate issues within a site</li>
 	<li>Customized based on the events/site</li>
-	<li>A tool to provide timely and diagnostic feedback to HR/LOB partners</li>
+	<li>A tool to provide timely and diagnostic feedback to HR/line of business partners</li>
 	<li>Helpful in mitigating risks associated with union organizing, individual or class action litigation, media attention and reputation risks</li>
 </ul>
 
@@ -30,11 +30,11 @@ Additionally, Case Managers support the Labor Relations Group by helping conduct
 <ul>
 	<li>Excellent written/oral communications skills</li>
 	<li>Demonstrated analytical and negotiation skills</li>
-	<li>Comprehensive knowledge of Labor Law</li>
-	<li>Minimum 3-5 years of HR generalist experience</li>
+	<li>Comprehensive knowledge of labor law</li>
+	<li>Minimum 3 to 5 years of HR generalist experience</li>
 	<li>Demonstrated organizational and time management skills</li>
 	<li>Ability to interact and influence effectively at all levels of the organization</li>
-	<li>MBA Required</li>
+	<li>MBA required</li>
 </ul>
 
 <h2 class="h2" style="margin: 0px;">Locations</h2>

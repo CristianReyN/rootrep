@@ -10,21 +10,21 @@ The Network Computing Group (NCG) provides continuous operating, computing and t
 
 <h2 class="h2" style="margin: 0px;">Overview</h2>
 <p style="margin: 0px 0px 12px 0px;">
-The Network Computing Group Leader Development Rotation (LDR) Program is an undergraduate rotational program designed to provide external candidates with an opportunity to prepare for future leadership positions within the Bank's technology division.  This high-visibility program gives participants the chance to experience two one-year rotational assignments in different divisions within the Network Computing Group.
+The Network Computing Group Leader Development Rotation (LDR) Program is an undergraduate rotational program designed to provide external candidates with an opportunity to prepare for future leadership positions within the bank's technology division. This high-visibility program gives participants the chance to experience 2 1-year rotational assignments in different divisions within the Network Computing Group.
 </p>
 
 <h2 class="h2" style="margin: 0px;">Qualifications</h2>
 <ul>
 	<li>Bachelor's degree in Computer Science, Business, Engineering or Management Information Systems</li>
-	<li>Grade Point Average of a 3.0 on a 4 point scale preferred</li>
+	<li>Grade point average of a 3.0 on a 4 point scale preferred</li>
 	<li>Project management skills and financial industry knowledge</li>
 	<li>Excellent organization skills and judgment</li>
 	<li>Understanding of technology and business requirements</li>
 	<li>Technical skills, including knowledge of several of the following technologies: UNIX, Windows NT/2000, network architecture, databases, desktop and server hardware, information security concepts and technologies</li>
 	<li>Ability to learn the organizational structure and the formal/informal workings of the organization</li>
-	<li>A strong sense of customer and associate satisfaction to drive shareholders value</li>
-	<li>Proficiency with the Microsoft Suite and other basic applications such as Outlook</li>
-	<li>Candidate must have eligibility to work in the US.</li>
+	<li>A strong sense of customer and associate satisfaction to drive shareholder value</li>
+	<li>Proficiency with the Microsoft suite and other basic applications such as Outlook</li>
+	<li>Candidate must have eligibility to work in the US</li>
 </ul>
 
 <h2 class="h2" style="margin: 0px;">Training</h2>
@@ -32,8 +32,8 @@ The Network Computing Group Leader Development Rotation (LDR) Program is an unde
 The rotational program consists of the following developmental activities:
 </p>
 <ul>
-	<li>On-boarding; including Orientation and on-going structured events</li>
-	<li>24-month rotational program (Two one-year rotations)</li>
+	<li>On-boarding, including orientation and on-going structured events</li>
+	<li>24-month rotational program (2 1-year rotations)</li>
 	<li>Structured learning curriculum</li>
 	<li>Business critical assignments</li>
 </ul>

@@ -5,7 +5,7 @@
 <img class="dotdiv" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
 <h2 class="h2" style="margin: 0px;">Our business</h2>
 <p style="margin: 0px 0px 12px 0px;">
-Corporate Debt Products is responsible for managing the Global Corporate Investment Bank's loan and trading portfolios, which includes underwriting, managing and monitoring the credit, market and operational risks within those client relationships. Corporate Debt Products employs a variety of fundamental and technical risk management tools to support Bank of America's commitment to maintaining acceptable levels of credit and trading loss volatility. Debt Products Managers work within the following industry groups: Consumer & Retail, Financial Institutions, Insurance, Gaming, General Industrials, Healthcare, Media & Telecom, Natural Resources, Real Estate, Financial Sponsors and Technology.
+Corporate Debt Products is responsible for managing the Global Corporate Investment Bank's loan and trading portfolios, which includes underwriting, managing and monitoring the credit, market and operational risks within those client relationships. Corporate Debt Products employs a variety of fundamental and technical risk management tools to support Bank of America's commitment to maintaining acceptable levels of credit and trading loss volatility. Debt Products Managers work within the following industry groups: Consumer and Retail, Financial Institutions, Insurance, Gaming, General Industrials, Healthcare, Media and Telecom, Natural Resources, Real Estate, Financial Sponsors and Technology.
 </p>
 
 <h2 class="h2" style="margin: 0px;">Overview</h2>
@@ -16,19 +16,19 @@ Corporate Debt Associate perform intensive qualitative and quantitative due dili
 	<li>Participating in the structuring, underwriting and documentation of syndicated credit facilities designed to meet both client and investor needs</li>
 	<li>Researching, writing and presenting financial/industry analyses in support of company-specific and portfolio level decisions</li>
 	<li>Evaluating transaction and relationship risk-adjusted profitability to facilitate the allocation of capital</li>
-	<li>Monitoring all elements of the Bank's credit exposure to its clients across international networks, including periodically reassessing internally-assigned risk ratings</li>
-	<li>Managing credit exposure associated with the Bank's broad range of Foreign Exchange, Derivatives and Treasury Management products</li>
+	<li>Monitoring all elements of the bank's credit exposure to its clients across international networks, including periodically reassessing internally-assigned risk ratings</li>
+	<li>Managing credit exposure associated with the bank's broad range of Foreign Exchange, Derivatives and Treasury Management products</li>
 </ul>
 
 <h2 class="h2" style="margin: 0px;">Qualifications</h2>
-<p style="margin: 0px 0px 12px 0;">Education & Skills:</p>
+<p style="margin: 0px 0px 12px 0;">Education and skills:</p>
 <ul>
 	<li>Undergraduate degree in Accounting or Finance preferred</li>
 	<li>Ability to manage multiple complex tasks simultaneously</li>
 	<li>Strong academic aptitude and quantitative analysis skills</li>
 </ul>
 
-<p style="margin: 0px 0px 12px 0;">Personality Characteristics:</p>
+<p style="margin: 0px 0px 12px 0;">Personality characteristics:</p>
 <ul>
 	<li>Leadership, initiative and resourcefulness</li>
 	<li>Strong work ethic and intellectual curiosity</li>
@@ -39,7 +39,7 @@ Corporate Debt Associate perform intensive qualitative and quantitative due dili
 
 <h2 class="h2" style="margin: 0px;">Training</h2>
 <p style="margin: 0px 0px 12px 0px;">
-As an Analyst, you will begin your career at Bank of America with an intensive training program, divided between New York City and Charlotte.  The New York portion of the program combines Analysts from all lines of business and reinforces a common foundation of accounting and corporate finance skills. The Charlotte portion of the program emphasizes the development of credit underwriting and portfolio management skills, as well as an understanding of key tools and processes. The full program is a combination of classroom instruction, e-learning modules, case studies, and presentations.
+As an Analyst, you will begin your career at Bank of America with an intensive training program, divided between New York City and Charlotte. The New York portion of the program combines Analysts from all lines of business and reinforces a common foundation of accounting and corporate finance skills. The Charlotte portion of the program emphasizes the development of credit underwriting and portfolio management skills, as well as an understanding of key tools and processes. The full program is a combination of classroom instruction, e-learning modules, case studies, and presentations.
 </p>
 
 <h2 class="h2" style="margin: 0px;">Locations</h2>

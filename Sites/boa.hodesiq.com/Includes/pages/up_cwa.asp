@@ -4,11 +4,11 @@
 				<td width="373" height="100%" valign="top" style="padding: 6px 5px 0px 12px;">
 <img class="dotdiv" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
 <h2 class="h2" style="margin: 0px;">Our business</h2>
-<p style="margin: 0px 0px 12px 0px;">Corporate Workplace is responsible for a $5.5 Billion annual budget for over 90 million square feet of Bank-owned and occupied facilities worldwide. In support of Bank of America's stated mission to be the "World's Most Admired Company", we charge ourselves with making real estate a differentiating factor for the Bank through cutting-edge initiatives such as the Bank of America Tower at One Bryant Park in NYC, one of the world's most environmentally-friendly skyscrapers; developing flexible work options and continually innovating the workplace environment. Corporate Workplace partners with internal bank clients to craft solutions for project and facilities management, real estate strategy and the acquisition and disposition of space. Corporate Workplace ensures real estate is a competitive advantage at Bank of America. To learn more about Bank of America's commitment to innovation and the environment, visit the following:
-<br><br>
-<a href="http://newsroom.bankofamerica.com/index.php?s=press_kit&item=71" target="_blank" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="Bank of America Tower at One Bryant Park">Bank of America Tower at One Bryant Park</a>
-<br><br>
-<a href="http://newsroom.bankofamerica.com/index.php?s=press_releases&item=7697" target="_blank" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="Environmental Commitment">Environmental Commitment</a>
+<p style="margin: 0px 0px 12px 0px;">Corporate Workplace is responsible for a $5.5 billion annual budget for over 90 million square feet of bank-owned and occupied facilities worldwide. In support of Bank of America's stated mission to be the "World's Most Admired Company" we charge ourselves with making real estate a differentiating factor for the bank through cutting-edge initiatives such as the Bank of America Tower at One Bryant Park in NYC, one of the world's most environmentally-friendly skyscrapers; developing flexible work options and continually innovating the workplace environment. Corporate Workplace partners with internal bank clients to craft solutions for project and facilities management, real estate strategy and the acquisition and disposition of space. Corporate Workplace ensures real estate is a competitive advantage at Bank of America. To learn more about Bank of America's commitment to innovation and the environment, visit the following:
+<br>
+<a href="http://newsroom.bankofamerica.com/index.php?s=press_kit&item=71" target="_blank" class="p" onfocus="this.className='p-over';" onblur="this.className='p';" title="Bank of America Tower at One Bryant Park">Bank of America Tower at One Bryant Park</a>
+<br>
+<a href="http://newsroom.bankofamerica.com/index.php?s=press_releases&item=7697" target="_blank" class="p" onfocus="this.className='p-over';" onblur="this.className='p';" title="Environmental Commitment">Environmental commitment</a>
 </p>
 <h2 class="h2" style="margin: 0px;">Overview</h2>
 <p style="margin: 0px 0px 12px 0px;">
@@ -26,25 +26,25 @@ The Corporate Workplace Analyst, depending on assignment, may take on roles and 
 
 <h2 class="h2" style="margin: 0px;">Qualifications</h2>
 <p style="margin: 0px 0px 12px 0px;">
-Education & Skills:
+Education and skills:
 </p>
 <ul>
 	<li>Undergraduate degree in Finance, Accounting or Real Estate preferred</li>
 	<li>Professional presentation and communication skills with a high degree of integrity and accuracy</li>
 	<li>Demonstrated financial and analytical skills, including interpretation of complex data for conclusions or solutions</li>
-	<li>Strong technical skills, including tools such as Excel, Access, and PowerPoint</li>
+	<li>Strong technical skills including tools such as Excel, Access, and PowerPoint</li>
 	<li>Eligibility to work in the United States</li>
 </ul>
 
 <p style="margin: 0px 0px 12px 0px;">
-Personality Characteristics:
+Personality characteristics:
 </p>
 <ul>
-	<li><b>Client Focus</b> -Maintains effective relationships with clients by gaining trust and respect</li>
-	<li><b>Business Acumen</b> - Knowledgeable in current and possible future policies, practices, trends and information; knows the competition; is aware of how strategies and tactics work in the marketplace</li>
-	<li><b>Process Management</b> - Knows how to combine tasks into efficient work flow; can simplify complex processes</li>
-	<li><b>Organizational Agility</b> - Knows how to get things done through formal channels and informal networks</li> 
-	<li><b>Dealing with Ambiguity</b> - Can effectively cope with change, and comfortably handle risk and uncertainty</li>
+	<li><b>Client focus</b> - Maintains effective relationships with clients by gaining trust and respect</li>
+	<li><b>Business acumen</b> - Knowledgeable in current and possible future policies, practices, trends and information; knows the competition; is aware of how strategies and tactics work in the marketplace</li>
+	<li><b>Process management</b> - Knows how to combine tasks into efficient work flow; can simplify complex processes</li>
+	<li><b>Organizational agility</b> - Knows how to get things done through formal channels and informal networks</li> 
+	<li><b>Dealing with ambiguity</b> Can effectively cope with change and comfortably handle risk and uncertainty</li>
 </ul>
 
 <h2 class="h2" style="margin: 0px;">Locations</h2>

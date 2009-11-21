@@ -5,9 +5,9 @@
 <img class="dotdiv" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
 <h2 class="h2" style="margin: 0px;">Our business</h2>
 <p style="margin: 0px 0px 12px 0px;">
-The Global Risk Management Organization effectively manages risk and reward for each of the Bank's major lines of business. The foundation of Bank of America's risk governance is individual accountability and adherence to the highest standards of conduct. We strive to do the right thing and to do things right. Understanding, identifying and managing risk and reward is part of every associate's job.  
+The Global Risk Management Organization effectively manages risk and reward for each of the bank's major lines of business. The foundation of Bank of America's risk governance is individual accountability and adherence to the highest standards of conduct. We strive to do the right thing and to do things right. Understanding, identifying and managing risk and reward is part of every associate's job.  
 <br><br>
-Global Risk employs 5,000 associates in more than 35 countries. With the increased focus on risk management in the market place, Global Risk Management offers challenging and exciting career opportunities.
+Global Risk employs 5,000 associates in more than 35 countries. With the increased focus on risk management in the marketplace, Global Risk Management offers challenging and exciting career opportunities.
 </p>
 
 <h2 class="h2" style="margin: 0px;">Overview</h2>

@@ -5,20 +5,20 @@
 <img class="dotdiv" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
 <h2 class="h2" style="margin: 0px;">Our business</h2>
 <p style="margin: 0px 0px 12px 0px;">
-To deliver a best-in-class rotational development opportunity for Finance MAP associates, through experiential learning, training and networking opportunities. The Finance Management Associate Program (FMAP) is designed to give associates the necessary tools, early in their careers, to manage their professional development, realize their potential and maximize their contributions to Bank of America.
+To deliver a best-in-class rotational development opportunity for Finance Management Associate Program (FMAP) associates, through experiential learning, training and networking opportunities. The FMAP is designed to give associates the necessary tools - early in their careers - to manage their professional development, realize their potential and maximize their contributions to Bank of America.
 </p>
 
 <h2 class="h2" style="margin: 0px;">Overview</h2>
 <p style="margin: 0px 0px 12px 0px;">
-The FMAP is a two-year Associate Development program. The FMAP provides associates with the opportunity to move through two rotational assignments within the Finance organization. This rotational process helps associates develop a solid knowledge base of the functional areas of the Finance Group and a broad range of skills. FMAP associates participate in a variety of activities designed to foster teamwork, encourage networking and demonstrate Bank of America's vision and culture. Participants will attend FMAP events and networking activities, and will be encouraged to further develop leadership skills by leading projects or committees.
+The FMAP is a 2-year Associate Development program. The FMAP provides associates with the opportunity to move through 2 rotational assignments within the Finance organization. This rotational process helps associates develop a solid knowledge base of the functional areas of the Finance Group and a broad range of skills. FMAP associates participate in a variety of activities designed to foster teamwork, encourage networking and demonstrate Bank of America's vision and culture. Participants will attend FMAP events and networking activities, and will be encouraged to further develop leadership skills by leading projects or committees.
 <br><br>
-Through 2 one-year rotations, you will participate in a Business and Corporate support role, performing and/or supporting one or more of the following duties:
+Through 2 1-year rotations, you will participate in a business and corporate support role, performing and/or supporting one or more of the following duties:
 </p>
 <ul>
 	<li>Analysis and reporting of on-going operations</li>
 	<li>Forecasting financial and non-financial trends</li>
 	<li>Developing models and performing financial analysis of business investments</li>
-	<li>Supporting the Company's internal planning and management accounting functions</li>
+	<li>Supporting the company's internal planning and management accounting functions</li>
 	<li>Preparing external reports for shareholders and regulatory authorities</li>
 	<li>Providing guidance on accounting policy issues and/or taxation issues</li>
 </ul>
@@ -34,7 +34,7 @@ Through 2 one-year rotations, you will participate in a Business and Corporate s
 
 <h2 class="h2" style="margin: 0px;">Training</h2>
 <p style="margin: 0px 0px 12px 0px;">
-The FMAP training curriculum is comprehensive and offers a blend of classroom and web-based training, which complements the hands-on experience associates develop in their rotational assignments. The training curriculum is geared for young professionals with courses offered in three main areas:  technical training, business acumen and behavioral courses.
+The FMAP training curriculum is comprehensive and offers a blend of classroom and web-based training, which complements the hands-on experience associates develop in their rotational assignments. The training curriculum is geared for young professionals with courses offered in 3 main areas: technical training, business acumen and behavioral courses.
 </p>
 
 <h2 class="h2" style="margin: 0px;">Locations</h2>

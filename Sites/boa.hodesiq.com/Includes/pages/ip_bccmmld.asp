@@ -40,14 +40,14 @@ Key facts about Global Consumer and Small Business Banking Center Channel Leader
 </ul>
 
 <h2 class="h2" style="margin: 0px;">Qualifications</h2>
-<p style="margin: 0px 0px 0px 0px;">Education & Skills:</p>
+<p style="margin: 0px 0px 0px 0px;">Education and skills:</p>
 <ul>
 	<li>Must be a MBA or Master's candidate at an accredited university or college during the time of the internship (i.e., students who apply for a summer 2008 internship must not have a graduation date prior to August 2008)</li>
 	<li>Candidates must be a first year MBA student</li>
 	<li>Must possess authorization to work in the United States</li>
 </ul>
 
-<p style="margin: 0px 0px 0px 0px;">Personality Characteristics</p>
+<p style="margin: 0px 0px 0px 0px;">Personality characteristics</p>
 <ul>
 	<li>Ability to successfully navigate in a complex environment</li>
 	<li>Strong leadership potential</li>

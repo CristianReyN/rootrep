@@ -33,13 +33,13 @@ In addition to developing cross-functional thinking and strong technical skills,
 </p>
 
 <h2 class="h2" style="margin: 0px;">Qualifications</h2>
-<p style="margin: 0px 0px 12px 0px;">Education & Skills:</p>
+<p style="margin: 0px 0px 12px 0px;">Education and skills:</p>
 <p style="margin: 0px 0px 12px 0px;">
 Candidates must be a final year candidate from a four-year college or university and demonstrate a combination of academic aptitude, quantitative skills, strategic and creative thinking, and excellent written and oral communication skills. Analysts will be required to manage several projects at once and work effectively both individually and as part of a team.
 </p>
 
 <p style="margin: 0px 0px 12px 0px;">
-Personality Characteristics:
+Personality characteristics:
 </p>
 <ul>
 	<li>Attention to detail</li>

@@ -14,7 +14,7 @@ The Markets Risk Associate Program (MRAP) is an associate development program th
 <br><br>
 As a Summer Intern, you will be responsible for actively managing your development. You will also participate in associate development events and networking activities. You are encouraged to further develop core skills by participating in projects or committees. This may include designing and implementing process improvements and partnering with senior management on special projects.
 <br><br>
-The Summer Intern program begins in May and June and is a 10-12 week commitment, during which Interns will be expected to work 40 hours a week.
+The Summer Intern program begins in May and June and is a 10 to 12 week commitment, during which interns will be expected to work 40 hours a week.
 </p>
 
 <h2 class="h2" style="margin: 0px;">Qualifications</h2>

@@ -13,20 +13,20 @@ The Global Human Resources (HR) group at Bank of America drives revenue and impa
 Learning Consultant Intern responsibilities include:
 </p>
 <p style="margin: 0px 0px 12px 0px;">
-<b>Client Relationship</b>
+<b>Client relationship</b>
 </p>
 <ul style="margin-top: 0px;">
-	<li>Acting as liaison between learning team and the line of business (LOB) around specific learning needs</li>
+	<li>Acting as liaison between learning team and the line of business around specific learning needs</li>
 </ul>
 <p style="margin: 0px 0px 12px 0px;">
-<b>Line of Business Initiatives</b>
+<b>Line of business initiatives</b>
 </p>
 <ul style="margin-top: 0px;">
 	<li>Assisting learning managers and Learning & Leadership Development (L&LD) client teams to create end-to-end learning solutions that support and drive business strategy</li>
-	<li>Assisting in the creation of LOB learning plans, mapping learning solutions and monitoring progress against plans</li>
+	<li>Assisting in the creation of learning plans, mapping learning solutions and monitoring progress against plans</li>
 </ul>
 <p style="margin: 0px 0px 12px 0px;">
-<b>Learning Initiatives</b>
+<b>Learning initiatives</b>
 </p>
 <ul style="margin-top: 0px;">
 	<li>Identifying skill gaps and defining the appropriate solutions</li>
@@ -35,7 +35,7 @@ Learning Consultant Intern responsibilities include:
 		<ul style="margin-top: 0px;">
 			<li>Classroom-based learning solutions complete with learning objectives, assessments, leaders guide, media support elements, and participant materials for use by Instructors</li>
 			<li>Technology-based learning, including web-based training, podcasts, etc.</li>
-			<li>On-the-job tool (Quick Reference Cards) or job aid for use by LOB</li>
+			<li>On-the-job tool (Quick Reference Cards) or job aid for use by line of business</li>
 		</ul>
 	</li>
 	<li>Measuring overall business partner and associate training satisfaction scores</li>
@@ -55,8 +55,8 @@ Learning Consultant Intern responsibilities include:
 
 <h2 class="h2" style="margin: 0px;">Qualifications</h2>
 <ul>
-	<li>MBA or advanced degree in Industrial/Organizational psychology</li>
-	<li>3-5 years OD/HRD consulting experience in a fast-paced, corporate or consulting environment preferred</li>
+	<li>MBA or advanced degree in Industrial/Organizational Psychology</li>
+	<li>3 to 5 years OD/HRD consulting experience in a fast-paced corporate or consulting environment preferred</li>
 	<li>Demonstrated ability to influence senior executives, establish and maintain collaborative partnerships and provide thought leadership</li>
 	<li>Excellent strategic and process thinking abilities</li>
 	<li>Ability to architect and implement large change and operate easily between concept and operation</li>

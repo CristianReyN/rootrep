@@ -8,13 +8,13 @@
 <b>The Global Middle Office (GMO)</b> Group is primarily a control function responsible for providing assurance over data and processes used to record Risk, P/L, Balance Sheet and Financial Results. The seven GMO functions that are critical to ensure business process control include:
 </p>
 <ul>
-	<li><b>New Business Development:</b> Initiating new product set-ups and coordinating operations processes</li>
-	<li><b>Trade Capture Substantiation:</b> Ensuring new transactions are accurately and consistently recorded</li>
-	<li><b>P&L Validation:</b> Validating P/L through accurate analysis of economic components</li>
-	<li><b>Risk/Position Validation:</b> Proving risks/positions daily</li>
-	<li><b>Balance Sheet Substantiation:</b> Confirming completeness, accuracy and validity of balances</li>
-	<li><b>Event Monitoring:</b> Monitoring for business and positions which have event exposure</li>
-	<li><b>Front-Back Process Oversight:</b> Ensuring no control gaps exist for timely and accurate P/L, Balance Sheet and Position reporting</li>
+	<li><b>New business development:</b> Initiating new product set-ups and coordinating operations processes</li>
+	<li><b>Trade capture substantiation:</b> Ensuring new transactions are accurately and consistently recorded</li>
+	<li><b>P&L validation:</b> Validating P/L through accurate analysis of economic components</li>
+	<li><b>Risk/position validation:</b> Proving risks/positions daily</li>
+	<li><b>Balance sheet substantiation:</b> Confirming completeness, accuracy and validity of balances</li>
+	<li><b>Event monitoring:</b> Monitoring for business and positions which have event exposure</li>
+	<li><b>Front-back process oversight:</b> Ensuring no control gaps exist for timely and accurate P/L, Balance Sheet and Position reporting</li>
 </ul>
 
 <h2 class="h2" style="margin: 0px;">Overview</h2>

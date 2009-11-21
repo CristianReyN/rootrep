@@ -10,9 +10,9 @@ The Network Computing Group (NCG) provides continuous operating, computing and t
 
 <h2 class="h2" style="margin: 0px;">Overview</h2>
 <p style="margin: 0px 0px 12px 0px;">
-The Bank of America Intern Program is designed to provide students with corporate experience in business banking policies and practices. Students are given a true associate experience, as internships mirror full-time positions and include goal-setting and a formal review process. Interns are required to work 40-hour weeks for 10 -12 weeks between the months of May and September.  On-the-job training, mentoring relationships, and networking opportunities are provided for all interns.  
+The Bank of America Intern Program is designed to provide students with corporate experience in business banking policies and practices. Students are given a true associate experience, as internships mirror full-time positions and include goal setting and a formal review process. Interns are required to work 40-hour weeks for 10 to 12 weeks between the months of May and September.  On-the-job training, mentoring relationships, and networking opportunities are provided for all interns.  
 <br><br>
-NCG Intern job functions and responsibilities include:
+NCG intern job functions and responsibilities include:
 </p>
 <ul>
 	<li>Designing, developing, implementing, enhancing and/or operating information systems, communications hardware and/or   software in support of business goals</li>
@@ -23,11 +23,11 @@ NCG Intern job functions and responsibilities include:
 	<li>Participating in design, development and implementation of complex applications, often using new technologies</li>
 </ul>
 <p style="margin: 0px 0px 12px 0px;">
-Rising seniors who meet or exceed internship performance expectations may receive a full-time offer of employment following their internships. Full-time NCG hires will participate in the Network Computing Group <b>Rotational Program</b>, a 24-month rotational program consisting of two rotations within the Network Computing Group. Associates will be placed in a permanent role after rotations are complete.
+Rising seniors who meet or exceed internship performance expectations may receive a full-time offer of employment following their internships. Full-time NCG hires will participate in the Network Computing Group <b>Rotational Program</b>, a 24-month rotational program consisting of 2 rotations within the Network Computing Group. Associates will be placed in a permanent role after rotations are complete.
 </p>
 
 <h2 class="h2" style="margin: 0px;">Qualifications</h2>
-<p style="margin: 0px 0px 12px 0;">Education & Skills:</p>
+<p style="margin: 0px 0px 12px 0;">Education and skills:</p>
 <ul>
 	<li>Enrolled in a full-time degree program, pursuing a major in Computer Science, Business, Engineering or Information Technology</li>
 	<li>Proficient with Microsoft Office and other basic applications such as Outlook</li>
@@ -36,20 +36,20 @@ Rising seniors who meet or exceed internship performance expectations may receiv
 	<li>Excellent organizational skills and judgement</li>
 	<li>Ability to learn the organizational structure and the formal/informal workings of the organization</li>
 	<li>Understanding of technology and business requirements</li>
-	<li>Preferred Grade Point Average of a 3.0 on a 4.0 scale</li>
+	<li>Preferred grade point average of a 3.0 on a 4.0 scale</li>
 </ul>
 
-<p style="margin: 0px 0px 12px 0;">Personality Characteristics:</p>
+<p style="margin: 0px 0px 12px 0;">Personality characteristics:</p>
 <ul>
 	<li>Strong drive for results</li>
 	<li>Teamwork mentality</li>
-	<li>Ability to succeed in a fast-paced, collaborative environment</li>
+	<li>Ability to succeed in a fast-paced collaborative environment</li>
 	<li>Strong sense of customer and associate satisfaction to drive shareholder value</li>
 </ul>
 
 <h2 class="h2" style="margin: 0px;">Locations</h2>
 <p style="margin: 0px 0px 12px 0px;">
-Typical internship locations include, but are not limited to: Charlotte, NC, Jacksonville, FL, Dallas, TX and New York, NY
+Typical internship locations include but are not limited to: Charlotte, NC, Jacksonville, FL, Dallas, TX and New York, NY
 </p>
 <p style="margin: 0px 0px 12px 0px;">
 Candidates must be legally authorized to work in the US without sponsorship.

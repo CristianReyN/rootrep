@@ -5,23 +5,23 @@
 <img class="dotdiv" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
 <h2 class="h2" style="margin: 0px;">Our business</h2>
 <p style="margin: 0px 0px 12px 0px;">
-The Technology MBA Leadership Rotational Program spans the entire Technology Organization within Bank of America, which includes: Global Wealth & Investment Management Technology, Consumer & Small Business Banking and Corporate Staff Support Technology, Capital Markets & Wholesale Banking Technology, Corporate Information Security/Business Continuity and the Network Computing Group.
+The Technology MBA Leadership Rotational Program spans the entire technology organization within Bank of America, which includes Global Wealth & Investment Management Technology, Consumer & Small Business Banking and Corporate Staff Support Technology, Capital Markets & Wholesale Banking Technology, Corporate Information Security/Business Continuity and the Network Computing Group.
 </p>
 
 <h2 class="h2" style="margin: 0px;">Overview</h2>
 <p style="margin: 0px 0px 12px 0px;">
-The Technology MBA Leaderships Rotational Program provides the opportunity to gain foundational knowledge within Bank of America's Technology organization through 2-3 rotations over a 36-month period. MBA's will learn end-to-end technology and business strategies, while developing the skills necessary to move into potential leadership positions upon completion of the program.
+The Technology MBA Leaderships Rotational Program provides the opportunity to gain foundational knowledge within Bank of America's technology organization through 2 to 3 rotations over a 36-month period. MBAs will learn end-to-end technology and business strategies, while developing the skills necessary to move into potential leadership positions upon completion of the program.
 <br><br>
-Interns work for 10-12 weeks in challenging roles that mirror the positions of full-time Technology MBA program associates. In conjunction with the job responsibilities, interns will participate in Technology MBA functions such as training sessions, informational lunches, networking events and community service opportunities. Interns will also have a formal support structure including a Peer Coach, Assignment Manager and Program Manager.
+Interns work for 10 to 12 weeks in challenging roles that mirror the positions of full-time Technology MBA Program associates. In conjunction with the job responsibilities, interns will participate in Technology MBA functions such as training sessions, informational lunches, networking events and community service opportunities. Interns will also have a formal support structure including a peer coach, assignment manager and program manager.
 <br><br>
 Associates will attend a formal education and orientation program to learn more about Bank of America business, culture and values, as well as to network with executives and other college hires.
 </p>
 
 <h2 class="h2" style="margin: 0px;">Qualifications</h2>
-<p style="margin: 0px 0px 12px 0;">Education & Skills:</p>
+<p style="margin: 0px 0px 12px 0;">Education and skills:</p>
 <ul>
-	<li>MBA degree from an accredited College or University</li>
-	<li>5-8 years of work experience prior to entering Business School</li>
+	<li>MBA degree from an accredited college or university</li>
+	<li>5 to 8 years of work experience prior to entering business school</li>
 	<li>Undergraduate degree in Technical or Engineering-related major is desired</li>
 	<li>Strong leadership and communication skills</li>
 	<li>Excellent organizational and analytical skills</li>
@@ -31,7 +31,7 @@ Associates will attend a formal education and orientation program to learn more 
 	<li>International experience is a plus</li>
 </ul>
 
-<p style="margin: 0px 0px 12px 0;">Personality Characteristics:</p>
+<p style="margin: 0px 0px 12px 0;">Personality characteristics:</p>
 <ul>
 	<li>Strong drive for results</li>
 	<li>Teamwork mentality</li>
@@ -43,7 +43,7 @@ Associates will attend a formal education and orientation program to learn more 
 <h2 class="h2" style="margin: 0px;">Locations</h2>
 <p style="margin: 0px 0px 12px 0px;">
 Opportunities include, but are not limited to:
-Charlotte, NC <span class="middot">&middot;</span> Boston, MA <span class="middot">&middot;</span> New York, NY <span class="middot">&middot;</span> Other (including select international) locations TBD
+Charlotte, NC <span class="middot">&middot;</span> Boston, MA <span class="middot">&middot;</span> New York, NY <span class="middot">&middot;</span> Other (including select international) locations
 </p>
 
 <p style="margin: 0px 0px 12px 0px;">

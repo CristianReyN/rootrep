@@ -10,19 +10,19 @@ The Mainframe Build group is a division within the Network Computing Group that 
 
 <h2 class="h2" style="margin: 0px;">Overview</h2>
 <p style="margin: 0px 0px 12px 0px;">
-The Mainframe Build College graduate program exists to help develop the next generation of mainframe technicians. Part of the program is a summer intern program which gives students hands-on mainframe experience in a summer job and provides a potential pathway to a full-time associate position within the Mainframe Build College graduate program.
+The Mainframe Build College graduate program exists to help develop the next generation of mainframe technicians. Part of the program is a summer intern program that gives students hands-on mainframe experience in a summer job and provides a potential pathway to a full-time associate position within the Mainframe Build College graduate program.
 <br><br>
-The Bank of America Intern Program is designed to provide students with mainframe technology experience as it applies to banking. Students are given a true associate experience, as internships mirror full-time positions and include goal-setting and a formal review process. Interns are required to work 40-hour weeks for 10 -12 weeks between the months of May and September.  On-the-job training, mentoring relationships, and networking opportunities are provided for all interns.  
+The Bank of America Intern Program is designed to provide students with mainframe technology experience as it applies to banking. Students are given a true associate experience, as internships mirror full-time positions and include goal setting and a formal review process. Interns are required to work 40-hour weeks for 10 to 12 weeks between the months of May and September.  On-the-job training, mentoring relationships, and networking opportunities are provided for all interns.
 <br><br>
-Interns will be assigned to a specific Mainframe technology team, or rotate among several teams during the internship.  Interns will be mentored by a senior technician and be exposed to the following:
+Interns will be assigned to a specific Mainframe technology team, or rotate among several teams during the internship. Interns will be mentored by a senior technician and be exposed to the following:
 </p>
 <ul>
-	<li>Design, develop, implement and enhance transaction, database, communication and operating systems in support of business goals.</li>
-	<li>Analyze, track, and troubleshoot performance of assigned system to ensure that all information processing and delivery requirements are met.</li>
-	<li>Support the configuration, implementation, administration, monitoring and ongoing maintenance of assigned system.</li>
-	<li>Provide project management support relating to process improvement in technology.</li>
+	<li>Design, develop, implement and enhance transaction, database, communication and operating systems in support of business goals</li>
+	<li>Analyze, track, and troubleshoot performance of assigned system to ensure that all information processing and delivery requirements are met</li>
+	<li>Support the configuration, implementation, administration, monitoring and ongoing maintenance of assigned system</li>
+	<li>Provide project management support relating to process improvement in technology</li>
 	<li>Provide analytical support for data collection and measurements</li>
-	<li>Participate in design, development and implementation of complex applications, often using new technologies.</li>
+	<li>Participate in design, development and implementation of complex applications, often using new technologies</li>
 </ul>
 <p style="margin: 0px 0px 12px 0px;">
 In addition, interns can expect to:
@@ -30,25 +30,25 @@ In addition, interns can expect to:
 <ul>
 	<li>Gain first hand knowledge on large-scale IBM data processing environment</li>
 	<li>Gain insight into various mainframe systems support disciplines</li>
-	<li>Learn about Six Sigma and how it is being used to accomplish BAC goals</li>
+	<li>Learn about Six Sigma and how it is being used to accomplish Bank of America goals</li>
 	<li>Observe management of world-class data processing professionals</li>
 </ul>
 <p style="margin: 0px 0px 12px 0px;">
-Rising seniors who meet or exceed internship performance expectations may receive a full-time offer of employment, following their internships. Full-time NCG hires will participate in the Network Computing Group <b>Mainframe Build Program</b>, a 2-3 year program within the Mainframe organization in the Network Computing Group.
+Rising seniors who meet or exceed internship performance expectations may receive a full-time offer of employment following their internships. Full-time NCG hires will participate in the Network Computing Group <b>Mainframe Build Program</b>, a 2 to 3 year program within the Mainframe organization in the Network Computing Group.
 </p>
 
 <h2 class="h2" style="margin: 0px;">Qualifications</h2>
-<p style="margin: 0px 0px 12px 0;">Education & Skills:</p>
+<p style="margin: 0px 0px 12px 0;">Education and skills:</p>
 <ul>
 	<li>Rising college seniors currently enrolled in a full-time program, pursuing a degree in Computer Science or Information Technology</li>
 	<li>Basic IBM mainframe technology education/experience</li>
 	<li>Conceptual knowledge of some of the following technologies: CICS, DB2, IMS WMQ, Z/OS Operating Systems</li>
 	<li>Ability to code JCL and a basic computer language</li>
-	<li>Preferred Grade Point Average of 3.0 on a 4.0 scale</li>
+	<li>Preferred grade point average of 3.0 on a 4.0 scale</li>
 	<li>Excellent organization and communication skills</li>
 </ul>
 
-<p style="margin: 0px 0px 12px 0;">Personality Characteristics:</p>
+<p style="margin: 0px 0px 12px 0;">Personality characteristics:</p>
 <ul>
 	<li>Strong drive for results</li>
 	<li>Teamwork mentality</li>

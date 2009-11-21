@@ -10,31 +10,31 @@ Global Consumer and Small Business Banking (GCSBB) serves more than 53 million c
 
 <h2 class="h2" style="margin: 0px;">Overview</h2>
 <p style="margin: 0px 0px 12px 0px;">
-The Global Consumer & Small Business Banking Product Leader Development Program develops future senior leaders while engaging them in challenging projects critical to the future of Bank of America. Recent MBA/Masters-level graduates experience 2-3 rotational assignments (6-8 months each) over 18-24 months.
+The Global Consumer & Small Business Banking Product Leader Development Program (LDP) develops future senior leaders while engaging them in challenging projects critical to the future of Bank of America. Recent MBA/Masters-level graduates experience 2 to 3 rotational assignments (6 to 8 months each) over 18 to 24 months.
 <br><br>
 Rotational opportunities include:
 </p>
 <ul>
-	<li>Business Operations Management</li>
+	<li>Business operations management</li>
 	<li>Marketing</li>
-	<li>Product Management</li>
-	<li>Process Design</li>
-	<li>Distribution Strategy</li>
+	<li>Product management</li>
+	<li>Process design</li>
+	<li>Distribution strategy</li>
 </ul>
 
 <h2 class="h2" style="margin: 0px;">Qualifications</h2>
 <p style="margin: 0px 0px 12px 0;">
-Education & Skills:
+Education and skills:
 </p>
 <ul>
-	<li>MBA or Master's graduate from an accredited business school or university (Spring/Summer 2008 graduation date)</li>
-	<li>3-6 years pre-M.B.A. work experience with a demonstrated record of achievement</li>
+	<li>MBA or Master's graduate from an accredited business school or university (spring/summer 2008 graduation date)</li>
+	<li>3 to 6 years pre-M.B.A. work experience with a demonstrated record of achievement</li>
 	<li>Relevant work history that reflects experience in supervising others, delegating tasks and resolving conflicts</li>
 	<li>Developed teamwork and partnering skills</li>
 	<li>Ability to manage tight deadlines, organize and prioritize work independently</li>
 	<li>Ability to learn and navigate the formal and informal organizational structure</li>
 	<li>Ability to drive customer/associate satisfaction and shareholder value</li>
-	<li>Must have eligibility to work in US.</li>
+	<li>Must have eligibility to work in US</li>
 </ul>
 
 <p style="margin: 0px 0px 12px 0;">
@@ -44,7 +44,7 @@ Additionally, candidates must have expertise and/or experience in at least 3 of 
 	<li>Database marketing and segmentation principles</li>
 	<li>Execution/production of end-to-end marketing campaign management processes</li>
 	<li>Previous financial services or retail experience</li>
-	<li>Strong statistical background (Black Belt certified or an experienced Statistician in the deep drilling of data sets)</li>
+	<li>Strong statistical background (Six Sigma Black Belt certified or an experienced statistician in the deep drilling of data sets)</li>
 	<li>Statistical methodology and tools (e.g., SPSS and SAS)</li>
 	<li>3+ years of pricing, valuation, and/or risk management experience</li>
 	<li>SQL, Access and database management</li>
@@ -52,7 +52,7 @@ Additionally, candidates must have expertise and/or experience in at least 3 of 
 </ul>
 
 <p style="margin: 0px 0px 12px 0;">
-Personality Characteristics:
+Personality characteristics:
 </p>
 <ul>
 	<li>Ability to succeed in a complex, fast-paced, collaborative environment</li>
@@ -65,7 +65,7 @@ Personality Characteristics:
 
 <h2 class="h2" style="margin: 0px;">Training</h2>
 <p style="margin: 0px 0px 12px 0px;">
-Associates will participate in a formal Education and Orientation program to learn more about Bank of America business, culture and values, as well as to network with Executives and other college hires.  Associates will also participate in various networking and learning opportunities throughout the duration of the program. LDP participants will attend an exclusive sessions designed to build critical leadership skills using assessments, experiential learning and senior leader exposure.
+Associates will participate in a formal education and orientation program to learn more about Bank of America business, culture and values, as well as to network with executives and other college hires. Associates will also participate in various networking and learning opportunities throughout the duration of the program. LDP participants will attend exclusive sessions designed to build critical leadership skills using assessments, experiential learning and senior leader exposure.
 </p>
 
 <h2 class="h2" style="margin: 0px;">Locations</h2>

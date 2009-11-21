@@ -10,34 +10,35 @@ Bank of America's Corporate Security Division is seeking dynamic individuals who
 
 <h2 class="h2" style="margin: 0px;">Overview</h2>
 <p style="margin: 0px 0px 12px 0px;">
-<b>Corporate Security Key Disciplines:</b>
+Corporate Security Key Disciplines:
 </p>
 <ul>
-	<li><b>Investigative Services:</b> Conducts investigations in diversified operations within the bank. Participates in, or leads investigation-related task forces and/or special projects that represent significant loss exposure and/or are highly visible. Identifies significant issues and controls weaknesses, and makes recommendations to line management to minimize losses. Formulates and recommends action response to allegations, files crime reports and testifies in court proceedings.</li>
-	<li><b>Background Screening Investigations:</b> Conducts routine investigations of varying complexity that generate investigative information relative to current and/or prospective customers. Interprets and analyzes information gathered from numerous databases and third party sources, and identifies "red flags" that may prompt further inquiry. Writes narrative reports summarizing information for use by relationship managers in making credit decisions. Conducts pre-employment screenings for potential Bank hires.</li>
-	<li><b>Protective Services:</b> Manages the security program for the Bank within a geographic area, and provides consultation to client management. Conducts security reviews of banking and non-banking centers based on risk assessment factors. Consults with client managers and provides assistance and issue resolution to banking centers on routine questions regarding the security program. Participates in investigations of physical security incidents and other incidents as directed, providing timely documentation.</li>
-	<li><b>Security Operations & Analysis Command Center:</b> provides intelligence and situational awareness services for the Bank through a series of briefings, reports and communications. Responsible for monitoring alarm and video data in all Bank of America branches. Coordinates event and crisis management activities.</li>
+	<li><b>Investigative Services:</b> Conducts investigations in diversified operations within the bank. Participates in or leads investigation-related task forces and/or special projects that represent significant loss exposure and/or are highly visible. Identifies significant issues and controls weaknesses, and makes recommendations to line management to minimize losses. Formulates and recommends action response to allegations, files crime reports, and testifies in court proceedings.</li>
+	<li><b>Background Screening Investigations:</b> Conducts routine investigations of varying complexity that generate investigative information relative to current and/or prospective customers. Interprets and analyzes information gathered from numerous databases and third party sources, and identifies "red flags" that may prompt further inquiry. Writes narrative reports summarizing information for use by relationship managers in making credit decisions. Conducts pre-employment screenings for potential bank hires.</li>
+	<li><b>Protective Services:</b> Manages the security program for the bank within a geographic area, and provides consultation to client management. Conducts security reviews of banking and non-banking centers based on risk assessment factors. Consults with client managers and provides assistance and issue resolution to banking centers on routine questions regarding the security program. Participates in investigations of physical security incidents and other incidents as directed, providing timely documentation.</li>
+	<li><b>Security Operations & Analysis Command Center:</b> Provides intelligence and situational awareness services for the bank through a series of briefings, reports and communications. Responsible for monitoring alarm and video data in all Bank of America branches. Coordinates event and crisis management activities.</li>
 </ul>
 
 <h2 class="h2" style="margin: 0px;">Qualifications</h2>
 <ul>
-	<li>Pursuing a BA/BS in Criminal Justice, Business Management, Finance, International Business or other related area</li>
-	<li>Minimum GPA of 3.0</li>
-	<li>Demonstrated leadership in school, community or work experience</li>
-	<li>Ability to motivate and influence others</li>
-	<li>Initiative, creative problem-solving and relationship-building skills</li>
-	<li>Integrity and high professional standards</li>
-	<li>Demonstrated analytical and organizational abilities</li>
-	<li>Team-orientation, flexibility, and a receptiveness to change</li>
-	<li>Time management skills</li>
+	<li>Pursuing a BA/BS in Criminal Justice, Business Management, Finance, International Business, or other related area </li>
+	<li>Minimum GPA of 3.0 </li>
+	<li>Demonstrated leadership in school, community, or work experience </li>
+	<li>Ability to motivate and influence others </li>
+	<li>Initiative, creative problem-solving, and relationship-building skills </li>
+	<li>Integrity and high professional standards </li>
+	<li>Demonstrated analytical and organizational abilities </li>
+	<li>Team-orientation, flexibility, and a receptiveness to change </li>
+	<li>Time management skills </li>
 	<li>Solid written and verbal communication skills</li>
-	<li>Strong technical aptitude; proficiency in MS Word, Excel and PowerPoint required, experience with MS Access, MS Project and Visio also preferred</li>
+	<li>Strong technical aptitude</li>
+	<li>Proficiency in MS Word, Excel and PowerPoint required; experience with MS Access, MS Project, and Visio also preferred</li>
 	<li>Willingness to relocate</li>
 </ul>
 
 <h2 class="h2" style="margin: 0px;">Training</h2>
 <p style="margin: 0px 0px 12px 0px;">
-Training is comprised of three major components: on-the-job training, formal training including technical, business acumen and behavioral courses, and mentor partnerships.
+Training is comprised of three major components: on-the-job training; formal training including technical, business acumen, and behavioral courses; and mentor partnerships. 
 </p>
 
 <h2 class="h2" style="margin: 0px;">Locations</h2>

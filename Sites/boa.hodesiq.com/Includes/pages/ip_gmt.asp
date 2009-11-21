@@ -5,29 +5,29 @@
 <img class="dotdiv" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
 <h2 class="h2" style="margin: 0px;">Our business</h2>
 <p style="margin: 0px 0px 12px 0px;">
-Bank of America's Global Markets Technology teams partner with our Global Markets, Corporate Treasury and Corporate Investments Groups to develop leading-edge applications supporting the entire range of our business activities - from client-facing sales and trading applications to security analytics, risk management, trade processing, management reporting, reference and market data, and customer relationship management. Our teams work very closely with our business partners, developing strategies and delivering solutions that are integral to the day-to-day running of our business.
+Bank of America's Global Markets Technology teams partner with our Global Markets, Corporate Treasury and Corporate Investments Groups to develop leading-edge applications supporting the entire range of our business activities from client-facing sales and trading applications to security analytics, risk management, trade processing, management reporting, reference and market data, and customer relationship management. Our teams work very closely with our business partners, developing strategies and delivering solutions that are integral to the day-to-day running of our business.
 <br><br>
-There are five job profiles for a Global Markets technology summer analyst, with responsibilities as follows:
+There are 5 job profiles for a Global Markets technology summer analyst, with responsibilities as follows:
 </p>
 
-<h2 class="h2u" style="margin: 0px 0px 0px 0px;">Business Analyst:</h2>
+<h2 class="h2" style="margin: 0px;">Business analyst</h2>
 <ul style="margin-top: 0px;">
 	<li>Translating business needs into technical requirements, documenting process flows and producing diagrams to ensure understanding amongst all project team members</li>
 </ul>
-<h2 class="h2u" style="margin: 0px 0px 0px 0px;">Developer:</h2>
+<h2 class="h2" style="margin: 0px;">Developer</h2>
 <ul style="margin-top: 0px;">
 	<li>Providing technical excellence to the design, development and maintenance of state-of-the-art technology applications utilizing technologies such as Java/EJB's, C++, .NET and Web services</li>
 	<li>Conducting internal and external client requirements gathering, translating client interactions into technical design specifications, business process reengineering, and partnering with business, product and technology teams across the organization to deliver world class technology solutions</li>
 </ul>
-<h2 class="h2u" style="margin: 0px 0px 0px 0px;">Project Management or Systems Support Engineer:</h2>
+<h2 class="h2" style="margin: 0px;">Project management or systems support engineer</h2>
 <ul style="margin-top: 0px;">
-	<li>Managing, administering and configuring proprietary applications and 3rd party solutions for application servers, messaging, monitoring, etc.</li>
+	<li>Managing, administering and configuring proprietary applications and third party solutions for application servers, messaging, monitoring, etc.</li>
 </ul>
-<h2 class="h2u" style="margin: 0px 0px 0px 0px;">Quality Assurance:</h2>
+<h2 class="h2" style="margin: 0px;">Quality assurance</h2>
 <ul style="margin-top: 0px;">
 	<li>Combining financial, business and technical knowledge to develop comprehensive test strategies for internally developed trading systems.  Development of knowledge in all these areas is encouraged and supported.</li>
 </ul>
-<h2 class="h2u" style="margin: 0px 0px 0px 0px;">Quantitative Analyst:</h2>
+<h2 class="h2" style="margin: 0px;">Quantitative Analyst</h2>
 <ul style="margin-top: 0px;">
 	<li>Developing sophisticated models, analyses and forecasts supporting pricing and risk management for a range of financial securities</li>
 </ul>
@@ -41,7 +41,7 @@ The Global Markets technology summer analysts participate in a 10 to 12 week pro
 </p>
 
 <h2 class="h2" style="margin: 0px;">Qualifications</h2>
-<p style="margin: 0px 0px 12px 0;">Education & Skills:</p>
+<p style="margin: 0px 0px 12px 0;">Education and skills:</p>
 <ul>
 	<li>Academic aptitude</li>
 	<li>Quantitative, strategic/creative thinking skills</li>
@@ -51,7 +51,7 @@ The Global Markets technology summer analysts participate in a 10 to 12 week pro
 	<li>Analysts will be required to support several projects at once and work effectively as an individual as well as part of a team</li>
 </ul>
 
-<p style="margin: 0px 0px 12px 0px;">Personality Characteristics:</p>
+<p style="margin: 0px 0px 12px 0px;">Personality characteristics:</p>
 <ul>
 	<li>Leadership</li>
 	<li>Initiative</li>

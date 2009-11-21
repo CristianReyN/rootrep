@@ -63,9 +63,9 @@ The Direct Hire program consists of the following developmental activities:
 Charlotte, NC <span class="middot">&middot;</span> Dallas, TX
 </p>
 
-<h2 class="h2u" style="margin: 0px 0px 0px 0;">How to Apply:</h2>
+<h2 class="h2" style="margin: 0px;">How to Apply</h2>
 <p style="margin: 0px 0px 12px 0px;">
-In order to be considered, you <b>MUST</b> submit your profile via the Bank of America careers webpage at <a href="http://www.bankofamerica.com/collegerecruiting">www.bankofamerica.com/collegerecruiting</a>. Select "Undergraduate, Graduate, or Internship Programs", and then "send us your resume".  Sign in as a new or returning user.  If you do not have an existing account, you will need to register as a new user.  Complete your Candidate Profile and designate your program(s) of interest.  In order for your profile to be considered complete, you must reach the final "Thank You" page. <b>In addition, please follow any procedures set forth through the Career Services Office on your campus.</b>
+In order to be considered, you <b><u>MUST</u></b> submit your profile via the Bank of America careers webpage at <a href="http://www.bankofamerica.com/collegerecruiting">www.bankofamerica.com/collegerecruiting</a>. Select "Undergraduate, Graduate, or Internship Programs", and then "send us your resume".  Sign in as a new or returning user.  If you do not have an existing account, you will need to register as a new user.  Complete your Candidate Profile and designate your program(s) of interest.  In order for your profile to be considered complete, you must reach the final "Thank You" page. <b>In addition, please follow any procedures set forth through the Career Services Office on your campus.</b>
 </p>
 
 <p style="margin: 0px 0px 12px 0px;">

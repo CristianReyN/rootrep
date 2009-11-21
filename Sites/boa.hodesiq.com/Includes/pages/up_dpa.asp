@@ -25,7 +25,7 @@ Debt Products Analysts perform intensive qualitative and quantitative due dilige
 Candidates must demonstrate a combination of academic aptitude, quantitative skills, strategic and creative thinking and distinguished written and oral communication skills. Associates will be required to support several projects at once and work effectively, both individually and as part of a team. Though they come from a variety of backgrounds, all associates must share common driving characteristics that we look for such as:
 </p>
 <p style="margin: 0px 0px 12px 0;">
-Education & Skills:
+Education and skills:
 </p>
 <ul>
 	<li>Undergraduate degree in Accounting or Finance preferred</li>
@@ -34,7 +34,7 @@ Education & Skills:
 </ul>
 
 <p style="margin: 0px 0px 12px 0;">
-Personality Characteristics:
+Personality characteristics:
 </p>
 <ul>
 	<li>Leadership, initiative and resourcefulness</li>

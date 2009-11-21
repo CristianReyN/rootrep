@@ -5,21 +5,21 @@
 <img class="dotdiv" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
 <h2 class="h2" style="margin: 0px;">Our business</h2>
 <p style="margin: 0px 0px 12px 0px;">
-The Quantitative Management Associate Program (QMAP) is designed to develop and coach analytical and quantitative talent to be deployed in Global Risk and Corporate Treasury. The program consists of two one-year rotations in quantitative disciplines along with customized training and continuing education. Upon completion of the program, QMAP graduates have a broad range of global career opportunities within the Bank.
+The Quantitative Management Associate Program (QMAP) is designed to develop and coach analytical and quantitative talent to be deployed in Global Risk and Corporate Treasury. The program consists of 2 1-year rotations in quantitative disciplines along with customized training and continuing education. Upon completion of the program, QMAP graduates have a broad range of global career opportunities within the bank.
 </p>
 
 <h2 class="h2" style="margin: 0px;">Overview</h2>
 <p style="margin: 0px 0px 12px 0px;">
-The two-year, entry-level program spans two rotational assignments focusing on credit, market or operational risk management within different areas of the Bank. Participants gain real, in-depth experience applying quantitative knowledge to specific financial challenges.
+The 2-year, entry-level program spans 2 rotational assignments focusing on credit, market or operational risk management within different areas of the bank. Participants gain real, in-depth experience applying quantitative knowledge to specific financial challenges.
 <br><br>
-The program provides a micro view of risk management in a particular business line and a macro view of risk management for the Bank as a whole through rotational assignments. Rotations include positions within various lines of business, such as Corporate Treasury, Quantitative Finance, Risk & Capital Portfolio Analysis, Capital Markets Risk Management, Central Risk Management, Portfolio Analysis, Risk Reporting & Review and Consumer Risk Analysis & Forecasting.  
+The program provides a micro view of risk management in a particular business line and a macro view of risk management for the bank as a whole through rotational assignments. Rotations include positions within various lines of business, such as Corporate Treasury, Quantitative Finance, Risk & Capital Portfolio Analysis, Capital Markets Risk Management, Central Risk Management, Portfolio Analysis, Risk Reporting & Review and Consumer Risk Analysis & Forecasting.  
 <br><br>
-During the program, Associates will be responsible for:
+During the program, associates will be responsible for:
 </p>
 <ul>
 	<li>Developing sophisticated models, analyses and forecasts</li>
 	<li>Participating in semi-annual QMAP development and training sessions</li>
-	<li>Partnering with Bank Associates at all levels to complete job assignments and objectives</li>
+	<li>Partnering with bank associates at all levels to complete job assignments and objectives</li>
 </ul>
 
 <h2 class="h2" style="margin: 0px;">Qualifications</h2>

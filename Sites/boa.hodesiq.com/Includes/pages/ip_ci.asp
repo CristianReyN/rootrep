@@ -21,14 +21,14 @@ Corporate Debt Associate Interns perform intensive qualitative and quantitative 
 </ul>
 
 <h2 class="h2" style="margin: 0px;">Qualifications</h2>
-<p style="margin: 0px 0px 12px 0;">Education & Skills:</p>
+<p style="margin: 0px 0px 12px 0;">Education and skills:</p>
 <ul>
 	<li>Pursuing an undergraduate degree in Accounting or Finance</li>
 	<li>Ability to manage multiple complex tasks simultaneously</li>
 	<li>Strong academic aptitude and quantitative analysis skills</li>
 </ul>
 
-<p style="margin: 0px 0px 12px 0;">Personality Characteristics:</p>
+<p style="margin: 0px 0px 12px 0;">Personality characteristics:</p>
 <ul>
 	<li>Leadership, initiative and resourcefulness</li>
 	<li>Strong work ethic and intellectual curiosity</li>

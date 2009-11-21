@@ -10,16 +10,16 @@ The Mainframe Build group is a division within the Network Computing Group. The 
 
 <h2 class="h2" style="margin: 0px;">Overview</h2>
 <p style="margin: 0px 0px 12px 0px;">
-Mainframe Build has created a college program to develop its next generation of mainframe technicians. College candidates with mainframe technology education may be eligible for a full-time Associate position. Associate then participate in a 2-3 year program that includes training, on-the-job job experience and career development in one or more mainframe technology areas.
+Mainframe Build has created a college program to develop its next generation of mainframe technicians. College candidates with mainframe technology education may be eligible for a full-time associate position. Associate then participate in a 2 to 3 year program that includes training, on-the-job job experience and career development in 1 or more mainframe technology areas.
 </p>
 
 <h2 class="h2" style="margin: 0px;">Qualifications</h2>
 <p style="margin: 0px 0px 12px 0px;">
-Education & Skills:
+Education and skills:
 </p>
 <ul>
 	<li>Currently enrolled in a full-time program, pursuing a degree in Computer Science or Information Technology</li>
-	<li>Grade Point Average of a 3.0 on a 4 point scale preferred</li>
+	<li>Grade point average of a 3.0 on a 4 point scale preferred</li>
 	<li>Experience with basic IBM Mainframe systems such as transaction and database managers, message queue managers, and operating system and network services</li>
 	<li>Knowledge of some of the following technologies: CICS, DB2, IMS WMQ, Z/OS Operating Systems as well as competent in Job Control Language (JCL) and Assembler language</li>
 	<li>Strong project organization and financial industry knowledge</li>
@@ -27,7 +27,7 @@ Education & Skills:
 </ul>
 
 <p style="margin: 0px 0px 12px 0px;">
-Personality Characteristics:
+Personality characteristics:
 </p>
 <ul>
 	<li>Strong drive for results</li>
@@ -40,7 +40,7 @@ Personality Characteristics:
 
 <h2 class="h2" style="margin: 0px;">Training</h2>
 <p style="margin: 0px 0px 12px 0px;">
-The technology training curriculums spans 2-3 years, and will focus primarily in one mainframe technology, to be determined based on the candidate's education, career request and available positions. The mainframe technology training curriculum is comprised of formal technology classes, in-house courses, self study and job mentoring from a senior technician. Training occurs in conjunction with technical job assignments so as to reinforce education as well as build on-the-job experience.
+The technology training curriculums spans 2 to 3 years, and will focus primarily in one mainframe technology to be determined based on the candidate's education, career request and available positions. The mainframe technology training curriculum is comprised of formal technology classes, in-house courses, self study and job mentoring from a senior technician. Training occurs in conjunction with technical job assignments so as to reinforce education as well as build on-the-job experience.
 </p>
 
 <h2 class="h2" style="margin: 0px;">Locations</h2>

@@ -15,31 +15,31 @@ This internship program is designed to provide external MBA candidates with an o
 Opportunities for internships include:
 </p>
 <ul>
-	<li>Business Operations Management</li>
+	<li>Business operations management</li>
 	<li>Marketing</li>
-	<li>Product Management</li>
-	<li>Process Design</li>
-	<li>Distribution Strategy</li>
+	<li>Product management</li>
+	<li>Process design</li>
+	<li>Distribution strategy</li>
 </ul>
 <p style="margin: 0px 0px 12px 0px;">
-Key Facts about Global Consumer and Small Business Banking Internship:
+Key facts about the Global Consumer and Small Business Banking Internship:
 </p>
 <ul>
-	<li>Each assignment is carefully selected according to the developmental needs of each individual participant.</li>
-	<li>Each position offers a wide range of responsibilities and business opportunities for the intern.</li>
+	<li>Each assignment is carefully selected according to the developmental needs of each individual participant</li>
+	<li>Each position offers a wide range of responsibilities and business opportunities for the intern</li>
 </ul>
 
 <h2 class="h2" style="margin: 0px;">Qualifications</h2>
-<p style="margin: 0px 0px 12px 0;">Education & Skills:</p>
+<p style="margin: 0px 0px 12px 0;">Education and skills:</p>
 <ul>
-	<li>MBA or Master's graduate from an accredited business school or university (Spring/Summer 2009 graduation date)</li>
-	<li>3-6 years pre-M.B.A. work experience with a demonstrated record of achievement</li>
+	<li>MBA or Master's graduate from an accredited business school or university (spring/summer 2009 graduation date)</li>
+	<li>3 to 6 years pre-M.B.A. work experience with a demonstrated record of achievement</li>
 	<li>Relevant work history that reflects experience in supervising others, delegating tasks and resolving conflicts</li>
 	<li>Developed teamwork and partnering skills</li>
 	<li>Ability to manage tight deadlines, organize and prioritize work independently</li>
 	<li>Ability to learn and navigate the formal and informal organizational structure</li>
 	<li>Ability to drive customer/associate satisfaction and shareholder value</li>
-	<li>Must have eligibility to work in US.</li>
+	<li>Must have eligibility to work in US</li>
 </ul>
 
 <p style="margin: 0px 0px 12px 0;">Additionally, candidates must have expertise and/or experience in at least 3 of the following:</p>
@@ -47,14 +47,14 @@ Key Facts about Global Consumer and Small Business Banking Internship:
 	<li>Database marketing and segmentation principles</li>
 	<li>Execution/production of end-to-end marketing campaign management processes</li>
 	<li>Previous financial services or retail experience</li>
-	<li>Strong statistical background (Black Belt certified or an experienced Statistician in the deep drilling of data sets)</li>
+	<li>Strong statistical background (Six Sigma Black Belt certified or an experienced statistician in the deep drilling of data sets)</li>
 	<li>Statistical methodology and tools (e.g., SPSS and SAS)</li>
 	<li>3+ years of pricing, valuation, and/or risk management experience</li>
 	<li>SQL, Access and database management</li>
 	<li>Proficiency in a second language (e.g., Spanish, Korean, etc.)</li>
 </ul>
 
-<p style="margin: 0px 0px 12px 0;">Personality Characteristics:</p>
+<p style="margin: 0px 0px 12px 0;">Personality characteristics:</p>
 <ul>
 	<li>Ability to succeed in a complex, fast-paced, collaborative environment</li>
 	<li>Strong leadership potential</li>
@@ -64,7 +64,7 @@ Key Facts about Global Consumer and Small Business Banking Internship:
 </ul>
 
 <h2 class="h2" style="margin: 0px;">Training</h2>
-<p style="margin: 0px 0px 12px 0;">Associates will participate in a formal Education and Orientation program to learn more about Bank of America business, culture and values, as well as to network with Executives and other college hires. Additionally, interns will participate in various networking and learning opportunities throughout the duration of the program.</p>
+<p style="margin: 0px 0px 12px 0;">Associates will participate in a formal education and orientation program to learn more about Bank of America business, culture and values, as well as to network with executives and other college hires. Additionally, interns will participate in various networking and learning opportunities throughout the duration of the program.</p>
 
 <h2 class="h2" style="margin: 0px;">Locations</h2>
 <p style="margin: 0px 0px 12px 0px;">

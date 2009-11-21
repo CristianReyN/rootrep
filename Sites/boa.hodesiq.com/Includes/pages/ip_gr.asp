@@ -30,7 +30,7 @@ Key Facts about Global Consumer and Small Business Banking Internship:
 </ul>
 
 <h2 class="h2" style="margin: 0px;">Qualifications</h2>
-<p style="margin: 0px 0px 12px 0;">Education & Skills:</p>
+<p style="margin: 0px 0px 12px 0;">Education and skills:</p>
 <ul>
 	<li>MBA or Master's graduate from an accredited business school or university (Spring/Summer 2009 graduation date)</li>
 	<li>3-6 years pre-M.B.A. work experience with a demonstrated record of achievement</li>
@@ -54,7 +54,7 @@ Key Facts about Global Consumer and Small Business Banking Internship:
 	<li>Proficiency in a second language (e.g., Spanish, Korean, etc.)</li>
 </ul>
 
-<p style="margin: 0px 0px 12px 0;">Personality Characteristics:</p>
+<p style="margin: 0px 0px 12px 0;">Personality characteristics:</p>
 <ul>
 	<li>Ability to succeed in a complex, fast-paced, collaborative environment</li>
 	<li>Strong leadership potential</li>
