@@ -193,8 +193,9 @@ public partial class JobSearch : System.Web.UI.Page
 		int aot = (aja[0]==null) ? -1 : Convert.ToInt32(aja[0]);
 		string jf = string.IsNullOrEmpty(aja[1].ToString()) ? "" : aja[1];
 
-		int stateid = string.IsNullOrEmpty(ddlState.SelectedValue) ? -1 : Convert.ToInt32(string.IsNullOrEmpty(ViewState["statequery"].ToString()) ? ddlState.SelectedItem.Value : ViewState["statequery"].ToString());
-		ViewState["statequery"] = null;
+		//int stateid = string.IsNullOrEmpty(ddlState.SelectedValue) ? -1 : Convert.ToInt32(string.IsNullOrEmpty(ViewState["statequery"].ToString()) ? ddlState.SelectedItem.Value : ViewState["statequery"].ToString());
+        int stateid = string.IsNullOrEmpty(ddlState.SelectedValue) ? -1 : Convert.ToInt32(ddlState.SelectedValue);
+        ViewState["statequery"] = null;
 		int cityid;
 		if (stateid < 0)
 			cityid = -1;
