@@ -477,4 +477,53 @@ public class Jobs
 			throw ex;
 		}
 	}
+
+
+	public ListDictionary AdvSearch(string jf, int state, int city, int Travel, string Lang, string fullPart, string Shift, int PostDate, string keywrd, int PageNumber, int RowPerPage)
+	{
+		OleDbConnection con = new OleDbConnection(constring);
+		con.Open();
+		OleDbCommand cmd = new OleDbCommand("p_boaJobSearchAdvanced", con);
+		cmd.CommandType = CommandType.StoredProcedure;
+
+		cmd.Parameters.AddWithValue("@Family", jf.TrimEnd(",".ToCharArray()));
+		cmd.Parameters.AddWithValue("@State", state);
+		cmd.Parameters.AddWithValue("@City", city);
+		cmd.Parameters.AddWithValue("@Travel", Travel);
+		cmd.Parameters.AddWithValue("@Lang", Lang.TrimEnd(",".ToCharArray()));
+		cmd.Parameters.AddWithValue("@fullPart", fullPart.TrimEnd(",".ToCharArray()));
+		cmd.Parameters.AddWithValue("@Shift", Shift.TrimEnd(",".ToCharArray()));
+		cmd.Parameters.AddWithValue("@PostDate", PostDate);
+		cmd.Parameters.AddWithValue("@KeyWords", keywrd);
+
+		OleDbDataAdapter da = new OleDbDataAdapter(cmd);
+		DataSet ds = new DataSet();
+		DataSet dsCount = new DataSet();
+
+		da.Fill(dsCount);
+		int TotalRow = dsCount.Tables[0].Rows.Count;
+		int partialpagefactor;
+		partialpagefactor = TotalRow % RowPerPage > 0 ? 1 : 0;
+		int TotalPage = (TotalRow / RowPerPage) + partialpagefactor;
+
+
+		da.Fill(ds, (PageNumber - 1) * RowPerPage, RowPerPage, "SearchResults");
+
+		ListDictionary MyListDictionary = new ListDictionary();
+		MyListDictionary.Add("RecordCount", dsCount.Tables[0].Rows.Count);
+		MyListDictionary.Add("JobSearchResults", ds.Tables[0]);
+		MyListDictionary.Add("NextButton", ShowNextButton(TotalRow, PageNumber, TotalPage));
+		MyListDictionary.Add("PrevButton", ShowPrevButton(TotalRow, PageNumber, TotalPage));
+		if (TotalRow == 0)
+			MyListDictionary.Add("PageOfPages", "Page 0 of 0");
+		else
+			MyListDictionary.Add("PageOfPages", "Page " + Convert.ToString(PageNumber) + " of " + Convert.ToString(TotalPage));
+		int startpage;
+		int endpage;
+		startpage = 1 + (RowPerPage * (PageNumber - 1));
+		endpage = startpage + ds.Tables[0].Rows.Count - 1;
+		MyListDictionary.Add("JobToJobs", "Showing " + Convert.ToString(startpage) + " to " + Convert.ToString(endpage) + " of " + TotalRow + " jobs.");
+		con.Close();
+		return MyListDictionary;
+	}
 }
