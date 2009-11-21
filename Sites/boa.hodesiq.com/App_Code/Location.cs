@@ -19,17 +19,35 @@ public class Location
 	}
     public DataTable City()
     {
-        Sql = string.Empty;
-        Sql = "select req_id,city from location";
-        DBUtils db = new DBUtils();
+        DBUtils db;
+        try
+        {
+            Sql = string.Empty;
+            Sql = "select req_id,city from location";
+            db = new DBUtils();
+        }
+        catch (Exception ex)
+        {
+            throw ex;
+
+        }
+
         return db.GetDataTable(Sql);
     
     }
     public DataTable State()
     {
-        Sql = string.Empty;
-        Sql = "select req_ID,State from Location";
-        DBUtils db = new DBUtils();
+        DBUtils db;
+        try
+        {
+            Sql = string.Empty;
+            Sql = "select req_ID,State from Location";
+            db = new DBUtils();
+        }
+        catch
+        {
+            throw ex;
+        }
         return db.GetDataTable(Sql);
     }
 

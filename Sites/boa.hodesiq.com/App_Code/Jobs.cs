@@ -19,9 +19,17 @@ public class Jobs
 	}
     public DataTable Travel()
     {
-        Sql = string.Empty;
-        Sql = "select TravelID,Travel from Travel";
-        DBUtils db = new DBUtils();
+        DBUtils db;
+        try
+        {
+            Sql = string.Empty;
+            Sql = "select TravelID,Travel from Travel";
+            db = new DBUtils();
+        }
+        catch (Exception ex)
+        {
+            throw ex;
+        }
         return db.GetDataTable(Sql);
 
     }
@@ -42,8 +50,8 @@ public class Jobs
 
     }
     public DataTable Shift()
-    {DBUtils db;
-
+    {
+        DBUtils db;
         try
         {
             Sql = string.Empty;
@@ -60,18 +68,34 @@ public class Jobs
 
     public DataTable Language()
     {
-        Sql = string.Empty;
-        Sql = "select distinct Language_requirements from Jobs";
-        DBUtils db = new DBUtils();
+        DBUtils db;
+        try
+        {
+            Sql = string.Empty;
+            Sql = "select distinct Language_requirements from Jobs";
+            db = new DBUtils();
+        }
+        catch (Exception ex)
+        {
+            throw ex;
+        }
         return db.GetDataTable(Sql);
 
     }
 
     public DataTable PostDate()
     {
-        Sql = string.Empty;
-        Sql = "select PostingDate from Jobs";
-        DBUtils db = new DBUtils();
+        DBUtils db;
+        try
+        {
+            Sql = string.Empty;
+            Sql = "select PostingDate from Jobs";
+            db = new DBUtils();
+        }
+        catch
+        {
+            throw ex;
+        }
         return db.GetDataTable(Sql);
 
     }
