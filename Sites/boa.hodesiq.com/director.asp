@@ -20,7 +20,8 @@ end if
 </head>
 <body style="margin: 0px; color: #000000; background-color: #ffffff;">
 <table border="0" cellpadding="5" cellspacing="0" width="100%" height="100%">
-<%if Date() > cdate("2009-07-2") then %>
+<%dim currdate : currdate = date()
+if currdate >= cdate("2009-08-19") then %>
 	<tr><td align="center" height="103">
 		<img src="images/BoA_Header.jpg" width="752" height="103" border="0" alt="Bank of America Careers" title="Bank of America Careers" /></td></tr>
 	<tr><td align="center">
