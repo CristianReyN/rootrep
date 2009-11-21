@@ -9,8 +9,6 @@
 </p>
 <p style="margin: 12px 0px 0px 0px;">
 We are proud of Bank of America's legacy as a leader in corporate diversity and in equal employment opportunity. At Bank of America, we work to foster an inclusive corporate culture and an environment free of discrimination or harassment.</p>
-<p style="margin: 12px 0px 0px 0px;">
-As evidence of its commitment to diversity and inclusion, Bank of America:</p>
 <H2 class="p" style="margin: 12px 0px 6px 0px; padding: 0px;"><span class="bd"><b>Organization and Culture</b></span></H2>
 <ul>
 	<li>Established a <b>25-member Executive Global Diversity and Inclusion Council</b> that sets the direction and guides the implementation for diversity and inclusion at Bank of America.</li>
