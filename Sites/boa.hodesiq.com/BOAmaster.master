@@ -1,11 +1,11 @@
 <%@ Master Language="C#" CodeFile="BOAmaster.master.CS"  Inherits="BOAmaster" %>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
-<html xmlns="http://www.w3.org/1999/xhtml" >
-<head id="Head1" runat="server">
-    <meta http-equiv="content-type" content="text/html; charset=iso-8859-1"/>
-    <meta name="Description" content=""/>
+<html >
+<head >
+    <meta http-equiv="content-type" content="text/html; charset=iso-8859-1">
+    <meta name="Description" content="">
     <title>Bank of America | Career | Job Search</title>
-    <link href="includes/styles.css" rel="stylesheet" type="text/css" />
+    <link href="includes/styles.css" rel="stylesheet" type="text/css" >
     <script language="JavaScript1.2" src="includes/masthead.js" type="text/javascript"></script>
     <script language="JavaScript1.2" src="includes/mvc-fontsize.js" type="text/javascript"></script>
     <script language="JavaScript1.2" src="includes/flash.js" type="text/javascript"></script>
@@ -26,7 +26,7 @@ function hover(ref, classRef) { eval(ref).className = classRef; }
 	function hideFlash(id){if(document.getElementById(id).style.display = 'inline') document.getElementById(id).style.display = 'none';}
 //-->
 </script>
-<a class="auraltext" href=" & ada_href & " onFocus="hover(this,'show-tab'); this.focus()" onblur="hover(this,'auraltext')">Low-bandwidth version</a>
+<a class="auraltext" href=" & ada_href & " onfocus="hover(this,'show-tab'); this.focus()" onblur="hover(this,'auraltext')">Low-bandwidth version</a>
 
     <table border="0" cellpadding="0" cellspacing="0" style="height: 100%;" summary=""
         width="750">
