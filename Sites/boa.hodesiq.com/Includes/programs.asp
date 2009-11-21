@@ -34,6 +34,9 @@
 <optgroup label="Supply Chain Management">
 	<option value="up_scmap.asp"<% If fpage = "up_scmap" Then %> disabled<% End If %>>Supply Chain Management Associate Program</option>
 </optgroup>
+<optgroup label="Global Wealth Investment Management">
+	<option value="up_undergraduate.asp"<% If fpage = "up_undergraduate" Then %> disabled<% End If %>>Undergraduate</option>
+</optgroup>
 <optgroup label="Global Consumer Investment Banking">
 	<option value="http://www.bofa.com/careers">ABS/MBS Analyst</option>
 	<option value="http://www.bofa.com/careers">Commercial Real Estate Analyst</option>
@@ -57,7 +60,7 @@
 <script language="JavaScript" type="text/javascript">
 <!--
 create_safebutton("Select A Program","JavaScript: none();","selectProgram(document.undergraduate); return false;",0,0,0,"Select A Program");
-function selectProgram(f){if(f && f.program && f.program.selectedIndex != 0){f.submit();}}
+function selectProgram(f){if(f && f.program && f.program.selectedIndex != 0){var u = f.program.options[f.program.selectedIndex].value; if(u.indexOf("http")!=-1) f.target="_blank"; f.submit(); f.target="_self";}}
 function none(){}
 //-->
 </script>
@@ -94,6 +97,9 @@ function none(){}
 	<option value="gp_bccmmldp.asp"<% If fpage = "gp_bccmmldp" Then %> disabled<% End If %>>Banking Center Channel Market Manager Leader Development Program</option>
 	<option value="gp_gcsbbd.asp"<% If fpage = "gp_gcsbbd" Then %> disabled<% End If %>>Global Consumer and Small Business Banking Product Leader Development Program</option>
 </optgroup>
+<optgroup label="Global Wealth & Investment Management">
+	<option value="gp_trust.asp"<% If fpage = "gp_trust" Then %> disabled<% End If %>>Trust Officer</option>
+</optgroup>
 <optgroup label="Global Consumer Investment Banking">
 	<option value="http://www.bofa.com/careers">Global Commercial Banking/Treasury Services Associate</option>
 	<option value="http://www.bofa.com/careers">Investment Banking & Capital Markets Associate</option>
@@ -109,7 +115,7 @@ function none(){}
 <script language="JavaScript" type="text/javascript">
 <!--
 create_safebutton("Select A Program","JavaScript: none();","selectProgram(document.graduate); return false;",0,0,0,"Select A Program");
-function selectProgram(f){if(f && f.program && f.program.selectedIndex != 0){f.submit();}}
+function selectProgram(f){if(f && f.program && f.program.selectedIndex != 0){var u = f.program.options[f.program.selectedIndex].value; if(u.indexOf("http")!=-1) f.target="_blank"; f.submit(); f.target="_self";}}
 function none(){}
 //-->
 </script>
@@ -137,7 +143,7 @@ function none(){}
 	<option value="ip_gmt.asp"<% If fpage = "ip_gmt" Then %> disabled<% End If %>>Global Markets Technology Intern</option>
 	<option value="ip_cwsa.asp"<% If fpage = "ip_cwsa" Then %> disabled<% End If %>>Corporate Workplace Senior Analyst Internship</option>
 	<option value="ip_qpc.asp"<% If fpage = "ip_qpc" Then %> disabled<% End If %>>Quality and Productivity Consultant Intern</option>
-	<option value="ip_sf.asp"<% If fpage = "ip_sf" Then %> disabled<% End If %>>Service and Fulfillment Intern</option>
+	<option value="ip_sf.asp"<% If fpage = "ip_sf" Then %> disabled<% End If %>>Operations MBA Program Internship</option>
 	<option value="ip_tmba.asp"<% If fpage = "ip_tmba" Then %> disabled<% End If %>>Technology MBA Intern</option>
 </optgroup>
 
@@ -226,7 +232,7 @@ function none(){}
 <script language="JavaScript" type="text/javascript">
 <!--
 create_safebutton("Select A Program","JavaScript: none();","selectProgram(document.internship); return false;",0,0,0,"Select A Program");
-function selectProgram(f){if(f && f.program && f.program.selectedIndex != 0){f.submit();}}
+function selectProgram(f){if(f && f.program && f.program.selectedIndex != 0){var u = f.program.options[f.program.selectedIndex].value; if(u.indexOf("http")!=-1) f.target="_blank"; f.submit(); f.target="_self";}}
 function none(){}
 //-->
 </script>
@@ -252,7 +258,7 @@ function none(){}
 <script language="JavaScript" type="text/javascript">
 <!--
 create_safebutton("Go To Business","JavaScript: none();","goToBusiness(document.lob); return false;",0,0,0,"Go To Business");
-function goToBusiness(f){if(f && f.program && f.program.selectedIndex != 0){f.submit();}}
+function goToBusiness(f){if(f && f.program && f.program.selectedIndex != 0){var u = f.program.options[f.program.selectedIndex].value; if(u.indexOf("http")!=-1) f.target="_blank"; f.submit(); f.target="_self";}}
 function none(){}
 //-->
 </script>

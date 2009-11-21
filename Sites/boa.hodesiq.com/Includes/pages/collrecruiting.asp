@@ -52,11 +52,11 @@ Find out how the bank responds to environmental issues.
 Learn how your child can succeed and prosper at Bank of America.
 </p>
 
-<a href="http://www.bofa.com/careers" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="Global  Corporate Investment Banking">Global  Corporate Investment Banking</a>
+<a href="http://www.bofa.com/careers" target="_blank" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="Global  Corporate Investment Banking">Global  Corporate Investment Banking</a>
 <p style="margin: 3px 0px 12px 0px;">
 </p>
 
-<a href="http://www.bofa.com/careers" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="Europe, Middle East, Africa (EMEA) and Asia">Europe, Middle East, Africa (EMEA) and Asia</a>
+<a href="http://www.bofa.com/careers" target="_blank" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="Europe, Middle East, Africa (EMEA) and Asia">Europe, Middle East, Africa (EMEA) and Asia</a>
 <p style="margin: 3px 0px 12px 0px;">
 </p>
 
