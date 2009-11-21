@@ -43,7 +43,7 @@ We offer a voluntary 401(k) retirement saving plan and a company-funded pension 
 
 <H2 class="p" style="margin: 12px 0px 0px 0px; padding: 0px;"><b>Discounts on bank products and services</b></H2>
 <p style="margin: 0px 0px 6px 0px;">
-Eligible employees can take advantage of discounts on a wide range of bank services, from checking accounts to credit cards.</p>
+Eligible associates can take advantage of discounts on a wide range of bank services, from checking accounts to credit cards.</p>
 
 <H2 class="p" style="margin: 12px 0px 0px 0px; padding: 0px;">
 <a href="<%Response.write href_pre%>homeloans.asp" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="Home loans">Home loans</a></H2>

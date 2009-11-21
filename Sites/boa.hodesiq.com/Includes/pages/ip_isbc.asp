@@ -51,9 +51,7 @@ Interns who meet or exceed internship performance expectations may receive a ful
 <p style="margin: 0px 0px 12px 0px;">
 Typical internship locations include but are not limited to: Charlotte, NC, Dallas, TX
 </p>
-<p style="margin: 0px 0px 12px 0px;">
-Candidates must be legally authorized to work in the US without sponsorship.
-</p>
+<!-- #include file="../authorizedus.asp" -->
 <!-- #include file="../sendresume.asp" -->
 <p style="margin: 0px;">&nbsp;</p>
 <%	href_pre = ""

@@ -48,9 +48,7 @@ Associate development is critical to the success of Global Risk Management and B
 <p style="margin: 0px 0px 12px 0px;">
 Charlotte, North Carolina <span class="middot">&middot;</span> New York, New York <span class="middot">&middot;</span> Boston, Massachusetts <span class="middot">&middot;</span> International opportunities also available
 </p>
-<p style="margin: 0px 0px 12px 0px;">
-Candidates must be legally authorized to work in the US without sponsorship.
-</p>
+<!-- #include file="../authorizedus.asp" -->
 <!-- #include file="../sendresume.asp" -->
 <p style="margin: 0px;">&nbsp;</p>
 <%	href_pre = ""

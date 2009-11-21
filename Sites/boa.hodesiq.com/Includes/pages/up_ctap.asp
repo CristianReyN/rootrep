@@ -43,9 +43,7 @@ Interns work for 10-12 weeks in Corporate Treasury roles that mirror the positio
 <p style="margin: 0px 0px 12px 0px;">
 Charlotte, North Carolina
 </p>
-<p style="margin: 0px 0px 12px 0px;">
-Candidates must be legally authorized to work in the US without sponsorship.
-</p>
+<!-- #include file="../authorizedus.asp" -->
 <!-- #include file="../sendresume.asp" -->
 <p style="margin: 0px;">&nbsp;</p>
 <%	href_pre = ""

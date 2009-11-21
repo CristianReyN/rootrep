@@ -68,9 +68,7 @@ Charlotte, NC <span class="middot">&middot;</span> Dallas, TX
 In order to be considered, you <b><u>MUST</u></b> submit your profile via the Bank of America careers webpage at <a href="http://www.bankofamerica.com/collegerecruiting">www.bankofamerica.com/collegerecruiting</a>. Select "Undergraduate, Graduate, or Internship Programs", and then "send us your resume".  Sign in as a new or returning user.  If you do not have an existing account, you will need to register as a new user.  Complete your Candidate Profile and designate your program(s) of interest.  In order for your profile to be considered complete, you must reach the final "Thank You" page. <b>In addition, please follow any procedures set forth through the Career Services Office on your campus.</b>
 </p>-->
 
-<p style="margin: 0px 0px 12px 0px;">
-Candidates must be legally authorized to work in the US without sponsorship.
-</p>
+<!-- #include file="../authorizedus.asp" -->
 <!-- #include file="../sendresume.asp" -->
 <p style="margin: 0px;">&nbsp;</p>
 <%	href_pre = ""

@@ -46,9 +46,7 @@ As an Analyst, you will begin your career at Bank of America with an intensive t
 <p style="margin: 0px 0px 12px 0px;">
 Charlotte, NC <span class="middot">&middot;</span> Dallas, TX <span class="middot">&middot;</span> Houston, TX <span class="middot">&middot;</span> New York, NY <span class="middot">&middot;</span> Chicago, IL <span class="middot">&middot;</span> San Francisco, CA
 </p>
-<p style="margin: 0px 0px 12px 0px;">
-Candidates must be legally authorized to work in the US without sponsorship.
-</p>
+<!-- #include file="../authorizedus.asp" -->
 <!-- #include file="../sendresume.asp" -->
 <p style="margin: 0px;">&nbsp;</p>
 <%	href_pre = ""

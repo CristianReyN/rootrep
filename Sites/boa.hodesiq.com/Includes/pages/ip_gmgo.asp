@@ -46,9 +46,7 @@ The summer program begins with an orientation session where participants learn s
 <p style="margin: 0px 0px 12px 0px;">
 Summer Analysts work in New York, Charlotte and Chicago. Specific assignments are made prior to the first day of the program, and are based on candidate preferences and business needs.
 </p>
-<p style="margin: 0px 0px 12px 0px;">
-Candidates must be legally authorized to work in the US without sponsorship.
-</p>
+<!-- #include file="../authorizedus.asp" -->
 <!-- #include file="../sendresume.asp" -->
 <p style="margin: 0px;">&nbsp;</p>
 <%	href_pre = ""

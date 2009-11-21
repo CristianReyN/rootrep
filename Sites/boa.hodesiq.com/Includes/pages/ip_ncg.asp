@@ -51,9 +51,7 @@ Rising seniors who meet or exceed internship performance expectations may receiv
 <p style="margin: 0px 0px 12px 0px;">
 Typical internship locations include but are not limited to: Charlotte, NC, Jacksonville, FL, Dallas, TX and New York, NY
 </p>
-<p style="margin: 0px 0px 12px 0px;">
-Candidates must be legally authorized to work in the US without sponsorship.
-</p>
+<!-- #include file="../authorizedus.asp" -->
 <!-- #include file="../sendresume.asp" -->
 <p style="margin: 0px;">&nbsp;</p>
 <%	href_pre = ""

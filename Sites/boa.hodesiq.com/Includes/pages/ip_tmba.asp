@@ -46,9 +46,7 @@ Opportunities include, but are not limited to:
 Charlotte, NC <span class="middot">&middot;</span> Boston, MA <span class="middot">&middot;</span> New York, NY <span class="middot">&middot;</span> Other (including select international) locations
 </p>
 
-<p style="margin: 0px 0px 12px 0px;">
-Candidates must be legally authorized to work in the US without sponsorship.
-</p>
+<!-- #include file="../authorizedus.asp" -->
 <!-- #include file="../sendresume.asp" -->
 <p style="margin: 0px;">&nbsp;</p>
 <%	href_pre = ""

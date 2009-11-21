@@ -60,9 +60,7 @@ The program consists of the following developmental activities and opportunities
 <p style="margin: 0px 0px 12px 0px;">
 Charlotte, North Carolina <span class="middot">&middot;</span> Dallas and Irving, Texas <span class="middot">&middot;</span> Jacksonville and Tampa, Florida <span class="middot">&middot;</span> Phoenix and Tempe, Arizona <span class="middot">&middot;</span> St. Louis, Missouri <span class="middot">&middot;</span> Concord and San Francisco, California <span class="middot">&middot;</span> Chicago, Illinois.
 </p>
-<p style="margin: 0px 0px 12px 0px;">
-Candidates must be legally authorized to work in the US without sponsorship.
-</p>
+<!-- #include file="../authorizedus.asp" -->
 <!-- #include file="../sendresume.asp" -->
 <p style="margin: 0px;">&nbsp;</p>
 <%	href_pre = ""

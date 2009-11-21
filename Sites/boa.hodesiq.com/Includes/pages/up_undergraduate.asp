@@ -79,9 +79,7 @@ Various locations across the United States including but not limited to:<br>
 Charlotte, NC <span class="middot">&middot;</span> Waltham, MA <span class="middot">&middot;</span> Lincoln & Providence, RI <span class="middot">&middot;</span> Hartford, CT <span class="middot">&middot;</span> Atlanta, GA
 </p>
 
-<p style="margin: 0px 0px 12px 0px;">
-Candidates must be legally authorized to work in the US without sponsorship.
-</p>
+<!-- #include file="../authorizedus.asp" -->
 <!-- #include file="../sendresume.asp" -->
 <p style="margin: 0px;">&nbsp;</p>
 <%	href_pre = ""
