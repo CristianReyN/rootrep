@@ -7,15 +7,15 @@ if ( hasRequestedVersion && shuwen_video ) {
 	document.write('<H2 class="hidden">Shu Wen&acute;s Associate Testimonial Video<\/H2>');
 	document.write('<div id="mainvideo" style="display: none;"><a name="video"></a>');
 	document.write(getVideo(shuwen_video,259,166,"javaflash",""));
-	document.write(strReplace(strReplace(strReplace(strReplace(getHTMLControl("javaflash",259,22,true,true,true,true,true,false),"<text>","Video transcript"),"<title>","Video transcript"),"<href>",ada_href),"<anchor>",shuwen_video.ada_anchor));
+	document.write(strReplace(strReplace(strReplace(strReplace(getHTMLControl("javaflash",259,22,true,true,true,true,true,true),"<text>","Video transcript"),"<title>","Video transcript"),"<href>",ada_href),"<anchor>",shuwen_video.ada_anchor));
 	document.write('</div>');
 	document.write('<div id="videothumb">');
-	document.write('<a href="Javascript: vo_id();" onmouseover="MM_swapImage(\'dilstart\',\'\',\''+shuwen_video.thumb_on+'\',1);" onmouseout="MM_swapImgRestore();" onclick="playVideo(shuwen_video,true,true,true,true,true,false);"><img name="dilstart" style="margin: 0px;" src="'+shuwen_video.thumb_off+'" alt="" border="0" align="absmiddle"></a>');
-	document.write(strReplace(strReplace(strReplace(strReplace(getHTMLControl("javaflash",259,22,false,false,false,true,false,false),"<text>","Video transcript"),"<title>","Video transcript"),"<href>",ada_href),"<anchor>",jeremy_video.ada_anchor));
+	document.write('<a href="Javascript: vo_id();" onmouseover="MM_swapImage(\'dilstart\',\'\',\''+shuwen_video.thumb_on+'\',1);" onmouseout="MM_swapImgRestore();" onclick="playVideo(shuwen_video,true,true,true,true,true,true);"><img name="dilstart" style="margin: 0px;" src="'+shuwen_video.thumb_off+'" alt="" border="0" align="absmiddle"></a>');
+	document.write(strReplace(strReplace(strReplace(strReplace(getHTMLControl("javaflash",259,22,false,false,false,true,false,false),"<text>","Video transcript"),"<title>","Video transcript"),"<href>",ada_href),"<anchor>",shuwen_video.ada_anchor));
 	document.write('</div>');
 	document.write('<div id="videothumb_off" style="display: none;">');
 	document.write('<img style="margin: 0px;" src="'+shuwen_video.thumb_off+'" alt="" border="0" align="absmiddle">');
-	document.write(strReplace(strReplace(strReplace(strReplace(getHTMLControl("javaflash",259,22,false,false,false,true,false,false),"<text>","Video transcript"),"<title>","Video transcript"),"<href>",ada_href),"<anchor>",jeremy_video.ada_anchor));
+	document.write(strReplace(strReplace(strReplace(strReplace(getHTMLControl("javaflash",259,22,false,false,false,true,false,false),"<text>","Video transcript"),"<title>","Video transcript"),"<href>",ada_href),"<anchor>",shuwen_video.ada_anchor));
 	document.write('</div>');
 } else {
 	document.write(reqFlashPlayer+shuwen_video.thumb_on+reqFlashPlayer2);

@@ -392,6 +392,7 @@ function fpvideo(swf_url,w,h)
 }
 
 var craig_video, jeremy_video, michael_video, fairbrother_video, diaz_video, saulsberry_video, price_video, cambra_video, chen_video, shuwen_video, placencia_video;
+var craig_cc_video, jeremy_cc_video, michael_cc_video, shuwen_cc_video;
 benitez_video = new fvideo(
 					"../Includes/pages/associate/Benitez.swf",
 					false,
@@ -399,6 +400,7 @@ benitez_video = new fvideo(
 					"#vt",
 					"../Includes/pages/associate/thumbnails/benitez_on.jpg",
 					"../Includes/pages/associate/thumbnails/benitez_off.jpg",
+					null,
 					null
 					);
 cambra_video = new fvideo(
@@ -408,6 +410,7 @@ cambra_video = new fvideo(
 					"#vt",
 					"../Includes/pages/lob/thumbnails/cambra_on.jpg",
 					"../Includes/pages/lob/thumbnails/cambra_off.jpg",
+					null,
 					null
 					);
 chen_video = new fvideo(
@@ -417,6 +420,12 @@ chen_video = new fvideo(
 					"#vt",
 					"../Includes/pages/lob/thumbnails/chen_on.jpg",
 					"../Includes/pages/lob/thumbnails/chen_off.jpg",
+					null,
+					null
+					);
+craig_cc_video = new ccfvideo(
+					null,
+					"http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/DITL_TESTIMONIAL/craig_final_CC_PART1.flv",
 					null
 					);
 craig_video = new fvideo(
@@ -426,7 +435,8 @@ craig_video = new fvideo(
 					"#vt",
 					"../Includes/pages/lob/thumbnails/craig_on.jpg",
 					"../Includes/pages/lob/thumbnails/craig_off.jpg",
-					null
+					null,
+					craig_cc_video
 					);
 cucchi_video = new fvideo(
 					"../Includes/pages/associate/Cucchi.swf",
@@ -435,6 +445,7 @@ cucchi_video = new fvideo(
 					"#vt",
 					"../Includes/pages/associate/thumbnails/cucchi_on.jpg",
 					"../Includes/pages/associate/thumbnails/cucchi_off.jpg",
+					null,
 					null
 					);
 diaz_video = new fvideo(
@@ -444,6 +455,7 @@ diaz_video = new fvideo(
 					"#vt",
 					"../Includes/pages/lob/thumbnails/diaz_on.jpg",
 					"../Includes/pages/lob/thumbnails/diaz_off.jpg",
+					null,
 					null
 					);
 fairbrother_video = new fvideo(
@@ -453,6 +465,7 @@ fairbrother_video = new fvideo(
 					"#vt",
 					"../Includes/pages/lob/thumbnails/fairbrother_on.jpg",
 					"../Includes/pages/lob/thumbnails/fairbrother_off.jpg",
+					null,
 					null
 					);
 henderson_video = new fvideo(
@@ -462,6 +475,12 @@ henderson_video = new fvideo(
 					"#vt",
 					"../Includes/pages/associate/thumbnails/henderson_on.jpg",
 					"../Includes/pages/associate/thumbnails/henderson_off.jpg",
+					null,
+					null
+					);
+jeremy_cc_video = new ccfvideo(
+					null,
+					"http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/DITL_TESTIMONIAL/jeremy_final_CC_PART1.flv",
 					null
 					);
 jeremy_video = new fvideo(
@@ -471,6 +490,12 @@ jeremy_video = new fvideo(
 					"#vt",
 					"../Includes/pages/lob/thumbnails/jeremy_on.jpg",
 					"../Includes/pages/lob/thumbnails/jeremy_off.jpg",
+					null,
+					jeremy_cc_video
+					);
+michael_cc_video = new ccfvideo(
+					null,
+					"http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/DITL_TESTIMONIAL/michael_final_CC_PART1.flv",
 					null
 					);
 michael_video = new fvideo(
@@ -480,7 +505,8 @@ michael_video = new fvideo(
 					"#vt",
 					"../Includes/pages/lob/thumbnails/michael_on.jpg",
 					"../Includes/pages/lob/thumbnails/michael_off.jpg",
-					null
+					null,
+					michael_cc_video
 					);
 placencia_video = new fvideo(
 					"../Includes/pages/associate/Placencia.swf",
@@ -489,6 +515,7 @@ placencia_video = new fvideo(
 					"#vt",
 					"../Includes/pages/associate/thumbnails/placencia_on.jpg",
 					"../Includes/pages/associate/thumbnails/placencia_off.jpg",
+					null,
 					null
 					);
 price_video = new fvideo(
@@ -498,6 +525,7 @@ price_video = new fvideo(
 					"#vt",
 					"../Includes/pages/lob/thumbnails/price_on.jpg",
 					"../Includes/pages/lob/thumbnails/price_off.jpg",
+					null,
 					null
 					);
 saulsberry_video = new fvideo(
@@ -507,6 +535,12 @@ saulsberry_video = new fvideo(
 					"#vt",
 					"../Includes/pages/lob/thumbnails/saulsberry_on.jpg",
 					"../Includes/pages/lob/thumbnails/saulsberry_off.jpg",
+					null,
+					null
+					);
+shuwen_cc_video = new ccfvideo(
+					null,
+					"http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/DITL_TESTIMONIAL/shu-wen_final_CC.flv",
 					null
 					);
 shuwen_video = new fvideo(
@@ -516,7 +550,8 @@ shuwen_video = new fvideo(
 					"#vt",
 					"../Includes/pages/lob/thumbnails/shuwen_on.jpg",
 					"../Includes/pages/lob/thumbnails/shuwen_off.jpg",
-					null
+					null,
+					shuwen_cc_video
 					);
 
 var alejandro_a1, alejandro_a2, alejandro_a3, alejandro_a4;
@@ -527,7 +562,8 @@ alejandro_a1 = new fvideo(
 					"#answ1",
 					"../Includes/pages/lob/thumbnails/alejandro_on.jpg",
 					"../Includes/pages/lob/thumbnails/alejandro_on.jpg",
-					fairbrother_video
+					fairbrother_video,
+					null
 					);
 alejandro_a2 = new fvideo(
 					flashplayer2.swf_url,
@@ -536,7 +572,8 @@ alejandro_a2 = new fvideo(
 					"#answ2",
 					"../Includes/pages/lob/thumbnails/alejandro_on.jpg",
 					"../Includes/pages/lob/thumbnails/alejandro_on.jpg",
-					fairbrother_video
+					fairbrother_video,
+					null
 					);
 alejandro_a3 = new fvideo(
 					flashplayer2.swf_url,
@@ -545,7 +582,8 @@ alejandro_a3 = new fvideo(
 					"#answ3",
 					"../Includes/pages/lob/thumbnails/alejandro_on.jpg",
 					"../Includes/pages/lob/thumbnails/alejandro_on.jpg",
-					fairbrother_video
+					fairbrother_video,
+					null
 					);
 alejandro_a4 = new fvideo(
 					flashplayer2.swf_url,
@@ -554,7 +592,8 @@ alejandro_a4 = new fvideo(
 					"#answ4",
 					"../Includes/pages/lob/thumbnails/alejandro_on.jpg",
 					"../Includes/pages/lob/thumbnails/alejandro_on.jpg",
-					fairbrother_video
+					fairbrother_video,
+					null
 					);
 
 var andy_a1, andy_a2, andy_a3;
@@ -565,7 +604,8 @@ andy_a1 = new fvideo(
 					"#answ1",
 					"../Includes/pages/lob/thumbnails/andy_on.jpg",
 					"../Includes/pages/lob/thumbnails/andy_on.jpg",
-					saulsberry_video
+					saulsberry_video,
+					null
 					);
 andy_a2 = new fvideo(
 					flashplayer3.swf_url,
@@ -574,7 +614,8 @@ andy_a2 = new fvideo(
 					"#answ2",
 					"../Includes/pages/lob/thumbnails/andy_on.jpg",
 					"../Includes/pages/lob/thumbnails/andy_on.jpg",
-					saulsberry_video
+					saulsberry_video,
+					null
 					);
 andy_a3 = new fvideo(
 					flashplayer2.swf_url,
@@ -583,7 +624,8 @@ andy_a3 = new fvideo(
 					"#answ3",
 					"../Includes/pages/lob/thumbnails/andy_on.jpg",
 					"../Includes/pages/lob/thumbnails/andy_on.jpg",
-					saulsberry_video
+					saulsberry_video,
+					null
 					);
 
 var charles_a1, charles_a2, charles_a3;
@@ -594,7 +636,8 @@ charles_a1 = new fvideo(
 					"#answ1",
 					"../Includes/pages/lob/thumbnails/charles_on.jpg",
 					"../Includes/pages/lob/thumbnails/charles_on.jpg",
-					price_video
+					price_video,
+					null
 					);
 charles_a2 = new fvideo(
 					flashplayer2.swf_url,
@@ -603,7 +646,8 @@ charles_a2 = new fvideo(
 					"#answ2",
 					"../Includes/pages/lob/thumbnails/charles_on.jpg",
 					"../Includes/pages/lob/thumbnails/charles_on.jpg",
-					price_video
+					price_video,
+					null
 					);
 charles_a3 = new fvideo(
 					flashplayer2.swf_url,
@@ -612,7 +656,8 @@ charles_a3 = new fvideo(
 					"#answ3",
 					"../Includes/pages/lob/thumbnails/charles_on.jpg",
 					"../Includes/pages/lob/thumbnails/charles_on.jpg",
-					price_video
+					price_video,
+					null
 					);
 
 var kim_a1, kim_a2, kim_a3;
@@ -623,7 +668,8 @@ kim_a1 = new fvideo(
 					"#answ1",
 					"../Includes/pages/lob/thumbnails/kim_on.jpg",
 					"../Includes/pages/lob/thumbnails/kim_on.jpg",
-					chen_video
+					chen_video,
+					null
 					);
 kim_a2 = new fvideo(
 					flashplayer2.swf_url,
@@ -632,7 +678,8 @@ kim_a2 = new fvideo(
 					"#answ2",
 					"../Includes/pages/lob/thumbnails/kim_on.jpg",
 					"../Includes/pages/lob/thumbnails/kim_on.jpg",
-					chen_video
+					chen_video,
+					null
 					);
 kim_a3 = new fvideo(
 					flashplayer2.swf_url,
@@ -641,7 +688,8 @@ kim_a3 = new fvideo(
 					"#answ3",
 					"../Includes/pages/lob/thumbnails/kim_on.jpg",
 					"../Includes/pages/lob/thumbnails/kim_on.jpg",
-					chen_video
+					chen_video,
+					null
 					);
 
 var nancy_a1, nancy_a2, nancy_a3;
@@ -652,7 +700,8 @@ nancy_a1 = new fvideo(
 					"#answ1",
 					"../Includes/pages/lob/thumbnails/nancy_on.jpg",
 					"../Includes/pages/lob/thumbnails/nancy_on.jpg",
-					craig_video
+					craig_video,
+					null
 					);
 nancy_a2 = new fvideo(
 					flashplayer2.swf_url,
@@ -661,7 +710,8 @@ nancy_a2 = new fvideo(
 					"#answ2",
 					"../Includes/pages/lob/thumbnails/nancy_on.jpg",
 					"../Includes/pages/lob/thumbnails/nancy_on.jpg",
-					craig_video
+					craig_video,
+					null
 					);
 nancy_a3 = new fvideo(
 					flashplayer2.swf_url,
@@ -670,7 +720,8 @@ nancy_a3 = new fvideo(
 					"#answ3",
 					"../Includes/pages/lob/thumbnails/nancy_on.jpg",
 					"../Includes/pages/lob/thumbnails/nancy_on.jpg",
-					craig_video
+					craig_video,
+					null
 					);
 
 var ryan_a2, ryan_a3, ryan_a4;
@@ -681,7 +732,8 @@ ryan_a2 = new fvideo(
 					"#answ2",
 					"../Includes/pages/lob/thumbnails/ryan_on.jpg",
 					"../Includes/pages/lob/thumbnails/ryan_on.jpg",
-					cambra_video
+					cambra_video,
+					null
 					);
 ryan_a3 = new fvideo(
 					flashplayer2.swf_url,
@@ -690,7 +742,8 @@ ryan_a3 = new fvideo(
 					"#answ3",
 					"../Includes/pages/lob/thumbnails/ryan_on.jpg",
 					"../Includes/pages/lob/thumbnails/ryan_on.jpg",
-					cambra_video
+					cambra_video,
+					null
 					);
 ryan_a4 = new fvideo(
 					flashplayer2.swf_url,
@@ -699,7 +752,8 @@ ryan_a4 = new fvideo(
 					"#answ4",
 					"../Includes/pages/lob/thumbnails/ryan_on.jpg",
 					"../Includes/pages/lob/thumbnails/ryan_on.jpg",
-					cambra_video
+					cambra_video,
+					null
 					);
 
 var sheila_a1, sheila_a2, sheila_a3;
@@ -710,7 +764,8 @@ sheila_a1 = new fvideo(
 					"#answ1",
 					"../Includes/pages/lob/thumbnails/sheila_on.jpg",
 					"../Includes/pages/lob/thumbnails/sheila_on.jpg",
-					shuwen_video
+					shuwen_video,
+					null
 					);
 sheila_a2 = new fvideo(
 					flashplayer2.swf_url,
@@ -719,7 +774,8 @@ sheila_a2 = new fvideo(
 					"#answ2",
 					"../Includes/pages/lob/thumbnails/sheila_on.jpg",
 					"../Includes/pages/lob/thumbnails/sheila_on.jpg",
-					shuwen_video
+					shuwen_video,
+					null
 					);
 sheila_a3 = new fvideo(
 					flashplayer2.swf_url,
@@ -728,6 +784,7 @@ sheila_a3 = new fvideo(
 					"#answ3",
 					"../Includes/pages/lob/thumbnails/sheila_on.jpg",
 					"../Includes/pages/lob/thumbnails/sheila_on.jpg",
+					shuwen_video,
 					null
 					);
 
@@ -739,7 +796,8 @@ tammi_a1 = new fvideo(
 					"#answ1",
 					"../Includes/pages/lob/thumbnails/tammi_on.jpg",
 					"../Includes/pages/lob/thumbnails/tammi_on.jpg",
-					diaz_video
+					diaz_video,
+					null
 					);
 tammi_a2 = new fvideo(
 					flashplayer2.swf_url,
@@ -748,7 +806,8 @@ tammi_a2 = new fvideo(
 					"#answ2",
 					"../Includes/pages/lob/thumbnails/tammi_on.jpg",
 					"../Includes/pages/lob/thumbnails/tammi_on.jpg",
-					diaz_video
+					diaz_video,
+					null
 					);
 tammi_a3 = new fvideo(
 					flashplayer2.swf_url,
@@ -757,7 +816,8 @@ tammi_a3 = new fvideo(
 					"#answ3",
 					"../Includes/pages/lob/thumbnails/tammi_on.jpg",
 					"../Includes/pages/lob/thumbnails/tammi_on.jpg",
-					diaz_video
+					diaz_video,
+					null
 					);
 tammi_a4 = new fvideo(
 					flashplayer2.swf_url,
@@ -766,7 +826,8 @@ tammi_a4 = new fvideo(
 					"#answ4",
 					"../Includes/pages/lob/thumbnails/tammi_on.jpg",
 					"../Includes/pages/lob/thumbnails/tammi_on.jpg",
-					diaz_video
+					diaz_video,
+					null
 					);
 
 var tara_a1, tara_a2, tara_a3;
@@ -777,7 +838,8 @@ tara_a1 = new fvideo(
 					"#answ1",
 					"../Includes/pages/lob/thumbnails/tara_on.jpg",
 					"../Includes/pages/lob/thumbnails/tara_on.jpg",
-					jeremy_video
+					jeremy_video,
+					null
 					);
 tara_a2 = new fvideo(
 					flashplayer2.swf_url,
@@ -786,7 +848,8 @@ tara_a2 = new fvideo(
 					"#answ2",
 					"../Includes/pages/lob/thumbnails/tara_on.jpg",
 					"../Includes/pages/lob/thumbnails/tara_on.jpg",
-					jeremy_video
+					jeremy_video,
+					null
 					);
 tara_a3 = new fvideo(
 					flashplayer2.swf_url,
@@ -795,7 +858,8 @@ tara_a3 = new fvideo(
 					"#answ3",
 					"../Includes/pages/lob/thumbnails/tara_on.jpg",
 					"../Includes/pages/lob/thumbnails/tara_on.jpg",
-					jeremy_video
+					jeremy_video,
+					null
 					);
 
 function getVideo(video,w,h,na_me,alt)
@@ -804,11 +868,12 @@ function getVideo(video,w,h,na_me,alt)
 	vi_deo += '<param name="wmode" value="transparent">';
 	vi_deo += '<param name="allowScriptAccess" value="always" />';
 	vi_deo += '<param name="movie" value="'+video.swf_url+'"  />';
-	if(video.flv_url) vi_deo += '<param name="FlashVars" value="var1='+video.flv_url+'" />';
+	if(video.flv_url)
+		vi_deo += '<param name="FlashVars" value="var1='+video.flv_url+(video.cc_video?'&var2='+video.cc_video.flv_url:'')+'" />';
 	vi_deo += '<param name="quality" value="high" />';
 	vi_deo += '<param name="loop" value="false" />';
 	vi_deo += '<param name="bgcolor" value="#ffffff" />';
-	vi_deo += '<embed src="'+video.swf_url+'" quality="high" bgcolor="#ffffff" width="'+w+'" height="'+h+'" alt="'+alt+'" name="'+na_me+'" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" wmode="transparent" swLiveConnect="true" loop="false"'+(video.flv_url?(' FlashVars="var1='+video.flv_url+'"'):'')+'><\/embed>';
+	vi_deo += '<embed src="'+video.swf_url+'" quality="high" bgcolor="#ffffff" width="'+w+'" height="'+h+'" alt="'+alt+'" name="'+na_me+'" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" wmode="transparent" swLiveConnect="true" loop="false"'+(video.flv_url?(' FlashVars="var1='+video.flv_url+(video.cc_video?'&var2='+video.cc_video.flv_url:'')+'"'):'')+'><\/embed>';
 	vi_deo += '<\/object>';
 	return vi_deo;
 }
@@ -916,7 +981,7 @@ function $x(pNd)
 	} catch(e){return false;}
 }
 
-function fvideo(swf_url,flv_url,flashplayer,ada_anchor,thumb_on,thumb_off,main_video)
+function fvideo(swf_url,flv_url,flashplayer,ada_anchor,thumb_on,thumb_off,main_video,cc_video)
 {
 	this.swf_url = swf_url;
 	this.flv_url = flv_url;
@@ -925,4 +990,12 @@ function fvideo(swf_url,flv_url,flashplayer,ada_anchor,thumb_on,thumb_off,main_v
 	this.thumb_on = thumb_on;
 	this.thumb_off = thumb_off;
 	this.main_video = main_video;
+	this.cc_video = cc_video;
+}
+
+function ccfvideo(swf_url,flv_url,flashplayer)
+{
+	this.swf_url = swf_url;
+	this.flv_url = flv_url;
+	this.flashplayer = flashplayer;
 }

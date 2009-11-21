@@ -52,7 +52,7 @@
 </optgroup>
 <optgroup label="Sales">
 	<option value="8|-1"<%If jobareas="8|-1" Then Response.write " selected"%>>All Sales</option>
-	<option value="8|20"<%If jobareas="8|20" Then Response.write " selected"%>>Consumer banking</option>
+	<option value="8|20"<%If jobareas="8|20" Then Response.write " selected"%>>Consumer Banking</option>
 </optgroup>
 <optgroup label="Technology">
 	<option value="9|-1"<%If jobareas="9|-1" Then Response.write " selected"%>>All Technology</option>

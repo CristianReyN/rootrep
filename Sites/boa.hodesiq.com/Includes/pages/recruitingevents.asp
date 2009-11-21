@@ -19,73 +19,65 @@ p {
 <div id="Layer1" style="position: relative; z-index: 12;">		
 <img class="dotdiv" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
 
-<H2 class="h1">Disabled Expo</H2>
-<p style="text-align: center;">May 7, 2007<br>
-Massachusetts<br>
-<br>
-TBD<br>
-Washington, DC
-</p>
 
 <H2 class="h1">National Society of Black Engineers (NSBE)</H2>
-<p style="text-align: center;">March 28 - April 1, 2007<br>
-Columbus, Ohio<br>
-<a href="http://national.nsbe.org" target="_blank" class="p" onfocus="this.className='p-over';" onblur="this.className='p';" title="National Society of Black Engineers (NSBE)">national.nsbe.org</a>
+<p style="text-align: center;">March 19 - 23, 2008<br>
+Orlando, FL<br>
+<a href="http://www.nsbe.org" target="_blank" class="p" onfocus="this.className='p-over';" onblur="this.className='p';" title="National Society of Black Engineers (NSBE)">www.nsbe.org</a>
+</p>
+
+<H2 class="h1">The Consortium</H2>
+<p style="text-align: center;">June 12 - 15, 2008<br>
+Dallas, TX<br>
+<a href="http://www.gcsm.org" target="_blank" class="p" onfocus="this.className='p-over';" onblur="this.className='p';" title="The Consortium">www.gcsm.org</a>
+</p>
+
+<H2 class="h1">Robert Toigo Foundation</H2>
+<p style="text-align: center;">June 12-13, 2008<br>
+New York, NY<br>
+<a href="http://www.toigofoundation.org" target="_blank" class="p" onfocus="this.className='p-over';" onblur="this.className='p';" title="Robert Toigo Foundation">www.toigofoundation.org</a>
 </p>
 
 <H2 class="h1">National Association of Black Accountants (NABA)</H2>
-<p style="text-align: center;">June 19 - 23, 2007<br>
-Philadelphia, PA<br>
+<p style="text-align: center;">June 10 - 14, 2008<br>
+Atlanta, GA<br>
 <a href="http://www.nabainc.org" target="_blank" class="p" onfocus="this.className='p-over';" onblur="this.className='p';" title="National Association of Black Accountants (NABA)">www.nabainc.org</a>
 </p>
 
 <H2 class="h1">Executive Leadership Council &amp; Foundation (ELC)</H2>
-<p style="text-align: center;">August 2007<br>
-Washington, DC<br>
+<p style="text-align: center;">October 16-17, 2008<br>
+New York, NY<br>
 <a href="http://www.elcinfo.com" target="_blank" class="p" onfocus="this.className='p-over';" onblur="this.className='p';" title="Executive Leadership Council &amp; Foundation (ELC)">www.elcinfo.com</a>
 </p>
-
+ 
 <H2 class="h1">Association of Latino Professionals in Accounting &amp; Finance (ALPFA)</H2>
-<p style="text-align: center;">August 4 - 8, 2007<br>
-Lake Buena Vista, FL<br>
+<p style="text-align: center;">August 10 - 14, 2008<br>
+Phoenix, AZ<br>
 <a href="http://www.alpfa.org" target="_blank" class="p" onfocus="this.className='p-over';" onblur="this.className='p';" title="Association of Latino Professionals in Accounting &amp; Finance (ALPFA)">www.alpfa.org</a>
 </p>
 
-<H2 class="h1">IT Management Service Forum (ITSMF)</H2>
-<p style="text-align: center;">August 14 - 15, 2007<br>
-Washington, DC<br>
-<a href="http://www.itsmf.com" target="_blank" class="p" onfocus="this.className='p-over';" onblur="this.className='p';" title="IT Management Service Forum (ITSMF)">www.itsmf.com</a>
-</p>
-
-<H2 class="h1">National Association of Asian American Professionals (NAAAP)</H2>
-<p style="text-align: center;">August 16 - 19, 2007<br>
-Atlanta, GA<br>
-<a href="http://www.naaap.org" target="_blank" class="p" onfocus="this.className='p-over';" onblur="this.className='p';" title="National Association of Asian American Professionals (NAAAP)">www.naaap.org</a>
-</p>
-
 <H2 class="h1">National Black MBA Association (NBMBAA)</H2>
-<p style="text-align: center;">September 11 - 16, 2007<br>
-Orlando, FL<br>
+<p style="text-align: center;">September 17 - 20, 2008<br>
+Washington, DC<br>
 <a href="http://www.nbmbaa.org" target="_blank" class="p" onfocus="this.className='p-over';" onblur="this.className='p';" title="National Black MBA Association (NBMBAA)">www.nbmbaa.org</a>
 </p>
-
-<H2 class="h1">National Association of Hispanic MBA's (NSHMBA)</H2>
-<p style="text-align: center;">October 4 - 6, 2007<br>
-Houston, TX<br>
-<a href="http://www.nshmba.org" target="_blank" class="p" onfocus="this.className='p-over';" onblur="this.className='p';" title="National Association of Hispanic MBA's (NSHMBA)">www.nshmba.org</a>
+ 
+<H2 class="h1">National Association of Hispanic MBA&acute;s (NSHMBA)</H2>
+<p style="text-align: center;">October 9 - 11, 2008<br>
+Atlanta, GA<br>
+<a href="http://www.nshmba.org" target="_blank" class="p" onfocus="this.className='p-over';" onblur="this.className='p';" title="National Association of Hispanic MBA&acute;s (NSHMBA)">www.nshmba.org</a>
 </p>
 
-
-<H2 class="h1">Society of Women Engineers (SWE)</H2>
-<p style="text-align: center;">October 25 - 27, 2007<br>
-Nashville, TN<br>
-<a href="http://www.swe.org" target="_blank" class="p" onfocus="this.className='p-over';" onblur="this.className='p';" title="Society of Women Engineers (SWE)">www.swe.org</a>
+<H2 class="h1">GBLT- Candidate Five Job Fair / Reaching Out MBA</H2>
+<p style="text-align: center;">October 2008 (TBD)<br>
+Philadelphia, PA<br>
+<a href="http://www.reachingoutmba.org" target="_blank" class="p" onfocus="this.className='p-over';" onblur="this.className='p';" title="GBLT- Candidate Five Job Fair / Reaching Out MBA">www.reachingoutmba.org</a>
 </p>
 
-<H2 class="h1">National Association of Women MBA's (NAWMBA)</H2>
-<p style="text-align: center;">November 2 -3, 2007<br>
-Washington, DC<br>
-<a href="http://www.mbawomen.org" target="_blank" class="p" onfocus="this.className='p-over';" onblur="this.className='p';" title="National Association of Women MBA's (NAWMBA)">www.mbawomen.org</a>
+<H2 class="h1">National Association of Women MBA&acute;s (NAWMBA)</H2>
+<p style="text-align: center;">October 24 -  25, 2008<br>
+New York, NY<br>
+<a href="http://www.mbawomen.org" target="_blank" class="p" onfocus="this.className='p-over';" onblur="this.className='p';" title="National Association of Women MBA&acute;s (NAWMBA)">www.mbawomen.org</a>
 </p>
 
 <H2 class="h1">Recruit Military Career Fairs</H2>

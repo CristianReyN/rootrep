@@ -11,11 +11,11 @@ if ( hasRequestedVersion && fairbrother_video ) {
 	document.write('</div>');
 	document.write('<div id="videothumb">');
 	document.write('<a href="Javascript: vo_id();" onmouseover="MM_swapImage(\'dilstart\',\'\',\''+fairbrother_video.thumb_on+'\',1);" onmouseout="MM_swapImgRestore();" onclick="playVideo(fairbrother_video,true,true,true,true,true,true);"><img name="dilstart" style="margin: 0px;" src="'+fairbrother_video.thumb_off+'" alt="" border="0" align="absmiddle"></a>');
-	document.write(strReplace(strReplace(strReplace(strReplace(getHTMLControl("javaflash",259,22,false,false,false,true,false,false),"<text>","Video transcript"),"<title>","Video transcript"),"<href>",ada_href),"<anchor>",jeremy_video.ada_anchor));
+	document.write(strReplace(strReplace(strReplace(strReplace(getHTMLControl("javaflash",259,22,false,false,false,true,false,false),"<text>","Video transcript"),"<title>","Video transcript"),"<href>",ada_href),"<anchor>",fairbrother_video.ada_anchor));
 	document.write('</div>');
 	document.write('<div id="videothumb_off" style="display: none;">');
 	document.write('<img style="margin: 0px;" src="'+fairbrother_video.thumb_off+'" alt="" border="0" align="absmiddle">');
-	document.write(strReplace(strReplace(strReplace(strReplace(getHTMLControl("javaflash",259,22,false,false,false,true,false,false),"<text>","Video transcript"),"<title>","Video transcript"),"<href>",ada_href),"<anchor>",jeremy_video.ada_anchor));
+	document.write(strReplace(strReplace(strReplace(strReplace(getHTMLControl("javaflash",259,22,false,false,false,true,false,false),"<text>","Video transcript"),"<title>","Video transcript"),"<href>",ada_href),"<anchor>",fairbrother_video.ada_anchor));
 	document.write('</div>');
 } else {
 	document.write(reqFlashPlayer+fairbrother_video.thumb_on+reqFlashPlayer2);
