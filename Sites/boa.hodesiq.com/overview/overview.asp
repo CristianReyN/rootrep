@@ -129,7 +129,7 @@ if ( hasRequestedVersion ) {
 	<td valign="top" width="578" height="100%">
 <!-- Body-->
 <img src="../images/clear.gif" width="15" height="4" alt="" border="0"><br>
-<H1 style="display: none;">Career Overview</H1>
+<H1 class="hidden">Career Overview</H1>
 <!-- #include file="../includes/pages/overview.asp" -->
 <!-- Body-->
 	</td>

@@ -121,6 +121,18 @@ H3, P.H3
     padding: 0px;
 }
 
+H1.hidden, H2.hidden, H3.hidden, DIV.hidden, P.hidden, SPAN.hidden
+{
+	font-size : 0.0em;
+	line-height : 0.0em;
+    margin: 0px;
+    padding: 0px;
+	position: absolute;
+	left: -10000px;
+	top: -10000px;
+	/*visibility: hidden;*/
+}
+
 TD.tbl
 {
 	padding-right: 6px;
@@ -489,7 +501,7 @@ A.ftrlnk:visited
 .mh-hline {background-color: #ECECEC; background-image: url(../images/mhd_reg_5x1_lines.gif); background-repeat: repeat-x;}
 .mh-vline {background-color: #ECECEC; background-image: url(../images/mhd_reg_1x5_lines.gif); background-repeat: repeat-y;}
 .mh-hline-bkg {background: #ECECEC;}
-.ada-search {color: #ececec; background: #ececec; font: normal 0.1em/0.01em Verdana, Helvetica, sans-serif; margin: 0px;}
+.ada-search {color: #ececec; background: #ececec; font: normal 0.0em/0.0em Verdana, Helvetica, sans-serif; margin: 0px; padding: 0px; visibility: hidden;}
 a.btn1, a.btn1:visited {
 	font: bold 0.9em/1.2em Verdana, Helvetica, sans-serif;
     color: #ffffff;

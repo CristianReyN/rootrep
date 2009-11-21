@@ -3,7 +3,7 @@
 <img class="dotdiv" style="margin: 9px 0px 5px 0px;" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
 <a href="<%Response.write href_pre%>benefitsadv.asp" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';">Benefits and advantages</a>
 <img class="dotdiv" style="margin: 9px 0px 5px 0px;" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
-<a href="<%Response.write href_pre%>diversity.asp" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';">Diversity</a>
+<a href="<%Response.write href_pre%>diversity.asp" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';">Diversity and inclusion</a>
 <img class="dotdiv" style="margin: 9px 0px 5px 0px;" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
 <a href="<%Response.write href_pre%>corpinfo.asp" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';">Corporate information</a>
 <img class="dotdiv" style="margin: 9px 0px 5px 0px;" src="../images/clear.gif" width="100%" height="1" alt="" border="0">

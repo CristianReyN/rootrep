@@ -66,7 +66,7 @@ End If
 <input name="ui_mode" type="hidden" value="question">
 								<table width="100%" border="0" cellspacing="0" cellpadding="0" summary="SearchBox">
 									<tr>
-										<td width="10"><img src="../images/clear.gif" width="10" height="0" alt="" border="0" /><br><span class="ada-search"><label for="question_box" class="ada-search" style="display: none;">Search</label></span></td>
+										<td width="10"><img src="../images/clear.gif" width="10" height="0" alt="" border="0" /><br><span class="ada-search"><label for="question_box" class="ada-search">Search</label></span></td>
 										<td width="100%" style="padding: 0px;">
 <input type="text" maxlength="75" class="searchbox" style="width: 100%;" id="question_box" name="question_box" value="" alt="Question or phrase to search." title="Get answers fast. Type in a question or phrase."></td>
 										<td width="10"><img src="../images/clear.gif" width="10" height="0" alt="" border="0" /></td>

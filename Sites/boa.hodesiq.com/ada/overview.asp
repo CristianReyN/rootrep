@@ -18,7 +18,7 @@ flashPage = false
 <!-- #include file="lnav.asp" -->
 <!-- Left Nav -->
 			<tr valign="top"><td height="50" valign="bottom" style="background: #cadceb;">
-<H1 style="display: none;">Career Overview</H1>
+<H1 class="hidden">Career Overview</H1>
 <a name="vht"></a>
 <H2 class="h1" style="margin: 12px 12px 0px 13px;">Video Host<br><span>Transcript</span></H2>
 <p class="s" style="margin: 12px 12px 12px 13px;">
