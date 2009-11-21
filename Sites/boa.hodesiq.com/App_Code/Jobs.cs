@@ -135,11 +135,10 @@ public class Jobs
             OleDbCommand cmd = new OleDbCommand("p_boaJobSearch", db.GetConnection());
             cmd.CommandType = CommandType.StoredProcedure;
             cmd.Parameters.AddWithValue("@AreasOfTalent", aot);
-            cmd.Parameters.AddWithValue("@Family", Jobfamily);
+            cmd.Parameters.AddWithValue("@Family", Jobfamily.TrimEnd(",".ToCharArray()));
             cmd.Parameters.AddWithValue("@State", stateid);
             cmd.Parameters.AddWithValue("@City", cityid);
             cmd.Parameters.AddWithValue("@KeyWords", keywords);
-            cmd.Parameters.AddWithValue("@whichtable", Convert.ToInt32(ConfigurationManager.AppSettings["searchtableOne"]));
 
             OleDbDataAdapter da = new OleDbDataAdapter(cmd);
             DataSet ds = new DataSet();
