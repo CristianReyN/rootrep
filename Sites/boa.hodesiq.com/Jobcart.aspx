@@ -59,8 +59,8 @@
                 
                     <tr valign="top" align="center">
                         <td align="right" class="tbl" colspan="2" valign="top">
-                            <asp:Button CssClass="bodybtn" ID="Remove" Text="Remove Selected" runat="server"
-                                OnClick="Remove_Click" /></td>
+							<asp:PlaceHolder ID="phRemove" runat="server" Visible="false"></asp:PlaceHolder>
+						</td>
                     </tr>
                 
                 </table>

@@ -25,7 +25,10 @@ public partial class Jobcart : System.Web.UI.Page
     private string JobCartID = "";
     protected void Page_Load(object sender, EventArgs e)
     {
-        //if(ViewState["Cookie"]==null)
+		//write the boa buttons
+		boanet_safebutton.writeBOASafeButton("Remove", phRemove, "Remove Selected", Remove_Click, this.Request);
+        
+		//if(ViewState["Cookie"]==null)
         //{
         string JobSearch;
         //string JobCartID;
@@ -44,16 +47,14 @@ public partial class Jobcart : System.Web.UI.Page
             JobCartID = MyCookie.Value.ToString();
             Jobs Jobs = new Jobs();
             DataView DW = Jobs.RetrieveJobCart(JobCartID);
-            if (DW.Count == 0)
+            if (DW.Count > 0)
             {
-                Remove.Visible = false;
+				phRemove.Visible = true;
             }
             
             grdJobcart.DataSource = DW;
             grdJobcart.DataBind();
         }
-        
-
     }
     
     protected void Remove_Click(object sender, EventArgs e)
