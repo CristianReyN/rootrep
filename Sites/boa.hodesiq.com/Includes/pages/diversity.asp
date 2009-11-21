@@ -21,9 +21,9 @@ Above all, we are about people. A philosophy of inclusion drives our organizatio
 Our work environment draws on the strength of every associate to build an atmosphere of personal and professional growth. These Bank of America organizations help make diversity work:
 </p>
 <ul>
-	<li><b>The Global Diversity and Inclusion Council</b>
+	<li><b>Global Diversity &amp; Inclusion Council</b>
 		<br>A group of appointed senior leaders from various lines of business and support units who guide and implement diversity and inclusion initiatives at the corporate level.<br><br></li>
-	<li><b>The Diversity Business Councils</b>
+	<li><b>Diversity Business Councils</b>
 		<br>Line of business councils worldwide that address inclusion issues across our businesses. These groups identify issues and recommend strategies to make their business group a place where all associates can do their best work.<br><br></li>
 	<li><b>Affinity Groups</b>
 		<br>Groups of associates with a common interest and those who support them. Currently, there are seven groups organized by affinity: Asian, Black, people with disabilities, Hispanic/Latino, women, military veterans,  and gay, lesbian, bisexual and transgender.<br><br></li>

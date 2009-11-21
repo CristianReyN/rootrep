@@ -1,7 +1,7 @@
 <% Response.Buffer=True 
 Dim title, mpage, spage, ada_href, ada_title, job_search_action, Metatag%>
 <!-- #include file="../includes/breadcrumb.asp" -->
-<% title = breadcrumb & "Global Diversity and Inclusion Video"
+<% title = breadcrumb & "Global Diversity &amp; Inclusion Video"
 mpage = "learnmore"
 spage = "diversity"
 ada_href = "../ada/diversity_inclusion_video.asp"
