@@ -8,7 +8,7 @@
 <div><a href="../jobsearch.aspx" title="Job Search" class="g" onfocus="this.className='g-over';" onblur="this.className='g';">Job Search</a></div>
 		</li>
 		<li<% if mpage = "areasoftalent" And spage = "" then Response.Write " class=""home""" end if %>>
-<div><a href="areasoftalent.asp" title="Job Areas" class="g" onfocus="this.className='g-over';" onblur="this.className='g';">Job Areas</a>
+<div<%If mpage = "areasoftalent" Then%> style="padding-right: 0px;"<%End If%>><a href="areasoftalent.asp" title="Job Areas" class="g" onfocus="this.className='g-over';" onblur="this.className='g';">Job Areas</a>
 <%
 	If mpage = "areasoftalent" Then
 		call JobAreasNav(""," class=""home""")
@@ -17,7 +17,7 @@
 </div>
 		</li>
 		<li<% if mpage = "lob" And spage = "" then Response.Write " class=""home""" end if %>>
-<div><a href="lob.asp" title="Lines of Business" class="g" onfocus="this.className='g-over';" onblur="this.className='g';">Lines of Business</a>
+<div<%If mpage = "lob" Then%> style="padding-right: 0px;"<%End If%>><a href="lob.asp" title="Lines of Business" class="g" onfocus="this.className='g-over';" onblur="this.className='g';">Lines of Business</a>
 <%
 	If mpage = "lob" Then
 		call LobNav(""," class=""home""")
@@ -26,7 +26,7 @@
 </div>
 		</li>
 		<li<% if mpage = "learnmore" And spage = "" then Response.Write " class=""home""" end if %>>
-<div><a href="learnmore.asp" title="Related Information" class="g" onfocus="this.className='g-over';" onblur="this.className='g';">Related Information</a>
+<div<%If mpage = "learnmore" Then%> style="padding-right: 0px;"<%End If%>><a href="learnmore.asp" title="Related Information" class="g" onfocus="this.className='g-over';" onblur="this.className='g';">Related Information</a>
 <%
 	If mpage = "learnmore" Then
 		call RelInfoNav(""," class=""home""")
