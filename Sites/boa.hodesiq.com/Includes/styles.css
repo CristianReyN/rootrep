@@ -262,35 +262,23 @@ A.g:hover, A.g-over
     background-color: transparent;
     text-decoration: none;
 }
-A.nv
+A.nv, A.nv:visited
 {
 	font-family : Verdana, Helvetica, sans-serif;
 	font-size : 1.0em;
 	line-height : 1.2em;
 	font-weight : normal;
     color: #000000;
-    background-color: transparent;
-    text-decoration: none;
-}
-A.nv:visited
-{
-	font-family : Verdana, Helvetica, sans-serif;
-	font-size : 1.0em;
-	line-height : 1.2em;
-	font-weight : normal;
-    color: #000000;
-    background-color: transparent;
-    text-decoration: none;
-}
-A.nv:hover
-{
-	font-family : Verdana, Helvetica, sans-serif;
-	font-size : 1.0em;
-	line-height : 1.2em;
-	font-weight : normal;
-    color: #000080;
-    background-color: transparent;
     text-decoration: underline;
+}
+A.nv:hover, A.nv-over
+{
+	font-family : Verdana, Helvetica, sans-serif;
+	font-size : 1.0em;
+	line-height : 1.2em;
+	font-weight : normal;
+    color: #be5a33;
+    text-decoration: none;
 }
 A.p, A.p:visited, SPAN.pl
 {
