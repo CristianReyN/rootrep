@@ -81,7 +81,7 @@
                                                     </td>
                                                 </tr>
                                             </table>
-                                            <asp:GridView ID="GrdResults" runat="server" Width="554px" AutoGenerateColumns="False" CellPadding="0" GridLines="None" AllowSorting="True" ToolTip="Search Results ">
+                                            <asp:GridView ID="GrdResults" runat="server" Width="554px" AutoGenerateColumns="False" CellPadding="0" GridLines="None" AllowSorting="True" ToolTip="Search Results " EmptyDataRowStyle-ForeColor="Red">
                                                 <RowStyle BackColor="#CADCEB" Height="10px"/>
                                                 <AlternatingRowStyle BackColor="#EAF1F7" Height="10px" />
                                                 <HeaderStyle Height="10px" BackColor="#EAF1F7" />
@@ -99,7 +99,7 @@
                                                 </Columns>
                                                 <PagerStyle CssClass="mh-link1" />
                                                 <EmptyDataTemplate>
-                                                <b>There are no matching records found</b>
+                                                <b style="color: red">There are no matching records found</b>
                                                 </EmptyDataTemplate>
                                                 <PagerSettings Mode="NextPrevious" NextPageText="Next" Position="TopAndBottom" PreviousPageText="Previous" />
                                             </asp:GridView><br />

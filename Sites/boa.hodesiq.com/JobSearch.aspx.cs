@@ -153,7 +153,7 @@ public partial class JobSearch : System.Web.UI.Page
 		{
 			aja = ddlJobAreas.SelectedValue.Split("|".ToCharArray());
 		}
-		else if(!string.IsNullOrEmpty(Request.QueryString["jobareas"]))
+		else if (!string.IsNullOrEmpty(Request.QueryString["jobareas"]) & Request.QueryString["jobareas"].ToLowerInvariant() != "select a job area")
 		{
 			aja = Request.QueryString["jobareas"].Split("|".ToCharArray());
 		}
