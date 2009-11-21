@@ -18,6 +18,8 @@ public partial class BOAmaster : System.Web.UI.MasterPage
     public string ceventsColor = "#cadceb;";
     public string breadCrum = " | Job Search";
     public bool IsCampusEvents = false;
+    public bool IsJobDetails = false;
+
     protected void Page_Load(object sender, EventArgs e)
     {
         this.ltrlCorremetrixScripts.Text = "";
@@ -43,6 +45,7 @@ public partial class BOAmaster : System.Web.UI.MasterPage
         {
             strContent = "Page entails detailed description of positions within Bank of America.  Also the user is able to add the job to a job cart, apply, send the job to a friend or return to the job listing.";
             strPageName = "Job Details";
+            IsJobDetails = true;
         }
 		else if (Request.ServerVariables["SCRIPT_NAME"].IndexOf("Tell_a_friend.aspx", StringComparison.CurrentCultureIgnoreCase) > 0)
 		{
