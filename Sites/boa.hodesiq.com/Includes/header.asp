@@ -36,6 +36,7 @@ if mpage = "camp" Then middle_content_padding = "padding: 0px 24px 0px 0px;"
 <head>
 <meta http-equiv="content-type" content="text/html; charset=iso-8859-1">
 <meta name="Description" content="<%=Metatag%>">
+<%If Keywords <> "" Then %><meta name="Keywords" content="<%=Keywords%>"><%End If %>
 <title><%=title %></title>
 <link rel="stylesheet" href="../includes/styles.css" type="text/css">
 <link rel="stylesheet" href="../includes/hs_safebutton.css" type="text/css">
