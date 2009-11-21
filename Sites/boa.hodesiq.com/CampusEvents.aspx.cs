@@ -151,13 +151,13 @@ public partial class CampusEvents : System.Web.UI.Page
         string degreeList = ConfigurationManager.AppSettings["Degrees"];
         if (degreeList != null)
         {
-            DropDownList1.Items.Clear();
+            DegreeLevelList.Items.Clear();
             string[] degreesArray = degreeList.Split(new char[] {'*'});
             
             for (int i = 0; i < degreesArray.Length; i++)
             {
                 string[] aDegree = degreesArray[i].Split(new char[] { '^' });
-                DropDownList1.Items.Add(new ListItem(aDegree[1], aDegree[0]));
+                DegreeLevelList.Items.Add(new ListItem(aDegree[1], aDegree[0]));
             }
         }
     }
@@ -167,17 +167,17 @@ public partial class CampusEvents : System.Web.UI.Page
         if (schoolsList != null)
         {
             string[] schoolsArray = schoolsList.Split(new char[] { '*' });
-            DropDownList2.Items.Clear();
-            DropDownList2.Items.Add(new ListItem("All Schools", ""));
+            SchoolList.Items.Clear();
+            SchoolList.Items.Add(new ListItem("All Schools", ""));
             for (int i = 0; i < schoolsArray.Length; i++)
             {
                 string[] aSchool = schoolsArray[i].Split(new char[] { '^' });
-                DropDownList2.Items.Add(new ListItem(aSchool[1], aSchool[0]));
+                SchoolList.Items.Add(new ListItem(aSchool[1], aSchool[0]));
             }
         }
         else
         {
-            DropDownList2.Items.Clear();
+            SchoolList.Items.Clear();
         }
     }
     private void PopulatePage(bool biz)
@@ -361,19 +361,19 @@ public partial class CampusEvents : System.Web.UI.Page
             ArrayOfRegionRegion region = ger.OutData.Regions[0];
             if (region != null && region.RegionEvents.Length > 0)
             {
-                DropDownList2.Items.Clear();
+                SchoolList.Items.Clear();
                 for (int i = 0; i < region.RegionEvents.Length; i++)
                 {
                     ArrayOfEventEvent anEvent = region.RegionEvents[i];
-                    DropDownList2.Items.Add(new ListItem(anEvent.SchoolName, anEvent.SchoolId));
+                    SchoolList.Items.Add(new ListItem(anEvent.SchoolName, anEvent.SchoolId));
                 }
             }
         }
     }
     protected void Button1_Click(object sender, EventArgs e)
     {
-        degreeId = DropDownList1.SelectedValue;
-        schoolId = DropDownList2.SelectedValue;
+        degreeId = DegreeLevelList.SelectedValue;
+        schoolId = SchoolList.SelectedValue;
         regionId = regionElem.Value;
         Process(regionId, degreeId, schoolId);
     }
@@ -455,7 +455,7 @@ public partial class CampusEvents : System.Web.UI.Page
     }
     protected void DropDownList1_SelectedIndexChanged(object sender, EventArgs e)
     {
-        degreeId = DropDownList1.SelectedValue;
+        degreeId = DegreeLevelList.SelectedValue;
         schoolId = "";
         regionId = regionElem.Value;
         CreateSchoolList(regionId + "Schools_" + degreeId);
@@ -463,8 +463,8 @@ public partial class CampusEvents : System.Web.UI.Page
     }
     protected void DropDownList2_SelectedIndexChanged(object sender, EventArgs e)
     {
-        degreeId = DropDownList1.SelectedValue;
-        schoolId = DropDownList2.SelectedValue;
+        degreeId = DegreeLevelList.SelectedValue;
+        schoolId = SchoolList.SelectedValue;
         regionId = regionElem.Value;
         Process(regionId, degreeId, schoolId);
     }

@@ -73,19 +73,19 @@
 		                        
                                 <tr>
                                     <td align="right"  width="20%">
-                            <asp:Label ID="Label1" runat="server" Text="Degree Level:"></asp:Label>
+                            <asp:Label ID="Label1" AssociatedControlID="DegreeLevelList" runat="server" Text="Degree Level:"></asp:Label>
                                     </td>
                                     <td align="left" colspan="3" width="80%">
-                            <asp:DropDownList ID="DropDownList1" ToolTip="Select a degree level" runat="server" AutoPostBack="True" OnSelectedIndexChanged="DropDownList1_SelectedIndexChanged">
+                            <asp:DropDownList ID="DegreeLevelList" ToolTip="Select a degree level" runat="server" AutoPostBack="True" OnSelectedIndexChanged="DropDownList1_SelectedIndexChanged">
                             </asp:DropDownList>
                                     </td>
                             </tr>
                             <tr>
                             <td align="right"  width="20%">
-                            <asp:Label ID="Label2" runat="server" Text="School: "></asp:Label>
+                            <asp:Label ID="Label2" runat="server" AssociatedControlID="SchoolList" Text="School: "></asp:Label>
                             </td>
                                     <td align="left" colspan="3" width="80%">
-                            <asp:DropDownList ID="DropDownList2" ToolTip="Select a school" runat="server" AutoPostBack="True" OnSelectedIndexChanged="DropDownList2_SelectedIndexChanged">
+                            <asp:DropDownList ID="SchoolList" ToolTip="Select a school" runat="server" AutoPostBack="True" OnSelectedIndexChanged="DropDownList2_SelectedIndexChanged">
                             </asp:DropDownList>
                                 </td>
                                 </tr>
@@ -131,23 +131,23 @@
                                 
                                 <asp:Table ID="Table1" width="560" runat="server" summary="For each region, the first column is the date.  The second column is the school.  The third column is the event.  The fourth column is the business.">
                                     <asp:TableRow ID="HeaderRow" runat="server" Visible="true">
-                                        <asp:TableHeaderCell ID="DateHeader" runat="server" Width="25%" CssClass = "tdHeader">
+                                        <asp:TableHeaderCell ID="DateHeader" Scope="column" runat="server" Width="25%" CssClass = "tdHeader">
                                         <asp:LinkButton ID="LinkButton3" runat="server" OnClick="LinkButton3_Click" Visible="true" CssClass = "tdHeader" ToolTip="Sort by date in either ascending or descending order">Date <img src="<%=imagePath %>/images/camp/<%=up %>Arrow.gif" style="display:<%=sortDate %>" border="0" alt="" /></asp:LinkButton>
                                         </asp:TableHeaderCell>
-                                        <asp:TableHeaderCell ID="SchoolHeader" runat="server" Width="25%" CssClass = "tdHeader">
+                                        <asp:TableHeaderCell ID="SchoolHeader" scope="column" runat="server" Width="25%" CssClass = "tdHeader">
                                         <asp:LinkButton ID="LinkButton4" runat="server" OnClick="LinkButton4_Click" Visible="true" CssClass = "tdHeader" ToolTip="Sort by school in either ascending or descending order">School <img src="<%=imagePath %>/images/camp/<%=up %>Arrow.gif" style="display:<%=sortSchool %>" border="0" alt="" /></asp:LinkButton>
                                         </asp:TableHeaderCell>
-                                        <asp:TableHeaderCell ID="EventHeader" runat="server" Width="25%" CssClass = "tdHeader">
+                                        <asp:TableHeaderCell ID="EventHeader" scope="column" runat="server" Width="25%" CssClass = "tdHeader">
                                         <asp:LinkButton ID="LinkButton5" runat="server" OnClick="LinkButton5_Click" Visible="true" CssClass = "tdHeader" ToolTip="Sort by event in either ascending or descending order">Event <img src="<%=imagePath %>/images/camp/<%=up %>Arrow.gif" style="display:<%=sortEvent %>" border="0" alt="" /></asp:LinkButton>
                                         </asp:TableHeaderCell>
-                                        <asp:TableHeaderCell ID="BusinessHeader" runat="server" Width="25%" CssClass = "tdHeader">
+                                        <asp:TableHeaderCell ID="BusinessHeader" scope="column" runat="server" Width="25%" CssClass = "tdHeader">
                                         <asp:LinkButton ID="LinkButton6" runat="server" OnClick="LinkButton6_Click" Visible="true" CssClass = "tdHeader" ToolTip="Sort by business in either ascending or descending order">Business <img src="<%=imagePath %>/images/camp/<%=up %>Arrow.gif" style="display:<%=sortBusiness %>" border="0" alt="" /></asp:LinkButton>
                                         </asp:TableHeaderCell>
                                     </asp:TableRow>
                                 </asp:Table>
                                 <asp:Table ID="Table2" runat="server" Visible="false" CssClass="errorBody" summary="No events found">
                                     <asp:TableRow ID="TableRow1" runat="server">
-                                    <asp:TableCell ID="TableCell1" runat="server" Width="15%" CssClass="warningImage"><img src="<%=imagePath %>/images/camp/warning.gif" border="0" alt="No events found" />
+                                    <asp:TableCell ID="TableCell1" runat="server" Width="15%" CssClass="warningImage"><img src="<%=imagePath %>/images/camp/warning.gif" border="0" alt="Information" />
                                     </asp:TableCell>
                                     <asp:TableCell ID="TableCell2" runat="server" Width="85%" CssClass="warningCopy">No Events Found.
                                     </asp:TableCell>
