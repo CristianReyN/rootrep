@@ -63,7 +63,7 @@ The opportunity - to ensure a culture where everyone is accepted and can contrib
 <br><br>
 <i>(Testimonial) &ldquo;Diversity and Inclusion.&rdquo;</i>
 <br><br>
-<i>(Testimonial) &ldquo;is the foundation of who we are.&rdquo;</i>
+<i>(Testimonial) &ldquo;It is the foundation of who we are.&rdquo;</i>
 <br><br>
 <i>(Testimonial) &ldquo;Bank of America.&rdquo;</i>
 <br><br>
