@@ -236,7 +236,7 @@ function isShiftKey(ev)
 	return isShift;
 }
 
-var learnmorePopupShow, aotPopupShow;
+var learnmorePopupShow, aotPopupShow, lobPopupShow;
 
 
 function setNextTabLearnmore(ev)
@@ -380,11 +380,11 @@ function popLearnmore(show)
 
 <script language="JavaScript1.2" type="text/javascript">
 function poplob(show)
-{var d=document; if(d.getElementById("tdtbnav")&&d.getElementById("tbnav")&&d.getElementById("tdnavlob")&&d.getElementById("anavlob")){if(show || lobPopupShow){d.getElementById("anavlob").style.visibility = "visible"; d.getElementById("anavlob").style.display = "block";d.getElementById("anavlob").style.left=d.getElementById("tdtbnav").offsetLeft+d.getElementById("tbnav").offsetLeft+d.getElementById("tdnavlob").offsetLeft+d.getElementById("tdnavlob").offsetWidth-3;d.getElementById("anavlob").style.top=d.getElementById("tdtbnav").offsetTop+d.getElementById("tbnav").offsetTop+d.getElementById("tdnavlob").offsetTop;}else{d.getElementById("anavlob").style.visibility = "hidden"; d.getElementById("anavlob").style.display = "none";}
+{var d=document; if(d.getElementById("tdtbnav")&&d.getElementById("tbnav")&&d.getElementById("tdnavlob")&&d.getElementById("lobli")){if(show || lobPopupShow){d.getElementById("lobli").style.visibility = "visible"; d.getElementById("lobli").style.display = "block";d.getElementById("lobli").style.left=d.getElementById("tdtbnav").offsetLeft+d.getElementById("tbnav").offsetLeft+d.getElementById("tdnavlob").offsetLeft+d.getElementById("tdnavlob").offsetWidth-3;d.getElementById("lobli").style.top=d.getElementById("tdtbnav").offsetTop+d.getElementById("tbnav").offsetTop+d.getElementById("tdnavlob").offsetTop;}else{d.getElementById("lobli").style.visibility = "hidden"; d.getElementById("lobli").style.display = "none";}
 } setTimeout("lobPopupShow = false;",500);}
 </script>
-<div id="anavlob" style="position: absolute; left: 0px; top: 0px; visibility: hidden; display: none; z-index: 100; border: 1px solid #7F99B2; font-size: 0.8em;" onmouseover="poplob(true);tdiv(false);" onmouseout="poplob(false);tdiv(true);">
-<table width="160" cellpadding="0" cellspacing="0" border="0" summary="">
+<div id="lobli" style="position: absolute; left: 0px; top: 0px; visibility: hidden; display: none; z-index: 100; border: 1px solid #7F99B2; font-size: 0.8em;" onmouseover="poplob(true);tdiv(false);" onmouseout="poplob(false);tdiv(true);">
+<table width="170" cellpadding="0" cellspacing="0" border="0" summary="">
 			<tr valign="top"><td style="background: #cadceb; padding: 5px 6px 5px 14px;"><div id="lobpopupdv" style="position: absolute;"><a name="lnav7" id="lobpopup"></a></div><a href="learnmore/lobgcsbb.asp" id="globalconsumer" class="sbtxt" title="Global Consumer &amp; Small Business Banking" onfocus="this.className='sbtxt-over'; tdiv(false);" onblur="this.className='sbtxt';tdiv(true);">Global Consumer &amp; Small Business Banking</a></td></tr>
 			<tr valign="top"><td style="background: #7F99B2;"><img src="images/clear.gif" width="154" height="1" alt="" border="0" /></td></tr>
 			<tr valign="top"><td style="background: #cadceb; padding: 5px 6px 5px 14px;"><a href="gcib/default.asp" class="sbtxt" title="Global Corporate &amp; Investment Banking" onfocus="this.className='sbtxt-over';tdiv(false);" onblur="this.className='sbtxt';tdiv(true);">Global Corporate &amp; Investment Banking</a></td></tr>
