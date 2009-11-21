@@ -8,6 +8,7 @@ ada_href = "../ada/eadpn.asp"
 page_self = "../overview/eadpn.asp"
 ada_title = breadcrumb & "Bank Of America / MBNA Europe Bank Limited - Employment Applicant Data Protection Notice"
 job_search_action = "../jobsearch/searchresult.asp"
+page_section=""
 Dim flashPage
 flashPage = false
 Metatag="Main page of the careers site. From this page you can listen to a video host who gives a quick tour to point in the direction of either engaging information, job search information or more in-depth information about employment with Bank of America. From this page you can job search to find if there is an opportunity available. You can click to more links about benefits, diversity, corporate information, college information, global locations and to Investment Banking Careers."

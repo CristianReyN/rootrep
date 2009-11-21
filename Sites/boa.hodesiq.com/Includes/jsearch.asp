@@ -1,9 +1,4 @@
 <%
-	Dim jobareas,stateid,keywords
-	jobareas = Request("jobareas")
-	stateid = Request("stateid")
-	keywords = Request("keywords")
-	
 	Function getJobAreasSelect(c_lass,style)
 %>
 <select name="jobareas" id="jobareas" title="Select a Job Area"<%=c_lass%><%=style%>>
@@ -89,7 +84,7 @@
 	Function getStateSelect(c_lass,style)
 %>
 <select name="stateid" id="stateid" title="Select a State"<%=c_lass%><%=style%>>
-	<option value="-1"<%If stateid="-2" Or stateid="" Then Response.write " selected"%>>All states</option>
+	<option value="-1"<%If stateid="-1" Or stateid="" Then Response.write " selected"%>>All states</option>
 	<option value="1"<%If stateid="1" Then Response.write " selected"%>>Alabama&nbsp;</option>
 	<option value="2"<%If stateid="2" Then Response.write " selected"%>>Alaska&nbsp;</option>
 	<option value="3"<%If stateid="3" Then Response.write " selected"%>>Arizona&nbsp;</option>
@@ -200,6 +195,31 @@
 	<option value="WV"<%If stateid="WV" Then Response.write " selected"%>>West Virginia&nbsp;</option>
 	<option value="WI"<%If stateid="WI" Then Response.write " selected"%>>Wisconsin&nbsp;</option>
 	<option value="WY"<%If stateid="WY" Then Response.write " selected"%>>Wyoming&nbsp;</option>
+<%
+	End Function
+	
+	
+	Function getCountrySelect(c_lass,style)
+%>
+<select name="countryid" id="countryid" title="Select a Country"<%=c_lass%><%=style%>>
+	<option value="-1"<%If countryid="-1" Or countryid="" Then Response.write " selected"%>>Select a country</option>
+	<option value="1"<%If countryid="1" Then Response.write " selected"%>>United States</option>
+	<option value="15"<%If countryid="15" Then Response.write " selected"%>>Australia</option>
+	<option value="96"<%If countryid="96" Then Response.write " selected"%>>Hong Kong</option>
+	<option value="105"<%If countryid="105" Then Response.write " selected"%>>India</option>
+	<option value="114"<%If countryid="114" Then Response.write " selected"%>>Japan</option>
+	<option value="199"<%If countryid="199" Then Response.write " selected"%>>Singapore</option>
+	<option value="228"<%If countryid="228" Then Response.write " selected"%>>Taiwan</option>
+</select>
+<%
+	End Function
+	
+	
+	Function getCitySelect(c_lass,style)
+%>
+<select name="cityid" id="cityid" title="Select a Country"<%=c_lass%><%=style%>>
+	<option value="-1"<%If cityid="-1" Or cityid="" Then Response.write " selected"%>>All cities</option>
+</select>
 <%
 	End Function
 %>

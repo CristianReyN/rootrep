@@ -185,7 +185,7 @@ H2.g
 
 H2
 {
-   font-family: Verdana, Helvetica, sans-serif;
+    font-family: Verdana, Helvetica, sans-serif;
     font-size: 1.0em;
     line-height: 1.4em;
     font-weight: bold;
@@ -1075,6 +1075,10 @@ h2.bac, h2.bacs, h2.bacg, h2.bach, h3.bac, h3.bacs, h3.bacg, h4.bac
     margin: 0px;
     padding: 0px;
 }
+h3.bac
+{
+	line-height : 1.2em;
+}
 h2.bach
 {
     font-family: Verdana, Helvetica, sans-serif;
@@ -1164,6 +1168,11 @@ A.bacb, A.bacb:hover, A.bacb-over, A.bacb:visited
 label.bac
 {
     font-weight: normal;
+}
+
+H2.green
+{
+	color: #6da146;
 }
 
 .leftnav_sub
@@ -1293,4 +1302,47 @@ A.aspblue_link:hover, A.aspblue_link-over
 #ul
 {
  list-style-type:none
+}
+
+TABLE#cntr
+{
+	position : relative;
+}
+TABLE#cntr TH
+{
+}
+TABLE#cntr TD
+{
+	border : solid 1px #a0a6a6;
+	background-color : #f4f4f4;
+}
+TABLE#cntr TD.spacer
+{
+	border : none;
+	background-color : transparent;
+}
+TABLE#cntr TD H2
+{
+	color: #ffffff;
+	background-color : #D40019;;
+	text-align: center;
+	font-size: 1.0em;
+	line-height: 1.4em; 
+	padding : 0.6em 12px 0.6em 12px;
+	margin: 0px;
+}
+TABLE#cntr UL
+{
+	list-style-image : none;
+	list-style-type : none;
+	list-style-position : inside;
+	margin-left : 0px;
+	padding-left : 0px;
+}
+TABLE#cntr LI
+{
+	list-style-image : none;
+	list-style-type : none;
+	list-style-position : outside;
+	padding-left : 12px;
 }

@@ -1,10 +1,13 @@
 <% Response.Buffer=True 
 Response.Redirect("../campusrecruiting/")
-Dim title, mpage, spage, ada_href, ada_title, job_search_action, Metatag%>
+Dim title, mpage, spage, ada_href, ada_title, job_search_action, Metatag
+mpage = "locations"
+spage = "united_states"
+tpage = "collrecruiting"
+%>
 <!-- #include file="../includes/breadcrumb.asp" -->
-<% title = breadcrumb & "Campus Recruiting"
-mpage = "learnmore"
-spage = "collrecruiting"
+<%
+title = breadcrumb_extended
 ada_href = "../ada/collrecruiting.asp"
 page_self = "../learnmore/collrecruiting.asp"
 ada_title = breadcrumb & "Campus Recruiting"

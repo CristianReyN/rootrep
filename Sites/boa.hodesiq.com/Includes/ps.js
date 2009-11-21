@@ -11,28 +11,33 @@ function startPs()
 {
 	if(document.getElementById("jaaot"))
 	{
-		document.getElementById("jaaot").style.top = document.getElementById("areasoftalentli").offsetTop-1;
-		document.getElementById("jaaot").style.visibility = "visible";
+		$("jaaot").style.top = $("areasoftalentli").offsetTop-1;
+		$("jaaot").style.visibility = "visible";
 	}
-	if(document.getElementById("lob"))
+	if($("lob"))
 	{
-		document.getElementById("lob").style.top = document.getElementById("lobli").offsetTop-1;
-		document.getElementById("lob").style.visibility = "visible";
+		$("lob").style.top = $("lobli").offsetTop-1;
+		$("lob").style.visibility = "visible";
 	}
-	if(document.getElementById("camp"))
+	if($("camp"))
 	{
-		document.getElementById("camp").style.top = document.getElementById("campli").offsetTop-1;
-		document.getElementById("camp").style.visibility = "visible";
+		$("camp").style.top = $("campli").offsetTop-1;
+		$("camp").style.visibility = "visible";
 	}
-	if(document.getElementById("relinfo"))
+	if($("loc"))
 	{
-		document.getElementById("relinfo").style.top = document.getElementById("learnmoreli").offsetTop-1;
-		document.getElementById("relinfo").style.visibility = "visible";
+		$("loc").style.top = $("locli").offsetTop-1;
+		$("loc").style.visibility = "visible";
 	}
-	if(document.getElementById("glc"))
+	if($("relinfo"))
 	{
-		document.getElementById("glc").style.top = document.getElementById("globalli").offsetTop-1;
-		document.getElementById("glc").style.visibility = "visible";
+		$("relinfo").style.top = $("learnmoreli").offsetTop-1;
+		$("relinfo").style.visibility = "visible";
+	}
+	if($("glc"))
+	{
+		$("glc").style.top = $("globalli").offsetTop-1;
+		$("glc").style.visibility = "visible";
 	}
 	
 	if(window.preloadCC) preloadCC();
@@ -65,8 +70,8 @@ function startPs()
 		}
 	}
 	
-if(document.getElementById("lnav")){
-	var elements = document.getElementById("lnav").getElementsByTagName("li");
+if($("lnav")){
+	var elements = $("lnav").getElementsByTagName("li");
 	for (var i=0; i<elements.length; i++)
 	{
 		/*elements[i].onfocus=function() {
@@ -128,4 +133,59 @@ if(document.getElementById("lnav")){
 String.prototype.trim = function()
 {
 	return this.replace(/^\s+|\s+$/g,"");
+}
+
+
+if ( !window.openWindow )
+{
+	function openWindow(pageToLoad,winName,width,height,lo,me,re,sc,st,ti,to,ho,center,fs) { xposition=0; yposition=0; if ((parseInt(navigator.appVersion) >= 4 ) && (center)){ xposition = (screen.width - width) / 2; yposition = (screen.height - height) / 2; } args = "width=" + width + "," + "height=" + height + "," + "location="+lo+"," + "menubar="+me+"," + "resizable="+re+"," + "scrollbars="+sc+"," + "status="+st+"," + "titlebar="+ti+"," + "toolbar="+to+"," + "hotkeys="+ho+"," + "screenx=" + xposition + "," + "screeny=" + yposition + "," + "left=" + xposition + "," + "top=" + yposition + "," + "fullscreen=" + fs; return window.open( pageToLoad,winName,args);}
+}
+if ( !window.setCookie )
+{
+	function setCookie(c_name,value,expiredays)
+	{
+		var exdate=new Date()
+		exdate.setDate(exdate.getDate()+expiredays)
+		document.cookie=c_name+ "=" +escape(value)+
+		((expiredays==null) ? "" : ";expires="+exdate.toGMTString())
+	}
+}
+if ( !window.getCookie )
+{
+	function getCookie(c_name)
+	{
+		if (document.cookie.length>0)
+		{
+			c_start=document.cookie.indexOf(c_name + "=")
+			if (c_start!=-1)
+			{ 
+				c_start=c_start + c_name.length+1 
+				c_end=document.cookie.indexOf(";",c_start)
+				if (c_end==-1) c_end=document.cookie.length
+				return unescape(document.cookie.substring(c_start,c_end))
+			} 
+		}
+		return false;
+	}
+}
+
+function $(pNd)
+{
+	try
+	{
+		var node;
+		switch(typeof (pNd))
+		{
+			case 'string':
+				node = document.getElementById(pNd);
+				break;
+			case 'object':
+				node = pNd;
+				break;
+			default:
+				node = false;
+				break;
+		}
+		return node;
+	}catch(e){return false;}
 }

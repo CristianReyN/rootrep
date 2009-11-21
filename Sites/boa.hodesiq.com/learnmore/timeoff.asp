@@ -1,10 +1,13 @@
 <% Response.Buffer=True 
-Dim title, mpage, spage, ada_href, ada_title, job_search_action, Metatag%>
+Dim title, mpage, spage, ada_href, ada_title, job_search_action, Metatag
+mpage = "locations"
+spage = "united_states"
+tpage = "benefitsadv"
+fpage = "timeoff"
+%>
 <!-- #include file="../includes/breadcrumb.asp" -->
-<% title = breadcrumb & "Time Away"
-mpage = "learnmore"
-spage = "benefitsadv"
-tpage = "timeoff"
+<%
+title = breadcrumb_extended
 ada_href = "../ada/timeoff.asp"
 page_self = "../learnmore/timeoff.asp"
 ada_title = breadcrumb & "Time Away"

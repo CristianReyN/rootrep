@@ -19,7 +19,7 @@ if mpage <> "areasoftalent" Then ADA_HEADER_LINKS = ADA_HEADER_LINKS & "<a href=
 ADA_HEADER_LINKS = ADA_HEADER_LINKS & "<a href=""" & ADA_iQ_NAV4 & """ title=""" & ADA_iQ_TITLE4 & """><img src=""../images/clear.gif"" width=""1"" height=""69"" alt=""" & ADA_iQ_TITLE4 & """ border=""0"" /></a>"
 if mpage <> "staffingevents" Then ADA_HEADER_LINKS = ADA_HEADER_LINKS & "<a href=""" & ADA_iQ_NAV5 & """ title=""" & ADA_iQ_TITLE5 & """><img src=""../images/clear.gif"" width=""1"" height=""69"" alt=""" & ADA_iQ_TITLE5 & """ border=""0"" /></a>" 
 Dim JOB_SEARCH_TITLE
-JOB_SEARCH_TITLE = "USA Guided Job Search"
+JOB_SEARCH_TITLE = "Guided Job Search"
 Dim to_version
 textonly_version = "Text Only Version"
 ada_title = ada_title  & ", " & textonly_version
@@ -44,7 +44,6 @@ if mpage = "camp" Then middle_content_padding = "padding: 0px 24px 0px 0px;"
 <%If mpage = "overview" Or mpage = "camp" Then %>
 <script language="javascript" type="text/javascript">
 //<!--
-var accessFlash = "<%=sccess_flash_title%>";
 document.write('<style type="text/css">.auraltext{font-size: 0px; left: -10000px; top: -10000px; position: absolute;}<\/style>');
 //-->
 </script>
@@ -60,7 +59,7 @@ H2.p, H3.p {
 </style><%End If %>
 <script language="JavaScript1.2" src="../includes/masthead.js" type="text/javascript"></script>
 <script language="JavaScript1.2" src="../includes/mvc-fontsize.js" type="text/javascript"></script>
-<%If mpage = "overview" Or mpage = "camp" Then %>
+<%If mpage = "camp" Then %>
 <script language="JavaScript1.2" src="../includes/flash.js" type="text/javascript"></script>
 <%End If %>
 <% If (spage = "collrecruiting" And (tpage = "" Or tpage = "career_compass") And fpage = "") Or (mpage = "lob" And spage = "lb_career_compass") Or (spage = "collrecruiting" And (tpage = "graduate_programs" Or tpage = "undergraduate_programs" Or tpage = "internships_program") And fpage <> "") Or (mpage = "areasoftalent" And spage <> "") Then %>
@@ -131,7 +130,7 @@ function tdiv(tf){}
 //-->
 </script>
 </head>
-<body id="body" onload="startPs(); if(window.loadVideoHost)loadVideoHost(); fixIE(<% If tpage = "career_fit_tool" Then %>false<% Else %>true<% End If %>);" onunload="">
+<body id="body" onload="startPs(); fixIE(<% If tpage = "career_fit_tool" Then %>false<% Else %>true<% End If %>);" onunload="">
 <!-- #include file="../includes/manage_your_profile.asp" -->
 <%
 Dim pageId, categoryId

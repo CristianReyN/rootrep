@@ -1,10 +1,13 @@
 <% Response.Buffer=True 
-Dim title, mpage, spage, ada_href, ada_title, job_search_action, Metatag%>
+Dim title, mpage, spage, ada_href, ada_title, job_search_action, Metatag
+mpage = "locations"
+spage = "united_states"
+tpage = "benefitsadv"
+fpage = "metlifeautohomeinsurance"
+%>
 <!-- #include file="../includes/breadcrumb.asp" -->
-<% title = breadcrumb & "MetLife Auto & Home Insurance Program"
-mpage = "learnmore"
-spage = "benefitsadv"
-tpage = "metlifeautohomeinsurance"
+<%
+title = breadcrumb_extended
 ada_href = "../ada/metlife_ahins.asp"
 page_self = "../learnmore/metlife_ahins.asp"
 ada_title = breadcrumb & "MetLife Auto & Home Insurance Program"

@@ -1,11 +1,14 @@
 <% Response.Buffer=True 
-Dim title, mpage, spage, ada_href, ada_title, job_search_action, Metatag%>
+Dim title, mpage, spage, ada_href, ada_title, job_search_action, Metatag
+mpage = "locations"
+spage = "united_states"
+tpage = "collrecruiting"
+fpage = "graduate_programs"
+fvpage = "gp_wpa"
+%>
 <!-- #include file="../includes/breadcrumb.asp" -->
-<% title = breadcrumb & "Campus Recruiting | Graduate/Associate Programs | Staffing Operations - Workforce Planning Analyst"
-mpage = "learnmore"
-spage = "collrecruiting"
-tpage = "graduate_programs"
-fpage = "gp_wpa"
+<%
+title = breadcrumb_extended
 ada_href = "../ada/gp_wpa.asp"
 page_self = "../learnmore/gp_wpa.asp"
 ada_title = breadcrumb & "Campus Recruiting | Graduate/Associate Programs | Staffing Operations - Workforce Planning Analyst"

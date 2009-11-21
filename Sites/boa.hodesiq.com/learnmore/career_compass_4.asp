@@ -1,11 +1,13 @@
 <% Response.Buffer=True 
 Response.Redirect("../campusrecruiting/")
-Dim title, mpage, spage, ada_href, ada_title, job_search_action, Metatag%>
+Dim title, mpage, spage, ada_href, ada_title, job_search_action, Metatag
+mpage = "locations"
+spage = "united_states"
+tpage = "collrecruiting"
+fpage = "career_compass"
+%>
 <!-- #include file="../includes/breadcrumb.asp" -->
 <%
-mpage = "learnmore"
-spage = "collrecruiting"
-tpage = "career_compass"
 ada_href = "../ada/career_compass.asp"
 page_self = "../learnmore/career_compass.asp"
 ada_title = breadcrumb & "Campus Recruiting | Career Compass"
@@ -18,7 +20,7 @@ Metatag="Page designed for student recruiting. Links available on the page: unde
 %>
 <!-- #include file="../includes/pages/career_compass_function.asp" -->
 <%
-title = breadcrumb & "Campus Recruiting | Career Compass | Step " & page_number
+title = breadcrumb_extended & " | Step " & page_number
 %>
 <!-- Header -->
 <!-- #include file="../includes/header.asp" -->

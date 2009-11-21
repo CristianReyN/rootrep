@@ -1,12 +1,12 @@
 <% Response.Buffer=True 
 Dim title, mpage, spage, ada_href, ada_title, job_search_action, Metatag%>
 <!-- #include file="../includes/breadcrumb.asp" -->
-<% title = breadcrumb & "Corporate Information | Corporate Staff &amp; Support"
+<% title = breadcrumb & "Lines of Business | Corporate Staff &amp; Support"
 mpage = "lob"
 spage = "lobcss"
 ada_href = "../ada/lobcss.asp"
 page_self = "../learnmore/lobcss.asp"
-ada_title = breadcrumb & "Corporate Information | Corporate Staff &amp; Support"
+ada_title = breadcrumb & "Lines of Business | Corporate Staff &amp; Support"
 job_search_action = "../jobsearch/searchresult.asp"
 Metatag="Explore a career with Bank of America's Corporate Staff & Support."
 %>

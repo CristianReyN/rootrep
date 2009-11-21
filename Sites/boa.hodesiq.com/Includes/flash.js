@@ -128,41 +128,78 @@ function DetectFlashVer(reqMajorVer, reqMinorVer, reqRevision) {
 
 var hasRequestedVersion = DetectFlashVer(requiredMajorVersion, requiredMinorVersion, requiredRevision);
 
-var hiddenFlash = '<a class="auraltext" href="#skipflash" onFocus="hover(this,\'show-tab\'); this.focus();" onblur="hover(this,\'auraltext\')">Skip Flash content<\/a><br>';
-	hiddenFlash += '<object tabindex="0" onmousedown="if(document.getElementById(\'skipflash2\')) document.getElementById(\'skipflash2\').focus();" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"  codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="310" height="390" title="virtualhost" id="ShockwaveFlash1">';
-	hiddenFlash += '<param name="movie" value="http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/boa_vh.swf" />';
-	hiddenFlash += '<param name="quality" value="high" />';
-	hiddenFlash += '<param value="transparent" name="wmode" />';
-	hiddenFlash += '<param name="allowScriptAccess" value="always" />';
-	hiddenFlash += '<embed src="http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/boa_vh.swf" wmode="transparent" allowScriptAccess="always" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="310" height="390"><\/embed>';
-	hiddenFlash += '<\/object>';
 
-var bc_ns = '<a class="auraltext" href="JavaScript: ow(\'bc_ns\');" onFocus="hover(this,\'show-tab\');" onblur="hover(this,\'auraltext\');" title="'+accessFlash+'">'+accessFlash+'<\/a><a class="auraltext" href="#skipflash" onFocus="hover(this,\'show-tab\');" onblur="hover(this,\'auraltext\');" title="Skip Flash content">Skip Flash content<\/a>';
-	bc_ns += '<div style="position: relative; top: 0; left: 0; ">';
-	bc_ns += '<object name="wabo" id="wabo" tabindex="0" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0" width="578" height="166" align="middle" title="Flash Animation" style="margin: 0px;">';
-	bc_ns += '<param name="allowScriptAccess" value="always" />';
-	bc_ns += '<param name="movie" value="http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/boa_OPP_ns.swf" />';
-	bc_ns += '<param name="quality" value="high" />';
-	bc_ns += '<param name="wmode" value="transparent" />';
-	bc_ns += '<param name="bgcolor" value="#ffffff" />';
-	bc_ns += '<embed name="wabe" id="wabe" src="http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/boa_OPP_ns.swf" wmode="transparent" quality="high" bgcolor="#ffffff" width="578" height="166" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" style="margin: 0px;" /><\/embed>';
-	bc_ns += '<\/object>';
-	bc_ns += '<\/div>';
-
-var bc_cc = '<a class="auraltext" href="JavaScript: ow(\'bc_cc\');" onFocus="hover(this,\'show-tab\');" onblur="hover(this,\'auraltext\');" title="'+accessFlash+'">'+accessFlash+'<\/a><a class="auraltext" href="#skipflash" onFocus="hover(this,\'show-tab\');" onblur="hover(this,\'auraltext\');" title="Skip Flash content">Skip Flash content<\/a>';
-	bc_cc += '<div style="position: relative; top: 0; left: 0; ">';
-	bc_cc += '<object name="wabo" id="wabo" tabindex="0" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0" width="578" height="166" align="middle" title="Flash Animation" style="margin: 0px;">';
-	bc_cc += '<param name="allowScriptAccess" value="always" />';
-	bc_cc += '<param name="movie" value="http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/boa_OPP_cc.swf" />';
-	bc_cc += '<param name="quality" value="high" />';
-	bc_cc += '<param name="wmode" value="transparent" />';
-	bc_cc += '<param name="bgcolor" value="#ffffff" />';
-	bc_cc += '<embed name="wabe" id="wabe" src="http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/boa_OPP_cc.swf" wmode="transparent" quality="high" bgcolor="#ffffff" width="578" height="166" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" style="margin: 0px;" /><\/embed>';
-	bc_cc += '<\/object>';
-	bc_cc += '<\/div>';
-	
-function ow(fl) { 
-	var popWin = openWindow((fl=="bc_ns"?"http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/boa_career_cc_ada.html":"http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/boa_career_cc_ada.html"), "videoPop", 590, 240, 0,0,1,1,1,0,0,0,true,0);
-	popWin.focus();
+if ( !window.createStopAudio )
+{
+	function createStopAudio( i_d, txt, func_tion)
+	{	if(document.body.firstChild) {
+			var new_a = document.createElement("a");
+			new_a.href = "JavaScript: if(window."+func_tion+") "+func_tion+"();";
+			new_a.innerHTML = txt;
+			new_a.title = txt;
+			new_a.className = "hlink";
+			//new_a.onfocus=function(){hover(this,'show-tab'); this.style.fontSize = "0.56em";}
+			//new_a.onblur=function(){hover(this,'auraltext');}
+			document.body.insertBefore(new_a,document.body.firstChild);
+		}
+		else if (document.all) {
+			if(!$(i_d)) document.body.insertAdjacentHTML("afterBegin",'<div id="'+i_d+'"></div>');
+			$(i_d).innerHTML = '<a href="JavaScript: if(window.'+func_tion+') '+func_tion+'();" class="hlink"'/*+' onfocus="hover(this,\'show-tab\'); this.style.fontSize = \'0.56em\';" onblur="hover(this,\'auraltext\');"'*/+' title="'+txt+'">'+txt+'</a>';
+			$(i_d).style.display = "inline"; }
+	}
 }
-function openWindow(pageToLoad,winName,width,height,lo,me,re,sc,st,ti,to,ho,center,fs) { xposition=0; yposition=0; if ((parseInt(navigator.appVersion) >= 4 ) && (center)){ xposition = (screen.width - width) / 2; yposition = (screen.height - height) / 2; } args = "width=" + width + "," + "height=" + height + "," + "location="+lo+"," + "menubar="+me+"," + "resizable="+re+"," + "scrollbars="+sc+"," + "status="+st+"," + "titlebar="+ti+"," + "toolbar="+to+"," + "hotkeys="+ho+"," + "screenx=" + xposition + "," + "screeny=" + yposition + "," + "left=" + xposition + "," + "top=" + yposition + "," + "fullscreen=" + fs; return window.open( pageToLoad,winName,args);}
+if ( !window.removeStopAudio )
+{
+	function removeStopAudio(i_d)
+	{if(document.body.firstChild){
+			document.body.removeChild(document.body.firstChild);}
+		else if (document.all) { if($(i_d)) { $(i_d).innerHTML = ''; $(i_d).style.display = "none"; }
+	}}
+}
+
+function getReqFlashPlayer ( requiredMajorVersion )
+{
+	return '<a href="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash" title="This video requires Adobe Flash Player version '+requiredMajorVersion+'. Please download latest version." class="p" onfocus="this.className=\'p-over\';" onblur="this.className=\'p\';">This video requires Adobe Flash Player version '+requiredMajorVersion+'. Please download latest version.<\/a>';
+}
+function getReqFlashPlayerImg ( img_src, requiredMajorVersion )
+{
+	return '<a href="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash" title="This video requires Adobe Flash Player version '+requiredMajorVersion+'. Please download latest version."><img src="'+img_src+'" width="578" height="166" alt="This video requires Adobe Flash Player version '+requiredMajorVersion+'. Please download latest version." title="This video requires Adobe Flash Player version '+requiredMajorVersion+'. Please download latest version." border="0" style="margin: 0px;" /><\/a><br>'+getReqFlashPlayer(requiredMajorVersion)+'<br><br>';
+}
+
+var flash = '<a class="auraltext" href="JavaScript: ow();" onFocus="hover(this,\'show-tab\');" onblur="hover(this,\'auraltext\');" title="Access Flash">Access Flash<\/a><a class="auraltext" href="#skipflash" onFocus="hover(this,\'show-tab\');" onblur="hover(this,\'auraltext\');" title="Skip Flash content">Skip Flash content<\/a>';
+	flash += '<div style="position: relative; top: 0; left: 0; ">';
+	flash += '<object name="flo" id="flo" tabindex="0" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0" width="578" height="300" align="middle" title="Flash Animation" style="margin: 0px;">';
+	flash += '<param name="allowScriptAccess" value="always" />';
+	flash += '<param name="movie" value="../images/boa_cws_intro.swf" />';
+	flash += '<param name="quality" value="high" />';
+	flash += '<param name="wmode" value="transparent" />';
+	flash += '<param name="bgcolor" value="#ffffff" />';
+	flash += '<embed name="fle" id="fle" src="../images/boa_cws_intro.swf" wmode="transparent" quality="high" bgcolor="#ffffff" width="578" height="300" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" style="margin: 0px;" /><\/embed>';
+	flash += '<\/object>';
+	flash += '<\/div>';
+	
+function ow() {
+	/*var popWin = openWindow("http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/boa_career_cc_ada.html", "videoPop", 590, 240, 0,0,1,1,1,0,0,0,true,0);
+	popWin.focus();*/
+}
+
+function shuffle_array(arr){ var i = arr.length;if (i==0) return false; while(--i){ var j=Math.floor(Math.random()*(i+1)); var ei=arr[i]; var ej=arr[j]; arr[i]=ej; arr[j]=ei;}}
+
+var imgs = new Array ("../images/overview/costarica.png", "../images/overview/emea.png", "../images/overview/usa.png", "../images/overview/canada.png", "../images/overview/apac.png" );
+var current_img, img_timeout;
+var rotated = 0, delay=13000;
+function rotate_img()
+{
+	img_timeout = setTimeout("set_img()",delay==0?5000:delay);
+}
+function set_img()
+{
+	if ( !current_img || current_img > imgs.length - 1 ) current_img = 0;
+	$("idvi").src = imgs[current_img];
+	$("idvi").style.display = "block";
+	$("foot").style.paddingTop = "125px";
+	current_img++;
+	rotated++;
+	delay = 0;
+	if( rotated <= 20 ) rotate_img();
+}
