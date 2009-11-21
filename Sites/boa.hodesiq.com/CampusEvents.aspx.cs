@@ -309,7 +309,7 @@ public partial class CampusEvents : System.Web.UI.Page
                                     bizName = bizName + anEvent.Businesses[j];
                                     if (j + 1 < anEvent.Businesses.Length)
                                     {
-                                        bizName = bizName + "<br/>";
+                                        bizName = bizName + ",<br/>";
                                     }
                                 }
                             }
