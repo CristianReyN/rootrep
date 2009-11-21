@@ -34,7 +34,7 @@
                             <asp:HyperLink ID="JobcartTop" runat="server" CssClass="p" ToolTip="Add to Job Cart">Add to Job Cart</asp:HyperLink><br />
                             <br />
                             <asp:button runat="server" cssclass="bodybtn" id="bsearchTop" text="View Job Cart" OnClick="bsearchTop_Click"/><br/>
-                            <asp:button cssclass="bodybtn" runat="server" id="applyTop" text="Apply Now" OnClick="applyTop_Click"/>
+                            <asp:HyperLink ID="applylnk" CssClass="p" runat="server" NavigateUrl="" Target="_blank" >Apply Now</asp:HyperLink>
                         </td>
                     </tr>
                     <tr>
@@ -90,7 +90,7 @@
                             <asp:HyperLink ID="Jobcart" runat="server" CssClass="p" ToolTip="Add to Job Cart">Add to Job Cart</asp:HyperLink><br />
                             <br />
                             <asp:Button  runat="server" cssclass="bodybtn" id="bsearch" text="View Job Cart" OnClick="bsearch_Click"/><br/>
-                            <asp:Button runat="server" cssclass="bodybtn" id="apply" text="Apply Now" OnClick="apply_Click"/>
+                            <asp:HyperLink ID="applylink" CssClass="p" runat="server" NavigateUrl="" Target="_blank" >Apply Now</asp:HyperLink>
                         </td>
                     </tr>
                 </table>

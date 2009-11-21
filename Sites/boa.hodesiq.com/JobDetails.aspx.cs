@@ -11,6 +11,8 @@ using System.Web.UI.HtmlControls;
 
 public partial class JobDetails : System.Web.UI.Page
 {
+    private string ApplyURL = string.Empty;
+
     protected void Page_Load(object sender, EventArgs e)
     {
         Jobs Jobs = new Jobs();
@@ -31,6 +33,9 @@ public partial class JobDetails : System.Web.UI.Page
             lblJobFamily.Text = dt.Rows[0]["family"].ToString();
             lblHoursPerWeek.Text = dt.Rows[0]["HrsPerWeek"].ToString();
             lblQualification.Text = dt.Rows[0]["Qualification"].ToString();
+            ApplyURL = dt.Rows[0]["ApplyURL"].ToString();
+            this.applylink.NavigateUrl = ApplyURL;
+            this.applylnk.NavigateUrl = ApplyURL;
         }
         if (Request.QueryString["SearchPage"].ToString() == "Sp")
         {
