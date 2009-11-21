@@ -22,7 +22,7 @@
 <H2 class="left2" style="margin: 0px; padding: 0px;"><a href="<% if page_section <> "ADA" then Response.write "../communications/" Else Response.write "communications.asp" End If%>" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="Communications">Communications</a></H2>
 <p style="margin: 6 0 15 0;">The role of a communications expert is critical in proactively shaping a company&acute;s reputation through the eyes of its customers.</p>
 
-<H2 class="left2" style="margin: 0px; padding: 0px;"><a href="<% if page_section <> "ADA" then Response.write "../finance/" Else Response.write "finance.asp" End If%>" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="Finance">Finance</a></H2>
+<H2 class="left2" style="margin: 0px; padding: 0px;"><a href="<% if page_section <> "ADA" then Response.write "../finance/" Else Response.write "finance.asp" End If%>" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="CFO Group/Finance">CFO Group/Finance</a></H2>
 <p style="margin: 6 0 15 0;">Bank of America&acute;s strong financial performance relies on a strong team.</p>
 
 <H2 class="left2" style="margin: 0px; padding: 0px;"><a href="<% if page_section <> "ADA" then Response.write "../hr/" Else Response.write "humanresources.asp" End If%>" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="Global Human Resources">Global Human Resources</a></H2>

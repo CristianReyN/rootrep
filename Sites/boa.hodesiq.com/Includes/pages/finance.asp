@@ -61,7 +61,7 @@ Finance Services is responsible for accounts payable, general finance operations
 <br><br>
 <b>Corporate Treasury</b>
 <br><br>
-Corporate Treasury is responsible for interest rate risk analysis, managing the funding of the corporation and the banks and capital management. The group executes funding, liquidity and interest rate risk strategies through structured transitions and the sale of debt products to our corporate clients. In addition, functions within Treasury provide economic analysis and research as well as insurable risk management.
+Corporate Treasury is responsible for interest rate risk analysis, managing the funding of the corporation and the banks, and capital management. The group executes funding, liquidity and interest rate risk strategies through structured transitions and the sale of debt products to our corporate clients. In addition, functions within Treasury provide economic analysis and research as well as insurable risk management.
 <br><br>
 <b>Corporate Investments</b>
 <br><br>

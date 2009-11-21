@@ -68,14 +68,17 @@
 				<li<% if spage = "administration" then Response.Write " style=""background: #eaf1f7;""" end if %>>
 <div><a href="../administration/" class="sbtxt" title="Administration" onfocus="this.className='sbtxt-over';" onblur="this.className='sbtxt';">Administration</a></div>
 				</li>
-				<li<% if spage = "customercare" then Response.Write " style=""background: #eaf1f7;""" end if %>>
-<div><a href="../customercare/" class="sbtxt" title="Customer Care" onfocus="this.className='sbtxt-over';" onblur="this.className='sbtxt';">Customer Care</a></div>
+				<li<% if spage = "finance" then Response.Write " style=""background: #eaf1f7;""" end if %>>
+<div><a href="../finance/" class="sbtxt" title="CFO Group/Finance" onfocus="this.className='sbtxt-over';" onblur="this.className='sbtxt';">CFO Group/Finance</a></div>
 				</li>
 				<li<% if spage = "communications" then Response.Write " style=""background: #eaf1f7;""" end if %>>
 <div><a href="../communications/" class="sbtxt" title="Communications" onfocus="this.className='sbtxt-over';" onblur="this.className='sbtxt';">Communications</a></div>
 				</li>
-				<li<% if spage = "finance" then Response.Write " style=""background: #eaf1f7;""" end if %>>
-<div><a href="../finance/" class="sbtxt" title="CFO Group/Finance" onfocus="this.className='sbtxt-over';" onblur="this.className='sbtxt';">CFO Group/Finance</a></div>
+				<li<% if spage = "consumerbanking" then Response.Write " style=""background: #eaf1f7;""" end if %>>
+<div><a href="../consumerbank/" class="sbtxt" title="Consumer Banking" onfocus="this.className='sbtxt-over';" onblur="this.className='sbtxt';">Consumer Banking</a></div>
+				</li>
+				<li<% if spage = "customercare" then Response.Write " style=""background: #eaf1f7;""" end if %>>
+<div><a href="../customercare/" class="sbtxt" title="Customer Care" onfocus="this.className='sbtxt-over';" onblur="this.className='sbtxt';">Customer Care</a></div>
 				</li>
 				<li<% if spage = "humanresources" then Response.Write " style=""background: #eaf1f7;""" end if %>>
 <div><a href="../hr/" class="sbtxt" title="Human Resources" onfocus="this.className='sbtxt-over';" onblur="this.className='sbtxt';">Human Resources</a></div>
@@ -91,9 +94,6 @@
 				</li>
 				<li<% if spage = "technology" then Response.Write " style=""background: #eaf1f7;""" end if %>>
 <div><a href="../tech/" class="sbtxt" title="Technology" onfocus="this.className='sbtxt-over';" onblur="this.className='sbtxt';">Technology</a></div>
-				</li>
-				<li<% if spage = "consumerbanking" then Response.Write " style=""background: #eaf1f7;""" end if %>>
-<div><a href="../consumerbank/" class="sbtxt" title="Consumer Banking" onfocus="this.className='sbtxt-over';" onblur="this.className='sbtxt';">Consumer Banking</a></div>
 				</li>
 			</ul>
 <%
