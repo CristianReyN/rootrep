@@ -159,13 +159,13 @@
                                 <!-- Left Nav -->
                                 <tr valign="top">
                                     <td align="right" style="background-color: #cadceb; height: 50" valign="bottom">
-                                        <object data="images/daisy.swf" type="application/x-shockwave-flash">
+<%--                                        <object data="images/daisy.swf" type="application/x-shockwave-flash">
                                             <param name="movie" value="daisy.swf" />
                                             <param name="scale" value="exactfit" />
                                             If you are reading this it means you don't have flash player installed. Get it <a
                                                 href="http://www.adobe.com/go/gntray_dl_getflashplayer" target="_blank">here</a>
                                         </object>
-                                        <a class="nv" href="../ada/faq.asp" title="Bank of America | Career | Job Search | FAQ, Text Only Version">
+--%>                                        <a class="nv" href="../ada/faq.asp" title="Bank of America | Career | Job Search | FAQ, Text Only Version">
                                             Text Only Version</a>&nbsp;&nbsp;</td>
                                 </tr>
                                 <tr valign="top">
