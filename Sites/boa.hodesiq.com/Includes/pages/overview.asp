@@ -290,7 +290,7 @@ Please use the <a href="http://globalcareers.bankofamerica.com/" class="p" title
 	<li>Email your resume to <a href="mailto:"bac@resume.bankofamerica.com>bac@resume.bankofamerica.com</a></li>
 	<li>In the Subject Line of your email, include "Source = Bank of America Careers"</li>
 </ul>
-<a href="<% If taleo_upgrade Then %>taleo_upgrade.asp<% Else %><%="../director.asp?m=1&u=" & server.urlencode("https://bacfhrs.taleo.net/servlets/CareerSection?art_ip_action=FlowDispatcher&flowTypeNo=3&alt=1&art_servlet_language=en&csNo=2") %><% End If%>"<% If Not taleo_upgrade Then %> target="_blank"<% End If%> class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" style="margin: 3px 0px 0px 0px;" title="Manage Your Profile">Manage Your Profile<span class="ada-label">If you have any difficulties, refer to above alternatives.</span></a>
+<a href="<% If taleo_upgrade Or after_taleo_upgrade Then %>manage_your_profile.asp<% Else %><%="../profilerd.aspx?" & server.urlencode("https://bacfhrs.taleo.net/servlets/CareerSection?art_ip_action=FlowDispatcher&flowTypeNo=3&alt=1&art_servlet_language=en&csNo=2") %><% End If%>"<% If Not taleo_upgrade Then %> target="_blank"<% End If%> class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" style="margin: 3px 0px 0px 0px;" title="Manage Your Profile<% If Not taleo_upgrade Then %>. Link opens a new window.<% End If%>">Manage Your Profile<span class="ada-label">If you have any difficulties, refer to above alternatives.</span></a>
 <p style="margin: 3px 0px 0px 0px;">Create or update your existing candidate profile.</p>
 </div>
 							</td>
