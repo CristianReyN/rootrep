@@ -1,5 +1,5 @@
 <%
-Response.Redirect("../campusrecruiting/career_fit_tool.asp")
+Response.Redirect("../campusrecruiting/")
 %>
 <!-- #include file="../Includes/compass.asp" -->
 <% Response.Buffer=True 

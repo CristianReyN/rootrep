@@ -2,7 +2,7 @@
 	<name>Corporate Staff and Support</name>
 	<careerlist>
 		<career>
-			<name>Corporate Audit Rotational Program</name>
+			<name>Corporate Audit Management Associate Program (CAMAP)</name>
 			<link>/campusrecruiting/up_us_carp.asp</link>
 			<answerlist>
 				<answer weight="1">5</answer>
@@ -1243,29 +1243,6 @@
 				<answer weight="1">53</answer>
 				<answer weight="1">56</answer>
 				<answer weight="1">57</answer>
-			</answerlist>
-		</career>
-		<career>
-			<name>Global Middle Office</name>
-			<link>/campusrecruiting/ui_emea_gmo.asp</link>
-			<answerlist>
-				<answer weight="1">5</answer>
-				<answer weight="100">6</answer>
-				<answer weight="25">9</answer>
-				<answer weight="25">11</answer>
-				<answer weight="1">12</answer>
-				<answer weight="1">14</answer>
-				<answer weight="1">17</answer>
-				<answer weight="1">19</answer>
-				<answer weight="1">20</answer>
-				<answer weight="1">24</answer>
-				<answer weight="1">26</answer>
-				<answer weight="1">28</answer>
-				<answer weight="50">39</answer>
-				<answer weight="50">41</answer>
-				<answer weight="1">45</answer>
-				<answer weight="1">53</answer>
-				<answer weight="1">56</answer>
 			</answerlist>
 		</career>
 		<career>
