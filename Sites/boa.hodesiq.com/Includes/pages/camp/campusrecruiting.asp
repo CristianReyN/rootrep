@@ -5,6 +5,7 @@
 				<script language="JavaScript1.2" type="text/javascript">
 //<!--
 function hover(ref, classRef) { eval(ref).className = classRef; }
+requiredMajorVersion = 8;
 hasRequestedVersion = DetectFlashVer(8, 0, 8);
 if ( hasRequestedVersion ) {
 	document.write('<a class="auraltext" href="#skipflash" onFocus="hover(this,\'show-tab\');" onblur="hover(this,\'auraltext\');" title="Skip Flash content">Skip Flash content<\/a>');

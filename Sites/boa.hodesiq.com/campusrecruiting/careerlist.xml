@@ -1,0 +1,1730 @@
+<group>
+	<name>Corporate Staff and Support</name>
+	<careerlist>
+		<career>
+			<name>Corporate Audit Rotational Program</name>
+			<link>/campusrecruiting/up_us_carp.asp</link>
+			<answerlist>
+				<answer weight="1">5</answer>
+				<answer weight="100">6</answer>
+				<answer weight="100">7</answer>
+				<answer weight="25">9</answer>
+				<answer weight="25">10</answer>
+				<answer weight="25">11</answer>
+				<answer weight="1">13</answer>
+				<answer weight="1">14</answer>
+				<answer weight="1">15</answer>
+				<answer weight="1">19</answer>
+				<answer weight="1">27</answer>
+				<answer weight="50">33</answer>
+				<answer weight="50">34</answer>
+				<answer weight="50">41</answer>
+				<answer weight="1">42</answer>
+				<answer weight="1">55</answer>
+				<answer weight="1">56</answer>
+				<answer weight="1">59</answer>
+				<answer weight="1">60</answer>
+				<answer weight="1">61</answer>
+			</answerlist>
+		</career>
+		<career>
+			<name>GWIM Credit Risk Management Program</name>
+			<link>/campusrecruiting/up_us_gwim_crmp.asp</link>
+			<answerlist>
+				<answer weight="1">5</answer>
+				<answer weight="100">6</answer>
+				<answer weight="100">7</answer>
+				<answer weight="25">9</answer>
+				<answer weight="1">13</answer>
+				<answer weight="1">14</answer>
+				<answer weight="1">15</answer>
+				<answer weight="1">19</answer>
+				<answer weight="1">20</answer>
+				<answer weight="50">33</answer>
+				<answer weight="50">34</answer>
+				<answer weight="50">38</answer>
+				<answer weight="1">42</answer>
+				<answer weight="1">53</answer>
+				<answer weight="1">56</answer>
+				<answer weight="1">60</answer>
+			</answerlist>
+		</career>
+		<career>
+			<name>Corporate Treasury Associate Program</name>
+			<link>/campusrecruiting/up_us_ctap.asp</link>
+			<answerlist>
+				<answer weight="1">3</answer>
+				<answer weight="1">4</answer>
+				<answer weight="1">5</answer>
+				<answer weight="100">6</answer>
+				<answer weight="25">10</answer>
+				<answer weight="25">11</answer>
+				<answer weight="1">12</answer>
+				<answer weight="1">14</answer>
+				<answer weight="1">15</answer>
+				<answer weight="1">20</answer>
+				<answer weight="50">33</answer>
+				<answer weight="1">43</answer>
+				<answer weight="1">53</answer>
+				<answer weight="1">55</answer>
+				<answer weight="1">56</answer>
+			</answerlist>
+		</career>
+		<career>
+			<name>Finance Management Associate Program</name>
+			<link>/campusrecruiting/up_us_fmap.asp</link>
+			<answerlist>
+				<answer weight="1">3</answer>
+				<answer weight="1">4</answer>
+				<answer weight="1">5</answer>
+				<answer weight="100">6</answer>
+				<answer weight="25">10</answer>
+				<answer weight="25">11</answer>
+				<answer weight="1">12</answer>
+				<answer weight="1">14</answer>
+				<answer weight="1">15</answer>
+				<answer weight="50">33</answer>
+				<answer weight="50">34</answer>
+				<answer weight="1">43</answer>
+				<answer weight="1">53</answer>
+				<answer weight="1">55</answer>
+				<answer weight="1">56</answer>
+			</answerlist>
+		</career>
+		<career>
+			<name>LaSalle Global Trust Services Associate Program</name>
+			<link>/campusrecruiting/up_us_lsgtsap.asp</link>
+			<answerlist>
+				<answer weight="1">3</answer>
+				<answer weight="1">4</answer>
+				<answer weight="1">5</answer>
+				<answer weight="100">6</answer>
+				<answer weight="25">10</answer>
+				<answer weight="25">11</answer>
+				<answer weight="1">12</answer>
+				<answer weight="1">14</answer>
+				<answer weight="1">15</answer>
+				<answer weight="1">20</answer>
+				<answer weight="1">24</answer>
+				<answer weight="1">28</answer>
+				<answer weight="50">36</answer>
+				<answer weight="1">43</answer>
+				<answer weight="1">53</answer>
+				<answer weight="1">54</answer>
+				<answer weight="1">55</answer>
+				<answer weight="1">56</answer>
+				<answer weight="1">57</answer>
+				<answer weight="1">60</answer>
+			</answerlist>
+		</career>
+		<career>
+			<name>Global Risk Management Associate Program</name>
+			<link>/campusrecruiting/up_us_grmap.asp</link>
+			<answerlist>
+				<answer weight="1">5</answer>
+				<answer weight="100">6</answer>
+				<answer weight="100">7</answer>
+				<answer weight="25">9</answer>
+				<answer weight="25">10</answer>
+				<answer weight="25">11</answer>
+				<answer weight="1">13</answer>
+				<answer weight="1">14</answer>
+				<answer weight="1">15</answer>
+				<answer weight="1">16</answer>
+				<answer weight="1">19</answer>
+				<answer weight="1">20</answer>
+				<answer weight="1">23</answer>
+				<answer weight="1">24</answer>
+				<answer weight="1">25</answer>
+				<answer weight="50">33</answer>
+				<answer weight="50">34</answer>
+				<answer weight="50">41</answer>
+				<answer weight="1">42</answer>
+				<answer weight="1">53</answer>
+				<answer weight="1">56</answer>
+				<answer weight="1">60</answer>
+			</answerlist>
+		</career>
+		<career>
+			<name>Global Human Resources Leadership and Development Program</name>
+			<link>/campusrecruiting/gp_us_ghrldp.asp</link>
+			<answerlist>
+				<answer weight="1">1</answer>
+				<answer weight="1">5</answer>
+				<answer weight="100">7</answer>
+				<answer weight="25">9</answer>
+				<answer weight="25">10</answer>
+				<answer weight="25">11</answer>
+				<answer weight="1">12</answer>
+				<answer weight="1">31</answer>
+				<answer weight="50">33</answer>
+				<answer weight="50">34</answer>
+				<answer weight="50">35</answer>
+				<answer weight="50">36</answer>
+				<answer weight="50">37</answer>
+				<answer weight="50">38</answer>
+				<answer weight="50">41</answer>
+				<answer weight="1">44</answer>
+				<answer weight="1">53</answer>
+				<answer weight="1">54</answer>
+				<answer weight="1">55</answer>
+				<answer weight="1">56</answer>
+				<answer weight="1">57</answer>
+			</answerlist>
+		</career>
+		<career>
+			<name>Quantitative Management Associate Program</name>
+			<link>/campusrecruiting/up_us_qmap.asp</link>
+			<answerlist>
+				<answer weight="1">5</answer>
+				<answer weight="100">6</answer>
+				<answer weight="100">7</answer>
+				<answer weight="25">9</answer>
+				<answer weight="25">10</answer>
+				<answer weight="1">12</answer>
+				<answer weight="1">17</answer>
+				<answer weight="1">18</answer>
+				<answer weight="1">24</answer>
+				<answer weight="1">27</answer>
+				<answer weight="1">28</answer>
+				<answer weight="50">33</answer>
+				<answer weight="50">34</answer>
+				<answer weight="50">41</answer>
+				<answer weight="1">42</answer>
+				<answer weight="1">54</answer>
+				<answer weight="1">56</answer>
+				<answer weight="1">61</answer>
+			</answerlist>
+		</career>
+		<career>
+			<name>Supply Chain Management - Management Associate Program</name>
+			<link>/campusrecruiting/up_us_scmap.asp</link>
+			<answerlist>
+				<answer weight="1">3</answer>
+				<answer weight="1">4</answer>
+				<answer weight="1">5</answer>
+				<answer weight="100">6</answer>
+				<answer weight="25">10</answer>
+				<answer weight="25">11</answer>
+				<answer weight="1">12</answer>
+				<answer weight="1">21</answer>
+				<answer weight="50">33</answer>
+				<answer weight="1">45</answer>
+				<answer weight="1">53</answer>
+				<answer weight="1">55</answer>
+				<answer weight="1">56</answer>
+			</answerlist>
+		</career>
+		<career>
+			<name>Global Marketing & Corporate Affairs</name>
+			<link>/marketing/</link>
+			<answerlist>
+				<answer weight="1">2</answer>
+				<answer weight="1">5</answer>
+				<answer weight="100">7</answer>
+				<answer weight="25">11</answer>
+				<answer weight="1">12</answer>
+				<answer weight="1">13</answer>
+				<answer weight="1">19</answer>
+				<answer weight="1">29</answer>
+				<answer weight="1">30</answer>
+				<answer weight="50">33</answer>
+				<answer weight="50">34</answer>
+				<answer weight="1">44</answer>
+				<answer weight="1">55</answer>
+				<answer weight="1">56</answer>
+				<answer weight="1">57</answer>
+			</answerlist>
+		</career>
+		<career>
+			<name>Corporate Workplace Analyst</name>
+			<link>/campusrecruiting/up_us_cwap.asp</link>
+			<answerlist>
+				<answer weight="1">3</answer>
+				<answer weight="1">4</answer>
+				<answer weight="1">5</answer>
+				<answer weight="100">6</answer>
+				<answer weight="25">9</answer>
+				<answer weight="25">11</answer>
+				<answer weight="1">12</answer>
+				<answer weight="1">13</answer>
+				<answer weight="1">14</answer>
+				<answer weight="1">15</answer>
+				<answer weight="1">32</answer>
+				<answer weight="50">33</answer>
+				<answer weight="1">43</answer>
+				<answer weight="1">53</answer>
+				<answer weight="1">55</answer>
+				<answer weight="1">56</answer>
+				<answer weight="1">57</answer>
+				<answer weight="1">58</answer>
+				<answer weight="1">62</answer>
+			</answerlist>
+		</career>
+		<career>
+			<name>Corporate Workplace MBA Senior Analyst</name>
+			<link>/campusrecruiting/gp_us_cw_mba_sa.asp</link>
+			<answerlist>
+				<answer weight="1">3</answer>
+				<answer weight="1">4</answer>
+				<answer weight="1">5</answer>
+				<answer weight="100">7</answer>
+				<answer weight="100">8</answer>
+				<answer weight="25">9</answer>
+				<answer weight="25">11</answer>
+				<answer weight="1">12</answer>
+				<answer weight="1">13</answer>
+				<answer weight="1">14</answer>
+				<answer weight="1">15</answer>
+				<answer weight="1">32</answer>
+				<answer weight="50">33</answer>
+				<answer weight="1">43</answer>
+				<answer weight="1">53</answer>
+				<answer weight="1">55</answer>
+				<answer weight="1">56</answer>
+				<answer weight="1">57</answer>
+				<answer weight="1">58</answer>
+				<answer weight="1">62</answer>
+			</answerlist>
+		</career>
+		<career>
+			<name>Quality and Productivity Analyst</name>
+			<link>/campusrecruiting/up_us_qpap.asp</link>
+			<answerlist>
+				<answer weight="1">1</answer>
+				<answer weight="1">3</answer>
+				<answer weight="1">4</answer>
+				<answer weight="1">5</answer>
+				<answer weight="100">6</answer>
+				<answer weight="25">9</answer>
+				<answer weight="25">11</answer>
+				<answer weight="1">12</answer>
+				<answer weight="1">14</answer>
+				<answer weight="1">16</answer>
+				<answer weight="1">18</answer>
+				<answer weight="1">19</answer>
+				<answer weight="1">22</answer>
+				<answer weight="1">28</answer>
+				<answer weight="50">33</answer>
+				<answer weight="50">34</answer>
+				<answer weight="1">45</answer>
+				<answer weight="1">46</answer>
+				<answer weight="1">53</answer>
+				<answer weight="1">55</answer>
+				<answer weight="1">56</answer>
+				<answer weight="1">57</answer>
+				<answer weight="1">58</answer>
+				<answer weight="1">59</answer>
+			</answerlist>
+		</career>
+		<career>
+			<name>Quality and Productivity MBA Consultant</name>
+			<link>/campusrecruiting/gp_us_qp_mbac.asp</link>
+			<answerlist>
+				<answer weight="1">1</answer>
+				<answer weight="1">3</answer>
+				<answer weight="1">4</answer>
+				<answer weight="1">5</answer>
+				<answer weight="100">7</answer>
+				<answer weight="100">8</answer>
+				<answer weight="25">9</answer>
+				<answer weight="25">11</answer>
+				<answer weight="1">12</answer>
+				<answer weight="1">14</answer>
+				<answer weight="1">16</answer>
+				<answer weight="1">18</answer>
+				<answer weight="1">19</answer>
+				<answer weight="1">22</answer>
+				<answer weight="1">28</answer>
+				<answer weight="50">33</answer>
+				<answer weight="50">34</answer>
+				<answer weight="1">45</answer>
+				<answer weight="1">46</answer>
+				<answer weight="1">53</answer>
+				<answer weight="1">55</answer>
+				<answer weight="1">56</answer>
+				<answer weight="1">57</answer>
+				<answer weight="1">58</answer>
+				<answer weight="1">59</answer>
+			</answerlist>
+		</career>
+		<career>
+			<name>Global Information Protection Business Continuity</name>
+			<link>/campusrecruiting/up_us_gipbc.asp</link>
+			<answerlist>
+				<answer weight="1">3</answer>
+				<answer weight="1">4</answer>
+				<answer weight="1">5</answer>
+				<answer weight="100">6</answer>
+				<answer weight="25">9</answer>
+				<answer weight="25">11</answer>
+				<answer weight="1">12</answer>
+				<answer weight="1">16</answer>
+				<answer weight="1">18</answer>
+				<answer weight="1">27</answer>
+				<answer weight="1">28</answer>
+				<answer weight="50">33</answer>
+				<answer weight="50">38</answer>
+				<answer weight="1">46</answer>
+				<answer weight="1">55</answer>
+				<answer weight="1">56</answer>
+				<answer weight="1">58</answer>
+			</answerlist>
+		</career>
+		<career>
+			<name>Network Computing Group Leader - Development Rotational Program</name>
+			<link>/campusrecruiting/up_us_ncgl_drp.asp</link>
+			<answerlist>
+				<answer weight="1">3</answer>
+				<answer weight="1">4</answer>
+				<answer weight="1">5</answer>
+				<answer weight="100">6</answer>
+				<answer weight="25">9</answer>
+				<answer weight="25">10</answer>
+				<answer weight="25">11</answer>
+				<answer weight="1">12</answer>
+				<answer weight="1">18</answer>
+				<answer weight="1">19</answer>
+				<answer weight="1">27</answer>
+				<answer weight="1">28</answer>
+				<answer weight="50">33</answer>
+				<answer weight="50">34</answer>
+				<answer weight="50">38</answer>
+				<answer weight="1">46</answer>
+				<answer weight="1">55</answer>
+				<answer weight="1">56</answer>
+				<answer weight="1">58</answer>
+				<answer weight="1">61</answer>
+			</answerlist>
+		</career>
+		<career>
+			<name>Network Computing Group - Mainframe Technologies Program</name>
+			<link>/campusrecruiting/up_us_ncg_mtp.asp</link>
+			<answerlist>
+				<answer weight="1">3</answer>
+				<answer weight="1">4</answer>
+				<answer weight="1">5</answer>
+				<answer weight="100">6</answer>
+				<answer weight="25">9</answer>
+				<answer weight="25">11</answer>
+				<answer weight="1">12</answer>
+				<answer weight="1">18</answer>
+				<answer weight="1">27</answer>
+				<answer weight="50">33</answer>
+				<answer weight="50">35</answer>
+				<answer weight="1">46</answer>
+				<answer weight="1">55</answer>
+				<answer weight="1">58</answer>
+				<answer weight="1">61</answer>
+			</answerlist>
+		</career>
+		<career>
+			<name>Technology MBA Leadership Rotational Program</name>
+			<link>/campusrecruiting/gp_us_tmba_lrp.asp</link>
+			<answerlist>
+				<answer weight="1">3</answer>
+				<answer weight="1">4</answer>
+				<answer weight="1">5</answer>
+				<answer weight="100">8</answer>
+				<answer weight="25">9</answer>
+				<answer weight="25">10</answer>
+				<answer weight="25">11</answer>
+				<answer weight="1">12</answer>
+				<answer weight="1">16</answer>
+				<answer weight="1">18</answer>
+				<answer weight="1">19</answer>
+				<answer weight="1">22</answer>
+				<answer weight="1">27</answer>
+				<answer weight="1">28</answer>
+				<answer weight="50">33</answer>
+				<answer weight="50">34</answer>
+				<answer weight="50">35</answer>
+				<answer weight="50">38</answer>
+				<answer weight="50">41</answer>
+				<answer weight="1">46</answer>
+				<answer weight="1">53</answer>
+				<answer weight="1">55</answer>
+				<answer weight="1">56</answer>
+				<answer weight="1">58</answer>
+				<answer weight="1">61</answer>
+			</answerlist>
+		</career>
+	</careerlist>
+</group>
+
+<group>
+	<name>Global Corporate and Investment Banking</name>
+	<careerlist>
+		<career>
+			<name>Global Commercial Banking and Global Product Solutions MBA Leadership Program</name>
+			<link>/campusrecruiting/gp_us_gcb_gps_mba_lp.asp</link>
+			<answerlist>
+				<answer weight="1">2</answer>
+				<answer weight="1">4</answer>
+				<answer weight="1">5</answer>
+				<answer weight="100">7</answer>
+				<answer weight="100">8</answer>
+				<answer weight="25">9</answer>
+				<answer weight="25">10</answer>
+				<answer weight="25">11</answer>
+				<answer weight="1">12</answer>
+				<answer weight="1">13</answer>
+				<answer weight="1">14</answer>
+				<answer weight="1">15</answer>
+				<answer weight="1">16</answer>
+				<answer weight="1">17</answer>
+				<answer weight="1">19</answer>
+				<answer weight="1">20</answer>
+				<answer weight="1">24</answer>
+				<answer weight="1">26</answer>
+				<answer weight="1">32</answer>
+				<answer weight="50">33</answer>
+				<answer weight="50">34</answer>
+				<answer weight="50">35</answer>
+				<answer weight="50">36</answer>
+				<answer weight="50">37</answer>
+				<answer weight="50">38</answer>
+				<answer weight="50">41</answer>
+				<answer weight="1">52</answer>
+				<answer weight="1">53</answer>
+				<answer weight="1">55</answer>
+				<answer weight="1">56</answer>
+				<answer weight="1">57</answer>
+				<answer weight="1">59</answer>
+				<answer weight="1">60</answer>
+				<answer weight="1">62</answer>
+			</answerlist>
+		</career>
+		<career>
+			<name>Corporate Debt Products Analyst</name>
+			<link>/campusrecruiting/up_us_cdpa.asp</link>
+			<answerlist>
+				<answer weight="1">3</answer>
+				<answer weight="1">4</answer>
+				<answer weight="1">5</answer>
+				<answer weight="100">6</answer>
+				<answer weight="25">9</answer>
+				<answer weight="25">11</answer>
+				<answer weight="1">12</answer>
+				<answer weight="1">13</answer>
+				<answer weight="1">14</answer>
+				<answer weight="1">15</answer>
+				<answer weight="1">19</answer>
+				<answer weight="1">20</answer>
+				<answer weight="1">24</answer>
+				<answer weight="50">33</answer>
+				<answer weight="50">34</answer>
+				<answer weight="50">36</answer>
+				<answer weight="50">37</answer>
+				<answer weight="50">38</answer>
+				<answer weight="50">41</answer>
+				<answer weight="1">42</answer>
+				<answer weight="1">52</answer>
+				<answer weight="1">53</answer>
+				<answer weight="1">54</answer>
+				<answer weight="1">55</answer>
+				<answer weight="1">56</answer>
+				<answer weight="1">57</answer>
+				<answer weight="1">59</answer>
+				<answer weight="1">60</answer>
+			</answerlist>
+		</career>
+		<career>
+			<name>Corporate Debt Products Senior Analyst</name>
+			<link>/campusrecruiting/gp_us_cdpsa.asp</link>
+			<answerlist>
+				<answer weight="1">3</answer>
+				<answer weight="1">4</answer>
+				<answer weight="1">5</answer>
+				<answer weight="100">7</answer>
+				<answer weight="100">8</answer>
+				<answer weight="25">9</answer>
+				<answer weight="25">11</answer>
+				<answer weight="1">12</answer>
+				<answer weight="1">13</answer>
+				<answer weight="1">14</answer>
+				<answer weight="1">15</answer>
+				<answer weight="1">19</answer>
+				<answer weight="1">20</answer>
+				<answer weight="1">24</answer>
+				<answer weight="50">33</answer>
+				<answer weight="50">34</answer>
+				<answer weight="50">36</answer>
+				<answer weight="50">37</answer>
+				<answer weight="50">38</answer>
+				<answer weight="50">41</answer>
+				<answer weight="1">42</answer>
+				<answer weight="1">52</answer>
+				<answer weight="1">53</answer>
+				<answer weight="1">54</answer>
+				<answer weight="1">55</answer>
+				<answer weight="1">56</answer>
+				<answer weight="1">57</answer>
+				<answer weight="1">59</answer>
+				<answer weight="1">60</answer>
+			</answerlist>
+		</career>
+		<career>
+			<name>Commercial Real Estate Banking Analyst Development Program</name>
+			<link>/campusrecruiting/up_us_crebadp.asp</link>
+			<answerlist>
+				<answer weight="1">2</answer>
+				<answer weight="1">4</answer>
+				<answer weight="1">5</answer>
+				<answer weight="100">6</answer>
+				<answer weight="25">9</answer>
+				<answer weight="25">10</answer>
+				<answer weight="25">11</answer>
+				<answer weight="1">12</answer>
+				<answer weight="1">13</answer>
+				<answer weight="1">14</answer>
+				<answer weight="1">15</answer>
+				<answer weight="1">16</answer>
+				<answer weight="1">19</answer>
+				<answer weight="1">20</answer>
+				<answer weight="1">24</answer>
+				<answer weight="1">26</answer>
+				<answer weight="1">32</answer>
+				<answer weight="50">33</answer>
+				<answer weight="50">34</answer>
+				<answer weight="50">35</answer>
+				<answer weight="50">36</answer>
+				<answer weight="50">37</answer>
+				<answer weight="50">38</answer>
+				<answer weight="50">41</answer>
+				<answer weight="1">52</answer>
+				<answer weight="1">53</answer>
+				<answer weight="1">55</answer>
+				<answer weight="1">56</answer>
+				<answer weight="1">57</answer>
+				<answer weight="1">59</answer>
+				<answer weight="1">60</answer>
+				<answer weight="1">62</answer>
+			</answerlist>
+		</career>
+		<career>
+			<name>Global Commercial Banking and Global Product Solutions Analyst Program</name>
+			<link>/campusrecruiting/up_us_gcbgpsap.asp</link>
+			<answerlist>
+				<answer weight="1">2</answer>
+				<answer weight="1">4</answer>
+				<answer weight="1">5</answer>
+				<answer weight="100">6</answer>
+				<answer weight="25">9</answer>
+				<answer weight="25">10</answer>
+				<answer weight="25">11</answer>
+				<answer weight="1">12</answer>
+				<answer weight="1">13</answer>
+				<answer weight="1">14</answer>
+				<answer weight="1">15</answer>
+				<answer weight="1">16</answer>
+				<answer weight="1">19</answer>
+				<answer weight="1">20</answer>
+				<answer weight="1">23</answer>
+				<answer weight="1">24</answer>
+				<answer weight="1">26</answer>
+				<answer weight="1">30</answer>
+				<answer weight="50">33</answer>
+				<answer weight="50">34</answer>
+				<answer weight="50">35</answer>
+				<answer weight="50">36</answer>
+				<answer weight="50">37</answer>
+				<answer weight="50">38</answer>
+				<answer weight="50">41</answer>
+				<answer weight="1">52</answer>
+				<answer weight="1">53</answer>
+				<answer weight="1">55</answer>
+				<answer weight="1">56</answer>
+				<answer weight="1">57</answer>
+				<answer weight="1">59</answer>
+				<answer weight="1">60</answer>
+			</answerlist>
+		</career>
+		<career>
+			<name>Capital Markets Analyst</name>
+			<link>/campusrecruiting/up_us_cma.asp</link>
+			<answerlist>
+				<answer weight="1">4</answer>
+				<answer weight="1">5</answer>
+				<answer weight="100">6</answer>
+				<answer weight="25">9</answer>
+				<answer weight="25">11</answer>
+				<answer weight="1">12</answer>
+				<answer weight="1">13</answer>
+				<answer weight="1">14</answer>
+				<answer weight="1">15</answer>
+				<answer weight="1">16</answer>
+				<answer weight="1">17</answer>
+				<answer weight="1">19</answer>
+				<answer weight="1">20</answer>
+				<answer weight="1">24</answer>
+				<answer weight="1">27</answer>
+				<answer weight="1">28</answer>
+				<answer weight="50">33</answer>
+				<answer weight="50">34</answer>
+				<answer weight="50">35</answer>
+				<answer weight="50">36</answer>
+				<answer weight="50">41</answer>
+				<answer weight="1">43</answer>
+				<answer weight="1">50</answer>
+				<answer weight="1">53</answer>
+				<answer weight="1">54</answer>
+				<answer weight="1">55</answer>
+				<answer weight="1">56</answer>
+				<answer weight="1">57</answer>
+				<answer weight="1">60</answer>
+			</answerlist>
+		</career>
+		<career>
+			<name>Capital Markets Associate</name>
+			<link>/campusrecruiting/gp_us_cma.asp</link>
+			<answerlist>
+				<answer weight="1">4</answer>
+				<answer weight="1">5</answer>
+				<answer weight="100">7</answer>
+				<answer weight="100">8</answer>
+				<answer weight="25">9</answer>
+				<answer weight="25">11</answer>
+				<answer weight="1">12</answer>
+				<answer weight="1">13</answer>
+				<answer weight="1">14</answer>
+				<answer weight="1">15</answer>
+				<answer weight="1">16</answer>
+				<answer weight="1">17</answer>
+				<answer weight="1">19</answer>
+				<answer weight="1">20</answer>
+				<answer weight="1">24</answer>
+				<answer weight="1">27</answer>
+				<answer weight="1">28</answer>
+				<answer weight="50">33</answer>
+				<answer weight="50">34</answer>
+				<answer weight="50">35</answer>
+				<answer weight="50">36</answer>
+				<answer weight="50">41</answer>
+				<answer weight="1">43</answer>
+				<answer weight="1">50</answer>
+				<answer weight="1">53</answer>
+				<answer weight="1">54</answer>
+				<answer weight="1">55</answer>
+				<answer weight="1">56</answer>
+				<answer weight="1">57</answer>
+				<answer weight="1">60</answer>
+			</answerlist>
+		</career>
+		<career>
+			<name>Global Investment Banking Analyst</name>
+			<link>/campusrecruiting/up_us_giba.asp</link>
+			<answerlist>
+				<answer weight="1">4</answer>
+				<answer weight="1">5</answer>
+				<answer weight="100">6</answer>
+				<answer weight="25">9</answer>
+				<answer weight="25">11</answer>
+				<answer weight="1">12</answer>
+				<answer weight="1">13</answer>
+				<answer weight="1">14</answer>
+				<answer weight="1">15</answer>
+				<answer weight="1">16</answer>
+				<answer weight="1">17</answer>
+				<answer weight="1">19</answer>
+				<answer weight="1">20</answer>
+				<answer weight="1">24</answer>
+				<answer weight="1">27</answer>
+				<answer weight="1">28</answer>
+				<answer weight="50">33</answer>
+				<answer weight="50">34</answer>
+				<answer weight="50">35</answer>
+				<answer weight="50">36</answer>
+				<answer weight="50">38</answer>
+				<answer weight="50">41</answer>
+				<answer weight="1">43</answer>
+				<answer weight="1">50</answer>
+				<answer weight="1">53</answer>
+				<answer weight="1">54</answer>
+				<answer weight="1">55</answer>
+				<answer weight="1">56</answer>
+				<answer weight="1">57</answer>
+				<answer weight="1">60</answer>
+			</answerlist>
+		</career>
+		<career>
+			<name>Global Investment Banking Associate</name>
+			<link>/campusrecruiting/gp_us_giba.asp</link>
+			<answerlist>
+				<answer weight="1">4</answer>
+				<answer weight="1">5</answer>
+				<answer weight="100">7</answer>
+				<answer weight="100">8</answer>
+				<answer weight="25">9</answer>
+				<answer weight="25">11</answer>
+				<answer weight="1">12</answer>
+				<answer weight="1">13</answer>
+				<answer weight="1">14</answer>
+				<answer weight="1">15</answer>
+				<answer weight="1">16</answer>
+				<answer weight="1">17</answer>
+				<answer weight="1">19</answer>
+				<answer weight="1">20</answer>
+				<answer weight="1">24</answer>
+				<answer weight="1">27</answer>
+				<answer weight="1">28</answer>
+				<answer weight="50">33</answer>
+				<answer weight="50">34</answer>
+				<answer weight="50">35</answer>
+				<answer weight="50">36</answer>
+				<answer weight="50">38</answer>
+				<answer weight="50">41</answer>
+				<answer weight="1">43</answer>
+				<answer weight="1">50</answer>
+				<answer weight="1">53</answer>
+				<answer weight="1">54</answer>
+				<answer weight="1">55</answer>
+				<answer weight="1">56</answer>
+				<answer weight="1">57</answer>
+				<answer weight="1">60</answer>
+			</answerlist>
+		</career>
+		<career>
+			<name>Public Finance Analyst</name>
+			<link>/campusrecruiting/up_us_pfa.asp</link>
+			<answerlist>
+				<answer weight="1">4</answer>
+				<answer weight="1">5</answer>
+				<answer weight="100">6</answer>
+				<answer weight="25">9</answer>
+				<answer weight="25">11</answer>
+				<answer weight="1">12</answer>
+				<answer weight="1">13</answer>
+				<answer weight="1">14</answer>
+				<answer weight="1">15</answer>
+				<answer weight="1">16</answer>
+				<answer weight="1">17</answer>
+				<answer weight="1">19</answer>
+				<answer weight="1">20</answer>
+				<answer weight="1">24</answer>
+				<answer weight="1">27</answer>
+				<answer weight="1">28</answer>
+				<answer weight="50">34</answer>
+				<answer weight="50">35</answer>
+				<answer weight="50">41</answer>
+				<answer weight="1">43</answer>
+				<answer weight="1">50</answer>
+				<answer weight="1">53</answer>
+				<answer weight="1">54</answer>
+				<answer weight="1">55</answer>
+				<answer weight="1">56</answer>
+				<answer weight="1">57</answer>
+				<answer weight="1">60</answer>
+			</answerlist>
+		</career>
+		<career>
+			<name>Public Finance Associate</name>
+			<link>/campusrecruiting/gp_us_pfa.asp</link>
+			<answerlist>
+				<answer weight="1">4</answer>
+				<answer weight="1">5</answer>
+				<answer weight="100">7</answer>
+				<answer weight="100">8</answer>
+				<answer weight="25">9</answer>
+				<answer weight="25">11</answer>
+				<answer weight="1">12</answer>
+				<answer weight="1">13</answer>
+				<answer weight="1">14</answer>
+				<answer weight="1">15</answer>
+				<answer weight="1">16</answer>
+				<answer weight="1">17</answer>
+				<answer weight="1">19</answer>
+				<answer weight="1">20</answer>
+				<answer weight="1">24</answer>
+				<answer weight="1">27</answer>
+				<answer weight="1">28</answer>
+				<answer weight="50">34</answer>
+				<answer weight="50">35</answer>
+				<answer weight="50">41</answer>
+				<answer weight="1">43</answer>
+				<answer weight="1">50</answer>
+				<answer weight="1">53</answer>
+				<answer weight="1">54</answer>
+				<answer weight="1">55</answer>
+				<answer weight="1">56</answer>
+				<answer weight="1">57</answer>
+				<answer weight="1">60</answer>
+			</answerlist>
+		</career>
+		<career>
+			<name>Research Analyst</name>
+			<link>/campusrecruiting/up_us_ra.asp</link>
+			<answerlist>
+				<answer weight="1">4</answer>
+				<answer weight="1">5</answer>
+				<answer weight="100">6</answer>
+				<answer weight="25">9</answer>
+				<answer weight="25">11</answer>
+				<answer weight="1">12</answer>
+				<answer weight="1">13</answer>
+				<answer weight="1">14</answer>
+				<answer weight="1">15</answer>
+				<answer weight="1">16</answer>
+				<answer weight="1">17</answer>
+				<answer weight="1">19</answer>
+				<answer weight="1">20</answer>
+				<answer weight="1">24</answer>
+				<answer weight="1">27</answer>
+				<answer weight="1">28</answer>
+				<answer weight="50">34</answer>
+				<answer weight="50">41</answer>
+				<answer weight="1">43</answer>
+				<answer weight="1">50</answer>
+				<answer weight="1">53</answer>
+				<answer weight="1">54</answer>
+				<answer weight="1">55</answer>
+				<answer weight="1">56</answer>
+				<answer weight="1">57</answer>
+				<answer weight="1">60</answer>
+			</answerlist>
+		</career>
+		<career>
+			<name>Research Associate</name>
+			<link>/campusrecruiting/gp_us_ra.asp</link>
+			<answerlist>
+				<answer weight="1">4</answer>
+				<answer weight="1">5</answer>
+				<answer weight="100">7</answer>
+				<answer weight="100">8</answer>
+				<answer weight="25">9</answer>
+				<answer weight="25">11</answer>
+				<answer weight="1">12</answer>
+				<answer weight="1">13</answer>
+				<answer weight="1">14</answer>
+				<answer weight="1">15</answer>
+				<answer weight="1">16</answer>
+				<answer weight="1">17</answer>
+				<answer weight="1">19</answer>
+				<answer weight="1">20</answer>
+				<answer weight="1">24</answer>
+				<answer weight="1">27</answer>
+				<answer weight="1">28</answer>
+				<answer weight="50">34</answer>
+				<answer weight="50">41</answer>
+				<answer weight="1">43</answer>
+				<answer weight="1">50</answer>
+				<answer weight="1">53</answer>
+				<answer weight="1">54</answer>
+				<answer weight="1">55</answer>
+				<answer weight="1">56</answer>
+				<answer weight="1">57</answer>
+				<answer weight="1">60</answer>
+			</answerlist>
+		</career>
+		<career>
+			<name>Sales and Trading Analyst</name>
+			<link>/campusrecruiting/up_us_sta.asp</link>
+			<answerlist>
+				<answer weight="1">4</answer>
+				<answer weight="1">5</answer>
+				<answer weight="100">6</answer>
+				<answer weight="25">9</answer>
+				<answer weight="25">11</answer>
+				<answer weight="1">12</answer>
+				<answer weight="1">13</answer>
+				<answer weight="1">14</answer>
+				<answer weight="1">15</answer>
+				<answer weight="1">16</answer>
+				<answer weight="1">17</answer>
+				<answer weight="1">19</answer>
+				<answer weight="1">20</answer>
+				<answer weight="1">24</answer>
+				<answer weight="1">27</answer>
+				<answer weight="1">28</answer>
+				<answer weight="50">33</answer>
+				<answer weight="50">34</answer>
+				<answer weight="50">41</answer>
+				<answer weight="1">43</answer>
+				<answer weight="1">50</answer>
+				<answer weight="1">53</answer>
+				<answer weight="1">55</answer>
+				<answer weight="1">56</answer>
+				<answer weight="1">60</answer>
+			</answerlist>
+		</career>
+		<career>
+			<name>Sales and Trading Associate</name>
+			<link>/campusrecruiting/gp_us_sta.asp</link>
+			<answerlist>
+				<answer weight="1">4</answer>
+				<answer weight="1">5</answer>
+				<answer weight="100">7</answer>
+				<answer weight="100">8</answer>
+				<answer weight="25">9</answer>
+				<answer weight="25">11</answer>
+				<answer weight="1">12</answer>
+				<answer weight="1">13</answer>
+				<answer weight="1">14</answer>
+				<answer weight="1">15</answer>
+				<answer weight="1">16</answer>
+				<answer weight="1">17</answer>
+				<answer weight="1">19</answer>
+				<answer weight="1">20</answer>
+				<answer weight="1">24</answer>
+				<answer weight="1">27</answer>
+				<answer weight="1">28</answer>
+				<answer weight="50">33</answer>
+				<answer weight="50">34</answer>
+				<answer weight="50">41</answer>
+				<answer weight="1">43</answer>
+				<answer weight="1">50</answer>
+				<answer weight="1">53</answer>
+				<answer weight="1">55</answer>
+				<answer weight="1">56</answer>
+				<answer weight="1">60</answer>
+			</answerlist>
+		</career>
+		<career>
+			<name>Global Markets Group Operations Rotational Program</name>
+			<link>/campusrecruiting/up_us_gmgorp.asp</link>
+			<answerlist>
+				<answer weight="1">1</answer>
+				<answer weight="1">3</answer>
+				<answer weight="1">5</answer>
+				<answer weight="100">6</answer>
+				<answer weight="25">9</answer>
+				<answer weight="25">10</answer>
+				<answer weight="25">11</answer>
+				<answer weight="1">12</answer>
+				<answer weight="1">14</answer>
+				<answer weight="1">15</answer>
+				<answer weight="1">16</answer>
+				<answer weight="1">19</answer>
+				<answer weight="1">20</answer>
+				<answer weight="1">22</answer>
+				<answer weight="1">28</answer>
+				<answer weight="50">33</answer>
+				<answer weight="50">34</answer>
+				<answer weight="50">36</answer>
+				<answer weight="50">41</answer>
+				<answer weight="1">43</answer>
+				<answer weight="1">45</answer>
+				<answer weight="1">53</answer>
+				<answer weight="1">54</answer>
+				<answer weight="1">56</answer>
+				<answer weight="1">58</answer>
+				<answer weight="1">59</answer>
+				<answer weight="1">60</answer>
+			</answerlist>
+		</career>
+		<career>
+			<name>Global Markets Technology Associate</name>
+			<link>/campusrecruiting/up_us_gmta.asp</link>
+			<answerlist>
+				<answer weight="1">3</answer>
+				<answer weight="1">4</answer>
+				<answer weight="1">5</answer>
+				<answer weight="100">6</answer>
+				<answer weight="25">9</answer>
+				<answer weight="25">11</answer>
+				<answer weight="1">12</answer>
+				<answer weight="1">18</answer>
+				<answer weight="1">27</answer>
+				<answer weight="1">28</answer>
+				<answer weight="50">33</answer>
+				<answer weight="50">34</answer>
+				<answer weight="50">36</answer>
+				<answer weight="50">39</answer>
+				<answer weight="1">46</answer>
+				<answer weight="1">50</answer>
+				<answer weight="1">53</answer>
+				<answer weight="1">54</answer>
+				<answer weight="1">55</answer>
+				<answer weight="1">56</answer>
+				<answer weight="1">57</answer>
+				<answer weight="1">58</answer>
+				<answer weight="1">60</answer>
+				<answer weight="1">61</answer>
+			</answerlist>
+		</career>
+		<career>
+			<name>Global Middle Office Rotational Program</name>
+			<link>/campusrecruiting/up_us_gmorp.asp</link>
+			<answerlist>
+				<answer weight="1">1</answer>
+				<answer weight="1">3</answer>
+				<answer weight="1">5</answer>
+				<answer weight="100">6</answer>
+				<answer weight="25">9</answer>
+				<answer weight="25">10</answer>
+				<answer weight="25">11</answer>
+				<answer weight="1">12</answer>
+				<answer weight="1">14</answer>
+				<answer weight="1">15</answer>
+				<answer weight="1">16</answer>
+				<answer weight="1">19</answer>
+				<answer weight="1">20</answer>
+				<answer weight="1">22</answer>
+				<answer weight="1">28</answer>
+				<answer weight="50">33</answer>
+				<answer weight="50">34</answer>
+				<answer weight="50">36</answer>
+				<answer weight="50">41</answer>
+				<answer weight="1">43</answer>
+				<answer weight="1">45</answer>
+				<answer weight="1">50</answer>
+				<answer weight="1">53</answer>
+				<answer weight="1">54</answer>
+				<answer weight="1">56</answer>
+				<answer weight="1">58</answer>
+			</answerlist>
+		</career>
+		<career>
+			<name>Global Treasury Operations Rotational Program</name>
+			<link>/campusrecruiting/up_us_gtorp.asp</link>
+			<answerlist>
+				<answer weight="1">1</answer>
+				<answer weight="1">3</answer>
+				<answer weight="1">5</answer>
+				<answer weight="100">6</answer>
+				<answer weight="25">9</answer>
+				<answer weight="25">10</answer>
+				<answer weight="25">11</answer>
+				<answer weight="1">12</answer>
+				<answer weight="1">14</answer>
+				<answer weight="1">15</answer>
+				<answer weight="1">16</answer>
+				<answer weight="1">19</answer>
+				<answer weight="1">20</answer>
+				<answer weight="1">22</answer>
+				<answer weight="1">28</answer>
+				<answer weight="50">33</answer>
+				<answer weight="50">34</answer>
+				<answer weight="50">35</answer>
+				<answer weight="50">41</answer>
+				<answer weight="1">43</answer>
+				<answer weight="1">45</answer>
+				<answer weight="1">53</answer>
+				<answer weight="1">54</answer>
+				<answer weight="1">56</answer>
+				<answer weight="1">58</answer>
+				<answer weight="1">59</answer>
+				<answer weight="1">60</answer>
+			</answerlist>
+		</career>
+		<career>
+			<name>Global Markets</name>
+			<link>/campusrecruiting/up_emea_gm.asp</link>
+			<answerlist>
+				<answer weight="1">4</answer>
+				<answer weight="100">6</answer>
+				<answer weight="100">7</answer>
+				<answer weight="100">8</answer>
+				<answer weight="25">9</answer>
+				<answer weight="25">11</answer>
+				<answer weight="1">12</answer>
+				<answer weight="1">14</answer>
+				<answer weight="1">17</answer>
+				<answer weight="1">19</answer>
+				<answer weight="1">20</answer>
+				<answer weight="1">24</answer>
+				<answer weight="1">26</answer>
+				<answer weight="1">28</answer>
+				<answer weight="50">39</answer>
+				<answer weight="50">41</answer>
+				<answer weight="1">50</answer>
+				<answer weight="1">51</answer>
+				<answer weight="1">53</answer>
+				<answer weight="1">54</answer>
+				<answer weight="1">55</answer>
+				<answer weight="1">56</answer>
+				<answer weight="1">57</answer>
+			</answerlist>
+		</career>
+		<career>
+			<name>Global Investment Banking</name>
+			<link>/campusrecruiting/gp_emea_gib.asp</link>
+			<answerlist>
+				<answer weight="1">4</answer>
+				<answer weight="100">6</answer>
+				<answer weight="100">7</answer>
+				<answer weight="100">8</answer>
+				<answer weight="25">9</answer>
+				<answer weight="25">11</answer>
+				<answer weight="1">12</answer>
+				<answer weight="1">14</answer>
+				<answer weight="1">17</answer>
+				<answer weight="1">19</answer>
+				<answer weight="1">20</answer>
+				<answer weight="1">24</answer>
+				<answer weight="1">26</answer>
+				<answer weight="1">28</answer>
+				<answer weight="1">32</answer>
+				<answer weight="50">39</answer>
+				<answer weight="50">41</answer>
+				<answer weight="1">50</answer>
+				<answer weight="1">53</answer>
+				<answer weight="1">54</answer>
+				<answer weight="1">55</answer>
+				<answer weight="1">56</answer>
+				<answer weight="1">57</answer>
+				<answer weight="1">62</answer>
+			</answerlist>
+		</career>
+		<career>
+			<name>Capital Markets</name>
+			<link>/campusrecruiting/gp_emea_cm.asp</link>
+			<answerlist>
+				<answer weight="1">4</answer>
+				<answer weight="100">6</answer>
+				<answer weight="100">7</answer>
+				<answer weight="100">8</answer>
+				<answer weight="25">9</answer>
+				<answer weight="25">11</answer>
+				<answer weight="1">12</answer>
+				<answer weight="1">14</answer>
+				<answer weight="1">17</answer>
+				<answer weight="1">19</answer>
+				<answer weight="1">20</answer>
+				<answer weight="1">24</answer>
+				<answer weight="1">26</answer>
+				<answer weight="1">28</answer>
+				<answer weight="50">39</answer>
+				<answer weight="50">41</answer>
+				<answer weight="1">50</answer>
+				<answer weight="1">53</answer>
+				<answer weight="1">54</answer>
+				<answer weight="1">55</answer>
+				<answer weight="1">56</answer>
+				<answer weight="1">57</answer>
+			</answerlist>
+		</career>
+		<career>
+			<name>Global Products Solutions</name>
+			<link>/campusrecruiting/ui_emea_gps.asp</link>
+			<answerlist>
+				<answer weight="1">4</answer>
+				<answer weight="100">6</answer>
+				<answer weight="25">9</answer>
+				<answer weight="25">11</answer>
+				<answer weight="1">12</answer>
+				<answer weight="1">14</answer>
+				<answer weight="1">17</answer>
+				<answer weight="1">19</answer>
+				<answer weight="1">20</answer>
+				<answer weight="1">24</answer>
+				<answer weight="1">26</answer>
+				<answer weight="1">28</answer>
+				<answer weight="50">39</answer>
+				<answer weight="50">41</answer>
+				<answer weight="1">42</answer>
+				<answer weight="1">50</answer>
+				<answer weight="1">53</answer>
+				<answer weight="1">54</answer>
+				<answer weight="1">55</answer>
+				<answer weight="1">56</answer>
+			</answerlist>
+		</career>
+		<career>
+			<name>Global Risk Management</name>
+			<link>/campusrecruiting/ui_emea_grm.asp</link>
+			<answerlist>
+				<answer weight="1">4</answer>
+				<answer weight="1">5</answer>
+				<answer weight="100">6</answer>
+				<answer weight="25">9</answer>
+				<answer weight="25">11</answer>
+				<answer weight="1">12</answer>
+				<answer weight="1">14</answer>
+				<answer weight="1">17</answer>
+				<answer weight="1">19</answer>
+				<answer weight="1">20</answer>
+				<answer weight="1">24</answer>
+				<answer weight="1">26</answer>
+				<answer weight="1">28</answer>
+				<answer weight="50">39</answer>
+				<answer weight="50">41</answer>
+				<answer weight="1">42</answer>
+				<answer weight="1">53</answer>
+				<answer weight="1">56</answer>
+				<answer weight="1">57</answer>
+			</answerlist>
+		</career>
+		<career>
+			<name>Global Middle Office</name>
+			<link>/campusrecruiting/ui_emea_gmo.asp</link>
+			<answerlist>
+				<answer weight="1">5</answer>
+				<answer weight="100">6</answer>
+				<answer weight="25">9</answer>
+				<answer weight="25">11</answer>
+				<answer weight="1">12</answer>
+				<answer weight="1">14</answer>
+				<answer weight="1">17</answer>
+				<answer weight="1">19</answer>
+				<answer weight="1">20</answer>
+				<answer weight="1">24</answer>
+				<answer weight="1">26</answer>
+				<answer weight="1">28</answer>
+				<answer weight="50">39</answer>
+				<answer weight="50">41</answer>
+				<answer weight="1">45</answer>
+				<answer weight="1">53</answer>
+				<answer weight="1">56</answer>
+			</answerlist>
+		</career>
+		<career>
+			<name>Technology</name>
+			<link>/campusrecruiting/ui_emea_tech.asp</link>
+			<answerlist>
+				<answer weight="1">3</answer>
+				<answer weight="1">5</answer>
+				<answer weight="100">6</answer>
+				<answer weight="25">9</answer>
+				<answer weight="25">11</answer>
+				<answer weight="1">12</answer>
+				<answer weight="1">14</answer>
+				<answer weight="1">17</answer>
+				<answer weight="1">18</answer>
+				<answer weight="1">19</answer>
+				<answer weight="1">24</answer>
+				<answer weight="1">27</answer>
+				<answer weight="1">28</answer>
+				<answer weight="50">39</answer>
+				<answer weight="50">41</answer>
+				<answer weight="1">46</answer>
+				<answer weight="1">53</answer>
+				<answer weight="1">54</answer>
+				<answer weight="1">56</answer>
+				<answer weight="1">58</answer>
+				<answer weight="1">61</answer>
+			</answerlist>
+		</career>
+		<career>
+			<name>Global Technology and Operations</name>
+			<link>/campusrecruiting/gp_asia_gto.asp</link>
+			<answerlist>
+				<answer weight="1">4</answer>
+				<answer weight="1">5</answer>
+				<answer weight="100">7</answer>
+				<answer weight="25">9</answer>
+				<answer weight="25">11</answer>
+				<answer weight="1">12</answer>
+				<answer weight="1">14</answer>
+				<answer weight="1">15</answer>
+				<answer weight="1">16</answer>
+				<answer weight="1">19</answer>
+				<answer weight="1">20</answer>
+				<answer weight="1">24</answer>
+				<answer weight="1">28</answer>
+				<answer weight="50">40</answer>
+				<answer weight="1">45</answer>
+				<answer weight="1">53</answer>
+				<answer weight="1">54</answer>
+				<answer weight="1">56</answer>
+				<answer weight="1">57</answer>
+				<answer weight="1">58</answer>
+				<answer weight="1">59</answer>
+				<answer weight="1">60</answer>
+			</answerlist>
+		</career>
+		<career>
+			<name>Global Markets</name>
+			<link>/campusrecruiting/ui_emea_gm.asp</link>
+			<answerlist>
+				<answer weight="1">4</answer>
+				<answer weight="100">6</answer>
+				<answer weight="100">7</answer>
+				<answer weight="25">9</answer>
+				<answer weight="25">11</answer>
+				<answer weight="1">13</answer>
+				<answer weight="1">14</answer>
+				<answer weight="1">15</answer>
+				<answer weight="1">16</answer>
+				<answer weight="1">19</answer>
+				<answer weight="1">20</answer>
+				<answer weight="1">24</answer>
+				<answer weight="1">28</answer>
+				<answer weight="50">40</answer>
+				<answer weight="1">50</answer>
+				<answer weight="1">53</answer>
+				<answer weight="1">54</answer>
+				<answer weight="1">56</answer>
+				<answer weight="1">57</answer>
+				<answer weight="1">59</answer>
+				<answer weight="1">60</answer>
+			</answerlist>
+		</career>
+		<career>
+			<name>Global Product Solutions - Corporate Debt Products</name>
+			<link>/campusrecruiting/gp_asia_gpscdp.asp</link>
+			<answerlist>
+				<answer weight="1">4</answer>
+				<answer weight="100">7</answer>
+				<answer weight="25">9</answer>
+				<answer weight="25">11</answer>
+				<answer weight="1">13</answer>
+				<answer weight="1">14</answer>
+				<answer weight="1">15</answer>
+				<answer weight="1">16</answer>
+				<answer weight="1">19</answer>
+				<answer weight="1">20</answer>
+				<answer weight="1">24</answer>
+				<answer weight="1">28</answer>
+				<answer weight="50">40</answer>
+				<answer weight="1">50</answer>
+				<answer weight="1">53</answer>
+				<answer weight="1">54</answer>
+				<answer weight="1">56</answer>
+				<answer weight="1">57</answer>
+				<answer weight="1">59</answer>
+			</answerlist>
+		</career>
+		<career>
+			<name>Corporate Investment Banking</name>
+			<link>/campusrecruiting/up_asia_cib.asp</link>
+			<answerlist>
+				<answer weight="1">4</answer>
+				<answer weight="100">6</answer>
+				<answer weight="25">9</answer>
+				<answer weight="1">13</answer>
+				<answer weight="1">14</answer>
+				<answer weight="1">15</answer>
+				<answer weight="1">16</answer>
+				<answer weight="1">19</answer>
+				<answer weight="1">20</answer>
+				<answer weight="50">40</answer>
+				<answer weight="1">50</answer>
+				<answer weight="1">53</answer>
+				<answer weight="1">54</answer>
+				<answer weight="1">55</answer>
+				<answer weight="1">56</answer>
+				<answer weight="1">57</answer>
+				<answer weight="1">59</answer>
+			</answerlist>
+		</career>
+	</careerlist>
+</group>
+<group>
+	<name>Global Wealth and Investment Management</name>
+	<careerlist>
+		<career>
+			<name>Global Wealth and Investment Management Associate Training Program</name>
+			<link>/campusrecruiting/up_us_gwim_atp.asp</link>
+			<answerlist>
+				<answer weight="1">1</answer>
+				<answer weight="1">3</answer>
+				<answer weight="1">4</answer>
+				<answer weight="1">5</answer>
+				<answer weight="100">6</answer>
+				<answer weight="100">8</answer>
+				<answer weight="25">11</answer>
+				<answer weight="1">12</answer>
+				<answer weight="1">13</answer>
+				<answer weight="1">14</answer>
+				<answer weight="1">15</answer>
+				<answer weight="1">19</answer>
+				<answer weight="1">20</answer>
+				<answer weight="50">34</answer>
+				<answer weight="1">49</answer>
+				<answer weight="1">53</answer>
+				<answer weight="1">55</answer>
+				<answer weight="1">57</answer>
+				<answer weight="1">60</answer>
+			</answerlist>
+		</career>
+	</careerlist>
+</group>
+<group>
+	<name>Global Consumer and Small Business Banking</name>
+	<careerlist>
+		<career>
+			<name>Banking Center Channel Market Manager MBA Leader Development Program</name>
+			<link>/campusrecruiting/gp_us_bccmm_mba_ldp.asp</link>
+			<answerlist>
+				<answer weight="1">1</answer>
+				<answer weight="1">3</answer>
+				<answer weight="1">4</answer>
+				<answer weight="1">5</answer>
+				<answer weight="100">7</answer>
+				<answer weight="100">8</answer>
+				<answer weight="25">9</answer>
+				<answer weight="25">10</answer>
+				<answer weight="25">11</answer>
+				<answer weight="1">12</answer>
+				<answer weight="1">14</answer>
+				<answer weight="1">15</answer>
+				<answer weight="1">16</answer>
+				<answer weight="1">19</answer>
+				<answer weight="1">20</answer>
+				<answer weight="1">26</answer>
+				<answer weight="1">29</answer>
+				<answer weight="50">33</answer>
+				<answer weight="50">34</answer>
+				<answer weight="50">35</answer>
+				<answer weight="50">36</answer>
+				<answer weight="50">37</answer>
+				<answer weight="50">38</answer>
+				<answer weight="1">43</answer>
+				<answer weight="1">47</answer>
+				<answer weight="1">48</answer>
+				<answer weight="1">53</answer>
+				<answer weight="1">55</answer>
+				<answer weight="1">56</answer>
+				<answer weight="1">60</answer>
+			</answerlist>
+		</career>
+		<career>
+			<name>Global Consumer and Small Business Banking MBA Product Leadership Development Program</name>
+			<link>/campusrecruiting/gp_us_gc_sbbp_ldp.asp</link>
+			<answerlist>
+				<answer weight="1">1</answer>
+				<answer weight="1">2</answer>
+				<answer weight="1">3</answer>
+				<answer weight="1">4</answer>
+				<answer weight="1">5</answer>
+				<answer weight="100">7</answer>
+				<answer weight="100">8</answer>
+				<answer weight="25">10</answer>
+				<answer weight="25">11</answer>
+				<answer weight="1">12</answer>
+				<answer weight="1">13</answer>
+				<answer weight="1">14</answer>
+				<answer weight="1">16</answer>
+				<answer weight="1">19</answer>
+				<answer weight="1">22</answer>
+				<answer weight="1">23</answer>
+				<answer weight="1">26</answer>
+				<answer weight="1">29</answer>
+				<answer weight="1">32</answer>
+				<answer weight="50">33</answer>
+				<answer weight="50">41</answer>
+				<answer weight="1">47</answer>
+				<answer weight="1">53</answer>
+				<answer weight="1">54</answer>
+				<answer weight="1">55</answer>
+				<answer weight="1">56</answer>
+				<answer weight="1">57</answer>
+				<answer weight="1">58</answer>
+				<answer weight="1">59</answer>
+			</answerlist>
+		</career>
+		<career>
+			<name>Operations Management Associate Program</name>
+			<link>/campusrecruiting/up_us_omap.asp</link>
+			<answerlist>
+				<answer weight="1">3</answer>
+				<answer weight="1">4</answer>
+				<answer weight="1">5</answer>
+				<answer weight="100">6</answer>
+				<answer weight="25">9</answer>
+				<answer weight="25">10</answer>
+				<answer weight="25">11</answer>
+				<answer weight="1">12</answer>
+				<answer weight="1">21</answer>
+				<answer weight="1">22</answer>
+				<answer weight="1">28</answer>
+				<answer weight="50">33</answer>
+				<answer weight="50">34</answer>
+				<answer weight="50">35</answer>
+				<answer weight="50">36</answer>
+				<answer weight="50">37</answer>
+				<answer weight="50">38</answer>
+				<answer weight="1">45</answer>
+				<answer weight="1">53</answer>
+				<answer weight="1">54</answer>
+				<answer weight="1">56</answer>
+				<answer weight="1">58</answer>
+			</answerlist>
+		</career>
+		<career>
+			<name>Operations MBA</name>
+			<link>/campusrecruiting/gp_us_omba.asp</link>
+			<answerlist>
+				<answer weight="1">1</answer>
+				<answer weight="1">3</answer>
+				<answer weight="1">4</answer>
+				<answer weight="1">5</answer>
+				<answer weight="100">7</answer>
+				<answer weight="100">8</answer>
+				<answer weight="25">9</answer>
+				<answer weight="25">10</answer>
+				<answer weight="25">11</answer>
+				<answer weight="1">12</answer>
+				<answer weight="1">21</answer>
+				<answer weight="1">22</answer>
+				<answer weight="1">28</answer>
+				<answer weight="50">33</answer>
+				<answer weight="50">34</answer>
+				<answer weight="50">35</answer>
+				<answer weight="50">36</answer>
+				<answer weight="50">37</answer>
+				<answer weight="50">38</answer>
+				<answer weight="1">45</answer>
+				<answer weight="1">53</answer>
+				<answer weight="1">54</answer>
+				<answer weight="1">56</answer>
+				<answer weight="1">58</answer>
+			</answerlist>
+		</career>
+		<career>
+			<name>Card Services - Customer Service Associate</name>
+			<link>/campusrecruiting/up_us_cs_csa.asp</link>
+			<answerlist>
+				<answer weight="1">1</answer>
+				<answer weight="1">4</answer>
+				<answer weight="100">6</answer>
+				<answer weight="25">9</answer>
+				<answer weight="1">12</answer>
+				<answer weight="1">13</answer>
+				<answer weight="1">14</answer>
+				<answer weight="1">15</answer>
+				<answer weight="1">16</answer>
+				<answer weight="1">17</answer>
+				<answer weight="1">18</answer>
+				<answer weight="1">19</answer>
+				<answer weight="1">20</answer>
+				<answer weight="1">21</answer>
+				<answer weight="1">22</answer>
+				<answer weight="1">23</answer>
+				<answer weight="1">24</answer>
+				<answer weight="1">25</answer>
+				<answer weight="1">26</answer>
+				<answer weight="1">27</answer>
+				<answer weight="1">28</answer>
+				<answer weight="1">29</answer>
+				<answer weight="1">30</answer>
+				<answer weight="1">31</answer>
+				<answer weight="1">32</answer>
+				<answer weight="50">33</answer>
+				<answer weight="50">34</answer>
+				<answer weight="50">35</answer>
+				<answer weight="50">36</answer>
+				<answer weight="50">37</answer>
+				<answer weight="50">38</answer>
+				<answer weight="50">41</answer>
+				<answer weight="1">47</answer>
+				<answer weight="1">48</answer>
+				<answer weight="1">55</answer>
+			</answerlist>
+		</career>
+		<career>
+			<name>Card Services - Fraud Analyst</name>
+			<link>/campusrecruiting/up_us_cs_fa.asp</link>
+			<answerlist>
+				<answer weight="1">1</answer>
+				<answer weight="1">4</answer>
+				<answer weight="100">6</answer>
+				<answer weight="25">9</answer>
+				<answer weight="1">12</answer>
+				<answer weight="1">13</answer>
+				<answer weight="1">14</answer>
+				<answer weight="1">15</answer>
+				<answer weight="1">16</answer>
+				<answer weight="1">17</answer>
+				<answer weight="1">18</answer>
+				<answer weight="1">19</answer>
+				<answer weight="1">20</answer>
+				<answer weight="1">21</answer>
+				<answer weight="1">22</answer>
+				<answer weight="1">23</answer>
+				<answer weight="1">24</answer>
+				<answer weight="1">25</answer>
+				<answer weight="1">26</answer>
+				<answer weight="1">27</answer>
+				<answer weight="1">28</answer>
+				<answer weight="1">29</answer>
+				<answer weight="1">30</answer>
+				<answer weight="1">31</answer>
+				<answer weight="1">32</answer>
+				<answer weight="50">33</answer>
+				<answer weight="50">34</answer>
+				<answer weight="50">35</answer>
+				<answer weight="50">36</answer>
+				<answer weight="50">37</answer>
+				<answer weight="50">38</answer>
+				<answer weight="50">41</answer>
+				<answer weight="1">47</answer>
+				<answer weight="1">48</answer>
+				<answer weight="1">55</answer>
+			</answerlist>
+		</career>
+		<career>
+			<name>Card Services - Customer Assistance Account Manager</name>
+			<link>/campusrecruiting/up_us_cs_caam.asp</link>
+			<answerlist>
+				<answer weight="1">1</answer>
+				<answer weight="1">4</answer>
+				<answer weight="100">6</answer>
+				<answer weight="25">9</answer>
+				<answer weight="1">12</answer>
+				<answer weight="1">13</answer>
+				<answer weight="1">14</answer>
+				<answer weight="1">15</answer>
+				<answer weight="1">16</answer>
+				<answer weight="1">17</answer>
+				<answer weight="1">18</answer>
+				<answer weight="1">19</answer>
+				<answer weight="1">20</answer>
+				<answer weight="1">21</answer>
+				<answer weight="1">22</answer>
+				<answer weight="1">23</answer>
+				<answer weight="1">24</answer>
+				<answer weight="1">25</answer>
+				<answer weight="1">26</answer>
+				<answer weight="1">27</answer>
+				<answer weight="1">28</answer>
+				<answer weight="1">29</answer>
+				<answer weight="1">30</answer>
+				<answer weight="1">31</answer>
+				<answer weight="1">32</answer>
+				<answer weight="50">33</answer>
+				<answer weight="50">34</answer>
+				<answer weight="50">35</answer>
+				<answer weight="50">36</answer>
+				<answer weight="50">37</answer>
+				<answer weight="50">38</answer>
+				<answer weight="50">41</answer>
+				<answer weight="1">47</answer>
+				<answer weight="1">48</answer>
+				<answer weight="1">55</answer>
+			</answerlist>
+		</career>
+		<career>
+			<name>Card Services</name>
+			<link>/campusrecruiting/up_emea_cs.asp</link>
+			<answerlist>
+				<answer weight="1">1</answer>
+				<answer weight="1">2</answer>
+				<answer weight="1">3</answer>
+				<answer weight="1">4</answer>
+				<answer weight="1">5</answer>
+				<answer weight="100">6</answer>
+				<answer weight="25">9</answer>
+				<answer weight="25">11</answer>
+				<answer weight="1">12</answer>
+				<answer weight="1">13</answer>
+				<answer weight="1">14</answer>
+				<answer weight="1">15</answer>
+				<answer weight="1">16</answer>
+				<answer weight="1">17</answer>
+				<answer weight="1">18</answer>
+				<answer weight="1">19</answer>
+				<answer weight="1">20</answer>
+				<answer weight="1">23</answer>
+				<answer weight="1">24</answer>
+				<answer weight="1">26</answer>
+				<answer weight="1">27</answer>
+				<answer weight="1">28</answer>
+				<answer weight="1">29</answer>
+				<answer weight="1">30</answer>
+				<answer weight="50">39</answer>
+				<answer weight="1">43</answer>
+				<answer weight="1">45</answer>
+				<answer weight="1">46</answer>
+				<answer weight="1">47</answer>
+				<answer weight="1">48</answer>
+				<answer weight="1">53</answer>
+				<answer weight="1">55</answer>
+				<answer weight="1">56</answer>
+				<answer weight="1">57</answer>
+				<answer weight="1">58</answer>
+			</answerlist>
+		</career>
+	</careerlist>
+</group>

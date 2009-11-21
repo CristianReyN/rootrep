@@ -12,7 +12,7 @@ function showFlash(bc){
 	document.getElementById('image2').style.display = 'none';
 	createStopAudio(stopWABAudio);
 	hideVirtualHost(1);
-	fixIE();
+	fixIE(true);
 }
 
 function hideVirtualHost(k){if(document.getElementById("flash_in")){
@@ -36,7 +36,7 @@ function replayVirtualHost(){if(document.getElementById("flash_in")&& hiddenFlas
 	}
 	createStopAudio(stopVHAudio);
 	hideWeAreBankers();
-	fixIE();
+	fixIE(true);
 }}
 
 function hideWeAreBankers(){if(document.getElementById("flash_in2") && document.getElementById('image2')){
