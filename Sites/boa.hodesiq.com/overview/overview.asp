@@ -68,31 +68,42 @@ function getCookie(c_name)
 	return false;
 }
 
-var textOnlyVersion = '<a href="<%=ada_href %>" id="tonly" title="<%=textonly_version %>" class="auraltext" onfocus="hover(this,\'show-tab\');" onblur="hover(this,\'auraltext\');"><%=textonly_version %><\/a>';
+var textOnlyVersion = "<%=textonly_version %>";
+var stopVHAudio = "<%=hide_flash_title%>";
+var stopWABAudio = "<%=hide_flash_title2%>";
 
 var replayVideoHost = '<p style="margin: 0px;"><a href="Javascript: replayVirtualHost();" title="Replay Video Host" class="p" onfocus="this.className=\'p-over\';" onblur="this.className=\'p\';">Replay<br>video host<\/a><\/p>';
 var videoTranscripts = '<p style="margin: 6px 0px 0px 0px;"><a href="<%=ada_href %>" title="Video transcripts" class="p" onfocus="this.className=\'p-over\';" onblur="this.className=\'p\';">Video<br>transcripts<\/a><\/p>';
-var stopVHAudio = '<a class="auraltext" href="JavaScript: if(window.hideFlash) hideFlash();" onFocus="hover(this,\'show-tab\'); this.focus();" onblur="hover(this,\'auraltext\');" title="<%=hide_flash_title%>"><%=hide_flash_title%><\/a>';
-var stopWABAudio = '<a class="auraltext" href="JavaScript: if(window.hideFlash) hideFlash();" onFocus="hover(this,\'show-tab\'); this.focus();" onblur="hover(this,\'auraltext\');" title="<%=hide_flash_title2%>"><%=hide_flash_title2%><\/a>';
 
 function loadVideoHost()
-{if(document.getElementById("flash_in")){
+{
+	if(document.getElementById("tonly"))
+	{
+		document.getElementById("tonly").className = "auraltext";
+		document.getElementById("tonly").onfocus=function(){hover(this,'show-tab');}
+		document.getElementById("tonly").onblur=function(){hover(this,'auraltext');}
+	}
+	if(document.getElementById("flash_in")){
 	var playflash = getCookie("PFOT");
 	if(!playflash || playflash != "1")
 	{
 		document.getElementById("flash_in").innerHTML = hiddenFlash;
-		if(document.getElementById("stopaudio"))
+		if(document.getElementById("tonly"))
 		{
-			document.getElementById("stopaudio").innerHTML = stopVHAudio;
+			document.getElementById("tonly").innerHTML = stopVHAudio;
+			document.getElementById("tonly").title = stopVHAudio;
+			document.getElementById("tonly").href = "JavaScript: if(window.hideFlash) hideFlash();";
 		}
 		setCookie("PFOT",1,10000);
 	}
 	else
 	{
 		document.getElementById("flash_in").innerHTML = helpLinks;
-		if(document.getElementById("stopaudio"))
+		if(document.getElementById("tonly"))
 		{
-			document.getElementById("stopaudio").innerHTML = textOnlyVersion;
+			document.getElementById("tonly").innerHTML = textOnlyVersion;
+			document.getElementById("tonly").title = textOnlyVersion;
+			document.getElementById("tonly").href = "<%=ada_href %>";
 		}
 	}
 }

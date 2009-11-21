@@ -71,14 +71,11 @@ End If
 	cmCreatePageviewTag("<%= pageId %>", null, null,"<%= categoryId %>");
 //-->
 </script>
-<table cellpadding="0" cellspacing="0" border="0" summary=""><tr><td>
-<div id="stopaudio">
 <% If mpage = "overview" Then %>
-<a href="<%=ada_href %>" id="tonly" title="<%=textonly_version %>" class="p"><%=textonly_version %></a>
-<% End If %>
-</div>
+<table cellpadding="0" cellspacing="0" border="0" summary=""><tr><td>
+<a class="p" href="<%=ada_href %>" id="tonly" title="<%=textonly_version %>" class="p"><%=textonly_version %></a>
 </td></tr></table>
-
+<% End If %>
 <table width="750" cellpadding="0" cellspacing="0" border="0" summary="">
 <tr>
 	<td valign="top" colspan="3" height="71">
