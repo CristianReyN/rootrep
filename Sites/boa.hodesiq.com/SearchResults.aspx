@@ -6,7 +6,7 @@
     <table border="0" cellpadding="0" cellspacing="0" summary="" width="578">
                                 <tr valign="top">
                                     <td style="padding: 6px 12px 0px 12px; height: 100%" valign="top">
-                                        <form id="jsearch" action="searchresults.aspx">
+                                        
                                             <table border="0" cellpadding="0" cellspacing="0" summary="" width="100%">
                                                 <tr>
                                                     <td valign="top">
@@ -20,56 +20,71 @@
                                                 </tr>
                                                 <tr>
                                                     <td style="padding: 0px 6px 0px 0px; width: 50%" valign="top">
-                                                        <p style="margin: 0px; text-align: left">
+                                                        <p style="margin: 0px; text-align: left;">
                                                             <b>
                                                                 <label for="areasoftalent">
-                                                                    Areas of Talent:</label></b></p>
-                                                        <select id="areasoftalent" class="right" name="areasoftalent" style="width: 100%;
-                                                            z-index: auto;">
-                                                            <option value="">All Areas of Talent&nbsp;</option>
-                                                        </select>
-                                                    </td>
-                                                    <td style="padding: 0px 0px 0px 6px; width: 50%" valign="top">
-                                                        <p style="margin: 0px; text-align: left">
-                                                            <b>
-                                                                <label for="jfamily">
-                                                                    Job Family:</label></b></p>
-                                                        <select id="jfamily" class="right" name="jfamily" style="width: 100%; z-index: auto;">
-                                                            <option value="">Job Family&nbsp;</option>
-                                                        </select>
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td style="padding: 0px 6px 0px 0px; width: 50%" valign="top">
-                                                        <p style="margin: 0px; text-align: left">
+                                                                    Areas of Talent</label></b></p>
+                                                        <asp:DropDownList ID="areasoftalent" runat="server" CssClass="left" Style="width: 100%;
+                                                            z-index: auto;" TabIndex="1" ToolTip="Areas Of Talent">
+                                                            <asp:ListItem>All Areas of Talent&#160;</asp:ListItem>
+                                                        </asp:DropDownList><br />
+                                                        <p style="margin: 0px; text-align: left;">
                                                             <b>
                                                                 <label for="locations">
-                                                                    Locations:</label></b></p>
-                                                        <select id="locations" class="right" name="locations" style="width: 100%; z-index: auto;">
-                                                            <option value="">All Locations&nbsp;</option>
-                                                        </select>
+                                                                    State</label></b></p>
+                                                        <asp:DropDownList ID="State" runat="server" CssClass="left" Style="width: 100%; z-index: auto;"
+                                                            TabIndex="4" ToolTip="Select a State">
+                                                            <asp:ListItem>All Locations&#160;</asp:ListItem>
+                                                        </asp:DropDownList>
                                                     </td>
                                                     <td style="padding: 0px 0px 0px 6px; width: 50%" valign="top">
-                                                        <p style="margin: 0px;">
+                                                        <p style="margin: 0px; text-align: left;">
+                                                            <b>
+                                                                <label for="jfamily">
+                                                                    Job Family</label></b></p>
+                                                        <asp:ListBox ID="jfamily" runat="server" CssClass="left" SelectionMode="Multiple"
+                                                            Style="width: 100%; z-index: auto;" TabIndex="2" ToolTip="Select Family">
+                                                            <asp:ListItem>Job Family&#160;</asp:ListItem>
+                                                        </asp:ListBox>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td style="padding: 0px 6px 0px 0px; width: 50%;" valign="top">
+                                                        <p style="margin: 0px; text-align: left;">
+                                                            <b>
+                                                                <label for="locations">
+                                                                    City</label></b></p>
+                                                        <asp:DropDownList ID="City" runat="server" CssClass="left" Style="width: 100%; z-index: auto;"
+                                                            TabIndex="3" ToolTip="Select a City">
+                                                            <asp:ListItem>All Locations&#160;</asp:ListItem>
+                                                        </asp:DropDownList>
+                                                    </td>
+                                                    <td style="padding: 0px 0px 0px 6px; width: 50%;" valign="top">
+                                                        <p style="margin: 0px; text-align: left;">
                                                             <b>
                                                                 <label for="keywords">
-                                                                    Keywords:</label></b></p>
-                                                        <input id="keywords" class="right" size="20" style="width: 100%;" type="text" value="" />
+                                                                    Keywords</label></b></p>
+                                                        <asp:TextBox ID="keywords" runat="server" CssClass="left" Style="width: 100%; size: 20"
+                                                            TabIndex="5" ToolTip="Keywords"></asp:TextBox>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td align="right" valign="top">
+                                                        <asp:Button ID="brefine" runat="server" CssClass="bodybtn" OnClick="brefine_Click"
+                                                            TabIndex="6" Text="Refine Search" UseSubmitBehavior="true" />
+                                                    </td>
+                                                    <td align="right" valign="top">
+                                                        <asp:Button ID="bsearch" runat="server" CssClass="bodybtn" OnClick="bsearch_Click"
+                                                            TabIndex="7" Text="Begin Search" UseSubmitBehavior="true" />
                                                     </td>
                                                 </tr>
                                                 <tr>
                                                     <td style="padding: 0px 12px 0px 12px;">
-                                                        &nbsp;</td>
+                                                        &nbsp;<asp:Label ID="lblMessage" runat="server"></asp:Label></td>
                                                     <td align="right" valign="top">
-                                                        <asp:Button id="bsearch" cssclass="bodybtn"  text="Begin Search" runat="server"/>
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td style="padding: 0px 12px 0px 12px;">
-                                                        &nbsp;</td>
-                                                    <td align="right" valign="top">
-                                                        <a class="sblnk" href="jobcart.aspx" title="View Job Cart">View Job Cart</a>&nbsp;&nbsp;&nbsp;&nbsp;<a
-                                                            class="sblnk" href="AdvanceSearch.aspx" title="Advanced Search">Advanced Search</a>
+                                                        <a class="sblnk" href="jobcart.aspx" tabindex="8" title="View Job Cart">View Job Cart</a>&nbsp;&nbsp;&nbsp;&nbsp;<a
+                                                            class="sblnk" href="AdvanceSearch.aspx" tabindex="9" title="Advanced Search">Advanced
+                                                            Search</a>
                                                     </td>
                                                 </tr>
                                                 <tr>
@@ -84,75 +99,19 @@
                                                 </tr>
                                                 <tr>
                                                     <td colspan="2" style="padding: 3px 0px 0px 0px;" valign="top">
-                                                        <table border="0" cellpadding="0" cellspacing="0" summary="Job Search table will yield to the user list containing job title, location and date for each of the jobs. User can click on a job title in order to view detailed information pertaining to the job."
-                                                            width="100%">
-                                                            <tr>
-                                                                <th align="left" scope="col">
-                                                                    <p class="tblH">
-                                                                        Job Title</p>
-                                                                </th>
-                                                                <th align="right" scope="col">
-                                                                    <p class="tblH">
-                                                                        Location</p>
-                                                                </th>
-                                                                <th align="right" scope="col">
-                                                                    <p class="tblH">
-                                                                        Date</p>
-                                                                </th>
-                                                            </tr>
-                                                            <tr class="c1">
-                                                                <td class="tbl" style="width: 50%">
-                                                                    <a class="nv" href="jobdetails.aspx">Project Manager</a></td>
-                                                                <td align="right" class="tbl">
-                                                                    Nashville, TN</td>
-                                                                <td align="right" class="tbl">
-                                                                    04/11/06</td>
-                                                            </tr>
-                                                            <tr class="c2">
-                                                                <td class="tbl" style="width: 50%">
-                                                                    <a class="nv" href="jobdetails.aspx">Project Manager</a></td>
-                                                                <td align="right" class="tbl">
-                                                                    Nashville, TN</td>
-                                                                <td align="right" class="tbl">
-                                                                    04/11/06</td>
-                                                            </tr>
-                                                            <tr class="c1">
-                                                                <td class="tbl" style="width: 50%">
-                                                                    <a class="nv" href="jobdetails.aspx">Project Manager</a></td>
-                                                                <td align="right" class="tbl">
-                                                                    Nashville, TN</td>
-                                                                <td align="right" class="tbl">
-                                                                    04/11/06</td>
-                                                            </tr>
-                                                            <tr class="c2">
-                                                                <td class="tbl" style="width: 50%">
-                                                                    <a class="nv" href="jobdetails.aspx">Project Manager</a></td>
-                                                                <td align="right" class="tbl">
-                                                                    Nashville, TN</td>
-                                                                <td align="right" class="tbl">
-                                                                    04/11/06</td>
-                                                            </tr>
-                                                            <tr class="c1">
-                                                                <td class="tbl" style="width: 50%">
-                                                                    <a class="nv" href="jobdetails.aspx">Project Manager</a></td>
-                                                                <td align="right" class="tbl">
-                                                                    Nashville, TN</td>
-                                                                <td align="right" class="tbl">
-                                                                    04/11/06</td>
-                                                            </tr>
-                                                            <tr class="c2">
-                                                                <td class="tbl" style="width: 50%">
-                                                                    <a class="nv" href="jobdetails.aspx">Project Manager</a></td>
-                                                                <td align="right" class="tbl">
-                                                                    Nashville, TN</td>
-                                                                <td align="right" class="tbl">
-                                                                    04/11/06</td>
-                                                            </tr>
-                                                        </table>
-                                                    </td>
+                                                        <asp:GridView ID="GrdSearchResults" runat="server" BackColor="White" BorderColor="#CC9966"
+                                                            BorderStyle="None" BorderWidth="1px" CellPadding="4" Width="549px" PageSize="12">
+                                                            <FooterStyle BackColor="#FFFFCC" ForeColor="#330099" />
+                                                            <RowStyle BackColor="White" ForeColor="#330099" />
+                                                            <SelectedRowStyle BackColor="#FFCC66" Font-Bold="True" ForeColor="#663399" />
+                                                            <PagerStyle BackColor="#FFFFCC" ForeColor="#330099" HorizontalAlign="Center" />
+                                                            <HeaderStyle BackColor="#990000" Font-Bold="True" ForeColor="#FFFFCC" />
+                                                            <AlternatingRowStyle CssClass="C1,C2" />
+                                                        </asp:GridView>
+                                                                                                           </td>
                                                 </tr>
                                             </table>
-                                        </form>
+                                        
                                     </td>
                                 </tr>
                             </table>

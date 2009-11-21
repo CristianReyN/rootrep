@@ -73,7 +73,7 @@
                                                         </td>
                                                         <td align="right" valign="top">
                                                             <asp:Button ID="bsearch" runat="server" CssClass="bodybtn" 
-                                                                TabIndex="7" Text="Begin Search" UseSubmitBehavior="true" />
+                                                                TabIndex="7" Text="Begin Search" UseSubmitBehavior="true" OnClick="bsearch_Click" />
                                                         </td>
                                                     </tr>
                                                     <tr>

@@ -29,14 +29,14 @@ public partial class _Default : System.Web.UI.Page
                 areasoftalent.DataSource = at.Talent();
                 areasoftalent.DataBind();
                 areasoftalent.Items.Insert(0, new ListItem("Select a Talent", ""));
-                areasoftalent.SelectedIndex = 0;
+                //areasoftalent.SelectedIndex = 0;
 
                 jfamily.DataTextField = "Family";
                 jfamily.DataValueField = "FamilyID";
                 jfamily.DataSource = at.Jobfamily();
                 jfamily.DataBind();
                 jfamily.Items.Insert(0, new ListItem("Select a Family", ""));
-                jfamily.SelectedIndex = 0;
+                //jfamily.SelectedIndex = 0;
 
                 Location Lo = new Location();
                 State.DataTextField = "State";
@@ -54,44 +54,61 @@ public partial class _Default : System.Web.UI.Page
                 City.SelectedIndex = 0;
 
             }
-
-
-            else if (Session["PstBack"] != null)
-            {
-                AreaofTalent at = new AreaofTalent();
-                
-                jfamily.Items.Clear();
-                jfamily.DataTextField = "Family";
-                jfamily.DataValueField = "FamilyID";
-                jfamily.DataSource = at.TalentwiseJobfamily(areasoftalent.SelectedIndex.ToString());
-                jfamily.DataBind();
-                jfamily.Items.Insert(0, new ListItem("Select a Family", ""));
-                jfamily.SelectedIndex = 0;
-
-
-                Location Lo = new Location();
-                
-                City.Items.Clear();
-                City.DataTextField = "City";
-                City.DataValueField = "Req_ID";
-                City.DataSource = Lo.StatewiseCity(State.SelectedIndex.ToString());
-                City.DataBind();
-                City.Items.Insert(0, new ListItem("Select a City", ""));
-                City.SelectedIndex = 0;
-            }
-        
         }
         catch (Exception ex)
         {
             lblMessage.Text = ex.Message;
         }
-        Session["PstBack"] = 1;
+        Session["PstBack"] = 2;
         }
 
 
 
     protected void brefine_Click(object sender, EventArgs e)
     {
+        AreaofTalent at = new AreaofTalent();
+
+        jfamily.Items.Clear();
+        jfamily.DataTextField = "Family";
+        jfamily.DataValueField = "FamilyID";
+        jfamily.DataSource = at.TalentwiseJobfamily(areasoftalent.SelectedIndex.ToString());
+        jfamily.DataBind();
+        jfamily.Items.Insert(0, new ListItem("Select a Family", ""));
+        //jfamily.SelectedIndex = 0;
+
+
+        Location Lo = new Location();
+
+        City.Items.Clear();
+        City.DataTextField = "City";
+        City.DataValueField = "Req_ID";
+        City.DataSource = Lo.StatewiseCity(State.SelectedIndex.ToString());
+        City.DataBind();
+        City.Items.Insert(0, new ListItem("Select a City", ""));
+        City.SelectedIndex = 0;
         
+        Session["PstBack"] = 2;
+    }
+    protected void bsearch_Click(object sender, EventArgs e)
+    {
+        Session["PstBack"] = 2;
+        string ArrSearchValues;
+        string selVal="";
+        for (int i=0; i < jfamily.Items.Count;i++ )
+        {
+            if (jfamily.Items[i].Selected)
+            {
+                if (selVal == "")
+                    selVal = jfamily.Items[i].Value.ToString();
+                else
+                    selVal += "," + jfamily.Items[i].Value.ToString();
+            }
+
+        }
+        
+        ArrSearchValues = selVal+"$"+areasoftalent.SelectedValue + "$" + State.SelectedIndex + "$" + City.SelectedIndex + "$" + keywords.Text;
+        Session["ArrSearchvalues"] = ArrSearchValues;
+        Session["PstBack"] = null;
+        Response.Redirect("SearchResults.aspx");
     }
 }
