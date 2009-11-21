@@ -2,8 +2,8 @@
 			<tr valign="top"><td valign="top" class="divt"><img src="../../images/clear.gif" width="100%" height="4" alt="" border="0"></td></tr>
 			<tr valign="top">
 				<td width="100%" valign="top">
-<img src="../../images/mortgage.jpg" width="578" height="166" alt="Mortgage, Home Equity &amp; Insurance Services. Bank of America." title="Mortgage, Home Equity &amp; Insurance Services. Bank of America." border="0">
-<div class="hidden">Mortgage, Home Equity &amp; Insurance Services. Bank of America.</div>
+<img src="../../images/mortgage.jpg" width="578" height="166" alt="Bank of America Home Loans." title="Bank of America Home Loans." border="0">
+<div class="hidden">Bank of America Home Loans.</div>
 				</td>
 			</tr>
 			<tr valign="top"><td colspan="2" valign="top" class="divb"><img src="../../images/clear.gif" width="100%" height="4" alt="" border="0"></td></tr>
@@ -18,7 +18,7 @@
 <b>Bank&nbsp;of&nbsp;America&#39;s commitment to the mortgage industry is focused on continuous growth, increased teamwork, and excellent customer service.</b>
 	</p>
 	<p style="margin: 12px <%=right_margin%>px 0px <%=left_margin_0%>px;">
-As the nation&#39;s largest mortgage lender and loan servicer, and the world&#39;s most trusted lender, Bank&nbsp;of&nbsp;America Mortgage embraces a commitment to responsible home lending. 
+As the nation&#39;s largest mortgage lender and loan servicer, and the world&#39;s most trusted lender, Bank&nbsp;of&nbsp;America Home Loans embraces a commitment to responsible home lending. 
 	</p>
 	<p style="margin: 12px <%=right_margin%>px 0px <%=left_margin_0%>px;">
 Our every action is focused on Bringing Opportunity Home for those we serve, assisting new and existing customers in achieving their dreams of home ownership and preservation.
@@ -42,7 +42,7 @@ Our every action is focused on Bringing Opportunity Home for those we serve, ass
 To meet this challenge, Bank&nbsp;of&nbsp;America relies on a world-class team of over 15,000 associates operating out of <a class="p" href="<%=href%>" title="Locations">locations</a> that include more than 1,000 field offices across the country.
 	</p>
 	<p style="margin: 12px <%=right_margin%>px 0px <%=left_margin_0%>px;">
-Individuals who choose to build a career at Bank&nbsp;of&nbsp;America Mortgage typically join in one of the following areas:
+Individuals who choose to build a career at Bank&nbsp;of&nbsp;America Home Loans typically join in one of the following areas:
 	</p>
 	<p style="margin: 12px <%=right_margin%>px 0px <%=left_margin_0%>px;">
 	<ul>

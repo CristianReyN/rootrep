@@ -20,7 +20,7 @@
 <br><img src="../../images/clear.gif" width="10" height="12" alt="" border="0" /><br>
 <p class="bacg">Balboa&#39;s lender-placed business is a market leader in the lender-placed auto and homeowners segment, and Bank&nbsp;of&nbsp;America&#39;s insurance business is a market leader in the credit and debt protection segment.  Insurance Services also partners with other businesses throughout the organization, such as Mortgage and Credit Card, to serve the customer seamlessly and comprehensively.</p>
 <br><img src="../../images/clear.gif" width="10" height="12" alt="" border="0" /><br>
-<p class="bacg">Join Bank&nbsp;of&nbsp;America Mortgage today, and use your skills and knowledge to start Bringing Opportunity Home &ndash; for customers, and for yourself.</p>
+<p class="bacg">Join Bank&nbsp;of&nbsp;America Home Loans today, and use your skills and knowledge to start Bringing Opportunity Home &ndash; for customers, and for yourself.</p>
 <%
 Dim familyid, rowcount
 talentid=12

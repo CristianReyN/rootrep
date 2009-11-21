@@ -24,7 +24,7 @@
 <br><img src="../../images/clear.gif" width="10" height="12" alt="" border="0" /><br>
 <H2 class="bacg">Home Retention</H2><p class="bacg">&nbsp;works with the customer once an account becomes past due.  They gather information in order to understand the customer&#39;s financial situation, and will work with them to find alternatives to having to foreclose on the loan.  These alternatives may include a special repayment plan, or a loan modification.</p>
 <br><img src="../../images/clear.gif" width="10" height="12" alt="" border="0" /><br>
-<p class="bacg">Join Bank&nbsp;of&nbsp;America Mortgage today, and use your skills and knowledge to start Bringing Opportunity Home &mdash; for customers, and for yourself.</p>
+<p class="bacg">Join Bank&nbsp;of&nbsp;America Home Loans today, and use your skills and knowledge to start Bringing Opportunity Home &mdash; for customers, and for yourself.</p>
 <%
 Dim familyid, rowcount
 talentid=12

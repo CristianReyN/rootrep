@@ -20,7 +20,7 @@
 <br><img src="../../images/clear.gif" width="10" height="12" alt="" border="0" /><br>
 <p class="bacg">The Bank&#39;s comprehensive variety of local and centralized underwriting and fulfillment resources are completely integrated and scalable.  This enables our organization to respond quickly to changes in market opportunities, and positions us for strong growth possibilities in all markets and channels.</p>
 <br><img src="../../images/clear.gif" width="10" height="12" alt="" border="0" /><br>
-<p class="bacg">Join Bank&nbsp;of&nbsp;America Mortgage today, and use your skills and knowledge to start Bringing Opportunity Home - for customers, and for yourself.</p>
+<p class="bacg">Join Bank&nbsp;of&nbsp;America Home Loans today, and use your skills and knowledge to start Bringing Opportunity Home - for customers, and for yourself.</p>
 <%
 Dim familyid, rowcount
 talentid=12

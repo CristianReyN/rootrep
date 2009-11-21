@@ -14,7 +14,7 @@
 			<tr valign="top">
 				<td width="373" height="100%" valign="top" style="padding: 0px <%=right_margin%>px 0px <%=left_margin_0%>px;">
 <H1 class="hidden">Mortgage Home Equity</H1>
-<p class="bacg">Bank&nbsp;of&nbsp;America Mortgage uses our status as the nation&#39;s largest mortgage lender, and the world&#39;s most trusted lender, to help millions of people realize and maintain the dream of home ownership.</p>
+<p class="bacg">Bank&nbsp;of&nbsp;America Home Loans uses our status as the nation&#39;s largest mortgage lender, and the world&#39;s most trusted lender, to help millions of people realize and maintain the dream of home ownership.</p>
 <br><img src="../../images/clear.gif" width="10" height="12" alt="" border="0" /><br>
 <p class="bacg">Our <b>Home Equity</b> group is focused on helping our customers leverage the financial resources available to them &mdash; in the form of the equity they&#39;ve built in their homes &mdash; to achieve their financial goals, such as major home repairs, medical or other bills, and college tuition. Examples of some of the strategies we facilitate for our mortgage customers include:</p>
 <br><img src="../../images/clear.gif" width="10" height="12" alt="" border="0" /><br>
@@ -24,7 +24,7 @@
 <br><img src="../../images/clear.gif" width="10" height="12" alt="" border="0" /><br>
 <H2 class="bacg">Reverse Mortgages</H2><p class="bacg">&nbsp;&mdash; Ideal for customers who meet specific circumstances*, a reverse mortgage loan can be used to liquidate the equity in an owned property, as one lump sum or multiple payments.  The homeowner&#39;s obligation to repay the loan is deferred until the owner dies, the home is sold, or the owner leaves (e.g., into aged care).</p>
 <br><img src="../../images/clear.gif" width="10" height="12" alt="" border="0" /><br>
-<p class="bacg">Join Bank&nbsp;of&nbsp;America Mortgage today, and use your skills and knowledge to start Bringing Opportunity Home &mdash; for customers, and for yourself.</p>
+<p class="bacg">Join Bank&nbsp;of&nbsp;America Home Loans today, and use your skills and knowledge to start Bringing Opportunity Home &mdash; for customers, and for yourself.</p>
 <br><img src="../../images/clear.gif" width="10" height="12" alt="" border="0" /><br>
 <p class="bacg smaler"><i>*To qualify for a reverse mortgage in the United States, the borrower must be at least 62 years of age.  There are no minimum income or credit requirements, but there are other requirements, and homeowners should make sure that they qualify for the loan before they invest significant time or money into the process.</i></p>
 <%
