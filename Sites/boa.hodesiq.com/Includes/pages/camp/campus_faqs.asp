@@ -13,7 +13,7 @@ If Request("t") <> "" Then tab = Request("t")
 <script language="JavaScript" type="text/javascript">
 var tab = <%=tab%>, cname = "tabstate_cf";
 var tabstate = getTabState(cname);
-if(tabstate && tabstate != tab) self.location.href = "<%=page_self%>?t="+tabstate;
+if(tabstate && tabstate != tab) self.location.replace("<%=page_self%>?t="+tabstate);
 var tabs = new Array(), pageId = "<%=pageId%>", categoryId = "<%=categoryId%>";
 tabs[0] = new Tab("U.S.","t1","../images/camp/t1.gif","../images/camp/t1a.gif","dt1");
 tabs[1] = new Tab("EMEA","t2","../images/camp/t2.gif","../images/camp/t2a.gif","dt2");
