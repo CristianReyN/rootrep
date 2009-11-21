@@ -5,10 +5,13 @@
                                 
                                 <table summary="Job Search and Job List Page" border="0" cellpadding="0" cellspacing="0" width="578">
                                     <tr valign="top">
-                                        <td style="height: 100%; " valign="top">
+                                        <td style="padding: 6px 12px 0px 12px; height: 100%" valign="top">
                                            <table border="0" cellpadding="0" cellspacing="0" summary="" width="100%">
                                                 <tr>
-                                                    <td valign="top" colspan="3"><h1 style="vertical-align:text-top;">Basic Search</h1></td>
+                                                    <td valign="top" colspan="3">
+                                                        <h1 style="margin: 0px 0px 0px 0px; ">
+                                                            Basic Search</h1>
+                                                    </td>
                                                 </tr>
                                                 <tr>
 													<td valign="top" colspan="2" style="width:100%">
