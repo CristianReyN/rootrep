@@ -1,13 +1,13 @@
 <% Response.Buffer=True 
 Dim title, mpage, spage, ada_href, ada_title, job_search_action, Metatag%>
 <!-- #include file="../includes/breadcrumb.asp" -->
-<% title = breadcrumb & "Work/Life Balance"
+<% title = breadcrumb & "Life Management Benefits"
 mpage = "learnmore"
 spage = "benefitsadv"
-tpage = "worklife"
-ada_href = "../ada/worklife.asp"
-page_self = "../learnmore/worklife.asp"
-ada_title = breadcrumb & "Work/Life Balance"
+tpage = "lifemanagement"
+ada_href = "../ada/lifemanagement.asp"
+page_self = "../learnmore/lifemanagement.asp"
+ada_title = breadcrumb & "Life Management Benefits"
 job_search_action = "../jobsearch/searchresult.asp"
 Metatag="Detailed information on the benefits offered for work/life balance.  The option to do a job search is also present on this page."
 %>
@@ -25,7 +25,7 @@ Metatag="Detailed information on the benefits offered for work/life balance.  Th
 	<td valign="top" width="578" height="100%">
 <!-- Body-->
 <img src="../images/clear.gif" width="15" height="4" alt="" border="0"><br>
-<!-- #include file="../includes/pages/worklife.asp" -->
+<!-- #include file="../includes/pages/lifemanagement.asp" -->
 <br><br>
 <!-- Body-->
 	</td>

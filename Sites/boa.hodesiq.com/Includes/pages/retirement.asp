@@ -1,4 +1,4 @@
-		<a name="skipmaincontent"></a><H1 style="margin: 0px <%=right_margin%>px 0px <%=left_margin_0%>px; padding: 0px;">Retirement Plans</H1>
+		<a name="skipmaincontent"></a><H1 style="margin: 0px <%=right_margin%>px 0px <%=left_margin_0%>px; padding: 0px;">Retirement Benefits</H1>
 		<table width="578" cellpadding="0" cellspacing="0" border="0" summary="">
 			<tr valign="top">
 				<td width="373" height="100%" valign="top" style="<%=middle_content_padding%>">
@@ -7,13 +7,19 @@
 <img class="dotdiv" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
 	<%	href_pre = ""
 		if page_section <> "ADA" then href_pre = "../learnmore/" %>
-<p style="margin: 0px;">Bank of America offers plans designed to help you reach your future financial goals and plan for retirement.</p>
-<H2 class="p" style="margin: 12px 0px 6px 0px; padding: 0px;"><span class="bd">Plan options</span></H2>
-<ul>
-	<li><span class="bd">401(k).</span> This plan helps you build savings for your future. Shortly after you start work, you can begin contributing up to 30% of pay on a before-tax basis. After one year of service, Bank of America matches your contribution up to 5% of pay.</li>
-	<li><span class="bd">Pension.</span> After one year of service, each month Bank of America adds to your pension account, which grows as the investment gains over time. When you leave the company, you can receive your vested benefits in a lump sum if you choose.</li>
-</ul>
-<br><br>
+<p style="margin: 0px;">Bank&nbsp;of&nbsp;America offers multiple plans designed to help you reach your future financial goals and plan for retirement.</p>
+<H2 class="bac" style="margin: 12px 0px 0px 0px; padding: 0px;">401(k) Plan</H2>
+<p style="margin: 6px 0px 0px 0px;">A tax-deferred retirement savings plan, including 100% vested matching contributions from the company up to 5% of your plan-eligible compensation after completing 12 months of vesting service.
+</p>
+
+<H2 class="bac" style="margin: 12px 0px 0px 0px; padding: 0px;">Pension Plan</H2>
+<p style="margin: 6px 0px 0px 0px;">Provides a benefit through an account that is credited with company-paid compensation credits and interest credits.
+</p>
+
+<H2 class="bac" style="margin: 12px 0px 0px 0px; padding: 0px;">Rewarding Success Program<span style="font-size: 0.8em; position: relative; top: -0.6em;">&reg;</span></H2>
+<p style="margin: 6px 0px 0px 0px;">Rewards eligible associates for their contributions to the company's success. If the company meets or exceeds an annual financial target, associates receive an award which will be automatically deferred to the 401(k) plan, subject to IRS limits, unless they elect to receive some of or the entire award in cash.
+</p>
+
 <!-- #include file="../benefitsnav.asp" -->
 </div>
 				</td>

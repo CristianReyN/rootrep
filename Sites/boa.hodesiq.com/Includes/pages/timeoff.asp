@@ -1,4 +1,4 @@
-		<a name="skipmaincontent"></a><H1 style="margin: 0px <%=right_margin%>px 0px <%=left_margin_0%>px; padding: 0px;">Time Off</H1>
+		<a name="skipmaincontent"></a><H1 style="margin: 0px <%=right_margin%>px 0px <%=left_margin_0%>px; padding: 0px;">Time Away</H1>
 		<table width="578" cellpadding="0" cellspacing="0" border="0" summary="">
 			<tr valign="top">
 				<td width="373" height="100%" valign="top" style="<%=middle_content_padding%>">
@@ -7,30 +7,30 @@
 <img class="dotdiv" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
 	<%	href_pre = ""
 		if page_section <> "ADA" then href_pre = "../learnmore/" %>
-<p style="margin: 0px;">You'll receive time off and leaves on a paid and/or unpaid basis depending on your need and eligibility.</p>
-<H2 class="p" style="margin: 12px 0px 6px 0px; padding: 0px;"><span class="bd">Time off</span></H2>
-<ul>
-	<li>Vacation</li>
-	<li>Holidays</li>
-	<li>Occasional illness days</li>
-	<li>Bereavement</li>
-	<li>Jury Duty</li>
-</ul>
-<H2 class="p" style="margin: 12px 0px 6px 0px; padding: 0px;"><span class="bd">Leaves</span></H2>
-<ul>
-	<li>Short-term disability</li>
-	<li>Long-term disability</li>
-	<li>Maternity</li>
-	<li>Paternity</li>
-	<li>Adoption</li>
-	<li>Foster care</li>
-	<li>Family care</li>
-	<li>Personal</li>
-	<li>Military</li>
-	<li>Olympic</li>
-</ul>
+<p style="margin: 0px;">Bank&nbsp;of&nbsp;America offers associates a range of paid and unpaid leave options for taking the time they need away from work:</p>
 
-<br><br>
+<H2 class="bac" style="margin: 12px 0px 0px 0px; padding: 0px;">Time Off</H2>
+<p style="margin: 6px 0px 0px 0px;">Provides associates with both paid and unpaid time off from work for illness, vacation, holidays and other personal reasons (includes leave of absence policies).</p>
+
+<H2 class="bac" style="margin: 12px 0px 0px 0px; padding: 0px;">Parental Leave</H2>
+<p style="margin: 6px 0px 0px 0px;">Bank&nbsp;of&nbsp;America offers 12 weeks of paid parental leave, including maternity, paternity, or adoption leave.</p>
+
+<H2 class="bac" style="margin: 12px 0px 0px 0px; padding: 0px;">Purchased Time Off</H2>
+<p style="margin: 6px 0px 0px 0px;">Gives an associate the flexibility to purchase additional hours of personal time away from work that is available after regular vacation time is used. Manager approval is required.</p>
+
+<H2 class="bac" style="margin: 12px 0px 0px 0px; padding: 0px;">Short-term Disability (STD)</H2>
+<p style="margin: 6px 0px 0px 0px;">Provides partial income replacement if an associate is unable to work for more than seven consecutive calendar days, due to a qualifying disability, for up to 26 weeks.</p>
+
+<H2 class="bac" style="margin: 12px 0px 0px 0px; padding: 0px;">Long-term Disability (LTD)</H2>
+<p style="margin: 6px 0px 0px 0px;">Provides partial income replacement if an associate is unable to work due to a qualifying disability. Additional coverage can be purchased.</p>
+
+<H2 class="bac" style="margin: 12px 0px 0px 0px; padding: 0px;">Long-Term Care Insurance</H2>
+<p style="margin: 6px 0px 0px 0px;">Protects an associate and covered family members against the costs for care related to an extended illness, a serious injury or the effects of aging.</p>
+
+<p style="margin: 24px 0px 24px 0px;"><span style="font-size: 0.9em; line-height: 0.9em;">
+Not all associates are eligible to participate in all benefit programs. The terms and conditions of the benefits described above may be governed by written benefit plans and/or other documents. The above stated description of benefits is intended as a summary and for informational purposes only; this document does not create a contract between the company and any associate or potential associate.  All programs and benefits are subject to change at any time.
+</span></p>
+
 <!-- #include file="../worklifenav.asp" -->
 </div>
 				</td>

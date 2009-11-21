@@ -2,8 +2,8 @@
 			<tr valign="top"><td colspan="2" valign="top" class="divt"><img src="../images/clear.gif" width="100%" height="4" alt="" border="0"></td></tr>
 			<tr valign="top">
 				<td width="100%" colspan="2" valign="top">
-<img src="../images/benefits.jpg" width="578" height="166" alt="Explore a career with the Bank of Opportunity." title="Explore a career with the Bank of Opportunity." border="0">
-<div class="hidden">Benefits. Explore a career with the Bank of Opportunity.</div>
+<img src="../images/benefits_other_programs.jpg" width="578" height="166" alt="Explore a career with the Bank of Opportunity." title="Explore a career with the Bank of Opportunity." border="0">
+<div class="hidden">Benefits &amp; Other Programs. Explore a career with the Bank of Opportunity.</div>
 				</td>
 			</tr>
 			<tr valign="top"><td colspan="2" valign="top" class="divb"><img src="../images/clear.gif" width="100%" height="4" alt="" border="0"></td></tr>
@@ -16,61 +16,46 @@
 <div id="Layer1" style="position: relative; z-index: 12;">
 	<%	href_pre = ""
 		if page_section <> "ADA" then href_pre = "../learnmore/" %>
-<p style="margin: 0px 0px 0px 0px;">We offer one of the most competitive benefits packages in the financial services industry.</p>
+<p style="margin: 0px 0px 0px 0px;">At Bank&nbsp;of&nbsp;America, our work is defined by an unmatched commitment to our customers and our associates. We are proud of the excellence we achieve and the associates who make it possible. That's why we think it is important to provide premier benefits including health, life management, and retirement benefits that work together to support associates now and for the future.</p>
 
-<H2 class="p" style="margin: 12px 0px 0px 0px; padding: 0px;"><b>Performance-based compensation</b></H2>
-<p style="margin: 0px 0px 6px 0px;">
-In addition to strong base compensation, bonuses and incentive programs are important parts of our overall compensation package.</p>
+<H2 class="p" style="margin: 12px 0px 6px 0px; padding: 0px;"><b>Performance-based compensation</b></H2>
+<p style="margin: 0px 0px 0px 0px; padding: 0px;">In addition to strong base compensation, bonuses and incentive programs are important parts of our overall compensation package.</p>
 
-<H2 class="p" style="margin: 12px 0px 0px 0px; padding: 0px;"><b>Healthcare plans</b></H2>
-<p style="margin: 0px 0px 6px 0px;">
-We offer a variety of medical, dental and vision plans to our associates and their families (including domestic partners). We pay a majority of the cost for associate medical coverage.</p>
-
-<H2 class="p" style="margin: 12px 0px 0px 0px; padding: 0px;">
-<a href="<%Response.write href_pre%>insurance.asp" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="Insurance plans">Insurance plans</a></H2>
-<p style="margin: 0px 0px 6px 0px;">
-Our wide range of insurance plans provides income replacement in the event of serious injury or death.</p>
-
-<H2 class="p" style="margin: 12px 0px 0px 0px; padding: 0px;">
-<a href="<%Response.write href_pre%>reimbursement.asp" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="Reimbursement accounts">Reimbursement accounts</a></H2>
-<p style="margin: 0px 0px 6px 0px;">
-Reimbursement accounts help to lower the costs of health care and dependent care by allowing you to plan ahead using pre-tax dollars.</p>
-
-<H2 class="p" style="margin: 12px 0px 0px 0px; padding: 0px;">
-<a href="<%Response.write href_pre%>retirement.asp" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="Retirement plans">Retirement plans</a></H2>
-<p style="margin: 0px 0px 6px 0px;">
-We offer a voluntary 401(k) retirement saving plan and a company-funded pension plan.</p>
-
-<H2 class="p" style="margin: 12px 0px 0px 0px; padding: 0px;"><b>Discounts on bank products and services</b></H2>
-<p style="margin: 0px 0px 6px 0px;">
-Eligible associates can take advantage of discounts on a wide range of bank services, from checking accounts to credit cards.</p>
-
-<H2 class="p" style="margin: 12px 0px 0px 0px; padding: 0px;">
-<a href="<%Response.write href_pre%>homeloans.asp" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="Home loans">Home loans</a></H2>
-<p style="margin: 0px 0px 6px 0px;">
-A variety of mortgages are available through Associate Banking.</p>
-
-<H2 class="p" style="margin: 12px 0px 0px 0px; padding: 0px;"><b>Commuter benefits</b></H2>
-<p style="margin: 0px 0px 6px 0px;">
-This program allows associates to pay for many work-related commuting expenses on a pre-tax basis up to pre-defined IRS limits. An associate may enroll in the Program or make changes each month.</p>
-
-<H2 class="p" style="margin: 12px 0px 0px 0px; padding: 0px;"><b>Additional benefits</b></H2>
-<p style="margin: 0px 0px 6px 0px;">
-Other benefits available to our associates include:</p>
-<ul>
-	<li>Short-term disability</li>
-	<li>Long-term disability</li>
-	<li>Special leaves - bereavement, jury duty, Olympic, foster care, and military</li>
-	<li>Matching charitable gifts program</li>
-	<li>Long-term care</li>
-	<li>Home ownership program</li>
-	<li>Educational partnerships</li>
-	<li><a href="<%Response.write href_pre%>volgrantprog.asp" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="Volunteer grants program">Volunteer grants program</a></li>
-	<li>Volunteer Time Program</li>
-	<li>Commuter Benefits</li>
-	<li><a href="<%Response.write href_pre%>metlife_ahins.asp" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="MetLife Auto &amp; Home Insurance Program">MetLife Auto &amp; Home Insurance Program</a></li>
-	<li><a href="<%Response.write href_pre%>rewarding.asp" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="Rewarding Success">Rewarding Success</a></li>
+<H2 class="p" style="margin: 12px 0px 6px 0px; padding: 0px;">
+<a href="<%Response.write href_pre%>insurance.asp" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="Health &amp; Insurance Benefits">Health &amp; Insurance Benefits</a></H2>
+<ul style="margin-top: 0px;">
+	<li>We offer a choice of medical, dental and vision plans that will provide you and your family (including domestic partners) with high-quality healthcare. We pay a majority of the cost for associate medical coverage.</li>
+	<li>Our range of insurance plans provides income replacement in the event of serious injury or death.</li>
+	<li>We offer flexible spending accounts for healthcare and dependent care, as well as bank-funded healthcare accounts for eligible associates.</li>
 </ul>
+
+<H2 class="p" style="margin: 12px 0px 6px 0px; padding: 0px;">
+<a href="<%Response.write href_pre%>lifemanagement.asp" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="Life Management Benefits">Life Management Benefits</a></H2>
+<p style="margin: 0px 0px 0px 0px;">
+Our comprehensive Life Management programs are designed to assist associates with many of life's challenges and opportunities by providing benefits such as:</p>
+<ul style="margin-top: 0px;">
+	<li>Programs to help with locating and paying for dependent care</li>
+	<li>Adoption reimbursement</li>
+	<li>Flexible work arrangements</li>
+	<li>Tuition reimbursement</li>
+	<li>Support through our LifeCare<span style="font-size: 0.8em; position: relative; top: -0.6em;">&reg;</span> and Employee Assistance Programs</li>
+	<li>Auto & Home insurance</li>
+</ul>
+
+<H2 class="p" style="margin: 12px 0px 6px 0px; padding: 0px;">
+<a href="<%Response.write href_pre%>retirement.asp" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="Retirement Benefits">Retirement Benefits</a></H2>
+<p style="margin: 0px 0px 0px 0px;">
+We offer a 401(k) retirement savings plan with a company match after one year of service for contributions up to 5% of plan-eligible compensation, a company-funded pension plan, and our Rewarding Success Program, which rewards eligible associates for their contributions to the company's success.</p>
+
+<H2 class="p" style="margin: 12px 0px 6px 0px; padding: 0px;">
+<a href="<%Response.write href_pre%>otherprograms.asp" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="Other Programs: Your Finances, Community Commitments, and Education">Other Programs: Your Finances, Community Commitments, and Education</a></H2>
+<p style="margin: 0px 0px 0px 0px;">
+Bank&nbsp;of&nbsp;America also provides a dedicated Associate Banking &amp; Investments team, assistance with associate home ownership, and multiple programs to support our associates' commitment to volunteerism, charitable giving and education.</p>
+
+<p style="margin: 12px 0px 0px 0px;"><span style="font-size: 0.9em; line-height: 0.9em;">
+Not all associates are eligible to participate in all benefit programs. The terms and conditions of the benefits described above may be governed by written benefit plans and/or other documents. The above stated description of benefits is intended as a summary and for informational purposes only; this document does not create a contract between the company and any associate or potential associate. All programs and benefits are subject to change at any time.
+</span></p>
+
 <br><br>
 </div>
 				</td>
@@ -84,7 +69,7 @@ Other benefits available to our associates include:</p>
 <div style="border: 1px solid #e8e8e9; margin: 12px 0px 12px 0px; padding: 0px 0px 6px 0px;">
 	<H2 class="g" style="margin: 0px 0px 0px 0px;">Related Information</H2>
 	<img src="../images/clear.gif" width="100%" height="1" alt="" border="0" style="margin: 1px 0px 0px 0px; background: #e8e8e9;" align="top"><br clear="all">
-	<div  style="padding: 0px 5px 0px 4px;">
+	<div style="padding: 0px 5px 0px 4px;">
 <!-- #include file="../relinfonav.asp" -->
 	</div>					
 </div>

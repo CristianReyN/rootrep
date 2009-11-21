@@ -1,37 +1,29 @@
-	<%	href_pre = ""
+<%	href_pre = ""
 		If page_section <> "ADA" Then href_pre = "../learnmore/" %>
+<p style="margin: 24px 0px 24px 0px;"><span style="font-size: 0.9em; line-height: 0.9em;">
+Not all associates are eligible to participate in all benefit programs. The terms and conditions of the benefits described above may be governed by written benefit plans and/or other documents. The above stated description of benefits is intended as a summary and for informational purposes only; this document does not create a contract between the company and any associate or potential associate. All programs and benefits are subject to change at any time.
+</span></p>
 <%	If tpage <> "insurance" Then %>
 <p style="margin: 12px 0px 0px 0px;">
-<a href="<%Response.write href_pre%>insurance.asp" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="Insurance plans">Insurance plans</a>
+<a href="<%Response.write href_pre%>insurance.asp" class="left2" title="Health &amp; Insurance Benefits">Health &amp; Insurance Benefits</a>
 </p>
 <%	End If %>
-<%	If tpage <> "reimbursement" Then %>
+<%	If tpage <> "lifemanagement" Then %>
 <p style="margin: 12px 0px 0px 0px;">
-<a href="<%Response.write href_pre%>reimbursement.asp" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="Reimbursement accounts">Reimbursement accounts</a>
+<a href="<%Response.write href_pre%>lifemanagement.asp" class="left2" title="Life Management Benefits">Life Management Benefits</a>
 </p>
 <%	End If %>
 <%	If tpage <> "retirement" Then %>
 <p style="margin: 12px 0px 0px 0px;">
-<a href="<%Response.write href_pre%>retirement.asp" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="Retirement plans">Retirement plans</a>
+<a href="<%Response.write href_pre%>retirement.asp" class="left2" title="Retirement Benefits">Retirement Benefits</a>
 </p>
 <%	End If %>
-<%	If tpage <> "homeloans" Then %>
+<%	If tpage <> "otherprograms" Then %>
 <p style="margin: 12px 0px 0px 0px;">
-<a href="<%Response.write href_pre%>homeloans.asp" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="Home loans">Home loans</a>
+<a href="<%Response.write href_pre%>otherprograms.asp" class="left2" title="Other Programs: Your Finances, Community Commitments, and Education">Other Programs: Your Finances, Community Commitments, and Education</a>
 </p>
 <%	End If %>
-<%	If tpage <> "volunteergrants" Then %>
-<p style="margin: 12px 0px 0px 0px;">
-<a href="<%Response.write href_pre%>volgrantprog.asp" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="Volunteer grants program">Volunteer grants program</a>
-</p>
-<%	End If %>
-<%	If tpage <> "metlifeautohomeinsurance" Then %>
-<p style="margin: 12px 0px 0px 0px;">
-<a href="<%Response.write href_pre%>metlife_ahins.asp" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="MetLife Auto & Home Insurance Program">MetLife Auto & Home Insurance Program</a>
-</p>
-<%	End If %>
-<%	If tpage <> "rewarding" Then %>
-<p style="margin: 12px 0px 0px 0px;">
-<a href="<%Response.write href_pre%>rewarding.asp" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="Rewarding Success">Rewarding Success</a>
-</p>
-<%	End If %>
+
+
+
+

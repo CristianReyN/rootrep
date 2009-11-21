@@ -8,7 +8,7 @@
 <p style="margin: 0px;">You may be able to take advantage of a work arrangement that gives you flexibility in balancing your life and work schedules. Flexible work arrangements are mutually agreed upon by a manager and an associate.</p>
 <H2 class="p" style="margin: 12px 0px 6px 0px; padding: 0px;"><span class="bd">Work arrangement options</span></H2>
 <ul>
-	<li><span class="bd">My Work<span style="font-size: 0.8em; position: relative; top: -0.6em;">&reg;</span>.</span> With the My Work program, associates are provided the opportunity to work from a variety of corporate bank locations or from home instead of a traditional, dedicated cube or office</li>
+	<li><a href="<%Response.write href_pre%>retirement.asp" class="left2" title="My Work &reg;">My Work<span style="font-size: 0.8em; position: relative; top: -0.6em;">&reg;</span></a>. With the My Work program, associates are provided the opportunity to work from a variety of corporate bank locations or from home instead of a traditional, dedicated cube or office</li>
 	<li><span class="bd">FlexTime.</span> The opportunity to alter starting and/or departure times</li>
 	<li><span class="bd">Compressed workweeks.</span> Condenses a full-time workweek into fewer days</li>
 	<li><span class="bd">Telecommuting.</span> The ability to perform all or part of your work from a location other than your normal work site</li>
