@@ -34,7 +34,8 @@ public partial class Tell_a_friend : System.Web.UI.Page
         message.IsBodyHtml = false;
         strMailBody = MessageBox.Text.ToString() + Environment.NewLine + "http://boa.hodesiq.com/jobdetails.aspx?JobId=" + JobId + "&SearchPage=Sp";
         message.Body = strMailBody;
-        SmtpClient client = new SmtpClient("localhost");
+        SmtpClient client = new SmtpClient("localhost"); 
+		client.DeliveryMethod=SmtpDeliveryMethod.PickupDirectoryFromIis;
         try
         {
             client.Send(message);
