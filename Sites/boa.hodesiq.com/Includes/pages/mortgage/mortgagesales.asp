@@ -28,18 +28,14 @@
 <br><img src="../../images/clear.gif" width="10" height="12" alt="" border="0" /><br>
 <p class="bacg">Join Bank&nbsp;of&nbsp;America Mortgage today, and use your skills and knowledge to start Bringing Opportunity Home &mdash; for customers, and for yourself.</p>
 <%
-Dim familyid,rowcount
-'familyid=11
-talentid=11
+Dim familyid, rowcount
+talentid=12
 rowcount=6
 %>
 <H2 class="h2" style="margin: 12px <%=right_margin%>px 2px 0px;">New Opportunities</H2>
 <table cellpadding="2" cellspacing="0" border="0" summary="" style="margin-left: <%=left_margin_0%>px;">
 <!--#include file="../../../hot_jobs.asp"-->
 </table>
-
-<p style="margin: 12px <%=right_margin%>px 2px <%=left_margin_0%>px;"><a class="ip" href="../../jobsearch.aspx?jobareas=11|-1&stateid=-1&cityid=-1&keywords=&SearchPage=Sp">View current jobs in Corporate Workplace</a></p>
-
 <br><br>
 				</td>
 				<td width="205" height="100%" valign="top">

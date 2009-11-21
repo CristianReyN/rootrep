@@ -8,6 +8,7 @@
 %>
 <select name="jobareas" id="jobareas" title="Select a Job Area"<%=c_lass%><%=style%>>
 	<option value="Select a Job Area"<%If jobareas="Select a job area" Or jobareas="" Then Response.write " selected"%>>Select a job area</option>
+<% If tpage <> "aot_locations" And tpage <> "lob_locations" Then %>
 <optgroup label="Administration">
 	<option value="1|-1"<%If jobareas="1|-1" Then Response.write " selected"%>>All Administration</option>
 	<option value="1|4"<%If jobareas="1|4" Then Response.write " selected"%>>Change Mgmt &amp; Process</option>
@@ -41,6 +42,7 @@
 <optgroup label="Human Resources">
 	<option value="5|-1"<%If jobareas="5|-1" Then Response.write " selected"%>>All Human Resources</option>
 </optgroup>
+<% End If %>
 <optgroup label="Mortgage ">
 	<option value="12|1"<%If jobareas="12|1" Then Response.write " selected"%>>Administration</option>
 	<option value="12|13"<%If jobareas="12|13" Then Response.write " selected"%>>Credit</option>
@@ -52,6 +54,7 @@
 	<option value="12|19"<%If jobareas="12|19" Then Response.write " selected"%>>Sales</option>
 	<option value="12|21"<%If jobareas="12|21" Then Response.write " selected"%>>Technology</option>
 </optgroup>
+<% If tpage <> "aot_locations" And tpage <> "lob_locations" Then %>
 <optgroup label="Operations">
 	<option value="6|17"<%If jobareas="6|17" Then Response.write " selected"%>>All Operations</option>
 	<option value="6|4"<%If jobareas="6|4" Then Response.write " selected"%>>Change Mgmt &amp; Process</option>
@@ -69,6 +72,7 @@
 <optgroup label="Technology">
 	<option value="9|-1"<%If jobareas="9|-1" Then Response.write " selected"%>>All Technology</option>
 </optgroup>
+<% End If %>
 </select>
 <%
 	End Function

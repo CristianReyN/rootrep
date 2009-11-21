@@ -1,20 +1,19 @@
 <% Response.Buffer=True 
 Dim title, mpage, spage, ada_href, ada_title, job_search_action, Metatag%>
 <!-- #include file="../includes/breadcrumb.asp" -->
-<% title = breadcrumb & "Job Areas | Mortgage Careers"
-mpage = "areasoftalent"
-spage = "mortgagecareers"
-tpage = ""
-ada_href = "../ada/mortgagecareers.asp"
-page_self = "../mortgagecareers/default.asp"
-ada_title = breadcrumb & "Job Areas | Mortgage Careers"
+<% title = breadcrumb & "Lines of Business | Mortgage Careers | Home Equity"
+mpage = "lob"
+spage = "lob_mortgagecareers"
+tpage = "lob_homeequity"
+ada_href = "../ada/lob_homeequity.asp"
+page_self = "../mortgage/homeequity.asp"
+ada_title = breadcrumb & "Lines of Business | Mortgage Careers | Home Equity"
 job_search_action = "../jobsearch/searchresult.asp"
 Dim flashPage
 flashPage = false
 Dim subtitle
-subtitle="Mortgage Careers"
+subtitle="Home Equity"
 Metatag=""
-Keywords=""
 '****************************** ADDED FOR HOT JOB OPENING***************************
 %>
 <!-- Header -->
@@ -31,7 +30,7 @@ Keywords=""
 	<td valign="top" width="578" height="100%">
 <!-- Body-->
 <img src="../images/clear.gif" width="15" height="4" alt="" border="0"><br>
-<!-- #include file="../includes/pages/mortgage/mortgagecareers.asp" -->
+<!-- #include file="../includes/pages/mortgage/homeequity.asp" -->
 <br><br>
 <!-- Body-->
 	</td>

@@ -815,6 +815,7 @@ p.bac, p.bacb {margin: 12px 0px 0px 0px;}
 p.bacb {font-weight : bold;}
 h2.bacs, h2.bacg, h3.bacs, h3.bacg, p.bacs, p.bacg {margin: 15px 0px 0px 0px;}
 h2.bacg, h3.bacg, p.bacg {display: inline; margin: 0px;}
+.smaler {font-size : 0.9em;}
 ul.bac {margin-top: 12px; margin-bottom: 0px;}
 ul.bacp {margin-top: 12px; margin-bottom: 0px;}
 img.bac
