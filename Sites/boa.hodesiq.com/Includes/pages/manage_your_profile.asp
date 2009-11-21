@@ -19,7 +19,7 @@ You may continue to search for jobs, as well as navigate to all other sections w
 <br><br>
 Bank of America strives to continue to improve our overall Careers site to ensure the best experience possible for our visitors.  We apologize for any inconvenience during this time.  
 <br><br>
-Please come back on Monday, 7/20 to revisit our site and explore all the new features!  Also note that any information that you have previously provided has been maintained and will be accessible at that time.
+Please come back on Monday, 8/24 to revisit our site and explore all the new features!  Also note that any information that you have previously provided has been maintained and will be accessible at that time.
 <br><br>
 <a href="<%=Request.ServerVariables ("HTTP_REFERER") %>" class="p" title="Return to the previous page">Return to the previous page</a>
 </p>
