@@ -74,7 +74,7 @@ function loadVideoHost()
 requiredMajorVersion = 8;
 requiredVersion = 8;
 hasRequestedVersion = DetectFlashVer(requiredMajorVersion, requiredMinorVersion, requiredRevision);
-var reqFlashPlayer = '<a href="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash" title="This page requires Adobe Flash Player version '+requiredMajorVersion+'. Please download latest version." class="p" onfocus="this.className=\'p-over\';" onblur="this.className=\'p\';">This page requires Adobe Flash Player version '+requiredMajorVersion+'. Please download latest version.</a>';
+var reqFlashPlayer = '<a href="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash" title="This video requires Adobe Flash Player version '+requiredMajorVersion+'. Please download latest version." class="p" onfocus="this.className=\'p-over\';" onblur="this.className=\'p\';">This video requires Adobe Flash Player version '+requiredMajorVersion+'. Please download latest version.</a>';
 var helpLinks = '<table width="160" height="60" cellpadding="0" cellspacing="0" border="0" summary="" style="margin-top: 13px; background: #ebebeb; border-top: 1px solid #dadada; border-bottom: 1px solid #dadada;"><tr><td style="padding: 5px 11px 5px 12px;"><div style="border: 1px solid #dadada;"><img src="../images/piper.jpg" width="52" height="52" alt="'+(hasRequestedVersion?'Replay Video Host':'Video transcripts')+'" border="0" style="border: 1px solid #ebebeb;"></div></td><td width="100%">'+(hasRequestedVersion?replayVideoHost:'')+videoTranscripts+'</td></tr></table>'+(hasRequestedVersion?'':'<p style="margin: 6px 6px 0px 6px;">'+reqFlashPlayer+'</p>');
 
 if ( hasRequestedVersion ) {
@@ -100,10 +100,10 @@ if ( hasRequestedVersion ) {
 <table width="160" height="60" cellpadding="0" cellspacing="0" border="0" summary="" style="margin-top: 0px; background: #ebebeb; border-top: 1px solid #dadada; border-bottom: 1px solid #dadada;"><tr><td style="padding: 5px 11px 5px 12px;"><div style="border: 1px solid #dadada;"><img src="../images/piper.jpg" width="52" height="52" alt="Video transcripts" border="0" style="border: 1px solid #ebebeb;"></div></td><td width="100%"><p style="margin: 6px 0px 0px 0px;"><a href="<%=ada_href %>" title="Video transcripts" class="p" onfocus="this.className='p-over';" onblur="this.className='p';">Video<br>transcripts</a></p></td></tr></table>
 </div>
 <div id="flash_in" style="position: absolute; display: inline; z-index: 200;">
-<object tabindex="0" onmousedown="if(document.getElementById('skipflash2')) document.getElementById('skipflash2').focus();" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"  codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="310" height="390" title="virtualhost" id=ShockwaveFlash1>
+<object tabindex="0" onmousedown="if(document.getElementById('skipflash2')) document.getElementById('skipflash2').focus();" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"  codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="310" height="390" title="virtualhost" id="ShockwaveFlash1">
   <param name="movie" value="http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/virtualhost.swf" />
   <param name="quality" value="high" />
-  <param value="transparent" name="wmode" />
+  <param name="wmode" value="transparent" />
   <embed src="http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/virtualhost.swf" wmode="transparent" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="310" height="390"></embed>
 </object>
 </div>
