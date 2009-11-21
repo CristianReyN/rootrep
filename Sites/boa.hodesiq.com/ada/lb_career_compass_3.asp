@@ -1,9 +1,8 @@
 <% Response.Buffer=True 
 Dim title, mpage, spage, ada_href, ada_title, job_search_action,page_section, Metatag
 title = "Bank of America | Career | Campus Recruiting | Career Compass"
-mpage = "learnmore"
-spage = "collrecruiting"
-tpage = "lb_career_compass"
+mpage = "lob"
+spage = "lb_career_compass"
 standart_href = "../learnmore/lb_career_compass.asp"
 job_search_action = "../jobsearch/searchresult.asp"
 Metatag="Page designed for student recruiting. Links available on the page: undergraduate/analyst programs, graduate/associate programs, internships and a campus recruiting calendar. The option to do a job search is also present on this page."

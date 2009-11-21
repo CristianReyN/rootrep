@@ -1,4 +1,4 @@
-		<a name="skipmaincontent"></a><H1 class="hidden">Corporate Information</H1>
+		<a name="skipmaincontent"></a><H1 class="hidden">Lines of Business</H1>
 		<table width="578" cellpadding="0" cellspacing="0" border="0" summary="">
 			<tr valign="top">
 				<td width="578" colspan="2" valign="top" style="padding: 0px 0px 0px 12px;">
@@ -23,7 +23,7 @@ Sed condimentum gravida neque. Nulla sem enim, nonummy eget, facilisis et, ortor
 	if page_section <> "ADA" then href_pre = "../learnmore/" %>
 <!-- #include file="../programs.asp" -->
 <% 
-	call getLobSelectForm(""," style=""width: 100%; margin: 0px 0px 6px 0px;""","--- Select A Line of Business ---",href_pre,tpage)
+	call getLobSelectForm(""," style=""width: 100%; margin: 0px 0px 6px 0px;""","--- Select A Line of Business ---",href_pre,spage)
 %>
 </p>
 <br><br><br>
@@ -36,12 +36,8 @@ Sed condimentum gravida neque. Nulla sem enim, nonummy eget, facilisis et, ortor
 <!-- #include file="../jobsearch.asp" -->
 </div>
 
-<div style="border: 1px solid #e8e8e9; margin: 12px 0px 12px 0px; padding: 0px 0px 6px 0px;">
-	<H2 class="g" style="margin: 0px 0px 0px 0px;">Related Information</H2>
-	<img src="../images/clear.gif" width="100%" height="1" alt="" border="0" style="margin: 1px 0px 0px 0px; background: #e8e8e9;" align="top"><br clear="all">
-	<div  style="padding: 0px 5px 0px 4px;">
-<!-- #include file="../relinfonav.asp" -->
-	</div>
+<div style="text-align: center; margin: 0px; padding: 0px;">
+<!-- #include file="../talkingatm.html" -->
 </div>
 				</td>
 			</tr>

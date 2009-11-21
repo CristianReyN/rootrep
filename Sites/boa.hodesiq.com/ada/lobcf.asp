@@ -1,21 +1,17 @@
 <% Response.Buffer=True 
 Dim title, mpage, spage, ada_href, ada_title, job_search_action,page_section, Metatag
-title = "Bank of America | Career | Campus Recruiting | Career Compass"
+title = "Bank of America | Career | Corporate Finance"
 mpage = "lob"
-spage = "lb_career_compass"
-standart_href = "../learnmore/lb_career_compass.asp"
+spage = "lobcss"
+tpage = "lobcf"
+standart_href = "../learnmore/lobcf.asp"
 job_search_action = "../jobsearch/searchresult.asp"
-Metatag="Page designed for student recruiting. Links available on the page: undergraduate/analyst programs, graduate/associate programs, internships and a campus recruiting calendar. The option to do a job search is also present on this page."
-page_self = "../ada/lb_career_compass.asp"
+Metatag="Information is available on this page discussing the lines of business within Bank of America and a link to the values of the organization."
+page_self = "../ada/lobcf.asp"
 page_section="ADA"
 Dim flashPage
 flashPage = false
-	
-	page_number = 4
-	previous_page_number = page_number - 1
-	next_page_number = page_number + 1
 %>
-<!-- #include file="../includes/pages/lb_career_compass_function.asp" -->
 <!-- Header -->
 <!-- #include file="header.asp" -->
 <!-- Header -->
@@ -31,7 +27,7 @@ flashPage = false
 	<td valign="top" width="578" height="100%">
 <!-- Body-->
 <img src="../images/clear.gif" width="15" height="4" alt="" border="0"><br>
-<!-- #include file="../includes/pages/lb_career_compass.asp" -->
+<!-- #include file="../includes/pages/lobcf.asp" -->
 <br><br>
 <!-- Body-->
 	</td>

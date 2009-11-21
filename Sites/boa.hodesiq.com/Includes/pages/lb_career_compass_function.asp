@@ -17,7 +17,7 @@
 		Set page = pages(page_number)
 	Else
 '******** CALCULATE FINAL PAGE *********'
-		call createPage(page,4,"Opportunity Awaits","Based on your answers, you're likely to find the following areas most suited to your skills and interests:")
+		call createPage(page,4,"Opportunity Awaits","We encourage you to explore and learn more about all of Bank of America's Lines of Business. However, based on your answers - you may find it beneficial to start with the following areas:")
 '****** CALCULATE PROGRAM POINTS *******'
 		For p=1 To UBound(pages) Step 1
 			Set result_page = pages(p)

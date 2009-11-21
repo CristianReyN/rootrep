@@ -1,9 +1,8 @@
 <% Response.Buffer=True 
 Dim title, mpage, spage, ada_href, ada_title, job_search_action,page_section, Metatag
 title = "Bank of America | Career | Corporate Information | Global Corporate Investment Bank"
-mpage = "learnmore"
-spage = "corpinfo"
-tpage = "lobgcib"
+mpage = "lob"
+spage = "lobgcib"
 standart_href = "../learnmore/lobgcib.asp"
 job_search_action = "../jobsearch/searchresult.asp"
 Metatag="Information is available on this page discussing the lines of business within Bank of America and a link to the values of the organization."

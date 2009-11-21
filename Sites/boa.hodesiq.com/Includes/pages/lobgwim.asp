@@ -1,8 +1,17 @@
-		<a name="skipmaincontent"></a><H1 class="hidden">Corporate Information</H1>
+		<table width="578" cellpadding="0" cellspacing="0" border="0" summary="">
+			<tr valign="top"><td colspan="2" valign="top" class="divt"><img src="../images/clear.gif" width="100%" height="4" alt="" border="0"></td></tr>
+			<tr valign="top">
+				<td width="100%" colspan="2" valign="top">
+<img src="../images/gwim.jpg" width="578" height="166" alt="Explore a career with the Bank of Opportunity." title="Explore a career with the Bank of Opportunity." border="0">
+<div class="hidden">Global Wealth &amp; Investment Management. Explore a career with the Bank of Opportunity.</div>
+				</td>
+			</tr>
+			<tr valign="top"><td colspan="2" valign="top" class="divb"><img src="../images/clear.gif" width="100%" height="4" alt="" border="0"></td></tr>
+		</table>
+		<a name="skipmaincontent"></a><H1 class="hidden">Global Wealth &amp; Investment Management</H1>
 		<table width="578" cellpadding="0" cellspacing="0" border="0" summary="">
 			<tr valign="top">
-				<td width="578" colspan="2" valign="top" style="padding: 0px 0px 0px 12px;">
-<H2 class="h1" style="margin: 2px 0px 0px 0px;">Global Wealth &amp; Investment Management</H2>
+				<td width="578" colspan="2" valign="top" style="padding: 15px 0px 0px 12px;">
 				</td>
 			</tr>
 			<tr valign="top">
@@ -14,33 +23,27 @@
 	<li>Deliver integrated wealth management solutions to high net worth individuals, middle-market institutions, and charitable organizations</li>
 </ul>
 <p style="margin: 12px 0px 12px 0;">
-Global Wealth &amp; Investment Management (GWIM) takes opportunity to a whole new level. GWIM associates provide comprehensive banking and investment services tailored to meet the changing wealth management goals of more than 3 million individual and institutional customers.
+Global Wealth &amp; Investment Management (GWIM) offers opportunities to highly motivated and talented individuals in most major cities in the United States. GWIM associates provide comprehensive banking and investment services tailored to meet the changing wealth management goals of more than 3 million individual and institutional customers. A career with GWIM is your opportunity to develop broad expertise in varied areas, such as financial planning, wealth access strategy, investments, retirement solutions, trusts and specialty asset management. We offer the opportunity to listen to our customers and deliver integrated wealth management solutions to high net-worth individuals, middle-market institutions and charitable organizations.
 <br><br>
-These high net worth clients have access to services offered through three primary Bank of America businesses:
+Global Wealth &amp; Investment Management consists of several unique lines of business each uniquely suited to meet the needs of our clients:
+<br><br>
+<span class="left2" style="color: #405EBE; text-decoration: underline;">Bank of America Retirement &amp; Client Solutions</span>
+<br><br>
+<a href="http://www.columbiafunds.com/home.htm" target="_blank" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="Columbia Management">Columbia Management</a>
+<br><br>
+<a href="http://www.bankofamerica.com/premierbanking/index.cfm?template=overview&state=NC#skipnav" target="_blank" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="Premier Banking &amp; Investments">Premier Banking &amp; Investments</a>
+<br><br>
+<a href="http://www.bankofamerica.com/privatewealthmanagement/index.cfm?cm_sp=PWM-_-UST-_-WIMhublink" target="_blank" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="US Trust Bank of America Private Wealth Management">US Trust Bank of America Private Wealth Management</a>
 </p>
-<p style="margin: 12px 0px 12px 0;">
-<span style="color: #405EBE; font-weight : bold;">Premier Banking &amp; Investments<span style="font-size: 0.6em; position: relative; top: -0.6em;">TM</span></span></span> delivers integrated banking and investment solutions through a network of nearly 4,400 client advisors serving clients with $100,000 in investable assets or $500,000 in investable assets including a first mortgage. Services include financial planning, customized products, and relationship pricing through 2 key areas, Private Wealth and Bank of America Investment Services, Inc.® (BAI), a full-service and online brokerage. 
-<br><br>
-<span style="color: #405EBE; font-weight : bold;">The Private Wealth Bank of Bank of America</span> provides integrated wealth-management solutions to high net worth individuals, middle-market institutions, and charitable organizations with investable assets of greater than $3 million. The Family Wealth Advisors division of The Private Bank serves ultra high net worth individuals and families with $50 million or more in investable assets. Services include wealth strategy, credit, deposit, investment, and trust and specialty asset management.
-<br><br>
-<span style="color: #405EBE; font-weight : bold;">Columbia Management</span> is Bank of America's asset management organization. Columbia provides investment management solutions to institutional clients and individual investors. Services include separately managed accounts, liquidity strategies, and mutual funds across a variety of investment disciplines within equities, fixed income, and cash.
-</p>
-
-<h3 class="p"><span style="color: #405EBE; font-weight : bold;">Fast Facts</span> about Global Wealth &amp; Investment Management</h3>
-<ul>
-	<li>As of December 31, 2006, Columbia Management and its affiliates managed assets of $542.9 billion</li>
-	<li>More wealthy individuals and families choose The Private Bank to provide personal trust and wealth management solutions than any other institution</li>
-</ul>
 <p style="margin: 24px 0px 12px 0px;">
 <%	href_pre = ""
 	if page_section <> "ADA" then href_pre = "../learnmore/" %>
 <!-- #include file="../programs.asp" -->
 <% 
-	call getLobSelectForm(""," style=""width: 100%; margin: 0px 0px 6px 0px;""","--- Select A Line of Business ---",href_pre,tpage)
+	call getLobSelectForm(""," style=""width: 100%; margin: 0px 0px 6px 0px;""","--- Select A Line of Business ---",href_pre,spage)
 %>
 </p>
-<br><br><br>
-<!-- #include file="../corpinfonav.asp" -->
+<br><br>
 				</td>
 				<td width="205" height="100%" valign="top">
 <div style="border: 1px solid #e8e8e9; margin: 12px 0px 12px 0px; padding: 0px 0px 6px 0px;">
@@ -49,12 +52,8 @@ These high net worth clients have access to services offered through three prima
 <!-- #include file="../jobsearch.asp" -->
 </div>
 
-<div style="border: 1px solid #e8e8e9; margin: 12px 0px 12px 0px; padding: 0px 0px 6px 0px;">
-	<H2 class="g" style="margin: 0px 0px 0px 0px;">Related Information</H2>
-	<img src="../images/clear.gif" width="100%" height="1" alt="" border="0" style="margin: 1px 0px 0px 0px; background: #e8e8e9;" align="top"><br clear="all">
-	<div  style="padding: 0px 5px 0px 4px;">
-<!-- #include file="../relinfonav.asp" -->
-	</div>
+<div style="text-align: center; margin: 0px; padding: 0px;">
+<!-- #include file="../talkingatm.html" -->
 </div>
 				</td>
 			</tr>

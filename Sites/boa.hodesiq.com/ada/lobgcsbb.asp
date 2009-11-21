@@ -1,9 +1,8 @@
 <% Response.Buffer=True 
 Dim title, mpage, spage, ada_href, ada_title, job_search_action,page_section, Metatag
-title = "Bank of America | Career | Corporate Information | Global Consumer & Small Business Banking"
-mpage = "learnmore"
-spage = "corpinfo"
-tpage = "lobgcsbb"
+title = "Bank of America | Career | Corporate Information | Global Consumer &amp; Small Business Banking"
+mpage = "lob"
+spage = "lobgcsbb"
 standart_href = "../learnmore/lobgcsbb.asp"
 job_search_action = "../jobsearch/searchresult.asp"
 Metatag="Information is available on this page discussing the lines of business within Bank of America and a link to the values of the organization."
