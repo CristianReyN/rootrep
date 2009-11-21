@@ -62,9 +62,8 @@ DIV.transcript p, DIV.ptranscript p
 {
 	font-family : Verdana, Helvetica, sans-serif;
 	font-size : 0.9em;
-	line-height : 1.0em;
 	font-weight : normal;
-    color: #333333;
+	color: #333333;
 	text-align: left;
 	margin: 0px;
 	padding: 0px;
