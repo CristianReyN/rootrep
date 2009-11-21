@@ -19,7 +19,7 @@
 <ul>
 	<li><a href="<%Response.write href_pre%>flexible_wa.asp" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="Flexible work arrangements">Flexible work arrangements</a><br>
 Our associates often take advantage of flexible work arrangements such as telecommuting, compressed workweeks, flextime, and other options.<br><br></li>
-	<li><a href="<%Response.write href_pre%>lifeworks.asp" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" style="text-decoration: none;" title="LifeWorks &reg;"><span style="text-decoration: underline;">LifeWorks</span><sup><span class="body2" style="font-size: 100%;">&reg;</span></sup></a><br>
+	<li><a href="<%Response.write href_pre%>lifeworks.asp" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" style="text-decoration: none;" title="LifeWorks &reg;"><span style="text-decoration: underline;">LifeWorks</span><span style="font-size: 0.8em; position: relative; top: -0.6em;">&reg;</span></a><br>
 A free, confidential resource and consultation service to help alleviate the pressures of managing everyday work, personal, and family responsibilities.<br><br></li>
 	<li><a href="<%Response.write href_pre%>emplassistance.asp" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="Employee assistance program (EAP)">Employee assistance program (EAP)</a><br>
 Provides free, confidential, short-term counseling for problems involving stress, family, mental health, and alcohol or other drug abuse.<br><br></li>
