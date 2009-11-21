@@ -35,11 +35,11 @@
 		    <table width="578" cellpadding="0" cellspacing="0" border="0" summary="Campus Events. The first tab displays all campus events in the US, the second tab displays all campus events in EMEA, and the third tab displays all campus events in Asia.  You can narrow the search results for each region by selecting a degree level and/or school.">
 			    <tr>
 				<td valign="bottom">
-					<asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/CampusEvents.aspx?region=U.S." ImageUrl="~/images/camp/t1.gif" ToolTip="Campus events in the US" alt="Campus events in the US"></asp:HyperLink></td>
+					<asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/CampusEvents.aspx?region=1" ImageUrl="~/images/camp/t1.gif" ToolTip="Campus events in the US" alt="Campus events in the US"></asp:HyperLink></td>
 				<td valign="bottom">
-					<asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/CampusEvents.aspx?region=EMEA" ImageUrl="~/images/camp/t2a.gif" ToolTip="Campus events in EMEA" alt="Campus events in EMEA"></asp:HyperLink></td>
+					<asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/CampusEvents.aspx?region=2" ImageUrl="~/images/camp/t2a.gif" ToolTip="Campus events in EMEA" alt="Campus events in EMEA"></asp:HyperLink></td>
 				<td valign="bottom">
-					<asp:HyperLink ID="HyperLink3" runat="server" NavigateUrl="~/CampusEvents.aspx?region=Asia" ImageUrl="~/images/camp/t3a.gif" ToolTip="Campus events in Asia" alt="Campus events in Asia"></asp:HyperLink></td>
+					<asp:HyperLink ID="HyperLink3" runat="server" NavigateUrl="~/CampusEvents.aspx?region=3" ImageUrl="~/images/camp/t3a.gif" ToolTip="Campus events in Asia" alt="Campus events in Asia"></asp:HyperLink></td>
 				<td width="100%" background="<%=imagePath %>/images/camp/trtb.gif" valign="bottom" align="right"><img src="<%=imagePath %>/images/camp/trt.gif" border="0" alt="" /></td>
 			    </tr>
 		    </table>
@@ -50,7 +50,7 @@
 		    <table width="100%" cellpadding="0" cellspacing="0" border="0" summary="">
 			    <tr>
 				<td style="background:url(<%=imagePath %>/images/camp/tl.gif) repeat-y;" valign="top">
-					<img src="<%=imagePath %>/images/camp/tl.gif" width="6" height="595" border="0" alt="" />
+					<img src="<%=imagePath %>/images/camp/tl.gif" width="6" height="<%=contentHeight %>" border="0" alt="" />
 				</td>
 				<td  valign="top">
                     <table width="100%" summary="" cellpadding="0" cellspacing="0" border="0">
@@ -62,7 +62,8 @@
 		                        </tr>
 		                        
 		                        
-		                        
+		                        <%if (!"2".Equals(GetRegionId()))
+                            { %>
 		                        <tr>			
 			                        <td colspan="4" style="height: 15px">
 		                        
@@ -92,7 +93,7 @@
                                 </table>
                                 </td>
                                 </tr>
-                                
+                                <%} %>
                                 <tr>
                                 <td align="left" colspan="2" style="height: 15px">
                                 </td>
@@ -110,8 +111,20 @@
 		                        
 		                        
 		                        
-                                <tr class="trEvtTop">
                                 
+                     <%if("2".Equals(GetRegionId())){ %>
+                     <tr>
+                     <td>
+                     Selecting the button below allows for searching and registering for Campus Events in the EMEA region.
+                     </td>
+                     </tr>
+                     <tr>
+                     <td align="right" valign="bottom">
+                     <a href="javascript:openWindow('https://static.wcn.co.uk/company/ml/event_search.html')"><img src="<%=imagePath %>/images/camp/Search&Register.jpg" border="0" alt="Search & Register, link opens in a new window." /></a>
+                     </td>
+                     </tr>
+                     <%}else{ %>
+                     <tr class="trEvtTop">           
                     <td align="left" width="35%" class="pagingHeader"> <%=pager.StartEventNo()%>-<%=pager.EndEventNo()%> of <%=pager.GetTotalCount()%> events</td><td align="right" width="65%" class="pagingHeader">
                     <%if (pager.HasPreviousPage())
                       { %>
@@ -120,13 +133,15 @@
                     <%if (pager.HasNextPage())
                       {%>
                     <asp:LinkButton ID="LinkButton2" ToolTip="View next page" runat="server" OnClick="LinkButton2_Click" PostBackUrl="" CssClass = "linkPagingLeft"> Next &#187;</asp:LinkButton>
-                    <%} %></td>
+                    <%}%></td>
                     </tr>
+                    <%} %>
                     </table>
                     </td>
                 </tr>
                 
                                 <tr> <td colspan="4"> &nbsp;</td></tr>
+                                <%if(!"2".Equals(GetRegionId())){ %>
                                 <tr> <td colspan="4">
                                 
                                 <asp:Table ID="Table1" width="560" runat="server" summary="For each region, the first column is the date.  The second column is the school.  The third column is the event.  The fourth column is the business.">
@@ -176,6 +191,7 @@
                                     <%} %>
                                     </td>
                                 </tr>
+                                <%} %>
                             </table>                
                         <asp:HiddenField ID="regionElem" runat="server">
                         </asp:HiddenField>
@@ -203,7 +219,15 @@
 		    
 		    
 		    
-		    
+<script language="javascript" type="text/javascript">
+//<!--
+function openWindow(theUrl) 
+{ 
+    window.open(theUrl); 
+}
+
+//-->
+</script>		    
 		    
 		    
             

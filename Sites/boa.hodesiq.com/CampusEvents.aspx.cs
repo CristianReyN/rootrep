@@ -10,19 +10,23 @@ using System.Web.UI.WebControls.WebParts;
 using System.Web.UI.HtmlControls;
 using BOAClassLibrary.Com.BOA.Hodes;
 using BOAClassLibrary.WebReference;
+using BOAClassLibrary.EFWebService;
 using BOAClassLibrary.Com.BOA.Hodes.Util;
 
 public partial class CampusEvents : System.Web.UI.Page
 {
-    private string degreeId = "BA";
-    public string regionId = "U.S.";
-    private string schoolId = "";
+    private string degreeId = "1";
+    public string regionId = "1";
+    private string schoolId = "0";
+
+    //private string degreeId = "BA";
+    //public string regionId = "U.S.";
+    //private string schoolId = "";
     public int pageNo = 1;
     public int pageSize = 0;
-    //private bool sortOrder = false;
     public PaginationHelper pager = new PaginationHelper();
-    //private Comparator comparer = new Comparator();
-    public GetEventsResult ger;
+    public EventWS[] ger;
+    public GetEventsResult gerOld;
     public string imagePath = System.Configuration.ConfigurationManager.AppSettings["imagePath"];
     public string up = "up";
     public string sortBy = "d";
@@ -30,6 +34,7 @@ public partial class CampusEvents : System.Web.UI.Page
     public string sortSchool = "none";
     public string sortEvent = "none";
     public string sortBusiness = "none";
+    public int contentHeight = 595;
 
     //public string span1Css = "tab_link_inactive";
     //public string span2Css = "tab_link_inactive";
@@ -49,21 +54,35 @@ public partial class CampusEvents : System.Web.UI.Page
             if (tempRegion != null && tempRegion.Trim().Length > 0)
             {
                 regionId = tempRegion;
+                SetCookie(Response, "boa_tab", regionId, 30);
             }
-            regionElem.Value = regionId;
-            CreateDegreeList();
-            CreateSchoolList(regionId + "Schools_" + degreeId);
-            Comparator.SetComparator(true, "Date");
-            Process(regionId, degreeId, schoolId);
+            else
+            {
+                regionId = GetSelectedTab(Request, Response);
+            }
+            if ("2".Equals(GetRegionId()))
+            {
+                contentHeight = 100;
+                HyperLink1.ImageUrl = "~/images/camp/t1.gif";
+                HyperLink2.ImageUrl = "~/images/camp/t2a.gif";
+                HyperLink3.ImageUrl = "~/images/camp/t3.gif";
+            }else{
+                regionElem.Value = regionId;
+                CreateDegreeList();
+                CreateSchoolList(Convert.ToInt32(regionId), Convert.ToInt32(degreeId));
+                //CreateSchoolList(regionId + "Schools_" + degreeId);
+                Comparator.SetComparator(true, "Date");
+                Process(regionId, degreeId, schoolId);
+            }
         }
     }
     private void Process(string regionId, string degreeId, string schoolId)
     {
-        ger = ManageWebService.GetEventSearch(regionId, degreeId, schoolId);
+        ger = ManageWebService.GetEventSearch(Convert.ToInt32(regionId), Convert.ToInt32(schoolId), Convert.ToInt32(degreeId));
         Session["ger"] = ger;
         bool biz = false;
         /////
-        if ("U.S.".Equals(regionId))
+        if ("1".Equals(regionId))
         {
             biz = true;
         }
@@ -76,12 +95,12 @@ public partial class CampusEvents : System.Web.UI.Page
         Session["sortBy"] = "d";
         Session["up"] = "up";
         //Session["zone"] = regionId;
-        if ("0".Equals(ger.Response.ReturnCde))
+        if (ger != null && ger.Length > 0)
         {
-            if (ger.OutData.Regions != null && ger.OutData.Regions.Length > 0)
+            if (!("-1".Equals(ger[0].EventId.ToString())))
             {
-                pager.Intialize(ger.OutData.Regions[0].RegionEvents.Length, 1, pageSize);
-                Array.Sort(ger.OutData.Regions[0].RegionEvents, Comparator.CompareToAnother);
+                pager.Intialize(ger.Length, 1, pageSize);
+                Array.Sort(ger, Comparator.CompareToAnother);
                 PopulatePage(biz);
                 PopulateNextPreviousLink();
                 HeaderRow.Visible = true;
@@ -106,7 +125,7 @@ public partial class CampusEvents : System.Web.UI.Page
     private void PopulateTopNav(string regeion)
     {
         //return;
-        if ("U.S.".Equals(regeion))
+        if ("1".Equals(regeion))
         {
             //span1Css = "tab_link_active";
             //span2Css = "tab_link_inactive";
@@ -119,7 +138,7 @@ public partial class CampusEvents : System.Web.UI.Page
             HyperLink2.ImageUrl = "~/images/camp/t2.gif";
             HyperLink3.ImageUrl = "~/images/camp/t3.gif";
         }
-        else if ("EMEA".Equals(regeion))
+        else if ("2".Equals(regeion))
         {
             //span1Css = "tab_link_inactive";
             //span2Css = "tab_link_active";
@@ -132,7 +151,7 @@ public partial class CampusEvents : System.Web.UI.Page
             HyperLink2.ImageUrl = "~/images/camp/t2a.gif";
             HyperLink3.ImageUrl = "~/images/camp/t3.gif";
         }
-        else if ("Asia".Equals(regeion))
+        else if ("3".Equals(regeion))
         {
             //span1Css = "tab_link_inactive";
             //span2Css = "tab_link_inactive";
@@ -161,7 +180,28 @@ public partial class CampusEvents : System.Web.UI.Page
             }
         }
     }
-    private void CreateSchoolList(string schoolsRegion)
+    private void CreateSchoolList(int regionId, int degreeId)
+    {
+        //string schoolsList = ConfigurationManager.AppSettings[schoolsRegion];
+        SchoolWS[] schoolsList = ManageWebService.GetSchoolSearch(regionId, degreeId);
+        if (schoolsList != null)
+        {
+            //string[] schoolsArray = schoolsList.Split(new char[] { '*' });
+            SchoolList.Items.Clear();
+            SchoolList.Items.Add(new ListItem("All Schools", "0"));
+            for (int i = 0; i < schoolsList.Length; i++)
+            {
+                //string[] aSchool = schoolsArray[i].Split(new char[] { '^' });
+                SchoolWS aSchool = schoolsList[i];
+                SchoolList.Items.Add(new ListItem(aSchool.Name, aSchool.Id.ToString()));
+            }
+        }
+        else
+        {
+            SchoolList.Items.Clear();
+        }
+    }
+    private void xCreateSchoolList(string schoolsRegion)
     {
         string schoolsList = ConfigurationManager.AppSettings[schoolsRegion];
         if (schoolsList != null)
@@ -182,9 +222,9 @@ public partial class CampusEvents : System.Web.UI.Page
     }
     private void PopulatePage(bool biz)
     {
-        if (ger.OutData.Regions != null && ger.OutData.Regions.Length > 0)
-        {
-            if (ger.OutData.Regions[0].RegionEvents != null && ger.OutData.Regions[0].RegionEvents.Length > 0)
+        //if (ger.OutData.Regions != null && ger.OutData.Regions.Length > 0)
+        //{
+            if (ger != null && ger.Length > 0)
             {
                 //TableRow tr = GetHeaderRow(biz);
                 //Table1.Rows.Add(tr);
@@ -198,7 +238,130 @@ public partial class CampusEvents : System.Web.UI.Page
                 TableCell td;
                 for (int i = pager.StartEventNo() - 1; i < pager.EndEventNo(); i++)
                 {
-                    ArrayOfEventEvent anEvent = ger.OutData.Regions[0].RegionEvents[i];
+                    EventWS anEvent = ger[i];
+                    int schLength = anEvent.Schools.Length;
+                    for (int k = 0; k < anEvent.Schools.Length; k++)
+                    {
+                        schLength--;
+                        tr = new TableRow();
+                        td = new TableCell();
+                        td.CssClass = "tdData";
+                        td.ColumnSpan = 1;
+                        td.Width = new Unit(tdWidth, UnitType.Percentage);
+                        string dateField = "";
+                        if (anEvent.StartTime != null)
+                        {
+                            dateField = anEvent.StartTime.ToString("MMMM dd, yyyy");
+                            if (anEvent.EndTime != null)
+                            {
+                                if (anEvent.StartTime.Year != anEvent.EndTime.Year || anEvent.StartTime.Month != anEvent.EndTime.Month || anEvent.StartTime.Day != anEvent.EndTime.Day)
+                                {
+                                    dateField = dateField + " -<br/>";
+                                    dateField = dateField + anEvent.EndTime.ToString("MMMM dd, yyyy");
+                                }
+                            }
+                        }
+                        td.Text = dateField;
+                        tr.Cells.Add(td);
+
+                        td = new TableCell();
+                        td.ColumnSpan = 1;
+                        td.CssClass = "tdData";
+                        td.Width = new Unit(tdWidth, UnitType.Percentage);
+                        td.Text = anEvent.Schools[k].Name;
+                        tr.Cells.Add(td);
+
+                        td = new TableCell();
+                        td.ColumnSpan = 1;
+                        td.Width = new Unit(tdWidth, UnitType.Percentage);
+                        string eventTxt = "<b class=\"tdDataHeader\">" + anEvent.EventType + "</b><br/>";
+                        string fultime = "";
+                        if (anEvent.ProgramType != null && anEvent.ProgramType.Length > 0)
+                        {
+                            fultime = anEvent.ProgramType;
+                            eventTxt = eventTxt + fultime + "<br/>";
+                        }
+                        string timeString = anEvent.StartTime.ToShortTimeString();
+                        if (anEvent.EndTime != null)
+                        {
+                            if (anEvent.StartTime.Hour != anEvent.EndTime.Hour || anEvent.StartTime.Minute != anEvent.EndTime.Minute)
+                            {
+                                timeString = timeString + "-" + anEvent.EndTime.ToShortTimeString();
+                            }
+                        }
+                        eventTxt = eventTxt + timeString + "<br/>";
+                        eventTxt = eventTxt + anEvent.Location + "<br/>";
+                        td.Text = eventTxt;
+                        tr.Cells.Add(td);
+
+                        if (biz)
+                        {
+                            td = new TableCell();
+                            td.ColumnSpan = 1;
+                            td.CssClass = "tdData";
+                            td.Width = new Unit(tdWidth, UnitType.Percentage);
+                            string bizName = "";
+                            if (anEvent.Businesses != null && anEvent.Businesses.Length > 0)
+                            {
+                                for (int j = 0; j < anEvent.Businesses.Length; j++)
+                                {
+                                    bizName = bizName + anEvent.Businesses[j];
+                                    if (j + 1 < anEvent.Businesses.Length)
+                                    {
+                                        bizName = bizName + "<br/>";
+                                    }
+                                }
+                            }
+                            td.Text = bizName;
+                            tr.Cells.Add(td);
+                        }
+
+                        Table1.Rows.Add(tr);
+                        if (i + 1 < ger.Length || schLength > 0)
+                        {
+                            tr = new TableRow();
+                            td = new TableCell();
+                            td.ColumnSpan = 3;
+                            if (biz)
+                            {
+                                td.ColumnSpan = 4;
+                            }
+                            td.Width = new Unit(100, UnitType.Percentage);
+                            td.Text = "<hr id=\"tdLine\"/>";
+                            //td.Text = "<img src=\"../Events/images/clear.gif\" class=\"bac\" alt=\"\"><br clear=\"all\">";
+                            tr.Cells.Add(td);
+                            Table1.Rows.Add(tr);
+                        }
+                    }
+                }
+            }
+            else
+            {
+                HeaderRow.Visible = false;
+                Table1.Visible = false;
+                Table2.Visible = true;
+            }
+        //}
+    }
+    private void xPopulatePage(bool biz)
+    {
+        if (gerOld.OutData.Regions != null && gerOld.OutData.Regions.Length > 0)
+        {
+            if (gerOld.OutData.Regions[0].RegionEvents != null && gerOld.OutData.Regions[0].RegionEvents.Length > 0)
+            {
+                //TableRow tr = GetHeaderRow(biz);
+                //Table1.Rows.Add(tr);
+                PopulateHeaderRow(biz);
+                TableRow tr;
+                double tdWidth = 25;
+                if (!biz)
+                {
+                    tdWidth = 33;
+                }
+                TableCell td;
+                for (int i = pager.StartEventNo() - 1; i < pager.EndEventNo(); i++)
+                {
+                    ArrayOfEventEvent anEvent = gerOld.OutData.Regions[0].RegionEvents[i];
                     tr = new TableRow();
                     td = new TableCell();
                     td.CssClass = "tdData";
@@ -273,7 +436,7 @@ public partial class CampusEvents : System.Web.UI.Page
                     }
 
                     Table1.Rows.Add(tr);
-                    if (i + 1 < ger.OutData.Regions[0].RegionEvents.Length)
+                    if (i + 1 < gerOld.OutData.Regions[0].RegionEvents.Length)
                     {
                         tr = new TableRow();
                         td = new TableCell();
@@ -379,28 +542,28 @@ public partial class CampusEvents : System.Web.UI.Page
     }
     protected void LinkButton1_Click(object sender, EventArgs e)
     {
-        ger = (GetEventsResult)Session["ger"];
+        ger = (EventWS[])Session["ger"];
         bool biz = (bool)Session["biz"];
         sortBy = (string)Session["sortBy"];
         up = (string)Session["up"];
         regionId = regionElem.Value;
         SetSortFlags(sortBy);
         pageNo = Convert.ToInt32(Request["pageNum"]) - 1;
-        pager.Intialize(ger.OutData.Regions[0].RegionEvents.Length, pageNo, pageSize);
+        pager.Intialize(ger.Length, pageNo, pageSize);
         PopulatePage(biz);
         PopulateNextPreviousLink();
         PopulateTopNav(regionId);
     }
     protected void LinkButton7_Click(object sender, EventArgs e)
     {
-        ger = (GetEventsResult)Session["ger"];
+        ger = (EventWS[])Session["ger"];
         bool biz = (bool)Session["biz"];
         sortBy = (string)Session["sortBy"];
         up = (string)Session["up"];
         regionId = regionElem.Value;
         SetSortFlags(sortBy);
         pageNo = Convert.ToInt32(Request["pageNum"]) - 1;
-        pager.Intialize(ger.OutData.Regions[0].RegionEvents.Length, pageNo, pageSize);
+        pager.Intialize(ger.Length, pageNo, pageSize);
         PopulatePage(biz);
         PopulateNextPreviousLink();
         PopulateTopNav(regionId);
@@ -427,28 +590,28 @@ public partial class CampusEvents : System.Web.UI.Page
     }
     protected void LinkButton2_Click(object sender, EventArgs e)
     {
-        ger = (GetEventsResult)Session["ger"];
+        ger = (EventWS[])Session["ger"];
         bool biz = (bool)Session["biz"];
         sortBy = (string)Session["sortBy"];
         up = (string)Session["up"];
         regionId = regionElem.Value;
         SetSortFlags(sortBy);
         pageNo = Convert.ToInt32(Request["pageNum"]) + 1;
-        pager.Intialize(ger.OutData.Regions[0].RegionEvents.Length, pageNo, pageSize);
+        pager.Intialize(ger.Length, pageNo, pageSize);
         PopulatePage(biz);
         PopulateNextPreviousLink();
         PopulateTopNav(regionId);
     }
     protected void LinkButton8_Click(object sender, EventArgs e)
     {
-        ger = (GetEventsResult)Session["ger"];
+        ger = (EventWS[])Session["ger"];
         bool biz = (bool)Session["biz"];
         sortBy = (string)Session["sortBy"];
         up = (string)Session["up"];
         regionId = regionElem.Value;
         SetSortFlags(sortBy);
         pageNo = Convert.ToInt32(Request["pageNum"]) + 1;
-        pager.Intialize(ger.OutData.Regions[0].RegionEvents.Length, pageNo, pageSize);
+        pager.Intialize(ger.Length, pageNo, pageSize);
         PopulatePage(biz);
         PopulateNextPreviousLink();
         PopulateTopNav(regionId);
@@ -456,9 +619,9 @@ public partial class CampusEvents : System.Web.UI.Page
     protected void DropDownList1_SelectedIndexChanged(object sender, EventArgs e)
     {
         degreeId = DegreeLevelList.SelectedValue;
-        schoolId = "";
+        schoolId = "0";
         regionId = regionElem.Value;
-        CreateSchoolList(regionId + "Schools_" + degreeId);
+        CreateSchoolList(Convert.ToInt32(regionId), Convert.ToInt32(degreeId));
         Process(regionId, degreeId, schoolId);
     }
     protected void DropDownList2_SelectedIndexChanged(object sender, EventArgs e)
@@ -534,15 +697,43 @@ public partial class CampusEvents : System.Web.UI.Page
     {
         bool sortOrder = !(bool)Session["asc"];
         Session["asc"] = sortOrder;
-        ger = (GetEventsResult)Session["ger"];
+        ger = (EventWS[])Session["ger"];
         bool biz = (bool)Session["biz"];
         regionId = regionElem.Value;
         pageNo = 1;
-        pager.Intialize(ger.OutData.Regions[0].RegionEvents.Length, pageNo, pageSize);
+        pager.Intialize(ger.Length, pageNo, pageSize);
         Comparator.SetComparator(sortOrder, sortBy);
-        Array.Sort(ger.OutData.Regions[0].RegionEvents, Comparator.CompareToAnother);
+        Array.Sort(ger, Comparator.CompareToAnother);
         PopulatePage(biz);
         PopulateNextPreviousLink();
         PopulateTopNav(regionId);
+    }
+
+    protected string GetRegionId()
+    {
+        return regionId;
+    }
+
+    public string GetSelectedTab(HttpRequest req, HttpResponse res)
+    {
+        string result = "1";//default 
+        HttpCookie cookie = req.Cookies["boa_tab"];
+        if (cookie != null && cookie.Value != null)
+        {
+            result = cookie.Value.Trim();
+        }
+        SetCookie(res, "boa_tab", result, 30);
+        return result;
+    }
+    private void SetCookie(HttpResponse res, string name, string value, int day)
+    {
+        HttpCookie cke = new HttpCookie(name, value);
+        //cke.Expires(new DateTime() + 30);
+        System.DateTime today = System.DateTime.Now;
+        System.TimeSpan duration = new System.TimeSpan(day, 0, 0, 0);
+        System.DateTime expiry = today.Add(duration);
+
+        cke.Expires = expiry;
+        res.SetCookie(cke);
     }
 }
