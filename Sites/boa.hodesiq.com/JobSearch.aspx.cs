@@ -74,9 +74,13 @@ public partial class JobSearch : System.Web.UI.Page
 
 		MyValue = String.IsNullOrEmpty(Request.QueryString["stateid"]) == false ? Request.QueryString["stateid"] : "-1";
 		MyListItem = ddlState.Items.FindByValue(MyValue);
-		ViewState["statequery"]="-3";
+		
 		if (MyListItem != null)
 			MyListItem.Selected = true;
+		else
+		{
+			ViewState["statequery"]="-3";
+		}
 		if (MyValue.ToString() != "-1")
 		{
 			FilterCity(Convert.ToInt32(MyValue));
