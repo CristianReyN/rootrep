@@ -100,7 +100,7 @@ function preload_add()
 				<li />Email your resume to <a href="mailto:bac@resume.bankofamerica.com">bac@resume.bankofamerica.com</a>
 				<li />In the Subject Line of your email, include "Source = Bank of America Careers" and the specific position title found at the top of the job posting.
 		</span>
-		<a href="<% If page_section <> "ADA" Then  %>../learnmore/<% Else  %>../ada/<% End If %>sendresume.asp" target="_blank" title="Submit Your Profile" onmouseover="MM_swapImage('us_spr','','../images/camp/submit_profile_on.gif');" onmouseout="MM_swapImgRestore();"><img name="us_spr" src="../images/camp/submit_profile_off.gif" border="0" style="cursor: pointer;" alt="Submit Your Profile" /></a>
+		<a href="<% If page_section <> "ADA" Then  %>../learnmore/<% Else  %>../ada/<% End If %>sendresume.asp"<% If Not taleo_upgrade Then %> target="_blank"<% End If%> title="Submit Your Profile" onmouseover="MM_swapImage('us_spr','','../images/camp/submit_profile_on.gif');" onmouseout="MM_swapImgRestore();"><img name="us_spr" src="../images/camp/submit_profile_off.gif" border="0" style="cursor: pointer;" alt="Submit Your Profile" /></a>
 	</div>
 </div>
 		<% If page_section = "ADA" Then %>
