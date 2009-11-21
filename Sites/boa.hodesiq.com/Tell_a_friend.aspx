@@ -8,7 +8,7 @@
             <td style="padding: 6px 12px 0px 12px; height: 100%" valign="top">
 				<table border="0" cellpadding="0" cellspacing="0" width="100%" summary="Send this job to a friend">
 					<tr>
-						<td style="width: 100%">Required Feilds are marked with Asterisk *</td>
+						<td style="width: 100%">Required Fields are marked with asterisk *</td>
 					</tr>
 					<tr><td style="width: 100%">  <br /></td></tr>
 					<tr>
@@ -17,7 +17,7 @@
 						</td>
 					</tr>
 					<tr>
-						<td style="width: 100%">Your Friend's Email Address.* <br />
+						<td style="width: 100%"><asp:Label runat="server" AssociatedControlID="FriendEmail" Text="Your Friend's Email Address.*"></asp:Label><br />
 							<asp:TextBox ID="FriendEmail" ToolTip="Friend's Email Address" runat="server" Width="400px"></asp:TextBox>
 						</td>
 					</tr>
@@ -27,8 +27,7 @@
 						</td>
 					</tr>
 					<tr>
-						<td style="width: 100%">
-							Your Email Address.*
+						<td style="width: 100%"><asp:Label runat="server" AssociatedControlID="YourEmail" Text="Your Email Address.*"></asp:Label>
 							<br />
 							<asp:TextBox ID="YourEmail" runat="server" ToolTip="Your Email Address" Width="400px"></asp:TextBox>
 						</td>
@@ -61,7 +60,7 @@
 						</td>
 					</tr>
 					<tr>
-						<td style="width: 100%"><b>Message</b>(Maximum 512 Characters)
+						<td style="width: 100%"><asp:Label runat="server" AssociatedControlID="MessageBox" Text="Message (Maximum 512 characters.)"></asp:Label>
 							<asp:TextBox ID="MessageBox" tooltip="Message" runat="server" Height="55px" TextMode="MultiLine" Width="400px">I thought you might be interested in this new job opportunity with Bank of America.</asp:TextBox>
 						</td>
 					</tr>

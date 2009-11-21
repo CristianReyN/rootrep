@@ -2,7 +2,7 @@
     Language="C#" MasterPageFile="~/BOAmaster.master" Title="Search Page" %>
 
 <asp:Content ID="Content1" Runat="Server" ContentPlaceHolderID="cphmain">
-<h1 style="margin: 0px 0px 0px 12px; ">Basic Search</h1>
+<h1 style="margin: 0px 0px 0px 12px; ">Guided Job Search</h1>
     <table summary="Job Search and Job List Page" border="0" cellpadding="0" cellspacing="0" width="578">
         <tr valign="top">
             <td style="padding: 6px 12px 0px 12px; height: 100%" valign="top">

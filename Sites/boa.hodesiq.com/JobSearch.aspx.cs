@@ -212,7 +212,7 @@ public partial class JobSearch : System.Web.UI.Page
 		dr = Lo.StatewiseCityDR(1);
 		ddlCity.DataSource = dr;
 		ddlCity.DataBind();
-		ddlCity.Items.Insert(0, new ListItem("All Cities", "-1"));
+		ddlCity.Items.Insert(0, new ListItem("All cities", "-1"));
 		dr.Close();
 	}
 

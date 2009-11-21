@@ -19,7 +19,7 @@ public partial class BOAmaster : System.Web.UI.MasterPage
         if (Request.ServerVariables["SCRIPT_NAME"].IndexOf("jobsearch.aspx", StringComparison.CurrentCultureIgnoreCase) > 0)
         {
             this.metadescription.Attributes["content"] = "Main page for job search functionality for careers site.";
-			this.Page.Title = "Bank of America | Career | Basic Job Search";
+			this.Page.Title = "Bank of America | Career | Guided Job Search";
         }
         else if (Request.ServerVariables["SCRIPT_NAME"].IndexOf("AdvanceSearch.aspx", StringComparison.CurrentCultureIgnoreCase) > 0)
         {
