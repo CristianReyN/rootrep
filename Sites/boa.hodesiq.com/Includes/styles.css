@@ -606,10 +606,10 @@ DIV#lnav li.home, DIV#lnav li.home ul.home li.home { padding-bottom: 0px; backgr
 
 DIV#lnav li ul { position: absolute; left: -999em; margin: 0px; border: 1px solid #7F99B2; border-bottom: none; }
 DIV#lnav li ul.home, DIV#lnav li:hover ul.home, DIV#lnav li.fover ul.home { position: relative; left: 0px; top: 0px; margin: 5px 0px 0px -6px; border: none; }
-DIV#lnav li:hover ul, DIV#lnav li:focus ul, DIV#lnav li.fover ul { left: 155px; margin: 0px;  z-index: 1000001; }
-DIV#lnav li:hover ul#jobareas, DIV#lnav li:focus ul#jobareas, DIV#lnav li.fover ul#jobareas { top: 45px; }
-DIV#lnav li:hover ul#relinfo, DIV#lnav li:focus ul#relinfo, DIV#lnav li.fover ul#relinfo { top: 68px; }
-DIV#lnav li:hover ul#relinfo2, DIV#lnav li:focus ul#relinfo2, DIV#lnav li.fover ul#relinfo2 { top: 298px; }
+DIV#lnav li:hover ul, DIV#lnav li.fover ul { left: 155px; margin: 0px;  z-index: 1000001; }
+DIV#lnav li:hover ul#jobareas, DIV#lnav li.fover ul#jobareas { top: 45px; }
+DIV#lnav li:hover ul#relinfo, DIV#lnav li.fover ul#relinfo { top: 68px; }
+DIV#lnav li:hover ul#relinfo2, DIV#lnav li.fover ul#relinfo2 { top: 298px; }
 
 
 DIV#lnav ul li ul li { margin: 0px; padding: 5px 0px 5px 0px; text-align: left; background: #cadceb; border-top: none; border-bottom: 1px solid #7F99B2;   width: 160px;}
@@ -626,3 +626,8 @@ DIV#lnav li ul.home li.tertiary div { padding: 0px 0px 0px 18px; }
 
 P.step {width: 400px; text-align: center; margin: 0px; padding: 0px; float: right;}
 .middot { font-size: 2.0em; line-height: 0.1em; }
+/*
+ul.pr {padding-left: 0.08in; margin-left: 0.25in;}
+ul.prp {padding-left: 0.08in; margin-left: 0.25in; margin-top: 2px;}
+ul.pr li, ul.prp li {padding-left: 0.04in;}
+*/

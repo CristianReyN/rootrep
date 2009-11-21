@@ -102,6 +102,9 @@ End If
 <a href="<%=ada_href %>" id="tonly" title="<%=textonly_version %>" class="hide-tab"><%=textonly_version %></a>
 </td></tr></table>
 <% End If %>
+<%	If er_ror <> "" Then %>
+<a href="#error" title="Go to page error message" class="hide-tab">Go to page error message</a>
+<%	End If %>
 <table width="750" cellpadding="0" cellspacing="0" border="0" summary="">
 <tr>
 	<td valign="top" colspan="3" height="71">

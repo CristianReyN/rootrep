@@ -3,7 +3,7 @@
 %>
 <form name="undergraduate" action="program.asp" style="margin: 0px;">
 <input type="hidden" name="back" id="back" value="undergraduate_programs.asp">
-<span class="ada-label"><label class="ada-label" for="Select for Program Detail">Select for Program Detail</label></span>
+<span class="ada-label"><label class="ada-label" for="program">Select for Program Detail</label></span>
 <select name="program" id="program" title="<% Response.write sel_ect %>"<%=c_lass%><%=style%>>
 	<option value="0"><% Response.write sel_ect %></option>
 <optgroup label="Global Technology and Operations">
@@ -51,16 +51,17 @@ function none(){}
 %>
 <form name="graduate" action="program.asp" style="margin: 0px;">
 <input type="hidden" name="back" id="back" value="graduate_programs.asp">
-<select name="program" program="gp" title="<% Response.write sel_ect %>"<%=c_lass%><%=style%>>
+<span class="ada-label"><label class="ada-label" for="program">Select for Program Detail</label></span>
+<select name="program" id="program" title="<% Response.write sel_ect %>"<%=c_lass%><%=style%>>
 	<option value="0"><% Response.write sel_ect %></option>
 <optgroup label="Global Technology and Operations">
 	<option value="gp_cwsa.asp"<% If fpage = "gp_cwsa" Then %> disabled<% End If %>>Corporate Workplace Senior Analyst</option>
 	<option value="gp_qpc.asp"<% If fpage = "gp_qpc" Then %> disabled<% End If %>>Quality and Productivity Consultant</option>
-	<option value="gp_sflrp.asp"<% If fpage = "gp_sflrp" Then %> disabled<% End If %>>Service and Fulfillment Leadership Rotational Program</option>
+	<option value="gp_sflrp.asp"<% If fpage = "gp_sflrp" Then %> disabled<% End If %>>Operations MBA Program</option>
 	<option value="gp_tmbap.asp"<% If fpage = "gp_tmbap" Then %> disabled<% End If %>>Technology MBA Program</option>
 </optgroup>
 <optgroup label="Global Risk">
-	<option value="gp_dpsa.asp"<% If fpage = "gp_dpsa" Then %> disabled<% End If %>>Debt Products Senior Analyst</option>
+	<option value="gp_dpsa.asp"<% If fpage = "gp_dpsa" Then %> disabled<% End If %>>Corporate Debt Associate</option>
 </optgroup>
 <optgroup label="Global Human Resources">
 	<option value="gp_ldc.asp"<% If fpage = "gp_ldc" Then %> disabled<% End If %>>Leadership Development Consultant</option>
@@ -87,35 +88,11 @@ function none(){}
 <%
 	End Function
 	
-	Function getLobSelectForm(c_lass,style,sel_ect,href_pre,tpage)
-%>
-<form name="lob" action="program.asp" style="margin: 0px;">
-<input type="hidden" name="back" id="back" value="corpinfo.asp">
-<select name="program" id="program" title="<% Response.write sel_ect %>"<%=c_lass%><%=style%>>
-	<option value="0"><% Response.write sel_ect %></option>
-	<% If tpage <> "lobcfo" Then %><!--<option value="lobcfo.asp">Corporate Financial Operations</option>--><% End If %>
-	<% If tpage <> "lobgcsbb" Then %><option value="lobgcsbb.asp">Global Consumer & Small Business Banking</option><% End If %>
-	<% If tpage <> "lobgcib" Then %><option value="lobgcib.asp">Global Corporate Investment Bank</option><% End If %>
-	<% If tpage <> "lobgwim" Then %><option value="lobgwim.asp">Global Wealth & Investment Management</option><% End If %>
-	<% If tpage <> "lobgto" Then %><option value="lobgto.asp">Global Technology & Operations</option><% End If %>
-	<% If tpage <> "lobcss" Then %><option value="lobcss.asp">Corporate Staff & Support</option><% End If %>
-</select>
-<script language="JavaScript" type="text/javascript">
-<!--
-create_safebutton("Go To Business","JavaScript: none();","goToBusiness(document.lob); return false;",0,0,0,"Go To Business");
-function goToBusiness(f){if(f && f.program && f.program.selectedIndex != 0){f.submit();}}
-function none(){}
-//-->
-</script>
-<noscript><input type="Submit" name="go" value="Go To  Business" title="Go To Business" class="btn" /></noscript>
-</form>
-<%
-	End Function
-	
 	Function getInternshipProgramForm(c_lass,style,sel_ect,href_pre,fpage)
 %>
 <form name="internship" action="program.asp" style="margin: 0px;">
 <input type="hidden" name="back" id="back" value="internships_program.asp">
+<span class="ada-label"><label class="ada-label" for="program">Select for Program Detail</label></span>
 <select name="program" id="program" title="<% Response.write sel_ect %>"<%=c_lass%><%=style%>>
 	<option value="0"><% Response.write sel_ect %></option>
 <optgroup label="Global Technology and Operations">
@@ -140,7 +117,7 @@ function none(){}
 	<option value="ip_dpa.asp"<% If fpage = "ip_dpa" Then %> disabled<% End If %>>Debt Products Analyst Intern</option>
 	<option value="ip_grmap.asp"<% If fpage = "ip_grmap" Then %> disabled<% End If %>>Global Risk Management Associate Program Intern</option>
 	<option value="ip_mr.asp"<% If fpage = "ip_mr" Then %> disabled<% End If %>>Markets Risk Intern</option>
-	<option value="ip_dpsa.asp"<% If fpage = "ip_dpsa" Then %> disabled<% End If %>>Debt Products Senior Analyst Intern</option>
+	<option value="ip_dpsa.asp"<% If fpage = "ip_dpsa" Then %> disabled<% End If %>>Corporate Debt Associate Intern</option>
 </optgroup>
 
 
@@ -189,6 +166,32 @@ function none(){}
 //-->
 </script>
 <noscript><input type="Submit" name="go" value="Select A Program" title="Select A Program" class="btn" /></noscript>
+</form>
+<%
+	End Function
+	
+	Function getLobSelectForm(c_lass,style,sel_ect,href_pre,tpage)
+%>
+<form name="lob" action="program.asp" style="margin: 0px;">
+<input type="hidden" name="back" id="back" value="corpinfo.asp">
+<span class="ada-label"><label class="ada-label" for="program">Select for Program Detail</label></span>
+<select name="program" id="program" title="<% Response.write sel_ect %>"<%=c_lass%><%=style%>>
+	<option value="0"><% Response.write sel_ect %></option>
+	<% If tpage <> "lobcfo" Then %><!--<option value="lobcfo.asp">Corporate Financial Operations</option>--><% End If %>
+	<% If tpage <> "lobgcsbb" Then %><option value="lobgcsbb.asp">Global Consumer & Small Business Banking</option><% End If %>
+	<% If tpage <> "lobgcib" Then %><option value="lobgcib.asp">Global Corporate Investment Bank</option><% End If %>
+	<% If tpage <> "lobgwim" Then %><option value="lobgwim.asp">Global Wealth & Investment Management</option><% End If %>
+	<% If tpage <> "lobgto" Then %><option value="lobgto.asp">Global Technology & Operations</option><% End If %>
+	<% If tpage <> "lobcss" Then %><option value="lobcss.asp">Corporate Staff & Support</option><% End If %>
+</select>
+<script language="JavaScript" type="text/javascript">
+<!--
+create_safebutton("Go To Business","JavaScript: none();","goToBusiness(document.lob); return false;",0,0,0,"Go To Business");
+function goToBusiness(f){if(f && f.program && f.program.selectedIndex != 0){f.submit();}}
+function none(){}
+//-->
+</script>
+<noscript><input type="Submit" name="go" value="Go To  Business" title="Go To Business" class="btn" /></noscript>
 </form>
 <%
 	End Function
