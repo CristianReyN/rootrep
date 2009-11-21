@@ -150,6 +150,10 @@ public partial class JobSearch : System.Web.UI.Page
 		{
 			aja = ddlJobAreas.SelectedValue.Split("|".ToCharArray());
 		}
+		else if(Request.QueryString["jobareas"]!=string.Empty)
+		{
+			aja = Request.QueryString["jobareas"].Split("|".ToCharArray());
+		}
 		int aot = (aja[0]==null) ? -1 : Convert.ToInt32(aja[0]);
 		string jf = string.IsNullOrEmpty(aja[1].ToString()) ? "" : aja[1];
 		
@@ -172,6 +176,8 @@ public partial class JobSearch : System.Web.UI.Page
 
 		LnkPrvs.Visible = (Boolean)MyListDictionary["PrevButton"];
 		LnkNxt.Visible = (Boolean)MyListDictionary["NextButton"];
+		lPrev.Visible = (Boolean)MyListDictionary["PrevButton"];
+		lNext.Visible = (Boolean)MyListDictionary["NextButton"];
 		LblPageOfPages.Text = MyListDictionary["PageOfPages"].ToString();
 		this.lblJobofJobs.Visible = Convert.ToBoolean(MyListDictionary["RecordCount"]);
 		this.lblJobofJobs.Text = MyListDictionary["JobToJobs"].ToString();
@@ -206,7 +212,7 @@ public partial class JobSearch : System.Web.UI.Page
 
 	protected void PopulateJobAreas()
 	{
-		string selVal;// = this.ddlJobAreas.SelectedValue;
+		string selVal;
 		selVal = String.IsNullOrEmpty(Request.QueryString["jobareas"]) == false ? Request.QueryString["jobareas"] : this.ddlJobAreas.SelectedValue;
 		this.ddlJobAreas.Items.Clear();
 		OleDbDataReader dr;
@@ -241,11 +247,22 @@ public partial class JobSearch : System.Web.UI.Page
 	{
 		this.dsubmit.Attributes.Add("style", " display: none; padding: 1");
 		this.lsearch.CssClass = "ie-btn";
-		this.lsearch.Visible = true;
+		//this.lsearch.Visible = true;
 		this.lsearch.Text = "Search";
 		this.lsearch.Width = this.lsearch.Text.Length;
+
+		this.dNxtPrev.Attributes.Add("style", " display: none; padding: 1");
+		this.lNext.CssClass = "ie-btn";
+		//this.lNext.Visible = true;
+		this.lNext.Width = this.lNext.Text.Length;
+		this.lPrev.CssClass = "ie-btn";
+		//this.lPrev.Visible = true;
+		this.lPrev.Width = this.lPrev.Text.Length;
+
+
 		this.litScript.Text = @"<script language=""JavaScript"" type=""text/javascript"">
 								document.getElementById('" + this.dsubmit.ClientID + @"').style.display=""inline"";
-								</script>";	
+								document.getElementById('" + this.dNxtPrev.ClientID + @"').style.display=""inline"";
+								</script>";
 	}
 }

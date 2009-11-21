@@ -23,7 +23,9 @@
 														</asp:DropDownList>
 														</div>
 														<div>
-														<noscript><asp:Button ID="brefine" runat="server" CssClass="bodybtn"  Text="Show Cities" OnClick="brefine_Click" /></noscript>
+														<noscript>
+														<asp:ImageButton ID="brefine" runat="server" OnClick="brefine_Click" AlternateText="Show Cities" Height="19" Width="77" ImageUrl="~/images/showcitylink.GIF"/>
+														</noscript>
 														</div>
 													</td>
                                                 </tr>
@@ -59,7 +61,7 @@
                                                 </tr>
                                                 <tr>
 													<td>
-														<div id="dsubmit" runat="server"><asp:LinkButton runat="server" OnClick="bsearch_Click" ID="lsearch" Text="search me"></asp:LinkButton></div>
+														<div id="dsubmit" runat="server"><asp:LinkButton runat="server" OnClick="bsearch_Click" ID="lsearch" Text="Search"></asp:LinkButton></div>
 														<noscript><asp:Button ID="bsearch" runat="server" CssClass="bodybtn"  Text="Search" OnClick="bsearch_Click" /></noscript>
 													</td>
 													<td>
@@ -85,7 +87,7 @@
                                                 <AlternatingRowStyle BackColor="#EAF1F7" Height="10px" />
                                                 <HeaderStyle Height="10px" BackColor="#EAF1F7" />
                                                 <Columns>
-                                                    <asp:HyperLinkField DataNavigateUrlFields="JobsID,stateid,cityid,areaoftalent,jfamily,keywords" DataNavigateUrlFormatString="JobDetails.aspx?SearchPage=Sp&amp;JobId={0}&amp;stateid={1}&amp;cityid={2}&amp;areasoftalent={3}&amp;jfamily={4}&amp;keywords={5}"
+                                                    <asp:HyperLinkField DataNavigateUrlFields="JobsID,stateid,cityid,areaoftalent,jfamily,keywords" DataNavigateUrlFormatString="JobDetails.aspx?SearchPage=Sp&amp;JobId={0}&amp;stateid={1}&amp;cityid={2}&amp;jobareas={3}|{4}&amp;keywords={5}"
                                                         DataTextField="JobName" HeaderText="Job Title" ControlStyle-CssClass="nv">
                                                         <HeaderStyle HorizontalAlign="Left" />
                                                     </asp:HyperLinkField>
@@ -108,10 +110,15 @@
                                     </tr>
                                     <tr valign="top">
                                         <td style="padding: 6px 12px 0px 12px; height: 100%" valign="top" align="center">
+                                        <div id="dNxtPrev" runat="server">
+                                        <asp:LinkButton runat="server" OnClick="LnkPrvs_Click" ID="lPrev" Text="Previous" Visible="false"></asp:LinkButton>&nbsp;&nbsp;&nbsp;&nbsp;
+                                        <asp:LinkButton runat="server" OnClick="LnkNxt_Click" ID="lNext" Text="Next" Visible="false"></asp:LinkButton>
+                                        </div>
+                                       <noscript>
                                        <asp:Button ID="LnkPrvs" runat="server" CssClass="bodybtn" OnClick="LnkPrvs_Click"
                                             Text="Previous" Visible="false" />&nbsp;&nbsp;&nbsp;&nbsp;
                                         <asp:Button ID="LnkNxt" runat="server" CssClass="bodybtn" OnClick="LnkNxt_Click"
-                                            Text="Next" Visible="false" />&nbsp;&nbsp;&nbsp;&nbsp;
+                                            Text="Next" Visible="false" />&nbsp;&nbsp;&nbsp;&nbsp;</noscript>
                                         <asp:Label ID="LblPageOfPages" runat="server"></asp:Label>    
                                          </td>
                                      </tr>
