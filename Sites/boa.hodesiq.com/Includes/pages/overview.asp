@@ -280,6 +280,11 @@ create_safebutton("Begin Search","javascript: document.jsearch.submit();",0,0,0,
 <img class="dotdiv" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
 <br>
 <a href="eeoc.asp" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="Equal Employment Opportunity and Affirmative Action Statement">Equal Employment Opportunity and Affirmative Action Statement</a>
+<br>
+<img class="dotdiv" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
+<br>
+<a href="eadpn.asp" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="Employment Application Data Protection Notice">Employment Application Data Protection Notice</a>
+
 </div>
 							</td>
 						</tr>
