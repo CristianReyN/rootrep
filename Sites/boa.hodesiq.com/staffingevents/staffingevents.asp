@@ -29,12 +29,12 @@ function hover(ref, classRef) { eval(ref).className = classRef; }
 if ( hasRequestedVersion ) {
    document.write('<a class="auraltext" href="#skipflash" onFocus="hover(this,\'show-tab\'); this.focus()" onblur="hover(this,\'auraltext\')">Skip Flash content</a>');
    document.write('<object tabindex="0" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0" width="152" height="300" id="faq" align="middle" title="Frequently Asked Questions Animation">');
-   document.write('<param name="allowScriptAccess" value="sameDomain" />');
+   document.write('<param name="allowScriptAccess" value="always" />');
    document.write('<param name="movie" value="faq_sea.swf" />');
    document.write('<param name="quality" value="high" />');
    document.write('<param name="wmode" value="transparent" />');
    document.write('<param name="bgcolor" value="#ffffff" />');
-   document.write('<embed src="faq_sea.swf" wmode="transparent" quality="high" bgcolor="#ffffff" width="152" height="300" name="faq" align="middle" allowScriptAccess="sameDomain" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" />');
+   document.write('<embed src="faq_sea.swf" wmode="transparent" quality="high" bgcolor="#ffffff" width="152" height="300" name="faq" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" />');
    document.write('</object>');
 } else {
    document.write('<div style="position: relative; width: 152; height: 300;">');
@@ -45,12 +45,12 @@ if ( hasRequestedVersion ) {
 </script>
 <noscript>
 <object tabindex="0" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="152" height="300" id="faq" align="middle" title="Frequently Asked Questions Animation">
-	<param name="allowScriptAccess" value="sameDomain" />
+	<param name="allowScriptAccess" value="always" />
 	<param name="movie" value="faq_sea.swf" />
 	<param name="quality" value="high" />
 	<param name="wmode" value="transparent" />
 	<param name="bgcolor" value="#ffffff" />
-<embed src="faq_sea.swf" wmode="transparent" quality="high" bgcolor="#ffffff" width="152" height="300" name="faq" align="middle" allowScriptAccess="sameDomain" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" />
+<embed src="faq_sea.swf" wmode="transparent" quality="high" bgcolor="#ffffff" width="152" height="300" name="faq" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" />
 </object>
 </noscript>
 			</td></tr>

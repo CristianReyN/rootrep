@@ -10,7 +10,7 @@
 <%
 	end if
 %>
-			<tr valign="top"><td id="tdnav" valign="middle" style="background: <% if mpage = "areasoftalent" then Response.Write "#eaf1f7" Else Response.Write "#cadceb" end if %>; padding: 0px 6px 0px 6px;"<%if mpage <> "areasoftalent" then%> onmouseover="popnav(true);" onmouseout="popnav(false);"<%end if%>><a name="lnav3" id="anavm"></a><a class="g" href="../areasoftalent/areasoftalent.asp" id="areasoftalent" title="Areas of Talent"<%if mpage <> "areasoftalent" then %> onfocus="this.className='g-over'; popnav(true);" onblur="this.className='g'; popnav(false);"<% else %> onfocus="this.className='g-over';" onblur="this.className='g';"<%end if%>>Areas of Talent</a></td></tr>
+			<tr valign="top"><td id="tdnav" valign="middle" style="background: <% if mpage = "areasoftalent" then Response.Write "#eaf1f7" Else Response.Write "#cadceb" end if %>; padding: 0px 6px 0px 6px;"<%if mpage <> "areasoftalent" then%> onmouseover="popnav(true);" onmouseout="popnav(false);"<%end if%>><a name="lnav3" id="anavm"></a><a class="g" href="../areasoftalent/areasoftalent.asp" id="aroftalent" title="Areas of Talent"<%if mpage <> "areasoftalent" then %> onfocus="this.className='g-over'; popnav(true);" onblur="this.className='g'; popnav(false);"<% else %> onfocus="this.className='g-over';" onblur="this.className='g';"<%end if%>>Areas of Talent</a></td></tr>
 			<tr valign="top" style="background: #ffffff;"><td><img src="../images/white.gif" width="154" height="1" alt="" border="0"></td></tr>
 <%
 	if mpage = "areasoftalent" then

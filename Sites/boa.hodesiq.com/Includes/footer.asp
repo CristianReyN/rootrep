@@ -36,13 +36,13 @@ function startKeybordNav()
 		document.getElementById("investment").onkeydown=setNextTabAoT;
 	
 <%	if mpage <> "areasoftalent" then %>
-	if(document.getElementById("areasoftalent"))
-		document.getElementById("areasoftalent").onkeydown=setNextTabAnav;
+	if(document.getElementById("aroftalent"))
+		document.getElementById("aroftalent").onkeydown=setNextTabAnav;
 	if(document.getElementById("administration"))
 		document.getElementById("administration").onkeydown=setNextTabATt;
 <%	else %>
-	if(document.getElementById("areasoftalent"))
-		document.getElementById("areasoftalent").onkeydown=setNextTabAdm;
+	if(document.getElementById("aroftalent"))
+		document.getElementById("aroftalent").onkeydown=setNextTabAdm;
 	if(document.getElementById("administration"))
 		document.getElementById("administration").onkeydown=setNextTabATl;
 <%	end if %>
