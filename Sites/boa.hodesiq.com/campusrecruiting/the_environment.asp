@@ -9,7 +9,7 @@ ada_href = "../ada_camp/the_environment.asp"
 page_self = "../campusrecruiting/the_environment.asp"
 ada_title = breadcrumb & "Campus Recruiting | Our Culture | The environment"
 job_search_action = "../jobsearch/searchresult.asp"
-Metatag="Environmental Commitment Overview page of campus site. Includes details on corporate/employee support for "green" environmental initiatives, Campus Events and Career Fit and Profile Submission Tools."
+Metatag="Environmental Commitment Overview page of campus site. Includes details on corporate/employee support for green environmental initiatives, Campus Events and Career Fit and Profile Submission Tools."
 Dim r1,r2,r3
 r1 = True
 r2 = True

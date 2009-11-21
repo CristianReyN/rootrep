@@ -788,6 +788,18 @@ sheila_a3 = new fvideo(
 					null
 					);
 
+var military_diversity;
+military_diversity = new fvideo(
+					flashplayer2.swf_url,
+					"http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/DIVERSITY/DIVERSITY.flv",
+					flashplayer2,
+					"#answ1",
+					"../Includes/pages/lob/thumbnails/military_diversity_on.jpg",
+					"../Includes/pages/lob/thumbnails/military_diversity_on.jpg",
+					michael_video,
+					null
+					);
+
 var tammi_a1, tammi_a2, tammi_a3, tammi_a4;
 tammi_a1 = new fvideo(
 					flashplayer2.swf_url,

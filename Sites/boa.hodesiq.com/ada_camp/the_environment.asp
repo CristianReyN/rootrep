@@ -8,7 +8,7 @@ tpage = "the_environment"
 standart_href = "../campusrecruiting/the_environment.asp"
 page_self = "../ada_camp/the_environment.asp"
 job_search_action = "../jobsearch/searchresult.asp"
-Metatag="Environmental Commitment Overview page of campus site. Includes details on corporate/employee support for "green" environmental initiatives, Campus Events and Career Fit and Profile Submission Tools."
+Metatag="Environmental Commitment Overview page of campus site. Includes details on corporate/employee support for green environmental initiatives, Campus Events and Career Fit and Profile Submission Tools."
 page_section="ADA"
 Dim flashPage
 flashPage = false
