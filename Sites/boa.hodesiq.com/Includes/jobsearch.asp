@@ -4,7 +4,7 @@ jwdt = 192
 If jwidth Then jwdt = jwidth %>
 <form style="margin: 0px;" name="jsearch" action="<% Response.write job_search_action %>">
 <input type="hidden" name="from" id="from" value="<% Response.write page_self %>">
-					<table width="<%=jwdt%>" cellpadding="0" cellspacing="0" border="0" summary="" style="margin: 0px 0px 0px 4px;">
+					<table width="<%=jwdt%>" cellpadding="0" cellspacing="0" border="0" summary="" style="margin: 0px 5px 0px 4px;">
 						<tr>
 							<td style="padding: 0px 0px 0px 0px;">
 <p style="margin: 0px;">Use the Search below to find a career suited to your skill set. You may narrow your selection further by selecting a job area, location or entering a keyword.</p>
