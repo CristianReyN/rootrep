@@ -266,6 +266,7 @@ public partial class JobSearch : System.Web.UI.Page
 
     protected void GrdResults_OnSorting(object sender, GridViewSortEventArgs e)
     {
+        ViewState["PageNumber"] = 1;
         string sortExpression = e.SortExpression;
         ViewState["sortExpression"] = sortExpression;
         if (GridViewSortDirection == SortDirection.Ascending)
