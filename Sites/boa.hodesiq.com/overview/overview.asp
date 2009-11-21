@@ -37,10 +37,8 @@ If playflash = "1" Then flashPage = false
 <!-- #include file="../includes/lnav.asp" -->
 <!-- Left Nav -->
 <% If playflash = "" Then %>
-<noscript>
-			<tr valign="top"><td valign="middle" style="background: #cadceb; padding: 0.35em 6px 0.35em 6px;"><a class="g" href="../ada/overview.asp" id="videotranscripts" title="Video transcripts" onfocus="this.className='g-over';" onblur="this.className='g';" style="line-height: 1.1em;">Video Transcripts</a></td></tr>
-			<tr valign="top" style="background: #ffffff;"><td><img src="../images/white.gif" width="154" height="1" alt="" border="0"></td></tr>
-</noscript>
+			<tr id="vtm1" valign="top"><td valign="middle" style="background: #cadceb; padding: 0.35em 6px 0.35em 6px;"><a class="g" href="../ada/overview.asp" id="videotranscripts" title="Video transcripts" onfocus="this.className='g-over';" onblur="this.className='g';" style="line-height: 1.1em;">Video Transcripts</a></td></tr>
+			<tr id="vtm2" valign="top" style="background: #ffffff;"><td><img src="../images/white.gif" width="154" height="1" alt="" border="0"></td></tr>
 <% End If %>
 			<tr valign="top"><td height="450" style="background: #cadceb;">
 <div id="flash1" style="position: absolute;">
@@ -97,7 +95,9 @@ function loadVideoHost()
 			document.getElementById("stopaudio").innerHTML = textOnlyVersion;
 		}
 	}
-}}
+}
+if(document.getElementById("vtm1"))document.getElementById("vtm1").style.display = "none";
+if(document.getElementById("vtm2"))document.getElementById("vtm2").style.display = "none";}
 
 requiredMajorVersion = 8;
 requiredVersion = 8;
@@ -118,12 +118,11 @@ if ( hasRequestedVersion ) {
 <noscript>
 <% If playflash = "" Then %>
 <div id="flash_in" style="position: absolute; display: inline; z-index: 200;">
-<object tabindex="0" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"  codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="310" height="390" title="virtualhost" id="ShockwaveFlash1">
+<object tabindex="0" type="application/x-shockwave-flash" data="http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/virtualhost.swf" width="310" height="390" title="virtualhost" id="ShockwaveFlash1">
   <param name="movie" value="http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/virtualhost.swf" />
   <param name="quality" value="high" />
   <param name="wmode" value="transparent" />
   <param name="allowScriptAccess" value="always" />
-  <embed src="http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/virtualhost.swf" wmode="transparent" allowScriptAccess="always" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="310" height="390"></embed>
 </object>
 </div>
 <% Else %>
