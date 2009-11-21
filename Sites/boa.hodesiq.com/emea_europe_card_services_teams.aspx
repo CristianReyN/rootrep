@@ -2,7 +2,7 @@
     AutoEventWireup="true" CodeFile="emea_europe_card_services_teams.aspx.cs" Inherits="emea_europe_card_services_teams" Title="Bank of America | Careers | Global Careers | Canada | Europe, Middle East and Africa (EMEA)| Europe Card Services – Our Teams" %>
     
 <asp:Content ID="Image" ContentPlaceHolderID="Image" runat="Server">
-    <img src="images/global-careers-emea_I.jpg" width="578" height="166" alt="Explore a career with the Bank of Opportunity."
+    <img src="images/Europe_ME_Africa_3_Europe_card_services_both_pages.jpg" width="578" height="166" alt="Explore a career with the Bank of Opportunity."
         title="Explore a career with the Bank of Opportunity." border="0" />
     <div class="hidden">
         Explore a career with the Bank of Opportunity.</div>
@@ -157,7 +157,7 @@ Which is why, whatever stage you’re at in your career, we have a training and 
             <td>
                 <div style="border: 1px solid #e8e8e9; margin: 1px 0px 1px 0px; padding: 0px 0px 6px 0px;">
                     <h2 class="g" style="margin: 0px 0px 0px 0px;">
-                        Global Information</h2>
+                       Related Information</h2>
                     <div style="padding: 0px 0px 0px 4px;">
                         <table width="190" border="0" cellspacing="0" cellpadding="0" align="top">
                             <tr>

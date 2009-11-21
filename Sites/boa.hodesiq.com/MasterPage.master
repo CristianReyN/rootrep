@@ -243,7 +243,7 @@ create_safebutton("Search","javascript: submit_search();",0,0,0,0,"Search");
                                 </asp:ContentPlaceHolder>
                             </td>
                             <td width="205" valign="top" style="height: 100%">
-                                <table width="203" height="250" border="0" cellpadding="0" cellspacing="0" summary="">
+                                <table width="203" height="250" border="0" cellpadding="0" cellspacing="0" summary="">                             
                                     <tr>
                                         <td align="left" valign="top" style="width: 209px">
                                             <asp:ContentPlaceHolder ID="Career" runat="server">
@@ -319,10 +319,7 @@ create_safebutton("Search","javascript: submit_search();",0,0,0,0,"Search");
                         &copy; 2009 Bank of America Corporation. All rights reserved.</div>
                     <br>
                 </td>
-                <td align="right" width="66">
-                    <a href="http://www.bankofamerica.com/sponsorships/" class="ada2adalink" onfocus="this.className='ada2adalink-over';" onblur="this.className='ada2adalink';" title="Official Sponsor 2004-2008 U.S. Olympic Teams">
-                        <img src="images/foot_olympic.gif" alt="Official Sponsor 2004-2008 U.S. Olympic Teams"
-                            width="66" height="45" border="0" ></a></td>
+ 
             </tr>
         </table>
     </div>

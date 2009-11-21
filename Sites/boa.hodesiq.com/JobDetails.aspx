@@ -4,11 +4,48 @@
 <asp:Content ID="Content1" runat="Server" ContentPlaceHolderID="cphmain">
 	<h1 style="margin: 0px 0px 0px 12px; " runat="server" id="lblJobTitle">Advanced Search</h1>
 
-<span class='auraltext'>
+<span id="USFEED" visible="false" class='auraltext'>
 <h2 style="margin: 0px 0px 0px 12px; ">Important information on applying for positions</h2>
 Apply Now. You are encouraged to complete this online application, however if you have difficulty, you should:
 <li /> Email your resume to <a href="mailto:bac@resume.bankofamerica.com">bac@resume.bankofamerica.com</a>
-<li /> In the Subject Line of your email, include "Source = Bank of America Careers" and the specific position number found at the top of the job posting
+<li /> In the Subject Line of your email, include "Source = Bank of America Careers" and the specific position number found at the top of the job posting.
+</span>
+<span id="BOAFeedEuropeMBNA" visible="false" class='auraltext'>
+<h2 style="margin: 0px 0px 0px 12px; ">Important information on applying for positions</h2>
+Apply Now. You are encouraged to complete this online application, however if you have difficulty, you should:
+<li /> For positions located in Ireland, email your resume to <a href="recruitment.ireland@bankofamerica.com">recruitment.ireland@bankofamerica.com/a>
+<li /> For positions located in Chester, UK, email your resume to <a href="recruitment.chester@bankofamerica.com">recruitment.chester@bankofamerica.com</a> 
+<li /> In the Subject Line of your email, include "Source = Bank of America Careers" and the specific position title found at the top of the job posting.
+</span>
+<span id="BOAFeedAsia" visible="false" class='auraltext'>
+<h2 style="margin: 0px 0px 0px 12px; ">Important information on applying for positions</h2>
+Apply Now. You are encouraged to complete this online application, however if you have difficulty, you should:
+<li /> Email your resume to <a href="mailto:apr_recruit@hk.ml.com">apr_recruit@hk.ml.com</a>
+<li /> In the Subject Line of your email, include "Source = Bank of America Careers" and the specific position title found at the top of the job posting.
+</span>
+<span id="BoaFeedIndia " visible="false" class='auraltext'>
+<h2 style="margin: 0px 0px 0px 12px; ">Important information on applying for positions</h2>
+Apply Now. You are encouraged to complete this online application, however if you have difficulty, you should:
+<li /> Email your resume to <a href="mailto:bacs.grow@bankofamerica.com">bacs.grow@bankofamerica.com </a>
+<li /> In the Subject Line of your email, include "Source = Bank of America Careers" and the specific position title found at the top of the job posting.
+</span>
+<span id="BOAFeedCanada" visible="false" class='auraltext'>
+<h2 style="margin: 0px 0px 0px 12px; ">Important information on applying for positions</h2>
+Apply Now. You are encouraged to complete this online application, however if you have difficulty, you should:
+<li /> Email your resume to <a href="mailto:canadacareers@bankofamerica.com">canadacareers@bankofamerica.com</a>
+<li /> In the Subject Line of your email, include "Source = Bank of America Careers" and the specific position title found at the top of the job posting.
+</span>
+<span id="BOAFeedCanadaFrench" visible="false" class='auraltext'>
+<h2 style="margin: 0px 0px 0px 12px; ">Important information on applying for positions</h2>
+Apply Now. You are encouraged to complete this online application, however if you have difficulty, you should:
+<li /> Email your resume to <a href="mailto:canadacareers@bankofamerica.com">canadacareers@bankofamerica.com</a>
+<li /> In the Subject Line of your email, include "Source = Bank of America Careers" and the specific position title found at the top of the job posting.
+</span>
+<span id="BOAFeedEurope" visible="false" class='auraltext'>
+<h2 style="margin: 0px 0px 0px 12px; ">Important information on applying for positions</h2>
+Apply Now. You are encouraged to complete this online application, however if you have difficulty, you should:
+<li /> Email your resume to <a href="mailto:emeacareers@bankofamerica.com">emeacareers@bankofamerica.com</a>
+<li /> In the Subject Line of your email, include "Source = Bank of America Careers" and the specific position title found at the top of the job posting.
 </span>
 
     <table border="0" cellpadding="0" cellspacing="0" summary="" width="578">

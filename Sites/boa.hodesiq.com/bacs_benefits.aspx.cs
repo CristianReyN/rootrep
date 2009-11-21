@@ -22,7 +22,7 @@ public partial class bacs_benefits : System.Web.UI.Page
 
         HtmlMeta theMetaTag = new HtmlMeta();
         theMetaTag.Attributes.Add("name", "Description");
-        theMetaTag.Attributes.Add("content", "BA Continuum Benefits in Asia Overview for the Global Careers site. This page outlines development and benefits available at the non-bank subsidiary and allows search for international jobs.");
+        theMetaTag.Attributes.Add("content", "BA Continuum Benefits in Asia overview for the Global Careers site. This page outlines development and benefits available at the non-bank subsidiary and allows search for international jobs.");
         Page.Header.Controls.Add(theMetaTag);
 
 

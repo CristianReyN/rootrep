@@ -148,7 +148,7 @@ function SwapDiv(divid,img)
                 <div id="retuntoemeaamap">
                 </div>
                 <p>
-                    <a href="ada_emea.aspx" class="ada2adalink" onfocus="this.className='ada2adalink-over';" onblur="this.className='ada2adalink';" title="View locations as text">View locations
+                    <a href="ada_emea.aspx#mapstart" class="ada2adalink" onfocus="this.className='ada2adalink-over';" onblur="this.className='ada2adalink';" title="View locations as text">View locations
                         as text</a></p>
                 <p align="center">
                 </p>
@@ -674,7 +674,7 @@ function SwapDiv(divid,img)
             <td>
                 <div style="border: 1px solid #e8e8e9; margin: 1px 0px 1px 0px; padding: 0px 0px 6px 0px;">
                     <h2 class="g" style="margin: 0px 0px 0px 0px;">
-                        Global Information</h2>
+                       Related Information</h2>
                     <div style="padding: 0px 0px 0px 4px;">
                         <table summary="" width="190" border="0" cellspacing="0" cellpadding="0" align="top">
                             <tr>

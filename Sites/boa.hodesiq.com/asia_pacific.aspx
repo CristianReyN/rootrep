@@ -1,5 +1,5 @@
 <%@ Page Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true"
-    CodeFile="asia_overview.aspx.cs" Inherits="asia" Title="Bank of America | Careers | Global Careers | Asia Careers Overview"
+    CodeFile="asia_pacific.aspx.cs" Inherits="asia" Title="Bank of America | Careers | Global Careers | Asia Careers Overview"
     EnableEventValidation="false" %>
 
 
@@ -54,17 +54,34 @@
                 </p>
             </td>
         </tr>
+      
+    </table></asp:Content>
+    <asp:Content ID="Content1" runat="server" ContentPlaceHolderID="Info">    
+       <table width="204" border="0" cellspacing="0" cellpadding="0">
         <tr>
-            <td height="23" align="left" valign="top">
-                <a href="asia.aspx" target="_self" class="ritnavlinks" title="Bank of America in Asia">
-                    <u>Bank of America in Asia</u></a>
-            </td>
-        </tr>
-        <tr>
-            <td height="23" align="left" valign="top">
-                <a href="bacs.aspx" target="_self" class="ritnavlinks" title="BA Continuum"><u>BA Continuum</u></a>
-            </td>
-        </tr>
-    </table>
+            <td>
+                <div style="border: 1px solid #e8e8e9; margin: 1px 0px 1px 0px; padding: 0px 0px 6px 0px;">
+                    <h2 class="g" style="margin: 0px 0px 0px 0px;">
+                       Related Information</h2>
+                    <div style="padding: 0px 0px 0px 4px;">
+                        <table width="190" border="0" cellspacing="0" cellpadding="0" align="top" summary="">
+                            <tr>
+                                <td height="10" align="left" valign="middle">
+                                </td>
+                            </tr>                    
+                            <tr>
+                                <td height="26" align="left" valign="middle" style="background-image: url(images/dotted.gif);
+                                    background-position: left top; background-repeat: repeat-x;">
+                                    <a href="asia.aspx" target="_self" class="ritnavlinks" onfocus="this.className='ritnavlinks-over';"
+                                        onblur="this.className='ritnavlinks';" title="Bank of America Merrill Lynch">Bank of America Merrill Lynch</a></td>
+                            </tr>
+                             <tr>
+                                <td height="26" align="left" valign="middle" style="background-image: url(images/dotted.gif);
+                                    background-position: left top; background-repeat: repeat-x;">
+                                    <a href="bacs.aspx" target="_self" class="ritnavlinks" onfocus="this.className='ritnavlinks-over';"
+                                        onblur="this.className='ritnavlinks';" title="BA Continuum in India">BA Continuum in India</a></td>
+                            </tr></div></td></tr></table>                
+                                                
 </asp:Content>
+
 

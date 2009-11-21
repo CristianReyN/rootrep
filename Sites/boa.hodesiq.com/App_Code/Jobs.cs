@@ -184,6 +184,31 @@ public class Jobs
 
     }
 
+    public DataTable JobDetailsInternational(string JobId)
+    {
+        OleDbConnection con = new OleDbConnection(constring);
+        con.Open();
+        try
+        {
+            OleDbCommand cmd = new OleDbCommand("Sp_Career_Sites_JobDetails", con);
+            cmd.CommandType = CommandType.StoredProcedure;
+            cmd.Parameters.AddWithValue("@JobId", JobId);
+            OleDbDataAdapter da = new OleDbDataAdapter(cmd);
+            DataSet ds = new DataSet();
+            da.Fill(ds);
+            return ds.Tables[0];
+        }
+        catch (Exception ex)
+        {
+            throw ex;
+        }
+        finally
+        {
+            con.Close();
+        }
+
+    }
+
     public DataTable Search(int aot, string Jobfamily, int stateid, int cityid, string keywords, int strRec, int endRec)
     {
 		OleDbConnection con = new OleDbConnection(constring);
@@ -514,13 +539,7 @@ public class Jobs
 		OleDbDataAdapter da = new OleDbDataAdapter(cmd);
 		DataSet ds = new DataSet();
 
-		da.Fill(ds, (PageNumber - 1) * RowPerPage, RowPerPage, "SearchResults");
-
-        DataColumn newColumn = new DataColumn();
-        newColumn.ColumnName = "countryid";
-        newColumn.DefaultValue = "1";        
-
-        ds.Tables[0].Columns.Add(newColumn);
+		da.Fill(ds, (PageNumber - 1) * RowPerPage, RowPerPage, "SearchResults");   
 		
 		int TotalRow = Convert.ToInt32(trows.Value);
 		int partialpagefactor;
@@ -544,6 +563,52 @@ public class Jobs
 		con.Close();
 		return MyListDictionary;
 	}
+
+    public ListDictionary AdvSearch_ListDictionaryInternational(string CountryID,string LocationID, string keywrd, string FamilyID, int PageNumber, int RowPerPage, string SortExp, string SortOrder)
+    {
+        if (SortExp == null) SortExp = "";
+        if (SortOrder == null) SortOrder = "";
+
+        OleDbConnection con = new OleDbConnection(constring);
+        con.Open();
+        OleDbCommand cmd = new OleDbCommand("p_boaJobSearchAdvancedInternational", con);
+        cmd.CommandType = CommandType.StoredProcedure;
+        cmd.Parameters.AddWithValue("@CountryID", CountryID);
+        cmd.Parameters.AddWithValue("@LocationID", LocationID);
+        cmd.Parameters.AddWithValue("@FamiyID", FamilyID);
+        cmd.Parameters.AddWithValue("@KeyWords", keywrd);
+        cmd.Parameters.AddWithValue("@SortExp", SortExp);
+        cmd.Parameters.AddWithValue("@SortOrder", SortOrder);
+        OleDbParameter trows = cmd.Parameters.Add("@totalrows", OleDbType.Integer);
+        trows.Direction = ParameterDirection.Output;
+
+        OleDbDataAdapter da = new OleDbDataAdapter(cmd);
+        DataSet ds = new DataSet();
+
+        da.Fill(ds, (PageNumber - 1) * RowPerPage, RowPerPage, "SearchResults");
+
+        int TotalRow = Convert.ToInt32(trows.Value);
+        int partialpagefactor;
+        partialpagefactor = TotalRow % RowPerPage > 0 ? 1 : 0;
+        int TotalPage = (TotalRow / RowPerPage) + partialpagefactor;
+
+        ListDictionary MyListDictionary = new ListDictionary();
+        MyListDictionary.Add("RecordCount", TotalRow);
+        MyListDictionary.Add("JobSearchResults", ds.Tables[0]);
+        MyListDictionary.Add("NextButton", ShowNextButton(TotalRow, PageNumber, TotalPage));
+        MyListDictionary.Add("PrevButton", ShowPrevButton(TotalRow, PageNumber, TotalPage));
+        if (TotalRow == 0)
+            MyListDictionary.Add("PageOfPages", "Page 0 of 0");
+        else
+            MyListDictionary.Add("PageOfPages", "Page " + Convert.ToString(PageNumber) + " of " + Convert.ToString(TotalPage));
+        int startpage;
+        int endpage;
+        startpage = 1 + (RowPerPage * (PageNumber - 1));
+        endpage = startpage + ds.Tables[0].Rows.Count - 1;
+        MyListDictionary.Add("JobToJobs", "Showing " + Convert.ToString(startpage) + " to " + Convert.ToString(endpage) + " of " + TotalRow + " jobs.");
+        con.Close();
+        return MyListDictionary;
+    }
 
     public OleDbDataReader TrackTellAFriendDR(string JobID, string FromAddress, string ToAddress)
     {

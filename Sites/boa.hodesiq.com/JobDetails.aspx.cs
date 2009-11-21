@@ -39,6 +39,7 @@ public partial class JobDetails : System.Web.UI.Page
 		}
 
         Jobs Jobs = new Jobs();
+
         DataTable dt = Jobs.JobDetails(Request.QueryString["JobId"].ToString());
 		if (dt.Rows.Count > 0)
 		{
@@ -122,6 +123,10 @@ public partial class JobDetails : System.Web.UI.Page
 
         }
 
+    }
+
+    protected void Page_PreRender(object sender, EventArgs e)
+    {
     }
 
     protected void Apply_Click(object sender, EventArgs e)

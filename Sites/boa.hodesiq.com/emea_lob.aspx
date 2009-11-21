@@ -21,8 +21,14 @@
                     Bank of America Europe Card Services is the number one credit card lender in Europe,
                     with operations in the United Kingdom, Ireland and Spain. Serving over seven million
                     customers, Bank of America Europe Card Services provides credit card services in
-                    affinity with over 900 partners. One of the main principles of the bank is responsible
+                    affinity with over 750 partners. One of the main principles of the bank is responsible
                     lending, and this is done through a variety of techniques to make the right decision.</p>
+                    
+                    <p>
+                        <a href="emea_europe_card_services.aspx">Learn more about Europe Card Services</a><br />
+                        <a href="emea_europe_card_services_teams.aspx">Learn about Europe Card Services departments</a> 
+
+                    </p>
                 <h2>
                     Global Investment Banking</h2>
                 <p>
@@ -165,7 +171,7 @@
             <td>
                 <div style="border: 1px solid #e8e8e9; margin: 1px 0px 1px 0px; padding: 0px 0px 6px 0px;">
                     <h2 class="g" style="margin: 0px 0px 0px 0px;">
-                        Global Information</h2>
+                       Related Information</h2>
                     <div style="padding: 0px 0px 0px 4px;">
                         <table width="190" border="0" cellspacing="0" cellpadding="0" align="top">
                             <tr>

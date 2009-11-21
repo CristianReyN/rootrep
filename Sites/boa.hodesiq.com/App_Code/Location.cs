@@ -68,6 +68,32 @@ public class Location
 		}
     }
 
+
+
+    public DataTable CountrywiseCity(string countryVal)
+    {
+        OleDbConnection con = new OleDbConnection(constring);
+        con.Open();
+        try
+        {
+            OleDbCommand cmd = new OleDbCommand("p_SelectInternationalCityByCountry ", con);
+            cmd.CommandType = CommandType.StoredProcedure;
+            cmd.Parameters.AddWithValue("@countryid", countryVal);
+            OleDbDataAdapter da = new OleDbDataAdapter(cmd);
+            DataSet ds = new DataSet();
+            da.Fill(ds);
+            return ds.Tables[0];
+        }
+        catch (Exception ex)
+        {
+            throw ex;
+        }
+        finally
+        {
+            con.Close();
+        }
+    }
+
     public DataTable StatewiseCity(int StateVal)
     {
 		OleDbConnection con = new OleDbConnection(constring);

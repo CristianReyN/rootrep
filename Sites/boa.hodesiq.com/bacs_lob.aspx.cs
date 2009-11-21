@@ -24,7 +24,7 @@ public partial class bacs_lob : System.Web.UI.Page
 
         HtmlMeta theMetaTag = new HtmlMeta();
         theMetaTag.Attributes.Add("name", "Description");
-        theMetaTag.Attributes.Add("content", "BA Continuum Lines of Business in Asia Overview for Global Careers site. This page describes the non-bank subsidiary's various operational units and allows job search for available international opportunities.");
+        theMetaTag.Attributes.Add("content", "BA Continuum Lines of Business in Asia overview for Global Careers site. This page describes the non-bank subsidiary's various operational units and allows job search for available international opportunities.");
         Page.Header.Controls.Add(theMetaTag);
     }
 }

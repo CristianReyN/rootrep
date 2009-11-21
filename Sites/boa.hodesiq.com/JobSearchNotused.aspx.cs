@@ -13,7 +13,7 @@ using System.Collections;
 using System.Collections.Specialized;
 
 
-public partial class JobSearch : System.Web.UI.Page
+public partial class JobSearchNotused : System.Web.UI.Page
 {
     #region Change History
     // date		    developer	    comments

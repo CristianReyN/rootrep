@@ -22,7 +22,7 @@ public partial class bacs_culture : System.Web.UI.Page
 
         HtmlMeta theMetaTag = new HtmlMeta();
         theMetaTag.Attributes.Add("name", "Description");
-        theMetaTag.Attributes.Add("content", "BA Continuum Culture in Asia Overview for the Global Careers site. This page details the non-bank subsidiary's culture of excellence, offers testimonials and allows search for open international jobs.");
+        theMetaTag.Attributes.Add("content", "BA Continuum Culture in Asia overview for the Global Careers site. This page details the non-bank subsidiary's culture of excellence, offers testimonials and allows search for open international jobs.");
         Page.Header.Controls.Add(theMetaTag);
 
     }

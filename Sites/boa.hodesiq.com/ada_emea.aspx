@@ -402,7 +402,7 @@
                 <div class="hidden">
                     <a href="#mapstart">Back to Location List</a></div>
                 <p>
-                    <a href="emea.aspx" class="ada2adalink" onfocus="this.className='ada2adalink-over';" onblur="this.className='ada2adalink';" title="Return to map">Return to map</a></p>
+                    <a href="emea.aspx#DivOne" class="ada2adalink" onfocus="this.className='ada2adalink-over';" onblur="this.className='ada2adalink';" title="Return to map">Return to map</a></p>
             </td>
         </tr>
     </table>
@@ -413,7 +413,7 @@
             <td>
                 <div style="border: 1px solid #e8e8e9; margin: 1px 0px 1px 0px; padding: 0px 0px 6px 0px;">
                     <h2 class="g" style="margin: 0px 0px 0px 0px;">
-                        Global Information</h2>
+                       Related Information</h2>
                     <div style="padding: 0px 0px 0px 4px;">
                         <table summary="" width="190" border="0" cellspacing="0" cellpadding="0" align="top">
                             <tr>

@@ -9,7 +9,7 @@ using System.Web.UI.WebControls;
 using System.Web.UI.WebControls.WebParts;
 using System.Web.UI.HtmlControls;
 
-public partial class boaml_staffing : System.Web.UI.Page
+public partial class asia_staffing : System.Web.UI.Page
 {
     protected void Page_Load(object sender, EventArgs e)
     {
@@ -21,7 +21,7 @@ public partial class boaml_staffing : System.Web.UI.Page
 
         HtmlMeta theMetaTag = new HtmlMeta();
         theMetaTag.Attributes.Add("name", "Description");
-        theMetaTag.Attributes.Add("content", "Staffing Process in Asia Overview for the Global Careers site. This page outlines the application process and expectations, allows job search for available international opportunities and online CV submission.");
+        theMetaTag.Attributes.Add("content", "Staffing Process in Asia overview for the Global Careers site. This page outlines the application process and expectations, allows job search for available international opportunities and online CV submission.");
         Page.Header.Controls.Add(theMetaTag);
     }
 }

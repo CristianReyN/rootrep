@@ -141,7 +141,7 @@ public partial class uc_LeftNavigation : System.Web.UI.UserControl
         {
             string CurrentOrder = dr["CurrentOrderNumber"].ToString();
             string href = "\"" + dr["href"].ToString() + "\"";
-            string InnerDIV = "<div style=\"padding-left: 20px;\">";
+            string InnerDIV = "<div style=\"padding-left: 15px;\">";
             string title = dr["title"].ToString();
             string aref = "<a href=" + href + " class=" + CLASS +
                         @"onfocus=" + ONFOCUS + " onblur=" + ONBLUR + ">" + title +
@@ -180,7 +180,7 @@ public partial class uc_LeftNavigation : System.Web.UI.UserControl
         {
             string CurrentOrder = dr["CurrentOrderNumber"].ToString();
             string href = "\"" + dr["href"].ToString() + "\"";
-            string InnerDIV = "<div style=\"padding-left: 30px;\">";
+            string InnerDIV = "<div style=\"padding-left: 20px;\">";
             string title = dr["title"].ToString();
             string aref = "<a href=" + href + " class=" + CLASS +
                         @"onfocus=" + ONFOCUS + " onblur=" + ONBLUR + ">" + title +

@@ -2,7 +2,7 @@
     AutoEventWireup="true" CodeFile="emea_europe_card_services.aspx.cs" Inherits="emea_europe_card_services" Title="Bank of America | Careers | Global Careers | Canada | Europe, Middle East and Africa (EMEA)| Europe Card Services" %>
     
 <asp:Content ID="Image" ContentPlaceHolderID="Image" runat="Server">
-    <img src="images/global-careers-emea_I.jpg" width="578" height="166" alt="Explore a career with the Bank of Opportunity."
+    <img src="images/Europe_ME_Africa_3_Europe_card_services_both_pages.jpg" width="578" height="166" alt="Explore a career with the Bank of Opportunity."
         title="Explore a career with the Bank of Opportunity." border="0" />
     <div class="hidden">
         Explore a career with the Bank of Opportunity.</div>
@@ -19,7 +19,7 @@
                    Bank of America career opportunities
                 </h2>
                 <p>
-                  The financial markets have changed, and so have we. We’ve launched new and innovative products, and continue to drive customer-focused improvements. We’ve listened to our people, and rewarded them with more responsibility. We think it’s because of this that Bank of America Europe Card Services has remained the number one credit card lender in Europe. Serving over seven million customers, we provide credit card services in partnership with over 900 organisations including; Amazon, Virgin, BT, Ryan Air, EBS Building Society, The Irish Heart Foundation, Liverpool Football Club, Fundación Vicente Ferrer, Breakthrough Breast Cancer and The National Trust, and we have operations in the UK, Ireland and Spain.</p>
+                  The financial markets have changed, and so have we. We’ve launched new and innovative products, and continue to drive customer-focused improvements. We’ve listened to our people, and rewarded them with more responsibility. We think it’s because of this that Bank of America Europe Card Services has remained the number one credit card lender in Europe. Serving over seven million customers, we provide credit card services in partnership with over 750 organisations including; Amazon, Virgin, BT, Ryan Air, EBS Building Society, The Irish Heart Foundation, Liverpool Football Club, Fundación Vicente Ferrer, Breakthrough Breast Cancer and The National Trust, and we have operations in the UK, Ireland and Spain.</p>
               
                 <p>
                    As a forward-thinking organisation, we hope like-minded individuals will join our dedicated team.  We need bright, intelligent and unique people to bring their individual talents to our vision and help to shape us for the future. </p>
@@ -65,7 +65,7 @@ Spain – Madrid<br />
             <td>
                 <div style="border: 1px solid #e8e8e9; margin: 1px 0px 1px 0px; padding: 0px 0px 6px 0px;">
                     <h2 class="g" style="margin: 0px 0px 0px 0px;">
-                        Global Information</h2>
+                       Related Information</h2>
                     <div style="padding: 0px 0px 0px 4px;">
                         <table width="190" border="0" cellspacing="0" cellpadding="0" align="top">
                             <tr>

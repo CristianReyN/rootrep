@@ -24,14 +24,15 @@ public partial class uc_JobSearch : System.Web.UI.UserControl
         if (!IsPostBack)
         {
             PopulateCountries();
+            Country.SelectedValue = "0";
             PopulateLocations();
             PopulateCity();
             PopulateJobFamily();
-
-            Country.SelectedValue = "0";
-            City.SelectedValue = "";
-            ddlJobAreas.SelectedValue = "";
-            ddlJobFamily.SelectedValue = "";
+            PopulateInternationalCity();
+            PnlUSJobsContent.Visible = false;
+            PnlFilter.Visible = false;
+            BtnSearch.Visible = false;
+            Country.AutoPostBack = false;
         }
 
         ViewState["jobareas"] = ddlJobAreas.SelectedValue;
@@ -43,7 +44,7 @@ public partial class uc_JobSearch : System.Web.UI.UserControl
 
     }
 
-    protected void LinkButton1_Click(object sender, EventArgs e)
+    protected void bsearch_Click(object sender, EventArgs e)
     {
         string stateid = trState.Visible ? State.SelectedValue : "";
         string cityid = trCity.Visible ? City.SelectedValue : "";
@@ -53,10 +54,41 @@ public partial class uc_JobSearch : System.Web.UI.UserControl
         string jobareas = trJobArea.Visible ? ddlJobAreas.SelectedValue : "";
         string jobfamilyid = trJobFamily.Visible ? ddlJobFamily.SelectedValue : "";
 
-        string url = "~/AdvanceSearch.aspx?countryid=" + countryid + "&stateid=" + stateid + "&cityid=" + cityid + "&internationalcityid=" + internationcityid;
+        string url = "~/JobSearch.aspx?countryid=" + countryid + "&stateid=" + stateid + "&cityid=" + cityid + "&internationalcityid=" + internationcityid;
         url = url + "&keywords=" + keyword + "&jobareas=" + jobareas + "&jobfamilyid=" + jobfamilyid;
 
         Response.Redirect(url);
+    }
+
+    protected void display_filter(object sender, EventArgs e)
+    {
+        if (Country.SelectedValue != "0")
+        {
+            PnlFilter.Visible = true;
+            BtnSearch.Visible = true;
+            BtnBegin.Visible = false;
+        }
+        else
+        {
+            PnlFilter.Visible = false;
+            BtnSearch.Visible = false;
+            BtnBegin.Visible = true;
+        }
+
+    }
+
+
+    public void Page_PreRender(object sender, EventArgs e)
+    {
+        if (Country.SelectedValue == USA)
+        {
+            PnlUSJobsContent.Visible = true;
+        }
+        else
+        {
+            PnlUSJobsContent.Visible = false;
+        }
+
     }
 
     protected void PopulateJobFamily()
@@ -68,7 +100,7 @@ public partial class uc_JobSearch : System.Web.UI.UserControl
         OleDbCommand cmd = new OleDbCommand();
         cmd.Connection = con;
         cmd.CommandType = CommandType.StoredProcedure;
-        cmd.CommandText = "p_SelectJobFamily";
+        cmd.CommandText = "p_SelectGlobalJobFamily";
 
         try
         {
@@ -84,7 +116,7 @@ public partial class uc_JobSearch : System.Web.UI.UserControl
         ddlJobFamily.DataSource = rdr;
         ddlJobFamily.DataBind();
 
-        ddlJobFamily.Items.Add(new ListItem("All", ""));
+        ddlJobFamily.Items.Add(new ListItem("All", "-1"));
     }
 
     protected void PopulateJobAreas()
@@ -115,7 +147,7 @@ public partial class uc_JobSearch : System.Web.UI.UserControl
         ListItem myListItem = new ListItem();
         myListItem = this.ddlJobAreas.Items.FindByValue(selVal);
 
-        ddlJobFamily.Items.Add(new ListItem("All", ""));
+        ddlJobAreas.Items.Add(new ListItem("All", ""));
 
         if (myListItem != null)
             myListItem.Selected = true;
@@ -139,12 +171,9 @@ public partial class uc_JobSearch : System.Web.UI.UserControl
         Country.DataSource = dr;
         Country.DataBind();
 
-        Country.Items.Add(new ListItem("All","0"));
+        Country.Items.Add(new ListItem("Select Country","0"));
         dr.Close();
-        if (!IsPostBack)
-        {
-            Country.SelectedValue = "0";
-        }
+       
     }
 
     protected void PopulateLocations()
@@ -177,6 +206,20 @@ public partial class uc_JobSearch : System.Web.UI.UserControl
         City.Items.Insert(0, new ListItem("All cities", "-1"));
         dr.Close();
 
+
+    }
+
+    protected void PopulateInternationalCity()
+    {
+        InternationalCity.Items.Clear();
+
+        Location Lo = new Location();  
+        InternationalCity.DataTextField = "City";
+        InternationalCity.DataValueField = "LocationID";
+        DataTable dt = Lo.CountrywiseCity(Country.SelectedValue);
+        InternationalCity.DataSource = dt;
+        InternationalCity.DataBind();
+        InternationalCity.Items.Insert(0, new ListItem("All cities", "-1"));    
 
     }
 
@@ -229,21 +272,38 @@ public partial class uc_JobSearch : System.Web.UI.UserControl
     }
 
     protected void Country_Click(object sender, EventArgs e)
-    {
-        /*if (Country.SelectedValue == USA || Country.SelectedValue == CANADA)
+    {      
+        UpdateControls();
+        if (Country.SelectedValue != USA)
         {
-            trUsLocation.Visible = true;
-            trInternationalLocation.Visible = false;
+            PopulateInternationalCity();
+            PopulateJobFamily();
+            ddlJobFamily.SelectedValue = "-1";
+            InternationalCity.SelectedValue = "-1";          
+            keywords.Text = "";
         }
         else
         {
-            trUsLocation.Visible = false;
-            trInternationalLocation.Visible = true;
-        }*/
+            State.SelectedValue = "-1";
+            RefineSearch(State.SelectedValue);
+            ddlJobAreas.SelectedValue = "";
+            keywords.Text = "";
+        }
 
-        UpdateControls();
-
-
+        if (Country.SelectedValue == "0")
+        {
+            PnlFilter.Visible = false;
+            Country.AutoPostBack = false;
+            BtnSearch.Visible = false;
+            BtnBegin.Visible = true;
+        }
+        else
+        {
+            PnlFilter.Visible = true;
+            Country.AutoPostBack = true;
+            BtnSearch.Visible = true;
+            BtnBegin.Visible = false;
+        }
     }
 
     protected void UpdateControls()
@@ -255,10 +315,7 @@ public partial class uc_JobSearch : System.Web.UI.UserControl
             trJobArea.Visible = true;
             trJobFamily.Visible = false;  
             trKeywords.Visible = true;
-            trState.Visible = true;
-            //      phSearch.Visible = true;
-
-
+            trState.Visible = true;  
         }       
         else
         {
@@ -267,9 +324,7 @@ public partial class uc_JobSearch : System.Web.UI.UserControl
             trCity.Visible = false;
             trState.Visible = false;
             trInternationalLocation.Visible = true;           
-            trKeywords.Visible = true;
-            // phSearch.Visible = true;
-
+            trKeywords.Visible = true;                   
         }
     }
 

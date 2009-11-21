@@ -31,19 +31,22 @@
                     We hire talented people from diverse backgrounds who are committed to providing
                     the very best products and services to Bank of America customers.
                 </p>
-                <div id="MapCanada">
-                </div>
+           
                 <h3 class="h1">
                     CANADA</h3>
+              
                 <p>
+
                     <span class="text_bold_under">Ottawa</span><br />
                     MBNA Canada Bank<br />
                     Banque MBNA Canada<br />
                     1600 James Naismith Drive<br />
                     Ottawa, ON K1B 5N8
                 </p>
+                                           <div id="MapCanada">
+                </div>
                 <p>
-                    <a href="canada.aspx" class="ada2adalink" onfocus="this.className='ada2adalink-over';" onblur="this.className='ada2adalink';" title="Return to map">Return to
+                    <a href="canada.aspx#A2" class="ada2adalink" onfocus="this.className='ada2adalink-over';" onblur="this.className='ada2adalink';" title="Return to map">Return to
                         map</a></p>
             </td>
         </tr>
@@ -56,7 +59,7 @@
             <td>
                 <div style="border: 1px solid #e8e8e9; margin: 1px 0px 1px 0px; padding: 0px 0px 6px 0px;">
                     <h2 class="g" style="margin: 0px 0px 0px 0px;">
-                        Global Information</h2>
+                       Related Information</h2>
                     <div style="padding: 0px 0px 0px 4px;">
                         <table summary="" width="190" border="0" cellspacing="0" cellpadding="0" align="top">
                             <tr>

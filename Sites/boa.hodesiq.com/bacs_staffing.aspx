@@ -251,7 +251,7 @@
             <td>
                 <div style="border: 1px solid #e8e8e9; margin: 1px 0px 1px 0px; padding: 0px 0px 6px 0px;">
                     <h2 class="g" style="margin: 0px 0px 0px 0px;">
-                        Global Information</h2>
+                       Related Information</h2>
                     <div style="padding: 0px 0px 0px 4px;">
                         <table summary="" width="190" border="0" cellspacing="0" cellpadding="0" style="vertical-align: top;">
                             <tr>
@@ -260,11 +260,6 @@
                             </tr>
                             <tr>
                                 <td height="26" align="left" valign="middle" style="background-image: url(images/dotted.gif);
-                                    background-position: left top; background-repeat: repeat-x;">
-                                    <a href="asia_overview.aspx" target="_self" class="ritnavlinks" onfocus="this.className='ritnavlinks-over';"
-                                        onblur="this.className='ritnavlinks';" title="Asia overview">Asia overview</a>
-                                </td>
-                            </tr>
                             <tr>
                                 <td height="26" align="left" valign="middle" style="background-image: url(images/dotted.gif);
                                     background-position: left top; background-repeat: repeat-x;">
