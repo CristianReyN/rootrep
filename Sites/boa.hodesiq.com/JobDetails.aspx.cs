@@ -60,7 +60,17 @@ public partial class JobDetails : System.Web.UI.Page
             lblQualification.Text = LinkBuilder(dt.Rows[0]["Qualification"].ToString(), "Qualification");
 			//apply process goes trough clients page for hits counting:
 			srcvalue = string.IsNullOrEmpty(Request["src"]) ? string.Empty : Request["src"];
-			ApplyURL = ConfigurationManager.AppSettings["taleoBaseURL"].Replace("{REQNOPLACEHOLDER}", dt.Rows[0]["reqNo"].ToString()) + srcvalue.Replace("-", "%2D"); 
+            string CANADA = "2";
+            string CountryID = Request.QueryString["countryid"] == null ? "1" : Request.QueryString["countryid"].ToString();
+
+            if (CountryID == CANADA)
+            {
+                ApplyURL = ConfigurationManager.AppSettings["CanadaApplyURL"].ToString();
+            }
+            else
+            {
+                ApplyURL = ConfigurationManager.AppSettings["taleoBaseURL"].Replace("{REQNOPLACEHOLDER}", dt.Rows[0]["reqNo"].ToString()) + srcvalue.Replace("-", "%2D");
+            }
 			//ApplyURL = dt.Rows[0]["ApplyURL"].ToString() + "&src=" + Request["src"];
 			this.hApplyNow.Value = targetpage + HttpUtility.UrlEncode(ApplyURL);
 
@@ -120,7 +130,7 @@ public partial class JobDetails : System.Web.UI.Page
     }
 
     protected void Apply_Click_NoJS(object sender, EventArgs e)
-    {
+    {       
         Response.Redirect(this.hApplyNow.Value);
     }
 
@@ -262,15 +272,16 @@ public partial class JobDetails : System.Web.UI.Page
         btnRemoveFromCart.Visible = false;
     }
     protected void bttnApplyNow_Click(object sender, EventArgs e)
-    {
-        Response.Redirect(ApplyURL);
+    {       
+        Response.Redirect(ApplyURL);       
     }
+
     protected void bttnTellAFriend_Click(object sender, EventArgs e)
     {
         Response.Redirect("Tell_a_friend.aspx?JobId=" + Request.QueryString["JobId"].ToString() + "&SearchPage=" + Request.QueryString["SearchPage"].ToString());
     }
     protected void bttnJobList_Click(object sender, EventArgs e)
-    {
+    {        
 		//Response.Redirect(bttnJobList.PostBackUrl);
     }
 

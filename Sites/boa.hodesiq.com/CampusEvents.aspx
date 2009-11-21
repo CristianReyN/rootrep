@@ -4,15 +4,15 @@
     <table width="578" cellpadding="0" cellspacing="0" border="0" summary="">
         <tr>
         <td><table width="578" cellpadding="0" cellspacing="0" border="0" summary="">
-			<tr valign="top"><td colspan="2" valign="top" class="divt"><img src="<%=imagePath %>/images/clear.gif" width="578" height="4" alt="" border="0"></td></tr>
+			<tr valign="top"><td colspan="2" valign="top" class="divt"><img src="images/clear.gif" width="578" height="4" alt="" border="0"></td></tr>
 			<tr valign="top">
-				<td width="100%" colspan="2" valign="top"><img src="<%=imagePath %>/images/camp/campusevents.jpg" width="578" height="166" alt="Explore Campus Events." title="Explore Campus Events." border="0"></td>
+				<td width="100%" colspan="2" valign="top"><img src="images/camp/campusevents.jpg" width="578" height="166" alt="Explore Campus Events." title="Explore Campus Events." border="0"></td>
 			</tr>
 			<tr valign="top">
-			<td colspan="2" valign="top" class="divb"><img src="<%=imagePath %>/images/clear.gif" width="550" height="4" alt="" border="0"></td>
+			<td colspan="2" valign="top" class="divb"><img src="images/clear.gif" width="550" height="4" alt="" border="0"></td>
 			</tr>
 		    </table>
-		    <img src="<%=imagePath %>/images/clear.gif" width="550" height="15" alt="" border="0"><br />
+		    <img src="images/clear.gif" width="550" height="15" alt="" border="0"><br />
 		    <h1 class="hidden">Campus Events</h1>
 		    <table width="100%" cellpadding="0" cellspacing="0" border="0" summary="">
 			    <tr valign="top">
@@ -25,7 +25,7 @@
                 </td>
                 </tr>
              </table>
-             <img src="<%=imagePath %>/images/clear.gif" width="550" height="12" alt="" border="0"><br />
+             <img src="images/clear.gif" width="550" height="12" alt="" border="0"><br />
 
 
         </td>
@@ -40,7 +40,7 @@
 					<asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/CampusEvents.aspx?region=2" ImageUrl="~/images/camp/t2a.gif" ToolTip="Campus events in EMEA" alt="Campus events in EMEA"></asp:HyperLink></td>
 				<td valign="bottom">
 					<asp:HyperLink ID="HyperLink3" runat="server" NavigateUrl="~/CampusEvents.aspx?region=3" ImageUrl="~/images/camp/t3a.gif" ToolTip="Campus events in Asia Pacific" alt="Campus events in Asia Pacific"></asp:HyperLink></td>
-				<td width="100%" background="<%=imagePath %>/images/camp/trtb.gif" valign="bottom" align="right"><img src="<%=imagePath %>/images/camp/trt.gif" border="0" alt="" /></td>
+				<td width="100%" background="images/camp/trtb.gif" valign="bottom" align="right"><img src="images/camp/trt.gif" border="0" alt="" /></td>
 			    </tr>
 		    </table>
 	    </td>
@@ -49,8 +49,8 @@
 	    <td valign="top">
 		    <table width="100%" cellpadding="0" cellspacing="0" border="0" summary="">
 			    <tr>
-				<td style="background:url(<%=imagePath %>/images/camp/tl.gif) repeat-y;" valign="top">
-					<img src="<%=imagePath %>/images/camp/tl.gif" width="6" height="<%=contentHeight %>" border="0" alt="" />
+				<td style="background:url(images/camp/tl.gif) repeat-y;" valign="top">
+					<img src="images/camp/tl.gif" width="6" height="<%=contentHeight %>" border="0" alt="" />
 				</td>
 				<td  valign="top">
                     <table width="100%" summary="" cellpadding="0" cellspacing="0" border="0">
@@ -125,7 +125,7 @@
                      </tr>
                      <tr>
                      <td align="left" valign="bottom">
-                     <a href="javascript:openWindow('https://static.wcn.co.uk/company/ml/event_search.html')"><img src="<%=imagePath %>/images/camp/Search&Register.jpg" border="0" alt="Search & Register, link opens in a new window." /></a>
+                     <a href="javascript:openWindow('https://static.wcn.co.uk/company/ml/event_search.html')"><img src="images/camp/Search&Register.jpg" border="0" alt="Search & Register, link opens in a new window." /></a>
                      </td>
                      </tr>
                      <%}else{ %>
@@ -152,22 +152,22 @@
                                 <asp:Table ID="Table1" width="560" runat="server" summary="For each region, the first column is the date.  The second column is the school.  The third column is the event.  The fourth column is the business.">
                                     <asp:TableRow ID="HeaderRow" runat="server" Visible="true">
                                         <asp:TableCell ID="DateHeader" Scope="column" runat="server" Width="25%" CssClass = "tdHeader">
-                                        <asp:LinkButton ID="LinkButton3" runat="server" OnClick="LinkButton3_Click" Visible="true" CssClass = "tdHeader" ToolTip="Sort by date in either ascending or descending order">Date <img src="<%=imagePath %>/images/camp/<%=up %>Arrow.gif" style="display:<%=sortDate %>" border="0" alt="" /></asp:LinkButton>
+                                        <asp:LinkButton ID="LinkButton3" runat="server" OnClick="LinkButton3_Click" Visible="true" CssClass = "tdHeader" ToolTip="Sort by date in either ascending or descending order">Date <img src="images/camp/<%=up %>Arrow.gif" style="display:<%=sortDate %>" border="0" alt="" /></asp:LinkButton>
                                         </asp:TableCell>
                                         <asp:TableCell ID="SchoolHeader" scope="column" runat="server" Width="25%" CssClass = "tdHeader">
-                                        <asp:LinkButton ID="LinkButton4" runat="server" OnClick="LinkButton4_Click" Visible="true" CssClass = "tdHeader" ToolTip="Sort by school in either ascending or descending order">School <img src="<%=imagePath %>/images/camp/<%=up %>Arrow.gif" style="display:<%=sortSchool %>" border="0" alt="" /></asp:LinkButton>
+                                        <asp:LinkButton ID="LinkButton4" runat="server" OnClick="LinkButton4_Click" Visible="true" CssClass = "tdHeader" ToolTip="Sort by school in either ascending or descending order">School <img src="images/camp/<%=up %>Arrow.gif" style="display:<%=sortSchool %>" border="0" alt="" /></asp:LinkButton>
                                         </asp:TableCell>
                                         <asp:TableCell ID="EventHeader" scope="column" runat="server" Width="25%" CssClass = "tdHeader">
-                                        <asp:LinkButton ID="LinkButton5" runat="server" OnClick="LinkButton5_Click" Visible="true" CssClass = "tdHeader" ToolTip="Sort by event in either ascending or descending order">Event <img src="<%=imagePath %>/images/camp/<%=up %>Arrow.gif" style="display:<%=sortEvent %>" border="0" alt="" /></asp:LinkButton>
+                                        <asp:LinkButton ID="LinkButton5" runat="server" OnClick="LinkButton5_Click" Visible="true" CssClass = "tdHeader" ToolTip="Sort by event in either ascending or descending order">Event <img src="images/camp/<%=up %>Arrow.gif" style="display:<%=sortEvent %>" border="0" alt="" /></asp:LinkButton>
                                         </asp:TableCell>
                                         <asp:TableCell ID="BusinessHeader" scope="column" runat="server" Width="25%" CssClass = "tdHeader">
-                                        <asp:LinkButton ID="LinkButton6" runat="server" OnClick="LinkButton6_Click" Visible="true" CssClass = "tdHeader" ToolTip="Sort by business in either ascending or descending order">Business <img src="<%=imagePath %>/images/camp/<%=up %>Arrow.gif" style="display:<%=sortBusiness %>" border="0" alt="" /></asp:LinkButton>
+                                        <asp:LinkButton ID="LinkButton6" runat="server" OnClick="LinkButton6_Click" Visible="true" CssClass = "tdHeader" ToolTip="Sort by business in either ascending or descending order">Business <img src="images/camp/<%=up %>Arrow.gif" style="display:<%=sortBusiness %>" border="0" alt="" /></asp:LinkButton>
                                         </asp:TableCell>
                                     </asp:TableRow>
                                 </asp:Table>
                                 <asp:Table ID="Table2" runat="server" Visible="false" CssClass="errorBody" summary="No events found">
                                     <asp:TableRow ID="TableRow1" runat="server">
-                                    <asp:TableCell ID="TableCell1" runat="server" Width="15%" CssClass="warningImage"><img src="<%=imagePath %>/images/camp/warning.gif" border="0" alt="Information" />
+                                    <asp:TableCell ID="TableCell1" runat="server" Width="15%" CssClass="warningImage"><img src="images/camp/warning.gif" border="0" alt="Information" />
                                     </asp:TableCell>
                                     <asp:TableCell ID="TableCell2" runat="server" Width="85%" CssClass="warningCopy">No Events Found.
                                     </asp:TableCell>
@@ -205,16 +205,16 @@
                     </table>
                 
                 </td>
-				<td background="<%=imagePath %>/images/camp/tr.gif" valign="top">
-					<img src="<%=imagePath %>/images/camp/tr.gif" width="6" height="4" border="0" alt="" /></td>
+				<td background="images/camp/tr.gif" valign="top">
+					<img src="images/camp/tr.gif" width="6" height="4" border="0" alt="" /></td>
 			    </tr>
                 <tr>
 				<td valign="top">
-					<img src="<%=imagePath %>/images/camp/tlb.gif" border="0" alt="" /></td>
+					<img src="images/camp/tlb.gif" border="0" alt="" /></td>
 				<td  valign="top">
-					<img src="<%=imagePath %>/images/camp/tb.gif" height="6" width="100%"  border="0" alt="" /></td>
+					<img src="images/camp/tb.gif" height="6" width="100%"  border="0" alt="" /></td>
 				<td valign="top">
-					<img src="<%=imagePath %>/images/camp/trb.gif" border="0" alt="" /></td>
+					<img src="images/camp/trb.gif" border="0" alt="" /></td>
 			    </tr>
 		    </table>
 		    

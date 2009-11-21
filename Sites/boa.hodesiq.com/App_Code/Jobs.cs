@@ -515,6 +515,12 @@ public class Jobs
 		DataSet ds = new DataSet();
 
 		da.Fill(ds, (PageNumber - 1) * RowPerPage, RowPerPage, "SearchResults");
+
+        DataColumn newColumn = new DataColumn();
+        newColumn.ColumnName = "countryid";
+        newColumn.DefaultValue = "1";        
+
+        ds.Tables[0].Columns.Add(newColumn);
 		
 		int TotalRow = Convert.ToInt32(trows.Value);
 		int partialpagefactor;

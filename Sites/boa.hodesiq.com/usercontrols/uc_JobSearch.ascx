@@ -1,12 +1,22 @@
 ﻿<%@ Control Language="C#" AutoEventWireup="true" CodeFile="uc_JobSearch.ascx.cs" Inherits="uc_JobSearch" %>
- <table border="0" cellpadding="0" cellspacing="0" summary=""
-            width="200">
-            <tr valign="top">
-                <td style="padding: 6px 12px 0px 12px; height: 100%" valign="top">
-					<table border="0" cellpadding="1" cellspacing="1" summary="" width="100%">
-                        
-						
-						<tr>
+<link href="../resources/style.css" rel="stylesheet" type="text/css" />
+<table width="200" border="0" cellspacing="0" cellpadding="0" summary="">
+                          <tr>
+                            <td width="200" height="22" align="left" valign="middle" style="background-image:url(images/search_results_31.gif); background-position: right top; background-repeat:no-repeat;  "> <h2 class="g" style="margin: 0px;"><a name="jobsearch"></a>Guided Job Search</h2></td>
+                          </tr>
+                          <tr>
+                            <td width="200" align="left" valign="top" style="border:1px solid #e8e8e8;">
+                            <table width="200" border="0" cellpadding="0" cellspacing="0" summary="Guided Job Search">
+                              <tr>
+                                <td width="200" align="left" valign="top"  style="padding:6px 6px 0px 6px;" >Use the Search below to find a career suited to your skill set. You may  narrow your selection further by selecting a country, city, job  family&nbsp;or entering a keyword.<br />
+                                <br /></td>
+                              </tr>
+                              <tr>
+          
+                                    <td height="1" align="left" valign="top" style="background-image:url(images/dotted.gif); background-position:left top; background-repeat:repeat-x;  "></td>
+                                    </tr>
+ 
+                            <tr>
 							<td  valign="top" style="width:50%; height:45;">
 							
 								    <asp:Label ID="lblCountry" runat="server" Text="Country" AssociatedControlID="State"></asp:Label><br />
@@ -15,14 +25,10 @@
 								    </asp:DropDownList>																						
 							</td>
 							</tr>
-							<tr id="trCanadaJobs" runat="server" visible="false">
-							<td>
-							 <a href="http://globalcareers.bankofamerica.com" id="A1" title="Canada Job Search" class="p" onblur="this.className='p';" onfocus="this.className='p-over';">Canada Job Search .</a>
-							</td>
-							</tr>
+							
 							<tr id="trInternationalLocation" runat="server"  visible="false">							
 							<td  valign="top" style="width:50%; height:45;">
-							    <asp:Label ID="LblInternationalCity" runat="server" Text="International City" Visible="true" AssociatedControlID="InternationalCity"></asp:Label><br />
+							    <asp:Label ID="LblInternationalCity" runat="server" Text="City" Visible="true" AssociatedControlID="InternationalCity"></asp:Label><br />
 								<asp:DropDownList ID="InternationalCity" runat="server" CssClass="left" Style="width: 100%; z-index: auto;"
 								ToolTip="Select a city" Visible="true" Enabled="true">
 								<asp:ListItem>All cities&#160;</asp:ListItem>
@@ -83,13 +89,18 @@
 
 						</tr>
 						<tr>
-						<td align="left" valign="top"><asp:PlaceHolder runat="server" ID="phSearch"></asp:PlaceHolder></td>
-						</tr>
+
+                                    <td width="193" height="22" align="left" valign="bottom" style="padding-left:6px;" >  
+									
+									
+                                        <asp:LinkButton ID="LinkButton1" runat="server" CssClass="ie-btn1" OnClick="LinkButton1_Click" Width="77px" ToolTip=" Begin Search">Begin&nbsp;Search</asp:LinkButton> &nbsp; &nbsp; &nbsp;                                                                   
+                                                           
+						<asp:HyperLink runat="server" ID="lnkJobCart" NavigateUrl="~/jobcart.aspx" Text="View job cart" CssClass="p" ToolTip="View job cart" />					</td></tr>
 						<tr>
-						<td><a href="http://www.bankofamerica.com/careers/index.cfm?template=jobs_interstitial" id="ctl00_cphmain_lnkInternal" title="Internal Jobs Database" class="p" onblur="this.className='p';" onfocus="this.className='p-over';">internal jobs database</a>.
+						<td width="193" height="22" align="left" valign="bottom" style="padding-left:6px;" >  <a href="http://www.bankofamerica.com/careers/index.cfm?template=jobs_interstitial" id="ctl00_cphmain_lnkInternal" title="Internal Jobs Database" class="p" onblur="this.className='p';" onfocus="this.className='p-over';">internal jobs database</a>.<br />
 						</td>
 						</tr>
 						<tr>						
-						<td><a href="overview/manage_your_profile.asp" target="_blank" class="p" onblur="this.className='p';" onfocus="this.className='p-over';" >Manage Your Profile</a>
+						<td width="193" height="22" align="left" valign="bottom" style="padding-left:6px;" >  <a href="overview/manage_your_profile.asp" target="_blank" class="p" onblur="this.className='p';" onfocus="this.className='p-over';" >Manage Your Profile</a>
     						</td></tr>
-						</table>
+						</table></td></tr></table>

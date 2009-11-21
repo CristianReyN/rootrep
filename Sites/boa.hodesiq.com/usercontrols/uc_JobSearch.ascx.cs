@@ -22,26 +22,33 @@ public partial class uc_JobSearch : System.Web.UI.UserControl
     {
 
         if (!IsPostBack)
-        {           
-                PopulateCountries();
-                PopulateLocations();
-                PopulateCity();               
-                PopulateJobFamily();                                      
+        {
+            PopulateCountries();
+            PopulateLocations();
+            PopulateCity();
+            PopulateJobFamily();
+
+            Country.SelectedValue = "0";
+            City.SelectedValue = "";
+            ddlJobAreas.SelectedValue = "";
+            ddlJobFamily.SelectedValue = "";
         }
 
         ViewState["jobareas"] = ddlJobAreas.SelectedValue;
         PopulateJobAreas();
 
-        boanet_safebutton.writeBOASafeButton("Search", phSearch, "Search", bsearch_Click, this.Request, "");
+        UpdateControls();
+
+        //boanet_safebutton.writeBOASafeButton("Search", phSearch, "Begin Search", bsearch_Click, this.Request, "");
 
     }
 
-    protected void bsearch_Click(object sender, EventArgs e)
+    protected void LinkButton1_Click(object sender, EventArgs e)
     {
-        string stateid = trState.Visible ? State.SelectedValue: "";
-        string cityid = trCity.Visible?City.SelectedValue:"";
+        string stateid = trState.Visible ? State.SelectedValue : "";
+        string cityid = trCity.Visible ? City.SelectedValue : "";
         string countryid = Country.SelectedValue;
-        string internationcityid = trInternationalLocation.Visible? InternationalCity.SelectedValue:"";
+        string internationcityid = trInternationalLocation.Visible ? InternationalCity.SelectedValue : "";
         string keyword = keywords.Text;
         string jobareas = trJobArea.Visible ? ddlJobAreas.SelectedValue : "";
         string jobfamilyid = trJobFamily.Visible ? ddlJobFamily.SelectedValue : "";
@@ -49,11 +56,12 @@ public partial class uc_JobSearch : System.Web.UI.UserControl
         string url = "~/AdvanceSearch.aspx?countryid=" + countryid + "&stateid=" + stateid + "&cityid=" + cityid + "&internationalcityid=" + internationcityid;
         url = url + "&keywords=" + keyword + "&jobareas=" + jobareas + "&jobfamilyid=" + jobfamilyid;
 
-        Response.Redirect(url);            
+        Response.Redirect(url);
     }
 
     protected void PopulateJobFamily()
     {
+        ddlJobFamily.Items.Clear();
         OleDbConnection con = new OleDbConnection(constring);
         con.Open();
         OleDbDataReader rdr;
@@ -75,10 +83,13 @@ public partial class uc_JobSearch : System.Web.UI.UserControl
         ddlJobFamily.DataValueField = "FamilyID";
         ddlJobFamily.DataSource = rdr;
         ddlJobFamily.DataBind();
+
+        ddlJobFamily.Items.Add(new ListItem("All", ""));
     }
 
     protected void PopulateJobAreas()
     {
+        ddlJobAreas.Items.Clear();
         string selVal;
         if (!IsPostBack)
         {
@@ -104,6 +115,8 @@ public partial class uc_JobSearch : System.Web.UI.UserControl
         ListItem myListItem = new ListItem();
         myListItem = this.ddlJobAreas.Items.FindByValue(selVal);
 
+        ddlJobFamily.Items.Add(new ListItem("All", ""));
+
         if (myListItem != null)
             myListItem.Selected = true;
     }
@@ -116,6 +129,8 @@ public partial class uc_JobSearch : System.Web.UI.UserControl
 
     protected void PopulateCountries()
     {
+        Country.Items.Clear();
+
         Location Lo = new Location();
         OleDbDataReader dr;
         Country.DataTextField = "country";
@@ -123,15 +138,19 @@ public partial class uc_JobSearch : System.Web.UI.UserControl
         dr = Lo.CountryDR();
         Country.DataSource = dr;
         Country.DataBind();
+
+        Country.Items.Add(new ListItem("All","0"));
         dr.Close();
         if (!IsPostBack)
         {
-            Country.SelectedValue = USA;
+            Country.SelectedValue = "0";
         }
     }
 
     protected void PopulateLocations()
     {
+        State.Items.Clear();
+
         Location Lo = new Location();
         OleDbDataReader dr;
         State.DataTextField = "State";
@@ -145,6 +164,8 @@ public partial class uc_JobSearch : System.Web.UI.UserControl
 
     protected void PopulateCity()
     {
+        City.Items.Clear();
+
         Location Lo = new Location();
         OleDbDataReader dr;
         City.Items.Clear();
@@ -162,7 +183,7 @@ public partial class uc_JobSearch : System.Web.UI.UserControl
     protected void brefine_Click(object sender, EventArgs e)
     {
         RefineSearch(this.State.SelectedItem.Value);
-    
+
     }
 
     public void RefineSearch(string StateID)
@@ -220,45 +241,36 @@ public partial class uc_JobSearch : System.Web.UI.UserControl
             trInternationalLocation.Visible = true;
         }*/
 
+        UpdateControls();
+
+
+    }
+
+    protected void UpdateControls()
+    {
         if (Country.SelectedValue == USA)
         {
             trCity.Visible = true;
             trInternationalLocation.Visible = false;
-            trJobArea.Visible = true;         
-            trJobFamily.Visible = false;
-            trCanadaJobs.Visible = false;
+            trJobArea.Visible = true;
+            trJobFamily.Visible = false;  
             trKeywords.Visible = true;
             trState.Visible = true;
-      //      phSearch.Visible = true;
-      
+            //      phSearch.Visible = true;
 
-        }
-        else if (Country.SelectedValue == CANADA)
-        {
-            trJobArea.Visible = false;        
-            trJobFamily.Visible = false;
-            trCity.Visible = false;
-            trState.Visible = false;
-            trInternationalLocation.Visible = false;
-            trCanadaJobs.Visible = true;
-            trKeywords.Visible = false;
-            InternationalCity.Enabled = true;
-          //  phSearch.Visible = false;        
-        }
+
+        }       
         else
         {
-            trJobArea.Visible = false;           
+            trJobArea.Visible = false;
             trJobFamily.Visible = true;
             trCity.Visible = false;
             trState.Visible = false;
-            trInternationalLocation.Visible = true;
-            trCanadaJobs.Visible = false;
+            trInternationalLocation.Visible = true;           
             trKeywords.Visible = true;
-           // phSearch.Visible = true;
-           
-        }
+            // phSearch.Visible = true;
 
-        
+        }
     }
 
 
