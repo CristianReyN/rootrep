@@ -1,6 +1,7 @@
 <% Response.Buffer=True 
-Dim title, mpage, spage, ada_href, ada_title, job_search_action,page_section, Metatag
-title = "Bank of America | Career | Diversity and inclusion"
+Dim title, mpage, spage, ada_href, ada_title, job_search_action,page_section, Metatag%>
+<!-- #include file="../includes/breadcrumb.asp" -->
+<% title = breadcrumb & "Diversity and inclusion"
 mpage = "learnmore"
 spage = "diversity"
 standart_href = "../learnmore/diversity.asp"

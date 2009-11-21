@@ -1,6 +1,7 @@
 <% Response.Buffer=True 
-Dim title, mpage, spage, ada_href, ada_title, job_search_action,page_section, Metatag
-title = "Bank of America | Career | Campus Recruiting | Career Compass"
+Dim title, mpage, spage, ada_href, ada_title, job_search_action,page_section, Metatag%>
+<!-- #include file="../includes/breadcrumb.asp" -->
+<%
 mpage = "lob"
 spage = "lb_career_compass"
 standart_href = "../learnmore/lb_career_compass.asp"
@@ -16,6 +17,9 @@ flashPage = false
 	next_page_number = page_number + 1
 %>
 <!-- #include file="../includes/pages/lb_career_compass_function.asp" -->
+<%
+title = breadcrumb & "Campus Recruiting | Career Compass | Step " & page_number
+%>
 <!-- Header -->
 <!-- #include file="header.asp" -->
 <!-- Header -->

@@ -1,6 +1,7 @@
 <% Response.Buffer=True 
-Dim title, mpage, spage, ada_href, ada_title, job_search_action,page_section, Metatag
-title = "Bank of America | Career | Employee assistance program (EAP)"
+Dim title, mpage, spage, ada_href, ada_title, job_search_action,page_section, Metatag%>
+<!-- #include file="../includes/breadcrumb.asp" -->
+<% title = breadcrumb & "Employee assistance program (EAP)"
 mpage = "learnmore"
 spage = "benefitsadv"
 tpage = "employeeassistance"
