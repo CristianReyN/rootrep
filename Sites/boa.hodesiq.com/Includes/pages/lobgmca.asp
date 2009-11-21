@@ -115,6 +115,8 @@ familyid=11
 rowcount=6
 %>
 <!--#include file="../../hot_jobs.asp"-->
+</table>
+<br><br>
 				</td>
 			</tr>
 			<tr valign="top"><td valign="top" class="divb"><img src="../images/clear.gif" width="100%" height="4" alt="" border="0"></td></tr>
