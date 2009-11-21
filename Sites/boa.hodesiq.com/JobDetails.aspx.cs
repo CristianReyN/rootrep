@@ -62,7 +62,7 @@ public partial class JobDetails : System.Web.UI.Page
 			srcvalue = string.IsNullOrEmpty(Request["src"]) ? string.Empty : Request["src"];
 			ApplyURL = ConfigurationManager.AppSettings["taleoBaseURL"].Replace("{REQNOPLACEHOLDER}", dt.Rows[0]["reqNo"].ToString()) + srcvalue.Replace("-", "%2D"); 
 			//ApplyURL = dt.Rows[0]["ApplyURL"].ToString() + "&src=" + Request["src"];
-			this.hApplyNow.Value = targetpage + "?" + HttpUtility.UrlEncode(ApplyURL);
+			this.hApplyNow.Value = targetpage + HttpUtility.UrlEncode(ApplyURL);
 
 		}
 		else

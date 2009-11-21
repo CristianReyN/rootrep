@@ -4,7 +4,7 @@
 dim stitle,surl
 if request.QueryString("m")=1 then
 	stitle="Bank of America | Careers | Manage My Profile"
-	surl=Request.QueryString
+	surl=Request.QueryString("u").item
 else
 	stitle="Bank of America | Careers | Job Search"
 	surl="applyrd.aspx?" & Request.QueryString
