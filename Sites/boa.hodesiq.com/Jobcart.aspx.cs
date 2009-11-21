@@ -100,6 +100,7 @@ public partial class Jobcart : System.Web.UI.Page
     {
         HiddenField MyHidden = null;
         DataRowView DrvRow = null;
+        HyperLink MyApplyLink = null;
         CheckBox MyCheckBox = null;
         Label MyLabel = null;
 
@@ -110,6 +111,11 @@ public partial class Jobcart : System.Web.UI.Page
 
             MyHidden = (HiddenField)e.Row.FindControl("JobsID");
             MyHidden.Value = DrvRow["JobsID"].ToString();
+
+            MyApplyLink = (HyperLink)e.Row.FindControl("hlnkApply");
+            MyApplyLink.ID = "hlnkApply" + e.Row.RowIndex;
+            MyApplyLink.Text = "Apply Now<span class='auraltext'>Apply Now For " + DrvRow["JobTitle"].ToString() + "</span>";
+            MyApplyLink.NavigateUrl = DrvRow["APPLY_ONLINE_URL"].ToString();
 
             MyLabel = (Label)e.Row.FindControl("lblCheckBox");
             MyLabel.ID = "lblCheckBox" + e.Row.RowIndex;

@@ -32,7 +32,7 @@
                             BorderWidth="0px" 
                             EmptyDataText="Your job cart is empty." 
                             ToolTip="Job cart results" 
-                            summary="Job cart results">
+                            summary="Job cart results. The first two columns are job name and job location. The fourth column contains a checkbox to remove the job from the cart.">
                                 <RowStyle CssClass="C1" BorderStyle="None" />
                                 <AlternatingRowStyle CssClass="C2" BorderStyle="None" />
                                 <HeaderStyle BackColor="#EAF1F7" />
@@ -41,26 +41,37 @@
                                         DataTextField="JobTitle" HeaderText="Job name">
                                         <HeaderStyle HorizontalAlign="Left" />
                                     </asp:HyperLinkField>
+                                    
                                     <asp:BoundField DataField="Location" HeaderText="Location">
                                         <HeaderStyle HorizontalAlign="Left" />
                                     </asp:BoundField>
                                     
-                                    <asp:HyperLinkField DataNavigateUrlFields="APPLY_ONLINE_URL" 
-                                        HeaderText="Apply" Text="Apply now <noscript>Apply now.</noscript><span class='auraltext'>Apply now.</span>"  AccessibleHeaderText="Apply now " Target="_blank" >
+<%--                                <asp:HyperLinkField DataNavigateUrlFields="APPLY_ONLINE_URL" 
+                                        HeaderText="Apply" Text="Apply now"  AccessibleHeaderText="Apply now" Target="_blank" >
                                         <HeaderStyle HorizontalAlign="Left" />
-                                    </asp:HyperLinkField>
+                                    </asp:HyperLinkField>--%>
+                                    
+                                    <asp:TemplateField HeaderText="Apply" ItemStyle-HorizontalAlign="Left" >
+                                    <HeaderStyle HorizontalAlign="Left" />
+                                        <ItemTemplate>
+                                           <asp:HyperLink ID="hlnkApply" NavigateUrl="" runat="server" Target="_blank"  />                                    
+                                        </ItemTemplate>
+                                    </asp:TemplateField>                                                                         
                                     
                                     <asp:TemplateField HeaderText="Remove" ItemStyle-HorizontalAlign="Center" >
                                         <ItemTemplate>
                                             <asp:Label ID="lblCheckBox" AssociatedControlID="ChkRemove" runat="server" /> 
                                             <asp:CheckBox ID="ChkRemove"  runat="server" />
-                                        </ItemTemplate>
-                                    </asp:TemplateField>
-                                    <asp:TemplateField>
-                                        <ItemTemplate>
                                             <asp:HiddenField ID="JobsID" runat="server"/>
                                         </ItemTemplate>
                                     </asp:TemplateField>
+                                    
+<%--                                    <asp:TemplateField>
+                                        <ItemTemplate>
+                                            
+                                        </ItemTemplate>
+                                    </asp:TemplateField>--%>
+                                    
                                 </Columns>
                                 <EmptyDataTemplate>
                                     <b><span id="ctl00_cphmain_lblNoResults">Your job cart is empty.</span></b>

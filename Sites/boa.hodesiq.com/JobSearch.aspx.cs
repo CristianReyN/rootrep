@@ -15,23 +15,23 @@ using System.Collections.Specialized;
 
 public partial class JobSearch : System.Web.UI.Page
 {
-	#region Change History
-	// date		    developer	    comments
-	// -----------	----------	    ----------
-	//  11/27/06    Jonathan Do     (1) Removed paging logic in code, used new SearchJobs Method in Jobs.cs to return records for page selected, logic to
-	//                              hide or display Next/Prev button.
-	//                              (2) Added BindSearchString() function to bind search criteria when return from job detail.
-	//                              (3) Added FilterCity() to filter when select AreaOfTalent and State
-	//                              index change and filter when redirect back from job detail.
-	/// </summary>
-	#endregion
+    #region Change History
+    // date		    developer	    comments
+    // -----------	----------	    ----------
+    //  11/27/06    Jonathan Do     (1) Removed paging logic in code, used new SearchJobs Method in Jobs.cs to return records for page selected, logic to
+    //                              hide or display Next/Prev button.
+    //                              (2) Added BindSearchString() function to bind search criteria when return from job detail.
+    //                              (3) Added FilterCity() to filter when select AreaOfTalent and State
+    //                              index change and filter when redirect back from job detail.
+    /// </summary>
+    #endregion
 
-	private int RecPerPage = 12;
-	protected void Page_Load(object sender, EventArgs e)
-	{
-        //////////init hidden location value
-        //ddlStatehidden.Value = ddlState.SelectedItem.Value.Trim();
-        //if (ddlStatehidden.Value == "All Locations") ddlStatehidden.Value="-1";
+    private int RecPerPage = 12;
+    protected void Page_Load(object sender, EventArgs e)
+    {
+        //init hidden location value
+        ddlStatehidden.Value = ddlState.SelectedItem.Value.Trim();
+        if (ddlStatehidden.Value == "All Locations") ddlStatehidden.Value = "-1";
 
         //write the boa buttons
         boanet_safebutton.writeBOASafeButton("Search", phSearch, "Search", bsearch_Click, this.Request);
@@ -45,7 +45,7 @@ public partial class JobSearch : System.Web.UI.Page
         lnkJobCart.Attributes.Add("onblur", "this.className='p';");
         lnkJobCart.Attributes.Add("onfocus", "this.className='p-over';");
 
-		ViewState["statequery"] = string.Empty;
+        ViewState["statequery"] = string.Empty;
 
         if (!this.IsPostBack)
         {
@@ -61,226 +61,226 @@ public partial class JobSearch : System.Web.UI.Page
                 BindSearchString();
                 ViewState["PageNumber"] = 1;
                 FunSearch();
-            }           
+            }
         }
         PopulateJobAreas();
 
-        /////////postback only if location has been changed:
-        //this.ddlState.Attributes.Add("onblur", "javascript:if(document." + this.Form.ClientID + "." + this.ddlStatehidden.ClientID + ".value!=document." + this.Form.ClientID + "." + ddlState.ClientID + ".options[document." + this.Form.ClientID + "." + ddlState.ClientID.Replace("$", "_") + ".selectedIndex].value) {setTimeout('__doPostBack(\\'" + this.ddlState.ClientID.Replace("_", "$") + "\\',\\'\\')', 0);}");
-        /////////testing: this.ddlState.Attributes.Add("onblur", "javascript:if(document." + this.Form.ClientID + "." + this.ddlStatehidden.ClientID + ".value!=document." + this.Form.ClientID + "." + ddlState.ClientID + ".options[document." + this.Form.ClientID + "." + ddlState.ClientID.Replace("$", "_") + ".selectedIndex].value) {alert('stateid: '+document." + this.Form.ClientID + "." + ddlState.ClientID + ".options[document." + this.Form.ClientID + "." + ddlState.ClientID.Replace("$", "_") + ".selectedIndex].value);alert('hidden: '+document." + this.Form.ClientID + "." + this.ddlStatehidden.ClientID + ".value);setTimeout('__doPostBack(\\'" + this.ddlState.ClientID.Replace("_", "$") + "\\',\\'\\')', 0);}");
+        //postback only if location has been changed:
+        this.ddlState.Attributes.Add("onblur", "javascript:if(document." + this.Form.ClientID + "." + this.ddlStatehidden.ClientID + ".value!=document." + this.Form.ClientID + "." + ddlState.ClientID + ".options[document." + this.Form.ClientID + "." + ddlState.ClientID.Replace("$", "_") + ".selectedIndex].value) {setTimeout('__doPostBack(\\'" + this.ddlState.ClientID.Replace("_", "$") + "\\',\\'\\')', 0);}");
+        //testing: this.ddlState.Attributes.Add("onblur", "javascript:if(document." + this.Form.ClientID + "." + this.ddlStatehidden.ClientID + ".value!=document." + this.Form.ClientID + "." + ddlState.ClientID + ".options[document." + this.Form.ClientID + "." + ddlState.ClientID.Replace("$", "_") + ".selectedIndex].value) {alert('stateid: '+document." + this.Form.ClientID + "." + ddlState.ClientID + ".options[document." + this.Form.ClientID + "." + ddlState.ClientID.Replace("$", "_") + ".selectedIndex].value);alert('hidden: '+document." + this.Form.ClientID + "." + this.ddlStatehidden.ClientID + ".value);setTimeout('__doPostBack(\\'" + this.ddlState.ClientID.Replace("_", "$") + "\\',\\'\\')', 0);}");
 
- 	}
+    }
 
     protected void Page_LoadComplete()
-	{
-        //if (ddlState.SelectedItem.Value != "-1")
-        //{
-        //    this.ddlCity.Focus();
-        //}
+    {
+        if (ddlState.SelectedItem.Value != "-1")
+        {
+            this.ddlCity.Focus();
+        }
     }
-	public void BindSearchString()
-	{
-		ListItem MyListItem;
-		string MyValue;
+    public void BindSearchString()
+    {
+        ListItem MyListItem;
+        string MyValue;
 
-		MyValue = String.IsNullOrEmpty(Request.QueryString["stateid"]) == false ? Request.QueryString["stateid"] : "-1";
-		MyListItem = ddlState.Items.FindByValue(MyValue);
-		
-		if (MyListItem != null)
-			MyListItem.Selected = true;
-		else
-		{
-			ViewState["statequery"]="-3";
-		}
-		if (MyValue.ToString() != "-1")
-		{
-			FilterCity(Convert.ToInt32(MyValue));
-			ddlCity.Enabled = true;
-		}
+        MyValue = String.IsNullOrEmpty(Request.QueryString["stateid"]) == false ? Request.QueryString["stateid"] : "-1";
+        MyListItem = ddlState.Items.FindByValue(MyValue);
 
-		MyListItem = ddlCity.Items.FindByValue(String.IsNullOrEmpty(Request.QueryString["cityid"]) == false ? Request.QueryString["cityid"] : "-1");
-		if (MyListItem != null)
-			MyListItem.Selected = true;
-		keywords.Text = String.IsNullOrEmpty(Request.QueryString["keywords"]) == false ? Request.QueryString["keywords"] : "";
-	}
+        if (MyListItem != null)
+            MyListItem.Selected = true;
+        else
+        {
+            ViewState["statequery"] = "-3";
+        }
+        if (MyValue.ToString() != "-1")
+        {
+            FilterCity(Convert.ToInt32(MyValue));
+            ddlCity.Enabled = true;
+        }
 
-	protected void State_SelectedIndexChanged(object sender, System.EventArgs e)
-	{
-		if (ddlState.SelectedIndex > 1)
-		{
-			ddlCity.Visible = true;
-			lblCity.Visible = true;
-		}
-		else
-		{
-			ddlCity.Visible = false;
-			lblCity.Visible = false;
-		}
-		FilterCity(Convert.ToInt32(ddlState.SelectedValue));
-		ddlCity.SelectedIndex = 0;
-	}
-	public void FilterCity(int CityID)
-	{
-		DataTable dt;
-		Location Lo = new Location();
-		ddlCity.Items.Clear();
-		ddlCity.DataTextField = "City";
-		ddlCity.DataValueField = "Cityid";
-		if (ddlState.SelectedIndex == 0)
-			dt = Lo.StatewiseCity(1);
-		else
-		{
-			dt = Lo.StatewiseCity(CityID);
-		}
-		if (dt.Rows.Count > 0)
-		{
-			ddlCity.DataSource = dt;
-			ddlCity.DataBind();
-		}
-		ddlCity.Items.Insert(0, new ListItem("All cities", "-1"));
-	}
-	public void RefineSearch(string StateID)
-	{
-		if (ddlState.SelectedItem.Value != "-1" & !string.IsNullOrEmpty(StateID))
-		{
-			FilterCity(Convert.ToInt32(ddlState.SelectedItem.Value));
-			ddlCity.Visible = true;
-			ddlCity.SelectedIndex = 0;
-			lblCity.Visible = true;
-			ddlCity.Enabled = true;
-		}
-		else
-		{
-			ddlCity.Enabled = false;
-			//lblCity.Visible = false;
-			ddlCity.SelectedIndex = -1;
-		}
-	}
-	protected void brefine_Click(object sender, EventArgs e)
-	{
-        RefineSearch( ddlState.SelectedItem.Value);
-       //bsearch_Click(sender, e);
+        MyListItem = ddlCity.Items.FindByValue(String.IsNullOrEmpty(Request.QueryString["cityid"]) == false ? Request.QueryString["cityid"] : "-1");
+        if (MyListItem != null)
+            MyListItem.Selected = true;
+        keywords.Text = String.IsNullOrEmpty(Request.QueryString["keywords"]) == false ? Request.QueryString["keywords"] : "";
+    }
 
-	}
-	protected void bsearch_Click(object sender, EventArgs e)
-	{
-		ViewState["PageNumber"] = 1;
-		FunSearch();
-		GrdResults.Visible = true;        
-	}
-	protected void LnkNxt_Click(object sender, EventArgs e)
-	{
-		ViewState["PageNumber"] = (int)(ViewState["PageNumber"]) + 1;
-		FunSearch();
-	}
-	protected void LnkPrvs_Click(object sender, EventArgs e)
-	{
-		ViewState["PageNumber"] = (int)(ViewState["PageNumber"]) - 1;
-		FunSearch();
-	}
+    protected void State_SelectedIndexChanged(object sender, System.EventArgs e)
+    {
+        if (ddlState.SelectedIndex > 1)
+        {
+            ddlCity.Visible = true;
+            lblCity.Visible = true;
+        }
+        else
+        {
+            ddlCity.Visible = false;
+            lblCity.Visible = false;
+        }
+        FilterCity(Convert.ToInt32(ddlState.SelectedValue));
+        ddlCity.SelectedIndex = 0;
+    }
+    public void FilterCity(int CityID)
+    {
+        DataTable dt;
+        Location Lo = new Location();
+        ddlCity.Items.Clear();
+        ddlCity.DataTextField = "City";
+        ddlCity.DataValueField = "Cityid";
+        if (ddlState.SelectedIndex == 0)
+            dt = Lo.StatewiseCity(1);
+        else
+        {
+            dt = Lo.StatewiseCity(CityID);
+        }
+        if (dt.Rows.Count > 0)
+        {
+            ddlCity.DataSource = dt;
+            ddlCity.DataBind();
+        }
+        ddlCity.Items.Insert(0, new ListItem("All cities", "-1"));
+    }
+    public void RefineSearch(string StateID)
+    {
+        if (ddlState.SelectedItem.Value != "-1" & !string.IsNullOrEmpty(StateID))
+        {
+            FilterCity(Convert.ToInt32(ddlState.SelectedItem.Value));
+            ddlCity.Visible = true;
+            ddlCity.SelectedIndex = 0;
+            lblCity.Visible = true;
+            ddlCity.Enabled = true;
+        }
+        else
+        {
+            ddlCity.Enabled = false;
+            //lblCity.Visible = false;
+            ddlCity.SelectedIndex = -1;
+        }
+    }
+    protected void brefine_Click(object sender, EventArgs e)
+    {
+        RefineSearch(ddlState.SelectedItem.Value);
+        bsearch_Click(sender, e);
 
-	public void FunSearch()
-	{
-		string[] aja = { "-1", "-1" };
-		if (ddlJobAreas.SelectedValue != "-1" & ddlJobAreas.SelectedValue != string.Empty)
-		{
-			aja = ddlJobAreas.SelectedValue.Split("|".ToCharArray());
-		}
-		else if (!string.IsNullOrEmpty(Request.QueryString["jobareas"]) && Request.QueryString["jobareas"].ToLowerInvariant() != "select a job area")
-		{
-			aja = Request.QueryString["jobareas"].Split("|".ToCharArray());
-		}
-		int aot = (aja[0]==null) ? -1 : Convert.ToInt32(aja[0]);
-		string jf = string.IsNullOrEmpty(aja[1].ToString()) ? "" : aja[1];
+    }
+    protected void bsearch_Click(object sender, EventArgs e)
+    {
+        ViewState["PageNumber"] = 1;
+        FunSearch();
+        GrdResults.Visible = true;
+    }
+    protected void LnkNxt_Click(object sender, EventArgs e)
+    {
+        ViewState["PageNumber"] = (int)(ViewState["PageNumber"]) + 1;
+        FunSearch();
+    }
+    protected void LnkPrvs_Click(object sender, EventArgs e)
+    {
+        ViewState["PageNumber"] = (int)(ViewState["PageNumber"]) - 1;
+        FunSearch();
+    }
 
-		//int stateid = string.IsNullOrEmpty(ddlState.SelectedValue) ? -1 : Convert.ToInt32(string.IsNullOrEmpty(ViewState["statequery"].ToString()) ? ddlState.SelectedItem.Value : ViewState["statequery"].ToString());
+    public void FunSearch()
+    {
+        string[] aja = { "-1", "-1" };
+        if (ddlJobAreas.SelectedValue != "-1" & ddlJobAreas.SelectedValue != string.Empty)
+        {
+            aja = ddlJobAreas.SelectedValue.Split("|".ToCharArray());
+        }
+        else if (!string.IsNullOrEmpty(Request.QueryString["jobareas"]) && Request.QueryString["jobareas"].ToLowerInvariant() != "select a job area")
+        {
+            aja = Request.QueryString["jobareas"].Split("|".ToCharArray());
+        }
+        int aot = (aja[0] == null) ? -1 : Convert.ToInt32(aja[0]);
+        string jf = string.IsNullOrEmpty(aja[1].ToString()) ? "" : aja[1];
+
+        //int stateid = string.IsNullOrEmpty(ddlState.SelectedValue) ? -1 : Convert.ToInt32(string.IsNullOrEmpty(ViewState["statequery"].ToString()) ? ddlState.SelectedItem.Value : ViewState["statequery"].ToString());
         int stateid = string.IsNullOrEmpty(ddlState.SelectedValue) ? -1 : Convert.ToInt32(ddlState.SelectedValue);
         ViewState["statequery"] = null;
-		int cityid;
-		if (stateid < 0)
-			cityid = -1;
-		else
-			cityid = string.IsNullOrEmpty(ddlCity.SelectedValue) ? -1 : Convert.ToInt32(ddlCity.SelectedItem.Value);
-		string keywrd = keywords.Text;
+        int cityid;
+        if (stateid < 0)
+            cityid = -1;
+        else
+            cityid = string.IsNullOrEmpty(ddlCity.SelectedValue) ? -1 : Convert.ToInt32(ddlCity.SelectedItem.Value);
+        string keywrd = keywords.Text;
 
-		Jobs Job = new Jobs();
+        Jobs Job = new Jobs();
 
-		ListDictionary MyListDictionary = new ListDictionary();
-		MyListDictionary = Job.SearchJobs(aot, jf, stateid, cityid, keywrd, (int)(ViewState["PageNumber"]), RecPerPage);
-		DataTable DT = (DataTable)MyListDictionary["JobSearchResults"];
+        ListDictionary MyListDictionary = new ListDictionary();
+        MyListDictionary = Job.SearchJobs(aot, jf, stateid, cityid, keywrd, (int)(ViewState["PageNumber"]), RecPerPage);
+        DataTable DT = (DataTable)MyListDictionary["JobSearchResults"];
 
-		GrdResults.DataSource = DT;
-		GrdResults.DataBind();
+        GrdResults.DataSource = DT;
+        GrdResults.DataBind();
 
-		this.divNext.Attributes["style"] = ((Boolean)MyListDictionary["NextButton"]) ? " display: inline;" : " display: none;";
-		this.divPrev.Attributes["style"] = ((Boolean)MyListDictionary["PrevButton"]) ? " display: inline;" : " display: none;";
-		//this.dNext.Attributes["style"] = ((Boolean)MyListDictionary["NextButton"]) ? " display: inline;" : " display: none;";
-		//this.dPrev.Attributes["style"] = ((Boolean)MyListDictionary["PrevButton"]) ? " display: inline;" : " display: none;";
+        this.divNext.Attributes["style"] = ((Boolean)MyListDictionary["NextButton"]) ? " display: inline;" : " display: none;";
+        this.divPrev.Attributes["style"] = ((Boolean)MyListDictionary["PrevButton"]) ? " display: inline;" : " display: none;";
+        //this.dNext.Attributes["style"] = ((Boolean)MyListDictionary["NextButton"]) ? " display: inline;" : " display: none;";
+        //this.dPrev.Attributes["style"] = ((Boolean)MyListDictionary["PrevButton"]) ? " display: inline;" : " display: none;";
 
-		LblPageOfPages.Text = MyListDictionary["PageOfPages"].ToString();
-		this.lblJobofJobs.Visible = Convert.ToBoolean(MyListDictionary["RecordCount"]);
-		this.lblJobofJobs.Text = MyListDictionary["JobToJobs"].ToString();
-	}
+        LblPageOfPages.Text = MyListDictionary["PageOfPages"].ToString();
+        this.lblJobofJobs.Visible = Convert.ToBoolean(MyListDictionary["RecordCount"]);
+        this.lblJobofJobs.Text = MyListDictionary["JobToJobs"].ToString();
+    }
 
-	protected void PopulateLocations()
-	{
-		Location Lo = new Location();
-		OleDbDataReader dr;
-		ddlState.DataTextField = "State";
-		ddlState.DataValueField = "Stateid";
-		dr = Lo.StateDR();
-		ddlState.DataSource = dr; 
-		ddlState.DataBind();
-		ddlState.Items.Insert(0, new ListItem("All states", "-1"));
-		dr.Close();
-	}
-	protected void PopulateCity()
-	{
-		Location Lo = new Location();
-		OleDbDataReader dr;
-		ddlCity.Items.Clear();
-		ddlCity.DataTextField = "City";
-		ddlCity.DataValueField = "Cityid";
-		//if (ddlState.SelectedIndex == 0)
-		dr = Lo.StatewiseCityDR(1);
-		ddlCity.DataSource = dr;
-		ddlCity.DataBind();
-		ddlCity.Items.Insert(0, new ListItem("All cities", "-1"));
-		dr.Close();
-	}
+    protected void PopulateLocations()
+    {
+        Location Lo = new Location();
+        OleDbDataReader dr;
+        ddlState.DataTextField = "State";
+        ddlState.DataValueField = "Stateid";
+        dr = Lo.StateDR();
+        ddlState.DataSource = dr;
+        ddlState.DataBind();
+        ddlState.Items.Insert(0, new ListItem("All states", "-1"));
+        dr.Close();
+    }
+    protected void PopulateCity()
+    {
+        Location Lo = new Location();
+        OleDbDataReader dr;
+        ddlCity.Items.Clear();
+        ddlCity.DataTextField = "City";
+        ddlCity.DataValueField = "Cityid";
+        //if (ddlState.SelectedIndex == 0)
+        dr = Lo.StatewiseCityDR(1);
+        ddlCity.DataSource = dr;
+        ddlCity.DataBind();
+        ddlCity.Items.Insert(0, new ListItem("All cities", "-1"));
+        dr.Close();
+    }
 
-	protected void PopulateJobAreas()
-	{
-		string selVal;
-		selVal = String.IsNullOrEmpty(Request.QueryString["jobareas"]) == false ? string.IsNullOrEmpty(this.ddlJobAreas.SelectedValue) ? Request.QueryString["jobareas"] : this.ddlJobAreas.SelectedValue : this.ddlJobAreas.SelectedValue;
-		this.ddlJobAreas.Items.Clear();
-		OleDbDataReader dr;
-		AreaofTalent ja = new AreaofTalent();
-		dr = ja.JobAreasList();
-		ListItem l = new ListItem("Select a job area", string.Empty);
-		this.ddlJobAreas.Items.Add(l);
-		while (dr.Read())
-		{
-			ListItem li = new ListItem(dr["family"].ToString(), dr["value"].ToString());
-			li.Attributes["OptionGroup"] = dr["talent"].ToString();
-			this.ddlJobAreas.Items.Add(li);
-		}
-		dr.Close();
-		ListItem myListItem = new ListItem();
-		myListItem = this.ddlJobAreas.Items.FindByValue(selVal);
+    protected void PopulateJobAreas()
+    {
+        string selVal;
+        selVal = String.IsNullOrEmpty(Request.QueryString["jobareas"]) == false ? string.IsNullOrEmpty(this.ddlJobAreas.SelectedValue) ? Request.QueryString["jobareas"] : this.ddlJobAreas.SelectedValue : this.ddlJobAreas.SelectedValue;
+        this.ddlJobAreas.Items.Clear();
+        OleDbDataReader dr;
+        AreaofTalent ja = new AreaofTalent();
+        dr = ja.JobAreasList();
+        ListItem l = new ListItem("Select a job area", string.Empty);
+        this.ddlJobAreas.Items.Add(l);
+        while (dr.Read())
+        {
+            ListItem li = new ListItem(dr["family"].ToString(), dr["value"].ToString());
+            li.Attributes["OptionGroup"] = dr["talent"].ToString();
+            this.ddlJobAreas.Items.Add(li);
+        }
+        dr.Close();
+        ListItem myListItem = new ListItem();
+        myListItem = this.ddlJobAreas.Items.FindByValue(selVal);
 
-		if (myListItem != null)
-			myListItem.Selected = true;
-	}
+        if (myListItem != null)
+            myListItem.Selected = true;
+    }
 
-	protected void btnJobCart_Click(object sender, EventArgs e)
-	{
-		Response.Redirect("jobcart.aspx");
-	}
-	protected void btnAdvanceSearch_Click(object sender, EventArgs e)
-	{
-		Response.Redirect("AdvanceSearch.aspx");
-	}
+    protected void btnJobCart_Click(object sender, EventArgs e)
+    {
+        Response.Redirect("jobcart.aspx");
+    }
+    protected void btnAdvanceSearch_Click(object sender, EventArgs e)
+    {
+        Response.Redirect("AdvanceSearchTest.aspx");
+    }
 
 
 
