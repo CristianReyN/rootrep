@@ -11,9 +11,9 @@
 <div<%If mpage = "areasoftalent" Then%> style="padding-right: 0px;"<%End If%>><a class="g" href="../areasoftalent/areasoftalent.asp" id="areasoftalent" title="Job Areas" onfocus="this.className='g-over';" onblur="this.className='g';">Job Areas</a>
 <%
 	If mpage = "areasoftalent" Then
-		call JobAreasNav(""," class=""home""")
+		call JobAreasNav(""," class=""home""","")
 	Else
-		call JobAreasNav(" id=""jaaot""","")
+		call JobAreasNav(" id=""jaaot""",""," class=""jaaotlili""")
 	End If
 %>
 </div>
@@ -70,7 +70,7 @@
 
 
 <%
-	Function JobAreasNav(id,ul)
+	Function JobAreasNav(id,ul,li)
 %>			<ul<% Response.Write id %><% Response.Write ul %>>
 				<li<% if spage = "administration" then Response.Write " style=""background: #eaf1f7;""" end if %>>
 <div><a href="../administration/" class="sbtxt" title="Administration" onfocus="this.className='sbtxt-over';" onblur="this.className='sbtxt';">Administration</a></div>
@@ -84,6 +84,14 @@
 				<li<% if spage = "consumerbanking" then Response.Write " style=""background: #eaf1f7;""" end if %>>
 <div><a href="../consumerbank/" class="sbtxt" title="Consumer Banking" onfocus="this.className='sbtxt-over';" onblur="this.className='sbtxt';">Consumer Banking</a></div>
 				</li>
+				<li<% Response.Write li %><% if spage = "corporateworkplace" And tpage = "" then Response.Write " style=""background: #eaf1f7;""" end if %>><div><a href="../corporateworkplace/" class="sbtxt" title="Corporate Workplace" onfocus="this.className='sbtxt-over';" onblur="this.className='sbtxt';">Corporate Workplace</a></div>
+				</li>
+<%	If mpage = "areasoftalent" And spage = "corporateworkplace" Then %>
+				<li class="tertiary"<% if tpage = "cw_teams" then Response.Write " style=""background: #eaf1f7;""" end if %>><div><a href="../corporateworkplace/cw_teams.asp" class="sbtxt" title="Corporate Workplace Teams" onfocus="this.className='sbtxt-over';" onblur="this.className='sbtxt';">Corporate Workplace Teams</a></div>
+				</li>
+				<li class="tertiary"<% if tpage = "cw_vision" then Response.Write " style=""background: #eaf1f7;""" end if %>><div><a href="../corporateworkplace/cw_vision.asp" class="sbtxt" title="Vision Statement" onfocus="this.className='sbtxt-over';" onblur="this.className='sbtxt';">Vision Statement</a></div>
+				</li>
+<%	End If %>
 				<li<% if spage = "customercare" then Response.Write " style=""background: #eaf1f7;""" end if %>>
 <div><a href="../customercare/" class="sbtxt" title="Customer Care" onfocus="this.className='sbtxt-over';" onblur="this.className='sbtxt';">Customer Care</a></div>
 				</li>
@@ -148,7 +156,7 @@
 				</li>
 				<li<% Response.Write li %><% if spage = "lobgwim" then Response.Write " style=""background: #eaf1f7;""" end if %>><div><a href="../wealthmanagement/" class="sbtxt" title="Global Wealth &amp; Investment Management" onfocus="this.className='sbtxt-over';" onblur="this.className='sbtxt';">Global Wealth &amp; Investment Management</a></div>
 				</li>
-				<li<% Response.Write li %><% if spage = "lobgto" then Response.Write " style=""background: #eaf1f7;""" end if %>><div><a href="../technology/" class="sbtxt" title="Global Technology &amp; Operations" onfocus="this.className='sbtxt-over';" onblur="this.className='sbtxt';">Global Technology &amp; Operations</a></div>
+				<li<% Response.Write li %><% if spage = "lobgto" then Response.Write " style=""background: #eaf1f7;""" end if %>><div><a href="../technology/" class="sbtxt" title="Global Technology" onfocus="this.className='sbtxt-over';" onblur="this.className='sbtxt';">Global Technology</a></div>
 				</li>
 				<li<% Response.Write li %><% if spage = "lobcss" And tpage = "" then Response.Write " style=""background: #eaf1f7;""" end if %>><div><a href="../learnmore/lobcss.asp" class="sbtxt" title="Corporate Staff &amp; Support" onfocus="this.className='sbtxt-over';" onblur="this.className='sbtxt';">Corporate Staff &amp; Support</a></div>
 				</li>

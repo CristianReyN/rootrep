@@ -25,7 +25,7 @@ Opportunity awaits. Learn more about:
 <br><br>
 <a href="<%	if page_section <> "ADA" then%>../wealthmanagement/<% Else %>lobgwim.asp<%End If %>" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="Global Wealth &amp; Investment Management">Global Wealth &amp; Investment Management</a>
 <br><br>
-<a href="<%	if page_section <> "ADA" then%>../technology/<% Else %>lobgto.asp<%End If %>" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="Global Technology &amp; Operations">Global Technology &amp; Operations</a>
+<a href="<%	if page_section <> "ADA" then%>../technology/<% Else %>lobgto.asp<%End If %>" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="Global Technology">Global Technology</a>
 <br><br>
 <a href="<% Response.write href_pre %>lobcss.asp" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="Corporate Staff &amp; Support">Corporate Staff &amp; Support</a>
 <br><br>

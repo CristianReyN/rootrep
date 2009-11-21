@@ -1,17 +1,17 @@
 BODY
 {
-    margin: 0px;
-    color: #000000;
-    background-color: #ffffff;
+	margin: 0px;
+	color: #000000;
+	background-color: #ffffff;
 }
 TD, TH
 {
-    font-size: 70%;
-    color: #333333;
-    font-family: Verdana, helvetica, sans-serif;
+	font-size: 70%;
+	color: #333333;
+	font-family: Verdana, helvetica, sans-serif;
 }
 
-P, UL, LI, H2.p, H3.p, H3.pb, LABEL.p
+P, UL, LI, H1.p, H2.p, H3.p, H3.pb, LABEL.p
 {
 	font-family : Verdana, Helvetica, sans-serif;
 	font-size : 1.0em;
@@ -19,6 +19,13 @@ P, UL, LI, H2.p, H3.p, H3.pb, LABEL.p
 	font-weight : normal;
 	color: #333333;
 	background-color: transparent;
+}
+
+H1.p
+{
+	font-weight : bold;
+	margin: 0px;
+	padding: 0px;
 }
 
 OL LI
@@ -450,17 +457,6 @@ A.visited
     text-decoration: underline;
 }
 */
-
-.gg:hover, .gg-over
-{
-	font-size : 2.1em;
-	line-height : 2.1em;
-	font-weight : bold;
-	color: red;
-	background-color: transparent;
-	text-decoration: none;
-}
-
 A.g, A.g:visited
 {
 	font-family : Verdana, Helvetica, sans-serif;
@@ -762,10 +758,12 @@ DIV#lnav li:hover ul#relinfo, DIV#lnav li.fover ul#relinfo {visibility: hidden; 
 DIV#lnav li:hover ul#glc, DIV#lnav li.fover ul#glc {visibility: hidden; top: 160px; }
 
 DIV#lnav ul li ul li { margin: 0px; padding: 5px 0px 5px 0px; text-align: left; background: #cadceb; border-top: none; border-bottom: 1px solid #7F99B2;   width: 160px;}
+DIV#lnav ul li ul li.jaaotlili {width: 160px;}/*270px*/
 DIV#lnav ul li ul li.loblili {width: 160px;}/*270px*/
 DIV#lnav ul li ul li.relinfolili {width: 160px;}/*180px*/
 
 DIV#lnav ul li ul.home li { margin: 0px; padding: 5px 0px 5px 0px; text-align: left; background: #cadceb; border-top: 1px solid #ffffff; border-bottom: none;   width: 160px;}
+DIV#lnav ul li ul.home li.jaaotlili {width: 160px;}/*270px*/
 DIV#lnav ul li ul.home li.loblili {width: 160px;}/*270px*/
 DIV#lnav ul li ul.home li.relinfolili {width: 160px;}/*180px*/
 

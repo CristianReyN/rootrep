@@ -25,6 +25,9 @@
 <H2 class="left2" style="margin: 0px; padding: 0px;"><a href="<% if page_section <> "ADA" then Response.write "../consumerbank/" Else Response.write "consumerbanking.asp" End If%>" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="Consumer Banking">Consumer Banking</a></H2>
 <p style="margin: 6 0 15 0;">To effectively serve a customer base of more than 54 million consumer and small business clients requires a company to maintain a network of dedicated individuals who listen to our customers, build strong relationships  and implement strategies to help our clients exceed their financial goals.</p>
 
+<H2 class="left2" style="margin: 0px; padding: 0px;"><a href="<% if page_section <> "ADA" then Response.write "../corporateworkplace/" Else Response.write "corporateworkplace.asp" End If%>" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="Corporate Workplace">Corporate Workplace</a></H2>
+<p style="margin: 6 0 15 0;">Corporate Workplace partners with each line of business to craft solutions for project and facilities management, associate awareness, energy management, and the acquisition and disposition of space.</p>
+
 <H2 class="left2" style="margin: 0px; padding: 0px;"><a href="<% if page_section <> "ADA" then Response.write "../customercare/" Else Response.write "customercare.asp" End If%>" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="Customer Care">Customer Care</a></H2>
 <p style="margin: 6 0 15 0;">Our Customer Service/Care positions represent some of the most critical areas within our organization.</p>
 
