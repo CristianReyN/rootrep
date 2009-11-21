@@ -212,7 +212,7 @@
                                                             <b>
                                                                 <label for="areasoftalent">
                                                                     Areas of Talent</label></b></p>
-                                                        <asp:DropDownList id="areasoftalent" Cssclass="left"  style="width: 100%;z-index: auto;" runat="server" AutoPostBack="True" OnSelectedIndexChanged="areasoftalent_SelectedIndexChanged" ToolTip="Areas Of Talent" TabIndex="1">
+                                                        <asp:DropDownList id="areasoftalent" Cssclass="left"  style="width: 100%;z-index: auto;" runat="server" OnSelectedIndexChanged="areasoftalent_SelectedIndexChanged" ToolTip="Areas Of Talent" TabIndex="1">
                                                             <asp:ListItem>All Areas of Talent&#160;</asp:ListItem>
                                                         </asp:DropDownList><br />
                                                         <p style="margin: 0px; text-align: left;">
