@@ -182,6 +182,7 @@ function none(){}
 	<option value="ip_so_wpa.asp"<% If fpage = "ip_so_wpa" Then %> disabled<% End If %>>Staffing Operations - Workforce Planning Analyst Intern</option>
 	<option value="ip_ss_cm.asp"<% If fpage = "ip_ss_cm" Then %> disabled<% End If %>>Shared Services - Case Manager Internship</option>
 	<option value="ip_ss_wc.asp"<% If fpage = "ip_ss_wc" Then %> disabled<% End If %>>Shared Services - Workforce Communications Intern</option>
+	<option value="ip_gmca.asp"<% If fpage = "ip_gmca" Then %> disabled<% End If %>>Global Marketing &amp; Corporate Affairs</option>
 </optgroup>
 
 <optgroup label="Global Consumer Small Business Banking">
@@ -192,7 +193,6 @@ function none(){}
 <optgroup label="Global Wealth and Investment Management">
 	<option value="ip_ungr.asp"<% If fpage = "ip_ungr" Then %> disabled<% End If %>>Undergraduate Intern</option>
 	<option value="ip_gr.asp"<% If fpage = "ip_gr" Then %> disabled<% End If %>>Graduate Intern</option>
-	<option value="ip_gmca.asp"<% If fpage = "ip_gmca" Then %> disabled<% End If %>>Global Marketing &amp; Corporate Affairs</option>
 </optgroup>
 
 <optgroup label="Global Corporate Investment Banking Summer Analyst">

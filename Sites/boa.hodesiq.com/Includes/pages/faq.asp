@@ -41,7 +41,7 @@
 <p style="margin: 0px;">No. Resumes are only accepted online. You can submit your resume the following ways:</p>
 	<ul id="answ2" style="list-style-image : url(../images/bull3.gif);">
 		<li>Attach your resume along with your profile by logging in and using our Candidate Profiler.</li>
-		<li>Email your resume to <a href="mailto:bac@resume.bankofamerica.com" class="p" onfocus="this.className='p-over';" onblur="this.className='p';">bac@resume.bankofamerica.com</a>
+		<li>Email your resume to <a href="mailto:bac@resume.bankofamerica.com">bac@resume.bankofamerica.com</a>
 		<ul style="list-style-image : url(../images/bull3o.gif);"><li>In the Subject Line of your email, include "Source&nbsp;=&nbsp;Bank&nbsp;of&nbsp;America&nbsp;Careers"</li></ul></li>
 	</ul>
 <p style="margin: 12px 0px 6px 0px; text-align: right;"><a href="#qtop" class="p" onfocus="this.className='p-over';" onblur="this.className='p';" style="text-decoration: none;"><img src="../images/back_to_top.gif" width="7" height="4" alt="" border="0" align="top" hspace="4">Back to Top</a></p>
