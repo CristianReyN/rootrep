@@ -13,6 +13,7 @@
 			<tr valign="top">
 				<td width="100%" valign="top">
 					<div align="right" style="float: right; margin: 0px 0px 0px <%=right_margin_split%>px; padding: 0px; width: 259px;">
+<span class="hidden"><p>Screen reader users please note: all the content contained in the video on this page is duplicated in text on this page.</p></span>
 <!-- #include file="rjp/analyst.asp" -->
 <a href="#video" class="hlink">Fraud Analyst Video</a>
 					</div>
@@ -24,9 +25,9 @@ Bank of America has so many places where you can really go and achieve what you 
 <br><br>
 I love not only the people I work with, but the people that I help.
 <br><br>
-Hello, and welcome to Bank of America. We&acute;re excited about your interest in joining our winning team and in becoming one of our valued Call Center Associates.
+<b>Realistic Preview for Call Center Positions</b>
 <br><br>
-<b>Realistic Job Preview</b>
+Hello, and welcome to Bank of America. We&acute;re excited about your interest in joining our winning team and in becoming one of our valued Call Center Associates.
 <br><br>
 My name is Tanya, over the next few minutes I&acute;ll introduce you to the exciting positions in our Call Center area and help you better understand the requirements. I&acute;ll show you some of the challenges and rewards of becoming an Associate in a call center environment. I&acute;ll explain what we expect from our Associates and what you can expect from us. 
 <br><br>
