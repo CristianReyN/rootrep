@@ -64,10 +64,10 @@
 %>
 			<tr valign="top"><td height="90" valign="bottom">
 <table width="160" height="60" cellpadding="0" cellspacing="0" border="0" summary="" style="background: #ebebeb; border-top: 1px solid #dadada; border-bottom: 1px solid #dadada;"><tr><td style="padding: 5px 6px 5px 12px;"><div style="border: 1px solid #dadada;"><img src="../images/virtual-host.jpg" width="52" height="52" alt="Return to standard page with video" border="0" style="border: 1px solid #ebebeb;"></div></td><td width="100%"><a href="<%= standart_href%>" title="Return to standard page with video" class="p" onfocus="this.className='p-over';" onblur="this.className='p';">Return to<br>standard page<br>with video</a></td></tr></table>
+			</td></tr>
 <%
 		End If
 %>
-			</td></tr>
 
 
 
@@ -100,6 +100,9 @@
 				</li>
 				<li<% if spage = "humanresources" then Response.Write " style=""background: #eaf1f7;""" end if %>>
 <div><a href="../ada/humanresources.asp" class="sbtxt" title="Human Resources" onfocus="this.className='sbtxt-over';" onblur="this.className='sbtxt';">Human Resources</a></div>
+				</li>
+				<li<% if spage = "mortgagecareers" then Response.Write " style=""background: #eaf1f7;""" end if %>>
+<div><a href="../ada/mortgagecareers.asp" class="sbtxt" title="Mortgage" onfocus="this.className='sbtxt-over';" onblur="this.className='sbtxt';">Mortgage</a></div>
 				</li>
 				<li<% if spage = "operations" then Response.Write " style=""background: #eaf1f7;""" end if %>>
 <div><a href="../ada/operations.asp" class="sbtxt" title="Operations" onfocus="this.className='sbtxt-over';" onblur="this.className='sbtxt';">Operations</a></div>
