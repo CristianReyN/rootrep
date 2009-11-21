@@ -50,10 +50,10 @@ Specific areas of Global Risk Management are:
 <H1 style="margin: 0px <%=right_margin%>px 0px <%=left_margin_0%>px; width: <%=(315-right_margin_split-left_margin_0)%>px;">Frequently Asked Questions</H1>
 <div style="margin: <% If page_section = "ADA" Then %>12<% Else %>0<%End If%>px <%=right_margin_split%>px 0px <%=left_margin_0%>px; width: <%=(315-right_margin_split-left_margin_0)%>px;">
 <% If page_section <> "ADA" Then %>
-<div id="panswer" style="width: 259px;">
+<div id="panswer" style="width: 259px; text-align: left;">
 <img style="margin: 0px;" src="../Includes/pages/lob/thumbnails/charles_on.jpg" alt="" border="0" align="absmiddle">
 <script language="JavaScript1.2" type="text/javascript">
-	document.write(getHTMLControl("ansvideo",false,false,false,false,false,false));
+	document.write(getHTMLControl("ansvideo",205,22,false,false,false,false,false,false));
 </script>
 </div>
 <p style="margin: 6px 0px 0px 0px;">

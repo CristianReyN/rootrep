@@ -14,12 +14,12 @@
 				<td width="100%" valign="top">
 <a name="skipmaincontent"></a><H1 class="hidden">Global Corporate &amp; Investment Banking</H1>
 <% If page_section = "ADA" Then %>
-<!-- #include file="lob/empty.asp" -->
+<!-- #include file="lob/shuwen.asp" -->
 					<div align="right" style="float: right; margin: 0px 0px 0px <%=right_margin_split%>px; padding: 0px; width: 201px;">
 <% End If %>
 <% If page_section <> "ADA" Then %>
 					<div align="right" style="float: right; margin: 0px 0px 0px <%=right_margin_split%>px; padding: 0px; width: 259px;">
-<!-- #include file="lob/empty.asp" -->
+<!-- #include file="lob/shuwen.asp" -->
 <!--<a href="#video" class="hlink"></a>-->
 <% End If  %>
 <div style="width: 201px; text-align: left; border: 1px solid #e8e8e9; background: #ffffff; margin: 12px 0px 12px 0px; padding: 0px 0px 6px 0px;">
@@ -47,7 +47,7 @@ As the bank of choice for 98% of the U.S. Fortune 500 and 80% of the Global Fort
 <div id="panswer" style="width: 259px;">
 <img style="margin: 0px;" src="../Includes/pages/lob/thumbnails/sheila_on.jpg" alt="" border="0" align="absmiddle">
 <script language="JavaScript1.2" type="text/javascript">
-	document.write(getHTMLControl("ansvideo",false,false,false,false,false,false));
+	document.write(getHTMLControl("ansvideo",205,22,false,false,false,false,false,false));
 </script>
 </div>
 <p style="margin: 6px 0px 0px 0px;">

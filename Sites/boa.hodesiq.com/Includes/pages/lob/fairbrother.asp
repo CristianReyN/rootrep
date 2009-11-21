@@ -6,16 +6,16 @@ action_script = true;
 if ( hasRequestedVersion && fairbrother_video ) {
 	document.write('<H2 class="hidden">Jonathan Fairbrother&acute;s Associate Testimonial Video<\/H2>');
 	document.write('<div id="mainvideo" style="display: none;"><a name="video"></a>');
-	document.write(getVideo(fairbrother_video.url,"javaflash",""));
-	document.write(strReplace(strReplace(strReplace(strReplace(getHTMLControl("javaflash",true,true,true,true,true,true),"<text>","Video transcript"),"<title>","Video transcript"),"<href>",ada_href),"<anchor>",fairbrother_video.ada_anchor));
+	document.write(getVideo(fairbrother_video.url,259,166,"javaflash",""));
+	document.write(strReplace(strReplace(strReplace(strReplace(getHTMLControl("javaflash",259,22,true,true,true,true,true,true),"<text>","Video transcript"),"<title>","Video transcript"),"<href>",ada_href),"<anchor>",fairbrother_video.ada_anchor));
 	document.write('</div>');
 	document.write('<div id="videothumb">');
 	document.write('<a href="Javascript: vo_id();" onclick="playVideo(fairbrother_video,true,true,true,true,true,true);"><img style="margin: 0px;" src="'+fairbrother_video.thumb_on+'" alt="" border="0" align="absmiddle"></a>');
-	document.write(getHTMLControl("javaflash",false,false,false,false,false,false));
+	document.write(getHTMLControl("javaflash",259,22,false,false,false,false,false,false));
 	document.write('</div>');
 	document.write('<div id="videothumb_off" style="display: none;">');
 	document.write('<img style="margin: 0px;" src="'+fairbrother_video.thumb_off+'" alt="" border="0" align="absmiddle">');
-	document.write(getHTMLControl("javaflash",false,false,false,false,false,false));
+	document.write(getHTMLControl("javaflash",259,22,false,false,false,false,false,false));
 	document.write('</div>');
 } else {
 	document.write(reqFlashPlayer+fairbrother_video.thumb_on+reqFlashPlayer2);

@@ -146,9 +146,9 @@ function strReplace(s,p,r){var pos=s.indexOf(p);var len=p.length;while(pos != -1
 var reqFlashPlayer = '<a href="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash" title="This video requires Adobe Flash Player version '+requiredMajorVersion+'. Please download latest version." class="p" onfocus="this.className=\'p-over\';" onblur="this.className=\'p\';"><img src="../Includes/pages/college/thumbnails/';
 var reqFlashPlayer2 = '" width="259" height="166" alt="This video requires Adobe Flash Player version '+requiredMajorVersion+'. Please download latest version." border="0" \/><\/a>';
 
-function getHTMLControl(objname,play,pause,stop,ada,mute,ccoc)
-{
-	var html_control = '<table border="0" cellspacing="0" cellpadding="0" bgcolor="#d4001a" width="100%">';
+function getHTMLControl(objname,w,h,play,pause,stop,ada,mute,ccoc)
+{	w = (w == 0?"100%":w);
+	var html_control = '<table border="0" cellspacing="0" cellpadding="0" bgcolor="#d4001a" width="'+w+'">';
 	html_control += '<tr>';
 	if(play || pause || stop)
 	{
@@ -169,14 +169,14 @@ function getHTMLControl(objname,play,pause,stop,ada,mute,ccoc)
 		html_control += '<\/div>';
 		html_control += '</td>';
 	}
-	html_control += '<td nowrap align="center" height="22" width="100%">';
+	html_control += '<td nowrap align="center" height="'+h+'" width="100%">';
 	if(ada)
 	{
 		html_control += '<a href="<href><anchor>" title="<title>" class="btn1" onfocus="this.className=\'btn1-over\';" onblur="this.className=\'btn1\';"><text><\/a>';
 	}
 	else
 	{
-		html_control += '<img style="margin: 0px;" src="../images/clear.gif" width="100%" height="22" alt="" border="0" \/>';
+		html_control += '<img style="margin: 0px;" src="../images/clear.gif" width="100%" height="'+h+'" alt="" border="0" \/>';
 	}
 	html_control += '</td>';
 	if(mute || ccoc)
@@ -292,7 +292,7 @@ function playVideo(video,play,pause,stop,ada,mute,ccoc)
 	if(!vthumb_off) vthumb_off=$x("videothumb_off");
 	if(video && mv && vthumb && vthumb_off)
 	{
-		mv.innerHTML = getVideo(video.url,"javaflash","") + strReplace(strReplace(strReplace(strReplace(getHTMLControl("javaflash",play,pause,stop,ada,mute,ccoc),"<text>","Video transcript"),"<title>","Video transcript"),"<href>",ada_href),"<anchor>",video.ada_anchor);
+		mv.innerHTML = getVideo(video.url,259,166,"javaflash","") + strReplace(strReplace(strReplace(strReplace(getHTMLControl("javaflash",259,22,play,pause,stop,ada,mute,ccoc),"<text>","Video transcript"),"<title>","Video transcript"),"<href>",ada_href),"<anchor>",video.ada_anchor);
 		mv.style.display = "inline";
 		vthumb.style.display = "none";
 		vthumb_off.style.display = "none";
@@ -327,7 +327,7 @@ function enableVideo()
 	}
 }
 
-var craig_video, jeremy_video, michael_video, fairbrother_video, diaz_video, saulsberry_video, price_video, cambra_video, chen_video;
+var craig_video, jeremy_video, michael_video, fairbrother_video, diaz_video, saulsberry_video, price_video, cambra_video, chen_video, shuwen_video;
 craig_video = new fvideo("http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/DITL_TESTIMONIAL/swf/craig_test.swf",
 					"#vt",
 					"../Includes/pages/lob/thumbnails/craig_on.jpg",
@@ -380,6 +380,12 @@ chen_video = new fvideo("../Includes/pages/associate/Chen.swf",
 					"#vt",
 					"../Includes/pages/lob/thumbnails/chen_on.jpg",
 					"../Includes/pages/lob/thumbnails/chen_off.jpg",
+					null
+					);
+shuwen_video = new fvideo("http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/DITL_TESTIMONIAL/swf/Shu_Wen_OrginalSize.swf",
+					"#vt",
+					"../Includes/pages/lob/thumbnails/shuwen_on.jpg",
+					"../Includes/pages/lob/thumbnails/shuwen_off.jpg",
 					null
 					);
 
@@ -514,13 +520,13 @@ sheila_a1 = new fvideo("http://http.vitalstreamcdn.com/hodesgroup_vitalstream_co
 					"#answ1",
 					"../Includes/pages/lob/thumbnails/sheila_on.jpg",
 					"../Includes/pages/lob/thumbnails/sheila_on.jpg",
-					null
+					shuwen_video
 					);
 sheila_a2 = new fvideo("http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/DITL_TESTIMONIAL/swf/sheila_quest_2.swf",
 					"#answ2",
 					"../Includes/pages/lob/thumbnails/sheila_on.jpg",
 					"../Includes/pages/lob/thumbnails/sheila_on.jpg",
-					null
+					shuwen_video
 					);
 sheila_a3 = new fvideo("http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/DITL_TESTIMONIAL/swf/sheila_quest_3.swf",
 					"#answ13",
@@ -575,16 +581,16 @@ tara_a3 = new fvideo("http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/
 					jeremy_video
 					);
 
-function getVideo(swf_url,na_me,alt)
+function getVideo(swf_url,w,h,na_me,alt)
 {
-	var vi_deo = '<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0" width="259" height="166" id="'+na_me+'" align="middle">';
+	var vi_deo = '<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0" width="'+w+'" height="'+h+'" id="'+na_me+'" align="middle">';
 	vi_deo += '<param name="wmode" value="transparent">';
 	vi_deo += '<param name="allowScriptAccess" value="always" />';
 	vi_deo += '<param name="movie" value="'+swf_url+'"  />';
 	vi_deo += '<param name="quality" value="high" />';
 	vi_deo += '<param name="loop" value="false" />';
 	vi_deo += '<param name="bgcolor" value="#ffffff" />';
-	vi_deo += '<embed src="'+swf_url+'" quality="high" bgcolor="#ffffff" width="259" height="166" alt="'+alt+'" name="'+na_me+'" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" wmode="transparent" swLiveConnect="true" loop="false"><\/embed>';
+	vi_deo += '<embed src="'+swf_url+'" quality="high" bgcolor="#ffffff" width="'+w+'" height="'+h+'" alt="'+alt+'" name="'+na_me+'" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" wmode="transparent" swLiveConnect="true" loop="false"><\/embed>';
 	vi_deo += '<\/object>';
 	return vi_deo;
 }
@@ -603,7 +609,7 @@ function playResponce(s)
 		var v = false;
 		var vo = false;
 		if(pv && pv.getElementsByTagName("br")[0] && pv.getElementsByTagName("br")[0].className)
-			if(vo=eval(pv.getElementsByTagName("br")[0].className)) v = getVideo(vo.url,"ansvideo","");
+			if(vo=eval(pv.getElementsByTagName("br")[0].className)) v = getVideo(vo.url,205,131,"ansvideo","");
 		if(pa && v){
 			if(pa_video) stopResponce();
 			pa_video = vo;
@@ -611,7 +617,7 @@ function playResponce(s)
 			if(pi) pa_img = pi;
 			if(pi) MM_swapImage(pi.name,"","../images/video_on_faq.gif",1);
 			disableVideo();
-			pa.innerHTML = v + strReplace(strReplace(strReplace(strReplace(getHTMLControl("ansvideo",false,false,true,true,false,false),"<text>","Video transcript"),"<title>","Video transcript"),"<href>",ada_href),"<anchor>",vo.ada_anchor);
+			pa.innerHTML = v + strReplace(strReplace(strReplace(strReplace(getHTMLControl("ansvideo",205,22,false,false,true,true,false,false),"<text>","Video transcript"),"<title>","Video transcript"),"<href>",ada_href),"<anchor>",vo.ada_anchor);
 	}}
 }
 
@@ -620,7 +626,7 @@ function stopResponce()
 	if(!pa) pa=$x("panswer");
 	if(pa && pa_video)
 	{
-		pa.innerHTML = '<img style="margin: 0px;" src="'+pa_video.thumb_on+'" alt="" border="0" align="absmiddle">' + getHTMLControl("ansvideo",false,false,false,false,false,false);
+		pa.innerHTML = '<img style="margin: 0px;" src="'+pa_video.thumb_on+'" alt="" border="0" align="absmiddle">' + getHTMLControl("ansvideo",205,22,false,false,false,false,false,false);
 	}
 	if(pa_img) MM_swapImage(pa_img.name,"","../images/video_off_faq.gif",1);
 	pa_video = null;
