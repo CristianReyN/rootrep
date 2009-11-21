@@ -113,13 +113,13 @@ create_safebutton("Search","javascript: submit_search();",0,0,0,0,"Search");
 
 			<tr valign="top" style="background: #ffffff;"><td><img src="images/white.gif" width="154" height="1" alt="" border="0"></td></tr>
 
-			<tr valign="top"><td id="tdnav" valign="middle" style="background: #cadceb; padding: 0px 6px 0px 6px;" onmouseover="popAoT(true);" onmouseout="popAoT(false);"><div id="aotstartdv" style="position: absolute;"><a name="lnav1" id="aotstart"></a></div><a class="g" href="areasoftalent/areasoftalent.asp" id="aroftalent" title="Job Areas" onfocus="this.className='g-over'; popAoT(true);" onblur="this.className='g'; popAoT(false);">Job Areas</a><div id="aotenddv" style="position: absolute;"><a name="lnav2" id="aotend"></a></div></td></tr>
+			<tr valign="top" onmouseover="tdiv(false);" onmouseout="tdiv(true);"><td id="tdnav" valign="middle" style="background: #cadceb; padding: 0px 6px 0px 6px;" onmouseover="popAoT(true);" onmouseout="popAoT(false);"><div id="aotstartdv" style="position: absolute;"><a name="lnav1" id="aotstart"></a></div><a class="g" href="areasoftalent/areasoftalent.asp" id="aroftalent" title="Job Areas" onfocus="this.className='g-over'; popAoT(true);" onblur="this.className='g'; popAoT(false);">Job Areas</a><div id="aotenddv" style="position: absolute;"><a name="lnav2" id="aotend"></a></div></td></tr>
 
 			<tr valign="top" style="background: #ffffff;"><td><img src="images/white.gif" width="154" height="1" alt="" border="0"></td></tr>
 
 
 
-			<tr valign="top"><td id="tdnavr" valign="middle" style="background: #cadceb; padding: 0px 6px 0px 6px;" onmouseover="popLearnmore(true);" onmouseout="popLearnmore(false);"><div id="learnmorestartdv" style="position: absolute;"><a name="lnav3" id="learnmorestart"></a></div><a class="g" href="learnmore/learnmore.asp" id="learnmore" title="Related Information" onfocus="this.className='g-over'; popLearnmore(true);" onblur="this.className='g'; popLearnmore(false);">Related Information</a><div id="learnmoreenddv" style="position: absolute;"><a name="lnav4" id="learnmoreend"></a></div></td></tr>
+			<tr valign="top" onmouseover="tdiv(false);" onmouseout="tdiv(true);"><td id="tdnavr" valign="middle" style="background: #cadceb; padding: 0px 6px 0px 6px;" onmouseover="popLearnmore(true);" onmouseout="popLearnmore(false);"><div id="learnmorestartdv" style="position: absolute;"><a name="lnav3" id="learnmorestart"></a></div><a class="g" href="learnmore/learnmore.asp" id="learnmore" title="Related Information" onfocus="this.className='g-over'; popLearnmore(true);" onblur="this.className='g'; popLearnmore(false);">Related Information</a><div id="learnmoreenddv" style="position: absolute;"><a name="lnav4" id="learnmoreend"></a></div></td></tr>
 
 			<tr valign="top" style="background: #ffffff;"><td><img src="images/white.gif" width="154" height="1" alt="" border="0"></td></tr>
 
@@ -132,6 +132,29 @@ create_safebutton("Search","javascript: submit_search();",0,0,0,0,"Search");
 			<tr valign="top"><td height="30" style="background: #cadceb;" valign="bottom" align="right"><img src="images/clear.gif" width="154" height="1" alt="" border="0"><br>
 			</td></tr>
 			<tr valign="top"><td height="300" style="background: #cadceb;" align="center">
+
+<script language="javascript" type="text/javascript">
+//<!--
+function tdiv(tf)
+{
+if (tf)
+    {
+    document.getElementById("d1").style.display="block";
+    document.getElementById("d2").style.display="block";
+    document.getElementById("d3").style.display="block";
+    document.getElementById("d4").style.display="block";
+    }
+    else
+    {
+    document.getElementById("d1").style.display="none";
+    document.getElementById("d2").style.display="none";
+    document.getElementById("d3").style.display="none";
+    document.getElementById("d4").style.display="none";
+    }
+}
+//-->
+</script>
+
 <script language="JavaScript1.2" type="text/javascript">
 //<!--
 requiredMajorVersion = 8;
@@ -321,7 +344,7 @@ function popAoT(show)
 {var d=document; if(d.getElementById("tdtbnav")&&d.getElementById("tbnav")&&d.getElementById("tdnav")&&d.getElementById("anav")){if(show || aotPopupShow){d.getElementById("anav").style.visibility = "visible"; d.getElementById("anav").style.display = "block";d.getElementById("anav").style.left=d.getElementById("tdtbnav").offsetLeft+d.getElementById("tbnav").offsetLeft+d.getElementById("tdnav").offsetLeft+d.getElementById("tdnav").offsetWidth-3;d.getElementById("anav").style.top=d.getElementById("tdtbnav").offsetTop+d.getElementById("tbnav").offsetTop+d.getElementById("tdnav").offsetTop;}else{d.getElementById("anav").style.visibility = "hidden"; d.getElementById("anav").style.display = "none";}
 } setTimeout("aotPopupShow = false;",500);}
 </script>
-<div id="anav" style="position: absolute; left: 0px; top: 0px; visibility: hidden; display: none; z-index: 100; border: 1px solid #7F99B2; font-size: 0.8em;" onmouseover="popAoT(true);" onmouseout="popAoT(false);">
+<div id="anav" style="position: absolute; left: 0px; top: 0px; visibility: hidden; display: none; z-index: 100; border: 1px solid #7F99B2; font-size: 0.8em;" onmouseover="popAoT(true);tdiv(false);" onmouseout="popAoT(false);tdiv(true);">
 <table width="160" cellpadding="0" cellspacing="0" border="0" summary="">
 			<tr valign="top"><td valign="middle" style="background: #cadceb; padding: 5px 6px 5px 14px;"><div id="aotpopupdv" style="position: absolute;"><a name="lnav5" id="aotpopup"></a></div><a href="administration/" id="administration" class="sbtxt" title="Administration" onfocus="this.className='sbtxt-over';" onblur="this.className='sbtxt';">Administration</a></td></tr>
 			<tr valign="top"><td style="background: #7F99B2;"><img src="images/clear.gif" width="154" height="1" alt="" border="0"></td></tr>
@@ -353,7 +376,7 @@ function popLearnmore(show)
 {var d=document; if(d.getElementById("tdtbnav")&&d.getElementById("tbnav")&&d.getElementById("tdnavr")&&d.getElementById("anavr")){if(show || learnmorePopupShow){d.getElementById("anavr").style.visibility = "visible"; d.getElementById("anavr").style.display = "block";d.getElementById("anavr").style.left=d.getElementById("tdtbnav").offsetLeft+d.getElementById("tbnav").offsetLeft+d.getElementById("tdnavr").offsetLeft+d.getElementById("tdnavr").offsetWidth-3;d.getElementById("anavr").style.top=d.getElementById("tdtbnav").offsetTop+d.getElementById("tbnav").offsetTop+d.getElementById("tdnavr").offsetTop;}else{d.getElementById("anavr").style.visibility = "hidden"; d.getElementById("anavr").style.display = "none";}
 } setTimeout("learnmorePopupShow = false;",500);}
 </script>
-<div id="anavr" style="position: absolute; left: 0px; top: 0px; visibility: hidden; display: none; z-index: 100; border: 1px solid #7F99B2; font-size: 0.8em;" onmouseover="popLearnmore(true);" onmouseout="popLearnmore(false);">
+<div id="anavr" style="position: absolute; left: 0px; top: 0px; visibility: hidden; display: none; z-index: 100; border: 1px solid #7F99B2; font-size: 0.8em;" onmouseover="popLearnmore(true);tdiv(false);" onmouseout="popLearnmore(false);tdiv(true);">
 <table width="160" cellpadding="0" cellspacing="0" border="0" summary="">
 
 			<tr valign="top"><td valign="middle" style="background: #cadceb; padding: 5px 6px 5px 14px;"><div id="learnmorepopupdv" style="position: absolute;"><a name="lnav6" id="learnmorepopup"></a></div><a href="learnmore/benefitsadv.asp" id="benefitsadv" class="sbtxt" title="Benefits and Advantages" onfocus="this.className='sbtxt-over';" onblur="this.className='sbtxt';">Benefits and Advantages</a></td></tr>
