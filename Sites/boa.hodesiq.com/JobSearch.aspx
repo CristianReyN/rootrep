@@ -16,7 +16,7 @@
                             <br /><br />
                             Bank of America associates should access the <a href="http://www.bankofamerica.com/careers/index.cfm?template=jobs_interstitial" id="ctl00_cphmain_lnkInternal" title="Internal Jobs Database" class="p" onblur="this.className='p';" onfocus="this.className='p-over';">internal jobs database</a>.
                             <br /><br />
-                            Please use the <a href="http://globalcareers.bankofamerica.com" id="ctl00_cphmain_lnkExternal" title="Global Jobs Database" class="p" onblur="this.className='p';" onfocus="this.className='p-over';">Global Careers Job Search</a> to find opportunities outside of the USA. 
+                            Please use the <a href="http://globalcareers.bankofamerica.com" id="ctl00_cphmain_lnkExternal" title="Global Careers Job Search" class="p" onblur="this.className='p';" onfocus="this.className='p-over';">Global Careers Job Search</a> to find opportunities outside of the USA. 
                         </td>
                     </tr>
 					<tr>
