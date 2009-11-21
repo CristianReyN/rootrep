@@ -18,8 +18,7 @@ public partial class _Default : System.Web.UI.Page
     {
         areasoftalent.Focus();
         lblMessage.Text = "";
-       if(!Page.IsPostBack)
-        {
+       
             try
             {
                 AreaofTalent at = new AreaofTalent();
@@ -59,7 +58,7 @@ public partial class _Default : System.Web.UI.Page
             }
                 
 
-        }
+       
     }
     protected void areasoftalent_SelectedIndexChanged(object sender, EventArgs e)
     {

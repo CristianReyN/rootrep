@@ -63,9 +63,9 @@
                                                         &nbsp;</td>
                                                     <td align="right" valign="top">
                                                         <a class="sblnk" href="jobcart.aspx" title="View Job Cart">View Job Cart</a>&nbsp;&nbsp;&nbsp;&nbsp;<a
-                                                            class="sblnk" href="advansedsearch.aspx" title="Advanced Search">Advanced Search</a>
+                                                            class="sblnk" href="advancesearch.aspx" title="Advanced Search">Advanced Search</a>
                                                     </td>
                                                 </tr>
-                                            </table>
+ </table>
 </asp:Content>
 
