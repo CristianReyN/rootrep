@@ -54,15 +54,20 @@ The technological superiority of our systems is as important as the quality of t
 <br><a href="http://newsroom.bankofamerica.com/index.php?s=press_releases&item=7963" target="_blank" class="ip">Read the entire story here</a>
 </p>
 <img class="dotdiv" style="margin: 6px 0px 6px 0px;" src="../images/clear.gif" width="<%=(315-right_margin_split-left_margin_0)%>" height="1" alt="" border="0">
-
-<p style="margin: 6px 0px 0px 0px;" class="faqpa">
+<p style="margin: 0px 0px 0px 0px;" class="faqpa">
 <a href="http://newsroom.bankofamerica.com/index.php?s=press_releases&item=8231" target="_blank" class="ip">Bank of America's Center for Future Banking Expands the Breadth of its Institutional Collaboration</a>
-<br><br>
+</p>
+<img class="dotdiv" style="margin: 6px 0px 6px 0px;" src="../images/clear.gif" width="<%=(315-right_margin_split-left_margin_0)%>" height="1" alt="" border="0">
+<p style="margin: 0px 0px 0px 0px;" class="faqpa">
 <a href="http://newsroom.bankofamerica.com/index.php?s=press_releases&item=8121" target="_blank" class="ip">MIT Media Lab and Bank of America Announce Center for Future Banking</a>
 <br>Collaboration to Create an Innovative Engine for Consumer Banking Solutions 
-<br><br>
+</p>
+<img class="dotdiv" style="margin: 6px 0px 6px 0px;" src="../images/clear.gif" width="<%=(315-right_margin_split-left_margin_0)%>" height="1" alt="" border="0">
+<p style="margin: 0px 0px 0px 0px;" class="faqpa">
 <a href="http://newsroom.bankofamerica.com/index.php?s=press_releases&item=8219" target="_blank" class="ip">Bank of America and the National Center for Women & Information Technology Honor 28 High School Women for Aspirations in Technology</a>
-<br><br>
+</p>
+<img class="dotdiv" style="margin: 6px 0px 6px 0px;" src="../images/clear.gif" width="<%=(315-right_margin_split-left_margin_0)%>" height="1" alt="" border="0">
+<p style="margin: 0px 0px 0px 0px;" class="faqpa">
 <a href="http://newsroom.bankofamerica.com/index.php?s=press_releases&item=8222" target="_blank" class="ip">Diversity MBA Magazine Names Bank of America #1 Company for Diverse Managers to Work</a>
 <br>New approach to ranking companies focuses on management space and pipeline development of diverse professionals.
 </p>

@@ -16,9 +16,6 @@ subtitle="Corporate Workplace Teams"
 Metatag="Detail page of Corporate Workplace division within Bank of America careers website. Gives details on business unit's specific teams and job  requirements, job links and career search."
 Keywords="Bank of America, Corporate Workplace, careers, jobs, real estate, internal space planning, corporate workplace executives, portfolio management, facility management, project management, leasing office space, leased facilities, business enablement, lease administration, risk management, workplace innovation, bank"
 '****************************** ADDED FOR HOT JOB OPENING***************************
-Dim familyid,rowcount
-familyid=11
-rowcount=6
 %>
 <!-- Header -->
 <!-- #include file="../includes/header.asp" -->

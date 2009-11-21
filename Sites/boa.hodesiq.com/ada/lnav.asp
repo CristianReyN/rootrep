@@ -93,8 +93,6 @@
 <%	If mpage = "areasoftalent" And spage = "corporateworkplace" Then %>
 				<li class="tertiary"<% if tpage = "cw_teams" then Response.Write " style=""background: #eaf1f7;""" end if %>><div><a href="../ada/cw_teams.asp" class="sbtxt" title="Corporate Workplace Teams" onfocus="this.className='sbtxt-over';" onblur="this.className='sbtxt';">Corporate Workplace Teams</a></div>
 				</li>
-				<li class="tertiary"<% if tpage = "cw_vision" then Response.Write " style=""background: #eaf1f7;""" end if %>><div><a href="../ada/cw_vision.asp" class="sbtxt" title="Vision Statement" onfocus="this.className='sbtxt-over';" onblur="this.className='sbtxt';">Vision Statement</a></div>
-				</li>
 <%	End If %>
 
 				<li<% if spage = "customercare" then Response.Write " style=""background: #eaf1f7;""" end if %>>
@@ -173,6 +171,8 @@
 				<li class="tertiary"<% if tpage = "lobgmca" then Response.Write " style=""background: #eaf1f7;""" end if %>><div><a href="../ada/lobgmca.asp" class="sbtxt" title="Global Marketing &amp; Corporate Affairs" onfocus="this.className='sbtxt-over';" onblur="this.className='sbtxt';">Global Marketing &amp; Corporate Affairs</a></div>
 				</li>
 				<li class="tertiary"<% if tpage = "lobgr" then Response.Write " style=""background: #eaf1f7;""" end if %>><div><a href="../ada/lobgr.asp" class="sbtxt" title="Risk Management" onfocus="this.className='sbtxt-over';" onblur="this.className='sbtxt';">Risk Management</a></div>
+				</li>
+				<li class="tertiary"<% if tpage = "corporateworkplace" then Response.Write " style=""background: #eaf1f7;""" end if %>><div><a href="../ada/corporateworkplace.asp" class="sbtxt" title="Corporate Workplace" onfocus="this.className='sbtxt-over';" onblur="this.className='sbtxt';">Corporate Workplace</a></div>
 				</li>
 <%	End If %>
 				<li<% Response.Write li %><% if spage = "lb_career_compass" then Response.Write " style=""background: #eaf1f7;""" end if %>><div><a href="../ada/lb_career_compass.asp" class="sbtxt" title="Skills Assessment" onfocus="this.className='sbtxt-over';" onblur="this.className='sbtxt';">Skills Assessment</a></div>

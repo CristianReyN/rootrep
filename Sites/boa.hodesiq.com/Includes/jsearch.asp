@@ -12,7 +12,6 @@
 	<option value="1|-1"<%If jobareas="1|-1" Then Response.write " selected"%>>All Administration</option>
 	<option value="1|4"<%If jobareas="1|4" Then Response.write " selected"%>>Change Mgmt &amp; Process</option>
 	<option value="1|2"<%If jobareas="1|2" Then Response.write " selected"%>>Corporate Executive</option>
-	<option value="1|3"<%If jobareas="1|3" Then Response.write " selected"%>>Corporate Workplace</option>
 	<option value="1|5"<%If jobareas="1|5" Then Response.write " selected"%>>Legal</option>
 	<option value="1|6"<%If jobareas="1|6" Then Response.write " selected"%>>Services</option>
 </optgroup>
@@ -37,7 +36,7 @@
 	<option value="2|19"<%If jobareas="2|19" Then Response.write " selected"%>>Sales</option>
 </optgroup>
 <optgroup label="Corporate Workplace">
-	<option value="2|3"<%If jobareas="2|3" Then Response.write " selected"%>>All Corporate Workplace</option>
+	<option value="11|-1"<%If jobareas="11|-1" Then Response.write " selected"%>>All Corporate Workplace</option>
 </optgroup>
 <optgroup label="Human Resources">
 	<option value="5|-1"<%If jobareas="5|-1" Then Response.write " selected"%>>All Human Resources</option>

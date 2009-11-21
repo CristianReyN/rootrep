@@ -16,9 +16,6 @@ subtitle="Corporate Workplace"
 Metatag="Landing page of Corporate Workplace division within Bank of America careers website. Includes business unit overview, employee video, job links and career search."
 Keywords="Bank of America, Corporate Workplace, careers, real estate, flexible work options, facilities management, workspace solutions, jobs, bank, banking, environmentally-friendly skyscraper, New York City"
 '****************************** ADDED FOR HOT JOB OPENING***************************
-Dim familyid,rowcount
-familyid=11
-rowcount=6
 %>
 <!-- Header -->
 <!-- #include file="../includes/header.asp" -->
