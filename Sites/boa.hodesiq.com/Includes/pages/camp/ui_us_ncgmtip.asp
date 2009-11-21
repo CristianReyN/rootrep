@@ -31,7 +31,7 @@ Candidate will be assigned to a specific Mainframe technology team or rotate amo
 	<li>Support the configuration, implementation, administration, monitoring and ongoing maintenance of assigned system.</li>
 	<li>Provide project management support relating to process improvement in technology.</li>
 	<li>Provide analytical support for data collection and measurements</li>
-	<li>•	Participate in design, development and implementation of complex applications, often using new technologies.</li>
+	<li>Participate in design, development and implementation of complex applications, often using new technologies.</li>
 </ul>
 <p class="bac">
 Intern Benefits

@@ -38,7 +38,7 @@ We hire an elite group of associates, pursuing undergraduate degrees in Finance,
 
 <h2 class="bac">Training</h2>
 <p class="bac">
-New hires to will undergo a formal training process that begins with a multi-module training program designed to educate them on our product offerings as well as preparation for necessary licensing.  In addition, the training is designed to integrate new hires into the Bank of America Community via structured coaching, networking events and exposure to senior leaders.
+New hires will undergo a formal training process that begins with a multi-module training program designed to educate them on our product offerings as well as preparation for necessary licensing.  In addition, the training is designed to integrate new hires into the Bank of America Community via structured coaching, networking events and exposure to senior leaders.
 </p>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">

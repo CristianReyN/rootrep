@@ -72,7 +72,7 @@ tabs[<%=tab%>-1].coremetrics = true;
 </div>
 <div id="dt2" style="display: <% If tab = 2 Then %>inline<% Else %>none<% End If %>;">
 	<div class="innerTab">
-		<p class="bacb">Global Consumer and Small Business Banking</p>
+		<p class="bacb">Global Corporate and Investment Banking</p>
 		<ul class="bac">
 			<li><a href="gp_emea_cm.asp" class="bac">Capital Markets</a></li>
 			<li><a href="gp_emea_gib.asp" class="bac">Global Investment Banking</a></li>

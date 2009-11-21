@@ -11,7 +11,7 @@ The Bank of America Intern Program is designed to provide students with corporat
 
 <h2 class="bac">Our Business</h2>
 <p class="bac">
-Service and Fulfillment Operations (SFO) 
+<b>Service and Fulfillment Operations (SFO)</b><br>
 Associates in SFO perform processing services for Bank of America customer households and businesses. These processing services include check processing, statement rendering, cash vault, banking center operations and lockbox services.  Key SFO accomplishments include: 
 </p>
 <ul class="bac">
