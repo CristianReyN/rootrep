@@ -14,6 +14,16 @@
                                                     </td>
                                                 </tr>
                                                 <tr>
+													<td valign="top" colspan="3" >
+														<asp:Label ID="lblJobAreas" runat="server" Text="Job Areas" Visible="true" AssociatedControlID="ddlJobAreas"></asp:Label><br />
+														<span id="d1" style="display: inline;">
+															<asp:DropDownList ID="ddlJobAreas" runat="server" CssClass="left" Style="width: 50%; z-index: auto;"
+															ToolTip="Select a Job Area" Visible="true">
+															</asp:DropDownList>
+														</span>
+													</td>
+                                                </tr>
+                                                <tr>
 													<td  valign="top" colspan="3" >
 														<asp:Label ID="lblState" runat="server" Text="Location" AssociatedControlID="ddlState"></asp:Label><br />
 														<div id="d2" style="display: inline;">
@@ -36,16 +46,6 @@
 															<asp:DropDownList ID="ddlCity" runat="server" CssClass="left" Style="width: 50%; z-index: auto;"
 															ToolTip="Select a City" Visible="false">
 															<asp:ListItem>All Locations&#160;</asp:ListItem>
-															</asp:DropDownList>
-														</span>
-													</td>
-                                                </tr>
-                                                <tr>
-													<td valign="top" colspan="3" >
-														<asp:Label ID="lblJobAreas" runat="server" Text="Job Areas" Visible="true" AssociatedControlID="ddlJobAreas"></asp:Label><br />
-														<span id="d1" style="display: inline;">
-															<asp:DropDownList ID="ddlJobAreas" runat="server" CssClass="left" Style="width: 50%; z-index: auto;"
-															ToolTip="Select a Job Area" Visible="true">
 															</asp:DropDownList>
 														</span>
 													</td>
@@ -84,14 +84,14 @@
                                                 <HeaderStyle Height="10px" BackColor="#EAF1F7" />
                                                 <Columns>
                                                     <asp:HyperLinkField DataNavigateUrlFields="JobsID,stateid,cityid,areaoftalent,jfamily,keywords" DataNavigateUrlFormatString="JobDetails.aspx?SearchPage=Sp&amp;JobId={0}&amp;stateid={1}&amp;cityid={2}&amp;jobareas={3}|{4}&amp;keywords={5}"
-                                                        DataTextField="JobName" HeaderText="Job Title" ControlStyle-CssClass="nv">
-                                                        <HeaderStyle HorizontalAlign="Left" />
+                                                        DataTextField="JobName" HeaderText="Job Title" ControlStyle-CssClass="nv" ItemStyle-Width="50%">
+                                                        <HeaderStyle HorizontalAlign="Left" Width="50%"/>
                                                     </asp:HyperLinkField>
-                                                    <asp:BoundField DataField="Location" HeaderText="Location" >
-                                                        <HeaderStyle HorizontalAlign="Left" />
+                                                    <asp:BoundField DataField="Location" HeaderText="Location" ItemStyle-Width="25%" >
+                                                        <HeaderStyle HorizontalAlign="Left" Width="25%"/>
                                                     </asp:BoundField>
-                                                    <asp:BoundField DataField="postdate" HeaderText="Date" DataFormatString="{0:MM/dd/yyyy}" HtmlEncode="false">
-                                                        <HeaderStyle HorizontalAlign="Left" />
+                                                    <asp:BoundField DataField="postdate" HeaderText="Date" DataFormatString="{0:MM/dd/yyyy}" HtmlEncode="false" ItemStyle-Width="25%" >
+                                                        <HeaderStyle HorizontalAlign="Left" Width="25%"/>
                                                     </asp:BoundField>
                                                 </Columns>
                                                 <PagerStyle CssClass="mh-link1" />
