@@ -11,6 +11,12 @@ using System.Web.UI.HtmlControls;
 
 public partial class JobDetails : System.Web.UI.Page
 {
+    #region Change History
+    // date		    developer	    comments
+    // -----------	----------	    ----------
+    //  11/27/06    Jonathan Do     (1) added LnkAddJobCart_OnClick
+    /// </summary>
+    #endregion
     private string ApplyURL = string.Empty;
 
     protected void Page_Load(object sender, EventArgs e)
@@ -57,7 +63,6 @@ public partial class JobDetails : System.Web.UI.Page
         
         HttpCookie MyCookie = Request.Cookies["JobCartID"];
         if (MyCookie == null)
-        //if (Request.Cookies["JobCartID"].Value != "" && Request.Cookies["JobCartID"].Value != null)
         {
             GUID = Convert.ToString(Guid.NewGuid());
             MyCookie = new HttpCookie("JobCartID", GUID);
@@ -65,7 +70,6 @@ public partial class JobDetails : System.Web.UI.Page
         }
         else
         {
-            //GUID = Request.Cookies["JobCartID"].Value;
             GUID = MyCookie.Value.ToString();
         }
         Jobs Jobs = new Jobs();

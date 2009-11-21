@@ -16,8 +16,9 @@ public class Jobs
     #region Change History
     // date		    developer	    comments
     // -----------	----------	    ----------
-    //  11/27/06    Jonathan Do     Added SearchJobs to return ListDictionary for all logic for Grid, include records,
+    //  11/27/06    Jonathan Do     (1) Added SearchJobs to return ListDictionary for all logic for Grid, include records,
     //                              Next/Prev button, and paging logic.
+    //                              (2) added RemoveJobCart(), AddJobCart(), RetrieveJobCart()
     /// </summary>
     #endregion
 

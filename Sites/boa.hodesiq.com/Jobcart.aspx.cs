@@ -13,6 +13,13 @@ using System.Text;
 
 public partial class Jobcart : System.Web.UI.Page
 {
+    #region Change History
+    // date		    developer	    comments
+    // -----------	----------	    ----------
+    //  11/27/06    Jonathan Do     (1) grdJobcart_RowDataBound, Remove_Click
+    //                              (2) rework Page_Load
+    /// </summary>
+    #endregion
     private string JobCartID = "";
     protected void Page_Load(object sender, EventArgs e)
     {
@@ -32,46 +39,13 @@ public partial class Jobcart : System.Web.UI.Page
         HttpCookie MyCookie = Request.Cookies["JobCartID"];
         if (MyCookie != null)
         {
-            //JobCartID = Request.Cookies["JobCartID"].Value;
             JobCartID = MyCookie.Value.ToString();
             Jobs Jobs = new Jobs();
             DataView DW = Jobs.RetrieveJobCart(JobCartID);
             grdJobcart.DataSource = DW;
             grdJobcart.DataBind();
         }
-        /*
-        if (Request.QueryString["JobID"] != "" && Request.QueryString["JobID"] != null)
-        {
-            HttpCookie ObjJobCart = new HttpCookie("BOA");
-            ObjJobCart.Values["JobId"] = Request.QueryString["JobID"].ToString();
-            ObjJobCart.Secure = false;
-            Response.Cookies.Add(ObjJobCart);
-            Response.Redirect("jobdetails.aspx?JobID=" + Request.QueryString["JobID"].ToString() + "&SearchPage=" + JobSearch);
-
-        }
-        else
-        {
-            try
-            {
-                if (Request.Cookies["BOA"].Value != "" && Request.Cookies["BOA"].Value != null)
-                {
-                    JobId = Request.Cookies["BOA"].Value.Replace("JobId=", "").ToString();
-                }
-                Jobs Jobs = new Jobs();
-                grdJobcart.DataSource = Jobs.JobDetails(JobId);
-                grdJobcart.DataBind();
-                ViewState["Cookie"] = 2;
-            }
-            catch
-            {
-                Jobs Jobs = new Jobs();
-                grdJobcart.DataSource = Jobs.JobDetails(JobId);
-                grdJobcart.DataBind();
-                ViewState["Cookie"] = 2;
-            }
-        }
-         * */
-        //}
+        
 
     }
     protected void Remove_Click(object sender, EventArgs e)
