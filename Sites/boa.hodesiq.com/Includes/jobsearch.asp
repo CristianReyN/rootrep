@@ -33,7 +33,7 @@ Bank of America associates should access the <a href="http://www.bankofamerica.c
 							</td>
 						</tr>
 						<tr>
-							<td width="192" colspan="2" valign="top" width="100%" style="padding: 6px 0px 0px 0px;">
+							<td width="192" colspan="2" valign="top" style="padding: 6px 0px 0px 0px;">
 <script language="JavaScript" type="text/javascript">
 <!--
 create_safebutton("Begin Search","javascript: document.jsearch.submit();",0,0,0,0,"Begin Search");

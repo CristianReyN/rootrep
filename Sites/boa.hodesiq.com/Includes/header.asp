@@ -73,7 +73,7 @@ End If
 </script>
 <% If mpage = "overview" Then %>
 <table cellpadding="0" cellspacing="0" border="0" summary=""><tr><td>
-<a class="p" href="<%=ada_href %>" id="tonly" title="<%=textonly_version %>" class="p"><%=textonly_version %></a>
+<a href="<%=ada_href %>" id="tonly" title="<%=textonly_version %>" class="p"><%=textonly_version %></a>
 </td></tr></table>
 <% End If %>
 <table width="750" cellpadding="0" cellspacing="0" border="0" summary="">

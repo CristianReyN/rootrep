@@ -24,5 +24,5 @@
 <a href="http://www.bankofamerica.com/index.cfm?page=about" target="_blank" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="Facts about the organization">Facts about the organization</a>
 </p>
 <p style="margin: 12px 0px 0px 0px;">
-<a href="http://investor.bankofamerica.com/phoenix.zhtml?c=71595&p=irol-reportsannual" target="_blank" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="Annual report">Annual report</a>
+<a href="http://investor.bankofamerica.com/phoenix.zhtml?c=71595&amp;p=irol-reportsannual" target="_blank" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="Annual report">Annual report</a>
 </p>
