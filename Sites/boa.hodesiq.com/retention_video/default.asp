@@ -1,12 +1,12 @@
 <% Response.Buffer=True 
 Dim title, mpage, spage, ada_href, ada_title, job_search_action, Metatag%>
 <!-- #include file="../includes/breadcrumb.asp" -->
-<% title = breadcrumb & "Realistic Job Preview - Fraud &amp; Retention"
+<% title = breadcrumb & "Realistic Job Preview - Customer Retention"
 mpage = "jobsearch"
 spage = ""
 ada_href = "../retention_video/default.asp"
 page_self = "../retention_video/default.asp"
-ada_title = breadcrumb & "Realistic Job Preview - Fraud &amp; Retention"
+ada_title = breadcrumb & "Realistic Job Preview - Customer Retention"
 job_search_action = "../jobsearch/searchresult.asp"
 Metatag=""
 %>

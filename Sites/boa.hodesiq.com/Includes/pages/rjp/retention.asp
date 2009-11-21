@@ -3,7 +3,7 @@
 var ada_href = "<%=ada_href %>";
 action_script = true;
 if ( hasRequestedVersion && retention_video ) {
-	document.write('<H2 class="hidden">Fraud &amp; Retention Video<\/H2>');
+	document.write('<H2 class="hidden">Customer Retention Video<\/H2>');
 	document.write('<div id="mainvideo" style="display: none;"><a name="video"></a>');
 	document.write(getVideo(retention_video,259,180,"javaflash",""));
 	document.write(strReplace(strReplace(strReplace(strReplace(getHTMLControl("javaflash",259,22,true,true,true,false,true,true),"<text>","Video transcript"),"<title>","Video transcript"),"<href>",ada_href),"<anchor>",retention_video.ada_anchor));
@@ -21,7 +21,7 @@ if ( hasRequestedVersion && retention_video ) {
 }
 </script>
 <noscript>
-<a name="video"></a><H2 class="hidden">Fraud &amp; Retention Video</H2>
+<a name="video"></a><H2 class="hidden">Customer Retention Video</H2>
 <object type="application/x-shockwave-flash"
 data="../Includes/pages/rjp/flashplayer_xml20080308.swf" width="259" height="180" FlashVars="var1=../Includes/pages/rjp/RETENTION.xml" id="javaflash" align="middle">
 	<param name="wmode" value="transparent">

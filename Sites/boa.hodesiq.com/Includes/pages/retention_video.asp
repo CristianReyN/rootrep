@@ -2,7 +2,7 @@
 			<tr valign="top"><td valign="top"><img src="../images/clear.gif" width="100%" height="10" alt="" border="0"></td></tr>
 			<tr valign="top">
 				<td width="100%" height="26" style="background: #d3d5d6;">
-<a name="skipmaincontent"></a><H1 class="rjp">Realistic Job Preview - Fraud &amp; Retention</H1>
+<a name="skipmaincontent"></a><H1 class="rjp">Realistic Job Preview - Customer Retention</H1>
 				</td>
 			</tr>
 			<tr valign="top"><td valign="top"><img src="../images/clear.gif" width="100%" height="2" alt="" border="0"></td></tr>
@@ -15,7 +15,7 @@
 					<div align="right" style="float: right; margin: 0px 0px 0px <%=right_margin_split%>px; padding: 0px; width: 259px;">
 <span class="hidden"><p>Screen reader users please note: all the content contained in the video on this page is duplicated in text on this page.</p></span>
 <!-- #include file="rjp/retention.asp" -->
-<a href="#video" class="hlink">Fraud &amp; Retention Video</a>
+<a href="#video" class="hlink">Customer Retention Video</a>
 					</div>
 <h2 class="rjp">Transcript</h2>
 <p style="margin: 0px <%=right_margin_split%>px 0px <%=left_margin_0%>px;">

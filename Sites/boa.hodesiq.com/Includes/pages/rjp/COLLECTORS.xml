@@ -2,7 +2,7 @@
 <main>
         <objet>
           <vidTitle show="false" posx="10" posy="10">video1</vidTitle>
-          <autoPlay>false</autoPlay>
+          <autoPlay>true</autoPlay>
           <autoRewind>true</autoRewind>
           <totalTime></totalTime>
           <contentPathNS>http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/RJP/CORE.flv</contentPathNS>
