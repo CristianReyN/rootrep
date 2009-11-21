@@ -6,81 +6,77 @@
                                 <table summary="Job Search and Job List Page" border="0" cellpadding="0" cellspacing="0" width="578">
                                     <tr valign="top">
                                         <td style="padding: 6px 12px 0px 12px; height: 100%" valign="top">
-                                            <table border="0" cellpadding="0" cellspacing="0" summary="" width="100%">
+                                           <table border="0" cellpadding="0" cellspacing="0" summary="" width="100%">
                                                 <tr>
-                                                    <td valign="top" >
+                                                    <td valign="top" colspan="3">
                                                         <h1 style="margin: 0px 0px 0px 0px; ">
                                                             Basic Search</h1>
                                                     </td>
-                                                    <td align="right" valign="top">
-                                                        &nbsp;
-                                                    </td>
-                                                    
                                                 </tr>
                                                 <tr>
-                                                    <td style="padding: 0px 6px 0px 0px; width: 50%" valign="top">
-                                                        <p style="margin: 0px; text-align: left;">
-                                                            <asp:Label ID="lblAreaOfTalent" runat="server" Text="Areas of Talent" AssociatedControlID="areasoftalent"></asp:Label>
-                                                                </p>
-                                                        <div id="d1" style="display: block;">
-                                                        <asp:DropDownList ID="areasoftalent" runat="server" CssClass="left" Style="width: 100%;
-                                                            z-index: auto;"  ToolTip="Areas Of Talent">
-                                                        </asp:DropDownList></div><br />
-                                                        <p style="margin: 0px; text-align: left;">
-                                                            <asp:Label ID="lblState" runat="server" Text="State" AssociatedControlID="State"></asp:Label>
-                                                                </p>
-                                                        <div id="d2" style="display: block;">
-                                                        <asp:DropDownList ID="State" runat="server" CssClass="left" Style="width: 100%; z-index: auto;"
-                                                             ToolTip="Select a State">
-                                                            <asp:ListItem>All Locations&#160;</asp:ListItem>
-                                                        </asp:DropDownList></div>
-                                                    </td>
-                                                    <td style="padding: 0px 0px 0px 6px; width: 50%" valign="top">
-                                                        <p style="margin: 0px; text-align: left;">
-                                                            <asp:Label ID="lblJFamily" runat="server" Text="Job Family" AssociatedControlID="jfamily"></asp:Label>
-                                                                </p>
-                                                        <asp:ListBox ID="jfamily" runat="server" CssClass="left" SelectionMode="single"
-                                                            Style="width: 100%; z-index: auto;"  ToolTip="Select Family">
-                                                            <asp:ListItem>Job Family&#160;</asp:ListItem>
-                                                        </asp:ListBox>
-                                                    </td>
+													<td  valign="top" colspan="3" >
+														<asp:Label ID="lblState" runat="server" Text="Location" AssociatedControlID="ddlState"></asp:Label><br />
+														<div id="d2" style="display: inline;">
+														<asp:DropDownList ID="ddlState" runat="server" CssClass="left" Style="width: 50%; z-index: auto;"
+															ToolTip="Select a State" AutoPostBack="true" OnSelectedIndexChanged="brefine_Click">
+															<asp:ListItem>All Locations&#160;</asp:ListItem>
+														</asp:DropDownList>
+														</div>
+														<div>
+														<noscript><asp:Button ID="brefine" runat="server" CssClass="bodybtn"  Text="Show Cities" OnClick="brefine_Click" /></noscript>
+														</div>
+													</td>
                                                 </tr>
                                                 <tr>
-                                                    <td style="padding: 0px 6px 0px 0px; width: 50%;" valign="top">
-                                                        <p style="margin: 0px; text-align: left;">
-                                                            
-                                                                <asp:Label ID="LblCity" runat="server" Text="City" Visible="false" AssociatedControlID="City"></asp:Label>
-                                                                </p>
-                                                        <div id="d3" style="display: block;">
-                                                        <asp:DropDownList ID="City" runat="server" CssClass="left" Style="width: 100%; z-index: auto;"
-                                                             ToolTip="Select a City" Visible="false">
-                                                            <asp:ListItem>All Locations&#160;</asp:ListItem>
-                                                        </asp:DropDownList>
-                                                        </div>
-                                                    </td>
-                                                    <td style="padding: 0px 0px 0px 6px; width: 50%;" valign="top">
-                                                        <p style="margin: 0px; text-align: left;">
-                                                            <asp:Label ID="lblKeywords" runat="server" Text="Keywords or Job Number (if known)" AssociatedControlID="keywords"></asp:Label>
-                                                                </p>
-                                                        <asp:TextBox ID="keywords" runat="server" CssClass="left" Style="width: 100%; size: 20"
-                                                             ToolTip="Keywords">
-                                                        </asp:TextBox>
-                                                    </td>
+													<td  valign="top" colspan="3" >
+														<asp:Label ID="lblCity" runat="server" Text="City" Visible="false" AssociatedControlID="ddlCity"></asp:Label><br />
+														<span id="d3" style="display: inline;">
+															<asp:DropDownList ID="ddlCity" runat="server" CssClass="left" Style="width: 50%; z-index: auto;"
+															ToolTip="Select a City" Visible="false">
+															<asp:ListItem>All Locations&#160;</asp:ListItem>
+															</asp:DropDownList>
+														</span>
+													</td>
                                                 </tr>
-                                                <tr><td align="left" valign="top" colspan="2">To specify a particular Job Family, choose an Area of Talent you are interested in, and then click the Refine Search button to select a specific Job Family. Same process applies for selecting a specific city within a state.</td></tr>
                                                 <tr>
-                                                    <td align="right" valign="top">
-                                                        <input id="btnReset" type="reset" value="Reset Search"  class="bodybtn" runat="server"/>&nbsp;</td>
-                                                    <td align="right" valign="top"><asp:Button ID="brefine" runat="server" CssClass="bodybtn"  Text="Refine Search" OnClick="brefine_Click" />&nbsp;
-                                                        <asp:Button ID="bsearch" runat="server" CssClass="bodybtn"  Text="Begin Search" OnClick="bsearch_Click" />
-                                                    </td>
+													<td valign="top" colspan="3" >
+														<asp:Label ID="lblJobAreas" runat="server" Text="Job Areas" Visible="true" AssociatedControlID="ddlJobAreas"></asp:Label><br />
+														<span id="d1" style="display: inline;">
+															<asp:DropDownList ID="ddlJobAreas" runat="server" CssClass="left" Style="width: 50%; z-index: auto;"
+															ToolTip="Select a Job Area" Visible="true">
+															</asp:DropDownList>
+														</span>
+													</td>
                                                 </tr>
+                                                <tr><td colspan="3">&nbsp;</td></tr>
+                                                <tr>
+													<td valign="top" colspan="3" >
+														<asp:Label ID="lblKeywords" runat="server" Text="Keywords or Job Number (if known)" AssociatedControlID="keywords"></asp:Label><br />
+														<asp:TextBox ID="keywords" runat="server" CssClass="left" Style="width: 50%; size: 20"
+															ToolTip="Keywords">
+														</asp:TextBox>
+													</td>
+                                                </tr>
+                                                <tr>
+													<td>
+														<div id="dsubmit" runat="server"><asp:LinkButton runat="server" OnClick="bsearch_Click" ID="lsearch" Text="search me"></asp:LinkButton></div>
+														<noscript><asp:Button ID="bsearch" runat="server" CssClass="bodybtn"  Text="Search" OnClick="bsearch_Click" /></noscript>
+													</td>
+													<td>
+														
+													</td>
+													<td>
+														
+													</td>
+                                                </tr>
+                                            </table>
+                                            <table border="0" cellpadding="0" cellspacing="0" summary="" width="100%">
                                                 <tr>
                                                     <td style="padding: 0px 12px 0px 12px;" align="left">
                                                         <b><asp:Label ID="lblJobofJobs" runat="server" Text=""></asp:Label></b>&nbsp;</td>
-                                                    <td align="right" valign="top">
-                                                        <asp:Button ID="btnJobCart" cssclass="bodybtn" runat="server" Text="View Job Cart" OnClick="btnJobCart_Click" />&nbsp;&nbsp;&nbsp;&nbsp;
-                                                        <asp:Button ID="btnAdvanceSearch" cssclass="bodybtn" runat="server" Text="Advanced Search" OnClick="btnAdvanceSearch_Click" />
+                                                    <td align="left" valign="top">
+														<asp:HyperLink runat="server" ID="lnkJobCart" NavigateUrl="~/jobcart.aspx" Text="View Job Cart" />&nbsp;&nbsp;&nbsp;&nbsp;
+														<asp:HyperLink runat="server" ID="lnkAdvanceSearch" NavigateUrl="~/AdvanceSearch.aspx" Text="Advanced Search" />
                                                     </td>
                                                 </tr>
                                             </table>
@@ -122,5 +118,34 @@
                                 </table>
                                 <asp:Label ID="lblMessage" runat="server"></asp:Label>
                                 <div id="d4"></div>
+                                <input type="hidden" name="hiddenid" id="hiddenid" value=""/>
+<script language="JavaScript" type="text/javascript">
+<!--
+var hiddenid;
+function submit_search(n,v)
+{
+	var hidden = document.getElementById(hiddenid?hiddenid:"hiddenid");
+	if(hidden)
+	{
+		hidden.id = n;
+		hidden.name = n;
+		hidden.value = v;
+	}
+	document.aspnetForm.submit();
+}
+function reset_form(n,v)
+{
+	var hidden = document.getElementById(hiddenid?hiddenid:"hiddenid");
+	if(hidden)
+	{
+		hidden.id = n;
+		hidden.name = n;
+		hidden.value = v;
+	}
+	document.aspnetForm.reset();
+}
+//-->
+</script>
+<asp:Literal runat="server" ID="litScript"></asp:Literal>
                             </asp:Content>
-                            
+                        
