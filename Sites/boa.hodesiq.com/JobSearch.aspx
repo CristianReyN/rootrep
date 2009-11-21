@@ -128,12 +128,12 @@
 												</div>
 												</td>
 											</tr></table>
-										</div>&nbsp;&nbsp;&nbsp;&nbsp;
+										</div>
 										</td>
 										<td valign="top" align="left" style="width: 50%;">&nbsp;
 										<div id="dNext" runat="server">
 											<table cellpadding="0" cellspacing="0" border="0" summary=""><tr>
-												<td class="whitebg">
+												<td class="whitebg"><img src="images/blank.gif" height="0" width="20" alt="spacer"/>
 												<div id="dNxt" runat="server">
 												<asp:LinkButton runat="server" OnClick="LnkNxt_Click" ID="lNext" Text="Next" Visible="false"></asp:LinkButton>
 												</div>

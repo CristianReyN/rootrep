@@ -276,10 +276,10 @@ public partial class JobSearch : System.Web.UI.Page
 		this.dNext.Attributes.Add("style", " display: none; padding: 1");
 		this.lNext.CssClass = "ie-btn";
 		//this.lNext.Visible = true;
-		this.lNext.Width = this.lNext.Text.Length;
+		//this.lNext.Width = this.lNext.Text.Length;
 		this.lPrev.CssClass = cssType + "-btn";
 		//this.lPrev.Visible = true;
-		this.lPrev.Width = this.lPrev.Text.Length;
+		//this.lPrev.Width = this.lPrev.Text.Length;
 		this.dsearch.Attributes["class"] = cssType + "-btn";
 		this.dNxt.Attributes["class"] = cssType + "-btn";
 		this.dNxt.Attributes.Add("style", " display: none;");
