@@ -27,7 +27,6 @@ public partial class JobDetails : System.Web.UI.Page
 
     protected void Page_Load(object sender, EventArgs e)
     {
-
 		if (this.Request.UrlReferrer != null &&
 		(this.Request.UrlReferrer.ToString().ToLowerInvariant().Contains("jobsearch.aspx") || this.Request.UrlReferrer.ToString().ToLowerInvariant().Contains("advancesearch.aspx")
 			|| this.Request.UrlReferrer.ToString().ToLowerInvariant().Contains("jobdetails.aspx") || this.Request.UrlReferrer.ToString().ToLowerInvariant().Contains("tell_a_friend.aspx")))
@@ -41,7 +40,7 @@ public partial class JobDetails : System.Web.UI.Page
 		{
 			strJobID = dt.Rows[0]["JobsId"].ToString();
 
-			lblDescripton.Text = dt.Rows[0]["Description"].ToString();
+            lblDescripton.Text = LinkBuilder(dt.Rows[0]["Description"].ToString(), "Description");
 			lblJobTitle.InnerText = dt.Rows[0]["JobTitle"].ToString() + " : " + dt.Rows[0]["JobsId"].ToString();
 			lblLocation.Text = dt.Rows[0]["Location"].ToString();
 			lblLocationFooter.Text = dt.Rows[0]["Location"].ToString();
@@ -54,7 +53,7 @@ public partial class JobDetails : System.Web.UI.Page
 			lblLanguage.Text = dt.Rows[0]["Language"].ToString();
 			lblJobFamily.Text = dt.Rows[0]["family"].ToString();
 			lblHoursPerWeek.Text = dt.Rows[0]["HrsPerWeek"].ToString();
-			lblQualification.Text = dt.Rows[0]["Qualification"].ToString();
+            lblQualification.Text = LinkBuilder(dt.Rows[0]["Qualification"].ToString(), "Qualification");
 			//apply process goes trough clients page for hits counting:
 			srcvalue = string.IsNullOrEmpty(Request["src"]) ? string.Empty : Request["src"];
 			ApplyURL = ConfigurationManager.AppSettings["taleoBaseURL"].Replace("{REQNOPLACEHOLDER}", dt.Rows[0]["reqNo"].ToString()) + srcvalue.Replace("-", "%2D"); 
@@ -139,6 +138,7 @@ public partial class JobDetails : System.Web.UI.Page
         Jobs Jobs = new Jobs();
         DataView DW = Jobs.AddJobCart(GUID, Request.QueryString["JobId"].ToString());
     }
+
     protected void LnkRemoveJobCart_OnClick(object sender, EventArgs e)
     {
         string GUID = "";
@@ -319,5 +319,124 @@ public partial class JobDetails : System.Web.UI.Page
 		btnRemoveFromCart.Visible = false;
 
 	}
+    
+    #region :: PARSING BY LINKS AND WEB ENABLE THEM ::
+    private string LinkBuilder(string sText, string sFieldName)
+    {
+
+        string sParsedText = sText;
+        string sRight = "";
+        string sURL = "";
+        int iSpaceIndex = 0;
+        int iDotIndex = 0;
+        string sHref = "";
+        string sHrefTemplate = "<a href='link_here' target='_blank'>link_here</a>";
+        string sHrefWWWTemplate = " <a href='http://link_here' target='_blank'>link_here</a>";
+
+        if ((sText.ToLower().Contains("http") || sText.ToLower().Contains("www.")) && sText.ToLower().Contains(".com"))
+        {
+            // by "http"
+            string[] sSplit = SplitByString(sText, "http");
+            for (int i = 1; i < sSplit.Length; i++)
+            {
+                sHref = sHrefTemplate;
+                sRight = sSplit[i];
+
+                try
+                {
+                    iSpaceIndex = sRight.IndexOf(" ", sRight.IndexOf("com"));
+                    iDotIndex = sRight.IndexOf(".", sRight.IndexOf("com"));
+                }
+                finally
+                {
+                    if (iSpaceIndex == -1 && iDotIndex == -1)
+                    {
+                        iSpaceIndex = sRight.Length;
+                    }
+                    else
+                    {
+                        if (iSpaceIndex > iDotIndex) iSpaceIndex = iDotIndex;
+                    }
+                }
+
+                sURL = "http" + sRight.Substring(0, iSpaceIndex).Trim();
+                sHref = sHref.Replace("link_here", sURL);
+                sParsedText = sParsedText.Replace(sURL, sHref);
+            }
+
+            // by " www."
+            sSplit = SplitByString(sText, " www.");
+            for (int i = 1; i < sSplit.Length; i++)
+            {
+                sHref = sHrefWWWTemplate;
+                sRight = sSplit[i];
+
+                try
+                {
+                    iSpaceIndex = sRight.IndexOf(" ", sRight.IndexOf("com"));
+                    iDotIndex = sRight.IndexOf(".", sRight.IndexOf("com"));
+                }
+                finally
+                {
+                    if (iSpaceIndex == -1 && iDotIndex == -1)
+                    {
+                        iSpaceIndex = sRight.Length;
+                    }
+                    else
+                    {
+                        if (iSpaceIndex > iDotIndex) iSpaceIndex = iDotIndex;
+                    }
+                }
+
+                sURL = "www." + sRight.Substring(0, iSpaceIndex).Trim();
+                sHref = sHref.Replace("link_here", sURL);
+                sURL = " " + sURL;
+                sParsedText = sParsedText.Replace(sURL, sHref);
+            }
+        }
+
+        return sParsedText;
+    }
+    #endregion
+
+    #region :: SPLIT BY STRING PROCEDURE ::
+    private string[] SplitByString(string testString, string split)
+    {
+        int offset = 0;
+        int index = 0;
+        int[] offsets = new int[testString.Length + 1];
+
+        while (index < testString.Length)
+        {
+            int indexOf = testString.IndexOf(split, index);
+            if (indexOf != -1)
+            {
+                offsets[offset++] = indexOf;
+                index = (indexOf + split.Length);
+            }
+            else
+            {
+                index = testString.Length;
+            }
+        }
+
+        string[] final = new string[offset + 1];
+        if (offset == 0)
+        {
+            final[0] = testString;
+        }
+        else
+        {
+            offset--;
+            final[0] = testString.Substring(0, offsets[0]);
+            for (int i = 0; i < offset; i++)
+            {
+                final[i + 1] = testString.Substring(offsets[i] + split.Length, offsets[i + 1] - offsets[i] - split.Length);
+            }
+            final[offset + 1] = testString.Substring(offsets[offset] + split.Length);
+        }
+        return final;
+    }
+    #endregion
 
 }
