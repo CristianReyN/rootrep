@@ -32,6 +32,10 @@ public partial class JobDetails : System.Web.UI.Page
             lblHoursPerWeek.Text = dt.Rows[0]["HrsPerWeek"].ToString();
             lblQualification.Text = dt.Rows[0]["Qualification"].ToString();
         }
+        returntoJobsearch.NavigateUrl = "jobsearch.aspx";
+        TellaFriend.NavigateUrl="Tell_a_friend.aspx?JobId="+ Request.QueryString["JobId"].ToString();
+        Jobcart.NavigateUrl = "jobcart.aspx?=" + Request.QueryString["JobId"].ToString();
+
 
     }
     protected void bsearchTop_Click(object sender, EventArgs e)

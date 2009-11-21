@@ -22,7 +22,7 @@
                             <h2 style="margin: 0px;">
                                 Description</h2>
                             <p>
-                                <asp:Label ID="lblDescripton" runat="server" Width="406px"></asp:Label>&nbsp;</p>
+                                <asp:Label ID="lblDescripton" runat="server" ToolTip="Job Description" Width="406px"></asp:Label>&nbsp;</p>
                             <h2 style="margin: 0px; margin-top: 18px;">
                                 Qualifications</h2>
                             <p style="margin-top: 18px;">
@@ -81,12 +81,13 @@
                     </tr>
                     <tr>
                         <td style="padding: 18px 6px 0px 0px; height: 156px;" valign="top">
-                            <a class="p" href="" title="Send this job to a friend">Send this job to a friend</a><br/>
-                            <br/>
-                            <a class="p" href="" title="Return to Job List">Return to Job List</a>
+                            <asp:HyperLink ID="TellaFriend" runat="server" CssClass="p" ToolTip="Send this job to a friend">Send this job to a friend</asp:HyperLink><br />
+                            <br />
+                            <asp:HyperLink cssclass="p" ID="returntoJobsearch" runat="server" ToolTip="Return To Search Page">Return to Job List</asp:HyperLink><br/>
+                            
                         </td>
                         <td style="height: 156px">
-                            <a class="sblnk" href="jobcart.aspx" title="Add to Job Cart">Add to Job Cart</a><br/>
+                            <asp:HyperLink ID="Jobcart" runat="server" CssClass="p" ToolTip="Add to Job Cart">Add to Job Cart</asp:HyperLink><br />
                             <asp:Button  runat="server" cssclass="bodybtn" id="bsearch" text="View Job Cart"/><br/>
                             <asp:Button runat="server" cssclass="bodybtn" id="apply" text="Apply Now"/>
                         </td>
