@@ -96,7 +96,7 @@
 				</li>
 				<li<% If spage = "collrecruiting" then Response.Write " style=""background: #eaf1f7;""" end if %>><div><a href="../learnmore/collrecruiting.asp" class="sbtxt" title="College Recruiting" onfocus="this.className='sbtxt-over';" onblur="this.className='sbtxt';">College recruiting</a></div>
 <%	If mpage = "learnmore" And spage = "collrecruiting" Then %>
-				<li class="tertiary"<% if tpage = "career_compass" then Response.Write " style=""background: #eaf1f7;""" end if %>><div><a href="../learnmore/career_compass.asp" class="sbtxt" title="Career Compass" onfocus="this.className='sbtxt-over';" onblur="this.className='sbtxt';">Career Compass</a></div>
+				<li class="tertiary"<% if tpage = "career_compass" then Response.Write " style=""background: #eaf1f7;""" end if %>><div><a href="../learnmore/career_compass.asp" class="sbtxt" title="Career Compass" onfocus="this.className='sbtxt-over';" onblur="this.className='sbtxt';">College Career Compass</a></div>
 				</li>
 				<li class="tertiary"<% if tpage = "undergraduate_programs" then Response.Write " style=""background: #eaf1f7;""" end if %>><div><a href="../learnmore/undergraduate_programs.asp" class="sbtxt" title="Undergraduate Programs" onfocus="this.className='sbtxt-over';" onblur="this.className='sbtxt';">Undergraduate Programs</a></div>
 				</li>

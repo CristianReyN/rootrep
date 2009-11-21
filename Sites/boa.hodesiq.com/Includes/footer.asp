@@ -17,3 +17,4 @@
 <script type="text/javascript" src="../includes/fixit.js"></script>
 </body>
 </html>
+<% If tpage <> "career_compass" Then session.Contents.Remove("page_number") %>
