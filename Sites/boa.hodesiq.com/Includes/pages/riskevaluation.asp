@@ -40,7 +40,8 @@ The goal of Global Risk is to manage all types of risk to achieve predictable, c
 <br><br>
 Specific areas of Global Risk Management are:
 </p>
-<ul style="margin-left: <%=left_margin_0%>px;">
+<p style="margin: 0px 0px 0px <%=left_margin_0%>px;">
+<ul>
 	<li>Global Compliance and Operational Risk;</li>
 	<li>Global Corporate &amp; Investment Banking<br>Market Risk &amp; Compliance;</li>
 	<li>Global Consumer and Small Business Risk &amp; Compliance;</li>
@@ -48,6 +49,8 @@ Specific areas of Global Risk Management are:
 	<li>Global Wealth &amp; Investment Management Risk &amp; Compliance;</li>
 	<li>Corporate Security and Corporate Audit.</li>
 </ul>
+</p>
+<br>
 <H2 class="h2" style="margin: 12px <%=right_margin%>px 2px <%=left_margin_0%>px;">Hot Job Postings</H2>
 <table cellpadding="2" cellspacing="0" border="0" summary="" style="margin-left: <%=left_margin_0%>px;">
 <!--#include file="../../hot_jobs.asp"-->
