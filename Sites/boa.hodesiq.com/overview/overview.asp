@@ -12,6 +12,7 @@ Dim flashPage
 flashPage = true
 hide_flash_title = "Stop Video Host Audio"
 hide_flash_title2 = "Stop Bank of Opportunity Audio"
+sccess_flash_title = "Access the Why Choose Bank of America video"
 Metatag="Main page of the careers site. From this page you can listen to a video host who gives a quick tour to point in the direction of either engaging information, job search information or more in-depth information about employment with Bank of America. From this page you can job search to find if there is an opportunity available. You can click to more links about benefits, diversity, corporate information, college information, global locations and to Investment Banking Careers."
 playflash = Request.Cookies("PFOT")
 If playflash = "" Then
@@ -82,16 +83,16 @@ function createStopAudio(fo_r)
 		new_a.href = "JavaScript: if(window.hideFlash) hideFlash();";
 		new_a.innerHTML = fo_r;
 		new_a.title = fo_r;
-		new_a.className = "auraltext";
-		new_a.onfocus=function(){hover(this,'show-tab'); this.style.fontSize = "0.56em";}
-		new_a.onblur=function(){hover(this,'auraltext');}
+		new_a.className = "hlink";
+		//new_a.onfocus=function(){hover(this,'show-tab'); this.style.fontSize = "0.56em";}
+		//new_a.onblur=function(){hover(this,'auraltext');}
 		document.body.insertBefore(new_a,document.body.firstChild);
 	}
 	else if (document.all)
 	{
 		if(!document.getElementById("stopaudio"))
 			document.body.insertAdjacentHTML("afterBegin",'<div id="stopaudio"></div>');
-		document.getElementById("stopaudio").innerHTML = '<a href="JavaScript: if(window.hideFlash) hideFlash();" class="auraltext" onfocus="hover(this,\'show-tab\'); this.style.fontSize = \'0.56em\';" onblur="hover(this,\'auraltext\');" title="'+fo_r+'">'+fo_r+'</a>';
+		document.getElementById("stopaudio").innerHTML = '<a href="JavaScript: if(window.hideFlash) hideFlash();" class="hlink"'/*+' onfocus="hover(this,\'show-tab\'); this.style.fontSize = \'0.56em\';" onblur="hover(this,\'auraltext\');"'*/+' title="'+fo_r+'">'+fo_r+'</a>';
 		document.getElementById("stopaudio").style.display = "inline";
 	}
 	
