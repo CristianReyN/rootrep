@@ -3,6 +3,7 @@ Dim title, mpage, spage, ada_href, ada_title, job_search_action,page_section, Me
 title = "Bank of America | Career | LifeWorks®"
 mpage = "learnmore"
 spage = "benefitsadv"
+tpage = "lifeworks"
 standart_href = "../learnmore/lifeworks.asp"
 job_search_action = "../jobsearch/searchresult.asp"
 Metatag="The page is an explanation of the LifeWorks program for associates at Bank of America."

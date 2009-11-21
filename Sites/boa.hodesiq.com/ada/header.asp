@@ -18,9 +18,26 @@ window.open(imnam,"pop","directory=no,height=450,width=500,toolbar=no,scrollbars
 </script>
 </head>
 <body id="body" onload="startPs();">
+<%
+Dim pageId, categoryId
+pageId = "career:" & Replace(page_self, "../", "", 1, -1, 0)
+If tpage <> "" Then
+	If spage = "" Then
+		categoryId = "career:ada:" & mpage
+	Else
+		categoryId = "career:ada:" & spage
+	End If
+Else
+	categoryId = "career:ada:" & mpage
+End If
+%>
+<script language="javascript1.1" src="../coremetrics/v40/eluminate.js" type="text/javascript"></script>
+<script language="javascript1.1" src="../coremetrics/cmdatatagutils.js" type="text/javascript"></script>
 <script language="JavaScript1.2" type="text/javascript">
 //<!--
     examineFontSize("body");
+	//cmSetProduction();
+	cmCreatePageviewTag("<%= pageId %>", null, null,"<%= categoryId %>");
 //-->
 </script>
 <table width="750" cellpadding="0" cellspacing="0" border="0" summary="">

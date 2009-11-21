@@ -3,6 +3,7 @@ Dim title, mpage, spage, ada_href, ada_title, job_search_action,page_section, Me
 title = "Bank of America | Career | Life in our Major Markets"
 mpage = "learnmore"
 spage = "benefitsadv"
+tpage = "majormarketlife"
 standart_href = "../learnmore/majormarketlife.asp"
 job_search_action = "../jobsearch/searchresult.asp"
 Metatag="Primary locations for Bank of America are New York, NY and Charlotte, NC and this page gives a little information on each of the markets."

@@ -3,6 +3,7 @@ Dim title, mpage, spage, ada_href, ada_title, job_search_action,page_section, Me
 title = "Bank of America | Career | Employee assistance program (EAP)"
 mpage = "learnmore"
 spage = "benefitsadv"
+tpage = "employeeassistance"
 standart_href = "../learnmore/emplassistance.asp"
 job_search_action = "../jobsearch/searchresult.asp"
 Metatag="Highlight information on the Employee Assistance Program available to Bank of America associates."

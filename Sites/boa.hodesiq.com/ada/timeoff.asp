@@ -3,6 +3,7 @@ Dim title, mpage, spage, ada_href, ada_title, job_search_action,page_section, Me
 title = "Bank of America | Career | Time off"
 mpage = "learnmore"
 spage = "benefitsadv"
+tpage = "timeoff"
 standart_href = "../learnmore/timeoff.asp"
 job_search_action = "../jobsearch/searchresult.asp"
 Metatag="Highlight information related to time off as an associate with Bank of America."

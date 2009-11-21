@@ -3,6 +3,7 @@ Dim title, mpage, spage, ada_href, ada_title, job_search_action,page_section, Me
 title = "Bank of America | Career | Education initiatives"
 mpage = "learnmore"
 spage = "benefitsadv"
+tpage = "educationinitiatives"
 standart_href = "../learnmore/educationinit.asp"
 job_search_action = "../jobsearch/searchresult.asp"
 Metatag="Your education and personal development are a high priority when you work for Bank of America.  Page highlights the two areas in more detail."

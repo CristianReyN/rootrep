@@ -3,6 +3,7 @@ Dim title, mpage, spage, ada_href, ada_title, job_search_action,page_section, Me
 title = "Bank of America | Career | Internships"
 mpage = "learnmore"
 spage = "collrecruiting"
+tpage = "internships"
 standart_href = "../learnmore/internships.asp"
 job_search_action = "../jobsearch/searchresult.asp"
 Metatag="Detailed information on internship programs with Bank of America."

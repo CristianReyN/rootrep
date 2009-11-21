@@ -3,6 +3,7 @@ Dim title, mpage, spage, ada_href, ada_title, job_search_action,page_section, Me
 title = "Bank of America | Career | Insurance Plans"
 mpage = "learnmore"
 spage = "benefitsadv"
+tpage = "insurance"
 standart_href = "../learnmore/insurance.asp"
 job_search_action = "../jobsearch/searchresult.asp"
 Metatag="Information is available on this page highlighting the plans available through Bank of America for Insurance."

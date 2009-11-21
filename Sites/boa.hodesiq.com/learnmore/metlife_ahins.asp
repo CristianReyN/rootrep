@@ -3,6 +3,7 @@ Dim title, mpage, spage, ada_href, ada_title, job_search_action, Metatag
 title = "Bank of America | Career | MetLife Auto & Home Insurance Program"
 mpage = "learnmore"
 spage = "benefitsadv"
+tpage = "metlifeautohomeinsurance"
 ada_href = "../ada/metlife_ahins.asp"
 page_self = "../learnmore/metlife_ahins.asp"
 ada_title = "Bank of America | Career | MetLife Auto & Home Insurance Program"

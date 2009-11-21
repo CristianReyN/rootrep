@@ -2,7 +2,7 @@
 Dim title, mpage, spage, ada_href, ada_title, job_search_action, Metatag
 title = "Bank of America | Career | Equal Employment Opportunity and Affirmative Action Statement"
 mpage = "overview"
-spage = ""
+spage = "eeoc"
 ada_href = "../ada/eeoc.asp"
 page_self = "../overview/eeoc.asp"
 ada_title = "Bank of America | Career | Equal Employment Opportunity and Affirmative Action Statement"

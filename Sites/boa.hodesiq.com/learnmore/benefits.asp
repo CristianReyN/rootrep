@@ -3,6 +3,7 @@ Dim title, mpage, spage, ada_href, ada_title, job_search_action, Metatag
 title = "Bank of America | Career | Benefits"
 mpage = "learnmore"
 spage = "benefitsadv"
+tpage = "benefits"
 ada_href = "../ada/benefits.asp"
 page_self = "../learnmore/benefits.asp"
 ada_title = "Bank of America | Career | Benefits"

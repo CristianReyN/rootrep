@@ -3,6 +3,7 @@ Dim title, mpage, spage, ada_href, ada_title, job_search_action,page_section, Me
 title = "Bank of America | Career | Workforce Data"
 mpage = "learnmore"
 spage = "corpinfo"
+tpage = "values"
 standart_href = "../learnmore/values.asp"
 job_search_action = "../jobsearch/searchresult.asp"
 Metatag="Information is available on page highlighting the core values of Bank of America."

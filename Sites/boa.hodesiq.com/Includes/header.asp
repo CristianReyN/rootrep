@@ -45,9 +45,26 @@ function hover(ref, classRef) { eval(ref).className = classRef; }
 </script>
 </head>
 <body id="body" onload="startKeybordNav(); startPs(); if(window.loadVideoHost)loadVideoHost(); fixIE();" onunload="">
+<%
+Dim pageId, categoryId
+pageId = "career:" & Replace(page_self, "../", "", 1, -1, 0)
+If tpage <> "" Then
+	If spage = "" Then
+		categoryId = "career:" & mpage
+	Else
+		categoryId = "career:" & spage
+	End If
+Else
+	categoryId = "career:" & mpage
+End If
+%>
+<script language="javascript1.1" src="../coremetrics/v40/eluminate.js" type="text/javascript"></script>
+<script language="javascript1.1" src="../coremetrics/cmdatatagutils.js" type="text/javascript"></script>
 <script language="javascript" type="text/javascript">
 //<!--
     examineFontSize("body");
+	//cmSetProduction();
+	cmCreatePageviewTag("<%= pageId %>", null, null,"<%= categoryId %>");
 //-->
 </script>
 <table cellpadding="0" cellspacing="0" border="0" summary=""><tr><td>
