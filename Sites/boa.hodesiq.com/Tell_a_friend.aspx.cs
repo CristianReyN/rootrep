@@ -45,8 +45,9 @@ public partial class Tell_a_friend : System.Web.UI.Page
             if (isEmail(this.FriendEmail.Text.ToString()))
             {
                 MailMessage message = new MailMessage();
+                message.Sender  = new MailAddress(ConfigurationManager.AppSettings["boafromaddress"].ToString()); 
 				message.ReplyTo = new MailAddress(this.YourEmail.Text.ToString());
-				message.From =  new MailAddress(ConfigurationManager.AppSettings["boafromaddress"].ToString());
+                message.From    = new MailAddress(this.YourEmail.Text.ToString());
                 message.To.Add(new MailAddress(this.FriendEmail.Text.ToString()));
                 message.Subject = "Career opportunity with Bank Of America";
                 message.IsBodyHtml = true;
