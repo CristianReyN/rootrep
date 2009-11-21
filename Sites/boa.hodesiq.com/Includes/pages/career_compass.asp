@@ -1,11 +1,5 @@
 		<table width="578" cellpadding="0" cellspacing="0" border="0" summary="">
 			<tr valign="top"><td colspan="2" valign="top" class="divt"><img src="../images/clear.gif" width="100%" height="4" alt="" border="0"></td></tr>
-<script language="JavaScript1.2" src="../includes/mm.js" type="text/javascript"></script>
-<script language="JavaScript1.2" type="text/javascript">
-<!--
-function preloadCC(){MM_preloadImages('../images/cc_next_over.gif','../images/cc_next_down.gif','../images/cc_prev_over.gif','../images/cc_prev_down.gif','../images/cc_finish_over.gif','../images/cc_finish_down.gif','../images/cc_restart_over.gif','../images/cc_restart_down.gif');}
-//-->
-</script>
 			<tr valign="top">
 				<td width="100%" colspan="2" valign="top">
 <img src="../images/camprecruiting.jpg" width="389" height="166" alt="Campus Recruiting" title="Campus Recruiting" border="0"><img src="../images/career_compasst.jpg" width="189" height="166" alt="I am continually provided with opportunities to be innovative and creative." title="I am continually provided with opportunities to be innovative and creative." border="0">
@@ -117,7 +111,7 @@ function preloadCC(){MM_preloadImages('../images/cc_next_over.gif','../images/cc
 		If previous_page_number > 3 Then
 %>&nbsp;
 <%		ElseIf previous_page_number > 0 Then %>
-<input type="image" id="previous" name="previous" src="../images/cc_prev.gif" value="Previous" alt="Previous" title="Previous" style="cursor: pointer;" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('previous','','../images/cc_prev_over.gif',1)"  onMouseUp="MM_swapImgRestore()" onMouseDown="MM_swapImage('previous','','../images/cc_prev_down.gif',1)">
+<input type="image" id="previous" name="previous" src="../images/cc_prev.gif" value="Previous" alt="Previous" title="Previous" style="cursor: pointer;" onMouseOver="MM_swapImage('previous','','../images/cc_prev_over.gif',1);" onMouseOut="MM_swapImgRestore();" onMouseDown="MM_swapImage('previous','','../images/cc_prev_down.gif',1);" onMouseUp="MM_swapImgRestore();">
 <%		Else %>
 <img src="../images/cc_prev_dis.gif" border="0" alt="" />
 <%		End If %>

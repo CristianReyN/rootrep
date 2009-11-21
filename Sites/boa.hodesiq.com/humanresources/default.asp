@@ -1,15 +1,15 @@
 <% Response.Buffer=True 
 Dim title, mpage, spage, ada_href, ada_title, flash, Metatag
-title = "Bank of America | Career | Human Resources"
+title = "Bank of America | Career | Global Human Resources"
 mpage = "areasoftalent"
 spage = "humanresources"
 ada_href = "../ada/humanresources.asp"
 page_self = "../humanresources/default.asp"
-ada_title = "Bank of America | Career | Human Resources"
+ada_title = "Bank of America | Career | Global Human Resources"
 Dim flashPage
 flashPage = false
 Dim subtitle
-subtitle="Human Resources"
+subtitle="Global Human Resources"
 Metatag="Human Resource is one area of talent for careers at Bank of America. From this page you can listen to an associate, see hot job opportunities, and click to positions in human resources, learning & organizational effectiveness."
 
 '****************************** ADDED FOR HOT JOB OPENING***************************

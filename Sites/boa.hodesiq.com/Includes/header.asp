@@ -52,6 +52,28 @@ H2.p, H3.p {
 <%If mpage = "overview" Then %>
 <script language="JavaScript1.2" src="../includes/flash.js" type="text/javascript"></script>
 <%End If %>
+<% If (spage = "collrecruiting" And (tpage = "" Or tpage = "career_compass") And fpage = "") Or (spage = "collrecruiting" And (tpage = "graduate_programs" Or tpage = "undergraduate_programs" Or tpage = "internships_program") And fpage <> "") Or (mpage = "areasoftalent" And spage <> "") Then %>
+<script language="JavaScript1.2" src="../includes/mm.js" type="text/javascript"></script>
+<% End If %>
+<% If spage = "collrecruiting" And tpage = "" And fpage = "" Then %>
+<script language="JavaScript1.2" type="text/javascript">
+<!--
+function preloadCC(){MM_preloadImages('../images/cc_explore_over.gif','../images/cc_explore_down.gif');}
+//-->
+</script>
+<% ElseIf spage = "collrecruiting" And tpage = "career_compass" And fpage = "" Then%>
+<script language="JavaScript1.2" type="text/javascript">
+<!--
+function preloadCC(){MM_preloadImages('../images/cc_next_over.gif','../images/cc_next_down.gif','../images/cc_prev_over.gif','../images/cc_prev_down.gif','../images/cc_finish_over.gif','../images/cc_finish_down.gif','../images/cc_restart_over.gif','../images/cc_restart_down.gif');}
+//-->
+</script>
+<% ElseIf spage = "collrecruiting" And (tpage = "graduate_programs" Or tpage = "undergraduate_programs" Or tpage = "internships_program") And fpage <> "" Then%>
+<script language="JavaScript1.2" type="text/javascript">
+<!--
+function preloadCC(){MM_preloadImages('../Includes/pages/buttons/01btn-over.gif','../Includes/pages/buttons/02btn-over.gif','../Includes/pages/buttons/03btn-over.gif','../Includes/pages/buttons/05btn-over.gif','../Includes/pages/buttons/06btn-over.gif');}
+//-->
+</script>
+<% End If %>
 <script language="JavaScript1.2" src="../includes/ps.js" type="text/javascript"></script>
 <script language="javascript" type="text/javascript">
 //<!--
@@ -97,7 +119,7 @@ End If
 	cmCreatePageviewTag("<%= pageId %>", null, null,"<%= categoryId %>");
 //-->
 </script>
-<% If mpage = "overview" Or (spage = "collrecruiting" And tpage <> "") Or (mpage = "areasoftalent" And spage <> "") Then %>
+<% If mpage = "overview" Or (spage = "collrecruiting" And (tpage = "graduate_programs" Or tpage = "undergraduate_programs" Or tpage = "internships_program") And fpage <> "") Or (mpage = "areasoftalent" And spage <> "") Then %>
 <table cellpadding="0" cellspacing="0" border="0" summary=""><tr><td>
 <a href="<%=ada_href %>" id="tonly" title="<%=textonly_version %>" class="hide-tab"><%=textonly_version %></a>
 </td></tr></table>

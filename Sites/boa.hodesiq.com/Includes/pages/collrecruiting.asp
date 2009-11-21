@@ -1,9 +1,3 @@
-<script language="JavaScript1.2" src="../includes/mm.js" type="text/javascript"></script>
-<script language="JavaScript1.2" type="text/javascript">
-<!--
-function preloadCC(){MM_preloadImages('../images/cc_explore_over.gif','../images/cc_explore_down.gif');}
-//-->
-</script>
 		<table width="578" cellpadding="0" cellspacing="0" border="0" summary="">
 			<tr valign="top"><td colspan="2" valign="top" class="divt"><img src="../images/clear.gif" width="100%" height="4" alt="" border="0"></td></tr>
 <%	href_pre = ""

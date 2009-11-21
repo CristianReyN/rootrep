@@ -67,7 +67,7 @@
 <div><a href="finance.asp" class="sbtxt" title="Finance" onfocus="this.className='sbtxt-over';" onblur="this.className='sbtxt';">Finance</a></div>
 				</li>
 				<li<% if spage = "humanresources" then Response.Write " style=""background: #eaf1f7;""" end if %>>
-<div><a href="humanresources.asp" class="sbtxt" title="Human Resources" onfocus="this.className='sbtxt-over';" onblur="this.className='sbtxt';">Human Resources</a></div>
+<div><a href="humanresources.asp" class="sbtxt" title="Global Human Resources" onfocus="this.className='sbtxt-over';" onblur="this.className='sbtxt';">Global Human Resources</a></div>
 				</li>
 				<li<% if spage = "operations" then Response.Write " style=""background: #eaf1f7;""" end if %>>
 <div><a href="operations.asp" class="sbtxt" title="Operations" onfocus="this.className='sbtxt-over';" onblur="this.className='sbtxt';">Operations</a></div>

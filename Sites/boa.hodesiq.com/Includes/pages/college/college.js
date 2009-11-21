@@ -201,13 +201,7 @@ function strReplace(s,p,r){var pos=s.indexOf(p);var len=p.length;while(pos != -1
 var reqFlashPlayer = '<a href="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash" title="This video requires Adobe Flash Player version '+requiredMajorVersion+'. Please download latest version." class="p" onfocus="this.className=\'p-over\';" onblur="this.className=\'p\';"><img src="../Includes/pages/college/thumbnails/';
 var reqFlashPlayer2 = '" width="205" height="131" alt="This video requires Adobe Flash Player version '+requiredMajorVersion+'. Please download latest version." border="0" \/><\/a>';
 
-var html_control = '<script language="JavaScript1.2" src="../Includes/mm.js" type="text/javascript"></script>';
-html_control += '<script language="JavaScript1.2" type="text/javascript">';
-html_control += '<!--';
-html_control += 'function preloadCC(){MM_preloadImages(\'../Includes/pages/buttons/01btn-over.gif\',\'../Includes/pages/buttons/02btn-over.gif\',\'../Includes/pages/buttons/03btn-over.gif\',\'../Includes/pages/buttons/05btn-over.gif\',\'../Includes/pages/buttons/06btn-over.gif\');}';
-html_control += '//-->';
-html_control += '</script>';
-html_control += '<table border="0" cellspacing="0" cellpadding="0" bgcolor="#e7313c" width="100%">';
+var html_control = '<table border="0" cellspacing="0" cellpadding="0" bgcolor="#e7313c" width="100%">';
 html_control += '<tr>';
 html_control += '<td nowrap>';
 html_control += '<div align="left" style="padding: 2px 5px;">';

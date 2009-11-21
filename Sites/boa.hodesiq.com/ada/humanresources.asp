@@ -1,6 +1,6 @@
 <% Response.Buffer=True 
 Dim title, mpage, spage, ada_href, ada_title, job_search_action,page_section, Metatag
-title = "Bank of America | Career | Human Resources"
+title = "Bank of America | Career | Global Human Resources"
 mpage = "areasoftalent"
 spage = "humanresources"
 standart_href = "../humanresources/default.asp"
