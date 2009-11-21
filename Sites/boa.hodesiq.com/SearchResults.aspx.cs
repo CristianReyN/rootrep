@@ -32,14 +32,8 @@ public partial class SearchResults : System.Web.UI.Page
                 areasoftalent.DataSource = at.Talent();
                 areasoftalent.DataBind();
                 areasoftalent.Items.Insert(0, new ListItem("Select a Talent", ""));
-                if (CheckSessionAOT == "")
-                {
-                    areasoftalent.SelectedIndex = Convert.ToInt32(s[1]);
-                }
-                else
-                {
-                    areasoftalent.SelectedIndex = Convert.ToInt32(CheckSessionAOT);
-                }
+                areasoftalent.SelectedIndex = Convert.ToInt32(s[1]);
+                
                 //areasoftalent.SelectedIndex = 0;
 
                 jfamily.DataTextField = "Family";
@@ -71,8 +65,7 @@ public partial class SearchResults : System.Web.UI.Page
         {
             lblMessage.Text = ex.Message;
         }
-        CheckSessionAOT = areasoftalent.SelectedIndex.ToString();
-        CheckSessionState = State.SelectedIndex.ToString();
+        
         //Session["PstBackResult"] = 2;
     }
 
@@ -127,5 +120,14 @@ public partial class SearchResults : System.Web.UI.Page
         Session["ArrSearchvalues"] = Session["ArrSearchvalues"] + "$" + ArrSearchValues;
         
        Response.Redirect("SearchResults.aspx");
+    }
+    protected void areasoftalent_SelectedIndexChanged(object sender, EventArgs e)
+    {
+        CheckSessionAOT = areasoftalent.SelectedIndex.ToString();
+        
+    }
+    protected void State_SelectedIndexChanged(object sender, EventArgs e)
+    {
+        CheckSessionState = State.SelectedIndex.ToString();
     }
 }
