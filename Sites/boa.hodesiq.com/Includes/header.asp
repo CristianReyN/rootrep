@@ -59,8 +59,7 @@ function popup(imnam) {
 window.open(imnam,"pop","directory=no,height=450,width=500,toolbar=no,scrollbars=yes,location=no,resizable=yes"); 
 }
 function hover(ref, classRef) { eval(ref).className = classRef; }
-
-
+function tdiv(tf){}
 //-->
 </script>
 </head>
