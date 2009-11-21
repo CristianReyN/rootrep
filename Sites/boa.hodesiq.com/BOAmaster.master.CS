@@ -57,6 +57,7 @@ public partial class BOAmaster : System.Web.UI.MasterPage
 
     protected void BuildCorremetrixScripts(string strPageName, string strContent, int intPage)   
 	{
+
         string strScript = "";
         this.metadescription.Attributes["content"] = strContent;
         this.Page.Title = "Bank of America | Career | " + strPageName;
@@ -68,7 +69,7 @@ public partial class BOAmaster : System.Web.UI.MasterPage
         strScript += "<!—" + System.Environment.NewLine;
         if (ConfigurationManager.AppSettings["StrAppServerName"] == "PRO" && intPage == 1) 
            {strScript += "cmSetProduction();" + System.Environment.NewLine;}
-        strScript += "cmCreatePageviewTag('Career | " + strPageName + "', null, null, 'career:jobsearch');" + System.Environment.NewLine;
+        strScript += "cmCreatePageviewTag('Career | " + strPageName + "', null, null, 'career:jobsearch', false, false, null, false, false, null, null, null);" + System.Environment.NewLine;
         strScript += "//-->" + System.Environment.NewLine;
         strScript += "</script>" + System.Environment.NewLine;
         strScript += "<!-- END COREMETRICS -->" + System.Environment.NewLine;
