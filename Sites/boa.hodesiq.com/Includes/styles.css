@@ -523,15 +523,7 @@ div.btn1 {
 .searchbox {font-size: 1.6ex; border-style: inset; border-bottom: none; width: 100%; margin: 0px;}
 .linksep1 {	font-size: 0.5em; color: #666666; border: 0px; margin: 0px;}
 
-.auraltext
-{
-	font-size: 0px;
-	left: -10000px;
-	top: -10000px;
-	position: absolute;
-}
-.show-tab
-{
+.auraltext, .show-tab{
 	font-family : Verdana, Helvetica, sans-serif;
 	font-size : 0.8em;
 	line-height : 1.0em;
@@ -539,8 +531,8 @@ div.btn1 {
     color: #405ebe;
 	left: 0px;
 	top: 0px;
-	position:relative;
-} 
+	position: relative;
+}
 
 INPUT.btnlink
 {

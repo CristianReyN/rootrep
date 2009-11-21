@@ -30,6 +30,22 @@ ada_title = ada_title  & ", " & textonly_version
 <title><%=title %></title>
 <link rel="stylesheet" href="../includes/styles.css" type="text/css">
 <link rel="stylesheet" href="../includes/hs_safebutton.css" type="text/css">
+<%If mpage = "overview" Then %>
+<script language="javascript" type="text/javascript">
+//<!--
+document.write('<style type="text/css">.auraltext{font-size: 0px; left: -10000px; top: -10000px; position: absolute;}<\/style>');
+//-->
+</script>
+<%End If %>
+<%If mpage = "fags" Then %><style type="text/css">
+#faqs li, #answ2 li, #answ4 li {padding-bottom: 6px;}
+</style><%End If %>
+<%If tpage = "majormarketlife" Then %><style type="text/css">
+H2.p, H3.p {
+	margin: 12px 0px 6px 0px;
+	padding: 0px;
+}
+</style><%End If %>
 <script language="JavaScript1.2" src="../includes/masthead.js" type="text/javascript"></script>
 <script language="JavaScript1.2" src="../includes/mvc-fontsize.js" type="text/javascript"></script>
 <%If mpage = "overview" Then %>
@@ -73,7 +89,7 @@ End If
 </script>
 <% If mpage = "overview" Then %>
 <table cellpadding="0" cellspacing="0" border="0" summary=""><tr><td>
-<a href="<%=ada_href %>" id="tonly" title="<%=textonly_version %>" class="p"><%=textonly_version %></a>
+<a href="<%=ada_href %>" id="tonly" title="<%=textonly_version %>" class="auraltext"><%=textonly_version %></a>
 </td></tr></table>
 <% End If %>
 <table width="750" cellpadding="0" cellspacing="0" border="0" summary="">
