@@ -16,7 +16,7 @@
 <br><br>
 By running a profitable and successful business, we bring economic benefits to all constituents, including our customers, associates, neighborhoods and suppliers, as well as our shareholders.
 <br><br>
-Rather than simply writing checks, our thoughtful and meaningful commitment plays out in the priority we place on building neighborhoods, communities, and the next generation of leaders.
+Rather than simply writing checks, our thoughtful and meaningful commitment plays out in the priority we place on building neighborhoods, communities and the next generation of leaders.
 <br><br>
 Read about some of the ways Bank of America is making a difference:
 </p>

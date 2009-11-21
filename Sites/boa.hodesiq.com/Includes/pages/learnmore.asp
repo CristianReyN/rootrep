@@ -39,6 +39,14 @@ Globalization is here. Bank of America and its affiliates deliver a variety of s
 <p style="margin-top: 6px;">
 Discover how we use our scale and scope as a universal bank to deliver greater value and opportunities to clients in the U.S., Europe, Asia and worldwide working across lines of business, including Capital Markets, Commercial Banking, Investment Banking, Research, Sales and Trading and Treasury Services.
 </p>
+
+<H2 class="p" style="margin: 0px; padding: 0px;"><a href="<% if page_section <> "ADA" then Response.write "../learnmore/resume_interview_tips.asp" Else Response.write "resume_interview_tips.asp" End If%>" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="Resume &amp; interview tips">Resume &amp; interview tips</a></H2>
+<p style="margin-top: 6px;">
+As you consider an opportunity with Bank of America, you should spend some time developing or updating your resume. Your resume offers you a chance to market your skills, abilities, accomplishments and experience. A good resume defines your qualifications as a job candidate and provides the hiring manager with a favorable first impression of you.</p>
+
+<H2 class="p" style="margin: 0px; padding: 0px;"><a href="<% if page_section <> "ADA" then Response.write "../learnmore/mulitary_veteran_recruiting.asp" Else Response.write "mulitary_veteran_recruiting.asp" End If%>" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="Military &amp; veteran recruiting">Military &amp; veteran recruiting</a></H2>
+<p style="margin-top: 6px;">
+At Bank of America, we not only recognize the sacrifices our military service members and their families have made, we also value the training, operational skills and leadership ability they have developed while protecting our country.</p>
 				</td>
 				<td width="205" height="100%" valign="top">
 <div style="border: 1px solid #e8e8e9; margin: 12px 0px 12px 0px; padding: 0px 0px 6px 0px;">

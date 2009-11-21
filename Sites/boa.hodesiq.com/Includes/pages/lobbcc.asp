@@ -17,7 +17,7 @@
 			<tr valign="top">
 				<td width="373" height="100%" valign="top" style="padding: 0px 5px 0px 12px;">
 <p style="margin: 12px 0px 12px 0px;">
-To serve a customer base of more than 54 million consumer and small business clients effectively, we must maintain a network of dedicated individuals who listen to our customers, build strong relationships and implement strategies to help our clients exceed their financial goals. Banking Center Associates are often the first point of contact for our customers and clients; therefore, that first encounter is critical to building and maintaining lasting relationships.
+To serve a customer base of more than 54 million consumer and small business clients effectively, we must maintain a network of dedicated individuals who listen to our customers, build strong relationships and implement strategies to help our clients exceed their financial goals. Banking center associates are often the first point of contact for our customers and clients; therefore, that first encounter is critical to building and maintaining lasting relationships.
 </p>
 <%	href_pre = ""
 	if page_section <> "ADA" then href_pre = "../learnmore/" %>

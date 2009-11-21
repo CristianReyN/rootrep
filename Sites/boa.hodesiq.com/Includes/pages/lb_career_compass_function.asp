@@ -17,7 +17,7 @@
 		Set page = pages(page_number)
 	Else
 '******** CALCULATE FINAL PAGE *********'
-		call createPage(page,4,"Opportunity Awaits","We encourage you to explore and learn more about all of Bank of America's Lines of Business. However, based on your answers - you may find it beneficial to start with the following areas:")
+		call createPage(page,4,"Opportunity Awaits","We encourage you to explore and learn more about all of Bank of America's Lines of Business. However, based on your answers, you may find it beneficial to start with the following areas:")
 '****** CALCULATE PROGRAM POINTS *******'
 		For p=1 To UBound(pages) Step 1
 			Set result_page = pages(p)
@@ -44,7 +44,7 @@
 '************ SORT PROGRAMS ************'
 		Dim min_programs_per_page
 		'select all (5) programs
-		min_programs_per_page = 4
+		min_programs_per_page = 2
 		Dim selected_programs(5)
 		Dim selected_program_points(5)
 		For sprg=1 To UBound(selected_programs) Step 1

@@ -16,9 +16,9 @@
 			</tr>
 			<tr valign="top">
 				<td width="373" height="100%" valign="top" style="padding: 0px 5px 0px 12px;">
-<p style="margin: 12px 0px 12px 0px;">At Bank of America, we understand that the success of an organization depends on its people. The Global Human Resources team at Bank of America plays an integral role in driving that success. It aligns Human Resources strategy to the business strategy, enabling the company to drive revenue growth through attracting, developing, and retaining a world-class workforce. 
+<p style="margin: 12px 0px 12px 0px;">At Bank of America, we understand that the success of an organization depends on its people. The Global Human Resources team at Bank of America plays an integral role in driving that success. It aligns Human Resources strategy to the business strategy, enabling the company to drive revenue growth through attracting, developing and retaining a world-class workforce. 
 <br><br>
-In addition to advising our clients on a wide variety of topics, the Global Human Resources team helps the company deliver a higher standard of benefits, work/life commitment and satisfaction to our over 200,000 associates world-wide. Our Global Human Resources associates exude strong business acumen, relationship building and strategic partnership and execution across several businesses.
+In addition to advising our clients on a wide variety of topics, the Global Human Resources team helps the company deliver a higher standard of benefits, work/life commitment and satisfaction to our over 200,000 associates world-wide. Our Global Human Resources associates must display strong business acumen, relationship building and strategic partnership and execution across several businesses.
 </p>
 <%	href_pre = ""
 	if page_section <> "ADA" then href_pre = "../learnmore/" %>

@@ -206,7 +206,7 @@ Bank of Opportunity.
 					<table width="369" style="margin: 6px 0px 0px 0px;" cellpadding="0" cellspacing="0" border="0" summary="">
 						<tr>
 							<td colspan="2" style="padding: 0px;">
-<p style="margin: 0px;">To find a career suited to your skill set, select a job area from the list below. Then you may narrow your selection further by choosing a location and/or entering a keyword.</p>
+<p style="margin: 0px;">To find a career suited to your skill set, select a job area from the list below. You may narrow your selection further by choosing a location or entering a keyword.</p>
 <p style="margin: 6px 0px 0px 0px;">
 Bank of America associates should access the <a href="http://www.bankofamerica.com/careers/index.cfm?template=jobs_interstitial" class="p" onfocus="this.className='p-over';" onblur="this.className='p';" title="Internal Jobs Database">internal jobs database</a>.</p>
 <img class="dotdiv" src="../images/clear.gif" width="100%" height="1" alt="" border="0">

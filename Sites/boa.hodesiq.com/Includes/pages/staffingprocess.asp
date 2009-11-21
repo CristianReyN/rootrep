@@ -18,11 +18,11 @@
 	<li>Candidates should search and apply for the positions in which he/she is interested, possess the skills, and match the minimum requirements of the job.</li>
 	<li>Recruiter reviews each applicant and identifies those candidates whose skills and experience match the job requirements as detailed in the job description.</li>
 	<li>Those candidates who have the experience and skills that best match the role will be selected to continue through the process.</li>
-	<li>Candidates who have been chosen to move forward in the interview process, will be notified by a Bank of America associate regarding next steps.</li>
-	<li>Please note: some positions may require assessments during the selection process.  The recruiter will inform the candidate if this applies to the position for which he/she has posted.</li>
+	<li>Candidates chosen to move forward in the interview process will be notified by a Bank of America associate with next steps.</li>
+	<li>Please note: Some positions may require assessments during the selection process. The recruiter will inform the candidate if this applies to the position he or she is seeking.</li>
 	<li>The interview/screening process varies with each opportunity.  The recruiter will communicate the process and interview timeline for the position.</li>
-	<li>If an offer is extended, a criminal background check is required to be initiated for all external hires or rehires prior to start date.  You are required to complete an I-9 prior to the designated start date in order to verify eligibility to work in the United States.  Please note: Applicants being hired to support certain lines of business may also be required to complete additional compliance checks prior to the start date (i.e. education and employment verification check, motor vehicle record check, credit check).</li>
-	<li>If a candidate is not selected to continue in the hiring process for a particular job opening, the candidate is encouraged to continue to search the Bank of America career site and continue to apply to those positions that fit his/her background and experience.</li>
+	<li>If an offer is extended, a criminal background check must be initiated for all external hires or rehires prior to start date. You are required to complete an I-9 form prior to the designated start date in order to verify eligibility to work in the United States. Please note: Applicants being hired to support certain lines of business may also be required to complete additional compliance checks prior to the start date (e.g., education and employment verification check, motor vehicle record check, credit check).</li>
+	<li>If a candidate is not selected to continue in the hiring process for a particular job opening, the candidate is encouraged to continue to search the Bank of America career site and continue to apply to other positions that fit his/her background and experience.</li>
 </ol>
 				</td>
 				<td width="205" height="100%" valign="top">

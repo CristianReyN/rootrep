@@ -9,10 +9,10 @@ function addElementsByClassName(tag,clsName,arr)
 
 function startPs()
 {
-	if(document.getElementById("jobareas"))
+	if(document.getElementById("jaaot"))
 	{
-		document.getElementById("jobareas").style.top = document.getElementById("areasoftalentli").offsetTop-1;
-		document.getElementById("jobareas").style.visibility = "visible";
+		document.getElementById("jaaot").style.top = document.getElementById("areasoftalentli").offsetTop-1;
+		document.getElementById("jaaot").style.visibility = "visible";
 	}
 	if(document.getElementById("lob"))
 	{

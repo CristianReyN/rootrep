@@ -17,7 +17,7 @@
 			<tr valign="top">
 				<td width="373" height="100%" valign="top" style="padding: 0px 5px 0px 12px;">
 <p style="margin: 12px 0px 12px 0;">
-Global Corporate &amp; Investment Banking (GCIB) is all about opportunity. It's about recognizing potential, making strategic decisions, and maximizing return on investment. GCIB provides comprehensive financial solutions to clients ranging from companies with $2.5 million in revenues to large multinational corporations, governments, institutional investors, and hedge funds. 
+Global Corporate &amp; Investment Banking is all about opportunity. It's about recognizing potential, making strategic decisions, and maximizing return on investment. Global Corporate &amp; Investment Banking provides comprehensive financial solutions to clients ranging from companies with $2.5 million in revenues to large multinational corporations, governments, institutional investors, and hedge funds. 
 <br><br>
 From bank deposit, credit services and cash management to risk management and equity and debt capital development, we do it all. We connect investors with the most advanced debt and equity research, leading-edge sales and trading platforms, and risk management expertise - all to ensure that no opportunity for success goes unrealized. 
 <br><br>
@@ -28,7 +28,7 @@ As the bank of choice for 98% of the U.S. Fortune 500 and 80% of the Global Fort
 	if page_section <> "ADA" then href_pre = "../learnmore/" %>
 <!-- #include file="../programs.asp" -->
 <% 
-	call getLobSelectForm(""," style=""width: 100%; margin: 0px 0px 6px 0px;""","--- Select A Line of Business ---",href_pre,spage)
+	'call getLobSelectForm(""," style=""width: 100%; margin: 0px 0px 6px 0px;""","--- Select A Line of Business ---",href_pre,spage)
 %>
 </p>
 <br><br>

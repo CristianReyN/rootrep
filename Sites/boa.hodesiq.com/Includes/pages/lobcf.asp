@@ -21,23 +21,29 @@ The Corporate Finance Group serves a number of essential functions within Bank o
 <br><br>
 <b>Finance Business Client Support</b>
 <br><br>
-Each line of business (LOB) has its own Corporate Finance group, a team dedicated to supporting its business, strategic planning and financial analysis function. 
-<br><br>
+Each line of business has its own CFO and a team dedicated to supporting its business, strategic planning and financial analysis function:
+<ul>
+	<li>Global Consumer and Small Business Banking (GCSBB)</li>
+	<li>Global Corporate and Investment Banking (GCIB)</li>
+	<li>Global Wealth and Investment Management (GWIM)</li>
+	<li>Corporate Infrastructure (Global Technology & Operations, Staff Support Functions)</li>
+</ul>
+<br>
 <b>Financial Accounting &amp; Control</b>
 <br><br>
-The Chief Accounting Officer (CAO) includes a Controllership function that works in conjunction with the LOB Corporate Finance groups to provide financial accounting and reporting. The CAO also contains accounting policy, corporate tax, regulatory reporting, SEC and other external reporting activities.
+The Chief Accounting Officer includes a Controllership function that works in conjunction with the Line of Business Corporate Finance groups to provide financial accounting and reporting. The Chief Accounting Officer also contains accounting policy, corporate tax, regulatory reporting, SEC and other external reporting activities.
 <br><br>
-<b>Finance Services</b>
+<b>Finance Services </b>
 <br><br>
-Finance Services is responsible for accounts payable, general finance operations and financial decision systems including enterprise profitability and cost measurement. Supply Chain Management leads procurement activities through sourcing and supplier management strategies. 
+Finance Services is responsible for accounts payable, general finance operations and financial decision systems including enterprise profitability and cost measurement. Supply Chain Management leads procurement activities through sourcing and supplier management strategies - identifying and qualifying supplier partners that can provide goods and services that meet our high standards of quality.
 <br><br>
-<b>Treasury</b>
+<b>Corporate Treasury</b>
 <br><br>
-Corporate Treasury is responsible for interest rate risk analysis, managing the funding of the corporation and the banks and capital management. In addition, functions within Treasury provide economic analysis and research as well as insurable risk management.
+Corporate Treasury is responsible for interest rate risk analysis, managing the funding of the corporation and the banks and capital management. The group executes funding, liquidity and interest rate risk strategies through structured transitions and the sale of debt products to our corporate clients. In addition, functions within Treasury provide economic analysis and research as well as insurable risk management.
 <br><br>
 <b>Corporate Investments</b>
 <br><br>
-Corporate Investments manages the bank's diversified financial portfolio through quantitative analysis and modelling to support management of the company's market and interest rate risk exposure.
+Corporate Investments manages the bank's diversified financial portfolio through quantitative analysis and modeling to support management of the company's market and interest rate risk exposure.
 <br><br>
 <b>Investor Relations</b>
 <br><br>

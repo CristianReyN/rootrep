@@ -16,13 +16,13 @@
 </p>
 <H2 class="p" style="margin: 12px 0px 12px 0px; padding: 0px;"><b>Getting Started</b></H2>
 <p style="margin: 0px 0px 12px 0px;">
-Regardless of the position you are interested in, the starting points to building your resume are the same:
+Regardless of the position you are interested in, the starting points for building your resume are the same:
 </p>
 <ol>
-	<li>Determine the job or types of jobs you want to do and research the responsibilities and qualifications of the positions.</li>
+	<li>Determine the job or types of jobs you are interested in and research the responsibilities and qualifications of those positions.</li>
 	<li>Think about why you can do the job and make a list of your skills that are relevant to the job.</li>
 	<li>Identify experiences and accomplishments that show your proficiency in the skills required for the job.</li>
-	<li>Summarize your abilities, accomplishments and skills into a brief, concise document.</li>
+	<li>Summarize your abilities, accomplishments and skills to a brief, concise document.</li>
 </ol>
 <H2 class="p" style="margin: 12px 0px 12px 0px; padding: 0px;"><b>Do's and Dont's</b></H2>
 <p style="margin: 0px 0px 12px 0px;">
@@ -44,7 +44,7 @@ As you develop your resume, keep these in mind:
 </p>
 
 
-<H2 class="p" style="margin: 12px 0px 12px 0px; padding: 0px;"><b>Parts Of A Resume</b></H2>
+<H2 class="p" style="margin: 12px 0px 12px 0px; padding: 0px;"><b>Parts of a Resume</b></H2>
 <p style="margin: 0px 0px 12px 0px;">
 Try to limit the information you include into one of these categories: 
 </p>
@@ -56,12 +56,11 @@ Try to limit the information you include into one of these categories:
 	<li>Education/Training</li>
 	<li>Professional Membership and Organizational Affiliations</li>
 </ol>
-
-<H2 class="left2" style="margin: 12px 0px 12px 0px; padding: 0px; text-decoration: none;">Successful Interviewing</H2>
-
-<H2 class="p" style="margin: 12px 0px 12px 0px; padding: 0px;"><b>Interviewing</b></H2>
+<br>
+<!--<H2 class="h2" style="margin: 12px 0px 12px 0px; padding: 0px; text-decoration: none;">Successful Interviewing</H2>
+<H2 class="p" style="margin: 12px 0px 12px 0px; padding: 0px;"><b>Interviewing</b></H2>-->
+<H2 class="p" style="margin: 12px 0px 12px 0px; padding: 0px;"><b>Successful Interviewing</b></H2>
 <p style="margin: 0px 0px 12px 0px;">
-Congratulations. You've been invited to interview for a position. 
 Interviewing should not be viewed as a frightening ordeal. It is your opportunity to learn more about the position, while the interviewer learns about you.
 <br><br>
 Interviewing is a process. One of the biggest advantages you can have in interviewing is understanding the process. Use the following steps to help you further your competitive advantage. Invest some time before your interview and you will approach the event with more confidence.
@@ -69,13 +68,13 @@ Interviewing is a process. One of the biggest advantages you can have in intervi
 
 <H2 class="p" style="margin: 12px 0px 12px 0px; padding: 0px;"><b>7 Steps to a Successful Interview</b></H2>
 <ol>
-	<li>Anticipate - Put yourself in the interviewer's position. What do you believe the interviewer is most interested in? Why do you think you have been invited to interview?</li>
-	<li>Research - What are the primary functions of the line of business? What are the success factors for the job? Is there a job description available?</li>
-	<li>Assess - Think about your skills, abilities, knowledge, interests, traits, values and accomplishments. Match them to what you know about the job. Consider which ones you should highlight.</li>
-	<li>Prepare Answers - Think about questions the interviewer may ask, determine what the best answers are and write it all down.</li>
-	<li>Prepare Questions - Interviewing is a two-way street. By asking thoughtful questions, you communicate your interest and learn a lot about the job. Avoid asking questions about vacation time, breaks, etc.</li>
-	<li>Practice - It may seem awkward, but it is the best way to come across well in an interview. Practice your own "great responses" with others or in front of a mirror until you appear relaxed and at ease.</li>
-	<li>Follow-up - Send a brief follow-up letter to the interviewer. Since many job searchers will not send follow-up letters it can be a competitive advantage.</li>
+	<li><b>Anticipate</b> - Put yourself in the interviewer's position. What do you believe the interviewer is most interested in? Why do you think you have been invited to interview?</li>
+	<li><b>Research</b> - What are the primary functions of the line of business? What are the success factors for the job? Is there a job description available?</li>
+	<li><b>Assess</b> - Think about your skills, abilities, knowledge, interests, traits, values and accomplishments. Match them to what you know about the job. Consider which ones you should highlight.</li>
+	<li><b>Prepare Answers</b> - Think about questions the interviewer may ask, determine what the best answers are and write it all down.</li>
+	<li><b>Prepare Questions</b> - Interviewing is a two-way street. By asking thoughtful questions, you communicate your interest and learn a lot about the job. Avoid asking questions about vacation time, breaks, etc.</li>
+	<li><b>Practice</b> - It may seem awkward, but it is the best way to come across well in an interview. Practice your own "great responses" with others or in front of a mirror until you appear relaxed and at ease.</li>
+	<li><b>Follow-up</b> - Send a brief follow-up letter to the interviewer. Since many job searchers will not send follow-up letters it can be a competitive advantage.</li>
 </ol>
 <%	href_pre = ""
 	if page_section <> "ADA" then href_pre = "../learnmore/" %>

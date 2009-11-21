@@ -17,8 +17,18 @@
 			<tr valign="top">
 				<td width="373" height="100%" valign="top" style="padding: 0px 5px 0px 12px;">
 <p style="margin: 12px 0px 12px 0px;">
-The goal of Global Risk is to manage all types of risk to achieve predictable, consistent and sustainable earnings growth. Our model for managing risk is holistic, covering credit, market and operational risks on an enterprise-wide scale. Our challenge is to ensure we provide the optimum balance of risk and reward to help grow the business. Specific areas of Global Risk Management are: Global Compliance and Operational Risk; Global Corporate &amp; Investment Banking Market Risk &amp; Compliance; Global Consumer and Small Business Risk &amp; Compliance; Legal; Enterprise Credit Risk; Global Wealth &amp; Investment Management Risk &amp; Compliance; Corporate Security and Corporate Audit.
+The goal of Global Risk is to manage all types of risk to achieve predictable, consistent and sustainable earnings growth. Our model for managing risk is holistic, covering credit, market and operational risks on an enterprise-wide scale. Our challenge is to ensure we provide the optimum balance of risk and reward to help grow the business.
+<br><br>
+Specific areas of Global Risk Management are:
 </p>
+<ul>
+	<li>Global Compliance and Operational Risk;</li>
+	<li>Global Corporate &amp; Investment Banking Market Risk &amp; Compliance;</li>
+	<li>Global Consumer and Small Business Risk &amp; Compliance;</li>
+	<li>Legal; Enterprise Credit Risk;</li>
+	<li>Global Wealth &amp; Investment Management Risk &amp; Compliance;</li>
+	<li>Corporate Security and Corporate Audit.</li>
+</ul>
 <%	href_pre = ""
 	if page_section <> "ADA" then href_pre = "../learnmore/" %>
 <br><br>

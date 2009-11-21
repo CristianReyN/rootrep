@@ -9,7 +9,7 @@
 <a href="http://www.bankofamerica.com/community/" target="_blank" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="Community development">Community development</a>
 </p>
 <p style="margin: 12px 0px 0px 0px;">
-<a href="http://www.bankofamerica.com/foundation/index.cfm" target="_blank" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="Bank of America foundation">Bank of America foundation</a>
+<a href="http://www.bankofamerica.com/foundation/index.cfm" target="_blank" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="Bank of America Foundation">Bank of America Foundation</a>
 </p>
 <p style="margin: 12px 0px 0px 0px;">
 <a href="http://www.bankofamerica.com/environment/" target="_blank" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="Environment">Environment</a>

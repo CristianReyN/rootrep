@@ -17,7 +17,7 @@
 			<tr valign="top">
 				<td width="373" height="100%" valign="top" style="padding: 0px 5px 0px 12px;">
 <p style="margin: 12px 0px 12px 0;">
-Bank of America's Corporate Staff &amp; Support group provides both functional and logistical value to business units throughout the entire organization. Corporate Staff &amp; Support opens a wide-open world of opportunity for skilled professionals. 
+Bank of America's Corporate Staff &amp; Support group provides both functional and logistical value to business units throughout the entire organization. Corporate Staff &amp; Support is the gateway to a wide-open world of opportunity for skilled professionals.
 <br><br>
 Careers within Corporate Staff &amp; Support are typically concentrated in one of the following specialized groups:
 <br><br>
@@ -31,16 +31,16 @@ Careers within Corporate Staff &amp; Support are typically concentrated in one o
 <br><br>
 <a href="<%Response.write href_pre%>lobgr.asp" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="Global Risk">Global Risk</a> effectively manages the risk and rewards for each area of the bank.
 <br><br>
-Corporate Treasury executes funding, liquidity and interest rate risk strategies through structured transitions and the sale of debt products to our corporate clients. 
+<!--Corporate Treasury executes funding, liquidity and interest rate risk strategies through structured transitions and the sale of debt products to our corporate clients. 
 <br><br>
-Supply Chain Management creates opportunities to increase revenues and decrease expenditures by identifying and qualifying supplier partners that can provide goods and services that meet our high standards of quality.
+Supply Chain Management creates opportunities to increase revenues and decrease expenditures by identifying and qualifying supplier partners that can provide goods and services that meet our high standards of quality.-->
 </p>
 <p style="margin: 24px 0px 12px 0px;">
 <%	href_pre = ""
 	if page_section <> "ADA" then href_pre = "../learnmore/" %>
 <!-- #include file="../programs.asp" -->
 <% 
-	call getLobSelectForm(""," style=""width: 100%; margin: 0px 0px 6px 0px;""","--- Select A Line of Business ---",href_pre,spage)
+	'call getLobSelectForm(""," style=""width: 100%; margin: 0px 0px 6px 0px;""","--- Select A Line of Business ---",href_pre,spage)
 %>
 </p>
 <br><br>

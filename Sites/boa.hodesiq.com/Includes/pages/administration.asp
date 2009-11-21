@@ -22,12 +22,12 @@ Individuals who take initiative and possess exceptional communications skills th
 		<table width="578" height="100%" cellpadding="0" cellspacing="0" border="0" summary="">
 			<tr valign="top">
 				<td width="386" height="100%" valign="top" style="padding: 0px 5px 0px 12px;">
-<H2 style="margin: 12px 0px 2px 0px;">Hot Job Postings</H2>
+<H2 class="h2" style="margin: 12px 0px 2px 0px;">Hot Job Postings</H2>
 <table cellpadding="2" cellspacing="0" border="0" summary="">
 <!--#include file="../../hot_jobs.asp"-->
 </table>
 				</td>
-				<td width="192" height="100%" valign="top" class="divl" style="padding: 6px 0px 0px 4px;">
+				<td width="192" height="100%" valign="top" class="div0" style="padding: 6px 0px 0px 4px;">
 <div style="border: 1px solid #e8e8e9; background: #ffffff; margin: 12px 0px 12px 0px; padding: 0px 0px 6px 0px;">
 <H2 class="g" style="margin: 0px 0px 0px 0px;">Career Opportunities</H2>
 	<img src="../images/clear.gif" width="100%" height="1" alt="" border="0" style="margin: 0px 0px 0px 0px; background: #ffffff;" align="top"><br clear="all">

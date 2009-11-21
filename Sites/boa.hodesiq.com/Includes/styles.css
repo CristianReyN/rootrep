@@ -15,17 +15,27 @@ P, UL, LI, H2.p, H3.p, H3.pb, LABEL.p
 {
 	font-family : Verdana, Helvetica, sans-serif;
 	font-size : 1.0em;
-	line-height : 1.2em;
+	line-height : 1.4em;/*1.2em;*/
 	font-weight : normal;
     color: #333333;
     background-color: transparent;
+}
+
+OL LI
+{
+	padding-bottom: 6px;
+}
+
+UL
+{
+	list-style-image : url(../images/bull3.gif);
 }
 
 P.s, UL.s, LI.s
 {
 	font-family : Verdana, Helvetica, sans-serif;
 	font-size : 0.9em;
-	line-height : 1.1em;
+	line-height : 1.2em;/*1.1em;*/
 	font-weight : normal;
     color: #333333;
     background-color: transparent;
@@ -61,7 +71,7 @@ label
 {
 	font-family : Verdana, Helvetica, sans-serif;
 	font-size : 0.9em;
-	line-height : 1.1em;
+	line-height : 1.2em;/*1.1em;*/
 	font-weight : normal;
     color: #405ebe;
     background-color: transparent;
@@ -71,7 +81,7 @@ label
 {
 	font-family : Verdana, Helvetica, sans-serif;
 	font-size : 0.9em;
-	line-height : 1.1em;
+	line-height : 1.2em;/*1.1em;*/
 	font-weight : normal;
     color: #000000;
     background-color: transparent;
@@ -147,7 +157,7 @@ H3, P.H3
 {
 	font-family : Verdana, Helvetica, sans-serif;
 	font-size : 1.1em;
-	line-height : 1.2em;
+	line-height : 1.4em;/*1.2em;*/
 	font-weight : normal;
     color: #D40019;
     text-decoration: none;
@@ -203,6 +213,12 @@ TR.c2
 {
     padding: 0px;
  	border-bottom: 1px solid #cccccc;
+}
+
+.div0
+{
+    padding: 0px;
+ 	border-left: 0px solid #ffffff;
 }
 
 .divl
@@ -608,7 +624,7 @@ DIV#lnav li.home, DIV#lnav li.home ul.home li.home { padding-bottom: 0px; backgr
 DIV#lnav li ul { position: absolute; left: -999em; margin: 0px; border: 1px solid #7F99B2; border-bottom: none; }
 DIV#lnav li ul.home, DIV#lnav li:hover ul.home, DIV#lnav li.fover ul.home { position: relative; left: 0px; top: 0px; margin: 5px 0px 0px -6px; border: none; }
 DIV#lnav li:hover ul, DIV#lnav li.fover ul { left: 155px; margin: 0px;  z-index: 1000001; }
-DIV#lnav li:hover ul#jobareas, DIV#lnav li.fover ul#jobareas {visibility: hidden; top: 45px; }
+DIV#lnav li:hover ul#jaaot, DIV#lnav li.fover ul#jaaot {visibility: hidden; top: 45px; }
 DIV#lnav li:hover ul#relinfo, DIV#lnav li.fover ul#relinfo {visibility: hidden;  top: 91px; }
 /*DIV#lnav li:hover ul#relinfo_aot, DIV#lnav li.fover ul#relinfo_aot { top: 322px; }
 DIV#lnav li:hover ul#relinfo_lob, DIV#lnav li.fover ul#relinfo_lob { top: 278px; }
@@ -619,12 +635,12 @@ DIV#lnav li:hover ul#lob, DIV#lnav li.fover ul#lob {visibility: hidden;  top: 68
 
 
 DIV#lnav ul li ul li { margin: 0px; padding: 5px 0px 5px 0px; text-align: left; background: #cadceb; border-top: none; border-bottom: 1px solid #7F99B2;   width: 160px;}
-DIV#lnav ul li ul li.loblili {width: 270px;}
-DIV#lnav ul li ul li.relinfolili {width: 180px;}
+DIV#lnav ul li ul li.loblili {width: 160px;}/*270px*/
+DIV#lnav ul li ul li.relinfolili {width: 160px;}/*180px*/
 
 DIV#lnav ul li ul.home li { margin: 0px; padding: 5px 0px 5px 0px; text-align: left; background: #cadceb; border-top: 1px solid #ffffff; border-bottom: none;   width: 160px;}
-DIV#lnav ul li ul.home li.loblili {width: 270px;}
-DIV#lnav ul li ul.home li.relinfolili {width: 180px;}
+DIV#lnav ul li ul.home li.loblili {width: 160px;}/*270px*/
+DIV#lnav ul li ul.home li.relinfolili {width: 160px;}/*180px*/
 
 DIV#lnav li a.g, DIV#lnav li a.g-over { line-height: 1.2em; padding: 0px 0px 0px 0px;}
 DIV#lnav ul div { padding: 0px 6px 0px 6px;}

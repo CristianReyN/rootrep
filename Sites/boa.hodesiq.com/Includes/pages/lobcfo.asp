@@ -23,7 +23,7 @@ Sed condimentum gravida neque. Nulla sem enim, nonummy eget, facilisis et, ortor
 	if page_section <> "ADA" then href_pre = "../learnmore/" %>
 <!-- #include file="../programs.asp" -->
 <% 
-	call getLobSelectForm(""," style=""width: 100%; margin: 0px 0px 6px 0px;""","--- Select A Line of Business ---",href_pre,spage)
+	'call getLobSelectForm(""," style=""width: 100%; margin: 0px 0px 6px 0px;""","--- Select A Line of Business ---",href_pre,spage)
 %>
 </p>
 <br><br><br>

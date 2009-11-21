@@ -48,8 +48,8 @@
 		'2 column'	If question_group.Item("group_number") = "5" Then two_bank = True
 			If UBound(questions) > 0 Then %>
 						<tr>
-							<td align="right" nowrap style="padding: 0px;"><b><% Response.write question_group.Item("group_number") %>.&nbsp;</b></td>
-							<td nowrap colspan="<% Response.write colspan %>" style="padding: 0px;"><b style="margin: 0px;"><% Response.write question_group.Item("title") %></b></td>
+							<td align="right" nowrap style="padding: 0px;" valign="top"><b><% Response.write question_group.Item("group_number") %>.&nbsp;</b></td>
+							<td nowrap colspan="<% Response.write colspan %>" style="padding: 0px; width: 510px;"><b style="margin: 0px;"><% Response.write question_group.Item("title") %></b></td>
 						</tr>
 <%
 				For q=1 To UBound(questions) Step 1
@@ -57,8 +57,8 @@
 <%					'2 column'If Not two_bank Or q < 11 Then %>
 						<tr>
 							<td nowrap style="padding: 0px;">&nbsp;</td>
-							<td nowrap style="padding: 0px;"><% If question_group.Item("group_type") = "checkbox" Then %><input name="q-<% Response.write questions(q).Item("question_number") %>" id="q-<% Response.write questions(q).Item("question_number") %>" type="checkbox" value="<% Response.write questions(q).Item("question_number") %>"<% If questions(q).Item("answer") Then %> checked<% End If %>><span class="ada-hide"><label class="ada-hide" for="q-<% Response.write questions(q).Item("question_number") %>"><% Response.write questions(q).Item("label") %></label></span><% ElseIf question_group.Item("group_type") = "radio" Then %><input type="radio" name="g-<% Response.write question_group.Item("group_number") %>" id="q-<% Response.write questions(q).Item("question_number") %>" value="<% Response.write questions(q).Item("question_number") %>"<% If questions(q).Item("answer") Then %> checked<% End If %>><span class="ada-hide"><label class="ada-hide" for="q-<% Response.write questions(q).Item("question_number") %>"><% Response.write questions(q).Item("label") %></label></span><% End If %></td>
-							<td<% If Not two_bank Then %> colspan="<%Response.write colspan2 %>"<% End If %><% If Not two_bank Then %> width="100%"<% Else %> width="50%"<% End If %> nowrap style="padding: 0px 0px 0px 9px;"><div style="margin: 0px;"><% Response.write questions(q).Item("question") %></div></td>
+							<td nowrap style="padding: 0px;" valign="top"><% If question_group.Item("group_type") = "checkbox" Then %><input name="q-<% Response.write questions(q).Item("question_number") %>" id="q-<% Response.write questions(q).Item("question_number") %>" type="checkbox" value="<% Response.write questions(q).Item("question_number") %>"<% If questions(q).Item("answer") Then %> checked<% End If %>><span class="ada-hide"><label class="ada-hide" for="q-<% Response.write questions(q).Item("question_number") %>"><% Response.write questions(q).Item("label") %></label></span><% ElseIf question_group.Item("group_type") = "radio" Then %><input type="radio" name="g-<% Response.write question_group.Item("group_number") %>" id="q-<% Response.write questions(q).Item("question_number") %>" value="<% Response.write questions(q).Item("question_number") %>"<% If questions(q).Item("answer") Then %> checked<% End If %>><span class="ada-hide"><label class="ada-hide" for="q-<% Response.write questions(q).Item("question_number") %>"><% Response.write questions(q).Item("label") %></label></span><% End If %></td>
+							<td<% If Not two_bank Then %> colspan="<%Response.write colspan2 %>"<% End If %><% If Not two_bank Then %> width="100%"<% Else %> width="50%"<% End If %> style="padding: 0px 0px 0px 9px;"><div style="margin: 0px;"><% Response.write questions(q).Item("question") %></div></td>
 <%					'2 column'End If %>
 <%					'2 column'
 					If two_bank And q < 11 Then %>
@@ -83,26 +83,13 @@
 							<td>
 <%		stop_points = 0
 		num_listed = 0
-		'Response.write "gd_ugd: " & gd_ugd & "<br>"
-		'Response.write "B_O_T_H: " & B_O_T_H & "<br>"
 		For sprg=1 To UBound(selected_programs) Step 1
-			'If sprg = min_programs_per_page Then stop_points = selected_program_points(sprg)
-			'If selected_program_points(sprg) > 0 And (sprg <= min_programs_per_page Or selected_program_points(sprg) >= stop_points) Then
 			program_index = selected_programs(sprg)
-			Dim list_program
-			If programs(program_index).Item("gd_ugd") = gd_ugd Then
-				list_program = true
-			ElseIf programs(program_index).Item("gd_ugd") = B_O_T_H Then
-				list_program = true
-			Else
-				list_program = false
-			End If
-			'list_program = true
-			If selected_program_points(sprg) > 0 And programs(program_index).Item("is_active") And num_listed < min_programs_per_page And list_program Then
+			If selected_program_points(sprg) > 0 And programs(program_index).Item("is_active") And (num_listed < min_programs_per_page Or (num_listed = min_programs_per_page And sprg > 1 And selected_program_points(sprg)=selected_program_points(sprg-1))) Then
 				programs(program_index).Item("listed") = TRUE
 				num_listed = num_listed + 1
 %>
-<p style="margin: 0px 0px 12px 0px;"><a class="left2" href="<% Response.write programs(program_index).Item("url") %>"><% Response.write programs(program_index).Item("title") %></a></p>
+<p style="margin: 0px 0px 12px 0px;"><a class="left2" href="<% Response.write programs(program_index).Item("url") %>"><% Response.write programs(program_index).Item("title")' &" ("&programs(program_index).Item("points")&")" %></a></p>
 <%			End If
 		Next %>
 							</td>

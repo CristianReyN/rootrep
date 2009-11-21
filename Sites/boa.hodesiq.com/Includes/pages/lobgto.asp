@@ -16,9 +16,9 @@
 			</tr>
 			<tr valign="top">
 				<td width="373" height="100%" valign="top" style="padding: 0px 5px 0px 12px;">
-<p style="margin: 12px 0px 12px 0;">At Bank of America, we believe that having the right people is a cornerstone of our foundation for growth. With more than 30,000 technologists working from across the corners of globe, we are focused on providing innovative and creative technology solutions, leading to literally billions of opportunities to "touch" our customer every month. Building a world-class, global workforce is critical to our priorities and we have many exciting opportunities to take your career higher - part of our commitment to being the employer of choice.
+<p style="margin: 12px 0px 12px 0;">At Bank of America, we believe that the right people form the critical cornerstone of our foundation for growth. With more than 30,000 technologists working from across the corners of globe, we are focused on providing innovative and creative technology solutions, leading to literally billions of opportunities to "touch" our customer every month. Building a world-class, global workforce is critical to our priorities and we have many exciting opportunities to take your career higher - part of our commitment to being the employer of choice.
 <br><br>
-GT&O builds and maintains a world-class data network linking more than 5,700 banking centers, 17,000+ ATMs and the nation's leading online banking and bill pay service. GT&O runs multiple data centers while providing support for tens of thousands of desktops throughout the corporation.
+Global Technology &amp; Operations builds and maintains a world-class data network linking more than 5,700 banking centers, 17,000+ ATMs and the nation's leading online banking and bill pay service. Global Technology &amp; Operations runs multiple data centers while providing support for tens of thousands of desktops throughout the corporation.
 <br><br>
 The technological superiority of our systems is as important as the quality of the services and products we offer. A highly experienced team, leading-edge initiatives, visible products and our commitment to training add up to an environment of unparalleled opportunity for dedicated technical professionals.
 </p>
@@ -27,7 +27,7 @@ The technological superiority of our systems is as important as the quality of t
 	if page_section <> "ADA" then href_pre = "../learnmore/" %>
 <!-- #include file="../programs.asp" -->
 <% 
-	call getLobSelectForm(""," style=""width: 100%; margin: 0px 0px 6px 0px;""","--- Select A Line of Business ---",href_pre,spage)
+	'call getLobSelectForm(""," style=""width: 100%; margin: 0px 0px 6px 0px;""","--- Select A Line of Business ---",href_pre,spage)
 %>
 </p>
 <br><br>
