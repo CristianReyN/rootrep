@@ -17,7 +17,7 @@
                     <td style="width: 100%"><asp:Label ID="Label1" runat="server" AssociatedControlID="YourEmail" Text="Your email address*"></asp:Label><br />
                         <asp:Literal ID="ltrlError0" runat="server" Text=""  /> 
                         <asp:TextBox ID="YourEmail" ToolTip="Your email address" runat="server" Width="400px"></asp:TextBox>
-   	                    <br/>
+<%--   	                    <br/>
    	                    <asp:RequiredFieldValidator 
    	                    ID="RequiredFieldValidator1a" 
    	                    Runat="Server" 
@@ -30,7 +30,7 @@
                         ValidationExpression="\w+([-+.]\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*"	                   
                         ErrorMessage=" &bull; Please Provide Valid Email Address"
                         SetFocusOnError="true"
-                        Display="Dynamic"/>
+                        Display="Dynamic"/>--%>
                     </td>
                     </tr> 	
                     <tr><td style="width: 100%">  <br /></td></tr>				
@@ -38,7 +38,7 @@
 					<td style="width: 100%"><asp:Label runat="server" AssociatedControlID="FriendEmail" Text="Your friend's email address*"></asp:Label><br />
 					    <asp:Literal ID="ltrlError" runat="server" Text=""  /> 
 						<asp:TextBox ID="FriendEmail" ToolTip="Friend's Email Address" runat="server" Width="400px"></asp:TextBox>
-	                    <br/>
+<%--	                    <br/>
 	                    <asp:RequiredFieldValidator ID="RequiredFieldValidator2a" 
 	                    Runat="Server" 
 	                    ControlToValidate="FriendEmail" 
@@ -51,7 +51,7 @@
                         ValidationExpression="\w+([-+.]\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*"			 
                         ErrorMessage=" &bull; Please Provide Valid Email Address"
                         SetFocusOnError="true"
-                        Display="Dynamic"/>
+                        Display="Dynamic"/>--%>
 					</td>
 					</tr>
 					<tr>
