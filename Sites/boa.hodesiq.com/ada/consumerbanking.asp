@@ -4,7 +4,7 @@ title = "Bank of America | Career | Consumer Banking"
 mpage = "areasoftalent"
 spage = "consumerbanking"
 
-standart_href = "../consumerbanking/default.asp"
+standart_href = "../consumerbank/"
 job_search_action = "../jobsearch/searchresult.asp"
 Metatag="Consumer Banking is one area of talent for careers at Bank of America. From this page you can listen to an associate, see hot job opportunities, and click to positions in consumer banking."
 page_self = "../ada/consumerbanking.asp"

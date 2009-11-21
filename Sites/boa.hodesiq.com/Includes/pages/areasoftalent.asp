@@ -25,7 +25,7 @@
 <H2 class="left2" style="margin: 0px; padding: 0px;"><a href="<% if page_section <> "ADA" then Response.write "../finance/" Else Response.write "finance.asp" End If%>" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="Finance">Finance</a></H2>
 <p style="margin: 6 0 15 0;">Bank of America&acute;s strong financial performance relies on a strong team.</p>
 
-<H2 class="left2" style="margin: 0px; padding: 0px;"><a href="<% if page_section <> "ADA" then Response.write "../humanresources/" Else Response.write "humanresources.asp" End If%>" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="Global Human Resources">Global Human Resources</a></H2>
+<H2 class="left2" style="margin: 0px; padding: 0px;"><a href="<% if page_section <> "ADA" then Response.write "../hr/" Else Response.write "humanresources.asp" End If%>" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="Global Human Resources">Global Human Resources</a></H2>
 <p style="margin: 6 0 15 0;">The success of any organization depends on its people - that&acute;s why our innovative, leading-edge Global Human Resources team focuses on attracting, developing and retaining a world-class workforce.</p>
 
 <H2 class="left2" style="margin: 0px; padding: 0px;"><a href="<% if page_section <> "ADA" then Response.write "../operations/" Else Response.write "operations.asp" End If%>" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="Operations">Operations</a></H2>
@@ -37,10 +37,10 @@
 <H2 class="left2" style="margin: 0px; padding: 0px;"><a href="<% if page_section <> "ADA" then Response.write "../sales/" Else Response.write "sales.asp" End If%>" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="Sales">Sales</a></H2>
 <p style="margin: 6 0 15 0;">Those in sales and product development groups will find an intense but rewarding environment.</p>
 
-<H2 class="left2" style="margin: 0px; padding: 0px;"><a href="<% if page_section <> "ADA" then Response.write "../technology/" Else Response.write "technology.asp" End If%>" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="Technolgy">Technology</a></H2>
+<H2 class="left2" style="margin: 0px; padding: 0px;"><a href="<% if page_section <> "ADA" then Response.write "../tech/" Else Response.write "technology.asp" End If%>" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="Technolgy">Technology</a></H2>
 <p style="margin: 6 0 15 0;">The technological superiority of our systems is as important as the quality of the services and products we offer.</p>
 
-<H2 class="left2" style="margin: 0px; padding: 0px;"><a href="<% if page_section <> "ADA" then Response.write "../consumerbanking/" Else Response.write "consumerbanking.asp" End If%>" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="Consumer Banking">Consumer Banking</a></H2>
+<H2 class="left2" style="margin: 0px; padding: 0px;"><a href="<% if page_section <> "ADA" then Response.write "../consumerbank/" Else Response.write "consumerbanking.asp" End If%>" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="Consumer Banking">Consumer Banking</a></H2>
 <p style="margin: 6 0 15 0;">To effectively serve a customer base of more than 54 million consumer and small business clients requires a company to maintain a network of dedicated individuals who listen to our customers, build strong relationships  and implement strategies to help our clients exceed their financial goals.</p>
 				</td>
 				<td width="205" height="100%" valign="top">

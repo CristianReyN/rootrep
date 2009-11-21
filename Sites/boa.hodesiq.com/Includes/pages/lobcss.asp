@@ -18,15 +18,13 @@ Bank of America's Corporate Staff &amp; Support group provides both functional a
 <br><br>
 Careers within Corporate Staff &amp; Support are typically concentrated in one of the following specialized groups:
 <br><br>
-<%	href_pre = ""
-	If page_section <> "ADA" Then href_pre = "../learnmore/" %>
-<a href="<%Response.write href_pre%>lobghr.asp" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="Global Human Resources">Global Human Resources</a> leverages leadership in the marketplace and enables us to drive revenue by attracting, developing and retaining a world-class workforce.
+<a href="<%If page_section <> "ADA" Then%>../humanresources/<%Else%>lobghr.asp<%End If%>" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="Global Human Resources">Global Human Resources</a> leverages leadership in the marketplace and enables us to drive revenue by attracting, developing and retaining a world-class workforce.
 <br><br>
-<a href="<%Response.write href_pre%>lobcf.asp" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="CFO Group/Finance">CFO Group/Finance</a> leads and integrates our business management process to drive shareholder value growth.
+<a href="<%If page_section <> "ADA" Then%>../CFOgroup/<%Else%>lobcf.asp<%End If%>" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="CFO Group/Finance">CFO Group/Finance</a> leads and integrates our business management process to drive shareholder value growth.
 <br><br>
-<a href="<%Response.write href_pre%>lobgmca.asp" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="Global Marketing &amp; Corporate Affairs">Global Marketing &amp; Corporate Affairs</a> is responsible for promoting and protecting the Bank of America brand.
+<a href="<%If page_section <> "ADA" Then%>../marketing/<%Else%>lobgmca.asp<%End If%>" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="Global Marketing &amp; Corporate Affairs">Global Marketing &amp; Corporate Affairs</a> is responsible for promoting and protecting the Bank of America brand.
 <br><br>
-<a href="<%Response.write href_pre%>lobgr.asp" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="Global Risk">Global Risk</a> effectively manages the risk and rewards for each area of the bank.
+<a href="<%If page_section <> "ADA" Then%>../risk/<%Else%>lobgr.asp<%End If%>" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="Global Risk">Global Risk</a> effectively manages the risk and rewards for each area of the bank.
 <br><br>
 <!--Corporate Treasury executes funding, liquidity and interest rate risk strategies through structured transitions and the sale of debt products to our corporate clients. 
 <br><br>

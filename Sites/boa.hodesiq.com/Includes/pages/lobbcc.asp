@@ -15,9 +15,10 @@
 <a name="skipmaincontent"></a><H1 class="hidden">Banking Center Channel/Consumer Banking</H1>
 <% If page_section = "ADA" Then %>
 <!-- #include file="associate/diaz.asp" -->
+					<div align="right" style="float: right; margin: 0px 0px 0px <%=right_margin_split%>px; padding: 0px; width: 201px;">
 <% End If %>
-					<div align="right" style="float: right; margin: 0px 0px 0px <%=right_margin_split%>px; padding: 0px; width: 259px;">
 <% If page_section <> "ADA" Then %>
+					<div align="right" style="float: right; margin: 0px 0px 0px <%=right_margin_split%>px; padding: 0px; width: 259px;">
 <!-- #include file="associate/diaz.asp" -->
 <a href="#video" class="hlink">Anthony Diaz&acute;s Associate Testimonial Video</a>
 <% End If  %>
@@ -32,7 +33,7 @@
 </div>
 <br><br>
 					</div>
-<p style="margin: 0px <%=right_margin_split%>px 0px <%=left_margin_0%>px;">
+<p style="margin: <% If page_section = "ADA" Then %>12<% Else %>0<%End If%>px <%=right_margin_split%>px 0px <%=left_margin_0%>px;">
 To serve a customer base of more than 54 million consumer and small business clients effectively, we must maintain a network of dedicated individuals who listen to our customers, build strong relationships and implement strategies to help our clients exceed their financial goals. Banking center associates are often the first point of contact for our customers and clients; therefore, that first encounter is critical to building and maintaining lasting relationships.
 </p>
 <H2 class="h2" style="margin: 12px <%=right_margin%>px 2px <%=left_margin_0%>px;">Hot Job Postings</H2>

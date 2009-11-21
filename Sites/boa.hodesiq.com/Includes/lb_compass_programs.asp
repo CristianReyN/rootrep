@@ -6,13 +6,21 @@ B_O_T_H = "both"
 I_N_T = "intern"
 U_R_L = "../learnmore/"
 If page_section = "ADA" Then U_R_L = "../ada/"
+lobgto_U_R_L = "../technology/"
+If page_section = "ADA" Then lobgto_U_R_L = "../ada/lobgto.asp"
+lobgcsbb_U_R_L = "../consumerbanking/"
+If page_section = "ADA" Then lobgcsbb_U_R_L = "../ada/lobgcsbb.asp"
+lobgcib_U_R_L = "../gcib/"
+If page_section = "ADA" Then lobgcib_U_R_L = "../ada/lobgcib.asp"
+lobgwim_U_R_L = "../wealthmanagement/"
+If page_section = "ADA" Then lobgwim_U_R_L = "../ada/lobgwim.asp"
 
 Dim programs(5)
 '		program number			program title,program group,program page
-Set programs(1) = createProgram("Global Consumer &amp; Small Business Banking",B_O_T_H,U_R_L&"lobgcsbb.asp",FALSE,TRUE)
-Set programs(2) = createProgram("Global Corporate &amp; Investment Banking",B_O_T_H,U_R_L&"lobgcib.asp",FALSE,TRUE)
-Set programs(3) = createProgram("Global Wealth &amp; Investment Management",B_O_T_H,U_R_L&"lobgwim.asp",FALSE,TRUE)
-Set programs(4) = createProgram("Global Technology &amp; Operations",B_O_T_H,U_R_L&"lobgto.asp",FALSE,TRUE)
+Set programs(1) = createProgram("Global Consumer &amp; Small Business Banking",B_O_T_H,lobgcsbb_U_R_L,FALSE,TRUE)
+Set programs(2) = createProgram("Global Corporate &amp; Investment Banking",B_O_T_H,lobgcib_U_R_L,FALSE,TRUE)
+Set programs(3) = createProgram("Global Wealth &amp; Investment Management",B_O_T_H,lobgwim_U_R_L,FALSE,TRUE)
+Set programs(4) = createProgram("Global Technology &amp; Operations",B_O_T_H,lobgto_U_R_L,FALSE,TRUE)
 Set programs(5) = createProgram("Corporate Staff &amp; Support",B_O_T_H,U_R_L&"lobcss.asp",FALSE,TRUE)
 
 

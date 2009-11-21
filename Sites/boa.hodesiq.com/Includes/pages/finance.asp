@@ -15,9 +15,10 @@
 <a name="skipmaincontent"></a><H1 class="hidden">CFO Group/Finance</H1>
 <% If page_section = "ADA" Then %>
 <!-- #include file="associate/chen.asp" -->
+					<div align="right" style="float: right; margin: 0px 0px 0px <%=right_margin_split%>px; padding: 0px; width: 201px;">
 <% End If %>
-					<div align="right" style="float: right; margin: 0px 0px 0px <%=right_margin_split%>px; padding: 0px; width: 259px;">
 <% If page_section <> "ADA" Then %>
+					<div align="right" style="float: right; margin: 0px 0px 0px <%=right_margin_split%>px; padding: 0px; width: 259px;">
 <!-- #include file="associate/chen.asp" -->
 <a href="#video" class="hlink">Rich Chen&acute;s Associate Testimonial Video</a>
 <% End If  %>
@@ -36,7 +37,7 @@
 </div>
 <br><br>
 					</div>
-<p style="margin: 0px <%=right_margin_split%>px 0px <%=left_margin_0%>px;">
+<p style="margin: <% If page_section = "ADA" Then %>12<% Else %>0<%End If%>px <%=right_margin_split%>px 0px <%=left_margin_0%>px;">
 The CFO Group serves a number of essential functions within Bank of America, organized in the following groups:
 <br><br>
 <b>Finance Business Client Support</b>

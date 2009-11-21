@@ -4,7 +4,7 @@ title = "Bank of America | Career | Customer Care"
 mpage = "areasoftalent"
 spage = "customercare"
 
-standart_href = "../customercare/default.asp"
+standart_href = "../customercare/"
 job_search_action = "../jobsearch/searchresult.asp"
 Metatag="Customer Care is one area of talent for careers at Bank of America. From this page you can listen to an associate, see hot job opportunities, and click to positions in relationship management and customer service."
 page_self = "../ada/customercare.asp"

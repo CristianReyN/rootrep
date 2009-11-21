@@ -15,9 +15,10 @@
 <a name="skipmaincontent"></a><H1 class="hidden">Global Risk</H1>
 <% If page_section = "ADA" Then %>
 <!-- #include file="associate/price.asp" -->
+					<div align="right" style="float: right; margin: 0px 0px 0px <%=right_margin_split%>px; padding: 0px; width: 201px;">
 <% End If %>
-					<div align="right" style="float: right; margin: 0px 0px 0px <%=right_margin_split%>px; padding: 0px; width: 259px;">
 <% If page_section <> "ADA" Then %>
+					<div align="right" style="float: right; margin: 0px 0px 0px <%=right_margin_split%>px; padding: 0px; width: 259px;">
 <!-- #include file="associate/price.asp" -->
 <a href="#video" class="hlink">Allen Price&acute;s Associate Testimonial Video</a>
 <% End If  %>
@@ -32,7 +33,7 @@
 </div>
 <br><br>
 					</div>
-<p style="margin: 0px <%=right_margin_split%>px 0px <%=left_margin_0%>px;">
+<p style="margin: <% If page_section = "ADA" Then %>12<% Else %>0<%End If%>px <%=right_margin_split%>px 0px <%=left_margin_0%>px;">
 The goal of Global Risk is to manage all types of risk to achieve predictable, consistent and sustainable earnings growth. Our model for managing risk is holistic, covering credit, market and operational risks on an enterprise-wide scale. Our challenge is to ensure we provide the optimum balance of risk and reward to help grow the business.
 <br><br>
 Specific areas of Global Risk Management are:

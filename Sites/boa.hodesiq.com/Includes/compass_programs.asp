@@ -31,7 +31,7 @@ Set programs(12) = createProgram("Corporate Investments Group",B_O_T_H,U_R_L&"ip
 	Set hm_subprograms(5) = createProgram("Staffing Operations - Selection and Assessment Analyst",G_D,U_R_L&"gp_sosaa.asp",FALSE,TRUE)
 	Set hm_subprograms(6) = createProgram("Staffing Operations - Workforce Planning Analyst",G_D,U_R_L&"gp_wpa.asp",FALSE,TRUE)
 	Dim H_R_U_R_L
-	H_R_U_R_L = "../humanresources/default.asp"
+	H_R_U_R_L = "../hr/"
 	If page_section = "ADA" Then H_R_U_R_L = "../ada/humanresources.asp"
 Set programs(13) = createProgram("Global Human Resources",G_D,H_R_U_R_L,hm_subprograms,TRUE)
 Set programs(14) = createProgram("Technology MBA Program",G_D,U_R_L&"gp_tmbap.asp",FALSE,TRUE)

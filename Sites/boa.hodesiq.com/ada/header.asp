@@ -40,6 +40,14 @@ ElseIf tpage <> "" Then
 Else
 	categoryId = "career:ada:" & mpage
 End If
+Dim left_margin, right_margin, top_content_padding_bottom, top_content_padding_bottom_hd, middle_content_padding
+left_margin = 12
+left_margin_0 = 0
+right_margin = 8
+right_margin_split = 20
+top_content_padding_bottom = 12
+top_content_padding_bottom_hd = 0
+middle_content_padding = "padding: 0px 8px 0px 0px;"
 %>
 <script language="javascript1.1" src="../coremetrics/v40/eluminate.js" type="text/javascript"></script>
 <script language="javascript1.1" src="../coremetrics/cmdatatagutils.js" type="text/javascript"></script>

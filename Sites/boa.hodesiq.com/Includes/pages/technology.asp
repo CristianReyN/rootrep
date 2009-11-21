@@ -15,9 +15,10 @@
 <a name="skipmaincontent"></a><H1 class="hidden">Technology</H1>
 <% If page_section = "ADA" Then %>
 <!-- #include file="associate/saulsberry.asp" -->
+					<div align="right" style="float: right; margin: 0px 0px 0px <%=right_margin_split%>px; padding: 0px; width: 201px;">
 <% End If %>
-					<div align="right" style="float: right; margin: 0px 0px 0px <%=right_margin_split%>px; padding: 0px; width: 259px;">
 <% If page_section <> "ADA" Then %>
+					<div align="right" style="float: right; margin: 0px 0px 0px <%=right_margin_split%>px; padding: 0px; width: 259px;">
 <!-- #include file="associate/saulsberry.asp" -->
 <a href="#video" class="hlink">Shawn Saulsberry&acute;s Associate Testimonial Video</a>
 <% End If  %>

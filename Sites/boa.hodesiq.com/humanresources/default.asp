@@ -1,18 +1,18 @@
 <% Response.Buffer=True 
-Dim title, mpage, spage, ada_href, ada_title, flash, Metatag
+Dim title, mpage, spage, ada_href, ada_title, job_search_action, Metatag
 title = "Bank of America | Career | Global Human Resources"
-mpage = "areasoftalent"
-spage = "humanresources"
-
-ada_href = "../ada/humanresources.asp"
+mpage = "lob"
+spage = "lobcss"
+tpage = "lobghr"
+ada_href = "../ada/lobghr.asp"
 page_self = "../humanresources/default.asp"
-ada_title = "Bank of America | Career | Global Human Resources"
+ada_title = "Bank of America | Global Human Resources"
 job_search_action = "../jobsearch/searchresult.asp"
 Dim flashPage
 flashPage = false
 Dim subtitle
 subtitle="Global Human Resources"
-Metatag="Human Resource is one area of talent for careers at Bank of America. From this page you can listen to an associate, see hot job opportunities, and click to positions in human resources, learning & organizational effectiveness."
+Metatag="Explore a career in Global Human Resources with Bank of America's Corporate Staff & Support."
 
 '****************************** ADDED FOR HOT JOB OPENING***************************
 Dim talentid,rowcount
@@ -33,7 +33,8 @@ rowcount=6
 	<td valign="top" width="578" height="100%">
 <!-- Body-->
 <img src="../images/clear.gif" width="15" height="4" alt="" border="0"><br>
-<!-- #include file="../includes/pages/humanresources.asp" -->
+<!-- #include file="../includes/pages/lobghr.asp" -->
+<br><br>
 <!-- Body-->
 	</td>
 </tr>

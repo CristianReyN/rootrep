@@ -19,15 +19,13 @@ Opportunity awaits. Learn more about:
 </p>
 <%	href_pre = ""
 	if page_section <> "ADA" then href_pre = "../learnmore/" %>
-<!--<a href="<% Response.write href_pre %>lobcfo.asp" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="Corporate Financial Operations">Corporate Financial Operations</a>
-<br><br>-->
-<a href="<% Response.write href_pre %>lobgcsbb.asp" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="Global Consumer &amp; Small Business Banking">Global Consumer &amp; Small Business Banking</a>
+<a href="<%	if page_section <> "ADA" then%>../consumerbanking/<% Else %>lobgcsbb.asp<%End If %>" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="Global Consumer &amp; Small Business Banking">Global Consumer &amp; Small Business Banking</a>
 <br><br>
-<a href="<% Response.write href_pre %>lobgcib.asp" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="Global Corporate &amp; Investment Banking">Global Corporate &amp; Investment Banking</a>
+<a href="<%	if page_section <> "ADA" then%>../gcib/<% Else %>lobgcib.asp<%End If %>" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="Global Corporate &amp; Investment Banking">Global Corporate &amp; Investment Banking</a>
 <br><br>
-<a href="<% Response.write href_pre %>lobgwim.asp" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="Global Wealth &amp; Investment Management">Global Wealth &amp; Investment Management</a>
+<a href="<%	if page_section <> "ADA" then%>../wealthmanagement/<% Else %>lobgwim.asp<%End If %>" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="Global Wealth &amp; Investment Management">Global Wealth &amp; Investment Management</a>
 <br><br>
-<a href="<% Response.write href_pre %>lobgto.asp" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="Global Technology &amp; Operations">Global Technology &amp; Operations</a>
+<a href="<%	if page_section <> "ADA" then%>../technology/<% Else %>lobgto.asp<%End If %>" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="Global Technology &amp; Operations">Global Technology &amp; Operations</a>
 <br><br>
 <a href="<% Response.write href_pre %>lobcss.asp" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="Corporate Staff &amp; Support">Corporate Staff &amp; Support</a>
 <br><br>

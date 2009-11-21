@@ -1,17 +1,17 @@
 <% Response.Buffer=True 
-Dim title, mpage, spage, ada_href, ada_title, flash, Metatag
-title = "Bank of America | Career | Technology"
-mpage = "areasoftalent"
-spage = "technology"
-ada_href = "../ada/technology.asp"
+Dim title, mpage, spage, ada_href, ada_title, job_search_action, Metatag
+title = "Bank of America | Career | Corporate Information | Global Technology &amp; Operations"
+mpage = "lob"
+spage = "lobgto"
+ada_href = "../ada/lobgto.asp"
 page_self = "../technology/default.asp"
-ada_title = "Bank of America | Career | Technology"
+ada_title = "Bank of America | Career | Corporate Information | Global Technology &amp; Operations"
 job_search_action = "../jobsearch/searchresult.asp"
 Dim flashPage
 flashPage = false
 Dim subtitle
-subtitle="Technology"
-Metatag="Technology is one area of talent for careers at Bank of America. From this page you can listen to an associate, see hot job opportunities, and click to positions in technology."
+subtitle="Global Technology &amp; Operations"
+Metatag="Explore a career with Bank of America's Global Technology & Operations."
 
 '****************************** ADDED FOR HOT JOB OPENING***************************
 Dim talentid,rowcount
@@ -32,7 +32,8 @@ rowcount=6
 	<td valign="top" width="578" height="100%">
 <!-- Body-->
 <img src="../images/clear.gif" width="15" height="4" alt="" border="0"><br>
-<!-- #include file="../includes/pages/technology.asp" -->
+<!-- #include file="../includes/pages/lobgto.asp" -->
+<br><br>
 <!-- Body-->
 	</td>
 </tr>

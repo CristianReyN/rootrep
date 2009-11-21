@@ -3,7 +3,7 @@ Dim title, mpage, spage, ada_href, ada_title, job_search_action,page_section, Me
 title = "Bank of America | Career | Corporate Information | Global Technology &amp; Operations"
 mpage = "lob"
 spage = "lobgto"
-standart_href = "../learnmore/lobgto.asp"
+standart_href = "../technology/"
 job_search_action = "../jobsearch/searchresult.asp"
 Metatag="Explore a career with Bank of America's Global Technology & Operations."
 page_self = "../ada/lobgto.asp"

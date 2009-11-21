@@ -5,9 +5,10 @@
 <a name="skipmaincontent"></a><H1 style="margin: 0px 12px 0px <%=left_margin_0%>px; padding: 0px;">Sales</H1>
 <% If page_section = "ADA" Then %>
 <!-- #include file="associate/placencia.asp" -->
+					<div align="right" style="float: right; margin: 0px 0px 0px <%=right_margin_split%>px; padding: 0px; width: 201px;">
 <% End If %>
-					<div align="right" style="float: right; margin: -18px 0px 0px <%=right_margin_split%>px; padding: 0px; width: 259px;">
 <% If page_section <> "ADA" Then %>
+					<div align="right" style="float: right; margin: -18px 0px 0px <%=right_margin_split%>px; padding: 0px; width: 259px;">
 <!-- #include file="associate/placencia.asp" -->
 <a href="#video" class="hlink">Patricia Placencia&acute;s Associate Testimonial Video</a>
 <% End If  %>
@@ -25,7 +26,7 @@
 </div>
 <br><br>
 					</div>
-<p style="margin: 6px <%=right_margin_split%>px 0px <%=left_margin_0%>px;">
+<p style="margin: <% If page_section = "ADA" Then %>12<% Else %>6<%End If%>px <%=right_margin_split%>px 0px <%=left_margin_0%>px;">
 Those in sales and product development groups will find a fast-paced and rewarding environment.  By planning and executing in closely aligned teams, with shared accountability, our sales specialists generate sales and increase our market share.
 </p>
 <H2 class="h2" style="margin: 12px <%=right_margin%>px 2px <%=left_margin_0%>px;">Hot Job Postings</H2>

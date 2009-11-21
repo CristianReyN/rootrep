@@ -3,10 +3,10 @@ Dim title, mpage, spage, ada_href, ada_title, job_search_action,page_section, Me
 title = "Bank of America | Career | Corporate Information | Global Corporate &amp; Investment Banking"
 mpage = "lob"
 spage = "lobgcib"
-standart_href = "../learnmore/lobgcib.asp"
+standart_href = "../gcib/"
 job_search_action = "../jobsearch/searchresult.asp"
 Metatag="Explore a career with Bank of America's Global Corporate & Investment Banking."
-page_self = "../ada/lobgwim.asp"
+page_self = "../ada/lobgcib.asp"
 page_section="ADA"
 Dim flashPage
 flashPage = false

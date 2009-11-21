@@ -4,7 +4,7 @@ title = "Bank of America | Career | Risk"
 mpage = "areasoftalent"
 spage = "riskevaluation"
 
-standart_href = "../riskevaluation/default.asp"
+standart_href = "../riskevaluation/"
 job_search_action = "../jobsearch/searchresult.asp"
 Metatag="Risk Evaluation is one area of talent for careers at Bank of America. From this page you can listen to an associate, see hot job opportunities, and click to positions in risk evaluation."
 page_self = "../ada/riskevaluation.asp"
