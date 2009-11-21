@@ -104,18 +104,23 @@ public partial class JobSearch : System.Web.UI.Page
 	}
 	public void FilterCity(int CityID)
 	{
+		DataTable dt;
 		Location Lo = new Location();
 		ddlCity.Items.Clear();
 		ddlCity.DataTextField = "City";
 		ddlCity.DataValueField = "Cityid";
 		if (ddlState.SelectedIndex == 0)
-			ddlCity.DataSource = Lo.StatewiseCity(1);
+			dt = Lo.StatewiseCity(1);
 		else
-			ddlCity.DataSource = Lo.StatewiseCity(CityID);
-		ddlCity.DataBind();
-		//ddlCity.Items.Insert(0, new ListItem("Select a City", ""));
-		ddlCity.Items.Insert(0, new ListItem("All Cities", "-1"));
-		//ddlCity.SelectedIndex = 0;
+		{
+			dt = Lo.StatewiseCity(CityID);
+		}
+		if (dt.Rows.Count > 0)
+		{
+			ddlCity.DataSource = dt;
+			ddlCity.DataBind();
+		}
+		ddlCity.Items.Insert(0, new ListItem("All cities", "-1"));
 	}
 	public void RefineSearch(string StateID)
 	{
