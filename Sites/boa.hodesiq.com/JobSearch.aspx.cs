@@ -210,6 +210,12 @@ public partial class JobSearch : System.Web.UI.Page
         MyListDictionary = Job.SearchJobs(aot, jf, stateid, cityid, keywrd, (int)(ViewState["PageNumber"]), RecPerPage);
         DataTable DT = (DataTable)MyListDictionary["JobSearchResults"];
 
+        foreach (DataControlField c in GrdResults.Columns)
+        {
+            //Set all column headers as bold!!!
+            c.HeaderText = "<b>" + c.HeaderText + "</b>";
+        }
+
         GrdResults.DataSource = DT;
         GrdResults.DataBind();
 
@@ -222,6 +228,98 @@ public partial class JobSearch : System.Web.UI.Page
         this.lblJobofJobs.Visible = Convert.ToBoolean(MyListDictionary["RecordCount"]);
         this.lblJobofJobs.Text = MyListDictionary["JobToJobs"].ToString();
     }
+
+    #region  (¯`·.¸(¯`·.¸  Sorting Mechanizm Is Here ¸.·´¯)¸.·´¯)
+
+    protected void GrdResults_OnSorting(object sender, GridViewSortEventArgs e)
+    {
+        string sortExpression = e.SortExpression;
+        if (GridViewSortDirection == SortDirection.Ascending)
+        {
+            GridViewSortDirection = SortDirection.Descending;
+            SortGridView(sender, sortExpression, " DESC");
+        }
+        else
+        {
+            GridViewSortDirection = SortDirection.Ascending;
+            SortGridView(sender, sortExpression, " ASC");
+        }
+    }
+
+    public SortDirection GridViewSortDirection
+    {
+        get
+        {
+            if (ViewState["sortDirection"] == null)
+                ViewState["sortDirection"] = SortDirection.Descending;
+            return (SortDirection)ViewState["sortDirection"];
+        }
+        set { ViewState["sortDirection"] = value; }
+    }
+
+    private void SortGridView(object sender, string sSortExpression, string sDirection)
+    {
+        string[] aja = { "-1", "-1" };
+        if (ddlJobAreas.SelectedValue != "-1" & ddlJobAreas.SelectedValue != string.Empty)
+        {
+            aja = ddlJobAreas.SelectedValue.Split("|".ToCharArray());
+        }
+        else if (!string.IsNullOrEmpty(Request.QueryString["jobareas"]) && Request.QueryString["jobareas"].ToLowerInvariant() != "select a job area")
+        {
+            aja = Request.QueryString["jobareas"].Split("|".ToCharArray());
+        }
+        int aot = (aja[0] == null) ? -1 : Convert.ToInt32(aja[0]);
+        string jf = string.IsNullOrEmpty(aja[1].ToString()) ? "" : aja[1];
+
+        //int stateid = string.IsNullOrEmpty(ddlState.SelectedValue) ? -1 : Convert.ToInt32(string.IsNullOrEmpty(ViewState["statequery"].ToString()) ? ddlState.SelectedItem.Value : ViewState["statequery"].ToString());
+        int stateid = string.IsNullOrEmpty(ddlState.SelectedValue) ? -1 : Convert.ToInt32(ddlState.SelectedValue);
+        ViewState["statequery"] = null;
+        int cityid;
+        if (stateid < 0)
+            cityid = -1;
+        else
+            cityid = string.IsNullOrEmpty(ddlCity.SelectedValue) ? -1 : Convert.ToInt32(ddlCity.SelectedItem.Value);
+        string keywrd = keywords.Text;
+
+        Jobs Job = new Jobs();
+
+        ListDictionary MyListDictionary = new ListDictionary();
+        MyListDictionary = Job.SearchJobs(aot, jf, stateid, cityid, keywrd, (int)(ViewState["PageNumber"]), RecPerPage);
+        DataTable DT = (DataTable)MyListDictionary["JobSearchResults"];
+
+        foreach (DataControlField c in ((GridView)sender).Columns)
+        {
+            //Clear any <img> tags that might be present for all columns!!!
+            c.HeaderText = c.HeaderText.Replace(" <img src='images/upArrow.gif' border='0'>", String.Empty);
+            c.HeaderText = c.HeaderText.Replace(" <img src='images/dnArrow.gif' border='0'>", String.Empty);
+
+            //Assign proper image to proper column
+            if (c.SortExpression == sSortExpression)
+            {
+                if (sDirection == " ASC")
+                { c.HeaderText += " <img src='images/upArrow.gif' border='0'>"; }
+                if (sDirection == " DESC")
+                { c.HeaderText += " <img src='images/dnArrow.gif' border='0'>"; }
+            }
+        }
+
+        DataView dv = new DataView(DT);
+        dv.Sort = sSortExpression + sDirection;
+        ((GridView)sender).DataSource = dv;
+        ((GridView)sender).DataBind();
+        ((GridView)sender).PageIndex = 0;
+
+        this.divNext.Attributes["style"] = ((Boolean)MyListDictionary["NextButton"]) ? " display: inline;" : " display: none;";
+        this.divPrev.Attributes["style"] = ((Boolean)MyListDictionary["PrevButton"]) ? " display: inline;" : " display: none;";
+        //this.dNext.Attributes["style"] = ((Boolean)MyListDictionary["NextButton"]) ? " display: inline;" : " display: none;";
+        //this.dPrev.Attributes["style"] = ((Boolean)MyListDictionary["PrevButton"]) ? " display: inline;" : " display: none;";
+
+        LblPageOfPages.Text = MyListDictionary["PageOfPages"].ToString();
+        this.lblJobofJobs.Visible = Convert.ToBoolean(MyListDictionary["RecordCount"]);
+        this.lblJobofJobs.Text = MyListDictionary["JobToJobs"].ToString();
+    }
+
+    #endregion
 
     protected void PopulateLocations()
     {

@@ -105,25 +105,52 @@
                 Width="554px" 
                 AutoGenerateColumns="False" 
                 CellPadding="0" 
-                GridLines="None" 
-                AllowSorting="True" 
+                GridLines="None"                
                 ToolTip="Search Results " 
                 summary="Search Results " 
-                EmptyDataRowStyle-ForeColor="Red">
-                    <RowStyle BackColor="#CADCEB" Height="10px"/>
-                    <AlternatingRowStyle BackColor="#EAF1F7" Height="10px" />
-                    <HeaderStyle Height="10px" BackColor="#EAF1F7" />
+                EmptyDataRowStyle-ForeColor="Red"
+                AllowSorting="True" OnSorting="GrdResults_OnSorting"
+                >
+                
+                    <HeaderStyle CssClass="pd"   BackColor="#EAF1F7" Height="24px"  />
+                    <RowStyle CssClass="pd2"   BackColor="#CADCEB" Height="24px" />
+                    <AlternatingRowStyle CssClass="pd2"  BackColor="#EAF1F7" Height="24px" />
+                    
                     <Columns>
-                        <asp:HyperLinkField DataNavigateUrlFields="JobsID,stateid,cityid,areaoftalent,jfamily,keywords" DataNavigateUrlFormatString="JobDetails.aspx?SearchPage=Sp&amp;JobId={0}&amp;stateid={1}&amp;cityid={2}&amp;jobareas={3}|{4}&amp;keywords={5}"
-                            DataTextField="JobName" HeaderText="Job Title" ControlStyle-CssClass="nv" ItemStyle-Width="50%">
-                            <HeaderStyle HorizontalAlign="Left" Width="50%"/>
-                        </asp:HyperLinkField>
-                        <asp:BoundField DataField="Location" HeaderText="Location" ItemStyle-Width="25%" >
-                            <HeaderStyle HorizontalAlign="Left" Width="25%"/>
-                        </asp:BoundField>
-                        <asp:BoundField DataField="postdate" HeaderText="Date" DataFormatString="{0:MM/dd/yyyy}" HtmlEncode="false" ItemStyle-Width="25%" >
-                            <HeaderStyle HorizontalAlign="Left" Width="25%"/>
-                        </asp:BoundField>
+    
+                             <asp:HyperLinkField  
+                                DataNavigateUrlFields="JobsID,stateid,cityid,areaoftalent,jfamily,keywords" 
+                                DataNavigateUrlFormatString="JobDetails.aspx?SearchPage=Sp&amp;JobId={0}&amp;stateid={1}&amp;cityid={2}&amp;jobareas={3}|{4}&amp;keywords={5}"
+                                DataTextField="JobName"                                   
+                                HeaderText="Job Title"                                 
+                                SortExpression="JobName">
+                                <HeaderStyle CssClass="pd"  Font-Bold="true" ForeColor="black" HorizontalAlign="Left" Width="50%" Height="24px"/>
+                            </asp:HyperLinkField>
+                            
+                             <asp:TemplateField HeaderText="Location" SortExpression="Location">
+                                <ItemTemplate>
+                                    <asp:Literal ID="Lc" runat="server" Text='<%# Eval("Location") %>'></asp:Literal>
+                                </ItemTemplate> 
+                                <HeaderStyle CssClass="pd" Font-Bold="true" ForeColor="black" HorizontalAlign="Left"  Width="25%" Height="24px"/>
+                            </asp:TemplateField>   
+                            
+                            <asp:TemplateField HeaderText="Date" SortExpression="postdate"  >
+                                <ItemTemplate>
+                                    <asp:Literal ID="Dt" runat="server" Text='<%# Eval("postdate") %>' ></asp:Literal>
+                                </ItemTemplate> 
+                                <HeaderStyle CssClass="pd" Font-Bold="true" ForeColor="black" HorizontalAlign="Left"  Width="25%" Height="24px"/>
+                            </asp:TemplateField>                            
+                        
+                            <%--                       
+                            <asp:BoundField DataField="Location" HeaderText="Location" ItemStyle-Width="25%" >
+                                <HeaderStyle HorizontalAlign="Left" Width="25%"/>
+                            </asp:BoundField>
+                            
+                            <asp:BoundField DataField="postdate" HeaderText="Date" DataFormatString="{0:MM/dd/yyyy}" HtmlEncode="false" ItemStyle-Width="25%" >
+                                <HeaderStyle HorizontalAlign="Left" Width="25%"/>
+                            </asp:BoundField>
+                            --%>
+                        
                     </Columns>
                     <PagerStyle CssClass="mh-link1" />
                     <EmptyDataTemplate>
