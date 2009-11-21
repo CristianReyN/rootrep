@@ -118,34 +118,6 @@
                                 </table>
                                 <asp:Label ID="lblMessage" runat="server"></asp:Label>
                                 <div id="d4"></div>
-                                <input type="hidden" name="hiddenid" id="hiddenid" value=""/>
-<script language="JavaScript" type="text/javascript">
-<!--
-var hiddenid;
-function submit_search(n,v)
-{
-	var hidden = document.getElementById(hiddenid?hiddenid:"hiddenid");
-	if(hidden)
-	{
-		hidden.id = n;
-		hidden.name = n;
-		hidden.value = v;
-	}
-	document.aspnetForm.submit();
-}
-function reset_form(n,v)
-{
-	var hidden = document.getElementById(hiddenid?hiddenid:"hiddenid");
-	if(hidden)
-	{
-		hidden.id = n;
-		hidden.name = n;
-		hidden.value = v;
-	}
-	document.aspnetForm.reset();
-}
-//-->
-</script>
-<asp:Literal runat="server" ID="litScript"></asp:Literal>
+								<asp:Literal runat="server" ID="litScript"></asp:Literal>
                             </asp:Content>
                         

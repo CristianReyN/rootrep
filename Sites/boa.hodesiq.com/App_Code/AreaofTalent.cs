@@ -173,4 +173,17 @@ public class AreaofTalent
 			throw ex;
 		}
 	}
+
+	public OleDbDataReader JobAreasList()
+	{
+		OleDbConnection con = new OleDbConnection(constring);
+		con.Open();
+		OleDbDataReader rdr;
+		OleDbCommand cmd = new OleDbCommand();
+		cmd.Connection = con;
+		cmd.CommandType = CommandType.StoredProcedure;
+		cmd.CommandText = "p_SelectJobAreasList";
+		rdr = cmd.ExecuteReader(CommandBehavior.CloseConnection);
+		return rdr;
+	}
 }

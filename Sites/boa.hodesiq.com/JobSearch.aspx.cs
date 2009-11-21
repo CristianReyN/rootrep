@@ -46,12 +46,8 @@ public partial class JobSearch : System.Web.UI.Page
 			}
 		}
 		PopulateJobAreas();
-		this.dsubmit.Attributes.Add("style", " display: none");
-		this.lsearch.CssClass = "ie-btn";
-		this.lsearch.Visible = true;
-		this.litScript.Text = @"<script language=""JavaScript"" type=""text/javascript"">
-								document.getElementById('" + this.dsubmit.ClientID + @"').style.display=""inline"";
-								</script>";	
+
+		DisplaySearchButton();
 	}
 
 	protected void Page_PreRender()
@@ -149,9 +145,13 @@ public partial class JobSearch : System.Web.UI.Page
 
 	public void FunSearch()
 	{
-		
-		int aot = string.IsNullOrEmpty(ddlJobAreas.SelectedValue) ? -1 : Convert.ToInt32(ddlJobAreas.SelectedItem.Value);
-		string jf = string.Empty;//string.IsNullOrEmpty(jfamily.SelectedValue) ? "" : jfamily.SelectedItem.Value;
+		string[] aja = { "-1", "-1" };
+		if (ddlJobAreas.SelectedValue != "-1" & ddlJobAreas.SelectedValue != string.Empty)
+		{
+			aja = ddlJobAreas.SelectedValue.Split("|".ToCharArray());
+		}
+		int aot = (aja[0]==null) ? -1 : Convert.ToInt32(aja[0]);
+		string jf = string.IsNullOrEmpty(aja[1].ToString()) ? "" : aja[1];
 		
 		int stateid = string.IsNullOrEmpty(ddlState.SelectedValue) ? -1 : Convert.ToInt32(ddlState.SelectedItem.Value);
 		int cityid;
@@ -207,7 +207,7 @@ public partial class JobSearch : System.Web.UI.Page
 	protected void PopulateJobAreas()
 	{
 		string selVal;// = this.ddlJobAreas.SelectedValue;
-		selVal = String.IsNullOrEmpty(Request.QueryString["jobareas"]) == false ? Request.QueryString["jobareas"] : string.Empty;
+		selVal = String.IsNullOrEmpty(Request.QueryString["jobareas"]) == false ? Request.QueryString["jobareas"] : this.ddlJobAreas.SelectedValue;
 		this.ddlJobAreas.Items.Clear();
 		OleDbDataReader dr;
 		AreaofTalent ja = new AreaofTalent();
@@ -235,5 +235,17 @@ public partial class JobSearch : System.Web.UI.Page
 	protected void btnAdvanceSearch_Click(object sender, EventArgs e)
 	{
 		Response.Redirect("AdvanceSearch.aspx");
+	}
+
+	protected void DisplaySearchButton()
+	{
+		this.dsubmit.Attributes.Add("style", " display: none; padding: 1");
+		this.lsearch.CssClass = "ie-btn";
+		this.lsearch.Visible = true;
+		this.lsearch.Text = "Search";
+		this.lsearch.Width = this.lsearch.Text.Length;
+		this.litScript.Text = @"<script language=""JavaScript"" type=""text/javascript"">
+								document.getElementById('" + this.dsubmit.ClientID + @"').style.display=""inline"";
+								</script>";	
 	}
 }
