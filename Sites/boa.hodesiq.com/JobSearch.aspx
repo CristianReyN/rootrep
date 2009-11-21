@@ -22,16 +22,18 @@
                                                         <p style="margin: 0px; text-align: left;">
                                                             <asp:Label ID="lblAreaOfTalent" runat="server" Text="Areas of Talent" AssociatedControlID="areasoftalent"></asp:Label>
                                                                 </p>
+                                                        <div id="d1" style="display: block;">
                                                         <asp:DropDownList ID="areasoftalent" runat="server" CssClass="left" Style="width: 100%;
                                                             z-index: auto;"  ToolTip="Areas Of Talent">
-                                                        </asp:DropDownList><br />
+                                                        </asp:DropDownList></div><br />
                                                         <p style="margin: 0px; text-align: left;">
                                                             <asp:Label ID="lblState" runat="server" Text="State" AssociatedControlID="State"></asp:Label>
                                                                 </p>
+                                                        <div id="d2" style="display: block;">
                                                         <asp:DropDownList ID="State" runat="server" CssClass="left" Style="width: 100%; z-index: auto;"
                                                              ToolTip="Select a State">
                                                             <asp:ListItem>All Locations&#160;</asp:ListItem>
-                                                        </asp:DropDownList>
+                                                        </asp:DropDownList></div>
                                                     </td>
                                                     <td style="padding: 0px 0px 0px 6px; width: 50%" valign="top">
                                                         <p style="margin: 0px; text-align: left;">
@@ -49,10 +51,12 @@
                                                             
                                                                 <asp:Label ID="LblCity" runat="server" Text="City" Visible="false" AssociatedControlID="City"></asp:Label>
                                                                 </p>
+                                                        <div id="d3" style="display: block;">
                                                         <asp:DropDownList ID="City" runat="server" CssClass="left" Style="width: 100%; z-index: auto;"
                                                              ToolTip="Select a City" Visible="false">
                                                             <asp:ListItem>All Locations&#160;</asp:ListItem>
                                                         </asp:DropDownList>
+                                                        </div>
                                                     </td>
                                                     <td style="padding: 0px 0px 0px 6px; width: 50%;" valign="top">
                                                         <p style="margin: 0px; text-align: left;">
@@ -117,6 +121,6 @@
                                      </tr>
                                 </table>
                                 <asp:Label ID="lblMessage" runat="server"></asp:Label>
-                                
+                                <div id="d4"></div>
                             </asp:Content>
                             
