@@ -4,13 +4,13 @@
 dim stitle,surl
 if request.QueryString("m")=1 then
 	stitle="Bank of America | Manage your Careers Profile Account"
-	surl=Request.QueryString("u").item
+	surl="profilerd.aspx?" & Request.QueryString("u").item
 else
 	stitle="Bank of America | Careers Job Application"
 	surl="applyrd.aspx?" & Request.QueryString
 end if
 %>
-<html>
+<html> 
 <head>
 	<title><%=stitle %></title>
 	<script language="javascript" type="text/javascript">
