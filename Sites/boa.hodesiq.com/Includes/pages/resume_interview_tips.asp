@@ -39,7 +39,8 @@ As you develop your resume, keep these in mind:
 <b>Don't</b> include salary history or requirements.<br>
 <b>Don't</b> include references.<br>
 <b>Don't</b> include accomplishments that do not support your professional goals.<br>
-<b>Don't</b> mention that you like to swim unless you want to work on the water.<br>
+<!--<b>Don't</b> mention that you like to swim unless you want to work on the water.<br>-->
+<b>Don't</b> include anything that isn't relevant. For example, don't mention your fondness for swimming unless you want to work on the water.<br>
 <b>Don't</b> use italics, underlining, shadows or other fancy treatments.<br>
 </p>
 

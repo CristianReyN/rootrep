@@ -1,21 +1,26 @@
 		<table width="578" cellpadding="0" cellspacing="0" border="0" summary="">
-			<tr valign="top"><td colspan="2" valign="top" class="divt"><img src="../images/clear.gif" width="100%" height="4" alt="" border="0"></td></tr>
+			<tr valign="top"><td valign="top" class="divt"><img src="../images/clear.gif" width="100%" height="4" alt="" border="0"></td></tr>
 			<tr valign="top">
-				<td width="100%" colspan="2" valign="top">
+				<td width="100%" valign="top">
 <img src="../images/cfo.jpg" width="578" height="166" alt="Explore a career with the Bank of Opportunity." title="Explore a career with the Bank of Opportunity." border="0">
 <div class="hidden">Corporate Finance. Explore a career with the Bank of Opportunity.</div>
 				</td>
 			</tr>
-			<tr valign="top"><td colspan="2" valign="top" class="divb"><img src="../images/clear.gif" width="100%" height="4" alt="" border="0"></td></tr>
+			<tr valign="top"><td valign="top" class="divb"><img src="../images/clear.gif" width="100%" height="4" alt="" border="0"></td></tr>
 		</table>
 		<table width="578" cellpadding="0" cellspacing="0" border="0" summary="">
-			<tr valign="top"><td colspan="2" valign="top" class="divt"><img src="../images/clear.gif" width="100%" height="4" alt="" border="0"></td></tr>
 			<tr valign="top">
-				<td colspan="2" width="100%" valign="top">
-<% If page_section <> "ADA" Then %>
-					<div align="right" style="float: right; margin: 0px 0px 0px 12px; padding: 0px; width: 259px;">
+				<td width="100%" valign="top" style="padding-top: 12px;">
+<a name="skipmaincontent"></a><H1 class="hidden">Finance</H1>
+<% If page_section = "ADA" Then %>
 <!-- #include file="associate/chen.asp" -->
-<div style="width: 259px; text-align: left; border: 1px solid #e8e8e9; background: #ffffff; margin: 12px 0px 12px 0px; padding: 0px 0px 6px 0px;">
+<% End If %>
+					<div align="right" style="float: right; margin: 0px 0px 0px 12px; padding: 0px; width: 259px;">
+<% If page_section <> "ADA" Then %>
+<!-- #include file="associate/chen.asp" -->
+<a href="#video" class="hlink">Rich Chen&acute;s Associate Testimonial Video</a>
+<% End If  %>
+<div style="width: 201px; text-align: left; border: 1px solid #e8e8e9; background: #ffffff; margin: 12px 0px 12px 0px; padding: 0px 0px 6px 0px;">
 <H2 class="g" style="margin: 0px 0px 0px 0px;">Career Opportunities</H2>
 	<img src="../images/clear.gif" width="100%" height="1" alt="" border="0" style="margin: 0px 0px 0px 0px; background: #ffffff;" align="top"><br clear="all">
 	<img src="../images/clear.gif" width="100%" height="1" alt="" border="0" style="margin: 0px 0px 0px 0px; background: #e8e8e9;" align="top"><br clear="all">
@@ -25,14 +30,12 @@
 <p style="margin: 6px 6px 0px 6px;"><a class="left" onfocus="this.className='left-over';" onblur="this.className='left';" href="../jobsearch.aspx?jobareas=4|15&stateid=-1&cityid=-1&keywords=&SearchPage=Sp">View current jobs in Wealth &amp; Investment Mgmt</a></p>
 <!--<p style="margin: 6px 6px 0px 6px;"><a class="left" onfocus="this.className='left-over';" onblur="this.className='left';" href="../jobsearch.aspx?jobareas=4|16&stateid=-1&cityid=-1&keywords=&SearchPage=Sp">View current jobs in Human Resources</a></p>-->
 </div>
-<div style="width: 259px; text-align: center; margin: 0px; padding: 0px;">
+<div style="width: 201px; text-align: center; margin: 0px; padding: 0px;">
 <!-- #include file="../talkingatm.html" -->
 </div>
 <br><br>
 					</div>
-<% End If  %>
-<a name="skipmaincontent"></a><H1 class="hidden">Finance</H1><a href="#video" class="hlink">Rich Chen&acute;s Associate Testimonial Video</a>
-<p style="margin: 6px 12px 0px 12px;">
+<p style="margin: 0px 12px 0px 12px;">
 The Corporate Finance Group serves a number of essential functions within Bank of America, organized in the following areas:
 <br><br>
 <b>Finance Business Client Support</b>
@@ -41,11 +44,11 @@ Each line of business has its own CFO and a team dedicated to supporting its bus
 </p>
 <ul>
 	<li>Global Consumer and Small Business Banking (GCSBB)</li>
-	<li>Global Corporate and Investment Banking<br>(GCIB)</li>
+	<li>Global Corporate and Investment Banking (GCIB)</li>
 	<li>Global Wealth and Investment Management (GWIM)</li>
 	<li>Corporate Infrastructure (Global Technology & Operations, Staff Support Functions)</li>
 </ul>
-<p style="margin: 12px 0px 12px 0px;">
+<p style="margin: 12px 12px 12px 12px;">
 <b>Financial Accounting &amp; Control</b>
 <br><br>
 The Chief Accounting Officer includes a Controllership function that works in conjunction with the Line of Business Corporate Finance groups to provide financial accounting and reporting. The Chief Accounting Officer also contains accounting policy, corporate tax, regulatory reporting, SEC and other external reporting activities.
@@ -66,15 +69,12 @@ Corporate Investments manages the bank's diversified financial portfolio through
 <br><br>
 Investor Relations is the contact for analysts and investors and is responsible for implementing a comprehensive investor relations program designed to improve the company's stock valuation.
 </p>
-<H2 class="h2" style="margin: 12px 0px 2px 0px;">Hot Job Postings</H2>
+<H2 class="h2" style="margin: 12px 12px 2px 12px;">Hot Job Postings</H2>
 <table cellpadding="2" cellspacing="0" border="0" summary="">
 <!--#include file="../../hot_jobs.asp"-->
 </table>
 <br><br>
-<% If page_section = "ADA" Then %>
-<!-- #include file="associate/chen.asp" -->
-<% End If %>
 				</td>
 			</tr>
-			<tr valign="top"><td colspan="2" valign="top" class="divb"><img src="../images/clear.gif" width="100%" height="4" alt="" border="0"></td></tr>
+			<tr valign="top"><td valign="top" class="divb"><img src="../images/clear.gif" width="100%" height="4" alt="" border="0"></td></tr>
 		</table>
