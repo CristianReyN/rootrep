@@ -144,14 +144,18 @@ create_safebutton("Search","javascript: submit_search();",0,0,0,0,"Search");
     <tr valign="top"><td style="background: #cadceb; padding: 0px 6px 0px 6px;"><a class="sub" href="campusrecruiting/how_to_apply.asp" id="howToApplyPlain" title="How to Apply" onfocus="this.className='sub-over';" onblur="this.className='sub';">How to Apply</a></td></tr>
         <tr valign="top" style="background: #ffffff;"><td><img src="images/white.gif" width="154" height="1" alt="" border="0" /></td></tr>
 
-<%} %>
+<%}%>
+
+    <tr valign="top" onmouseover="tdiv(false);" onmouseout="tdiv(true);"><td id="tdnavloc" valign="middle" style="background: #cadceb; padding: 0px 6px 0px 6px;" onmouseover="poploc(true);" onmouseout="poploc(false);"><div id="locstartdv" style="position: absolute;"><a name="lnav2" id="locstart"></a></div><a class="g" href="learnmore/loc.asp" id="loc" title="Locations" onfocus="this.className='g-over'; poploc(true); tdiv(false);" onblur="this.className='g'; poploc(false); tdiv(true);">Locations</a><div id="locenddv" style="position: absolute;"><a name="lnav3" id="locend"></a></div></td></tr>
+    
+
+    <tr valign="top" style="background: #ffffff;"><td><img src="images/white.gif" width="154" height="1" alt="" border="0" /></td></tr>
+    
+    <tr valign="top"><td style="background:#cadceb "><a class="g" href="media_gallery.asp" id="mediagallery" title="Media Gallery" onfocus="this.className='g-over';" onblur="this.className='g';">&nbsp;&nbsp;Media Gallery</a></td></tr>
 
 
 
-<!-- -->
-<tr valign="top" onmouseover="tdiv(false);" onmouseout="tdiv(true);"><td id="tdnavr" valign="middle" style="background: #cadceb; padding: 0px 6px 0px 6px;" onmouseover="popLearnmore(true);" onmouseout="popLearnmore(false);"><div id="learnmorestartdv" style="position: absolute;"><a name="lnav3" id="learnmorestart"></a></div><a class="g" href="learnmore/learnmore.asp" id="learnmore" title="Related Information" onfocus="this.className='g-over'; popLearnmore(true); tdiv(false);" onblur="this.className='g'; popLearnmore(false); tdiv(true);">Related Information</a><div id="learnmoreenddv" style="position: absolute;"><a name="lnav4" id="learnmoreend"></a></div></td></tr>
-
-			<tr valign="top" style="background: #ffffff;"><td><img src="images/white.gif" width="154" height="1" alt="" border="0" /></td></tr>
+	<tr valign="top" style="background: #ffffff;"><td><img src="images/white.gif" width="154" height="1" alt="" border="0" /></td></tr>
 
 			<tr valign="top"><td style="background: #cadceb; padding: 0px 6px 0px 6px;"><a class="g" href="staffingevents/staffingevents.asp" id="staffingevents" title="Staffing Events" onfocus="this.className='g-over';" onblur="this.className='g';">Staffing Events</a></td></tr>
 
@@ -161,9 +165,8 @@ create_safebutton("Search","javascript: submit_search();",0,0,0,0,"Search");
 	<!--		
     <tr valign="top" onmouseover="tdiv(false);" onmouseout="tdiv(true);"><td id="tdnavgc" valign="middle" style="background: #cadceb; padding: 0px 6px 0px 6px;" ><div id="gcareerstartdv" style="position: absolute;"><a name="lnav21" id="gcareerstart"></a></div><a class="g" href="http://globalcareers.hodesinteractive.com/" id="gcareera" title="Global Careers" onfocus="this.className='g-over'; tdiv(false);" onblur="this.className='g'; tdiv(true);">Global Careers</a><div id="gcareerenddv" style="position: absolute;"><a name="lnav22" id="gcareerend"></a></div></td></tr>
     -->
-    <tr valign="top"><td style="background: #cadceb; padding: 0.35em 6px 0.35em 6px;"><a class="g" href="http://globalcareers.bankofamerica.com/" title="Global Careers" onfocus="this.className='g-over';" onblur="this.className='g';" style="line-height: 1.2em;">Global Careers</a></td></tr>
-
     <tr valign="top" style="background: #ffffff;"><td><img src="images/white.gif" width="154" height="1" alt="" border="0" /></td></tr>
+    
 <!-- -->
 
 			<tr valign="top"><td style="background: #cadceb; padding: 0.35em 6px 0.35em 6px;"><a class="g" href="faq/faq.asp" title="Frequently Asked Questions" onfocus="this.className='g-over';" onblur="this.className='g';" style="line-height: 1.2em;">Frequently Asked Questions</a></td></tr>
@@ -294,7 +297,7 @@ function isShiftKey(ev)
 	return isShift;
 }
 
-var learnmorePopupShow, aotPopupShow, lobPopupShow, camrecPopupShow, gcareerPopupShow;
+var learnmorePopupShow, aotPopupShow, locPopupShow,lobPopupShow, camrecPopupShow, gcareerPopupShow;
 
 
 function setNextTabLearnmore(ev)
@@ -334,6 +337,59 @@ function setNextTabLearnmorePopupQuit(ev)
 	{	
 	    document.getElementById("learnmore").focus();
 	    learnmorePopupShow = false; popLearnmore(false);
+    }
+}
+
+
+//loc
+function setNextTabloc(ev) {
+    if (transferFocus(ev) && isShiftKey(ev) && document.getElementById("locstart"))
+        document.getElementById("locstart" + (isIE ? "dv" : "")).focus();
+}
+function setNextTablocShift(ev) {
+    if (transferFocus(ev) && isShiftKey(ev) && document.getElementById("locend")) {
+        document.getElementById("mediagallery").focus();
+    }
+}
+
+function setNextTablocPopup(ev) {
+    if (isShiftKey(ev) && transferFocus(ev)) {
+        if (document.getElementById("locstart")) {
+            locPopupShow = false; poploc(false);
+            if (IsCampusEvents) {
+                camrecpopup = false; popCamrec(false);
+            }
+            else {
+                lobPopupShow = false; poplob(false);
+            }
+
+            if (IsCampusEvents) {
+
+                document.getElementById("howToApplyPlain").focus();
+            }
+            else {
+
+                document.getElementById("spaceskillsassessment").focus();
+            }            
+        }
+    }
+    else if (transferFocus(ev) && document.getElementById("locpopupdv")) 
+    {
+        locPopupShow = true; poploc(true);
+        if (IsCampusEvents) {
+
+            document.getElementById("howToApplyPlain").focus();
+        }
+        else {
+
+            document.getElementById("spaceskillsassessment").focus();
+        }  
+    }
+}
+function setNextTablocPopupQuit(ev) {
+    if (transferFocus(ev) && !isShiftKey(ev) && document.getElementById("locend")) {
+        document.getElementById("loc").focus();
+        locPopupShow = false; poploc(false);
     }
 }
 //aot
@@ -385,6 +441,7 @@ function setNextTabCrecPopup(ev)
 			camrecPopupShow = false; popCamrec(false);
 		}
 		lobPopupShow = true; poplob(true);
+		locPopupShow = true; poploc(true);
 		document.getElementById("spaceskillsassessment").focus();
 	}
 	else if(transferFocus(ev) && document.getElementById("camrecpopupdv"))
@@ -557,7 +614,14 @@ function popGcareer(show)
 <script language="JavaScript1.2" type="text/javascript">
 function poplob(show)
 {var d=document; if(d.getElementById("tdtbnav")&&d.getElementById("tbnav")&&d.getElementById("tdnavlob")&&d.getElementById("lobli")){if(show || lobPopupShow){d.getElementById("lobli").style.visibility = "visible"; d.getElementById("lobli").style.display = "block";d.getElementById("lobli").style.left=d.getElementById("tdtbnav").offsetLeft+d.getElementById("tbnav").offsetLeft+d.getElementById("tdnavlob").offsetLeft+d.getElementById("tdnavlob").offsetWidth-3;d.getElementById("lobli").style.top=d.getElementById("tdtbnav").offsetTop+d.getElementById("tbnav").offsetTop+d.getElementById("tdnavlob").offsetTop;}else{d.getElementById("lobli").style.visibility = "hidden"; d.getElementById("lobli").style.display = "none";}
-} setTimeout("lobPopupShow = false;",500);}
+} setTimeout("lobPopupShow = false;", 500);
+}
+
+function poploc(show) {
+    var d = document; if (d.getElementById("tdtbnav") && d.getElementById("tbnav") && d.getElementById("tdnavloc") && d.getElementById("locli")) {
+        if (show || locPopupShow) { d.getElementById("locli").style.visibility = "visible"; d.getElementById("locli").style.display = "block"; d.getElementById("locli").style.left = d.getElementById("tdtbnav").offsetLeft + d.getElementById("tbnav").offsetLeft + d.getElementById("tdnavloc").offsetLeft + d.getElementById("tdnavloc").offsetWidth - 3; d.getElementById("locli").style.top = d.getElementById("tdtbnav").offsetTop + d.getElementById("tbnav").offsetTop + d.getElementById("tdnavloc").offsetTop; } else { d.getElementById("locli").style.visibility = "hidden"; d.getElementById("locli").style.display = "none"; }
+    } setTimeout("locPopupShow = false;", 500);
+}
 </script>
 <div id="lobli" style="position: absolute; left: 0px; top: 0px; visibility: hidden; display: none; z-index: 100; border: 1px solid #7F99B2; font-size: 0.8em;" onmouseover="poplob(true);tdiv(false);" onmouseout="poplob(false);tdiv(true);">
 <table width="170" cellpadding="0" cellspacing="0" border="0" summary="">
@@ -576,6 +640,32 @@ function poplob(show)
 			<tr valign="top"><td style="background: #cadceb; padding: 5px 6px 5px 14px;"><a href="learnmore/lb_career_compass.asp" id="skillsassessment" class="sbtxt" title="Skills Assessment" onfocus="this.className='sbtxt-over';tdiv(false);" onblur="this.className='sbtxt';tdiv(true);">Skills Assessment</a><a href="" id="spaceskillsassessment" /></td></tr>
 </table>
 </div>
+
+<div id="locli" style="position: absolute; left: 0px; top: 0px; visibility: hidden; display: none; z-index: 100; border: 1px solid #7F99B2; font-size: 0.8em;" onmouseover="poploc(true);tdiv(false);" onmouseout="poploc(false);tdiv(true);">
+<table width="170" cellpadding="0" cellspacing="0" border="0" summary="">
+				<tr valign="top"><td style="background: #cadceb; padding: 5px 6px 5px 14px;">
+			    <a href="asia_overview.aspx" class="sbtxt" title="Asia Pacific" onfocus="this.className='sbtxt-over';tdiv(false);" onblur="this.className='sbtxt';tdiv(true);">Asia Pacific</a></td></tr>
+		
+				<tr valign="top"><td style="background: #7F99B2;"><img src="images/clear.gif" width="154" height="1" alt="" border="0" /></td></tr>
+				<tr valign="top"><td style="background: #cadceb; padding: 5px 6px 5px 14px;">
+			    <a href="canada.aspx" class="sbtxt" title="Canada" onfocus="this.className='sbtxt-over';tdiv(false);" onblur="this.className='sbtxt';tdiv(true);">Canada</a></td></tr>
+		
+			<tr valign="top"><td style="background: #7F99B2;"><img src="images/clear.gif" width="154" height="1" alt="" border="0" /></td></tr>
+			<tr valign="top"><td style="background: #cadceb; padding: 5px 6px 5px 14px;">
+			    <a href="costa_rica.asp" class="sbtxt" title="Costa Rica" onfocus="this.className='sbtxt-over';tdiv(false);" onblur="this.className='sbtxt';tdiv(true);">Costa Rica</a></td></tr>
+		
+			<tr valign="top">
+			    <td style="background: #7F99B2;">
+			    <img src="images/clear.gif" width="154" height="1" alt="" border="0" /></td></tr>
+			<tr valign="top"><td style="background: #cadceb; padding: 5px 6px 5px 14px;">
+			    <a href="emea.aspx" class="sbtxt" title="Europe Middle East &amp; Africa" onfocus="this.className='sbtxt-over';tdiv(false);" onblur="this.className='sbtxt';tdiv(true);">Europe Middle East &amp; Africa</a></td></tr>
+			<tr valign="top"><td style="background: #7F99B2;"><img src="images/clear.gif" width="154" height="1" alt="" border="0" /></td></tr>
+			<tr valign="top"><td style="background: #cadceb; padding: 5px 6px 5px 14px;">
+			    <a href="http://careers.bankofamerica.com/learnmore/learnmore.asp" class="sbtxt" title="United States" onfocus="this.className='sbtxt-over';tdiv(false);" onblur="this.className='sbtxt';tdiv(true);">United States</a></td></tr>
+			
+</table>
+</div>
+
 
  <%if (IsJobDetails)
    { %>                           
