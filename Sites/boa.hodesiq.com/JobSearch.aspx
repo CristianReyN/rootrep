@@ -81,7 +81,7 @@
 								<tr>	
 									<td align="left" valign="top"><asp:PlaceHolder runat="server" ID="phSearch"></asp:PlaceHolder></td>
 									<td width="10">&nbsp;</td>
-									<td align="left" valign="top"><asp:HyperLink runat="server" ID="lnkAdvanceSearch" NavigateUrl="~/AdvanceSearch.aspx" Text="Advanced search" CssClass="p" ToolTip="Advanced search" /></td>
+									<td align="left" valign="top"><asp:HyperLink runat="server" ID="lnkAdvanceSearch" NavigateUrl="~/AdvanceSearch.aspx" Text="USA guided advanced search" CssClass="p" ToolTip="USA guided advanced search" /></td>
 									<td width="10">&nbsp;</td>
 									<td align="left" valign="top"><asp:HyperLink runat="server" ID="lnkJobCart" NavigateUrl="~/jobcart.aspx" Text="View job cart" CssClass="p" ToolTip="View job cart" /></td>
 								</tr>
