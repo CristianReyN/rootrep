@@ -14,7 +14,7 @@ public class Location
     string Sql;
 	private string constring;
     public const string USA = "1";
-    public const string CANADA = "105";
+    public const string CANADA = "2";
     public const string ALL_COUNTRIES = "0";
 
 
