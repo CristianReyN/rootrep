@@ -529,3 +529,21 @@ div.btn1 {
 	top: 0px;
 	position:relative;
 } 
+
+INPUT.btnlink
+{
+	font-family : Verdana, Helvetica, sans-serif;
+	font-size : 1.0em;
+	line-height : 1.1em;
+	font-weight : normal;
+    FONT-WEIGHT: normal;
+    CURSOR: pointer;
+    BORDER-RIGHT: medium none;
+    BORDER-TOP: medium none;
+    BORDER-LEFT: medium none;
+    BORDER-BOTTOM: medium none;
+    COLOR: #405EBE;
+    BACKGROUND-COLOR: transparent;
+	text-align: left;  
+	text-decoration: underline;  	
+}

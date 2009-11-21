@@ -29,6 +29,7 @@ public partial class JobSearch : System.Web.UI.Page
 	private int RecPerPage = 12;
 	protected void Page_Load(object sender, EventArgs e)
 	{
+		ViewState["statequery"] = string.Empty;
 		if (!this.IsPostBack)
 		{
 			PopulateLocations();
@@ -73,6 +74,7 @@ public partial class JobSearch : System.Web.UI.Page
 
 		MyValue = String.IsNullOrEmpty(Request.QueryString["stateid"]) == false ? Request.QueryString["stateid"] : "-1";
 		MyListItem = ddlState.Items.FindByValue(MyValue);
+		ViewState["statequery"]="-3";
 		if (MyListItem != null)
 			MyListItem.Selected = true;
 		if (MyValue.ToString() != "-1")
@@ -173,10 +175,11 @@ public partial class JobSearch : System.Web.UI.Page
 		}
 		int aot = (aja[0]==null) ? -1 : Convert.ToInt32(aja[0]);
 		string jf = string.IsNullOrEmpty(aja[1].ToString()) ? "" : aja[1];
-		
-		int stateid = string.IsNullOrEmpty(ddlState.SelectedValue) ? -1 : Convert.ToInt32(ddlState.SelectedItem.Value);
+
+		int stateid = string.IsNullOrEmpty(ddlState.SelectedValue) ? -1 : Convert.ToInt32(string.IsNullOrEmpty(ViewState["statequery"].ToString()) ? ddlState.SelectedItem.Value : ViewState["statequery"].ToString());
+		ViewState["statequery"] = null;
 		int cityid;
-		if (stateid == -1)
+		if (stateid < 0)
 			cityid = -1;
 		else
 			cityid = string.IsNullOrEmpty(ddlCity.SelectedValue) ? -1 : Convert.ToInt32(ddlCity.SelectedItem.Value);

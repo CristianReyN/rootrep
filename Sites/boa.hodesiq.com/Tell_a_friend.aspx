@@ -27,9 +27,7 @@
 						</td>
 					</tr>
 					<tr>
-						<td style="width: 100%"><asp:Label runat="server" AssociatedControlID="YourEmail" Text="Your Email Address.*"></asp:Label>
-							<br />
-							<asp:TextBox ID="YourEmail" runat="server" ToolTip="Your Email Address" Width="400px"></asp:TextBox>
+						<td style="width: 100%">
 						</td>
 					</tr>
 				    

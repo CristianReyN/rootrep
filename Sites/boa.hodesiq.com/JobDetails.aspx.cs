@@ -25,16 +25,56 @@ public partial class JobDetails : System.Web.UI.Page
 
     protected void Page_Load(object sender, EventArgs e)
     {
-       //LnkRemoveFromJobCart.Visible = false;
-       //LnkRemoveFromJobCart_bottom.Visible = false;
-       bttnRemoveFromJobCart.Visible = false;
-       bttnRemoveFromJobCart_bottom.Visible = false;
-	   if (this.Request.UrlReferrer!=null && (this.Request.UrlReferrer.ToString().ToLowerInvariant().Contains("jobsearch.aspx") || this.Request.UrlReferrer.ToString().ToLowerInvariant().Contains("advancesearch.aspx")))
+		returntoJobsearch.Attributes.Add("onfocus", "this.className='p-over';");
+		returntoJobsearch.Attributes.Add("onblur", "this.className='p';");
+		TellaFriend.Attributes.Add("onfocus", "this.className='p-over';");
+		TellaFriend.Attributes.Add("onblur", "this.className='p';");
+		
+		btnAddToCart.Attributes.Add("onfocus", "this.style.color='#0000FF';");
+		btnAddToCart.Attributes.Add("onblur", "this.style.color='#405EBE';");
+		btnAddToCart.Attributes.Add("onmouseover", "this.style.color='#0000FF';");
+		btnAddToCart.Attributes.Add("onmouseout", "this.style.color='#405EBE';");
+		btnAddToCart.Width = System.Web.UI.WebControls.Unit.Parse((btnAddToCart.Text.Length+1).ToString() + "Ex");
+
+		btnRemoveFromCart.Attributes.Add("onfocus", "this.style.color='#0000FF';");
+		btnRemoveFromCart.Attributes.Add("onblur", "this.style.color='#405EBE';");
+		btnRemoveFromCart.Attributes.Add("onmouseover", "this.style.color='#0000FF';");
+		btnRemoveFromCart.Attributes.Add("onmouseout", "this.style.color='#405EBE';");
+		btnRemoveFromCart.Width = System.Web.UI.WebControls.Unit.Parse((btnRemoveFromCart.Text.Length + 3).ToString() + "Ex");
+
+		bsearch.Attributes.Add("onfocus", "this.style.color='#0000FF';");
+		bsearch.Attributes.Add("onblur", "this.style.color='#405EBE';");
+		bsearch.Attributes.Add("onmouseover", "this.style.color='#0000FF';");
+		bsearch.Attributes.Add("onmouseout", "this.style.color='#405EBE';");
+		bsearch.Width = System.Web.UI.WebControls.Unit.Parse((bsearch.Text.Length + 1).ToString() + "Ex");
+
+		bttnAddToJobCart.Attributes.Add("onfocus", "this.style.color='#0000FF';");
+		bttnAddToJobCart.Attributes.Add("onblur", "this.style.color='#405EBE';");
+		bttnAddToJobCart.Attributes.Add("onmouseover", "this.style.color='#0000FF';");
+		bttnAddToJobCart.Attributes.Add("onmouseout", "this.style.color='#405EBE';");
+		bttnAddToJobCart.Width = System.Web.UI.WebControls.Unit.Parse((bttnAddToJobCart.Text.Length + 1).ToString() + "Ex");
+
+		bttnRemoveFromJobCart.Attributes.Add("onfocus", "this.style.color='#0000FF';");
+		bttnRemoveFromJobCart.Attributes.Add("onblur", "this.style.color='#405EBE';");
+		bttnRemoveFromJobCart.Attributes.Add("onmouseover", "this.style.color='#0000FF';");
+		bttnRemoveFromJobCart.Attributes.Add("onmouseout", "this.style.color='#405EBE';");
+		bttnRemoveFromJobCart.Width = System.Web.UI.WebControls.Unit.Parse((bttnRemoveFromJobCart.Text.Length + 3).ToString() + "Ex");
+
+		bsearchTop.Attributes.Add("onfocus", "this.style.color='#0000FF';");
+		bsearchTop.Attributes.Add("onblur", "this.style.color='#405EBE';");
+		bsearchTop.Attributes.Add("onmouseover", "this.style.color='#0000FF';");
+		bsearchTop.Attributes.Add("onmouseout", "this.style.color='#405EBE';");
+		bsearchTop.Width = System.Web.UI.WebControls.Unit.Parse((bsearchTop.Text.Length + 1).ToString() + "Ex");
+
+
+		bttnRemoveFromJobCart.Visible = false;
+		btnRemoveFromCart.Visible = false;
+		if (this.Request.UrlReferrer != null &&
+		(this.Request.UrlReferrer.ToString().ToLowerInvariant().Contains("jobsearch.aspx") || this.Request.UrlReferrer.ToString().ToLowerInvariant().Contains("advancesearch.aspx")
+			|| this.Request.UrlReferrer.ToString().ToLowerInvariant().Contains("jobdetails.aspx") || this.Request.UrlReferrer.ToString().ToLowerInvariant().Contains("tell_a_friend.aspx")))
 		{
-			bttnJobList.Visible=true;
+			returntoJobsearch.Visible=true;
 		}
-
-
 
         Jobs Jobs = new Jobs();
         DataTable dt = Jobs.JobDetails(Request.QueryString["JobId"].ToString());
@@ -59,23 +99,16 @@ public partial class JobDetails : System.Web.UI.Page
             ApplyURL = dt.Rows[0]["ApplyURL"].ToString();
 			this.applylink.NavigateUrl = "applyrd.aspx?" + HttpUtility.UrlEncode(ApplyURL);
 			this.applylnk.NavigateUrl = "applyrd.aspx?" + HttpUtility.UrlEncode(ApplyURL);
-            //bttnApplyNow.PostBackUrl = ApplyURL;
-            bttnApplyNow_bottom.PostBackUrl = ApplyURL;
         }
         if (Request.QueryString["SearchPage"].ToString() == "Sp")
         {
             returntoJobsearch.NavigateUrl = "jobsearch.aspx?" + Request.QueryString;
-            bttnJobList.PostBackUrl = "jobsearch.aspx?" + Request.QueryString;
         }
         else
         {
             returntoJobsearch.NavigateUrl = "AdvanceSearch.aspx?" + Request.QueryString;
-            bttnJobList.PostBackUrl = "AdvanceSearch.aspx?" + Request.QueryString;
         }
-        TellaFriend.NavigateUrl = "Tell_a_friend.aspx?JobId=" + Request.QueryString["JobId"].ToString() + "&SearchPage=" + Request.QueryString["SearchPage"].ToString();
-		TellaFriend.Attributes.Add("title", "Link opens a new window.");
-		//Jobcart.NavigateUrl = "jobcart.aspx?JobId=" + Request.QueryString["JobId"].ToString() +"&SearchPage="+Request.QueryString["SearchPage"].ToString();
-        JobcartTop.NavigateUrl = "jobcart.aspx?JobId=" + Request.QueryString["JobId"].ToString() + "&SearchPage=" + Request.QueryString["SearchPage"].ToString();
+		TellaFriend.NavigateUrl = "Tell_a_friend.aspx?" + Request.QueryString;
 
 
         //check if this job is in the jobcart. If so, display remove Job Cart Link
@@ -91,15 +124,11 @@ public partial class JobDetails : System.Web.UI.Page
                 {
                    if (strJobID == Row["JobsID"].ToString())
                     {
-                        //LnkRemoveFromJobCart.Visible = true;
-                        //LnkRemoveFromJobCart_bottom.Visible = true; 
-                        //LnkAddJobCart.Visible = false;
-                        //LnkAddJobCart_bottom.Visible = false;
 
                         bttnRemoveFromJobCart.Visible = true;
-                        bttnRemoveFromJobCart_bottom.Visible = true; 
+                        btnRemoveFromCart.Visible = true; 
                         bttnAddToJobCart.Visible = false;
-                        bttnAddToJobCart_bottom.Visible = false;
+                        btnAddToCart.Visible = false;
 
                     }
                 }
@@ -127,9 +156,6 @@ public partial class JobDetails : System.Web.UI.Page
         }
         Jobs Jobs = new Jobs();
         DataView DW = Jobs.AddJobCart(GUID, Request.QueryString["JobId"].ToString());
-        LnkAddJobCart_bottom.Visible = false;
-        LnkRemoveFromJobCart_bottom.Visible = true;
-        
     }
     protected void LnkRemoveJobCart_OnClick(object sender, EventArgs e)
     {
@@ -160,9 +186,6 @@ public partial class JobDetails : System.Web.UI.Page
 
         Root.RemoveAll();
         Document.RemoveAll();
-
-        LnkAddJobCart_bottom.Visible = true;
-        LnkRemoveFromJobCart_bottom.Visible = false;
 
     }
     protected void bsearchTop_Click(object sender, EventArgs e)
@@ -206,10 +229,10 @@ public partial class JobDetails : System.Web.UI.Page
         //LnkRemoveFromJobCart_bottom.Visible = true;
 
         bttnAddToJobCart.Visible = false;
-        bttnAddToJobCart_bottom.Visible = false;
+        btnAddToCart.Visible = false;
 
         bttnRemoveFromJobCart.Visible = true;
-        bttnRemoveFromJobCart_bottom.Visible = true;
+        btnRemoveFromCart.Visible = true;
 
     }
     protected void bttnRemoveFromJobCart_Click(object sender, EventArgs e)
@@ -248,9 +271,9 @@ public partial class JobDetails : System.Web.UI.Page
         //LnkRemoveFromJobCart_bottom.Visible = false;
 
         bttnAddToJobCart.Visible = true;
-        bttnAddToJobCart_bottom.Visible = true;
+        btnAddToCart.Visible = true;
         bttnRemoveFromJobCart.Visible = false;
-        bttnRemoveFromJobCart_bottom.Visible = false;
+        btnRemoveFromCart.Visible = false;
     }
     protected void bttnApplyNow_Click(object sender, EventArgs e)
     {
@@ -262,6 +285,6 @@ public partial class JobDetails : System.Web.UI.Page
     }
     protected void bttnJobList_Click(object sender, EventArgs e)
     {
-        Response.Redirect(bttnJobList.PostBackUrl);
+		//Response.Redirect(bttnJobList.PostBackUrl);
     }
 }

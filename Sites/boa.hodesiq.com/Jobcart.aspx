@@ -34,12 +34,12 @@
                                         <HeaderStyle HorizontalAlign="Left" />
                                     </asp:BoundField>
                                     <asp:HyperLinkField DataNavigateUrlFields="JobsID" DataNavigateUrlFormatString="JobDetails.aspx?SearchPage=Sp&amp;JobId={0}"
-                                        HeaderText="Apply" Text="Apply">
+                                        HeaderText="Apply" Text="Apply now " AccessibleHeaderText="as">
                                         <HeaderStyle HorizontalAlign="Left" />
                                     </asp:HyperLinkField>
                                     <asp:TemplateField HeaderText="Remove">
                                         <ItemTemplate>
-                                            &nbsp;&nbsp;&nbsp;&nbsp;<asp:CheckBox ID="ChkRemove" runat="server" />
+                                            <asp:CheckBox ID="ChkRemove" runat="server" />
                                         </ItemTemplate>
                                     </asp:TemplateField>
                                     <asp:TemplateField>

@@ -14,6 +14,8 @@ using System.Net.Mail;
 public partial class Tell_a_friend : System.Web.UI.Page
 {
     string JobId;
+	const string fromaddress = @"bankofamerica@emailhr.com";
+
     protected void Page_Load(object sender, EventArgs e)
     {
         JobId = Request.QueryString["JobId"];
@@ -25,18 +27,18 @@ public partial class Tell_a_friend : System.Web.UI.Page
     }
     protected void Cancel_Click(object sender, EventArgs e)
     {
-        Response.Redirect("Jobdetails.aspx?JobId=" + JobId + "&SearchPage=" + Request.QueryString["SearchPage"].ToString());
+        Response.Redirect("Jobdetails.aspx?" + Request.QueryString);
     }
     protected void Send_Click(object sender, EventArgs e)
     {
         string strMailBody;
         
         MailMessage message = new MailMessage();
-        message.From = new MailAddress(YourEmail.Text.ToString());
+		message.From = new MailAddress(fromaddress);
         message.To.Add(new MailAddress(FriendEmail.Text.ToString()));
         message.Subject = "Career opportunity with Bank Of America";
         message.IsBodyHtml = false;
-        strMailBody = MessageBox.Text.ToString() + Environment.NewLine + "http://boa.hodesiq.com/jobdetails.aspx?JobId=" + JobId + "&SearchPage=Sp";
+        strMailBody = MessageBox.Text.ToString() + Environment.NewLine + Request.Url.ToString().Substring(0,Request.Url.ToString().LastIndexOf("/")) + "/jobdetails.aspx?JobId=" + JobId + "&SearchPage=Sp";
         message.Body = strMailBody;
         SmtpClient client = new SmtpClient("localhost"); 
 		client.DeliveryMethod=SmtpDeliveryMethod.PickupDirectoryFromIis;
@@ -49,8 +51,9 @@ public partial class Tell_a_friend : System.Web.UI.Page
 
             Response.Write(ex.ToString());
         }
-        
-        Response.Redirect("Jobdetails.aspx?JobId=" + JobId + "&SearchPage=" + Request.QueryString["SearchPage"].ToString());
+
+		Response.Redirect("Jobdetails.aspx?" + Request.QueryString);
+		//Response.Redirect("Jobdetails.aspx?JobId=" + JobId + "&SearchPage=" + Request.QueryString["SearchPage"].ToString());
 
 
 

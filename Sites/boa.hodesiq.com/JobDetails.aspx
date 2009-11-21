@@ -35,10 +35,10 @@
                                 &nbsp;</p>
                         </td>
                         <td  style="padding: 18px 0px 0px 6px;" valign="top">
-                            <asp:HyperLink ID="JobcartTop" runat="server" CssClass="p" ToolTip="Add to Job Cart" Visible="false">Add to Job Cart</asp:HyperLink>
-                            <asp:ImageButton runat="server" id="bttnAddToJobCart" Height="23" Width="132" OnClick="bttnAddToJobCart_Click" AlternateText="Add to Job Cart" ImageUrl="~/images/jobcartaddto.GIF"/>
-                            <asp:ImageButton runat="server" id="bttnRemoveFromJobCart" Height="23" Width="147" OnClick="bttnRemoveFromJobCart_Click" AlternateText="Remove from Job Cart" ImageUrl="~/images/jobcartremovefrom.GIF"/>
-                            <asp:ImageButton runat="server" id="bsearchTop" Height="23" Width="133" OnClick="bsearchTop_Click" AlternateText="View Job Cart" ImageUrl="~/images/jobcartview.GIF"/>
+                            <asp:Button runat="server" ID="bttnAddToJobCart" OnClick="bttnAddToJobCart_Click" Text="Add to job cart" CssClass="btnlink"/>
+                            <asp:Button runat="server" ID="bttnRemoveFromJobCart" OnClick="bttnRemoveFromJobCart_Click" Text="Remove job cart" CssClass="btnlink"/><br />
+                            <asp:Button runat="server" ID="bsearchTop" OnClick="bsearch_Click" Text="View job cart" CssClass="btnlink"/><br /><br />
+
                             <asp:HyperLink ID="applylnk" CssClass="p" runat="server" NavigateUrl="" Target="_blank" ><img src="images/apply_now.gif" alt="Apply Now" style="border-top-style: none; border-right-style: none; border-left-style: none; border-bottom-style: none;" /></asp:HyperLink>
                         </td>
                     </tr>
@@ -86,24 +86,15 @@
                     </tr>
                     <tr>
                         <td style="padding: 18px 6px 0px 0px; height: 156px;" valign="top">
-                        <asp:HyperLink ID="TellaFriend" runat="server" CssClass="p" ToolTip="Send this job to a friend" Target="_blank">Send this job to a friend</asp:HyperLink><br />
-                        <asp:ImageButton runat="server" id="bttnJobList" Height="23" Width="154" OnClick="bttnJobList_Click" AlternateText="Return to Job List" ImageUrl="~/images/joblistreturn.GIF" Visible="false" /><br />
-                           <!-- 
-                            <br />
-                            <asp:HyperLink cssclass="p" ID="returntoJobsearch" runat="server" ToolTip="Return To Search Page">Return to Job List</asp:HyperLink><br/>
-                            -->
+                        <asp:HyperLink ID="TellaFriend" runat="server" CssClass="p" ToolTip="Send this job to a friend" >Send this job to a friend</asp:HyperLink><br /><br />
+                        <asp:HyperLink ID="returntoJobsearch" runat="server" CssClass="p" ToolTip="Return to job list" Visible="false">Return to job list</asp:HyperLink><br />
+                           
                         </td>
                         <td style="height: 156px">
-                            <!--<asp:LinkButton ID="LnkRemoveFromJobCart_bottom" runat="server" CssClass="p" Text="Remove from Job Cart" OnClick="LnkRemoveJobCart_OnClick"></asp:LinkButton>
-                            <asp:LinkButton ID="LnkAddJobCart_bottom" runat="server" CssClass="p" Text="Add to Job Cart" OnClick="LnkAddJobCart_OnClick"></asp:LinkButton>
-                            -->
-                            <asp:HyperLink ID="Jobcart" runat="server" CssClass="p" ToolTip="Add to Job Cart" Visible="false">Add to Job Cart</asp:HyperLink><br />
-                            <br />
-                            <asp:ImageButton runat="server" id="bttnAddToJobCart_bottom" Height="23" Width="132" OnClick="bttnAddToJobCart_Click" AlternateText="Add to Job Cart" ImageUrl="~/images/jobcartaddto.GIF"/>
-                            <asp:ImageButton runat="server" id="bttnRemoveFromJobCart_bottom" Height="23" Width="147" OnClick="bttnRemoveFromJobCart_Click" AlternateText="Remove from Job Cart" ImageUrl="~/images/jobcartremovefrom.GIF"/><br />
-                            &nbsp;<asp:ImageButton runat="server" id="bsearch" Height="23" Width="133" OnClick="bsearch_Click" AlternateText="View Job Cart" ImageUrl="~/images/jobcartview.GIF"/>
-                            <!--<asp:button runat="server" cssclass="bodybtn" id="bttnApplyNow_bottom" width="150" text="Apply Now" OnClick="bttnApplyNow_Click"/><br/>-->
-                            &nbsp;<asp:HyperLink ID="applylink" CssClass="p" runat="server" NavigateUrl="" Target="_blank" ><img src="images/apply_now.gif" alt="Apply Now" style="border-top-style: none; border-right-style: none; border-left-style: none; border-bottom-style: none;" /></asp:HyperLink>
+                            <asp:Button runat="server" ID="btnAddToCart" OnClick="bttnAddToJobCart_Click" Text="Add to job cart" CssClass="btnlink"/>
+                            <asp:Button runat="server" ID="btnRemoveFromCart" OnClick="bttnRemoveFromJobCart_Click" Text="Remove job cart" CssClass="btnlink"/><br />
+                            <asp:Button runat="server" ID="bsearch" OnClick="bsearch_Click" Text="View job cart" CssClass="btnlink"/><br /><br />
+                            <asp:HyperLink ID="applylink" CssClass="p" runat="server" NavigateUrl="" Target="_blank" ><img src="images/apply_now.gif" alt="Apply Now" style="border-top-style: none; border-right-style: none; border-left-style: none; border-bottom-style: none;" /></asp:HyperLink>
                         </td>
                     </tr>
                 </table>
