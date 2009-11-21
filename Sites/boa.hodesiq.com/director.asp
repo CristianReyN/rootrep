@@ -17,23 +17,12 @@ end if
 
 	</script>
 </head>
-<frameset rows="103,*" framespacing="0" frameborder="0" border="1">
-	<frame name="header"
-		marginwidth ="0"
-		marginheight="0"
-		scrolling   ="no"
-		frameborder ="no"
-		noresize="noresize"
-		src= "frameheader.asp"
-		title="Bank of America header"
-		/>
-	<frame name="main" 
-		marginwidth ="0"
-		marginheight="0"
-		scrolling   ="auto"
-		frameborder ="no"
-		noresize="noresize"
-		src="<%=surl%>"
-		/> 
-</frameset>
+<body style="margin: 0px; color: #000000; background-color: #ffffff;">
+<table border="0" cellpadding="0" cellspacing="0" width="100%" height="100%">
+	<tr><td align="center" height="103">
+		<img src="images/BoA_Header.jpg" width="752" height="103" border="0" alt="Bank of America" title="Bank of America"></td></tr>
+	<tr><td align="center" height="100%">
+		<iframe frameborder="0" src="<%=surl%>"style="width: 752px; height: 100%;"></iframe></td></tr>
+</table>
+</body>
 </html>
