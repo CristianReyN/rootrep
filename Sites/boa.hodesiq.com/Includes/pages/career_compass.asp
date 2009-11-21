@@ -102,16 +102,7 @@
 				programs(program_index).Item("listed") = TRUE
 				num_listed = num_listed + 1
 %>
-<p style="margin: 0px 0px 12px 0px;"><a class="left2" href="<% Response.write programs(program_index).Item("url") %>"><% Response.write programs(program_index).Item("title") &" ("&programs(program_index).Item("points")&")" &" ["&programs(program_index).Item("gd_ugd")&"]" %></a></p>
-<%			End If
-		Next %>
-
-<br><br><br>Not included programs
-<%		For sprg=1 To UBound(selected_programs) Step 1
-			program_index = selected_programs(sprg)
-			If programs(program_index).Item("is_active") And (Not programs(program_index).Item("listed")) Then
-%>
-<p style="margin: 0px 0px 12px 0px;"><a class="left2" href="<% Response.write programs(program_index).Item("url") %>"><% Response.write programs(program_index).Item("title") &" ("&programs(program_index).Item("points")&")" &" ["&programs(program_index).Item("gd_ugd")&"]" %></a></p>
+<p style="margin: 0px 0px 12px 0px;"><a class="left2" href="<% Response.write programs(program_index).Item("url") %>"><% Response.write programs(program_index).Item("title") %></a></p>
 <%			End If
 		Next %>
 							</td>
