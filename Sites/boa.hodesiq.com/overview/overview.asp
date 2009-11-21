@@ -14,10 +14,16 @@ hide_flash_title = "Stop Video Host Audio"
 hide_flash_title2 = "Stop  We Are Bankers Audio"
 Metatag="Main page of the careers site. From this page you can listen to a video host who gives a quick tour to point in the direction of either engaging information, job search information or more in-depth information about employment with Bank of America. From this page you can job search to find if there is an opportunity available. You can click to more links about benefits, diversity, corporate information, college information, global locations and to Investment Banking Careers."
 playflash = Request.Cookies("PFOT")
-'If playflash = "" Then
-'	Response.Cookies("PFOT") = "1"
-'	Response.Cookies("PFOT").Expires = "January 1,2038"
-'End If
+If playflash = "" Then
+	Response.Cookies("PFOT") = "2"
+	Response.Cookies("PFOT").Expires = "January 1,2038"
+Else
+	If playflash = "2" Then
+		Response.Cookies("PFOT") = "1"
+		Response.Cookies("PFOT").Expires = "January 1,2038"
+		playflash = "1"
+	End If
+End If
 If playflash = "1" Then flashPage = false
 %>
 <!-- #include file="../includes/header.asp" -->
@@ -25,11 +31,14 @@ If playflash = "1" Then flashPage = false
 <!-- Left Nav -->
 <!-- #include file="../includes/lnav.asp" -->
 <!-- Left Nav -->
+<noscript>
+<% If playflash = "" Then %>
+			<tr valign="top"><td valign="middle" style="background: #cadceb; padding: 0.35em 6px 0.35em 6px;"><a class="g" href="../overview/overview.asp" id="videotranscripts" title="Video transcripts" onfocus="this.className='g-over';" onblur="this.className='g';" style="line-height: 1.1em;">Video Transcripts</a></td></tr>
+			<tr valign="top" style="background: #ffffff;"><td><img src="../images/white.gif" width="154" height="1" alt="" border="0"></td></tr>
+<% End If %>
+</noscript>
 			<tr valign="top"><td height="450" style="background: #cadceb;">
 <div id="flash1" style="position: absolute;">
-<!--<table width="160" cellpadding="0" cellspacing="0" border="0" summary="">
-<tr><td align="right" style="padding: 0px 9px 6px 6px;"><br>
-<% If playflash="" Then %><a href="<%=ada_href %>" id="videotranscript" title="Video transcripts" class="g" onfocus="this.className='g-over';" onblur="this.className='g';" style="line-height: 1.1em;">Video transcripts</a><% Else %><a href="<%=ada_href %>" id="videotranscript" title="<%=ada_title %>" class="g" onfocus="this.className='g-over';" onblur="this.className='g';" style="line-height: 1.1em;"><%=textonly_version%></a><% End If %></td></tr></table>-->
 <script language="JavaScript1.2" type="text/javascript">
 //<!--
 function setCookie(c_name,value,expiredays)
@@ -96,9 +105,6 @@ if ( hasRequestedVersion ) {
 </script>
 <noscript>
 <% If playflash = "" Then %>
-<div style="position: absolute; display: inline; z-index: 100;">
-<table width="160" height="60" cellpadding="0" cellspacing="0" border="0" summary="" style="margin-top: 0px; background: #ebebeb; border-top: 1px solid #dadada; border-bottom: 1px solid #dadada;"><tr><td style="padding: 5px 11px 5px 12px;"><div style="border: 1px solid #dadada;"><img src="../images/piper.jpg" width="52" height="52" alt="Video transcripts" border="0" style="border: 1px solid #ebebeb;"></div></td><td width="100%"><p style="margin: 6px 0px 0px 0px;"><a href="<%=ada_href %>" title="Video transcripts" class="p" onfocus="this.className='p-over';" onblur="this.className='p';">Video<br>transcripts</a></p></td></tr></table>
-</div>
 <div id="flash_in" style="position: absolute; display: inline; z-index: 200;">
 <object tabindex="0" onmousedown="if(document.getElementById('skipflash2')) document.getElementById('skipflash2').focus();" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"  codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="310" height="390" title="virtualhost" id="ShockwaveFlash1">
   <param name="movie" value="http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/virtualhost.swf" />
