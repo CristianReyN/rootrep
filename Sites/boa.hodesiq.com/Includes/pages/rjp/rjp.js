@@ -329,7 +329,7 @@ function ccfvideo(swf_url,flv_url,flashplayer)
 var flashplayer = new fpvideo("../Includes/pages/rjp/flashplayer_xml20080308.swf",400,300);
 
 //var analyst_cc_video;
-var analyst_video, cma_video, retention_video, customersat_video, collectors_video, rjp_video, cashservices_video;
+var analyst_video, cma_video, retention_video, customersat_video, collectors_video, rjp_video, cashservices_video, teller_video;
 /*analyst_cc_video = new ccfvideo(
 					null,
 					"../Includes/pages/rjp/ANAYST_CC.xml",
@@ -402,6 +402,16 @@ rjp_video = new fvideo(
 					"#vt",
 					"../Includes/pages/rjp/thumbnails/rjp_on.jpg",
 					"../Includes/pages/rjp/thumbnails/rjp_off.jpg",
+					null,
+					null
+					);
+teller_video = new fvideo(
+					flashplayer.swf_url,
+					"../Includes/pages/rjp/TELLER_VIDEO.xml",
+					flashplayer,
+					"#vt",
+					"../Includes/pages/rjp/thumbnails/rjp_teller_on.jpg",
+					"../Includes/pages/rjp/thumbnails/rjp_teller_off.jpg",
 					null,
 					null
 					);

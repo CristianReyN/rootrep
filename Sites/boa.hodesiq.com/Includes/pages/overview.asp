@@ -199,7 +199,7 @@ Bank of Opportunity.
 <!-- #include file="../jsearch.asp" -->
 			<tr valign="top">
 				<td width="386" height="100%" valign="top" style="padding: 0px 0px 0px 0px;">
-<H2 class="h1" style="margin: 0px 0px;">Guided Job Search</H2>
+<H2 class="h1" style="margin: 0px 0px;"><!-- #include file="../jobsearch_title.asp" --></H2>
 <img src="../images/clear.gif" width="100%" height="1" alt="" border="0" class="divb"><br clear="all">
 <form name="jsearch" action="<% Response.write job_search_action %>" style="margin: 0px;">
 <input type="hidden" name="from" id="from" value="<% Response.write page_self %>">
@@ -207,10 +207,6 @@ Bank of Opportunity.
 						<tr>
 							<td colspan="2" style="padding: 0px;">
 <p style="margin: 0px;">Use the Search below to find a career suited to your skill set.  You may narrow your selection further by selecting a job area, location or entering a keyword.</p>
-<p style="margin: 6px 0px 0px 0px;">
-Bank of America and Countrywide Financial have officially joined forces to become America's leading home loan provider. To search for Countrywide career opportunities, please visit <a href="http://www.countrywidecareers.com/" class="p" title="Countrywide Financial" target="_blank">http://www.countrywidecareers.com/</a>.</p>
-<p style="margin: 6px 0px 0px 0px;">
-Bank of America associates should access the <a href="http://www.bankofamerica.com/careers/index.cfm?template=jobs_interstitial" class="p" title="Internal Jobs Database">internal jobs database</a>.</p>
 <img class="dotdiv" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
 							</td>
 						</tr>
@@ -271,6 +267,12 @@ create_safebutton("Begin Search","javascript: document.jsearch.submit();",0,0,0,
 							<td colspan="2" valign="top" width="100%" style="padding: 0px 0px 0px 0px;">
 <div id="Layer3" style="position: relative; z-index: 12;">
 <img class="dotdiv" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
+<p style="margin: 6px 0px 0px 0px;">
+Bank of America and Countrywide Financial have officially joined forces to become America's leading home loan provider. To search for Countrywide career opportunities, please visit <a href="http://www.countrywidecareers.com/" class="p" title="Countrywide Financial" target="_blank">http://www.countrywidecareers.com/</a>.</p>
+<p style="margin: 6px 0px 0px 0px;">
+Bank of America associates should access the <a href="http://www.bankofamerica.com/careers/index.cfm?template=jobs_interstitial" class="p" title="Internal Jobs Database">internal jobs database</a>.</p>
+<p style="margin: 6px 0px 6px 0px;">
+Please use  the <a href="http://globalcareers.bankofamerica.com/" class="p" title="Global Careers Job Search">Global Careers Job Search</a> to find opportunities outside of the USA.</p>
 <p class="ada-label">Manage Your Profile. You are encouraged to complete the online candidate profile, however if you have difficulty, you should:</p>
 <ul class="ada-label">
 	<li>Email your resume to <a href="mailto:"bac@resume.bankofamerica.com>bac@resume.bankofamerica.com</a></li>

@@ -56,14 +56,14 @@
 					tabindex = tabindex + 1
 %>
 						<tr>
-							<td style="height: 30px; padding: 2px 0px 2px 18px;" valign="top"><% If question_group.Item("group_type") = "checkbox" Then %><span class="ada-hide"><label class="ada-hide" for="q-<%=questions(q).Item("question_number") %>"><%=questions(q).Item("label") %></label></span><input name="q-<%=questions(q).Item("question_number") %>"  type="checkbox" value="<%=questions(q).Item("question_number") %>"<% If questions(q).Item("answer") Then %> checked<% End If %> tabindex="<%=tabindex %>"><% ElseIf question_group.Item("group_type") = "radio" Then %><span class="ada-hide"><label class="ada-hide" for="q-<%=questions(q).Item("question_number") %>"><%=questions(q).Item("label") %></label></span><input type="radio" name="g-<%=question_group.Item("group_number") %>" id="q-<%=questions(q).Item("question_number") %>" value="<%=questions(q).Item("question_number") %>"<% If questions(q).Item("answer") Then %> checked<% End If %> tabindex="<%=tabindex %>"><% End If %></td>
-							<td <% If Not two_bank Then %>width="100%"<% Else %>width="50%"<% End If %> style="height: 30px; padding: 8px 0px 2px 9px;" valign="top"><div style="margin: 0px;"><%=questions(q).Item("question") %></div></td>
+							<td style="height: 30px; padding: 2px 0px 2px 18px;" valign="top"><% If question_group.Item("group_type") = "checkbox" Then %><div><input type="checkbox" name="q-<%=questions(q).Item("question_number") %>" id="q-<%=questions(q).Item("question_number") %>" value="<%=questions(q).Item("question_number") %>"<% If questions(q).Item("answer") Then %> checked<% End If %> tabindex="<%=tabindex %>"></div><% ElseIf question_group.Item("group_type") = "radio" Then %><input type="radio" name="g-<%=question_group.Item("group_number") %>" id="q-<%=questions(q).Item("question_number") %>" value="<%=questions(q).Item("question_number") %>"<% If questions(q).Item("answer") Then %> checked<% End If %> tabindex="<%=tabindex %>"><% End If %></td>
+							<td <% If Not two_bank Then %>width="100%"<% Else %>width="50%"<% End If %> style="height: 30px; padding: 8px 0px 2px 9px;" valign="top"><div style="margin: 0px;"><span class="ada-hide"><%=questions(q).Item("label") %></span><label class="bac" for="q-<%=questions(q).Item("question_number") %>"><%=questions(q).Item("question") %></label></div></td>
 <%
 					If two_bank Then
 						If (q+lo_op) <= UBound(questions) Then
-							tabindex = tabindex + 1 %>
-							<td style="height: 30px; padding: 2px 0px 2px 18px;" valign="top"><% If question_group.Item("group_type") = "checkbox" Then %><span class="ada-hide"><label class="ada-hide" for="q-<%=questions(q+lo_op).Item("question_number") %>"><%=questions(q+lo_op).Item("label") %></label></span><input name="q-<%=questions(q+lo_op).Item("question_number") %>" id="q-<%=questions(q+lo_op).Item("question_number") %>" type="checkbox" value="<%=questions(q+lo_op).Item("question_number") %>"<% If questions(q+lo_op).Item("answer") Then %> checked<% End If %> tabindex="<%=tabindex %>"><% ElseIf question_group.Item("group_type") = "radio" Then %><span class="ada-hide"><label class="ada-hide" for="q-<%=questions(q+lo_op).Item("question_number") %>"><%=questions(q+lo_op).Item("label") %></label></span><input type="radio" name="g-<%=question_group.Item("group_number") %>" id="q-<%=questions(q+lo_op).Item("question_number") %>" value="<%=questions(q+lo_op).Item("question_number") %>"<% If questions(q+lo_op).Item("answer") Then %> checked<% End If %> tabindex="<%=tabindex %>"><% End If %></td>
-							<td width="50%" style="height: 30px; padding: 8px 0px 2px 9px;" valign="top"><div style="margin: 0px;"><%=questions(q+lo_op).Item("question") %></div></td>
+							tabindex_loop = tabindex + lo_op %>
+							<td style="height: 30px; padding: 2px 0px 2px 18px;" valign="top"><% If question_group.Item("group_type") = "checkbox" Then %><input type="checkbox" name="q-<%=questions(q+lo_op).Item("question_number") %>" id="q-<%=questions(q+lo_op).Item("question_number") %>" value="<%=questions(q+lo_op).Item("question_number") %>"<% If questions(q+lo_op).Item("answer") Then %> checked<% End If %> tabindex="<%=tabindex_loop %>"><% ElseIf question_group.Item("group_type") = "radio" Then %><input type="radio" name="g-<%=question_group.Item("group_number") %>" id="q-<%=questions(q+lo_op).Item("question_number") %>" value="<%=questions(q+lo_op).Item("question_number") %>"<% If questions(q+lo_op).Item("answer") Then %> checked<% End If %> tabindex="<%=tabindex_loop %>"><% End If %></td>
+							<td width="50%" style="height: 30px; padding: 8px 0px 2px 9px;" valign="top"><div style="margin: 0px;"><span class="ada-hide"><%=questions(q+lo_op).Item("label") %></span><label class="bac" for="q-<%=questions(q+lo_op).Item("question_number") %>"><%=questions(q+lo_op).Item("question") %></label></div></td>
 <%
 						Else %>
 							<td nowrap style="height: 30px; padding: 0px;">&nbsp;</td>
@@ -154,6 +154,7 @@
 <%
 		If tabindex > 0 Then
 			tabindex = tabindex + 1
+			If two_bank Then tabindex = tabindex + lo_op
 			tabindex_str = " tabindex="""&tabindex&""""
 		Else
 			tabindex_str = ""

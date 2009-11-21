@@ -26,6 +26,15 @@ tabs[tab-1].coremetrics = true;
 </script>
 		<% End If %>
 <table width="100%" cellpadding="0" cellspacing="0" border="0" summary="">
+		<% If page_section = "ADA" Then %>
+<tr>
+	<td valign="top">
+		<H2 class="bac" style="margin-top: 12px;"><a href="#t1" title="Undergraduate Programs U.S." class="bacb">Undergraduate Programs U.S.</a></H2>
+		<H2 class="bac" style="margin-top: 6px;"><a href="#t2" title="Undergraduate Programs EMEA" class="bacb">Undergraduate Programs EMEA</a></H2>
+		<H2 class="bac" style="margin-top: 6px;"><a href="#t3" title="Undergraduate Programs Asia" class="bacb">Undergraduate Programs Asia</a></H2>
+	</td>
+</tr>
+		<% End If %>
 <tr>
 	<td valign="top">
 		<% If page_section = "ADA" Then %>
@@ -33,11 +42,12 @@ tabs[tab-1].coremetrics = true;
 		<table width="100%" cellpadding="0" cellspacing="0" border="0" style="margin-top: 12px;" summary="">
 			<tr>
 				<td valign="top">
-					<H2 class="hidden">Undergraduate Programs U.S.</H2><img src="../images/camp/t1a.gif" border="0" alt="Undergraduate Programs U.S." /></td>
+					<img src="../images/camp/tlt.gif" border="0" alt="" />
+					<!--<H2 class="hidden">Undergraduate Programs U.S.</H2><img src="../images/camp/t1a.gif" border="0" alt="Undergraduate Programs U.S." /></td>
 				<td valign="top">
 					<a href="#t2" title="Undergraduate Programs EMEA"><img src="../images/camp/t2.gif" border="0" alt="Undergraduate Programs EMEA" /></a></td>
 				<td valign="top">
-					<a href="#t3" title="Undergraduate Programs Asia"><img src="../images/camp/t3.gif" border="0" alt="Undergraduate Programs Asia" /></a></td>
+					<a href="#t3" title="Undergraduate Programs Asia"><img src="../images/camp/t3.gif" border="0" alt="Undergraduate Programs Asia" /></a>--></td>
 				<td width="100%" background="../images/camp/trtb.gif" valign="top" align="right">
 					<img src="../images/camp/trt.gif" border="0" alt="" /></td>
 			</tr>
@@ -65,6 +75,9 @@ tabs[tab-1].coremetrics = true;
 				<td background="../images/camp/tl.gif" valign="top">
 					<img src="../images/camp/tl.gif" width="6" height="10" border="0" alt="" /></td>
 				<td width="100%" valign="top"><% If page_section <> "ADA" Then %><H2 class="hidden">Undergraduate Programs U.S.</H2><% End If %>
+		<% If page_section = "ADA" Then %>
+		<H2 class="bach" style="margin: 18px 12px -12px 12px;">Undergraduate Programs U.S.</H2>
+		<% End If %>
 <div id="dt1" style="display: <% If tab = 1 Or page_section = "ADA" Then %>inline<% Else %>none<% End If %>;">
 	<div class="innerTab">
 		<H3 class="bac" style="margin-top: 15px;">Corporate Staff and Support</H3>

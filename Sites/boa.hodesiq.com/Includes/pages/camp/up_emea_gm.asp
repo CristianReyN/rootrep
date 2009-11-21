@@ -5,7 +5,10 @@
 <a name="skipmaincontent"></a><h1 class="bac">Global Markets</h1>
 <h2 class="bac">Our Business</h2>
 <p class="bac">
-World-class debt origination and syndication require premier sales, trading, research and capital markets capabilities. Our sales force maintains active relationships with a broad universe of institutional investors, and our traders are highly experienced at making markets and delivering exceptional execution on behalf of our clients. Our research specialists deliver strategic, forward-looking analyses to help clients evaluate relative value and risk characteristics of various credits, whereas our debt capital markets specialist teams deliver creative solutions for issuers and investors across all asset classes, including high grade, high yield, asset–backed securities, mortgage–backed securities and syndicated loans.
+World-class debt origination and syndication require premier sales, trading, research and capital markets capabilities. Our sales force maintains active relationships with a broad universe of institutional investors, and our traders are experienced at making markets and executing on behalf of our clients. Our research specialists deliver strategic, forward-looking analyses to help clients evaluate relative value and risk of various credits, whereas our debt capital markets teams deliver creative solutions for issuers and investors across all asset classes, including high grade, high yield, and asset-backed securities.
+</p>
+<p class="bac">
+The Sales and Trading platform is focused on FX, Rates, Credit, and Equity Derivatives products to serve our clients. Our global platform, with major market presence in New York, Charlotte, London, Hong Kong and Tokyo, is an important part of delivering for our clients. In addition, close linkages to the other major client facing businesses including Investment Banking, Corporate Banking and Global Product Solutions are key to providing our clients with a fully integrated banking service. The banks strategy is to provide our clients comprehensive solutions across asset classes in order to serve and grow our corporate and investor client base globally.
 </p>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
@@ -31,23 +34,23 @@ Placed in a sales, trading or specialized capital markets product group position
 
 <h2 class="bac">Qualifications</h2>
 <p class="bac">
-Candidates must have obtained or are realistically expecting to obtain an MBA degree a premier business school.  Candidate should have deep and broad finance knowledge, excellent verbal and written communication skills, and strong personal leadership skills.  Fluency in a second European language is a distinct advantage.
+Candidates must demonstrate a combination of academic aptitude, quantitative skills, strategic and creative thinking and distinguished written and oral communications skills. Analysts are required to manage several projects at once and work effectively as an individual and as part of a team. Some common driving characteristics we look for assertiveness, attention to detail, exceptional academic achievement, initiative, team focus, intensity and a passion for the markets, leadership, self-confidence, strategic and creative thinking capabilities, strong work ethic, strong communication skills and dedication to a career in global markets.  In addition, you must have obtained or are realistically expecting to obtain a minimum GPA 3.5 or 2:1 degree or equivalent.  Fluency in a second European language is a distinct advantage.
 </p>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
 
 <h2 class="bac">Training</h2>
 <p class="bac">
-As an Associate, you will begin your career at Bank of America with an extensive training program in New York. The first part of the program combines Associates from a number of different lines of business.  The full program is a combination of classroom instruction, e-learning modules, case studies and presentations. Throughout the program, you’ll have ample opportunities to work closely with professionals and peers throughout our organization. This is a great opportunity to build a network of colleagues from across the company that will prove to be a tremendous resource to you throughout your career.	
+As an Analyst, you will begin your career at Bank of America with an extensive training program in New York. The first part of the program combines Analysts from a number of different lines of business.  The full program is a combination of classroom instruction, e-learning modules, case studies and presentations. Throughout the program, you'll have ample opportunities to work closely with professionals and peers throughout our organization. This is a great opportunity to build a network of colleagues from across the company that will prove to be a tremendous resource to you throughout your career.
 </p>
 <p class="bac">
-After completing the program in New York, your learning journey will continue both on the job, via web based learning and instructor led courses as appropriate to you development needs.  
+After completing the program in New York, your learning journey will continue both on the job, via web based learning and instructor led courses as appropriate to you development needs.
 </p>
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
 
 <h2 class="bac">Locations</h2>
 <p class="bac">
-Associates will work in Canary Wharf, London.
+Analysts will work in Canary Wharf, London.
 </p>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
