@@ -24,32 +24,36 @@ public class DropDownListAdapter : System.Web.UI.WebControls.Adapters.WebControl
 
 		foreach (ListItem item in list.Items)
 		{
-			Page.ClientScript.RegisterForEventValidation(list.UniqueID, item.Value);
-			if (item.Attributes["OptionGroup"] == null)
-			{
-				RenderListItem(item, writer);
-			}
-			else
-			{
-				currentOptionGroup = item.Attributes["OptionGroup"];
+            //not tot show 'Learning &amp; Leadership Development' for Addministration and HR
+            if (item.Value.ToString()!="1|7" && item.Value.ToString()!="5|7")
+            {
+			    Page.ClientScript.RegisterForEventValidation(list.UniqueID, item.Value);
+			    if (item.Attributes["OptionGroup"] == null)
+			    {
+				    RenderListItem(item, writer);
+			    }
+			    else
+			    {
+				    currentOptionGroup = item.Attributes["OptionGroup"];
 
-				if (renderedOptionGroups.Contains(currentOptionGroup))
-				{
-					RenderListItem(item, writer);
-				}
-				else
-				{
-					if (renderedOptionGroups.Count > 0)
-					{
-						RenderOptionGroupEndTag(writer);
-					}
+				    if (renderedOptionGroups.Contains(currentOptionGroup))
+				    {
+					    RenderListItem(item, writer);
+				    }
+				    else
+				    {
+					    if (renderedOptionGroups.Count > 0)
+					    {
+						    RenderOptionGroupEndTag(writer);
+					    }
 
-					RenderOptionGroupBeginTag(currentOptionGroup, writer);
-					renderedOptionGroups.Add(currentOptionGroup);
+					    RenderOptionGroupBeginTag(currentOptionGroup, writer);
+					    renderedOptionGroups.Add(currentOptionGroup);
 
-					RenderListItem(item, writer);
-				}
-			}
+					    RenderListItem(item, writer);
+				    }
+			    }
+            }
 		}
 
 		if (renderedOptionGroups.Count > 0)
