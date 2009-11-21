@@ -25,7 +25,7 @@ if ( hasRequestedVersion ) {
 </noscript>
 <% Else %>
 <div class="ptranscript">
-<a name="vt"></a><h2 class="h1" style="margin: 0px 0px 6px 0px;"><span>Video trascript</span></h2>
+<a name="vt"></a><h2 class="h1" style="margin: 0px 0px 6px 0px;"><span>Video transcript</span></h2>
 <p>
 What attracted me most about working at Bank of America was their focus on improving their processes to really was to help their customers and ensure their customers have a great experience and I have a passion for that.  I really like what Quality & Productivity does their use of Six Sigma, Lean and other tools and it was important for me to find a position where I was able to do that.  While I was in grad school I was doing a research project on Bank of America and that started my interest in the company.  I attended a conference for the women's MBA while I was in Boston which led to my employment with the company.
 </p>

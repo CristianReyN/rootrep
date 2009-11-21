@@ -3,6 +3,7 @@
 %>
 <form name="undergraduate" action="program.asp" style="margin: 0px;">
 <input type="hidden" name="back" id="back" value="undergraduate_programs.asp">
+<span class="ada-label"><label class="ada-label" for="Select for Program Detail">Select for Program Detail</label></span>
 <select name="program" id="program" title="<% Response.write sel_ect %>"<%=c_lass%><%=style%>>
 	<option value="0"><% Response.write sel_ect %></option>
 <optgroup label="Global Technology and Operations">

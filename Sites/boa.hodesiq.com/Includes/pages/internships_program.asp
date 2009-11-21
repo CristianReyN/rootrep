@@ -1,4 +1,4 @@
-		<a name="skipmaincontent"></a><H1 style="margin: 0px 12px 0px 12px;">Internship Programs</H1>
+		<a name="skipmaincontent"></a><H1 style="margin: 0px 12px 0px 12px;">Internships</H1>
 
 		<table width="578" cellpadding="0" cellspacing="0" border="0" summary="">
 			<tr valign="top">
@@ -9,25 +9,27 @@
 
 <H2 class="p"><b>Eligibility</b></H2>
 
-<p style="margin: 12px 0px 0px 0px;">Internship programs are available to full-time undergraduate or graduate students attending an accredited college/university who also meet the following requirements:</p>
+<p style="margin: 12px 0px 0px 0px;">Internships are available to full-time undergraduate or graduate students attending an accredited college/university who also meet the following requirements:</p>
 <ul>
-	<li>Overall GPA of 3.0 or above</li>
+	<li>Overall GPA of 3.0 or above </li>
 	<li>Business or technical-related majors</li>
-	<li>Graduation date no earlier than August of the year in which the internship takes place)</li>
-	<li>Ability to work 40 hours per week for the entirety of the program (10 to 12 weeks)</li>
-	<li>Eligibility to work in the United States, as we do not sponsor individuals for work visas</li>
+	<li>Non-graduation status (graduation date no earlier than August of the year in which the internship takes place)</li>
+	<li>Ability to work 40 hours per week for the entire program (10 to 12 weeks)</li>
 </ul>
 
-<H2 class="p"><b>Get started</b></H2>
+<p style="margin: 24px 0px 6px 0px;">
+<a href="<% If page_section <> "ADA" Then %>../overview/<%End If%>eeoc.asp" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="Equal Employment Opportunity and Affirmative Action Statement">Equal Employment Opportunity and Affirmative Action Statement</a>
+</p>
 
-<p style="margin: 12px 0px 0px 0px;">We recruit for summer internship opportunities through mid-February. To apply, please sign in as a new or returning user and send us your resume, indicating your program(s) of interest.</p>
+<H2 class="p"><b>Opportunity awaits</b></H2>
 
-<p style="margin: 12px 0px 0px 0px;">View complete <a href="<% If page_section <> "ADA" Then %>../learnmore/<%End If%>internships_details.asp"class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="See complete Internship program details">internship program details.</a></p>
+<p style="margin: 12px 0px 0px 0px;">We recruit for summer internship opportunities through mid-February. View complete <a href="<% If page_section <> "ADA" Then %>../learnmore/<%End If%>internships_details.asp"class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="See complete Internship details">internship details.</a></p>
+
 
 <%	href_pre = ""
 	if page_section <> "ADA" then href_pre = "../learnmore/" %>
 <!-- #include file="../programs.asp" -->
-<p style="margin: 12px 0px 12px 0px;">To apply, simply sign in as a new or returning user and send us your resume, designating your program(s) of interest from the following options:</p>
+<p style="margin: 12px 0px 12px 0px;">To send us your resume, simply sign in as a new or returning user and designate your internship(s) of interest from the following options:</p>
 <% 	call getInternshipProgramForm(""," style=""width: 100%; margin: 0px 0px 6px 0px;""","--- Select A Program ---",href_pre,fpage)
 %>
 <br>
@@ -36,9 +38,7 @@
 <p style="margin: 12px 0px 0px 0px;">You may also be interested in:</p>
 <!-- #include file="../programsnav.asp" -->
 
-<p style="margin: 24px 0px 6px 0px;">
-<a href="<% If page_section <> "ADA" Then %>../overview/<%End If%>eeoc.asp" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="Equal Employment Opportunity and Affirmative Action Statement">Equal Employment Opportunity and Affirmative Action Statement</a>
-</p>
+
 
 				</td>
 				<td width="205" height="100%" valign="top">

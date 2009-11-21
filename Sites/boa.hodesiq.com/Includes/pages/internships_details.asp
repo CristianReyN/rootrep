@@ -1,4 +1,4 @@
-		<a name="skipmaincontent"></a><H1 style="margin: 0px 12px 0px 12px;">Internship Program Details</H1>
+		<a name="skipmaincontent"></a><H1 style="margin: 0px 12px 0px 12px;">Internships Details</H1>
 
 		<table width="578" cellpadding="0" cellspacing="0" border="0" summary="">
 			<tr valign="top">
@@ -21,7 +21,7 @@
 </ul>
 
 <H2 class="p"><b>Important Dates</b></H2>
-<p style="margin: 12px 0px 0px 0px;">Internship programs typically begin in May and continue through September. The application deadline is mid-February of each year, and open positions are usually filled by mid-April.</p>
+<p style="margin: 12px 0px 0px 0px;">Internships typically begin in May and continue through September. The application deadline is mid-February of each year, and open positions are usually filled by mid-April.</p>
 
 <H2 class="p"><b>Locations</b></H2>
 <p style="margin: 0px 0px 0px 0px;">Most of our opportunities are in:</p>

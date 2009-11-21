@@ -5,17 +5,21 @@
 				<td width="373" height="100%" valign="top" style="padding: 6px 5px 0px 12px;">
 <img class="dotdiv" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
 
-<p style="margin: 0px;">Learn from the industry's best in a challenging combination of classroom education, on-the-job-training, and rotational assignments.</p>
+<p style="margin: 0px;">Learn from the industry's best in a challenging combination of instructor-led and web-based education, on-the-job-training, rotational assignments, and networking.</p>
 
 <H2 class="p"><b>Eligibility</b></H2>
 
-<p style="margin: 12px 0px 0px 0px;">Undergraduate/analyst career programs are available to all current college/university students and recent graduates.</p>
+<p style="margin: 12px 0px 0px 0px;">Please review each job description, as qualifications may vary depending on line of business and associate development program. </p>
 
-<H2 class="p"><b>Getting Started</b></H2>
+<p style="margin: 24px 0px 6px 0px;">
+<a href="<% If page_section <> "ADA" Then %>../overview/<%End If%>eeoc.asp" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="Equal Employment Opportunity and Affirmative Action Statement">Equal Employment Opportunity and Affirmative Action Statement</a>
+</p>
+
+<H2 class="p"><b>Opportunity awaits</b></H2>
 <%	href_pre = ""
 	if page_section <> "ADA" then href_pre = "../learnmore/" %>
 <!-- #include file="../programs.asp" -->
-<p style="margin: 12px 0px 12px 0px;">To apply, simply sign in as a new or returning user and send us your resume, designating your program(s) of interest from the following options:</p>
+<p style="margin: 12px 0px 12px 0px;">To send us your resume, simply sign in as a new or returning user and designate your program(s) of interest from the following options:</p>
 <% 
 	call getUndergraduateProgramForm(""," style=""width: 100%; margin: 0px 0px 6px 0px;""","--- Select A Program ---",href_pre,fpage)
 %>
@@ -25,9 +29,7 @@
 <p style="margin: 12px 0px 0px 0px;">You may also be interested in:</p>
 <!-- #include file="../programsnav.asp" -->
 
-<p style="margin: 24px 0px 6px 0px;">
-<a href="<% If page_section <> "ADA" Then %>../overview/<%End If%>eeoc.asp" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="Equal Employment Opportunity and Affirmative Action Statement">Equal Employment Opportunity and Affirmative Action Statement</a>
-</p>
+
 
 				</td>
 				<td width="205" height="100%" valign="top">
