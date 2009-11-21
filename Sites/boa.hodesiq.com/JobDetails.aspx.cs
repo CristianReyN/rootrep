@@ -22,11 +22,11 @@ public partial class JobDetails : System.Web.UI.Page
             lblLocation.Text = dt.Rows[0]["Location"].ToString();
             lblLocationFooter.Text = dt.Rows[0]["Location"].ToString();
             lblPartTimeFullTime.Text = dt.Rows[0]["FullPartTime"].ToString();
-            lblPostingDate.Text = Convert.ToDateTime(dt.Rows[0]["PostingDate"].ToString()).ToShortDateString();
+            lblPostingDate.Text = dt.Rows[0]["PostingDate"].ToString();
             lblSchedule.Text = dt.Rows[0]["Shift"].ToString();
             lblShift.Text = dt.Rows[0]["Shift"].ToString();
             lblTravel.Text = dt.Rows[0]["Travel"].ToString();
-            lblUnpostingDate.Text = Convert.ToDateTime(dt.Rows[0]["UnPostingDate"].ToString()).ToShortDateString(); ;
+            lblUnpostingDate.Text = dt.Rows[0]["UnPostingDate"].ToString() ;
             lblLanguage.Text = dt.Rows[0]["Language"].ToString();
             lblJobFamily.Text = dt.Rows[0]["family"].ToString();
             lblHoursPerWeek.Text = dt.Rows[0]["HrsPerWeek"].ToString();
