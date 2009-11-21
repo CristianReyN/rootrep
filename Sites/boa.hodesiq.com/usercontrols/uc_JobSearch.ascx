@@ -100,8 +100,8 @@
 							<td valign="top" align="left" colspan="2">
 								<table border="0" cellspacing="0" cellpadding="0">
 									<tr>	
-										<td align="left" valign="top"> <asp:LinkButton ID="BtnBegin" runat="server" CssClass="ie-btn1" OnClick="display_filter" Width="40px" ToolTip=" Begin">Begin</asp:LinkButton> </td>
-										<td align="left" valign="top"> <asp:LinkButton ID="BtnSearch" runat="server" CssClass="ie-btn1" OnClick="bsearch_Click" Width="80px" ToolTip=" Begin Search">Begin Search</asp:LinkButton> </td>
+										<td align="center" valign="top"> <asp:LinkButton ID="BtnBegin" runat="server" CssClass="ie-btn1" OnClick="display_filter" Width="40px" ToolTip=" Begin">Begin</asp:LinkButton> </td>
+										<td align="center" valign="top"> <asp:LinkButton ID="BtnSearch" runat="server" CssClass="ie-btn1" OnClick="bsearch_Click" Width="80px" ToolTip=" Begin Search">Begin Search</asp:LinkButton> </td>
 										<td width="10">&nbsp;</td>
 										<td align="left" valign="top"><asp:HyperLink runat="server" ID="lnkJobCart" NavigateUrl="~/jobcart.aspx" Text="View job cart" CssClass="p" ToolTip="View job cart" Visible="false" /></td>
 									</tr>
