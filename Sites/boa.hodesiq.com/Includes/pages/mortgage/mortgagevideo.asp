@@ -41,7 +41,7 @@ data="../Includes/pages/rjp/flashplayer_xml20080308.swf" width="258" height="166
 <div class="transcript">
 <a name="vt"></a><h2 class="h1" style="margin: 0px 0px 6px 0px; text-align: left;"><span>Video transcript</span></h2>
 <p>
-&gt;&gt;Alec Hansen, Jeremy, AVP Home Loan Manager.
+&gt;&gt;Alec Hansen, AVP Home Loan Manager.
 <br><br>
 Within the mortgage group of Bank&nbsp;of&nbsp;America, my role is Assistant Vice President Home Loan Manager.
 <br><br>

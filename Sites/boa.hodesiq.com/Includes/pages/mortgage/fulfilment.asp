@@ -14,7 +14,7 @@
 			<tr valign="top">
 				<td width="373" height="100%" valign="top" style="padding: 0px <%=right_margin%>px 0px <%=left_margin_0%>px;">
 <H1 class="hidden">Mortgage Fulfillment</H1>
-<H2 class="bacg">Mortgage Fulfillment</H2><p class="bacg">&nbsp;contributes to the overall mortgage sales experience through an array of valuable services, aimed at providing exceptional products to the Bank&#39;s mortgage customers,; and solid support for our team of Mortgage Loan Officers.</p>
+<H2 class="bacg">Mortgage Fulfillment</H2><p class="bacg">&nbsp;contributes to the overall mortgage sales experience through an array of valuable services, aimed at providing exceptional products to the Bank&#39;s mortgage customers, and solid support for our team of Mortgage Loan Officers.</p>
 <br><img src="../../images/clear.gif" width="10" height="12" alt="" border="0" /><br>
 <p class="bacg">These functions, performed with consistently excellent service, include mortgage underwriting and process, vendor management, document preparation and mortgage loan closings.</p>
 <br><img src="../../images/clear.gif" width="10" height="12" alt="" border="0" /><br>

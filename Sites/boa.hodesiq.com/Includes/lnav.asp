@@ -102,7 +102,7 @@
 <div><a href="../mortgagecareers/" class="sbtxt" title="Mortgage" onfocus="this.className='sbtxt-over';" onblur="this.className='sbtxt';">Mortgage</a></div>
 				</li>
 <%	If mpage = "areasoftalent" And spage = "mortgagecareers" Then %>
-				<li class="tertiary"<% if tpage = "aot_fulfilment" then Response.Write " style=""background: #eaf1f7;""" end if %>><div><a href="../mortgagecareers/fulfilment.asp" class="sbtxt" title="Fulfilment" onfocus="this.className='sbtxt-over';" onblur="this.className='sbtxt';">Fulfilment</a></div>
+				<li class="tertiary"<% if tpage = "aot_fulfilment" then Response.Write " style=""background: #eaf1f7;""" end if %>><div><a href="../mortgagecareers/fulfilment.asp" class="sbtxt" title="Fulfillment" onfocus="this.className='sbtxt-over';" onblur="this.className='sbtxt';">Fulfillment</a></div>
 				</li>
 				<li class="tertiary"<% if tpage = "aot_homeequity" then Response.Write " style=""background: #eaf1f7;""" end if %>><div><a href="../mortgagecareers/homeequity.asp" class="sbtxt" title="Home Equity" onfocus="this.className='sbtxt-over';" onblur="this.className='sbtxt';">Home Equity</a></div>
 				</li>
@@ -195,7 +195,7 @@
 <div><a href="../mortgage/" class="sbtxt" title="Mortgage" onfocus="this.className='sbtxt-over';" onblur="this.className='sbtxt';">Mortgage</a></div>
 				</li>
 <%	If mpage = "lob" And spage = "lob_mortgagecareers" Then %>
-				<li class="tertiary"<% if tpage = "lob_fulfilment" then Response.Write " style=""background: #eaf1f7;""" end if %>><div><a href="../mortgage/fulfilment.asp" class="sbtxt" title="Fulfilment" onfocus="this.className='sbtxt-over';" onblur="this.className='sbtxt';">Fulfilment</a></div>
+				<li class="tertiary"<% if tpage = "lob_fulfilment" then Response.Write " style=""background: #eaf1f7;""" end if %>><div><a href="../mortgage/fulfilment.asp" class="sbtxt" title="Fulfillment" onfocus="this.className='sbtxt-over';" onblur="this.className='sbtxt';">Fulfillment</a></div>
 				</li>
 				<li class="tertiary"<% if tpage = "lob_homeequity" then Response.Write " style=""background: #eaf1f7;""" end if %>><div><a href="../mortgage/homeequity.asp" class="sbtxt" title="Home Equity" onfocus="this.className='sbtxt-over';" onblur="this.className='sbtxt';">Home Equity</a></div>
 				</li>

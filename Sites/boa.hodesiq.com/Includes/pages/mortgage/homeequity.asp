@@ -16,8 +16,7 @@
 <H1 class="hidden">Mortgage Home Equity</H1>
 <p class="bacg">Bank&nbsp;of&nbsp;America Mortgage uses our status as the nation&#39;s largest mortgage lender, and the world&#39;s most trusted lender, to help millions of people realize and maintain the dream of home ownership.</p>
 <br><img src="../../images/clear.gif" width="10" height="12" alt="" border="0" /><br>
-<p class="bacg">Our <b>Home Equity</b> group is focused on helping our customers leverage the financial resources available to them &mdash; in the form of the equity they&#39;ve built in their homes &mdash; to achieve their financial goals, such as major home repairs, medical or other bills, and college tuition.<br>
-Examples of some of the strategies we facilitate for our mortgage customers include:</p>
+<p class="bacg">Our <b>Home Equity</b> group is focused on helping our customers leverage the financial resources available to them &mdash; in the form of the equity they&#39;ve built in their homes &mdash; to achieve their financial goals, such as major home repairs, medical or other bills, and college tuition. Examples of some of the strategies we facilitate for our mortgage customers include:</p>
 <br><img src="../../images/clear.gif" width="10" height="12" alt="" border="0" /><br>
 <H2 class="bacg">Home Equity Loans</H2><p class="bacg">&nbsp;&mdash; a loan in which the borrower uses the equity in their home as collateral.  Often referred to as second mortgages, these loans are secured against the value of the property, and create a lien against the borrower&#39;s house, reducing the actual total home equity.</p>
 <br><img src="../../images/clear.gif" width="10" height="12" alt="" border="0" /><br>

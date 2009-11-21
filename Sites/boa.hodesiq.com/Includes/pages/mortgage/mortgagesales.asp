@@ -24,7 +24,7 @@
 <br><img src="../../images/clear.gif" width="10" height="12" alt="" border="0" /><br>
 <H2 class="bacg"><i>Seamlessly combining the greatest strengths of Bank&nbsp;of&nbsp;America and newly-acquired Countrywide to create a single, valued brand.</i></H2><p class="bacg">&nbsp;MS&amp;F demonstrates value to customers by lending responsibly, driving process excellence, deploying industry-leading technology and enabling and empowering associates.   Associates&#39; readiness to be the ambassadors of this brand is critical to winning customers and capturing market share.</p>
 <br><img src="../../images/clear.gif" width="10" height="12" alt="" border="0" /><br>
-<p class="bacg"><a class="p" href="../mortgagecareers/pdf/ValueProp_8 5x11_d11.pdf" title="Bringing Opportunity Home. Link opens a new window." target="_blank">Learn more</a> about how Bank&nbsp;of&nbsp;America Home Loans is Bringing Opportunity Home for its Mortgage Loan Officers.</p>
+<p class="bacg"><a class="p" href="../mortgagecareers/pdf/ValueProp_8 5x11_d11.pdf" title="Bringing Opportunity Home. Link opens a new window." target="_blank">Learn more</a> about how Bank&nbsp;of&nbsp;America Mortgage is Bringing Opportunity Home for its Mortgage Loan Officers.</p>
 <br><img src="../../images/clear.gif" width="10" height="12" alt="" border="0" /><br>
 <p class="bacg">Join Bank&nbsp;of&nbsp;America Mortgage today, and use your skills and knowledge to start Bringing Opportunity Home &mdash; for customers, and for yourself.</p>
 <%
