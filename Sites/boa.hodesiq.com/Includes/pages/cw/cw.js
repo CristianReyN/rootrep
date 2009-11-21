@@ -300,6 +300,17 @@ function playVideo(video,play,pause,stop,ada,mute,ccoc)
 	}
 }
 
+function pauseVideo(objname)
+{
+	if(!mv) mv=$x("mainvideo");
+	var vo = eval("window.document."+objname);
+	if(vo && (objname != "javaflash" || mv.style.display == "inline"))
+	{
+		doPassVar(objname,"pause");
+		videoplaying = null;
+	}
+}
+
 function fpvideo(swf_url,w,h)
 {
 	this.swf_url = swf_url;

@@ -245,6 +245,16 @@ Whatever your choice, we wish you good luck in the future and we thank you for c
 <a href="#video" class="hlink">Realistic Job Preview - Teller Positions Video</a>
 					</div></div>
 <% End If %>
+<%
+	mg = Request("mg")
+	If mg <> "" Then
+%>
+<p style="margin: 12px <%=right_margin_split%>px 0px <%=left_margin_0%>px; width: 100%; text-align: center;">
+<a href="<% If page_section = "ADA" Then %><% Else  %>../overview/<% End If  %>media_gallery.asp?mg=<%=mg%>" title="Return to Media Galery page" class="bacb">Return to Media Galery page</a>
+</p>
+<%
+	End If
+%>
 <br><br>
 				</td>
 			</tr>

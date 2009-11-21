@@ -49,6 +49,16 @@ The opportunity – to ensure a culture where everyone is accepted and can contrib
 <a href="#video" class="hlink">Global Diversity and Inclusion Video</a>
 					</div></div>
 <% End If %>
+<%
+	mg = Request("mg")
+	If mg <> "" Then
+%>
+<p style="margin: 12px <%=right_margin_split%>px 0px <%=left_margin_0%>px; width: 100%; text-align: center;">
+<a href="<% If page_section = "ADA" Then %><% Else  %>../overview/<% End If  %>media_gallery.asp?mg=<%=mg%>" title="Return to Media Galery page" class="bacb">Return to Media Galery page</a>
+</p>
+<%
+	End If
+%>
 <br><br>
 				</td>
 			</tr>
