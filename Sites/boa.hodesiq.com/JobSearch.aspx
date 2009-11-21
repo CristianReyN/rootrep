@@ -2,7 +2,7 @@
     Language="C#" MasterPageFile="~/BOAmaster.master" Title="Untitled Page" %>
 
                             <asp:Content ID="Content1" Runat="Server" ContentPlaceHolderID="ContentPlaceHolder1">
-                                <form id="jsearch" runat="server">
+                                
                                     <table border="0" cellpadding="0" cellspacing="0" summary="" width="578">
                                         <tr valign="top">
                                             <td style="padding: 6px 12px 0px 12px; height: 100%" valign="top">
@@ -69,7 +69,7 @@
                                                     </tr>
                                                     <tr>
                                                         <td align="right" valign="top">
-                                                            <asp:Button ID="brefine" runat="server" CssClass="bodybtn" TabIndex="6" Text="Refine Search" UseSubmitBehavior="true" />
+                                                            <asp:Button ID="brefine" runat="server" CssClass="bodybtn" TabIndex="6" Text="Refine Search" UseSubmitBehavior="true" OnClick="brefine_Click" />
                                                         </td>
                                                         <td align="right" valign="top">
                                                             <asp:Button ID="bsearch" runat="server" CssClass="bodybtn" 
@@ -90,6 +90,6 @@
                                         </tr>
                                     </table>
                                     <asp:Label ID="lblMessage" runat="server"></asp:Label>
-                                </form>
+                                
                             </asp:Content>
                             

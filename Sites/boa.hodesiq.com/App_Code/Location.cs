@@ -51,4 +51,25 @@ public class Location
         return db.GetDataTable(Sql);
     }
 
+    public DataTable StatewiseCity(string StateVal)
+    {
+        DBUtils db;
+        try
+        {
+            Sql = string.Empty;
+            if (StateVal != "")
+            {
+                //StrCondation = "where AOT.TalentID=" + StateVal;
+            }
+            Sql = "select City,Req_ID From Location";
+            db = new DBUtils();
+        }
+        catch (Exception ex)
+        {
+            throw ex;
+        }
+        return db.GetDataTable(Sql);
+
+    }
+
 }
