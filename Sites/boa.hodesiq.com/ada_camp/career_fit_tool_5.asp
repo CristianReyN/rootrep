@@ -13,15 +13,13 @@ page_section="ADA"
 Dim flashPage
 flashPage = false
 	
-	page_number = 0
+	page_number = 5
 	previous_page_number = page_number - 1
 	next_page_number = page_number + 1
-	session.Contents.Remove("pages")
 %>
-<!-- #include file="../includes/career_fit_tool_pr.asp" -->
+<!-- #include file="../includes/pages/camp/career_fit_tool_function.asp" -->
 <%
-title = breadcrumb & "Campus Recruiting | Find Your Fit | Career Fit Tool"
-	call createPage(page,0,"Which of our programs are best suited to your skills and interests?","Our quick and easy Career Fit Tool is designed to help you sort through your options. Please answer every question to see programs that may be a good fit for you.")
+title = breadcrumb & "Campus Recruiting | Find Your Fit | Career Fit Tool | Step " & page_number
 %>
 <!-- Header -->
 <!-- #include file="../ada/header.asp" -->
@@ -47,3 +45,4 @@ title = breadcrumb & "Campus Recruiting | Find Your Fit | Career Fit Tool"
 <!-- Footer -->
 <!-- #include file="../ada/footer.asp" -->
 <!-- Footer -->
+
