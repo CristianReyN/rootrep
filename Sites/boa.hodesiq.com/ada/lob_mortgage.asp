@@ -1,13 +1,13 @@
 <% Response.Buffer=True 
 Dim title, mpage, spage, ada_href, ada_title, job_search_action,page_section, Metatag%>
 <!-- #include file="../includes/breadcrumb.asp" -->
-<% title = breadcrumb & "Job Areas | Mortgage Careers"
-mpage = "areasoftalent"
-spage = "mortgagecareers"
+<% title = breadcrumb & "Lines of Business | Mortgage Careers"
+mpage = "lob"
+spage = "lob_mortgagecareers"
 tpage = ""
-standart_href = "../mortgagecareers/"
+standart_href = "../mortgage/"
 job_search_action = "../jobsearch/searchresult.asp"
-page_self = "../ada/mortgagecareers.asp"
+page_self = "../ada/lob_mortgage.asp"
 page_section="ADA"
 Dim flashPage
 flashPage = false

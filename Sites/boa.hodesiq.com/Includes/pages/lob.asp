@@ -29,6 +29,8 @@ Opportunity awaits. Learn more about:
 <br><br>
 <a href="<% Response.write href_pre %>lobcss.asp" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="Corporate Staff &amp; Support">Corporate Staff &amp; Support</a>
 <br><br>
+<a href="<%	if page_section <> "ADA" then%>../mortgage/<% Else %>lob_mortgage.asp<% End If %>" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="Mortgage">Mortgage</a>
+<br><br>
 <a href="<% Response.write href_pre %>lb_career_compass.asp" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="Skills Assessment">Skills Assessment</a>
 <br><br>
 				</td>

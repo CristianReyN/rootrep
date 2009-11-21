@@ -34,6 +34,9 @@
 <H2 class="left2" style="margin: 0px; padding: 0px;"><a href="<% if page_section <> "ADA" then Response.write "../hr/" Else Response.write "humanresources.asp" End If%>" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="Global Human Resources">Global Human Resources</a></H2>
 <p style="margin: 6 0 15 0;">The success of any organization depends on its people - that&acute;s why our innovative, leading-edge Global Human Resources team focuses on attracting, developing and retaining a world-class workforce.</p>
 
+<H2 class="left2" style="margin: 0px; padding: 0px;"><a href="<% if page_section <> "ADA" then Response.write "../mortgagecareers/" Else Response.write "mortgagecareers.asp" End If%>" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="Mortgage">Mortgage</a></H2>
+<p style="margin: 6 0 15 0;">Bank of America Home Loans is committed to Bringing Opportunity Home for both the customers we serve as well as the associates who assist these customers in achieving their dreams of home ownership and preservation.</p>
+
 <H2 class="left2" style="margin: 0px; padding: 0px;"><a href="<% if page_section <> "ADA" then Response.write "../operations/" Else Response.write "operations.asp" End If%>" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="Operations">Operations</a></H2>
 <p style="margin: 6 0 15 0;">Positions within Operations provide overall support for many key areas within Bank of America.</p>
 
