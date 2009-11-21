@@ -131,5 +131,39 @@ public class Jobs
         return db.GetDataTable(Sql);
 
     }
-    
+
+    public DataTable AdvSearch(string jf, string state, string city, string Travel, string Lang, string fullPart, string Shift, string PostDate, string keywrd)
+    {
+        DBUtils db;
+        try
+        {
+            if (PostDate == "0")
+                PostDate = "";
+            
+            db = new DBUtils();
+            OleDbCommand cmd = new OleDbCommand("Sp_Career_Sites_select_AdvSearch_results", db.GetConnection());
+            cmd.CommandType = CommandType.StoredProcedure;
+            cmd.Parameters.AddWithValue("@Family", jf);
+            cmd.Parameters.AddWithValue("@State", state);
+            cmd.Parameters.AddWithValue("@City", city);
+            cmd.Parameters.AddWithValue("@Travel", Travel);
+            cmd.Parameters.AddWithValue("@Lang", Lang);
+            cmd.Parameters.AddWithValue("@fullPart", fullPart);
+            cmd.Parameters.AddWithValue("@Shift", Shift);
+            cmd.Parameters.AddWithValue("@PostDate", PostDate);
+            cmd.Parameters.AddWithValue("@KeyWords", keywrd);
+
+            OleDbDataAdapter da = new OleDbDataAdapter(cmd);
+            DataSet ds = new DataSet();
+            da.Fill(ds);
+            return ds.Tables[0];
+        }
+        catch (Exception ex)
+        {
+            throw ex;
+        }
+        return db.GetDataTable(Sql);
+
+    }
+
 }
