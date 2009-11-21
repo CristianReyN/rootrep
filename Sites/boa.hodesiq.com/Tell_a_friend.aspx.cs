@@ -31,8 +31,8 @@ public partial class Tell_a_friend : System.Web.UI.Page
         message.From = new MailAddress(YourEmail.Text.ToString());
         message.To.Add(new MailAddress(FriendEmail.Text.ToString()));
         message.Subject = "Career opportunity with Bank Of America";
-        message.IsBodyHtml = true;
-        strMailBody = MessageBox.Text.ToString() + "<br><a href='http://boa.hodesiq.com/jobdetails.aspx?JobId=" + JobId + "&SearchPage=Sp'>Click the link for the details of the Job</a>";
+        message.IsBodyHtml = false;
+        strMailBody = MessageBox.Text.ToString() + Environment.NewLine + "http://boa.hodesiq.com/jobdetails.aspx?JobId=" + JobId + "&SearchPage=Sp";
         message.Body = strMailBody;
         SmtpClient client = new SmtpClient("localhost");
         try
