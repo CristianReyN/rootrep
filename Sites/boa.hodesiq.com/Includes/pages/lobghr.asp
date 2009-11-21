@@ -67,6 +67,8 @@ Click on a question below to play the video response.
 Global Human Resources is comprised of 4 key areas. 
 <br><br>
 Staffing, which is responsible for strategically partnering with the lines of business to identify and attract a diverse talent pipeline. Learning and Leadership Development, whose responsibility includes accelerating the organizational and people capabilities by attracting, developing and retaining world class talent. HR Generalist, who is responsible for strategic planning and execution of effective human resources processes, policies and programs.  And Global Compensation, Benefits & HR Shared Services. Within this last group, the compensation team is responsible for strategic planning, development and execution of all compensation processes and initiatives. The benefits group is responsible for Global Strategy, Design, Full Implementation, Governance and Vendor Relations of all benefit programs. And finally, the HR Shared Services group is responsible for defining, managing and delivering GHR operational processes to ensure best in class experiences.
+<br><br>
+<a href="<%= standart_href%>" title="Return to standard page with video" class="p" onfocus="this.className='p-over';" onblur="this.className='p';">Return to standard page with video</a>
 <% End If %>
 </p>
 
@@ -79,6 +81,8 @@ Staffing, which is responsible for strategically partnering with the lines of bu
 </p>
 <p style="margin: 6px 0px 0px 0px;"><a name="answ3"></a>
 The different positions within HR vary depending on the group.  We look for a variety of skill sets such as: HR subject matter expertise, process design and improvement, project management, change management, vendor relations, data analysis, recruiting and sourcing, people management and strategy development.
+<br><br>
+<a href="<%= standart_href%>" title="Return to standard page with video" class="p" onfocus="this.className='p-over';" onblur="this.className='p';">Return to standard page with video</a>
 <% End If %>
 </p>
 
@@ -91,15 +95,12 @@ The different positions within HR vary depending on the group.  We look for a va
 </p>
 <p style="margin: 6px 0px 0px 0px;"><a name="answ4"></a>
 Associates with a proven track record for success have an opportunity to grow into more senior roles within their designated HR space or expand their knowledge into other areas of the organization.  Due to the strategic alignment and business focus of HR, many proven leaders are selected for leadership roles in the businesses they support. Career paths within HR vary depending on associate interests, experience and proven ability.
+<br><br>
+<a href="<%= standart_href%>" title="Return to standard page with video" class="p" onfocus="this.className='p-over';" onblur="this.className='p';">Return to standard page with video</a>
 <% End If %>
 </p>
 
 <img class="dotdiv" style="margin: 6px 0px 0px 0px;" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
-
-<% If page_section = "ADA" Then %>
-<br><br>
-<a href="<%= standart_href%>" title="Return to standard page with video" class="p" onfocus="this.className='p-over';" onblur="this.className='p';">Return to standard page with video</a>
-<% End If %>
 
 </div>
 <br><br>

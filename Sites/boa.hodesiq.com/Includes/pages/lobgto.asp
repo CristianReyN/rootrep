@@ -74,6 +74,8 @@ Telephones and phone systems across the company are being changed to Voice over 
 We are also the recognized leader in adopting "imaging" technology, which lets us clear checks and other payment items more efficiently. We are the one of largest image exchange processors in the U.S.
 <br><br>
 We are constantly innovating to give customers and clients opportunities to do their business with us in the most convenient ways possible.
+<br><br>
+<a href="<%= standart_href%>" title="Return to standard page with video" class="p" onfocus="this.className='p-over';" onblur="this.className='p';">Return to standard page with video</a>
 <% End If %>
 </p>
 
@@ -89,7 +91,9 @@ Bank of America offers associates many opportunities to grow and to develop in t
 <br><br>
 The bank has an associate learning portal that provides access to career paths, planning tools, leadership models, and success profiles for each role. There are literally thousands of courses on various topics.
 <br><br>
-"The U" is an online University dedicated to technology associates.  It provides an all-inclusive development headquarters that provides several tools and resources with formal development programs to help improve and build the skills needed to further our associates careers. 
+"The U" is an online University dedicated to technology associates.  It provides an all-inclusive development headquarters that provides several tools and resources with formal development programs to help improve and build the skills needed to further our associates careers.
+<br><br>
+<a href="<%= standart_href%>" title="Return to standard page with video" class="p" onfocus="this.className='p-over';" onblur="this.className='p';">Return to standard page with video</a>
 <% End If %>
 </p>
 
@@ -107,15 +111,12 @@ Bank of America has offices in more than 20 countries and our associates represe
 We depend on our teams to accomplish their projects in person or virtually.  An associate may find themselves being a member of a team working with other associates in different cities, across the country, and even around the world on a daily basis.
 <br><br>
 As a global organization the bank's technology and architecture is highly integrated.  This enables technical associates to work with other technicians, business analysts, project members, and business partners around the world. The company has been recognized for its commitment to associates and diversity, by being honored by: DiversityInc, Black Enterprise, and Hispanic Trends.
+<br><br>
+<a href="<%= standart_href%>" title="Return to standard page with video" class="p" onfocus="this.className='p-over';" onblur="this.className='p';">Return to standard page with video</a>
 <% End If %>
 </p>
 
 <img class="dotdiv" style="margin: 6px 0px 0px 0px;" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
-
-<% If page_section = "ADA" Then %>
-<br><br>
-<a href="<%= standart_href%>" title="Return to standard page with video" class="p" onfocus="this.className='p-over';" onblur="this.className='p';">Return to standard page with video</a>
-<% End If %>
 
 </div>
 <br><br>

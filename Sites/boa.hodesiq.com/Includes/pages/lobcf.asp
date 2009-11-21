@@ -96,6 +96,8 @@ Associates should also identify work values, personal values and current level o
 Using this information, an associate can identify a career path, set a career goal and monitor progress along the way. 
 <br><br>
 Associates can enlist the efforts of formal and informal mentors to provide guidance and coaching as they maneuver through their career development plans.
+<br><br>
+<a href="<%= standart_href%>" title="Return to standard page with video" class="p" onfocus="this.className='p-over';" onblur="this.className='p';">Return to standard page with video</a>
 <% End If %>
 </p>
 
@@ -116,6 +118,8 @@ Some of the rewards include Spirit Cards, Spirit Points, individual and team tro
 The ultimate recognition is the award of excellence. Each our top performers are celebrated with a trip to a five star resort. Bank executives accompany the winners for a weekend of activities to recognize the group. 
 <br><br>
 We believe hard work should be rewarded and there are a variety of ways to demonstrate appreciation for a job well done.
+<br><br>
+<a href="<%= standart_href%>" title="Return to standard page with video" class="p" onfocus="this.className='p-over';" onblur="this.className='p';">Return to standard page with video</a>
 <% End If %>
 </p>
 
@@ -139,15 +143,12 @@ Investor Relations
 These groups serve as partners to all lines of business in the bank. Associates in the CFO Group are responsible for planning, forecasting, budgeting and providing accurate financial information to assist in managing our businesses and investor relationships. Our financial processes serve to provide information to help investors and others understand our company and the key drivers of our performance. 
 <br><br>
 The nature of our work requires us to be knowledgeable of the businesses we support and to remain in constant contact with them at all times.
+<br><br>
+<a href="<%= standart_href%>" title="Return to standard page with video" class="p" onfocus="this.className='p-over';" onblur="this.className='p';">Return to standard page with video</a>
 <% End If %>
 </p>
 
 <img class="dotdiv" style="margin: 6px 0px 0px 0px;" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
-
-<% If page_section = "ADA" Then %>
-<br><br>
-<a href="<%= standart_href%>" title="Return to standard page with video" class="p" onfocus="this.className='p-over';" onblur="this.className='p';">Return to standard page with video</a>
-<% End If %>
 
 </div>
 <br><br>

@@ -59,6 +59,8 @@ Click on a question below to play the video response.
 </p>
 <p style="margin: 6px 0px 0px 0px;"><a name="answ1"></a>
 Bank of America provides comprehensive training programs and on-going learning opportunities.  We also believe in rewarding, recognizing and fostering a pay for performance culture.  Our associates also enjoy being the recipients of a broad array of benefits, including tuition reimbursement which is an investment into your personal and professional growth.
+<br><br>
+<a href="<%= standart_href%>" title="Return to standard page with video" class="p" onfocus="this.className='p-over';" onblur="this.className='p';">Return to standard page with video</a>
 <% End If %>
 </p>
 
@@ -71,6 +73,8 @@ Bank of America provides comprehensive training programs and on-going learning o
 </p>
 <p style="margin: 6px 0px 0px 0px;"><a name="answ2"></a>
 Because Bank of America is a pay-for-performance company, the sky's the limit when it comes to growth! If you have sustained and proven performance, there are many opportunities available in different lines of business. In addition to growing within the Consumer channel, Bank of America has many departments in-house, such as Human Resources, Marketing, Legal and Finance.
+<br><br>
+<a href="<%= standart_href%>" title="Return to standard page with video" class="p" onfocus="this.className='p-over';" onblur="this.className='p';">Return to standard page with video</a>
 <% End If %>
 </p>
 
@@ -83,6 +87,8 @@ Because Bank of America is a pay-for-performance company, the sky's the limit wh
 </p>
 <p style="margin: 6px 0px 0px 0px;"><a name="answ3"></a>
 With the largest retail footprint in the nation, Bank of America is a leader in the financial industry.  We have over 5,700 banking centers, over 17,000 ATMs, and over 195,000 associates.  In addition we are the leader in online banking.  Also, Bank of America has been repeatedly named as one of the "50 Best Companies for Minorities" by Fortune magazine.
+<br><br>
+<a href="<%= standart_href%>" title="Return to standard page with video" class="p" onfocus="this.className='p-over';" onblur="this.className='p';">Return to standard page with video</a>
 <% End If %>
 </p>
 
@@ -95,15 +101,12 @@ With the largest retail footprint in the nation, Bank of America is a leader in 
 </p>
 <p style="margin: 6px 0px 0px 0px;"><a name="answ4"></a>
 Bank of America is committed to giving back to communities. Team Bank of America is an internal group that leads the way with community events and programs. All associates are welcomed and encouraged to get involved with Team Bank of America activities. In addition, our Bank of America Foundation makes sizable financial contributions to enrich our communities.
+<br><br>
+<a href="<%= standart_href%>" title="Return to standard page with video" class="p" onfocus="this.className='p-over';" onblur="this.className='p';">Return to standard page with video</a>
 <% End If %>
 </p>
 
 <img class="dotdiv" style="margin: 6px 0px 0px 0px;" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
-
-<% If page_section = "ADA" Then %>
-<br><br>
-<a href="<%= standart_href%>" title="Return to standard page with video" class="p" onfocus="this.className='p-over';" onblur="this.className='p';">Return to standard page with video</a>
-<% End If %>
 
 </div>
 <br><br>

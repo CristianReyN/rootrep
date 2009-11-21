@@ -71,6 +71,8 @@ Click on a question below to play the video response.
 </p>
 <p style="margin: 6px 0px 0px 0px;"><a name="answ1"></a>
 Global Wealth and Investment Management (GWIM) is the largest Domestic Diversified Wealth Manager in the United States, and the most profitable in its peer group. The three businesses that carry GWIM are, Premier Banking and Investments (PB&I), US Trust Bank of America Private Wealth Management, and Columbia Management. PB&I delivers both banking and investment products and services to mass affluent clients. US Trust provides integrated wealth management solutions to high net worth individuals with more than 3 million in investable assets. Columbia Management provides investment oversight to nearly $700 billion in assets under management and serves investors-corporations, college endowments, and pension funds with product lines that span the full spectrum of equity, fixed income and cash investments.
+<br><br>
+<a href="<%= standart_href%>" title="Return to standard page with video" class="p" onfocus="this.className='p-over';" onblur="this.className='p';">Return to standard page with video</a>
 <% End If %>
 </p>
 
@@ -83,6 +85,8 @@ Global Wealth and Investment Management (GWIM) is the largest Domestic Diversifi
 </p>
 <p style="margin: 6px 0px 0px 0px;"><a name="answ2"></a>
 Global Wealth and Investment Management (GWIM) earned 2.4 billion in net income in 2006. There are four key drivers of income; the first two are loans and net interest earned on deposits. GWIM earns money on the spreads of these two items so our ability to price these products are critical to our success. The next two revenue sources are non-interest income earned on assets under management and brokerage income. With $700 billion in assets under management and brokerage services that span the full spectrum of our clients we are well positioned to continue our strong growth in this area.
+<br><br>
+<a href="<%= standart_href%>" title="Return to standard page with video" class="p" onfocus="this.className='p-over';" onblur="this.className='p';">Return to standard page with video</a>
 <% End If %>
 </p>
 
@@ -95,15 +99,12 @@ Global Wealth and Investment Management (GWIM) earned 2.4 billion in net income 
 </p>
 <p style="margin: 6px 0px 0px 0px;"><a name="answ3"></a>
 Career opportunities vary by discipline and management structure.  Global Wealth & Investment Management strives to provide challenging and development-focused career paths to associates throughout their careers.  We enable those joining earlier in their careers to grow and assume new responsibilities, while offering associates at more senior levels the opportunity to leverage their proven skills and experience in addressing new challenges.  Associates can expect to move to different roles and responsibilities periodically as their manager offers new developmental assignments and recognizes their proven capabilities.  Associates have the opportunity to experience these new career opportunities and development assignments across all five lines of business within GWIM which are: Premier Banking and Investments, US Trust Bank of America Private Wealth Management Group, Columbia Management, Bank of America Retirement, and Client Solutions, and Alternative Investments.  The frequency of that movement depends on an individual's overall contributions and performance and the availability of the right career advancement role.
+<br><br>
+<a href="<%= standart_href%>" title="Return to standard page with video" class="p" onfocus="this.className='p-over';" onblur="this.className='p';">Return to standard page with video</a>
 <% End If %>
 </p>
 
 <img class="dotdiv" style="margin: 6px 0px 0px 0px;" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
-
-<% If page_section = "ADA" Then %>
-<br><br>
-<a href="<%= standart_href%>" title="Return to standard page with video" class="p" onfocus="this.className='p-over';" onblur="this.className='p';">Return to standard page with video</a>
-<% End If %>
 
 </div>
 <br><br>

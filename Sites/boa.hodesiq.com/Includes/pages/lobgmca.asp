@@ -65,6 +65,8 @@ Click on a question below to play the video response.
 </p>
 <p style="margin: 6px 0px 0px 0px;"><a name="answ1"></a>
 Our disciplines - including brand marketing, advertising, agency management, corporate communications, and philanthropy - attract individuals from a variety of academic and professional backgrounds. Successful candidates come from such diverse fields as retail, financial services, non-profits, journalism, telecommunications, EVEN hospitality, government, and aerospace.  We look for creative, analytical, and project management skills, along with a talent for effectively leading people and initiatives.
+<br><br>
+<a href="<%= standart_href%>" title="Return to standard page with video" class="p" onfocus="this.className='p-over';" onblur="this.className='p';">Return to standard page with video</a>
 <% End If %>
 </p>
 
@@ -77,6 +79,8 @@ Our disciplines - including brand marketing, advertising, agency management, cor
 </p>
 <p style="margin: 6px 0px 0px 0px;"><a name="answ2"></a>
 Our corporate headquarters is located in Charlotte, N.C.  While a significant portion of Global Marketing & Corporate Affairs roles are based here, we also have associates located in cities like Boston, New York and Wilmington, Del., as well as the west coast and international locations.
+<br><br>
+<a href="<%= standart_href%>" title="Return to standard page with video" class="p" onfocus="this.className='p-over';" onblur="this.className='p';">Return to standard page with video</a>
 <% End If %>
 </p>
 
@@ -89,15 +93,12 @@ Our corporate headquarters is located in Charlotte, N.C.  While a significant po
 </p>
 <p style="margin: 6px 0px 0px 0px;"><a name="answ3"></a>
 Career opportunities vary by discipline and management structure.  Bank of America and Global Marketing & Corporate Affairs strive to provide challenging and development-focused career paths to associates throughout their careers.  We enable those joining earlier in their careers to grow and assume new responsibilities, while offering associates at more senior levels the chance to leverage their proven skills and experience in addressing new opportunities.
+<br><br>
+<a href="<%= standart_href%>" title="Return to standard page with video" class="p" onfocus="this.className='p-over';" onblur="this.className='p';">Return to standard page with video</a>
 <% End If %>
 </p>
 
 <img class="dotdiv" style="margin: 6px 0px 0px 0px;" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
-
-<% If page_section = "ADA" Then %>
-<br><br>
-<a href="<%= standart_href%>" title="Return to standard page with video" class="p" onfocus="this.className='p-over';" onblur="this.className='p';">Return to standard page with video</a>
-<% End If %>
 
 </div>
 

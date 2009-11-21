@@ -59,6 +59,8 @@ Click on a question below to play the video response.
 </p>
 <p style="margin: 6px 0px 0px 0px;"><a name="answ1"></a>
 Outside of the normal medical, dental, vision, and 401k benefits, Bank of America offers various benefits to some or all associates that other companies do not.  For example, one of the benefits we offer is the Associate Homeownership Program which offers associates a 5 year unsecured loan. We also offer Child Care Assistance, Discounts on Bank of America products and services and tuition reimbursement for undergraduate and graduate programs.
+<br><br>
+<a href="<%= standart_href%>" title="Return to standard page with video" class="p" onfocus="this.className='p-over';" onblur="this.className='p';">Return to standard page with video</a>
 <% End If %>
 </p>
 
@@ -71,6 +73,8 @@ Outside of the normal medical, dental, vision, and 401k benefits, Bank of Americ
 </p>
 <p style="margin: 6px 0px 0px 0px;"><a name="answ2"></a>
 Bank of America receives a large amount of referrals from our top associates and we appreciate you thinking of a friend for a career opportunity with us. You can refer a friend online by visiting the main job search page, and clicking on the link "Send this job to a friend".
+<br><br>
+<a href="<%= standart_href%>" title="Return to standard page with video" class="p" onfocus="this.className='p-over';" onblur="this.className='p';">Return to standard page with video</a>
 <% End If %>
 </p>
 
@@ -84,6 +88,8 @@ Bank of America receives a large amount of referrals from our top associates and
 <p style="margin: 6px 0px 0px 0px;"><a name="answ3"></a>
 Bank of America is committed to an environment where current individual performance is the key consideration in defining total compensation.<br>
 Associates' pay is based on competitive market pay data and a robust performance management process.  Managers have tools for assessing performance and pay.  At Bank of America, top performers are compensated most aggressively for the role they are performing.
+<br><br>
+<a href="<%= standart_href%>" title="Return to standard page with video" class="p" onfocus="this.className='p-over';" onblur="this.className='p';">Return to standard page with video</a>
 <% End If %>
 </p>
 
@@ -96,15 +102,12 @@ Associates' pay is based on competitive market pay data and a robust performance
 </p>
 <p style="margin: 6px 0px 0px 0px;"><a name="answ4"></a>
 For those prepared to drive their professional development, Bank of America provides the processes, tools and culture to help you reach your fullest potential.  Just look at our leaders; Ken Lewis started out as a Credit Analyst and has risen to the rank of CEO.  Those who take responsibility for their own advancement are supported by the personal attention you might expect to find in a small company. At the same time, they find the resources and commitment that are available only in large world-class organizations. We put as much emphasis on this investment as we would on any other business investment we make.
+<br><br>
+<a href="<%= standart_href%>" title="Return to standard page with video" class="p" onfocus="this.className='p-over';" onblur="this.className='p';">Return to standard page with video</a>
 <% End If %>
 </p>
 
 <img class="dotdiv" style="margin: 6px 0px 0px 0px;" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
-
-<% If page_section = "ADA" Then %>
-<br><br>
-<a href="<%= standart_href%>" title="Return to standard page with video" class="p" onfocus="this.className='p-over';" onblur="this.className='p';">Return to standard page with video</a>
-<% End If %>
 
 </div>
 <br><br>

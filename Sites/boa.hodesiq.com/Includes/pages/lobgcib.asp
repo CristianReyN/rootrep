@@ -63,6 +63,8 @@ Click on a question below to play the video response.
 </p>
 <p style="margin: 6px 0px 0px 0px;"><a name="answ1"></a>
 Global Corporate and Investment Bank is one of Bank of America's three major businesses comprising 28% of the company's revenue.  GCIB provides broad financial services to clients ranging from businesses with $2.5 million in revenue to large Institutional clients such as hedge funds and asset managers.  We bank over 40% of businesses with revenues greater than $20 million and have relationships with over 98% of Fortune 500 companies.  Our Client Managers are industry experts who provide relationship management and advisory services through a variety of products and services such as Deposit and Treasury Management, Credit, Equity and Debt Capital, and Risk Management.
+<br><br>
+<a href="<%= standart_href%>" title="Return to standard page with video" class="p" onfocus="this.className='p-over';" onblur="this.className='p';">Return to standard page with video</a>
 <% End If %>
 </p>
 
@@ -75,6 +77,8 @@ Global Corporate and Investment Bank is one of Bank of America's three major bus
 </p>
 <p style="margin: 6px 0px 0px 0px;"><a name="answ2"></a>
 Adding value to our clients is how Bank of America has earned leading positions across its three primary lines of business. We have relationships with nearly all of the largest U.S. companies and a vast number of top global companies. Bank of America's scale also enables us to deliver broad industry and product expertise. We understand and anticipate the needs of our clients based on their unique industry and operating environments. Our wide array of products means we can be innovative and thoughtful in devising the right solutions for our clients.
+<br><br>
+<a href="<%= standart_href%>" title="Return to standard page with video" class="p" onfocus="this.className='p-over';" onblur="this.className='p';">Return to standard page with video</a>
 <% End If %>
 </p>
 
@@ -87,15 +91,12 @@ Adding value to our clients is how Bank of America has earned leading positions 
 </p>
 <p style="margin: 6px 0px 0px 0px;"><a name="answ3"></a>
 Bank of America serves 160,000 clients through offices located in 23 countries, and help our clients do business in 175 markets worldwide. And we are continuing to invest and grow so that we can add value to clients in more ways-and in more places-than ever before.
+<br><br>
+<a href="<%= standart_href%>" title="Return to standard page with video" class="p" onfocus="this.className='p-over';" onblur="this.className='p';">Return to standard page with video</a>
 <% End If %>
 </p>
 
 <img class="dotdiv" style="margin: 6px 0px 0px 0px;" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
-
-<% If page_section = "ADA" Then %>
-<br><br>
-<a href="<%= standart_href%>" title="Return to standard page with video" class="p" onfocus="this.className='p-over';" onblur="this.className='p';">Return to standard page with video</a>
-<% End If %>
 
 </div>
 <br><br>
