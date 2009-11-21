@@ -46,7 +46,7 @@ Interested in joining the "World's Most Admired Global Bank"? We invite you to e
 <H1 style="margin: 0px <%=right_margin%>px 0px <%=left_margin_0%>px; width: <%=(315-right_margin_split-left_margin_0)%>px;">Frequently Asked Questions</H1>
 <div style="margin: <% If page_section = "ADA" Then %>12<% Else %>0<%End If%>px <%=right_margin_split%>px 0px <%=left_margin_0%>px; width: <%=(315-right_margin_split-left_margin_0)%>px;">
 <% If page_section <> "ADA" Then %>
-<div id="panswer" style="width: 205px; height: 153px; text-align: left;">
+<div id="panswer" style="width: 205px; height: 152px; text-align: left;">
 <img style="margin: 0px;" src="../Includes/pages/lob/thumbnails/ryan_on.jpg" alt="" border="0" align="absmiddle">
 <script language="JavaScript1.2" type="text/javascript">
 	document.write(strReplace(strReplace(strReplace(strReplace(getHTMLControl("ansvideo",205,22,false,false,false,true,false,false),"<text>","Video transcript"),"<title>","Video transcript"),"<href>",ada_href),"<anchor>",ryan_a2.ada_anchor));

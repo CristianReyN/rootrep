@@ -220,7 +220,8 @@ function doPassVar(objname,args)
 				switch(sendText)
 				{
 					case 'play':
-						stopVideo("javaflash");
+						//stopVideo("javaflash");
+						pauseVideo("javaflash");
 						createStopAudio('ansvideo');
 						videoplaying = 'ansvideo';
 					break;
@@ -244,9 +245,10 @@ function doPassVar(objname,args)
 				switch(sendText)
 				{
 					case 'play':
-						stopVideo("ansvideo");
+						//stopVideo("ansvideo");
+						pauseVideo("ansvideo");
 						createStopAudio('javaflash');
-						videoplaying = 'ansvideo';
+						videoplaying = 'javaflash';
 					break;
 					case 'pause':
 						if(!videoplaying || videoplaying=='javaflash') removeStopAudio();
@@ -322,7 +324,7 @@ function playVideo(video,play,pause,stop,ada,mute,ccoc)
 		mv.style.display = "inline";
 		vthumb.style.display = "none";
 		vthumb_off.style.display = "none";
-		stopVideo("ansvideo");
+		pauseVideo("ansvideo");//stopVideo("ansvideo");
 		if(action_script) createStopAudio('javaflash');
 		videoplaying = 'javaflash';
 	}
@@ -364,6 +366,17 @@ function stopVideo(objname)
 	if(vo && (objname != "javaflash" || mv.style.display == "inline"))
 	{
 		doPassVar(objname,"stop");
+		videoplaying = null;
+	}
+}
+
+function pauseVideo(objname)
+{
+	if(!mv) mv=$x("mainvideo");
+	var vo = eval("window.document."+objname);
+	if(vo && (objname != "javaflash" || mv.style.display == "inline"))
+	{
+		doPassVar(objname,"pause");
 		videoplaying = null;
 	}
 }
@@ -810,7 +823,7 @@ function playResponce(s)
 		var v = false;
 		var vo = false;
 		if(pv && pv.getElementsByTagName("br")[0] && pv.getElementsByTagName("br")[0].className)
-			if(vo=eval(pv.getElementsByTagName("br")[0].className)) v = getFAQVideo(vo,205,131,"ansvideo","");
+			if(vo=eval(pv.getElementsByTagName("br")[0].className)) v = getFAQVideo(vo,205,130,"ansvideo","");
 		if(pa && v)
 		{
 			if(pa_video) stopResponce();
@@ -818,7 +831,7 @@ function playResponce(s)
 			var pi = findChild(p,"img","pai");
 			if(pi) pa_img = pi;
 			if(pi) MM_swapImage(pi.name,"","../images/video_on_faq.gif",1);
-			stopVideo("javaflash");//disableVideo();
+			pauseVideo("javaflash"); //stopVideo("javaflash");//disableVideo();
 			createStopAudio('ansvideo');
 			pa.innerHTML = v + strReplace(strReplace(strReplace(strReplace(getHTMLControl("ansvideo",205,22,true,true,true,true,true,false),"<text>","Video transcript"),"<title>","Video transcript"),"<href>",ada_href),"<anchor>",vo.ada_anchor);
 			videoplaying = 'ansvideo';

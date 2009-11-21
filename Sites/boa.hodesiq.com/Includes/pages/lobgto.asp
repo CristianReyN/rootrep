@@ -44,7 +44,7 @@ The technological superiority of our systems is as important as the quality of t
 <H1 style="margin: 0px <%=right_margin%>px 0px <%=left_margin_0%>px; width: <%=(315-right_margin_split-left_margin_0)%>px;">Frequently Asked Questions</H1>
 <div style="margin: <% If page_section = "ADA" Then %>12<% Else %>0<%End If%>px <%=right_margin_split%>px 0px <%=left_margin_0%>px; width: <%=(315-right_margin_split-left_margin_0)%>px;">
 <% If page_section <> "ADA" Then %>
-<div id="panswer" style="width: 205px; height: 153px; text-align: left;">
+<div id="panswer" style="width: 205px; height: 152px; text-align: left;">
 <img style="margin: 0px;" src="../Includes/pages/lob/thumbnails/andy_on.jpg" alt="" border="0" align="absmiddle">
 <script language="JavaScript1.2" type="text/javascript">
 	document.write(strReplace(strReplace(strReplace(strReplace(getHTMLControl("ansvideo",205,22,false,false,false,true,false,false),"<text>","Video transcript"),"<title>","Video transcript"),"<href>",ada_href),"<anchor>",andy_a1.ada_anchor));
@@ -54,6 +54,11 @@ The technological superiority of our systems is as important as the quality of t
 Click on a question below to play the video response.
 </p>
 <% End If %>
+<img class="dotdiv" style="margin: 6px 0px 0px 0px;" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
+<p style="margin: 6px 0px 0px 0px;" class="faqpa">
+<b>Bank of America Honors Technology Fellows</b>
+<br><a href="http://www.cnbc.com/id/22732536/" target="_blank" class="ip">Click here to learn more</a>
+</p>
 <img class="dotdiv" style="margin: 6px 0px 0px 0px;" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
 <p style="margin: 6px 0px 0px 0px;" class="faqpa">
 <b>What are some of the Cutting Edge technologies Bank of America supports and how does Innovation play a part in the development of new Products and Services?</b>
