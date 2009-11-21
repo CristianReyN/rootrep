@@ -50,7 +50,6 @@ public partial class Jobcart : System.Web.UI.Page
 			if (DW.Count > 0)
 			{
 				phRemove.Visible = true;
-
 			}
 
 			grdJobcart.DataSource = DW;
@@ -115,7 +114,9 @@ public partial class Jobcart : System.Web.UI.Page
             MyApplyLink = (HyperLink)e.Row.FindControl("hlnkApply");
             MyApplyLink.ID = "hlnkApply" + e.Row.RowIndex;
             MyApplyLink.Text = "Apply Now<span class='auraltext'> For " + DrvRow["JobTitle"].ToString() + "</span>";
-            MyApplyLink.NavigateUrl = DrvRow["APPLY_ONLINE_URL"].ToString();
+            //apply process goes trough clients page for hits counting:
+            MyApplyLink.NavigateUrl = "applyrd.aspx?" + HttpUtility.UrlEncode(DrvRow["APPLY_ONLINE_URL"].ToString());
+            //MyApplyLink.NavigateUrl = DrvRow["APPLY_ONLINE_URL"].ToString();
 
             MyLabel = (Label)e.Row.FindControl("lblCheckBox");
             MyLabel.ID = "lblCheckBox" + e.Row.RowIndex;

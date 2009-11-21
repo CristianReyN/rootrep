@@ -58,10 +58,10 @@ public partial class JobDetails : System.Web.UI.Page
             lblJobFamily.Text = dt.Rows[0]["family"].ToString();
             lblHoursPerWeek.Text = dt.Rows[0]["HrsPerWeek"].ToString();
             lblQualification.Text = dt.Rows[0]["Qualification"].ToString();
-            this.hApplyNow.Value = dt.Rows[0]["ApplyURL"].ToString();
-            //ApplyURL = dt.Rows[0]["ApplyURL"].ToString();
-			//this.applylink.NavigateUrl = "applyrd.aspx?" + HttpUtility.UrlEncode(ApplyURL);
-			//this.applylnk.NavigateUrl = "applyrd.aspx?" + HttpUtility.UrlEncode(ApplyURL);
+            //apply process goes trough clients page for hits counting:
+            ApplyURL = dt.Rows[0]["ApplyURL"].ToString();
+            this.hApplyNow.Value = "applyrd.aspx?" + HttpUtility.UrlEncode(ApplyURL);
+
         }
         if (Request.QueryString["SearchPage"].ToString() == "Sp")
         {
