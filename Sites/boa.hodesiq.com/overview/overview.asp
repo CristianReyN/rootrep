@@ -33,7 +33,7 @@ If playflash = "1" Then flashPage = false
 <!-- Left Nav -->
 <noscript>
 <% If playflash = "" Then %>
-			<tr valign="top"><td valign="middle" style="background: #cadceb; padding: 0.35em 6px 0.35em 6px;"><a class="g" href="../overview/overview.asp" id="videotranscripts" title="Video transcripts" onfocus="this.className='g-over';" onblur="this.className='g';" style="line-height: 1.1em;">Video Transcripts</a></td></tr>
+			<tr valign="top"><td valign="middle" style="background: #cadceb; padding: 0.35em 6px 0.35em 6px;"><a class="g" href="../ada/overview.asp" id="videotranscripts" title="Video transcripts" onfocus="this.className='g-over';" onblur="this.className='g';" style="line-height: 1.1em;">Video Transcripts</a></td></tr>
 			<tr valign="top" style="background: #ffffff;"><td><img src="../images/white.gif" width="154" height="1" alt="" border="0"></td></tr>
 <% End If %>
 </noscript>
