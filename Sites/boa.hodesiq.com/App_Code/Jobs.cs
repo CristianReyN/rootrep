@@ -102,5 +102,22 @@ public class Jobs
         return db.GetDataTable(Sql);
 
     }
+
+    public DataTable Search()
+    {
+        DBUtils db;
+        try
+        {
+            Sql = string.Empty;
+            Sql = "select Req_ID as Jobs,Description as Location,PostingDate as Date from Jobs";
+            db = new DBUtils();
+        }
+        catch (Exception ex)
+        {
+            throw ex;
+        }
+        return db.GetDataTable(Sql);
+
+    }
     
 }
