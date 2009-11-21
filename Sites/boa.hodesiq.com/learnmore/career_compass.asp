@@ -1,3 +1,6 @@
+<%
+Response.Redirect("../campusrecruiting/career_fit_tool.asp")
+%>
 <!-- #include file="../Includes/compass.asp" -->
 <% Response.Buffer=True 
 	Dim request_page_number, store_page_number

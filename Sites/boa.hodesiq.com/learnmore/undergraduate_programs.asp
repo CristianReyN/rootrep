@@ -1,4 +1,5 @@
 <% Response.Buffer=True 
+Response.Redirect("../campusrecruiting/undergraduate_programs.asp")
 Dim title, mpage, spage, ada_href, ada_title, job_search_action, Metatag%>
 <!-- #include file="../includes/breadcrumb.asp" -->
 <% title = breadcrumb & "Campus Recruiting | Undergraduate Programs"

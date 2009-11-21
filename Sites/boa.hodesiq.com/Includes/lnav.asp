@@ -19,31 +19,35 @@
 </div>
 		</li>
 		<li id="lobli"<% if mpage = "lob" And spage = "" then Response.Write " class=""home""" end if %>>
-<div<%If mpage = "lob" Then%> style="padding-right: 0px;"<%End If%>><a class="g" href="../learnmore/lob.asp" id="lobli" title="Lines of Business" onfocus="this.className='g-over';" onblur="this.className='g';">Lines of Business</a>
+<div<%If mpage = "lob" Then%> style="padding-right: 0px;"<%End If%>><a class="g" href="../learnmore/lob.asp" id="loblia" title="Lines of Business" onfocus="this.className='g-over';" onblur="this.className='g';">Lines of Business</a>
 <%
 	If mpage = "lob" Then
 		call LobNav(""," class=""home""","")
-	'ElseIf mpage = "areasoftalent" Then
-	'	call LobNav(" id=""lob_aot""",""," class=""loblili""")
 	Else
 		call LobNav(" id=""lob""",""," class=""loblili""")
 	End If
 %>
 </div>
 		</li>
+		
+		<li id="campli"<% if mpage = "camp" And spage = "" then Response.Write " class=""home""" end if %>>
+<div<%If mpage = "camp" Then%> style="padding-right: 0px;"<%End If%>><a class="g" href="../campusrecruiting/" id="camplia" title="Campus Recruiting" onfocus="this.className='g-over';" onblur="this.className='g';">Campus Recruiting</a>
+<%
+	If mpage = "camp" Then
+		call CampNav(""," class=""home""")
+	Else
+		call CampNav(" id=""camp""","")
+	End If
+%>
+</div>
+		</li>
+		
+		
 		<li id="learnmoreli"<% if mpage = "learnmore" And spage = "" then Response.Write " class=""home""" end if %>>
-<div<%If mpage = "learnmore" Then%> style="padding-right: 0px;"<%End If%>><a class="g" href="../learnmore/learnmore.asp" id="learnmore" title="Related Information" onfocus="this.className='g-over';" onblur="this.className='g';">Related Information</a>
+<div<%If mpage = "learnmore" Then%> style="padding-right: 0px;"<%End If%>><a class="g" href="../learnmore/learnmore.asp" id="learnmorelia" title="Related Information" onfocus="this.className='g-over';" onblur="this.className='g';">Related Information</a>
 <%
 	If mpage = "learnmore" Then
 		call RelInfoNav(""," class=""home""","")
-	'ElseIf mpage = "lob" And (Not spage = "lobgcsbb") And (Not spage = "lobcss") Then
-	'	call RelInfoNav(" id=""relinfo_lob""",""," class=""relinfolili""")
-	'ElseIf mpage = "lob" And spage = "lobgcsbb" Then
-	'	call RelInfoNav(" id=""relinfo_lobgcsbb""",""," class=""relinfolili""")
-	'ElseIf mpage = "lob" And spage = "lobcss" Then
-	'	call RelInfoNav(" id=""relinfo_lobcss""",""," class=""relinfolili""")
-	'ElseIf mpage = "areasoftalent" Then
-	'	call RelInfoNav(" id=""relinfo_aot""",""," class=""relinfolili""")
 	Else
 		call RelInfoNav(" id=""relinfo""",""," class=""relinfolili""")
 	End If
@@ -54,7 +58,7 @@
 <div><a class="g" href="../staffingevents/staffingevents.asp" title="Staffing Events" onfocus="this.className='g-over';" onblur="this.className='g';">Staffing Events</a></div>
 		</li>
 		<li id="globalli"<% if mpage = "globalcareers" And spage = "" then Response.Write " class=""home""" end if %>>
-<div<%If mpage = "globalcareers" Then%> style="padding-right: 0px;"<%End If%>><a class="g" href="<%=GLOBAL_URL%>" id="globalcareers" title="Global Careers" onfocus="this.className='g-over';" onblur="this.className='g';">Global Careers</a>
+<div<%If mpage = "globalcareers" Then%> style="padding-right: 0px;"<%End If%>><a class="g" href="<%=GLOBAL_URL%>" id="globallia" title="Global Careers" onfocus="this.className='g-over';" onblur="this.className='g';">Global Careers</a>
 <%
 	If mpage = "globalcareers" Then
 		call GlobalCareersNav(""," class=""home""")
@@ -233,6 +237,68 @@
 				<li class="tertiary"<% if tpage = "emea_culture" then Response.Write " style=""background: #eaf1f7;""" end if %>><div><a href="<%=GLOBAL_URL%>emea_culture.aspx" class="sbtxt" title="Europe, Middle East and Africa Culture &amp; Work Environment" onfocus="this.className='sbtxt-over';" onblur="this.className='sbtxt';">Culture &amp; Work Environment</a></div>
 				</li>
 				<li class="tertiary"<% if tpage = "emea_staffing" then Response.Write " style=""background: #eaf1f7;""" end if %>><div><a href="<%=GLOBAL_URL%>emea_staffing.aspx" class="sbtxt" title="Europe, Middle East and Africa Staffing Process" onfocus="this.className='sbtxt-over';" onblur="this.className='sbtxt';">Staffing Process</a></div>
+				</li>
+<%	End If %>
+			</ul>
+<%
+	End Function
+%>
+
+
+
+<%
+	Function CampNav(id,ul)
+%>			<ul<% Response.Write id %><% Response.Write ul %>>
+				<li<% if spage = "explore_careers" And tpage = "" then Response.Write " style=""background: #eaf1f7;""" end if %>>
+<div><a href="../campusrecruiting/explore_careers.asp" class="sbtxt" title="Explore Careers" onfocus="this.className='sbtxt-over';" onblur="this.className='sbtxt';">Explore Careers</a></div>
+				</li>
+<%	If mpage = "camp" And spage = "explore_careers" Then %>
+				<li class="tertiary"<% if tpage = "undergraduate_programs" then Response.Write " style=""background: #eaf1f7;""" end if %>><div><a href="../campusrecruiting/undergraduate_programs.asp" class="sbtxt" title="Undergraduate Programs" onfocus="this.className='sbtxt-over';" onblur="this.className='sbtxt';">Undergraduate Programs</a></div>
+				</li>
+				<li class="tertiary"<% if tpage = "graduate_programs" then Response.Write " style=""background: #eaf1f7;""" end if %>><div><a href="../campusrecruiting/graduate_programs.asp" class="sbtxt" title="Graduate Programs" onfocus="this.className='sbtxt-over';" onblur="this.className='sbtxt';">Graduate Programs</a></div>
+				</li>
+				<li class="tertiary"<% if tpage = "internships" then Response.Write " style=""background: #eaf1f7;""" end if %>><div><a href="../campusrecruiting/internships.asp" class="sbtxt" title="Internships" onfocus="this.className='sbtxt-over';" onblur="this.className='sbtxt';">Internships</a></div>
+				</li>
+<%	End If %>
+
+				<li<% if spage = "our_culture" And tpage = "" then Response.Write " style=""background: #eaf1f7;""" end if %>>
+<div><a href="../campusrecruiting/our_culture.asp" class="sbtxt" title="Our Culture" onfocus="this.className='sbtxt-over';" onblur="this.className='sbtxt';">Our Culture</a></div>
+				</li>
+<%	If mpage = "camp" And spage = "our_culture" Then %>
+				<li class="tertiary"<% if tpage = "diversity_and_inclusion" then Response.Write " style=""background: #eaf1f7;""" end if %>><div><a href="../campusrecruiting/diversity_and_inclusion.asp" class="sbtxt" title="Diversity and Inclusion" onfocus="this.className='sbtxt-over';" onblur="this.className='sbtxt';">Diversity and Inclusion</a></div>
+				</li>
+				<li class="tertiary"<% if tpage = "making_a_difference" then Response.Write " style=""background: #eaf1f7;""" end if %>><div><a href="../campusrecruiting/making_a_difference.asp" class="sbtxt" title="Making a Difference" onfocus="this.className='sbtxt-over';" onblur="this.className='sbtxt';">Making a Difference</a></div>
+				</li>
+				<li class="tertiary"<% if tpage = "the_environment" then Response.Write " style=""background: #eaf1f7;""" end if %>><div><a href="../campusrecruiting/the_environment.asp" class="sbtxt" title="The Environment" onfocus="this.className='sbtxt-over';" onblur="this.className='sbtxt';">The Environment</a></div>
+				</li>
+				<li class="tertiary"<% if tpage = "benefits_and_rewards" then Response.Write " style=""background: #eaf1f7;""" end if %>><div><a href="../campusrecruiting/benefits_and_rewards.asp" class="sbtxt" title="Benefits and Rewards" onfocus="this.className='sbtxt-over';" onblur="this.className='sbtxt';">Benefits and Rewards</a></div>
+				</li>
+				<li class="tertiary"<% if tpage = "information_for_parents" then Response.Write " style=""background: #eaf1f7;""" end if %>><div><a href="../campusrecruiting/information_for_parents.asp" class="sbtxt" title="Information for Parents" onfocus="this.className='sbtxt-over';" onblur="this.className='sbtxt';">Information for Parents</a></div>
+				</li>
+<%	End If %>
+
+				<li<% if spage = "find_your_fit" And tpage = "" then Response.Write " style=""background: #eaf1f7;""" end if %>>
+<div><a href="../campusrecruiting/find_your_fit.asp" class="sbtxt" title="Find Your Fit" onfocus="this.className='sbtxt-over';" onblur="this.className='sbtxt';">Find Your Fit</a></div>
+				</li>
+<%	If mpage = "camp" And spage = "find_your_fit" Then %>
+				<li class="tertiary"<% if tpage = "career_fit_tool" then Response.Write " style=""background: #eaf1f7;""" end if %>><div><a href="../campusrecruiting/career_fit_tool.asp" class="sbtxt" title="Career Fit Tool" onfocus="this.className='sbtxt-over';" onblur="this.className='sbtxt';">Career Fit Tool </a></div>
+				</li>
+				<li class="tertiary"<% if tpage = "business_areas" then Response.Write " style=""background: #eaf1f7;""" end if %>><div><a href="../campusrecruiting/business_areas.asp" class="sbtxt" title="Business Areas" onfocus="this.className='sbtxt-over';" onblur="this.className='sbtxt';">Business Areas</a></div>
+<%	End If %>
+
+				<li<% if spage = "campus_events" And tpage = "" then Response.Write " style=""background: #eaf1f7;""" end if %>>
+<div><a href="../campusrecruiting/campus_events.asp" class="sbtxt" title="Campus Events" onfocus="this.className='sbtxt-over';" onblur="this.className='sbtxt';">Campus Events</a></div>
+				</li>
+				
+				<li<% if spage = "how_to_apply" And tpage = "" then Response.Write " style=""background: #eaf1f7;""" end if %>>
+<div><a href="../campusrecruiting/how_to_apply.asp" class="sbtxt" title="How to Apply" onfocus="this.className='sbtxt-over';" onblur="this.className='sbtxt';">How to Apply</a></div>
+				</li>
+<%	If mpage = "camp" And spage = "how_to_apply" Then %>
+				<li class="tertiary"<% if tpage = "interview_tips" then Response.Write " style=""background: #eaf1f7;""" end if %>><div><a href="../campusrecruiting/interview_tips.asp" class="sbtxt" title="Interview Tips" onfocus="this.className='sbtxt-over';" onblur="this.className='sbtxt';">Interview Tips</a></div>
+				</li>
+				<li class="tertiary"<% if tpage = "glossary" then Response.Write " style=""background: #eaf1f7;""" end if %>><div><a href="../campusrecruiting/glossary.asp" class="sbtxt" title="Glossary" onfocus="this.className='sbtxt-over';" onblur="this.className='sbtxt';">Glossary</a></div>
+				</li>
+				<li class="tertiary"<% if tpage = "campus_faqs" then Response.Write " style=""background: #eaf1f7;""" end if %>><div><a href="../campusrecruiting/campus_faqs.asp" class="sbtxt" title="Campus FAQs" onfocus="this.className='sbtxt-over';" onblur="this.className='sbtxt';">Campus FAQs</a></div>
 				</li>
 <%	End If %>
 			</ul>

@@ -19,6 +19,11 @@ function startPs()
 		document.getElementById("lob").style.top = document.getElementById("lobli").offsetTop-1;
 		document.getElementById("lob").style.visibility = "visible";
 	}
+	if(document.getElementById("camp"))
+	{
+		document.getElementById("camp").style.top = document.getElementById("campli").offsetTop-1;
+		document.getElementById("camp").style.visibility = "visible";
+	}
 	if(document.getElementById("relinfo"))
 	{
 		document.getElementById("relinfo").style.top = document.getElementById("learnmoreli").offsetTop-1;
@@ -31,6 +36,8 @@ function startPs()
 	}
 	
 	if(window.preloadCC) preloadCC();
+	if(window.initTab) initTab();
+	
 	var aa = new Array();
 	aa = addElementsByClassName("a","p",aa);
 	aa = addElementsByClassName("a","ip",aa);
@@ -40,6 +47,8 @@ function startPs()
 	aa = addElementsByClassName("a","left2",aa);
 	aa = addElementsByClassName("a","ftrlnk",aa);
 	aa = addElementsByClassName("a","btn1",aa);
+	aa = addElementsByClassName("a","bac",aa);
+	aa = addElementsByClassName("a","bacb",aa);
 	for (var i=0; i<aa.length; i++) {
 		aa[i].baseClassName = aa[i].className;
 		aa[i].onmouseover=function() {
@@ -71,11 +80,11 @@ if(document.getElementById("lnav")){
 		{
 			elements[i].onmouseover=function() {
 				this.className+=" fover";
-				if(tdiv && (this.id=="areasoftalentli" || this.id=="learnmoreli" || this.id=="lobli" || this.id=="globalcareers"))tdiv(false);
+				if(tdiv && (this.id=="areasoftalentli" || this.id=="learnmoreli" || this.id=="lobli" || this.id=="globalli" || this.id=="campli"))tdiv(false);
 			}
 			elements[i].onmouseout=function() {
 				this.className=this.className.replace(new RegExp(" fover\\b"), "");
-				if(tdiv && (this.id=="areasoftalentli" || this.id=="learnmoreli" || this.id=="lobli" || this.id=="globalcareers"))tdiv(true);
+				if(tdiv && (this.id=="areasoftalentli" || this.id=="learnmoreli" || this.id=="lobli" || this.id=="globalli" || this.id=="campli"))tdiv(true);
 			}
 			
 			lia = elements[i].getElementsByTagName("a");
@@ -93,16 +102,16 @@ if(document.getElementById("lnav")){
 					this.className=this.baseClassName+'-over';
 					this.li.className+=" fover";
 					if(this.pli) this.pli.className+=" fover";
-					if(tdiv && this.li && (this.li.id=="areasoftalentli" || this.li.id=="learnmoreli" || this.li.id=="lobli" || this.id=="globalcareers"))tdiv(false);
-					if(tdiv && this.pli && (this.pli.id=="areasoftalentli" || this.pli.id=="learnmoreli" || this.pli.id=="lobli" || this.id=="globalcareers"))tdiv(false);
+					if(tdiv && this.li && (this.li.id=="areasoftalentli" || this.li.id=="learnmoreli" || this.li.id=="lobli" || this.li.id=="globalli" || this.li.id=="campli"))tdiv(false);
+					if(tdiv && this.pli && (this.pli.id=="areasoftalentli" || this.pli.id=="learnmoreli" || this.pli.id=="lobli" || this.pli.id=="globalli" || this.pli.id=="campli"))tdiv(false);
 				}
 				lia[0].onblur=function() {
 					this.className=this.baseClassName;
 					this.li.className=this.li.className.replace(new RegExp(" fover\\b"), "");
 					if(this.pli) this.pli.className=
 						this.pli.className.replace(new RegExp(" fover\\b"), "");
-					if(tdiv && this.li && (this.li.id=="areasoftalentli" || this.li.id=="learnmoreli" || this.li.id=="lobli" || this.id=="globalcareers"))tdiv(true);
-					if(tdiv && this.pli && (this.pli.id=="areasoftalentli" || this.pli.id=="learnmoreli" || this.pli.id=="lobli" || this.id=="globalcareers"))tdiv(true);
+					if(tdiv && this.li && (this.li.id=="areasoftalentli" || this.li.id=="learnmoreli" || this.li.id=="lobli" || this.li.id=="globalli" || this.li.id=="campli"))tdiv(true);
+					if(tdiv && this.pli && (this.pli.id=="areasoftalentli" || this.pli.id=="learnmoreli" || this.pli.id=="lobli" || this.id=="globalli" || this.pli.id=="campli"))tdiv(true);
 				}
 			}
 		}

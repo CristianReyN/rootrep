@@ -26,6 +26,7 @@ Dim left_margin, right_margin, top_content_padding_bottom, top_content_padding_b
 left_margin = 12
 left_margin_0 = 0
 right_margin = 8
+if mpage = "camp" Then right_margin = 15
 right_margin_split = 20
 top_content_padding_bottom = 12
 top_content_padding_bottom_hd = 0
@@ -38,7 +39,7 @@ middle_content_padding = "padding: 0px 8px 0px 0px;"
 <title><%=title %></title>
 <link rel="stylesheet" href="../includes/styles.css" type="text/css">
 <link rel="stylesheet" href="../includes/hs_safebutton.css" type="text/css">
-<%If mpage = "overview" Then %>
+<%If mpage = "overview" Or mpage = "camp" Then %>
 <script language="javascript" type="text/javascript">
 //<!--
 var accessFlash = "<%=sccess_flash_title%>";
@@ -57,7 +58,7 @@ H2.p, H3.p {
 </style><%End If %>
 <script language="JavaScript1.2" src="../includes/masthead.js" type="text/javascript"></script>
 <script language="JavaScript1.2" src="../includes/mvc-fontsize.js" type="text/javascript"></script>
-<%If mpage = "overview" Then %>
+<%If mpage = "overview" Or mpage = "camp" Then %>
 <script language="JavaScript1.2" src="../includes/flash.js" type="text/javascript"></script>
 <%End If %>
 <% If (spage = "collrecruiting" And (tpage = "" Or tpage = "career_compass") And fpage = "") Or (mpage = "lob" And spage = "lb_career_compass") Or (spage = "collrecruiting" And (tpage = "graduate_programs" Or tpage = "undergraduate_programs" Or tpage = "internships_program") And fpage <> "") Or (mpage = "areasoftalent" And spage <> "") Then %>
@@ -166,7 +167,9 @@ End If
 //<!--
 	examineFontSize("body");
 	<% If ENV="production" Then Response.write "cmSetProduction();" %>
+<% If Not ( mpage = "camp" And ( tpage = "undergraduate_programs" Or tpage = "graduate_programs" Or tpage = "internships" Or fpage = "undergraduate_internships" Or fpage = "graduate_internships" Or tpage = "benefits_and_rewards" Or spage = "campus_events" Or spage = "how_to_apply" Or tpage = "campus_faqs" ) ) Then %>
 	cmCreatePageviewTag("<%= pageId %>", null, null,"<%= categoryId %>");
+<% End If %>
 //-->
 </script>
 <% If mpage = "overview" Or (spage = "collrecruiting" And (tpage = "graduate_programs" Or tpage = "undergraduate_programs" Or tpage = "internships_program") And fpage <> "") Or (mpage = "areasoftalent" And spage <> "") Then %>
