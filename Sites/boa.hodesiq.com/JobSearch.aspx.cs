@@ -20,31 +20,18 @@ public partial class JobSearch : System.Web.UI.Page
         //if (ViewState["PstBack"] == null)
         if (! this.IsPostBack)
         {
-            if (string.IsNullOrEmpty(Request["SearchPage"]))
+            if (string.IsNullOrEmpty(Request["stateid"]))
             {
-                AreaofTalent at = new AreaofTalent();
-                areasoftalent.DataTextField = "Talent";
-                areasoftalent.DataValueField = "TalentID";
-                areasoftalent.DataSource = at.Talent();
-                areasoftalent.DataBind();
-                areasoftalent.Items.Insert(0, new ListItem("Select a Talent", "-1"));
+                PopulateAreasofTalentandJobFamily();
 
-                jfamily.DataTextField = "Family";
-                jfamily.DataValueField = "FamilyID";
-                jfamily.DataSource = at.Jobfamily();
-                jfamily.DataBind();
-                jfamily.Items.Insert(0, new ListItem("Select a Family", "-1"));
-
-                Location Lo = new Location();
-                State.DataTextField = "State";
-                State.DataValueField = "Stateid";
-                State.DataSource = Lo.State();
-                State.DataBind();
-                State.Items.Insert(0, new ListItem("Select a State", "-1"));
-                State.SelectedIndex = 0;
+                PopulateLocations();
             }
             else
             {
+                PopulateAreasofTalentandJobFamily();
+
+                PopulateLocations();
+
                 FunSearch();
             }
 
@@ -70,7 +57,6 @@ public partial class JobSearch : System.Web.UI.Page
         jfamily.DataValueField = "FamilyID";
         jfamily.DataSource = at.TalentwiseJobfamily(areasoftalent.SelectedValue.ToString());
         jfamily.DataBind();
-        jfamily.Items.Insert(0, new ListItem("Select a Family", ""));
         //jfamily.SelectedIndex = 0;
 
 
@@ -123,7 +109,7 @@ public partial class JobSearch : System.Web.UI.Page
         int cityid =-1;
         string keywrd = string.Empty;
         aot = string.IsNullOrEmpty(areasoftalent.SelectedValue) ? -1: Convert.ToInt32( areasoftalent.SelectedItem.Value);
-        if (string.IsNullOrEmpty(Request["SearchPage"]))
+        if (string.IsNullOrEmpty(Request["stateid"]) || this.Page.IsPostBack)
         {
             foreach (ListItem li in jfamily.Items)
             {
@@ -170,5 +156,37 @@ public partial class JobSearch : System.Web.UI.Page
         LnkPrvs.Visible = true;
         
     }
+
+
+    protected void PopulateAreasofTalentandJobFamily()
+    {
+        AreaofTalent at = new AreaofTalent();
+        
+        areasoftalent.DataTextField = "Talent";
+        areasoftalent.DataValueField = "TalentID";
+        areasoftalent.DataSource = at.Talent();
+        areasoftalent.DataBind();
+        areasoftalent.Items.Insert(0, new ListItem("Select a Talent", "-1"));
+
+        jfamily.DataTextField = "Family";
+        jfamily.DataValueField = "FamilyID";
+        jfamily.DataSource = at.Jobfamily();
+        jfamily.DataBind();
+        
+
+    }
+
+
+    protected void PopulateLocations()
+    {
+        Location Lo = new Location();
+        State.DataTextField = "State";
+        State.DataValueField = "Stateid";
+        State.DataSource = Lo.State();
+        State.DataBind();
+        State.Items.Insert(0, new ListItem("Select a State", "-1"));
+        State.SelectedIndex = 0;
+    }
+
 
 }
