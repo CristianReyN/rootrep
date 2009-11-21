@@ -33,7 +33,7 @@ Learn what to expect as you apply and interview for a position with Bank of Amer
 <p style="margin-top: 6px;">
 New associates will find fertile ground in which to build valuable skills, network and discover rewarding career paths.</p>
 
-<H2 class="p" style="margin: 0px; padding: 0px;"><a href="<% if page_section <> "ADA" then Response.write "../learnmore/globalloc.asp" Else Response.write "globalloc.asp" End If%>" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="Global locations">Global locations</a></H2>
+<H2 class="p" style="margin: 0px; padding: 0px;"><a href="<%=GLOBAL_URL%><% if page_section = "ADA" then %>ada/<% End If %>" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="Global locations">Global locations</a></H2>
 <p style="margin-top: 6px;">
 With offices in more than 30 countries, we support our clients' activities around the world and partner with leading corporations of all sizes.</p>
 

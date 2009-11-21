@@ -1,5 +1,9 @@
 <script language="JavaScript1.2" src="../Includes/pages/rjp/rjp.js" type="text/javascript"></script>
 <script language="JavaScript1.2" type="text/javascript">
+function preloadThumb()
+{
+	MM_preloadImages('../Includes/pages/rjp/thumbnails/retention_on.gif','../Includes/pages/rjp/thumbnails/retention_on.gif');
+}
 var ada_href = "<%=ada_href %>";
 action_script = true;
 if ( hasRequestedVersion && retention_video ) {

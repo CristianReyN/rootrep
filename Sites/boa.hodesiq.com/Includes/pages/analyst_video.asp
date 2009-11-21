@@ -33,6 +33,11 @@ The type of person who is successful as a Fraud Analyst or Fraud Initiation Anal
 <br><br>
 If you feel this position is right for you, you can simply apply online for a position as a Fraud&nbsp;Analyst&nbsp;1.
 </p>
+<br><br>
+<p style="margin: 0px <%=right_margin_split%>px 0px <%=left_margin_0%>px;">
+<a href="<%=standart_href%>" title="Return to standard page with video" class="p" onfocus="this.className='p-over';" onblur="this.className='p';">Return to standard page with video</a>
+</p>
+<br><br>
 </div>
 <% Else %>
 					<div align="center" style="margin: 0px 0px 0px <%=right_margin_split%>px; padding: 0px; width: 100%;"><div style="margin: 0px; padding: 0px; width: 400px;">

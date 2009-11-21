@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding="UTF-8" ?>
+<main>
+        <objet>
+          <vidTitle show="false" posx="10" posy="10">video1</vidTitle>
+          <autoPlay>true</autoPlay>
+          <autoRewind>true</autoRewind>
+          <totalTime></totalTime>
+          <contentPathNS>http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/CASH_VAULT.flv</contentPathNS>
+          <contentPathOC>http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/CASH_VAULT_OC.flv</contentPathOC>
+          <firstFrame>../Includes/pages/rjp/imx/CASHSERVICES.jpg</firstFrame>
+          <skin>http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/skinsflvplayback/SteelOverPlaySeekMute.swf</skin>
+          <next>1</next>
+        </objet>
+        <objet>
+          <vidTitle show="false" posx="10" posy="10">video2</vidTitle>
+          <autoPlay>false</autoPlay>
+          <autoRewind>true</autoRewind>
+          <totalTime></totalTime>
+          <contentPathNS>http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/CASH_VAULT.flv</contentPathNS>
+          <contentPathOC>http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/CASH_VAULT_OC.flv</contentPathOC>
+          <firstFrame>../Includes/pages/rjp/imx/CASHSERVICES.jpg</firstFrame>
+          <skin>http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/skinsflvplayback/SteelOverPlaySeekMute.swf</skin>
+          <next>1</next>
+        </objet>
+</main>

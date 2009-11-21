@@ -138,7 +138,11 @@ if(!window.MM_swapImage)
 
 if(!window.preloadCC)
 {
-	function preloadCC(){MM_preloadImages('../Includes/pages/buttons/01btn-over.gif','../Includes/pages/buttons/02btn-over.gif','../Includes/pages/buttons/03btn-over.gif','../Includes/pages/buttons/05btn-over.gif','../Includes/pages/buttons/06btn-over.gif','../images/video_on_faq.gif','../images/video_off_faq.gif');}
+	function preloadCC()
+	{
+MM_preloadImages('../Includes/pages/buttons/01btn-over.gif','../Includes/pages/buttons/02btn-over.gif','../Includes/pages/buttons/03btn-over.gif','../Includes/pages/buttons/05btn-over.gif','../Includes/pages/buttons/06btn-over.gif','../images/video_on_faq.gif','../images/video_off_faq.gif');
+		if(window.preloadThumb) window.preloadThumb();
+	}
 }
 
 function strReplace(s,p,r){var pos=s.indexOf(p);var len=p.length;while(pos != -1){s1=s.substring(0,pos);s2=s.substring(pos+len,s.length);s=s1+r+s2;pos=s.indexOf(p);}return s;}
@@ -325,7 +329,7 @@ function ccfvideo(swf_url,flv_url,flashplayer)
 var flashplayer = new fpvideo("../Includes/pages/rjp/flashplayer_xml20080308.swf",400,300);
 
 //var analyst_cc_video;
-var analyst_video, cma_video, retention_video, customersat_video, collectors_video, rjp_video;
+var analyst_video, cma_video, retention_video, customersat_video, collectors_video, rjp_video, cashservices_video;
 /*analyst_cc_video = new ccfvideo(
 					null,
 					"../Includes/pages/rjp/ANAYST_CC.xml",
@@ -348,6 +352,16 @@ cma_video = new fvideo(
 					"#vt",
 					"../Includes/pages/rjp/thumbnails/cma_on.jpg",
 					"../Includes/pages/rjp/thumbnails/cma_off.jpg",
+					null,
+					null
+					);
+cashservices_video = new fvideo(
+					flashplayer.swf_url,
+					"../Includes/pages/rjp/CASHSERVICES.xml",
+					flashplayer,
+					"#vt",
+					"../Includes/pages/rjp/thumbnails/cashservices_on.jpg",
+					"../Includes/pages/rjp/thumbnails/cashservices_off.jpg",
 					null,
 					null
 					);
