@@ -1,3 +1,6 @@
+<%
+Response.Redirect("../ada_camp/")
+%>
 <% Response.Buffer=True 
 Dim title, mpage, spage, ada_href, ada_title, job_search_action,page_section, Metatag%>
 <!-- #include file="../includes/breadcrumb.asp" -->
