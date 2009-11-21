@@ -86,12 +86,15 @@ public partial class JobSearch : System.Web.UI.Page
         aot=areasoftalent.SelectedItem.Value.ToString();
         for (int i = 0; i < jfamily.Items.Count; i++)
         {
+            if(jfamily.SelectedIndex != 0 )
+            {
             if (jfamily.Items[i].Selected)
             {
                 if (jf == "")
-                    jf = jfamily.Items[i].Value.ToString();
+                    jf = "'"+jfamily.Items[i].Text.ToString()+"'";
                 else
-                    jf += "," + jfamily.Items[i].Value.ToString();
+                    jf += "," + "'"+jfamily.Items[i].Text.ToString()+"'";
+            }
             }
         }
         if (State.SelectedIndex == 0)
