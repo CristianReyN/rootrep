@@ -4,6 +4,7 @@
 if ( hasRequestedVersion ) {
 	document.write(Chen_video);
 	document.write(strReplace(strReplace(strReplace(html_control,"<text>","Video transcript"),"<title>","Video transcript"),"<href>","<%=ada_href %>"));
+	createStopAudio();
 } else {
 	document.write(reqFlashPlayer+'chen.jpg'+reqFlashPlayer2);
 }

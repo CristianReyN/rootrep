@@ -4,10 +4,8 @@
 	if page_section <> "ADA" then href_pre = "../learnmore/" %>
 			<tr valign="top">
 				<td width="100%" colspan="2" valign="top">
-<div style="position: relative;"><div style="position: absolute; left: 407; top: 136; z-index: 12;">
-<a href="<%Response.write href_pre%>career_compass.asp" title="Explore"><img src="../images/boa_explore.gif" alt="Explore" width="106" height="22" border="0"></a>
-</div><img src="../images/collegerecr.jpg" width="389" height="166" alt="Bank of America has proven itself as a leader." title="Bank of America has proven itself as a leader." border="0"><img src="../images/collegerecrt.jpg" width="189" height="166" alt="Find your ideal opportunity  with our Career Compass." title="Find your ideal opportunity  with our Career Compass." border="0">
-</div>
+<div style="position: relative;"><div style="position: absolute; left: 407; top: 130; z-index: 12;">
+<a href="<%Response.write href_pre%>career_compass.asp" title="Explore"><img src="../images/boa_explore.gif" alt="Explore" width="106" height="22" border="0"></a></div><img src="../images/collegerecr.jpg" width="389" height="166" alt="Bank of America has proven itself as a leader." title="Bank of America has proven itself as a leader." border="0"><img src="../images/collegerecrt.jpg" width="189" height="166" alt="Find your ideal opportunity  with our Career Compass." title="Find your ideal opportunity  with our Career Compass." border="0"></div>
 <div class="hidden">I wanted to work for a growing and reputable corporation... Bank of America has proven itself as a leader.</div>
 				</td>
 			</tr>

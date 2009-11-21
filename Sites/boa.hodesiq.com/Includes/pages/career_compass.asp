@@ -180,33 +180,33 @@ opportunities to be innovative and creative." border="0">
 <div class="hidden">I wanted to work for a growing and reputable corporation... Bank of America has proven itself as a leader.</div>
 				</td>
 			</tr>
-			<tr valign="top"><td colspan="2" valign="top" class="divb"><img src="../images/clear.gif" width="100%" height="4" alt="" border="0"></td></tr>
+			<tr valign="top"><td colspan="2" valign="top" class="divb"><img src="../images/clear.gif" width="100%" height="3" alt="" border="0"></td></tr>
 		</table>
 		<a name="skipmaincontent"></a><br>
 <form name="questionnaire" action="career_compass.asp" method="get">
-		<table width="578" height="519" border="0" cellpadding="0" cellspacing="0" summary="">
+		<table width="578" border="0" cellpadding="0" cellspacing="0" summary="">
 			<tr>
 				<td>
 					<img src="../images/cc_lt.gif" width="16" height="15" alt="" /></td>
 				<td style="background: url(../images/cc_t.gif);">
-					<img src="../images/clear.gif" width="542" height="15" alt="" /></td>
+					<img src="../images/clear.gif" width="542" height="15" align="top" alt="" /></td>
 				<td>
 					<img src="../images/cc_rt.gif" width="20" height="15" alt="" /></td>
 			</tr>
 			<tr>
 				<td style="background: url(../images/cc_l.gif);">
-					<img src="../images/clear.gif" width="16" height="428" alt="" /></td>
-				<td height="100%" valign="top" style="padding: 0px 27px 0px 26px;">
-<H1 style="margin: 0px 0px 0px 0px;"><% If isObject(page) Then Response.write page.Item("title") %></H1>
-<hr size="1" color="#BDBCC1" style="margin: 12px 0px 24px 0px;">
+					<img src="../images/clear.gif" width="16" height="10" alt="" /></td>
+				<td height="100%" valign="top" style="padding: 0px 0px 0px 0px;">
+<H1 style="margin: -14px 0px 0px -1px; padding-bottom: 5px;"><% If isObject(page) Then Response.write page.Item("title") %></H1>
+<div style=" background: #999999; margin: 0px 0px 7px 0px;"><img src="../images/clear.gif" width="100%" height="1" align="top" alt="" /></div>
 <input type="hidden" name="page_number" value="<% Response.write next_page_number %>">
 <%	If isObject(page) And trim(page.Item("copy")) <> "" Then %>
-<p style="margin: 0px 0px 12px 0px;"><% Response.write page.Item("copy") %></p>
+<p style="margin: 0px 0px 9px -1px;"><% Response.write page.Item("copy") %></p>
 <%	End If %>
 <%	If er_ror <> "" Then %>
-<p style="margin: 0px 0px 12px 0px; color: Red;"><% Response.write er_ror %></p>
+<p style="margin: 0px 0px 9px -1px; color: Red;"><% Response.write er_ror %></p>
 <%	End If %>
-					<table width="100%" cellpadding="0" cellspacing="0" border="0" summary="">
+					<table width="100%" cellpadding="0" cellspacing="0" border="0" style="margin: 0px 0px 0px 0px;" summary="">
 <%	If isObject(page) And UBound(page.Item("question_groups")) > 0 Then 
 		question_groups =  page.Item("question_groups")
 		For g=1 To UBound(question_groups) Step 1
@@ -216,26 +216,26 @@ opportunities to be innovative and creative." border="0">
 			If question_group.Item("group_number") = "5" Then two_bank = True
 			If UBound(questions) > 0 Then %>
 						<tr>
-							<td nowrap style="padding: 2px;"><b><% Response.write question_group.Item("group_number") %>.</b></td>
-							<td nowrap colspan="<% If two_bank Then Response.write "5" Else Response.write "2" End If %>" style="padding: 2px;"><h2 style="margin: 0px;"><% Response.write question_group.Item("title") %></h2></td>
+							<td nowrap style="padding: 0px;"><b><% Response.write question_group.Item("group_number") %>.</b></td>
+							<td nowrap colspan="<% If two_bank Then Response.write "5" Else Response.write "2" End If %>" style="padding: 0px;"><h2 style="margin: 0px;"><% Response.write question_group.Item("title") %></h2></td>
 						</tr>
 <%
 				For q=1 To UBound(questions) Step 1
 %>
 						<tr>
 <%					If Not two_bank Or q < 11 Then %>
-							<td nowrap style="padding: 2px;">&nbsp;</td>
-							<td nowrap style="padding: 2px;"><% If question_group.Item("group_type") = "checkbox" Then %><input name="q-<% Response.write questions(q).Item("question_number") %>" type="checkbox" value="<% Response.write questions(q).Item("question_number") %>"<% If questions(q).Item("answer") Then %> checked<% End If %>><% ElseIf question_group.Item("group_type") = "radio" Then %><input type="radio" name="g-<% Response.write question_group.Item("group_number") %>" value="<% Response.write questions(q).Item("question_number") %>"<% If questions(q).Item("answer") Then %> checked<% End If %>><% End If %></td>
-							<td nowrap style="padding: 2px;"><p style="margin: 0px;"><% Response.write questions(q).Item("question") %></p></td>
+							<td nowrap style="padding: 0px;">&nbsp;</td>
+							<td nowrap style="padding: 0px;"><% If question_group.Item("group_type") = "checkbox" Then %><input name="q-<% Response.write questions(q).Item("question_number") %>" type="checkbox" value="<% Response.write questions(q).Item("question_number") %>"<% If questions(q).Item("answer") Then %> checked<% End If %>><% ElseIf question_group.Item("group_type") = "radio" Then %><input type="radio" name="g-<% Response.write question_group.Item("group_number") %>" value="<% Response.write questions(q).Item("question_number") %>"<% If questions(q).Item("answer") Then %> checked<% End If %>><% End If %></td>
+							<td nowrap style="padding: 0px;"><p style="margin: 0px;"><% Response.write questions(q).Item("question") %></p></td>
 <%					End If %>
 <%					If two_bank And q < 11 Then %>
-							<td nowrap style="padding: 2px;">&nbsp;</td>
+							<td nowrap style="padding: 0px;">&nbsp;</td>
 <%						If q <  10 Then %>
-							<td nowrap style="padding: 2px;"><% If question_group.Item("group_type") = "checkbox" Then %><input name="q-<% Response.write questions(q+10).Item("question_number") %>" type="checkbox" value="<% Response.write questions(q+10).Item("question_number") %>"<% If questions(q+10).Item("answer") Then %> checked<% End If %>><% ElseIf question_group.Item("group_type") = "radio" Then %><input type="radio" name="g-<% Response.write question_group.Item("group_number") %>" value="<% Response.write questions(q+10).Item("question_number") %>"<% If questions(q+10).Item("answer") Then %> checked<% End If %>><% End If %></td>
-							<td nowrap style="padding: 2px;"><p style="margin: 0px;"><% Response.write questions(q+10).Item("question") %></p></td>
+							<td nowrap style="padding: 0px;"><% If question_group.Item("group_type") = "checkbox" Then %><input name="q-<% Response.write questions(q+10).Item("question_number") %>" type="checkbox" value="<% Response.write questions(q+10).Item("question_number") %>"<% If questions(q+10).Item("answer") Then %> checked<% End If %>><% ElseIf question_group.Item("group_type") = "radio" Then %><input type="radio" name="g-<% Response.write question_group.Item("group_number") %>" value="<% Response.write questions(q+10).Item("question_number") %>"<% If questions(q+10).Item("answer") Then %> checked<% End If %>><% End If %></td>
+							<td nowrap style="padding: 0px;"><p style="margin: 0px;"><% Response.write questions(q+10).Item("question") %></p></td>
 <%						Else %>
-							<td nowrap style="padding: 2px;">&nbsp;</td>
-							<td nowrap style="padding: 2px;">&nbsp;</td>
+							<td nowrap style="padding: 0px;">&nbsp;</td>
+							<td nowrap style="padding: 0px;">&nbsp;</td>
 <%						End If %>
 <%					End If %>
 						</tr>
@@ -260,16 +260,17 @@ opportunities to be innovative and creative." border="0">
 					</table><br>
 				</td>
 				<td style="background: url(../images/cc_r.gif);">
-					<img src="../images/clear.gif" width="20" height="428" alt="" /></td>
+					<img src="../images/clear.gif" width="20" height="10" alt="" /></td>
 			</tr>
 			<tr>
 				<td style="background: url(../images/cc_l.gif);">
-					<img src="../images/clear.gif" width="16" height="55" alt="" /></td>
-				<td height="100%" valign="top" style="padding: 0px 27px 0px 26px;"><hr size="1" color="#BDBCC1" style="margin: 12px 0px 12px 0px;">
+					<img src="../images/clear.gif" width="16" height="31" alt="" /></td>
+				<td height="100%" valign="bottom" style="padding: 0px;">
+<div style=" background: #999999; margin: 0px 0px 8px 0px;"><img src="../images/clear.gif" width="100%" height="1" align="top" alt="" /></div>
 					<table width="100%" cellpadding="0" cellspacing="0" border="0" summary="">
 						<tr>
 							<td width="100%">
-<a class="left2" style="text-decoration: none;" href="<% Response.write href_pre %>collrecruiting.asp">Return to College Recruiting</a>
+<a class="left" style="text-decoration: none;" href="<% Response.write href_pre %>collrecruiting.asp">Return to College Recruiting</a>
 							</td>
 							<td width="70" nowrap align="right">
 <%
@@ -281,12 +282,16 @@ opportunities to be innovative and creative." border="0">
 <img src="../images/cc_prev_dis.gif" border="0" alt="" />
 <%		End If %>
 							</td>
-							<td width="60" align="center" nowrap><b>&nbsp;&nbsp;<% Response.write page_number %> of 5&nbsp;&nbsp;</b></td>
+							<td align="center" nowrap style="padding: 0px 9px 0px 8px;"><b><% Response.write page_number %> of 5</b></td>
 							<td nowrap>
 <%
-		If page_number < 5 Then
+		If page_number < 4 Then
 %>
 <input type="image" name="next" src="../images/cc_next.gif" value="Next" alt="Next" title="Next" style="cursor: pointer;" onclick=""document.questionnaire.submit();"">
+<%
+		ElseIf page_number < 5 Then
+%>
+<input type="image" name="next" src="../images/cc_finish.gif" value="Finish" alt="Finish" title="Finish" style="cursor: pointer;" onclick=""document.questionnaire.submit();"">
 <%		Else %>
 <input type="image" name="restart" src="../images/cc_restart.gif" value="Restart" alt="Restart" title="Restart" style="cursor: pointer;" onclick=""document.questionnaire.submit();"">
 <%		End If %>
@@ -295,7 +300,7 @@ opportunities to be innovative and creative." border="0">
 					</table>
 				</td>
 				<td style="background: url(../images/cc_r.gif);">
-					<img src="../images/clear.gif" width="20" height="55" alt="" /></td>
+					<img src="../images/clear.gif" width="20" height="31" alt="" /></td>
 			</tr>
 			<tr>
 				<td>
