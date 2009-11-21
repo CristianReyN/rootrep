@@ -1,9 +1,8 @@
 <% Response.Buffer=True 
 Dim title, mpage, spage, ada_href, ada_title, job_search_action, Metatag
 title = "Bank of America | Career | Campus Recruiting | Career Compass"
-mpage = "learnmore"
-spage = "collrecruiting"
-tpage = "lb_career_compass"
+mpage = "lob"
+spage = "lb_career_compass"
 ada_href = "../ada/lb_career_compass.asp"
 page_self = "../learnmore/lb_career_compass.asp"
 ada_title = "Bank of America | Career | Campus Recruiting | Career Compass"

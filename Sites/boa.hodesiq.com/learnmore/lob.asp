@@ -1,11 +1,11 @@
 <% Response.Buffer=True 
 Dim title, mpage, spage, ada_href, ada_title, job_search_action, Metatag
-title = "Bank of America | Career | Corporate Information | Corporate Staff &amp; Support"
+title = "Bank of America | Career | Lines of Business"
 mpage = "lob"
-spage = "lobcss"
-ada_href = "../ada/lobcss.asp"
-page_self = "../learnmore/lobcss.asp"
-ada_title = "Bank of America | Career | Corporate Information | Corporate Staff &amp; Support"
+spage = "lob"
+ada_href = "../ada/lob.asp"
+page_self = "../learnmore/lob.asp"
+ada_title = "Bank of America | Career | Lines of Business"
 job_search_action = "../jobsearch/searchresult.asp"
 Metatag="Information is available on this page discussing the lines of business within Bank of America and a link to the values of the organization."
 %>
@@ -23,7 +23,7 @@ Metatag="Information is available on this page discussing the lines of business 
 	<td valign="top" width="578" height="100%">
 <!-- Body-->
 <img src="../images/clear.gif" width="15" height="4" alt="" border="0"><br>
-<!-- #include file="../includes/pages/lobcss.asp" -->
+<!-- #include file="../includes/pages/lob.asp" -->
 <br><br>
 <!-- Body-->
 	</td>

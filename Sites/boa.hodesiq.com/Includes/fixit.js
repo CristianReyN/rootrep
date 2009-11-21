@@ -8,5 +8,6 @@ function fixIE()
 	}
 	if(document.getElementById('aroftalent')) document.getElementById('aroftalent').blur();
 	if(document.getElementById('learnmore')) document.getElementById('learnmore').blur();
+	if(document.getElementById('lob')) document.getElementById('lob').blur();
 }
 //fixIE();
