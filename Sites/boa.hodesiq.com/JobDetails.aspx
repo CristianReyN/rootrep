@@ -158,7 +158,7 @@
                                 <!-- Left Nav -->
                                 <tr valign="top">
                                     <td align="right" style="background-color: #cadceb; height: 50" valign="bottom">
-                                        <object data="daisy.swf" type="application/x-shockwave-flash">
+                                        <object data="images/daisy.swf" type="application/x-shockwave-flash">
                                             <param name="movie" value="daisy.swf" />
                                             <param name="scale" value="exactfit" />
                                             If you are reading this it means you don't have flash player installed. Get it <a
@@ -194,7 +194,7 @@
                             <table border="0" cellpadding="0" cellspacing="0" summary="" width="578">
                                 <tr valign="top">
                                     <td style="padding: 6px 12px 0px 12px; height: 100%" valign="top">
-                                        <form id="jsearch" action="searchresult.aspx">
+                                        <form id="jsearch" action="searchresults.aspx">
                                             <table border="0" cellpadding="0" cellspacing="0" summary="" width="100%">
                                                 <tr>
                                                     <td valign="top">
