@@ -10,35 +10,98 @@ using System.Web.UI.HtmlControls;
 using System.Data.SqlClient;
 //using System.Data.Sql;  
 using System.IO;
+using System.Collections;
+using System.Collections.Specialized;
 
 
 public partial class JobSearch : System.Web.UI.Page 
 {
+    #region Change History
+    // date		    developer	    comments
+    // -----------	----------	    ----------
+    //  11/27/06    Jonathan Do     (1) Removed paging logic in code, used new SearchJobs Method in Jobs.cs to return records for page selected, logic to
+    //                              hide or display Next/Prev button.
+    //                              (2) Added BindSearchString() function to bind search criteria when return from job detail.
+    //                              (3) Added FilterJobFamily() and FilterCity() to filter when select AreaOfTalent and State
+    //                              index change and filter when redirect back from job detail.
+    /// </summary>
+    #endregion
+
     public int GlbLoadCheck;
+    private int RecPerPage = 12;
     protected void Page_Load(object sender, EventArgs e)
     {
-        //if (ViewState["PstBack"] == null)
         if (! this.IsPostBack)
         {
+            PopulateAreasofTalentandJobFamily();
+            //areasoftalent.SelectedIndex = 0;
+            //jfamily.SelectedIndex = 0;
+            PopulateLocations();
+            PopulateCity();
+            //State.SelectedIndex = 0;
             if (string.IsNullOrEmpty(Request["stateid"]))
             {
-                PopulateAreasofTalentandJobFamily();
-
-                PopulateLocations();
+                areasoftalent.SelectedIndex = 0;
+                jfamily.SelectedIndex = 0;
+                State.SelectedIndex = 0;
             }
             else
             {
-                PopulateAreasofTalentandJobFamily();
-
-                PopulateLocations();
-
+                BindSearchString();
+                ViewState["PageNumber"] = 1;
                 FunSearch();
             }
-
         }
     }
+    public void BindSearchString()
+    {
+        ListItem MyListItem;
+        string MyValue;
+        MyValue = String.IsNullOrEmpty(Request.QueryString["areasoftalent"]) == false ? Request.QueryString["areasoftalent"] : "-1";
+        MyListItem = areasoftalent.Items.FindByValue(MyValue);
+        if (MyListItem != null)
+            MyListItem.Selected = true;
+        if (MyValue.ToString() != "-1")
+            FilterJobFamily(MyValue.ToString());
 
-    protected void brefine_Click(object sender, EventArgs e)
+        MyListItem = jfamily.Items.FindByValue(String.IsNullOrEmpty(Request.QueryString["jfamily"]) == false ? Request.QueryString["jfamily"] : "-1");
+        if (MyListItem != null)
+            MyListItem.Selected = true;
+
+        MyValue = String.IsNullOrEmpty(Request.QueryString["stateid"]) == false ? Request.QueryString["stateid"] : "-1";
+        MyListItem = State.Items.FindByValue(MyValue);
+        if (MyListItem != null)
+            MyListItem.Selected = true;
+        if (MyValue.ToString() != "-1")
+        {
+            FilterCity(Convert.ToInt32(MyValue));
+            City.Visible = true;
+        }
+
+        MyListItem = City.Items.FindByValue(String.IsNullOrEmpty(Request.QueryString["cityid"]) == false ? Request.QueryString["cityid"] : "-1");
+        if (MyListItem != null)
+            MyListItem.Selected = true;
+        keywords.Text = String.IsNullOrEmpty(Request.QueryString["keywords"]) == false ? Request.QueryString["keywords"] : "";
+    }
+    protected void areaoftalent_SelectedIndexChanged(object sender, System.EventArgs e)
+    {
+        DropDownList MyDropDownList = (DropDownList)sender;
+        FilterJobFamily(MyDropDownList.SelectedItem.Value.ToString());
+        jfamily.SelectedIndex = 0;
+        
+    }
+    public void FilterJobFamily(string FamilyID)
+    {
+        AreaofTalent at = new AreaofTalent();
+        jfamily.Items.Clear();
+        jfamily.DataTextField = "Family";
+        jfamily.DataValueField = "FamilyID";
+        jfamily.DataSource = at.TalentwiseJobfamily(FamilyID);
+        jfamily.DataBind();
+        jfamily.Items.Insert(0, new ListItem("All Job Family", "-1"));
+        //jfamily.SelectedIndex = 0;
+    }
+    protected void State_SelectedIndexChanged(object sender, System.EventArgs e)
     {
         if (State.SelectedIndex > 1)
         {
@@ -50,111 +113,90 @@ public partial class JobSearch : System.Web.UI.Page
             City.Visible = false;
             LblCity.Visible = false;
         }
-        AreaofTalent at = new AreaofTalent();
-
-        jfamily.Items.Clear();
-        jfamily.DataTextField = "Family";
-        jfamily.DataValueField = "FamilyID";
-        jfamily.DataSource = at.TalentwiseJobfamily(areasoftalent.SelectedValue.ToString());
-        jfamily.DataBind();
-        //jfamily.SelectedIndex = 0;
-
-
+        FilterCity(Convert.ToInt32(State.SelectedValue));
+        City.SelectedIndex = 0;
+    }
+    public void FilterCity(int CityID)
+    {
         Location Lo = new Location();
         City.Items.Clear();
         City.DataTextField = "City";
         City.DataValueField = "Cityid";
-        if (State.SelectedIndex ==0)
-        City.DataSource = Lo.StatewiseCity(1);
+        if (State.SelectedIndex == 0)
+            City.DataSource = Lo.StatewiseCity(1);
         else
-        City.DataSource = Lo.StatewiseCity(Convert.ToInt32(State.SelectedValue));
+            City.DataSource = Lo.StatewiseCity(CityID);
         City.DataBind();
-        City.Items.Insert(0, new ListItem("Select a City", ""));
-        City.Items.Insert(1,new ListItem("All Cities","-1"));
-        City.SelectedIndex = 0;
+        //City.Items.Insert(0, new ListItem("Select a City", ""));
+        City.Items.Insert(0, new ListItem("All Cities", "-1"));
+        //City.SelectedIndex = 0;
+    }
+    public void RefineSearch(string AreaOfTalentID, string jFamily, string StateID)
+    {
+        ListItem MyListItem;
+        FilterJobFamily(areasoftalent.SelectedItem.Value);
+        if (AreaOfTalentID == "-1")
+            jfamily.SelectedIndex = 0;
+        else
+        {
+            MyListItem = jfamily.Items.FindByValue(jFamily);
+            if (MyListItem != null)
+                MyListItem.Selected = true;
+        }
+        if (State.SelectedItem.Value != "-1")
+        {
+            FilterCity(Convert.ToInt32(State.SelectedItem.Value));
+            City.Visible = true;
+            City.SelectedIndex = 0;
+        }
+    }
+    protected void brefine_Click(object sender, EventArgs e)
+    {
+
+        RefineSearch(areasoftalent.SelectedItem.Value, jfamily.SelectedItem.Value, State.SelectedItem.Value);
     }
     protected void bsearch_Click(object sender, EventArgs e)
     {
+        ViewState["PageNumber"] = 1;
         FunSearch();
+        GrdResults.Visible = true;
 
     }
     protected void LnkNxt_Click(object sender, EventArgs e)
     {
-        
-        ViewState["strRec"] = (int)(ViewState["strRec"]) + 12;
+        ViewState["PageNumber"] = (int)(ViewState["PageNumber"]) + 1;
         FunSearch();
-        //ViewState["endRec"] = (int)(ViewState["endRec"]) + 12;
     }
     protected void LnkPrvs_Click(object sender, EventArgs e)
     {
-        
-        if ((int)ViewState["strRec"] <= 12)
-        {
-            ViewState["strRec"] = 1;
-            //ViewState["endRec"] = 12;
-        }
-        else
-        {
-            ViewState["strRec"] = (int)(ViewState["strRec"]) - 12;
-            //ViewState["endRec"] = (int)(ViewState["endRec"]) - 12;
-        }
+        ViewState["PageNumber"] = (int)(ViewState["PageNumber"]) - 1;
         FunSearch();
     }
 
     public void FunSearch()
     {
-        int aot = -1;
-        string jf = string.Empty;
-        int stateid = -1;
-        int cityid =-1;
-        string keywrd = string.Empty;
-        aot = string.IsNullOrEmpty(areasoftalent.SelectedValue) ? -1: Convert.ToInt32( areasoftalent.SelectedItem.Value);
-        if (string.IsNullOrEmpty(Request["stateid"]) || this.Page.IsPostBack)
-        {
-            foreach (ListItem li in jfamily.Items)
-            {
-                if (li.Value != string.Empty && li.Selected)
-                {
-                    jf += Convert.ToInt32(li.Value) + ",";
-                }
-            }
-            if (State.SelectedIndex == 0)
-            {
-                stateid = -1;
-            }
-            else
-            {
-                stateid = Convert.ToInt32(State.SelectedItem.Value);
-            }
-            if (City.SelectedIndex == 0)
-            {
-                cityid = -1;
-            }
-            else
-            {
-                cityid = Convert.ToInt32(City.SelectedItem.Value);
-            }
-            keywrd = keywords.Text;
-        }
+        int aot = string.IsNullOrEmpty(areasoftalent.SelectedValue) ? -1 : Convert.ToInt32(areasoftalent.SelectedItem.Value);
+        string jf = string.IsNullOrEmpty(jfamily.SelectedValue) ? "" : jfamily.SelectedItem.Value;
+        int stateid = string.IsNullOrEmpty(State.SelectedValue) ? -1 : Convert.ToInt32(State.SelectedItem.Value);
+        int cityid;
+        if (stateid == -1)
+            cityid = -1;
         else
-        {
-            jf = Request["jfamily"];
-            aot = string.IsNullOrEmpty(Request["areasoftalent"])?-1: Convert.ToInt32(Request["areasoftalent"]);
-            stateid = string.IsNullOrEmpty(Request["stateid"])?-1: Convert.ToInt32( Request["stateid"]);
-            cityid = string.IsNullOrEmpty(Request["cityid"])?-1: Convert.ToInt32( Request["cityid"]);
-            keywrd =  Request["keywords"];
-        }
+            cityid = string.IsNullOrEmpty(City.SelectedValue) ? -1 : Convert.ToInt32(City.SelectedItem.Value);
+        string keywrd = keywords.Text;
+
         Jobs Job = new Jobs();
-        if (ViewState["strRec"] == null)
-        {
-            ViewState["strRec"] = 1;
-            ViewState["endRec"] = 12;
-        }
-        GrdResults.DataSource = Job.Search(aot, jf, stateid, cityid, keywrd, (int)(ViewState["strRec"]), (int)(ViewState["endRec"]));
-        GrdResults.DataBind();
-        LnkNxt.Visible = true;
-        LnkPrvs.Visible = true;
         
+        ListDictionary MyListDictionary = new ListDictionary();
+        MyListDictionary = Job.SearchJobs(aot, jf, stateid, cityid, keywrd, (int)(ViewState["PageNumber"]), RecPerPage);
+        DataTable DT = (DataTable)MyListDictionary["JobSearchResults"];
+
+        GrdResults.DataSource = DT;
+        GrdResults.DataBind();
+
+        LnkPrvs.Visible = (Boolean)MyListDictionary["PrevButton"];
+        LnkNxt.Visible = (Boolean)MyListDictionary["NextButton"];
+        LblPageOfPages.Text = MyListDictionary["PageOfPages"].ToString();
     }
 
 
@@ -166,17 +208,17 @@ public partial class JobSearch : System.Web.UI.Page
         areasoftalent.DataValueField = "TalentID";
         areasoftalent.DataSource = at.Talent();
         areasoftalent.DataBind();
-        areasoftalent.Items.Insert(0, new ListItem("Select a Talent", "-1"));
+        areasoftalent.Items.Insert(0, new ListItem("All Talent", "-1"));
+        //areasoftalent.SelectedIndex = 0;
 
         jfamily.DataTextField = "Family";
         jfamily.DataValueField = "FamilyID";
         jfamily.DataSource = at.Jobfamily();
         jfamily.DataBind();
-        
-
+        jfamily.Items.Insert(0, new ListItem("All Job Family", "-1"));
+        //jfamily.SelectedIndex = 0;
+       
     }
-
-
     protected void PopulateLocations()
     {
         Location Lo = new Location();
@@ -184,9 +226,21 @@ public partial class JobSearch : System.Web.UI.Page
         State.DataValueField = "Stateid";
         State.DataSource = Lo.State();
         State.DataBind();
-        State.Items.Insert(0, new ListItem("Select a State", "-1"));
-        State.SelectedIndex = 0;
+        State.Items.Insert(0, new ListItem("All States", "-1"));
+        //State.SelectedIndex = 0;
     }
-
-
+    protected void PopulateCity()
+    {
+        Location Lo = new Location();
+        City.Items.Clear();
+        City.DataTextField = "City";
+        City.DataValueField = "Cityid";
+        //if (State.SelectedIndex == 0)
+            City.DataSource = Lo.StatewiseCity(1);
+        //else
+        //    City.DataSource = Lo.StatewiseCity(CityID);
+        City.DataBind();
+        //City.Items.Insert(0, new ListItem("Select a City", ""));
+        City.Items.Insert(0, new ListItem("All Cities", "-1"));
+    }
 }

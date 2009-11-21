@@ -51,6 +51,27 @@ public partial class JobDetails : System.Web.UI.Page
 
 
     }
+    protected void LnkAddJobCart_OnClick(object sender, EventArgs e)
+    {
+        string GUID = "";
+        
+        HttpCookie MyCookie = Request.Cookies["JobCartID"];
+        if (MyCookie == null)
+        //if (Request.Cookies["JobCartID"].Value != "" && Request.Cookies["JobCartID"].Value != null)
+        {
+            GUID = Convert.ToString(Guid.NewGuid());
+            MyCookie = new HttpCookie("JobCartID", GUID);
+            Response.Cookies.Add(MyCookie);
+        }
+        else
+        {
+            //GUID = Request.Cookies["JobCartID"].Value;
+            GUID = MyCookie.Value.ToString();
+        }
+        Jobs Jobs = new Jobs();
+        DataView DW = Jobs.AddJobCart(GUID, Request.QueryString["JobId"].ToString());
+        
+    }
     protected void bsearchTop_Click(object sender, EventArgs e)
     {
         Response.Redirect("Jobcart.aspx?SearchPage="+Request.QueryString["SearchPage"].ToString());

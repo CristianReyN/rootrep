@@ -3,14 +3,14 @@
 
                             <asp:Content ID="Content1" Runat="Server" ContentPlaceHolderID="ContentPlaceHolder1">
                                 
-                                <table border="0" cellpadding="0" cellspacing="0" summary="" width="578">
+                                <table summary="Job Search and Job List Page" border="0" cellpadding="0" cellspacing="0" width="578">
                                     <tr valign="top">
                                         <td style="padding: 6px 12px 0px 12px; height: 100%" valign="top">
                                             <table border="0" cellpadding="0" cellspacing="0" summary="" width="100%">
                                                 <tr>
                                                     <td valign="top" >
-                                                        <h2 style="margin: 0px;">
-                                                            Guided Job Search</h2>
+                                                        <h1 style="margin: 0px 0px 0px 0px; ">
+                                                            Basic Search</h1>
                                                     </td>
                                                     <td align="right" valign="top">
                                                         &nbsp;
@@ -40,7 +40,7 @@
                                                             <b>
                                                                 <label for="jfamily">
                                                                     Job Family</label></b></p>
-                                                        <asp:ListBox ID="jfamily" runat="server" CssClass="left" SelectionMode="Multiple"
+                                                        <asp:ListBox ID="jfamily" runat="server" CssClass="left" SelectionMode="single"
                                                             Style="width: 100%; z-index: auto;" TabIndex="2" ToolTip="Select Family">
                                                             <asp:ListItem>Job Family&#160;</asp:ListItem>
                                                         </asp:ListBox>
@@ -61,7 +61,7 @@
                                                         <p style="margin: 0px; text-align: left;">
                                                             <b>
                                                                 <label for="keywords">
-                                                                    Keywords</label></b></p>
+                                                                    Keywords or Job Number (if known)</label></b></p>
                                                         <asp:TextBox ID="keywords" runat="server" CssClass="left" Style="width: 100%; size: 20"
                                                             TabIndex="5" ToolTip="Keywords">
                                                         </asp:TextBox>
@@ -86,18 +86,18 @@
                                                 </tr>
                                             </table>
                                             <asp:GridView ID="GrdResults" runat="server" Width="554px" AutoGenerateColumns="False" CellPadding="0" GridLines="None" AllowSorting="True" ToolTip="Search Results ">
-                                                <RowStyle BackColor="#CADCEB" Height="10px" />
+                                                <RowStyle BackColor="#CADCEB" Height="10px"/>
                                                 <AlternatingRowStyle BackColor="#EAF1F7" Height="10px" />
                                                 <HeaderStyle Height="10px" BackColor="#EAF1F7" />
                                                 <Columns>
-                                                    <asp:HyperLinkField DataNavigateUrlFields="JobsID,stateid,cityid,areaoftalent,jfamily,keywords" DataNavigateUrlFormatString="JobDetails.aspx?SearchPage=Sp&amp;JobId={0}&amp;stateid={1}&amp;cityid={2}&amp;areaoftalent={3}&amp;jfamily={4}&amp;keywords={5}"
+                                                    <asp:HyperLinkField DataNavigateUrlFields="JobsID,stateid,cityid,areaoftalent,jfamily,keywords" DataNavigateUrlFormatString="JobDetails.aspx?SearchPage=Sp&amp;JobId={0}&amp;stateid={1}&amp;cityid={2}&amp;areasoftalent={3}&amp;jfamily={4}&amp;keywords={5}"
                                                         DataTextField="JobName" HeaderText="Job Title">
                                                         <HeaderStyle HorizontalAlign="Left" />
                                                     </asp:HyperLinkField>
                                                     <asp:BoundField DataField="Location" HeaderText="Location" >
                                                         <HeaderStyle HorizontalAlign="Left" />
                                                     </asp:BoundField>
-                                                    <asp:BoundField DataField="postdate" HeaderText="Date">
+                                                    <asp:BoundField DataField="postdate" HeaderText="Date" DataFormatString="{0:MM/dd/yyyy}" HtmlEncode="false">
                                                         <HeaderStyle HorizontalAlign="Left" />
                                                     </asp:BoundField>
                                                 </Columns>
@@ -114,7 +114,9 @@
                                                 <asp:Button ID="LnkPrvs" runat="server" CssClass="bodybtn" OnClick="LnkPrvs_Click"
                                                     Text="Previous" Visible="false" />&nbsp;&nbsp;&nbsp;&nbsp;
                                                 <asp:Button ID="LnkNxt" runat="server" CssClass="bodybtn" OnClick="LnkNxt_Click"
-                                                    Text="Next" Visible="false" /></center>
+                                                    Text="Next" Visible="false" />&nbsp;&nbsp;&nbsp;&nbsp;
+                                                <asp:Label ID="LblPageOfPages" runat="server"></asp:Label>    
+                                            </center>
                                         </td>
                                     </tr>
                                 </table>

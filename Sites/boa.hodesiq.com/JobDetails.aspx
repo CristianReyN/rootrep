@@ -7,14 +7,19 @@
             <td  style="padding: 6px 12px 0px 12px; height:100%" valign="top">
                 <table border="0" cellpadding="0" cellspacing="0" summary="" width="100%">
                     <tr>
+                        <td colspan="2">
+                        <table>
+                        <tr>
                         <td valign="top" style="width:100%">
                             <h3 style="margin: 0px; color: #d4001a;">
-                                <asp:Label ID="lblJobTitle" runat="server" Width="130px"></asp:Label>&nbsp;</h3>
+                                <asp:Label ID="lblJobTitle" runat="server" Width="100%"></asp:Label>&nbsp;</h3>
                             <h2 style="margin: 0px;">
                                 <asp:Label ID="lblLocation" runat="server"></asp:Label>&nbsp;</h2>
                         </td>
-                        <td align="right"  valign="top">
-                            &nbsp;</td>
+                        
+                        </tr>
+                        </table>
+                        </td>
                     </tr>
                     <tr>
                         <td style="padding: 18px 6px 0px 0px;" valign="top">
@@ -31,7 +36,8 @@
                                 &nbsp;</p>
                         </td>
                         <td  style="padding: 18px 0px 0px 6px;" valign="top">
-                            <asp:HyperLink ID="JobcartTop" runat="server" CssClass="p" ToolTip="Add to Job Cart">Add to Job Cart</asp:HyperLink><br />
+                            <asp:LinkButton ID="LnkAddJobCart" runat="server" CssClass="p" Text="Add to Job Cart" OnClick="LnkAddJobCart_OnClick"></asp:LinkButton>
+                            <asp:HyperLink ID="JobcartTop" runat="server" CssClass="p" ToolTip="Add to Job Cart" Visible="false">Add to Job Cart</asp:HyperLink><br />
                             <br />
                             <asp:button runat="server" cssclass="bodybtn" id="bsearchTop" text="View Job Cart" OnClick="bsearchTop_Click"/><br/>
                             <asp:HyperLink ID="applylnk" CssClass="p" runat="server" NavigateUrl="" Target="_blank" >Apply Now</asp:HyperLink>
