@@ -32,6 +32,7 @@ If you are currently a Bank of America associate, you should access the <a href=
 	<option value="10|-1" OptionGroup="Consumer Banking">All Consumer Banking</option>
 </optgroup>
 <optgroup label="Customer Care">
+	<option value="2|-1" OptionGroup="Customer Care">All Customer Care</option>
 	<option value="2|8" OptionGroup="Customer Care"> Relationship Management</option>
 	<option value="2|3" OptionGroup="Customer Care">Corporate Workplace</option>
 	<option value="2|9" OptionGroup="Customer Care">Customer Service</option>
@@ -69,7 +70,7 @@ If you are currently a Bank of America associate, you should access the <a href=
 							<td width="192" colspan="2" nowrap style="padding: 0px 0px 0px 0px;">
 <label for="stateid" class="p" style="margin: 0px;"><b>Locations</b></label><br>
 <select name="stateid"  id="stateid" style="width: 100%; z-index: auto;">
-	<option value="-1">All states</option>
+	<option value="-1"<%If stateid="-2" Then Response.write " selected"%>>All states</option>
 <% 
 	call getStateOptions()
 %>

@@ -1,6 +1,6 @@
 <% Response.Buffer=True 
 Dim title, mpage, spage, ada_href, ada_title, job_search_action, Metatag
-title = "Bank of America | Career | Equal Employment Opportunity and Affirmative Action Statement"
+title = "Bank of America | Career | Equal Employment Opportunity and Affirmative Active Statement"
 mpage = "overview"
 spage = ""
 ada_href = "../ada/eeoc.asp"

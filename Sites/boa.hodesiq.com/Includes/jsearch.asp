@@ -171,6 +171,7 @@ JobFamily(22)="V-VA-International Contractor"
 	<option value="42"<%If stateid="42" Then Response.write " selected"%>>South Dakota&nbsp;</option>
 	<option value="43"<%If stateid="43" Then Response.write " selected"%>>Tennessee&nbsp;</option>
 	<option value="44"<%If stateid="44" Then Response.write " selected"%>>Texas&nbsp;</option>
+	<option value="-2"<%If stateid="-2" Then Response.write " selected"%>>United States&nbsp;</option>
 	<option value="45"<%If stateid="45" Then Response.write " selected"%>>Utah&nbsp;</option>
 	<option value="46"<%If stateid="46" Then Response.write " selected"%>>Vermont&nbsp;</option>
 	<option value="47"<%If stateid="47" Then Response.write " selected"%>>Virginia&nbsp;</option>
