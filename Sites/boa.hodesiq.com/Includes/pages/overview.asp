@@ -208,9 +208,9 @@ Bank of Opportunity.
 							<td colspan="2" style="padding: 0px;">
 <p style="margin: 0px;">Use the Search below to find a career suited to your skill set.  You may narrow your selection further by selecting a job area, location or entering a keyword.</p>
 <p style="margin: 6px 0px 0px 0px;">
-Bank of America and Countrywide Financial have officially joined forces to become America's leading home loan provider. The combination of our businesses creates some of the most exciting career opportunities in the industry. In addition to searching for career opportunities at Bank of America on this site, you can also search for Countrywide Financial positions at <a href="http://www.countrywidecareers.com/" class="p" title="http://www.countrywidecareers.com/">http://www.countrywidecareers.com/</a>.</p>
+Bank of America and Countrywide Financial have officially joined forces to become America's leading home loan provider. The combination of our businesses creates some of the most exciting career opportunities in the industry. In addition to searching for career opportunities at Bank of America on this site, you can also search for Countrywide Financial positions at <a href="http://www.countrywidecareers.com/" class="p" title="Countrywide Financial" target="_blank">http://www.countrywidecareers.com/</a>.</p>
 <p style="margin: 6px 0px 0px 0px;">
-Bank of America associates should access the <a href="http://www.bankofamerica.com/careers/index.cfm?template=jobs_interstitial" class="p" onfocus="this.className='p-over';" onblur="this.className='p';" title="Internal Jobs Database">internal jobs database</a>.</p>
+Bank of America associates should access the <a href="http://www.bankofamerica.com/careers/index.cfm?template=jobs_interstitial" class="p" title="Internal Jobs Database">internal jobs database</a>.</p>
 <img class="dotdiv" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
 							</td>
 						</tr>
