@@ -35,12 +35,12 @@ New associates will find fertile ground in which to build valuable skills, netwo
 <H2 class="p" style="margin: 0px; padding: 0px;"><a href="<% if page_section <> "ADA" then Response.write "../learnmore/globalloc.asp" Else Response.write "globalloc.asp" End If%>" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="Global locations">Global locations</a></H2>
 <p style="margin-top: 6px;">
 With offices in more than 30 countries, we support our clients' activities around the world and partner with leading corporations of all sizes.</p>
-
+<!--
 <H2 class="p" style="margin: 0px; padding: 0px;"><a href="http://corp.bankofamerica.com/public/career/home.jsp" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="Investment banking careers" target="_blank">Investment banking careers</a></H2>
 <p style="margin-top: 6px;">
 Discover how we use our scale and scope as a universal bank to deliver greater value and opportunities to clients in the U.S., Europe, Asia and worldwide working across lines of business, including Capital Markets, Commercial Banking, Investment Banking, Research, Sales and Trading and Treasury Services.
 </p>
-
+-->
 <H2 class="p" style="margin: 0px; padding: 0px;"><a href="<% if page_section <> "ADA" then Response.write "../learnmore/resume_interview_tips.asp" Else Response.write "resume_interview_tips.asp" End If%>" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="Resume &amp; interview tips">Resume &amp; interview tips</a></H2>
 <p style="margin-top: 6px;">
 Get basic advice on developing or updating your resume.</p>
