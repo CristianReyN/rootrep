@@ -26,15 +26,14 @@
 <br><img src="../images/clear.gif" width="10" height="12" alt="" border="0" /><br>
 <H2 class="bacg">Workplace Innovation</H2><p class="bacg">&nbsp;has a continuous goal of developing innovative solutions to simultaneously reduce the bank's costs and increase associate satisfaction.  Priorities of the group include developing flexible work options for associates and using sustainable practices to reduce the bank's environmental impact.</p>
 
-<H2 class="h2" style="margin: 12px <%=right_margin%>px 2px <%=left_margin_0%>px;">New Opportunities</H2>
-<table cellpadding="2" cellspacing="0" border="0" summary="" style="margin-left: <%=left_margin_0%>px;">
-<!--#include file="../../hot_jobs.asp"-->
-<% 
+<%
 Dim familyid,rowcount
 'familyid=11
 talentid=11
 rowcount=6
 %>
+<H2 class="h2" style="margin: 12px <%=right_margin%>px 2px 0px;">New Opportunities</H2>
+<table cellpadding="2" cellspacing="0" border="0" summary="" style="margin-left: <%=left_margin_0%>px;">
 <!--#include file="../../hot_jobs.asp"-->
 </table>
 
