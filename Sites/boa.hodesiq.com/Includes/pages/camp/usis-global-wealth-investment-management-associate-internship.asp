@@ -5,7 +5,7 @@
 <a name="skipmaincontent"></a><h1 class="bac"><%=program.Item("title")%></h1>
 <h2 class="bac">Our Business:</h2>
 <p class="bac">
-Global Wealth & Investment Management provides comprehensive banking and investment services tailored to meet the changing wealth-management goals of more than three million affluent, mass affluent, high net worth and ultra high net worth individuals and institutional customers. Clients have access to services offered through Merrill Lynch Wealth Management, Alternative Investments & Asset Management, US Trust, and Institutional Retirement and Philanthropy.
+Global Wealth &amp;  Investment Management provides comprehensive banking and investment services tailored to meet the changing wealth-management goals of more than three million affluent, mass affluent, high net worth and ultra high net worth individuals and institutional customers. Clients have access to services offered through Merrill Lynch Wealth Management, Alternative Investments &amp;  Asset Management, US Trust, and Institutional Retirement and Philanthropy.
 </p>
 <p class="bac">
 Merrill Lynch Wealth Management group provides advice-based wealth management services and products to individual clients and businesses. The GWM business model is based on our network of more than 20,000 financial advisors (FAs) in nearly 700 offices around the world and the one-to-one relationships they develop with their clients.
@@ -16,21 +16,21 @@ Merrill Lynch Wealth Management group provides advice-based wealth management se
 <h2 class="bac">Overview:</h2>
 <ul>
 	<li>
-		<h3 class="bac">Alternative Investments & Asset Management (Boston, MA and New York, NY)</h3>
+		<h3 class="bac">Alternative Investments &amp;  Asset Management (Boston, MA and New York, NY)</h3>
 		<p class="bac" style="margin-top: 3px; margin-bottom: 12px;">
 Alternative Investment Asset Management is dedicated to delivering products to qualified institutional and high net worth clients that extend beyond traditional stock and bond offerings. The primary objective of Alternative Investment Asset Management is to provide qualified clients with a wide range of alternative investment products that have the potential to achieve attractive risk-adjusted returns. The group is responsible for research and portfolio management for a range of diversified alternative investment solutions, encompassing hedge funds, private equity funds and real estate.
 		</p>
 	</li>
 	<li>
-		<h3 class="bac">Institutional Retirement & Philanthropy (Boston, MA and Hopewell, NJ)</h3>
+		<h3 class="bac">Institutional Retirement &amp;  Philanthropy (Boston, MA and Hopewell, NJ)</h3>
 		<p class="bac" style="margin-top: 3px; margin-bottom: 12px;">
-Institutional Retirement, Philanthropy & Investments provides retirement and benefit plan services, philanthropic management and investment guidance to institutional, non-profit and high net worth clients. Plan Participant Services provides in-plan education and investment solutions to help plan participants achieve their retirement goals and give them access to the broader financial services of the firm. Philanthropic Management provides specialized solutions to nonprofit organizations and their donors, supporting organizations and planned giving assets at nonprofit organizations - including charitable trusts. Investment & Benefit Solutions provides portfolio management services for institutions and corporations, investment solutions for benefit plan participants, and institutional consulting services.
+Institutional Retirement, Philanthropy &amp;  Investments provides retirement and benefit plan services, philanthropic management and investment guidance to institutional, non-profit and high net worth clients. Plan Participant Services provides in-plan education and investment solutions to help plan participants achieve their retirement goals and give them access to the broader financial services of the firm. Philanthropic Management provides specialized solutions to nonprofit organizations and their donors, supporting organizations and planned giving assets at nonprofit organizations - including charitable trusts. Investment &amp;  Benefit Solutions provides portfolio management services for institutions and corporations, investment solutions for benefit plan participants, and institutional consulting services.
 		</p>
 	</li>
 	<li>
-		<h3 class="bac">US Trust, Bank of America Private Wealth Management (Northeast, Charlotte, NC and St. Louis, MO)</h3>
+		<h3 class="bac">US Trust, Bank&nbsp;of&nbsp;America Private Wealth Management (Northeast, Charlotte, NC and St. Louis, MO)</h3>
 		<p class="bac" style="margin-top: 3px; margin-bottom: 12px;">
-US Trust provides integrated wealth-management solutions to high-net-worth individuals, middle-market institutions and charitable organizations with investable assets greater than $3 million. U.S. Trust, Bank of America Private Wealth Management provides wealth structuring, investment management, estate planning, taxation, credit, deposit and trust services as well as specialty asset management services. Opportunities in this business may include the Private Client Manager who meets client needs and expectations through the integrated delivery and service of credit, fiduciary, investment, specialized asset management and depository products.
+US Trust provides integrated wealth-management solutions to high-net-worth individuals, middle-market institutions and charitable organizations with investable assets greater than $3 million. U.S. Trust, Bank&nbsp;of&nbsp;America Private Wealth Management provides wealth structuring, investment management, estate planning, taxation, credit, deposit and trust services as well as specialty asset management services. Opportunities in this business may include the Private Client Manager who meets client needs and expectations through the integrated delivery and service of credit, fiduciary, investment, specialized asset management and depository products.
 		</p>
 	</li>
 </ul>
@@ -38,18 +38,18 @@ US Trust provides integrated wealth-management solutions to high-net-worth indiv
 <h2 class="bac"><i>Merrill Lynch Wealth Management</i></h2>
 <ul>
 	<li>
-		<h3 class="bac">Client & Business Management (Hopewell, NJ and New York, NY)</h3>
-		<p class="bac" style="margin-top: 3px; margin-bottom: 12px;">Client & Business Management oversees strategic planning, business management and performance, sales programs, infrastructure and control for Merrill Lynch Global Wealth Management - both within and outside the United States. Specific areas include strategy development and execution, supply chain management, business continuity planning, business intelligence and analytics.
+		<h3 class="bac">Client &amp;  Business Management (Hopewell, NJ and New York, NY)</h3>
+		<p class="bac" style="margin-top: 3px; margin-bottom: 12px;">Client &amp;  Business Management oversees strategic planning, business management and performance, sales programs, infrastructure and control for Merrill Lynch Global Wealth Management - both within and outside the United States. Specific areas include strategy development and execution, supply chain management, business continuity planning, business intelligence and analytics.
 		</p>
 	</li>
 	<li>
 		<h3 class="bac">Global Investment Solutions (Jersey City, NJ and New York, NY)</h3>
-		<p class="bac" style="margin-top: 3px; margin-bottom: 12px;">Global Investment Solutions delivers high quality investment advice and product capabilities commensurate with their client segments & business channels.  They provide investment solutions across all product platforms, including equity, debt and structured products, and alternative investments and deliver due diligence and cohesive investment management solutions for client portfolios.
+		<p class="bac" style="margin-top: 3px; margin-bottom: 12px;">Global Investment Solutions delivers high quality investment advice and product capabilities commensurate with their client segments &amp;  business channels.  They provide investment solutions across all product platforms, including equity, debt and structured products, and alternative investments and deliver due diligence and cohesive investment management solutions for client portfolios.
 		</p>
 	</li>
 	<li>
-		<h3 class="bac">Private Banking & Investment Group (Hopewell, NJ and New York, NY)</h3>
-		<p class="bac" style="margin-top: 3px;">The Private Banking and Investment Group (PBIG) provides tailored solutions to meet the sophisticated needs of ultra high net worth individuals. Serving only a select group of clients whose needs and values are at the center of our dedicated focus, we offer both the intimacy of a boutique and the global resources of one of the world's largest financial services firms. Clients are served by over 150 Private Wealth Advisor (PWA) teams across the country, along with a team of experts in areas such as investment management, concentrated stock management and intergenerational wealth transfer strategies.
+		<h3 class="bac">Private Banking &amp;  Investment Group (Hopewell, NJ and New York, NY)</h3>
+		<p class="bac" style="margin-top: 3px;">The Private Banking and Investment Group (PBIG) provides tailored solutions to meet the sophisticated needs of ultra high net worth individuals. Serving only a select group of clients whose needs and values are at the center of our dedicated focus, we offer both the intimacy of a boutique and the global resources of one of the world&#39;s largest financial services firms. Clients are served by over 150 Private Wealth Advisor (PWA) teams across the country, along with a team of experts in areas such as investment management, concentrated stock management and intergenerational wealth transfer strategies.
 		</p>
 	</li>
 </ul>

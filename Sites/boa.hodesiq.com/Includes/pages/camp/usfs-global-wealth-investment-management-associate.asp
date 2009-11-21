@@ -5,7 +5,7 @@
 <a name="skipmaincontent"></a><h1 class="bac"><%=program.Item("title")%></h1>
 <h2 class="bac">Our Business:</h2>
 <p class="bac">
-Global Wealth & Investment Management provides comprehensive banking and investment services tailored to meet the changing wealth-management goals of more than three million individual and institutional customers. Clients have access to services offered through Merrill Lynch Wealth Management, Alternative Investments & Asset Management, US Trust, and Institutional Retirement and Philanthropy.
+Global Wealth &amp;  Investment Management provides comprehensive banking and investment services tailored to meet the changing wealth-management goals of more than three million individual and institutional customers. Clients have access to services offered through Merrill Lynch Wealth Management, Alternative Investments &amp;  Asset Management, US Trust, and Institutional Retirement and Philanthropy.
 Merrill Lynch Wealth Management group provides advice-based wealth management services and products to individual clients and businesses. The GWM business model is based on our network of more than 16,000 financial advisors (FAs) in nearly 700 offices around the world and the one-to-one relationships they develop with their clients.
 </p>
 
@@ -14,7 +14,7 @@ Merrill Lynch Wealth Management group provides advice-based wealth management se
 <h2 class="bac">Overview:</h2>
 <ul>
 	<li>
-		<h3 class="bac">Alternative Investments & Asset Management (New York, NY)</h3>
+		<h3 class="bac">Alternative Investments &amp;  Asset Management (New York, NY)</h3>
 		<p class="bac" style="margin-top: 3px;">
 Alternative Investment Asset Management is dedicated to delivering products to qualified institutional and high net worth clients that extend beyond traditional stock and bond offerings. The group is responsible for research and portfolio management for a range of diversified alternative investment solutions, encompassing hedge funds, private equity funds and real estate.
 		</p>
@@ -22,12 +22,12 @@ Alternative Investment Asset Management is dedicated to delivering products to q
 The primary objective of Alternative Investment Asset Management is to provide qualified clients with a wide range of alternative investment products that have the potential to achieve attractive risk-adjusted returns. Investors will obtain cost-effective access to top firms (some of which may otherwise be closed to new investors), as well as diversification by sector and investment strategy.
 		</p>
 		<p class="bac" style="margin-top: 3px; margin-bottom: 12px;">
-The group's solutions are typically offered via prospectus or private placement memorandums only, and prospective investors must meet certain eligibility criteria.
+The group&#39;s solutions are typically offered via prospectus or private placement memorandums only, and prospective investors must meet certain eligibility criteria.
 		</p>
 	</li>
 	<li>
-		<h3 class="bacg">US Trust, Bank of America Private Wealth Management</h3>&nbsp;<p class="bacg" style="margin-top: 3px; margin-bottom: 12px;">
-provides integrated wealth-management solutions to high-net-worth individuals, middle-market institutions and charitable organizations with investable assets greater than $3 million. U.S. Trust, Bank of America Private Wealth Management provides credit, deposit, investment and trust services as well as specialty asset management services.
+		<h3 class="bacg">US Trust, Bank&nbsp;of&nbsp;America Private Wealth Management</h3>&nbsp;<p class="bacg" style="margin-top: 3px; margin-bottom: 12px;">
+provides integrated wealth-management solutions to high-net-worth individuals, middle-market institutions and charitable organizations with investable assets greater than $3 million. U.S. Trust, Bank&nbsp;of&nbsp;America Private Wealth Management provides credit, deposit, investment and trust services as well as specialty asset management services.
 		</p>
 		<ul style="list-style-image: none; list-style-type: square; margin-top: 12px;">
 			<li>
@@ -41,7 +41,7 @@ provides integrated wealth-management solutions to high-net-worth individuals, m
 <ul>
 	<li>
 		<h3 class="bac">Global Investment Solutions (Jersey City, NJ and New York, NY)</h3>
-		<p class="bac" style="margin-top: 3px;">Deliver high quality investment advice and product capabilities commensurate with the client segment & business channel.  Provide investment solutions across all product platforms, including equity, debt and structured products and alternative investments. Deliver due diligence and cohesive investment management solutions for client portfolios.
+		<p class="bac" style="margin-top: 3px;">Deliver high quality investment advice and product capabilities commensurate with the client segment &amp;  business channel.  Provide investment solutions across all product platforms, including equity, debt and structured products and alternative investments. Deliver due diligence and cohesive investment management solutions for client portfolios.
 		</p>
 	</li>
 </ul>

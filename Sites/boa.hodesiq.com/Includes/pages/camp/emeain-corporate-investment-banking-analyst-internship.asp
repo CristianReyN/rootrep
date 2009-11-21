@@ -5,7 +5,7 @@
 <a name="skipmaincontent"></a><h1 class="bac"><%=program.Item("title")%></h1>
 <h2 class="bac">Our Business:</h2>
 <p class="bac">
-The Global Investment Banking group serves a diverse client base that includes corporations, financial institutions, financial sponsors, hedge funds, governments and government agencies. We have a significant presence in the Americas, Europe, the Middle East, Africa, and the Asia Pacific, serving clients in virtually all countries.
+The Global Investment Banking group serves a diverse client base that includes corporations, financial institutions, financial sponsors, hedge funds, governments and government agencies. We have a significant presence in the Americas, Europe, the Middle East, Africa, and Asia Pacific, serving clients in virtually all countries.
 </p>
 <p class="bac">
 We provide our clients with a range of services fundamental to their business, including strategic advice, financing, restructuring and risk management, as well as capital rising from both the public markets and private sources. We serve our clients through teams of professionals that bring together the full capabilities of the bank to satisfy one goal: helping our clients succeed.

@@ -8,7 +8,7 @@
    The Global Markets group is a premier provider of sales, trading, structuring and advisory services to money managers, hedge funds, pension funds, endowments, financial institutions, governments and corporations around the world. 
 </p>
 <p class="bac">
-   Our Global Markets business has a major presence in the Americas, Europe, the Middle East, Africa and the Asia Pacific, serving clients in virtually all countries. 
+   Our Global Markets business has a major presence in the Americas, Europe, the Middle East, Africa and Asia Pacific, serving clients in virtually all countries. 
 </p>
 <p class="bac">
    Leveraging our local relationships and broad global capabilities, we provide our clients with ideas and market insights, trading services, analytics and new products across a broad spectrum of asset classes - ranging from interest rate and credit products, foreign exchange, real estate and commodities to cash equities and equity-linked products - all with the goal of enabling our clients to maximize their performance. 
