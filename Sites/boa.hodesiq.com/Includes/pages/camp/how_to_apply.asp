@@ -27,13 +27,15 @@ If Request("t") <> "" Then tab = Request("t")
 		<% End If %>
 <script language="JavaScript" type="text/javascript">
 		<% If page_section <> "ADA" Then %>
+var tab = <%=tab%>, cname = "tabstate_ha";
+var tabstate = getTabState(cname);
+if(tabstate && tabstate != tab) self.location.href = "<%=page_self%>?t="+tabstate;
 var tabs = new Array(), pageId = "<%=pageId%>", categoryId = "<%=categoryId%>";
-tabs[0] = new Tab(1,"U.S.","t1","../images/camp/t1.gif","../images/camp/t1a.gif","dt1");
-tabs[1] = new Tab(2,"EMEA","t2","../images/camp/t2.gif","../images/camp/t2a.gif","dt2");
-tabs[2] = new Tab(3,"Asia","t3","../images/camp/t3.gif","../images/camp/t3a.gif","dt3");
-if(window.cmCreatePageviewTag) cmCreatePageviewTag(pageId+":"+tabs[<%=tab%>-1].t, null, null,categoryId);
-tabs[<%=tab%>-1].coremetrics = true;
-var tab_page = "hta";
+tabs[0] = new Tab("U.S.","t1","../images/camp/t1.gif","../images/camp/t1a.gif","dt1");
+tabs[1] = new Tab("EMEA","t2","../images/camp/t2.gif","../images/camp/t2a.gif","dt2");
+tabs[2] = new Tab("Asia","t3","../images/camp/t3.gif","../images/camp/t3a.gif","dt3");
+if(window.cmCreatePageviewTag) cmCreatePageviewTag(pageId+":"+tabs[tab-1].t, null, null,categoryId);
+tabs[tab-1].coremetrics = true;
 		<% End If %>
 function preload_add()
 {

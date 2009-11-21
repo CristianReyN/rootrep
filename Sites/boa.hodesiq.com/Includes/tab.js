@@ -1,7 +1,6 @@
 
-function Tab(m,t,n,na,a,d)
+function Tab(t,n,na,a,d)
 {
-	this.m = m;
 	this.t = t;
 	this.n = n;
 	this.na = na;
@@ -46,5 +45,42 @@ function atab(img)
 		}
 		img.tab.div.style.display = "inline";
 		MM_swapImage(img.name,"",img.tab.a);
+		if(cname && cname!="") setTabState(cname,img.tab.n,1*60*60*1000);
 	}
+}
+
+function setTabState(c_name,value,expire_ms)
+{
+	var exdate=new Date();
+	exdate.setTime(exdate.getTime()+expire_ms);
+	document.cookie=c_name + "=" + escape(value) + ((expire_ms==null) ? "" : ";expires="+exdate.toGMTString());
+}
+
+function getTabState(c_name)
+{
+	if (document.cookie.length>0)
+	{
+		c_start=document.cookie.indexOf(c_name + "=");
+		if (c_start!=-1)
+		{ 
+			c_start=c_start + c_name.length+1;
+			c_end=document.cookie.indexOf(";",c_start);
+			if (c_end==-1) c_end=document.cookie.length;
+			var tabstate = unescape(document.cookie.substring(c_start,c_end));
+			switch(tabstate)
+			{
+				case "t1":
+					return 1;
+					break;
+				case "t2":
+					return 2;
+					break;
+				case "t3":
+					return 3;
+					break;
+			}
+			return false;
+		} 
+	}
+	return false;
 }
