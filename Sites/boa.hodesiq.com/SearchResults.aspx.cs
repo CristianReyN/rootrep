@@ -20,8 +20,8 @@ public partial class SearchResults : System.Web.UI.Page
         string SearchVal;
         try
         {
-            if (Session["PstBackResult"] == null)
-            {
+            //if (Session["PstBackResult"] == null)
+            //{
                 SearchVal=(Convert.ToString(Session["ArrSearchvalues"]));
                 string[] s=SearchVal.Split('$');
                 
@@ -32,7 +32,14 @@ public partial class SearchResults : System.Web.UI.Page
                 areasoftalent.DataSource = at.Talent();
                 areasoftalent.DataBind();
                 areasoftalent.Items.Insert(0, new ListItem("Select a Talent", ""));
-                areasoftalent.SelectedIndex = Convert.ToInt32(s[1]);
+                if (CheckSessionAOT == "")
+                {
+                    areasoftalent.SelectedIndex = Convert.ToInt32(s[1]);
+                }
+                else
+                {
+                    areasoftalent.SelectedIndex = Convert.ToInt32(CheckSessionAOT);
+                }
                 //areasoftalent.SelectedIndex = 0;
 
                 jfamily.DataTextField = "Family";
@@ -59,7 +66,7 @@ public partial class SearchResults : System.Web.UI.Page
                 keywords.Text = s[4];
 
             }
-        }
+        //}
         catch (Exception ex)
         {
             lblMessage.Text = ex.Message;
@@ -98,10 +105,7 @@ public partial class SearchResults : System.Web.UI.Page
     }
     protected void bsearch_Click(object sender, EventArgs e)
     {
-
-
-
-
+        
         Session["PstBackResult"] = 2;
         string ArrSearchValues;
         string selVal = "";
@@ -116,7 +120,9 @@ public partial class SearchResults : System.Web.UI.Page
             }
 
         }
-
+        ArrSearchValues = "";
+        Session["ArrSearchvalues"] = "";
+        selVal = "";
         ArrSearchValues = selVal + "$" + areasoftalent.SelectedValue + "$" + State.SelectedIndex + "$" + City.SelectedIndex + "$" + keywords.Text;
         Session["ArrSearchvalues"] = Session["ArrSearchvalues"] + "$" + ArrSearchValues;
         

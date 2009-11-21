@@ -25,7 +25,7 @@
                                                                 <label for="areasoftalent">
                                                                     Areas of Talent</label></b></p>
                                                         <asp:DropDownList ID="areasoftalent" runat="server" CssClass="left" Style="width: 100%;
-                                                            z-index: auto;" TabIndex="1" ToolTip="Areas Of Talent">
+                                                            z-index: auto;" TabIndex="1" ToolTip="Areas Of Talent" OnSelectedIndexChanged="areasoftalent_SelectedIndexChanged">
                                                             <asp:ListItem>All Areas of Talent&#160;</asp:ListItem>
                                                         </asp:DropDownList><br />
                                                         <p style="margin: 0px; text-align: left;">
@@ -33,7 +33,7 @@
                                                                 <label for="locations">
                                                                     State</label></b></p>
                                                         <asp:DropDownList ID="State" runat="server" CssClass="left" Style="width: 100%; z-index: auto;"
-                                                            TabIndex="4" ToolTip="Select a State">
+                                                            TabIndex="4" ToolTip="Select a State" OnSelectedIndexChanged="State_SelectedIndexChanged">
                                                             <asp:ListItem>All Locations&#160;</asp:ListItem>
                                                         </asp:DropDownList>
                                                     </td>
