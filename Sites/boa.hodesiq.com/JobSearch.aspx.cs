@@ -34,19 +34,19 @@ public partial class JobSearch : System.Web.UI.Page
 			PopulateAreasofTalentandJobFamily();
 			PopulateLocations();
 			PopulateCity();
-			this.btnReset.Visible = true;
-
 			if (string.IsNullOrEmpty(Request["stateid"]))
 			{
 				areasoftalent.SelectedIndex = 0;
 				jfamily.SelectedIndex = 0;
 				State.SelectedIndex = 0;
+				this.btnReset.Visible = true;
 			}
 			else
 			{
 				BindSearchString();
 				ViewState["PageNumber"] = 1;
 				FunSearch();
+				this.btnReset.Visible=false;
 			}
 		}
 	}
