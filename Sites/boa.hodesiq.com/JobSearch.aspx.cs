@@ -29,7 +29,10 @@ public partial class JobSearch : System.Web.UI.Page
 	private int RecPerPage = 12;
 	protected void Page_Load(object sender, EventArgs e)
 	{
-         
+        //init hidden location value
+        ddlStatehidden.Value = ddlState.SelectedItem.Value.Trim();
+        if (ddlStatehidden.Value == "All Locations") ddlStatehidden.Value="-1";
+
         //write the boa buttons
         boanet_safebutton.writeBOASafeButton("Search", phSearch, "Search", bsearch_Click, this.Request);
         boanet_safebutton.writeBOASafeButton("Previous", phPrevious, "Previous", LnkPrvs_Click, this.Request);
@@ -58,29 +61,27 @@ public partial class JobSearch : System.Web.UI.Page
                 BindSearchString();
                 ViewState["PageNumber"] = 1;
                 FunSearch();
-            }
-            PopulateJobAreas();
+            }           
         }
-        else
+        PopulateJobAreas();
+
+        //postback only if location has been changed:
+         this.ddlState.Attributes.Add("onblur", "javascript:if(document." + this.Form.ClientID + "." + this.ddlStatehidden.ClientID + ".value!=document." + this.Form.ClientID + "." + ddlState.ClientID + ".options[document." + this.Form.ClientID + "." + ddlState.ClientID.Replace("$", "_") + ".selectedIndex].value) {setTimeout('__doPostBack(\\'" + this.ddlState.ClientID.Replace("_", "$") + "\\',\\'\\')', 0);}");
+         //testing: this.ddlState.Attributes.Add("onblur", "javascript:if(document." + this.Form.ClientID + "." + this.ddlStatehidden.ClientID + ".value!=document." + this.Form.ClientID + "." + ddlState.ClientID + ".options[document." + this.Form.ClientID + "." + ddlState.ClientID.Replace("$", "_") + ".selectedIndex].value) {alert('stateid: '+document." + this.Form.ClientID + "." + ddlState.ClientID + ".options[document." + this.Form.ClientID + "." + ddlState.ClientID.Replace("$", "_") + ".selectedIndex].value);alert('hidden: '+document." + this.Form.ClientID + "." + this.ddlStatehidden.ClientID + ".value);setTimeout('__doPostBack(\\'" + this.ddlState.ClientID.Replace("_", "$") + "\\',\\'\\')', 0);}");
+
+ 	}
+
+    protected void Page_LoadComplete()
+	{
+        if (ddlState.SelectedItem.Value != "-1")
         {
-            PopulateJobAreas();
             this.ddlCity.Focus();
         }
-
-        this.ddlState.Attributes.Add("onblur", "javascript:setTimeout('__doPostBack(\\'" + this.ddlState.ClientID.Replace("_", "$") + "\\',\\'\\')', 0)");
-
-	}
-
-	protected void Page_PreRender()
-	{
-
-	}
+    }
 	public void BindSearchString()
 	{
 		ListItem MyListItem;
 		string MyValue;
-
-
 
 		MyValue = String.IsNullOrEmpty(Request.QueryString["stateid"]) == false ? Request.QueryString["stateid"] : "-1";
 		MyListItem = ddlState.Items.FindByValue(MyValue);
@@ -159,14 +160,13 @@ public partial class JobSearch : System.Web.UI.Page
 	{
         RefineSearch( ddlState.SelectedItem.Value);
         bsearch_Click(sender, e);
-        this.ddlCity.Focus();
 
 	}
 	protected void bsearch_Click(object sender, EventArgs e)
 	{
 		ViewState["PageNumber"] = 1;
 		FunSearch();
-		GrdResults.Visible = true;
+		GrdResults.Visible = true;        
 	}
 	protected void LnkNxt_Click(object sender, EventArgs e)
 	{

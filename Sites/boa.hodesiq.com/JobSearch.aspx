@@ -43,6 +43,7 @@
 							<asp:ImageButton ID="brefine" runat="server" OnClick="brefine_Click" AlternateText="Show Cities" Height="19" Width="77" ImageUrl="~/images/showcitylink.GIF"/>
 							</noscript>
 							</div>
+							<asp:HiddenField ID="ddlStatehidden" runat="server" Value=""  />
 						</td>
 						<td valign="top" colspan="1" style="height:40px; ">&nbsp;</td>
                     </tr>
@@ -50,11 +51,11 @@
 						<td  valign="top" colspan="2" style="width:100%">
 							<asp:Label ID="lblCity" runat="server" Text="City" Visible="true" AssociatedControlID="ddlCity"></asp:Label><br />
 							<span id="d3" style="display: inline;">
-								<asp:DropDownList ID="ddlCity" runat="server" CssClass="left" Style="width: 50%; z-index: auto;"
+								<asp:DropDownList ID="ddlCity" runat="server"  CssClass="left" Style="width: 50%; z-index: auto;"
 								ToolTip="Select a City" Visible="true" Enabled="false">
 								<asp:ListItem>All Locations&#160;</asp:ListItem>
 								</asp:DropDownList>
-							</span>
+							</span>							
 						</td>
 						<td valign="top" colspan="1" style="height:40px; ">&nbsp;</td>
                     </tr>
