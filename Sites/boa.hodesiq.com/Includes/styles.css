@@ -272,7 +272,7 @@ A
     color: #405EBE;
     text-decoration: underline;
 }
-A.hover, A.over
+A:hover, A.over
 {
 	font-family : Verdana, Helvetica, sans-serif;
 	font-size : 0.9em;
@@ -281,7 +281,7 @@ A.hover, A.over
     color: #0000FF;
     text-decoration: none;
 }
-A.visited
+A:visited
 {
 	font-family : Verdana, Helvetica, sans-serif;
 	font-size : 0.9em;
@@ -522,8 +522,3 @@ div.btn1 {
 	top: 0px;
 	position:relative;
 } 
-
-label
-{
-	font-weight :bold;
-}

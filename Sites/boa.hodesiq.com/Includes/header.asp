@@ -41,7 +41,7 @@ function hover(ref, classRef) { eval(ref).className = classRef; }
 //-->
 </script>
 </head>
-<body id="body" onload="startKeybordNav();">
+<body id="body" onload="startKeybordNav(); if(window.loadVideoHost)loadVideoHost();" onunload="">
 <script language="javascript" type="text/javascript">
 //<!--
     examineFontSize("body");

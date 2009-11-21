@@ -12,7 +12,7 @@ If you are currently a Bank of America associate, you should access the <a href=
 						</tr>
 						<tr>
 							<td width="192" colspan="2" nowrap style="padding: 0px 0px 0px 0px;">
-<label for="jobareas" class="p" style="margin: 0px;">Job Areas</label><br>
+<label for="jobareas" class="p" style="margin: 0px;"><b>Job Areas</b></label><br>
 <select name="jobareas" id="jobareas" title="Select a Job Area" style="position: relative; width: 100%; z-index: auto;">
 	<option value="Select a Job Area" selected="selected">Select a Job Area</option>
 <optgroup label="Administration">
@@ -67,7 +67,7 @@ If you are currently a Bank of America associate, you should access the <a href=
 						</tr>
 						<tr>
 							<td width="192" colspan="2" nowrap style="padding: 0px 0px 0px 0px;">
-<label for="stateid" class="p" style="margin: 0px;">Locations</label><br>
+<label for="stateid" class="p" style="margin: 0px;"><b>Locations</b></label><br>
 <select name="stateid"  id="stateid" style="width: 100%; z-index: auto;">
 	<option value="-1">All&nbsp;</option>
 <% 
@@ -78,7 +78,7 @@ If you are currently a Bank of America associate, you should access the <a href=
 						</tr>					
 						<tr>
 							<td width="192" colspan="2" nowrap style="padding: 0px 0px 0px 0px;">
-<label for="keywords" class="p" style="margin: 0px;">Keywords or job number (if known)</label><br>
+<label for="keywords" class="p" style="margin: 0px;"><b>Keywords or job number (if known)</b></label><br>
 <input type="text" name="keywords" id="keywords" value="<%Response.write keywords%>" style="width: 100%;">
 							</td>
 						</tr>
