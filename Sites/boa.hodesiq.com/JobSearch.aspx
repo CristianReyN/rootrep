@@ -181,7 +181,7 @@
                             <img alt="" height="1" src="images/clear.gif" width="1" /></td>
                         <td class="divl" style="width: 11">
                             <img alt="" height="1" src="images/clear.gif" width="10" /></td>
-                        <td style="width: 578; height: 100%;" valign="top">
+                        <td style="width: 578; height: 100%; text-align: center;" valign="top">
                             <!-- Body-->
                             <a id="skipmaincontent"></a>
                             <img alt="" height="4" src="images/clear.gif" width="15" /><br />
@@ -212,7 +212,7 @@
                                                             <b>
                                                                 <label for="areasoftalent">
                                                                     Areas of Talent</label></b></p>
-                                                        <asp:DropDownList id="areasoftalent" Cssclass="left"  style="width: 100%;z-index: auto;" runat="server" AutoPostBack="True" OnSelectedIndexChanged="areasoftalent_SelectedIndexChanged" ToolTip="Areas Of Talent">
+                                                        <asp:DropDownList id="areasoftalent" Cssclass="left"  style="width: 100%;z-index: auto;" runat="server" AutoPostBack="True" OnSelectedIndexChanged="areasoftalent_SelectedIndexChanged" ToolTip="Areas Of Talent" TabIndex="1">
                                                             <asp:ListItem>All Areas of Talent&#160;</asp:ListItem>
                                                         </asp:DropDownList><br />
                                                         <p style="margin: 0px; text-align: left;">
@@ -220,7 +220,7 @@
                                                                 <label for="locations">
                                                                     City</label></b></p>
                                                         <asp:DropDownList ID="City" runat="server" tooltip ="Select a City" CssClass="left" Style="width: 100%;
-                                                            z-index: auto;" TabIndex="2">
+                                                            z-index: auto;" TabIndex="3">
                                                             <asp:ListItem>All Locations&#160;</asp:ListItem>
                                                         </asp:DropDownList>
                                                     </td>
@@ -229,7 +229,7 @@
                                                             <b>
                                                                 <label for="jfamily">
                                                                     Job Family</label></b></p>
-                                                        <asp:ListBox ID="jfamily" Cssclass="left" tooltip="Select Family" Style="width: 100%; z-index: auto;" runat="server" SelectionMode="Multiple" TabIndex="1">
+                                                        <asp:ListBox ID="jfamily" Cssclass="left" tooltip="Select Family" Style="width: 100%; z-index: auto;" runat="server" SelectionMode="Multiple" TabIndex="2">
                                                             <asp:ListItem>Job Family&#160;</asp:ListItem>
                                                         </asp:ListBox>
                                                     </td>
@@ -240,7 +240,7 @@
                                                             <b>
                                                                 <label for="locations">
                                                                     State</label></b></p>
-                                                        <asp:DropDownList id="State" CssClass="left" tooltip="Select a State" style="width: 100%; z-index: auto;" runat="server" TabIndex="3">
+                                                        <asp:DropDownList id="State" CssClass="left" tooltip="Select a State" style="width: 100%; z-index: auto;" runat="server" TabIndex="4">
                                                             <asp:ListItem>All Locations&#160;</asp:ListItem>
                                                         </asp:DropDownList>
                                                     </td>
@@ -249,22 +249,22 @@
                                                             <b>
                                                                 <label for="keywords">
                                                                     Keywords</label></b></p>
-                                                        <asp:TextBox ID="keywords" runat="server" CssClass="left" tooltip="Keywords" Style="width: 100%;size:20" TabIndex="4"></asp:TextBox>
+                                                        <asp:TextBox ID="keywords" runat="server" CssClass="left" tooltip="Keywords" Style="width: 100%;size:20" TabIndex="5"></asp:TextBox>
                                                     </td>
                                                 </tr>
                                                 <tr>
                                                     <td style="padding: 0px 12px 0px 12px;">
                                                         &nbsp;</td>
                                                     <td align="right" valign="top">
-                                                        <input id="bsearch" class="bodybtn" type="submit" value="Begin Search" tabindex="5" />
+                                                        <input id="bsearch" class="bodybtn" type="submit" value="Begin Search" tabindex="6" />
                                                     </td>
                                                 </tr>
                                                 <tr>
                                                     <td style="padding: 0px 12px 0px 12px;">
                                                         &nbsp;</td>
                                                     <td align="right" valign="top">
-                                                        <a class="sblnk" href="jobcart.aspx" title="View Job Cart" tabindex="6">View Job Cart</a>&nbsp;&nbsp;&nbsp;&nbsp;<a
-                                                            class="sblnk" href="AdvanceSearch.aspx" title="Advanced Search" tabindex="7">Advanced Search</a>
+                                                        <a class="sblnk" href="jobcart.aspx" title="View Job Cart" tabindex="7">View Job Cart</a>&nbsp;&nbsp;&nbsp;&nbsp;<a
+                                                            class="sblnk" href="AdvanceSearch.aspx" title="Advanced Search" tabindex="8">Advanced Search</a>
                                                     </td>
                                                 </tr>
                                             </table>
@@ -275,7 +275,7 @@
                             <br />
                             <br />
                             <!-- Body-->
-                        </td>
+                            <asp:Label ID="lblMessage" runat="server"></asp:Label></td>
                     </tr>
                 </table>
             </td>

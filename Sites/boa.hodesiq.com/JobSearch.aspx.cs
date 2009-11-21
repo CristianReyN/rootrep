@@ -17,24 +17,27 @@ public partial class _Default : System.Web.UI.Page
   protected void Page_Load(object sender, EventArgs e)
     {
         areasoftalent.Focus();
+        lblMessage.Text = "";
        if(!Page.IsPostBack)
-        {            
-            AreaofTalent at = new AreaofTalent();
+        {
+            try
+            {
+                AreaofTalent at = new AreaofTalent();
                 areasoftalent.DataTextField = "Talent";
                 areasoftalent.DataValueField = "TalentID";
                 areasoftalent.DataSource = at.Talent();
                 areasoftalent.DataBind();
-                areasoftalent.Items.Insert(0,new ListItem("Select a Talent", ""));
+                areasoftalent.Items.Insert(0, new ListItem("Select a Talent", ""));
                 areasoftalent.SelectedIndex = 0;
 
                 jfamily.DataTextField = "Family";
                 jfamily.DataValueField = "FamilyID";
                 jfamily.DataSource = at.Jobfamily();
                 jfamily.DataBind();
-                jfamily.Items.Insert(0, new ListItem("Select a Family",""));
+                jfamily.Items.Insert(0, new ListItem("Select a Family", ""));
                 jfamily.SelectedIndex = 0;
 
-           Location Lo = new Location();
+                Location Lo = new Location();
                 State.DataTextField = "State";
                 State.DataValueField = "Req_ID";
                 State.DataSource = Lo.State();
@@ -49,6 +52,11 @@ public partial class _Default : System.Web.UI.Page
                 City.Items.Insert(0, new ListItem("Select a City", ""));
                 City.SelectedIndex = 0;
 
+            }
+            catch (Exception ex)
+            {
+                lblMessage.Text = ex.Message;
+            }
                 
 
         }

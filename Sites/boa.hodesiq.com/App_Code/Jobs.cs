@@ -28,17 +28,32 @@ public class Jobs
 
     public DataTable Type()
     {
-        Sql = string.Empty;
-        Sql = "select FullTimePartTimeID,FullTimePartTime from FullTimePartTime";
-        DBUtils db = new DBUtils();
+        DBUtils db;
+        try
+        {
+            Sql = string.Empty;
+            Sql = "select FullTimePartTimeID,FullTimePartTime from FullTimePartTime";
+            db = new DBUtils();
+        }
+        catch (Exception ex) {
+            throw ex;
+        }
         return db.GetDataTable(Sql);
 
     }
     public DataTable Shift()
-    {
-        Sql = string.Empty;
-        Sql = "select ShiftID,Shift from Shift";
-        DBUtils db = new DBUtils();
+    {DBUtils db;
+
+        try
+        {
+            Sql = string.Empty;
+            Sql = "select ShiftID,Shift from Shift";
+            db = new DBUtils();
+        }
+        catch (Exception ex)
+        {
+            throw ex;
+        }
         return db.GetDataTable(Sql);
 
     }
