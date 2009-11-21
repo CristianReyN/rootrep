@@ -98,7 +98,7 @@ function none(){}
 	<option value="gp_gcsbbd.asp"<% If fpage = "gp_gcsbbd" Then %> disabled<% End If %>>Global Consumer and Small Business Banking Product Leader Development Program</option>
 </optgroup>
 <optgroup label="Global Wealth & Investment Management">
-	<option value="gp_trust.asp"<% If fpage = "gp_trust" Then %> disabled<% End If %>>Graduate</option>
+	<option value="gp_g.asp"<% If fpage = "gp_g" Then %> disabled<% End If %>>Graduate</option>
 </optgroup>
 <optgroup label="Global Corporate Investment Banking">
 	<option value="http://www.bofa.com/careers">Global Commercial Banking/Treasury Services Associate</option>
