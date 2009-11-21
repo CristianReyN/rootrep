@@ -1,7 +1,7 @@
 <%@ Master Language="C#" CodeFile="BOAmaster.master.CS"  Inherits="BOAmaster" %>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
+<head id="Head1" runat="server">
     <meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
     <meta name="Description" content="" runat="server" id="metadescription" /> 
 <title>Bank of America | Careers<%=breadCrum%></title>
@@ -156,8 +156,11 @@ create_safebutton("Search","javascript: submit_search();",0,0,0,0,"Search");
 			<tr valign="top" style="background: #ffffff;"><td><img src="images/white.gif" width="154" height="1" alt="" border="0" /></td></tr>
 			
 			<!-- added by ahsan-->
-			
+	<!--		
     <tr valign="top" onmouseover="tdiv(false);" onmouseout="tdiv(true);"><td id="tdnavgc" valign="middle" style="background: #cadceb; padding: 0px 6px 0px 6px;" ><div id="gcareerstartdv" style="position: absolute;"><a name="lnav21" id="gcareerstart"></a></div><a class="g" href="http://globalcareers.hodesinteractive.com/" id="gcareera" title="Global Careers" onfocus="this.className='g-over'; tdiv(false);" onblur="this.className='g'; tdiv(true);">Global Careers</a><div id="gcareerenddv" style="position: absolute;"><a name="lnav22" id="gcareerend"></a></div></td></tr>
+    -->
+    <tr valign="top"><td style="background: #cadceb; padding: 0.35em 6px 0.35em 6px;"><a class="g" href="http://globalcareers.bankofamerica.com/" title="Global Careers" onfocus="this.className='g-over';" onblur="this.className='g';" style="line-height: 1.2em;">Global Careers</a></td></tr>
+
     <tr valign="top" style="background: #ffffff;"><td><img src="images/white.gif" width="154" height="1" alt="" border="0" /></td></tr>
 <!-- -->
 
@@ -176,6 +179,7 @@ create_safebutton("Search","javascript: submit_search();",0,0,0,0,"Search");
 //<!--
 function tdiv(tf)
 {
+return;
     for(var i=1; i<=5; i++)
 		if(document.getElementById("d" + String(i)))
 		{
@@ -338,16 +342,16 @@ function setNextTabAotPopupQuit(ev)
 		document.getElementById("aotend"+(isIE?"dv":"")).focus();
 }}
 //campus recruiting
-function setNextTabCRec(ev)
+function setNextTabCrecPopup(ev)
 {	if(transferFocus(ev) && isShiftKey(ev) && document.getElementById("camrecstart"))
 		document.getElementById("camrecstart"+(isIE?"dv":"")).focus();
 }
-function setNextTabCRecShift(ev)
+function setNextTabCrecShift(ev)
 {	if(transferFocus(ev) && isShiftKey(ev) && document.getElementById("camrecend"))
 		document.getElementById("camrecend"+(isIE?"dv":"")).focus();
 }
 
-function setNextTabCRecPopup(ev)
+function setNextTabCrecPopupQuit(ev)
 {	if(isShiftKey(ev) && transferFocus(ev))
 	{
 		if(document.getElementById("camrecstart"))
