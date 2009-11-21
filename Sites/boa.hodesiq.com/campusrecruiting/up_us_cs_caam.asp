@@ -10,7 +10,8 @@ ada_href = "../ada_camp/up_us_cs_caam.asp"
 page_self = "../campusrecruiting/up_us_cs_caam.asp"
 ada_title = breadcrumb & "Campus Recruiting | Explore Careers | Undergraduate Programs | US | Card Services - Customer Assistance Account Manager"
 job_search_action = "../jobsearch/searchresult.asp"
-Metatag=""
+%><!-- #include file="../includes/camp_program_meta_description.asp" --><%
+Metatag=CAMP_META_DESRIPTION
 Dim r1,r2,r3
 r1 = True
 r2 = True

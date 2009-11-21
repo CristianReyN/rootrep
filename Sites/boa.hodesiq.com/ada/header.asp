@@ -20,6 +20,8 @@ window.open(imnam,"pop","directory=no,height=450,width=500,toolbar=no,scrollbars
 </head>
 <body id="body" onload="startPs();">
 <%
+Dim JOB_SEARCH_TITLE
+JOB_SEARCH_TITLE = "USA Guided Job Search"
 Dim pageId, categoryId
 pageId = "career:" & Replace(page_self, "../", "", 1, -1, 0)
 If spage = "lb_career_compass" Then

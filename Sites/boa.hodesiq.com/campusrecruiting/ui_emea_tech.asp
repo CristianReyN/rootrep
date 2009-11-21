@@ -10,7 +10,8 @@ ada_href = "../ada_camp/ui_emea_tech.asp"
 page_self = "../campusrecruiting/ui_emea_tech.asp"
 ada_title = breadcrumb & "Campus Recruiting | Explore Careers | Undergraduate Internships | EMEA | Technology"
 job_search_action = "../jobsearch/searchresult.asp"
-Metatag=""
+%><!-- #include file="../includes/camp_program_meta_description.asp" --><%
+Metatag=CAMP_META_DESRIPTION
 Dim r1,r2,r3
 r1 = True
 r2 = True

@@ -10,7 +10,8 @@ ada_href = "../ada_camp/up_us_gwim_atp.asp"
 page_self = "../campusrecruiting/up_us_gwim_atp.asp"
 ada_title = breadcrumb & "Campus Recruiting | Explore Careers | Undergraduate Programs | US | Global Wealth and Investment Management Associate Training Program"
 job_search_action = "../jobsearch/searchresult.asp"
-Metatag=""
+%><!-- #include file="../includes/camp_program_meta_description.asp" --><%
+Metatag=CAMP_META_DESRIPTION
 Dim r1,r2,r3
 r1 = True
 r2 = True

@@ -10,7 +10,8 @@ ada_href = "../ada_camp/gi_us_gmca_ip.asp"
 page_self = "../campusrecruiting/gi_us_gmca_ip.asp"
 ada_title = breadcrumb & "Campus Recruiting | Explore Careers | Graduate Internships | US | Global Marketing and Corporate Affairs  Internship Program"
 job_search_action = "../jobsearch/searchresult.asp"
-Metatag=""
+%><!-- #include file="../includes/camp_program_meta_description.asp" --><%
+Metatag=CAMP_META_DESRIPTION
 Dim r1,r2,r3
 r1 = True
 r2 = True

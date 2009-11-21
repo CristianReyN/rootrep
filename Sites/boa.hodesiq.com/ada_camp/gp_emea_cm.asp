@@ -9,7 +9,8 @@ fpage = "gp_emea_cm"
 standart_href = "../campusrecruiting/gp_emea_cm.asp"
 page_self = "../ada_camp/gp_emea_cm.asp"
 job_search_action = "../jobsearch/searchresult.asp"
-Metatag=""
+%><!-- #include file="../includes/camp_program_meta_description.asp" --><%
+Metatag=CAMP_META_DESRIPTION
 page_section="ADA"
 Dim r1,r2,r3
 r1 = True

@@ -10,7 +10,8 @@ ada_href = "../ada_camp/gp_us_gcb_gps_mba_lp.asp"
 page_self = "../campusrecruiting/gp_us_gcb_gps_mba_lp.asp"
 ada_title = breadcrumb & "Campus Recruiting | Explore Careers | Graduate Programs | US | Global Commercial Banking and Global Product Solutions MBA Leadership Program"
 job_search_action = "../jobsearch/searchresult.asp"
-Metatag=""
+%><!-- #include file="../includes/camp_program_meta_description.asp" --><%
+Metatag=CAMP_META_DESRIPTION
 Dim r1,r2,r3
 r1 = True
 r2 = True

@@ -10,7 +10,8 @@ ada_href = "../ada_camp/gp_us_bccmm_mba_ldp.asp"
 page_self = "../campusrecruiting/gp_us_bccmm_mba_ldp.asp"
 ada_title = breadcrumb & "Campus Recruiting | Explore Careers | Graduate Programs | US | Banking Center Channel Market Management MBA Leader Development Program"
 job_search_action = "../jobsearch/searchresult.asp"
-Metatag=""
+%><!-- #include file="../includes/camp_program_meta_description.asp" --><%
+Metatag=CAMP_META_DESRIPTION
 Dim r1,r2,r3
 r1 = True
 r2 = True

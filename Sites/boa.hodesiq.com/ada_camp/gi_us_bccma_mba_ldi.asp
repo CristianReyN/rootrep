@@ -9,7 +9,8 @@ fpage = "gi_us_bccma_mba_ldi"
 standart_href = "../campusrecruiting/gi_us_bccma_mba_ldi.asp"
 page_self = "../ada_camp/gi_us_bccma_mba_ldi.asp"
 job_search_action = "../jobsearch/searchresult.asp"
-Metatag=""
+%><!-- #include file="../includes/camp_program_meta_description.asp" --><%
+Metatag=CAMP_META_DESRIPTION
 page_section="ADA"
 Dim r1,r2,r3
 r1 = True

@@ -199,7 +199,7 @@ Bank of Opportunity.
 <!-- #include file="../jsearch.asp" -->
 			<tr valign="top">
 				<td width="386" height="100%" valign="top" style="padding: 0px 0px 0px 0px;">
-<H2 class="h1" style="margin: 0px 0px;"><!-- #include file="../jobsearch_title.asp" --></H2>
+<H2 class="h1" style="margin: 0px 0px;"><%=JOB_SEARCH_TITLE%></H2>
 <img src="../images/clear.gif" width="100%" height="1" alt="" border="0" class="divb"><br clear="all">
 <form name="jsearch" action="<% Response.write job_search_action %>" style="margin: 0px;">
 <input type="hidden" name="from" id="from" value="<% Response.write page_self %>">
