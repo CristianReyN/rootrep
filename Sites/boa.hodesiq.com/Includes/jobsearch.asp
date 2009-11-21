@@ -11,7 +11,7 @@
 						<tr>
 							<td nowrap style="padding: 0px 6px 0px 12px;">
 <label for="areasoftalent"><p style="margin: 0px;">Areas of Talent</p></label>
-<select name="areasoftalent" id="areasoftalent" class="right" style="position: relative; width: 100%;">
+<select name="areasoftalent" id="areasoftalent" style="position: relative; width: 100%;">
 	<option value="-1">All&nbsp;</option>
 <% 
 	call getAreasOfTalentOptions()
@@ -25,7 +25,7 @@
 						<tr>
 							<td colspan="2" nowrap style="padding: 0px 6px 0px 12px;">
 <label for="jfamily"><p style="margin: 0px;">Job Family</p></label>
-<select name="jfamily" id="jfamily" class="right" style="width: 100%;">
+<select name="jfamily" id="jfamily" style="width: 100%;">
 <%
 	If areasoftalent <> "" Then
 %>
@@ -44,7 +44,7 @@
 						<tr>
 							<td colspan="2" nowrap style="padding: 0px 6px 0px 12px;">
 <label for="stateid"><p style="margin: 0px;">Locations</p></label>
-<select name="stateid"  id="stateid" class="right" style="width: 100%; z-index: auto;">
+<select name="stateid"  id="stateid" style="width: 100%; z-index: auto;">
 	<option value="-1">All&nbsp;</option>
 <% 
 	call getStateOptions()

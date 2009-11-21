@@ -6,42 +6,57 @@ BODY
 }
 TD, TH
 {
-    font-size: 0.7em;
+    font-size: 70%;
     color: #333333;
     font-family: Verdana, helvetica, sans-serif;
 }
 
 P, UL, LI
 {
-    font: normal 1em/1.2em Verdana, Helvetica, sans-serif;
+	font-family : Verdana, Helvetica, sans-serif;
+	font-size : 1.0em;
+	line-height : 1.2em;
+	font-weight : normal;
     color: #333333;
     background-color: transparent;
 }
 
 P.s, UL.s, LI.s
 {
-    font: normal 0.9em/1.1em Verdana, Helvetica, sans-serif;
+	font-family : Verdana, Helvetica, sans-serif;
+	font-size : 0.9em;
+	line-height : 1.1em;
+	font-weight : normal;
     color: #333333;
     background-color: transparent;
 }
 
 .ftrtxt
 {
-    font: normal 0.9em Verdana, Helvetica, sans-serif;
+	font-family : Verdana, Helvetica, sans-serif;
+	font-size : 0.9em;
+	line-height : 1.1em;
+	font-weight : normal;
     color: #405ebe;
     background-color: transparent;
     text-decoration: none;
 }
 .ftrtxt2
 {
-    font: normal 0.9em Verdana, Helvetica, sans-serif;
+	font-family : Verdana, Helvetica, sans-serif;
+	font-size : 0.9em;
+	line-height : 1.1em;
+	font-weight : normal;
     color: #000000;
     background-color: transparent;
 }
 
 H1
 {
-    font: normal 1.5em/1.5em Verdana, helvetica, sans-serif;
+	font-family : Verdana, Helvetica, sans-serif;
+	font-size : 1.5em;
+	line-height : 1.5em;
+	font-weight : normal;
     color: #D40019;
     background-color: transparent;
     text-decoration: none;
@@ -50,7 +65,10 @@ H1
 
 H2, P.H2
 {
-    font: bold 1.0em/1.0em Verdana, helvetica, sans-serif;
+	font-family : Verdana, Helvetica, sans-serif;
+	font-size : 1.0em;
+	line-height : 1.0em;
+	font-weight : bold;
     color: #333333;
     background-color: transparent;
     text-decoration: none;
@@ -71,7 +89,10 @@ H2.g
 
 H2
 {
-    font: bold 0.9em/0.9em Verdana, helvetica, sans-serif;
+	font-family : Verdana, Helvetica, sans-serif;
+	font-size : 0.9em;
+	line-height : 0.9em;
+	font-weight : bold;
     color: #333333;
     background-color: transparent;
     text-decoration: none;
@@ -80,7 +101,10 @@ H2
 
 H3, P.H3
 {
-    font: normal 1.1em/1.2em Verdana, helvetica, sans-serif;
+	font-family : Verdana, Helvetica, sans-serif;
+	font-size : 1.1em;
+	line-height : 1.2em;
+	font-weight : normal;
     color: #D40019;
     text-decoration: none;
     padding: 0px;
@@ -139,7 +163,10 @@ TR.c2
 
 SELECT
 {
-    font: normal 1.0em/1.0em Verdana, Helvetica, sans-serif;
+	font-family : Verdana, Helvetica, sans-serif;
+	font-size : 1.0em;
+	line-height : 1.0em;
+	font-weight : normal;
     color: #000000;
     background-color: #ffffff;
 	margin: 2px 0px 2px 0px;
@@ -155,7 +182,10 @@ OPTION
 
 INPUT
 {
-    font: normal 1.0em/1.0em Verdana, Helvetica, sans-serif;
+	font-family : Verdana, Helvetica, sans-serif;
+	font-size : 1.0em;
+	line-height : 1.0em;
+	font-weight : normal;
     color: #000000;
 	margin: 2px 0px 2px 0px;
 }
@@ -167,7 +197,10 @@ INPUT.right
 
 INPUT.btn1
 {
-    font: bold 0.9em/1.1em Verdana, Helvetica, sans-serif;
+	font-family : Verdana, Helvetica, sans-serif;
+	font-size : 0.9em;
+	line-height : 1.1em;
+	font-weight : bold;
 	color: #ffffff;
 	background: #366496;
 	border-color: #CBE3FF #003366 #003366 #B7CFEB;
@@ -177,7 +210,10 @@ INPUT.btn1
 
 INPUT.bodybtn
 {
-    font: bold 0.9em Verdana, Helvetica, sans-serif;
+	font-family : Verdana, Helvetica, sans-serif;
+	font-size : 0.9em;
+	line-height : 1.1em;
+	font-weight : bold;
 	color: #ffffff;
 	background-color: #366496;
 	border-right: 2px solid #000000;
@@ -190,7 +226,10 @@ INPUT.bodybtn
 }
 INPUT.navbtn
 {
-    font: normal 0.9em/1.1em Verdana, Helvetica, sans-serif;
+	font-family : Verdana, Helvetica, sans-serif;
+	font-size : 0.9em;
+	line-height : 1.1em;
+	font-weight : bold;
 	color: #ffffff;
 	background: #366496;
 	border-style: groove;
@@ -201,69 +240,99 @@ INPUT.navbtn
 }
 A.g, A.g:visited
 {
-    font: bold 0.9em/2.1em Verdana, Helvetica, sans-serif;
+	font-family : Verdana, Helvetica, sans-serif;
+	font-size : 0.9em;
+	line-height : 2.1em;
+	font-weight : bold;
     color: #333333;
     background-color: transparent;
     text-decoration: none;
 }
 A.g:hover, A.g-over
 {
-    font: bold 0.9em/2.1em Verdana, Helvetica, sans-serif;
+	font-family : Verdana, Helvetica, sans-serif;
+	font-size : 0.9em;
+	line-height : 2.1em;
+	font-weight : bold;
     color: #be5a33;
     background-color: transparent;
     text-decoration: none;
 }
 A.nv
 {
-    font: normal 1em/1.2em Verdana, Helvetica, sans-serif;
+	font-family : Verdana, Helvetica, sans-serif;
+	font-size : 1.0em;
+	line-height : 1.2em;
+	font-weight : normal;
     color: #000000;
     background-color: transparent;
     text-decoration: none;
 }
 A.nv:visited
 {
-    font: normal 1em/1.2em Verdana, Helvetica, sans-serif;
+	font-family : Verdana, Helvetica, sans-serif;
+	font-size : 1.0em;
+	line-height : 1.2em;
+	font-weight : normal;
     color: #000000;
     background-color: transparent;
     text-decoration: none;
 }
 A.nv:hover
 {
-    font: normal 1em/1.2em Verdana, Helvetica, sans-serif;
+	font-family : Verdana, Helvetica, sans-serif;
+	font-size : 1.0em;
+	line-height : 1.2em;
+	font-weight : normal;
     color: #000080;
     background-color: transparent;
     text-decoration: underline;
 }
 A.p, A.p:visited, SPAN.pl
 {
-    font: normal 1em/1.2em Verdana, Helvetica, sans-serif;
+	font-family : Verdana, Helvetica, sans-serif;
+	font-size : 1.0em;
+	line-height : 1.2em;
+	font-weight : normal;
     color: #405ebe;
     text-decoration: underline;
 }
 SPAN.pl{text-decoration: none;}
 A.p:hover, A.p-over
 {
-    font: normal 1em/1.2em Verdana, Helvetica, sans-serif;
+	font-family : Verdana, Helvetica, sans-serif;
+	font-size : 1.0em;
+	line-height : 1.2em;
+	font-weight : normal;
     color: #be5a33;
     text-decoration: none;
 }
 
 A.left, A.left:visited
 {
-    font: normal 1.0em/1.0em Arial, Helvetica, sans-serif;
+	font-family : Arial, Helvetica, sans-serif;
+	font-size : 1.0em;
+	line-height : 1.0em;
+	font-weight : normal;
     color: #003366;
     text-decoration: underline;
 }
 A.left:hover, A.left-over
 {
-    font: normal 1.0em/1.0em Arial, Helvetica, sans-serif;
+	font-family : Arial, Helvetica, sans-serif;
+	font-size : 1.0em;
+	line-height : 1.0em;
+	font-weight : normal;
     color: #be5a33;
     text-decoration: none;
 }
 
 A.left2, A.left2:visited, SPAN.left2
 {
-    font: bold 1.0em/1.0em Verdana, helvetica, sans-serif;
+	font-family : Verdana, Helvetica, sans-serif;
+	font-size : 1.0em;
+	line-height : 1.0em;
+	font-weight : bold;
     color: #003366;
     background-color: transparent;
     text-decoration: underline;
@@ -271,7 +340,10 @@ A.left2, A.left2:visited, SPAN.left2
 SPAN.left2{text-decoration: none;}
 A.left2:hover, A.left2-over
 {
-    font: bold 1.0em/1.0em Verdana, helvetica, sans-serif;
+	font-family : Verdana, Helvetica, sans-serif;
+	font-size : 1.0em;
+	line-height : 1.0em;
+	font-weight : bold;
     color: #be5a33;
     background-color: transparent;
     text-decoration: none;
@@ -279,35 +351,40 @@ A.left2:hover, A.left2-over
 
 A.sbtxt, A.sbtxt:visited
 {
-    font: normal 0.9em/1.2em Verdana, Helvetica, sans-serif;
+	font-family : Verdana, Helvetica, sans-serif;
+	font-size : 0.9em;
+	line-height : 1.2em;
+	font-weight : normal;
     color: #333333;
     text-decoration: none;
 }
 A.sbtxt:hover, A.sbtxt-over
 {
-    font: normal 0.9em/1.2em Verdana, Helvetica, sans-serif;
+	font-family : Verdana, Helvetica, sans-serif;
+	font-size : 0.9em;
+	line-height : 1.2em;
+	font-weight : normal;
     color: #be5a33;
     background-color: transparent;
     text-decoration: none;
 }
 
-A.sblnk
+A.sblnk, A.sblnk:visited
 {
-    font: normal 1em Verdana, Helvetica, sans-serif;
-    color: #405ebe;
-    background-color: transparent;
-    text-decoration: underline;
-}
-A.sblnk:visited
-{
-    font: normal 1em Verdana, Helvetica, sans-serif;
+	font-family : Verdana, Helvetica, sans-serif;
+	font-size : 1.0em;
+	line-height : 1.2em;
+	font-weight : normal;
     color: #405ebe;
     background-color: transparent;
     text-decoration: underline;
 }
 A.sblnk:hover
 {
-    font: normal 1em Verdana, Helvetica, sans-serif;
+	font-family : Verdana, Helvetica, sans-serif;
+	font-size : 1.0em;
+	line-height : 1.2em;
+	font-weight : normal;
     color: #0000ee;
     background-color: transparent;
     text-decoration: underline;
@@ -315,20 +392,29 @@ A.sblnk:hover
 
 A.ftrlnk, A.ftrlnk:visited
 {
-    font: normal 0.9em Verdana, Helvetica, sans-serif;
+	font-family : Verdana, Helvetica, sans-serif;
+	font-size : 0.9em;
+	line-height : 1.1em;
+	font-weight : normal;
     color: #405ebe;
     text-decoration: none;
 }
 A.ftrlnk:hover, A.ftrlnk-over
 {
-    font: normal 0.9em Verdana, Helvetica, sans-serif;
+	font-family : Verdana, Helvetica, sans-serif;
+	font-size : 0.9em;
+	line-height : 1.1em;
+	font-weight : normal;
     color: #0000ee;
     text-decoration: none;
 }
 
 .mh-link1, .mh-link2, .mh-link1:visited, .mh-link2:visited
 {
-    font: bold 0.9em/0.9em Verdana, Helvetica, sans-serif;
+	font-family : Verdana, Helvetica, sans-serif;
+	font-size : 0.9em;
+	line-height : 0.9em;
+	font-weight : bold;
 	color: #666666;
 	text-decoration: none;
 	display: inline;
@@ -336,12 +422,18 @@ A.ftrlnk:hover, A.ftrlnk-over
 .mh-link2 {color: #D4001A;}
 .mh-link1:hover, .mh-link1-over
 {
-	font: bold 0.9em/0.9em Verdana, Helvetica, sans-serif;
+	font-family : Verdana, Helvetica, sans-serif;
+	font-size : 0.9em;
+	line-height : 0.9em;
+	font-weight : bold;
 	color: #5C94D0;
 }
 .mh-link2:hover, .mh-link2-over
 {
-	font: bold 0.9em/0.9em Verdana, Helvetica, sans-serif;
+	font-family : Verdana, Helvetica, sans-serif;
+	font-size : 0.9em;
+	line-height : 0.9em;
+	font-weight : bold;
 	color: #AA051A;
 }
 
@@ -350,7 +442,7 @@ A.ftrlnk:hover, A.ftrlnk-over
 .mh-hline-bkg {background: #ECECEC;}
 .ada-search {color: #ececec; background: #ececec; font: normal 0.1em/0.01em Verdana, Helvetica, sans-serif; margin: 0px;}
 a.btn1, a.btn1:visited {
-    font: bold 0.9em/1.2em Verdana, Helvetica, sans-serif;
+	font: bold 0.9em/1.2em Verdana, Helvetica, sans-serif;
     color: #ffffff;
     text-decoration: none;
 }
@@ -379,7 +471,10 @@ div.btn1 {
 } 
 .show-tab
 {
-	font: normal 0.8em Verdana, Helvetica, sans-serif;
+	font-family : Verdana, Helvetica, sans-serif;
+	font-size : 0.8em;
+	line-height : 1.0em;
+	font-weight : normal;
     color: #405ebe;
 	left: 0px;
 	top: 0px;

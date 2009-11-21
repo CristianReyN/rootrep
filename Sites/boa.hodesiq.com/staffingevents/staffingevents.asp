@@ -16,7 +16,7 @@ Metatag="You can link to two sites to see where in the United States a represent
 <!-- #include file="../includes/lnav.asp" -->
 <!-- Left Nav -->
 			<tr valign="top"><td style="background: #cadceb;" height="300" valign="top" align="center">
-<a href="<%=ada_href %>" title="<%=ada_title %>" class="g" onfocus="this.className='g-over';" onblur="this.className='g';">Video Transcript</a>&nbsp;&nbsp;<br>
+<a href="<%=ada_href %>" title="<%=ada_title %>" class="g" onfocus="this.className='g-over';" onblur="this.className='g';">Text Only Version</a>&nbsp;&nbsp;<br>
 <script language="JavaScript1.2" type="text/javascript">
 //<!--
 requiredMajorVersion = 8;

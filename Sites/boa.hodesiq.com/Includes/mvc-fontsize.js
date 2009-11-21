@@ -71,11 +71,11 @@ function examineFontSize(ref)
 				//newstr = newstr + ((12-hsize)/12)*75;
 				//document.getElementById(ref).style.fontSize = newstr+"%";
 			}
-			
-			if (newstr < 10) multipleFontSize(1.8);
-			else if (newstr < 12) multipleFontSize(1.5);
-			else if (newstr > 15) multipleFontSize(0.7);
-			else if (newstr > 12) multipleFontSize(0.8);
+			//alert(newstr);
+			if (newstr < 10) multipleFontSize(1.1);
+			else if (newstr < 12) multipleFontSize(1.05);
+			else if (newstr > 15) multipleFontSize(0.85);
+			else if (newstr > 12) multipleFontSize(0.9);
 		}
 }
 

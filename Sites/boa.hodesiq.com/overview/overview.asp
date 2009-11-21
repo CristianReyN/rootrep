@@ -22,7 +22,7 @@ If playflash = "" Then Response.Cookies("PFOT") = "1"
 			<tr valign="top"><td style="background: #cadceb;" height="50">
 <div id="flash1" style="position: absolute;">
 <table width="160" cellpadding="0" cellspacing="0" border="0" summary="">
-<tr><td align="right"><br><a href="<%=ada_href %>" title="<%=ada_title %>" class="g" onfocus="this.className='g-over';" onblur="this.className='g';">Video Transcript</a>&nbsp;&nbsp;</td></tr>
+<tr><td align="right"><br><a href="<%=ada_href %>" title="<%=ada_title %>" class="g" onfocus="this.className='g-over';" onblur="this.className='g';"><% If playflash="" Then %>Video Transcript<% Else %>Text Only Version<% End If %></a>&nbsp;&nbsp;</td></tr>
 </table><div id="flash_in" style="display: <% If playflash="1" Then Response.write "none" Else Response.write "inline"%>;">
 <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"  codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="310" height="390" title="virtualhost" id=ShockwaveFlash1>
   <param name="movie" value="virtualhost.swf" />
