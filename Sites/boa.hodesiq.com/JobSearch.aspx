@@ -24,7 +24,7 @@
 							<td  valign="top" style="width:50%; height:45;">
 							    <div id="Div3" style="display: inline;">						
 								    <asp:Label ID="lblCountry" runat="server" Text="Country" AssociatedControlID="State"></asp:Label><br />
-								    <asp:DropDownList ID="Country" runat="server" CssClass="left" Style="width: 100%; z-index: auto;"
+								    <asp:DropDownList ID="Country" runat="server" CssClass="left" Style="width:90%; z-index: auto;"
 								    ToolTip="Select a country" AutoPostBack="true" OnSelectedIndexChanged="Country_Click">								  
 								    </asp:DropDownList></div>
 							</td>
@@ -37,7 +37,7 @@
 							<td  valign="top"  style="width:50%; height:45;">
 							   <div id="Div1" style="display: inline;">
 							    <asp:Label ID="LblInternationalCity" runat="server" Text="International City" Visible="true" AssociatedControlID="InternationalCity"></asp:Label><br />
-								<asp:DropDownList ID="InternationalCity" runat="server" CssClass="left" Style="width: 100%; z-index: auto;"
+								<asp:DropDownList ID="InternationalCity" runat="server" CssClass="left" Style="width: 90%; z-index: auto;"
 								ToolTip="Select a city" Visible="true" Enabled="true">
 								<asp:ListItem>All cities&#160;</asp:ListItem>
 								</asp:DropDownList>			</div>						
@@ -45,22 +45,22 @@
 						</tr>
 						
 						<tr id="trUsLocation" runat="server" >
-							<td  valign="top" style="width:50%; height:45;">
+							<td  valign="top" style="width:48%; height:45;">
 							    <div id="d1" style="display: inline;">
 								    <asp:Label ID="lblState" runat="server" Text="State" AssociatedControlID="State"></asp:Label><br />
-								    <asp:DropDownList ID="State" runat="server" CssClass="left" Style="width: 100%; z-index: auto;"
+								    <asp:DropDownList ID="State" runat="server" CssClass="left" Style="width: 90%; z-index: auto;"
 								    ToolTip="Select a state" AutoPostBack="false" OnSelectedIndexChanged="brefine_Click">
 								    <asp:ListItem Value="-1">All states&#160;</asp:ListItem>
 								    </asp:DropDownList>
 								</div>
 								
 								<asp:HiddenField ID="Statehidden" runat="server" Value=""  />
-							</td>
-							<td  valign="top" style="width:50%; height:45;">
+							</td>					
+							<td  valign="top" style="width:48%; height:45;">
 							    <asp:Label ID="lblCity" runat="server" Text="City" Visible="true" AssociatedControlID="City"></asp:Label><br />
-								<asp:DropDownList ID="City" runat="server" CssClass="left" Style="width: 100%; z-index: auto;"
+								<asp:DropDownList ID="City" runat="server" CssClass="left" Style="width: 90%; z-index: auto;"
 								ToolTip="Select a city" Visible="true" Enabled="false">
-								<asp:ListItem>All locations&#160;</asp:ListItem>
+								<asp:ListItem>All cities&#160;</asp:ListItem>
 								</asp:DropDownList>								
 							</td>
 						</tr>
@@ -68,7 +68,7 @@
 							<td valign="top" style="width:50%; height:45;">
 							    <div id="Div2" style="display: inline;">
 								<asp:Label ID="lblJobFamily" runat="server" Text="Job Family" Visible="true" AssociatedControlID="ddlJobFamily"></asp:Label><br />
-								<asp:DropDownList ID="ddlJobFamily" runat="server" CssClass="left" Style="width: 100%; z-index: auto;"
+								<asp:DropDownList ID="ddlJobFamily" runat="server" CssClass="left" Style="width: 90%; z-index: auto;"
 								ToolTip="Select a job family" Visible="true">
 								</asp:DropDownList>
 								</div>
@@ -78,7 +78,7 @@
 							<td valign="top" style="width:50%; height:45;">
 							    <div id="d2" style="display: inline;">
 								<asp:Label ID="lblJobAreas" runat="server" Text="Job areas" Visible="true" AssociatedControlID="ddlJobAreas"></asp:Label><br />
-								<asp:DropDownList ID="ddlJobAreas" runat="server" CssClass="left" Style="width: 100%; z-index: auto;"
+								<asp:DropDownList ID="ddlJobAreas" runat="server" CssClass="left" Style="width: 90%; z-index: auto;"
 								ToolTip="Select a job area" Visible="true">
 								</asp:DropDownList>
 								</div>
@@ -86,7 +86,7 @@
 							<td  valign="top" style="width:50%; height:45;" runat="server" >
 								<asp:Label ID="lblfullpart" runat="server" Text="Full/part time" AssociatedControlID="fullpart"></asp:Label><br />
 								<asp:ListBox ID="fullpart" runat="server" CssClass="left" SelectionMode="Single"
-								Style="width: 100%; z-index: auto;" ToolTip="Full/part time"  Rows="1">
+								Style="width: 90%; z-index: auto;" ToolTip="Full/part time"  Rows="1">
 								<asp:ListItem>All </asp:ListItem>
 								</asp:ListBox>
 							</td>
@@ -95,7 +95,7 @@
 							<td  valign="top" style="width:50%; height:45;" >
 							    <div id="d3"  style="display: inline;">
 								    <asp:Label ID="lbldatepost" runat="server" Text="Date positions posted as of" AssociatedControlID="datepost"></asp:Label><br />
-								    <asp:DropDownList ID="datepost" runat="server" CssClass="left" Style="width: 100%;
+								    <asp:DropDownList ID="datepost" runat="server" CssClass="left" Style="width: 90%;
 								    z-index: auto;" ToolTip="Date posted" >
 								    <asp:ListItem Value="0">All</asp:ListItem>
 								    <asp:ListItem Value="1">Today</asp:ListItem>
@@ -109,7 +109,7 @@
 							</td>
 							<td  valign="top" style="width:50%; height:45;" >
 								<asp:Label ID="lblShift" runat="server" Text="Shift" AssociatedControlID="shift"></asp:Label>
-								<asp:ListBox id="shift" tooltip="Shift" SelectionMode="Single" runat="server" Cssclass="left"  style="width: 100%; z-index: auto;"  Rows="1">
+								<asp:ListBox id="shift" tooltip="Shift" SelectionMode="Single" runat="server" Cssclass="left"  style="width: 90%; z-index: auto;"  Rows="1">
 								<asp:ListItem>All shifts</asp:ListItem>
 								</asp:ListBox>
 							</td>
@@ -118,14 +118,14 @@
 							<td  valign="top" style="width:50%; height:45;" >
 							    <div id="d4" style="display: inline;">
 								    <asp:Label ID="lbltravel" runat="server" Text="Willingness to travel" AssociatedControlID="travel"></asp:Label>
-								    <asp:DropDownList id="travel" tooltip="Travel" Cssclass="left" runat="server" style="width: 100%; z-index: auto;" >
+								    <asp:DropDownList id="travel" tooltip="Travel" Cssclass="left" runat="server" style="width: 90%; z-index: auto;" >
 								    <asp:ListItem>All travel</asp:ListItem>
 								    </asp:DropDownList>
 								</div>
 							</td>
 							<td  valign="top" style="width:50%; height:45;" >
 								<asp:Label ID="lbllang" runat="server" Text="Language requirements" AssociatedControlID="lang" Visible="false"></asp:Label>
-								<asp:ListBox ID="lang" SelectionMode="Single" runat="server" CssClass="left" Style="width: 100%; z-index: auto;"
+								<asp:ListBox ID="lang" SelectionMode="Single" runat="server" CssClass="left" Style="width: 90%; z-index: auto;"
 								ToolTip="Language requirements"  Rows="1" Visible="false">
 								<asp:ListItem>All languages</asp:ListItem>
 								</asp:ListBox>
@@ -135,7 +135,7 @@
 							<td  valign="top" style="width:50%; height:45;" >
 							    <div id="d5" style="display: inline;">
 								    <asp:Label ID="lblkeywords" runat="server" Text="Keywords or job number (if known)" AssociatedControlID="keywords"></asp:Label><br />
-								    <asp:TextBox ID="keywords" runat="server" CssClass="left" Style="width: 100%; size: 20"
+								    <asp:TextBox ID="keywords" runat="server" CssClass="left" Style="width: 90%; size: 20"
 								    ToolTip="Keywords or job number" ></asp:TextBox>
 								</div>
 							</td>

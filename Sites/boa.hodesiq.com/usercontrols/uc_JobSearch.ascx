@@ -43,10 +43,10 @@
 						            <tr id="trState" runat="server" >
 							            <td  valign="top" style="width:50%;height:38;">
 							                <div id="d1" style="display: inline;">
-								                <asp:Label ID="lblState" runat="server" Text="Location" AssociatedControlID="State"></asp:Label><br />
+								                <asp:Label ID="lblState" runat="server" Text="State" AssociatedControlID="State"></asp:Label><br />
 								                <asp:DropDownList ID="State" runat="server" CssClass="left" Style="width: 100%; z-index: auto;"
 								                ToolTip="Select a state" AutoPostBack="true" OnSelectedIndexChanged="brefine_Click">
-								                <asp:ListItem Value="-1">All locations&#160;</asp:ListItem>
+								                <asp:ListItem Value="-1">All state&#160;</asp:ListItem>
 								                </asp:DropDownList>
 								            </div>
             								
