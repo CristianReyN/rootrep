@@ -43,8 +43,8 @@ In addition to advising our clients on a wide variety of topics, the Global Huma
 Interested in joining the "World's Most Admired Global Bank"? We invite you to explore career opportunities on our dynamic Human Resources team.
 </p>
 <br>
-<H1 style="margin: 0px <%=right_margin%>px 0px <%=left_margin_0%>px;">Frequently Asked Questions</H1>
-<div style="margin: <% If page_section = "ADA" Then %>12<% Else %>0<%End If%>px <%=right_margin_split%>px 0px <%=left_margin_0%>px; width: <%=(319-right_margin_split-left_margin_0)%>px;">
+<H1 style="margin: 0px <%=right_margin%>px 0px <%=left_margin_0%>px; width: <%=(315-right_margin_split-left_margin_0)%>px;">Frequently Asked Questions</H1>
+<div style="margin: <% If page_section = "ADA" Then %>12<% Else %>0<%End If%>px <%=right_margin_split%>px 0px <%=left_margin_0%>px; width: <%=(315-right_margin_split-left_margin_0)%>px;">
 <% If page_section <> "ADA" Then %>
 <div id="panswer" style="width: 259px;">
 <img style="margin: 0px;" src="../Includes/pages/lob/thumbnails/ryan_on.jpg" alt="" border="0" align="absmiddle">
@@ -86,7 +86,7 @@ The different positions within HR vary depending on the group.  We look for a va
 <p style="margin: 6px 0px 0px 0px;" class="faqpa">
 <b>What is a typical career path in GHR?</b>
 <% If page_section <> "ADA" Then %>
-<br><a href="Javascript: vo_id();" onclick="playResponce(this);">Play response</a>&nbsp;<a href="Javascript: vo_id();" onclick="playResponce(this);"><img style="margin: 0px 0px 0px 0px;" src="../images/video_off_faq.gif" alt="" border="0" align="absmiddle" class="pai" name="pa3"></a><span class="auraltext"><br class="ryan_a4"></span>
+<br><a href="Javascript: vo_id();" onclick="playResponce(this);" class="ip">Play response</a>&nbsp;<a href="Javascript: vo_id();" onclick="playResponce(this);"><img style="margin: 0px 0px 0px 0px;" src="../images/video_off_faq.gif" alt="" border="0" align="absmiddle" class="pai" name="pa3"></a><span class="auraltext"><br class="ryan_a4"></span>
 <% Else %>
 </p>
 <p style="margin: 6px 0px 0px 0px;"><a name="answ4"></a>

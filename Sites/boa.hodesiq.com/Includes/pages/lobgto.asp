@@ -41,8 +41,8 @@ Global Technology &amp; Operations builds and maintains a world-class data netwo
 The technological superiority of our systems is as important as the quality of the services and products we offer. A highly experienced team, leading-edge initiatives, visible products and our commitment to training add up to an environment of unparalleled opportunity for dedicated technical professionals.
 </p>
 <br>
-<H1 style="margin: 0px <%=right_margin%>px 0px <%=left_margin_0%>px;">Frequently Asked Questions</H1>
-<div style="margin: <% If page_section = "ADA" Then %>12<% Else %>0<%End If%>px <%=right_margin_split%>px 0px <%=left_margin_0%>px; width: <%=(319-right_margin_split-left_margin_0)%>px;">
+<H1 style="margin: 0px <%=right_margin%>px 0px <%=left_margin_0%>px; width: <%=(315-right_margin_split-left_margin_0)%>px;">Frequently Asked Questions</H1>
+<div style="margin: <% If page_section = "ADA" Then %>12<% Else %>0<%End If%>px <%=right_margin_split%>px 0px <%=left_margin_0%>px; width: <%=(315-right_margin_split-left_margin_0)%>px;">
 <% If page_section <> "ADA" Then %>
 <div id="panswer" style="width: 259px;">
 <img style="margin: 0px;" src="../Includes/pages/lob/thumbnails/andy_on.jpg" alt="" border="0" align="absmiddle">
@@ -98,7 +98,7 @@ The bank has an associate learning portal that provides access to career paths, 
 <b>I've heard a lot about Bank of America being a global organization.    
 How do you see globalization in the People, Projects and Business you deal with on a daily basis?</b>
 <% If page_section <> "ADA" Then %>
-<br><a href="Javascript: vo_id();" onclick="playResponce(this);">Play response</a>&nbsp;<a href="Javascript: vo_id();" onclick="playResponce(this);"><img style="margin: 0px 0px 0px 0px;" src="../images/video_off_faq.gif" alt="" border="0" align="absmiddle" class="pai" name="pa3"></a><span class="auraltext"><br class="andy_a3"></span>
+<br><a href="Javascript: vo_id();" onclick="playResponce(this);" class="ip">Play response</a>&nbsp;<a href="Javascript: vo_id();" onclick="playResponce(this);"><img style="margin: 0px 0px 0px 0px;" src="../images/video_off_faq.gif" alt="" border="0" align="absmiddle" class="pai" name="pa3"></a><span class="auraltext"><br class="andy_a3"></span>
 <% Else %>
 </p>
 <p style="margin: 6px 0px 0px 0px;"><a name="answ3"></a>

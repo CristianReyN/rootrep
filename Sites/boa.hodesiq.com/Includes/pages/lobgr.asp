@@ -47,8 +47,8 @@ Specific areas of Global Risk Management are:
 	<li>Corporate Security and Corporate Audit.</li>
 </ul>
 <br>
-<H1 style="margin: 0px <%=right_margin%>px 0px <%=left_margin_0%>px;">Frequently Asked Questions</H1>
-<div style="margin: <% If page_section = "ADA" Then %>12<% Else %>0<%End If%>px <%=right_margin_split%>px 0px <%=left_margin_0%>px; width: <%=(319-right_margin_split-left_margin_0)%>px;">
+<H1 style="margin: 0px <%=right_margin%>px 0px <%=left_margin_0%>px; width: <%=(315-right_margin_split-left_margin_0)%>px;">Frequently Asked Questions</H1>
+<div style="margin: <% If page_section = "ADA" Then %>12<% Else %>0<%End If%>px <%=right_margin_split%>px 0px <%=left_margin_0%>px; width: <%=(315-right_margin_split-left_margin_0)%>px;">
 <% If page_section <> "ADA" Then %>
 <div id="panswer" style="width: 259px;">
 <img style="margin: 0px;" src="../Includes/pages/lob/thumbnails/charles_on.jpg" alt="" border="0" align="absmiddle">
@@ -88,7 +88,7 @@ The business organizations that make up global risk management at Bank of Americ
 <p style="margin: 6px 0px 0px 0px;" class="faqpa">
 <b>What is the relationship/value add that Global Risk Management has with our Lines of Business/clients?</b>
 <% If page_section <> "ADA" Then %>
-<br><a href="Javascript: vo_id();" onclick="playResponce(this);">Play response</a>&nbsp;<a href="Javascript: vo_id();" onclick="playResponce(this);"><img style="margin: 0px 0px 0px 0px;" src="../images/video_off_faq.gif" alt="" border="0" align="absmiddle" class="pai" name="pa3"></a><span class="auraltext"><br class="charles_a3"></span>
+<br><a href="Javascript: vo_id();" onclick="playResponce(this);" class="ip">Play response</a>&nbsp;<a href="Javascript: vo_id();" onclick="playResponce(this);"><img style="margin: 0px 0px 0px 0px;" src="../images/video_off_faq.gif" alt="" border="0" align="absmiddle" class="pai" name="pa3"></a><span class="auraltext"><br class="charles_a3"></span>
 <% Else %>
 </p>
 <p style="margin: 6px 0px 0px 0px;"><a name="answ3"></a>

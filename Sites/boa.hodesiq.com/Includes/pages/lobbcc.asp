@@ -37,8 +37,8 @@
 To serve a customer base of more than 54 million consumer and small business clients effectively, we must maintain a network of dedicated individuals who listen to our customers, build strong relationships and implement strategies to help our clients exceed their financial goals. Banking center associates are often the first point of contact for our customers and clients; therefore, that first encounter is critical to building and maintaining lasting relationships.
 </p>
 <br>
-<H1 style="margin: 0px <%=right_margin%>px 0px <%=left_margin_0%>px;">Frequently Asked Questions</H1>
-<div style="margin: <% If page_section = "ADA" Then %>12<% Else %>0<%End If%>px <%=right_margin_split%>px 0px <%=left_margin_0%>px; width: <%=(319-right_margin_split-left_margin_0)%>px;">
+<H1 style="margin: 0px <%=right_margin%>px 0px <%=left_margin_0%>px; width: <%=(315-right_margin_split-left_margin_0)%>px;">Frequently Asked Questions</H1>
+<div style="margin: <% If page_section = "ADA" Then %>12<% Else %>0<%End If%>px <%=right_margin_split%>px 0px <%=left_margin_0%>px; width: <%=(315-right_margin_split-left_margin_0)%>px;">
 <% If page_section <> "ADA" Then %>
 <div id="panswer" style="width: 259px;">
 <img style="margin: 0px;" src="../Includes/pages/lob/thumbnails/tammi_on.jpg" alt="" border="0" align="absmiddle">
@@ -78,7 +78,7 @@ Because Bank of America is a pay-for-performance company, the sky's the limit wh
 <p style="margin: 6px 0px 0px 0px;" class="faqpa">
 <b>How does Bank of America rank amongst its competition?</b>
 <% If page_section <> "ADA" Then %>
-<br><a href="Javascript: vo_id();" onclick="playResponce(this);">Play response</a>&nbsp;<a href="Javascript: vo_id();" onclick="playResponce(this);"><img style="margin: 0px 0px 0px 0px;" src="../images/video_off_faq.gif" alt="" border="0" align="absmiddle" class="pai" name="pa3"></a><span class="auraltext"><br class="tammi_a3"></span>
+<br><a href="Javascript: vo_id();" onclick="playResponce(this);" class="ip">Play response</a>&nbsp;<a href="Javascript: vo_id();" onclick="playResponce(this);"><img style="margin: 0px 0px 0px 0px;" src="../images/video_off_faq.gif" alt="" border="0" align="absmiddle" class="pai" name="pa3"></a><span class="auraltext"><br class="tammi_a3"></span>
 <% Else %>
 </p>
 <p style="margin: 6px 0px 0px 0px;"><a name="answ3"></a>
@@ -90,7 +90,7 @@ With the largest retail footprint in the nation, Bank of America is a leader in 
 <p style="margin: 6px 0px 0px 0px;" class="faqpa">
 <b>How do Bank of America and our associates contribute to our communities?</b>
 <% If page_section <> "ADA" Then %>
-<br><a href="Javascript: vo_id();" onclick="playResponce(this);">Play response</a>&nbsp;<a href="Javascript: vo_id();" onclick="playResponce(this);"><img style="margin: 0px 0px 0px 0px;" src="../images/video_off_faq.gif" alt="" border="0" align="absmiddle" class="pai" name="pa3"></a><span class="auraltext"><br class="tammi_a4"></span>
+<br><a href="Javascript: vo_id();" onclick="playResponce(this);" class="ip">Play response</a>&nbsp;<a href="Javascript: vo_id();" onclick="playResponce(this);"><img style="margin: 0px 0px 0px 0px;" src="../images/video_off_faq.gif" alt="" border="0" align="absmiddle" class="pai" name="pa3"></a><span class="auraltext"><br class="tammi_a4"></span>
 <% Else %>
 </p>
 <p style="margin: 6px 0px 0px 0px;"><a name="answ4"></a>

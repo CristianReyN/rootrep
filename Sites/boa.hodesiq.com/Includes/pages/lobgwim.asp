@@ -49,8 +49,8 @@ Global Wealth &amp; Investment Management consists of several unique lines of bu
 <a href="http://www.bankofamerica.com/privatewealthmanagement/index.cfm?cm_sp=PWM-_-UST-_-WIMhublink" target="_blank" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="US Trust Bank of America Private Wealth Management">US Trust Bank of America Private Wealth Management</a>
 </p>
 <br>
-<H1 style="margin: 0px <%=right_margin%>px 0px <%=left_margin_0%>px;">Frequently Asked Questions</H1>
-<div style="margin: <% If page_section = "ADA" Then %>12<% Else %>0<%End If%>px <%=right_margin_split%>px 0px <%=left_margin_0%>px; width: <%=(319-right_margin_split-left_margin_0)%>px;">
+<H1 style="margin: 0px <%=right_margin%>px 0px <%=left_margin_0%>px; width: <%=(315-right_margin_split-left_margin_0)%>px;">Frequently Asked Questions</H1>
+<div style="margin: <% If page_section = "ADA" Then %>12<% Else %>0<%End If%>px <%=right_margin_split%>px 0px <%=left_margin_0%>px; width: <%=(315-right_margin_split-left_margin_0)%>px;">
 <% If page_section <> "ADA" Then %>
 <div id="panswer" style="width: 259px;">
 <img style="margin: 0px;" src="../Includes/pages/lob/thumbnails/tara_on.jpg" alt="" border="0" align="absmiddle">
@@ -90,7 +90,7 @@ Global Wealth and Investment Management (GWIM) earned 2.4 billion in net income 
 <p style="margin: 6px 0px 0px 0px;" class="faqpa">
 <b>What are the typical growth opportunities (career path) in Global Wealth & Investment Management?</b>
 <% If page_section <> "ADA" Then %>
-<br><a href="Javascript: vo_id();" onclick="playResponce(this);">Play response</a>&nbsp;<a href="Javascript: vo_id();" onclick="playResponce(this);"><img style="margin: 0px 0px 0px 0px;" src="../images/video_off_faq.gif" alt="" border="0" align="absmiddle" class="pai" name="pa3"></a><span class="auraltext"><br class="tara_a3"></span>
+<br><a href="Javascript: vo_id();" onclick="playResponce(this);" class="ip">Play response</a>&nbsp;<a href="Javascript: vo_id();" onclick="playResponce(this);"><img style="margin: 0px 0px 0px 0px;" src="../images/video_off_faq.gif" alt="" border="0" align="absmiddle" class="pai" name="pa3"></a><span class="auraltext"><br class="tara_a3"></span>
 <% Else %>
 </p>
 <p style="margin: 6px 0px 0px 0px;"><a name="answ3"></a>
