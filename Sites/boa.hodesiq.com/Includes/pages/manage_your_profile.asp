@@ -49,7 +49,7 @@ function go_faq(){if(opener){
 		<table border="0" cellpadding="0" cellspacing="0" width="752">
 		<tr><td align="center">
 			<h1 class="hidden">Manage your Careers Profile Account</h1>
-			<p style="width: 752px; margin: 12px auto 12px auto; padding: 0px; text-align: left;">After completing each of the steps in your profile or application and reach the Summary page, you can edit any of the steps prior to your final submission. If you have difficulty completing this process, please refer to the <a title="Link opens in a new window." href="<% If page_section <> "ADA" Then  %>../faq/<% Else  %>../ada/<% End If %>faq.asp" class="p" onclick="return go_faq();" target="_blank">Frequently Asked Questions</a> page.</p>
+			<p style="width: 752px; margin: 12px auto 12px auto; padding: 0px; text-align: left;">Once you reach the Summary page, after completing each of the steps, you will be able to go back and edit any one of these steps before your final submission.  If you have difficulty completing this process, please refer to the <a title="Link opens in a new window." href="<% If page_section <> "ADA" Then  %>../faq/<% Else  %>../ada/<% End If %>faq.asp" class="p" onclick="return go_faq();" target="_blank">Frequently Asked Questions</a> page.</p>
 		</td></tr>
 		</table>
 	</td></tr>
