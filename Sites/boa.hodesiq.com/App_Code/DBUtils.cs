@@ -1,6 +1,6 @@
 using System;
 using System.Data;
-using System.Data.SqlClient;
+using System.Data.OleDb;
 using System.Configuration;
 using System.Web;
 using System.Web.Security;
@@ -57,7 +57,9 @@ public class DBUtils
         DataSet ds = new DataSet();
         try
         {
-            SqlDataAdapter da = new SqlDataAdapter(sql, GetConnectionString());
+            OleDbConnection con = new OleDbConnection(ConfigurationManager.AppSettings["StrUdlFileName"]);
+            con.Open();
+            OleDbDataAdapter da = new OleDbDataAdapter(sql, con);
             da.Fill(ds);
             
         }
