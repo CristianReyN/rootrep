@@ -12,7 +12,7 @@
                                 Manage Your Job Cart</h2>
                         </td>
                         <td align="right" valign="top">
-                            <asp:HyperLink ID="SearchReturn" runat="server" CssClass="sblnk" ToolTip="Return to Search">Return to Search</asp:HyperLink>
+                            <asp:HyperLink ID="SearchReturn" runat="server" CssClass="sblnk" ToolTip="Return to Search" NavigateUrl="JobSearch.aspx">Return to Search</asp:HyperLink>
                         </td>
                     </tr>
                     <tr>
@@ -56,11 +56,13 @@
                         <td class="tbl" colspan="2" valign="top">
                             <img alt="" height="4" src="images/clear.gif" width="100%" /></td>
                     </tr>
-                    <tr valign="top">
+                
+                    <tr valign="top" align="center">
                         <td align="right" class="tbl" colspan="2" valign="top">
                             <asp:Button CssClass="bodybtn" ID="Remove" Text="Remove Selected" runat="server"
                                 OnClick="Remove_Click" /></td>
                     </tr>
+                
                 </table>
             </td>
         </tr>

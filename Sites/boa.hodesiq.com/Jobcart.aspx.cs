@@ -18,6 +18,8 @@ public partial class Jobcart : System.Web.UI.Page
     // -----------	----------	    ----------
     //  11/27/06    Jonathan Do     (1) grdJobcart_RowDataBound, Remove_Click
     //                              (2) rework Page_Load
+    //  12/05/06    Don Nguyen      (1) Made Remove Job Cart button hidden of no jobs in cart
+    //                              (1) Fixed Return to Search link
     /// </summary>
     #endregion
     private string JobCartID = "";
@@ -42,12 +44,19 @@ public partial class Jobcart : System.Web.UI.Page
             JobCartID = MyCookie.Value.ToString();
             Jobs Jobs = new Jobs();
             DataView DW = Jobs.RetrieveJobCart(JobCartID);
+            if (DW.Count == 0)
+            {
+                Remove.Visible = false;
+            }
+            
             grdJobcart.DataSource = DW;
             grdJobcart.DataBind();
+
         }
         
 
     }
+    
     protected void Remove_Click(object sender, EventArgs e)
     {
         CheckBox MyCheckBox;
@@ -100,4 +109,6 @@ public partial class Jobcart : System.Web.UI.Page
             MyCheckBox.ID = "ChkRemove" + e.Row.RowIndex;
         }
     }
+
+    
 }
