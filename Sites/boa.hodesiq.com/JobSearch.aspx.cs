@@ -150,7 +150,7 @@ public partial class JobSearch : System.Web.UI.Page
 		{
 			aja = ddlJobAreas.SelectedValue.Split("|".ToCharArray());
 		}
-		else if(Request.QueryString["jobareas"]!=string.Empty)
+		else if(!string.IsNullOrEmpty(Request.QueryString["jobareas"]))
 		{
 			aja = Request.QueryString["jobareas"].Split("|".ToCharArray());
 		}
@@ -178,6 +178,11 @@ public partial class JobSearch : System.Web.UI.Page
 		LnkNxt.Visible = (Boolean)MyListDictionary["NextButton"];
 		lPrev.Visible = (Boolean)MyListDictionary["PrevButton"];
 		lNext.Visible = (Boolean)MyListDictionary["NextButton"];
+		this.dNxt.Attributes["style"] = ((Boolean)MyListDictionary["NextButton"]) ? " display: inline;" : " display: none;";
+		this.dPrv.Attributes["style"] = ((Boolean)MyListDictionary["PrevButton"]) ? " display: inline;" : " display: none;";
+		//this.dNext.Attributes["style"] = ((Boolean)MyListDictionary["NextButton"]) ? " display: inline;" : " display: none;";
+		//this.dPrev.Attributes["style"] = ((Boolean)MyListDictionary["PrevButton"]) ? " display: inline;" : " display: none;";
+
 		LblPageOfPages.Text = MyListDictionary["PageOfPages"].ToString();
 		this.lblJobofJobs.Visible = Convert.ToBoolean(MyListDictionary["RecordCount"]);
 		this.lblJobofJobs.Text = MyListDictionary["JobToJobs"].ToString();
@@ -245,24 +250,47 @@ public partial class JobSearch : System.Web.UI.Page
 
 	protected void DisplaySearchButton()
 	{
+		string cssType;
+
+		//detecting Opera
+		if ((Request.UserAgent.IndexOf("Opera")!=-1)||(Request.UserAgent.IndexOf("Opera")!=-1)){cssType = "opera";}
+		//detecting Firefox
+		else if (Request.UserAgent.IndexOf("Firefox") > 0){cssType = "saf";}
+		//detecting Safari
+		else if (Request.UserAgent.IndexOf("Safari") > 0){cssType = "saf";}
+		//detecting IE
+		else if (Request.UserAgent.IndexOf("MSIE") > 0 && Request.UserAgent.IndexOf("Opera") < 0){cssType = "ie";}
+		//detecting newer Netscapes
+		else if (Request.UserAgent.IndexOf("Netscape") > 0 && Request.UserAgent.IndexOf("Opera") < 0) { cssType = "ns6"; }
+		//else if (document.getElementById){cssType = "saf"; text = textexpanded;}
+		//detecting older Netscapes
+		else {cssType = "saf";}
+
 		this.dsubmit.Attributes.Add("style", " display: none; padding: 1");
-		this.lsearch.CssClass = "ie-btn";
+		this.lsearch.CssClass = cssType + "-btn";
 		//this.lsearch.Visible = true;
 		this.lsearch.Text = "Search";
 		this.lsearch.Width = this.lsearch.Text.Length;
 
-		this.dNxtPrev.Attributes.Add("style", " display: none; padding: 1");
+		this.dPrev.Attributes.Add("style", " display: none; padding: 1");
+		this.dNext.Attributes.Add("style", " display: none; padding: 1");
 		this.lNext.CssClass = "ie-btn";
 		//this.lNext.Visible = true;
 		this.lNext.Width = this.lNext.Text.Length;
-		this.lPrev.CssClass = "ie-btn";
+		this.lPrev.CssClass = cssType + "-btn";
 		//this.lPrev.Visible = true;
 		this.lPrev.Width = this.lPrev.Text.Length;
+		this.dsearch.Attributes["class"] = cssType + "-btn";
+		this.dNxt.Attributes["class"] = cssType + "-btn";
+		this.dNxt.Attributes.Add("style", " display: none;");
+		this.dPrv.Attributes["class"] = cssType + "-btn";
+		this.dPrv.Attributes.Add("style", " display: none;");
 
 
 		this.litScript.Text = @"<script language=""JavaScript"" type=""text/javascript"">
 								document.getElementById('" + this.dsubmit.ClientID + @"').style.display=""inline"";
-								document.getElementById('" + this.dNxtPrev.ClientID + @"').style.display=""inline"";
+								document.getElementById('" + this.dPrev.ClientID + @"').style.display=""inline"";
+								document.getElementById('" + this.dNext.ClientID + @"').style.display=""inline"";
 								</script>";
 	}
 }

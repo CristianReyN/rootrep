@@ -60,8 +60,16 @@
 													</td>
                                                 </tr>
                                                 <tr>
-													<td>
-														<div id="dsubmit" runat="server"><asp:LinkButton runat="server" OnClick="bsearch_Click" ID="lsearch" Text="Search"></asp:LinkButton></div>
+													<td>												
+														<div id="dsubmit" runat="server">
+														<table cellpadding="0" cellspacing="0" border="0" summary=""><tr>
+														<td class="whitebg">
+														<div runat="server" id="dsearch" class="ie-btn">
+														<asp:LinkButton runat="server" OnClick="bsearch_Click" ID="lsearch" Text="Search"></asp:LinkButton>
+														</div>
+														</td>
+														</tr></table>
+														</div>
 														<noscript><asp:Button ID="bsearch" runat="server" CssClass="bodybtn"  Text="Search" OnClick="bsearch_Click" /></noscript>
 													</td>
 													<td>
@@ -108,19 +116,45 @@
                                             <br />
                                         </td>
                                     </tr>
+                                    </table>
+									<table border="0" cellpadding="0" cellspacing="0" summary="" width="100%">
                                     <tr valign="top">
-                                        <td style="padding: 6px 12px 0px 12px; height: 100%" valign="top" align="center">
-                                        <div id="dNxtPrev" runat="server">
-                                        <asp:LinkButton runat="server" OnClick="LnkPrvs_Click" ID="lPrev" Text="Previous" Visible="false"></asp:LinkButton>&nbsp;&nbsp;&nbsp;&nbsp;
-                                        <asp:LinkButton runat="server" OnClick="LnkNxt_Click" ID="lNext" Text="Next" Visible="false"></asp:LinkButton>
-                                        </div>
-                                       <noscript>
-                                       <asp:Button ID="LnkPrvs" runat="server" CssClass="bodybtn" OnClick="LnkPrvs_Click"
-                                            Text="Previous" Visible="false" />&nbsp;&nbsp;&nbsp;&nbsp;
-                                        <asp:Button ID="LnkNxt" runat="server" CssClass="bodybtn" OnClick="LnkNxt_Click"
-                                            Text="Next" Visible="false" />&nbsp;&nbsp;&nbsp;&nbsp;</noscript>
-                                        <asp:Label ID="LblPageOfPages" runat="server"></asp:Label>    
+                                        <td valign="top" align="right" style="width: 50%;">&nbsp;
+                                        <div id="dPrev" runat="server">
+											<table cellpadding="0" cellspacing="0" border="0" summary=""><tr>
+												<td class="whitebg">
+												<div runat="server" id="dPrv" class="ie-btn">
+												<asp:LinkButton runat="server" OnClick="LnkPrvs_Click" ID="lPrev" Text="Previous" Visible="false"></asp:LinkButton>
+												</div>
+												</td>
+											</tr></table>
+										</div>&nbsp;&nbsp;&nbsp;&nbsp;
+										</td>
+										<td valign="top" align="left" style="width: 50%;">&nbsp;
+										<div id="dNext" runat="server">
+											<table cellpadding="0" cellspacing="0" border="0" summary=""><tr>
+												<td class="whitebg">
+												<div id="dNxt" runat="server">
+												<asp:LinkButton runat="server" OnClick="LnkNxt_Click" ID="lNext" Text="Next" Visible="false"></asp:LinkButton>
+												</div>
+												</td>
+											</tr></table>
+                                         </div>
                                          </td>
+                                     </tr>
+                                     <tr>
+										<td colspan="2" align="center" valign="top">
+										   <noscript>
+										   <asp:Button ID="LnkPrvs" runat="server" CssClass="bodybtn" OnClick="LnkPrvs_Click"
+												Text="Previous" Visible="false" />&nbsp;&nbsp;&nbsp;&nbsp;
+											<asp:Button ID="LnkNxt" runat="server" CssClass="bodybtn" OnClick="LnkNxt_Click"
+												Text="Next" Visible="false" />&nbsp;&nbsp;&nbsp;&nbsp;</noscript><br />
+										</td>
+                                     </tr>
+                                     <tr>
+										<td colspan="2" align="center" valign="top">
+											<br /><asp:Label ID="LblPageOfPages" runat="server"></asp:Label>    
+										</td>
                                      </tr>
                                 </table>
                                 <asp:Label ID="lblMessage" runat="server"></asp:Label>
