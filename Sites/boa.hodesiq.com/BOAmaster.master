@@ -251,8 +251,8 @@ function startKeybordNav()
 		document.getElementById("aroftalent").onkeydown=setNextTabAotPopup;
 	if(document.getElementById("administration"))
 		document.getElementById("administration").onkeydown=setNextTabAotShift;
-	if(document.getElementById("lobtech"))
-		document.getElementById("lobtech").onkeydown=setNextTabAotPopupQuit;
+	if(document.getElementById("aottech"))
+		document.getElementById("aottech").onkeydown=setNextTabAotPopupQuit;
 		
 	if(document.getElementById("lob"))
 		document.getElementById("lob").onkeydown=setNextTablobPopup;
@@ -426,7 +426,7 @@ function popAoT(show)
 			<tr valign="top"><td style="background: #7F99B2;"><img src="images/clear.gif" width="154" height="1" alt="" border="0" /></td></tr>
 			<tr valign="top"><td style="background: #cadceb; padding: 5px 6px 5px 14px;"><a href="/sales/" class="sbtxt" title="Sales" onfocus="this.className='sbtxt-over';tdiv(false);" onblur="this.className='sbtxt';tdiv(true);">Sales</a></td></tr>
 			<tr valign="top"><td style="background: #7F99B2;"><img src="images/clear.gif" width="154" height="1" alt="" border="0" /></td></tr>
-			<tr valign="top"><td style="background: #cadceb; padding: 5px 6px 5px 14px;"><a href="/tech/" class="sbtxt" title="Technology" onfocus="this.className='sbtxt-over';tdiv(false);" onblur="this.className='sbtxt';tdiv(true);">Technology</a></td></tr>
+			<tr valign="top"><td style="background: #cadceb; padding: 5px 6px 5px 14px;"><a href="/tech/" id="aottech" class="sbtxt" title="Technology" onfocus="this.className='sbtxt-over';tdiv(false);" onblur="this.className='sbtxt';tdiv(true);">Technology</a></td></tr>
 			
 </table>
 </div>
