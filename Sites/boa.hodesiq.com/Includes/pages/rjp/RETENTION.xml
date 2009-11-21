@@ -7,7 +7,7 @@
           <totalTime></totalTime>
           <contentPathNS>http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/RJP/CORE.flv</contentPathNS>
           <contentPathOC>http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/RJP/CORE_OC.flv</contentPathOC>
-          <firstFrame>imx/RETENTION.jpg</firstFrame>
+          <firstFrame>../Includes/pages/rjp/imx/RETENTION.jpg</firstFrame>
           <skin>http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/skinsflvplayback/SteelOverPlaySeekMute.swf</skin>
           <next>1</next>
         </objet>
@@ -29,7 +29,7 @@
           <totalTime></totalTime>
           <contentPathNS>http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/RJP/CORE.flv.flv</contentPathNS>
           <contentPathOC>http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/RJP/CORE_OC.flv</contentPathOC>
-          <firstFrame>imx/RETENTION.jpg</firstFrame>
+          <firstFrame>../Includes/pages/rjp/imx/RETENTION.jpg</firstFrame>
           <skin>http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/skinsflvplayback/SteelOverPlaySeekMute.swf</skin>
           <next>1</next>
         </objet>
