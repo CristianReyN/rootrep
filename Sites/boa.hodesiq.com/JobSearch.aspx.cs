@@ -112,7 +112,7 @@ public partial class JobSearch : System.Web.UI.Page
 	}
 	public void RefineSearch(string StateID)
 	{
-		if (ddlState.SelectedItem.Value != "-1")
+		if (ddlState.SelectedItem.Value != "-1" & !string.IsNullOrEmpty(StateID))
 		{
 			FilterCity(Convert.ToInt32(ddlState.SelectedItem.Value));
 			ddlCity.Visible = true;
