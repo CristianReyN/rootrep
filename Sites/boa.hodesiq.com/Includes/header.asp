@@ -7,7 +7,7 @@ ADA_iQ_TITLE1 = "Overview"
 ADA_iQ_NAV2 = "../ada/learnmore.asp"
 ADA_iQ_TITLE2 = "Learn More"
 ADA_iQ_NAV3 = "../ada/aresoftalent.asp"
-ADA_iQ_TITLE3 = "Areas of Talent"
+ADA_iQ_TITLE3 = "Job Areas"
 ADA_iQ_NAV4 = "../jobsearch.aspx"
 ADA_iQ_TITLE4 = "Job Search"
 ADA_iQ_NAV5 = "../ada/staffingevents.asp"
@@ -127,11 +127,11 @@ create_safebutton("Search","javascript: submit_search();",0,0,0,0,"Search");
 <img src="../images/careers.gif" width="76" height="25" alt="Bank of America | Career" title="Bank of America | Career" border="0"></td>
 </tr>
 <tr>
-	<td width="160" style="background: #0099cc;"><img src="../images/clear.gif" width="160" height="1" alt="" border="0"></td>
+	<td width="160" style="background: #cadceb;"><img src="../images/clear.gif" width="160" height="1" alt="" border="0"></td>
 	<td width="12"><img src="../images/clear.gif" width="12" height="1" alt="" border="0"></td>
 	<td width="578"><a name="skipnav"></a></td>
 </tr>
 <tr valign="top">
-	<td id="tdtbnav" width="160" valign="top" align="center" style="background: #0099cc;"><img src="../images/clear.gif" width="160" height="1" alt="" border="0"><br>
+	<td id="tdtbnav" width="160" valign="top" align="center" style="background: #cadceb;"><img src="../images/clear.gif" width="160" height="1" alt="" border="0"><br>
 		<table id="tbnav" width="160" cellpadding="0" cellspacing="0" border="0" summary="">
 			<tr valign="top"><td valign="top" height="2"><img src="../images/clear.gif" width="154" height="2" alt="" border="0"></td></tr>

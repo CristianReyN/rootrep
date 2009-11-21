@@ -5,6 +5,8 @@
 						<tr>
 							<td colspan="2" style="padding: 0px 0px 0px 0px;">
 <p style="margin: 0px;">To find jobs suited to your skill set, choose an area of talent and click Select. Then narrow your selections by choosing a job family and/or location.</p>
+<p style="margin: 6px 0px 0px 0px;">
+Bank of America associates should access the Bank of America jobs database via the Internal Career Search Tool. If you are a current Bank of America associate, <a href="http://www.bankofamerica.com/careers/index.cfm?template=jobs_interstitial" target="_blank" class="p" onfocus="this.className='p-over';" onblur="this.className='p';">click here</a>.</p>
 <img class="dotdiv" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
 							</td>
 						</tr>

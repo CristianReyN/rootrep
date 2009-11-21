@@ -15,42 +15,29 @@
 </table>
 </div>
 <script language="JavaScript1.2" type="text/javascript">
+var isIE = document.all;
+
 function startKeybordNav()
 {
 	if(!window.event) window.captureEvents(Event.ONKEYDOWN);// Netscape/Firefox/Opera
-	//alert("startKeybordNav: " + document.getElementById("learnmore"));
-	if(document.getElementById("overview"))
-		document.getElementById("overview").onkeydown=setNextTabRel;
+		
 <%	if mpage <> "learnmore" then %>
 	if(document.getElementById("learnmore"))
-		document.getElementById("learnmore").onkeydown=setNextTabAnavr;
+		document.getElementById("learnmore").onkeydown=setNextTabLearnmorePopup;
 	if(document.getElementById("benefitsadv"))
-		document.getElementById("benefitsadv").onkeydown=setNextTabOvr;
-<%	else %>
-	if(document.getElementById("learnmore"))
-		document.getElementById("learnmore").onkeydown=setNextTabBen;
-	if(document.getElementById("benefitsadv"))
-		document.getElementById("benefitsadv").onkeydown=setNextTabOvr;
-<%	end if %>
+		document.getElementById("benefitsadv").onkeydown=setNextTabLearnmoreShift;
 	if(document.getElementById("investment"))
-		document.getElementById("investment").onkeydown=setNextTabAoT;
+		document.getElementById("investment").onkeydown=setNextTabLearnmorePopupQuit;
+<%	end if %>
 	
 <%	if mpage <> "areasoftalent" then %>
 	if(document.getElementById("aroftalent"))
-		document.getElementById("aroftalent").onkeydown=setNextTabAnav;
+		document.getElementById("aroftalent").onkeydown=setNextTabAotPopup;
 	if(document.getElementById("administration"))
-		document.getElementById("administration").onkeydown=setNextTabATt;
-<%	else %>
-	if(document.getElementById("aroftalent"))
-		document.getElementById("aroftalent").onkeydown=setNextTabAdm;
-	if(document.getElementById("administration"))
-		document.getElementById("administration").onkeydown=setNextTabATl;
-<%	end if %>
+		document.getElementById("administration").onkeydown=setNextTabAotShift;
 	if(document.getElementById("consumerbanking"))
-		document.getElementById("consumerbanking").onkeydown=setNextTabJobS;
-	
-	if(document.getElementById("jsearch"))
-		document.getElementById("jsearch").onkeydown=setNextTabArT;
+		document.getElementById("consumerbanking").onkeydown=setNextTabAotPopupQuit;
+<%	end if %>
 }
 
 function transferFocus(ev)
@@ -71,90 +58,74 @@ function isShiftKey(ev)
 	return isShift;
 }
 
-var anavrShow, anavShow;
+var learnmorePopupShow, aotPopupShow;
 
-function setNextTabRel(ev)
-{	if(transferFocus(ev) && !isShiftKey(ev) && document.getElementById("overviewm"))
-		document.getElementById("overviewm").focus();
-}
 <%	if mpage <> "learnmore" then %>
-function setNextTabAnavr(ev)
-{	if(isShiftKey(ev) && transferFocus(ev)
-		&& document.getElementById("overviewm")) document.getElementById("overviewm").focus();
-	else if(transferFocus(ev) && document.getElementById("anavrd"))
-	{<%if mpage <> "learnmore" then %>anavrShow = true; popnavr(true);<%end if%>
-		document.getElementById("anavrd").focus();
-}}
-<%	else %>
-function setNextTabBen(ev)
-{	if(transferFocus(ev) && !isShiftKey(ev) && document.getElementById("anavrd"))
-		document.getElementById("anavrd").focus();
-	else if(transferFocus(ev) && isShiftKey(ev) && document.getElementById("overviewm"))
-		document.getElementById("overviewm").focus();
+function setNextTabLearnmore(ev)
+{	if(transferFocus(ev) && !isShiftKey(ev) && document.getElementById("learnmorestart"))
+		document.getElementById("learnmorestart"+(isIE?"dv":"")).focus();
 }
-<%	end if %>
-function setNextTabOvr(ev)
-{	if(transferFocus(ev) && isShiftKey(ev) && document.getElementById("anavrm"))
-		document.getElementById("anavrm").focus();
+function setNextTabLearnmoreShift(ev)
+{	if(transferFocus(ev) && isShiftKey(ev) && document.getElementById("learnmoreend"))
+		document.getElementById("learnmoreend"+(isIE?"dv":"")).focus();
 }
-function setNextTabAoT(ev)
-{	if(transferFocus(ev) && !isShiftKey(ev) && document.getElementById("anavm"))
-	{<%if mpage <> "learnmore" then %>anavrShow = false; popnavr(false);<%end if%>
-	<%if mpage <> "areasoftalent" then %>anavShow = true; popnav(true);<%end if%>
-		document.getElementById("anavm").focus();
+
+function setNextTabLearnmorePopup(ev)
+{	if(isShiftKey(ev) && transferFocus(ev))
+	{
+		if(document.getElementById("learnmorestart"))
+			document.getElementById("learnmorestart"+(isIE?"dv":"")).focus();
 	}
-}
+	else if(transferFocus(ev) && document.getElementById("learnmorepopup"))
+	{	learnmorePopupShow = true; popLearnmore(true);
+		document.getElementById("learnmorepopup"+(isIE?"dv":"")).focus();
+}}
+function setNextTabLearnmorePopupQuit(ev)
+{if(transferFocus(ev) && !isShiftKey(ev) && document.getElementById("learnmoreend"))
+	{	learnmorePopupShow = false; popLearnmore(false);
+		document.getElementById("learnmoreend"+(isIE?"dv":"")).focus();
+}}
+<%	end if %>
+
 
 <%	if mpage <> "areasoftalent" then %>
-function setNextTabAnav(ev)
+function setNextTabAot(ev)
+{	if(transferFocus(ev) && isShiftKey(ev) && document.getElementById("aotstart"))
+		document.getElementById("aotstart"+(isIE?"dv":"")).focus();
+}
+function setNextTabAotShift(ev)
+{	if(transferFocus(ev) && isShiftKey(ev) && document.getElementById("aotend"))
+		document.getElementById("aotend"+(isIE?"dv":"")).focus();
+}
+
+function setNextTabAotPopup(ev)
 {	if(isShiftKey(ev) && transferFocus(ev))
-	{<%if mpage = "learnmore" then %>
-		if(document.getElementById("anavm")) document.getElementById("anavm").focus();<%else%>
-		if(document.getElementById("anavrm")) document.getElementById("anavrm").focus();<%end if%>
+	{
+		if(document.getElementById("aotstart"))
+			document.getElementById("aotstart"+(isIE?"dv":"")).focus();
 	}
-	else if(transferFocus(ev) && document.getElementById("anavd"))
-	{<%if mpage <> "areasoftalent" then %>anavShow = true; popnav(true);<%end if%>
-		document.getElementById("anavd").focus();
+	else if(transferFocus(ev) && document.getElementById("aotpopupdv"))
+	{	aotPopupShow = true; popAoT(true);
+		document.getElementById("aotpopup"+(isIE?"dv":"")).focus();
 	}
 }
-function setNextTabATt(ev)
-{	if(transferFocus(ev) && isShiftKey(ev) && document.getElementById("jsearchd"))
-		document.getElementById("jsearchd").focus();
-}
-<%	else %>
-function setNextTabAdm(ev)
-{	if(transferFocus(ev))
-		if(!isShiftKey(ev) && document.getElementById("anavd"))
-			document.getElementById("anavd").focus();
-		else if(document.getElementById("anavrm"))
-			document.getElementById("anavrm").focus();
-}
-function setNextTabATl(ev)
-{	if(transferFocus(ev) && isShiftKey(ev) && document.getElementById("anavd"))
-		document.getElementById("anavd").focus();
-}
-<%	end if %>
-function setNextTabJobS(ev)
-{	if(transferFocus(ev)&& !isShiftKey(ev) && document.getElementById("jsearchd"))
-	{<%if mpage <> "learnmore" then %>anavrShow = false; popnavr(false);<%end if%>
-	<%if mpage <> "areasoftalent" then %>anavShow = false; popnav(false);<%end if%>
-		document.getElementById("jsearchd").focus();
+function setNextTabAotPopupQuit(ev)
+{	if(transferFocus(ev)&& !isShiftKey(ev) && document.getElementById("aotend"))
+	{	aotPopupShow = false; popAoT(false);
+		document.getElementById("aotend"+(isIE?"dv":"")).focus();
 }}
-function setNextTabArT(ev)
-{	if(transferFocus(ev) && isShiftKey(ev) && document.getElementById("jsearchd"))
-		document.getElementById("jsearchd").focus();
-}
+<%	end if %>
 </script>
 <%
 	if mpage <> "areasoftalent" then
 %>
 <script language="JavaScript1.2" type="text/javascript">
-function popnav(show)
-{var d=document; if(d.getElementById("tdtbnav")&&d.getElementById("tbnav")&&d.getElementById("tdnav")&&d.getElementById("anav")){if(show || anavShow){d.getElementById("anav").style.visibility = "visible"; d.getElementById("anav").style.display = "block";d.getElementById("anav").style.left=d.getElementById("tdtbnav").offsetLeft+d.getElementById("tbnav").offsetLeft+d.getElementById("tdnav").offsetLeft+d.getElementById("tdnav").offsetWidth-3;d.getElementById("anav").style.top=d.getElementById("tdtbnav").offsetTop+d.getElementById("tbnav").offsetTop+d.getElementById("tdnav").offsetTop;}else{d.getElementById("anav").style.visibility = "hidden"; d.getElementById("anav").style.display = "none";}
-} setTimeout("anavShow = false;",500);}
+function popAoT(show)
+{var d=document; if(d.getElementById("tdtbnav")&&d.getElementById("tbnav")&&d.getElementById("tdnav")&&d.getElementById("anav")){if(show || aotPopupShow){d.getElementById("anav").style.visibility = "visible"; d.getElementById("anav").style.display = "block";d.getElementById("anav").style.left=d.getElementById("tdtbnav").offsetLeft+d.getElementById("tbnav").offsetLeft+d.getElementById("tdnav").offsetLeft+d.getElementById("tdnav").offsetWidth-3;d.getElementById("anav").style.top=d.getElementById("tdtbnav").offsetTop+d.getElementById("tbnav").offsetTop+d.getElementById("tdnav").offsetTop;}else{d.getElementById("anav").style.visibility = "hidden"; d.getElementById("anav").style.display = "none";}
+} setTimeout("aotPopupShow = false;",500);}
 </script>
-<div id="anav" style="position: absolute; left: 0px; top: 0px; visibility: hidden; display: none; z-index: 100; border: 1px solid #7F99B2; font-size: 0.8em;" onmouseover="popnav(true);" onmouseout="popnav(false);">
-<table width="160" cellpadding="0" cellspacing="0" border="0" summary="Areas of Talent Navigation">
+<div id="anav" style="position: absolute; left: 0px; top: 0px; visibility: hidden; display: none; z-index: 100; border: 1px solid #7F99B2; font-size: 0.8em;" onmouseover="popAoT(true);" onmouseout="popAoT(false);">
+<table width="160" cellpadding="0" cellspacing="0" border="0" summary="">
 <%	call AreasOfTalentNav("#7F99B2") %>
 </table>
 </div>
@@ -165,12 +136,12 @@ function popnav(show)
 	if mpage <> "learnmore" then
 %>
 <script language="JavaScript1.2" type="text/javascript">
-function popnavr(show)
-{var d=document; if(d.getElementById("tdtbnav")&&d.getElementById("tbnav")&&d.getElementById("tdnavr")&&d.getElementById("anavr")){if(show || anavrShow){d.getElementById("anavr").style.visibility = "visible"; d.getElementById("anavr").style.display = "block";d.getElementById("anavr").style.left=d.getElementById("tdtbnav").offsetLeft+d.getElementById("tbnav").offsetLeft+d.getElementById("tdnavr").offsetLeft+d.getElementById("tdnavr").offsetWidth-3;d.getElementById("anavr").style.top=d.getElementById("tdtbnav").offsetTop+d.getElementById("tbnav").offsetTop+d.getElementById("tdnavr").offsetTop;}else{d.getElementById("anavr").style.visibility = "hidden"; d.getElementById("anavr").style.display = "none";}
-} setTimeout("anavrShow = false;",500);}
+function popLearnmore(show)
+{var d=document; if(d.getElementById("tdtbnav")&&d.getElementById("tbnav")&&d.getElementById("tdnavr")&&d.getElementById("anavr")){if(show || learnmorePopupShow){d.getElementById("anavr").style.visibility = "visible"; d.getElementById("anavr").style.display = "block";d.getElementById("anavr").style.left=d.getElementById("tdtbnav").offsetLeft+d.getElementById("tbnav").offsetLeft+d.getElementById("tdnavr").offsetLeft+d.getElementById("tdnavr").offsetWidth-3;d.getElementById("anavr").style.top=d.getElementById("tdtbnav").offsetTop+d.getElementById("tbnav").offsetTop+d.getElementById("tdnavr").offsetTop;}else{d.getElementById("anavr").style.visibility = "hidden"; d.getElementById("anavr").style.display = "none";}
+} setTimeout("learnmorePopupShow = false;",500);}
 </script>
-<div id="anavr" style="position: absolute; left: 0px; top: 0px; visibility: hidden; display: none; z-index: 100; border: 1px solid #7F99B2; font-size: 0.8em;" onmouseover="popnavr(true);" onmouseout="popnavr(false);">
-<table width="160" cellpadding="0" cellspacing="0" border="0" summary="Related Information Navigation">
+<div id="anavr" style="position: absolute; left: 0px; top: 0px; visibility: hidden; display: none; z-index: 100; border: 1px solid #7F99B2; font-size: 0.8em;" onmouseover="popLearnmore(true);" onmouseout="popLearnmore(false);">
+<table width="160" cellpadding="0" cellspacing="0" border="0" summary="">
 <%	call RelInfoNav("#7F99B2") %>
 </table>
 </div>

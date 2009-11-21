@@ -57,7 +57,7 @@ flashPage = false
 <p class="s" style="margin-top: 0px; margin-bottom: 0px;">To learn how your qualifications match our open positions, please review the required qualifications for each position.
 </p>
 <p class="s" style="margin-top: 12px; margin-bottom: 0px;">
-In addition, visit the Areas of Talent section of the site to view associate testimonials which will help you determine where you may might fit into our organization.</p>
+In addition, visit the Job Areas section of the site to view associate testimonials which will help you determine where you may might fit into our organization.</p>
 
 <p class="s" style="margin-top: 12px; margin-bottom: 0px;"><b>10) After I submit my profile and/or application will I receive a response?</b></p>
 <p class="s" style="margin-top: 0px; margin-bottom: 0px;">Yes. You will receive an email confirming that your profile and/or application has been received.</p>
@@ -69,7 +69,7 @@ In addition, visit the Areas of Talent section of the site to view associate tes
 <p class="s" style="margin-top: 0px; margin-bottom: 0px;">Within your Candidate Profile you can designate your "Job Preferences" included are your preferred job Location(s) as well as other specifications.  After choosing your preferences, you must activate the checkbox indicating that you would like to receive notifications. If a newly posted position matches your designated preferences, you will be notified via email.</p>
 
 <p class="s" style="margin-top: 12px; margin-bottom: 0px;"><b>13) How do I know if an area of talent is right for me?</b></p>
-<p class="s" style="margin-top: 0px; margin-bottom: 0px;">You may visit the Areas of Talent section to review associate testimonials which will help you determine where you may might fit into our organization.</p>
+<p class="s" style="margin-top: 0px; margin-bottom: 0px;">You may visit the Job Areas section to review associate testimonials which will help you determine where you may might fit into our organization.</p>
 <br><br>
 <!-- Body-->
 	</td>

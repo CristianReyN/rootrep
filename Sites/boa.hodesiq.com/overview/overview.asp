@@ -27,8 +27,8 @@ If playflash = "1" Then flashPage = false
 			<tr valign="top"><td height="450" style="background: #cadceb;">
 <div id="flash1" style="position: absolute;">
 <table width="160" cellpadding="0" cellspacing="0" border="0" summary="">
-<tr><td align="right"><br><a href="<%=ada_href %>#vht" id="videotranscript" title="<% If playflash="" Then %>Virtual Host Video Transcript<% Else %><%=ada_title %><% End If %>" class="g" onfocus="this.className='g-over';" onblur="this.className='g';"><% If playflash="" Then %>Video Transcript<% Else %>Text Only Version<% End If %></a>&nbsp;&nbsp;</td></tr>
-</table>
+<tr><td align="right" style="padding: 0px 9px 6px 6px;"><br>
+<% If playflash="" Then %><a href="<%=ada_href %>#vht" id="videotranscript" title="Virtual Host Video Transcript" class="g" onfocus="this.className='g-over';" onblur="this.className='g';" style="line-height: 1.1em;">Virtual Host Video Transcript</a><% Else %><a href="<%=ada_href %>" id="videotranscript" title="<%=ada_title %>" class="g" onfocus="this.className='g-over';" onblur="this.className='g';" style="line-height: 1.1em;">Text Only Version</a><% End If %></td></tr></table>
 <script language="JavaScript1.2" type="text/javascript">
 //<!--
 requiredMajorVersion = 8;
@@ -46,7 +46,7 @@ if ( hasRequestedVersion ) {
 	<% If playflash <> "1" Then %>
    document.write(hiddenFlash);
    <%  Else %>
-   document.write('<table width="160" height="400" cellpadding="0" cellspacing="0" border="0" summary=""><tr><td valign="bottom"><a href="Javascript: replayVirtualHost();" title="Replay Virtual Host" class="g" onfocus="this.className=\'g-over\';" onblur="this.className=\'g\';"><img src="../images/replay.gif" width="40" height="14" alt="Replay Virtual Host" border="0" onmouseover="this.src=\'../images/replay-over.gif\';" onmouseout="this.src=\'../images/replay.gif\';"></a></td></tr></table>');
+   document.write('<table width="160" height="60" cellpadding="0" cellspacing="0" border="0" summary="" style="background: #ebebeb; border-top: 1px solid #dadada; border-bottom: 1px solid #dadada;"><tr><td style="padding: 5px 11px 5px 12px;"><div style="border: 1px solid #dadada;"><img src="../images/piper.jpg" width="52" height="52" alt="Replay Virtual Host" border="0" style="border: 1px solid #ebebeb;"></div></td><td width="100%"><a href="Javascript: replayVirtualHost();" title="Replay Virtual Host" class="p" onfocus="this.className=\'p-over\';" onblur="this.className=\'p\';">Replay<br>Virtual Host</a></td></tr></table>');
    <%  End If %>
    document.write('</div>');
 } else {

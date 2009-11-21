@@ -1,11 +1,11 @@
 <% Response.Buffer=True 
 Dim title, mpage, spage, ada_href, ada_title, job_search_action, Metatag
-title = "Bank of America | Career | Areas of Talent"
+title = "Bank of America | Career | Job Areas"
 mpage = "areasoftalent"
 spage = ""
 ada_href = "../ada/areasoftalent.asp"
 page_self = "../areasoftalent/areasoftalent.asp"
-ada_title = "Bank of America | Career | Areas of Talent, Text Only Version"
+ada_title = "Bank of America | Career | Job Areas, Text Only Version"
 job_search_action = "../jobsearch/searchresult.asp"
 Metatag="There are ten areas of talent that Bank of America has grouped their job families to.  Each of these areas of talent are grouped to help a reader understand where they may fit in with the organization. Ten areas of talent include: administration, customer care, communications, finance, human resources, operations, risk evaluation, sales, technology and consumer banking. You can click from this page to go to individuals pages that list hot job opportunities, associate testimonials, links to specific job family positions."
 %>
