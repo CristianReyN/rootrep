@@ -26,7 +26,6 @@ function hover(ref, classRef) { eval(ref).className = classRef; }
 	function hideFlash(id){if(document.getElementById(id).style.display = 'inline') document.getElementById(id).style.display = 'none';}
 //-->
 </script>
-<a class="auraltext" href=" & ada_href & " onfocus="hover(this,'show-tab'); this.focus()" onblur="hover(this,'auraltext')">Low-bandwidth version</a>
 
     <table border="0" cellpadding="0" cellspacing="0" style="height: 100%;" summary=""
         width="750">
