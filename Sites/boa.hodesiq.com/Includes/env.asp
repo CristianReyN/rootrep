@@ -1,4 +1,4 @@
 <%
-'Const ENV = "production"
-Const ENV = "staging"
+Const ENV = "production"
+'Const ENV = "staging"
 %>
