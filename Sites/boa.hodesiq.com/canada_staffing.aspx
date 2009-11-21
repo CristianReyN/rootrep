@@ -1,6 +1,6 @@
 <%@ Page Language="C#" MasterPageFile="~/MasterPage.master" EnableEventValidation="false"
     AutoEventWireup="true" CodeFile="canada_staffing.aspx.cs" Inherits="canada_staffing"
-    Title="Bank of America | Careers | Global Careers | Canada | Staffing" %>
+    Title="Bank of America | Careers | Locations |Canada | Staffing" %>
 
 <asp:Content ID="Image" ContentPlaceHolderID="Image" runat="Server">
     <img src="images/global-careers-canada_V.jpg" width="578" height="166" alt="Explore a career with the Bank of Opportunity."
@@ -16,7 +16,7 @@
         cellpadding="0">
         <tr>
             <td width="366" align="left" valign="top">
-               <p>Our online application process enables us to efficiently track, manage and respond to your application in a consistent and timely manner.  Use the Apply button from any job description to submit your CV online. Available roles across the Canadian region can be searched by location and job family.  Upon submission of your CV, you will receive an email acknowledging receipt of your application.</p>
+               <p>Our online application process enables us to efficiently track, manage and respond to your application in a consistent and timely manner. <b>Use the Apply button from any job description to submit your CV online.</b> Available roles across the Canadian region can be searched by location and job family.  Upon submission of your CV, you will receive an email acknowledging receipt of your application.</p>
 	
 <p>Bank of America strives to identify and select the best candidate for each role. As part of our assessment process, we use competency based interviews to measure key aptitudes, attributes and values that an individual must demonstrate to be successful in the job. The number of interviews will vary by role and line of business.</p>
 

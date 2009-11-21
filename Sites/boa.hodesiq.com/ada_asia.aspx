@@ -1,5 +1,5 @@
 <%@ Page Language="C#" MasterPageFile="MasterPage.master" AutoEventWireup="true"
-    CodeFile="ada_asia.aspx.cs" Inherits="ada_boaml" Title="Bank of America | Careers | Global Careers | Asia, Text Only Version"
+    CodeFile="ada_asia.aspx.cs" Inherits="ada_boaml" Title="Bank of America | Careers | Locations |Asia, Text Only Version"
     EnableEventValidation="false" %>
 
 
@@ -547,15 +547,15 @@ Singapore 099 253<br /></p>
                 <h2>
                     BA Continuum Locations</h2>
                 <h3>
-                    INDIA</h3>
+                    India</h3>
                 <a name="CLIndia"></a>
                 
                     
                     
                     
                     
-                    <h3 class="text_bold_under">
-                    Hyderabad</h3>
+                   <p><span class="text_bold_under">
+                    Hyderabad</span></p>
                 
                 <p>
                     1st Floor, Building No. 5, <br />Mind Space - Raheja IT Park,<br />
@@ -586,8 +586,8 @@ Singapore 099 253<br /></p>
                 </p>--%>
                 
                 
-                <h3 class="text_bold_under">
-                    Mumbai</h3>
+               <p><span class="text_bold_under">
+                    Mumbai</span></p>
                 
                 <p>
                     4th Floor, Logitech Park, Tower I, Phase II<br />
@@ -607,8 +607,8 @@ Singapore 099 253<br /></p>
                     </ul>
                 </p>--%>
                 
-                <h3 class="text_bold_under">
-                    Gurgaon</h3>
+                <p><span class="text_bold_under">
+                    Gurgaon</span></p>
                 
                 <p>
                     4th floor, Tower B, Infinity Tower<br />

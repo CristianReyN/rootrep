@@ -15,7 +15,7 @@ public partial class canada_lob : System.Web.UI.Page
     {
         Session["tonlyLabel"] = "Global Careers Canada Lines of Business, Text Only Version";
         Session["href"] = "../ada/canada_lob.aspx";
-        Page.Title = "Bank of America | Careers | Global Careers | Canada | Lines of Business";
+        Page.Title = "Bank of America | Careers | Locations |Canada | Lines of Business";
 		
 		Session["Ntonly"] = "";
 

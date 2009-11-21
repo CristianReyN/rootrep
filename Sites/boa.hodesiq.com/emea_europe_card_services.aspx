@@ -1,5 +1,5 @@
 ﻿<%@ Page Language="C#" MasterPageFile="~/MasterPage.master" EnableEventValidation="false"
-    AutoEventWireup="true" CodeFile="emea_europe_card_services.aspx.cs" Inherits="emea_europe_card_services" Title="Bank of America | Careers | Global Careers | Canada | Europe, Middle East and Africa (EMEA)| Europe Card Services" %>
+    AutoEventWireup="true" CodeFile="emea_europe_card_services.aspx.cs" Inherits="emea_europe_card_services" Title="Bank of America | Careers | Locations |Canada | Europe, Middle East and Africa (EMEA)| Europe Card Services" %>
     
 <asp:Content ID="Image" ContentPlaceHolderID="Image" runat="Server">
     <img src="images/Europe_ME_Africa_3_Europe_card_services_both_pages.jpg" width="578" height="166" alt="Explore a career with the Bank of Opportunity."
@@ -40,16 +40,16 @@
 
 
 <h2>Where we are</h2>
-<p>UK – Chester
-Europe Card Services opened in Chester in 1993 where it is now one of the largest employers and our 4000 committed employees live in and around the North West; Cheshire, Greater Manchester, Merseyside, Wrexham and North Wales.</p>
+<h3>UK – Chester</h3>
+<p>Europe Card Services opened in Chester in 1993 where it is now one of the largest employers and our 4000 committed employees live in and around the North West; Cheshire, Greater Manchester, Merseyside, Wrexham and North Wales.</p>
 
 <p>Our Chester campus offers subsidised restaurants, a coffee shop and onsite parking. And for those who enjoy active recreation, we have excellent indoor and outdoor sports and fitness facilities, including a gym and fitness suite, football and cricket pitches, a basketball court and a softball field. </p>
 
 
-<p>Ireland – Carrick-on-Shannon</p>
+<h3>Ireland – Carrick-on-Shannon</h3>
 
 <p>After opening in 1997, Bank of America has grown to become the largest employer in Carrick-on-Shannon. Almost 1,000 associates currently work at this location, from local areas such as Sligo, Roscommon and Longford. </p>
-Spain – Madrid<br />
+<h3>Spain – Madrid</h3>
 <p>Established in 2002, Bank of America Europe Card Services España now employs more than 400 associates at its headquarters in Las Rozas, Madrid.</p>
 
 
@@ -57,9 +57,9 @@ Spain – Madrid<br />
                
        </table>     
            <p>
-                        <a href="emea_europe_card_services_teams.aspx" class="p" onblur="this.className='p';" onfocus="this.className='p-over';">Learn about Europe Card Services departments</a> <br />
+                        <a href="emea_europe_card_services_teams.aspx" class="ritnavlinks" onblur="this.className='ritnavlinks';" onfocus="this.className='ritnavlinks-over';" title="Learn about Europe Card Services departments">Learn about Europe Card Services departments</a> <br />
                              
-                        <a href="emea_lob.aspx" class="p" onblur="this.className='p';" onfocus="this.className='p-over';">Return</a>
+                        <a href="emea_lob.aspx" class="ritnavlinks" onblur="this.className='ritnavlinks';" onfocus="this.className='ritnavlinks-over';" title="Benefits">Return</a>
 
                     </p>   
     

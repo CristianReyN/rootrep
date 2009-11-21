@@ -1,6 +1,6 @@
 <%@ Page Language="C#" MasterPageFile="~/MasterPage.master" EnableEventValidation="false"
     AutoEventWireup="true" CodeFile="canada_benefits.aspx.cs" Inherits="canada_benefits"
-    Title="Bank of America | Careers | Global Careers | Canada | Benefits" %>
+    Title="Bank of America | Careers | Locations |Canada | Benefits" %>
 
 
 <asp:Content ID="Image" ContentPlaceHolderID="Image" runat="Server">
@@ -28,7 +28,7 @@
 <li>Associate cafés (Ottawa location only) </li></ul>
 <p>In addition to strong base compensation and benefits, associates of Bank of America are eligible to participate in our incentive programs, which form important parts of our overall compensation package.</p>
 
-<p>These benefits may be modified from time to time by Bank of America.</p>
+<p>These benefits may be modified from time to time by </br> Bank of America.</p>
  </td>
         </tr>
     </table>

@@ -1,5 +1,5 @@
 <%@ Page Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true"
-    CodeFile="canada_lob.aspx.cs" Inherits="canada_lob" Title="Bank of America | Careers | Global Careers | Canada | Lines of Business" %>
+    CodeFile="canada_lob.aspx.cs" Inherits="canada_lob" Title="Bank of America | Careers | Locations |Canada | Lines of Business" %>
 
 
 <asp:Content ID="Image" ContentPlaceHolderID="Image" runat="Server">
@@ -25,8 +25,11 @@
  	&nbsp;&nbsp;&nbsp;&nbsp;Customer Marketing</br>
  	&nbsp;&nbsp;&nbsp;&nbsp;Customer Service </br>
  	&nbsp;&nbsp;&nbsp;&nbsp;Resolution services</br>
-	&nbsp;&nbsp;&nbsp;&nbsp;Other areas within this team include Risk Strategies,
-	 &nbsp;&nbsp;&nbsp;&nbsp;Business Development and Marketing.</br>
+ 	
+ 	
+ 	
+	<p>Other areas within this team include Risk Strategies,
+	 Business Development and Marketing.</p>
 
 
 <h2>Bank of America National Association </h2>
@@ -41,11 +44,11 @@
 <li>Leasing</li></ul>
 
 <h2>Merrill Lynch Canada Inc. </h2>
-<p>Merrill Lynch Canada Inc.is a leading provider of global corporate and investment banking services, including commercial lending, global high-yield debt, global equity and global Mergers & Acquisitions. Merrill Lynch first established a presence in Canada in 1952 when we opened an office in Toronto. Today, there are offices in all the major business centers across Canada. Merrill Lynch Canada offers an integrated and comprehensive set of products and services across all businesses, serving the needs of corporate, institutional and government clients, by combining the best of local knowledge and international expertise.</p>
+<p>Merrill Lynch Canada Inc. is a leading provider of global corporate and investment banking services, including commercial lending, global high-yield debt, global equity and global Mergers & Acquisitions. Merrill Lynch first established a presence in Canada in 1952 when we opened an office in Toronto. Today, there are offices in all the major business centers across Canada. Merrill Lynch Canada offers an integrated and comprehensive set of products and services across all businesses, serving the needs of corporate, institutional and government clients, by combining the best of local knowledge and international expertise.</p>
 
 <p>Merrill Lynch’s activities in Canada are organized into independent but interrelated business lines and support units such as:</p>
 
-</br>&nbsp;&nbsp;-&nbsp;&nbsp;<b>Global Corporate & Investment Banking</b><br />
+<h3>&nbsp;&nbsp;-&nbsp;&nbsp;Global Corporate & Investment Banking</h3>
 
 <p>Global Corporate & Investment Banking encompasses Bank of America Merrill Lynch’s corporate lending, advisory and capital markets businesses in the region. It serves the long-term needs of corporations and financial institutions, drawing on the bank’s global expertise and local knowledge across all industry sectors.</p>
  
@@ -53,7 +56,7 @@
  
 <p>The Capital Markets division includes debt capital markets, equity capital markets and equity-linked capital markets and assists corporations in raising funds through both the public and private international capital markets. Alongside the product units is the Corporate Finance and Restructuring division, which assists clients in determining the best course of corporate finance management to grow their businesses.</p>
 
-</br>&nbsp;&nbsp;-&nbsp;&nbsp;<b>Global Markets</b></br>
+<h3>&nbsp;&nbsp;-&nbsp;&nbsp;Global Markets</h3>
 
 <p>The Bank of America Merrill Lynch Global Markets group is at the forefront of the world’s financial markets, providing liquidity, pricing and execution across the equity, fixed income, derivatives, interest rate, foreign exchange and commodities markets.</p>
 
@@ -63,7 +66,7 @@
 
 <p>Banc of America Securities-Merrill Lynch Research is one of the region’s leading research houses. It provides timely, insightful, independent and comprehensive macroeconomic, fixed-income, strategy, quantitative, derivatives, equity-linked, industry and corporate research to an international institutional client base.</p>
 
-</br>&nbsp;&nbsp;-&nbsp;&nbsp;<b>Global Product Solutions</b></br>
+<h3>&nbsp;&nbsp;-&nbsp;&nbsp;Global Product Solutions</h3>
 
 <p>Bank of America Merrill Lynch is the leading provider of treasury management, liquidity management, global trade solutions and reporting services through the Global Product Solutions unit. Our clients include small businesses, middle-market and large corporations, financial institutions and governments, and we assist them in designing and implementing the full range of integrated credit and treasury products.</p>
 
@@ -71,7 +74,7 @@
 
 <h2>Human Resources</h2>
 <p>At Bank of America, we understand that the success of an organization depends on its people. The Human Resources team at Bank of America plays an integral role in driving that success. It aligns human resources strategy to the business strategy, enabling the company to drive revenue growth through attracting, developing and retaining a world-class workforce. </p>
-<p>The Human Resources group contributes to the success of the company through assisting with planning for future growth, architecting and implementing changes to improve organizational performance, creating an engaging and productive environment for associates, and delivering critical services to ensure the successful day-to-day operation of the business.  In addition to advising our clients on a wide variety of topics, the Human Resources team helps the company deliver a higher standard of benefits, work/life commitment and satisfaction to our associates .</p>
+<p>The Human Resources group contributes to the success of the company through assisting with planning for future growth, architecting and implementing changes to improve organizational performance, creating an engaging and productive environment for associates, and delivering critical services to ensure the successful day-to-day operation of the business.  In addition to advising our clients on a wide variety of topics, the Human Resources team helps the company deliver a higher standard of benefits, work/life commitment and satisfaction to our associates.</p>
 <h2>Legal Services</h2>
 <p>Bank of America's Legal Services supports the Canadian lines of business and support partners in meeting their key objectives. At Bank of America, the Legal department is responsible for the provision of legal services for all of the bank’s activities in the region across multiple jurisdictions and business activities. It works closely with its Risk partners, including Compliance, Audit, Tax and Finance to identify and implement both best practices and legally compliant policies and procedures across the bank’s business and support unit activities.</p>
 <h2>Finance</h2>

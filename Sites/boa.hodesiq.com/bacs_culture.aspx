@@ -1,6 +1,6 @@
 <%@ Page Language="C#" MasterPageFile="~/MasterPage.master" EnableEventValidation="false"
     AutoEventWireup="true" CodeFile="bacs_culture.aspx.cs" Inherits="bacs_culture"
-    Title="Bank of America | Careers | Global Careers | BA Continuum | Culture" %>
+    Title="Bank of America | Careers | Locations |BA Continuum | Culture" %>
 
 
 <asp:Content ID="Image" ContentPlaceHolderID="Image" runat="Server">
@@ -12,7 +12,7 @@
 <asp:Content ID="Main" ContentPlaceHolderID="Main" runat="Server">
     <a name="skipmaincontent"></a>
     <h1 class="hidden">
-        Global Careers - Continuum Culture</h1>
+        Global Careers - BA Continuum Culture</h1>
     <table summary="Global Careers - Continuum Culture" width="366" border="0" cellspacing="0"
         cellpadding="0">
         <tr>

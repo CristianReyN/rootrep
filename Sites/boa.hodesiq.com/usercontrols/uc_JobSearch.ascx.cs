@@ -29,7 +29,10 @@ public partial class uc_JobSearch : System.Web.UI.UserControl
             PopulateCity();
             PopulateJobFamily();
             PopulateInternationalCity();
-            PnlUSJobsContent.Visible = false;
+            TrUsJobs1.Visible = false;
+            TrUsJobs2.Visible = false;
+            TrUsJobs3.Visible = false;
+            //TrUsJobs4.Visible = false;
             PnlFilter.Visible = false;
             BtnSearch.Visible = false;
             Country.AutoPostBack = false;
@@ -82,11 +85,17 @@ public partial class uc_JobSearch : System.Web.UI.UserControl
     {
         if (Country.SelectedValue == Location.USA)
         {
-            PnlUSJobsContent.Visible = true;
+            TrUsJobs1.Visible = true;
+            TrUsJobs2.Visible = true;
+            TrUsJobs3.Visible = true;
+            //TrUsJobs4.Visible = true;
         }
         else
         {
-            PnlUSJobsContent.Visible = false;
+            TrUsJobs1.Visible = false;
+            TrUsJobs2.Visible = false;
+            TrUsJobs3.Visible = false;
+            //TrUsJobs4.Visible = false;
         }
 
     }

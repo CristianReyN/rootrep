@@ -45,7 +45,7 @@
                 <div id="MapBAContinuum">
                 </div>
                 <h2>
-                    BA Continuum Locations:</h2>
+                    BA Continuum Locations</h2>
                 <a name="mapstart"></a>
                 <div class="hidden">
                     BA Continuum Locations: <a href="#CLIndia">India</a><br />
@@ -56,7 +56,7 @@
                     <a href="#skorea">South Kores</a> <a href="#Taiwan">Taiwan</a> <a href="#Thailand">Thailand</a>
                 </div>
                 <h3>
-                    INDIA</h3>
+                    India</h3>
                 <a name="CLIndia"></a>
                 <p>
                     <b style="text-decoration: underline">Hyderabad</b></p>

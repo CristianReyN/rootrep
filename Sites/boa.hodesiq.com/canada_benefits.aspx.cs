@@ -15,7 +15,7 @@ public partial class canada_benefits : System.Web.UI.Page
     {
         Session["tonlyLabel"] = "Global Careers Canada  Benefits, Text Only Version";
         Session["href"] = "../ada/canada_benefits.aspx";
-        Page.Title = "Bank of America | Careers | Global Careers | Canada | Benefits";
+        Page.Title = "Bank of America | Careers | Locations |Canada | Benefits";
 
         HtmlMeta theMetaTag = new HtmlMeta();
         theMetaTag.Attributes.Add("name", "Description");

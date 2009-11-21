@@ -1,6 +1,6 @@
 <%@ Page Language="C#" MasterPageFile="~/MasterPage.master" EnableEventValidation="false"
     AutoEventWireup="true" CodeFile="emea_benefits.aspx.cs" Inherits="emea_benefits"
-    Title="Bank of America | Careers | Global Careers | Europe | Benefits" %>
+    Title="Bank of America | Careers | Locations |Europe | Benefits" %>
 
 
 
@@ -167,7 +167,7 @@
                     &#8226;	Rewarding Success Programme<br />
                     &#8226;	Season Ticket Loans<br />
                     &#8226;	Employee Assistance Programme<br />
-                    &#8226;	Maternity, paternity and adoption leave &#8211;above statutory Minimum parental leave<br />
+                    &#8226;	Maternity, paternity and adoption leave &#8211;above statutory &nbsp;&nbsp;Minimum parental leave<br />
 
                     <br />
                     <br />

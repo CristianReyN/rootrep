@@ -36,7 +36,7 @@ Nous travaillons efficacement ensemble et nous nous portons garants de la satisf
 Le bien-être de nos collègues nous tient à cœur, nous valorisons la différence, nous sommes axés sur les résultats et nous nous efforçons d'aider tous ceux avec qui nous nous associons à se réaliser pleinement.</li>
 <li><b>Nous adoptons une attitude gagnante. </b><br/>
 Nous cherchons constamment à atteindre et à dépasser les objectifs fixés – pour nos clients, nos actionnaires, les collectivités dans lesquelles nous travaillons et pour nous. </li>
-Nous sommes des meneurs. </b><br/>
+<li><b>Nous sommes des meneurs. </b><br/>
 Nous visons à être des leaders influents dans toutes les sphères de la société et à communiquer notre vision.</li></ul>
 
 </td>

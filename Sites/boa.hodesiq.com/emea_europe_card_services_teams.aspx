@@ -1,5 +1,5 @@
 ﻿<%@ Page Language="C#" MasterPageFile="~/MasterPage.master" EnableEventValidation="false"
-    AutoEventWireup="true" CodeFile="emea_europe_card_services_teams.aspx.cs" Inherits="emea_europe_card_services_teams" Title="Bank of America | Careers | Global Careers | Canada | Europe, Middle East and Africa (EMEA)| Europe Card Services – Our Teams" %>
+    AutoEventWireup="true" CodeFile="emea_europe_card_services_teams.aspx.cs" Inherits="emea_europe_card_services_teams" Title="Bank of America | Careers | Locations |Canada | Europe, Middle East and Africa (EMEA)| Europe Card Services – Our Teams" %>
     
 <asp:Content ID="Image" ContentPlaceHolderID="Image" runat="Server">
     <img src="images/Europe_ME_Africa_3_Europe_card_services_both_pages.jpg" width="578" height="166" alt="Explore a career with the Bank of Opportunity."
@@ -21,8 +21,8 @@
                 <p>
                   We know our people are the heart of our organisation.  That’s why we ensure they are empowered to take control of their careers and have the confidence and skills to develop and progress.  Which means you’ll be equipped to not only shape your own professional direction, but ours too.</p>
               
-                <p>
-                  <u>Customer Contact Centres</u> </p>
+              
+                  <h2>Customer Contact Centres</h2> 
                 <p>
                    We know customer service can be both rewarding and challenging, and that’s why we look for individuals who have a friendly, flexible attitude and the ability to respond quickly to every individual customer. You’ll be committed to our vision of providing high quality customer support and you’ll know how to remember that every customer is only human, just like you. </p>
                    
@@ -30,9 +30,9 @@
                 Being the first or main point of contact for our customers means that each and every employee in our contact centres is vital to the success of Bank of America.  Dealing with millions of calls each year it’s important we make our interaction with our customers count and deliver a great impression.  
                 </p>
               
-              <p>
+           
                 
-              <u>Customer Service and Sales</u><br />             
+              <h2>Customer Service and Sales</h2>  <p>           
                 Our 24-hour customer service contact centre enables our Customer Service representatives to deal with customer calls, handle enquiries and meet and exceed expectations.  <br />
                    Our customers rely on our <b>Customer Service representatives and Customer Service and Sales representatives</b> for:<br />
                    <ul >
@@ -45,7 +45,7 @@
             </p>  
             
             
-            <p><u>Telemarketing</u><br />
+            <h2>Telemarketing</h2><p>
             One of the largest departments in Bank of America, Telemarketing is responsible for handling inbound and outbound calls with customers.<br />
             Our<b> Customer Service representatives and Activation specialists </b> are expert in:<br />
             <ul>
@@ -57,7 +57,7 @@
             </ul></p>
             
             
-          <p><u> Customer Assistance</u><br />
+          <h2> Customer Assistance</h2><p>
 The Customer Assistance team is responsible for dealing with accounts that are late or overdue with their payments. As part of this team, you’ll handle a wide variety of calls.<br />
 The daily role of a Bank of America <b> Collector</b> includes:<br />
 <ul>
@@ -67,13 +67,13 @@ The daily role of a Bank of America <b> Collector</b> includes:<br />
 <li>Initiating research on particular accounts </li>
 <li>Setting up direct debits</li></ul></p> 
 
-<p>
-<u>Customer Resolution Services (CRS)</u><br />
+
+<h2>Customer Resolution Services (CRS)</h2><p>
 Our CRS call centre manages written and telephone enquiries from our customers.  Our <b>Disputes specialist and Claims analysts </b>deal with a variety of calls from researching and investigating payment that the customer doesn’t recognise to helping the customer find a solution with a retailer if there is a problem with an item they have purchased.
 
 </p>
 
-<p><u>Insurance</u><br />
+<h2>Insurance</h2><p>
 
 Insurance Services offer Bank of America credit card customers the opportunity to access a spectrum of protection products.<br />
 The responsibilities of our <b> Sales representatives and Customer Service representatives</b> include:<br />
@@ -85,22 +85,22 @@ The responsibilities of our <b> Sales representatives and Customer Service repre
 
 </ul>
 </p>
-<p><u>
-Fraud </u><br />
+<h2>
+Fraud</h2><p>
 Our Fraud department works to reduce fraud losses whilst maintaining customer satisfaction. Our team of <b>Fraud analysts and Fraud detectors</b> focus on protecting customers by providing a wide range of proactive fraud detection activities and strategies, not to mention peace of mind.  
-</p><u>
-<p>
-Credit</u><br />
+</p>
+
+<h2>Credit</h2><p>
 Our <b>Credit analysts and Credit underwriters</b> offer a balanced and responsible approach to lending and underwriting new credit card applications in a timely and efficient manner.
 </p>
-<p><u>
-Non-Customer Contact Areas</u><br />
+<h2>
+Non-Customer Contact Areas</h2>
 Driving the activities of our contact centres, Europe Card Services has two core business areas: Credit Risk Management and Business Development.
 </p>
 
 
 
-<p><u>Credit Risk Management</u><br />
+<h2>Credit Risk Management</h2><p>
 Concentrating on the execution of credit risk and pricing strategies to manage portfolio risk and reward, this function also works to drive change and create the kind of initiatives that will transform the way we work and drive future business growth.  <br />
 Key activities in this area include:<br />
 <ul>
@@ -110,14 +110,14 @@ Key activities in this area include:<br />
 <li>	Strategic management information and data warehousing where SAS, coding and macros skills are key</li>
 <li>	Scoring and analytics providing deep expertise and efficiency in the development, implementation, approval and monitoring of credit risk scoring models and systems</li>
 
-</ul>
-<p><u>Business Development</u><br />
+</ul></p>
+<h2>Business Development</h2><p>
 A variety of teams in our Business Development function drive activities to support our business goals, which include: <br /><ul>
 <li>	Marketing our products to new and existing customers through various channels</li>
 <li>	Managing the relationships we have with our affinity partners   </li> 
 <li>	Data management, analytics, campaign management and database design to target the relevance of our products and services to existing customers</li>
 </ul></p>
-<p><u>Support Functions</u><br />
+<h2>Support Functions</h2><p>
 A business like ours requires a lot of support and a huge number of people working together.  <br />
 We are proud to have a number of centres of excellence which provide this support, including:<br />
 <ul>
@@ -131,14 +131,14 @@ We are proud to have a number of centres of excellence which provide this suppor
 <li>	Communications</li>
 </ul></p>
 
-<p><u>Graduates	</u><br />
+<h2>Graduates	</h2><p>
 
-Bank of America Europe Card Services’ Graduate Programme offers the opportunity to focus on a specific discipline, whilst also providing broad exposure to the entire Europe Card Services business.  Positions are based in Chester and the application process usually runs from September to January. To view our graduate opportunities and apply during this period, <a href="campusrecruiting/?cm_mmc=General-_-vanity-_-campusrecruiting-_-NA" class="p" onblur="this.className='p';" onfocus="this.className='p-over';">click here.</a>
+Bank of America Europe Card Services’ Graduate Programme offers the opportunity to focus on a specific discipline, whilst also providing broad exposure to the entire Europe Card Services business.  Positions are based in Chester and the application process usually runs from September to January. To view our graduate opportunities and apply during this period, <a href="campusrecruiting/?cm_mmc=General-_-vanity-_-campusrecruiting-_-NA" class="p" onblur="this.className='p';" onfocus="this.className='p-over';" title="Campus Recruiting">click here.</a></p>
 
-<p><u>Training and Development   </u><br />
-
+<h2>Training and Development  </h2>
+<p>
 We’re big on helping our people to achieve their goals and make the most of their talents. <br />
-Which is why, whatever stage you’re at in your career, we have a training and development plan to suit you.  We’ll give you company wide support, including an online system where you can manage your learning and development whilst studying for professional qualifications.  We also offer NVQ’s in partnerships with local colleges and tailor-made programmes designed for different lines of business, such as our marketing excellence programme for employees in our Business Development function. 
+Which is why, whatever stage you’re at in your career, we have a training and development plan to suit you.  We’ll give you company wide support, including an online system where you can manage your learning and development whilst studying for professional qualifications.  We also offer NVQ’s in partnerships with local colleges and tailor-made programmes designed for different lines of business, such as our marketing excellence programme for employees in our Business Development function. </p>
 
 
 
@@ -149,9 +149,9 @@ Which is why, whatever stage you’re at in your career, we have a training and 
                
      </td></tr>  </table> 
       <p>
-                        <a href="emea_europe_card_services.aspx" class="p" onblur="this.className='p';" onfocus="this.className='p-over';">Learn more about Europe Card Services</a><br />
+                        <a href="emea_europe_card_services.aspx" class="ritnavlinks" onblur="this.className='ritnavlinks';" onfocus="this.className='ritnavlinks-over';" title="Learn more about Europe Card Services">Learn more about Europe Card Services</a><br />
                              
-                        <a href="emea_lob.aspx" class="p" onblur="this.className='p';" onfocus="this.className='p-over';">Return</a>
+                        <a href="emea_lob.aspx" class="ritnavlinks" onblur="this.className='ritnavlinks';" onfocus="this.className='ritnavlinks-over';" Title="Benefits" >Return</a>
 
                     </p>       
     

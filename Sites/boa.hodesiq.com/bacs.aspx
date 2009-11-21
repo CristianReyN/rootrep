@@ -1,5 +1,5 @@
 <%@ Page Language="C#" MasterPageFile="MasterPage.master" AutoEventWireup="true"
-    CodeFile="bacs.aspx.cs" Inherits="ba_continuum" Title="Bank of America | Careers | Global Careers | BA Continuum"
+    CodeFile="bacs.aspx.cs" Inherits="ba_continuum" Title="Bank of America | Careers | Locations |BA Continuum"
     EnableEventValidation="false" %>
 
 <asp:Content ID="Image" ContentPlaceHolderID="Image" runat="Server"> <img src="images/global-careers-asia_I.jpg" width="578" height="166" alt="Explore a career with the Bank of Opportunity."

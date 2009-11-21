@@ -3,13 +3,7 @@
 <link rel="stylesheet" href="includes/hs_safebutton.css" type="text/css" />
 
 
-<table id="tbnav" width="160" cellpadding="0" cellspacing="0" border="0" summary="">
-    <tr valign="top">
-        <td valign="top" height="2">
-            <img src="http://careers.bankofamerica.com/images/clear.gif" width="154" height="2"
-                alt="" border="0" />
-        </td>
-    </tr>
+<table id="tbnav" width="160" cellpadding="0" cellspacing="0" border="0" summary="">  
     <tr valign="top">
         <td>                            
                 

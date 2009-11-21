@@ -15,7 +15,7 @@ public partial class canada_staffing : System.Web.UI.Page
     {
         Session["tonlyLabel"] = "Global Careers Canada Staffing, Text Only Version";
         Session["href"] = "../ada/canada_staffing.aspx";
-        Page.Title = "Bank of America | Careers | Global Careers | Canada | Staffing";
+        Page.Title = "Bank of America | Careers | Locations |Canada | Staffing";
 		
 		Session["Ntonly"] = "";
 

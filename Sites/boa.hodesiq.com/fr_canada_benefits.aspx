@@ -16,7 +16,6 @@
     <table summary="" width="366" border="0" cellspacing="0" cellpadding="0">
         <tr>
             <td width="366" align="left" valign="top">
-               <h2>AVANTAGES</h2>
 
 <p>Bank of America offre des ensembles complets d’avantages sociaux à ses associés conformément aux pratiques de chaque pays. Notre ensemble de rémunération et d’avantages sociaux a été conçu pour que nous restions concurrentiels au sein du marché et que nous puissions attirer, garder et récompenser les associés en quête d’excellence. Voici des exemples des avantages que nous offrons :</p>
 <ul>

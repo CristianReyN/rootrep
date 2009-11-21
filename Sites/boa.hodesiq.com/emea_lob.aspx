@@ -1,6 +1,6 @@
 <%@ Page Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true"
     EnableEventValidation="false" CodeFile="emea_lob.aspx.cs" Inherits="emea_lob"
-    Title="Bank of America | Careers | Global Careers | Europe | Lines of Business" %>
+    Title="Bank of America | Careers | Locations |Europe | Lines of Business" %>
 
 <asp:Content ID="Image" ContentPlaceHolderID="Image" runat="Server">
     <img src="images/global-careers-emea_II.jpg" width="578" height="166" alt="Explore a career with the Bank of Opportunity."
@@ -25,8 +25,8 @@
                     lending, and this is done through a variety of techniques to make the right decision.</p>
                     
                     <p>
-                        <a href="emea_europe_card_services.aspx" class="p" onblur="this.className='p';" onfocus="this.className='p-over';">Learn more about Europe Card Services</a><br />
-                        <a href="emea_europe_card_services_teams.aspx" class="p" onblur="this.className='p';" onfocus="this.className='p-over';">Learn about Europe Card Services departments</a> 
+                        <a href="emea_europe_card_services.aspx" class="ritnavlinks" onblur="this.className='ritnavlinks';" onfocus="this.className='ritnavlinks-over';" title='Learn more about Europe Card Services'>Learn more about Europe Card Services</a><br />
+                        <a href="emea_europe_card_services_teams.aspx" class="ritnavlinks" onblur="this.className='ritnavlinks';" onfocus="this.className='ritnavlinks-over';" title='Learn about Europe Card Services departments'>Learn about Europe Card Services departments</a> 
 
                     </p>
   <h2>Global Corporate &amp; Investment Banking</h2> 
@@ -50,15 +50,15 @@
 <h2>Global Markets</h2><P>The Bank of America Merrill Lynch Global Markets group is a premier provider of sales, trading, structuring and advisory services to money managers, hedge funds, pension funds, endowments, financial institutions, governments and corporations around the world.</P>
 <P>The business has a major presence in the Americas, Europe, the Middle East, Africa and the Pacific Rim, serving clients in virtually all countries in these regions.</P>
 <P>Leveraging the company&#8217;s local relationships and broad global capabilities, Bank of America Merrill Lynch provides clients with ideas and market insights, trading services, analytics and new products across a broad spectrum of asset classes - ranging from interest rate and credit products, foreign exchange, real estate and commodities to cash equities and equity-linked - all with the goal of enabling clients to maximise their performance.</li>
-<h2> Research</h2><P>BofA Merrill Lynch Global Research expertise is at the core of the value proposition offered to clients. It is an integral component of the product offerings in the company&#8217;s Global Markets &amp; Investment Banking and Global Wealth Management Client groups. BofA Merrill Lynch Global Research achieves research excellence through the quality of its staff, the breadth and depth of its global resources, and its product commitment.</li>
+<h2>Global Research</h2><P>Bank of America Merrill Lynch Global Research expertise is at the core of the value proposition offered to clients. It is an integral component of the product offerings in the company&#8217;s Global Markets &amp; Investment Banking and Global Wealth Management Client groups. Bank of America Merrill Lynch Global Research achieves research excellence through the quality of its staff, the breadth and depth of its global resources, and its product commitment.</li>
 <P>The company&#8217;s research analysts provides insightful, objective and decisive research that is designed to enable clients to make informed investment decisions.</P>
             </td>
         </tr>
     </table><br />
    
-<a title="Global Technology" href="http://careers.bankofamerica.com/technology/" class="p" onblur="this.className='p';" onfocus="this.className='p-over';">Global Technology</a><br />
+<a title="Global Technology" href="technology/" class="ritnavlinks" onblur="this.className='ritnavlinks';" onfocus="this.className='ritnavlinks-over';" title="Global Technology">Global Technology</a><br />
 
-<a title="Corporate Staff & Support" href="http://careers.bankofamerica.com/learnmore/lobcss.asp" class="p" onblur="this.className='p';" onfocus="this.className='p-over';">Corporate Staff & Support</a>
+<a title="Corporate Staff & Support" href="learnmore/lobcss.asp" class="ritnavlinks" onblur="this.className='ritnavlinks';" onfocus="this.className='ritnavlinks-over';" title="Corporate Staff & Support">Corporate Staff & Support</a>
 
 </asp:Content>
 

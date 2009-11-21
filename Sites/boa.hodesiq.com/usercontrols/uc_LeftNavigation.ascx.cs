@@ -68,8 +68,8 @@ public partial class uc_LeftNavigation : System.Web.UI.UserControl
             string title = dr["title"].ToString();
 
             string aref = "<a href=" + href + " class=" + CLASSFLYOUT +
-                           @"onfocus=" + ONFOCUSFLYOUT + "onblur=" + ONBLURFLYOUT +
-                           @">" + title + "</a>";
+                           @"onfocus=" + ONFOCUSFLYOUT + "onblur=" + ONBLURFLYOUT + " title='" + Utility.StripHTML(title) +
+                           @"'>" + title + "</a>";
 
             if (CurrentOrder == CurrentPageOrder)
             {
@@ -117,8 +117,8 @@ public partial class uc_LeftNavigation : System.Web.UI.UserControl
                 string title = dr["title"].ToString();
                 string aref = "<a href=" + href + " class=" + CLASS +
                              @"onfocus=" + ONFOCUS +
-                           @" onblur=" + ONBLUR +
-                           @">" + title + " </a>";
+                           @" onblur=" + ONBLUR + " title='" + Utility.StripHTML(title) +
+                           @"'>" + title + " </a>";
 
                 HTML = HTML + "<li>" + InnerDIV + aref + "</div></li>";
             }
@@ -144,7 +144,7 @@ public partial class uc_LeftNavigation : System.Web.UI.UserControl
             string InnerDIV = "<div style=\"padding-left: 15px;\">";
             string title = dr["title"].ToString();
             string aref = "<a href=" + href + " class=" + CLASS +
-                        @"onfocus=" + ONFOCUS + " onblur=" + ONBLUR + ">" + title +
+                        @"onfocus=" + ONFOCUS + " onblur=" + ONBLUR + " title='" + Utility.StripHTML(title) + "'>" + title +
                         @"</a>";
 
             if (NextPageOrder == "0" && CurrentOrder == CurrentPageOrder)
@@ -183,7 +183,7 @@ public partial class uc_LeftNavigation : System.Web.UI.UserControl
             string InnerDIV = "<div style=\"padding-left: 20px;\">";
             string title = dr["title"].ToString();
             string aref = "<a href=" + href + " class=" + CLASS +
-                        @"onfocus=" + ONFOCUS + " onblur=" + ONBLUR + ">" + title +
+                        @"onfocus=" + ONFOCUS + " onblur=" + ONBLUR + " title='" + Utility.StripHTML(title) + "'>" + title +
                         @"</a>";
 
             if (NextPageOrder == "0" && CurrentOrder == CurrentPageOrder)
@@ -221,7 +221,7 @@ public partial class uc_LeftNavigation : System.Web.UI.UserControl
             string InnerDIV = "<div style=\"padding-left: 40px;\">";
             string title = dr["title"].ToString();
             string aref = "<a href=" + href + " class=" + CLASS +
-              @"onfocus=" + ONFOCUS + " onblur=" + ONBLUR + ">" + title +
+              @"onfocus=" + ONFOCUS + " onblur=" + ONBLUR + "title=" + title + ">" + title +
               @"</a>";
 
 

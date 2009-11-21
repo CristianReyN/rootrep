@@ -20,8 +20,8 @@
                                         </tr></td></table>
                                        <table width="190" border="0" align="center" cellpadding="0" cellspacing="0" summary="Guided Job Search">							
      
-                                <tr align="center">
-							            <td  valign="top"  style="width:193px; height:45;" align="center">
+                                <tr align="left">
+							            <td  valign="top"  style="width:193px; height:45;" align="left">
     							
 								        <asp:Label ID="lblCountry" runat="server" Text="Country" AssociatedControlID="State"></asp:Label><br />
 								        <asp:DropDownList ID="Country" runat="server" CssClass="center" Style="width: 100%; z-index: auto;"
@@ -105,14 +105,24 @@
 										<td width="10">&nbsp;</td>
 										<td align="left" valign="top"><asp:HyperLink runat="server" ID="lnkJobCart" NavigateUrl="~/jobcart.aspx" Text="View job cart" CssClass="p" ToolTip="View job cart" Visible="false" /></td>
 									</tr>
-								</table>												
+																			
 							</td>
 						</tr>
-						<tr><td colspan="2">&nbsp;</td></tr>
+						</table>
+						<tr id="TrUsJobs1" runat="server">
+						<td>
+						    </br><a href="../overview/manage_your_profile.asp" target="_blank" class="p" onblur="this.className='p';" onfocus="this.className='p-over';"  title="Manage your profile">Manage Your Profile</a>
+						</td>
+						</tr>
+						<tr id="TrUsJobs2" runat="server" valign="top">
+						<td>Create or update your existing candidate profile.<br /><br />
+						</td></tr>																	
+						<tr id="TrUsJobs3" runat="server" valign="bottom">
+						<td height="26" align="left" valign="bottom" style="background-image: url(images/dotted.gif);
+                                    background-position: left top; background-repeat: repeat-x;">                      
+						</br>Bank of America associates should access the <a href="http://www.bankofamerica.com/careers/index.cfm?template=jobs_interstitial" id="A1" title="Internal Jobs Database" class="p" onblur="this.className='p';" onfocus="this.className='p-over';">internal jobs database.</a></td>
+						</tr>
 					</table>
-					<br />
-					<asp:Panel ID="PnlUSJobsContent" runat="server">					
-					<a href="../overview/manage_your_profile.asp" target="_blank" class="p" onblur="this.className='p';" onfocus="this.className='p-over';" >Manage Your Profile</a><BR/><br />
+						
 					
-					Bank of America associates should access the <a href="http://www.bankofamerica.com/careers/index.cfm?template=jobs_interstitial" id="ctl00_cphmain_lnkInternal" title="Internal Jobs Database" class="p" onblur="this.className='p';" onfocus="this.className='p-over';">internal jobs database</a><br /><br />					
-					</asp:Panel></td></tr></table>
+					

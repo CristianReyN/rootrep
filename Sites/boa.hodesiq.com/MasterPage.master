@@ -244,9 +244,11 @@ create_safebutton("Search","javascript: submit_search();",0,0,0,0,"Search");
                             </td>
                             <td width="205" valign="top" style="height: 100%">
                                 <table width="203" height="250" border="0" cellpadding="0" cellspacing="0" summary="">                             
+                                
                                     <tr>
-                                        <td align="left" valign="top" style="width: 209px">
-                                            <asp:ContentPlaceHolder ID="Career" runat="server">
+                                        <td align="left" valign="top" style="width: 209px">                                            
+                                            <asp:ContentPlaceHolder ID="Career" runat="server">                                           
+                                               
                                              <uc2:Search ID="Search1" runat="server" />
                                             </asp:ContentPlaceHolder>
                                         </td>
@@ -316,7 +318,7 @@ create_safebutton("Search","javascript: submit_search();",0,0,0,0,"Search");
                                 target="_blank" title="Equal Housing Lender. Link opens a new window."><img src="http://careers.bankofamerica.com/images/house.gif"
                                     width="14" height="9" hspace="3" alt="Equal Housing Lender. Link opens a new window."
                                     border="0"></a><br>
-                        &copy; 2009 Bank of America Corporation. All rights reserved.</div>
+                        &copy; 2010 Bank of America Corporation. All rights reserved.</div>
                     <br>
                 </td>
  

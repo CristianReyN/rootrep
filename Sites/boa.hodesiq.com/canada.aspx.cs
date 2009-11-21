@@ -15,7 +15,7 @@ public partial class canada : System.Web.UI.Page
     {
         Session["tonlyLabel"] = "Global Careers Canada, Text Only Version";
         Session["href"] = "../ada/canada.aspx";
-        Page.Title = "Bank of America | Careers | Global Careers | Canada";
+        Page.Title = "Bank of America | Careers | Locations |Canada";
 		
 		Session["Ntonly"] = "";
 

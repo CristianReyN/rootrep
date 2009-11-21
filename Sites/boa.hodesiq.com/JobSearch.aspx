@@ -1,8 +1,11 @@
   <%@ Page AutoEventWireup="true" CodeFile="JobSearch.aspx.cs" Inherits="JobSearch"
       Language="C#" MasterPageFile="~/BOAmaster.master" Title="Job Search Page" %>
 
-<asp:Content ID="Content1" runat="Server" ContentPlaceHolderID="cphmain">
-	<h1 style="margin: 0px 0px 0px 12px; ">Guided Job Search</h1>
+<asp:Content ID="Content1" runat="Server" ContentPlaceHolderID="cphmain">   
+	<h1 style="margin: 0px 0px 0px 12px; ">Guided Job Search</h1>	
+        <p><span class='auraltext'>
+         After you select a country from the country field, the page will refresh. For the United States, you can then pick a state.  After you select a state from the 'State" field, the page will refresh.  You will then be able to select a city from the 'City' field.  For all other countries, after you select a country other than the United States from the country field, the page will refresh and you can then select a city from the 'City' field.
+        </span></p>
         <table border="0" cellpadding="0" cellspacing="0" summary=""
             width="578">
             <tr valign="top">

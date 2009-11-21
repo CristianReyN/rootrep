@@ -15,7 +15,7 @@ public partial class canada_culture : System.Web.UI.Page
     {
         Session["tonlyLabel"] = "Global Careers Canada Culture, Text Only Version";
         Session["href"] = "../ada/canada_culture.aspx";
-        Page.Title = "Bank of America | Careers | Global Careers | Canada | Culture";
+        Page.Title = "Bank of America | Careers | Locations |Canada | Culture";
 		
 		
 		Session["Ntonly"] = "";
