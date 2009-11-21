@@ -41,7 +41,7 @@ Our work environment draws on the strength of every associate to build an atmosp
 <img src="../images/clear.gif" width="100%" height="1" vspace="0" alt="" border="0" style="background: #c9c9c9; margin: 12px 0px 0px 0px;"><br clear="all">
 <img src="../images/clear.gif" width="100%" height="1" vspace="1" alt="" border="0" style="background: #989898;"><br clear="all">
 <map name="divinc">
-<area title="Diversity &amp; Inclusion. It&acute;s the foundation of who we are. View the Global Diversity &amp; Inclusion video &gt;" alt="Diversity &amp; Inclusion. It&acute;s the foundation of who we are. View the Global Diversity &amp; Inclusion video &gt;" coords="0,0,180,149" href="">
+<area title="Diversity &amp; Inclusion. It&acute;s the foundation of who we are. View the Global Diversity &amp; Inclusion video &gt;" alt="Diversity &amp; Inclusion. It&acute;s the foundation of who we are. View the Global Diversity &amp; Inclusion video &gt;" coords="0,0,180,149" href="diversity_inclusion_video.asp">
 </map>
 </div>
 

@@ -47,14 +47,10 @@ function preload_add()
 	<td valign="top">
 		<% If page_section = "ADA" Then %>
 		<a name="t1"></a>
-		<table width="100%" cellpadding="0" cellspacing="0" border="0" style="margin-top: 12px;" summary="">
+		<table width="100%" cellpadding="0" cellspacing="0" border="0" style="margin-top: 0px;" summary="">
 			<tr>
 				<td valign="top">
-					<H3 class="hidden">How to Apply in U.S.</H3><img src="../images/camp/t1a.gif" border="0" alt="How to Apply in U.S." /></td>
-				<td valign="top">
-					<a href="#t2" title="How to Apply in EMEA"><img src="../images/camp/t2.gif" border="0" alt="How to Apply in EMEA" /></a></td>
-				<td valign="top">
-					<a href="#t3" title="How to Apply in Asia"><img src="../images/camp/t3.gif" border="0" alt="How to Apply in Asia" /></a></td>
+					<img src="../images/camp/tlt.gif" border="0" alt="" /></td>
 				<td width="100%" background="../images/camp/trtb.gif" valign="top" align="right">
 					<img src="../images/camp/trt.gif" border="0" alt="" /></td>
 			</tr>
@@ -82,12 +78,24 @@ function preload_add()
 				<td background="../images/camp/tl.gif" valign="top">
 					<img src="../images/camp/tl.gif" width="6" height="10" border="0" alt="" /></td>
 				<td width="100%" valign="top">
+		<% If page_section <> "ADA" Then %><H2 class="hidden">How to Apply U.S.</H2>
+		<% ElseIf page_section = "ADA" Then %>
+		<table width="100%" cellpadding="0" cellspacing="0" border="0" summary="" style="margin: 18px 0px -12px 0px;">
+		<tr>
+			<td valign="bottom" nowrap><H2 class="bach" style="margin: 0px 12px 0px 12px;">How to Apply in U.S.</H2></td>
+			<td valign="bottom">
+				<H2 class="bac" style="margin: 0px 12px 0px 12px;"><a href="#t2" title="How to Apply in EMEA" class="bacb">How to Apply in EMEA</a></H2>
+				<H2 class="bac" style="margin: 6px 12px 0px 12px;"><a href="#t3" title="How to Apply in Asia" class="bacb">How to Apply in Asia</a></H2>
+			</td>
+		</tr>
+		</table>
+		<% End If %>
 <div id="dt1" style="display: <% If tab = 1 Or page_section = "ADA" Then %>inline<% Else %>none<% End If %>;">
 	<div class="innerTab">
 		<p class="bac">In order to be considered a candidate for an opportunity at Bank of America, you must apply via this web site. To submit your profile, first sign in as a new or returning user.  If you don't have an existing account, you'll need to register as a new user.  Then, complete your Candidate Profile and designate your program(s) of interest.  Please note that in order for your application to be considered complete, you must reach the final "Thank You" page.</p>
 		<br><br>
 		<span class='auraltext'>
-			<h2 style="margin: 0px 0px 0px 12px; ">Important information on applying for positions</h2>
+			<h3 style="margin: 0px 0px 0px 12px; ">Important information on applying for positions</h3>
 				Apply Now. You are encouraged to complete this online application, however if you have difficulty, you should:
 				<li />Email your resume to <a href="mailto:bac@resume.bankofamerica.com">bac@resume.bankofamerica.com</a>
 				<li />In the Subject Line of your email, include "Source = Bank of America Careers" and the specific position title found at the top of the job posting.
@@ -114,14 +122,10 @@ function preload_add()
 <tr>
 	<td valign="top">
 		<a name="t2"></a>
-		<table width="100%" cellpadding="0" cellspacing="0" border="0" style="margin-top: 12px;" summary="">
+		<table width="100%" cellpadding="0" cellspacing="0" border="0" style="margin-top: 0px;" summary="">
 			<tr>
 				<td valign="top">
-					<a href="#t1" title="How to Apply in U.S."><img src="../images/camp/t1.gif" border="0" alt="How to Apply in U.S." /></a></td>
-				<td valign="top">
-					<H3 class="hidden">How to Apply in EMEA</H3><img src="../images/camp/t2a.gif" border="0" alt="How to Apply in EMEA" /></td>
-				<td valign="top">
-					<a href="#t3" title="How to Apply in Asia"><img src="../images/camp/t3.gif" border="0" alt="How to Apply in Asia" /></a></td>
+					<img src="../images/camp/tlt.gif" border="0" alt="" /></td>
 				<td width="100%" background="../images/camp/trtb.gif" valign="top" align="right">
 					<img src="../images/camp/trt.gif" border="0" alt="" /></td>
 			</tr>
@@ -135,6 +139,18 @@ function preload_add()
 				<td background="../images/camp/tl.gif" valign="top">
 					<img src="../images/camp/tl.gif" width="6" height="10" border="0" alt="" /></td>
 				<td width="100%" valign="top">
+		<% End If %>
+		<% If page_section <> "ADA" Then %><H2 class="hidden">How to Apply in EMEA</H2>
+		<% ElseIf page_section = "ADA" Then %>
+		<table width="100%" cellpadding="0" cellspacing="0" border="0" summary="" style="margin: 18px 0px -12px 0px;">
+		<tr>
+			<td valign="bottom" nowrap><H2 class="bach" style="margin: 0px 12px 0px 12px;">How to Apply in EMEA</H2></td>
+			<td valign="bottom">
+				<H2 class="bac" style="margin: 0px 12px 0px 12px;"><a href="#t1" title="How to Apply in U.S." class="bacb">How to Apply in U.S.</a></H2>
+				<H2 class="bac" style="margin: 6px 12px 0px 12px;"><a href="#t3" title="How to Apply in Asia" class="bacb">How to Apply in Asia</a></H2>
+			</td>
+		</tr>
+		</table>
 		<% End If %>
 <div id="dt2" style="display: <% If tab = 2 Or page_section = "ADA" Then %>inline<% Else %>none<% End If %>;">
 	<div class="innerTab">
@@ -168,14 +184,10 @@ function preload_add()
 <tr>
 	<td valign="top">
 		<a name="t3"></a>
-		<table width="100%" cellpadding="0" cellspacing="0" border="0" style="margin-top: 12px;" summary="">
+		<table width="100%" cellpadding="0" cellspacing="0" border="0" style="margin-top: 0px;" summary="">
 			<tr>
 				<td valign="top">
-					<a href="#t1" title="How to Apply in U.S."><img src="../images/camp/t1.gif" border="0" alt="How to Apply in U.S." /></a></td>
-				<td valign="top">
-					<a href="#t2" title="How to Apply in EMEA"><img src="../images/camp/t2.gif" border="0" alt="How to Apply in EMEA" /></a></td>
-				<td valign="top">
-					<H3 class="hidden">How to Apply in Asia</H3><img src="../images/camp/t3a.gif" border="0" alt="How to Apply in Asia" /></td>
+					<img src="../images/camp/tlt.gif" border="0" alt="" /></td>
 				<td width="100%" background="../images/camp/trtb.gif" valign="top" align="right">
 					<img src="../images/camp/trt.gif" border="0" alt="" /></td>
 			</tr>
@@ -189,6 +201,18 @@ function preload_add()
 				<td background="../images/camp/tl.gif" valign="top">
 					<img src="../images/camp/tl.gif" width="6" height="10" border="0" alt="" /></td>
 				<td width="100%" valign="top">
+		<% End If %>
+		<% If page_section <> "ADA" Then %><H2 class="hidden">How to Apply in Asia</H2>
+		<% ElseIf page_section = "ADA" Then %>
+		<table width="100%" cellpadding="0" cellspacing="0" border="0" summary="" style="margin: 18px 0px -12px 0px;">
+		<tr>
+			<td valign="bottom" nowrap><H2 class="bach" style="margin: 0px 12px 0px 12px;">How to Apply in Asia</H2></td>
+			<td valign="bottom">
+				<H2 class="bac" style="margin: 0px 12px 0px 12px;"><a href="#t1" title="How to Apply in U.S." class="bacb">How to Apply in U.S.</a></H2>
+				<H2 class="bac" style="margin: 6px 12px 0px 12px;"><a href="#t2" title="How to Apply in EMEA" class="bacb">How to Apply in EMEA</a></H2>
+			</td>
+		</tr>
+		</table>
 		<% End If %>
 <div id="dt3" style="display: <% If tab = 3 Or page_section = "ADA" Then %>inline<% Else %>none<% End If %>;">
 	<div class="innerTab">

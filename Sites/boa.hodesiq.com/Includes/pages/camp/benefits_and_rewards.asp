@@ -30,14 +30,10 @@ tabs[tab-1].coremetrics = true;
 	<td valign="top">
 		<% If page_section = "ADA" Then %>
 		<a name="t1"></a>
-		<table width="100%" cellpadding="0" cellspacing="0" border="0" style="margin-top: 12px;" summary="">
+		<table width="100%" cellpadding="0" cellspacing="0" border="0" style="margin-top: 0px;" summary="">
 			<tr>
 				<td valign="top">
-					<H2 class="hidden">Benefits and Rewards U.S.</H2><img src="../images/camp/t1a.gif" border="0" alt="Benefits and Rewards U.S." /></td>
-				<td valign="top">
-					<a href="#t2" title="Benefits and Rewards EMEA"><img src="../images/camp/t2.gif" border="0" alt="Benefits and Rewards EMEA" /></a></td>
-				<td valign="top">
-					<a href="#t3" title="Benefits and Rewards Asia"><img src="../images/camp/t3.gif" border="0" alt="Benefits and Rewards Asia" /></a></td>
+					<img src="../images/camp/tlt.gif" border="0" alt="" /></td>
 				<td width="100%" background="../images/camp/trtb.gif" valign="top" align="right">
 					<img src="../images/camp/trt.gif" border="0" alt="" /></td>
 			</tr>
@@ -64,7 +60,21 @@ tabs[tab-1].coremetrics = true;
 			<tr>
 				<td background="../images/camp/tl.gif" valign="top">
 					<img src="../images/camp/tl.gif" width="6" height="10" border="0" alt="" /></td>
-				<td width="100%" valign="top"><% If page_section <> "ADA" Then %><H2 class="hidden">Benefits and Rewards U.S.</H2><% End If %>
+				<td width="100%" valign="top">
+		<% If page_section <> "ADA" Then %><H2 class="hidden">Benefits and Rewards U.S.</H2>
+		<% ElseIf page_section = "ADA" Then %>
+		<table width="100%" cellpadding="0" cellspacing="0" border="0" summary="" style="margin: 18px 0px -12px 0px;">
+		<tr>
+			<td valign="top" nowrap><H2 class="bach" style="margin: 0px 12px 0px 12px;">Benefits and Rewards U.S.</H2></td>
+		</tr>
+		<tr>
+			<td valign="top" align="right">
+				<H2 class="bac" style="margin: 6px 12px 0px 12px;"><a href="#t2" title="Benefits and Rewards EMEA" class="bacb">Benefits and Rewards EMEA</a></H2>
+				<H2 class="bac" style="margin: 0px 12px 0px 12px;"><a href="#t3" title="Benefits and Rewards Asia" class="bacb">Benefits and Rewards Asia</a></H2>
+			</td>
+		</tr>
+		</table>
+		<% End If %>
 <div id="dt1" style="display: <% If tab = 1 Or page_section = "ADA" Then %>inline<% Else %>none<% End If %>;">
 	<div class="innerTab">
 		<p class="bac">Our comprehensive package includes<span style="font-size: 0.6em; position: relative; top: -0.6em;"><a href="#footnote1" title="Footnote 1 " class="p">&nbsp;1&nbsp;</a></span></span>:</p>
@@ -123,14 +133,10 @@ tabs[tab-1].coremetrics = true;
 <tr>
 	<td valign="top">
 		<a name="t2"></a>
-		<table width="100%" cellpadding="0" cellspacing="0" border="0" style="margin-top: 12px;" summary="">
+		<table width="100%" cellpadding="0" cellspacing="0" border="0" style="margin-top: 0px;" summary="">
 			<tr>
 				<td valign="top">
-					<a href="#t1" title="Benefits and Rewards U.S."><img src="../images/camp/t1.gif" border="0" alt="Benefits and Rewards U.S." /></a></td>
-				<td valign="top">
-					<H2 class="hidden">Benefits and Rewards EMEA</H2><img src="../images/camp/t2a.gif" border="0" alt="Benefits and Rewards EMEA" /></td>
-				<td valign="top">
-					<a href="#t3" title="Benefits and Rewards Asia"><img src="../images/camp/t3.gif" border="0" alt="Benefits and Rewards Asia" /></a></td>
+					<img src="../images/camp/tlt.gif" border="0" alt="" /></td>
 				<td width="100%" background="../images/camp/trtb.gif" valign="top" align="right">
 					<img src="../images/camp/trt.gif" border="0" alt="" /></td>
 			</tr>
@@ -144,7 +150,21 @@ tabs[tab-1].coremetrics = true;
 				<td background="../images/camp/tl.gif" valign="top">
 					<img src="../images/camp/tl.gif" width="6" height="10" border="0" alt="" /></td>
 				<td width="100%" valign="top">
-		<% Else %><H2 class="hidden">Benefits and Rewards EMEA</H2><% End If %>
+		<% End If %>
+		<% If page_section <> "ADA" Then %><H2 class="hidden">Benefits and Rewards EMEA</H2>
+		<% ElseIf page_section = "ADA" Then %>
+		<table width="100%" cellpadding="0" cellspacing="0" border="0" summary="" style="margin: 18px 0px -12px 0px;">
+		<tr>
+			<td valign="top" nowrap><H2 class="bach" style="margin: 0px 12px 0px 12px;">Benefits and Rewards EMEA</H2></td>
+		</tr>
+		<tr>
+			<td valign="top" align="right">
+				<H2 class="bac" style="margin: 6px 12px 0px 12px;"><a href="#t1" title="Benefits and Rewards U.S." class="bacb">Benefits and Rewards U.S.</a></H2>
+				<H2 class="bac" style="margin: 0px 12px 0px 12px;"><a href="#t3" title="Benefits and Rewards Asia" class="bacb">Benefits and Rewards Asia</a></H2>
+			</td>
+		</tr>
+		</table>
+		<% End If %>
 <div id="dt2" style="display: <% If tab = 2 Or page_section = "ADA" Then %>inline<% Else %>none<% End If %>;">
 	<div class="innerTab">
 		<p class="bac">Bank of America offers an award winning competitive benefits package to its associates which, we believe, is one of the best in the financial services industry.</p>
@@ -231,14 +251,10 @@ tabs[tab-1].coremetrics = true;
 <tr>
 	<td valign="top">
 		<a name="t3"></a>
-		<table width="100%" cellpadding="0" cellspacing="0" border="0" style="margin-top: 12px;" summary="">
+		<table width="100%" cellpadding="0" cellspacing="0" border="0" style="margin-top: 0px;" summary="">
 			<tr>
 				<td valign="top">
-					<a href="#t1" title="Benefits and Rewards U.S."><img src="../images/camp/t1.gif" border="0" alt="Benefits and Rewards U.S." /></a></td>
-				<td valign="top">
-					<a href="#t2" title="Benefits and Rewards EMEA"><img src="../images/camp/t2.gif" border="0" alt="Benefits and Rewards EMEA" /></a></td>
-				<td valign="top">
-					<H2 class="hidden">Benefits and Rewards Asia</H2><img src="../images/camp/t3a.gif" border="0" alt="Benefits and Rewards Asia" /></td>
+					<img src="../images/camp/tlt.gif" border="0" alt="" /></td>
 				<td width="100%" background="../images/camp/trtb.gif" valign="top" align="right">
 					<img src="../images/camp/trt.gif" border="0" alt="" /></td>
 			</tr>
@@ -252,7 +268,21 @@ tabs[tab-1].coremetrics = true;
 				<td background="../images/camp/tl.gif" valign="top">
 					<img src="../images/camp/tl.gif" width="6" height="10" border="0" alt="" /></td>
 				<td width="100%" valign="top">
-		<% Else %><H2 class="hidden">Benefits and Rewards Asia</H2><% End If %>
+		<% End If %>
+		<% If page_section <> "ADA" Then %><H2 class="hidden">Benefits and Rewards Asia</H2>
+		<% ElseIf page_section = "ADA" Then %>
+		<table width="100%" cellpadding="0" cellspacing="0" border="0" summary="" style="margin: 18px 0px -12px 0px;">
+		<tr>
+			<td valign="top" nowrap><H2 class="bach" style="margin: 0px 12px 0px 12px;">Benefits and Rewards Asia</H2></td>
+		</tr>
+		<tr>
+			<td valign="top" align="right">
+				<H2 class="bac" style="margin: 6px 12px 0px 12px;"><a href="#t1" title="Benefits and Rewards U.S." class="bacb">Benefits and Rewards U.S.</a></H2>
+				<H2 class="bac" style="margin: 0px 12px 0px 12px;"><a href="#t2" title="Benefits and Rewards EMEA" class="bacb">Benefits and Rewards EMEA</a></H2>
+			</td>
+		</tr>
+		</table>
+		<% End If %>
 <div id="dt3" style="display: <% If tab = 3 Or page_section = "ADA" Then %>inline<% Else %>none<% End If %>;">
 	<div class="innerTab">
 		<H3 class="bac" style="margin-top: 6px;">Benefits</H3>
