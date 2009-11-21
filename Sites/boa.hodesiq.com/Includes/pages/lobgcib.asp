@@ -100,6 +100,14 @@ Bank&nbsp;of&nbsp;America serves 160,000 clients through offices located in 23 c
 
 </div>
 <br><br>
+
+<H2 class="h2" style="margin: 12px <%=right_margin%>px 2px <%=left_margin_0%>px;">Hot Job Postings</H2>
+<table cellpadding="2" cellspacing="0" border="0" summary="" style="margin-left: <%=left_margin_0%>px;">
+<% 
+familyid=14
+rowcount=6
+%>
+<!--#include file="../../hot_jobs.asp"-->
 				</td>
 			</tr>
 			<tr valign="top"><td valign="top" class="divb"><img src="../images/clear.gif" width="100%" height="4" alt="" border="0"></td></tr>

@@ -20,7 +20,6 @@
 	<option value="up_dpa.asp"<% If fpage = "up_dpa" Then %> disabled<% End If %>>Corporate Debt Products Analyst</option>
 	<option value="up_grmap.asp"<% If fpage = "up_grmap" Then %> disabled<% End If %>>Global Risk Management Associate Program</option>
 	<option value="up_gwimcr.asp"<% If fpage = "up_gwimcr" Then %> disabled<% End If %>>Global Wealth and Investment Management Compliance Risk</option>
-	<option value="up_mrap.asp"<% If fpage = "up_mrap" Then %> disabled<% End If %>>Markets Risk Associate Program</option>
 	<option value="up_qmap.asp"<% If fpage = "up_qmap" Then %> disabled<% End If %>>Quantitative Management Associate Program</option>
 	<option value="up_ca.asp"<% If fpage = "up_ca" Then %> disabled<% End If %>>Corporate Audit</option>
 	<option value="up_cs.asp"<% If fpage = "up_cs" Then %> disabled<% End If %>>Corporate Security</option>
@@ -43,7 +42,7 @@
 	<option value="http://www.bofa.com/careers">Treasury Management Associate Program</option>
 	<option value="http://www.bofa.com/careers">Public Finance Analyst</option>
 	<option value="http://www.bofa.com/careers">Sales & Trading Analyst</option>
-	<option value="http://www.bofa.com/careers">Treasury Services Analyst</option>
+	<option value="http://corp.bankofamerica.com/public/public.portal?_pd_page_label=career/home/default">Credit Management Development Program</option>
 </optgroup>
 <optgroup label="EMEA and Asia">
 	<option value="http://www.bofa.com/careers">Investment Banking Analyst</option>
@@ -146,21 +145,14 @@ function none(){}
 	<option value="ip_sf.asp"<% If fpage = "ip_sf" Then %> disabled<% End If %>>Operations MBA Internship</option>
 	<option value="ip_tmba.asp"<% If fpage = "ip_tmba" Then %> disabled<% End If %>>Technology MBA Intern</option>
 </optgroup>
-
 <optgroup label="Global Risk">
 	<option value="ip_ca.asp"<% If fpage = "ip_ca" Then %> disabled<% End If %>>Corporate Audit Intern</option>
 	<option value="ip_cs.asp"<% If fpage = "ip_cs" Then %> disabled<% End If %>>Corporate Security Intern</option>
 	<option value="ip_dpa.asp"<% If fpage = "ip_dpa" Then %> disabled<% End If %>>Corporate Debt Products Analyst Intern</option>
 	<option value="ip_grmap.asp"<% If fpage = "ip_grmap" Then %> disabled<% End If %>>Global Risk Management Associate Program Intern</option>
-	<option value="ip_mr.asp"<% If fpage = "ip_mr" Then %> disabled<% End If %>>Markets Risk Intern</option>
 	<option value="ip_dpsa.asp"<% If fpage = "ip_dpsa" Then %> disabled<% End If %>>Corporate Debt Products Associate Intern</option>
 </optgroup>
 
-<!--
-<optgroup label="Corporate Investments Group">
-	<option value="ip_ci.asp"<% If fpage = "ip_ci" Then %> disabled<% End If %>>Corporate Investments Intern</option>
-</optgroup>
--->
 <optgroup label="Corporate Treasury">
 	<option value="ip_ct.asp"<% If fpage = "ip_ct" Then %> disabled<% End If %>>Corporate Treasury Intern</option>
 </optgroup>
@@ -202,6 +194,7 @@ function none(){}
 	<option value="http://www.bofa.com/careers">Research Summer BA Analyst (Undergraduate program)</option>
 	<option value="http://www.bofa.com/careers">Sales & Trading Summer BA Analyst  (Undergraduate  program)</option>
 	<option value="http://www.bofa.com/careers">Treasury Services Summer BA Analyst (Undergraduate  program)</option>
+	<option value="http://corp.bankofamerica.com/public/public.portal?_pd_page_label=career/home/default">Credit Management Development Summer BA Analyst (Undergraduate program)</option>
 </optgroup>
 
 <optgroup label="Global Corporate Investment Banking Summer Associate">
