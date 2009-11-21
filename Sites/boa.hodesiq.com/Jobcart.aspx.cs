@@ -113,7 +113,7 @@ public partial class Jobcart : System.Web.UI.Page
 
             MyLabel = (Label)e.Row.FindControl("lblCheckBox");
             MyLabel.ID = "lblCheckBox" + e.Row.RowIndex;
-            MyLabel.Text = "<script>" + DrvRow["JobTitle"].ToString() + ".</script>" + "<span class='auraltext'>" + DrvRow["JobTitle"].ToString() + ".</span>";
+            MyLabel.Text = "<span class='auraltext'>" + DrvRow["JobTitle"].ToString() + "</span>"; //"<script>" + DrvRow["JobTitle"].ToString() + "</script>" + 
             MyLabel.AssociatedControlID = "ChkRemove" + e.Row.RowIndex;
 
             MyCheckBox = (CheckBox)e.Row.FindControl("ChkRemove");

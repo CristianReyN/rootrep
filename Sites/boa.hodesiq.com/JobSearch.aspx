@@ -130,22 +130,23 @@
         </tr>
         </table>
 		<table border="0" cellpadding="0" cellspacing="0" summary="" width="100%">
-		<tr><td colspan="2">&nbsp;</td></tr>
+		<tr><td colspan="3">&nbsp;</td></tr>
         <tr valign="top">
             <td valign="top" align="right" style="width: 50%;">&nbsp;
             <div id="divPrev" runat="server" style="display:none">
 				<asp:PlaceHolder runat="server" ID="phPrevious"></asp:PlaceHolder>
 			</div>
 			</td>
+			<td style="width: 15px;">&nbsp;</td>
 			<td valign="top" align="left" style="width: 50%;">&nbsp;
 			<div id="divNext" runat="server" style="display:none">
 				<asp:PlaceHolder runat="server" ID="phNext"></asp:PlaceHolder>
              </div>
              </td>
          </tr>
-		<tr><td colspan="2">&nbsp;</td></tr>
+		<tr><td colspan="3">&nbsp;</td></tr>
          <tr>
-			<td colspan="2" align="center" valign="top">
+			<td colspan="3" align="center" valign="top">
 				<br /><asp:Label ID="LblPageOfPages" runat="server"></asp:Label>    
 			</td>
          </tr>

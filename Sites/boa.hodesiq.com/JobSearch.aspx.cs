@@ -29,9 +29,21 @@ public partial class JobSearch : System.Web.UI.Page
 	private int RecPerPage = 12;
 	protected void Page_Load(object sender, EventArgs e)
 	{
-        this.ddlState.Attributes.Add("onblur", "javascript:setTimeout('__doPostBack(\\'" + this.ddlState.ClientID.Replace("_", "$") + "\\',\\'\\')', 0)"); 
+         
+        //write the boa buttons
+        boanet_safebutton.writeBOASafeButton("Search", phSearch, "Search", bsearch_Click, this.Request);
+        boanet_safebutton.writeBOASafeButton("Previous", phPrevious, "Previous", LnkPrvs_Click, this.Request);
+        boanet_safebutton.writeBOASafeButton("Next", phNext, "Next", LnkNxt_Click, this.Request);
+
+        //
+        lnkAdvanceSearch.Attributes.Add("onblur", "this.className='p';");
+        lnkAdvanceSearch.Attributes.Add("onfocus", "this.className='p-over';");
+
+        lnkJobCart.Attributes.Add("onblur", "this.className='p';");
+        lnkJobCart.Attributes.Add("onfocus", "this.className='p-over';");
 
 		ViewState["statequery"] = string.Empty;
+
         if (!this.IsPostBack)
         {
             PopulateLocations();
@@ -47,26 +59,16 @@ public partial class JobSearch : System.Web.UI.Page
                 ViewState["PageNumber"] = 1;
                 FunSearch();
             }
+            PopulateJobAreas();
         }
-
-        PopulateJobAreas();
-
-		//write the boa buttons
-		boanet_safebutton.writeBOASafeButton("Search", phSearch, "Search", bsearch_Click, this.Request);
-		boanet_safebutton.writeBOASafeButton("Previous", phPrevious, "Previous", LnkPrvs_Click, this.Request);
-		boanet_safebutton.writeBOASafeButton("Next", phNext, "Next", LnkNxt_Click, this.Request);
-
-		//
-		lnkAdvanceSearch.Attributes.Add("onblur", "this.className='p';");
-		lnkAdvanceSearch.Attributes.Add("onfocus", "this.className='p-over';");
-
-		lnkJobCart.Attributes.Add("onblur", "this.className='p';");
-		lnkJobCart.Attributes.Add("onfocus", "this.className='p-over';");
-
-        if (this.IsPostBack)
+        else
         {
+            PopulateJobAreas();
             this.ddlCity.Focus();
         }
+
+        this.ddlState.Attributes.Add("onblur", "javascript:setTimeout('__doPostBack(\\'" + this.ddlState.ClientID.Replace("_", "$") + "\\',\\'\\')', 0)");
+
 	}
 
 	protected void Page_PreRender()

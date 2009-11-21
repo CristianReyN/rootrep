@@ -1,4 +1,4 @@
-<%@ Page AutoEventWireup="true" CodeFile="Jobcart.aspx.cs" Inherits="Jobcart" Language="C#"
+<%@ Page AutoEventWireup="true" CodeFile="Jobcart.aspx.cs" Inherits="Jobcart" Language="C#" 
     MasterPageFile="~/BOAmaster.master" Title="Jobcart Page" %>
 
 <asp:Content ID="Content1" runat="Server" ContentPlaceHolderID="cphmain">
@@ -52,7 +52,7 @@
                                     
                                     <asp:TemplateField HeaderText="Remove" ItemStyle-HorizontalAlign="Center" >
                                         <ItemTemplate>
-                                            <asp:Label ID="lblCheckBox" Text="" AssociatedControlID="ChkRemove" runat="server" ></asp:Label> 
+                                            <asp:Label ID="lblCheckBox" AssociatedControlID="ChkRemove" runat="server" /> 
                                             <asp:CheckBox ID="ChkRemove"  runat="server" />
                                         </ItemTemplate>
                                     </asp:TemplateField>
