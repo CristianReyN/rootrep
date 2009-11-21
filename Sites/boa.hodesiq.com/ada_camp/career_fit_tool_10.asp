@@ -19,19 +19,20 @@ flashPage = false
 	
 	from_request = FALSE
 	fp = Request.QueryString("p")
+	'remember points'fpp = session.Contents("fit_program_points")
+	'remember points'Dim fit_program_points
 	if fp <> "" Then
 		fit_programs = Split(fp,":")
-		if UBound(fit_programs) = 3 Then
+		'remember points'If Not IsEmpty(fpp) Then fit_program_points = Split(fpp,":")
+		if UBound(fit_programs) = 5 Then
 			from_request = TRUE
 			session.Contents("fit_programs") = fp
+			'remember points'session.Contents("fit_program_points") = fpp
 		Else
 			session.Contents.Remove("fit_programs")
+			'remember points'session.Contents.Remove("fit_program_points")
 		End If
 	End If
-	
-'response.write "isArray fit_programs: " & isArray(fit_programs) & "<br>"
-'response.write "UBound fit_programs: " & UBound(fit_programs) & "<br>"
-'response.write "from_request: " & from_request & "<br>"
 %>
 <!-- #include file="../includes/pages/camp/career_fit_tool_function.asp" -->
 <%
