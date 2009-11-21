@@ -228,7 +228,7 @@ return;
 		<img src="images/clear.gif" width="1" height="19" alt="" border="0" />
 		<div class="ftrtxt2">Bank of America, N.A. Member FDIC.
 		<a href="http://www.bankofamerica.com/help/equalhousing_popup.cfm" onclick="javascript:window.open('http://www.bankofamerica.com/help/equalhousing_popup.cfm','newwin','width=640,height=371,scrollbars=yes,resizable=yes,left=35,top=161'); return false;" target="_blank" class="ftrlnk" onfocus="this.className='ftrlnk-over';" onblur="this.className='ftrlnk';" title="Equal Housing Lender. Links opens a new window.">Equal Housing Lender</a><a href="http://www.bankofamerica.com/help/equalhousing_popup.cfm" onclick="javascript:window.open('http://www.bankofamerica.com/help/equalhousing_popup.cfm','newwin','width=640,height=371,scrollbars=yes,resizable=yes,left=35,top=161'); return false;" target="_blank" title="Equal Housing Lender. Links opens a new window."><img src="images/house.gif" width="14" height="9" hspace="3" alt="Equal Housing Lender. Links opens a new window." border="0" /></a><br />
-		&copy; 2008 Bank of America Corporation. All rights reserved.</div><br /></td>
+		&copy; 2009 Bank of America Corporation. All rights reserved.</div><br /></td>
 		<td align="right" width="131"><a href="http://www.bankofamerica.com/sponsorships/" title="Official Sponsor 2004-2008 U.S. Olympic Teams"><img src="images/foot_olympic.gif" alt="Official Sponsor 2004-2008 U.S. Olympic Teams" width="66" height="45" border="0" align="right" vspace="7" /></a></td>
 	</tr>
 </table>
@@ -251,8 +251,8 @@ function startKeybordNav()
 		document.getElementById("aroftalent").onkeydown=setNextTabAotPopup;
 	if(document.getElementById("administration"))
 		document.getElementById("administration").onkeydown=setNextTabAotShift;
-	if(document.getElementById("consumerbanking"))
-		document.getElementById("consumerbanking").onkeydown=setNextTabAotPopupQuit;
+	if(document.getElementById("lobtech"))
+		document.getElementById("lobtech").onkeydown=setNextTabAotPopupQuit;
 		
 	if(document.getElementById("lob"))
 		document.getElementById("lob").onkeydown=setNextTablobPopup;
@@ -418,6 +418,8 @@ function popAoT(show)
 			<tr valign="top"><td style="background: #7F99B2;"><img src="images/clear.gif" width="154" height="1" alt="" border="0" /></td></tr>
 			<tr valign="top"><td style="background: #cadceb; padding: 5px 6px 5px 14px;"><a href="/hr/" class="sbtxt" title="Human Resources" onfocus="this.className='sbtxt-over';tdiv(false);" onblur="this.className='sbtxt';tdiv(true);">Human Resources</a></td></tr>
 			<tr valign="top"><td style="background: #7F99B2;"><img src="images/clear.gif" width="154" height="1" alt="" border="0" /></td></tr>
+			<tr valign="top"><td style="background: #cadceb; padding: 5px 6px 5px 14px;"><a href="/mortgagecareers/" class="sbtxt" title="Mortgage" onfocus="this.className='sbtxt-over';tdiv(false);" onblur="this.className='sbtxt';tdiv(true);">Mortgage</a></td></tr>
+			<tr valign="top"><td style="background: #7F99B2;"><img src="images/clear.gif" width="154" height="1" alt="" border="0" /></td></tr>
 			<tr valign="top"><td style="background: #cadceb; padding: 5px 6px 5px 14px;"><a href="/operations/" class="sbtxt" title="Operations" onfocus="this.className='sbtxt-over';tdiv(false);" onblur="this.className='sbtxt';tdiv(true);">Operations</a></td></tr>
 			<tr valign="top"><td style="background: #7F99B2;"><img src="images/clear.gif" width="154" height="1" alt="" border="0" /></td></tr>
 			<tr valign="top"><td style="background: #cadceb; padding: 5px 6px 5px 14px;"><a href="/riskevaluation/" class="sbtxt" title="Risk" onfocus="this.className='sbtxt-over';tdiv(false);" onblur="this.className='sbtxt';tdiv(true);">Risk Management</a></td></tr>
@@ -512,6 +514,8 @@ function poplob(show)
 			<tr valign="top"><td style="background: #cadceb; padding: 5px 6px 5px 14px;"><a href="/technology/" class="sbtxt" title="Global Technology" onfocus="this.className='sbtxt-over';tdiv(false);" onblur="this.className='sbtxt';tdiv(true);">Global Technology</a></td></tr>
 			<tr valign="top"><td style="background: #7F99B2;"><img src="images/clear.gif" width="154" height="1" alt="" border="0" /></td></tr>
 			<tr valign="top"><td style="background: #cadceb; padding: 5px 6px 5px 14px;"><a href="learnmore/lobcss.asp" class="sbtxt" title="Corporate Staff &amp; Support" onfocus="this.className='sbtxt-over';tdiv(false);" onblur="this.className='sbtxt';tdiv(true);">Corporate Staff &amp; Support</a></td></tr>
+			<tr valign="top"><td style="background: #7F99B2;"><img src="images/clear.gif" width="154" height="1" alt="" border="0" /></td></tr>
+			<tr valign="top"><td style="background: #cadceb; padding: 5px 6px 5px 14px;"><a href="/mortgage/" class="sbtxt" title="Mortgage" onfocus="this.className='sbtxt-over';tdiv(false);" onblur="this.className='sbtxt';tdiv(true);">Mortgage</a></td></tr>
 			<tr valign="top"><td style="background: #7F99B2;"><img src="images/clear.gif" width="154" height="1" alt="" border="0" /></td></tr>
 			<tr valign="top"><td style="background: #cadceb; padding: 5px 6px 5px 14px;"><a href="learnmore/lb_career_compass.asp" id="skillsassessment" class="sbtxt" title="Skills Assessment" onfocus="this.className='sbtxt-over';tdiv(false);" onblur="this.className='sbtxt';tdiv(true);">Skills Assessment</a></td></tr>
 </table>
