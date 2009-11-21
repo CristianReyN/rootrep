@@ -789,6 +789,45 @@
 		</career>
 	</careerlist>	
 </group>		
+
+
+<group>
+	<name>Card Services</name>
+	<careerlist>	
+		<career>
+			<name>Card Services Analyst - EMEA</name>
+			<link>emeafn-card-services-analyst.asp</link>
+			<answerlist>
+				<answer weight="1">1</answer>
+				<answer weight="200">6</answer>
+				<answer weight="75">9</answer>
+				<answer weight="1">13</answer>			
+				<answer weight="5">14</answer>
+				<answer weight="5">15</answer>			
+				<answer weight="5">16</answer>				
+				<answer weight="5">19</answer>				
+				<answer weight="5">22</answer>						
+				<answer weight="5">23</answer>						
+				<answer weight="5">25</answer>
+				<answer weight="5">29</answer>
+				<answer weight="5">30</answer>
+				<answer weight="100">40</answer>
+				<answer weight="5">43</answer>				
+				<answer weight="5">49</answer>
+				<answer weight="1">56</answer>				
+				<answer weight="1">57</answer>
+				<answer weight="1">65</answer>					
+				
+			</answerlist>
+		</career>
+
+
+</group>
+
+
+
+
+
 <group>
 	<name>Global Banking and Global Wealth Investment Management</name>
 	<careerlist>	
