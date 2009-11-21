@@ -279,7 +279,7 @@ public partial class JobSearch : System.Web.UI.Page
     }
     protected void btnAdvanceSearch_Click(object sender, EventArgs e)
     {
-        Response.Redirect("AdvanceSearchTest.aspx");
+        Response.Redirect("AdvanceSearch.aspx");
     }
 
 
