@@ -143,10 +143,6 @@ function tdiv(tf)
 	</td>
 	<td width="12"><img src="images/clear.gif" width="12" height="1" alt="" border="0"/></td>
 	<td valign="top" width="578" height="100%">
-						
-						
-						
-
 <!-- Body-->
                             <a id="skipmaincontent"></a>
                             <img alt="" height="4" src="images/clear.gif" width="15" /><br />
@@ -156,11 +152,15 @@ function tdiv(tf)
                                     <td class="divt" valign="top">
                                         <img alt="" height="4" src="images/clear.gif" width="100%" /></td>
                                 </tr>
+                                <tr valign="top">
+									<td width="100%" valign="top">
+										<form runat="server" id="frm" style="margin:0px;">
+										<asp:ContentPlaceHolder ID="cphmain" runat="server">
+										</asp:ContentPlaceHolder>
+										</form>
+									</td>
+                                </tr>
                             </table>
-                            <form runat="server" id="frm" style="margin:0px;">
-                            <asp:ContentPlaceHolder ID="cphmain" runat="server">
-                            </asp:ContentPlaceHolder>
-                            </form>
                             <br />
                             <br />
 <!-- Body-->

@@ -2,14 +2,13 @@
     MasterPageFile="~/BOAmaster.master" Title="Jobcart Page" %>
 
 <asp:Content ID="Content1" runat="Server" ContentPlaceHolderID="cphmain">
+	<h1 style="margin: 0px 0px 0px 12px; ">Manage Your Job Cart</h1>
     <table border="0" cellpadding="0" cellspacing="0" summary="" width="100%">
         <tr valign="top">
             <td style="padding: 6px 12px 0px 12px; height: 100%" valign="top">
                 <table cellpadding="0" cellspacing="0" style="width: 100%" summary="">
                     <tr>
                         <td style="padding: 3px 0px 0px 0px; width: 70%" valign="top">
-                            <h1 style="margin: 3px 0px 0px 0px; ">
-                                Manage Your Job Cart</h1>
                         </td>
                         <td align="right" valign="top">
                             <asp:HyperLink ID="SearchReturn" runat="server" CssClass="sblnk" ToolTip="Return to search" NavigateUrl="JobSearch.aspx">Return to search</asp:HyperLink>
