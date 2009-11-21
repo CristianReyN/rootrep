@@ -1,4 +1,6 @@
-<% Response.Buffer=True 
+<% 
+Response.Redirect("http://globalcareers.hodesinteractive.com/")
+Response.Buffer=True 
 Dim title, mpage, spage, ada_href, ada_title, job_search_action, Metatag%>
 <!-- #include file="../includes/breadcrumb.asp" -->
 <% title = breadcrumb & "Global Locations"

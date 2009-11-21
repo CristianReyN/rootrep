@@ -75,8 +75,8 @@ tabs[<%=tab%>-1].coremetrics = true;
 		<h2 class="bac">Other opportunities, such as:</h2>
 		<ul class="bac">
 			<li>Volunteer time &mdash; Full-time associates receive up to 2 paid hours per week including travel time to volunteer at a local organization, including schools, shelters, food banks and mentoring programs</li>
-			<li>Matching gifts program-Bank of America will match associate contributions to qualifying nonprofit organizations up to a specified amount each calendar year</li>
-			<li>Volunteer grants-An unrestricted grant is made to any qualifying nonprofit organization for which an associate has committed substantial volunteer hours within a calendar year</li>
+			<li>Matching gifts program &mdash; Bank of America will match associate contributions to qualifying nonprofit organizations up to a specified amount each calendar year</li>
+			<li>Volunteer grants &mdash; An unrestricted grant is made to any qualifying nonprofit organization for which an associate has committed substantial volunteer hours within a calendar year</li>
 			<li>Commuter benefits</li>
 		</ul>
 		<br>

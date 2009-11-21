@@ -39,7 +39,7 @@
 <div style="width: 201px; text-align: center; margin: 0px; padding: 0px;">
 <!-- #include file="../talkingatm.html" -->
 </div>
-<% If spage = "lobgto" Then %>
+<% If spage = "lobgto" Or spage = "technology" Then %>
 <div style="width: 201px; text-align: center; margin: 0px; padding: 0px;">
 <%
 	link = "../cashservices_video/"
