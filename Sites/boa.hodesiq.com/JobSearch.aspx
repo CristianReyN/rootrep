@@ -3,7 +3,7 @@
 
 <asp:Content ID="Content1" Runat="Server" ContentPlaceHolderID="cphmain">
 <div id="nojob" style="display:none" runat="server"><asp:Literal runat="server" ID="nojobtext" /></div>
-<h1 style="margin: 0px 0px 0px 12px; ">Guided Job Search</h1>
+<h1 style="margin: 0px 0px 0px 12px; ">USA Guided Job Search</h1>
     <table summary="" border="0" cellpadding="0" cellspacing="0" width="578">
         <tr valign="top">
             <td style="padding: 6px 12px 0px 12px; height: 100%" valign="top">
@@ -15,6 +15,8 @@
                             <noscript>After you select your state from the Location field, click on the link 'Select Cities'. The page will refresh. You will then be able to select your city from the 'City' field.</noscript> 
                             <br /><br />
                             Bank of America associates should access the <a href="http://www.bankofamerica.com/careers/index.cfm?template=jobs_interstitial" id="ctl00_cphmain_lnkInternal" title="Internal Jobs Database" class="p" onblur="this.className='p';" onfocus="this.className='p-over';">internal jobs database</a>.
+                            <br /><br />
+                            Please use the <a href="http://globalcareers.bankofamerica.com" id="ctl00_cphmain_lnkExternal" title="Global Jobs Database" class="p" onblur="this.className='p';" onfocus="this.className='p-over';">Global Careers Job Search</a> to find opportunities outside of the USA. 
                         </td>
                     </tr>
 					<tr>
