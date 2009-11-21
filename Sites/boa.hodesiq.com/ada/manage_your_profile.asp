@@ -1,7 +1,7 @@
 <% Response.Buffer=True 
 Dim title, mpage, spage, ada_href, ada_title, job_search_action,page_section, Metatag%>
 <!-- #include file="../includes/breadcrumb.asp" -->
-<% title = breadcrumb & "Manage your Careers Profile Account"
+<% title = breadcrumb & "Bank of America Career Search Tool under Maintenance"
 mpage = "manage_your_profile"
 spage = ""
 standart_href = "../overview/manage_your_profile.asp"
@@ -33,6 +33,7 @@ If taleo_upgrade Then
 <img src="../images/clear.gif" width="15" height="4" alt="" border="0"><br>
 <%
 Else
+title = breadcrumb & "Manage your Careers Profile Account"
 %><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html lang="en">
 <head>
@@ -40,6 +41,7 @@ Else
 <meta name="Description" content="<%=Metatag%>">
 <%If Keywords <> "" Then %><meta name="Keywords" content="<%=Keywords%>"><%End If %>
 <title><%=title %></title>
+<link rel="stylesheet" href="../includes/styles.css" type="text/css">
 </head>
 <body style="margin: 0px; color: #000000; background-color: #ffffff;">
 <%
