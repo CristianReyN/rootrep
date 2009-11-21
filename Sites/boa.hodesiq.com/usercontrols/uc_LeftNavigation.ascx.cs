@@ -20,7 +20,7 @@ public partial class uc_LeftNavigation : System.Web.UI.UserControl
 
     string HTML = "";
     string[] arrLevel;
-    string constring = @"file name=D:\data\db\devrrao.udl";
+    string constring = @"file name=D:\data\db\boa.udl";
     string SelectedBackgroundColor = " style=\"background: #eaf1f7;\" ";
 
 
