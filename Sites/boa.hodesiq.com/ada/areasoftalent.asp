@@ -3,6 +3,7 @@ Dim title, mpage, spage, ada_href, ada_title, job_search_action,page_section, Me
 title = "Bank of America | Career | Job Areas"
 mpage = "areasoftalent"
 spage = ""
+standart_href = "../areasoftalent/areasoftalent.asp"
 job_search_action = "../jobsearch/searchresult.asp"
 Metatag="There are ten areas of talent that Bank of America has grouped their job families to.  Each of these areas of talent are grouped to help a reader understand where they may fit in with the organization. Ten areas of talent include: administration, customer care, communications, finance, human resources, operations, risk evaluation, sales, technology and consumer banking. You can click from this page to go to individuals pages that list hot job opportunities, associate testimonials, links to specific job family positions."
 page_self = "../ada/areasoftalent.asp"

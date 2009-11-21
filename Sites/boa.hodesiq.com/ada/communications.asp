@@ -3,6 +3,7 @@ Dim title, mpage, spage, ada_href, ada_title, job_search_action,page_section, Me
 title = "Bank of America | Career | Communications"
 mpage = "areasoftalent"
 spage = "communications"
+standart_href = "../communications/default.asp"
 job_search_action = "../jobsearch/searchresult.asp"
 Metatag="Communications is one area of talent for careers at Bank of America. From this page you can listen to an associate, see hot job opportunities, and click to positions in communications and marketing."
 page_self = "../ada/communications.asp"

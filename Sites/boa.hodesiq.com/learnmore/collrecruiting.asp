@@ -15,10 +15,6 @@ Metatag="Page designed for student recruiting. Links available on the page: unde
 <!-- Left Nav -->
 <!-- #include file="../includes/lnav.asp" -->
 <!-- Left Nav -->
-
-			<tr valign="top"><td height="30" style="background: #cadceb;" valign="bottom" align="right">
-<a href="<%=ada_href %>" title="<%=ada_title %>" class="g" onfocus="this.className='g-over';" onblur="this.className='g';"><%=textonly_version%></a>&nbsp;&nbsp;
-			</td></tr>
 			<tr valign="top"><td height="50"><img src="../images/clear.gif" width="154" height="1" alt="" border="0"></td></tr>
 			<tr valign="top"><td height="50"><img src="../images/clear.gif" width="154" height="1" alt="" border="0"></td></tr>
 		</table>

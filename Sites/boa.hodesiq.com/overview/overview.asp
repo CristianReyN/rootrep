@@ -10,8 +10,9 @@ job_search_action = "../jobsearch/searchresult.asp"
 page_section=""
 Dim flashPage
 flashPage = true
-hide_flash_title = "Stop Audio"
-Metatag="Main page of the careers site. From this page you can listen to a virtual host who gives a quick tour to point in the direction of either engaging information, job search information or more in-depth information about employment with Bank of America. From this page you can job search to find if there is an opportunity available. You can click to more links about benefits, diversity, corporate information, college information, global locations and to Investment Banking Careers."
+hide_flash_title = "Stop Video Host Audio"
+hide_flash_title2 = "Stop  We Are Bankers Audio"
+Metatag="Main page of the careers site. From this page you can listen to a video host who gives a quick tour to point in the direction of either engaging information, job search information or more in-depth information about employment with Bank of America. From this page you can job search to find if there is an opportunity available. You can click to more links about benefits, diversity, corporate information, college information, global locations and to Investment Banking Careers."
 playflash = Request.Cookies("PFOT")
 If playflash = "" Then
 	Response.Cookies("PFOT") = "1"
@@ -28,7 +29,7 @@ If playflash = "1" Then flashPage = false
 <div id="flash1" style="position: absolute;">
 <table width="160" cellpadding="0" cellspacing="0" border="0" summary="">
 <tr><td align="right" style="padding: 0px 9px 6px 6px;"><br>
-<% If playflash="" Then %><a href="<%=ada_href %>" id="videotranscript" title="Virtual Host Video Transcript" class="g" onfocus="this.className='g-over';" onblur="this.className='g';" style="line-height: 1.1em;">Video Host Transcripts</a><% Else %><a href="<%=ada_href %>" id="videotranscript" title="<%=ada_title %>" class="g" onfocus="this.className='g-over';" onblur="this.className='g';" style="line-height: 1.1em;"><%=textonly_version%></a><% End If %></td></tr></table>
+<% If playflash="" Then %><a href="<%=ada_href %>" id="videotranscript" title="Video Transcripts" class="g" onfocus="this.className='g-over';" onblur="this.className='g';" style="line-height: 1.1em;">Video Transcripts</a><% Else %><a href="<%=ada_href %>" id="videotranscript" title="<%=ada_title %>" class="g" onfocus="this.className='g-over';" onblur="this.className='g';" style="line-height: 1.1em;"><%=textonly_version%></a><% End If %></td></tr></table>
 <script language="JavaScript1.2" type="text/javascript">
 //<!--
 requiredMajorVersion = 8;
@@ -46,7 +47,7 @@ if ( hasRequestedVersion ) {
 	<% If playflash <> "1" Then %>
    document.write(hiddenFlash);
    <%  Else %>
-   document.write('<table width="160" height="60" cellpadding="0" cellspacing="0" border="0" summary="" style="background: #ebebeb; border-top: 1px solid #dadada; border-bottom: 1px solid #dadada;"><tr><td style="padding: 5px 11px 5px 12px;"><div style="border: 1px solid #dadada;"><img src="../images/piper.jpg" width="52" height="52" alt="Replay Virtual Host" border="0" style="border: 1px solid #ebebeb;"></div></td><td width="100%"><a href="Javascript: replayVirtualHost();" title="Replay Virtual Host" class="p" onfocus="this.className=\'p-over\';" onblur="this.className=\'p\';">Replay<br>Virtual Host</a></td></tr></table>');
+   document.write('<table width="160" height="60" cellpadding="0" cellspacing="0" border="0" summary="" style="background: #ebebeb; border-top: 1px solid #dadada; border-bottom: 1px solid #dadada;"><tr><td style="padding: 5px 11px 5px 12px;"><div style="border: 1px solid #dadada;"><img src="../images/piper.jpg" width="52" height="52" alt="Replay Video Host" border="0" style="border: 1px solid #ebebeb;"></div></td><td width="100%"><a href="Javascript: replayVirtualHost();" title="Replay Video Host" class="p" onfocus="this.className=\'p-over\';" onblur="this.className=\'p\';">Replay<br>Video Host</a></td></tr></table>');
    <%  End If %>
    document.write('</div>');
 } else {
@@ -76,6 +77,7 @@ if ( hasRequestedVersion ) {
 	<td valign="top" width="578" height="100%">
 <!-- Body-->
 <img src="../images/clear.gif" width="15" height="4" alt="" border="0"><br>
+<H1 style="display: none;">Career Overview</H1>
 <!-- #include file="../includes/pages/overview.asp" -->
 <!-- Body-->
 	</td>

@@ -3,6 +3,7 @@ Dim title, mpage, spage, ada_href, ada_title, job_search_action,page_section, Me
 title = "Bank of America | Career | Diversity"
 mpage = "learnmore"
 spage = "diversity"
+standart_href = "../learnmore/diversity.asp"
 job_search_action = "../jobsearch/searchresult.asp"
 Metatag="Page is in reference to the importance of diversity at Bank of America and highlights diversity organizations that are within the organization. The option to do a job search is also present on this page."
 page_self = "../ada/diversity.asp"

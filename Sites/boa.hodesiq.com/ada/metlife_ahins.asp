@@ -3,6 +3,7 @@ Dim title, mpage, spage, ada_href, ada_title, job_search_action,page_section, Me
 title = "Bank of America | Career | MetLife Auto & Home Insurance Program"
 mpage = "learnmore"
 spage = "benefitsadv"
+standart_href = "../learnmore/metlife_ahins.asp"
 job_search_action = "../jobsearch/searchresult.asp"
 Metatag="Page is specific to information on the MetLife Auto & Home Insurance Program."
 page_self = "../ada/metlife_ahins.asp"

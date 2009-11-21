@@ -3,8 +3,9 @@ Dim title, mpage, spage, ada_href, ada_title, job_search_action,page_section, Me
 title = "Bank of America | Career | Overview"
 mpage = "overview"
 spage = ""
+standart_href = "../overview/overview.asp"
 job_search_action = "../jobsearch/searchresult.asp"
-Metatag="Main page of the careers site. From this page you can listen to a virtual host who gives a quick tour to point in the direction of either engaging information, job search information or more in-depth information about employment with Bank of America. From this page you can job search to find if there is an opportunity available. You can click to more links about benefits, diversity, corporate information, college information, global locations and to Investment Banking Careers."
+Metatag="Main page of the careers site. From this page you can listen to a video host who gives a quick tour to point in the direction of either engaging information, job search information or more in-depth information about employment with Bank of America. From this page you can job search to find if there is an opportunity available. You can click to more links about benefits, diversity, corporate information, college information, global locations and to Investment Banking Careers."
 page_self = "../ada/overview.asp" 
 page_section="ADA"
 Dim flashPage
@@ -17,8 +18,9 @@ flashPage = false
 <!-- #include file="lnav.asp" -->
 <!-- Left Nav -->
 			<tr valign="top"><td height="50" valign="bottom" style="background: #cadceb;">
+<H1 style="display: none;">Career Overview</H1>
 <a name="vht"></a>
-<p style="margin: 12px 12px 0px 13px;"><span class="left2" style="color: #D40019;">Virtual Host (Video Transcript)</span></p>
+<H2 class="h1" style="margin: 12px 12px 0px 13px;">Video Host<br><span>Transcript</span></H2>
 <p class="s" style="margin: 12px 12px 12px 13px;">
 Welcome to Bank of America.  Our global corporation offers talented and motivated individuals the opportunity to excel in many different areas.</p>
 

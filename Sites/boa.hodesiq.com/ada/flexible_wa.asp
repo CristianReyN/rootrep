@@ -3,6 +3,7 @@ Dim title, mpage, spage, ada_href, ada_title, job_search_action,page_section, Me
 title = "Bank of America | Career | Flexible Work Arrangements"
 mpage = "learnmore"
 spage = "benefitsadv"
+standart_href = "../learnmore/flexible_wa.asp"
 job_search_action = "../jobsearch/searchresult.asp"
 Metatag="Highlight information on the programs offered to associates of Bank of America in regards to flexible work arrangements."
 page_self = "../ada/flexible_wa.asp"

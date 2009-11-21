@@ -3,6 +3,7 @@ Dim title, mpage, spage, ada_href, ada_title, job_search_action,page_section, Me
 title = "Bank of America | Career | Undergraduate/Analyst Programs"
 mpage = "learnmore"
 spage = "collrecruiting"
+standart_href = "../learnmore/undergraduate.asp"
 job_search_action = "../jobsearch/searchresult.asp"
 Metatag="The undergraduate/analyst career programs are for students currently enrolled in college/university and for recent graduates.  Detailed information is available on the page for these types of programs."
 page_self = "../ada/undergraduate.asp"

@@ -48,23 +48,11 @@ function hover(ref, classRef) { eval(ref).className = classRef; }
 //-->
 </script>
 <table cellpadding="0" cellspacing="0" border="0" summary=""><tr><td>
-<a class="auraltext" href="<%=ada_href%>" title="<%=ada_title%>" onfocus="if(document.getElementById('aurallink'))document.getElementById('aurallink').focus();"><%=ada_title%></a>
-<% If flashPage then %>
-<script type="text/javascript">
-<!--
-document.write('<a class="auraltext" id="aurallink" href="JavaScript: if(window.hideFlash) hideFlash();" onFocus="hover(this,\'show-tab\'); this.focus();" onblur="hover(this,\'auraltext\');" title="<%=hide_flash_title%>"><%=hide_flash_title%></a>');
-//-->
-</script>
+<% If flashPage Then %>
+<a class="auraltext" id="stopaudio" href="JavaScript: if(window.hideFlash) hideFlash();" onFocus="hover(this,'show-tab'); this.focus();" onblur="hover(this,'auraltext');" title="<%=hide_flash_title%>"><%=hide_flash_title%></a>
 <% Else %>
-<script type="text/javascript">
-<!--
-document.write('<a class="auraltext" id="aurallink" href="<%=ada_href%>" onFocus="hover(this,\'show-tab\'); this.focus();" onblur="hover(this,\'auraltext\');" title="<%=ada_title%>"><%=ada_title%></a>');
-//-->
-</script>
+<a class="auraltext" id="stopaudio" href="<%=ada_href%>" onFocus="hover(this,'show-tab'); this.focus();" onblur="hover(this,'auraltext');" title="<%=ada_title%>"><%=ada_title%></a>
 <% End If %>
-<noscript>
-<a href="<%=ada_href%>" title="<%=ada_title%>"><%=ada_title%></a>
-</noscript>
 </td></tr></table>
 
 <table width="750" cellpadding="0" cellspacing="0" border="0" summary="">

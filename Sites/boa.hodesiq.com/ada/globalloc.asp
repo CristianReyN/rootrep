@@ -3,6 +3,7 @@ Dim title, mpage, spage, ada_href, ada_title, job_search_action,page_section, Me
 title = "Bank of America | Career | Global Locations"
 mpage = "learnmore"
 spage = "globalloc"
+standart_href = "../learnmore/globalloc.asp"
 job_search_action = "../jobsearch/searchresult.asp"
 Metatag="There are links available on this page to the various sites for careers at Bank of America: Asia, Europe, Middle East and Africa, Latin America, European Opportunties, MBNA European Opportunities."
 page_self = "../ada/globalloc.asp"

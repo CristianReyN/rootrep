@@ -36,6 +36,10 @@
 
 			<tr valign="top" style="background: #ffffff;"><td><img src="../images/white.gif" width="154" height="1" alt="" border="0"></td></tr>
 
+			<tr valign="top"><td style="background: <% if mpage = "fags" then Response.Write "#eaf1f7" Else Response.Write "#cadceb" end if %>; padding: 0px 6px 0px 6px;"><a class="g" href="../faq/faq.asp" title="Frequently Asked Questions" onfocus="this.className='g-over';" onblur="this.className='g';">FAQ's</a></td></tr>
+
+			<tr valign="top" style="background: #ffffff;"><td><img src="../images/white.gif" width="154" height="1" alt="" border="0"></td></tr>
+
 <%
 	Function AreasOfTalentNav(color)
 %>
@@ -71,9 +75,7 @@
 			<tr valign="top"><td style="background: <% Response.Write color %>;"><img src="../images/clear.gif" width="154" height="1" alt="" border="0"></td></tr>
 			<tr valign="top" style="background: #cadceb;" ><td style="background: <% if spage = "collrecruiting" then Response.Write "#eaf1f7" Else Response.Write "#cadceb" end if %>; padding: 5px 6px 5px 14px;"><a href="../learnmore/collrecruiting.asp" class="sbtxt" title="College Recruiting" onfocus="this.className='sbtxt-over';" onblur="this.className='sbtxt';">College Recruiting</a></td></tr>
 			<tr valign="top"><td style="background: <% Response.Write color %>;"><img src="../images/clear.gif" width="154" height="1" alt="" border="0"></td></tr>
-			<tr valign="top" style="background: #cadceb;" ><td style="background: <% if spage = "globalloc" then Response.Write "#eaf1f7" Else Response.Write "#cadceb" end if %>; padding: 5px 6px 5px 14px;"><a href="../learnmore/globalloc.asp" class="sbtxt" title="Global Locations" onfocus="this.className='sbtxt-over';" onblur="this.className='sbtxt';">Global Locations</a></td></tr>
-			<tr valign="top"><td style="background: <% Response.Write color %>;"><img src="../images/clear.gif" width="154" height="1" alt="" border="0"></td></tr>
-			<tr valign="top" style="background: #cadceb;" ><td style="background: #cadceb; padding: 5px 6px 5px 14px;"><a href="http://corp.bankofamerica.com/public/career/home.jsp" id="investment" class="sbtxt" title="Investment Banking Careers" onfocus="this.className='sbtxt-over';" onblur="this.className='sbtxt';">Investment Banking Careers</a></td></tr>
+			<tr valign="top" style="background: #cadceb;" ><td style="background: <% if spage = "globalloc" then Response.Write "#eaf1f7" Else Response.Write "#cadceb" end if %>; padding: 5px 6px 5px 14px;"><a href="../learnmore/globalloc.asp" id="investment" class="sbtxt" title="Global Locations" onfocus="this.className='sbtxt-over';" onblur="this.className='sbtxt';">Global Locations</a></td></tr>
 <%
 	End Function
 %>
