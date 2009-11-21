@@ -23,6 +23,7 @@ public partial class JobDetails : System.Web.UI.Page
     private string ApplyURL = string.Empty;
     private string strJobID = string.Empty;
     private string JobCartID = "";
+	private string srcvalue = string.Empty;
 
     protected void Page_Load(object sender, EventArgs e)
     {
@@ -55,7 +56,9 @@ public partial class JobDetails : System.Web.UI.Page
 			lblHoursPerWeek.Text = dt.Rows[0]["HrsPerWeek"].ToString();
 			lblQualification.Text = dt.Rows[0]["Qualification"].ToString();
 			//apply process goes trough clients page for hits counting:
-			ApplyURL = dt.Rows[0]["ApplyURL"].ToString() + "&src=" + Request["src"];
+			srcvalue = string.IsNullOrEmpty(Request["src"]) ? string.Empty : Request["src"];
+			ApplyURL = ConfigurationManager.AppSettings["taleoBaseURL"].Replace("{REQNOPLACEHOLDER}", dt.Rows[0]["reqNo"].ToString()) + srcvalue.Replace("-", "%2D"); 
+			//ApplyURL = dt.Rows[0]["ApplyURL"].ToString() + "&src=" + Request["src"];
 			this.hApplyNow.Value = "applyrd.aspx?" + HttpUtility.UrlEncode(ApplyURL);
 
 		}
