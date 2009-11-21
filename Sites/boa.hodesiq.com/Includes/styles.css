@@ -534,6 +534,13 @@ div.btn1 {
 	position: relative;
 }
 
+span.auraltext {
+	font-size: 0px;
+	left: -10000px;
+	top: -10000px;
+	position: absolute;
+}
+
 INPUT.btnlink
 {
 	font-family : Verdana, Helvetica, sans-serif;
