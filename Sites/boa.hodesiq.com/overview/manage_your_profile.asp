@@ -12,7 +12,7 @@ Dim flashPage
 flashPage = false
 Metatag=""
 %>
-<!-- #include file="../includes/taleo_upgrade.asp" -->
+<!-- #include file="../includes/manage_your_profile.asp" -->
 <%
 If taleo_upgrade Then
 %>
@@ -43,7 +43,8 @@ ada_title = breadcrumb & "Manage your Careers Profile Account"
 <title><%=title %></title>
 <link rel="stylesheet" href="../includes/styles.css" type="text/css">
 </head>
-<body style="margin: 0px; color: #000000; background-color: #ffffff;">
+<script language="JavaScript1.2" src="../includes/ps.js" type="text/javascript"></script>
+<body style="margin: 0px; color: #000000; background-color: #ffffff;" onload="startPs();">
 <%
 End If
 %>

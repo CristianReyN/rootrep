@@ -19,7 +19,7 @@ window.open(imnam,"pop","directory=no,height=450,width=500,toolbar=no,scrollbars
 </script>
 </head>
 <body id="body" onload="startPs();">
-<!-- #include file="../includes/taleo_upgrade.asp" -->
+<!-- #include file="../includes/manage_your_profile.asp" -->
 <%
 Dim JOB_SEARCH_TITLE
 JOB_SEARCH_TITLE = "USA Guided Job Search"

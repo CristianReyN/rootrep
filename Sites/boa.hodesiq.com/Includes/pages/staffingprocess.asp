@@ -21,7 +21,8 @@
 	<li>Those candidates who have the experience and skills that best match the role will be selected to continue through the process.</li>
 	<li>Candidates chosen to move forward in the interview process will be notified by a Bank of America associate with next steps.</li>
 	<li>Please note: Some positions may require assessments during the selection process. The recruiter will inform the candidate if this applies to the position he or she is seeking.</li>
-	<li>The interview/screening process varies with each opportunity.  The recruiter will communicate the process and interview timeline for the position.</li>
+	<li>The interview/screening process varies with each opportunity. The recruiter will communicate the process and interview timeline for the position.</li>
+	<li>As part of our process, Bank of America Staffing may send you a link to complete a short online survey for tax credit eligibility. You may also receive this information from our Work Opportunity Tax Credit (WOTC) team. This survey is managed by a third party vendor whom we have authorized to gather this information. The site is a secure site and all information is kept completely confidential. This federal program is an important focus for Bank of America, so we appreciate you taking the time to complete the brief survey. Note that this survey will not impact your taxes in any way. If you have questions about this program, you are encouraged to reach out to the Staffing associate assisting you with your interviews.</li>
 	<li>If an offer is extended, a criminal background check must be initiated for all external hires or rehires prior to start date. You are required to complete an I-9 form prior to the designated start date in order to verify eligibility to work in the United States. Please note: Applicants being hired to support certain lines of business may also be required to complete additional compliance checks prior to the start date (e.g., education and employment verification check, motor vehicle record check, credit check).</li>
 	<li>If a candidate is not selected to continue in the hiring process for a particular job opening, the candidate is encouraged to continue to search the Bank of America career site and continue to apply to other positions that fit his/her background and experience.</li>
 </ol>
@@ -36,7 +37,7 @@
 <div style="border: 1px solid #e8e8e9; margin: 12px 0px 12px 0px; padding: 0px 0px 6px 0px;">
 	<H2 class="g" style="margin: 0px 0px 0px 0px;">Related Information</H2>
 	<img src="../images/clear.gif" width="100%" height="1" alt="" border="0" style="margin: 1px 0px 0px 0px; background: #e8e8e9;" align="top"><br clear="all">
-	<div  style="padding: 0px 5px 0px 4px;">
+	<div style="padding: 0px 5px 0px 4px;">
 <!-- #include file="../relinfonav.asp" -->
 	</div>					
 </div>

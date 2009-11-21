@@ -132,7 +132,7 @@ function tdiv(tf){}
 </script>
 </head>
 <body id="body" onload="startPs(); if(window.loadVideoHost)loadVideoHost(); fixIE(<% If tpage = "career_fit_tool" Then %>false<% Else %>true<% End If %>);" onunload="">
-<!-- #include file="../includes/taleo_upgrade.asp" -->
+<!-- #include file="../includes/manage_your_profile.asp" -->
 <%
 Dim pageId, categoryId
 pageId = "career:" & Replace(page_self, "../", "", 1, -1, 0)
