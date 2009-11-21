@@ -69,11 +69,11 @@
                                                     </tr>
                                                     <tr>
                                                         <td align="right" valign="top">
-                                                            <asp:Button ID="brefine" runat="server" CssClass="bodybtn" TabIndex="6" Text="Refine Search" />
+                                                            <asp:Button ID="brefine" runat="server" CssClass="bodybtn" TabIndex="6" Text="Refine Search" UseSubmitBehavior="true" />
                                                         </td>
                                                         <td align="right" valign="top">
-                                                            <asp:Button ID="bsearch" runat="server" CssClass="bodybtn" PostBackUrl="searchresults.aspx"
-                                                                TabIndex="7" Text="Begin Search" />
+                                                            <asp:Button ID="bsearch" runat="server" CssClass="bodybtn" 
+                                                                TabIndex="7" Text="Begin Search" UseSubmitBehavior="true" />
                                                         </td>
                                                     </tr>
                                                     <tr>
