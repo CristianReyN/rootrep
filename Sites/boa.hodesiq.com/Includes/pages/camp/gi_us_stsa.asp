@@ -5,7 +5,7 @@
 <a name="skipmaincontent"></a><h1 class="bac">Sales and Trading Summer Associate</h1>
 <h2 class="bac">Our Business</h2>
 <p class="bac">
-Bank of America Sales & Trading professionals deliver innovative solutions and exceptional execution to help clients meet their complex financial objectives. We make markets in virtually all major asset classes, covering both the Debt and Equity product spectrums. We are active in both the Cash and Derivative markets. We have a global presence, with offices throughout the United States, Europe and Asia. 
+Bank of America Sales &amp; Trading professionals deliver innovative solutions and exceptional execution to help clients meet their complex financial objectives. We make markets in virtually all major asset classes, covering both the Debt and Equity product spectrums. We are active in both the Cash and Derivative markets. We have a global presence, with offices throughout the United States, Europe and Asia. 
 </p>
 <p class="bac">
 Bank of America uses an integrated approach to ensure our solutions meet client needs. Our functional areas of expertise - Sales, Trading, Research and Capital Markets - work together, creating a unique, team-oriented culture that fuels collaborative thinking.  
@@ -52,7 +52,7 @@ Associates are called on to:
 
 <h2 class="bac">Qualifications</h2>
 <p class="bac">
-While we will train you, certain core skills are needed for Sales & Trading positions.  Candidates require a combination of academic aptitude, quantitative skills, strategic and creative thinking, and strong communication skills.  In addition, candidates who are naturally high-energy, flexible and resilient tend to thrive in the Global Markets environment.  Some common characteristics we look for include assertiveness, attention to detail, team focus, passion for the markets, self-confidence and strong work ethic.
+While we will train you, certain core skills are needed for Sales &amp; Trading positions.  Candidates require a combination of academic aptitude, quantitative skills, strategic and creative thinking, and strong communication skills.  In addition, candidates who are naturally high-energy, flexible and resilient tend to thrive in the Global Markets environment.  Some common characteristics we look for include assertiveness, attention to detail, team focus, passion for the markets, self-confidence and strong work ethic.
 </p>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
@@ -72,7 +72,7 @@ In order to be considered a candidate for this opportunity, you must apply via t
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
 
-<a href="graduate_internships.asp<% If page_section <> "ADA" Then  %><% Else  %>#t1<% End If %>" class="bacb" title="Back to U.S. Graduate Internships">Back to U.S. Graduate Internships »</a>
+<a href="graduate_internships.asp<% If page_section <> "ADA" Then  %><% Else  %>#t1<% End If %>" class="bacb" title="Back to U.S. Graduate Internships">Back to U.S. Graduate Internships  &raquo;</a>
 <br>
 				</td>
 				<td width="205" height="100%" valign="top" style="padding-top: 8px;" align="right">

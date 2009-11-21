@@ -20,7 +20,7 @@
 <% If page_section <> "ADA" Then %>
 					<div align="right" style="float: right; margin: 0px 0px 0px <%=right_margin_split%>px; padding: 0px; width: 259px;">
 <!-- #include file="lob/chen.asp" -->
-<a href="#video" class="hlink">Rich Chen&acute;s Associate Testimonial Video</a>
+<a href="#video" class="hlink">Rich Chen&apos;s Associate Testimonial Video</a>
 <% End If  %>
 <% If spage = "finance" Then %>
 <div style="width: 201px; text-align: left; border: 1px solid #e8e8e9; background: #ffffff; margin: 12px 0px 12px 0px; padding: 0px 0px 6px 0px;">
@@ -57,7 +57,7 @@ Each line of business has its own CFO and a team dedicated to supporting its bus
 	<li>Global Consumer and Small Business Banking (GCSBB)</li>
 	<li>Global Corporate and Investment Banking (GCIB)</li>
 	<li>Global Wealth and Investment Management (GWIM)</li>
-	<li>Corporate Infrastructure (Global Technology & Operations, Staff Support Functions)</li>
+	<li>Corporate Infrastructure (Global Technology &amp; Operations, Staff Support Functions)</li>
 </ul>
 </p>
 <p style="margin: 12px 12px 12px <%=left_margin_0%>px;">
@@ -75,11 +75,11 @@ Corporate Treasury is responsible for interest rate risk analysis, managing the 
 <br><br>
 <b>Corporate Investments</b>
 <br><br>
-Corporate Investments manages the bank's diversified financial portfolio through quantitative analysis and modeling to support management of the company's market and interest rate risk exposure.
+Corporate Investments manages the bank&apos;s diversified financial portfolio through quantitative analysis and modeling to support management of the company&apos;s market and interest rate risk exposure.
 <br><br>
 <b>Investor Relations</b>
 <br><br>
-Investor Relations is the contact for analysts and investors and is responsible for implementing a comprehensive investor relations program designed to improve the company's stock valuation.
+Investor Relations is the contact for analysts and investors and is responsible for implementing a comprehensive investor relations program designed to improve the company&apos;s stock valuation.
 </p>
 <br>
 <H1 style="margin: 0px <%=right_margin%>px 9px <%=left_margin_0%>px; width: <%=(315-right_margin_split-left_margin_0)%>px;">Frequently Asked Questions</H1>

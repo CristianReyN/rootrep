@@ -5,10 +5,10 @@
 <a name="skipmaincontent"></a><h1 class="bac">Operations MBA</h1>
 <h2 class="bac">Our Business</h2>
 <p class="bac">
-The Operations MBA Program gives participants the chance to experience one year rotational assignments in two sub-lines of business within these organizations including but not limited to: Deposits Contact Centers (DCC) and Service & Fulfillment Operations (SFO).
+The Operations MBA Program gives participants the chance to experience one year rotational assignments in two sub-lines of business within these organizations including but not limited to: Deposits Contact Centers (DCC) and Service &amp; Fulfillment Operations (SFO).
 </p>
 <p class="bac">
-	<b>Deposits Contact Centers (DCC)</b> Associates in DCC provide service and financial solutions to more than 179 million phone customers and 5.1 million e-mail customers each year, making our contact centers among the busiest in the country. In addition to our associates servicing our customer's needs, our voice response units (VRU) can answer account inquiries, and in 2005, the VRUs handled more than 568 million phone calls.  
+	<b>Deposits Contact Centers (DCC)</b> Associates in DCC provide service and financial solutions to more than 179 million phone customers and 5.1 million e-mail customers each year, making our contact centers among the busiest in the country. In addition to our associates servicing our customer&apos;s needs, our voice response units (VRU) can answer account inquiries, and in 2005, the VRUs handled more than 568 million phone calls.  
 </p>
 <p class="bac">
 	<b>Service and Fulfillment Operations (SFO)</b> Associates in SFO perform processing services for Bank of America customer households and businesses. These processing services include check processing, statement rendering, cash vault, banking center operations and lockbox services.  Key SFO accomplishments include: 
@@ -74,7 +74,7 @@ In order to be considered a candidate for this opportunity, you must apply via t
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
 
-<a href="graduate_programs.asp<% If page_section <> "ADA" Then  %><% Else  %>#t1<% End If %>" class="bacb" title="Back to U.S. Graduate Programs">Back to U.S. Graduate Programs »</a>
+<a href="graduate_programs.asp<% If page_section <> "ADA" Then  %><% Else  %>#t1<% End If %>" class="bacb" title="Back to U.S. Graduate Programs">Back to U.S. Graduate Programs  &raquo;</a>
 <br>
 				</td>
 				<td width="205" height="100%" valign="top" style="padding-top: 8px;" align="right">

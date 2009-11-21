@@ -5,7 +5,7 @@
 <a name="skipmaincontent"></a><h1 class="bac">Network Computing Group Leader Development Internship Program</h1>
 <h2 class="bac">Our Business</h2>
 <p class="bac">
-The Network Computing Group (NCG) provides continuous operating, computing, and telecommunication services to business partners across Bank of America. This includes mainframe, mid-range and distributed server operations; client server technology; local and wide area network functions; telecommunications; and other critical systems. NCG teams include Infrastructure Engineering, Operations, Enterprise Architecture, Engagement Services, Global Enterprise Access & Desktop Services, International Consulting, Business & Program Management and NCG Vision Transformation.  </p>
+The Network Computing Group (NCG) provides continuous operating, computing, and telecommunication services to business partners across Bank of America. This includes mainframe, mid-range and distributed server operations; client server technology; local and wide area network functions; telecommunications; and other critical systems. NCG teams include Infrastructure Engineering, Operations, Enterprise Architecture, Engagement Services, Global Enterprise Access &amp; Desktop Services, International Consulting, Business &amp; Program Management and NCG Vision Transformation.  </p>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
 
@@ -61,7 +61,7 @@ In order to be considered a candidate for this opportunity, you must apply via t
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
 
-<a href="undergraduate_internships.asp<% If page_section <> "ADA" Then  %><% Else  %>#t1<% End If %>" class="bacb" title="Back to U.S. Undergraduate Internships">Back to U.S. Undergraduate Internships »</a>
+<a href="undergraduate_internships.asp<% If page_section <> "ADA" Then  %><% Else  %>#t1<% End If %>" class="bacb" title="Back to U.S. Undergraduate Internships">Back to U.S. Undergraduate Internships  &raquo;</a>
 <br>
 				</td>
 				<td width="205" height="100%" valign="top" style="padding-top: 8px;" align="right">

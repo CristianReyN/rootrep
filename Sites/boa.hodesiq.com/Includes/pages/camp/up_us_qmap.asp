@@ -15,7 +15,7 @@ The Quantitative Management Associate Program (QMAP) is designed to develop and 
 	<li>Two-year entry-level program spans two rotational assignments focusing on credit, market or operational risk management within different areas of the Bank</li> 
     <li>Gain real, in-depth experience applying quantitative knowledge to specific financial challenges</li>
     <li>Provide a micro view of risk management in a particular business line and a macro view of risk management for the bank as a whole through rotational assignments</li>
-    <li>Rotations include positions within various lines of business, such as Corporate Treasury, Quantitative Finance, Risk & Capital Portfolio Analysis, Capital Markets Risk Management, Enterprise Credit Risk, Global Portfolio Strategies, Anti Money Laundering, Enterprise Information and Analytics, and Consumer & Small Business Risk Management.</li>
+    <li>Rotations include positions within various lines of business, such as Corporate Treasury, Quantitative Finance, Risk &amp; Capital Portfolio Analysis, Capital Markets Risk Management, Enterprise Credit Risk, Global Portfolio Strategies, Anti Money Laundering, Enterprise Information and Analytics, and Consumer &amp; Small Business Risk Management.</li>
 </ul>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
@@ -55,7 +55,7 @@ In order to be considered a candidate for this opportunity, you must apply via t
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
 
-<a href="undergraduate_programs.asp<% If page_section <> "ADA" Then  %><% Else  %>#t1<% End If %>" class="bacb" title="Back to U.S. Undergraduate Programs">Back to U.S. Undergraduate Programs »</a>
+<a href="undergraduate_programs.asp<% If page_section <> "ADA" Then  %><% Else  %>#t1<% End If %>" class="bacb" title="Back to U.S. Undergraduate Programs">Back to U.S. Undergraduate Programs  &raquo;</a>
 <br>
 				</td>
 				<td width="205" height="100%" valign="top" style="padding-top: 8px;" align="right">

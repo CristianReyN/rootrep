@@ -9,7 +9,7 @@ Corporate Audit is responsible for performing independent reviews and tests to e
 </p>
 
 <p class="bac">
-The group regularly provides management and the Board of Directors with a thorough and independent assessment of the Corporation's risk management systems and internal controls. Additionally, Corporate Audit provides risk-based advice and counsel to management to help develop and maintain an appropriate customer-focused risk management culture that supports the Corporation's business objectives.
+The group regularly provides management and the Board of Directors with a thorough and independent assessment of the Corporation&apos;s risk management systems and internal controls. Additionally, Corporate Audit provides risk-based advice and counsel to management to help develop and maintain an appropriate customer-focused risk management culture that supports the Corporation&apos;s business objectives.
 </p>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
@@ -53,7 +53,7 @@ In order to be considered a candidate for this opportunity, you must apply via t
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
 
-<a href="undergraduate_programs.asp<% If page_section <> "ADA" Then  %><% Else  %>#t1<% End If %>" class="bacb" title="Back to U.S. Undergraduate Programs">Back to U.S. Undergraduate Programs »</a>
+<a href="undergraduate_programs.asp<% If page_section <> "ADA" Then  %><% Else  %>#t1<% End If %>" class="bacb" title="Back to U.S. Undergraduate Programs">Back to U.S. Undergraduate Programs  &raquo;</a>
 <br>
 				</td>
 				<td width="205" height="100%" valign="top" style="padding-top: 8px;" align="right">

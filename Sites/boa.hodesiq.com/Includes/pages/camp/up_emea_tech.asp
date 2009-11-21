@@ -13,7 +13,7 @@ The Technology team is divided into three distinct groups, servicing a diverse r
     <li>The International Treasury and Capital Markets Technology group provides development, maintenance and support of software applications supporting the Global Treasury Services (GTS) as well as other financial businesses.</li>
 </ul>
 <p class="bac">
-In all three areas, we use cutting edge technologies to service activities that make Bank Of America one of the world's leading providers of Financial Services.
+In all three areas, we use cutting edge technologies to service activities that make Bank Of America one of the world&apos;s leading providers of Financial Services.
 </p>
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
 
@@ -58,7 +58,7 @@ All applications must be made through this website. Follow this link to the <a h
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
 
-<a href="undergraduate_programs.asp<% If page_section <> "ADA" Then  %>?t=2<% Else  %>#t2<% End If %>" class="bacb" title="Back to EMEA Undergraduate Programs">Back to EMEA Undergraduate Programs »</a>
+<a href="undergraduate_programs.asp<% If page_section <> "ADA" Then  %>?t=2<% Else  %>#t2<% End If %>" class="bacb" title="Back to EMEA Undergraduate Programs">Back to EMEA Undergraduate Programs  &raquo;</a>
 <br>
 				</td>
 				<td width="205" height="100%" valign="top" style="padding-top: 8px;" align="right">

@@ -2,7 +2,7 @@
 		<table width="578" cellpadding="0" cellspacing="0" border="0" summary="">
 			<tr valign="top">
 				<td width="373" height="100%" valign="top" style="<%=middle_content_padding%>">
-<a name="skipmaincontent"></a><h1 class="bac">Global Consumer & Small Business Banking Product Leader Development Program</h1>
+<a name="skipmaincontent"></a><h1 class="bac">Global Consumer &amp; Small Business Banking Product Leader Development Program</h1>
 <h2 class="bac">Our Business</h2>
 
 <p class="bac">
@@ -13,7 +13,7 @@
 
 <h2 class="bac">Overview</h2>
 <p class="bac">
-	The Global Consumer & Small Business Banking Product Leader Development Program develops future senior leaders while engaging them in challenging projects critical to the future of Bank of America. Recent MBA/Masters-level graduates experience two to three rotational assignments (6-8 months each) over 18-24 months.
+	The Global Consumer &amp; Small Business Banking Product Leader Development Program develops future senior leaders while engaging them in challenging projects critical to the future of Bank of America. Recent MBA/Masters-level graduates experience two to three rotational assignments (6-8 months each) over 18-24 months.
 </p>
 <p class="bac">Rotational opportunities include:</p>
 <ul class="bac">
@@ -87,7 +87,7 @@ In order to be considered a candidate for this opportunity, you must apply via t
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
 
-<a href="graduate_programs.asp<% If page_section <> "ADA" Then  %><% Else  %>#t1<% End If %>" class="bacb" title="Back to U.S. Graduate Programs">Back to U.S. Graduate Programs »</a>
+<a href="graduate_programs.asp<% If page_section <> "ADA" Then  %><% Else  %>#t1<% End If %>" class="bacb" title="Back to U.S. Graduate Programs">Back to U.S. Graduate Programs  &raquo;</a>
 <br>
 				</td>
 				<td width="205" height="100%" valign="top" style="padding-top: 8px;" align="right">

@@ -5,26 +5,26 @@
 <a name="skipmaincontent"></a><h1 class="bac">Global Wealth and Investment Management College Internship Program</h1>
 <h2 class="bac">Our Business</h2>
 <p class="bac">
-Global Wealth & Investment Management provides comprehensive banking and investment services tailored to meet the changing wealth-management goals of more than three million individual and institutional customers. Clients have access to services offered through three primary businesses: Premier Banking & InvestmentsTM, U.S. Trust, Bank of America Private Wealth Management, and Columbia Management.
+Global Wealth &amp; Investment Management provides comprehensive banking and investment services tailored to meet the changing wealth-management goals of more than three million individual and institutional customers. Clients have access to services offered through three primary businesses: Premier Banking &amp; InvestmentsTM, U.S. Trust, Bank of America Private Wealth Management, and Columbia Management.
 </p>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
 
 <h2 class="bac">Overview</h2>
 <p class="bac">
-Premier Banking & Investments delivers tailored banking and investment solutions and personalized, priority service to affluent clients through locally based client teams. Premier Banking & Investments clients, those with investable assets and a mortgage that exceeds $500,000 and those with at least $100,000 of investable assets, receive a high-touch client experience through a network of approximately 4,400 client advisors that can include a personal wealth profile, packaged products and other services. BAI is one of the largest bank-owned brokerage companies in the U.S.
+Premier Banking &amp; Investments delivers tailored banking and investment solutions and personalized, priority service to affluent clients through locally based client teams. Premier Banking &amp; Investments clients, those with investable assets and a mortgage that exceeds $500,000 and those with at least $100,000 of investable assets, receive a high-touch client experience through a network of approximately 4,400 client advisors that can include a personal wealth profile, packaged products and other services. BAI is one of the largest bank-owned brokerage companies in the U.S.
 </p>
 <p class="bac">
 U.S. Trust, Bank of America Private Wealth Management provides integrated wealth-management solutions to high-net-worth individuals, middle-market institutions and charitable organizations with investable assets greater than $3 million. U.S. Trust, Bank of America Private Wealth Management provides credit, deposit, investment and trust services as well as specialty asset management services. 
 </p>
 <p class="bac">
-Columbia Management, Bank of America's asset management organization, provides investment management solutions to institutional clients and individual investors. These include separately managed accounts, liquidity strategies, and mutual funds across a variety of investment disciplines within equities, fixed income (taxable and nontaxable) and cash (taxable and nontaxable). 
+Columbia Management, Bank of America&apos;s asset management organization, provides investment management solutions to institutional clients and individual investors. These include separately managed accounts, liquidity strategies, and mutual funds across a variety of investment disciplines within equities, fixed income (taxable and nontaxable) and cash (taxable and nontaxable). 
 </p>
 <p class="bac">
 GWIM Alternative Investments is responsible for alternative investment solutions for high net worth, endowment, foundation, pension fund and institutional clients, and currently oversees approximately $6 billion in client assets. 
 </p>
 <p class="bac">
-Bank  of  America  Retirement  and  Global  Wealth  &  Investment  Management  Client  Solutions group  oversees  the  delivery  of  a  range  of  services,  solutions  and  capabilities  to  institutional  clients  and  Bank  of  America  individual  customers  at  various  key  life  stages,  with  a  special  emphasis  on  retirement.   This group oversees all banking, credit, custom credit, fiduciary, philanthropic and brokerage product development for GWIM clients, along with GWIM’s national client service centers.
+Bank  of  America  Retirement  and  Global  Wealth  &amp; Investment  Management  Client  Solutions group  oversees  the  delivery  of  a  range  of  services,  solutions  and  capabilities  to  institutional  clients  and  Bank  of  America  individual  customers  at  various  key  life  stages,  with  a  special  emphasis  on  retirement.   This group oversees all banking, credit, custom credit, fiduciary, philanthropic and brokerage product development for GWIM clients, along with GWIM’s national client service centers.
 </p>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
@@ -60,7 +60,7 @@ In order to be considered a candidate for this opportunity, you must apply via t
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
 
-<a href="undergraduate_internships.asp<% If page_section <> "ADA" Then  %><% Else  %>#t1<% End If %>" class="bacb" title="Back to U.S. Undergraduate Internships">Back to U.S. Undergraduate Internships »</a>
+<a href="undergraduate_internships.asp<% If page_section <> "ADA" Then  %><% Else  %>#t1<% End If %>" class="bacb" title="Back to U.S. Undergraduate Internships">Back to U.S. Undergraduate Internships  &raquo;</a>
 <br>
 				</td>
 				<td width="205" height="100%" valign="top" style="padding-top: 8px;" align="right">

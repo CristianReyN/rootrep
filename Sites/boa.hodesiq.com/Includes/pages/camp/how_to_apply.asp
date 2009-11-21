@@ -18,7 +18,7 @@ If Request("t") <> "" Then tab = Request("t")
 		<table width="578" cellpadding="0" cellspacing="0" border="0" summary="">
 			<tr valign="top">
 				<td width="393" height="100%" valign="top" style="<%=middle_content_padding%>">
-<h2 class="bach">Choose. Connect. Grow.</h2>
+<H2 class="bach">Choose. Connect. Grow.</H2>
 <p class="bac"<% If page_section <> "ADA" Then %> style="margin-bottom: 12px;"<% End If %>>We're ready when you are. Once you've taken a look at our <a href="explore_careers.asp" class="bac" title="Explore Careers">programs</a> and have found a good fit, this is the place to start the application process. Remember to also check our <a href="../CampusEvents.aspx" class="bac" title="Campus Events">campus events listings</a> to see when our recruiters will be coming your way. We'd love to meet you.</p>
 		<% If page_section <> "ADA" Then %>
 <script language="JavaScript1.2" src="../includes/tab.js" type="text/javascript"></script>
@@ -50,11 +50,11 @@ function preload_add()
 		<table width="100%" cellpadding="0" cellspacing="0" border="0" style="margin-top: 12px;" summary="">
 			<tr>
 				<td valign="top">
-					<img src="../images/camp/t1a.gif" border="0" alt="U.S." /></td>
+					<H3 class="hidden">How to Apply in U.S.</H3><img src="../images/camp/t1a.gif" border="0" alt="How to Apply in U.S." /></td>
 				<td valign="top">
-					<a href="#t2"><img src="../images/camp/t2.gif" border="0" alt="EMEA" /></a></td>
+					<a href="#t2" title="How to Apply in EMEA"><img src="../images/camp/t2.gif" border="0" alt="How to Apply in EMEA" /></a></td>
 				<td valign="top">
-					<a href="#t3"><img src="../images/camp/t3.gif" border="0" alt="Asia" /></a></td>
+					<a href="#t3" title="How to Apply in Asia"><img src="../images/camp/t3.gif" border="0" alt="How to Apply in Asia" /></a></td>
 				<td width="100%" background="../images/camp/trtb.gif" valign="top" align="right">
 					<img src="../images/camp/trt.gif" border="0" alt="" /></td>
 			</tr>
@@ -63,11 +63,11 @@ function preload_add()
 		<table width="100%" cellpadding="0" cellspacing="0" border="0" summary="">
 			<tr>
 				<td valign="top">
-					<img id="t1" name="t1" class="h" src="../images/camp/t1<% If tab = 1 Then %>a<% End If %>.gif" border="0" alt="U.S." /></td>
+					<img id="t1" name="t1" class="h" src="../images/camp/t1<% If tab = 1 Then %>a<% End If %>.gif" border="0" alt="How to Apply in U.S." /></td>
 				<td valign="top">
-					<img id="t2" name="t2" class="h" src="../images/camp/t2<% If tab = 2 Then %>a<% End If %>.gif" border="0" alt="EMEA" /></td>
+					<img id="t2" name="t2" class="h" src="../images/camp/t2<% If tab = 2 Then %>a<% End If %>.gif" border="0" alt="How to Apply in EMEA" /></td>
 				<td valign="top">
-					<img id="t3" name="t3" class="h" src="../images/camp/t3<% If tab = 3 Then %>a<% End If %>.gif" border="0" alt="Asia" /></td>
+					<img id="t3" name="t3" class="h" src="../images/camp/t3<% If tab = 3 Then %>a<% End If %>.gif" border="0" alt="How to Apply in Asia" /></td>
 				<td width="100%" background="../images/camp/trtb.gif" valign="top" align="right">
 					<img src="../images/camp/trt.gif" border="0" alt="" /></td>
 			</tr>
@@ -86,6 +86,12 @@ function preload_add()
 	<div class="innerTab">
 		<p class="bac">In order to be considered a candidate for an opportunity at Bank of America, you must apply via this web site. To submit your profile, first sign in as a new or returning user.  If you don't have an existing account, you'll need to register as a new user.  Then, complete your Candidate Profile and designate your program(s) of interest.  Please note that in order for your application to be considered complete, you must reach the final "Thank You" page.</p>
 		<br><br>
+		<span class='auraltext'>
+			<h2 style="margin: 0px 0px 0px 12px; ">Important information on applying for positions</h2>
+				Apply Now. You are encouraged to complete this online application, however if you have difficulty, you should:
+				<li />Email your resume to <a href="mailto:bac@resume.bankofamerica.com">bac@resume.bankofamerica.com</a>
+				<li />In the Subject Line of your email, include "Source = Bank of America Careers" and the specific position title found at the top of the job posting.
+		</span>
 		<a href="<% If page_section <> "ADA" Then  %>../learnmore/<% Else  %>../ada/<% End If %>sendresume.asp" target="_blank" title="Submit Your Profile" onmouseover="MM_swapImage('us_spr','','../images/camp/submit_profile_on.gif');" onmouseout="MM_swapImgRestore();"><img name="us_spr" src="../images/camp/submit_profile_off.gif" border="0" style="cursor: pointer;" alt="Submit Your Profile" /></a>
 	</div>
 </div>
@@ -111,11 +117,11 @@ function preload_add()
 		<table width="100%" cellpadding="0" cellspacing="0" border="0" style="margin-top: 12px;" summary="">
 			<tr>
 				<td valign="top">
-					<a href="#t1"><img src="../images/camp/t1.gif" border="0" alt="U.S." /></a></td>
+					<a href="#t1" title="How to Apply in U.S."><img src="../images/camp/t1.gif" border="0" alt="How to Apply in U.S." /></a></td>
 				<td valign="top">
-					<img src="../images/camp/t2a.gif" border="0" alt="EMEA" /></td>
+					<H3 class="hidden">How to Apply in EMEA</H3><img src="../images/camp/t2a.gif" border="0" alt="How to Apply in EMEA" /></td>
 				<td valign="top">
-					<a href="#t3"><img src="../images/camp/t3.gif" border="0" alt="Asia" /></a></td>
+					<a href="#t3" title="How to Apply in Asia"><img src="../images/camp/t3.gif" border="0" alt="How to Apply in Asia" /></a></td>
 				<td width="100%" background="../images/camp/trtb.gif" valign="top" align="right">
 					<img src="../images/camp/trt.gif" border="0" alt="" /></td>
 			</tr>
@@ -134,6 +140,12 @@ function preload_add()
 	<div class="innerTab">
 		<p class="bac">For positions in Europe, you must apply through our online application system. Simply click the link below and follow the instructions to apply and track the progress of your application.</p>
 		<br><br>
+		<span class='auraltext'>
+			<h2 style="margin: 0px 0px 0px 12px; ">Important information on applying for positions</h2>
+				Apply Now. You are encouraged to complete this online application, however if you have difficulty, you should:
+				<li />Email your CV to <a href="mailto:graduates@bankofamerica.com">graduates@bankofamerica.com</a>
+				<li />In the Subject Line of your email, include your name and the specific program title found at the top of the program posting.
+		</span>
 		<a href="https://www.careers.bofa.gtios.com/" target="_blank" title="Submit Your Profile" onmouseover="MM_swapImage('emea_spr','','../images/camp/apply_on.gif');" onmouseout="MM_swapImgRestore();"><img name="emea_spr" src="../images/camp/apply_off.gif" border="0" style="cursor: pointer;" alt="Submit Your Profile" /></a>
 	</div>
 </div>
@@ -159,11 +171,11 @@ function preload_add()
 		<table width="100%" cellpadding="0" cellspacing="0" border="0" style="margin-top: 12px;" summary="">
 			<tr>
 				<td valign="top">
-					<a href="#t1"><img src="../images/camp/t1.gif" border="0" alt="U.S." /></a></td>
+					<a href="#t1" title="How to Apply in U.S."><img src="../images/camp/t1.gif" border="0" alt="How to Apply in U.S." /></a></td>
 				<td valign="top">
-					<a href="#t2"><img src="../images/camp/t2.gif" border="0" alt="EMEA" /></a></td>
+					<a href="#t2" title="How to Apply in EMEA"><img src="../images/camp/t2.gif" border="0" alt="How to Apply in EMEA" /></a></td>
 				<td valign="top">
-					<img src="../images/camp/t3a.gif" border="0" alt="Asia" /></td>
+					<H3 class="hidden">How to Apply in Asia</H3><img src="../images/camp/t3a.gif" border="0" alt="How to Apply in Asia" /></td>
 				<td width="100%" background="../images/camp/trtb.gif" valign="top" align="right">
 					<img src="../images/camp/trt.gif" border="0" alt="" /></td>
 			</tr>

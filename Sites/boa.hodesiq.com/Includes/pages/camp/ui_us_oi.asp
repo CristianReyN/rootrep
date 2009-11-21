@@ -20,11 +20,11 @@ Associates in SFO perform processing services for Bank of America customer house
 	<li>Process over 31 million customer statements monthly</li>
 </ul>
 <p class="bac">
-SFO is part of the Global Technology & Operations Organization.
+SFO is part of the Global Technology &amp; Operations Organization.
 </p>
 <p class="bac">
 <b>Deposits Contact Centers (DCC)</b><br>
-Associates in DCC provide service and financial solutions to more than 179 million phone customers and 5.1 million e-mail customers each year, making our contact centers among the busiest in the country. In addition to our associates servicing our customer's needs, our voice response units (VRU) can answer account inquiries, and in 2005, the VRUs handled more than 568 million phone calls.  DCC is part of the Global Consumer & Small Business Banking organization.
+Associates in DCC provide service and financial solutions to more than 179 million phone customers and 5.1 million e-mail customers each year, making our contact centers among the busiest in the country. In addition to our associates servicing our customer&apos;s needs, our voice response units (VRU) can answer account inquiries, and in 2005, the VRUs handled more than 568 million phone calls.  DCC is part of the Global Consumer &amp; Small Business Banking organization.
 </p>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
@@ -49,7 +49,7 @@ The ideal candidate will be enrolled in a full-time degree program, pursuing a m
 <ul class="bac">
 	<li>Work experience with a demonstrated record of achievement</li>
 	<li>Well organized with excellent planning and project management skills</li>
-	<li>Ability to communicate effectively in both written and oral forms with varying levels of management & executives</li>
+	<li>Ability to communicate effectively in both written and oral forms with varying levels of management &amp; executives</li>
 	<li>Aptitude for building rapport and effective relationships</li>
 	<li>Critical thinking/analytical skills</li>
 	<li>Six Sigma experience a plus</li>
@@ -78,7 +78,7 @@ In order to be considered a candidate for this opportunity, you must apply via t
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
 
-<a href="undergraduate_internships.asp<% If page_section <> "ADA" Then  %><% Else  %>#t1<% End If %>" class="bacb" title="Back to U.S. Undergraduate Internships">Back to U.S. Undergraduate Internships »</a>
+<a href="undergraduate_internships.asp<% If page_section <> "ADA" Then  %><% Else  %>#t1<% End If %>" class="bacb" title="Back to U.S. Undergraduate Internships">Back to U.S. Undergraduate Internships  &raquo;</a>
 <br>
 				</td>
 				<td width="205" height="100%" valign="top" style="padding-top: 8px;" align="right">

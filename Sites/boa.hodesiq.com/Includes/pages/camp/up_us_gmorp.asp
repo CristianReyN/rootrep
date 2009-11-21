@@ -27,7 +27,7 @@ This unique 2 year program allows analysts to rotate through Global Middle Offic
 Global Middle Office Analysts will complete two, 12 month rotations within Global Middle Office.  
 </p>
 <ul class="bac">
-	<li>Potential Middle Office analyst rotations include key product areas (i.e. Credit Products, Rates, Currencies and Commodities, Structured Products and Equity Financial Products) and key functional areas (i.e. P & L Validation, Risk and Position Validation, Trade Support).</li>
+	<li>Potential Middle Office analyst rotations include key product areas (i.e. Credit Products, Rates, Currencies and Commodities, Structured Products and Equity Financial Products) and key functional areas (i.e. P &amp; L Validation, Risk and Position Validation, Trade Support).</li>
     <li>An analyst in Middle Office will interface with various departments including P&L team, Finance, Compliance, Risk, Technology and Front Office; Working with various business representatives to design work streams for new products; Developing and implementing automation solutions to capture processing efficiencies.</li>
 </ul>
 <p class="bac">
@@ -75,7 +75,7 @@ In order to be considered a candidate for this opportunity, you must apply via t
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
 
-<a href="undergraduate_programs.asp<% If page_section <> "ADA" Then  %><% Else  %>#t1<% End If %>" class="bacb" title="Back to U.S. Undergraduate Programs">Back to U.S. Undergraduate Programs »</a>
+<a href="undergraduate_programs.asp<% If page_section <> "ADA" Then  %><% Else  %>#t1<% End If %>" class="bacb" title="Back to U.S. Undergraduate Programs">Back to U.S. Undergraduate Programs  &raquo;</a>
 <br>
 				</td>
 				<td width="205" height="100%" valign="top" style="padding-top: 8px;" align="right">

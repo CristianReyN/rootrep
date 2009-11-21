@@ -200,7 +200,7 @@ H1.cft
 	text-decoration: none;
 	padding: 6px 0px 6px 0px;
 }
-h2.cft
+H2.cft, H2.cfth
 {
 	font-family : Verdana, Helvetica, sans-serif;
 	font-size : 1.1em;
@@ -211,6 +211,7 @@ h2.cft
 	text-decoration: none;
 	padding: 0px;
 }
+H2.cfth{font-size : 1.3em; font-weight : normal; color: #333333;}
 P.cft
 {
 	font-size : 1.1em;
@@ -341,7 +342,7 @@ INPUT
 	font-size : 1.0em;
 	line-height : 1.0em;
 	font-weight : normal;
-    color: #000000;
+	color: #000000;
 	margin: 2px 0px 2px 0px;
 }
 INPUT.right
@@ -783,7 +784,7 @@ h1.bac
 	margin: 0px 0px 10px 0px;
 	padding: 0px;
 }
-h2.bac, h2.bacs, h2.bach
+h2.bac, h2.bacs, h2.bacg, h2.bach, h3.bac, h3.bacs, h3.bacg
 {
 	font-family : Verdana, Helvetica, sans-serif;
 	font-size : 1.0em;
@@ -803,7 +804,8 @@ h2.bach
 }
 p.bac, p.bacb {margin: 12px 0px 0px 0px;}
 p.bacb {font-weight : bold;}
-h2.bacs, p.bacs {margin: 15px 0px 0px 0px;}
+h2.bacs, h2.bacg, h3.bacs, h3.bacg, p.bacs, p.bacg {margin: 15px 0px 0px 0px;}
+h2.bacg, h3.bacg, p.bacg {display: inline; margin: 0px;}
 ul.bac {margin-top: 12px; margin-bottom: 0px;}
 ul.bacp {margin-top: 12px; margin-bottom: 0px;}
 img.bac

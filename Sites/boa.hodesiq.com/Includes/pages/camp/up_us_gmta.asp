@@ -5,7 +5,7 @@
 <a name="skipmaincontent"></a><h1 class="bac">Global Markets Technology Associate</h1>
 <h2 class="bac">Our Business</h2>
 <p class="bac">
-Bank of America's Global Markets technology teams partner with our Global Markets, Corporate Treasury and Corporate Investments Groups to develop leading-edge applications supporting the entire range of our business activities - from client-facing sales and trading applications to security analytics, risk management, trade processing, management reporting, reference and market data, and customer relationship management.  Our teams work very closely with our business partners, developing strategies and delivering solutions that are integral to the day-to-day running of our business.
+Bank of America&apos;s Global Markets technology teams partner with our Global Markets, Corporate Treasury and Corporate Investments Groups to develop leading-edge applications supporting the entire range of our business activities - from client-facing sales and trading applications to security analytics, risk management, trade processing, management reporting, reference and market data, and customer relationship management.  Our teams work very closely with our business partners, developing strategies and delivering solutions that are integral to the day-to-day running of our business.
 </p>
 <p class="bac">
 There are five job profiles for a Global Markets technology associate:
@@ -91,7 +91,7 @@ In order to be considered a candidate for this opportunity, you must apply via t
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
 
-<a href="undergraduate_programs.asp<% If page_section <> "ADA" Then  %><% Else  %>#t1<% End If %>" class="bacb" title="Back to U.S. Undergraduate Programs">Back to U.S. Undergraduate Programs »</a>
+<a href="undergraduate_programs.asp<% If page_section <> "ADA" Then  %><% Else  %>#t1<% End If %>" class="bacb" title="Back to U.S. Undergraduate Programs">Back to U.S. Undergraduate Programs  &raquo;</a>
 <br>
 				</td>
 				<td width="205" height="100%" valign="top" style="padding-top: 8px;" align="right">

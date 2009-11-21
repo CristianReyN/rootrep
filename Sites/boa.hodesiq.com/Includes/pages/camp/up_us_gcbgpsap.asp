@@ -18,7 +18,7 @@ Global Product Solutions (GPS) provides integrated working capital management an
 The Program was developed to build a strong pipeline of talent in Global Commercial Banking and Global Product Solutions. The program includes classroom and on-the-job training focused on technical, analytical and professional skills.  Topics include end-to-end treasury management, sales and marketing, product innovation and design, commercial credit skills, and client servicing strategies.
 </p>
 <p class="bac">
-Program analysts complete rotations in a variety of business units to provide broad exposure and understanding of the organizations. These rotations will provide exposure to credit and treasury solutions with intensive focus on building knowledge in end to end treasury management.  Rotations can take place in multiple lines of business including: Product Delivery, Product Innovation & Development, Product Management, Specialized Product & Delivery and Client Delivery & Service. The majority, if not all rotations, are completed in the same city. 
+Program analysts complete rotations in a variety of business units to provide broad exposure and understanding of the organizations. These rotations will provide exposure to credit and treasury solutions with intensive focus on building knowledge in end to end treasury management.  Rotations can take place in multiple lines of business including: Product Delivery, Product Innovation &amp; Development, Product Management, Specialized Product &amp; Delivery and Client Delivery &amp; Service. The majority, if not all rotations, are completed in the same city. 
 </p>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
@@ -54,7 +54,7 @@ In order to be considered a candidate for this opportunity, you must apply via t
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
 
-<a href="undergraduate_programs.asp<% If page_section <> "ADA" Then  %><% Else  %>#t1<% End If %>" class="bacb" title="Back to U.S. Undergraduate Programs">Back to U.S. Undergraduate Programs »</a>
+<a href="undergraduate_programs.asp<% If page_section <> "ADA" Then  %><% Else  %>#t1<% End If %>" class="bacb" title="Back to U.S. Undergraduate Programs">Back to U.S. Undergraduate Programs  &raquo;</a>
 <br>
 				</td>
 				<td width="205" height="100%" valign="top" style="padding-top: 8px;" align="right">

@@ -3,22 +3,16 @@
 			<tr valign="top">
 				<td width="100%" colspan="2" valign="top">
 				<%if page_section <> "ADA" then %>
+				<script language="JavaScript1.2" src="../includes/cr.js" type="text/javascript"></script>
 				<script language="JavaScript1.2" type="text/javascript">
 //<!--
 function hover(ref, classRef) { eval(ref).className = classRef; }
 requiredMajorVersion = 8;
 hasRequestedVersion = DetectFlashVer(8, 0, 8);
 if ( hasRequestedVersion ) {
+	document.write('<a class="auraltext" href="<%=ada_href %>" onFocus="hover(this,\'show-tab\');" onblur="hover(this,\'auraltext\');" title="Access non-flash Version of Campus Recruiting">Access non-flash Version of Campus Recruiting<\/a>');
 	document.write('<a class="auraltext" href="#skipflash" onFocus="hover(this,\'show-tab\');" onblur="hover(this,\'auraltext\');" title="Skip Flash content">Skip Flash content<\/a>');
-	document.write('<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0" width="578" height="152" align="middle" id="mks_template_med" align="middle" name="mks_template_med" tabindex="0" title="Campus Recruiting. Choose. Connect. Grow. Learn more." style="margin: 0px;">');
-	document.write('<param name="allowScriptAccess" value="sameDomain" />');
-	document.write('<param name="allowFullScreen" value="false" />');
-	document.write('<param name="movie" value="../images/camp/mks_template_med.swf" />');
-	document.write('<param name="quality" value="high" />');
-	document.write('<param name="wmode" value="transparent" />');
-	document.write('<param name="bgcolor" value="#ffffff" />');
-	document.write('<embed src="../images/camp/mks_template_med.swf" quality="high" bgcolor="#ffffff" width="578" height="152" name="mks_template_med" id="mks_template_med" align="middle" allowScriptAccess="sameDomain" allowFullScreen="false" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" wmode="transparent" style="margin: 0px;" /><\/embed>');
-	document.write('</object>');
+	document.write(cr_flash);
 } else {
 	document.write('<a href="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash" title="This video requires Adobe Flash Player version '+requiredMajorVersion+'. Please download latest version."><img src="../images/camp/campusrecruiting.jpg" width="578" height="152" alt="This video requires Adobe Flash Player version '+requiredMajorVersion+'. Please download latest version." title="This video requires Adobe Flash Player version '+requiredMajorVersion+'. Please download latest version." border="0" style="margin: 0px;" /><\/a><br><a href="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash" title="This video requires Adobe Flash Player version '+requiredMajorVersion+'. Please download latest version." class="bac" onfocus="this.className=\'p-over\';" onblur="this.className=\'p\';">This video requires Adobe Flash Player version '+requiredMajorVersion+'. Please download latest version.<\/a><br><br>'); 
 }
@@ -46,7 +40,13 @@ if ( hasRequestedVersion ) {
 			</tr>
 			<tr valign="top"><td colspan="2" valign="top" class="divb"><img src="../images/clear.gif" width="100%" height="4" alt="" border="0"></td></tr>
 		</table><a name="skipflash"></a>
-		<img src="../images/clear.gif" width="100%" height="<%=(top_content_padding_bottom+3)%>" alt="" border="0"><br />
+		<table width="578" cellpadding="0" cellspacing="0" border="0" summary="">
+			<tr><td valign="top"><img src="../images/clear.gif" width="100%" height="<%=(top_content_padding_bottom+3)%>" alt="" border="0"><br /></td>
+				<%if page_section = "ADA" then %>
+			<td align="right" valign="top" style="padding-top: 2px;"><a href="<%= standart_href%>" title="Return to standard page with video" class="bac" onfocus="this.className='p-over';" onblur="this.className='p';">Return to standard page with video</a></td>
+				<%end if%>
+			</tr>
+		</table>
 		<a name="skipmaincontent"></a><H1 class="hidden">Campus Recruiting</H1>
 		<table width="578" cellpadding="0" cellspacing="0" border="0" summary="">
 			<tr valign="top">

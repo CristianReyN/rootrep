@@ -13,17 +13,17 @@ The Global Human Resources (GHR) group at Bank of America enables the company to
 <h2 class="bac">Overview</h2>  
 	
 <p class="bac">
-Our Global Human Resources Leadership & Development Program consists of opportunities in the following areas:
+Our Global Human Resources Leadership &amp; Development Program consists of opportunities in the following areas:
 </p>
 <br>
 <h2 class="bac">Leadership Development</h2>
 <p class="bac">
-Consult with the client managers on various developmental activities, which may include: Executive and Management Development, Succession Planning, Key High Potentials' Development, Organization Development, Change Management and Change Communications. Design/implement Leadership & Organizational Development Processes that cut across organizational boundaries.  Leverage expertise in team and organization assessment, design, and development to influence changes in alignment, structure, and roles.  Create a clear vision of the ideal organization or team environment and steer leaders toward it.  Partner successfully with executive management to accelerate strategy implementation.
+Consult with the client managers on various developmental activities, which may include: Executive and Management Development, Succession Planning, Key High Potentials' Development, Organization Development, Change Management and Change Communications. Design/implement Leadership &amp; Organizational Development Processes that cut across organizational boundaries.  Leverage expertise in team and organization assessment, design, and development to influence changes in alignment, structure, and roles.  Create a clear vision of the ideal organization or team environment and steer leaders toward it.  Partner successfully with executive management to accelerate strategy implementation.
 </p>
 <br>
-<h2 class="bac">Learning & Instructional Design</h2>
+<h2 class="bac">Learning &amp; Instructional Design</h2>
 <p class="bac">
-Act as liaison between Learning Team and the LOB (Line of Business) around specific learning needs.  Assist Learning Managers and L&LD (Learning & Leadership Development) client team to create end-to-end learning solutions that support and drive business strategy.  Creation of LOB learning plans, map learning solutions and monitor progress against plans.  Assist with design or effective implementation of appropriate learning solutions including Web Based Training (WBT), Instructor Led Learning (ILT), on-line and paper-based references, and other forms of learning.
+Act as liaison between Learning Team and the LOB (Line of Business) around specific learning needs.  Assist Learning Managers and L&LD (Learning &amp; Leadership Development) client team to create end-to-end learning solutions that support and drive business strategy.  Creation of LOB learning plans, map learning solutions and monitor progress against plans.  Assist with design or effective implementation of appropriate learning solutions including Web Based Training (WBT), Instructor Led Learning (ILT), on-line and paper-based references, and other forms of learning.
 </p>
 <br>
 <h2 class="bac">Compensation</h2> 
@@ -41,7 +41,7 @@ Workforce Planning Process Design Intern responsibilities include: Integrate fin
 <h2 class="bac">Shared Services</h2>
 <br>
 <p class="bac">
-<b>Workforce Communications & Engagement:</b>  Partner successfully with Compensation and Benefits management to develop audience adoption and engagement plans for key initiatives to enhance organizational programs and to accelerate understanding across the organization.  Leverage expertise in building partnerships, developing communication plans to influence changes in compensation and benefit programs, and delivering plans to management in clear and concise fashion.  
+<b>Workforce Communications &amp; Engagement:</b>  Partner successfully with Compensation and Benefits management to develop audience adoption and engagement plans for key initiatives to enhance organizational programs and to accelerate understanding across the organization.  Leverage expertise in building partnerships, developing communication plans to influence changes in compensation and benefit programs, and delivering plans to management in clear and concise fashion.  
 </p>
 <p class="bac">
 <b>Case Management:</b>  The Case Management Team provides reviews of “high impact” personnel issues that have not been resolved by management, a Human Resource Manager, or the Advice and Counsel Advisor.  Issues that can be heard in court, and those that have high financial risk or risk of other exposure, help define “high impact”.  The Case Manager also investigates allegations of sexual harassment and Title VII discrimination, and situations involving group or concerted activity.  
@@ -56,7 +56,7 @@ Workforce Planning Process Design Intern responsibilities include: Integrate fin
 	<li>MBA or Masters Degree in Human Resources Related Field</li>
 	<li>Preference of 3-5 years HR related work experience in a fast-paced, corporate or consulting environment</li>
 	<li>Demonstrated ability to influence senior executives, establish and maintain collaborative partnerships and provide thought leadership</li>
-	<li>Role specific experience (i.e. Organizational Design and Development, Change Management, Knowledge of HR Systems, Executive Development, Compensation & Benefits, Workforce Planning, Communication Plan Design, Metric Based Analysis, etc.)</li>
+	<li>Role specific experience (i.e. Organizational Design and Development, Change Management, Knowledge of HR Systems, Executive Development, Compensation &amp; Benefits, Workforce Planning, Communication Plan Design, Metric Based Analysis, etc.)</li>
 	<li>Excellent strategic and process thinking abilities</li>
 	<li>Ability to architect and implement large change and maneuver easily between concept and operation</li>
 	<li>Highly proficient in MS Excel, Access, Word and Power Point</li>
@@ -79,7 +79,7 @@ In order to be considered a candidate for this opportunity, you must apply via t
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
 
-<a href="graduate_internships.asp<% If page_section <> "ADA" Then  %><% Else  %>#t1<% End If %>" class="bacb" title="Back to U.S. Graduate Internships">Back to U.S. Graduate Internships »</a>
+<a href="graduate_internships.asp<% If page_section <> "ADA" Then  %><% Else  %>#t1<% End If %>" class="bacb" title="Back to U.S. Graduate Internships">Back to U.S. Graduate Internships  &raquo;</a>
 <br>
 				</td>
 				<td width="205" height="100%" valign="top" style="padding-top: 8px;" align="right">

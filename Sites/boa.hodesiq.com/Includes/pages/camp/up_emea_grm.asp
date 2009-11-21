@@ -5,7 +5,7 @@
 <a name="skipmaincontent"></a><h1 class="bac">Global Risk Management</h1>
 <h2 class="bac">Our Business</h2>
 <p class="bac">
-GCIB Risk Management is responsible for managing the credit, market and operational risks associated with the credit portfolio and trading products within the Global Corporate & Investment Bank (GCIB). Analysts work closely with the origination, structuring and distribution arms of these businesses to ensure the appropriate levels of due diligence, risk tolerance and shareholder perspective have been applied in the risk taking decision process.
+GCIB Risk Management is responsible for managing the credit, market and operational risks associated with the credit portfolio and trading products within the Global Corporate &amp; Investment Bank (GCIB). Analysts work closely with the origination, structuring and distribution arms of these businesses to ensure the appropriate levels of due diligence, risk tolerance and shareholder perspective have been applied in the risk taking decision process.
 </p>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
@@ -19,9 +19,9 @@ Graduates will work in either the Financial Institutions Risk Management or the 
 	<li>Participating in structuring, underwriting and documentation of syndicated credit facilities</li>
 	<li>Researching, writing and presenting financial industry analyses supporting company and portfolio decisions</li>
 	<li>Evaluating transaction and relationship risk-adjusted profitability to facilitate the allocation of capital</li>
-	<li>Monitoring the bank's credit exposure to its clients across international networks, including periodically reassessing internally-assigned risk ratings</li>
-	<li>Financial Institutions Risk Management: Managing the bank's credit risk exposures arising from its trading operations. Products traded include credit, interest rates, foreign exchange and equities, together with a wide range of derivative products on these asset classes.</li>
-	<li>Global Markets Risk Management: Managing the bank's market risk exposures arising from its trading operations. Products traded include credit, interest rates, foreign exchange and equities, together with a wide range of derivative products on these asset classes and combinations of these asset classes. Analysis covers the production of Value at Risk, stress and various other risk metrics used in the management of the trading business, together with ad hoc qualitative and quantitative risk assessments.</li>
+	<li>Monitoring the bank&apos;s credit exposure to its clients across international networks, including periodically reassessing internally-assigned risk ratings</li>
+	<li>Financial Institutions Risk Management: Managing the bank&apos;s credit risk exposures arising from its trading operations. Products traded include credit, interest rates, foreign exchange and equities, together with a wide range of derivative products on these asset classes.</li>
+	<li>Global Markets Risk Management: Managing the bank&apos;s market risk exposures arising from its trading operations. Products traded include credit, interest rates, foreign exchange and equities, together with a wide range of derivative products on these asset classes and combinations of these asset classes. Analysis covers the production of Value at Risk, stress and various other risk metrics used in the management of the trading business, together with ad hoc qualitative and quantitative risk assessments.</li>
 </ul>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
@@ -61,7 +61,7 @@ If you are interested in Corporate Debt Products, please see Global Product Solu
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
 
-<a href="undergraduate_programs.asp<% If page_section <> "ADA" Then  %>?t=2<% Else  %>#t2<% End If %>" class="bacb" title="Back to EMEA Undergraduate Programs">Back to EMEA Undergraduate Programs »</a>
+<a href="undergraduate_programs.asp<% If page_section <> "ADA" Then  %>?t=2<% Else  %>#t2<% End If %>" class="bacb" title="Back to EMEA Undergraduate Programs">Back to EMEA Undergraduate Programs  &raquo;</a>
 <br>
 				</td>
 				<td width="205" height="100%" valign="top" style="padding-top: 8px;" align="right">

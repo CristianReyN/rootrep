@@ -5,7 +5,7 @@
 <a name="skipmaincontent"></a><h1 class="bac">Quality and Productivity Analyst Internship</h1>
 <h2 class="bac">Our Business</h2>
 <p class="bac">
-Quality & Productivity (Q&P) is the division within Bank of America that partners with the lines of business to apply quality, Six Sigma, & Change Management tools and methods to improve business performance. Q&P works with businesses to identify and improve high-impact, end-to-end processes and focus on key enterprise priorities such as customer delight, expense reduction, revenue growth, risk mitigation, change initiatives and process and/or product quality and speed. Six Sigma, Change and Project Management, Process Excellence, Lean and Management by Fact are the primary tools used to execute improvement activities across the company. Since its introduction in 2001, quality has become an integral part of our culture, creating significant improvements in the efficiency and effectiveness of key processes with accelerated results and driving cost savings, customer delight and revenue. 
+Quality &amp; Productivity (Q&P) is the division within Bank of America that partners with the lines of business to apply quality, Six Sigma, &amp; Change Management tools and methods to improve business performance. Q&P works with businesses to identify and improve high-impact, end-to-end processes and focus on key enterprise priorities such as customer delight, expense reduction, revenue growth, risk mitigation, change initiatives and process and/or product quality and speed. Six Sigma, Change and Project Management, Process Excellence, Lean and Management by Fact are the primary tools used to execute improvement activities across the company. Since its introduction in 2001, quality has become an integral part of our culture, creating significant improvements in the efficiency and effectiveness of key processes with accelerated results and driving cost savings, customer delight and revenue. 
 </p>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
@@ -16,10 +16,10 @@ Quality and Productivity Change Analyst Interns will participate in a program th
 </p>
 <ul class="bac">
 	<li>Broad exposure to lines of business by working closely with business executives to effectively lead, train, and coach quality activities that will achieve breakthrough productivity and customer satisfaction improvements</li>
-<li>Driving projects with large scope & accountability to success by leading and coaching projects and acting as a subject matter expert</li>
+<li>Driving projects with large scope &amp; accountability to success by leading and coaching projects and acting as a subject matter expert</li>
 <li>Providing detailed, fact-based analysis of business practices, processes and systems to accelerate improvements in product/process performance</li>
 <li>Championing new initiatives and acting as a catalyst for change to help lead innovative product/process development</li>
-<li>Supporting the deployment of Quality & Productivity capabilities and toolsets to facilitate improvements in the design, development, and implementation of project deliverables</li>
+<li>Supporting the deployment of Quality &amp; Productivity capabilities and toolsets to facilitate improvements in the design, development, and implementation of project deliverables</li>
 </ul>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
@@ -52,7 +52,7 @@ In order to be considered a candidate for this opportunity, you must apply via t
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
 
-<a href="undergraduate_internships.asp<% If page_section <> "ADA" Then  %><% Else  %>#t1<% End If %>" class="bacb" title="Back to U.S. Undergraduate Internships">Back to U.S. Undergraduate Internships »</a>
+<a href="undergraduate_internships.asp<% If page_section <> "ADA" Then  %><% Else  %>#t1<% End If %>" class="bacb" title="Back to U.S. Undergraduate Internships">Back to U.S. Undergraduate Internships  &raquo;</a>
 <br>
 				</td>
 				<td width="205" height="100%" valign="top" style="padding-top: 8px;" align="right">

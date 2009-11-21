@@ -10,7 +10,7 @@ To champion Supply Chain Management associate development through experiential l
 </p>
 
 <p class="bac">
-Functions supported within SCM are sourcing and supplier management of goods and services, supplier diversity & development, analytics and support services.
+Functions supported within SCM are sourcing and supplier management of goods and services, supplier diversity &amp; development, analytics and support services.
 </p>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
@@ -23,7 +23,7 @@ Two 1-year rotational assignments where responsibilities may include:
 	<li>Align business tactical plans and supply chain with lines of business strategy, balancing demands and capacity to consistently meet customer expectations, and increasing productivity and customer satisfaction</li>
     <li>Be a key advisor in developing supply strategy, identifying opportunities, and providing supply expertise for Consumer and Small Business Line of business partners</li>
     <li>Assist in supporting the supply chain management organization by developing sourcing processes and maintaining ownership of those processes</li>
-    <li>Provide subject matter expertise in SCM, supplier evaluation & performance measurement, contract negotiating, quarterly business reviews, total cost of ownership analysis, risk analysis, and compliance</li>
+    <li>Provide subject matter expertise in SCM, supplier evaluation &amp; performance measurement, contract negotiating, quarterly business reviews, total cost of ownership analysis, risk analysis, and compliance</li>
     <li>Present the lines of business with targeted opportunities, ideas and communications to deepen client relationships and increase profitability</li>
     <li>Facilitate the identification and competitive selection of companies to provide products and services based on optimum mix of price, quality products and services offered</li>
 </ul>
@@ -69,7 +69,7 @@ In order to be considered a candidate for this opportunity, you must apply via t
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
 
-<a href="undergraduate_programs.asp<% If page_section <> "ADA" Then  %><% Else  %>#t1<% End If %>" class="bacb" title="Back to U.S. Undergraduate Programs">Back to U.S. Undergraduate Programs »</a>
+<a href="undergraduate_programs.asp<% If page_section <> "ADA" Then  %><% Else  %>#t1<% End If %>" class="bacb" title="Back to U.S. Undergraduate Programs">Back to U.S. Undergraduate Programs  &raquo;</a>
 <br>
 				</td>
 				<td width="205" height="100%" valign="top" style="padding-top: 8px;" align="right">

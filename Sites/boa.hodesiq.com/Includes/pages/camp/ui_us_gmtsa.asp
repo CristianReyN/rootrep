@@ -5,7 +5,7 @@
 <a name="skipmaincontent"></a><h1 class="bac">Global Markets Technology Summer Analyst</h1>
 <h2 class="bac">Our Business</h2>
 <p class="bac">
-Bank of America's Global Markets technology teams partner with our Global Markets, Corporate Treasury and Corporate Investments Groups to develop leading-edge applications supporting the entire range of Our Business activities - from client-facing sales and trading applications to security analytics, risk management, trade processing, management reporting, reference and market data, and customer relationship management.  Our teams work very closely with Our Business partners, developing strategies and delivering solutions that are integral to the day-to-day running of Our Business.
+Bank of America&apos;s Global Markets technology teams partner with our Global Markets, Corporate Treasury and Corporate Investments Groups to develop leading-edge applications supporting the entire range of Our Business activities - from client-facing sales and trading applications to security analytics, risk management, trade processing, management reporting, reference and market data, and customer relationship management.  Our teams work very closely with Our Business partners, developing strategies and delivering solutions that are integral to the day-to-day running of Our Business.
 </p>
 <p class="bac">
 There are five job profiles for a Global Markets technology summer analyst:
@@ -92,7 +92,7 @@ In order to be considered a candidate for this opportunity, you must apply via t
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
 
-<a href="undergraduate_internships.asp<% If page_section <> "ADA" Then  %><% Else  %>#t1<% End If %>" class="bacb" title="Back to U.S. Undergraduate Internships">Back to U.S. Undergraduate Internships »</a>
+<a href="undergraduate_internships.asp<% If page_section <> "ADA" Then  %><% Else  %>#t1<% End If %>" class="bacb" title="Back to U.S. Undergraduate Internships">Back to U.S. Undergraduate Internships  &raquo;</a>
 <br>
 				</td>
 				<td width="205" height="100%" valign="top" style="padding-top: 8px;" align="right">

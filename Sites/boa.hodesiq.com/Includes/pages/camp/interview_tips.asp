@@ -39,7 +39,7 @@
 
 <h2 class="bacs">Get enough rest</h2>
 <ul class="bac">
-	<li>Get a good night's sleep so you'll be as physically, psychologically and emotionally at your best for the interview</li>
+	<li>Get a good night&apos;s sleep so you'll be as physically, psychologically and emotionally at your best for the interview</li>
 </ul>
 
 <h2 class="bacs">Bring your resume or CV</h2>

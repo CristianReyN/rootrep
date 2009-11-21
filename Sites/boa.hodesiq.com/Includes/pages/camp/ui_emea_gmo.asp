@@ -16,7 +16,7 @@ Overseeing the collation and dissemination of data to multiple business partners
 
 <h2 class="bac">Overview</h2>
 <p class="bac">
-Global Middle Office offers interns the opportunity to work with teams helping to design workflows for new products and develop and implement automation solutions to capture processing efficiencies. Interns work closely with partners across multiple businesses, including our profit & loss, finance, compliance, risk, technology and front office teams. 
+Global Middle Office offers interns the opportunity to work with teams helping to design workflows for new products and develop and implement automation solutions to capture processing efficiencies. Interns work closely with partners across multiple businesses, including our profit &amp; loss, finance, compliance, risk, technology and front office teams. 
 </p>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
@@ -54,7 +54,7 @@ All applications must be made through this website. Follow this link to the <a h
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
 
-<a href="undergraduate_internships.asp<% If page_section <> "ADA" Then  %>?t=2<% Else  %>#t2<% End If %>" class="bacb" title="Back to EMEA Undergraduate Internships">Back to EMEA Undergraduate Internships »</a>
+<a href="undergraduate_internships.asp<% If page_section <> "ADA" Then  %>?t=2<% Else  %>#t2<% End If %>" class="bacb" title="Back to EMEA Undergraduate Internships">Back to EMEA Undergraduate Internships  &raquo;</a>
 <br>
 				</td>
 				<td width="205" height="100%" valign="top" style="padding-top: 8px;" align="right">

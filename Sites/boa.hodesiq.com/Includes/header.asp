@@ -172,7 +172,7 @@ End If
 <% End If %>
 //-->
 </script>
-<% If mpage = "overview" Or (spage = "collrecruiting" And (tpage = "graduate_programs" Or tpage = "undergraduate_programs" Or tpage = "internships_program") And fpage <> "") Or (mpage = "areasoftalent" And spage <> "") Then %>
+<% If mpage = "overview" Or (spage = "collrecruiting" And (tpage = "graduate_programs" Or tpage = "undergraduate_programs" Or tpage = "internships_program") And fpage <> "") Or (mpage = "areasoftalent" And spage <> "") Or (mpage = "camp" And ((spage = "find_your_fit" And tpage = "career_fit_tool") Or spage = "")) Then %>
 <table cellpadding="0" cellspacing="0" border="0" summary=""><tr><td>
 <a href="<%=ada_href %>" id="tonly" title="<%=textonly_version %>" class="hide-tab"><%=textonly_version %></a>
 </td></tr></table>

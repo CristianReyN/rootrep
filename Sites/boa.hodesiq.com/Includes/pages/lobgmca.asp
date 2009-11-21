@@ -20,7 +20,7 @@
 <% If page_section <> "ADA" Then %>
 					<div align="right" style="float: right; margin: 0px 0px 0px <%=right_margin_split%>px; padding: 0px; width: 259px;">
 <!-- #include file="lob/craig.asp" -->
-<a href="#video" class="hlink">Craig&acute;s Associate Testimonial Video</a>
+<a href="#video" class="hlink">Craig&apos;s Associate Testimonial Video</a>
 <% End If  %>
 <div style="width: 201px; text-align: left; border: 1px solid #e8e8e9; background: #ffffff; margin: 12px 0px 12px 0px; padding: 0px 0px 6px 0px;">
 	<H2 class="g" style="margin: 0px 0px 0px 0px;">Guided Job Search</H2>
@@ -38,7 +38,7 @@ The associates in Global Marketing &amp; Corporate Affairs work collaboratively 
 <br><br>
 Global Marketing develops and drives effective strategies in creative advertising, brand management, enterprise media, sponsorships and agency management. 
 <br><br>
-Corporate Affairs - comprised of Corporate Communications, Global Community Impact, Public Policy and Market Presidents - works to ensure a variety of audiences understand Bank&nbsp;of&nbsp;America's strategy, company news, community commitment and positions on key company, economic and environmental issues.
+Corporate Affairs - comprised of Corporate Communications, Global Community Impact, Public Policy and Market Presidents - works to ensure a variety of audiences understand Bank&nbsp;of&nbsp;America&apos;s strategy, company news, community commitment and positions on key company, economic and environmental issues.
 <br><br>
 Our associates bring a variety of professional and educational experiences and backgrounds to their roles, including advertising, banking, consumer goods, financial services, hospitality, human resources, journalism, media production and retail disciplines.
 </p>
@@ -58,7 +58,7 @@ Click on a question below to play the video response.
 <% End If %>
 <img class="dotdiv" style="margin: 6px 0px 0px 0px;" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
 <p style="margin: 6px 0px 0px 0px;" class="faqpa">
-<b>What experience and skill set do I need to be considered for opportunities within Global Marketing & Corporate Affairs?</b>
+<b>What experience and skill set do I need to be considered for opportunities within Global Marketing &amp; Corporate Affairs?</b>
 <% If page_section <> "ADA" Then %>
 <br><img class="plresp" src="../images/clear.gif" width="10" height="1"  alt="" border="0"><br><a href="Javascript: vo_id();" onclick="playResponce(this);" class="ip">Play response</a>&nbsp;<a href="Javascript: void();" onclick="playResponce(this);"><img style="margin: 0px 0px 0px 0px;" src="../images/video_off_faq.gif" alt="" border="0" align="absmiddle" class="pai" name="pa1"></a><span class="auraltext"><br class="nancy_a1"></span>
 <% Else %>
@@ -78,7 +78,7 @@ Our disciplines - including brand marketing, advertising, agency management, cor
 <% Else %>
 </p>
 <p style="margin: 6px 0px 0px 0px;"><a name="answ2"></a>
-Our corporate headquarters is located in Charlotte, N.C.  While a significant portion of Global Marketing & Corporate Affairs roles are based here, we also have associates located in cities like Boston, New York and Wilmington, Del., as well as the west coast and international locations.
+Our corporate headquarters is located in Charlotte, N.C.  While a significant portion of Global Marketing &amp; Corporate Affairs roles are based here, we also have associates located in cities like Boston, New York and Wilmington, Del., as well as the west coast and international locations.
 <br><br>
 <a href="<%= standart_href%>" title="Return to standard page with video" class="p" onfocus="this.className='p-over';" onblur="this.className='p';">Return to standard page with video</a>
 <% End If %>
@@ -92,7 +92,7 @@ Our corporate headquarters is located in Charlotte, N.C.  While a significant po
 <% Else %>
 </p>
 <p style="margin: 6px 0px 0px 0px;"><a name="answ3"></a>
-Career opportunities vary by discipline and management structure. Bank&nbsp;of&nbsp;America and Global Marketing & Corporate Affairs strive to provide challenging and development-focused career paths to associates throughout their careers.  We enable those joining earlier in their careers to grow and assume new responsibilities, while offering associates at more senior levels the chance to leverage their proven skills and experience in addressing new opportunities.
+Career opportunities vary by discipline and management structure. Bank&nbsp;of&nbsp;America and Global Marketing &amp; Corporate Affairs strive to provide challenging and development-focused career paths to associates throughout their careers.  We enable those joining earlier in their careers to grow and assume new responsibilities, while offering associates at more senior levels the chance to leverage their proven skills and experience in addressing new opportunities.
 <br><br>
 <a href="<%= standart_href%>" title="Return to standard page with video" class="p" onfocus="this.className='p-over';" onblur="this.className='p';">Return to standard page with video</a>
 <% End If %>

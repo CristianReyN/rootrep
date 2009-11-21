@@ -15,7 +15,7 @@ Global Risk employs 5,000 associates in more than 35 countries.  With the increa
 
 <h2 class="bac">Overview</h2>
 <p class="bac">
-Global Wealth & Investment Management (GWIM) Credit Risk has primary responsibility for not only balancing risk and reward but also for identifying, managing, and monitoring all forms of risk for GWIM, including credit, market and operational risk.  The responsibility of the GWIM Credit Risk Analyst covers a variety of products and services, including Credit, Banking, Brokerage, and Asset Management with an emphasis on Credit.   The mission of GWIM Credit Services is to be a valued, integrated partner with US Trust, Bank of America Private Wealth Management, sharing ownership and responsibility for balancing risk and reward in delivering credit services. 
+Global Wealth &amp; Investment Management (GWIM) Credit Risk has primary responsibility for not only balancing risk and reward but also for identifying, managing, and monitoring all forms of risk for GWIM, including credit, market and operational risk.  The responsibility of the GWIM Credit Risk Analyst covers a variety of products and services, including Credit, Banking, Brokerage, and Asset Management with an emphasis on Credit.   The mission of GWIM Credit Services is to be a valued, integrated partner with US Trust, Bank of America Private Wealth Management, sharing ownership and responsibility for balancing risk and reward in delivering credit services. 
 </p>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
@@ -46,7 +46,7 @@ In order to be considered a candidate for this opportunity, you must apply via t
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
 
-<a href="undergraduate_programs.asp<% If page_section <> "ADA" Then  %><% Else  %>#t1<% End If %>" class="bacb" title="Back to U.S. Undergraduate Programs">Back to U.S. Undergraduate Programs »</a>
+<a href="undergraduate_programs.asp<% If page_section <> "ADA" Then  %><% Else  %>#t1<% End If %>" class="bacb" title="Back to U.S. Undergraduate Programs">Back to U.S. Undergraduate Programs  &raquo;</a>
 <br>
 				</td>
 				<td width="205" height="100%" valign="top" style="padding-top: 8px;" align="right">

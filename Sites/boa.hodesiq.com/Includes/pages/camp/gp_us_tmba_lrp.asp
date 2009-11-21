@@ -14,7 +14,7 @@
 	<li>Improve operating efficiency – we create capacity, lead change, and reinvest in growth to have a greater impact on performance.</li>
 </ul>
 <p class="bac">
-	The Technology MBA program is an experiential development program spanning Technology within Bank of America, which includes: Global Wealth & Investment Management Technology, Consumer & Corporate Staff Support Technology, Capital Markets & Wholesale Banking Technology, Global Information Protection and Business Continuity and the Network Computing Group.  
+	The Technology MBA program is an experiential development program spanning Technology within Bank of America, which includes: Global Wealth &amp; Investment Management Technology, Consumer &amp; Corporate Staff Support Technology, Capital Markets &amp; Wholesale Banking Technology, Global Information Protection and Business Continuity and the Network Computing Group.  
 </p>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
@@ -57,7 +57,7 @@
 
 <h2 class="bac">Locations:</h2>
 <p class="bac">
-	The majority of the opportunities exist in Charlotte, NC with LIMITED opportunities in other major US cities across the Bank of America franchise, including but not limited to: Boston, MA & New York, NY • Other locations are TBD.
+	The majority of the opportunities exist in Charlotte, NC with LIMITED opportunities in other major US cities across the Bank of America franchise, including but not limited to: Boston, MA &amp; New York, NY • Other locations are TBD.
 </p>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
@@ -69,7 +69,7 @@ In order to be considered a candidate for this opportunity, you must apply via t
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
 
-<a href="graduate_programs.asp<% If page_section <> "ADA" Then  %><% Else  %>#t1<% End If %>" class="bacb" title="Back to U.S. Graduate Programs">Back to U.S. Graduate Programs »</a>
+<a href="graduate_programs.asp<% If page_section <> "ADA" Then  %><% Else  %>#t1<% End If %>" class="bacb" title="Back to U.S. Graduate Programs">Back to U.S. Graduate Programs  &raquo;</a>
 <br>
 				</td>
 				<td width="205" height="100%" valign="top" style="padding-top: 8px;" align="right">

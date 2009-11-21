@@ -45,7 +45,7 @@ The Intern Experience Includes:
 	<li>Line of business specific events</li>
 	<li>Team Bank of America community involvement</li>
 	<li>Performance coaching and feedback</li>
-	<li>Business & compliance training</li>
+	<li>Business &amp; compliance training</li>
 </ul>
 
 <p class="bac">
@@ -68,7 +68,7 @@ In order to be considered a candidate for this opportunity, you must apply via t
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
 
-<a href="undergraduate_internships.asp<% If page_section <> "ADA" Then  %><% Else  %>#t1<% End If %>" class="bacb" title="Back to U.S. Undergraduate Internships">Back to U.S. Undergraduate Internships »</a>
+<a href="undergraduate_internships.asp<% If page_section <> "ADA" Then  %><% Else  %>#t1<% End If %>" class="bacb" title="Back to U.S. Undergraduate Internships">Back to U.S. Undergraduate Internships  &raquo;</a>
 <br>
 				</td>
 				<td width="205" height="100%" valign="top" style="padding-top: 8px;" align="right">

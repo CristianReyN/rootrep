@@ -12,7 +12,7 @@ Global Consumer and Small Business Banking (GCSBB) serves more than 59 million c
 
 <h2 class="bac">Overview</h2>
 <p class="bac">
-This internship program is designed to provide external MBA candidates with an opportunity to prepare for future opportunities in the Global Consumer & Small Business Banking Leader Development Program. 
+This internship program is designed to provide external MBA candidates with an opportunity to prepare for future opportunities in the Global Consumer &amp; Small Business Banking Leader Development Program. 
 </p>
 <p class="bac">
 Opportunities for internships include:
@@ -94,7 +94,7 @@ In order to be considered a candidate for this opportunity, you must apply via t
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
 
-<a href="graduate_internships.asp<% If page_section <> "ADA" Then  %><% Else  %>#t1<% End If %>" class="bacb" title="Back to U.S. Graduate Internships">Back to U.S. Graduate Internships »</a>
+<a href="graduate_internships.asp<% If page_section <> "ADA" Then  %><% Else  %>#t1<% End If %>" class="bacb" title="Back to U.S. Graduate Internships">Back to U.S. Graduate Internships  &raquo;</a>
 <br>
 				</td>
 				<td width="205" height="100%" valign="top" style="padding-top: 8px;" align="right">

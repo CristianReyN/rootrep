@@ -5,7 +5,7 @@
 <a name="skipmaincontent"></a><h1 class="bac">Corporate Debt Products Summer Associate Program</h1>
 <h2 class="bac">Our Business</h2>
 <p class="bac">
-Corporate Debt Products is responsible for managing the Global Corporate Investment Bank's loan and trading portfolios, which includes underwriting, managing and monitoring the credit, market and operational risks within those client relationships. Corporate Debt Products employs a variety of fundamental and technical risk management tools to support Bank of America’s commitment to maintaining acceptable levels of credit and trading loss volatility.   Debt Products managers work within the following industry groups: Consumer & Retail, Financial Institutions, Insurance, Gaming, General Industrials, Healthcare, Media & Telecom, Natural Resources, Real Estate, Financial Sponsors, and Technology.
+Corporate Debt Products is responsible for managing the Global Corporate Investment Bank&apos;s loan and trading portfolios, which includes underwriting, managing and monitoring the credit, market and operational risks within those client relationships. Corporate Debt Products employs a variety of fundamental and technical risk management tools to support Bank of America’s commitment to maintaining acceptable levels of credit and trading loss volatility.   Debt Products managers work within the following industry groups: Consumer &amp; Retail, Financial Institutions, Insurance, Gaming, General Industrials, Healthcare, Media &amp; Telecom, Natural Resources, Real Estate, Financial Sponsors, and Technology.
 </p>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
@@ -55,7 +55,7 @@ In order to be considered a candidate for this opportunity, you must apply via t
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
 
-<a href="graduate_internships.asp<% If page_section <> "ADA" Then  %><% Else  %>#t1<% End If %>" class="bacb" title="Back to U.S. Graduate Internships">Back to U.S. Graduate Internships »</a>
+<a href="graduate_internships.asp<% If page_section <> "ADA" Then  %><% Else  %>#t1<% End If %>" class="bacb" title="Back to U.S. Graduate Internships">Back to U.S. Graduate Internships  &raquo;</a>
 <br>
 				</td>
 				<td width="205" height="100%" valign="top" style="padding-top: 8px;" align="right">

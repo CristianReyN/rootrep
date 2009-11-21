@@ -36,7 +36,7 @@ Candidates must demonstrate a combination of academic aptitude, quantitative ski
 
 <h2 class="bac">Training</h2>
 <p class="bac">
-As a Public Finance Analyst you will begin your career at Bank of America with an intensive training program. Initially, you will train with your peers from other lines of business. You will then participate in a program designed specifically for Global Markets Analysts.   The program is an interactive, experientially based mix of  group projects, elearning, lectures, case studies ,business representative presentations and teambuilding activities which will provide you with a solid grounding in global markets and economics and how Bank of America's businesses, products and services operate in this global context.   Throughout the program you will have ample opportunity to meet and work with your peers and other colleagues across all levels of the Bank. The network you build during this time will be a tremendous resource to you throughout your career.
+As a Public Finance Analyst you will begin your career at Bank of America with an intensive training program. Initially, you will train with your peers from other lines of business. You will then participate in a program designed specifically for Global Markets Analysts.   The program is an interactive, experientially based mix of  group projects, elearning, lectures, case studies ,business representative presentations and teambuilding activities which will provide you with a solid grounding in global markets and economics and how Bank of America&apos;s businesses, products and services operate in this global context.   Throughout the program you will have ample opportunity to meet and work with your peers and other colleagues across all levels of the Bank. The network you build during this time will be a tremendous resource to you throughout your career.
 </p>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
@@ -55,7 +55,7 @@ In order to be considered a candidate for this opportunity, you must apply via t
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
 
-<a href="undergraduate_programs.asp<% If page_section <> "ADA" Then  %><% Else  %>#t1<% End If %>" class="bacb" title="Back to U.S. Undergraduate Programs">Back to U.S. Undergraduate Programs »</a>
+<a href="undergraduate_programs.asp<% If page_section <> "ADA" Then  %><% Else  %>#t1<% End If %>" class="bacb" title="Back to U.S. Undergraduate Programs">Back to U.S. Undergraduate Programs  &raquo;</a>
 <br>
 				</td>
 				<td width="205" height="100%" valign="top" style="padding-top: 8px;" align="right">

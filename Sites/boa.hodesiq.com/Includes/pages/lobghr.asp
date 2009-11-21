@@ -20,7 +20,7 @@
 <% If page_section <> "ADA" Then %>
 					<div align="right" style="float: right; margin: 0px 0px 0px <%=right_margin_split%>px; padding: 0px; width: 259px;">
 <!-- #include file="lob/cambra.asp" -->
-<a href="#video" class="hlink">Gretchen Cambra&acute;s Associate Testimonial Video</a>
+<a href="#video" class="hlink">Gretchen Cambra&apos;s Associate Testimonial Video</a>
 <% End If  %>
 <% If spage = "humanresources" Then %>
 <div style="width: 201px; text-align: left; border: 1px solid #e8e8e9; background: #ffffff; margin: 12px 0px 12px 0px; padding: 0px 0px 6px 0px;">
@@ -47,7 +47,7 @@ At Bank&nbsp;of&nbsp;America, we understand that the success of an organization 
 <br><br>
 In addition to advising our clients on a wide variety of topics, the Global Human Resources team helps the company deliver a higher standard of benefits, work/life commitment and satisfaction to our over 200,000 associates world-wide. Our Global Human Resources associates must display strong business acumen, relationship building and strategic partnership and execution across several businesses.
 <br><br>
-Interested in joining the "World's Most Admired Global Bank"? We invite you to explore career opportunities on our dynamic Human Resources team.
+Interested in joining the "World&apos;s Most Admired Global Bank"? We invite you to explore career opportunities on our dynamic Human Resources team.
 </p>
 <br>
 <H1 style="margin: 0px <%=right_margin%>px 9px <%=left_margin_0%>px; width: <%=(315-right_margin_split-left_margin_0)%>px;">Frequently Asked Questions</H1>
@@ -73,7 +73,7 @@ Click on a question below to play the video response.
 <p style="margin: 6px 0px 0px 0px;"><a name="answ2"></a>
 Global Human Resources is comprised of 4 key areas. 
 <br><br>
-Staffing, which is responsible for strategically partnering with the lines of business to identify and attract a diverse talent pipeline. Learning and Leadership Development, whose responsibility includes accelerating the organizational and people capabilities by attracting, developing and retaining world class talent. HR Generalist, who is responsible for strategic planning and execution of effective human resources processes, policies and programs.  And Global Compensation, Benefits & HR Shared Services. Within this last group, the compensation team is responsible for strategic planning, development and execution of all compensation processes and initiatives. The benefits group is responsible for Global Strategy, Design, Full Implementation, Governance and Vendor Relations of all benefit programs. And finally, the HR Shared Services group is responsible for defining, managing and delivering GHR operational processes to ensure best in class experiences.
+Staffing, which is responsible for strategically partnering with the lines of business to identify and attract a diverse talent pipeline. Learning and Leadership Development, whose responsibility includes accelerating the organizational and people capabilities by attracting, developing and retaining world class talent. HR Generalist, who is responsible for strategic planning and execution of effective human resources processes, policies and programs.  And Global Compensation, Benefits &amp; HR Shared Services. Within this last group, the compensation team is responsible for strategic planning, development and execution of all compensation processes and initiatives. The benefits group is responsible for Global Strategy, Design, Full Implementation, Governance and Vendor Relations of all benefit programs. And finally, the HR Shared Services group is responsible for defining, managing and delivering GHR operational processes to ensure best in class experiences.
 <br><br>
 <a href="<%= standart_href%>" title="Return to standard page with video" class="p" onfocus="this.className='p-over';" onblur="this.className='p';">Return to standard page with video</a>
 <% End If %>

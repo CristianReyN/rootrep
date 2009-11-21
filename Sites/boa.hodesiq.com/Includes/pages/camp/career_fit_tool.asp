@@ -53,7 +53,7 @@ if(fragmentoTexto.length>1)
 <a name="skipmaincontent"></a><h1 class="hidden">Career Fit Tool</h1>
 <script type="text/javascript">
 // <![CDATA[
-document.write('<div id="career_fit_tool" style="height: auto;"><a href="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash" title="In order to view this page you need Flash Player 8+ support! Please download latest version."><img src="../images/camp/cft_flash.jpg" width="577" height="580" alt="In order to view this page you need Flash Player 8+ support! Please download latest version." title="In order to view this page you need Flash Player 8+ support! Please download latest version." border="0" style="margin: 0px;" /><\/a><\/div>');
+document.write('<div id="career_fit_tool_links"></div><div id="career_fit_tool" style="height: auto;"><a href="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash" title="In order to view this page you need Flash Player 8+ support! Please download latest version."><img src="../images/camp/cft_flash.jpg" width="577" height="580" alt="In order to view this page you need Flash Player 8+ support! Please download latest version." title="In order to view this page you need Flash Player 8+ support! Please download latest version." border="0" style="margin: 0px;" /><\/a><\/div>');
 var so = new SWFObject('compass.swf', 'compass', '577px', '580px', '8', '#ffffff');
 so.addParam('allowScriptAccess','always');
 so.addParam('wmode','transparent');
@@ -77,7 +77,7 @@ if(values)
 so.useExpressInstall('swfobject/expressinstall.swf');
 so.addParam('menu', 'false');
 //if(so.write('career_fit_tool')){}
-so.write('career_fit_tool');
+if(so.write('career_fit_tool')) document.getElementById("career_fit_tool_links").innerHTML = '<a class="auraltext" href="<%=ada_href %>" onFocus="hover(this,\'show-tab\');" onblur="hover(this,\'auraltext\');" title="Access non-flash Version of Career Fit Tool">Access non-flash Version of Career Fit Tool<\/a><a class="auraltext" href="#skipflash" onFocus="hover(this,\'show-tab\');" onblur="hover(this,\'auraltext\');" title="Skip Flash content">Skip Flash content<\/a>';
 // ]]>
 </script>
 <noscript>
@@ -92,4 +92,4 @@ so.write('career_fit_tool');
 </noscript>
 				</td>
 			</tr>
-		</table>
+		</table><a name="skipflash"></a>

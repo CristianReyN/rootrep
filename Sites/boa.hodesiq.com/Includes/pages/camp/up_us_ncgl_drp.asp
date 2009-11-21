@@ -5,7 +5,7 @@
 <a name="skipmaincontent"></a><h1 class="bac">Network Computing Group Leader - Development Rotational Program</H1>
 <h2 class="bac">Our Business</h2>
 <p class="bac">
-The Network Computing Group (NCG) provides continuous operating, computing and telecommunications services to business partners across Bank of America. This includes large network server operations, client server technology, local area and wide area network (LAN/WAN) functions, telecommunications, business recovery, and other critical systems.  NCG teams include Infrastructure Engineering, Operations, Global Enterprise Access & Desktop Services, Business & Program Management, Engagement Services, Enterprise Architecture, International Consulting and the NCG Vision Transformation team.
+The Network Computing Group (NCG) provides continuous operating, computing and telecommunications services to business partners across Bank of America. This includes large network server operations, client server technology, local area and wide area network (LAN/WAN) functions, telecommunications, business recovery, and other critical systems.  NCG teams include Infrastructure Engineering, Operations, Global Enterprise Access &amp; Desktop Services, Business &amp; Program Management, Engagement Services, Enterprise Architecture, International Consulting and the NCG Vision Transformation team.
 </p>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
@@ -19,7 +19,7 @@ The Network Computing Group Leader Development Rotational Program (LDR) is an un
 
 <h2 class="bac">Qualifications</h2>
 <p class="bac">
-The ideal candidate exhibits excellent organization skills and judgment and understands technology and business requirements. Candidate also has the ability to learn the organizational structure and the formal/informal workings of the organization. They will convey a strong sense of customer and associate satisfaction to drive shareholders value. The ideal candidate will be proficient with the Microsoft Suite and other basic applications such as Outlook. Technical skills should include knowledge of several of the following technologies: UNIX, Windows NT/2000, network architecture, databases, desktop and server hardware, information security concepts and technologies, project management skills and financial industry knowledge. The preferred Grade Point Average is a minimum of a 3.0 on a 4 point scale.  A Bachelor's degree in Computer Science, Business, Engineering, or Management Information Systems is preferred.   Candidate must be a US citizen or have permanent US residency. 
+The ideal candidate exhibits excellent organization skills and judgment and understands technology and business requirements. Candidate also has the ability to learn the organizational structure and the formal/informal workings of the organization. They will convey a strong sense of customer and associate satisfaction to drive shareholders value. The ideal candidate will be proficient with the Microsoft Suite and other basic applications such as Outlook. Technical skills should include knowledge of several of the following technologies: UNIX, Windows NT/2000, network architecture, databases, desktop and server hardware, information security concepts and technologies, project management skills and financial industry knowledge. The preferred Grade Point Average is a minimum of a 3.0 on a 4 point scale.  A Bachelor&apos;s degree in Computer Science, Business, Engineering, or Management Information Systems is preferred.   Candidate must be a US citizen or have permanent US residency. 
 </p>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
@@ -51,7 +51,7 @@ In order to be considered a candidate for this opportunity, you must apply via t
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
 
-<a href="undergraduate_programs.asp<% If page_section <> "ADA" Then  %><% Else  %>#t1<% End If %>" class="bacb" title="Back to U.S. Undergraduate Programs">Back to U.S. Undergraduate Programs »</a>
+<a href="undergraduate_programs.asp<% If page_section <> "ADA" Then  %><% Else  %>#t1<% End If %>" class="bacb" title="Back to U.S. Undergraduate Programs">Back to U.S. Undergraduate Programs  &raquo;</a>
 <br>
 				</td>
 				<td width="205" height="100%" valign="top" style="padding-top: 8px;" align="right">

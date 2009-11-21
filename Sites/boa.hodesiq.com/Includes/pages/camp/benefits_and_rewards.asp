@@ -7,7 +7,7 @@ If Request("t") <> "" Then tab = Request("t")
 		<table width="578" cellpadding="0" cellspacing="0" border="0" summary="">
 			<tr valign="top">
 				<td width="393" height="100%" valign="top" style="<%=middle_content_padding%>">
-<a name="skipmaincontent"></a><h1 class="bac">Benefits and Rewards</h1>
+<a name="skipmaincontent"></a><H1 class="bac">Benefits and Rewards</H1>
 <p class="bac"<% If page_section <> "ADA" Then %> style="margin-bottom: 12px;"<% End If %>>
 Because we want to take good care of the people who are at the heart of our business, Bank of America offers a generous rewards and benefits program.
 </p>
@@ -33,11 +33,11 @@ tabs[tab-1].coremetrics = true;
 		<table width="100%" cellpadding="0" cellspacing="0" border="0" style="margin-top: 12px;" summary="">
 			<tr>
 				<td valign="top">
-					<img src="../images/camp/t1a.gif" border="0" alt="U.S." /></td>
+					<H2 class="hidden">Benefits and Rewards U.S.</H2><img src="../images/camp/t1a.gif" border="0" alt="Benefits and Rewards U.S." /></td>
 				<td valign="top">
-					<a href="#t2"><img src="../images/camp/t2.gif" border="0" alt="EMEA" /></a></td>
+					<a href="#t2" title="Benefits and Rewards EMEA"><img src="../images/camp/t2.gif" border="0" alt="Benefits and Rewards EMEA" /></a></td>
 				<td valign="top">
-					<a href="#t3"><img src="../images/camp/t3.gif" border="0" alt="Asia" /></a></td>
+					<a href="#t3" title="Benefits and Rewards Asia"><img src="../images/camp/t3.gif" border="0" alt="Benefits and Rewards Asia" /></a></td>
 				<td width="100%" background="../images/camp/trtb.gif" valign="top" align="right">
 					<img src="../images/camp/trt.gif" border="0" alt="" /></td>
 			</tr>
@@ -46,11 +46,11 @@ tabs[tab-1].coremetrics = true;
 		<table width="100%" cellpadding="0" cellspacing="0" border="0" summary="">
 			<tr>
 				<td valign="top">
-					<img id="t1" name="t1" class="h" src="../images/camp/t1<% If tab = 1 Then %>a<% End If %>.gif" border="0" alt="U.S." /></td>
+					<img id="t1" name="t1" class="h" src="../images/camp/t1<% If tab = 1 Then %>a<% End If %>.gif" border="0" alt="Benefits and Rewards U.S." /></td>
 				<td valign="top">
-					<img id="t2" name="t2" class="h" src="../images/camp/t2<% If tab = 2 Then %>a<% End If %>.gif" border="0" alt="EMEA" /></td>
+					<img id="t2" name="t2" class="h" src="../images/camp/t2<% If tab = 2 Then %>a<% End If %>.gif" border="0" alt="Benefits and Rewards EMEA" /></td>
 				<td valign="top">
-					<img id="t3" name="t3" class="h" src="../images/camp/t3<% If tab = 3 Then %>a<% End If %>.gif" border="0" alt="Asia" /></td>
+					<img id="t3" name="t3" class="h" src="../images/camp/t3<% If tab = 3 Then %>a<% End If %>.gif" border="0" alt="Benefits and Rewards Asia" /></td>
 				<td width="100%" background="../images/camp/trtb.gif" valign="top" align="right">
 					<img src="../images/camp/trt.gif" border="0" alt="" /></td>
 			</tr>
@@ -64,27 +64,27 @@ tabs[tab-1].coremetrics = true;
 			<tr>
 				<td background="../images/camp/tl.gif" valign="top">
 					<img src="../images/camp/tl.gif" width="6" height="10" border="0" alt="" /></td>
-				<td width="100%" valign="top">
+				<td width="100%" valign="top"><% If page_section <> "ADA" Then %><H2 class="hidden">Benefits and Rewards U.S.</H2><% End If %>
 <div id="dt1" style="display: <% If tab = 1 Or page_section = "ADA" Then %>inline<% Else %>none<% End If %>;">
 	<div class="innerTab">
-		<p class="bac">Our comprehensive package includes<span style="font-size: 0.6em; position: relative; top: -0.6em;">1</span></span>:</p>
+		<p class="bac">Our comprehensive package includes<span style="font-size: 0.6em; position: relative; top: -0.6em;"><a href="#footnote1" title="Footnote 1 " class="p">&nbsp;1&nbsp;</a></span></span>:</p>
 		
-		<h2 class="bac" style="margin-top: 6px;">Financial and retirement support</h2>
+		<H3 class="bac" style="margin-top: 6px;">Financial and retirement support</H3>
 		<ul class="bac">
-			<li>Discounts and additional benefits on a wide range of banking and investing products &mdash; including checking accounts with no monthly maintenance fee or balance requirement, free checks, free or discounted annual safe deposit box rental and no fees for traveler's checks among others</li>
+			<li>Discounts and additional benefits on a wide range of banking and investing products &mdash; including checking accounts with no monthly maintenance fee or balance requirement, free checks, free or discounted annual safe deposit box rental and no fees for traveler&apos;s checks among others</li>
 			<li>401K and pension plan</li>
 		</ul>
 		
 		<img src="../images/clear.gif" class="bac" alt=""><br clear="all">
 		
-		<h2 class="bac">Health care and insurance</h2>
+		<H3 class="bac">Health care and insurance</H3>
 		<ul class="bac">
 			<li>Comprehensive health care benefits include medical, dental and vision coverage, as well as Health Flex Spending Accounts</li>
 		</ul>
 		
 		<img src="../images/clear.gif" class="bac" alt=""><br clear="all">
 		
-		<h2 class="bac">Work/Life benefits</h2>
+		<H3 class="bac">Work/Life benefits</H3>
 		<ul class="bac">
 			<li>Flexible work arrangements</li>
 			<li>Paid and unpaid time off</li>
@@ -93,7 +93,7 @@ tabs[tab-1].coremetrics = true;
 		
 		<img src="../images/clear.gif" class="bac" alt=""><br clear="all">
 		
-		<h2 class="bac">Other opportunities, such as:</h2>
+		<H3 class="bac">Other opportunities, such as:</H3>
 		<ul class="bac">
 			<li>Volunteer time &mdash; Full-time associates receive up to 2 paid hours per week including travel time to volunteer at a local organization, including schools, shelters, food banks and mentoring programs</li>
 			<li>Matching gifts program &mdash; Bank of America will match associate contributions to qualifying nonprofit organizations up to a specified amount each calendar year</li>
@@ -101,7 +101,7 @@ tabs[tab-1].coremetrics = true;
 			<li>Commuter benefits</li>
 		</ul>
 		<br>
-		<p class="bac"><span style="font-size: 0.6em; position: relative; top: -0.6em;">1</span></span> <span class="s">Please note: Benefits may vary by region. Please discuss specific benefit related questions with your recruiter.</span></p>
+		<a name="footnote1"></a><p class="bac"><span style="font-size: 0.6em; position: relative; top: -0.6em;">1</span></span> <span class="s">Footnote 1: Benefits may vary by region. Please discuss specific benefit related questions with your recruiter.</span></p>
 	</div>
 </div>
 		<% If page_section = "ADA" Then %>
@@ -126,11 +126,11 @@ tabs[tab-1].coremetrics = true;
 		<table width="100%" cellpadding="0" cellspacing="0" border="0" style="margin-top: 12px;" summary="">
 			<tr>
 				<td valign="top">
-					<a href="#t1"><img src="../images/camp/t1.gif" border="0" alt="U.S." /></a></td>
+					<a href="#t1" title="Benefits and Rewards U.S."><img src="../images/camp/t1.gif" border="0" alt="Benefits and Rewards U.S." /></a></td>
 				<td valign="top">
-					<img src="../images/camp/t2a.gif" border="0" alt="EMEA" /></td>
+					<H2 class="hidden">Benefits and Rewards EMEA</H2><img src="../images/camp/t2a.gif" border="0" alt="Benefits and Rewards EMEA" /></td>
 				<td valign="top">
-					<a href="#t3"><img src="../images/camp/t3.gif" border="0" alt="Asia" /></a></td>
+					<a href="#t3" title="Benefits and Rewards Asia"><img src="../images/camp/t3.gif" border="0" alt="Benefits and Rewards Asia" /></a></td>
 				<td width="100%" background="../images/camp/trtb.gif" valign="top" align="right">
 					<img src="../images/camp/trt.gif" border="0" alt="" /></td>
 			</tr>
@@ -144,20 +144,20 @@ tabs[tab-1].coremetrics = true;
 				<td background="../images/camp/tl.gif" valign="top">
 					<img src="../images/camp/tl.gif" width="6" height="10" border="0" alt="" /></td>
 				<td width="100%" valign="top">
-		<% End If %>
+		<% Else %><H2 class="hidden">Benefits and Rewards EMEA</H2><% End If %>
 <div id="dt2" style="display: <% If tab = 2 Or page_section = "ADA" Then %>inline<% Else %>none<% End If %>;">
 	<div class="innerTab">
 		<p class="bac">Bank of America offers an award winning competitive benefits package to its associates which, we believe, is one of the best in the financial services industry.</p>
 
-		<p class="bac">Bonuses and incentive programmes are important parts of the overall package.  Associate Benefit Choices (ABC) is Bank of America's flexible benefits programme that encourages each associate to actively participate in the selection of their benefits package and gives them the freedom to choose benefits within certain criteria that work for each individual and their dependants.</p>
+		<p class="bac">Bonuses and incentive programmes are important parts of the overall package.  Associate Benefit Choices (ABC) is Bank of America&apos;s flexible benefits programme that encourages each associate to actively participate in the selection of their benefits package and gives them the freedom to choose benefits within certain criteria that work for each individual and their dependants.</p>
 
-		<p class="bac">The package can be adapted as personal circumstances change. It is a programme designed to make the bank a better place to work and it is a key element of the company's proposition to associates.</p>
+		<p class="bac">The package can be adapted as personal circumstances change. It is a programme designed to make the bank a better place to work and it is a key element of the company&apos;s proposition to associates.</p>
 
 		<p class="bac">Within ABC there are a range of twenty benefits covering Financial, Healthcare, Lifestyle and Leisure aspects of your life. Some of these benefits offer attractive Income Tax and National Insurance savings. The bank provides the opportunity for associates to receive employer matching contributions for pension, Give as You Earn, learning accounts, leisure accounts and certain health treatments.</p>
 
 		<img src="../images/clear.gif" class="bac" alt=""><br clear="all">
 
-		<h2 class="bac">Benefits within the ABC package include:</h2>
+		<H3 class="bac">Benefits within the ABC package include:</H3>
 		
 		<p class="bacb">Financial</p>
 		<ul class="bac">
@@ -196,7 +196,7 @@ tabs[tab-1].coremetrics = true;
 
 		<img src="../images/clear.gif" class="bac" alt=""><br clear="all">
 
-		<h2 class="bac">Benefits outside of the ABC package include:</h2>
+		<H3 class="bac">Benefits outside of the ABC package include:</H3>
 		<ul class="bac">
 			<li>Personal Accident Insurance</li>
 			<li>Short term sick pay (service-related provision)</li>
@@ -234,11 +234,11 @@ tabs[tab-1].coremetrics = true;
 		<table width="100%" cellpadding="0" cellspacing="0" border="0" style="margin-top: 12px;" summary="">
 			<tr>
 				<td valign="top">
-					<a href="#t1"><img src="../images/camp/t1.gif" border="0" alt="U.S." /></a></td>
+					<a href="#t1" title="Benefits and Rewards U.S."><img src="../images/camp/t1.gif" border="0" alt="Benefits and Rewards U.S." /></a></td>
 				<td valign="top">
-					<a href="#t2"><img src="../images/camp/t2.gif" border="0" alt="EMEA" /></a></td>
+					<a href="#t2" title="Benefits and Rewards EMEA"><img src="../images/camp/t2.gif" border="0" alt="Benefits and Rewards EMEA" /></a></td>
 				<td valign="top">
-					<img src="../images/camp/t3a.gif" border="0" alt="Asia" /></td>
+					<H2 class="hidden">Benefits and Rewards Asia</H2><img src="../images/camp/t3a.gif" border="0" alt="Benefits and Rewards Asia" /></td>
 				<td width="100%" background="../images/camp/trtb.gif" valign="top" align="right">
 					<img src="../images/camp/trt.gif" border="0" alt="" /></td>
 			</tr>
@@ -252,15 +252,15 @@ tabs[tab-1].coremetrics = true;
 				<td background="../images/camp/tl.gif" valign="top">
 					<img src="../images/camp/tl.gif" width="6" height="10" border="0" alt="" /></td>
 				<td width="100%" valign="top">
-		<% End If %>
+		<% Else %><H2 class="hidden">Benefits and Rewards Asia</H2><% End If %>
 <div id="dt3" style="display: <% If tab = 3 Or page_section = "ADA" Then %>inline<% Else %>none<% End If %>;">
 	<div class="innerTab">
-		<h2 class="bac" style="margin-top: 6px;">Benefits</h2>
+		<H3 class="bac" style="margin-top: 6px;">Benefits</H3>
 		<p class="bac">We offer one of the most competitive benefits packages in the financial services industry.</p>
 		
 		<img src="../images/clear.gif" class="bac" alt=""><br clear="all">
 		
-		<h2 class="bac">Performance-based compensation</h2>
+		<H3 class="bac">Performance-based compensation</H3>
 		<p class="bac">In addition to strong base compensation, bonuses and incentive programs are important parts of our overall compensation package.</p>
 	</div>
 </div>

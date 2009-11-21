@@ -5,7 +5,7 @@
 <a name="skipmaincontent"></a><h1 class="bac">Global Marketing and Corporate Affairs  Internship Program</h1>
 <h2 class="bac">Our Business</h2>
 <p class="bac">
-Global Marketing & Corporate Affairs is responsible for understanding marketplace perceptions and ensuring that we are positioning ourselves in a way that connects the interests and aspirations of our customers to our products and services. Global Marketing includes our Brand Team, Sponsorship Marketing, Operations & Risk, Brand Research & Analytics, Enterprise Media and Product Marketing.  Our Corporate Affairs Team includes Corporate Communications, Community Involvement, Public Policy/Governmental Affairs and support of the Market President Operating Model.
+Global Marketing &amp; Corporate Affairs is responsible for understanding marketplace perceptions and ensuring that we are positioning ourselves in a way that connects the interests and aspirations of our customers to our products and services. Global Marketing includes our Brand Team, Sponsorship Marketing, Operations &amp; Risk, Brand Research &amp; Analytics, Enterprise Media and Product Marketing.  Our Corporate Affairs Team includes Corporate Communications, Community Involvement, Public Policy/Governmental Affairs and support of the Market President Operating Model.
 </p>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
@@ -85,7 +85,7 @@ In order to be considered a candidate for this opportunity, you must apply via t
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
 
-<a href="graduate_internships.asp<% If page_section <> "ADA" Then  %><% Else  %>#t1<% End If %>" class="bacb" title="Back to U.S. Graduate Internships">Back to U.S. Graduate Internships »</a>
+<a href="graduate_internships.asp<% If page_section <> "ADA" Then  %><% Else  %>#t1<% End If %>" class="bacb" title="Back to U.S. Graduate Internships">Back to U.S. Graduate Internships  &raquo;</a>
 <br>
 				</td>
 				<td width="205" height="100%" valign="top" style="padding-top: 8px;" align="right">

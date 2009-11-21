@@ -36,7 +36,7 @@ Sample responsibilities and projects include:
 <h2 class="bac">Writing</h2>
 <ul class="bac">
 	<li>Writing short notes and lengthy reports on covered companies and the industry</li>
-	<li>Writing sections of coverage initiations & company conference call summaries</li>
+	<li>Writing sections of coverage initiations &amp; company conference call summaries</li>
 </ul>
 <br>
 <h2 class="bac">Client Relations</h2>
@@ -84,7 +84,7 @@ In order to be considered a candidate for this opportunity, you must apply via t
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
 
-<a href="graduate_internships.asp<% If page_section <> "ADA" Then  %><% Else  %>#t1<% End If %>" class="bacb" title="Back to U.S. Graduate Internships">Back to U.S. Graduate Internships »</a>
+<a href="graduate_internships.asp<% If page_section <> "ADA" Then  %><% Else  %>#t1<% End If %>" class="bacb" title="Back to U.S. Graduate Internships">Back to U.S. Graduate Internships  &raquo;</a>
 <br>
 				</td>
 				<td width="205" height="100%" valign="top" style="padding-top: 8px;" align="right">

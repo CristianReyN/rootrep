@@ -4,7 +4,7 @@ tab = 1
 If Request("t") <> "" Then tab = Request("t")
 %>
 		<img src="../images/clear.gif" width="100%" height="<%=(top_content_padding_bottom-2)%>" alt="" border="0"><br />
-		<a name="skipmaincontent"></a><h1 class="bac">Undergraduate Internships</h1>
+		<a name="skipmaincontent"></a><H1 class="bac">Undergraduate Internships</H1>
 		<table width="578" cellpadding="0" cellspacing="0" border="0" summary="">
 			<tr valign="top">
 				<td width="578" height="100%" valign="top" style="padding: 0px 0px 0px <%=left_margin_0%>px;">
@@ -29,9 +29,9 @@ tabs[tab-1].coremetrics = true;
 		<table width="100%" cellpadding="0" cellspacing="0" border="0" summary="">
 			<tr>
 				<td valign="top">
-					<img src="../images/camp/t1a.gif" border="0" alt="U.S." /></td>
+					<H2 class="hidden">Undergraduate Internships U.S.</H2><img src="../images/camp/t1a.gif" border="0" alt="Undergraduate Internships U.S." /></td>
 				<td valign="top">
-					<a href="#t2"><img src="../images/camp/t2.gif" border="0" alt="EMEA" /></a></td>
+					<a href="#t2" title="Undergraduate Internships EMEA"><img src="../images/camp/t2.gif" border="0" alt="Undergraduate Internships EMEA" /></a></td>
 				<td width="100%" background="../images/camp/trtb.gif" valign="top" align="right">
 					<img src="../images/camp/trt.gif" border="0" alt="" /></td>
 			</tr>
@@ -40,9 +40,9 @@ tabs[tab-1].coremetrics = true;
 		<table width="100%" cellpadding="0" cellspacing="0" border="0" summary="">
 			<tr>
 				<td valign="top">
-					<img id="t1" name="t1" class="h" src="../images/camp/t1<% If tab = 1 Then %>a<% End If %>.gif" border="0" alt="U.S." /></td>
+					<img id="t1" name="t1" class="h" src="../images/camp/t1<% If tab = 1 Then %>a<% End If %>.gif" border="0" alt="Undergraduate Internships U.S." /></td>
 				<td valign="top">
-					<img id="t2" name="t2" class="h" src="../images/camp/t2<% If tab = 2 Then %>a<% End If %>.gif" border="0" alt="EMEA" /></td>
+					<img id="t2" name="t2" class="h" src="../images/camp/t2<% If tab = 2 Then %>a<% End If %>.gif" border="0" alt="Undergraduate Internships EMEA" /></td>
 				<td width="100%" background="../images/camp/trtb.gif" valign="top" align="right">
 					<img src="../images/camp/trt.gif" border="0" alt="" /></td>
 			</tr>
@@ -56,7 +56,7 @@ tabs[tab-1].coremetrics = true;
 			<tr>
 				<td background="../images/camp/tl.gif" valign="top">
 					<img src="../images/camp/tl.gif" width="6" height="10" border="0" alt="" /></td>
-				<td width="100%" valign="top">
+				<td width="100%" valign="top"><% If page_section <> "ADA" Then %><H2 class="hidden">Undergraduate Internships U.S.</H2><% End If %>
 <div id="dt1" style="display: <% If tab = 1 Or page_section = "ADA" Then %>inline<% Else %>none<% End If %>;">
 	<div class="innerTab">
 		<p class="bacb">Corporate Staff and Support</p>
@@ -120,9 +120,9 @@ tabs[tab-1].coremetrics = true;
 		<table width="100%" cellpadding="0" cellspacing="0" border="0" style="margin-top: 12px;" summary="">
 			<tr>
 				<td valign="top">
-					<a href="#t1"><img src="../images/camp/t1.gif" border="0" alt="U.S." /></a></td>
+					<a href="#t1" title="Undergraduate Internships U.S."><img src="../images/camp/t1.gif" border="0" alt="Undergraduate Internships U.S." /></a></td>
 				<td valign="top">
-					<img src="../images/camp/t2a.gif" border="0" alt="EMEA" /></td>
+					<H2 class="hidden">Undergraduate Internships EMEA</H2><img src="../images/camp/t2a.gif" border="0" alt="Undergraduate Internships EMEA" /></td>
 				<td width="100%" background="../images/camp/trtb.gif" valign="top" align="right">
 					<img src="../images/camp/trt.gif" border="0" alt="" /></td>
 			</tr>
@@ -136,7 +136,7 @@ tabs[tab-1].coremetrics = true;
 				<td background="../images/camp/tl.gif" valign="top">
 					<img src="../images/camp/tl.gif" width="6" height="10" border="0" alt="" /></td>
 				<td width="100%" valign="top">
-		<% End If %>
+		<% Else %><H2 class="hidden">Undergraduate Internships EMEA</H2><% End If %>
 <div id="dt2" style="display: <% If tab = 2 Or page_section = "ADA" Then %>inline<% Else %>none<% End If %>;">
 	<div class="innerTab">
 		<p class="bacb">Global Corporate and Investment Banking</p>

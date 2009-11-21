@@ -43,10 +43,10 @@ The GRMAP training curriculum is a multi-phased program that complements the han
 The curriculum focus includes:
 </p>
 <ul class="bac">
-	<li>Risk Management Skills & Knowledge</li>
+	<li>Risk Management Skills &amp; Knowledge</li>
     <li>Business Acumen</li>
-    <li>Personal Effectiveness & Leadership</li> 
-    <li>Project Management & Process Skills</li>
+    <li>Personal Effectiveness &amp; Leadership</li> 
+    <li>Project Management &amp; Process Skills</li>
     <li>Relationship Building Skills</li>
 </ul>
 <p class="bac">
@@ -69,7 +69,7 @@ In order to be considered a candidate for this opportunity, you must apply via t
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
 
-<a href="undergraduate_programs.asp<% If page_section <> "ADA" Then  %><% Else  %>#t1<% End If %>" class="bacb" title="Back to U.S. Undergraduate Programs">Back to U.S. Undergraduate Programs »</a>
+<a href="undergraduate_programs.asp<% If page_section <> "ADA" Then  %><% Else  %>#t1<% End If %>" class="bacb" title="Back to U.S. Undergraduate Programs">Back to U.S. Undergraduate Programs  &raquo;</a>
 <br>
 				</td>
 				<td width="205" height="100%" valign="top" style="padding-top: 8px;" align="right">

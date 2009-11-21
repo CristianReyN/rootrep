@@ -5,13 +5,13 @@
 <a name="skipmaincontent"></a><h1 class="bac">Global Investment Banking</h1>
 <h2 class="bac">Our Business</h2>
 <p class="bac">
-Organized by industry sector, our Global Investment bankers are dedicated to understanding the unique competitive and operating environments of our clients, and to building strong, enduring client relationships. We are primarily organized into industry/product teams focused on specific sectors. Focus industries are: Consumer & Retail, Healthcare, Financial Institutions, Financial Sponsors, Global Industries, Healthcare, Technology, Media & Telecom, Natural Resources and Real Estate and Gaming.  Integrated within each industry team are M&A specialists. 
+Organized by industry sector, our Global Investment bankers are dedicated to understanding the unique competitive and operating environments of our clients, and to building strong, enduring client relationships. We are primarily organized into industry/product teams focused on specific sectors. Focus industries are: Consumer &amp; Retail, Healthcare, Financial Institutions, Financial Sponsors, Global Industries, Healthcare, Technology, Media &amp; Telecom, Natural Resources and Real Estate and Gaming.  Integrated within each industry team are M&A specialists. 
 </p>
 <p class="bac">
 Our strategy for success starts and ends with serving our clients the solutions and execution they need in today’s market.  Our product origination specialists work closely with industry bankers and sales and trading to develop creative solutions for our clients. We set ourselves apart by delivering innovative ideas and strategies, advanced technology and objective, timely analysis covering a large universe of companies, industries, products and geographies.
 </p>
 <p class="bac">
-In Europe the company is extending long-term relationships with clients and providing them with integrated business solutions. This is done by capitalising on Bank of America's strong balance sheet, debt and equity product expertise and M&A capabilities in targeted areas that leverage the bank’s U.S. strengths. Bank of America is committed to building its investment banking businesses in Europe methodically and in specific areas where the company can attain a leadership position and/or fulfill its global clients’ needs.
+In Europe the company is extending long-term relationships with clients and providing them with integrated business solutions. This is done by capitalising on Bank of America&apos;s strong balance sheet, debt and equity product expertise and M&A capabilities in targeted areas that leverage the bank’s U.S. strengths. Bank of America is committed to building its investment banking businesses in Europe methodically and in specific areas where the company can attain a leadership position and/or fulfill its global clients’ needs.
 </p>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
@@ -61,7 +61,7 @@ All applications must be made through this website. Follow this link to the <a h
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
 
-<a href="graduate_programs.asp<% If page_section <> "ADA" Then  %>?t=2<% Else  %>#t2<% End If %>" class="bacb" title="Back to EMEA Graduate Programs">Back to EMEA Graduate Programs »</a>
+<a href="graduate_programs.asp<% If page_section <> "ADA" Then  %>?t=2<% Else  %>#t2<% End If %>" class="bacb" title="Back to EMEA Graduate Programs">Back to EMEA Graduate Programs  &raquo;</a>
 <br>
 				</td>
 				<td width="205" height="100%" valign="top" style="padding-top: 8px;" align="right">

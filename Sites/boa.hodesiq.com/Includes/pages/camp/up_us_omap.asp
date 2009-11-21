@@ -31,7 +31,7 @@ Successful candidates will possess and demonstrate ability to work in a fast pac
     <li>Quantitative capability with an ability to help others quantify business concepts</li> 
     <li>The ability to quickly correlate how business decisions will affect financials</li>
     <li>Well organized with excellent planning and project management skills</li>
-    <li>Ability to communicate effectively in both written and oral forms with varying levels of management & executives</li>
+    <li>Ability to communicate effectively in both written and oral forms with varying levels of management &amp; executives</li>
     <li>Aptitude for building rapport and effective relationships</li> 
     <li>Strong bias for action and can make things happen effectively and efficiently</li>
     <li>Thrives in an environment where personal accountability and performance is balanced with a team orientation</li> 
@@ -70,7 +70,7 @@ In order to be considered a candidate for this opportunity, you must apply via t
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
 
-<a href="undergraduate_programs.asp<% If page_section <> "ADA" Then  %><% Else  %>#t1<% End If %>" class="bacb" title="Back to U.S. Undergraduate Programs">Back to U.S. Undergraduate Programs »</a>
+<a href="undergraduate_programs.asp<% If page_section <> "ADA" Then  %><% Else  %>#t1<% End If %>" class="bacb" title="Back to U.S. Undergraduate Programs">Back to U.S. Undergraduate Programs  &raquo;</a>
 <br>
 				</td>
 				<td width="205" height="100%" valign="top" style="padding-top: 8px;" align="right">

@@ -8,7 +8,7 @@
 <p class="bac">Associates in GIPBC provide industry leading business continuity and information protection services to all Bank of America (BAC) lines of business.  Some of the Business Continuity and Information Protection services are crisis management, change management, identity and access management, immunity assurance, strategy and operational planning, and vulnerability management.
 </p>
 <ul class="bac">
-	<li>BAC has almost unmatched scale and scope in global financial services; our IS & BC consistently recognized as best in the world</li>
+	<li>BAC has almost unmatched scale and scope in global financial services; our IS &amp; BC consistently recognized as best in the world</li>
 <li>The industry is seeing new and rising threats that can include:  500% increase in phishing sites, 136M viruses, 500% growth in litigation related electronic discovery</li>
 <li>More frequent and significant natural events (hurricanes, flu strains and other potential pandemics) threaten business continuity</li>
 <li>Growing, increasingly sophisticated criminal activity threaten our business, our brand, and our customers</li>
@@ -36,7 +36,7 @@ Candidate Profile:</p>
 <li>Non-graduating status (i.e. must not graduate prior to December of 2008)</li>
 <li>Work experience with a demonstrated record of achievement</li>
 <li>Well organized with excellent planning and project management skills</li>
-<li>Ability to communicate effectively in both written and oral forms with varying levels of management & executives</li>
+<li>Ability to communicate effectively in both written and oral forms with varying levels of management &amp; executives</li>
 <li>Aptitude for building rapport and effective relationships</li>
 <li>Critical thinking/analytical skills</li>
 </ul>
@@ -70,7 +70,7 @@ In order to be considered a candidate for this opportunity, you must apply via t
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
 
-<a href="undergraduate_internships.asp<% If page_section <> "ADA" Then  %><% Else  %>#t1<% End If %>" class="bacb" title="Back to U.S. Undergraduate Internships">Back to U.S. Undergraduate Internships »</a>
+<a href="undergraduate_internships.asp<% If page_section <> "ADA" Then  %><% Else  %>#t1<% End If %>" class="bacb" title="Back to U.S. Undergraduate Internships">Back to U.S. Undergraduate Internships  &raquo;</a>
 <br>
 				</td>
 				<td width="205" height="100%" valign="top" style="padding-top: 8px;" align="right">

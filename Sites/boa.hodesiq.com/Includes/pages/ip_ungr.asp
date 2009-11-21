@@ -5,13 +5,13 @@
 <img class="dotdiv" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
 <h2 class="h2" style="margin: 0px;">Our business</h2>
 <p style="margin: 0px 0px 12px 0px;">
-Global Wealth & Investment Management provides comprehensive banking and investment services tailored to meet the changing wealth-management goals of more than three million individual and institutional customers. Clients have access to services offered through three primary businesses: Premier Banking & InvestmentsTM, U.S. Trust, Bank of America Private Wealth Management, and Columbia Management.
+Global Wealth &amp; Investment Management provides comprehensive banking and investment services tailored to meet the changing wealth-management goals of more than three million individual and institutional customers. Clients have access to services offered through three primary businesses: Premier Banking &amp; InvestmentsTM, U.S. Trust, Bank of America Private Wealth Management, and Columbia Management.
 <br><br>
 <u>Premier Banking &amp; Investments</u> delivers tailored banking and investment solutions and personalized, priority service to affluent clients through locally based client teams. This division includes Premier Banking and Banc of America Investment Services, Inc.® (BAI), a full-service and online retail brokerage. 
 <br><br>
 <u>U.S. Trust, Bank of America Private Wealth Management</u> provides integrated wealth-management solutions to high-net-worth individuals, middle-market institutions and charitable organizations with investable assets greater than $3 million. 
 <br><br>
-<u>Columbia Management</u>, Bank of America's asset management organization, provides investment management solutions to institutional clients and individual investors. These include separately managed accounts, liquidity strategies, and mutual funds across a variety of investment disciplines within equities, fixed income (taxable and nontaxable) and cash (taxable and nontaxable). 
+<u>Columbia Management</u>, Bank of America&apos;s asset management organization, provides investment management solutions to institutional clients and individual investors. These include separately managed accounts, liquidity strategies, and mutual funds across a variety of investment disciplines within equities, fixed income (taxable and nontaxable) and cash (taxable and nontaxable). 
 <br><br>
 <u>GWIM Alternative Investments</u> is responsible for alternative investment solutions for high net worth, endowment, foundation, pension fund and institutional clients, and currently oversees approximately $6 billion in client assets. 
 <br><br>

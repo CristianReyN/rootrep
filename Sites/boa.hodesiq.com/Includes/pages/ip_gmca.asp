@@ -5,14 +5,14 @@
 <img class="dotdiv" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
 <h2 class="h2" style="margin: 0px;">Our business</h2>
 <p style="margin: 0px 0px 12px 0px;">
-Global Marketing & Corporate Affairs is responsible for understanding marketplace perceptions and ensuring that we are positioning ourselves in a way that connects the interests and aspirations of our customers to our products and services. Global Marketing includes our Brand Team, Sponsorship Marketing, Operations & Risk, Brand Research & Analytics, Enterprise Media and Product Marketing.  Our Corporate Affairs Team includes Corporate Communications, Community Involvement, Public Policy/Governmental Affairs and support of the Market President Operating Model.
+Global Marketing &amp; Corporate Affairs is responsible for understanding marketplace perceptions and ensuring that we are positioning ourselves in a way that connects the interests and aspirations of our customers to our products and services. Global Marketing includes our Brand Team, Sponsorship Marketing, Operations &amp; Risk, Brand Research &amp; Analytics, Enterprise Media and Product Marketing.  Our Corporate Affairs Team includes Corporate Communications, Community Involvement, Public Policy/Governmental Affairs and support of the Market President Operating Model.
 <br><br>
 <b>Global Marketing</b>: These positions will focus on developing and executing marketing initiatives in support of the line of business needs and related initiatives.
 <br>
 Specific responsibilities include:
 </p>
 <ul>
-	<li>Support marketing programs that  provide client-facing associates with marketing content that reflects the entity's value proposition and can support meaningful contact opportunities to acquire and deepen client relationships</li>
+	<li>Support marketing programs that  provide client-facing associates with marketing content that reflects the entity&apos;s value proposition and can support meaningful contact opportunities to acquire and deepen client relationships</li>
 	<li>Develop and execute strategic client communications that support specific client segment strategies through physical and electronic channels</li>
 	<li>Closely partner with line of business marketing and cross-functional business partners to implement and maintain programs that deliver against acquisition, retention and relationship deepening goals while adhering to current brand guidelines and compliance requirements</li>
 	<li>Manage external creative agencies and provide continuous guidance over the creative development process for existing and new collateral</li>

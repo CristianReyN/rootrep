@@ -20,7 +20,7 @@
 <% If page_section <> "ADA" Then %>
 					<div align="right" style="float: right; margin: 0px 0px 0px <%=right_margin_split%>px; padding: 0px; width: 259px;">
 <!-- #include file="lob/jeremy.asp" -->
-<a href="#video" class="hlink">Jeremy&acute;s Associate Testimonial Video</a>
+<a href="#video" class="hlink">Jeremy&apos;s Associate Testimonial Video</a>
 <% End If  %>
 <div style="width: 201px; text-align: left; border: 1px solid #e8e8e9; background: #ffffff; margin: 12px 0px 12px 0px; padding: 0px 0px 6px 0px;">
 	<H2 class="g" style="margin: 0px 0px 0px 0px;">Guided Job Search</H2>
@@ -92,13 +92,13 @@ Global Wealth and Investment Management (GWIM) earned 2.4 billion in net income 
 
 <img class="dotdiv" style="margin: 6px 0px 0px 0px;" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
 <p style="margin: 6px 0px 0px 0px;" class="faqpa">
-<b>What are the typical growth opportunities (career path) in Global Wealth & Investment Management?</b>
+<b>What are the typical growth opportunities (career path) in Global Wealth &amp; Investment Management?</b>
 <% If page_section <> "ADA" Then %>
 <br><img class="plresp" src="../images/clear.gif" width="10" height="1"  alt="" border="0"><br><a href="Javascript: vo_id();" onclick="playResponce(this);" class="ip">Play response</a>&nbsp;<a href="Javascript: vo_id();" onclick="playResponce(this);"><img style="margin: 0px 0px 0px 0px;" src="../images/video_off_faq.gif" alt="" border="0" align="absmiddle" class="pai" name="pa3"></a><span class="auraltext"><br class="tara_a3"></span>
 <% Else %>
 </p>
 <p style="margin: 6px 0px 0px 0px;"><a name="answ3"></a>
-Career opportunities vary by discipline and management structure.  Global Wealth & Investment Management strives to provide challenging and development-focused career paths to associates throughout their careers.  We enable those joining earlier in their careers to grow and assume new responsibilities, while offering associates at more senior levels the opportunity to leverage their proven skills and experience in addressing new challenges.  Associates can expect to move to different roles and responsibilities periodically as their manager offers new developmental assignments and recognizes their proven capabilities.  Associates have the opportunity to experience these new career opportunities and development assignments across all five lines of business within GWIM which are: Premier Banking and Investments, US Trust Bank&nbsp;of&nbsp;America Private Wealth Management Group, Columbia Management, Bank&nbsp;of&nbsp;America Retirement, and Client Solutions, and Alternative Investments.  The frequency of that movement depends on an individual's overall contributions and performance and the availability of the right career advancement role.
+Career opportunities vary by discipline and management structure.  Global Wealth &amp; Investment Management strives to provide challenging and development-focused career paths to associates throughout their careers.  We enable those joining earlier in their careers to grow and assume new responsibilities, while offering associates at more senior levels the opportunity to leverage their proven skills and experience in addressing new challenges.  Associates can expect to move to different roles and responsibilities periodically as their manager offers new developmental assignments and recognizes their proven capabilities.  Associates have the opportunity to experience these new career opportunities and development assignments across all five lines of business within GWIM which are: Premier Banking and Investments, US Trust Bank&nbsp;of&nbsp;America Private Wealth Management Group, Columbia Management, Bank&nbsp;of&nbsp;America Retirement, and Client Solutions, and Alternative Investments.  The frequency of that movement depends on an individual&apos;s overall contributions and performance and the availability of the right career advancement role.
 <br><br>
 <a href="<%= standart_href%>" title="Return to standard page with video" class="p" onfocus="this.className='p-over';" onblur="this.className='p';">Return to standard page with video</a>
 <% End If %>

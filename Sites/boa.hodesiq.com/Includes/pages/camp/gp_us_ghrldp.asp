@@ -14,13 +14,13 @@ The Global Human Resources (HR) group at Bank of America enables the company to 
 <h2 class="bac">Overview</h2>
 
 <p class="bac">
-	The Global HR College Leadership & Development Program is a 2-year rotational program designed to create a pipeline of talent that can move into key generalist or specialist areas within Global HR and help drive our business forward into the future.  The program is comprised of 2 job assignments, each lasting 12 months in length.  Throughout the program, participants will:
+	The Global HR College Leadership &amp; Development Program is a 2-year rotational program designed to create a pipeline of talent that can move into key generalist or specialist areas within Global HR and help drive our business forward into the future.  The program is comprised of 2 job assignments, each lasting 12 months in length.  Throughout the program, participants will:
 </p>
 
 <ul>
 	<li>Develop the skills and core competencies necessary to potentially move into leadership positions upon completion of the 2 year program.</li>
 	<li>Have a formal support structure including a designated assignment manager, program manager, peer coach, learning curriculum, program events, monthly program meetings, and structured onboarding orientation.</li>
-	<li>Ongoing feedback on leadership & performance</li>
+	<li>Ongoing feedback on leadership &amp; performance</li>
 	<li>Exposure to various HR functions, LOBs and access to various leadership teams through work assignments and networking events</li>
 	<li>Own and manage their careers</li>
 </ul>
@@ -32,7 +32,7 @@ The Global Human Resources (HR) group at Bank of America enables the company to 
 
 <ul>
 	<li>Partner with executive management to accelerate strategy implementation and change/build leadership talent to fuel future growth, enhance organizational performance and accelerate learning across the organization</li>
-	<li>Design, develop & deliver leadership development innovations to help clients in all businesses drive objectives</li>
+	<li>Design, develop &amp; deliver leadership development innovations to help clients in all businesses drive objectives</li>
 	<li>Collaborate with clients to create competitive, innovative leadership development plans that drive short and long term business growth</li>
 	<li>Consult with the line of business on key issues including executive and management development, succession planning, key high potentials' development, organizational development, change management and change communications</li>
 	<li>Provide expert advice; “create the pull” for a different client agenda; ask the tough questions</li>
@@ -43,7 +43,7 @@ The Global Human Resources (HR) group at Bank of America enables the company to 
 <h2 class="bac">Learning Consultant I - responsibilities include:</h2>
 
 <ul>
-	<li>Assist learning managers and L&LD(Learning & Leadership Development) client team to create end-to-end learning solutions that support and drive business strategy</li>
+	<li>Assist learning managers and L&LD(Learning &amp; Leadership Development) client team to create end-to-end learning solutions that support and drive business strategy</li>
 	<li>Identify skill gaps and define the appropriate solutions</li>	
 	<li>Assist with the effective implementation of learning solutions, including:
 	<ul>
@@ -77,7 +77,7 @@ The Global Human Resources (HR) group at Bank of America enables the company to 
 	<li>Design, develop and deliver compensation strategy innovations that help clients across all businesses drive business objectives</li>
 	<li>Skillfully interpret survey data for market pricing; chooses relevant information, analyzes and matches job to similar roles in the marketplace</li>
 	<li>Modify compensation programs based on changes in business strategy/performance</li>
-	<li>Demonstrate in-depth knowledge of incentive plan components (eligibility, performance measures & funding methods)</li>
+	<li>Demonstrate in-depth knowledge of incentive plan components (eligibility, performance measures &amp; funding methods)</li>
 	<li>Facilitate/drive flawless execution of the year-end incentive process</li>
 	<li>Leverage tools, processes, education strategies and HR partners to drive pay for performance adoption</li>
 	<li>Change Management: Build commitment to compensation process changes; builds support along the way and works with client group to address issues, obstacles, resistance to change</li>
@@ -97,10 +97,10 @@ The Global Human Resources (HR) group at Bank of America enables the company to 
 
 <ul>
 	<li>Partner successfully with Compensation and Benefits management to develop audience adoption and engagement plans for key initiatives, to enhance organizational programs and to accelerate understanding across the organization</li>
-	<li>Design, develop & deliver readiness plans to help clients drive objectives</li>
+	<li>Design, develop &amp; deliver readiness plans to help clients drive objectives</li>
 	<li>Consult with Compensation and Benefits on: new program development, building communications plans to support new programs and developing metrics driven approaches to gauge effectiveness of communications plans</li>
 </ul>
-<h2 class="bac">Selection & Assessments – responsibilities include: </h2>
+<h2 class="bac">Selection &amp; Assessments – responsibilities include: </h2>
 
 <ul>
 	<li>Assist with the development, validation, implementation, and monitoring of employment selection systems and tools throughout the company</li>
@@ -128,7 +128,7 @@ The Global Human Resources (HR) group at Bank of America enables the company to 
 <h2 class="bac">Locations:</h2>
 
 <p class="bac">
-The majority of the opportunities exist in Charlotte, NC with LIMITED opportunities in other major US cities across the Bank of America franchise, including but not limited to: Boston, MA & New York, NY.  Other locations are TBD.
+The majority of the opportunities exist in Charlotte, NC with LIMITED opportunities in other major US cities across the Bank of America franchise, including but not limited to: Boston, MA &amp; New York, NY.  Other locations are TBD.
 </p>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
@@ -140,7 +140,7 @@ In order to be considered a candidate for this opportunity, you must apply via t
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
 
-<a href="graduate_programs.asp<% If page_section <> "ADA" Then  %><% Else  %>#t1<% End If %>" class="bacb" title="Back to U.S. Graduate Programs">Back to U.S. Graduate Programs »</a>
+<a href="graduate_programs.asp<% If page_section <> "ADA" Then  %><% Else  %>#t1<% End If %>" class="bacb" title="Back to U.S. Graduate Programs">Back to U.S. Graduate Programs  &raquo;</a>
 <br>
 				</td>
 				<td width="205" height="100%" valign="top" style="padding-top: 8px;" align="right">

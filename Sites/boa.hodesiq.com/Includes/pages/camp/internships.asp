@@ -7,7 +7,7 @@ If Request("t") <> "" Then tab = Request("t")
 		<table width="578" cellpadding="0" cellspacing="0" border="0" summary="">
 			<tr valign="top">
 				<td width="393" height="100%" valign="top" style="<%=middle_content_padding%>">
-<a name="skipmaincontent"></a><h1 class="bac">Internships</h1>
+<a name="skipmaincontent"></a><H1 class="bac">Internships</H1>
 					<p class="bac">An internship at Bank of America is more than an impressive line on a resume. Here you'll work alongside our full-time associates performing real tasks with the potential for measurable impact on our business. The skill-building and networking opportunities you'll get with us can make all the difference after graduation.</p>
 					<ul class="bac" style="margin-top: 12px;<% If page_section <> "ADA" Then %> margin-bottom: 12px;<% End If %>">
 						<li><a href="undergraduate_internships.asp" class="bacb" title="Undergraduate Internships">Undergraduate Internships</a></li>
@@ -34,9 +34,9 @@ tabs[tab-1].coremetrics = true;
 		<table width="100%" cellpadding="0" cellspacing="0" border="0" style="margin-top: 12px;" summary="">
 			<tr>
 				<td valign="top">
-					<img src="../images/camp/t1a.gif" border="0" alt="U.S." /></td>
+					<H2 class="hidden">Internships U.S.</H2><img src="../images/camp/t1a.gif" border="0" alt="Internships U.S." /></td>
 				<td valign="top">
-					<a href="#t2"><img src="../images/camp/t2.gif" border="0" alt="EMEA" /></a></td>
+					<a href="#t2" title="Internships EMEA"><img src="../images/camp/t2.gif" border="0" alt="Internships EMEA" /></a></td>
 				<td width="100%" background="../images/camp/trtb.gif" valign="top" align="right">
 					<img src="../images/camp/trt.gif" border="0" alt="" /></td>
 			</tr>
@@ -45,9 +45,9 @@ tabs[tab-1].coremetrics = true;
 		<table width="100%" cellpadding="0" cellspacing="0" border="0" summary="">
 			<tr>
 				<td valign="top">
-					<img id="t1" name="t1" class="h" src="../images/camp/t1<% If tab = 1 Then %>a<% End If %>.gif" border="0" alt="U.S." /></td>
+					<img id="t1" name="t1" class="h" src="../images/camp/t1<% If tab = 1 Then %>a<% End If %>.gif" border="0" alt="Internships U.S." /></td>
 				<td valign="top">
-					<img id="t2" name="t2" class="h" src="../images/camp/t2<% If tab = 2 Then %>a<% End If %>.gif" border="0" alt="EMEA" /></td>
+					<img id="t2" name="t2" class="h" src="../images/camp/t2<% If tab = 2 Then %>a<% End If %>.gif" border="0" alt="Internships EMEA" /></td>
 				<td width="100%" background="../images/camp/trtb.gif" valign="top" align="right">
 					<img src="../images/camp/trt.gif" border="0" alt="" /></td>
 			</tr>
@@ -61,10 +61,10 @@ tabs[tab-1].coremetrics = true;
 			<tr>
 				<td background="../images/camp/tl.gif" valign="top">
 					<img src="../images/camp/tl.gif" width="6" height="10" border="0" alt="" /></td>
-				<td width="100%" valign="top">
+				<td width="100%" valign="top"><% If page_section <> "ADA" Then %><H2 class="hidden">Internships U.S.</H2><% End If %>
 <div id="dt1" style="display: <% If tab = 1 Or page_section = "ADA" Then %>inline<% Else %>none<% End If %>;">
 	<div class="innerTab">
-		<h2 class="bac">Eligibility</h2>
+		<H3 class="bac">Eligibility</H3>
 		<p class="bac">Internships are available to full-time undergraduate or graduate students attending an accredited college/university who also meet the following requirements:</p>
 		<ul class="bac">
 			<li>Overall GPA of 3.0 or above</li>
@@ -75,7 +75,7 @@ tabs[tab-1].coremetrics = true;
 
 		<img src="../images/clear.gif" class="bac" alt=""><br clear="all">
 
-		<h2 class="bac">Internship Benefits</h2>
+		<H3 class="bac">Internship Benefits</H3>
 		<p class="bac" style="margin-left: 24px;"><b>Compensation</b> - We offer competitive compensation and benefits such as access to Associate Banking and 2 paid days off if you work more than 10 weeks. You'll be classified as a temporary associate for benefits purposes.</p>
 	
 		<p class="bac" style="margin-left: 24px;"><b>Networking</b> - You'll have the chance to meet and interact with senior executives at a variety of meetings and receptions. In addition, volunteer and social activities are great opportunities to meet other interns.</p>
@@ -86,12 +86,12 @@ tabs[tab-1].coremetrics = true;
 
 		<img src="../images/clear.gif" class="bac" alt=""><br clear="all">
 
-		<h2 class="bac">Important Dates</h2>
+		<H3 class="bac">Important Dates</H3>
 		<p class="bac">Internships typically begin in May and continue through August. The application deadline is mid-February of each year, and open positions are usually filled by mid-April.</p>
 
 		<img src="../images/clear.gif" class="bac" alt=""><br clear="all">
 
-		<h2 class="bac">Locations</h2>
+		<H3 class="bac">Locations</H3>
 		<p class="bac">Most of our internship opportunities are in:</p>
 		<table cellpadding="0" cellspacing="0" border="0" summary="">
 			<tr>
@@ -143,9 +143,9 @@ tabs[tab-1].coremetrics = true;
 		<table width="100%" cellpadding="0" cellspacing="0" border="0" style="margin-top: 12px;" summary="">
 			<tr>
 				<td valign="top">
-					<a href="#t1"><img src="../images/camp/t1.gif" border="0" alt="U.S." /></a></td>
+					<a href="#t1" title="Internships U.S."><img src="../images/camp/t1.gif" border="0" alt="Internships U.S." /></a></td>
 				<td valign="top">
-					<img src="../images/camp/t2a.gif" border="0" alt="EMEA" /></td>
+					<H2 class="hidden">Internships EMEA</H2><img src="../images/camp/t2a.gif" border="0" alt="Internships EMEA" /></td>
 				<td width="100%" background="../images/camp/trtb.gif" valign="top" align="right">
 					<img src="../images/camp/trt.gif" border="0" alt="" /></td>
 			</tr>
@@ -159,10 +159,10 @@ tabs[tab-1].coremetrics = true;
 				<td background="../images/camp/tl.gif" valign="top">
 					<img src="../images/camp/tl.gif" width="6" height="10" border="0" alt="" /></td>
 				<td width="100%" valign="top">
-		<% End If %>
+		<% Else %><H2 class="hidden">Internships EMEA</H2><% End If %>
 <div id="dt2" style="display: <% If tab = 2 Or page_section = "ADA" Then %>inline<% Else %>none<% End If %>;">
 	<div class="innerTab">
-		<p class="bac">Bank of America's summer analyst programme is the ideal opportunity to gain an introduction into the world of banking. The 10-week programme kicks off with an induction week covering core skills before you hit your desk where you will work along side our fulltime associates gaining valuable work experience in the financial industry.</p>
+		<p class="bac">Bank of America&apos;s summer analyst programme is the ideal opportunity to gain an introduction into the world of banking. The 10-week programme kicks off with an induction week covering core skills before you hit your desk where you will work along side our fulltime associates gaining valuable work experience in the financial industry.</p>
 
 		<p class="bac">Throughout the summer, as well as receiving support from your line manager, HR and a buddy, you will also experience a number of social and educational events giving you a great insight into Bank of America.  There will be an opportunity to receive formal feedback in the middle and at the end of your internship.</p>
 
