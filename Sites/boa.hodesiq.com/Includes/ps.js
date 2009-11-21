@@ -24,6 +24,11 @@ function startPs()
 		document.getElementById("relinfo").style.top = document.getElementById("learnmoreli").offsetTop-1;
 		document.getElementById("relinfo").style.visibility = "visible";
 	}
+	if(document.getElementById("glc"))
+	{
+		document.getElementById("glc").style.top = document.getElementById("globalli").offsetTop-1;
+		document.getElementById("glc").style.visibility = "visible";
+	}
 	
 	if(window.preloadCC) preloadCC();
 	var aa = new Array();
@@ -66,11 +71,11 @@ if(document.getElementById("lnav")){
 		{
 			elements[i].onmouseover=function() {
 				this.className+=" fover";
-				if(tdiv && (this.id=="areasoftalentli" || this.id=="learnmoreli" || this.id=="lobli"))tdiv(false);
+				if(tdiv && (this.id=="areasoftalentli" || this.id=="learnmoreli" || this.id=="lobli" || this.id=="globalcareers"))tdiv(false);
 			}
 			elements[i].onmouseout=function() {
 				this.className=this.className.replace(new RegExp(" fover\\b"), "");
-				if(tdiv && (this.id=="areasoftalentli" || this.id=="learnmoreli" || this.id=="lobli"))tdiv(true);
+				if(tdiv && (this.id=="areasoftalentli" || this.id=="learnmoreli" || this.id=="lobli" || this.id=="globalcareers"))tdiv(true);
 			}
 			
 			lia = elements[i].getElementsByTagName("a");
@@ -88,16 +93,16 @@ if(document.getElementById("lnav")){
 					this.className=this.baseClassName+'-over';
 					this.li.className+=" fover";
 					if(this.pli) this.pli.className+=" fover";
-					if(tdiv && this.li && (this.li.id=="areasoftalentli" || this.li.id=="learnmoreli" || this.li.id=="lobli"))tdiv(false);
-					if(tdiv && this.pli && (this.pli.id=="areasoftalentli" || this.pli.id=="learnmoreli" || this.pli.id=="lobli"))tdiv(false);
+					if(tdiv && this.li && (this.li.id=="areasoftalentli" || this.li.id=="learnmoreli" || this.li.id=="lobli" || this.id=="globalcareers"))tdiv(false);
+					if(tdiv && this.pli && (this.pli.id=="areasoftalentli" || this.pli.id=="learnmoreli" || this.pli.id=="lobli" || this.id=="globalcareers"))tdiv(false);
 				}
 				lia[0].onblur=function() {
 					this.className=this.baseClassName;
 					this.li.className=this.li.className.replace(new RegExp(" fover\\b"), "");
 					if(this.pli) this.pli.className=
 						this.pli.className.replace(new RegExp(" fover\\b"), "");
-					if(tdiv && this.li && (this.li.id=="areasoftalentli" || this.li.id=="learnmoreli" || this.li.id=="lobli"))tdiv(true);
-					if(tdiv && this.pli && (this.pli.id=="areasoftalentli" || this.pli.id=="learnmoreli" || this.pli.id=="lobli"))tdiv(true);
+					if(tdiv && this.li && (this.li.id=="areasoftalentli" || this.li.id=="learnmoreli" || this.li.id=="lobli" || this.id=="globalcareers"))tdiv(true);
+					if(tdiv && this.pli && (this.pli.id=="areasoftalentli" || this.pli.id=="learnmoreli" || this.pli.id=="lobli" || this.id=="globalcareers"))tdiv(true);
 				}
 			}
 		}
