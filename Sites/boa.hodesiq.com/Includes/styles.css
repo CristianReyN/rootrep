@@ -31,6 +31,12 @@ P.s, UL.s, LI.s
     background-color: transparent;
 }
 
+label
+{
+	font-weight :bold;
+}
+
+
 .ftrtxt
 {
 	font-family : Verdana, Helvetica, sans-serif;
@@ -272,7 +278,8 @@ A
     color: #405EBE;
     text-decoration: underline;
 }
-A:hover, A.over
+/*
+A.hover, A.over
 {
 	font-family : Verdana, Helvetica, sans-serif;
 	font-size : 0.9em;
@@ -281,7 +288,7 @@ A:hover, A.over
     color: #0000FF;
     text-decoration: none;
 }
-A:visited
+A.visited
 {
 	font-family : Verdana, Helvetica, sans-serif;
 	font-size : 0.9em;
@@ -290,7 +297,7 @@ A:visited
     color: #651C7E;
     text-decoration: underline;
 }
-
+*/
 A.g, A.g:visited
 {
 	font-family : Verdana, Helvetica, sans-serif;
