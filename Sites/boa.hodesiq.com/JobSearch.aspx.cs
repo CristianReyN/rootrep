@@ -35,18 +35,18 @@ public partial class JobSearch : System.Web.UI.Page
 
             Location Lo = new Location();
             State.DataTextField = "State";
-            State.DataValueField = "Req_ID";
+            State.DataValueField = "State";
             State.DataSource = Lo.State();
             State.DataBind();
             State.Items.Insert(0, new ListItem("Select a State", ""));
             State.SelectedIndex = 0;
 
-            City.DataTextField = "City";
-            City.DataValueField = "Req_ID";
-            City.DataSource = Lo.City();
-            City.DataBind();
-            City.Items.Insert(0, new ListItem("Select a City", ""));
-            City.SelectedIndex = 0;
+            //City.DataTextField = "City";
+            //City.DataValueField = "Req_ID";
+            //City.DataSource = Lo.City();
+            //City.DataBind();
+            //City.Items.Insert(0, new ListItem("Select a City", ""));
+            //City.SelectedIndex = 0;
             ViewState["PstBack"] = "1";
         }
     }
@@ -72,7 +72,7 @@ public partial class JobSearch : System.Web.UI.Page
         Location Lo = new Location();
         City.Items.Clear();
         City.DataTextField = "City";
-        City.DataValueField = "LocationId";
+        City.DataValueField = "City";
         if (State.SelectedIndex ==0)
         City.DataSource = Lo.StatewiseCity("1");
         else
@@ -104,7 +104,7 @@ public partial class JobSearch : System.Web.UI.Page
         }
         if (State.SelectedIndex == 0)
         {
-            state = "1";
+            state = "";
         }
         else
         {
@@ -112,7 +112,7 @@ public partial class JobSearch : System.Web.UI.Page
         }
         if (City.SelectedIndex == 0)
         {
-            city = "1";
+            city = "";
         }
         else
         {

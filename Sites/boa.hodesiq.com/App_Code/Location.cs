@@ -24,7 +24,7 @@ public class Location
         try
         {
             Sql = string.Empty;
-            Sql = "select req_id,city from location";
+            Sql = "select distinct city from locations1";
             db = new DBUtils();
         }
         catch (Exception ex)
@@ -42,7 +42,7 @@ public class Location
         try
         {
             Sql = string.Empty;
-            Sql = "select req_ID,State from Location";
+            Sql = "select distinct State from Locations1";
             db = new DBUtils();
         }
         catch (Exception ex)

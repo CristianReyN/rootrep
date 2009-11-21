@@ -73,7 +73,7 @@ public class Jobs
         try
         {
             Sql = string.Empty;
-            Sql = "select distinct Language_requirements from Jobs";
+            Sql = "select distinct Language_requirements from Jobs1";
             db = new DBUtils();
         }
         catch (Exception ex)
@@ -93,7 +93,7 @@ public class Jobs
         try
         {
             Sql = string.Empty;
-            Sql = "select PostingDate from Jobs";
+            Sql = "select Posting_Date from Jobs1";
             db = new DBUtils();
         }
         catch(Exception ex)
