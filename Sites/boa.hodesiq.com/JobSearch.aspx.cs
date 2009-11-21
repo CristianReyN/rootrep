@@ -158,8 +158,9 @@ public partial class JobSearch : System.Web.UI.Page
 	protected void brefine_Click(object sender, EventArgs e)
 	{
         RefineSearch( ddlState.SelectedItem.Value);
-        //if (sender.GetType()== typeof(System.Web.UI.WebControls.DropDownList))
+        bsearch_Click(sender, e);
         this.ddlCity.Focus();
+
 	}
 	protected void bsearch_Click(object sender, EventArgs e)
 	{

@@ -33,7 +33,7 @@
 						<td  valign="top" colspan="2" style="width:100%">
 							<asp:Label ID="lblState" runat="server" Text="Location" AssociatedControlID="ddlState"></asp:Label><br />
 							<div id="d2" style="display: inline;">
-							<asp:DropDownList ID="ddlState" runat="server" CssClass="left" Style="width: 50%; z-index: auto;"
+							<asp:DropDownList ID="ddlState"   runat="server" CssClass="left" Style="width: 50%; z-index: auto;"
 								ToolTip="Select a state" AutoPostBack="false" OnSelectedIndexChanged="brefine_Click">
 								<asp:ListItem>All Locations&#160;</asp:ListItem>
 							</asp:DropDownList>

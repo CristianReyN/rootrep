@@ -46,7 +46,7 @@ public partial class Tell_a_friend : System.Web.UI.Page
             {
                 MailMessage message = new MailMessage();
 				message.ReplyTo = new MailAddress(this.YourEmail.Text.ToString());
-				message.From = ConfigurationManager.AppSettings["boafromaddress"];
+				message.From =  new MailAddress(ConfigurationManager.AppSettings["boafromaddress"].ToString());
                 message.To.Add(new MailAddress(this.FriendEmail.Text.ToString()));
                 message.Subject = "Career opportunity with Bank Of America";
                 message.IsBodyHtml = true;
@@ -121,7 +121,7 @@ public partial class Tell_a_friend : System.Web.UI.Page
     {
         Jobs Jobs = new Jobs();
         OleDbDataReader dr;
-        dr = Jobs.TrackTellAFriendDR(Request.QueryString["JobId"].ToString(), this.YourEmail.Text.ToString(), FriendEmail.Text.ToString());
+        dr = Jobs.TrackTellAFriendDR(Request.QueryString["JobId"].ToString(), this.YourEmail.Text.ToString(), this.FriendEmail.Text.ToString());
         dr.Close();
     }
 
