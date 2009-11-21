@@ -263,7 +263,7 @@ function preloadCC(){MM_preloadImages('../images/cc_next_over.gif','../images/cc
 			'If selected_program_points(sprg) > 0 And (sprg <= min_programs_per_page Or selected_program_points(sprg) >= stop_points) Then
 			If selected_program_points(sprg) > 0 And sprg <= min_programs_per_page Then
 %>
-<p style="margin: 0px 0px 12px 0px;"><a class="left2" href="<% Response.write programs(selected_programs(sprg)).Item("url") %>"><% Response.write programs(selected_programs(sprg)).Item("title") %></a></p>
+<p style="margin: 0px 0px 12px 0px;"><a class="left2" href="<% Response.write programs(selected_programs(sprg)).Item("url") %>"><% Response.write programs(selected_programs(sprg)).Item("title")' &" ("&programs(selected_programs(sprg)).Item("points")&")" %></a></p>
 <%			End If
 		Next %>
 							</td>

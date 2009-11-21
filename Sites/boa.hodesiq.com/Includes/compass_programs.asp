@@ -131,6 +131,7 @@ question_programs.add 58,Split("1,8,9,10,21,22,25,27,28,29",",")
 question_programs.add 59,Split("14,20,23,24",",")
 question_programs.add 60,Split("12,18,19",",")
 question_programs.add 61,Split("1,2",",")
+question_programs.add 62,Split("",",")
 
 Function getPrograms(question_number)
 'Response.write "getPrograms question_number: " &  question_programs.Exists(question_number) & "<br>"
