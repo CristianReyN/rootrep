@@ -12,11 +12,14 @@
 	
 	store_page_number = 0
 	
+	Dim redirect_to_no_request_page
+		redirect_to_no_request_page = true
 	If ExistsInRequest("restart.x") Or (request_page_number = 0 And session_page_number = 0) Then
 		session.Contents.Remove("page_number")
 		session.Contents.Remove("pages")
 		request_page_number = 1
 		store_page_number = 0
+		If Not ExistsInRequest("restart.x") Then redirect_to_no_request_page = false
 	ElseIf ExistsInRequest("previous.x") Then
 		request_page_number = request_page_number - 2
 		store_page_number = 0
@@ -75,7 +78,7 @@
 '******** REDIRECT TO PAGE WITH NO QUERY ********'
 	If request_page_number > 0 Then
 		session.Contents("page_number") = request_page_number
-		Response.Redirect("career_compass.asp")
+		If redirect_to_no_request_page Then Response.Redirect("career_compass.asp")
 	End If
 	
 	previous_page_number = 0
