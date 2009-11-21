@@ -8,7 +8,7 @@
 <ul>
 	<li style="padding-bottom: 12px;"><b>Doing the right thing</b><br>
 We have the responsibility to do the right thing for our customers, shareholders, communities and one another.</li>
-	<li style="padding-bottom: 12px;"><b>Trusting & teamwork</b><br>
+	<li style="padding-bottom: 12px;"><b>Trusting &amp; teamwork</b><br>
 We succeed together, taking responsibility for our customers' satisfaction.</li>
 	<li style="padding-bottom: 12px;"><b>Inclusive meritocracy</b><br>
 We care about one another, value one another's differences, focus on results and strive to help all associates reach their full potential.</li>

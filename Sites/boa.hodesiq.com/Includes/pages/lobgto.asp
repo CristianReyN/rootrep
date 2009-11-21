@@ -2,12 +2,12 @@
 		<table width="578" cellpadding="0" cellspacing="0" border="0" summary="">
 			<tr valign="top">
 				<td width="578" colspan="2" valign="top" style="padding: 0px 0px 0px 12px;">
-<H2 class="h1" style="margin: 2px 0px 0px 0px;">Global Technology & Operations</H2>
+<H2 class="h1" style="margin: 2px 0px 0px 0px;">Global Technology &amp; Operations</H2>
 				</td>
 			</tr>
 			<tr valign="top">
 				<td width="373" height="100%" valign="top" style="padding: 0px 5px 0px 12px;">
-<p style="margin: 12px 0px 12px 0;">A career within Bank of America's Global Technology & Operations group is your opportunity to:</p>
+<p style="margin: 12px 0px 12px 0;">A career within Bank of America's Global Technology &amp; Operations group is your opportunity to:</p>
 <ul>
 	<li>Develop and maintain innovative solutions that support Bank of America customers, clients, and associates worldwide</li>
 	<li>Leverage existing and emerging technologies to optimize the corporate performance and support its business objectives</li>
@@ -16,7 +16,7 @@
 <p style="margin: 12px 0px 12px 0;">
 Technology represents one of the greatest areas of present and future opportunity at Bank of America. The vision and talent of our technical associates are essential assets as we continue to build on our position of global leadership and shape the future of the banking industry.
 <br><br>
-Global Technology & Operations (GT&O) responds to our customer, client, and associate needs and requests through advanced technology, systems, and call centers. GT&O builds and maintains a world-class data network linking more than 5,700 banking centers, 17,000+ ATMs, and the nation's leading online banking and bill pay service. GT&O runs multiple data centers while providing support for tens of thousands of desktops throughout the corporation.
+Global Technology &amp; Operations (GT&O) responds to our customer, client, and associate needs and requests through advanced technology, systems, and call centers. GT&O builds and maintains a world-class data network linking more than 5,700 banking centers, 17,000+ ATMs, and the nation's leading online banking and bill pay service. GT&O runs multiple data centers while providing support for tens of thousands of desktops throughout the corporation.
 <br><br>
 The technological superiority of our systems is as important as the quality of the services and products we offer. A highly experienced team, leading-edge initiatives, visible products, and our commitment to training combine to form an environment of unparalleled opportunity for dedicated technical professionals.
 </p>
@@ -24,7 +24,7 @@ The technological superiority of our systems is as important as the quality of t
 <h3 class="p"><span style="color: #405EBE; font-weight : bold;">Fast Facts</span> about Global Technology &amp; Operations</h3>
 <ul>
 	<li>In support of our visually impaired customers, Bank of America has developed and deployed the nation's largest network of talking ATMs.</li>
-	<li>GT & O recently helped Bank of America complete the largest, most complex and fastest combination of two major financial companies in history.</li>
+	<li>GT &amp; O recently helped Bank of America complete the largest, most complex and fastest combination of two major financial companies in history.</li>
 	<li>Bank of America invested over one million technology hours to creating our industry leading network which currently serves and supports:
 		<ul type="circle">
 			<li>5,800 banking centers

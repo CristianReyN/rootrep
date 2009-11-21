@@ -17,7 +17,7 @@ The Compensation Consultant is likely to work with large client groups on the is
 	<li>Using specialized knowledge and skills to address key challenges, solve major job-relevant problems and otherwise perform the technical responsibilities of the job with a high level of competence</li>
 	<li>Skillfully interpreting survey data for market pricing, choosing relevant information, and analyzing and matching jobs to similar roles in the marketplace</li>
 	<li>Modifying compensation programs based on changes in business strategy/performance</li>
-	<li>Demonstrating in-depth knowledge of incentive plan components (eligibility, performance measures & funding methods)</li>
+	<li>Demonstrating in-depth knowledge of incentive plan components (eligibility, performance measures &amp; funding methods)</li>
 	<li>Facilitating and driving flawless execution of the year-end incentive process</li>
 	<li>Leveraging tools, processes, education strategies and HR partners to drive pay for performance adoption</li>
 	<li>Building commitment to compensation process changes, and building support along the way while working with client groups to address issues, obstacles and resistance to change</li>

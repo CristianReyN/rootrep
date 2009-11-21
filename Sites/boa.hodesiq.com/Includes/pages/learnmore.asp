@@ -21,7 +21,7 @@ When a company's culture values the individual in all of us, anything is possibl
 
 <H2 class="p" style="margin: 0px; padding: 0px;"><a href="<% if page_section <> "ADA" then Response.write "../learnmore/corpinfo.asp" Else Response.write "corpinfo.asp" End If%>" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="Corporate information">Corporate information</a></H2>
 <p style="margin-top: 6px;">
-Five major areas encompass Bank of America's interests: Global Consumer & Small Business Banking; Global Wealth & Investment Management; Global Corporate and Investment Banking; Global Technology Service & Fulfillment; and Corporate Staff & Support. All our ventures embrace five values that speak to the way we interact with our customers, our shareholders, our communities and one another:  Do the right thing, Trusting & teamwork, Inclusive meritocracy, Winning and Leadership.</p>
+Five major areas encompass Bank of America's interests: Global Consumer &amp; Small Business Banking; Global Wealth &amp; Investment Management; Global Corporate and Investment Banking; Global Technology Service &amp; Fulfillment; and Corporate Staff &amp; Support. All our ventures embrace five values that speak to the way we interact with our customers, our shareholders, our communities and one another:  Do the right thing, Trusting &amp; teamwork, Inclusive meritocracy, Winning and Leadership.</p>
 
 <H2 class="p" style="margin: 0px; padding: 0px;"><a href="<% if page_section <> "ADA" Then %>../staffingevents/<% End If%>staffingprocess.asp" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="Our staffing process">Our staffing process</a></H2>
 <p style="margin-top: 6px;">

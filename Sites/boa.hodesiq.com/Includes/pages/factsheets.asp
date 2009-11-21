@@ -14,7 +14,7 @@ As evidence of its commitment to diversity and inclusion, Bank of America:</p>
 <H2 class="p" style="margin: 12px 0px 6px 0px; padding: 0px;"><span class="bd"><b>Organization and Culture</b></span></H2>
 <ul>
 	<li>Established a <b>25-member Executive Global Diversity and Inclusion Council</b> that sets the direction and guides the implementation for diversity and inclusion at Bank of America.</li>
-	<li>In late 2006, Global Wealth & Investment Management Executive, Brian Moynihan, was appointed Chairman of the bank's Global Diversity and Inclusion Council. Prior to his appointment to the Global Diversity and Inclusion Council, he was the sponsoring executive for the bank's Disability Affinity Group.</li>
+	<li>In late 2006, Global Wealth &amp; Investment Management Executive, Brian Moynihan, was appointed Chairman of the bank's Global Diversity and Inclusion Council. Prior to his appointment to the Global Diversity and Inclusion Council, he was the sponsoring executive for the bank's Disability Affinity Group.</li>
 	<li>Has <b>dozens of Diversity Business Councils</b> operating in various business lines to address diversity and inclusion issues.</li>
 	<li>Has six <b>Affinity Groups</b> (informal, company-recognized groups of associates with common interests) that meet periodically to network and support one another's development and success.</li>
 	<li>More than 50 <b>Team Bank of America Diversity Networks</b>, consisting of geographically based volunteer teams of associates, encourage and capitalize on the diversity of our associates and promote personal and professional development.</li>

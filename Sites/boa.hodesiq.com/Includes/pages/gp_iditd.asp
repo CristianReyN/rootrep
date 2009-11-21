@@ -37,7 +37,7 @@ Responsibilities include:
 	<li>Bachelor's degree in Instructional Design or Development, Training, Human Performance Improvement or Business, Master's degree candidate in Instructional Design preferred</li>
 	<li>Proven ability to create innovative and effective learning solutions that drive business results</li>
 	<li>Experience designing learning solutions and curriculum development experience in multiple delivery methods (ILT, WBT, structured writing practices, etc.)</li>
-	<li>Experience with Microsoft Office applications (Word & PowerPoint) and WBT development software</li>
+	<li>Experience with Microsoft Office applications (Word &amp; PowerPoint) and WBT development software</li>
 	<li>Strong ability to work closely with multiple developers to produce consistent look and feel across multiple components within a learning solution</li>
 	<li>Strong ability to influence Business Partners and drive results</li>
 </ul>

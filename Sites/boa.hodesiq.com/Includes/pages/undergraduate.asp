@@ -97,7 +97,7 @@ document.write('<a href="Javascript: pdfpop(\'pdf/AMAJobDescription.pdf\');" cla
 <ul>
 	<li style="padding-bottom: 6px;"><a href="http://corp.bankofamerica.com/public/career/home.jsp" target="_blank" class="p" onfocus="this.className='p-over';" onblur="this.className='p';">Investment Banking (Full-time and Intern Opportunities)</a></li>
 	<li style="padding-bottom: 6px;"><a href="http://corp.bankofamerica.com/public/career/home.jsp" target="_blank" class="p" onfocus="this.className='p-over';" onblur="this.className='p';">Capital Markets (Full-time and Intern Opportunities)</a></li>
-	<li style="padding-bottom: 6px;"><a href="http://corp.bankofamerica.com/public/career/home.jsp" target="_blank" class="p" onfocus="this.className='p-over';" onblur="this.className='p';">Sales & Trading (Full-time and Intern Opportunities)</a></li>
+	<li style="padding-bottom: 6px;"><a href="http://corp.bankofamerica.com/public/career/home.jsp" target="_blank" class="p" onfocus="this.className='p-over';" onblur="this.className='p';">Sales &amp; Trading (Full-time and Intern Opportunities)</a></li>
 	<li style="padding-bottom: 6px;"><a href="http://corp.bankofamerica.com/public/career/home.jsp" target="_blank" class="p" onfocus="this.className='p-over';" onblur="this.className='p';">Research (Full-time and Intern Opportunities)</a></li>
 	<li style="padding-bottom: 6px;"><a href="http://corp.bankofamerica.com/public/career/home.jsp" target="_blank" class="p" onfocus="this.className='p-over';" onblur="this.className='p';">Commercial Real Estate (Full-time and Intern Opportunities)</a></li>
 	<li style="padding-bottom: 6px;"><a href="http://corp.bankofamerica.com/public/career/home.jsp" target="_blank" class="p" onfocus="this.className='p-over';" onblur="this.className='p';">Credit Products (Full-time and Intern Opportunities)</a></li>
@@ -185,11 +185,11 @@ document.write('<a href="Javascript: pdfpop(\'pdf/EnterpriseInitiativeDelivery_E
 	<li style="padding-bottom: 6px;">
 <script type="text/javascript">
 <!--
-document.write('<a href="Javascript: pdfpop(\'pdf/GlobalOperationsAndMiddleOfficeRotationalProgram.pdf\');" class="p" onfocus="this.className=\'p-over\';" onblur="this.className=\'p\';">Global Operations & Global Middle Office Program (Full-time and Intern Opportunities) (PDF)</a>');
+document.write('<a href="Javascript: pdfpop(\'pdf/GlobalOperationsAndMiddleOfficeRotationalProgram.pdf\');" class="p" onfocus="this.className=\'p-over\';" onblur="this.className=\'p\';">Global Operations &amp; Global Middle Office Program (Full-time and Intern Opportunities) (PDF)</a>');
 //-->
 </script>
 <noscript>
-<a href="pdf/GlobalOperationsAndMiddleOfficeRotationalProgram.pdf" class="p" target="_blank">Global Operations & Global Middle Office Program (Full-time and Intern Opportunities) (PDF)</a>
+<a href="pdf/GlobalOperationsAndMiddleOfficeRotationalProgram.pdf" class="p" target="_blank">Global Operations &amp; Global Middle Office Program (Full-time and Intern Opportunities) (PDF)</a>
 </noscript>
 <img src="../images/icon_popup.gif" width="12" height="12" alt="" border="0" hspace="4"></li>
 	<li style="padding-bottom: 6px;">
@@ -225,11 +225,11 @@ document.write('<a href="Javascript: pdfpop(\'pdf/OperationsManagementAssociateP
 	<li style="padding-bottom: 6px;">
 <script type="text/javascript">
 <!--
-document.write('<a href="Javascript: pdfpop(\'pdf/ServiceAndFulfillmentOperations.pdf\');" class="p" onfocus="this.className=\'p-over\';" onblur="this.className=\'p\';">Service & Fulfillment Operations (Full-time and Intern Opportunities) (PDF)</a>');
+document.write('<a href="Javascript: pdfpop(\'pdf/ServiceAndFulfillmentOperations.pdf\');" class="p" onfocus="this.className=\'p-over\';" onblur="this.className=\'p\';">Service &amp; Fulfillment Operations (Full-time and Intern Opportunities) (PDF)</a>');
 //-->
 </script>
 <noscript>
-<a href="pdf/ServiceAndFulfillmentOperations.pdf" class="p" target="_blank">Service & Fulfillment Operations (Full-time and Intern Opportunities) (PDF)</a>
+<a href="pdf/ServiceAndFulfillmentOperations.pdf" class="p" target="_blank">Service &amp; Fulfillment Operations (Full-time and Intern Opportunities) (PDF)</a>
 </noscript>
 <img src="../images/icon_popup.gif" width="12" height="12" alt="" border="0" hspace="4"></li>
 </ul>

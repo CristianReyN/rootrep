@@ -12,7 +12,7 @@ The Quantitative Management Associate Program (QMAP) is designed to develop and 
 <p style="margin: 0px 0px 12px 0px;">
 The 2-year, entry-level program spans 2 rotational assignments focusing on credit, market or operational risk management within different areas of the bank. Participants gain real, in-depth experience applying quantitative knowledge to specific financial challenges.
 <br><br>
-The program provides a micro view of risk management in a particular business line and a macro view of risk management for the bank as a whole through rotational assignments. Rotations include positions within various lines of business, such as Corporate Treasury, Quantitative Finance, Risk & Capital Portfolio Analysis, Capital Markets Risk Management, Central Risk Management, Portfolio Analysis, Risk Reporting & Review and Consumer Risk Analysis & Forecasting.  
+The program provides a micro view of risk management in a particular business line and a macro view of risk management for the bank as a whole through rotational assignments. Rotations include positions within various lines of business, such as Corporate Treasury, Quantitative Finance, Risk &amp; Capital Portfolio Analysis, Capital Markets Risk Management, Central Risk Management, Portfolio Analysis, Risk Reporting &amp; Review and Consumer Risk Analysis &amp; Forecasting.  
 <br><br>
 During the program, associates will be responsible for:
 </p>

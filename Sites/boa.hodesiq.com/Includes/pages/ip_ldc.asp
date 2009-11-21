@@ -16,7 +16,7 @@ Leadership Development (LD) Consultant Intern responsibilities include:
 	<li>Partnering with executive management to accelerate strategy implementation and change/build leadership talent to fuel future growth, enhance organizational performance and accelerate learning across the organization</li>
 	<li>Designing, developing and delivering leadership development innovations to help clients in all businesses drive objectives</li>
 	<li>Collaborating with clients to create competitive, innovative leadership development plans that drive short and long term business growth</li>
-	<li>Designing/implementing Leadership & Organizational Development Processes that cut across organizational boundaries</li>
+	<li>Designing/implementing Leadership &amp; Organizational Development Processes that cut across organizational boundaries</li>
 	<li>Leveraging expertise in team and organization assessment, design, and development to influence changes in alignment, structure and roles</li>
 	<li>Creating a clear vision of the ideal organization or team environment and steer leaders toward it</li>
 	<li>Consulting with the line of business on areas including Executive and Management Development, Succession Planning, Key High Potentials' Development, Organization Development, Change Management and Change Communications

@@ -168,7 +168,7 @@ Bank of Opportunity.
 						<p style="background-color: #ffffff; margin: 0; padding: 0 0 2 4;"><b>Corporate Philanthropy</b></p>
 						<ul style="margin: 0 0 0 0; padding: 0 0 0 18;">
 							<li>Sustaining Communities<br></li>
-							<li>Arts & Culture<br></li>
+							<li>Arts &amp; Culture<br></li>
 							<li>Education<br></li>
 							<li>Incredible Reach<br></li>
 							<li>Commitment</li>

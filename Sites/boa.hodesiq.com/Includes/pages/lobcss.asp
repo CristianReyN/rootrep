@@ -2,12 +2,12 @@
 		<table width="578" cellpadding="0" cellspacing="0" border="0" summary="">
 			<tr valign="top">
 				<td width="578" colspan="2" valign="top" style="padding: 0px 0px 0px 12px;">
-<H2 class="h1" style="margin: 2px 0px 0px 0px;">Corporate Staff & Support</H2>
+<H2 class="h1" style="margin: 2px 0px 0px 0px;">Corporate Staff &amp; Support</H2>
 				</td>
 			</tr>
 			<tr valign="top">
 				<td width="373" height="100%" valign="top" style="padding: 0px 5px 0px 12px;">
-<p style="margin: 12px 0px 12px 0;">A career within Bank of America's Corporate Staff & Support group is your opportunity to:</p>
+<p style="margin: 12px 0px 12px 0;">A career within Bank of America's Corporate Staff &amp; Support group is your opportunity to:</p>
 <ul>
 	<li>Add functional and logistical value to areas throughout the entire organization</li>
 	<li>Apply your experience to streamlining processes that maximize Bank of America's competitive advantage in the marketplace</li>

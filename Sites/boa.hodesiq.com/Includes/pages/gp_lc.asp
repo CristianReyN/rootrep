@@ -22,7 +22,7 @@ Learning Consultant responsibilities include:
 <b>Line of business initiatives</b>
 </p>
 <ul>
-	<li>Assisting learning managers and Learning & Leadership Development (L&LD) client teams to create end-to-end learning solutions that support and drive business strategy</li>
+	<li>Assisting learning managers and Learning &amp; Leadership Development (L&LD) client teams to create end-to-end learning solutions that support and drive business strategy</li>
 	<li>Assisting in the creation of learning plans, mapping learning solutions and monitoring progress against plans</li>
 </ul>
 <p style="margin: 0px 0px 12px 0px;">

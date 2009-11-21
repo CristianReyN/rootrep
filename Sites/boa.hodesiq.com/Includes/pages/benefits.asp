@@ -68,7 +68,7 @@ Other benefits available to our associates include:</p>
 	<li><a href="<%Response.write href_pre%>volgrantprog.asp" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="Volunteer grants program">Volunteer grants program</a></li>
 	<li>Volunteer Time Program</li>
 	<li>Commuter Benefits</li>
-	<li><a href="<%Response.write href_pre%>metlife_ahins.asp" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="MetLife Auto & Home Insurance Program">MetLife Auto & Home Insurance Program</a></li>
+	<li><a href="<%Response.write href_pre%>metlife_ahins.asp" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="MetLife Auto &amp; Home Insurance Program">MetLife Auto &amp; Home Insurance Program</a></li>
 	<li><a href="<%Response.write href_pre%>rewarding.asp" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="Rewarding Success">Rewarding Success</a></li>
 </ul>
 <br><br>

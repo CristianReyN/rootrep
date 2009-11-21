@@ -10,7 +10,7 @@ Global Consumer and Small Business Banking (GCSBB) serves more than 53 million c
 
 <h2 class="h2" style="margin: 0px;">Overview</h2>
 <p style="margin: 0px 0px 12px 0px;">
-This internship program is designed to provide external MBA candidates with an opportunity to prepare for future opportunities in the Global Consumer & Small Business Banking Leader Development Program.
+This internship program is designed to provide external MBA candidates with an opportunity to prepare for future opportunities in the Global Consumer &amp; Small Business Banking Leader Development Program.
 <br><br>
 Opportunities for internships include:
 </p>

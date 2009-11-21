@@ -41,7 +41,7 @@ Our graduate/associate career programs are for those recent graduates/associates
 <ul>
 	<li><a href="http://corp.bankofamerica.com/public/career/home.jsp" target="_blank" class="p" onfocus="this.className='p-over';" onblur="this.className='p';">Investment Banking (Full-time and Intern Opportunities)</a></li>
 	<li><a href="http://corp.bankofamerica.com/public/career/home.jsp" target="_blank" class="p" onfocus="this.className='p-over';" onblur="this.className='p';">Capital Markets (Full-time and Intern Opportunities)</a></li>
-	<li><a href="http://corp.bankofamerica.com/public/career/home.jsp" target="_blank" class="p" onfocus="this.className='p-over';" onblur="this.className='p';">Sales & Trading (Full-time and Intern Opportunities)</a></li>
+	<li><a href="http://corp.bankofamerica.com/public/career/home.jsp" target="_blank" class="p" onfocus="this.className='p-over';" onblur="this.className='p';">Sales &amp; Trading (Full-time and Intern Opportunities)</a></li>
 	<li><a href="http://corp.bankofamerica.com/public/career/home.jsp" target="_blank" class="p" onfocus="this.className='p-over';" onblur="this.className='p';">Research (Full-time and Intern Opportunities)</a></li>
 	<li><a href="http://corp.bankofamerica.com/public/career/home.jsp" target="_blank" class="p" onfocus="this.className='p-over';" onblur="this.className='p';">Global Commercial Banking/Treasury Services (Full-time and Intern Opportunities)</a></li>
 </ul>

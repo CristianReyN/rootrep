@@ -1,14 +1,14 @@
-		<a name="skipmaincontent"></a><H1 style="margin: 2px 0px 0px 0px;">Global Wealth & Investment Management - Undergraduate Opportunities</H1>
+		<a name="skipmaincontent"></a><H1 style="margin: 2px 0px 0px 0px;">Global Wealth &amp; Investment Management - Undergraduate Opportunities</H1>
 		<table width="578" cellpadding="0" cellspacing="0" border="0" summary="">
 			<tr valign="top">
 				<td width="373" height="100%" valign="top" style="padding: 6px 5px 0px 12px;">
 <img class="dotdiv" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
 <h2 class="h2" style="margin: 0px;">Our Business</h2>
 <p style="margin: 0px 0px 12px 0px;">
-Global Wealth & Investment Management provides comprehensive banking and investment services tailored to meet the changing wealth-management goals of more than three million individual and institutional customers. Clients have access to services offered through three primary businesses:
+Global Wealth &amp; Investment Management provides comprehensive banking and investment services tailored to meet the changing wealth-management goals of more than three million individual and institutional customers. Clients have access to services offered through three primary businesses:
 </p>
 <p style="margin: 0px 0px 12px 0px;">
-<b>Premier Banking & Investments<span style="font-size: 0.6em; position: relative; top: -0.6em;">TM</span></b> - delivers tailored banking and investment solutions and personalized, priority service to affluent clients, those with investable assets and a mortgage that exceeds $500,000 and those with at least $100,000 of investable assets, through locally based client teams. PB&I offers a full-service and online brokerage, and nearly 4,400 client advisors.
+<b>Premier Banking &amp; Investments<span style="font-size: 0.6em; position: relative; top: -0.6em;">TM</span></b> - delivers tailored banking and investment solutions and personalized, priority service to affluent clients, those with investable assets and a mortgage that exceeds $500,000 and those with at least $100,000 of investable assets, through locally based client teams. PB&I offers a full-service and online brokerage, and nearly 4,400 client advisors.
 <br><br>
 <b>U.S. Trust, Bank of America Private Wealth Management</b> - provides integrated wealth-management solutions to high-net-worth individuals, middle-market institutions and charitable organizations with investable assets greater than $3 million. More wealthy individuals and families have chosen U.S. Trust to provide personal trust and wealth-management solutions than any other institution (according to VIP Forum, 2006).
 <br><br>
@@ -33,9 +33,9 @@ The Trust Administrator is a product expert who acts as an additional point of c
 	<li>Maintaining knowledge of client relationships and updates client information systems as necessary</li>
 </ul>
 
-<h2 class="h2" style="margin: 0px;">CLIENT RELATIONSHIP CENTER (CRC) CLIENT MANAGER, Premier Banking & Investments</h2>
+<h2 class="h2" style="margin: 0px;">CLIENT RELATIONSHIP CENTER (CRC) CLIENT MANAGER, Premier Banking &amp; Investments</h2>
 <p style="margin: 0px 0px 12px 0px;">
-CRC Client Managers must be able to demonstrate comprehensive understanding of banking capabilities with clients by assessing needs, and identifying and recommending financial solutions. Successful managers will inspire trust & confidence in clients through problem solving, listening carefully to the client's needs, and proactively managing products and services through telephone contact. Responsibilities include:
+CRC Client Managers must be able to demonstrate comprehensive understanding of banking capabilities with clients by assessing needs, and identifying and recommending financial solutions. Successful managers will inspire trust &amp; confidence in clients through problem solving, listening carefully to the client's needs, and proactively managing products and services through telephone contact. Responsibilities include:
 </p>
 <ul>
 	<li>Building and strengthening relationships with existing Premier Clients through proactive contact</li>
@@ -47,7 +47,7 @@ CRC Client Managers must be able to demonstrate comprehensive understanding of b
 	<li>Continually building and maintaining effective partnerships with field-based Client Managers and other associates</li>
 </ul>
 
-<h2 class="h2" style="margin: 0px;">INVESTMENT SPECIALIST, Premier Banking & Investments</h2>
+<h2 class="h2" style="margin: 0px;">INVESTMENT SPECIALIST, Premier Banking &amp; Investments</h2>
 <p style="margin: 0px 0px 12px 0px;">
 Investment Specialists execute and confirm securities transactions initiated by retail clients, and provide assistance to clients on request. Associates also provide limited research and counseling services on various products, and follow up on client contacts to close the sale of investment products. Additional responsibilities include:
 </p>
@@ -76,7 +76,7 @@ New hires will undergo a formal training process that begins with a multi-module
 <h2 class="h2" style="margin: 0px;">Locations</h2>
 <p style="margin: 0px 0px 12px 0px;">
 Various locations across the United States including but not limited to:<br>
-Charlotte, NC <span class="middot">&middot;</span> Waltham, MA <span class="middot">&middot;</span> Lincoln & Providence, RI <span class="middot">&middot;</span> Hartford, CT <span class="middot">&middot;</span> Atlanta, GA
+Charlotte, NC <span class="middot">&middot;</span> Waltham, MA <span class="middot">&middot;</span> Lincoln &amp; Providence, RI <span class="middot">&middot;</span> Hartford, CT <span class="middot">&middot;</span> Atlanta, GA
 </p>
 
 <!-- #include file="../authorizedus.asp" -->

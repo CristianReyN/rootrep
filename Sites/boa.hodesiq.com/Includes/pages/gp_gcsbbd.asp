@@ -10,7 +10,7 @@ Global Consumer and Small Business Banking (GCSBB) serves more than 53 million c
 
 <h2 class="h2" style="margin: 0px;">Overview</h2>
 <p style="margin: 0px 0px 12px 0px;">
-The Global Consumer & Small Business Banking Product Leader Development Program (LDP) develops future senior leaders while engaging them in challenging projects critical to the future of Bank of America. Recent MBA/Masters-level graduates experience 2 to 3 rotational assignments (6 to 8 months each) over 18 to 24 months.
+The Global Consumer &amp; Small Business Banking Product Leader Development Program (LDP) develops future senior leaders while engaging them in challenging projects critical to the future of Bank of America. Recent MBA/Masters-level graduates experience 2 to 3 rotational assignments (6 to 8 months each) over 18 to 24 months.
 <br><br>
 Rotational opportunities include:
 </p>

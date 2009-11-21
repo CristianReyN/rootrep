@@ -5,7 +5,7 @@
 <img class="dotdiv" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
 <h2 class="h2" style="margin: 0px;">Our business</h2>
 <p style="margin: 0px 0px 12px 0px;">
-The Network Computing Group (NCG) provides continuous operating, computing and telecommunications services to business partners within Global Technology, Service & Fulfillment and Bank of America. This includes large network server operations, client server technology, local area and wide area network (LAN/WAN) functions, telecommunications, business recovery and other critical systems.
+The Network Computing Group (NCG) provides continuous operating, computing and telecommunications services to business partners within Global Technology, Service &amp; Fulfillment and Bank of America. This includes large network server operations, client server technology, local area and wide area network (LAN/WAN) functions, telecommunications, business recovery and other critical systems.
 </p>
 
 <h2 class="h2" style="margin: 0px;">Overview</h2>

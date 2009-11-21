@@ -39,16 +39,16 @@ Philadelphia, PA<br>
 <a href="http://www.nabainc.org" target="_blank" class="p" onfocus="this.className='p-over';" onblur="this.className='p';" title="National Association of Black Accountants (NABA)">www.nabainc.org</a>
 </p>
 
-<H2 class="h1">Executive Leadership Council & Foundation (ELC)</H2>
+<H2 class="h1">Executive Leadership Council &amp; Foundation (ELC)</H2>
 <p style="text-align: center;">August 2007<br>
 Washington, DC<br>
-<a href="http://www.elcinfo.com" target="_blank" class="p" onfocus="this.className='p-over';" onblur="this.className='p';" title="Executive Leadership Council & Foundation (ELC)">www.elcinfo.com</a>
+<a href="http://www.elcinfo.com" target="_blank" class="p" onfocus="this.className='p-over';" onblur="this.className='p';" title="Executive Leadership Council &amp; Foundation (ELC)">www.elcinfo.com</a>
 </p>
 
-<H2 class="h1">Association of Latino Professionals in Accounting & Finance (ALPFA)</H2>
+<H2 class="h1">Association of Latino Professionals in Accounting &amp; Finance (ALPFA)</H2>
 <p style="text-align: center;">August 4 - 8, 2007<br>
 Lake Buena Vista, FL<br>
-<a href="http://www.alpfa.org" target="_blank" class="p" onfocus="this.className='p-over';" onblur="this.className='p';" title="Association of Latino Professionals in Accounting & Finance (ALPFA)">www.alpfa.org</a>
+<a href="http://www.alpfa.org" target="_blank" class="p" onfocus="this.className='p-over';" onblur="this.className='p';" title="Association of Latino Professionals in Accounting &amp; Finance (ALPFA)">www.alpfa.org</a>
 </p>
 
 <H2 class="h1">IT Management Service Forum (ITSMF)</H2>

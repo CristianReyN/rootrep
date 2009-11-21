@@ -5,7 +5,7 @@
 <img class="dotdiv" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
 <h2 class="h2" style="margin: 0px;">Our business</h2>
 <p style="margin: 0px 0px 12px 0px;">
-The technology organization within Bank of America provides comprehensive support to functional groups and lines of business across the entire company, including Wealth & Investment Management Technology, Consumer & Small Business Banking, Corporate Staff Support Technology, Capital Markets & Wholesale Banking Technology, Corporate Information Security/Business Continuity and the Network Computing Group.
+The technology organization within Bank of America provides comprehensive support to functional groups and lines of business across the entire company, including Wealth &amp; Investment Management Technology, Consumer &amp; Small Business Banking, Corporate Staff Support Technology, Capital Markets &amp; Wholesale Banking Technology, Corporate Information Security/Business Continuity and the Network Computing Group.
 </p>
 
 <h2 class="h2" style="margin: 0px;">Overview</h2>

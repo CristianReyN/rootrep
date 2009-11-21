@@ -5,11 +5,11 @@
 <img class="dotdiv" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
 <h2 class="h2" style="margin: 0px;">Our Business</h2>
 <p style="margin: 0px 0px 12px 0px;">
-Global Wealth & Investment Management provides comprehensive banking and investment services tailored to meet the changing wealth-management goals of more than three million individual and institutional customers. Clients have access to services offered through three primary businesses:
+Global Wealth &amp; Investment Management provides comprehensive banking and investment services tailored to meet the changing wealth-management goals of more than three million individual and institutional customers. Clients have access to services offered through three primary businesses:
 </p>
 
 
-<p style="margin: 0px 0px 12px 0px;"><b>Premier Banking & Investments<span style="font-size: 0.6em; position: relative; top: -0.6em;">TM</span></b> - delivers tailored banking and investment solutions and personalized, priority service to affluent clients, those with investable assets and a mortgage that exceeds $500,000 and those with at least $100,000 of investable assets, through locally based client teams. PB&I offers a full-service and online brokerage, and nearly 4,400 client advisors.
+<p style="margin: 0px 0px 12px 0px;"><b>Premier Banking &amp; Investments<span style="font-size: 0.6em; position: relative; top: -0.6em;">TM</span></b> - delivers tailored banking and investment solutions and personalized, priority service to affluent clients, those with investable assets and a mortgage that exceeds $500,000 and those with at least $100,000 of investable assets, through locally based client teams. PB&I offers a full-service and online brokerage, and nearly 4,400 client advisors.
 </p>
 
 <p style="margin: 0px 0px 12px 0px;"><b>U.S. Trust, Bank of America Private Wealth Management</b> - provides integrated wealth-management solutions to high-net-worth individuals, middle-market institutions and charitable organizations with investable assets greater than $3 million. More wealthy individuals and families have chosen U.S. Trust to provide personal trust and wealth-management solutions than any other institution (according to VIP Forum, 2006).

@@ -21,7 +21,7 @@
 <p style="margin: 0px 0px 12px 0px;">
 This unique, 2-year program allows analysts to rotate through our Global Middle Office divisions. The program provides exposure to many different areas within Global Middle Office, and a better understanding of where analysts' skills would best be utilized.  
 <br><br>
-Global Middle Office Analysts will complete two, 12-month rotations within Global Middle Office. Potential Middle Office Analyst rotations include key product areas such as Credit Products, Global Liquid Products, Global Structured Products/Equity Financial Products, and key functional areas such as P & L Validation, Risk and Position Validation, and Trade Support. Middle Office Analyst responsibilities include:
+Global Middle Office Analysts will complete two, 12-month rotations within Global Middle Office. Potential Middle Office Analyst rotations include key product areas such as Credit Products, Global Liquid Products, Global Structured Products/Equity Financial Products, and key functional areas such as P &amp; L Validation, Risk and Position Validation, and Trade Support. Middle Office Analyst responsibilities include:
 </p>
 <ul>
 	<li>Interfacing with various departments including P&L team, Finance, Compliance, Risk, Technology and Front Office</li>
