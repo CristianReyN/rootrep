@@ -26,7 +26,7 @@ Welcome to Bank of America.  Our global corporation offers talented and motivate
 Our site is separated into three sections for ease of navigation.</p>
 
 <p class="s" style="margin: 12px 12px 0px 13px;">
-Visit the <a href="areasoftalent.asp" style="line-height: 1.1em;">'Why Choose Bank of America'</a> section of our site if you are interested in learning more about the culture and work environment. In this section, you'll have the opportunity to listen to what other Bank of America associates have to say - which can help you decide where your job skills are best applied.</p>
+'Why Choose Bank of America' see section at top of page if you are interested in learning more about the culture and work environment. In this section, you'll have the opportunity to listen to what other Bank of America associates have to say - which can help you decide where your job skills are best applied.</p>
 
 <p class="s" style="margin: 12px 12px 0px 13px;">
 If you already know that we're a good fit and you're ready to learn about our current opportunities, click straight through to our <a href="../jobsearch.aspx" style="line-height: 1.1em;">'Job Search'</a> section and begin the process.</p>
