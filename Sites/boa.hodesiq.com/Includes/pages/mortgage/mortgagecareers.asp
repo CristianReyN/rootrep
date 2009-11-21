@@ -139,9 +139,15 @@ rowcount=6
 	<H2 class="h2" style="margin: 12px <%=right_margin%>px 2px 0px;">New Opportunities</H2>
 	<table cellpadding="2" cellspacing="0" border="0" summary="" style="margin-left: <%=left_margin_0%>px;">
 <!--#include file="../../../hot_jobs.asp"-->
+	</table>
+<%
+If mpage = "lob" Then
+%>
 <br>
 <a href="../jobsearch.aspx?jobareas=12|-1&stateid=-1&cityid=-1&keywords=&SearchPage=Sp" class="p">View all jobs in Mortgage</a>
-	</table>
+<%
+End If
+%>
 	<br><br>
 </div>
 <% If page_section = "ADA" Then %>
@@ -157,7 +163,6 @@ rowcount=6
 		<H2 class="g" style="margin: 0px 0px 0px 0px;">Career Opportunities</H2>
 			<img src="../../images/clear.gif" width="100%" height="1" alt="" border="0" style="margin: 0px 0px 0px 0px; background: #ffffff;" align="top"><br clear="all">
 			<img src="../../images/clear.gif" width="100%" height="1" alt="" border="0" style="margin: 0px 0px 0px 0px; background: #e8e8e9;" align="top"><br clear="all">
-			<p style="margin: 6px 6px 0px 6px;"><a class="left" href="../../jobsearch.aspx?jobareas=12|1&stateid=-1&cityid=-1&keywords=&SearchPage=Sp">View current jobs in Administration</a></p>
 			<p style="margin: 6px 6px 0px 6px;"><a class="left" href="../../jobsearch.aspx?jobareas=12|13&stateid=-1&cityid=-1&keywords=&SearchPage=Sp">View current jobs in Credit</a></p>
 			<p style="margin: 6px 6px 0px 6px;"><a class="left" href="../../jobsearch.aspx?jobareas=12|9&stateid=-1&cityid=-1&keywords=&SearchPage=Sp">View current jobs in Customer Service</a></p>
 			<p style="margin: 6px 6px 0px 6px;"><a class="left" href="../../jobsearch.aspx?jobareas=12|11&stateid=-1&cityid=-1&keywords=&SearchPage=Sp">View current jobs in Marketing</a></p>

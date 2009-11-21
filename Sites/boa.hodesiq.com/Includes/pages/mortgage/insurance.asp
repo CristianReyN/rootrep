@@ -29,9 +29,9 @@ rowcount=6
 <H2 class="h2" style="margin: 12px <%=right_margin%>px 2px 0px;">New Opportunities</H2>
 <table cellpadding="2" cellspacing="0" border="0" summary="" style="margin-left: <%=left_margin_0%>px;">
 <!--#include file="../../../hot_jobs.asp"-->
+</table>
 <br>
 <a href="../jobsearch.aspx?jobareas=12|-1&stateid=-1&cityid=-1&keywords=&SearchPage=Sp" class="p">View all jobs in Mortgage</a>
-</table>
 <br><br>
 				</td>
 				<td width="205" height="100%" valign="top">

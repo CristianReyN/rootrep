@@ -50,7 +50,6 @@
 
 <optgroup label="Mortgage ">
 	<option value="12|-1"<%If jobareas="12|-1" Then Response.write " selected"%>>All Mortgage</option>
-	<option value="12|1"<%If jobareas="12|1" Then Response.write " selected"%>>Administration</option>
 	<option value="12|13"<%If jobareas="12|13" Then Response.write " selected"%>>Credit</option>
 	<option value="12|9"<%If jobareas="12|9" Then Response.write " selected"%>>Customer Service</option>
 	<option value="12|11"<%If jobareas="12|11" Then Response.write " selected"%>>Marketing</option>

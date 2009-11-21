@@ -29,17 +29,17 @@ If Request("t") <> "" Then tab = Request("t")
 		<% If page_section <> "ADA" Then %>
 var tab = <%=tab%>, cname = "tabstate_ha";
 var tabstate = getTabState(cname);
-if(tabstate && tabstate != tab) self.location.replace("<%=page_self%>?t="+tabstate);
+<% If Request("t") = "" Then %>if(tabstate && tabstate != tab) self.location.replace("<%=page_self%>?t="+tabstate);<% End If %>
 var tabs = new Array(), pageId = "<%=pageId%>", categoryId = "<%=categoryId%>";
-tabs[0] = new Tab("U.S.","t1","../images/camp/t1.gif","../images/camp/t1a.gif","dt1");
-tabs[1] = new Tab("EMEA","t2","../images/camp/t2.gif","../images/camp/t2a.gif","dt2");
-tabs[2] = new Tab("Asia","t3","../images/camp/t3.gif","../images/camp/t3a.gif","dt3");
+tabs[0] = new Tab("Americas","t1","../images/camp/t_americas.gif","../images/camp/t_americas_a.gif","dt1","t1h");
+tabs[1] = new Tab("EMEA","t2","../images/camp/t_emea.gif","../images/camp/t_emea_a.gif","dt2","t2h");
+tabs[2] = new Tab("Asia Pacific","t3","../images/camp/t_asia_pacific.gif","../images/camp/t_asia_pacific_a.gif","dt3","t3h");
 if(window.cmCreatePageviewTag) cmCreatePageviewTag(pageId+":"+tabs[tab-1].t, null, null,categoryId);
 tabs[tab-1].coremetrics = true;
 		<% End If %>
 function preload_add()
 {
-	MM_preloadImages("../images/camp/submit_profile_on.gif","../images/camp/apply_on.gif");
+	MM_preloadImages("../images/camp/apply_us_on.gif","../images/camp/apply_canada_on.gif","../images/camp/apply_on.gif");
 }
 </script>
 <table width="100%" cellpadding="0" cellspacing="0" border="0" summary="">
@@ -59,11 +59,11 @@ function preload_add()
 		<table width="100%" cellpadding="0" cellspacing="0" border="0" summary="">
 			<tr>
 				<td valign="top">
-					<img id="t1" name="t1" class="h" src="../images/camp/t1<% If tab = 1 Then %>a<% End If %>.gif" border="0" alt="How to Apply in U.S." /></td>
+					<img id="t1" name="t1" class="h" src="../images/camp/t_americas<% If tab = 1 Then %>_a<% End If %>.gif" border="0" alt="How to Apply in Americas – includes US &amp; Canada" /></td>
 				<td valign="top">
-					<img id="t2" name="t2" class="h" src="../images/camp/t2<% If tab = 2 Then %>a<% End If %>.gif" border="0" alt="How to Apply in EMEA" /></td>
+					<img id="t2" name="t2" class="h" src="../images/camp/t_emea<% If tab = 2 Then %>_a<% End If %>.gif" border="0" alt="How to Apply in EMEA" /></td>
 				<td valign="top">
-					<img id="t3" name="t3" class="h" src="../images/camp/t3<% If tab = 3 Then %>a<% End If %>.gif" border="0" alt="How to Apply in Asia" /></td>
+					<img id="t3" name="t3" class="h" src="../images/camp/t_asia_pacific<% If tab = 3 Then %>_a<% End If %>.gif" border="0" alt="How to Apply in Asia Pacific" /></td>
 				<td width="100%" background="../images/camp/trtb.gif" valign="top" align="right">
 					<img src="../images/camp/trt.gif" border="0" alt="" /></td>
 			</tr>
@@ -78,29 +78,47 @@ function preload_add()
 				<td background="../images/camp/tl.gif" valign="top">
 					<img src="../images/camp/tl.gif" width="6" height="10" border="0" alt="" /></td>
 				<td width="100%" valign="top">
-		<% If page_section <> "ADA" Then %><H2 class="hidden">How to Apply U.S.</H2>
+		<% If page_section <> "ADA" Then %>
+<H2 class="hidden">How to Apply Americas – includes US &amp; Canada</H2>
+<a href="#" id="t1h" class="hide-tab" title="How to Apply in Americas – includes US &amp; Canada">How to Apply in Americas – includes US &amp; Canada</a>
 		<% ElseIf page_section = "ADA" Then %>
 		<table width="100%" cellpadding="0" cellspacing="0" border="0" summary="" style="margin: 18px 0px -12px 0px;">
 		<tr>
-			<td valign="bottom" nowrap><H2 class="bach" style="margin: 0px 12px 0px 12px;">How to Apply in U.S.</H2></td>
+			<td valign="bottom" nowrap><H2 class="bach" style="margin: 0px 12px 0px 12px;">How to Apply in Americas – includes US &amp; Canada</H2></td>
 			<td valign="bottom">
 				<H2 class="bac" style="margin: 0px 12px 0px 12px;"><a href="#t2" title="How to Apply in EMEA" class="bacb">How to Apply in EMEA</a></H2>
-				<H2 class="bac" style="margin: 6px 12px 0px 12px;"><a href="#t3" title="How to Apply in Asia" class="bacb">How to Apply in Asia</a></H2>
+				<H2 class="bac" style="margin: 6px 12px 0px 12px;"><a href="#t3" title="How to Apply in Asia Pacific" class="bacb">How to Apply in Asia Pacific</a></H2>
 			</td>
 		</tr>
 		</table>
 		<% End If %>
 <div id="dt1" style="display: <% If tab = 1 Or page_section = "ADA" Then %>inline<% Else %>none<% End If %>;">
 	<div class="innerTab">
-		<p class="bac">In order to be considered a candidate for an opportunity at Bank of America, you must apply via this web site. To submit your profile, first sign in as a new or returning user.  If you don't have an existing account, you'll need to register as a new user.  Then, complete your Candidate Profile and designate your program(s) of interest.  Please note that in order for your application to be considered complete, you must reach the final "Thank You" page.</p>
+		<H3 class="bac">Apply in the U.S.</H3>
+		<p class="bac">For positions in the U.S. you must apply through our online application system. Simply click the link below and follow the instructions to apply and track the progress of your application.</p>
 		<br><br>
 		<span class='auraltext'>
-			<h3 style="margin: 0px 0px 0px 12px; ">Important information on applying for positions</h3>
+			<h3 style="margin: 0px 0px 0px 12px; ">Important information on applying for positions.</h3>
 				Apply Now. You are encouraged to complete this online application, however if you have difficulty, you should:
-				<li />Email your resume to <a href="mailto:bac@resume.bankofamerica.com">bac@resume.bankofamerica.com</a>
-				<li />In the Subject Line of your email, include "Source = Bank of America Careers" and the specific position title found at the top of the job posting.
+				<ul>
+					<li />Email your resume to <a href="mailto:bac@resume.bankofamerica.com">bac@resume.bankofamerica.com</a>
+					<li />In the Subject Line of your email, include "Source = Bank&nbsp;of&nbsp;America Campus Careers" and the specific position title found at the top of the job posting.
+				</ul>
 		</span>
-		<a href="<% If page_section <> "ADA" Then  %>../learnmore/<% Else  %>../ada/<% End If %>sendresume.asp" target="<%=HOWTOAPPLY_TARGET%>" title="Submit Your Profile<% If HOWTOAPPLY_TARGET = "_blank" Then %>. Link opens a new window.<% End If%>" onmouseover="MM_swapImage('us_spr','','../images/camp/submit_profile_on.gif');" onmouseout="MM_swapImgRestore();"><img name="us_spr" src="../images/camp/submit_profile_off.gif" border="0" style="cursor: pointer;" alt="Submit Your Profile" /></a>
+		<a href="<% If page_section <> "ADA" Then  %>../learnmore/<% Else  %>../ada/<% End If %>sendresume.asp" target="<%=HOWTOAPPLY_TARGET%>" title="Apply U.S.<% If HOWTOAPPLY_TARGET = "_blank" Then %> Link opens a new window.<% End If%>" onmouseover="MM_swapImage('us_spr','','../images/camp/apply_us_on.gif');" onmouseout="MM_swapImgRestore();"><img name="us_spr" src="../images/camp/apply_us_off.gif" border="0" style="cursor: pointer;" alt="Apply U.S.<% If HOWTOAPPLY_TARGET = "_blank" Then %> Link opens a new window.<% End If%>" title="Apply U.S.<% If HOWTOAPPLY_TARGET = "_blank" Then %> Link opens a new window.<% End If%>" /></a>
+		
+		<H3 class="bac" style="margin-top: 18px;">Apply in Canada</H3>
+		<p class="bac">For positions in Canada you must apply through our online application system. Simply click the link below and follow the instructions to apply and track the progress of your application.</p>
+		<br><br>
+		<span class='auraltext'>
+			<h3 style="margin: 0px 0px 0px 12px; ">Important information on applying for positions.</h3>
+				Apply Now. You are encouraged to complete this online application, however if you have difficulty, you should:
+				<ul>
+					<li />Email your resume to <a href="mailto:torrectm@ml.com">torrectm@ml.com</a>
+					<li />In the Subject Line of your email, include "Source = Bank&nbsp;of&nbsp;America Campus Careers" and the specific position title found at the top of the job posting.
+				</ul>
+		</span>
+		<a href="https://apply.ml.com/Students/Login.aspx" target="_blank" title="Apply Canada. Link opens a new window." onmouseover="MM_swapImage('us_spr','','../images/camp/apply_canada_on.gif');" onmouseout="MM_swapImgRestore();"><img name="us_spr" src="../images/camp/apply_canada_off.gif" border="0" style="cursor: pointer;" alt="Apply Canada. Link opens a new window." title="Apply Canada. Link opens a new window." /></a>
 	</div>
 </div>
 		<% If page_section = "ADA" Then %>
@@ -140,29 +158,33 @@ function preload_add()
 					<img src="../images/camp/tl.gif" width="6" height="10" border="0" alt="" /></td>
 				<td width="100%" valign="top">
 		<% End If %>
-		<% If page_section <> "ADA" Then %><H2 class="hidden">How to Apply in EMEA</H2>
+		<% If page_section <> "ADA" Then %>
+<H2 class="hidden">How to Apply in EMEA</H2>
+<a href="#" id="t2h" class="hide-tab" title="How to Apply in EMEA">How to Apply in EMEA</a>
 		<% ElseIf page_section = "ADA" Then %>
 		<table width="100%" cellpadding="0" cellspacing="0" border="0" summary="" style="margin: 18px 0px -12px 0px;">
 		<tr>
 			<td valign="bottom" nowrap><H2 class="bach" style="margin: 0px 12px 0px 12px;">How to Apply in EMEA</H2></td>
 			<td valign="bottom">
-				<H2 class="bac" style="margin: 0px 12px 0px 12px;"><a href="#t1" title="How to Apply in U.S." class="bacb">How to Apply in U.S.</a></H2>
-				<H2 class="bac" style="margin: 6px 12px 0px 12px;"><a href="#t3" title="How to Apply in Asia" class="bacb">How to Apply in Asia</a></H2>
+				<H2 class="bac" style="margin: 0px 12px 0px 12px;"><a href="#t1" title="How to Apply in Americas – includes US &amp; Canada" class="bacb">How to Apply in Americas – includes US &amp; Canada</a></H2>
+				<H2 class="bac" style="margin: 6px 12px 0px 12px;"><a href="#t3" title="How to Apply in Asia Pacific" class="bacb">How to Apply in Asia Pacific</a></H2>
 			</td>
 		</tr>
 		</table>
 		<% End If %>
 <div id="dt2" style="display: <% If tab = 2 Or page_section = "ADA" Then %>inline<% Else %>none<% End If %>;">
 	<div class="innerTab">
-		<p class="bac">For positions in Europe, you must apply through our online application system. Simply click the link below and follow the instructions to apply and track the progress of your application.</p>
+		<p class="bac">For positions in Europe, Middle East and Africa, you must apply through our online application system. Simply click the link below and follow the instructions to apply and track the progress of your application.</p>
 		<br><br>
 		<span class='auraltext'>
-			<h2 style="margin: 0px 0px 0px 12px; ">Important information on applying for positions</h2>
+			<h2 style="margin: 0px 0px 0px 12px; ">Important information on applying for positions.</h2>
 				Apply Now. You are encouraged to complete this online application, however if you have difficulty, you should:
-				<li />Email your CV to <a href="mailto:graduates@bankofamerica.com">graduates@bankofamerica.com</a>
-				<li />In the Subject Line of your email, include your name and the specific program title found at the top of the program posting.
+				<ul>
+					<li />Email your resume to <a href="mailto:graduate_recruitment@ml.com">graduate_recruitment@ml.com</a>
+					<li />In the Subject Line of your email, include "Source = Bank&nbsp;of&nbsp;America Campus Careers" and the specific position title found at the top of the job posting.
+				</ul>
 		</span>
-		<a href="https://www.careers.bofa.gtios.com/" target="_blank" title="Submit Your Profile" onmouseover="MM_swapImage('emea_spr','','../images/camp/apply_on.gif');" onmouseout="MM_swapImgRestore();"><img name="emea_spr" src="../images/camp/apply_off.gif" border="0" style="cursor: pointer;" alt="Submit Your Profile" /></a>
+		<a href="https://static.wcn.co.uk/company/ml/apply_now.html" target="_blank" title="Apply. Link opens a new window." onmouseover="MM_swapImage('emea_spr','','../images/camp/apply_on.gif');" onmouseout="MM_swapImgRestore();"><img name="emea_spr" src="../images/camp/apply_off.gif" border="0" style="cursor: pointer;" alt="Apply. Link opens a new window." title="Apply. Link opens a new window." /></a>
 	</div>
 </div>
 		<% If page_section = "ADA" Then %>
@@ -202,13 +224,15 @@ function preload_add()
 					<img src="../images/camp/tl.gif" width="6" height="10" border="0" alt="" /></td>
 				<td width="100%" valign="top">
 		<% End If %>
-		<% If page_section <> "ADA" Then %><H2 class="hidden">How to Apply in Asia</H2>
+		<% If page_section <> "ADA" Then %>
+<H2 class="hidden">How to Apply in Asia Pacific</H2>
+<a href="#" id="t3h" class="hide-tab" title="How to Apply in Asia Pacific">How to Apply in Asia Pacific</a>
 		<% ElseIf page_section = "ADA" Then %>
 		<table width="100%" cellpadding="0" cellspacing="0" border="0" summary="" style="margin: 18px 0px -12px 0px;">
 		<tr>
-			<td valign="bottom" nowrap><H2 class="bach" style="margin: 0px 12px 0px 12px;">How to Apply in Asia</H2></td>
+			<td valign="bottom" nowrap><H2 class="bach" style="margin: 0px 12px 0px 12px;">How to Apply in Asia Pacific</H2></td>
 			<td valign="bottom">
-				<H2 class="bac" style="margin: 0px 12px 0px 12px;"><a href="#t1" title="How to Apply in U.S." class="bacb">How to Apply in U.S.</a></H2>
+				<H2 class="bac" style="margin: 0px 12px 0px 12px;"><a href="#t1" title="How to Apply in Americas – includes US &amp; Canada" class="bacb">How to Apply in Americas – includes US &amp; Canada</a></H2>
 				<H2 class="bac" style="margin: 6px 12px 0px 12px;"><a href="#t2" title="How to Apply in EMEA" class="bacb">How to Apply in EMEA</a></H2>
 			</td>
 		</tr>
@@ -216,7 +240,17 @@ function preload_add()
 		<% End If %>
 <div id="dt3" style="display: <% If tab = 3 Or page_section = "ADA" Then %>inline<% Else %>none<% End If %>;">
 	<div class="innerTab">
-		<p class="bac">Bank of America is recruiting for full time graduate and MBA positions in India and Singapore only. All applications are made through your university careers centre.</p>
+		<p class="bac">For positions in Asia, you must apply through our online application system. Simply click the link below and follow the instructions to apply and track the progress of your application.</p>
+		<br><br>
+		<span class='auraltext'>
+			<h2 style="margin: 0px 0px 0px 12px; ">Important information on applying for positions.</h2>
+				Apply Now. You are encouraged to complete this online application, however if you have difficulty, you should:
+				<ul>
+					<li />Email your CV to <a href="mailto:apr_campus@ml.com">apr_campus@ml.com</a>
+					<li />In the Subject Line of your email, include "Source = Bank&nbsp;of&nbsp;America Campus Careers" and the specific position title found at the top of the job posting.
+				</ul>
+		</span>
+		<a href="https://static.wcn.co.uk/company/ml/apply_now.html" target="_blank" title="Apply. Link opens a new window." onmouseover="MM_swapImage('emea_spr','','../images/camp/apply_on.gif');" onmouseout="MM_swapImgRestore();"><img name="emea_spr" src="../images/camp/apply_off.gif" border="0" style="cursor: pointer;" alt="Apply. Link opens a new window." title="Apply. Link opens a new window." /></a>
 	</div>
 </div>
 				</td>

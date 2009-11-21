@@ -1,41 +1,39 @@
 <script type="text/javascript" src="swfobject/swfobject.js"></script>
 <script type="text/javascript" src="swfaddress/swfaddress.js"></script>
 <script language="javascript">
-function CreateBookmarkLink(par1,par2,par3,par4)
-{		
+function CreateBookmarkLink(par1,par2,par3,par4,par5,par6)
+{
 	title = "Career Fit Tool Results"; 
-	var temp = location.href;
-	urlSave = original+"#"+par1+"&"+par2+"&"+par3+"&"+par4;
-
-	if (window.sidebar) // Mozilla Firefox Bookmark
-	{
+ 	var temp = location.href;
+ 	urlSave = original+"#"+par1+"&"+par2+"&"+par3+"&"+par4+"&"+par5+"&"+par6;
+	
+	if (window.sidebar)
+	{ // Mozilla Firefox Bookmark
 		window.sidebar.addPanel(title, urlSave,"");
 	}
-	else if( window.external )// IE Favorite
-	{
-		window.external.AddFavorite( urlSave, title);
-	}
-	else if(window.opera && window.print)// Opera Hotlist
-	{
+	else if( window.external )
+	{ // IE Favorite
+		window.external.AddFavorite( urlSave, title); }
+	else if(window.opera && window.print)
+	{ // Opera Hotlist
 		return true;
 	}
-}
-
-function change(par1,par2,par3,par4)
+ }
+ 
+function change(par1,par2,par3,par4,par5,par6)
 {
 	var temp = location.href;
-	location.href=temp+"#"+par1+"&"+par2+"&"+par3+"&"+par4;
+	location.href=temp+"#"+par1+"&"+par2+"&"+par3+"&"+par4+"&"+par5+"&"+par6;
 }
-
-var original= location.href; 
-function originalUrl()
-{
+ var original= location.href; 
+ function originalUrl()
+ {
 	location.href=original;
-}
-
+ }
+ 
 var tempURL = location.href;
 values =false;
-
+       
 fragmentoTexto = tempURL.split('#');        
 if(fragmentoTexto.length>1)
 {
@@ -72,7 +70,9 @@ if(values)
 	so.addVariable("c1",items[0]);	          
 	so.addVariable("c2",items[1]);	          
 	so.addVariable("c3",items[2]);	          
-	so.addVariable("c4",items[3]);
+	so.addVariable("c4",items[3]);         
+	so.addVariable("c5",items[4]);	          
+	so.addVariable("c6",items[5]);
 }
 so.useExpressInstall('swfobject/expressinstall.swf');
 so.addParam('menu', 'false');

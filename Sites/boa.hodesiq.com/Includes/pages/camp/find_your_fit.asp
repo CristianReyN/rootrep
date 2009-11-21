@@ -24,7 +24,6 @@ At a company with our scale and reach, your biggest challenge from the start wil
 
 <ul class="bacp">
 	<li><a href="career_fit_tool.asp" class="bacb" title="Career Fit Tool">Career Fit Tool</a></li>
-	<li><a href="business_areas.asp" class="bacb" title="Business Areas at Bank of America">Business Areas at Bank of America</a></li>
 </ul>
 				</td>
 				<td width="185" height="100%" style="padding-top: 1px;" valign="top">

@@ -18,9 +18,9 @@ There are many opportunities for you to get involved, too. Last year, our Team B
 <h2 class="bac"><b>Learn more:</b></h2>
 
 <ul class="bac">
-	<li><a href="http://www.bankofamerica.com/community/" class="bacb" title="Community outreach" target="_blank">Community outreach</a></li>
-	<li><a href="http://www.bankofamerica.com/foundation/" class="bacb" title="Corporate philanthropy" target="_blank">Corporate philanthropy</a></li>
-	<li><a href="http://www.bankofamerica.com/teambank/" class="bacb" title="Team Bank of America" target="_blank">Team Bank of America</a></li>
+	<li><a href="http://www.bankofamerica.com/community/" class="bacb" title="Community outreach. Link opens a new window." target="_blank">Community outreach</a></li>
+	<li><a href="http://www.bankofamerica.com/foundation/" class="bacb" title="Corporate philanthropy. Link opens a new window." target="_blank">Corporate philanthropy</a></li>
+	<li><a href="http://www.bankofamerica.com/teambank/" class="bacb" title="Team Bank of America. Link opens a new window." target="_blank">Team Bank of America</a></li>
 </ul>
 				</td>
 				<td width="185" height="100%" style="padding-top: 7px;" valign="top">

@@ -3,17 +3,18 @@
 			<tr valign="top">
 				<td width="393" height="100%" valign="top" style="<%=middle_content_padding%>">
 <a name="skipmaincontent"></a><h1 class="bac">Interview Tips</h1>
-
 <h2 class="bacs">Research our company in depth</h2>
 <ul class="bac">
+	<li>Preparation is key to the success of the interview</li>
 	<li>Thoroughly review our entire website</li>
-	<li>Talk to some of our current employees, if possible</li>
+	<li>Talk to some of our current associates, if possible</li>
 </ul>
 
 <h2 class="bacs">Identify your skills</h2>
 <ul class="bac">
 	<li>Identify your top 3 skills or experiences you can offer to the employer</li>
 	<li>Identify your top 3 opportunities for improvement</li>
+	<li>Demonstrate enthusiasm and sell yourself</li>
 </ul>
 
 <h2 class="bacs">Prepare experiences and examples</h2>
@@ -22,24 +23,24 @@
 	<li>Be prepared to prove your ability to work in teams, experience with conflict resolution, communication skills and decision-making skills</li>
 	<li>Consider developing a career portfolio and using it as a presentation prop during the interview</li>
 	<li>Know what you want to do as you start your career</li>
-	<li>Recognize that although GPA is important, providing evidence of skills, experience and capabilities will separate you from the others</li>
+	<li>Recognize that although how well you do in school is  important, providing evidence of skills, experience and capabilities will separate you from the others</li>
 </ul>
 
 <h2 class="bacs">Present a polished appearance</h2>
 <ul class="bac">
-	<li>Be well groomed</li>
 	<li>Dress professionally</li>
+	<li>Make sure your cell phone/mobile/Blackberry is turned off in advance of your interview</li>
 </ul>
 
 <h2 class="bacs">Get directions in advance and be clear that you understand them</h2>
 <ul class="bac">
 	<li>Get directions to the company ahead of time and, if you can, practice traveling to the location</li>
-	<li>Know where you are meeting your interviewer and where to park</li>
+	<li>Know where you are meeting your interviewer</li>
 </ul>
 
 <h2 class="bacs">Get enough rest</h2>
 <ul class="bac">
-	<li>Get a good night&#39;s sleep so you'll be as physically, psychologically and emotionally at your best for the interview</li>
+	<li>Get a good night&#39;s sleep so you&#39;ll be as physically, psychologically and emotionally at your best for the interview</li>
 </ul>
 
 <h2 class="bacs">Bring your resume or CV</h2>
@@ -50,27 +51,30 @@
 <h2 class="bacs">Make a solid first impression</h2>
 <ul class="bac">
 	<li>Offer a firm handshake, good eye contact, confident body language</li>
-	<li>Answer questions with confidence</li>
+	<li>Answer questions with confidence; if you are unsure of an answer be honest about it</li>
+	<li>First impressions count, so the first 30 seconds are crucial</li>
 </ul>
 
-<h2 class="bacs">Develop questions</h2>
+<h2 class="bacs">Prepare  questions</h2>
 <ul class="bac">
 	<li>Ask informed questions to demonstrate your level of interest in the position</li>
 	<li>Prepare questions that will help you decide if the opportunity is a good fit</li>
 	<li>Consider questions that are related to typical work assignments, the corporate culture, growth potential, team structure, new technologies, new products and travel</li>
+	<li>Be original &mdash; don&#39;t ask the obvious questions</li>
 </ul>
 
-<h2 class="bacs">Develop your interview close</h2>
+<h2 class="bacs">Practice closing your interview</h2>
 <ul class="bac">
 	<li>Practice closing your interview to win the job</li>
 	<li>Sign up for mock interview sessions with a career counselor on campus</li>
+	<li>Thank the interviewer for their time and inquire about the next steps</li>
 </ul>
 
 <h2 class="bacs">Be ready for surprises</h2>
 <ul class="bac">
 	<li>You may take a pre-employment/assessment test or interview with more than one person</li>
+	<li>Its always a good idea to ask what to expect prior to the interview</li>
 </ul>
-
 
 <h2 class="bacs">Additional Resources</h2>
 <p class="bac"><i>Get a Job!. Interview Survival Skills for College Students</i> by John R. Cunningham</p>

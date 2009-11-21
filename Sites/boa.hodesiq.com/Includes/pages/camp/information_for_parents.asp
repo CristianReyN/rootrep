@@ -20,7 +20,7 @@ A career with Bank of America can provide:
 	<li>Built-in networks of success, with associates who share their ideas and common interests, through our diverse range of <a href="<% If page_section <> "ADA" Then  %>../learnmore/<% Else  %>../ada/<% End If %>diversity.asp" class="bac" title="Community Groups">community groups</a></li>
 	<li>Strong compensation for their skills and talents, and support for their life outside of work, through our outstanding <a href="<% If page_section <> "ADA" Then  %>../learnmore/<% Else  %>../ada/<% End If %>benefitsadv.asp" class="bac" title="Benefits Program">benefits program</a></li>
 	<li>Professional and personal development paths through our commitment to <a href="<% If page_section <> "ADA" Then  %>../staffingevents/<% Else  %>../ada/<% End If %>staffingprocess.asp" class="bac" title="Training and Career Advancement">training and career advancement</a></li>
-	<li>A sense of involvement in and support for the communities we serve through Team Bank of America and our overarching <a href="http://www.bankofamerica.com/foundation/" target="_blank" class="bac" title="Commitment to Philanthropy">commitment to philanthropy</a></li>
+	<li>A sense of involvement in and support for the communities we serve through Team Bank of America and our overarching <a href="http://www.bankofamerica.com/foundation/" target="_blank" class="bac" title="Commitment to Philanthropy. Link opens in new window.">commitment to philanthropy</a></li>
 </ul>
 				</td>
 				<td width="185" height="100%" style="padding-top: 7px;" valign="top">
