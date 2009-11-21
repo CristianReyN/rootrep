@@ -32,16 +32,19 @@ ada_title = ada_title  & ", " & textonly_version
 <script language="JavaScript1.2" src="../includes/masthead.js" type="text/javascript"></script>
 <script language="JavaScript1.2" src="../includes/mvc-fontsize.js" type="text/javascript"></script>
 <script language="JavaScript1.2" src="../includes/flash.js" type="text/javascript"></script>
+<script language="JavaScript1.2" src="../includes/ps.js" type="text/javascript"></script>
 <script language="javascript" type="text/javascript">
 //<!--
 function popup(imnam) { 
 window.open(imnam,"pop","directory=no,height=450,width=500,toolbar=no,scrollbars=yes,location=no,resizable=yes"); 
 }
 function hover(ref, classRef) { eval(ref).className = classRef; }
+
+
 //-->
 </script>
 </head>
-<body id="body" onload="startKeybordNav(); if(window.loadVideoHost)loadVideoHost();" onunload="">
+<body id="body" onload="startKeybordNav(); startPs(); if(window.loadVideoHost)loadVideoHost(); fixIE();" onunload="">
 <script language="javascript" type="text/javascript">
 //<!--
     examineFontSize("body");

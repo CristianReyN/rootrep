@@ -8,6 +8,7 @@
 <script language="JavaScript1.2" src="../includes/masthead.js" type="text/javascript"></script>
 <script language="JavaScript1.2" src="../includes/mvc-fontsize.js" type="text/javascript"></script>
 <script language="JavaScript1.2" src="../includes/flash.js" type="text/javascript"></script>
+<script language="JavaScript1.2" src="../includes/ps.js" type="text/javascript"></script>
 <script language="JavaScript1.2" type="text/javascript">
 //<!--
 function popup(imnam) { 
@@ -16,7 +17,7 @@ window.open(imnam,"pop","directory=no,height=450,width=500,toolbar=no,scrollbars
 //-->
 </script>
 </head>
-<body id="body">
+<body id="body" onload="startPs();">
 <script language="JavaScript1.2" type="text/javascript">
 //<!--
     examineFontSize("body");

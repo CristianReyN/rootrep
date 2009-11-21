@@ -358,7 +358,7 @@ A.p:hover, A.p-over, A.sblnk:hover
 	line-height : 1.2em;
 	font-weight : normal;
     color: #0000FF;
-    text-decoration: none;
+    text-decoration: underline;
 }
 A.p:visited, A.sblnk:visited
 {
@@ -386,7 +386,7 @@ A.left:hover, A.left-over
 	line-height : 1.0em;
 	font-weight : normal;
     color: #0000FF;
-    text-decoration: none;
+    text-decoration: underline;
 }
 A.left:visited
 {
@@ -417,7 +417,7 @@ A.left2:hover, A.left2-over
 	font-weight : bold;
     color: #0000FF;
     background-color: transparent;
-    text-decoration: none;
+    text-decoration: underline;
 }
 A.left2:visited
 {
@@ -446,7 +446,7 @@ A.ftrlnk:hover, A.ftrlnk-over
 	line-height : 1.1em;
 	font-weight : normal;
     color: #0000FF;
-    text-decoration: none;
+    text-decoration: underline;
 }
 A.ftrlnk:visited
 {
