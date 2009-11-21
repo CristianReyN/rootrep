@@ -29,7 +29,7 @@ The group's solutions are typically offered via prospectus or private placement 
 		<h3 class="bacg">US Trust, Bank of America Private Wealth Management</h3>&nbsp;<p class="bacg" style="margin-top: 3px; margin-bottom: 12px;">
 provides integrated wealth-management solutions to high-net-worth individuals, middle-market institutions and charitable organizations with investable assets greater than $3 million. U.S. Trust, Bank of America Private Wealth Management provides credit, deposit, investment and trust services as well as specialty asset management services.
 		</p>
-		<ul style="list-style-image: none; list-style-type: square;">
+		<ul style="list-style-image: none; list-style-type: square; margin-top: 12px;">
 			<li>
 				<h3 class="bac">Private Client Manager (New York, NY)</h3>
 			</li>

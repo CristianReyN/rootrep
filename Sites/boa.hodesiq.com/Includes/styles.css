@@ -805,6 +805,10 @@ h2.bac, h2.bacs, h2.bacg, h2.bach, h3.bac, h3.bacs, h3.bacg, h4.bac
 	margin: 0px;
 	padding: 0px;
 }
+h3.bac
+{
+	line-height : 1.2em;
+}
 h2.bach
 {
 	font-family : Verdana, Helvetica, sans-serif;

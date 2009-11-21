@@ -32,10 +32,12 @@ The group's solutions are typically offered via prospectus or private placement 
 		<p class="bac" style="margin-top: 3px; margin-bottom: 12px;">
 Institutional Retirement, Philanthropy & Investments provides retirement and benefit plan services, philanthropic management and investment guidance to institutional, non-profit and high net worth clients.
 		</p>
+	</li>
+	<li>
 		<h3 class="bacg">US Trust, Bank of America Private Wealth Management</h3>&nbsp;<p class="bacg" style="margin-top: 3px; margin-bottom: 12px;">
  provides integrated wealth-management solutions to high-net-worth individuals, middle-market institutions and charitable organizations with investable assets greater than $3 million. U.S. Trust, Bank of America Private Wealth Management provides credit, deposit, investment and trust services as well as specialty asset management services. 
 		</p>
-		<ul style="list-style-image: none; list-style-type: square;">
+		<ul style="list-style-image: none; list-style-type: square; margin-top: 12px;">
 			<li>
 				<h3 class="bac">Client Service & Sales Officer (New York Tri-State Region and New England)</h3>
 				<p class="bac" style="margin-top: 3px; margin-bottom: 12px;">
@@ -53,7 +55,7 @@ The CSSO manages the execution of client service activities such as initiating a
 <ul>
 	<li>
 		<h3 class="bac">Client & Business Management (Hopewell, NJ and New York, NY)</h3>
-		<ul style="list-style-image: none; list-style-type: square;">
+		<ul style="list-style-image: none; list-style-type: square; margin-top: 12px; margin-bottom: 12px;">
 			<li><h3 class="bacg">GWM Supply Chain Management</h3>&nbsp;<p class="bacg" style="margin-top: 3px; margin-bottom: 12px;">&nbsp;&mdash;&nbsp;This individual will ensure all third party suppliers utilized by GWM are captured in the Supply Chain Management database.  Track Supplier Manager deliverables via Portfolio Tracking Reports. Complete Supplier Manager training program to become familiar with program.</p></li>
 			<li><h3 class="bacg">GWM Business Continuity Management</h3>&nbsp;<p class="bacg" style="margin-top: 3px; margin-bottom: 12px;">&nbsp;&mdash;&nbsp;This individual will ensure every GWM business has a quality business continuity plan reflected within the Living Disaster Recovery Planning System (LDRPS).  LDRPS is the business continuity plan centralized repository used by the Bank of America Enterprise Resiliency team.  The GWM Business Continuity Management team is responsible for the proper planning, testing and recovery of over 1,000 BCP's.  This individual will play a very important role in making sure all businesses within GWM meeting / exceed all regulatory requirements.</p></li>
 			<li><h3 class="bacg">Business Intelligence</h3>&nbsp;<p class="bacg" style="margin-top: 3px; margin-bottom: 12px;">&nbsp;&mdash;&nbsp;Work in a fast-paced, team environment on a variety of GWM-wide strategic projects.   Contribute to GWM-wide executive level business planning, analysis, & metric/reporting initiatives.  Establish metrics and processes to gage impact of Bank of America / Merrill Lynch client cross-sell strategy execution.</p></li>
