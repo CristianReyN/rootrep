@@ -31,7 +31,7 @@ public partial class JobSearch : System.Web.UI.Page
 	{
 		//ddlState.ClientID
 
-		this.ddlState.Attributes.Add("onblur","javascript:setTimeout('__doPostBack(\'" + this.ddlState.ClientID + "\',\'\')', 0)"); 
+		this.ddlState.Attributes.Add("onblur", "javascript:setTimeout('__doPostBack(\'" + this.ddlState.ClientID + "\',\'\')', 0)"); 
 
 		ViewState["statequery"] = string.Empty;
 		if (!this.IsPostBack)

@@ -37,7 +37,7 @@
 								ToolTip="Select a state" AutoPostBack="false" OnSelectedIndexChanged="brefine_Click">
 								<asp:ListItem>All Locations&#160;</asp:ListItem>
 							</asp:DropDownList>
-							</div>
+							</div>							
 							<div>
 							<noscript>
 							<asp:ImageButton ID="brefine" runat="server" OnClick="brefine_Click" AlternateText="Show Cities" Height="19" Width="77" ImageUrl="~/images/showcitylink.GIF"/>
