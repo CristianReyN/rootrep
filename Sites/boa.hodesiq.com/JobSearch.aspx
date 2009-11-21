@@ -9,6 +9,7 @@
                <table border="0" cellpadding="1" cellspacing="0" summary="" width="100%">
                     <tr>
                         <td valign="top" colspan="2">To find a career suited to your skill set, select a job area from the list below. Then you may narrow your selection further by choosing a location and/or entering a keyword. <br />
+                        <noscript><span class="auraltext">After you select your state from the Location field, click on the link ‘Select Cities’. The page will refresh. You will then be able to select your city from the ‘City’ field.</span></noscript>
                         </td>
                         <td>&nbsp;</td>
                     </tr>
@@ -63,13 +64,14 @@
                     </tr>
                     <tr><td colspan="3">&nbsp;</td></tr>
                     <tr>
-						<td align="left" valign="top">
-							<asp:PlaceHolder runat="server" ID="phSearch"></asp:PlaceHolder>
-						</td>
-						<td align="left" valign="top">
-							<asp:HyperLink runat="server" ID="lnkAdvanceSearch" NavigateUrl="~/AdvanceSearch.aspx" Text="Advanced search" CssClass="p" />&nbsp;&nbsp;&nbsp;&nbsp;<asp:HyperLink runat="server" ID="lnkJobCart" NavigateUrl="~/jobcart.aspx" Text="View job cart" CssClass="p"/>
-						</td>
-						<td align="left" valign="top">
+						<td colspan="3">
+							<table border="0" cellspacing="10" cellpadding="0">
+								<tr>	
+									<td align="left" valign="top"><asp:PlaceHolder runat="server" ID="phSearch"></asp:PlaceHolder></td>
+									<td align="left" valign="top"><asp:HyperLink runat="server" ID="lnkAdvanceSearch" NavigateUrl="~/AdvanceSearch.aspx" Text="Advanced search" CssClass="p" /></td>
+									<td align="left" valign="top"><asp:HyperLink runat="server" ID="lnkJobCart" NavigateUrl="~/jobcart.aspx" Text="View job cart" CssClass="p"/></td>
+								</tr>
+							</table>
 							
 						</td>
                     </tr>

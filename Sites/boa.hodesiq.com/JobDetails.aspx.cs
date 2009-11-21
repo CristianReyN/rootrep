@@ -29,7 +29,7 @@ public partial class JobDetails : System.Web.UI.Page
        //LnkRemoveFromJobCart_bottom.Visible = false;
        bttnRemoveFromJobCart.Visible = false;
        bttnRemoveFromJobCart_bottom.Visible = false;
-	   if (this.Request.UrlReferrer!=null && (this.Request.UrlReferrer.ToString().ToLowerInvariant().Contains("jobsearch.aspx") || this.Request.UrlReferrer.ToString().ToLowerInvariant().Contains("advancedsearch.aspx")))
+	   if (this.Request.UrlReferrer!=null && (this.Request.UrlReferrer.ToString().ToLowerInvariant().Contains("jobsearch.aspx") || this.Request.UrlReferrer.ToString().ToLowerInvariant().Contains("advancesearch.aspx")))
 		{
 			bttnJobList.Visible=true;
 		}
