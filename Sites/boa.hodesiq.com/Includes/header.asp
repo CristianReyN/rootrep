@@ -63,7 +63,7 @@ End If
 <script language="javascript" type="text/javascript">
 //<!--
     examineFontSize("body");
-	//cmSetProduction();
+	cmSetProduction();
 	cmCreatePageviewTag("<%= pageId %>", null, null,"<%= categoryId %>");
 //-->
 </script>
