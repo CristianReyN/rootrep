@@ -110,5 +110,67 @@ public class AreaofTalent
 		}
 	}
 
+	public OleDbDataReader TalentDR()
+	{
+		OleDbConnection con = new OleDbConnection(constring);
+		con.Open();
+		OleDbDataReader rdr;
+		OleDbCommand cmd = new OleDbCommand();
+		cmd.Connection = con;
+		cmd.CommandType = CommandType.StoredProcedure;
+		cmd.CommandText = "p_SelectAreasOfTalentList";
 
+		try
+		{
+			rdr = cmd.ExecuteReader(CommandBehavior.CloseConnection);
+			return rdr;
+		}
+		catch (Exception ex)
+		{
+			throw ex;
+		}
+	}
+
+	public OleDbDataReader JobfamilyDR()
+	{
+		OleDbConnection con = new OleDbConnection(constring);
+		con.Open();
+		OleDbDataReader rdr;
+		OleDbCommand cmd = new OleDbCommand();
+		cmd.Connection = con;
+		cmd.CommandType = CommandType.StoredProcedure;
+		cmd.CommandText = "p_SelectJobFamily";
+
+		try
+		{
+			rdr = cmd.ExecuteReader(CommandBehavior.CloseConnection);
+			return rdr;
+		}
+		catch (Exception ex)
+		{
+			throw ex;
+		}
+	}
+	public OleDbDataReader TalentwiseJobfamilyDR(string TalentVal)
+	{
+		if (TalentVal == string.Empty) { TalentVal = "-1"; }
+
+		OleDbConnection con = new OleDbConnection(constring);
+		con.Open();
+		OleDbDataReader rdr;
+		OleDbCommand cmd = new OleDbCommand();
+		cmd.Connection = con;
+		cmd.CommandType = CommandType.StoredProcedure;
+		cmd.CommandText = "p_SelectTalentWiseJobFamily";
+		cmd.Parameters.AddWithValue("@jfid", TalentVal);
+		try
+		{
+			rdr = cmd.ExecuteReader(CommandBehavior.CloseConnection);
+			return rdr;
+		}
+		catch (Exception ex)
+		{
+			throw ex;
+		}
+	}
 }

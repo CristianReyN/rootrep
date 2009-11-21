@@ -90,8 +90,45 @@ public class Location
 		{
 			con.Close();
 		}
+	}
+	public OleDbDataReader StateDR()
+	{
+		OleDbConnection con = new OleDbConnection(constring);
+		con.Open();
+		OleDbDataReader rdr;
+		OleDbCommand cmd = new OleDbCommand();
+		cmd.Connection = con;
+		cmd.CommandType = CommandType.StoredProcedure;
+		cmd.CommandText = "p_SelectStateList";
 
+		try
+		{
+			rdr = cmd.ExecuteReader(CommandBehavior.CloseConnection);
+			return rdr;
+		}
+		catch (Exception ex)
+		{
+			throw ex;
+		}
+	}
+	public OleDbDataReader StatewiseCityDR(int StateVal)
+	{
+		OleDbConnection con = new OleDbConnection(constring);
+		OleDbDataReader rdr;
+		con.Open();
+		try
+		{
+			OleDbCommand cmd = new OleDbCommand("p_Career_Sites_select_City ", con);
+			cmd.CommandType = CommandType.StoredProcedure;
+			cmd.Parameters.AddWithValue("@Stateid", StateVal);
+			cmd.Connection = con;
+			rdr = cmd.ExecuteReader();
+			return rdr;
+		}
+		catch (Exception ex)
+		{
+			throw ex;
+		}
 
-    }
-
+	}
 }
