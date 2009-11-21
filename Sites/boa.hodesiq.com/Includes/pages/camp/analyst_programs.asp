@@ -255,7 +255,7 @@ tabs[tab-1].coremetrics = true;
 				End If
 			Next %>
 		<br><br>
-		<a href="http://www.japan.ml.com/recruiting/home/index/index.html" class="bac">Some Program Descriptions in Japanese</a>
+		<a href="http://www.japan.ml.com/recruiting/home/index/index.html" class="bac" target="_blank" title="Some Program Descriptions in Japanese. Link opens a new window.">Some Program Descriptions in Japanese</a>
 	</div>
 </div>
 				</td>

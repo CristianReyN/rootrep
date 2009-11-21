@@ -56,17 +56,17 @@ Set programs(8) = createProgram("Infrastructure Design &amp; Build Program", csb
 Set programs(9) = createProgram("Operations Management Analyst Program", csbb_program_group, "usfn-operations-management-analyst.asp", AMERICAS, U_S_A, ANALYST, FULLTIME, FALSE, TRUE)
 
 Set programs(10) = createProgram("Commercial Real Estate Bank Development Program", gbgwim_program_group, "usfn-commercial-real-estate-bank-development.asp", AMERICAS, U_S_A, ANALYST, FULLTIME, FALSE, TRUE)
+Set programs(161) = createProgram("Corporate Banking Analyst", gbgwim_program_group, "usfn-corporate-banking-analyst.asp", AMERICAS, U_S_A, ANALYST, FULLTIME, FALSE, TRUE)
 Set programs(11) = createProgram("Corporate &amp; Financial Institutions Debt Products Program ",gbgwim_program_group,"usfn-corporate-financial-institutions-debt-products.asp", AMERICAS, U_S_A, ANALYST, FULLTIME, FALSE, TRUE)
 Set programs(12) = createProgram("Corporate &amp; Investment Banking Analyst Program", gbgwim_program_group, "usfn-corporate-investment-banking-analyst.asp", AMERICAS, U_S_A, ANALYST, FULLTIME, FALSE, TRUE)
 Set programs(71) = createProgram("Corporate &amp; Investment Banking Analyst Program", gbgwim_program_group, "cafn-corporate-investment-banking-analyst.asp", AMERICAS, CANADA, ANALYST, FULLTIME, FALSE, TRUE)
+Set programs(159) = createProgram("Global Commercial Banking Analyst Program", gbgwim_program_group, "usfn-global-commercial-banking-analyst.asp", AMERICAS, U_S_A, ANALYST, FULLTIME, FALSE, TRUE)
 Set programs(13) = createProgram("Global Commercial Banking and Global Product Solutions Analyst Program", gbgwim_program_group, "usfn-global-commercial-banking-global-product-solutions-analyst.asp", AMERICAS, U_S_A, ANALYST, FULLTIME, FALSE, FALSE)'program removed
+Set programs(160) = createProgram("Global Corporate &amp; Financial Institutions Treasury Analyst Program", gbgwim_program_group, "usfn-global-corporate-financial-institutions-treasury-analyst.asp", AMERICAS, U_S_A, ANALYST, FULLTIME, FALSE, TRUE)
 Set programs(14) = createProgram("Global Markets Operations/Middle Office Rotational Program", gbgwim_program_group,"usfn-global-markets-operations-middle-office-rotational.asp", AMERICAS, U_S_A, ANALYST, FULLTIME, FALSE, TRUE)
 Set programs(15) = createProgram("Global Wealth and Investment Management Analyst Program", gbgwim_program_group, "usfn-global-wealth-investment-management-analyst.asp", AMERICAS, U_S_A, ANALYST, FULLTIME, FALSE, TRUE)
 Set programs(16) = createProgram("Technology Analyst Program", gbgwim_program_group, "usfn-technology-analyst.asp", AMERICAS, U_S_A, ANALYST, FULLTIME, FALSE, TRUE)
 Set programs(72) = createProgram("Technology Analyst Program", gbgwim_program_group, "cafn-technology-analyst.asp", AMERICAS, CANADA, ANALYST, FULLTIME, FALSE, TRUE)
-Set programs(159) = createProgram("Global Commercial Banking Analyst Program", gbgwim_program_group, "usfn-global-commercial-banking-analyst.asp", AMERICAS, U_S_A, ANALYST, FULLTIME, FALSE, TRUE)
-Set programs(160) = createProgram("Global Corporate &amp; Financial Institutions Treasury Analyst Program", gbgwim_program_group, "usfn-global-corporate-financial-institutions-treasury-analyst.asp", AMERICAS, U_S_A, ANALYST, FULLTIME, FALSE, TRUE)
-Set programs(161) = createProgram("Corporate Banking Analyst", gbgwim_program_group, "usfn-corporate-banking-analyst.asp", AMERICAS, U_S_A, ANALYST, FULLTIME, FALSE, TRUE)
 
 Set programs(17) = createProgram("LaSalle Global Trust Services<span style=""font-size: 0.6em; position: relative; top: -0.6em;"">TM</span> Analyst Program", gcps_program_group, "usfn-lasalle-global-trust-services-analyst.asp", AMERICAS, U_S_A, ANALYST, FULLTIME, FALSE, TRUE)
 Set programs(18) = createProgram("Global Transition, Quality &amp; Change Delivery Analyst", gcps_program_group, "usfn-quality-productivity-analyst.asp", AMERICAS, U_S_A, ANALYST, FULLTIME, FALSE, TRUE)
@@ -96,12 +96,12 @@ Set programs(27) = createProgram("eChannels &amp; Customer Solutions MBA Program
 Set programs(28) = createProgram("Operations MBA Program", csbb_program_group, "usfs-operations-mba.asp", AMERICAS, U_S_A, ASSOCIATE, FULLTIME, FALSE, TRUE)
 Set programs(29) = createProgram("Technology MBA Program", csbb_program_group, "usfs-technology-mba.asp", AMERICAS, U_S_A, ASSOCIATE, FULLTIME, FALSE, TRUE)
 
+Set programs(162) = createProgram("Corporate Banking Associate Program", gbgwim_program_group, "usfs-corporate-banking-associate.asp", AMERICAS, U_S_A, ASSOCIATE, FULLTIME, FALSE, TRUE)
 Set programs(30) = createProgram("Corporate &amp; Investment Banking Associate Program", gbgwim_program_group, "usfs-corporate-investment-banking-associate.asp", AMERICAS, U_S_A, ASSOCIATE, FULLTIME, FALSE, TRUE)
 Set programs(76) = createProgram("Corporate &amp; Investment Banking Associate Program", gbgwim_program_group,"cafs-corporate-investment-banking-associate.asp", AMERICAS, CANADA, ASSOCIATE, FULLTIME, FALSE, TRUE)
 Set programs(31) = createProgram("Global Commercial Banking and Global Product Solutions MBA Leadership Program", gbgwim_program_group, "usfs-global-commercial-banking-global-product-solutions-mba-leadership.asp", AMERICAS, U_S_A, ASSOCIATE, FULLTIME, FALSE, FALSE)'program removed
-Set programs(32) = createProgram("Global Wealth and Investment Management Associate Program", gbgwim_program_group, "usfs-global-wealth-investment-management-associate.asp", AMERICAS, U_S_A, ASSOCIATE, FULLTIME, FALSE, TRUE)
-Set programs(162) = createProgram("Corporate Banking Associate Program", gbgwim_program_group, "usfs-corporate-banking-associate.asp", AMERICAS, U_S_A, ASSOCIATE, FULLTIME, FALSE, TRUE)
 Set programs(163) = createProgram("Global Commercial Banking MBA Leadership Program", gbgwim_program_group, "usfs-global-commercial-banking-mba-leadership.asp", AMERICAS, U_S_A, ASSOCIATE, FULLTIME, FALSE, TRUE)
+Set programs(32) = createProgram("Global Wealth and Investment Management Associate Program", gbgwim_program_group, "usfs-global-wealth-investment-management-associate.asp", AMERICAS, U_S_A, ASSOCIATE, FULLTIME, FALSE, TRUE)
 
 Set programs(33) = createProgram("Global Transition, Quality &amp; Change Delivery Associate", gcps_program_group, "usfs-quality-productivity-associate.asp", AMERICAS, U_S_A, ASSOCIATE, FULLTIME, FALSE, TRUE)
 

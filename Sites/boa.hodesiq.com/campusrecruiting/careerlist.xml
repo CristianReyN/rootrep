@@ -3,7 +3,7 @@
 	<careerlist>
 		<career>
 			<name>Global Risk Management Program - US</name>
-			<link>usfn-global-risk-management.asp</link>
+			<link>campusrecruiting/usfn-global-risk-management.asp</link>
 			<answerlist>
 				<answer weight="1">4</answer>
 				<answer weight="1">5</answer>
@@ -32,7 +32,7 @@
 		</career>
 		<career>
 			<name>Corporate Audit Management Intern Program - US</name>
-			<link>usin-corporate-audit-management-internship.asp</link>
+			<link>campusrecruiting/usin-corporate-audit-management-internship.asp</link>
 			<answerlist>
 				<answer weight="1">5</answer>
 				<answer weight="200">6</answer>
@@ -56,7 +56,7 @@
 		</career>
 		<career>
 			<name>Global Risk Management Intern Program - US</name>
-			<link>usin-global-risk-management-internship.asp</link>
+			<link>campusrecruiting/usin-global-risk-management-internship.asp</link>
 			<answerlist>
 				<answer weight="1">4</answer>
 				<answer weight="1">5</answer>
@@ -83,8 +83,8 @@
 			</answerlist>
 		</career>
 		<career>
-			<name>Global Markets Risk Management Analyst - EMEA</name>
-			<link>emeafn-global-markets-risk-management-analyst.asp</link>
+			<name>Global  Risk Management Analyst - EMEA</name>
+			<link>campusrecruiting/emeafn-global-markets-risk-management-analyst.asp</link>
 			<answerlist>
 				<answer weight="1">4</answer>
 				<answer weight="1">5</answer>
@@ -111,7 +111,7 @@
 		</career>
 		<career>
 			<name>Global Markets Risk Management Analyst Internship - EMEA</name>
-			<link>emeain-global-markets-risk-management-analyst-internship.asp</link>
+			<link>campusrecruiting/emeain-global-markets-risk-management-analyst-internship.asp</link>
 			<answerlist>
 				<answer weight="1">4</answer>
 				<answer weight="1">5</answer>
@@ -137,7 +137,7 @@
 		</career>
 		<career>
 			<name>Quantitative Management Program - US</name>
-			<link>usfn-quantitative-management.asp</link>
+			<link>campusrecruiting/usfn-quantitative-management.asp</link>
 			<answerlist>
 				<answer weight="1">5</answer>
 				<answer weight="200">6</answer>
@@ -165,7 +165,7 @@
 	<careerlist>		
 		<career>
 			<name>Finance Management Associate Program - US</name>
-			<link>usfn-finance-management-associate.asp</link>
+			<link>campusrecruiting/usfn-finance-management-associate.asp</link>
 			<answerlist>
 				<answer weight="1">3</answer>
 				<answer weight="1">4</answer>
@@ -188,7 +188,7 @@
 		</career>
 		<career>
 			<name>Finance Management Associate Intern Program - US</name>
-			<link>usin-finance-management-associate-internship.asp</link>
+			<link>campusrecruiting/usin-finance-management-associate-internship.asp</link>
 			<answerlist>
 				<answer weight="1">3</answer>
 				<answer weight="1">4</answer>
@@ -211,7 +211,7 @@
 		</career>
 		<career>
 			<name>Corporate Audit Management Program - US</name>
-			<link>usfn-corporate-audit-management.asp</link>
+			<link>campusrecruiting/usfn-corporate-audit-management.asp</link>
 			<answerlist>
 				<answer weight="1">5</answer>
 				<answer weight="200">6</answer>
@@ -235,7 +235,7 @@
 		</career>
 		<career>
 			<name>Supply Chain Management -  Associate Program - US</name>
-			<link>usfn-supply-chain-management-associate.asp</link>
+			<link>campusrecruiting/usfn-supply-chain-management-associate.asp</link>
 			<answerlist>
 				<answer weight="1">3</answer>
 				<answer weight="1">4</answer>
@@ -254,7 +254,7 @@
 		</career>
 		<career>
 			<name>Supply Chain Management -  Associate Intern Program -US</name>
-			<link>usin-supply-chain-management-associate-internship.asp</link>
+			<link>campusrecruiting/usin-supply-chain-management-associate-internship.asp</link>
 			<answerlist>
 				<answer weight="1">3</answer>
 				<answer weight="1">4</answer>
@@ -273,7 +273,7 @@
 		</career>
 		<career>
 			<name>Corporate Treasury Analyst Program - US</name>
-			<link>usfn-corporate-treasury-analyst.asp</link>
+			<link>campusrecruiting/usfn-corporate-treasury-analyst.asp</link>
 			<answerlist>
 				<answer weight="1">3</answer>
 				<answer weight="1">4</answer>
@@ -292,7 +292,7 @@
 		</career>
 		<career>
 			<name>Corporate Treasury Analyst Intern Program - US</name>
-			<link>usin-corporate-treasury-analyst-internship.asp</link>
+			<link>campusrecruiting/usin-corporate-treasury-analyst-internship.asp</link>
 			<answerlist>
 				<answer weight="1">3</answer>
 				<answer weight="1">4</answer>
@@ -312,7 +312,7 @@
 		</career>
 		<career>
 			<name>Chief Financial Office Analyst  - Asia Pacific</name>
-			<link>asiafn-chief-financial-office-analyst.asp</link>
+			<link>campusrecruiting/asiafn-chief-financial-office-analyst.asp</link>
 			<answerlist>
 				<answer weight="1">4</answer>
 				<answer weight="1">5</answer>
@@ -331,7 +331,7 @@
 		</career>
 		<career>
 			<name>Chief Financial Office Analyst Internship - Asia Pacific</name>
-			<link>asiain-chief-financial-office-analyst-internship.asp</link>
+			<link>campusrecruiting/asiain-chief-financial-office-analyst-internship.asp</link>
 			<answerlist>
 				<answer weight="1">4</answer>
 				<answer weight="1">5</answer>
@@ -356,7 +356,7 @@
 	<careerlist>
 		<career>
 			<name>Global Human Resources Leadership and Development Program - US</name>
-			<link>usis-global-human-resources-leadership-development-internship.asp</link>
+			<link>campusrecruiting/usis-global-human-resources-leadership-development-internship.asp</link>
 			<answerlist>
 				<answer weight="1">1</answer>
 				<answer weight="1">5</answer>
@@ -383,7 +383,7 @@
 		</career>
 		<career>
 			<name>Global Human Resources Leadership and Development Intern Program - US</name>
-			<link>usis-global-human-resources-leadership-development-internship.asp</link>
+			<link>campusrecruiting/usis-global-human-resources-leadership-development-internship.asp</link>
 			<answerlist>
 				<answer weight="1">1</answer>
 				<answer weight="1">5</answer>
@@ -410,7 +410,7 @@
 		</career>
 		<career>
 			<name>Global Human Resources Analyst - EMEA</name>
-			<link>emeafn-global-human-resources-analyst.asp</link>
+			<link>campusrecruiting/emeafn-global-human-resources-analyst.asp</link>
 			<answerlist>
 				<answer weight="1">1</answer>
 				<answer weight="1">5</answer>
@@ -448,7 +448,7 @@
 		</career>
 		<career>
 			<name>Global Human Resources Analyst Internship - EMEA</name>
-			<link>emeain-global-human-resources-analyst-internship.asp</link>
+			<link>campusrecruiting/emeain-global-human-resources-analyst-internship.asp</link>
 			<answerlist>
 				<answer weight="1">1</answer>
 				<answer weight="1">5</answer>
@@ -486,7 +486,7 @@
 		</career>
 		<career>
 			<name>Corporate Workplace Analyst - US </name>
-			<link>usfn-corporate-workplace-analyst.asp</link>
+			<link>campusrecruiting/usfn-corporate-workplace-analyst.asp</link>
 			<answerlist>
 				<answer weight="1">3</answer>
 				<answer weight="1">4</answer>
@@ -512,7 +512,7 @@
 		</career>
 		<career>
 			<name>Corporate Workplace Analyst Internship - US</name>
-			<link>usin-corporate-workplace-analyst-internship.asp</link>
+			<link>campusrecruiting/usin-corporate-workplace-analyst-internship.asp</link>
 			<answerlist>
 				<answer weight="1">3</answer>
 				<answer weight="1">4</answer>
@@ -539,7 +539,7 @@
 		</career>
 		<career>
 			<name>Corporate Workplace Associate- US </name>
-			<link>usfs-corporate-workplace-associate.asp</link>
+			<link>campusrecruiting/usfs-corporate-workplace-associate.asp</link>
 			<answerlist>
 				<answer weight="1">3</answer>
 				<answer weight="1">4</answer>
@@ -567,7 +567,7 @@
 		</career>
 		<career>
 			<name>Corporate Workplace Associate Internship - US</name>
-			<link>usis-corporate-workplace-associate-internship.asp</link>
+			<link>campusrecruiting/usis-corporate-workplace-associate-internship.asp</link>
 			<answerlist>
 				<answer weight="1">3</answer>
 				<answer weight="1">4</answer>
@@ -600,8 +600,8 @@
 	<name>Global Corporate Planning and Strategy</name>
 	<careerlist>		
 		<career>
-			<name>Quality and Productivity Analyst - US</name>
-			<link>usfn-quality-productivity-analyst.asp</link>
+			<name>Global Transition, Quality & Change Delivery Analyst - US</name>
+			<link>campusrecruiting/usfn-quality-productivity-analyst.asp</link>
 			<answerlist>
 				<answer weight="1">1</answer>
 				<answer weight="1">3</answer>
@@ -633,8 +633,8 @@
 			</answerlist>
 		</career>
 		<career>
-			<name>Quality and Productivity Analyst Internship - US</name>
-			<link>usin-quality-productivity-analyst-internship.asp</link>
+			<name>Global Transition, Quality & Change Delivery Analyst Intern - US</name>
+			<link>campusrecruiting/usin-quality-productivity-analyst-internship.asp</link>
 			<answerlist>
 				<answer weight="1">1</answer>
 				<answer weight="1">3</answer>
@@ -667,8 +667,8 @@
 			</answerlist>
 		</career>
 		<career>
-			<name>Quality and Productivity Associate - US</name>
-			<link>usfs-quality-productivity-associate.asp</link>
+			<name>Global Transition, Quality & Change Delivery  Associate - US</name>
+			<link>campusrecruiting/usfs-quality-productivity-associate.asp</link>
 			<answerlist>
 				<answer weight="1">1</answer>
 				<answer weight="1">3</answer>
@@ -701,8 +701,8 @@
 			</answerlist>
 		</career>
 		<career>
-			<name>Quality and Productivity Associate Internship - US</name>
-			<link>usis-quality-productivity-associate-internship.asp</link>
+			<name>Global Transition, Quality & Change Delivery  Associate Intern - US</name>
+			<link>campusrecruiting/usis-quality-productivity-associate-internship.asp</link>
 			<answerlist>
 				<answer weight="1">1</answer>
 				<answer weight="1">3</answer>
@@ -737,7 +737,7 @@
 		</career>
 		<career>
 			<name>LaSalle Global Trust Services Analyst Program - US</name>
-			<link>usfn-lasalle-global-trust-services-analyst.asp</link>
+			<link>campusrecruiting/usfn-lasalle-global-trust-services-analyst.asp</link>
 			<answerlist>
 				<answer weight="1">1</answer>
 				<answer weight="1">2</answer>
@@ -763,7 +763,7 @@
 		</career>
 		<career>
 			<name>LaSalle Global Trust Services Analyst Intern Program - US</name>
-			<link>usin-lasalle-global-trust-services-analyst-internship.asp</link>
+			<link>campusrecruiting/usin-lasalle-global-trust-services-analyst-internship.asp</link>
 			<answerlist>
 				<answer weight="1">1</answer>
 				<answer weight="1">2</answer>
@@ -790,67 +790,11 @@
 	</careerlist>	
 </group>		
 <group>
-	<name>Card Services</name>
-	<careerlist>
-		<career>
-			<name>Card Services Analyst - EMEA</name>
-			<link>emeafn-card-services-analyst.asp</link>
-			<answerlist>
-				<answer weight="1">1</answer>
-				<answer weight="200">6</answer>
-				<answer weight="75">9</answer>
-				<answer weight="1">13</answer>			
-				<answer weight="5">14</answer>
-				<answer weight="5">15</answer>			
-				<answer weight="5">16</answer>				
-				<answer weight="5">19</answer>				
-				<answer weight="5">22</answer>				
-				<answer weight="5">23</answer>						
-				<answer weight="5">25</answer>				
-				<answer weight="5">29</answer>						
-				<answer weight="5">30</answer>
-				<answer weight="100">40</answer>
-				<answer weight="5">43</answer>				
-				<answer weight="5">49</answer>
-				<answer weight="1">56</answer>				
-				<answer weight="1">57</answer>
-				<answer weight="1">65</answer>		
-			</answerlist>
-		</career>
-		<career>
-			<name>Card Services Analyst Internship - EMEA</name>
-			<link>emeain-card-services-analyst-internship.asp</link>
-			<answerlist>
-				<answer weight="1">1</answer>
-				<answer weight="200">6</answer>
-				<answer weight="-470">10</answer>
-				<answer weight="75">11</answer>
-				<answer weight="1">13</answer>			
-				<answer weight="5">14</answer>
-				<answer weight="5">15</answer>			
-				<answer weight="5">16</answer>				
-				<answer weight="5">19</answer>				
-				<answer weight="5">22</answer>				
-				<answer weight="5">23</answer>						
-				<answer weight="5">25</answer>				
-				<answer weight="5">29</answer>						
-				<answer weight="5">30</answer>
-				<answer weight="100">40</answer>
-				<answer weight="5">43</answer>				
-				<answer weight="5">49</answer>
-				<answer weight="1">56</answer>				
-				<answer weight="1">57</answer>
-				<answer weight="1">65</answer>		
-			</answerlist>
-		</career>
-	</careerlist>	
-</group>		
-<group>
 	<name>Global Banking and Global Wealth Investment Management</name>
 	<careerlist>	
 		<career>
 			<name>Global Commercial Banking and Global Product Solutions MBA Leadership Program - US</name>
-			<link>usfs-global-commercial-banking-global-product-solutions-mba-leadership.asp</link>
+			<link>campusrecruiting/usfs-global-commercial-banking-global-product-solutions-mba-leadership.asp</link>
 			<answerlist>
 				<answer weight="1">2</answer>
 				<answer weight="1">4</answer>
@@ -889,7 +833,7 @@
 		</career>
 		<career>
 			<name>Global Commercial Banking and Global Product Solutions MBA Leadership Intern Program - US</name>
-			<link>usis-global-commercial-banking-global-product-solutions-mba-leadership-internship.asp</link>
+			<link>campusrecruiting/usis-global-commercial-banking-global-product-solutions-mba-leadership-internship.asp</link>
 			<answerlist>
 				<answer weight="1">2</answer>
 				<answer weight="1">4</answer>
@@ -927,7 +871,7 @@
 		</career>
 		<career>
 			<name>Global Commercial Banking and Global Product Solutions Analyst Program - US</name>
-			<link>usfn-global-commercial-banking-global-product-solutions-analyst.asp</link>
+			<link>campusrecruiting/usfn-global-commercial-banking-global-product-solutions-analyst.asp</link>
 			<answerlist>
 				<answer weight="1">2</answer>
 				<answer weight="1">4</answer>
@@ -965,7 +909,7 @@
 		</career>
 		<career>
 			<name>Global Commercial Banking and Global Product Solutions Analyst Intern Program - US</name>
-			<link>usin-global-commercial-banking-global-product-solutions-analyst-internship.asp</link>
+			<link>campusrecruiting/usin-global-commercial-banking-global-product-solutions-analyst-internship.asp</link>
 			<answerlist>
 				<answer weight="1">2</answer>
 				<answer weight="1">4</answer>
@@ -1000,7 +944,7 @@
 		</career>
 		<career>
 			<name>Commercial Banking & Product Solutions Analyst - Asia Pacific</name>
-			<link>asiafn-commercial-banking-product-solutions-analyst.asp</link>
+			<link>campusrecruiting/asiafn-commercial-banking-product-solutions-analyst.asp</link>
 			<answerlist>
 				<answer weight="1">2</answer>
 				<answer weight="1">4</answer>
@@ -1026,7 +970,7 @@
 		</career>
 		<career>
 			<name>Commercial Banking & Product Solutions Analyst Internship - Asia Pacific</name>
-			<link>asiain-commercial-banking-product-solutions-analyst-internship.asp</link>
+			<link>campusrecruiting/asiain-commercial-banking-product-solutions-analyst-internship.asp</link>
 			<answerlist>
 				<answer weight="1">2</answer>
 				<answer weight="1">4</answer>
@@ -1054,7 +998,7 @@
 		</career>
 		<career>
 			<name>Commercial Real Estate Bank Development Program - US</name>
-			<link>usfn-commercial-real-estate-bank-development.asp</link>
+			<link>campusrecruiting/usfn-commercial-real-estate-bank-development.asp</link>
 			<answerlist>
 				<answer weight="1">2</answer>
 				<answer weight="1">4</answer>
@@ -1090,7 +1034,7 @@
 		</career>
 		<career>
 			<name>Commercial Real Estate Bank Development Intern Program - US</name>
-			<link>usin-commercial-real-estate-bank-development-internship.asp</link>
+			<link>campusrecruiting/usin-commercial-real-estate-bank-development-internship.asp</link>
 			<answerlist>
 				<answer weight="1">2</answer>
 				<answer weight="1">4</answer>
@@ -1126,7 +1070,7 @@
 		</career>
 		<career>
 			<name>Technology Analyst Program - Canada</name>
-			<link>cafn-corporate-investment-banking-analyst.asp</link>
+			<link>campusrecruiting/cafn-corporate-investment-banking-analyst.asp</link>
 			<answerlist>
 				<answer weight="1">3</answer>
 				<answer weight="1">4</answer>
@@ -1144,7 +1088,7 @@
 		</career>
 		<career>
 			<name>Technology Analyst Intern Program - Canada</name>
-			<link>cain-technology-analyst-internship.asp</link>
+			<link>campusrecruiting/cain-technology-analyst-internship.asp</link>
 			<answerlist>
 				<answer weight="1">3</answer>
 				<answer weight="1">4</answer>
@@ -1162,7 +1106,7 @@
 		</career>
 		<career>
 			<name>Technology Analyst Program - US</name>
-			<link>/usfn-technology-analyst.asp</link>
+			<link>campusrecruiting/usfn-technology-analyst.asp</link>
 			<answerlist>
 				<answer weight="1">3</answer>
 				<answer weight="1">4</answer>
@@ -1183,7 +1127,7 @@
 		</career>
 		<career>
 			<name>Technology Analyst - Asia Pacific</name>
-			<link>asiafn-technology-analyst.asp</link>
+			<link>campusrecruiting/asiafn-technology-analyst.asp</link>
 			<answerlist>
 				<answer weight="1">3</answer>
 				<answer weight="1">4</answer>
@@ -1201,7 +1145,7 @@
 		</career>
 		<career>
 			<name>Technology Analyst Intern Program - US</name>
-			<link>usin-technology-analyst-internship.asp</link>
+			<link>campusrecruiting/usin-technology-analyst-internship.asp</link>
 			<answerlist>
 				<answer weight="1">3</answer>
 				<answer weight="1">4</answer>
@@ -1222,7 +1166,7 @@
 		</career>
 		<career>
 			<name>Technology Analyst Intern - Asia Pacific</name>
-			<link>asiain-technology-analyst-internship.asp</link>
+			<link>campusrecruiting/asiain-technology-analyst-internship.asp</link>
 			<answerlist>
 				<answer weight="1">3</answer>
 				<answer weight="1">4</answer>
@@ -1241,7 +1185,7 @@
 		</career>
 		<career>
 			<name>Technology Analyst - EMEA</name>
-			<link>emeafn-technology-analyst.asp</link>
+			<link>campusrecruiting/emeafn-technology-analyst.asp</link>
 			<answerlist>
 				<answer weight="1">3</answer>
 				<answer weight="1">4</answer>
@@ -1259,7 +1203,7 @@
 		</career>
 		<career>
 			<name>Technology Analyst Internship - EMEA</name>
-			<link>emeain-technology-analyst-internship.asp</link>
+			<link>campusrecruiting/emeain-technology-analyst-internship.asp</link>
 			<answerlist>
 				<answer weight="1">3</answer>
 				<answer weight="1">4</answer>
@@ -1278,7 +1222,7 @@
 		</career>
 		<career>
 			<name>Corporate & Financial Institutions Debt Products Program - US</name>
-			<link>usfn-corporate-financial-institutions-debt-products.asp</link>
+			<link>campusrecruiting/usfn-corporate-financial-institutions-debt-products.asp</link>
 			<answerlist>
 
 				<answer weight="1">2</answer>
@@ -1317,7 +1261,7 @@
 		
 <career>
 			<name>Corporate & Financial Institutions Debt Products Intern Program - US </name>
-			<link>usfn-corporate-financial-institutions-debt-products.asp</link>
+			<link>campusrecruiting/usfn-corporate-financial-institutions-debt-products.asp</link>
 			<answerlist>
 				<answer weight="1">2</answer>			
 				<answer weight="1">4</answer>
@@ -1353,7 +1297,7 @@
 		</career>
 		<career>
 			<name>Corporate & Financial Institutions Debt Products Analyst - EMEA</name>
-			<link>emeafn-corporate-financial-institutions-debt-products-analyst-.asp</link>
+			<link>campusrecruiting/emeafn-corporate-financial-institutions-debt-products-analyst-.asp</link>
 			<answerlist>
 				<answer weight="1">2</answer>
 				<answer weight="1">4</answer>
@@ -1382,7 +1326,7 @@
 		</career>
 		<career>
 			<name>Corporate & Financial Institutions Debt Products Analyst Internship - EMEA</name>
-			<link>emeain-corporate-financial-institutions-debt-products-analyst-internship.asp</link>
+			<link>campusrecruiting/emeain-corporate-financial-institutions-debt-products-analyst-internship.asp</link>
 			<answerlist>
 				<answer weight="1">2</answer>
 				<answer weight="1">4</answer>
@@ -1412,7 +1356,7 @@
 		</career>
 		<career>
 			<name>Global Wealth and Investment Management Analyst Program-US</name>
-			<link>usfn-global-wealth-investment-management-analyst.asp</link>
+			<link>campusrecruiting/usfn-global-wealth-investment-management-analyst.asp</link>
 			<answerlist>
 				<answer weight="1">1</answer>
 				<answer weight="1">2</answer>
@@ -1445,7 +1389,7 @@
 		</career>
 		<career>
 			<name>Global Wealth and Investment Management Analyst Intern Program - US</name>
-			<link>usin-global-wealth-investment-management-analyst-internship.asp</link>
+			<link>campusrecruiting/usin-global-wealth-investment-management-analyst-internship.asp</link>
 			<answerlist>
 				<answer weight="1">1</answer>
 				<answer weight="1">2</answer>
@@ -1478,7 +1422,7 @@
 		</career>
 		<career>
 			<name>Global Wealth and Investment Management Associate Program - US</name>
-			<link>usfs-global-wealth-investment-management-associate.asp</link>
+			<link>campusrecruiting/usfs-global-wealth-investment-management-associate.asp</link>
 			<answerlist>
 				<answer weight="1">1</answer>
 				<answer weight="1">2</answer>
@@ -1510,7 +1454,7 @@
 		</career>
 		<career>
 			<name>Global Wealth and Investment Management Associate Intern Program - US</name>
-			<link>usis-global-wealth-investment-management-associate-internship.asp</link>
+			<link>campusrecruiting/usis-global-wealth-investment-management-associate-internship.asp</link>
 			<answerlist>
 				<answer weight="1">1</answer>
 				<answer weight="1">2</answer>
@@ -1543,7 +1487,7 @@
 		</career>
 		<career>
 			<name>Global Wealth Management Analyst - Asia Pacific</name>
-			<link>asiafn-global-wealth-management-analyst.asp</link>
+			<link>campusrecruiting/asiafn-global-wealth-management-analyst.asp</link>
 			<answerlist>
 				<answer weight="1">1</answer>
 				<answer weight="1">2</answer>
@@ -1571,7 +1515,7 @@
 		</career>		
 		<career>
 			<name>Global Wealth Management Analyst Internship - Asia Pacific</name>
-			<link>asiain-global-wealth-management-analyst-internship.asp</link>
+			<link>campusrecruiting/asiain-global-wealth-management-analyst-internship.asp</link>
 			<answerlist>
 				<answer weight="1">1</answer>
 				<answer weight="1">2</answer>
@@ -1600,7 +1544,7 @@
 		</career>
 		<career>
 			<name>Global Wealth and Investment Management Analyst - EMEA</name>
-			<link>emeafn-global-wealth-investment-management-analyst.asp</link>
+			<link>campusrecruiting/emeafn-global-wealth-investment-management-analyst.asp</link>
 			<answerlist>
 				<answer weight="1">1</answer>
 				<answer weight="1">2</answer>
@@ -1629,7 +1573,7 @@
 		</career>
 		<career>
 			<name>Global Wealth and Investment Management Analyst Internship - EMEA</name>
-			<link>emeain-global-wealth-investment-management-analyst-internship.asp</link>
+			<link>campusrecruiting/emeain-global-wealth-investment-management-analyst-internship.asp</link>
 			<answerlist>
 				<answer weight="1">1</answer>
 				<answer weight="1">2</answer>
@@ -1659,7 +1603,7 @@
 		</career>
 		<career>
 			<name>Corporate and Investment Banking Analyst Program - US</name>
-			<link>usfn-corporate-investment-banking-analyst.asp</link>
+			<link>campusrecruiting/usfn-corporate-investment-banking-analyst.asp</link>
 			<answerlist>
 				<answer weight="1">1</answer>
 				<answer weight="1">2</answer>
@@ -1696,7 +1640,7 @@
 		</career>
 	    <career>
 			<name>Corporate and Investment Banking Analyst  - EMEA</name>
-			<link>emeafn-corporate-investment-banking-analyst.asp</link>
+			<link>campusrecruiting/emeafn-corporate-investment-banking-analyst.asp</link>
 			<answerlist>
 				<answer weight="1">2</answer>
 				<answer weight="1">4</answer>
@@ -1727,7 +1671,7 @@
 		</career>
 	    <career>
 			<name>Corporate and Investment Banking Analyst Intern Program - US</name>
-			<link>usin-corporate-investment-banking-analyst-internship.asp</link>
+			<link>campusrecruiting/usin-corporate-investment-banking-analyst-internship.asp</link>
 			<answerlist>
 				<answer weight="1">2</answer>
 				<answer weight="1">4</answer>
@@ -1765,7 +1709,7 @@
 		</career>
 	    <career>
 			<name>Corporate and Investment Banking Analyst Internship - EMEA</name>
-			<link>emeain-corporate-investment-banking-analyst-internship.asp</link>
+			<link>campusrecruiting/emeain-corporate-investment-banking-analyst-internship.asp</link>
 			<answerlist>
 				<answer weight="1">2</answer>
 				<answer weight="1">4</answer>
@@ -1797,7 +1741,7 @@
 		</career>
 	    <career>
 			<name>Corporate and Investment Banking Analyst  - Asia Pacific</name>
-			<link>asiafn-corporate-investment-banking-analyst.asp</link>
+			<link>campusrecruiting/asiafn-corporate-investment-banking-analyst.asp</link>
 			<answerlist>
 				<answer weight="1">2</answer>
 				<answer weight="1">4</answer>
@@ -1828,7 +1772,7 @@
 		</career>
 	    <career>
 			<name>Corporate and Investment Banking Analyst Internship - Asia Pacific</name>
-			<link>asiain-corporate-investment-banking-analyst-internship.asp</link>
+			<link>campusrecruiting/asiain-corporate-investment-banking-analyst-internship.asp</link>
 			<answerlist>
 				<answer weight="1">2</answer>
 				<answer weight="1">4</answer>
@@ -1859,7 +1803,7 @@
 		</career>
 	    <career>		
 			<name>Corporate and Investment Banking Associate - Asia Pacific</name>
-			<link>asiain-corporate-investment-banking-analyst-internship.asp</link>
+			<link>campusrecruiting/asiain-corporate-investment-banking-analyst-internship.asp</link>
 			<answerlist>
 				<answer weight="1">2</answer>
 				<answer weight="1">4</answer>
@@ -1886,7 +1830,7 @@
 		</career>
 	    <career>
 			<name>Corporate and Investment Banking Associate - EMEA</name>
-			<link>emeafs-corporate-investment-banking-associate.asp</link>
+			<link>campusrecruiting/emeafs-corporate-investment-banking-associate.asp</link>
 			<answerlist>
 				<answer weight="1">2</answer>
 				<answer weight="1">4</answer>
@@ -1914,7 +1858,7 @@
 		</career>
 	    <career>
 			<name>Corporate and Investment Banking Associate Internship - Asia Pacific</name>
-			<link>asiais-corporate-investment-banking-associate-internship.asp</link>
+			<link>campusrecruiting/asiais-corporate-investment-banking-associate-internship.asp</link>
 			<answerlist>
 				<answer weight="1">2</answer>
 				<answer weight="1">4</answer>
@@ -1932,7 +1876,7 @@
 		</career>
 	    <career>
 			<name>Corporate and Investment Banking Associate Internship - EMEA</name>
-			<link>emeais-corporate-investment-banking-associate-internship.asp</link>
+			<link>campusrecruiting/emeais-corporate-investment-banking-associate-internship.asp</link>
 			<answerlist>
 				<answer weight="1">2</answer>
 				<answer weight="1">4</answer>
@@ -1961,7 +1905,7 @@
 		</career>
 	    <career>
 			<name>Corporate and Investment Banking Associate Program - US</name>
-			<link>usfs-corporate-investment-banking-associate.asp</link>
+			<link>campusrecruiting/usfs-corporate-investment-banking-associate.asp</link>
 			<answerlist>
 			    <answer weight="1">5</answer>
 				<answer weight="1">2</answer>
@@ -1994,7 +1938,7 @@
 		</career>
 		<career>
 			<name>Corporate and Investment Banking Associate Intern Program - US</name>
-			<link>usis-corporate-investment-banking-associate-internship.asp</link>
+			<link>campusrecruiting/usis-corporate-investment-banking-associate-internship.asp</link>
 			<answerlist>
 			    <answer weight="1">5</answer>
 				<answer weight="200">7</answer>
@@ -2020,7 +1964,7 @@
 		</career>
 	    <career>
 			<name>Corporate and Investment Banking Analyst Program - Canada</name>
-			<link>cafn-corporate-investment-banking-analyst.asp</link>
+			<link>campusrecruiting/cafn-corporate-investment-banking-analyst.asp</link>
 			<answerlist>
 				<answer weight="1">2</answer>
 				<answer weight="1">4</answer>
@@ -2052,7 +1996,7 @@
 		</career>
 	    <career>
 			<name>Corporate and Investment Banking Analyst Intern Program - Canada</name>
-			<link>cafn-corporate-investment-banking-analyst.asp</link>
+			<link>campusrecruiting/cafn-corporate-investment-banking-analyst.asp</link>
 			<answerlist>
 				<answer weight="1">2</answer>
 				<answer weight="1">4</answer>
@@ -2085,7 +2029,7 @@
 		</career>
 	    <career>
 			<name>Corporate and Investment Banking Associate Program - Canada</name>
-			<link>cafs-corporate-investment-banking-associate.asp</link>
+			<link>campusrecruiting/cafs-corporate-investment-banking-associate.asp</link>
 			<answerlist>
 				<answer weight="1">2</answer>
 				<answer weight="1">4</answer>
@@ -2113,7 +2057,7 @@
 		</career>
 		<career>
 			<name>Corporate and Investment Banking Associate Intern Program - Canada</name>
-			<link>cais-corporate-investment-banking-associate-internship.asp</link>
+			<link>campusrecruiting/cais-corporate-investment-banking-associate-internship.asp</link>
 			<answerlist>
 				<answer weight="1">5</answer>
 				<answer weight="200">7</answer>
@@ -2134,7 +2078,7 @@
 		</career>
 	    <career>
 			<name>Global Markets Operations/Middle Office Intern Program - US</name>
-			<link>usin-global-markets-operations-middle-office-internship.asp</link>
+			<link>campusrecruiting/usin-global-markets-operations-middle-office-internship.asp</link>
 			<answerlist>
 				<answer weight="1">5</answer>
 				<answer weight="200">6</answer>
@@ -2157,7 +2101,7 @@
 		</career>
 	    <career>
 			<name>Global Markets Operations/Middle Office Rotational Program - US</name>
-			<link>usfn-global-markets-operations-middle-office-rotational.asp</link>
+			<link>campusrecruiting/usfn-global-markets-operations-middle-office-rotational.asp</link>
 			<answerlist>
 				<answer weight="1">5</answer>
 				<answer weight="200">6</answer>
@@ -2179,7 +2123,7 @@
 		</career>
 	    <career>
 			<name>Operations Analyst - Asia Pacific</name>
-			<link>asiafn-operations-analyst.asp</link>
+			<link>campusrecruiting/asiafn-operations-analyst.asp</link>
 			<answerlist>
 				<answer weight="1">3</answer>
 				<answer weight="1">5</answer>
@@ -2198,7 +2142,7 @@
 		</career>
 	    <career>
 			<name>Operations Analyst Internship - Asia Pacific</name>
-			<link>asiain-operations-analyst-internship.asp</link>
+			<link>campusrecruiting/asiain-operations-analyst-internship.asp</link>
 			<answerlist>
 				<answer weight="1">3</answer>
 				<answer weight="1">5</answer>
@@ -2218,7 +2162,7 @@
 		</career>
 	    <career>
 			<name>Treasury Management Analyst - EMEA</name>
-			<link>campusrecruitingtreasury-management-analyst.asp</link>
+			<link>campusrecruiting/emeain-treasury-management-analyst.asp</link>
 			<answerlist>
 				<answer weight="1">1</answer>
 				<answer weight="200">6</answer>
@@ -2234,7 +2178,7 @@
 		</career>
 	    <career>
 			<name>Treasury Management Analyst Internship - EMEA</name>
-			<link>emeain-treasury-management-analyst-internship.asp</link>
+			<link>campusrecruiting/emeain-treasury-management-analyst-internship.asp</link>
 			<answerlist>
 				<answer weight="1">1</answer>
 				<answer weight="200">6</answer>
@@ -2249,6 +2193,177 @@
 				<answer weight="1">56</answer>
 			</answerlist>
 		</career>
+	 
+          <career>
+			<name>Global Commercial Banking Analyst Program - US</name>
+			<link>campusrecruiting/usfn-global-commercial-banking-analyst.asp</link>
+			<answerlist>
+				<answer weight="1">2</answer>
+				<answer weight="1">4</answer>
+				<answer weight="1">5</answer>
+				<answer weight="200">6</answer>
+				<answer weight="75">9</answer>
+				<answer weight="75">10</answer>
+				<answer weight="75">11</answer>
+				<answer weight="1">12</answer>
+				<answer weight="1">13</answer>	
+				<answer weight="5">14</answer>
+				<answer weight="5">15</answer>
+				<answer weight="5">16</answer>
+				<answer weight="5">17</answer>
+				<answer weight="5">19</answer>
+				<answer weight="5">20</answer>
+				<answer weight="5">24</answer>
+				<answer weight="5">32</answer>
+				<answer weight="100">33</answer>
+				<answer weight="100">34</answer>
+				<answer weight="100">35</answer>
+				<answer weight="100">36</answer>
+				<answer weight="100">37</answer>
+				<answer weight="100">38</answer>
+				<answer weight="100">42</answer>			
+				<answer weight="5">44</answer>
+				<answer weight="5">53</answer>			
+				<answer weight="1">54</answer>			
+				<answer weight="1">56</answer>
+				<answer weight="1">57</answer>
+				<answer weight="1">60</answer>
+				<answer weight="1">61</answer>
+				<answer weight="1">63</answer>
+			</answerlist>
+		</career>
+
+      <career>
+			<name>Global Corporate & Financial Institutions Treasury Analyst Program - US</name>
+			<link>campusrecruiting/usfn-global-corporate-financial-institutions-treasury-analyst.asp</link>
+			<answerlist>
+				<answer weight="1">4</answer>
+				<answer weight="1">5</answer>
+				<answer weight="200">6</answer>
+				<answer weight="75">9</answer>
+				<answer weight="-470">10</answer>
+				<answer weight="75">11</answer>
+				<answer weight="1">12</answer>	
+				<answer weight="5">14</answer>
+				<answer weight="5">15</answer>
+				<answer weight="5">19</answer>
+				<answer weight="5">20</answer>
+				<answer weight="5">24</answer>
+				<answer weight="100">33</answer>
+				<answer weight="100">34</answer>
+				<answer weight="100">35</answer>
+				<answer weight="100">36</answer>
+				<answer weight="100">37</answer>
+				<answer weight="100">38</answer>			
+				<answer weight="5">43</answer>
+				<answer weight="5">44</answer>			
+				<answer weight="5">52</answer>			
+				<answer weight="1">54</answer>
+				<answer weight="1">57</answer>
+				<answer weight="1">60</answer>
+				<answer weight="1">61</answer>
+			</answerlist>
+		</career>
+
+ <career>
+			<name>Corporate Banking Analyst Program  - US</name>
+			<link>campusrecruiting/usfn-corporate-banking-analyst.asp</link>
+			<answerlist>
+				<answer weight="1">4</answer>
+				<answer weight="1">5</answer>
+				<answer weight="200">6</answer>
+				<answer weight="75">9</answer>
+				<answer weight="-470">10</answer>
+				<answer weight="75">11</answer>	
+				<answer weight="1">13</answer>
+				<answer weight="5">14</answer>
+				<answer weight="5">15</answer>
+				<answer weight="5">19</answer>
+				<answer weight="5">20</answer>
+				<answer weight="5">24</answer>
+				<answer weight="100">35</answer>
+				<answer weight="100">36</answer>				                 
+				<answer weight="100">37</answer>			
+				<answer weight="5">44</answer>				
+				<answer weight="1">54</answer>			
+				<answer weight="1">55</answer>			
+				<answer weight="1">56</answer>
+				<answer weight="1">57</answer>
+				<answer weight="1">61</answer>
+
+			</answerlist>
+		</career>
+
+ <career>
+			<name>Global Commercial Banking MBA Leadership Program - US</name>
+			<link>campusrecruiting/usfs-global-commercial-banking-mba-leadership.asp</link>
+			<answerlist>
+				<answer weight="1">1</answer>
+				<answer weight="1">2</answer>
+				<answer weight="1">5</answer>
+				<answer weight="200">6</answer>
+				<answer weight="200">7</answer>
+				<answer weight="75">9</answer>
+				<answer weight="1">12</answer>	
+				<answer weight="1">13</answer>
+				<answer weight="5">14</answer>
+				<answer weight="5">15</answer>
+				<answer weight="5">16</answer>
+				<answer weight="5">18</answer>
+				<answer weight="100">33</answer>
+				<answer weight="100">34</answer>				                 
+				<answer weight="100">35</answer>
+				<answer weight="100">36</answer>
+				<answer weight="100">37</answer>
+				<answer weight="100">38</answer>
+				<answer weight="100">42</answer>			
+				<answer weight="5">53</answer>			
+				<answer weight="1">54</answer>
+				<answer weight="1">55</answer>			
+				<answer weight="1">56</answer>
+				<answer weight="1">58</answer>
+				<answer weight="1">61</answer>
+
+			</answerlist>
+		</career>
+
+ <career>
+			<name>Coporate Banking Associate  Program - US</name>
+			<link>campusrecruiting/usfs-corporate-banking-associate.asp</link>
+			<answerlist>
+				<answer weight="1">1</answer>
+				<answer weight="1">4</answer>
+				<answer weight="1">5</answer>
+				<answer weight="200">7</answer>
+				<answer weight="200">8</answer>
+				<answer weight="75">9</answer>
+				<answer weight="1">12</answer>	
+				<answer weight="1">13</answer>
+				<answer weight="5">14</answer>
+				<answer weight="5">15</answer>
+				<answer weight="5">16</answer>
+				<answer weight="5">17</answer>
+				<answer weight="5">19</answer>
+				<answer weight="5">20</answer>
+				<answer weight="5">26</answer>
+				<answer weight="100">33</answer>
+				<answer weight="100">34</answer>				                 
+				<answer weight="100">35</answer>
+				<answer weight="100">36</answer>
+				<answer weight="100">37</answer>
+				<answer weight="100">38</answer>
+				<answer weight="100">42</answer>			
+				<answer weight="5">51</answer>			
+				<answer weight="1">53</answer>
+				<answer weight="1">54</answer>
+				<answer weight="1">55</answer>
+				<answer weight="1">56</answer>			
+				<answer weight="1">57</answer>
+				<answer weight="1">58</answer>
+
+			</answerlist>
+		</career>
+
 	 </careerlist>	
 </group>		
 <group>
@@ -2256,7 +2371,7 @@
 	<careerlist>   
 	    <career>
 			<name>Global Capital Markets Analyst - US</name>
-			<link>usfn-global-capital-markets-analyst.asp</link>
+			<link>campusrecruiting/usfn-global-capital-markets-analyst.asp</link>
 			<answerlist>
 				<answer weight="1">2</answer>
 				<answer weight="1">4</answer>
@@ -2288,7 +2403,7 @@
 		
 	    <career>
 			<name>Global Capital Markets Associate Program - US</name>
-			<link>usfs-global-capital-markets-associate.asp</link>
+			<link>campusrecruiting/usfs-global-capital-markets-associate.asp</link>
 			<answerlist>
 				<answer weight="1">2</answer>
 				<answer weight="1">4</answer>
@@ -2310,61 +2425,9 @@
 				<answer weight="1">61</answer>
 			</answerlist>
 		</career>
-	    <career>
-			<name>Capital Markets Analyst - Canada Program</name>
-			<link>cafn-capital-markets-analyst.asp</link>
-			<answerlist>
-				<answer weight="1">2</answer>
-				<answer weight="1">4</answer>
-				<answer weight="200">6</answer>
-				<answer weight="75">9</answer>
-				<answer weight="1">12</answer>
-				<answer weight="1">13</answer>	
-				<answer weight="5">14</answer>
-				<answer weight="5">15</answer>
-				<answer weight="5">19</answer>
-				<answer weight="5">20</answer>
-				<answer weight="5">24</answer>
-				<answer weight="5">26</answer>
-				<answer weight="5">28</answer>
-				<answer weight="100">39</answer>
-				<answer weight="100">42</answer>			
-				<answer weight="5">44</answer>			
-				<answer weight="5">51</answer>
-				<answer weight="1">54</answer>
-				<answer weight="1">55</answer>			
-				<answer weight="1">56</answer>
-				<answer weight="1">58</answer>			
-				<answer weight="1">61</answer>
-			</answerlist>
-		</career>
-	    <career>
-			<name>Capital Markets Associate Program - Canada</name>
-			<link>cafs-capital-markets-associate.asp</link>
-			<answerlist>
-				<answer weight="1">2</answer>
-				<answer weight="1">4</answer>
-				<answer weight="200">7</answer>
-				<answer weight="75">9</answer>
-				<answer weight="1">12</answer>
-				<answer weight="1">13</answer>	
-				<answer weight="5">14</answer>
-				<answer weight="5">15</answer>
-				<answer weight="5">19</answer>
-				<answer weight="5">20</answer>
-				<answer weight="100">39</answer>
-				<answer weight="100">42</answer>			
-				<answer weight="5">44</answer>			
-				<answer weight="5">51</answer>
-				<answer weight="1">54</answer>
-				<answer weight="1">55</answer>			
-				<answer weight="1">56</answer>			
-				<answer weight="1">61</answer>
-			</answerlist>
-		</career>
-	    <career>
+	    	    	    <career>
 			<name>Capital Markets Analyst - EMEA</name>
-			<link>emeafn-capital-markets-analyst.asp</link>
+			<link>campusrecruiting/emeafn-capital-markets-analyst.asp</link>
 			<answerlist>
 				<answer weight="1">2</answer>
 				<answer weight="1">4</answer>
@@ -2391,7 +2454,7 @@
 		</career>
 	    <career>
 			<name>Capital Markets Analyst - Asia Pacific</name>
-			<link>asiafn-capital-markets-analyst.asp</link>
+			<link>campusrecruiting/asiafn-capital-markets-analyst.asp</link>
 			<answerlist>
 				<answer weight="1">2</answer>
 				<answer weight="1">4</answer>
@@ -2418,7 +2481,7 @@
 		</career>
 	    <career>
 			<name>Global Capital Markets Analyst Internship - US</name>
-			<link>usin-global-capital-markets-analyst-internship.asp</link>
+			<link>campusrecruiting/usin-global-capital-markets-analyst-internship.asp</link>
 			<answerlist>
 				<answer weight="1">2</answer>
 				<answer weight="1">4</answer>
@@ -2450,7 +2513,7 @@
 		</career>
 	    <career>
 			<name>Global Capital Markets Associate Intern Program - US</name>
-			<link>usfs-global-capital-markets-associate.asp</link>
+			<link>campusrecruiting/usfs-global-capital-markets-associate.asp</link>
 			<answerlist>
 				<answer weight="1">2</answer>
 				<answer weight="1">4</answer>
@@ -2479,7 +2542,7 @@
 
 
 			<name>Capital Markets Analyst Intern Program - Canada</name>
-			<link>cain-capital-markets-analyst-internship.asp</link>
+			<link>campusrecruiting/cain-capital-markets-analyst-internship.asp</link>
 			<answerlist>
 				<answer weight="1">2</answer>
 				<answer weight="1">4</answer>
@@ -2509,7 +2572,7 @@
 		</career>
 	    <career>
 			<name>Capital Markets Associate</name>
-			<link>usis-global-capital-markets-associate-internship.asp</link>
+			<link>campusrecruiting/usis-global-capital-markets-associate-internship.asp</link>
 			<answerlist>
 				<answer weight="1">2</answer>
 				<answer weight="1">4</answer>
@@ -2535,7 +2598,7 @@
 		</career>
 	    <career>
 			<name>Capital Markets Analyst Internship - Asia Pacific</name>
-			<link>asiain-capital-markets-analyst-internship.asp</link>
+			<link>campusrecruiting/asiain-capital-markets-analyst-internship.asp</link>
 			<answerlist>
 				<answer weight="1">2</answer>
 				<answer weight="1">4</answer>
@@ -2564,7 +2627,7 @@
 		</career>
 	    <career>
 			<name>Capital Markets Analyst Internship - EMEA</name>
-			<link>emeain-capital-markets-analyst-internship.asp</link>
+			<link>campusrecruiting/emeain-capital-markets-analyst-internship.asp</link>
 			<answerlist>
 				<answer weight="1">2</answer>
 				<answer weight="1">4</answer>
@@ -2593,7 +2656,7 @@
 		</career>
 	    <career>
 			<name>Global Markets Analyst - Asia Pacific</name>
-			<link>asiafn-global-markets-analyst.asp</link>
+			<link>campusrecruiting/asiafn-global-markets-analyst.asp</link>
 			<answerlist>
 				<answer weight="1">2</answer>
 				<answer weight="1">4</answer>
@@ -2614,7 +2677,7 @@
 		</career>
 	    <career>
 			<name>Global Markets Analyst Internship - Asia Pacific </name>
-			<link>asiain-global-markets-analyst-internship.asp</link>
+			<link>campusrecruiting/asiain-global-markets-analyst-internship.asp</link>
 			<answerlist>
 				<answer weight="1">2</answer>
 				<answer weight="1">4</answer>
@@ -2636,7 +2699,7 @@
 		</career>
 	    <career>
 			<name>Global Markets Associate - Asia Pacific</name>
-			<link>asiafs-global-markets-associate.asp</link>
+			<link>campusrecruiting/asiafs-global-markets-associate.asp</link>
 			<answerlist>
 				<answer weight="1">2</answer>
 				<answer weight="1">4</answer>
@@ -2657,7 +2720,7 @@
 		</career>
 	    <career>
 			<name>Global Markets Associate Internship - Asia Pacific</name>
-			<link>asiais-global-markets-associate-internship.asp</link>
+			<link>campusrecruiting/asiais-global-markets-associate-internship.asp</link>
 			<answerlist>
 				<answer weight="1">2</answer>
 				<answer weight="1">4</answer>
@@ -2679,7 +2742,7 @@
 		</career>
 	    <career>
 			<name>Global Markets PhD Associate - EMEA</name>
-			<link>emeafs-global-markets-phd-associate.asp</link>
+			<link>campusrecruiting/emeafs-global-markets-phd-associate.asp</link>
 			<answerlist>
 				<answer weight="1">4</answer>
 				<answer weight="1">5</answer>
@@ -2709,7 +2772,7 @@
 		</career>
 	    <career>
 			<name>Global Markets PhD Associate Internship - EMEA</name>
-			<link>emeais-global-markets-phd-associate-internship.asp</link>
+			<link>campusrecruiting/emeais-global-markets-phd-associate-internship.asp</link>
 			<answerlist>
 				<answer weight="1">4</answer>
 				<answer weight="1">5</answer>
@@ -2739,7 +2802,7 @@
 		</career>
 	    <career>
 			<name>Capital Markets Associate - Asia Pacific</name>
-			<link>asiafs-capital-markets-associate.asp</link>
+			<link>campusrecruiting/asiafs-capital-markets-associate.asp</link>
 			<answerlist>
 				<answer weight="1">2</answer>
 				<answer weight="1">4</answer>
@@ -2762,7 +2825,7 @@
 		</career>
 	    <career>
 			<name>Capital Markets Associate Internship - Asia Pacific</name>
-			<link>asiais-capital-markets-associate-internship.asp</link>
+			<link>campusrecruiting/asiais-capital-markets-associate-internship.asp</link>
 			<answerlist>
 				<answer weight="1">2</answer>
 				<answer weight="1">4</answer>
@@ -2786,7 +2849,7 @@
 		</career>
 	    <career>
 			<name>Global Research Analyst Program - US</name>
-			<link>usfn-global-research-analyst.asp</link>
+			<link>campusrecruiting/usfn-global-research-analyst.asp</link>
 			<answerlist>
 				<answer weight="1">4</answer>
 				<answer weight="1">5</answer>
@@ -2816,7 +2879,7 @@
 		</career>
 	    <career>
 			<name>Global Research Analyst Intern Program - US</name>
-			<link>usin-global-research-analyst-internship.asp</link>
+			<link>campusrecruiting/usin-global-research-analyst-internship.asp</link>
 			<answerlist>
 				<answer weight="1">4</answer>
 				<answer weight="1">5</answer>
@@ -2842,38 +2905,10 @@
 				<answer weight="1">61</answer>
 			</answerlist>
 		</career>
-	     <career>
-			<name>Research Analyst Program - Canada</name>
-			<link>cafn-research-analyst.asp</link>
-			<answerlist>
-				<answer weight="1">4</answer>
-				<answer weight="1">5</answer>
-				<answer weight="200">6</answer>
-				<answer weight="75">9</answer>
-				<answer weight="1">12</answer>
-				<answer weight="1">13</answer>
-				<answer weight="5">14</answer>
-				<answer weight="5">15</answer>
-				<answer weight="5">16</answer>
-				<answer weight="5">19</answer>
-				<answer weight="5">20</answer>
-				<answer weight="5">23</answer>
-				<answer weight="5">24</answer>
-				<answer weight="5">26</answer>
-				<answer weight="5">28</answer>
-				<answer weight="100">39</answer>			
-				<answer weight="5">44</answer>			
-				<answer weight="5">52</answer>
-				<answer weight="1">54</answer>
-				<answer weight="1">55</answer>
-				<answer weight="1">56</answer>
-				<answer weight="1">58</answer>		
-				<answer weight="1">61</answer>
-			</answerlist>
-		</career>
+
 	    <career>
 			<name>Research Analyst Intern Program - Canada</name>
-			<link>cain-research-analyst-internship.asp</link>
+			<link>campusrecruiting/cain-research-analyst-internship.asp</link>
 			<answerlist>
 				<answer weight="1">4</answer>
 				<answer weight="1">5</answer>
@@ -2902,7 +2937,7 @@
 		</career>
 	    <career>
 			<name>Research Analyst - EMEA</name>
-			<link>emeafn-research-analyst.asp</link>
+			<link>campusrecruiting/emeafn-research-analyst.asp</link>
 			<answerlist>
 				<answer weight="1">4</answer>
 				<answer weight="1">5</answer>
@@ -2931,7 +2966,7 @@
 		</career>
 	    <career>
 			<name>Research Analyst Internship - EMEA</name>
-			<link>emeain-research-analyst-internship.asp</link>
+			<link>campusrecruiting/emeain-research-analyst-internship.asp</link>
 			<answerlist>
 				<answer weight="1">4</answer>
 				<answer weight="1">5</answer>
@@ -2959,7 +2994,7 @@
 		</career>
 	    <career>
 			<name>Research Analyst - Asia Pacific</name>
-			<link>asiafn-research-analyst.asp</link>
+			<link>campusrecruiting/asiafn-research-analyst.asp</link>
 			<answerlist>
 				<answer weight="1">4</answer>
 				<answer weight="1">5</answer>
@@ -2988,7 +3023,7 @@
 		</career>
 	    <career>
 			<name>Research Analyst Internship - Asia Pacific</name>
-			<link>asiain-research-analyst-internship.asp</link>
+			<link>campusrecruiting/asiain-research-analyst-internship.asp</link>
 			<answerlist>
 				<answer weight="1">4</answer>
 				<answer weight="1">5</answer>
@@ -3016,7 +3051,7 @@
 		</career>
 	    <career>
 			<name>Research Associate - Asia Pacific</name>
-			<link>asiafs-research-associate.asp</link>
+			<link>campusrecruiting/asiafs-research-associate.asp</link>
 			<answerlist>
 				<answer weight="1">4</answer>
 				<answer weight="1">5</answer>
@@ -3048,7 +3083,7 @@
 		</career>
 	    <career>
 			<name>Research Associate Internship - Asia Pacific</name>
-			<link>asiais-research-associate-internship.asp</link>
+			<link>campusrecruiting/asiais-research-associate-internship.asp</link>
 			<answerlist>
 				<answer weight="1">4</answer>
 				<answer weight="1">5</answer>
@@ -3080,7 +3115,7 @@
 		</career>
 	     <career>
 			<name>Research Associate - EMEA</name>
-			<link>emeafs-research-associate.asp</link>
+			<link>campusrecruiting/emeafs-research-associate.asp</link>
 			<answerlist>
 				<answer weight="1">4</answer>
 				<answer weight="1">5</answer>
@@ -3112,7 +3147,7 @@
 		</career>
 	    <career>
 			<name>Research Associate Internship - EMEA</name>
-			<link>emeais-research-associate-internship.asp</link>
+			<link>campusrecruiting/emeais-research-associate-internship.asp</link>
 			<answerlist>
 				<answer weight="1">4</answer>
 				<answer weight="1">5</answer>
@@ -3142,41 +3177,10 @@
 				<answer weight="1">61</answer>
 			</answerlist>
 		</career>
-	    <career>
-			<name>Research PhD Associate - EMEA</name>
-			<link>emeafs-research-phd-associate.asp</link>
-			<answerlist>
-				<answer weight="1">4</answer>
-				<answer weight="1">5</answer>
-				<answer weight="200">7</answer>
-				<answer weight="200">8</answer>
-				<answer weight="75">9</answer>
-				<answer weight="1">12</answer>
-				<answer weight="1">13</answer>
-				<answer weight="5">14</answer>
-				<answer weight="5">15</answer>
-				<answer weight="5">16</answer>
-				<answer weight="5">17</answer>
-				<answer weight="5">19</answer>
-				<answer weight="5">20</answer>
-				<answer weight="5">24</answer>
-				<answer weight="5">26</answer>
-				<answer weight="5">28</answer>
-				<answer weight="100">40</answer>			
-				<answer weight="5">44</answer>			
-				<answer weight="5">52</answer>
-				<answer weight="1">54</answer>
-				<answer weight="1">55</answer>
-				<answer weight="1">56</answer>
-				<answer weight="1">57</answer>
-				<answer weight="1">58</answer>
-				<answer weight="1">59</answer>	
-				<answer weight="1">61</answer>
-			</answerlist>
-		</career>
-	    <career>
+	   
+    	    <career>
 			<name>Research Quant Analyst - EMEA</name>
-			<link>emeafs-research-quant-analyst.asp</link>
+			<link>campusrecruiting/emeafs-research-quant-analyst.asp</link>
 			<answerlist>
 				<answer weight="1">4</answer>
 				<answer weight="1">5</answer>
@@ -3204,7 +3208,7 @@
 		</career>
 	    <career>
 			<name>Research Quant Analyst Internship - EMEA</name>
-			<link>emeais-research-quant-analyst-internship.asp</link>
+			<link>campusrecruiting/emeais-research-quant-analyst-internship.asp</link>
 			<answerlist>
 				<answer weight="1">4</answer>
 				<answer weight="1">5</answer>
@@ -3230,7 +3234,7 @@
 		</career>
 	    <career>
 			<name>Global Research Associate Program - US</name>
-			<link>usfs-global-research-associate.asp</link>
+			<link>campusrecruiting/usfs-global-research-associate.asp</link>
 			<answerlist>
 				<answer weight="1">4</answer>
 				<answer weight="1">5</answer>
@@ -3263,7 +3267,7 @@
 		</career>
 	    <career>
 			<name>Global Research Associate Intern Program - US</name>
-			<link>usis-global-research-associate-internship.asp</link>
+			<link>campusrecruiting/usis-global-research-associate-internship.asp</link>
 			<answerlist>
 				<answer weight="1">4</answer>
 				<answer weight="1">5</answer>
@@ -3293,43 +3297,9 @@
 				<answer weight="1">61</answer>
 			</answerlist>
 		</career>
-	    <career>
-			<name>Research Associate Program - Canada</name>
-			<link>cafs-research-associate.asp</link>
-			<answerlist>
-				<answer weight="1">4</answer>
-				<answer weight="1">5</answer>
-				<answer weight="200">7</answer>
-				<answer weight="200">8</answer>
-				<answer weight="75">9</answer>
-				<answer weight="1">12</answer>
-				<answer weight="1">13</answer>
-				<answer weight="5">14</answer>
-				<answer weight="5">15</answer>
-				<answer weight="5">16</answer>
-				<answer weight="5">17</answer>
-				<answer weight="5">19</answer>
-				<answer weight="5">20</answer>
-				<answer weight="5">24</answer>
-				<answer weight="5">26</answer>
-				<answer weight="5">28</answer>
-				<answer weight="100">34</answer>	
-				<answer weight="100">39</answer>
-				<answer weight="100">42</answer>		
-				<answer weight="5">44</answer>			
-				<answer weight="5">52</answer>
-				<answer weight="1">54</answer>
-				<answer weight="1">55</answer>
-				<answer weight="1">56</answer>
-				<answer weight="1">57</answer>
-				<answer weight="1">58</answer>
-				<answer weight="1">59</answer>	
-				<answer weight="1">61</answer>
-			</answerlist>
-		</career>
-	    <career>
+	    	    <career>
 			<name>Research Associate Intern Program - Canada</name>
-			<link>cais-research-associate-internship.asp</link>
+			<link>campusrecruiting/cais-research-associate-internship.asp</link>
 			<answerlist>
 				<answer weight="1">4</answer>
 				<answer weight="1">5</answer>
@@ -3362,7 +3332,7 @@
 		</career>
 	    <career>
 			<name>Sales and Trading Analyst Program - Canada</name>
-			<link>cafn-sales-trading-analyst.asp</link>
+			<link>campusrecruiting/cafn-sales-trading-analyst.asp</link>
 			<answerlist>
 				<answer weight="1">4</answer>
 				<answer weight="1">5</answer>
@@ -3386,7 +3356,7 @@
 		</career>
 	    <career>
 			<name>Sales and Trading Analyst Intern Program - Canada </name>
-			<link>cain-sales-trading-analyst-internship.asp</link>
+			<link>campusrecruiting/cain-sales-trading-analyst-internship.asp</link>
 			<answerlist>
 				<answer weight="1">4</answer>
 				<answer weight="1">5</answer>
@@ -3411,7 +3381,7 @@
 		</career>
 	    <career>
 			<name>Global Sales and Trading Analyst Program - US</name>
-			<link>usfn-global-sales-trading-analyst.asp</link>
+			<link>campusrecruiting/usfn-global-sales-trading-analyst.asp</link>
 			<answerlist>
 				<answer weight="1">4</answer>
 				<answer weight="1">5</answer>
@@ -3436,7 +3406,7 @@
 		</career>
 		<career>
 			<name>Sales and Trading Analyst Intern Program - US</name>
-			<link>usin-sales-trading-analyst-internship.asp</link>
+			<link>campusrecruiting/usin-sales-trading-analyst-internship.asp</link>
 			<answerlist>
 				<answer weight="1">4</answer>
 				<answer weight="1">5</answer>
@@ -3462,7 +3432,7 @@
 		</career>
 	    <career>
 			<name>Sales and Trading Analyst - EMEA</name>
-			<link>emeafn-sales-trading-analyst.asp</link>
+			<link>campusrecruiting/emeafn-sales-trading-analyst.asp</link>
 			<answerlist>
 				<answer weight="1">4</answer>
 				<answer weight="1">5</answer>
@@ -3486,7 +3456,7 @@
 		</career>
 	    <career>
 			<name>Sales and Trading Analyst Internship - EMEA</name>
-			<link>emeain-sales-trading-analyst-internship.asp</link>
+			<link>campusrecruiting/emeain-sales-trading-analyst-internship.asp</link>
 			<answerlist>
 				<answer weight="1">4</answer>
 				<answer weight="1">5</answer>
@@ -3511,7 +3481,7 @@
 		</career>
 	    <career>
 			<name>Global Sales and Trading Associate Program - US</name>
-			<link>usfs-global-sales-trading-associate.asp</link>
+			<link>campusrecruiting/usfs-global-sales-trading-associate.asp</link>
 			<answerlist>
 				<answer weight="1">4</answer>
 				<answer weight="1">5</answer>
@@ -3543,7 +3513,7 @@
 		
 	    <career>
 			<name>Sales and Trading Associate Intern  Program - US</name>
-			<link>usis-sales-trading-associate-internship.asp</link>
+			<link>campusrecruiting/usis-sales-trading-associate-internship.asp</link>
 			<answerlist>
 				<answer weight="1">4</answer>
 				<answer weight="1">5</answer>
@@ -3575,7 +3545,7 @@
 		</career>
 	    <career>
 			<name>Sales and Trading Associate Program - Canada</name>
-			<link>cafs-sales-trading-associate.asp</link>
+			<link>campusrecruiting/cafs-sales-trading-associate.asp</link>
 			<answerlist>
 				<answer weight="1">4</answer>
 				<answer weight="1">5</answer>
@@ -3605,7 +3575,7 @@
 		</career>
 	    <career>
 			<name>Sales and Trading Associate Intern Program - Canada</name>
-			<link>cais-sales-trading-associate-internship.asp</link>
+			<link>campusrecruiting/cais-sales-trading-associate-internship.asp</link>
 			<answerlist>
 				<answer weight="1">4</answer>
 				<answer weight="1">5</answer>
@@ -3633,7 +3603,7 @@
 		</career>
 	    <career>
 			<name>Sales and Trading Associate - EMEA</name>
-			<link>emeafs-sales-trading-associate.asp</link>
+			<link>campusrecruiting/emeafs-sales-trading-associate.asp</link>
 			<answerlist>
 				<answer weight="1">4</answer>
 				<answer weight="1">5</answer>
@@ -3663,7 +3633,7 @@
 		</career>
 	    <career>
 			<name>Sales and Trading Associate Internship - EMEA</name>
-			<link>emeais-sales-trading-associate-internship.asp</link>
+			<link>campusrecruiting/emeais-sales-trading-associate-internship.asp</link>
 			<answerlist>
 				<answer weight="1">4</answer>
 				<answer weight="1">5</answer>
@@ -3698,7 +3668,7 @@
 	<careerlist> 
 	    <career>
 			<name>Operations MBA Program - US</name>
-			<link>usfs-operations-mba.asp</link>
+			<link>campusrecruiting/usfs-operations-mba.asp</link>
 			<answerlist>
 				<answer weight="1">1</answer>
 				<answer weight="1">3</answer>
@@ -3728,7 +3698,7 @@
 		</career>
 	    <career>
 			<name>Operations MBA Intern Program - US</name>
-			<link>usis-operations-mba-internship.asp</link>
+			<link>campusrecruiting/usis-operations-mba-internship.asp</link>
 			<answerlist>
 				<answer weight="1">1</answer>
 				<answer weight="1">3</answer>
@@ -3759,7 +3729,7 @@
 		</career>
 	    <career>
 			<name>Technology MBA Program - US</name>
-			<link>usfs-technology-mba.asp</link>
+			<link>campusrecruiting/usfs-technology-mba.asp</link>
 			<answerlist>
 				<answer weight="1">3</answer>
 				<answer weight="1">4</answer>
@@ -3784,7 +3754,7 @@
 		</career>
 	    <career>
 			<name>Technology MBA Intern Program - US</name>
-			<link>usis-technology-mba-internship.asp</link>
+			<link>campusrecruiting/usis-technology-mba-internship.asp</link>
 			<answerlist>
 				<answer weight="1">3</answer>
 				<answer weight="1">4</answer>
@@ -3810,7 +3780,7 @@
 		</career>
 	    <career>
 			<name>Consumer & Small Business Banking Assistant Manager - US</name>
-			<link>usfn-consumer-small-business-banking-assistant-manager.asp</link>
+			<link>campusrecruiting/usfn-consumer-small-business-banking-assistant-manager.asp</link>
 			<answerlist>
 				<answer weight="1">1</answer>
 				<answer weight="1">2</answer>
@@ -3836,7 +3806,7 @@
 		</career>
 	    <career>
 			<name>Consumer & Small Business Banking MBA Program - US</name>
-			<link>usfs-consumer-small-business-banking-mba.asp</link>
+			<link>campusrecruiting/usfs-consumer-small-business-banking-mba.asp</link>
 			<answerlist>
 				<answer weight="1">1</answer>
 				<answer weight="1">2</answer>
@@ -3871,7 +3841,7 @@
 		</career>
 	    <career>
 			<name>Consumer & Small Business Banking MBA Intern Program - US</name>
-			<link>usis-consumer-small-business-banking-mba-internship.asp</link>
+			<link>campusrecruiting/usis-consumer-small-business-banking-mba-internship.asp</link>
 			<answerlist>
 				<answer weight="1">1</answer>
 				<answer weight="1">2</answer>
@@ -3900,7 +3870,7 @@
 		</career>
 	    <career>
 			<name>eChannels & Customer Solutions MBA Program - US</name>
-			<link>usfs-echannels-customer-solutions-mba.asp</link>
+			<link>campusrecruiting/usfs-echannels-customer-solutions-mba.asp</link>
 			<answerlist>
 				<answer weight="1">1</answer>
 				<answer weight="1">2</answer>
@@ -3929,7 +3899,7 @@
 		</career>
 	    <career>
 			<name>eChannels & Customer Solutions MBA Intern Program - US</name>
-			<link>usis-echannels-customer-solutions-mba-internship.asp</link>
+			<link>campusrecruiting/usis-echannels-customer-solutions-mba-internship.asp</link>
 			<answerlist>
 				<answer weight="1">1</answer>
 				<answer weight="1">2</answer>
@@ -3958,7 +3928,7 @@
 		</career>
 	    <career>
 			<name>Operations Management Analyst Program - US</name>
-			<link>usfn-operations-management-analyst.asp</link>
+			<link>campusrecruiting/usfn-operations-management-analyst.asp</link>
 			<answerlist>
 				<answer weight="1">1</answer>
 				<answer weight="1">3</answer>
@@ -3986,8 +3956,8 @@
 			</answerlist>
 		</career>
 	    <career>
-			<name>Operations Management Analyst Intern Program - US</name>
-			<link>usin-operations-management-analyst-internship.asp</link>
+			<name>Operations Managemeny Analyst Intern Program - US</name>
+			<link>campusrecruiting/usin-operations-management-analyst-internship.asp</link>
 			<answerlist>
 				<answer weight="1">1</answer>
 				<answer weight="1">3</answer>
@@ -4017,7 +3987,7 @@
 		</career>
 	    <career>
 			<name>Enterprise Technology & Delivery Leadership Development Rotational Program - US</name>
-			<link>usfn-enterprise-technology-delivery-leadership-development-rotational.asp</link>
+			<link>campusrecruiting/usfn-enterprise-technology-delivery-leadership-development-rotational.asp</link>
 			<answerlist>
 				<answer weight="1">3</answer>
 				<answer weight="1">4</answer>
@@ -4043,7 +4013,7 @@
 		</career>
 	    <career>
 			<name>Enterprise Technology & Delivery Analyst</name>
-			<link>emeafn-enterprise-technology-delivery-analyst.asp</link>
+			<link>campusrecruiting/emeafn-enterprise-technology-delivery-analyst.asp</link>
 			<answerlist>
 				<answer weight="1">3</answer>
 				<answer weight="200">6</answer>
@@ -4061,7 +4031,7 @@
 		</career>
 	    <career>
 			<name>Enterprise Technology & Delivery Analyst Internship - EMEA</name>
-			<link>emeain-enterprise-technology-delivery-analyst-internship.asp</link>
+			<link>campusrecruiting/emeain-enterprise-technology-delivery-analyst-internship.asp</link>
 			<answerlist>
 				<answer weight="1">3</answer>
 				<answer weight="200">6</answer>
@@ -4080,7 +4050,7 @@
 		</career>
 	    <career>
 			<name>Enterprise Technology & Delivery Intern Program - US</name>
-			<link>usin-enterprise-technology-delivery-internship.asp</link>
+			<link>campusrecruiting/usin-enterprise-technology-delivery-internship.asp</link>
 			<answerlist>
 				<answer weight="1">3</answer>
 				<answer weight="1">4</answer>
@@ -4106,7 +4076,7 @@
 		</career>
 	    <career>
 			<name>Infrastructure Design & Build Program - US</name>
-			<link>usfn-infrastructure-design-build.asp</link>
+			<link>campusrecruiting/usfn-infrastructure-design-build.asp</link>
 			<answerlist>
 				<answer weight="1">3</answer>
 				<answer weight="1">5</answer>
@@ -4130,7 +4100,7 @@
 		</career> 
 		<career>
 			<name>Infrastructure Design & Build Intern Program</name>
-			<link>usin-infrastructure-design-build-internship.asp</link>
+			<link>campusrecruiting/usin-infrastructure-design-build-internship.asp</link>
 			<answerlist>
 				<answer weight="1">3</answer>
 				<answer weight="1">5</answer>
@@ -4151,6 +4121,208 @@
 		</career>
 	</careerlist>	
 </group>	
+<group>
+	<name>Mortgage, Home Equity & Insurance Services</name>
+	<careerlist>
+		<career>
+			<name>Home Loans and Insurance MBA Management Program - US</name>
+			<link>campusrecruiting/usfs-home-loans-insurance-services.asp</link>
+			<answerlist>
+				<answer weight="1">4</answer>
+				<answer weight="1">5</answer>
+				<answer weight="200">6</answer>
+				<answer weight="200">7</answer>
+				<answer weight="75">9</answer>
+				<answer weight="75">10</answer>
+				<answer weight="1">12</answer>
+				<answer weight="1">13</answer>
+				<answer weight="5">14</answer>
+				<answer weight="5">16</answer>
+				<answer weight="5">19</answer>
+				<answer weight="100">33</answer>
+				<answer weight="100">35</answer>
+				<answer weight="100">37</answer>
+				<answer weight="5">43</answer>
+				<answer weight="5">44</answer>
+				<answer weight="5">46</answer>
+				<answer weight="5">51</answer>
+				<answer weight="1">54</answer>
+				<answer weight="1">57</answer>
+				<answer weight="1">61</answer>
+			</answerlist>
+		</career>
 
-			
+		<career>
+			<name>Quantitative Financial Associate- Pricing Team Program - US</name>
+			<link>campusrecruiting/usfs-home-loans-insurance-quantitative-financial-associate.asp</link>
+			<answerlist>
+				<answer weight="1">3</answer>
+				<answer weight="1">4</answer>
+				<answer weight="1">5</answer>
+				<answer weight="200">6</answer>
+				<answer weight="200">7</answer>
+				<answer weight="75">9</answer>
+				<answer weight="1">12</answer>
+				<answer weight="5">14</answer>
+				<answer weight="5">17</answer>
+				<answer weight="5">24</answer>
+				<answer weight="100">35</answer>
+				<answer weight="5">43</answer>
+				<answer weight="5">44</answer>
+				<answer weight="5">52</answer>
+				<answer weight="1">54</answer>
+				<answer weight="1">55</answer>
+				<answer weight="1">65</answer>
+			</answerlist>
+		</career>
+
+		<career>
+			<name>Quantitative Financial Associate - Trading Team Program - US</name>
+			<link>campusrecruiting/usfs-quantitative-financial-associate-trading-team.asp</link>
+			<answerlist>
+				<answer weight="1">3</answer>
+				<answer weight="1">4</answer>
+				<answer weight="1">5</answer>
+				<answer weight="200">6</answer>
+				<answer weight="200">7</answer>
+				<answer weight="75">9</answer>
+				<answer weight="1">12</answer>
+				<answer weight="5">14</answer>
+				<answer weight="5">17</answer>
+				<answer weight="5">24</answer>
+				<answer weight="100">35</answer>
+				<answer weight="5">43</answer>
+				<answer weight="5">44</answer>
+				<answer weight="5">52</answer>
+				<answer weight="1">54</answer>
+				<answer weight="1">55</answer>
+				<answer weight="1">65</answer>
+			</answerlist>
+		</career>
+
+		<career>
+			<name>Underwriter Quality Assurance Analyst Program - US</name>
+			<link>campusrecruiting/usfn-underwriter-quality-assurance-analyst.asp</link>
+			<answerlist>
+				<answer weight="1">3</answer>
+				<answer weight="1">4</answer>
+				<answer weight="1">5</answer>
+				<answer weight="200">6</answer>
+				<answer weight="75">9</answer>
+				<answer weight="1">12</answer>
+				<answer weight="5">14</answer>
+				<answer weight="5">19</answer>
+				<answer weight="5">20</answer>
+				<answer weight="100">35</answer>
+				<answer weight="100">37</answer>
+				<answer weight="5">43</answer>
+				<answer weight="5">44</answer>
+				<answer weight="5">47</answer>
+				<answer weight="5">51</answer>
+				<answer weight="5">52</answer>
+				<answer weight="1">54</answer>
+				<answer weight="1">58</answer>
+				<answer weight="1">61</answer>
+			</answerlist>
+		</career>
+
+		<career>
+			<name>Senior Operational Risk Specialist Program - US</name>
+			<link>campusrecruiting/usfs-senior-operational-risk-specialist.asp</link>
+			<answerlist>
+				<answer weight="1">4</answer>
+				<answer weight="1">5</answer>
+				<answer weight="200">6</answer>
+				<answer weight="200">7</answer>
+				<answer weight="75">9</answer>
+				<answer weight="1">12</answer>
+				<answer weight="5">16</answer>
+				<answer weight="5">19</answer>
+				<answer weight="5">22</answer>
+				<answer weight="100">35</answer>
+				<answer weight="5">43</answer>
+				<answer weight="5">46</answer>
+				<answer weight="1">54</answer>
+				<answer weight="1">57</answer>
+				<answer weight="1">65</answer>
+			</answerlist>
+		</career>
+
+		<career>
+			<name>Actuarial Analyst I Program - US</name>
+			<link>campusrecruiting/usfn-actuarial-analyst-I.asp</link>
+			<answerlist>
+				<answer weight="1">5</answer>
+				<answer weight="200">6</answer>
+				<answer weight="75">9</answer>
+				<answer weight="1">12</answer>
+				<answer weight="5">14</answer>
+				<answer weight="5">17</answer>
+				<answer weight="5">19</answer>
+				<answer weight="5">24</answer>
+				<answer weight="100">35</answer>
+				<answer weight="100">37</answer>
+				<answer weight="5">43</answer>
+				<answer weight="5">44</answer>
+				<answer weight="5">52</answer>
+				<answer weight="1">54</answer>
+				<answer weight="1">58</answer>
+				<answer weight="1">61</answer>
+			</answerlist>
+		</career>
+
+		<career>
+			<name>Actuarial Analyst II Program - US</name>
+			<link>campusrecruiting/usfn-actuarial-analyst-II.asp</link>
+			<answerlist>
+				<answer weight="1">5</answer>
+				<answer weight="200">6</answer>
+				<answer weight="75">9</answer>
+				<answer weight="1">12</answer>
+				<answer weight="5">14</answer>
+				<answer weight="5">17</answer>
+				<answer weight="5">19</answer>
+				<answer weight="5">24</answer>
+				<answer weight="100">35</answer>
+				<answer weight="100">37</answer>
+				<answer weight="5">43</answer>
+				<answer weight="5">44</answer>
+				<answer weight="5">52</answer>
+				<answer weight="1">54</answer>
+				<answer weight="1">58</answer>
+				<answer weight="1">61</answer>
+			</answerlist>
+		</career>
+
+		<career>
+			<name>Institutional Mortgage Services Development Program - US</name>
+			<link>campusrecruiting/usfn-institutional-mortgage-services.asp</link>
+			<answerlist>
+				<answer weight="1">2</answer>
+				<answer weight="1">4</answer>
+				<answer weight="1">5</answer>
+				<answer weight="200">6</answer>
+				<answer weight="75">9</answer>
+				<answer weight="1">12</answer>
+				<answer weight="1">13</answer>
+				<answer weight="5">14</answer>
+				<answer weight="5">16</answer>
+				<answer weight="5">19</answer>
+				<answer weight="5">20</answer>
+				<answer weight="100">35</answer>
+				<answer weight="100">37</answer>
+				<answer weight="5">43</answer>
+				<answer weight="5">44</answer>
+				<answer weight="5">46</answer>
+				<answer weight="5">51</answer>
+				<answer weight="1">56</answer>
+				<answer weight="1">57</answer>
+				<answer weight="1">63</answer>
+			</answerlist>
+		</career>
+
+
+
+	</careerlist>	
+</group>			
 	
