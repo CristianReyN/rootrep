@@ -29,9 +29,9 @@ public partial class JobSearch : System.Web.UI.Page
 	private int RecPerPage = 12;
 	protected void Page_Load(object sender, EventArgs e)
 	{
-        //init hidden location value
-        ddlStatehidden.Value = ddlState.SelectedItem.Value.Trim();
-        if (ddlStatehidden.Value == "All Locations") ddlStatehidden.Value="-1";
+        //////////init hidden location value
+        //ddlStatehidden.Value = ddlState.SelectedItem.Value.Trim();
+        //if (ddlStatehidden.Value == "All Locations") ddlStatehidden.Value="-1";
 
         //write the boa buttons
         boanet_safebutton.writeBOASafeButton("Search", phSearch, "Search", bsearch_Click, this.Request);
@@ -65,18 +65,18 @@ public partial class JobSearch : System.Web.UI.Page
         }
         PopulateJobAreas();
 
-        //postback only if location has been changed:
-         this.ddlState.Attributes.Add("onblur", "javascript:if(document." + this.Form.ClientID + "." + this.ddlStatehidden.ClientID + ".value!=document." + this.Form.ClientID + "." + ddlState.ClientID + ".options[document." + this.Form.ClientID + "." + ddlState.ClientID.Replace("$", "_") + ".selectedIndex].value) {setTimeout('__doPostBack(\\'" + this.ddlState.ClientID.Replace("_", "$") + "\\',\\'\\')', 0);}");
-         //testing: this.ddlState.Attributes.Add("onblur", "javascript:if(document." + this.Form.ClientID + "." + this.ddlStatehidden.ClientID + ".value!=document." + this.Form.ClientID + "." + ddlState.ClientID + ".options[document." + this.Form.ClientID + "." + ddlState.ClientID.Replace("$", "_") + ".selectedIndex].value) {alert('stateid: '+document." + this.Form.ClientID + "." + ddlState.ClientID + ".options[document." + this.Form.ClientID + "." + ddlState.ClientID.Replace("$", "_") + ".selectedIndex].value);alert('hidden: '+document." + this.Form.ClientID + "." + this.ddlStatehidden.ClientID + ".value);setTimeout('__doPostBack(\\'" + this.ddlState.ClientID.Replace("_", "$") + "\\',\\'\\')', 0);}");
+        /////////postback only if location has been changed:
+        //this.ddlState.Attributes.Add("onblur", "javascript:if(document." + this.Form.ClientID + "." + this.ddlStatehidden.ClientID + ".value!=document." + this.Form.ClientID + "." + ddlState.ClientID + ".options[document." + this.Form.ClientID + "." + ddlState.ClientID.Replace("$", "_") + ".selectedIndex].value) {setTimeout('__doPostBack(\\'" + this.ddlState.ClientID.Replace("_", "$") + "\\',\\'\\')', 0);}");
+        /////////testing: this.ddlState.Attributes.Add("onblur", "javascript:if(document." + this.Form.ClientID + "." + this.ddlStatehidden.ClientID + ".value!=document." + this.Form.ClientID + "." + ddlState.ClientID + ".options[document." + this.Form.ClientID + "." + ddlState.ClientID.Replace("$", "_") + ".selectedIndex].value) {alert('stateid: '+document." + this.Form.ClientID + "." + ddlState.ClientID + ".options[document." + this.Form.ClientID + "." + ddlState.ClientID.Replace("$", "_") + ".selectedIndex].value);alert('hidden: '+document." + this.Form.ClientID + "." + this.ddlStatehidden.ClientID + ".value);setTimeout('__doPostBack(\\'" + this.ddlState.ClientID.Replace("_", "$") + "\\',\\'\\')', 0);}");
 
  	}
 
     protected void Page_LoadComplete()
 	{
-        if (ddlState.SelectedItem.Value != "-1")
-        {
-            this.ddlCity.Focus();
-        }
+        //if (ddlState.SelectedItem.Value != "-1")
+        //{
+        //    this.ddlCity.Focus();
+        //}
     }
 	public void BindSearchString()
 	{

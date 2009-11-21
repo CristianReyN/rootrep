@@ -38,12 +38,15 @@
 								<asp:ListItem>All Locations&#160;</asp:ListItem>
 							</asp:DropDownList>
 							</div>
-							<div>
+<%--						<div>
 							<noscript>
 							<asp:ImageButton ID="brefine" runat="server" OnClick="brefine_Click" AlternateText="Show Cities" Height="19" Width="77" ImageUrl="~/images/showcitylink.GIF"/>
 							</noscript>
 							</div>
-							<asp:HiddenField ID="ddlStatehidden" runat="server" Value=""  />
+							<asp:HiddenField ID="ddlStatehidden" runat="server" Value=""  />--%>
+							<div>
+							<asp:ImageButton ID="brefine" runat="server" OnClick="brefine_Click" AlternateText="Show Cities" Height="19" Width="77" ImageUrl="~/images/showcitylink.GIF"/>
+							</div>
 						</td>
 						<td valign="top" colspan="1" style="height:40px; ">&nbsp;</td>
                     </tr>
