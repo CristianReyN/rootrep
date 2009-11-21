@@ -132,6 +132,12 @@ function tdiv(tf){}
 <%
 Dim pageId, categoryId
 pageId = "career:" & Replace(page_self, "../", "", 1, -1, 0)
+If spage = "lb_career_compass" Then
+	pageId = Replace(pageId, "lb_career_compass", "lb_career_compass_"&page_number, 1, 1, 0)
+ElseIf tpage = "career_compass" Then
+	pageId = Replace(pageId, "career_compass", "career_compass_"&page_number, 1, 1, 0)
+End If
+
 If fpage <> "" Then
 	If tpage = "" Then
 		If spage = "" Then
