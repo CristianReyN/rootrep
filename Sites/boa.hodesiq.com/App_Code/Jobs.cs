@@ -305,7 +305,9 @@ public class Jobs
             ShowButton = false;
         else
         {
-            if (PageNumber > 1 && PageNumber < TotalPage)
+            if (PageNumber == 1)
+                ShowButton = false;
+            else if (PageNumber > 1 && PageNumber < TotalPage)
                 ShowButton = true;
             else if (PageNumber == 1 && PageNumber < TotalPage)
                 ShowButton = true;
