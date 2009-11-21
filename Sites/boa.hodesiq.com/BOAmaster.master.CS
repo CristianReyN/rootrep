@@ -74,6 +74,6 @@ public partial class BOAmaster : System.Web.UI.MasterPage
         strScript += "</script>" + System.Environment.NewLine;
         strScript += "<!-- END COREMETRICS -->" + System.Environment.NewLine;
 
-        this.ltrlCorremetrixScripts.Text = strScript;
+        //this.ltrlCorremetrixScripts.Text = strScript;
 	}
 }
