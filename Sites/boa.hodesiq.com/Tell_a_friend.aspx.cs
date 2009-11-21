@@ -18,6 +18,10 @@ public partial class Tell_a_friend : System.Web.UI.Page
     {
         JobId = Request.QueryString["JobId"];
 
+		//write the boa buttons
+		boanet_safebutton.writeBOASafeButton("Send", phSend, "Send", Send_Click, this.Request);
+		boanet_safebutton.writeBOASafeButton("Cancel", phCancel, "Cancel", Cancel_Click, this.Request);
+
     }
     protected void Cancel_Click(object sender, EventArgs e)
     {

@@ -5,15 +5,13 @@
 <table border="0" cellpadding="0" cellspacing="0">
     <tr>
         <td style="width: 416px">
-            <br />
         </td>
     </tr>
     
     <tr>
         <td style="width: 416px">
-            <h3 style="margin: 0px; color: #d4001a;">
-            
-            Send This Job To a Friend</h3>
+            <h1 style="margin: 0px 0px 0px 0px; ">            
+            Send This Job To a Friend</h1>
         </td>
     </tr>
     <tr>
@@ -85,10 +83,11 @@
         </td>
     </tr>
     <tr>
-        <td style="text-align:right; width: 416px;">
-            <asp:Button ID="Send" runat="server" CssClass="bodybtn" Text="Send" Width="69px" OnClick="Send_Click" />  
-            <asp:Button ID="Cancel" runat="server" CssClass="bodybtn" Text="Cancel" OnClick="Cancel_Click" />
-                
+        <td align="right" valign="top" style="width:50%">
+			<asp:PlaceHolder runat="server" ID="phSend"></asp:PlaceHolder>&nbsp;&nbsp;&nbsp;&nbsp;
+		</td>
+        <td align="left" valign="top" style="width:50%">		
+			<asp:PlaceHolder runat="server" ID="phCancel"></asp:PlaceHolder>
         </td>
     </tr>
     
