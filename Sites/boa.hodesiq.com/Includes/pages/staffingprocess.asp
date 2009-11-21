@@ -16,7 +16,7 @@
 </p>
 <ol>
 	<li>Candidates should search and apply for the positions in which he/she is interested, possess the skills, and match the minimum requirements of the job.</li>
-	<li>Recruiter reviews each applicant and identifies those candidates whose skills and experience match the job requirements as detailed in the job description.</li>
+	<li>Recruiter reviews and identifies those candidates whose skills and experiences match the job requirements as detailed in the job description.</li>
 	<li>Those candidates who have the experience and skills that best match the role will be selected to continue through the process.</li>
 	<li>Candidates chosen to move forward in the interview process will be notified by a Bank of America associate with next steps.</li>
 	<li>Please note: Some positions may require assessments during the selection process. The recruiter will inform the candidate if this applies to the position he or she is seeking.</li>

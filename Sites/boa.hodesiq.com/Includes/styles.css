@@ -31,6 +31,11 @@ UL
 	list-style-image : url(../images/bull3.gif);
 }
 
+UL UL
+{
+	list-style-image : url(../images/bull3o.gif);
+}
+
 P.s, UL.s, LI.s
 {
 	font-family : Verdana, Helvetica, sans-serif;

@@ -11,7 +11,7 @@
 		<table width="578" cellpadding="0" cellspacing="0" border="0" summary="">
 			<tr valign="top">
 				<td width="100%" valign="top" style="padding-top: 12px;">
-<a name="skipmaincontent"></a><H1 class="hidden">Risk Evaluation</H1>
+<a name="skipmaincontent"></a><H1 class="hidden">Risk</H1>
 <% If page_section = "ADA" Then %>
 <!-- #include file="associate/price.asp" -->
 <% End If %>
@@ -24,7 +24,7 @@
 <H2 class="g" style="margin: 0px 0px 0px 0px;">Career Opportunities</H2>
 	<img src="../images/clear.gif" width="100%" height="1" alt="" border="0" style="margin: 0px 0px 0px 0px; background: #ffffff;" align="top"><br clear="all">
 	<img src="../images/clear.gif" width="100%" height="1" alt="" border="0" style="margin: 0px 0px 0px 0px; background: #e8e8e9;" align="top"><br clear="all">
-<p style="margin: 6px 6px 0px 6px;"><a class="left" onfocus="this.className='left-over';" onblur="this.className='left';" href="../jobsearch.aspx?jobareas=7|18&stateid=-1&cityid=-1&keywords=&SearchPage=Sp">View current jobs in Risk Evaluation</a></p>
+<p style="margin: 6px 6px 0px 6px;"><a class="left" onfocus="this.className='left-over';" onblur="this.className='left';" href="../jobsearch.aspx?jobareas=7|18&stateid=-1&cityid=-1&keywords=&SearchPage=Sp">View current jobs in Risk</a></p>
 <p style="margin: 6px 6px 0px 6px;"><a class="left" onfocus="this.className='left-over';" onblur="this.className='left';" href="../jobsearch.aspx?jobareas=7|13&stateid=-1&cityid=-1&keywords=&SearchPage=Sp">View current jobs in Credit</a></p>
 </div>
 

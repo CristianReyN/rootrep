@@ -1,17 +1,17 @@
 <% Response.Buffer=True 
 Dim title, mpage, spage, ada_href, ada_title, flash, Metatag
-title = "Bank of America | Career | Risk Evaluation"
+title = "Bank of America | Career | Risk"
 mpage = "areasoftalent"
 spage = "riskevaluation"
 
 ada_href = "../ada/riskevaluation.asp"
 page_self = "../riskevaluation/default.asp"
-ada_title = "Bank of America | Career | Risk Evaluation"
+ada_title = "Bank of America | Career | Risk"
 job_search_action = "../jobsearch/searchresult.asp"
 Dim flashPage
 flashPage = false
 Dim subtitle
-subtitle="Risk Evaluation"
+subtitle="Risk"
 Metatag="Risk Evaluation is one area of talent for careers at Bank of America. From this page you can listen to an associate, see hot job opportunities, and click to positions in risk evaluation."
 
 '****************************** ADDED FOR HOT JOB OPENING***************************

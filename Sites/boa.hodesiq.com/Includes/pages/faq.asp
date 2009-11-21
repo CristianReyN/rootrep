@@ -41,7 +41,8 @@
 <p style="margin: 0px;">No. Resumes are only accepted online. You can submit your resume the following ways:</p>
 	<ul id="answ2" style="list-style-image : url(../images/bull3.gif);">
 		<li>Attach your resume along with your profile by logging in and using our Candidate Profiler.</li>
-		<li>Email your resume to <a href="mailto:bac@sosolutions.com" class="p" onfocus="this.className='p-over';" onblur="this.className='p';">bac@sosolutions.com</a></li>
+		<li>Email your resume to <a href="mailto:bac@resume.bankofamerica.com" class="p" onfocus="this.className='p-over';" onblur="this.className='p';">bac@resume.bankofamerica.com</a></li>
+		<li>In the Subject Line of your email, include "Source = Bank of America Careers"</li>
 	</ul>
 <p style="margin: 12px 0px 6px 0px; text-align: right;"><a href="#qtop" class="p" onfocus="this.className='p-over';" onblur="this.className='p';" style="text-decoration: none;"><img src="../images/back_to_top.gif" width="7" height="4" alt="" border="0" align="top" hspace="4">Back to Top</a></p>
 
@@ -49,13 +50,13 @@
 <a name="q22"></a><H2 class="p" style="margin: 9px 0px 6px 0px;"><b>If I have trouble completing my profile and/or application online, is there another way to submit my information?</b></H2>
 <p style="margin: 0px;">If you are unable to submit your profile, you should:</p>
 	<ul id="answ2" style="list-style-image : url(../images/bull3.gif);">
-		<li>Email your resume to <a href="mailto:"bac@sosolutions.com>bac@sosolutions.com</a></li>
-		<li>In the Subject Line of your email, include "Source = Internet/Bank of America Careers"</li>
+		<li>Email your resume to <a href="mailto:"bac@resume.bankofamerica.com>bac@resume.bankofamerica.com</a></li>
+		<li>In the Subject Line of your email, include "Source = Bank of America Careers"</li>
 	</ul>
 <p style="margin: 0px;">If you are unable to submit your application for the specific position, you should:</p>
 	<ul id="answ2" style="list-style-image : url(../images/bull3.gif);">
-		<li>Email your resume to <a href="mailto:"bac@sosolutions.com>bac@sosolutions.com</a></li>
-		<li>In the Subject Line of your email, include "Source = Internet/Bank of America Careers" and the specific position number found at the top of the job posting</li>
+		<li>Email your resume to <a href="mailto:"bac@resume.bankofamerica.com>bac@resume.bankofamerica.com</a></li>
+		<li>In the Subject Line of your email, include "Source = Bank of America Careers" and the specific position number found at the top of the job posting</li>
 	</ul>
 <p style="margin: 12px 0px 6px 0px; text-align: right;"><a href="#qtop" class="p" onfocus="this.className='p-over';" onblur="this.className='p';" style="text-decoration: none;"><img src="../images/back_to_top.gif" width="7" height="4" alt="" border="0" align="top" hspace="4">Back to Top</a></p>
 
