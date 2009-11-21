@@ -312,7 +312,7 @@ public class Jobs
             else if (PageNumber == 1 && PageNumber < TotalPage)
                 ShowButton = true;
             else if (PageNumber > 1 && PageNumber == TotalPage)
-                ShowButton = false;
+                ShowButton = true;
             else
                 ShowButton = false;
         }
