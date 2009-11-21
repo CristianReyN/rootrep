@@ -6,7 +6,7 @@
                             <table border="0" cellpadding="0" cellspacing="0" summary="" width="578">
                                 <tr valign="top">
                                     <td style="padding: 6px 12px 0px 12px; height: 100%" valign="top">
-                                        <form id="jsearch" action="searchresults.aspx" runat="server">
+                                        <form id="jsearch" runat="server">
                                             <table border="0" cellpadding="0" cellspacing="0" summary="" width="100%">
                                                 <tr>
                                                     <td valign="top">
@@ -24,7 +24,7 @@
                                                             <b>
                                                                 <label for="areasoftalent">
                                                                     Areas of Talent</label></b></p>
-                                                        <asp:DropDownList id="areasoftalent" Cssclass="left"  style="width: 100%;z-index: auto;" runat="server" ToolTip="Areas Of Talent" TabIndex="1">
+                                                        <asp:DropDownList id="areasoftalent" Cssclass="left"  style="width: 100%;z-index: auto;" runat="server" ToolTip="Areas Of Talent" TabIndex="1" AutoPostBack="True" OnSelectedIndexChanged="areasoftalent_SelectedIndexChanged">
                                                             <asp:ListItem>All Areas of Talent&#160;</asp:ListItem>
                                                         </asp:DropDownList><br />
                                                         <p style="margin: 0px; text-align: left;">
@@ -41,7 +41,7 @@
                                                             <b>
                                                                 <label for="jfamily">
                                                                     Job Family</label></b></p>
-                                                        <asp:ListBox ID="jfamily" Cssclass="left" tooltip="Select Family" Style="width: 100%; z-index: auto;" runat="server" SelectionMode="Multiple" TabIndex="2">
+                                                        <asp:ListBox ID="jfamily" Cssclass="left" tooltip="Select Family" Style="width: 100%; z-index: auto;" runat="server" SelectionMode="Multiple" TabIndex="2" AutoPostBack="True">
                                                             <asp:ListItem>Job Family&#160;</asp:ListItem>
                                                         </asp:ListBox>
                                                     </td>
@@ -68,7 +68,7 @@
                                                     <td style="padding: 0px 12px 0px 12px;">
                                                         &nbsp;</td>
                                                     <td align="right" valign="top">
-                                                        <input id="bsearch" class="bodybtn" type="submit" value="Begin Search" tabindex="6" />
+                                                        <asp:Button id="bsearch" cssclass="bodybtn" text="Begin Search" tabindex="6" runat="server" PostBackUrl="searchresults.aspx"/>
                                                     </td>
                                                 </tr>
                                                 <tr>
