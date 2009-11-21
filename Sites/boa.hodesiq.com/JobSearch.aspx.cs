@@ -159,7 +159,7 @@ public partial class JobSearch : System.Web.UI.Page
 	protected void brefine_Click(object sender, EventArgs e)
 	{
         RefineSearch( ddlState.SelectedItem.Value);
-        bsearch_Click(sender, e);
+       //bsearch_Click(sender, e);
 
 	}
 	protected void bsearch_Click(object sender, EventArgs e)
