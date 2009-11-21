@@ -212,14 +212,14 @@
                                                             <b>
                                                                 <label for="areasoftalent">
                                                                     Areas of Talent</label></b></p>
-                                                        <asp:DropDownList id="areasoftalent" Cssclass="left"  style="width: 100%;z-index: auto;" runat="server" AutoPostBack="True" OnSelectedIndexChanged="areasoftalent_SelectedIndexChanged">
+                                                        <asp:DropDownList id="areasoftalent" Cssclass="left"  style="width: 100%;z-index: auto;" runat="server" AutoPostBack="True" OnSelectedIndexChanged="areasoftalent_SelectedIndexChanged" ToolTip="Areas Of Talent">
                                                             <asp:ListItem>All Areas of Talent&#160;</asp:ListItem>
                                                         </asp:DropDownList><br />
                                                         <p style="margin: 0px; text-align: left;">
                                                             <b>
                                                                 <label for="locations">
                                                                     City</label></b></p>
-                                                        <asp:DropDownList ID="City" runat="server" CssClass="left" Style="width: 100%;
+                                                        <asp:DropDownList ID="City" runat="server" tooltip ="Select a City" CssClass="left" Style="width: 100%;
                                                             z-index: auto;">
                                                             <asp:ListItem Value="">All Locations&nbsp;</asp:ListItem>
                                                         </asp:DropDownList>
@@ -229,7 +229,7 @@
                                                             <b>
                                                                 <label for="jfamily">
                                                                     Job Family</label></b></p>
-                                                        <asp:ListBox ID="jfamily" Cssclass="left"  Style="width: 100%; z-index: auto;" runat="server" SelectionMode="Multiple">
+                                                        <asp:ListBox ID="jfamily" Cssclass="left" tooltip="Select Family" Style="width: 100%; z-index: auto;" runat="server" SelectionMode="Multiple">
                                                         
                                                             <asp:ListItem value="">Job Family&nbsp;</asp:ListItem>
                                                         </asp:ListBox>
@@ -241,7 +241,7 @@
                                                             <b>
                                                                 <label for="locations">
                                                                     State</label></b></p>
-                                                        <asp:DropDownList id="State" CssClass="left"  style="width: 100%; z-index: auto;" runat="server">
+                                                        <asp:DropDownList id="State" CssClass="left" tooltip="Select a State" style="width: 100%; z-index: auto;" runat="server">
                                                             <asp:ListItem value="">All Locations&nbsp;</asp:ListItem>
                                                         </asp:DropDownList>
                                                     </td>
@@ -250,7 +250,7 @@
                                                             <b>
                                                                 <label for="keywords">
                                                                     Keywords</label></b></p>
-                                                        <asp:TextBox ID="keywords" runat="server" CssClass="left" Style="width: 100%;size:20">
+                                                        <asp:TextBox ID="keywords" runat="server" CssClass="left" tooltip="Keywords" Style="width: 100%;size:20">
                                                         </asp:TextBox>
                                                     </td>
                                                 </tr>
