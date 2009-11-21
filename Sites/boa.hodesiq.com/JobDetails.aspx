@@ -36,7 +36,7 @@
                         </td>
                         <td  style="padding: 18px 0px 0px 6px;" valign="top">
                             <asp:Button runat="server" ID="bttnAddToJobCart" OnClick="bttnAddToJobCart_Click" Text="Add to job cart" CssClass="btnlink"/>
-                            <asp:Button runat="server" ID="bttnRemoveFromJobCart" OnClick="bttnRemoveFromJobCart_Click" Text="Remove job cart" CssClass="btnlink"/><br />
+                            <asp:Button runat="server" ID="bttnRemoveFromJobCart" OnClick="bttnRemoveFromJobCart_Click" Text="Remove from job cart" CssClass="btnlink"/><br />
                             <asp:Button runat="server" ID="bsearchTop" OnClick="bsearch_Click" Text="View job cart" CssClass="btnlink"/><br /><br />
 
                             <asp:HyperLink ID="applylnk" CssClass="p" runat="server" NavigateUrl="" Target="_blank" ><img src="images/apply_now.gif" alt="Apply Now" style="border-top-style: none; border-right-style: none; border-left-style: none; border-bottom-style: none;" /></asp:HyperLink>
@@ -91,7 +91,7 @@
                         </td>
                         <td style="height: 156px">
                             <asp:Button runat="server" ID="btnAddToCart" OnClick="bttnAddToJobCart_Click" Text="Add to job cart" CssClass="btnlink"/>
-                            <asp:Button runat="server" ID="btnRemoveFromCart" OnClick="bttnRemoveFromJobCart_Click" Text="Remove job cart" CssClass="btnlink"/><br />
+                            <asp:Button runat="server" ID="btnRemoveFromCart" OnClick="bttnRemoveFromJobCart_Click" Text="Remove from job cart" CssClass="btnlink"/><br />
                             <asp:Button runat="server" ID="bsearch" OnClick="bsearch_Click" Text="View job cart" CssClass="btnlink"/><br /><br />
                             <asp:HyperLink ID="applylink" CssClass="p" runat="server" NavigateUrl="" Target="_blank" ><img src="images/apply_now.gif" alt="Apply Now" style="border-top-style: none; border-right-style: none; border-left-style: none; border-bottom-style: none;" /></asp:HyperLink>
                         </td>
