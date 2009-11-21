@@ -136,42 +136,18 @@ function hover(ref, classRef) { eval(ref).className = classRef; }
                                 </tr>
                                 <!-- Header -->
                                 <!-- Left Nav -->
-                                <tr valign="top">
-                                    <td style="padding: 0px 6px 0px 6px; background-color: #cadceb;" valign="middle">
-                                        <a href="overview/overview.asp" title="Overview">Overview</a></td>
-                                </tr>
-                                <tr style="background-color: #ffffff;" valign="top">
-                                    <td>
-                                        <img alt="" height="1" src="images/white.gif" width="154" /></td>
-                                </tr>
-                                <tr valign="top">
-                                    <td style="padding: 0px 6px 0px 6px; background-color: #cadceb;" valign="middle">
-                                        <a href="learnmore/learnmore.asp" title="Related Information">Related Information</a></td>
-                                </tr>
-                                <tr style="background-color: #ffffff;" valign="top">
-                                    <td>
-                                        <img alt="" height="1" src="images/white.gif" width="154" /></td>
-                                </tr>
-                                <tr valign="top">
-                                    <td id="tdnav" style="padding: 0px 6px 0px 6px; background-color: #cadceb;" valign="middle">
-                                        <a href="areasoftalent/areasoftalent.asp" title="Areas of Talent">Areas of Talent</a></td>
-                                </tr>
-                                <tr style="background-color: #ffffff;" valign="top">
-                                    <td>
-                                        <img alt="" height="1" src="images/white.gif" width="154" /></td>
-                                </tr>
-                                <tr valign="top">
-                                    <td style="padding: 0px 6px 0px 6px; background-color: #eaf1f7;">
-                                        <a href="jobsearch.aspx" title="Job Search">Job Search</a></td>
-                                </tr>
-                                <tr style="background-color: #ffffff;" valign="top">
-                                    <td>
-                                        <img alt="" height="1" src="images/white.gif" width="154" /></td>
-                                </tr>
-                                <tr valign="top">
-                                    <td style="padding: 0px 6px 0px 6px; background-color: #cadceb;">
-                                        <a href="staffingevents/staffingevents.asp" title="Staffing Events">Staffing Events</a></td>
-                                </tr>
+                                <tr valign="top"><td valign="middle" style="background: #eaf1f7; padding: 0px 6px 0px 6px;"><a class="g" href="overview/overview.asp" id="overview" title="Overview" onfocus="this.className='g-over';" onblur="this.className='g';">Overview</a><a href="" id="overviewm"></td></tr>
+                                <tr valign="top" style="background: #ffffff;"><td><img src="images/white.gif" width="154" height="1" alt="" border="0"/></td></tr>
+                                <tr valign="top"><td id="tdnavr" valign="middle" style="background: #cadceb; padding: 0px 6px 0px 6px;" onmouseover="popnavr(true);" onmouseout="popnavr(false);"><a class="g" href="learnmore/learnmore.asp" id="learnmore" title="Related Information" onfocus="this.className='g-over'; popnavr(true);" onblur="this.className='g'; popnavr(false);">Related Information</a><a href="" id="anavrm"></td></tr>
+                                <tr valign="top" style="background: #ffffff;"><td><img src="images/white.gif" width="154" height="1" alt="" border="0"/></td></tr>
+
+                                <tr valign="top"><td id="tdnav" valign="middle" style="background: #cadceb; padding: 0px 6px 0px 6px;" onmouseover="popnav(true);" onmouseout="popnav(false);"><a href="" id="anavm"></a><a class="g" href="areasoftalent/areasoftalent.asp" id="areasoftalent" title="Areas of Talent" onfocus="this.className='g-over'; popnav(true);" onblur="this.className='g'; popnav(false);">Areas of Talent</a></td></tr>
+
+                                <tr valign="top" style="background: #ffffff;"><td><img src="images/white.gif" width="154" height="1" alt="" border="0"/></td></tr>
+
+                                <tr valign="top"><td style="background: #cadceb; padding: 0px 6px 0px 6px;"><a href="" id="jsearchd"><a class="g" href="jobsearch.aspx" id="jsearch" title="Job Search" onfocus="this.className='g-over';" onblur="this.className='g';">Job Search</a></td></tr>
+                                <tr valign="top" style="background: #ffffff;"><td><img src="images/white.gif" width="154" height="1" alt="" border="0"/></td></tr>
+                                <tr valign="top"><td style="background: #cadceb; padding: 0px 6px 0px 6px;"><a class="g" href="staffingevents/staffingevents.asp" title="Staffing Events" onfocus="this.className='g-over';" onblur="this.className='g';">Staffing Events</a></td></tr>
                                 <tr style="background-color: #ffffff;" valign="top">
                                     <td>
                                         <img alt="" height="1" src="images/white.gif" width="154" /></td>
@@ -179,12 +155,25 @@ function hover(ref, classRef) { eval(ref).className = classRef; }
                                 <!-- Left Nav -->
                                 <tr valign="top">
                                     <td align="right" style="background-color: #cadceb; height: 50" valign="bottom">
-                                        <object data="faq2.swf" type="application/x-shockwave-flash" width="152" height="230">
-                                            <param name="movie" value="faq2.swf" />
-                                            <param name="scale" value="exactfit" />
-                                            If you are reading this it means you don't have flash player installed. Get it <a
-                                                href="http://www.adobe.com/go/gntray_dl_getflashplayer" target="_blank">here</a>
-                                        </object>
+                                    <object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000"
+                                    codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0"
+                                    width="152" height="300" id="faq2" align="middle">
+                                    <param name="allowScriptAccess" value="sameDomain" />
+                                    <param name="movie" value="faq2.swf" />
+                                    <param name="quality" value="high" />
+                                    <param name="bgcolor" value="#ececec" />
+                                    <embed 
+                                    src="faq2.swf" 
+                                    quality="high" 
+                                    bgcolor="#ececec" 
+                                    width="152" 
+                                    height="300" 
+                                    name="faq2" 
+                                    align="middle" 
+                                    allowScriptAccess="sameDomain" 
+                                    type="application/x-shockwave-flash" 
+                                    pluginspage="http://www.macromedia.com/go/getflashplayer" />
+                                    </object>
                                         <a class="nv" href="ada/faq.asp" title="Bank of America | Career | Job Search | FAQ, Text Only Version">
                                             Text Only Version</a>&nbsp;&nbsp;</td>
                                 </tr>
@@ -354,7 +343,19 @@ function hover(ref, classRef) { eval(ref).className = classRef; }
             </td>
         </tr>
     </table>
-
+<script language="JavaScript1.2" type="text/javascript">
+var anavrShow, anavShow;
+</script>
+<script language="JavaScript1.2" type="text/javascript">
+function popnav(show)
+{var d=document; if(d.getElementById("tdtbnav")&&d.getElementById("tbnav")&&d.getElementById("tdnav")&&d.getElementById("anav")){if(show || anavShow){d.getElementById("anav").style.visibility = "visible"; d.getElementById("anav").style.display = "block";d.getElementById("anav").style.left=d.getElementById("tdtbnav").offsetLeft+d.getElementById("tbnav").offsetLeft+d.getElementById("tdnav").offsetLeft+d.getElementById("tdnav").offsetWidth-3;d.getElementById("anav").style.top=d.getElementById("tdtbnav").offsetTop+d.getElementById("tbnav").offsetTop+d.getElementById("tdnav").offsetTop;}else{d.getElementById("anav").style.visibility = "hidden"; d.getElementById("anav").style.display = "none";}
+} setTimeout("anavShow = false;",500);}
+</script>
+<script language="JavaScript1.2" type="text/javascript">
+function popnavr(show)
+{var d=document; if(d.getElementById("tdtbnav")&&d.getElementById("tbnav")&&d.getElementById("tdnavr")&&d.getElementById("anavr")){if(show || anavrShow){d.getElementById("anavr").style.visibility = "visible"; d.getElementById("anavr").style.display = "block";d.getElementById("anavr").style.left=d.getElementById("tdtbnav").offsetLeft+d.getElementById("tbnav").offsetLeft+d.getElementById("tdnavr").offsetLeft+d.getElementById("tdnavr").offsetWidth-3;d.getElementById("anavr").style.top=d.getElementById("tdtbnav").offsetTop+d.getElementById("tbnav").offsetTop+d.getElementById("tdnavr").offsetTop;}else{d.getElementById("anavr").style.visibility = "hidden"; d.getElementById("anavr").style.display = "none";}
+} setTimeout("anavrShow = false;",500);}
+</script>
 
 </body>
 </html>
