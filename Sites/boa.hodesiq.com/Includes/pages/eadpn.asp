@@ -1,5 +1,4 @@
-		<a name="skipmaincontent"></a><H1 style="margin: 0px 192px 0px 12px;">BANK OF AMERICA / MBNA EUROPE BANK LIMITED<br><br>
-		EMPLOYMENT APPLICANT DATA PROTECTION NOTICE</H1>
+		<a name="skipmaincontent"></a><H1 style="margin: 0px 192px 0px 12px;">EMPLOYMENT APPLICANT DATA PROTECTION NOTICE</H1>
 		<table width="578" cellpadding="0" cellspacing="0" border="0" summary="">
 			<tr valign="top">
 				<td width="373" height="100%" valign="top" style="padding: 15px 5px 0px 12px;">

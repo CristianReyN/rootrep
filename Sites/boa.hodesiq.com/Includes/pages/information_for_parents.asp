@@ -16,7 +16,7 @@ A career with Bank of America provides your child with:
 </p>
 
 <ul>
-	<li>Built-in networks of success, with associates who share their ideals and common interests, through our diverse range of <a href="http://careers.bankofamerica.com/learnmore/diversity.asp" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="Affinity Groups" target="_blank">affinity groups</a></li>
+	<li>Built-in networks of success, with associates who share their ideas and common interests, through our diverse range of <a href="http://careers.bankofamerica.com/learnmore/diversity.asp" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="Affinity Groups" target="_blank">affinity groups</a></li>
 	<li>Strong compensation for their skills and talents, and support for their life outside of work, through our world-class <a href="<% If page_section <> "ADA" Then %>../learnmore/<%End If%>benefitsadv.asp" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="Benefits Program">benefits program</a></li>
 	<li>Professional and personal development paths through our commitment to <a href="http://careers.bankofamerica.com/staffingevents/staffingprocess.asp" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="Training And Career Advancement">training and career advancement</a></li>
 	<li>A sense of involvement in and support for the communities we serve through our <a href="http://www.bankofamerica.com/foundation/" target="_blank" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="Commitment To Philanthropy">commitment to philanthropy</a></li>
