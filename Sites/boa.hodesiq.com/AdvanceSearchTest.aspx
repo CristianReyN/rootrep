@@ -9,8 +9,11 @@
                 <td style="padding: 6px 12px 0px 12px; height: 100%" valign="top">
 					<table border="0" cellpadding="1" cellspacing="1" summary="Table containing Advanced job search form." width="100%">
                         <tr>
-                            <td valign="top" colspan="2">To find a career suited to your skill set, select a job area from the list below. Then you may narrow your selection further by choosing additional search criteria and/or entering keywords. <br />
-                            <noscript>After you select your state from the Location field, click on the link ‘Select Cities’. The page will refresh. You will then be able to select your city from the ‘City’ field.</noscript><span class="auraltext">After you select your state from the Location field, click on the link ‘Select Cities’. The page will refresh. You will then be able to select your city from the ‘City’ field.</span> <br />
+                            <td valign="top" colspan="2">To find a career suited to your skill set, select a job area from the list below. Then you may narrow your selection further by choosing additional search criteria and/or entering keywords. 
+                            <br /><br />
+                            After you select your state from the Location field, click on the link ‘Select Cities’. The page will refresh. You will then be able to select your city from the ‘City’ field.
+                            <%--<span class="auraltext">After you select your state from the Location field, click on the link ‘Select Cities’. The page will refresh. You will then be able to select your city from the ‘City’ field.</span>--%> 
+                            <br /><br />
                             Bank of America associates should access the <a href="http://www.bankofamerica.com/careers/index.cfm?template=jobs_interstitial" id="ctl00_cphmain_lnkInternal" title="Internal Jobs Database" class="p" onblur="this.className='p';" onfocus="this.className='p-over';">internal jobs database</a>.
                             </td>
                             <td>&nbsp;</td>
@@ -20,13 +23,13 @@
 							</td>
 						</tr>
 						<tr>
-							<td  valign="top" style="width:50%">
-								<asp:Label ID="lblState" runat="server" Text="Location" AssociatedControlID="State"></asp:Label><br />
-								<div id="d1" style="display: inline;">
-								<asp:DropDownList ID="State" runat="server" CssClass="left" Style="width: 100%; z-index: auto;"
-									ToolTip="Select a state" AutoPostBack="false" OnSelectedIndexChanged="brefine_Click">
-									<asp:ListItem Value="-1">All locations&#160;</asp:ListItem>
-								</asp:DropDownList>
+							<td  valign="top" style="width:50%; height:45;">
+							    <div id="d1" style="display: inline;">
+								    <asp:Label ID="lblState" runat="server" Text="Location" AssociatedControlID="State"></asp:Label><br />
+								    <asp:DropDownList ID="State" runat="server" CssClass="left" Style="width: 100%; z-index: auto;"
+								    ToolTip="Select a state" AutoPostBack="false" OnSelectedIndexChanged="brefine_Click">
+								    <asp:ListItem Value="-1">All locations&#160;</asp:ListItem>
+								    </asp:DropDownList>
 								</div>
 								<div>
 								<noscript>
@@ -35,19 +38,18 @@
 								</div>
 								<asp:HiddenField ID="Statehidden" runat="server" Value=""  />
 							</td>
-							<td  valign="top" style="width:50%">
-								<asp:Label ID="lblCity" runat="server" Text="City" Visible="true" AssociatedControlID="City"></asp:Label><br />
-									<asp:DropDownList ID="City" runat="server" CssClass="left" Style="width: 100%; z-index: auto;"
-									ToolTip="Select a city" Visible="true" Enabled="false">
-									<asp:ListItem>All locations&#160;</asp:ListItem>
-									</asp:DropDownList>
-								
+							<td  valign="top" style="width:50%; height:45;">
+							    <asp:Label ID="lblCity" runat="server" Text="City" Visible="true" AssociatedControlID="City"></asp:Label><br />
+								<asp:DropDownList ID="City" runat="server" CssClass="left" Style="width: 100%; z-index: auto;"
+								ToolTip="Select a city" Visible="true" Enabled="false">
+								<asp:ListItem>All locations&#160;</asp:ListItem>
+								</asp:DropDownList>								
 							</td>
 						</tr>
 						<tr>
-							<td valign="top" style="width:50%">
+							<td valign="top" style="width:50%; height:45;">
+							    <div id="d2" style="display: inline;">
 								<asp:Label ID="lblJobAreas" runat="server" Text="Job areas" Visible="true" AssociatedControlID="ddlJobAreas"></asp:Label><br />
-								<div id="d2" style="display: inline;">
 								<asp:DropDownList ID="ddlJobAreas" runat="server" CssClass="left" Style="width: 100%; z-index: auto;"
 								ToolTip="Select a job area" Visible="true">
 								</asp:DropDownList>
@@ -63,18 +65,19 @@
 						</tr>
 						<tr>
 							<td  valign="top" style="width:50%; height:45;" >
-								<asp:Label ID="lbldatepost" runat="server" Text="Date positions posted as of" AssociatedControlID="datepost"></asp:Label><br />
-								<div id="d3">
-								<asp:DropDownList ID="datepost" runat="server" CssClass="left" Style="width: 100%;
-								z-index: auto;" ToolTip="Date posted" >
-								<asp:ListItem Value="0">All</asp:ListItem>
-								<asp:ListItem Value="1">Today</asp:ListItem>
-								<asp:ListItem Value="2">Yesterday</asp:ListItem>
-								<asp:ListItem Value="3">Last 7 Days</asp:ListItem>
-								<asp:ListItem Value="4">Last 14 Days</asp:ListItem>
-								<asp:ListItem Value="5">Last 21 Days</asp:ListItem>
-								<asp:ListItem Value="6">Last 28 Days</asp:ListItem>
-								</asp:DropDownList></div>
+							    <div id="d3"  style="display: inline;">
+								    <asp:Label ID="lbldatepost" runat="server" Text="Date positions posted as of" AssociatedControlID="datepost"></asp:Label><br />
+								    <asp:DropDownList ID="datepost" runat="server" CssClass="left" Style="width: 100%;
+								    z-index: auto;" ToolTip="Date posted" >
+								    <asp:ListItem Value="0">All</asp:ListItem>
+								    <asp:ListItem Value="1">Today</asp:ListItem>
+								    <asp:ListItem Value="2">Yesterday</asp:ListItem>
+								    <asp:ListItem Value="3">Last 7 Days</asp:ListItem>
+								    <asp:ListItem Value="4">Last 14 Days</asp:ListItem>
+								    <asp:ListItem Value="5">Last 21 Days</asp:ListItem>
+								    <asp:ListItem Value="6">Last 28 Days</asp:ListItem>
+								    </asp:DropDownList>
+								</div>
 							</td>
 							<td  valign="top" style="width:50%; height:45;" >
 								<asp:Label ID="lblShift" runat="server" Text="Shift" AssociatedControlID="shift"></asp:Label>
@@ -85,11 +88,11 @@
 						</tr>
 						<tr>
 							<td  valign="top" style="width:50%; height:45;" >
-								<asp:Label ID="lbltravel" runat="server" Text="Willingness to travel" AssociatedControlID="travel"></asp:Label>
-								<div id="d4" style="display: inline;">
-								<asp:DropDownList id="travel" tooltip="Travel" Cssclass="left" runat="server" style="width: 100%; z-index: auto;" >
-								<asp:ListItem>All travel</asp:ListItem>
-								</asp:DropDownList>
+							    <div id="d4" style="display: inline;">
+								    <asp:Label ID="lbltravel" runat="server" Text="Willingness to travel" AssociatedControlID="travel"></asp:Label>
+								    <asp:DropDownList id="travel" tooltip="Travel" Cssclass="left" runat="server" style="width: 100%; z-index: auto;" >
+								    <asp:ListItem>All travel</asp:ListItem>
+								    </asp:DropDownList>
 								</div>
 							</td>
 							<td  valign="top" style="width:50%; height:45;" >
@@ -101,9 +104,11 @@
 						</tr>
 						<tr>
 							<td  valign="top" style="width:50%; height:45;" >
-								<asp:Label ID="lblkeywords" runat="server" Text="Keywords or job number (if known)" AssociatedControlID="keywords"></asp:Label><br />
-								<asp:TextBox ID="keywords" runat="server" CssClass="left" Style="width: 100%; size: 20"
-								ToolTip="Keywords or job number" ></asp:TextBox>
+							    <div id="d5" style="display: inline;">
+								    <asp:Label ID="lblkeywords" runat="server" Text="Keywords or job number (if known)" AssociatedControlID="keywords"></asp:Label><br />
+								    <asp:TextBox ID="keywords" runat="server" CssClass="left" Style="width: 100%; size: 20"
+								    ToolTip="Keywords or job number" ></asp:TextBox>
+								</div>
 							</td>
 							<td  valign="top" style="width:50%; height:45;" >&nbsp;
 							</td>
@@ -171,22 +176,23 @@
             </tr>
         </table>
 		<table border="0" cellpadding="0" cellspacing="0" summary="" width="100%">
-			<tr><td colspan="2">&nbsp;</td></tr>
+			<tr><td colspan="3">&nbsp;</td></tr>
             <tr valign="top">
                 <td valign="top" align="right" style="width: 50%;">&nbsp;
                 <div id="divPrev" runat="server" style="display:none">
 					<asp:PlaceHolder runat="server" ID="phPrevious"></asp:PlaceHolder>
 				</div>
 				</td>
+				<td style="width: 15px;">&nbsp;</td>
 				<td valign="top" align="left" style="width: 50%;">&nbsp;
 				<div id="divNext" runat="server" style="display:none">
 					<asp:PlaceHolder runat="server" ID="phNext"></asp:PlaceHolder>
                  </div>
                  </td>
              </tr>
-			<tr><td colspan="2">&nbsp;</td></tr>
+			<tr><td colspan="3">&nbsp;</td></tr>
              <tr>
-				<td colspan="2" align="center" valign="top">
+				<td colspan="3" align="center" valign="top">
 					<br /><asp:Label ID="LblPageOfPages" runat="server"></asp:Label>    
 				</td>
              </tr>
