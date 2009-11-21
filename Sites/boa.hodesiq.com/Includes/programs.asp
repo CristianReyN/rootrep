@@ -37,7 +37,7 @@
 <optgroup label="Global Wealth Investment Management">
 	<option value="up_undergraduate.asp"<% If fpage = "up_undergraduate" Then %> disabled<% End If %>>Undergraduate</option>
 </optgroup>
-<optgroup label="Global Consumer Investment Banking">
+<optgroup label="Global Corporate Investment Banking">
 	<option value="http://www.bofa.com/careers">ABS/MBS Analyst</option>
 	<option value="http://www.bofa.com/careers">Commercial Real Estate Analyst</option>
 	<option value="http://www.bofa.com/careers">Treasury Management Associate Program</option>
@@ -98,9 +98,9 @@ function none(){}
 	<option value="gp_gcsbbd.asp"<% If fpage = "gp_gcsbbd" Then %> disabled<% End If %>>Global Consumer and Small Business Banking Product Leader Development Program</option>
 </optgroup>
 <optgroup label="Global Wealth & Investment Management">
-	<option value="gp_trust.asp"<% If fpage = "gp_trust" Then %> disabled<% End If %>>Trust Officer</option>
+	<option value="gp_trust.asp"<% If fpage = "gp_trust" Then %> disabled<% End If %>>Graduate</option>
 </optgroup>
-<optgroup label="Global Consumer Investment Banking">
+<optgroup label="Global Corporate Investment Banking">
 	<option value="http://www.bofa.com/careers">Global Commercial Banking/Treasury Services Associate</option>
 	<option value="http://www.bofa.com/careers">Investment Banking & Capital Markets Associate</option>
 	<option value="http://www.bofa.com/careers">Research Associate</option>
@@ -143,24 +143,24 @@ function none(){}
 	<option value="ip_gmt.asp"<% If fpage = "ip_gmt" Then %> disabled<% End If %>>Global Markets Technology Intern</option>
 	<option value="ip_cwsa.asp"<% If fpage = "ip_cwsa" Then %> disabled<% End If %>>Corporate Workplace Senior Analyst Internship</option>
 	<option value="ip_qpc.asp"<% If fpage = "ip_qpc" Then %> disabled<% End If %>>Quality and Productivity Consultant Intern</option>
-	<option value="ip_sf.asp"<% If fpage = "ip_sf" Then %> disabled<% End If %>>Operations MBA Program Internship</option>
+	<option value="ip_sf.asp"<% If fpage = "ip_sf" Then %> disabled<% End If %>>Operations MBA Internship</option>
 	<option value="ip_tmba.asp"<% If fpage = "ip_tmba" Then %> disabled<% End If %>>Technology MBA Intern</option>
 </optgroup>
 
 <optgroup label="Global Risk">
 	<option value="ip_ca.asp"<% If fpage = "ip_ca" Then %> disabled<% End If %>>Corporate Audit Intern</option>
 	<option value="ip_cs.asp"<% If fpage = "ip_cs" Then %> disabled<% End If %>>Corporate Security Intern</option>
-	<option value="ip_dpa.asp"<% If fpage = "ip_dpa" Then %> disabled<% End If %>>Debt Products Analyst Intern</option>
+	<option value="ip_dpa.asp"<% If fpage = "ip_dpa" Then %> disabled<% End If %>>Corporate Debt Products Analyst Intern</option>
 	<option value="ip_grmap.asp"<% If fpage = "ip_grmap" Then %> disabled<% End If %>>Global Risk Management Associate Program Intern</option>
 	<option value="ip_mr.asp"<% If fpage = "ip_mr" Then %> disabled<% End If %>>Markets Risk Intern</option>
 	<option value="ip_dpsa.asp"<% If fpage = "ip_dpsa" Then %> disabled<% End If %>>Corporate Debt Products Associate Intern</option>
 </optgroup>
 
-
+<!--
 <optgroup label="Corporate Investments Group">
 	<option value="ip_ci.asp"<% If fpage = "ip_ci" Then %> disabled<% End If %>>Corporate Investments Intern</option>
 </optgroup>
-
+-->
 <optgroup label="Corporate Treasury">
 	<option value="ip_ct.asp"<% If fpage = "ip_ct" Then %> disabled<% End If %>>Corporate Treasury Intern</option>
 </optgroup>
@@ -194,7 +194,7 @@ function none(){}
 	<option value="ip_gr.asp"<% If fpage = "ip_gr" Then %> disabled<% End If %>>Graduate Intern</option>
 </optgroup>
 
-<optgroup label="Global Consumer Investment Banking Summer Analyst">
+<optgroup label="Global Corporate Investment Banking Summer Analyst">
 	<option value="http://www.bofa.com/careers">Commercial Real Estate Summer BA Analyst (Undergraduate program)</option>
 	<option value="http://www.bofa.com/careers">Investment Banking & Capital Markets Summer BA Analyst  (Undergraduate program)</option>
 	<option value="http://www.bofa.com/careers">Public Finance Summer BA Analyst (Undergraduate program)</option>
@@ -203,7 +203,7 @@ function none(){}
 	<option value="http://www.bofa.com/careers">Treasury Services Summer BA Analyst (Undergraduate  program)</option>
 </optgroup>
 
-<optgroup label="Global Consumer Investment Banking Summer Associate">
+<optgroup label="Global Corporate Investment Banking Summer Associate">
 	<option value="http://www.bofa.com/careers">Investment Banking & Capital Markets Summer MBA Associate  (Graduate program)</option>
 	<option value="http://www.bofa.com/careers">Sales & Trading Summer MBA Associate (Graduate program)</option>
 	<option value="http://www.bofa.com/careers">Research Summer MBA Associate (Graduate program)</option>
