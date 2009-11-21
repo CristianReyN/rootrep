@@ -28,7 +28,7 @@ Careers within Global Consumer &amp; Small Business Banking group fall primarily
 <a href="<%If page_section <> "ADA" Then%>../consumerproductsandoperations/<%Else%>lobnbcc.asp<%End If%>" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="Non-Banking Center Channel">Non-Banking Center Channel</a>
 </p>
 <p style="margin: 12px 0px 0px 0px;">
-<a href="<%Response.write href_pre%>lobbcc.asp" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="Banking Center Channel">Banking Center Channel</a>
+<a href="<%If page_section <> "ADA" Then%>../consumerbanking/<%Else%>lobbcc.asp<%End If%>" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="Banking Center Channel">Banking Center Channel</a>
 </p>
 <p style="margin: 24px 0px 12px 0px;">
 <%	href_pre = ""

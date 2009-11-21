@@ -19,7 +19,7 @@ Opportunity awaits. Learn more about:
 </p>
 <%	href_pre = ""
 	if page_section <> "ADA" then href_pre = "../learnmore/" %>
-<a href="<%	if page_section <> "ADA" then%>../consumerbanking/<% Else %>lobgcsbb.asp<%End If %>" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="Global Consumer &amp; Small Business Banking">Global Consumer &amp; Small Business Banking</a>
+<a href="<%	if page_section <> "ADA" then%>../learnmore/lobgcsbb.asp<% Else %>lobgcsbb.asp<%End If %>" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="Global Consumer &amp; Small Business Banking">Global Consumer &amp; Small Business Banking</a>
 <br><br>
 <a href="<%	if page_section <> "ADA" then%>../gcib/<% Else %>lobgcib.asp<%End If %>" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="Global Corporate &amp; Investment Banking">Global Corporate &amp; Investment Banking</a>
 <br><br>

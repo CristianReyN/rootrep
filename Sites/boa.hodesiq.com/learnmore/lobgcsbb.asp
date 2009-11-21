@@ -1,23 +1,13 @@
 <% Response.Buffer=True 
 Dim title, mpage, spage, ada_href, ada_title, job_search_action, Metatag
-title = "Bank of America | Career | Banking Center Channel/Consumer Banking"
+title = "Bank of America | Career | Corporate Information | Global Consumer &amp; Small Business Banking"
 mpage = "lob"
 spage = "lobgcsbb"
-tpage = "lobbcc"
-ada_href = "../ada/lobbcc.asp"
-page_self = "../consumerbanking/default.asp"
-ada_title = "Bank of America | Banking Center Channel/Consumer Banking"
+ada_href = "../ada/lobgcsbb.asp"
+page_self = "../learnmore/lobgcsbb.asp"
+ada_title = "Bank of America | Career | Corporate Information | Global Consumer &amp; Small Business Banking"
 job_search_action = "../jobsearch/searchresult.asp"
-Dim flashPage
-flashPage = false
-Dim subtitle
-subtitle="Banking Center Channel/Consumer Banking"
-Metatag="Explore careers in our banking centers, with Bank of America's Global Consumer & Small Business Banking."
-
-'****************************** ADDED FOR HOT JOB OPENING***************************
-Dim talentid,rowcount
-talentid=10 
-rowcount=6
+Metatag="Explore a career with Bank of America's Global Consumer & Small Business Banking."
 %>
 <!-- Header -->
 <!-- #include file="../includes/header.asp" -->
@@ -33,7 +23,7 @@ rowcount=6
 	<td valign="top" width="578" height="100%">
 <!-- Body-->
 <img src="../images/clear.gif" width="15" height="4" alt="" border="0"><br>
-<!-- #include file="../includes/pages/lobbcc.asp" -->
+<!-- #include file="../includes/pages/lobgcsbb.asp" -->
 <br><br>
 <!-- Body-->
 	</td>
