@@ -4,9 +4,10 @@
 <head runat="server">
     <meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
     <meta name="Description" content="" runat="server" id="metadescription" /> 
-<title>Bank of America | Careers | Job Search</title>
+<title>Bank of America | Careers<%=breadCrum%></title>
 <link rel="stylesheet" href="includes/styles.css" type="text/css" />
 <link href="Includes/hs_safebutton.css" type="text/css" rel="stylesheet" />
+<link rel="stylesheet" href="Includes/eventStyles.css" type="text/css" />
 <script language="JavaScript1.2" src="includes/masthead.js" type="text/javascript"></script>
 <script language="JavaScript1.2" src="includes/mvc-fontsize.js" type="text/javascript"></script>
 <script language="JavaScript1.2" src="includes/ps.js" type="text/javascript"></script>
@@ -99,7 +100,7 @@ create_safebutton("Search","javascript: submit_search();",0,0,0,0,"Search");
 
 			<tr valign="top" style="background: #ffffff;"><td><img src="images/white.gif" width="154" height="1" alt="" border="0" /></td></tr>
 
-			<tr valign="top"><td style="background: #eaf1f7; padding: 0px 6px 0px 6px;"><a class="g" href="jobsearch.aspx" id="jsearch" title="Job Search" onfocus="this.className='g-over';" onblur="this.className='g';">Job Search</a></td></tr>
+			<tr valign="top"><td style="background: <%=jobsearchColor %> padding: 0px 6px 0px 6px;"><a class="g" href="jobsearch.aspx" id="jsearch" title="Job Search" onfocus="this.className='g-over';" onblur="this.className='g';">Job Search</a></td></tr>
 
 			<tr valign="top" style="background: #ffffff;"><td><img src="images/white.gif" width="154" height="1" alt="" border="0" /></td></tr>
 
@@ -112,7 +113,40 @@ create_safebutton("Search","javascript: submit_search();",0,0,0,0,"Search");
 
 
 			<tr valign="top" style="background: #ffffff;"><td><img src="images/white.gif" width="154" height="1" alt="" border="0" /></td></tr>
+<!-- added by ahsan-->
 
+
+
+
+<%if (!IsCampusEvents)
+  { %>
+
+<tr valign="top" onmouseover="tdiv(false);" onmouseout="tdiv(true);"><td id="tdnavcr" valign="middle" style="background: #cadceb; padding: 0px 6px 0px 6px;" onmouseover="popCamrec(true);" onmouseout="popCamrec(false);"><div id="camrecstartdv" style="position: absolute;"><a name="lnav19" id="camrecstart"></a></div><a class="g" href="campusrecruiting/" id="camreca" title="Campus Recruiting" onfocus="this.className='g-over'; popCamrec(true); tdiv(false);" onblur="this.className='g'; popCamrec(false); tdiv(true);">Campus Recruiting</a><div id="camrecenddv" style="position: absolute;"><a name="lnav20" id="camrecend"></a></div></td></tr>
+    <tr valign="top" style="background: #ffffff;"><td><img src="images/white.gif" width="154" height="1" alt="" border="0" /></td></tr>
+<%}
+  else
+  { %>
+
+<tr valign="top" onmouseover="tdiv(false);" onmouseout="tdiv(true);"><td id="td1" valign="middle" style="background: #cadceb; padding: 0px 6px 0px 6px;" onmouseover="popCamrec(false);" onmouseout="popCamrec(false);"><div id="Div1" style="position: absolute;"><a name="lnav19" id="A3"></a></div><a class="g" href="campusrecruiting/" id="A4" title="Campus Recruiting" onfocus="this.className='g-over'; popCamrec(false); tdiv(false);" onblur="this.className='g'; popCamrec(false); tdiv(true);">Campus Recruiting</a><div id="Div2" style="position: absolute;"><a name="lnav20" id="A5"></a></div></td></tr>
+    <tr valign="top" style="background: #ffffff;"><td><img src="images/white.gif" width="154" height="1" alt="" border="0" /></td></tr>
+    
+    
+    <tr valign="top"><td style="background: #cadceb; padding: 0px 6px 0px 6px;"><a class="sub" href="campusrecruiting/explore_careers.asp" title="Explore Careers" onfocus="this.className='sub-over';" onblur="this.className='sub';">Explore Careers</a></td></tr>
+        <tr valign="top" style="background: #ffffff;"><td><img src="images/white.gif" width="154" height="1" alt="" border="0" /></td></tr>
+    <tr valign="top"><td style="background: #cadceb; padding: 0px 6px 0px 6px;"><a class="sub" href="campusrecruiting/our_culture.asp" title="Our Culture" onfocus="this.className='sub-over';" onblur="this.className='sub';">Our Culture</a></td></tr>
+        <tr valign="top" style="background: #ffffff;"><td><img src="images/white.gif" width="154" height="1" alt="" border="0" /></td></tr>
+    <tr valign="top"><td style="background: #cadceb; padding: 0px 6px 0px 6px;"><a class="sub" href="campusrecruiting/find_your_fit.asp" title="Find Your Fit" onfocus="this.className='sub-over';" onblur="this.className='sub';">Find Your Fit</a></td></tr>
+        <tr valign="top" style="background: #ffffff;"><td><img src="images/white.gif" width="154" height="1" alt="" border="0" /></td></tr>
+    <tr valign="top"><td style="background: <%=ceventsColor %> padding: 0px 6px 0px 6px;"><a class="sub" href="CampusEvents.aspx" title="Campus Events" onfocus="this.className='sub-over';" onblur="this.className='sub';">Campus Events</a></td></tr>
+        <tr valign="top" style="background: #ffffff;"><td><img src="images/white.gif" width="154" height="1" alt="" border="0" /></td></tr>
+    <tr valign="top"><td style="background: #cadceb; padding: 0px 6px 0px 6px;"><a class="sub" href="campusrecruiting/how_to_apply.asp" title="How to Apply" onfocus="this.className='sub-over';" onblur="this.className='sub';">How to Apply</a></td></tr>
+        <tr valign="top" style="background: #ffffff;"><td><img src="images/white.gif" width="154" height="1" alt="" border="0" /></td></tr>
+
+<%} %>
+
+
+
+<!-- -->
 <tr valign="top" onmouseover="tdiv(false);" onmouseout="tdiv(true);"><td id="tdnavr" valign="middle" style="background: #cadceb; padding: 0px 6px 0px 6px;" onmouseover="popLearnmore(true);" onmouseout="popLearnmore(false);"><div id="learnmorestartdv" style="position: absolute;"><a name="lnav3" id="learnmorestart"></a></div><a class="g" href="learnmore/learnmore.asp" id="learnmore" title="Related Information" onfocus="this.className='g-over'; popLearnmore(true); tdiv(false);" onblur="this.className='g'; popLearnmore(false); tdiv(true);">Related Information</a><div id="learnmoreenddv" style="position: absolute;"><a name="lnav4" id="learnmoreend"></a></div></td></tr>
 
 			<tr valign="top" style="background: #ffffff;"><td><img src="images/white.gif" width="154" height="1" alt="" border="0" /></td></tr>
@@ -120,14 +154,17 @@ create_safebutton("Search","javascript: submit_search();",0,0,0,0,"Search");
 			<tr valign="top"><td style="background: #cadceb; padding: 0px 6px 0px 6px;"><a class="g" href="staffingevents/staffingevents.asp" title="Staffing Events" onfocus="this.className='g-over';" onblur="this.className='g';">Staffing Events</a></td></tr>
 
 			<tr valign="top" style="background: #ffffff;"><td><img src="images/white.gif" width="154" height="1" alt="" border="0" /></td></tr>
+			
+			<!-- added by ahsan-->
+			
+    <tr valign="top" onmouseover="tdiv(false);" onmouseout="tdiv(true);"><td id="tdnavgc" valign="middle" style="background: #cadceb; padding: 0px 6px 0px 6px;" ><div id="gcareerstartdv" style="position: absolute;"><a name="lnav21" id="gcareerstart"></a></div><a class="g" href="http://globalcareers.hodesinteractive.com/" id="gcareera" title="Global Careers" onfocus="this.className='g-over'; tdiv(false);" onblur="this.className='g'; tdiv(true);">Global Careers</a><div id="gcareerenddv" style="position: absolute;"><a name="lnav22" id="gcareerend"></a></div></td></tr>
+    <tr valign="top" style="background: #ffffff;"><td><img src="images/white.gif" width="154" height="1" alt="" border="0" /></td></tr>
+<!-- -->
 
 			<tr valign="top"><td style="background: #cadceb; padding: 0.35em 6px 0.35em 6px;"><a class="g" href="faq/faq.asp" title="Frequently Asked Questions" onfocus="this.className='g-over';" onblur="this.className='g';" style="line-height: 1.2em;">Frequently Asked Questions</a></td></tr>
 
-			<tr valign="top" style="background: #ffffff;"><td><img src="../images/white.gif" width="154" height="1" alt="" border="0" /></td></tr>
+			<tr valign="top" style="background: #ffffff;"><td><img src="../images/white.gif" width="154" height="1" alt="" border="0" /></td></tr>			
 			
-			<tr valign="top"><td style="background: #cadceb; padding: 0.35em 6px 0.35em 6px;"><a class="g" href="feedback/feedback.asp" title="Give Us Your Feedback" onfocus="this.className='g-over';" onblur="this.className='g';" style="line-height: 1.2em;">Give Us Your Feedback</a></td></tr>
-
-			<tr valign="top" style="background: #ffffff;"><td><img src="../images/white.gif" width="154" height="1" alt="" border="0" /></td></tr>
 <!-- Left Nav -->
 			<tr valign="top"><td height="30" style="background: #cadceb;" valign="bottom" align="right"><img src="images/clear.gif" width="154" height="1" alt="" border="0" /><br/>
 			</td></tr>
@@ -187,7 +224,7 @@ function tdiv(tf)
 		<img src="images/clear.gif" width="1" height="19" alt="" border="0" />
 		<div class="ftrtxt2">Bank of America, N.A. Member FDIC.
 		<a href="http://www.bankofamerica.com/help/equalhousing_popup.cfm" onclick="javascript:window.open('http://www.bankofamerica.com/help/equalhousing_popup.cfm','newwin','width=640,height=371,scrollbars=yes,resizable=yes,left=35,top=161'); return false;" target="_blank" class="ftrlnk" onfocus="this.className='ftrlnk-over';" onblur="this.className='ftrlnk';" title="Equal Housing Lender. Links opens a new window.">Equal Housing Lender</a><a href="http://www.bankofamerica.com/help/equalhousing_popup.cfm" onclick="javascript:window.open('http://www.bankofamerica.com/help/equalhousing_popup.cfm','newwin','width=640,height=371,scrollbars=yes,resizable=yes,left=35,top=161'); return false;" target="_blank" title="Equal Housing Lender. Links opens a new window."><img src="images/house.gif" width="14" height="9" hspace="3" alt="Equal Housing Lender. Links opens a new window." border="0" /></a><br />
-		&copy; 2007 Bank of America Corporation. All rights reserved.</div><br /></td>
+		&copy; 2008 Bank of America Corporation. All rights reserved.</div><br /></td>
 		<td align="right" width="131"><a href="http://www.bankofamerica.com/sponsorships/" title="Official Sponsor 2004-2008 U.S. Olympic Teams"><img src="images/foot_olympic.gif" alt="Official Sponsor 2004-2008 U.S. Olympic Teams" width="131" height="33" border="0" align="right" vspace="7" /></a></td>
 	</tr>
 </table>
@@ -203,8 +240,8 @@ function startKeybordNav()
 		document.getElementById("learnmore").onkeydown=setNextTabLearnmorePopup;
 	if(document.getElementById("benefitsadv"))
 		document.getElementById("benefitsadv").onkeydown=setNextTabLearnmoreShift;
-	if(document.getElementById("investment"))
-		document.getElementById("investment").onkeydown=setNextTabLearnmorePopupQuit;
+	if(document.getElementById("feedback"))
+		document.getElementById("feedback").onkeydown=setNextTabLearnmorePopupQuit;
 
 	if(document.getElementById("aroftalent"))
 		document.getElementById("aroftalent").onkeydown=setNextTabAotPopup;
@@ -219,7 +256,14 @@ function startKeybordNav()
 		document.getElementById("globalconsumer").onkeydown=setNextTablobShift;
 	if(document.getElementById("skillsassessment"))
 		document.getElementById("skillsassessment").onkeydown=setNextTablobPopupQuit;		
-
+    //
+    if(document.getElementById("camreca"))
+		document.getElementById("camreca").onkeydown=setNextTabCrecPopup;
+	if(document.getElementById("excareersadv"))
+		document.getElementById("excareersadv").onkeydown=setNextTabCrecShift;
+	if(document.getElementById("howToApply"))
+		document.getElementById("howToApply").onkeydown=setNextTabCrecPopupQuit;
+		
 }
 
 function transferFocus(ev)
@@ -240,7 +284,7 @@ function isShiftKey(ev)
 	return isShift;
 }
 
-var learnmorePopupShow, aotPopupShow, lobPopupShow;
+var learnmorePopupShow, aotPopupShow, lobPopupShow, camrecPopupShow, gcareerPopupShow;
 
 
 function setNextTabLearnmore(ev)
@@ -290,9 +334,36 @@ function setNextTabAotPopup(ev)
 }
 function setNextTabAotPopupQuit(ev)
 {	if(transferFocus(ev)&& !isShiftKey(ev) && document.getElementById("aotend"))
-	{	lobPopupShow = false; popAoT(false);
+	{	aotPopupShow = false; popAoT(false);
 		document.getElementById("aotend"+(isIE?"dv":"")).focus();
 }}
+//campus recruiting
+function setNextTabCRec(ev)
+{	if(transferFocus(ev) && isShiftKey(ev) && document.getElementById("camrecstart"))
+		document.getElementById("camrecstart"+(isIE?"dv":"")).focus();
+}
+function setNextTabCRecShift(ev)
+{	if(transferFocus(ev) && isShiftKey(ev) && document.getElementById("camrecend"))
+		document.getElementById("camrecend"+(isIE?"dv":"")).focus();
+}
+
+function setNextTabCRecPopup(ev)
+{	if(isShiftKey(ev) && transferFocus(ev))
+	{
+		if(document.getElementById("camrecstart"))
+			document.getElementById("camrecstart"+(isIE?"dv":"")).focus();
+	}
+	else if(transferFocus(ev) && document.getElementById("camrecpopupdv"))
+	{	camrecPopupShow = true; popCamrec(true);
+		document.getElementById("camrecpopup"+(isIE?"dv":"")).focus();
+	}
+}
+function setNextTabCRecPopupQuit(ev)
+{	if(transferFocus(ev)&& !isShiftKey(ev) && document.getElementById("camrecend"))
+	{	camrecPopupShow = false; popCamrec(false);
+		document.getElementById("camrecend"+(isIE?"dv":"")).focus();
+}}
+
 
 //LoB
 function setNextTablob(ev)
@@ -345,7 +416,7 @@ function popAoT(show)
 			<tr valign="top"><td style="background: #7F99B2;"><img src="images/clear.gif" width="154" height="1" alt="" border="0" /></td></tr>
 			<tr valign="top"><td style="background: #cadceb; padding: 5px 6px 5px 14px;"><a href="sales/default.asp" class="sbtxt" title="Sales" onfocus="this.className='sbtxt-over';tdiv(false);" onblur="this.className='sbtxt';tdiv(true);">Sales</a></td></tr>
 			<tr valign="top"><td style="background: #7F99B2;"><img src="images/clear.gif" width="154" height="1" alt="" border="0" /></td></tr>
-			<tr valign="top"><td style="background: #cadceb; padding: 5px 6px 5px 14px;"><a href="technology/default.asp" class="sbtxt" title="Technology" onfocus="this.className='sbtxt-over';tdiv(false);" onblur="this.className='sbtxt';tdiv(true);">Technology</a></td></tr>
+			<tr valign="top"><td style="background: #cadceb; padding: 5px 6px 5px 14px;"><a href="tech/" class="sbtxt" title="Technology" onfocus="this.className='sbtxt-over';tdiv(false);" onblur="this.className='sbtxt';tdiv(true);">Technology</a></td></tr>
 			<tr valign="top"><td style="background: #7F99B2;"><img src="images/clear.gif" width="154" height="1" alt="" border="0" /></td></tr>
 			<tr valign="top"><td style="background: #cadceb; padding: 5px 6px 5px 14px;"><a href="consumerbank/default.asp" id="consumerbanking" class="sbtxt" title="Consumer Banking" onfocus="this.className='sbtxt-over';tdiv(false);" onblur="this.className='sbtxt';tdiv(true);">Consumer Banking</a></td></tr>
 </table>
@@ -368,20 +439,56 @@ function popLearnmore(show)
 			<tr valign="top"><td style="background: #cadceb; padding: 5px 6px 5px 14px;"><a href="staffingevents/staffingprocess.asp" id="stuffing" class="sbtxt" title="Our Staffing Process" onfocus="this.className='sbtxt-over';tdiv(false);" onblur="this.className='sbtxt';tdiv(true);">Our Staffing Process</a></td></tr>
 			
 			<tr valign="top"><td style="background: #7F99B2;"><img src="images/clear.gif" width="154" height="1" alt="" border="0" /></td></tr>
-			<tr valign="top"><td style="background: #cadceb; padding: 5px 6px 5px 14px;"><a href="learnmore/collrecruiting.asp" class="sbtxt" title="Campus recruiting" onfocus="this.className='sbtxt-over';tdiv(false);" onblur="this.className='sbtxt';tdiv(true);">Campus recruiting</a></td></tr>
-			<tr valign="top"><td style="background: #7F99B2;"><img src="images/clear.gif" width="154" height="1" alt="" border="0" /></td></tr>
-			<tr valign="top"><td style="background: #cadceb; padding: 5px 6px 5px 14px;"><a href="learnmore/globalloc.asp" id="investment" class="sbtxt" title="Global locations" onfocus="this.className='sbtxt-over';tdiv(false);" onblur="this.className='sbtxt';tdiv(true);">Global locations</a></td></tr>
-
-			<tr valign="top"><td style="background: #7F99B2;"><img src="images/clear.gif" width="154" height="1" alt="" border="0" /></td></tr>
 			<tr valign="top"><td style="background: #cadceb; padding: 5px 6px 5px 14px;"><a href="learnmore/resume_interview_tips.asp" id="resume" class="sbtxt" title="Resume & Interview Tips" onfocus="this.className='sbtxt-over';tdiv(false);" onblur="this.className='sbtxt';tdiv(true);">Resume & Interview Tips</a></td></tr>
 			
 			<tr valign="top"><td style="background: #7F99B2;"><img src="images/clear.gif" width="154" height="1" alt="" border="0" /></td></tr>
 			<tr valign="top"><td style="background: #cadceb; padding: 5px 6px 5px 14px;"><a href="military/default.asp" id="military" class="sbtxt" title="Military & Veteran Recruiting" onfocus="this.className='sbtxt-over';tdiv(false);" onblur="this.className='sbtxt';tdiv(true);">Military & Veteran Recruiting</a></td></tr>
 			
+			<tr valign="top"><td style="background: #7F99B2;"><img src="images/clear.gif" width="154" height="1" alt="" border="0" /></td></tr>
+			<tr valign="top"><td style="background: #cadceb; padding: 5px 6px 5px 14px;"><a href="feedback/feedback.asp" id="feedback" class="sbtxt" title="Give Us Your Feedback" onfocus="this.className='sbtxt-over';tdiv(false);" onblur="this.className='sbtxt';tdiv(true);">Give Us Your Feedback</a></td></tr>
+			
 </table>
 </div>
 
-
+<script language="JavaScript1.2" type="text/javascript">
+function popCamrec(show)
+{var d=document; if(d.getElementById("tdtbnav")&&d.getElementById("tbnav")&&d.getElementById("tdnavcr")&&d.getElementById("camrec")){if(show || camrecPopupShow){d.getElementById("camrec").style.visibility = "visible"; d.getElementById("camrec").style.display = "block";d.getElementById("camrec").style.left=d.getElementById("tdtbnav").offsetLeft+d.getElementById("tbnav").offsetLeft+d.getElementById("tdnavcr").offsetLeft+d.getElementById("tdnavcr").offsetWidth-3;d.getElementById("camrec").style.top=d.getElementById("tdtbnav").offsetTop+d.getElementById("tbnav").offsetTop+d.getElementById("tdnavcr").offsetTop;}else{d.getElementById("camrec").style.visibility = "hidden"; d.getElementById("camrec").style.display = "none";}
+} setTimeout("camrecPopupShow = false;",500);}
+</script>
+<div id="camrec" style="position: absolute; left: 0px; top: 0px; visibility: hidden; display: none; z-index: 100; border: 1px solid #7F99B2; font-size: 0.8em;" onmouseover="popCamrec(true);tdiv(false);" onmouseout="popCamrec(false);tdiv(true);">
+<table width="160" cellpadding="0" cellspacing="0" border="0" summary="">
+			<tr valign="top"><td style="background: #cadceb; padding: 5px 6px 5px 14px;"><div id="camrecpopupdv" style="position: absolute;"><a name="lnav23" id="camrecpopup"></a></div><a href="campusrecruiting/explore_careers.asp" id="excareersadv" class="sbtxt" title="Explore Careers" onfocus="this.className='sbtxt-over';tdiv(false);" onblur="this.className='sbtxt';tdiv(true);">Explore Careers</a></td></tr>
+			<tr valign="top"><td style="background: #7F99B2;"><img src="images/clear.gif" width="154" height="1" alt="" border="0" /></td></tr>
+			<tr valign="top"><td style="background: #cadceb; padding: 5px 6px 5px 14px;"><a href="campusrecruiting/our_culture.asp" id="A1" class="sbtxt" title="Our Culture" onfocus="this.className='sbtxt-over';tdiv(false);" onblur="this.className='sbtxt';tdiv(true);">Our Culture</a></td></tr>
+			<tr valign="top"><td style="background: #7F99B2;"><img src="images/clear.gif" width="154" height="1" alt="" border="0" /></td></tr>
+			<tr valign="top"><td style="background: #cadceb; padding: 5px 6px 5px 14px;"><a href="campusrecruiting/find_your_fit.asp" class="sbtxt" title="Find Your Fit" onfocus="this.className='sbtxt-over';tdiv(false);" onblur="this.className='sbtxt';tdiv(true);">Find Your Fit</a></td></tr>
+			
+			<tr valign="top"><td style="background: #7F99B2;"><img src="images/clear.gif" width="154" height="1" alt="" border="0" /></td></tr>
+			<tr valign="top"><td style="background: #cadceb; padding: 5px 6px 5px 14px;"><a href="CampusEvents.aspx" id="A2" class="sbtxt" title="Campus Events" onfocus="this.className='sbtxt-over';tdiv(false);" onblur="this.className='sbtxt';tdiv(true);">Campus Events</a></td></tr>
+			
+			<tr valign="top"><td style="background: #7F99B2;"><img src="images/clear.gif" width="154" height="1" alt="" border="0" /></td></tr>
+			<tr valign="top"><td style="background: #cadceb; padding: 5px 6px 5px 14px;"><a href="campusrecruiting/how_to_apply.asp" id="howToApply" class="sbtxt" title="How to Apply" onfocus="this.className='sbtxt-over';tdiv(false);" onblur="this.className='sbtxt';tdiv(true);">How to Apply</a></td></tr>
+			<tr valign="top"><td style="background: #7F99B2;"><img src="images/clear.gif" width="154" height="1" alt="" border="0" /></td></tr>
+						
+</table>
+</div>
+<script language="JavaScript1.2" type="text/javascript">
+function popGcareer(show)
+{var d=document; if(d.getElementById("tdtbnav")&&d.getElementById("tbnav")&&d.getElementById("tdnavgc")&&d.getElementById("gcareer")){if(show || gcareerPopupShow){d.getElementById("gcareer").style.visibility = "visible"; d.getElementById("gcareer").style.display = "block";d.getElementById("gcareer").style.left=d.getElementById("tdtbnav").offsetLeft+d.getElementById("tbnav").offsetLeft+d.getElementById("tdnavgc").offsetLeft+d.getElementById("tdnavgc").offsetWidth-3;d.getElementById("gcareer").style.top=d.getElementById("tdtbnav").offsetTop+d.getElementById("tbnav").offsetTop+d.getElementById("tdnavgc").offsetTop;}else{d.getElementById("gcareer").style.visibility = "hidden"; d.getElementById("gcareer").style.display = "none";}
+} setTimeout("gcareerPopupShow = false;",500);}
+</script>
+<div id="gcareer" style="position: absolute; left: 0px; top: 0px; visibility: hidden; display: none; z-index: 100; border: 1px solid #7F99B2; font-size: 0.8em;" onmouseover="popGcareer(true);tdiv(false);" onmouseout="popGcareer(false);tdiv(true);">
+<table width="160" cellpadding="0" cellspacing="0" border="0" summary="">
+			<tr valign="top"><td style="background: #cadceb; padding: 5px 6px 5px 14px;"><div id="gcareerpopupdv" style="position: absolute;"><a name="lnav24" id="gcareerpopup"></a></div><a href="http://globalcareers.hodesinteractive.com/asia.aspx" id="gcasiaadv" class="sbtxt" title="Asia" onfocus="this.className='sbtxt-over';tdiv(false);" onblur="this.className='sbtxt';tdiv(true);">Asia</a></td></tr>
+			<tr valign="top"><td style="background: #7F99B2;"><img src="images/clear.gif" width="154" height="1" alt="" border="0" /></td></tr>
+			<tr valign="top"><td style="background: #cadceb; padding: 5px 6px 5px 14px;"><a href="http://globalcareers.hodesinteractive.com/canada.aspx" id="A11" class="sbtxt" title="Canada" onfocus="this.className='sbtxt-over';tdiv(false);" onblur="this.className='sbtxt';tdiv(true);">Canada</a></td></tr>
+			<tr valign="top"><td style="background: #7F99B2;"><img src="images/clear.gif" width="154" height="1" alt="" border="0" /></td></tr>
+			<tr valign="top"><td style="background: #cadceb; padding: 5px 6px 5px 14px;"><a href="http://globalcareers.hodesinteractive.com/emea.aspx" class="sbtxt" title="Europe, Middle East and Africa" onfocus="this.className='sbtxt-over';tdiv(false);" onblur="this.className='sbtxt';tdiv(true);">Europe, Middle East and Africa</a></td></tr>
+			
+			<tr valign="top"><td style="background: #7F99B2;"><img src="images/clear.gif" width="154" height="1" alt="" border="0" /></td></tr>
+						
+</table>
+</div>
 <script language="JavaScript1.2" type="text/javascript">
 function poplob(show)
 {var d=document; if(d.getElementById("tdtbnav")&&d.getElementById("tbnav")&&d.getElementById("tdnavlob")&&d.getElementById("lobli")){if(show || lobPopupShow){d.getElementById("lobli").style.visibility = "visible"; d.getElementById("lobli").style.display = "block";d.getElementById("lobli").style.left=d.getElementById("tdtbnav").offsetLeft+d.getElementById("tbnav").offsetLeft+d.getElementById("tdnavlob").offsetLeft+d.getElementById("tdnavlob").offsetWidth-3;d.getElementById("lobli").style.top=d.getElementById("tdtbnav").offsetTop+d.getElementById("tbnav").offsetTop+d.getElementById("tdnavlob").offsetTop;}else{d.getElementById("lobli").style.visibility = "hidden"; d.getElementById("lobli").style.display = "none";}

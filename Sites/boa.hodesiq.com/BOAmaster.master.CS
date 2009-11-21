@@ -14,12 +14,23 @@ using System.Web.UI.HtmlControls;
 /// </summary>
 public partial class BOAmaster : System.Web.UI.MasterPage 
 {
+    public string jobsearchColor = "#eaf1f7;";
+    public string ceventsColor = "#cadceb;";
+    public string breadCrum = " | Job Search";
+    public bool IsCampusEvents = false;
     protected void Page_Load(object sender, EventArgs e)
     {
         this.ltrlCorremetrixScripts.Text = "";
         string strPageName = "";
         string strContent = "";
         int intPage = 1; // true
+        if (Request.ServerVariables["SCRIPT_NAME"].IndexOf("CampusEvents.aspx", StringComparison.CurrentCultureIgnoreCase) > 0)
+        {
+            jobsearchColor = "#cadceb;";
+            ceventsColor = "#eaf1f7;";
+            breadCrum = " | Campus Recruiting | Campus Events";
+            IsCampusEvents = true;
+        }
         if (Request.ServerVariables["SCRIPT_NAME"].IndexOf("jobsearch.aspx", StringComparison.CurrentCultureIgnoreCase) > 0)
         {
             strContent = "Main page for job search functionality for careers site.";
