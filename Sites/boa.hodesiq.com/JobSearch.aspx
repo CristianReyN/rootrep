@@ -20,16 +20,14 @@
                                                 <tr>
                                                     <td style="padding: 0px 6px 0px 0px; width: 50%" valign="top">
                                                         <p style="margin: 0px; text-align: left;">
-                                                            <b>
-                                                                <label for="areasoftalent">
-                                                                    Areas of Talent</label></b></p>
+                                                            <b><asp:Label ID="lblAreaOfTalent" runat="server" Text="Areas of Talent" AssociatedControlID="areasoftalent"></asp:Label>
+                                                                </b></p>
                                                         <asp:DropDownList ID="areasoftalent" runat="server" CssClass="left" Style="width: 100%;
                                                             z-index: auto;" TabIndex="1" ToolTip="Areas Of Talent">
                                                         </asp:DropDownList><br />
                                                         <p style="margin: 0px; text-align: left;">
-                                                            <b>
-                                                                <label for="locations">
-                                                                    State</label></b></p>
+                                                            <b><asp:Label ID="lblState" runat="server" Text="State" AssociatedControlID="State"></asp:Label>
+                                                                </b></p>
                                                         <asp:DropDownList ID="State" runat="server" CssClass="left" Style="width: 100%; z-index: auto;"
                                                             TabIndex="4" ToolTip="Select a State">
                                                             <asp:ListItem>All Locations&#160;</asp:ListItem>
@@ -37,9 +35,8 @@
                                                     </td>
                                                     <td style="padding: 0px 0px 0px 6px; width: 50%" valign="top">
                                                         <p style="margin: 0px; text-align: left;">
-                                                            <b>
-                                                                <label for="jfamily">
-                                                                    Job Family</label></b></p>
+                                                            <b><asp:Label ID="lblJFamily" runat="server" Text="Job Family" AssociatedControlID="jfamily"></asp:Label>
+                                                                </b></p>
                                                         <asp:ListBox ID="jfamily" runat="server" CssClass="left" SelectionMode="single"
                                                             Style="width: 100%; z-index: auto;" TabIndex="2" ToolTip="Select Family">
                                                             <asp:ListItem>Job Family&#160;</asp:ListItem>
@@ -50,7 +47,7 @@
                                                     <td style="padding: 0px 6px 0px 0px; width: 50%;" valign="top">
                                                         <p style="margin: 0px; text-align: left;">
                                                             <b>
-                                                                <asp:Label ID="LblCity" runat="server" Text="City" Visible="false"></asp:Label>
+                                                                <asp:Label ID="LblCity" runat="server" Text="City" Visible="false" AssociatedControlID="City"></asp:Label>
                                                                 </b></p>
                                                         <asp:DropDownList ID="City" runat="server" CssClass="left" Style="width: 100%; z-index: auto;"
                                                             TabIndex="3" ToolTip="Select a City" Visible="false">
@@ -59,9 +56,8 @@
                                                     </td>
                                                     <td style="padding: 0px 0px 0px 6px; width: 50%;" valign="top">
                                                         <p style="margin: 0px; text-align: left;">
-                                                            <b>
-                                                                <label for="keywords">
-                                                                    Keywords or Job Number (if known)</label></b></p>
+                                                            <b><asp:Label ID="lblKeywords" runat="server" Text="Keywords or Job Number (if known)" AssociatedControlID="keywords"></asp:Label>
+                                                                </b></p>
                                                         <asp:TextBox ID="keywords" runat="server" CssClass="left" Style="width: 100%; size: 20"
                                                             TabIndex="5" ToolTip="Keywords">
                                                         </asp:TextBox>
