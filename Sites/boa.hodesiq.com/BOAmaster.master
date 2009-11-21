@@ -192,8 +192,10 @@
                                         <img alt="" height="4" src="images/clear.gif" width="100%" /></td>
                                 </tr>
                             </table>
+                            <form runat="server" id="frm">
                             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
                             </asp:ContentPlaceHolder>
+                            </form>
                             <br />
                             <br />
                             <!-- Body-->
