@@ -16,23 +16,25 @@ public partial class BOAmaster : System.Web.UI.MasterPage
 {
     protected void Page_Load(object sender, EventArgs e)
     {
-        switch (Request.ServerVariables["SCRIPT_NAME"])
+        if (Request.ServerVariables["SCRIPT_NAME"].IndexOf("jobsearch.aspx", StringComparison.CurrentCultureIgnoreCase) > 0)
         {
-            case "jobsearch.aspx":
-                this.metadescription.Attributes["content"] = "Main page for job search functionality for careers site.";
-                 break;
-             case "AdvanceSearch.aspx":
-                 this.metadescription.Attributes["content"] = "Search page is more detailed for the user to define their search further choosing language, shift, willingness to travel and shift.";
-                break;
-            case "Jobcart.aspx":
-                this.metadescription.Attributes["content"] = "Allows users to place specific jobs for storage until they decide to either apply for the position or remove.";
-                break;
-            case "JobDetails.aspx":
-                this.metadescription.Attributes["content"] = "Page entails detailed description of positions within Bank of America.  Also the user is able to add the job to a job cart, apply, send the job to a friend or return to the job listing.";
-                break;
-            default: 
-                this.metadescription.Attributes["content"] = "Some Random Text";
-                break;
+            this.metadescription.Attributes["content"] = "Main page for job search functionality for careers site.";
+        }
+        else if (Request.ServerVariables["SCRIPT_NAME"].IndexOf("AdvanceSearch.aspx", StringComparison.CurrentCultureIgnoreCase) > 0)
+        {
+            this.metadescription.Attributes["content"] = "Search page is more detailed for the user to define their search further choosing language, shift, willingness to travel and shift.";
+        }
+        else if (Request.ServerVariables["SCRIPT_NAME"].IndexOf("Jobcart.aspx", StringComparison.CurrentCultureIgnoreCase) > 0)
+        {
+            this.metadescription.Attributes["content"] = "Allows users to place specific jobs for storage until they decide to either apply for the position or remove.";
+        }
+        else if (Request.ServerVariables["SCRIPT_NAME"].IndexOf("JobDetails.aspx", StringComparison.CurrentCultureIgnoreCase) > 0)
+        {
+            this.metadescription.Attributes["content"] = "Page entails detailed description of positions within Bank of America.  Also the user is able to add the job to a job cart, apply, send the job to a friend or return to the job listing.";
+        }
+        else
+        {
+            this.metadescription.Attributes["content"] = "Main page for job search functionality for careers site.";
         }
     }
 }
