@@ -331,7 +331,7 @@ public partial class JobDetails : System.Web.UI.Page
         int iDotIndex = 0;
         string sHref = "";
         string sHrefTemplate = "<a href='link_here' target='_blank'>link_here</a>";
-        string sHrefWWWTemplate = " <a href='http://link_here' target='_blank'>link_here</a>";
+        string sHrefWWWTemplate = "<a href='http://link_here' target='_blank'>link_here</a>";
 
         if ((sText.ToLower().Contains("http") || sText.ToLower().Contains("www.")) && sText.ToLower().Contains(".com"))
         {
@@ -355,7 +355,7 @@ public partial class JobDetails : System.Web.UI.Page
                     }
                     else
                     {
-                        if (iSpaceIndex > iDotIndex) iSpaceIndex = iDotIndex;
+                        if (iSpaceIndex > iDotIndex && iDotIndex != -1) iSpaceIndex = iDotIndex;
                     }
                 }
 
@@ -384,12 +384,12 @@ public partial class JobDetails : System.Web.UI.Page
                     }
                     else
                     {
-                        if (iSpaceIndex > iDotIndex) iSpaceIndex = iDotIndex;
+                        if (iSpaceIndex > iDotIndex && iDotIndex != -1) iSpaceIndex = iDotIndex;
                     }
                 }
 
                 sURL = "www." + sRight.Substring(0, iSpaceIndex).Trim();
-                sHref = sHref.Replace("link_here", sURL);
+                sHref = " " + sHref.Replace("link_here", sURL);
                 sURL = " " + sURL;
                 sParsedText = sParsedText.Replace(sURL, sHref);
             }
