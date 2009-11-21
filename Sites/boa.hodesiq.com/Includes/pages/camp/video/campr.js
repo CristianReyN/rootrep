@@ -373,6 +373,17 @@ will_video = new fvideo(
 					null,
 					null
 					);
+					
+shuwen_video = new fvideo(
+					flashplayer.swf_url,
+					"../Includes/pages/camp/video/SHUWEN.xml",
+					flashplayer,
+					"#vt",
+					"../Includes/pages/camp/video/thumbnails/shuwen_on.jpg",
+					"../Includes/pages/camp/video/thumbnails/shuwen_off.jpg",
+					null,
+					null
+					);
 
 
 function getVideo(video,w,h,na_me,alt)

@@ -60,7 +60,7 @@ In order to be considered a candidate for this opportunity, you must apply via t
 <br>
 				</td>
 				<td width="205" height="100%" valign="top" style="padding-top: 8px;" align="right">
-<!-- #include file="../../pages/college/guan.asp" -->
+<!-- #include file="../../pages/camp/video/guan.asp" -->
 <img src="../images/clear.gif" width="205" height="38" alt="" border="0"><br clear="all">
 <!-- #include file="../../camprnav.asp" -->
 				</td>

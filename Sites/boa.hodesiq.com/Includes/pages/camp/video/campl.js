@@ -147,7 +147,7 @@ MM_preloadImages('../Includes/pages/buttons/01btn-over.gif','../Includes/pages/b
 
 function strReplace(s,p,r){var pos=s.indexOf(p);var len=p.length;while(pos != -1){s1=s.substring(0,pos);s2=s.substring(pos+len,s.length);s=s1+r+s2;pos=s.indexOf(p);}return s;}
 
-var reqFlashPlayer = '<a href="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash" title="This video requires Adobe Flash Player version '+requiredMajorVersion+'. Please download latest version." class="bac" onfocus="this.className=\'p-over\';" onblur="this.className=\'p\';"><img src="../Includes/pages/college/thumbnails/';
+var reqFlashPlayer = '<a href="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash" title="This video requires Adobe Flash Player version '+requiredMajorVersion+'. Please download latest version." class="bac" onfocus="this.className=\'p-over\';" onblur="this.className=\'p\';"><img src="';
 var reqFlashPlayer2 = '" width="205" height="131" alt="This video requires Adobe Flash Player version '+requiredMajorVersion+'. Please download latest version." border="0" \/><\/a>';
 
 function getHTMLControl(objname,w,h,play,pause,stop,ada,mute,ccoc)
@@ -363,33 +363,83 @@ function fpvideo(swf_url,w,h)
 	this.h = h;
 }
 
-var fairbrother_video, shuwen_video;
+var fairbrother_video, anne_video, chris_video, erin_video, guan_video, nathan_video, tony_video;
 
 fairbrother_video = new fvideo(
 					"../Includes/pages/associate/Fairbrother.swf",
 					false,
 					null,
 					"#vt",
-					"../Includes/pages/camp/video//thumbnails/jonathan_on.jpg",
+					"../Includes/pages/camp/video/thumbnails/jonathan_on.jpg",
 					"../Includes/pages/camp/video/thumbnails/jonathan_off.jpg",
 					null,
 					null
 					);
-					
-shuwen_cc_video = new ccfvideo(
+
+anne_video = new fvideo(
+					"../Includes/pages/college/Anne.swf",
+					false,
 					null,
-					"http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/DITL_TESTIMONIAL/shu-wen_final_CC.flv",
+					"#vt",
+					"../Includes/pages/camp/video/thumbnails/anne_on.jpg",
+					"../Includes/pages/camp/video/thumbnails/anne_off.jpg",
+					null,
 					null
 					);
-shuwen_video = new fvideo(
-					flashplayer.swf_url,
-					"http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/DITL_TESTIMONIAL/Shu_Wen.flv",
-					flashplayer,
-					"#vt",
-					"../Includes/pages/camp/video/thumbnails/shuwen_on.jpg",
-					"../Includes/pages/camp/video/thumbnails/shuwen_off.jpg",
+
+chris_video = new fvideo(
+					"../Includes/pages/college/Chris.swf",
+					false,
 					null,
-					shuwen_cc_video
+					"#vt",
+					"../Includes/pages/camp/video/thumbnails/chris_on.jpg",
+					"../Includes/pages/camp/video/thumbnails/chris_off.jpg",
+					null,
+					null
+					);
+
+erin_video = new fvideo(
+					"../Includes/pages/college/Erin.swf",
+					false,
+					null,
+					"#vt",
+					"../Includes/pages/camp/video/thumbnails/erin_on.jpg",
+					"../Includes/pages/camp/video/thumbnails/erin_off.jpg",
+					null,
+					null
+					);
+
+guan_video = new fvideo(
+					"../Includes/pages/college/Guan.swf",
+					false,
+					null,
+					"#vt",
+					"../Includes/pages/camp/video/thumbnails/guan_on.jpg",
+					"../Includes/pages/camp/video/thumbnails/guan_off.jpg",
+					null,
+					null
+					);
+
+nathan_video = new fvideo(
+					"../Includes/pages/college/Nathan.swf",
+					false,
+					null,
+					"#vt",
+					"../Includes/pages/camp/video/thumbnails/nathan_on.jpg",
+					"../Includes/pages/camp/video/thumbnails/nathan_off.jpg",
+					null,
+					null
+					);
+
+tony_video = new fvideo(
+					"../Includes/pages/college/Tony.swf",
+					false,
+					null,
+					"#vt",
+					"../Includes/pages/camp/video/thumbnails/tony_on.jpg",
+					"../Includes/pages/camp/video/thumbnails/tony_off.jpg",
+					null,
+					null
 					);
 
 

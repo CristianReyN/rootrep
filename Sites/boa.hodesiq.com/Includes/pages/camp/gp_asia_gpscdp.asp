@@ -55,7 +55,7 @@ Please follow any procedures set forth through the Career Services office on you
 <br>
 				</td>
 				<td width="205" height="100%" valign="top" style="padding-top: 8px;" align="right">
-<!-- #include file="../../pages/college/chris.asp" -->
+<!-- #include file="../../pages/camp/video/chris.asp" -->
 <img src="../images/clear.gif" width="205" height="38" alt="" border="0"><br clear="all">
 <!-- #include file="../../camprnav.asp" -->
 				</td>
