@@ -12,4 +12,8 @@
 <a href="<%Response.write href_pre%>collrecruiting.asp" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="Campus Recruiting">Campus Recruiting</a>
 <img class="dotdiv" style="margin: 9px 0px 5px 0px;" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
 <a href="<%Response.write href_pre%>globalloc.asp" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="Global locations">Global locations</a>
+<img class="dotdiv" style="margin: 9px 0px 5px 0px;" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
+<a href="<%Response.write href_pre%>resume_interview_tips.asp" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="Resume &amp; interview tips">Resume &amp; interview tips</a>
+<img class="dotdiv" style="margin: 9px 0px 5px 0px;" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
+<a href="<%Response.write href_pre%>mulitary_veteran_recruiting.asp" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="Military &amp; veteran recruiting">Military &amp; veteran recruiting</a>
 <img src="../images/clear.gif" width="100%" height="5" alt="" border="0">

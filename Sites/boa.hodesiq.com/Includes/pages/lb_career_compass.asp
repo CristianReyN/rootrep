@@ -121,7 +121,7 @@
 					<table width="100%" cellpadding="0" cellspacing="0" border="0" summary="">
 						<tr>
 							<td width="100%">
-<a class="left" style="text-decoration: none;" href="<% Response.write href_pre %>collrecruiting.asp">Return to Campus Recruiting</a>
+<a class="left" style="text-decoration: none;" href="<% Response.write href_pre %>lob.asp">Return to Lines of Business</a>
 							</td>
 							<td width="70" nowrap align="right">
 <%

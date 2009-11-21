@@ -10,7 +10,7 @@ If page_section = "ADA" Then U_R_L = "../ada/"
 Dim programs(5)
 '		program number			program title,program group,program page
 Set programs(1) = createProgram("Global Consumer &amp; Small Business Banking",B_O_T_H,U_R_L&"lobgcsbb.asp",FALSE,TRUE)
-Set programs(2) = createProgram("Global Corporate Investment Bank",B_O_T_H,U_R_L&"lobgcib.asp",FALSE,TRUE)
+Set programs(2) = createProgram("Global Corporate &amp; Investment Banking",B_O_T_H,U_R_L&"lobgcib.asp",FALSE,TRUE)
 Set programs(3) = createProgram("Global Wealth &amp; Investment Management",B_O_T_H,U_R_L&"lobgwim.asp",FALSE,TRUE)
 Set programs(4) = createProgram("Global Technology &amp; Operations",B_O_T_H,U_R_L&"lobgto.asp",FALSE,TRUE)
 Set programs(5) = createProgram("Corporate Staff &amp; Support",B_O_T_H,U_R_L&"lobcss.asp",FALSE,TRUE)

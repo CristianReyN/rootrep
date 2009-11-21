@@ -22,15 +22,15 @@ Opportunity awaits. Learn more about:
 <br><br>-->
 <a href="<% Response.write href_pre %>lobgcsbb.asp" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="Global Consumer &amp; Small Business Banking">Global Consumer &amp; Small Business Banking</a>
 <br><br>
-<a href="<% Response.write href_pre %>lobgcib.asp" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="Global Corporate Investment Banking">Global Corporate Investment Banking</a>
+<a href="<% Response.write href_pre %>lobgcib.asp" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="Global Corporate &amp; Investment Banking">Global Corporate &amp; Investment Banking</a>
 <br><br>
 <a href="<% Response.write href_pre %>lobgwim.asp" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="Global Wealth &amp; Investment Management">Global Wealth &amp; Investment Management</a>
 <br><br>
 <a href="<% Response.write href_pre %>lobgto.asp" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="Global Technology &amp; Operations">Global Technology &amp; Operations</a>
 <br><br>
 <a href="<% Response.write href_pre %>lobcss.asp" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="Corporate Staff &amp; Support">Corporate Staff &amp; Support</a>
-
-
+<br><br>
+<a href="<% Response.write href_pre %>lb_career_compass.asp" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="Skills Assessment">Skills Assessment</a>
 <br><br><br>
 				</td>
 				<td width="205" height="100%" valign="top">
