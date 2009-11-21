@@ -92,7 +92,17 @@
                         </td>
                     </tr>
                 </table>
-                <asp:GridView ID="GrdResults" runat="server" Width="554px" AutoGenerateColumns="False" CellPadding="0" GridLines="None" AllowSorting="True" ToolTip="Search Results " EmptyDataRowStyle-ForeColor="Red">
+                <asp:GridView 
+                ID="GrdResults" 
+                runat="server" 
+                Width="554px" 
+                AutoGenerateColumns="False" 
+                CellPadding="0" 
+                GridLines="None" 
+                AllowSorting="True" 
+                ToolTip="Search Results " 
+                summary="Search Results " 
+                EmptyDataRowStyle-ForeColor="Red">
                     <RowStyle BackColor="#CADCEB" Height="10px"/>
                     <AlternatingRowStyle BackColor="#EAF1F7" Height="10px" />
                     <HeaderStyle Height="10px" BackColor="#EAF1F7" />

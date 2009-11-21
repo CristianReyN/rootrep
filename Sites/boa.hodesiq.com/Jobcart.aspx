@@ -21,8 +21,7 @@
                         <td colspan="2" style="padding: 3px 0px 0px 0px;" valign="top">
                             <asp:GridView 
                             ID="grdJobcart" 
-                            runat="server" 
-                             t
+                            runat="server"          
                             AutoGenerateColumns="false" 
                             Width="554px"
                             BorderStyle="none" 
@@ -32,7 +31,8 @@
                             OnRowDataBound="grdJobcart_RowDataBound" 
                             BorderWidth="0px" 
                             EmptyDataText="Your job cart is empty." 
-                            ToolTip="Job cart results">
+                            ToolTip="Job cart results" 
+                            summary="Job cart results">
                                 <RowStyle CssClass="C1" BorderStyle="None" />
                                 <AlternatingRowStyle CssClass="C2" BorderStyle="None" />
                                 <HeaderStyle BackColor="#EAF1F7" />
