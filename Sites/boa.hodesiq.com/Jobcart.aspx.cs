@@ -118,7 +118,7 @@ public partial class Jobcart : System.Web.UI.Page
 
             MyApplyLink = (HyperLink)e.Row.FindControl("hlnkApply");
             MyApplyLink.ID = "hlnkApply" + e.Row.RowIndex;
-            MyApplyLink.Text = "Apply Now <span class='auraltext'>For `" + DrvRow["JobTitle"].ToString() + "`. If you have any difficulties, refer to the above alternatives.</span>";
+			MyApplyLink.Text = "Apply Now <span class='auraltext'>For `" + DrvRow["JobTitle"].ToString() + "`. If you have any difficulties, refer to the above alternatives. Opens in a new window.</span>";
             //apply process goes trough clients page for hits counting:
 			MyApplyLink.NavigateUrl = targetpage + HttpUtility.UrlEncode(DrvRow["APPLY_ONLINE_URL"].ToString());
             //MyApplyLink.NavigateUrl = DrvRow["APPLY_ONLINE_URL"].ToString();
