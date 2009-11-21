@@ -75,9 +75,8 @@
                                                     <td style="padding: 0px 12px 0px 12px;" align="left">
                                                         <b><asp:Label ID="lblJobofJobs" runat="server" Text=""></asp:Label></b>&nbsp;</td>
                                                     <td align="right" valign="top">
-                                                        <a class="p" onfocus="this.className='p-over';" onblur="this.className='p';" href="jobcart.aspx"  title="View Job Cart">View Job Cart</a>&nbsp;&nbsp;&nbsp;&nbsp;
-                                                        <a class="p" onfocus="this.className='p-over';" onblur="this.className='p';" href="AdvanceSearch.aspx"  title="Advanced Search">Advanced
-                                                            Search</a>
+                                                        <asp:Button ID="btnJobCart" cssclass="bodybtn" runat="server" Text="View Job Cart" OnClick="btnJobCart_Click" />&nbsp;&nbsp;&nbsp;&nbsp;
+                                                        <asp:Button ID="btnAdvanceSearch" cssclass="bodybtn" runat="server" Text="Advanced Search" OnClick="btnAdvanceSearch_Click" />
                                                     </td>
                                                 </tr>
                                             </table>

@@ -246,4 +246,12 @@ public partial class JobSearch : System.Web.UI.Page
 		City.Items.Insert(0, new ListItem("All Cities", "-1"));
 		dr.Close();
 	}
+	protected void btnJobCart_Click(object sender, EventArgs e)
+	{
+		Response.Redirect("jobcart.aspx");
+	}
+	protected void btnAdvanceSearch_Click(object sender, EventArgs e)
+	{
+		Response.Redirect("AdvanceSearch.aspx");
+	}
 }
