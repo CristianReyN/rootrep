@@ -7,6 +7,10 @@ job_search_action = "../jobsearch/searchresult.asp"
 page_self = "../ada/communications.asp"
 page_section="ADA"
 flash = false
+'****************************** ADDED FOR HOT JOB OPENING***************************
+Dim talentid,rowcount
+talentid=3 
+rowcount=6
 %>
 <!-- Header -->
 <!-- #include file="header.asp" -->
