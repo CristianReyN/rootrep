@@ -87,7 +87,7 @@ End If
 	cmCreatePageviewTag("<%= pageId %>", null, null,"<%= categoryId %>");
 //-->
 </script>
-<% If mpage = "overview" Then %>
+<% If mpage = "overview" Or (spage = "collrecruiting" And tpage <> "") Or (mpage = "areasoftalent" And spage <> "") Then %>
 <table cellpadding="0" cellspacing="0" border="0" summary=""><tr><td>
 <a href="<%=ada_href %>" id="tonly" title="<%=textonly_version %>" class="hide-tab"><%=textonly_version %></a>
 </td></tr></table>

@@ -2,7 +2,7 @@
 <%
 Function createPages(pages)
 	
-	call createPage(page,1,"Discover Your Direction","Our quick and easy College Career Compass can guide you to specialized programs that are best suited to your skills and interests.<br><br>For best results, please answer all questions as accurately as possible.")
+	call createPage(page,1,"Discover Your Direction","Our quick and easy College Career Compass can guide you to specialized programs that are best suited to your skills and interests.<br>For best results, please answer all questions as accurately as possible.")
 	
 	
 	call createQuestionGroup(group,1,"I am a(n):","radio",1)
