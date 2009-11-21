@@ -84,7 +84,7 @@ public partial class JobSearch : System.Web.UI.Page
 		if (MyValue.ToString() != "-1")
 		{
 			FilterCity(Convert.ToInt32(MyValue));
-			ddlCity.Visible = true;
+			ddlCity.Enabled = true;
 		}
 
 		MyListItem = ddlCity.Items.FindByValue(String.IsNullOrEmpty(Request.QueryString["cityid"]) == false ? Request.QueryString["cityid"] : "-1");
