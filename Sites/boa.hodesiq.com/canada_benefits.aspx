@@ -16,25 +16,20 @@
     <table summary="" width="366" border="0" cellspacing="0" cellpadding="0">
         <tr>
             <td width="366" align="left" valign="top">
-                <p>
-                    At Bank of America our generous benefits package supports a balanced lifestyle including
-                    the following:</p>
-                <ul>
-                    <li>Health and retirement benefits as of your first day of employment </li>
-                    <li>Entry-level positions start with three weeks vacation in their first year</li>
-                    <li>Employee discount programs</li>
-                    <li>Incentives and bonus programs based on individual performance</li>
-                    <li>On-site fitness center</li>
-                    <li>State-of-the-art caf&eacute; </li>
-                    <li>Free parking </li>
-                </ul>
-                <p>
-                    These benefits may be modified from time to time by<br />
-                    Bank of America.</p>
-                <p>
-                    <br />
-                </p>
-            </td>
+              <p>Bank of America offers a comprehensive benefit package to its associates based on local practices in each country. Our compensation and benefits package has been designed to stay competitive with the market and to attract, retain, motivate and reward associates who commit themselves to excellence. Examples of benefits we offer include:</p><ul>
+
+<li>Health and Dental benefits as of your first day of employment</li>
+<li>Life Insurance, Accidental Death & Dismemberment coverage and Disability benefits</li>
+<li>Retirement benefits </li>
+<li>Comprehensive set of leave benefits (including paternity leave) </li>
+<li>Entry-level positions start with three weeks vacation in the first year</li>
+<li>Employee discount program</li>
+<li>Onsite fitness centers (Ottawa location only) </li>
+<li>Associate cafés (Ottawa location only) </li></ul>
+<p>In addition to strong base compensation and benefits, associates of Bank of America are eligible to participate in our incentive programs, which form important parts of our overall compensation package.</p>
+
+<p>These benefits may be modified from time to time by Bank of America.</p>
+ </td>
         </tr>
     </table>
 </asp:Content>

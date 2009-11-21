@@ -35,17 +35,8 @@ public partial class Jobcart : System.Web.UI.Page
         
 		//if(ViewState["Cookie"]==null)
         //{
-        string JobSearch;
-        //string JobCartID;
-        JobSearch = Request.QueryString["SearchPage"];
-        if (Request.QueryString["SearchPage"] == "Sp")
-        {
-            SearchReturn.NavigateUrl = "jobsearch.aspx";
-        }
-        else if (Request.QueryString["SearchPage"] == "ASP")
-        {
-            SearchReturn.NavigateUrl = "AdvanceSearch.aspx";
-        }
+
+        SearchReturn.NavigateUrl = Request.UrlReferrer.ToString();
         HttpCookie MyCookie = Request.Cookies["JobCartID"];
 		if (MyCookie != null)
 		{

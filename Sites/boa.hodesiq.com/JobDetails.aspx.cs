@@ -25,6 +25,7 @@ public partial class JobDetails : System.Web.UI.Page
     private string strJobID = string.Empty;
     private string JobCartID = "";
 	private string srcvalue = string.Empty;
+    const string USA = "1";
 
 	private string targetpage = string.Empty;
 
@@ -40,7 +41,9 @@ public partial class JobDetails : System.Web.UI.Page
 
         Jobs Jobs = new Jobs();
 
-        DataTable dt = Jobs.JobDetails(Request.QueryString["JobId"].ToString());
+        string countryid = Request["countryid"] == null ? "1" : Request["countryid"].ToString();
+
+        DataTable dt = Jobs.JobDetails(Request.QueryString["JobId"].ToString(),countryid);        
 		if (dt.Rows.Count > 0)
 		{
 			strJobID = dt.Rows[0]["JobsId"].ToString();
@@ -80,14 +83,8 @@ public partial class JobDetails : System.Web.UI.Page
 		{
 			Response.Redirect(ConfigurationManager.AppSettings["jobnotfoundredirectpage"] + "?nf=1");
 		}
-        if (Request.QueryString["SearchPage"].ToString() == "Sp")
-        {
-            returntoJobsearch.NavigateUrl = "jobsearch.aspx?" + Request.QueryString;
-        }
-        else
-        {
-            returntoJobsearch.NavigateUrl = "AdvanceSearch.aspx?" + Request.QueryString;
-        }
+       
+        returntoJobsearch.NavigateUrl = "jobsearch.aspx?" + Request.QueryString;        
 
         boanet_safebutton.writeBOASafeButton("Apply1", phApply1, "ApplyNow|*|" + dt.Rows[0]["JobTitle"].ToString(), Apply_Click_NoJS, this.Request, this.hApplyNow.Value);
         boanet_safebutton.writeBOASafeButton("Apply2", phApply2, "ApplyNow|*|" + dt.Rows[0]["JobTitle"].ToString(), Apply_Click_NoJS, this.Request, this.hApplyNow.Value);

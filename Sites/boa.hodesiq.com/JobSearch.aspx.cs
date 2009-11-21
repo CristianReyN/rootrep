@@ -16,7 +16,6 @@ using System.Text.RegularExpressions;
 public partial class JobSearch : System.Web.UI.Page
 {
     private int RecPerPage = 12;
-    const string USA = "1";
     private string constring = ConfigurationManager.AppSettings["StrUdlFileName"];
     protected void Page_Load(object sender, EventArgs e)
     {
@@ -43,7 +42,7 @@ public partial class JobSearch : System.Web.UI.Page
             PopulateJobFamily();            
           
             BindSearchString();
-            if (Country.SelectedValue == "0")
+            if (Country.SelectedValue == Location.ALL_COUNTRIES)
             {
                 Country.AutoPostBack = false;
                 PnlFilter.Visible = false;
@@ -76,7 +75,7 @@ public partial class JobSearch : System.Web.UI.Page
 
     public void Page_PreRender(object sender, EventArgs e)
     {
-        if (Country.SelectedValue == USA)
+        if (Country.SelectedValue == Location.USA)
         {
             PnlUSJobsContent.Visible = true;
         }
@@ -92,31 +91,96 @@ public partial class JobSearch : System.Web.UI.Page
         ListItem MyListItem;
         string MyValue;
         string[] MyMultiValue = null;
+        
+        MyValue = String.IsNullOrEmpty(Request.QueryString["countryid"]) == false ? Request.QueryString["countryid"] : Location.ALL_COUNTRIES;
+        string country = string.IsNullOrEmpty(Request.QueryString["country"]) == false ? Request.QueryString["country"].ToString().ToLower().Replace(" ","") : "";
 
-        MyValue = String.IsNullOrEmpty(Request.QueryString["countryid"]) == false ? Request.QueryString["countryid"] : "0";
-        MyListItem = Country.Items.FindByValue(MyValue);
-        if (MyListItem != null)
+        if (MyValue != Location.ALL_COUNTRIES)
         {
-            Country.ClearSelection();
-            MyListItem.Selected = true;
+            MyListItem = Country.Items.FindByValue(MyValue);
+            if (MyListItem != null)
+            {
+                Country.ClearSelection();
+                MyListItem.Selected = true;
+            }
+        }
+        else if (country != "")
+        {
+            foreach (ListItem it in Country.Items)
+            {
+                if (it.Text.ToLower().Replace(" ","") == country)
+                {
+                    it.Selected = true;
+                    break;
+                }
+            }
+        }
+        else
+        {
+            Country.SelectedValue = Location.ALL_COUNTRIES;//==0
         }
 
-        if (MyListItem.Value != USA)
+        if (Country.SelectedValue != Location.USA && Country.SelectedValue != Location.ALL_COUNTRIES)
         {
             PopulateInternationalCity();
 
             MyValue = String.IsNullOrEmpty(Request.QueryString["internationalcityid"]) == false ? Request.QueryString["internationalcityid"] : "";
-            MyListItem = InternationalCity.Items.FindByValue(MyValue);
-            if (MyListItem != null)
-                MyListItem.Selected = true;
+            string internationalcity = string.IsNullOrEmpty(Request.QueryString["internationalcity"]) == false ? Request.QueryString["internationalcity"].ToString().ToLower().Replace(" ","") : "";
+
+            if (MyValue != "")
+            {
+                MyListItem = InternationalCity.Items.FindByValue(MyValue);
+                if (MyListItem != null)
+                {
+                    MyListItem.Selected = true;
+                }
+            }
+            else if (internationalcity != "")
+            {
+                foreach (ListItem it in InternationalCity.Items)
+                {
+                    if (it.Text.ToLower().Replace(" ", "") == internationalcity)
+                    {
+                        it.Selected = true;
+                        break;
+                    }
+                }
+            }
+
+            else
+            {
+                InternationalCity.SelectedValue = "-1";
+            }
 
 
             MyValue = String.IsNullOrEmpty(Request.QueryString["jobfamilyid"]) == false ? Request.QueryString["jobfamilyid"] : "";
-            MyListItem = ddlJobFamily.Items.FindByValue(MyValue);
-            if (MyListItem != null)
-                MyListItem.Selected = true;
+            string jobfamily = String.IsNullOrEmpty(Request.QueryString["jobfamily"]) == false ? Request.QueryString["jobfamily"].ToLower().Replace(" ","") : "";
+
+            if (MyValue != "")
+            {
+                MyListItem = ddlJobFamily.Items.FindByValue(MyValue);
+                if (MyListItem != null)
+                {
+                    MyListItem.Selected = true;
+                }
+            }
+            else if (jobfamily != "")
+            {
+                foreach (ListItem it in ddlJobFamily.Items)
+                {
+                    if (it.Text.ToLower().Replace(" ", "") == jobfamily)
+                    {
+                        it.Selected = true;
+                        break;
+                    }
+                }
+            }
+            else
+            {
+                ddlJobFamily.SelectedValue = "-1";
+            }
         }
-        else
+        else if(Country.SelectedValue == Location.USA)
         {
 
             MyValue = String.IsNullOrEmpty(Request.QueryString["stateid"]) == false ? Request.QueryString["stateid"] : "-1";
@@ -176,7 +240,7 @@ public partial class JobSearch : System.Web.UI.Page
 
     public void funAdvSearch(int iFrom)
     {
-        if (Country.SelectedValue == USA)
+        if (Country.SelectedValue == Location.USA)
         {
             funAdvSearchUS(iFrom);
         }
@@ -325,7 +389,7 @@ public partial class JobSearch : System.Web.UI.Page
 
             if (c.HeaderText.ToLower().Replace(" ", "").Contains("jobfamily"))
             {
-                if (Country.SelectedValue == USA)
+                if (Country.SelectedValue == Location.USA)
                 {
                     c.Visible = false;
                 }
@@ -337,7 +401,7 @@ public partial class JobSearch : System.Web.UI.Page
 
             if (c.HeaderText.ToLower().Replace(" ", "").Contains("date"))
             {
-                if (Country.SelectedValue == USA)
+                if (Country.SelectedValue == Location.USA)
                 {
                     c.Visible = true;
                 }
@@ -422,7 +486,7 @@ public partial class JobSearch : System.Web.UI.Page
 
     protected void display_filter(object sender, EventArgs e)
     {
-        if (Country.SelectedValue != "0")
+        if (Country.SelectedValue != Location.ALL_COUNTRIES)
         {          
             PnlFilter.Visible = true;
             BtnSearch.Visible = true;
@@ -462,7 +526,7 @@ public partial class JobSearch : System.Web.UI.Page
         Country.DataBind();      
         dr.Close();
 
-        Country.Items.Add(new ListItem("Select Country", "0"));
+        Country.Items.Add(new ListItem("Select a country", Location.ALL_COUNTRIES));
 
     }
 
@@ -552,7 +616,7 @@ public partial class JobSearch : System.Web.UI.Page
 
     protected void Country_Click(object sender, EventArgs e)
     {
-        if (Country.SelectedValue != USA)
+        if (Country.SelectedValue != Location.USA)
         {
             PopulateInternationalCity();
             PopulateJobFamily();
@@ -571,7 +635,7 @@ public partial class JobSearch : System.Web.UI.Page
         PnlResults.Visible = false;
         UpdateFilter();
 
-        if (Country.SelectedValue == "0")
+        if (Country.SelectedValue == Location.ALL_COUNTRIES)
         {
             PnlFilter.Visible = false;        
             Country.AutoPostBack = false;
@@ -591,7 +655,7 @@ public partial class JobSearch : System.Web.UI.Page
 
     private void UpdateFilter()
     {
-        if (Country.SelectedValue == USA)
+        if (Country.SelectedValue == Location.USA)
         {
             trUsLocation.Visible = true;
             trInternationalLocation.Visible = false;

@@ -29,140 +29,37 @@
                         <a href="emea_europe_card_services_teams.aspx">Learn about Europe Card Services departments</a> 
 
                     </p>
-                <h2>
-                    Global Investment Banking</h2>
-                <p>
-                    Bank of America is committed to building its capital markets and investment banking
-                    businesses in Europe methodically and in specific areas where the company can attain
-                    a leadership position and/or fulfil its global client's needs.</p>
-                <p>
-                    Global Investment Banking focuses on the following industry groups in the region:
-                    Consumer and Retail, Healthcare, Financial Institutions, Global Industries, Natural
-                    Resources, Media, Telecom and Technology and Real Estate & Gaming.</p>
-                <h2>
-                    Global Markets</h2>
-                <p>
-                    Bank of America's Global Markets group supports clients across the world through
-                    close global coordination of the major market presences in New York, Charlotte,
-                    London, Hong Kong and Tokyo. Areas of focus include: foreign exchange, flow and
-                    structured rates, distressed debt, equity derivatives, credit spread trading, government
-                    bond and repos, high yield and international treasury.</p>
-                <p>
-                    The Global Markets group focuses on building Bank of America's strength with European
-                    and U.S. Corporates and Sponsor clients in areas such as asset and liability management,
-                    global structured finance, high grade debt capital markets and loan syndications,
-                    high yield and leveraged loan markets.</p>
-                <h2>
-                    Global Product Solutions</h2>
-                <p>
-                    The Global Product Solutions group is a leading global provider of integrated working
-                    capital management solutions, focused on relationships with targeted clients, primarily:
-                    multinationals, U.S. businesses, financial institutions, the U.S. government and
-                    its agencies.
-                </p>
-                <p>
-                    The group provides solutions for working capital needs through the dedication of
-                    people and technology and the exceptional delivery of full-service transaction capabilities
-                    in treasury management, FX dealing, short-term investments, financing and trade
-                    services.
-                </p>
-                <h2>
-                    Leasing</h2>
-                <p>
-                    Banc of America Leasing Capital Markets International Origination is headquartered
-                    in the U.S. with offices in London and Frankfurt. It is part of Banc of America
-                    Leasing, one of the largest bank-owned global leasing companies, with owned assets
-                    of approximately US$20bn. In addition to acting as investor in many equipment financing
-                    transactions, the group performs a variety of other roles, including lease advisory,
-                    lease arranging and debt/equity syndication services.</p>
-                <h2>
-                    Vendor Finance</h2>
-                <p>
-                    Global Vendor Finance provides sales aid finance programmes for U.S. and European
-                    high technology and other manufacturers including software providers. Facilities
-                    are provided in the UK, Germany, France, the Netherlands and Switzerland through
-                    the purchase or assignment of the vendor's lease, instalment credit, conditional
-                    sale or loan agreements with their end-users. The European group works closely with
-                    its U.S.-based colleagues to provide bespoke solutions to vendors with revenues
-                    in excess of US$50mm.
-                </p>
-                <h2>
-                    Corporate Aircraft Finance</h2>
-                <p>
-                    Corporate Aircraft Finance is the world's largest bank-owned lessor / financier
-                    of corporate aircraft and offers a wide range of loan and lease products (including
-                    off-balance sheet operating leases) for all types of corporate aircraft and helicopters.
-                </p>
-                <h2>
-                    Business Capital</h2>
-                <p>
-                    Bank of America Business Capital helps European companies leverage assets in order
-                    to meet acquisition and working capital needs. It does this by tailoring loan facilities
-                    based on analysis of receivables, inventory and other assets. The group also provides
-                    term loans based on the value of machinery, equipment, property and other owned
-                    assets, providing facilities in any combination of hard currencies. The group's
-                    focus is on UK and European mid-sized corporates with financing requirements in
-                    excess of £10mm and with more than £40mm in annual sales.
-                </p>
-                <h2>
-                    Columbia Management</h2>
-                <p>
-                    Columbia Management is the primary investment division of Bank of America and offers
-                    clients a full range of world-class investment products and services, including
-                    highly competitive short, intermediate and long-term investment products. The group
-                    works with clients to identify their requirements and create a unique investment
-                    solution. The business's current product offering to EMEA clients includes cash,
-                    fixed income, equity and alternative products.</p>
-                <h2>
-                    LaSalle Global Trust Services</h2>
-                <p>
-                    With offices in the U.S. and Europe, LaSalle Global Trust Services is a global market
-                    leader and premier provider of trust and agency services to the capital markets
-                    worldwide. The business provides clients with trust administration, calculation
-                    and paying agency, custody, collateral management, loan administration, bond administration,
-                    investor reporting and security analytics.</p>
-                <h2>
-                    Business Support</h2>
-                <p>
-                    To support our Europe operations, we have world-class business support teams. Joining
-                    Bank of America provides professionals – in areas such as technology, human resources,
-                    finance, legal, communications and compliance – with the opportunity to work as
-                    part of a global team. Click through to find out more details about these global
-                    support areas.</p>
-                <a href="http://careers.bankofamerica.com/technology/" class="ritnavlinks" onfocus="this.className='ritnavlinks-over';"
-                    onblur="this.className='ritnavlinks';" target="_self" title="Technology and Operations">
-                    Technology and Operations</a>
-                <br />
-                <br />
-                <a href="http://careers.bankofamerica.com/humanresources/" class="ritnavlinks" onfocus="this.className='ritnavlinks-over';"
-                    onblur="this.className='ritnavlinks';" target="_self" title="Human Resources ">Human
-                    Resources</a>
-                <br />
-                <br />
-                <a href="http://careers.bankofamerica.com/CFOgroup/" class="ritnavlinks" onfocus="this.className='ritnavlinks-over';"
-                    onblur="this.className='ritnavlinks';" target="_self" title="Finance and Tax ">Finance
-                    and Tax</a>
-                <br />
-                <br />
-                <a href="http://careers.bankofamerica.com/communications/" class="ritnavlinks" onfocus="this.className='ritnavlinks-over';"
-                    onblur="this.className='ritnavlinks';" target="_self" title="Corporate Communications">
-                    Corporate Communications</a>
-                <br />
-                <br />
-                <a href="http://careers.bankofamerica.com/risk/" class="ritnavlinks" onfocus="this.className='ritnavlinks-over';"
-                    onblur="this.className='ritnavlinks';" target="_self" title=" Compliance and Risk ">
-                    Compliance and Risk</a>
-                <br />
-                <br />
-                <span class="text_bold">Audit and Legal</span>
-                <br />
-                <br />
-                <span class="text_bold">Supply Chain Management</span>
-                <br />
-                <br />
+  <h2>Global Corporate &amp; Investment Banking</h2> 
+  <p>Global Corporate &amp; Investment Banking (GCIB) provides large U.S. and global corporations and financial institutions with merger and acquisition (M&amp;A) advice, lending, risk management, treasury and liquidity, and payments management. GCIB also works in close coordination with Global Markets product specialists to provide clients with innovative equity and debt capital raising and financing solutions. </P>
+    <P>Combining a dominant corporate bank and world-class investment bank, Bank of America Merrill Lynch has created a financial powerhouse of deep industry, regional, product and strategic expertise serving clients in over 150 countries through more than 40 offices across the world.</P>
+    <P>As the bank of choice for 99% of the U.S. Fortune 500 and 96% of the Global Fortune 500, Bank of America Merrill Lynch is the place to be for talented professionals who are serious about seizing opportunities to make a difference and helping to shape the future of global banking.</P>
+<h2>Global Wealth &amp; Investment Management</h2>
+<p>Global Wealth &amp; Investment Management (GWIM) provides comprehensive wealth management to affluent and high-net-worth clients. It also provides retirement and benefit plan services, philanthropic management and asset management to individuals and institutions. Clients have access to a range of services offered through the following businesses:</P>
+<ul >
+
+    <li ><b>Columbia Management</b> is the investment management division of Bank of America Corporation. Columbia Management entities furnish investment management services and products for institutional and individual investors.</li>
+    <li><b>Global Client Coverage Group</b> is responsible for the delivery of comprehensive referrals and client coverage capabilities to bring the full power of the combined company to clients.</li>
+    <li><b>Global Investment Solutions</b> is responsible for managing GWIM's financial products, including mutual funds, stocks, bonds, new issue, insurance, alternative investments and structured products.</li>
+    <li><b>GWIM Banking and Direct Investment Division</b> is responsible for the overall strategy and direct management of deposit and credit products &#8211; from credit cards to sophisticated lending products &#8211; across GWIM. It also includes all phone and online channels that serve GWIM clients.</li>
+    <li><b>Merrill Lynch Global Wealth Management</b> provides a high-touch client experience through a network of approximately 15,000 client-facing financial advisors to affluent customers with a personal wealth profile of at least $250,000 of investable assets.</li>
+    <li><b>Private Banking and Investment Group (PBIG)</b> provides tailored solutions to meet the sophisticated needs of ultra high net worth individuals. Clients are served by over 150 Private Wealth Advisor (PWA) teams across the country, along with a team of experts in areas such as investment management, concentrated stock management and intergenerational wealth transfer strategies.</li>
+    <li><b>Retirement &amp; Philanthropic Services (RPS)</b> provides administration, recordkeeping, custodial, communications, consulting and execution services to businesses, organisations, their employees and members, in connection with approximately 40,000 workplace-based benefit plans. The RPS group also includes personal retirement functions.</li>
+    <li><b>U.S. Trust, Bank of America Private Wealth Management</b> provides comprehensive investment and wealth management solutions to wealthy and ultra-wealthy clients with investable assets of more than $3 million. The firm has 4,400 associates serving clients in more than 140 offices in 32 states across the country.</li>
+
+    </ul>
+<h2>Global Markets</h2><P>The Bank of America Merrill Lynch Global Markets group is a premier provider of sales, trading, structuring and advisory services to money managers, hedge funds, pension funds, endowments, financial institutions, governments and corporations around the world.</P>
+<P>The business has a major presence in the Americas, Europe, the Middle East, Africa and the Pacific Rim, serving clients in virtually all countries in these regions.</P>
+<P>Leveraging the company&#8217;s local relationships and broad global capabilities, Bank of America Merrill Lynch provides clients with ideas and market insights, trading services, analytics and new products across a broad spectrum of asset classes - ranging from interest rate and credit products, foreign exchange, real estate and commodities to cash equities and equity-linked - all with the goal of enabling clients to maximise their performance.</li>
+<h2> Research</h2><P>BofA Merrill Lynch Global Research expertise is at the core of the value proposition offered to clients. It is an integral component of the product offerings in the company&#8217;s Global Markets &amp; Investment Banking and Global Wealth Management Client groups. BofA Merrill Lynch Global Research achieves research excellence through the quality of its staff, the breadth and depth of its global resources, and its product commitment.</li>
+<P>The company&#8217;s research analysts provides insightful, objective and decisive research that is designed to enable clients to make informed investment decisions.</P>
             </td>
         </tr>
-    </table>
+    </table><br />
+   
+<a title="Global Technology" href="http://careers.bankofamerica.com/technology/">Global Technology</a><br />
+
+<a title="Corporate Staff & Support" href="http://careers.bankofamerica.com/learnmore/lobcss.asp">Corporate Staff & Support</a>
+
 </asp:Content>
 
 <asp:Content ID="info" runat="server" ContentPlaceHolderID="Info">

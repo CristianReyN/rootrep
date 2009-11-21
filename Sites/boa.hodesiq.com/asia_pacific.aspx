@@ -73,7 +73,10 @@
                                 <td height="26" align="left" valign="middle" style="background-image: url(images/dotted.gif);
                                     background-position: left top; background-repeat: repeat-x;">
                                     <a href="asia.aspx" target="_self" class="ritnavlinks" onfocus="this.className='ritnavlinks-over';"
-                                        onblur="this.className='ritnavlinks';" title="Bank of America Merrill Lynch">Bank of America Merrill Lynch</a></td>
+                                        onblur="this.className='ritnavlinks';" title="Bank of America Merrill Lynch">Bank of America </a></br>
+                                        <a href="asia.aspx" target="_self" class="ritnavlinks" onfocus="this.className='ritnavlinks-over';"
+                                        onblur="this.className='ritnavlinks';" title="Bank of America Merrill Lynch">Merrill Lynch</a></td>
+                            </tr></td>
                             </tr>
                              <tr>
                                 <td height="26" align="left" valign="middle" style="background-image: url(images/dotted.gif);

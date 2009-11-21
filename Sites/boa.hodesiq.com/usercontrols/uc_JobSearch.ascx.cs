@@ -24,7 +24,7 @@ public partial class uc_JobSearch : System.Web.UI.UserControl
         if (!IsPostBack)
         {
             PopulateCountries();
-            Country.SelectedValue = "0";
+            Country.SelectedValue = Location.ALL_COUNTRIES;
             PopulateLocations();
             PopulateCity();
             PopulateJobFamily();
@@ -62,7 +62,7 @@ public partial class uc_JobSearch : System.Web.UI.UserControl
 
     protected void display_filter(object sender, EventArgs e)
     {
-        if (Country.SelectedValue != "0")
+        if (Country.SelectedValue != Location.ALL_COUNTRIES)
         {
             PnlFilter.Visible = true;
             BtnSearch.Visible = true;
@@ -80,7 +80,7 @@ public partial class uc_JobSearch : System.Web.UI.UserControl
 
     public void Page_PreRender(object sender, EventArgs e)
     {
-        if (Country.SelectedValue == USA)
+        if (Country.SelectedValue == Location.USA)
         {
             PnlUSJobsContent.Visible = true;
         }
@@ -171,7 +171,7 @@ public partial class uc_JobSearch : System.Web.UI.UserControl
         Country.DataSource = dr;
         Country.DataBind();
 
-        Country.Items.Add(new ListItem("Select Country","0"));
+        Country.Items.Add(new ListItem("Select a country",Location.ALL_COUNTRIES));
         dr.Close();
        
     }
@@ -274,7 +274,7 @@ public partial class uc_JobSearch : System.Web.UI.UserControl
     protected void Country_Click(object sender, EventArgs e)
     {      
         UpdateControls();
-        if (Country.SelectedValue != USA)
+        if (Country.SelectedValue != Location.USA)
         {
             PopulateInternationalCity();
             PopulateJobFamily();
@@ -290,7 +290,7 @@ public partial class uc_JobSearch : System.Web.UI.UserControl
             keywords.Text = "";
         }
 
-        if (Country.SelectedValue == "0")
+        if (Country.SelectedValue == Location.ALL_COUNTRIES)
         {
             PnlFilter.Visible = false;
             Country.AutoPostBack = false;
@@ -308,7 +308,7 @@ public partial class uc_JobSearch : System.Web.UI.UserControl
 
     protected void UpdateControls()
     {
-        if (Country.SelectedValue == USA)
+        if (Country.SelectedValue == Location.USA)
         {
             trCity.Visible = true;
             trInternationalLocation.Visible = false;

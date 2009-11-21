@@ -100,8 +100,8 @@
 							<td valign="top" align="left" colspan="2">
 								<table border="0" cellspacing="0" cellpadding="0">
 									<tr>	
-										<td align="left" valign="top"> <asp:LinkButton ID="BtnBegin" runat="server" CssClass="ie-btn1" OnClick="display_filter" Width="80px" ToolTip=" Begin Search">Begin&nbsp;Search</asp:LinkButton> </td>
-										<td align="left" valign="top"> <asp:LinkButton ID="BtnSearch" runat="server" CssClass="ie-btn1" OnClick="bsearch_Click" Width="40px" ToolTip=" Begin Search">Search</asp:LinkButton> </td>
+										<td align="left" valign="top"> <asp:LinkButton ID="BtnBegin" runat="server" CssClass="ie-btn1" OnClick="display_filter" Width="40px" ToolTip=" Begin">Begin</asp:LinkButton> </td>
+										<td align="left" valign="top"> <asp:LinkButton ID="BtnSearch" runat="server" CssClass="ie-btn1" OnClick="bsearch_Click" Width="80px" ToolTip=" Begin Search">Begin Search</asp:LinkButton> </td>
 										<td width="10">&nbsp;</td>
 										<td align="left" valign="top"><asp:HyperLink runat="server" ID="lnkJobCart" NavigateUrl="~/jobcart.aspx" Text="View job cart" CssClass="p" ToolTip="View job cart" Visible="false" /></td>
 									</tr>
@@ -112,7 +112,7 @@
 					</table>
 					<br />
 					<asp:Panel ID="PnlUSJobsContent" runat="server">					
-					<a href="../overview/manage_your_profile.asp" target="_blank" class="ritnavlinks" onblur="this.className='p';" onfocus="this.className='p-over';" >Manage Your Profile</a><BR/>
-					Create or update your existing candidate profile.<br /><br />
+					<a href="../overview/manage_your_profile.asp" target="_blank" class="ritnavlinks" onblur="this.className='p';" onfocus="this.className='p-over';" >Manage Your Profile</a><BR/><br />
+					
 					Bank of America associates should access the <a href="http://www.bankofamerica.com/careers/index.cfm?template=jobs_interstitial" id="ctl00_cphmain_lnkInternal" title="Internal Jobs Database" class="p" onblur="this.className='p';" onfocus="this.className='p-over';">internal jobs database</a><br /><br />					
 					</asp:Panel></td></tr></table>

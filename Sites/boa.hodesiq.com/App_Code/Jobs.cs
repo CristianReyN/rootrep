@@ -24,6 +24,8 @@ public class Jobs
 
     string Sql;
 	private string constring;
+    const string USA = "1";
+
     public Jobs()
     {
 		constring = ConfigurationManager.AppSettings["StrUdlFileName"];
@@ -159,8 +161,23 @@ public class Jobs
 		}
 
     }
+
+     public DataTable JobDetails(string JobId,string CountryId)
+    {
+        if (CountryId != USA)
+        {
+            return JobDetailsInternational(JobId);
+        }
+        else
+        {
+            return JobDetails(JobId);    
+        }
+     }
+
+
     public DataTable JobDetails(string JobId)
     {
+        
 		OleDbConnection con = new OleDbConnection(constring);
 		con.Open();
 		try
@@ -190,7 +207,7 @@ public class Jobs
         con.Open();
         try
         {
-            OleDbCommand cmd = new OleDbCommand("Sp_Career_Sites_JobDetails", con);
+            OleDbCommand cmd = new OleDbCommand("p_Career_Sites_JobDetails_International", con);
             cmd.CommandType = CommandType.StoredProcedure;
             cmd.Parameters.AddWithValue("@JobId", JobId);
             OleDbDataAdapter da = new OleDbDataAdapter(cmd);
@@ -274,6 +291,7 @@ public class Jobs
 			con.Close();
 		}
     }
+  
     public DataView AddJobCart(string JobCartID, string JobID)
     {
 		OleDbConnection con = new OleDbConnection(constring);

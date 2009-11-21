@@ -17,22 +17,7 @@
     <table summary="Global Careers - Canada" width="366" border="0" cellspacing="0" cellpadding="0">
         <tr>
             <td width="366" align="left" valign="top">
-                <p>
-                    La Banque MBNA Canada, affiliée à Bank of America, est devenue la plus importante
-                    émettrice de cartes MasterCard au Canada ainsi que la plus importante prestataire
-                    de programmes de cartes de crédit d’affinité et de promotion conjointe. Les cartes
-                    de crédit et les services de Bank of America sont recommandés par près de 500 organismes
-                    mutuels, associations sportives et établissements d’enseignement canadiens.</p>
-                <p>
-                    Bank of America fournit des produits et services financiers dans tout le Canada
-                    à partir de son siège social situé à Ottawa. Les relations avec les communautés
-                    développées par Bank of America et ses programmes de dons témoignent depuis longtemps
-                    déjà de son fidèle engagement à aider les autres. En soutenant et en encourageant
-                    les initiatives et la participation positives au sein de la communauté, Bank of
-                    America cherche avant tout à améliorer la qualité de vie des gens dans les communautés
-                    où ses associés vivent et travaillent. Bank of America recrute des personnes de
-                    talent et aux antécédents variés, qui se consacrent à fournir aux clients les meilleurs
-                    produits, assortis d’un service d’une qualité exceptionnelle.</p>
+               Bank of America reconnaît la valeur et l’importance d’implanter une forte présence au Canada – et la banque offre des produits et services financiers dans tout le pays. Les entités affiliées de Bank of America au Canada comprennent la Banque MBNA Canada, Bank of America National Association et Merrill Lynch Canada Inc. Nous embauchons des personnes de talent ayant des antécédents variés, qui tiennent à fournir aux clients de Bank of America les meilleurs produits et services.
                 <div id="retuntocanadamap">
                 </div>
                 <p>

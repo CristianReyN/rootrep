@@ -16,26 +16,22 @@
     <table summary="" width="366" border="0" cellspacing="0" cellpadding="0">
         <tr>
             <td width="366" align="left" valign="top">
-                <p>
-                    Chez Bank of America, nous favorisons un style de vie équilibré en offrant les avantages
-                    suivants :</p>
-                <ul>
-                    <li>Régime de prestations de maladie et de retraite en vigueur dès votre premier jour
-                        d’emploi </li>
-                    <li>Postes de premier échelon offrant trois semaines de vacances la première année </li>
-                    <li>Programmes de réductions destinés aux employés </li>
-                    <li>Incitatifs et programmes de primes basés sur le rendement individuel </li>
-                    <li>Centre de conditionnement physique sur place</li>
-                    <li>Café-bistrot d’avant-garde. </li>
-                    <li>Stationnement gratuit </li>
-                </ul>
-                <p>
-                    Ces avantages peuvent changer à la discrétion de
-                    <br />
-                    Bank of America.</p>
-                <p>
-                    <br />
-                </p>
+               <h2>AVANTAGES</h2>
+
+<p>Bank of America offre des ensembles complets d’avantages sociaux à ses associés conformément aux pratiques de chaque pays. Notre ensemble de rémunération et d’avantages sociaux a été conçu pour que nous restions concurrentiels au sein du marché et que nous puissions attirer, garder et récompenser les associés en quête d’excellence. Voici des exemples des avantages que nous offrons :</p>
+<ul>
+
+<li>Régime d’assurance maladie et dentaire en vigueur dès le premier jour d’emploi </li>
+<li>Assurance vie, décès accidentel et mutilation et prestations d’invalidité </li>
+<li>Régimes de prestations de retraite </li>
+<li>Ensemble complet de congés payés (y compris des congés de paternité) </li>
+<li>Postes de premier échelon offrant trois semaines de vacances la première année</li>
+<li>Programmes de réductions destinées aux employés</li>
+<li>Centre de conditionnement physique sur place (bureaux d’Ottawa seulement) </li>
+<li>Café-bistrots pour les associés (bureaux d’Ottawa seulement) </li></ul>
+<p>En plus d’une rémunération et d’avantages de base des plus intéressants, les associés de Bank of America sont admissibles à participer à nos programmes incitatifs, qui forment une partie importante de notre ensemble de rémunération globale.</p>
+<p>Ces avantages peuvent être modifiés de temps à autre par Bank of America.</p>
+
             </td>
         </tr>
     </table>

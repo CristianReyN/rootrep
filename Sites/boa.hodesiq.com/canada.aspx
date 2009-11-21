@@ -16,23 +16,9 @@
     <table summary="Global Careers - Canada" width="366" border="0" cellspacing="0" cellpadding="0">
         <tr>
             <td width="366" align="left" valign="top">
-                <p>
-                    MBNA Canada Bank, a Bank of America affiliate, has become the largest MasterCard
-                    issuer in Canada as well as the leading provider of co-branded and affinity credit
-                    card programs.
-                    <br />
-                    Bank of America credit cards and services are endorsed by nearly 500 Canadian membership
-                    organizations, sports associations, and educational institutions.
-                </p>
-                <p>
-                    Bank of America provides financial products and services throughout Canada from
-                    our headquarters in Ottawa. Our community relations and donations programs continually
-                    reaffirm our longstanding commitment to assisting others. By supporting and encouraging
-                    positive community involvement and initiatives, Bank of America seeks to improve
-                    the quality of life for people in communities where our associates live and work.
-                    We hire talented people from diverse backgrounds who are committed to providing
-                    the very best products and services to Bank of America customers.
-                </p>
+               <div> 
+    <p>Bank of America recognizes and embraces the importance of building a strong presence in Canada &ndash; and the bank provides financial products and services throughout the country. Bank of America&rsquo;s affiliated entities in Canada include MBNA Canada Bank, Bank of America National Association and Merrill Lynch Canada Inc. We hire talented people from diverse backgrounds who are committed to providing the very best products and services to Bank of America customers.</p> 
+     </div> 
          
                 <p>
                     <a href="ada_canada.aspx#MapCanada" class="ada2adalink" onfocus="this.className='ada2adalink-over';"
