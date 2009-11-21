@@ -273,6 +273,7 @@ public partial class CampusEvents : System.Web.UI.Page
 
                         td = new TableCell();
                         td.ColumnSpan = 1;
+                        td.CssClass = "tdData";
                         td.Width = new Unit(tdWidth, UnitType.Percentage);
                         string eventTxt = "<b class=\"tdDataHeader\">" + anEvent.EventType + "</b><br/>";
                         string fultime = "";
