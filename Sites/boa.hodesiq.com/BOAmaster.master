@@ -22,37 +22,48 @@ function hover(ref, classRef) { eval(ref).className = classRef; }
 <script language="javascript" type="text/javascript">
 //<!--
     examineFontSize("body");
+	function hideFlash(){if(document.getElementById("flash_in")){
+	document.getElementById("flash_in").innerHTML = '';
+	document.getElementById("flash_in").style.display = 'none';
+}}
 //-->
 </script>
+<table cellpadding="0" cellspacing="0" border="0" summary=""><tr><td>
+<script type="text/javascript">
+<!--
+document.write('<a class="auraltext" href="JavaScript: hideFlash();" onFocus="hover(this,\'show-tab\'); this.focus()"" onblur="hover(this,\'auraltext\');" title="Stop Audio">Stop Audio</a>');
+//-->
+</script>
+</td></tr></table>
 <table width="750" height="100%" cellpadding="0" cellspacing="0" border="0" summary="">
 <tr>
 	<td valign="top" colspan="4" height="71">
 		<table width="750" border="0" cellspacing="0" cellpadding="0" summary="">
 			<tr>
-				<td width="262" valign="top"><a name="top"></a><img src="images/clear.gif" width="9" height="51" alt="" style="border-top-style: none; border-right-style: none; border-left-style: none; border-bottom-style: none;" /><a href="http://www.bankofamerica.com" title="Bank of America  Higher Standards home page"><img src="images/mhd_reg_logo.gif" width="250" height="69" alt="Bank of America Higher Standards home page" style="border-top-style: none; border-right-style: none; border-left-style: none; border-bottom-style: none;" /></a><a href="http://www.bankofamerica.com/help/index.cfm?template=sitemap.cfm" title="Go to site map."><img src="images/clear.gif" width="1" height="69" alt="Go to site map." style="border-top-style: none; border-right-style: none; border-left-style: none; border-bottom-style: none;" /></a></td>
-				<td width="232"><a href="ada/overview.asp" title="Overview"><img src="images/clear.gif" width="1" height="1" alt="Overview" style="border-top-style: none; border-right-style: none; border-left-style: none; border-bottom-style: none;" /></a><a href="ada/learnmore.asp" title="Learn More"><img src="images/clear.gif" width="1" height="1" alt="Learn More" style="border-top-style: none; border-right-style: none; border-left-style: none; border-bottom-style: none;" /></a><a href="ada/aresoftalent.asp" title="Areas of Talent"><img src="images/clear.gif" width="1" height="1" alt="Areas of Talent" style="border-top-style: none; border-right-style: none; border-left-style: none; border-bottom-style: none;" /></a><a href="jobsearch.aspx" title="Job Search"><img src="images/clear.gif" width="1" height="1" alt="Job Search" style="border-top-style: none; border-right-style: none; border-left-style: none; border-bottom-style: none;" /></a><a href="ada/staffingevents.asp" title="Staffing Events"><img src="images/clear.gif" width="1" height="1" alt="Staffing Events" style="border-top-style: none; border-right-style: none; border-left-style: none; border-bottom-style: none;" /></a><a href="#skipnav" title="Skip global navigational links."><img src="images/clear.gif" width="1" height="51" alt="Skip global navigational links." style="border-top-style: none; border-right-style: none; border-left-style: none; border-bottom-style: none;" /></a></td>
+				<td width="262" valign="top"><a name="top"></a><a href="#skipmaincontent" title="Skip To Main Content."><img src="images/clear.gif" width="1" height="69" alt="Skip To Main Content." border="0" /></a><img src="images/clear.gif" width="10" height="69" alt="" border="0" /><a href="http://www.bankofamerica.com" title="Bank of America  Higher Standards home page"><img src="images/mhd_reg_logo.gif" width="250" height="69" alt="Bank of America Higher Standards home page" border="0" /></a><a href="http://www.bankofamerica.com/help/index.cfm?template=sitemap.cfm" title="Go to site map."><img src="images/clear.gif" width="1" height="69" alt="Go to site map." border="0" /></a></td>
+				<td width="232"><a href="#skipnav" title="Skip global navigational links."><img src="images/clear.gif" width="1" height="69" alt="Skip global navigational links." border="0" /></a></td>
 				<td width="256" valign="bottom">
 					<table width="100%" border="0" cellspacing="0" cellpadding="0" summary="">
 						<tr>
 							<td colspan="2" valign="bottom" align="right" nowrap>
 <a href="http://www.bankofamerica.com/index.cfm?page=about" class="mh-link1" title="Home" onfocus="this.className='mh-link1-over';" onblur="this.className='mh-link1';">Home</a>&#160;<span class="linksep1">&#8226;</span>&#160;<a href="http://www.bankofamerica.com/findit/locator.cfm" class="mh-link1" title="Locations" onfocus="this.className='mh-link1-over';" onblur="this.className='mh-link1';">Locations</a>&#160;<span class="linksep1">&#8226;</span>&#160;<a href="http://www.bankofamerica.com/careers/index.cfm?template=contact_us" class="mh-link1" title="Contact Us" onfocus="this.className='mh-link1-over';" onblur="this.className='mh-link1';">Contact Us</a>&#160;<span class="linksep1">&#8226;</span>&#160;<a href="http://www.bankofamerica.com/help" class="mh-link1" title="Help" onfocus="this.className='mh-link1-over';" onblur="this.className='mh-link1';">Help</a>&#160;<span class="linksep1">&#8226;</span>&#160;<a href="http://www.bankofamerica.com/signin/" class="mh-link2" title="Sign In" onfocus="this.className='mh-link2-over';" onblur="this.className='mh-link2';">Sign In</a></td>
 						</tr>
-						<tr><td colspan="2"><img src="images/clear.gif" width="1" height="3" alt="" style="border-top-style: none; border-right-style: none; border-left-style: none; border-bottom-style: none;" /></td></tr>
+						<tr><td colspan="2"><img src="images/clear.gif" width="1" height="3" alt="" border="0" /></td></tr>
 						<tr>
-							<td width="5"><img src="images/mhd_5x5_search_corner.gif" alt="" width="5" height="5" style="border-top-style: none; border-right-style: none; border-left-style: none; border-bottom-style: none;" /></td>
-							<td width="100%" class="mh-hline"><img src="images/clear.gif" width="1" height="5" alt="" style="border-top-style: none; border-right-style: none; border-left-style: none; border-bottom-style: none;" /></td>
+							<td width="5"><img src="images/mhd_5x5_search_corner.gif" alt="" width="5" height="5" border="0" /></td>
+							<td width="100%" class="mh-hline"><img src="images/clear.gif" width="1" height="5" alt="" border="0" /></td>
 						</tr>
 						<tr align="right">
-							<td width="5" class="mh-vline"><img src="images/clear.gif" width="5" height="1" alt="" style="border-top-style: none; border-right-style: none; border-left-style: none; border-bottom-style: none;" /></td>
+							<td width="5" class="mh-vline"><img src="images/clear.gif" width="5" height="1" alt="" border="0" /></td>
 							<td width="100%" class="mh-hline-bkg" valign="bottom">
 <form method="post" action="http://www.bankofamerica.com/search/" style="margin: 0px;" name="SiteSearchForm" target="_parent">
 <input name="ui_mode" type="hidden" value="question">
-								<table width="100%" style="border-top-style: none; border-right-style: none; border-left-style: none; border-bottom-style: none;" cellspacing="0" cellpadding="0" summary="SearchBox">
+								<table width="100%" border="0" cellspacing="0" cellpadding="0" summary="SearchBox">
 									<tr>
-										<td width="10"><img src="images/clear.gif" width="10" height="0" alt="" style="border-top-style: none; border-right-style: none; border-left-style: none; border-bottom-style: none;" /><br><span class="ada-search"><label for="question_box" class="ada-search" style="display: none;">Search</label></span></td>
+										<td width="10"><img src="images/clear.gif" width="10" height="0" alt="" border="0" /><br><span class="ada-search"><label for="question_box" class="ada-search" style="display: none;">Search</label></span></td>
 										<td width="100%" style="padding: 0px;">
 <input type="text" maxlength="75" class="searchbox" style="width: 100%;" id="question_box" name="question_box" value="" alt="Question or phrase to search." title="Get answers fast. Type in a question or phrase."></td>
-										<td width="10"><img src="images/clear.gif" width="10" height="0" alt="" style="border-top-style: none; border-right-style: none; border-left-style: none; border-bottom-style: none;" /></td>
+										<td width="10"><img src="images/clear.gif" width="10" height="0" alt="" border="0" /></td>
 										<td valign="top" nowrap>
 <script language="JavaScript1.1" type="text/javascript">
 <!--
@@ -61,7 +72,7 @@ create_button("Search","javascript:submit_search();","btn1",null,null,null,null)
 </script>
 <noscript><input type="submit" name="Search" value="Search" title="Search" alt="Search" class="btn1"></noscript>
 										</td>
-										<td width="10"><img src="images/clear.gif" width="10" height="0" alt="" style="border-top-style: none; border-right-style: none; border-left-style: none; border-bottom-style: none;" /></td>
+										<td width="10"><img src="images/clear.gif" width="10" height="0" alt="" border="0" /></td>
 									</tr>
 								</table>
 </form>
@@ -71,42 +82,43 @@ create_button("Search","javascript:submit_search();","btn1",null,null,null,null)
 				</td>
 			</tr>
 			<tr>
-				<td colspan="2" class="mh-hline"><img src="images/clear.gif" width="1" height="5" alt="" style="border-top-style: none; border-right-style: none; border-left-style: none; border-bottom-style: none;" /></td>
-    			<td class="mh-hline-bkg"><img src="images/clear.gif" width="1" height="5" alt="" style="border-top-style: none; border-right-style: none; border-left-style: none; border-bottom-style: none;" /></td>
+				<td colspan="2" class="mh-hline"><img src="images/clear.gif" width="1" height="5" alt="" border="0" /></td>
+    			<td class="mh-hline-bkg"><img src="images/clear.gif" width="1" height="5" alt="" border="0" /></td>
 			</tr>
 		</table>
 	</td>
 </tr>
 <tr>
 	<td colspan="4" style="background: #d4100a;" width="750" valign="top">
-<img src="images/careers.gif" width="76" height="25" alt="Bank of America | Career" title="Bank of America | Career" style="border-top-style: none; border-right-style: none; border-left-style: none; border-bottom-style: none;"></td>
+<img src="images/careers.gif" width="76" height="25" alt="Bank of America | Career" title="Bank of America | Career" border="0"></td>
 </tr>
 <tr>
-	<td width="160" style="background: #cadceb;"><img src="images/clear.gif" width="160" height="1" alt="" style="border-top-style: none; border-right-style: none; border-left-style: none; border-bottom-style: none;"></td>
-	<td width="1"><img src="images/clear.gif" width="1" height="1" alt="" style="border-top-style: none; border-right-style: none; border-left-style: none; border-bottom-style: none;"></td>
-	<td width="11"><img src="images/clear.gif" width="11" height="1" alt="" style="border-top-style: none; border-right-style: none; border-left-style: none; border-bottom-style: none;"></td>
-	<td width="578"><a name="skipnav"></a><a href="#skipmaincontent" title="Skip To Main Content."><img src="images/clear.gif" width="1" height="1" alt="Skip To Main Content." style="border-top-style: none; border-right-style: none; border-left-style: none; border-bottom-style: none;" /></a></td>
+	<td width="160" style="background: #cadceb;"><img src="images/clear.gif" width="160" height="1" alt="" border="0"></td>
+	<td width="1"><img src="images/clear.gif" width="1" height="1" alt="" border="0"></td>
+	<td width="11"><img src="images/clear.gif" width="11" height="1" alt="" border="0"></td>
+	<td width="578"><a name="skipnav"></a></td>
 </tr>
 <tr valign="top">
-	<td id="tdtbnav" width="160" valign="top" align="center"><img src="images/clear.gif" width="160" height="1" alt="" style="border-top-style: none; border-right-style: none; border-left-style: none; border-bottom-style: none;"><br>
+	<td id="tdtbnav" width="160" valign="top" align="center"><img src="images/clear.gif" width="160" height="1" alt="" border="0"><br>
 		<table id="tbnav" width="160" cellpadding="0" cellspacing="0" border="0" summary="Site Navigation">
-			<tr valign="top" style="background: #cadceb;"><td valign="middle" height="10"><img src="images/clear.gif" width="154" height="10" alt="" style="border-top-style: none; border-right-style: none; border-left-style: none; border-bottom-style: none;"></td></tr>
-			<tr valign="top" style="background: #ffffff;"><td valign="middle"><img src="images/white.gif" width="154" height="1" alt="" style="border-top-style: none; border-right-style: none; border-left-style: none; border-bottom-style: none;"></td></tr>
+			<tr valign="top" style="background: #cadceb;"><td valign="middle" height="10"><img src="images/clear.gif" width="154" height="10" alt="" border="0"></td></tr>
+			<tr valign="top" style="background: #ffffff;"><td valign="middle"><img src="images/white.gif" width="154" height="1" alt="" border="0"></td></tr>
 <!-- Header -->
 <!-- Left Nav -->
-			<tr valign="top"><td valign="middle" style="background: #cadceb; padding: 0px 6px 0px 6px;"><a class="g" href="../overview/overview.asp" id="overview" title="Overview" onfocus="this.className='g-over';" onblur="this.className='g';">Overview</a><a href="" id="overviewm"></td></tr>
-			<tr valign="top" style="background: #ffffff;"><td><img src="../images/white.gif" width="154" height="1" alt="" style="border-top-style: none; border-right-style: none; border-left-style: none; border-bottom-style: none;"></td></tr>
-			<tr valign="top"><td id="tdnavr" valign="middle" style="background: #cadceb; padding: 0px 6px 0px 6px;"onmouseover="popnavr(true);" onmouseout="popnavr(false);"><a class="g" href="../learnmore/learnmore.asp" id="learnmore" title="Related Information" onfocus="this.className='g-over'; popnavr(true);" onblur="this.className='g'; popnavr(false);">Related Information</a><a href="" id="anavrm"></td></tr>
-			<tr valign="top" style="background: #ffffff;"><td><img src="../images/white.gif" width="154" height="1" alt="" style="border-top-style: none; border-right-style: none; border-left-style: none; border-bottom-style: none;"></td></tr>
-			<tr valign="top"><td id="tdnav" valign="middle" style="background: #cadceb; padding: 0px 6px 0px 6px;" onmouseover="popnav(true);" onmouseout="popnav(false);"><a href="" id="anavm"></a><a class="g" href="../areasoftalent/areasoftalent.asp" id="areasoftalent" title="Areas of Talent" onfocus="this.className='g-over'; popnav(true);" onblur="this.className='g'; popnav(false);">Areas of Talent</a></td></tr>
-			<tr valign="top" style="background: #ffffff;"><td><img src="../images/white.gif" width="154" height="1" alt="" style="border-top-style: none; border-right-style: none; border-left-style: none; border-bottom-style: none;"></td></tr>
-			<tr valign="top"><td style="background: #cadceb; padding: 0px 6px 0px 6px;"><a href="" id="jsearchd"></a><a class="g" href="jobsearch.aspx" id="jsearch" title="Job Search" onfocus="this.className='g-over';" onblur="this.className='g';">Job Search</a></td></tr>
-			<tr valign="top" style="background: #ffffff;"><td><img src="../images/white.gif" width="154" height="1" alt="" style="border-top-style: none; border-right-style: none; border-left-style: none; border-bottom-style: none;"></td></tr>
-			<tr valign="top"><td style="background: #cadceb; padding: 0px 6px 0px 6px;"><a class="g" href="../staffingevents/staffingevents.asp" title="Staffing Events" onfocus="this.className='g-over';" onblur="this.className='g';">Staffing Events</a></td></tr>
-			<tr valign="top" style="background: #ffffff;"><td><img src="../images/white.gif" width="154" height="1" alt="" style="border-top-style: none; border-right-style: none; border-left-style: none; border-bottom-style: none;"></td></tr>
+			<tr valign="top"><td valign="middle" style="background: #cadceb; padding: 0px 6px 0px 6px;"><a class="g" href="overview/overview.asp" id="overview" title="Overview" onfocus="this.className='g-over';" onblur="this.className='g';">Overview</a><a name="lnav1" id="overviewm"></a></td></tr>
+			<tr valign="top" style="background: #ffffff;"><td><img src="images/white.gif" width="154" height="1" alt="" border="0"></td></tr>
+			<tr valign="top"><td id="tdnavr" valign="middle" style="background: #cadceb; padding: 0px 6px 0px 6px;"onmouseover="popnavr(true);" onmouseout="popnavr(false);"><a class="g" href="learnmore/learnmore.asp" id="learnmore" title="Related Information" onfocus="this.className='g-over'; popnavr(true);" onblur="this.className='g'; popnavr(false);">Related Information</a><a name="lnav2" id="anavrm"></a></td></tr>
+			<tr valign="top" style="background: #ffffff;"><td><img src="images/white.gif" width="154" height="1" alt="" border="0"></td></tr>
+			<tr valign="top"><td id="tdnav" valign="middle" style="background: #cadceb; padding: 0px 6px 0px 6px;" onmouseover="popnav(true);" onmouseout="popnav(false);"><a name="lnav3" id="anavm"></a><a class="g" href="areasoftalent/areasoftalent.asp" id="areasoftalent" title="Areas of Talent" onfocus="this.className='g-over'; popnav(true);" onblur="this.className='g'; popnav(false);">Areas of Talent</a></td></tr>
+			<tr valign="top" style="background: #ffffff;"><td><img src="images/white.gif" width="154" height="1" alt="" border="0"></td></tr>
+			<tr valign="top"><td style="background: #cadceb; padding: 0px 6px 0px 6px;"><a name="lnav4" id="jsearchd"></a><a class="g" href="jobsearch.aspx" id="jsearch" title="Job Search" onfocus="this.className='g-over';" onblur="this.className='g';">Job Search</a></td></tr>
+			<tr valign="top" style="background: #ffffff;"><td><img src="images/white.gif" width="154" height="1" alt="" border="0"></td></tr>
+			<tr valign="top"><td style="background: #cadceb; padding: 0px 6px 0px 6px;"><a class="g" href="staffingevents/staffingevents.asp" title="Staffing Events" onfocus="this.className='g-over';" onblur="this.className='g';">Staffing Events</a></td></tr>
+			<tr valign="top" style="background: #ffffff;"><td><img src="images/white.gif" width="154" height="1" alt="" border="0"></td></tr>
 <!-- Left Nav -->
-			<tr valign="top"><td style="background: #cadceb;" height="300" valign="top" align="center">
-<a href="jobsearch.asp" title="Bank of America | Career | Job Search" class="g" onfocus="this.className='g-over';" onblur="this.className='g';">Text Only Version</a>&nbsp;&nbsp;<br>
+			<tr valign="top"><td style="background: #cadceb;" height="50" valign="bottom" align="right"><img src="images/clear.gif" width="154" height="1" alt="" border="0"><br>
+			</td></tr>
+			<tr valign="top"><td style="background: #ececec;" height="300" align="center">
 <script language="JavaScript1.2" type="text/javascript">
 //<!--
 requiredMajorVersion = 8;
@@ -116,6 +128,7 @@ function hover(ref, classRef) { eval(ref).className = classRef; }
 
 if ( hasRequestedVersion ) {
    document.write('<a class="auraltext" href="#skipmaincontent" onFocus="hover(this,\'show-tab\'); this.focus()" onblur="hover(this,\'auraltext\')">Skip Flash content</a>');
+   document.write('<div id="flash_in" style="display: inline; width: auto; height: auto;">');
    document.write('<object tabindex="0" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0" width="152" height="300" id="faq" align="middle" title="Frequently Asked Questions Animation">');
    document.write('<param name="allowScriptAccess" value="sameDomain" />');
    document.write('<param name="movie" value="faq_jsa.swf" />');
@@ -124,6 +137,7 @@ if ( hasRequestedVersion ) {
    document.write('<param name="bgcolor" value="#ffffff" />');
    document.write('<embed src="faq_jsa.swf" wmode="transparent" quality="high" bgcolor="#ffffff" width="152" height="300" name="faq" align="middle" allowScriptAccess="sameDomain" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" />');
    document.write('</object>');
+   document.write('</div>');
 } else {
    document.write('<div style="position: relative; width: 152; height: 300;">');
    document.write('<a class="g" onfocus="this.className=\'g-over\';" onblur="this.className=\'g\';" href="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash" title="This page requires Adobe Flash Player version '+requiredMajorVersion+'. Please download latest version.">This page requires Adobe Flash Player version '+requiredMajorVersion+'. Please download latest version.</a><br>'); 
@@ -142,12 +156,11 @@ if ( hasRequestedVersion ) {
 </object>
 </noscript>
 			</td></tr>
-			<tr valign="top"><td style="background: #ececec;" height="50"><img src="../images/clear.gif" width="154" height="1" alt="" style="border-top-style: none; border-right-style: none; border-left-style: none; border-bottom-style: none;"></td></tr>
-			<tr valign="top"><td height="50"><img src="../images/clear.gif" width="154" height="1" alt="" style="border-top-style: none; border-right-style: none; border-left-style: none; border-bottom-style: none;"></td></tr>
+			<tr valign="top"><td height="50"><img src="images/clear.gif" width="154" height="1" alt="" border="0"></td></tr>
 		</table>
 	</td>
-	<td width="1"><img src="../images/clear.gif" width="1" height="1" alt="" style="border-top-style: none; border-right-style: none; border-left-style: none; border-bottom-style: none;"></td>
-	<td width="11" class="divl"><img src="../images/clear.gif" width="10" height="1" alt="" style="border-top-style: none; border-right-style: none; border-left-style: none; border-bottom-style: none;"></td>
+	<td width="1"><img src="images/clear.gif" width="1" height="1" alt="" border="0"></td>
+	<td width="11" class="divl"><img src="images/clear.gif" width="10" height="1" alt="" border="0"></td>
 	<td valign="top" width="578" height="100%">
 						
 						
@@ -179,17 +192,17 @@ if ( hasRequestedVersion ) {
 <!-- Footer -->
 <div class="hs-footer">
 <table width="749" border="0" cellspacing="0" cellpadding="0" summary="">
-	<tr><td colspan="3" style="background: #000000;"><img src="../images/clear.gif" width="1" height="1" alt="" style="border-top-style: none; border-right-style: none; border-left-style: none; border-bottom-style: none;" /></td></tr>
-	<tr><td colspan="3"><img src="../images/clear.gif" width="1" height="3" alt="" style="border-top-style: none; border-right-style: none; border-left-style: none; border-bottom-style: none;" /></td></tr>
+	<tr><td colspan="3" style="background: #000000;"><img src="images/clear.gif" width="1" height="1" alt="" border="0" /></td></tr>
+	<tr><td colspan="3"><img src="images/clear.gif" width="1" height="3" alt="" border="0" /></td></tr>
 	<tr valign="top">
 
-		<td width="8"><img src="../images/clear.gif" width="8" height="1" alt="" style="border-top-style: none; border-right-style: none; border-left-style: none; border-bottom-style: none;" /></td>
+		<td width="8"><img src="images/clear.gif" width="8" height="1" alt="" border="0" /></td>
 		<td valign="top"><a href="http://www.bankofamerica.com/privacy/" class="ftrlnk" onfocus="this.className='ftrlnk-over';" onblur="this.className='ftrlnk';" title="Privacy &amp; Security">Privacy &amp; Security</a>&nbsp;<span class="ftrtxt">|</span>&nbsp;<a href="http://www.bankofamerica.com/careers/" class="ftrlnk" onfocus="this.className='ftrlnk-over';" onblur="this.className='ftrlnk';" title="Careers">Careers</a>&nbsp;<span class="ftrtxt">|</span>&nbsp;<a href="http://www.bankofamerica.com/help/index.cfm?template=sitemap.cfm" class="ftrlnk" onfocus="this.className='ftrlnk-over';" onblur="this.className='ftrlnk';" title="Site Map">Site Map</a><br>
-		<img src="../images/clear.gif" width="1" height="19" alt="" style="border-top-style: none; border-right-style: none; border-left-style: none; border-bottom-style: none;" />
+		<img src="images/clear.gif" width="1" height="19" alt="" border="0" />
 		<div class="ftrtxt2">Bank of America, N.A. Member FDIC.
-		<a href="http://www.bankofamerica.com/help/equalhousing_popup.cfm" onclick="javascript:window.open('http://www.bankofamerica.com/help/equalhousing_popup.cfm','newwin','width=640,height=371,scrollbars=yes,resizable=yes,left=35,top=161'); return false;" target="_blank" class="ftrlnk" onfocus="this.className='ftrlnk-over';" onblur="this.className='ftrlnk';" title="Link opens Equal Housing Lender pop-up window">Equal Housing Lender</a><a href="http://www.bankofamerica.com/help/equalhousing_popup.cfm" onclick="javascript:window.open('http://www.bankofamerica.com/help/equalhousing_popup.cfm','newwin','width=640,height=371,scrollbars=yes,resizable=yes,left=35,top=161'); return false;" target="_blank" title="Link opens Equal Housing Lender pop-up window"><img src="../images/house.gif" width="14" height="9" hspace="3" alt="Link opens Equal Housing Lender pop-up window" style="border-top-style: none; border-right-style: none; border-left-style: none; border-bottom-style: none;"></a><br>
+		<a href="http://www.bankofamerica.com/help/equalhousing_popup.cfm" onclick="javascript:window.open('http://www.bankofamerica.com/help/equalhousing_popup.cfm','newwin','width=640,height=371,scrollbars=yes,resizable=yes,left=35,top=161'); return false;" target="_blank" class="ftrlnk" onfocus="this.className='ftrlnk-over';" onblur="this.className='ftrlnk';" title="Link opens Equal Housing Lender pop-up window">Equal Housing Lender</a><a href="http://www.bankofamerica.com/help/equalhousing_popup.cfm" onclick="javascript:window.open('http://www.bankofamerica.com/help/equalhousing_popup.cfm','newwin','width=640,height=371,scrollbars=yes,resizable=yes,left=35,top=161'); return false;" target="_blank" title="Link opens Equal Housing Lender pop-up window"><img src="images/house.gif" width="14" height="9" hspace="3" alt="Link opens Equal Housing Lender pop-up window" border="0"></a><br>
 		&copy; 2006 Bank of America Corporation. All rights reserved.</div><br></td>
-		<td align="right" width="131"><a href="http://www.bankofamerica.com/sponsorships/" title="Official Sponsor 2004-2008 U.S. Olympic Teams"><img src="images/foot_olympic.gif" alt="Official Sponsor 2004-2008 U.S. Olympic Teams" width="131" height="33" style="border-top-style: none; border-right-style: none; border-left-style: none; border-bottom-style: none;" align="right" vspace="7"></a></td>
+		<td align="right" width="131"><a href="http://www.bankofamerica.com/sponsorships/" title="Official Sponsor 2004-2008 U.S. Olympic Teams"><img src="images/foot_olympic.gif" alt="Official Sponsor 2004-2008 U.S. Olympic Teams" width="131" height="33" border="0" align="right" vspace="7"></a></td>
 	</tr>
 </table>
 </div>
@@ -293,25 +306,25 @@ function popnav(show)
 </script>
 <div id="anav" style="position: absolute; left: 0px; top: 0px; visibility: hidden; display: none; z-index: 100; border: 1px solid #cccccc; font-size: 0.8em;" onmouseover="popnav(true);" onmouseout="popnav(false);">
 <table width="160" cellpadding="0" cellspacing="0" border="0" summary="Areas of Talent Navigation">
-			<tr valign="top"><td valign="middle" style="background: #cadceb; padding: 5px 6px 5px 14px;"><a href="" id="anavd"></a><a href="../administration/" id="administration" class="sbtxt" title="Administration" onfocus="this.className='sbtxt-over';" onblur="this.className='sbtxt';">Administration</a></td></tr>
-			<tr valign="top"><td style="background: #cccccc;"><img src="../images/clear.gif" width="154" height="1" alt="" style="border-top-style: none; border-right-style: none; border-left-style: none; border-bottom-style: none;"></td></tr>
-			<tr valign="top" style="background: #cadceb;"><td style="background: #cadceb; padding: 5px 6px 5px 14px;"><a href="../customercare/" class="sbtxt" title="Customer Care" onfocus="this.className='sbtxt-over';" onblur="this.className='sbtxt';">Customer Care</a></td></tr>
-			<tr valign="top"><td style="background: #cccccc;"><img src="../images/clear.gif" width="154" height="1" alt="" style="border-top-style: none; border-right-style: none; border-left-style: none; border-bottom-style: none;"></td></tr>
-			<tr valign="top" style="background: #cadceb;" ><td style="background: #cadceb; padding: 5px 6px 5px 14px;"><a href="../communications/" class="sbtxt" title="Communications" onfocus="this.className='sbtxt-over';" onblur="this.className='sbtxt';">Communications</a></td></tr>
-			<tr valign="top"><td style="background: #cccccc;"><img src="../images/clear.gif" width="154" height="1" alt="" style="border-top-style: none; border-right-style: none; border-left-style: none; border-bottom-style: none;"></td></tr>
-			<tr valign="top" style="background: #cadceb;" ><td style="background: #cadceb; padding: 5px 6px 5px 14px;"><a href="../finance/" class="sbtxt" title="Finance" onfocus="this.className='sbtxt-over';" onblur="this.className='sbtxt';">Finance</a></td></tr>
-			<tr valign="top"><td style="background: #cccccc;"><img src="../images/clear.gif" width="154" height="1" alt="" style="border-top-style: none; border-right-style: none; border-left-style: none; border-bottom-style: none;"></td></tr>
-			<tr valign="top" style="background: #cadceb;" ><td style="background: #cadceb; padding: 5px 6px 5px 14px;"><a href="../humanresources/" class="sbtxt" title="Human Resources" onfocus="this.className='sbtxt-over';" onblur="this.className='sbtxt';">Human Resources</a></td></tr>
-			<tr valign="top"><td style="background: #cccccc;"><img src="../images/clear.gif" width="154" height="1" alt="" style="border-top-style: none; border-right-style: none; border-left-style: none; border-bottom-style: none;"></td></tr>
-			<tr valign="top" style="background: #cadceb;" ><td style="background: #cadceb; padding: 5px 6px 5px 14px;"><a href="../operations/" class="sbtxt" title="Operations" onfocus="this.className='sbtxt-over';" onblur="this.className='sbtxt';">Operations</a></td></tr>
-			<tr valign="top"><td style="background: #cccccc;"><img src="../images/clear.gif" width="154" height="1" alt="" style="border-top-style: none; border-right-style: none; border-left-style: none; border-bottom-style: none;"></td></tr>
-			<tr valign="top" style="background: #cadceb;" ><td style="background: #cadceb; padding: 5px 6px 5px 14px;"><a href="../riskevaluation/" class="sbtxt" title="Risk Evaluation" onfocus="this.className='sbtxt-over';" onblur="this.className='sbtxt';">Risk Evaluation</a></td></tr>
-			<tr valign="top"><td style="background: #cccccc;"><img src="../images/clear.gif" width="154" height="1" alt="" style="border-top-style: none; border-right-style: none; border-left-style: none; border-bottom-style: none;"></td></tr>
-			<tr valign="top" style="background: #cadceb;" ><td style="background: #cadceb; padding: 5px 6px 5px 14px;"><a href="../sales/" class="sbtxt" title="Sales" onfocus="this.className='sbtxt-over';" onblur="this.className='sbtxt';">Sales</a></td></tr>
-			<tr valign="top"><td style="background: #cccccc;"><img src="../images/clear.gif" width="154" height="1" alt="" style="border-top-style: none; border-right-style: none; border-left-style: none; border-bottom-style: none;"></td></tr>
-			<tr valign="top" style="background: #cadceb;" ><td style="background: #cadceb; padding: 5px 6px 5px 14px;"><a href="../technology/" class="sbtxt" title="Technology" onfocus="this.className='sbtxt-over';" onblur="this.className='sbtxt';">Technology</a></td></tr>
-			<tr valign="top"><td style="background: #cccccc;"><img src="../images/clear.gif" width="154" height="1" alt="" style="border-top-style: none; border-right-style: none; border-left-style: none; border-bottom-style: none;"></td></tr>
-			<tr valign="top" style="background: #cadceb;" ><td style="background: #cadceb; padding: 5px 6px 5px 14px;"><a href="../consumerbanking/" id="consumerbanking" class="sbtxt" title="Consumer Banking" onfocus="this.className='sbtxt-over';" onblur="this.className='sbtxt';">Consumer Banking</a></td></tr>
+			<tr valign="top"><td valign="middle" style="background: #cadceb; padding: 5px 6px 5px 14px;"><a name="lnav5" id="anavd"></a><a href="administration/" id="administration" class="sbtxt" title="Administration" onfocus="this.className='sbtxt-over';" onblur="this.className='sbtxt';">Administration</a></td></tr>
+			<tr valign="top"><td style="background: #cccccc;"><img src="images/clear.gif" width="154" height="1" alt="" border="0"></td></tr>
+			<tr valign="top" style="background: #cadceb;"><td style="background: #cadceb; padding: 5px 6px 5px 14px;"><a href="customercare/" class="sbtxt" title="Customer Care" onfocus="this.className='sbtxt-over';" onblur="this.className='sbtxt';">Customer Care</a></td></tr>
+			<tr valign="top"><td style="background: #cccccc;"><img src="images/clear.gif" width="154" height="1" alt="" border="0"></td></tr>
+			<tr valign="top" style="background: #cadceb;" ><td style="background: #cadceb; padding: 5px 6px 5px 14px;"><a href="communications/" class="sbtxt" title="Communications" onfocus="this.className='sbtxt-over';" onblur="this.className='sbtxt';">Communications</a></td></tr>
+			<tr valign="top"><td style="background: #cccccc;"><img src="images/clear.gif" width="154" height="1" alt="" border="0"></td></tr>
+			<tr valign="top" style="background: #cadceb;" ><td style="background: #cadceb; padding: 5px 6px 5px 14px;"><a href="finance/" class="sbtxt" title="Finance" onfocus="this.className='sbtxt-over';" onblur="this.className='sbtxt';">Finance</a></td></tr>
+			<tr valign="top"><td style="background: #cccccc;"><img src="images/clear.gif" width="154" height="1" alt="" border="0"></td></tr>
+			<tr valign="top" style="background: #cadceb;" ><td style="background: #cadceb; padding: 5px 6px 5px 14px;"><a href="humanresources/" class="sbtxt" title="Human Resources" onfocus="this.className='sbtxt-over';" onblur="this.className='sbtxt';">Human Resources</a></td></tr>
+			<tr valign="top"><td style="background: #cccccc;"><img src="images/clear.gif" width="154" height="1" alt="" border="0"></td></tr>
+			<tr valign="top" style="background: #cadceb;" ><td style="background: #cadceb; padding: 5px 6px 5px 14px;"><a href="operations/" class="sbtxt" title="Operations" onfocus="this.className='sbtxt-over';" onblur="this.className='sbtxt';">Operations</a></td></tr>
+			<tr valign="top"><td style="background: #cccccc;"><img src="images/clear.gif" width="154" height="1" alt="" border="0"></td></tr>
+			<tr valign="top" style="background: #cadceb;" ><td style="background: #cadceb; padding: 5px 6px 5px 14px;"><a href="riskevaluation/" class="sbtxt" title="Risk Evaluation" onfocus="this.className='sbtxt-over';" onblur="this.className='sbtxt';">Risk Evaluation</a></td></tr>
+			<tr valign="top"><td style="background: #cccccc;"><img src="images/clear.gif" width="154" height="1" alt="" border="0"></td></tr>
+			<tr valign="top" style="background: #cadceb;" ><td style="background: #cadceb; padding: 5px 6px 5px 14px;"><a href="sales/" class="sbtxt" title="Sales" onfocus="this.className='sbtxt-over';" onblur="this.className='sbtxt';">Sales</a></td></tr>
+			<tr valign="top"><td style="background: #cccccc;"><img src="images/clear.gif" width="154" height="1" alt="" border="0"></td></tr>
+			<tr valign="top" style="background: #cadceb;" ><td style="background: #cadceb; padding: 5px 6px 5px 14px;"><a href="technology/" class="sbtxt" title="Technology" onfocus="this.className='sbtxt-over';" onblur="this.className='sbtxt';">Technology</a></td></tr>
+			<tr valign="top"><td style="background: #cccccc;"><img src="images/clear.gif" width="154" height="1" alt="" border="0"></td></tr>
+			<tr valign="top" style="background: #cadceb;" ><td style="background: #cadceb; padding: 5px 6px 5px 14px;"><a href="consumerbanking/" id="consumerbanking" class="sbtxt" title="Consumer Banking" onfocus="this.className='sbtxt-over';" onblur="this.className='sbtxt';">Consumer Banking</a></td></tr>
 </table>
 </div>
 
@@ -323,16 +336,16 @@ function popnavr(show)
 </script>
 <div id="anavr" style="position: absolute; left: 0px; top: 0px; visibility: hidden; display: none; z-index: 100; border: 1px solid #cccccc; font-size: 0.8em;" onmouseover="popnavr(true);" onmouseout="popnavr(false);">
 <table width="160" cellpadding="0" cellspacing="0" border="0" summary="Related Information Navigation">
-			<tr valign="top"><td valign="middle" style="background: #cadceb; padding: 5px 6px 5px 14px;"><a href="" id="anavrd"></a><a href="../learnmore/benefitsadv.asp" id="benefitsadv" class="sbtxt" title="Benefits and Advantages" onfocus="this.className='sbtxt-over';" onblur="this.className='sbtxt';">Benefits and Advantages</a></td></tr>
-			<tr valign="top"><td style="background: #cccccc;"><img src="../images/clear.gif" width="154" height="1" alt="" style="border-top-style: none; border-right-style: none; border-left-style: none; border-bottom-style: none;"></td></tr>
-			<tr valign="top" style="background: #cadceb;"><td style="background: #cadceb; padding: 5px 6px 5px 14px;"><a href="../learnmore/diversity.asp" id="diversity" class="sbtxt" title="Diversity" onfocus="this.className='sbtxt-over';" onblur="this.className='sbtxt';">Diversity</a></td></tr>
-			<tr valign="top"><td style="background: #cccccc;"><img src="../images/clear.gif" width="154" height="1" alt="" style="border-top-style: none; border-right-style: none; border-left-style: none; border-bottom-style: none;"></td></tr>
-			<tr valign="top" style="background: #cadceb;" ><td style="background: #cadceb; padding: 5px 6px 5px 14px;"><a href="../learnmore/corpinfo.asp" class="sbtxt" title="Corporate Information" onfocus="this.className='sbtxt-over';" onblur="this.className='sbtxt';">Corporate Information</a></td></tr>
-			<tr valign="top"><td style="background: #cccccc;"><img src="../images/clear.gif" width="154" height="1" alt="" style="border-top-style: none; border-right-style: none; border-left-style: none; border-bottom-style: none;"></td></tr>
-			<tr valign="top" style="background: #cadceb;" ><td style="background: #cadceb; padding: 5px 6px 5px 14px;"><a href="../learnmore/collrecruiting.asp" class="sbtxt" title="College Recruiting" onfocus="this.className='sbtxt-over';" onblur="this.className='sbtxt';">College Recruiting</a></td></tr>
-			<tr valign="top"><td style="background: #cccccc;"><img src="../images/clear.gif" width="154" height="1" alt="" style="border-top-style: none; border-right-style: none; border-left-style: none; border-bottom-style: none;"></td></tr>
-			<tr valign="top" style="background: #cadceb;" ><td style="background: #cadceb; padding: 5px 6px 5px 14px;"><a href="../learnmore/globalloc.asp" class="sbtxt" title="Global Locations" onfocus="this.className='sbtxt-over';" onblur="this.className='sbtxt';">Global Locations</a></td></tr>
-			<tr valign="top"><td style="background: #cccccc;"><img src="../images/clear.gif" width="154" height="1" alt="" style="border-top-style: none; border-right-style: none; border-left-style: none; border-bottom-style: none;"></td></tr>
+			<tr valign="top"><td valign="middle" style="background: #cadceb; padding: 5px 6px 5px 14px;"><a name="lnav6" id="anavrd"></a><a href="learnmore/benefitsadv.asp" id="benefitsadv" class="sbtxt" title="Benefits and Advantages" onfocus="this.className='sbtxt-over';" onblur="this.className='sbtxt';">Benefits and Advantages</a></td></tr>
+			<tr valign="top"><td style="background: #cccccc;"><img src="images/clear.gif" width="154" height="1" alt="" border="0"></td></tr>
+			<tr valign="top" style="background: #cadceb;"><td style="background: #cadceb; padding: 5px 6px 5px 14px;"><a href="learnmore/diversity.asp" id="diversity" class="sbtxt" title="Diversity" onfocus="this.className='sbtxt-over';" onblur="this.className='sbtxt';">Diversity</a></td></tr>
+			<tr valign="top"><td style="background: #cccccc;"><img src="images/clear.gif" width="154" height="1" alt="" border="0"></td></tr>
+			<tr valign="top" style="background: #cadceb;" ><td style="background: #cadceb; padding: 5px 6px 5px 14px;"><a href="learnmore/corpinfo.asp" class="sbtxt" title="Corporate Information" onfocus="this.className='sbtxt-over';" onblur="this.className='sbtxt';">Corporate Information</a></td></tr>
+			<tr valign="top"><td style="background: #cccccc;"><img src="images/clear.gif" width="154" height="1" alt="" border="0"></td></tr>
+			<tr valign="top" style="background: #cadceb;" ><td style="background: #cadceb; padding: 5px 6px 5px 14px;"><a href="learnmore/collrecruiting.asp" class="sbtxt" title="College Recruiting" onfocus="this.className='sbtxt-over';" onblur="this.className='sbtxt';">College Recruiting</a></td></tr>
+			<tr valign="top"><td style="background: #cccccc;"><img src="images/clear.gif" width="154" height="1" alt="" border="0"></td></tr>
+			<tr valign="top" style="background: #cadceb;" ><td style="background: #cadceb; padding: 5px 6px 5px 14px;"><a href="learnmore/globalloc.asp" class="sbtxt" title="Global Locations" onfocus="this.className='sbtxt-over';" onblur="this.className='sbtxt';">Global Locations</a></td></tr>
+			<tr valign="top"><td style="background: #cccccc;"><img src="images/clear.gif" width="154" height="1" alt="" border="0"></td></tr>
 			<tr valign="top" style="background: #cadceb;" ><td style="background: #cadceb; padding: 5px 6px 5px 14px;"><a href="http://corp.bankofamerica.com/public/career/home.jsp" id="investment" class="sbtxt" title="Investment Banking Careers" onfocus="this.className='sbtxt-over';" onblur="this.className='sbtxt';">Investment Banking Careers</a></td></tr>
 </table>
 </div>
