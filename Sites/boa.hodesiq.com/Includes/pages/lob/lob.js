@@ -380,9 +380,10 @@ function pauseVideo(objname)
 		videoplaying = null;
 	}
 }
+
 var flashplayer = new fpvideo("../Includes/flashplayer.swf",259,166);
 var flashplayer2 = new fpvideo("../Includes/flashplayer.swf",260,167);
-var flashplayer3 = new fpvideo("../Includes/flashplayer.swf",255,167);
+var flashplayer3 = new fpvideo("../Includes/flashplayer.swf",260,167);
 
 function fpvideo(swf_url,w,h)
 {
