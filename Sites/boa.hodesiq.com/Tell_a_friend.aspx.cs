@@ -16,12 +16,12 @@ public partial class Tell_a_friend : System.Web.UI.Page
     string JobId;
     protected void Page_Load(object sender, EventArgs e)
     {
-        JobId = Request.QueryString["JobId"].ToString();
+        JobId = Request.QueryString["JobId"];
 
     }
     protected void Cancel_Click(object sender, EventArgs e)
     {
-        Response.Redirect("Jobdetails.aspx?JobId=" + JobId);
+        Response.Redirect("Jobdetails.aspx?JobId=" + JobId + "&SearchPage=" + Request.QueryString["SearchPage"].ToString());
     }
     protected void Send_Click(object sender, EventArgs e)
     {
@@ -42,7 +42,7 @@ public partial class Tell_a_friend : System.Web.UI.Page
 
         //    SmtpMail.Send(mail);
 
-         Response.Redirect("Jobdetails.aspx?JobId="+JobId);
+        Response.Redirect("Jobdetails.aspx?JobId=" + JobId + "&SearchPage=" + Request.QueryString["SearchPage"].ToString());
 
 
 

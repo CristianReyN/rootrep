@@ -23,8 +23,8 @@
                                                 <td colspan="2" style="padding: 3px 0px 0px 0px;" valign="top" >
                                                     
                                                     <asp:GridView ID="grdJobcart" runat="server" AutoGenerateColumns="false" Width="554px" BorderStyle="none" AlternatingRowStyle-BorderStyle="None" RowStyle-BorderStyle="None" AllowSorting="True">
-                                                        <RowStyle BorderStyle="None" CssClass="C1" />
-                                                        <AlternatingRowStyle BorderStyle="None" CssClass="C2"  />
+                                                        <RowStyle  CssClass="C1" />
+                                                        <AlternatingRowStyle  CssClass="C2"  />
                                                         <HeaderStyle BackColor="#EAF1F7"  />
                                                         <Columns>
                                                             <asp:HyperLinkField DataNavigateUrlFields="JobsID" DataNavigateUrlFormatString="JobDetails.aspx?SearchPage=Sp&amp;JobId={0}"

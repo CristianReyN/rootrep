@@ -13,6 +13,8 @@ public partial class Jobcart : System.Web.UI.Page
 {
     protected void Page_Load(object sender, EventArgs e)
     {
+        if(ViewState["Cookie"]==null)
+        {
         string JobSearch;
         string JobId="";
         JobSearch = Request.QueryString["SearchPage"];
@@ -32,7 +34,7 @@ public partial class Jobcart : System.Web.UI.Page
             ObjJobCart.Secure = false;
             Response.Cookies.Add(ObjJobCart);
             Response.Redirect("jobdetails.aspx?JobID=" + Request.QueryString["JobID"].ToString() + "&SearchPage=" + JobSearch);
-            
+
         }
         else
         {
@@ -45,20 +47,24 @@ public partial class Jobcart : System.Web.UI.Page
                 Jobs Jobs = new Jobs();
                 grdJobcart.DataSource = Jobs.JobDetails(JobId);
                 grdJobcart.DataBind();
+                ViewState["Cookie"] = 2;
             }
-            catch 
+            catch
             {
                 Jobs Jobs = new Jobs();
                 grdJobcart.DataSource = Jobs.JobDetails(JobId);
                 grdJobcart.DataBind();
-                
+                ViewState["Cookie"] = 2;
             }
-
+        }
         }
 
     }
     protected void Remove_Click(object sender, EventArgs e)
     {
+        
+        Request.Cookies.Remove("Boa");
+        
         
     }
 }
