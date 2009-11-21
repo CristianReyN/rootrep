@@ -31,7 +31,7 @@ This unique, 2-year program allows Analysts to rotate through our North America 
 Education & Skills:
 </p>
 <ul>
-	<li>Must be a senior from a four-year college or university, with outstanding academic achievement
+	<li>Must be a senior from a four-year college or university, with outstanding academic achievement</li>
 	<li>Demonstrated combination of academic aptitude, quantitative skills and strategic/creative thinking</li>
 	<li>Exceptional written and verbal communication skills</li>
 	<li>Developed multi-tasking and project management skills</li>
@@ -69,13 +69,6 @@ Candidates must be legally authorized to work in the US without sponsorship.
 				<td width="205" height="100%" valign="top">
 <!-- #include file="college/chris.asp" -->
 <!-- #include file="../lobnav.asp" -->
-<div style="border: 1px solid #e8e8e9; margin: 12px 0px 12px 0px; padding: 0px 0px 6px 0px;">
-	<H2 class="g" style="margin: 0px 0px 0px 0px;">Related Information</H2>
-	<img src="../images/clear.gif" width="100%" height="1" alt="" border="0" style="margin: 1px 0px 0px 0px; background: #e8e8e9;" align="top"><br clear="all">
-	<div  style="padding: 0px 5px 0px 4px;">
-<!-- #include file="../relinfonav.asp" -->
-	</div>
-</div>
 				</td>
 			</tr>
 		</table>

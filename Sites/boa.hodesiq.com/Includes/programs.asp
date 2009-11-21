@@ -33,9 +33,6 @@
 <optgroup label="Supply Chain Management">
 	<option value="up_scmap.asp"<% If fpage = "up_scmap" Then %> disabled<% End If %>>Supply Chain Management Associate Program</option>
 </optgroup>
-<optgroup label="Global Wealth and Investment Management">
-	<option value="up_undergraduate.asp"<% If fpage = "up_undergraduate" Then %> disabled<% End If %>>Undergraduate</option>
-</optgroup>
 </select>
 <script language="JavaScript" type="text/javascript">
 <!--
@@ -75,9 +72,6 @@ function none(){}
 <optgroup label="Global Consumer Small Business Banking">
 	<option value="gp_bccmmldp.asp"<% If fpage = "gp_bccmmldp" Then %> disabled<% End If %>>Banking Center Channel Market Manager Leader Development Program</option>
 	<option value="gp_gcsbbd.asp"<% If fpage = "gp_gcsbbd" Then %> disabled<% End If %>>Global Consumer and Small Business Banking Product Leader Development Program</option>
-</optgroup>
-<optgroup label="Global Wealth and Investment Management">
-	<option value="gp_g.asp"<% If fpage = "gp_g" Then %> disabled<% End If %>>Graduate</option>
 </optgroup>
 </select>
 <script language="JavaScript" type="text/javascript">

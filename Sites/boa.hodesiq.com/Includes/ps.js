@@ -9,7 +9,7 @@ function addElementsByClassName(tag,clsName,arr)
 
 function startPs()
 {
-	
+if(window.preloadCC) preloadCC();
 	var aa = new Array();
 	aa = addElementsByClassName("a","p",aa);
 	aa = addElementsByClassName("a","g",aa);

@@ -131,6 +131,18 @@ H2
     padding: 6px 0px 6px 0px;
 }
 
+H1.cc
+{
+	font-family : Verdana, Helvetica, sans-serif;
+	font-size : 13pt;
+	line-height : 13pt;
+	font-weight : bold;
+    color: #d4001a;
+    background-color: transparent;
+    text-decoration: none;
+    padding: 6px 0px 6px 0px;
+}
+
 H3, P.H3
 {
 	font-family : Verdana, Helvetica, sans-serif;
@@ -524,6 +536,7 @@ A.ftrlnk:visited
 .mh-vline {background-color: #ECECEC; background-image: url(../images/mhd_reg_1x5_lines.gif); background-repeat: repeat-y;}
 .mh-hline-bkg {background: #ECECEC;}
 .ada-search {color: #ececec; background: #ececec; font: normal 0.0em/0.0em Verdana, Helvetica, sans-serif; margin: 0px; padding: 0px; visibility: hidden;}
+.ada-label {color: #ececec; font: normal 0.0em/0.0em Verdana, Helvetica, sans-serif; margin: 0px; padding: 0px; display: none;}
 
 a.btn1, a.btn1:visited, a.btn1:active {
 	font: normal 0.9em/1.2em Verdana, Helvetica, sans-serif;

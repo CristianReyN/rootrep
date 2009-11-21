@@ -48,7 +48,7 @@
 							ElseIf ExistsInRequest("q-" & store_questions(q).Item("question_number")) Then
 								answered_questions = answered_questions + 1
 								If answered_questions > store_question_group.Item("max_answers") And store_question_group.Item("max_answers") <> -1 Then
-									session.Contents("err") = "Please enter a selection of up to " & store_question_group.Item("max_answers") & " on question " & store_question_group.Item("group_number")
+									session.Contents("err") = "Please select up to " & store_question_group.Item("max_answers") & " answers for question " & store_question_group.Item("group_number")
 									session.Contents("page_number") = store_page_number
 									Set store_pages(store_page_number) = store_page
 									session.Contents("pages") = store_pages
@@ -60,7 +60,7 @@
 							End If
 						Next
 						If answered_questions = 0 Then
-							session.Contents("err") = "Please enter a selection on question " & store_question_group.Item("group_number")
+							session.Contents("err") = "Please select answer for question " & store_question_group.Item("group_number")
 							session.Contents("page_number") = store_page_number
 							Set store_pages(store_page_number) = store_page
 							session.Contents("pages") = store_pages
@@ -125,7 +125,7 @@
 							program_numbers = result_questions(q).Item("programs")
 							If result_questions(q).Item("answer") And UBound(program_numbers) > 0 Then
 								For pr=0 To UBound(program_numbers) Step 1
-									programs(program_numbers(pr)).Item("points") = programs(program_numbers(pr)).Item("points") + 1
+									programs(program_numbers(pr)).Item("points") = programs(program_numbers(pr)).Item("points") + result_questions(q).Item("points") '+ 1
 								Next
 							End If
 						Next
@@ -172,12 +172,16 @@
 	
 	href_pre = ""
 	if page_section <> "ADA" then href_pre = "../learnmore/" %>
+<script language="JavaScript1.2" src="../includes/mm.js" type="text/javascript"></script>
+<script language="JavaScript1.2" type="text/javascript">
+<!--
+function preloadCC(){MM_preloadImages('../images/cc_next_over.gif','../images/cc_next_down.gif','../images/cc_prev_over.gif','../images/cc_prev_down.gif','../images/cc_finish_over.gif','../images/cc_finish_down.gif','../images/cc_restart_over.gif','../images/cc_restart_down.gif');}
+//-->
+</script>
 			<tr valign="top">
 				<td width="100%" colspan="2" valign="top">
-<img src="../images/career_compass.jpg" width="389" height="166" alt="Bank of America has proven itself as a leader." title="Bank of America has proven itself as a leader." border="0"><img src="../images/career_compasst.jpg" width="189" height="166" alt="I am continually provided with
-opportunities to be innovative and creative." title="I am continually provided with
-opportunities to be innovative and creative." border="0">
-<div class="hidden">I wanted to work for a growing and reputable corporation... Bank of America has proven itself as a leader.</div>
+<img src="../images/career_compass.jpg" width="389" height="166" alt="College Recruiting" title="College Recruiting" border="0"><img src="../images/career_compasst.jpg" width="189" height="166" alt="I am continually provided with opportunities to be innovative and creative." title="I am continually provided with opportunities to be innovative and creative." border="0">
+<div class="hidden">College Recruiting. I am continually provided with opportunities to be innovative and creative.</div>
 				</td>
 			</tr>
 			<tr valign="top"><td colspan="2" valign="top" class="divb"><img src="../images/clear.gif" width="100%" height="3" alt="" border="0"></td></tr>
@@ -197,7 +201,7 @@ opportunities to be innovative and creative." border="0">
 				<td style="background: url(../images/cc_l.gif);">
 					<img src="../images/clear.gif" width="16" height="10" alt="" /></td>
 				<td height="100%" valign="top" style="padding: 0px 0px 0px 0px;">
-<H1 style="margin: -14px 0px 0px -1px; padding-bottom: 5px;"><% If isObject(page) Then Response.write page.Item("title") %></H1>
+<H1 class="cc" style="margin: -8px 0px 4px -1px; padding-bottom: 5px;"><% If isObject(page) Then Response.write page.Item("title") %></H1>
 <div style=" background: #999999; margin: 0px 0px 7px 0px;"><img src="../images/clear.gif" width="100%" height="1" align="top" alt="" /></div>
 <input type="hidden" name="page_number" value="<% Response.write next_page_number %>">
 <%	If isObject(page) And trim(page.Item("copy")) <> "" Then %>
@@ -209,6 +213,12 @@ opportunities to be innovative and creative." border="0">
 					<table width="100%" cellpadding="0" cellspacing="0" border="0" style="margin: 0px 0px 0px 0px;" summary="">
 <%	If isObject(page) And UBound(page.Item("question_groups")) > 0 Then 
 		question_groups =  page.Item("question_groups")
+		colspan = 2
+		colspan2 = 1
+		If page_number = 2 Then
+			colspan = 5
+			colspan2 = 4
+		End If
 		For g=1 To UBound(question_groups) Step 1
 			Set question_group =  question_groups(g)
 			questions =  question_group.Item("questions")
@@ -217,28 +227,30 @@ opportunities to be innovative and creative." border="0">
 			If UBound(questions) > 0 Then %>
 						<tr>
 							<td nowrap style="padding: 0px;"><b><% Response.write question_group.Item("group_number") %>.</b></td>
-							<td nowrap colspan="<% If two_bank Then Response.write "5" Else Response.write "2" End If %>" style="padding: 0px;"><h2 style="margin: 0px;"><% Response.write question_group.Item("title") %></h2></td>
+							<td nowrap colspan="<% Response.write colspan %>" style="padding: 0px;"><h2 style="margin: 0px;"><% Response.write question_group.Item("title") %></h2></td>
 						</tr>
 <%
 				For q=1 To UBound(questions) Step 1
 %>
-						<tr>
 <%					If Not two_bank Or q < 11 Then %>
+						<tr>
 							<td nowrap style="padding: 0px;">&nbsp;</td>
-							<td nowrap style="padding: 0px;"><% If question_group.Item("group_type") = "checkbox" Then %><input name="q-<% Response.write questions(q).Item("question_number") %>" type="checkbox" value="<% Response.write questions(q).Item("question_number") %>"<% If questions(q).Item("answer") Then %> checked<% End If %>><% ElseIf question_group.Item("group_type") = "radio" Then %><input type="radio" name="g-<% Response.write question_group.Item("group_number") %>" value="<% Response.write questions(q).Item("question_number") %>"<% If questions(q).Item("answer") Then %> checked<% End If %>><% End If %></td>
-							<td nowrap style="padding: 0px;"><p style="margin: 0px;"><% Response.write questions(q).Item("question") %></p></td>
+							<td nowrap style="padding: 0px;"><% If question_group.Item("group_type") = "checkbox" Then %><span class="ada-label"><label class="ada-label" for="q-<% Response.write questions(q).Item("question_number") %>"><% Response.write questions(q).Item("label") %></label></span><input name="q-<% Response.write questions(q).Item("question_number") %>" id="q-<% Response.write questions(q).Item("question_number") %>" type="checkbox" value="<% Response.write questions(q).Item("question_number") %>"<% If questions(q).Item("answer") Then %> checked<% End If %>><% ElseIf question_group.Item("group_type") = "radio" Then %><span class="ada-label"><label class="ada-label" for="q-<% Response.write questions(q).Item("question_number") %>"><% Response.write questions(q).Item("label") %></label></span><input type="radio" name="g-<% Response.write question_group.Item("group_number") %>" id="q-<% Response.write questions(q).Item("question_number") %>" value="<% Response.write questions(q).Item("question_number") %>"<% If questions(q).Item("answer") Then %> checked<% End If %>><% End If %></td>
+							<td<% If Not two_bank Then %> colspan="<%Response.write colspan2 %>"<% End If %><% If Not two_bank Then %> width="100%"<% Else %> width="50%"<% End If %> nowrap style="padding: 0px 0px 0px 9px;"><p style="margin: 0px;"><% Response.write questions(q).Item("question") %></p></td>
 <%					End If %>
 <%					If two_bank And q < 11 Then %>
 							<td nowrap style="padding: 0px;">&nbsp;</td>
 <%						If q <  10 Then %>
-							<td nowrap style="padding: 0px;"><% If question_group.Item("group_type") = "checkbox" Then %><input name="q-<% Response.write questions(q+10).Item("question_number") %>" type="checkbox" value="<% Response.write questions(q+10).Item("question_number") %>"<% If questions(q+10).Item("answer") Then %> checked<% End If %>><% ElseIf question_group.Item("group_type") = "radio" Then %><input type="radio" name="g-<% Response.write question_group.Item("group_number") %>" value="<% Response.write questions(q+10).Item("question_number") %>"<% If questions(q+10).Item("answer") Then %> checked<% End If %>><% End If %></td>
-							<td nowrap style="padding: 0px;"><p style="margin: 0px;"><% Response.write questions(q+10).Item("question") %></p></td>
+							<td nowrap style="padding: 0px;"><% If question_group.Item("group_type") = "checkbox" Then %><span class="ada-label"><label class="ada-label" for="q-<% Response.write questions(q+10).Item("question_number") %>"><% Response.write questions(q+10).Item("label") %></label></span><input name="q-<% Response.write questions(q+10).Item("question_number") %>" id="q-<% Response.write questions(q+10).Item("question_number") %>" type="checkbox" value="<% Response.write questions(q+10).Item("question_number") %>"<% If questions(q+10).Item("answer") Then %> checked<% End If %>><% ElseIf question_group.Item("group_type") = "radio" Then %><span class="ada-label"><label class="ada-label" for="q-<% Response.write questions(q+10).Item("question_number") %>"><% Response.write questions(q+10).Item("label") %></label></span><input type="radio" name="g-<% Response.write question_group.Item("group_number") %>" id="q-<% Response.write questions(q+10).Item("question_number") %>" value="<% Response.write questions(q+10).Item("question_number") %>"<% If questions(q+10).Item("answer") Then %> checked<% End If %>><% End If %></td>
+							<td width="50%" nowrap style="padding: 0px 0px 0px 9px;"><p style="margin: 0px;"><% Response.write questions(q+10).Item("question") %></p></td>
 <%						Else %>
 							<td nowrap style="padding: 0px;">&nbsp;</td>
 							<td nowrap style="padding: 0px;">&nbsp;</td>
 <%						End If %>
 <%					End If %>
+<%					If Not two_bank Or q < 11 Then %>
 						</tr>
+<%					End If %>
 <%				Next %>
 <%			End If
 		Next %>
@@ -277,7 +289,7 @@ opportunities to be innovative and creative." border="0">
 		If previous_page_number > 3 Then
 %>&nbsp;
 <%		ElseIf previous_page_number > 0 Then %>
-<input type="image" name="previous" src="../images/cc_prev.gif" value="Previous" alt="Previous" title="Previous" style="cursor: pointer;" onclick=""document.questionnaire.submit();"">
+<input type="image" id="previous" name="previous" src="../images/cc_prev.gif" value="Previous" alt="Previous" title="Previous" style="cursor: pointer;" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('previous','','../images/cc_prev_over.gif',1)"  onMouseUp="MM_swapImgRestore()" onMouseDown="MM_swapImage('previous','','../images/cc_prev_down.gif',1)">
 <%		Else %>
 <img src="../images/cc_prev_dis.gif" border="0" alt="" />
 <%		End If %>
@@ -287,13 +299,13 @@ opportunities to be innovative and creative." border="0">
 <%
 		If page_number < 4 Then
 %>
-<input type="image" name="next" src="../images/cc_next.gif" value="Next" alt="Next" title="Next" style="cursor: pointer;" onclick=""document.questionnaire.submit();"">
+<input type="image" id="next" name="next" src="../images/cc_next.gif" value="Next" alt="Next" title="Next" style="cursor: pointer;" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('next','','../images/cc_next_over.gif',1)"  onMouseUp="MM_swapImgRestore()" onMouseDown="MM_swapImage('next','','../images/cc_next_down.gif',1)">
 <%
 		ElseIf page_number < 5 Then
 %>
-<input type="image" name="next" src="../images/cc_finish.gif" value="Finish" alt="Finish" title="Finish" style="cursor: pointer;" onclick=""document.questionnaire.submit();"">
+<input type="image" id="finish" name="finish" src="../images/cc_finish.gif" value="Finish" alt="Finish" title="Finish" style="cursor: pointer;" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('finish','','../images/cc_finish_over.gif',1)"  onMouseUp="MM_swapImgRestore()" onMouseDown="MM_swapImage('finish','','../images/cc_finish_down.gif',1)">
 <%		Else %>
-<input type="image" name="restart" src="../images/cc_restart.gif" value="Restart" alt="Restart" title="Restart" style="cursor: pointer;" onclick=""document.questionnaire.submit();"">
+<input type="image" id="restart" name="restart" src="../images/cc_restart.gif" value="Restart" alt="Restart" title="Restart" style="cursor: pointer;" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('restart','','../images/cc_restart_over.gif',1)"  onMouseUp="MM_swapImgRestore()" onMouseDown="MM_swapImage('restart','','../images/cc_restart_down.gif',1)">
 <%		End If %>
 							</td>
 						</tr>

@@ -25,8 +25,7 @@ At Bank of America, we understand that the success of an organization depends on
 				<td width="386" height="100%" valign="top" style="padding: 0px 5px 0px 12px;">
 <H2 style="margin: 12px 0px 2px 0px;">Hot Job Postings</H2>
 <p style="margin: 6px 12px 12px 0px;">
-Interested in joining the "World's Most Admired Global Bank"?<br>
-We invite you to explore career opportunities on our dynamic Human Resources team.
+Interested in joining the "World's Most Admired Global Bank"? We invite you to explore career opportunities on our dynamic Human Resources team.
 </p>
 <table cellpadding="2" cellspacing="0" border="0" summary="">
 <!--#include file="../../hot_jobs.asp"-->

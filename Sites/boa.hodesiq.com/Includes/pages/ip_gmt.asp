@@ -16,7 +16,7 @@ There are five job profiles for a Global Markets technology summer analyst, with
 </ul>
 <h2 class="h2u" style="margin: 0px 0px 0px 0px;">Developer:</h2>
 <ul style="margin-top: 0px;">
-	<li>Providing technical excellence to the design, development and maintenance of state-of-the-art technology applications utilizing technologies such as Java/EJB's, C++, .NET and Web services </li>
+	<li>Providing technical excellence to the design, development and maintenance of state-of-the-art technology applications utilizing technologies such as Java/EJB's, C++, .NET and Web services</li>
 	<li>Conducting internal and external client requirements gathering, translating client interactions into technical design specifications, business process reengineering, and partnering with business, product and technology teams across the organization to deliver world class technology solutions</li>
 </ul>
 <h2 class="h2u" style="margin: 0px 0px 0px 0px;">Project Management or Systems Support Engineer:</h2>
@@ -80,13 +80,6 @@ Candidates must be legally authorized to work in the US without sponsorship.
 				<td width="205" height="100%" valign="top">
 <!-- #include file="college/tony.asp" -->
 <!-- #include file="../lobnav.asp" -->
-<div style="border: 1px solid #e8e8e9; margin: 12px 0px 12px 0px; padding: 0px 0px 6px 0px;">
-	<H2 class="g" style="margin: 0px 0px 0px 0px;">Related Information</H2>
-	<img src="../images/clear.gif" width="100%" height="1" alt="" border="0" style="margin: 1px 0px 0px 0px; background: #e8e8e9;" align="top"><br clear="all">
-	<div  style="padding: 0px 5px 0px 4px;">
-<!-- #include file="../relinfonav.asp" -->
-	</div>
-</div>
 				</td>
 			</tr>
 		</table>

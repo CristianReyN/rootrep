@@ -26,7 +26,7 @@ The Senior Analyst-Information Security Engineer, depending on assignment, may b
 <ul>
 	<li>Researching, designing, engineering, implementing and supporting ISBC within Bank of America</li> 
 	<li>Utilizing technical knowledge and business requirements to design secure business driven solutions to meet customer / client needs while protecting the Bank's assets</li>
-	<li>Working on problems of diverse scope where analysis of data requires evaluation of identifiable factors
+	<li>Working on problems of diverse scope where analysis of data requires evaluation of identifiable factors</li>
 	<li>Using and applying basic technical principles, concepts and techniques</li>
 	<li>Contributing to the development of security standards, procedures and guidelines for multiple platforms and diverse environments (e.g. - client server, distributed, mainframe, etc.)</li>
 	<li>Working with senior staff & team managers to determine methods, techniques and evaluation criteria for obtaining results</li>
@@ -89,13 +89,6 @@ Candidates must be legally authorized to work in the US without sponsorship.
 				<td width="205" height="100%" valign="top">
 <!-- #include file="college/chris.asp" -->
 <!-- #include file="../lobnav.asp" -->
-<div style="border: 1px solid #e8e8e9; margin: 12px 0px 12px 0px; padding: 0px 0px 6px 0px;">
-	<H2 class="g" style="margin: 0px 0px 0px 0px;">Related Information</H2>
-	<img src="../images/clear.gif" width="100%" height="1" alt="" border="0" style="margin: 1px 0px 0px 0px; background: #e8e8e9;" align="top"><br clear="all">
-	<div  style="padding: 0px 5px 0px 4px;">
-<!-- #include file="../relinfonav.asp" -->
-	</div>
-</div>
 				</td>
 			</tr>
 		</table>

@@ -205,9 +205,9 @@ var html_control = '<table border="0" cellspacing="0" cellpadding="0" bgcolor="#
 html_control += '<tr>';
 html_control += '<td nowrap>';
 html_control += '<div align="left">';
-html_control += '<a href="#" onClick="doPassVar(\'play\')"><img src="../Includes/pages/buttons/01btn.gif" alt="Play" width="19" height="20" border="0"/></a>';
-html_control += '<a href="#" onClick="doPassVar(\'pause\')"><img src="../Includes/pages/buttons/02btn.gif" alt="Pause" width="11" height="20" border="0"/></a>';
-html_control += '<a href="#" onClick="doPassVar(\'stop\')"><img src="../Includes/pages/buttons/03btn.gif" alt="Stop" width="16" height="20" border="0"/></a>';
+html_control += '<a href="#" onClick="doPassVar(\'play\')" title="Play Video"><img src="../Includes/pages/buttons/01btn.gif" alt="Play Video" width="19" height="20" border="0"/></a>';
+html_control += '<a href="#" onClick="doPassVar(\'pause\')" title="Pause Video"><img src="../Includes/pages/buttons/02btn.gif" alt="Pause Video" width="11" height="20" border="0"/></a>';
+html_control += '<a href="#" onClick="doPassVar(\'stop\')" title="Stop Video"><img src="../Includes/pages/buttons/03btn.gif" alt="Stop Video" width="16" height="20" border="0"/></a>';
 //html_control += '<a href="#" onClick="doPassVar(\'skip\')"><img src="../Includes/pages/buttons/04btn.gif" alt="Skip" width="16" height="20" border="0"/></a>';
 html_control += '</div>';
 html_control += '</td>';
@@ -216,8 +216,8 @@ html_control += '<a href="<href>#vt" title="<title>" class="btn1" onfocus="this.
 html_control += '</td>';
 html_control += '<td nowrap>';
 html_control += '<div align="right">';
-html_control += '<a href="#" onClick="doPassVar(\'mute\')"><img src="../Includes/pages/buttons/05btn.gif" alt="Mute" width="15" height="20" border="0"/></a>';
-html_control += '<a href="#" onClick="doPassVar(\'ccoc\')"><img src="../Includes/pages/buttons/06btn.gif" alt="CC/OC" width="16" height="20" border="0"/></a>';
+html_control += '<a href="#" onClick="doPassVar(\'mute\')" title="Mute Video"><img src="../Includes/pages/buttons/05btn.gif" alt="Mute Video" width="15" height="20" border="0"/></a>';
+html_control += '<a href="#" onClick="doPassVar(\'ccoc\')" title="CC/OC"><img src="../Includes/pages/buttons/06btn.gif" alt="CC/OC" width="16" height="20" border="0"/></a>';
 html_control += '</div>';
 html_control += '</td>';
 html_control += '</tr>';

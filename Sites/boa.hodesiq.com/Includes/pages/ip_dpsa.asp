@@ -23,17 +23,17 @@ Debt Products Senior Analyst Interns perform intensive qualitative and quantitat
 <h2 class="h2u" style="margin: 0px 0px 0px 0px;">Qualifications:</h2>
 <p style="margin: 0px 0px 12px 0;">Education & Skills:</p>
 <ul>
-	<li>Pursuing an undergraduate degree in Accounting or Finance
-	<li>Ability to manage multiple complex tasks simultaneously 
+	<li>Pursuing an undergraduate degree in Accounting or Finance</li>
+	<li>Ability to manage multiple complex tasks simultaneously</li>
 	<li>Strong academic aptitude and quantitative analysis skills</li>
 </ul>
 
 <p style="margin: 0px 0px 12px 0;">Personality Characteristics:</p>
 <ul>
-	<li>Leadership, initiative and resourcefulness 
-	<li>Strong work ethic and intellectual curiosity 
-	<li>Teamwork orientation 
-	<li>Dedication to building a career in financial services </li>
+	<li>Leadership, initiative and resourcefulness</li>
+	<li>Strong work ethic and intellectual curiosity</li>
+	<li>Teamwork orientation</li>
+	<li>Dedication to building a career in financial services</li>
 </ul>
 
 <h2 class="h2u" style="margin: 0px 0px 0px 0px;">Locations:</h2>
@@ -56,13 +56,6 @@ Candidates must be legally authorized to work in the US without sponsorship.
 				<td width="205" height="100%" valign="top">
 <!-- #include file="college/guan.asp" -->
 <!-- #include file="../lobnav.asp" -->
-<div style="border: 1px solid #e8e8e9; margin: 12px 0px 12px 0px; padding: 0px 0px 6px 0px;">
-	<H2 class="g" style="margin: 0px 0px 0px 0px;">Related Information</H2>
-	<img src="../images/clear.gif" width="100%" height="1" alt="" border="0" style="margin: 1px 0px 0px 0px; background: #e8e8e9;" align="top"><br clear="all">
-	<div  style="padding: 0px 5px 0px 4px;">
-<!-- #include file="../relinfonav.asp" -->
-	</div>
-</div>
 				</td>
 			</tr>
 		</table>

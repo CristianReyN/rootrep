@@ -2,8 +2,8 @@
 			<tr valign="top"><td colspan="2" valign="top" class="divt"><img src="../images/clear.gif" width="100%" height="4" alt="" border="0"></td></tr>
 			<tr valign="top">
 				<td width="100%" colspan="2" valign="top">
-<img src="../images/corpinfo.jpg" width="578" height="166" alt="With a national and global presence - there&acute;s a lot of opportunity to grow." title="With a national and global presence - there&acute;s a lot of opportunity to grow." border="0">
-<div class="hidden">With a national and global presence - there&acute;s a lot of opportunity for me to grow within Bank of America.</div>
+<img src="../images/corpinfo.jpg" width="578" height="166" alt="At Bank of America, I have an opportunity to shape the future of banking." title="At Bank of America, I have an opportunity to shape the future of banking." border="0">
+<div class="hidden">Corporate Information. At Bank of America, I have an opportunity to shape the future of banking.</div>
 				</td>
 			</tr>
 			<tr valign="top"><td colspan="2" valign="top" class="divb"><img src="../images/clear.gif" width="100%" height="4" alt="" border="0"></td></tr>
