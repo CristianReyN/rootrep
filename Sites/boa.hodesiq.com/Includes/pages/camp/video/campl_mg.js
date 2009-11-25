@@ -1,6 +1,6 @@
 
 
-var tony_video, chris_video, malcolm_video, guan_video;
+var tony_video, chris_video, malcolm_video, guan_video, nathan_video;
 
 tony_video = new fvideo(
 					"../Includes/pages/college/Tony.swf",
@@ -43,6 +43,17 @@ guan_video = new fvideo(
 					"#vt",
 					"../Includes/pages/camp/video/thumbnails/guan_on.jpg",
 					"../Includes/pages/camp/video/thumbnails/guan_off.jpg",
+					null,
+					null
+					);
+
+nathan_video = new fvideo(
+					"../Includes/pages/college/Nathan.swf",
+					false,
+					null,
+					"#vt",
+					"../Includes/pages/camp/video/thumbnails/nathan_on.jpg",
+					"../Includes/pages/camp/video/thumbnails/nathan_off.jpg",
 					null,
 					null
 					);
