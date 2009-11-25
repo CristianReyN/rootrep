@@ -31,10 +31,10 @@ Enjoy!
 <%
 	mg = Request("mg")
 %>
-<div align="center" style="margin: 0px; padding: 0px; width: 100%;">
+<div align="left" style="margin: 0px; padding: 0px; width: 100%;">
 <form name="media_galery" action="media_gallery.asp">
 <select name="mg" id="mg" title="Select a Job area/Line of business"<%If page_section <> "ADA" Then%> onchange="this.form.submit();"<%End If%>>
-	<option value=""<%If mg="" Then Response.write " selected"%>>Select a Job area/Line of business</option>
+	<option style="font-style : italic; color: #666666; text-align: center;" value=""<%If mg="" Then Response.write " selected"%>><center>Job Area or Line of Business</center></option>
 	<option value="admin"<%If mg="admin" Then Response.write " selected"%>>Administration</option>
 	<option value="lobbcc"<%If mg="lobbcc" Then Response.write " selected"%>>Banking Center Channel</option>
 	<option value="lobcf"<%If mg="lobcf" Then Response.write " selected"%>>CFO Group/Finance</option>
@@ -42,12 +42,9 @@ Enjoy!
 	<option value="corpwp"<%If mg="corpwp" Then Response.write " selected"%>>Corporate Workplace</option>
 	<option value="divinc"<%If mg="divinc" Then Response.write " selected"%>>Diversity and Inclusion</option>
 	<option value="csbbam"<%If mg="csbbam" Then Response.write " selected"%>>Global Consumer &amp; Small Business Banking</option>
-	<option value="lobgcib"<%If mg="lobgcib" Then Response.write " selected"%>>Global Corporate and Investment Banking</option>
 	<option value="qpa"<%If mg="qpa" Then Response.write " selected"%>>Global Corporate Planning and Strategy</option>
-	<option value="ghrld"<%If mg="ghrld" Then Response.write " selected"%>>Global Human Resources</option>
+	<option value="lobghr"<%If mg="lobghr" Then Response.write " selected"%>>Global Human Resources</option>
 	<option value="lobgmca"<%If mg="lobgmca" Then Response.write " selected"%>>Global Marketing &amp; Corporate Affairs</option>
-	<option value="lobgwim"<%If mg="lobgwim" Then Response.write " selected"%>>Global Wealth &amp; Investment Management</option>
-	<option value="lobghr"<%If mg="lobghr" Then Response.write " selected"%>>Human Resources</option>
 	<option value="mvr"<%If mg="mvr" Then Response.write " selected"%>>Military and Veteran Recruiting</option>
 	<option value="mrtc"<%If mg="mrtc" Then Response.write " selected"%>>Mortgage</option>
 	<option value="lobnbcc"<%If mg="lobnbcc" Then Response.write " selected"%>>Non-Banking Center Channel / Customer Care</option>
@@ -58,7 +55,7 @@ Enjoy!
 </select><%If page_section = "ADA" Then%><input name="Select" alt="Select" value="Select" title="Select" type="Submit"  class="btn"/><%End If%>
 </form>
 </div>
-<div align="center" style="margin: 0px; padding: 0px; width: 100%;">
+<div align="left" style="margin: 0px; padding: 0px; width: 100%;">
 <%
 If page_section <> "ADA" Then
 	ada_href = ada_href & "?mg=" & mg
@@ -128,52 +125,31 @@ Select Case mg
 			<!-- #include file="camp/video/erin.asp" -->
 			<img class="dotdiv" style="margin: 12px 0px 0px 0px;" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
 <%
-	Case "lobgcib"%>
-			<img class="dotdiv" style="margin: 0px 0px 12px 0px;" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
-			<!-- #include file="lob/shuwen.asp" -->
-<%		If page_section <> "ADA" Then %>
-			<a href="#video" class="hlink">Shu-Wen&acute;s Associate Testimonial Video</a>
-<%		End If%>
-			<img class="dotdiv" style="margin: 12px 0px 12px 0px;" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
-			<div style=" width: 205px; text-align: left;"><!-- #include file="faq/sheila.asp" --></div>
-<%
 	Case "qpa"%>
 			<img class="dotdiv" style="margin: 0px 0px 12px 0px;" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
 			<!-- #include file="camp/video/anne.asp" -->
 			<img class="dotdiv" style="margin: 12px 0px 0px 0px;" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
 <%
 	Case "ghrld"%>
-			<img class="dotdiv" style="margin: 0px 0px 12px 0px;" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
-			<!-- #include file="camp/video/nathan.asp" -->
-			<img class="dotdiv" style="margin: 12px 0px 0px 0px;" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
 <%
 	Case "lobgmca"%>
 			<img class="dotdiv" style="margin: 0px 0px 12px 0px;" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
-			<!-- #include file="lob/craig.asp" -->
-<%		If page_section <> "ADA" Then %>
-			<a href="#video" class="hlink">Craig&#39;s Associate Testimonial Video</a>
-<%		End If%>
-			<img class="dotdiv" style="margin: 12px 0px 12px 0px;" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
+<script language="JavaScript1.2" src="../Includes/pages/lob/lob.js" type="text/javascript"></script>
+<script language="JavaScript1.2" type="text/javascript">
+var ada_href = "<%=ada_href %>";
+action_script = true;
+</script>
 			<div style=" width: 205px; text-align: left;"><!-- #include file="faq/nancy.asp" --></div>
 <%
-	Case "lobgwim"
+	Case "lobghr"
 			suf_fix = "mg" %>
-			<img class="dotdiv" style="margin: 0px 0px 12px 0px;" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
-			<!-- #include file="lob/jeremy.asp" -->
-<%		If page_section <> "ADA" Then %>
-			<a href="#video" class="hlink">Jeremy&#39;s Associate Testimonial Video</a>
-<%		End If%>
-			<img class="dotdiv" style="margin: 12px 0px 12px 0px;" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
-			<div style=" width: 205px; text-align: left;"><!-- #include file="camp/video/malcolm.asp" --></div>
-			<img class="dotdiv" style="margin: 12px 0px 12px 0px;" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
-			<div style=" width: 205px; text-align: left;"><!-- #include file="faq/tara.asp" --></div>
-<%
-	Case "lobghr"%>
 			<img class="dotdiv" style="margin: 0px 0px 12px 0px;" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
 			<!-- #include file="lob/cambra.asp" -->
 <%		If page_section <> "ADA" Then %>
 			<a href="#video" class="hlink">Gretchen Cambra&#39;s Associate Testimonial Video</a>
 <%		End If%>
+			<img class="dotdiv" style="margin: 12px 0px 12px 0px;" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
+			<div style=" width: 205px; text-align: left;"><!-- #include file="camp/video/nathan.asp" --></div>
 			<img class="dotdiv" style="margin: 12px 0px 12px 0px;" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
 			<div style=" width: 205px; text-align: left;"><!-- #include file="faq/ryan.asp" --></div>
 <%
@@ -201,8 +177,7 @@ Select Case mg
 <%		End If%>
 			<img class="dotdiv" style="margin: 12px 0px 6px 0px;" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
 			<div style="width: 201px; text-align: center; margin: 0px 0px 0px 0px; padding: 0px;"><!-- #include file="../rjp.asp" --></div>
-			<img class="dotdiv" style="margin: 12px 0px 12px 0px;" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
-			<div style=" width: 205px; text-align: left;"><!-- #include file="faq/alejandro.asp" --></div>
+			<img class="dotdiv" style="margin: 12px 0px 0px 0px;" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
 <%
 	Case "oper"%>
 			<img class="dotdiv" style="margin: 0px 0px 12px 0px;" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
@@ -229,9 +204,7 @@ Select Case mg
 <%		If page_section <> "ADA" Then %>
 			<a href="#video" class="hlink">Allen Price&acute;s Associate Testimonial Video</a>
 <%		End If%>
-			<img class="dotdiv" style="margin: 12px 0px 12px 0px;" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
-			<div style=" width: 205px; text-align: left;"><!-- #include file="camp/video/guan.asp" --></div>
-			<img class="dotdiv" style="margin: 12px 0px 12px 0px;" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
+			<img class="dotdiv" style="margin: 12px 0px 0px 0px;" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
 			<div style=" width: 205px; text-align: left;"><!-- #include file="faq/charles.asp" --></div>
 <%
 	Case "sales"%>

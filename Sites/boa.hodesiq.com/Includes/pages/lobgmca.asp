@@ -13,16 +13,8 @@
 			<tr valign="top">
 				<td width="100%" valign="top">
 <a name="skipmaincontent"></a><H1 class="hidden">Global Marketing &amp; Corporate Affairs</H1>
-<% If page_section = "ADA" Then %>
-<!-- #include file="lob/craig.asp" -->
 					<div align="right" style="float: right; margin: 0px 0px 0px <%=right_margin_split%>px; padding: 0px; width: 201px;">
-<% End If %>
-<% If page_section <> "ADA" Then %>
-					<div align="right" style="float: right; margin: 0px 0px 0px <%=right_margin_split%>px; padding: 0px; width: 259px;">
-<!-- #include file="lob/craig.asp" -->
-<a href="#video" class="hlink">Craig&#39;s Associate Testimonial Video</a>
-<% End If  %>
-<div style="width: 201px; text-align: left; border: 1px solid #e8e8e9; background: #ffffff; margin: 12px 0px 12px 0px; padding: 0px 0px 6px 0px;">
+<div style="width: 201px; text-align: left; border: 1px solid #e8e8e9; background: #ffffff; margin: 0px 0px 12px 0px; padding: 0px 0px 6px 0px;">
 	<H2 class="g" style="margin: 0px 0px 0px 0px;"><%=JOB_SEARCH_TITLE%></H2>
 	<img src="../images/clear.gif" width="100%" height="1" alt="" border="0" style="margin: 1px 0px 6px 0px; background: #e8e8e9;" align="top"><br clear="all">
 <!-- #include file="../jobsearch.asp" -->
@@ -38,7 +30,13 @@ Corporate Affairs - comprised of Corporate Communications, Global Community Impa
 <br><br>
 Our associates bring a variety of professional and educational experiences and backgrounds to their roles, including advertising, banking, consumer goods, financial services, hospitality, human resources, journalism, media production and retail disciplines.
 </p>
-<br>
+<br><% If page_section <> "ADA" Then %>
+<script language="JavaScript1.2" src="../Includes/pages/lob/lob.js" type="text/javascript"></script>
+<script language="JavaScript1.2" type="text/javascript">
+var ada_href = "<%=ada_href %>";
+action_script = true;
+</script>
+<% End If %>
 <!-- #include file="faq/nancy.asp" -->
 <br><br>
 <%	href_pre = ""

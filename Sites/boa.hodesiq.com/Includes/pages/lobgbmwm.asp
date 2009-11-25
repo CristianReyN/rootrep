@@ -25,19 +25,19 @@
 Bank&nbsp;of&nbsp;America is one of the world&#39;s largest financial institutions, serving individual consumers, small- and middle-market businesses, large corporations and institutional investors with a full range of banking, investing, asset management and other financial and risk management products and services.
 </p>
 <p style="margin-top: 12px;">
-In addition to its Global Consumer &amp; Small Business Banking and Home Loans businesses, Bank&nbsp;of&nbsp;America includes the following Global Banking, Markets and Wealth Management businesses that serve more than three million clients around the world: 
+In addition to its Global Consumer &amp; Small Business Banking and Home Loans businesses, Bank&nbsp;of&nbsp;America includes the following Global Banking, Markets and Wealth Management businesses that serve more than three million clients world wide.
+</p>
+<p style="margin-top: 12px;">
+<b>Global Banking &amp; Markets (GBM)</b> serves more than 3,000 institutional investors, including asset managers, banks, hedge funds, insurance companies and pension funds, and more than 10,000 issuer clients, including middle market and large corporations, financial institutions and government entities.
+</p>
+<p style="margin-top: 12px;">
+It consists of Global Corporate &amp; Investment Banking, Global Markets and Global Corporate Banking. Aligned with these client-facing groups are Global Capital Markets, Global Research, and Global Banking, Markets and Wealth Management Technology and Operations.
 </p>
 <p style="margin-top: 12px;">
 <b>Global Commercial Banking (GCB)</b> serves more than 160,000 companies, ranging in size from $2.5 million to more than $2 billion in annual revenues.
 </p>
 <p style="margin-top: 12px;">
 Global Commercial Banking provides mid-size companies with seamless, integrated delivery of all Global Banking &amp; Markets and Global Wealth &amp; Investment Management products and solutions, including credit, treasury solutions and liquidity, investment banking, capital markets, risk management, wealth management and retirement services.
-</p>
-<p style="margin-top: 12px;">
-<b>Global Banking &amp; Markets (GBM)</b> serves more than 3,000 institutional investors, including asset managers, banks , hedge funds, insurance companies and pension funds, and more than 10,000 issuer clients, including middle market and large corporations, financial institutions and government entities.
-</p>
-<p style="margin-top: 12px;">
-It consists of Global Corporate &amp; Investment Banking, Global Markets and Global Corporate Banking. Aligned with these client-facing groups are Global Capital Markets and Global Research, as well as technology and operations.
 </p>
 <p style="margin-top: 12px;">
 <b>Global Wealth &amp; Investment Management (GWIM)</b> provides comprehensive wealth management to affluent and high-net-worth clients. It also provides retirement and benefit plan services, philanthropic management and asset management to individuals and institutions.
@@ -48,11 +48,11 @@ Through Merrill Lynch Global Wealth Management and U.S. Trust, Bank&nbsp;of&nbsp
 <br>
 <a href="<%	if page_section <> "ADA" then%>../gcib/<% Else %>lobgcib.asp<%End If %>" class="left2" title="Global Banking &amp; Markets">Global Banking &amp; Markets</a>
 <br><br>
+<a href="<%	if page_section <> "ADA" then%>../globalcommercialbanking/<% Else %>lobgcb.asp<%End If %>" class="left2" title="Global Commercial Banking">Global Commercial Banking</a>
+<br><br>
 <a href="<%	if page_section <> "ADA" then%>../wealthmanagement/<% Else %>lobgwim.asp<%End If %>" class="left2" title="Global Wealth &amp; Investment Management">Global Wealth &amp; Investment Management</a>
 <br><br>
 <a href="<%	if page_section <> "ADA" then%>../financialadvisor/<% Else %>lobfa.asp<%End If %>" class="left2" title="Financial Advisor">Financial Advisor</a>
-<br><br>
-<a href="<%	if page_section <> "ADA" then%>../globalcommercialbanking/<% Else %>lobgcb.asp<%End If %>" class="left2" title="Global Commercial Banking">Global Commercial Banking</a>
 <br><br>
 				</td>
 			</tr>
