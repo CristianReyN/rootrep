@@ -65,6 +65,7 @@ if mpage = "camp" Then middle_content_padding = "padding: 0px 24px 0px 0px;"
 <!-- #include file="../Includes/env.asp" -->
 <!-- #include file="../Includes/url.asp" -->
 <!-- #include file="../Includes/conn.asp" -->
+<!-- #include file="../Includes/logo.asp" -->
 <script language="JavaScript1.2" type="text/javascript">
 //<!--
 	examineFontSize("body");
@@ -80,7 +81,7 @@ if mpage = "camp" Then middle_content_padding = "padding: 0px 24px 0px 0px;"
 	<td valign="top" colspan="3" height="71">
 		<table width="750" border="0" cellspacing="0" cellpadding="0" summary="">
 			<tr>
-				<td width="262" valign="top"><table cellpadding="0" cellspacing="0" border="0"><tr><td><a name="top"></a><a href="#skipmaincontent" title="Skip To Main Content."><img src="../images/clear.gif" width="1" height="69" alt="Skip To Main Content." border="0" /></a></td><td><img src="../images/clear.gif" width="10" height="69" alt="" border="0" /></td><td><a href="http://www.bankofamerica.com/" title="Bank of America home page"><img src="../images/mhd_reg_logo.gif" width="250" height="69" alt="Bank of America home page" border="0" /></a></td><td><a href="http://www.bankofamerica.com/help/index.cfm?template=sitemap.cfm" title="Go to site map."><img src="../images/clear.gif" width="1" height="69" alt="Go to site map." border="0" /></a></td></tr></table></td>
+				<td width="262" valign="top"><table cellpadding="0" cellspacing="0" border="0"><tr><td><a name="top"></a><a href="#skipmaincontent" title="Skip To Main Content."><img src="../images/clear.gif" width="1" height="69" alt="Skip To Main Content." border="0" /></a></td><td><img src="../images/clear.gif" width="10" height="69" alt="" border="0" /></td><td><a href="http://www.bankofamerica.com/" title="Bank of America home page"><img src="<%=getLogoImageURL()%>" width="250" height="69" alt="Bank of America home page" border="0" /></a></td><td><a href="http://www.bankofamerica.com/help/index.cfm?template=sitemap.cfm" title="Go to site map."><img src="../images/clear.gif" width="1" height="69" alt="Go to site map." border="0" /></a></td></tr></table></td>
 				<td width="232"><img src="../images/clear.gif" width="1" height="69" alt="" border="0" /></td>
 				<td width="256" valign="bottom">
 					<table width="100%" border="0" cellspacing="0" cellpadding="0" summary="">
