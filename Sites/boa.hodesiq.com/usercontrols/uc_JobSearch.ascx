@@ -27,7 +27,10 @@
 								                </asp:DropDownList>																						
 							                    </td>
 							            </tr>
-							        </table>					 
+							        </table>	
+	                        <asp:Panel ID="PnlCanada" runat="server" Visible="false" >	                          
+                            </br>&nbsp;&nbsp;<a id="LnkCanada"  class="p" onclick="javascript:window.open('http://ig12.i-grasp.com/fe/tpl_bankofamerica06.asp','newwin','width=640,height=371,scrollbars=yes,resizable=yes,left=35,top=161');"  title="Search and apply for jobs in Canada." runat="server">Search and apply</a> for jobs in &nbsp;&nbsp;Canada.</br></br></asp:Panel>
+							
 							        <asp:Panel ID="PnlFilter" runat="server">
 							        <table width="190" border="0" align="center" cellpadding="0" cellspacing="0" summary="Guided Job Search">							
 							        <tr id="trInternationalLocation" runat="server"  visible="false">							

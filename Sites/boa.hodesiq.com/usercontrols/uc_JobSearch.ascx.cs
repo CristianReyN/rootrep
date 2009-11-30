@@ -89,6 +89,16 @@ public partial class uc_JobSearch : System.Web.UI.UserControl
             TrUsJobs2.Visible = true;
             TrUsJobs3.Visible = true;
             //TrUsJobs4.Visible = true;
+            PnlCanada.Visible = false;            
+
+        } else if (Country.SelectedValue == Location.CANADA)
+        {
+            TrUsJobs1.Visible = false;
+            TrUsJobs2.Visible = false;
+            TrUsJobs3.Visible = false;
+            PnlCanada.Visible = true;
+            PnlFilter.Visible = false;
+        
         }
         else
         {
@@ -96,6 +106,7 @@ public partial class uc_JobSearch : System.Web.UI.UserControl
             TrUsJobs2.Visible = false;
             TrUsJobs3.Visible = false;
             //TrUsJobs4.Visible = false;
+             PnlCanada.Visible = false;             
         }
 
     }
