@@ -166,7 +166,7 @@ create_safebutton("<%=begin%>","javascript: _submit();",0,0,0,0,"<%=begin%>");
 	<li>In the Subject Line of your email, include "Source = Bank of America Careers"</li>
 </ul>
 <p style="margin: 3px 0px 3px 0px;">
-<a href="manage_your_profile.asp" target="<%=OVERVIEW_TARGET%>" class="p" style="margin: 0px 0px 0px 0px;" title="Manage Your Profile<% If OVERVIEW_TARGET = "_blank" Then %>. Link opens a new window.<% End If%>">Manage Your Profile<span class="ada-label">If you have any difficulties, refer to above alternatives.</span></a>
+<a href="../overview/manage_your_profile.asp" target="<%=OVERVIEW_TARGET%>" class="p" style="margin: 0px 0px 0px 0px;" title="Manage Your Profile<% If OVERVIEW_TARGET = "_blank" Then %>. Link opens a new window.<% End If%>">Manage Your Profile<span class="ada-label">If you have any difficulties, refer to above alternatives.</span></a>
 </p>
 <p style="margin: 3px 0px 0px 0px;">Create or update your existing candidate profile.</p>
 <img class="dotdiv" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
