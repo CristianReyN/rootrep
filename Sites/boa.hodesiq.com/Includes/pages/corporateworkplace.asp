@@ -42,7 +42,7 @@ rowcount=6
 	<br><br>
 </div>
 <% If page_section = "ADA" Then %>
-<div style="float: right; margin: 0px 0px 0px 20px; padding: 0px; width: 201px;">
+<div style="float: right; margin: 0px 0px 0px 18px; padding: 0px; width: 203px;">
 	<!-- #include file="cw/cw.asp" -->
 <% ElseIf page_section <> "ADA" Then %>
 <div align="right" style="float: right; margin: 0px 0px 0px 20px; padding: 0px; width: 259px;">

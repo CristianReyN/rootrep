@@ -2,8 +2,8 @@
 			<tr valign="top"><td colspan="2" valign="top" class="divt"><img src="../images/clear.gif" width="100%" height="4" alt="" border="0"></td></tr>
 			<tr valign="top">
 				<td width="100%" colspan="2" valign="top">
-<img src="../images/gcb.jpg" width="578" height="166" alt="Bank of America/Merrill Lynch Global Commercial Banking" title="Bank of America/Merrill Lynch Global Commercial Banking" border="0">
-<div class="hidden">Bank of America/Merrill Lynch Global Commercial Banking</div>
+<img src="../images/gcb.jpg" width="578" height="166" alt="Global Commercial Banking" title="Global Commercial Banking" border="0">
+<div class="hidden">Global Commercial Banking</div>
 				</td>
 			</tr>
 			<tr valign="top"><td colspan="2" valign="top" class="divb"><img src="../images/clear.gif" width="100%" height="4" alt="" border="0"></td></tr>
