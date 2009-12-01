@@ -24,5 +24,9 @@ public partial class asia_benefits : System.Web.UI.Page
         theMetaTag.Attributes.Add("name", "Description");
         theMetaTag.Attributes.Add("content", "Benefits in Canada Overview page for the Global Careers site. This page outlines benefits available to employees in Canada and allows search for open international jobs.");
         Page.Header.Controls.Add(theMetaTag);
+
+        HtmlImage Img = (HtmlImage)Page.Master.FindControl("ImgHeaderLogo");
+        Img.Src = "images/BankofAmerica_Merrill_Lynch_250_69.jpg";
+        Img.Alt = "Bank of America Merrill Lynch";
     }
 }

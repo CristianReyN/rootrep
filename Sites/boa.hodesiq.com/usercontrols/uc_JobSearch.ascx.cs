@@ -98,6 +98,7 @@ public partial class uc_JobSearch : System.Web.UI.UserControl
             TrUsJobs3.Visible = false;
             PnlCanada.Visible = true;
             PnlFilter.Visible = false;
+            tblButtons.Visible = false;
         
         }
         else
@@ -191,7 +192,7 @@ public partial class uc_JobSearch : System.Web.UI.UserControl
         Country.DataSource = dr;
         Country.DataBind();
 
-        Country.Items.Add(new ListItem("Select a country",Location.ALL_COUNTRIES));
+        Country.Items.Insert(0,new ListItem("Select a country",Location.ALL_COUNTRIES));
         dr.Close();
        
     }
@@ -310,6 +311,8 @@ public partial class uc_JobSearch : System.Web.UI.UserControl
             keywords.Text = "";
         }
 
+        tblButtons.Visible = true;
+
         if (Country.SelectedValue == Location.ALL_COUNTRIES)
         {
             PnlFilter.Visible = false;
@@ -322,7 +325,7 @@ public partial class uc_JobSearch : System.Web.UI.UserControl
             PnlFilter.Visible = true;
             Country.AutoPostBack = true;
             BtnSearch.Visible = true;
-            BtnBegin.Visible = false;
+            BtnBegin.Visible = false;           
         }
     }
 

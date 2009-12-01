@@ -21,6 +21,9 @@ public partial class ada_boaml : System.Web.UI.Page
     Page.Header.Controls.Add(theMetaTag);
 	
  Session["leftnavswap"] = "Asia";
+ HtmlImage Img = (HtmlImage)Page.Master.FindControl("ImgHeaderLogo");
+ Img.Src = "images/BankofAmerica_Merrill_Lynch_250_69.jpg";
+ Img.Alt = "Bank of America Merrill Lynch";
     }
 }
 

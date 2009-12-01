@@ -86,6 +86,8 @@ public partial class JobSearch : System.Web.UI.Page
             PnlResults.Visible = false;
             PnlFilter.Visible = false;
             PnlCanada.Visible = true;
+            BtnBegin.Visible = false;
+            BtnSearch.Visible = false;
         }
         else
         {
@@ -535,7 +537,7 @@ public partial class JobSearch : System.Web.UI.Page
         Country.DataBind();      
         dr.Close();
 
-        Country.Items.Add(new ListItem("Select a country", Location.ALL_COUNTRIES));
+        Country.Items.Insert(0,new ListItem("Select a country", Location.ALL_COUNTRIES));
 
     }
 

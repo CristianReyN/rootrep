@@ -28,8 +28,11 @@
 							                    </td>
 							            </tr>
 							        </table>	
-	                        <asp:Panel ID="PnlCanada" runat="server" Visible="false" >	                          
-                            </br>&nbsp;&nbsp;<a id="LnkCanada"  class="p" onclick="javascript:window.open('http://ig12.i-grasp.com/fe/tpl_bankofamerica06.asp','newwin','width=640,height=371,scrollbars=yes,resizable=yes,left=35,top=161');"  title="Search and apply for jobs in Canada." runat="server">Search and apply</a> for jobs in &nbsp;&nbsp;Canada.</br></br></asp:Panel>
+	                        <asp:Panel ID="PnlCanada" runat="server" Visible="false" >	                          	           
+	                                       <p style="margin: 3px 0px 3px 0px;">
+	                       <img class="dotdiv" src="images/clear.gif" width="100%" height="1" alt="" border="0">
+	          
+                                &nbsp;&nbsp;<a id="LnkCanada"  class="p" onclick="javascript:window.open('http://ig12.i-grasp.com/fe/tpl_bankofamerica06.asp','newwin','width=640,height=371,scrollbars=yes,resizable=yes,left=35,top=161');"  title="Search and apply for jobs in Canada. Link opens in a new window." runat="server">Search and apply</a> for jobs in &nbsp;&nbsp;Canada.</asp:Panel>
 							
 							        <asp:Panel ID="PnlFilter" runat="server">
 							        <table width="190" border="0" align="center" cellpadding="0" cellspacing="0" summary="Guided Job Search">							
@@ -94,9 +97,10 @@
 							            </td>
 
 						            </tr>
-						    </table></asp:Panel><br />
+						    </table></asp:Panel> <p style="margin: 6px 0px 6px 0px;">   
 						 
-						<table width="190" border="0" align="center" cellpadding="0" cellspacing="0" summary="Guided Job Search">							
+						<table id="tblButtons" runat="server" width="190" border="0" align="center" cellpadding="0" cellspacing="0" summary="Guided Job Search">							
+						
 						<tr>
 							<td valign="top" align="left" colspan="2">
 								<table border="0" cellspacing="0" cellpadding="0">
@@ -106,7 +110,7 @@
 										<td align="center" valign="top"> <asp:LinkButton ID="BtnSearch" runat="server" CssClass="ie-btn1" OnClick="bsearch_Click" Width="80px" ToolTip=" Begin Search">Begin Search</asp:LinkButton> </td>
 										<td width="10">&nbsp;</td>
 										<td align="left" valign="top"><asp:HyperLink runat="server" ID="lnkJobCart" NavigateUrl="~/jobcart.aspx" Text="View job cart" CssClass="p" ToolTip="View job cart" Visible="false" /></td>
-									</tr>	</table><br />
+									</tr>	</table> </br>
 																			
 							</td>
 						</tr>
@@ -114,7 +118,7 @@
 						<tr id="TrUsJobs1" runat="server">						
 					    <td height="14" align="left" valign="bottom" style="background-image: url(images/dotted.gif);
                                     background-position: left top; background-repeat: repeat-x;">
-						    </br><a href="../overview/manage_your_profile.asp" target="_blank" class="p" onblur="this.className='p';" onfocus="this.className='p-over';"  title="Manage your profile">Manage Your Profile</a>
+						 </br>  <a href="overview/manage_your_profile.asp" target="_blank" class="p" onblur="this.className='p';" onfocus="this.className='p-over';"  title="Manage your profile">Manage Your Profile</a>
 						</td>
 						</tr>
 						<tr id="TrUsJobs2" runat="server" valign="top">

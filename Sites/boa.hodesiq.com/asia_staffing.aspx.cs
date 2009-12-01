@@ -23,5 +23,9 @@ public partial class asia_staffing : System.Web.UI.Page
         theMetaTag.Attributes.Add("name", "Description");
         theMetaTag.Attributes.Add("content", "Staffing Process in Asia overview for the Global Careers site. This page outlines the application process and expectations, allows job search for available international opportunities and online CV submission.");
         Page.Header.Controls.Add(theMetaTag);
+
+             HtmlImage Img = (HtmlImage)Page.Master.FindControl("ImgHeaderLogo");
+         Img.Src = "images/BankofAmerica_Merrill_Lynch_250_69.jpg";
+         Img.Alt = "Bank of America Merrill Lynch";
     }
 }

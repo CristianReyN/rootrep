@@ -21,5 +21,9 @@ public partial class asia_lob : System.Web.UI.Page
         theMetaTag.Attributes.Add("name", "Description");
         theMetaTag.Attributes.Add("content", "Lines of Business in Asia overview page of the Global Careers site. This page provides details of the Bank's specific business concentrations and allows job search for available international opportunities.");
         Page.Header.Controls.Add(theMetaTag);
+
+        HtmlImage Img = (HtmlImage)Page.Master.FindControl("ImgHeaderLogo");
+        Img.Src = "images/BankofAmerica_Merrill_Lynch_250_69.jpg";
+        Img.Alt = "Bank of America Merrill Lynch";
     }
 }
