@@ -118,7 +118,7 @@
 						<tr id="TrUsJobs1" runat="server">						
 					    <td height="14" align="left" valign="bottom" style="background-image: url(images/dotted.gif);
                                     background-position: left top; background-repeat: repeat-x;">
-						 </br>  <a href="overview/manage_your_profile.asp" target="_blank" class="p" onblur="this.className='p';" onfocus="this.className='p-over';"  title="Manage your profile">Manage Your Profile</a>
+						 </br>  <a href="overview/manage_your_profile.asp" target="_blank" class="p" onblur="this.className='p';" onfocus="this.className='p-over';"  title="Manage your profile">Manage Your Profile</a><p style="margin: 6px 0px 6px 0px;" />
 						</td>
 						</tr>
 						<tr id="TrUsJobs2" runat="server" valign="top">
