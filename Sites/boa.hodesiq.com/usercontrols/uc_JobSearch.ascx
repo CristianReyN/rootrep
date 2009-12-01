@@ -1,22 +1,20 @@
 ﻿<%@ Control Language="C#" AutoEventWireup="true" CodeFile="uc_JobSearch.ascx.cs" Inherits="uc_JobSearch" %>
 <link href="../resources/style.css" rel="stylesheet" type="text/css" />
-<table width="200" border="0" cellspacing="0" cellpadding="0" summary="">
-                          <tr>
-                            <td width="200" height="22" align="left" valign="middle" style="background-image:url(images/search_results_31.gif); background-position: right top; background-repeat:no-repeat;  "> <h2 class="g-bold" style="margin: 0px;"><a name="jobsearch"></a>Guided Job Search</h2></td>
-                          </tr>
-                          <tr>
-                                <td width="200"  valign="top" style="border:1px solid #e8e8e8;">
-                                    <table width="200" border="0" cellpadding="0" cellspacing="0" summary="Guided Job Search">
-                                        <tr><td>    <p><span class='auraltext'>
-                                            After you select a country from the country field, the page will refresh. For the United States, you can then pick a state.  After you select a state from the 'State" field, the page will refresh.  You will then be able to select a city from the 'City' field.  For all other countries, after you select a country other than the United States from the country field, the page will refresh and you can then select a city from the 'City' field.
-                                            </span></p></td></tr>
-                                        <tr>
-                                            <td width="200" align="left" valign="top"  style="padding:6px 6px 0px 6px;" ><p style="margin: 0px;">To find a career suited to your skill set, begin by selecting a country from the list below. Then you may narrow your selection further by choosing additional search criteria and/or entering keywords.</p> <br /> </td></tr>
-                                        <tr>
-              
-                                            <td height="1" align="left" valign="top" style="background-image:url(images/dotted.gif); background-position:left top; background-repeat:repeat-x;  "></td>
-                                        </tr>
-                                    </table></br>
+<table width="205" border="0" cellspacing="0" cellpadding="0" summary="">
+                       <tr>
+<td width="205" height="100%" valign="top">
+    <div style="border: 1px solid #e8e8e9; margin: 0px 0px 12px 0px; padding: 0px 0px 6px 0px;">
+	<H2 class="g-bold" style="margin: 0px 0px 0px 0px;">Guided Job Search</H2>
+	<img src="images/clear.gif" width="100%" height="1" alt="" border="0" style="margin: 1px 0px 6px 0px; background: #e8e8e9;" align="top"/></br">
+
+    <table width="192" cellpadding="0" cellspacing="0" border="0" summary="" style="margin: 0px 5px 0px 4px">
+	<tr>
+			<td style="padding: 0px 0px 0px 0px;">
+                <p style="margin: 0px;">To find a career suited to your skill set, begin by selecting a country from the list below. Then you may narrow your selection further by choosing additional search criteria and/or entering keywords.</p>
+                <p class="ada-label">After you select a country from the country field, the page will refresh. For the United States, you can then pick a state.  After you select a state from the 'State' field, the page will refresh.  You will then be able to select a city from the 'City' field.  For all other countries, after you select a country other than the United States from the country field, the page will refresh and you can then select a city from the 'City' field.</p>
+                <img class="dotdiv" src="images/clear.gif" width="100%" height="1" alt="" border="0"/>
+	
+
                                     <table width="190" border="0" align="center" cellpadding="0" cellspacing="0" summary="Guided Job Search">							     
                                         <tr align="left">
 							                    <td  valign="top"  style="width:193px;height:38;" align="left">
@@ -32,7 +30,7 @@
 	                                       <p style="margin: 3px 0px 3px 0px;">
 	                       <img class="dotdiv" src="images/clear.gif" width="100%" height="1" alt="" border="0">
 	          
-                                &nbsp;&nbsp;<a id="LnkCanada"  class="p" onclick="javascript:window.open('http://ig12.i-grasp.com/fe/tpl_bankofamerica06.asp','newwin','width=640,height=371,scrollbars=yes,resizable=yes,left=35,top=161');"  title="Search and apply for jobs in Canada. Link opens in a new window." runat="server">Search and apply</a> for jobs in &nbsp;&nbsp;Canada.</asp:Panel>
+                                &nbsp;&nbsp;<a href="http://ig12.i-grasp.com/fe/tpl_bankofamerica06.asp" target="_blank" class="p" style="margin: 0px 0px 0px 0px;" title="Search and apply for jobs in Canada. Link opens a new window.">Search and apply</a> for jobs in &nbsp;&nbsp;Canada.</asp:Panel>
 							
 							        <asp:Panel ID="PnlFilter" runat="server">
 							        <table width="190" border="0" align="center" cellpadding="0" cellspacing="0" summary="Guided Job Search">							
@@ -129,7 +127,7 @@
                                     background-position: left top; background-repeat: repeat-x;">                      
 						</br><p style="margin: 0px 0px 0px 0px;">Bank of America associates should access the <a href="http://www.bankofamerica.com/careers/index.cfm?template=jobs_interstitial" id="A1" title="Internal Jobs Database" class="p" onblur="this.className='p';" onfocus="this.className='p-over';">internal jobs database.</a></p></br></td>
 						</tr>
-					</table></td></tr></table>
+					</table> </td></tr></table></div></td</tr></table>
 						
 					
 					
