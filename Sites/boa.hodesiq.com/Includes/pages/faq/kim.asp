@@ -1,4 +1,4 @@
-<H1 style="margin: 0px <%=right_margin%>px 9px <%=left_margin_0%>px; width: <%=(315-right_margin_split-left_margin_0)%>px;">Frequently Asked Questions</H1>
+<H2 class="h1" style="margin: 0px <%=right_margin%>px 9px <%=left_margin_0%>px; width: <%=(315-right_margin_split-left_margin_0)%>px;">Frequently Asked Questions</H2>
 <div style="margin: <% If page_section = "ADA" Then %>12<% Else %>0<%End If%>px <%=right_margin_split%>px 0px <%=left_margin_0%>px; width: <% If page_section <> "ADA" Then %><%=(315-right_margin_split-left_margin_0)%>px;<% Else %>100%<%End If%>">
 <% If page_section <> "ADA" Then %>
 <div id="panswer" style="width: 205px; height: 152px; text-align: left;">
