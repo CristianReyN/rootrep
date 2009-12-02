@@ -21,6 +21,7 @@
                 <p>
                   We know our people are the heart of our organisation.  That’s why we ensure they are empowered to take control of their careers and have the confidence and skills to develop and progress.  Which means you’ll be equipped to not only shape your own professional direction, but ours too.</p>
               
+                <p>But first, we’d like to help you get to know Bank of America better and discover the right path for you.</p>
               
                   <h2>Customer Contact Centres</h2> 
                 <p>
@@ -121,7 +122,7 @@ A variety of teams in our Business Development function drive activities to supp
 A business like ours requires a lot of support and a huge number of people working together.  <br />
 We are proud to have a number of centres of excellence which provide this support, including:<br />
 <ul>
-</li>	Human Resources</li>
+<li>	Human Resources</li>
 <li>	Technology</li>
 <li>	Legal</li>
 <li>	Finance</li>
