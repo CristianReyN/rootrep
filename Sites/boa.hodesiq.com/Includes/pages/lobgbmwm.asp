@@ -2,8 +2,8 @@
 			<tr valign="top"><td colspan="2" valign="top" class="divt"><img src="../images/clear.gif" width="100%" height="4" alt="" border="0"></td></tr>
 			<tr valign="top">
 				<td width="100%" colspan="2" valign="top">
-<img src="../images/lobgbmwm.jpg" width="578" height="166" alt="Bank&nbsp;of&nbsp;America" title="Bank&nbsp;of&nbsp;America" border="0">
-<div class="hidden">Bank&nbsp;of&nbsp;America</div>
+<img src="../images/lobgbmwm.jpg" width="578" height="166" alt="Global Banking, Markets and Wealth &amp; Investment Management" title="Global Banking, Markets and Wealth &amp; Investment Management" border="0">
+<div class="hidden">Global Banking, Markets and Wealth &amp; Investment Management.</div>
 				</td>
 			</tr>
 			<tr valign="top"><td colspan="2" valign="top" class="divb"><img src="../images/clear.gif" width="100%" height="4" alt="" border="0"></td></tr>
@@ -12,7 +12,7 @@
 		<table width="578" cellpadding="0" cellspacing="0" border="0" summary="">
 			<tr valign="top">
 				<td colspan="2" width="100%" valign="top">
-<a name="skipmaincontent"></a><H1 class="hidden">Global Banking, Markets &amp;amp; Wealth Management</H1>
+<a name="skipmaincontent"></a><H1 class="hidden">Global Banking, Markets and Wealth &amp; Investment Management</H1>
 					<div align="right" style="float: right; margin: 0px 0px 0px <%=right_margin_split%>px; padding: 0px; width: 201px;">
 <div style="width: 201px; text-align: left; border: 1px solid #e8e8e9; background: #ffffff; margin: 0px 0px 0px 0px; padding: 0px 0px 6px 0px;">
 	<H2 class="g" style="margin: 0px 0px 0px 0px;"><%=JOB_SEARCH_TITLE%></H2>

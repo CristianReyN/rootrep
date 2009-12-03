@@ -41,7 +41,7 @@
 </div>
 		</li>
 		<li id="locli"<%If mpage = "locations" Then %><%If spage = "" Then %> class="home"<%Else%> style="padding-bottom:0px;"<%End if %><%End if %>>
-<div<%If mpage = "locations" Then%> style="padding-right: 0px;"<%End If%>><a class="g" href="../locations/" id="camplia" title="Locations" onfocus="this.className='g-over';" onblur="this.className='g';">Locations</a>
+<div<%If mpage = "locations" Then%> style="padding-right: 0px;"<%End If%>><a class="g" href="../locations/" id="loclia" title="Locations" onfocus="this.className='g-over';" onblur="this.className='g';">Locations</a>
 <%
 	If mpage = "locations" Then
 		call LocationsNav(""," class=""home""")
@@ -59,7 +59,6 @@
 		</li>
 		<li<%If mpage = "fags" then Response.Write " style=""background: #eaf1f7;""" end if %>>
 <div><a class="g" href="../faq/faq.asp" title="Frequently Asked Questions" onfocus="this.className='g-over';" onblur="this.className='g';">Frequently Asked Questions</a></div>
-		</li>
 		</li>
 		<li<%If mpage = "feedback" then Response.Write " style=""background: #eaf1f7;""" end if %>>
 <div><a class="g" href="../feedback/feedback.asp" title="Give Us Your Feedback" onfocus="this.className='g-over';" onblur="this.className='g';">Give Us Your Feedback</a></div>

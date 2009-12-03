@@ -107,7 +107,7 @@ function changeCity()
 							<td width="<%=jwdt%>" nowrap style="padding: 0px 0px 0px 0px;">
 <label for="cityid" class="p" style="margin: 0px;"><b>City</b></label><br>
 <%If disable_city <> "" Then %><div style="position: absolute; height: 2.0em; width: <%=jwdt%>px; z-index: 100;" onclick="changeCity();">&nbsp;</div><% End If %>
-<div id="L102" style="position: relative; z-index: 12;">
+<div id="L103" style="position: relative; z-index: 12;">
 <% 
 	call getCitySelect(disable_city," style=""position: relative; width: 100%; z-index: auto;"&display&"""")
 %>
@@ -141,7 +141,7 @@ function changeCity()
 <div id="L107" style="position: relative; z-index: 12;">
 <img class="dotdiv" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
 <p style="margin: 3px 0px 3px 0px;">
-<a href="http://ig12.i-grasp.com/fe/tpl_bankofamerica06.asp" target="_blank" class="p" style="margin: 0px 0px 0px 0px;" title="Search and apply for jobs in Canada. Link opens a new window.">Search and apply for jobs in Canada.</a>
+<a href="http://ig12.i-grasp.com/fe/tpl_bankofamerica06.asp" target="_blank" class="p" style="margin: 0px 0px 0px 0px;" title="Search for jobs in Canada. Link opens a new window.">Search</a> and <a href="http://ig12.i-grasp.com/fe/tpl_bankofamerica06.asp" target="_blank" class="p" style="margin: 0px 0px 0px 0px;" title="Apply for jobs in Canada. Link opens a new window.">apply</a> for jobs in Canada.
 </p>
 </div>
 							</td>

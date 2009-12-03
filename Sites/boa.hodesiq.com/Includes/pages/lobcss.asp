@@ -17,7 +17,7 @@
 Bank&nbsp;of&nbsp;America Merrill Lynch&#39;s Support groups align with lines of business across the company to provide functional and logistical value.
 </p>
 <p style="margin: 12px 0px 0px 0px;">
-Careers within these groups are typically concentrated in one of the following specialised areas:
+Careers within these groups are typically concentrated in one of the following specialized areas:
 </p>
 <br>
 <h2 class="bacg"><a href="<%If page_section <> "ADA" Then%>../humanresources/<%Else%>lobghr.asp<%End If%>" class="bacb" title="Global Human Resources">Global Human Resources</a></h2>&nbsp;<p class="bacg">leverages leadership in the marketplace and enables the company to drive revenue by attracting, developing and retaining a world-class workforce.</p>
@@ -34,8 +34,7 @@ Careers within these groups are typically concentrated in one of the following s
 <br>
 <h2 class="bacg"><a href="<%If page_section <> "ADA" Then%>../corporateworkplace/<%Else%>corporateworkplace.asp<%End If%>" class="bacb" title="Corporate Workplace">Corporate Workplace</a></h2>&nbsp;<p class="bacg">partners with each line of business to craft solutions for project and facilities management, associate awareness, energy management and the acquisition and disposition of space.</p>
 
-<h2 class="bac" style="margin: 12px 0px 0px 0px;">Legal</h2>
-<p style="margin: 12px 0px 0px 0;">The Legal department is responsible for the provision of legal services for all of the company&#39;s activities across multiple jurisdictions and business activities. The department works closely with its Risk partners, including Compliance, Audit, Tax and Finance to identify and implement both best practices and legally compliant policies and procedures across the company&#39;s business and support unit activities.</p>
+<p style="margin: 12px 0px 0px 0;">The <b>Legal department</b> is responsible for the provision of legal services for all of the company&#39;s activities across multiple jurisdictions and business activities. The department works closely with its Risk partners, including Compliance, Audit, Tax and Finance to identify and implement both best practices and legally compliant policies and procedures across the company&#39;s business and support unit activities.</p>
 <p style="margin: 24px 0px 12px 0px;">
 <%	href_pre = ""
 	if page_section <> "ADA" then href_pre = "../learnmore/" %>
