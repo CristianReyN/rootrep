@@ -141,7 +141,7 @@ function changeCity()
 <div id="L107" style="position: relative; z-index: 12;">
 <img class="dotdiv" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
 <p style="margin: 3px 0px 3px 0px;">
-<a href="http://ig12.i-grasp.com/fe/tpl_bankofamerica06.asp" target="_blank" class="p" style="margin: 0px 0px 0px 0px;" title="Search for jobs in Canada. Link opens a new window.">Search</a> and <a href="http://ig12.i-grasp.com/fe/tpl_bankofamerica06.asp" target="_blank" class="p" style="margin: 0px 0px 0px 0px;" title="Apply for jobs in Canada. Link opens a new window.">apply</a> for jobs in Canada.
+<a href="http://ig12.i-grasp.com/fe/tpl_bankofamerica06.asp" target="_blank" class="p" style="margin: 0px 0px 0px 0px;" title="Search and apply for jobs in Canada. Link opens a new window.">Search and apply</a> for jobs in Canada.
 </p>
 </div>
 							</td>
