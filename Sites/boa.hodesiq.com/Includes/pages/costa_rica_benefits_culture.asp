@@ -16,7 +16,7 @@
 <a name="benefits"></a><H2 class="p" style="margin: 0px 0px 0px 0px; padding: 0px;"><b>Benefits</b></H2>
 
 <p style="margin-top: 12px;">
-At Bank of America encourages associates to maintain a balanced life style?  Our generous compensation and benefits package includes:
+Bank&nbsp;of&nbsp;America encourages associates to maintain a balanced life style. Our generous compensation and benefits package includes:
 </p>
 <ul style="margin-top: 3px;">
 	<li>Performance-based incentive bonus</li>
@@ -34,13 +34,13 @@ At Bank of America encourages associates to maintain a balanced life style?  Our
 
 <H2 class="p" style="margin: 12px 0px 0px 0px; padding: 0px;"><b>Diversity</b></H2>
 <p style="margin-top: 12px;">
-At Bank of America, we respect and value not only differences related to race, gender, gender identity, ethnicity, disability and sexual orientation, but also diversity of viewpoint, experience, talents and ideas. We strive to empower all associates to excel on the job and reach their full potential, and reward and recognize associates based on performance and results.
+At Bank&nbsp;of&nbsp;America, we respect and value not only differences related to race, gender, gender identity, ethnicity, disability and sexual orientation, but also diversity of viewpoint, experience, talents and ideas. We strive to empower all associates to excel on the job and reach their full potential, and reward and recognize associates based on performance and results.
 </p>
 <p style="margin-top: 12px;">
 In addition to being the right thing to do, encouraging a diverse, inclusive workplace gives us the business advantage of understanding and meeting the needs of our diverse customers, clients and shareholders. Our diversity also provides fresh ideas and perspectives, which promote ingenuity.
 </p>
 <p style="margin-top: 12px;">
-Bank of America is proud to be a leader in supporting diversity and has been widely recognized for its progressive workplace practices and initiatives to promote inclusion.
+Bank&nbsp;of&nbsp;America is proud to be a leader in supporting diversity and has been widely recognized for its progressive workplace practices and initiatives to promote inclusion.
 </p>
 
 
@@ -51,10 +51,10 @@ The following five values represent what we believe in as individuals and as a t
 <ul style="margin-top: 3px;">
 	<li><b>Doing the right thing</b><br>
 		We have the responsibility to do the right thing for our customers, shareholders, communities and one another.</li>
-	<li><b>Trusting & teamwork</b><br>
-		We succeed together, taking collective responsibility for our customers' satisfaction.</li>
+	<li><b>Trusting &nbsp; teamwork</b><br>
+		We succeed together, taking collective responsibility for our customers&#39; satisfaction.</li>
 	<li><b>Inclusive meritocracy</b><br>
-		We care about one another, value one another's differences, focus on results and strive to help all associates reach their full potential.</li>
+		We care about one another, value one another&#39;s differences, focus on results and strive to help all associates reach their full potential.</li>
 	<li><b>Winning</b><br>
 		We have a passion for achieving results and winning - for our customers, our shareholders, our communities and one another.</li>
 	<li><b>Leadership</b><br>

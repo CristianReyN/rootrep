@@ -52,10 +52,6 @@ rowcount=6
 %>
 <!--#include file="../../hot_jobs2.asp"-->
 </table>
-<%	If mpage = "lob" Then %>
-<br>
-<a href="../jobsearch/searchresult.asp?jobareas=2|-1&stateid=-1&cityid=-1&keywords=&SearchPage=Sp">View all jobs in Customer Care</a>
-<%	End If %>
 <br><br>
 				</td>
 			</tr>

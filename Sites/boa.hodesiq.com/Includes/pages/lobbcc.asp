@@ -56,10 +56,6 @@ To serve a customer base of more than 53 million consumer and small business cli
 <table cellpadding="2" cellspacing="0" border="0" summary="" style="margin-left: <%=left_margin_0%>px;">
 <!--#include file="../../hot_jobs.asp"-->
 </table>
-<%	If mpage = "lob" Then %>
-<br>
-<a href="../jobsearch/searchresult.asp?jobareas=10|-1&stateid=-1&cityid=-1&keywords=&SearchPage=Sp">View all jobs in Consumer Banking</a>
-<%	End If %>
 <br><br>
 				</td>
 			</tr>

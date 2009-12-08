@@ -55,10 +55,6 @@ rowcount=6
 %>
 <!--#include file="../../hot_jobs.asp"-->
 </table>
-<%	If mpage = "lob" Then %>
-<br>
-<a href="../jobsearch/searchresult.asp?jobareas=4|15&stateid=-1&cityid=-1&keywords=&SearchPage=Sp">View all jobs in Global Wealth and Investment Management</a>
-<%	End If %>
 <br><br>
 				</td>
 			</tr>

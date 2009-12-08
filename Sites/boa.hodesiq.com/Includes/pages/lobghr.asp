@@ -48,10 +48,6 @@ Interested in joining the "World&#39;s Most Admired Global Bank"? We invite you 
 <table cellpadding="2" cellspacing="0" border="0" summary="" style="margin-left: <%=left_margin_0%>px;">
 <!--#include file="../../hot_jobs.asp"-->
 </table>
-<%	If mpage = "lob" Then %>
-<br>
-<a href="../jobsearch/searchresult.asp?jobareas=5|-1&stateid=-1&cityid=-1&keywords=&SearchPage=Sp">View all jobs in Global Human Resources</a>
-<%	End If %>
 <br><br>
 				</td>
 			</tr>

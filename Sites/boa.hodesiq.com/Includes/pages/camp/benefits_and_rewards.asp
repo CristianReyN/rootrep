@@ -85,7 +85,7 @@ tabs[tab-1].coremetrics = true;
 		
 		<H3 class="bac" style="margin-top: 6px;">Financial and Retirement Support</H3>
 		<ul class="bac">
-			<li>Discounts and additional benefits on a wide range of banking and investing products - including checking accounts with no monthly maintenance fee or balance requirement, free checks, free or discounted annual safe deposit box rental and no fees for traveler&#39;s checks among others</li>
+			<li>Discounts and additional benefits on a wide range of banking and investing products - including checking accounts with no monthly maintenance fee or balance requirement, free checks and free or discounted annual safe deposit box rental among others</li>
 			<li> 	401K and pension plan<span style="font-size: 0.6em; position: relative; top: -0.6em;"><a href="#footnote2" title="Footnote 2 " class="p">&nbsp;2&nbsp;<span class="auraltext">Link to Footnote 2.</span></a></span></span></li>
 		</ul>
 		

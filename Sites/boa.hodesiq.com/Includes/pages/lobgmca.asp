@@ -52,10 +52,6 @@ rowcount=6
 %>
 <!--#include file="../../hot_jobs.asp"-->
 </table>
-<%	If mpage = "lob" Then %>
-<br>
-<a href="../jobsearch/searchresult.asp?jobareas=3|11&stateid=-1&cityid=-1&keywords=&SearchPage=Sp">View all jobs in Global Marketing and Corporate Affairs</a>
-<%	End If %>
 <br><br>
 				</td>
 			</tr>

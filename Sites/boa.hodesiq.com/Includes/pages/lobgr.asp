@@ -57,10 +57,6 @@ Specific areas of Global Risk Management are:
 <table cellpadding="2" cellspacing="0" border="0" summary="" style="margin-left: <%=left_margin_0%>px;">
 <!--#include file="../../hot_jobs.asp"-->
 </table>
-<%	If mpage = "lob" Then %>
-<br>
-<a href="../jobsearch/searchresult.asp?jobareas=7|-1&stateid=-1&cityid=-1&keywords=&SearchPage=Sp">View all jobs in Risk Management</a>
-<%	End If %>
 <br><br>
 				</td>
 			</tr>

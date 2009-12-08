@@ -10,7 +10,7 @@ if ( hasRequestedVersion && henderson_video ) {
 	document.write(strReplace(strReplace(strReplace(strReplace(getHTMLControl("javaflash",259,22,true,true,true,true,true,true),"<text>","Video transcript"),"<title>","Video transcript"),"<href>",ada_href),"<anchor>",henderson_video.ada_anchor));
 	document.write('</div>');
 	document.write('<div id="videothumb">');
-	document.write('<a href="Javascript: vo_id();" onmouseover="MM_swapImage(\'dilstart\',\'\',\''+henderson_video.thumb_on+'\',1);" onmouseout="MM_swapImgRestore();" onclick="playVideo(henderson_video,true,true,true,true,true,true);"><img name="dilstart" style="margin: 0px;" src="'+henderson_video.thumb_off+'" alt="" border="0" align="absmiddle"></a>');
+	document.write('<a href="Javascript: vo_id();" onmouseover="MM_swapImage(\'dilstart\',\'\',\''+henderson_video.thumb_on+'\',1);" onmouseout="MM_swapImgRestore();" onclick="playVideo(henderson_video,true,true,true,true,true,true);"><img name="dilstart" style="margin: 0px;" src="'+henderson_video.thumb_off+'" alt="Play Chanel Henderson&#39;s Associate Testimonial Video" border="0" align="absmiddle"></a>');
 	document.write(strReplace(strReplace(strReplace(strReplace(getHTMLControl("javaflash",259,22,false,false,false,true,false,false),"<text>","Video transcript"),"<title>","Video transcript"),"<href>",ada_href),"<anchor>",henderson_video.ada_anchor));
 	document.write('</div>');
 	document.write('<div id="videothumb_off" style="display: none;">');
@@ -22,7 +22,7 @@ if ( hasRequestedVersion && henderson_video ) {
 }
 </script>
 <noscript>
-<a name="video"></a><H2 class="hidden">Chanel Henderson&acute;s Associate Testimonial Video</H2>
+<a name="video"></a><H2 class="hidden">Chanel Henderson&#39;s Associate Testimonial Video</H2>
 <object type="application/x-shockwave-flash"
 data="../Includes/pages/associate/Henderson.swf" width="259" height="166" id="javaflash" align="middle">
 	<param name="wmode" value="transparent">

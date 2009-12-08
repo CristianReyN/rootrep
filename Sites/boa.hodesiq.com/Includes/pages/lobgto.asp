@@ -73,10 +73,6 @@ The technological superiority of our systems is as important as the quality of t
 <table cellpadding="2" cellspacing="0" border="0" summary="" style="margin-left: <%=left_margin_0%>px;">
 <!--#include file="../../hot_jobs.asp"-->
 </table>
-<%	If mpage = "lob" Then %>
-<br>
-<a href="../jobsearch/searchresult.asp?jobareas=9|-1&stateid=-1&cityid=-1&keywords=&SearchPage=Sp">View all jobs in Global Technology</a>
-<%	End If %>
 <br><br>
 				</td>
 			</tr>

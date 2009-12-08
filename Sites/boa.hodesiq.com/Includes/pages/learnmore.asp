@@ -36,6 +36,15 @@ Get basic advice on developing or updating your resume.</p>
 <H2 class="p" style="margin: 0px; padding: 0px;"><a href="<% if page_section <> "ADA" then Response.write "../military/" Else Response.write "military_veteran_recruiting.asp" End If%>" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="Military &amp; veteran recruiting">Military &amp; veteran recruiting</a></H2>
 <p style="margin-top: 6px;">
 At Bank of America we welcome the unique skills, experience and values of military service members.</p>
+
+<img class="dotdiv" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
+
+<p style="margin: 6px 0px 0px 0px;">
+In an effort to continue our commitment to help &ldquo;Put America Back to Work&rdquo;, Bank&nbsp;of&nbsp;America has become a member of Alliance Q, a collaboration of companies working together to showcase career opportunities in your community. Alliance Q is a free and confidential program aimed at helping &ldquo;Put America Back to Work.&rdquo;
+</p>
+<p style="margin: 12px 0px 0px 0px;">
+If you are interested in joining, simply visit <a href="http://www.AllianceQ.com/BankofAmerica" class="p" title="www.AllianceQ.com/BankofAmerica. Link opens a new window." target="_blank">www.AllianceQ.com/BankofAmerica</a> to create your profile and be considered for thousands of other opportunities with first class employers, including Bank&nbsp;of&nbsp;America.</p>
+</div>
 				</td>
 				<td width="205" height="100%" valign="top">
 <div style="border: 1px solid #e8e8e9; margin: 0px 0px 12px 0px; padding: 0px 0px 6px 0px;">
