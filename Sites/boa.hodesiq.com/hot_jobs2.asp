@@ -8,6 +8,10 @@ end with
 Set objCMD=server.CreateObject("ADODB.Command")
 set objRS = Server.CreateObject("adodb.recordset")
 
+const adVarChar = 200
+
+dim globalfamilyids : globalfamilyid = Trim(Request.QueryString("globalfamilyids"))
+
 If familyid <> "" Then
     If rowcount <> "" Then
         'familyid scenario		
@@ -16,7 +20,8 @@ If familyid <> "" Then
 		     .CommandText = "P_Hotlist_Family"
 		     set .ActiveConnection = objCon     
 		     .parameters.append .createparameter("@RETURN_VALUE", adInteger, adParamReturnValue, 0)      
-		     .parameters.append .createparameter("@familyid", adInteger, adParamInput, 0, familyid)
+		     .parameters.append .createparameter("@familyid", adInteger, adParamInput, 0, familyid)		     
+		     .parameters.append .createparameter("@globalfamilyids",adVarChar , adParamInput, 0, globalfamilyids)
 		     .parameters.append .createparameter("@rowcount", adInteger, adParamInput, 0, rowcount) 
 		  set objRS = .execute()
 		end with

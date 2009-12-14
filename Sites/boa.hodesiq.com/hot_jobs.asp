@@ -6,10 +6,12 @@ const adParamOutput      = 2
 const adCmdStoredProc    = &H0004
 const adUseClient        = 3
 const adInteger		 = 3
+const adVarChar = 200
 
 'dim talentid : talentid = Trim(Request.QueryString("talentid"))
 'dim familyid : familyid = Trim(Request.QueryString("familyid"))
 'dim rowcount : rowcount = Trim(Request.QueryString("rowcount"))
+dim globalfamilyids : globalfamilyid = Trim(Request.QueryString("globalfamilyids"))
 
 dim objCon
         set  objCon  = server.CreateObject("ADODB.Connection")
@@ -24,7 +26,7 @@ set objRS = Server.CreateObject("adodb.recordset")
 
 'response.write ("<table width=""550"" style=""border-width: 1px; border-style: inset; border-color: #111111;"">")
 
-If familyid <> "" Then
+If familyid <> "" or globalfamilyids<> "" Then
     If rowcount <> "" Then
         'familyid scenario		
 		With objCMD
@@ -33,6 +35,7 @@ If familyid <> "" Then
 		     set .ActiveConnection = objCon     
 		     .parameters.append .createparameter("@RETURN_VALUE", adInteger, adParamReturnValue, 0)      
 		     .parameters.append .createparameter("@familyid", adInteger, adParamInput, 0, familyid)
+		     .parameters.append .createparameter("@globalfamilyids",adVarChar   , adParamInput, 0, globalfamilyids)
 		     .parameters.append .createparameter("@rowcount", adInteger, adParamInput, 0, rowcount) 
 		  set objRS = .execute()
 		end with

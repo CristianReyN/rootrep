@@ -767,7 +767,7 @@ public partial class JobSearch : System.Web.UI.Page
         ddlJobFamily.DataSource = rdr;
         ddlJobFamily.DataBind();
 
-        ddlJobFamily.Items.Add(new ListItem("All", "-1"));
+        ddlJobFamily.Items.Insert(0,new ListItem("All", "-1"));
     }
 
     protected void PopulateJobAreas()
@@ -786,7 +786,7 @@ public partial class JobSearch : System.Web.UI.Page
         AreaofTalent ja = new AreaofTalent();
         dr = ja.JobAreasList();
         ListItem l = new ListItem("Select a job area", string.Empty);
-        this.ddlJobAreas.Items.Add(l);
+        this.ddlJobAreas.Items.Insert(0,l);
         while (dr.Read())
         {
             ListItem li = new ListItem(dr["family"].ToString(), dr["value"].ToString());
