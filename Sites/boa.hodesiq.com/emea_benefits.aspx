@@ -14,10 +14,10 @@
     <a name="skipmaincontent"></a>
     <h1 class="hidden">
         Global Careers - EMEA Benefits</h1>
-    <table summary="Global Careers - EMEA Benefits" width="366" border="0" cellspacing="0"
+    <table summary="Global Careers - EMEA Benefits" width="345" border="0" cellspacing="0"
         cellpadding="0">
         <tr>
-            <td width="366" align="left" valign="top">
+            <td width="345" align="left" valign="top">
                 <h2>
                     Benefits built around you.</h2>
                 <p>
@@ -34,21 +34,22 @@
                     Benefits within the ABC package include:<br />
                     <br />
                     <br />
-                    <table summary="" width="400" border="0" cellspacing="0" cellpadding="0">
+                    <table summary="" width="365" border="0" cellspacing="0" cellpadding="0">
                         <tr>
-                            <td width="190" height="132" align="left" valign="top" style="border: solid; border-width: 1px;
+                            <td width="170" height="130" align="left" valign="top" style="border: solid; border-width: 1px;
                                 border-color: #919191;">
-                                <table summary="ABC Financial benefits" width="190" height="132" border="0" cellpadding="0"
+                                <table summary="ABC Financial benefits" width="170" height="130" border="0" cellpadding="0"
                                     cellspacing="0">
                                     <tr>
-                                        <th scope="col" width="190" height="22" align="center" valign="middle" bgcolor="#d5100a"
+                                        <th scope="col" width="170" height="30" align="center" valign="middle" bgcolor="#d5100a"
                                             style="color: #ffffff">
                                             <span class="style1">Financial</span></th>
                                     </tr>
                                     <tr>
-                                        <td width="180" height="22" align="left" valign="middle" bgcolor="#f1f1f1" style="padding-left: 10px;">
+                                        <td width="170" height="130" align="left" valign="middle" bgcolor="#f1f1f1" style="padding-left: 10px;">
                                             <p>
-                                                &#8226;	Critical Illness Insurance<br />
+                                                &#8226;	Critical Illness Insurance,<br />
+                                                &nbsp;&nbsp; associate and partner<br />
                                                 &#8226;	Group Income Protection<br />
                                                 &#8226;	Life Assurance, associate <br />
                                                     &nbsp;&nbsp;&nbsp;and partner<br />
@@ -60,26 +61,32 @@
                             </td>
                             <td width="26" align="left" valign="top">
                             </td>
-                            <td width="190" height="132" align="left" valign="top" style="border: solid; border-width: 1px;
+                            <td width="170" height="130" align="left" valign="top" style="border: solid; border-width: 1px;
                                 border-color: #919191;">
-                                <table summary="ABC Healthcare benefits" width="190" height="132" border="0" cellpadding="0"
+                                <table summary="ABC Healthcare benefits" width="170" height="130" border="0" cellpadding="0"
                                     cellspacing="0">
-                                    <tr>
-                                        <th scope="col" width="190" height="22" align="center" valign="middle" bgcolor="#d5100a"
+                                    <tr height="10">
+                                        <th  width="170" height="30" align="center" valign="middle" bgcolor="#d5100a"
                                             style="color: #ffffff">
-                                            <span class="style1">Healthcare</span></th>
+                                            <span style="color: #ffffff">Healthcare</span></th>
                                     </tr>
                                     <tr>
-                                        <td width="190" height="22" align="left" valign="middle" bgcolor="#f1f1f1" style="padding-left: 10px;">
+                                        <td width="170" height="130" align="left" valign="top" bgcolor="#f1f1f1" style="padding-left: 10px; margin-top:10px;">
+                                        <table border="0" height="115">
+                                        <tr><td valign="middle">
                                             <p>
                                                 &#8226;	Dental Cover<br />
                                                 &#8226;	Health Account<br />
-                                                &#8226;	Health Screening, associate<br /> 
-                                                    &nbsp;&nbsp;&nbsp;and partner<br />                                               
+                                                &#8226;	Health Screening,<br />
+                                                &nbsp;&nbsp;&nbsp;associate and partner<br />                                               
                                                 &#8226;	Optical Cover<br />
-                                                &#8226;	Private Healthcare</p>
+                                                &#8226;	Private Healthcare
+                                                
+                                                </p>
+                                                </td></tr></table>
                                         </td>
                                     </tr>
+                                    
                                 </table>
                             </td>
                         </tr>
@@ -92,17 +99,18 @@
                             </td>
                         </tr>
                         <tr>
-                            <td width="190" height="132" align="left" valign="top" style="border: solid; border-width: 1px;
+                            <td width="170"  height="155" align="left" valign="top" style="border: solid; border-width: 1px;
                                 border-color: #919191;">
-                                <table summary="ABC Lifestyle benefits" width="190" height="154" border="0" cellpadding="0"
+                                <table summary="ABC Lifestyle benefits" width="170" height="155" border="0" cellpadding="0"
                                     cellspacing="0">
                                     <tr>
-                                        <th scope="col" width="190" height="22" align="center" valign="middle" bgcolor="#d5100a"
-                                            style="color: #ffffff">
+                                        <th scope="col" width="170" height="28" align="center" valign="middle" bgcolor="#d5100a"
+                                            style="color: #ffffff; ">
                                             <span class="style1" style="color: #ffffff">Lifestyle</span></th>
                                     </tr>
+                                    
                                     <tr>
-                                        <td width="190" height="22" align="left" valign="middle" bgcolor="#f1f1f1" style="padding-left: 10px;">
+                                        <td width="170" height="160" align="left" valign="middle" bgcolor="#f1f1f1" style="padding-left: 10px;margin-top:25px;">
                                             <p>
                                                	&#8226;	AA Membership<br />
                                                 &#8226;	Carbon Offsetting<br />
@@ -120,20 +128,20 @@
                             </td>
                             <td width="26" align="left" valign="top">
                             </td>
-                            <td width="190" height="132" align="left" valign="top" style="border: solid; border-width: 1px;
+                            <td width="170" height="161" align="left" valign="top" style="border: solid; border-width: 1px;
                                 border-color: #919191;">
-                                <table summary="ABC Leisure benefits" width="190" height="154" border="0" cellpadding="0"
+                                <table summary="ABC Leisure benefits" width="170" height="161" border="0" cellpadding="0"
                                     cellspacing="0">
                                     <tr>
-                                        <th scope="col" width="190" height="22" align="center" valign="middle" bgcolor="#d5100a"
+                                        <th scope="col" width="170" height="28" align="center" valign="middle" bgcolor="#d5100a"
                                             style="color: #ffffff">
                                             <span class="style1">Leisure</span></th>
                                     </tr>
                                     <tr>
-                                        <td width="190" height="25" align="left" valign="middle" bgcolor="#f1f1f1" style="padding-left: 10px;">
+                                        <td width="170" height="161" align="left" valign="top" bgcolor="#f1f1f1" style="padding-left: 10px; padding-top: 9px;">
                                             <p>
                                                 &#8226;	Cycle to Work<br />
-                                                &#8226;	Gym Membership(On-site)<br />
+                                                &#8226;	Gym<br />&nbsp;&nbsp; Membership(On-site)<br />
                                                 &#8226;	Learning Account<br />
                                                 &#8226;	Leisure Account<br />
                                                 &#8226;	Retail Vouchers<br /> 
@@ -149,7 +157,7 @@
             </td>
         </tr>
         <tr>
-            <td width="366" align="left" valign="top">
+            <td width="350" align="left" valign="top">
                 <p>
                     <br />
                     Benefits outside of the ABC package include:</p>

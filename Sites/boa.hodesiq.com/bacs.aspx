@@ -44,9 +44,11 @@
                     <li>Career growth based on performance and potential</li>
                 </ul>
                 <div id="retuntoBacsmap"> </div>
-                <p> <a href="ada_bacs.aspx#MapBAContinuum" class="ada2adalink" onfocus="this.className='ada2adalink-over';"
+                <table border="0" cellpadding="0" cellspacing="5"><tr><td>
+                 <a href="ada_bacs.aspx#MapBAContinuum" class="ada2adalink" onfocus="this.className='ada2adalink-over';"
                         onblur="this.className='ada2adalink';" title="View locations as text">View locations
-                    as text</a></p>
+                    as text</a>
+                    </td></tr></table>
                 <p> </p>
                 <script language="javascript">
 function mapcheck(image,dives)

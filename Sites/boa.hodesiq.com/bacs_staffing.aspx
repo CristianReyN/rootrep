@@ -258,8 +258,7 @@
                                 <td height="10" align="left" valign="middle">
                                 </td>
                             </tr>
-                            <tr>
-                                <td height="26" align="left" valign="middle" style="background-image: url(images/dotted.gif);
+                            
                             <tr>
                                 <td height="26" align="left" valign="middle" style="background-image: url(images/dotted.gif);
                                     background-position: left top; background-repeat: repeat-x;">

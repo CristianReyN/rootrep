@@ -2,8 +2,7 @@
     AutoEventWireup="true" CodeFile="emea_europe_card_services.aspx.cs" Inherits="emea_europe_card_services" Title="Bank of America | Careers | Locations |Canada | Europe, Middle East and Africa (EMEA)| Europe Card Services" %>
     
 <asp:Content ID="Image" ContentPlaceHolderID="Image" runat="Server">
-    <img src="images/Europe_ME_Africa_3_Europe_card_services_both_pages.jpg" width="578" height="166" alt="Explore a career with the Bank of Opportunity."
-        title="Explore a career with the Bank of Opportunity." border="0" />
+    <img height="166" border="0" width="578" title="Explore a career with the Bank of Opportunity." alt="Explore a career with the Bank of Opportunity." src="images/global-careers-emea_II.jpg"/>
     <div class="hidden">
         Explore a career with the Bank of Opportunity.</div>
 </asp:Content>
@@ -14,9 +13,8 @@
     <table width="366" border="0" cellspacing="0" cellpadding="0" summary="EMEA Line of Business">
         <tr>
             <td width="366" align="left" valign="top">
-                <h2>
-                   It’s time<br />
-                   Bank of America career opportunities
+              <h2><font size="2px">It’s Time</font><br />
+                  Bank of America career opportunities
                 </h2>
                 <p>
                   The financial markets have changed, and so have we. We’ve launched new and innovative products, and continue to drive customer-focused improvements. We’ve listened to our people, and rewarded them with more responsibility. We think it’s because of this that Bank of America Europe Card Services has remained the number one credit card lender in Europe. Serving over seven million customers, we provide credit card services in partnership with over 750 organisations including; Amazon, Virgin, BT, Ryan Air, EBS Building Society, The Irish Heart Foundation, Liverpool Football Club, Fundación Vicente Ferrer, Breakthrough Breast Cancer and The National Trust, and we have operations in the UK, Ireland and Spain.</p>

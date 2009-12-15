@@ -2,8 +2,7 @@
     AutoEventWireup="true" CodeFile="emea_europe_card_services_teams.aspx.cs" Inherits="emea_europe_card_services_teams" Title="Bank of America | Careers | Locations |Canada | Europe, Middle East and Africa (EMEA)| Europe Card Services – Our Teams" %>
     
 <asp:Content ID="Image" ContentPlaceHolderID="Image" runat="Server">
-    <img src="images/Europe_ME_Africa_3_Europe_card_services_both_pages.jpg" width="578" height="166" alt="Explore a career with the Bank of Opportunity."
-        title="Explore a career with the Bank of Opportunity." border="0" />
+    <img src="images/global-careers-emea_II.jpg" height="166" border="0" width="578" title="Explore a career with the Bank of Opportunity." alt="Explore a career with the Bank of Opportunity." />
     <div class="hidden">
         Explore a career with the Bank of Opportunity.</div>
 </asp:Content>
@@ -108,7 +107,7 @@ Key activities in this area include:<br />
 <li>	Developing and executing new customer acquisition and existing customer risk strategies</li>
 <li>	Price management which optimises risk and reward</li>
 <li>	Loss forecasting</li>
-<li>	Strategic management information and data warehousing where SAS, coding and macros skills are key</li>
+<li>	Strategic management information and data warehousing where SAS (Statistical Analysis System), coding and macros skills are key</li>
 <li>	Scoring and analytics providing deep expertise and efficiency in the development, implementation, approval and monitoring of credit risk scoring models and systems</li>
 
 </ul></p>
