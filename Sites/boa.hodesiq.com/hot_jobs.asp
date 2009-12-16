@@ -40,9 +40,9 @@ Else
 		     .CommandType=adCmdStoredProc
 		     .CommandText = "P_Hotlist_Talent"
 		     set .ActiveConnection=objCon
-		     .parameters.append .createparameter("@talentid", adInteger, adParamInput, 4, talentid)
-		     .parameters.append .createparameter("@globaljobsfamilyids",adInteger,adParamInput,4,1)
-		     .parameters.append .createparameter("@rowcount", adInteger, adParamInput, 4, rowcount) 
+		     .parameters.append .createparameter("@talentid", adInteger, adParamInput,0, talentid)		
+		     .parameters.append .createparameter("@globaljobsfamilyids", adInteger, adParamInput, 0, 1)
+		     .parameters.append .createparameter("@rowcount", adInteger, adParamInput, 0, rowcount) 
 		  set objRS = .execute()
 		end with               
     Else
@@ -53,6 +53,8 @@ End If
 'dim sHTML
 'sHTML=objrs.GetString(2,rowcount,"</td>","</tr><tr><td>","")
 'Response.Write sHTML
+Response.Write ("state: " & objRS("job_title"))
+Response.End 
 
 if objRS.state = 1 then  
    With objRS		
