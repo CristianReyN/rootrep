@@ -18,11 +18,11 @@ The recruiting team and hiring managers at BA Continuum Costa Rica follow a cons
 </p>
 
 <ul style="margin-top: 12px;">
-	<li style="list-style : decimal none;">Candidates  search and apply for positions matching their skills and interest</li>
-	<li style="list-style : decimal none;">Recruiter identifies potential candidates from pool of applications</li>
-	<li style="list-style : decimal none;">Candidates whose skills and experience best fit openings participate in screening interviews by telephone</li>
-	<li style="list-style : decimal none;">Finalists for positions advance to second round interviews and assessments according to job requirements</li>
-	<li style="list-style : decimal none;">Successful candidate receives offer contingent on background check</li>
+	<li style="list-style : decimal none;">Candidates  search and apply for positions matching their skills and interest.</li>
+	<li style="list-style : decimal none;">Recruiter identifies potential candidates from pool of applications.</li>
+	<li style="list-style : decimal none;">Candidates whose skills and experience best fit openings participate in screening interviews by telephone.</li>
+	<li style="list-style : decimal none;">Finalists for positions advance to second round interviews and assessments according to job requirements.</li>
+	<li style="list-style : decimal none;">Successful candidate receives offer contingent on background check.</li>
 </ul>
 
 <H2 class="p" style="margin: 12px 0px 0px 0px; padding: 0px;"><b>Recruitment Events</b></H2>

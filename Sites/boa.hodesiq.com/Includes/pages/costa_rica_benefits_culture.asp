@@ -51,14 +51,14 @@ The following five values represent what we believe in as individuals and as a t
 <ul style="margin-top: 3px;">
 	<li><b>Doing the right thing</b><br>
 		We have the responsibility to do the right thing for our customers, shareholders, communities and one another.</li>
-	<li><b>Trusting &nbsp; teamwork</b><br>
+	<li><b>Trusting &amp; teamwork</b><br>
 		We succeed together, taking collective responsibility for our customers&#39; satisfaction.</li>
 	<li><b>Inclusive meritocracy</b><br>
 		We care about one another, value one another&#39;s differences, focus on results and strive to help all associates reach their full potential.</li>
 	<li><b>Winning</b><br>
 		We have a passion for achieving results and winning - for our customers, our shareholders, our communities and one another.</li>
 	<li><b>Leadership</b><br>
-		We will be decisive leaders at every level, communicating our vision</li>
+		We will be decisive leaders at every level, communicating our vision.</li>
 </ul>
 
 <br>

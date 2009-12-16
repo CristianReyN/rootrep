@@ -35,7 +35,7 @@
 <br><br>
 					</div>
 <p style="margin: <% If page_section = "ADA" Then %>12<% Else %>0<%End If%>px <%=right_margin_split%>px 0px <%=left_margin_0%>px;">
-At Bank&nbsp;of&nbsp;America, we believe that the right people form the critical cornerstone of our foundation for growth. With thousands of technologists working from across the corners of the globe, we are focused on providing innovative and creative technology solutions, leading to literally billions of opportunities to "touch" our customers every month. Building a world-class, global workforce is critical to our priorities and we have many exciting opportunities to take your career higher   part of our commitment to being the employer of choice. 
+At Bank&nbsp;of&nbsp;America, we believe that the right people form the critical cornerstone of our foundation for growth. With thousands of technologists working from across the corners of the globe, we are focused on providing innovative and creative technology solutions, leading to literally billions of opportunities to "touch" our customers every month. Building a world-class, global workforce is critical to our priorities and we have many exciting opportunities to take your career higher as part of our commitment to being the employer of choice. 
 <br><br>
 Bank&nbsp;of&nbsp;America Technology associates build and maintain a world-class data network linking more than 6,100+ retail banking offices, nearly 18,500 ATMs and the nation's leading online banking and bill pay service. The team also runs multiple data centers while providing support for tens of thousands of desktops throughout the corporation.
 <br><br>

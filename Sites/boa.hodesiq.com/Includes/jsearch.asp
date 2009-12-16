@@ -375,6 +375,7 @@
 		Set  rssJobFamilies = nothing
 %>
 <select name="jobfamilyid" id="jobfamilyid" title="Select a Job Family"<%=c_lass%><%=style%>>
+	<option value="-1"<%If jobfamilyid="-1" Or jobfamilyid="" Then Response.write " selected"%>>All</option>
 <%
 		family_numbers = job_families.Keys
 		If job_families.Count > 0 Then
@@ -385,7 +386,6 @@
 	<option value="<%=job_family.Item("FamilyID")%>"<% If job_family.Item("FamilyID") = jobfamilyid Then %> selected<% End If %>><%=job_family.Item("Family")%></option>
 <%		   Next
 		End If %>
-	<option value="-1"<%If jobfamilyid="-1" Or jobfamilyid="" Then Response.write " selected"%>>All</option>
 </select>
 <%
 	End Function

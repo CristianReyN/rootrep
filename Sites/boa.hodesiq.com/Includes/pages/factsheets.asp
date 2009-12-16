@@ -4,10 +4,7 @@
 				<td width="373" height="100%" valign="top" style="<%=middle_content_padding%>">
 <div id="Layer1" style="position: relative; z-index: 12;">
 <img class="dotdiv" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
-<p style="margin: 0px; font-style: italic;">
-&ldquo;Our commitment to diversity is a commitment to individuals and to the team. It&#39;s about creating an environment in which all associates can fulfill their potential without artificial barriers, and in which the team is made stronger by the diverse backgrounds, experiences and perspectives of individuals. It&#39;s about giving all of us &mdash; individually and together - the best possible chance to succeed.&rdquo; &mdash; Kenneth D. Lewis, chairman and chief executive officer, Bank&nbsp;of&nbsp;America. 
-</p>
-<p style="margin: 12px 0px 0px 0px;">
+<p style="margin: 0px 0px 0px 0px;">
 We are proud of Bank&nbsp;of&nbsp;America&#39;s legacy as a leader in corporate diversity and in equal employment opportunity. At Bank&nbsp;of&nbsp;America, we work to foster an inclusive corporate culture and an environment free of discrimination or harassment.</p>
 <H2 class="p" style="margin: 12px 0px 6px 0px; padding: 0px;"><span class="bd"><b>Organization and Culture</b></span></H2>
 <ul>

@@ -36,10 +36,7 @@ rowcount=6
 <table cellpadding="2" cellspacing="0" border="0" summary="" style="margin-left: <%=left_margin_0%>px;">
 <!--#include file="../../hot_jobs.asp"-->
 </table>
-
-<p style="margin: 12px <%=right_margin%>px 2px <%=left_margin_0%>px;"><a class="ip" href="../jobsearch.aspx?jobareas=11|-1&stateid=-1&cityid=-1&keywords=&SearchPage=Sp">View current jobs in Corporate Workplace</a></p>
-
-<br><br>
+<br>
 				</td>
 				<td width="205" height="100%" valign="top">
 <div style="border: 1px solid #e8e8e9; margin: 0px 0px 0px 0px; padding: 0px 0px 6px 0px;">

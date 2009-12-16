@@ -38,12 +38,7 @@ action_script = true;
 </script>
 <% End If %>
 <!-- #include file="faq/nancy.asp" -->
-<br><br>
-<%	href_pre = ""
-	if page_section <> "ADA" then href_pre = "../learnmore/" %>
-<!-- #include file="../cssnav.asp" -->
-<br><br>
-
+<br>
 <H2 class="h2" style="margin: 12px <%=right_margin%>px 2px <%=left_margin_0%>px;">New Opportunities</H2>
 <table cellpadding="2" cellspacing="0" border="0" summary="" style="margin-left: <%=left_margin_0%>px;">
 <% 
