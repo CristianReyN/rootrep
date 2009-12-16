@@ -34,7 +34,7 @@
                 
               <h2>Customer Service and Sales</h2>  <p>           
                 Our 24-hour customer service contact centre enables our Customer Service representatives to deal with customer calls, handle enquiries and meet and exceed expectations.  <br />
-                   Our customers rely on our <b>Customer Service representatives and Customer Service and Sales representatives</b> for:<br />
+                   Our customers rely on our <b>Customer Service representatives</b> and <b>Customer Service</b> and <b>Sales representatives</b> for:<br />
                    <ul >
                     	<li >Balance, payment and application enquiries</li>
                     	<li>Interest rate calculations and authorisations </li>
@@ -47,7 +47,7 @@
             
             <h2>Telemarketing</h2><p>
             One of the largest departments in Bank of America, Telemarketing is responsible for handling inbound and outbound calls with customers.<br />
-            Our<b> Customer Service representatives and Activation specialists </b> are expert in:<br />
+            Our<b> Customer Service representatives</b> and <b>Activation specialists </b> are expert in:<br />
             <ul>
             <li>	Activating credit cards </li>
             <li>	Advising prospective credit card customers </li>
@@ -69,14 +69,14 @@ The daily role of a Bank of America <b> Collector</b> includes:<br />
 
 
 <h2>Customer Resolution Services (CRS)</h2><p>
-Our CRS call centre manages written and telephone enquiries from our customers.  Our <b>Disputes specialist and Claims analysts </b>deal with a variety of calls from researching and investigating payment that the customer doesn’t recognise to helping the customer find a solution with a retailer if there is a problem with an item they have purchased.
+Our CRS call centre manages written and telephone enquiries from our customers.  Our <b>Disputes specialist</b> and <b>Claims analysts </b>deal with a variety of calls from researching and investigating payment that the customer doesn’t recognise to helping the customer find a solution with a retailer if there is a problem with an item they have purchased.
 
 </p>
 
 <h2>Insurance</h2><p>
 
 Insurance Services offer Bank of America credit card customers the opportunity to access a spectrum of protection products.<br />
-The responsibilities of our <b> Sales representatives and Customer Service representatives</b> include:<br />
+The responsibilities of our <b> Sales representatives</b> and <b>Customer Service representatives</b> include:<br />
 <ul>
 <li>	Retention and claims</li>
 <li>		Delivering best-in-class, transparent, protection products</li>
@@ -87,14 +87,15 @@ The responsibilities of our <b> Sales representatives and Customer Service repre
 </p>
 <h2>
 Fraud</h2><p>
-Our Fraud department works to reduce fraud losses whilst maintaining customer satisfaction. Our team of <b>Fraud analysts and Fraud detectors</b> focus on protecting customers by providing a wide range of proactive fraud detection activities and strategies, not to mention peace of mind.  
+Our Fraud department works to reduce fraud losses whilst maintaining customer satisfaction. Our team of <b>Fraud analysts</b> and <b>Fraud detectors</b> focus on protecting customers by providing a wide range of proactive fraud detection activities and strategies, not to mention peace of mind.  
 </p>
 
 <h2>Credit</h2><p>
-Our <b>Credit analysts and Credit underwriters</b> offer a balanced and responsible approach to lending and underwriting new credit card applications in a timely and efficient manner.
+Our <b>Credit analysts</b> and <b>Credit underwriters</b> offer a balanced and responsible approach to lending and underwriting new credit card applications in a timely and efficient manner.
 </p>
 <h2>
 Non-Customer Contact Areas</h2>
+<p>
 Driving the activities of our contact centres, Europe Card Services has two core business areas: Credit Risk Management and Business Development.
 </p>
 

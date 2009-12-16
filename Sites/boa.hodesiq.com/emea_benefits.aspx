@@ -46,7 +46,8 @@
                                             <span class="style1">Financial</span></th>
                                     </tr>
                                     <tr>
-                                        <td width="170" height="130" align="left" valign="middle" bgcolor="#f1f1f1" style="padding-left: 10px;">
+                                        <td width="170" height="130" align="left" valign="top" bgcolor="#f1f1f1" style="padding-left: 10px; padding-top:10px;">
+                                         <table border="0" cellpadding="0" cellspacing="0"><tr><td>
                                             <p>
                                                 &#8226;	Critical Illness Insurance,<br />
                                                 &nbsp;&nbsp; associate and partner<br />
@@ -55,6 +56,7 @@
                                                     &nbsp;&nbsp;&nbsp;and partner<br />
                                                 &#8226;	Pension Plan<br />
                                                 &#8226;	Personal Accident</p>
+                                                </td></tr></table>
                                         </td>
                                     </tr>
                                 </table>
@@ -71,9 +73,8 @@
                                             <span style="color: #ffffff">Healthcare</span></th>
                                     </tr>
                                     <tr>
-                                        <td width="170" height="130" align="left" valign="top" bgcolor="#f1f1f1" style="padding-left: 10px; margin-top:10px;">
-                                        <table border="0" height="115">
-                                        <tr><td valign="middle">
+                                        <td width="170" height="130" align="left" valign="top" bgcolor="#f1f1f1" style="padding-left: 10px;padding-top:10px;">
+                                        <table border="0" cellpadding="0" cellspacing="0"><tr><td>
                                             <p>
                                                 &#8226;	Dental Cover<br />
                                                 &#8226;	Health Account<br />
@@ -110,7 +111,8 @@
                                     </tr>
                                     
                                     <tr>
-                                        <td width="170" height="160" align="left" valign="middle" bgcolor="#f1f1f1" style="padding-left: 10px;margin-top:25px;">
+                                        <td width="170" height="160" align="left" valign="top" bgcolor="#f1f1f1" style="padding-left: 10px;padding-top:10px;">
+                                            <table border="0" cellpadding="0" cellspacing="0"><tr><td>
                                             <p>
                                                	&#8226;	AA Membership<br />
                                                 &#8226;	Carbon Offsetting<br />
@@ -122,6 +124,7 @@
                                                 &#8226;	Travel Insurance<br />
                                                 &#8226;	Vacation
                                             </p>
+                                            </td></tr></table>
                                         </td>
                                     </tr>
                                 </table>
@@ -138,7 +141,8 @@
                                             <span class="style1">Leisure</span></th>
                                     </tr>
                                     <tr>
-                                        <td width="170" height="161" align="left" valign="top" bgcolor="#f1f1f1" style="padding-left: 10px; padding-top: 9px;">
+                                        <td width="170" height="161" align="left" valign="top" bgcolor="#f1f1f1" style="padding-left: 10px; padding-top:10px;">
+                                        <table border="0" cellpadding="0" cellspacing="0" ><tr><td>
                                             <p>
                                                 &#8226;	Cycle to Work<br />
                                                 &#8226;	Gym<br />&nbsp;&nbsp; Membership(On-site)<br />
@@ -148,13 +152,14 @@
                                                 &nbsp;<br />
                                                 &nbsp</br>                                                                                              
                                             </p>
+                                            </td></tr></table>
                                         </td>
                                     </tr>
                                 </table>
                             </td>
                         </tr>
                     </table>
-            </td>
+           
         </tr>
         <tr>
             <td width="350" align="left" valign="top">
