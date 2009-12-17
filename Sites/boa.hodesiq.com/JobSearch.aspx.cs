@@ -17,6 +17,7 @@ public partial class JobSearch : System.Web.UI.Page
 {
     private int RecPerPage = 12;
     private string constring = ConfigurationManager.AppSettings["StrUdlFileName"];
+    string BOAFeedName = "";
     protected void Page_Load(object sender, EventArgs e)
     {
         //init hidden location value
@@ -31,6 +32,8 @@ public partial class JobSearch : System.Web.UI.Page
 
         lnkJobCart.Attributes.Add("onblur", "this.className='p';");
         lnkJobCart.Attributes.Add("onfocus", "this.className='p-over';");
+
+        BOAFeedName = Request.QueryString["BOAFeedName"] == null ? "" : Request.QueryString["BOAFeedName"].ToString();
 
         lblMessage.Text = "";
         if (!this.IsPostBack)
@@ -75,12 +78,13 @@ public partial class JobSearch : System.Web.UI.Page
 
     public void Page_PreRender(object sender, EventArgs e)
     {
+        string DisplayCanadaJobs = ConfigurationManager.AppSettings["DisplayCanadaJobs"].ToString();
         if (Country.SelectedValue == Location.USA)
         {
             PnlUSJobsContent.Visible = true;
             PnlCanada.Visible = false;
         }
-        else if (Country.SelectedValue == Location.CANADA)
+        else if (Country.SelectedValue == Location.CANADA && DisplayCanadaJobs.ToLower() == "false")
         {
             PnlUSJobsContent.Visible = false;
             PnlResults.Visible = false;
@@ -283,7 +287,7 @@ public partial class JobSearch : System.Web.UI.Page
 
         Jobs Job = new Jobs();
         ListDictionary MyListDictionary = new ListDictionary();
-        MyListDictionary = Job.AdvSearch_ListDictionaryInternational(Country.SelectedValue,LocationID, keywrd, JobFamilyID, (int)(ViewState["PageNumber"]), RecPerPage, (string)ViewState["sortExpression"], (string)ViewState["MysortDirection"]);
+        MyListDictionary = Job.AdvSearch_ListDictionaryInternational(Country.SelectedValue, LocationID, keywrd, JobFamilyID, (int)(ViewState["PageNumber"]), RecPerPage, (string)ViewState["sortExpression"], (string)ViewState["MysortDirection"], BOAFeedName);
         DataTable DT = (DataTable)MyListDictionary["JobSearchResults"];
 
         FilterJobSearch(iFrom, DT, MyListDictionary);

@@ -166,7 +166,7 @@ public class Jobs
     {
         if (CountryId != USA)
         {
-            return JobDetailsInternational(JobId);
+            return JobDetailsInternational(JobId, CountryId);
         }
         else
         {
@@ -201,7 +201,7 @@ public class Jobs
 
     }
 
-    public DataTable JobDetailsInternational(string JobId)
+    public DataTable JobDetailsInternational(string JobId, string CountryId)
     {
         OleDbConnection con = new OleDbConnection(constring);
         con.Open();
@@ -210,6 +210,7 @@ public class Jobs
             OleDbCommand cmd = new OleDbCommand("p_Career_Sites_JobDetails_International", con);
             cmd.CommandType = CommandType.StoredProcedure;
             cmd.Parameters.AddWithValue("@JobId", JobId);
+            cmd.Parameters.AddWithValue("@CountryID", CountryId);
             OleDbDataAdapter da = new OleDbDataAdapter(cmd);
             DataSet ds = new DataSet();
             da.Fill(ds);
@@ -582,7 +583,7 @@ public class Jobs
 		return MyListDictionary;
 	}
 
-    public ListDictionary AdvSearch_ListDictionaryInternational(string CountryID,string LocationID, string keywrd, string FamilyID, int PageNumber, int RowPerPage, string SortExp, string SortOrder)
+    public ListDictionary AdvSearch_ListDictionaryInternational(string CountryID,string LocationID, string keywrd, string FamilyID, int PageNumber, int RowPerPage, string SortExp, string SortOrder,string BOAFeedName)
     {
         if (SortExp == null) SortExp = "";
         if (SortOrder == null) SortOrder = "";
@@ -597,6 +598,7 @@ public class Jobs
         cmd.Parameters.AddWithValue("@KeyWords", keywrd);
         cmd.Parameters.AddWithValue("@SortExp", SortExp);
         cmd.Parameters.AddWithValue("@SortOrder", SortOrder);
+        cmd.Parameters.AddWithValue("BOAFeedName", BOAFeedName);
         OleDbParameter trows = cmd.Parameters.Add("@totalrows", OleDbType.Integer);
         trows.Direction = ParameterDirection.Output;
 

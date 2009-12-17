@@ -23,7 +23,7 @@
 						<tr>
 							<td  valign="top" style="width:50%; height:45;">
 							    <div id="Div3" style="display: inline;">						
-								    <asp:Label ID="lblCountry" runat="server" Text="Country" AssociatedControlID="State"></asp:Label><br />
+								    <asp:Label ID="lblCountry" runat="server" Text="Country" AssociatedControlID="Country"></asp:Label><br />
 								    <asp:DropDownList ID="Country" runat="server" CssClass="left" Style="width:90%; z-index: auto;"
 								    ToolTip="Select a country" AutoPostBack="true" OnSelectedIndexChanged="Country_Click">								  
 								    </asp:DropDownList></div>
@@ -52,7 +52,7 @@
 							    <div id="d1" style="display: inline;">
 								    <asp:Label ID="lblState" runat="server" Text="State" AssociatedControlID="State"></asp:Label><br />
 								    <asp:DropDownList ID="State" runat="server" CssClass="left" Style="width: 90%; z-index: auto;"
-								    ToolTip="Select a state" AutoPostBack="false" OnSelectedIndexChanged="brefine_Click">
+								    ToolTip="Select a state" AutoPostBack="true" OnSelectedIndexChanged="brefine_Click">
 								    <asp:ListItem Value="-1">All states&#160;</asp:ListItem>
 								    </asp:DropDownList>
 								</div>

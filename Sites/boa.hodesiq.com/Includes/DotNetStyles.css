@@ -1323,6 +1323,11 @@ A.aspblue_link:hover, A.aspblue_link-over
     font-size:1em;
 }
 
+.general_bold
+{
+    font-weight:bold;
+}
+
 #ul
 {
  list-style-type:none

@@ -18,6 +18,13 @@ public partial class uc_JobSearch : System.Web.UI.UserControl
     const string USA = "1";
     const string CANADA = "2";
     private string constring = ConfigurationManager.AppSettings["StrUdlFileName"];
+    private string _boaFeedName = "";
+
+    public string BOAFeedName
+    {
+        get { return _boaFeedName; }
+        set { _boaFeedName = value; }
+    }
     protected void Page_Load(object sender, EventArgs e)
     {
 
@@ -58,7 +65,7 @@ public partial class uc_JobSearch : System.Web.UI.UserControl
         string jobfamilyid = trJobFamily.Visible ? ddlJobFamily.SelectedValue : "";
 
         string url = "~/JobSearch.aspx?countryid=" + countryid + "&stateid=" + stateid + "&cityid=" + cityid + "&internationalcityid=" + internationcityid;
-        url = url + "&keywords=" + keyword + "&jobareas=" + jobareas + "&jobfamilyid=" + jobfamilyid;
+        url = url + "&keywords=" + keyword + "&jobareas=" + jobareas + "&jobfamilyid=" + jobfamilyid + "&BOAFeedName=" + BOAFeedName;
 
         Response.Redirect(url);
     }
@@ -83,6 +90,8 @@ public partial class uc_JobSearch : System.Web.UI.UserControl
 
     public void Page_PreRender(object sender, EventArgs e)
     {
+        string DisplayCanadaJobs = ConfigurationManager.AppSettings["DisplayCanadaJobs"].ToString();
+
         if (Country.SelectedValue == Location.USA)
         {
             TrUsJobs1.Visible = true;
@@ -91,7 +100,7 @@ public partial class uc_JobSearch : System.Web.UI.UserControl
             //TrUsJobs4.Visible = true;
             PnlCanada.Visible = false;            
 
-        } else if (Country.SelectedValue == Location.CANADA)
+        } else if (Country.SelectedValue == Location.CANADA && DisplayCanadaJobs.ToLower() == "false")
         {
             TrUsJobs1.Visible = false;
             TrUsJobs2.Visible = false;

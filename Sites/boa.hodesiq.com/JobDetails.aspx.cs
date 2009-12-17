@@ -65,9 +65,11 @@ public partial class JobDetails : System.Web.UI.Page
 			srcvalue = string.IsNullOrEmpty(Request["src"]) ? string.Empty : Request["src"];           
             string CountryID = Request.QueryString["countryid"] == null ? "1" : Request.QueryString["countryid"].ToString();
 
-            if (CountryID == Location.CANADA)
+            string CANADAURL = ConfigurationManager.AppSettings["CanadaApplyURL"].ToString();
+
+            if (CountryID == Location.CANADA && CANADAURL !="")
             {
-                ApplyURL = ConfigurationManager.AppSettings["CanadaApplyURL"].ToString();
+                ApplyURL = CANADAURL;
                 this.hApplyNow.Value = targetpage + HttpUtility.UrlEncode(ApplyURL);
 
             }
