@@ -16,10 +16,10 @@
         <tr>
             <td width="366" align="left" valign="top">
                           <p>
-                   Bank of America operates a network of offices in 22 countries in Europe, the Middle East and Africa (EMEA). The bank’s regional footprint covers five time zones, multiple legal and regulatory jurisdictions and employs over 14,000 associates in offices in Belgium, France, Greece, Germany, Ireland, Italy, Luxembourg, the Netherlands, Portugal, Spain and the UK, in addition to a strong Emerging Markets presence. The bank is a long–established participant in the European markets having maintained a presence in the region since 1922.
+                   Bank of America operates a network of offices in 22 countries in Europe, the Middle East and Africa (EMEA). The company's regional footprint covers five time zones, multiple legal and regulatory jurisdictions and employs over 14,000 associates in offices in Belgium, France, Greece, Germany, Ireland, Italy, Luxembourg, the Netherlands, Portugal, Spain and the UK, in addition to a strong Emerging Markets presence. The company is a long–established participant in the European markets having maintained a presence in the region since 1922.
                 </p>
                 <p>
-                   Today, the bank offers an integrated and comprehensive set of products and services across all businesses, serving the needs of individual, corporate, institutional and government clients, by combining the best of local knowledge and international expertise.
+                   Today, the company offers an integrated and comprehensive set of products and services across all businesses, serving the needs of individual, corporate, institutional and government clients, by combining the best of local knowledge and international expertise.
                     <br />
                 </p>
                 <p>Bank of America’s Credit Card business (Card Services), has been operating in Europe since 1993, and has offices in the UK, Ireland and Spain. With over seven million customers, Bank of America Europe Card Services is the largest credit card lender in the region.</p>
@@ -374,7 +374,7 @@
                         Warwick Court<br /> 
                         London, EC4<br /><br /></p>
                   <p>
-                    <span class="text_bold_under">Bromely</span><br />
+                    <span class="text_bold_under">Bromley</span><br />
                     26 Elmfield Road<br />
                     Bromley, BR1 1WA</p>     
                     
