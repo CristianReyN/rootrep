@@ -1,9 +1,12 @@
 <%
 
 
+
 'dim talentid : talentid = Trim(Request.QueryString("talentid"))
 'dim familyid : familyid = Trim(Request.QueryString("familyid"))
 'dim rowcount : rowcount = Trim(Request.QueryString("rowcount"))
+
+dim objRS
 
 dim objCon
         set  objCon  = server.CreateObject("ADODB.Connection")
@@ -40,9 +43,9 @@ Else
 		     .CommandType=adCmdStoredProc
 		     .CommandText = "P_Hotlist_Talent"
 		     set .ActiveConnection=objCon
-		     .parameters.append .createparameter("@talentid", adInteger, adParamInput,0, talentid)		
-		     .parameters.append .createparameter("@globaljobsfamilyids", adInteger, adParamInput, 0, 1)
+		     .parameters.append .createparameter("@talentid", adInteger, adParamInput,0, talentid)				     
 		     .parameters.append .createparameter("@rowcount", adInteger, adParamInput, 0, rowcount) 
+		     .parameters.append .createparameter("@globaljobsfamilyids", adInteger, adParamInput, 0, globaljobsfamilyids)
 		  set objRS = .execute()
 		end with               
     Else
@@ -50,11 +53,6 @@ Else
     End If
 End If		
 
-'dim sHTML
-'sHTML=objrs.GetString(2,rowcount,"</td>","</tr><tr><td>","")
-'Response.Write sHTML
-Response.Write ("state: " & objRS("job_title"))
-Response.End 
 
 if objRS.state = 1 then  
    With objRS		

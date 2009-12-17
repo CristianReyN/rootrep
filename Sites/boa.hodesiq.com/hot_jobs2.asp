@@ -1,16 +1,18 @@
 <%
-        set  objCon  = server.CreateObject("ADODB.Connection")
+
+
+
+ set  objCon  = server.CreateObject("ADODB.Connection")
 with objCon  
 	.CursorLocation = adUseClient
 	.Open "file name=D:\data\db\Boa.udl"
 end with
 
+ 
 Set objCMD=server.CreateObject("ADODB.Command")
 set objRS = Server.CreateObject("adodb.recordset")
 
-const adVarChar = 200
-
-dim globalfamilyids : globalfamilyid = Trim(Request.QueryString("globalfamilyids"))
+'response.write ("<table width=""550"" style=""border-width: 1px; border-style: inset; border-color: #111111;"">")
 
 If familyid <> "" Then
     If rowcount <> "" Then
@@ -20,8 +22,7 @@ If familyid <> "" Then
 		     .CommandText = "P_Hotlist_Family"
 		     set .ActiveConnection = objCon     
 		     .parameters.append .createparameter("@RETURN_VALUE", adInteger, adParamReturnValue, 0)      
-		     .parameters.append .createparameter("@familyid", adInteger, adParamInput, 0, familyid)		     
-		     .parameters.append .createparameter("@globalfamilyids",adVarChar , adParamInput, 0, globalfamilyids)
+		     .parameters.append .createparameter("@familyid", adInteger, adParamInput, 0, familyid)
 		     .parameters.append .createparameter("@rowcount", adInteger, adParamInput, 0, rowcount) 
 		  set objRS = .execute()
 		end with
@@ -35,14 +36,16 @@ Else
 		     .CommandType=adCmdStoredProc
 		     .CommandText = "P_Hotlist_Talent"
 		     set .ActiveConnection=objCon
-		     .parameters.append .createparameter("@talentid", adInteger, adParamInput, 4, talentid)
-		     .parameters.append .createparameter("@rowcount", adInteger, adParamInput, 4, rowcount) 
+		     .parameters.append .createparameter("@talentid", adInteger, adParamInput,0, talentid)				     
+		     .parameters.append .createparameter("@rowcount", adInteger, adParamInput, 0, rowcount) 
+		     .parameters.append .createparameter("@globaljobsfamilyids", adInteger, adParamInput, 0, globaljobsfamilyids)
 		  set objRS = .execute()
 		end with               
     Else
         Response.Write("<tr><td>Parameters Haven't Been Provided.</td></tr>")
     End If
 End If		
+
 
 if objRS.state = 1 then  
    With objRS		
@@ -54,6 +57,8 @@ if objRS.state = 1 then
    end With
 end if
 
+'response.write ("</table>")
+		
 set objRS = nothing
 set objCMD = nothing
 objCon.close

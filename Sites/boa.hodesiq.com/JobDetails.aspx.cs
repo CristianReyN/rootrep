@@ -25,8 +25,7 @@ public partial class JobDetails : System.Web.UI.Page
     private string strJobID = string.Empty;
     private string JobCartID = "";
 	private string srcvalue = string.Empty;
-    const string USA = "1";
-
+ 
 	private string targetpage = string.Empty;
 
     protected void Page_Load(object sender, EventArgs e)
@@ -63,21 +62,25 @@ public partial class JobDetails : System.Web.UI.Page
 			lblHoursPerWeek.Text = dt.Rows[0]["HrsPerWeek"].ToString();
             lblQualification.Text = LinkBuilder(dt.Rows[0]["Qualification"].ToString(), "Qualification");
 			//apply process goes trough clients page for hits counting:
-			srcvalue = string.IsNullOrEmpty(Request["src"]) ? string.Empty : Request["src"];
-            string CANADA = "2";
+			srcvalue = string.IsNullOrEmpty(Request["src"]) ? string.Empty : Request["src"];           
             string CountryID = Request.QueryString["countryid"] == null ? "1" : Request.QueryString["countryid"].ToString();
 
-            if (CountryID == CANADA)
+            if (CountryID == Location.CANADA)
             {
                 ApplyURL = ConfigurationManager.AppSettings["CanadaApplyURL"].ToString();
+                this.hApplyNow.Value = targetpage + HttpUtility.UrlEncode(ApplyURL);
+
+            }
+            else if (CountryID == Location.USA)
+            {
+                ApplyURL = ConfigurationManager.AppSettings["taleoBaseURL"].Replace("{REQNOPLACEHOLDER}", dt.Rows[0]["reqNo"].ToString()) + srcvalue.Replace("-", "%2D");
+                this.hApplyNow.Value = targetpage + HttpUtility.UrlEncode(ApplyURL);
             }
             else
             {
-                ApplyURL = ConfigurationManager.AppSettings["taleoBaseURL"].Replace("{REQNOPLACEHOLDER}", dt.Rows[0]["reqNo"].ToString()) + srcvalue.Replace("-", "%2D");
-            }
-			//ApplyURL = dt.Rows[0]["ApplyURL"].ToString() + "&src=" + Request["src"];
-			this.hApplyNow.Value = targetpage + HttpUtility.UrlEncode(ApplyURL);
-
+                ApplyURL = dt.Rows[0]["ApplyURL"].ToString() + "&src=" + Request["src"];
+                this.hApplyNow.Value = ApplyURL;
+            }						
 		}
 		else
 		{

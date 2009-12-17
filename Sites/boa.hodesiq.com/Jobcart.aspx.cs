@@ -98,6 +98,8 @@ public partial class Jobcart : System.Web.UI.Page
         HyperLink MyApplyLink = null;
         CheckBox MyCheckBox = null;
         Label MyLabel = null;
+        string CountryID = "1";
+        string ApplyURL = "";
 
         // For each DataRow in the GridView, 
         if (e.Row.RowType == DataControlRowType.DataRow)
@@ -107,12 +109,27 @@ public partial class Jobcart : System.Web.UI.Page
             MyHidden = (HiddenField)e.Row.FindControl("JobsID");
             MyHidden.Value = DrvRow["JobsID"].ToString();
 
+            CountryID = DrvRow["CountryID"].ToString();
+
+            if (CountryID == Location.CANADA)
+            {
+                ApplyURL = targetpage + HttpUtility.UrlEncode(ConfigurationManager.AppSettings["CanadaApplyURL"].ToString());               
+
+            }
+            else if (CountryID == Location.USA)
+            {
+                ApplyURL = targetpage + HttpUtility.UrlEncode(DrvRow["APPLY_ONLINE_URL"].ToString());
+            }
+            else
+            {
+                ApplyURL = DrvRow["APPLY_ONLINE_URL"].ToString();
+            }
+
             MyApplyLink = (HyperLink)e.Row.FindControl("hlnkApply");
             MyApplyLink.ID = "hlnkApply" + e.Row.RowIndex;
 			MyApplyLink.Text = "Apply Now <span class='auraltext' title='Apply Now. Link opens in new window.'>For `" + DrvRow["JobTitle"].ToString() + "`. If you have any difficulties, refer to the above alternatives. Opens in a new window.</span>";
             //apply process goes trough clients page for hits counting:
-			MyApplyLink.NavigateUrl = targetpage + HttpUtility.UrlEncode(DrvRow["APPLY_ONLINE_URL"].ToString());
-            //MyApplyLink.NavigateUrl = DrvRow["APPLY_ONLINE_URL"].ToString();
+            MyApplyLink.NavigateUrl = ApplyURL;          
 
             MyLabel = (Label)e.Row.FindControl("lblCheckBox");
             MyLabel.ID = "lblCheckBox" + e.Row.RowIndex;

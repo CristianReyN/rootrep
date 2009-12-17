@@ -145,7 +145,7 @@
                                         <table border="0" cellpadding="0" cellspacing="0" ><tr><td>
                                             <p>
                                                 &#8226;	Cycle to Work<br />
-                                                &#8226;	Gym<br />&nbsp;&nbsp; Membership(On-site)<br />
+                                                &#8226;	Gym<br />&nbsp;&nbsp; Membership (On-site)<br />
                                                 &#8226;	Learning Account<br />
                                                 &#8226;	Leisure Account<br />
                                                 &#8226;	Retail Vouchers<br /> 
@@ -180,7 +180,7 @@
                     &#8226;	Rewarding Success Programme<br />
                     &#8226;	Season Ticket Loans<br />
                     &#8226;	Employee Assistance Programme<br />
-                    &#8226;	Maternity, paternity and adoption leave &#8211;above statutory &nbsp;&nbsp;Minimum parental leave<br />
+                    &#8226;	Maternity, paternity and adoption leave &#8211;above statutory &nbsp;&nbsp;&nbsp;minimum parental leave<br />
 
                     <br />
                     <br />

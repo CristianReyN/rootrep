@@ -45,7 +45,7 @@ Apply Now. You are encouraged to complete this online application, however if yo
                                 <AlternatingRowStyle CssClass="C2" BorderStyle="None" />
                                 <HeaderStyle BackColor="#EAF1F7" />
                                 <Columns>
-                                    <asp:HyperLinkField DataNavigateUrlFields="JobsID" DataNavigateUrlFormatString="JobDetails.aspx?SearchPage=Sp&amp;JobId={0}"
+                                    <asp:HyperLinkField DataNavigateUrlFields="JobsID,CountryID" DataNavigateUrlFormatString="JobDetails.aspx?SearchPage=Sp&amp;JobId={0}&amp;CountryID={1}"
                                         DataTextField="JobTitle" HeaderText="Job name">
                                         <HeaderStyle HorizontalAlign="Left" />
                                     </asp:HyperLinkField>
