@@ -31,9 +31,14 @@
                 <br />
                 <a name="mapstart"></a>
                 <div class="hidden" title="Anchor links for location and address list">
+                
+                    <a href="#BAHRAIN">BAHRAIN</a> 
                     <a href="#BELGIUM">BELGIUM</a> <a href="#FRANCE">FRANCE</a> <a href="#GERMANY">GERMANY</a>
-                    <a href="#GREECE">GREECE</a> <a href="#IRELAND">IRELAND</a> <a href="#ITALY">ITALY</a>
-                    <a href="#NETHERLANDS">The NETHERLANDS</a> <a href="#SPAIN">SPAIN</a> <a href="#UK">
+                    <a href="#GREECE">GREECE</a> <a href="#IRELAND">IRELAND</a> <a href="#ISRAEL">ISRAEL</a><a href="#ITALY">ITALY</a>
+                    <a href="#LEBANON">LEBANON</a> <a href="#LUXEMBOURG">LUXEMBOURG</a> <a href="#MONACO">MONACO</a><a href="#POLAND">POLAND</a><a href="#PORTUGAL">PORTUGAL</a>
+                    <a href="#RUSSIA">RUSSIA</a><a href="#SAUDI ARABIA">SAUDI ARABIA</a><a href="#SPAIN">SPAIN</a><a href="#SOUTH AFRICA">SOUTH AFRICA</a>
+                    <a href="#SWITZERLAND">SWITZERLAND</a><a href="#UNITED ARAB EMIRATES">UNITED ARAB EMIRATES/a>
+                    <a href="#NETHERLANDS">The NETHERLANDS</a><a href="#TURKEY>TURKEY</a>  <a href="#UK">
                         UK</a>
                 </div>
                 
@@ -45,6 +50,9 @@
                Bahrain Middle East Bank Building<br />
                Diplomatic Area<br />
                Manama, Bahrain<br />
+               
+               <div class="hidden">
+                    <a href="#mapstart">Back to Location List</a></div>
 
 
                 <h3 class="h1">
@@ -148,6 +156,8 @@
                  Tel Aviv, 67021 
                      </p>
              
+                <div class="hidden">
+                    <a href="#mapstart">Back to Location List</a></div>
                 <h3 class="h1">
                     ITALY</h3>
                 <a name="ITALY"></a>
@@ -239,6 +249,9 @@
             Moscow, 119019</br>
             Russia</p>
             
+            <div class="hidden">
+                    <a href="#mapstart">Back to Location List</a></div>
+            
                  <h3 class="h1">SAUDI ARABIA</h3>  
                  <a name="SAUDI ARABIA"></a>
 
@@ -247,6 +260,9 @@
             Kingdom Tower - 20th Floor</br>
             Olaya Street</br>
             Riyadh</p>
+            
+            <div class="hidden">
+                    <a href="#mapstart">Back to Location List</a></div>
           
             
                                         
@@ -272,6 +288,8 @@
          
                   </p>
                     
+                    <div class="hidden">
+                    <a href="#mapstart">Back to Location List</a></div>
             <h3 class="h1">SOUTH AFRICA</h3>  
                <a name="SOUTH AFRICA"></a>
 
@@ -295,6 +313,8 @@
                    Stockerhof<br />
                   Stockerstrasse 23<br />
                     Zurich, 8039</p>
+                    <div class="hidden">
+                    <a href="#mapstart">Back to Location List</a></div>
                     
          <h3 class="h1">
                     The NETHERLANDS</h3>
@@ -329,7 +349,8 @@
             34394 Levent<br />
             Istanbul<br /></p>
            
-           
+           <div class="hidden">
+                    <a href="#mapstart">Back to Location List</a></div>
            
              <h3 class="h1">UNITED ARAB EMIRATES</h3>  
                <a name="UNITED ARAB EMIRATES<"></a>
