@@ -243,7 +243,7 @@ create_safebutton("Search","javascript: submit_search();",0,0,0,0,"Search");
                                         <td align="left" valign="top" style="width: 209px">                                            
                                             <asp:ContentPlaceHolder ID="Career" runat="server">                                           
                                                
-                                             <uc2:Search ID="Search1" runat="server" BOAFeedName="BOAFeedAsia"/>
+                                             <uc2:Search ID="Search1" runat="server" BOAFeedName=""/>
                                             </asp:ContentPlaceHolder>
                                         </td>
                                     </tr>

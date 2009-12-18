@@ -52,7 +52,7 @@
 							    <div id="d1" style="display: inline;">
 								    <asp:Label ID="lblState" runat="server" Text="State" AssociatedControlID="State"></asp:Label><br />
 								    <asp:DropDownList ID="State" runat="server" CssClass="left" Style="width: 90%; z-index: auto;"
-								    ToolTip="Select a state" AutoPostBack="true" OnSelectedIndexChanged="brefine_Click">
+								    ToolTip="Select a state" AutoPostBack="false" OnSelectedIndexChanged="brefine_Click">
 								    <asp:ListItem Value="-1">All states&#160;</asp:ListItem>
 								    </asp:DropDownList>
 								</div>
@@ -200,8 +200,8 @@
                         <Columns>
                         
                             <asp:HyperLinkField   
-                                DataNavigateUrlFields="CountryID,JobsID,stateid,cityid,travelids,jfamily,langs,ftpt,shftid,pds,keywords,jobareas,feedname" 
-                                DataNavigateUrlFormatString="JobDetails.aspx?SearchPage=ASP&amp;CountryId={0}&amp;JobId={1}&amp;stateid={2}&amp;cityid={3}&amp;travel={4}&amp;jfamily={5}&amp;lang={6}&amp;fullpart={7}&amp;shift={8}&amp;datepost={9}&amp;keywords={10}&amp;jobareas={11}&amp;feedname={12}"
+                                DataNavigateUrlFields="CountryID,JobsID,stateid,cityid,travelids,jfamily,langs,ftpt,shftid,pds,keywords,jobareas,feedname,BOAFeedName,familyid,city,locationid"
+                                DataNavigateUrlFormatString="JobDetails.aspx?SearchPage=ASP&amp;CountryId={0}&amp;JobId={1}&amp;stateid={2}&amp;cityid={3}&amp;travel={4}&amp;jfamily={5}&amp;lang={6}&amp;fullpart={7}&amp;shift={8}&amp;datepost={9}&amp;keywords={10}&amp;jobareas={11}&amp;feedname={12}&amp;BOAFeedName={13}&amp;jobfamilyid={14}&amp;internationalcity={15}&amp;LocationID={16}"
                                 DataTextField="JobName"                                   
                                 HeaderText="Job Title"                                  
                                 SortExpression="JobName">                                

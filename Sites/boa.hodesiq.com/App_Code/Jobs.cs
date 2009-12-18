@@ -162,11 +162,11 @@ public class Jobs
 
     }
 
-     public DataTable JobDetails(string JobId,string CountryId)
+     public DataTable JobDetails(string JobId,string CountryId,string LocationID)
     {
         if (CountryId != USA)
         {
-            return JobDetailsInternational(JobId, CountryId);
+            return JobDetailsInternational(JobId, CountryId,LocationID);
         }
         else
         {
@@ -201,7 +201,7 @@ public class Jobs
 
     }
 
-    public DataTable JobDetailsInternational(string JobId, string CountryId)
+    public DataTable JobDetailsInternational(string JobId, string CountryId,string LocationID)
     {
         OleDbConnection con = new OleDbConnection(constring);
         con.Open();
@@ -211,6 +211,7 @@ public class Jobs
             cmd.CommandType = CommandType.StoredProcedure;
             cmd.Parameters.AddWithValue("@JobId", JobId);
             cmd.Parameters.AddWithValue("@CountryID", CountryId);
+            cmd.Parameters.AddWithValue("@LocationID", LocationID);
             OleDbDataAdapter da = new OleDbDataAdapter(cmd);
             DataSet ds = new DataSet();
             da.Fill(ds);
@@ -583,7 +584,7 @@ public class Jobs
 		return MyListDictionary;
 	}
 
-    public ListDictionary AdvSearch_ListDictionaryInternational(string CountryID,string LocationID, string keywrd, string FamilyID, int PageNumber, int RowPerPage, string SortExp, string SortOrder,string BOAFeedName)
+    public ListDictionary AdvSearch_ListDictionaryInternational(string CountryID,string LocationID, string keywrd, string FamilyID, int PageNumber, int RowPerPage, string SortExp, string SortOrder,string BOAFeedName,string City)
     {
         if (SortExp == null) SortExp = "";
         if (SortOrder == null) SortOrder = "";
@@ -598,7 +599,9 @@ public class Jobs
         cmd.Parameters.AddWithValue("@KeyWords", keywrd);
         cmd.Parameters.AddWithValue("@SortExp", SortExp);
         cmd.Parameters.AddWithValue("@SortOrder", SortOrder);
-        cmd.Parameters.AddWithValue("BOAFeedName", BOAFeedName);
+        cmd.Parameters.AddWithValue("@BOAFeedName", BOAFeedName);
+        cmd.Parameters.AddWithValue("@City", City);
+
         OleDbParameter trows = cmd.Parameters.Add("@totalrows", OleDbType.Integer);
         trows.Direction = ParameterDirection.Output;
 

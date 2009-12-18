@@ -32,25 +32,27 @@ public partial class JobSearch : System.Web.UI.Page
 
         lnkJobCart.Attributes.Add("onblur", "this.className='p';");
         lnkJobCart.Attributes.Add("onfocus", "this.className='p-over';");
-
-        BOAFeedName = Request.QueryString["BOAFeedName"] == null ? "" : Request.QueryString["BOAFeedName"].ToString();
+      
 
         lblMessage.Text = "";
         if (!this.IsPostBack)
         {
-            PopulateCountries();     
+            //BOAFeedname should be blank unless it is canada and french pages
+            BOAFeedName = Request.QueryString["BOAFeedName"] == null ? "" : Request.QueryString["BOAFeedName"].ToString();
+            ViewState["BOAFeedName"] = BOAFeedName;
+            PopulateCountries();
             PopulateLocations();
             PopulateCity();
             PopulateOtherLists();
-            PopulateJobFamily();            
-          
+            PopulateJobFamily();
+
             BindSearchString();
             if (Country.SelectedValue == Location.ALL_COUNTRIES)
             {
                 Country.AutoPostBack = false;
                 PnlFilter.Visible = false;
                 PnlResults.Visible = false;
-                BtnSearch.Visible = false;             
+                BtnSearch.Visible = false;
             }
             else
             {
@@ -58,7 +60,14 @@ public partial class JobSearch : System.Web.UI.Page
                 PnlResults.Visible = true;
                 BtnBegin.Visible = false;
                 ViewState["PageNumber"] = 1;
-                funAdvSearch(0);              
+                funAdvSearch(0);
+            }
+        }
+        else
+        {
+            if (ViewState["BOAFeedName"] != null)
+            {
+                BOAFeedName = ViewState["BOAFeedName"].ToString();
             }
         }
 
@@ -287,7 +296,7 @@ public partial class JobSearch : System.Web.UI.Page
 
         Jobs Job = new Jobs();
         ListDictionary MyListDictionary = new ListDictionary();
-        MyListDictionary = Job.AdvSearch_ListDictionaryInternational(Country.SelectedValue, LocationID, keywrd, JobFamilyID, (int)(ViewState["PageNumber"]), RecPerPage, (string)ViewState["sortExpression"], (string)ViewState["MysortDirection"], BOAFeedName);
+        MyListDictionary = Job.AdvSearch_ListDictionaryInternational(Country.SelectedValue, LocationID, keywrd, JobFamilyID, (int)(ViewState["PageNumber"]), RecPerPage, (string)ViewState["sortExpression"], (string)ViewState["MysortDirection"], BOAFeedName,InternationalCity.SelectedItem.Text);
         DataTable DT = (DataTable)MyListDictionary["JobSearchResults"];
 
         FilterJobSearch(iFrom, DT, MyListDictionary);
@@ -664,6 +673,8 @@ public partial class JobSearch : System.Web.UI.Page
             BtnSearch.Visible = true;
             BtnBegin.Visible = false;        
         }
+
+        ViewState["BOAFeedName"] = "";
     }
 
 

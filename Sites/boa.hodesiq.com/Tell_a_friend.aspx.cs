@@ -16,6 +16,9 @@ using System.Text.RegularExpressions;
 public partial class Tell_a_friend : System.Web.UI.Page
 {
     private string strJobID          = string.Empty;
+    private string strCountryID         = string.Empty;
+    private string strLocationID        = string.Empty;
+    private string strFeedName = string.Empty;
     private string strJobTitle       = string.Empty;
     private string strDescripton     = string.Empty;
     private string strQualification  = string.Empty;
@@ -25,7 +28,11 @@ public partial class Tell_a_friend : System.Web.UI.Page
 
     protected void Page_Load(object sender, EventArgs e)
     {
-        strJobID = Request.QueryString["JobId"];        
+        strJobID = Request.QueryString["JobId"];
+        strCountryID = Request.QueryString["CountryID"];
+        strLocationID = Request.QueryString["LocationID"];
+        strFeedName = Request.QueryString["FeedName"];
+       
 		//write the boa buttons
         boanet_safebutton.writeBOASafeButton("Send", phSend, "Send", Send_Click, this.Request, "");
         boanet_safebutton.writeBOASafeButton("Cancel", phCancel, "Cancel", Cancel_Click, this.Request, "");
@@ -80,7 +87,8 @@ public partial class Tell_a_friend : System.Web.UI.Page
                     strMailBody = strMailBody + "<br/><br/>";
                     //url to apply online: strApplyNow 
                     //url to job description
-                    strMailBody = strMailBody + "<a href='" + Request.Url.ToString().Substring(0, Request.Url.ToString().LastIndexOf("/")) + "/jobdetails.aspx?JobId=" + strJobID + "&SearchPage=Sp' title='Click Here To View More Details About This Opportunity'>Click this link</a> to view more details about this opportunity.";
+               
+                    strMailBody = strMailBody + "<a href='" + Request.Url.ToString().Substring(0, Request.Url.ToString().LastIndexOf("/")) + "/jobdetails.aspx?JobId=" + strJobID + "&CountryID=" + strCountryID + "&LocationID=" + strLocationID + "&FeedName=" + strFeedName +   "&SearchPage=Sp' title='Click Here To View More Details About This Opportunity'>Click this link</a> to view more details about this opportunity.";
                     strMailBody = strMailBody + "<br/><br/>";
                     strMailBody = strMailBody + "Thank you.";
                     strMailBody = strMailBody + "<br/><br/>";

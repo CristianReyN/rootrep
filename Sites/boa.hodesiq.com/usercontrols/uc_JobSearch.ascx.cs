@@ -64,8 +64,16 @@ public partial class uc_JobSearch : System.Web.UI.UserControl
         string jobareas = trJobArea.Visible ? ddlJobAreas.SelectedValue : "";
         string jobfamilyid = trJobFamily.Visible ? ddlJobFamily.SelectedValue : "";
 
+        //BOAFeedname should be blank unless it is canada and french pages
+        if (countryid != Location.CANADA)
+        {
+            BOAFeedName = "";
+        }
+
         string url = "~/JobSearch.aspx?countryid=" + countryid + "&stateid=" + stateid + "&cityid=" + cityid + "&internationalcityid=" + internationcityid;
         url = url + "&keywords=" + keyword + "&jobareas=" + jobareas + "&jobfamilyid=" + jobfamilyid + "&BOAFeedName=" + BOAFeedName;
+
+
 
         Response.Redirect(url);
     }

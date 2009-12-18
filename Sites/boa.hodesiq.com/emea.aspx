@@ -37,8 +37,8 @@
                     <a href="#GREECE">GREECE</a> <a href="#IRELAND">IRELAND</a> <a href="#ISRAEL">ISRAEL</a><a href="#ITALY">ITALY</a>
                     <a href="#LEBANON">LEBANON</a> <a href="#LUXEMBOURG">LUXEMBOURG</a> <a href="#MONACO">MONACO</a><a href="#POLAND">POLAND</a><a href="#PORTUGAL">PORTUGAL</a>
                     <a href="#RUSSIA">RUSSIA</a><a href="#SAUDI ARABIA">SAUDI ARABIA</a><a href="#SPAIN">SPAIN</a><a href="#SOUTH AFRICA">SOUTH AFRICA</a>
-                    <a href="#SWITZERLAND">SWITZERLAND</a><a href="#UNITED ARAB EMIRATES">UNITED ARAB EMIRATES/a>
-                    <a href="#NETHERLANDS">The NETHERLANDS</a><a href="#TURKEY>TURKEY</a>  <a href="#UK">
+                    <a href="#SWITZERLAND">SWITZERLAND</a><a href="#UNITED ARAB EMIRATES">UNITED ARAB EMIRATES</a>
+                    <a href="#NETHERLANDS">The NETHERLANDS</a><a href="#TURKEY">TURKEY</a>  <a href="#UK">
                         UK</a>
                 </div>
                 
@@ -353,7 +353,7 @@
                     <a href="#mapstart">Back to Location List</a></div>
            
              <h3 class="h1">UNITED ARAB EMIRATES</h3>  
-               <a name="UNITED ARAB EMIRATES<"></a>
+               <a name="UNITED ARAB EMIRATES"></a>
              <p>
                     <span class="text_bold_under">
             Dubai</span><br />
