@@ -162,7 +162,7 @@ public class Jobs
 
     }
 
-     public DataTable JobDetails(string JobId,string CountryId,string LocationID)
+     public  DataTable JobDetails(string JobId,string CountryId,string LocationID)
     {
         if (CountryId != USA)
         {

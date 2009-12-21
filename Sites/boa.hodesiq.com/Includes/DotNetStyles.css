@@ -23,6 +23,15 @@ P, UL, LI, H1.p, H2.p, H3.p, H3.pb, LABEL.p
     background-color: transparent;
 }
 
+H1.black
+{
+    font-family: Verdana, Helvetica, sans-serif;
+    font-size: 1.0em;
+    line-height: 1.4em; /*1.2em;*/
+    font-weight: normal;
+    color:Black;   
+    background-color: transparent;
+}
 H1.p
 {
     font-weight: bold;
@@ -212,6 +221,13 @@ H2
     font-weight: bold;
     color: #333333;
 
+}
+H1.black
+{
+   font-family: Verdana, Helvetica, sans-serif;
+    font-size: 1.0em;
+    line-height: 1.4em;
+    font-weight: bold
 }
 
 H1.cc
@@ -1332,3 +1348,6 @@ A.aspblue_link:hover, A.aspblue_link-over
 {
  list-style-type:none
 }
+
+
+  

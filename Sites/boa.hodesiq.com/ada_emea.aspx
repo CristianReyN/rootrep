@@ -1,5 +1,5 @@
-<%@ Page Language="C#" MasterPageFile="MasterPage.master" EnableEventValidation="false"
-    AutoEventWireup="true" CodeFile="ada_emea.aspx.cs" Inherits="ada_emea" Title="Untitled Page" %>
+<%@ Page Language="C#" MasterPageFile="~/MasterPage.master" EnableEventValidation="false"
+    AutoEventWireup="true" CodeFile="emea.aspx.cs" Inherits="emea" Title="Bank of America | Careers | Locations |Canada | Staffing" %>
 
 <asp:Content ID="Image" ContentPlaceHolderID="Image" runat="Server">
     <img src="images/global-careers-emea_I.jpg" width="578" height="166" alt="Explore a career with the Bank of Opportunity."
@@ -16,10 +16,10 @@
         <tr>
             <td width="366" align="left" valign="top">
                           <p>
-                   Bank of America operates a network of offices in 22 countries in Europe, the Middle East and Africa (EMEA). The bank’s regional footprint covers five time zones, multiple legal and regulatory jurisdictions and employs over 14,000 associates in offices in Belgium, France, Greece, Germany, Ireland, Italy, Luxembourg, the Netherlands, Portugal, Spain and the UK, in addition to a strong Emerging Markets presence. The bank is a long–established participant in the European markets having maintained a presence in the region since 1922.
+                   Bank of America operates a network of offices in 22 countries in Europe, the Middle East and Africa (EMEA). The company's regional footprint covers five time zones, multiple legal and regulatory jurisdictions and employs over 14,000 associates in offices in Belgium, France, Greece, Germany, Ireland, Italy, Luxembourg, the Netherlands, Portugal, Spain and the UK, in addition to a strong Emerging Markets presence. The company is a long–established participant in the European markets having maintained a presence in the region since 1922.
                 </p>
                 <p>
-                   Today, the bank offers an integrated and comprehensive set of products and services across all businesses, serving the needs of individual, corporate, institutional and government clients, by combining the best of local knowledge and international expertise.
+                   Today, the company offers an integrated and comprehensive set of products and services across all businesses, serving the needs of individual, corporate, institutional and government clients, by combining the best of local knowledge and international expertise.
                     <br />
                 </p>
                 <p>Bank of America’s Credit Card business (Card Services), has been operating in Europe since 1993, and has offices in the UK, Ireland and Spain. With over seven million customers, Bank of America Europe Card Services is the largest credit card lender in the region.</p>
@@ -31,11 +31,30 @@
                 <br />
                 <a name="mapstart"></a>
                 <div class="hidden" title="Anchor links for location and address list">
+                
+                    <a href="#BAHRAIN">BAHRAIN</a> 
                     <a href="#BELGIUM">BELGIUM</a> <a href="#FRANCE">FRANCE</a> <a href="#GERMANY">GERMANY</a>
-                    <a href="#GREECE">GREECE</a> <a href="#IRELAND">IRELAND</a> <a href="#ITALY">ITALY</a>
-                    <a href="#NETHERLANDS">The NETHERLANDS</a> <a href="#SPAIN">SPAIN</a> <a href="#UK">
+                    <a href="#GREECE">GREECE</a> <a href="#IRELAND">IRELAND</a> <a href="#ISRAEL">ISRAEL</a><a href="#ITALY">ITALY</a>
+                    <a href="#LEBANON">LEBANON</a> <a href="#LUXEMBOURG">LUXEMBOURG</a> <a href="#MONACO">MONACO</a><a href="#POLAND">POLAND</a><a href="#PORTUGAL">PORTUGAL</a>
+                    <a href="#RUSSIA">RUSSIA</a><a href="#SAUDI ARABIA">SAUDI ARABIA</a><a href="#SPAIN">SPAIN</a><a href="#SOUTH AFRICA">SOUTH AFRICA</a>
+                    <a href="#SWITZERLAND">SWITZERLAND</a><a href="#UNITED ARAB EMIRATES">UNITED ARAB EMIRATES</a>
+                    <a href="#NETHERLANDS">The NETHERLANDS</a><a href="#TURKEY">TURKEY</a>  <a href="#UK">
                         UK</a>
                 </div>
+                
+                     <h3 class="h1">BAHRAIN</h3>  
+                 <a name="BAHRAIN"></a>
+
+                  <p>
+                    <span class="text_bold_under">Manama</span><br />
+               Bahrain Middle East Bank Building<br />
+               Diplomatic Area<br />
+               Manama, Bahrain<br />
+               
+               <div class="hidden">
+                    <a href="#mapstart">Back to Location List</a></div>
+
+
                 <h3 class="h1">
                     BELGIUM</h3>
                 <a name="BELGIUM"></a>
@@ -125,6 +144,20 @@
                 </p>
                 <div class="hidden">
                     <a href="#mapstart">Back to Location List</a></div>
+                    
+                 <h3 class="h1">ISRAEL</h3>
+                    <a name="ISRAEL"></a>
+
+                     <p>
+                        <span class="text_bold_under">Tel Aviv</span><br />
+                    1 Azrieli Centre<br />
+                   37th Floor, Round Tower<br />
+                 132 Petach Tikvah Road<br />
+                 Tel Aviv, 67021 
+                     </p>
+             
+                <div class="hidden">
+                    <a href="#mapstart">Back to Location List</a></div>
                 <h3 class="h1">
                     ITALY</h3>
                 <a name="ITALY"></a>
@@ -132,7 +165,7 @@
                     <span class="text_bold_under">Milan</span><br />
                     5th Floor<br />
                     Corso Matteotti 10<br />
-                    20121 Milan
+                    Milan, 20121 
                 </p>
                 
                 <p>
@@ -149,6 +182,17 @@
                </p>
                <div class="hidden">
                     <a href="#mapstart">Back to Location List</a></div>
+                    
+                                      
+            <h3 class="h1">LEBANON  </h3>  
+                 <a name= "LEBANON"></a>            
+             <p>
+                    <span class="text_bold_under">Beirut</span><br />
+            Maarad Street</br>
+            Atrium Building</br>
+            4th Floor</br>
+            Beirut Central Business District</p>
+            
                 <h3 class="h1">
                     LUXEMBOURG</h3>
                 <a name="LUXEMBOURG"></a>
@@ -175,26 +219,7 @@
 
                 <div class="hidden">
                     <a href="#mapstart">Back to Location List</a></div>
-                <h3 class="h1">
-                    The NETHERLAND</h3>
-                <a name="NETHERLANDS"></a>
-                <p>
-                    <span class="text_bold_under">Amsterdam</span><br />
-                    Rembrandt Tower<br />
-                    27th Floor<br />
-                    No.1 Amstelplein<br />
-                    Amsterdam, 1096 HA<br /><br />
-
-                    Herengracht 469<br />
-                    1017 BS Amsterdam<br />
-                    Nederland
-                    <br />
-                    <em>Post address: </em>
-                    <br />
-                    Postbus 1638<br />
-                    1000 BP Amsterdam</p>
-                <div class="hidden">
-                    <a href="#mapstart">Back to Location List</a></div>
+               
                     
                 <h3 class="h1">POLAND</h3>
                 <a name="POLAND"></a>
@@ -213,6 +238,33 @@
                 Edificio Duarte Pacheco 26<br />
                 Av. Engenheiro Duarte Pacheco, 26 6 Piso A<br />
                 Lisbon, 1070-110<br /></p>
+                
+                 <h3 class="h1">RUSSIA</h3>  
+                 <a name="RUSSIA"></a>
+
+            <p>
+                    <span class="text_bold_under"> Moscow</span><br />
+            Znamenka Street, 7</br>
+            Building 3</br>
+            Moscow, 119019</br>
+            Russia</p>
+            
+            <div class="hidden">
+                    <a href="#mapstart">Back to Location List</a></div>
+            
+                 <h3 class="h1">SAUDI ARABIA</h3>  
+                 <a name="SAUDI ARABIA"></a>
+
+            <p>
+                    <span class="text_bold_under"> Riyadh</span><br />
+            Kingdom Tower - 20th Floor</br>
+            Olaya Street</br>
+            Riyadh</p>
+            
+            <div class="hidden">
+                    <a href="#mapstart">Back to Location List</a></div>
+          
+            
                                         
                     
                 <h3 class="h1">
@@ -236,8 +288,20 @@
          
                   </p>
                     
+                    <div class="hidden">
+                    <a href="#mapstart">Back to Location List</a></div>
+            <h3 class="h1">SOUTH AFRICA</h3>  
+               <a name="SOUTH AFRICA"></a>
+
+             <p>
+                    <span class="text_bold_under">Johannesburg</span><br />
+            138 West Street</br>
+            Sandown</br>
+            Sandton</br>
+            Johannesburg, 2120</p>
+                    
                        <h3 class="h1">
-                    Switzerland</h3>
+                    SWITZERLAND</h3>
                 <a name="Switzerland"></a>
                 <p>
                     <span class="text_bold_under">Geneva</span><br />
@@ -249,7 +313,61 @@
                    Stockerhof<br />
                   Stockerstrasse 23<br />
                     Zurich, 8039</p>
+                    <div class="hidden">
+                    <a href="#mapstart">Back to Location List</a></div>
+                    
+         <h3 class="h1">
+                    The NETHERLANDS</h3>
+                <a name="NETHERLANDS"></a>
+                <p>
+                    <span class="text_bold_under">Amsterdam</span><br />
+                    Rembrandt Tower<br />
+                    27th Floor<br />
+                    No.1 Amstelplein<br />
+                    Amsterdam, 1096 HA<br /><br />
+
+                    Herengracht 469<br />
+                    1017 BS Amsterdam<br />
+                    Nederland
+                    <br />
+                    <em>Post address: </em>
+                    <br />
+                    Postbus 1638<br />
+                    1000 BP Amsterdam</p>
+                <div class="hidden">
+                    <a href="#mapstart">Back to Location List</a></div>                    
+                    
+       
+
+             <h3 class="h1">TURKEY</h3>  
+               <a name="TURKEY"></a>
+            <p>
+                    <span class="text_bold_under">      
+            Istanbul</span><br />
+            Kanyon Office Block<br />
+            11th Floor, Buyukdere Street<br />
+            34394 Levent<br />
+            Istanbul<br /></p>
            
+           <div class="hidden">
+                    <a href="#mapstart">Back to Location List</a></div>
+           
+             <h3 class="h1">UNITED ARAB EMIRATES</h3>  
+               <a name="UNITED ARAB EMIRATES"></a>
+             <p>
+                    <span class="text_bold_under">
+            Dubai</span><br />
+            Dubai International Financial Centre:<br />
+            5th Floor, The Gate<br />
+            East Wing<br />
+            P.O. Box 3911<br />
+            Dubai, United Arab Emirates<br /><br />
+
+            Bur Dubai office:<br />
+            6th Floor, Business Centre<br />
+            Khalid Bin Al Waleed St<br />
+            P.O. Box 3911<br />
+            Dubai, United Arab Emirates</p>
            
                 <div class="hidden">
                     <a href="#mapstart">Back to Location List</a></div>
@@ -260,6 +378,9 @@
                     <span class="text_bold_under">London</span><br />
                         2 King Edward Street<br />                       
                         London, EC1A 1HQ<br /><br />
+                                               
+                        5 Canada Square<br />
+                        London E14 5AQ<br /><br />
 
                         20 Farringdon Road<br />
                         London, EC1<br /><br />
@@ -274,7 +395,7 @@
                         Warwick Court<br /> 
                         London, EC4<br /><br /></p>
                   <p>
-                    <span class="text_bold_under">Bromely</span><br />
+                    <span class="text_bold_under">Bromley</span><br />
                     26 Elmfield Road<br />
                     Bromley, BR1 1WA</p>     
                     
@@ -310,100 +431,24 @@
                     
                 </p>
                     
-                  <h3 class="h1">BAHRAIN</h3>  
-                 <a name="BAHRAIN"></a>
+             
+               
+                
+          
 
-                  <p>
-                    <span class="text_bold_under">Manama</span><br />
-               Bahrain Middle East Bank Building<br />
-               Diplomatic Area<br />
-               Manama, Bahrain<br />
+           
 
-                <h3 class="h1">ISRAEL</h3>
-                <a name="ISRAEL"></a>
 
+
+
+                
                  <p>
-                    <span class="text_bold_under">Tel Aviv</span><br />
-                1 Azrieli Centre<br />
-               37th Floor, Round Tower<br />
-             132 Petach Tikvah Road<br />
-             Tel Aviv, 67021 
-             </p>
-                
-                            
-            <h3 class="h1">LEBANON  </h3>  
-                 <a name= "LEBANON"></a>            
-             <p>
-                    <span class="text_bold_under">Beirut</span><br />
-            Maarad Street</br>
-            Atrium Building</br>
-            4th Floor</br>
-            Beirut Central Business District</p>
-
-            <h3 class="h1">RUSSIA</h3>  
-                 <a name="RUSSIA"></a>
-
-            <p>
-                    <span class="text_bold_under"> Moscow</span><br />
-            Znamenka Street, 7</br>
-            Building 3</br>
-            Moscow, 119019</br>
-            Russia</p>
-
-            <h3 class="h1">SAUDI ARABIA</h3>  
-                 <a name="SAUDI ARABIA"></a>
-
-            <p>
-                    <span class="text_bold_under"> Riyadh</span><br />
-            Kingdom Tower - 20th Floor</br>
-            Olaya Street</br>
-            Riyadh</p>
-
-            <h3 class="h1">SOUTH AFRICA</h3>  
-               <a name="SOUTH AFRICA"></a>
-
-             <p>
-                    <span class="text_bold_under">Johannesburg</span><br />
-            138 West Street</br>
-            Sandown</br>
-            Sandton</br>
-            Johannesburg, 2120</p>
-            
-             <h3 class="h1">TURKEY</h3>  
-               <a name="TURKEY"></a>
-            <p>
-                    <span class="text_bold_under">      
-            Istanbul</span><br />
-            Kanyon Office Block<br />
-            11th Floor, Buyukdere Street<br />
-            34394 Levent<br />
-            Istanbul<br /></p>
-
-             <h3 class="h1">UNITED ARAB EMIRATES</h3>  
-               <a name="UNITED ARAB EMIRATES<"></a>
-             <p>
-                    <span class="text_bold_under">
-            Dubai</span><br />
-            Dubai International Financial Centre:<br />
-            5th Floor, The Gate<br />
-            East Wing<br />
-            P.O. Box 3911<br />
-            Dubai, United Arab Emirates<br /><br />
-
-            Bur Dubai office:<br />
-            6th Floor, Business Centre<br />
-            Khalid Bin Al Waleed St<br />
-            P.O. Box 3911<br />
-            Dubai, United Arab Emirates</p>
-
-
-                
-              
-                <div class="hidden">
-                    <a href="#mapstart">Back to Location List</a></div>
-                <p>
-                    <a href="emea.aspx#DivOne" class="ada2adalink" onfocus="this.className='ada2adalink-over';" onblur="this.className='ada2adalink';" title="Return to map">Return to map</a></p>
-            </td>
+                    <a href="emea.aspx#A4" class="ada2adalink" onfocus="this.className='ada2adalink-over';" onblur="this.className='ada2adalink';" title="Return to map">Return to map
+                    
+                    
+                    
+                    
+                    </a></p></td>
         </tr>
     </table>
 </asp:Content>
