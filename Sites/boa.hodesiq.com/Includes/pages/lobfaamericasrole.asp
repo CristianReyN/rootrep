@@ -22,7 +22,7 @@ If you want to learn more about joining Merrill Lynch Wealth Management, go to <
 
 <H2 class="p" style="margin: 12px 0px 0px 0px; padding: 0px;"><b>Transitioning Professionals</b></H2>
 <p style="margin-top: 12px;">
-Merrill Lynch Wealth Management is, and always has been, a choice for Financial Advisors who want more and now the merger with Bank&nbsp;of&nbsp;America means more options and more opportunities.
+Merrill Lynch Wealth Management is, and always has been, a choice for Financial Advisors who want more. And now with access to additional resources from Bank&nbsp;of&nbsp;America, you can leverage more options and more opportunity.
 </p>
 
 <H2 class="p" style="margin: 12px 0px 0px 0px; padding: 0px;"><b>Every Financial Advisor benefits from:</b></H2>
@@ -58,7 +58,7 @@ In the next stage, you will perform against quarterly business hurdles, complete
 
 <H2 class="p" style="margin: 12px 0px 0px 0px; padding: 0px;"><b>How to Apply</b></H2>
 <p style="margin-top: 12px;">
-To apply for the Financial Advisor transition role in the Americas region, you may apply now.
+Apply now for a Financial Advisor transition role in the Americas region. Use job number <a class="p" href="http://careers.bankofamerica.com/JobDetails.aspx?SearchPage=Sp&JobId=IRC176549&stateid=-1&cityid=-1&jobareas=-1|-1&keywords=Financial%20Advisor" title="Financial Advisor Trainee - Chicago :  IRC176549">IRC176549</a> or <a class="p" href="http://careers.bankofamerica.com/JobDetails.aspx?SearchPage=Sp&JobId=IRC177137&stateid=-1&cityid=-1&jobareas=-1|-1&keywords=Financial%20Advisor" title="Financial Advisor Trainee- Walnut Creek, CA : IRC177137">IRC177137</a>.
 </p>
 
 <p style="margin-top: 12px;">

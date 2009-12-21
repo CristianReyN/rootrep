@@ -4,7 +4,7 @@ On Error Resume Next
 Dim jwdt, style
 jwdt = 192
 If jwidth Then jwdt = jwidth
-stl = "margin: 0px 5px 0px 4px"
+stl = "margin: 0px 3px 0px 4px"
 If style <> "" Then stl = style%>
 <%
 	begin = "Begin Search"
@@ -116,7 +116,7 @@ function changeCity()
 						</tr>
 						<tr style="<%=display%>">
 							<td width="<%=jwdt%>" nowrap style="padding: 0px 0px 0px 0px;">
-<label for="jobareas" class="p" style="margin: 0px;"><b><%If countryid = "1" Then%>Job areas<%Else%>Job Family<%End If%></b></label><br>
+<label for="<% If countryid = "1" Then%>jobareas<% Else %>jobfamilyid<% End If %>" class="p" style="margin: 0px;"><b><%If countryid = "1" Then%>Job areas<%Else%>Job Family<%End If%></b></label><br>
 <div id="L104" style="position: relative; z-index: 12;">
 <% 
 	If countryid = "1" Then

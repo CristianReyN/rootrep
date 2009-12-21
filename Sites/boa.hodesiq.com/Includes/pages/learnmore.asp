@@ -14,8 +14,8 @@
 			<tr valign="top">
 				<td width="373" height="100%" valign="top" style="padding: 0px <%=right_margin%>px 0px <%=left_margin_0%>px;">
 				
-<H2 class="p" style="margin: 0px; padding: 0px;"><a href="https://bacfhrs.taleo.net/careersection/10200/joblist.ftl?lang=en" class="left2" title="Banc of America Merchant Services. Link opens a new window." target="_blank">Banc of America Merchant Services</a></H2>
-<p style="margin-top: 6px;">Search for current career opportunities within Banc of America Merchant Services.</p>
+<H2 class="p" style="margin: 0px; padding: 0px;"><a href="https://bacfhrs.taleo.net/careersection/10200/joblist.ftl?lang=en" class="left2" title="Banc of America Merchant Services, LLC. Link opens a new window." target="_blank">Banc of America Merchant Services, LLC</a></H2>
+<p style="margin-top: 6px;">Search for current career opportunities within Banc of America Merchant Services, LLC.</p>
 				
 <H2 class="p" style="margin: 0px; padding: 0px;"><a href="<% if page_section <> "ADA" then Response.write "../learnmore/benefitsadv.asp" Else Response.write "benefitsadv.asp" End If%>" class="left2" title="Benefits and advantages">Benefits and advantages</a></H2>
 <p style="margin-top: 6px;">
