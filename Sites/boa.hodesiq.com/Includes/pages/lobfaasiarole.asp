@@ -60,7 +60,7 @@ Above all, there&#39;s the support private wealth managers receive from the enti
 
 <H2 class="p" style="margin: 12px 0px 0px 0px; padding: 0px;"><b>How to Apply</b></H2>
 <p style="margin-top: 12px;">
-To apply for the private wealth manager role in the Asia Pacific region, you may <a href="<%=SITE_U_R_L%>JobDetails.aspx?SearchPage=ASP&CountryId=96&JobId=HKG00162&stateid=&cityid=&travel=&jfamily=Relationship%20Management&lang=&fullpart=&shift=&datepost=&keywords=hkg00162&jobareas=&feedname=BOAFeedAsia&BOAFeedName=&jobfamilyid=-1&internationalcity=All%20cities&LocationID=3" class="p" title="Apply now. Link opens a new window." target="_blank">apply now</a>.
+To apply for the private wealth manager role in the Asia Pacific region, you may <a href="<%=SITE_U_R_L%>JobDetails.aspx?SearchPage=ASP&CountryId=96&JobId=HKG00162&stateid=&cityid=&travel=&jfamily=Relationship%20Management&lang=&fullpart=&shift=&datepost=&keywords=hkg00162&jobareas=&feedname=BOAFeedAsia&BOAFeedName=&jobfamilyid=-1&internationalcity=All%20cities&LocationID=3" class="p" title="Apply now">apply now</a>.
 </p>
 
 <p style="margin-top: 24px;">
