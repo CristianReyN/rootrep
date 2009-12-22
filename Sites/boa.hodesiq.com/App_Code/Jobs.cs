@@ -162,11 +162,11 @@ public class Jobs
 
     }
 
-     public  DataTable JobDetails(string JobId,string CountryId,string LocationID)
+     public  DataTable JobDetails(string JobId,string CountryId,string LocationID,string FeedName)
     {
         if (CountryId != USA)
         {
-            return JobDetailsInternational(JobId, CountryId,LocationID);
+            return JobDetailsInternational(JobId, CountryId,LocationID,FeedName);
         }
         else
         {
@@ -201,7 +201,7 @@ public class Jobs
 
     }
 
-    public DataTable JobDetailsInternational(string JobId, string CountryId,string LocationID)
+    public DataTable JobDetailsInternational(string JobId, string CountryId,string LocationID,string FeedName)
     {
         OleDbConnection con = new OleDbConnection(constring);
         con.Open();
@@ -212,6 +212,7 @@ public class Jobs
             cmd.Parameters.AddWithValue("@JobId", JobId);
             cmd.Parameters.AddWithValue("@CountryID", CountryId);
             cmd.Parameters.AddWithValue("@LocationID", LocationID);
+            cmd.Parameters.AddWithValue("@FeedName", FeedName);
             OleDbDataAdapter da = new OleDbDataAdapter(cmd);
             DataSet ds = new DataSet();
             da.Fill(ds);

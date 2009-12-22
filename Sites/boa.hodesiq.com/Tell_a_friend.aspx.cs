@@ -65,7 +65,7 @@ public partial class Tell_a_friend : System.Web.UI.Page
                     //get this job details:
                     Jobs JobDetail = new Jobs();
 
-                    DataTable dt = JobDetail.JobDetails(strJobID, strCountryID, strLocationID);        
+                    DataTable dt = JobDetail.JobDetails(strJobID, strCountryID, strLocationID, strFeedName);        
                     if (dt.Rows.Count > 0)
                     {
                         strJobTitle = dt.Rows[0]["JobTitle"].ToString() + " : " + dt.Rows[0]["JobsId"].ToString();

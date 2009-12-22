@@ -42,8 +42,9 @@ public partial class JobDetails : System.Web.UI.Page
 
         string countryid = Request["countryid"] == null ? "1" : Request["countryid"].ToString();
         string LocationId = Request["LocationID"] == null ? "0" : Request["LocationID"].ToString();
+        string FeedName = Request["FeedName"] == null ? "" : Request["FeedName"].ToString();
 
-        DataTable dt = Jobs.JobDetails(Request.QueryString["JobId"].ToString(), countryid, LocationId);        
+        DataTable dt = Jobs.JobDetails(Request.QueryString["JobId"].ToString(), countryid, LocationId,FeedName);        
 		if (dt.Rows.Count > 0)
 		{
 			strJobID = dt.Rows[0]["JobsId"].ToString();
