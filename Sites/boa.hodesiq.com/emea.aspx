@@ -58,11 +58,11 @@
                 <div id="retuntomap"> </div>
                 <p> <a href="ada_emea.aspx#mapstart" class="ada2adalink" onfocus="this.className='ada2adalink-over';"
                         onblur="this.className='ada2adalink';" title="View locations as text">View locations
-                    as text</a></p></br></td>
+                    </a></p></br></td>
                 </tr>
     </table>
 </asp:Content>
-<asp:Content ID="Content1" runat="server" ContentPlaceHolderID="map">
+<asp:Content ID="Content1" runat="server" ContentPlaceHolderID="map" Visible="false">
 
 <style type="text/css"><!--
 
@@ -92,7 +92,7 @@ div#map_details_EUROPE div h1{ padding:15px 0px 15px 0px; font-size:14px}
 div#map_details_EUROPE div h2{ font-size:12px;font-weight:bold;}
 div#map_details_EUROPE div p { font-size:12px;}
 --></style>
-    <table summary=""          cellspacing="0" cellpadding="0">
+    <table summary=""  runat="server" visible="false"        cellspacing="0" cellpadding="0">
         <tr>
             <td  align="left" valign="top">
                 <table width="300" height="27" border="0" cellpadding="0" cellspacing="0">

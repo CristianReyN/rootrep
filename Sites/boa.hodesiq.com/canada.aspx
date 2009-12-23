@@ -19,7 +19,7 @@
                 <div> 
                 
     <p>Bank of America recognizes and embraces the importance of building a strong presence in Canada &ndash; and the bank provides financial products and services throughout the country. Bank of America&rsquo;s affiliated entities in Canada include MBNA Canada Bank, Bank of America National Association and Merrill Lynch Canada Inc. We hire talented people from diverse backgrounds who are committed to providing the very best products and services to Bank of America customers.</p> 
-     <h2>Calgary</h2>Bank of America Merrill Lynch<br /> Bow Valley Square III, <br /> Suite 2620, <br /> 255 5th Ave SW, <br /> Calgary, AB T2P 3G6 <br />  <br />
+     <h2>Calgary</h2>Bank of America Merrill Lynch<br /> Bow Valley Square III, <br /> Suite 2620, <br /> 255 5th Ave SW<br /> Calgary, AB T2P 3G6 <br />  <br />
     Bank of America, National Association (Canada Branch)</br>
     888-3rd Street SW</br>
     Calgary, AB T2P 5C5</p>  
@@ -38,9 +38,9 @@
     200 Front St.<br />
     Toronto, ON M5V 3L2</br></br>
     <h2>Vancouver</h2>Bank of America Merrill Lynch<br /> Cathedral Place<br /> 925 West Georgia Street<br /> 7th Floor<br /> Vancouver, BC V6C 3L2<br /> <br />
-    Bank of America Merrill Lynch</br>
+    Bank of America, National Association (Canada Branch)</br>
     1055 Dunsmuir Street Suite 574 </br> 
-    Vancouver, BC 'V7X 1L3</p>      
+    Vancouver, BC V7X 1L3</p>      
      </div> 
             </td>
         </tr>
