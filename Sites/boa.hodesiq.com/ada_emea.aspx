@@ -443,7 +443,7 @@
 
                 
                  <p>
-                    <a href="emea.aspx#A4" class="ada2adalink" onfocus="this.className='ada2adalink-over';" onblur="this.className='ada2adalink';" title="Return">Return to map
+                    <a href="emea.aspx#A4" class="ada2adalink" onfocus="this.className='ada2adalink-over';" onblur="this.className='ada2adalink';" title="Return">Return
                     
                     
                     
