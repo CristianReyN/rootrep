@@ -1,5 +1,5 @@
 <% Response.Buffer=True 
-Dim title, mpage, spage, ada_href, ada_title, job_search_action, Metatag%>
+Dim title, mpage, spage, ada_href, ada_title, Metatag%>
 <!-- #include file="../includes/breadcrumb.asp" -->
 <% title = breadcrumb & "Job Areas | Mortgage Careers | Insurance"
 mpage = "areasoftalent"
@@ -8,14 +8,12 @@ tpage = "aot_insurance"
 ada_href = "../ada/insurancem.asp"
 page_self = "../mortgagecareers/insurance.asp"
 ada_title = breadcrumb & "Job Areas | Mortgage Careers | Insurance"
-job_search_action = "../jobsearch/searchresult.asp"
 Dim flashPage
 flashPage = false
 Dim subtitle
 subtitle="Insurance"
 Metatag="From this page you will learn about jobs in the Insurance Services group within Bank of America Mortgage."
 Keywords="Bank of America, Mortgage, Fulfillment, Home Equity, Reverse Mortgages, Insurance, Sales, Servicing, Mortgage Lender, Loan Servicer, Home Lending, Job Opportunities, Job Search, Career Search."
-'****************************** ADDED FOR HOT JOB OPENING***************************
 %>
 <!-- Header -->
 <!-- #include file="../includes/header.asp" -->

@@ -1,5 +1,5 @@
 <% Response.Buffer=True 
-Dim title, mpage, spage, ada_href, ada_title, job_search_action,page_section, Metatag
+Dim title, mpage, spage, ada_href, ada_title, page_section, Metatag
 mpage = "locations"
 spage = "united_states"
 tpage = "benefitsadv"
@@ -9,7 +9,6 @@ fpage = "metlifeautohomeinsurance"
 <%
 title = breadcrumb_extended
 standart_href = "../learnmore/metlife_ahins.asp"
-job_search_action = "../jobsearch/searchresult.asp"
 Metatag="Page is specific to information on the MetLife Auto & Home Insurance Program."
 page_self = "../ada/metlife_ahins.asp"
 page_section="ADA"

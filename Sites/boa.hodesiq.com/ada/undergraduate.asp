@@ -2,7 +2,7 @@
 Response.Redirect("../ada_camp/")
 %>
 <% Response.Buffer=True 
-Dim title, mpage, spage, ada_href, ada_title, job_search_action,page_section, Metatag
+Dim title, mpage, spage, ada_href, ada_title, page_section, Metatag
 mpage = "locations"
 spage = "united_states"
 tpage = "collrecruiting"
@@ -12,7 +12,6 @@ fpage = "undergraduate"
 <%
 title = breadcrumb_extended
 standart_href = "../learnmore/undergraduate.asp"
-job_search_action = "../jobsearch/searchresult.asp"
 Metatag="The undergraduate/analyst career programs are for students currently enrolled in college/university and for recent graduates.  Detailed information is available on the page for these types of programs."
 page_self = "../ada/undergraduate.asp"
 page_section="ADA"

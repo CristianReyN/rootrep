@@ -1,5 +1,5 @@
 <% Response.Buffer=True 
-Dim title, mpage, spage, ada_href, ada_title, job_search_action, Metatag%>
+Dim title, mpage, spage, ada_href, ada_title, Metatag%>
 <!-- #include file="../includes/breadcrumb.asp" -->
 <% title = breadcrumb & "Locations | Costa Rica | Benefits, Culture &amp; Work Environment"
 mpage = "locations"
@@ -8,7 +8,6 @@ tpage = "costa_rica_benefits_culture"
 ada_href = "../ada/costa_rica_benefits_culture.asp"
 page_self = "../locations/costa_rica_benefits_culture.asp"
 ada_title = breadcrumb & "Locations | Costa Rica | Benefits, Culture &amp; Work Environment"
-job_search_action = "../jobsearch/searchresult.asp"
 Metatag="BA Continuum Costa Rica Limitada culture detail page of Bank of America career web site. Provides overview of the non-bank subsidiary's culture and benefits, as well dynamic job search."
 Keywords="BA Continuum Costa Rica, non-bank subsidiary of Bank of America, Bank of America, Costa Rica, benefits, compensation, performance-based bonus, diversity, progressive workplace practices, Inclusive meritocracy, lines of business, staffing process, career, job search"
 %>

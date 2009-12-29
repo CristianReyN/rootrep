@@ -1,5 +1,5 @@
 <% Response.Buffer=True 
-Dim title, mpage, spage, ada_href, ada_title, job_search_action, Metatag%>
+Dim title, mpage, spage, ada_href, ada_title, Metatag%>
 <!-- #include file="../includes/breadcrumb.asp" -->
 <%
 mpage = "locations"
@@ -8,7 +8,6 @@ tpage = "lb_career_compass"
 ada_href = "../ada/lb_career_compass.asp"
 page_self = "../learnmore/lb_career_compass.asp"
 ada_title = breadcrumb & "Lines of Business | Career Compass"
-job_search_action = "../jobsearch/searchresult.asp"
 Metatag="This tool can help you determine which Bank of America lines of business match your skills and interests."
 	
 	page_number = 3

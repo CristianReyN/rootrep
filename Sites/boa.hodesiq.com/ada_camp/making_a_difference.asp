@@ -1,5 +1,5 @@
 <% Response.Buffer=True 
-Dim title, mpage, spage, ada_href, ada_title, job_search_action,page_section, Metatag%>
+Dim title, mpage, spage, ada_href, ada_title, page_section, Metatag%>
 <!-- #include file="../includes/breadcrumb.asp" -->
 <% title = breadcrumb & "Campus Recruiting | Our Culture | Making a difference"
 mpage = "camp"
@@ -7,7 +7,6 @@ spage = "our_culture"
 tpage = "making_a_difference"
 standart_href = "../campusrecruiting/making_a_difference.asp"
 page_self = "../ada_camp/making_a_difference.asp"
-job_search_action = "../jobsearch/searchresult.asp"
 Metatag="Community Involvement Overview page of campus site. Includes details of the Bank's community and corporate philanthropy programs, Campus Events and Career Fit and Profile Submission Tools."
 page_section="ADA"
 Dim flashPage

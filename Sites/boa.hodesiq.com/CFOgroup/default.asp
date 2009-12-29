@@ -1,5 +1,5 @@
 <% Response.Buffer=True 
-Dim title, mpage, spage, ada_href, ada_title, job_search_action, Metatag
+Dim title, mpage, spage, ada_href, ada_title, Metatag
 mpage = "lob"
 spage = "lobcss"
 tpage = "lobcf"
@@ -10,17 +10,11 @@ title = breadcrumb_extended
 ada_href = "../ada/lobcf.asp"
 page_self = "../CFOgroup/default.asp"
 ada_title = breadcrumb_extended
-job_search_action = "../jobsearch/searchresult.asp"
 Dim flashPage
 flashPage = false
 Dim subtitle
 subtitle="CFO Group/Finance"
 Metatag="Explore a career in Corporate Finance with Bank of America's Corporate Staff & Support."
-
-'****************************** ADDED FOR HOT JOB OPENING***************************
-Dim talentid,rowcount
-talentid=4 
-rowcount=6
 %>
 <!-- Header -->
 <!-- #include file="../includes/header.asp" -->

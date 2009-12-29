@@ -1,12 +1,11 @@
 <% Response.Buffer=True 
-Dim title, mpage, spage, ada_href, ada_title, job_search_action,page_section, Metatag%>
+Dim title, mpage, spage, ada_href, ada_title, page_section, Metatag%>
 <!-- #include file="../includes/breadcrumb.asp" -->
 <% title = breadcrumb & "Campus Recruiting | Explore Careers | Analyst Programs"
 mpage = "camp"
 spage = "explore_careers"
 tpage = "undergraduate_programs"
 standart_href = "../campusrecruiting/analyst_programs.asp"
-job_search_action = "../jobsearch/searchresult.asp"
 Metatag="Analyst Programs Overview page of campus site. Lists programs available for undergrads within the Bank's many Lines of Business in the U.S. and internationally."
 page_section="ADA"
 Dim flashPage

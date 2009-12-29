@@ -23,7 +23,7 @@ if ( hasRequestedVersion ) {
 	document.write('<td valign="top" width="266"><img id="idvi" src="../images/clear.gif" style="position: absolute; width: 266px; height: 425px; clip: rect(0 266 425 0); display: none;" /></td></tr></table>');
 } else {
 	rotate_img("start");
-	document.write(getReqFlashPlayerImg ( "../images/whyworkhere_cc.jpg",8)); 
+	document.write(getReqFlashPlayerImg ( "../images/whyworkhere_cc.jpg",9)); 
 }
 //-->
 </script>

@@ -1,5 +1,5 @@
 <% Response.Buffer=True 
-Dim title, mpage, spage, ada_href, ada_title, job_search_action,page_section, Metatag
+Dim title, mpage, spage, ada_href, ada_title, page_section, Metatag
 mpage = "locations"
 spage = "united_states"
 tpage = "staffingprocess"
@@ -8,7 +8,6 @@ tpage = "staffingprocess"
 <%
 title = breadcrumb_extended
 standart_href = "../staffingevents/staffingprocess.asp"
-job_search_action = "../jobsearch/searchresult.asp"
 Metatag="Learn about our staffing porcess and what you can expect when you apply for a position at Bank of America."
 page_self = "../ada/staffingprocess.asp"
 page_section="ADA"

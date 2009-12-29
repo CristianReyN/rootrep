@@ -22,8 +22,10 @@
 <br><img src="../../images/clear.gif" width="10" height="12" alt="" border="0" /><br>
 <p class="bacg">Join Bank&nbsp;of&nbsp;America Home Loans today, and use your skills and knowledge to start Bringing Opportunity Home - for customers, and for yourself.</p>
 <%
-Dim familyid, rowcount
+'******* HOT JOB OPENING '*******
+Dim familyid, talentid, globaljobsfamilyids, rowcount
 talentid=12
+globaljobsfamilyids="7,8,21,22,23,26,28,30"
 rowcount=6
 %>
 <H2 class="h2" style="margin: 12px <%=right_margin%>px 2px 0px;">New Opportunities</H2>

@@ -1,5 +1,5 @@
 <% Response.Buffer=True 
-Dim title, mpage, spage, ada_href, ada_title, job_search_action,page_section, Metatag
+Dim title, mpage, spage, ada_href, ada_title, page_section, Metatag
 mpage = "lob"
 spage = "lobgbmwm"
 tpage = "lobfa"
@@ -9,7 +9,6 @@ fpage = "lobfaemearole"
 <%
 title = breadcrumb_extended
 standart_href = "../financialadvisor/lobfaemearole.asp"
-job_search_action = "../jobsearch/searchresult.asp"
 page_section="ADA"
 Dim flashPage
 flashPage = false

@@ -7,17 +7,11 @@ spage = "technology"
 ada_href = "../ada/technology.asp"
 page_self = "../tech/default.asp"
 ada_title = breadcrumb & "Technology"
-job_search_action = "../jobsearch/searchresult.asp"
 Dim flashPage
 flashPage = false
 Dim subtitle
 subtitle="Technology"
 Metatag="Technology is one area of talent for careers at Bank of America. From this page you can listen to an associate, see hot job opportunities, and click to positions in technology."
-
-'****************************** ADDED FOR HOT JOB OPENING***************************
-Dim talentid,rowcount
-talentid=9 
-rowcount=6
 %>
 <!-- Header -->
 <!-- #include file="../includes/header.asp" -->

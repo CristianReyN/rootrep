@@ -1,5 +1,5 @@
 <% Response.Buffer=True 
-Dim title, mpage, spage, ada_href, ada_title, job_search_action, Metatag%>
+Dim title, mpage, spage, ada_href, ada_title, Metatag%>
 <!-- #include file="../includes/breadcrumb.asp" -->
 <% title = breadcrumb & "Campus Recruiting | Explore Careers | Analyst internships"
 mpage = "camp"
@@ -9,7 +9,6 @@ fpage = "undergraduate_internships"
 ada_href = "../ada_camp/analyst_internships.asp"
 page_self = "../campusrecruiting/analyst_internships.asp"
 ada_title = breadcrumb & "Campus Recruiting | Explore Careers | Analyst internships"
-job_search_action = "../jobsearch/searchresult.asp"
 Metatag="Analyst internships detail page of campus site. Lists internships available specifically for undergrads within the Bank's many Lines of Business in the U.S. and internationally."
 Dim r1,r2,r3
 r1 = False

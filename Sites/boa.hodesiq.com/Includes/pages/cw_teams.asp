@@ -25,11 +25,11 @@
 <H2 class="bacg">Business Enablement Services Team</H2><p class="bacg">&nbsp;is engaged in the technology and operations of Corporate Workplace, including everything from lease administration and space management to technology and risk management.  The group is also responsible for the organization and management of Transition activities.</p>
 <br><img src="../images/clear.gif" width="10" height="12" alt="" border="0" /><br>
 <H2 class="bacg">Workplace Innovation</H2><p class="bacg">&nbsp;has a continuous goal of developing innovative solutions to simultaneously reduce the bank's costs and increase associate satisfaction.  Priorities of the group include developing flexible work options for associates and using sustainable practices to reduce the bank's environmental impact.</p>
-
 <%
-Dim familyid,rowcount
-'familyid=11
+'******* HOT JOB OPENING '*******
+Dim familyid, talentid, globaljobsfamilyids, rowcount
 talentid=11
+globaljobsfamilyids="6"
 rowcount=6
 %>
 <H2 class="h2" style="margin: 12px <%=right_margin%>px 2px 0px;">New Opportunities</H2>

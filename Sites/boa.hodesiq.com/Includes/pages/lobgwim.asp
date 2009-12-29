@@ -50,7 +50,10 @@ Clients have access to a range of services offered through the following busines
 <H2 class="h2" style="margin: 12px <%=right_margin%>px 2px <%=left_margin_0%>px;">New Opportunities</H2>
 <table cellpadding="2" cellspacing="0" border="0" summary="" style="margin-left: <%=left_margin_0%>px;">
 <% 
+'******* HOT JOB OPENING '*******
+Dim familyid, talentid, globaljobsfamilyids, rowcount
 familyid=15
+globaljobsfamilyids="31"
 rowcount=6
 %>
 <!--#include file="../../hot_jobs.asp"-->

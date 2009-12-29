@@ -1,5 +1,5 @@
 <% Response.Buffer=True 
-Dim title, mpage, spage, ada_href, ada_title, job_search_action,page_section, Metatag
+Dim title, mpage, spage, ada_href, ada_title, page_section, Metatag
 mpage = "locations"
 spage = "united_states"
 tpage = "benefitsadv"
@@ -9,7 +9,6 @@ fpage = "insurance"
 <%
 title = breadcrumb_extended
 standart_href = "../learnmore/insurance.asp"
-job_search_action = "../jobsearch/searchresult.asp"
 Metatag="Information is available on this page highlighting the plans available through Bank of America for Insurance."
 page_self = "../ada/insurance.asp"
 page_section="ADA"

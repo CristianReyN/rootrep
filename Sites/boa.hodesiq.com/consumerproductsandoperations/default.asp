@@ -1,5 +1,5 @@
 <% Response.Buffer=True 
-Dim title, mpage, spage, ada_href, ada_title, job_search_action, Metatag
+Dim title, mpage, spage, ada_href, ada_title, Metatag
 mpage = "lob"
 spage = "lobgcsbb"
 tpage = "lobnbcc"
@@ -10,16 +10,11 @@ title = breadcrumb_extended
 ada_href = "../ada/lobnbcc.asp"
 page_self = "../consumerproductsandoperations/default.asp"
 ada_title = breadcrumb_extended
-job_search_action = "../jobsearch/searchresult.asp"
 Dim flashPage
 flashPage = false
 Dim subtitle
 subtitle="Non-Banking Center Channel/Customer Care"
 Metatag="Explore careers beyond the banking center, with Bank of America's Global Consumer & Small Business Banking."
-'****************************** ADDED FOR HOT JOB OPENING***************************
-Dim talentid,rowcount
-talentid=2 
-rowcount=6
 %>
 <!-- Header -->
 <!-- #include file="../includes/header.asp" -->

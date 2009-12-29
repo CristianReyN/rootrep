@@ -1,7 +1,7 @@
 <!-- #include file="jsearch.asp" -->
 <%
 On Error Resume Next
-Dim jwdt, style
+Dim jwdt, style, job_search_action
 jwdt = 192
 If jwidth Then jwdt = jwidth
 stl = "margin: 0px 3px 0px 4px"
@@ -48,6 +48,8 @@ If style <> "" Then stl = style%>
 	jobfamilyid = Request("jobfamilyid")
 		If jobfamilyid = "" Then jobfamilyid = "-1"
 	keywords = Request("keywords")
+	
+job_search_action = "../jobsearch/searchresult.asp"
 %>
 <script language="JavaScript" type="text/javascript">
 

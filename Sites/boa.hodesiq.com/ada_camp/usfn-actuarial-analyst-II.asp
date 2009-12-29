@@ -1,5 +1,5 @@
 <% Response.Buffer=True 
-Dim title, mpage, spage, ada_href, ada_title, job_search_action,page_section, Metatag%>
+Dim title, mpage, spage, ada_href, ada_title, page_section, Metatag%>
 <!-- #include file="../includes/breadcrumb.asp" -->
 <!-- #include file="../includes/career_fit_tool_programs.asp" -->
 <%
@@ -11,7 +11,6 @@ tpage = "undergraduate_programs"
 fpage = "usfn-actuarial-analyst-II"
 standart_href = "../campusrecruiting/usfn-actuarial-analyst-II.asp"
 page_self = "../ada_camp/usfn-actuarial-analyst-II.asp"
-job_search_action = "../jobsearch/searchresult.asp"
 %><!-- #include file="../includes/camp_program_meta_description.asp" --><%
 Metatag=CAMP_META_DESRIPTION
 page_section="ADA"

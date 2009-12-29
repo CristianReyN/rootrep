@@ -1,5 +1,5 @@
 <% Response.Buffer=True 
-Dim title, mpage, spage, ada_href, ada_title, job_search_action,page_section, Metatag
+Dim title, mpage, spage, ada_href, ada_title, page_section, Metatag
 mpage = "lob"
 spage = "lobgbmwm"
 tpage = "lobgcib"
@@ -8,7 +8,6 @@ tpage = "lobgcib"
 <%
 title = breadcrumb_extended
 standart_href = "../gcib/"
-job_search_action = "../jobsearch/searchresult.asp"
 page_self = "../ada/lobgcib.asp"
 ada_title = breadcrumb & "Lines of Business | Global Banking &amp; Markets"
 page_section="ADA"

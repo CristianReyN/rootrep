@@ -1,5 +1,5 @@
 <% Response.Buffer=True 
-Dim title, mpage, spage, ada_href, ada_title, job_search_action, Metatag%>
+Dim title, mpage, spage, ada_href, ada_title, Metatag%>
 <!-- #include file="../includes/breadcrumb.asp" -->
 <% title = breadcrumb & "Job Areas | Mortgage Careers | Locations"
 mpage = "areasoftalent"
@@ -8,14 +8,12 @@ tpage = "aot_locations"
 ada_href = "../ada/locations.asp"
 page_self = "../mortgagecareers/locations.asp"
 ada_title = breadcrumb & "Job Areas | Mortgage Careers | Locations"
-job_search_action = "../jobsearch/searchresult.asp"
 Dim flashPage
 flashPage = false
 Dim subtitle
 subtitle="Locations"
 Metatag="From this page you can do a search to find Bank of America Mortgage jobs."
 Keywords="Bank of America, Mortgage, Fulfillment, Home Equity, Reverse Mortgages, Insurance, Sales, Servicing, Mortgage Lender, Loan Servicer, Home Lending, Job Opportunities, Job Search, Career Search."
-'****************************** ADDED FOR HOT JOB OPENING***************************
 %>
 <!-- Header -->
 <!-- #include file="../includes/header.asp" -->

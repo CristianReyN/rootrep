@@ -1,5 +1,5 @@
 <% Response.Buffer=True 
-Dim title, mpage, spage, ada_href, ada_title, job_search_action,page_section, Metatag
+Dim title, mpage, spage, ada_href, ada_title, page_section, Metatag
 mpage = "lob"
 spage = "lobgbmwm"
 tpage = "lobgwim"
@@ -8,7 +8,6 @@ tpage = "lobgwim"
 <%
 title = breadcrumb_extended
 standart_href = "../wealthmanagement/"
-job_search_action = "../jobsearch/searchresult.asp"
 Metatag="Explore a career with Bank of America's Global Wealth & Investment Management."
 page_self = "../ada/lobgwim.asp"
 page_section="ADA"

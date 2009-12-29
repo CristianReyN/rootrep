@@ -1,5 +1,5 @@
 <% Response.Buffer=True 
-Dim title, mpage, spage, ada_href, ada_title, job_search_action, Metatag
+Dim title, mpage, spage, ada_href, ada_title, Metatag
 mpage = "locations"
 spage = "united_states"
 tpage = "benefitsadv"
@@ -11,7 +11,6 @@ title = breadcrumb_extended
 ada_href = "../ada/majormarketlife.asp"
 page_self = "../learnmore/majormarketlife.asp"
 ada_title = breadcrumb_extended
-job_search_action = "../jobsearch/searchresult.asp"
 Metatag="Primary locations for Bank of America are New York, NY and Charlotte, NC and this page gives a little information on each of the markets."
 %>
 <!-- Header -->

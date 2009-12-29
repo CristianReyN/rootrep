@@ -1,5 +1,5 @@
 <% Response.Buffer=True 
-Dim title, mpage, spage, ada_href, ada_title, job_search_action, Metatag
+Dim title, mpage, spage, ada_href, ada_title, Metatag
 mpage = "lob"
 spage = "lobcss"
 tpage = "lobgr"
@@ -10,17 +10,11 @@ title = breadcrumb_extended
 ada_href = "../ada/lobgr.asp"
 page_self = "../risk/default.asp"
 ada_title = breadcrumb_extended
-job_search_action = "../jobsearch/searchresult.asp"
 Dim flashPage
 flashPage = false
 Dim subtitle
 subtitle="Risk Management"
 Metatag="Explore a career in Global Risk with Bank of America's Corporate Staff & Support."
-
-'****************************** ADDED FOR HOT JOB OPENING***************************
-Dim talentid,rowcount
-talentid=7 
-rowcount=6
 %>
 <!-- Header -->
 <!-- #include file="../includes/header.asp" -->

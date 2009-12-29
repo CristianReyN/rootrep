@@ -1,5 +1,5 @@
 <% Response.Buffer=True 
-Dim title, mpage, spage, ada_href, ada_title, job_search_action, Metatag%>
+Dim title, mpage, spage, ada_href, ada_title, Metatag%>
 <!-- #include file="../includes/breadcrumb.asp" -->
 <% title = breadcrumb & "Locations"
 mpage = "locations"
@@ -8,7 +8,6 @@ tpage = ""
 ada_href = "../ada/regions.asp"
 page_self = "../locations/"
 ada_title = breadcrumb & "Locations"
-job_search_action = "../jobsearch/searchresult.asp"
 Metatag="Locations detail page of Bank of America careers web site. Provides overview of Bank's presence in local communities leading markets worldwide."
 Keywords="Bank of America, Bank of Opportunity, locations, Charlotte, North Carolina, USA, banking, investing, asset management, financial, risk management, job search, careers"
 %>

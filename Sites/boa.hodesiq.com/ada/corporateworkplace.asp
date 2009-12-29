@@ -1,12 +1,11 @@
 <% Response.Buffer=True 
-Dim title, mpage, spage, ada_href, ada_title, job_search_action,page_section, Metatag%>
+Dim title, mpage, spage, ada_href, ada_title, page_section, Metatag%>
 <!-- #include file="../includes/breadcrumb.asp" -->
 <% title = breadcrumb & "Job Areas | Corporate Workplace"
 mpage = "areasoftalent"
 spage = "corporateworkplace"
 tpage = ""
 standart_href = "../corporateworkplace/"
-job_search_action = "../jobsearch/searchresult.asp"
 page_self = "../ada/corporateworkplace.asp"
 page_section="ADA"
 Dim flashPage
@@ -15,7 +14,6 @@ Dim subtitle
 subtitle="Corporate Workplace"
 Metatag="Landing page of Corporate Workplace division within Bank of America careers website. Includes business unit overview, employee video, job links and career search."
 Keywords="Bank of America, Corporate Workplace, careers, real estate, flexible work options, facilities management, workspace solutions, jobs, bank, banking, environmentally-friendly skyscraper, New York City"
-'****************************** ADDED FOR HOT JOB OPENING***************************
 %>
 <!-- Header -->
 <!-- #include file="header.asp" -->

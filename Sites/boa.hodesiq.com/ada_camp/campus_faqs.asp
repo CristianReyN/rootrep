@@ -1,5 +1,5 @@
 <% Response.Buffer=True 
-Dim title, mpage, spage, ada_href, ada_title, job_search_action,page_section, Metatag%>
+Dim title, mpage, spage, ada_href, ada_title, page_section, Metatag%>
 <!-- #include file="../includes/breadcrumb.asp" -->
 <% title = breadcrumb & "Campus Recruiting | How to Apply | Campus FAQs"
 mpage = "camp"
@@ -7,7 +7,6 @@ spage = "how_to_apply"
 tpage = "campus_faqs"
 standart_href = "../campusrecruiting/campus_faqs.asp"
 page_self = "../ada_camp/campus_faqs.asp"
-job_search_action = "../jobsearch/searchresult.asp"
 Metatag="FAQs Overview page of campus site. Includes answers to common questions about Bank of America and careers in the U.S. and internationally. Campus Events and Career Fit & Profile Submission Tools."
 page_section="ADA"
 Dim flashPage

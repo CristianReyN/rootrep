@@ -1,5 +1,5 @@
 <% Response.Buffer=True 
-Dim title, mpage, spage, ada_href, ada_title, job_search_action, Metatag
+Dim title, mpage, spage, ada_href, ada_title, Metatag
 mpage = "lob"
 spage = "lobgbmwm"
 %>
@@ -9,7 +9,6 @@ title = breadcrumb_extended
 ada_href = "../ada/lobgbmwm.asp"
 page_self = "../gbmarketswealthmanagement/"
 ada_title = breadcrumb_extended
-job_search_action = "../jobsearch/searchresult.asp"
 Metatag="Global Banking, Markets & Wealth Management detail page of BOA careers site. Provides an overview of various lines of business within this area and dynamic job search."
 Keywords="Bank of America, financial, financial institutions, institutional investors, banking, investing, asset management, risk management, Consumer, small business banking, home loans, global commercial banking, treasury , solutions, retirement, wealth management, credit, hedge funds, insurance companies, corporate banking, capital markets, Merrill Lynch, careers, job search, financial advisor"
 %>

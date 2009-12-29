@@ -132,8 +132,10 @@ Individuals who choose to build a career at Bank&nbsp;of&nbsp;America Home Loans
 We encourage you to explore each of these areas and learn more about how our organization can help you achieve your own personal and professional goals.
 	</p>
 <%
-Dim familyid, rowcount
+'******* HOT JOB OPENING '*******
+Dim familyid, talentid, globaljobsfamilyids, rowcount
 talentid=12
+globaljobsfamilyids="7,8,21,22,23,26,28,30"
 rowcount=6
 %>
 	<H2 class="h2" style="margin: 12px <%=right_margin%>px 2px 0px;">New Opportunities</H2>

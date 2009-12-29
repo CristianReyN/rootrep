@@ -1,6 +1,6 @@
 <%
 Const ENV = "production"
 Const SITE_U_R_L = "../"
-'Const ENV = "staging"
-'Const SITE_U_R_L = "http://boa.hodesiq.com/"
+Dim IQ2udl
+	IQ2udl = "file name=D:\data\db\Boa.udl"
 %>

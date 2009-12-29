@@ -1,5 +1,5 @@
 <% Response.Buffer=True 
-Dim title, mpage, spage, ada_href, ada_title, job_search_action, Metatag
+Dim title, mpage, spage, ada_href, ada_title, Metatag
 mpage = "lob"
 spage = "lobgbmwm"
 tpage = "lobfa"
@@ -11,7 +11,6 @@ title = breadcrumb_extended
 ada_href = "../ada/lobfaasiarole.asp"
 page_self = "../financialadvisor/lobfaasiarole.asp"
 ada_title = breadcrumb_extended
-job_search_action = "../jobsearch/searchresult.asp"
 Metatag="Detail page of Bank of America careers site specific to the Private Wealth Manager position in the Asia-Pacific region. Provides an overview of the position as well as dynamic job search."
 Keywords="Asia, Pacific, Asia-Pacific, Private Wealth Managers, Merrill Lynch Wealth Management, Merrill Lynch,  Wealth Management, high-net-worth, ultra-high-net-worth clients, investment advice, financial goals, investment management, generational planning, banking and liability management, wealth management advisor, Practice Management Consulting, job search, career"
 %>

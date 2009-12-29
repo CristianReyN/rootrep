@@ -1,5 +1,5 @@
 <% Response.Buffer=True 
-Dim title, mpage, spage, ada_href, ada_title, job_search_action, Metatag%>
+Dim title, mpage, spage, ada_href, ada_title, Metatag%>
 <!-- #include file="../includes/breadcrumb.asp" -->
 <% title = breadcrumb & "Bank Of America / MBNA Europe Bank Limited - Employment Applicant Data Protection Notice"
 mpage = "overview"
@@ -7,7 +7,6 @@ spage = "eeoc"
 ada_href = "../ada/eadpn.asp"
 page_self = "../overview/eadpn.asp"
 ada_title = breadcrumb & "Bank Of America / MBNA Europe Bank Limited - Employment Applicant Data Protection Notice"
-job_search_action = "../jobsearch/searchresult.asp"
 page_section=""
 Dim flashPage
 flashPage = false

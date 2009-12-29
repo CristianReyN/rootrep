@@ -46,7 +46,6 @@ End Function
 		Response.Redirect(Request.ServerVariables("HTTP_REFERER"))
 	Else
 		Response.Redirect("../jobsearch.aspx"&query)
-		'Response.Redirect("http://boa.stg.hodesiq.com/jobsearch.aspx"&query)
 	End If
 %>
 

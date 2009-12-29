@@ -1,11 +1,10 @@
 <% Response.Buffer=True 
-Dim title, mpage, spage, ada_href, ada_title, job_search_action,page_section, Metatag%>
+Dim title, mpage, spage, ada_href, ada_title, page_section, Metatag%>
 <!-- #include file="../includes/breadcrumb.asp" -->
 <% title = breadcrumb & "Contact Us"
 mpage = "contactus"
 spage = ""
 standart_href = "../overview/contact_us.asp"
-job_search_action = "../jobsearch/searchresult.asp"
 Metatag="Contact us if you have questions about the Bank of America Careers site."
 page_self = "../ada/contact_us.asp"
 page_section="ADA"

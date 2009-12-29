@@ -1,5 +1,5 @@
 <% Response.Buffer=True 
-Dim title, mpage, spage, ada_href, ada_title, job_search_action, Metatag%>
+Dim title, mpage, spage, ada_href, ada_title, Metatag%>
 <!-- #include file="../includes/breadcrumb.asp" -->
 <% title = breadcrumb & "Campus Recruiting | Our Culture | Diversity and inclusion"
 mpage = "camp"
@@ -8,7 +8,6 @@ tpage = "diversity_and_inclusion"
 ada_href = "../ada_camp/diversity_and_inclusion.asp"
 page_self = "../campusrecruiting/diversity_and_inclusion.asp"
 ada_title = breadcrumb & "Campus Recruiting | Our Culture | Diversity and inclusion"
-job_search_action = "../jobsearch/searchresult.asp"
 Metatag="Diversity and Inclusion Overview page of campus site. Includes workforce data, facts, awards & recognition for the Bank's commitment to diversity, Campus Events, Career Fit and Profile Submission Tools."
 Dim r1,r2,r3
 r1 = True

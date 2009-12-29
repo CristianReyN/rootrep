@@ -1,5 +1,5 @@
 <% Response.Buffer=True 
-Dim title, mpage, spage, ada_href, ada_title, job_search_action, Metatag
+Dim title, mpage, spage, ada_href, ada_title, Metatag
 mpage = "locations"
 spage = "united_states"
 tpage = "diversity_video"
@@ -10,7 +10,6 @@ title = breadcrumb_extended
 ada_href = "../ada/diversity_inclusion_video.asp"
 page_self = "../learnmore/diversity_inclusion_video.asp"
 ada_title = breadcrumb_extended
-job_search_action = "../jobsearch/searchresult.asp"
 Metatag=""
 %>
 <!-- Header -->

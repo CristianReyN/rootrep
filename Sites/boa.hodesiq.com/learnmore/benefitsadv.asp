@@ -1,5 +1,5 @@
 <% Response.Buffer=True 
-Dim title, mpage, spage, ada_href, ada_title, job_search_action, Metatag
+Dim title, mpage, spage, ada_href, ada_title, Metatag
 mpage = "locations"
 spage = "united_states"
 tpage = "benefitsadv"
@@ -10,7 +10,6 @@ title = breadcrumb_extended
 ada_href = "../ada/benefitsadv.asp"
 page_self = "../learnmore/benefitsadv.asp"
 ada_title = breadcrumb_extended
-job_search_action = "../jobsearch/searchresult.asp"
 Metatag="Link from related information where an individual is going to learn more in-depth information about the organization.  From Benefits and Advantages you can click through to learn about the benefits of the company, learn what is offered in terms of work/life balance and find out more information about life in the major markets.  You can also job search from this page or go to the other areas within related information such as diversity, corporate information, college recruiting, and investment banking careers."
 %>
 <!-- Header -->

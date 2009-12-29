@@ -30,9 +30,10 @@ Corporate Workplace distinguishes Bank&nbsp;of&nbsp;America from its competition
 Read more about our <a href="<% If page_section <> "ADA" Then %>../corporateworkplace/cw_teams.asp<% Else %>../ada/cw_teams.asp<%End If%>" class="ip" title="Corporate Workplace teams">Corporate Workplace teams</a>.
 	</p>
 <%
-Dim familyid,rowcount
-'familyid=11
+'******* HOT JOB OPENING '*******
+Dim familyid, talentid, globaljobsfamilyids, rowcount
 talentid=11
+globaljobsfamilyids="6"
 rowcount=6
 %>
 	<H2 class="h2" style="margin: 12px <%=right_margin%>px 2px 0px;">New Opportunities</H2>

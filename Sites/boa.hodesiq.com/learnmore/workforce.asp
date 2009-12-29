@@ -1,5 +1,5 @@
 <% Response.Buffer=True 
-Dim title, mpage, spage, ada_href, ada_title, job_search_action, Metatag
+Dim title, mpage, spage, ada_href, ada_title, Metatag
 mpage = "locations"
 spage = "united_states"
 tpage = "diversity"
@@ -11,7 +11,6 @@ title = breadcrumb_extended
 ada_href = "../ada/workforce.asp"
 page_self = "../learnmore/workforce.asp"
 ada_title = breadcrumb_extended
-job_search_action = "../jobsearch/searchresult.asp"
 Metatag="Percentage information is available on how many female and minority workers make up the largest job families within Bank of America."
 %>
 <!-- Header -->

@@ -1,5 +1,5 @@
 <% Response.Buffer=True 
-Dim title, mpage, spage, ada_href, ada_title, job_search_action, Metatag
+Dim title, mpage, spage, ada_href, ada_title, Metatag
 mpage = "locations"
 spage = "united_states"
 tpage = "corpinfo"
@@ -10,7 +10,6 @@ title = breadcrumb_extended
 ada_href = "../ada/corpinfo.asp"
 page_self = "../learnmore/corpinfo.asp"
 ada_title = breadcrumb_extended
-job_search_action = "../jobsearch/searchresult.asp"
 Metatag="Learn about Bank of America, including our values and how we make a difference in communites worldwide. "
 %>
 <!-- Header -->

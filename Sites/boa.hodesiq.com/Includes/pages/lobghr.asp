@@ -44,8 +44,15 @@ Interested in joining the "World&#39;s Most Admired Global Bank"? We invite you 
 <br>
 <!-- #include file="faq/ryan.asp" -->
 <br><br>
+<%
+'******* HOT JOB OPENING '*******
+Dim familyid, talentid, globaljobsfamilyids, rowcount
+talentid=5
+globaljobsfamilyids="14,19"
+rowcount=6
+%>
 <H2 class="h2" style="margin: 12px <%=right_margin%>px 12px <%=left_margin_0%>px;">New Opportunities</H2>
-<table cellpadding="2" cellspacing="0" border="0" summary="" style="margin-left: <%=left_margin_0%>px;">
+<table cellpadding="2" cellspacing="0" border="0" summary="" style="width: 294px; margin-left: <%=left_margin_0%>px;">
 <!--#include file="../../hot_jobs.asp"-->
 </table>
 <br><br>

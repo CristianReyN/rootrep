@@ -52,7 +52,13 @@ Specific areas of Global Risk Management are:
 <br>
 <!-- #include file="faq/charles.asp" -->
 <br><br>
-
+<%
+'******* HOT JOB OPENING '*******
+Dim familyid, talentid, globaljobsfamilyids, rowcount
+talentid=7
+globaljobsfamilyids="26,25,27"
+rowcount=6
+%>
 <H2 class="h2" style="margin: 12px <%=right_margin%>px 2px <%=left_margin_0%>px;">New Opportunities</H2>
 <table cellpadding="2" cellspacing="0" border="0" summary="" style="margin-left: <%=left_margin_0%>px;">
 <!--#include file="../../hot_jobs.asp"-->

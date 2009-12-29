@@ -73,6 +73,13 @@ Investor Relations is the contact for analysts and investors and is responsible 
 <br>
 <!-- #include file="faq/kim.asp" -->
 <br><br>
+<%
+'******* HOT JOB OPENING '*******
+Dim familyid, talentid, globaljobsfamilyids, rowcount
+talentid=4
+globaljobsfamilyids="13,16,31,7,9,10,11,12,17"
+rowcount=6
+%>
 <H2 class="h2" style="margin: 12px <%=right_margin%>px 2px <%=left_margin_0%>px;">New Opportunities</H2>
 <table cellpadding="2" cellspacing="0" border="0" summary="" style="margin-left: <%=left_margin_0%>px;">
 <!--#include file="../../hot_jobs.asp"-->

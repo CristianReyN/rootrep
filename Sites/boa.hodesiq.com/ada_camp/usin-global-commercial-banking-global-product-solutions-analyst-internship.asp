@@ -1,5 +1,5 @@
 <% Response.Buffer=True 
-Dim title, mpage, spage, ada_href, ada_title, job_search_action,page_section, Metatag%>
+Dim title, mpage, spage, ada_href, ada_title, page_section, Metatag%>
 <!-- #include file="../includes/breadcrumb.asp" -->
 <!-- #include file="../includes/career_fit_tool_programs.asp" -->
 <%
@@ -11,7 +11,6 @@ tpage = "internships"
 fpage = "usin-global-commercial-banking-global-product-solutions-analyst-internship"
 standart_href = "../campusrecruiting/usin-global-commercial-banking-global-product-solutions-analyst-internship.asp"
 page_self = "../ada_camp/usin-global-commercial-banking-global-product-solutions-analyst-internship.asp"
-job_search_action = "../jobsearch/searchresult.asp"
 %><!-- #include file="../includes/camp_program_meta_description.asp" --><%
 Metatag=CAMP_META_DESRIPTION
 page_section="ADA"

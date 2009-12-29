@@ -1,5 +1,5 @@
 <% Response.Buffer=True 
-Dim title, mpage, spage, ada_href, ada_title, job_search_action,page_section, Metatag%>
+Dim title, mpage, spage, ada_href, ada_title, page_section, Metatag%>
 <!-- #include file="../includes/breadcrumb.asp" -->
 <% title = breadcrumb & "Campus Recruiting | How to Apply | Interview Tips"
 mpage = "camp"
@@ -7,7 +7,6 @@ spage = "how_to_apply"
 tpage = "interview_tips"
 standart_href = "../campusrecruiting/interview_tips.asp"
 page_self = "../ada_camp/interview_tips.asp"
-job_search_action = "../jobsearch/searchresult.asp"
 Metatag="Interview Tips Overview page on campus site. Provides in-depth suggestions for preparing for and succeeding in the interview process. Campus Events and Career Fit & Profile Submission Tools."
 page_section="ADA"
 Dim flashPage

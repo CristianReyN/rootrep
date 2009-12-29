@@ -1,5 +1,5 @@
 <% Response.Buffer=True 
-Dim title, mpage, spage, ada_href, ada_title, job_search_action,page_section, Metatag
+Dim title, mpage, spage, ada_href, ada_title, page_section, Metatag
 mpage = "locations"
 spage = "united_states"
 tpage = "benefitsadv"
@@ -9,7 +9,6 @@ fpage = "retirement"
 <%
 title = breadcrumb_extended
 standart_href = "../learnmore/retirement.asp"
-job_search_action = "../jobsearch/searchresult.asp"
 Metatag="Offered to associates at Bank of America are two plans the 401(K) and Pension plans.  Page highlights information on both."
 page_self = "../ada/retirement.asp"
 page_section="ADA"

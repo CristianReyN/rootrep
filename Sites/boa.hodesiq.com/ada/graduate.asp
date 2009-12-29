@@ -2,7 +2,7 @@
 Response.Redirect("../ada_camp/")
 %>
 <% Response.Buffer=True 
-Dim title, mpage, spage, ada_href, ada_title, job_search_action,page_section, Metatag
+Dim title, mpage, spage, ada_href, ada_title, page_section, Metatag
 mpage = "locations"
 spage = "united_states"
 tpage = "collrecruiting"
@@ -12,7 +12,6 @@ fpage = "graduate"
 <%
 title = breadcrumb_extended
 standart_href = "../learnmore/graduate.asp"
-job_search_action = "../jobsearch/searchresult.asp"
 Metatag="The graduate/associate career programs are for those recent graduates/associates with MBAs or advanced degrees in other fields or those currently enrolled in college/university to obtain an MBA or advanced degree. Detailed information is available on the page for these types of programs."
 page_self = "../ada/graduate.asp"
 page_section="ADA"

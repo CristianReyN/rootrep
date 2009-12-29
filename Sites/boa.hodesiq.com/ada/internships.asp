@@ -2,7 +2,7 @@
 Response.Redirect("../ada_camp/")
 %>
 <% Response.Buffer=True 
-Dim title, mpage, spage, ada_href, ada_title, job_search_action,page_section, Metatag
+Dim title, mpage, spage, ada_href, ada_title, page_section, Metatag
 mpage = "locations"
 spage = "united_states"
 tpage = "collrecruiting"
@@ -12,7 +12,6 @@ fpage = "internships"
 <%
 title = breadcrumb_extended
 standart_href = "../learnmore/internships.asp"
-job_search_action = "../jobsearch/searchresult.asp"
 Metatag="Detailed information on internship programs with Bank of America."
 page_self = "../ada/internships.asp"
 page_section="ADA"

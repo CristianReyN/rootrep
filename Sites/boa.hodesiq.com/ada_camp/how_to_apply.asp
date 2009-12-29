@@ -1,11 +1,10 @@
 <% Response.Buffer=True 
-Dim title, mpage, spage, ada_href, ada_title, job_search_action,page_section, Metatag%>
+Dim title, mpage, spage, ada_href, ada_title, page_section, Metatag%>
 <!-- #include file="../includes/breadcrumb.asp" -->
 <% title = breadcrumb & "Campus Recruiting | How to Apply"
 mpage = "camp"
 spage = "how_to_apply"
 standart_href = "../campusrecruiting/how_to_apply.asp"
-job_search_action = "../jobsearch/searchresult.asp"
 Metatag="Application Overview page on campus site. Provides direct Profile Submission Tool for positions in the U.S. & internationally, and Campus Events & Career Fit Tools."
 page_section="ADA"
 Dim flashPage

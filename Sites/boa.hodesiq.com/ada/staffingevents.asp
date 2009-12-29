@@ -1,11 +1,10 @@
 <% Response.Buffer=True 
-Dim title, mpage, spage, ada_href, ada_title, job_search_action,page_section, Metatag%>
+Dim title, mpage, spage, ada_href, ada_title, page_section, Metatag%>
 <!-- #include file="../includes/breadcrumb.asp" -->
 <% title = breadcrumb & "Staffing Events"
 mpage = "staffingevents"
 spage = ""
 standart_href = "../staffingevents/staffingevents.asp"
-job_search_action = "../jobsearch/searchresult.asp"
 Metatag="You can link to two sites to see where in the United States a representative from Bank of America will be present at a recruiting event."
 page_self = "../ada/staffingevents.asp"
 page_section="ADA"

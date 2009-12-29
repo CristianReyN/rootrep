@@ -56,15 +56,6 @@ In the next stage, you will perform against quarterly business hurdles, complete
 	<li>Local workshops led by PMDP mentors or coaches who assist in business plan reviews and client meetings</li>
 </ul>
 
-<H2 class="p" style="margin: 12px 0px 0px 0px; padding: 0px;"><b>How to Apply</b></H2>
-<p style="margin-top: 12px;">
-Apply now for a Financial Advisor transition role in the Americas region. Use job number <a class="p" href="http://careers.bankofamerica.com/JobDetails.aspx?SearchPage=Sp&JobId=IRC176549&stateid=-1&cityid=-1&jobareas=-1|-1&keywords=Financial%20Advisor" title="Financial Advisor Trainee - Chicago :  IRC176549">IRC176549</a> or <a class="p" href="http://careers.bankofamerica.com/JobDetails.aspx?SearchPage=Sp&JobId=IRC177137&stateid=-1&cityid=-1&jobareas=-1|-1&keywords=Financial%20Advisor" title="Financial Advisor Trainee- Walnut Creek, CA : IRC177137">IRC177137</a>.
-</p>
-
-<p style="margin-top: 12px;">
-Your application will be reviewed, and you will be contacted if there is an interest in your qualifications.
-</p>
-
 <p style="margin-top: 24px;">
 <a href="<%	if page_section <> "ADA" then%>../financialadvisor/lobfaamericas.asp<% Else %>lobfaamericas.asp<%End If %>" class="bacb" title="Return">Return</a>
 </p>

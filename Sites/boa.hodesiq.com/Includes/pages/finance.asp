@@ -71,6 +71,12 @@ Corporate Investments manages the bank&#39;s diversified financial portfolio thr
 <br><br>
 Investor Relations is the contact for analysts and investors and is responsible for implementing a comprehensive investor relations program designed to improve the company&#39;s stock valuation.
 </p>
+<%
+'******* HOT JOB OPENING '*******
+Dim familyid, talentid, globaljobsfamilyids, rowcount
+talentid=4
+rowcount=6
+%>
 <H2 class="h2" style="margin: 12px <%=right_margin%>px 2px <%=left_margin_0%>px;">New Opportunities</H2>
 <table cellpadding="2" cellspacing="0" border="0" summary="" style="margin-left: <%=left_margin_0%>px;">
 <!--#include file="../../hot_jobs.asp"-->

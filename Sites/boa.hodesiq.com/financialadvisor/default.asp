@@ -1,5 +1,5 @@
 <% Response.Buffer=True 
-Dim title, mpage, spage, ada_href, ada_title, job_search_action, Metatag
+Dim title, mpage, spage, ada_href, ada_title, Metatag
 mpage = "lob"
 spage = "lobgbmwm"
 tpage = "lobfa"
@@ -10,7 +10,6 @@ title = breadcrumb_extended
 ada_href = "../ada/lobfa.asp"
 page_self = "../financialadvisor/"
 ada_title = breadcrumb_extended
-job_search_action = "../jobsearch/searchresult.asp"
 Metatag="Financial Advisors career overview page of BOA careers site. Provides details, objectives and opportunities for financial advisor candidates at Bank of America Merrill Lynch, as well as dynamic job search."
 Keywords="Bank of America, Merrill Lynch, Financial Advisors, Merrill Lynch Wealth Management, affluent clients, financial strategies, America, Europe, Middle East, Africa, Asia Pacific, job search, career"
 %>

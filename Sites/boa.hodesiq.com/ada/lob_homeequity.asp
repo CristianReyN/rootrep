@@ -1,5 +1,5 @@
 <% Response.Buffer=True 
-Dim title, mpage, spage, ada_href, ada_title, job_search_action,page_section, Metatag
+Dim title, mpage, spage, ada_href, ada_title, page_section, Metatag
 mpage = "lob"
 spage = "lob_mortgagecareers"
 tpage = "lob_homeequity"
@@ -8,7 +8,6 @@ tpage = "lob_homeequity"
 <%
 title = breadcrumb_extended
 standart_href = "../mortgage/homeequity.asp"
-job_search_action = "../jobsearch/searchresult.asp"
 page_self = "../ada/lob_homeequity.asp"
 page_section="ADA"
 Dim flashPage
@@ -17,7 +16,6 @@ Dim subtitle
 subtitle="Home Equity"
 Metatag="From this page you will learn about the jobs in the Home Equity group within Bank of America Mortgage."
 Keywords="Bank of America, Mortgage, Fulfillment, Home Equity, Reverse Mortgages, Insurance, Sales, Servicing, Mortgage Lender, Loan Servicer, Home Lending, Job Opportunities, Job Search, Career Search."
-'****************************** ADDED FOR HOT JOB OPENING***************************
 %>
 <!-- Header -->
 <!-- #include file="header.asp" -->

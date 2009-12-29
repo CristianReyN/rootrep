@@ -8,16 +8,11 @@ spage = "finance"
 ada_href = "../ada/finance.asp"
 page_self = "../finance/default.asp"
 ada_title = breadcrumb & "CFO Group/Finance"
-job_search_action = "../jobsearch/searchresult.asp"
 Dim flashPage
 flashPage = false
 Dim subtitle
 subtitle="CFO Group/Finance"
 Metatag="Finance is one area of talent for careers at Bank of America. From this page you can listen to an associate, see hot job opportunities, and click to positions in finance, credit, investment banking, wealth & investment management and human resource."
-'****************************** ADDED FOR HOT JOB OPENING***************************
-Dim talentid,rowcount
-talentid=4 
-rowcount=6
 %>
 <!-- Header -->
 <!-- #include file="../includes/header.asp" -->

@@ -51,7 +51,13 @@ To serve a customer base of more than 53 million consumer and small business cli
 <!-- #include file="faq/tammy.asp" -->
 <br>
 <br>
-
+<%
+'******* HOT JOB OPENING '*******
+Dim familyid, talentid, globaljobsfamilyids, rowcount
+talentid=10
+globaljobsfamilyids="4"
+rowcount=6
+%>
 <H2 class="h2" style="margin: 12px <%=right_margin%>px 2px <%=left_margin_0%>px;">New Opportunities</H2>
 <table cellpadding="2" cellspacing="0" border="0" summary="" style="margin-left: <%=left_margin_0%>px;">
 <!--#include file="../../hot_jobs.asp"-->

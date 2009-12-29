@@ -1,12 +1,11 @@
 <% Response.Buffer=True 
-Dim title, mpage, spage, ada_href, ada_title, job_search_action,page_section, Metatag%>
+Dim title, mpage, spage, ada_href, ada_title, page_section, Metatag%>
 <!-- #include file="../includes/breadcrumb.asp" -->
 <% title = breadcrumb & "Campus Recruiting | Explore Careers | Associate & PhD Programs"
 mpage = "camp"
 spage = "explore_careers"
 tpage = "graduate_programs"
 standart_href = "../campusrecruiting/associate_phd_programs.asp"
-job_search_action = "../jobsearch/searchresult.asp"
 Metatag="Associate & PhD Programs Overview page of campus site. Lists programs available for students with advanced degrees within the Bank's many Lines of Business, in the U.S. and internationally."
 page_section="ADA"
 Dim flashPage

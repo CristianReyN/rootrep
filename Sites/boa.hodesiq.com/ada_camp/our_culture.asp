@@ -1,11 +1,10 @@
 <% Response.Buffer=True 
-Dim title, mpage, spage, ada_href, ada_title, job_search_action,page_section, Metatag%>
+Dim title, mpage, spage, ada_href, ada_title, page_section, Metatag%>
 <!-- #include file="../includes/breadcrumb.asp" -->
 <% title = breadcrumb & "Campus Recruiting | Our Culture"
 mpage = "camp"
 spage = "our_culture"
 standart_href = "../campusrecruiting/our_culture.asp"
-job_search_action = "../jobsearch/searchresult.asp"
 Metatag="Culture Overview page of campus site. Includes links to details on diversity, benefits, work environment, info for parents, Campus Events and Career Fit and Profile Submission Tools."
 page_section="ADA"
 Dim flashPage

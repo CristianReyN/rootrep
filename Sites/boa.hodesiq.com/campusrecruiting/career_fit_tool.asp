@@ -1,5 +1,5 @@
 <% Response.Buffer=True 
-Dim title, mpage, spage, ada_href, ada_title, job_search_action, Metatag%>
+Dim title, mpage, spage, ada_href, ada_title, Metatag%>
 <!-- #include file="../includes/breadcrumb.asp" -->
 <% title = breadcrumb & "Campus Recruiting | Find Your Fit | Career Fit Tool"
 mpage = "camp"
@@ -8,7 +8,6 @@ tpage = "career_fit_tool"
 ada_href = "../ada_camp/career_fit_tool.asp"
 page_self = "../campusrecruiting/career_fit_tool.asp"
 ada_title = breadcrumb & "Campus Recruiting | Find Your Fit | Career Fit Tool"
-job_search_action = "../jobsearch/searchresult.asp"
 Metatag="Career Fit Tool detail page on campus site. Provides tailored questionnaire tool to match candidates' skills to ideal positions within the Bank's various Business Areas."
 Dim r1,r2,r3
 r1 = True

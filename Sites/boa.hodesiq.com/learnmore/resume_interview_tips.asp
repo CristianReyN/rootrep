@@ -1,5 +1,5 @@
 <% Response.Buffer=True 
-Dim title, mpage, spage, ada_href, ada_title, job_search_action, Metatag
+Dim title, mpage, spage, ada_href, ada_title, Metatag
 mpage = "locations"
 spage = "united_states"
 tpage = "resume_interview_tips"
@@ -10,7 +10,6 @@ title = breadcrumb_extended
 ada_href = "../ada/resume_interview_tips.asp"
 page_self = "../learnmore/resume_interview_tips.asp"
 ada_title = breadcrumb_extended
-job_search_action = "../jobsearch/searchresult.asp"
 Metatag="Get basic tips and advice on resume-building and interviewing."
 %>
 <!-- Header -->

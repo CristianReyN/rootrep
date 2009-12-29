@@ -1,5 +1,5 @@
 <% Response.Buffer=True 
-Dim title, mpage, spage, ada_href, ada_title, job_search_action, Metatag
+Dim title, mpage, spage, ada_href, ada_title, Metatag
 mpage = "locations"
 spage = "united_states"
 tpage = "diversity"
@@ -10,7 +10,6 @@ title = breadcrumb_extended
 ada_href = "../ada/diversity.asp"
 page_self = "../learnmore/diversity.asp"
 ada_title = breadcrumb_extended
-job_search_action = "../jobsearch/searchresult.asp"
 Metatag="Page is in reference to the importance of diversity at Bank of America and highlights diversity organizations that are within the organization. The option to do a job search is also present on this page."
 %>
 <!-- Header -->

@@ -1,5 +1,5 @@
 <% Response.Buffer=True 
-Dim title, mpage, spage, ada_href, ada_title, job_search_action,page_section, Metatag
+Dim title, mpage, spage, ada_href, ada_title, page_section, Metatag
 mpage = "locations"
 spage = "united_states"
 tpage = "benefitsadv"
@@ -9,7 +9,6 @@ fpage = "lifemanagement"
 <%
 title = breadcrumb_extended
 standart_href = "../learnmore/lifemanagement.asp"
-job_search_action = "../jobsearch/searchresult.asp"
 Metatag="Detailed information on the benefits offered for work/life balance.  The option to do a job search is also present on this page."
 page_self = "../ada/lifemanagement.asp"
 page_section="ADA"

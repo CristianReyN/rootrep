@@ -12,11 +12,6 @@ flashPage = false
 Dim subtitle
 subtitle="Administration"
 Metatag="Administration is one area of talent for careers at Bank of America. From this page you can listen to an associate, see hot job opportunities, and click to positions in administration, corporate executive, corporate workplace, change management and process, legal, services and learning and organizational effectiveness."
-
-'****************************** ADDED FOR HOT JOB OPENING***************************
-Dim talentid,rowcount
-talentid=1 
-rowcount=6
 %>
 <!-- Header -->
 <!-- #include file="../includes/header.asp" -->

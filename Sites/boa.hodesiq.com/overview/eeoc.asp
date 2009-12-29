@@ -1,5 +1,5 @@
 <% Response.Buffer=True 
-Dim title, mpage, spage, ada_href, ada_title, job_search_action, Metatag%>
+Dim title, mpage, spage, ada_href, ada_title, Metatag%>
 <!-- #include file="../includes/breadcrumb.asp" -->
 <% title = breadcrumb & "Equal Employment Opportunity and Affirmative Action Statement"
 mpage = "overview"
@@ -7,7 +7,6 @@ spage = "eeoc"
 ada_href = "../ada/eeoc.asp"
 page_self = "../overview/eeoc.asp"
 ada_title = breadcrumb & "Equal Employment Opportunity and Affirmative Action Statement"
-job_search_action = "../jobsearch/searchresult.asp"
 Dim flashPage
 flashPage = false
 Metatag="Main page of the careers site. From this page you can listen to a video host who gives a quick tour to point in the direction of either engaging information, job search information or more in-depth information about employment with Bank of America. From this page you can job search to find if there is an opportunity available. You can click to more links about benefits, diversity, corporate information, college information, global locations and to Investment Banking Careers."

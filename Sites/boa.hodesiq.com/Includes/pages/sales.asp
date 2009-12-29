@@ -32,6 +32,13 @@
 <p style="margin: <% If page_section = "ADA" Then %>12<% Else %>0<%End If%>px <%=right_margin_split%>px 0px <%=left_margin_0%>px;">
 Those in sales and product development groups will find a fast-paced and rewarding environment.  By planning and executing in closely aligned teams, with shared accountability, our sales specialists generate sales and increase our market share.
 </p>
+<%
+'******* HOT JOB OPENING '*******
+Dim familyid, talentid, globaljobsfamilyids, rowcount
+talentid=8
+globaljobsfamilyids="28,4"
+rowcount=6
+%>
 <H2 class="h2" style="margin: 12px <%=right_margin%>px 2px <%=left_margin_0%>px;">New Opportunities</H2>
 <table cellpadding="2" cellspacing="0" border="0" summary="" style="margin-left: <%=left_margin_0%>px;">
 <!--#include file="../../hot_jobs.asp"-->

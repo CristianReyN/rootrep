@@ -1,5 +1,5 @@
 <% Response.Buffer=True 
-Dim title, mpage, spage, ada_href, ada_title, job_search_action, Metatag
+Dim title, mpage, spage, ada_href, ada_title, Metatag
 mpage = "locations"
 spage = "united_states"
 tpage = "diversity"
@@ -11,7 +11,6 @@ title = breadcrumb_extended
 ada_href = "../ada/corppartn.asp"
 page_self = "../learnmore/corppartn.asp"
 ada_title = breadcrumb_extended
-job_search_action = "../jobsearch/searchresult.asp"
 Metatag="Links to partnerships Bank of America has partnered with to find new talent."
 %>
 <!-- Header -->

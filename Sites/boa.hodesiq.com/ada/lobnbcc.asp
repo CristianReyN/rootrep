@@ -1,5 +1,5 @@
 <% Response.Buffer=True 
-Dim title, mpage, spage, ada_href, ada_title, job_search_action,page_section, Metatag
+Dim title, mpage, spage, ada_href, ada_title, page_section, Metatag
 mpage = "lob"
 spage = "lobgcsbb"
 tpage = "lobnbcc"
@@ -8,16 +8,11 @@ tpage = "lobnbcc"
 <%
 title = breadcrumb_extended
 standart_href = "../consumerproductsandoperations/"
-job_search_action = "../jobsearch/searchresult.asp"
 Metatag="Explore careers beyond the banking center, with Bank of America's Global Consumer & Small Business Banking."
 page_self = "../ada/lobnbcc.asp"
 page_section="ADA"
 Dim flashPage
 flashPage = false
-'****************************** ADDED FOR HOT JOB OPENING***************************
-Dim talentid,rowcount
-talentid=2 
-rowcount=6
 %>
 <!-- Header -->
 <!-- #include file="header.asp" -->

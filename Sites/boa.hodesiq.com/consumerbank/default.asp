@@ -8,17 +8,11 @@ spage = "consumerbanking"
 ada_href = "../ada/consumerbanking.asp"
 page_self = "../consumerbank/default.asp"
 ada_title = breadcrumb & "Consumer Banking"
-job_search_action = "../jobsearch/searchresult.asp"
 Dim flashPage
 flashPage = false
 Dim subtitle
 subtitle="Consumer Banking"
 Metatag="Consumer Banking is one area of talent for careers at Bank of America. From this page you can listen to an associate, see hot job opportunities, and click to positions in consumer banking."
-
-'****************************** ADDED FOR HOT JOB OPENING***************************
-Dim talentid,rowcount
-talentid=10 
-rowcount=6
 %>
 <!-- Header -->
 <!-- #include file="../includes/header.asp" -->

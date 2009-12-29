@@ -1,5 +1,5 @@
 <% Response.Buffer=True 
-Dim title, mpage, spage, ada_href, ada_title, job_search_action, Metatag%>
+Dim title, mpage, spage, ada_href, ada_title, Metatag%>
 <!-- #include file="../includes/breadcrumb.asp" -->
 <!-- #include file="../includes/career_fit_tool_programs.asp" -->
 <%
@@ -12,7 +12,6 @@ fpage = "usfn-enterprise-technology-delivery-leadership-development-rotational"
 ada_href = "../ada_camp/usfn-enterprise-technology-delivery-leadership-development-rotational.asp"
 page_self = "../campusrecruiting/usfn-enterprise-technology-delivery-leadership-development-rotational.asp"
 ada_title = breadcrumb & "Campus Recruiting | Explore Careers | " & program.Item("full_degree") & " | " & program.Item("region") & " | " & program.Item("title")
-job_search_action = "../jobsearch/searchresult.asp"
 %><!-- #include file="../includes/camp_program_meta_description.asp" --><%
 Metatag=CAMP_META_DESRIPTION
 Dim r1,r2,r3

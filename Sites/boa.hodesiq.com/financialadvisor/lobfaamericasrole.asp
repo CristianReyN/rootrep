@@ -1,5 +1,5 @@
 <% Response.Buffer=True 
-Dim title, mpage, spage, ada_href, ada_title, job_search_action, Metatag
+Dim title, mpage, spage, ada_href, ada_title, Metatag
 mpage = "lob"
 spage = "lobgbmwm"
 tpage = "lobfa"
@@ -11,7 +11,6 @@ title = breadcrumb_extended
 ada_href = "../ada/lobfaamericas.asp"
 page_self = "../financialadvisor/lobfaamericas.asp"
 ada_title = breadcrumb_extended
-job_search_action = "../jobsearch/searchresult.asp"
 Metatag="Detail page of Bank of America careers site specific to benefits for Financial Advisors in the United States. Provides complete list of benefits for the US Financial Advisor position as well as dynamic job search."
 Keywords="Merrill Lynch, Financial Advisors, career, Merrill Lynch Wealth Management, Bank of America, financial advisor, Practice Management Development Program, PMDP, Series 7, Series 66,  wealth management, web-based learning, Americas"
 %>

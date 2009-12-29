@@ -1,5 +1,5 @@
 <% Response.Buffer=True 
-Dim title, mpage, spage, ada_href, ada_title, job_search_action,page_section, Metatag
+Dim title, mpage, spage, ada_href, ada_title, page_section, Metatag
 mpage = "locations"
 spage = "united_states"
 tpage = "benefitsadv"
@@ -9,7 +9,6 @@ fpage = "flexibleworkarrangements"
 <%
 title = breadcrumb_extended
 standart_href = "../learnmore/flexible_wa.asp"
-job_search_action = "../jobsearch/searchresult.asp"
 Metatag="Highlight information on the programs offered to associates of Bank of America in regards to flexible work arrangements."
 page_self = "../ada/flexible_wa.asp"
 page_section="ADA"

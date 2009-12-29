@@ -1,5 +1,5 @@
 <% Response.Buffer=True 
-Dim title, mpage, spage, ada_href, ada_title, job_search_action,page_section, Metatag
+Dim title, mpage, spage, ada_href, ada_title, page_section, Metatag
 mpage = "locations"
 spage = "united_states"
 tpage = "collrecruiting"
@@ -9,7 +9,6 @@ fpage = "internships_details"
 <%
 title = breadcrumb_extended
 standart_href = "../learnmore/internships_details.asp"
-job_search_action = "../jobsearch/searchresult.asp"
 Metatag="Page designed for student recruiting. Links available on the page: undergraduate/analyst programs, graduate/associate programs, internships and a campus recruiting calendar. The option to do a job search is also present on this page."
 page_self = "../ada/internships_details.asp"
 page_section="ADA"

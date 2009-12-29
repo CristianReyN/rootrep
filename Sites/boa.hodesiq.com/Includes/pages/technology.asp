@@ -41,6 +41,12 @@ Global Technology &amp; Operations builds and maintains a world-class data netwo
 <br><br>
 The technological superiority of our systems is as important as the quality of the services and products we offer. A highly experienced team, leading-edge initiatives, visible products and our commitment to training add up to an environment of unparalleled opportunity for dedicated technical professionals.
 </p>
+<%
+'******* HOT JOB OPENING '*******
+Dim familyid, talentid, globaljobsfamilyids, rowcount
+talentid=9
+rowcount=6
+%>
 <H2 class="h2" style="margin: 12px <%=right_margin%>px 2px <%=left_margin_0%>px;">New Opportunities</H2>
 <table cellpadding="2" cellspacing="0" border="0" summary="" style="margin-left: <%=left_margin_0%>px;">
 <!--#include file="../../hot_jobs.asp"-->

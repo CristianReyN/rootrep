@@ -1,5 +1,5 @@
 <% Response.Buffer=True 
-Dim title, mpage, spage, ada_href, ada_title, job_search_action, Metatag
+Dim title, mpage, spage, ada_href, ada_title, Metatag
 mpage = "lob"
 spage = "lobgbmwm"
 tpage = "lobgcib"
@@ -10,7 +10,6 @@ title = breadcrumb_extended
 ada_href = "../ada/lobgcib.asp"
 page_self = "../gcib/default.asp"
 ada_title = breadcrumb_extended
-job_search_action = "../jobsearch/searchresult.asp"
 Metatag="Global Banking & Markets detail page of BOA careers site. Provides an overview of various strategic functions within this area as well as dynamic job search."
 Keywords="Bank of America, Merrill Lynch, Global Banking, investment banking, global markets, securities, wealth management, commercial banking, equity, debt capital offerings, risk management, acquisitions, refinancing, financial institutions, integrated financial solutions, global research, economics, mortgage, careers, career, job search"
 %>

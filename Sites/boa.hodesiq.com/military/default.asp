@@ -1,5 +1,5 @@
 <% Response.Buffer=True 
-Dim title, mpage, spage, ada_href, ada_title, job_search_action, Metatag
+Dim title, mpage, spage, ada_href, ada_title, Metatag
 mpage = "locations"
 spage = "united_states"
 tpage = "military_veteran_recruiting"
@@ -10,7 +10,6 @@ title = breadcrumb_extended
 ada_href = "../ada/military_veteran_recruiting.asp"
 page_self = "../military/default.asp"
 ada_title = breadcrumb_extended
-job_search_action = "../jobsearch/searchresult.asp"
 Metatag="Explore a career with Bank of America, where we value the skills and experience of military service members."
 %>
 <!-- Header -->

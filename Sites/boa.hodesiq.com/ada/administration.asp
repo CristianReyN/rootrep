@@ -1,20 +1,15 @@
 <% Response.Buffer=True 
-Dim title, mpage, spage, ada_href, ada_title, job_search_action,page_section, Metatag%>
+Dim title, mpage, spage, ada_href, ada_title, page_section, Metatag%>
 <!-- #include file="../includes/breadcrumb.asp" -->
 <% title = breadcrumb & "Administration"
 mpage = "areasoftalent"
 spage = "administration"
 standart_href = "../administration/"
-job_search_action = "../jobsearch/searchresult.asp"
 Metatag="Administration is one area of talent for careers at Bank of America. From this page you can listen to an associate, see hot job opportunities, and click to positions in administration, corporate executive, corporate workplace, change management and process, legal, services and learning and organizational effectiveness."
 page_self = "../ada/administration.asp"
 page_section="ADA"
 Dim flashPage
 flashPage = false
-'****************************** ADDED FOR HOT JOB OPENING***************************
-Dim talentid,rowcount
-talentid=1 
-rowcount=6
 %>
 <!-- Header -->
 <!-- #include file="header.asp" -->

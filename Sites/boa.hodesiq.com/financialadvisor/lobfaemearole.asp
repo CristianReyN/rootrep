@@ -1,5 +1,5 @@
 <% Response.Buffer=True 
-Dim title, mpage, spage, ada_href, ada_title, job_search_action, Metatag
+Dim title, mpage, spage, ada_href, ada_title, Metatag
 mpage = "lob"
 spage = "lobgbmwm"
 tpage = "lobfa"
@@ -11,7 +11,6 @@ title = breadcrumb_extended
 ada_href = "../ada/lobfaemearole.asp"
 page_self = "../financialadvisor/lobfaemearole.asp"
 ada_title = breadcrumb_extended
-job_search_action = "../jobsearch/searchresult.asp"
 Metatag="Candidate profile page of Bank of America careers site specific to opportunities for Financial Advisors in Europe, Middle East & Africa. Provides job profile and benefits of the EMEA Financial Advisor position as well as dynamic job search."
 Keywords="Europe, Middle East, Africa, EMEA, Merrill Lynch Wealth Management, Financial Advisor, ultra-high-net-worth clients, private banker, wealth management, wealth structuring methods, capital markets, Luxembourg, Dublin, Cayman Islands"
 %>

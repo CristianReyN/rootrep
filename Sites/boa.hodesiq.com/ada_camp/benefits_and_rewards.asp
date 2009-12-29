@@ -1,5 +1,5 @@
 <% Response.Buffer=True 
-Dim title, mpage, spage, ada_href, ada_title, job_search_action,page_section, Metatag%>
+Dim title, mpage, spage, ada_href, ada_title, page_section, Metatag%>
 <!-- #include file="../includes/breadcrumb.asp" -->
 <% title = breadcrumb & "Campus Recruiting | Our Culture | Benefits and Rewards"
 mpage = "camp"
@@ -7,7 +7,6 @@ spage = "our_culture"
 tpage = "benefits_and_rewards"
 standart_href = "../campusrecruiting/benefits_and_rewards.asp"
 page_self = "../ada_camp/benefits_and_rewards.asp"
-job_search_action = "../jobsearch/searchresult.asp"
 Metatag="Benefits Overview page of campus site. Lists details of benefits & rewards available to employees in the U.S. & internationally. Includes Campus Events, Career Fit & Profile Submission Tools."
 page_section="ADA"
 Dim flashPage
