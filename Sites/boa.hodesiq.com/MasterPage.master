@@ -1,6 +1,4 @@
 <%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
-<%@ Register Assembly="System.Web.Extensions, Version=1.0.61025.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
-    Namespace="System.Web.UI" TagPrefix="asp" %>
     <%@ Register Src="~/usercontrols/uc_LeftNavigation.ascx" TagName="LeftNav" TagPrefix="uc1" %>
     <%@ Register Src="usercontrols/uc_JobSearch.ascx" TagName="Search" TagPrefix="uc2" %>
 
@@ -228,9 +226,7 @@ create_safebutton("Search","javascript: submit_search();",0,0,0,0,"Search");
                 <br />
                 <a name="skipmaincontent"></a>
                 <form id="form1" runat="server">
-                    <table width="578" cellpadding="0" cellspacing="0" border="0" summary="">
-                        <asp:ScriptManager ID="ScriptManager1" runat="server">
-                        </asp:ScriptManager>
+                    <table width="578" cellpadding="0" cellspacing="0" border="0" summary="">                        
                         <tr valign="top">
                             <td width="373" valign="top" style="padding: 0px 8px 0px 0px; height: 100%;">
                                 <asp:ContentPlaceHolder ID="Main" runat="server">
