@@ -121,8 +121,8 @@ public partial class Jobcart : System.Web.UI.Page
                 ApplyURL = targetpage + HttpUtility.UrlEncode(DrvRow["APPLY_ONLINE_URL"].ToString());
             }
             else
-            {
-                ApplyURL = DrvRow["APPLY_ONLINE_URL"].ToString();
+            {              
+                ApplyURL = "applyrd.aspx?" + HttpUtility.UrlEncode(DrvRow["APPLY_ONLINE_URL"].ToString());
             }
 
             MyApplyLink = (HyperLink)e.Row.FindControl("hlnkApply");

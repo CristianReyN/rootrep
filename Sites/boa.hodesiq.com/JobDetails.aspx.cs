@@ -83,7 +83,7 @@ public partial class JobDetails : System.Web.UI.Page
             else
             {
                 ApplyURL = dt.Rows[0]["ApplyURL"].ToString() + "&src=" + Request["src"];
-                this.hApplyNow.Value = ApplyURL;
+                this.hApplyNow.Value = "applyrd.aspx?" + HttpUtility.UrlEncode(ApplyURL);
             }						
 		}
 		else
