@@ -15,8 +15,8 @@
             <td width="366" align="left" valign="top">
                 <p>
                     Our online application process enables us to efficiently track, manage and respond
-                    to your application in a consistent and timely manner.&nbsp; <u>Use the Guided Job Search
-                        function to submit your CV online</u>. Available roles across the Asia region
+                    to your application in a consistent and timely manner.&nbsp; <b>Use the Guided Job Search
+                        function to submit your CV online</b>. Available roles across the Asia region
                     can be searched by location and job family.&nbsp; Upon submission of your CV, you
                     will receive an email acknowledging receipt of your application.</p>
                 <p>

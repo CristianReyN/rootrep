@@ -110,8 +110,9 @@ public partial class Jobcart : System.Web.UI.Page
             MyHidden.Value = DrvRow["JobsID"].ToString();
 
             CountryID = DrvRow["CountryID"].ToString();
+            string CANADAURL = ConfigurationManager.AppSettings["CanadaApplyURL"].ToString();
 
-            if (CountryID == Location.CANADA)
+            if (CountryID == Location.CANADA &&  CANADAURL !="")
             {
                 ApplyURL = targetpage + HttpUtility.UrlEncode(ConfigurationManager.AppSettings["CanadaApplyURL"].ToString());               
 

@@ -210,6 +210,7 @@ public partial class uc_JobSearch : System.Web.UI.UserControl
         Country.DataBind();
 
         Country.Items.Insert(0,new ListItem("Select a country",Location.ALL_COUNTRIES));
+        Country.Items.Insert(1, new ListItem("United States", Location.USA));
         dr.Close();
        
     }

@@ -19,21 +19,28 @@
                     CANADA</h3>
     <p>Bank of America recognizes and embraces the importance of building a strong presence in Canada &ndash; and the bank provides financial products and services throughout the country. Bank of America&rsquo;s affiliated entities in Canada include MBNA Canada Bank, Bank of America National Association and Merrill Lynch Canada Inc. We hire talented people from diverse backgrounds who are committed to providing the very best products and services to Bank of America customers.</p> 
      
-    <p><span class="text_bold_under">Toronto</span><br />Merrill Lynch Canada, Inc.<br /> Brookfield Place, Wellington Tower<br /> 181 Bay Street<br /> 4th and 5th Floors<br /> Toronto, ON M5J 2V8<br /> <br /> </p> 
-    <p>Toronto Eaton Center<br /> 250 Yonge ST<br /> Toronto , ON M5B 2L7<br /><br />
-    200 Front St.<br />
-    Toronto, ON M5V 3L2</p>   
-    <p><span class="text_bold_under">Montreal</span><br />Merrill Lynch Canada Inc.<br /> 1250 Rene Levesque Blvd. West<br /> Suite 3715<br /> Montreal, QC H3B 4W8<br /> <br /> </p>  
-    <p><span class="text_bold_under">Calgary</span><br />Merrill Lynch Canada, Inc.<br /> Bow Valley Square III, <br /> Suite 2620, <br /> 255 5th Ave SW, <br /> Calgary, AB T2P 3G6 <br />  <br />
+       <h2>Calgary</h2>Bank of America Merrill Lynch<br /> Bow Valley Square III <br /> Suite 2620 <br /> 255 5th Ave SW<br /> Calgary, AB T2P 3G6 <br />  <br />
+    Bank of America, National Association (Canada Branch)</br>
     888-3rd Street SW</br>
     Calgary, AB T2P 5C5</p>  
-    <p><span class="text_bold_under">Vancouver</span><br />Merrill Lynch Canada, Inc.<br /> Cathedral Place<br /> 925 West Georgia Street<br /> 7th Floor<br /> Vancouver, BC V6C 3L2<br /> <br />
-    1055 Dunsmuir Street Suite 574 </br> 
-    Vancouver, BC 'V7X 1L3</p>  
-    <p><span class="text_bold_under">Ottawa</span><br />MBNA Canada Bank<br /> Banque MBNA Canada<br /> 1600 James Naismith Drive<br /> Ottawa, ON  K1B 5N8</p>  
-    <span class="text_bold_under">Regina</span><br />
+    <h2>Montreal</h2>Bank of America Merrill Lynch<br /> 1250 Rene Levesque Blvd. West<br /> Suite 3715<br /> Montreal, QC H3B 4W8<br /> <br /> </p>  
+    <h2>Ottawa</h2>MBNA Canada Bank<br /> 1600 James Naismith Drive<br /> Ottawa, ON  K1B 5N8</p>  
+    <h2>Regina</h2>
+    MBNA Canada Bank</br>
     2055 Albert St.</br> 
-    Regina, SK S4P 3G8</p>  </div> 
+    Regina, SK S4P 3G8</p> 
+    <h2>Toronto</h2>Bank of America Merrill Lynch<br /> Brookfield Place, Wellington Tower<br /> 181 Bay Street<br /> 4th and 5th Floors<br /> Toronto, ON M5J 2V8<br /> <br /> </p> 
+    Bank of America Merrill Lynch<br />
+    Toronto Eaton Center<br /> 250 Yonge ST<br /> Toronto , ON M5B 2L7<br /><br />
+    
+    
+    Bank of America, National Association (Canada Branch)</br>
+    200 Front St.<br />
+    Toronto, ON M5V 3L2</br></br>
+    <h2>Vancouver</h2>Bank of America Merrill Lynch<br /> Cathedral Place<br /> 925 West Georgia Street<br /> 7th Floor<br /> Vancouver, BC V6C 3L2<br /> <br />
+    Bank of America, National Association (Canada Branch)</br>
+    1055 Dunsmuir Street Suite 574 </br> 
+    Vancouver, BC V7X 1L3</p>   </div> 
                 <p>
                     <a href="canada.aspx#A2" class="ada2adalink" onfocus="this.className='ada2adalink-over';" onblur="this.className='ada2adalink';" title="Return to map">Return to
                         map</a></p>

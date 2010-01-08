@@ -551,6 +551,7 @@ public partial class JobSearch : System.Web.UI.Page
         dr.Close();
 
         Country.Items.Insert(0,new ListItem("Select a country", Location.ALL_COUNTRIES));
+        Country.Items.Insert(1, new ListItem("United States", Location.USA));
 
     }
 
