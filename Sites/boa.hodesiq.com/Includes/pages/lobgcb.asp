@@ -42,7 +42,7 @@ In addition to a broad array of general industry clients, GCB also offers custom
 </p>
 
 <p style="margin-top: 12px;">
-GCB is excited about the expanded capabilities it can offer commercial clients as a result of Bank&nbsp;of&nbsp;America&#39;s recent merger with Merrill Lynch. These include enhanced capabilities in wealth and investment management, investment banking (equity and M&amp;A), international and capital markets (public finance, etc.). Combined with an already strong ability to deliver credit and cash management solutions, GCB can now do "extraordinary things for our clients."
+GCB is excited about the expanded capabilities it can offer commercial clients as a result of Bank&nbsp;of&nbsp;America&#39;s recent merger with Merrill Lynch. These include enhanced capabilities in wealth and investment management, investment banking (equity and Mergers and Acquisitions), international and capital markets (public finance, etc.). Combined with an already strong ability to deliver credit and cash management solutions, GCB can now do "extraordinary things for our clients."
 </p>
 
 <p style="margin-top: 12px;">

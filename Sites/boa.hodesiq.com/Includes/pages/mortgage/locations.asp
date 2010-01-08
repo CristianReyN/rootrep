@@ -15,11 +15,11 @@
 				<td width="373" height="100%" valign="top" style="padding: 0px <%=right_margin%>px 0px <%=left_margin_0%>px;">
 <H1 class="hidden">Mortgage Locations</H1>
 <% If page_section <> "ADA" Then %>
-<p class="bacg">Headquartered in Calabasas, California, Bank&nbsp;of&nbsp;America Home Loans is the nation&#39;s leading mortgage lender and loan servicer, and the world&#39;s most trusted lender.</p>
+<p class="bacg">Headquartered in Calabasas, California, Bank&nbsp;of&nbsp;America Home Loans is the United States leading mortgage lender and loan servicer, and the world&#39;s most trusted lender.</p>
 <br><img src="../../images/clear.gif" width="10" height="12" alt="" border="0" /><br>
 <p class="bacg">We are committed to providing a broad suite of products that are focused on Bringing Opportunity Home for those we serve.  We are also committed to hiring the best talent to meet the needs of our ever-growing customer base.</p>
 <br><img src="../../images/clear.gif" width="10" height="12" alt="" border="0" /><br>
-<p class="bacg">To view all Bank&nbsp;of&nbsp;America opportunities within a state, click on a state from the map below.  You can further qualify your search by using the USA Guided Job Search.</p>
+<p class="bacg">To view all Bank&nbsp;of&nbsp;America opportunities within a state, click on a state from the map below.  You can further qualify your search by using the Guided Job Search.</p>
 <br><img src="../../images/clear.gif" width="10" height="12" alt="" border="0" /><br>
 <table width="100%" border="0" cellpadding="0" cellspacing="0">
 	<tr>

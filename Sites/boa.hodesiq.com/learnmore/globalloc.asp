@@ -1,5 +1,5 @@
 <% 
-Response.Redirect("http://globalcareers.hodesinteractive.com/")
+Response.Redirect("../overview/overview.asp")
 Response.Buffer=True 
 Dim title, mpage, spage, ada_href, ada_title, Metatag
 mpage = "locations"

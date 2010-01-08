@@ -13,7 +13,7 @@ We are proud of Bank&nbsp;of&nbsp;America&#39;s legacy as a leader in corporate 
 	<li>The bank has <b>Diversity and Inclusion Business and Regional Councils</b>, which operate in various business lines and global regions to address and promote diversity and inclusion</b>.</li>
 	<li>Eight <b>affinity groups</b> (formal, company-recognized groups of associates with common interests) that network and support one another&#39;s development and success.</li>
 	<li><b>Team Bank&nbsp;of&nbsp;America diversity networks</b> consist of geographically based volunteer teams of associates, encourage and capitalize on the diversity of our associates and promote personal and professional development.</li>
-	<li><b>Women, people of color, GLBT, disabled and veterans serve at the highest levels of the company&#39;s management.</b></li>
+	<li><b>Women, people of color, Gay, Lesbian, Bisexual &amp; Transgender (GLBT), disabled and veterans serve at the highest levels of the company&#39;s management.</b></li>
 	<li>Our culture ensures senior executive management develops annual targets to increase diversity in their businesses and ties <b>incentive pay to progress in hiring, promoting and retaining</b> diverse individuals.</li>
 	<li>The bank offers <b>extended family and domestic partner benefits</b> and has an equal opportunity policy that includes a nondiscrimination clause based on sexual orientation and gender identity.</li>
 </ul>

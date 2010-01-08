@@ -41,12 +41,13 @@ Specific areas of Global Risk Management are:
 </p>
 <p style="margin: 0px 0px 0px <%=left_margin_0%>px;">
 <ul>
-	<li>Global Compliance and Operational Risk;</li>
-	<li>Global Corporate &amp; Investment Banking<br>Market Risk &amp; Compliance;</li>
-	<li>Global Consumer and Small Business Risk &amp; Compliance;</li>
-	<li>Legal; Enterprise Credit Risk;</li>
-	<li>Global Wealth &amp; Investment Management Risk &amp; Compliance;</li>
-	<li>Corporate Security and Corporate Audit.</li>
+	<li>Global Compliance and Operational Risk</li>
+	<li>Global Corporate &amp; Investment Banking<br>Market Risk &amp; Compliance</li>
+	<li>Global Consumer and Small Business Risk &amp; Compliance</li>
+	<li>Legal</li>
+	<li>Enterprise Credit Risk</li>
+	<li>Global Wealth &amp; Investment Management Risk &amp; Compliance</li>
+	<li>Corporate Security and Corporate Audit</li>
 </ul>
 </p>
 <br>

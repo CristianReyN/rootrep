@@ -38,7 +38,7 @@ Set program_groups(7) = gm_program_group
 Set program_groups(8) = gr_program_group
 Set program_groups(9) = mheis_program_group
 
-Dim programs(164)
+Dim programs(168)
 '		program number			program title, program group, program page, program degree, program fulltime or intern, program sub_programs,is_active
 
 'US FULLTIME ANALYST PROGRAMS
@@ -130,6 +130,7 @@ Set programs(42) = createProgram("Enterprise Technology &amp; Delivery Intern Pr
 Set programs(43) = createProgram("Infrastructure Design &amp; Build Intern Program", csbb_program_group, "usin-infrastructure-design-build-internship.asp", AMERICAS, U_S_A, ANALYST, INTERN, FALSE, TRUE)
 Set programs(44) = createProgram("Operations Management Analyst Intern Program", csbb_program_group, "usin-operations-management-analyst-internship.asp", AMERICAS, U_S_A, ANALYST, INTERN, FALSE, TRUE)
 
+Set programs(166) = createProgram("Advisory Internship", gbgwim_program_group, "usin-advisory-internship.asp", AMERICAS, U_S_A, ANALYST, INTERN, FALSE, TRUE)
 Set programs(45) = createProgram("Commercial Real Estate Bank Development Intern Program", gbgwim_program_group, "usin-commercial-real-estate-bank-development-internship.asp", AMERICAS, U_S_A, ANALYST, INTERN, FALSE, TRUE)
 Set programs(46) = createProgram("Corporate &amp; Financial Institutions Debt Products Intern Program", gbgwim_program_group, "usin-corporate-financial-institutions-debt-products-internship.asp", AMERICAS, U_S_A, ANALYST, INTERN, FALSE, TRUE)
 Set programs(47) = createProgram("Corporate and Investment Banking Analyst Intern Program", gbgwim_program_group, "usin-corporate-investment-banking-analyst-internship.asp", AMERICAS, U_S_A, ANALYST, INTERN, FALSE, TRUE)
@@ -151,6 +152,8 @@ Set programs(56) = createProgram("Sales and Trading Analyst Intern Program", gm_
 Set programs(84) = createProgram("Sales and Trading Analyst Intern Program", gm_program_group,"cain-sales-trading-analyst-internship.asp", AMERICAS, CANADA, ANALYST, INTERN, FALSE, TRUE)
 
 Set programs(57) = createProgram("Global Risk Management Intern Program", gr_program_group, "usin-global-risk-management-internship.asp", AMERICAS, U_S_A, ANALYST, INTERN, FALSE, TRUE)
+
+Set programs(167) = createProgram("Institutional Mortgage Services Intern Program", mheis_program_group, "usin-institutional-mortgage-services-intern.asp", AMERICAS, U_S_A, ANALYST, INTERN, FALSE, TRUE)
 
 'US INTERN ASSOCIATE PROGRAMS
 
@@ -175,6 +178,8 @@ Set programs(69) = createProgram("Global Research Associate Intern Program", gm_
 Set programs(87) = createProgram("Research Associate Intern Program", gm_program_group,"cais-research-associate-internship.asp", AMERICAS, CANADA, ASSOCIATE, INTERN, FALSE, TRUE)
 Set programs(70) = createProgram("Sales and Trading Associate Intern Program", gm_program_group, "usis-sales-trading-associate-internship.asp", AMERICAS, U_S_A, ASSOCIATE, INTERN, FALSE, TRUE)
 Set programs(88) = createProgram("Sales and Trading Associate Intern Program", gm_program_group,"cais-sales-trading-associate-internship.asp", AMERICAS, CANADA, ASSOCIATE, INTERN, FALSE, TRUE)
+
+Set programs(168) = createProgram("Home Loans MBA Intern Program", mheis_program_group, "usis-home-loans-mba-intern-program.asp", AMERICAS, U_S_A, ASSOCIATE, INTERN, FALSE, TRUE)
 
 
 
@@ -240,6 +245,7 @@ Set programs(108) = createProgram("Card Services Analyst Internship", cs_program
 Set programs(109) = createProgram("Enterprise Technology &amp; Delivery Analyst Internship", csbb_program_group, "emeain-enterprise-technology-delivery-analyst-internship.asp", EMEA, "", ANALYST, INTERN, FALSE, TRUE)
 Set programs(110) = createProgram("Corporate &amp; Financial Institutions Debt Products Analyst Internship", gbgwim_program_group, "emeain-corporate-financial-institutions-debt-products-analyst-internship.asp", EMEA, "", ANALYST, INTERN, FALSE, TRUE)
 Set programs(111) = createProgram("Corporate and Investment Banking Analyst Internship", gbgwim_program_group, "emeain-corporate-investment-banking-analyst-internship.asp", EMEA, "", ANALYST, INTERN, FALSE, TRUE)
+Set programs(165) = createProgram("Global Market Operations &amp; Middle Office Internship", gbgwim_program_group, "emeain-global-market-operations-middle-office-analyst-internship.asp", EMEA, "", ANALYST, INTERN, FALSE, TRUE)
 Set programs(112) = createProgram("Global Wealth and Investment Management Analyst Internship", gbgwim_program_group, "emeain-global-wealth-investment-management-analyst-internship.asp", EMEA, "", ANALYST, INTERN, FALSE, TRUE)
 Set programs(113) = createProgram("Technology Analyst Internship", gbgwim_program_group, "emeain-technology-analyst-internship.asp", EMEA, "", ANALYST, INTERN, FALSE, TRUE)
 Set programs(114) = createProgram("Treasury Management Analyst Internship", gbgwim_program_group, "emeain-treasury-management-analyst-internship.asp", EMEA, "", ANALYST, INTERN, FALSE, TRUE)
@@ -405,9 +411,19 @@ Function howToApply (program)
 		case AMERICAS
 			select case program.Item("sub_region")
 				case U_S_A
+					If fpage = "usin-advisory-internship" Then
+%>
+In order to be considered a candidate for this opportunity, you must apply via <a href="<% If page_section <> "ADA" Then  %>../campusrecruiting/<% Else  %>../ada_camp/<% End If %>" class="bac">www.bankofamerica.com/campusrecruiting</a>. To <a href="<% If page_section <> "ADA" Then  %>../learnmore/<% Else  %>../ada/<% End If %>sendresume.asp" class="bac">submit your profile</a>, first sign in as a new or returning user. If you don't have an existing account, you'll need to register as a new user. Then, complete your Candidate Profile and designate your program(s) of interest. Please note that in order for your application to be considered complete, you must reach the final "Thank You" page.
+<%
+					ElseIf fpage = "usin-institutional-mortgage-services-intern" OR fpage = "usis-home-loans-mba-intern-program" Then
+%>
+In order to be considered a candidate for this opportunity, you must apply via <a href="<% If page_section <> "ADA" Then  %>../campusrecruiting/<% Else  %>../ada_camp/<% End If %>" class="bac">www.bankofamerica.com/campusrecruiting</a>. To <a href="<% If page_section <> "ADA" Then  %>../learnmore/<% Else  %>../ada/<% End If %>sendresume.asp" class="bac">submit your profile</a>, first sign in as a new or returning user. If you don't have an existing account, you'll need to register as a new user. Then, complete your Candidate Profile and designate your program(s) of interest. Please note that in order for your application to be considered complete, you must reach the final "Thank You" page. In addition, please follow any procedures set forth through the Career Services office on your campus.
+<%
+					Else
 %>
 In order to be considered a candidate for this opportunity, you must apply via this web site. To <a href="<% If page_section <> "ADA" Then  %>../learnmore/<% Else  %>../ada/<% End If %>sendresume.asp" target="<%=HOWTOAPPLY_TARGET%>" title="Apply<% If HOWTOAPPLY_TARGET = "_blank" Then %>. Link opens a new window.<% End If%>" class="bac">Apply</a>, first sign in as a new or returning user. If you don't have an existing account, you'll need to register as a new user. Then, complete your Candidate Profile and designate your program(s) of interest. Please note that in order for your application to be considered complete, you must reach the final "Thank You" page. In addition, please follow any procedures set forth through the Career Services office on your campus.
 <%
+					End If
 				case CANADA
 %>
 In order to be considered a candidate for this opportunity, you must apply via this web site. To <a href="https://static.wcn.co.uk/company/ml/apply_now.html" target="_blank" title="Apply. Link opens a new window." class="bac">Apply</a>, first sign in as a new or returning user. If you don't have an existing account, you'll need to register as a new user. Then, complete your Candidate Profile and designate your program(s) of interest. Please note that in order for your application to be considered complete, you must reach the final "Thank You" page.

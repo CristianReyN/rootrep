@@ -19,19 +19,19 @@ If style <> "" Then stl = style%>
 	display_begin = ""
 	countryid = Request("countryid")
 		If countryid = "" Then countryid = "-1"
-		If countryid = "-1" Or countryid = "2" Then
+		If countryid = "-1" Then'If countryid = "-1" Or countryid = "2" Then
 			disabled = " disabled"
 			disabled_country = " disabled"
 			display = " display: none;"
 			begin = "Begin"
 			disable_city = " disabled"
 		End If
-		If countryid = "2" Then
-			disabled_country = ""
-			begin = "Begin Search"
-			display_canada = ""
-			display_begin = " display: none;"
-		End If
+		'If countryid = "2" Then
+		'	disabled_country = ""
+		'	begin = "Begin Search"
+		'	display_canada = ""
+		'	display_begin = " display: none;"
+		'End If
 		If countryid <> "1" Then
 			disable_state = " disabled"
 			display_state = " display: none;"
@@ -67,7 +67,7 @@ function changeCountry()
 function changeState()
 {
 	document.jsearch.stateid.changed = true;
-	if(<%If disable_city = "" Then %>true<% Else %>false<% End If %>) document.jsearch.submit();
+	/*if(<%If disable_city = "" Then %>true<% Else %>false<% End If %>)*/ document.jsearch.submit();
 }
 
 function changeCity()

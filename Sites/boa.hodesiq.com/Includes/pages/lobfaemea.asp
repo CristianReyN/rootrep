@@ -42,7 +42,7 @@ We currently have Financial Advisors serving in offices in 16 countries in the E
 	</td>
 	<td class="spacer"><img src="../images/clear.gif" width="24" height="1" alt="" border="0"></td>
 	<td valign="top"style="width: 50%;">
-		<H2 class="p"><b>In In the Middle East</b></H2>
+		<H2 class="p"><b>In the Middle East</b></H2>
 		<ul style="margin-top: 3px;">
 			<li>Beirut</li>
 			<li>Dubai</li>

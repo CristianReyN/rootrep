@@ -40,7 +40,7 @@ Clients have access to a range of services offered through the following busines
 <br><br>
 <b>Retirement &amp; Philanthropic Services (RPS)</b> provides administration, recordkeeping, custodial, communications, consulting and execution services to businesses, organizations, their employees and members, in connection with approximately 40,000 workplace-based benefit plans. The RPS group also includes personal retirement functions.
 <br><br>
-<b>U.S. Trust, Bank&nbsp;of&nbsp;America Private Wealth Management</b> provides comprehensive investment and wealth management solutions to wealthy and ultra-wealthy clients with investable assets of more than $3 million. The firm has 4,400 associates serving clients in more than 140 offices in 32 states across the country.
+<b>U.S. Trust, Bank&nbsp;of&nbsp;America Private Wealth Management</b> provides comprehensive investment and wealth management solutions to wealthy and ultra-wealthy clients with investable assets of more than $3 million. The company has 4,400 associates serving clients in more than 140 offices in 32 states across the country.
 </p>
 
 <br>

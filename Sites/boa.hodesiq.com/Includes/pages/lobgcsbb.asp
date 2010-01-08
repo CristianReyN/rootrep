@@ -14,7 +14,7 @@
 			<tr valign="top">
 				<td width="373" height="100%" valign="top" style="<%=middle_content_padding%>">
 <p style="margin: 0px 0px 12px 0;">
-Every day, Bank of America's Global Consumer &amp; Small Business Banking group is working to create new opportunities for millions of households and countless small businesses, in cities and towns all across America.
+Every day, Bank of America's Global Consumer &amp; Small Business Banking group is working to create new opportunities for millions of households and countless small businesses.
 <br><br>
 Our 6,100+ retail banking offices, nearly 18,500 ATMs and our award winning online banking  with 29 million active users, keep consumers, entrepreneurs and businesses connected day and night to our network of opportunity and success.
 <br><br>
