@@ -31,7 +31,7 @@
     Regina, SK S4P 3G8</p> 
     <h2>Toronto</h2>Bank of America Merrill Lynch<br /> Brookfield Place, Wellington Tower<br /> 181 Bay Street<br /> 4th and 5th Floors<br /> Toronto, ON M5J 2V8<br /> <br /> </p> 
     Bank of America Merrill Lynch<br />
-    Toronto Eaton Center<br /> 250 Yonge ST<br /> Toronto , ON M5B 2L7<br /><br />
+    Toronto Eaton Center<br /> 250 Yonge St.<br /> Toronto , ON M5B 2L7<br /><br />
     
     
     Bank of America, National Association (Canada Branch)</br>
