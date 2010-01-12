@@ -228,6 +228,7 @@
 %>
 <select name="countryid" id="countryid" title="Select a country"<%=c_lass%><%=style%>>
 	<option value="-1"<%If countryid="-1" Or countryid="" Then Response.write " selected"%>>Select a country</option>
+	<option value="1"<%If countryid="1" Then Response.write " selected"%>>United States</option>
 <%
 		country_numbers = countries.Keys
 		If countries.Count > 0 Then
