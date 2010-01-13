@@ -333,11 +333,7 @@ create_safebutton("Recherche","javascript: submit_search();",0,0,0,0,"Recherche"
                                     border="0"></a><br>
                         &copy; 2010 Bank of America Corporation. Tous droits réservés.</div>
                     <br>
-                </td>
-                <td align="right" width="66">
-                    <a href="http://www.bankofamerica.com/sponsorships/" class="ada2adalink" onfocus="this.className='ada2adalink-over';" onblur="this.className='ada2adalink';" title="Official Sponsor 2004-2008 U.S. Olympic Teams">
-                        <img src="images/foot_olympic.gif" alt="Official Sponsor 2004-2008 U.S. Olympic Teams"
-                            width="66" height="45" border="0"></a></td>
+                </td>               
             </tr>
         </table>
     </div>
