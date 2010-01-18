@@ -226,7 +226,7 @@
 		rssCountries.Close
 		Set  rssCountries = nothing
 %>
-<select name="countryid" id="countryid" title="Select a country"<%=c_lass%><%=style%>>
+<select onclick="if(this.selectedIndex == 0) this.selectedIndex = 1;" onfocus="if(this.selectedIndex == 0) this.selectedIndex = 1;" name="countryid" id="countryid" title="Select a country"<%=c_lass%><%=style%>>
 	<option value="-1"<%If countryid="-1" Or countryid="" Then Response.write " selected"%>>Select a country</option>
 	<option value="1"<%If countryid="1" Then Response.write " selected"%>>United States</option>
 <%
@@ -236,7 +236,7 @@
 				country_number = country_numbers(c)
 				Set country = countries.Item(country_number)
 %>
-	<option value="<%=country.Item("countryid")%>"<% If country.Item("countryid") = countryid Then %> selected<% End If %>><%=country.Item("country")%></option>
+	<option value="<%=country.Item("countryid")%>"<% If country.Item("countryid") = countryid And countryid <> 1 Then %> selected<% End If %>><%=country.Item("country")%></option>
 <%		   Next
 		End If %>
 </select>
