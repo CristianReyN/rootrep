@@ -115,7 +115,7 @@
                     Asian operations by focusing on new areas of business in the world&rsquo;s fastest
                     growing economies.</p>-->
                 <!--<h2>ASIA PACIFIC OVERVIEW</h2>-->
-                <p>Bank of America Merrill Lynch operates a network of offices in 12 countries and territories in the Asia Pacific region. The bank&#8217;s regional footprint, covering more than a dozen languages and five time zones and multiple legal and regulatory jurisdictions, places it among the Top 5 corporate banks in the Asia Pacific.</p>
+                <p>Bank of America Merrill Lynch operates a network of offices in 12 countries and territories in the Asia Pacific region. The bank&#8217;s regional footprint, covering more than a dozen languages and five time zones and multiple legal and regulatory jurisdictions, places it among the Top 5 corporate banks in the Asia Pacific region.</p>
                 <p>Bank of America Merrill Lynch&#8217;s presence in the region dates back to 1957 when the bank opened offices in The Philippines and then in Japan. Since 1960 when it opened a private banking office in Hong Kong, the organization has grown steadily, increasing the breadth of its platform throughout the 1980s and 1990s.</p>
                 <p>Today, the bank offers an integrated and comprehensive set of products and services across all businesses, serving the needs of individual, corporate, institutional and government clients, by combining the best of local knowledge and international expertise.</p>
                 <p>As in other markets where it operates, Bank of America Merrill Lynch&#8217;s business and support units are divided into independent but interrelated units.</p>

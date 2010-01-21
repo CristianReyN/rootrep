@@ -553,6 +553,9 @@ public partial class JobSearch : System.Web.UI.Page
         Country.Items.Insert(0,new ListItem("Select a country", Location.ALL_COUNTRIES));
         Country.Items.Insert(1, new ListItem("United States", Location.USA));
 
+        Country.Attributes.Add("onclick", "if(this.selectedIndex == 0) this.selectedIndex = 1;");
+        Country.Attributes.Add("onfocus", "if(this.selectedIndex == 0) this.selectedIndex = 1;");
+
     }
 
     protected void PopulateLocations()

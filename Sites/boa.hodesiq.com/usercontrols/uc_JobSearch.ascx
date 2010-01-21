@@ -19,8 +19,8 @@
                                         <tr align="left">
 							                    <td  valign="top"  style="width:193px;height:38;" align="left">
             							
-								                <asp:Label ID="lblCountry" runat="server" Text="Country" AssociatedControlID="State"></asp:Label><br />
-								                <asp:DropDownList ID="Country" runat="server" CssClass="center" Style="width: 100%; z-index: auto;"
+								                <asp:Label ID="lblCountry" runat="server"  Text="Country" AssociatedControlID="State"></asp:Label><br />
+								                <asp:DropDownList  ID="Country" runat="server" CssClass="center" Style="width: 100%; z-index: auto;"
 								                ToolTip="Select a country" AutoPostBack="true" OnSelectedIndexChanged="Country_Click" >								  
 								                </asp:DropDownList>																						
 							                    </td>
