@@ -130,7 +130,7 @@ Set programs(42) = createProgram("Enterprise Technology &amp; Delivery Intern Pr
 Set programs(43) = createProgram("Infrastructure Design &amp; Build Intern Program", csbb_program_group, "usin-infrastructure-design-build-internship.asp", AMERICAS, U_S_A, ANALYST, INTERN, FALSE, TRUE)
 Set programs(44) = createProgram("Operations Management Analyst Intern Program", csbb_program_group, "usin-operations-management-analyst-internship.asp", AMERICAS, U_S_A, ANALYST, INTERN, FALSE, TRUE)
 
-Set programs(166) = createProgram("Advisory Internship", gbgwim_program_group, "usin-advisory-internship.asp", AMERICAS, U_S_A, ANALYST, INTERN, FALSE, TRUE)
+Set programs(166) = createProgram("Wealth Management Branch Office Internship", gbgwim_program_group, "usin-advisory-internship.asp", AMERICAS, U_S_A, ANALYST, INTERN, FALSE, TRUE)
 Set programs(45) = createProgram("Commercial Real Estate Bank Development Intern Program", gbgwim_program_group, "usin-commercial-real-estate-bank-development-internship.asp", AMERICAS, U_S_A, ANALYST, INTERN, FALSE, TRUE)
 Set programs(46) = createProgram("Corporate &amp; Financial Institutions Debt Products Intern Program", gbgwim_program_group, "usin-corporate-financial-institutions-debt-products-internship.asp", AMERICAS, U_S_A, ANALYST, INTERN, FALSE, TRUE)
 Set programs(47) = createProgram("Corporate and Investment Banking Analyst Intern Program", gbgwim_program_group, "usin-corporate-investment-banking-analyst-internship.asp", AMERICAS, U_S_A, ANALYST, INTERN, FALSE, TRUE)
