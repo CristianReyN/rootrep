@@ -804,7 +804,8 @@ public partial class JobSearch : System.Web.UI.Page
         OleDbDataReader dr;
         AreaofTalent ja = new AreaofTalent();
         dr = ja.JobAreasList();
-        ListItem l = new ListItem("Select a job area", string.Empty);
+        ListItem l = new ListItem("none", string.Empty);
+
         this.ddlJobAreas.Items.Insert(0,l);
         while (dr.Read())
         {
