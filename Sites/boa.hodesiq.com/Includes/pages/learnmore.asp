@@ -13,13 +13,12 @@
 		<table width="578" cellpadding="0" cellspacing="0" border="0" summary="">
 			<tr valign="top">
 				<td width="373" height="100%" valign="top" style="padding: 0px <%=right_margin%>px 0px <%=left_margin_0%>px;">
-				
-<H2 class="p" style="margin: 0px; padding: 0px;"><a href="https://bacfhrs.taleo.net/careersection/10200/joblist.ftl?lang=en" class="left2" title="Banc of America Merchant Services, LLC. Link opens a new window." target="_blank">Banc of America Merchant Services, LLC</a></H2>
-<p style="margin-top: 6px;">Search for current career opportunities within Banc of America Merchant Services, LLC.</p>
+<H2 class="p" style="margin: 0px; padding: 0px;"><a href="<% if page_section <> "ADA" then Response.write "../learnmore/bams.asp" Else Response.write "bams.asp" End If%>" class="left2" title="Bank of America Merchant Services">Bank&nbsp;of&nbsp;America Merchant Services</a></H2>
+<p style="margin-top: 6px;">Search for current career opportunities within Bank&nbsp;of&nbsp;America Merchant Services.</p>
 				
 <H2 class="p" style="margin: 0px; padding: 0px;"><a href="<% if page_section <> "ADA" then Response.write "../learnmore/benefitsadv.asp" Else Response.write "benefitsadv.asp" End If%>" class="left2" title="Benefits and advantages">Benefits and advantages</a></H2>
 <p style="margin-top: 6px;">
-Bank of America offers far more than careers to the talented people who work here, and the rewards go well beyond a paycheck.</p>
+Bank&nbsp;of&nbsp;America offers far more than careers to the talented people who work here, and the rewards go well beyond a paycheck.</p>
 
 <H2 class="p" style="margin: 0px; padding: 0px;"><a href="<% if page_section <> "ADA" then Response.write "../learnmore/diversity.asp" Else Response.write "diversity.asp" End If%>" class="left2" title="Diversity and inclusion">Diversity and inclusion</a></H2>
 <p style="margin-top: 6px;">
@@ -27,11 +26,11 @@ Each associate brings unique skills, backgrounds and opinions. We see diversity 
 
 <H2 class="p" style="margin: 0px; padding: 0px;"><a href="<% if page_section <> "ADA" then Response.write "../learnmore/corpinfo.asp" Else Response.write "corpinfo.asp" End If%>" class="left2" title="Corporate information">Corporate information</a></H2>
 <p style="margin-top: 6px;">
-Learn about some of the ways Bank of America is making a difference in the communities we serve.</p>
+Learn about some of the ways Bank&nbsp;of&nbsp;America is making a difference in the communities we serve.</p>
 
 <H2 class="p" style="margin: 0px; padding: 0px;"><a href="<% if page_section <> "ADA" Then %>../staffingevents/<% End If%>staffingprocess.asp" class="left2" title="Our staffing process">Our staffing process</a></H2>
 <p style="margin-top: 6px;">
-Learn what to expect as you apply and interview for a position with Bank of America.</p>
+Learn what to expect as you apply and interview for a position with Bank&nbsp;of&nbsp;America.</p>
 
 <H2 class="p" style="margin: 0px; padding: 0px;"><a href="<% if page_section <> "ADA" then Response.write "../learnmore/resume_interview_tips.asp" Else Response.write "resume_interview_tips.asp" End If%>" class="left2" title="Resume &amp; interview tips">Resume &amp; interview tips</a></H2>
 <p style="margin-top: 6px;">
@@ -39,7 +38,7 @@ Get basic advice on developing or updating your resume.</p>
 
 <H2 class="p" style="margin: 0px; padding: 0px;"><a href="<% if page_section <> "ADA" then Response.write "../military/" Else Response.write "military_veteran_recruiting.asp" End If%>" class="left2" title="Military &amp; veteran recruiting">Military &amp; veteran recruiting</a></H2>
 <p style="margin-top: 6px;">
-At Bank of America we welcome the unique skills, experience and values of military service members.</p>
+At Bank&nbsp;of&nbsp;America we welcome the unique skills, experience and values of military service members.</p>
 
 <img class="dotdiv" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
 

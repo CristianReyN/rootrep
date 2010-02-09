@@ -15,7 +15,7 @@ Click on a question below to play the video response.
 <p style="margin: 6px 0px 0px 0px;" class="faqpa">
 <b>What career resources are available?</b>
 <% If page_section <> "ADA" Then %>
-<br><img class="plresp" src="../images/clear.gif" width="10" height="1"  alt="" border="0"><br><a href="Javascript: vo_id();" onclick="playResponce(this);" class="ip">Play response</a>&nbsp;<a href="Javascript: void();" onclick="playResponce(this);"><img style="margin: 0px 0px 0px 0px;" src="../images/video_off_faq.gif" alt="" border="0" align="absmiddle" class="pai" name="pa1"></a><span class="auraltext"><br class="kim_a1"></span>
+<br><img class="plresp" src="../images/clear.gif" width="10" height="1"  alt="" border="0"><br><a href="Javascript: vo_id();" onclick="playResponce(this);" class="ip" title="Play the video response to the question What career resources are available?">Play response</a>&nbsp;<a href="Javascript: void();" onclick="playResponce(this);" title="Play the video response to the question What career resources are available?"><img style="margin: 0px 0px 0px 0px;" src="../images/video_off_faq.gif" alt="" border="0" align="absmiddle" class="pai" name="pa1" alt="Play the video response to the question What career resources are available?"></a><span class="auraltext"><br class="kim_a1"></span>
 <% Else %>
 </p>
 <p style="margin: 6px 0px 0px 0px;"><a name="answ1"></a>

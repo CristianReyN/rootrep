@@ -9,10 +9,10 @@ We are proud of Bank&nbsp;of&nbsp;America&#39;s legacy as a leader in corporate 
 <H2 class="p" style="margin: 12px 0px 6px 0px; padding: 0px;"><span class="bd"><b>Organization and Culture</b></span></H2>
 <ul>
 	<li>Established an executive <b>Global Diversity and Inclusion Council</b>, which sets the direction and guides the implementation for diversity and inclusion at Bank&nbsp;of&nbsp;America.</li>
-	<li>In late 2006, Global Corporate and Investment Banking President Brian Moynihan was appointed chairman of the bank&#39;s Global Diversity and Inclusion Council. Prior to his appointment to the council, he was the sponsoring executive for the bank&#39;s Disability Affinity Group.</li>
+	<li>In late 2006, Bank&nbsp;of&nbsp;America CEO and President Brian Moynihan was appointed chairman of the company&#39;s Global Diversity and Inclusion Council. Prior to his appointment to the council, he was the sponsoring executive for the company&#39;s Disability Affinity Group.</li>
 	<li>The bank has <b>Diversity and Inclusion Business and Regional Councils</b>, which operate in various business lines and global regions to address and promote diversity and inclusion</b>.</li>
-	<li>Eight <b>affinity groups</b> (formal, company-recognized groups of associates with common interests) that network and support one another&#39;s development and success.</li>
-	<li><b>Team Bank&nbsp;of&nbsp;America diversity networks</b> consist of geographically based volunteer teams of associates, encourage and capitalize on the diversity of our associates and promote personal and professional development.</li>
+	<li>Nine <b>affinity groups</b> (formal, company-recognized groups of associates with common interests) that network and support one another&#39;s development and success.</li>
+	<li><b>Community Volunteers diversity networks</b> consist of geographically based volunteer teams of associates, encourage and capitalize on the diversity of our associates and promote personal and professional development.</li>
 	<li><b>Women, people of color, Gay, Lesbian, Bisexual &amp; Transgender (GLBT), disabled and veterans serve at the highest levels of the company&#39;s management.</b></li>
 	<li>Our culture ensures senior executive management develops annual targets to increase diversity in their businesses and ties <b>incentive pay to progress in hiring, promoting and retaining</b> diverse individuals.</li>
 	<li>The bank offers <b>extended family and domestic partner benefits</b> and has an equal opportunity policy that includes a nondiscrimination clause based on sexual orientation and gender identity.</li>
@@ -66,7 +66,7 @@ Bank&nbsp;of&nbsp;America believes that community vitality and the success of ou
 <div style="border: 1px solid #e8e8e9; margin: 12px 0px 12px 0px; padding: 0px 0px 6px 0px;">
 	<H2 class="g" style="margin: 0px 0px 0px 0px;">Related Information</H2>
 	<img src="../images/clear.gif" width="100%" height="1" alt="" border="0" style="margin: 1px 0px 0px 0px; background: #e8e8e9;" align="top"><br clear="all">
-	<div  style="padding: 0px 5px 0px 4px;">
+	<div  style="padding: 0px 5px 0px 4px;"><% show_bams = true %>
 <!-- #include file="../relinfonav.asp" -->
 	</div>					
 </div>

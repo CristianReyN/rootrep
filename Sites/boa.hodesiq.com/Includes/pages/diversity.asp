@@ -26,9 +26,9 @@ Our work environment draws on the strength of every associate to build an atmosp
 	<li><b>Diversity and Inclusion Business and Regional Councils</b>
 		<br>Line of business and regional councils address inclusion issues across our businesses and global regions. These groups identify issues and recommend strategies to make their business groups and geographies a place where all associates can do their best work.<br><br></li>
 	<li><b>Affinity Groups</b>
-		<br>Groups of associates with a common interest and those who support them. Currently, there are eight groups organized by affinity: Asian, Black, people with disabilities, Hispanic/Latino, women, military veterans, gay, lesbian, bisexual and transgender and Native American.<br><br></li>
+		<br>Groups of associates with a common interest and those who support them. Currently, there are nine groups organized by affinity: Asian, Black, people with disabilities, Hispanic/Latino, women, military veterans, gay, lesbian, bisexual and transgender, Native American and the Europe, Middle East and Africa (EMEA) Multicultural Leadership Network which connects ethnic minority associates in the EMEA region.<br><br></li>
 	<li><b>Diversity Network</b>
-		<br>One of five networks that make up <a href="http://www.bankofamerica.com/teambank/" target="_blank" class="p" onfocus="this.className='p-over';" onblur="this.className='p';" title="Team Bank&nbsp;of&nbsp;America">Team Bank&nbsp;of&nbsp;America</a>, the Diversity Network is comprised of geographically based volunteer teams of associates. The Network&#39;s mission is to encourage and capitalize on the diversity of our associates and promote personal and professional development. Membership is open to associates at all levels of the company.<br><br></li>
+		<br>One of five networks that make up <a href="http://www.bankofamerica.com/teambank/" target="_blank" class="p" onfocus="this.className='p-over';" onblur="this.className='p';" title="Community Volunteers">Community Volunteers</a>, the Diversity Network is comprised of geographically based volunteer teams of associates. The Network&#39;s mission is to encourage and capitalize on the diversity of our associates and promote personal and professional development. Membership is open to associates at all levels of the company.<br><br></li>
 </ul>
 <!-- #include file="../diversitynav.asp" -->
 				</td>
@@ -55,7 +55,7 @@ Our work environment draws on the strength of every associate to build an atmosp
 <div style="border: 1px solid #e8e8e9; margin: 12px 0px 12px 0px; padding: 0px 0px 6px 0px;">
 	<H2 class="g" style="margin: 0px 0px 0px 0px;">Related Information</H2>
 	<img src="../images/clear.gif" width="100%" height="1" alt="" border="0" style="margin: 1px 0px 0px 0px; background: #e8e8e9;" align="top"><br clear="all">
-	<div  style="padding: 0px 5px 0px 4px;">
+	<div  style="padding: 0px 5px 0px 4px;"><% show_bams = true %>
 <!-- #include file="../relinfonav.asp" -->
 	</div>					
 </div>

@@ -15,6 +15,16 @@ H2.h1
 p {
 	margin: 6px 0px 24px 0px;
 }
+#Layer1 a.p
+{
+    font-size: 0.9em;
+    text-decoration: underline;
+}
+#Layer1 A.p:hover, #Layer1 A.p-over, #Layer1 A.p:visited
+{
+    font-size: 0.9em;
+    text-decoration: underline;
+}
 </style>
 <div id="Layer1" style="position: relative; z-index: 12;">		
 <img class="dotdiv" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
@@ -22,6 +32,67 @@ p {
 <p style="text-align: left; margin-bottom: 0px;">
 During the course of the year, Bank of America participates in and supports various diverse recruiting events.
 </p>
+
+
+
+
+<p style="text-align: left; margin-top: 12px; margin-bottom: 0px;">
+<b>RecruitMilitary Opportunity Fair</b><br>
+April 1, 2010<br>
+Boston, MA,<br>
+<a href="http://www.recruitmilitary.com" target="_blank" class="p">www.recruitmilitary.com</a>
+</p>
+
+<p style="text-align: left; margin-top: 12px; margin-bottom: 0px;">
+<b>RecruitMilitary Opportunity Fair</b><br>
+May 13, 2010<br>
+Norfolk, VA<br>
+<a href="http://www.recruitmilitary.com" target="_blank" class="p">www.recruitmilitary.com</a>
+</p>
+
+<p style="text-align: left; margin-top: 12px; margin-bottom: 0px;">
+<b>RecruitMilitary Opportunity Fair</b><br>
+May 27, 2010<br>
+New York, NY<br>
+<a href="http://www.recruitmilitary.com" target="_blank" class="p">www.recruitmilitary.com</a>
+</p>
+
+<p style="text-align: left; margin-top: 12px; margin-bottom: 0px;">
+<b>RecruitMilitary Opportunity Fair</b><br>
+June 10, 2010<br>
+Miami, FL<br>
+<a href="http://www.recruitmilitary.com" target="_blank" class="p">www.recruitmilitary.com</a>
+</p>
+
+<p style="text-align: left; margin-top: 12px; margin-bottom: 0px;">
+<b>RecruitMilitary Opportunity Fair</b><br>
+June 17, 2010<br>
+Dallas, TX<br>
+<a href="http://www.recruitmilitary.com" target="_blank" class="p">www.recruitmilitary.com</a>
+</p>
+
+<p style="text-align: left; margin-top: 12px; margin-bottom: 0px;">
+<b>RecruitMilitary Opportunity Fair</b><br>
+July 22, 2010<br>
+Charlotte, NC<br>
+<a href="http://www.recruitmilitary.com" target="_blank" class="p">www.recruitmilitary.com</a>
+</p>
+
+<p style="text-align: left; margin-top: 12px; margin-bottom: 0px;">
+<b>RecruitMilitary Opportunity Fair</b><br>
+August 19, 2010<br>
+Jacksonville, FL<br>
+<a href="http://www.recruitmilitary.com" target="_blank" class="p">www.recruitmilitary.com</a>
+</p>
+
+<p style="text-align: left; margin-top: 12px; margin-bottom: 0px;">
+<b>RecruitMilitary Opportunity Fair</b><br>
+October 7, 2010<br>
+Atlanta, GA<br>
+<a href="http://www.recruitmilitary.com" target="_blank" class="p">www.recruitmilitary.com</a>
+</p>
+
+<br><br>
 
 <p style="text-align: left; margin-top: 12px; margin-bottom: 0px;">
 <b>The Consortium (CGSM)</b><br>
@@ -87,7 +158,7 @@ Atlanta, GA<br>
 <div style="border: 1px solid #e8e8e9; margin: 12px 0px 12px 0px; padding: 0px 0px 6px 0px;">
 	<H2 class="g" style="margin: 0px 0px 0px 0px;">Related Information</H2>
 	<img src="../images/clear.gif" width="100%" height="1" alt="" border="0" style="margin: 1px 0px 0px 0px; background: #e8e8e9;" align="top"><br clear="all">
-	<div  style="padding: 0px 5px 0px 4px;">
+	<div  style="padding: 0px 5px 0px 4px;"><% show_bams = true %>
 <!-- #include file="../relinfonav.asp" -->
 	</div>					
 </div>

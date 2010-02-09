@@ -35,7 +35,7 @@ Read about some of the ways Bank of America is making a difference:
 <div style="border: 1px solid #e8e8e9; margin: 12px 0px 12px 0px; padding: 0px 0px 6px 0px;">
 	<H2 class="g" style="margin: 0px 0px 0px 0px;">Related Information</H2>
 	<img src="../images/clear.gif" width="100%" height="1" alt="" border="0" style="margin: 1px 0px 0px 0px; background: #e8e8e9;" align="top"><br clear="all">
-	<div  style="padding: 0px 5px 0px 4px;">
+	<div  style="padding: 0px 5px 0px 4px;"><% show_bams = true %>
 <!-- #include file="../relinfonav.asp" -->
 	</div>
 </div>

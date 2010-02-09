@@ -273,16 +273,16 @@
 				<li<% if spage = "asia_overview" And tpage = "" then Response.Write " style=""background: #eaf1f7;""" end if %>>
 <div><a href="/asia_pacific.aspx" class="sbtxt" title="Asia Pacific" onfocus="this.className='sbtxt-over';" onblur="this.className='sbtxt';">Asia Pacific</a></div>
 				</li>
-				<li<% if spage = "canada" And tpage = "" then Response.Write " style=""background: #eaf1f7;""" end if %>>
+				<li<% if spage = "canada" then Response.Write " style=""background: #eaf1f7;""" end if %>>
 <div><a href="/canada.aspx" class="sbtxt" title="Canada" onfocus="this.className='sbtxt-over';" onblur="this.className='sbtxt';">Canada</a></div>
 				</li>
 				<li<% if spage = "costa_rica" then Response.Write " style=""background: #eaf1f7;""" end if %>>
 <div><a href="../ada/costa_rica.asp" class="sbtxt" title="Costa Rica" onfocus="this.className='sbtxt-over';" onblur="this.className='sbtxt';">Costa Rica</a></div>
 				</li>
-				<li<% if spage = "emea" And tpage = "" then Response.Write " style=""background: #eaf1f7;""" end if %>>
+				<li<% if spage = "emea" then Response.Write " style=""background: #eaf1f7;""" end if %>>
 <div><a href="/emea.aspx" class="sbtxt" title="Europe, Middle East and Africa" onfocus="this.className='sbtxt-over';" onblur="this.className='sbtxt';">Europe, Middle East<br>and Africa</a></div>
 				</li>
-				<li<% if spage = "united_states" And tpage = "" then Response.Write " style=""background: #eaf1f7;""" end if %>>
+				<li<% if spage = "united_states" then Response.Write " style=""background: #eaf1f7;""" end if %>>
 <div><a href="../ada/learnmore.asp" class="sbtxt" title="United States" onfocus="this.className='sbtxt-over';" onblur="this.className='sbtxt';">United States</a></div>
 				</li>
 			</ul>

@@ -1,5 +1,9 @@
-	<%	href_pre = ""
-		if page_section <> "ADA" then href_pre = "../learnmore/" %>
+<%	href_pre = ""
+	If page_section <> "ADA" Then href_pre = "../learnmore/"
+		If show_bams Then %>
+<img class="dotdiv" style="margin: 9px 0px 5px 0px;" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
+<a href="<%Response.write href_pre%>bams.asp" class="left2" title="Bank of America Merchant Services">Bank&nbsp;of&nbsp;America Merchant Services</a>
+<%		End If %>
 <img class="dotdiv" style="margin: 9px 0px 5px 0px;" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
 <a href="<%Response.write href_pre%>benefitsadv.asp" class="left2" title="Benefits and advantages">Benefits and advantages</a>
 <img class="dotdiv" style="margin: 9px 0px 5px 0px;" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
