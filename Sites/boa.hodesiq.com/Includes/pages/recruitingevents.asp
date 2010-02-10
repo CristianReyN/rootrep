@@ -33,9 +33,6 @@ p {
 During the course of the year, Bank of America participates in and supports various diverse recruiting events.
 </p>
 
-
-
-
 <p style="text-align: left; margin-top: 12px; margin-bottom: 0px;">
 <b>RecruitMilitary Opportunity Fair</b><br>
 April 1, 2010<br>
@@ -65,6 +62,20 @@ Miami, FL<br>
 </p>
 
 <p style="text-align: left; margin-top: 12px; margin-bottom: 0px;">
+<b>The Consortium * Feeder organization</b><br>
+June 13 - 16, 2010<br>
+Orlando, Florida<br>
+<a href="http://www.recruitmilitary.com" target="_blank" class="p">www.recruitmilitary.com</a>
+</p>
+
+<p style="text-align: left; margin-top: 12px; margin-bottom: 0px;">
+<b>National Association of Black Accountants (NABA)</b><br>
+June 16 - 19, 2010<br>
+Houston ,Texas<br>
+<a href="http://www.recruitmilitary.com" target="_blank" class="p">www.recruitmilitary.com</a>
+</p>
+
+<p style="text-align: left; margin-top: 12px; margin-bottom: 0px;">
 <b>RecruitMilitary Opportunity Fair</b><br>
 June 17, 2010<br>
 Dallas, TX<br>
@@ -79,9 +90,30 @@ Charlotte, NC<br>
 </p>
 
 <p style="text-align: left; margin-top: 12px; margin-bottom: 0px;">
+<b>Association of Latino Professionals in Finance & Accounting (ALPFA)</b><br>
+July 31 - August 4, 2010<br>
+Lake Buena Vista, Florida<br>
+<a href="http://www.recruitmilitary.com" target="_blank" class="p">www.recruitmilitary.com</a>
+</p>
+
+<p style="text-align: left; margin-top: 12px; margin-bottom: 0px;">
+<b>Association of Asian Professionals in Finance & Accounting (ASCEND)</b><br>
+August 14 - 16, 2010<br>
+New York, New York<br>
+<a href="http://www.recruitmilitary.com" target="_blank" class="p">www.recruitmilitary.com</a>
+</p>
+
+<p style="text-align: left; margin-top: 12px; margin-bottom: 0px;">
 <b>RecruitMilitary Opportunity Fair</b><br>
 August 19, 2010<br>
 Jacksonville, FL<br>
+<a href="http://www.recruitmilitary.com" target="_blank" class="p">www.recruitmilitary.com</a>
+</p>
+
+<p style="text-align: left; margin-top: 12px; margin-bottom: 0px;">
+<b>National Black MBA (NBMBAA)</b><br>
+September 21 -25, 2010<br>
+Los Angeles, California<br>
 <a href="http://www.recruitmilitary.com" target="_blank" class="p">www.recruitmilitary.com</a>
 </p>
 
@@ -92,62 +124,18 @@ Atlanta, GA<br>
 <a href="http://www.recruitmilitary.com" target="_blank" class="p">www.recruitmilitary.com</a>
 </p>
 
-<br><br>
-
 <p style="text-align: left; margin-top: 12px; margin-bottom: 0px;">
-<b>The Consortium (CGSM)</b><br>
-May 28 - June 1, 2009<br>
-Charlotte, NC<br>
-<a href="http://www.cgsm.org" target="_blank">www.cgsm.org</a>
+<b>Reaching Out MBA (ROMBA)</b><br>
+October 14 - 17, 2010<br>
+Los Angeles, California<br>
+<a href="http://www.recruitmilitary.com" target="_blank" class="p">www.recruitmilitary.com</a>
 </p>
 
 <p style="text-align: left; margin-top: 12px; margin-bottom: 0px;">
-<b>Robert Toigo Foundation (TOIGO)</b><br>
-June 17-18, 2009<br>
-New York, NY<br>
-<a href="http://www.toigofoundation.org" target="_blank">www.toigofoundation.org</a>
-</p>
-
-<p style="text-align: left; margin-top: 12px; margin-bottom: 0px;">
-<b>National Association of Black Accountants (NABA)</b><br>
-June 16-20, 2009<br>
-New Orleans, LA<br>
-<a href="http://www.nabainc.org" target="_blank">www.nabainc.org</a>
-</p>
-
-<p style="text-align: left; margin-top: 12px; margin-bottom: 0px;">
-<b>Association of Latino Professionals in Finance & Accounting (ALPFA)</b><br>
-August 8-12, 2009<br>
-Boston, MA<br>
-<a href="http://www.alpfa.org" target="_blank">www.alpfa.org</a>
-</p>
-
-<p style="text-align: left; margin-top: 12px; margin-bottom: 0px;">
-<b>Association for Asian Professionals in Finance & Accounting (ASCEND)</b><br>
-August 23-25, 2009<br>
-New York, NY<br>
-<a href="http://www.naasa.org" target="_blank">www.naasa.org</a>
-</p>
-
-<p style="text-align: left; margin-top: 12px; margin-bottom: 0px;">
-<b>National Black MBA Association (NBMBAA)</b><br>
-September 22-26, 2009<br>
-New Orleans, LA<br>
-<a href="http://www.nbmbaa.org" target="_blank">www.nbmbaa.org</a>
-</p>
-
-<p style="text-align: left; margin-top: 12px; margin-bottom: 0px;">
-<b>National Society of Hispanic MBA's (NSHMBA)</b><br>
-October 8-10, 2009<br>
-Minneapolis,  MN<br>
-<a href="http://www.nshmba.org" target="_blank">www.nshmba.org</a>
-</p>
-
-<p style="text-align: left; margin-top: 12px; margin-bottom: 0px;">
-<b>GLBT- Candidate Five Job Fair / Reaching Out MBA (ROMBA)</b><br>
-October 15-18, 2009<br>
-Atlanta, GA<br>
-<a href="http://www.reachingoutmba.org" target="_blank">www.reachingoutmba.org</a>
+<b>National Society of Hispanic MBAs (NSHMBA)</b><br>
+October 21 - 23, 2010<br>
+Chicago, Illinois<br>
+<a href="http://www.recruitmilitary.com" target="_blank" class="p">www.recruitmilitary.com</a>
 </p>
 
 <br><br>

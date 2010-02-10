@@ -15,7 +15,7 @@ Click on a question below to play the video response.
 <p style="margin: 6px 0px 0px 0px;" class="faqpa">
 <b>What career resources are available?</b>
 <% If page_section <> "ADA" Then %>
-<br><img class="plresp" src="../images/clear.gif" width="10" height="1"  alt="" border="0"><br><a href="Javascript: vo_id();" onclick="playResponce(this);" class="ip" title="Play the video response to the question What career resources are available?">Play response</a>&nbsp;<a href="Javascript: void();" onclick="playResponce(this);" title="Play the video response to the question What career resources are available?"><img style="margin: 0px 0px 0px 0px;" src="../images/video_off_faq.gif" alt="" border="0" align="absmiddle" class="pai" name="pa1" alt="Play the video response to the question What career resources are available?"></a><span class="auraltext"><br class="kim_a1"></span>
+<br><img class="plresp" src="../images/clear.gif" width="10" height="1"  alt="" border="0"><br><a href="Javascript: vo_id();" onclick="playResponce(this);" class="ip">Play response<span class="ada-label">. Play the video response to the question What career resources are available?</span>&nbsp;<img style="margin: 0px 0px 0px 0px;" src="../images/video_off_faq.gif" alt="" border="0" align="absmiddle" class="pai" name="pa1"></a><span class="auraltext"><br class="kim_a1"></span>
 <% Else %>
 </p>
 <p style="margin: 6px 0px 0px 0px;"><a name="answ1"></a>
@@ -35,7 +35,7 @@ Associates can enlist the efforts of formal and informal mentors to provide guid
 <p style="margin: 6px 0px 0px 0px;" class="faqpa">
 <b>When an associate does a good job, how will he or she be rewarded?</b>
 <% If page_section <> "ADA" Then %>
-<br><img class="plresp" src="../images/clear.gif" width="10" height="1"  alt="" border="0"><br><a href="Javascript: vo_id();" onclick="playResponce(this);" class="ip">Play response</a>&nbsp;<a href="Javascript: vo_id();" onclick="playResponce(this);"><img style="margin: 0px 0px 0px 0px;" src="../images/video_off_faq.gif" alt="" border="0" align="absmiddle" class="pai" name="pa2"></a><span class="auraltext"><br class="kim_a2"></span>
+<br><img class="plresp" src="../images/clear.gif" width="10" height="1"  alt="" border="0"><br><a href="Javascript: vo_id();" onclick="playResponce(this);" class="ip">Play response<span class="ada-label">. Play the video response to the question When an associate does a good job, how will he or she be rewarded?</span>&nbsp;<img style="margin: 0px 0px 0px 0px;" src="../images/video_off_faq.gif" alt="" border="0" align="absmiddle" class="pai" name="pa2"></a><span class="auraltext"><br class="kim_a2"></span>
 <% Else %>
 </p>
 <p style="margin: 6px 0px 0px 0px;"><a name="answ2"></a>
@@ -57,7 +57,7 @@ We believe hard work should be rewarded and there are a variety of ways to demon
 <p style="margin: 6px 0px 0px 0px;" class="faqpa">
 <b>How is the CFO group connected to other lines of business in the bank?</b>
 <% If page_section <> "ADA" Then %>
-<br><img class="plresp" src="../images/clear.gif" width="10" height="1"  alt="" border="0"><br><a href="Javascript: vo_id();" onclick="playResponce(this);" class="ip">Play response</a>&nbsp;<a href="Javascript: vo_id();" onclick="playResponce(this);"><img style="margin: 0px 0px 0px 0px;" src="../images/video_off_faq.gif" alt="" border="0" align="absmiddle" class="pai" name="pa3"></a><span class="auraltext"><br class="kim_a3"></span>
+<br><img class="plresp" src="../images/clear.gif" width="10" height="1"  alt="" border="0"><br><a href="Javascript: vo_id();" onclick="playResponce(this);" class="ip">Play response<span class="ada-label">. Play the video response to the question How is the CFO group connected to other lines of business in the bank?</span>&nbsp;<img style="margin: 0px 0px 0px 0px;" src="../images/video_off_faq.gif" alt="" border="0" align="absmiddle" class="pai" name="pa3"></a><span class="auraltext"><br class="kim_a3"></span>
 <% Else %>
 </p>
 <p style="margin: 6px 0px 0px 0px;"><a name="answ3"></a>
