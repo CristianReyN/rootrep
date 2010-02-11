@@ -8,13 +8,13 @@ function preloadThumb()
 var ada_href = "<%=ada_href %>";
 action_script = true;
 if ( hasRequestedVersion && tucker_video ) {
-	document.write('<H2 class="hidden">Fraud Analyst Video<\/H2>');
+	document.write('<H2 class="hidden">Tucker&acute;s Testimonial Video<\/H2>');
 	document.write('<div id="mainvideo" style="display: none;"><a name="video"></a>');
 	document.write(getVideo(tucker_video,231,131,"javaflash",""));
 	document.write(strReplace(strReplace(strReplace(strReplace(getHTMLControl("javaflash",231,22,true,true,true,false,true,false),"<text>","Video transcript"),"<title>","Video transcript"),"<href>",ada_href),"<anchor>",tucker_video.ada_anchor));
 	document.write('</div>');
 	document.write('<div id="videothumb">');
-	document.write('<a href="Javascript: vo_id();" onmouseover="MM_swapImage(\'dilstart\',\'\',\''+tucker_video.thumb_on+'\',1);" onmouseout="MM_swapImgRestore();" onclick="playVideo(tucker_video,true,true,true,false,true,false);"><img name="dilstart" style="margin: 0px;" src="'+tucker_video.thumb_off+'" alt="" border="0" align="absmiddle"></a>');
+	document.write('<a href="Javascript: vo_id();" onmouseover="MM_swapImage(\'dilstart\',\'\',\''+tucker_video.thumb_on+'\',1);" onmouseout="MM_swapImgRestore();" onclick="playVideo(tucker_video,true,true,true,false,true,false);"><img name="dilstart" style="margin: 0px;" src="'+tucker_video.thumb_off+'" alt="Play Tucker&acute;s Testimonial Video" border="0" align="absmiddle"></a>');
 	document.write(strReplace(strReplace(strReplace(strReplace(getHTMLControl("javaflash",231,22,false,false,false,false,false,false),"<text>","Video transcript"),"<title>","Video transcript"),"<href>",ada_href),"<anchor>",tucker_video.ada_anchor));
 	document.write('</div>');
 	document.write('<div id="videothumb_off" style="display: none;">');

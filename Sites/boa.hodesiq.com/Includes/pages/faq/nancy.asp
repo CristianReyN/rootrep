@@ -15,7 +15,7 @@ Click on a question below to play the video response.
 <p style="margin: 6px 0px 0px 0px;" class="faqpa">
 <b>What experience and skill set do I need to be considered for opportunities within Global Marketing &amp; Corporate Affairs?</b>
 <% If page_section <> "ADA" Then %>
-<br><img class="plresp" src="../images/clear.gif" width="10" height="1"  alt="" border="0"><br><a href="Javascript: vo_id();" onclick="playResponce(this);" class="ip">Play response</a>&nbsp;<a href="Javascript: void();" onclick="playResponce(this);"><img style="margin: 0px 0px 0px 0px;" src="../images/video_off_faq.gif" alt="" border="0" align="absmiddle" class="pai" name="pa1"></a><span class="auraltext"><br class="nancy_a1"></span>
+<br><img class="plresp" src="../images/clear.gif" width="10" height="1"  alt="" border="0"><br><a href="Javascript: vo_id();" onclick="playResponce(this);" class="ip">Play response<span class="ada-label">. Play the video response to the question What experience and skill set do I need to be considered for opportunities within Global Marketing &amp; Corporate Affairs?</span>&nbsp;<img style="margin: 0px 0px 0px 0px;" src="../images/video_off_faq.gif" alt="" border="0" align="absmiddle" class="pai" name="pa1"></a><span class="auraltext"><br class="nancy_a1"></span>
 <% Else %>
 </p>
 <p style="margin: 6px 0px 0px 0px;"><a name="answ1"></a>
@@ -29,7 +29,7 @@ Our disciplines - including brand marketing, advertising, agency management, cor
 <p style="margin: 6px 0px 0px 0px;" class="faqpa">
 <b>Where are the positions located?</b>
 <% If page_section <> "ADA" Then %>
-<br><img class="plresp" src="../images/clear.gif" width="10" height="1"  alt="" border="0"><br><a href="Javascript: vo_id();" onclick="playResponce(this);" class="ip">Play response</a>&nbsp;<a href="Javascript: vo_id();" onclick="playResponce(this);"><img style="margin: 0px 0px 0px 0px;" src="../images/video_off_faq.gif" alt="" border="0" align="absmiddle" class="pai" name="pa2"></a><span class="auraltext"><br class="nancy_a2"></span>
+<br><img class="plresp" src="../images/clear.gif" width="10" height="1"  alt="" border="0"><br><a href="Javascript: vo_id();" onclick="playResponce(this);" class="ip">Play response<span class="ada-label">. Play the video response to the question Where are the positions located?</span>&nbsp;<img style="margin: 0px 0px 0px 0px;" src="../images/video_off_faq.gif" alt="" border="0" align="absmiddle" class="pai" name="pa2"></a><span class="auraltext"><br class="nancy_a2"></span>
 <% Else %>
 </p>
 <p style="margin: 6px 0px 0px 0px;"><a name="answ2"></a>
@@ -43,7 +43,7 @@ Our corporate headquarters is located in Charlotte, N.C.  While a significant po
 <p style="margin: 6px 0px 0px 0px;" class="faqpa">
 <b>What are the typical growth opportunities (career path) in GM&CA?</b>
 <% If page_section <> "ADA" Then %>
-<br><img class="plresp" src="../images/clear.gif" width="10" height="1"  alt="" border="0"><br><a href="Javascript: vo_id();" onclick="playResponce(this);" class="ip">Play response</a>&nbsp;<a href="Javascript: vo_id();" onclick="playResponce(this);"><img style="margin: 0px 0px 0px 0px;" src="../images/video_off_faq.gif" alt="" border="0" align="absmiddle" class="pai" name="pa3"></a><span class="auraltext"><br class="nancy_a3"></span>
+<br><img class="plresp" src="../images/clear.gif" width="10" height="1"  alt="" border="0"><br><a href="Javascript: vo_id();" onclick="playResponce(this);" class="ip">Play response<span class="ada-label">. Play the video response to the question What are the typical growth opportunities (career path) in GM&CA?</span>&nbsp;<img style="margin: 0px 0px 0px 0px;" src="../images/video_off_faq.gif" alt="" border="0" align="absmiddle" class="pai" name="pa3"></a><span class="auraltext"><br class="nancy_a3"></span>
 <% Else %>
 </p>
 <p style="margin: 6px 0px 0px 0px;"><a name="answ3"></a>

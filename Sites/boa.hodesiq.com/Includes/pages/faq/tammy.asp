@@ -15,7 +15,7 @@ Click on a question below to play the video response.
 <p style="margin: 6px 0px 0px 0px;" class="faqpa">
 <b>What are some ways Bank&nbsp;of&nbsp;America invests in their associates?</b>
 <% If page_section <> "ADA" Then %>
-<br><img class="plresp" src="../images/clear.gif" width="10" height="1"  alt="" border="0"><br><a href="Javascript: vo_id();" onclick="playResponce(this);" class="ip">Play response</a>&nbsp;<a href="Javascript: void();" onclick="playResponce(this);"><img style="margin: 0px 0px 0px 0px;" src="../images/video_off_faq.gif" alt="" border="0" align="absmiddle" class="pai" name="pa1"></a><span class="auraltext"><br class="tammi_a1"></span>
+<br><img class="plresp" src="../images/clear.gif" width="10" height="1"  alt="" border="0"><br><a href="Javascript: vo_id();" onclick="playResponce(this);" class="ip">Play response<span class="ada-label">. Play the video response to the question What are some ways Bank&nbsp;of&nbsp;America invests in their associates?</span>&nbsp;<img style="margin: 0px 0px 0px 0px;" src="../images/video_off_faq.gif" alt="" border="0" align="absmiddle" class="pai" name="pa1"></a><span class="auraltext"><br class="tammi_a1"></span>
 <% Else %>
 </p>
 <p style="margin: 6px 0px 0px 0px;"><a name="answ1"></a>
@@ -29,7 +29,7 @@ Bank&nbsp;of&nbsp;America provides comprehensive training programs and on-going 
 <p style="margin: 6px 0px 0px 0px;" class="faqpa">
 <b>What does the career path from Consumer to other channels look like?</b>
 <% If page_section <> "ADA" Then %>
-<br><img class="plresp" src="../images/clear.gif" width="10" height="1"  alt="" border="0"><br><a href="Javascript: vo_id();" onclick="playResponce(this);" class="ip">Play response</a>&nbsp;<a href="Javascript: vo_id();" onclick="playResponce(this);"><img style="margin: 0px 0px 0px 0px;" src="../images/video_off_faq.gif" alt="" border="0" align="absmiddle" class="pai" name="pa2"></a><span class="auraltext"><br class="tammi_a2"></span>
+<br><img class="plresp" src="../images/clear.gif" width="10" height="1"  alt="" border="0"><br><a href="Javascript: vo_id();" onclick="playResponce(this);" class="ip">Play response<span class="ada-label">. Play the video response to the question What does the career path from Consumer to other channels look like?</span>&nbsp;<img style="margin: 0px 0px 0px 0px;" src="../images/video_off_faq.gif" alt="" border="0" align="absmiddle" class="pai" name="pa2"></a><span class="auraltext"><br class="tammi_a2"></span>
 <% Else %>
 </p>
 <p style="margin: 6px 0px 0px 0px;"><a name="answ2"></a>
@@ -43,7 +43,7 @@ Because Bank&nbsp;of&nbsp;America is a pay-for-performance company, the sky's th
 <p style="margin: 6px 0px 0px 0px;" class="faqpa">
 <b>How does Bank&nbsp;of&nbsp;America rank amongst its competition?</b>
 <% If page_section <> "ADA" Then %>
-<br><img class="plresp" src="../images/clear.gif" width="10" height="1"  alt="" border="0"><br><a href="Javascript: vo_id();" onclick="playResponce(this);" class="ip">Play response</a>&nbsp;<a href="Javascript: vo_id();" onclick="playResponce(this);"><img style="margin: 0px 0px 0px 0px;" src="../images/video_off_faq.gif" alt="" border="0" align="absmiddle" class="pai" name="pa3"></a><span class="auraltext"><br class="tammi_a3"></span>
+<br><img class="plresp" src="../images/clear.gif" width="10" height="1"  alt="" border="0"><br><a href="Javascript: vo_id();" onclick="playResponce(this);" class="ip">Play response<span class="ada-label">. Play the video response to the question How does Bank&nbsp;of&nbsp;America rank amongst its competition?</span>&nbsp;<img style="margin: 0px 0px 0px 0px;" src="../images/video_off_faq.gif" alt="" border="0" align="absmiddle" class="pai" name="pa3"></a><span class="auraltext"><br class="tammi_a3"></span>
 <% Else %>
 </p>
 <p style="margin: 6px 0px 0px 0px;"><a name="answ3"></a>
@@ -57,7 +57,7 @@ With the largest retail footprint in the nation, Bank&nbsp;of&nbsp;America is a 
 <p style="margin: 6px 0px 0px 0px;" class="faqpa">
 <b>How do Bank&nbsp;of&nbsp;America and our associates contribute to our communities?</b>
 <% If page_section <> "ADA" Then %>
-<br><img class="plresp" src="../images/clear.gif" width="10" height="1"  alt="" border="0"><br><a href="Javascript: vo_id();" onclick="playResponce(this);" class="ip">Play response</a>&nbsp;<a href="Javascript: vo_id();" onclick="playResponce(this);"><img style="margin: 0px 0px 0px 0px;" src="../images/video_off_faq.gif" alt="" border="0" align="absmiddle" class="pai" name="pa4"></a><span class="auraltext"><br class="tammi_a4"></span>
+<br><img class="plresp" src="../images/clear.gif" width="10" height="1"  alt="" border="0"><br><a href="Javascript: vo_id();" onclick="playResponce(this);" class="ip">Play response<span class="ada-label">. Play the video response to the question How do Bank&nbsp;of&nbsp;America and our associates contribute to our communities?</span>&nbsp;<img style="margin: 0px 0px 0px 0px;" src="../images/video_off_faq.gif" alt="" border="0" align="absmiddle" class="pai" name="pa4"></a><span class="auraltext"><br class="tammi_a4"></span>
 <% Else %>
 </p>
 <p style="margin: 6px 0px 0px 0px;"><a name="answ4"></a>

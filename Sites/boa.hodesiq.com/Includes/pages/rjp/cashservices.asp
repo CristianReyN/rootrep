@@ -7,13 +7,13 @@ function preloadThumb()
 var ada_href = "<%=ada_href %>";
 action_script = true;
 if ( hasRequestedVersion && cashservices_video ) {
-	document.write('<H2 class="hidden">Customer Marketing Advisor Video<\/H2>');
+	document.write('<H2 class="hidden">Cash Vault Representative Video<\/H2>');
 	document.write('<div id="mainvideo" style="display: none;"><a name="video"></a>');
 	document.write(getVideo(cashservices_video,400,300,"javaflash",""));
 	document.write(strReplace(strReplace(strReplace(strReplace(getHTMLControl("javaflash",400,22,true,true,true,true,true,true),"<text>","Video transcript"),"<title>","Video transcript"),"<href>",ada_href),"<anchor>",cashservices_video.ada_anchor));
 	document.write('</div>');
 	document.write('<div id="videothumb">');
-	document.write('<a href="Javascript: vo_id();" onmouseover="MM_swapImage(\'dilstart\',\'\',\''+cashservices_video.thumb_on+'\',1);" onmouseout="MM_swapImgRestore();" onclick="playVideo(cashservices_video,true,true,true,true,true,true);"><img name="dilstart" style="margin: 0px;" src="'+cashservices_video.thumb_off+'" alt="" border="0" align="absmiddle"></a>');
+	document.write('<a href="Javascript: vo_id();" onmouseover="MM_swapImage(\'dilstart\',\'\',\''+cashservices_video.thumb_on+'\',1);" onmouseout="MM_swapImgRestore();" onclick="playVideo(cashservices_video,true,true,true,true,true,true);"><img name="dilstart" style="margin: 0px;" src="'+cashservices_video.thumb_off+'" alt="Play Cash Vault Representative Video" border="0" align="absmiddle"></a>');
 	document.write(strReplace(strReplace(strReplace(strReplace(getHTMLControl("javaflash",400,22,false,false,false,true,false,false),"<text>","Video transcript"),"<title>","Video transcript"),"<href>",ada_href),"<anchor>",cashservices_video.ada_anchor));
 	document.write('</div>');
 	document.write('<div id="videothumb_off" style="display: none;">');

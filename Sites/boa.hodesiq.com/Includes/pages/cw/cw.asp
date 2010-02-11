@@ -8,13 +8,13 @@ function preloadThumb()
 var ada_href = "<%=ada_href %>";
 action_script = true;
 if ( hasRequestedVersion && andrey_video ) {
-	document.write('<H2 class="hidden">Global Diversity and Inclusion Video<\/H2>');
+	document.write('<H2 class="hidden">Corporate Workplace Video<\/H2>');
 	document.write('<div id="mainvideo" style="display: none;"><a name="video"></a>');
 	document.write(getVideo(andrey_video,259,166,"javaflash",""));
 	document.write(strReplace(strReplace(strReplace(strReplace(getHTMLControl("javaflash",259,22,true,true,true,true,true,true),"<text>","Video transcript"),"<title>","Video transcript"),"<href>",ada_href),"<anchor>",andrey_video.ada_anchor));
 	document.write('</div>');
 	document.write('<div id="videothumb">');
-	document.write('<a href="Javascript: vo_id();" onmouseover="MM_swapImage(\'dilstart\',\'\',\''+andrey_video.thumb_on+'\',1);" onmouseout="MM_swapImgRestore();" onclick="playVideo(andrey_video,true,true,true,true,true,true);"><img name="dilstart" style="margin: 0px;" src="'+andrey_video.thumb_off+'" alt="" border="0" align="absmiddle"></a>');
+	document.write('<a href="Javascript: vo_id();" onmouseover="MM_swapImage(\'dilstart\',\'\',\''+andrey_video.thumb_on+'\',1);" onmouseout="MM_swapImgRestore();" onclick="playVideo(andrey_video,true,true,true,true,true,true);"><img name="dilstart" style="margin: 0px;" src="'+andrey_video.thumb_off+'" alt="Play Corporate Workplace Video" border="0" align="absmiddle"></a>');
 	document.write(strReplace(strReplace(strReplace(strReplace(getHTMLControl("javaflash",259,22,false,false,false,true,false,false),"<text>","Video transcript"),"<title>","Video transcript"),"<href>",ada_href),"<anchor>",andrey_video.ada_anchor));
 	document.write('</div>');
 	document.write('<div id="videothumb_off" style="display: none;">');
