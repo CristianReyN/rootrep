@@ -189,3 +189,5 @@ function $(pNd)
 		return node;
 	}catch(e){return false;}
 }
+
+function strReplace(s,p,r){var pos=s.indexOf(p);var len=p.length;while(pos != -1){s1=s.substring(0,pos);s2=s.substring(pos+len,s.length);s=s1+r+s2;pos=s.indexOf(p);}return s;}

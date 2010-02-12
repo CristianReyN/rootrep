@@ -13,28 +13,8 @@
 			<tr valign="top">
 				<td colspan="2" width="100%" valign="top">
 <a name="skipmaincontent"></a><H1 class="hidden">CFO Group/Finance</H1>
-<% If page_section = "ADA" Then %>
-<!-- #include file="lob/chen.asp" -->
-					<div align="right" style="float: right; margin: 0px 0px 0px <%=right_margin_split%>px; padding: 0px; width: 201px;">
-<% End If %>
-<% If page_section <> "ADA" Then %>
-					<div align="right" style="float: right; margin: 0px 0px 0px <%=right_margin_split%>px; padding: 0px; width: 259px;">
-<!-- #include file="lob/chen.asp" -->
-<a href="#video" class="hlink">Rich Chen&#39;s Associate Testimonial Video</a>
-<% End If  %>
-<% If spage = "finance" Then %>
-
-<% ElseIf tpage = "lobcf" Then %>
-
-<% End If  %>
-<div style="width: 201px; text-align: left; border: 1px solid #e8e8e9; background: #ffffff; margin: 12px 0px 0px 0px; padding: 0px 0px 6px 0px;">
-	<H2 class="g" style="margin: 0px 0px 0px 0px;"><%=JOB_SEARCH_TITLE%></H2>
-	<img src="../images/clear.gif" width="100%" height="1" alt="" border="0" style="margin: 1px 0px 6px 0px; background: #e8e8e9;" align="top"><br clear="all">
-<!-- #include file="../jobsearch.asp" -->
-</div>
-<br><br>
-					</div>
-<p style="margin: <% If page_section = "ADA" Then %>12<% Else %>0<%End If%>px <%=right_margin_split%>px 0px <%=left_margin_0%>px;">
+<div style="float: left; width: <% If page_section = "ADA" Then %>357<% ElseIf page_section <> "ADA" Then %>299<%End If%>px;">
+<p style="margin: <% If page_section = "ADA" Then %>12<% Else %>0<%End If%>px <%=right_margin%>px 0px <%=left_margin_0%>px;">
 The CFO Group serves a number of essential functions within Bank&nbsp;of&nbsp;America, organized in the following groups:
 <br><br>
 <b>Finance Business Client Support</b>
@@ -71,6 +51,14 @@ Corporate Investments manages the bank&#39;s diversified financial portfolio thr
 Investor Relations is the contact for analysts and investors and is responsible for implementing a comprehensive investor relations program designed to improve the company&#39;s stock valuation.
 </p>
 <br>
+<script language="JavaScript1.2" type="text/javascript">
+if(!window.getHTMLControl)
+{
+	document.write('<scr' + 'ipt language="javascript" src="../Includes/pages/lob/lob.js');
+	document.write('"></scr' + 'ipt>');
+	ada_href = "<%=ada_href %>";
+}
+</script>
 <!-- #include file="faq/kim.asp" -->
 <br><br>
 <%
@@ -85,6 +73,22 @@ rowcount=6
 <!--#include file="../../hot_jobs.asp"-->
 </table>
 <br><br>
+</div>
+<% If page_section = "ADA" Then %>
+<div style="float: right; margin: 0px 0px 0px <%=right_margin_split%>px; padding: 0px; width: 201px;">
+	<!-- #include file="lob/chen.asp" -->
+<% ElseIf page_section <> "ADA" Then %>
+<div align="right" style="float: right; margin: 0px 0px 0px <%=right_margin_split%>px; padding: 0px; width: 259px;">
+	<!-- #include file="lob/chen.asp" -->
+	<a href="#video" class="hlink">Rich Chen&#39;s Associate Testimonial Video</a>
+<% End If  %>
+	<div style="width: 201px; text-align: left; border: 1px solid #e8e8e9; background: #ffffff; margin: 12px 0px 0px 0px; padding: 0px 0px 6px 0px;">
+		<H2 class="g" style="margin: 0px 0px 0px 0px;"><%=JOB_SEARCH_TITLE%></H2>
+		<img src="../images/clear.gif" width="100%" height="1" alt="" border="0" style="margin: 1px 0px 6px 0px; background: #e8e8e9;" align="top"><br clear="all">
+	<!-- #include file="../jobsearch.asp" -->
+	</div>
+	<br><br>
+</div>
 				</td>
 			</tr>
 		</table>

@@ -13,28 +13,8 @@
 			<tr valign="top">
 				<td width="100%" valign="top">
 <a name="skipmaincontent"></a><H1 class="hidden">Global Technology &amp; Operations</H1>
-<% If page_section = "ADA" Then %>
-<!-- #include file="lob/saulsberry.asp" -->
-					<div align="right" style="float: right; margin: 0px 0px 0px <%=right_margin_split%>px; padding: 0px; width: 201px;">
-<% End If %>
-<% If page_section <> "ADA" Then %>
-					<div align="right" style="float: right; margin: 0px 0px 0px <%=right_margin_split%>px; padding: 0px; width: 259px;">
-<!-- #include file="lob/saulsberry.asp" -->
-<a href="#video" class="hlink">Shawn Saulsberry&acute;s Associate Testimonial Video</a>
-<% End If  %>
-<% If spage = "technology" Then %>
-
-<% ElseIf spage = "lobgto" Then %>
-
-<% End If  %>
-<div style="width: 201px; text-align: left; border: 1px solid #e8e8e9; background: #ffffff; margin: 12px 0px 0px 0px; padding: 0px 0px 6px 0px;">
-	<H2 class="g" style="margin: 0px 0px 0px 0px;"><%=JOB_SEARCH_TITLE%></H2>
-	<img src="../images/clear.gif" width="100%" height="1" alt="" border="0" style="margin: 1px 0px 6px 0px; background: #e8e8e9;" align="top"><br clear="all">
-<!-- #include file="../jobsearch.asp" -->
-</div>
-<br><br>
-					</div>
-<p style="margin: <% If page_section = "ADA" Then %>12<% Else %>0<%End If%>px <%=right_margin_split%>px 0px <%=left_margin_0%>px;">
+<div style="float: left; width: <% If page_section = "ADA" Then %>357<% ElseIf page_section <> "ADA" Then %>299<%End If%>px;">
+<p style="margin: <% If page_section = "ADA" Then %>12<% Else %>0<%End If%>px <%=right_margin%>px 0px <%=left_margin_0%>px;">
 At Bank&nbsp;of&nbsp;America, we believe that the right people form the critical cornerstone of our foundation for growth. With thousands of technologists working from across the corners of the globe, we are focused on providing innovative and creative technology solutions, leading to literally billions of opportunities to "touch" our customers every month. Building a world-class, global workforce is critical to our priorities and we have many exciting opportunities to take your career higher as part of our commitment to being the employer of choice. 
 <br><br>
 Bank&nbsp;of&nbsp;America Technology associates build and maintain a world-class data network linking more than 6,100+ retail banking offices, nearly 18,500 ATMs and the nation's leading online banking and bill pay service. The team also runs multiple data centers while providing support for tens of thousands of desktops throughout the corporation.
@@ -66,6 +46,14 @@ The technological superiority of our systems is as important as the quality of t
 </p>
 <img class="dotdiv" style="margin: 6px 0px 6px 0px;" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
 <br>
+<script language="JavaScript1.2" type="text/javascript">
+if(!window.getHTMLControl)
+{
+	document.write('<scr' + 'ipt language="javascript" src="../Includes/pages/lob/lob.js');
+	document.write('"></scr' + 'ipt>');
+	ada_href = "<%=ada_href %>";
+}
+</script>
 <!-- #include file="faq/andy.asp" -->
 <br><br>
 <%
@@ -80,7 +68,22 @@ rowcount=6
 <!--#include file="../../hot_jobs.asp"-->
 </table>
 <br><br>
+</div>
+<% If page_section = "ADA" Then %>
+<div style="float: right; margin: 0px 0px 0px 18px; padding: 0px; width: 203px;">
+	<!-- #include file="lob/saulsberry.asp" -->
+<% ElseIf page_section <> "ADA" Then %>
+<div align="right" style="float: right; margin: 0px 0px 0px 20px; padding: 0px; width: 259px;">
+	<!-- #include file="lob/saulsberry.asp" -->
+	<a href="#video" class="hlink">Shawn Saulsberry&acute;s Associate Testimonial Video</a>
+<% End If  %>
+	<div style="width: 201px; border: 1px solid #e8e8e9; margin: 12px 0px 0px 0px; padding: 0px 0px 6px 0px;">
+		<H2 class="g" style="margin: 0px 0px 0px 0px; text-align: left;"><%=JOB_SEARCH_TITLE%></H2>
+		<img src="../../images/clear.gif" width="100%" height="1" alt="" border="0" style="margin: 1px 0px 6px 0px; background: #e8e8e9;" align="top"><br clear="all">
+		<!-- #include file="../jobsearch.asp" -->
+	</div>
+<br><br>
+</div>
 				</td>
 			</tr>
-			<tr valign="top"><td valign="top" class="divb"><img src="../images/clear.gif" width="100%" height="4" alt="" border="0"></td></tr>
 		</table>

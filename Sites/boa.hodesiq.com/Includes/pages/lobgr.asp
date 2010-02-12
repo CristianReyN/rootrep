@@ -13,28 +13,8 @@
 			<tr valign="top">
 				<td width="100%" valign="top">
 <a name="skipmaincontent"></a><H1 class="hidden">Risk Management</H1>
-<% If page_section = "ADA" Then %>
-<!-- #include file="lob/price.asp" -->
-					<div align="right" style="float: right; margin: 0px 0px 0px <%=right_margin_split%>px; padding: 0px; width: 201px;">
-<% End If %>
-<% If page_section <> "ADA" Then %>
-					<div align="right" style="float: right; margin: 0px 0px 0px <%=right_margin_split%>px; padding: 0px; width: 259px;">
-<!-- #include file="lob/price.asp" -->
-<a href="#video" class="hlink">Allen Price&acute;s Associate Testimonial Video</a>
-<% End If  %>
-<% If spage = "riskevaluation" Then %>
-
-<% ElseIf tpage = "lobgr" Then %>
-
-<% End If  %>
-<div style="width: 201px; text-align: left; border: 1px solid #e8e8e9; background: #ffffff; margin: 12px 0px 0px 0px; padding: 0px 0px 6px 0px;">
-	<H2 class="g" style="margin: 0px 0px 0px 0px;"><%=JOB_SEARCH_TITLE%></H2>
-	<img src="../images/clear.gif" width="100%" height="1" alt="" border="0" style="margin: 1px 0px 6px 0px; background: #e8e8e9;" align="top"><br clear="all">
-<!-- #include file="../jobsearch.asp" -->
-</div>
-<br><br>
-					</div>
-<p style="margin: <% If page_section = "ADA" Then %>12<% Else %>0<%End If%>px <%=right_margin_split%>px 0px <%=left_margin_0%>px;">
+<div style="float: left; width: <% If page_section = "ADA" Then %>357<% ElseIf page_section <> "ADA" Then %>299<%End If%>px;">
+<p style="margin: <% If page_section = "ADA" Then %>12<% Else %>0<%End If%>px <%=right_margin%>px 0px <%=left_margin_0%>px;">
 The goal of Global Risk is to manage all types of risk to achieve predictable, consistent and sustainable earnings growth. Our model for managing risk is holistic, covering credit, market and operational risks on an enterprise-wide scale. Our challenge is to ensure we provide the optimum balance of risk and reward to help grow the business.
 <br><br>
 Specific areas of Global Risk Management are:
@@ -51,6 +31,14 @@ Specific areas of Global Risk Management are:
 </ul>
 </p>
 <br>
+<script language="JavaScript1.2" type="text/javascript">
+if(!window.getHTMLControl)
+{
+	document.write('<scr' + 'ipt language="javascript" src="../Includes/pages/lob/lob.js');
+	document.write('"></scr' + 'ipt>');
+	ada_href = "<%=ada_href %>";
+}
+</script>
 <!-- #include file="faq/charles.asp" -->
 <br><br>
 <%
@@ -65,7 +53,22 @@ rowcount=6
 <!--#include file="../../hot_jobs.asp"-->
 </table>
 <br><br>
+</div>
+<% If page_section = "ADA" Then %>
+<div style="float: right; margin: 0px 0px 0px <%=right_margin_split%>px; padding: 0px; width: 201px;">
+	<!-- #include file="lob/price.asp" -->
+<% ElseIf page_section <> "ADA" Then %>
+<div align="right" style="float: right; margin: 0px 0px 0px <%=right_margin_split%>px; padding: 0px; width: 259px;">
+	<!-- #include file="lob/price.asp" -->
+	<a href="#video" class="hlink">Allen Price&acute;s Associate Testimonial Video</a>
+<% End If  %>
+	<div style="width: 201px; text-align: left; border: 1px solid #e8e8e9; background: #ffffff; margin: 12px 0px 0px 0px; padding: 0px 0px 6px 0px;">
+		<H2 class="g" style="margin: 0px 0px 0px 0px;"><%=JOB_SEARCH_TITLE%></H2>
+		<img src="../images/clear.gif" width="100%" height="1" alt="" border="0" style="margin: 1px 0px 6px 0px; background: #e8e8e9;" align="top"><br clear="all">
+	<!-- #include file="../jobsearch.asp" -->
+	</div>
+	<br><br>
+</div>
 				</td>
 			</tr>
-			<tr valign="top"><td valign="top" class="divb"><img src="../images/clear.gif" width="100%" height="4" alt="" border="0"></td></tr>
 		</table>

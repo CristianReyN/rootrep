@@ -145,24 +145,20 @@ rowcount=6
 	<br><br>
 </div>
 <% If page_section = "ADA" Then %>
-<div style="float: right; margin: 0px 0px 0px 18px; padding: 0px; width: 203px;">
+<div style="float: right; margin: 0px 0px 0px <%=right_margin_split%>px; padding: 0px; width: 201px;">
 	<!-- #include file="../mortgage/mortgagevideo.asp" -->
 <% ElseIf page_section <> "ADA" Then %>
 <div align="right" style="float: right; margin: 0px 0px 0px 20px; padding: 0px; width: 259px;">
 	<!-- #include file="../mortgage/mortgagevideo.asp" -->
 	<a href="#video" class="hlink">Mortgage Careers Video</a>
 <% End If  %>
-<% If spage = "mortgagecareers" Then %>
-
-<% Else  %>
-
-<% End If  %>
-<div style="width: 201px; border: 1px solid #e8e8e9; margin: 12px 0px 0px 0px; padding: 0px 0px 6px 0px;">
-	<H2 class="g" style="margin: 0px 0px 0px 0px; text-align: left;"><%=JOB_SEARCH_TITLE%></H2>
-	<img src="../../images/clear.gif" width="100%" height="1" alt="" border="0" style="margin: 1px 0px 6px 0px; background: #e8e8e9;" align="top"><br clear="all">
-<!-- #include file="../../jobsearch.asp" -->
-</div>
+	<div style="width: 201px; border: 1px solid #e8e8e9; margin: 12px 0px 0px 0px; padding: 0px 0px 6px 0px;">
+		<H2 class="g" style="margin: 0px 0px 0px 0px; text-align: left;"><%=JOB_SEARCH_TITLE%></H2>
+		<img src="../../images/clear.gif" width="100%" height="1" alt="" border="0" style="margin: 1px 0px 6px 0px; background: #e8e8e9;" align="top"><br clear="all">
+		<!-- #include file="../../jobsearch.asp" -->
+	</div>
 <br><br>
+</div>
 				</td>
 			</tr>
 		</table>
