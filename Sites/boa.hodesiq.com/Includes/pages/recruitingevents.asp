@@ -65,14 +65,14 @@ Miami, FL<br>
 <b>The Consortium * Feeder organization</b><br>
 June 13 - 16, 2010<br>
 Orlando, Florida<br>
-<a href="http://www.recruitmilitary.com" target="_blank" class="p">www.recruitmilitary.com</a>
+<a href="http://www.cgsm.org" target="_blank" class="p">www.cgsm.org</a>
 </p>
 
 <p style="text-align: left; margin-top: 12px; margin-bottom: 0px;">
 <b>National Association of Black Accountants (NABA)</b><br>
 June 16 - 19, 2010<br>
 Houston ,Texas<br>
-<a href="http://www.recruitmilitary.com" target="_blank" class="p">www.recruitmilitary.com</a>
+<a href="http://www.nabainc.org" target="_blank" class="p">www.nabainc.org</a>
 </p>
 
 <p style="text-align: left; margin-top: 12px; margin-bottom: 0px;">
@@ -93,14 +93,14 @@ Charlotte, NC<br>
 <b>Association of Latino Professionals in Finance & Accounting (ALPFA)</b><br>
 July 31 - August 4, 2010<br>
 Lake Buena Vista, Florida<br>
-<a href="http://www.recruitmilitary.com" target="_blank" class="p">www.recruitmilitary.com</a>
+<a href="http://www.alpfa.org" target="_blank" class="p">www.alpfa.org</a>
 </p>
 
 <p style="text-align: left; margin-top: 12px; margin-bottom: 0px;">
 <b>Association of Asian Professionals in Finance & Accounting (ASCEND)</b><br>
 August 14 - 16, 2010<br>
 New York, New York<br>
-<a href="http://www.recruitmilitary.com" target="_blank" class="p">www.recruitmilitary.com</a>
+<a href="http://www.naasa.org" target="_blank" class="p">www.naasa.org</a>
 </p>
 
 <p style="text-align: left; margin-top: 12px; margin-bottom: 0px;">
@@ -114,7 +114,7 @@ Jacksonville, FL<br>
 <b>National Black MBA (NBMBAA)</b><br>
 September 21 -25, 2010<br>
 Los Angeles, California<br>
-<a href="http://www.recruitmilitary.com" target="_blank" class="p">www.recruitmilitary.com</a>
+<a href="http://www.nbmbaa.org" target="_blank" class="p">www.nbmbaa.org</a>
 </p>
 
 <p style="text-align: left; margin-top: 12px; margin-bottom: 0px;">
@@ -128,14 +128,14 @@ Atlanta, GA<br>
 <b>Reaching Out MBA (ROMBA)</b><br>
 October 14 - 17, 2010<br>
 Los Angeles, California<br>
-<a href="http://www.recruitmilitary.com" target="_blank" class="p">www.recruitmilitary.com</a>
+<a href="http://www.reachingoutmba.org" target="_blank" class="p">www.reachingoutmba.org</a>
 </p>
 
 <p style="text-align: left; margin-top: 12px; margin-bottom: 0px;">
 <b>National Society of Hispanic MBAs (NSHMBA)</b><br>
 October 21 - 23, 2010<br>
 Chicago, Illinois<br>
-<a href="http://www.recruitmilitary.com" target="_blank" class="p">www.recruitmilitary.com</a>
+<a href="http://www.nshmba.org" target="_blank" class="p">www.nshmba.org</a>
 </p>
 
 <br><br>
