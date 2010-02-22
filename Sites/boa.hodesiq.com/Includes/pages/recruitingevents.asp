@@ -36,7 +36,7 @@ During the course of the year, Bank of America participates in and supports vari
 <p style="text-align: left; margin-top: 12px; margin-bottom: 0px;">
 <b>RecruitMilitary Opportunity Fair</b><br>
 April 1, 2010<br>
-Boston, MA,<br>
+Boston, MA<br>
 <a href="http://www.recruitmilitary.com" target="_blank" title="Link opens a new window." class="p">www.recruitmilitary.com</a>
 </p>
 
