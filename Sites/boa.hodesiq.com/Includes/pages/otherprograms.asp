@@ -12,8 +12,8 @@
 <H2 class="bac" style="margin: 12px 0px 0px 0px; padding: 0px;">Associate Banking and Investments</H2>
 <p style="margin: 6px 0px 0px 0px;">Provides discounts and additional benefits on a wide range of banking and investing products. Associates may have two checking accounts with no monthly maintenance fee or balance requirement as well as additional checking benefits. Savings accounts are available with no monthly maintenance fee (restrictions may apply).</p>
 
-<H2 class="bac" style="margin: 12px 0px 0px 0px; padding: 0px;">Associate Homeownership Program</H2>
-<p style="margin: 6px 0px 0px 0px;">Offers associates unsecured loans of up to $5,000 to help pay for part of a down payment, closing costs, rate buy-down or other expenses directly related to the purchase of a primary residence when the mortgage is obtained through Bank&nbsp;of&nbsp;America.</p>
+<!--<H2 class="bac" style="margin: 12px 0px 0px 0px; padding: 0px;">Associate Homeownership Program</H2>
+<p style="margin: 6px 0px 0px 0px;">Offers associates unsecured loans of up to $5,000 to help pay for part of a down payment, closing costs, rate buy-down or other expenses directly related to the purchase of a primary residence when the mortgage is obtained through Bank&nbsp;of&nbsp;America.</p>-->
 
 <H2 class="bac" style="margin: 12px 0px 0px 0px; padding: 0px;">Joe Martin Scholarship Program</H2>
 <p style="margin: 6px 0px 0px 0px;">Scholarships ranging from $500 to $5,000 are awarded through a competitive program to associates' dependents age 23 or younger who meet academic and extracurricular activity requirements.</p>
