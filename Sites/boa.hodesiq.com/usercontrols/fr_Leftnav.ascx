@@ -10,11 +10,11 @@
 
 <script language="javascript" type="text/javascript">
 //<!--
-function popup(imnam) { 
-window.open(imnam,"pop","directory=no,height=450,width=500,toolbar=no,scrollbars=yes,location=no,resizable=yes"); 
+function popup(imnam) {
+    window.open(imnam, "pop", "directory=no,height=450,width=500,toolbar=no,scrollbars=yes,location=no,resizable=yes");
 }
 function hover(ref, classRef) { eval(ref).className = classRef; }
-function tdiv(tf){}
+function tdiv(tf) { }
 //-->
 </script>
 
@@ -25,9 +25,9 @@ function tdiv(tf){}
 
 <script language="javascript" type="text/javascript">
 //<!--
-	examineFontSize("body");
-	cmSetProduction();
-	cmCreatePageviewTag("globalcareers:asia.asp", null, null,"career:globalcareers");
+    examineFontSize("body");
+    cmSetProduction();
+    cmCreatePageviewTag("globalcareers:asia.asp", null, null, "career:globalcareers");
 //-->
 </script>
 
@@ -65,6 +65,12 @@ function tdiv(tf){}
                                     <a href="fr_canada_staffing.aspx" class="sbtxt" title="Procédure de recrutement de personnel"
                                         onfocus="this.className='sbtxt-over';" onblur="this.className='sbtxt';">&nbsp;Procédure
                                         de &nbsp;recrutement de &nbsp;personnel </a>
+                                </div>
+                            </li>
+                            <li class="tertiary" id="canadainterview" runat="server">
+                                <div>
+                                    <a href="fr_canada_interview_tips.aspx" class="sbtxt" title="Conseils pour les entrevues"
+                                        onfocus="this.className='sbtxt-over';" onblur="this.className='sbtxt';">&nbsp;Conseils pour les &nbsp;entrevues </a>
                                 </div>
                             </li>
                             <!--<li class="tertiary" id="subcontactus" runat="server"><div><a href="fr_canada_contactus.aspx" class="g" title="Contactez-nous" onfocus="this.className='sbtxt-over';" onblur="this.className='sbtxt';">Contactez-nous </a>

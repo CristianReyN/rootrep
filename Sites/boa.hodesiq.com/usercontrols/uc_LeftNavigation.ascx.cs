@@ -22,6 +22,7 @@ public partial class uc_LeftNavigation : System.Web.UI.UserControl
     string[] arrLevel;
     string constring = @"file name=D:\data\db\boa.udl";
     string SelectedBackgroundColor = " style=\"background: #eaf1f7;\" ";
+    bool level3 = true;
 
 
     protected void Page_Load(object sender, EventArgs e)
@@ -29,6 +30,8 @@ public partial class uc_LeftNavigation : System.Web.UI.UserControl
         string sPath = System.Web.HttpContext.Current.Request.Url.AbsolutePath;
         System.IO.FileInfo oInfo = new System.IO.FileInfo(sPath);
         string sRet = oInfo.Name;
+
+        level3 = "appl_with_disabilities.aspx" != sRet;
 
         string PageNavigationOrder = "1-0-0-0";
 
@@ -156,7 +159,7 @@ public partial class uc_LeftNavigation : System.Web.UI.UserControl
                 HTML = HTML + "<li  class='tertiary'>" + InnerDIV + aref + "</div></li>";
             }
 
-            if (CurrentOrder == CurrentPageOrder)
+            if (CurrentOrder == CurrentPageOrder && level3)
             {
                 GenerateNavigationBarLevel3(CurrentOrder);
             }

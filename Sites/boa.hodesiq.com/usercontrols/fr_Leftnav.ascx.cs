@@ -18,7 +18,7 @@ public partial class fr_Leftnav : System.Web.UI.UserControl
         System.IO.FileInfo oInfo = new System.IO.FileInfo(sPath);
         string sRet = oInfo.Name;
 
-        if (sRet.ToLower() == "fr_canada.aspx")
+        if (sRet.ToLower() == "fr_canada.aspx" || sRet.ToLower() == "ada_fr_canada.aspx")
         {
             subcanada.Style["background"] = "#eaf1f7";
 
@@ -58,6 +58,10 @@ public partial class fr_Leftnav : System.Web.UI.UserControl
 
 
 
+        }
+        if (sRet.ToLower() == "fr_canada_interview_tips.aspx")
+        {
+            canadainterview.Style["background"] = "#eaf1f7";
         }
 
     }
