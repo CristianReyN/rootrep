@@ -14,20 +14,23 @@
 			<tr valign="top">
 				<td width="373" height="100%" valign="top" style="padding: 0px <%=right_margin%>px 0px <%=left_margin_0%>px;">
 <p style="margin: 0px;">
-Bank of America Merchant Services is a premiere payments company providing the technology, innovative products and industry track record of First Data with the relationship strength, geographical coverage and prominent global brand of Bank of America to serve existing and future clients.
+Bank&nbsp;of&nbsp;America Merchant Services is a premiere payments company providing the technology, innovative products and industry track record of First Data with the relationship strength, geographical coverage and prominent global brand of Bank&nbsp;of&nbsp;America to serve existing and future clients.
 </p>
 <p style="margin: 12px 0px 0px 0px;">
-As a market leader with a powerful commitment to the merchant business, Bank of America Merchant Services delivers a comprehensive suite of payment solutions worldwide to merchants of all sizes.  Our global footprint reaches over 66 countries through over 6,000 banking centers and 1,070 full-time associates.
+As a market leader with a powerful commitment to the merchant business, Bank&nbsp;of&nbsp;America Merchant Services delivers a comprehensive suite of payment solutions worldwide to merchants of all sizes.  Our global footprint reaches over 66 countries through over 6,000 banking centers and 1,070 full-time associates.
 </p>
 <p style="margin: 12px 0px 0px 0px;">
-Careers within Bank of America Merchant Services include:
+Bank&nbsp;of&nbsp;America Merchant Services is a separate entity from Bank&nbsp;of&nbsp;America and First Data Corporation. Bank&nbsp;of&nbsp;America Merchant Services has its own benefits package, and other programs that are unrelated to the programs offered by Bank&nbsp;of&nbsp;America or First Data Corporation.
+</p>
+<p style="margin: 12px 0px 0px 0px;">
+Careers within Bank&nbsp;of&nbsp;America Merchant Services include:
 </p>
 <ul>
 	<li>Merchant Specialist</li>
 	<li>Strategic Account Executive</li>
 </ul>
 <p style="margin: 12px 0px 0px 0px;">
-<a href="https://bacfhrs.taleo.net/careersection/10200/joblist.ftl?lang=en" title="Search for current career opportunities. Link opens a new window." target="_blank">Search</a> for current career opportunities within Bank of America Merchant Services.
+<a href="https://bacfhrs.taleo.net/careersection/10200/joblist.ftl?lang=en" title="Search for current career opportunities. Link opens a new window." target="_blank">Search</a> for current career opportunities within Bank&nbsp;of&nbsp;America Merchant Services.
 </p>
 				</td>
 				<td width="205" height="100%" valign="top">
