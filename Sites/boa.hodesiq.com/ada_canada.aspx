@@ -107,5 +107,5 @@ top; background-repeat: repeat-x;">
 </asp:Content>
 <asp:Content ID="Content1" runat="server" ContentPlaceHolderID="languagelink">
     <div class="franch_btn">
-        <a href="fr_canada.aspx" onfocus="this.className='franch_btn-over';"  onblur="this.className='franch_btn-hover';" alt="En Francais" title="En Francais">En Francais</a></div>
+        <a href="ada_fr_canada.aspx" onfocus="this.className='franch_btn-over';"  onblur="this.className='franch_btn-hover';" alt="En Francais" title="En Francais">En Francais</a></div>
 </asp:Content>

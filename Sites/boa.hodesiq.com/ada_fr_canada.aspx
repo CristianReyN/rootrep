@@ -56,6 +56,6 @@
 
 <asp:Content ID="Content1" runat="server" ContentPlaceHolderID="ContentPlaceHolder1">
 <div class="english_btn">
-        <a href="Canada.aspx" onfocus="this.className='english_btn-over';"  onblur="this.className='english_btn-hover';" alt="In English" title="In English">In English</a></div>
+        <a href="ada_Canada.aspx" onfocus="this.className='english_btn-over';"  onblur="this.className='english_btn-hover';" alt="In English" title="In English">In English</a></div>
 </asp:Content>
 

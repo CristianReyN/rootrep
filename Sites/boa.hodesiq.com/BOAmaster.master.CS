@@ -60,7 +60,11 @@ public partial class BOAmaster : System.Web.UI.MasterPage
             strContent = "Campus Events Overview page on campus site. Includes a searchable guide (with times, dates and locations) to the Bank's many visits to college and universities in the U.S and internationally.";
             IsCampusEvents = true;
         }
-        
+        else if (Request.ServerVariables["SCRIPT_NAME"].IndexOf("appl_with_disabilities.aspx", StringComparison.CurrentCultureIgnoreCase) > 0)
+        {
+            strContent = "Main page for job search functionality for careers site.";
+            breadCrum = " | Job Search | Applicants with Disabilities";
+        }
         else
         {
             strContent = "Main page for job search functionality for careers site.";
