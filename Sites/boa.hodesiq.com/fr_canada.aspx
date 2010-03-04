@@ -32,8 +32,7 @@
             </p><div id="retuntocanadamap" />              
                                 <p>
                                     <a href="ada_fr_canada.aspx" class="ada2adalink" onfocus="this.className='ada2adalink-over';"
-                                        onblur="this.className='ada2adalink';" title="View locations as text">View locations
-                                        as text</a><br />
+                                        onblur="this.className='ada2adalink';" title="Voir les emplacements sous forme de texte">Voir les emplacements sous forme de texte</a><br />
                                     <br />
                                 </p> 
                                 <style type="text/css"><!--

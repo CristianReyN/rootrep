@@ -45,8 +45,7 @@
     
      </div> 
      <p>
-                    <a href="fr_canada.aspx#A2" class="ada2adalink" onfocus="this.className='ada2adalink-over';" onblur="this.className='ada2adalink';" title="Return to map">Return to
-                        map</a></p>
+                    <a href="fr_canada.aspx#A2" class="ada2adalink" onfocus="this.className='ada2adalink-over';" onblur="this.className='ada2adalink';" title="Retourner à la carte">Retourner à la carte</a></p>
             </td>
           
           </tr>
