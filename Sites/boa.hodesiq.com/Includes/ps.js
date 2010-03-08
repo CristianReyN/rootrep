@@ -9,6 +9,11 @@ function addElementsByClassName(tag,clsName,arr)
 
 function startPs()
 {
+	if(document.getElementById("jsearch"))
+	{
+		$("jsearch").style.top = $("jsearchli").offsetTop-1;
+		$("jsearch").style.visibility = "visible";
+	}
 	if(document.getElementById("jaaot"))
 	{
 		$("jaaot").style.top = $("areasoftalentli").offsetTop-1;

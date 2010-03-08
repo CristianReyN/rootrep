@@ -9,6 +9,7 @@ function fixIE(obj)
 			theObjects[i].outerHTML = theObjects[i].outerHTML;
 		}
 	}
+	if(document.getElementById('jsearch')) document.getElementById('jsearch').blur();
 	if(document.getElementById('jaaot')) document.getElementById('jaaot').blur();
 	if(document.getElementById('lob')) document.getElementById('lob').blur();
 	if(document.getElementById('camp')) document.getElementById('camp').blur();

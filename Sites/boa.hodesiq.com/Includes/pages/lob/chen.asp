@@ -10,7 +10,7 @@ if ( hasRequestedVersion && chen_video ) {
 	document.write(strReplace(strReplace(strReplace(strReplace(getHTMLControl("javaflash",259,22,true,true,true,true,true,true),"<text>","Video transcript"),"<title>","Video transcript"),"<href>",ada_href),"<anchor>",chen_video.ada_anchor));
 	document.write('</div>');
 	document.write('<div id="videothumb">');
-	document.write('<a href="Javascript: vo_id();" onmouseover="MM_swapImage(\'dilstart\',\'\',\''+chen_video.thumb_on+'\',1);" onmouseout="MM_swapImgRestore();" onclick="playVideo(chen_video,true,true,true,true,true,true);"><img name="dilstart" style="margin: 0px;" src="'+chen_video.thumb_off+'" alt="Play Rich Chen&acute;s Associate Testimonial Video" border="0" align="absmiddle"></a>');
+	document.write('<a href="Javascript: vo_id();" onmouseover="MM_swapImage(\'dilstart\',\'\',\''+chen_video.thumb_on+'\',1);" onmouseout="MM_swapImgRestore();" onclick="playVideo(chen_video,true,true,true,true,true,true);" title="Play Rich Chen&acute;s Associate Testimonial Video"><img name="dilstart" style="margin: 0px;" src="'+chen_video.thumb_off+'" alt="Play Rich Chen&acute;s Associate Testimonial Video" border="0" align="absmiddle"></a>');
 	document.write(strReplace(strReplace(strReplace(strReplace(getHTMLControl("javaflash",259,22,false,false,false,true,false,false),"<text>","Video transcript"),"<title>","Video transcript"),"<href>",ada_href),"<anchor>",chen_video.ada_anchor));
 	document.write('</div>');
 	document.write('<div id="videothumb_off" style="display: none;">');

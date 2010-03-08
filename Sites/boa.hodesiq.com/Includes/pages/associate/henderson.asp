@@ -10,7 +10,8 @@ if ( hasRequestedVersion && henderson_video ) {
 	document.write(strReplace(strReplace(strReplace(strReplace(getHTMLControl("javaflash",259,22,true,true,true,true,true,true),"<text>","Video transcript"),"<title>","Video transcript"),"<href>",ada_href),"<anchor>",henderson_video.ada_anchor));
 	document.write('</div>');
 	document.write('<div id="videothumb">');
-	document.write('<a href="Javascript: vo_id();" onmouseover="MM_swapImage(\'dilstart\',\'\',\''+henderson_video.thumb_on+'\',1);" onmouseout="MM_swapImgRestore();" onclick="playVideo(henderson_video,true,true,true,true,true,true);"><img name="dilstart" style="margin: 0px;" src="'+henderson_video.thumb_off+'" alt="Play Chanel Henderson&#39;s Associate Testimonial Video" border="0" align="absmiddle"></a>');
+	//document.write('<a href="Javascript: vo_id();" onmouseover="MM_swapImage(\'dilstart\',\'\',\''+henderson_video.thumb_on+'\',1);" onmouseout="MM_swapImgRestore();" onclick="playVideo(henderson_video,true,true,true,true,true,true);"><img name="dilstart" style="margin: 0px;" src="'+henderson_video.thumb_off+'" alt="Play Chanel Henderson&#39;s Associate Testimonial Video" border="0" align="absmiddle"></a>');
+	document.write('<img name="dilstart" class="h" style="margin: 0px;" src="'+henderson_video.thumb_off+'" alt="Play Chanel Henderson&#39;s Associate Testimonial Video" border="0" align="absmiddle" onmouseover="MM_swapImage(\'dilstart\',\'\',\''+henderson_video.thumb_on+'\',1);" onmouseout="MM_swapImgRestore();" onclick="playVideo(henderson_video,true,true,true,true,true,true);">');
 	document.write(strReplace(strReplace(strReplace(strReplace(getHTMLControl("javaflash",259,22,false,false,false,true,false,false),"<text>","Video transcript"),"<title>","Video transcript"),"<href>",ada_href),"<anchor>",henderson_video.ada_anchor));
 	document.write('</div>');
 	document.write('<div id="videothumb_off" style="display: none;">');

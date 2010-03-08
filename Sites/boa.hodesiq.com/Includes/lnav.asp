@@ -1,11 +1,19 @@
 <tr valign="top"><td>
 <div id="lnav">
 	<ul>
-		<li<%If mpage = "overview" then Response.Write " style=""background: #eaf1f7;""" end if %>>
+		<li<%If mpage = "overview" Then %><%If spage = "" Then %> class="home"<%Else%><%End if %><%End if %>>
 <div><a class="g" href="../overview/overview.asp" title="Overview" onfocus="this.className='g-over';" onblur="this.className='g';">Overview</a></div>
 		</li>
-		<li<%If mpage = "jobsearch" then Response.Write " style=""background: #eaf1f7;""" end if %>>
-<div><a class="g" href="../jobsearch.aspx" title="Job Search" onfocus="this.className='g-over';" onblur="this.className='g';">Job Search</a></div>
+		<li id="jsearchli"<%If mpage = "jobsearch" Then %><%If spage = "" Then %> class="home"<%Else%><%End if %><%End if %>>
+<div<%If mpage = "jobsearch" Then%> style="padding-right: 0px;"<%End If%>><a class="g" href="../jobsearch.aspx" title="Job Search" onfocus="this.className='g-over';" onblur="this.className='g';">Job Search</a>
+<%
+	If mpage = "jobsearch" Then
+		call JSearchNav(""," class=""home""","")
+	Else
+		call JSearchNav(" id=""jsearch""",""," class=""jsearchlili""")
+	End If
+%>
+</div>
 		</li>
 		<li id="areasoftalentli"<%If mpage = "areasoftalent" Then %><%If spage = "" Then %> class="home"<%Else%> style="padding-bottom:0px;"<%End if %><%End if %>>
 <div<%If mpage = "areasoftalent" Then%> style="padding-right: 0px;"<%End If%>><a class="g" href="../areasoftalent/areasoftalent.asp" id="areasoftalent" title="Job Areas" onfocus="this.className='g-over';" onblur="this.className='g';">Job Areas</a>
@@ -66,6 +74,19 @@
 	</ul>
 </div>
 </td></tr>
+
+
+
+<%
+	Function JSearchNav(id,ul,li)
+%>			<ul<% Response.Write id %><% Response.Write ul %>>
+				<li<% if spage = "appl_with_disabilities" then Response.Write " style=""background: #eaf1f7;""" end if %>>
+<div><a href="../appl_with_disabilities.aspx" class="sbtxt" title="Applicants with Disabilities" onfocus="this.className='sbtxt-over';" onblur="this.className='sbtxt';">Applicants with Disabilities</a></div>
+				</li>
+			</ul>
+<%
+	End Function
+%>
 
 
 
