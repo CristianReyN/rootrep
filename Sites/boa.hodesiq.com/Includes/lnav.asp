@@ -1,7 +1,7 @@
 <tr valign="top"><td>
 <div id="lnav">
 	<ul>
-		<li<%If mpage = "overview" Then %><%If spage = "" Then %> class="home"<%Else%><%End if %><%End if %>>
+		<li<%If mpage = "overview" Then %><%If spage = "" Then %> class="home" style="padding-bottom: 5px;"<%Else%><%End if %><%End if %>>
 <div><a class="g" href="../overview/overview.asp" title="Overview" onfocus="this.className='g-over';" onblur="this.className='g';">Overview</a></div>
 		</li>
 		<li id="jsearchli"<%If mpage = "jobsearch" Then %><%If spage = "" Then %> class="home"<%Else%><%End if %><%End if %>>
