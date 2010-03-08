@@ -7,10 +7,10 @@ Set program = programs(169)
 title = breadcrumb & "Campus Recruiting | Explore Careers | " & program.Item("full_degree") & " | " & program.Item("region") & " | " & program.Item("title")
 mpage = "camp"
 spage = "explore_careers"
-tpage = "internships"
-fpage = "emeain-operations-middle-office-analyst"
-standart_href = "../campusrecruiting/emeain-operations-middle-office-analyst.asp"
-page_self = "../ada_camp/emeain-operations-middle-office-analyst.asp"
+tpage = "undergraduate_programs"
+fpage = "emeafn-operations-middle-office-analyst"
+standart_href = "../campusrecruiting/emeafn-operations-middle-office-analyst.asp"
+page_self = "../ada_camp/emeafn-operations-middle-office-analyst.asp"
 %><!-- #include file="../includes/camp_program_meta_description.asp" --><%
 Metatag=CAMP_META_DESRIPTION
 page_section="ADA"
@@ -35,7 +35,7 @@ r4 = True
 	<td valign="top" width="578" height="100%">
 <!-- Body-->
 <img src="../images/clear.gif" width="15" height="4" alt="" border="0"><br>
-<!-- #include file="../includes/pages/camp/emeain-operations-middle-office-analyst.asp" -->
+<!-- #include file="../includes/pages/camp/emeafn-operations-middle-office-analyst.asp" -->
 <br><br>
 <!-- Body-->
 	</td>
