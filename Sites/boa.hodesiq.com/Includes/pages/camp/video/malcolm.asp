@@ -54,11 +54,7 @@ data="../Includes/pages/rjp/flashplayer_xml20080308.swf" width="231" height="131
 </noscript>
 <% Else %>
 <div class="transcript">
-<!--<a name="vt<%=suffix%>"></a><h2 class="h1" style="margin: 0px 0px 6px 0px; text-align: left;"><span>Video transcript</span></h2>-->
 <p>
-
-<!--<br>
-<br>-->
 <a href="<%= standart_href%>" title="Return to standard page with video" class="bac" onfocus="this.className='p-over';" onblur="this.className='p';">Return to standard page with video</a>
 </p>
 </div>

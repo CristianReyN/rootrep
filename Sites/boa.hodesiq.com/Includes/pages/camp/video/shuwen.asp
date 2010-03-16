@@ -35,13 +35,6 @@ data="http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/GCIB/SHU-Wen
 	<param name="quality" value="high" />
 	<param name="bgcolor" value="#ffffff" />
 </object>
-<table border="0" cellspacing="0" cellpadding="0" bgcolor="#d4001a" width="100%">
-	<tr>
-		<td nowrap align="center" height="22" width="100%">
-			<!--<a href="<%=ada_href %>#vt" title="Video transcript" class="btn1">Video transcript</a>-->&nbsp;
-		</td>
-	</tr>
-</table>
 </noscript>
 <% Else %>
 <div class="transcript">

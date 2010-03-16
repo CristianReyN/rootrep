@@ -15,7 +15,6 @@
 <% If page_section = "ADA" Then %>
 <div class="transcript">
 <a name="vt"></a><h2 class="h1" style="margin: 0px 0px 18px 0px; font-size: 1.2em; font-weight: bold;">Video transcript</h2>
-<!--<h2 class="rjp">Transcript</h2>-->
 <p style="margin: 0px <%=right_margin_split%>px 0px <%=left_margin_0%>px;">
 Welcome to Bank of America. 
 <br><br>

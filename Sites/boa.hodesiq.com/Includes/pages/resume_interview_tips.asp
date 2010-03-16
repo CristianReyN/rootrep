@@ -40,7 +40,6 @@ As you develop your resume, keep these in mind:
 <b>Don't</b> include salary history or requirements.<br>
 <b>Don't</b> include references.<br>
 <b>Don't</b> include accomplishments that do not support your professional goals.<br>
-<!--<b>Don't</b> mention that you like to swim unless you want to work on the water.<br>-->
 <b>Don't</b> include anything that isn't relevant. For example, don't mention your fondness for swimming unless you want to work on the water.<br>
 <b>Don't</b> use italics, underlining, shadows or other fancy treatments.<br>
 </p>
@@ -59,8 +58,6 @@ Try to limit the information you include into one of these categories:
 	<li>Professional Membership and Organizational Affiliations</li>
 </ol>
 <br>
-<!--<H2 class="h2" style="margin: 12px 0px 12px 0px; padding: 0px; text-decoration: none;">Successful Interviewing</H2>
-<H2 class="p" style="margin: 12px 0px 12px 0px; padding: 0px;"><b>Interviewing</b></H2>-->
 <H2 class="p" style="margin: 12px 0px 12px 0px; padding: 0px;"><b>Successful Interviewing</b></H2>
 <p style="margin: 0px 0px 12px 0px;">
 Interviewing should not be viewed as a frightening ordeal. It is your opportunity to learn more about the position, while the interviewer learns about you.

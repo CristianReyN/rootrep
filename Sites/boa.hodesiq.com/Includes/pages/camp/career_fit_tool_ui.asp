@@ -144,16 +144,6 @@
 							<td style="padding: 28px 0px 2px <% If page_number > 0 And page_number <10 Then %>18<% Else %>0<% End If %>px;">
 								<table cellpadding="0" cellspacing="0" border="0" summary="">
 									<tr>
-										<!--<td nowrap style="padding: 0px 9px 0px 0px;">
-<%
-		If previous_page_number > 3 Then
-%>&nbsp;
-<%		ElseIf previous_page_number > 0 Then %>
-<input type="image" id="previous" name="previous" src="../images/cc_prev.gif" value="Previous" alt="Previous" title="Previous" style="cursor: pointer;">
-<%		Else %>
-<img src="../images/cc_prev_dis.gif" border="0" alt="" />
-<%		End If %>
-										</td>-->
 										<td valign="top">
 <%
 		If tabindex > 0 Then
@@ -177,7 +167,7 @@
 <input type="submit" id="finish" name="finish" value="Finish &raquo;" alt="Finish &raquo;" title="Finish &raquo;" class="button_cft"<%=tabindex_str %>>
 <%
 		Else %>
-<p class="cft" style="margin: 0px 0px 9px 0px;">Feel free to change your answers and <a href="career_fit_tool_all.asp" class="cft" title="Career Fit Tool">try the Career Fit Tool again</a>. You can also <!--<a href="career_fit_tool_10.asp?p=<%=session_programs %>" class="cft" title="Click here to manually bookmark your results">--><span class="cft">bookmark</span><!--</a>--> your results after each attempt for later reference.</p>
+<p class="cft" style="margin: 0px 0px 9px 0px;">Feel free to change your answers and <a href="career_fit_tool_all.asp" class="cft" title="Career Fit Tool">try the Career Fit Tool again</a>. You can also <span class="cft">bookmark</span> your results after each attempt for later reference.</p>
 <%
 		End If %>
 										</td>

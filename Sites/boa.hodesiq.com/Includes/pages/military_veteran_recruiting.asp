@@ -19,7 +19,7 @@ At Bank&nbsp;of&nbsp;America, we not only recognize the sacrifices our military 
 <br><br>
 Bank&nbsp;of&nbsp;America provides a number of career opportunities in many different lines of business where you can put your experience to use. We are seeking individuals that match our set of core values of Doing the Right Thing, Trusting and Teamwork and most of all, a Commitment to Excellence. 
 <br><br>
-Join the thousands of veterans who now call Bank&nbsp;of&nbsp;America their Employer of Choice - an organization that appreciates and rewards its associates with generous "Pay for Performance" and benefits plans.<!-- At Bank&nbsp;of&nbsp;America, you'll find a place where your military experience is not only recognized as relevant, it is embraced with enthusiasm.-->
+Join the thousands of veterans who now call Bank&nbsp;of&nbsp;America their Employer of Choice - an organization that appreciates and rewards its associates with generous "Pay for Performance" and benefits plans.
 </p>
 <br><br>
 </div>
