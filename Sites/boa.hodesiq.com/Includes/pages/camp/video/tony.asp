@@ -22,7 +22,7 @@ if ( hasRequestedVersion && tony_video ) {
 	document.write(strReplace(strReplace(strReplace(strReplace(getHTMLControl("javaflash<%=suffix%>",205,22,true,true,true,true,true,true),"<text>","Video transcript"),"<title>","Video transcript"),"<href>",ada_href),"<anchor>",tony_video.ada_anchor+"<%=suffix%>"));
 	document.write('</div>');
 	document.write('<div id="videothumb<%=suffix%>">');
-	document.write('<a href="Javascript: vo_id();" onmouseover="MM_swapImage(\'dilstart<%=suffix%>\',\'\',\''+tony_video.thumb_on+'\',1);" onmouseout="MM_swapImgRestore();" onclick="playVideo<%=suffix%>(tony_video,true,true,true,true,true,true);"><img name="dilstart<%=suffix%>" style="margin: 0px;" src="'+tony_video.thumb_off+'" alt="Play Tony&#39;s Associate Testimonial Video" border="0" align="absmiddle"></a>');
+	document.write('<a href="Javascript: vo_id();" onmouseover="MM_swapImage(\'dilstart<%=suffix%>\',\'\',\''+tony_video.thumb_on+'\',1);" onmouseout="MM_swapImgRestore();" onclick="playVideo<%=suffix%>(tony_video,true,true,true,true,true,true);" title="Play Tony&#39;s Associate Testimonial Video"><img name="dilstart<%=suffix%>" style="margin: 0px;" src="'+tony_video.thumb_off+'" alt="Play Tony&#39;s Associate Testimonial Video" border="0" align="absmiddle"></a>');
 	document.write(strReplace(strReplace(strReplace(strReplace(getHTMLControl("javaflash<%=suffix%>",205,22,false,false,false,true,false,false),"<text>","Video transcript"),"<title>","Video transcript"),"<href>",ada_href),"<anchor>",tony_video.ada_anchor+"<%=suffix%>"));
 	document.write('</div>');
 	document.write('<div id="videothumb_off<%=suffix%>" style="display: none;">');

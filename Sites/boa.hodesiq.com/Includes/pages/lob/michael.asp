@@ -10,7 +10,7 @@ if ( hasRequestedVersion && michael_video ) {
 	document.write(strReplace(strReplace(strReplace(strReplace(getHTMLControl("javaflash",259,22,true,true,true,true,true,true),"<text>","Video transcript"),"<title>","Video transcript"),"<href>",ada_href),"<anchor>",michael_video.ada_anchor));
 	document.write('</div>');
 	document.write('<div id="videothumb">');
-	document.write('<a href="Javascript: vo_id();" onmouseover="MM_swapImage(\'dilstart\',\'\',\''+michael_video.thumb_on+'\',1);" onmouseout="MM_swapImgRestore();" onclick="playVideo(michael_video,true,true,true,true,true,true);"><img name="dilstart" style="margin: 0px;" src="'+michael_video.thumb_off+'" alt="Play Michael&acute;s Associate Testimonial Video" border="0" align="absmiddle"></a>');
+	document.write('<a href="Javascript: vo_id();" onmouseover="MM_swapImage(\'dilstart\',\'\',\''+michael_video.thumb_on+'\',1);" onmouseout="MM_swapImgRestore();" onclick="playVideo(michael_video,true,true,true,true,true,true);" title="Play Michael&acute;s Associate Testimonial Video"><img name="dilstart" style="margin: 0px;" src="'+michael_video.thumb_off+'" alt="Play Michael&acute;s Associate Testimonial Video" border="0" align="absmiddle"></a>');
 	document.write(strReplace(strReplace(strReplace(strReplace(getHTMLControl("javaflash",259,22,false,false,false,true,false,false),"<text>","Video transcript"),"<title>","Video transcript"),"<href>",ada_href),"<anchor>",michael_video.ada_anchor));
 	document.write('</div>');
 	document.write('<div id="videothumb_off" style="display: none;">');

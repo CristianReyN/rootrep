@@ -13,7 +13,7 @@ if ( hasRequestedVersion && cma_video ) {
 	document.write(strReplace(strReplace(strReplace(strReplace(getHTMLControl("javaflash",400,22,true,true,true,true,true,true),"<text>","Video transcript"),"<title>","Video transcript"),"<href>",ada_href),"<anchor>",cma_video.ada_anchor));
 	document.write('</div>');
 	document.write('<div id="videothumb">');
-	document.write('<a href="Javascript: vo_id();" onmouseover="MM_swapImage(\'dilstart\',\'\',\''+cma_video.thumb_on+'\',1);" onmouseout="MM_swapImgRestore();" onclick="playVideo(cma_video,true,true,true,true,true,true);"><img name="dilstart" style="margin: 0px;" src="'+cma_video.thumb_off+'" alt="Play Customer Marketing Advisor Video" border="0" align="absmiddle"></a>');
+	document.write('<a href="Javascript: vo_id();" onmouseover="MM_swapImage(\'dilstart\',\'\',\''+cma_video.thumb_on+'\',1);" onmouseout="MM_swapImgRestore();" onclick="playVideo(cma_video,true,true,true,true,true,true);" title="Play Customer Marketing Advisor Video"><img name="dilstart" style="margin: 0px;" src="'+cma_video.thumb_off+'" alt="Play Customer Marketing Advisor Video" border="0" align="absmiddle"></a>');
 	document.write(strReplace(strReplace(strReplace(strReplace(getHTMLControl("javaflash",400,22,false,false,false,true,false,false),"<text>","Video transcript"),"<title>","Video transcript"),"<href>",ada_href),"<anchor>",cma_video.ada_anchor));
 	document.write('</div>');
 	document.write('<div id="videothumb_off" style="display: none;">');
