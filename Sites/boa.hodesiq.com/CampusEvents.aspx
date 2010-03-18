@@ -62,8 +62,6 @@
 		                        </tr>
 		                        
 		                        
-		                        <%if (!"2".Equals(GetRegionId()))
-                            { %>
 		                        <tr>			
 			                        <td colspan="4" style="height: 15px">
 		                        
@@ -93,7 +91,6 @@
                                 </table>
                                 </td>
                                 </tr>
-                                <%} %>
                                 <tr>
                                 <td align="left" colspan="2" style="height: 15px">
                                 </td>
@@ -112,23 +109,7 @@
 		                        
 		                        
                                 
-                     <%if("2".Equals(GetRegionId())){ %>
-                     <tr>
-                     <td>
-                     Selecting the button below allows for searching and registering for Campus Events in the EMEA region.
-                     </td>
-                     </tr>
-                     <tr>
-                                
-                                
-                     <td colspan="4" style="height: 15px"></td>
-                     </tr>
-                     <tr>
-                     <td align="left" valign="bottom">
-                     <a href="javascript:openWindow('https://static.wcn.co.uk/company/ml/event_search.html')"><img src="images/camp/Search&Register.jpg" border="0" alt="Search & Register, link opens in a new window." /></a>
-                     </td>
-                     </tr>
-                     <%}else{ %>
+
                      <tr class="trEvtTop">           
                     <td align="left" width="35%" class="pagingHeader"> <%=pager.StartEventNo()%>-<%=pager.EndEventNo()%> of <%=pager.GetTotalCount()%> events</td><td align="right" width="65%" class="pagingHeader">
                     <%if (pager.HasPreviousPage())
@@ -140,13 +121,11 @@
                     <asp:LinkButton ID="LinkButton2" ToolTip="View next page" runat="server" OnClick="LinkButton2_Click" PostBackUrl="" CssClass = "linkPagingLeft"> Next &#187;</asp:LinkButton>
                     <%}%></td>
                     </tr>
-                    <%} %>
                     </table>
                     </td>
                 </tr>
                 
                                 <tr> <td colspan="4"> &nbsp;</td></tr>
-                                <%if(!"2".Equals(GetRegionId())){ %>
                                 <tr> <td colspan="4">
                                 
                                 <asp:Table ID="Table1" width="560" runat="server" summary="For each region, the first column is the date.  The second column is the school.  The third column is the event.  The fourth column is the business.">
@@ -196,7 +175,6 @@
                                     <%} %>
                                     </td>
                                 </tr>
-                                <%} %>
                             </table>                
                         <asp:HiddenField ID="regionElem" runat="server">
                         </asp:HiddenField>

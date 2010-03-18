@@ -60,6 +60,15 @@ public partial class CampusEvents : System.Web.UI.Page
             {
                 regionId = GetSelectedTab(Request, Response);
             }
+
+            regionElem.Value = regionId;
+            CreateDegreeList();
+            CreateSchoolList(Convert.ToInt32(regionId), Convert.ToInt32(degreeId));
+            //CreateSchoolList(regionId + "Schools_" + degreeId);
+            Comparator.SetComparator(true, "Date");
+            Process(regionId, degreeId, schoolId);
+            
+            /*
             if ("2".Equals(GetRegionId()))
             {
                 contentHeight = 100;
@@ -74,6 +83,7 @@ public partial class CampusEvents : System.Web.UI.Page
                 Comparator.SetComparator(true, "Date");
                 Process(regionId, degreeId, schoolId);
             }
+            */
         }
     }
     private void Process(string regionId, string degreeId, string schoolId)
