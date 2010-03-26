@@ -232,6 +232,7 @@ public partial class CampusEvents : System.Web.UI.Page
     }
     private void PopulatePage(bool biz)
     {
+        int counter = 0;
         //if (ger.OutData.Regions != null && ger.OutData.Regions.Length > 0)
         //{
             if (ger != null && ger.Length > 0)
@@ -253,6 +254,7 @@ public partial class CampusEvents : System.Web.UI.Page
                     for (int k = 0; k < anEvent.Schools.Length; k++)
                     {
                         schLength--;
+                        counter++;
                         tr = new TableRow();
                         td = new TableCell();
                         td.CssClass = "tdData";
@@ -353,6 +355,8 @@ public partial class CampusEvents : System.Web.UI.Page
                 Table2.Visible = true;
             }
         //}
+        this.lblCounter.Text = "1 - " + counter.ToString();
+        this.lblGetTotalCount.Text = counter.ToString();
     }
     private void xPopulatePage(bool biz)
     {

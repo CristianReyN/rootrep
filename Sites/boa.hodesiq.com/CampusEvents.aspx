@@ -111,7 +111,7 @@
                                 
 
                      <tr class="trEvtTop">           
-                    <td align="left" width="35%" class="pagingHeader"> <%=pager.StartEventNo()%>-<%=pager.EndEventNo()%> of <%=pager.GetTotalCount()%> events</td><td align="right" width="65%" class="pagingHeader">
+                     <td align="left" width="35%" class="pagingHeader"> <asp:label ID="lblCounter" runat="server"></asp:label> of <asp:Label ID="lblGetTotalCount" runat="server"></asp:Label></td><td align="right" width="65%" class="pagingHeader">
                     <%if (pager.HasPreviousPage())
                       { %>
                     <asp:LinkButton ID="LinkButton1" ToolTip="View previous page" runat="server" OnClick="LinkButton1_Click" PostBackUrl="" CssClass = "linkPagingRight">&#171; Previous</asp:LinkButton>
