@@ -129,6 +129,9 @@ public partial class CampusEvents : System.Web.UI.Page
             HeaderRow.Visible = false;
             Table1.Visible = false;
             Table2.Visible = true;
+
+            this.lblCounter.Text = "0 - 0";
+            this.lblGetTotalCount.Text = "0";
         }
         PopulateTopNav(regionId);
     }
