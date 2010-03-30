@@ -41,6 +41,8 @@ public partial class CampusEvents : System.Web.UI.Page
     //public string span3Css = "tab_link_inactive";
     //public string gifName = "";
     //bool biz = false;
+        
+	private static int counter = 0;
 
     protected void Page_PreLoad(object sender, EventArgs e)
     {
@@ -92,6 +94,11 @@ public partial class CampusEvents : System.Web.UI.Page
     {
         ger = ManageWebService.GetEventSearch(Convert.ToInt32(regionId), Convert.ToInt32(schoolId), Convert.ToInt32(degreeId));
         Session["ger"] = ger;
+
+		counter = 0;
+
+
+
         bool biz = false;
         /////
         if ("1".Equals(regionId))
@@ -109,9 +116,16 @@ public partial class CampusEvents : System.Web.UI.Page
         //Session["zone"] = regionId;
         if (ger != null && ger.Length > 0)
         {
+			for (int x = 0; x < ger.Length; x++)
+			{
+				for (int y = 0; y < ger[x].Schools.Length; y++)
+				{
+					counter++;
+				}
+			}
             if (!("-1".Equals(ger[0].EventId.ToString())))
             {
-                pager.Intialize(ger.Length, 1, pageSize);
+				pager.Intialize(counter, 1, pageSize);
                 Array.Sort(ger, Comparator.CompareToAnother);
                 PopulatePage(biz);
                 PopulateNextPreviousLink();
@@ -237,11 +251,11 @@ public partial class CampusEvents : System.Web.UI.Page
     }
     private void PopulatePage(bool biz)
     {
-        int counter = 0;
         //if (ger.OutData.Regions != null && ger.OutData.Regions.Length > 0)
         //{
             if (ger != null && ger.Length > 0)
             {
+
                 //TableRow tr = GetHeaderRow(biz);
                 //Table1.Rows.Add(tr);
                 PopulateHeaderRow(biz);
@@ -259,7 +273,6 @@ public partial class CampusEvents : System.Web.UI.Page
                     for (int k = 0; k < anEvent.Schools.Length; k++)
                     {
                         schLength--;
-                        counter++;
                         tr = new TableRow();
                         td = new TableCell();
                         td.CssClass = "tdData";
@@ -360,8 +373,8 @@ public partial class CampusEvents : System.Web.UI.Page
                 Table2.Visible = true;
             }
         //}
-        this.lblCounter.Text = "1 - " + counter.ToString();
-        this.lblGetTotalCount.Text = counter.ToString();
+        this.lblCounter.Text = pager.StartEventNo().ToString() + " - " + pager.EndEventNo().ToString();
+		this.lblGetTotalCount.Text = pager.GetTotalCount().ToString();
     }
     private void xPopulatePage(bool biz)
     {
@@ -569,7 +582,7 @@ public partial class CampusEvents : System.Web.UI.Page
         regionId = regionElem.Value;
         SetSortFlags(sortBy);
         pageNo = Convert.ToInt32(Request["pageNum"]) - 1;
-        pager.Intialize(ger.Length, pageNo, pageSize);
+        pager.Intialize(counter, pageNo, pageSize);
         PopulatePage(biz);
         PopulateNextPreviousLink();
         PopulateTopNav(regionId);
@@ -583,7 +596,7 @@ public partial class CampusEvents : System.Web.UI.Page
         regionId = regionElem.Value;
         SetSortFlags(sortBy);
         pageNo = Convert.ToInt32(Request["pageNum"]) - 1;
-        pager.Intialize(ger.Length, pageNo, pageSize);
+        pager.Intialize(counter, pageNo, pageSize);
         PopulatePage(biz);
         PopulateNextPreviousLink();
         PopulateTopNav(regionId);
@@ -617,7 +630,7 @@ public partial class CampusEvents : System.Web.UI.Page
         regionId = regionElem.Value;
         SetSortFlags(sortBy);
         pageNo = Convert.ToInt32(Request["pageNum"]) + 1;
-        pager.Intialize(ger.Length, pageNo, pageSize);
+        pager.Intialize(counter, pageNo, pageSize);
         PopulatePage(biz);
         PopulateNextPreviousLink();
         PopulateTopNav(regionId);
@@ -631,7 +644,7 @@ public partial class CampusEvents : System.Web.UI.Page
         regionId = regionElem.Value;
         SetSortFlags(sortBy);
         pageNo = Convert.ToInt32(Request["pageNum"]) + 1;
-        pager.Intialize(ger.Length, pageNo, pageSize);
+        pager.Intialize(counter, pageNo, pageSize);
         PopulatePage(biz);
         PopulateNextPreviousLink();
         PopulateTopNav(regionId);
@@ -721,7 +734,7 @@ public partial class CampusEvents : System.Web.UI.Page
         bool biz = (bool)Session["biz"];
         regionId = regionElem.Value;
         pageNo = 1;
-        pager.Intialize(ger.Length, pageNo, pageSize);
+        pager.Intialize(counter, pageNo, pageSize);
         Comparator.SetComparator(sortOrder, sortBy);
         Array.Sort(ger, Comparator.CompareToAnother);
         PopulatePage(biz);
