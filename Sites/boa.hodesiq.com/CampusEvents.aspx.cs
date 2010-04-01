@@ -513,8 +513,8 @@ public partial class CampusEvents : System.Web.UI.Page
     }
     private TableRow GetHeaderRow( bool biz)
     {
-        TableRow tr = new TableRow();
-        TableCell td = new TableCell();
+		TableHeaderRow tr = new TableHeaderRow();
+		TableHeaderCell td = new TableHeaderCell();
         double tdWidth = 25;
         if (!biz)
         {
@@ -526,14 +526,14 @@ public partial class CampusEvents : System.Web.UI.Page
         td.Text = "Date";
         tr.Cells.Add(td);
 
-        td = new TableCell();
+		td = new TableHeaderCell();
         td.ColumnSpan = 1;
         td.Width = new Unit(tdWidth, UnitType.Percentage);
         td.CssClass = "tdHeader";
         td.Text = "School";
         tr.Cells.Add(td);
 
-        td = new TableCell();
+		td = new TableHeaderCell();
         td.ColumnSpan = 1;
         td.Width = new Unit(tdWidth, UnitType.Percentage);
         td.CssClass = "tdHeader";
@@ -541,7 +541,7 @@ public partial class CampusEvents : System.Web.UI.Page
         tr.Cells.Add(td);
         if (biz)
         {
-            td = new TableCell();
+			td = new TableHeaderCell();
             td.ColumnSpan = 1;
             td.Width = new Unit(tdWidth, UnitType.Percentage);
             td.CssClass = "tdHeader";

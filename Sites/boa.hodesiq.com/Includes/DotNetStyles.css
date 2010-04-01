@@ -502,10 +502,12 @@ A
     font-weight: normal;
     color: #405EBE;
     text-decoration: underline;
+	
 }
 A:hover
 {
 	outline:dotted 1px #000 !important;
+    
 }
 A.cft, A.cft:visited
 {
@@ -1356,5 +1358,8 @@ A.aspblue_link:hover, A.aspblue_link-over
  list-style-type:none
 }
 
-
+A.tablink
+{
+	display:block;
+}
   

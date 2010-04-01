@@ -35,11 +35,11 @@
 		    <table width="578" cellpadding="0" cellspacing="0" border="0" summary="Campus Events. The first tab displays all campus events in the US, the second tab displays all campus events in EMEA, and the third tab displays all campus events in Asia.  You can narrow the search results for each region by selecting a degree level and/or school.">
 			    <tr>
 				<td valign="bottom">
-					<asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/CampusEvents.aspx?region=1" ImageUrl="~/images/camp/t1.gif" ToolTip="Campus events Americas - includes  U.S. and Canada" alt="Campus events Americas - includes  U.S. and Canada"></asp:HyperLink></td>
+					<asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/CampusEvents.aspx?region=1" ImageUrl="~/images/camp/t1.gif" ToolTip="Campus events Americas - includes  U.S. and Canada" alt="Campus events Americas - includes  U.S. and Canada" Text="Campus events Americas - includes  U.S. and Canada" CssClass="tablink"></asp:HyperLink></td>
 				<td valign="bottom">
-					<asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/CampusEvents.aspx?region=2" ImageUrl="~/images/camp/t2a.gif" ToolTip="Campus events in EMEA" alt="Campus events in EMEA"></asp:HyperLink></td>
+					<asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/CampusEvents.aspx?region=2" ImageUrl="~/images/camp/t2a.gif" ToolTip="Campus events in EMEA" alt="Campus events in EMEA" Text="Campus events in EMEA" CssClass="tablink"></asp:HyperLink></td>
 				<td valign="bottom">
-					<asp:HyperLink ID="HyperLink3" runat="server" NavigateUrl="~/CampusEvents.aspx?region=3" ImageUrl="~/images/camp/t3a.gif" ToolTip="Campus events in Asia Pacific" alt="Campus events in Asia Pacific"></asp:HyperLink></td>
+					<asp:HyperLink ID="HyperLink3" runat="server" NavigateUrl="~/CampusEvents.aspx?region=3" ImageUrl="~/images/camp/t3a.gif" ToolTip="Campus events in Asia Pacific" alt="Campus events in Asia Pacific" Text="Campus events in Asia Pacific" CssClass="tablink"></asp:HyperLink></td>
 				<td width="100%" background="images/camp/trtb.gif" valign="bottom" align="right"><img src="images/camp/trt.gif" border="0" alt="" /></td>
 			    </tr>
 		    </table>
@@ -151,20 +151,20 @@
                                 <tr> <td colspan="4">
                                 
                                 <asp:Table ID="Table1" width="560" runat="server" summary="For each region, the first column is the date.  The second column is the school.  The third column is the event.  The fourth column is the business.">
-                                    <asp:TableRow ID="HeaderRow" runat="server" Visible="true">
-                                        <asp:TableCell ID="DateHeader" Scope="column" runat="server" Width="25%" CssClass = "tdHeader">
+                                    <asp:TableHeaderRow ID="HeaderRow" runat="server" Visible="true">
+                                        <asp:TableHeaderCell ID="DateHeader" Scope="column" runat="server" Width="25%" CssClass = "tdHeader">
                                         <asp:LinkButton ID="LinkButton3" runat="server" OnClick="LinkButton3_Click" Visible="true" CssClass = "tdHeader" ToolTip="Sort by date in either ascending or descending order">Date <img src="images/camp/<%=up %>Arrow.gif" style="display:<%=sortDate %>" border="0" alt="" /></asp:LinkButton>
-                                        </asp:TableCell>
-                                        <asp:TableCell ID="SchoolHeader" scope="column" runat="server" Width="25%" CssClass = "tdHeader">
+                                        </asp:TableHeaderCell>
+                                        <asp:TableHeaderCell ID="SchoolHeader" scope="column" runat="server" Width="25%" CssClass = "tdHeader">
                                         <asp:LinkButton ID="LinkButton4" runat="server" OnClick="LinkButton4_Click" Visible="true" CssClass = "tdHeader" ToolTip="Sort by school in either ascending or descending order">School <img src="images/camp/<%=up %>Arrow.gif" style="display:<%=sortSchool %>" border="0" alt="" /></asp:LinkButton>
-                                        </asp:TableCell>
-                                        <asp:TableCell ID="EventHeader" scope="column" runat="server" Width="25%" CssClass = "tdHeader">
+                                        </asp:TableHeaderCell>
+                                        <asp:TableHeaderCell ID="EventHeader" scope="column" runat="server" Width="25%" CssClass = "tdHeader">
                                         <asp:LinkButton ID="LinkButton5" runat="server" OnClick="LinkButton5_Click" Visible="true" CssClass = "tdHeader" ToolTip="Sort by event in either ascending or descending order">Event <img src="images/camp/<%=up %>Arrow.gif" style="display:<%=sortEvent %>" border="0" alt="" /></asp:LinkButton>
-                                        </asp:TableCell>
-                                        <asp:TableCell ID="BusinessHeader" scope="column" runat="server" Width="25%" CssClass = "tdHeader">
+                                        </asp:TableHeaderCell>
+                                        <asp:TableHeaderCell ID="BusinessHeader" scope="column" runat="server" Width="25%" CssClass = "tdHeader">
                                         <asp:LinkButton ID="LinkButton6" runat="server" OnClick="LinkButton6_Click" Visible="true" CssClass = "tdHeader" ToolTip="Sort by business in either ascending or descending order">Business <img src="images/camp/<%=up %>Arrow.gif" style="display:<%=sortBusiness %>" border="0" alt="" /></asp:LinkButton>
-                                        </asp:TableCell>
-                                    </asp:TableRow>
+                                        </asp:TableHeaderCell>
+                                    </asp:TableHeaderRow>
                                 </asp:Table>
                                 <asp:Table ID="Table2" runat="server" Visible="false" CssClass="errorBody" summary="No events found">
                                     <asp:TableRow ID="TableRow1" runat="server">
