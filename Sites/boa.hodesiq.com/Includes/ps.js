@@ -13,13 +13,21 @@ var c_kstate=0, s_kstate=0;
 function c_KeyCheck(e)
 {
 	var KeyID = (window.event) ? event.keyCode : e.keyCode;
-	if ( ( KeyID == 37 || KeyID == 38 || KeyID == 39 || KeyID == 40 ) && c_kstate != document.jsearch.countryid.value ) c_kstate = 1; else c_kstate = 0;
+	if ( ( KeyID == 37 || KeyID == 38 || KeyID == 39 || KeyID == 40 ) ) c_kstate = 1; else c_kstate = 0;
+}
+function c_commit()
+{
+	if ( c_vstart != document.jsearch.countryid.value ) document.jsearch.submit();
 }
 
 function s_KeyCheck(e)
 {
 	var KeyID = (window.event) ? event.keyCode : e.keyCode;
-	if ( ( KeyID == 37 || KeyID == 38 || KeyID == 39 || KeyID == 40 ) && s_vstart != document.jsearch.stateid.value ) s_kstate = 1; else s_kstate = 0;
+	if ( ( KeyID == 37 || KeyID == 38 || KeyID == 39 || KeyID == 40 ) ) s_kstate = 1; else s_kstate = 0;
+}
+function s_commit()
+{
+	if ( s_vstart != document.jsearch.stateid.value ) document.jsearch.submit();
 }
 
 function startPs()
@@ -28,11 +36,13 @@ function startPs()
 	{
 		document.jsearch.countryid.onkeydown = c_KeyCheck;
 		c_vstart = document.jsearch.countryid.value;
+		if ( document.all ) document.jsearch.countryid.onblur = c_commit;
 	}
 	if ( document.jsearch && document.jsearch.stateid )
 	{
 		document.jsearch.stateid.onkeydown = s_KeyCheck;
 		s_vstart = document.jsearch.countryid.value;
+		if ( document.all ) document.jsearch.stateid.onblur = s_commit;
 	}
 	
 	if(document.getElementById("jsearch"))
