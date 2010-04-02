@@ -27,7 +27,7 @@ public partial class uc_JobSearch : System.Web.UI.UserControl
     }
     protected void Page_Load(object sender, EventArgs e)
     {
-
+        string strRef = Page.GetPostBackEventReference(Country);
         if (!IsPostBack)
         {
             PopulateCountries();
@@ -44,12 +44,25 @@ public partial class uc_JobSearch : System.Web.UI.UserControl
             BtnSearch.Visible = false;
             Country.AutoPostBack = false;
         }
+        else
+        {
+            Country.AutoPostBack = false;
+            Country.Attributes["onblur"] = "javascript:if(document.getElementById('" + Country.ClientID + "').value != document.getElementById('" + CountryHidden.ClientID + "').value)" + strRef;
+        }
 
         ViewState["jobareas"] = ddlJobAreas.SelectedValue;
         PopulateJobAreas();
 
         UpdateControls();
+        CountryHidden.Value = Country.SelectedValue;
 
+        if (trState.Visible)
+        {
+            strRef = Page.GetPostBackEventReference(State);
+            StateHidden.Value = State.SelectedValue;
+            State.Attributes["onblur"] = "javascript:if(document.getElementById('" + State.ClientID + "').value != document.getElementById('" + StateHidden.ClientID + "').value)" + strRef;
+            State.AutoPostBack = false;
+        }
         //boanet_safebutton.writeBOASafeButton("Search", phSearch, "Begin Search", bsearch_Click, this.Request, "");
 
     }
@@ -221,7 +234,7 @@ public partial class uc_JobSearch : System.Web.UI.UserControl
     protected void PopulateLocations()
     {
         State.Items.Clear();
-
+        
         Location Lo = new Location();
         OleDbDataReader dr;
         State.DataTextField = "State";
@@ -344,7 +357,7 @@ public partial class uc_JobSearch : System.Web.UI.UserControl
         else
         {
             PnlFilter.Visible = true;
-            Country.AutoPostBack = true;
+            Country.AutoPostBack = false;
             BtnSearch.Visible = true;
             BtnBegin.Visible = false;           
         }

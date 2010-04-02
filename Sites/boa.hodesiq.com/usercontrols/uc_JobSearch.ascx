@@ -19,10 +19,11 @@
                                         <tr align="left">
 							                    <td  valign="top"  style="width:193px;height:38;" align="left">
             							
-								                <asp:Label ID="lblCountry" runat="server"  Text="Country" AssociatedControlID="State"></asp:Label><br />
+								                <asp:Label ID="lblCountry" runat="server"  Text="Country" AssociatedControlID="Country"></asp:Label><br />
 								                <asp:DropDownList  ID="Country" runat="server" CssClass="center" Style="width: 100%; z-index: auto;"
 								                ToolTip="Select a country" AutoPostBack="true" OnSelectedIndexChanged="Country_Click" >								  
 								                </asp:DropDownList>																						
+							                    <asp:HiddenField ID="CountryHidden" Value="" runat="server"/>
 							                    </td>
 							            </tr>
 							        </table>	
@@ -52,6 +53,7 @@
 								                ToolTip="Select a state" AutoPostBack="true" OnSelectedIndexChanged="brefine_Click">
 								                <asp:ListItem Value="-1">All state&#160;</asp:ListItem>
 								                </asp:DropDownList>
+								                <asp:HiddenField ID="StateHidden" Value="" runat="server"/>
 								            </div>
             								
             							
