@@ -13,8 +13,6 @@
 		<table width="578" cellpadding="0" cellspacing="0" border="0" summary="">
 			<tr valign="top">
 				<td width="373" height="100%" valign="top" style="padding: 0px <%=right_margin%>px 0px <%=left_margin_0%>px;">
-<H2 class="p" style="margin: 0px; padding: 0px;"><a href="<% if page_section <> "ADA" then Response.write "../learnmore/bams.asp" Else Response.write "bams.asp" End If%>" class="left2" title="Bank of America Merchant Services">Bank&nbsp;of&nbsp;America Merchant Services</a></H2>
-<p style="margin-top: 6px;">Search for current career opportunities within Bank&nbsp;of&nbsp;America Merchant Services. Bank&nbsp;of&nbsp;America Merchant Services is a separate entity from Bank&nbsp;of&nbsp;America and First Data Corporation. Bank&nbsp;of&nbsp;America Merchant Services has its own benefits package, and other programs that are unrelated to the programs offered by Bank&nbsp;of&nbsp;America or First Data Corporation.</p>
 				
 <H2 class="p" style="margin: 0px; padding: 0px;"><a href="<% if page_section <> "ADA" then Response.write "../learnmore/benefitsadv.asp" Else Response.write "benefitsadv.asp" End If%>" class="left2" title="Benefits and advantages">Benefits and advantages</a></H2>
 <p style="margin-top: 6px;">

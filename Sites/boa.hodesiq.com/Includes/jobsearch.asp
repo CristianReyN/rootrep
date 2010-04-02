@@ -61,13 +61,13 @@ function _submit()
 
 function changeCountry()
 {
-	if(<%If disabled_country = "" Then %>true<% Else %>false<% End If %>) document.jsearch.submit();
+	if(<%If disabled_country = "" Then %>true<% Else %>false<% End If %>) { if ( c_kstate == 1 ) { c_kstate = 0; } else document.jsearch.submit() };
 }
 
 function changeState()
 {
 	document.jsearch.stateid.changed = true;
-	/*if(<%If disable_city = "" Then %>true<% Else %>false<% End If %>)*/ document.jsearch.submit();
+	/*if(<%If disable_city = "" Then %>true<% Else %>false<% End If %>)*/ if ( s_kstate == 1 ) { s_kstate = 0; } else document.jsearch.submit();
 }
 
 function changeCity()

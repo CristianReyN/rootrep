@@ -7,8 +7,34 @@ function addElementsByClassName(tag,clsName,arr)
 	return arr;
 }
 
+var c_vstart, s_vstart;
+var c_kstate=0, s_kstate=0;
+
+function c_KeyCheck(e)
+{
+	var KeyID = (window.event) ? event.keyCode : e.keyCode;
+	if ( ( KeyID == 37 || KeyID == 38 || KeyID == 39 || KeyID == 40 ) && c_kstate != document.jsearch.countryid.value ) c_kstate = 1; else c_kstate = 0;
+}
+
+function s_KeyCheck(e)
+{
+	var KeyID = (window.event) ? event.keyCode : e.keyCode;
+	if ( ( KeyID == 37 || KeyID == 38 || KeyID == 39 || KeyID == 40 ) && s_vstart != document.jsearch.stateid.value ) s_kstate = 1; else s_kstate = 0;
+}
+
 function startPs()
 {
+	if ( document.jsearch && document.jsearch.countryid )
+	{
+		document.jsearch.countryid.onkeydown = c_KeyCheck;
+		c_vstart = document.jsearch.countryid.value;
+	}
+	if ( document.jsearch && document.jsearch.stateid )
+	{
+		document.jsearch.stateid.onkeydown = s_KeyCheck;
+		s_vstart = document.jsearch.countryid.value;
+	}
+	
 	if(document.getElementById("jsearch"))
 	{
 		$("jsearch").style.top = $("jsearchli").offsetTop-1;

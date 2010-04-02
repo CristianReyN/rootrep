@@ -42,6 +42,9 @@
 %>
 </div>
 		</li>
+		<li<%If mpage = "bams" then Response.Write " style=""background: #eaf1f7;""" end if %>>
+<div><a class="g" href="../ada/bams.asp" title="Banc of America Merchant Services, LLC" onfocus="this.className='g-over';" onblur="this.className='g';">Banc&nbsp;of&nbsp;America Merchant Services, LLC</a></div>
+		</li>
 		<li<%If mpage = "locations" Then %><%If spage = "" Then %> class="home"<%Else%> style="padding-bottom:0px;"<%End if %><%End if %>>
 <div<%If mpage = "locations" Then%> style="padding-right: 0px;"<%End If%>><a href="../ada/regions.asp" title="Locations" class="g" onfocus="this.className='g-over';" onblur="this.className='g';">Locations</a>
 <%
