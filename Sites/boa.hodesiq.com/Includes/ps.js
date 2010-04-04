@@ -41,7 +41,7 @@ function startPs()
 	if ( document.jsearch && document.jsearch.stateid )
 	{
 		document.jsearch.stateid.onkeydown = s_KeyCheck;
-		s_vstart = document.jsearch.countryid.value;
+		s_vstart = document.jsearch.stateid.value;
 		if ( document.all ) document.jsearch.stateid.onblur = s_commit;
 	}
 	

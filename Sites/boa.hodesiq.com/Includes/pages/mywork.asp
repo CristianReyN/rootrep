@@ -3,8 +3,9 @@
 			<tr valign="top">
 				<td width="373" height="100%" valign="top" style="<%=middle_content_padding%>">
 
-<div id="Layer1" style="position: relative; z-index: 12;">		
-<img class="dotdiv" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
+<div id="Layer1" style="position: relative; z-index: 12;">
+<img class="dotdiv" src="../images/clear.gif" width="298" height="1" alt="" border="0">
+<img style="float : right; margin: 0px 0px 0px 12px;" src="../images/clear.gif" width="53" height="188" align="right" alt="" border="0">
 <p style="margin: 0px;">Bank&nbsp;of&nbsp;America is committed to offering work place options that enhance associate satisfaction, the ability to competitively attract and retain associates and meet our business needs. We are also committed to environmental leadership in our communities. By reducing associate commutes and developing My Work centers that are environmentally friendly, we are able to reduce fuel consumption and greenhouse gas emissions across the country.
 <br><br>
 Through our commitment to provide associates and their managers more flexibility in where and how they do business, the My Work program:
@@ -35,12 +36,50 @@ Not all associates are eligible to participate in all benefit programs. The term
 <!-- #include file="../worklifenav.asp" -->
 </div>
 				</td>
-				<td width="205" height="100%" valign="top">
-<div style="position: relative; top: -18px; height: 164px;">
+				<td width="205" height="100%" align="right" valign="top">
+
+<% If page_section = "ADA" Then %>
+<div class="transcript" style="position: relative; top: -18px; width: 205px; text-align: left;">
+<a name="vt"></a><h2 class="h1" style="margin: 0px 0px 6px 0px;"><span>Video transcript</span></h2>
+<p>
+Recognizing the need for associates to maintain work, family and personal commitments, Bank of America offers a flexible work program.
+<br><br>
+My Work enables eligible associates to choose where and how to work where they can be most productive.
+<br><br>
+For many, My Work is not a new way of working.  But rather it formalizes one's ability to work flexibly.  Traditional office or work station is exchanged for a variety of work locations.  Whether it's from a My Work center, a drop-in location with one's team, on the road or from home, associates stay connected with their office, their team and their clients.
+<br><br>
+By reducing real estate and operating costs, this innovative solution can help businesses decrease costs.  And shareholders can be proud of our responsible approach to offering flexible work.
+<br><br>
+Major metropolitan areas with either a high pollution rate or high commuter time are targeted.  Reducing the associate commutes and developing My Work centers that are environmentally friendly provides the opportunity to reduce fuel consumption and greenhouse gas emissions across the country.
+<br><br>
+Working flexibly equates to less time commuting and more time on activities like working in the community, volunteering or spending time with the family.
+<br><br>
+My Work supports the Bank's culture which aligns compensation with results rather than for hours spent at a work space.
+<br><br>
+Thousands of eligible associates across the enterprise are already enrolled in this flexible work program.  They enjoy the freedom of being mobile when they need to and having space when they need it.  It's changing the way we work today.
+<br><br>
+The My Work program empowers associates, enhances communities and embraces personal connections with customers, clients and family.
+<br><br>
+Consider the possibilities.
+<br><br>
+Bank of America associates visit: <a href="http://mywork.bankofamerica.com" target="_blank" title="Link opens a new window." class="p" onfocus="this.className='p-over';" onblur="this.className='p';">mywork.bankofamerica.com</a>
+<br><br>
+Non-Bank of America associates visit: <a href="http://www.bankofamerica.com" target="_blank" title="Link opens a new window." class="p" onfocus="this.className='p-over';" onblur="this.className='p';">bankofamerica.com</a>
+</p>
+<br>
+<a href="<%= standart_href%>" title="Return to standard page with video" class="p" onfocus="this.className='p-over';" onblur="this.className='p';">Return to standard page with video</a>
+<% ElseIf page_section <> "ADA" Then %>
+<div style="display: inline-block; position: relative; top: -18px; padding: 0px; width: 205px; z-index: 100;"><div style="position: relative; left: -53px; padding: 0px; width: 258px; z-index: 100;">
+	<!-- #include file="mywork/mywork_video.asp" -->
+	<a href="#video" class="hlink">My Work&reg; Video</a>
+<% End If  %>
+</div></div>
+
+<div style="display: inline-block; position: relative; top: -12px; width: 205px; height: 164px;">
 	<H2 class="h1" style="margin: 0px 0px 6px 0px; text-align: center; width: 205px;"><span class="loc">My Work Centers</span></H2>
 <img name="rotim" id="rotim" src="../images/mywork/rot1.jpg" width="205" height="154" alt="" border="0" style="margin: 0px 0px 0px 0px;" align="top">
 </div>
-<div style="border: 1px solid #e8e8e9; margin: 12px 0px 12px 0px; padding: 0px 0px 6px 0px;">
+<div style="display: inline-block; position: relative; width: 205px; border: 1px solid #e8e8e9; margin: 18px 0px 12px 0px; padding: 0px 0px 6px 0px; text-align: left;">
 	<H2 class="g" style="margin: 0px 0px 0px 0px;">Related Information</H2>
 	<img src="../images/clear.gif" width="100%" height="1" alt="" border="0" style="margin: 1px 0px 0px 0px; background: #e8e8e9;" align="top"><br clear="all">
 	<div  style="padding: 0px 5px 0px 4px;">
@@ -48,7 +87,7 @@ Not all associates are eligible to participate in all benefit programs. The term
 	</div>					
 </div>
 
-<div style="text-align: center; margin: 0px; padding: 0px;">
+<div style="display: inline-block; position: relative; width: 205px; text-align: center; margin: 0px; padding: 0px;">
 <!-- #include file="../talkingatm.html" -->
 </div>
 				</td>
