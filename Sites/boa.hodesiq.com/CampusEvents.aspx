@@ -152,16 +152,16 @@
                                 
                                 <asp:Table ID="Table1" width="560" runat="server" summary="For each region, the first column is the date.  The second column is the school.  The third column is the event.  The fourth column is the business.">
                                     <asp:TableHeaderRow ID="HeaderRow" runat="server" Visible="true">
-                                        <asp:TableHeaderCell ID="DateHeader" Scope="column" runat="server" Width="25%" CssClass = "tdHeader">
+                                        <asp:TableHeaderCell ID="DateHeader" runat="server" Width="25%" CssClass = "tdHeader">
                                         <asp:LinkButton ID="LinkButton3" runat="server" OnClick="LinkButton3_Click" Visible="true" CssClass = "tdHeader" ToolTip="Sort by date in either ascending or descending order">Date <img src="images/camp/<%=up %>Arrow.gif" style="display:<%=sortDate %>" border="0" alt="" /></asp:LinkButton>
                                         </asp:TableHeaderCell>
-                                        <asp:TableHeaderCell ID="SchoolHeader" scope="column" runat="server" Width="25%" CssClass = "tdHeader">
+                                        <asp:TableHeaderCell ID="SchoolHeader" runat="server" Width="25%" CssClass = "tdHeader">
                                         <asp:LinkButton ID="LinkButton4" runat="server" OnClick="LinkButton4_Click" Visible="true" CssClass = "tdHeader" ToolTip="Sort by school in either ascending or descending order">School <img src="images/camp/<%=up %>Arrow.gif" style="display:<%=sortSchool %>" border="0" alt="" /></asp:LinkButton>
                                         </asp:TableHeaderCell>
-                                        <asp:TableHeaderCell ID="EventHeader" scope="column" runat="server" Width="25%" CssClass = "tdHeader">
+                                        <asp:TableHeaderCell ID="EventHeader" runat="server" Width="25%" CssClass = "tdHeader">
                                         <asp:LinkButton ID="LinkButton5" runat="server" OnClick="LinkButton5_Click" Visible="true" CssClass = "tdHeader" ToolTip="Sort by event in either ascending or descending order">Event <img src="images/camp/<%=up %>Arrow.gif" style="display:<%=sortEvent %>" border="0" alt="" /></asp:LinkButton>
                                         </asp:TableHeaderCell>
-                                        <asp:TableHeaderCell ID="BusinessHeader" scope="column" runat="server" Width="25%" CssClass = "tdHeader">
+                                        <asp:TableHeaderCell ID="BusinessHeader" runat="server" Width="25%" CssClass = "tdHeader">
                                         <asp:LinkButton ID="LinkButton6" runat="server" OnClick="LinkButton6_Click" Visible="true" CssClass = "tdHeader" ToolTip="Sort by business in either ascending or descending order">Business <img src="images/camp/<%=up %>Arrow.gif" style="display:<%=sortBusiness %>" border="0" alt="" /></asp:LinkButton>
                                         </asp:TableHeaderCell>
                                     </asp:TableHeaderRow>

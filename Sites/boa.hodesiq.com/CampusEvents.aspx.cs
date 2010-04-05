@@ -89,6 +89,8 @@ public partial class CampusEvents : System.Web.UI.Page
             }
            
         }
+		AddTableAttributes();
+
     }
     private void Process(string regionId, string degreeId, string schoolId)
     {
@@ -769,4 +771,12 @@ public partial class CampusEvents : System.Web.UI.Page
         cke.Expires = expiry;
         res.SetCookie(cke);
     }
+
+	protected void AddTableAttributes()
+	{
+		DateHeader.Attributes.Add("scope", "col");
+		SchoolHeader.Attributes.Add("scope", "col");
+		EventHeader.Attributes.Add("scope", "col");
+		BusinessHeader.Attributes.Add("scope", "col");
+	}
 }
