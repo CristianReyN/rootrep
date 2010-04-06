@@ -69,17 +69,17 @@ Non-Bank of America associates visit: <a href="http://www.bankofamerica.com" tar
 <br>
 <a href="<%= standart_href%>" title="Return to standard page with video" class="p" onfocus="this.className='p-over';" onblur="this.className='p';">Return to standard page with video</a>
 <% ElseIf page_section <> "ADA" Then %>
-<div style="display: inline-block; position: relative; top: -18px; padding: 0px; width: 205px; z-index: 100;"><div style="position: relative; left: -53px; padding: 0px; width: 258px; z-index: 100;">
+<div style="position: relative; top: -18px; padding: 0px; width: 205px; height: 188px; z-index: 100;"><div style="position: absolute; left: -53px; padding: 0px; width: 258px; z-index: 100;">
 	<!-- #include file="mywork/mywork_video.asp" -->
-	<a href="#video" class="hlink">My Work&reg; Video</a>
+	<a href="#video" class="hlink">My Work&reg; Video</a></div>
 <% End If  %>
-</div></div>
+</div>
 
-<div style="display: inline-block; position: relative; top: -12px; width: 205px; height: 164px;">
+<div style="position: relative; top: -12px; width: 205px; height: 164px;">
 	<H2 class="h1" style="margin: 0px 0px 6px 0px; text-align: center; width: 205px;"><span class="loc">My Work Centers</span></H2>
 <img name="rotim" id="rotim" src="../images/mywork/rot1.jpg" width="205" height="154" alt="" border="0" style="margin: 0px 0px 0px 0px;" align="top">
 </div>
-<div style="display: inline-block; position: relative; width: 205px; border: 1px solid #e8e8e9; margin: 18px 0px 12px 0px; padding: 0px 0px 6px 0px; text-align: left;">
+<div style="width: 205px; border: 1px solid #e8e8e9; margin: 18px 0px 12px 0px; padding: 0px 0px 6px 0px; text-align: left;">
 	<H2 class="g" style="margin: 0px 0px 0px 0px;">Related Information</H2>
 	<img src="../images/clear.gif" width="100%" height="1" alt="" border="0" style="margin: 1px 0px 0px 0px; background: #e8e8e9;" align="top"><br clear="all">
 	<div  style="padding: 0px 5px 0px 4px;">
@@ -87,7 +87,7 @@ Non-Bank of America associates visit: <a href="http://www.bankofamerica.com" tar
 	</div>					
 </div>
 
-<div style="display: inline-block; position: relative; width: 205px; text-align: center; margin: 0px; padding: 0px;">
+<div style="width: 205px; text-align: center; margin: 0px; padding: 0px;">
 <!-- #include file="../talkingatm.html" -->
 </div>
 				</td>
