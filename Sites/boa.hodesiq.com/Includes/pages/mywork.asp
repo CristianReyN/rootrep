@@ -1,11 +1,10 @@
 		<a name="skipmaincontent"></a><H1 style="margin: 0px <%=right_margin%>px 0px <%=left_margin_0%>px; padding: 0px;">My Work<span style="font-size: 0.8em; position: relative; top: -0.6em;">&reg;</span></H1>
 		<table width="578" cellpadding="0" cellspacing="0" border="0" summary="">
 			<tr valign="top">
-				<td width="373" height="100%" valign="top" style="<%=middle_content_padding%>">
+				<td height="100%" valign="top" style="<%=middle_content_padding%>">
 
 <div id="Layer1" style="position: relative; z-index: 12;">
-<img class="dotdiv" src="../images/clear.gif" width="298" height="1" alt="" border="0">
-<img style="float : right; margin: 0px 0px 0px 12px;" src="../images/clear.gif" width="53" height="188" align="right" alt="" border="0">
+<img class="dotdiv" style="margin: 0px 0px 5px 0px;" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
 <p style="margin: 0px;">Bank&nbsp;of&nbsp;America is committed to offering work place options that enhance associate satisfaction, the ability to competitively attract and retain associates and meet our business needs. We are also committed to environmental leadership in our communities. By reducing associate commutes and developing My Work centers that are environmentally friendly, we are able to reduce fuel consumption and greenhouse gas emissions across the country.
 <br><br>
 Through our commitment to provide associates and their managers more flexibility in where and how they do business, the My Work program:
@@ -36,7 +35,7 @@ Not all associates are eligible to participate in all benefit programs. The term
 <!-- #include file="../worklifenav.asp" -->
 </div>
 				</td>
-				<td width="205" height="100%" align="right" valign="top">
+				<td height="100%" align="right" valign="top">
 
 <% If page_section = "ADA" Then %>
 <div class="transcript" style="position: relative; top: -18px; width: 205px; text-align: left;">
@@ -69,9 +68,9 @@ Non-Bank of America associates visit: <a href="http://www.bankofamerica.com" tar
 <br>
 <a href="<%= standart_href%>" title="Return to standard page with video" class="p" onfocus="this.className='p-over';" onblur="this.className='p';">Return to standard page with video</a>
 <% ElseIf page_section <> "ADA" Then %>
-<div style="position: relative; top: -18px; padding: 0px; width: 205px; height: 188px; z-index: 100;"><div style="position: absolute; left: -53px; padding: 0px; width: 258px; z-index: 100;">
+<div style="position: relative; top: -18px; padding: 0px; width: 258px; height: 188px; z-index: 100;">
 	<!-- #include file="mywork/mywork_video.asp" -->
-	<a href="#video" class="hlink">My Work&reg; Video</a></div>
+	<a href="#video" class="hlink">My Work&reg; Video</a>
 <% End If  %>
 </div>
 
