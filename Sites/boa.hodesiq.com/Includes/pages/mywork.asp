@@ -61,9 +61,9 @@ The My Work program empowers associates, enhances communities and embraces perso
 <br><br>
 Consider the possibilities.
 <br><br>
-Bank of America associates visit: <a href="http://mywork.bankofamerica.com" target="_blank" title="Link opens a new window." class="p" onfocus="this.className='p-over';" onblur="this.className='p';">mywork.bankofamerica.com</a>
+Bank of America associates visit: <a href="http://mywork.bankofamerica.com" target="_blank" title="" class="p" onfocus="this.className='p-over';" onblur="this.className='p';">mywork.bankofamerica.com<span class="hidden"> Link opens a new window</span></a>
 <br><br>
-Non-Bank of America associates visit: <a href="http://www.bankofamerica.com" target="_blank" title="Link opens a new window." class="p" onfocus="this.className='p-over';" onblur="this.className='p';">bankofamerica.com</a>
+Non-Bank of America associates visit: <a href="http://www.bankofamerica.com" target="_blank" title="" class="p" onfocus="this.className='p-over';" onblur="this.className='p';">bankofamerica.com<span class="hidden"> Link opens a new window</span></a>
 </p>
 <br>
 <a href="<%= standart_href%>" title="Return to standard page with video" class="p" onfocus="this.className='p-over';" onblur="this.className='p';">Return to standard page with video</a>

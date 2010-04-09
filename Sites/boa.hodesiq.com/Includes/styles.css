@@ -281,6 +281,9 @@ H1.hidden, H2.hidden, H3.hidden, DIV.hidden, P.hidden, SPAN.hidden
     position: absolute;
     left: -10000px;
     top: -10000px; /*visibility: hidden;*/
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
 }
 
 TD.tbl
