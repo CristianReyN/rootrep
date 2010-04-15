@@ -268,104 +268,111 @@ public partial class CampusEvents : System.Web.UI.Page
                     tdWidth = 33;
                 }
                 TableCell td;
-                for (int i = pager.StartEventNo() - 1; i < pager.EndEventNo(); i++)
+                for (int i = pager.StartEventNo()-1; i < pager.EndEventNo(); i++)
                 {
-                    EventWS anEvent = ger[i];
-                    int schLength = anEvent.Schools.Length;
-                    for (int k = 0; k < anEvent.Schools.Length; k++)
-                    {
-                        schLength--;
-                        tr = new TableRow();
-                        td = new TableCell();
-                        td.CssClass = "tdData";
-                        td.ColumnSpan = 1;
-                        td.Width = new Unit(tdWidth, UnitType.Percentage);
-                        string dateField = "";
-                        if (anEvent.StartTime != null)
-                        {
-                            dateField = anEvent.StartTime.ToString("MMMM dd, yyyy");
-                            if (anEvent.EndTime != null)
-                            {
-                                if (anEvent.StartTime.Year != anEvent.EndTime.Year || anEvent.StartTime.Month != anEvent.EndTime.Month || anEvent.StartTime.Day != anEvent.EndTime.Day)
-                                {
-                                    dateField = dateField + " -<br/>";
-                                    dateField = dateField + anEvent.EndTime.ToString("MMMM dd, yyyy");
-                                }
-                            }
-                        }
-                        td.Text = dateField;
-                        tr.Cells.Add(td);
+					try
+					{
+						EventWS anEvent = ger[i];
+						int schLength = anEvent.Schools.Length;
+						for (int k = 0; k < anEvent.Schools.Length; k++)
+						{
+							schLength--;
+							tr = new TableRow();
+							td = new TableCell();
+							td.CssClass = "tdData";
+							td.ColumnSpan = 1;
+							td.Width = new Unit(tdWidth, UnitType.Percentage);
+							string dateField = "";
+							if (anEvent.StartTime != null)
+							{
+								dateField = anEvent.StartTime.ToString("MMMM dd, yyyy");
+								if (anEvent.EndTime != null)
+								{
+									if (anEvent.StartTime.Year != anEvent.EndTime.Year || anEvent.StartTime.Month != anEvent.EndTime.Month || anEvent.StartTime.Day != anEvent.EndTime.Day)
+									{
+										dateField = dateField + " -<br/>";
+										dateField = dateField + anEvent.EndTime.ToString("MMMM dd, yyyy");
+									}
+								}
+							}
+							td.Text = dateField;
+							tr.Cells.Add(td);
 
-                        td = new TableCell();
-                        td.ColumnSpan = 1;
-                        td.CssClass = "tdData";
-                        td.Width = new Unit(tdWidth, UnitType.Percentage);
-                        td.Text = anEvent.Schools[k].Name;
-                        tr.Cells.Add(td);
+							td = new TableCell();
+							td.ColumnSpan = 1;
+							td.CssClass = "tdData";
+							td.Width = new Unit(tdWidth, UnitType.Percentage);
+							td.Text = anEvent.Schools[k].Name;
+							tr.Cells.Add(td);
 
-                        td = new TableCell();
-                        td.ColumnSpan = 1;
-                        td.CssClass = "tdData";
-                        td.Width = new Unit(tdWidth, UnitType.Percentage);
-                        string eventTxt = "<b class=\"tdDataHeader\">" + anEvent.EventType + "</b><br/>";
-                        string fultime = "";
-                        if (anEvent.ProgramType != null && anEvent.ProgramType.Length > 0)
-                        {
-                            fultime = anEvent.ProgramType;
-                            eventTxt = eventTxt + fultime + "<br/>";
-                        }
-                        string timeString = anEvent.StartTime.ToShortTimeString();
-                        if (anEvent.EndTime != null)
-                        {
-                            if (anEvent.StartTime.Hour != anEvent.EndTime.Hour || anEvent.StartTime.Minute != anEvent.EndTime.Minute)
-                            {
-                                timeString = timeString + "-" + anEvent.EndTime.ToShortTimeString();
-                            }
-                        }
-                        eventTxt = eventTxt + timeString + "<br/>";
-                        eventTxt = eventTxt + anEvent.Location + "<br/>";
-                        td.Text = eventTxt;
-                        tr.Cells.Add(td);
+							td = new TableCell();
+							td.ColumnSpan = 1;
+							td.CssClass = "tdData";
+							td.Width = new Unit(tdWidth, UnitType.Percentage);
+							string eventTxt = "<b class=\"tdDataHeader\">" + anEvent.EventType + "</b><br/>";
+							string fultime = "";
+							if (anEvent.ProgramType != null && anEvent.ProgramType.Length > 0)
+							{
+								fultime = anEvent.ProgramType;
+								eventTxt = eventTxt + fultime + "<br/>";
+							}
+							string timeString = anEvent.StartTime.ToShortTimeString();
+							if (anEvent.EndTime != null)
+							{
+								if (anEvent.StartTime.Hour != anEvent.EndTime.Hour || anEvent.StartTime.Minute != anEvent.EndTime.Minute)
+								{
+									timeString = timeString + "-" + anEvent.EndTime.ToShortTimeString();
+								}
+							}
+							eventTxt = eventTxt + timeString + "<br/>";
+							eventTxt = eventTxt + anEvent.Location + "<br/>";
+							td.Text = eventTxt;
+							tr.Cells.Add(td);
 
-                        if (biz)
-                        {
-                            td = new TableCell();
-                            td.ColumnSpan = 1;
-                            td.CssClass = "tdData";
-                            td.Width = new Unit(tdWidth, UnitType.Percentage);
-                            string bizName = "";
-                            if (anEvent.Businesses != null && anEvent.Businesses.Length > 0)
-                            {
-                                for (int j = 0; j < anEvent.Businesses.Length; j++)
-                                {
-                                    bizName = bizName + anEvent.Businesses[j];
-                                    if (j + 1 < anEvent.Businesses.Length)
-                                    {
-                                        bizName = bizName + ",<br/>";
-                                    }
-                                }
-                            }
-                            td.Text = bizName;
-                            tr.Cells.Add(td);
-                        }
+							if (biz)
+							{
+								td = new TableCell();
+								td.ColumnSpan = 1;
+								td.CssClass = "tdData";
+								td.Width = new Unit(tdWidth, UnitType.Percentage);
+								string bizName = "";
+								if (anEvent.Businesses != null && anEvent.Businesses.Length > 0)
+								{
+									for (int j = 0; j < anEvent.Businesses.Length; j++)
+									{
+										bizName = bizName + anEvent.Businesses[j];
+										if (j + 1 < anEvent.Businesses.Length)
+										{
+											bizName = bizName + ",<br/>";
+										}
+									}
+								}
+								td.Text = bizName;
+								tr.Cells.Add(td);
+							}
 
-                        Table1.Rows.Add(tr);
-                        if (i + 1 < ger.Length || schLength > 0)
-                        {
-                            tr = new TableRow();
-                            td = new TableCell();
-                            td.ColumnSpan = 3;
-                            if (biz)
-                            {
-                                td.ColumnSpan = 4;
-                            }
-                            td.Width = new Unit(100, UnitType.Percentage);
-                            td.Text = "<hr id=\"tdLine\"/>";
-                            //td.Text = "<img src=\"../Events/images/clear.gif\" class=\"bac\" alt=\"\"><br clear=\"all\">";
-                            tr.Cells.Add(td);
-                            Table1.Rows.Add(tr);
-                        }
-                    }
+							Table1.Rows.Add(tr);
+							if (i + 1 < ger.Length || schLength > 0)
+							{
+								tr = new TableRow();
+								td = new TableCell();
+								td.ColumnSpan = 3;
+								if (biz)
+								{
+									td.ColumnSpan = 4;
+								}
+								td.Width = new Unit(100, UnitType.Percentage);
+								td.Text = "<hr id=\"tdLine\"/>";
+								//td.Text = "<img src=\"../Events/images/clear.gif\" class=\"bac\" alt=\"\"><br clear=\"all\">";
+								tr.Cells.Add(td);
+								Table1.Rows.Add(tr);
+							}
+						}
+					}
+					catch
+					{
+						//do nothing
+					}
                 }
             }
             else
