@@ -36,7 +36,8 @@ if(!window.getHTMLControl)
 '******* HOT JOB OPENING '*******
 Dim familyid, talentid, globaljobsfamilyids, rowcount
 talentid=5
-globaljobsfamilyids="14,19"
+'globaljobsfamilyids="14,19"
+globaljobsfamilyids="14"
 rowcount=6
 %>
 <H2 class="h2" style="margin: 12px <%=right_margin%>px 12px <%=left_margin_0%>px;">New Opportunities</H2>

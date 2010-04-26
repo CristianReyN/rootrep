@@ -21,7 +21,8 @@ Positions within Operations provide overall support for many key areas within Ba
 '******* HOT JOB OPENING '*******
 Dim familyid, talentid, globaljobsfamilyids, rowcount
 talentid=6
-globaljobsfamilyids="2,22,6,20,24,29,15"
+'globaljobsfamilyids="2,22,6,20,24,29,15"
+globaljobsfamilyids="2,22,6,20,29,15"
 rowcount=6
 %>
 <H2 class="h2" style="margin: 12px <%=right_margin%>px 2px <%=left_margin_0%>px;">New Opportunities</H2>

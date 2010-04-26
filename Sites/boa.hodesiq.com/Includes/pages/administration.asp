@@ -21,7 +21,8 @@ Individuals who take initiative and possess exceptional communications skills th
 '******* HOT JOB OPENING '*******
 Dim familyid, talentid, globaljobsfamilyids, rowcount
 talentid=1
-globaljobsfamilyids="1,2,5,6,15,19,20,29,24"
+'globaljobsfamilyids="1,2,5,6,15,19,20,29,24"
+globaljobsfamilyids="1,2,5,6,15,20,29"
 rowcount=6
 %>
 <H2 class="h2" style="margin: 12px <%=right_margin%>px 2px <%=left_margin_0%>px;">New Opportunities</H2>
