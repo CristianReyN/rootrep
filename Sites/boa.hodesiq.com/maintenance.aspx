@@ -20,8 +20,8 @@ window.open(imnam,"pop","directory=no,height=450,width=500,toolbar=no,scrollbars
 <body id="body" onload="startKeybordNav(); startPs(); fixIE();" onunload="">
 
 <!-- BEGIN COREMETRICS SUPPORT -->
-<script language='javascript1.1' src='coremetrics/v40/eluminate.js'  type='text/javascript'></script>
-<script language='javascript1.1' src='coremetrics/cmdatatagutils.js' type='text/javascript'></script>
+<script language='javascript1.1' src='http://www.bankofamerica.com/coremetrics/v40/eluminate.js'  type='text/javascript'></script>
+<script language='javascript1.1' src='http://www.bankofamerica.com/coremetrics/cmdatatagutils.js' type='text/javascript'></script>
 <script language='javascript1.1' type='text/javascript'>
 //<!—
 cmCreatePageviewTag('Career | Job Search', null, null, 'career:jobsearch');

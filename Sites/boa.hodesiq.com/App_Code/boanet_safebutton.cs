@@ -77,10 +77,10 @@ public static class boanet_safebutton
 
         if (buttontext.StartsWith("ApplyNow|*|"))
         {
-			l.Text = " Apply Now <span class='auraltext' title='Apply Now. Link opens in new window.'>For `" + buttontext.Replace("ApplyNow|*|", "").ToString() + "`. If you have any difficulties, refer to the below alternatives. Opens in a new window.</span> ";
+            l.Text = " Apply Now <span class='auraltext' title='Apply Now. Link opens in new window.'>For `" + buttontext.Replace("ApplyNow|*|", "").ToString() + "`. If you have any difficulties, refer to the below alternatives. Opens in a new window.</span>"
+            + "<span class='hidden'>Apply Now. Link opens a new window</span>";
 			l.ToolTip = " Apply Now. Link opens in new window. ";
-            l.Attributes.Add("onclick", "javascript:window.open('" + LinkURL + "','ApplyNow')");
-			l.Attributes.Add("title", "Apply Now. Link opens in new window.");
+            l.Attributes.Add("onclick", "javascript:window.open('" + LinkURL + "','ApplyNow')");			
         }
         else
         {

@@ -88,10 +88,13 @@ public partial class JobSearch : System.Web.UI.Page
     public void Page_PreRender(object sender, EventArgs e)
     {
         string DisplayCanadaJobs = ConfigurationManager.AppSettings["DisplayCanadaJobs"].ToString();
+        string Instructions = "To find a career suited to your skill set, begin by selecting a country from the list below. Then you may narrow your selection further by choosing additional search criteria and/or entering keywords.";
+        string USOnlyInstructions = "To find a career suited to your skill set, begin by selecting a country from the list below. Then you may narrow your selection further by choosing additional search criteria and/or entering keywords.</br><b>Please note:</b>  City search results are for that city only. Please search individually for all cities within your desired geographic area.";
         if (Country.SelectedValue == Location.USA)
         {
             PnlUSJobsContent.Visible = true;
             PnlCanada.Visible = false;
+            tdInstructions.Text = USOnlyInstructions;
         }
         else if (Country.SelectedValue == Location.CANADA && DisplayCanadaJobs.ToLower() == "false")
         {
@@ -101,11 +104,15 @@ public partial class JobSearch : System.Web.UI.Page
             PnlCanada.Visible = true;
             BtnBegin.Visible = false;
             BtnSearch.Visible = false;
+            tdInstructions.Text = Instructions;
         }
         else
         {
             PnlUSJobsContent.Visible = false;
             PnlCanada.Visible = false;
+           
+            tdInstructions.Text = Instructions;
+            
         }
         
     }
@@ -644,20 +651,21 @@ public partial class JobSearch : System.Web.UI.Page
 
     protected void Country_Click(object sender, EventArgs e)
     {
+        
         if (Country.SelectedValue != Location.USA)
         {
             PopulateInternationalCity();
             PopulateJobFamily();
             ddlJobFamily.SelectedValue = "-1";
             InternationalCity.SelectedValue = "-1";   
-            keywords.Text = "";
+            keywords.Text = "";        
         }
         else
         {
             State.SelectedValue = "-1";
             RefineSearch(State.SelectedValue);
             ddlJobAreas.SelectedValue = "";
-            keywords.Text = "";
+            keywords.Text = "";          
         }
 
         PnlResults.Visible = false;

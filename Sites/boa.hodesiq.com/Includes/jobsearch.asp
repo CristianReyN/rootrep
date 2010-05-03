@@ -88,7 +88,16 @@ function changeCity()
 					<table width="<%=jwdt%>" cellpadding="0" cellspacing="0" border="0" summary="" style="<%=stl%>">
 						<tr>
 							<td style="padding: 0px 0px 0px 0px;">
-<p style="margin: 0px;">To find a career suited to your skill set, begin by selecting a country from the list below. Then you may narrow your selection further by choosing additional search criteria and/or entering keywords.</p>
+							
+
+<%If countryid <> "1" Then %>
+    <p style='margin: 0px;'>To find a career suited to your skill set, begin by selecting a country from the list below. Then you may narrow your selection further by choosing additional search criteria and/or entering keywords.</p>
+<%End If %>       
+
+<%If countryid = "1" Then %>
+    <p style='margin: 0px;'>To find a career suited to your skill set, begin by selecting a country from the list below. Then you may narrow your selection further by choosing additional search criteria and/or entering keywords.</br><b>Please note:</b>  City search results are for that city only. Please search individually for all cities within your desired geographic area."</p>
+<%End If %>   
+                
 <p class="ada-label">After you select a country from the country field, the page will refresh. For the United States, you can then pick a state.  After you select a state from the 'State' field, the page will refresh.  You will then be able to select a city from the 'City' field.  For all other countries, after you select a country other than the United States from the country field, the page will refresh and you can then select a city from the 'City' field.</p>
 <img class="dotdiv" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
 							</td>

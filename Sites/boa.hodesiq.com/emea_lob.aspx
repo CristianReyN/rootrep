@@ -37,7 +37,8 @@
 <p>Global Wealth &amp; Investment Management (GWIM) provides comprehensive wealth management to affluent and high-net-worth clients. It also provides retirement and benefit plan services, philanthropic management and asset management to individuals and institutions. Clients have access to a range of services offered through the following businesses:</P>
 <ul >
 
-    <li ><b>Columbia Management</b> is the investment management division of Bank of America Corporation. Columbia Management entities furnish investment management services and products for institutional and individual investors.</li>
+    <li >
+ <b>BofA Global Capital Management</b> has the experience and resources to meet the diverse needs of cash investors. Individual and institutional investors can benefit from our diverse array of investments, which includes domestic taxable and tax-exempt money market funds, offshore funds, and separately managed accounts for those who require more customized strategies.</li>
     <li><b>Global Client Coverage Group</b> is responsible for the delivery of comprehensive referrals and client coverage capabilities to bring the full power of the combined company to clients.</li>
     <li><b>Global Investment Solutions</b> is responsible for managing GWIM's financial products, including mutual funds, stocks, bonds, new issue, insurance, alternative investments and structured products.</li>
     <li><b>GWIM Banking and Direct Investment Division</b> is responsible for the overall strategy and direct management of deposit and credit products &#8211; from credit cards to sophisticated lending products &#8211; across GWIM. It also includes all phone and online channels that serve GWIM clients.</li>

@@ -1,13 +1,19 @@
 <%@ Language=VBScript %>
 <%option explicit%>
 <%
-dim stitle,surl
+dim stitle,surl,countryid
 if request.QueryString("m")=1 then
 	stitle="Bank of America | Careers | Manage your Careers Profile Account"
 	surl="profilerd.aspx?" & Request.QueryString("u").item
 else
 	stitle="Bank of America | Careers | Job Application"
-	surl="applyrd.aspx?" & Request.QueryString
+	surl="applyrd.aspx?" & Request.QueryString("url").item
+end if
+
+countryid = request.QueryString("countryid")
+
+if countryid = "" then
+    countryid = 1
 end if
 %>
 <html> 
@@ -21,7 +27,7 @@ end if
 <body style="margin: 0px; color: #000000; background-color: #ffffff;">
 <table border="0" cellpadding="5" cellspacing="0" width="100%" height="100%">
 <%dim currdate : currdate = date()
-if currdate >= cdate("2009-08-15") then %>
+if currdate >= cdate("2009-08-15") and countryid  = "1" then %>
 	<tr><td align="center" height="103">
 		<img src="images/BoA_Header.jpg" width="752" height="103" border="0" alt="Bank of America Careers" title="Bank of America Careers" /></td></tr>
 	<tr><td align="center">

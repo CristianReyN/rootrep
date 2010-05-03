@@ -71,20 +71,18 @@ public partial class JobDetails : System.Web.UI.Page
 
             if (CountryID == Location.CANADA && CANADAURL !="")
             {
-                ApplyURL = CANADAURL;
-                this.hApplyNow.Value = targetpage + HttpUtility.UrlEncode(ApplyURL);
-
+                ApplyURL = CANADAURL;                
             }
             else if (CountryID == Location.USA)
             {
                 ApplyURL = ConfigurationManager.AppSettings["taleoBaseURL"].Replace("{REQNOPLACEHOLDER}", dt.Rows[0]["reqNo"].ToString()) + srcvalue.Replace("-", "%2D");
-                this.hApplyNow.Value = targetpage + HttpUtility.UrlEncode(ApplyURL);
             }
             else
             {
                 ApplyURL = dt.Rows[0]["ApplyURL"].ToString() + "&src=" + Request["src"];
-                this.hApplyNow.Value = "applyrd.aspx?" + HttpUtility.UrlEncode(ApplyURL);
-            }						
+            }
+
+            this.hApplyNow.Value = targetpage + "countryid=" + CountryID + "&url=" + HttpUtility.UrlEncode(ApplyURL);            						
 		}
 		else
 		{

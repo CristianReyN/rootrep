@@ -3,15 +3,15 @@
 
 <asp:Content ID="Content1" runat="Server" ContentPlaceHolderID="cphmain">   
 	<h1 style="margin: 0px 0px 0px 12px; ">Guided Job Search</h1>	
-        <p><span class='auraltext'>
+        <span class='auraltext'>
          After you select a country from the country field, the page will refresh. For the United States, you can then pick a state.  After you select a state from the 'State" field, the page will refresh.  You will then be able to select a city from the 'City' field.  For all other countries, after you select a country other than the United States from the country field, the page will refresh and you can then select a city from the 'City' field.
-        </span></p>
+        </span>
         <table border="0" cellpadding="0" cellspacing="0" summary="" width="578">
             <tr valign="top">
                 <td style="padding: 6px 12px 0px 12px; height: 100%" valign="top">
 					<table border="0" cellpadding="1" cellspacing="1" summary="" width="100%">
                         <tr>
-                            <td valign="top" colspan="2">To find a career suited to your skill set, begin by selecting a country from the list below. Then you may narrow your selection further by choosing additional search criteria and/or entering keywords.</td>
+                            <td valign="top"  colspan="2"><asp:Label ID="tdInstructions" runat="server"></asp:Label></td>
                             </br>                         
                         </tr>
 						<tr>
@@ -31,7 +31,7 @@
 							</tr>
 							</table>
 							<asp:Panel ID="PnlCanada" runat="server" Visible="false">
-                            </br><a href="http://ig12.i-grasp.com/fe/tpl_bankofamerica06.asp" target="_blank" class="p" style="margin: 0px 0px 0px 0px;" title="Search and apply for jobs in Canada. Link opens a new window.">Search and apply</a> for jobs in Canada.</br></br></asp:Panel>
+                            </br><a href="http://ig12.i-grasp.com/fe/tpl_bankofamerica06.asp" target="_blank" class="p" onfocus="this.className='p-over'; "onblur="this.className='p';" style="margin: 0px 0px 0px 0px;" >Search and apply<span class="hidden">Search and apply for jobs in Canada. Link opens a new window.</span></a> for jobs in Canada.</br></br></asp:Panel>
 							<asp:Panel ID="PnlFilter" runat="server" >
 							
 							<table border="0" cellpadding="0" cellspacing="0" summary=""

@@ -161,8 +161,8 @@ Else
 	categoryId = "career:" & mpage
 End If
 %>
-<script language="javascript1.1" src="../coremetrics/v40/eluminate.js" type="text/javascript"></script>
-<script language="javascript1.1" src="../coremetrics/cmdatatagutils.js" type="text/javascript"></script>
+<script language="javascript1.1" src="http://www.bankofamerica.com/coremetrics/v40/eluminate.js" type="text/javascript"></script>
+<script language="javascript1.1" src="http://www.bankofamerica.com/coremetrics/cmdatatagutils.js" type="text/javascript"></script>
 <!-- #include file="../Includes/env.asp" -->
 <!-- #include file="../Includes/url.asp" -->
 <!-- #include file="../Includes/conn.asp" -->
