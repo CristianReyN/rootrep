@@ -18,9 +18,9 @@ function tdiv(tf) { }
 //-->
 </script>
 
-<script language="javascript1.1" src="coremetrics/v40/eluminate.js" type="text/javascript"></script>
+<script language="javascript1.1" src="http://www.bankofamerica.com/coremetrics/v40/eluminate.js" type="text/javascript"></script>
 
-<script language="javascript1.1" src="coremetrics/cmdatatagutils.js" type="text/javascript"></script>
+<script language="javascript1.1" src="http://www.bankofamerica.com/coremetrics/cmdatatagutils.js" type="text/javascript"></script>
 
 
 <script language="javascript" type="text/javascript">
