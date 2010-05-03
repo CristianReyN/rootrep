@@ -112,6 +112,8 @@ public partial class uc_JobSearch : System.Web.UI.UserControl
     public void Page_PreRender(object sender, EventArgs e)
     {
         string DisplayCanadaJobs = ConfigurationManager.AppSettings["DisplayCanadaJobs"].ToString();
+        string Instructions = "To find a career suited to your skill set, begin by selecting a country from the list below. Then you may narrow your selection further by choosing additional search criteria and/or entering keywords.";
+        string USOnlyInstructions = "To find a career suited to your skill set, begin by selecting a country from the list below. Then you may narrow your selection further by choosing additional search criteria and/or entering keywords.</br><b>Please note:</b>  City search results are for that city only. Please search individually for all cities within your desired geographic area.";
 
         if (Country.SelectedValue == Location.USA)
         {
@@ -119,7 +121,8 @@ public partial class uc_JobSearch : System.Web.UI.UserControl
             TrUsJobs2.Visible = true;
             TrUsJobs3.Visible = true;
             //TrUsJobs4.Visible = true;
-            PnlCanada.Visible = false;            
+            PnlCanada.Visible = false;
+            tdInstructions.Text = USOnlyInstructions;
 
         } else if (Country.SelectedValue == Location.CANADA && DisplayCanadaJobs.ToLower() == "false")
         {
@@ -129,6 +132,7 @@ public partial class uc_JobSearch : System.Web.UI.UserControl
             PnlCanada.Visible = true;
             PnlFilter.Visible = false;
             tblButtons.Visible = false;
+            tdInstructions.Text = Instructions;
         
         }
         else
@@ -137,7 +141,8 @@ public partial class uc_JobSearch : System.Web.UI.UserControl
             TrUsJobs2.Visible = false;
             TrUsJobs3.Visible = false;
             //TrUsJobs4.Visible = false;
-             PnlCanada.Visible = false;             
+             PnlCanada.Visible = false;
+             tdInstructions.Text = Instructions;
         }
 
     }

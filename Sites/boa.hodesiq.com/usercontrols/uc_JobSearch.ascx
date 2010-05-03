@@ -10,7 +10,7 @@
     <table width="192" cellpadding="0" cellspacing="0" border="0" summary="" style="margin: 0px 5px 0px 4px">
 	<tr>
 			<td style="padding: 0px 0px 0px 0px;">
-                <p style="margin: 0px;">To find a career suited to your skill set, begin by selecting a country from the list below. Then you may narrow your selection further by choosing additional search criteria and/or entering keywords.</p>
+                <p style="margin: 0px;"><asp:Label ID="tdInstructions" runat="server"></asp:Label></p>
                 <p class="ada-label">After you select a country from the country field, the page will refresh. For the United States, you can then pick a state.  After you select a state from the 'State' field, the page will refresh.  You will then be able to select a city from the 'City' field.  For all other countries, after you select a country other than the United States from the country field, the page will refresh and you can then select a city from the 'City' field.</p>
                 <img class="dotdiv" src="images/clear.gif" width="100%" height="1" alt="" border="0"/>
 	
@@ -31,7 +31,7 @@
 	                                       <p style="margin: 3px 0px 3px 0px;">
 	                       <img class="dotdiv" src="images/clear.gif" width="100%" height="1" alt="" border="0">
 	          
-                                &nbsp;&nbsp;<a href="http://ig12.i-grasp.com/fe/tpl_bankofamerica06.asp" target="_blank" class="p" style="margin: 0px 0px 0px 0px;" title="Search and apply for jobs in Canada. Link opens a new window.">Search and apply</a> for jobs in &nbsp;&nbsp;Canada.</asp:Panel>
+                                &nbsp;&nbsp;<a href="http://ig12.i-grasp.com/fe/tpl_bankofamerica06.asp" target="_blank" class="p" onfocus="this.className='p-over';" onblur="this.className='p';" style="margin: 0px 0px 0px 0px;" >Search and apply<span class="hidden">Search and apply for jobs in Canada. Link opens a new window.</span></a> for jobs in &nbsp;&nbsp;Canada.</asp:Panel>
 							
 							        <asp:Panel ID="PnlFilter" runat="server">
 							        <table width="190" border="0" align="center" cellpadding="0" cellspacing="0" summary="Guided Job Search">							
