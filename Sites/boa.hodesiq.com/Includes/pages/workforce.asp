@@ -9,9 +9,9 @@
 		<td colspan="3" valign="top" class="p" style="border-bottom: 1px solid #cccccc;"><b>2009 Workforce Breakdown</b></td>
 	</tr>
 	<tr>
-		<td width="50%" valign="top" class="p" style="border-bottom: 1px solid #cccccc; border-right: 1px solid #cccccc;">Job Category</td>
-		<td width="25%" valign="top" class="p" style="border-bottom: 1px solid #cccccc; border-right: 1px solid #cccccc;">Female</td>
-		<td width="25%" valign="top" class="p" style="border-bottom: 1px solid #cccccc;">Minority</td>
+		<th scope="col" align="left" width="50%" valign="top" class="p" style="border-bottom: 1px solid #cccccc; border-right: 1px solid #cccccc;">Job Category</th>
+		<th scope="col" align="left" width="25%" valign="top" class="p" style="border-bottom: 1px solid #cccccc; border-right: 1px solid #cccccc;">Female</th>
+		<th scope="col" align="left" width="25%" valign="top" class="p" style="border-bottom: 1px solid #cccccc;">Minority</th>
 	</tr>
 	<tr>
 		<td valign="top" class="p" style="border-bottom: 1px solid #cccccc; border-right: 1px solid #cccccc;">01 - Officials and Managers</td>

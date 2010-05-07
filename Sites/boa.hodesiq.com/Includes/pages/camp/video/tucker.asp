@@ -3,7 +3,7 @@
 <script language="JavaScript1.2" type="text/javascript">
 function preloadThumb()
 {
-	MM_preloadImages('../Includes/pages/camp/video/thumbnails/tucker_on.gif','../Includes/pages/camp/video/thumbnails/tucker_off.gif');
+	MM_preloadImages('../Includes/pages/camp/video/thumbnails/tucker_on.jpg','../Includes/pages/camp/video/thumbnails/tucker_off.jpg');
 }
 var ada_href = "<%=ada_href %>";
 action_script = true;

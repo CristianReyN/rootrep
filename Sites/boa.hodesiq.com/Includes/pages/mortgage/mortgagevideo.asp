@@ -3,7 +3,7 @@
 <script language="JavaScript1.2" type="text/javascript">
 function preloadThumb()
 {
-	MM_preloadImages('../Includes/pages/mortgage/thumbnails/mortgage_on.gif','../Includes/pages/mortgage/thumbnails/mortgage_off.gif');
+	MM_preloadImages('../Includes/pages/mortgage/thumbnails/mortgage_on.jpg','../Includes/pages/mortgage/thumbnails/mortgage_off.jpg');
 }
 var ada_href = "<%=ada_href %>";
 action_script = true;

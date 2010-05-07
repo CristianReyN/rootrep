@@ -2,7 +2,7 @@
 <script language="JavaScript1.2" type="text/javascript">
 function preloadThumb()
 {
-	MM_preloadImages('../Includes/pages/rjp/thumbnails/collectors_on.gif','../Includes/pages/rjp/thumbnails/collectors_off.gif');
+	MM_preloadImages('../Includes/pages/rjp/thumbnails/collectors_on.jpg','../Includes/pages/rjp/thumbnails/collectors_off.jpg');
 }
 var ada_href = "<%=ada_href %>";
 action_script = true;

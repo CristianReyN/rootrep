@@ -30,7 +30,7 @@ Careers within Banc&nbsp;of&nbsp;America Merchant Services, LLC include:
 	<li>Strategic Account Executive</li>
 </ul>
 <p style="margin: 12px 0px 0px 0px;">
-<a href="https://bacfhrs.taleo.net/careersection/10200/joblist.ftl?lang=en" title="Search for current career opportunities. Link opens a new window." target="_blank">Search</a> for current career opportunities within Banc&nbsp;of&nbsp;America Merchant Services, LLC.
+<a href="https://bacfhrs.taleo.net/careersection/10200/joblist.ftl?lang=en" title="" target="_blank">Search for Current Career Opportunities<span class="hidden"> Link opens a new window</span></a> within Banc&nbsp;of&nbsp;America Merchant Services, LLC.
 </p>
 				</td>
 				<td width="205" height="100%" valign="top">

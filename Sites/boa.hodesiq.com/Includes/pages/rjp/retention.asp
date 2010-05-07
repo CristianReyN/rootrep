@@ -2,7 +2,7 @@
 <script language="JavaScript1.2" type="text/javascript">
 function preloadThumb()
 {
-	MM_preloadImages('../Includes/pages/rjp/thumbnails/retention_on.gif','../Includes/pages/rjp/thumbnails/retention_on.gif');
+	MM_preloadImages('../Includes/pages/rjp/thumbnails/retention_on.jpg','../Includes/pages/rjp/thumbnails/retention_off.jpg');
 }
 var ada_href = "<%=ada_href %>";
 action_script = true;

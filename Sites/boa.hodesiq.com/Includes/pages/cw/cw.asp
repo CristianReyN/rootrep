@@ -3,7 +3,7 @@
 <script language="JavaScript1.2" type="text/javascript">
 function preloadThumb()
 {
-	MM_preloadImages('../Includes/pages/cw/thumbnails/andrey_on.gif','../Includes/pages/cw/thumbnails/andrey_off.gif');
+	MM_preloadImages('../Includes/pages/cw/thumbnails/andrey_on.jpg','../Includes/pages/cw/thumbnails/andrey_off.jpg');
 }
 var ada_href = "<%=ada_href %>";
 action_script = true;

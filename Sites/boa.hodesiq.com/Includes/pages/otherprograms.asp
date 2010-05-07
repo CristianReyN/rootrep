@@ -10,7 +10,7 @@
 <p style="margin: 0px;">Bank&nbsp;of&nbsp;America also provides programs that support our associates in managing their finances, their community commitments, and their educational needs.</p>
 
 <H2 class="bac" style="margin: 12px 0px 0px 0px; padding: 0px;">Associate Banking and Investments</H2>
-<p style="margin: 6px 0px 0px 0px;">Provides discounts and additional benefits on a wide range of banking and investing products. Associates may have two checking accounts with no monthly maintenance fee or balance requirement as well as additional checking benefits. Savings accounts are available with no monthly maintenance fee (restrictions may apply).</p>
+<p style="margin: 6px 0px 0px 0px;">Provides discounts and services to U.S.-based Bank&amp;of&amp;America associates on a wide range of banking and investing products. Please visit your local banking center or call Associate Banking &amp; Investments at 1.800.695.6262 for more details.</p>
 
 <H2 class="bac" style="margin: 12px 0px 0px 0px; padding: 0px;">Joe Martin Scholarship Program</H2>
 <p style="margin: 6px 0px 0px 0px;">Scholarships ranging from $500 to $5,000 are awarded through a competitive program to associates' dependents age 23 or younger who meet academic and extracurricular activity requirements.</p>

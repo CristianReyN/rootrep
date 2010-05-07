@@ -14,12 +14,12 @@
 				<td width="100%" valign="top">
 <a name="skipmaincontent"></a><H1 class="hidden">Global Wealth &amp; Investment Management</H1>
 <div style="float: left; width: <% If page_section = "ADA" Then %>357<% ElseIf page_section <> "ADA" Then %>357<%End If%>px;">
-<p style="margin: <% If page_section = "ADA" Then %>12<% Else %>0<%End If%>px <%=right_margin%>px 0px <%=left_margin_0%>px;">
+<p style="margin: <% If page_section = "ADA" Then %>0<% Else %>0<%End If%>px <%=right_margin%>px 0px <%=left_margin_0%>px;">
 Global Wealth &amp; Investment Management (GWIM) provides comprehensive wealth management to affluent and high-net-worth clients. It also provides retirement and benefit plan services, philanthropic management and asset management to individuals and institutions.
 <br><br>
 Clients have access to a range of services offered through the following businesses:
 <br><br>
-<b>Columbia Management</b> is the investment management division of Bank&nbsp;of&nbsp;America Corporation. Columbia Management entities provide investment management services and products for institutional and individual investors.
+<b>BofA Global Capital Management</b> has the experience and resources to meet the diverse needs of cash investors. Individual and institutional investors can benefit from our diverse array of investments, which includes domestic taxable and tax-exempt money market funds, offshore funds, and separately managed accounts for those who require more customized strategies.
 <br><br>
 <b>Global Client Coverage Group</b> is responsible for the delivery of comprehensive referrals and client coverage capabilities to bring the full power of the combined company to clients.
 <br><br>

@@ -2,7 +2,7 @@
 <script language="JavaScript1.2" type="text/javascript">
 function preloadThumb()
 {
-	MM_preloadImages('../Includes/pages/diversity_inclusion/thumbnails/diversity_inclusion_on.gif','../Includes/pages/diversity_inclusion/thumbnails/diversity_inclusion_off.gif');
+	MM_preloadImages('../Includes/pages/diversity_inclusion/thumbnails/diversity_inclusion_on.jpg','../Includes/pages/diversity_inclusion/thumbnails/diversity_inclusion_off.jpg');
 }
 var ada_href = "<%=ada_href %>";
 action_script = true;
