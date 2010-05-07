@@ -10,7 +10,7 @@
 <p style="margin: 0px;">Bank&nbsp;of&nbsp;America also provides programs that support our associates in managing their finances, their community commitments, and their educational needs.</p>
 
 <H2 class="bac" style="margin: 12px 0px 0px 0px; padding: 0px;">Associate Banking and Investments</H2>
-<p style="margin: 6px 0px 0px 0px;">Provides discounts and services to U.S.-based Bank&amp;of&amp;America associates on a wide range of banking and investing products. Please visit your local banking center or call Associate Banking &amp; Investments at 1.800.695.6262 for more details.</p>
+<p style="margin: 6px 0px 0px 0px;">Provides discounts and services to U.S.-based Bank&nbsp;of&nbsp;America associates on a wide range of banking and investing products. Please visit your local banking center or call Associate Banking &amp; Investments at 1.800.695.6262 for more details.</p>
 
 <H2 class="bac" style="margin: 12px 0px 0px 0px; padding: 0px;">Joe Martin Scholarship Program</H2>
 <p style="margin: 6px 0px 0px 0px;">Scholarships ranging from $500 to $5,000 are awarded through a competitive program to associates' dependents age 23 or younger who meet academic and extracurricular activity requirements.</p>
@@ -24,7 +24,7 @@
 <H2 class="bac" style="margin: 12px 0px 0px 0px; padding: 0px;">Volunteer Grants Program</H2>
 <p style="margin: 6px 0px 0px 0px;">An unrestricted grant is made to any qualifying nonprofit organization for which an associate has committed substantial volunteer hours within a calendar year.</p>
 
-<H2 class="bac" style="margin: 12px 0px 0px 0px; padding: 0px;"><a href="http://www.bankofamerica.com/teambank/" class="bacb" title="Team Bank of America, link opens in a new window." target="_blank">Team Bank&nbsp;of&nbsp;America</a></H2>
+<H2 class="bac" style="margin: 12px 0px 0px 0px; padding: 0px;"><a href="http://www.bankofamerica.com/teambank/" class="bacb" title="" target="_blank">Team Bank&nbsp;of&nbsp;America<span class="hidden"> Link opens a new window</span></a></H2>
 <p style="margin: 6px 0px 0px 0px;">Provides an associate with personal and professional development, as well as volunteering and networking opportunities outside the workplace. Team Bank&nbsp;of&nbsp;America has five networks: Diversity, Volunteer, Speaking, Recreation and Environmental.</p>
 
 <!-- #include file="../benefitsnav.asp" -->

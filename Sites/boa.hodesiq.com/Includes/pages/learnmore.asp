@@ -44,7 +44,7 @@ At Bank&nbsp;of&nbsp;America we welcome the unique skills, experience and values
 In an effort to continue our commitment to help &ldquo;Put America Back to Work&rdquo;, Bank&nbsp;of&nbsp;America has become a member of Alliance Q, a collaboration of companies working together to showcase career opportunities in your community. Alliance Q is a free and confidential program aimed at helping &ldquo;Put America Back to Work.&rdquo;
 </p>
 <p style="margin: 12px 0px 0px 0px;">
-If you are interested in joining, simply visit <a href="http://www.AllianceQ.com/BankofAmerica" class="p" title="www.AllianceQ.com/BankofAmerica. Link opens a new window." target="_blank">www.AllianceQ.com/BankofAmerica</a> to create your profile and be considered for thousands of other opportunities with first class employers, including Bank&nbsp;of&nbsp;America.</p>
+If you are interested in joining, simply visit <a href="http://www.AllianceQ.com/BankofAmerica" class="p" title="" target="_blank">www.AllianceQ.com/BankofAmerica<span class="hidden"> Link opens a new window</span></a> to create your profile and be considered for thousands of other opportunities with first class employers, including Bank&nbsp;of&nbsp;America.</p>
 </div>
 				</td>
 				<td width="205" height="100%" valign="top">
