@@ -19,7 +19,7 @@ Global Wealth &amp; Investment Management (GWIM) provides comprehensive wealth m
 <br><br>
 Clients have access to a range of services offered through the following businesses:
 <br><br>
-<b>BofA<span style="font-size: 0.5em; position: relative; top: -0.5em;">TM</span> Global Capital Management</b> has the experience and resources to meet the diverse needs of cash investors. Individual and institutional investors can benefit from our diverse array of investments, which includes domestic taxable and tax-exempt money market funds, offshore funds, and separately managed accounts for those who require more customized strategies.
+<b>BofA<span style="font-size: 0.7em; position: relative; top: -0.5em;">TM</span> Global Capital Management</b> has the experience and resources to meet the diverse needs of cash investors. Individual and institutional investors can benefit from our diverse array of investments, which includes domestic taxable and tax-exempt money market funds, offshore funds, and separately managed accounts for those who require more customized strategies.
 <br><br>
 <b>Global Client Coverage Group</b> is responsible for the delivery of comprehensive referrals and client coverage capabilities to bring the full power of the combined company to clients.
 <br><br>
