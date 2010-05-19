@@ -36,7 +36,7 @@ if currdate >= cdate("2009-08-15") and countryid  = "1" then %>
 		</p></td></tr>
 <%end if %>
 	<tr><td align="center" height="100%">
-		<iframe frameborder="0" src="<%=surl%>"style="width: 752px; height: 100%;" height="100%" width="752px"></iframe></td></tr>
+		<iframe frameborder="0" src="<%=surl%>"style="width: 752px; height: 100%;" height="100%" width="752px" title="apply"></iframe></td></tr>
 </table>
 </body>
 </html>
