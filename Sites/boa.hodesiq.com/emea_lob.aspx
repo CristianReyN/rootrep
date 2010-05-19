@@ -38,7 +38,7 @@
 <ul >
 
     <li >
- <b>BofA(TM) Global Capital Management</b> has the experience and resources to meet the diverse needs of cash investors. Individual and institutional investors can benefit from our diverse array of investments, which includes domestic taxable and tax-exempt money market funds, offshore funds, and separately managed accounts for those who require more customized strategies.</li>
+ <b><span style="font-size: 0.7em; position: relative; top: -0.5em;">TM</span>Global Capital Management</b> has the experience and resources to meet the diverse needs of cash investors. Individual and institutional investors can benefit from our diverse array of investments, which includes domestic taxable and tax-exempt money market funds, offshore funds, and separately managed accounts for those who require more customized strategies.</li>
     <li><b>Global Client Coverage Group</b> is responsible for the delivery of comprehensive referrals and client coverage capabilities to bring the full power of the combined company to clients.</li>
     <li><b>Global Investment Solutions</b> is responsible for managing GWIM's financial products, including mutual funds, stocks, bonds, new issue, insurance, alternative investments and structured products.</li>
     <li><b>GWIM Banking and Direct Investment Division</b> is responsible for the overall strategy and direct management of deposit and credit products &#8211; from credit cards to sophisticated lending products &#8211; across GWIM. It also includes all phone and online channels that serve GWIM clients.</li>
