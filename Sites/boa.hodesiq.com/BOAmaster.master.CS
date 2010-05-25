@@ -83,8 +83,8 @@ public partial class BOAmaster : System.Web.UI.MasterPage
         this.Page.Title = "Bank of America | Careers | " + strPageName;
         
         strScript = "<!-- BEGIN COREMETRICS SUPPORT -->" + System.Environment.NewLine;
-        strScript += "<script language='javascript1.1' src='coremetrics/v40/eluminate.js'  type='text/javascript'></script>" + System.Environment.NewLine;
-        strScript += "<script language='javascript1.1' src='coremetrics/cmdatatagutils.js' type='text/javascript'></script>" + System.Environment.NewLine;
+        strScript += "<script language='javascript1.1' src='http://www.bankofamerica.com/coremetrics/v40/eluminate.js'  type='text/javascript'></script>" + System.Environment.NewLine;
+        strScript += "<script language='javascript1.1' src='http://www.bankofamerica.com/coremetrics/cmdatatagutils.js' type='text/javascript'></script>" + System.Environment.NewLine;
         strScript += "<script language='javascript1.1' type='text/javascript'>" + System.Environment.NewLine;
         strScript += "//<!—" + System.Environment.NewLine;
         if (ConfigurationManager.AppSettings["StrAppServerName"] == "PRO" && intPage == 1) 
