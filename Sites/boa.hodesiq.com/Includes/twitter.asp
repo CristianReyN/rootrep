@@ -1,0 +1,5 @@
+<% If twitter_standalone Then %><img src="../images/clear.gif" width="100%" height="1" vspace="1" alt="" border="0" style="background: #989898;"><br clear="all"><% End If %>
+<% If Not twitter_borderless Then %><img src="../images/clear.gif" width="100%" height="1" vspace="0" alt="" border="0" style="background: #c9c9c9; margin: 0px 0px 12px 0px;"><br clear="all"><% End If %>
+<a href="http://twitter.com/BofA_Careers" title="Stay connected to Careers on twitter @BofA_Careers.  Link opens a new window." target="_blank"><img src="../images/Twitter-Ad-for-Careers_03.gif" width="187" height="105" alt="Stay connected to Careers on twitter @BofA_Careers.  Link opens a new window." border="0" align="top" style="margin: 0px;"></a><br clear="all">
+<% If Not twitter_borderless Then %><img src="../images/clear.gif" width="100%" height="1" vspace="0" alt="" border="0" style="background: #c9c9c9; margin: 12px 0px 0px 0px;"><br clear="all">
+<img src="../images/clear.gif" width="100%" height="1" vspace="1" alt="" border="0" style="background: #989898;"><br clear="all"><% End If %>

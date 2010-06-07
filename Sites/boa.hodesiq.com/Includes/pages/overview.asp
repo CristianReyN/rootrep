@@ -218,6 +218,9 @@ We create opportunities for customers to buy a home, to attend college, or to re
 <img src="../images/clear.gif" width="100%" height="1" vspace="0" alt="" border="0" style="background: #c9c9c9; margin: 12px 0px 0px 0px;"><br clear="all">
 <img src="../images/clear.gif" width="100%" height="1" vspace="1" alt="" border="0" style="background: #989898;"><br clear="all">
 </div>
+<div style="text-align: center; margin: 0px; padding: 0px;">
+<!-- #include file="../twitter.asp" -->
+</div>
 				</td>
 			</tr>
 		</table>

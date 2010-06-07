@@ -56,8 +56,8 @@ If you are interested in joining, simply visit <a href="http://www.AllianceQ.com
 <div style="text-align: center; margin: 0px; padding: 0px;">
 <!-- #include file="../talkingatm.html" -->
 </div>
-<div style="text-align: center; margin: 11px 0px 0px 0px; padding: 0px;">
-	<a href="http://twitter.com/BofA_Careers" title="Stay connected to Careers on twitter @BofA_Careers.  Link opens a new window." target="_blank"><img src="../images/Twitter-Ad-for-Careers_03.gif" width="187" height="105" alt="Stay connected to Careers on twitter @BofA_Careers.  Link opens a new window." border="0" align="top"></a><br clear="all">
+<div style="text-align: center; margin: 0px; padding: 0px;">
+<!-- #include file="../twitter.asp" -->
 </div>
 				</td>
 			</tr>

@@ -18,9 +18,6 @@
 	<img src="../images/clear.gif" width="185" height="11" alt="" border="0">
 	<a href="<%	if page_section <> "ADA" then %>../overview/<%else %>../ada/<%end if %>eeoc.asp" title="Equal Employment Opportunity.and Affirmative Action Statement "><img src="../images/camp/eeoc.gif" width="185" height="38" alt="Equal Employment Opportunity.and Affirmative Action Statement " border="0"></a>
 	<img src="../images/clear.gif" width="185" height="5" alt="" border="0"><br clear="all">
-<%		End if %>
-<%		if r5 then %>
-	
-<%		End if %>
+<%		End if %><% if r5 then %><% End if %>
 </div>
 <%	End if %>

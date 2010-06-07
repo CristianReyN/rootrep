@@ -54,6 +54,9 @@
 	<H2 class="g" style="margin: 0px 0px 0px 0px;"><%=JOB_SEARCH_TITLE%></H2>
 	<img src="../images/clear.gif" width="100%" height="1" alt="" border="0" style="margin: 1px 0px 6px 0px; background: #e8e8e9;" align="top"><br clear="all">
 <!-- #include file="../jobsearch.asp" -->
+</div><% twitter_standalone = true %>
+<div style="text-align: center; margin: 0px; padding: 0px;">
+<!-- #include file="../twitter.asp" -->
 </div>
 <br><br>
 				</td>
