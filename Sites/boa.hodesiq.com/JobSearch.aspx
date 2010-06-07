@@ -160,8 +160,11 @@
 							</td>
 						</tr>
 						<tr><td colspan="2">&nbsp;</td></tr>
-					</table>
-					<br />
+					</table><br />
+					<div style="text-align: left; margin: 11px 0px 0px 0px; padding: 0px;">
+	<a href="http://twitter.com/BofA_Careers" title="Stay connected to Careers on twitter @BofA_Careers.  Link opens a new window." target="_blank"><img src="../images/Twitter-Ad-for-Careers_03.gif" width="187" height="105" alt="Stay connected to Careers on twitter @BofA_Careers.  Link opens a new window." border="0" align="top"></a><br clear="all">
+</div>
+					<br /><br />
 					<asp:Panel ID="PnlUSJobsContent" runat="server">					
 					<a href="overview/manage_your_profile.asp" target="_blank" class="p" onblur="this.className='p';" onfocus="this.className='p-over';" >Manage Your Profile</a><BR/>
 					Create or update your existing candidate profile.<br /><br />
