@@ -163,7 +163,7 @@ Bank of Opportunity.
 <% jwidth = 378
 style = "margin: 0px;"%>
 <!-- #include file="../jobsearch.asp" -->
-					<table width="378" style="margin: 0px 0px 0px 0px;" cellpadding="0" cellspacing="0" border="0" summary="">
+					<table width="378" style="margin: 0px 0px 90px 0px;" cellpadding="0" cellspacing="0" border="0" summary="">
 						<tr>
 							<td colspan="2" valign="top" width="100%" style="padding: 0px 0px 0px 0px;">
 <div id="L01" style="position: relative; z-index: 12;">
@@ -192,7 +192,6 @@ We create opportunities for customers to buy a home, to attend college, or to re
 							</td>
 						</tr>
 					</table>
-<br><br>
 				</td>
 				<td width="192" height="100%" valign="top" style="padding: 12px 0px 0px 4px;" id="foot">
 <div style="text-align: center; margin: 0px; padding: 0px;">
