@@ -24,6 +24,14 @@
                         </td>
                     </tr>
                     <tr>
+                    <td colspan=2>
+                    	</table><br />
+				<div style="text-align: left; margin: 11px 0px 0px 0px; padding: 0px;">
+	<a href="http://twitter.com/BofA_Careers" title="Stay connected to Careers on twitter @BofA_Careers.  Link opens a new window." target="_blank"><img src="../images/Twitter-Ad-for-Careers_03.gif" width="187" height="105" alt="Stay connected to Careers on twitter @BofA_Careers.  Link opens a new window." border="0" align="top"></a><br clear="all">
+</div>
+                    </td>
+                    </tr>
+                    <tr>
                         <td style="padding: 18px 6px 0px 0px;" valign="top">
                             <h2 style="margin: 0px;">
                                 Description</h2>
