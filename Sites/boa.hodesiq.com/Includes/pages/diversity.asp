@@ -28,8 +28,11 @@ Our work environment draws on the strength of every associate to build an atmosp
 	<li><b>Affinity Groups</b>
 		<br>Groups of associates with a common interest and those who support them. Currently, there are nine groups organized by affinity: Asian, Black, people with disabilities, Hispanic/Latino, women, military veterans, gay, lesbian, bisexual and transgender, Native American and the Europe, Middle East and Africa (EMEA) Multicultural Leadership Network which connects ethnic minority associates in the EMEA region.<br><br></li>
 	<li><b>Diversity Network</b>
-		<br>One of five networks that make up <a href="http://www.bankofamerica.com/teambank/" target="_blank" class="p" onfocus="this.className='p-over';" onblur="this.className='p';" title="Community Volunteers">Community Volunteers</a>, the Diversity Network is comprised of geographically based volunteer teams of associates. The Network&#39;s mission is to encourage and capitalize on the diversity of our associates and promote personal and professional development. Membership is open to associates at all levels of the company.<br><br></li>
+		<br>One of five networks that make up <a href="http://www.bankofamerica.com/teambank/" target="_blank" class="p" title="Community Volunteers">Community Volunteers</a>, the Diversity Network is comprised of geographically based volunteer teams of associates. The Network&#39;s mission is to encourage and capitalize on the diversity of our associates and promote personal and professional development. Membership is open to associates at all levels of the company.<br><br></li>
 </ul>
+<p style="margin: 12px 0px 0px 0px;">
+If you have questions about an upcoming diversity recruiting event or need additional information about the bank&#39;s diversity efforts, please send an e-mail to <a class="p" href="mailto:diversity@bankofamerica.com" style="letter-spacing : -0.01em;">diversity@bankofamerica.com</a>.
+</p>
 <!-- #include file="../diversitynav.asp" -->
 				</td>
 				<td width="205" height="100%" valign="top">

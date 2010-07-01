@@ -4,35 +4,43 @@
 				<td width="373" height="100%" valign="top" style="<%=middle_content_padding%>">
 <div id="Layer1" style="position: relative; z-index: 12;">
 <img class="dotdiv" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
+<p>The bank&#39;s commitment to supporting a diverse workforce has earned Bank&nbsp;of&nbsp;America significant public recognition from these publications among others listed below:</p>
 
-<H2 class="p" style="margin: 12px 0px 6px 0px; padding: 0px;"><span class="bd"><b>In 2009</b></span></H2>
+<H2 class="p" style="margin: 12px 0px 6px 0px; padding: 0px;"><span class="bd"><b>2010 Recognition:</b></span></H2>
+<ul>
+	<li>In the July issue of <b>Black Enterprise</b> magazine, Bank&nbsp;of&nbsp;America was named one of the &ldquo;40 Best Companies for Diversity&rdquo; for the sixth year in a row. The list evaluates a company&#39;s board representation, supplier diversity, associate networks, senior management and diversity programs.</li>
+	<li>Bank&nbsp;of&nbsp;America for the fifth year in a row received <b>Conceive</b> magazine&#39;s &ldquo;Top 50 Best Companies&rdquo; award for offering generous fertility and/or adoption benefits.</li>
+	<li>Bank&nbsp;of&nbsp;America ranked No. 9 on <b>DiversityInc</b> magazine&#39;s &ldquo;Top 50 Companies for Diversity&rdquo; annual list. The bank received special recognition on its &ldquo;Top Companies&rdquo; specialty lists for Recruitment &amp; Retention, LGBT, Executive Women and Supplier Diversity. The bank has been recognized on the DiversityInc list for multiple years.</li>
+	<li>Bank&nbsp;of&nbsp;America ranked for the second year in a row on the <b>National Association for Female Executives&#39; Top Companies</b> list. The 2010 NAFE Top Companies includes 50 companies and ten non-profit organizations from across the United States.</li>
+	<li><b>DiversityMBA</b> magazine ranked Bank&nbsp;of&nbsp;America No.5 on its &ldquo;Top 50 Companies for Diverse Managers to Work&rdquo; list. The list showcases companies that make a strategic effort to implement accountable diversity strategies for managers of diverse backgrounds to excel and develop into the executive ranks.</li>
+	<li><b>Diversitybusiness.com</b> selected as one of &ldquo;America&#39;s Top Organizations for Multicultural Business Opportunities for 2010.&rdquo; The Div50 represents a list of the Top 50 Corporations who are noted for their commitment to multicultural business opportunities.  The award is based on factors such as volume, consistency and quality of business initiatives a company grants to multicultural suppliers.</li>
+</ul>
+
+<H2 class="p" style="margin: 12px 0px 6px 0px; padding: 0px;"><span class="bd"><b>2010 Associate Recognition:</b></span></H2>
+<ul>
+	<li>30 Merrill Lynch Global Wealth Management Financial Advisors were named to Barron&#39;s &ldquo;Top 100 Women Financial Advisors&rdquo; list, more than any other firm.</li>
+	<li>Cathy Bessant, Global Technology &amp; Operations executive was honored by <b>Queens University of Charlotte</b> as the 2009 Charlotte Business Woman of the Year. She is the 25th recipient of the annual award, which recognizes the achievement of women in for-profit enterprises, based on their contributions to the business, civic and cultural communities of the Charlotte region.</li>
+	<li><b>Charlotte Business Journal</b> recognized Katy Knox, Global Commercial Banking Southeast Region executive and Laurie Readhead, eChannels &amp; Customer Solutions executive on its Top Women in Business list.</li>
+	<li><b>Black Enterprise magazine</b> recognized Amy Ellis-Simon, managing director and head of middle markets sales as one of the top 75 women in business in its February issue.</li>
+</ul>
+
+<H2 class="p" style="margin: 12px 0px 6px 0px; padding: 0px;"><span class="bd"><b>2009 Recognition:</b></span></H2>
 <ul>
 	<li><b>Black EOE Journal, Hispanic Network Magazine, and Professional Woman&#39;s Magazine</b> announced that Bank&nbsp;of&nbsp;America has been selected and will be recognized in its 2009 &ldquo;Best of the Best&rdquo; Annual Diversity Review Series. The annual evaluation identifies corporations that are providing the best opportunities for minorities. For the rankings, the publication reviews diversity employment, supplier diversity, and corporations by industry (financial institutions, auto makers, retailers, etc.), and education.</li>
-	<li><b>Forbes magazine</b> recognized two Bank&nbsp;of&nbsp;America senior female leaders in its September issue. Barbara Desoer, president of Home Loans &amp; Insurance, and Sallie Krawcheck, president of Global Wealth &amp; Investment Management, were ranked on Forbes magazine&#39;s annual list of the World&#39;s 100 Most Powerful Women.</li>
-	<li><b>Fortune magazine</b> recognized Barbara Desoer, president of Home Loans &amp; Insurance, and Sallie Krawcheck, president of Global Wealth &amp; Investment Management as top women in business on its annual 50 Most Powerful Women in Business list.</li>
-	<li><b>US Banker magazine</b> honored five top women leaders at the company in its October issue. Barbara Desoer, president of Home Loans &amp; Insurance, and Anne Finucane, global chief strategy &amp; marketing officer, made its 25 Most Powerful Women in Banking list. Sallie Krawcheck, president of Global Wealth &amp; Investment Management, and Cathy Bessant, then president of Global Corporate Banking, were named to the publication&#39;s 25 Women to Watch list. Bessant is now the Global Technology and Operations executive. Candace Browning, president of Global Research, was ranked on the Top 25 Nonbank Women in Finance list.</li>
-	<li>For the 21st year Bank&nbsp;of&nbsp;America has been recognized again on the <b>Working Mother</b> magazine &ldquo;100 Best Companies&rdquo; for working mothers list.</li>
-	<li>Sallie Krawcheck, Global Wealth and Investment Management president, was ranked No. 5 in <b>Crain&#39;s New York Business</b> as one of the 50 Most Powerful Women in New York.</li>
-	<li>For the fourth year in a row the company scored 100% on the <b>Human Rights Campaign Corporate Equality Index</b>. The rating is based on the company&#39;s policies and efforts to support its gay, lesbian, bisexual and transgender associates.</li>
-	<li>The <b>Times</b> newspaper in the United Kingdom recognized the company as one of the top companies for women in its annual &ldquo;Where Women Want to Work Top 50&rdquo; list.</li>
-	<li><b>Hispanic Business</b> magazine selected Bank&nbsp;of&nbsp;America as one of its &ldquo;Top 60 Diversity Elite&rdquo; for the fourth year in a row. The recognition is based on the company&#39;s dedication to supporting Hispanics in the workplace.</li>
-	<li>Bank&nbsp;of&nbsp;America for the fifth year in a row was named to <b>LATINAStyle</b> magazine&#39;s &ldquo;Top 50 Companies&rdquo; list. The magazine ranks the best companies in the United States for Latinas to work at.</li>
+	<li>For the 21st year, Bank&nbsp;of&nbsp;America has been recognized again on the <b>Working Mother</b> magazine &ldquo;100 Best Companies&rdquo; for working mothers list.</li>
+	<li>Bank&nbsp;of&nbsp;America was named in the top 50 companies for women by the <b>National Association for Female Executives</b> in 2009.</li>
+	<li>For the fourth year in a row, the bank scored 100% on the <b>Human Rights Campaign Corporate Equality Index</b>. The rating is based on the bank&#39;s policies and efforts to support its lesbian, gay, bisexual and transgender associates.</li>
+	<li><b>The Times</b> newspaper in the United Kingdom recognized the bank as one of the top companies for women in its annual &ldquo;Where Women Want to Work Top 50&rdquo; list.</li>
+	<li><b>Hispanic Business</b> magazine selected Bank&nbsp;of&nbsp;America as one of its &ldquo;Top 60 Diversity Elite&rdquo; for the fourth year in a row. The recognition is based on the bank&#39;s dedication to supporting Hispanics in the workplace.</li>
+	<li>Bank&nbsp;of&nbsp;America for the fifth year in a row was named to <b>LATINA Style</b> magazine&#39;s &ldquo;Top 50 Companies&rdquo; list. The magazine ranks the best companies in the United States for Latinas to work.</li>
 	<li><b>Black Enterprise</b> magazine named Bank&nbsp;of&nbsp;America one of its &ldquo;40 Best Companies for Diversity&rdquo; for the fifth year in a row. The list evaluates a company&#39;s board representation, supplier diversity, associate networks, senior management and diversity programs.</li>
-	<li>Bank&nbsp;of&nbsp;America ranked No. 14 on <b>DiversityInc</b> magazine&#39;s &ldquo;Top 50 Companies for Diversity&rdquo; annual list. The company received special recognition on specialty lists: Top 10 Companies for Recruitment &amp; Retention, Top 10 Companies for Latinos, Top 10 Companies for Executive Women, Top 10 Companies for Supplier Diversity.</li>
-	<li>Bank&nbsp;of&nbsp;America was recognized by <b>US Black Engineer &amp; Information Technology</b> magazine as one of 2009&#39;s &ldquo;Most Admired Employers&rdquo; for minority professionals.</li>
-	<li><b>Diversity Edge</b> magazine&#39;s &ldquo;Best Companies for Diverse Graduates&rdquo; article ranked Bank&nbsp;of&nbsp;America at No. 9. This list recognizes companies that have shown leadership in recruiting, retaining and advancing the careers of diverse professionals.</li>
-	<li><b>Diversity MBA</b> magazine again this year recognized Bank&nbsp;of&nbsp;America. The company ranked No. 8 on its &ldquo;Top 50 Companies for Diverse Managers to Work&rdquo; list. The list showcases companies that make a strategic effort to implement accountable diversity strategies for managers of diverse backgrounds to excel and develop into the executive ranks.</li>
-	<li>Bank&nbsp;of&nbsp;America again this year received <b>Conceive</b> magazine&#39;s &ldquo;Top 50 Best Companies&rdquo; award for offering generous fertility and/or adoption benefits.</li>
-	<li>Bank&nbsp;of&nbsp;America named in the top 50 companies for women by <b>National Association for Female Executives</b>.</li>
-	<li><b>Dave Thomas Foundation for Adoption</b> recognized the company for the third year in a row as one of the best companies for adoption benefits on its annual Best Adoption-Friendly Workplace list.</li>
+	<li>Bank&nbsp;of&nbsp;America ranked No. 14 on <b>DiversityInc</b> magazine&#39;s &ldquo;Top 50 Companies for Diversity&rdquo; annual list. The bank received special recognition on specialty lists: Top 10 Companies for Recruitment &amp; Retention, Top 10 Companies for Latinos, Top 10 Companies for Executive Women, Top 10 Companies for Supplier Diversity. The bank has been recognized on the DiversityInc list for multiple years.</li>
+	<li><b>Diversity Edge</b> magazine&#39;s &ldquo;Best Companies for Diverse Graduates&rdquo; ranked Bank&nbsp;of&nbsp;America at No. 9. This list recognizes companies that have shown leadership in recruiting and advancing the careers of diverse professionals.</li>
+	<li><b>DiversityMBA</b> magazine ranked Bank&nbsp;of&nbsp;America No.8 on its &ldquo;Top 50 Companies for Diverse Managers to Work&rdquo; list. The list showcases companies that make a strategic effort to implement accountable diversity strategies for managers of diverse backgrounds to excel and develop into the executive ranks.</li>
+	<li><b>US Black Engineer &amp; Information Technology</b> magazine readers have chosen Bank&nbsp;of&nbsp;America as one of the &ldquo;2009 Top Most Admired Companies&rdquo; for minority professionals. The bank was honored for the second year in a row.</li>
+	<li>Bank&nbsp;of&nbsp;America received <b>Conceive</b> magazine&#39;s &ldquo;Top 50 Best Companies&rdquo; award for offering generous fertility and/or adoption benefits.</li>
+	<li><b>Dave Thomas Foundation for Adoption</b> recognized the bank again this year as one of the best companies for adoption benefits on its annual Best Adoption-Friendly Workplace list.</li>
 </ul>
-
-<H2 class="p" style="margin: 12px 0px 6px 0px; padding: 0px;"><span class="bd"><b>Additional recognition</b></span></H2>
-
-<ul>
-	<li>For the sixth time, <b>Women&#39;s Business Enterprise National Council (WBENC)</b> recognized Bank&nbsp;of&nbsp;America as one of America&#39;s "Top Corporations for Women&#39;s Business Enterprises (WBEs)." The award was presented to Bank&nbsp;of&nbsp;America for its companywide programs offering equal access for WBEs in competing for and winning corporate contracts for goods and services.</li>
-</ul>
-
 <br><br>
 <%	href_pre = ""
 	if page_section <> "ADA" then href_pre = "../learnmore/" %>

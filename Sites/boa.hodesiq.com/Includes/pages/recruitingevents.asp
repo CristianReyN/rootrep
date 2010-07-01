@@ -35,55 +35,6 @@ During the course of the year, Bank of America participates in and supports vari
 
 <p style="text-align: left; margin-top: 12px; margin-bottom: 0px;">
 <b>RecruitMilitary Opportunity Fair</b><br>
-April 1, 2010<br>
-Boston, MA<br>
-<a href="http://www.recruitmilitary.com" target="_blank" title="Link opens a new window." class="p">www.recruitmilitary.com</a>
-</p>
-
-<p style="text-align: left; margin-top: 12px; margin-bottom: 0px;">
-<b>RecruitMilitary Opportunity Fair</b><br>
-May 13, 2010<br>
-Norfolk, VA<br>
-<a href="http://www.recruitmilitary.com" target="_blank" title="Link opens a new window." class="p">www.recruitmilitary.com</a>
-</p>
-
-<p style="text-align: left; margin-top: 12px; margin-bottom: 0px;">
-<b>RecruitMilitary Opportunity Fair</b><br>
-May 27, 2010<br>
-New York, NY<br>
-<a href="http://www.recruitmilitary.com" target="_blank" title="Link opens a new window." class="p">www.recruitmilitary.com</a>
-</p>
-
-<p style="text-align: left; margin-top: 12px; margin-bottom: 0px;">
-<b>RecruitMilitary Opportunity Fair</b><br>
-June 10, 2010<br>
-Miami, FL<br>
-<a href="http://www.recruitmilitary.com" target="_blank" title="Link opens a new window." class="p">www.recruitmilitary.com</a>
-</p>
-
-<p style="text-align: left; margin-top: 12px; margin-bottom: 0px;">
-<b>The Consortium * Feeder organization</b><br>
-June 13 - 16, 2010<br>
-Orlando, Florida<br>
-<a href="http://www.cgsm.org" target="_blank" title="Link opens a new window." class="p">www.cgsm.org</a>
-</p>
-
-<p style="text-align: left; margin-top: 12px; margin-bottom: 0px;">
-<b>National Association of Black Accountants (NABA)</b><br>
-June 16 - 19, 2010<br>
-Houston ,Texas<br>
-<a href="http://www.nabainc.org" target="_blank" title="Link opens a new window." class="p">www.nabainc.org</a>
-</p>
-
-<p style="text-align: left; margin-top: 12px; margin-bottom: 0px;">
-<b>RecruitMilitary Opportunity Fair</b><br>
-June 17, 2010<br>
-Dallas, TX<br>
-<a href="http://www.recruitmilitary.com" target="_blank" title="Link opens a new window." class="p">www.recruitmilitary.com</a>
-</p>
-
-<p style="text-align: left; margin-top: 12px; margin-bottom: 0px;">
-<b>RecruitMilitary Opportunity Fair</b><br>
 July 22, 2010<br>
 Charlotte, NC<br>
 <a href="http://www.recruitmilitary.com" target="_blank" title="Link opens a new window." class="p">www.recruitmilitary.com</a>
