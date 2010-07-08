@@ -51,7 +51,7 @@ Lake Buena Vista, Florida<br>
 <b>Association of Asian Professionals in Finance & Accounting (ASCEND)</b><br>
 August 14 - 16, 2010<br>
 New York, New York<br>
-<a href="http://www.naasa.org" target="_blank" title="Link opens a new window." class="p">www.naasa.org</a>
+<a href="http://www.ascendleadership.org" target="_blank" title="Link opens a new window." class="p">www.ascendleadership.org</a>
 </p>
 
 <p style="text-align: left; margin-top: 12px; margin-bottom: 0px;">
