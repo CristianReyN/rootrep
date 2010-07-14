@@ -36,56 +36,56 @@ During the course of the year, Bank of America participates in and supports vari
 <b>RecruitMilitary Opportunity Fair</b><br>
 July 22, 2010<br>
 Charlotte, NC<br>
-<a href="http://www.recruitmilitary.com" target="_blank" class="p">www.recruitmilitary.com<span class=”hidden:>Link opens a new window</span></a>
+<a href="http://www.recruitmilitary.com" target="_blank" class="p">www.recruitmilitary.com<span class="hidden"> Link opens a new window</span></a>
 </p>
 
 <p style="text-align: left; margin-top: 12px; margin-bottom: 0px;">
 <b>Association of Latino Professionals in Finance & Accounting (ALPFA)</b><br>
 July 31 - August 4, 2010<br>
 Lake Buena Vista, Florida<br>
-<a href="http://www.alpfa.org" target="_blank" class="p">www.alpfa.org<span class=”hidden:>Link opens a new window</span></a>
+<a href="http://www.alpfa.org" target="_blank" class="p">www.alpfa.org<span class="hidden"> Link opens a new window</span></a>
 </p>
 
 <p style="text-align: left; margin-top: 12px; margin-bottom: 0px;">
 <b>Association of Asian Professionals in Finance & Accounting (ASCEND)</b><br>
 August 14 - 16, 2010<br>
 New York, New York<br>
-<a href="http://www.ascendleadership.org" target="_blank" class="p">www.ascendleadership.org<span class=”hidden:>Link opens a new window</span></a>
+<a href="http://www.ascendleadership.org" target="_blank" class="p">www.ascendleadership.org<span class="hidden"> Link opens a new window</span></a>
 </p>
 
 <p style="text-align: left; margin-top: 12px; margin-bottom: 0px;">
 <b>RecruitMilitary Opportunity Fair</b><br>
 August 19, 2010<br>
 Jacksonville, FL<br>
-<a href="http://www.recruitmilitary.com" target="_blank" class="p">www.recruitmilitary.com<span class=”hidden:>Link opens a new window</span></a>
+<a href="http://www.recruitmilitary.com" target="_blank" class="p">www.recruitmilitary.com<span class="hidden"> Link opens a new window</span></a>
 </p>
 
 <p style="text-align: left; margin-top: 12px; margin-bottom: 0px;">
 <b>National Black MBA (NBMBAA)</b><br>
 September 21 -25, 2010<br>
 Los Angeles, California<br>
-<a href="http://www.nbmbaa.org" target="_blank" class="p">www.nbmbaa.org<span class=”hidden:>Link opens a new window</span></a>
+<a href="http://www.nbmbaa.org" target="_blank" class="p">www.nbmbaa.org<span class="hidden"> Link opens a new window</span></a>
 </p>
 
 <p style="text-align: left; margin-top: 12px; margin-bottom: 0px;">
 <b>RecruitMilitary Opportunity Fair</b><br>
 October 7, 2010<br>
 Atlanta, GA<br>
-<a href="http://www.recruitmilitary.com" target="_blank" class="p">www.recruitmilitary.com<span class=”hidden:>Link opens a new window</span></a>
+<a href="http://www.recruitmilitary.com" target="_blank" class="p">www.recruitmilitary.com<span class="hidden"> Link opens a new window</span></a>
 </p>
 
 <p style="text-align: left; margin-top: 12px; margin-bottom: 0px;">
 <b>Reaching Out MBA (ROMBA)</b><br>
 October 14 - 17, 2010<br>
 Los Angeles, California<br>
-<a href="http://www.reachingoutmba.org" target="_blank" class="p">www.reachingoutmba.org<span class=”hidden:>Link opens a new window</span></a>
+<a href="http://www.reachingoutmba.org" target="_blank" class="p">www.reachingoutmba.org<span class="hidden"> Link opens a new window</span></a>
 </p>
 
 <p style="text-align: left; margin-top: 12px; margin-bottom: 0px;">
 <b>National Society of Hispanic MBAs (NSHMBA)</b><br>
 October 21 - 23, 2010<br>
 Chicago, Illinois<br>
-<a href="http://www.nshmba.org" target="_blank" class="p">www.nshmba.org<span class=”hidden:>Link opens a new window</span></a>
+<a href="http://www.nshmba.org" target="_blank" class="p">www.nshmba.org<span class="hidden"> Link opens a new window</span></a>
 </p>
 
 <br><br>
