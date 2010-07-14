@@ -176,7 +176,7 @@ if ( !window.removeStopAudio )
 
 function getReqFlashPlayer ( requiredMajorVersion )
 {
-	return '<a href="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash" title="This video requires Adobe Flash Player version '+requiredMajorVersion+'. Please download latest version." class="p" onfocus="this.className=\'p-over\';" onblur="this.className=\'p\';">This video requires Adobe Flash Player version '+requiredMajorVersion+'. Please download latest version.<\/a>';
+	return '<div style="width : 300px;"><a href="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash" title="This video requires Adobe Flash Player version '+requiredMajorVersion+'. Please download latest version." class="p">This video requires Adobe Flash Player version '+requiredMajorVersion+'. Please download latest version.<\/a><\/div>';
 }
 function getReqFlashPlayerImg ( img_src, requiredMajorVersion )
 {
@@ -186,12 +186,12 @@ function getReqFlashPlayerImg ( img_src, requiredMajorVersion )
 var flash = '<a class="auraltext" href="JavaScript: ow();" onFocus="hover(this,\'show-tab\');" onblur="hover(this,\'auraltext\');" title="Access Flash">Access Flash<\/a><a class="auraltext" href="#skipflash" onFocus="hover(this,\'show-tab\');" onblur="hover(this,\'auraltext\');" title="Skip Flash content">Skip Flash content<\/a>';
 	flash += '<div style="position: relative; top: 0; left: 0; ">';
 	flash += '<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,0,0" id="boa_cws_intro" width="578" height="300" align="middle" tabindex="0" title="Flash Animation" style="margin: 0px;">';
-	flash += '<param name="allowScriptAccess" value="sameDomain" />';
-	flash += '<param name="movie" value="../images/boa_cws_intro.swf" />';
+	flash += '<param name="allowScriptAccess" value="always" />';
+	flash += '<param name="movie" value="http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/boa_cws_intro.swf" />';
 	flash += '<param name="quality" value="high" />';
 	flash += '<param name="wmode" value="transparent" />';
 	flash += '<param name="bgcolor" value="#ffffff" />';
-	flash += '<embed src="../images/boa_cws_intro.swf" wmode="transparent" quality="high" bgcolor="#ffffff" width="578" height="300" align="middle" allowScriptAccess="sameDomain" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" style="margin: 0px;" swLiveConnect=true id="boa_cws_intro" name="boa_cws_intro" /><\/embed>';
+	flash += '<embed src="http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/boa_cws_intro.swf" wmode="transparent" quality="high" bgcolor="#ffffff" width="578" height="300" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" style="margin: 0px;" swLiveConnect=true id="boa_cws_intro" name="boa_cws_intro" /><\/embed>';
 	flash += '<\/object>';
 	flash += '<\/div>';
 	

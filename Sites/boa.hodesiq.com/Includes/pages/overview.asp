@@ -22,8 +22,10 @@ if ( hasRequestedVersion ) {
 	document.write('<table border="0" cellspacing="0" cellpadding="0" width="578" height="300"><tr><td valign="top" width="312"><div id="fdv" style="position: absolute; width: 578px; height: 300px; clip: rect(0 578 300 0);">'+flash+'<\/div></td>');
 	document.write('<td valign="top" width="266"><img id="idvi" src="../images/clear.gif" style="position: absolute; width: 266px; height: 425px; clip: rect(0 266 425 0); display: none;" /></td></tr></table>');
 } else {
-	rotate_img("start");
-	document.write(getReqFlashPlayerImg ( "../images/whyworkhere_cc.jpg",9)); 
+	init_img();
+	window.onload_do[window.onload_do.length] = function(){rotate_img("start");};
+	document.write('<table border="0" cellspacing="0" cellpadding="0" width="578" height="300"><tr><td valign="top" width="312"><div id="fdv" style="position: absolute; width: 578px; height: 300px; clip: rect(0 578 300 0);">'+getReqFlashPlayerImg( "../images/whyworkhere_cc.jpg",9)+'<\/div></td>');
+	document.write('<td valign="top" width="266"><img id="idvi" src="../images/clear.gif" style="position: absolute; width: 266px; height: 425px; clip: rect(0 266 425 0); display: none;" /></td></tr></table>');
 }
 //-->
 </script>

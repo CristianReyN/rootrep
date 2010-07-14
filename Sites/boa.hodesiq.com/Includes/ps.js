@@ -30,8 +30,18 @@ function s_commit()
 	if ( s_vstart != document.jsearch.stateid.value ) document.jsearch.submit();
 }
 
+window.onload_do = new Array();
+
 function startPs()
 {
+	if ( window.onload_do.length > 0 )
+	{
+		for (var i=0; i<window.onload_do.length; i++)
+		{
+			window.onload_do[i]();
+		}
+	}
+	
 	if ( document.jsearch && document.jsearch.countryid )
 	{
 		document.jsearch.countryid.onkeydown = c_KeyCheck;
