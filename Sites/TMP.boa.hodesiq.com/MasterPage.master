@@ -1,0 +1,327 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+<%@ Register Assembly="System.Web.Extensions, Version=1.0.61025.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+    Namespace="System.Web.UI" TagPrefix="asp" %>
+    <%@ Register Src="~/usercontrols/uc_LeftNavigation.ascx" TagName="LeftNav" TagPrefix="uc1" %>
+    <%@ Register Src="usercontrols/uc_JobSearch.ascx" TagName="Search" TagPrefix="uc2" %>
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head id="myhead6" runat="server">
+<meta name="verify-v1" content="6WIJiaM285a+e0IHvu0RfrHoW4DbaMdT2rFnVlmR40U=" />
+    <meta http-equiv="content-type" content="text/html; charset=iso-8859-1">
+    <meta name="keywords" content="Bank of America, Global, Careers, Bank, Banking, Bank of Opportunity, BA Continuum, BANA, EMEA, Asia, Canada, Europe, Middle East, Africa, United States, Globalization, Corporate banking, Investment banking, Financial institutions, Campus recruiting, Guided job search, International jobs and opportunities" />
+    <link rel="stylesheet" href="includes/DotNetStyles.css" type="text/css">
+    <link rel="stylesheet" href="includes/hs_safebutton.css" type="text/css">
+    <link rel="stylesheet" href="resources/style.css" type="text/css">
+    <style type="text/css">
+.map_bg_asia
+{
+	background-image: url(images/map/boa_asia_map_bg.jpg);
+	background-repeat:no-repeat;
+	width:566px;
+	height:442px;
+}
+</style>
+
+    <script language="JavaScript1.2" src="includes/masthead.js" type="text/javascript"></script>
+
+    <script language="JavaScript1.2" src="includes/mvc-fontsize.js" type="text/javascript"></script>
+
+    <script language="JavaScript1.2" src="includes/ps.js" type="text/javascript"></script>
+
+    <script src="Includes/hs_safebutton.js" language="JavaScript" type="text/javascript"></script>
+
+    <script language="javascript" type="text/javascript">
+        //<!--
+        function popup(imnam) {
+            window.open(imnam, "pop", "directory=no,height=450,width=500,toolbar=no,scrollbars=yes,location=no,resizable=yes");
+        }
+        function hover(ref, classRef) { eval(ref).className = classRef; }
+        function tdiv(tf) { }
+        //-->
+
+
+
+
+
+
+
+    </script>
+
+</head>
+<body id="body" onload="startPs(); if(window.loadVideoHost)loadVideoHost(); fixIE();" 
+    onunload="" style="font-size: 10px;">
+
+    <script language="javascript1.1" src="http://www.bankofamerica.com/coremetrics/v40/eluminate.js" type="text/javascript"></script>
+
+    <script language="javascript1.1" src="http://www.bankofamerica.com/coremetrics/cmdatatagutils.js" type="text/javascript"></script>
+
+    <script language="javascript" type="text/javascript">
+        //<!--
+        examineFontSize("body");
+        cmSetProduction();
+        cmCreatePageviewTag("globalcareers:asia.asp", null, null, "career:globalcareers");
+        //-->
+    </script>
+
+
+    <table width="750" cellpadding="0" cellspacing="0" border="0" summary="">
+        <tr>
+            <td valign="top" colspan="3" height="71">
+                <table width="750" border="0" cellspacing="0" cellpadding="0" summary="">
+                    <tr>
+                        <td valign="top">
+                            <a name="top"></a><a href="#skipmaincontent" title="Skip To Main Content.">
+                                <img src="http://careers.bankofamerica.com/images/clear.gif" width="1" height="69"
+                                    alt="Skip To Main Content." border="0" /></a><img src="http://careers.bankofamerica.com/images/clear.gif"
+                                        width="10" height="69" alt="" border="0" /><a href="http://www.bankofamerica.com/"
+                                            title="Bank of America home"><img  id="ImgHeaderLogo" runat="server" src="http://careers.bankofamerica.com/images/mhd_reg_logo.gif"
+                                                width="250" height="69" alt="Bank of America home" border="0" /></a><a href="http://www.bankofamerica.com/help/index.cfm?template=sitemap.cfm"
+                                                    title="Go to site map."><img src="http://careers.bankofamerica.com/images/clear.gif"
+                                                        width="1" height="69" alt="Go to site map." border="0" /></a></td>
+                                                          <td align="right" style=" width:2px;"></td>
+                        <td valign="bottom" align="right" style="width: 256px">
+                            <table width="100%" border="0" cellspacing="0" cellpadding="0" summary="">
+                                <tr>
+                                    <td colspan="2" valign="bottom" align="right" nowrap style="height: 13px">
+                                        <a href="http://www.bankofamerica.com/index.cfm?page=about" class="mh-link1" title="Home"
+                                            onfocus="this.className='mh-link1-over';" onblur="this.className='mh-link1';">Home</a>&#160;<span
+                                                class="linksep1">&#8226;</span>&#160;<a href="http://www.bankofamerica.com/findit/locator.cfm"
+                                                    class="mh-link1" title="Locations" onfocus="this.className='mh-link1-over';"
+                                                    onblur="this.className='mh-link1';">Locations</a>&#160;<span class="linksep1">&#8226;</span>&#160;<a
+                                                        href="http://careers.bankofamerica.com/overview/contact_us.asp" class="mh-link1"
+                                                        title="Contact Us" onfocus="this.className='mh-link1-over';" onblur="this.className='mh-link1';">Contact
+                                                        Us</a>&#160;<span class="linksep1">&#8226;</span>&#160;<a href="http://www.bankofamerica.com/help"
+                                                            class="mh-link1" title="Help" onfocus="this.className='mh-link1-over';" onblur="this.className='mh-link1';">Help</a>&#160;<span
+                                                                class="linksep1">&#8226;</span>&#160;<a href="http://www.bankofamerica.com/signin/"
+                                                                    class="mh-link2" title="Sign In" onfocus="this.className='mh-link2-over';" onblur="this.className='mh-link2';">Sign
+                                                                    In</a></td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2">
+                                        <img src="http://careers.bankofamerica.com/images/clear.gif" width="1" height="3"
+                                            alt="" border="0" /></td>
+                                </tr>
+                                <tr>
+                                    <td width="5">
+                                        <img src="http://careers.bankofamerica.com/images/mhd_5x5_search_corner.gif" alt=""
+                                            width="5" height="5" border="0" /></td>
+                                    <td width="100%" class="mh-hline">
+                                        <img src="http://careers.bankofamerica.com/images/clear.gif" width="100%" height="5"
+                                            alt="" border="0" /></td>
+                                </tr>
+                                <tr align="right">
+                                    <td width="5" class="mh-vline">
+                                        <img src="http://careers.bankofamerica.com/images/clear.gif" width="5" height="1"
+                                            alt="" border="0" /></td>
+                                    <td width="100%" class="mh-hline-bkg" valign="bottom">
+                                        <input name="ui_mode" type="hidden" value="question">
+                                        <form method="post" action="http://www.bankofamerica.com/search/" style="margin: 0px;"
+                                            name="SiteSearchForm" target="_parent">
+                                            <table width="100%" border="0" cellspacing="0" cellpadding="0" summary="">
+                                                <tr>
+                                                    <td width="10">
+                                                        <img src="http://careers.bankofamerica.com/images/clear.gif" width="10" height="0"
+                                                            alt="" border="0" /><br>
+                                                        <span class="ada-search">
+                                                            <label for="question_box" class="ada-search">
+                                                                Search</label></span></td>
+                                                    <td width="100%" style="padding: 0px;">
+                                                        <input type="text" maxlength="75" class="searchbox" style="width: 100%;" id="question_box"
+                                                            name="question_box" value="" title="Get answers fast. Type in a question or phrase."/></td>
+                                                    <td width="10">
+                                                        <img src="http://careers.bankofamerica.com/images/clear.gif" width="10" height="0"
+                                                            alt="" border="0" /></td>
+                                                    <td width="60" valign="top" nowrap>
+
+                                                        <script language="JavaScript" type="text/javascript">
+<!--
+                                                            create_safebutton("Search", "javascript: submit_search();", 0, 0, 0, 0, "Search");
+//-->
+                                                        </script>
+
+                                                        <noscript>
+                                                            <input name="Search" value="Search" title="Search" type="Submit" class="btn" /></noscript>
+                                                    </td>
+                                                    <td width="4">
+                                                        <img src="http://careers.bankofamerica.com/images/clear.gif" width="4" height="0"
+                                                            alt="" border="0" /></td>
+                                                </tr>
+                                            </table>
+                                        </form>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" class="mh-hline">
+                            <img src="http://careers.bankofamerica.com/images/clear.gif" width="1" height="5"
+                                alt="" border="0" /></td>
+                        <td class="mh-hline-bkg">
+                            <img src="http://careers.bankofamerica.com/images/clear.gif" width="1" height="5"
+                                alt="" border="0" /></td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="4" style="background: #d4100a;" width="750" valign="top" height="25">
+                <table width="100%" border="0" cellpadding="0" cellspacing="0" height="25">
+                    <tr>
+                        <td style="width: 87%">
+                            <img src="http://careers.bankofamerica.com/images/careers.gif" width="76" height="25"
+                                alt="Bank of America | Careers" title="Bank of America | Careers" border="0"></td>
+                        <td width="50%" align="right" style="height: 25px" id="versionlink" runat="server">
+                         <asp:ContentPlaceHolder ID="en" runat="server">
+                            </asp:ContentPlaceHolder>
+                               <asp:ContentPlaceHolder ID="languagelink" runat="server">
+                            </asp:ContentPlaceHolder>
+                                 </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td width="160" style="background: #cadceb;">
+                <img src="http://careers.bankofamerica.com/images/clear.gif" width="160" height="1"
+                    alt="" border="0"></td>
+            <td width="12">
+                <img src="http://careers.bankofamerica.com/images/clear.gif" width="12" height="1"
+                    alt="" border="0"></td>
+            <td width="578">
+                <a name="skipnav"></a>
+            </td>
+        </tr>
+        <tr valign="top">
+            <td id="tdtbnav" width="160" valign="top" align="center" style="background: #cadceb;">
+                <img src="http://careers.bankofamerica.com/images/clear.gif" width="160" height="1"
+                    alt="" border="0"><br>
+                <asp:ContentPlaceHolder ID="Left" runat="server">
+                  <uc1:LeftNav ID="LeftNav" runat="server" />
+                </asp:ContentPlaceHolder>
+            </td>
+            <td width="12">
+                <img src="http://careers.bankofamerica.com/images/clear.gif" width="12" height="1"
+                    alt="" border="0"></td>
+            <td valign="top" width="578">
+                <img src="http://careers.bankofamerica.com/images/clear.gif" width="15" height="4"
+                    alt="" border="0"><br>
+                <table width="578" cellpadding="0" cellspacing="0" border="0" summary="">
+                    <tr valign="top">
+                        <td colspan="2" valign="top" class="divt">
+                            <img src="http://careers.bankofamerica.com/images/clear.gif" alt="" width="100%"
+                                height="4" border="0" /></td>
+                    </tr>
+                    <tr valign="top">
+                        <td width="578" height="166" colspan="2" valign="top">
+                            <asp:ContentPlaceHolder ID="Image" runat="server">
+                            </asp:ContentPlaceHolder>
+                        </td>
+                    </tr>
+                    <tr valign="top">
+                        <td colspan="2" valign="top" class="divb">
+                            <img src="http://careers.bankofamerica.com/images/clear.gif" width="100%" height="4"
+                                alt="" border="0"></td>
+                    </tr>
+                </table>
+                <br />
+                <a name="skipmaincontent"></a>
+                <form id="form1" runat="server">
+                    <table width="578" cellpadding="0" cellspacing="0" border="0" summary="">
+                        <asp:ScriptManager ID="ScriptManager1" runat="server">
+                        </asp:ScriptManager>
+                        <tr valign="top">
+                            <td width="373" valign="top" style="padding: 0px 8px 0px 0px; height: 100%;">
+                                <asp:ContentPlaceHolder ID="Main" runat="server">
+                                </asp:ContentPlaceHolder>
+                            </td>
+                            <td width="205" valign="top" style="height: 100%">
+                                <table width="203" height="250" border="0" cellpadding="0" cellspacing="0" summary="">                             
+                                
+                                    <tr>
+                                        <td align="left" valign="top" style="width: 209px">                                            
+                                            <asp:ContentPlaceHolder ID="Career" runat="server">                                           
+                                               
+                                             <uc2:Search ID="Search1" runat="server" BOAFeedName=""/>
+                                            </asp:ContentPlaceHolder>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td height="11" align="left" valign="top" style="width: 209px">
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td align="center" valign="top" style="width: 209px">
+                                            <asp:ContentPlaceHolder ID="Info" runat="server">
+                                            </asp:ContentPlaceHolder>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td align="left" valign="top" style="height: 20px; width: 209px;">
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <asp:ContentPlaceHolder ID="map" runat="server">
+                                </asp:ContentPlaceHolder>
+                            </td>
+                        </tr>
+                    </table>
+                </form>
+                </br>
+                </br>
+            </td>
+        </tr>
+    </table>
+
+    <div class="hs-footer">
+        <table width="749" border="0" cellspacing="0" cellpadding="0" summary="">
+            <tr>
+                <td colspan="3" style="background: #000000;">
+                    <img src="http://careers.bankofamerica.com/images/clear.gif" width="1" height="1"
+                        alt="" border="0" /></td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <img src="http://careers.bankofamerica.com/images/clear.gif" width="1" height="3"
+                        alt="" border="0" /></td>
+            </tr>
+            <tr valign="top">
+                <td width="8">
+                    <img src="http://careers.bankofamerica.com/images/clear.gif" width="8" height="1"
+                        alt="" border="0" /></td>
+                <td valign="top">
+                    <a href="http://www.bankofamerica.com/privacy/" class="ftrlnk" onfocus="this.className='ftrlnk-over';"
+                        onblur="this.className='ftrlnk';" title="Privacy &amp; Security">Privacy &amp; Security</a>&nbsp;<span
+                            class="ftrtxt">|</span>&nbsp;<a href="http://www.bankofamerica.com/careers/" class="ftrlnk"
+                                onfocus="this.className='ftrlnk-over';" onblur="this.className='ftrlnk';" title="Careers">Careers</a>&nbsp;<span
+                                    class="ftrtxt">|</span>&nbsp;<a href="http://www.bankofamerica.com/help/index.cfm?template=sitemap.cfm"
+                                        class="ftrlnk" onfocus="this.className='ftrlnk-over';" onblur="this.className='ftrlnk';"
+                                        title="Site Map">Site Map</a><br>
+                    <img src="http://careers.bankofamerica.com/images/clear.gif" width="1" height="19"
+                        alt="" border="0" />
+                    <div class="ftrtxt2">
+                        Bank of America, N.A. Member FDIC. <a href="http://www.bankofamerica.com/help/equalhousing_popup.cfm"
+                            onclick="javascript:window.open('http://www.bankofamerica.com/help/equalhousing_popup.cfm','newwin','width=640,height=371,scrollbars=yes,resizable=yes,left=35,top=161'); return false;"
+                            target="_blank" class="ftrlnk" onfocus="this.className='ftrlnk-over';" onblur="this.className='ftrlnk';"
+                            title="Equal Housing Lender. Link opens a new window.">Equal Housing Lender</a><a
+                                href="http://www.bankofamerica.com/help/equalhousing_popup.cfm" onclick="javascript:window.open('http://www.bankofamerica.com/help/equalhousing_popup.cfm','newwin','width=640,height=371,scrollbars=yes,resizable=yes,left=35,top=161'); return false;"
+                                target="_blank" title="Equal Housing Lender. Link opens a new window."><img src="http://careers.bankofamerica.com/images/house.gif"
+                                    width="14" height="9" hspace="3" alt="Equal Housing Lender. Link opens a new window."
+                                    border="0"></a><br>
+                        &copy; 2010 Bank of America Corporation. All rights reserved.</div>
+                    <br>
+                </td>
+
+            </tr>
+        </table>
+    </div>
+
+    <script type="text/javascript" src="includes/fixit.js"></script>
+
+</body>
+</html>

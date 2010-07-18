@@ -1,0 +1,126 @@
+.pd
+{
+font-weight : bold;	
+padding-bottom: 6px;
+padding-top: 6px;
+}
+
+.pd2
+{
+padding-bottom: 6px;
+padding-top: 6px;
+}
+
+.eventBody
+{
+	width="565";
+	cellpadding="0";
+	cellspacing="0";
+}
+
+.errorBody {
+	cellpadding="0";
+	cellspacing="0";
+	padding: 4px 20px 6px 10px;
+	border-left:1px solid #ff0000;
+  	border-top:1px solid #ff0000;
+  	border-right:1px solid #ff0000;
+  	border-bottom:1px solid #ff0000;
+}
+
+.tdHeader
+{
+	font-weight : bold;
+	padding-bottom: 10px;
+	text-decoration: none;
+	color: #ff0000;
+}
+
+.warningImage
+{
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+.warningCopy
+{
+	font-weight : bold;
+	color: #ff0000;
+}
+
+.warningCopyTab
+{
+	padding-left: 25px;
+	padding-right: 15px;
+	padding-bottom: 10px;
+}
+
+.tdDataHeader
+{
+	font-weight : bold;
+	padding-bottom: 10px;
+}
+
+.tdData
+{
+	text-align: left;
+	vertical-align: top;
+}
+.trEvtTop{
+	background: #ffffff url(/images/camp/boa_evt_top_bg.gif) repeat-x bottom left;
+	height:28px;
+	text-align:center;
+}
+.trEvtBot{
+	background: #ffffff url(/images/camp/boa_evt_bot_bg.gif) repeat-x bottom left;
+	height:5px;
+	text-align:center;
+}
+.linkPagingLeft
+{
+	font-weight : bold;
+	padding-left: 15px;
+	text-decoration: none;
+}
+
+.linkPagingRight
+{
+	font-weight : bold;
+	padding-right: 15px;
+	text-decoration: none;
+}
+
+.pagingHeader
+{
+	padding-left: 10px;
+	padding-right: 10px;
+}
+a.noUnderLine
+{
+	text-decoration: none;
+}
+
+
+A.sub:hover, A.sub-over
+{
+	font-family : Verdana, Helvetica, sans-serif;
+	font-size : 0.9em;
+	line-height : 2.1em;
+	font-weight : normal;
+    	color: #BE5A33;
+    	background-color: transparent;
+    	text-decoration: none;
+    	padding: 0px 0px 0px 8px;
+}
+
+A.sub, A.sub:visited
+{
+	font-family : Verdana, Helvetica, sans-serif;
+	font-size : 0.9em;
+	line-height : 2.1em;
+	font-weight : normal;
+	color: #333333;
+	text-decoration: none;
+    	padding: 0px 0px 0px 8px;
+}
