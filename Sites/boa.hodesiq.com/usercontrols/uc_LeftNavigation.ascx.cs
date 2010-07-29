@@ -28,8 +28,9 @@ public partial class uc_LeftNavigation : System.Web.UI.UserControl
     protected void Page_Load(object sender, EventArgs e)
     {
         string sPath = System.Web.HttpContext.Current.Request.Url.AbsolutePath;
+        string querstring = System.Web.HttpContext.Current.Request.Url.Query;
         System.IO.FileInfo oInfo = new System.IO.FileInfo(sPath);
-        string sRet = oInfo.Name;
+        string sRet = oInfo.Name + querstring ;
 
         level3 = "appl_with_disabilities.aspx" != sRet;
 
