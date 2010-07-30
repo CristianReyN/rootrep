@@ -22,6 +22,7 @@ var openCampus = <%=IsCampusEvents.ToString().ToLower() %>;
 function namewindow(){window.name="boamain";}
 //-->
 </script>
+<asp:contentplaceholder id="localheaderscripts" runat="server"/>
 </head>
 <body id="body" onload="startKeybordNav(); startPs(); fixIE(); namewindow();" onunload="">
 <asp:Literal ID="ltrlCorremetrixScripts" runat="server" Text="" ></asp:Literal>
