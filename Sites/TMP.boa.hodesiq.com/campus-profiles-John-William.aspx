@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/BOAmaster.master" AutoEventWireup="true" CodeFile="campus-profiles-John-William.aspx.cs" Inherits="campus_profiles_John_William" %>
+﻿<%@ Page Title="Bank of America | Careers | Campus Recruiting | Meet Our People | John-William's Profile" Language="C#" MasterPageFile="~/BOAmaster.master" AutoEventWireup="true" CodeFile="campus-profiles-John-William.aspx.cs" Inherits="campus_profiles_John_William" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="cphmain" Runat="Server">
 
@@ -7,7 +7,7 @@
 <div id="profiles"> 
   <h1>Our Analysts</h1>
   <div id="article"> 
-    <div class="content-profiles"> <img src="images/campus/profiles/photo-john-william.jpg" width="171" height="173" alt="John-William" /> 
+    <div class="content-profiles"> <img src="images/campus/profiles/photo-John-William.jpg" width="167" height="168" alt="John-William" /> 
       <div class="info-profiles"> 
         <h2>John-William</h2>
         <p>Senior Specialist</p>

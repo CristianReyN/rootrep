@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/BOAmaster.master" AutoEventWireup="true" CodeFile="campus-profiles-Fujia.aspx.cs" Inherits="campus_profiles_Fujia" %>
+﻿<%@ Page Title="Bank of America | Careers | Campus Recruiting | Meet Our People | Fujia's Profile" Language="C#" MasterPageFile="~/BOAmaster.master" AutoEventWireup="true" CodeFile="campus-profiles-Fujia.aspx.cs" Inherits="campus_profiles_Fujia" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="cphmain" Runat="Server">
 
@@ -7,7 +7,7 @@
 <div id="profiles"> 
   <h1>Our Analysts</h1>
   <div id="article"> 
-    <div class="content-profiles"> <img src="images/campus/profiles/photo-fujia.jpg" width="171" height="173" alt="Fujia" /> 
+    <div class="content-profiles"> <img src="images/campus/profiles/photo-FujiaLiu.jpg" width="167" height="168" alt="Fujia" /> 
       <div class="info-profiles"> 
         <h2>Fujia</h2>
         <p>Analyst</p>

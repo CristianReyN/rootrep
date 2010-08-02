@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/BOAmaster.master" AutoEventWireup="true" CodeFile="campus-profiles-Irina.aspx.cs" Inherits="campus_profiles_Irina" %>
+﻿<%@ Page Title="Bank of America | Careers | Campus Recruiting | Meet Our People | Irina's Profile" Language="C#" MasterPageFile="~/BOAmaster.master" AutoEventWireup="true" CodeFile="campus-profiles-Irina.aspx.cs" Inherits="campus_profiles_Irina" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="cphmain" Runat="Server">
 
@@ -7,7 +7,7 @@
 <div id="profiles"> 
   <h1>Our Associates</h1>
   <div id="article"> 
-    <div class="content-profiles"> <img src="images/campus/profiles/photo-irina.jpg" width="171" height="173" alt="Irina" /> 
+    <div class="content-profiles"> <img src="images/campus/profiles/photo-IrinaDolgova.jpg" width="167" height="168" alt="Irina" /> 
       <div class="info-profiles"> 
         <h2>Irina</h2>
         <p>Associate</p>

@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/BOAmaster.master" AutoEventWireup="true" CodeFile="campus-profiles-Nisheet.aspx.cs" Inherits="campus_profiles_Nisheet" %>
+﻿<%@ Page Title="Bank of America | Careers | Campus Recruiting | Meet Our People | Nisheet's Profile" Language="C#" MasterPageFile="~/BOAmaster.master" AutoEventWireup="true" CodeFile="campus-profiles-Nisheet.aspx.cs" Inherits="campus_profiles_Nisheet" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="cphmain" Runat="Server">
 
@@ -6,7 +6,7 @@
 <div id="profiles"> 
   <h1>Our Associates</h1>
   <div id="article"> 
-    <div class="content-profiles"> <img src="images/campus/profiles/photo-nisheet.jpg" width="171" height="173" alt="Nisheet" /> 
+    <div class="content-profiles"> <img src="images/campus/profiles/photo-NisheetPatel.jpg" width="167" height="168" alt="Nisheet" /> 
       <div class="info-profiles"> 
         <h2>Nisheet</h2>
         <p>Associate</p>

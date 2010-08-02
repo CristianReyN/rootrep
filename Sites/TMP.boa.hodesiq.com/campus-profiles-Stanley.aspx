@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/BOAmaster.master" AutoEventWireup="true" CodeFile="campus-profiles-Stanley.aspx.cs" Inherits="campus_profiles_Stanley" %>
+﻿<%@ Page Title="Bank of America | Careers | Campus Recruiting | Meet Our People | Stanley's Profile" Language="C#" MasterPageFile="~/BOAmaster.master" AutoEventWireup="true" CodeFile="campus-profiles-Stanley.aspx.cs" Inherits="campus_profiles_Stanley" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="cphmain" Runat="Server">
 
@@ -11,7 +11,7 @@
     
         <div class="content-profiles">
         
-            <img src="images/campus/profiles/photo-bhavin.jpg" width="171" height="173" alt="Bhavin" />
+            <img src="images/campus/profiles/photo-StanleyChan.jpg" width="167" height="168" alt="Stanley Chan" />
              <div class="info-profiles">
              <h2>Stanley</h2>
             <p>Vice President</p>
@@ -85,8 +85,8 @@ most challenging yet opportunistic.</p>
         <h3>Related Links:</h3>
         <ul>
         <li><a href="campus-Americas-analyst-profiles.aspx">Back to profile list</a></li>
-      	<li><a href="campus-profiles-Shireen.aspx">Next profile</a></li>
-      	<li><a href="campus-profiles-Suke.aspx">Previous profile</a></li>
+      	<li><a href="campus-profiles-Suke.aspx">Next profile</a></li>
+      	<li><a href="campus-profiles-Shireen.aspx">Previous profile</a></li>
         </ul>
         
     

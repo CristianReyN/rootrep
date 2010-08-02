@@ -10,7 +10,7 @@
     
         <div class="content-profiles">
         
-            <img src="images/campus/profiles/photo-bhavin.jpg" width="171" height="173" alt="Bhavin" />
+            <img src="images/campus/profiles/photo-RachnaRamachandran.jpg" width="167" height="168" alt="Rachna Ramachandran" />
 
                 <div class="info-profiles">
                 <h2>Rachna</h2>

@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/BOAmaster.master" AutoEventWireup="true" CodeFile="campus-profiles-Alissa.aspx.cs" Inherits="campus_profiles_Alissa" %>
+﻿<%@ Page Title="Bank of America | Careers | Campus Recruiting | Meet Our People | Alissa's Profile" Language="C#" MasterPageFile="~/BOAmaster.master" AutoEventWireup="true" CodeFile="campus-profiles-Alissa.aspx.cs" Inherits="campus_profiles_Alissa" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="cphmain" Runat="Server">
 
@@ -6,7 +6,7 @@
 <div id="profiles"> 
   <h1>Our Analysts</h1>
   <div id="article"> 
-    <div class="content-profiles"> <img src="images/campus/profiles/photo-alissa.jpg" width="171" height="173" alt="Alissa" /> 
+    <div class="content-profiles"> <img src="images/campus/profiles/photo-AlisaRoyals.jpg" width="167" height="168" alt="Alissa" /> 
       <div class="info-profiles"> 
         <h2>Alissa</h2>
         <p>Analyst</p>

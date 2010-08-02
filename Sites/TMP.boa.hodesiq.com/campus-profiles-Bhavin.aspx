@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/BOAmaster.master" AutoEventWireup="true" CodeFile="campus-profiles-Bhavin.aspx.cs" Inherits="campus_profiles_Bhavin" %>
+﻿<%@ Page Title="Bank of America | Careers | Campus Recruiting | Meet Our People | Bhavin's Profile" Language="C#" MasterPageFile="~/BOAmaster.master" AutoEventWireup="true" CodeFile="campus-profiles-Bhavin.aspx.cs" Inherits="campus_profiles_Bhavin" %>
 
 
 
@@ -13,7 +13,7 @@
     
         <div class="content-profiles">
         
-            <img src="images/campus/profiles/photo-bhavin.jpg" width="171" height="173" alt="Bhavin" />
+            <img src="images/campus/profiles/photo-BhavinGhonda.jpg" width="167" height="168" alt="Bhavin" />
                 
                 <div class="info-profiles">
                 <h2>Bhavin</h2>
