@@ -554,66 +554,62 @@ Singapore 099 253<br /></p>
                     
                     
                     
-                   <p><span class="text_bold_under">
-                    Hyderabad</span></p>
-                
+                         <p>
+                    <b style="text-decoration: underline">Hyderabad</b></p>
                 <p>
-                    1st Floor, Building No. 5, <br />Mind Space - Raheja IT Park,<br />
-                            HITECH City, Madhapur, Hyderabad - 500 081
-                    <br />
+                    Building Number 5A, Mind Space - Raheja IT Park,<br />
+                    HITECH City, Madhapur<br/>
+                    Hyderabad - 500 081<br />
                 </p>
                 <p>
-                    5th Floor, 2B Maximus Towers,<br />Mindspace - Raheja IT Park<br />
-                            HITECH City, Madhapur, Hyderabad &#8211; 500 081
-                </p>
-                    
-                    
-                    
-                    <%--<p><span class="text_bold_under">Hyderabad</span><ul>
-                        <li>1st Floor, Building No. 5, <br />Mind Space - Raheja IT Park,<br />
+                    9th Floor, 2A Maximus Towers, Mindspace - Raheja IT Park<br />
+                    HITECH City, Madhapur<br />
+                    Hyderabad &#8211; 500 081</p>
+                <%--
+                    <ul>
+                        <li>1st Floor, Building No. 5,
+                            <br />
+                            Mind Space - Raheja IT Park,<br />
                             HITECH City, Madhapur, Hyderabad - 500 081 </li>
-                        <li>5th Floor, 2B Maximus Towers,<br />Mindspace - Raheja IT Park<br />
+                        <li>5th Floor, 2B Maximus Towers,ace - Raheja IT Park<br />
                             HITECH City, Madhapur, Hyderabad &#8211; 500 081 </li>
-                    </ul></p>--%>
-                
-                <%--<p>
-                    <span class="text_bold_under">Mumbai</span><ul>
-                        <li>4th Floor, Logitech Park, Tower I, Phase II<br />
-                            Andheri Kurla Road, Sakinaka, Mumbai - 400 072 </li>
-                        <li>9th Floor, &#8216;A&#8217; Wing, Paradigm, Mindspace<br />
-                            Malad (W), Mumbai &#8211; 400 064 </li>
                     </ul>
-                </p>--%>
+                --%>
                 
-                
-               <p><span class="text_bold_under">
-                    Mumbai</span></p>
-                
+                  <p><span class="text_bold_under">Chennai</span><br />
+
+                Ascendas IT Park, Crest Building, Phase II, 9th Floor<br />
+                Taramani High Road<br />
+                Chennai 600 113<br /></p>
+                <p>
+                    <b style="text-decoration: underline">Mumbai </b>
+                </p>
                 <p>
                     4th Floor, Logitech Park, Tower I, Phase II<br />
-                            Andheri Kurla Road, Sakinaka, Mumbai - 400 072
-                    <br />
+                    Andheri Kurla Road, Sakinaka<br/>
+                    Mumbai - 400 072<br />
                 </p>
                 <p>
-                   9th Floor, &#8216;A&#8217; Wing, Paradigm, Mindspace<br />
-                            Malad (W), Mumbai &#8211; 400 064
+                    9th Floor, &#8216;A&#8217; Wing, Paradigm<br />
+                    Mindspace Malad (W),<br/>
+                    Mumbai &#8211; 400 064</p>
+                <p>
+                 <p>
+                   
+                    Unit Number 501, 5th Floor, Wing A, Prism Towers<br />
+                    Mindspace Malad (W),<br/>
+                    Mumbai &#8211; 400 064</p>
+                <p>
+                    <b style="text-decoration: underline">Gurgaon</b></p>
+                <p>
+                    Infinity Tower B, Sector - 25, DLF Phase - 2, 4th Floor<br />
+                    Gurgaon &#8211; 122002<br />
                 </p>
                 
-                
-                <%--<p>
-                    <span class="text_bold_under">Gurgaon</span><ul>
-                        <li>4th floor, Tower B, Infinity Tower<br />
-                            Sector 25, DLF Phase II , Gurgaon &#8211; 122002 </li>
-                    </ul>
-                </p>--%>
-                
-                <p><span class="text_bold_under">
-                    Gurgaon</span></p>
-                
-                <p>
-                    4th floor, Tower B, Infinity Tower<br />
-                            Sector 25, DLF Phase II , Gurgaon &#8211; 122002
-                    <br />
+                 <p>
+                   Unitech Infospace, Tower A, Building Number 3<br />
+                    Sector - 21 Dundahera, Old  - Delhi Jaipur Highway<br />
+                    Gurgaon &#8211; 122001<br />
                 </p>
                 
                 

@@ -21,9 +21,7 @@
                 <h2> Avtar Monga<br />
                     <br />
                     Managing Director, BA Continuum Solutions</h2>
-                <p> BA Continuum Solutions Pvt. Ltd. and BA Continuum India Pvt. Ltd. are non-bank subsidiaries
-                    of Bank of America Management Corporation. While referring to BA Continuum, we are
-                    referring to both organizations. </p>
+                <p> BA Continuum Solutions Pvt. Ltd. (BACS) and Merrill Lynch India Technology Services (MLITS) are non-bank subsidiaries of Bank of America Management Corporation. While referring to BA Continuum, we are referring to both organizations. </p>
                 <p> BA Continuum provides Business Processing Solutions, Knowledge Services and Information
                     Technology Solutions exclusively for the Consumer and Small Business Banking, Global
                     Card Services, Bank of America Home Loans, Global Banking and Wealth Management
@@ -82,7 +80,7 @@ document.getElementById('div23').style.display="none";
 document.getElementById('div24').style.display="none";
 document.getElementById('div25').style.display="none";
 document.getElementById('div26').style.display="none";
-document.getElementById('div27').style.display="none";
+document.getElementById('div27').style.display = "none";
 document.getElementById(dives).style.display="inline";
 
 
@@ -116,7 +114,7 @@ document.getElementById('div23').style.display="none";
 document.getElementById('div24').style.display="none";
 document.getElementById('div25').style.display="none";
 document.getElementById('div26').style.display="none";
-document.getElementById('div27').style.display="none";
+document.getElementById('div27').style.display = "none";
 }
 function SwapDiv(divid,img)
 {
@@ -945,9 +943,24 @@ function SwapDiv(divid,img)
                                                                             id="img2" onmouseover="mapcheck('img2','div2')" onmouseout="mapout('img2')" /></a></td>
                                                                 <td width="304" height="11"></td>
                                                             </tr>
+                                                             </tr>
+                                                           
                                                         </table></td>
                                                 </tr>
+                                                 <tr>
+                                                                <td width="349" height="16" align="left" valign="top"></td>
+                                                            </tr>
                                                 <tr>
+                                                    <td width="349" height="11" align="left" valign="top"><table summary="" width="349" height="11" border="0" cellpadding="0" cellspacing="0">
+                                                            <tr>
+                                                                <td width="81" height="11"></td>
+                                                                <td width="11" height="11"><a href="#A2" onfocus="mapcheck('img28','div8')" onblur="mapout('img28')"> <img src="images/area_12.gif" alt="India-Chennai" title="India-Chennai" border="0"
+                                                                            id="img28" onmouseover="mapcheck('img28','div8')" onmouseout="mapout('img28')" /></a></td>
+                                                                <td width="304" height="11"></td>
+                                                            </tr>
+                                                        </table></td>
+                                                </tr>
+                                                 <tr>
                                                     <td width="349" height="113" align="left" valign="top"></td>
                                                 </tr>
                                             </table></td>

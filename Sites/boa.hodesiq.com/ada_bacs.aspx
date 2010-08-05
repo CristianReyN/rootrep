@@ -20,9 +20,7 @@
                 <h2> Avtar Monga<br />
                     <br />
                     Managing Director, BA Continuum Solutions</h2>
-                <p> BA Continuum Solutions Pvt. Ltd. and BA Continuum India Pvt. Ltd. are non-bank subsidiaries
-                    of Bank of America Management Corporation. While referring to BA Continuum, we are
-                    referring to both organizations. </p>
+                <p> BA Continuum Solutions Pvt. Ltd. (BACS) and Merrill Lynch India Technology Services (MLITS) are non-bank subsidiaries of Bank of America Management Corporation. While referring to BA Continuum, we are referring to both organizations. </p>
                 <p> BA Continuum provides Business Processing Solutions, Knowledge Services and Information
                     Technology Solutions exclusively for the Consumer and Small Business Banking, Global
                     Card Services, Bank of America Home Loans, Global Banking and Wealth Management
@@ -61,12 +59,14 @@
                 <p>
                     <b style="text-decoration: underline">Hyderabad</b></p>
                 <p>
-                    1st Floor, Building No. 5, Mind Space - Raheja IT Park,<br />
-                    HITECH City, Madhapur, Hyderabad - 500 081<br />
+                    Building Number 5A, Mind Space - Raheja IT Park,<br />
+                    HITECH City, Madhapur<br/>
+                    Hyderabad - 500 081<br />
                 </p>
                 <p>
-                    5th Floor, 2B Maximus Towers, Mindspace - Raheja IT Park<br />
-                    HITECH City, Madhapur, Hyderabad &#8211; 500 081</p>
+                    9th Floor, 2A Maximus Towers, Mindspace - Raheja IT Park<br />
+                    HITECH City, Madhapur<br />
+                    Hyderabad &#8211; 500 081</p>
                 <%--
                     <ul>
                         <li>1st Floor, Building No. 5,
@@ -77,22 +77,44 @@
                             HITECH City, Madhapur, Hyderabad &#8211; 500 081 </li>
                     </ul>
                 --%>
+                
+                  <p><span class="text_bold_under">Chennai</span><br />
+
+                Ascendas IT Park, Crest Building, Phase II, 9th Floor<br />
+                Taramani High Road<br />
+                Chennai 600 113<br /></p>
                 <p>
                     <b style="text-decoration: underline">Mumbai </b>
                 </p>
                 <p>
                     4th Floor, Logitech Park, Tower I, Phase II<br />
-                    Andheri Kurla Road, Sakinaka, Mumbai - 400 072<br />
+                    Andheri Kurla Road, Sakinaka<br/>
+                    Mumbai - 400 072<br />
                 </p>
                 <p>
-                    9th Floor, &#8216;A&#8217; Wing, Paradigm, Mindspace Malad (W),<br>
+                    9th Floor, &#8216;A&#8217; Wing, Paradigm<br />
+                    Mindspace Malad (W),<br/>
+                    Mumbai &#8211; 400 064</p>
+                <p>
+                 <p>
+                   
+                    Unit Number 501, 5th Floor, Wing A, Prism Towers<br />
+                    Mindspace Malad (W),<br/>
                     Mumbai &#8211; 400 064</p>
                 <p>
                     <b style="text-decoration: underline">Gurgaon</b></p>
                 <p>
-                    4th floor, Tower B, Infinity Tower<br />
-                    Sector 25, DLF Phase II , Gurgaon &#8211; 122002<br />
+                    Infinity Tower B, Sector - 25, DLF Phase - 2, 4th Floor<br />
+                    Gurgaon &#8211; 122002<br />
                 </p>
+                
+                 <p>
+                   Unitech Infospace, Tower A, Building Number 3<br />
+                    Sector - 21 Dundahera, Old  - Delhi Jaipur Highway<br />
+                    Gurgaon &#8211; 122001<br />
+                </p>
+                
+              
                 <div class="hidden">
                     <a href="#mapstart">Back to Location List</a></div>
                 <h2>

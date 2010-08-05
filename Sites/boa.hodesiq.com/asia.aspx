@@ -42,6 +42,7 @@
 					document.getElementById('div25').style.display = "none";
 					document.getElementById('div26').style.display = "none";
 					document.getElementById('div27').style.display = "none";
+					document.getElementById('div28').style.display = "none";
                     document.getElementById(dives).style.display = "inline";
 
 
@@ -75,6 +76,7 @@
 					document.getElementById('div25').style.display = "none";
 					document.getElementById('div26').style.display = "none";
 					document.getElementById('div27').style.display = "none";
+					document.getElementById('div28').style.display = "none";
                 }
                 function SwapDiv(divid, img) {
                     document.getElementById('DivOne').style.display = 'none';
@@ -620,6 +622,19 @@
                                                             </tr>
                                                         </table></td>
                                                 </tr>
+                                                 <tr>
+                                                                <td width="349" height="16" align="left" valign="top"></td>
+                                                            </tr>
+                                                <tr>
+                                                    <td width="349" height="11" align="left" valign="top"><table summary="" width="349" height="11" border="0" cellpadding="0" cellspacing="0">
+                                                            <tr>
+                                                                <td width="81" height="11"></td>
+                                                                <td width="11" height="11"><a href="#A2" onfocus="mapcheck('img28','div28')" onblur="mapout('img28')"> <img src="images/area_12.gif" alt="India-Chennai" title="India-Chennai" border="0"
+                                                                            id="img28" onmouseover="mapcheck('img28','div28')" onmouseout="mapout('img28')" /></a></td>
+                                                                <td width="304" height="11"></td>
+                                                            </tr>
+                                                        </table></td>
+                                                </tr>
                                                 <tr>
                                                     <td width="349" height="113" align="left" valign="top"></td>
                                                 </tr>
@@ -785,14 +800,14 @@
                 <div id="div22" style="display: none">
                     <table summary="" width="361" height="128" border="0" cellpadding="0" cellspacing="0">
                         <tr>
-                            <td width="361" height="128" align="left" valign="top"><img src="images/gurgoan_20.gif" alt="Gurgoan_India" width="575" height="128" /></td>
+                            <td width="361" height="128" align="left" valign="top"><img src="images/BOA_MapLocations_GURGAON_C1.jpg" alt="Gurgoan_India" width="575" height="128" /></td>
                         </tr>
                     </table>
                 </div>
                 <div id="div23" style="display: none">
                     <table summary="" width="361" height="128" border="0" cellpadding="0" cellspacing="0">
                         <tr>
-                            <td width="361" height="228" align="left" valign="top"><img src="images/mumbai_20con.gif" alt="Mumbai_India" width="575" height="228" /></td>
+                            <td width="361" height="228" align="left" valign="top"><img src="images/BOA_MapLocations_MUMBAI_C1.jpg" alt="Mumbai_India" width="575" height="228" /></td>
                         </tr>
                     </table>
                 </div>
@@ -823,7 +838,15 @@
                             <td width="361" height="133" align="left" valign="top"><img src="images/fukuoka.gif" alt="Japan-Fukuoka" width="575" height="133" />&nbsp;</td>
                         </tr>
                     </table>
-                </div></td>
+                </div>
+                  <div id="div28" style="display: none">
+                    <table summary="" width="361" height="128" border="0" cellpadding="0" cellspacing="0">
+                        <tr>
+                            <td width="361" height="128" align="left" valign="top"><img src="images/BOA_MapLocations_CHENNAI_C1.jpg" alt="emea_Chennai_India" width="575" height="173" /></td>
+                        </tr>
+                    </table>
+                </div>
+                </td>
         </tr>
     </table>
 </asp:Content>
