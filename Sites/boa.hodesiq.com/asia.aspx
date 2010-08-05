@@ -658,7 +658,7 @@
                 <div id="div2" style="display: none">
                     <table summary="" width="361" height="228" border="0" cellpadding="0" cellspacing="0">
                         <tr>
-                            <td width="361" height="228" align="left" valign="top"><img src="images/hydrabad_11.gif" alt="emea_gcib_Hydrabad_India" width="575" height="228" /></td>
+                            <td width="361" height="228" align="left" valign="top"><img src="images/BOA_MapLocations_HYDERABAD_C1.jpg" alt="emea_gcib_Hydrabad_India" width="575" height="228" /></td>
                         </tr>
                     </table>
                 </div>
@@ -800,14 +800,14 @@
                 <div id="div22" style="display: none">
                     <table summary="" width="361" height="128" border="0" cellpadding="0" cellspacing="0">
                         <tr>
-                            <td width="361" height="128" align="left" valign="top"><img src="images/BOA_MapLocations_GURGAON_C1.jpg" alt="Gurgoan_India" width="575" height="128" /></td>
+                            <td width="361" height="128" align="left" valign="top"><img src="images/BOA_MapLocations_GURGAON_C1.jpg" alt="Gurgoan_India" width="575" height="228" /></td>
                         </tr>
                     </table>
                 </div>
                 <div id="div23" style="display: none">
                     <table summary="" width="361" height="128" border="0" cellpadding="0" cellspacing="0">
                         <tr>
-                            <td width="361" height="228" align="left" valign="top"><img src="images/BOA_MapLocations_MUMBAI_C1.jpg" alt="Mumbai_India" width="575" height="228" /></td>
+                            <td width="361" height="228" align="left" valign="top"><img src="images/BOA_MapLocations_MUMBAI_C1.jpg" alt="Mumbai_India" width="575" height="258" /></td>
                         </tr>
                     </table>
                 </div>
@@ -842,7 +842,7 @@
                   <div id="div28" style="display: none">
                     <table summary="" width="361" height="128" border="0" cellpadding="0" cellspacing="0">
                         <tr>
-                            <td width="361" height="128" align="left" valign="top"><img src="images/BOA_MapLocations_CHENNAI_C1.jpg" alt="emea_Chennai_India" width="575" height="173" /></td>
+                            <td width="361" height="128" align="left" valign="top"><img src="images/BOA_MapLocations_CHENNAI_C1.jpg" alt="emea_Chennai_India" width="575" height="228" /></td>
                         </tr>
                     </table>
                 </div>
