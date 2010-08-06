@@ -8,14 +8,11 @@
 
 @media screen, projection {
 
-	
-
 	/* Default layout */
 	
 	a:link {
 	color: #336699;
 	text-decoration: none;
-	
 	}
 	
 	a:hover {
@@ -28,18 +25,23 @@
 	text-decoration: underline;
 	}
 
-	#profiles {
+	#profiles,
+	#maincontent,
+	#main-profiles {
 	position: relative;
 	padding: 0;
 	width: 578px;
+	font-size: 1.1em;
 	font-family: Arial, Helvetica, Verdana,  sans-serif;
+	color: #5c5c5c;
 	}
+	
 	
 	#profiles h1 {
 	margin: 0;
 	padding: 0;
 	font-family: Verdana, Arial, Helvetica, sans-serif;
-	font-size: 1.4em;
+	font-size: 1.5em;
 	color: #d4001a;
 	padding-bottom: 35px;
 	}
@@ -50,31 +52,74 @@
 	margin-bottom: 50px;
 	}
 	
-	
-	#article h2, #article h3, #article h4 {
-	font-family: Arial, Helvetica, Verdana,  sans-serif;
-	color: #333;
+	#maincontent #article h1,
+	#main-profiles #article h1 {
+	margin: 0;
+	padding: 0;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 1.5em;
+	color: #d4001a;
+	padding-bottom: 12px;
 	}
 	
+	#maincontent #article h2 {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, Helvetica, Verdana, sans-serif;
+	font-size: 1.25em;
+	color: #336699;
+	font-weight: normal;
+	padding-top: 5px;
+	padding-bottom: 3px;
+	}
 	
+	#maincontent #article h3 {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, Helvetica, Verdana, sans-serif;
+	color: #5c5c5c;
+	font-size: 1em;
+	font-weight: bold;
+	}
+	#maincontent #article p {
+	padding-bottom: 15px;
+	}
+	
+	#maincontent #article ul li {
+	margin: 0;
+	padding: 0;
+	font-size: 1em;
+	font-family: Arial, Helvetica, Verdana,  sans-serif;
+	color: #5c5c5c;
+	}
+	
+	#maincontent #article p.learnlink {
+	text-align: right;
+	}
+	
+	#article h2, #article h3, #article h4 {
+	font-family: Arial, Helvetica, Verdana, sans-serif;
+	color: #333;
+	}
+		
 	#article h4 {
 	margin: 0;
 	padding: 0;
-	font-size: .8em;
+	font-size: 1em;
 	padding-top: 14px;
 	padding-bottom: 7px;
 	}
 	
-	#article p, #article ol {
+	#article p, #article ol li {
 	margin: 0;
-	padding:0;
-	font-family: Arial, Helvetica, Verdana,  sans-serif;
-	font-size: 0.72em;
+	padding: 0;
+	font-size: 1em;
+	font-family: Arial, Helvetica, Verdana, sans-serif;
 	color: #5c5c5c;
 	}
 	
-	#article ol {
-	padding-left: 20px;
+	#profiles #article ol {
+	padding-left: 5px;
 	}
 	
 	#article p.back-top {
@@ -82,30 +127,147 @@
 	padding-top: 40px;
 	}
 	
+	/* ======== meet the people pages ====== */
 	
-	.content-profiles  {
-	min-height: 180px;
-	margin-bottom: 10px;
+	#main-profiles #article div.featured-profile  h2 {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, Helvetica, Verdana, sans-serif;
+	font-size: 1.25em;
+	color: #336699;
+	padding-top: 15px;
 	}
 	
-
-	#article .content-profiles img {
+	#main-profiles #article div.featured-profile p.learnlink {
+	text-align: right;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	}
+       
+        	
+    #main-profiles #article div.mop-profile {
 	float: left;
+	position: relative;
+	border: 1px solid #9d9d9d;
+	background: url(../images/campus/bkg-blue-gradient.jpg) top left repeat-x;
+	margin-top: 10px;
+	width: 94px;
+	height: 155px;
 	margin-right: 10px;
+	margin-bottom: 15px;
+	} 
+	
+	
+	#main-profiles #article div.mop-profile img {
+	margin: 0;
+	padding: 0;
+	display: block;
+	margin: 5px;
+	border: none;
+	}
+	
+	#main-profiles #article div.mop-profile h2 {
+	margin: 0;
+	padding: 0;
+	font-size: 1em;
+	color: #363636;
+	padding-left: 5px;
+	padding-left: 5px;
+	}
+	
+	#main-profiles #article div.mop-profile p {
+	margin: 0;
+	padding: 0;
+	font-size: .8em;
+	color: #363636;
+	padding-right: 10px;
+	padding-left: 5px;
+	}
+	
+	#main-profiles #article div.mop-profile a {
+	position: absolute;
+	display: block;
+	bottom: 8px;
+	left: 5px;
+	}  
+	
+	/* ======== analyst - associates - interns profile pages ====== */
+	
+	#main-profiles #article {
+	width: 326px;
+	}
+	
+	#main-profiles #article p.learnlink {
+	text-align: right;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	}
+	
+	#main-profiles #article div.profile-article {
+	border: 1px solid #9d9d9d;
+	background: url(../images/campus/bkg-blue-gradient.jpg) top left repeat-x;
+	margin-top: 10px;
+	height: 128px;
+	}
+	
+	#main-profiles #article div.profile-article img {
+	margin: 0;
+	padding: 0;
+	float: left;
+	display: block;
+	margin: 10px 12px 0 15px;
+    border: none;
+	}
+	
+	#main-profiles #article div.profile-article h2 {
+	margin: 0;
+	padding: 0;
+	font-size: 1em;
+	color: #363636;
+	padding-top: 10px;
+	}
+	
+	#main-profiles #article div.profile-article span,
+	#main-profiles #article div.profile-article p {
+	margin: 0;
+	padding: 0;
+	font-size: .8em;
+	color: #363636;
+	padding-right: 20px;
+	}
+	
+	#main-profiles #article div.profile-article a {
+	display: block;
+	padding-top: 12px;
+	
+	}
+	
+	/* ======= individual profile photos and content =======*/
+	
+	.content-profiles  {
+	height: 175px;
+	margin-bottom: 30px;
+	position: relative;
+	}
+	
+	#article .content-profiles img {
+	margin: 0;
+	padding: 0;
+	float: left;
+	display: block;
+	border: none;
 	}
 	
 	#article .content-profiles h2 {
 	margin: 0;
 	padding: 0;
-	font-size: 1.3em;
-	font-weight: normal;
-	padding-top: 30px;
+	font-size: 1.25em;   
 	}
 	
 	#article .content-profiles h3 {
 	margin: 0;
 	padding: 0;
-	font-size: 0.6em;
+	font-size: 0.75em;
 	font-weight: normal;
 	padding-top: 15px;
 	}
@@ -113,29 +275,37 @@
 	#article .content-profiles p {
 	margin: 0;
 	padding: 0;
-	font-size: 0.6em;
+	font-size: 0.75em;
 	color: #5c5c5c;
 	line-height: 14px;
 	}
 	
+	#article .content-profiles .info-profiles {
+	position: absolute;
+	left: 181px;
+	bottom: 12px;
+	}
 	
+	
+	/* ============= right column ========*/
 	#aside {
 	float: left;
 	width: 179px;
 	margin-left: 16px;
 	}
 	
-	
 	#aside img {
 	margin-bottom: 10px;
 	border: 0;
+	border: none;
 	}
 	
 	#aside h3 {
 	margin: 0;
 	padding:0;
 	font-family: Arial, Helvetica, Verdana,  sans-serif;
-	font-size: 0.62em;
+	font-size: 0.87em;
+	font-weight: bold;
 	color: #333;
 	padding-top: 10px;
 	}
@@ -143,20 +313,288 @@
 	#aside ul {
 	margin: 0;
 	padding:0;
-	font-size: 0.72em;
 	list-style: none;
 	padding-left: 12px;
 	padding-top: 10px;
 	}
 	
-	#footer {
-	clear: both;
-	width: 578px;
-	background: url(images/bkg-footer.gif) no-repeat;
+	#aside li {
+	padding-bottom: 3px;
 	}
 	
-	#footer p {
+	
+	
+	/* right column for analyst, associates, intern profiles, - videos */
+	
+	#main-profiles #aside{
+	width: 218px;
+	margin-left: 30px;
+	}
+	
+	#main-profiles #aside #video-content {
+	width: 213px;
+	height: 464px;
+	border: 1px solid #9d9d9d;
+	background: url(../images/campus/bkg-videocontent.jpg) no-repeat;
+	margin-top: 40px;
+	}
+	
+	#main-profiles #aside #video-content img,
+	#main-profiles #aside #video-content object {
+	margin: 0;
+	padding: 0;
+	padding: 12px 0 0 4px;
+	border: none;
+	}
+	
+	#main-profiles #aside #video-content table {
+	margin: 0;
+	padding: 0;
+	margin: 0 0 8px 4px;
+	}
+	
+	
+	#main-profiles #aside #video-content p {
+	margin: 0;
+	padding: 0;
+	color: #363636;
+	font-size: .85em;
+	font-weight: bold;
+	margin-left: 8px;
+	}
+	
+	#main-profiles #aside #video-content p.padbot {
+	padding-bottom: 15px;
+	}
+	
+	/* ======= global gateway page =======*/
+	#global-gateway {
+	margin: 0;
+	padding: 0;
+	width: 578px;
+	}
+
+	
+	/* ======= america homepage ======= */
+	
+	#america-home {
+	position: relative;
+	padding: 0;
+	width: 578px;
+	font-size: 1.1em;
+	font-family: Arial, Helvetica, Verdana,  sans-serif;
+	color: #5c5c5c;
+	background: url(../images/campus/bkg-america-home.jpg) left top no-repeat;
+	}
+	
+	#america-home p.link-header {
+	padding-top: 290px;
+	padding-left: 12px;
+	padding-right: 350px;
+	font-size: .75em;
+	color: #000;
+	}
+	
+	#america-home a.searchbtn {
+	position: absolute;
+	width: 43px;
+	height: 45px;
+	top: 322px;
+	left: 9px;
+	text-indent: -999em;
+	}
+	
+	#america-home a.videobtn {
+	position: absolute;
+	width: 43px;
+	height: 45px;
+	top: 322px;
+	left: 71px;
+	text-indent: -999em;
+	}
+	
+	#america-home a.twitterbtn {
+	position: absolute;
+	width: 43px;
+	height: 45px;
+	top: 322px;
+	left: 134px;
+	text-indent: -999em;
+	}
+	#america-home p.footnote-content {
+	padding-left: 232px;
+	padding-bottom: 50px;
+	font-size: 1.2em;
+	color: #fff;
+	font-weight: bold;
+	}
+	
+	#america-home #article {
+	width: 490px;
+	background: url(../images/campus/arrow-red.jpg) left 6px no-repeat;
+	}
+	
+	#america-home #article p {
+	font-size: .93em;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	}
+	
+	
+	/* asia pac homepage */
+	#asiapac-home {
+	position: relative;
+	padding: 0;
+	width: 578px;
+	font-size: 1.1em;
+	font-family: Arial, Helvetica, Verdana,  sans-serif;
+	color: #5c5c5c;
+	background: url(../images/campus/bkg-asiapac-homepage.jpg) left top no-repeat;
+	}
+	
+	#asiapac-home p.link-header {
+	padding-top: 287px;
+	padding-left: 12px;
+	padding-right: 350px;
+	font-size: .75em;
+	color: #000;
+	}
+	
+	#asiapac-home a.searchbtn {
+	position: absolute;
+	width: 43px;
+	height: 45px;
+	top: 323px;
+	left: 35px;
+	text-indent: -999em;
+	}
+	
+	#asiapac-home a.videobtn {
+	position: absolute;
+	width: 43px;
+	height: 45px;
+	top: 323px;
+	left: 116px;
+	text-indent: -999em;
+	}
+	#asiapac-home p.footnote-content {
+	padding-left: 232px;
+	padding-bottom: 50px;
+	font-size: 1.2em;
+	color: #fff;
+	font-weight: bold;
+	}
+	
+	#asiapac-home #article {
+	width: 490px;
+	background: url(../images/campus/arrow-red.jpg) left 6px no-repeat;
+	}
+	
+	#asiapac-home #article p {
+	font-size: .93em;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	}
+	
+	
+	/* ======= emea homepage =======*/
+	
+	#emea-home {
+	position: relative;
+	padding: 0;
+	width: 578px;
+	font-size: 1.1em;
+	font-family: Arial, Helvetica, Verdana,  sans-serif;
+	color: #5c5c5c;
+	background: url(../images/campus/bkg-emeahomepage.jpg) left top no-repeat;
+	}
+	
+	#emea-home p.link-header {
+	padding-top: 287px;
+	padding-left: 12px;
+	padding-right: 350px;
+	font-size: .75em;
+	color: #000;
+	}
+	
+	#emea-home a.searchbtn {
+	position: absolute;
+	width: 43px;
+	height: 45px;
+	top: 320px;
+	left: 35px;
+	text-indent: -999em;
+	}
+	
+	#emea-home a.videobtn {
+	position: absolute;
+	width: 43px;
+	height: 45px;
+	top: 320px;
+	left: 116px;
+	text-indent: -999em;
+	}
+	#emea-home p.footnote-content {
+	padding-left: 232px;
+	padding-bottom: 50px;
+	font-size: 1.2em;
+	color: #fff;
+	font-weight: bold;
+	}
+	
+	#emea-home #article {
+	width: 490px;
+	background: url(../images/campus/arrow-red.jpg) left 6px no-repeat;
+	}
+	
+	#emea-home #article p {
+	font-size: .93em;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	}
+	
+	#home-buttons {
+	position: absolute;
+	width: 179px;
+	top: 25px;
+	right: 10px;
+	}
+	
+	#home-buttons img {
+	margin-bottom: 10px;
+	border: none;
+	}
+	
+	p.careerfinder-btn a {
+	display: block;
+	width: 162px;
+	height: 20px;
+	background: url(../images/campus/btn-launchcareer.jpg) top left no-repeat;
+	color: #FFF;
+	padding: 4px 0 0 6px;
+	text-decoration: none;
+	
+	}
+	
+	p.careerfinder-btn a:hover {
+	background: url(../images/campus/btn-launchcareer.jpg) left -24px no-repeat;
+	}
+
+	
+	/* ============ footer =========*/
+	#profiles #red-footer,
+	#maincontent #red-footer,
+	#main-profiles #red-footer {
+	clear: both;
+	width: 578px;
+	background: url(../images/campus/bkg-footer.gif) no-repeat;
+	}
+	
+	#profiles #red-footer p,
+	#maincontent #red-footer p,
+	#main-profiles #red-footer p {
 	color: #FFFFFF;
+	font-size: 1.2em;
 	padding: 50px 0 60px 20px;
 	}
 
