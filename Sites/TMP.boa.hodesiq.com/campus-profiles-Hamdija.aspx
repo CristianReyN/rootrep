@@ -23,20 +23,7 @@
                 <p>Degree &ndash; Master in Business Administration</p>
                 </div>
         </div>
-    
-    <h4>What is the best thing about living and working in your location?</h4>
-<p>The best thing about working in Charlotte is that it is the headquarters’
-city for Bank of America and offers networking opportunities. Also, the
-weather is great and it’s an exciting, fast-growing city.</p>
-
-<h4>What advice would you give to someone considering an opportunity
-at Bank of America?</h4>
-<p>Get familiar with the Bank of America spirit and what it means to
-the success of associates and to the company. It is a truly unique
-approach that inspires us to become world leaders in the
-financial industry.</p>
-
-<h4>What is your current assignment and primary responsibilities?</h4>
+        <h4>What is your current assignment and primary responsibilities?</h4>
 <p>My current assignment is in ATM Technology & Operations. I work
 as a project manager helping to reduce risk and operating costs
 associated with ATMs, and to establish new processes and
@@ -54,6 +41,20 @@ contributes to the overall goal of a project or initiative is critical.</p>
 <h4>What attracted you to Bank of America?</h4>
 <p>It is a global company that provides a wide range of opportunities
 to grow and build a successful career.</p>
+    
+    <h4>What is the best thing about living and working in your location?</h4>
+<p>The best thing about working in Charlotte is that it is the headquarters’
+city for Bank of America and offers networking opportunities. Also, the
+weather is great and it’s an exciting, fast-growing city.</p>
+
+<h4>What advice would you give to someone considering an opportunity
+at Bank of America?</h4>
+<p>Get familiar with the Bank of America spirit and what it means to
+the success of associates and to the company. It is a truly unique
+approach that inspires us to become world leaders in the
+financial industry.</p>
+
+
     
     
     <p class="back-top"><a href="#profiles">Back to top</a></p>

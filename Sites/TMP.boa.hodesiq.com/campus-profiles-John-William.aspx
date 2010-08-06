@@ -17,21 +17,6 @@
         <p>Degree &ndash; History</p>
       </div>
     </div>
-    <h4>What is the best thing about living and working in your location?</h4>
-    <p>London remains one of the most influential and innovative financial centres 
-      in the world, and many markets look to see what London is doing and often 
-      replicate that. Whether it's a new type of product or a new piece of legislation, 
-      you really are connected to the latest developments in finance and in a 
-      great position to react. </p>
-    <h4>Describe your experience and the value of your experience in the summer 
-      intern programme. </h4>
-    <p>I took part in the GWIM 2007 summer internship programme. Having had only 
-      a basic knowledge of wealth management and finance, this provided me with 
-      an opportunity to ask simple questions and to see the various departments 
-      that make up wealth management. This meant I was able to make a far more 
-      informed decision when choosing where I wanted to work, and also meant that 
-      I could hit the ground running when I joined a year later as a graduate. 
-    </p>
     <h4>What is your current assignment and primary responsibilities?</h4>
     <p>I am currently in the Global Wealth and Investment Management (GWIM) Graduate 
       Programme, and my focus is on learning the knowledge and skills to become 
@@ -52,6 +37,22 @@
       who did not have a background in finance or economics, I was really keen 
       to join a firm which takes on people based on what they have the potential 
       to achieve with good training. </p>
+    <h4>What is the best thing about living and working in your location?</h4>
+    <p>London remains one of the most influential and innovative financial centres 
+      in the world, and many markets look to see what London is doing and often 
+      replicate that. Whether it's a new type of product or a new piece of legislation, 
+      you really are connected to the latest developments in finance and in a 
+      great position to react. </p>
+    <h4>Describe your experience and the value of your experience in the summer 
+      intern programme. </h4>
+    <p>I took part in the GWIM 2007 summer internship programme. Having had only 
+      a basic knowledge of wealth management and finance, this provided me with 
+      an opportunity to ask simple questions and to see the various departments 
+      that make up wealth management. This meant I was able to make a far more 
+      informed decision when choosing where I wanted to work, and also meant that 
+      I could hit the ground running when I joined a year later as a graduate. 
+    </p>
+    
     <p class="back-top"><a href="#profiles">Back to top</a></p>
   </div>
   <div id="aside"> <a href="campus-Americas-find-your-fit.aspx"><img src="images/campus/btn-careerfinder.jpg" width="179" height="66" alt="Career Finder: Come as you are. We've got a career to fit." /></a> 

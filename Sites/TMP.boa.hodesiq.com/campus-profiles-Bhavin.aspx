@@ -25,6 +25,33 @@
                 <p>Major &ndash; Business Management, Information Systems</p>
                 </div>
         </div>
+        
+    <h4>What is your current assignment and primary responsibilities?</h4>
+    
+    <p>I am part of the Basel II Data Quality team at Bank of America. I specifically
+    support the retail data with the goal of ensuring that the data is complete
+    and accurate for Basel II Regulatory Reporting.
+    My principle responsibilities include the following: support end-to-end
+    testing; defect analysis and resolution; and post month-end data
+    quality reporting, which includes running SQL scripts, compiling into
+    reports and performing analysis on the data quality issues.</p>
+    
+     <h4>What is the most challenging part of your job?</h4>
+    <p>The most challenging part of my job is working with a virtual team.
+    I was used to working with a team in the same locale and thought
+    working virtually would be a challenge. By using the available technology
+    and tools, I have not experienced any negative impact from
+    working virtually.</p>
+    
+    
+    
+    <h4>What attracted you to Bank of America?</h4>
+    <p>Bank of America is a global company. It has a great reputation, and I
+    see limitless potential for career growth and opportunity.
+    Additionally, Bank of America saw potential in me, despite my
+    lack of real-world experience, which further strengthened my
+    desire to work for the company.</p>
+    
     
     <h4>Who is the most influential person in your Bank of America career?</h4>
     
@@ -52,31 +79,7 @@
     to becoming a full-time associate at Bank of America. These unique
     opportunities allowed me to gain real-world experience. I was
     challenged and given significant and meaningful tasks.</p>
-    
-    <h4>What is your current assignment and primary responsibilities?</h4>
-    
-    <p>I am part of the Basel II Data Quality team at Bank of America. I specifically
-    support the retail data with the goal of ensuring that the data is complete
-    and accurate for Basel II Regulatory Reporting.
-    My principle responsibilities include the following: support end-to-end
-    testing; defect analysis and resolution; and post month-end data
-    quality reporting, which includes running SQL scripts, compiling into
-    reports and performing analysis on the data quality issues.</p>
-    
-    <h4>What is the most challenging part of your job?</h4>
-    <p>The most challenging part of my job is working with a virtual team.
-    I was used to working with a team in the same locale and thought
-    working virtually would be a challenge. By using the available technology
-    and tools, I have not experienced any negative impact from
-    working virtually.</p>
-    
-    <h4>What attracted you to Bank of America?</h4>
-    <p>Bank of America is a global company. It has a great reputation, and I
-    see limitless potential for career growth and opportunity.
-    Additionally, Bank of America saw potential in me, despite my
-    lack of real-world experience, which further strengthened my
-    desire to work for the company.</p>
-    
+   
     
     <p class="back-top"><a href="#profiles">Back to top</a></p>
     

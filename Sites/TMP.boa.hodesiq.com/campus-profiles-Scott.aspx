@@ -17,13 +17,6 @@
         <p>Degree &ndash; BBA, Global Business &amp; Finance</p>
       </div>
     </div>
-    <h4>What is the best thing about living and working in your location?</h4>
-    <p>Hong Kong is one of the most multinational cities in the world, which gives 
-      me great experience dealing with people from different cultures. </p>
-    <h4>What advice would you give to someone considering an opportunity at Bank 
-      of America? </h4>
-    <p>Be prepared with the difficult questions interviewers may ask. And, above 
-      all, be honest. </p>
     <h4>What is your current assignment and primary responsibilities?</h4>
     <p>I work on the MLX team, in charge of providing client service support for 
       various e-commerce platforms within the company. </p>
@@ -32,8 +25,16 @@
       we support in the Asia Pacific. The best project so far was the analysis 
       of different responsibilities with a global team. </p>
     <h4>What attracted you to Bank of America?</h4>
-    <p>The friendly and open-minded culture attracted me to join the company. 
-    </p>
+    <p>The friendly and open-minded culture attracted me to join the company. </p>
+    
+    <h4>What is the best thing about living and working in your location?</h4>
+    <p>Hong Kong is one of the most multinational cities in the world, which gives 
+      me great experience dealing with people from different cultures. </p>
+    <h4>What advice would you give to someone considering an opportunity at Bank 
+      of America? </h4>
+    <p>Be prepared with the difficult questions interviewers may ask. And, above 
+      all, be honest. </p>
+    
     <p class="back-top"><a href="#profiles">Back to top</a></p>
   </div>
   <div id="aside"> <a href="campus-Americas-find-your-fit.aspx"><img src="images/campus/btn-careerfinder.jpg" width="179" height="66" alt="Career Finder: Come as you are. We've got a career to fit." /></a> 

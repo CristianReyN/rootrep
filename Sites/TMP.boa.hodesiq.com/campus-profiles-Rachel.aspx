@@ -23,25 +23,8 @@
                 <p>Degree &ndash; Bachelors of Science in Supply Chain Management, International Business Certificate</p>
                 </div>
         </div>
-    
-    <h4>What advice would you give to someone considering an opportunity at
-Bank of America?</h4>
-<p>Remember to interview your interviewer! Your interviewer can provide a wealth
-of insight into the corporate culture and opportunities to grow within the MAP
-program and advance after the program. If you take the time to speak with your
-interviewer, I think you’ll see this program combined with the flexible corporate
-culture is a great fit for a recent graduate.</p>
-
-<h4>What other activities do you enjoy outside of your work day?</h4>
-<p>I’ve volunteered with the MAP Program and Team Bank of America to
-support Classroom Central, Operation Christmas Child, and
-Junior Achievement. The next project I’m involved in is
-the Annual Animal Expo with Team Bank of America.
-I’ve also participated in events with an Alumni chapter
-of Alpha Kappa Psi professional business fraternity
-and Kiwanis.</p>
-
-<h4>What is your current assignment and primary responsibilities?</h4>
+        
+        <h4>What is your current assignment and primary responsibilities?</h4>
 <p>My first Supply Chain Management Associate Program (MAP) rotation is with
 the Global Records Management team. I have supported this team as the
 Transportation & Logistics Lead on a multi-phased supplier conversion of
@@ -65,7 +48,24 @@ with exposure across the businesses drew me in. My school work
 focused heavily on supply chain in manufacturing industries, and I was
 interested in exploring supply chain functions in a service industry.</p>
     
-    
+    <h4>What advice would you give to someone considering an opportunity at
+Bank of America?</h4>
+<p>Remember to interview your interviewer! Your interviewer can provide a wealth
+of insight into the corporate culture and opportunities to grow within the MAP
+program and advance after the program. If you take the time to speak with your
+interviewer, I think you’ll see this program combined with the flexible corporate
+culture is a great fit for a recent graduate.</p>
+
+<h4>What other activities do you enjoy outside of your work day?</h4>
+<p>I’ve volunteered with the MAP Program and Team Bank of America to
+support Classroom Central, Operation Christmas Child, and
+Junior Achievement. The next project I’m involved in is
+the Annual Animal Expo with Team Bank of America.
+I’ve also participated in events with an Alumni chapter
+of Alpha Kappa Psi professional business fraternity
+and Kiwanis.</p>
+
+
     <p class="back-top"><a href="#profiles">Back to top</a></p>
     
     </div>
