@@ -87,7 +87,7 @@ tabs[tab-1].coremetrics = true;
 					<% For p=0 To UBound(program_group_program_keys) Step 1 
 							Set program_group_program = program_group_programs.Item(program_group_program_keys(p))
 							If program_group_program.Item("is_active") Then %>
-			<li><a href="<%=program_group_program.Item("url")%>" class="bac"><%=program_group_program.Item("title")%><% If program_group_program.Item("sub_region") = CANADA Then %> (<%=CANADA%>)<% End If %></a></li>
+			<li><a href="<%=program_group_program.Item("url")%>" class="bac"><%=program_group_program.Item("title")%></a></li>
 						<% End If
 						Next %>
 		</ul>

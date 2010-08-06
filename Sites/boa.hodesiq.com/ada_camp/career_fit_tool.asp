@@ -3,10 +3,10 @@ Dim title, mpage, spage, ada_href, ada_title, page_section, Metatag%>
 <!-- #include file="../includes/breadcrumb.asp" -->
 <%
 mpage = "camp"
-spage = "find_your_fit"
-tpage = "career_fit_tool"
+spage = "career_fit_tool"
+tpage = ""
 standart_href = "../campusrecruiting/career_fit_tool.asp"
-Metatag="Career Fit Tool detail page on campus site. Provides tailored questionnaire tool to match candidates' skills to ideal positions within the Bank's various Business Areas."
+Metatag="Career Finder detail page on campus site. Provides tailored questionnaire tool to match candidates' skills to ideal positions within the Bank's various Business Areas."
 page_self = "../ada_camp/career_fit_tool.asp"
 page_section="ADA"
 Dim flashPage
@@ -21,7 +21,7 @@ flashPage = false
 	fp = session.Contents("fit_programs")
 	if fp <> "" Then
 		fit_programs = Split(fp,":")
-		if UBound(fit_programs) = 3 Then
+		if UBound(fit_programs) = 5 Then
 			Response.Redirect("career_fit_tool_10.asp?p="&fp)
 		Else
 			session.Contents.Remove("fit_programs")
@@ -30,8 +30,8 @@ flashPage = false
 %>
 <!-- #include file="../includes/career_fit_tool_pr.asp" -->
 <%
-title = breadcrumb & "Campus Recruiting | Find Your Fit | Career Fit Tool"
-	call createPage(page,0,"One bank. Countless opportunities.<br>Curious about where you could fit in at Bank of America?","Just answer nine easy questions about your experience and goals, and we’ll match you up with the career opportunities that suit you best.")
+title = breadcrumb & "Campus Recruiting | Find Your Fit | Career Finder"
+	call createPage(page,0,"<span style=""font-size : large;"">Curious about where you could fit in at Bank of America?</span>","Just answer nine easy questions about your experience and goals, and we’ll match you up with the career opportunities that suit you best.")
 %>
 <!-- Header -->
 <!-- #include file="../ada/header.asp" -->

@@ -9,10 +9,11 @@
 		Response.Redirect("career_fit_tool.asp")
 	End If
 	
+	Dim min_programs_per_page
+	min_programs_per_page = 6'change also if UBound(fit_programs) = 5
 	Dim page
-	min_programs_per_page = 6
 '******** CALCULATE FINAL PAGE *********'
-	If page_number = 10 Then call createPage(page,10,"Choose. Connect. Grow.","Based on your answers, you may find one of the following areas to be the best fit for you:")
+	If page_number = 10 Then call createPage(page,10,"Set opportunity in motion.","Based on your answers, you may find one of the following areas to be the best fit for you:")
 	
 	If from_request Then
 		Redim Preserve selected_programs(6)
@@ -52,34 +53,40 @@ If programs(program_number).Item("is_active") Then programs(program_number).Item
 			End If
 		Next
 '************ SORT PROGRAMS ************'
-		Dim min_programs_per_page
-		'select all (169) programs
-		Redim Preserve selected_programs(169)
-		Redim Preserve selected_program_points(169)
+		'select all (600) programs
+		Redim Preserve selected_programs(600)
+		Redim Preserve selected_program_points(600)
 		For sprg=1 To UBound(selected_programs) Step 1
 			selected_programs(sprg) = 0
 			selected_program_points(sprg) = 0
 		Next
 		
 		For prg=1 To UBound(programs) Step 1
-			Set program = programs(prg)
 			program_not_set = True
-			For sprg=1 To UBound(selected_programs) Step 1
-				If program_not_set And program.Item("points") > selected_program_points(sprg) Then
-					For sprgn=UBound(selected_programs) To sprg+1 Step -1
-						selected_programs(sprgn) = selected_programs(sprgn-1)
-						selected_program_points(sprgn) = selected_program_points(sprgn-1)
-					Next
-					selected_programs(sprg) = prg
-					selected_program_points(sprg) = program.Item("points")
-					program_not_set = False
-				End If
-			Next
-			If program_not_set And program.Item("points") < 1 Then
+			If Not isEmpty( programs(prg) ) Then
+				Set program = programs(prg)
+				For sprg=1 To UBound(selected_programs) Step 1
+					If program_not_set And program.Item("points") > selected_program_points(sprg) Then
+						For sprgn=UBound(selected_programs) To sprg+1 Step -1
+							selected_programs(sprgn) = selected_programs(sprgn-1)
+							selected_program_points(sprgn) = selected_program_points(sprgn-1)
+						Next
+						selected_programs(sprg) = prg
+						selected_program_points(sprg) = program.Item("points")
+						program_not_set = False
+					End If
+				Next
+			End If
+			
+			If program_not_set And ( program.Item("points") < 1 Or isEmpty(programs(prg)) ) Then
 				For sprg=1 To UBound(selected_programs) Step 1
 					If selected_programs(sprg) = 0 Then
 						selected_programs(sprg) = prg
-						selected_program_points(sprg) = program.Item("points")
+						If isEmpty(programs(prg)) Then
+							selected_program_points(sprg) = -10000
+						Else
+							selected_program_points(sprg) = program.Item("points")
+						End If
 						Exit For
 					End If
 				Next

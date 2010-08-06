@@ -130,7 +130,7 @@ function tdiv(tf){}
 //-->
 </script>
 </head>
-<body id="body" onload="startPs(); fixIE(<% If (mpage = "overview" And spage = "" ) Or tpage = "career_fit_tool" Then %>false<% Else %>true<% End If %>);" onunload="">
+<body id="body" onload="startPs(); fixIE(<% If (mpage = "overview" And spage = "" ) Or spage = "career_fit_tool" Then %>false<% Else %>true<% End If %>);" onunload="">
 <!-- #include file="../includes/manage_your_profile.asp" -->
 <%
 Dim pageId, categoryId
@@ -176,7 +176,7 @@ End If
 <% End If %>
 //-->
 </script>
-<% If mpage = "overview" Or (spage = "collrecruiting" And (tpage = "graduate_programs" Or tpage = "undergraduate_programs" Or tpage = "internships_program") And fpage <> "") Or (mpage = "areasoftalent" And spage <> "") Or (mpage = "camp" And ((spage = "find_your_fit" And tpage = "career_fit_tool") Or spage = "")) Then %>
+<% If mpage = "overview" Or (spage = "collrecruiting" And (tpage = "graduate_programs" Or tpage = "undergraduate_programs" Or tpage = "internships_program") And fpage <> "") Or (mpage = "areasoftalent" And spage <> "") Or (mpage = "camp" And ( spage = "career_fit_tool" Or spage = "") ) Then %>
 <table cellpadding="0" cellspacing="0" border="0" summary=""><tr><td>
 <a href="<%=ada_href %>" id="tonly" title="<%=textonly_version %>" class="hide-tab"><%=textonly_version %></a>
 </td></tr></table>

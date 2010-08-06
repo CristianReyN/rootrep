@@ -3,8 +3,8 @@ Dim title, mpage, spage, ada_href, ada_title, page_section, Metatag%>
 <!-- #include file="../includes/breadcrumb.asp" -->
 <%
 mpage = "camp"
-spage = "find_your_fit"
-tpage = "career_fit_tool"
+spage = "career_fit_tool"
+tpage = ""
 standart_href = "../campusrecruiting/career_fit_tool.asp"
 Metatag=""
 page_self = "../ada_camp/career_fit_tool.asp"
@@ -35,7 +35,7 @@ flashPage = false
 %>
 <!-- #include file="../includes/pages/camp/career_fit_tool_function.asp" -->
 <%
-title = breadcrumb & "Campus Recruiting | Find Your Fit | Career Fit Tool | Program List"
+title = breadcrumb & "Campus Recruiting | Find Your Fit | Career Finder | Program List"
 %>
 <!-- Header -->
 <!-- #include file="../ada/header.asp" -->

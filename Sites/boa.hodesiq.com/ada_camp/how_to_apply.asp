@@ -5,7 +5,7 @@ Dim title, mpage, spage, ada_href, ada_title, page_section, Metatag%>
 mpage = "camp"
 spage = "how_to_apply"
 standart_href = "../campusrecruiting/how_to_apply.asp"
-Metatag="Application Overview page on campus site. Provides direct Profile Submission Tool for positions in the U.S. & internationally, and Campus Events & Career Fit Tools."
+Metatag="Application Overview page on campus site. Provides direct Profile Submission Tool for positions in the U.S. & internationally, and Campus Events & Career Finder."
 page_section="ADA"
 Dim flashPage
 flashPage = false

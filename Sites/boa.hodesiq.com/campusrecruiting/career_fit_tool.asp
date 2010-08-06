@@ -3,8 +3,8 @@ Dim title, mpage, spage, ada_href, ada_title, Metatag%>
 <!-- #include file="../includes/breadcrumb.asp" -->
 <% title = breadcrumb & "Campus Recruiting | Find Your Fit | Career Fit Tool"
 mpage = "camp"
-spage = "find_your_fit"
-tpage = "career_fit_tool"
+spage = "career_fit_tool"
+tpage = ""
 ada_href = "../ada_camp/career_fit_tool.asp"
 page_self = "../campusrecruiting/career_fit_tool.asp"
 ada_title = breadcrumb & "Campus Recruiting | Find Your Fit | Career Fit Tool"

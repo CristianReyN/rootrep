@@ -4,7 +4,7 @@
 		<table width="577" height="580" border="0" cellpadding="0" cellspacing="0" summary="" style="margin-top: 9px;">
 			<tr>
 				<td colspan="3"><H1 class="hidden">Career Fit Tool</H1>
-					<img src="../images/camp/cft_top.jpg" width="577" height="52" alt="Career Fit Tool" /></td>
+					<img src="../images/camp/cfn_top.jpg" width="577" height="52" alt="Career Fit Tool" /></td>
 			</tr>
 			<tr>
 				<td style="background: url(../images/camp/cft_left_bg.jpg);" valign="bottom">
@@ -117,18 +117,21 @@
 		For sprg=1 To UBound(selected_programs) Step 1
 			'If sprg = min_programs_per_page Then stop_points = selected_program_points(sprg)
 			'If selected_program_points(sprg) > 0 And (sprg <= min_programs_per_page Or selected_program_points(sprg) >= stop_points) Then
+			If num_listed >= min_programs_per_page Then Exit For
 			program_index = selected_programs(sprg)
-			If selected_program_points(sprg) > 0 And programs(program_index).Item("is_active") And num_listed < min_programs_per_page Then
-				programs(program_index).Item("listed") = TRUE
-				num_listed = num_listed + 1
-				If session_programs <> "" Then session_programs = session_programs & ":"
-				session_programs = session_programs & program_index
-				'remember points'If session_program_points <> "" Then session_program_points = session_program_points & ":"
-				'remember points'session_program_points = session_program_points & programs(program_index).Item("points")
+			If Not isEmpty( programs(program_index) ) Then
+				If selected_program_points(sprg) > 0 And programs(program_index).Item("is_active") And num_listed < min_programs_per_page Then
+					programs(program_index).Item("listed") = TRUE
+					num_listed = num_listed + 1
+					If session_programs <> "" Then session_programs = session_programs & ":"
+					session_programs = session_programs & program_index
+					'remember points'If session_program_points <> "" Then session_program_points = session_program_points & ":"
+					'remember points'session_program_points = session_program_points & programs(program_index).Item("points")
 %>
 <H2 class="cft" style="margin: 12px 0px 0px 15px;"><%=programs(program_index).Item("program_group").Item("group_name") %></H2>
-<p style="margin: 0px 0px <%If num_listed = min_programs_per_page Then %>0<% Else %>18<% End If %>px 15px;"><a class="cft" href="<%=programs(program_index).Item("url") %>"><%=programs(program_index).Item("title") %> - <% If programs(program_index).Item("region") = AMERICAS Then %><% If programs(program_index).Item("sub_region") = CANADA Then %><%=CANADA%><% Else%><%=U_S_A%><% End If %><% Else%><%=programs(program_index).Item("region")%><% End If %></a><% 'response.write ( " - " & selected_program_points(sprg) ) %></p>
-<%			End If
+<p style="margin: 0px 0px <%If num_listed = min_programs_per_page Then %>0<% Else %>18<% End If %>px 15px;"><a class="cft" href="<%=programs(program_index).Item("url") %>"><%=programs(program_index).Item("title") %> - <% If programs(program_index).Item("region") = AMERICAS Then %><% If programs(program_index).Item("sub_region") = CANADA Then %><%=CANADA%><% Else%><%=U_S_A%><% End If %><% Else%><%=programs(program_index).Item("region")%><% End If %></a><% 'response.write ( " - " & selected_programs(sprg) & " : " & selected_program_points(sprg) ) %></p>
+<%				End If
+			End If
 		Next
 		If session_programs <> "" Then session.Contents("fit_programs") = session_programs
 		'remember points'If Not from_request And session_program_points <> "" Then session.Contents("fit_program_points") = session_program_points
@@ -167,7 +170,7 @@
 <input type="submit" id="finish" name="finish" value="Finish &raquo;" alt="Finish &raquo;" title="Finish &raquo;" class="button_cft"<%=tabindex_str %>>
 <%
 		Else %>
-<p class="cft" style="margin: 0px 0px 9px 0px;">Feel free to change your answers and <a href="career_fit_tool_all.asp" class="cft" title="Career Fit Tool">try the Career Fit Tool again</a>. You can also <span class="cft">bookmark</span> your results after each attempt for later reference.</p>
+<p class="cft" style="margin: 0px 0px 9px 0px;">Feel free to change your answers and <a href="career_fit_tool_all.asp" class="cft" title="Career Fit Tool">try the Career Finder again</a>. You can also <span class="cft">bookmark</span> your results after each attempt for later reference.</p>
 <%
 		End If %>
 										</td>
