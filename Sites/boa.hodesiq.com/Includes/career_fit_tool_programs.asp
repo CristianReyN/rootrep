@@ -456,9 +456,9 @@ Function CampusEventsLink (program)
 End Function
 
 Function ApplyLink (program)
-	if page_section = "ADA" Then
-		ApplyLink = "how_to_apply.asp"
-	Else
+	'if page_section = "ADA" Then
+	'	ApplyLink = "how_to_apply.asp"
+	'Else
 		select case program.Item("region")
 			case AMERICAS
 				ApplyLink = "../campus-Americas-how-to-apply.aspx"
@@ -469,6 +469,6 @@ Function ApplyLink (program)
 			case else
 				ApplyLink = ""
 		end select
-	End if
+	'End if
 End Function
 %>
