@@ -461,11 +461,11 @@ Function ApplyLink (program)
 	Else
 		select case program.Item("region")
 			case AMERICAS
-				ApplyLink = "../campus/Americas/how-to-apply.aspx"
+				ApplyLink = "../campus-Americas-how-to-apply.aspx"
 			case EMEA
-				ApplyLink = "../campus/EMEA/how-to-apply.aspx"
+				ApplyLink = "../campus-EMEA-how-to-apply.aspx"
 			case ASIA
-				ApplyLink = "../campus/AsiaPac/how-to-apply.aspx"
+				ApplyLink = "../campus-AsiaPac-how-to-apply.aspx"
 			case else
 				ApplyLink = ""
 		end select
