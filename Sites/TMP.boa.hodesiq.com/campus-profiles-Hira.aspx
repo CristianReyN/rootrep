@@ -17,16 +17,6 @@
         <p>Degree &ndash; BA in Psychology and International Studies</p>
       </div>
     </div>
-    <h4>I remain at Bank of America because...?</h4>
-    <p>Bank of America helps me maintain a healthy work-life balance while providing 
-      a challenging work environment with a steep learning curve. Further, what 
-      really separates Bank of America from other institutions is the friendliness 
-      of the people. </p>
-    <h4>What is the best thing about living and working in your location?</h4>
-    <p>With the addition of the Merrill Lynch franchise, we have increased our 
-      reach across Europe making London an even more important business center 
-      for the bank. From a personal perspective, living in London provides great 
-      opportunities to travel across Europe. </p>
     <h4>What advice would you give to someone considering an opportunity at Bank 
       of America? </h4>
     <p>My advice to a potential candidate would be to not be afraid of pursuing 
@@ -50,6 +40,17 @@
       I was able to travel to Rome to meet the client and carry out due diligence. 
       This helped me immensely in my analysis of the company and in determining 
       the risks and rewards to the bank in entering such a transaction. </p>
+    <h4>I remain at Bank of America because...?</h4>
+    <p>Bank of America helps me maintain a healthy work-life balance while providing 
+      a challenging work environment with a steep learning curve. Further, what 
+      really separates Bank of America from other institutions is the friendliness 
+      of the people. </p>
+    <h4>What is the best thing about living and working in your location?</h4>
+    <p>With the addition of the Merrill Lynch franchise, we have increased our 
+      reach across Europe making London an even more important business center 
+      for the bank. From a personal perspective, living in London provides great 
+      opportunities to travel across Europe. </p>
+    
     <p class="back-top"><a href="#profiles">Back to top</a></p>
   </div>
   <div id="aside"> <a href="campus-Americas-find-your-fit.aspx"><img src="images/campus/btn-careerfinder.jpg" width="179" height="66" alt="Career Finder: Come as you are. We've got a career to fit." /></a> 

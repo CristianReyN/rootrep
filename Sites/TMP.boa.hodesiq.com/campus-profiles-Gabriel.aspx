@@ -17,6 +17,21 @@
         <p>Degree &ndash; B.A., Finance</p>
       </div>
     </div>
+     <h4>What is your current assignment and primary responsibilities?</h4>
+    <p>I am an analyst in the Mergers and Acquisitions Group in Hong Kong. My 
+      main responsibilities include financial modeling, drafting presentations 
+      and assisting in the day-to-day execution and running of deals. </p>
+    <h4>What was the best project you worked on?</h4>
+    <p>Advising a Japanese retail company on a cross-border acquisition of a Korean 
+      target. I had the opportunity to take on more responsibilities and was in 
+      charge of running the financial model and also worked closely with the senior 
+      management of the client on areas like due diligence and valuation. </p>
+    <h4>I remain at Bank of America because...?</h4>
+    <p>Bank of America Merrill Lynch has a great franchise in Asia and would give 
+      me the opportunity to work on many landmark transactions. The company also 
+      has a great culture, as well as very motivated and intelligent leaders who 
+      are genuinely interested in the employees' learning experience and overall 
+      career development. </p>
     <h4>What advice would you give to someone considering an opportunity at Bank 
       of America? </h4>
     <p>Speak to as many people as possible about their experiences. This is so 
@@ -35,21 +50,7 @@
       I am also a food lover, therefore Hong Kong is excellent because there are 
       so many restaurants and private kitchens offering various types of cuisines. 
     </p>
-    <h4>What is your current assignment and primary responsibilities?</h4>
-    <p>I am an analyst in the Mergers and Acquisitions Group in Hong Kong. My 
-      main responsibilities include financial modeling, drafting presentations 
-      and assisting in the day-to-day execution and running of deals. </p>
-    <h4>What was the best project you worked on?</h4>
-    <p>Advising a Japanese retail company on a cross-border acquisition of a Korean 
-      target. I had the opportunity to take on more responsibilities and was in 
-      charge of running the financial model and also worked closely with the senior 
-      management of the client on areas like due diligence and valuation. </p>
-    <h4>I remain at Bank of America because...?</h4>
-    <p>Bank of America Merrill Lynch has a great franchise in Asia and would give 
-      me the opportunity to work on many landmark transactions. The company also 
-      has a great culture, as well as very motivated and intelligent leaders who 
-      are genuinely interested in the employees' learning experience and overall 
-      career development. </p>
+   
     <p class="back-top"><a href="#profiles">Back to top</a></p>
   </div>
   <div id="aside"> <a href="campus-Americas-find-your-fit.aspx"><img src="images/campus/btn-careerfinder.jpg" width="179" height="66" alt="Career Finder: Come as you are. We've got a career to fit." /></a> 

@@ -17,21 +17,7 @@
         <p>Post-Grad &ndash; Tuck School of Business at Dartmouth, MBA</p>
       </div>
     </div>
-    <h4>What advice would you give to someone considering an opportunity at Bank 
-      of America? </h4>
-    <p>Be very well prepared for your interview. It might sound obvious, but sometimes 
-      it's not. Know why are you here and, more importantly, why you want to join 
-      Bank of America. You will have the opportunity to ask about the company, 
-      but you have to do your own homework getting to know the firm and why would 
-      you consider it as a potential opportunity. </p>
-    <h4>If you participated in a summer intern program at Bank of America, describe 
-      your experience and the value of your internship. </h4>
-    <p>I did my summer internship at Bank of America in the summer of 2006. It 
-      was a great experience for me, so much that I decided to come back. The 
-      generalist program in Investment Banking provides you the opportunity to 
-      get to know different groups. This is of great value as you can learn from 
-      both the dynamic of the group as well as from the industry; then you can 
-      decide among different groups and determine your best fit. </p>
+    
     <h4>What is your current assignment and primary responsibilities?</h4>
     <p>I work as an associate in the Healthcare Investment Banking Group in New 
       York, and my responsibilities include financial and market analyses. My 
@@ -50,8 +36,23 @@
       of my career allows me to learn and be involved in transactions that include 
       all or most of the products that investment banking offers. This will give 
       me relevant experience anywhere in the world. </p>
-    <h4></h4>
-    <p></p>
+    <h4>What advice would you give to someone considering an opportunity at Bank 
+      of America? </h4>
+    <p>Be very well prepared for your interview. It might sound obvious, but sometimes 
+      it's not. Know why are you here and, more importantly, why you want to join 
+      Bank of America. You will have the opportunity to ask about the company, 
+      but you have to do your own homework getting to know the firm and why would 
+      you consider it as a potential opportunity. </p>
+    <h4>If you participated in a summer intern program at Bank of America, describe 
+      your experience and the value of your internship. </h4>
+    <p>I did my summer internship at Bank of America in the summer of 2006. It 
+      was a great experience for me, so much that I decided to come back. The 
+      generalist program in Investment Banking provides you the opportunity to 
+      get to know different groups. This is of great value as you can learn from 
+      both the dynamic of the group as well as from the industry; then you can 
+      decide among different groups and determine your best fit. </p>
+    
+   
     <p class="back-top"><a href="#profiles">Back to top</a></p>
   </div>
   <div id="aside"> <a href="campus-Americas-find-your-fit.aspx"><img src="images/campus/btn-careerfinder.jpg" width="179" height="66" alt="Career Finder: Come as you are. We've got a career to fit." /></a> 

@@ -17,20 +17,7 @@
         <p>Degree &ndash; BA in Economics</p>
       </div>
     </div>
-    <h4>If you participated in a summer intern program at Bank of America, describe 
-      your experience and the value of your internship.</h4>
-    <p>I was a summer intern and the experience was one that I'll never forget. 
-      Not only was I able to learn a great deal about the capital markets and 
-      their role within an investment bank, I also learned how to multi-task, 
-      prioritize various responsibilities and be accountable for all of my work. 
-    </p>
-    <h4>Add any other information about your background and experiences that you 
-      want to share, especially activities outside of your work day including 
-      volunteer work and hobbies.</h4>
-    <p>Through work, I also became involved in the Student Sponsor Program of 
-      New York City. I have sponsored a high school student from the Bronx for 
-      the past three years and look forward to seeing him graduate in 2010.</p>
-    <h4>What is your current assignment and primary responsibilities?</h4>
+     <h4>What is your current assignment and primary responsibilities?</h4>
     <p>I am an associate in the Equity Capital Markets group where I focus on 
       the origination effort in the Healthcare and Transportation spaces. I also 
       act as deal captain for all non-U.S. listed equity offerings that are sold 
@@ -48,6 +35,20 @@
       at Bank of America. People here are passionate about their work, so you 
       should feel comfortable that you'll be able to match that passion in whatever 
       role you may aspire to.</p>
+    <h4>If you participated in a summer intern program at Bank of America, describe 
+      your experience and the value of your internship.</h4>
+    <p>I was a summer intern and the experience was one that I'll never forget. 
+      Not only was I able to learn a great deal about the capital markets and 
+      their role within an investment bank, I also learned how to multi-task, 
+      prioritize various responsibilities and be accountable for all of my work. 
+    </p>
+    <h4>Add any other information about your background and experiences that you 
+      want to share, especially activities outside of your work day including 
+      volunteer work and hobbies.</h4>
+    <p>Through work, I also became involved in the Student Sponsor Program of 
+      New York City. I have sponsored a high school student from the Bronx for 
+      the past three years and look forward to seeing him graduate in 2010.</p>
+   
     <p class="back-top"><a href="#profiles">Back to top</a></p>
   </div>
   <div id="aside"> <a href="campus-Americas-find-your-fit.aspx"><img src="images/campus/btn-careerfinder.jpg" width="179" height="66" alt="Career Finder: Come as you are. We've got a career to fit." /></a> 

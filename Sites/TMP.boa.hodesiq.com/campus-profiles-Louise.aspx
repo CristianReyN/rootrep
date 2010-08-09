@@ -18,20 +18,7 @@
       </div>
     </div>
     
-	<h4>What is the best thing about living and working in your location?</h4>
-    <p>The best thing about working in Hong Kong is the exciting and fast-paced
-modern city life. Everything you need&ndash;from your office to your personal
-living necessity, such as groceries, to night life&ndash;is within walking distance
-24 hours a day. Even the most local residents here have learned to embrace
-the multiculturalism everywhere they go. You don't feel out of place being
-who you are here.</p>
-    
-	<h4>What advice would you give to someone considering
-an opportunity at Bank of America?</h4>
-    <p>Learning the processes is not your goal. Be ready for a
-culture where status quo is questioned and challenged.</p>
-    
-	<h4>What is your current assignment and primary responsibilities?</h4>
+    <h4>What is your current assignment and primary responsibilities?</h4>
     <p>Product controller for Strategic Investment Group desk. Currently
 doing finance work for the trading desk including: daily profit
 and loss analysis and attribution; various monthly accounting
@@ -51,7 +38,19 @@ from a vast variety of backgrounds, but we learn to leverage
 each other's strengths and differences, while being encouraged
 to be ourselves.</p>
     
-	
+	<h4>What is the best thing about living and working in your location?</h4>
+    <p>The best thing about working in Hong Kong is the exciting and fast-paced
+modern city life. Everything you need&ndash;from your office to your personal
+living necessity, such as groceries, to night life&ndash;is within walking distance
+24 hours a day. Even the most local residents here have learned to embrace
+the multiculturalism everywhere they go. You don't feel out of place being
+who you are here.</p>
+    
+	<h4>What advice would you give to someone considering
+an opportunity at Bank of America?</h4>
+    <p>Learning the processes is not your goal. Be ready for a
+culture where status quo is questioned and challenged.</p>
+   
 	<p class="back-top"><a href="#profiles">Back to top</a></p>
   </div>
   <div id="aside"> <a href="campus-Americas-find-your-fit.aspx"><img src="images/campus/btn-careerfinder.jpg" width="179" height="66" alt="Career Finder: Come as you are. We've got a career to fit." /></a> 

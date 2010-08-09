@@ -18,6 +18,18 @@
         <p>Major &ndash; Computers &amp; Information Technology</p>
       </div>
     </div>
+     <h4>What is your current assignment and primary responsibilities?</h4>
+    <p>I currently work on the Data Center Strategy team. My primary responsibilities 
+      include financial modeling for data center consolidation efforts, supporting 
+      the development of workload placement strategies, and performing a variety 
+      of analyses on our current data center portfolio and application hosting 
+      functions that help drive the strategy for the bank's data centers. </p>
+    <h4>What attracted you to Bank of America?</h4>
+    <p>I interned with Bank of America in the summer of 2006 and really enjoyed 
+      the experience. The bank is large enough that there are many options available 
+      for someone starting their career. I felt like I could gain a variety of 
+      experiences working here to set a foundation for a career. </p>
+    
     <h4>What is the best thing about living and working in your location?</h4>
     <p>I enjoy working in Charlotte for several reasons. First off, the climate 
       is great! Growing up in the Midwest I was used to long and cold winters, 
@@ -34,17 +46,7 @@
       just outside their area of knowledge, because that will create new experiences 
       and can help find new areas they may not have realized would be a good fit. 
     </p>
-    <h4>What is your current assignment and primary responsibilities?</h4>
-    <p>I currently work on the Data Center Strategy team. My primary responsibilities 
-      include financial modeling for data center consolidation efforts, supporting 
-      the development of workload placement strategies, and performing a variety 
-      of analyses on our current data center portfolio and application hosting 
-      functions that help drive the strategy for the bank's data centers. </p>
-    <h4>What attracted you to Bank of America?</h4>
-    <p>I interned with Bank of America in the summer of 2006 and really enjoyed 
-      the experience. The bank is large enough that there are many options available 
-      for someone starting their career. I felt like I could gain a variety of 
-      experiences working here to set a foundation for a career. </p>
+   
     <p class="back-top"><a href="#profiles">Back to top</a></p>
   </div>
   <div id="aside"> <a href="campus-Americas-find-your-fit.aspx"><img src="images/campus/btn-careerfinder.jpg" width="179" height="66" alt="Career Finder: Come as you are. We've got a career to fit." /></a> 

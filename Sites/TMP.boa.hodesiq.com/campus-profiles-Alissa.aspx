@@ -16,25 +16,6 @@
         <p>Grad &ndash; Florida A&amp;M University, MBA</p>
       </div>
     </div>
-    <h4>What advice would you give to someone considering an opportunity at Bank 
-      of America? </h4>
-    <p>Do your research. Try to connect with people who are currently working 
-      at the bank or in the group you are interested in joining. You may be able 
-      to find alumni at the bank through your university's career placement office. 
-      Ask these contacts questions about the job responsibilities, group culture, 
-      and expectations of new team members. This knowledge goes a long way during 
-      the interview process and helps during your transition from college to the 
-      office. </p>
-    <h4>Describe your experience as an intern at Bank of America.</h4>
-    <p>I was an intern in the Financial Sponsors and Healthcare industry sectors 
-      of Corporate Debt Products for three months the summer before graduation. 
-      While my experience was only a small window into the analyst job, it provided 
-      me with the chance to speak directly with analysts about their responsibilities, 
-      meet the teams, and understand the role. </p>
-    <h4>What other activities do you enjoy outside of your work day?</h4>
-    <p>I volunteer as an English and Math tutor for elementary and middle school 
-      aged children, take tennis lessons and enjoy working out at the gym (serious 
-      stress reliever). </p>
     <h4>What is your current assignment and primary responsibilities?</h4>
     <p>I am an Analyst in the Power &amp; Utilities industry sector of Corporate Debt 
       Products. I analyze the credit worthiness of large corporate borrowers and 
@@ -59,6 +40,26 @@
       to attend live presentations led by senior executives, meet employees from 
       different groups within the bank and participate in numerous networking 
       groups/activities. </p>
+    <h4>What advice would you give to someone considering an opportunity at Bank 
+      of America? </h4>
+    <p>Do your research. Try to connect with people who are currently working 
+      at the bank or in the group you are interested in joining. You may be able 
+      to find alumni at the bank through your university's career placement office. 
+      Ask these contacts questions about the job responsibilities, group culture, 
+      and expectations of new team members. This knowledge goes a long way during 
+      the interview process and helps during your transition from college to the 
+      office. </p>
+    <h4>Describe your experience as an intern at Bank of America.</h4>
+    <p>I was an intern in the Financial Sponsors and Healthcare industry sectors 
+      of Corporate Debt Products for three months the summer before graduation. 
+      While my experience was only a small window into the analyst job, it provided 
+      me with the chance to speak directly with analysts about their responsibilities, 
+      meet the teams, and understand the role. </p>
+    <h4>What other activities do you enjoy outside of your work day?</h4>
+    <p>I volunteer as an English and Math tutor for elementary and middle school 
+      aged children, take tennis lessons and enjoy working out at the gym (serious 
+      stress reliever). </p>
+    
     <p class="back-top"><a href="#profiles">Back to top</a></p>
   </div>
   <div id="aside"> <a href="campus-Americas-find-your-fit.aspx"><img src="images/campus/btn-careerfinder.jpg" width="179" height="66" alt="Career Finder: Come as you are. We've got a career to fit." /></a> 

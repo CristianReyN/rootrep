@@ -17,6 +17,23 @@
         <p>Grad &ndash; Kellogg School of Management, Northwestern University</p>
       </div>
     </div>
+     <h4>What is your current assignment and primary responsibilities?</h4>
+    <p>My current assignment is to help a China-based real estate company to acquire 
+      a Hong Kong Stock Exchange listed public company through reverse takeover. 
+      My primary responsibilities include preparing public information books, 
+      establishing merger and acquisition models, performing due diligence procedures, 
+      and arranging negotiation sessions between various parties. </p>
+    <h4>What was the best project you worked on?</h4>
+    <p>My first IPO project. I went through the whole IPO procedure including 
+      preparing for and presenting the IPO pitch; attending IPO kick-off meeting 
+      and prospectus drafting sessions; responding to SEC comment letters; performing 
+      due diligence and analysts presentation; arranging road shows and pricing 
+      with investors. </p>
+    <h4>What attracted you to Bank of America?</h4>
+    <p>Definitely the intelligent people and teamwork culture here. You are working 
+      with lots of professionals who are among the best and you never feel you 
+      are working alone or wasting your time. Everyone here will help you develop 
+      yourself and work efficiently. </p>
     <h4>What advice would you give to someone considering an opportunity at Bank 
       of America? </h4>
     <p>Get to know as many Bank of America representatives as possible and learn 
@@ -37,23 +54,7 @@
       center and office building and also attended an intuitive Anti-AIDS learning 
       session. Everyone was exhausted but we all believe it was absolutely meaningful 
       and a great team building experience! </p>
-    <h4>What is your current assignment and primary responsibilities?</h4>
-    <p>My current assignment is to help a China-based real estate company to acquire 
-      a Hong Kong Stock Exchange listed public company through reverse takeover. 
-      My primary responsibilities include preparing public information books, 
-      establishing merger and acquisition models, performing due diligence procedures, 
-      and arranging negotiation sessions between various parties. </p>
-    <h4>What was the best project you worked on?</h4>
-    <p>My first IPO project. I went through the whole IPO procedure including 
-      preparing for and presenting the IPO pitch; attending IPO kick-off meeting 
-      and prospectus drafting sessions; responding to SEC comment letters; performing 
-      due diligence and analysts presentation; arranging road shows and pricing 
-      with investors. </p>
-    <h4>What attracted you to Bank of America?</h4>
-    <p>Definitely the intelligent people and teamwork culture here. You are working 
-      with lots of professionals who are among the best and you never feel you 
-      are working alone or wasting your time. Everyone here will help you develop 
-      yourself and work efficiently. </p>
+   
     <p class="back-top"><a href="#profiles">Back to top</a></p>
   </div>
   <div id="aside"> <a href="campus-Americas-find-your-fit.aspx"><img src="images/campus/btn-careerfinder.jpg" width="179" height="66" alt="Career Finder: Come as you are. We've got a career to fit." /></a> 

@@ -18,12 +18,6 @@
       </div>
     </div>
     
-	<h4>What is the best thing about living and working in your location?</h4>
-    <p>London is one of the pre-eminent financial centers of the world, and very internationally flavored. It plays an important role for our global firm, connecting the Americas and Asia via Europe and other key markets around the globe.</p>
-   
-    <h4>Describe your experience and the value of your experience in the Bank of America summer intern programme.</h4>
-    <p>The internship offers real responsibilities and gives you a sense of what you would be doing, day-to-day, as a full-time employee. Moreover, you gain valuable work experience while demonstrating and developing your skills.</p>
-   
     <h4>What is your current assignment and primary responsibilities?</h4>
     <p>I have responsibility for distribution strategy/pricing and execution
 across leveraged and investment grade syndicated loans as well as
@@ -49,7 +43,12 @@ of corporate finance and investment banking
 services.
 </p>
     
-    
+	<h4>What is the best thing about living and working in your location?</h4>
+    <p>London is one of the pre-eminent financial centers of the world, and very internationally flavored. It plays an important role for our global firm, connecting the Americas and Asia via Europe and other key markets around the globe.</p>
+   
+    <h4>Describe your experience and the value of your experience in the Bank of America summer intern programme.</h4>
+    <p>The internship offers real responsibilities and gives you a sense of what you would be doing, day-to-day, as a full-time employee. Moreover, you gain valuable work experience while demonstrating and developing your skills.</p>
+ 
 	<p class="back-top"><a href="#profiles">Back to top</a></p>
   </div>
   
