@@ -350,18 +350,54 @@ Function goBack (program)
 		case ANALYST
 			select case program.Item("fulltime_intern")
 			case FULLTIME
-				back_page = "analyst_programs.asp"
+				select case program.Item("region")
+				case AMERICAS
+					back_page = "../campus-Americas-analyst-programs.aspx"
+				case EMEA
+					back_page = "../campus-EMEA-analyst-programs.aspx"
+				case ASIA
+					back_page = "../campus-AsiaPac-analyst-programs.aspx"
+				case else
+					back_page = ""
+				end select
 			case INTERN
-				back_page = "analyst_internships.asp"
+				select case program.Item("region")
+				case AMERICAS
+					back_page = "../campus-Americas-analyst-internships.aspx"
+				case EMEA
+					back_page = "../campus-EMEA-analyst-internships.aspx"
+				case ASIA
+					back_page = "../campus-AsiaPac-analyst-internships.aspx"
+				case else
+					back_page = ""
+				end select
 			case else
 				back_page = ""
 			end select
 		case ASSOCIATE
 			select case program.Item("fulltime_intern")
 			case FULLTIME
-				back_page = "associate_phd_programs.asp"
+				select case program.Item("region")
+				case AMERICAS
+					back_page = "../campus-Americas-associate-phd-programs.aspx"
+				case EMEA
+					back_page = "../campus-EMEA-associate-and-phd-programs.aspx"
+				case ASIA
+					back_page = "../campus-AsiaPac-associate-phd-programs.aspx"
+				case else
+					back_page = ""
+				end select
 			case INTERN
-				back_page = "associate_phd_internships.asp"
+				select case program.Item("region")
+				case AMERICAS
+					back_page = "../campus-Americas-associate-internships.aspx"
+				case EMEA
+					back_page = "../campus-EMEA-associate-internships.aspx"
+				case ASIA
+					back_page = "../campus-AsiaPac-associate-internships.aspx"
+				case else
+					back_page = ""
+				end select
 			case else
 				back_page = ""
 			end select
@@ -370,30 +406,8 @@ Function goBack (program)
 	end select
 	
 	If back_page <> "" Then
-		select case program.Item("region")
-		case AMERICAS
-			If page_section <> "ADA" Then
-				params = "?t=1"
-			Else
-				params = "#t1"
-			End If
-		case EMEA
-			If page_section <> "ADA" Then
-				params = "?t=2"
-			Else
-				params = "#t2"
-			End If
-		case ASIA
-			If page_section <> "ADA" Then
-				params = "?t=3"
-			Else
-				params = "#t3"
-			End If
-		case else
-			params = ""
-		end select
 %>
-<a href="<%=back_page %><%=params%>" class="bacb" title="Back to&nbsp;<%=program.Item("region")%>&nbsp;<%=program.Item("full_degree")%>">Back to&nbsp;<%=program.Item("region")%>&nbsp;<%=program.Item("full_degree")%>  &raquo;</a>
+<a href="<%=back_page %>" class="bacb" title="Back to&nbsp;<%=program.Item("region")%>&nbsp;<%=program.Item("full_degree")%>">Back to&nbsp;<%=program.Item("region")%>&nbsp;<%=program.Item("full_degree")%>  &raquo;</a>
 <%
 	End If
 End Function

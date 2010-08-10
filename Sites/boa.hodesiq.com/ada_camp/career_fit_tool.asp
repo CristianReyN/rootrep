@@ -31,7 +31,7 @@ flashPage = false
 <!-- #include file="../includes/career_fit_tool_pr.asp" -->
 <%
 title = breadcrumb & "Campus Recruiting | Find Your Fit | Career Finder"
-	call createPage(page,0,"<span style=""font-size : large;"">Curious about where you could fit in at Bank of America?</span>","Just answer nine easy questions about your experience and goals, and we’ll match you up with the career opportunities that suit you best.")
+	call createPage(page,0,"<span style=""font-size : 1.2em; line-height : 1.6em;"">Curious about where you could fit in at Bank of America?</span>","Just answer nine easy questions about your experience and goals, and we’ll match you up with the career opportunities that suit you best.")
 %>
 <!-- Header -->
 <!-- #include file="../ada/header.asp" -->
