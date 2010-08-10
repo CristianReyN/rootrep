@@ -159,7 +159,15 @@
 		
 		If page_number = 0 Then
 %>
-<input type="image" id="next" name="next" src="../images/camp/get_started_now.gif" value="Find Your Match" alt="Find Your Match" title="Get Started Now" style="cursor: pointer;"<%=tabindex_str %>>
+<script language="JavaScript" type="text/javascript">
+if(!window.MM_swapImage)
+{
+	document.write('<scr' + 'ipt language="javascript" src="../Includes/mm.js');
+	document.write('"></scr' + 'ipt>');
+	window.onload_do[window.onload_do.length] = function(){MM_preloadImages('../Includes/camp/get_started_now_over.gif','../Includes/camp/get_started_now_down.gif');};
+}
+</script>
+<input type="image" id="next" name="next" src="../images/camp/get_started_now_out.gif" onmouseover="MM_swapImage('next','','../images/camp/get_started_now_over.gif',1);" onmouseout="MM_swapImgRestore();" onmousedown="MM_swapImage('next','','../images/camp/get_started_now_down.gif',1);" onmouseup="MM_swapImage('next','','../images/camp/get_started_now_over.gif',1);" value="Find Your Match" alt="Find Your Match" title="Get Started Now" style="cursor: pointer;"<%=tabindex_str %>>
 <%
 		ElseIf page_number < 9 Then
 %>
