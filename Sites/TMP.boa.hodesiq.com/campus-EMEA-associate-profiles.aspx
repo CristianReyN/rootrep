@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/BOAmaster.master" AutoEventWireup="true" CodeFile="campus-EMEA-associate-profiles.aspx.cs" Inherits="campus_EMEA_associate_profiles" %>
+﻿<%@ Page Title="Bank of America | Careers | Campus Recruiting | Graduate Profiles | EMEA Associates Profiles" Language="C#" MasterPageFile="~/BOAmaster.master" AutoEventWireup="true" CodeFile="campus-EMEA-associate-profiles.aspx.cs" Inherits="campus_EMEA_associate_profiles" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="cphmain" Runat="Server">
 
@@ -8,107 +8,28 @@
                    <div id="article">
                    <h1>Our Associates</h1>
   					 <p>Our range of associate programs allows you to build on your MBA or advanced degree, transforming your knowledge and experience into real-world opportunities.</p>
-<p class="learnlink"><a href="">Learn More..</a></p>
+<p class="learnlink"><a href="campus-EMEA-associate-and-phd-programs.aspx">Learn More</a></p>
 
   
-        <div class="profile-article">
-            <img src="images/campus/icon-BryanCook.jpg" width="50" height="80" alt="Bryan Cook" />
-            <h2>Bryan</h2>
-            <p>Global Research Associate Program</p>
-            <p>I'm in Fixed Income Research covering U.S. banks, broker/dealers and finance companies. In addition to my capacity as a junior analyst covering these sectors, I am the primary analyst covering credit card companies. </p>
-            <p><a href="campus-profiles-Bryan.aspx">Read Profile</a></p>
-        </div>
-        
-         <div class="profile-article">
-            <img src="images/campus/icon-DongLi.jpg" width="50" height="80" alt="Dong Li" />
-            <h2>Dong</h2>
-            <p>Corporate and Investment Banking Associate Program</p>
-            <p>My current assignment is to help a China-based real estate company to acquire a Hong Kong Stock Exchange listed public company through reverse takeover. </p>
-            <p><a href="campus-profiles-Dong.aspx">Read Profile</a></p>
-        </div>
-        
-         <div class="profile-article">
-            <img src="images/campus/icon-HamadijaCustovic.jpg" width="50" height="80" alt="Hamadija Custovic" />
-            <h2>Hamadija</h2>
-            <p>Operations MBA Program</p>
-            <p>My current assignment is in ATM Technology &amp; Operations. I work as a project manager helping to reduce risk and operating costs associated with ATMs, and to establish new processes and systems to streamline operational processes. </p>
-            <p><a href="campus-profiles-Hamadija.aspx">Read Profile</a></p>
-        </div>
-        
-        <div class="profile-article">
-            <img src="images/campus/icon-IrinaDolgova.jpg" width="50" height="80" alt="Irina Dolgova" />
-            <h2>Irina</h2>
-            <p>Global Markets PhD Associate Programme</p>
-            <p>I am an Equity exotics quantitative researcher. Basically, we create mathematical models for the financial markets, especially for pricing and risk management of derivatives and options. </p>
-            <p><a href="campus-profiles-Irina.aspx">Read Profile</a></p>
-        </div>
-        
-         <div class="profile-article">
-            <img src="images/campus/icon-MattHinman.jpg" width="50" height="80" alt="Matt Hinman" />
-            <h2>Matt</h2>
-            <p>Technology MBA Program</p>
-            <p>Currently, I work for Vulnerability Management in the Enterprise Technology &amp; Delivery organization. Vulnerability Management is responsible for anticipating and defending Bank of America from internal and external Information Security Threats. </p>
-            <p><a href="campus-profiles-Matt.aspx">Read Profile</a></p>
-        </div>
-        
-         <div class="profile-article">
-            <img src="images/campus/icon-NisheetPatel.jpg" width="50" height="80" alt="Nisheet Patel" />
-            <h2>Nisheet</h2>
-            <p>Global Wealth &amp; Investment Management Associate Program</p>
-            <p>I am currently with Managed Account Advisors which implements product for the advisory channel. My desk is responsible for product strategy and business development.</p>
-            <p><a href="campus-profiles-Nisheet.aspx">Read Profile</a></p>
-        </div>
-        
-          <div class="profile-article">
-            <img src="images/campus/icon-PepeLopez-Gallo.jpg" width="50" height="80" alt="Pepe Lopez-Gallo" />
-            <h2>Pepe</h2>
-            <p>Corporate and Investment Banking Associate Program</p>
-            <p>I work as an associate in the Healthcare Investment Banking Group in New York, and my responsibilities include financial and market analyses. My group advises clients on capital raising, including debt and equity products, as well as merger &amp; acquisitions advisory services. </p>
-            <p><a href="campus-profiles-Pepe.aspx">Read Profile</a></p>
-        </div>
-        
           <div class="profile-article">
             <img src="images/campus/icon-PriyaSharma.jpg" width="50" height="80" alt="Priya Sharma" />
             <h2>Priya</h2>
-            <p>Corporate and Investment Banking Associate Programme</p>
-            <p>I am part of the Media Investment Banking team. Current assignments include M&A and financial advisory deals and client pitches in European Newspaper, Publishing and Online Media sub-sectors.</p>
-            <p><a href="campus-profiles-Priya.aspx">Read Profile</a></p>
+            <p class="profile-depart">Corporate and Investment Banking Associate Programme</p>
+            <p>I am part of the Media Investment Banking team.</p>
+            <p><a href="campus-meet-our-people-profile-Priya.aspx">Read Profile</a></p>
         </div>
-        
-        <div class="profile-article">
-            <img src="images/campus/icon-RachelWise.jpg" width="50" height="80" alt="Rachel Wise" />
-            <h2>Rachel</h2>
-            <p>Supply Chain Management</p>
-            <p>My first Supply Chain Management Associate Program (MAP) rotation is with the Global Records Management team. I have supported this team as the Transportation &amp; Logistics Lead on a multi-phased supplier conversion of over 1.8MM Bank of America documents from off-site storage locations across the nation.</p>
-            <p><a href="campus-profiles-Rachel.aspx">Read Profile</a></p>
-        </div>
-        
+    
          <div class="profile-article">
             <img src="images/campus/icon-RachnaRamachandran.jpg" width="50" height="80" alt="Rachna Ramachandran" />
             <h2>Rachna</h2>
-            <p>Research Quant Analyst Programme</p>
+            <p class="profile-depart">Research Quant Analyst Programme</p>
             <p>I currently work in Credit Derivatives Strategy, which is a global team covering the European and North American credit derivatives markets. </p>
-            <p><a href="campus-profiles-Rachna.aspx">Read Profile</a></p>
+            <p><a href="campus-meet-our-people-profile-Rachna.aspx">Read Profile</a></p>
         </div>
-        
-         <div class="profile-article">
-            <img src="images/campus/icon-TylerBak.jpg" width="50" height="80" alt="Tyler Bak" />
-            <h2>Tyler</h2>
-            <p>Global Capital Markets Analyst Program</p>
-            <p>I am an associate in the Equity Capital Markets group where I focus on the origination effort in the Healthcare and Transportation spaces. I also act as deal captain for all non-U.S. listed equity offerings that are sold to institutional investors in the U.S.</p>
-            <p><a href="campus-profiles-Tyler.aspx">Read Profile</a></p>
-        </div>
-      
-
-    <p class="back-top"><a href="#profiles">Back to top</a></p>
+   
   </div>
   <div id="aside"> 
-        <h3>Related Links:</h3>
-        <ul>
-          <li><a href="campus-EMEA-analyst-profiles.aspx">Analyst Profiles</a></li>
-          <li><a href="campus-EMEA-intern-profiles.aspx">Intern Profiles</a></li>
-        </ul>
-    
+       
              <div id="video-content">
             
             <script language="JavaScript1.2" src="../Includes/pages/camp/video/campl.js" type="text/javascript"></script>
@@ -206,12 +127,18 @@ data="../Includes/pages/college/Anne.swf" width="205" height="131" id="javaflash
 </table>
 </noscript>
 
-
             <p>Anne</p>
             <p class="padbot">Quality and Productivity Consultant</p>
-         
-            
             </div>
+            
+             <h3>Related Links:</h3>
+        <ul>
+          <li><a href="campus-Americas-associate-profiles.aspx">Americas associate profiles</a></li>
+          <li><a href="campus-AsiaPac-associate-profiles.aspx">Asia Pacific associate profiles</a></li>
+          <li><a href="campus-EMEA-analyst-profiles.aspx">Analyst profiles</a></li>
+          <li><a href="campus-EMEA-intern-profiles.aspx">Intern profiles</a></li>
+        </ul>
+    
   </div>
   <div id="red-footer"> 
     <p>Set opportunity in motion.</p>

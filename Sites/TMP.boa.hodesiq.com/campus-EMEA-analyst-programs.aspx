@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/BOAmaster.master" AutoEventWireup="true" CodeFile="campus-EMEA-analyst-programs.aspx.cs" Inherits="campus_EMEA_analyst_programs" %>
+﻿<%@ Page Title="Bank of America | Careers | Campus Recruiting | Opportunities | EMEA Analyst Programs" Language="C#" MasterPageFile="~/BOAmaster.master" AutoEventWireup="true" CodeFile="campus-EMEA-analyst-programs.aspx.cs" Inherits="campus_EMEA_analyst_programs" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="cphmain" Runat="Server">
 <link href="/boa/Includes/campus.css" type="text/css" rel="stylesheet" />
@@ -22,69 +22,70 @@
                     to make a real impact.</p>
                   <h3>Chief Financial Office</h3>
                   <ul>
-                    <li><a href="emeafn-international-corporate-treasury-analyst-programme.asp">International 
+                    <li><a href="campusrecruiting/emeafn-international-corporate-treasury-analyst-programme.asp">International 
                       Corporate Treasury Analyst Programme</a></li>
                   </ul>
                   <h3>Global Consumer and Small Business Banking</h3>
                   <ul>
-                    <li><a href="emeafn-card-services-analyst-programme.asp">Card 
+                    <li><a href="campusrecruiting/emeafn-card-services-analyst-programme.asp">Card 
                       Services Analyst Programme</a></li>
                   </ul>
                   <h3>Global Banking and Markets</h3>
                   <ul>
-                    <li><a href="emeafn-global-investment-banking-analyst-programme.asp">Global 
+                    <li><a href="campusrecruiting/emeafn-global-investment-banking-analyst-programme.asp">Global 
                       Investment Banking Analyst Programme</a></li>
-                    <li><a href="emeafn-global-capital-markets-analyst-programme.asp">Global 
+                    <li><a href="campusrecruiting/emeafn-global-capital-markets-analyst-programme.asp">Global 
                       Capital Markets Analyst Programme</a></li>
-                    <li><a href="emeafn-global-markets-sales-trading-analyst-programme.asp">Global 
+                    <li><a href="campusrecruiting/emeafn-global-markets-sales-trading-analyst-programme.asp">Global 
                       Markets Sales and Trading Analyst Programme</a></li>
-                    <li><a href="emeafn-global-research-analyst-programme.asp">Global 
+                    <li><a href="campusrecruiting/emeafn-global-research-analyst-programme.asp">Global 
                       Research Analyst Programme</a></li>
-                    <li><a href="emeafn-global-quantitative-research-analyst-programme.asp">Global 
+                    <li><a href="campusrecruiting/emeafn-global-quantitative-research-analyst-programme.asp">Global 
                       Quantitative Research Analyst Programme</a></li>
-                    <li><a href="emeafn-global-corporate-banking-analyst-programme.asp">Global 
+                    <li><a href="campusrecruiting/emeafn-global-corporate-banking-analyst-programme.asp">Global 
                       Corporate Banking Analyst Programme</a></li>
-                    <li><a href="emeafn-global-treasury-solutions-analyst-programme.asp">Global 
+                    <li><a href="campusrecruiting/emeafn-global-treasury-solutions-analyst-programme.asp">Global 
                       Treasury Solutions Analyst Programme</a></li>
-                    <li><a href="emeafn-south-african-graduate-analyst-programme.asp">South 
+                    <li><a href="campusrecruiting/emeafn-south-african-graduate-analyst-programme.asp">South 
                       African Graduate Analyst Programme</a></li>
                   </ul>
                   <h3>Global Human Resources</h3>
                   <ul>
-                    <li><a href="emeafn-human-resources-analyst-programme.asp">Human 
+                    <li><a href="campusrecruiting/emeafn-human-resources-analyst-programme.asp">Human 
                       Resources Analyst Programme</a></li>
                   </ul>
                   <h3>Global Technology and Operations</h3>
                   <ul>
-                    <li><a href="emeafn-enterprise-technology-delivery-analyst-programme.asp">Enterprise 
+                    <li><a href="campusrecruiting/emeafn-enterprise-technology-delivery-analyst-programme.asp">Enterprise 
                       Technology and Delivery Analyst Programme</a></li>
-                    <li><a href="emeafn-technology-analyst-programme.asp">Technology 
+                    <li><a href="campusrecruiting/emeafn-technology-analyst-programme.asp">Technology 
                       Analyst Programme</a></li>
-                    <li><a href="emeafn-global-markets-operations-middle-office-analyst-programme.asp">Global 
+                    <li><a href="campusrecruiting/emeafn-global-markets-operations-middle-office-analyst-programme.asp">Global 
                       Markets Operations/Middle Office Analyst Programme</a></li>
                   </ul>
                   <h3>Global Wealth and Investment Management</h3>
                   <ul>
-                    <li><a href="emeafn-merrill-lynch-wealth-management-analyst-programme.asp">Merrill 
+                    <li><a href="campusrecruiting/emeafn-merrill-lynch-wealth-management-analyst-programme.asp">Merrill 
                       Lynch Wealth Management Analyst Programme</a></li>
                   </ul>
                   <h3>Global Risk</h3>
                   <ul>
-                    <li><a href="emeafn-corporate-financial-institutions-debt-products-analyst-programme.asp">Corporate 
+                    <li><a href="campusrecruiting/emeafn-corporate-financial-institutions-debt-products-analyst-programme.asp">Corporate 
                       and Financial Institutions Debt Products Analyst Programme</a></li>
-                    <li><a href="emeafn-market-risk-analyst-programme.asp">Market 
+                    <li><a href="campusrecruiting/emeafn-market-risk-analyst-programme.asp">Market 
                       Risk Analyst Programme</a></li>
-                    <li><a href="emeafn-compliance-analyst-programme.asp">Compliance 
+                    <li><a href="campusrecruiting/emeafn-compliance-analyst-programme.asp">Compliance 
                       Analyst Programme</a></li>
                   </ul>
                 </div>
-                <div id="aside"> <a href="campus-EMEA-find-your-fit.aspx"><img src="images/campus/btn-careerfinder.jpg" width="179" height="66" alt="Career Finder: Come as you are. We've got a career to fit." /></a> 
+                <div id="aside"> 
+                  <a href="campusrecruiting/career_fit_tool.asp"><img src="images/campus/btn-careerfinder.jpg" width="179" height="66" alt="Career Finder: Come as you are. We've got a career to fit." /></a> 
                   <a href="CampusEvents.aspx?region=2"><img src="images/campus/btn-campus-events.jpg" width="179" height="66" alt="Campus Events: Let's meet soon." /></a> 
-                  <a href="campus-EMEA-opportunities.aspx"><img src="images/campus/btn-our-people.jpg" width="179" height="66" alt="Our People: See and hear who's making a difference and how." /></a> 
+                  <a href="campus-EMEA-graduate-profiles.aspx"><img src="images/campus/btn-our-people.jpg" width="179" height="66" alt="Our People: See and hear who's making a difference and how." /></a> 
                   <h3>Related Links:</h3>
                   <ul>
                     <li><a href="campus-EMEA-associate-and-phd-programs.aspx">Associate 
-                      &amp; PhD Programs</a></li>
+                      &amp; PhD programmes</a></li>
                     <li><a href="campus-EMEA-internships.aspx">Internships</a></li>
                     <li><a href="campus-EMEA-pre-university.aspx">Pre-University</a></li>
                     <li><a href="campus-EMEA-requirements.aspx">Requirements</a></li>

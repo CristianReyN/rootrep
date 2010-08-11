@@ -34,14 +34,14 @@
 
                  </div>
 				 
-				 <script type="text/javascript" src="scripts/_swfobject.js" ></script>
+				 <script type="text/javascript" src="Includes/_swfobject.js" ></script>
 					<script type="text/javascript">
 
 					var flashvars = false;	
 					var params = {menu: "false", wmode: "opaque"};
 					var attributes = false;
 
-					wfobject.embedSWF("flash/BAC011_GlobalGate_v3.swf", "global-gateway", "568", "474", "9", "flash/_expressinstall.swf", flashvars, params, attributes);
+					swfobject.embedSWF("images/campus/flash/BAC011_GlobalGate_v3.swf", "global-gateway", "568", "474", "9", "images/campus/flash/_expressinstall.swf", flashvars, params, attributes);
 	
 					</script>
                  

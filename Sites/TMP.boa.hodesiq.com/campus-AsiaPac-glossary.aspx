@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/BOAmaster.master" AutoEventWireup="true" CodeFile="campus-AsiaPac-glossary.aspx.cs" Inherits="campus_AsiaPac_glossary" %>
+﻿<%@ Page Title="Bank of America | Careers | Campus Recruiting | How to Apply | Asia Pacific Glossary" Language="C#" MasterPageFile="~/BOAmaster.master" AutoEventWireup="true" CodeFile="campus-AsiaPac-glossary.aspx.cs" Inherits="campus_AsiaPac_glossary" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="cphmain" Runat="Server">
 
@@ -37,14 +37,16 @@
 
  <p><strong>Rotational Program</strong> - Any campus program that gives you the opportunity to "rotate" through different areas of the line of business in order to gain an understanding of several different functions. After the completion of a rotational program, the associate would be qualified to find a full time opportunity at Bank of America.</p>
                 </div>
-                <div id="aside"> <a href="campus-Americas-find-your-fit.aspx"><img src="images/campus/btn-careerfinder.jpg" width="179" height="66" alt="Career Finder: Come as you are. We've got a career to fit." /></a> 
-                  <a href="CampusEvents.aspx?region=1"><img src="images/campus/btn-campus-events.jpg" width="179" height="66" alt="Campus Events: Let's meet soon." /></a> 
-                  <a href="campus-Americas-opportunities.aspx"><img src="images/campus/btn-our-people.jpg" width="179" height="66" alt="Our People: See and hear who's making a difference and how." /></a> 
+                <div id="aside"> 
+                  
+                  <a href="campusrecruiting/career_fit_tool.asp"><img src="images/campus/btn-careerfinder.jpg" width="179" height="66" alt="Career Finder: Come as you are. We've got a career to fit." /></a> 
+                  <a href="CampusEvents.aspx?region=3"><img src="images/campus/btn-campus-events.jpg" width="179" height="66" alt="Campus Events: Let's meet soon." /></a> 
+                  <a href="campus-AsiaPac-meet-our-people.aspx"><img src="images/campus/btn-our-people.jpg" width="179" height="66" alt="Our People: See and hear who's making a difference and how." /></a> 
                   <h3>Related Links:</h3>
                   <ul>
                     <li><a href="campus-Americas-interview-tips.aspx">Interview 
-                      Tips</a></li>
-                    <li><a href="campus-Americas-requirements.aspx">Campus FAQ</a></li>
+                      tips</a></li>
+                    <li><a href="campus-Americas-requirements.aspx">Campus FAQs</a></li>
                   </ul>
                 </div>
                 <div id="red-footer"> 

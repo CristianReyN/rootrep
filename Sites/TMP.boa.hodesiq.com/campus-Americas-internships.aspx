@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/BOAmaster.master" AutoEventWireup="true" CodeFile="campus-Americas-internships.aspx.cs" Inherits="campus_Americas_internships" %>
+﻿<%@ Page Title="Bank of America | Careers | Campus Recruiting | Explore Careers | Americas Internships" Language="C#" MasterPageFile="~/BOAmaster.master" AutoEventWireup="true" CodeFile="campus-Americas-internships.aspx.cs" Inherits="campus_Americas_internships" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="cphmain" Runat="Server">
 
@@ -14,8 +14,9 @@
                     us, you'll find yourself tackling real business challenges 
                     that make a real impact on our company. You'll grow your skills 
                     and build your network in a dynamic environment designed to 
-                    support your long-term career objectives. <a href="#">Learn 
-                    more...</a></p>
+                    support your long-term career objectives.</p> 
+                    
+                    <p><a href="campus-Americas-intern-profiles.aspx">Learn more</a></p>
                   <ul>
                     <li><a href="campus-Americas-analyst-internships.aspx">Analyst 
                       internships</a></li>
@@ -31,14 +32,13 @@
                     <li>Non-graduation status (graduation date no earlier than 
                       August of the next year in which your internship takes place)</li>
                     <li>Ability to work 40 hours per week for the entire program 
-                      (10 to 12 weeks) 1 Link to Footnote <sup>1</sup>.</li>
+                      (10 to 12 weeks).<sup>1</sup></li>
                   </ul>
                   <h3>Internship Benefits</h3>
                   <p>Compensation - We offer competitive compensation and benefits 
                     such as access to Associate Banking and two paid days off 
                     if you work more than 10 weeks. You'll be classified as a 
-                    temporary associate for benefits purposes. 1 Link to Footnote 
-                    1.</p>
+                    temporary associate for benefits purposes.<sup>1</sup> </p>
                   <p>Networking - You'll have the chance to meet and interact 
                     with senior executives at a variety of meetings and receptions. 
                     In addition, volunteer and social activities are great opportunities 
@@ -47,12 +47,12 @@
                     challenging and realistic. To give you practice interacting 
                     with managers and demonstrating your business acumen, you'll 
                     present a summary of your project work to both managers and 
-                    peers at the end of your internship. 1 Link to Footnote 1.</p>
+                    peers at the end of your internship.<sup>1</sup> </p>
                   <p>Guidance - At the beginning of the summer, managers will 
                     help you develop a performance plan to establish goals and 
                     objectives. These plans are reviewed during your final performance 
                     evaluation. You'll also be paired with a mentor for one-to-one 
-                    guidance during your time with us. 1 Link to Footnote 1.</p>
+                    guidance during your time with us.<sup>1</sup> </p>
                   <h3>Important Dates</h3>
                   <p>Internships typically begin in May/June and continue through 
                     August. The application deadline is mid-February of each year, 
@@ -81,15 +81,16 @@
                     <li>Montreal</li>
                     <li>Toronto</li>
                   </ul>
-                  <p>1 Footnote 1: Benefits and eligibility may vary by region. 
+                  <p><sup>1 </sup>Footnote 1: Benefits and eligibility may vary by region. 
                     Please discuss questions with your recruiter.</p>
                 </div>
-                <div id="aside"> <a href="campus-Americas-find-your-fit.aspx"><img src="images/campus/btn-careerfinder.jpg" width="179" height="66" alt="Career Finder: Come as you are. We've got a career to fit." /></a> 
+                <div id="aside"> 
+                  <a href="campusrecruiting/career_fit_tool.asp"><img src="images/campus/btn-careerfinder.jpg" width="179" height="66" alt="Career Finder: Come as you are. We've got a career to fit." /></a> 
                   <a href="CampusEvents.aspx?region=1"><img src="images/campus/btn-campus-events.jpg" width="179" height="66" alt="Campus Events: Let's meet soon." /></a> 
-                  <a href="campus-Americas-opportunities.aspx"><img src="images/campus/btn-our-people.jpg" width="179" height="66" alt="Our People: See and hear who's making a difference and how." /></a> 
+                  <a href="campus-Americas-meet-our-people.aspx"><img src="images/campus/btn-our-people.jpg" width="179" height="66" alt="Our People: See and hear who's making a difference and how." /></a> 
                 <ul>
-                    <li><a href="campus-Americas-analyst-programs.aspx">Analyst Programs</a></li>
-                    <li><a href="campus-Americas-assoicate-phd-programs.aspx">Associate &amp; PhD Programs</a></li>
+                    <li><a href="campus-Americas-analyst-programs.aspx">Analyst programs</a></li>
+                    <li><a href="campus-Americas-assoicate-phd-programs.aspx">Associate &amp; PhD programs</a></li>
                   </ul>
 				</div>
                 <div id="red-footer"> 

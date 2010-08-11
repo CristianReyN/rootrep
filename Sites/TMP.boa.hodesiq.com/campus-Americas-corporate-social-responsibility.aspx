@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/BOAmaster.master" AutoEventWireup="true" CodeFile="campus-Americas-corporate-social-responsibility.aspx.cs" Inherits="campus_Americas_corporate_social_responsibility" %>
+﻿<%@ Page Title="Bank of America | Careers | Campus Recruiting | Our Culture | Americas Corporate Social Responsibility" Language="C#" MasterPageFile="~/BOAmaster.master" AutoEventWireup="true" CodeFile="campus-Americas-corporate-social-responsibility.aspx.cs" Inherits="campus_Americas_corporate_social_responsibility" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="cphmain" Runat="Server">
 
@@ -13,14 +13,15 @@
 			   <p>Learn more about our <a href="http://www.bankofamerica.com/foundation/">Corporate Philanthropy</a> programs and commitment, as well as our 10-year, $20 billion commitment to the <a href="http://environment.bankofamerica.com/">environment</a>.</p>
 
                 </div>
-                <div id="aside"> <a href="campus-Americas-find-your-fit.aspx"><img src="images/campus/btn-careerfinder.jpg" width="179" height="66" alt="Career Finder: Come as you are. We've got a career to fit." /></a> 
+                <div id="aside"> 
+                  <a href="campusrecruiting/career_fit_tool.asp"><img src="images/campus/btn-careerfinder.jpg" width="179" height="66" alt="Career Finder: Come as you are. We've got a career to fit." /></a> 
                   <a href="CampusEvents.aspx?region=1"><img src="images/campus/btn-campus-events.jpg" width="179" height="66" alt="Campus Events: Let's meet soon." /></a> 
-                  <a href="campus-Americas-opportunities.aspx"><img src="images/campus/btn-our-people.jpg" width="179" height="66" alt="Our People: See and hear who's making a difference and how." /></a> 
+                  <a href="campus-Americas-meet-our-people.aspx"><img src="images/campus/btn-our-people.jpg" width="179" height="66" alt="Our People: See and hear who's making a difference and how." /></a> 
                   <h3>Related Links:</h3>
                   <ul>
-                    <li><a href="campus-Americas-internships.aspx">Diversity and Inclusion</a></li>
-					<li><a href="campus-Americas-requirements.aspx">Benefits and Rewards</a></li>
-					<li><a href="campus-Americas-requirements.aspx">Information for Parents</a></li>
+                    <li><a href="campus-Americas-internships.aspx">Diversity and inclusion</a></li>
+					<li><a href="campus-Americas-requirements.aspx">Benefits and rewards</a></li>
+					<li><a href="campus-Americas-requirements.aspx">Information for parents</a></li>
                   </ul>
                 </div>
                 <div id="red-footer"> 

@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/BOAmaster.master" AutoEventWireup="true" CodeFile="campus-Americas-diversity-and-inclusion.aspx.cs" Inherits="campus_Americas_diversity_and_inclusion" %>
+﻿<%@ Page Title="Bank of America | Careers | Campus Recruiting | Our Culture | Americas Diversity and Inclusion" Language="C#" MasterPageFile="~/BOAmaster.master" AutoEventWireup="true" CodeFile="campus-Americas-diversity-and-inclusion.aspx.cs" Inherits="campus_Americas_diversity_and_inclusion" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="cphmain" Runat="Server">
 
@@ -13,14 +13,16 @@
 			   <p>We've proudly earned our reputation as a company that encourages equal opportunity in all aspects of our workplace, and we're always looking for new ways to promote equality and professional development among our people. You can learn more by exploring our fact <a href="http://careers.bankofamerica.com/learnmore/factsheets.asp">sheets</a>, information on our <a href="http://careers.bankofamerica.com/learnmore/workforce.asp">workforce</a>, recent <a href="http://careers.bankofamerica.com/learnmore/awards.asp">awards</a>, and national diversity recruiting <a href="CampusEvents.aspx?region=1">events</a>.</p>
 
                 </div>
-                <div id="aside"> <a href="campus-Americas-find-your-fit.aspx"><img src="images/campus/btn-careerfinder.jpg" width="179" height="66" alt="Career Finder: Come as you are. We've got a career to fit." /></a> 
+                <div id="aside"> 
+                  <a href="campusrecruiting/career_fit_tool.asp"><img src="images/campus/btn-careerfinder.jpg" width="179" height="66" alt="Career Finder: Come as you are. We've got a career to fit." /></a> 
                   <a href="CampusEvents.aspx?region=1"><img src="images/campus/btn-campus-events.jpg" width="179" height="66" alt="Campus Events: Let's meet soon." /></a> 
-                  <a href="campus-Americas-opportunities.aspx"><img src="images/campus/btn-our-people.jpg" width="179" height="66" alt="Our People: See and hear who's making a difference and how." /></a> 
+                  <a href="campus-Americas-meet-our-people.aspx"><img src="images/campus/btn-our-people.jpg" width="179" height="66" alt="Our People: See and hear who's making a difference and how." /></a> 
+                  
                   <h3>Related Links:</h3>
                   <ul>
-                    <li><a href="campus-Americas-requirements.aspx">Corporate Social Responsibility</a></li>
-					<li><a href="campus-Americas-requirements.aspx">Benefits and Rewards</a></li>
-					<li><a href="campus-Americas-requirements.aspx">Information for Parents</a></li>
+                    <li><a href="campus-Americas-requirements.aspx">Corporate social responsibility</a></li>
+					<li><a href="campus-Americas-requirements.aspx">Benefits and rewards</a></li>
+					<li><a href="campus-Americas-requirements.aspx">Information for parents</a></li>
                   </ul>
                 </div>
                 <div id="red-footer"> 

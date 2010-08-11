@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/BOAmaster.master" AutoEventWireup="true" CodeFile="campus-Americas-our-culture.aspx.cs" Inherits="campus_Americas_our_culture" %>
+﻿<%@ Page Title="Bank of America | Careers | Campus Recruiting | Americas Our Culture" Language="C#" MasterPageFile="~/BOAmaster.master" AutoEventWireup="true" CodeFile="campus-Americas-our-culture.aspx.cs" Inherits="campus_Americas_our_culture" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="cphmain" Runat="Server">
 
@@ -14,23 +14,32 @@
 
 
 <h2>Diversity and Inclusion</h2>
-<p>We are committed to cultivating and supporting our unique workforce, because we believe that what makes us different builds a richer environment in which we can grow and learn. <a href="campus-Americas-diversity-and-inclusion.aspx">Learn more...</a></p>
+<p>We are committed to cultivating and supporting our unique workforce, because we believe that what makes us different builds a richer environment in which we can grow and learn.</p> 
+
+<p><a href="campus-Americas-diversity-and-inclusion.aspx">Learn more</a></p>
 
 <h2>Benefits and Rewards</h2>
-<p>Taking care of our people lies at the heart of our culture of respect and support. We have developed an extensive benefits offering that communicates just how important a part each individual plays in our overall success story. <a href="campus-Americas-benefits-and-rewards.aspx">Learn more...</a></p>
+<p>Taking care of our people lies at the heart of our culture of respect and support. We have developed an extensive benefits offering that communicates just how important a part each individual plays in our overall success story.</p> 
+
+<p><a href="campus-Americas-benefits-and-rewards.aspx">Learn more</a></p>
 
 <h2>Corporate Social Responsibility</h2>
-<p>We encourage you to discover our broad array of programs and initiatives designed to make a positive difference in our communities, our environment and the world. <a href="campus-Americas-corporate-social-responsibility.aspx">Learn more...</a></p>
+<p>We encourage you to discover our broad array of programs and initiatives designed to make a positive difference in our communities, our environment and the world.</p> 
+
+<p><a href="campus-Americas-corporate-social-responsibility.aspx">Learn more</a></p>
 
 <h2>Information for Parents</h2>
-<p>Just as you've devoted yourself to guiding your child along the right path, we are committed to developing their unique talents and supporting their growth. <a href="campus-Americas-information-for-parents.aspx">Learn more...</a>
+<p>Just as you've devoted yourself to guiding your child along the right path, we are committed to developing their unique talents and supporting their growth.</p> 
+
+<p><a href="campus-Americas-information-for-parents.aspx">Learn more</a>
 			   
 			   
 
                 </p></div>
-                <div id="aside"> <a href="campus-Americas-find-your-fit.aspx"><img src="images/campus/btn-careerfinder.jpg" width="179" height="66" alt="Career Finder: Come as you are. We've got a career to fit." /></a> 
+                <div id="aside"> 
+                  <a href="campusrecruiting/career_fit_tool.asp"><img src="images/campus/btn-careerfinder.jpg" width="179" height="66" alt="Career Finder: Come as you are. We've got a career to fit." /></a> 
                   <a href="CampusEvents.aspx?region=1"><img src="images/campus/btn-campus-events.jpg" width="179" height="66" alt="Campus Events: Let's meet soon." /></a> 
-                  <a href="campus-Americas-opportunities.aspx"><img src="images/campus/btn-our-people.jpg" width="179" height="66" alt="Our People: See and hear who's making a difference and how." /></a>
+                  <a href="campus-Americas-meet-our-people.aspx"><img src="images/campus/btn-our-people.jpg" width="179" height="66" alt="Our People: See and hear who's making a difference and how." /></a>
                 </div>
                 <div id="red-footer"> 
                   <p>Set opportunity in motion.</p>

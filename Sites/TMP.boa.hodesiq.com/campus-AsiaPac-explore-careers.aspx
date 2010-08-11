@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/BOAmaster.master" AutoEventWireup="true" CodeFile="campus-AsiaPac-explore-careers.aspx.cs" Inherits="campus_AsiaPac_explore_careers" %>
+﻿<%@ Page Title="Bank of America | Careers | Campus Recruiting | Asia Pacific Explore Careers" Language="C#" MasterPageFile="~/BOAmaster.master" AutoEventWireup="true" CodeFile="campus-AsiaPac-explore-careers.aspx.cs" Inherits="campus_AsiaPac_explore_careers" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="cphmain" Runat="Server">
 
@@ -20,21 +20,27 @@
                     instructor-led and web-based classes with on-the-job training 
                     and networking. We'll trust you with important work, giving 
                     you the opportunity to create real impact right out of the 
-                    gate. <a href="campus-AsiaPac-analyst-programs.aspx">Learn 
-                    more...</a></p>
-                  <h2>Associate &amnp; PhD Programs</h2>
+                    gate.</p> 
+                    
+                    <p><a href="campus-AsiaPac-analyst-programs.aspx">Learn more</a></p>
+                    
+                  <h2>Associate &amp; PhD Programs</h2>
                   <h3>Associate Programs</h3>
                   <p>Our range of associate programs allows you to build on your 
                     MBA or advanced degree, transforming your knowledge and experience 
-                    into real-world opportunities. <a href="campus-AsiaPac-associate-phd-programs.aspx">Learn 
-                    more...</a></p>
+                    into real-world opportunities.</p> 
+                    
+                    <p><a href="campus-AsiaPac-associate-phd-programs.aspx">Learn more</a></p>
+                    
                   <h3>PhD Programs</h3>
                   <p>Pursuing a doctoral degree with a quantitative focus? Then 
                     this is the opportunity for you. Our PhD programs enable doctoral 
                     students with high-level technical skills to put their intellect 
                     and ambition to work in a fast-paced, exciting environment 
-                    that will challenge and reward a rigorous approach. <a href="campus-AsiaPac-associate-phd-programs.aspx">Learn 
-                    more...</a></p>
+                    that will challenge and reward a rigorous approach.</p> 
+                    
+                    <p><a href="campus-AsiaPac-associate-phd-programs.aspx">Learn more</a></p>
+                    
                   <h2>Internships</h2>
                   <p>An internship doesn't have to mean starting at the bottom. 
                     If you're ready to learn about the financial services industry 
@@ -43,12 +49,14 @@
                     us, you'll find yourself tackling real business challenges 
                     that make a real impact on our company. You'll grow your skills 
                     and build your network in a dynamic environment designed to 
-                    support your long-term career objectives. <a href="campus-AsiaPac-internships.aspx">Learn 
-                    more...</a></p>
+                    support your long-term career objectives.</p> 
+                    
+                    <p><a href="campus-AsiaPac-internships.aspx">Learn more</a></p>
                 </div>
-                <div id="aside"> <a href="campus-AsiaPac-find-your-fit.aspx"><img src="images/campus/btn-careerfinder.jpg" width="179" height="66" alt="Career Finder: Come as you are. We've got a career to fit." /></a> 
+                <div id="aside"> 
+                    <a href="campusrecruiting/career_fit_tool.asp"><img src="images/campus/btn-careerfinder.jpg" width="179" height="66" alt="Career Finder: Come as you are. We've got a career to fit." /></a> 
                   <a href="CampusEvents.aspx?region=3"><img src="images/campus/btn-campus-events.jpg" width="179" height="66" alt="Campus Events: Let's meet soon." /></a> 
-                  <a href="campus-AsiaPac-opportunities.aspx"><img src="images/campus/btn-our-people.jpg" width="179" height="66" alt="Our People: See and hear who's making a difference and how." /></a> 
+                  <a href="campus-AsiaPac-meet-our-people.aspx"><img src="images/campus/btn-our-people.jpg" width="179" height="66" alt="Our People: See and hear who's making a difference and how." /></a> 
                 </div>
                 <div id="red-footer"> 
                   <p>Set opportunity in motion.</p>

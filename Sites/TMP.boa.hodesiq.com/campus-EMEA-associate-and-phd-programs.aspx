@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/BOAmaster.master" AutoEventWireup="true" CodeFile="campus-EMEA-associate-and-phd-programs.aspx.cs" Inherits="campus_EMEA_associate_and_phd_programs" %>
+﻿<%@ Page Title="Bank of America | Careers | Campus Recruiting | Opportunities | EMEA Associate & PhD Programs" Language="C#" MasterPageFile="~/BOAmaster.master" AutoEventWireup="true" CodeFile="campus-EMEA-associate-and-phd-programs.aspx.cs" Inherits="campus_EMEA_associate_and_phd_programs" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="cphmain" Runat="Server">
 
@@ -23,22 +23,23 @@
                     environment.</p>
                   <h3>Global Banking and Markets</h3>
                   <ul>
-                    <li><a href="emeafs-global-investment-banking-associate-programme.asp">Global 
+                    <li><a href="campusrecruiting/emeafs-global-investment-banking-associate-programme.asp">Global 
                       Investment Banking Associate Programme</a></li>
-                    <li><a href="emeafs-global-markets-sales-trading-associate-programme.asp">Global 
+                    <li><a href="campusrecruiting/emeafs-global-markets-sales-trading-associate-programme.asp">Global 
                       Markets Sales and Trading Associate Programme</a></li>
-                    <li><a href="emeafs-global-markets-quantitative-analytics-associate-programme.asp">Global 
+                    <li><a href="campusrecruiting/emeafs-global-markets-quantitative-analytics-associate-programme.asp">Global 
                       Markets Quantitative Analytics Associate Programme</a></li>
-                    <li><a href="emeafs-global-research-associate-programme.asp">Global 
+                    <li><a href="campusrecruiting/emeafs-global-research-associate-programme.asp">Global 
                       Research Associate Programme</a></li>
                   </ul>
                 </div>
-                <div id="aside"> <a href="campus-EMEA-find-your-fit.aspx"><img src="images/campus/btn-careerfinder.jpg" width="179" height="66" alt="Career Finder: Come as you are. We've got a career to fit." /></a> 
+                <div id="aside"> 
+                  <a href="campusrecruiting/career_fit_tool.asp"><img src="images/campus/btn-careerfinder.jpg" width="179" height="66" alt="Career Finder: Come as you are. We've got a career to fit." /></a> 
                   <a href="CampusEvents.aspx?region=2"><img src="images/campus/btn-campus-events.jpg" width="179" height="66" alt="Campus Events: Let's meet soon." /></a> 
-                  <a href="campus-EMEA-opportunities.aspx"><img src="images/campus/btn-our-people.jpg" width="179" height="66" alt="Our People: See and hear who's making a difference and how." /></a> 
+                  <a href="campus-EMEA-graduate-profiles.aspx"><img src="images/campus/btn-our-people.jpg" width="179" height="66" alt="Our People: See and hear who's making a difference and how." /></a> 
                   <h3>Related Links:</h3>
                   <ul>
-                    <li><a href="campus-EMEA-analyst-programs.aspx">Analyst Programs</a></li>
+                    <li><a href="campus-EMEA-analyst-programs.aspx">Analyst programmes</a></li>
                     <li><a href="campus-EMEA-internships.aspx">Internships</a></li>
 					<li><a href="campus-EMEA-pre-university.aspx">Pre-University</a></li>
 					<li><a href="campus-EMEA-requirements.aspx">Requirements</a></li>

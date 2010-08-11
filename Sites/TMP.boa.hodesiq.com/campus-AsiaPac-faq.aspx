@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/BOAmaster.master" AutoEventWireup="true" CodeFile="campus-AsiaPac-faq.aspx.cs" Inherits="campus_AsiaPac_faq" %>
+﻿<%@ Page Title="Bank of America | Careers | Campus Recruiting | How to Apply | Asia Pacific Campus FAQ" Language="C#" MasterPageFile="~/BOAmaster.master" AutoEventWireup="true" CodeFile="campus-AsiaPac-faq.aspx.cs" Inherits="campus_AsiaPac_faq" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="cphmain" Runat="Server">
 
@@ -62,13 +62,15 @@ For Asia opportunities you do not need to post through your career center as we 
 <h3>Is it appropriate to send a thank you note after my interview?</h3>
 An e-mail thank you to the person who interviewed you is appropriate but not required. If you do choose to send a thank you note, make sure to tailor the message for the person you met with. It is not appropriate to send the same e-mail to multiple interviewers.</p>
                 </div>
-                <div id="aside"> <a href="campus-Americas-find-your-fit.aspx"><img src="images/campus/btn-careerfinder.jpg" width="179" height="66" alt="Career Finder: Come as you are. We've got a career to fit." /></a> 
-                  <a href="CampusEvents.aspx?region=1"><img src="images/campus/btn-campus-events.jpg" width="179" height="66" alt="Campus Events: Let's meet soon." /></a> 
-                  <a href="campus-Americas-opportunities.aspx"><img src="images/campus/btn-our-people.jpg" width="179" height="66" alt="Our People: See and hear who's making a difference and how." /></a> 
+                <div id="aside"> 
+                
+                  <a href="campusrecruiting/career_fit_tool.asp"><img src="images/campus/btn-careerfinder.jpg" width="179" height="66" alt="Career Finder: Come as you are. We've got a career to fit." /></a> 
+                  <a href="CampusEvents.aspx?region=3"><img src="images/campus/btn-campus-events.jpg" width="179" height="66" alt="Campus Events: Let's meet soon." /></a> 
+                  <a href="campus-AsiaPac-meet-our-people.aspx"><img src="images/campus/btn-our-people.jpg" width="179" height="66" alt="Our People: See and hear who's making a difference and how." /></a> 
                   <h3>Related Links:</h3>
                   <ul>
                     <li><a href="campus-Americas-interview-tips.aspx">Interview 
-                      Tips</a></li>
+                      tips</a></li>
                     <li><a href="campus-Americas-internships.aspx">Glossary</a></li>
                   </ul>
                 </div>

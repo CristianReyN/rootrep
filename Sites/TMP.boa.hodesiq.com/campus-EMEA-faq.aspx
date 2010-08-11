@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/BOAmaster.master" AutoEventWireup="true" CodeFile="campus-EMEA-faq.aspx.cs" Inherits="campus_EMEA_faq" %>
+﻿<%@ Page Title="Bank of America | Careers | Campus Recruiting | EMEA Campus FAQ" Language="C#" MasterPageFile="~/BOAmaster.master" AutoEventWireup="true" CodeFile="campus-EMEA-faq.aspx.cs" Inherits="campus_EMEA_faq" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="cphmain" Runat="Server">
 
@@ -100,12 +100,13 @@
                     amends yourself. If changes are essential, please contact 
                     the campus recruitment team to discuss.</p>
                 </div>
-                <div id="aside"> <a href="campus-EMEA-find-your-fit.aspx"><img src="images/campus/btn-careerfinder.jpg" width="179" height="66" alt="Career Finder: Come as you are. We've got a career to fit." /></a> 
+                <div id="aside"> 
+                   <a href="campusrecruiting/career_fit_tool.asp"><img src="images/campus/btn-careerfinder.jpg" width="179" height="66" alt="Career Finder: Come as you are. We've got a career to fit." /></a> 
                   <a href="CampusEvents.aspx?region=2"><img src="images/campus/btn-campus-events.jpg" width="179" height="66" alt="Campus Events: Let's meet soon." /></a> 
-                  <a href="campus-EMEA-opportunities.aspx"><img src="images/campus/btn-our-people.jpg" width="179" height="66" alt="Our People: See and hear who's making a difference and how." /></a> 
+                  <a href="campus-EMEA-graduate-profiles.aspx"><img src="images/campus/btn-our-people.jpg" width="179" height="66" alt="Our People: See and hear who's making a difference and how." /></a> 
                   <h3>Related Links:</h3>
                   <ul>
-                    <li><a href="campus-EMEA-application-process.aspx">Application Process</a></li>
+                    <li><a href="campus-EMEA-application-process.aspx">Application process</a></li>
                   </ul>
                 </div>
                 <div id="red-footer"> 

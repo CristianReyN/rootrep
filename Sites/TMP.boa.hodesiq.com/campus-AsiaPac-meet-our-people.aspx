@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/BOAmaster.master" AutoEventWireup="true" CodeFile="campus-AsiaPac-meet-our-people.aspx.cs" Inherits="campus_AsiaPac_meet_our_people" %>
+﻿<%@ Page Title="Bank of America | Careers | Campus Recruiting | Asia Pacific Meet Our People" Language="C#" MasterPageFile="~/BOAmaster.master" AutoEventWireup="true" CodeFile="campus-AsiaPac-meet-our-people.aspx.cs" Inherits="campus_AsiaPac_meet_our_people" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="cphmain" Runat="Server">
 
@@ -34,7 +34,7 @@
             <p><a href="campus-profiles-Scott.aspx">Read Profile</a></p>
             </div>
             
-            <p class="learnlink"><a href="">View all our analyst profiles</a></p>
+            <p class="learnlink"><a href="campus-AsiaPac-analyst-profiles.aspx">View all our analyst profiles</a></p>
         </div>
         
           <div class="featured-profile">
@@ -61,7 +61,7 @@
             <p><a href="campus-profiles-Priya.aspx">Read Profile</a></p>
             </div>
             
-            <p class="learnlink"><a href="">View all our associate profiles</a></p>
+            <p class="learnlink"><a href="campus-AsiaPac-associate-profiles.aspx">View all our associates profiles</a></p>
         </div>
         
            <div class="featured-profile">
@@ -88,7 +88,7 @@
             <p><a href="campus-profiles-Ken.aspx">Read Profile</a></p>
             </div>
             
-            <p class="learnlink"><a href="">View all our intern profiles</a></p>
+            <p class="learnlink"><a href="campus-AsiaPac-intern-profiles.aspx">View all our intern profiles</a></p>
         </div>
         
       
@@ -196,9 +196,13 @@ data="../Includes/pages/college/Guan.swf" width="205" height="131" id="javaflash
 
             <p>Guan</p>
             <p class="padbot">Quantitative Management Associate</p>
-            
-            
             </div>
+            
+            <h3>Related Links:</h3>
+            <ul>
+              <li><a href="campus-Americas-meet-our-people.aspx">Americas Pacific profiles</a></li>
+              <li><a href="campus-EMEA-graduate-profiles.aspx">EMEA profiles</a></li>
+            </ul>
   </div>
   <div id="red-footer"> 
     <p>Set opportunity in motion.</p>

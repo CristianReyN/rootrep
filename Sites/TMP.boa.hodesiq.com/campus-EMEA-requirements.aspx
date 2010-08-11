@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/BOAmaster.master" AutoEventWireup="true" CodeFile="campus-EMEA-requirements.aspx.cs" Inherits="campus_EMEA_requirements" %>
+﻿<%@ Page Title="Bank of America | Careers | Campus Recruiting | Opportunities | EMEA Requirements " Language="C#" MasterPageFile="~/BOAmaster.master" AutoEventWireup="true" CodeFile="campus-EMEA-requirements.aspx.cs" Inherits="campus_EMEA_requirements" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="cphmain" Runat="Server">
 
@@ -52,14 +52,15 @@
                       service.</li>
                   </ul>
                 </div>
-                <div id="aside"> <a href="campus-EMEA-find-your-fit.aspx"><img src="images/campus/btn-careerfinder.jpg" width="179" height="66" alt="Career Finder: Come as you are. We've got a career to fit." /></a> 
+                <div id="aside"> 
+                  <a href="campusrecruiting/career_fit_tool.asp"><img src="images/campus/btn-careerfinder.jpg" width="179" height="66" alt="Career Finder: Come as you are. We've got a career to fit." /></a> 
                   <a href="CampusEvents.aspx?region=2"><img src="images/campus/btn-campus-events.jpg" width="179" height="66" alt="Campus Events: Let's meet soon." /></a> 
-                  <a href="campus-EMEA-opportunities.aspx"><img src="images/campus/btn-our-people.jpg" width="179" height="66" alt="Our People: See and hear who's making a difference and how." /></a> 
+                  <a href="campus-EMEA-graduate-profiles.aspx"><img src="images/campus/btn-our-people.jpg" width="179" height="66" alt="Our People: See and hear who's making a difference and how." /></a> 
                   <h3>Related Links:</h3>
                   <ul>
-                    <li><a href="campus-EMEA-analyst-programs.aspx">Analyst Programs</a></li>
+                    <li><a href="campus-EMEA-analyst-programs.aspx">Analyst programmes</a></li>
 					<li><a href="campus-EMEA-associate-and-phd-programs.aspx">Associate 
-                      &amp; PhD Programs</a></li>
+                      &amp; PhD programmes</a></li>
                     <li><a href="campus-EMEA-internships.aspx">Internships</a></li>
 					<li><a href="campus-EMEA-pre-university.aspx">Pre-University</a></li>
                   </ul>

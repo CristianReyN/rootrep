@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/BOAmaster.master" AutoEventWireup="true" CodeFile="campus-EMEA-internships.aspx.cs" Inherits="campus_EMEA_internships" %>
+﻿<%@ Page Title="Bank of America | Careers | Campus Recruiting | Opportunities | Internships" Language="C#" MasterPageFile="~/BOAmaster.master" AutoEventWireup="true" CodeFile="campus-EMEA-internships.aspx.cs" Inherits="campus_EMEA_internships" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="cphmain" Runat="Server">
 
@@ -74,14 +74,15 @@
                   <p>6 and 12-month Industrial Placements are available within 
                     the Technology division.</p>
                 </div>
-                <div id="aside"> <a href="campus-EMEA-find-your-fit.aspx"><img src="images/campus/btn-careerfinder.jpg" width="179" height="66" alt="Career Finder: Come as you are. We've got a career to fit." /></a> 
+                <div id="aside"> 
+                  <a href="campusrecruiting/career_fit_tool.asp"><img src="images/campus/btn-careerfinder.jpg" width="179" height="66" alt="Career Finder: Come as you are. We've got a career to fit." /></a> 
                   <a href="CampusEvents.aspx?region=2"><img src="images/campus/btn-campus-events.jpg" width="179" height="66" alt="Campus Events: Let's meet soon." /></a> 
-                  <a href="campus-EMEA-opportunities.aspx"><img src="images/campus/btn-our-people.jpg" width="179" height="66" alt="Our People: See and hear who's making a difference and how." /></a> 
+                  <a href="campus-EMEA-graduate-profiles.aspx"><img src="images/campus/btn-our-people.jpg" width="179" height="66" alt="Our People: See and hear who's making a difference and how." /></a> 
                   <h3>Related Links:</h3>
                   <ul>
-                    <li><a href="campus-EMEA-analyst-programs.aspx">Analyst Programs</a></li>
+                    <li><a href="campus-EMEA-analyst-programs.aspx">Analyst programmes</a></li>
                     <li><a href="campus-EMEA-associate-and-phd-programs.aspx">Associate 
-                      &amp; PhD Programs</a></li>
+                      &amp; PhD programmes</a></li>
                     <li><a href="campus-EMEA-pre-university.aspx">Pre-University</a></li>
                     <li><a href="campus-EMEA-requirementsy.aspx">Requirements</a></li>
                   </ul>

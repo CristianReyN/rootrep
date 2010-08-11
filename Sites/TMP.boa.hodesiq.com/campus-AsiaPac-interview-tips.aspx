@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/BOAmaster.master" AutoEventWireup="true" CodeFile="campus-AsiaPac-interview-tips.aspx.cs" Inherits="campus_AsiaPac_interview_tips" %>
+﻿<%@ Page Title="Bank of America | Careers | Campus Recruiting | How to Apply | Asia Pacific Interview Tips" Language="C#" MasterPageFile="~/BOAmaster.master" AutoEventWireup="true" CodeFile="campus-AsiaPac-interview-tips.aspx.cs" Inherits="campus_AsiaPac_interview_tips" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="cphmain" Runat="Server">
 
@@ -99,13 +99,14 @@
 
 <p>Interview Skills that Win the Job: Simple Techniques for Answering all the Tough Questions by Michael Spiropoulos</p></em>
                 </div>
-                <div id="aside"> <a href="campus-Americas-find-your-fit.aspx"><img src="images/campus/btn-careerfinder.jpg" width="179" height="66" alt="Career Finder: Come as you are. We've got a career to fit." /></a> 
-                  <a href="CampusEvents.aspx?region=1"><img src="images/campus/btn-campus-events.jpg" width="179" height="66" alt="Campus Events: Let's meet soon." /></a> 
-                  <a href="campus-Americas-opportunities.aspx"><img src="images/campus/btn-our-people.jpg" width="179" height="66" alt="Our People: See and hear who's making a difference and how." /></a> 
+                <div id="aside"> 
+                  <a href="campusrecruiting/career_fit_tool.asp"><img src="images/campus/btn-careerfinder.jpg" width="179" height="66" alt="Career Finder: Come as you are. We've got a career to fit." /></a> 
+                  <a href="CampusEvents.aspx?region=3"><img src="images/campus/btn-campus-events.jpg" width="179" height="66" alt="Campus Events: Let's meet soon." /></a> 
+                  <a href="campus-AsiaPac-meet-our-people.aspx"><img src="images/campus/btn-our-people.jpg" width="179" height="66" alt="Our People: See and hear who's making a difference and how." /></a> 
                   <h3>Related Links:</h3>
                   <ul>
                     <li><a href="campus-AsiaPac-internships.aspx">Glossary</a></li>
-                    <li><a href="campus-AsiaPac-requirements.aspx">Campus FAQ</a></li>
+                    <li><a href="campus-AsiaPac-requirements.aspx">Campus FAQs</a></li>
                   </ul>
                 </div>
                 <div id="red-footer"> 

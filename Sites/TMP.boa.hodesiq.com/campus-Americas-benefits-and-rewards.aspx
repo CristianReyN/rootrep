@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/BOAmaster.master" AutoEventWireup="true" CodeFile="campus-Americas-benefits-and-rewards.aspx.cs" Inherits="campus_Americas_benefits_and_rewards" %>
+﻿<%@ Page Title="Bank of America | Careers | Campus Recruiting | Our Culture | Americas Benefits and Rewards" Language="C#" MasterPageFile="~/BOAmaster.master" AutoEventWireup="true" CodeFile="campus-Americas-benefits-and-rewards.aspx.cs" Inherits="campus_Americas_benefits_and_rewards" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="cphmain" Runat="Server">
 
@@ -13,7 +13,7 @@
 			  
 <p>Bank of America offers a competitive benefits package to its associates.</p>
 
-<p>Our comprehensive Full-Time Associate package includes1:</p>
+<p>Our comprehensive Full-Time Associate package includes<sup>1</sup>:</p>
 
 <h3>Financial and Retirement Support</h3>
 <ul>
@@ -46,14 +46,14 @@
 <sup>2</sup>Associates are eligible after one year of full-time service or 1,000 hours worked within a year.</p>
 
                 </div>
-                <div id="aside"> <a href="campus-Americas-find-your-fit.aspx"><img src="images/campus/btn-careerfinder.jpg" width="179" height="66" alt="Career Finder: Come as you are. We've got a career to fit." /></a> 
+                <div id="aside"> <a href="campusrecruiting/career_fit_tool.asp"><img src="images/campus/btn-careerfinder.jpg" width="179" height="66" alt="Career Finder: Come as you are. We've got a career to fit." /></a> 
                   <a href="CampusEvents.aspx?region=1"><img src="images/campus/btn-campus-events.jpg" width="179" height="66" alt="Campus Events: Let's meet soon." /></a> 
-                  <a href="campus-Americas-opportunities.aspx"><img src="images/campus/btn-our-people.jpg" width="179" height="66" alt="Our People: See and hear who's making a difference and how." /></a> 
+                  <a href="campus-Americas-meet-our-people.aspx"><img src="images/campus/btn-our-people.jpg" width="179" height="66" alt="Our People: See and hear who's making a difference and how." /></a> 
                   <h3>Related Links:</h3>
                   <ul>
-                    <li><a href="campus-Americas-internships.aspx">Diversity and Inclusion</a></li>
-                    <li><a href="campus-Americas-requirements.aspx">Corporate Social Responsibility</a></li>
-					<li><a href="campus-Americas-requirements.aspx">Information for Parents</a></li>
+                    <li><a href="campus-Americas-internships.aspx">Diversity and inclusion</a></li>
+                    <li><a href="campus-Americas-requirements.aspx">Corporate social responsibility</a></li>
+					<li><a href="campus-Americas-requirements.aspx">Information for parents</a></li>
                   </ul>
                 </div>
                 <div id="red-footer"> 

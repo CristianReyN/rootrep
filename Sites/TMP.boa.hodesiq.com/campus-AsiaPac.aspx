@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/BOAmaster.master" AutoEventWireup="true" CodeFile="campus-AsiaPac.aspx.cs" Inherits="campus_AsiaPac" %>
+﻿<%@ Page Title="Bank of America | Careers | Campus Recruiting | Asia Pacific Overview" Language="C#" MasterPageFile="~/BOAmaster.master" AutoEventWireup="true" CodeFile="campus-AsiaPac.aspx.cs" Inherits="campus_AsiaPac" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="cphmain" Runat="Server">
 
@@ -8,8 +8,8 @@
                  
                 <p class="link-header">Explore our company and opportunities further with the buttons below.</p>
                 
-                <a class="searchbtn" href="">Search</a>
-                <a class="videobtn" href="">Video</a>
+                <a class="searchbtn" href="http://careers.bankofamerica.com/jobsearch.aspx">Search</a>
+                <a class="videobtn" href="campus-AsiaPac-meet-our-people.aspx">Video</a>
  
  				<p class="footnote-content">Set opportunity in motion.</p>
                           
@@ -23,9 +23,9 @@
 						
 					<div id="home-buttons">
                     
-                    <a href="campus-EMEA-find-your-fit.aspx"><img src="images/campus/btn-careerfinder.jpg" width="179" height="66" alt="Career Finder: Come as you are. We've got a career to fit." /></a> 
-    <a href="CampusEvents.aspx?region=2"><img src="images/campus/btn-campus-events.jpg" width="179" height="66" alt="Campus Events: Let's meet soon." /></a> 
-    <a href="campus-EMEA-opportunities.aspx"><img src="images/campus/btn-our-people.jpg" width="179" height="66" alt="Our People: See and hear who's making a difference and how." /></a> 
+                    <a href="campusrecruiting/career_fit_tool.asp"><img src="images/campus/btn-careerfinder.jpg" width="179" height="66" alt="Career Finder: Come as you are. We've got a career to fit." /></a> 
+                    <a href="CampusEvents.aspx?region=3"><img src="images/campus/btn-campus-events.jpg" width="179" height="66" alt="Campus Events: Let's meet soon." /></a> 
+                    <a href="campus-AsiaPac-meet-our-people.aspx"><img src="images/campus/btn-our-people.jpg" width="179" height="66" alt="Our People: See and hear who's making a difference and how." /></a> 
                     </div>
                  </div>
                  

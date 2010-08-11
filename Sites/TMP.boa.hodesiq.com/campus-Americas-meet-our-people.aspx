@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/BOAmaster.master" AutoEventWireup="true" CodeFile="campus-Americas-meet-our-people.aspx.cs" Inherits="campus_Americas_meet_our_people" %>
+﻿<%@ Page Title="Bank of America | Careers | Campus Recruiting | Americas Meet Our People" Language="C#" MasterPageFile="~/BOAmaster.master" AutoEventWireup="true" CodeFile="campus-Americas-meet-our-people.aspx.cs" Inherits="campus_Americas_meet_our_people" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="cphmain" Runat="Server">
 
@@ -35,7 +35,7 @@
             <p><a href="campus-profiles-Bhavin.aspx">Read Profile</a></p>
             </div>
             
-            <p class="learnlink"><a href="">View all our analyst profiles</a></p>
+            <p class="learnlink"><a href="campus-Americas-analyst-profiles.aspx">View all our analyst profiles</a></p>
         </div>
         
           <div class="featured-profile">
@@ -62,7 +62,7 @@
             <p><a href="campus-profiles-Matt.aspx">Read Profile</a></p>
             </div>
             
-            <p class="learnlink"><a href="">View all our analyst profiles</a></p>
+            <p class="learnlink"><a href="campus-Americas-associate-profiles.aspx">View all our associates profiles</a></p>
         </div>
         
            <div class="featured-profile">
@@ -71,7 +71,7 @@
             <div class="mop-profile">
                 <img src="images/campus/icon-mopDevinFunk.jpg" width="40" height="40" alt="Devin Funk" />
             <h2>Devin</h2>
-             <p>Enterprise Technology &amp; Delivery Leadership Development Rotational Program</p>
+             <p>Enterprise Technology &amp; Delivery Leadership Development</p>
             <p><a href="campus-profiles-Devin.aspx">Read Profile</a></p>
             </div>
             
@@ -89,7 +89,7 @@
             <p><a href="campus-profiles-John.aspx">Read Profile</a></p>
             </div>
             
-            <p class="learnlink"><a href="">View all our analyst profiles</a></p>
+            <p class="learnlink"><a href="campus-Americas-intern-profiles.aspx">View all our interns profiles</a></p>
         </div>
         
       
@@ -197,9 +197,13 @@ data="../Includes/pages/college/Tony.swf" width="205" height="131" id="javaflash
 
             <p>Tony</p>
             <p class="padbot">Corporate Treasury Associate</p>
-            
-            
             </div>
+            
+            <h3>Related Links:</h3>
+            <ul>
+              <li><a href="campus-AsiaPac-meet-our-people.aspx">Asia Pacific profiles</a></li>
+              <li><a href="campus-EMEA-graduate-profiles.aspx">EMEA profiles</a></li>
+            </ul>
   </div>
   <div id="red-footer"> 
     <p>Set opportunity in motion.</p>

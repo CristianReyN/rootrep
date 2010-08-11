@@ -78,18 +78,20 @@
                     <li>Flexible working policy</li>
                     <li>Associate Assistance Programme</li>
                   </ul>
+                  <br />
                   <p>Maternity, paternity and adoption leave – above statutory 
                     minimum parental leave</p>
                 </div>
-                <div id="aside"> <a href="campus-EMEA-find-your-fit.aspx"><img src="images/campus/btn-careerfinder.jpg" width="179" height="66" alt="Career Finder: Come as you are. We've got a career to fit." /></a> 
+                <div id="aside"> 
+                  <a href="campusrecruiting/career_fit_tool.asp"><img src="images/campus/btn-careerfinder.jpg" width="179" height="66" alt="Career Finder: Come as you are. We've got a career to fit." /></a> 
                   <a href="CampusEvents.aspx?region=2"><img src="images/campus/btn-campus-events.jpg" width="179" height="66" alt="Campus Events: Let's meet soon." /></a> 
-                  <a href="campus-EMEA-opportunities.aspx"><img src="images/campus/btn-our-people.jpg" width="179" height="66" alt="Our People: See and hear who's making a difference and how." /></a> 
+                  <a href="campus-EMEA-graduate-profiles.aspx"><img src="images/campus/btn-our-people.jpg" width="179" height="66" alt="Our People: See and hear who's making a difference and how." /></a> 
                   <h3>Related Links:</h3>
                   <ul>
-				  <li><a href="campus-EMEA-diversity-and-inclusion.aspx">Diversity and Inclusion</a></li>
-                    <li><a href="campus-EMEA-about-us.aspx">About Us</a></li>
+				  <li><a href="campus-EMEA-diversity-and-inclusion.aspx">Diversity and inclusion</a></li>
+                    <li><a href="campus-EMEA-about-us.aspx">About us</a></li>
                     <li><a href="campus-EMEA-corporate-social-responsibility.aspx">Corporate 
-                      Social Responsibility</a></li>
+                      social responsibility</a></li>
                   </ul>
                 </div>
                 <div id="red-footer"> 
