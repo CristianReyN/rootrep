@@ -80,17 +80,25 @@
 	color: #5c5c5c;
 	font-size: 1em;
 	font-weight: bold;
+	padding-top: 12px;
+	padding-bottom: 5px;
 	}
 	#maincontent #article p {
 	padding-bottom: 15px;
 	}
 	
-	#maincontent #article ul li {
+	#maincontent #article ul {
 	margin: 0;
 	padding: 0;
+	margin-left: 40px;
+	margin-right: 40px;
+	}
+	
+	#maincontent #article ul li {
 	font-size: 1em;
 	font-family: Arial, Helvetica, Verdana,  sans-serif;
 	color: #5c5c5c;
+	padding-bottom: 3px;
 	}
 	
 	#maincontent #article p.learnlink {
@@ -149,10 +157,10 @@
 	float: left;
 	position: relative;
 	border: 1px solid #9d9d9d;
-	background: url(../images/campus/bkg-blue-gradient.jpg) top left repeat-x;
+	background: url(../images/campus/bkg-mop-gradation.jpg) top left repeat-x;
 	margin-top: 10px;
 	width: 94px;
-	height: 155px;
+	height: 165px;
 	margin-right: 10px;
 	margin-bottom: 15px;
 	} 
@@ -198,12 +206,12 @@
 	}
 	
 	#main-profiles #article p.learnlink {
-	text-align: right;
 	padding-top: 10px;
 	padding-bottom: 20px;
 	}
 	
 	#main-profiles #article div.profile-article {
+	position: relative;
 	border: 1px solid #9d9d9d;
 	background: url(../images/campus/bkg-blue-gradient.jpg) top left repeat-x;
 	margin-top: 10px;
@@ -215,16 +223,17 @@
 	padding: 0;
 	float: left;
 	display: block;
-	margin: 10px 12px 0 15px;
+	margin: 10px 12px 10px 12px;
     border: none;
 	}
 	
 	#main-profiles #article div.profile-article h2 {
 	margin: 0;
 	padding: 0;
-	font-size: 1em;
-	color: #363636;
+	font-size: 1.2em;
+	color: #333;
 	padding-top: 10px;
+	padding-bottom: 10px;
 	}
 	
 	#main-profiles #article div.profile-article span,
@@ -232,14 +241,40 @@
 	margin: 0;
 	padding: 0;
 	font-size: .8em;
-	color: #363636;
+	color: #333;
 	padding-right: 20px;
 	}
 	
 	#main-profiles #article div.profile-article a {
 	display: block;
-	padding-top: 12px;
+	padding-top: 10px;
+	}
 	
+	p.profile-depart {
+	position: absolute;
+	width: 190px;
+	top: 12px;
+	left: 140px;
+	line-height: 1.2em;
+	font-weight: bold;
+	}
+	
+	p.profile-depart-spec {
+	position: absolute;
+	width: 190px;
+	top: 12px;
+	left: 155px;
+	line-height: 1.2em;
+	font-weight: bold;
+	}
+	
+	p.profile-depart-jw {
+	position: absolute;
+	width: 190px;
+	top: 12px;
+	left: 170px;
+	line-height: 1.2em;
+	font-weight: bold;
 	}
 	
 	/* ======= individual profile photos and content =======*/
@@ -292,6 +327,7 @@
 	float: left;
 	width: 179px;
 	margin-left: 16px;
+	margin-top: 8px;
 	}
 	
 	#aside img {
@@ -336,21 +372,22 @@
 	height: 464px;
 	border: 1px solid #9d9d9d;
 	background: url(../images/campus/bkg-videocontent.jpg) no-repeat;
-	margin-top: 40px;
+	margin-bottom: 15px;
 	}
 	
-	#main-profiles #aside #video-content img,
+	#main-profiles #aside #video-content img.default-img,
 	#main-profiles #aside #video-content object {
 	margin: 0;
 	padding: 0;
-	padding: 12px 0 0 4px;
+	margin-left:3px;
+	padding-top: 10px;
 	border: none;
 	}
 	
 	#main-profiles #aside #video-content table {
 	margin: 0;
 	padding: 0;
-	margin: 0 0 8px 4px;
+	margin: 0 0 2px 3px;
 	}
 	
 	
@@ -360,7 +397,8 @@
 	color: #363636;
 	font-size: .85em;
 	font-weight: bold;
-	margin-left: 8px;
+	margin-left: 5px;
+
 	}
 	
 	#main-profiles #aside #video-content p.padbot {
@@ -431,7 +469,6 @@
 	
 	#america-home #article {
 	width: 490px;
-	background: url(../images/campus/arrow-red.jpg) left 6px no-repeat;
 	}
 	
 	#america-home #article p {
@@ -487,8 +524,7 @@
 	
 	#asiapac-home #article {
 	width: 490px;
-	background: url(../images/campus/arrow-red.jpg) left 6px no-repeat;
-	}
+    }
 	
 	#asiapac-home #article p {
 	font-size: .93em;
@@ -544,7 +580,6 @@
 	
 	#emea-home #article {
 	width: 490px;
-	background: url(../images/campus/arrow-red.jpg) left 6px no-repeat;
 	}
 	
 	#emea-home #article p {
@@ -565,12 +600,15 @@
 	border: none;
 	}
 	
+	/* ======career finder buttont ===*/
+	
 	p.careerfinder-btn a {
 	display: block;
-	width: 162px;
-	height: 20px;
+	width: 168px;
+	height: 24px;
+	line-height:15px;
 	background: url(../images/campus/btn-launchcareer.jpg) top left no-repeat;
-	color: #FFF;
+	color: #fff;
 	padding: 4px 0 0 6px;
 	text-decoration: none;
 	
@@ -578,8 +616,92 @@
 	
 	p.careerfinder-btn a:hover {
 	background: url(../images/campus/btn-launchcareer.jpg) left -24px no-repeat;
+	color: #fff;
+	text-decoration: underline;
 	}
+	
+	p.careerfinder-btn a:visited {
+	text-decoration: none;
+	color: #fff;
+	}
+	
+	
+	/*====== code for buttons on apply page ====*/
 
+a.button, a.button:hover, a.button:active {
+background: transparent url(../images/campus/bg_button_a.gif) top right no-repeat;
+color:#333;
+display: block;
+float: left;
+font: bold .8em verdana, arial, sans-serif;
+height: 22px;
+margin-right:6px;
+padding-right: 12px;/* sliding doors padding */
+text-decoration: none;
+}
+
+
+a.button span, a.button:hover span, a.button:active span {
+background: transparent url(../images/campus/bg_button_span.gif) no-repeat;
+display: block;
+line-height:15px;
+padding: 2px 0 5px 12px;
+} 
+
+
+a.button:hover {
+background: transparent url(../images/campus/bg_button_a.gif) center right no-repeat;
+color: #ec1c02;
+outline: none; /* hide dotted outline in Firefox */
+}
+
+
+a.button:hover span {
+background-position:center left;
+padding: 2px 0 5px 12px;	
+} 
+a.button:active {
+background: transparent url(../images/campus/bg_button_a.gif) bottom right no-repeat;
+color: #d4181a;
+outline: none;/* hide dotted outline in Firefox */
+}
+
+a.button:active span {
+background-position: bottom left;
+padding: 3px 0 4px 12px;
+} 
+
+
+/* INACTIVE BUTTON SPECIFIC STYLES */
+a.inactive {
+background: transparent url(../images/campus/bg_fade-button_a.gif) top right no-repeat;
+cursor: default;
+color: #cdcdcd;
+display: block;
+float: left;
+font: bold .7em verdana, arial, sans-serif;
+height: 22px;
+margin-right: 6px;
+padding-right: 12px; /* sliding doors padding */
+text-decoration: none;
+}
+
+
+a.inactive:hover, a.inactive:hover span {
+cursor: default;
+}
+
+a.inactive span {
+cursor: default;
+background: transparent url(../images/campus/bg_fade-button_span.gif) no-repeat;
+display: block;
+line-height: 15px;
+padding: 2px 0 5px 12px;
+} 
+
+#article p.buttonpad {
+padding-bottom: 60px;
+}
 	
 	/* ============ footer =========*/
 	#profiles #red-footer,
@@ -588,6 +710,7 @@
 	clear: both;
 	width: 578px;
 	background: url(../images/campus/bkg-footer.gif) no-repeat;
+	margin-top: 70px;
 	}
 	
 	#profiles #red-footer p,
