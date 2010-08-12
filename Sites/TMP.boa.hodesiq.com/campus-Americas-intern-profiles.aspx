@@ -86,104 +86,105 @@
      
     <p class="back-top"><a href="#profiles">Back to top</a></p>
   </div>
+  
+            <script src="Includes/_swfobject.js" type="text/javascript"></script>
+            <script src="Includes/profile-control.js" type="text/javascript"></script>
   <div id="aside"> 
-       
-            <div id="video-content">
             
-            <script language="JavaScript1.2" src="../Includes/pages/camp/video/campl.js" type="text/javascript"></script>
+            <div id="video-content">
+            <br />
+            <h2 class="hidden">Nathan's Associate Testimonial Video</h2>
+
+	<div id="nathan" style="display: none;">
+
+		<div id="nathanflash">
 	
-<script language="JavaScript1.2" type="text/javascript">
-function preloadThumb()
-{
-	MM_preloadImages('../Includes/pages/camp/video//thumbnails/nathan_on.jpg','../Includes/pages/camp/video/thumbnails/nathan_off.jpg');
-}
-var ada_href = "../ada_camp/usfs-global-human-resources-leadership-development.asp";
-action_script = true;
-if ( hasRequestedVersion && nathan_video ) {
-	document.write('<H2 class="hidden">Nathan&#39;s Associate Testimonial Video<\/H2>');
-	document.write('<div id="mainvideo" style="display: none;"><a name="video"></a>');
-	document.write(getVideo(nathan_video,205,131,"javaflash",""));
-	document.write(strReplace(strReplace(strReplace(strReplace(getHTMLControl("javaflash",205,22,true,true,true,true,true,true),"<text>","Video transcript"),"<title>","Video transcript"),"<href>",ada_href),"<anchor>",nathan_video.ada_anchor+""));
-	document.write('</div>');
-	document.write('<div id="videothumb">');
-	document.write('<a href="Javascript: vo_id();" onmouseover="MM_swapImage(\'dilstart\',\'\',\''+nathan_video.thumb_on+'\',1);" onmouseout="MM_swapImgRestore();" onclick="playVideo(nathan_video,true,true,true,true,true,true);" title="Play Nathan&#39;s Associate Testimonial Video"><img name="dilstart" style="margin: 0px;" src="'+nathan_video.thumb_off+'" alt="Play Nathan&#39;s Associate Testimonial Video" border="0" align="absmiddle"></a>');
-	document.write(strReplace(strReplace(strReplace(strReplace(getHTMLControl("javaflash",205,22,false,false,false,true,false,false),"<text>","Video transcript"),"<title>","Video transcript"),"<href>",ada_href),"<anchor>",nathan_video.ada_anchor+""));
-	document.write('</div>');
-	document.write('<div id="videothumb_off" style="display: none;">');
-	document.write('<img style="margin: 0px;" src="'+nathan_video.thumb_off+'" alt="" border="0" align="absmiddle">');
-	document.write(strReplace(strReplace(strReplace(strReplace(getHTMLControl("javaflash",205,22,false,false,false,true,false,false),"<text>","Video transcript"),"<title>","Video transcript"),"<href>",ada_href),"<anchor>",nathan_video.ada_anchor+""));
-	document.write('</div>');
-} else {
-	document.write(reqFlashPlayer+nathan_video.thumb_on+reqFlashPlayer2);
-}
-</script>
-<noscript>
-<a name="video"></a><H2 class="hidden">Nathan&#39;s Associate Testimonial Video</H2>
-<object type="application/x-shockwave-flash"
-data="../Includes/pages/college/Nathan.swf" width="205" height="131" id="javaflash" align="middle">
-	<param name="wmode" value="transparent" />
-	<param name="allowScriptAccess" value="always" />
-	<param name="movie" value="../Includes/pages/college/Nathan.swf"  />
-	<param name="quality" value="high" />
-	<param name="bgcolor" value="#ffffff" />
-</object>
-<table border="0" cellspacing="0" cellpadding="0" bgcolor="#d4001a" width="100%">
+			<a href="http://get.adobe.com/flashplayer/" title="This video requires Adobe Flash Player version 8. Please download latest version."><img src="Includes/pages/camp/video/thumbnails/nathan_off.jpg" width="205" height="131" border="0" /></a>
+	
+		</div>
+	
+	</div>
+
+	<img class="default-img" src="Includes/pages/camp/video/thumbnails/nathan_off.jpg" width="205" height="131" style="display: block;" onMouseOver="this.src='Includes/pages/camp/video/thumbnails/nathan_on.jpg'" onMouseOut="this.src='Includes/pages/camp/video/thumbnails/nathan_off.jpg'" onClick="this.style.display='none'; document.getElementById('nathan').style.display='block'; document.getElementById('nathan-left-control').style.display='block'; document.getElementById('nathan-right-control').style.display='block';" border="0" />
+
+	<table width="205" border="0" cellspacing="0" cellpadding="0" bgcolor="#D4001A">
 	<tr>
-		<td nowrap align="center" height="18" width="100%">
-			<a href="../ada_camp/usfs-global-human-resources-leadership-development.asp#vt" title="Video transcript" class="btn1">Video transcript</a>
+		<td nowrap>
+
+			<div align="left" style="padding: 2px 5px;" id="nathan-left-control">
+
+				<a href="#" title="Play Video" onClick="doPassVar('nathanflash','play'); return false;"><img width="14" height="18" border="0" alt="Play Video" src="Includes/pages/buttons/01btn.gif" name="btn01" /></a>
+				
+				<a href="#" title="Pause Video" onClick="doPassVar('nathanflash','pause'); return false;"><img width="13" height="18" border="0" alt="Pause Video" src="Includes/pages/buttons/02btn.gif" name="btn02" /></a>
+				
+				<a href="#" title="Stop Video" onClick="doPassVar('nathanflash','stop'); return false;"><img width="17" height="18" border="0" alt="Stop Video" src="Includes/pages/buttons/03btn.gif" name="btn03" /></a>
+
+			</div>
+
+		</td>
+		<td width="100%" height="22" align="center" nowrap><a href="../ada_camp/usfs-global-human-resources-leadership-development.asp#vt" class="btn1">Video transcript</a></td>
+		<td nowrap>
+
+			<div align="right" style="padding: 2px 5px;" id="nathan-right-control">
+
+				<a href="#" title="Mute Video" onClick="doPassVar('nathanflash','mute'); return false;"><img width="16" height="18" border="0" alt="Mute Video" src="Includes/pages/buttons/05btn.gif" name="btn05" /></a>
+				
+				<a href="#" title="Close Captions" onClick="doPassVar('nathanflash','ccoc'); return false;"><img width="21" height="18" border="0" alt="Close Captions" src="Includes/pages/buttons/06btn.gif" name="btn06" /></a>
+
+			</div>
+
 		</td>
 	</tr>
-</table>
-</noscript>
+	</table>
 
+            
             <p>Nathan</p>
             <p class="padbot">Global Human Resources Consultant</p>
             
-            <script language="JavaScript1.2" src="../Includes/pages/camp/video/campl.js" type="text/javascript"></script>
+            <h2 class="hidden">Guan's Associate Testimonial Video</h2>
+
+	<div id="guan" style="display: none;">
+
+		<div id="guanflash">
 	
-<script language="JavaScript1.2" type="text/javascript">
-function preloadThumb()
-{
-	MM_preloadImages('../Includes/pages/camp/video//thumbnails/guan_on.jpg','../Includes/pages/camp/video/thumbnails/guan_off.jpg');
-}
-var ada_href = "../ada_camp/usfn-quantitative-management.asp";
-action_script = true;
-if ( hasRequestedVersion && guan_video ) {
-	document.write('<H2 class="hidden">Guan&acute;s Associate Testimonial Video<\/H2>');
-	document.write('<div id="mainvideo" style="display: none;"><a name="video"></a>');
-	document.write(getVideo(guan_video,205,131,"javaflash",""));
-	document.write(strReplace(strReplace(strReplace(strReplace(getHTMLControl("javaflash",205,22,true,true,true,true,true,true),"<text>","Video transcript"),"<title>","Video transcript"),"<href>",ada_href),"<anchor>",guan_video.ada_anchor+""));
-	document.write('</div>');
-	document.write('<div id="videothumb">');
-	document.write('<a href="Javascript: vo_id();" onmouseover="MM_swapImage(\'dilstart\',\'\',\''+guan_video.thumb_on+'\',1);" onmouseout="MM_swapImgRestore();" onclick="playVideo(guan_video,true,true,true,true,true,true);" title="Play Guan&acute;s Associate Testimonial Video"><img name="dilstart" style="margin: 0px;" src="'+guan_video.thumb_off+'" alt="Play Guan&acute;s Associate Testimonial Video" border="0" align="absmiddle"></a>');
-	document.write(strReplace(strReplace(strReplace(strReplace(getHTMLControl("javaflash",205,22,false,false,false,true,false,false),"<text>","Video transcript"),"<title>","Video transcript"),"<href>",ada_href),"<anchor>",guan_video.ada_anchor+""));
-	document.write('</div>');
-	document.write('<div id="videothumb_off" style="display: none;">');
-	document.write('<img style="margin: 0px;" src="'+guan_video.thumb_off+'" alt="" border="0" align="absmiddle">');
-	document.write(strReplace(strReplace(strReplace(strReplace(getHTMLControl("javaflash",205,22,false,false,false,true,false,false),"<text>","Video transcript"),"<title>","Video transcript"),"<href>",ada_href),"<anchor>",guan_video.ada_anchor+""));
-	document.write('</div>');
-} else {
-	document.write(reqFlashPlayer+guan_video.thumb_on+reqFlashPlayer2);
-}
-</script>
-<noscript>
-<a name="video"></a><H2 class="hidden">Guan&acute;s Associate Testimonial Video</H2>
-<object type="application/x-shockwave-flash"
-data="../Includes/pages/college/Guan.swf" width="205" height="131" id="javaflash" align="middle">
-	<param name="wmode" value="transparent" />
-	<param name="allowScriptAccess" value="always" />
-	<param name="movie" value="../Includes/pages/college/Guan.swf"  />
-	<param name="quality" value="high" />
-	<param name="bgcolor" value="#ffffff" />
-</object>
-<table border="0" cellspacing="0" cellpadding="0" bgcolor="#d4001a" width="100%">
+			<a href="http://get.adobe.com/flashplayer/" title="This video requires Adobe Flash Player version 8. Please download latest version."><img src="Includes/pages/camp/video/thumbnails/guan_off.jpg" width="205" height="131" border="0" /></a>
+	
+		</div>
+	
+	</div>
+
+	<img class="default-img" src="Includes/pages/camp/video/thumbnails/guan_off.jpg" width="205" height="131" style="display: block;" onMouseOver="this.src='Includes/pages/camp/video/thumbnails/guan_on.jpg'" onMouseOut="this.src='Includes/pages/camp/video/thumbnails/guan_off.jpg'" onClick="this.style.display='none'; document.getElementById('guan').style.display='block'; document.getElementById('guan-left-control').style.display='block'; document.getElementById('guan-right-control').style.display='block';" border="0" />
+
+	<table width="205" border="0" cellspacing="0" cellpadding="0" bgcolor="#D4001A">
 	<tr>
-		<td nowrap align="center" height="18" width="100%">
-			<a href="../ada_camp/usfn-quantitative-management.asp#vt" title="Video transcript" class="btn1">Video transcript</a>
+		<td nowrap>
+
+			<div align="left" style="padding: 2px 5px;" id="guan-left-control">
+
+				<a href="#" title="Play Video" onClick="doPassVar('guanflash','play'); return false;"><img width="14" height="18" border="0" alt="Play Video" src="Includes/pages/buttons/01btn.gif" name="btn01" /></a>
+				
+				<a href="#" title="Pause Video" onClick="doPassVar('guanflash','pause'); return false;"><img width="13" height="18" border="0" alt="Pause Video" src="Includes/pages/buttons/02btn.gif" name="btn02" /></a>
+				
+				<a href="#" title="Stop Video" onClick="doPassVar('guanflash','stop'); return false;"><img width="17" height="18" border="0" alt="Stop Video" src="Includes/pages/buttons/03btn.gif" name="btn03" /></a>
+
+			</div>
+
+		</td>
+		<td width="100%" height="22" align="center" nowrap><a href="../ada_camp/usfn-quantitative-management.asp#vt" class="btn1">Video transcript</a></td>
+		<td nowrap>
+
+			<div align="right" style="padding: 2px 5px;" id="guan-right-control">
+
+				<a href="#" title="Mute Video" onClick="doPassVar('guanflash','mute'); return false;"><img width="16" height="18" border="0" alt="Mute Video" src="Includes/pages/buttons/05btn.gif" name="btn05" /></a>
+				
+				<a href="#" title="Close Captions" onClick="doPassVar('guanflash','ccoc'); return false;"><img width="21" height="18" border="0" alt="Close Captions" src="Includes/pages/buttons/06btn.gif" name="btn06" /></a>
+
+			</div>
+
 		</td>
 	</tr>
-</table>
-</noscript>
+	</table>
+
 
 
             <p>Guan</p>
@@ -203,6 +204,20 @@ data="../Includes/pages/college/Guan.swf" width="205" height="131" id="javaflash
     <p>Set opportunity in motion.</p>
   </div>
 </div>
+
+<script type="text/javascript">
+
+    var flashvars = {};
+    var params = { menu: "false", wmode: "opaque" };
+    var attributes = {};
+
+   
+    swfobject.embedSWF("includes/pages/college/guan.swf", "guanflash", "205", "131", "9.0.0", flashvars, params, attributes);
+    swfobject.embedSWF("includes/pages/college/nathan.swf", "nathanflash", "205", "131", "9.0.0", flashvars, params, attributes);
+
+	</script>
+
+
 
 </asp:Content>
 

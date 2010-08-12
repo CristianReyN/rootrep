@@ -23,7 +23,8 @@
 					<li />In the Subject Line of your email, include "Source = Bank&nbsp;of&nbsp;America Campus Careers" and the specific position title found at the top of the job posting.
 				</ul>
 		</span>
-		<a href="../learnmore/sendresume.asp" target="_blank" title="Apply U.S. Link opens a new window." onmouseover="MM_swapImage('us_spr','','images/camp/apply_us_on.gif');" onmouseout="MM_swapImgRestore();"><img name="us_spr" src="images/camp/apply_us_off.gif" border="0" style="cursor: pointer;" alt="Apply U.S. Link opens a new window." title="Apply U.S. Link opens a new window." /></a>
+		
+		<p><a class="button" href="../learnmore/sendresume.asp" target="_blank" title="Apply U.S. Link opens a new window."><span>Apply U.S.</span></a></p><br />
 		
 		<h3>Apply in Canada</h3>
 
@@ -38,7 +39,9 @@
 					<li />In the Subject Line of your email, include "Source = Bank&nbsp;of&nbsp;America Campus Careers" and the specific position title found at the top of the job posting.
 				</ul>
 		</span>
-		<a href="https://static.wcn.co.uk/company/ml/apply_now.html" target="_blank" title="Apply Canada. Link opens a new window." onmouseover="MM_swapImage('canada_spr','','images/camp/apply_canada_on.gif');" onmouseout="MM_swapImgRestore();"><img name="canada_spr" src="images/camp/apply_canada_off.gif" border="0" style="cursor: pointer;" alt="Apply Canada. Link opens a new window." title="Apply Canada. Link opens a new window." /></a>
+		
+		<p><a class="button" href="https://static.wcn.co.uk/company/ml/apply_now.html" target="_blank" title="Apply Canada. Link opens a new window."><span>Apply Canada</span></a></p><br />
+		
 	
 
 

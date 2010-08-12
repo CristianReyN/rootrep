@@ -23,11 +23,15 @@
 					<li />In the Subject Line of your email, include "Source = Bank&nbsp;of&nbsp;America Campus Careers" and the specific position title found at the top of the job posting.
 				</ul>
 		</span>
-		<a href="https://static.wcn.co.uk/company/ml/apply_now.html" target="_blank" title="Apply. Link opens a new window." onmouseover="MM_swapImage('asia_spr','','images/camp/apply_on.gif');" onmouseout="MM_swapImgRestore();"><img name="asia_spr" src="../images/camp/apply_off.gif" border="0" style="cursor: pointer;" alt="Apply. Link opens a new window." title="Apply. Link opens a new window." /></a>
+		
+		<p><a class="button" href="https://static.wcn.co.uk/company/ml/apply_now.html" target="_blank" title="Apply. Link opens a new window."><span>Apply</span></a></p><br /><br />
+		
 		<p class="bac">For more information on the programs in Japan, simply click the link below.</p>
 
 		<br>
-		<a href="http://www.japan.ml.com/recruiting/home/index/index.html" target="_blank" title="Japan Website. Link opens a new window." onmouseover="MM_swapImage('japan_spr','','images/camp/japan_website_on.gif');" onmouseout="MM_swapImgRestore();"><img name="japan_spr" src="../images/camp/japan_website_off.gif" border="0" style="cursor: pointer;" alt="Apply. Link opens a new window." title="Japan Website. Link opens a new window." /></a>
+		
+		<p><a class="button" href="http://www.japan.ml.com/recruiting/home/index/index.html" target="_blank" title="Japan Website. Link opens a new window."><span>Japan Website</span></a></p><br />
+		
 	
 
 

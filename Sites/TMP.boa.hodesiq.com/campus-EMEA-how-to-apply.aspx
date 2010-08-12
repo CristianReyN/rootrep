@@ -22,7 +22,9 @@
 					<li />In the Subject Line of your email, include "Source = Bank&nbsp;of&nbsp;America Campus Careers" and the specific position title found at the top of the job posting.
 				</ul>
 		</span>
-		<a href="https://static.wcn.co.uk/company/ml/apply_now.html" target="_blank" title="Apply. Link opens a new window." onmouseover="MM_swapImage('emea_spr','','../images/camp/apply_on.gif');" onmouseout="MM_swapImgRestore();"><img name="emea_spr" src="../images/camp/apply_off.gif" border="0" style="cursor: pointer;" alt="Apply. Link opens a new window." title="Apply. Link opens a new window." /></a>
+		
+		<p><a class="button" href="https://static.wcn.co.uk/company/ml/apply_now.html" target="_blank" title="Apply. Link opens a new window."><span>Apply</span></a></p><br />
+		
 
 
 
