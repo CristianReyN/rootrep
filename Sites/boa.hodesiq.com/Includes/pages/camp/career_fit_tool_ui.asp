@@ -1,4 +1,7 @@
-<% padding_right = 0 %>
+<% padding_right = 0 
+Dim params
+params = ""
+%>
 		<a name="skipmaincontent"></a>
 <form name="questionnaire" action="career_fit_tool_all.asp" method="get" style="margin: 0px;" tabindex="1">
 		<table width="577" height="580" border="0" cellpadding="0" cellspacing="0" summary="" style="margin-top: 9px;">
@@ -113,6 +116,7 @@
 		stop_points = 0
 		num_listed = 0
 		session_programs = ""
+		params = ""
 		'remember points'session_program_points = ""
 		For sprg=1 To UBound(selected_programs) Step 1
 			'If sprg = min_programs_per_page Then stop_points = selected_program_points(sprg)
@@ -127,6 +131,8 @@
 					session_programs = session_programs & program_index
 					'remember points'If session_program_points <> "" Then session_program_points = session_program_points & ":"
 					'remember points'session_program_points = session_program_points & programs(program_index).Item("points")
+					If params <> "" Then params = params & ":"
+					params = params & program_index
 %>
 <H2 class="cft" style="margin: 12px 0px 0px 15px;"><%=programs(program_index).Item("program_group").Item("group_name") %></H2>
 <p style="margin: 0px 0px <%If num_listed = min_programs_per_page Then %>0<% Else %>18<% End If %>px 15px;"><a class="cft" href="<%=programs(program_index).Item("url") %>"><%=programs(program_index).Item("title") %> - <% If programs(program_index).Item("region") = AMERICAS Then %><% If programs(program_index).Item("sub_region") = CANADA Then %><%=CANADA%><% Else%><%=U_S_A%><% End If %><% Else%><%=programs(program_index).Item("region")%><% End If %></a><% 'response.write ( " - " & selected_programs(sprg) & " : " & selected_program_points(sprg) ) %></p>
@@ -178,7 +184,29 @@ if(!window.MM_swapImage)
 <input type="submit" id="finish" name="finish" value="Finish &raquo;" alt="Finish &raquo;" title="Finish &raquo;" class="button_cft"<%=tabindex_str %>>
 <%
 		Else %>
-<p class="cft" style="margin: 0px 0px 9px 0px;">Feel free to change your answers and <a href="career_fit_tool_all.asp" class="cft" title="Career Fit Tool">try the Career Finder again</a>. You can also <span class="cft">bookmark</span> your results after each attempt for later reference.</p>
+<script language="javascript">
+function CreateBookmarkLink()
+{
+	params = "<%=params%>"
+	alert(params);
+	title = "Career Finder Results"; 
+ 	var original= location.href;
+ 	urlSave = original+(params!=""?"?p="+params:"");
+	alert(urlSave);
+	if (window.sidebar)
+	{ // Mozilla Firefox Bookmark
+		window.sidebar.addPanel(title, urlSave,"");
+	}
+	else if( window.external )
+	{ // IE Favorite
+		window.external.AddFavorite( urlSave, title); }
+	else if(window.opera && window.print)
+	{ // Opera Hotlist
+		return true;
+	}
+ }
+</script>
+<p class="cft" style="margin: 0px 0px 9px 0px;">Feel free to change your answers and <a href="career_fit_tool_all.asp" class="cft" title="Career Finder">try the Career Finder again</a>. You can also <a href="Javascript:CreateBookmarkLink();" class="cft" title="">bookmark</a> your results after each attempt for later reference.</p>
 <%
 		End If %>
 										</td>

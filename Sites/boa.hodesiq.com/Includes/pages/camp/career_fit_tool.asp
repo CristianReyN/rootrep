@@ -3,7 +3,7 @@
 <script language="javascript">
 function CreateBookmarkLink(par1,par2,par3,par4,par5,par6)
 {
-	title = "Career Fit Tool Results"; 
+	title = "Career Finder Results"; 
  	var temp = location.href;
  	urlSave = original+"#"+par1+"&"+par2+"&"+par3+"&"+par4+"&"+par5+"&"+par6;
 	

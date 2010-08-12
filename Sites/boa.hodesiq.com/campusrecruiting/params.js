@@ -202,7 +202,7 @@ function writeEmbed()
 	var career3 = getParameter('c3');
 	var career4 = getParameter('c4');*/
 	
-	document.write('<embed src="compass.swf" quality="high" bgcolor="#ffffff" width="640" height="480" name="compass" swliveconnect="true" FlashVars="fr='+frame+'&c1='+career1+'&c2='+career2+'&c3='+career3+'&c4='+career4+'" align="middle" allowScriptAccess="sameDomain" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" />');
+	document.write('<embed src="compass.swf" quality="high" bgcolor="#ffffff" width="577" height="580" name="compass" swliveconnect="true" FlashVars="fr='+frame+'&c1='+career1+'&c2='+career2+'&c3='+career3+'&c4='+career4+'" align="middle" allowScriptAccess="sameDomain" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" />');
 }
 
 function writeAC()
@@ -260,5 +260,5 @@ function writeAC()
 	var career4 = getParameter('c4');*/
 	
 	document.write('<script language="javascript">');
-	document.write("AC_FL_RunContent( 'codebase','http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,0,0','width','640','height','480','src','compass','quality','high','name', 'compass','swliveconnect','true','pluginspage','http://www.macromedia.com/go/getflashplayer','movie','compass','FlashVars','fr="+frame+"&c1="+career1+"&c2="+career2+"&c3="+career3+"&c4="+career4+"' ); //end AC code</script>");
+	document.write("AC_FL_RunContent( 'codebase','http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,0,0','width','577','height','580','src','compass','quality','high','name', 'compass','swliveconnect','true','pluginspage','http://www.macromedia.com/go/getflashplayer','movie','compass','FlashVars','fr="+frame+"&c1="+career1+"&c2="+career2+"&c3="+career3+"&c4="+career4+"' ); //end AC code</script>");
 }

@@ -64,7 +64,7 @@ Opportunities exist in Charlotte, North Carolina and New York, New York
 				</td>
 				<td width="205" height="100%" valign="top" style="padding-top: 8px;" align="right">
 <img src="../Includes/pages/camp/profile/OpsMBA_Hamdija.jpg" width="205" height="153" alt="Hamadija" border="0"><br clear="all">
-<p align="center" style="margin: 6px 0px 24px 0px;"><a href="../campus-meet-our-people-profile-Hamadija.aspx" class="p" title="View Hamadija&#39;s profile.">View Hamadija&#39;s profile</a></p>
+<p align="center" style="margin: 6px 0px 24px 0px;"><a href="../campus-meet-our-people-profile-Hamdija.aspx" class="p" title="View Hamadija&#39;s profile.">View Hamadija&#39;s profile</a></p>
 <!-- #include file="../../camprnav_region.asp" -->
 				</td>
 			</tr>
