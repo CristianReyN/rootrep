@@ -557,12 +557,12 @@ Singapore 099 253<br /></p>
                          <p>
                     <b style="text-decoration: underline">Hyderabad</b></p>
                 <p>
-                    Building Number 5A, Mind Space - Raheja IT Park,<br />
+                    Building Number 5A, Mind Space - Raheja IT Park<br />
                     HITECH City, Madhapur<br/>
                     Hyderabad - 500 081<br />
                 </p>
                 <p>
-                    9th Floor, 2A Maximus Towers, Mindspace - Raheja IT Park<br />
+                    9th Floor, 2A Maximus Towers, Mind Space - Raheja IT Park<br />
                     HITECH City, Madhapur<br />
                     Hyderabad &#8211; 500 081</p>
                 <%--
@@ -576,7 +576,7 @@ Singapore 099 253<br /></p>
                     </ul>
                 --%>
                 
-                  <p><span class="text_bold_under">Chennai</span><br />
+                  <p><span class="text_bold_under">Chennai</span><br /><br />
 
                 Ascendas IT Park, Crest Building, Phase II, 9th Floor<br />
                 Taramani High Road<br />
@@ -591,25 +591,25 @@ Singapore 099 253<br /></p>
                 </p>
                 <p>
                     9th Floor, &#8216;A&#8217; Wing, Paradigm<br />
-                    Mindspace Malad (W),<br/>
+                    Mind Space Malad (West)<br/>
                     Mumbai &#8211; 400 064</p>
                 <p>
                  <p>
                    
                     Unit Number 501, 5th Floor, Wing A, Prism Towers<br />
-                    Mindspace Malad (W),<br/>
+                    Mind Space Malad (West),<br/>
                     Mumbai &#8211; 400 064</p>
                 <p>
                     <b style="text-decoration: underline">Gurgaon</b></p>
                 <p>
                     Infinity Tower B, Sector - 25, DLF Phase - 2, 4th Floor<br />
-                    Gurgaon &#8211; 122002<br />
+                    Gurgaon &#8211; 122 002<br />
                 </p>
                 
                  <p>
                    Unitech Infospace, Tower A, Building Number 3<br />
                     Sector - 21 Dundahera, Old  - Delhi Jaipur Highway<br />
-                    Gurgaon &#8211; 122001<br />
+                    Gurgaon &#8211; 122 001<br />
                 </p>
                 
                 

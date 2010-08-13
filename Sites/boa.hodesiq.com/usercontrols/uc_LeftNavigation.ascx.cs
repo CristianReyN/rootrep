@@ -38,10 +38,15 @@ public partial class uc_LeftNavigation : System.Web.UI.UserControl
 
         DataTable dt = GetPageNavigationOrder(sRet);
 
+        if (dt.Rows.Count == 0)
+        {
+            dt = GetPageNavigationOrder(oInfo.Name);
+        }
+
         if (dt != null && dt.Rows.Count > 0)
         {
             PageNavigationOrder = dt.Rows[0]["NavigationOrder"].ToString();
-        }
+        }       
 
         arrLevel = PageNavigationOrder.Split('-');
 
