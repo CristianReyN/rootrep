@@ -365,9 +365,9 @@ Function goBack (program)
 				case AMERICAS
 					back_page = "../campus-Americas-analyst-internships.aspx"
 				case EMEA
-					back_page = "../campus-EMEA-analyst-internships.aspx"
+					back_page = "../campus-EMEA-analyst-associate-internships.aspx"
 				case ASIA
-					back_page = "../campus-AsiaPac-analyst-internships.aspx"
+					back_page = "../campus-AsiaPac-analyst-associate-internships.aspx"
 				case else
 					back_page = ""
 				end select
@@ -383,7 +383,7 @@ Function goBack (program)
 				case EMEA
 					back_page = "../campus-EMEA-associate-and-phd-programs.aspx"
 				case ASIA
-					back_page = "../campus-AsiaPac-associate-phd-programs.aspx"
+					back_page = "../campus-AsiaPac-associate-and-phd-programs.aspx"
 				case else
 					back_page = ""
 				end select
@@ -392,9 +392,9 @@ Function goBack (program)
 				case AMERICAS
 					back_page = "../campus-Americas-associate-internships.aspx"
 				case EMEA
-					back_page = "../campus-EMEA-associate-internships.aspx"
+					back_page = "../campus-EMEA-analyst-associate-internships.aspx"
 				case ASIA
-					back_page = "../campus-AsiaPac-associate-internships.aspx"
+					back_page = "../campus-AsiaPac-analyst-associate-internships.aspx"
 				case else
 					back_page = ""
 				end select
