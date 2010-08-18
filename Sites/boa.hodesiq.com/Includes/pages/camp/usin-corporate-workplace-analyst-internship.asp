@@ -5,64 +5,51 @@
 <a name="skipmaincontent"></a><h1 class="bac"><%=program.Item("title")%></h1>
 <h2 class="bac">Our Business:</h2>
 <p class="bac">
-Do the details interest you as much as the big picture? As an analyst in our Research group, you&#39;ll work with both as you help to cover large and small companies in a specific industry or an industry sector. You will gather, analyze, and interpret financial data but always in a broader context so you can provide not just information, but insight as well. That&#39;s how you add value.
-</p>
-<br>
-<H3 class="bac">Equity Research</H3>
-<p class="bac">
-Provides institutional and retail clients with in-depth research analysis on more than 20 industries and conducts fundamental analysis on more than 2,600 companies. 
-</p>
-<br>
-<H3 class="bac">Credit Research</H3>
-<p class="bac">
-Provides analysis of corporations&#39; credit-worthiness and credit, cash and derivative markets and makes detailed, actionable investment recommendations to all types of institutional credit and credit derivative investors.
+Corporate Workplace is responsible for a $5 Billion annual budget, for over 125 million square feet of bank-owned and occupied facilities worldwide. In support of Bank of America&#39;s stated mission to be the “World&#39;s Most Admired Company”, we charge ourselves with making real estate a differentiating factor for the company, through cutting edge initiatives such as the Bank of America Tower at One Bryant Park in NYC, one of the world&#39;s most environmentally-friendly skyscrapers; developing flexible work options; and continually innovating the workplace environment. Corporate Workplace distinguishes Bank of America from its competition by delivering innovative space solutions that attract talent, foster satisfaction and productivity among its associates, and which allow customers and clients to transact business with efficiency, security and confidence. We are committed to cost-efficient and environmentally-sustainable practices that benefit shareholders and our global community.  
 </p>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
 
 <h2 class="bac">Overview:</h2>  
 <p class="bac">
-As an analyst within Research, you will: 
+The Corporate Workplace Analyst, depending on assignment, may take on roles and responsibilities such as: 
 </p>
 <ul class="bac">
-	<li>Gain insight into specific industry sectors and/or tradable financial instruments and structures </li>
-	<li>Start to develop an internal and external network of internal professionals and clients </li>
-	<li>Develop the necessary confidence and experience to question and challenge senior managers of companies within your sector coverage </li>
-	<li>Receive training in the effective communication of your investment message to large-scale audiences and in one-on-one meetings </li>
-	<li>Contribute and eventually initiate leading edge, non-consensus, market moving research products and reports on corporate, sectors and markets </li>
-	<li>Market your investment recommendations to internal and external clients by phone and face-to-face </li>
-	<li>Contribute to, and make presentations at, investor conferences</li>
-	<li>Develop an understanding of the investment needs and constraints of a wide range of different clients, in order to provide bespoke recommendations and solutions to help them implement their objectives </li>
+	<li>Coordinating and analyzing data to support Corporate Workplace initiatives, strategic decisions and other real estate-related modeling efforts</li>
+	<li>Applying financial, demographic and modeling tools to aid in the development of real estate portfolio strategies that enhance investment returns and risk levels</li>
+	<li>Conducting research such as financial performance, supply/demand analysis and rental rate trends</li>
+	<li>Conducting competitive analysis, ad-hoc reporting and scorecard production to support our clients&#39; goals  </li>
+	<li>Participating in and supporting projects that require cross-divisional coordination, communication, influence and negotiation</li>
+	<li>Contributing to the design, development and completion of project deliverables</li>
+	<li>Providing proactive business partnering, improved financial analysis, continued process improvement and achievement of sustainable, consistently defined service levels, related to the financial/accounting matters associated with commercial real estate</li>
 </ul>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
 
 <h2 class="bac">Qualifications:</h2>
+<ul class="bac">
+	<li>Pursuing an undergraduate degree in Finance, Accounting, Real Estate, Building Construction or Business Administration preferred</li>
+	<li>Professional presentation and communication skills with a high degree of integrity and accuracy</li>
+	<li>Demonstrated financial and analytical skills, including interpretation of complex data for conclusions or solutions</li>
+	<li>Strong technical skills, including tools such as Excel, Access and PowerPoint</li>
+	<li>Eligibility to work in the US</li>
+</ul>
 <p class="bac">
-Strong academic qualifications are important, but you&#39;ll also need to demonstrate drive, innovation and a genuine interest in the financial markets.  
+The ideal candidate will exhibit the following behavioral requirements:
 </p>
-<p class="bac">
-We accept applications from a diverse range of degree disciplines such as the arts and humanities, as well as numerically focused subjects such as economics and mathematics.
-</p>
-<p class="bac">
-You&#39;ll need to be fluent in English and a second European language is also required for some roles.  
-</p>
-
-<img src="../images/clear.gif" class="bac" alt=""><br clear="all">
-
-<h2 class="bac">Training:</h2>
-<p class="bac">
-Induction and training starts with an intensive programme. Throughout July and August, you will gain an in-depth introduction to the firm, its culture and global reach, along with other newly hired analysts from around the world. The training will include full instruction on all the relevant tools, techniques and working practices. You will also receive grounding in your chosen business area as you develop your professional skills and teamwork capabilities. 
-</p>
-<p class="bac">
-Once you join a team within your assigned business, you&#39;ll take on real responsibility from an early stage. You&#39;ll be exposed to ongoing development opportunities throughout the programme and encouraged to grow your abilities through on-the-job learning, structured training and study towards your professional qualifications. We&#39;ll support and reward you on the basis of your individual performance. Ultimately, how far and how quickly you progress will be up to you. 
-</p>
+<ul class="bac">
+	<li><b>Client Focus</b> &#45; Maintains effective relationships with clients by gaining trust and respect</li>
+	<li><b>Business Acumen</b> &#45; Knowledgeable in current and possible future policies, practices, trends and information; knows the competition; is aware of how strategies and tactics work in the marketplace</li>
+	<li><b>Process Management</b> &#45; Knows how to combine tasks into efficient work flow; can simplify complex processes </li> 
+	<li><b>Organizational Agility</b> &#45; Knows how to get things done through formal channels and informal networks </li>
+	<li><b>Dealing with Ambiguity</b> &#45; Can effectively cope with change, and comfortably handle risk and uncertainty</li>
+</ul>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
 
 <h2 class="bac">Locations:</h2>
 <p class="bac">
-London
+Charlotte, NC
 </p>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">

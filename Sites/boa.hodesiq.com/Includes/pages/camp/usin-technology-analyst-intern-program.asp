@@ -5,65 +5,82 @@
 <a name="skipmaincontent"></a><h1 class="bac"><%=program.Item("title")%></h1>
 <h2 class="bac">Our Business:</h2>
 <p class="bac">
-Do the details interest you as much as the big picture? As an analyst in our Research group, you&#39;ll work with both as you help to cover large and small companies in a specific industry or an industry sector. You will gather, analyze, and interpret financial data but always in a broader context so you can provide not just information, but insight as well. That&#39;s how you add value.
+Bank of America&#39;s technology couples technological expertise with the company&#39;s strategic vision, to keep Bank of America at the forefront of the world&#39;s financial markets. Delivering market-leading technology drives our business forward.
 </p>
-<br>
-<H3 class="bac">Equity Research</H3>
 <p class="bac">
-Provides institutional and retail clients with in-depth research analysis on more than 20 industries and conducts fundamental analysis on more than 2,600 companies. 
+Our technology teams partner with our Global Markets, Investment Banking, Wealth Management, Corporate Treasury and Corporate Investments Groups, to develop leading-edge applications supporting the entire range of our business activities - from client-facing sales and trading applications, to security analytics, risk management, trade processing, management reporting, reference and market data, and customer relationship management. Our teams work very closely with our business partners, developing strategies and delivering solutions that are integral to the day-to-day running of our business.
 </p>
-<br>
-<H3 class="bac">Credit Research</H3>
 <p class="bac">
-Provides analysis of corporations&#39; credit-worthiness and credit, cash and derivative markets and makes detailed, actionable investment recommendations to all types of institutional credit and credit derivative investors.
+There are five job profiles for the Technology Analyst Program: 
 </p>
+<img src="../images/clear.gif" width="100%" height="12" alt="" border="0" />
+<H3 class="bacg">Business Associate:</H3>
+<p class="bacg">
+&nbsp;translating business needs into technical requirements; documenting process flows; and producing diagrams to ensure understanding amongst all project team members.
+</p> 
+<img src="../images/clear.gif" width="100%" height="12" alt="" border="0" />
+<H3 class="bacg">Developer:</H3>
+<p class="bacg">
+&nbsp;providing technical excellence to design, develop and maintain state-of-the-art technology applications utilizing technologies such as Java/EJB&#39;s, C++, .NET and Web services; gathering internal and external client requirements; translating client interactions into technical design specifications; business process reengineering; and partnering with business, product and technology teams across the organization to deliver world class technology solutions.
+</p> 
+<img src="../images/clear.gif" width="100%" height="12" alt="" border="0" />
+<H3 class="bacg">Project Management or Systems Support Engineer:</H3>
+<p class="bacg">
+&nbsp;management, administration and configuration of proprietary applications and 3rd party solutions for application servers, messaging, monitoring, etc.
+</p> 
+<img src="../images/clear.gif" width="100%" height="12" alt="" border="0" />
+<H3 class="bacg">Quality Assurance:</H3>
+<p class="bacg">
+&nbsp;combining financial, business and technical knowledge, to develop comprehensive test strategies for internally developed trading systems. Developing knowledge in all these areas is encouraged and supported.
+</p> 
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
 
 <h2 class="bac">Overview:</h2>  
 <p class="bac">
-As an analyst within Research, you will: 
+The Bank of America Intern Program is designed to provide students with corporate experience in business banking policies and practices. Students are given a true associate experience, as internships mirror full-time positions, and include goal-setting and a formal review process. Interns are required to work 40-hour weeks for 10 weeks, between the months of June and August.  On-the-job training, mentoring relationships and networking opportunities are provided for all interns.  
 </p>
-<ul class="bac">
-	<li>Gain insight into specific industry sectors and/or tradable financial instruments and structures </li>
-	<li>Start to develop an internal and external network of internal professionals and clients </li>
-	<li>Develop the necessary confidence and experience to question and challenge senior managers of companies within your sector coverage </li>
-	<li>Receive training in the effective communication of your investment message to large-scale audiences and in one-on-one meetings </li>
-	<li>Contribute and eventually initiate leading edge, non-consensus, market moving research products and reports on corporate, sectors and markets </li>
-	<li>Market your investment recommendations to internal and external clients by phone and face-to-face </li>
-	<li>Contribute to, and make presentations at, investor conferences</li>
-	<li>Develop an understanding of the investment needs and constraints of a wide range of different clients, in order to provide bespoke recommendations and solutions to help them implement their objectives </li>
-</ul>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
 
 <h2 class="bac">Qualifications:</h2>
 <p class="bac">
-Strong academic qualifications are important, but you&#39;ll also need to demonstrate drive, innovation and a genuine interest in the financial markets.  
+Candidates must demonstrate a combination of academic aptitude, quantitative skills, strategic and creative thinking and distinguished written and oral communication skills. Associates will be required to support several projects at once, and work effectively as an individual, as well as part of a team. Though they come from a variety of backgrounds, all associates must share common driving characteristics, such as: 
 </p>
-<p class="bac">
-We accept applications from a diverse range of degree disciplines such as the arts and humanities, as well as numerically focused subjects such as economics and mathematics.
-</p>
-<p class="bac">
-You&#39;ll need to be fluent in English and a second European language is also required for some roles.  
-</p>
+<ul class="bac">
+	<li>Academic achievement</li>
+	<li>Leadership skills</li>
+	<li>Strong communication skills</li>
+	<li>Multi-platform knowledge, including mainframe, Unix, PC, wireless and internet platforms </li>
+	<li>Commitment to building a complete technical and business skill set</li>
+	<li>Ability to work in a fast-paced environment</li>
+	<li>Demonstrated problem-solving abilities</li>
+	<li>Detail orientation</li>
+	<li>Strong work ethic</li>
+	<li>Team player</li>
+</ul>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
 
 <h2 class="bac">Training:</h2>
 <p class="bac">
-Induction and training starts with an intensive programme. Throughout July and August, you will gain an in-depth introduction to the firm, its culture and global reach, along with other newly hired analysts from around the world. The training will include full instruction on all the relevant tools, techniques and working practices. You will also receive grounding in your chosen business area as you develop your professional skills and teamwork capabilities. 
-</p>
-<p class="bac">
-Once you join a team within your assigned business, you&#39;ll take on real responsibility from an early stage. You&#39;ll be exposed to ongoing development opportunities throughout the programme and encouraged to grow your abilities through on-the-job learning, structured training and study towards your professional qualifications. We&#39;ll support and reward you on the basis of your individual performance. Ultimately, how far and how quickly you progress will be up to you. 
+Interns receive an orientation to Bank of America with overviews on the history, culture, business organizations and intern program structure. Interns also participate in on-the-job training, an online learning curriculum, weekly speaker seminars, and events with interns and associates from across Bank of America.
 </p>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
 
 <h2 class="bac">Locations:</h2>
 <p class="bac">
-London
+Primary locations include but are not limited to: 
 </p>
+<ul class="bac">
+	<li>Charlotte, NC</li>
+	<li>Chicago, IL</li>
+	<li>Houston, TX</li>
+	<li>Jersey City, NJ</li>
+	<li>New York, NY</li>
+	<li>Hopewell, NJ</li>
+</ul>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
 

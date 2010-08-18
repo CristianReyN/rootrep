@@ -5,64 +5,32 @@
 <a name="skipmaincontent"></a><h1 class="bac"><%=program.Item("title")%></h1>
 <h2 class="bac">Our Business:</h2>
 <p class="bac">
-Do the details interest you as much as the big picture? As an analyst in our Research group, you&#39;ll work with both as you help to cover large and small companies in a specific industry or an industry sector. You will gather, analyze, and interpret financial data but always in a broader context so you can provide not just information, but insight as well. That&#39;s how you add value.
-</p>
-<br>
-<H3 class="bac">Equity Research</H3>
-<p class="bac">
-Provides institutional and retail clients with in-depth research analysis on more than 20 industries and conducts fundamental analysis on more than 2,600 companies. 
-</p>
-<br>
-<H3 class="bac">Credit Research</H3>
-<p class="bac">
-Provides analysis of corporations&#39; credit-worthiness and credit, cash and derivative markets and makes detailed, actionable investment recommendations to all types of institutional credit and credit derivative investors.
+Global Transition, Quality &#38; Change Delivery (GTQ&#38;CD) is the division within Bank of America that enhances the company&#39;s ability to manage its businesses and accomplish important business changes. GTQ&#38;CD applies skills, competencies and tools to improve the success of business processes and important business changes. The division delivers value for Bank of America&#39;s customers, shareholders and associates by: offering the enterprise view; providing consulting and execution; monitoring and mitigating risk; and ensuring change sustainability. Six Sigma, Change and Project Management, Process Excellence, Lean and Management by Fact are the primary tools used to execute improvement activities across the company. Since its introduction in 2001, Six Sigma has become an integral part of our culture, creating significant improvements in the efficiency and effectiveness of key processes, with accelerated results and driving cost savings, customer delight and revenue.
 </p>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
 
 <h2 class="bac">Overview:</h2>  
-<p class="bac">
-As an analyst within Research, you will: 
-</p>
 <ul class="bac">
-	<li>Gain insight into specific industry sectors and/or tradable financial instruments and structures </li>
-	<li>Start to develop an internal and external network of internal professionals and clients </li>
-	<li>Develop the necessary confidence and experience to question and challenge senior managers of companies within your sector coverage </li>
-	<li>Receive training in the effective communication of your investment message to large-scale audiences and in one-on-one meetings </li>
-	<li>Contribute and eventually initiate leading edge, non-consensus, market moving research products and reports on corporate, sectors and markets </li>
-	<li>Market your investment recommendations to internal and external clients by phone and face-to-face </li>
-	<li>Contribute to, and make presentations at, investor conferences</li>
-	<li>Develop an understanding of the investment needs and constraints of a wide range of different clients, in order to provide bespoke recommendations and solutions to help them implement their objectives </li>
+	<li>Q&#38;CD Analyst Interns will participate in a program that is designed to foster teamwork, networking and accelerated development. Analyst responsibilities include: broad exposure to lines of business, by working closely with business executives to effectively lead, train, and coach quality activities that will achieve breakthrough productivity and customer satisfaction improvements </li>
+	<li>Driving projects with large scope and accountability to success, by leading and coaching projects, and acting as a subject matter expert</li>
+	<li>Providing detailed, fact-based analysis of business practices, processes and systems to accelerate improvements in product/process performance</li>
+	<li>Championing new initiatives, and acting as a catalyst for change to help lead innovative product/process development </li>
+	<li>Supporting the deployment of Quality &#38; Change Delivery capabilities and toolsets, to facilitate improvements in the design, development and implementation of project deliverables</li>
 </ul>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
 
 <h2 class="bac">Qualifications:</h2>
 <p class="bac">
-Strong academic qualifications are important, but you&#39;ll also need to demonstrate drive, innovation and a genuine interest in the financial markets.  
-</p>
-<p class="bac">
-We accept applications from a diverse range of degree disciplines such as the arts and humanities, as well as numerically focused subjects such as economics and mathematics.
-</p>
-<p class="bac">
-You&#39;ll need to be fluent in English and a second European language is also required for some roles.  
-</p>
-
-<img src="../images/clear.gif" class="bac" alt=""><br clear="all">
-
-<h2 class="bac">Training:</h2>
-<p class="bac">
-Induction and training starts with an intensive programme. Throughout July and August, you will gain an in-depth introduction to the firm, its culture and global reach, along with other newly hired analysts from around the world. The training will include full instruction on all the relevant tools, techniques and working practices. You will also receive grounding in your chosen business area as you develop your professional skills and teamwork capabilities. 
-</p>
-<p class="bac">
-Once you join a team within your assigned business, you&#39;ll take on real responsibility from an early stage. You&#39;ll be exposed to ongoing development opportunities throughout the programme and encouraged to grow your abilities through on-the-job learning, structured training and study towards your professional qualifications. We&#39;ll support and reward you on the basis of your individual performance. Ultimately, how far and how quickly you progress will be up to you. 
+Successful candidates will have a strong undergraduate record, and possess the ability to work in a fast-paced, team environment. Candidates must be able to handle multiple, concurrent assignments, and possess strong interpersonal skills. The ideal candidate should maintain a high level of motivation and self-direction, and demonstrate a desire to learn about technology and the financial services industry.  In addition, candidates should demonstrate strong organizational, critical thinking and problem-solving skills, along with effective written and verbal communication skills. Microsoft Word, PowerPoint, and Excel skills are preferred. 
 </p>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
 
 <h2 class="bac">Locations:</h2>
 <p class="bac">
-London
+Charlotte, NC
 </p>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">

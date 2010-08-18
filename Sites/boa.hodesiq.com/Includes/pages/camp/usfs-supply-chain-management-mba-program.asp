@@ -4,65 +4,62 @@
 				<td width="373" height="100%" valign="top" style="<%=middle_content_padding%>">
 <a name="skipmaincontent"></a><h1 class="bac"><%=program.Item("title")%></h1>
 <h2 class="bac">Our Business:</h2>
+<img src="../images/clear.gif" width="100%" height="12" alt="" border="0" />
+<H3 class="bacg">Mission Statement:</H3>
+<p class="bacg">
+&nbsp;To create a sustainable, competitive advantage for Bank of America by delivering value from the supply base, implementing flawless supply chain processes, managing risk and delivering on operational excellence.
+</p> 
 <p class="bac">
-Do the details interest you as much as the big picture? As an analyst in our Research group, you&#39;ll work with both as you help to cover large and small companies in a specific industry or an industry sector. You will gather, analyze, and interpret financial data but always in a broader context so you can provide not just information, but insight as well. That&#39;s how you add value.
-</p>
-<br>
-<H3 class="bac">Equity Research</H3>
-<p class="bac">
-Provides institutional and retail clients with in-depth research analysis on more than 20 industries and conducts fundamental analysis on more than 2,600 companies. 
-</p>
-<br>
-<H3 class="bac">Credit Research</H3>
-<p class="bac">
-Provides analysis of corporations&#39; credit-worthiness and credit, cash and derivative markets and makes detailed, actionable investment recommendations to all types of institutional credit and credit derivative investors.
+Functions supported within SCM are sourcing and supplier management of goods and services, operations, supplier diversity and development, analytics and support services.
 </p>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
 
 <h2 class="bac">Overview:</h2>  
+<ul class="bac">
+	<li>Aligning business tactical plans and supply chain with lines of business strategy; balancing demands and capacity to consistently meet customer expectations; and increasing productivity and customer satisfaction</li>
+	<li>Being a key advisor in developing supply strategy, identifying opportunities, and providing supply expertise for Consumer and Small Business Line of business partners</li>
+	<li>Assisting in supporting the supply chain management organization, by developing sourcing processes and maintaining ownership of those processes</li>
+	<li>Providing subject matter expertise in SCM, supplier evaluation and performance measurement, contract negotiating, quarterly business reviews, total cost of ownership analysis, risk analysis and compliance</li>
+	<li>Presenting the lines of business with targeted opportunities, ideas and communications to deepen client relationships and increase profitability</li>
+	<li>Facilitating the identification and competitive selection of companies to provide products and services, based on an optimum mix of price, quality products and services offered</li>
+</ul>
 <p class="bac">
-As an analyst within Research, you will: 
+By joining the Supply Chain Organization you will benefit from:
 </p>
 <ul class="bac">
-	<li>Gain insight into specific industry sectors and/or tradable financial instruments and structures </li>
-	<li>Start to develop an internal and external network of internal professionals and clients </li>
-	<li>Develop the necessary confidence and experience to question and challenge senior managers of companies within your sector coverage </li>
-	<li>Receive training in the effective communication of your investment message to large-scale audiences and in one-on-one meetings </li>
-	<li>Contribute and eventually initiate leading edge, non-consensus, market moving research products and reports on corporate, sectors and markets </li>
-	<li>Market your investment recommendations to internal and external clients by phone and face-to-face </li>
-	<li>Contribute to, and make presentations at, investor conferences</li>
-	<li>Develop an understanding of the investment needs and constraints of a wide range of different clients, in order to provide bespoke recommendations and solutions to help them implement their objectives </li>
+	<li><b>World-class career development opportunities:</b> comprehensive on-boarding, executive mentoring and training programs, to foster your continuous development</li>
+	<li><b>Enterprise-wide access and exposure:</b> cross-functional initiatives providing unparalleled opportunities to learn inside a dynamic, global financial services organization</li>
 </ul>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
 
 <h2 class="bac">Qualifications:</h2>
+<ul class="bac">
+	<li>MBA or Master&#39;s degree</li>
+	<li>Undergraduate degree in Finance, Supply Chain or related degree</li>
+	<li>3 or more years of work experience</li>
+	<li>Professional presentation and communication skills, with a high degree of integrity and accuracy</li>
+	<li>Advanced financial and analytical skills, including interpretation of complex data for conclusions or solutions</li>
+	<li>Strong technical skills, including tools such as Excel, Access and PowerPoint</li>
+	<li>Eligibility to work in the US</li>
+</ul>
 <p class="bac">
-Strong academic qualifications are important, but you&#39;ll also need to demonstrate drive, innovation and a genuine interest in the financial markets.  
+The ideal candidate will exhibit the following behavioral requirements:
 </p>
-<p class="bac">
-We accept applications from a diverse range of degree disciplines such as the arts and humanities, as well as numerically focused subjects such as economics and mathematics.
-</p>
-<p class="bac">
-You&#39;ll need to be fluent in English and a second European language is also required for some roles.  
-</p>
-
-<img src="../images/clear.gif" class="bac" alt=""><br clear="all">
-
-<h2 class="bac">Training:</h2>
-<p class="bac">
-Induction and training starts with an intensive programme. Throughout July and August, you will gain an in-depth introduction to the firm, its culture and global reach, along with other newly hired analysts from around the world. The training will include full instruction on all the relevant tools, techniques and working practices. You will also receive grounding in your chosen business area as you develop your professional skills and teamwork capabilities. 
-</p>
-<p class="bac">
-Once you join a team within your assigned business, you&#39;ll take on real responsibility from an early stage. You&#39;ll be exposed to ongoing development opportunities throughout the programme and encouraged to grow your abilities through on-the-job learning, structured training and study towards your professional qualifications. We&#39;ll support and reward you on the basis of your individual performance. Ultimately, how far and how quickly you progress will be up to you. 
-</p>
+<ul class="bac">
+	<li><b>Client Focus</b> &#45; Maintains effective relationships with clients by gaining trust and respect</li>
+	<li><b>Business Acumen</b> &#45; Knowledgeable in current and possible future policies, practices and trends; knows the competition and how strategies and tactics work in the marketplace</li>
+	<li><b>Process Management</b> &#45; Knows how to combine tasks into efficient work flow; can simplify complex processes </li> 
+	<li><b>Organizational Agility</b> &#45; Knows how to get things done through formal channels and informal networks </li>
+	<li><b>Dealing with Ambiguity</b> &#45; Can effectively cope with change, and comfortably handle risk and uncertainty</li>
+</ul>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
 
 <h2 class="bac">Locations:</h2>
 <p class="bac">
-London
+Charlotte, NC
 </p>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">

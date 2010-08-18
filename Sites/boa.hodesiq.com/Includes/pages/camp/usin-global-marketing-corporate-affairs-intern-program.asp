@@ -3,6 +3,7 @@
 			<tr valign="top">
 				<td width="373" height="100%" valign="top" style="<%=middle_content_padding%>">
 <a name="skipmaincontent"></a><h1 class="bac"><%=program.Item("title")%></h1>
+<h2 class="bac">PLACEHOLDER</h2>
 <h2 class="bac">Our Business:</h2>
 <p class="bac">
 Do the details interest you as much as the big picture? As an analyst in our Research group, you&#39;ll work with both as you help to cover large and small companies in a specific industry or an industry sector. You will gather, analyze, and interpret financial data but always in a broader context so you can provide not just information, but insight as well. That&#39;s how you add value.

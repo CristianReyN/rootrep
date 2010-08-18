@@ -5,64 +5,69 @@
 <a name="skipmaincontent"></a><h1 class="bac"><%=program.Item("title")%></h1>
 <h2 class="bac">Our Business:</h2>
 <p class="bac">
-Do the details interest you as much as the big picture? As an analyst in our Research group, you&#39;ll work with both as you help to cover large and small companies in a specific industry or an industry sector. You will gather, analyze, and interpret financial data but always in a broader context so you can provide not just information, but insight as well. That&#39;s how you add value.
-</p>
-<br>
-<H3 class="bac">Equity Research</H3>
-<p class="bac">
-Provides institutional and retail clients with in-depth research analysis on more than 20 industries and conducts fundamental analysis on more than 2,600 companies. 
-</p>
-<br>
-<H3 class="bac">Credit Research</H3>
-<p class="bac">
-Provides analysis of corporations&#39; credit-worthiness and credit, cash and derivative markets and makes detailed, actionable investment recommendations to all types of institutional credit and credit derivative investors.
+Global Wealth and Investment Management (GWIM) provides comprehensive wealth management to affluent and high-net-worth clients. It also provides retirement and benefit plan services, philanthropic management and asset management to individuals and institutions. The group serves these clients by providing  access to services through the Global Client Coverage Group, Global Investment Solutions, GWIM Banking and Merrill Edge, Merrill Lynch Wealth Management, Private Banking and Investment Group (PBIG), Retirement and Philanthropic Services (RPS), and US Trust, Bank of America Private Wealth Management.
 </p>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
 
 <h2 class="bac">Overview:</h2>  
+<br>
+<H3 class="bac">Latin America Wealth Management</H3>
 <p class="bac">
-As an analyst within Research, you will: 
+The Latin America Wealth Management (LATAM) group provides advice-based wealth management services and products to individual clients and businesses. Merrill Lynch has played a role with clients in Latin America for more than five decades, with operations inside and outside the US. The LATAM business model is based on our network of more than 800 associates in 7 countries, and the one-to-one relationships they develop with their clients. 
 </p>
-<ul class="bac">
-	<li>Gain insight into specific industry sectors and/or tradable financial instruments and structures </li>
-	<li>Start to develop an internal and external network of internal professionals and clients </li>
-	<li>Develop the necessary confidence and experience to question and challenge senior managers of companies within your sector coverage </li>
-	<li>Receive training in the effective communication of your investment message to large-scale audiences and in one-on-one meetings </li>
-	<li>Contribute and eventually initiate leading edge, non-consensus, market moving research products and reports on corporate, sectors and markets </li>
-	<li>Market your investment recommendations to internal and external clients by phone and face-to-face </li>
-	<li>Contribute to, and make presentations at, investor conferences</li>
-	<li>Develop an understanding of the investment needs and constraints of a wide range of different clients, in order to provide bespoke recommendations and solutions to help them implement their objectives </li>
-</ul>
+<br>
+<H3 class="bac">Merrill Lynch Wealth Management, US Wealth Management</H3>
+<p class="bac">
+US Wealth Management provides a high-touch client experience, through a network of approximately 15,000 client-facing financial advisors, to our affluent clients with a personal wealth profile of at least $250,000 of investable assets. 
+</p>
+<br>
+<H3 class="bac">Private Banking and Investment Group </H3>
+<p class="bac">
+The Private Banking and Investment Group (PBIG) provides tailored solutions to meet the sophisticated needs of ultra-high net worth individuals. Clients are served by over 150 Private Wealth Advisor (PWA) teams across the country, along with a team of experts in areas such as investment management, concentrated stock management and intergenerational wealth transfer strategies.
+</p>
+<br>
+<H3 class="bac">US Trust, Bank of America Private Wealth Management </H3>
+<p class="bac">
+US Trust provides comprehensive investment and wealth management solutions to wealthy and ultra-wealthy clients, with investable assets of more than $3 million. The company has 4,400 associates, serving clients in more than 140 offices in 32 states across the country.
+</p>
+
+<img src="../images/clear.gif" class="bac" alt=""><br clear="all">
+
+<h2 class="bac">Our Program:</h2>
+<p class="bac">
+The intern will be given the opportunity to learn about the advisory business, by gaining exposure to key aspects, including various investment vehicles, portfolio creation and analysis, relationship building and client interaction.   Interns may have client contact, and must be able to handle customer inquiries and provide exceptional customer service to our client base. As an intern, you may get exposure to sales support positions, typically providing dedicated administrative and sales support to multiple Financial or Private Wealth Advisors. Incumbents may also support office initiatives, in addition to the businesses of particular advisors. Our branch office teams work collaboratively to protect the company, grow the business and serve the client. 
+</p>
+
+<img src="../images/clear.gif" class="bac" alt=""><br clear="all">
+
+<h2 class="bac">Our Placements:</h2>
+<p class="bac">
+Nationwide opportunities are available throughout the year.
+</p>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
 
 <h2 class="bac">Qualifications:</h2>
 <p class="bac">
-Strong academic qualifications are important, but you&#39;ll also need to demonstrate drive, innovation and a genuine interest in the financial markets.  
+Candidates should demonstrate a strong combination of the following characteristics:
 </p>
-<p class="bac">
-We accept applications from a diverse range of degree disciplines such as the arts and humanities, as well as numerically focused subjects such as economics and mathematics.
-</p>
-<p class="bac">
-You&#39;ll need to be fluent in English and a second European language is also required for some roles.  
-</p>
+<ul class="bac">
+	<li>Client focus; attention to detail</li>
+	<li>Proven academic excellence</li>
+	<li>Strong quantitative/analytical skills</li>
+	<li>Ability to work in a team-based, collaborative environment</li>
+	<li>Exceptional time management and prioritization skills</li>
+	<li>Strong written and oral communication skills </li>
+	<li>Ability to learn quickly and take on new responsibilities</li>
+	<li>Technological proficiency (MS PowerPoint, Excel, Word)</li>
+</ul>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
 
 <h2 class="bac">Training:</h2>
 <p class="bac">
-Induction and training starts with an intensive programme. Throughout July and August, you will gain an in-depth introduction to the firm, its culture and global reach, along with other newly hired analysts from around the world. The training will include full instruction on all the relevant tools, techniques and working practices. You will also receive grounding in your chosen business area as you develop your professional skills and teamwork capabilities. 
-</p>
-<p class="bac">
-Once you join a team within your assigned business, you&#39;ll take on real responsibility from an early stage. You&#39;ll be exposed to ongoing development opportunities throughout the programme and encouraged to grow your abilities through on-the-job learning, structured training and study towards your professional qualifications. We&#39;ll support and reward you on the basis of your individual performance. Ultimately, how far and how quickly you progress will be up to you. 
-</p>
-
-<img src="../images/clear.gif" class="bac" alt=""><br clear="all">
-
-<h2 class="bac">Locations:</h2>
-<p class="bac">
-London
+The intern will work under close supervision, and receive on-the-job training. After participating in this internship, the intern should have a better understanding of what is involved in becoming a Financial or Private Wealth Advisor within the wealth management business. The intern should also become familiar with the many investment choices offered, and have a basic understanding of how an investment plan is designed and monitored.
 </p>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">

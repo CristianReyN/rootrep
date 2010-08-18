@@ -5,64 +5,62 @@
 <a name="skipmaincontent"></a><h1 class="bac"><%=program.Item("title")%></h1>
 <h2 class="bac">Our Business:</h2>
 <p class="bac">
-Do the details interest you as much as the big picture? As an analyst in our Research group, you&#39;ll work with both as you help to cover large and small companies in a specific industry or an industry sector. You will gather, analyze, and interpret financial data but always in a broader context so you can provide not just information, but insight as well. That&#39;s how you add value.
-</p>
-<br>
-<H3 class="bac">Equity Research</H3>
-<p class="bac">
-Provides institutional and retail clients with in-depth research analysis on more than 20 industries and conducts fundamental analysis on more than 2,600 companies. 
-</p>
-<br>
-<H3 class="bac">Credit Research</H3>
-<p class="bac">
-Provides analysis of corporations&#39; credit-worthiness and credit, cash and derivative markets and makes detailed, actionable investment recommendations to all types of institutional credit and credit derivative investors.
+Hosting Solutions Design &#38; Build (HSDB) is within the Shared Technology Infrastructure (STI) division. HSDB is responsible for delivering fully-integrated mainframe and midrange infrastructure shared services, which support transactional (online), database, messaging, OS, storage, capacity planning and application hosting, securely across Bank of America. Services include design, procurement, implementation, deployment, refresh, compliance, optimization and support services for the global environment.
 </p>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
 
 <h2 class="bac">Overview:</h2>  
 <p class="bac">
-As an analyst within Research, you will: 
+The Bank of America Intern Program is designed to provide students with mainframe technology experience, as it applies to banking.  Students are given a true associate experience, as internships mirror full-time positions and include goal-setting and a formal review process. Interns are required to work 40-hour weeks for 10-12 weeks, between the months of May and September. On-the-job training, mentoring relationships, and networking opportunities are provided for all interns.
+</p>
+<p class="bac">
+The HSDB College Hire Program recruits the potential next generation of mainframe technicians. A summer internship is offered to rising seniors, giving them hands-on mainframe experience. At the end of the 10-week program, students may be offered a full-time associate position.
+</p>
+<p class="bac">
+Candidate(s) will rotate among two or more HSDB teams during the internship, and will have the opportunity to: 
 </p>
 <ul class="bac">
-	<li>Gain insight into specific industry sectors and/or tradable financial instruments and structures </li>
-	<li>Start to develop an internal and external network of internal professionals and clients </li>
-	<li>Develop the necessary confidence and experience to question and challenge senior managers of companies within your sector coverage </li>
-	<li>Receive training in the effective communication of your investment message to large-scale audiences and in one-on-one meetings </li>
-	<li>Contribute and eventually initiate leading edge, non-consensus, market moving research products and reports on corporate, sectors and markets </li>
-	<li>Market your investment recommendations to internal and external clients by phone and face-to-face </li>
-	<li>Contribute to, and make presentations at, investor conferences</li>
-	<li>Develop an understanding of the investment needs and constraints of a wide range of different clients, in order to provide bespoke recommendations and solutions to help them implement their objectives </li>
+	<li>Design, develop, implement and enhance transaction, database, communication and operating systems in support of business goals</li>
+	<li>Analyze, track and troubleshoot performance of systems to ensure that all information processing and delivery requirements are met</li>
+	<li>Support the configuration, implementation, administration, monitoring and ongoing maintenance of systems</li>
+	<li>Provide project management support relating to process improvement in technology</li>
+	<li>Provide analytical support for data collection and measurements</li>
+	<li>Participate in design, development and implementation of complex applications, often using new technologies</li>
+</ul>
+<br>
+<H3 class="bac">Intern Benefits</H3>
+<ul class="bac">
+	<li>Gain firsthand knowledge on a large-scale IBM data processing environment</li>
+	<li>Gain insight into various mainframe systems support disciplines</li>
+	<li>Learn about Six Sigma, and how it is being used to accomplish BAC goals</li>
+	<li>Collaborate with world-class data processing professionals</li>
 </ul>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
 
 <h2 class="bac">Qualifications:</h2>
-<p class="bac">
-Strong academic qualifications are important, but you&#39;ll also need to demonstrate drive, innovation and a genuine interest in the financial markets.  
-</p>
-<p class="bac">
-We accept applications from a diverse range of degree disciplines such as the arts and humanities, as well as numerically focused subjects such as economics and mathematics.
-</p>
-<p class="bac">
-You&#39;ll need to be fluent in English and a second European language is also required for some roles.  
-</p>
-
-<img src="../images/clear.gif" class="bac" alt=""><br clear="all">
-
-<h2 class="bac">Training:</h2>
-<p class="bac">
-Induction and training starts with an intensive programme. Throughout July and August, you will gain an in-depth introduction to the firm, its culture and global reach, along with other newly hired analysts from around the world. The training will include full instruction on all the relevant tools, techniques and working practices. You will also receive grounding in your chosen business area as you develop your professional skills and teamwork capabilities. 
-</p>
-<p class="bac">
-Once you join a team within your assigned business, you&#39;ll take on real responsibility from an early stage. You&#39;ll be exposed to ongoing development opportunities throughout the programme and encouraged to grow your abilities through on-the-job learning, structured training and study towards your professional qualifications. We&#39;ll support and reward you on the basis of your individual performance. Ultimately, how far and how quickly you progress will be up to you. 
-</p>
+<ul class="bac">
+	<li>Must be a college senior enrolled in a full-time degree program, pursuing a major in Computer Science, Business Management or Information Technology</li>
+	<li>Must be a U.S. citizen or have a permanent U.S. residency</li>
+	<li>Must be a team player and have a strong drive for results</li>
+	<li>Excellent organization and communication skills</li>
+	<li>Educated in basic IBM Mainframe technology</li>
+	<li>Preferred: conceptual knowledge of some of the following technologies: CICS, DB2, IMS, WMQ, z/OS as well as ability to code JCL and a basic computer language are requirements</li>
+</ul>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
 
 <h2 class="bac">Locations:</h2>
 <p class="bac">
-London
+Richmond, VA
+</p>
+
+<img src="../images/clear.gif" class="bac" alt=""><br clear="all">
+
+<h2 class="bac">Full-Time Opportunities:</h2>
+<p class="bac">
+Rising seniors who meet or exceed internship performance expectations are eligible to receive a full-time offer of employment, following their internships. Full-time HSDB hires will participate in the 2-year College Hire Program, designed to mentor and develop the associate in a specific technology. 
 </p>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">

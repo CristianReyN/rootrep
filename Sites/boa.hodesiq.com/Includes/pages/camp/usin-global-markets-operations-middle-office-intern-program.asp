@@ -5,65 +5,59 @@
 <a name="skipmaincontent"></a><h1 class="bac"><%=program.Item("title")%></h1>
 <h2 class="bac">Our Business:</h2>
 <p class="bac">
-Do the details interest you as much as the big picture? As an analyst in our Research group, you&#39;ll work with both as you help to cover large and small companies in a specific industry or an industry sector. You will gather, analyze, and interpret financial data but always in a broader context so you can provide not just information, but insight as well. That&#39;s how you add value.
+Global Markets Operations/Middle Office Group (GMO&#38;MO) provides operational support for all products in Global Markets, Corporate Treasury and Corporate Investments, and is primarily a control function responsible for providing assurance over data and processes used to record Risk, P/L, Balance Sheet and Financial Results. The organization is aligned to products and business management as follows:
 </p>
-<br>
-<H3 class="bac">Equity Research</H3>
-<p class="bac">
-Provides institutional and retail clients with in-depth research analysis on more than 20 industries and conducts fundamental analysis on more than 2,600 companies. 
-</p>
-<br>
-<H3 class="bac">Credit Research</H3>
-<p class="bac">
-Provides analysis of corporations&#39; credit-worthiness and credit, cash and derivative markets and makes detailed, actionable investment recommendations to all types of institutional credit and credit derivative investors.
-</p>
+<ul class="bac">
+	<li><b>Global Middle Office:</b> provides trade capture substantiation, profit and loss validation, risk/position validation, balance sheet substantiation, event monitoring, front-back process oversight, and new business development. These functions are critical to ensure business process control.</li>
+	<li><b>Operational Risk, Strategy and Change Management:</b> provides quality oversight related to managing operational risk, overall associate satisfaction and key strategic initiatives.</li>
+	<li><b>Core Fixed Income Operations:</b> supports all fixed income cash securities for Banc of America Securities, as well as Corporate Treasury and Corporate Investments. This Operations team has a unique structure, in that clearance and settlement responsibilities are grouped by product type, with centralized function groups providing support to the product teams.</li>
+	<li><b>Global Equity Operations:</b> responsible for the clearance and settlement of all equity products. The mission of this team is to provide a seamless operational platform for trading, sales and underwriting activities, by utilizing technology, advanced process and qualified personnel.</li>
+	<li><b>Global Derivatives, Foreign Exchange, Futures and Commodities Operations:</b> provides back office support for Foreign Exchange, Interest Rate Commodity, Futures and Credit Derivative businesses. This support includes confirmations, settlements, collateral management and customer service.</li>
+</ul>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
 
 <h2 class="bac">Overview:</h2>  
 <p class="bac">
-As an analyst within Research, you will: 
+The Bank of America Intern Program is designed to provide students with corporate experience in business banking policies and practices. Students are given a true associate experience, as internships mirror full-time positions, and include goal-setting and a formal review process. Interns are required to work 40-hour weeks for 10 weeks, between the months of June and August. On-the-job training, mentoring relationships, and networking opportunities are provided for all interns. 
 </p>
-<ul class="bac">
-	<li>Gain insight into specific industry sectors and/or tradable financial instruments and structures </li>
-	<li>Start to develop an internal and external network of internal professionals and clients </li>
-	<li>Develop the necessary confidence and experience to question and challenge senior managers of companies within your sector coverage </li>
-	<li>Receive training in the effective communication of your investment message to large-scale audiences and in one-on-one meetings </li>
-	<li>Contribute and eventually initiate leading edge, non-consensus, market moving research products and reports on corporate, sectors and markets </li>
-	<li>Market your investment recommendations to internal and external clients by phone and face-to-face </li>
-	<li>Contribute to, and make presentations at, investor conferences</li>
-	<li>Develop an understanding of the investment needs and constraints of a wide range of different clients, in order to provide bespoke recommendations and solutions to help them implement their objectives </li>
-</ul>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
 
 <h2 class="bac">Qualifications:</h2>
 <p class="bac">
-Strong academic qualifications are important, but you&#39;ll also need to demonstrate drive, innovation and a genuine interest in the financial markets.  
+Candidates should be in their junior year/rising senior, from a four year college or university, and demonstrate a combination of academic aptitude, quantitative skills, strategic and creative thinking, and excellent written and oral communication skills. Interns will have the opportunity to be involved with several projects at once, and will be required to work effectively both individually and as part of a team. Some common driving characteristics we look for include: 
 </p>
-<p class="bac">
-We accept applications from a diverse range of degree disciplines such as the arts and humanities, as well as numerically focused subjects such as economics and mathematics.
-</p>
-<p class="bac">
-You&#39;ll need to be fluent in English and a second European language is also required for some roles.  
-</p>
+<ul class="bac">
+	<li>Attention to detail </li>
+	<li>Exceptional academic achievement  </li>
+	<li>Initiative</li>
+	<li>Team focus </li>
+	<li>Leadership </li>
+	<li>Strategic and creative thinking capabilities </li>
+	<li>Strong work ethic </li>
+	<li>Strong communication skills </li>
+	<li>Dedication to a career in middle office or global operations </li>
+	<li>Geographic mobility</li>
+</ul>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
 
 <h2 class="bac">Training:</h2>
 <p class="bac">
-Induction and training starts with an intensive programme. Throughout July and August, you will gain an in-depth introduction to the firm, its culture and global reach, along with other newly hired analysts from around the world. The training will include full instruction on all the relevant tools, techniques and working practices. You will also receive grounding in your chosen business area as you develop your professional skills and teamwork capabilities. 
-</p>
-<p class="bac">
-Once you join a team within your assigned business, you&#39;ll take on real responsibility from an early stage. You&#39;ll be exposed to ongoing development opportunities throughout the programme and encouraged to grow your abilities through on-the-job learning, structured training and study towards your professional qualifications. We&#39;ll support and reward you on the basis of your individual performance. Ultimately, how far and how quickly you progress will be up to you. 
+Interns receive an orientation to Bank of America with overviews on the history, culture, business organizations, and intern program structure. Interns also participate in on-the-job training, an online learning curriculum, weekly speaker seminars, and events with interns and associates from across Bank of America.
 </p>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
 
 <h2 class="bac">Locations:</h2>
-<p class="bac">
-London
-</p>
+<ul class="bac">
+	<li>Charlotte, NC</li>
+	<li>Chicago, IL</li>
+	<li>Houston, TX</li>
+	<li>Jersey City, NJ</li>
+	<li>New York, NY</li>
+</ul>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
 

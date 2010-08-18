@@ -5,64 +5,54 @@
 <a name="skipmaincontent"></a><h1 class="bac"><%=program.Item("title")%></h1>
 <h2 class="bac">Our Business:</h2>
 <p class="bac">
-Do the details interest you as much as the big picture? As an analyst in our Research group, you&#39;ll work with both as you help to cover large and small companies in a specific industry or an industry sector. You will gather, analyze, and interpret financial data but always in a broader context so you can provide not just information, but insight as well. That&#39;s how you add value.
+Global Technology &#38; Operations:
 </p>
-<br>
-<H3 class="bac">Equity Research</H3>
+<ul class="bac">
+	<li>Enables growth &#45; Bank of America uses our enterprise perspective and broad expertise to deliver success </li>
+	<li>Drives quality &#45; we champion process excellence, and we&#39;ll streamline, simplify and focus </li>
+	<li>Improves operating efficiency &#45; we create capacity, lead change and reinvest in growth, to have a greater impact on performance</li>
+</ul>
 <p class="bac">
-Provides institutional and retail clients with in-depth research analysis on more than 20 industries and conducts fundamental analysis on more than 2,600 companies. 
-</p>
-<br>
-<H3 class="bac">Credit Research</H3>
-<p class="bac">
-Provides analysis of corporations&#39; credit-worthiness and credit, cash and derivative markets and makes detailed, actionable investment recommendations to all types of institutional credit and credit derivative investors.
+The Technology MBA program is an experiential development program spanning the Global Technology &#38; Operations Organization within Bank of America, which includes: Card Technology, Consumer Small Business Banking Technology, Enterprise Technology &#38; Delivery, Global Banking Markets Wealth Management, Technology &#38; Operations, and Home Loans Insurance Technology.  
 </p>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
 
 <h2 class="bac">Overview:</h2>  
-<p class="bac">
-As an analyst within Research, you will: 
-</p>
 <ul class="bac">
-	<li>Gain insight into specific industry sectors and/or tradable financial instruments and structures </li>
-	<li>Start to develop an internal and external network of internal professionals and clients </li>
-	<li>Develop the necessary confidence and experience to question and challenge senior managers of companies within your sector coverage </li>
-	<li>Receive training in the effective communication of your investment message to large-scale audiences and in one-on-one meetings </li>
-	<li>Contribute and eventually initiate leading edge, non-consensus, market moving research products and reports on corporate, sectors and markets </li>
-	<li>Market your investment recommendations to internal and external clients by phone and face-to-face </li>
-	<li>Contribute to, and make presentations at, investor conferences</li>
-	<li>Develop an understanding of the investment needs and constraints of a wide range of different clients, in order to provide bespoke recommendations and solutions to help them implement their objectives </li>
+	<li>The Technology MBA Rotational Program provides the opportunity to gain foundational knowledge within Bank of America&#39;s Technology organization, through 2-3 rotations, over a 36-month period  </li>
+	<li>Participants will learn end-to-end technology and business strategy, and develop the skills necessary to potentially move into leadership positions upon completion of the program</li>
+	<li>Associates will also have a formal support structure, including an assigned learning curriculum, program events, peer coaches, assignment manager and program manager</li>
 </ul>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
 
 <h2 class="bac">Qualifications:</h2>
 <p class="bac">
-Strong academic qualifications are important, but you&#39;ll also need to demonstrate drive, innovation and a genuine interest in the financial markets.  
+The ideal candidate will exhibit a strong drive for results; succeed in a fast-paced, empowered, and collaborative environment; enjoy teamwork and partnering with others; possess excellent organizational and analytical skills; and understand technology and business requirements. The ability to learn the organizational structure and the formal/informal workings of the organization, and to convey a strong sense of customer and associate satisfaction to drive shareholder value, is required.  
 </p>
-<p class="bac">
-We accept applications from a diverse range of degree disciplines such as the arts and humanities, as well as numerically focused subjects such as economics and mathematics.
-</p>
-<p class="bac">
-You&#39;ll need to be fluent in English and a second European language is also required for some roles.  
-</p>
+<br>
+<H3 class="bac">Candidate Profile</H3>
+<ul class="bac">
+	<li>MBA or equivalent graduate degree, from an accredited college or university</li>
+	<li>5-8 years of work experience prior to entering graduate school</li>
+	<li>Strong leadership and communication skills</li>
+	<li>Previous project management experience</li>
+	<li>100% geographic flexibility </li>
+</ul>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
 
 <h2 class="bac">Training:</h2>
 <p class="bac">
-Induction and training starts with an intensive programme. Throughout July and August, you will gain an in-depth introduction to the firm, its culture and global reach, along with other newly hired analysts from around the world. The training will include full instruction on all the relevant tools, techniques and working practices. You will also receive grounding in your chosen business area as you develop your professional skills and teamwork capabilities. 
-</p>
-<p class="bac">
-Once you join a team within your assigned business, you&#39;ll take on real responsibility from an early stage. You&#39;ll be exposed to ongoing development opportunities throughout the programme and encouraged to grow your abilities through on-the-job learning, structured training and study towards your professional qualifications. We&#39;ll support and reward you on the basis of your individual performance. Ultimately, how far and how quickly you progress will be up to you. 
+Associates will participate in an orientation program and formal learning curriculum to learn more about the bank&#39;s business, culture and values, as well as to network with executives and other college hires. Additionally, associates will participate in various networking and learning events throughout the duration of their program.   
 </p>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
 
 <h2 class="bac">Locations:</h2>
 <p class="bac">
-London
+The majority of the opportunities exist in Charlotte, NC with LIMITED opportunities in other major US cities across the Bank of America franchise, including but not limited to: Boston, MA and New York, NY.  Other locations are TBD.
 </p>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">

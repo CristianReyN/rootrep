@@ -5,65 +5,66 @@
 <a name="skipmaincontent"></a><h1 class="bac"><%=program.Item("title")%></h1>
 <h2 class="bac">Our Business:</h2>
 <p class="bac">
-Do the details interest you as much as the big picture? As an analyst in our Research group, you&#39;ll work with both as you help to cover large and small companies in a specific industry or an industry sector. You will gather, analyze, and interpret financial data but always in a broader context so you can provide not just information, but insight as well. That&#39;s how you add value.
-</p>
-<br>
-<H3 class="bac">Equity Research</H3>
-<p class="bac">
-Provides institutional and retail clients with in-depth research analysis on more than 20 industries and conducts fundamental analysis on more than 2,600 companies. 
-</p>
-<br>
-<H3 class="bac">Credit Research</H3>
-<p class="bac">
-Provides analysis of corporations&#39; credit-worthiness and credit, cash and derivative markets and makes detailed, actionable investment recommendations to all types of institutional credit and credit derivative investors.
+Bank of America&#39;s commitment to the mortgage industry is focused on continuous growth, increased teamwork and excellent customer service. As the nation&#39;s largest mortgage lender and loan servicer, and the world&#39;s most trusted lender, Bank of America Home Loans embraces a commitment to responsible home lending. Our every action is focused on Bringing Opportunity Home for those we serve, by assisting new and existing customers in achieving their dreams of home ownership and preservation.
 </p>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
 
 <h2 class="bac">Overview:</h2>  
 <p class="bac">
-As an analyst within Research, you will: 
+Bank of America is investing in high-caliber talent to expand the company&#39;s cadre of leaders. The program seeks to develop leaders with knowledge and skills of the end-to-end mortgage business at Bank of America, by creating opportunities to learn multiple disciplines through rotations that build upon one another. The program will also strengthen leadership skills and attributes that are applicable across the company.
+</p>
+<p class="bac">
+The program includes: 
 </p>
 <ul class="bac">
-	<li>Gain insight into specific industry sectors and/or tradable financial instruments and structures </li>
-	<li>Start to develop an internal and external network of internal professionals and clients </li>
-	<li>Develop the necessary confidence and experience to question and challenge senior managers of companies within your sector coverage </li>
-	<li>Receive training in the effective communication of your investment message to large-scale audiences and in one-on-one meetings </li>
-	<li>Contribute and eventually initiate leading edge, non-consensus, market moving research products and reports on corporate, sectors and markets </li>
-	<li>Market your investment recommendations to internal and external clients by phone and face-to-face </li>
-	<li>Contribute to, and make presentations at, investor conferences</li>
-	<li>Develop an understanding of the investment needs and constraints of a wide range of different clients, in order to provide bespoke recommendations and solutions to help them implement their objectives </li>
+	<li>A 10-12-week internship in Bank of America Home Loans</li>
+	<li>The opportunity to gain experience in areas of the company&#39;s critical Home Loans business, to build breadth and depth of expertise in the mortgage business</li>
 </ul>
+<p class="bac">
+Intern assignments may exist in the following disciplines, and are selected based on a combination of business need and participant interest:
+</p>
+<ul class="bac">
+	<li>Credit, Product and Pricing</li>
+	<li>Business Integration</li>
+	<li>Mortgage Sales and Fulfillment</li>
+	<li>Servicing</li>
+	<li>Credit Loss Mitigation Strategies</li>
+	<li>Insurance Services Group</li>
+</ul>
+<p class="bac">
+Interns are developed for future leadership responsibilities with one of the country&#39;s largest mortgage businesses &#45; and one of the world&#39;s largest banks &#45; during a period of industry transformation.
+</p>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
 
 <h2 class="bac">Qualifications:</h2>
-<p class="bac">
-Strong academic qualifications are important, but you&#39;ll also need to demonstrate drive, innovation and a genuine interest in the financial markets.  
-</p>
-<p class="bac">
-We accept applications from a diverse range of degree disciplines such as the arts and humanities, as well as numerically focused subjects such as economics and mathematics.
-</p>
-<p class="bac">
-You&#39;ll need to be fluent in English and a second European language is also required for some roles.  
-</p>
+<ul class="bac">
+	<li>Pursuing a MBA in Strategic Management, Accounting, Finance, Business Administration, Economics, or related discipline</li>
+	<li>Exceptional communication skills</li>
+	<li>Demonstrated leadership, initiative and resourcefulness in school, community and/or work experience</li>
+	<li>Strong work ethic, ability to multi-task, and teamwork orientation</li>
+	<li>Dedicated to building a career in financial services</li>
+	<li>Minimum GPA of 3.0 (or equivalent)</li>
+	<li>Must have eligibility to work in the US</li>
+	<li>Geographic mobility/flexibility</li>
+</ul>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
 
 <h2 class="bac">Training:</h2>
 <p class="bac">
-Induction and training starts with an intensive programme. Throughout July and August, you will gain an in-depth introduction to the firm, its culture and global reach, along with other newly hired analysts from around the world. The training will include full instruction on all the relevant tools, techniques and working practices. You will also receive grounding in your chosen business area as you develop your professional skills and teamwork capabilities. 
-</p>
-<p class="bac">
-Once you join a team within your assigned business, you&#39;ll take on real responsibility from an early stage. You&#39;ll be exposed to ongoing development opportunities throughout the programme and encouraged to grow your abilities through on-the-job learning, structured training and study towards your professional qualifications. We&#39;ll support and reward you on the basis of your individual performance. Ultimately, how far and how quickly you progress will be up to you. 
+Associates will participate in a formal orientation and education program to learn more about Bank of America, the culture and values, as well as to network with executives and other campus hires. Additionally, associates will participate in various networking and learning opportunities throughout the duration of the program.
 </p>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
 
 <h2 class="bac">Locations:</h2>
-<p class="bac">
-London
-</p>
+<ul class="bac">
+	<li>Calabasas, CA (Los Angeles area)</li>
+	<li>Plano, TX (Dallas area)</li>
+	<li>Charlotte, NC</li>
+</ul>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
 

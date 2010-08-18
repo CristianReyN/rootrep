@@ -5,64 +5,41 @@
 <a name="skipmaincontent"></a><h1 class="bac"><%=program.Item("title")%></h1>
 <h2 class="bac">Our Business:</h2>
 <p class="bac">
-Do the details interest you as much as the big picture? As an analyst in our Research group, you&#39;ll work with both as you help to cover large and small companies in a specific industry or an industry sector. You will gather, analyze, and interpret financial data but always in a broader context so you can provide not just information, but insight as well. That&#39;s how you add value.
+Corporate Treasury is a central function at Bank of America whose activities have enterprise-wide impact. The goal of Corporate Treasury is to optimize shareholder value, by providing world-class management of capital, liquidity, interest rate and operational risk; creating a state-of-the-art framework for managing the tradeoffs between risk and return; and training and exporting enterprise leaders.
 </p>
-<br>
-<H3 class="bac">Equity Research</H3>
 <p class="bac">
-Provides institutional and retail clients with in-depth research analysis on more than 20 industries and conducts fundamental analysis on more than 2,600 companies. 
-</p>
-<br>
-<H3 class="bac">Credit Research</H3>
-<p class="bac">
-Provides analysis of corporations&#39; credit-worthiness and credit, cash and derivative markets and makes detailed, actionable investment recommendations to all types of institutional credit and credit derivative investors.
+Because of the nature of Corporate Treasury&#39;s activities, interns are exposed to the financial markets and a top-of-the-house view of Bank of America&#39;s lines of business, allowing each intern to develop a solid understanding of how the company makes money and manages risks.
 </p>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
 
 <h2 class="bac">Overview:</h2>  
 <p class="bac">
-As an analyst within Research, you will: 
+The objective of the Corporate Treasury Internship Program is to provide students with the opportunity to expand upon their academic foundation - specifically their analytical skills, their knowledge of the finance industry, and their familiarity with a corporate environment.  This program will introduce interns to Bank of America, the Corporate Treasury group, and the Corporate Treasury Analyst Program (CTAP).  In conjunction with their job responsibilities, Corporate Treasury interns will join interns from across the enterprise in training sessions, networking opportunities, and community service events. The internship program also includes formal performance reviews and real-time feedback and coaching, all within an open, supportive, collaborative and driven culture. At the completion of the internship, eligible senior interns may be given the opportunity to interview for the Corporate Treasury Analyst Program.  
 </p>
-<ul class="bac">
-	<li>Gain insight into specific industry sectors and/or tradable financial instruments and structures </li>
-	<li>Start to develop an internal and external network of internal professionals and clients </li>
-	<li>Develop the necessary confidence and experience to question and challenge senior managers of companies within your sector coverage </li>
-	<li>Receive training in the effective communication of your investment message to large-scale audiences and in one-on-one meetings </li>
-	<li>Contribute and eventually initiate leading edge, non-consensus, market moving research products and reports on corporate, sectors and markets </li>
-	<li>Market your investment recommendations to internal and external clients by phone and face-to-face </li>
-	<li>Contribute to, and make presentations at, investor conferences</li>
-	<li>Develop an understanding of the investment needs and constraints of a wide range of different clients, in order to provide bespoke recommendations and solutions to help them implement their objectives </li>
-</ul>
+<p class="bac">
+In addition to intern-specific events, Corporate Treasury interns will also participate in Corporate Treasury Analyst Program (CTAP) activities throughout the summer. The CTAP Program is a two-year associate development program, providing college graduates the opportunity to rotate through challenging assignments within Corporate Treasury divisions, which include: Global Funding, Global Liquidity Risk Management, Structured Finance, Balance Sheet Management, Capital Management, and Infrastructure and Transition.  The CTAP Program also includes training and networking activities, and a senior management speaker series.
+</p>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
 
 <h2 class="bac">Qualifications:</h2>
 <p class="bac">
-Strong academic qualifications are important, but you&#39;ll also need to demonstrate drive, innovation and a genuine interest in the financial markets.  
-</p>
-<p class="bac">
-We accept applications from a diverse range of degree disciplines such as the arts and humanities, as well as numerically focused subjects such as economics and mathematics.
-</p>
-<p class="bac">
-You&#39;ll need to be fluent in English and a second European language is also required for some roles.  
+Eligible candidates are pursuing degrees in Finance, Economics, Accounting or Business. Strong academic and technical skills should be accompanied by proficiencies in critical thinking, leadership, communication and relationship building. Candidates should demonstrate strong initiative, and must be able to work independently with effective time management skills. In addition, candidates must be poised, self-confident, and demonstrate composure when challenging business situations arise. 
 </p>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
 
 <h2 class="bac">Training:</h2>
 <p class="bac">
-Induction and training starts with an intensive programme. Throughout July and August, you will gain an in-depth introduction to the firm, its culture and global reach, along with other newly hired analysts from around the world. The training will include full instruction on all the relevant tools, techniques and working practices. You will also receive grounding in your chosen business area as you develop your professional skills and teamwork capabilities. 
-</p>
-<p class="bac">
-Once you join a team within your assigned business, you&#39;ll take on real responsibility from an early stage. You&#39;ll be exposed to ongoing development opportunities throughout the programme and encouraged to grow your abilities through on-the-job learning, structured training and study towards your professional qualifications. We&#39;ll support and reward you on the basis of your individual performance. Ultimately, how far and how quickly you progress will be up to you. 
+Senior management within the Corporate Treasury organization is committed to the growth and development of each associate. The intern training curriculum complements the hands-on experience the associates develop in their summer assignments. Topics covered during training include financial markets, economics, principles of banking, technical skills, and personal and interpersonal skills. In addition, interns are assigned a rotation mentor and CTAP coach to assist with establishing goals, building business acumen, and creating a professional network.
 </p>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
 
 <h2 class="bac">Locations:</h2>
 <p class="bac">
-London
+Charlotte, North Carolina
 </p>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">

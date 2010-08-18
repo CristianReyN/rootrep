@@ -5,64 +5,70 @@
 <a name="skipmaincontent"></a><h1 class="bac"><%=program.Item("title")%></h1>
 <h2 class="bac">Our Business:</h2>
 <p class="bac">
-Do the details interest you as much as the big picture? As an analyst in our Research group, you&#39;ll work with both as you help to cover large and small companies in a specific industry or an industry sector. You will gather, analyze, and interpret financial data but always in a broader context so you can provide not just information, but insight as well. That&#39;s how you add value.
-</p>
-<br>
-<H3 class="bac">Equity Research</H3>
-<p class="bac">
-Provides institutional and retail clients with in-depth research analysis on more than 20 industries and conducts fundamental analysis on more than 2,600 companies. 
-</p>
-<br>
-<H3 class="bac">Credit Research</H3>
-<p class="bac">
-Provides analysis of corporations&#39; credit-worthiness and credit, cash and derivative markets and makes detailed, actionable investment recommendations to all types of institutional credit and credit derivative investors.
+At Bank of America Merrill Global Research, Research Analysts are aligned by both product (macro, credit or equity) and/or industry group (healthcare, technology, energy, etc.).  Working alongside some of the most talented professionals in the industry, Research Analysts gain the sector-specific expertise critical to building a career in Research, and contribute significantly to the in-depth research we distribute to clients worldwide.
 </p>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
 
 <h2 class="bac">Overview:</h2>  
 <p class="bac">
-As an analyst within Research, you will: 
+The Summer Analyst program is offered to undergraduates entering their senior year of college. Research Analyst Interns are responsible for modeling/analysis, conducting primary research, writing franchise pieces and servicing institutional clients. Some responsibilities are conducted regularly (daily, weekly, etc.), while others are longer-term, ad-hoc projects. Sample responsibilities and projects include: 
 </p>
 <ul class="bac">
-	<li>Gain insight into specific industry sectors and/or tradable financial instruments and structures </li>
-	<li>Start to develop an internal and external network of internal professionals and clients </li>
-	<li>Develop the necessary confidence and experience to question and challenge senior managers of companies within your sector coverage </li>
-	<li>Receive training in the effective communication of your investment message to large-scale audiences and in one-on-one meetings </li>
-	<li>Contribute and eventually initiate leading edge, non-consensus, market moving research products and reports on corporate, sectors and markets </li>
-	<li>Market your investment recommendations to internal and external clients by phone and face-to-face </li>
-	<li>Contribute to, and make presentations at, investor conferences</li>
-	<li>Develop an understanding of the investment needs and constraints of a wide range of different clients, in order to provide bespoke recommendations and solutions to help them implement their objectives </li>
+	<li>Assembling historical financial models using SEC filings, company conference calls and press releases </li>
+	<li>Conducting financial, statistical and industry analysis on companies and the industry to support the team&#39;s investment thesis</li>
+	<li>Learning fundamentals of industry and companies covered by the team, and researching sector trends that may impact company/sector recommendations</li>
+	<li>Writing short notes and lengthy reports on covered companies and the industry; writing sections of coverage initiations and company conference call summaries </li>
+	<li>Initiating and building relationships with clients to develop a network of contacts appropriate to the industry covered</li>
 </ul>
+<p class="bac">
+Research Analyst Interns are placed in a specific industry sector team for the duration of the 10-week internship. Outstanding performers will be considered for a full-time position, pending graduation.
+</p>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
 
 <h2 class="bac">Qualifications:</h2>
+<br>
+<H3 class="bac">Education</H3>
+<ul class="bac">
+	<li>Progress towards a Bachelor&#39;s degree with demonstrated academic achievement</li>
+</ul>
+<br>
+<H3 class="bac">Experience </H3>
 <p class="bac">
-Strong academic qualifications are important, but you&#39;ll also need to demonstrate drive, innovation and a genuine interest in the financial markets.  
+Candidates must demonstrate a combination of academic aptitude, quantitative skills, strategic and creative thinking, and distinguished written and verbal communications skills, as well as:
 </p>
-<p class="bac">
-We accept applications from a diverse range of degree disciplines such as the arts and humanities, as well as numerically focused subjects such as economics and mathematics.
-</p>
-<p class="bac">
-You&#39;ll need to be fluent in English and a second European language is also required for some roles.  
-</p>
+<ul class="bac">
+	<li>Strong attention to detail; strong quality control over own work</li>
+	<li>Client service orientation; drive to over-deliver to internal client</li>
+	<li>Strong team and partnering skills; ability to operate effectively remotely </li>
+	<li>A passion and interest in the US capital markets, and ability to learn and use a wide range of market data sources</li>
+	<li>Ability to create and maintain financial models</li>
+	<li>Strong understanding of finance, accounting, valuation techniques; familiarity with US accounting standards</li>
+</ul>
+<br>
+<H3 class="bac">Personal traits </H3>
+<ul class="bac">
+	<li>A passion and curiosity appropriate for research</li>
+	<li>Highly-motivated with a drive to succeed</li>
+	<li>Well-organized with high attention to detail</li>
+	<li>Outgoing with strong personal presence</li>
+	<li>Good judgment and business sense</li>
+	<li>Solid work ethic</li>
+</ul>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
 
 <h2 class="bac">Training:</h2>
 <p class="bac">
-Induction and training starts with an intensive programme. Throughout July and August, you will gain an in-depth introduction to the firm, its culture and global reach, along with other newly hired analysts from around the world. The training will include full instruction on all the relevant tools, techniques and working practices. You will also receive grounding in your chosen business area as you develop your professional skills and teamwork capabilities. 
-</p>
-<p class="bac">
-Once you join a team within your assigned business, you&#39;ll take on real responsibility from an early stage. You&#39;ll be exposed to ongoing development opportunities throughout the programme and encouraged to grow your abilities through on-the-job learning, structured training and study towards your professional qualifications. We&#39;ll support and reward you on the basis of your individual performance. Ultimately, how far and how quickly you progress will be up to you. 
+The Summer Program kicks off with an orientation session which teaches Bank of America basics, including professional practices, views of the markets and technical skills. Training continues throughout the summer, as the Analyst participates in group projects and presentations, offering the opportunity to learn not only from one&#39;s own program assignment, but also benefit from the other Summer Analyst experiences.  
 </p>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
 
 <h2 class="bac">Locations:</h2>
 <p class="bac">
-London
+Opportunities are available in New York, NY for Credit and Equity Research, and in San Francisco, CA. 
 </p>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">

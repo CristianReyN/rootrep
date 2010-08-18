@@ -5,64 +5,62 @@
 <a name="skipmaincontent"></a><h1 class="bac"><%=program.Item("title")%></h1>
 <h2 class="bac">Our Business:</h2>
 <p class="bac">
-Do the details interest you as much as the big picture? As an analyst in our Research group, you&#39;ll work with both as you help to cover large and small companies in a specific industry or an industry sector. You will gather, analyze, and interpret financial data but always in a broader context so you can provide not just information, but insight as well. That&#39;s how you add value.
+Global Commercial Banking serves more than 100,000 business banking, and more than 30,000 middle-market, clients through our core businesses. A core business of Global Commercial Banking is Commercial Real Estate Banking (CREB), which includes: Commercial Real Estate, Home Builder, Community Development Banking, Trisail Capital Corporation and Real Estate Corporate Banking. 
 </p>
-<br>
-<H3 class="bac">Equity Research</H3>
 <p class="bac">
-Provides institutional and retail clients with in-depth research analysis on more than 20 industries and conducts fundamental analysis on more than 2,600 companies. 
+CREB is one of the largest providers of real estate financing in the United States, serving professional developers of income-producing real estate, including retail, office, industrial and multi-family properties, and residential home builders. 
 </p>
-<br>
-<H3 class="bac">Credit Research</H3>
 <p class="bac">
-Provides analysis of corporations&#39; credit-worthiness and credit, cash and derivative markets and makes detailed, actionable investment recommendations to all types of institutional credit and credit derivative investors.
+Our dedicated teams of professionals deliver focused expertise and comprehensive, integrated solutions to provide a full range of financial services, including: acquisition, construction, bridge, interim and mezzanine financing, as well as capital raising, strategic advisory, treasury and risk management needs. 
 </p>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
 
 <h2 class="bac">Overview:</h2>  
 <p class="bac">
-As an analyst within Research, you will: 
+We are seeking Commercial Real Estate Summer Analysts who are willing to share our success, and to help drive our organization to make banking work in ways it never has before. Bank of America offers paid internship opportunities and a dynamic environment in which to build a strong financial services career. 
+</p>
+<p class="bac">
+All commercial Real Estate Interns will have an opportunity to enhance skills and knowledge in many of the following areas: 
 </p>
 <ul class="bac">
-	<li>Gain insight into specific industry sectors and/or tradable financial instruments and structures </li>
-	<li>Start to develop an internal and external network of internal professionals and clients </li>
-	<li>Develop the necessary confidence and experience to question and challenge senior managers of companies within your sector coverage </li>
-	<li>Receive training in the effective communication of your investment message to large-scale audiences and in one-on-one meetings </li>
-	<li>Contribute and eventually initiate leading edge, non-consensus, market moving research products and reports on corporate, sectors and markets </li>
-	<li>Market your investment recommendations to internal and external clients by phone and face-to-face </li>
-	<li>Contribute to, and make presentations at, investor conferences</li>
-	<li>Develop an understanding of the investment needs and constraints of a wide range of different clients, in order to provide bespoke recommendations and solutions to help them implement their objectives </li>
+	<li>Credit analysis of commercial entities and individuals engaged in real estate development, investment and management</li>
+	<li>Analysis of residential and commercial real estate projects, including cash flow and valuation</li>
+	<li>Assessment and interpretation of industry trends and issues based on targeted research</li>
+	<li>Bank of America&#39;s Commercial Real Estate lending policies and procedures, as well as basic loan structuring concepts</li>
+	<li>Practical application of credit analysis and market research to client strategy and loan structuring</li>
+	<li>How to develop effective credit approval documents and client presentation materials </li>
 </ul>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
 
 <h2 class="bac">Qualifications:</h2>
-<p class="bac">
-Strong academic qualifications are important, but you&#39;ll also need to demonstrate drive, innovation and a genuine interest in the financial markets.  
+<p class="bac">The successful Commercial Real Estate Analyst candidate should have the following qualifications:
 </p>
-<p class="bac">
-We accept applications from a diverse range of degree disciplines such as the arts and humanities, as well as numerically focused subjects such as economics and mathematics.
-</p>
-<p class="bac">
-You&#39;ll need to be fluent in English and a second European language is also required for some roles.  
-</p>
+<ul class="bac">
+	<li>Thorough understanding of financial accounting and corporate finance principles/practices</li>
+	<li>Pursuing a Business/Accounting/Finance/Real Estate related degree </li>
+	<li>Involvement in campus or community-related activities, in a leadership or support role</li>
+	<li>Computer proficiency as it relates to financial modeling</li>
+	<li>Keen interest and desire to work in the real estate industry</li>
+	<li>Excellent verbal and written communication skills</li>
+</ul>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
 
 <h2 class="bac">Training:</h2>
-<p class="bac">
-Induction and training starts with an intensive programme. Throughout July and August, you will gain an in-depth introduction to the firm, its culture and global reach, along with other newly hired analysts from around the world. The training will include full instruction on all the relevant tools, techniques and working practices. You will also receive grounding in your chosen business area as you develop your professional skills and teamwork capabilities. 
-</p>
-<p class="bac">
-Once you join a team within your assigned business, you&#39;ll take on real responsibility from an early stage. You&#39;ll be exposed to ongoing development opportunities throughout the programme and encouraged to grow your abilities through on-the-job learning, structured training and study towards your professional qualifications. We&#39;ll support and reward you on the basis of your individual performance. Ultimately, how far and how quickly you progress will be up to you. 
-</p>
+<ul class="bac">
+	<li>Formal training providing overviews of Bank of America Merrill Lynch, its business divisions, organizational structure, product groups and technology </li>
+	<li>Summer senior speakers series </li>
+	<li>Access to the electronic learning network </li>
+	<li>Extensive peer and senior mentoring </li>
+</ul>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
 
 <h2 class="bac">Locations:</h2>
 <p class="bac">
-London
+Opportunities are available nationwide. 
 </p>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">

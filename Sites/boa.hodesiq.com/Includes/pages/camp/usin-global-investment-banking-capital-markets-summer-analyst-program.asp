@@ -5,64 +5,62 @@
 <a name="skipmaincontent"></a><h1 class="bac"><%=program.Item("title")%></h1>
 <h2 class="bac">Our Business:</h2>
 <p class="bac">
-Do the details interest you as much as the big picture? As an analyst in our Research group, you&#39;ll work with both as you help to cover large and small companies in a specific industry or an industry sector. You will gather, analyze, and interpret financial data but always in a broader context so you can provide not just information, but insight as well. That&#39;s how you add value.
+Organized by industry sector, our Global Investment Bankers are dedicated to understanding the unique competitive and operating environments of our clients, and to building strong, enduring client relationships. We are primarily organized into 11 industry/product teams, focused on specific sectors. These include: Consumer and Retail; Corporate Finance; Energy and Power; Financial Institutions; Financial Sponsors; Global Industrials; Healthcare; Mergers and Acquisitions; Real Estate, Gaming and Leisure; Technology, Media and Telecom.
 </p>
-<br>
-<H3 class="bac">Equity Research</H3>
 <p class="bac">
-Provides institutional and retail clients with in-depth research analysis on more than 20 industries and conducts fundamental analysis on more than 2,600 companies. 
-</p>
-<br>
-<H3 class="bac">Credit Research</H3>
-<p class="bac">
-Provides analysis of corporations&#39; credit-worthiness and credit, cash and derivative markets and makes detailed, actionable investment recommendations to all types of institutional credit and credit derivative investors.
+As a leader in equity and debt origination and syndication, our Capital Markets team delivers creative solutions for issuers and investors across all asset products, including Equity Capital Markets, High-Grade Capital Markets, Debt Advisory Services and Leveraged Finance, which includes High-Yield Bonds and Leveraged Loans. Our Equity Capital Markets team is a fully integrated team of specialists, dedicated to helping companies raise capital through equity and equity-linked solutions, including IPOs, follow-ons and convertibles.
 </p>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
 
 <h2 class="bac">Overview:</h2>  
 <p class="bac">
-As an analyst within Research, you will: 
+Within a focused industry or product group, Summer Analysts help orchestrate capital raising and strategic advisory transactions.   Bank of America Merrill Lynch provides valuable, analytical-based work experience that is focused on financial markets and visibility with clients, as a representative of a top tier global investment bank. Summer Analysts are called to: 
 </p>
 <ul class="bac">
-	<li>Gain insight into specific industry sectors and/or tradable financial instruments and structures </li>
-	<li>Start to develop an internal and external network of internal professionals and clients </li>
-	<li>Develop the necessary confidence and experience to question and challenge senior managers of companies within your sector coverage </li>
-	<li>Receive training in the effective communication of your investment message to large-scale audiences and in one-on-one meetings </li>
-	<li>Contribute and eventually initiate leading edge, non-consensus, market moving research products and reports on corporate, sectors and markets </li>
-	<li>Market your investment recommendations to internal and external clients by phone and face-to-face </li>
-	<li>Contribute to, and make presentations at, investor conferences</li>
-	<li>Develop an understanding of the investment needs and constraints of a wide range of different clients, in order to provide bespoke recommendations and solutions to help them implement their objectives </li>
+	<li>Develop and maintain complex financial models</li>
+	<li>Perform various financial analyses, including valuations and merger consequences</li>
+	<li>Conduct comprehensive and in-depth company and industry research</li>
+	<li>Prepare presentations and other materials for clients</li>
+	<li>Participate in due diligence sessions</li>
+	<li>Communicate and interact with deal team members  </li>
+	<li>Manage several projects at once, and work effectively as an individual and as part of a team</li>
 </ul>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
 
 <h2 class="bac">Qualifications:</h2>
+<ul class="bac">
+	<li>Penultimate year of BA program, with outstanding academic qualifications</li>
+	<li>A track record of superior performance in extracurricular and professional activities</li>
+	<li>Demonstrate a combination of strong quantitative/analytical skills; attention to detail and client focus</li>
+	<li>Strategic and creative thinking; distinguished written and oral communications skills</li>
+	<li>Assertiveness, initiative, leadership, strong work ethic, team focus</li>
+	<li>Ability to learn quickly and take on new responsibilities</li>
+	<li>Dedication to building a career in the investment banking industry</li>
+</ul>
+<br>
+<H3 class="bac">Summer Analyst Program </H3>
 <p class="bac">
-Strong academic qualifications are important, but you&#39;ll also need to demonstrate drive, innovation and a genuine interest in the financial markets.  
-</p>
-<p class="bac">
-We accept applications from a diverse range of degree disciplines such as the arts and humanities, as well as numerically focused subjects such as economics and mathematics.
-</p>
-<p class="bac">
-You&#39;ll need to be fluent in English and a second European language is also required for some roles.  
-</p>
-
-<img src="../images/clear.gif" class="bac" alt=""><br clear="all">
-
-<h2 class="bac">Training:</h2>
-<p class="bac">
-Induction and training starts with an intensive programme. Throughout July and August, you will gain an in-depth introduction to the firm, its culture and global reach, along with other newly hired analysts from around the world. The training will include full instruction on all the relevant tools, techniques and working practices. You will also receive grounding in your chosen business area as you develop your professional skills and teamwork capabilities. 
-</p>
-<p class="bac">
-Once you join a team within your assigned business, you&#39;ll take on real responsibility from an early stage. You&#39;ll be exposed to ongoing development opportunities throughout the programme and encouraged to grow your abilities through on-the-job learning, structured training and study towards your professional qualifications. We&#39;ll support and reward you on the basis of your individual performance. Ultimately, how far and how quickly you progress will be up to you. 
+Summer offers are made for a specific office, based on candidate preference and business need. Industry and product group assignments are made before the summer begins, once a candidate has had the opportunity to learn about each group and meet team members. The summer program kicks off with an orientation and training session where you&#39;ll learn the Bank of America Merrill Lynch basics: technical skills, our views on the markets, and professional practices that will make your summer experience all the more valuable. Training will continue throughout the summer, as you participate in presentations and other group and individual projects led by industry experts. Outstanding performers may be considered for a full-time position upon graduation.
 </p>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
 
 <h2 class="bac">Locations:</h2>
+<ul class="bac">
+	<li>New York, NY</li>
+	<li>Charlotte, NC</li>
+	<li>Chicago, IL</li>
+	<li>Dallas, TX</li>
+	<li>Denver, CO</li>
+	<li>Houston, TX</li>
+	<li>Los Angeles, CA</li>
+	<li>Palo Alto, CA</li>
+	<li>San Francisco, CA</li>
+</ul>
 <p class="bac">
-London
+Offers are made for a specific industry or product group and location during the recruiting process, based on candidate interest and business need. Throughout the recruiting process candidates have the opportunity to learn about each group and meet team members.
 </p>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">

@@ -5,65 +5,90 @@
 <a name="skipmaincontent"></a><h1 class="bac"><%=program.Item("title")%></h1>
 <h2 class="bac">Our Business:</h2>
 <p class="bac">
-Do the details interest you as much as the big picture? As an analyst in our Research group, you&#39;ll work with both as you help to cover large and small companies in a specific industry or an industry sector. You will gather, analyze, and interpret financial data but always in a broader context so you can provide not just information, but insight as well. That&#39;s how you add value.
+The Operations Management Analyst Program (OMAP) Internship gives participants the opportunity for an assignment in one of four sub-lines of business, within one of the following organizations:  Consumer Small Business Bank Technology &#38; Operations, Home Loans and Insurance, Treasury Operations and Customer Service &#38; Solutions.
 </p>
-<br>
-<H3 class="bac">Equity Research</H3>
-<p class="bac">
-Provides institutional and retail clients with in-depth research analysis on more than 20 industries and conducts fundamental analysis on more than 2,600 companies. 
+<img src="../images/clear.gif" width="100%" height="12" alt="" border="0" />
+<H3 class="bacg">Consumer Small Business Banking Technology &#38; Operations (CSBB T&#38;O)</H3>
+<p class="bacg">
+&nbsp;provides end-to-end technology strategy and support to Consumer Small Business Banking, as well as enterprise functions such as payments processing, cash servicing, fulfillment and reconcilement services and image strategy. 
 </p>
-<br>
-<H3 class="bac">Credit Research</H3>
-<p class="bac">
-Provides analysis of corporations&#39; credit-worthiness and credit, cash and derivative markets and makes detailed, actionable investment recommendations to all types of institutional credit and credit derivative investors.
+<ul class="bac">
+	<li>More than 6,000 banking centers and more than 18,000 ATMs supported nationwide</li>
+	<li>Manage 10,000 active check routes that contain over 46,000 scheduled stops</li>
+	<li>Process over 10 billion checks/check images annually</li>
+</ul>
+<img src="../images/clear.gif" width="100%" height="12" alt="" border="0" />
+<H3 class="bacg">Customer Service &#38; Solutions (CS&#38;S)</H3>
+<p class="bacg">
+&nbsp;provides call, e-mail, text chat and fulfillment support for Consumer, Card, Small Business, Business Card, Large Corporate and e-Commerce customers.  They also provide sales support for Deposit, Card and Small Business products; including fulfillment of all products sold in contact centers, and through online channels. 
+</p>
+<ul class="bac">
+	<li>30 contact centers supported through our Contact Center Operations Team</li>
+	<li>Total combined population of over 15,500 associates in Customer Service &#38; Solutions</li>
+</ul>
+<img src="../images/clear.gif" width="100%" height="12" alt="" border="0" />
+<H3 class="bacg">Global Client Services &#38; Operations (GCS&#38;O)</H3>
+<p class="bacg">
+&nbsp;provides integrated treasury and credit fulfillment, service and operations to Large Corporate, Commercial, Government and specialized industry clients around the world. The organization spans 24 countries, with 10,000 associates supporting clients in 77 countries.
+</p>
+<img src="../images/clear.gif" width="100%" height="12" alt="" border="0" />
+<H3 class="bacg">Home Loans &#38; Insurance (HL&#38;I)</H3>
+<p class="bacg">
+&nbsp;Bank of America&#39;s commitment to the mortgage industry is focused on continuous growth, increased teamwork and excellent customer service.  As the nation&#39;s largest mortgage lender and loan servicer, and the world&#39;s most trusted lender, Bank of America Home Loans embraces a commitment to responsible home lending.  Our every action is focused on Bringing Opportunity Home for those we serve, and on assisting new and existing customers in achieving their dreams of home ownership and preservation.
 </p>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
 
 <h2 class="bac">Overview:</h2>  
 <p class="bac">
-As an analyst within Research, you will: 
+The Bank of America OMAP Intern Program is designed to provide undergraduate students with corporate experience in banking operations. Interns are given a true associate experience, as the internship mirrors a full-time position, and includes goal-setting and a formal review process. Interns are required to work 40-hour weeks, for 10 weeks during the summer. On-the-job training, mentoring relationships, and networking opportunities are provided for all interns.
 </p>
-<ul class="bac">
-	<li>Gain insight into specific industry sectors and/or tradable financial instruments and structures </li>
-	<li>Start to develop an internal and external network of internal professionals and clients </li>
-	<li>Develop the necessary confidence and experience to question and challenge senior managers of companies within your sector coverage </li>
-	<li>Receive training in the effective communication of your investment message to large-scale audiences and in one-on-one meetings </li>
-	<li>Contribute and eventually initiate leading edge, non-consensus, market moving research products and reports on corporate, sectors and markets </li>
-	<li>Market your investment recommendations to internal and external clients by phone and face-to-face </li>
-	<li>Contribute to, and make presentations at, investor conferences</li>
-	<li>Develop an understanding of the investment needs and constraints of a wide range of different clients, in order to provide bespoke recommendations and solutions to help them implement their objectives </li>
-</ul>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
 
 <h2 class="bac">Qualifications:</h2>
 <p class="bac">
-Strong academic qualifications are important, but you&#39;ll also need to demonstrate drive, innovation and a genuine interest in the financial markets.  
+Successful candidates will possess and demonstrate the ability to work in a fast-paced, empowered environment. Ideal candidates will have the demonstrated ability to handle multiple, competing priorities; learn new tools/applications quickly; and possess strong interpersonal skills.  Academic experience should include, but is not limited to, one of the following majors/areas of focus:  Business Management, Business Administration, Supply Chain Management, Operations Management, Information Management, Statistics, Economics and Industrial Engineering.
 </p>
-<p class="bac">
-We accept applications from a diverse range of degree disciplines such as the arts and humanities, as well as numerically focused subjects such as economics and mathematics.
-</p>
-<p class="bac">
-You&#39;ll need to be fluent in English and a second European language is also required for some roles.  
-</p>
+<br>
+<H3 class="bac">Candidate Profile</H3>
+<ul class="bac">
+	<li>Studying to graduate with a Bachelor&#39;s degree from an accredited college or university within the United States</li>
+	<li>Strong academic credentials</li>
+	<li>Demonstrated leadership outside the classroom</li>
+	<li>100% geographic flexibility - Candidates must be mobile and willing to relocate for the internship period</li>
+	<li>Willingness to work varied schedules, including swing shift for specific operations positions</li>
+	<li>Solid organization skills, excellent planning ability and project management skills</li>
+	<li>Ability to communicate effectively in both written and verbal communications </li>
+	<li>Exceptional analytical skills </li>
+	<li>High standard of professionalism</li>
+</ul>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
 
 <h2 class="bac">Training:</h2>
 <p class="bac">
-Induction and training starts with an intensive programme. Throughout July and August, you will gain an in-depth introduction to the firm, its culture and global reach, along with other newly hired analysts from around the world. The training will include full instruction on all the relevant tools, techniques and working practices. You will also receive grounding in your chosen business area as you develop your professional skills and teamwork capabilities. 
-</p>
-<p class="bac">
-Once you join a team within your assigned business, you&#39;ll take on real responsibility from an early stage. You&#39;ll be exposed to ongoing development opportunities throughout the programme and encouraged to grow your abilities through on-the-job learning, structured training and study towards your professional qualifications. We&#39;ll support and reward you on the basis of your individual performance. Ultimately, how far and how quickly you progress will be up to you. 
+Interns will participate in a formal program providing orientation and education to learn more about Bank of America&#39;s business, culture and values.  Additionally, interns will participate in various networking and learning opportunities throughout the duration of the summer.
 </p>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
 
 <h2 class="bac">Locations:</h2>
 <p class="bac">
-London
+Opportunities may exist in major U.S. cities across the Bank of America franchise, including but not limited to: 
 </p>
+<ul class="bac">
+	<li>Charlotte, NC</li>
+	<li>Dallas, Plano and Irving, TX</li>
+	<li>Jacksonville and Tampa, FL</li>
+	<li>Phoenix and Tempe, AZ</li>
+	<li>St. Louis, MO</li>
+	<li>Calabasas, Concord, Irvine and San Francisco, CA</li>
+	<li>Chicago, IL</li>
+	<li>Malden, MA</li>
+	<li>Newark, DE</li>
+	<li>Lincoln and East Providence, RI</li>
+</ul>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
 

@@ -5,64 +5,50 @@
 <a name="skipmaincontent"></a><h1 class="bac"><%=program.Item("title")%></h1>
 <h2 class="bac">Our Business:</h2>
 <p class="bac">
-Do the details interest you as much as the big picture? As an analyst in our Research group, you&#39;ll work with both as you help to cover large and small companies in a specific industry or an industry sector. You will gather, analyze, and interpret financial data but always in a broader context so you can provide not just information, but insight as well. That&#39;s how you add value.
+Bank of America Merrill Lynch Public Finance is headquartered in New York, with multiple additional regional offices. Public Finance provides financing solutions to state and local governmental and not-for-profit clients, primarily through tax-exempt bond underwriting.  Clients include states, counties, cities, school districts, institutions of higher education, housing agencies, student loan authorities, public utilities, public transportation agencies, cultural organizations, not-for-profit hospitals and developers. 
 </p>
-<br>
-<H3 class="bac">Equity Research</H3>
-<p class="bac">
-Provides institutional and retail clients with in-depth research analysis on more than 20 industries and conducts fundamental analysis on more than 2,600 companies. 
-</p>
-<br>
-<H3 class="bac">Credit Research</H3>
-<p class="bac">
-Provides analysis of corporations&#39; credit-worthiness and credit, cash and derivative markets and makes detailed, actionable investment recommendations to all types of institutional credit and credit derivative investors.
-</p>
+
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
 
 <h2 class="bac">Overview:</h2>  
 <p class="bac">
-As an analyst within Research, you will: 
+As active team members in Public Finance, Interns assist bankers in capital raising and strategic advisory transactions for governmental, not-for-profit and/or developer clients.  Interns are called on to: 
 </p>
 <ul class="bac">
-	<li>Gain insight into specific industry sectors and/or tradable financial instruments and structures </li>
-	<li>Start to develop an internal and external network of internal professionals and clients </li>
-	<li>Develop the necessary confidence and experience to question and challenge senior managers of companies within your sector coverage </li>
-	<li>Receive training in the effective communication of your investment message to large-scale audiences and in one-on-one meetings </li>
-	<li>Contribute and eventually initiate leading edge, non-consensus, market moving research products and reports on corporate, sectors and markets </li>
-	<li>Market your investment recommendations to internal and external clients by phone and face-to-face </li>
-	<li>Contribute to, and make presentations at, investor conferences</li>
-	<li>Develop an understanding of the investment needs and constraints of a wide range of different clients, in order to provide bespoke recommendations and solutions to help them implement their objectives </li>
+	<li>Develop and maintain financial cash flow models, using proprietary and industry standard software </li>
+	<li>Support various financial analyses, including bond structuring</li>
+	<li>Perform comprehensive and in-depth client and credit research</li>
+	<li>Prepare presentations and other materials for clients</li>
+	<li>Communicate and interact with deal team members and clients</li>
 </ul>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
 
 <h2 class="bac">Qualifications:</h2>
 <p class="bac">
-Strong academic qualifications are important, but you&#39;ll also need to demonstrate drive, innovation and a genuine interest in the financial markets.  
-</p>
-<p class="bac">
-We accept applications from a diverse range of degree disciplines such as the arts and humanities, as well as numerically focused subjects such as economics and mathematics.
-</p>
-<p class="bac">
-You&#39;ll need to be fluent in English and a second European language is also required for some roles.  
+Candidates must demonstrate an interest in the public sector, and a combination of academic aptitude, quantitative skills, strategic and creative thinking, and distinguished written/oral communications skills. Analysts are required to manage several projects at once, and to work effectively as an individual and as part of a team. Some common driving characteristics we look for include:  assertiveness, attention to detail, exceptional academic achievement, initiative, team focus, self-confidence, and a strong work ethic.  Strong quantitative skills and computer/software skills are a must. A background in Mathematics, Accounting, Finance or Engineering is preferred.   
 </p>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
 
 <h2 class="bac">Training:</h2>
-<p class="bac">
-Induction and training starts with an intensive programme. Throughout July and August, you will gain an in-depth introduction to the firm, its culture and global reach, along with other newly hired analysts from around the world. The training will include full instruction on all the relevant tools, techniques and working practices. You will also receive grounding in your chosen business area as you develop your professional skills and teamwork capabilities. 
-</p>
-<p class="bac">
-Once you join a team within your assigned business, you&#39;ll take on real responsibility from an early stage. You&#39;ll be exposed to ongoing development opportunities throughout the programme and encouraged to grow your abilities through on-the-job learning, structured training and study towards your professional qualifications. We&#39;ll support and reward you on the basis of your individual performance. Ultimately, how far and how quickly you progress will be up to you. 
-</p>
+<ul class="bac">
+	<li>Orientation to review firm policies and professional practices</li>
+	<li>Formal training program on the company, organizational structure, product groups and technical skills</li>
+	<li>Day of community service</li>
+	<li>Formal mentorship program</li>
+	<li>Educational sessions hosted by various groups within Global Markets and Banking</li>
+	<li>Summer Senior Speaker Series - opportunity to hear from business heads</li>
+	<li>Formal performance review sessions for ongoing feedback</li>
+	<li>Networking events throughout the summer</li>
+</ul>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
 
 <h2 class="bac">Locations:</h2>
 <p class="bac">
-London
+Positions may be in New York, California, Florida, Chicago and/or Texas.  Offers are made for a specific office.
 </p>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">

@@ -5,64 +5,89 @@
 <a name="skipmaincontent"></a><h1 class="bac"><%=program.Item("title")%></h1>
 <h2 class="bac">Our Business:</h2>
 <p class="bac">
-Do the details interest you as much as the big picture? As an analyst in our Research group, you&#39;ll work with both as you help to cover large and small companies in a specific industry or an industry sector. You will gather, analyze, and interpret financial data but always in a broader context so you can provide not just information, but insight as well. That&#39;s how you add value.
-</p>
-<br>
-<H3 class="bac">Equity Research</H3>
-<p class="bac">
-Provides institutional and retail clients with in-depth research analysis on more than 20 industries and conducts fundamental analysis on more than 2,600 companies. 
-</p>
-<br>
-<H3 class="bac">Credit Research</H3>
-<p class="bac">
-Provides analysis of corporations&#39; credit-worthiness and credit, cash and derivative markets and makes detailed, actionable investment recommendations to all types of institutional credit and credit derivative investors.
+The Global Human Resources (GHR) group at Bank of America enables the company to drive revenue through attracting, developing and retaining a world-class workforce. GHR strategy aligns to business strategy to ensure the company has the talent needed to achieve its business objectives. Key units within Global HR are Staffing, Compensation, Benefits, Shared Services, Leadership Development, Learning, and a team of Generalists. In addition to advising business leaders, Global HR helps the company deliver a higher standard of working environment, benefits, work/life commitment and satisfaction for our 300,000 associates.  
 </p>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
 
 <h2 class="bac">Overview:</h2>  
 <p class="bac">
-As an analyst within Research, you will: 
+The Human Resources Development Program is a 2-year rotational program, designed to create a pipeline of talent that can move into key generalist or specialist areas within Global HR, and help drive our business forward into the future. The program is comprised of two job assignments, each lasting 12 months in length. Throughout the program, participants will: 
 </p>
 <ul class="bac">
-	<li>Gain insight into specific industry sectors and/or tradable financial instruments and structures </li>
-	<li>Start to develop an internal and external network of internal professionals and clients </li>
-	<li>Develop the necessary confidence and experience to question and challenge senior managers of companies within your sector coverage </li>
-	<li>Receive training in the effective communication of your investment message to large-scale audiences and in one-on-one meetings </li>
-	<li>Contribute and eventually initiate leading edge, non-consensus, market moving research products and reports on corporate, sectors and markets </li>
-	<li>Market your investment recommendations to internal and external clients by phone and face-to-face </li>
-	<li>Contribute to, and make presentations at, investor conferences</li>
-	<li>Develop an understanding of the investment needs and constraints of a wide range of different clients, in order to provide bespoke recommendations and solutions to help them implement their objectives </li>
+	<li>Develop the skills and core competencies necessary to potentially move into leadership positions upon completion of the 2- year program</li>
+	<li>Have a formal support structure including a designated assignment manager, program manager, peer coach, learning curriculum, program events, monthly program meetings, and structured on-boarding orientation</li>
+	<li>Receive ongoing feedback on leadership and performance</li>
+	<li>Gain exposure to various HR functions and lines of business, and access to various leadership teams, through work assignments and networking events</li>
+	<li>Own and manage their careers</li>
 </ul>
+<p class="bac">
+Potential Program Rotations include: 
+</p>
+<br>
+<H3 class="bac">Leadership Development</H3>
+<ul class="bac">
+	<li>Consult with client managers on various developmental activities, which may include: Executive and Management Development, Succession Planning, Key High Potentials&#39; Development, Organization Development, Change Management and Change Communications</li>
+	<li>Design/implement Leadership &#38; Organizational Development processes that cut across organizational boundaries</li>
+	<li>Leverage expertise in team and organization assessment, design and development, to influence changes in alignment, structure and roles</li>
+	<li>Create a clear vision of the ideal organization or team environment and steer leaders toward it </li>
+	<li>Partner successfully with executive management to accelerate strategy implementation</li>
+</ul>
+<br>
+<H3 class="bac">Learning &#38; Instructional Design</H3>
+<ul class="bac">
+	<li>Act as liaison between Learning Team and the lines of business around specific learning needs  </li>
+	<li>Assist Learning Managers and L&#38;LD (Learning &#38; Leadership Development) client teams to create end-to-end learning solutions that support and drive business strategy  </li>
+	<li>Create LOB learning plans, map learning solutions and monitor progress against plans  </li>
+	<li>Assist with design or effective implementation of appropriate learning solutions including web-based training, instructor-led learning, on-line and paper-based references, and other forms of learning</li>
+</ul>
+<br>
+<H3 class="bac">Compensation</H3>
+<ul class="bac">
+	<li>Design, develop and deliver compensation strategy innovations that help clients across all businesses drive business objectives </li>
+	<li>Work with large client groups on the issues affecting their business to create competitive, innovative compensation plans that drive short and long-term business growth </li>
+	<li>Possess the specialized knowledge and skills to address key challenges, solve major job-relevant problems and otherwise perform the technical responsibilities of the job with a high level of competence</li>
+</ul>
+<br>
+<H3 class="bac">Workforce Planning</H3>
+<ul class="bac">
+	<li>Integrate financial data from multiple lines of business, to produce accurate and timely monthly hiring forecast</li>
+	<li>Ensure hiring forecast accuracy and recognize demand shifts to forecast future performance  </li>
+	<li>Achieve hiring targets and maintain customer requirements by uploading the base hiring forecast in the demand planning system, monitor performance, and partner with other Process Design Consultants to recommend action plan(s)</li>
+</ul>
+<br>
+<H3 class="bac">Shared Services</H3>
+<ul class="bac">
+	<li><b>Workforce Communications &#38; Engagement:</b>  
+        <ul>
+	<li>Partner successfully with Compensation and Benefits management to develop audience adoption and engagement plans for key initiatives, to enhance organizational programs and to accelerate understanding across the organization</li>
+	<li>Leverage expertise in building partnerships, developing communication plans to influence changes in compensation and benefit programs, and delivering plans to management in clear and concise fashion </li>
+        </ul></li>
+	<li><b>Case Management:</b>  
+        <ul>
+	<li>Provide reviews of “high impact” (those that can not be heard in court, or which carry high financial or exposure risk) personnel issues that have not been resolved by management, a Human Resource Manager, or the Advice and Counsel Advisor </li>
+	<li>Investigate allegations of sexual harassment and Title VII discrimination, and situations involving group or concerted activity</li>
+        </ul></li>
+</ul>
+
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
 
 <h2 class="bac">Qualifications:</h2>
-<p class="bac">
-Strong academic qualifications are important, but you&#39;ll also need to demonstrate drive, innovation and a genuine interest in the financial markets.  
-</p>
-<p class="bac">
-We accept applications from a diverse range of degree disciplines such as the arts and humanities, as well as numerically focused subjects such as economics and mathematics.
-</p>
-<p class="bac">
-You&#39;ll need to be fluent in English and a second European language is also required for some roles.  
-</p>
-
-<img src="../images/clear.gif" class="bac" alt=""><br clear="all">
-
-<h2 class="bac">Training:</h2>
-<p class="bac">
-Induction and training starts with an intensive programme. Throughout July and August, you will gain an in-depth introduction to the firm, its culture and global reach, along with other newly hired analysts from around the world. The training will include full instruction on all the relevant tools, techniques and working practices. You will also receive grounding in your chosen business area as you develop your professional skills and teamwork capabilities. 
-</p>
-<p class="bac">
-Once you join a team within your assigned business, you&#39;ll take on real responsibility from an early stage. You&#39;ll be exposed to ongoing development opportunities throughout the programme and encouraged to grow your abilities through on-the-job learning, structured training and study towards your professional qualifications. We&#39;ll support and reward you on the basis of your individual performance. Ultimately, how far and how quickly you progress will be up to you. 
-</p>
+<ul class="bac">
+	<li>MBA or advanced degree in Industrial/Organizational Psychology, Human Resources Management, Labor Relations, or other related degree</li>
+	<li>Minimum of three years work experience, demonstrating strong analytical, financial and relationship skills, in a fast-paced, corporate or management consulting environment</li>
+	<li>Strong work ethic, ability to multi-task, teamwork-orientation</li>
+	<li>Demonstrated ability to influence senior executives, establish and maintain collaborative partnerships and provide thought leadership</li>
+	<li>Excellent strategic and process thinking abilities</li>
+	<li>Ability to architect and implement large change, and operate easily between concept and operation</li>
+</ul>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
 
 <h2 class="bac">Locations:</h2>
 <p class="bac">
-London
+The majority of the opportunities exist in Charlotte, NC and New York, NY, with LIMITED opportunities in other major US cities across the Bank of America franchise, including but not limited to: Calabasas, CA, or Boston, MA.  Other locations are TBD.
 </p>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">

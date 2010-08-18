@@ -5,64 +5,64 @@
 <a name="skipmaincontent"></a><h1 class="bac"><%=program.Item("title")%></h1>
 <h2 class="bac">Our Business:</h2>
 <p class="bac">
-Do the details interest you as much as the big picture? As an analyst in our Research group, you&#39;ll work with both as you help to cover large and small companies in a specific industry or an industry sector. You will gather, analyze, and interpret financial data but always in a broader context so you can provide not just information, but insight as well. That&#39;s how you add value.
+Global Commercial Banking (GCB) serves more than 100,000 business banking, and more than 30,000 middle-market, clients through dedicated client teams, who provide seamless delivery of the company&#39;s full capabilities, including investment banking and M&#38;A, wealth and investment management, integrated credit and treasury solutions, and international banking services.
 </p>
-<br>
-<H3 class="bac">Equity Research</H3>
 <p class="bac">
-Provides institutional and retail clients with in-depth research analysis on more than 20 industries and conducts fundamental analysis on more than 2,600 companies. 
+GCB consists of six core businesses including:
 </p>
-<br>
-<H3 class="bac">Credit Research</H3>
-<p class="bac">
-Provides analysis of corporations&#39; credit-worthiness and credit, cash and derivative markets and makes detailed, actionable investment recommendations to all types of institutional credit and credit derivative investors.
-</p>
+<ul class="bac">
+	<li>Middle-Market </li>
+	<li>Business Banking </li>
+	<li>Specialized Industries  </li>
+	<li>Commercial Real Estate Banking </li>
+	<li>Bank of America Business Capital </li>
+	<li>Dealer Financial Services </li>
+</ul>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
 
 <h2 class="bac">Overview:</h2>  
 <p class="bac">
-As an analyst within Research, you will: 
+Summer Analysts are provided corporate experiences with one of the six core business within Global Commercial Banking.   
+</p>
+<p class="bac">
+Responsibilities include:
 </p>
 <ul class="bac">
-	<li>Gain insight into specific industry sectors and/or tradable financial instruments and structures </li>
-	<li>Start to develop an internal and external network of internal professionals and clients </li>
-	<li>Develop the necessary confidence and experience to question and challenge senior managers of companies within your sector coverage </li>
-	<li>Receive training in the effective communication of your investment message to large-scale audiences and in one-on-one meetings </li>
-	<li>Contribute and eventually initiate leading edge, non-consensus, market moving research products and reports on corporate, sectors and markets </li>
-	<li>Market your investment recommendations to internal and external clients by phone and face-to-face </li>
-	<li>Contribute to, and make presentations at, investor conferences</li>
-	<li>Develop an understanding of the investment needs and constraints of a wide range of different clients, in order to provide bespoke recommendations and solutions to help them implement their objectives </li>
+	<li>Performing various financial analyses</li>
+	<li>Conducting comprehensive and in-depth company and industry research</li>
+	<li>Preparing presentations and other materials </li>
+	<li>Managing several projects at once and working effectively as an individual and as part of a team</li>
 </ul>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
 
 <h2 class="bac">Qualifications:</h2>
-<p class="bac">
-Strong academic qualifications are important, but you&#39;ll also need to demonstrate drive, innovation and a genuine interest in the financial markets.  
-</p>
-<p class="bac">
-We accept applications from a diverse range of degree disciplines such as the arts and humanities, as well as numerically focused subjects such as economics and mathematics.
-</p>
-<p class="bac">
-You&#39;ll need to be fluent in English and a second European language is also required for some roles.  
-</p>
+<ul class="bac">
+	<li>Rising senior with outstanding academic qualifications</li>
+	<li>A track record of superior performance in extracurricular and professional activities</li>
+	<li>Strong quantitative/analytical skills; attention to detail and client focus</li>
+	<li>Strategic and creative thinking; distinguished written and oral communications skills</li>
+	<li>Assertiveness, initiative, leadership, strong work ethic, team focus</li>
+	<li>Ability to learn quickly, and to take on new responsibilities</li>
+	<li>Dedication to building a career in the investment banking industry</li>
+</ul>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
 
 <h2 class="bac">Training:</h2>
-<p class="bac">
-Induction and training starts with an intensive programme. Throughout July and August, you will gain an in-depth introduction to the firm, its culture and global reach, along with other newly hired analysts from around the world. The training will include full instruction on all the relevant tools, techniques and working practices. You will also receive grounding in your chosen business area as you develop your professional skills and teamwork capabilities. 
-</p>
-<p class="bac">
-Once you join a team within your assigned business, you&#39;ll take on real responsibility from an early stage. You&#39;ll be exposed to ongoing development opportunities throughout the programme and encouraged to grow your abilities through on-the-job learning, structured training and study towards your professional qualifications. We&#39;ll support and reward you on the basis of your individual performance. Ultimately, how far and how quickly you progress will be up to you. 
-</p>
+<ul class="bac">
+	<li>Formal training providing overviews of Bank of America Merrill Lynch, its business divisions, organizational structure, product groups and technology</li>
+	<li>Summer senior speakers series </li>
+	<li>Access to the electronic learning network </li>
+	<li>Extensive peer and senior mentoring </li>
+</ul>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
 
 <h2 class="bac">Locations:</h2>
 <p class="bac">
-London
+Positions are available in major markets across the Bank of America Merrill Lynch footprint.
 </p>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">

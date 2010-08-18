@@ -5,64 +5,57 @@
 <a name="skipmaincontent"></a><h1 class="bac"><%=program.Item("title")%></h1>
 <h2 class="bac">Our Business:</h2>
 <p class="bac">
-Do the details interest you as much as the big picture? As an analyst in our Research group, you&#39;ll work with both as you help to cover large and small companies in a specific industry or an industry sector. You will gather, analyze, and interpret financial data but always in a broader context so you can provide not just information, but insight as well. That&#39;s how you add value.
-</p>
-<br>
-<H3 class="bac">Equity Research</H3>
-<p class="bac">
-Provides institutional and retail clients with in-depth research analysis on more than 20 industries and conducts fundamental analysis on more than 2,600 companies. 
-</p>
-<br>
-<H3 class="bac">Credit Research</H3>
-<p class="bac">
-Provides analysis of corporations&#39; credit-worthiness and credit, cash and derivative markets and makes detailed, actionable investment recommendations to all types of institutional credit and credit derivative investors.
+Enterprise Technology and Delivery (ET&#38;D) executes on Bank of America customer, client and associate needs and requests, through technology, systems and call centers, among other tools and channels. This includes mainframe, mid-range and distributed server operations; client server technology; local and wide area network functions; telecommunications; and other critical systems. ET&#38;D teams include Infrastructure Engineering, Infrastructure Operations, Enterprise Applications, Shared Services, Associate Technology, Communication &#38; Innovation, Enterprise Information Management, China Construction Bank, Business Management Services and Global Delivery Center of Expertise.
 </p>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
 
 <h2 class="bac">Overview:</h2>  
 <p class="bac">
-As an analyst within Research, you will: 
+The Bank of America Intern Program is designed to provide students with corporate experience in business banking policies and practices. Students are given a true associate experience, as internships mirror full-time positions and include goal-setting and a formal review process. Interns are required to work 40-hour weeks for 10 weeks between the months of June and August. On-the-job training, mentoring relationships, and networking opportunities are provided for all interns.   
 </p>
-<ul class="bac">
-	<li>Gain insight into specific industry sectors and/or tradable financial instruments and structures </li>
-	<li>Start to develop an internal and external network of internal professionals and clients </li>
-	<li>Develop the necessary confidence and experience to question and challenge senior managers of companies within your sector coverage </li>
-	<li>Receive training in the effective communication of your investment message to large-scale audiences and in one-on-one meetings </li>
-	<li>Contribute and eventually initiate leading edge, non-consensus, market moving research products and reports on corporate, sectors and markets </li>
-	<li>Market your investment recommendations to internal and external clients by phone and face-to-face </li>
-	<li>Contribute to, and make presentations at, investor conferences</li>
-	<li>Develop an understanding of the investment needs and constraints of a wide range of different clients, in order to provide bespoke recommendations and solutions to help them implement their objectives </li>
-</ul>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
 
 <h2 class="bac">Qualifications:</h2>
 <p class="bac">
-Strong academic qualifications are important, but you&#39;ll also need to demonstrate drive, innovation and a genuine interest in the financial markets.  
+The ideal candidate: 
 </p>
-<p class="bac">
-We accept applications from a diverse range of degree disciplines such as the arts and humanities, as well as numerically focused subjects such as economics and mathematics.
-</p>
-<p class="bac">
-You&#39;ll need to be fluent in English and a second European language is also required for some roles.  
-</p>
-
-<img src="../images/clear.gif" class="bac" alt=""><br clear="all">
-
-<h2 class="bac">Training:</h2>
-<p class="bac">
-Induction and training starts with an intensive programme. Throughout July and August, you will gain an in-depth introduction to the firm, its culture and global reach, along with other newly hired analysts from around the world. The training will include full instruction on all the relevant tools, techniques and working practices. You will also receive grounding in your chosen business area as you develop your professional skills and teamwork capabilities. 
-</p>
-<p class="bac">
-Once you join a team within your assigned business, you&#39;ll take on real responsibility from an early stage. You&#39;ll be exposed to ongoing development opportunities throughout the programme and encouraged to grow your abilities through on-the-job learning, structured training and study towards your professional qualifications. We&#39;ll support and reward you on the basis of your individual performance. Ultimately, how far and how quickly you progress will be up to you. 
-</p>
+<ul class="bac">
+	<li>Exhibits strong drive for results, and a sense of urgency</li>
+	<li>Succeeds in a collaborative environment </li>
+	<li>Enjoys teamwork and partnering with others</li>
+	<li>Possesses excellent organization skills, judgment and the ability to learn the organizational structure and the formal/informal workings of the organization</li>
+	<li>Understands technology and business requirements</li>
+	<li>Conveys a strong sense of customer and associate satisfaction to drive shareholders value</li>
+	<li>Is proficient with the Microsoft Suite and other basic applications such as Outlook </li>
+	<li>Possesses technical skills including knowledge of several of the following technologies: UNIX, Windows NT/2000, network architecture, databases, desktop and server hardware, information security concepts and technologies, project management skills and financial industry knowledge</li>
+	<li>Must be enrolled in a full-time degree program, pursuing a major in Computer Science, Business, Engineering, or Information Technology, with a preferred Grade Point Average of a 3.0 on a 4 point scale </li>
+	<li>Must be a US citizen or have permanent US residency</li>
+</ul>
+<br>
+<H3 class="bac">Associate Responsibilities</H3>
+<ul class="bac">
+	<li>Designs, develops, implements, enhances and/or operates information systems, communications hardware and/or software in support of business goals</li>
+	<li>Analyzes, tracks and troubleshoots performance of assigned system or network to ensure that all information processing and delivery requirements are met</li>
+	<li>Supports the configuration, implementation, administration, monitoring and on-going maintenance of large technology projects</li>
+	<li>Provides project management support relating to process improvement in technology</li>
+	<li>Provides analytical support for data collection and measurements</li>
+	<li>Participates in design, development and implementation of complex applications, often using new technologies</li>
+</ul>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
 
 <h2 class="bac">Locations:</h2>
 <p class="bac">
-London
+Charlotte, North Carolina	
+</p>
+
+<img src="../images/clear.gif" class="bac" alt=""><br clear="all">
+
+<h2 class="bac">Full-Time Opportunities:</h2>
+<p class="bac">
+Rising seniors who meet or exceed internship performance expectations are eligible to receive a full-time offer of employment following their internships. Full-time ET&#38;D hires will participate in the ET&#38;D Leader Development Rotational Program, a 24-month rotational program consisting of two rotations within ET&#38;D.  Associates will be placed in a permanent role after rotations are complete.	
 </p>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
@@ -75,8 +68,8 @@ London
 <br>
 				</td>
 				<td width="205" height="100%" valign="top" style="padding-top: 8px;" align="right">
-<img src="../Includes/pages/camp/profile/OpsMBA_Hamdija.jpg" width="205" height="153" alt="Hamadija" border="0"><br clear="all">
-<p align="center" style="margin: 6px 0px 24px 0px;"><a href="../campus-meet-our-people-profile-Hamdija.aspx" class="p" title="View Hamadija&#39;s profile.">View Hamadija&#39;s profile</a></p>
+<img src="../Includes/pages/camp/profile/OpsMBA_Hamdija.jpg" width="205" height="153" alt="Hamdija" border="0"><br clear="all">
+<p align="center" style="margin: 6px 0px 24px 0px;"><a href="../campus-meet-our-people-profile-Hamdija.aspx" class="p" title="View Hamdija&#39;s profile.">View Hamdija&#39;s profile</a></p>
 <!-- #include file="../../camprnav_region.asp" -->
 				</td>
 			</tr>

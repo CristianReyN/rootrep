@@ -5,64 +5,47 @@
 <a name="skipmaincontent"></a><h1 class="bac"><%=program.Item("title")%></h1>
 <h2 class="bac">Our Business:</h2>
 <p class="bac">
-Do the details interest you as much as the big picture? As an analyst in our Research group, you&#39;ll work with both as you help to cover large and small companies in a specific industry or an industry sector. You will gather, analyze, and interpret financial data but always in a broader context so you can provide not just information, but insight as well. That&#39;s how you add value.
-</p>
-<br>
-<H3 class="bac">Equity Research</H3>
-<p class="bac">
-Provides institutional and retail clients with in-depth research analysis on more than 20 industries and conducts fundamental analysis on more than 2,600 companies. 
-</p>
-<br>
-<H3 class="bac">Credit Research</H3>
-<p class="bac">
-Provides analysis of corporations&#39; credit-worthiness and credit, cash and derivative markets and makes detailed, actionable investment recommendations to all types of institutional credit and credit derivative investors.
+A division of Global Banking and Markets (GBAM), the Global Corporate and Financial Institutions Treasury Product Delivery team provides integrated treasury, liquidity and debt solutions to Global Corporate clients and financial institutions. As a core member of the client team, the Product Delivery Team partners closely with groups across Corporate Banking including; Product Management, E-commerce, Card, and Debt Product Delivery teams, to deliver integrated solutions to our client. Treasury analysts work with clients operating around the globe, with annual revenues of greater than $2B, as well as financial institutions and financial services companies.
 </p>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
 
 <h2 class="bac">Overview:</h2>  
 <p class="bac">
-As an analyst within Research, you will: 
+The Summer Analyst Program emphasizes on-the-job training, augmented by classroom instruction, focused on technical, analytical and professional skills. Functional areas include treasury management, financial modeling and credit/risk fundamentals, and relationship management.  
 </p>
-<ul class="bac">
-	<li>Gain insight into specific industry sectors and/or tradable financial instruments and structures </li>
-	<li>Start to develop an internal and external network of internal professionals and clients </li>
-	<li>Develop the necessary confidence and experience to question and challenge senior managers of companies within your sector coverage </li>
-	<li>Receive training in the effective communication of your investment message to large-scale audiences and in one-on-one meetings </li>
-	<li>Contribute and eventually initiate leading edge, non-consensus, market moving research products and reports on corporate, sectors and markets </li>
-	<li>Market your investment recommendations to internal and external clients by phone and face-to-face </li>
-	<li>Contribute to, and make presentations at, investor conferences</li>
-	<li>Develop an understanding of the investment needs and constraints of a wide range of different clients, in order to provide bespoke recommendations and solutions to help them implement their objectives </li>
-</ul>
+<p class="bac">
+Summer analyst roles provide broad exposure and understanding of key functional areas. Summer analysts receive exposure to treasury solutions, product management/innovation and risk management, with intensive focus on how to best deliver innovative treasury solutions to our clients. 
+</p>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
 
 <h2 class="bac">Qualifications:</h2>
-<p class="bac">
-Strong academic qualifications are important, but you&#39;ll also need to demonstrate drive, innovation and a genuine interest in the financial markets.  
-</p>
-<p class="bac">
-We accept applications from a diverse range of degree disciplines such as the arts and humanities, as well as numerically focused subjects such as economics and mathematics.
-</p>
-<p class="bac">
-You&#39;ll need to be fluent in English and a second European language is also required for some roles.  
-</p>
+<ul class="bac">
+	<li>Rising senior with outstanding academic qualifications</li>
+	<li>A track record of superior performance in extracurricular and professional activities</li>
+	<li>Strong quantitative/analytical skills, attention to detail and client focus</li>
+	<li>Strategic and creative thinking; distinguished written and oral communications skills</li>
+	<li>Assertiveness, initiative, leadership, strong work ethic, team focus</li>
+	<li>Ability to learn quickly and take on new responsibilities</li>
+	<li>Dedication to building a career in the investment banking industry</li>
+</ul>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
 
 <h2 class="bac">Training:</h2>
-<p class="bac">
-Induction and training starts with an intensive programme. Throughout July and August, you will gain an in-depth introduction to the firm, its culture and global reach, along with other newly hired analysts from around the world. The training will include full instruction on all the relevant tools, techniques and working practices. You will also receive grounding in your chosen business area as you develop your professional skills and teamwork capabilities. 
-</p>
-<p class="bac">
-Once you join a team within your assigned business, you&#39;ll take on real responsibility from an early stage. You&#39;ll be exposed to ongoing development opportunities throughout the programme and encouraged to grow your abilities through on-the-job learning, structured training and study towards your professional qualifications. We&#39;ll support and reward you on the basis of your individual performance. Ultimately, how far and how quickly you progress will be up to you. 
-</p>
+<ul class="bac">
+	<li>Formal training providing overviews of Bank of America Merrill Lynch, its business divisions, organizational structure, product groups and technology</li>
+	<li>Summer senior speakers series </li>
+	<li>Access to the electronic learning network </li>
+	<li>Extensive peer and senior mentoring </li>
+</ul>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
 
 <h2 class="bac">Locations:</h2>
 <p class="bac">
-London
+Positions are available in major markets across the Bank of America footprint. Line of business and location assignment is based on business need and candidate interest. Geographic flexibility is required at the end of the program in an effort to fill business-critical roles.
 </p>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">

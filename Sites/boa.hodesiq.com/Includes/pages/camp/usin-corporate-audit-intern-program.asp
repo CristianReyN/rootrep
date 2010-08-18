@@ -5,64 +5,48 @@
 <a name="skipmaincontent"></a><h1 class="bac"><%=program.Item("title")%></h1>
 <h2 class="bac">Our Business:</h2>
 <p class="bac">
-Do the details interest you as much as the big picture? As an analyst in our Research group, you&#39;ll work with both as you help to cover large and small companies in a specific industry or an industry sector. You will gather, analyze, and interpret financial data but always in a broader context so you can provide not just information, but insight as well. That&#39;s how you add value.
+Corporate Audit is responsible for performing independent reviews and tests to ensure that appropriate controls over risk are in place, and functioning properly throughout Bank of America. The department covers all areas of the company, and performs reviews based upon assessments of the higher risk items to the company.
 </p>
-<br>
-<H3 class="bac">Equity Research</H3>
 <p class="bac">
-Provides institutional and retail clients with in-depth research analysis on more than 20 industries and conducts fundamental analysis on more than 2,600 companies. 
-</p>
-<br>
-<H3 class="bac">Credit Research</H3>
-<p class="bac">
-Provides analysis of corporations&#39; credit-worthiness and credit, cash and derivative markets and makes detailed, actionable investment recommendations to all types of institutional credit and credit derivative investors.
+The group regularly provides management, and the Board of Directors, with a thorough and independent assessment of the company&#39;s risk management systems and internal controls. Additionally, Corporate Audit provides risk-based advice and counsel to management to help develop and maintain an appropriate customer-focused risk management culture that supports the company&#39;s business objectives.
 </p>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
 
 <h2 class="bac">Overview:</h2>  
 <p class="bac">
-As an analyst within Research, you will: 
+Corporate Audit maintains robust processes for reviewing risk and controls throughout the company. Each business is closely examined and risk assessed, whereby decisions to conduct specific audit jobs are made, based upon the risk assessments. When specific audit jobs are conducted, each auditor is charged with understanding the process within the business, risk assessing those processes, and evaluating the controls associated with the processes. This provides the opportunity for each auditor to closely work with and influence each business regarding their control infrastructure.
 </p>
-<ul class="bac">
-	<li>Gain insight into specific industry sectors and/or tradable financial instruments and structures </li>
-	<li>Start to develop an internal and external network of internal professionals and clients </li>
-	<li>Develop the necessary confidence and experience to question and challenge senior managers of companies within your sector coverage </li>
-	<li>Receive training in the effective communication of your investment message to large-scale audiences and in one-on-one meetings </li>
-	<li>Contribute and eventually initiate leading edge, non-consensus, market moving research products and reports on corporate, sectors and markets </li>
-	<li>Market your investment recommendations to internal and external clients by phone and face-to-face </li>
-	<li>Contribute to, and make presentations at, investor conferences</li>
-	<li>Develop an understanding of the investment needs and constraints of a wide range of different clients, in order to provide bespoke recommendations and solutions to help them implement their objectives </li>
-</ul>
+<p class="bac">
+The businesses that Corporate Audit covers include: Global Markets, Global Banking, Global Wealth Management, Card, Deposits, Home Loans, Staff Support, Technology and all international operations.
+</p>
+<p class="bac">
+Corporate Audit seeks associates who have a desire to adapt and to learn the multiple businesses of the company. As an intern, you will work closely with the internal auditors and learn the processes of Bank of America. The internship will last approximately 10-12 weeks, working a 40-hour work week. 
+</p>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
 
 <h2 class="bac">Qualifications:</h2>
-<p class="bac">
-Strong academic qualifications are important, but you&#39;ll also need to demonstrate drive, innovation and a genuine interest in the financial markets.  
-</p>
-<p class="bac">
-We accept applications from a diverse range of degree disciplines such as the arts and humanities, as well as numerically focused subjects such as economics and mathematics.
-</p>
-<p class="bac">
-You&#39;ll need to be fluent in English and a second European language is also required for some roles.  
-</p>
+<ul class="bac">
+	<li>Pursuing a Bachelor&#39;s or Master&#39;s degree in Accounting, Finance, Computer Sciences or General Business</li>
+	<li>Grade Point Average of at least 3.0 on a 4 point scale </li>
+	<li>Strong communication skills (both written and verbal)</li>
+	<li>Knowledge of statistics, risk management and/or Six Sigma (or other Quality programs) desirable</li>
+	<li>Positive attitude, flexibility, open mindedness, decisiveness, and commitment to do what it takes to get the job done, are attributes that are key to success</li>
+</ul>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
 
 <h2 class="bac">Training:</h2>
 <p class="bac">
-Induction and training starts with an intensive programme. Throughout July and August, you will gain an in-depth introduction to the firm, its culture and global reach, along with other newly hired analysts from around the world. The training will include full instruction on all the relevant tools, techniques and working practices. You will also receive grounding in your chosen business area as you develop your professional skills and teamwork capabilities. 
-</p>
-<p class="bac">
-Once you join a team within your assigned business, you&#39;ll take on real responsibility from an early stage. You&#39;ll be exposed to ongoing development opportunities throughout the programme and encouraged to grow your abilities through on-the-job learning, structured training and study towards your professional qualifications. We&#39;ll support and reward you on the basis of your individual performance. Ultimately, how far and how quickly you progress will be up to you. 
+Interns undergo a multi-phase training and development process including web based training, team coaches, and peer coaches.  Associates in this program will build a valuable network with other interns in Audit and throughout Bank of America as part of the Global Campus program.
 </p>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
 
 <h2 class="bac">Locations:</h2>
 <p class="bac">
-London
+
 </p>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">

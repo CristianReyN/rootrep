@@ -5,64 +5,81 @@
 <a name="skipmaincontent"></a><h1 class="bac"><%=program.Item("title")%></h1>
 <h2 class="bac">Our Business:</h2>
 <p class="bac">
-Do the details interest you as much as the big picture? As an analyst in our Research group, you&#39;ll work with both as you help to cover large and small companies in a specific industry or an industry sector. You will gather, analyze, and interpret financial data but always in a broader context so you can provide not just information, but insight as well. That&#39;s how you add value.
+Bank of America Merrill Lynch Global Markets Sales and Trading professionals deliver innovative solutions and exceptional execution, to help clients meet their complex financial objectives. We make markets in virtually all major asset classes, covering both the Debt and Equity product spectrums. We are active in both the Cash and Derivative markets. We have a global presence, with offices throughout the United States, Europe and Asia.  
 </p>
-<br>
-<H3 class="bac">Equity Research</H3>
 <p class="bac">
-Provides institutional and retail clients with in-depth research analysis on more than 20 industries and conducts fundamental analysis on more than 2,600 companies. 
+Bank of America Merrill Lynch uses an integrated approach to ensure our solutions meet client needs. Our functional areas of expertise - Sales, Trading, Research and Capital Markets - work together, creating a unique, team-oriented culture that fuels collaborative thinking. Our approach has made us a premier provider to our clients, which include institutions, corporations and consumer entities. Our institutional focus includes hedge funds, money managers, mutual funds, insurance companies and banks. 
 </p>
-<br>
-<H3 class="bac">Credit Research</H3>
 <p class="bac">
-Provides analysis of corporations&#39; credit-worthiness and credit, cash and derivative markets and makes detailed, actionable investment recommendations to all types of institutional credit and credit derivative investors.
+Bank of America Merrill Lynch covers a wide array of industry sectors in both the Debt and Equity markets. Our Debt Profile includes Interest Rate Products, Foreign Exchange, Commodities, Investment Grade, High-Yield, Distressed, Mortgage and Asset-Backed Products, as well as Structured Securities. Our Equity Profile includes Equity Cash, Equity Derivatives, Financing and Electronic Trading Services. 
 </p>
+
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
 
 <h2 class="bac">Overview:</h2>  
+<br>
+<H3 class="bac">Sales</H3>
 <p class="bac">
-As an analyst within Research, you will: 
+As a Sales Analyst, you will focus on a specific product area. You will be responsible for building and maintaining relationships with our clients by matching our services to their needs. You will interact with portfolio managers, research analysts and traders, relaying investment research, relevant market information and marketing ideas; and/or executing transactions as an agent for our clients.   
 </p>
+<br>
+<H3 class="bac">Trading</H3>
+<p class="bac">
+As a Trading Associate, you will be essential to the trading desk. Your initial role will be to assist senior traders in making markets, and to facilitate communications and trade execution for clients through the sales team. As you gain experience and develop a more nuanced understanding of the markets, you can expect to work towards a larger role in the risk profile of your desk. You will also work to develop closer relationships with customers, as you share your trade ideas and thoughts on the markets with the company&#39;s top clients.  
+</p>
+<br>
+<H3 class="bac">Responsibilities</H3>
 <ul class="bac">
-	<li>Gain insight into specific industry sectors and/or tradable financial instruments and structures </li>
-	<li>Start to develop an internal and external network of internal professionals and clients </li>
-	<li>Develop the necessary confidence and experience to question and challenge senior managers of companies within your sector coverage </li>
-	<li>Receive training in the effective communication of your investment message to large-scale audiences and in one-on-one meetings </li>
-	<li>Contribute and eventually initiate leading edge, non-consensus, market moving research products and reports on corporate, sectors and markets </li>
-	<li>Market your investment recommendations to internal and external clients by phone and face-to-face </li>
-	<li>Contribute to, and make presentations at, investor conferences</li>
-	<li>Develop an understanding of the investment needs and constraints of a wide range of different clients, in order to provide bespoke recommendations and solutions to help them implement their objectives </li>
+	<li>Provide stellar service to our client base</li>
+	<li>Demonstrate understanding of our comprehensive suite of products and services </li>
+	<li>Track current market, industry and company activity</li>
+	<li>Develop quality trade ideas for presentation to the broader Global Markets team and our clients</li>
+	<li>Coordinate with professionals throughout the organization, including senior management, group heads, senior economists, product specialists, investment bankers and fellow associates</li>
 </ul>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
 
 <h2 class="bac">Qualifications:</h2>
-<p class="bac">
-Strong academic qualifications are important, but you&#39;ll also need to demonstrate drive, innovation and a genuine interest in the financial markets.  
-</p>
-<p class="bac">
-We accept applications from a diverse range of degree disciplines such as the arts and humanities, as well as numerically focused subjects such as economics and mathematics.
-</p>
-<p class="bac">
-You&#39;ll need to be fluent in English and a second European language is also required for some roles.  
-</p>
+<br>
+<H3 class="bac">Education</H3>
+<ul class="bac">
+	<li>Completion of an MBA program</li>
+	<li>Superior academic achievement</li>
+</ul>
+<br>
+<H3 class="bac">Skills and Abilities</H3>
+<ul class="bac">
+	<li>Extensive Excel and modeling skills</li>
+	<li>Strong quantitative and qualitative skills</li>
+	<li>Demonstrated problem solving skills and willingness to ask tough questions</li>
+	<li>Well-developed judgment and business sense</li>
+	<li>Proven leadership, team, communication and interpersonal skills</li>
+	<li>Demonstrated ability to multi-task and prioritize in a demanding environment</li>
+</ul>
+<br>
+<H3 class="bac">Personal Traits </H3>
+<ul class="bac">
+	<li>Strong interest in global financial markets </li>
+	<li>Highly-motivated, with a drive to succeed </li>
+	<li>Adapts easily to constantly-changing environment</li>
+	<li>A track record of superior performance in extracurricular and professional activities</li>
+	<li>Assertiveness, initiative, leadership, strong work ethic, team focus</li>
+	<li>Ability to learn quickly and take on new responsibilities</li>
+</ul>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
 
 <h2 class="bac">Training:</h2>
 <p class="bac">
-Induction and training starts with an intensive programme. Throughout July and August, you will gain an in-depth introduction to the firm, its culture and global reach, along with other newly hired analysts from around the world. The training will include full instruction on all the relevant tools, techniques and working practices. You will also receive grounding in your chosen business area as you develop your professional skills and teamwork capabilities. 
-</p>
-<p class="bac">
-Once you join a team within your assigned business, you&#39;ll take on real responsibility from an early stage. You&#39;ll be exposed to ongoing development opportunities throughout the programme and encouraged to grow your abilities through on-the-job learning, structured training and study towards your professional qualifications. We&#39;ll support and reward you on the basis of your individual performance. Ultimately, how far and how quickly you progress will be up to you. 
+As a Sales and Trading Analyst, you will begin your career at Bank of America Merrill Lynch with an intensive training program. Initially, you will train with your peers from other lines of business. You will then participate in a program designed specifically for Global Markets Analysts. The program is an interactive, experientially based mix of  group projects, e-learning, lectures, case studies, business representative presentations and team-building activities, which will provide you with a solid grounding in global markets and economics, and how Bank of America&#39;s businesses, products and services operate in this global context. Throughout the program, you will have ample opportunity to meet and work with your peers and other colleagues across all levels of the company. The network you build during this time will be a tremendous resource to you throughout your career.
 </p>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
 
 <h2 class="bac">Locations:</h2>
 <p class="bac">
-London
+Opportunities available in New York, NY; Boston, MA; Chicago, IL; Houston, TX; and San Francisco, CA, (based on candidate preferences and business needs).
 </p>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">

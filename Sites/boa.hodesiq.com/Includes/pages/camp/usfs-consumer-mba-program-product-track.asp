@@ -5,64 +5,77 @@
 <a name="skipmaincontent"></a><h1 class="bac"><%=program.Item("title")%></h1>
 <h2 class="bac">Our Business:</h2>
 <p class="bac">
-Do the details interest you as much as the big picture? As an analyst in our Research group, you&#39;ll work with both as you help to cover large and small companies in a specific industry or an industry sector. You will gather, analyze, and interpret financial data but always in a broader context so you can provide not just information, but insight as well. That&#39;s how you add value.
+Consumer and Small Business Bank (CSBB) serves more than 59 million consumer and small business households, through a distribution network that includes: 6,100 retail banking offices, 18,500 ATMs, and the nation&#39;s leading online banking offering, featuring award-winning service and nearly 30 million active users. 
 </p>
-<br>
-<H3 class="bac">Equity Research</H3>
 <p class="bac">
-Provides institutional and retail clients with in-depth research analysis on more than 20 industries and conducts fundamental analysis on more than 2,600 companies. 
+The Consumer &#38; Small Business Bank Consumer MBA Program&#39;s Product Track develops future leaders, while engaging them in challenging assignments critical to the future of Bank of America. Recent MBA level graduates experience a 2-year rotational program covering 2-3 areas of the CSBB organization.  These areas include: Home Loans and Insurance, eChannels and Customer Solutions, Customer Segments, and Deposits and Card Products.
 </p>
-<br>
-<H3 class="bac">Credit Research</H3>
 <p class="bac">
-Provides analysis of corporations&#39; credit-worthiness and credit, cash and derivative markets and makes detailed, actionable investment recommendations to all types of institutional credit and credit derivative investors.
-</p>
-
-<img src="../images/clear.gif" class="bac" alt=""><br clear="all">
-
-<h2 class="bac">Overview:</h2>  
-<p class="bac">
-As an analyst within Research, you will: 
+Rotational opportunities may include any of the following areas:  
 </p>
 <ul class="bac">
-	<li>Gain insight into specific industry sectors and/or tradable financial instruments and structures </li>
-	<li>Start to develop an internal and external network of internal professionals and clients </li>
-	<li>Develop the necessary confidence and experience to question and challenge senior managers of companies within your sector coverage </li>
-	<li>Receive training in the effective communication of your investment message to large-scale audiences and in one-on-one meetings </li>
-	<li>Contribute and eventually initiate leading edge, non-consensus, market moving research products and reports on corporate, sectors and markets </li>
-	<li>Market your investment recommendations to internal and external clients by phone and face-to-face </li>
-	<li>Contribute to, and make presentations at, investor conferences</li>
-	<li>Develop an understanding of the investment needs and constraints of a wide range of different clients, in order to provide bespoke recommendations and solutions to help them implement their objectives </li>
+	<li>Product Design</li>
+	<li>Product Management</li>
+	<li>Strategy Development</li>
+	<li>Business Planning and Support</li>
+	<li>Channel Integration</li>
+	<li>Analytics</li>
+	<li>Sales Process/Management</li>
+	<li>Operations</li>
 </ul>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
 
 <h2 class="bac">Qualifications:</h2>
 <p class="bac">
-Strong academic qualifications are important, but you&#39;ll also need to demonstrate drive, innovation and a genuine interest in the financial markets.  
+Ideal candidate will exhibit a strong drive for results; succeed in a fast-paced, empowered and collaborative environment; enjoy teamwork and partnering with others; possess financial acumen, and excellent organizational and strong analytical skills; strong technical skills and the ability to build, design and execute strategy. The ability to learn the organizational structure, the formal/informal workings of the company, and to convey a strong sense of customer and associate satisfaction to drive shareholder value is required. 
 </p>
 <p class="bac">
-We accept applications from a diverse range of degree disciplines such as the arts and humanities, as well as numerically focused subjects such as economics and mathematics.
+Additional requirements include: 
 </p>
+<ul class="bac">
+	<li>MBA graduate from an accredited business school or University</li>
+	<li>Spring/Summer 2011 graduation date</li>
+	<li>4&#38;7 years pre-M.B.A. work experience, with a demonstrated record of achievement </li>
+	<li>Relevant work history that reflects experience in supervising others, delegating tasks and resolving conflicts </li>
+	<li>Authorization to work in the United States</li>
+	<li>Geographic mobility/flexibility</li>
+</ul>
 <p class="bac">
-You&#39;ll need to be fluent in English and a second European language is also required for some roles.  
+Preferred expertise and/or experience in at least 3 of the following:
 </p>
+<ul class="bac">
+	<li>Ability to navigate in a highly-matrixed environment</li>
+	<li>Ability to influence</li>
+	<li>Experience in execution/production for end to end processes </li>
+	<li>Previous financial services or retail experience</li>
+	<li>Strong statistical/analytical background (familiarity with Six Sigma principles)</li>
+	<li>Team/project management experience</li>
+	<li>Strategy and/or business planning experience </li>
+</ul>
+<p class="bac">
+Personal characteristics: 
+</p>
+<ul class="bac">
+	<li>Strong leadership ability</li>
+	<li>Ability to communicate crisply and candidly </li>
+	<li>Results-oriented, proven high level of performance</li>
+	<li>Ability to manage tight deadlines, organize and prioritize work independently </li>
+	<li>Flexibility in exploring a variety of business areas</li>
+</ul>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
 
 <h2 class="bac">Training:</h2>
 <p class="bac">
-Induction and training starts with an intensive programme. Throughout July and August, you will gain an in-depth introduction to the firm, its culture and global reach, along with other newly hired analysts from around the world. The training will include full instruction on all the relevant tools, techniques and working practices. You will also receive grounding in your chosen business area as you develop your professional skills and teamwork capabilities. 
-</p>
-<p class="bac">
-Once you join a team within your assigned business, you&#39;ll take on real responsibility from an early stage. You&#39;ll be exposed to ongoing development opportunities throughout the programme and encouraged to grow your abilities through on-the-job learning, structured training and study towards your professional qualifications. We&#39;ll support and reward you on the basis of your individual performance. Ultimately, how far and how quickly you progress will be up to you. 
+Associates will participate in a formal education and orientation program to learn more about Bank of America and its culture and values, as well as to network with executives and other campus hires. Additionally, associates will participate in various networking and learning opportunities throughout the duration of the program.
 </p>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
 
 <h2 class="bac">Locations:</h2>
 <p class="bac">
-London
+Charlotte, North Carolina; Wilmington, DE; Calabasas, CA
 </p>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
