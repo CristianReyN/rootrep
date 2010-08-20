@@ -8,7 +8,7 @@
 Organized by industry sector, our Global Investment Bankers are dedicated to understanding the unique competitive and operating environments of our clients, and to building strong, enduring client relationships. We are primarily organized into 11 industry/product teams, focused on specific sectors. These include: Consumer and Retail; Corporate Finance; Energy and Power; Financial Institutions; Financial Sponsors; Global Industrials; Healthcare; Mergers and Acquisitions; Real Estate, Gaming and Leisure; Technology, Media and Telecom.
 </p>
 <p class="bac">
-As a leader in equity and debt origination and syndication, our Capital Markets team delivers creative solutions for issuers and investors across all asset products, including Equity Capital Markets, High-Grade Capital Markets, Debt Advisory Services and Leveraged Finance, which includes High-Yield Bonds and Leveraged Loans. Our Equity Capital Markets team is a fully integrated team of specialists, dedicated to helping companies raise capital through equity and equity-linked solutions, including IPOs, follow-ons and convertibles.
+As a leader in equity and debt origination and syndication, our Capital Markets team delivers creative solutions for issuers and investors across all asset products, including Equity Capital Markets, High&ndash;Grade Capital Markets, Debt Advisory Services and Leveraged Finance, which includes High&ndash;Yield Bonds and Leveraged Loans. Our Equity Capital Markets team is a fully integrated team of specialists, dedicated to helping companies raise capital through equity and equity&ndash;linked solutions, including IPOs, follow&ndash;ons and convertibles.
 </p>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
@@ -20,7 +20,7 @@ As active team members focused on an industry or product group, Summer Associate
 <ul class="bac">
 	<li>Develop and manage financial models</li>
 	<li>Create various financial analyses, including valuations and merger consequences</li>
-	<li>Perform comprehensive and in-depth company and industry research</li>
+	<li>Perform comprehensive and in&ndash;depth company and industry research</li>
 	<li>Prepare presentations and other materials for clients</li>
 	<li>Participate in due diligence sessions and client meetings</li>
 	<li>Interact with deal team members and clients</li>
@@ -43,7 +43,7 @@ As active team members focused on an industry or product group, Summer Associate
 
 <h2 class="bac">Training:</h2>
 <p class="bac">
-Summer offers are made for a specific office, based on candidate preference and business need. Industry and product group assignments are made before the summer begins, once a candidate has had the opportunity to learn about each group and meet team members. The summer program kicks off with an orientation and training session where you&#39;ll learn the Bank of America Merrill Lynch basics: technical skills, our views on the markets, and professional practices that will make your summer experience all the more valuable. Training will continue throughout the summer, as you participate in presentations and other group and individual projects led by industry experts. Outstanding performers may be considered for a full-time position upon graduation.
+Summer offers are made for a specific office, based on candidate preference and business need. Industry and product group assignments are made before the summer begins, once a candidate has had the opportunity to learn about each group and meet team members. The summer program kicks off with an orientation and training session where you&#39;ll learn the Bank of America Merrill Lynch basics: technical skills, our views on the markets, and professional practices that will make your summer experience all the more valuable. Training will continue throughout the summer, as you participate in presentations and other group and individual projects led by industry experts. Outstanding performers may be considered for a full&ndash;time position upon graduation.
 </p>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">

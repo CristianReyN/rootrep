@@ -6,9 +6,9 @@
 
 <h2 class="bac">Summary:</h2>
 <ul class="bac">
-	<li>Strong A-level grades and on track for a minimum 2:1 degree (or equivalent)</li>
+	<li>Strong A&ndash;level grades and on track for a minimum 2:1 degree (or equivalent)</li>
 	<li>Primary locations: London</li>
-	<li>Desk specific, 9-week programme from June – August</li>
+	<li>Desk specific, 9&ndash;week programme from June – August</li>
 	<li>Online application form</li>
 	<li>Application Deadline: 17 December 2010</li>
 </ul>
@@ -27,7 +27,7 @@ Compliance is at the core of the cultural values of Bank of America Merrill Lync
 The Summer Analyst Programme is a precursor to the Compliance Analyst Programme. As an intern, you&#39;ll: 
 </p>
 <ul class="bac">
-	<li>Spend nine weeks in a role that mirrors the positions of full-time graduates</li>
+	<li>Spend nine weeks in a role that mirrors the positions of full&ndash;time graduates</li>
 	<li>Work in one of the teams such as Product Compliance, Desk Reviews, Control Room, Surveillance, AIM, Equity Aggregation or Registrations</li>
 	<li>Enjoy a rich and varied working experience</li>
 	<li>Work closely with colleagues throughout our organisation to build relationships</li>
@@ -41,14 +41,14 @@ The Summer Analyst Programme is a precursor to the Compliance Analyst Programme.
 Strong academic qualifications are important, but you will also be required to demonstrate drive, innovation and dedication to a career in Compliance. 
 </p>
 <p class="bac">
-Applications are accepted from a diverse range of degree disciplines, although law, economics, accountancy, maths or statistics would be preferred for this line of business. You&#39;ll need to demonstrate team-working, leadership and problem-solving skills, plus creativity, along with the proven ability to work in a fast-paced environment, multi-task and interact with a variety of people.  
+Applications are accepted from a diverse range of degree disciplines, although law, economics, accountancy, maths or statistics would be preferred for this line of business. You&#39;ll need to demonstrate team&ndash;working, leadership and problem&ndash;solving skills, plus creativity, along with the proven ability to work in a fast&ndash;paced environment, multi&ndash;task and interact with a variety of people.  
 </p>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
 
 <h2 class="bac">Training:</h2>
 <p class="bac">
-The best opportunity to learn about working life at the company is to experience it first-hand, through our nine-week Summer Programme. Aimed at students in their penultimate year, the programme runs from June to the end of August, and is designed to help you decide whether our offerings matches your aspirations. 
+The best opportunity to learn about working life at the company is to experience it first&ndash;hand, through our nine&ndash;week Summer Programme. Aimed at students in their penultimate year, the programme runs from June to the end of August, and is designed to help you decide whether our offerings matches your aspirations. 
 </p>
 <p class="bac">
 The programme includes: 

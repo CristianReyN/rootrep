@@ -5,10 +5,10 @@
 <a name="skipmaincontent"></a><h1 class="bac"><%=program.Item("title")%></h1>
 <h2 class="bac">Summary:</h2>
 <ul class="bac">
-	<li>Strong A-level grades and on track for a minimum 2:1 degree (or equivalent)</li>
+	<li>Strong A&ndash;level grades and on track for a minimum 2:1 degree (or equivalent)</li>
 	<li>Knowledge of several of the following: UNIX, Windows NT/2000, network architecture, databases, desktop and server hardware, information security concepts and technologies</li>
 	<li>Locations: Opportunities in London, Camberley, Croydon and Chester (all UK)</li>
-	<li>12-month rotational placement</li>
+	<li>12&ndash;month rotational placement</li>
 	<li>Online application form</li>
 	<li>Application Deadline: 17 December 2010</li>
 </ul>
@@ -17,7 +17,7 @@
 
 <h2 class="bac">Our Business:</h2>
 <p class="bac">
-Enterprise Technology and Delivery (ET&#38;D) meets the needs of Bank of America customers, clients and associates through technology, systems, call centres, and other tools and channels. These include mainframe, mid-range and distributed server operations; client server technology; local and wide area network functions; telecommunications and other critical systems. 
+Enterprise Technology and Delivery (ET&#38;D) meets the needs of Bank of America customers, clients and associates through technology, systems, call centres, and other tools and channels. These include mainframe, mid&ndash;range and distributed server operations; client server technology; local and wide area network functions; telecommunications and other critical systems. 
 </p>
 <p class="bac">
 ET&#38;D teams include Infrastructure Engineering, Infrastructure Operations, Enterprise Applications, Shared Services, Associate Technology, Communication and Innovation, Enterprise Information Management, Business Management Services and Global Delivery Centre of Expertise.
@@ -27,7 +27,7 @@ ET&#38;D teams include Infrastructure Engineering, Infrastructure Operations, En
 
 <h2 class="bac">Overview:</h2>  
 <p class="bac">
-The 12-month fixed term placement scheme within this group is a precursor to the Enterprise Technology and Delivery Analyst Programme (ET&#38;D LDR). This programme is a Leadership Development Rotational Programme, designed to provide graduates with an opportunity to prepare for future leadership positions in the company&#39;s technology division.  
+The 12&ndash;month fixed term placement scheme within this group is a precursor to the Enterprise Technology and Delivery Analyst Programme (ET&#38;D LDR). This programme is a Leadership Development Rotational Programme, designed to provide graduates with an opportunity to prepare for future leadership positions in the company&#39;s technology division.  
 </p>
 <p class="bac">
 You can expect to work in teams that: 
@@ -55,7 +55,7 @@ Underlying all this, you must be dedicated to a career in banking technology. In
 
 <h2 class="bac">Training:</h2>
 <p class="bac">
-The best opportunity to learn about working life at the company is to experience it first-hand through our 12-month placement programme, which will involve two 6-month rotations. You&#39;ll benefit from the various components of the scheme for your first nine weeks, as well as being part of one of our core ET&#38;D groups. Working on real tasks, problems, issues or projects alongside our technologists, you can expect a unique learning opportunity and exposure to life at a leading investment bank. 
+The best opportunity to learn about working life at the company is to experience it first&ndash;hand through our 12&ndash;month placement programme, which will involve two 6&ndash;month rotations. You&#39;ll benefit from the various components of the scheme for your first nine weeks, as well as being part of one of our core ET&#38;D groups. Working on real tasks, problems, issues or projects alongside our technologists, you can expect a unique learning opportunity and exposure to life at a leading investment bank. 
 </p>
 <p class="bac">
 The programme includes: 

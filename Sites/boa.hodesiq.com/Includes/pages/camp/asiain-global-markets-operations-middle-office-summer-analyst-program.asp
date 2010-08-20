@@ -12,7 +12,7 @@ Global Markets Operations/Middle Office (GMO&#38;MO) clears and settles trades i
 
 <h2 class="bac">Overview:</h2>  
 <p class="bac">
-Summer Analysts participate in a 10-12 week program, based in Singapore, Hong Kong or Japan, providing a unique opportunity and exposure to life in GMO&#38;MO. Summer Analysts are given a true associate experience, as internships mirror full-time positions and include goal-setting and a formal review process. In addition to learning opportunities, there are formal and social opportunities to interact and network with senior colleagues.
+Summer Analysts participate in a 10&ndash;12 week program, based in Singapore, Hong Kong or Japan, providing a unique opportunity and exposure to life in GMO&#38;MO. Summer Analysts are given a true associate experience, as internships mirror full&ndash;time positions and include goal&ndash;setting and a formal review process. In addition to learning opportunities, there are formal and social opportunities to interact and network with senior colleagues.
 </p>
 <br>
 <H3 class="bac">Placement</H3>
@@ -22,12 +22,12 @@ GMO&#38;MO Summer Analysts are placed directly with a specific team throughout t
 <br>
 <H3 class="bac">Responsibilities</H3>
 <ul class="bac">
-	<li>Performs post-execution trade processing and internal controls from trade entry through settlement and custody, and ensures all trades are settled as quickly and efficiently as possible</li>
-	<li>Ensures that the company delivers services and execution that meet market-leading standards</li>
+	<li>Performs post&ndash;execution trade processing and internal controls from trade entry through settlement and custody, and ensures all trades are settled as quickly and efficiently as possible</li>
+	<li>Ensures that the company delivers services and execution that meet market&ndash;leading standards</li>
 	<li>Manages operational risk and accurate transaction settlement, to maximize profitability while minimizing risk</li>
 	<li>Provides effective cash management, ensures the integrity of the balance sheet as well as the global integrity of client data, and full compliance monitoring of all transactions</li>
 	<li>Works closely with colleagues in the Fixed Income, Commodities, Equity, Listed Derivatives or Prime Brokerage businesses, to process complex transactions and solve operational problems</li>
-	<li>Responds to business issues and client needs, assists in risk management, conducts revenue analysis and participates in firm&#39;s re-engineering projects</li>
+	<li>Responds to business issues and client needs, assists in risk management, conducts revenue analysis and participates in firm&#39;s re&ndash;engineering projects</li>
 </ul>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
@@ -50,7 +50,7 @@ GMO&#38;MO Summer Analysts are placed directly with a specific team throughout t
 <H3 class="bac">Skills and abilities </H3>
 <ul class="bac">
 	<li>Strong quantitative and analytical skills</li>
-	<li>Creative thinking and problem-solving skills</li>
+	<li>Creative thinking and problem&ndash;solving skills</li>
 	<li>Strong presentation and interpersonal skills </li>
 	<li>Ability to produce high quality work in a demanding environment</li>
 	<li>Ability to work independently, while functioning as part of a team </li>
@@ -66,8 +66,8 @@ GMO&#38;MO Summer Analysts are placed directly with a specific team throughout t
 	<li>Quick learner, with interest in taking on new responsibilities</li>
 	<li>Strong attention to detail</li>
 	<li>Ability to work well with others</li>
-	<li>Client-focused </li>
-	<li>Results-oriented</li>
+	<li>Client&ndash;focused </li>
+	<li>Results&ndash;oriented</li>
 </ul>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
@@ -77,7 +77,7 @@ GMO&#38;MO Summer Analysts are placed directly with a specific team throughout t
 The Summer Analyst Program begins with a few days of orientation and induction to the company, and includes:
 </p>
 <ul class="bac">
-	<li>Access to pre-work via an online e-learning portal covering foundation topics</li>
+	<li>Access to pre&ndash;work via an online e&ndash;learning portal covering foundation topics</li>
 	<li>Relevant continuous training sessions over the internship period </li>
 	<li>Business critical assignments</li>
 	<li>Exposure to senior leadership teams</li>

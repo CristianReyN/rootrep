@@ -5,11 +5,11 @@
 <a name="skipmaincontent"></a><h1 class="bac"><%=program.Item("title")%></h1>
 <h2 class="bac">Our Business:</h2>
 <p class="bac">
-More than 700 professionals of the award-winning Global Research organization support the company&#39;s institutional sales and trading teams and their clients. Their expertise is at the core of the value delivered to investor clients. Research analysts provide insightful, objective and decisive research designed to enable clients to make informed investment decisions in three primary disciplines:  
+More than 700 professionals of the award&ndash;winning Global Research organization support the company&#39;s institutional sales and trading teams and their clients. Their expertise is at the core of the value delivered to investor clients. Research analysts provide insightful, objective and decisive research designed to enable clients to make informed investment decisions in three primary disciplines:  
 </p>
 <ul class="bac">
 	<li>Global Equity Research Analysts provide fundamental analysis on nearly 3,000 companies domiciled in 50 countries</li>
-	<li>Global Credit Research encompasses high-grade, high-yield credit strategy, credit derivatives, mortgages and other structured finance, convertibles, municipals and indices</li>
+	<li>Global Credit Research encompasses high&ndash;grade, high&ndash;yield credit strategy, credit derivatives, mortgages and other structured finance, convertibles, municipals and indices</li>
 	<li>Global Macro Research encompasses economics, currencies, commodities, rates, derivatives and equity investment strategies</li>
 </ul>
 
@@ -17,7 +17,7 @@ More than 700 professionals of the award-winning Global Research organization su
 
 <h2 class="bac">Overview:</h2>  
 <p class="bac">
-Summer Analysts participate in an 8-10 week program, based in Asia, providing a unique opportunity and exposure to life in Research.  In addition to learning opportunities, there are formal and social opportunities to interact and network with senior colleagues.
+Summer Analysts participate in an 8&ndash;10 week program, based in Asia, providing a unique opportunity and exposure to life in Research.  In addition to learning opportunities, there are formal and social opportunities to interact and network with senior colleagues.
 </p>
 <br>
 <H3 class="bac">Placement</H3>
@@ -48,7 +48,7 @@ Summer Analysts are placed directly with a specific team throughout the internsh
 <br>
 <H3 class="bac">Responsibilities (vary with placement)</H3>
 <p class="bac">
-Research Summer Analysts will work closely with the team, with some of the tasks including: modeling/analysis, conducting primary research, and attending internal/external client meetings. Some responsibilities are conducted regularly (daily, weekly, etc.), while others are longer-term, ad-hoc projects over the internship period. 
+Research Summer Analysts will work closely with the team, with some of the tasks including: modeling/analysis, conducting primary research, and attending internal/external client meetings. Some responsibilities are conducted regularly (daily, weekly, etc.), while others are longer&ndash;term, ad&ndash;hoc projects over the internship period. 
 </p>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
@@ -58,7 +58,7 @@ Research Summer Analysts will work closely with the team, with some of the tasks
 <H3 class="bac">Education</H3>
 <ul class="bac">
 	<li>Penultimate year undergraduate/Master&#39;s student, graduating in 2012</li>
-	<li>On track to receive a GPA 3.5/4 or above (2.1 degree or above &#45; UK system)</li>
+	<li>On track to receive a GPA 3.5/4 or above (2.1 degree or above &ndash; UK system)</li>
 	<li>Outstanding academic achievement </li>
 </ul>
 <br>
@@ -83,7 +83,7 @@ Research Summer Analysts will work closely with the team, with some of the tasks
 	<li>A high degree of initiative and motivation </li>
 	<li>Strong attention to detail </li>
 	<li>Quick learner, with interest in taking on new responsibilities</li>
-	<li>Client-focused </li>
+	<li>Client&ndash;focused </li>
 	<li>Ability to work well with others</li>
 	<li>Ability to maintain composure and confidence while juggling conflicting priorities</li>
 </ul>
@@ -95,7 +95,7 @@ Research Summer Analysts will work closely with the team, with some of the tasks
 The Summer Analyst Program begins with several days of orientation and induction to the company, and includes:
 </p>
 <ul class="bac">
-	<li>Access to pre-work via an online e-learning portal covering foundation topics</li>
+	<li>Access to pre&ndash;work via an online e&ndash;learning portal covering foundation topics</li>
 	<li>Relevant continuous training sessions over the internship period, specific to research</li>
 </ul>
 

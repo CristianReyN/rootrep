@@ -5,21 +5,21 @@
 <a name="skipmaincontent"></a><h1 class="bac"><%=program.Item("title")%></h1>
 <h2 class="bac">Our Business:</h2>
 <p class="bac">
-Our goal is to deliver a best-in-class Internship opportunity for Finance interns through experiential learning, training and networking opportunities. The Finance Intern Program is designed to give associates the necessary experiences and exposure to determine their level of interest in the Finance Management Associate Program, while maximizing their contributions to Bank of America.
+Our goal is to deliver a best&ndash;in&ndash;class Internship opportunity for Finance interns through experiential learning, training and networking opportunities. The Finance Intern Program is designed to give associates the necessary experiences and exposure to determine their level of interest in the Finance Management Associate Program, while maximizing their contributions to Bank of America.
 </p>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
 
 <h2 class="bac">Overview:</h2>  
 <p class="bac">
-The objective of the Finance Intern program is to provide students with the opportunity to expand upon their academic foundation - specifically their technical skills, their knowledge of the industry and their familiarity with a corporate environment. This program will introduce the students to Bank of America, the Finance group and the Finance Management Associate Program.  
+The objective of the Finance Intern program is to provide students with the opportunity to expand upon their academic foundation &ndash; specifically their technical skills, their knowledge of the industry and their familiarity with a corporate environment. This program will introduce the students to Bank of America, the Finance group and the Finance Management Associate Program.  
 </p>
 <p class="bac">
 Each Intern will participate in a Business or Corporate support role. Intern roles may support one or more of the following:
 </p>
 <ul class="bac">
-	<li>Analysis and reporting of on-going operations</li>
-	<li>Forecasting financial and non-financial trends</li>
+	<li>Analysis and reporting of on&ndash;going operations</li>
+	<li>Forecasting financial and non&ndash;financial trends</li>
 	<li>Developing models and performing financial analysis of business investments</li>
 	<li>Supporting the corporation&#39;s internal planning and management accounting functions </li>
 	<li>Preparing external reports for shareholders and regulatory authorities</li>
@@ -32,7 +32,7 @@ In conjunction with their job responsibilities, Interns will participate in trai
 Performance evaluations are conducted three times during the internship. At the completion of the internship, eligible interns may be given more information about opportunities within the Finance Management Associate Program. 
 </p>
 <p class="bac">
-The Finance Management Associate Program (FMAP) is a two-year Associate Development program, focusing on Corporate Accounting and Corporate Finance functions within Bank of America. The FMAP program provides associates with the opportunity to move through two rotational assignments within the Chief Finance Officer&#39;s organization. This rotational process helps associates develop a solid knowledge base of the functional areas of the CFO Group, and a broad range of skills. FMAP associates participate in a variety of activities designed to foster teamwork, encourage networking and demonstrate Bank of America&#39;s vision and culture. You will participate in FMAP events and networking activities, and will be encouraged to further develop leadership skills by leading projects or committees.
+The Finance Management Associate Program (FMAP) is a two&ndash;year Associate Development program, focusing on Corporate Accounting and Corporate Finance functions within Bank of America. The FMAP program provides associates with the opportunity to move through two rotational assignments within the Chief Finance Officer&#39;s organization. This rotational process helps associates develop a solid knowledge base of the functional areas of the CFO Group, and a broad range of skills. FMAP associates participate in a variety of activities designed to foster teamwork, encourage networking and demonstrate Bank of America&#39;s vision and culture. You will participate in FMAP events and networking activities, and will be encouraged to further develop leadership skills by leading projects or committees.
 </p>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
@@ -49,7 +49,7 @@ Interns receive a competitive hourly wage. The program runs from early June to e
 
 <h2 class="bac">Training:</h2>
 <p class="bac">
-The Finance Intern training curriculum is comprehensive, and offers a blend of classroom and web-based training, which complements the hands-on experience that FMAP associates develop in their rotational assignments. The training curriculum is geared for professionals with courses offered in three main areas:  technical training, business acumen and behavioral courses.
+The Finance Intern training curriculum is comprehensive, and offers a blend of classroom and web&ndash;based training, which complements the hands&ndash;on experience that FMAP associates develop in their rotational assignments. The training curriculum is geared for professionals with courses offered in three main areas:  technical training, business acumen and behavioral courses.
 </p>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">

@@ -12,12 +12,12 @@ Global Transition, Quality &#38; Change Delivery (GTQ&#38;CD) is the division wi
 
 <h2 class="bac">Overview:</h2>  
 <p class="bac">
-Associates will participate in a direct-hire program that is designed to foster teamwork, networking and accelerated development. Q&#38;CD Consultants are members of the Q&#38;CD Campus Direct Hire Program; responsibilities include: 
+Associates will participate in a direct&ndash;hire program that is designed to foster teamwork, networking and accelerated development. Q&#38;CD Consultants are members of the Q&#38;CD Campus Direct Hire Program; responsibilities include: 
 </p>
 <ul class="bac">
 	<li>Broad exposure to lines of business, by working closely with business executives to effectively lead, train and coach quality activities that will achieve breakthrough productivity and customer satisfaction improvements </li>
 	<li>Driving projects with large scope and accountability to success, by leading and coaching projects, and acting as a subject matter expert</li>
-	<li>Providing detailed, fact-based analysis of business practices, processes and systems to accelerate improvements in product/process performance</li>
+	<li>Providing detailed, fact&ndash;based analysis of business practices, processes and systems to accelerate improvements in product/process performance</li>
 	<li>Championing new initiatives, and acting as a catalyst for change to help lead innovative product/process development </li>
 	<li>Supporting the deployment of Quality &#38; Change Delivery capabilities and toolsets, to facilitate improvements in the design, development and implementation of project deliverables</li>
 </ul>

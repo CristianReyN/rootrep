@@ -7,7 +7,7 @@
 <b>Global Markets Operations/Middle Office Group (GMO&#38;MO)</b> provides operational support for all products in Global Markets, Corporate Treasury and Corporate Investments, and is primarily a control function responsible for providing assurance over data and processes used to record Risk, P/L, Balance Sheet and Financial Results. The organization is aligned to products and business management, including: 
 </p>
 <ul class="bac">
-	<li><b>Global Middle Office:</b> provides trade capture substantiation, profit and loss validation, risk/position validation, balance sheet substantiation, event monitoring, front-back process oversight, and new business development. These functions are critical to ensure business process control.</li>
+	<li><b>Global Middle Office:</b> provides trade capture substantiation, profit and loss validation, risk/position validation, balance sheet substantiation, event monitoring, front&ndash;back process oversight, and new business development. These functions are critical to ensure business process control.</li>
 	<li><b>Operational Risk, Strategy and Change Management:</b> provides quality oversight as it relates to managing operational risk, overall associate satisfaction and key strategic initiatives. </li>
 	<li><b>Core Fixed Income Operations:</b> supports all fixed income cash securities for Bank of America Securities, as well as Corporate Treasury and Corporate Investments. This Operations team has a unique structure in that clearance and settlement responsibilities are grouped by product type, with centralized function groups providing support to the product teams.</li>
 	<li><b>Global Equity Operations:</b> responsible for the clearance and settlement of all equity products. The mission of this team is to provide a seamless operational platform for trading, sales and underwriting activities by utilizing technology, advanced process and qualified personnel.</li>
@@ -18,7 +18,7 @@
 
 <h2 class="bac">Overview:</h2>  
 <p class="bac">
-This unique 3-year program allows Analysts to rotate through Global Markets Operations &#38; Middle Office, and provides exposure to many different areas within the group. 
+This unique 3&ndash;year program allows Analysts to rotate through Global Markets Operations &#38; Middle Office, and provides exposure to many different areas within the group. 
 </p>
 <p class="bac">
 GMO&#38;MO Analysts will complete three rotations, each lasting 12 months, wherein: 
@@ -28,14 +28,14 @@ GMO&#38;MO Analysts will complete three rotations, each lasting 12 months, where
 	<li>Analysts in Middle Office will interface with various departments including P&#38;L team, Finance, Compliance, Risk, Technology and Front Office; work with various business representatives, to design work streams for new products; and develop/implement automation solutions to capture processing efficiencies</li>
 </ul>
 <p class="bac">
-In addition to developing cross-functional thinking and strong technical skills, Analysts also receive on-the-job training and a defined learning curriculum, participate in bi-monthly speaker seminars, and attend events with Analysts and associates from across Bank of America.  
+In addition to developing cross&ndash;functional thinking and strong technical skills, Analysts also receive on&ndash;the&ndash;job training and a defined learning curriculum, participate in bi&ndash;monthly speaker seminars, and attend events with Analysts and associates from across Bank of America.  
 </p>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
 
 <h2 class="bac">Qualifications:</h2>
 <p class="bac">
-Candidates must be a final-year candidate from a four year college or university, and demonstrate a combination of academic aptitude, quantitative skills, strategic and creative thinking, and excellent written and oral communication skills. Analysts will be required to manage several projects at once, and work effectively both individually and as part of a team. Some common driving characteristics we look for include:  
+Candidates must be a final&ndash;year candidate from a four year college or university, and demonstrate a combination of academic aptitude, quantitative skills, strategic and creative thinking, and excellent written and oral communication skills. Analysts will be required to manage several projects at once, and work effectively both individually and as part of a team. Some common driving characteristics we look for include:  
 </p>
 <ul class="bac">
 	<li>Attention to detail </li>
@@ -53,7 +53,7 @@ Candidates must be a final-year candidate from a four year college or university
 
 <h2 class="bac">Training:</h2>
 <p class="bac">
-As an Analyst, you will begin your career at Bank of America with an extensive training program. The full program is a combination of classroom instruction, e&#45;learning modules, case studies, and presentations. Throughout the program, you&#39;ll have ample opportunities to work closely with professionals and peers throughout our organization. This is a great opportunity to build a network of colleagues from across the company that will prove to be a tremendous resource to you throughout your career.  
+As an Analyst, you will begin your career at Bank of America with an extensive training program. The full program is a combination of classroom instruction, e&ndash;learning modules, case studies, and presentations. Throughout the program, you&#39;ll have ample opportunities to work closely with professionals and peers throughout our organization. This is a great opportunity to build a network of colleagues from across the company that will prove to be a tremendous resource to you throughout your career.  
 </p>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">

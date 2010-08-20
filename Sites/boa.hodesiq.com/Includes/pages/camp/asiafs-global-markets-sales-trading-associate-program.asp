@@ -5,7 +5,7 @@
 <a name="skipmaincontent"></a><h1 class="bac"><%=program.Item("title")%></h1>
 <h2 class="bac">Our Business:</h2>
 <p class="bac">
-Global Markets delivers a wide range of securities products and services, powerful sales and trading capabilities, and deep risk management expertise across asset classes. Closely aligned with GCIB&#39;s client-managed groups, Global Markets&#39; Product Specialists anticipate and meet the needs of more than 3,000 institutional investors and 7,000 issuer clients.
+Global Markets delivers a wide range of securities products and services, powerful sales and trading capabilities, and deep risk management expertise across asset classes. Closely aligned with GCIB&#39;s client&ndash;managed groups, Global Markets&#39; Product Specialists anticipate and meet the needs of more than 3,000 institutional investors and 7,000 issuer clients.
 </p>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
@@ -56,7 +56,7 @@ Associates are hired and placed directly with a specific team.  Placement is det
 <br>
 <H3 class="bac">Education</H3>
 <ul class="bac">
-	<li>Final year full-time MBA student, graduating in 2011</li>
+	<li>Final year full&ndash;time MBA student, graduating in 2011</li>
 	<li>Bachelor/Master&#39;s degree holder</li>
 	<li>Outstanding academic achievement </li>
 	<li>Mathematics, engineering, statistics or programming background advantageous</li>
@@ -64,7 +64,7 @@ Associates are hired and placed directly with a specific team.  Placement is det
 <br>
 <H3 class="bac">Experience </H3>
 <ul class="bac">
-	<li>Between 3-5 year&#39;s relevant work experience</li>
+	<li>Between 3&ndash;5 year&#39;s relevant work experience</li>
 	<li>A track record of superior performance in extracurricular and professional activities </li>
 </ul>
 <br>
@@ -72,9 +72,9 @@ Associates are hired and placed directly with a specific team.  Placement is det
 <ul class="bac">
 	<li>Strong quantitative and analytical skills </li>
 	<li>Extensive Excel and modeling skills</li>
-	<li>Demonstrated problem-solving skills and willingness to ask tough questions</li>
-	<li>Well-developed judgment and business sense </li>
-	<li>Demonstrated ability to multi-task and prioritize in a demanding environment</li>
+	<li>Demonstrated problem&ndash;solving skills and willingness to ask tough questions</li>
+	<li>Well&ndash;developed judgment and business sense </li>
+	<li>Demonstrated ability to multi&ndash;task and prioritize in a demanding environment</li>
 	<li>Ability to apply advanced oral and written communication skills to create a positive impression and professional rapport </li>
 	<li>Ability to work independently, while functioning as part of a team </li>
 	<li>Appropriate language capabilities </li>
@@ -83,12 +83,12 @@ Associates are hired and placed directly with a specific team.  Placement is det
 <H3 class="bac">Personal traits </H3>
 <ul class="bac">
 	<li>Strong interest in global financial markets and factors that impact them </li>
-	<li>Adapts easily to constantly-changing environment</li>
+	<li>Adapts easily to constantly&ndash;changing environment</li>
 	<li>High degree of professionalism and integrity</li>
 	<li>A high degree of initiative and motivation </li>
 	<li>Strong attention to detail </li>
 	<li>Quick learner, with interest in taking on new responsibilities</li>
-	<li>Results-orientated</li>
+	<li>Results&ndash;orientated</li>
 	<li>Ability to work well with others</li>
 </ul>
 
@@ -96,13 +96,13 @@ Associates are hired and placed directly with a specific team.  Placement is det
 
 <h2 class="bac">Training:</h2>
 <p class="bac">
-Full-time Associates are hired upon completion of their undergraduate/Master&#39;s degree. Your career as an Associate will begin with a formal training program, which takes place in New York for all Associates globally, and is considered one of the best in the industry.  Instruction is provided by Bank of America professionals and leading business school professors.
+Full&ndash;time Associates are hired upon completion of their undergraduate/Master&#39;s degree. Your career as an Associate will begin with a formal training program, which takes place in New York for all Associates globally, and is considered one of the best in the industry.  Instruction is provided by Bank of America professionals and leading business school professors.
 </p>
 <p class="bac">
 The training program includes: 
 </p>
 <ul class="bac">
-	<li>A company-wide orientation program to introduce you to Bank of America</li>
+	<li>A company&ndash;wide orientation program to introduce you to Bank of America</li>
 	<li>An overview of financial markets and essential business skills</li>
 	<li>An intensive training program customized for Associates that prepares you for placement in Global Markets, by simulating actual work assignments, covering quantitative fundamentals, and preparing you for life as an Associate</li>
 </ul>

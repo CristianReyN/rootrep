@@ -5,7 +5,7 @@
 <a name="skipmaincontent"></a><h1 class="bac"><%=program.Item("title")%></h1>
 <h2 class="bac">Our Business:</h2>
 <p class="bac">
-Bank of America Merrill Lynch Public Finance is headquartered in New York, with multiple additional regional offices. Public Finance provides financing solutions to state and local governmental and not-for-profit clients, primarily through tax-exempt bond underwriting.  Clients include states, counties, cities, school districts, institutions of higher education, housing agencies, student loan authorities, public utilities, public transportation agencies, cultural organizations, not-for-profit hospitals and developers. 
+Bank of America Merrill Lynch Public Finance is headquartered in New York, with multiple additional regional offices. Public Finance provides financing solutions to state and local governmental and not&ndash;for&ndash;profit clients, primarily through tax&ndash;exempt bond underwriting.  Clients include states, counties, cities, school districts, institutions of higher education, housing agencies, student loan authorities, public utilities, public transportation agencies, cultural organizations, not&ndash;for&ndash;profit hospitals and developers. 
 </p>
 
 
@@ -13,12 +13,12 @@ Bank of America Merrill Lynch Public Finance is headquartered in New York, with 
 
 <h2 class="bac">Overview:</h2>  
 <p class="bac">
-As active team members in Public Finance, Interns assist bankers in capital raising and strategic advisory transactions for governmental, not-for-profit and/or developer clients.  Interns are called on to: 
+As active team members in Public Finance, Interns assist bankers in capital raising and strategic advisory transactions for governmental, not&ndash;for&ndash;profit and/or developer clients.  Interns are called on to: 
 </p>
 <ul class="bac">
 	<li>Develop and maintain financial cash flow models, using proprietary and industry standard software </li>
 	<li>Support various financial analyses, including bond structuring</li>
-	<li>Perform comprehensive and in-depth client and credit research</li>
+	<li>Perform comprehensive and in&ndash;depth client and credit research</li>
 	<li>Prepare presentations and other materials for clients</li>
 	<li>Communicate and interact with deal team members and clients</li>
 </ul>
@@ -27,7 +27,7 @@ As active team members in Public Finance, Interns assist bankers in capital rais
 
 <h2 class="bac">Qualifications:</h2>
 <p class="bac">
-Candidates must demonstrate an interest in the public sector, and a combination of academic aptitude, quantitative skills, strategic and creative thinking, and distinguished written/oral communications skills. Analysts are required to manage several projects at once, and to work effectively as an individual and as part of a team. Some common driving characteristics we look for include:  assertiveness, attention to detail, exceptional academic achievement, initiative, team focus, self-confidence, and a strong work ethic.  Strong quantitative skills and computer/software skills are a must. A background in Mathematics, Accounting, Finance or Engineering is preferred.   
+Candidates must demonstrate an interest in the public sector, and a combination of academic aptitude, quantitative skills, strategic and creative thinking, and distinguished written/oral communications skills. Analysts are required to manage several projects at once, and to work effectively as an individual and as part of a team. Some common driving characteristics we look for include:  assertiveness, attention to detail, exceptional academic achievement, initiative, team focus, self&ndash;confidence, and a strong work ethic.  Strong quantitative skills and computer/software skills are a must. A background in Mathematics, Accounting, Finance or Engineering is preferred.   
 </p>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
@@ -39,7 +39,7 @@ Candidates must demonstrate an interest in the public sector, and a combination 
 	<li>Day of community service</li>
 	<li>Formal mentorship program</li>
 	<li>Educational sessions hosted by various groups within Global Markets and Banking</li>
-	<li>Summer Senior Speaker Series - opportunity to hear from business heads</li>
+	<li>Summer Senior Speaker Series &ndash; opportunity to hear from business heads</li>
 	<li>Formal performance review sessions for ongoing feedback</li>
 	<li>Networking events throughout the summer</li>
 </ul>

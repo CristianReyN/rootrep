@@ -5,17 +5,17 @@
 <a name="skipmaincontent"></a><h1 class="bac"><%=program.Item("title")%></h1>
 <h2 class="bac">Our Business:</h2>
 <p class="bac">
-Hosting Solutions Design &#38; Build (HSDB) is within the Shared Technology Infrastructure (STI) division. HSDB is responsible for delivering fully-integrated mainframe and midrange infrastructure shared services, which support transactional (online), database, messaging, OS, storage, capacity planning and application hosting, securely across Bank of America. Services include design, procurement, implementation, deployment, refresh, compliance, optimization and support services for the global environment.
+Hosting Solutions Design &#38; Build (HSDB) is within the Shared Technology Infrastructure (STI) division. HSDB is responsible for delivering fully&ndash;integrated mainframe and midrange infrastructure shared services, which support transactional (online), database, messaging, OS, storage, capacity planning and application hosting, securely across Bank of America. Services include design, procurement, implementation, deployment, refresh, compliance, optimization and support services for the global environment.
 </p>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
 
 <h2 class="bac">Overview:</h2>  
 <p class="bac">
-The Bank of America Intern Program is designed to provide students with mainframe technology experience, as it applies to banking.  Students are given a true associate experience, as internships mirror full-time positions and include goal-setting and a formal review process. Interns are required to work 40-hour weeks for 10-12 weeks, between the months of May and September. On-the-job training, mentoring relationships, and networking opportunities are provided for all interns.
+The Bank of America Intern Program is designed to provide students with mainframe technology experience, as it applies to banking.  Students are given a true associate experience, as internships mirror full&ndash;time positions and include goal&ndash;setting and a formal review process. Interns are required to work 40&ndash;hour weeks for 10&ndash;12 weeks, between the months of May and September. On&ndash;the&ndash;job training, mentoring relationships, and networking opportunities are provided for all interns.
 </p>
 <p class="bac">
-The HSDB College Hire Program recruits the potential next generation of mainframe technicians. A summer internship is offered to rising seniors, giving them hands-on mainframe experience. At the end of the 10-week program, students may be offered a full-time associate position.
+The HSDB College Hire Program recruits the potential next generation of mainframe technicians. A summer internship is offered to rising seniors, giving them hands&ndash;on mainframe experience. At the end of the 10&ndash;week program, students may be offered a full&ndash;time associate position.
 </p>
 <p class="bac">
 Candidate(s) will rotate among two or more HSDB teams during the internship, and will have the opportunity to: 
@@ -31,17 +31,17 @@ Candidate(s) will rotate among two or more HSDB teams during the internship, and
 <br>
 <H3 class="bac">Intern Benefits</H3>
 <ul class="bac">
-	<li>Gain firsthand knowledge on a large-scale IBM data processing environment</li>
+	<li>Gain firsthand knowledge on a large&ndash;scale IBM data processing environment</li>
 	<li>Gain insight into various mainframe systems support disciplines</li>
 	<li>Learn about Six Sigma, and how it is being used to accomplish BAC goals</li>
-	<li>Collaborate with world-class data processing professionals</li>
+	<li>Collaborate with world&ndash;class data processing professionals</li>
 </ul>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
 
 <h2 class="bac">Qualifications:</h2>
 <ul class="bac">
-	<li>Must be a college senior enrolled in a full-time degree program, pursuing a major in Computer Science, Business Management or Information Technology</li>
+	<li>Must be a college senior enrolled in a full&ndash;time degree program, pursuing a major in Computer Science, Business Management or Information Technology</li>
 	<li>Must be a U.S. citizen or have a permanent U.S. residency</li>
 	<li>Must be a team player and have a strong drive for results</li>
 	<li>Excellent organization and communication skills</li>
@@ -58,9 +58,9 @@ Richmond, VA
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
 
-<h2 class="bac">Full-Time Opportunities:</h2>
+<h2 class="bac">Full&ndash;Time Opportunities:</h2>
 <p class="bac">
-Rising seniors who meet or exceed internship performance expectations are eligible to receive a full-time offer of employment, following their internships. Full-time HSDB hires will participate in the 2-year College Hire Program, designed to mentor and develop the associate in a specific technology. 
+Rising seniors who meet or exceed internship performance expectations are eligible to receive a full&ndash;time offer of employment, following their internships. Full&ndash;time HSDB hires will participate in the 2&ndash;year College Hire Program, designed to mentor and develop the associate in a specific technology. 
 </p>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">

@@ -5,10 +5,10 @@
 <a name="skipmaincontent"></a><h1 class="bac"><%=program.Item("title")%></h1>
 <h2 class="bac">Our Business:</h2>
 <p class="bac">
-Consumer and Small Business Bank (CSBB) serves more than 59 million consumer and small business households, through a distribution network that includes: 6,100 retail banking offices, 18,500 ATMs, and the nation&#39;s leading online banking offering, featuring award-winning service and nearly 30 million active users. 
+Consumer and Small Business Bank (CSBB) serves more than 59 million consumer and small business households, through a distribution network that includes: 6,100 retail banking offices, 18,500 ATMs, and the nation&#39;s leading online banking offering, featuring award&ndash;winning service and nearly 30 million active users. 
 </p>
 <p class="bac">
-The Consumer &#38; Small Business Bank Consumer MBA Program&#39;s Product Track develops future leaders, while engaging them in challenging assignments critical to the future of Bank of America. Recent MBA level graduates experience a 2-year rotational program covering 2-3 areas of the CSBB organization.  These areas include: Home Loans and Insurance, eChannels and Customer Solutions, Customer Segments, and Deposits and Card Products.
+The Consumer &#38; Small Business Bank Consumer MBA Program&#39;s Product Track develops future leaders, while engaging them in challenging assignments critical to the future of Bank of America. Recent MBA level graduates experience a 2&ndash;year rotational program covering 2&ndash;3 areas of the CSBB organization.  These areas include: Home Loans and Insurance, eChannels and Customer Solutions, Customer Segments, and Deposits and Card Products.
 </p>
 <p class="bac">
 Rotational opportunities may include any of the following areas:  
@@ -28,7 +28,7 @@ Rotational opportunities may include any of the following areas:
 
 <h2 class="bac">Qualifications:</h2>
 <p class="bac">
-Ideal candidate will exhibit a strong drive for results; succeed in a fast-paced, empowered and collaborative environment; enjoy teamwork and partnering with others; possess financial acumen, and excellent organizational and strong analytical skills; strong technical skills and the ability to build, design and execute strategy. The ability to learn the organizational structure, the formal/informal workings of the company, and to convey a strong sense of customer and associate satisfaction to drive shareholder value is required. 
+Ideal candidate will exhibit a strong drive for results; succeed in a fast&ndash;paced, empowered and collaborative environment; enjoy teamwork and partnering with others; possess financial acumen, and excellent organizational and strong analytical skills; strong technical skills and the ability to build, design and execute strategy. The ability to learn the organizational structure, the formal/informal workings of the company, and to convey a strong sense of customer and associate satisfaction to drive shareholder value is required. 
 </p>
 <p class="bac">
 Additional requirements include: 
@@ -36,7 +36,7 @@ Additional requirements include:
 <ul class="bac">
 	<li>MBA graduate from an accredited business school or University</li>
 	<li>Spring/Summer 2011 graduation date</li>
-	<li>4&#38;7 years pre-M.B.A. work experience, with a demonstrated record of achievement </li>
+	<li>4&#38;7 years pre&ndash;M.B.A. work experience, with a demonstrated record of achievement </li>
 	<li>Relevant work history that reflects experience in supervising others, delegating tasks and resolving conflicts </li>
 	<li>Authorization to work in the United States</li>
 	<li>Geographic mobility/flexibility</li>
@@ -45,7 +45,7 @@ Additional requirements include:
 Preferred expertise and/or experience in at least 3 of the following:
 </p>
 <ul class="bac">
-	<li>Ability to navigate in a highly-matrixed environment</li>
+	<li>Ability to navigate in a highly&ndash;matrixed environment</li>
 	<li>Ability to influence</li>
 	<li>Experience in execution/production for end to end processes </li>
 	<li>Previous financial services or retail experience</li>
@@ -59,7 +59,7 @@ Personal characteristics:
 <ul class="bac">
 	<li>Strong leadership ability</li>
 	<li>Ability to communicate crisply and candidly </li>
-	<li>Results-oriented, proven high level of performance</li>
+	<li>Results&ndash;oriented, proven high level of performance</li>
 	<li>Ability to manage tight deadlines, organize and prioritize work independently </li>
 	<li>Flexibility in exploring a variety of business areas</li>
 </ul>

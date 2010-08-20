@@ -34,7 +34,7 @@ Ideal candidates will have the following:
 </p>
 <ul class="bac">
 	<li>Pursuing a Supply Chain Management undergraduate degree</li>
-	<li>Analytical/problem-solving skills </li>
+	<li>Analytical/problem&ndash;solving skills </li>
 	<li>Ability to work independently and with a group</li>
 	<li>Leadership skills</li>
 	<li>Technical skills (i.e. Microsoft Office suite)</li>

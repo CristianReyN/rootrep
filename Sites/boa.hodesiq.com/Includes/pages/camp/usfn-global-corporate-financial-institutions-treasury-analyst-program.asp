@@ -5,7 +5,7 @@
 <a name="skipmaincontent"></a><h1 class="bac"><%=program.Item("title")%></h1>
 <h2 class="bac">Our Business:</h2>
 <p class="bac">
-A division of Global Banking and Markets (GBAM), the Global Corporate and Financial Institutions Treasury Product Delivery team provides integrated treasury, liquidity and debt solutions to Global Corporate clients and financial institutions. As a core member of the client team, the Product Delivery Team partners closely with groups across Corporate Banking including; Product Management, E-commerce, Card, and Debt Product Delivery teams, to deliver integrated solutions to our client. Treasury analysts work with clients operating around the globe, with annual revenues of greater than $2B, as well as financial institutions and financial services companies. 
+A division of Global Banking and Markets (GBAM), the Global Corporate and Financial Institutions Treasury Product Delivery team provides integrated treasury, liquidity and debt solutions to Global Corporate clients and financial institutions. As a core member of the client team, the Product Delivery Team partners closely with groups across Corporate Banking including; Product Management, E&ndash;commerce, Card, and Debt Product Delivery teams, to deliver integrated solutions to our client. Treasury analysts work with clients operating around the globe, with annual revenues of greater than $2B, as well as financial institutions and financial services companies. 
 </p>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
@@ -34,14 +34,14 @@ Candidates must demonstrate a strong combination of academic aptitude, quantitat
 
 <h2 class="bac">Training:</h2>
 <p class="bac">
-Virtual, web-based and instructor-led learning solutions are used to supplement the experiential development that occurs on-the-job. Throughout the program, analysts are provided a support network, which consists of the program manager, rotation managers and mentors.
+Virtual, web&ndash;based and instructor&ndash;led learning solutions are used to supplement the experiential development that occurs on&ndash;the&ndash;job. Throughout the program, analysts are provided a support network, which consists of the program manager, rotation managers and mentors.
 </p>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
 
 <h2 class="bac">Locations:</h2>
 <p class="bac">
-Positions are available in major markets across the Bank of America footprint. Line of business and location assignment is based on business need and candidate interest. Geographic flexibility is required at the end of the program in an effort to fill business-critical roles.
+Positions are available in major markets across the Bank of America footprint. Line of business and location assignment is based on business need and candidate interest. Geographic flexibility is required at the end of the program in an effort to fill business&ndash;critical roles.
 </p>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">

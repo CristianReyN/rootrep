@@ -5,13 +5,13 @@
 <a name="skipmaincontent"></a><h1 class="bac"><%=program.Item("title")%></h1>
 <h2 class="bac">Our Business:</h2>
 <p class="bac">
-The Operations MBA Intern Program gives participants the opportunity for an assignment in sub-lines of business, within one of the following organizations:  Consumer Small Business Banking Technology &#38; Operations, Customer Service &#38; Solutions, Global Client Solutions &#38; Operations or Home Loans &#38; Insurance.
+The Operations MBA Intern Program gives participants the opportunity for an assignment in sub&ndash;lines of business, within one of the following organizations:  Consumer Small Business Banking Technology &#38; Operations, Customer Service &#38; Solutions, Global Client Solutions &#38; Operations or Home Loans &#38; Insurance.
 </p>
 
 <img src="../images/clear.gif" width="100%" height="12" alt="" border="0" />
 <H3 class="bacg">Consumer Small Business Banking Technology &#38; Operations (CSBB T&#38;O)</H3>
 <p class="bacg">
-&nbsp;provides end-to-end technology strategy and support to Consumer Small Business Banking, as well as enterprise functions such as payments processing, cash servicing, fulfillment and reconcilement services and image strategy. 
+&nbsp;provides end&ndash;to&ndash;end technology strategy and support to Consumer Small Business Banking, as well as enterprise functions such as payments processing, cash servicing, fulfillment and reconcilement services and image strategy. 
 </p> 
 <ul class="bac">
 	<li>More than 6,000 banking centers and more than 18,000 ATMs supported nationwide</li>
@@ -21,7 +21,7 @@ The Operations MBA Intern Program gives participants the opportunity for an assi
 <img src="../images/clear.gif" width="100%" height="12" alt="" border="0" />
 <H3 class="bacg">Customer Service &#38; Solutions (CS&#38;S)</H3>
 <p class="bacg">
-&nbsp;provides call, e-mail, text chat and fulfillment support for Consumer, Card, Small Business, Business Card, Large Corporate and e-Commerce customers.  They also provide sales support for Deposit, Card and Small Business products; including fulfillment of all products sold in contact centers, and through online channels. 
+&nbsp;provides call, e&ndash;mail, text chat and fulfillment support for Consumer, Card, Small Business, Business Card, Large Corporate and e&ndash;Commerce customers.  They also provide sales support for Deposit, Card and Small Business products; including fulfillment of all products sold in contact centers, and through online channels. 
 </p> 
 <ul class="bac">
 	<li>30 contact centers supported through our Contact Center Operations Team</li>
@@ -50,15 +50,15 @@ This internship program is designed to provide external MBA candidates with an o
 
 <h2 class="bac">Qualifications:</h2>
 <p class="bac">
-Ideal candidates will exhibit a strong drive for results; the ability to succeed in a fast-paced, empowered, and collaborative environment; enjoy teamwork and partnering with others; possess excellent organizational and analytical skills; and understand technology and business requirements. Candidates should possess the ability to learn the organizational structure and the formal/informal workings of the organization quickly, and to convey a strong sense of customer and associate satisfaction to drive shareholder value.  Professional/academic experience will include strong technical and management expertise including, but not limited to: managing teams, statistical analysis, volume forecasting, change management, project management and data management. 
+Ideal candidates will exhibit a strong drive for results; the ability to succeed in a fast&ndash;paced, empowered, and collaborative environment; enjoy teamwork and partnering with others; possess excellent organizational and analytical skills; and understand technology and business requirements. Candidates should possess the ability to learn the organizational structure and the formal/informal workings of the organization quickly, and to convey a strong sense of customer and associate satisfaction to drive shareholder value.  Professional/academic experience will include strong technical and management expertise including, but not limited to: managing teams, statistical analysis, volume forecasting, change management, project management and data management. 
 </p>
 <br>
 <H3 class="bac">Candidate Profile</H3>
 <ul class="bac">
 	<li>Studying to pursue an MBA degree from an accredited college or university within the United States</li>
 	<li>Strong academic credentials </li>
-	<li>3 &#45; 5 years of work experience, prior to entering graduate school</li>
-	<li><b>100% geographic flexibility  - Candidates must be mobile and willing to relocate for the internship period</b></li>
+	<li>3 &ndash; 5 years of work experience, prior to entering graduate school</li>
+	<li><b>100% geographic flexibility  &ndash; Candidates must be mobile and willing to relocate for the internship period</b></li>
 	<li>Proven leadership experience, with the ability to lead collaborative teams to achieve both short and long term goals</li>
 	<li>Strategic thinker with the ability to translate tactics into broader application, across multiple audiences </li>
 	<li>Exceptional communication and presentation skills</li>
@@ -72,7 +72,7 @@ Ideal candidates will exhibit a strong drive for results; the ability to succeed
 The program consists of the following developmental activities and opportunities:
 </p>
 <ul class="bac">
-	<li>On-boarding, including orientation and on-going structured learning events</li>
+	<li>On&ndash;boarding, including orientation and on&ndash;going structured learning events</li>
 	<li>Structured learning curriculum and business critical assignments</li>
 	<li>Peer coach support</li>
 	<li>Exposure to senior leadership teams through networking events</li>

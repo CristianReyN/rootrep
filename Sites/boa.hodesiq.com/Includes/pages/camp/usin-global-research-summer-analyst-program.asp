@@ -5,14 +5,14 @@
 <a name="skipmaincontent"></a><h1 class="bac"><%=program.Item("title")%></h1>
 <h2 class="bac">Our Business:</h2>
 <p class="bac">
-At Bank of America Merrill Global Research, Research Analysts are aligned by both product (macro, credit or equity) and/or industry group (healthcare, technology, energy, etc.).  Working alongside some of the most talented professionals in the industry, Research Analysts gain the sector-specific expertise critical to building a career in Research, and contribute significantly to the in-depth research we distribute to clients worldwide.
+At Bank of America Merrill Global Research, Research Analysts are aligned by both product (macro, credit or equity) and/or industry group (healthcare, technology, energy, etc.).  Working alongside some of the most talented professionals in the industry, Research Analysts gain the sector&ndash;specific expertise critical to building a career in Research, and contribute significantly to the in&ndash;depth research we distribute to clients worldwide.
 </p>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
 
 <h2 class="bac">Overview:</h2>  
 <p class="bac">
-The Summer Analyst program is offered to undergraduates entering their senior year of college. Research Analyst Interns are responsible for modeling/analysis, conducting primary research, writing franchise pieces and servicing institutional clients. Some responsibilities are conducted regularly (daily, weekly, etc.), while others are longer-term, ad-hoc projects. Sample responsibilities and projects include: 
+The Summer Analyst program is offered to undergraduates entering their senior year of college. Research Analyst Interns are responsible for modeling/analysis, conducting primary research, writing franchise pieces and servicing institutional clients. Some responsibilities are conducted regularly (daily, weekly, etc.), while others are longer&ndash;term, ad&ndash;hoc projects. Sample responsibilities and projects include: 
 </p>
 <ul class="bac">
 	<li>Assembling historical financial models using SEC filings, company conference calls and press releases </li>
@@ -22,7 +22,7 @@ The Summer Analyst program is offered to undergraduates entering their senior ye
 	<li>Initiating and building relationships with clients to develop a network of contacts appropriate to the industry covered</li>
 </ul>
 <p class="bac">
-Research Analyst Interns are placed in a specific industry sector team for the duration of the 10-week internship. Outstanding performers will be considered for a full-time position, pending graduation.
+Research Analyst Interns are placed in a specific industry sector team for the duration of the 10&ndash;week internship. Outstanding performers will be considered for a full&ndash;time position, pending graduation.
 </p>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
@@ -40,7 +40,7 @@ Candidates must demonstrate a combination of academic aptitude, quantitative ski
 </p>
 <ul class="bac">
 	<li>Strong attention to detail; strong quality control over own work</li>
-	<li>Client service orientation; drive to over-deliver to internal client</li>
+	<li>Client service orientation; drive to over&ndash;deliver to internal client</li>
 	<li>Strong team and partnering skills; ability to operate effectively remotely </li>
 	<li>A passion and interest in the US capital markets, and ability to learn and use a wide range of market data sources</li>
 	<li>Ability to create and maintain financial models</li>
@@ -50,8 +50,8 @@ Candidates must demonstrate a combination of academic aptitude, quantitative ski
 <H3 class="bac">Personal traits </H3>
 <ul class="bac">
 	<li>A passion and curiosity appropriate for research</li>
-	<li>Highly-motivated with a drive to succeed</li>
-	<li>Well-organized with high attention to detail</li>
+	<li>Highly&ndash;motivated with a drive to succeed</li>
+	<li>Well&ndash;organized with high attention to detail</li>
 	<li>Outgoing with strong personal presence</li>
 	<li>Good judgment and business sense</li>
 	<li>Solid work ethic</li>

@@ -6,9 +6,9 @@
 
 <h2 class="bac">Summary:</h2>
 <ul class="bac">
-	<li>Strong A-level grades and a minimum 2:1 degree (or equivalent)</li>
+	<li>Strong A&ndash;level grades and a minimum 2:1 degree (or equivalent)</li>
 	<li>Location: Opportunities across EMEA</li>
-	<li>Desk-specific</li>
+	<li>Desk&ndash;specific</li>
 	<li>Online application form</li>
 	<li>Application Deadline: 12 November 2010</li>
 </ul>
@@ -17,16 +17,16 @@
 
 <h2 class="bac">Our Business:</h2>
 <p class="bac">
-Global Treasury Services (GTS) provides our corporate clients (both European and internationally- headquartered corporations), and our financial institution clients with payment, receipt, liquidity and other working capital management solutions.
+Global Treasury Services (GTS) provides our corporate clients (both European and internationally&ndash; headquartered corporations), and our financial institution clients with payment, receipt, liquidity and other working capital management solutions.
 </p>
 <p class="bac">
 GTS brings a holistic suite of services to clients, backed by unmatched investment and commitment to delivery. Our products and services improve our clients&#39; cash management including bank accounts, money transfers and collection services, investment facilities, interest bearing accounts, money market deposits, financing facilities and deposit and withdrawal facilities. Our full capabilities include: 
 </p>
 
 <ul class="bac">
-	<li>Pan-European liquidity management and simplified account structures to reduce in-country accounts</li>
+	<li>Pan&ndash;European liquidity management and simplified account structures to reduce in&ndash;country accounts</li>
 	<li>Local currency payments and collections </li>
-	<li>Multi-currency account services</li>
+	<li>Multi&ndash;currency account services</li>
 	<li>Regional lockbox and direct debit </li>
 	<li>Full Single European Payment Area (SEPA) compliant transactions, SEPA Credit Transfers &#38; SEPA Direct</li>
 	<li>Full treasury outsourcing from the International Financial Services Centre in Dublin</li>
@@ -38,13 +38,13 @@ GTS brings a holistic suite of services to clients, backed by unmatched investme
 
 <h2 class="bac">Overview:</h2>  
 <p class="bac">
-The Sales &#38; Relationship Management team within Treasury Services is a world-class sales organisation. As a Sales Analyst on our desk-specific programme, you&#39;ll be managing a portfolio of large corporate clients and helping your team achieve the following goals:
+The Sales &#38; Relationship Management team within Treasury Services is a world&ndash;class sales organisation. As a Sales Analyst on our desk&ndash;specific programme, you&#39;ll be managing a portfolio of large corporate clients and helping your team achieve the following goals:
 </p>
 
 <ul class="bac">
 	<li>Revenue growth by increasing the depth of clients&#39; relationships with Bank of America Merrill Lynch </li>
 	<li>Growing the client portfolio by winning new business and bringing on prospective clients</li>
-	<li>Ensuring that the exemplary reputation of Bank of America Merrill Lynch is maintained by providing existing clients with first-class service </li>
+	<li>Ensuring that the exemplary reputation of Bank of America Merrill Lynch is maintained by providing existing clients with first&ndash;class service </li>
 	<li>Obtaining a deep understanding of clients&#39; businesses and financial needs in order to demonstrate, on a consultative basis, how Bank of America Merrill Lynch can help improve their Treasury business </li>
 </ul>
 
@@ -64,17 +64,17 @@ You&#39;ll typically be responsible for the following key tasks/responsibilities
 
 <h2 class="bac">Qualifications:</h2>
 <p class="bac">
-You must have obtained, or are realistically expecting to obtain, a minimum 2:1 degree or equivalent, and have basic Treasury and working capital management knowledge. Selling and relationship management skills are important – any sales experience, regardless of industry, is looked upon favourably – and entry level credit knowledge is preferred. The ability to prioritise your workload and multi-task is essential, as is a strong attention to detail.  
+You must have obtained, or are realistically expecting to obtain, a minimum 2:1 degree or equivalent, and have basic Treasury and working capital management knowledge. Selling and relationship management skills are important – any sales experience, regardless of industry, is looked upon favourably – and entry level credit knowledge is preferred. The ability to prioritise your workload and multi&ndash;task is essential, as is a strong attention to detail.  
 </p>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
 
 <h2 class="bac">Training:</h2>
 <p class="bac">
-Bank of America Merrill Lynch places a great deal of emphasis on on-going training. Whether you&#39;re a new graduate, or seasoned professional, expanding your skills is paramount to achieving success.   
+Bank of America Merrill Lynch places a great deal of emphasis on on&ndash;going training. Whether you&#39;re a new graduate, or seasoned professional, expanding your skills is paramount to achieving success.   
 </p>
 <p class="bac">
-You will be provided with an Analyst On-Boarding programme, during which you can expect a combination of classroom instruction, e-learning modules, case studies and presentations. Training modules are available at all levels from product specific courses to generic soft skills development.  Throughout the on-boarding period, you&#39;ll have ample opportunities to work closely with professionals and peers across Bank of America Merrill Lynch – building a network of colleagues from across the company, which will prove to be a tremendous resource throughout your career with the company. 
+You will be provided with an Analyst On&ndash;Boarding programme, during which you can expect a combination of classroom instruction, e&ndash;learning modules, case studies and presentations. Training modules are available at all levels from product specific courses to generic soft skills development.  Throughout the on&ndash;boarding period, you&#39;ll have ample opportunities to work closely with professionals and peers across Bank of America Merrill Lynch – building a network of colleagues from across the company, which will prove to be a tremendous resource throughout your career with the company. 
 </p>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">

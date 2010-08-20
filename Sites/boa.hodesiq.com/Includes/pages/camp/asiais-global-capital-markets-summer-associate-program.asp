@@ -12,7 +12,7 @@ Global Capital Markets originates a wide variety of equity and debt capital offe
 
 <h2 class="bac">Overview:</h2> 
 <p class="bac">
-Summer Associates participate in an 8-10 week program based in Asia, providing a unique opportunity and exposure to life in capital markets. In addition to learning opportunities, there are formal and social opportunities to interact and network with senior bankers.
+Summer Associates participate in an 8&ndash;10 week program based in Asia, providing a unique opportunity and exposure to life in capital markets. In addition to learning opportunities, there are formal and social opportunities to interact and network with senior bankers.
 </p> 
 <br>
 <H3 class="bac">Placement</H3>
@@ -27,7 +27,7 @@ Summer Associates are active team members in a focused product group, and their 
 <ul class="bac">
 	<li>Develop and manage financial models</li>
 	<li>Support and create analyses, including valuations and merger consequences</li>
-	<li>Perform comprehensive, in-depth company and industry research</li>
+	<li>Perform comprehensive, in&ndash;depth company and industry research</li>
 	<li>Prepare client presentations and other materials</li>
 	<li>Participate in due diligence sessions and client meetings</li>
 	<li>Communicate and interact with client team members</li>
@@ -46,7 +46,7 @@ Summer Associates are active team members in a focused product group, and their 
 <br>
 <H3 class="bac">Experience </H3>
 <ul class="bac">
-	<li>Between 3-5 years&#39; relevant work experience</li>
+	<li>Between 3&ndash;5 years&#39; relevant work experience</li>
 	<li>A track record of superior performance in extracurricular and professional activities </li>
 </ul>
 <br>
@@ -65,8 +65,8 @@ Summer Associates are active team members in a focused product group, and their 
 	<li>A high degree of initiative and motivation </li>
 	<li>Strong attention to detail </li>
 	<li>Quick learner, with interest in taking on new responsibilities</li>
-	<li>Client-focused </li>
-	<li>Results-oriented</li>
+	<li>Client&ndash;focused </li>
+	<li>Results&ndash;oriented</li>
 	<li>Ability to work well with others</li>
 	<li>Ability to maintain composure and confidence, while juggling conflicting priorities </li>
 </ul>
@@ -78,7 +78,7 @@ Summer Associates are active team members in a focused product group, and their 
 The Summer Associate program begins with several days of orientation and induction, including an overview of the company, plus relevant application training. Over the course of the internship, there are continuous training sessions that are specific to capital markets.
 </p>
 <p class="bac">
-Prior to joining the program, Summer Associates will also have access to pre-work via an online e-learning portal covering foundation topics to help prepare for the internship.
+Prior to joining the program, Summer Associates will also have access to pre&ndash;work via an online e&ndash;learning portal covering foundation topics to help prepare for the internship.
 </p>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">

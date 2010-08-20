@@ -6,10 +6,10 @@
 
 <h2 class="bac">Summary:</h2>
 <ul class="bac">
-	<li>Penultimate year of MBA, or other advanced degree, from a top-tier business school</li>
+	<li>Penultimate year of MBA, or other advanced degree, from a top&ndash;tier business school</li>
 	<li>Track record of superior performance in extracurricular and professional activities</li>
 	<li>Location: Opportunities across EMEA</li>
-	<li>Rotational, 9-week programme from June – August</li>
+	<li>Rotational, 9&ndash;week programme from June – August</li>
 	<li>Online application form</li>
 </ul>
 
@@ -17,12 +17,12 @@
 
 <h2 class="bac">Our Business:</h2>
 <p class="bac">
-More than 700 professionals in our award-winning Global Research organisation support our institutional sales and trading teams and their clients. Research Analysts add value to investor clients by providing insightful, objective and decisive research, designed to enable them to make informed investment decisions in three primary disciplines:  
+More than 700 professionals in our award&ndash;winning Global Research organisation support our institutional sales and trading teams and their clients. Research Analysts add value to investor clients by providing insightful, objective and decisive research, designed to enable them to make informed investment decisions in three primary disciplines:  
 </p>
 <ul class="bac">
-	<li><b>Global Equity Research Analysts</b> - provide fundamental analysis on nearly 3,000 companies in 50 countries
-	<li><b>Global Credit Research</b> - encompasses high-grade, high-yield, credit strategy, credit derivatives, mortgages and other structured finance, convertibles, municipals and indices
-	<li><b>Global Macro Research</b> - encompasses economics, currencies, commodities, rates, derivatives and equity investment strategies
+	<li><b>Global Equity Research Analysts</b> &ndash; provide fundamental analysis on nearly 3,000 companies in 50 countries
+	<li><b>Global Credit Research</b> &ndash; encompasses high&ndash;grade, high&ndash;yield, credit strategy, credit derivatives, mortgages and other structured finance, convertibles, municipals and indices
+	<li><b>Global Macro Research</b> &ndash; encompasses economics, currencies, commodities, rates, derivatives and equity investment strategies
 </li>
 </ul>
 <p class="bac">
@@ -40,14 +40,14 @@ As an Associate within Global Research (positions are within Equity Research), y
 	<li>Discover unlimited opportunities to challenge yourself and grow professionally </li>
 	<li>Engage in fundamental research activities with instructions from managers and colleagues, who have experience and expertise in their respective areas</li>
 	<li>Develop a network of internal professionals and clients</li>
-	<li>Contribute to, and initiate, leading-edge, non-consensus, market-moving research products and reports on corporates, sectors and markets </li>
+	<li>Contribute to, and initiate, leading&ndash;edge, non&ndash;consensus, market&ndash;moving research products and reports on corporates, sectors and markets </li>
 </ul>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
 
 <h2 class="bac">Qualifications:</h2>
 <p class="bac">
-Candidates must be in their penultimate year of MBA, or other advanced degree from a top-tier business school, with outstanding academic credentials, and a track record of superior performance in extracurricular and professional activities. Impressive accounting and quantitative skills, along with a passionate interest and solid understanding of financial markets are essential. You should also have well-developed judgment and business sense, and strong analytical and written/oral communication skills. 
+Candidates must be in their penultimate year of MBA, or other advanced degree from a top&ndash;tier business school, with outstanding academic credentials, and a track record of superior performance in extracurricular and professional activities. Impressive accounting and quantitative skills, along with a passionate interest and solid understanding of financial markets are essential. You should also have well&ndash;developed judgment and business sense, and strong analytical and written/oral communication skills. 
 </p>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">

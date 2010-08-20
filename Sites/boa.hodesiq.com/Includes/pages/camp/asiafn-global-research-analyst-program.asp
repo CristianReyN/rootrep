@@ -5,11 +5,11 @@
 <a name="skipmaincontent"></a><h1 class="bac"><%=program.Item("title")%></h1>
 <h2 class="bac">Our Business:</h2>
 <p class="bac">
-More than 700 professionals of the award-winning Global Research organization support the company&#39;s institutional sales and trading teams and their clients. Their expertise is at the core of the value delivered to investor clients. Research analysts provide insightful, objective and decisive research designed to enable clients to make informed investment decisions in three primary disciplines:  
+More than 700 professionals of the award&ndash;winning Global Research organization support the company&#39;s institutional sales and trading teams and their clients. Their expertise is at the core of the value delivered to investor clients. Research analysts provide insightful, objective and decisive research designed to enable clients to make informed investment decisions in three primary disciplines:  
 </p>
 <ul class="bac">
 	<li>Global Equity Research Analysts provide fundamental analysis on nearly 3,000 companies domiciled in 50 countries</li>
-	<li>Global Credit Research encompasses high-grade, high-yield credit strategy, credit derivatives, mortgages and other structured finance, convertibles, municipals and indices</li>
+	<li>Global Credit Research encompasses high&ndash;grade, high&ndash;yield credit strategy, credit derivatives, mortgages and other structured finance, convertibles, municipals and indices</li>
 	<li>Global Macro Research encompasses economics, currencies, commodities, rates, derivatives and equity investment strategies</li>
 </ul>
 
@@ -45,7 +45,7 @@ Analysts are hired and placed directly with a specific team. Placement is determ
 <br>
 <H3 class="bac">Responsibilities (vary with placement)</H3>
 <p class="bac">
-Research Analysts will work closely with the team, with some of the tasks including: modeling/analysis, conducting primary research, and attending internal/external client meetings. Some duties are conducted regularly (daily, weekly, etc.), while others are longer-term, ad-hoc projects over months.  
+Research Analysts will work closely with the team, with some of the tasks including: modeling/analysis, conducting primary research, and attending internal/external client meetings. Some duties are conducted regularly (daily, weekly, etc.), while others are longer&ndash;term, ad&ndash;hoc projects over months.  
 </p>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
@@ -80,7 +80,7 @@ Research Analysts will work closely with the team, with some of the tasks includ
 	<li>A high degree of initiative and motivation </li>
 	<li>Strong attention to detail </li>
 	<li>Quick learner, with interest in taking on new responsibilities</li>
-	<li>Client-focused </li>
+	<li>Client&ndash;focused </li>
 	<li>Ability to work well with others</li>
 	<li>Ability to maintain composure and confidence, while juggling conflicting priorities </li>
 </ul>
@@ -89,13 +89,13 @@ Research Analysts will work closely with the team, with some of the tasks includ
 
 <h2 class="bac">Training:</h2>
 <p class="bac">
-Full-time Analysts are hired upon completion of their undergraduate/Master&#39;s degree. Your career as an Analyst will begin with a formal training program, which takes place in New York for all Analysts globally, and is considered one of the best in the industry. Instruction is provided by Bank of America professionals and leading business school professors. 
+Full&ndash;time Analysts are hired upon completion of their undergraduate/Master&#39;s degree. Your career as an Analyst will begin with a formal training program, which takes place in New York for all Analysts globally, and is considered one of the best in the industry. Instruction is provided by Bank of America professionals and leading business school professors. 
 </p>
 <p class="bac">
 The training program includes: 
 </p>
 <ul class="bac">
-	<li>A company-wide orientation program to introduce you to Bank of America</li>
+	<li>A company&ndash;wide orientation program to introduce you to Bank of America</li>
 	<li>An overview of financial markets and essential business skills</li>
 	<li>An intensive training program customized for Analysts that prepares you for placement in Research, by simulating actual work assignments, covering quantitative fundamentals and preparing you for life as an Analyst</li>
 </ul>

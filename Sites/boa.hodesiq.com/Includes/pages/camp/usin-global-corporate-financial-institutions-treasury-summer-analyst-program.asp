@@ -5,14 +5,14 @@
 <a name="skipmaincontent"></a><h1 class="bac"><%=program.Item("title")%></h1>
 <h2 class="bac">Our Business:</h2>
 <p class="bac">
-A division of Global Banking and Markets (GBAM), the Global Corporate and Financial Institutions Treasury Product Delivery team provides integrated treasury, liquidity and debt solutions to Global Corporate clients and financial institutions. As a core member of the client team, the Product Delivery Team partners closely with groups across Corporate Banking including; Product Management, E-commerce, Card, and Debt Product Delivery teams, to deliver integrated solutions to our client. Treasury analysts work with clients operating around the globe, with annual revenues of greater than $2B, as well as financial institutions and financial services companies.
+A division of Global Banking and Markets (GBAM), the Global Corporate and Financial Institutions Treasury Product Delivery team provides integrated treasury, liquidity and debt solutions to Global Corporate clients and financial institutions. As a core member of the client team, the Product Delivery Team partners closely with groups across Corporate Banking including; Product Management, E&ndash;commerce, Card, and Debt Product Delivery teams, to deliver integrated solutions to our client. Treasury analysts work with clients operating around the globe, with annual revenues of greater than $2B, as well as financial institutions and financial services companies.
 </p>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
 
 <h2 class="bac">Overview:</h2>  
 <p class="bac">
-The Summer Analyst Program emphasizes on-the-job training, augmented by classroom instruction, focused on technical, analytical and professional skills. Functional areas include treasury management, financial modeling and credit/risk fundamentals, and relationship management.  
+The Summer Analyst Program emphasizes on&ndash;the&ndash;job training, augmented by classroom instruction, focused on technical, analytical and professional skills. Functional areas include treasury management, financial modeling and credit/risk fundamentals, and relationship management.  
 </p>
 <p class="bac">
 Summer analyst roles provide broad exposure and understanding of key functional areas. Summer analysts receive exposure to treasury solutions, product management/innovation and risk management, with intensive focus on how to best deliver innovative treasury solutions to our clients. 
@@ -45,7 +45,7 @@ Summer analyst roles provide broad exposure and understanding of key functional 
 
 <h2 class="bac">Locations:</h2>
 <p class="bac">
-Positions are available in major markets across the Bank of America footprint. Line of business and location assignment is based on business need and candidate interest. Geographic flexibility is required at the end of the program in an effort to fill business-critical roles.
+Positions are available in major markets across the Bank of America footprint. Line of business and location assignment is based on business need and candidate interest. Geographic flexibility is required at the end of the program in an effort to fill business&ndash;critical roles.
 </p>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">

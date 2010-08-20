@@ -5,21 +5,21 @@
 <a name="skipmaincontent"></a><h1 class="bac"><%=program.Item("title")%></h1>
 <h2 class="bac">Our Business:</h2>
 <p class="bac">
-At Bank of America Merrill Lynch, Research Analysts are aligned by both product (macro, credit or equity), and/or industry group (healthcare, technology, energy, etc.). Working alongside some of the most talented professionals in the industry, Research Analysts gain the sector-specific expertise critical to building a career in Research, and contribute significantly to the in-depth research we distribute to clients worldwide. 
+At Bank of America Merrill Lynch, Research Analysts are aligned by both product (macro, credit or equity), and/or industry group (healthcare, technology, energy, etc.). Working alongside some of the most talented professionals in the industry, Research Analysts gain the sector&ndash;specific expertise critical to building a career in Research, and contribute significantly to the in&ndash;depth research we distribute to clients worldwide. 
 </p>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
 
 <h2 class="bac">Overview:</h2>  
 <p class="bac">
-Research Associates are responsible for financial modeling/analysis, conducting primary research, writing franchise pieces and servicing institutional clients. Some responsibilities are conducted regularly (daily, weekly, etc.), while others are longer-term, ad-hoc projects. Sample responsibilities and projects include: 
+Research Associates are responsible for financial modeling/analysis, conducting primary research, writing franchise pieces and servicing institutional clients. Some responsibilities are conducted regularly (daily, weekly, etc.), while others are longer&ndash;term, ad&ndash;hoc projects. Sample responsibilities and projects include: 
 </p>
 <br>
 <H3 class="bac">Modeling and Analysis</H3>
 <ul class="bac">
 	<li>Assembling historical financial models on covered companies using SEC filings, company conference calls and press releases </li>
 	<li>Conducting financial, statistical and industry analysis on companies and the industry, to support the team&#39;s investment thesis </li>
-	<li>Updating financial models regularly and ad-hoc</li>
+	<li>Updating financial models regularly and ad&ndash;hoc</li>
 </ul>
 <br>
 <H3 class="bac">Primary Research</H3>
@@ -59,7 +59,7 @@ Candidates must demonstrate a combination of academic aptitude, quantitative ski
 <ul class="bac">
 	<li>Strong communication (written and verbal) skills</li>
 	<li>Effective organizational, time management and prioritization skills</li>
-	<li>Client service orientation; drive to over-deliver to internal client</li>
+	<li>Client service orientation; drive to over&ndash;deliver to internal client</li>
 	<li>Ability to work independently and drive toward a completed end product</li>
 	<li>Strong attention to detail; exercise strong quality control over own work</li>
 	<li>Strong team and partnering skills; ability to operate effectively remotely </li>
@@ -74,8 +74,8 @@ Candidates must demonstrate a combination of academic aptitude, quantitative ski
 <H3 class="bac">Personal traits</H3>
 <ul class="bac">
 	<li>A passion and curiosity appropriate for research</li>
-	<li>Highly-motivated, with a drive to succeed</li>
-	<li>Well-organized, with high attention to detail</li>
+	<li>Highly&ndash;motivated, with a drive to succeed</li>
+	<li>Well&ndash;organized, with high attention to detail</li>
 	<li>Outgoing, with strong personal presence</li>
 	<li>Good judgment and business sense</li>
 	<li>Solid work ethic</li>
@@ -85,7 +85,7 @@ Candidates must demonstrate a combination of academic aptitude, quantitative ski
 
 <h2 class="bac">Training:</h2>
 <p class="bac">
-As a Research Analyst, you will begin your career at Bank of America Merrill Lynch with an intensive training program. The program is an interactive, experientially-based mix of group projects, e-learning, lectures, case studies, business representative presentations and team building activities. This will provide you with a solid grounding in global markets and economics, as well as how Bank of America&#39;s businesses, products and services operate in this global context. Throughout the program, you will have ample opportunity to meet and work with your peers and other colleagues across all levels of the company. The network you build during this time will be a tremendous resource to you throughout your career. 
+As a Research Analyst, you will begin your career at Bank of America Merrill Lynch with an intensive training program. The program is an interactive, experientially&ndash;based mix of group projects, e&ndash;learning, lectures, case studies, business representative presentations and team building activities. This will provide you with a solid grounding in global markets and economics, as well as how Bank of America&#39;s businesses, products and services operate in this global context. Throughout the program, you will have ample opportunity to meet and work with your peers and other colleagues across all levels of the company. The network you build during this time will be a tremendous resource to you throughout your career. 
 </p>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">

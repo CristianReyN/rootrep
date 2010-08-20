@@ -5,10 +5,10 @@
 <a name="skipmaincontent"></a><h1 class="bac"><%=program.Item("title")%></h1>
 <h2 class="bac">Summary:</h2>
 <ul class="bac">
-	<li>MBA or other advanced degree from a top-tier business school</li>
+	<li>MBA or other advanced degree from a top&ndash;tier business school</li>
 	<li>Track record of superior performance in extracurricular and professional activities</li>
 	<li>Location: Opportunities across EMEA</li>
-	<li>Desk-specific</li>
+	<li>Desk&ndash;specific</li>
 	<li>Online application form</li>
 </ul>
 
@@ -16,7 +16,7 @@
 
 <h2 class="bac">Our Business:</h2>
 <p class="bac">
-Investment Banking focuses on building long-term relationships with more than 3,000 large corporations, financial institutions and financial sponsors. It provides strong advisory expertise, and capitalises on powerful M&#38;A, corporate banking, treasury, debt and equity product knowledge to deliver integrated financial solutions. We have a significant presence in the Americas, Europe, the Middle East, Africa and Asia Pacific. 
+Investment Banking focuses on building long&ndash;term relationships with more than 3,000 large corporations, financial institutions and financial sponsors. It provides strong advisory expertise, and capitalises on powerful M&#38;A, corporate banking, treasury, debt and equity product knowledge to deliver integrated financial solutions. We have a significant presence in the Americas, Europe, the Middle East, Africa and Asia Pacific. 
 </p>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
@@ -40,21 +40,21 @@ As an active team member in a focused industry or product group, you&#39;ll:
 
 <h2 class="bac">Qualifications:</h2>
 <p class="bac">
-Your outstanding academic credentials will include an MBA or other advanced degree from a top-tier business school, and you&#39;ll need a track record of superior performance in extracurricular and professional activities. We&#39;re looking for strong quantitative and analytical skills, knowledge of financial services and appropriate language capabilities. The ability to apply advanced oral and written communication skills to create a positive impression and professional rapport will be key. In addition, you should be a quick learner who can work independently or as part of a team, with a high degree of initiative and motivation, and a client-focused, results-driven approach. 
+Your outstanding academic credentials will include an MBA or other advanced degree from a top&ndash;tier business school, and you&#39;ll need a track record of superior performance in extracurricular and professional activities. We&#39;re looking for strong quantitative and analytical skills, knowledge of financial services and appropriate language capabilities. The ability to apply advanced oral and written communication skills to create a positive impression and professional rapport will be key. In addition, you should be a quick learner who can work independently or as part of a team, with a high degree of initiative and motivation, and a client&ndash;focused, results&ndash;driven approach. 
 </p>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
 
 <h2 class="bac">Training:</h2>
 <p class="bac">
-Full-time associates are hired upon completion of their graduate degree. Your career as an associate begins with a formal training programme, which takes place in New York and is attended by associates globally. Instruction is provided by internal professionals and leading business school professors, and the programme is considered one of the best in the industry.  
+Full&ndash;time associates are hired upon completion of their graduate degree. Your career as an associate begins with a formal training programme, which takes place in New York and is attended by associates globally. Instruction is provided by internal professionals and leading business school professors, and the programme is considered one of the best in the industry.  
 </p>
 
 <p class="bac">
 It includes: 
 </p>
 <ul class="bac">
-	<li>An organisation-wide orientation programme to introduce you to the company</li>
+	<li>An organisation&ndash;wide orientation programme to introduce you to the company</li>
 	<li>An overview of financial markets and essential business skills</li>
 	<li>An intensive training programme customised for associates, preparing you for your placement in Global Investment Banking. This simulates actual work assignments and helps you further develop the necessary financial and analytical skills needed to hit the ground running when you join your group. </li>
 </ul>

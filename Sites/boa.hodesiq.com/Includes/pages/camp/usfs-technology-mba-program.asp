@@ -8,9 +8,9 @@
 Global Technology &#38; Operations:
 </p>
 <ul class="bac">
-	<li>Enables growth &#45; Bank of America uses our enterprise perspective and broad expertise to deliver success </li>
-	<li>Drives quality &#45; we champion process excellence, and we&#39;ll streamline, simplify and focus </li>
-	<li>Improves operating efficiency &#45; we create capacity, lead change and reinvest in growth, to have a greater impact on performance</li>
+	<li>Enables growth &ndash; Bank of America uses our enterprise perspective and broad expertise to deliver success </li>
+	<li>Drives quality &ndash; we champion process excellence, and we&#39;ll streamline, simplify and focus </li>
+	<li>Improves operating efficiency &ndash; we create capacity, lead change and reinvest in growth, to have a greater impact on performance</li>
 </ul>
 <p class="bac">
 The Technology MBA program is an experiential development program spanning the Global Technology &#38; Operations Organization within Bank of America, which includes: Card Technology, Consumer Small Business Banking Technology, Enterprise Technology &#38; Delivery, Global Banking Markets Wealth Management, Technology &#38; Operations, and Home Loans Insurance Technology.  
@@ -20,8 +20,8 @@ The Technology MBA program is an experiential development program spanning the G
 
 <h2 class="bac">Overview:</h2>  
 <ul class="bac">
-	<li>The Technology MBA Rotational Program provides the opportunity to gain foundational knowledge within Bank of America&#39;s Technology organization, through 2-3 rotations, over a 36-month period  </li>
-	<li>Participants will learn end-to-end technology and business strategy, and develop the skills necessary to potentially move into leadership positions upon completion of the program</li>
+	<li>The Technology MBA Rotational Program provides the opportunity to gain foundational knowledge within Bank of America&#39;s Technology organization, through 2&ndash;3 rotations, over a 36&ndash;month period  </li>
+	<li>Participants will learn end&ndash;to&ndash;end technology and business strategy, and develop the skills necessary to potentially move into leadership positions upon completion of the program</li>
 	<li>Associates will also have a formal support structure, including an assigned learning curriculum, program events, peer coaches, assignment manager and program manager</li>
 </ul>
 
@@ -29,13 +29,13 @@ The Technology MBA program is an experiential development program spanning the G
 
 <h2 class="bac">Qualifications:</h2>
 <p class="bac">
-The ideal candidate will exhibit a strong drive for results; succeed in a fast-paced, empowered, and collaborative environment; enjoy teamwork and partnering with others; possess excellent organizational and analytical skills; and understand technology and business requirements. The ability to learn the organizational structure and the formal/informal workings of the organization, and to convey a strong sense of customer and associate satisfaction to drive shareholder value, is required.  
+The ideal candidate will exhibit a strong drive for results; succeed in a fast&ndash;paced, empowered, and collaborative environment; enjoy teamwork and partnering with others; possess excellent organizational and analytical skills; and understand technology and business requirements. The ability to learn the organizational structure and the formal/informal workings of the organization, and to convey a strong sense of customer and associate satisfaction to drive shareholder value, is required.  
 </p>
 <br>
 <H3 class="bac">Candidate Profile</H3>
 <ul class="bac">
 	<li>MBA or equivalent graduate degree, from an accredited college or university</li>
-	<li>5-8 years of work experience prior to entering graduate school</li>
+	<li>5&ndash;8 years of work experience prior to entering graduate school</li>
 	<li>Strong leadership and communication skills</li>
 	<li>Previous project management experience</li>
 	<li>100% geographic flexibility </li>

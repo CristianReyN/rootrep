@@ -5,7 +5,7 @@
 <a name="skipmaincontent"></a><h1 class="bac"><%=program.Item("title")%></h1>
 <h2 class="bac">Our Business:</h2>
 <p class="bac">
-Global Corporate and Investment Banking (GCIB) focuses on building long-term relationships with more than 3,000 large U.S. and multinational corporations, financial institutions and financial sponsors, by providing strong advisory expertise and capitalizing on powerful M&#38;A, corporate banking, treasury, debt and equity product expertise, to deliver integrated financial solutions. 
+Global Corporate and Investment Banking (GCIB) focuses on building long&ndash;term relationships with more than 3,000 large U.S. and multinational corporations, financial institutions and financial sponsors, by providing strong advisory expertise and capitalizing on powerful M&#38;A, corporate banking, treasury, debt and equity product expertise, to deliver integrated financial solutions. 
 </p>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
@@ -92,8 +92,8 @@ Investment Banking Analysts play a key role in the origination and execution of 
 	<li>A high degree of initiative and motivation </li>
 	<li>Strong attention to detail </li>
 	<li>Quick learner, with interest in taking on new responsibilities</li>
-	<li>Client-focused </li>
-	<li>Results-oriented</li>
+	<li>Client&ndash;focused </li>
+	<li>Results&ndash;oriented</li>
 	<li>Ability to work well with others</li>
 	<li>Ability to maintain composure and confidence, while juggling conflicting priorities </li>
 </ul>
@@ -102,13 +102,13 @@ Investment Banking Analysts play a key role in the origination and execution of 
 
 <h2 class="bac">Training:</h2>
 <p class="bac">
-Full-time Analysts are hired upon completion of their undergraduate/Master&#39;s degree. Your career as an Analyst will begin with a formal training program, which takes place in New York for all Analysts globally, and is considered one of the best in the industry. Instruction is provided by Bank of America professionals and leading business school professors. 
+Full&ndash;time Analysts are hired upon completion of their undergraduate/Master&#39;s degree. Your career as an Analyst will begin with a formal training program, which takes place in New York for all Analysts globally, and is considered one of the best in the industry. Instruction is provided by Bank of America professionals and leading business school professors. 
 </p>
 <p class="bac">
 The training program includes: 
 </p>
 <ul class="bac">
-	<li>A company-wide orientation program to introduce you to Bank of America</li>
+	<li>A company&ndash;wide orientation program to introduce you to Bank of America</li>
 	<li>An overview of financial markets and essential business skills</li>
 	<li>An intensive training program customized for Analysts that prepares you for placement in Investment Banking, by simulating actual work assignments, covering quantitative fundamentals, and preparing you for life as an Analyst</li>
 </ul>

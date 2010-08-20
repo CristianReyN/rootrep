@@ -40,7 +40,7 @@ You will be working closely with experienced Sales or Credit professionals on st
 <H3 class="bac">Skills and abilities </H3>
 <ul class="bac">
 	<li>Strong quantitative and analytical skills</li>
-	<li>Creative thinking and problem-solving skills</li>
+	<li>Creative thinking and problem&ndash;solving skills</li>
 	<li>Strong presentation and interpersonal skills </li>
 	<li>Ability to produce high quality work in a demanding environment</li>
 	<li>Ability to work independently, while functioning as part of a team </li>
@@ -55,19 +55,19 @@ You will be working closely with experienced Sales or Credit professionals on st
 	<li>Quick learner and interest in taking on new responsibilities</li>
 	<li>Strong attention to detail</li>
 	<li>Ability to work well with others</li>
-	<li>Client-focused </li>
-	<li>Results-oriented</li>
+	<li>Client&ndash;focused </li>
+	<li>Results&ndash;oriented</li>
 </ul>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
 
 <h2 class="bac">Training:</h2>
 <p class="bac">
-The Full-time Analyst program consists of the following developmental activities: 
+The Full&ndash;time Analyst program consists of the following developmental activities: 
 </p>
 <ul class="bac">
-	<li>Access to pre-work via an online e-learning portal, covering foundation topics</li>
-	<li>Introductory and ongoing training program (including on-the-job and/or classroom training) </li>
+	<li>Access to pre&ndash;work via an online e&ndash;learning portal, covering foundation topics</li>
+	<li>Introductory and ongoing training program (including on&ndash;the&ndash;job and/or classroom training) </li>
 	<li>An overview of financial markets and essential business skills</li>
 	<li>Business critical assignments</li>
 	<li>Exposure to senior leadership teams</li>

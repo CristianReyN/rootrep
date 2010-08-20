@@ -14,7 +14,7 @@ Global Transition, Quality &#38; Change Delivery (GTQ&#38;CD) is the division wi
 <ul class="bac">
 	<li>Quality &#38; Change Delivery Analysts will participate in a program that is designed to foster teamwork, networking and accelerated development. Analyst responsibilities include: broad exposure to lines of business, by working closely with business executives to effectively lead, train and coach quality activities that will achieve breakthrough productivity and customer satisfaction improvements. </li>
 	<li>Driving projects with large scope and accountability to success, by leading and coaching projects, and acting as a subject matter expert</li>
-	<li>Providing detailed, fact-based analysis of business practices, processes and systems to accelerate improvements in product/process performance</li>
+	<li>Providing detailed, fact&ndash;based analysis of business practices, processes and systems to accelerate improvements in product/process performance</li>
 	<li>Championing new initiatives, and acting as a catalyst for change to help lead innovative product/process development </li>
 	<li>Supporting the deployment of Quality &#38; Change Delivery capabilities and toolsets, to facilitate improvements in the design, development and implementation of project deliverables</li>
 </ul>
@@ -23,7 +23,7 @@ Global Transition, Quality &#38; Change Delivery (GTQ&#38;CD) is the division wi
 
 <h2 class="bac">Qualifications:</h2>
 <p class="bac">
-Successful candidates will have a strong undergraduate record, and possess the ability to work in a fast-paced, team environment. Candidates must be able to handle multiple, concurrent assignments, and possess strong interpersonal skills. The ideal candidate should maintain a high level of motivation and self-direction, and demonstrate a desire to learn about technology and the financial services industry.  In addition, candidates should demonstrate strong organizational, critical thinking and problem-solving skills, along with effective written and verbal communication skills. Microsoft Word, PowerPoint, and Excel skills are preferred.  
+Successful candidates will have a strong undergraduate record, and possess the ability to work in a fast&ndash;paced, team environment. Candidates must be able to handle multiple, concurrent assignments, and possess strong interpersonal skills. The ideal candidate should maintain a high level of motivation and self&ndash;direction, and demonstrate a desire to learn about technology and the financial services industry.  In addition, candidates should demonstrate strong organizational, critical thinking and problem&ndash;solving skills, along with effective written and verbal communication skills. Microsoft Word, PowerPoint, and Excel skills are preferred.  
 </p>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">

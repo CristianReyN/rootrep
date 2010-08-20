@@ -5,21 +5,21 @@
 <a name="skipmaincontent"></a><h1 class="bac"><%=program.Item("title")%></h1>
 <h2 class="bac">Our Business:</h2>
 <p class="bac">
-Our goal is to deliver a best-in-class Internship opportunity for Finance interns through experiential learning, training and networking opportunities. The Finance Intern Program is designed to give associates the necessary experiences and exposure to determine their level of interest in the Finance Management Associate Program, while maximizing their contributions to Bank of America. 
+Our goal is to deliver a best&ndash;in&ndash;class Internship opportunity for Finance interns through experiential learning, training and networking opportunities. The Finance Intern Program is designed to give associates the necessary experiences and exposure to determine their level of interest in the Finance Management Associate Program, while maximizing their contributions to Bank of America. 
 </p>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
 
 <h2 class="bac">Overview:</h2>  
 <p class="bac">
-The Finance Management Associate Program (FMAP) is a two-year Associate Development program, focusing on Corporate Accounting and Corporate Finance functions within Bank of America. The FMAP program provides associates the opportunity to move through two rotational assignments within the Chief Finance Officer&#39;s organization. This rotational process helps associates develop a solid knowledge base of the functional areas of the CFO Group, and a broad range of skills. FMAP associates participate in a variety of activities designed to foster teamwork, encourage networking and demonstrate Bank of America&#39;s vision and culture. You will participate in FMAP events and networking activities, and will be encouraged to further develop leadership skills by leading projects or committees.   
+The Finance Management Associate Program (FMAP) is a two&ndash;year Associate Development program, focusing on Corporate Accounting and Corporate Finance functions within Bank of America. The FMAP program provides associates the opportunity to move through two rotational assignments within the Chief Finance Officer&#39;s organization. This rotational process helps associates develop a solid knowledge base of the functional areas of the CFO Group, and a broad range of skills. FMAP associates participate in a variety of activities designed to foster teamwork, encourage networking and demonstrate Bank of America&#39;s vision and culture. You will participate in FMAP events and networking activities, and will be encouraged to further develop leadership skills by leading projects or committees.   
 </p>
 <p class="bac">
-Through your 2 one-year rotations, you will participate in a Business and Corporate support role. FMAP roles may support one or more of the following: 
+Through your 2 one&ndash;year rotations, you will participate in a Business and Corporate support role. FMAP roles may support one or more of the following: 
 </p>
 <ul class="bac">
-	<li>Analysis and reporting of on-going operations</li>
-	<li>Forecasting financial and non-financial trends</li>
+	<li>Analysis and reporting of on&ndash;going operations</li>
+	<li>Forecasting financial and non&ndash;financial trends</li>
 	<li>Developing models and performing financial analysis of business investments</li>
 	<li>Supporting the company&#39;s internal planning and management accounting functions </li>
 	<li>Preparing external reports for shareholders and regulatory authorities</li>
@@ -37,7 +37,7 @@ We hire an elite group of new associates, who have degrees in Accounting and Fin
 
 <h2 class="bac">Training:</h2>
 <p class="bac">
-The FMAP training curriculum is comprehensive and offers a blend of classroom and web-based training, which complements the hands-on experience that the MAP associates develop in their rotational assignments. The training curriculum is geared for professionals with courses offered in three main areas: technical training, business acumen and behavioral courses. 
+The FMAP training curriculum is comprehensive and offers a blend of classroom and web&ndash;based training, which complements the hands&ndash;on experience that the MAP associates develop in their rotational assignments. The training curriculum is geared for professionals with courses offered in three main areas: technical training, business acumen and behavioral courses. 
 </p>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">

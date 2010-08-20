@@ -17,12 +17,12 @@ The Global Markets Operations/Middle Office (GMO&#38;MO) Analyst Program is desi
 <br>
 <H3 class="bac">Responsibilities</H3>
 <ul class="bac">
-	<li>Performs post-execution trade processing and internal controls, from trade entry through settlement and custody, and ensures all trades are settled as quickly and efficiently as possible</li>
-	<li>Ensures that the company delivers services and execution that meet market-leading standards</li>
+	<li>Performs post&ndash;execution trade processing and internal controls, from trade entry through settlement and custody, and ensures all trades are settled as quickly and efficiently as possible</li>
+	<li>Ensures that the company delivers services and execution that meet market&ndash;leading standards</li>
 	<li>Manages operational risk and accurate transaction settlement, to maximize profitability while minimizing risk</li>
 	<li>Provides effective cash management, ensuring the integrity of the balance sheet as well as the global integrity of client data, and full compliance monitoring of all transactions</li>
 	<li>Works closely with colleagues in the Fixed Income, Commodities, Equity, Listed Derivatives or Prime Brokerage businesses to process complex transactions and solve operational problems</li>
-	<li>Responds to business issues and client needs, assists in risk management, conducts revenue analysis and participates in company&#39;s re-engineering projects</li>
+	<li>Responds to business issues and client needs, assists in risk management, conducts revenue analysis and participates in company&#39;s re&ndash;engineering projects</li>
 </ul>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
@@ -45,7 +45,7 @@ The Global Markets Operations/Middle Office (GMO&#38;MO) Analyst Program is desi
 <H3 class="bac">Skills and abilities </H3>
 <ul class="bac">
 	<li>Strong quantitative and analytical skills</li>
-	<li>Creative thinking and problem-solving skills</li>
+	<li>Creative thinking and problem&ndash;solving skills</li>
 	<li>Strong presentation and interpersonal skills </li>
 	<li>Ability to produce high quality work in a demanding environment</li>
 	<li>Ability to work independently, while functioning as part of a team </li>
@@ -61,8 +61,8 @@ The Global Markets Operations/Middle Office (GMO&#38;MO) Analyst Program is desi
 	<li>Quick learner, with interest in taking on new responsibilities</li>
 	<li>Strong attention to detail</li>
 	<li>Ability to work well with others</li>
-	<li>Client-focused </li>
-	<li>Results-oriented</li>
+	<li>Client&ndash;focused </li>
+	<li>Results&ndash;oriented</li>
 </ul>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
@@ -72,8 +72,8 @@ The Global Markets Operations/Middle Office (GMO&#38;MO) Analyst Program is desi
 The GMO&#38;MO Analyst program consists of the following developmental activities: 
 </p>
 <ul class="bac">
-	<li>Access to pre-work via an online e-learning portal covering foundation topics</li>
-	<li>Introductory and ongoing training program (including on-the-job and/or classroom training) </li>
+	<li>Access to pre&ndash;work via an online e&ndash;learning portal covering foundation topics</li>
+	<li>Introductory and ongoing training program (including on&ndash;the&ndash;job and/or classroom training) </li>
 	<li>An overview of financial markets and essential business skills</li>
 	<li>Business critical assignments</li>
 	<li>Exposure to senior leadership teams</li>

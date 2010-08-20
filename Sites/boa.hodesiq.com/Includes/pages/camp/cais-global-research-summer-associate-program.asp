@@ -5,14 +5,14 @@
 <a name="skipmaincontent"></a><h1 class="bac"><%=program.Item("title")%></h1>
 <h2 class="bac">Our Business:</h2>
 <p class="bac">
-At Bank of America, Research Associates are aligned by both product (macro, credit or equity), and/or industry group (healthcare, technology, energy, etc.). Working alongside some of the most talented professionals in the industry, Research Associates gain the sector-specific expertise critical to building a career in research, and contribute significantly to the in-depth research we distribute to clients worldwide. 
+At Bank of America, Research Associates are aligned by both product (macro, credit or equity), and/or industry group (healthcare, technology, energy, etc.). Working alongside some of the most talented professionals in the industry, Research Associates gain the sector&ndash;specific expertise critical to building a career in research, and contribute significantly to the in&ndash;depth research we distribute to clients worldwide. 
 </p>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
 
 <h2 class="bac">Overview:</h2>  
 <p class="bac">
-Research Associates are responsible for financial modeling/analysis, conducting primary research, writing franchise pieces and servicing institutional clients. Some responsibilities are conducted regularly (daily, weekly, etc.), while others are longer-term, ad-hoc projects. 
+Research Associates are responsible for financial modeling/analysis, conducting primary research, writing franchise pieces and servicing institutional clients. Some responsibilities are conducted regularly (daily, weekly, etc.), while others are longer&ndash;term, ad&ndash;hoc projects. 
 </p>
 <p class="bac">
 Sample responsibilities and projects include:  
@@ -22,7 +22,7 @@ Sample responsibilities and projects include:
 <ul class="bac">
 	<li>Assembling historical financial models on covered companies using SEC filings, company conference calls and press releases</li>
 	<li>Conducting financial, statistical and industry analysis on companies and the industry, to support the team&#39;s investment thesis </li>
-	<li>Updating financial models regularly and ad-hoc</li>
+	<li>Updating financial models regularly and ad&ndash;hoc</li>
 </ul>
 <br>
 <H3 class="bac">Primary Research</H3>
@@ -65,7 +65,7 @@ Candidates must demonstrate a combination of academic aptitude, quantitative ski
 
 <ul class="bac">	
         <li>Effective organizational skills; time management and good prioritization skills</li> 
-	<li>Client service-oriented; drive to over-deliver to internal client </li>
+	<li>Client service&ndash;oriented; drive to over&ndash;deliver to internal client </li>
 	<li>Ability to work independently and drive toward a completed end product </li>
 	<li>Strong attention to detail; strong quality control over own work</li> 
 	<li>Strong team and partnering skills; able to operate effectively remotely </li>
@@ -80,8 +80,8 @@ Candidates must demonstrate a combination of academic aptitude, quantitative ski
 <H3 class="bac">Personal traits</H3>
 <ul class="bac">
 	<li>A passion and curiosity appropriate for research </li>
-	<li>Highly-motivated, with a drive to succeed</li> 
-	<li>Well-organized, with high attention to detail </li>
+	<li>Highly&ndash;motivated, with a drive to succeed</li> 
+	<li>Well&ndash;organized, with high attention to detail </li>
 	<li>Outgoing, with strong personal presence </li>
 	<li>Good judgment and business sense </li>
 	<li>Solid work ethic </li>
@@ -92,7 +92,7 @@ Candidates must demonstrate a combination of academic aptitude, quantitative ski
 
 <h2 class="bac">Training:</h2>
 <p class="bac">
-The Summer Analyst program is offered to undergraduates entering their senior year of college. The Summer Program kicks off with an orientation session, which teaches Bank of America basics, including professional practices, views of the markets and technical skills. Training continues throughout the summer, as the Analyst participates in group projects and presentations, offering the opportunity to learn not only from one&#39;s own program assignment, but also benefit from the other Summer Analysts&#39; experiences. Outstanding performers will be considered for a full-time position pending graduation. 
+The Summer Analyst program is offered to undergraduates entering their senior year of college. The Summer Program kicks off with an orientation session, which teaches Bank of America basics, including professional practices, views of the markets and technical skills. Training continues throughout the summer, as the Analyst participates in group projects and presentations, offering the opportunity to learn not only from one&#39;s own program assignment, but also benefit from the other Summer Analysts&#39; experiences. Outstanding performers will be considered for a full&ndash;time position pending graduation. 
 </p>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">

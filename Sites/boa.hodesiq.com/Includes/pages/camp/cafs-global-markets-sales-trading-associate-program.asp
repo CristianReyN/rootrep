@@ -8,7 +8,7 @@
 Bank of America Sales and Trading professionals deliver innovative solutions and exceptional execution, to help clients meet their complex financial objectives. We make markets in virtually all major asset classes, covering both the Debt and Equity product spectrums. We are active in both the Cash and Derivative markets. We have a global presence, with offices throughout Canada, the United States, Europe and Asia. 
 </p>
 <p class="bac">
-Bank of America uses an integrated approach to ensure our solutions meet client needs. Our functional areas of expertise - Sales, Trading, Research and Capital Markets - work together, creating a unique, team-oriented culture that fuels collaborative thinking.
+Bank of America uses an integrated approach to ensure our solutions meet client needs. Our functional areas of expertise &ndash; Sales, Trading, Research and Capital Markets &ndash; work together, creating a unique, team&ndash;oriented culture that fuels collaborative thinking.
 </p>
 <p class="bac">
 Our approach has made us a premier provider to our clients, which include institutions, corporations and consumer entities. Our institutional focus includes hedge funds, money managers, mutual funds, insurance companies and banks. 
@@ -50,17 +50,17 @@ Associates are called on to:
 <ul class="bac">
 	<li>Extensive Excel and modeling skills</li> 
 	<li>Strong quantitative and qualitative skills</li> 
-	<li>Demonstrated problem-solving skills and willingness to ask tough questions</li> 
-	<li>Well-developed judgment and business sense</li> 
+	<li>Demonstrated problem&ndash;solving skills and willingness to ask tough questions</li> 
+	<li>Well&ndash;developed judgment and business sense</li> 
 	<li>Proven leadership, team, communication and interpersonal skills</li> 
-	<li>Demonstrated ability to multi-task and prioritize in a demanding environment </li>
+	<li>Demonstrated ability to multi&ndash;task and prioritize in a demanding environment </li>
 </ul>
 <br>
 <H3 class="bac">Personal traits</H3>
 <ul class="bac">
 	<li>Strong interest in global financial markets </li>
-	<li>Highly-motivated with a drive to succeed </li>
-	<li>Adapts easily to constantly-changing environment </li>
+	<li>Highly&ndash;motivated with a drive to succeed </li>
+	<li>Adapts easily to constantly&ndash;changing environment </li>
 </ul>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
@@ -70,7 +70,7 @@ Associates are called on to:
 Full Time offers are made for a specific office location and product desk, based on candidate preference and business needs. 
 </p>
 <p class="bac">
-As a Sales and Trading Associate, you will begin your career at Bank of America with an intensive training program. Initially, you will train with your peers from other lines of business. You will then participate in a program designed specifically for Global Markets Associates. The program is an interactive, experientially-based mix of group projects, e-learning, lectures, case studies, business representative presentations and team-building activities which will provide you with a solid grounding in global markets and economics, and how Bank of America&#39;s businesses, products and services operate in this global context. Throughout the program, you will have ample opportunity to meet and work with your peers and other colleagues across all levels of the Bank. The network you build during this time will be a tremendous resource to you throughout your career.  
+As a Sales and Trading Associate, you will begin your career at Bank of America with an intensive training program. Initially, you will train with your peers from other lines of business. You will then participate in a program designed specifically for Global Markets Associates. The program is an interactive, experientially&ndash;based mix of group projects, e&ndash;learning, lectures, case studies, business representative presentations and team&ndash;building activities which will provide you with a solid grounding in global markets and economics, and how Bank of America&#39;s businesses, products and services operate in this global context. Throughout the program, you will have ample opportunity to meet and work with your peers and other colleagues across all levels of the Bank. The network you build during this time will be a tremendous resource to you throughout your career.  
 </p>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">

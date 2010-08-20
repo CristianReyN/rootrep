@@ -5,7 +5,7 @@
 <a name="skipmaincontent"></a><h1 class="bac"><%=program.Item("title")%></h1>
 <h2 class="bac">Our Business:</h2>
 <p class="bac">
-Consumer, Small Business &#38; Card (CSB&#38;C) serves more than 53 million consumer and small business households, through a distribution network that includes: 6,100 retail banking offices, 18,500 ATMs, and the nation&#39;s leading online banking offering, featuring award-winning service and nearly 29 million active users. 
+Consumer, Small Business &#38; Card (CSB&#38;C) serves more than 53 million consumer and small business households, through a distribution network that includes: 6,100 retail banking offices, 18,500 ATMs, and the nation&#39;s leading online banking offering, featuring award&ndash;winning service and nearly 29 million active users. 
 </p>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
@@ -27,18 +27,18 @@ Bank of America is seeking outstanding college graduates interested in a rewardi
 <ul class="bac">
 	<li>Bachelor&#39;s degree from an accredited college or university</li>
 	<li>The ability to develop and maintain customer relationships through superior customer service</li>
-	<li>The ability to pass the company-sponsored assessment</li>
+	<li>The ability to pass the company&ndash;sponsored assessment</li>
 	<li>A minimum of 6 months experience working directly with customers, in a sales or service role</li>
-	<li>Must have less than 3 years full-time work experience</li>
+	<li>Must have less than 3 years full&ndash;time work experience</li>
 	<li>The ability to be flexible with scheduling</li>
-	<li>Availability to work a 40-hour week Monday through Saturday</li>
+	<li>Availability to work a 40&ndash;hour week Monday through Saturday</li>
 </ul>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
 
 <h2 class="bac">Training:</h2>
 <p class="bac">
-12 -18 months will be spent learning the fundamentals of the Banking Center in the following key areas:   
+12 &ndash;18 months will be spent learning the fundamentals of the Banking Center in the following key areas:   
 </p>
 <ul class="bac">
 	<li>Teller training and development</li>
@@ -52,7 +52,7 @@ Bank of America is seeking outstanding college graduates interested in a rewardi
 
 <h2 class="bac">Locations:</h2>
 <p class="bac">
-Various - USA
+Various &ndash; USA
 </p>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">

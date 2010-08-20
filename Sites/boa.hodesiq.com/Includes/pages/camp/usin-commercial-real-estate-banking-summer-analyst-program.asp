@@ -5,10 +5,10 @@
 <a name="skipmaincontent"></a><h1 class="bac"><%=program.Item("title")%></h1>
 <h2 class="bac">Our Business:</h2>
 <p class="bac">
-Global Commercial Banking serves more than 100,000 business banking, and more than 30,000 middle-market, clients through our core businesses. A core business of Global Commercial Banking is Commercial Real Estate Banking (CREB), which includes: Commercial Real Estate, Home Builder, Community Development Banking, Trisail Capital Corporation and Real Estate Corporate Banking. 
+Global Commercial Banking serves more than 100,000 business banking, and more than 30,000 middle&ndash;market, clients through our core businesses. A core business of Global Commercial Banking is Commercial Real Estate Banking (CREB), which includes: Commercial Real Estate, Home Builder, Community Development Banking, Trisail Capital Corporation and Real Estate Corporate Banking. 
 </p>
 <p class="bac">
-CREB is one of the largest providers of real estate financing in the United States, serving professional developers of income-producing real estate, including retail, office, industrial and multi-family properties, and residential home builders. 
+CREB is one of the largest providers of real estate financing in the United States, serving professional developers of income&ndash;producing real estate, including retail, office, industrial and multi&ndash;family properties, and residential home builders. 
 </p>
 <p class="bac">
 Our dedicated teams of professionals deliver focused expertise and comprehensive, integrated solutions to provide a full range of financial services, including: acquisition, construction, bridge, interim and mezzanine financing, as well as capital raising, strategic advisory, treasury and risk management needs. 
@@ -40,7 +40,7 @@ All commercial Real Estate Interns will have an opportunity to enhance skills an
 <ul class="bac">
 	<li>Thorough understanding of financial accounting and corporate finance principles/practices</li>
 	<li>Pursuing a Business/Accounting/Finance/Real Estate related degree </li>
-	<li>Involvement in campus or community-related activities, in a leadership or support role</li>
+	<li>Involvement in campus or community&ndash;related activities, in a leadership or support role</li>
 	<li>Computer proficiency as it relates to financial modeling</li>
 	<li>Keen interest and desire to work in the real estate industry</li>
 	<li>Excellent verbal and written communication skills</li>

@@ -15,7 +15,7 @@ Functions supported within SCM include: sourcing and supplier management of good
 
 <h2 class="bac">Overview:</h2>  
 <p class="bac">
-Two 1-year rotational assignments where responsibilities may include: 
+Two 1&ndash;year rotational assignments where responsibilities may include: 
 </p>
 <ul class="bac">
 	<li>Aligning business tactical plans and supply chain with lines of business strategy; balancing demands and capacity to consistently meet customer expectations; and increasing productivity and customer satisfaction</li>
@@ -34,7 +34,7 @@ Ideal candidates will have the following:
 </p>
 <ul class="bac">
 	<li>Supply Chain Management undergraduate degree</li>
-	<li>Analytical/problem-solving skills </li>
+	<li>Analytical/problem&ndash;solving skills </li>
 	<li>Ability to work independently and with a group</li>
 	<li>Leadership skills</li>
 	<li>Technical skills (i.e. Microsoft Office suite)</li>
@@ -49,7 +49,7 @@ Ideal candidates will have the following:
 
 <h2 class="bac">Training:</h2>
 <p class="bac">
-The MAP Associate training curriculum is a two-phase program, which complements the hands-on experience MAP associates develop in their rotational assignments. The training curriculum is geared toward professionals with courses offered in three main areas:  technical training, business acumen and behavioral courses.
+The MAP Associate training curriculum is a two&ndash;phase program, which complements the hands&ndash;on experience MAP associates develop in their rotational assignments. The training curriculum is geared toward professionals with courses offered in three main areas:  technical training, business acumen and behavioral courses.
 </p>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">

@@ -12,7 +12,7 @@ A division of Global Corporate and Investment Banking (GCIB), the Global Corpora
 
 <h2 class="bac">Overview:</h2>  
 <p class="bac">
-Summer Analysts participate in a 10-12 week program based in Singapore, Hong Kong or Japan. This provides a unique opportunity for students to experience product solutions policies and practices. Summer Analysts are given a true associate experience, as internships mirror full-time positions, and include goal-setting and a formal review process. In addition to learning opportunities, there are formal and social opportunities to interact and network with senior colleagues.
+Summer Analysts participate in a 10&ndash;12 week program based in Singapore, Hong Kong or Japan. This provides a unique opportunity for students to experience product solutions policies and practices. Summer Analysts are given a true associate experience, as internships mirror full&ndash;time positions, and include goal&ndash;setting and a formal review process. In addition to learning opportunities, there are formal and social opportunities to interact and network with senior colleagues.
 </p>
 <br>
 <H3 class="bac">Placement</H3>
@@ -45,7 +45,7 @@ You will be working closely with experienced Sales or Credit professionals on st
 <H3 class="bac">Skills and abilities </H3>
 <ul class="bac">
 	<li>Strong quantitative and analytical skills</li>
-	<li>Creative thinking and problem-solving skills</li>
+	<li>Creative thinking and problem&ndash;solving skills</li>
 	<li>Strong presentation and interpersonal skills </li>
 	<li>Ability to produce high quality work in a demanding environment</li>
 	<li>Ability to work independently, while functioning as part of a team </li>
@@ -60,8 +60,8 @@ You will be working closely with experienced Sales or Credit professionals on st
 	<li>Quick learner, with interest in taking on new responsibilities</li>
 	<li>Strong attention to detail</li>
 	<li>Ability to work well with others</li>
-	<li>Client-focused </li>
-	<li>Results-oriented</li>
+	<li>Client&ndash;focused </li>
+	<li>Results&ndash;oriented</li>
 </ul>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
@@ -71,7 +71,7 @@ You will be working closely with experienced Sales or Credit professionals on st
 The Summer Analyst Program begins with a few days of orientation and induction to the company, and includes:
 </p>
 <ul class="bac">
-	<li>Access to pre-work via an online e-learning portal, covering foundation topics</li>
+	<li>Access to pre&ndash;work via an online e&ndash;learning portal, covering foundation topics</li>
 	<li>Relevant continuous training sessions over the internship period </li>
 	<li>Business critical assignments</li>
 	<li>Exposure to senior leadership teams</li>

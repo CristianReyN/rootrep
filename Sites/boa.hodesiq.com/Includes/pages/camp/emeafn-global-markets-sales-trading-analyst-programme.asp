@@ -6,9 +6,9 @@
 
 <h2 class="bac">Summary:</h2>
 <ul class="bac">
-	<li>Strong A-level grades and a minimum 2:1 degree class (or equivalent)</li>
+	<li>Strong A&ndash;level grades and a minimum 2:1 degree class (or equivalent)</li>
 	<li>Location: Opportunities across EMEA</li>
-	<li>Desk-specific</li>
+	<li>Desk&ndash;specific</li>
 	<li>Online application form</li>
 	<li>Application Deadline: 12 November 2010</li>
 </ul>
@@ -17,10 +17,10 @@
 
 <h2 class="bac">Our Business:</h2>
 <p class="bac">
-Global Markets delivers a wide range of securities products and services, powerful sales and trading capabilities, and deep risk management expertise across asset classes. Closely-aligned with Global Corporate & Investment Banking's client-managed groups, Global Markets product specialists anticipate and meet the needs of more than 3,000 institutional investors and 7,000 issuer clients.  
+Global Markets delivers a wide range of securities products and services, powerful sales and trading capabilities, and deep risk management expertise across asset classes. Closely&ndash;aligned with Global Corporate & Investment Banking's client&ndash;managed groups, Global Markets product specialists anticipate and meet the needs of more than 3,000 institutional investors and 7,000 issuer clients.  
 </p>
 <p class="bac">
-Leveraging our local relationships and broad global capabilities, we provide our clients with ideas and market insights, trading services, analytics and new products across a broad spectrum of asset classes. These range from interest rate and credit products, foreign exchange, real estate and commodities, to cash equities and equity-linked products – all with the goal of enabling our clients to maximise their performance. 
+Leveraging our local relationships and broad global capabilities, we provide our clients with ideas and market insights, trading services, analytics and new products across a broad spectrum of asset classes. These range from interest rate and credit products, foreign exchange, real estate and commodities, to cash equities and equity&ndash;linked products &mdash; all with the goal of enabling our clients to maximise their performance. 
 </p>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
@@ -34,7 +34,7 @@ As an Analyst within Global Markets, depending on your role, you&#39;ll:
 	<li>Gain more responsibility earlier than you might elsewhere</li>
 	<li>Support traders, analysing client and market data to help develop and execute trades, while learning the basics of risk management and market making</li>
 	<li>Develop and implement a disciplined approach to the sales process, typically preparing market and company research, presenting at client meetings and analysing client business activity</li>
-	<li>Help design and create new securities that enable issuer and investor clients to achieve their objectives. Examples of structured securities include collateralised debt obligations or commodity-linked notes.</li>
+	<li>Help design and create new securities that enable issuer and investor clients to achieve their objectives. Examples of structured securities include collateralised debt obligations or commodity&ndash;linked notes.</li>
 	<li>Build relationships, knowledge and experience that will open doors to a wide range of future career options and opportunities</li>
 	<li>Discover unlimited opportunities to challenge yourself and grow professionally</li>
 </ul>
@@ -53,10 +53,10 @@ We accept applications from a diverse range of degree disciplines such as the ar
 
 <h2 class="bac">Training:</h2>
 <p class="bac">
-You&#39;ll begin your career with a formal training programme throughout July and August in New York, along with other newly-hired analysts from around the world. This will give you an in-depth introduction to our company, culture and global reach. Quantitative skills are indispensable and financial modelling is an important function, so the training will include full instruction on all the relevant tools, techniques and working practices. You&#39;ll also receive grounding in your chosen business area, as you develop your professional skills and teamwork capabilities. 
+You&#39;ll begin your career with a formal training programme throughout July and August in New York, along with other newly&ndash;hired analysts from around the world. This will give you an in&ndash;depth introduction to our company, culture and global reach. Quantitative skills are indispensable and financial modelling is an important function, so the training will include full instruction on all the relevant tools, techniques and working practices. You&#39;ll also receive grounding in your chosen business area, as you develop your professional skills and teamwork capabilities. 
 </p>
 <p class="bac">
-Once you join a team within your assigned business, you&#39;ll take on real responsibility from an early stage. You&#39;ll be exposed to on-going development opportunities throughout the programme and be encouraged to grow your abilities through on-the-job learning, structured training and study towards your professional qualifications. We&#39;ll support and reward you on the basis of your individual performance. Ultimately, how far and how quickly you progress will be up to you. 
+Once you join a team within your assigned business, you&#39;ll take on real responsibility from an early stage. You&#39;ll be exposed to on&ndash;going development opportunities throughout the programme and be encouraged to grow your abilities through on&ndash;the&ndash;job learning, structured training and study towards your professional qualifications. We&#39;ll support and reward you on the basis of your individual performance. Ultimately, how far and how quickly you progress will be up to you. 
 </p>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">

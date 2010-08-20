@@ -5,13 +5,13 @@
 <a name="skipmaincontent"></a><h1 class="bac"><%=program.Item("title")%></h1>
 <h2 class="bac">Our Business:</h2>
 <p class="bac">
-Global Commercial Banking (GCB) serves more than 100,000 business banking, and more than 30,000 middle-market, clients through dedicated client teams, who provide seamless delivery of the company&#39;s full capabilities, including investment banking and M&#38;A, wealth and investment management, integrated credit and treasury solutions, and international banking services.
+Global Commercial Banking (GCB) serves more than 100,000 business banking, and more than 30,000 middle&ndash;market, clients through dedicated client teams, who provide seamless delivery of the company&#39;s full capabilities, including investment banking and M&#38;A, wealth and investment management, integrated credit and treasury solutions, and international banking services.
 </p>
 <p class="bac">
 GCB consists of six core businesses including:
 </p>
 <ul class="bac">
-	<li>Middle-Market </li>
+	<li>Middle&ndash;Market </li>
 	<li>Business Banking </li>
 	<li>Specialized Industries  </li>
 	<li>Commercial Real Estate Banking </li>
@@ -30,7 +30,7 @@ Responsibilities include:
 </p>
 <ul class="bac">
 	<li>Performing various financial analyses</li>
-	<li>Conducting comprehensive and in-depth company and industry research</li>
+	<li>Conducting comprehensive and in&ndash;depth company and industry research</li>
 	<li>Preparing presentations and other materials </li>
 	<li>Managing several projects at once and working effectively as an individual and as part of a team</li>
 </ul>

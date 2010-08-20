@@ -12,7 +12,7 @@ The Chief Financial Office (CFO) partners with all business units, performing tr
 
 <h2 class="bac">Overview:</h2>  
 <p class="bac">
-CFO Summer Analysts participate in a 10-12 week program based in Singapore, Hong Kong or Japan, providing a unique opportunity and exposure to life in CFO. Summer Analysts are given a true associate experience, as internships mirror full-time positions, and include goal-setting and a formal review process. In addition to learning opportunities, there are formal and social opportunities to interact and network with senior colleagues.
+CFO Summer Analysts participate in a 10&ndash;12 week program based in Singapore, Hong Kong or Japan, providing a unique opportunity and exposure to life in CFO. Summer Analysts are given a true associate experience, as internships mirror full&ndash;time positions, and include goal&ndash;setting and a formal review process. In addition to learning opportunities, there are formal and social opportunities to interact and network with senior colleagues.
 </p>
 <br>
 <H3 class="bac">Placement</H3>
@@ -53,7 +53,7 @@ CFO Summer Analysts are placed directly with a specific team throughout the inte
 <ul class="bac">
 	<li>Knowledge of basic accounting and finance principles, and the ability to apply them to work situations</li>
 	<li>Strong quantitative and analytical skills</li>
-	<li>Creative thinking and problem-solving skills</li>
+	<li>Creative thinking and problem&ndash;solving skills</li>
 	<li>Strong presentation and interpersonal skills</li>
 	<li>Ability to produce high quality work in a demanding environment</li>
 	<li>Ability to work independently while functioning as part of a team </li>
@@ -68,8 +68,8 @@ CFO Summer Analysts are placed directly with a specific team throughout the inte
 	<li>Quick learner and interest in taking on new responsibilities</li>
 	<li>Strong attention to detail</li>
 	<li>Ability to work well with others</li>
-	<li>Client-focused </li>
-	<li>Results-oriented</li>
+	<li>Client&ndash;focused </li>
+	<li>Results&ndash;oriented</li>
 </ul>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
@@ -80,7 +80,7 @@ The Summer Analyst program begins with a few days of orientation and introductio
 </p>
 
 <ul class="bac">
-	<li>Access to pre-work via an online e-learning portal covering foundation topics</li>
+	<li>Access to pre&ndash;work via an online e&ndash;learning portal covering foundation topics</li>
 	<li>Relevant continuous training sessions over the internship period </li>
 	<li>Business critical assignments</li>
 	<li>Exposure to senior leadership teams</li>

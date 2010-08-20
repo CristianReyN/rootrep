@@ -5,11 +5,11 @@
 <a name="skipmaincontent"></a><h1 class="bac"><%=program.Item("title")%></h1>
 <h2 class="bac">Our Business:</h2>
 <p class="bac">
-More than 700 professionals of the award-winning Global Research organization support the company&#39;s institutional sales and trading teams and their clients. Their expertise is at the core of the value delivered to investor clients. Research analysts provide insightful, objective and decisive research designed to enable clients to make informed investment decisions in three primary disciplines:  
+More than 700 professionals of the award&ndash;winning Global Research organization support the company&#39;s institutional sales and trading teams and their clients. Their expertise is at the core of the value delivered to investor clients. Research analysts provide insightful, objective and decisive research designed to enable clients to make informed investment decisions in three primary disciplines:  
 </p>
 <ul class="bac">
 	<li>Global Equity Research Analysts provide fundamental analysis on nearly 3,000 companies domiciled in 50 countries</li>
-	<li>Global Credit Research encompasses high-grade, high-yield credit strategy, credit derivatives, mortgages and other structured finance, convertibles, municipals and indices</li>
+	<li>Global Credit Research encompasses high&ndash;grade, high&ndash;yield credit strategy, credit derivatives, mortgages and other structured finance, convertibles, municipals and indices</li>
 	<li>Global Macro Research encompasses economics, currencies, commodities, rates, derivatives and equity investment strategies</li>
 </ul>
 
@@ -17,7 +17,7 @@ More than 700 professionals of the award-winning Global Research organization su
 
 <h2 class="bac">Overview:</h2>  
 <p class="bac">
-Summer Associates participate in an 8-10 week program, based in Asia, providing a unique opportunity and exposure to life in Research. In addition to learning opportunities, there are formal and social opportunities to interact and network with senior colleagues.
+Summer Associates participate in an 8&ndash;10 week program, based in Asia, providing a unique opportunity and exposure to life in Research. In addition to learning opportunities, there are formal and social opportunities to interact and network with senior colleagues.
 </p>
 <br>
 <H3 class="bac">Placement</H3>
@@ -48,7 +48,7 @@ Summer Associates are placed directly with a specific team throughout the intern
 <br>
 <H3 class="bac">Responsibilities (vary with placement)</H3>
 <p class="bac">
-Research Summer Associates will work closely with the team, with some of the tasks including: modeling/analysis, conducting primary research, and attending internal/external client meetings. Some responsibilities are conducted regularly (daily, weekly, etc.), while others are longer-term, ad-hoc projects over the internship period. 
+Research Summer Associates will work closely with the team, with some of the tasks including: modeling/analysis, conducting primary research, and attending internal/external client meetings. Some responsibilities are conducted regularly (daily, weekly, etc.), while others are longer&ndash;term, ad&ndash;hoc projects over the internship period. 
 </p>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
@@ -57,14 +57,14 @@ Research Summer Associates will work closely with the team, with some of the tas
 <br>
 <H3 class="bac">Education</H3>
 <ul class="bac">
-	<li>Penultimate year, full-time MBA student graduating in 2012</li>
+	<li>Penultimate year, full&ndash;time MBA student graduating in 2012</li>
 	<li>Bachelor/Master&#39;s degree holder</li>
 	<li>Outstanding academic achievement </li>
 </ul>
 <br>
 <H3 class="bac">Experience </H3>
 <ul class="bac">
-	<li>Between 3-5 years&#39; work experience</li>
+	<li>Between 3&ndash;5 years&#39; work experience</li>
 	<li>Financial services or equivalent background advantageous</li>
 	<li>A track record of superior performance in extracurricular and professional activities </li>
 </ul>
@@ -77,11 +77,11 @@ Research Summer Associates will work closely with the team, with some of the tas
 	<li>Ability to apply advanced oral and written communication skills to create a positive impression and professional rapport </li>
 	<li>Solid communication, interpersonal and team skills</li>
 	<li>Strong marketing skills and ability </li>
-	<li>Client-focused</li>
-	<li>Well-developed judgment and business sense</li>
-	<li>Responsible, efficient, detail oriented and self-motivated</li>
+	<li>Client&ndash;focused</li>
+	<li>Well&ndash;developed judgment and business sense</li>
+	<li>Responsible, efficient, detail oriented and self&ndash;motivated</li>
 	<li>Ability to work independently, while functioning as part of a team </li>
-	<li>Demonstrated ability to multi-task and prioritize in a demanding environment to meet deadlines</li>
+	<li>Demonstrated ability to multi&ndash;task and prioritize in a demanding environment to meet deadlines</li>
 	<li>Appropriate language capabilities </li>
 </ul>
 <br>
@@ -103,7 +103,7 @@ Research Summer Associates will work closely with the team, with some of the tas
 The Summer Associate Program begins with several days of orientation and induction to the company, and includes:
 </p>
 <ul class="bac">
-	<li>Access to pre-work via an online e-learning portal covering foundation topics</li>
+	<li>Access to pre&ndash;work via an online e&ndash;learning portal covering foundation topics</li>
 	<li>Relevant continuous training sessions over the internship period specific to research</li>
 </ul>
 

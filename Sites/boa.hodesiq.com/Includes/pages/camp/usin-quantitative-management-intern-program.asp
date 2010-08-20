@@ -12,10 +12,10 @@ The Quantitative Management Intern Program is designed to develop and coach anal
 
 <h2 class="bac">Overview:</h2>  
 <ul class="bac">
-	<li>Gain real, in-depth experience applying quantitative knowledge to specific financial challenges</li>
+	<li>Gain real, in&ndash;depth experience applying quantitative knowledge to specific financial challenges</li>
 	<li>Provide a micro view of risk management in a particular business line, and a macro view of risk management for the company as a whole</li>
 	<li>Internship opportunities include positions within various lines of business, such as Corporate Treasury, Enterprise Credit Risk, Global Portfolio Strategies, and Global Consumer &#38; Small Business Risk Management</li>
-	<li>The Quantitative Management Internship Program is meant to be a feeder pool into the full-time Quantitative Management Rotational Program for strong performers</li>
+	<li>The Quantitative Management Internship Program is meant to be a feeder pool into the full&ndash;time Quantitative Management Rotational Program for strong performers</li>
 </ul>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">

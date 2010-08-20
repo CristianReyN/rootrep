@@ -8,10 +8,10 @@
 Organized by industry sector, Investment Bankers are dedicated to understanding the unique competitive and operating environments of our clients, and to building strong, enduring client relationships. In Canada, we are primarily organized into industry teams focused on specific sectors. These include: Metals and Mining (Toronto), Financial Institutions (Toronto), Media and Telecom (Toronto), and Energy and Power (Calgary). Our Montreal office is generalist, focusing on our Quebec clients. 
 </p>
 <p class="bac">
-As a leader in equity and debt origination and syndication, our Capital Markets team delivers creative solutions for issuers and investors across all asset products, including Equity Capital Markets, High Grade Capital Markets, Debt Advisory Services and Leveraged Finance, which includes High Yield Bonds and Leveraged Loans. Our Equity Capital Markets team is a fully-integrated team of specialists, dedicated to helping companies raise capital through equity and equity-linked solutions, including IPOs, follow-ons and convertibles.
+As a leader in equity and debt origination and syndication, our Capital Markets team delivers creative solutions for issuers and investors across all asset products, including Equity Capital Markets, High Grade Capital Markets, Debt Advisory Services and Leveraged Finance, which includes High Yield Bonds and Leveraged Loans. Our Equity Capital Markets team is a fully&ndash;integrated team of specialists, dedicated to helping companies raise capital through equity and equity&ndash;linked solutions, including IPOs, follow&ndash;ons and convertibles.
 </p>
 <p class="bac">
-What&#39;s our strategy for success? It starts and ends with serving our clients the solutions and executions they need in today&#39;s market. With award-winning execution, our product origination specialists work closely with industry bankers, sales and trading to develop creative solutions for our clients. We set ourselves apart by delivering innovative ideas and strategies, advanced technology and objective, timely analysis, covering a large universe of companies, industries, products and geographies. 
+What&#39;s our strategy for success? It starts and ends with serving our clients the solutions and executions they need in today&#39;s market. With award&ndash;winning execution, our product origination specialists work closely with industry bankers, sales and trading to develop creative solutions for our clients. We set ourselves apart by delivering innovative ideas and strategies, advanced technology and objective, timely analysis, covering a large universe of companies, industries, products and geographies. 
 </p>
 
 
@@ -19,7 +19,7 @@ What&#39;s our strategy for success? It starts and ends with serving our clients
 
 <h2 class="bac">Overview:</h2>  
 <p class="bac">
-Summer Associates will work as generalists across different industry groups, where they will help orchestrate capital raising and strategic advisory transactions. Bank of America Merrill Lynch provides valuable analytical-based work experience, focused on financial markets and visibility with clients as a representative of a top tier global investment bank. 
+Summer Associates will work as generalists across different industry groups, where they will help orchestrate capital raising and strategic advisory transactions. Bank of America Merrill Lynch provides valuable analytical&ndash;based work experience, focused on financial markets and visibility with clients as a representative of a top tier global investment bank. 
 </p>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
@@ -28,7 +28,7 @@ Summer Associates will work as generalists across different industry groups, whe
 <ul class="bac">
 	<li>Developing and maintaining complex financial models</li> 
 	<li>Performing various financial analyses, including valuations and merger consequences</li> 
-	<li>Conducting comprehensive and in-depth company and industry research </li>
+	<li>Conducting comprehensive and in&ndash;depth company and industry research </li>
 	<li>Preparing presentations and other materials for clients </li>
 	<li>Participating in due diligence sessions </li>
 	<li>Communicating and interacting with deal team members</li> 
@@ -62,7 +62,7 @@ Summer offers are made for a specific office, based on candidate preference and 
 	<li>Day of community service </li>
 	<li>Formal mentorship program </li>
 	<li>Educational sessions hosted by various groups within Investment Banking</li> 
-	<li>Summer Senior Speaker Series - opportunity to hear from business heads </li>
+	<li>Summer Senior Speaker Series &ndash; opportunity to hear from business heads </li>
 	<li>Formal mid and end of summer review sessions for ongoing feedback </li>
 	<li>Networking events throughout the summer</li>
 </ul>

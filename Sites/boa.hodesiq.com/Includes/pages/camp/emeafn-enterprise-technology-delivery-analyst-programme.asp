@@ -6,7 +6,7 @@
 
 <h2 class="bac">Summary:</h2>
 <ul class="bac">
-	<li>Strong A-level grades and a minimum 2:1 degree (or equivalent)</li>
+	<li>Strong A&ndash;level grades and a minimum 2:1 degree (or equivalent)</li>
 	<li>Knowledge of several of the following: UNIX, Windows NT/2000, network architecture, databases, desktop and server hardware, information security concepts and technologies</li>
 	<li>Locations: Opportunities in London, Camberley, Chester, Croydon (all UK)</li>
 	<li>Rotational</li>
@@ -18,7 +18,7 @@
 
 <h2 class="bac">Our Business:</h2>
 <p class="bac">
-Enterprise Technology and Delivery (ET&#38;D) meets the needs of Bank of America Merrill Lynch&#39;s clients and associates through technology, systems, call centres, and other tools and channels. These include mainframe, mid-range and distributed server operations; client server technology; local and wide area network functions; telecommunications; and other critical systems.  
+Enterprise Technology and Delivery (ET&#38;D) meets the needs of Bank of America Merrill Lynch&#39;s clients and associates through technology, systems, call centres, and other tools and channels. These include mainframe, mid&ndash;range and distributed server operations; client server technology; local and wide area network functions; telecommunications; and other critical systems.  
 </p>
 <p class="bac">
 ET&#38;D teams include Infrastructure Engineering, Infrastructure Operations, Enterprise Applications, Shared Services, Associate Technology, Communication and Innovation, Enterprise Information Management, Business Management Services and Global Delivery Centre of Expertise.  
@@ -28,7 +28,7 @@ ET&#38;D teams include Infrastructure Engineering, Infrastructure Operations, En
 
 <h2 class="bac">Overview:</h2>  
 <p class="bac">
-The Enterprise Technology and Delivery Analyst Programme (ET&#38;D LDR) is a Leadership Development Rotational Programme, designed to provide graduates with an opportunity to prepare for future leadership positions in the company's technology division. This high-visibility programme will give you the chance to experience two one-year rotational assignments, in different divisions within ET&#38;D.  
+The Enterprise Technology and Delivery Analyst Programme (ET&#38;D LDR) is a Leadership Development Rotational Programme, designed to provide graduates with an opportunity to prepare for future leadership positions in the company's technology division. This high&ndash;visibility programme will give you the chance to experience two one&ndash;year rotational assignments, in different divisions within ET&#38;D.  
 </p>
 <p class="bac">
 As an Analyst, you could be:
@@ -41,7 +41,7 @@ As an Analyst, you could be:
 	<li>Providing analytical support for data collection and measurements</li>
 	<li>Participating in the design, development and implementation of complex applications, often using new technologies</li>
 	<li>Working closely with colleagues throughout our organisation to build relationships, and gain the knowledge and expertise to meet the challenges critical to building a technology career within the financial services industry</li>
-	<li>Collaborating on exciting global projects that contribute to business success and next-generation advances</li>
+	<li>Collaborating on exciting global projects that contribute to business success and next&ndash;generation advances</li>
 </ul>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">

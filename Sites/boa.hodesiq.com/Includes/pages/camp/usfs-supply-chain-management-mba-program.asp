@@ -28,8 +28,8 @@ Functions supported within SCM are sourcing and supplier management of goods and
 By joining the Supply Chain Organization you will benefit from:
 </p>
 <ul class="bac">
-	<li><b>World-class career development opportunities:</b> comprehensive on-boarding, executive mentoring and training programs, to foster your continuous development</li>
-	<li><b>Enterprise-wide access and exposure:</b> cross-functional initiatives providing unparalleled opportunities to learn inside a dynamic, global financial services organization</li>
+	<li><b>World&ndash;class career development opportunities:</b> comprehensive on&ndash;boarding, executive mentoring and training programs, to foster your continuous development</li>
+	<li><b>Enterprise&ndash;wide access and exposure:</b> cross&ndash;functional initiatives providing unparalleled opportunities to learn inside a dynamic, global financial services organization</li>
 </ul>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
@@ -48,11 +48,11 @@ By joining the Supply Chain Organization you will benefit from:
 The ideal candidate will exhibit the following behavioral requirements:
 </p>
 <ul class="bac">
-	<li><b>Client Focus</b> &#45; Maintains effective relationships with clients by gaining trust and respect</li>
-	<li><b>Business Acumen</b> &#45; Knowledgeable in current and possible future policies, practices and trends; knows the competition and how strategies and tactics work in the marketplace</li>
-	<li><b>Process Management</b> &#45; Knows how to combine tasks into efficient work flow; can simplify complex processes </li> 
-	<li><b>Organizational Agility</b> &#45; Knows how to get things done through formal channels and informal networks </li>
-	<li><b>Dealing with Ambiguity</b> &#45; Can effectively cope with change, and comfortably handle risk and uncertainty</li>
+	<li><b>Client Focus</b> &ndash; Maintains effective relationships with clients by gaining trust and respect</li>
+	<li><b>Business Acumen</b> &ndash; Knowledgeable in current and possible future policies, practices and trends; knows the competition and how strategies and tactics work in the marketplace</li>
+	<li><b>Process Management</b> &ndash; Knows how to combine tasks into efficient work flow; can simplify complex processes </li> 
+	<li><b>Organizational Agility</b> &ndash; Knows how to get things done through formal channels and informal networks </li>
+	<li><b>Dealing with Ambiguity</b> &ndash; Can effectively cope with change, and comfortably handle risk and uncertainty</li>
 </ul>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">

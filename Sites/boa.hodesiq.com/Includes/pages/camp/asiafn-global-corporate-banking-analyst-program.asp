@@ -5,7 +5,7 @@
 <a name="skipmaincontent"></a><h1 class="bac"><%=program.Item("title")%></h1>
 <h2 class="bac">Our Business:</h2>
 <p class="bac">
-Global Corporate Banking includes both the Corporate Banking coverage officers as well as the product development and delivery capabilities that have most recently been a part of Global Product Solutions. Bringing together corporate bankers with product delivery officers and the product development team helps us more fully integrate corporate banking product capabilities with our client coverage model, further pulling the business together in an end-to-end in partnership with Investment Banking.
+Global Corporate Banking includes both the Corporate Banking coverage officers as well as the product development and delivery capabilities that have most recently been a part of Global Product Solutions. Bringing together corporate bankers with product delivery officers and the product development team helps us more fully integrate corporate banking product capabilities with our client coverage model, further pulling the business together in an end&ndash;to&ndash;end in partnership with Investment Banking.
 </p>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
@@ -17,7 +17,7 @@ Corporate banking analysts are active members of the country&#39;s integrated cl
 <ul class="bac">
 	<li>Maintain and report client information and coverage strategies</li>
 	<li>Perform various statistical and financial analyses</li>
-	<li>Conduct comprehensive and in-depth company and industry research</li>
+	<li>Conduct comprehensive and in&ndash;depth company and industry research</li>
 	<li>Prepare presentations and other materials for clients</li>
 	<li>Communicate and interact with both core and extended client team members from across the enterprise</li>
 	<li>Manage several projects at once, working effectively as an individual and as part of a team</li>

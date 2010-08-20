@@ -7,7 +7,7 @@
 <ul class="bac">
 	<li>On track for a pass</li>
 	<li>Location: Opportunities in South Africa</li>
-	<li>Rotational, 12-month programme starting in January 2011 </li>
+	<li>Rotational, 12&ndash;month programme starting in January 2011 </li>
 	<li>Online application form</li>
 	<li>Application Deadline: September 2010</li>
 </ul>
@@ -29,14 +29,14 @@ Merrill Lynch has been operating in South Africa since 1997, following the acqui
 As an Analyst, you&#39;ll: 
 </p>
 <ul class="bac">
-	<li>Take a 12-month rotational programme</li>
+	<li>Take a 12&ndash;month rotational programme</li>
 	<li>Experience rotations through Global Markets, Investment Banking and Research</li>
-	<li>Gain in-depth introduction to the company, its culture and global reach, alongside other newly-hired analysts</li>
+	<li>Gain in&ndash;depth introduction to the company, its culture and global reach, alongside other newly&ndash;hired analysts</li>
 	<li>Begin your career with a training programme to help you develop the business, financial and analytical skills needed to hit the ground running when you join your group</li> 
 	<li>Work with, and learn from, teams of professionals across the bank, including senior experts within your group, and other areas of the company, as well as colleagues from around the globe</li>
 	<li>Build relationships, knowledge and experience that will open doors to a wide range of future career options and opportunities</li>
 	<li>Discover unlimited opportunities to challenge yourself and grow professionally</li>
-	<li>Collaborate on exciting projects that contribute to business success and next-generation advances</li>
+	<li>Collaborate on exciting projects that contribute to business success and next&ndash;generation advances</li>
 </ul>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
@@ -50,10 +50,10 @@ Strong academic qualifications and quantitative skills are important. Equally im
 
 <h2 class="bac">Training:</h2>
 <p class="bac">
-The training will include full instruction on all relevant tools, techniques and working practices. You&#39;ll also receive a solid grounding in all business areas as you develop your professional skills and team-working capabilities.  
+The training will include full instruction on all relevant tools, techniques and working practices. You&#39;ll also receive a solid grounding in all business areas as you develop your professional skills and team&ndash;working capabilities.  
 </p>
 <p class="bac">
-Once you join a business line, you will take on real responsibility from an early stage. There will be exposure to ongoing development opportunities throughout the programme and you&#39;ll be encouraged to expand your abilities through on-the-job learning, structured training and study towards professional qualifications. The company fosters an inclusive and supportive culture in which hard work is rewarded. 
+Once you join a business line, you will take on real responsibility from an early stage. There will be exposure to ongoing development opportunities throughout the programme and you&#39;ll be encouraged to expand your abilities through on&ndash;the&ndash;job learning, structured training and study towards professional qualifications. The company fosters an inclusive and supportive culture in which hard work is rewarded. 
 </p>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">

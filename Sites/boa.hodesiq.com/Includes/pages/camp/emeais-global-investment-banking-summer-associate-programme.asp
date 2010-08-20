@@ -5,10 +5,10 @@
 <a name="skipmaincontent"></a><h1 class="bac"><%=program.Item("title")%></h1>
 <h2 class="bac">Summary:</h2>
 <ul class="bac">
-	<li>Penultimate year of MBA or other advanced degree from a top-tier business school</li>
+	<li>Penultimate year of MBA or other advanced degree from a top&ndash;tier business school</li>
 	<li>Track record of superior performance in extracurricular and professional activities</li>
 	<li>Location: Opportunities across EMEA</li>
-	<li>9-week programme from June – August</li>
+	<li>9&ndash;week programme from June – August</li>
 	<li>Online application form</li>
 </ul>
 
@@ -16,14 +16,14 @@
 
 <h2 class="bac">Our Business:</h2>
 <p class="bac">
-Investment Banking focuses on building long-term relationships with more than 3,000 large corporations, financial institutions and financial sponsors. It provides strong advisory expertise and capitalises on powerful M&#38;A, corporate banking, treasury, debt and equity product knowledge to deliver integrated financial solutions. We have a significant presence in the Americas, Europe, the Middle East, Africa and Asia-Pacific.
+Investment Banking focuses on building long&ndash;term relationships with more than 3,000 large corporations, financial institutions and financial sponsors. It provides strong advisory expertise and capitalises on powerful M&#38;A, corporate banking, treasury, debt and equity product knowledge to deliver integrated financial solutions. We have a significant presence in the Americas, Europe, the Middle East, Africa and Asia&ndash;Pacific.
 </p>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
 
 <h2 class="bac">Overview:</h2>  
 <p class="bac">
-Our nine-week Summer Associate programme involves working on projects alongside bankers in specific industry or product groups. As an active team member, you&#39;ll: 
+Our nine&ndash;week Summer Associate programme involves working on projects alongside bankers in specific industry or product groups. As an active team member, you&#39;ll: 
 </p>
 <ul class="bac">
 	<li>Help deliver solutions that bring to bear the full breadth of the company&#39;s capabilities – ranging from strategic mergers and acquisitions advice (debt, equity, liability derivatives) and structured products, to principal investing and private equity</li>
@@ -38,7 +38,7 @@ Our nine-week Summer Associate programme involves working on projects alongside 
 
 <h2 class="bac">Qualifications:</h2>
 <p class="bac">
-Your outstanding academic credentials will include an MBA or other advanced degree from a top-tier business school; and you&#39;ll need a track record of superior performance in extracurricular and professional activities. We&#39;re looking for strong quantitative and analytical skills, knowledge of financial services and appropriate language capabilities. The ability to apply advanced oral and written communication skills to create a positive impression and professional rapport will be key. In addition, you should be a quick learner who can work independently or as part of a team, with a high degree of initiative and motivation, strong attention to detail, the confidence to juggle conflicting priorities, and a client-focused, results-driven approach. 
+Your outstanding academic credentials will include an MBA or other advanced degree from a top&ndash;tier business school; and you&#39;ll need a track record of superior performance in extracurricular and professional activities. We&#39;re looking for strong quantitative and analytical skills, knowledge of financial services and appropriate language capabilities. The ability to apply advanced oral and written communication skills to create a positive impression and professional rapport will be key. In addition, you should be a quick learner who can work independently or as part of a team, with a high degree of initiative and motivation, strong attention to detail, the confidence to juggle conflicting priorities, and a client&ndash;focused, results&ndash;driven approach. 
 </p>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">

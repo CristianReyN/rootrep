@@ -16,9 +16,9 @@ Bank of America&#39;s Corporate Security Division is seeking dynamic individuals
 Corporate Security Analyst Interns, depending on assignment, may take on roles and responsibilities within the following functions:
 </p>
 <ul class="bac">
-	<li><b>Investigative Services:</b> Conducts investigations in diversified operations within the company. Participates in, or leads investigative-related task forces and/or special projects that represent significant loss exposure and/or are highly visible. Identifies significant issues and controls weaknesses, and makes recommendations to line management to minimize losses. Formulates and recommends action response to allegations, files crime reports and testifies in court proceedings. </li>
-	<li><b>Background Screening Investigations:</b> Conducts routine investigations of varying complexity, generating investigative information relative to current and/or prospective customers. Interprets and analyzes information gathered from numerous databases and third-party sources, and identifies "red flags" that may prompt further inquiry.  Writes narrative reports summarizing information for use by relationship managers in making credit decisions. Conducts pre-employment screenings for potential hires.</li>
-	<li><b>Protective Services:</b> Manages the security program for the company within a geographical area, and provides consultation to client management. Conducts security reviews of banking and non-banking centers, based on risk assessment factors. Consults with client managers and provides assistance and issue resolution to banking centers on routine questions regarding the security program. Participates in investigations of physical security incidents and other incidents as directed, providing timely documentation.</li>
+	<li><b>Investigative Services:</b> Conducts investigations in diversified operations within the company. Participates in, or leads investigative&ndash;related task forces and/or special projects that represent significant loss exposure and/or are highly visible. Identifies significant issues and controls weaknesses, and makes recommendations to line management to minimize losses. Formulates and recommends action response to allegations, files crime reports and testifies in court proceedings. </li>
+	<li><b>Background Screening Investigations:</b> Conducts routine investigations of varying complexity, generating investigative information relative to current and/or prospective customers. Interprets and analyzes information gathered from numerous databases and third&ndash;party sources, and identifies "red flags" that may prompt further inquiry.  Writes narrative reports summarizing information for use by relationship managers in making credit decisions. Conducts pre&ndash;employment screenings for potential hires.</li>
+	<li><b>Protective Services:</b> Manages the security program for the company within a geographical area, and provides consultation to client management. Conducts security reviews of banking and non&ndash;banking centers, based on risk assessment factors. Consults with client managers and provides assistance and issue resolution to banking centers on routine questions regarding the security program. Participates in investigations of physical security incidents and other incidents as directed, providing timely documentation.</li>
 	<li><b>Security Operations & Analysis Command Center:</b> Provides intelligence and situational awareness services for the company through a series of briefings, reports and communications. Responsible for monitoring alarm and video data in all Bank of America branches. Coordinates event and crisis management activities.</li>
 </ul>
 
@@ -30,9 +30,9 @@ Corporate Security Analyst Interns, depending on assignment, may take on roles a
 	<li>Minimum GPA of 3.0 </li>
 	<li>Demonstrated leadership in school, community or work experience </li>
 	<li>Ability to motivate and influence others </li>
-	<li>Initiative, creative problem-solving and relationship-building skills </li>
+	<li>Initiative, creative problem&ndash;solving and relationship&ndash;building skills </li>
 	<li>Demonstrated analytical, and organizational abilities </li>
-	<li>Team-orientation, flexibility and a receptiveness to change </li>
+	<li>Team&ndash;orientation, flexibility and a receptiveness to change </li>
 	<li>Solid communication skills (both written and oral)</li>
 	<li>Strong technical aptitude: proficiency in MS Word, Excel and PowerPoint required; experience with MS Access, MS Project and Visio also preferred </li>
 	<li>Willingness to relocate</li>
@@ -41,11 +41,11 @@ Corporate Security Analyst Interns, depending on assignment, may take on roles a
 The ideal candidate will exhibit the following behavioral requirements:
 </p>
 <ul class="bac">
-	<li><b>Client Focus</b> &#45; Maintains effective relationships with clients by gaining trust and respect</li>
-	<li><b>Business Acumen</b> &#45; Maintains knowledge of current and possible future policies, practices, trends and information; knows the competition, and is aware of how strategies and tactics work in the marketplace</li>
-	<li><b>Process Management</b> &#45; Knows how to combine tasks into efficient work flow, and can simplify complex processes  </li>
-	<li><b>Organizational Agility</b> &#45; Knows how to get things done through formal channels and informal networks </li>
-	<li><b>Dealing with Ambiguity</b> &#45; Can effectively cope with change, and comfortably handle risk and uncertainty</li>
+	<li><b>Client Focus</b> &ndash; Maintains effective relationships with clients by gaining trust and respect</li>
+	<li><b>Business Acumen</b> &ndash; Maintains knowledge of current and possible future policies, practices, trends and information; knows the competition, and is aware of how strategies and tactics work in the marketplace</li>
+	<li><b>Process Management</b> &ndash; Knows how to combine tasks into efficient work flow, and can simplify complex processes  </li>
+	<li><b>Organizational Agility</b> &ndash; Knows how to get things done through formal channels and informal networks </li>
+	<li><b>Dealing with Ambiguity</b> &ndash; Can effectively cope with change, and comfortably handle risk and uncertainty</li>
 </ul>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">

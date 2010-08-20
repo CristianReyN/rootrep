@@ -5,21 +5,21 @@
 <a name="skipmaincontent"></a><h1 class="bac"><%=program.Item("title")%></h1>
 <h2 class="bac">Our Business:</h2>
 <p class="bac">
-Corporate Treasury is a central function at Bank of America whose activities have enterprise&#45;wide impact. The goal of Corporate Treasury is to optimize shareholder value, by providing world&#45;class management of capital, liquidity, interest rate and operational risk; creating a state&#45;of&#45;the&#45;art framework for managing the tradeoffs between risk and return; and training and exporting enterprise leaders. 
+Corporate Treasury is a central function at Bank of America whose activities have enterprise&ndash;wide impact. The goal of Corporate Treasury is to optimize shareholder value, by providing world&ndash;class management of capital, liquidity, interest rate and operational risk; creating a state&ndash;of&ndash;the&ndash;art framework for managing the tradeoffs between risk and return; and training and exporting enterprise leaders. 
 </p>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
 
 <h2 class="bac">Overview:</h2>  
 <p class="bac">
-The Corporate Treasury Analyst Program (CTAP) is a 2&#45;year associate development program, providing college graduates the opportunity to rotate through challenging assignments within Corporate Treasury. Each CTAP associate will spend one year in two of the following Corporate Treasury divisions: Global Funding, Global Liquidity Risk Management, Structured Finance, Balance Sheet Management, Capital Management, and Infrastructure and Transition.  Because of the nature of Corporate Treasury’s activities, CTAPs are exposed to financial markets and a top&#45;of&#45;the&#45;house view of Bank of America’s lines of business, which will allow each CTAP to develop a solid understanding of how the company makes money and manages risks. The program includes training and networking activities, quarterly performance reviews, and real&#45;time feedback and coaching, all within an open, supportive, collaborative and driven culture.  
+The Corporate Treasury Analyst Program (CTAP) is a 2&ndash;year associate development program, providing college graduates the opportunity to rotate through challenging assignments within Corporate Treasury. Each CTAP associate will spend one year in two of the following Corporate Treasury divisions: Global Funding, Global Liquidity Risk Management, Structured Finance, Balance Sheet Management, Capital Management, and Infrastructure and Transition.  Because of the nature of Corporate Treasury’s activities, CTAPs are exposed to financial markets and a top&ndash;of&ndash;the&ndash;house view of Bank of America’s lines of business, which will allow each CTAP to develop a solid understanding of how the company makes money and manages risks. The program includes training and networking activities, quarterly performance reviews, and real&ndash;time feedback and coaching, all within an open, supportive, collaborative and driven culture.  
 </p>
 <p class="bac">
 As a CTAP, you will have meaningful assignments that may include: 
 </p>
 <ul class="bac">
 	<li>Measuring, analyzing and forecasting the company’s liquidity needs and sources of funding </li>
-	<li>Partnering with the Bank Funding Traders to raise market&#45;based liquidity via the issuance of fed funds, repo, and other short term money market instruments</li>
+	<li>Partnering with the Bank Funding Traders to raise market&ndash;based liquidity via the issuance of fed funds, repo, and other short term money market instruments</li>
 	<li>Supporting capital analysis and the execution and maintenance of structured finance transactions</li>
 	<li>Analyzing data and output from the company’s Asset/Liability Models to project the core earnings stream (net interest income) of the company, and evaluating sensitivities to those earnings</li>
 	<li>Participating in investor and rating agency dialogue</li>
@@ -30,14 +30,14 @@ As a CTAP, you will have meaningful assignments that may include:
 
 <h2 class="bac">Qualifications:</h2>
 <p class="bac">
-We hire an elite group of undergraduates with degrees in Finance, Economics, Accounting or Business, for July start dates. Strong academic and technical skills should be accompanied by proficiencies in critical thinking, leadership, business acumen and relationship building. Candidates should demonstrate strong initiative, and must be able to work independently with effective time management and business writing skills. In addition, candidates must be poised, self&#45;confident and demonstrate composure when challenging business situations arise. 
+We hire an elite group of undergraduates with degrees in Finance, Economics, Accounting or Business, for July start dates. Strong academic and technical skills should be accompanied by proficiencies in critical thinking, leadership, business acumen and relationship building. Candidates should demonstrate strong initiative, and must be able to work independently with effective time management and business writing skills. In addition, candidates must be poised, self&ndash;confident and demonstrate composure when challenging business situations arise. 
 </p>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
 
 <h2 class="bac">Training:</h2>
 <p class="bac">
-Senior management within the Corporate Treasury organization is committed to the growth and development of each associate. The multi&#45;phase CTAP training curriculum complements the hands&#45;on experience the associates develop in their rotational assignments.  Topics covered during training include: financial markets, economics, principles of banking, technical skills, and personal and interpersonal skills. In addition, CTAP associates are assigned a rotation mentor and peer coach to assist with establishing goals, building business acumen and creating a professional network. 
+Senior management within the Corporate Treasury organization is committed to the growth and development of each associate. The multi&ndash;phase CTAP training curriculum complements the hands&ndash;on experience the associates develop in their rotational assignments.  Topics covered during training include: financial markets, economics, principles of banking, technical skills, and personal and interpersonal skills. In addition, CTAP associates are assigned a rotation mentor and peer coach to assist with establishing goals, building business acumen and creating a professional network. 
 </p>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">

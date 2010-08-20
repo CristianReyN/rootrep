@@ -6,9 +6,9 @@
 
 <h2 class="bac">Summary:</h2>
 <ul class="bac">
-	<li>Strong A-level grades and a minimum 2:1 degree (or equivalent)</li>
+	<li>Strong A&ndash;level grades and a minimum 2:1 degree (or equivalent)</li>
 	<li>Location: Opportunities in London</li>
-	<li>Desk-specific</li>
+	<li>Desk&ndash;specific</li>
 	<li>Online application form</li>
 	<li>Application Deadline: 12 November 2010</li>
 </ul>
@@ -17,12 +17,12 @@
 
 <h2 class="bac">Our Business:</h2>
 <p class="bac">
-More than 700 professionals in our award-winning Global Research organisation support our institutional sales and trading teams and their clients. Research Analysts add value to investor clients by providing insightful, objective and decisive research, designed to enable them to make informed investment decisions in three primary disciplines:
+More than 700 professionals in our award&ndash;winning Global Research organisation support our institutional sales and trading teams and their clients. Research Analysts add value to investor clients by providing insightful, objective and decisive research, designed to enable them to make informed investment decisions in three primary disciplines:
 </p>
 <ul class="bac">
-	<li><b>Global Equity Research Analysts</b> - provide fundamental analysis on nearly 3,000 companies in 50 countries</li>
-	<li><b>Global Credit Research</b> - encompasses high-grade, high-yield, credit strategy, credit derivatives, mortgages and other structured finance, convertibles, municipals and indices </li>
-	<li><b>Global Macro Research</b> - encompasses economics, currencies, commodities, rates, derivatives and equity investment strategies</li>
+	<li><b>Global Equity Research Analysts</b> &ndash; provide fundamental analysis on nearly 3,000 companies in 50 countries</li>
+	<li><b>Global Credit Research</b> &ndash; encompasses high&ndash;grade, high&ndash;yield, credit strategy, credit derivatives, mortgages and other structured finance, convertibles, municipals and indices </li>
+	<li><b>Global Macro Research</b> &ndash; encompasses economics, currencies, commodities, rates, derivatives and equity investment strategies</li>
 </ul>
 
 <p class="bac">
@@ -39,9 +39,9 @@ As an Analyst within Research, you&#39;ll:
 	<li>Gain insight into specific industry sectors and/or tradable financial instruments and structures</li>
 	<li>Start to develop a network of internal professionals and clients </li>
 	<li>Develop the necessary confidence and experience to question and challenge senior managers of companies within your sector coverage</li>
-	<li>Receive training on how to effectively communicate your investment message to large-scale audiences, and in one-on-one meetings </li>
-	<li>Contribute to, and eventually initiate leading-edge, non-consensus, market-moving research products and reports on corporates, sectors and markets </li>
-	<li>Market your investment recommendations to internal and external clients by phone, and face-to-face</li>
+	<li>Receive training on how to effectively communicate your investment message to large&ndash;scale audiences, and in one&ndash;on&ndash;one meetings </li>
+	<li>Contribute to, and eventually initiate leading&ndash;edge, non&ndash;consensus, market&ndash;moving research products and reports on corporates, sectors and markets </li>
+	<li>Market your investment recommendations to internal and external clients by phone, and face&ndash;to&ndash;face</li>
 	<li>Contribute to, and make presentations at, investor conferences</li>
 	<li>Develop an understanding of the investment needs and constraints of a wide range of different clients, in order to provide bespoke recommendations and solutions that help them implement their objectives</li>
 </ul>
@@ -57,7 +57,7 @@ We&#39;re looking for a strong academic background in quantitative analysis (eco
 
 <h2 class="bac">Training:</h2>
 <p class="bac">
-We offer a bespoke development programme, unique to our quantitative hires, which runs throughout the year. A modular-based approach is used to develop skills and behaviours required to succeed in your role and to further progress your career. 
+We offer a bespoke development programme, unique to our quantitative hires, which runs throughout the year. A modular&ndash;based approach is used to develop skills and behaviours required to succeed in your role and to further progress your career. 
 </p>
 <p class="bac">
 The programme includes: 
@@ -69,7 +69,7 @@ The programme includes:
 	<li>A mentoring programme</li>
 </ul>
 <p class="bac">
-Once you join a team within your assigned business, you&#39;ll take on real responsibility from an early stage. You&#39;ll be exposed to ongoing development opportunities throughout the programme, and be encouraged to grow your abilities through on-the-job learning, structured training and study towards your professional qualifications. We&#39;ll support and reward you on the basis of your individual performance. Ultimately, how far and how quickly you progress will be up to you. 
+Once you join a team within your assigned business, you&#39;ll take on real responsibility from an early stage. You&#39;ll be exposed to ongoing development opportunities throughout the programme, and be encouraged to grow your abilities through on&ndash;the&ndash;job learning, structured training and study towards your professional qualifications. We&#39;ll support and reward you on the basis of your individual performance. Ultimately, how far and how quickly you progress will be up to you. 
 
 
 </p>

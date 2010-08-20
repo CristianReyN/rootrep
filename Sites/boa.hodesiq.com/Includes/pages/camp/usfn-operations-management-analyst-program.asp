@@ -5,12 +5,12 @@
 <a name="skipmaincontent"></a><h1 class="bac"><%=program.Item("title")%></h1>
 <h2 class="bac">Our Business:</h2>
 <p class="bac">
-The Operations Management Analyst Program (OMAP) Internship gives participants the opportunity for an assignment in one of four sub-lines of business, within one of the following organizations:  Consumer Small Business Bank Technology &#38; Operations, Home Loans and Insurance, Treasury Operations and Customer Service &#38; Solutions. 
+The Operations Management Analyst Program (OMAP) Internship gives participants the opportunity for an assignment in one of four sub&ndash;lines of business, within one of the following organizations:  Consumer Small Business Bank Technology &#38; Operations, Home Loans and Insurance, Treasury Operations and Customer Service &#38; Solutions. 
 </p>
 <br>
 <H3 class="bacg">Consumer Small Business Banking Technology &#38; Operations (CSBB T&#38;O)</H3>
 <p class="bacg">
-&nbsp;provides end-to-end technology strategy and support to Consumer Small Business Banking, as well as enterprise functions such as payments processing, cash servicing, fulfillment and reconcilement services and image strategy. 
+&nbsp;provides end&ndash;to&ndash;end technology strategy and support to Consumer Small Business Banking, as well as enterprise functions such as payments processing, cash servicing, fulfillment and reconcilement services and image strategy. 
 </p> 
 <ul class="bac">
 	<li>More than 6,000 banking centers and more than 18,000 ATMs supported nationwide</li>
@@ -20,7 +20,7 @@ The Operations Management Analyst Program (OMAP) Internship gives participants t
 <br>
 <H3 class="bacg">Customer Service &#38; Solutions (CS&#38;S)</H3>
 <p class="bacg">
-&nbsp;provides call, e-mail, text chat and fulfillment support for Consumer, Card, Small Business, Business Card, Large Corporate and e-Commerce customers.  They also provide sales support for Deposit, Card and Small Business products; including fulfillment of all products sold in contact centers, and through online channels. 
+&nbsp;provides call, e&ndash;mail, text chat and fulfillment support for Consumer, Card, Small Business, Business Card, Large Corporate and e&ndash;Commerce customers.  They also provide sales support for Deposit, Card and Small Business products; including fulfillment of all products sold in contact centers, and through online channels. 
 </p> 
 <ul class="bac">
 	<li>30 contact centers supported through our Contact Center Operations Team</li>
@@ -48,7 +48,7 @@ The Operations Management Analyst Program (OMAP) is an undergraduate program des
 
 <h2 class="bac">Qualifications:</h2>
 <p class="bac">
-Successful candidates will possess and demonstrate the ability to work in a fast-paced, empowered environment. Ideal candidates will have the demonstrated ability to handle multiple, competing priorities; learn new tools/applications quickly; and possess strong interpersonal skills. Academic experience should include, but is not limited to, one of the following majors/areas of focus:  Business Management, Business Administration, Supply Chain Management, Operations Management, Information Management, Statistics, Economics or Industrial Engineering. 
+Successful candidates will possess and demonstrate the ability to work in a fast&ndash;paced, empowered environment. Ideal candidates will have the demonstrated ability to handle multiple, competing priorities; learn new tools/applications quickly; and possess strong interpersonal skills. Academic experience should include, but is not limited to, one of the following majors/areas of focus:  Business Management, Business Administration, Supply Chain Management, Operations Management, Information Management, Statistics, Economics or Industrial Engineering. 
 </p>
 <p class="bac">
 We look for candidates that can demonstrate the ability to lead and manage people (indirectly and directly); inspect and understand a business end to end (process &#38; risks); influence change adoption; lead quality focus(Six Sigma); communicate effectively; meet challenging performance requirements; learn from past experiences; and use superb analytical and presentation skills to achieve outstanding results. 
@@ -73,7 +73,7 @@ We look for candidates that can demonstrate the ability to lead and manage peopl
 The program consists of the following developmental activities and opportunities: 
 </p>
 <ul class="bac">
-	<li>On-boarding, including orientation and on-going structured learning events</li>
+	<li>On&ndash;boarding, including orientation and on&ndash;going structured learning events</li>
 	<li>Structured learning curriculum and business critical assignments</li>
 	<li>Monthly program meetings</li>
 	<li>Peer coach assignments</li>

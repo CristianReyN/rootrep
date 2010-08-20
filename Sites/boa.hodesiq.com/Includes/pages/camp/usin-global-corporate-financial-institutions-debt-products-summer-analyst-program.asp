@@ -16,7 +16,7 @@ Corporate &#38; Financial Institutions Debt Products Analyst Interns perform int
 </p>
 <ul class="bac">
 	<li>Participate in the structuring, underwriting and documentation of credit facilities designed to meet both client and investor needs </li>
-	<li>Conduct comprehensive and in-depth company and industry research </li>
+	<li>Conduct comprehensive and in&ndash;depth company and industry research </li>
 	<li>Participate in portfolio monitoring activities</li>
 	<li>Manage credit exposure associated with the company&#39;s broad range of Credit Facilities, Foreign Exchange, Derivatives and Treasury Management products </li>
 	<li>Communicate and interact with CDP &#38; FIDP teams locally and globally</li>

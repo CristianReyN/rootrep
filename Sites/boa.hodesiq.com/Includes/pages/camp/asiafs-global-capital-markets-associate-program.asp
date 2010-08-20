@@ -24,7 +24,7 @@ Associate Interns are active team members in a focused product group, and their 
 <ul class="bac">
 	<li>Develop and manage financial models</li>
 	<li>Support and create analyses, including valuations and merger consequences</li>
-	<li>Perform comprehensive, in-depth company and industry research</li>
+	<li>Perform comprehensive, in&ndash;depth company and industry research</li>
 	<li>Prepare client presentations and other materials</li>
 	<li>Participate in due diligence sessions and client meetings</li>
 	<li>Communicate and interact with client team members</li>
@@ -36,14 +36,14 @@ Associate Interns are active team members in a focused product group, and their 
 <br>
 <H3 class="bac">Education</H3>
 <ul class="bac">
-	<li>Final year full-time MBA student, graduating in 2011</li>
+	<li>Final year full&ndash;time MBA student, graduating in 2011</li>
 	<li>Bachelor/Master&#39;s degree holder</li>
 	<li>Outstanding academic achievement </li>
 </ul>
 <br>
 <H3 class="bac">Experience </H3>
 <ul class="bac">
-	<li>Between 3-5 years&#39; relevant work experience</li>
+	<li>Between 3&ndash;5 years&#39; relevant work experience</li>
 	<li>A track record of superior performance in extracurricular and professional activities </li>
 </ul>
 <br>
@@ -62,8 +62,8 @@ Associate Interns are active team members in a focused product group, and their 
 	<li>A high degree of initiative and motivation </li>
 	<li>Strong attention to detail </li>
 	<li>Quick learner, with interest in taking on new responsibilities</li>
-	<li>Client-focused </li>
-	<li>Results-oriented</li>
+	<li>Client&ndash;focused </li>
+	<li>Results&ndash;oriented</li>
 	<li>Ability to work well with others</li>
 	<li>Ability to maintain composure and confidence, while juggling conflicting priorities </li>
 </ul>
@@ -72,13 +72,13 @@ Associate Interns are active team members in a focused product group, and their 
 
 <h2 class="bac">Training:</h2>
 <p class="bac">
-Full-time Associates are hired upon completion of their MBA. Your career as an Associate will begin with a formal training program, which takes place in New York for all Associates globally, and is considered one of the best in the industry. Instruction is provided by Bank of America professionals and leading business school professors.
+Full&ndash;time Associates are hired upon completion of their MBA. Your career as an Associate will begin with a formal training program, which takes place in New York for all Associates globally, and is considered one of the best in the industry. Instruction is provided by Bank of America professionals and leading business school professors.
 </p>
 <p class="bac">
 The training program includes:
 </p>
 <ul class="bac">
-	<li>A company-wide orientation program to introduce you to Bank of America</li>
+	<li>A company&ndash;wide orientation program to introduce you to Bank of America</li>
 	<li>An overview of the financial markets and essential business skills</li>
 	<li>An intensive training program customized for Associates that prepares you for placement in Capital Markets, by simulating actual work assignments, covering quantitative fundamentals, and preparing you for life as an Associate</li>
 </ul>

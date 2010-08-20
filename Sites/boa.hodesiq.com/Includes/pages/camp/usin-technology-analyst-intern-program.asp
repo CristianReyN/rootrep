@@ -5,10 +5,10 @@
 <a name="skipmaincontent"></a><h1 class="bac"><%=program.Item("title")%></h1>
 <h2 class="bac">Our Business:</h2>
 <p class="bac">
-Bank of America&#39;s technology couples technological expertise with the company&#39;s strategic vision, to keep Bank of America at the forefront of the world&#39;s financial markets. Delivering market-leading technology drives our business forward.
+Bank of America&#39;s technology couples technological expertise with the company&#39;s strategic vision, to keep Bank of America at the forefront of the world&#39;s financial markets. Delivering market&ndash;leading technology drives our business forward.
 </p>
 <p class="bac">
-Our technology teams partner with our Global Markets, Investment Banking, Wealth Management, Corporate Treasury and Corporate Investments Groups, to develop leading-edge applications supporting the entire range of our business activities - from client-facing sales and trading applications, to security analytics, risk management, trade processing, management reporting, reference and market data, and customer relationship management. Our teams work very closely with our business partners, developing strategies and delivering solutions that are integral to the day-to-day running of our business.
+Our technology teams partner with our Global Markets, Investment Banking, Wealth Management, Corporate Treasury and Corporate Investments Groups, to develop leading&ndash;edge applications supporting the entire range of our business activities &ndash; from client&ndash;facing sales and trading applications, to security analytics, risk management, trade processing, management reporting, reference and market data, and customer relationship management. Our teams work very closely with our business partners, developing strategies and delivering solutions that are integral to the day&ndash;to&ndash;day running of our business.
 </p>
 <p class="bac">
 There are five job profiles for the Technology Analyst Program: 
@@ -21,7 +21,7 @@ There are five job profiles for the Technology Analyst Program:
 <img src="../images/clear.gif" width="100%" height="12" alt="" border="0" />
 <H3 class="bacg">Developer:</H3>
 <p class="bacg">
-&nbsp;providing technical excellence to design, develop and maintain state-of-the-art technology applications utilizing technologies such as Java/EJB&#39;s, C++, .NET and Web services; gathering internal and external client requirements; translating client interactions into technical design specifications; business process reengineering; and partnering with business, product and technology teams across the organization to deliver world class technology solutions.
+&nbsp;providing technical excellence to design, develop and maintain state&ndash;of&ndash;the&ndash;art technology applications utilizing technologies such as Java/EJB&#39;s, C++, .NET and Web services; gathering internal and external client requirements; translating client interactions into technical design specifications; business process reengineering; and partnering with business, product and technology teams across the organization to deliver world class technology solutions.
 </p> 
 <img src="../images/clear.gif" width="100%" height="12" alt="" border="0" />
 <H3 class="bacg">Project Management or Systems Support Engineer:</H3>
@@ -38,7 +38,7 @@ There are five job profiles for the Technology Analyst Program:
 
 <h2 class="bac">Overview:</h2>  
 <p class="bac">
-The Bank of America Intern Program is designed to provide students with corporate experience in business banking policies and practices. Students are given a true associate experience, as internships mirror full-time positions, and include goal-setting and a formal review process. Interns are required to work 40-hour weeks for 10 weeks, between the months of June and August.  On-the-job training, mentoring relationships and networking opportunities are provided for all interns.  
+The Bank of America Intern Program is designed to provide students with corporate experience in business banking policies and practices. Students are given a true associate experience, as internships mirror full&ndash;time positions, and include goal&ndash;setting and a formal review process. Interns are required to work 40&ndash;hour weeks for 10 weeks, between the months of June and August.  On&ndash;the&ndash;job training, mentoring relationships and networking opportunities are provided for all interns.  
 </p>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
@@ -51,10 +51,10 @@ Candidates must demonstrate a combination of academic aptitude, quantitative ski
 	<li>Academic achievement</li>
 	<li>Leadership skills</li>
 	<li>Strong communication skills</li>
-	<li>Multi-platform knowledge, including mainframe, Unix, PC, wireless and internet platforms </li>
+	<li>Multi&ndash;platform knowledge, including mainframe, Unix, PC, wireless and internet platforms </li>
 	<li>Commitment to building a complete technical and business skill set</li>
-	<li>Ability to work in a fast-paced environment</li>
-	<li>Demonstrated problem-solving abilities</li>
+	<li>Ability to work in a fast&ndash;paced environment</li>
+	<li>Demonstrated problem&ndash;solving abilities</li>
 	<li>Detail orientation</li>
 	<li>Strong work ethic</li>
 	<li>Team player</li>
@@ -64,7 +64,7 @@ Candidates must demonstrate a combination of academic aptitude, quantitative ski
 
 <h2 class="bac">Training:</h2>
 <p class="bac">
-Interns receive an orientation to Bank of America with overviews on the history, culture, business organizations and intern program structure. Interns also participate in on-the-job training, an online learning curriculum, weekly speaker seminars, and events with interns and associates from across Bank of America.
+Interns receive an orientation to Bank of America with overviews on the history, culture, business organizations and intern program structure. Interns also participate in on&ndash;the&ndash;job training, an online learning curriculum, weekly speaker seminars, and events with interns and associates from across Bank of America.
 </p>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">

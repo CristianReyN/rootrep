@@ -5,18 +5,18 @@
 <a name="skipmaincontent"></a><h1 class="bac"><%=program.Item("title")%></h1>
 <h2 class="bac">Our Business:</h2>
 <p class="bac">
-The Global Human Resources (GHR) group at Bank of America enables the company to drive revenue through attracting, developing and retaining a world-class workforce. GHR strategy aligns to business strategy to ensure the company has the talent needed to achieve its business objectives. Key units within Global HR are Staffing, Compensation, Benefits, Shared Services, Leadership Development, Learning, and a team of Generalists. In addition to advising business leaders, Global HR helps the company deliver a higher standard of working environment, benefits, work/life commitment and satisfaction for our 300,000 associates.  
+The Global Human Resources (GHR) group at Bank of America enables the company to drive revenue through attracting, developing and retaining a world&ndash;class workforce. GHR strategy aligns to business strategy to ensure the company has the talent needed to achieve its business objectives. Key units within Global HR are Staffing, Compensation, Benefits, Shared Services, Leadership Development, Learning, and a team of Generalists. In addition to advising business leaders, Global HR helps the company deliver a higher standard of working environment, benefits, work/life commitment and satisfaction for our 300,000 associates.  
 </p>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
 
 <h2 class="bac">Overview:</h2>  
 <p class="bac">
-The Human Resources Development Program is a 2-year rotational program, designed to create a pipeline of talent that can move into key generalist or specialist areas within Global HR, and help drive our business forward into the future. The program is comprised of two job assignments, each lasting 12 months in length. Throughout the program, participants will: 
+The Human Resources Development Program is a 2&ndash;year rotational program, designed to create a pipeline of talent that can move into key generalist or specialist areas within Global HR, and help drive our business forward into the future. The program is comprised of two job assignments, each lasting 12 months in length. Throughout the program, participants will: 
 </p>
 <ul class="bac">
-	<li>Develop the skills and core competencies necessary to potentially move into leadership positions upon completion of the 2- year program</li>
-	<li>Have a formal support structure including a designated assignment manager, program manager, peer coach, learning curriculum, program events, monthly program meetings, and structured on-boarding orientation</li>
+	<li>Develop the skills and core competencies necessary to potentially move into leadership positions upon completion of the 2&ndash; year program</li>
+	<li>Have a formal support structure including a designated assignment manager, program manager, peer coach, learning curriculum, program events, monthly program meetings, and structured on&ndash;boarding orientation</li>
 	<li>Receive ongoing feedback on leadership and performance</li>
 	<li>Gain exposure to various HR functions and lines of business, and access to various leadership teams, through work assignments and networking events</li>
 	<li>Own and manage their careers</li>
@@ -37,16 +37,16 @@ Potential Program Rotations include:
 <H3 class="bac">Learning &#38; Instructional Design</H3>
 <ul class="bac">
 	<li>Act as liaison between Learning Team and the lines of business around specific learning needs  </li>
-	<li>Assist Learning Managers and L&#38;LD (Learning &#38; Leadership Development) client teams to create end-to-end learning solutions that support and drive business strategy  </li>
+	<li>Assist Learning Managers and L&#38;LD (Learning &#38; Leadership Development) client teams to create end&ndash;to&ndash;end learning solutions that support and drive business strategy  </li>
 	<li>Create LOB learning plans, map learning solutions and monitor progress against plans  </li>
-	<li>Assist with design or effective implementation of appropriate learning solutions including web-based training, instructor-led learning, on-line and paper-based references, and other forms of learning</li>
+	<li>Assist with design or effective implementation of appropriate learning solutions including web&ndash;based training, instructor&ndash;led learning, on&ndash;line and paper&ndash;based references, and other forms of learning</li>
 </ul>
 <br>
 <H3 class="bac">Compensation</H3>
 <ul class="bac">
 	<li>Design, develop and deliver compensation strategy innovations that help clients across all businesses drive business objectives </li>
-	<li>Work with large client groups on the issues affecting their business to create competitive, innovative compensation plans that drive short and long-term business growth </li>
-	<li>Possess the specialized knowledge and skills to address key challenges, solve major job-relevant problems and otherwise perform the technical responsibilities of the job with a high level of competence</li>
+	<li>Work with large client groups on the issues affecting their business to create competitive, innovative compensation plans that drive short and long&ndash;term business growth </li>
+	<li>Possess the specialized knowledge and skills to address key challenges, solve major job&ndash;relevant problems and otherwise perform the technical responsibilities of the job with a high level of competence</li>
 </ul>
 <br>
 <H3 class="bac">Workforce Planning</H3>
@@ -76,8 +76,8 @@ Potential Program Rotations include:
 <h2 class="bac">Qualifications:</h2>
 <ul class="bac">
 	<li>MBA or advanced degree in Industrial/Organizational Psychology, Human Resources Management, Labor Relations, or other related degree</li>
-	<li>Minimum of three years work experience, demonstrating strong analytical, financial and relationship skills, in a fast-paced, corporate or management consulting environment</li>
-	<li>Strong work ethic, ability to multi-task, teamwork-orientation</li>
+	<li>Minimum of three years work experience, demonstrating strong analytical, financial and relationship skills, in a fast&ndash;paced, corporate or management consulting environment</li>
+	<li>Strong work ethic, ability to multi&ndash;task, teamwork&ndash;orientation</li>
 	<li>Demonstrated ability to influence senior executives, establish and maintain collaborative partnerships and provide thought leadership</li>
 	<li>Excellent strategic and process thinking abilities</li>
 	<li>Ability to architect and implement large change, and operate easily between concept and operation</li>

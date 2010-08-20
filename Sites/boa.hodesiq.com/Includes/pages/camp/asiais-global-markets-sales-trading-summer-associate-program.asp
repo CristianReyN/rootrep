@@ -5,14 +5,14 @@
 <a name="skipmaincontent"></a><h1 class="bac"><%=program.Item("title")%></h1>
 <h2 class="bac">Our Business:</h2>
 <p class="bac">
-Global Markets delivers a wide range of securities products and services, powerful sales and trading capabilities, and deep risk management expertise across asset classes. Closely aligned with GCIB&#39;s client-managed groups, Global Markets&#39; Product Specialists anticipate and meet the needs of more than 3,000 institutional investors and 7,000 issuer clients.
+Global Markets delivers a wide range of securities products and services, powerful sales and trading capabilities, and deep risk management expertise across asset classes. Closely aligned with GCIB&#39;s client&ndash;managed groups, Global Markets&#39; Product Specialists anticipate and meet the needs of more than 3,000 institutional investors and 7,000 issuer clients.
 </p>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
 
 <h2 class="bac">Overview:</h2> 
 <p class="bac">
-Summer Associates participate in an 8-10 week program, based in Asia, providing a unique opportunity and exposure to life in Global Markets. In addition to learning opportunities, there are formal and social opportunities to interact and network with senior business representatives.
+Summer Associates participate in an 8&ndash;10 week program, based in Asia, providing a unique opportunity and exposure to life in Global Markets. In addition to learning opportunities, there are formal and social opportunities to interact and network with senior business representatives.
 </p> 
 <br>
 <H3 class="bac">Placement</H3>
@@ -67,7 +67,7 @@ Depending on location, Summer Associates are either hired and placed directly wi
 <br>
 <H3 class="bac">Experience </H3>
 <ul class="bac">
-	<li>Between 3-5 year&#39;s relevant work experience</li>
+	<li>Between 3&ndash;5 year&#39;s relevant work experience</li>
 	<li>A track record of superior performance in extracurricular and professional activities </li>
 </ul>
 <br>
@@ -75,9 +75,9 @@ Depending on location, Summer Associates are either hired and placed directly wi
 <ul class="bac">
 	<li>Strong quantitative and analytical skills </li>
 	<li>Extensive Excel and modeling skills</li>
-	<li>Demonstrated problem-solving skills, and willingness to ask tough questions</li>
-	<li>Well-developed judgment and business sense </li>
-	<li>Demonstrated ability to multi-task and prioritize in a demanding environment</li>
+	<li>Demonstrated problem&ndash;solving skills, and willingness to ask tough questions</li>
+	<li>Well&ndash;developed judgment and business sense </li>
+	<li>Demonstrated ability to multi&ndash;task and prioritize in a demanding environment</li>
 	<li>Ability to apply advanced oral and written communication skills to create a positive impression and professional rapport </li>
 	<li>Ability to work independently, while functioning as part of a team </li>
 	<li>Appropriate language capabilities </li>
@@ -86,12 +86,12 @@ Depending on location, Summer Associates are either hired and placed directly wi
 <H3 class="bac">Personal traits </H3>
 <ul class="bac">
 	<li>Strong interest in global financial markets and factors that impact them </li>
-	<li>Adapts easily to constantly-changing environment</li>
+	<li>Adapts easily to constantly&ndash;changing environment</li>
 	<li>High degree of professionalism and integrity</li>
 	<li>A high degree of initiative and motivation </li>
 	<li>Strong attention to detail </li>
 	<li>Quick learner, with interest in taking on new responsibilities</li>
-	<li>Results-orientated</li>
+	<li>Results&ndash;orientated</li>
 	<li>Ability to work well with others</li>
 </ul>
 
@@ -102,7 +102,7 @@ Depending on location, Summer Associates are either hired and placed directly wi
 The Summer Associate Program begins with several days of orientation and induction to the company and includes:
 </p>
 <ul class="bac">
-	<li>Access to pre-work via an online e-learning portal covering foundation topics</li>
+	<li>Access to pre&ndash;work via an online e&ndash;learning portal covering foundation topics</li>
 	<li>Relevant continuous training sessions over the internship period, specific to Global Markets</li>
 </ul>
 

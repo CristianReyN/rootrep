@@ -5,9 +5,9 @@
 <a name="skipmaincontent"></a><h1 class="bac"><%=program.Item("title")%></h1>
 <h2 class="bac">Summary:</h2>
 <ul class="bac">
-	<li>Strong A-level grades and on track for a minimum 2:1 degree (or equivalent)</li>
+	<li>Strong A&ndash;level grades and on track for a minimum 2:1 degree (or equivalent)</li>
 	<li>Location: Opportunities in London</li>
-	<li>9-week programme from June – August</li>
+	<li>9&ndash;week programme from June – August</li>
 	<li>Online application form</li>
 	<li>Application Deadline: 17 December 2010</li>
 </ul>
@@ -28,7 +28,7 @@ As a Summer Analyst within Global Corporate Banking, you&#39;ll:
 <ul class="bac">
 	<li>Work in teams to create and deliver solutions to clients that bring to bear the full breadth of the company&#39;s Debt Capital Raising and Capital Markets (including acquisition financing  to ratings advisory), Global Market solutions (including FX, rates and commodities) and Global Treasury Services (including cash management, trade and liquidity management)  </li>
 	<li>Work on live transactions and interact with clients as you build your network and experience</li>
-	<li>Help to generate ideas and cross-selling opportunities for new and existing clients</li>
+	<li>Help to generate ideas and cross&ndash;selling opportunities for new and existing clients</li>
 	<li>Work with, and learn from, teams consisting of professionals drawn from across the business, including senior corporate bankers within your group, experts in other areas of the firm (including investment bankers) and colleagues from around the globe </li>
 	<li>Discover unlimited opportunities to challenge yourself and grow professionally </li>
 	<li>Build relationships, knowledge and experience that will open doors to a wide range of future career options and opportunities</li>
@@ -41,14 +41,14 @@ As a Summer Analyst within Global Corporate Banking, you&#39;ll:
 Strong academic qualifications are important, but you'll also need to demonstrate drive, innovation and a genuine interest in financial markets.  
 </p>
 <p class="bac">
-We accept applications from a diverse range of degree disciplines such as the arts and humanities, as well as numerically-focused subjects such as economics and mathematics. You'll need to be fluent in English, and a second European language may also be required for some roles. 
+We accept applications from a diverse range of degree disciplines such as the arts and humanities, as well as numerically&ndash;focused subjects such as economics and mathematics. You'll need to be fluent in English, and a second European language may also be required for some roles. 
 </p>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
 
 <h2 class="bac">Training:</h2>
 <p class="bac">
-The best opportunity to learn about working life at the company is to experience it first-hand through our nine-week Summer Programme. Aimed at students in their penultimate year, the programme runs from June to the end of August, and is designed to help you decide whether our offering matches your aspirations. Our summer programme involves working on projects alongside bankers in specific industry or product groups, providing you with a unique learning opportunity and exposure to life at a leading investment bank. 
+The best opportunity to learn about working life at the company is to experience it first&ndash;hand through our nine&ndash;week Summer Programme. Aimed at students in their penultimate year, the programme runs from June to the end of August, and is designed to help you decide whether our offering matches your aspirations. Our summer programme involves working on projects alongside bankers in specific industry or product groups, providing you with a unique learning opportunity and exposure to life at a leading investment bank. 
 </p>
 <p class="bac">
 The programme includes: 

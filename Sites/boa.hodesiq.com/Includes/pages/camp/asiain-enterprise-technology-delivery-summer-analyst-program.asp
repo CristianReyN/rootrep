@@ -5,21 +5,21 @@
 <a name="skipmaincontent"></a><h1 class="bac"><%=program.Item("title")%></h1>
 <h2 class="bac">Our Business:</h2>
 <p class="bac">
-Enterprise Technology and Delivery (ET&#38;D) executes on Bank of America customer, client and associate needs and requests, through technology, systems and call centers, among other tools and channels. This includes mainframe, mid-range and distributed server operations; client server technology; local and wide area network functions; telecommunications; and other critical systems. ET&#38;D teams include Infrastructure Engineering, Infrastructure Operations, Enterprise Applications, Shared Services, Associate Technology, Communication &#38; Innovation, Enterprise Information Management, China Construction Bank, Business Management Services and Global Delivery Center of Expertise.   
+Enterprise Technology and Delivery (ET&#38;D) executes on Bank of America customer, client and associate needs and requests, through technology, systems and call centers, among other tools and channels. This includes mainframe, mid&ndash;range and distributed server operations; client server technology; local and wide area network functions; telecommunications; and other critical systems. ET&#38;D teams include Infrastructure Engineering, Infrastructure Operations, Enterprise Applications, Shared Services, Associate Technology, Communication &#38; Innovation, Enterprise Information Management, China Construction Bank, Business Management Services and Global Delivery Center of Expertise.   
 </p>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
 
 <h2 class="bac">Overview:</h2>  
 <p class="bac">
-The Bank of America Summer Analyst Program is designed to provide students with corporate experience in business banking policies and practices. Students are given a true associate experience, as internships mirror full-time positions and include goal-setting and a formal review process. On-the-job training, mentoring relationships, and networking opportunities are provided for all interns.  
+The Bank of America Summer Analyst Program is designed to provide students with corporate experience in business banking policies and practices. Students are given a true associate experience, as internships mirror full&ndash;time positions and include goal&ndash;setting and a formal review process. On&ndash;the&ndash;job training, mentoring relationships, and networking opportunities are provided for all interns.  
 </p>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
 
 <h2 class="bac">Qualifications:</h2>
 <p class="bac">
-The ideal candidate exhibits a strong drive for results; displays a sense of urgency; succeeds in a collaborative environment; enjoys teamwork and partnering with others; and understands technology and business requirements. The ideal candidate will possess excellent organization skills and judgment; ability to learn the organizational structure and the formal/informal workings of the company; and a strong desire to create customer and associate satisfaction and drive shareholders value. The ideal candidate will be proficient with the Microsoft Suite and other basic applications such as Outlook. Technical skills should include knowledge of several of the following technologies: UNIX, Windows NT/2000, network architecture, databases, desktop and server hardware, information security concepts and technologies, project management skills and financial industry knowledge. Candidates must be enrolled in a full-time degree program, pursuing a major in Computer Science, Business, Engineering, or Information Technology.     
+The ideal candidate exhibits a strong drive for results; displays a sense of urgency; succeeds in a collaborative environment; enjoys teamwork and partnering with others; and understands technology and business requirements. The ideal candidate will possess excellent organization skills and judgment; ability to learn the organizational structure and the formal/informal workings of the company; and a strong desire to create customer and associate satisfaction and drive shareholders value. The ideal candidate will be proficient with the Microsoft Suite and other basic applications such as Outlook. Technical skills should include knowledge of several of the following technologies: UNIX, Windows NT/2000, network architecture, databases, desktop and server hardware, information security concepts and technologies, project management skills and financial industry knowledge. Candidates must be enrolled in a full&ndash;time degree program, pursuing a major in Computer Science, Business, Engineering, or Information Technology.     
 </p>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">

@@ -5,28 +5,28 @@
 <a name="skipmaincontent"></a><h1 class="bac"><%=program.Item("title")%></h1>
 <h2 class="bac">Our Business:</h2>
 <p class="bac">
-Consumer and Small Business Bank (CSBB) serves more than 59 million consumer and small business households, through a distribution network that includes: 6,100 retail banking offices, 18,500 ATMs, and the nation&#39;s leading online banking offering, featuring award-winning service and nearly 30 million active users.
+Consumer and Small Business Bank (CSBB) serves more than 59 million consumer and small business households, through a distribution network that includes: 6,100 retail banking offices, 18,500 ATMs, and the nation&#39;s leading online banking offering, featuring award&ndash;winning service and nearly 30 million active users.
 </p>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
 
 <h2 class="bac">Overview:</h2>  
 <p class="bac">
-Our internship program is designed to prepare future MBA graduates for the Full-Time Consumer MBA &#45; Banking Center Channel (BCC)  Track Program. The Full-Time Consumer MBA Program &#45; BCC track specifically grooms MBA participants into Consumer Market Managers (CMM), over the course of two years. Consumer Market Managers are regional managers responsible for driving and evaluating the performance of sales and service associates in banking centers. 
+Our internship program is designed to prepare future MBA graduates for the Full&ndash;Time Consumer MBA &ndash; Banking Center Channel (BCC)  Track Program. The Full&ndash;Time Consumer MBA Program &ndash; BCC track specifically grooms MBA participants into Consumer Market Managers (CMM), over the course of two years. Consumer Market Managers are regional managers responsible for driving and evaluating the performance of sales and service associates in banking centers. 
 </p>
 <p class="bac">
-The Consumer MBA Intern Program (BCC Track) is split into a two 4-6 week rotations. These consist of rotations within our:
+The Consumer MBA Intern Program (BCC Track) is split into a two 4&ndash;6 week rotations. These consist of rotations within our:
 </p>
 <ul class="bac">
-	<li><b>Banking Center</b> &#45; learning the various roles and fundamentals of consumer banking. This rotation is meant to help gain perspective of how a banking center is run, and is supplemental to the second rotation.  </li>
-	<li><b>Consumer Market Team</b> &#45; The Consumer Market Team manages 25-30 Banking Centers within a geographic area. During this rotation you will have the opportunity to work on existing team projects and initiatives, and to participate in structured coaching visits, mystery shops and regional meetings and gain insight on the Consumer Market Manager role. </li>
+	<li><b>Banking Center</b> &ndash; learning the various roles and fundamentals of consumer banking. This rotation is meant to help gain perspective of how a banking center is run, and is supplemental to the second rotation.  </li>
+	<li><b>Consumer Market Team</b> &ndash; The Consumer Market Team manages 25&ndash;30 Banking Centers within a geographic area. During this rotation you will have the opportunity to work on existing team projects and initiatives, and to participate in structured coaching visits, mystery shops and regional meetings and gain insight on the Consumer Market Manager role. </li>
 </ul>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
 
 <h2 class="bac">Qualifications:</h2>
 <p class="bac">
-Ideal candidate will exhibit a strong drive for results; succeed in a fast-paced, empowered, and collaborative environment; enjoy teamwork and partnering with others; possess financial acumen, excellent organizational and strong interpersonal skills; and the ability to coach and develop associates. The ability to learn the organizational structure, the formal/informal workings of the company and to convey a strong sense of customer and associate satisfaction to drive shareholder value is required.
+Ideal candidate will exhibit a strong drive for results; succeed in a fast&ndash;paced, empowered, and collaborative environment; enjoy teamwork and partnering with others; possess financial acumen, excellent organizational and strong interpersonal skills; and the ability to coach and develop associates. The ability to learn the organizational structure, the formal/informal workings of the company and to convey a strong sense of customer and associate satisfaction to drive shareholder value is required.
 </p>
 <p class="bac">
 Additional requirements include:
@@ -34,10 +34,10 @@ Additional requirements include:
 <ul class="bac">
 	<li>Must be a first year MBA student, at an accredited university, during the time of the internship </li>
 	<li>Spring/Summer 2012 graduation date</li>
-	<li>4&#45;7 years pre-graduate work experience involving sales, marketing and/or sales team management experience, with a demonstrated record of achievement</li>
+	<li>4&ndash;7 years pre&ndash;graduate work experience involving sales, marketing and/or sales team management experience, with a demonstrated record of achievement</li>
 	<li>Relevant work history that reflects experience supervising others, delegating tasks and resolving conflicts </li>
 	<li>The ability to motivate and train sales and services associates in banking centers, to grow the business and drive execution</li>
-	<li>Team-building techniques to accomplish market goals</li>
+	<li>Team&ndash;building techniques to accomplish market goals</li>
 	<li>Authorization to work in the United States</li>
 	<li>Geographic mobility/flexibility</li>
 </ul>
@@ -45,7 +45,7 @@ Additional requirements include:
 Preferred Expertise and/or experience in at least 3 of the following:
 </p>
 <ul class="bac">
-	<li>Ability to navigate in a highly-matrixed environment</li>
+	<li>Ability to navigate in a highly&ndash;matrixed environment</li>
 	<li>Ability to influence</li>
 	<li>Previous financial services or retail experience</li>
 	<li>Strong statistical/analytical background (familiarity with Six Sigma principles)</li>
@@ -58,7 +58,7 @@ Personal characteristics:
 <ul class="bac">
 	<li>Strong leadership ability</li>
 	<li>Ability to communicate crisply and candidly </li>
-	<li>Results-oriented, proven high level of performance</li>
+	<li>Results&ndash;oriented, proven high level of performance</li>
 	<li>Ability to manage tight deadlines, organize and prioritize work independently </li>
 	<li>Flexibility in exploring a variety of business areas</li>
 </ul>

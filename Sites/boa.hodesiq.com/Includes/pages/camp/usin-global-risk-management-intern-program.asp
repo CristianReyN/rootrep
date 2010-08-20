@@ -15,7 +15,7 @@ Global Risk employs 5,000 associates, in more than 35 countries. With the increa
 
 <h2 class="bac">Overview:</h2>  
 <p class="bac">
-Global Risk Management Interns participate in a variety of activities within Global Risk, and bank-wide, to foster teamwork, encourage networking, and demonstrate Bank of America&#39;s vision and culture. The Intern program will introduce students to the Global Risk Management Associate Program (GRMAP), a three-year Associate Development program, which rotates associates through challenging and valuable one-year assignments within Global Risk. This rotational process helps associates develop a solid understanding of the core roles and responsibilities of Global Risk, while developing a broad range of skills that are applicable throughout much of the corporation. 
+Global Risk Management Interns participate in a variety of activities within Global Risk, and bank&ndash;wide, to foster teamwork, encourage networking, and demonstrate Bank of America&#39;s vision and culture. The Intern program will introduce students to the Global Risk Management Associate Program (GRMAP), a three&ndash;year Associate Development program, which rotates associates through challenging and valuable one&ndash;year assignments within Global Risk. This rotational process helps associates develop a solid understanding of the core roles and responsibilities of Global Risk, while developing a broad range of skills that are applicable throughout much of the corporation. 
 </p>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
@@ -25,7 +25,7 @@ Global Risk Management Interns participate in a variety of activities within Glo
 	<li>Pursuing an undergraduate degree in Accounting, Finance, Business Administration, Economics, Mathematics and/or Liberal Arts</li>
 	<li>Exceptional communication skills  </li>
 	<li>Demonstrate leadership, initiative and resourcefulness in school, community, or work experience</li>
-	<li>Strong work ethic, ability to multi-task, and teamwork orientation</li>
+	<li>Strong work ethic, ability to multi&ndash;task, and teamwork orientation</li>
 	<li>Dedicated to building a career in financial services</li>
 	<li>Minimum GPA of 3.0</li>
 	<li>Must have eligibility to work in the US</li>
@@ -35,15 +35,15 @@ Global Risk Management Interns participate in a variety of activities within Glo
 
 <h2 class="bac">Training:</h2>
 <p class="bac">
-The Global Risk Management Intern Program allows rising juniors to gain practical experience on relevant projects in Risk Management, while also participating in enterprise-wide and line of business intern events. 
+The Global Risk Management Intern Program allows rising juniors to gain practical experience on relevant projects in Risk Management, while also participating in enterprise&ndash;wide and line of business intern events. 
 </p>
 <p class="bac">
 The Intern Experience Includes:
 </p>
 <ul class="bac">
 	<li>Orientation to Bank of America</li>
-	<li>Mid-point learning and networking event</li>
-	<li>Line of business-specific events</li>
+	<li>Mid&ndash;point learning and networking event</li>
+	<li>Line of business&ndash;specific events</li>
 	<li>Team Bank of America community involvement </li>
 	<li>Performance coaching and feedback </li>
 	<li>Business and compliance training</li>

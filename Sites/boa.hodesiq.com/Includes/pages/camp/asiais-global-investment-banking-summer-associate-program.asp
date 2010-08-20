@@ -5,14 +5,14 @@
 <a name="skipmaincontent"></a><h1 class="bac"><%=program.Item("title")%></h1>
 <h2 class="bac">Our Business:</h2>
 <p class="bac">
-Global Corporate and Investment Banking (GCIB) focuses on building long-term relationships with more than 3,000 large U.S. and multinational corporations, financial institutions and financial sponsors, by providing strong advisory expertise and capitalizing on powerful M&#38;A, corporate banking, treasury, debt and equity product expertise, to deliver integrated financial solutions.
+Global Corporate and Investment Banking (GCIB) focuses on building long&ndash;term relationships with more than 3,000 large U.S. and multinational corporations, financial institutions and financial sponsors, by providing strong advisory expertise and capitalizing on powerful M&#38;A, corporate banking, treasury, debt and equity product expertise, to deliver integrated financial solutions.
 </p>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
 
 <h2 class="bac">Overview:</h2>  
 <p class="bac">
-Summer Associates participate in an 8-10 week program, based in Asia, providing a unique opportunity and exposure to life in investment banking. In addition to learning opportunities, there are formal and social opportunities to interact and network with senior bankers.
+Summer Associates participate in an 8&ndash;10 week program, based in Asia, providing a unique opportunity and exposure to life in investment banking. In addition to learning opportunities, there are formal and social opportunities to interact and network with senior bankers.
 </p>
 <br>
 <H3 class="bac">Placement</H3>
@@ -51,7 +51,7 @@ Summer Associates are placed directly with a specific group throughout the inter
 <br>
 <H3 class="bac">Responsibilities </H3>
 <p class="bac">
-Investment Banking Summer Associates play a key role in the origination and execution of work with key clients, and typically take on many of the same responsibilities as their full-time peers, including but not limited to:
+Investment Banking Summer Associates play a key role in the origination and execution of work with key clients, and typically take on many of the same responsibilities as their full&ndash;time peers, including but not limited to:
 </p>
 <ul class="bac">
 	<li>Working on deal teams with senior bankers and experts from other areas within the company </li>
@@ -68,14 +68,14 @@ Investment Banking Summer Associates play a key role in the origination and exec
 <br>
 <H3 class="bac">Education</H3>
 <ul class="bac">
-	<li>Penultimate year, full-time MBA student, graduating in 2012</li>
+	<li>Penultimate year, full&ndash;time MBA student, graduating in 2012</li>
 	<li>Bachelor/Master&#39;s degree holder</li>
 	<li>Outstanding academic achievement </li>
 </ul>
 <br>
 <H3 class="bac">Experience </H3>
 <ul class="bac">
-	<li>Between 3-5 years&#39; relevant work experience</li>
+	<li>Between 3&ndash;5 years&#39; relevant work experience</li>
 	<li>A track record of superior performance in extracurricular and professional activities</li>
 </ul>
 <br>
@@ -94,8 +94,8 @@ Investment Banking Summer Associates play a key role in the origination and exec
 	<li>A high degree of initiative and motivation </li>
 	<li>Strong attention to detail </li>
 	<li>Quick learner, with interest in taking on new responsibilities</li>
-	<li>Client-focused </li>
-	<li>Results-oriented</li>
+	<li>Client&ndash;focused </li>
+	<li>Results&ndash;oriented</li>
 	<li>Ability to work well with others</li>
 	<li>Ability to maintain composure and confidence, while juggling conflicting priorities </li>
 </ul>
@@ -107,7 +107,7 @@ Investment Banking Summer Associates play a key role in the origination and exec
 The Summer Associate Program begins with several days of orientation and induction to the company, and includes:
 </p>
 <ul class="bac">
-	<li>Access to pre-work via an online e-learning portal covering foundation topics</li>
+	<li>Access to pre&ndash;work via an online e&ndash;learning portal covering foundation topics</li>
 	<li>Relevant continuous training sessions over the internship period, specific to investment banking</li>
 </ul>
 

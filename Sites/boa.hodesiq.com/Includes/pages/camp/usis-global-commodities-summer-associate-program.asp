@@ -5,16 +5,16 @@
 <a name="skipmaincontent"></a><h1 class="bac"><%=program.Item("title")%></h1>
 <h2 class="bac">Our Business:</h2>
 <p class="bac">
-Merrill Lynch Global Commodities (MLC) is a leading global energy trading, marketing and risk management company. Our core capabilities include the trading of natural gas, power, emissions, crude and refined products, coal metals, commodity indices, and structured notes. We also provide a comprehensive range of standard and customized wholesale energy market solutions for customers with natural gas, power, multi-fuel, and weather-related business opportunities, such as asset optimization, risk management and structured products.
+Merrill Lynch Global Commodities (MLC) is a leading global energy trading, marketing and risk management company. Our core capabilities include the trading of natural gas, power, emissions, crude and refined products, coal metals, commodity indices, and structured notes. We also provide a comprehensive range of standard and customized wholesale energy market solutions for customers with natural gas, power, multi&ndash;fuel, and weather&ndash;related business opportunities, such as asset optimization, risk management and structured products.
 </p>
 <p class="bac">
 Our business focuses on four key areas: 
 </p>
 <ul class="bac">
-	<li><b>Derivative sales</b> &#45; Client hedging and product sales to corporate clients, hedge funds and investors</li>
-	<li><b>Proprietary trading</b> &#45; Arbitrage inefficiencies and risk mitigation, with a broad list of counterparties</li>
-	<li><b>Physical trading</b> &#45; Short term trading, market making and asset optimizations, for third parties and MLC proprietary assets</li>
-	<li><b>Structured transactions</b> &#45; Customized transactions to meet individual client needs</li>
+	<li><b>Derivative sales</b> &ndash; Client hedging and product sales to corporate clients, hedge funds and investors</li>
+	<li><b>Proprietary trading</b> &ndash; Arbitrage inefficiencies and risk mitigation, with a broad list of counterparties</li>
+	<li><b>Physical trading</b> &ndash; Short term trading, market making and asset optimizations, for third parties and MLC proprietary assets</li>
+	<li><b>Structured transactions</b> &ndash; Customized transactions to meet individual client needs</li>
 </ul>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
@@ -31,7 +31,7 @@ Trading Associates will add value in a support role. They will increase their kn
 <br>
 <H3 class="bac">Summer Program</H3>
 <p class="bac">
-This 10-week program includes formal training and rotations through the following commodities desks: structuring, market analysis and strategy, business market risk and derivative sales. Rotation assignments are based on current business need in the sales, trading, origination and structuring/quantitative analysis functions. 
+This 10&ndash;week program includes formal training and rotations through the following commodities desks: structuring, market analysis and strategy, business market risk and derivative sales. Rotation assignments are based on current business need in the sales, trading, origination and structuring/quantitative analysis functions. 
 </p>
 <br>
 <H3 class="bac">Program highlights </H3>
@@ -40,12 +40,12 @@ This 10-week program includes formal training and rotations through the followin
 	<li>Senior speakers series </li>
 	<li>Access to the electronic learning network</li> 
 	<li>Extensive peer and senior mentoring </li>
-	<li>Business-sponsored activities and events that create opportunities to network with Merrill Lynch professionals and summer associates across multiple business groups   </li>
+	<li>Business&ndash;sponsored activities and events that create opportunities to network with Merrill Lynch professionals and summer associates across multiple business groups   </li>
 </ul>
 <br>
 <H3 class="bac">Daily responsibilities include:</H3>
 <ul class="bac">
-	<li>Work on specific commodity-related transactions, including deal valuation and structuring, as well as participate in internal and external discussions developing structured deal solutions for customers</li>
+	<li>Work on specific commodity&ndash;related transactions, including deal valuation and structuring, as well as participate in internal and external discussions developing structured deal solutions for customers</li>
 	<li>Assist market strategists and traders to integrate fundamental points of view with trading strategies</li>
 	<li>Work with teams to develop marketing presentations and models, assimilate historical data, and generate reports  that create interest in commodities and develop new business</li>
 </ul>
@@ -62,7 +62,7 @@ This 10-week program includes formal training and rotations through the followin
 <br>
 <H3 class="bac">Experience </H3>
 <ul class="bac">
-	<li>Minimum of 2-3 years work experience in financial services or equivalent, and relevant experience</li>
+	<li>Minimum of 2&ndash;3 years work experience in financial services or equivalent, and relevant experience</li>
 	<li>Diverse work experience considered </li>
 </ul>
 <br>
@@ -70,7 +70,7 @@ This 10-week program includes formal training and rotations through the followin
 <ul class="bac">
 	<li>Strong quantitative and analytical skills </li>
 	<li>Extensive Excel training and modeling skills</li>
-	<li>Well-developed judgment and business sense </li>
+	<li>Well&ndash;developed judgment and business sense </li>
 	<li>Demonstrated team, communication and interpersonal skills </li>
 	<li>Knowledge of financial derivatives, global energy markets and factors that impact them</li>
 </ul>
@@ -78,7 +78,7 @@ This 10-week program includes formal training and rotations through the followin
 <H3 class="bac">Personal traits </H3>
 <ul class="bac">
 	<li>Strong interest in global financial markets </li>
-	<li>Highly-motivated with a drive to succeed </li>
+	<li>Highly&ndash;motivated with a drive to succeed </li>
 	<li>Keen interest in complex structures </li>
 	<li>Ability to adapt easily to constantly changing environment</li>
 </ul>

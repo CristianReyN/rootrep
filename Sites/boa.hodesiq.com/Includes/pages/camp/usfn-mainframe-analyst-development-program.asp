@@ -5,21 +5,21 @@
 <a name="skipmaincontent"></a><h1 class="bac"><%=program.Item("title")%></h1>
 <h2 class="bac">Our Business:</h2>
 <p class="bac">
-Hosting Solutions Design &#38; Build (HSDB) is within the Shared Technology Infrastructure (STI) division. HSDB is responsible for delivering fully-integrated mainframe and midrange infrastructure shared services, which support transactional (online), database, messaging, OS, storage, capacity planning and application hosting, securely across Bank of America. Services include design, procurement, implementation, deployment, refresh, compliance, optimization and support services for the global environment. 
+Hosting Solutions Design &#38; Build (HSDB) is within the Shared Technology Infrastructure (STI) division. HSDB is responsible for delivering fully&ndash;integrated mainframe and midrange infrastructure shared services, which support transactional (online), database, messaging, OS, storage, capacity planning and application hosting, securely across Bank of America. Services include design, procurement, implementation, deployment, refresh, compliance, optimization and support services for the global environment. 
 </p>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
 
 <h2 class="bac">Overview:</h2>  
 <p class="bac">
-The Mainframe Analyst Development College Hire Program recruits the potential next generation of mainframe technicians. College candidates with mainframe technology education may be eligible for a full-time associate position. The associate is enrolled in a 2-year program that provides training, hands-on experience and career development. Upon completion of the 2-year program, the associate continues to develop their skills in their assigned area. 
+The Mainframe Analyst Development College Hire Program recruits the potential next generation of mainframe technicians. College candidates with mainframe technology education may be eligible for a full&ndash;time associate position. The associate is enrolled in a 2&ndash;year program that provides training, hands&ndash;on experience and career development. Upon completion of the 2&ndash;year program, the associate continues to develop their skills in their assigned area. 
 </p>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
 
 <h2 class="bac">Qualifications:</h2>
 <ul class="bac">
-	<li>Must be a college senior enrolled in a full-time degree program, pursuing a major in Computer Science, Business Management or Information Technology, with a preferred grade point average of 3.0 or higher on a 4 point scale</li>
+	<li>Must be a college senior enrolled in a full&ndash;time degree program, pursuing a major in Computer Science, Business Management or Information Technology, with a preferred grade point average of 3.0 or higher on a 4 point scale</li>
 	<li>Must be a U.S. citizen or have a permanent U.S. residency</li>
 	<li>Must be a team player and have a strong drive for results</li>
 	<li>Excellent organization and communication skills</li>
@@ -32,7 +32,7 @@ The Mainframe Analyst Development College Hire Program recruits the potential ne
 
 <h2 class="bac">Training:</h2>
 <p class="bac">
-Training will focus primarily on one mainframe technology, which is determined based on the candidate&#39;s education, career interest, aptitude and available positions. A mainframe technology training curriculum is comprised of formal technology classes, in-house courses, self study and job mentoring from a senior technician. Training occurs in conjunction with technical job assignments, so as to reinforce education, and build on-the-job experience. Technology training curriculums span a 2-year period. 
+Training will focus primarily on one mainframe technology, which is determined based on the candidate&#39;s education, career interest, aptitude and available positions. A mainframe technology training curriculum is comprised of formal technology classes, in&ndash;house courses, self study and job mentoring from a senior technician. Training occurs in conjunction with technical job assignments, so as to reinforce education, and build on&ndash;the&ndash;job experience. Technology training curriculums span a 2&ndash;year period. 
 </p>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">

@@ -24,7 +24,7 @@ Analysts are active team members in a focused product group, and their responsib
 <ul class="bac">
 	<li>Develop and manage financial models</li>
 	<li>Support and create analyses, including valuations and merger consequences</li>
-	<li>Perform comprehensive, in-depth company and industry research</li>
+	<li>Perform comprehensive, in&ndash;depth company and industry research</li>
 	<li>Prepare client presentations and other materials</li>
 	<li>Participate in due diligence sessions and client meetings</li>
 	<li>Communicate and interact with client team members</li>
@@ -62,8 +62,8 @@ Analysts are active team members in a focused product group, and their responsib
 	<li>A high degree of initiative and motivation </li>
 	<li>Strong attention to detail </li>
 	<li>Quick learner and interest in taking on new responsibilities</li>
-	<li>Client-focused </li>
-	<li>Results-oriented</li>
+	<li>Client&ndash;focused </li>
+	<li>Results&ndash;oriented</li>
 	<li>Ability to work well with others</li>
 	<li>Ability to maintain composure and confidence, while juggling conflicting priorities </li>
 </ul>
@@ -72,13 +72,13 @@ Analysts are active team members in a focused product group, and their responsib
 
 <h2 class="bac">Training:</h2>
 <p class="bac">
-Full-time Analysts are hired upon completion of their undergraduate/Master&#39;s degree. Your career as an Analyst will begin with a formal training program, which takes place in New York, for all Analysts globally, and is considered one of the best in the industry. Instruction is provided by Bank of America professionals and leading business school professors. 
+Full&ndash;time Analysts are hired upon completion of their undergraduate/Master&#39;s degree. Your career as an Analyst will begin with a formal training program, which takes place in New York, for all Analysts globally, and is considered one of the best in the industry. Instruction is provided by Bank of America professionals and leading business school professors. 
 </p>
 <p class="bac">
 The training program includes: 
 </p>
 <ul class="bac">
-	<li>A company-wide orientation program to introduce you to Bank of America</li>
+	<li>A company&ndash;wide orientation program to introduce you to Bank of America</li>
 	<li>An overview of the financial markets and essential business skills</li>
 	<li>An intensive training program customized for Analysts that prepares you for your placement in Capital Markets, by simulating actual work assignments, covering quantitative fundamentals, and preparing you for life as an Analyst</li>
 </ul>

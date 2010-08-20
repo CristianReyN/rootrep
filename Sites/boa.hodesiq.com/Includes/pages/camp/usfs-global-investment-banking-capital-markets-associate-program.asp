@@ -8,7 +8,7 @@
 Organized by industry sector, our Global Investment Bankers are dedicated to understanding the unique competitive and operating environments of our clients, and to building strong, enduring client relationships. We are primarily organized into 11 industry/product teams, focused on specific sectors. These include: Consumer and Retail; Corporate Finance; Energy and Power; Financial Institutions; Financial Sponsors; Global Industrials; Healthcare; Mergers and Acquisitions; Real Estate, Gaming and Leisure; and Technology, Media and Telecom. 
 </p>
 <p class="bac">
-As a leader in equity and debt origination and syndication, our Capital Markets team delivers creative solutions for issuers and investors across all asset products, including Equity Capital Markets, High Grade Capital Markets, Debt Advisory Services and Leveraged Finance, which includes High Yield Bonds and Leveraged Loans. Our Equity Capital Markets team is a fully-integrated team of specialists, dedicated to helping companies raise capital through equity and equity-linked solutions, including IPOs, follow-ons and convertibles. 
+As a leader in equity and debt origination and syndication, our Capital Markets team delivers creative solutions for issuers and investors across all asset products, including Equity Capital Markets, High Grade Capital Markets, Debt Advisory Services and Leveraged Finance, which includes High Yield Bonds and Leveraged Loans. Our Equity Capital Markets team is a fully&ndash;integrated team of specialists, dedicated to helping companies raise capital through equity and equity&ndash;linked solutions, including IPOs, follow&ndash;ons and convertibles. 
 </p>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
@@ -20,7 +20,7 @@ As active team members focused on an industry or product group, associates help 
 <ul class="bac">
 	<li>Develop and manage financial models</li>
 	<li>Create various financial analyses, including valuations and merger consequences</li>
-	<li>Perform comprehensive and in-depth company and industry research</li>
+	<li>Perform comprehensive and in&ndash;depth company and industry research</li>
 	<li>Prepare presentations and other materials for clients</li>
 	<li>Participate in due diligence sessions and client meetings</li>
 	<li>Interact with deal team members and clients</li>
@@ -43,7 +43,7 @@ As active team members focused on an industry or product group, associates help 
 
 <h2 class="bac">Training:</h2>
 <p class="bac">
-As a full-time associate, you will begin your career at Bank of America Merrill Lynch with an extensive training program in New York. The first part of the program combines associates from all lines of business. The full program is a combination of classroom instruction, e-learning modules, case studies, and presentations. Throughout the program, you will have ample opportunities to work closely with professionals and peers throughout our organization. This is a great opportunity to build a network of colleagues from across the company that will prove to be a tremendous resource to you throughout your career. 
+As a full&ndash;time associate, you will begin your career at Bank of America Merrill Lynch with an extensive training program in New York. The first part of the program combines associates from all lines of business. The full program is a combination of classroom instruction, e&ndash;learning modules, case studies, and presentations. Throughout the program, you will have ample opportunities to work closely with professionals and peers throughout our organization. This is a great opportunity to build a network of colleagues from across the company that will prove to be a tremendous resource to you throughout your career. 
 </p>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">

@@ -5,7 +5,7 @@
 <a name="skipmaincontent"></a><h1 class="bac"><%=program.Item("title")%></h1>
 <h2 class="bac">Our Business:</h2>
 <p class="bac">
-Global Wealth and Investment Management (GWIM) provides comprehensive wealth management to affluent and high-net-worth clients. It also provides retirement and benefit plan services, philanthropic management and asset management to individuals and institutions. The group serves these clients by providing  access to services through the Global Client Coverage Group, Global Investment Solutions, GWIM Banking and Merrill Edge, Merrill Lynch Wealth Management, Private Banking and Investment Group (PBIG), Retirement and Philanthropic Services (RPS), and US Trust, Bank of America Private Wealth Management.
+Global Wealth and Investment Management (GWIM) provides comprehensive wealth management to affluent and high&ndash;net&ndash;worth clients. It also provides retirement and benefit plan services, philanthropic management and asset management to individuals and institutions. The group serves these clients by providing  access to services through the Global Client Coverage Group, Global Investment Solutions, GWIM Banking and Merrill Edge, Merrill Lynch Wealth Management, Private Banking and Investment Group (PBIG), Retirement and Philanthropic Services (RPS), and US Trust, Bank of America Private Wealth Management.
 </p>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
@@ -14,22 +14,22 @@ Global Wealth and Investment Management (GWIM) provides comprehensive wealth man
 <br>
 <H3 class="bac">Latin America Wealth Management</H3>
 <p class="bac">
-The Latin America Wealth Management (LATAM) group provides advice-based wealth management services and products to individual clients and businesses. Merrill Lynch has played a role with clients in Latin America for more than five decades, with operations inside and outside the US. The LATAM business model is based on our network of more than 800 associates in 7 countries, and the one-to-one relationships they develop with their clients. 
+The Latin America Wealth Management (LATAM) group provides advice&ndash;based wealth management services and products to individual clients and businesses. Merrill Lynch has played a role with clients in Latin America for more than five decades, with operations inside and outside the US. The LATAM business model is based on our network of more than 800 associates in 7 countries, and the one&ndash;to&ndash;one relationships they develop with their clients. 
 </p>
 <br>
 <H3 class="bac">Merrill Lynch Wealth Management, US Wealth Management</H3>
 <p class="bac">
-US Wealth Management provides a high-touch client experience, through a network of approximately 15,000 client-facing financial advisors, to our affluent clients with a personal wealth profile of at least $250,000 of investable assets. 
+US Wealth Management provides a high&ndash;touch client experience, through a network of approximately 15,000 client&ndash;facing financial advisors, to our affluent clients with a personal wealth profile of at least $250,000 of investable assets. 
 </p>
 <br>
 <H3 class="bac">Private Banking and Investment Group </H3>
 <p class="bac">
-The Private Banking and Investment Group (PBIG) provides tailored solutions to meet the sophisticated needs of ultra-high net worth individuals. Clients are served by over 150 Private Wealth Advisor (PWA) teams across the country, along with a team of experts in areas such as investment management, concentrated stock management and intergenerational wealth transfer strategies.
+The Private Banking and Investment Group (PBIG) provides tailored solutions to meet the sophisticated needs of ultra&ndash;high net worth individuals. Clients are served by over 150 Private Wealth Advisor (PWA) teams across the country, along with a team of experts in areas such as investment management, concentrated stock management and intergenerational wealth transfer strategies.
 </p>
 <br>
 <H3 class="bac">US Trust, Bank of America Private Wealth Management </H3>
 <p class="bac">
-US Trust provides comprehensive investment and wealth management solutions to wealthy and ultra-wealthy clients, with investable assets of more than $3 million. The company has 4,400 associates, serving clients in more than 140 offices in 32 states across the country.
+US Trust provides comprehensive investment and wealth management solutions to wealthy and ultra&ndash;wealthy clients, with investable assets of more than $3 million. The company has 4,400 associates, serving clients in more than 140 offices in 32 states across the country.
 </p>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
@@ -56,7 +56,7 @@ Candidates should demonstrate a strong combination of the following characterist
 	<li>Client focus; attention to detail</li>
 	<li>Proven academic excellence</li>
 	<li>Strong quantitative/analytical skills</li>
-	<li>Ability to work in a team-based, collaborative environment</li>
+	<li>Ability to work in a team&ndash;based, collaborative environment</li>
 	<li>Exceptional time management and prioritization skills</li>
 	<li>Strong written and oral communication skills </li>
 	<li>Ability to learn quickly and take on new responsibilities</li>
@@ -67,7 +67,7 @@ Candidates should demonstrate a strong combination of the following characterist
 
 <h2 class="bac">Training:</h2>
 <p class="bac">
-The intern will work under close supervision, and receive on-the-job training. After participating in this internship, the intern should have a better understanding of what is involved in becoming a Financial or Private Wealth Advisor within the wealth management business. The intern should also become familiar with the many investment choices offered, and have a basic understanding of how an investment plan is designed and monitored.
+The intern will work under close supervision, and receive on&ndash;the&ndash;job training. After participating in this internship, the intern should have a better understanding of what is involved in becoming a Financial or Private Wealth Advisor within the wealth management business. The intern should also become familiar with the many investment choices offered, and have a basic understanding of how an investment plan is designed and monitored.
 </p>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">

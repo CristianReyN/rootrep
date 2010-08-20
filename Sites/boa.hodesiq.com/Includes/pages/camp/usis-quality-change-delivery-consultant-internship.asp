@@ -17,7 +17,7 @@ Interns will participate in an internship program designed to foster teamwork, n
 <ul class="bac">
 	<li>Broad exposure to lines of business, by working closely with business executives to effectively lead, train and coach quality activities that will achieve breakthrough productivity and customer satisfaction improvements </li>
 	<li>Driving projects with large scope and accountability to success, by leading and coaching projects, and acting as a subject matter expert</li>
-	<li>Providing detailed, fact-based analysis of business practices, processes and systems to accelerate improvements in product/process performance</li>
+	<li>Providing detailed, fact&ndash;based analysis of business practices, processes and systems to accelerate improvements in product/process performance</li>
 	<li>Championing new initiatives, and acting as a catalyst for change to help lead innovative product/process development </li>
 	<li>Supporting the deployment of Quality &#38; Change Delivery capabilities and toolsets, to facilitate improvements in the design, development and implementation of project deliverables</li>
 </ul>

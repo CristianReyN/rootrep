@@ -8,7 +8,7 @@
 Corporate Audit is responsible for performing independent reviews and tests to ensure that appropriate controls over risk are in place, and functioning properly throughout Bank of America. The department covers all areas of the company, and performs reviews based upon assessments of the higher risk items to the company.
 </p>
 <p class="bac">
-The group regularly provides management, and the Board of Directors, with a thorough and independent assessment of the company&#39;s risk management systems and internal controls. Additionally, Corporate Audit provides risk-based advice and counsel to management to help develop and maintain an appropriate customer-focused risk management culture that supports the company&#39;s business objectives.
+The group regularly provides management, and the Board of Directors, with a thorough and independent assessment of the company&#39;s risk management systems and internal controls. Additionally, Corporate Audit provides risk&ndash;based advice and counsel to management to help develop and maintain an appropriate customer&ndash;focused risk management culture that supports the company&#39;s business objectives.
 </p>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
@@ -21,7 +21,7 @@ Corporate Audit maintains robust processes for reviewing risk and controls throu
 The businesses that Corporate Audit covers include: Global Markets, Global Banking, Global Wealth Management, Card, Deposits, Home Loans, Staff Support, Technology and all international operations.
 </p>
 <p class="bac">
-Corporate Audit seeks associates who have a desire to adapt and to learn the multiple businesses of the company. As an intern, you will work closely with the internal auditors and learn the processes of Bank of America. The internship will last approximately 10-12 weeks, working a 40-hour work week. 
+Corporate Audit seeks associates who have a desire to adapt and to learn the multiple businesses of the company. As an intern, you will work closely with the internal auditors and learn the processes of Bank of America. The internship will last approximately 10&ndash;12 weeks, working a 40&ndash;hour work week. 
 </p>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
@@ -39,7 +39,7 @@ Corporate Audit seeks associates who have a desire to adapt and to learn the mul
 
 <h2 class="bac">Training:</h2>
 <p class="bac">
-Interns undergo a multi-phase training and development process including web based training, team coaches, and peer coaches.  Associates in this program will build a valuable network with other interns in Audit and throughout Bank of America as part of the Global Campus program.
+Interns undergo a multi&ndash;phase training and development process including web based training, team coaches, and peer coaches.  Associates in this program will build a valuable network with other interns in Audit and throughout Bank of America as part of the Global Campus program.
 </p>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">

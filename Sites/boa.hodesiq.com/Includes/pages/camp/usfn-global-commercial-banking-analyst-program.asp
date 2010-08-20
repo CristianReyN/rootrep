@@ -5,13 +5,13 @@
 <a name="skipmaincontent"></a><h1 class="bac"><%=program.Item("title")%></h1>
 <h2 class="bac">Our Business:</h2>
 <p class="bac">
-Global Commercial Banking (GCB) serves more than 100,000 business banking, and more than 30,000 middle-market, clients through dedicated client teams, who provide seamless delivery of the company’s full capabilities, including investment banking and M&A, wealth and investment management, integrated credit and treasury solutions, and international banking services. 
+Global Commercial Banking (GCB) serves more than 100,000 business banking, and more than 30,000 middle&ndash;market, clients through dedicated client teams, who provide seamless delivery of the company’s full capabilities, including investment banking and M&A, wealth and investment management, integrated credit and treasury solutions, and international banking services. 
 </p>
 <p class="bac">
 GCB consists of six core businesses including: 
 </p>
 <ul class="bac">
-	<li>Middle-Market </li>
+	<li>Middle&ndash;Market </li>
 	<li>Business Banking </li>
 	<li>Specialized Industries  </li>
 	<li>Commercial Real Estate Banking </li>
@@ -23,7 +23,7 @@ GCB consists of six core businesses including:
 
 <h2 class="bac">Overview:</h2>  
 <p class="bac">
-The program is designed to build strong talent for various positions within Global Commercial Banking. The program emphasizes on-the-job training, augmented by classroom instruction focused on technical, analytical and professional skills. 
+The program is designed to build strong talent for various positions within Global Commercial Banking. The program emphasizes on&ndash;the&ndash;job training, augmented by classroom instruction focused on technical, analytical and professional skills. 
 </p>
 <p class="bac">
 Program analysts complete rotations providing broad exposure and understanding of key functional area within Global Commercial Banking. Rotations provide exposure to credit and treasury, with intensive focus on how to best deliver innovative solutions to our clients. As a member of the Analyst Program, you will have exposure to members of the leadership team, and the opportunity to interact with our clients. Rotations are completed in the same city.  
@@ -40,14 +40,14 @@ Candidates must have a Bachelor’s degree, with a minimum of six credit hours of 
 
 <h2 class="bac">Training:</h2>
 <p class="bac">
-Virtual, web-based and instructor-led learning solutions are used to supplement the experiential development that occurs on the job. Throughout the program, analysts are provided a support network, which consists of the program manager, rotation managers and mentors. Former college program analysts are also important members of this network. 
+Virtual, web&ndash;based and instructor&ndash;led learning solutions are used to supplement the experiential development that occurs on the job. Throughout the program, analysts are provided a support network, which consists of the program manager, rotation managers and mentors. Former college program analysts are also important members of this network. 
 </p>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
 
 <h2 class="bac">Locations:</h2>
 <p class="bac">
-Positions are available in major markets across the Bank of America Merrill Lynch footprint. Line-of-business and location assignment is based on business need and candidate interest. Geographic flexibility is required at the end of the program in an effort to fill business-critical roles.
+Positions are available in major markets across the Bank of America Merrill Lynch footprint. Line&ndash;of&ndash;business and location assignment is based on business need and candidate interest. Geographic flexibility is required at the end of the program in an effort to fill business&ndash;critical roles.
 </p>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">

@@ -5,7 +5,7 @@
 <a name="skipmaincontent"></a><h1 class="bac"><%=program.Item("title")%></h1>
 <h2 class="bac">Our Business:</h2>
 <p class="bac">
-The Global Human Resources (GHR) group at Bank of America enables the company to drive revenue through attracting, developing and retaining a world-class workforce. GHR strategy aligns to business strategy to ensure the company has the talent needed to achieve its business objectives. Key units within Global HR are Staffing, Compensation, Benefits, Shared Services, Leadership Development, Learning, and a team of Generalists. In addition to advising business leaders, Global HR helps the company deliver a higher standard of working environment, benefits, work/life commitment and satisfaction for our 300,000 associates. 
+The Global Human Resources (GHR) group at Bank of America enables the company to drive revenue through attracting, developing and retaining a world&ndash;class workforce. GHR strategy aligns to business strategy to ensure the company has the talent needed to achieve its business objectives. Key units within Global HR are Staffing, Compensation, Benefits, Shared Services, Leadership Development, Learning, and a team of Generalists. In addition to advising business leaders, Global HR helps the company deliver a higher standard of working environment, benefits, work/life commitment and satisfaction for our 300,000 associates. 
 </p>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
@@ -27,16 +27,16 @@ Potential Human Resource Internship placements include:
 <H3 class="bac">Learning &#38; Instructional Design</H3>
 <ul class="bac">
 	<li>Act as liaison between Learning Team and the lines of business around specific learning needs  </li>
-	<li>Assist Learning Managers and L&#38;LD (Learning &#38; Leadership Development) client teams to create end-to-end learning solutions that support and drive business strategy  </li>
+	<li>Assist Learning Managers and L&#38;LD (Learning &#38; Leadership Development) client teams to create end&ndash;to&ndash;end learning solutions that support and drive business strategy  </li>
 	<li>Create LOB learning plans, map learning solutions and monitor progress against plans  </li>
-	<li>Assist with design or effective implementation of appropriate learning solutions including web-based training, instructor-led learning, on-line and paper-based references, and other forms of learning</li>
+	<li>Assist with design or effective implementation of appropriate learning solutions including web&ndash;based training, instructor&ndash;led learning, on&ndash;line and paper&ndash;based references, and other forms of learning</li>
 </ul>
 <br>
 <H3 class="bac">Compensation </H3>
 <ul class="bac">
 	<li>Design, develop and deliver compensation strategy innovations that help clients across all businesses drive business objectives </li>
-	<li>Work with large client groups on the issues affecting their business to create competitive, innovative compensation plans that drive short and long-term business growth </li>
-	<li>Possess the specialized knowledge and skills to address key challenges, solve major job-relevant problems and otherwise perform the technical responsibilities of the job with a high level of competence</li>
+	<li>Work with large client groups on the issues affecting their business to create competitive, innovative compensation plans that drive short and long&ndash;term business growth </li>
+	<li>Possess the specialized knowledge and skills to address key challenges, solve major job&ndash;relevant problems and otherwise perform the technical responsibilities of the job with a high level of competence</li>
 </ul>
 <br>
 <H3 class="bac">Workforce Planning </H3>
@@ -66,8 +66,8 @@ Potential Human Resource Internship placements include:
 <h2 class="bac">Qualifications:</h2>
 <ul class="bac">
 	<li>Legal authorization to work in the US</li>
-	<li>Enrolled in MBA or Master&#39;s degree program, in Human Resources-related field </li>
-	<li>Preference of 3-5 years HR-related work experience, in a fast-paced, corporate or consulting environment</li>
+	<li>Enrolled in MBA or Master&#39;s degree program, in Human Resources&ndash;related field </li>
+	<li>Preference of 3&ndash;5 years HR&ndash;related work experience, in a fast&ndash;paced, corporate or consulting environment</li>
 	<li>Demonstrated ability to influence senior executives, establish and maintain collaborative partnerships, and provide thought leadership</li>
 </ul>
 

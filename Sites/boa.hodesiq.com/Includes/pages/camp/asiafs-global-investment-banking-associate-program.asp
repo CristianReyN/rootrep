@@ -5,7 +5,7 @@
 <a name="skipmaincontent"></a><h1 class="bac"><%=program.Item("title")%></h1>
 <h2 class="bac">Our Business:</h2>
 <p class="bac">
-Global Corporate and Investment Banking (GCIB) focuses on building long-term relationships with more than 3,000 large U.S. and multinational corporations, financial institutions and financial sponsors, by providing strong advisory expertise and capitalizing on powerful M&#38;A, corporate banking, treasury, debt and equity product expertise, to deliver integrated financial solutions.
+Global Corporate and Investment Banking (GCIB) focuses on building long&ndash;term relationships with more than 3,000 large U.S. and multinational corporations, financial institutions and financial sponsors, by providing strong advisory expertise and capitalizing on powerful M&#38;A, corporate banking, treasury, debt and equity product expertise, to deliver integrated financial solutions.
 </p>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
@@ -65,14 +65,14 @@ Investment Banking Associates play a key role in the origination and execution o
 <br>
 <H3 class="bac">Education</H3>
 <ul class="bac">
-	<li>Final year, full-time MBA student, graduating in 2011</li>
+	<li>Final year, full&ndash;time MBA student, graduating in 2011</li>
 	<li>Bachelor/Master&#39;s degree holder</li>
 	<li>Outstanding academic achievement </li>
 </ul>
 <br>
 <H3 class="bac">Experience </H3>
 <ul class="bac">
-	<li>Between 3-5 years&#39; relevant work experience</li>
+	<li>Between 3&ndash;5 years&#39; relevant work experience</li>
 	<li>A track record of superior performance in extracurricular and professional activities </li>
 </ul>
 <br>
@@ -91,8 +91,8 @@ Investment Banking Associates play a key role in the origination and execution o
 	<li>A high degree of initiative and motivation </li>
 	<li>Strong attention to detail </li>
 	<li>Quick learner, with interest in taking on new responsibilities</li>
-	<li>Client-focused </li>
-	<li>Results-oriented</li>
+	<li>Client&ndash;focused </li>
+	<li>Results&ndash;oriented</li>
 	<li>Ability to work well with others</li>
 	<li>Ability to maintain composure and confidence, while juggling conflicting priorities </li>
 </ul>
@@ -101,13 +101,13 @@ Investment Banking Associates play a key role in the origination and execution o
 
 <h2 class="bac">Training:</h2>
 <p class="bac">
-Full-time Associates are hired upon completion of their undergraduate/Master&#39;s degree. Your career as an Associate will begin with a formal training program, which takes place in New York for all Associates globally, and is considered one of the best in the industry.  Instruction is provided by Bank of America professionals and leading business school professors.
+Full&ndash;time Associates are hired upon completion of their undergraduate/Master&#39;s degree. Your career as an Associate will begin with a formal training program, which takes place in New York for all Associates globally, and is considered one of the best in the industry.  Instruction is provided by Bank of America professionals and leading business school professors.
 </p>
 <p class="bac">
 The training program includes: 
 </p>
 <ul class="bac">
-	<li>A company-wide orientation program to introduce you to Bank of America</li>
+	<li>A company&ndash;wide orientation program to introduce you to Bank of America</li>
 	<li>An overview of financial markets and essential business skills</li>
 	<li>An intensive training program customized for Associates that prepares you for placement in Investment Banking, by simulating actual work assignments, covering quantitative fundamentals, and preparing you for life as an Associate</li>
 </ul>

@@ -5,14 +5,14 @@
 <a name="skipmaincontent"></a><h1 class="bac"><%=program.Item("title")%></h1>
 <h2 class="bac">Our Business:</h2>
 <p class="bac">
-Consumer and Small Business Bank (CSBB) serves more than 59 million consumer and small business households, through a distribution network that includes: 6,100 retail banking offices, 18,500 ATMs, and the nation&#39;s leading online banking offering, featuring award-winning service and nearly 30 million active users.
+Consumer and Small Business Bank (CSBB) serves more than 59 million consumer and small business households, through a distribution network that includes: 6,100 retail banking offices, 18,500 ATMs, and the nation&#39;s leading online banking offering, featuring award&ndash;winning service and nearly 30 million active users.
 </p>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
 
 <h2 class="bac">Overview:</h2>  
 <p class="bac">
-Our internship program is designed to prepare future MBA graduates for the Full-Time Consumer MBA Program &#45; Product Track. The Full-Time Consumer MBA Program &#45; Product Track develops future leaders of the Consumer and Small Business Bank, while engaging them in challenging rotational assignments over the course of two years. These rotational assignments support various lines of businesses within the Consumer division. These businesses are: Home Loans and Insurance, eChannels and Customer Solutions, Customer Segments, and Deposits and Card Products. The Consumer MBA Intern Program &#45; Product Track mirrors the full-time program, supporting each of these businesses. During the 10-12 week internship, candidates will engage in a challenging assignment within one of these businesses, working on a variety of assignments that may include: 
+Our internship program is designed to prepare future MBA graduates for the Full&ndash;Time Consumer MBA Program &ndash; Product Track. The Full&ndash;Time Consumer MBA Program &ndash; Product Track develops future leaders of the Consumer and Small Business Bank, while engaging them in challenging rotational assignments over the course of two years. These rotational assignments support various lines of businesses within the Consumer division. These businesses are: Home Loans and Insurance, eChannels and Customer Solutions, Customer Segments, and Deposits and Card Products. The Consumer MBA Intern Program &ndash; Product Track mirrors the full&ndash;time program, supporting each of these businesses. During the 10&ndash;12 week internship, candidates will engage in a challenging assignment within one of these businesses, working on a variety of assignments that may include: 
 </p>
 <ul class="bac">
 	<li>Product Design</li>
@@ -29,7 +29,7 @@ Our internship program is designed to prepare future MBA graduates for the Full-
 
 <h2 class="bac">Qualifications:</h2>
 <p class="bac">
-Ideal candidate will exhibit a strong drive for results; succeed in a fast-paced, empowered, and collaborative environment; enjoy teamwork and partnering with others; possess financial acumen, excellent organizational and strong interpersonal skills; and the ability to coach and develop associates. The ability to learn the organizational structure, the formal/informal workings of the company and to convey a strong sense of customer and associate satisfaction to drive shareholder value is required.
+Ideal candidate will exhibit a strong drive for results; succeed in a fast&ndash;paced, empowered, and collaborative environment; enjoy teamwork and partnering with others; possess financial acumen, excellent organizational and strong interpersonal skills; and the ability to coach and develop associates. The ability to learn the organizational structure, the formal/informal workings of the company and to convey a strong sense of customer and associate satisfaction to drive shareholder value is required.
 </p>
 <p class="bac">
 Additional requirements include:
@@ -37,7 +37,7 @@ Additional requirements include:
 <ul class="bac">
 	<li>Must be a first year MBA student </li>
 	<li>Spring/Summer 2012 graduation date</li>
-	<li>4&#45;7 years pre-M.B.A. work experience, with a demonstrated record of achievement</li>
+	<li>4&ndash;7 years pre&ndash;M.B.A. work experience, with a demonstrated record of achievement</li>
 	<li>Relevant work history reflecting experience in supervising others, delegating tasks and resolving conflicts </li>
 	<li>Geographic mobility/flexibility</li>
 </ul>
@@ -47,7 +47,7 @@ Preferred Expertise and/or experience in at least 3 of the following:
 <ul class="bac">
 	<li>Ability to navigate in a highly matrixed environment</li>
 	<li>Ability to influence</li>
-	<li>Experience in execution/production for end-to-end processes </li>
+	<li>Experience in execution/production for end&ndash;to&ndash;end processes </li>
 	<li>Previous financial services or retail experience</li>
 	<li>Strong statistical/analytical background (familiarity with Six Sigma principles)</li>
 	<li>Team/project management experience</li>
@@ -59,7 +59,7 @@ Personal characteristics:
 <ul class="bac">
 	<li>Strong leadership ability</li>
 	<li>Ability to communicate crisply and candidly </li>
-	<li>Results-oriented, proven high level of performance</li>
+	<li>Results&ndash;oriented, proven high level of performance</li>
 	<li>Ability to manage tight deadlines, organize and prioritize work independently </li>
 	<li>Flexibility in exploring a variety of business areas</li>
 </ul>

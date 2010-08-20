@@ -16,9 +16,9 @@ Debt Products Analysts perform intensive qualitative and quantitative due dilige
 </p>
 <ul class="bac">
 	<li>Participate in the structuring, underwriting and documentation of credit facilities designed to meet both client and investor needs, as well as balance the company&#39;s internal risk/return requirements</li>
-	<li>Research, write and present financial and industry analyses, in support of company-specific and portfolio level decisions </li>
-	<li>Evaluate transaction and relationship risk-adjusted profitability, to facilitate the allocation of capital </li>
-	<li>Monitor all elements of the company&#39;s credit exposure to its clients across its international network, including periodically reassessing internally-assigned risk ratings</li>
+	<li>Research, write and present financial and industry analyses, in support of company&ndash;specific and portfolio level decisions </li>
+	<li>Evaluate transaction and relationship risk&ndash;adjusted profitability, to facilitate the allocation of capital </li>
+	<li>Monitor all elements of the company&#39;s credit exposure to its clients across its international network, including periodically reassessing internally&ndash;assigned risk ratings</li>
 	<li>Manage credit exposure associated with the company&#39;s broad range of products, including Leasing, Commodities/Foreign Exchange, Derivatives, Treasury Management, Receivable Securitization Conduits, etc. </li>
 </ul>
 
@@ -41,7 +41,7 @@ Candidates must demonstrate a strong combination of academic aptitude, quantitat
 
 <h2 class="bac">Training:</h2>
 <p class="bac">
-As an Analyst, you will begin your career at Bank of America Merrill Lynch with an intensive training program. This training reinforces a common foundation of accounting and corporate finance skills. The training also emphasizes developing credit underwriting and portfolio management skills, as well as an understanding of key tools and processes. The full program is a combination of classroom instruction, e-learning modules, case studies and presentations.   
+As an Analyst, you will begin your career at Bank of America Merrill Lynch with an intensive training program. This training reinforces a common foundation of accounting and corporate finance skills. The training also emphasizes developing credit underwriting and portfolio management skills, as well as an understanding of key tools and processes. The full program is a combination of classroom instruction, e&ndash;learning modules, case studies and presentations.   
 </p>
 
 

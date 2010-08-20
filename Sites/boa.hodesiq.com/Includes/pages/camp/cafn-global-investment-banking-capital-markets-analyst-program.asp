@@ -8,10 +8,10 @@
 Organized by industry sector, Investment Bankers are dedicated to understanding the unique competitive and operating environments of our clients, and to building strong, enduring client relationships. In Canada, we are primarily organized into industry teams focused on specific sectors. These include: Metals and Mining (Toronto), Financial Institutions (Toronto), Media and Telecom (Toronto), and Energy and Power (Calgary). Our Montreal office is generalist, focusing on our Quebec clients. 
 </p>
 <p class="bac">
-As a leader in equity and debt origination and syndication, our Capital Markets team delivers creative solutions for issuers and investors across all asset products, including Equity Capital Markets, High Grade Capital Markets, Debt Advisory Services and Leveraged Finance, which includes High Yield Bonds and Leveraged Loans. Our Equity Capital Markets team is a fully-integrated team of specialists dedicated to helping companies raise capital through equity and equity-linked solutions, including IPOs, follow-ons and convertibles. 
+As a leader in equity and debt origination and syndication, our Capital Markets team delivers creative solutions for issuers and investors across all asset products, including Equity Capital Markets, High Grade Capital Markets, Debt Advisory Services and Leveraged Finance, which includes High Yield Bonds and Leveraged Loans. Our Equity Capital Markets team is a fully&ndash;integrated team of specialists dedicated to helping companies raise capital through equity and equity&ndash;linked solutions, including IPOs, follow&ndash;ons and convertibles. 
 </p>
 <p class="bac">
-What&#39;s our strategy for success? It starts and ends with serving our clients the solutions and executions they need in today&#39;s market. With award-winning execution, our product origination specialists work closely with industry bankers, sales and trading to develop creative solutions for our clients. We set ourselves apart by delivering innovative ideas and strategies, advanced technology and objective, timely analysis covering a large universe of companies, industries, products and geographies. 
+What&#39;s our strategy for success? It starts and ends with serving our clients the solutions and executions they need in today&#39;s market. With award&ndash;winning execution, our product origination specialists work closely with industry bankers, sales and trading to develop creative solutions for our clients. We set ourselves apart by delivering innovative ideas and strategies, advanced technology and objective, timely analysis covering a large universe of companies, industries, products and geographies. 
 </p>
 
 
@@ -19,7 +19,7 @@ What&#39;s our strategy for success? It starts and ends with serving our clients
 
 <h2 class="bac">Overview:</h2>  
 <p class="bac">
-Analysts will work as generalists across different industry groups, where they will help orchestrate capital raising and strategic advisory transactions. Bank of America Merrill Lynch provides valuable analytical-based work experience, focused on the financial markets and visibility with clients as a representative of a top tier global investment bank.  
+Analysts will work as generalists across different industry groups, where they will help orchestrate capital raising and strategic advisory transactions. Bank of America Merrill Lynch provides valuable analytical&ndash;based work experience, focused on the financial markets and visibility with clients as a representative of a top tier global investment bank.  
 </p>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
@@ -29,7 +29,7 @@ Analysts will work as generalists across different industry groups, where they w
 <ul class="bac">
 	<li>Developing and maintaining complex financial models</li>
 	<li>Performing various financial analyses, including valuations and merger consequences</li>
-	<li>Conducting comprehensive and in-depth company and industry research </li>
+	<li>Conducting comprehensive and in&ndash;depth company and industry research </li>
 	<li>Preparing presentation and other materials for clients </li>
 	<li>Participating in due diligence sessions  </li>
 	<li>Communicating and interacting with deal team members</li>
@@ -60,10 +60,10 @@ Offers are made for a specific location during the recruiting process, based on 
 <h2 class="bac">Training:</h2>
 
 <ul class="bac">
-	<li>Combination of classroom instruction, e-learning modules, case studies and presentations </li> 
-	<li>In-depth overview of financial markets and corporate finance  </li>
-	<li>Customized modeling and valuation training that simulates real-life work and reviews quantitative fundamentals  </li>
-	<li>Training in the practical use of systems and banking-related technology  </li>
+	<li>Combination of classroom instruction, e&ndash;learning modules, case studies and presentations </li> 
+	<li>In&ndash;depth overview of financial markets and corporate finance  </li>
+	<li>Customized modeling and valuation training that simulates real&ndash;life work and reviews quantitative fundamentals  </li>
+	<li>Training in the practical use of systems and banking&ndash;related technology  </li>
 	<li>Networking opportunities to establish connections across the company </li>
 </ul>
 

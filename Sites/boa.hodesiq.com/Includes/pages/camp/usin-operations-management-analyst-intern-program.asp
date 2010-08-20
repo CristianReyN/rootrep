@@ -5,12 +5,12 @@
 <a name="skipmaincontent"></a><h1 class="bac"><%=program.Item("title")%></h1>
 <h2 class="bac">Our Business:</h2>
 <p class="bac">
-The Operations Management Analyst Program (OMAP) Internship gives participants the opportunity for an assignment in one of four sub-lines of business, within one of the following organizations:  Consumer Small Business Bank Technology &#38; Operations, Home Loans and Insurance, Treasury Operations and Customer Service &#38; Solutions.
+The Operations Management Analyst Program (OMAP) Internship gives participants the opportunity for an assignment in one of four sub&ndash;lines of business, within one of the following organizations:  Consumer Small Business Bank Technology &#38; Operations, Home Loans and Insurance, Treasury Operations and Customer Service &#38; Solutions.
 </p>
 <img src="../images/clear.gif" width="100%" height="12" alt="" border="0" />
 <H3 class="bacg">Consumer Small Business Banking Technology &#38; Operations (CSBB T&#38;O)</H3>
 <p class="bacg">
-&nbsp;provides end-to-end technology strategy and support to Consumer Small Business Banking, as well as enterprise functions such as payments processing, cash servicing, fulfillment and reconcilement services and image strategy. 
+&nbsp;provides end&ndash;to&ndash;end technology strategy and support to Consumer Small Business Banking, as well as enterprise functions such as payments processing, cash servicing, fulfillment and reconcilement services and image strategy. 
 </p>
 <ul class="bac">
 	<li>More than 6,000 banking centers and more than 18,000 ATMs supported nationwide</li>
@@ -20,7 +20,7 @@ The Operations Management Analyst Program (OMAP) Internship gives participants t
 <img src="../images/clear.gif" width="100%" height="12" alt="" border="0" />
 <H3 class="bacg">Customer Service &#38; Solutions (CS&#38;S)</H3>
 <p class="bacg">
-&nbsp;provides call, e-mail, text chat and fulfillment support for Consumer, Card, Small Business, Business Card, Large Corporate and e-Commerce customers.  They also provide sales support for Deposit, Card and Small Business products; including fulfillment of all products sold in contact centers, and through online channels. 
+&nbsp;provides call, e&ndash;mail, text chat and fulfillment support for Consumer, Card, Small Business, Business Card, Large Corporate and e&ndash;Commerce customers.  They also provide sales support for Deposit, Card and Small Business products; including fulfillment of all products sold in contact centers, and through online channels. 
 </p>
 <ul class="bac">
 	<li>30 contact centers supported through our Contact Center Operations Team</li>
@@ -41,14 +41,14 @@ The Operations Management Analyst Program (OMAP) Internship gives participants t
 
 <h2 class="bac">Overview:</h2>  
 <p class="bac">
-The Bank of America OMAP Intern Program is designed to provide undergraduate students with corporate experience in banking operations. Interns are given a true associate experience, as the internship mirrors a full-time position, and includes goal-setting and a formal review process. Interns are required to work 40-hour weeks, for 10 weeks during the summer. On-the-job training, mentoring relationships, and networking opportunities are provided for all interns.
+The Bank of America OMAP Intern Program is designed to provide undergraduate students with corporate experience in banking operations. Interns are given a true associate experience, as the internship mirrors a full&ndash;time position, and includes goal&ndash;setting and a formal review process. Interns are required to work 40&ndash;hour weeks, for 10 weeks during the summer. On&ndash;the&ndash;job training, mentoring relationships, and networking opportunities are provided for all interns.
 </p>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
 
 <h2 class="bac">Qualifications:</h2>
 <p class="bac">
-Successful candidates will possess and demonstrate the ability to work in a fast-paced, empowered environment. Ideal candidates will have the demonstrated ability to handle multiple, competing priorities; learn new tools/applications quickly; and possess strong interpersonal skills.  Academic experience should include, but is not limited to, one of the following majors/areas of focus:  Business Management, Business Administration, Supply Chain Management, Operations Management, Information Management, Statistics, Economics and Industrial Engineering.
+Successful candidates will possess and demonstrate the ability to work in a fast&ndash;paced, empowered environment. Ideal candidates will have the demonstrated ability to handle multiple, competing priorities; learn new tools/applications quickly; and possess strong interpersonal skills.  Academic experience should include, but is not limited to, one of the following majors/areas of focus:  Business Management, Business Administration, Supply Chain Management, Operations Management, Information Management, Statistics, Economics and Industrial Engineering.
 </p>
 <br>
 <H3 class="bac">Candidate Profile</H3>
@@ -56,7 +56,7 @@ Successful candidates will possess and demonstrate the ability to work in a fast
 	<li>Studying to graduate with a Bachelor&#39;s degree from an accredited college or university within the United States</li>
 	<li>Strong academic credentials</li>
 	<li>Demonstrated leadership outside the classroom</li>
-	<li>100% geographic flexibility - Candidates must be mobile and willing to relocate for the internship period</li>
+	<li>100% geographic flexibility &ndash; Candidates must be mobile and willing to relocate for the internship period</li>
 	<li>Willingness to work varied schedules, including swing shift for specific operations positions</li>
 	<li>Solid organization skills, excellent planning ability and project management skills</li>
 	<li>Ability to communicate effectively in both written and verbal communications </li>

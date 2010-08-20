@@ -8,10 +8,10 @@
 Bank of America Merrill Lynch Global Markets Sales and Trading professionals deliver innovative solutions and exceptional execution, to help clients meet their complex financial objectives. We make markets in virtually all major asset classes, covering both the Debt and Equity product spectrums. We are active in both the Cash and Derivative markets. We have a global presence, with offices throughout the United States, Europe and Asia. 
 </p>
 <p class="bac">
-Bank of America Merrill Lynch uses an integrated approach to ensure our solutions meet client needs. Our functional areas of expertise - Sales, Trading, Research and Capital Markets - work together, creating a unique, team-oriented culture that fuels collaborative thinking. Our approach has made us a premier provider to our clients, which include institutions, corporations and consumer entities. Our institutional focus includes hedge funds, money managers, mutual funds, insurance companies and banks.
+Bank of America Merrill Lynch uses an integrated approach to ensure our solutions meet client needs. Our functional areas of expertise &ndash; Sales, Trading, Research and Capital Markets &ndash; work together, creating a unique, team&ndash;oriented culture that fuels collaborative thinking. Our approach has made us a premier provider to our clients, which include institutions, corporations and consumer entities. Our institutional focus includes hedge funds, money managers, mutual funds, insurance companies and banks.
 </p>
 <p class="bac">
-Bank of America Merrill Lynch covers a wide array of industry sectors in both the Debt and Equity markets. Our Debt Profile includes Interest Rate Products, Foreign Exchange, Commodities, Investment Grade, High-Yield, Distressed, Mortgage and Asset-Backed Products, as well as Structured Securities. Our Equity Profile includes Equity Cash, Equity Derivatives, Financing and Electronic Trading Services.
+Bank of America Merrill Lynch covers a wide array of industry sectors in both the Debt and Equity markets. Our Debt Profile includes Interest Rate Products, Foreign Exchange, Commodities, Investment Grade, High&ndash;Yield, Distressed, Mortgage and Asset&ndash;Backed Products, as well as Structured Securities. Our Equity Profile includes Equity Cash, Equity Derivatives, Financing and Electronic Trading Services.
 </p>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
@@ -20,7 +20,7 @@ Bank of America Merrill Lynch covers a wide array of industry sectors in both th
 <br>
 <H3 class="bac">Summer Program</H3>
 <p class="bac">
-This 10-week program includes one week of formal training and assignments in Global Markets product areas. Opportunities are available in fixed income and equity markets, with exposure to different functions in sales, trading, origination and structuring/quantitative analysis. Direct placement in one product area for the entire summer is available for select locations. 
+This 10&ndash;week program includes one week of formal training and assignments in Global Markets product areas. Opportunities are available in fixed income and equity markets, with exposure to different functions in sales, trading, origination and structuring/quantitative analysis. Direct placement in one product area for the entire summer is available for select locations. 
 </p>
 <br>
 <H3 class="bac">Responsibilities</H3>
@@ -44,7 +44,7 @@ This 10-week program includes one week of formal training and assignments in Glo
 <br>
 <H3 class="bac">Experience </H3>
 <ul class="bac">
-	<li>Minimum of 2-3 years work experience in financial services or related field</li>
+	<li>Minimum of 2&ndash;3 years work experience in financial services or related field</li>
 </ul>
 <br>
 <H3 class="bac">Skills and abilities </H3>
@@ -52,16 +52,16 @@ This 10-week program includes one week of formal training and assignments in Glo
 	<li>Extensive Excel and modeling skills</li>
 	<li>Strong quantitative and analytical skills </li>
 	<li>Demonstrated problem solving skills, and willingness to ask tough questions</li>
-	<li>Well-developed judgment and business sense </li>
+	<li>Well&ndash;developed judgment and business sense </li>
 	<li>Proven leadership, team, communication and interpersonal skills </li>
-	<li>Demonstrated ability to multi-task and prioritize in a demanding environment</li>
+	<li>Demonstrated ability to multi&ndash;task and prioritize in a demanding environment</li>
 </ul>
 <br>
 <H3 class="bac">Personal traits </H3>
 <ul class="bac">
 	<li>Strong interest in global financial markets and factors that impact them </li>
-	<li>Highly-motivated, with an exceptional internal drive for success </li>
-	<li>Adapts easily to constantly-changing environment</li>
+	<li>Highly&ndash;motivated, with an exceptional internal drive for success </li>
+	<li>Adapts easily to constantly&ndash;changing environment</li>
 	<li>A track record of superior performance in extracurricular and professional activities</li>
 	<li>Assertiveness, initiative, leadership, strong work ethic, team focus</li>
 	<li>Ability to learn quickly and take on new responsibilities</li>
@@ -77,7 +77,7 @@ This 10-week program includes one week of formal training and assignments in Glo
 	<li>Summer senior speakers series </li>
 	<li>Access to the electronic learning network</li> 
 	<li>Extensive peer and senior mentoring </li>
-	<li>Business-sponsored activities and events that create opportunities to network with Bank of America Merrill Lynch professionals and summer associates across multiple business groups    </li>
+	<li>Business&ndash;sponsored activities and events that create opportunities to network with Bank of America Merrill Lynch professionals and summer associates across multiple business groups    </li>
 </ul>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">

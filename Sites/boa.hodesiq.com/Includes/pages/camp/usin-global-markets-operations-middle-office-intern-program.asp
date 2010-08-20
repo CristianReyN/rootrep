@@ -8,7 +8,7 @@
 Global Markets Operations/Middle Office Group (GMO&#38;MO) provides operational support for all products in Global Markets, Corporate Treasury and Corporate Investments, and is primarily a control function responsible for providing assurance over data and processes used to record Risk, P/L, Balance Sheet and Financial Results. The organization is aligned to products and business management as follows:
 </p>
 <ul class="bac">
-	<li><b>Global Middle Office:</b> provides trade capture substantiation, profit and loss validation, risk/position validation, balance sheet substantiation, event monitoring, front-back process oversight, and new business development. These functions are critical to ensure business process control.</li>
+	<li><b>Global Middle Office:</b> provides trade capture substantiation, profit and loss validation, risk/position validation, balance sheet substantiation, event monitoring, front&ndash;back process oversight, and new business development. These functions are critical to ensure business process control.</li>
 	<li><b>Operational Risk, Strategy and Change Management:</b> provides quality oversight related to managing operational risk, overall associate satisfaction and key strategic initiatives.</li>
 	<li><b>Core Fixed Income Operations:</b> supports all fixed income cash securities for Banc of America Securities, as well as Corporate Treasury and Corporate Investments. This Operations team has a unique structure, in that clearance and settlement responsibilities are grouped by product type, with centralized function groups providing support to the product teams.</li>
 	<li><b>Global Equity Operations:</b> responsible for the clearance and settlement of all equity products. The mission of this team is to provide a seamless operational platform for trading, sales and underwriting activities, by utilizing technology, advanced process and qualified personnel.</li>
@@ -19,7 +19,7 @@ Global Markets Operations/Middle Office Group (GMO&#38;MO) provides operational 
 
 <h2 class="bac">Overview:</h2>  
 <p class="bac">
-The Bank of America Intern Program is designed to provide students with corporate experience in business banking policies and practices. Students are given a true associate experience, as internships mirror full-time positions, and include goal-setting and a formal review process. Interns are required to work 40-hour weeks for 10 weeks, between the months of June and August. On-the-job training, mentoring relationships, and networking opportunities are provided for all interns. 
+The Bank of America Intern Program is designed to provide students with corporate experience in business banking policies and practices. Students are given a true associate experience, as internships mirror full&ndash;time positions, and include goal&ndash;setting and a formal review process. Interns are required to work 40&ndash;hour weeks for 10 weeks, between the months of June and August. On&ndash;the&ndash;job training, mentoring relationships, and networking opportunities are provided for all interns. 
 </p>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
@@ -45,7 +45,7 @@ Candidates should be in their junior year/rising senior, from a four year colleg
 
 <h2 class="bac">Training:</h2>
 <p class="bac">
-Interns receive an orientation to Bank of America with overviews on the history, culture, business organizations, and intern program structure. Interns also participate in on-the-job training, an online learning curriculum, weekly speaker seminars, and events with interns and associates from across Bank of America.
+Interns receive an orientation to Bank of America with overviews on the history, culture, business organizations, and intern program structure. Interns also participate in on&ndash;the&ndash;job training, an online learning curriculum, weekly speaker seminars, and events with interns and associates from across Bank of America.
 </p>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">

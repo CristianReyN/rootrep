@@ -12,13 +12,13 @@ Bank of America&#39;s commitment to the mortgage industry is focused on continuo
 
 <h2 class="bac">Overview:</h2>  
 <p class="bac">
-Bank of America is investing in high-caliber talent to expand the company&#39;s cadre of leaders. The program seeks to develop leaders with knowledge and skills of the end-to-end mortgage business at Bank of America, by creating opportunities to learn multiple disciplines through rotations that build upon one another. The program will also strengthen leadership skills and attributes that are applicable across the company. 
+Bank of America is investing in high&ndash;caliber talent to expand the company&#39;s cadre of leaders. The program seeks to develop leaders with knowledge and skills of the end&ndash;to&ndash;end mortgage business at Bank of America, by creating opportunities to learn multiple disciplines through rotations that build upon one another. The program will also strengthen leadership skills and attributes that are applicable across the company. 
 </p>
 <p class="bac">
 The program includes: 
 </p>
 <ul class="bac">
-	<li>A two-year rotational program in Bank of America Home Loans  </li>
+	<li>A two&ndash;year rotational program in Bank of America Home Loans  </li>
 	<li>Rotation through three (or more) areas of the company&#39;s critical Home Loans business, over 24 months, to build breadth and depth of expertise in the mortgage business. Rotations exist in the following disciplines, and are selected based on a combination of business need and participant interest:
         <ul>
 	<li>Credit, Product and Pricing</li>
@@ -28,10 +28,10 @@ The program includes:
 	<li>Credit Loss Mitigation Strategies</li>
 	<li>Insurance Services Group</li>
         </ul></li>
-	<li>Participation in program developmental opportunities such as executive leader exposure, Monthly Connect meetings with program peers, and performance and leadership coaching from Program Management throughout the 24-month period</li>
+	<li>Participation in program developmental opportunities such as executive leader exposure, Monthly Connect meetings with program peers, and performance and leadership coaching from Program Management throughout the 24&ndash;month period</li>
 </ul>
 <p class="bac">
-Associates are developed for future leadership responsibilities with one of the country&#39;s largest mortgage businesses &#45; and one of the world&#39;s largest banks &#45; during a period of industry transformation.  
+Associates are developed for future leadership responsibilities with one of the country&#39;s largest mortgage businesses &ndash; and one of the world&#39;s largest banks &ndash; during a period of industry transformation.  
 </p>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
@@ -41,7 +41,7 @@ Associates are developed for future leadership responsibilities with one of the 
 	<li>MBA in Strategic Management, Accounting, Finance, Business Administration, Economics or related discipline</li>
 	<li>Exceptional communication skills (both written and verbal)</li>
 	<li>Demonstrated leadership, initiative and resourcefulness, in school, community, and/or work experience</li>
-	<li>Strong work ethic, ability to multi-task, and teamwork orientation</li>
+	<li>Strong work ethic, ability to multi&ndash;task, and teamwork orientation</li>
 	<li>Dedicated to building a career in financial services</li>
 	<li>Minimum GPA of 3.0</li>
 	<li>Must have eligibility to work in the US</li>

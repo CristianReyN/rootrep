@@ -5,7 +5,7 @@
 <a name="skipmaincontent"></a><h1 class="bac"><%=program.Item("title")%></h1>
 <h2 class="bac">Summary:</h2>
 <ul class="bac">
-	<li>Strong A-level grades and a minimum 2:2 degree or equivalent</li>
+	<li>Strong A&ndash;level grades and a minimum 2:2 degree or equivalent</li>
 	<li>Location: Opportunities in Chester (UK)</li>
 	<li>Online application form</li>
 	<li>Application Deadline: 12 November 2010</li>
@@ -18,7 +18,7 @@
 Bank of America Europe Card Services (ECS) is the number one credit card lender in Europe, with operations in the United Kingdom, Ireland and Spain, serving over seven million customers. We have been issuing credit cards in Europe since 1993 through our subsidiary, MBNA Europe Bank Limited, which forms part of our Global Consumer and Small Business Banking Group.
 </p>
 <p class="bac">
-Bank of America is the recognised leader in affinity marketing, with approximately 4,000 affinity partners worldwide. We are also the leading issuer of co-branded credit cards in Europe, with over 800 partners such as Virgin Money, BMI, BT, Sony, WWF, Breakthrough Breast Cancer, The National Trust and most premier football and rugby clubs. These affinity relationships allow our customers to earn great rewards and discounts or to contribute to worthwhile causes through their everyday credit card purchases.
+Bank of America is the recognised leader in affinity marketing, with approximately 4,000 affinity partners worldwide. We are also the leading issuer of co&ndash;branded credit cards in Europe, with over 800 partners such as Virgin Money, BMI, BT, Sony, WWF, Breakthrough Breast Cancer, The National Trust and most premier football and rugby clubs. These affinity relationships allow our customers to earn great rewards and discounts or to contribute to worthwhile causes through their everyday credit card purchases.
 </p>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">

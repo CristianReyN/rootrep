@@ -8,7 +8,7 @@
 Corporate Audit is responsible for performing independent reviews and tests to ensure that appropriate controls over risk are in place, and functioning properly throughout Bank of America. The department covers all areas of the company, and performs reviews based upon assessments of the higher risk items to the company.  
 </p>
 <p class="bac">
-The group regularly provides management, and the Board of Directors, with a thorough and independent assessment of the company&#39;s risk management systems and internal controls. Additionally, Corporate Audit provides risk-based advice and counsel to management to help develop and maintain an appropriate customer-focused risk management culture that supports the company&#39;s business objectives. 
+The group regularly provides management, and the Board of Directors, with a thorough and independent assessment of the company&#39;s risk management systems and internal controls. Additionally, Corporate Audit provides risk&ndash;based advice and counsel to management to help develop and maintain an appropriate customer&ndash;focused risk management culture that supports the company&#39;s business objectives. 
 </p>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
@@ -21,7 +21,7 @@ Corporate Audit maintains robust processes for reviewing risk and controls throu
 The businesses that Corporate Audit covers include: Global Markets, Global Banking, Global Wealth Management, Card, Deposits, Home Loans, Staff Support, Technology and all international operations. 
 </p>
 <p class="bac">
-The Corporate Audit Rotational Program (CAMP) is a 2-year associate development program, which aggressively moves associates through rotational assignments within Corporate Audit. This rotational process helps associates develop a solid knowledge base of the functional areas of Corporate Audit and the company. CAMP auditors work closely with various businesses regarding their risk environment and control infrastructure, and help build a team that is highly-versatile and knowledgeable across the company. In addition, this process provides opportunities for each and every associate to have a rewarding and successful career at Bank of America.
+The Corporate Audit Rotational Program (CAMP) is a 2&ndash;year associate development program, which aggressively moves associates through rotational assignments within Corporate Audit. This rotational process helps associates develop a solid knowledge base of the functional areas of Corporate Audit and the company. CAMP auditors work closely with various businesses regarding their risk environment and control infrastructure, and help build a team that is highly&ndash;versatile and knowledgeable across the company. In addition, this process provides opportunities for each and every associate to have a rewarding and successful career at Bank of America.
 </p>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
@@ -40,7 +40,7 @@ The Corporate Audit Rotational Program (CAMP) is a 2-year associate development 
 
 <h2 class="bac">Training:</h2>
 <p class="bac">
-CAMPs undergo a multi-phase training and development process, including web-based &#38; instructor-led training, team coaches, program partners from previous CAMP classes, and senior level mentors. Associates in this program will build a valuable network with other campus hires in Audit and throughout Bank of America, as part of the Global Campus program. 
+CAMPs undergo a multi&ndash;phase training and development process, including web&ndash;based &#38; instructor&ndash;led training, team coaches, program partners from previous CAMP classes, and senior level mentors. Associates in this program will build a valuable network with other campus hires in Audit and throughout Bank of America, as part of the Global Campus program. 
 </p>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
