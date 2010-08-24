@@ -160,7 +160,7 @@
 		</career>
 		<career>
 			<name>Chief Financial Office Analyst Program - Asia Pacific</name>
-			<link>asiafn-chief-financial-office-analyst.asp</link>
+			<link>/campusrecruiting/asiafn-chief-financial-office-analyst-program.asp</link>
 			<answerlist>
 				<answer weight="1">4</answer>
 				<answer weight="1">5</answer>
@@ -179,7 +179,7 @@
 		</career>
 		<career>
 			<name>Chief Financial Office Summer Analyst Program - Asia Pacific</name>
-			<link>asiain-chief-financial-office-analyst-internship.asp</link>
+			<link>/campusrecruiting/asiain-chief-financial-office-summer-analyst-program.asp</link>
 			<answerlist>
 				<answer weight="1">4</answer>
 				<answer weight="1">5</answer>
@@ -231,7 +231,7 @@
 		</career>
 
 		<career>
-			<name>Operations Management Analyst  - US</name>
+			<name>Operations Management Analyst - US</name>
 			<link>/campusrecruiting/usfn-operations-management-analyst-program.asp</link>
 			<answerlist>
 				<answer weight="1">1</answer>
@@ -510,7 +510,7 @@
 		
 		<career>
 			<name>Global Investment Banking Analyst Prpgramme  - EMEA</name>
-			<link>/campusrecruiting/usfn-global-investment-banking-capital-markets-analyst-program.asp</link>
+			<link>/campusrecruiting/emeafn-global-investment-banking-analyst-programme.asp</link>
 			<answerlist>
 				<answer weight="1">2</answer>
 				<answer weight="1">4</answer>
@@ -541,8 +541,8 @@
 		</career>
 		
 		<career>
-			<name>Global Investment Banking Summer Analyst Prpgramme - EMEA</name>
-			<link>/campusrecruiting/usin-global-investment-banking-capital-markets-summer-analyst-program.asp</link>
+			<name>Global Investment Banking Summer Analyst Programme - EMEA</name>
+			<link>/campusrecruiting/emeain-global-investment-banking-summer-analyst-programme.asp</link>
 			<answerlist>
 				<answer weight="1">2</answer>
 				<answer weight="1">4</answer>
@@ -575,7 +575,7 @@
 		
 		<career>
 			<name>Global Investment Banking Analyst Program  - Asia Pacific</name>
-			<link>/campusrecruiting/usfn-global-investment-banking-capital-markets-analyst-program.asp</link>
+			<link>/campusrecruiting/asiafn-global-investment-banking-analyst-program.asp</link>
 			<answerlist>
 				<answer weight="1">2</answer>
 				<answer weight="1">4</answer>
@@ -607,7 +607,7 @@
 		
 		<career>
 			<name>Global Investment Banking Summer Analyst - Asia Pacific</name>
-			<link>/campusrecruiting/usin-global-investment-banking-capital-markets-summer-analyst-program.asp</link>
+			<link>/campusrecruiting/asiain-global-investment-banking-summer-analyst-program.asp</link>
 			<answerlist>
 				<answer weight="1">2</answer>
 				<answer weight="1">4</answer>
@@ -639,7 +639,7 @@
 		
 		<career>
 			<name>Global Investment Banking Associate Program - Asia Pacific</name>
-			<link>/campusrecruiting/usfs-global-investment-banking-capital-markets-associate-program.asp</link>
+			<link>/campusrecruiting/asiafs-global-investment-banking-associate-program.asp</link>
 			<answerlist>
 				<answer weight="1">2</answer>
 				<answer weight="1">4</answer>
@@ -667,7 +667,7 @@
 		
 		<career>
 			<name>Global Investment Banking Associate Programme - EMEA</name>
-			<link>/campusrecruiting/usfs-global-investment-banking-capital-markets-associate-program.asp</link>
+			<link>/campusrecruiting/emeafs-global-investment-banking-associate-programme.asp</link>
 			<answerlist>
 				<answer weight="1">2</answer>
 				<answer weight="1">4</answer>
@@ -696,7 +696,7 @@
 		
 		<career>
 			<name>Global Investment Banking Summer Associate Program - Asia Pacific</name>
-			<link>/campusrecruiting/usis-global-investment-banking-capital-markets-summer-associate-program.asp</link>
+			<link>/campusrecruiting/asiais-global-investment-banking-summer-associate-program.asp</link>
 			<answerlist>
 				<answer weight="1">2</answer>
 				<answer weight="1">4</answer>
@@ -715,7 +715,7 @@
 		
 		<career>
 			<name>Global Investment Banking Summer Associate Program - EMEA</name>
-			<link>/campusrecruiting/usis-global-investment-banking-capital-markets-summer-associate-program.asp</link>
+			<link>/campusrecruiting/emeais-global-investment-banking-summer-associate-programme.asp</link>
 			<answerlist>
 				<answer weight="1">2</answer>
 				<answer weight="1">4</answer>
@@ -806,7 +806,7 @@
 		
 		<career>
 			<name>Global Investment Banking/ Capital Markets Analyst Program - Canada</name>
-			<link>/campusrecruiting/usfn-global-investment-banking-capital-markets-analyst-program.asp</link>
+			<link>/campusrecruiting/cafn-global-investment-banking-capital-markets-analyst-program.asp</link>
 			<answerlist>
 				<answer weight="1">2</answer>
 				<answer weight="1">4</answer>
@@ -839,7 +839,7 @@
 		
 		<career>
 			<name>Global Investment Banking Summer Analyst Program - Canada</name>
-			<link>/campusrecruiting/usin-global-investment-banking-capital-markets-summer-analyst-program.asp</link>
+			<link>/campusrecruiting/cain-global-investment-banking-capital-markets-summer-analyst-program.asp</link>
 			<answerlist>
 				<answer weight="1">2</answer>
 				<answer weight="1">4</answer>
@@ -873,7 +873,7 @@
 		
 		<career>
 			<name>Global Investment Banking/ Capital Markets Associate Program - Canada</name>
-			<link>/campusrecruiting/usfs-global-investment-banking-capital-markets-associate-program.asp</link>
+			<link>/campusrecruiting/cafs-global-investment-banking-capital-markets-associate-program.asp</link>
 			<answerlist>
 				<answer weight="1">2</answer>
 				<answer weight="1">4</answer>
@@ -902,7 +902,7 @@
 		
 		<career>
 			<name>Global Investment Banking Summer Associate Program - Canada</name>
-			<link>/campusrecruiting/usis-global-investment-banking-capital-markets-summer-associate-program.asp</link>
+			<link>/campusrecruiting/cais-global-investment-banking-capital-markets-summer-associate-program.asp</link>
 			<answerlist>
 				<answer weight="1">5</answer>
 				<answer weight="200">7</answer>
@@ -924,7 +924,7 @@
 		
 		<career>
 			<name>Global Treasury Solutions Analyst Programme - EMEA</name>
-			<link>/campusrecruiting/usfn-corporate-treasury-analyst-program.asp</link>
+			<link>/campusrecruiting/emeain-global-treasury-solutions-summer-analyst-programme.asp</link>
 			<answerlist>
 				<answer weight="1">1</answer>
 				<answer weight="200">6</answer>
@@ -941,7 +941,7 @@
 		
 		<career>
 			<name>Global Treasury Solutions Summer Analyst Programme - EMEA</name>
-			<link>/campusrecruiting/usin-corporate-treasury-internship-program.asp</link>
+			<link>/campusrecruiting/emeain-international-corporate-treasury-summer-analyst-programme.asp</link>
 			<answerlist>
 				<answer weight="1">1</answer>
 				<answer weight="200">6</answer>
@@ -959,7 +959,7 @@
 		
 		<career>
 			<name>Global Capital Markets Analyst Programme - EMEA</name>
-			<link>/campusrecruiting/usfn-global-investment-banking-capital-markets-analyst-program.asp</link>
+			<link>/campusrecruiting/emeafn-global-capital-markets-analyst-programme.asp</link>
 			<answerlist>
 				<answer weight="1">2</answer>
 				<answer weight="1">4</answer>
@@ -987,7 +987,7 @@
 		
 		<career>
 			<name>Global Capital Markets Analyst Program - Asia Pacific</name>
-			<link>/campusrecruiting/usfn-global-investment-banking-capital-markets-analyst-program.asp</link>
+			<link>/campusrecruiting/asiafn-global-capital-markets-analyst-program.asp</link>
 			<answerlist>
 				<answer weight="1">2</answer>
 				<answer weight="1">4</answer>
@@ -1015,7 +1015,7 @@
 		
 		<career>
 			<name>Global Capital Markets Summer Analyst Program - Asia Pacific</name>
-			<link>/campusrecruiting/usin-global-investment-banking-capital-markets-summer-analyst-program.asp</link>
+			<link>/campusrecruiting/asiain-global-capital-markets-summer-analyst-program.asp</link>
 			<answerlist>
 				<answer weight="1">2</answer>
 				<answer weight="1">4</answer>
@@ -1045,7 +1045,7 @@
 		
 		<career>
 			<name>Global Capital Markets Summer Analyst Programme - EMEA</name>
-			<link>/campusrecruiting/usin-global-investment-banking-capital-markets-summer-analyst-program.asp</link>
+			<link>/campusrecruiting/emeain-global-capital-markets-summer-analyst-programme.asp</link>
 			<answerlist>
 				<answer weight="1">2</answer>
 				<answer weight="1">4</answer>
@@ -1075,7 +1075,7 @@
 		
 		<career>
 			<name>Global Markets Sales and Trading Analyst Program - Asia Pacific</name>
-			<link>/campusrecruiting/usfn-global-markets-sales-trading-analyst-program.asp</link>
+			<link>/campusrecruiting/asiafn-global-markets-sales-trading-analyst-program.asp</link>
 			<answerlist>
 				<answer weight="1">2</answer>
 				<answer weight="1">4</answer>
@@ -1097,7 +1097,7 @@
 		
 		<career>
 			<name>Global Markets Sales and Trading Summer Analyst Program - Asia Pacific</name>
-			<link>/campusrecruiting/usin-global-markets-sales-trading-summer-analyst-program.asp</link>
+			<link>/campusrecruiting/asiain-global-markets-sales-trading-summer-analyst-program.asp</link>
 			<answerlist>
 				<answer weight="1">2</answer>
 				<answer weight="1">4</answer>
@@ -1120,7 +1120,7 @@
 		
 		<career>
 			<name>Global Markets Sales and Trading Associate Program - Asia Pacific</name>
-			<link>/campusrecruiting/usfs-global-markets-sales-trading-associate-program.asp</link>
+			<link>/campusrecruiting/asiafs-global-markets-sales-trading-associate-program.asp</link>
 			<answerlist>
 				<answer weight="1">2</answer>
 				<answer weight="1">4</answer>
@@ -1142,7 +1142,7 @@
 		
 		<career>
 			<name>Global Markets Sales and Trading Summer Associate - Asia Pacific</name>
-			<link>/campusrecruiting/usis-global-markets-sales-trading-summer-associate-program.asp</link>
+			<link>/campusrecruiting/asiais-global-markets-sales-trading-summer-associate-program.asp</link>
 			<answerlist>
 				<answer weight="1">2</answer>
 				<answer weight="1">4</answer>
@@ -1165,7 +1165,7 @@
 		
 		<career>
 			<name>Global Markets Quantitative Analytics Associate Programme - EMEA</name>
-			<link>/campusrecruiting/usfn-quantitative-management-program.asp</link>
+			<link>/campusrecruiting/emeafs-global-markets-quantitative-analytics-associate-programme.asp</link>
 			<answerlist>
 				<answer weight="1">4</answer>
 				<answer weight="1">5</answer>
@@ -1196,7 +1196,7 @@
 		
 		<career>
 			<name>Global Markets Quantitative Analytics Associate Fixed Term Placement (5 months) - EMEA</name>
-			<link>/campusrecruiting/usin-quantitative-management-intern-program.asp</link>
+			<link>/campusrecruiting/emeais-global-markets-quantitative-analytics-associate-fixed-term-placement-5-months.asp</link>
 			<answerlist>
 				<answer weight="1">4</answer>
 				<answer weight="1">5</answer>
@@ -1227,7 +1227,7 @@
 		
 		<career>
 			<name>Global Capital Markets Associate - Asia Pacific</name>
-			<link>/campusrecruiting/usfs-global-investment-banking-capital-markets-associate-program.asp</link>
+			<link>/campusrecruiting/asiafs-global-capital-markets-associate-program.asp</link>
 			<answerlist>
 				<answer weight="1">2</answer>
 				<answer weight="1">4</answer>
@@ -1251,7 +1251,7 @@
 		
 		<career>
 			<name>Global Capital Markets Summer Associate - Asia Pacific</name>
-			<link>/campusrecruiting/usis-global-investment-banking-capital-markets-summer-associate-program.asp</link>
+			<link>/campusrecruiting/asiais-global-capital-markets-summer-associate-program.asp</link>
 			<answerlist>
 				<answer weight="1">2</answer>
 				<answer weight="1">4</answer>
@@ -1336,7 +1336,7 @@
 		
 		<career>
 			<name>Research Analyst Summer Program - Canada</name>
-			<link>/campusrecruiting/usin-global-research-summer-analyst-program.asp</link>
+			<link>/campusrecruiting/cain-research-analyst-summer-program.asp</link>
 			<answerlist>
 				<answer weight="1">4</answer>
 				<answer weight="1">5</answer>
@@ -1366,7 +1366,7 @@
 		
 		<career>
 			<name>Global Research Analyst Programme - EMEA</name>
-			<link>/campusrecruiting/usfn-global-research-analyst-program.asp</link>
+			<link>/campusrecruiting/emeafn-global-research-analyst-programme.asp</link>
 			<answerlist>
 				<answer weight="1">4</answer>
 				<answer weight="1">5</answer>
@@ -1396,7 +1396,7 @@
 		
 		<career>
 			<name>Global Research Summer Analyst Programme - EMEA</name>
-			<link>/campusrecruiting/usin-global-research-summer-analyst-program.asp</link>
+			<link>/campusrecruiting/emeain-global-research-summer-analyst-programme.asp</link>
 			<answerlist>
 				<answer weight="1">4</answer>
 				<answer weight="1">5</answer>
@@ -1425,7 +1425,7 @@
 		
 		<career>
 			<name>Global Research Analyst Program - Asia Pacific</name>
-			<link>/campusrecruiting/usfn-global-research-analyst-program.asp</link>
+			<link>/campusrecruiting/asiafn-global-research-analyst-program.asp</link>
 			<answerlist>
 				<answer weight="1">4</answer>
 				<answer weight="1">5</answer>
@@ -1455,7 +1455,7 @@
 		
 		<career>
 			<name>Global Research Summer Analyst - Asia Pacific</name>
-			<link>/campusrecruiting/usin-global-research-summer-analyst-program.asp</link>
+			<link>/campusrecruiting/asiain-global-research-summer-analyst-program.asp</link>
 			<answerlist>
 				<answer weight="1">4</answer>
 				<answer weight="1">5</answer>
@@ -1484,7 +1484,7 @@
 		
 		<career>
 			<name>Global Research Associate Program - Asia Pacific</name>
-			<link>/campusrecruiting/usfs-global-research-associate-program.asp</link>
+			<link>/campusrecruiting/asiafs-global-research-associate-program.asp</link>
 			<answerlist>
 				<answer weight="1">4</answer>
 				<answer weight="1">5</answer>
@@ -1517,7 +1517,7 @@
 		
 		<career>
 			<name>Global Research Summer Associate Program - Asia Pacific</name>
-			<link>/campusrecruiting/usis-global-research-summer-associate-program.asp</link>
+			<link>/campusrecruiting/asiais-global-research-summer-associate-program.asp</link>
 			<answerlist>
 				<answer weight="1">4</answer>
 				<answer weight="1">5</answer>
@@ -1550,7 +1550,7 @@
 		
 		<career>
 			<name>Global Research Associate Programme - EMEA</name>
-			<link>/campusrecruiting/usfs-global-research-associate-program.asp</link>
+			<link>/campusrecruiting/emeafs-global-research-associate-programme.asp</link>
 			<answerlist>
 				<answer weight="1">4</answer>
 				<answer weight="1">5</answer>
@@ -1583,7 +1583,7 @@
 		
 		<career>
 			<name>Global Research Summer Associate - EMEA</name>
-			<link>/campusrecruiting/usis-global-research-summer-associate-program.asp</link>
+			<link>/campusrecruiting/emeais-global-research-summer-associate-programme.asp</link>
 			<answerlist>
 				<answer weight="1">4</answer>
 				<answer weight="1">5</answer>
@@ -1683,7 +1683,7 @@
 		
 		<career>
 			<name>Global Research Summer Associate Program - Canada</name>
-			<link>/campusrecruiting/usis-global-research-summer-associate-program.asp</link>
+			<link>/campusrecruiting/cais-global-research-summer-associate-program.asp</link>
 			<answerlist>
 				<answer weight="1">4</answer>
 				<answer weight="1">5</answer>
@@ -1717,7 +1717,7 @@
 		
 		<career>
 			<name>Global Markets Sales and Trading Analyst Program - Canada</name>
-			<link>/campusrecruiting/usfn-global-markets-sales-trading-analyst-program.asp</link>
+			<link>/campusrecruiting/cafn-global-markets-sales-trading-analyst-program.asp</link>
 			<answerlist>
 				<answer weight="1">4</answer>
 				<answer weight="1">5</answer>
@@ -1741,8 +1741,8 @@
 		</career>
 		
 		<career>
-			<name>Global Markets Sales and Trading Summer Analyst Program - Canada </name>
-			<link>/campusrecruiting/usin-global-markets-sales-trading-summer-analyst-program.asp</link>
+			<name>Global Markets Sales and Trading Summer Analyst Program - Canada</name>
+			<link>/campusrecruiting/cain-global-markets-sales-trading-summer-analyst-program.asp</link>
 			<answerlist>
 				<answer weight="1">4</answer>
 				<answer weight="1">5</answer>
@@ -1821,7 +1821,7 @@
 		
 		<career>
 			<name>Global Markets Sales and Trading Analyst Programme - EMEA</name>
-			<link>/campusrecruiting/usfn-global-markets-sales-trading-analyst-program.asp</link>
+			<link>/campusrecruiting/emeafn-global-markets-sales-trading-analyst-programme.asp</link>
 			<answerlist>
 				<answer weight="1">4</answer>
 				<answer weight="1">5</answer>
@@ -1846,7 +1846,7 @@
 		
 		<career>
 			<name>Global Markets Sales and Trading Summer Analyst Programme - EMEA</name>
-			<link>/campusrecruiting/usin-global-markets-sales-trading-summer-analyst-program.asp</link>
+			<link>/campusrecruiting/emeain-global-markets-sales-trading-summer-analyst-programme.asp</link>
 			<answerlist>
 				<answer weight="1">4</answer>
 				<answer weight="1">5</answer>
@@ -1904,7 +1904,7 @@
 		
 		<career>
 			<name>Global Markets Sales and Trading Associate Program - Canada</name>
-			<link>/campusrecruiting/usfs-global-markets-sales-trading-associate-program.asp</link>
+			<link>/campusrecruiting/cafs-global-markets-sales-trading-associate-program.asp</link>
 			<answerlist>
 				<answer weight="1">4</answer>
 				<answer weight="1">5</answer>
@@ -1935,7 +1935,7 @@
 		
 		<career>
 			<name>Global Markets Sales and Trading Summer Associate Program - Canada</name>
-			<link>/campusrecruiting/usis-global-markets-sales-trading-summer-associate-program.asp</link>
+			<link>/campusrecruiting/cais-global-markets-sales-trading-summer-associate-program.asp</link>
 			<answerlist>
 				<answer weight="1">4</answer>
 				<answer weight="1">5</answer>
@@ -1964,7 +1964,7 @@
 		
 		<career>
 			<name>Global Markets Sales and Trading Associate Programme - EMEA</name>
-			<link>/campusrecruiting/usfs-global-markets-sales-trading-associate-program.asp</link>
+			<link>/campusrecruiting/emeafs-global-markets-sales-trading-associate-programme.asp</link>
 			<answerlist>
 				<answer weight="1">4</answer>
 				<answer weight="1">5</answer>
@@ -1995,7 +1995,7 @@
 		
 		<career>
 			<name>Global Markets Sales and Trading Summer Associate Programme - EMEA</name>
-			<link>/campusrecruiting/usis-global-markets-sales-trading-summer-associate-program.asp</link>
+			<link>/campusrecruiting/emeais-global-markets-sales-trading-summer-associate-programme.asp</link>
 			<answerlist>
 				<answer weight="1">4</answer>
 				<answer weight="1">5</answer>
@@ -2146,62 +2146,6 @@
 		</career>
 		
 		<career>
-			<name>Commercial Banking & Product Solutions Analyst - Asia Pacific</name>
-			<link>/campusrecruiting/usfn-global-commercial-banking-analyst-program.asp</link>
-			<answerlist>
-				<answer weight="1">2</answer>
-				<answer weight="1">4</answer>
-				<answer weight="1">5</answer>
-				<answer weight="200">6</answer>
-				<answer weight="75">9</answer>
-				<answer weight="1">12</answer>	
-				<answer weight="1">13</answer>		
-				<answer weight="5">14</answer>
-				<answer weight="5">15</answer>			
-				<answer weight="5">16</answer>				
-				<answer weight="5">19</answer>				
-				<answer weight="5">20</answer>				
-				<answer weight="5">24</answer>						
-				<answer weight="5">26</answer>
-				<answer weight="100">41</answer>
-				<answer weight="5">44</answer>				
-				<answer weight="5">48</answer>
-				<answer weight="5">53</answer>
-				<answer weight="1">54</answer>				
-				<answer weight="1">57</answer>
-			</answerlist>
-		</career>
-		
-		<career>
-			<name>Commercial Banking & Product Solutions Analyst Internship - Asia Pacific</name>
-			<link>/campusrecruiting/usin-global-commercial-banking-summer-analyst-program.asp</link>
-			<answerlist>
-				<answer weight="1">2</answer>
-				<answer weight="1">4</answer>
-				<answer weight="1">5</answer>
-				<answer weight="200">6</answer>
-				<answer weight="-470">10</answer>
-				<answer weight="75">11</answer>
-				<answer weight="1">12</answer>	
-				<answer weight="1">13</answer>		
-				<answer weight="5">14</answer>
-				<answer weight="5">15</answer>			
-				<answer weight="5">16</answer>				
-				<answer weight="5">19</answer>				
-				<answer weight="5">20</answer>				
-				<answer weight="5">24</answer>						
-				<answer weight="5">26</answer>						
-				<answer weight="5">30</answer>
-				<answer weight="100">41</answer>
-				<answer weight="5">44</answer>				
-				<answer weight="5">48</answer>
-				<answer weight="5">53</answer>
-				<answer weight="1">54</answer>				
-				<answer weight="1">57</answer>
-			</answerlist>
-		</career>
-		
-		<career>
 			<name>Commercial Real Estate Banking Analyst Program - US</name>
 			<link>/campusrecruiting/usfn-commercial-real-estate-banking-analyst-program.asp</link>
 			<answerlist>
@@ -2340,7 +2284,7 @@
 		
 		<career>
 			<name>Human Resources Analyst Programme - EMEA</name>
-			<link>/campusrecruiting/usfs-human-resources-development-program.asp</link>
+			<link>/campusrecruiting/emeafn-human-resources-analyst-programme.asp</link>
 			<answerlist>
 				<answer weight="1">1</answer>
 				<answer weight="1">5</answer>
@@ -2379,7 +2323,7 @@
 		
 		<career>
 			<name>Human Resources Summer Analyst Programme - EMEA</name>
-			<link>/campusrecruiting/usis-human-resources-development-intern-program.asp</link>
+			<link>/campusrecruiting/emeain-human-resources-summer-analyst-programme.asp</link>
 			<answerlist>
 				<answer weight="1">1</answer>
 				<answer weight="1">5</answer>
@@ -2424,7 +2368,7 @@
 	<careerlist>
 		<career>
 			<name>Technology Analyst Program - Canada</name>
-			<link>/campusrecruiting/usfn-technology-analyst-program.asp</link>
+			<link>/campusrecruiting/cafn-technology-analyst-program.asp</link>
 			<answerlist>
 				<answer weight="1">3</answer>
 				<answer weight="1">4</answer>
@@ -2443,7 +2387,7 @@
 		
 		<career>
 			<name>Technology Analyst Intern Program - Canada</name>
-			<link>/campusrecruiting/usin-technology-analyst-intern-program.asp</link>
+			<link>/campusrecruiting/cain-technology-analyst-intern-program.asp</link>
 			<answerlist>
 				<answer weight="1">3</answer>
 				<answer weight="1">4</answer>
@@ -2484,7 +2428,7 @@
 		
 		<career>
 			<name>Technology Analyst Program - Asia Pacific</name>
-			<link>/campusrecruiting/usfn-technology-analyst-program.asp</link>
+			<link>/campusrecruiting/asiafn-technology-analyst-program.asp</link>
 			<answerlist>
 				<answer weight="1">3</answer>
 				<answer weight="1">4</answer>
@@ -2525,7 +2469,7 @@
 		
 		<career>
 			<name>Technology Summer Analyst - Asia Pacific</name>
-			<link>/campusrecruiting/usin-technology-analyst-intern-program.asp</link>
+			<link>/campusrecruiting/asiain-technology-summer-analyst-program.asp</link>
 			<answerlist>
 				<answer weight="1">3</answer>
 				<answer weight="1">4</answer>
@@ -2545,7 +2489,7 @@
 		
 		<career>
 			<name>Technology Analyst Programme - EMEA</name>
-			<link>/campusrecruiting/usfn-technology-analyst-program.asp</link>
+			<link>/campusrecruiting/emeafn-technology-analyst-programme.asp</link>
 			<answerlist>
 				<answer weight="1">3</answer>
 				<answer weight="1">4</answer>
@@ -2564,7 +2508,7 @@
 		
 		<career>
 			<name>Technology Summer Analyst Programme - EMEA</name>
-			<link>/campusrecruiting/usin-technology-analyst-intern-program.asp</link>
+			<link>/campusrecruiting/emeain-technology-summer-analyst-programme.asp</link>
 			<answerlist>
 				<answer weight="1">3</answer>
 				<answer weight="1">4</answer>
@@ -2584,7 +2528,7 @@
 		
 		<career>
 			<name>Global Markets Operations / Middle Office Analyst Program - Asia Pacific</name>
-			<link>/campusrecruiting/usfn-global-markets-operations-middle-office-rotational-program.asp</link>
+			<link>/campusrecruiting/asiafn-global-markets-operations-middle-office-analyst-program.asp</link>
 			<answerlist>
 				<answer weight="1">3</answer>
 				<answer weight="1">5</answer>
@@ -2604,7 +2548,7 @@
 		</career>
 		<career>
 			<name>Global Markets Operations/ Middle Office Summer Analyst Program - Asia Pacific</name>
-			<link>/campusrecruiting/usin-global-markets-operations-middle-office-intern-program.asp</link>
+			<link>/campusrecruiting/asiain-global-markets-operations-middle-office-summer-analyst-program.asp</link>
 			<answerlist>
 				<answer weight="1">3</answer>
 				<answer weight="1">5</answer>
@@ -2670,7 +2614,7 @@
 		</career>
 		<career>
 			<name>Global Markets Operations/ Middle Office Analyst Programme - EMEA</name>
-			<link>/campusrecruiting/usfn-global-markets-operations-middle-office-rotational-program.asp</link>
+			<link>/campusrecruiting/emeafn-global-markets-operations-middle-office-analyst-programme.asp</link>
 			<answerlist>
 				<answer weight="1">3</answer>
 				<answer weight="1">5</answer>
@@ -2690,7 +2634,7 @@
 		</career>
 		<career>
 			<name>Global Markets Operations/ Middle Office Summer Analyst Programme - EMEA</name>
-			<link>/campusrecruiting/usin-global-markets-operations-middle-office-intern-program.asp</link>
+			<link>/campusrecruiting/emeain-global-markets-operations-middle-office-summer-analyst-programme.asp</link>
 			<answerlist>
 				<answer weight="1">3</answer>
 				<answer weight="1">5</answer>
@@ -2813,7 +2757,7 @@
 		</career>
 		<career>
 			<name>Enterprise Technology & Delivery Analyst Programme - EMEA</name>
-			<link>/campusrecruiting/usfn-enterprise-technology-delivery-Leadership-development-rotational-program.asp</link>
+			<link>/campusrecruiting/emeafn-enterprise-technology-delivery-analyst-programme.asp</link>
 			<answerlist>
 				<answer weight="1">3</answer>
 				<answer weight="200">6</answer>
@@ -2831,7 +2775,7 @@
 		</career>
 		<career>
 			<name>Enterprise Technology & Delivery Summer Analyst Programme - EMEA</name>
-			<link>/campusrecruiting/usin-enterprise-technology-delivery-intern-program.asp</link>
+			<link>/campusrecruiting/emeain-enterprise-technology-delivery-summer-analyst-programme.asp</link>
 			<answerlist>
 				<answer weight="1">3</answer>
 				<answer weight="200">6</answer>
@@ -2850,7 +2794,7 @@
 		</career>
 		<career>
 			<name>Enterprise Technology & Delivery Leadership Development Rotational Program - Asia Pacific</name>
-			<link>/campusrecruiting/usfn-enterprise-technology-delivery-Leadership-development-rotational-program.asp</link>
+			<link>/campusrecruiting/asiafn-enterprise-technology-delivery-leadership-development-analyst-program.asp</link>
 			<answerlist>
 				<answer weight="1">3</answer>
 				<answer weight="1">4</answer>
@@ -2874,7 +2818,7 @@
 		</career>
 		<career>
 			<name>Enterprise Technology & Delivery Summer Analyst Program - Asia Pacific</name>
-			<link>/campusrecruiting/usin-enterprise-technology-delivery-intern-program.asp</link>
+			<link>/campusrecruiting/asiain-enterprise-technology-delivery-summer-analyst-program.asp</link>
 			<answerlist>
 				<answer weight="1">3</answer>
 				<answer weight="1">4</answer>
@@ -3128,7 +3072,7 @@
 		</career>
 		<career>
 			<name>Global Wealth and Investment Management Analyst Program - Asia Pacific</name>
-			<link>/campusrecruiting/usfn-global-wealth-investment-management-analyst-program.asp</link>
+			<link>/campusrecruiting/asiafn-global-wealth-investment-management-analyst-program.asp</link>
 			<answerlist>
 				<answer weight="1">1</answer>
 				<answer weight="1">2</answer>
@@ -3156,7 +3100,7 @@
 		</career>
 		<career>
 			<name>Global Wealth and Investment Management Summer Analyst Program - Asia Pacific</name>
-			<link>/campusrecruiting/usin-global-wealth-investment-management-summer-analyst-program.asp</link>
+			<link>/campusrecruiting/asiain-global-wealth-investment-management-summer-analyst-program.asp</link>
 			<answerlist>
 				<answer weight="1">1</answer>
 				<answer weight="1">2</answer>
@@ -3185,7 +3129,7 @@
 		</career>
 		<career>
 			<name>Merrill Lynch Wealth Management Analyst Programme - EMEA</name>
-			<link>/campusrecruiting/usin-wealth-management-branch-office-internship.asp</link>
+			<link>/campusrecruiting/emeafn-merrill-lynch-wealth-management-analyst-programme.asp</link>
 			<answerlist>
 				<answer weight="1">1</answer>
 				<answer weight="1">2</answer>
@@ -3214,7 +3158,7 @@
 		</career>
 		<career>
 			<name>Merrill Lynch Wealth Management Summer Analyst Programme - EMEA</name>
-			<link>/campusrecruiting/usin-wealth-management-branch-office-internship.asp</link>
+			<link>/campusrecruiting/emeain-merrill-lynch-wealth-management-summer-analyst-programme.asp</link>
 			<answerlist>
 				<answer weight="1">1</answer>
 				<answer weight="1">2</answer>
@@ -3306,7 +3250,7 @@
 		</career>
 		<career>
 			<name>Market Risk Management Analyst Programme - EMEA</name>
-			<link>/campusrecruiting/usfn-global-risk-management-program.asp</link>
+			<link>/campusrecruiting/emeafn-market-risk-analyst-programme.asp</link>
 			<answerlist>
 				<answer weight="1">4</answer>
 				<answer weight="1">5</answer>
@@ -3333,7 +3277,7 @@
 		</career>
 		<career>
 			<name>Market Risk Management Summer Analyst Programme - EMEA</name>
-			<link>/campusrecruiting/usin-global-risk-management-intern-program.asp</link>
+			<link>/campusrecruiting/emeain-market-risk-summer-analyst-programme.asp</link>
 			<answerlist>
 				<answer weight="1">4</answer>
 				<answer weight="1">5</answer>
@@ -3438,7 +3382,7 @@
 		</career>
 		<career>
 			<name>Global Corporate & Financial Institutions Debt Products Summer Analyst Program - US</name>
-			<link>/campusrecruiting/usin-global-corporate-financial-institutions-treasury-summer-analyst-program.asp</link>
+			<link>/campusrecruiting/usin-global-corporate-financial-institutions-debt-products-summer-analyst-program.asp</link>
 			<answerlist>
 				<answer weight="1">2</answer>
 				<answer weight="1">4</answer>
@@ -3474,7 +3418,7 @@
 		</career>
 		<career>
 			<name>Corporate & Financial Institutions Debt Products Analyst Programme - EMEA</name>
-			<link>/campusrecruiting/usfn-global-corporate-financial-institutions-debt-products-analyst-program.asp</link>
+			<link>/campusrecruiting/emeafn-corporate-financial-institutions-debt-products-analyst-programme.asp</link>
 			<answerlist>
 				<answer weight="1">2</answer>
 				<answer weight="1">4</answer>
@@ -3503,7 +3447,7 @@
 		</career>
 		<career>
 			<name>Corporate & Financial Institutions Debt Products Summer Analyst Programme - EMEA</name>
-			<link>/campusrecruiting/usin-global-corporate-financial-institutions-debt-products-summer-analyst-program.asp</link>
+			<link>/campusrecruiting/emeain-corporate-financial-institutions-debt-products-summer-analyst-programme.asp</link>
 			<answerlist>
 				<answer weight="1">2</answer>
 				<answer weight="1">4</answer>
