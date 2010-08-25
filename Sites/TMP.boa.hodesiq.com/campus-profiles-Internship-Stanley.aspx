@@ -1,7 +1,7 @@
 ﻿<%@ Page Title="Bank of America | Careers | Campus Recruiting | Meet Our People | Stanley's Internship Profile" Language="C#" MasterPageFile="~/BOAmaster.master" AutoEventWireup="true" CodeFile="campus-profiles-Internship-Stanley.aspx.cs" Inherits="campus_profiles_Internship_Stanley" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="cphmain" Runat="Server">
-<link href="/boa/Includes/campus.css" type="text/css" rel="stylesheet" />
+<link href="Includes/campus.css" type="text/css" rel="stylesheet" />
 <div id="profiles">
   
   <h1>Our Interns</h1>
@@ -62,5 +62,9 @@ your location?</h4>
     </div>
 
 </div>
+
+<script src="Includes/_google.js" type="text/javascript"></script>
+
+
 </asp:Content>
 

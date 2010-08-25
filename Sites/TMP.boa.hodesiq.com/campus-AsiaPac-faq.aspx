@@ -2,7 +2,7 @@
 
 <asp:Content ID="Content1" ContentPlaceHolderID="cphmain" Runat="Server">
 
-<link href="/boa/Includes/campus.css" type="text/css" rel="stylesheet" />
+<link href="Includes/campus.css" type="text/css" rel="stylesheet" />
 
  <div id="maincontent"> 
                 <div id="article"> 
@@ -78,6 +78,6 @@ An e-mail thank you to the person who interviewed you is appropriate but not req
                   <p>Set opportunity in motion.</p>
                 </div>
               </div>
-
+<script src="Includes/_google.js" type="text/javascript"></script>
 </asp:Content>
 

@@ -1,7 +1,7 @@
 ﻿<%@ Page Title="Bank of America | Careers | Campus Recruiting | EMEA Opportunities" Language="C#" MasterPageFile="~/BOAmaster.master" AutoEventWireup="true" CodeFile="campus-EMEA-opportunities.aspx.cs" Inherits="campus_EMEA_opportunities" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="cphmain" Runat="Server">
-<link href="/boa/Includes/campus.css" type="text/css" rel="stylesheet" />
+<link href="Includes/campus.css" type="text/css" rel="stylesheet" />
 
  <div id="maincontent"> 
  
@@ -39,6 +39,8 @@
     <p>Set opportunity in motion.</p>
   </div>
 </div>
+
+<script src="Includes/_google.js" type="text/javascript"></script>
 
 </asp:Content>
 

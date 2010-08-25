@@ -2,7 +2,7 @@
 
 <asp:Content ID="Content1" ContentPlaceHolderID="cphmain" Runat="Server">
 
-<link href="/boa/Includes/campus.css" type="text/css" rel="stylesheet" />
+<link href="Includes/campus.css" type="text/css" rel="stylesheet" />
 <div id="profiles">
   
   <h1>Our Analysts</h1>
@@ -78,5 +78,8 @@ professionals will often get more exposure and responsibilities.</p>
     </div>
 
 </div>
+
+<script src="Includes/_google.js" type="text/javascript"></script>
+
 </asp:Content>
 

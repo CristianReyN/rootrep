@@ -2,14 +2,16 @@
 
 <asp:Content ID="Content1" ContentPlaceHolderID="cphmain" Runat="Server">
 
-<link href="/boa/Includes/campus.css" type="text/css" rel="stylesheet" />
+<link href="Includes/campus.css" type="text/css" rel="stylesheet" />
 
   <div id="asiapac-home">
                  
                 <p class="link-header">Explore our company and opportunities further with the buttons below.</p>
                 
-                <a class="searchbtn" href="http://careers.bankofamerica.com/jobsearch.aspx">Search</a>
-                <a class="videobtn" href="campus-AsiaPac-meet-our-people.aspx">Video</a>
+                 <div id="icon-home-buttons">
+				<a href="http://careers.bankofamerica.com/jobsearch.aspx"><img src="images/campus/btn-search-jobs.jpg" width="46" height="47" alt="Search Job" /></a>
+                <a href="campus-AsiaPac-meet-our-people.aspx"><img src="images/campus/btn-meet-people.jpg" width="46" height="46" alt="Meet our people" /></a>
+				</div>
  
  				<p class="footnote-content">Set opportunity in motion.</p>
                           
@@ -28,7 +30,7 @@
                     <a href="campus-AsiaPac-meet-our-people.aspx"><img src="images/campus/btn-our-people.jpg" width="179" height="66" alt="Our People: See and hear who's making a difference and how." /></a> 
                     </div>
                  </div>
-                 
+           <script src="Includes/_google.js" type="text/javascript"></script>      
 
 </asp:Content>
 

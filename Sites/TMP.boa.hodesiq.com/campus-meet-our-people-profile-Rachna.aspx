@@ -1,7 +1,7 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/BOAmaster.master" AutoEventWireup="true" CodeFile="campus-meet-our-people-profile-Rachna.aspx.cs" Inherits="campus_meet_our_people_profile_Rachna" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="cphmain" Runat="Server">
-<link href="/boa/Includes/campus.css" type="text/css" rel="stylesheet" />
+<link href="Includes/campus.css" type="text/css" rel="stylesheet" />
 <div id="profiles">
   
   <h1>Our Associates</h1>
@@ -86,5 +86,8 @@ those working in different business areas – it was a great experience.</p>
     </div>
 
 </div>
+
+<script src="Includes/_google.js" type="text/javascript"></script>
+
 </asp:Content>
 

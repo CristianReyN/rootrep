@@ -2,7 +2,7 @@
 
 <asp:Content ID="Content1" ContentPlaceHolderID="cphmain" Runat="Server">
 
-<link href="/boa/Includes/campus.css" type="text/css" rel="stylesheet" />
+<link href="Includes/campus.css" type="text/css" rel="stylesheet" />
 
 <div id="main-profiles">
                    <div id="article">
@@ -17,21 +17,21 @@
                 <img src="images/campus/icon-mopHiraDiwan.jpg" width="40" height="40" alt="Hira Diwan" />
             <h2>Hira</h2>
             <p>Corporate &amp; Financial Institutions Debt Products Analyst</p>
-            <p><a href="campus-profiles-Hira.aspx">Read Profile</a></p>
+            <p><a href="campus-meet-our-people-profile-Hira.aspx">Read Profile</a></p>
             </div>
             
              <div class="mop-profile">
                 <img src="images/campus/icon-mopMelissaClarke.jpg" width="40" height="40" alt="Melissa Clarke" />
             <h2>Melissa </h2>
             <p>Corporate and Investment Banking Analyst Programme</p>
-            <p><a href="campus-profiles-Melissa.aspx">Read Profile</a></p>
+            <p><a href="campus-meet-our-people-profile-Melissa.aspx">Read Profile</a></p>
             </div>
             
              <div class="mop-profile">
               <img src="images/campus/icon-mopRomanSerper.jpg" width="40" height="40" alt="Roman Serper" />
             <h2>Roman</h2>
             <p>Technology Analyst Programme</p>
-            <p><a href="campus-profiles-Roman.aspx">Read Profile</a></p>
+            <p><a href="campus-meet-our-people-profile-Roman.aspx">Read Profile</a></p>
             </div>
             
             <p class="learnlink"><a href="campus-EMEA-analyst-profiles.aspx">View all our analyst profiles</a></p>
@@ -44,21 +44,21 @@
               <img src="images/campus/icon-mopIrinaDolgova.jpg" width="40" height="40" alt="Irina Dolgova" />
             <h2>Irina</h2>
             <p>Global Markets PhD Associate Programme</p>
-            <p><a href="campus-profiles-Irina.aspx">Read Profile</a></p>
+            <p><a href="campus-meet-our-people-profile-Irina.aspx">Read Profile</a></p>
             </div>
             
              <div class="mop-profile">
                  <img src="images/campus/icon-mopPriyaSharma.jpg" width="40" height="40" alt="Priya Sharma" />
             <h2>Priya</h2>
             <p>Corporate and Investment Banking Associate Programme</p>
-            <p><a href="campus-profiles-Priya.aspx">Read Profile</a></p>
+            <p><a href="campus-meet-our-people-profile-Priya.aspx">Read Profile</a></p>
             </div>
             
              <div class="mop-profile">
              <img src="images/campus/icon-mopRachnaRamachandran.jpg" width="40" height="40" alt="Rachna Ramachandran" />
             <h2>Rachna</h2>
             <p>Research Quant Analyst Programme</p>
-            <p><a href="campus-profiles-Rachna.aspx">Read Profile</a></p>
+            <p><a href="campus-meet-our-people-profile-Rachna.aspx">Read Profile</a></p>
             </div>
             
             <p class="learnlink"><a href="campus-EMEA-associate-profiles.aspx">View all our associates profiles</a></p>
@@ -71,21 +71,21 @@
                <img src="images/campus/icon-mopDwayneGoode.jpg" width="40" height="40" alt="Dwayne Goode" />
             <h2>Dwayne</h2>
              <p>Enterprise Technology &amp; Delivery Analyst</p>
-            <p><a href="campus-profiles-Dwayne.aspx">Read Profile</a></p>
+            <p><a href="campus-meet-our-people-profile-Dwayne.aspx">Read Profile</a></p>
             </div>
             
              <div class="mop-profile">
              <img src="images/campus/icon-mopJohn-William.jpg" width="40" height="40" alt="John-William" />
             <h2>John-William </h2>
             <p>Global Wealth and Investment Management Analyst</p>
-            <p><a href="campus-profiles-John-William.aspx">Read Profile</a></p>
+            <p><a href="campus-meet-our-people-profile-John-William.aspx">Read Profile</a></p>
             </div>
             
              <div class="mop-profile">
               <img src="images/campus/icon-mopChristophHadrys.jpg" width="40" height="40" alt="Christoph Hadrys" />
             <h2>Christoph</h2>
              <p>Capital Markets Analyst</p>
-            <p><a href="campus-profiles-Christoph.aspx">Read Profile</a></p>
+            <p><a href="campus-meet-our-people-profile-Christoph.aspx">Read Profile</a></p>
             </div>
             
             <p class="learnlink"><a href="campus-EMEA-intern-profiles.aspx">View all our interns profiles</a></p>
@@ -102,6 +102,16 @@
     		<div id="video-content">
     		<br />
              
+            <% if (Request.QueryString["vts"]=="erin") {%>
+
+             <div class="transcript-content">
+             <p>I learned about my current position from a conference called NSHMBA and there I talked to a recruiter about the Global Consumer position that I currently have became very interested and pursued the position from there. What's important to me in my career is learning and growth and opportunity for advancement, Bank of America offers all of those things and I have really been looking forward to my future at Bank of America. Two things that stands out to me when I think of Global Consumer Business Bank is my exposure to executives and two is the focus on the customer.</p>
+
+            <p><a href="campus-EMEA-graduate-profiles.aspx">View Erin's Video</a></p>
+            </div>
+
+            <%} else {%>
+            
             <h2 class="hidden">Erin's Associate Testimonial Video</h2>
 
 	<div id="erin" style="display: none;">
@@ -131,7 +141,7 @@
 			</div>
 
 		</td>
-		<td width="100%" height="22" align="center" nowrap><a href="../ada_camp/usfs-consumer-small-business-banking-mba.asp#vt" class="btn1">Video transcript</a></td>
+		<td width="100%" height="22" align="center" nowrap><a href="campus-EMEA-graduate-profiles.aspx?vts=erin" class="btn1">Video transcript</a></td>
 		<td nowrap>
 
 			<div align="right" style="padding: 2px 5px;" id="erin-right-control">
@@ -146,10 +156,22 @@
 	</tr>
 	</table>
 
+<%}%>
+
             <p>Erin</p>
             <p class="padbot">Global Consumer &amp; Small Business</p>
             
-          <h2 class="hidden">Guan's Associate Testimonial Video</h2>
+          <% if (Request.QueryString["vts"]=="guan") {%>
+
+               <div class="transcript-content">
+               <p>The culture at Bank of America is quite diverse depending upon which group you work the culture can be quite different. For example the current group I am working in is very academic because we hire a group of PhDs who do very complicated credit modeling. However, in my previous job because I was involved in a two year rotational program it was much more fast paced because we were on the trading floor and we were aiding the traders and measuring their risk.</p>
+
+               <p><a href="campus-EMEA-graduate-profiles.aspx">View Guan's Video</a>
+               
+               </div>
+
+            <%} else {%>
+            <h2 class="hidden">Guan's Associate Testimonial Video</h2>
 
 	<div id="guan" style="display: none;">
 
@@ -178,7 +200,7 @@
 			</div>
 
 		</td>
-		<td width="100%" height="22" align="center" nowrap><a href="../ada_camp/usfn-quantitative-management.asp#vt" class="btn1">Video transcript</a></td>
+		<td width="100%" height="22" align="center" nowrap><a href="campus-EMEA-graduate-profiles.aspx?vts=guan" class="btn1">Video transcript</a></td>
 		<td nowrap>
 
 			<div align="right" style="padding: 2px 5px;" id="guan-right-control">
@@ -192,6 +214,7 @@
 		</td>
 	</tr>
 	</table>
+ <%}%> 
 
             <p>Guan</p>
             <p class="padbot">Quantitative Management Associate</p>
@@ -219,6 +242,6 @@
     swfobject.embedSWF("../includes/pages/college/guan.swf", "guanflash", "205", "131", "9.0.0", flashvars, params, attributes);
 	</script>
 
-
+<script src="Includes/_google.js" type="text/javascript"></script>
 </asp:Content>
 

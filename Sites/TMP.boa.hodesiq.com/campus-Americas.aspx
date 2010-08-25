@@ -2,15 +2,17 @@
 
 <asp:Content ID="Content1" ContentPlaceHolderID="cphmain" Runat="Server">
 
-<link href="/boa/Includes/campus.css" type="text/css" rel="stylesheet" />
+<link href="Includes/campus.css" type="text/css" rel="stylesheet" />
 
 <div id="america-home">
                  
                 <p class="link-header">Use the buttons below to further explore our company and opportunities.</p>
                 
-                <a class="searchbtn" href="http://careers.bankofamerica.com/jobsearch.aspx">Search</a>
-                <a class="videobtn" href="campus-Americas-meet-our-people.aspx">Video</a>
-                 <a class="twitterbtn" href="http://twitter.com/BofA_Careers">Twitter</a>
+                <div id="icon-home-buttons">
+				<a href="http://careers.bankofamerica.com/jobsearch.aspx"><img src="images/campus/btn-search-jobs.jpg" width="46" height="47" alt="Search Job" /></a>
+                <a href="campus-Americas-meet-our-people.aspx"><img src="images/campus/btn-meet-people.jpg" width="46" height="46" alt="Meet our people" /></a>
+                <a href="http://twitter.com/BofA_Careers"><img src="images/campus/btn-twitter.jpg" width="46" height="46" alt="Twitter" /></a>
+				</div>
  
  				<p class="footnote-content">Set opportunity in motion.</p>
                           
@@ -30,6 +32,6 @@
                     </div>
                  </div>
                  
-
+<script src="Includes/_google.js" type="text/javascript"></script>
 </asp:Content>
 

@@ -2,7 +2,7 @@
 
 <asp:Content ID="Content1" ContentPlaceHolderID="cphmain" Runat="Server">
 
-<link href="/boa/Includes/campus.css" type="text/css" rel="stylesheet" />
+<link href="Includes/campus.css" type="text/css" rel="stylesheet" />
  <div id="main-profiles">
                    <div id="article">
                    <h1>Our Associates</h1>
@@ -25,6 +25,16 @@
        
              <div id="video-content">
              <br />
+            <% if (Request.QueryString["vts"]=="tony") {%>
+
+               <div class="transcript-content">
+               <p>Though I have only been with the bank for five months now I have already been able to work on a Six Sigma project with several senior level managers and through that experience I networked with these individuals and learned from them how they do their jobs. I learned about the corporate treasury associate program through an on-campus recruiting event where several bank associates came down and spoke with students that were interested. After that we had a round of on-campus interviews which were followed by the final round which were up in Charlotte. We were actually able to visit the bank's headquarters and meet with the senior member executives as well as people we would be working with from day to day.</p>
+
+               <p><a href="campus-AsiaPac-associate-profiles.aspx">View Tony's Video</a>
+               
+               </div>
+
+            <%} else {%>
             <h2 class="hidden">Tony's Associate Testimonial Video</h2>
 	
 	<div id="tony" style="display: none;">
@@ -54,7 +64,7 @@
 			</div>
 
 		</td>
-		<td width="100%" height="22" align="center" nowrap><a href="../ada_camp/usfn-corporate-treasury-analyst.asp#vt" class="btn1">Video transcript</a></td>
+		<td width="100%" height="22" align="center" nowrap><a href="campus-AsiaPac-associate-profiles.aspx?vts=tony" class="btn1">Video transcript</a></td>
 		<td nowrap>
 
 			<div align="right" style="padding: 2px 5px;" id="tony-right-control">
@@ -69,10 +79,21 @@
 	</tr>
 	</table>
 
-            
+             <%}%> 
 
             <p>Tony</p>
             <p class="padbot">Corporate Treasury Associate</p>
+            
+             <% if (Request.QueryString["vts"]=="anne") {%>
+
+               <div class="transcript-content">
+               <p>What attracted me most about working at Bank of America was their focus on improving their processes to really was to help their customers and ensure their customers have a great experience and I have a passion for that. I really like what Quality & Productivity does their use of Six Sigma, Lean and other tools and it was important for me to find a position where I was able to do that. While I was in grad school I was doing a research project on Bank of America and that started my interest in the company. I attended a conference for the women's MBA while I was in Boston which led to my employment with the company.</p>
+
+               <p><a href="campus-AsiaPac-associate-profiles.aspx">View Anne's Video</a>
+               
+               </div>
+
+            <%} else {%>
             
           <h2 class="hidden">Anne's Associate Testimonial Video</h2>
 
@@ -103,7 +124,7 @@
 			</div>
 
 		</td>
-		<td width="100%" height="22" align="center" nowrap><a href="../ada_camp/usfn-quality-productivity-analyst.asp#vt" class="btn1">Video transcript</a></td>
+		<td width="100%" height="22" align="center" nowrap><a href="campus-AsiaPac-associate-profiles.aspx?vts=anne" class="btn1">Video transcript</a></td>
 		<td nowrap>
 
 			<div align="right" style="padding: 2px 5px;" id="anne-right-control">
@@ -117,7 +138,7 @@
 		</td>
 	</tr>
 	</table>
-
+     <%}%> 
 
             <p>Anne</p>
             <p class="padbot">Quality and Productivity Consultant</p>
@@ -147,6 +168,8 @@
     swfobject.embedSWF("includes/pages/college/anne.swf", "anneflash", "205", "131", "9.0.0", flashvars, params, attributes);
    
 	</script>
+
+<script src="Includes/_google.js" type="text/javascript"></script>
 
 </asp:Content>
 

@@ -2,7 +2,7 @@
 
 <asp:Content ID="Content1" ContentPlaceHolderID="cphmain" Runat="Server">
 
-<link href="/boa/Includes/campus.css" type="text/css" rel="stylesheet" />
+<link href="Includes/campus.css" type="text/css" rel="stylesheet" />
 
 <div id="main-profiles">
                    <div id="article">
@@ -17,7 +17,7 @@
                 <img src="images/campus/icon-mopAlisaRoyal.jpg" width="40" height="40" alt="Bryan Cook" />
                 <h2>Alissa</h2>
             <p>Corporate &amp; Financial Institutions Debt Products</p>
-            <p><a href="campus-profiles-Alissa.aspx">Read Profile</a></p>
+            <p><a href="campus-meet-our-people-profile-Alissa.aspx">Read Profile</a></p>
             </div>
             
              <div class="mop-profile">
@@ -25,14 +25,14 @@
             <h2>Ashley</h2> 
             <p>Finance Management Associate Program</p>
            
-            <p><a href="campus-profiles-Ashley.aspx">Read Profile</a></p>
+            <p><a href="campus-meet-our-people-profile-Ashley.aspx">Read Profile</a></p>
             </div>
             
              <div class="mop-profile">
                  <img src="images/campus/icon-mopBhavinGhonda.jpg" width="40" height="40" alt="Bhavin Ghonda" />
             <h2>Bhavin</h2>
             <p>Technology Analyst Program</p>
-            <p><a href="campus-profiles-Bhavin.aspx">Read Profile</a></p>
+            <p><a href="campus-meet-our-people-profile-Bhavin.aspx">Read Profile</a></p>
             </div>
             
             <p class="learnlink"><a href="campus-Americas-analyst-profiles.aspx">View all our analyst profiles</a></p>
@@ -45,21 +45,21 @@
                 <img src="images/campus/icon-mopBryanCook.jpg" width="40" height="40" alt="Bryan Cook" />
             <h2>Bryan</h2>
             <p>Global Research Associate Program</p>
-            <p><a href="campus-profiles-Bryan.aspx">Read Profile</a></p>
+            <p><a href="campus-meet-our-people-profile-Bryan.aspx">Read Profile</a></p>
             </div>
             
              <div class="mop-profile">
                  <img src="images/campus/icon-mopNisheetPatel.jpg" width="40" height="40" alt="Nisheet Patel" />
             <h2>Nisheet</h2>
             <p>Global Wealth &amp; Investment Management Associate Program</p>
-            <p><a href="campus-profiles-Nisheet.aspx">Read Profile</a></p>
+            <p><a href="campus-meet-our-people-profile-Nisheet.aspx">Read Profile</a></p>
             </div>
             
              <div class="mop-profile">
             <img src="images/campus/icon-mopMattHinman.jpg" width="40" height="40" alt="Matt Hinman" />
              <h2>Matt</h2>
             <p>Technology MBA Program</p>
-            <p><a href="campus-profiles-Matt.aspx">Read Profile</a></p>
+            <p><a href="campus-meet-our-people-profile-Matt.aspx">Read Profile</a></p>
             </div>
             
             <p class="learnlink"><a href="campus-Americas-associate-profiles.aspx">View all our associates profiles</a></p>
@@ -72,21 +72,21 @@
                 <img src="images/campus/icon-mopDevinFunk.jpg" width="40" height="40" alt="Devin Funk" />
             <h2>Devin</h2>
              <p>Enterprise Technology &amp; Delivery Leadership Development</p>
-            <p><a href="campus-profiles-Devin.aspx">Read Profile</a></p>
+            <p><a href="campus-meet-our-people-profile-Devin.aspx">Read Profile</a></p>
             </div>
             
              <div class="mop-profile">
              <img src="images/campus/icon-mopJenniferAurbach.jpg" width="40" height="40" alt="Jennifer Aurbach" />
              <h2>Jennifer </h2>
             <p>Global Wealth &amp; Investment Management Analyst Program</p>
-            <p><a href="campus-profiles-Jennifer.aspx">Read Profile</a></p>
+            <p><a href="campus-meet-our-people-profile-Jennifer.aspx">Read Profile</a></p>
             </div>
             
              <div class="mop-profile">
                  <img src="images/campus/icon-mopJohnCowell.jpg" width="40" height="40" alt="John Cowell" />
             <h2>John </h2>
             <p>Global Markets Operations/Middle Office Rotational Program</p>
-            <p><a href="campus-profiles-John.aspx">Read Profile</a></p>
+            <p><a href="campus-meet-our-people-profile-John.aspx">Read Profile</a></p>
             </div>
             
             <p class="learnlink"><a href="campus-Americas-intern-profiles.aspx">View all our interns profiles</a></p>
@@ -102,6 +102,17 @@
     
     		<div id="video-content">
               <br />
+              
+              <% if (Request.QueryString["vts"]=="chris") {%>
+
+               <div class="transcript-content">
+               <p>I was attracted to come to work for Bank of America because I had two former classmates who joined the same group within the bank that I currently work for. They had a great experience and came back to campus and did a really great job of selling it to me and talking about the opportunities within a large company and how they were encouraged to pursue their various interests. The diversity of people they had gotten to work with really sounded like an appealing place to work for a young professional and I was hooked. One of the things that helped me prepare for my interview process with Bank of America is all the involvement I had with professional organizations during my graduate school program. Organizations specific to the discipline that you are interested in can be very helpful in providing resources and exposing you to professionals and some of the challenges they face in their careers.</p>
+
+               <p><a href="campus-Americas-analyst-profiles.aspx">View Chris's Video</a>
+               
+               </div>
+
+            <%} else {%>
             <h2 class="hidden">Chris's Associate Testimonial Video</h2>
 
 	<div id="chris" style="display: none;">
@@ -131,7 +142,7 @@
 			</div>
 
 		</td>
-		<td width="100%" height="22" align="center" nowrap><a href="../ada_camp/usfn-corporate-workplace-analyst.asp#vt" class="btn1">Video transcript</a></td>
+		<td width="100%" height="22" align="center" nowrap><a href="campus-Americas-meet-our-people.aspx?vts=chris" class="btn1">Video transcript</a></td>
 		<td nowrap>
 
 			<div align="right" style="padding: 2px 5px;" id="chris-right-control">
@@ -145,10 +156,24 @@
 		</td>
 	</tr>
 	</table>
+	
+	<%}%> 
 
             <p>Chris</p>
             <p class="padbot">Corporate Workplace Change Consultant</p>
-            
+             
+             
+             <% if (Request.QueryString["vts"]=="tony") {%>
+
+               <div class="transcript-content">
+               <p>Though I have only been with the bank for five months now I have already been able to work on a Six Sigma project with several senior level managers and through that experience I networked with these individuals and learned from them how they do their jobs. I learned about the corporate treasury associate program through an on-campus recruiting event where several bank associates came down and spoke with students that were interested. After that we had a round of on-campus interviews which were followed by the final round which were up in Charlotte. We were actually able to visit the bank's headquarters and meet with the senior member executives as well as people we would be working with from day to day.</p>
+
+               <p><a href="campus-Americas-associate-profiles.aspx">View Tony's Video</a>
+               
+               </div>
+
+            <%} else {%>
+               
            <h2 class="hidden">Tony's Associate Testimonial Video</h2>
 	
 	<div id="tony" style="display: none;">
@@ -178,7 +203,7 @@
 			</div>
 
 		</td>
-		<td width="100%" height="22" align="center" nowrap><a href="../ada_camp/usfn-corporate-treasury-analyst.asp#vt" class="btn1">Video transcript</a></td>
+		<td width="100%" height="22" align="center" nowrap><a href="campus-Americas-meet-our-people.aspx?vts=tony" class="btn1">Video transcript</a></td>
 		<td nowrap>
 
 			<div align="right" style="padding: 2px 5px;" id="tony-right-control">
@@ -192,6 +217,8 @@
 		</td>
 	</tr>
 	</table>
+	
+	<%}%> 
 
             <p>Tony</p>
             <p class="padbot">Corporate Treasury Associate</p>
@@ -220,6 +247,6 @@
 
 	</script>
 
-
+<script src="Includes/_google.js" type="text/javascript"></script>
 </asp:Content>
 

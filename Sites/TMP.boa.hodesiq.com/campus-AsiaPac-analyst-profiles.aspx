@@ -2,7 +2,7 @@
 
 <asp:Content ID="Content1" ContentPlaceHolderID="cphmain" Runat="Server">
 
-<link href="/boa/Includes/campus.css" type="text/css" rel="stylesheet" />
+<link href="Includes/campus.css" type="text/css" rel="stylesheet" />
 
  <div id="main-profiles"> 
  
@@ -69,6 +69,16 @@
         
             <div id="video-content">
             <br />
+            <% if (Request.QueryString["vts"]=="chris") {%>
+
+               <div class="transcript-content">
+               <p>I was attracted to come to work for Bank of America because I had two former classmates who joined the same group within the bank that I currently work for. They had a great experience and came back to campus and did a really great job of selling it to me and talking about the opportunities within a large company and how they were encouraged to pursue their various interests. The diversity of people they had gotten to work with really sounded like an appealing place to work for a young professional and I was hooked. One of the things that helped me prepare for my interview process with Bank of America is all the involvement I had with professional organizations during my graduate school program. Organizations specific to the discipline that you are interested in can be very helpful in providing resources and exposing you to professionals and some of the challenges they face in their careers.</p>
+
+               <p><a href="campus-AsiaPac-analyst-profiles.aspx">View Chris's Video</a>
+               
+               </div>
+
+            <%} else {%>
             <h2 class="hidden">Chris's Associate Testimonial Video</h2>
 
 	<div id="chris" style="display: none;">
@@ -98,7 +108,7 @@
 			</div>
 
 		</td>
-		<td width="100%" height="22" align="center" nowrap><a href="../ada_camp/usfn-corporate-workplace-analyst.asp#vt" class="btn1">Video transcript</a></td>
+		<td width="100%" height="22" align="center" nowrap><a href="campus-AsiaPac-analyst-profiles.aspx?vts=chris" class="btn1">Video transcript</a></td>
 		<td nowrap>
 
 			<div align="right" style="padding: 2px 5px;" id="chris-right-control">
@@ -113,10 +123,21 @@
 	</tr>
 	</table>
 
-                        
+     <%}%>                   
 
             <p>Chris</p>
             <p class="padbot">Corporate Workplace Change Consultant</p>
+            
+            
+            <% if (Request.QueryString["vts"]=="erin") {%>
+
+             <div class="transcript-content">
+             <p>I learned about my current position from a conference called NSHMBA and there I talked to a recruiter about the Global Consumer position that I currently have became very interested and pursued the position from there. What's important to me in my career is learning and growth and opportunity for advancement, Bank of America offers all of those things and I have really been looking forward to my future at Bank of America. Two things that stands out to me when I think of Global Consumer Business Bank is my exposure to executives and two is the focus on the customer.</p>
+
+            <p><a href="campus-AsiaPac-analyst-profiles.aspx">View Erin's Video</a></p>
+            </div>
+
+            <%} else {%>
             
             <h2 class="hidden">Erin's Associate Testimonial Video</h2>
 
@@ -147,7 +168,7 @@
 			</div>
 
 		</td>
-		<td width="100%" height="22" align="center" nowrap><a href="../ada_camp/usfs-consumer-small-business-banking-mba.asp#vt" class="btn1">Video transcript</a></td>
+		<td width="100%" height="22" align="center" nowrap><a href="campus-AsiaPac-analyst-profiles.aspx?vts=erin" class="btn1">Video transcript</a></td>
 		<td nowrap>
 
 			<div align="right" style="padding: 2px 5px;" id="erin-right-control">
@@ -161,6 +182,8 @@
 		</td>
 	</tr>
 	</table>
+
+<%}%>
 
             <p>Erin</p>
             <p class="padbot">Global Consumer &amp; Small Business</p>
@@ -190,6 +213,6 @@
    
 	</script>
 
-
+<script src="Includes/_google.js" type="text/javascript"></script>
 </asp:Content>
 

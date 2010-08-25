@@ -2,7 +2,7 @@
 
 <asp:Content ID="Content1" ContentPlaceHolderID="cphmain" Runat="Server">
 
-<link href="/boa/Includes/campus.css" type="text/css" rel="stylesheet" />
+<link href="Includes/campus.css" type="text/css" rel="stylesheet" />
 
  <div id="maincontent"> 
  
@@ -39,6 +39,8 @@ Our culture is a fusion of expectations to create a winning platform. A platform
     <p>Set opportunity in motion.</p>
   </div>
 </div>
+
+<script src="Includes/_google.js" type="text/javascript"></script>
 
 </asp:Content>
 

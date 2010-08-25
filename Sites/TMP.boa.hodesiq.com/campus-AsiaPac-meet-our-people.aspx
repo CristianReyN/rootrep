@@ -2,7 +2,7 @@
 
 <asp:Content ID="Content1" ContentPlaceHolderID="cphmain" Runat="Server">
 
-<link href="/boa/Includes/campus.css" type="text/css" rel="stylesheet" />
+<link href="Includes/campus.css" type="text/css" rel="stylesheet" />
 
  <div id="main-profiles">
                    <div id="article">
@@ -17,21 +17,21 @@
                 <img src="images/campus/icon-mopLipJinLee.jpg" width="40" height="40" alt="Lip Jin Lee" />
             <h2>Lip Jin </h2>
             <p>Global Markets Analyst Program</p>
-            <p><a href="campus-profiles-Lip-Jin.aspx">Read Profile</a></p>
+            <p><a href="campus-meet-our-people-profile-Lip-Jin.aspx">Read Profile</a></p>
             </div>
             
              <div class="mop-profile">
                  <img src="images/campus/icon-mopLouiseJiang.jpg" width="40" height="40" alt="Louise Jiang" />
             <h2>Louise</h2>
             <p>Chief Financial Office Analyst Program</p>
-            <p><a href="campus-profiles-Louise.aspx">Read Profile</a></p>
+            <p><a href="campus-meet-our-people-profile-Louise.aspx">Read Profile</a></p>
             </div>
             
              <div class="mop-profile">
              <img src="images/campus/icon-mopScottChui.jpg" width="40" height="40" alt="Scott Chui" />
             <h2>Scott </h2>
             <p>Operations Analyst Program</p>
-            <p><a href="campus-profiles-Scott.aspx">Read Profile</a></p>
+            <p><a href="campus-meet-our-people-profile-Scott.aspx">Read Profile</a></p>
             </div>
             
             <p class="learnlink"><a href="campus-AsiaPac-analyst-profiles.aspx">View all our analyst profiles</a></p>
@@ -44,21 +44,21 @@
               <img src="images/campus/icon-mopDongLi.jpg" width="40" height="40" alt="Dong Li" />
             <h2>Dong</h2>
             <p>Corporate and Investment Banking Associate Program</p>
-            <p><a href="campus-profiles-Dong.aspx">Read Profile</a></p>
+            <p><a href="campus-meet-our-people-profile-Dong.aspx">Read Profile</a></p>
             </div>
             
              <div class="mop-profile">
               <img src="images/campus/icon-mopRachnaRamachandran.jpg" width="40" height="40" alt="Rachna Ramachandran" />
             <h2>Rachna</h2>
             <p>Research Quant Analyst Programme</p>
-            <p><a href="campus-profiles-Rachna.aspx">Read Profile</a></p>
+            <p><a href="campus-meet-our-people-profile-Rachna.aspx">Read Profile</a></p>
             </div>
             
              <div class="mop-profile">
            <img src="images/campus/icon-mopPriyaSharma.jpg" width="40" height="40" alt="Priya Sharma" />
             <h2>Priya</h2>
             <p>Corporate and Investment Banking Associate Programme</p>
-            <p><a href="campus-profiles-Priya.aspx">Read Profile</a></p>
+            <p><a href="campus-meet-our-people-profile-Priya.aspx">Read Profile</a></p>
             </div>
             
             <p class="learnlink"><a href="campus-AsiaPac-associate-profiles.aspx">View all our associates profiles</a></p>
@@ -71,21 +71,21 @@
              <img src="images/campus/icon-mopDongLi.jpg" width="40" height="40" alt="Dong Li" />
             <h2>Dong</h2>
             <p>Corporate and Investment Banking Associate Program</p>
-            <p><a href="campus-profiles-Dong.aspx">Read Profile</a></p>
+            <p><a href="campus-meet-our-people-profile-Dong.aspx">Read Profile</a></p>
             </div>
             
              <div class="mop-profile">
              <img src="images/campus/icon-mopGabrielNG.jpg" width="40" height="40" alt="Gabriel NG" />
             <h2>Gabriel</h2>
             <p>Corporate and Investment Banking Analyst Program</p>
-            <p><a href="campus-profiles-Gabriel.aspx">Read Profile</a></p>
+            <p><a href="campus-meet-our-people-profile-Gabriel.aspx">Read Profile</a></p>
             </div>
             
              <div class="mop-profile">
               <img src="images/campus/icon-mopKenChung.jpg" width="40" height="40" alt="Ken Chung" />
             <h2>Ken</h2>
             <p>Sales and Trading Analyst Programme</p>
-            <p><a href="campus-profiles-Ken.aspx">Read Profile</a></p>
+            <p><a href="campus-meet-our-people-profile-Ken.aspx">Read Profile</a></p>
             </div>
             
             <p class="learnlink"><a href="campus-AsiaPac-intern-profiles.aspx">View all our intern profiles</a></p>
@@ -100,6 +100,16 @@
             
             <div id="video-content">
             <br />
+            <% if (Request.QueryString["vts"]=="nathan") {%>
+
+               <div class="transcript-content">
+               <p>My current workplace environment is fantastic. I work on a world class team with bright people who love what they that are doing, they are passionate and best of all that are a lot of fun to work with. The team environment is truly something we exemplify here in the company I see that everyday when I come to work. Two most important aspects of working for a company, one that I have opportunities to grow and develop and Bank of America as a changing growing company offers that to me as an associate and also being a father I want a company that allows me to have good work/life balance. So I can come to work and I can work hard but I am also strongly encouraged to take the time that I need to do what I need to do in my personal life outside of the work place. I have learned that you have to be proactive in all that you do, think ahead. This is the type of environment where we are encouraged to do this we are not penalized for being proactive or even making mistakes. I have also learned that you need to reach out to your teams and leverage everyone on your team it's a great team environment. So reach out don't hesitate to ask other people what they are doing they will be more than happy to help you succeed.</p>
+
+               <p><a href="campus-AsiaPac-meet-our-people.aspx">View Nathan's Video</a>
+               
+               </div>
+
+            <%} else {%>
             <h2 class="hidden">Nathan's Associate Testimonial Video</h2>
 
 	<div id="nathan" style="display: none;">
@@ -129,7 +139,7 @@
 			</div>
 
 		</td>
-		<td width="100%" height="22" align="center" nowrap><a href="../ada_camp/usfs-global-human-resources-leadership-development.asp#vt" class="btn1">Video transcript</a></td>
+		<td width="100%" height="22" align="center" nowrap><a href="campus-AsiaPac-meet-our-people.aspx?vts=nathan" class="btn1">Video transcript</a></td>
 		<td nowrap>
 
 			<div align="right" style="padding: 2px 5px;" id="nathan-right-control">
@@ -144,11 +154,23 @@
 	</tr>
 	</table>
 
-
+     <%}%> 
+            
             <p>Nathan</p>
             <p class="padbot">Global Human Resources Consultant</p>
             
-          <h2 class="hidden">Guan's Associate Testimonial Video</h2>
+            
+             <% if (Request.QueryString["vts"]=="guan") {%>
+
+               <div class="transcript-content">
+               <p>The culture at Bank of America is quite diverse depending upon which group you work the culture can be quite different. For example the current group I am working in is very academic because we hire a group of PhDs who do very complicated credit modeling. However, in my previous job because I was involved in a two year rotational program it was much more fast paced because we were on the trading floor and we were aiding the traders and measuring their risk.</p>
+
+               <p><a href="campus-AsiaPac-meet-our-people.aspx">View Guan's Video</a>
+               
+               </div>
+
+            <%} else {%>
+            <h2 class="hidden">Guan's Associate Testimonial Video</h2>
 
 	<div id="guan" style="display: none;">
 
@@ -177,7 +199,7 @@
 			</div>
 
 		</td>
-		<td width="100%" height="22" align="center" nowrap><a href="../ada_camp/usfn-quantitative-management.asp#vt" class="btn1">Video transcript</a></td>
+		<td width="100%" height="22" align="center" nowrap><a href="campus-AsiaPac-meet-our-people.aspx?vts=guan" class="btn1">Video transcript</a></td>
 		<td nowrap>
 
 			<div align="right" style="padding: 2px 5px;" id="guan-right-control">
@@ -190,7 +212,9 @@
 
 		</td>
 	</tr>
-	</table> 
+	</table>
+ <%}%> 
+ 
             <p>Guan</p>
             <p class="padbot">Quantitative Management Associate</p>
             </div>
@@ -218,6 +242,7 @@
 
 	</script>
 
+<script src="Includes/_google.js" type="text/javascript"></script>
 
 </asp:Content>
 
