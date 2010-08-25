@@ -10,17 +10,38 @@
 
 	/* Default layout */
 	
-	a:link {
+	#profiles a:link,
+	#maincontent a:link,
+	#main-profiles a:link,
+	#america-home a:link,
+	#asiapac-home a:link,
+	#emea-home a:link,
+	#global-gateway a:link {
+	font-size: .93em;
 	color: #336699;
 	text-decoration: none;
 	}
 	
-	a:hover {
+	#profiles a:hover,
+	#maincontent a:hover,
+	#main-profiles a:hover,
+	#america-home a:hover,
+	#asiapac-home a:hover,
+	#emea-home a:hover,
+	#global-gateway a:hover {
+	font-size: .93em;
 	color: #336699;
 	text-decoration: underline;
 	}
 	
-	a:visited {
+	#profiles a:visited,
+	#maincontent a:visited,
+	#main-profiles a:visited,
+	#america-home a:visited,,
+	#asiapac-home a:visited,,
+	#emea-home a:visited,
+	#global-gateway a:visited {
+	font-size: .93em;
 	color: #651c7e;
 	text-decoration: underline;
 	}
@@ -31,9 +52,8 @@
 	position: relative;
 	padding: 0;
 	width: 578px;
-	font-size: 1.1em;
-	font-family: Arial, Helvetica, Verdana,  sans-serif;
-	color: #5c5c5c;
+	font-family: Arial, Helvetica, Verdana, sans-serif;
+	color: #000;
 	}
 	
 	
@@ -41,7 +61,7 @@
 	margin: 0;
 	padding: 0;
 	font-family: Verdana, Arial, Helvetica, sans-serif;
-	font-size: 1.5em;
+	font-size: 1.7em;
 	color: #d4001a;
 	padding-bottom: 35px;
 	}
@@ -57,7 +77,7 @@
 	margin: 0;
 	padding: 0;
 	font-family: Verdana, Arial, Helvetica, sans-serif;
-	font-size: 1.5em;
+	font-size: 1.7em;
 	color: #d4001a;
 	padding-bottom: 12px;
 	}
@@ -66,7 +86,7 @@
 	margin: 0;
 	padding: 0;
 	font-family: Arial, Helvetica, Verdana, sans-serif;
-	font-size: 1.25em;
+	font-size: 1.3em;
 	color: #336699;
 	font-weight: normal;
 	padding-top: 5px;
@@ -78,7 +98,7 @@
 	padding: 0;
 	font-family: Arial, Helvetica, Verdana, sans-serif;
 	color: #5c5c5c;
-	font-size: 1em;
+	font-size: 1.01em;
 	font-weight: bold;
 	padding-top: 12px;
 	padding-bottom: 5px;
@@ -141,7 +161,7 @@
 	margin: 0;
 	padding: 0;
 	font-family: Arial, Helvetica, Verdana, sans-serif;
-	font-size: 1.25em;
+	font-size: 1.3em;
 	color: #336699;
 	padding-top: 15px;
 	}
@@ -151,8 +171,7 @@
 	padding-top: 10px;
 	padding-bottom: 20px;
 	}
-       
-        	
+          	
     #main-profiles #article div.mop-profile {
 	float: left;
 	position: relative;
@@ -164,7 +183,6 @@
 	margin-right: 10px;
 	margin-bottom: 15px;
 	} 
-	
 	
 	#main-profiles #article div.mop-profile img {
 	margin: 0;
@@ -186,7 +204,7 @@
 	#main-profiles #article div.mop-profile p {
 	margin: 0;
 	padding: 0;
-	font-size: .8em;
+	font-size: .85em;
 	color: #363636;
 	padding-right: 10px;
 	padding-left: 5px;
@@ -240,7 +258,7 @@
 	#main-profiles #article div.profile-article p {
 	margin: 0;
 	padding: 0;
-	font-size: .8em;
+	font-size: .85em;
 	color: #333;
 	padding-right: 20px;
 	}
@@ -254,7 +272,7 @@
 	position: absolute;
 	width: 190px;
 	top: 12px;
-	left: 140px;
+	left: 135px;
 	line-height: 1.2em;
 	font-weight: bold;
 	}
@@ -296,13 +314,13 @@
 	#article .content-profiles h2 {
 	margin: 0;
 	padding: 0;
-	font-size: 1.25em;   
+	font-size: 1.3em;   
 	}
 	
 	#article .content-profiles h3 {
 	margin: 0;
 	padding: 0;
-	font-size: 0.75em;
+	font-size: 0.8em;
 	font-weight: normal;
 	padding-top: 15px;
 	}
@@ -310,7 +328,7 @@
 	#article .content-profiles p {
 	margin: 0;
 	padding: 0;
-	font-size: 0.75em;
+	font-size: 0.8em;
 	color: #5c5c5c;
 	line-height: 14px;
 	}
@@ -340,7 +358,7 @@
 	margin: 0;
 	padding:0;
 	font-family: Arial, Helvetica, Verdana,  sans-serif;
-	font-size: 0.87em;
+	font-size: 0.97em;
 	font-weight: bold;
 	color: #333;
 	padding-top: 10px;
@@ -362,7 +380,7 @@
 	
 	/* right column for analyst, associates, intern profiles, - videos */
 	
-	#main-profiles #aside{
+	#main-profiles #aside {
 	width: 218px;
 	margin-left: 30px;
 	}
@@ -371,7 +389,7 @@
 	width: 213px;
 	height: 464px;
 	border: 1px solid #9d9d9d;
-	background: url(../images/campus/bkg-videocontent.jpg) no-repeat;
+	background: #f4f4f4 url(../images/campus/bkg-videocontent.jpg)left bottom no-repeat;
 	margin-bottom: 15px;
 	}
 	
@@ -405,6 +423,16 @@
 	padding-bottom: 15px;
 	}
 	
+	#main-profiles #aside #video-content .transcript-content {
+	width: 200px;
+	padding: 0 5px 10px 5px;
+	}
+	
+	#main-profiles #aside #video-content .transcript-content p {
+	font-weight: normal;
+	padding-bottom: 7px;
+	}
+	
 	/* ======= global gateway page =======*/
 	#global-gateway {
 	margin: 0;
@@ -433,32 +461,43 @@
 	color: #000;
 	}
 	
-	#america-home a.searchbtn {
+	/*#america-home p.searchbtn {
 	position: absolute;
 	width: 43px;
 	height: 45px;
-	top: 322px;
-	left: 9px;
+	top: 323px;
+	left: 10px;
+	
+	}
+	
+	#america-home p.searchbtn a:link {
+	display: block;
+	width: 43px;
+	height: 45px;
+	text-indent: -999em;
+	overflow: hidden;
+	border: 1px solid white;
+	}
+	
+	#america-home p.videobtn {
+	position: absolute;
+	width: 43px;
+	height: 45px;
+	top: 323px;
+	left: 72px;
 	text-indent: -999em;
 	}
 	
-	#america-home a.videobtn {
+	#america-home p.twitterbtn {
 	position: absolute;
 	width: 43px;
 	height: 45px;
-	top: 322px;
-	left: 71px;
+	top: 323px;
+	left: 135px;
 	text-indent: -999em;
-	}
+	}*/
 	
-	#america-home a.twitterbtn {
-	position: absolute;
-	width: 43px;
-	height: 45px;
-	top: 322px;
-	left: 134px;
-	text-indent: -999em;
-	}
+	
 	#america-home p.footnote-content {
 	padding-left: 232px;
 	padding-bottom: 50px;
@@ -476,6 +515,18 @@
 	padding-bottom: 10px;
 	padding-left: 10px;
 	}
+	
+	#america-home #icon-home-buttons {
+    position: absolute;
+    width: 195px;
+    top: 323px;
+    left: 10px;
+    }
+    
+    #america-home #icon-home-buttons img {
+    border: none;
+    margin-right: 15px;
+    }
 	
 	
 	/* asia pac homepage */
@@ -497,7 +548,7 @@
 	color: #000;
 	}
 	
-	#asiapac-home a.searchbtn {
+	/*#asiapac-home a.searchbtn {
 	position: absolute;
 	width: 43px;
 	height: 45px;
@@ -513,7 +564,8 @@
 	top: 323px;
 	left: 116px;
 	text-indent: -999em;
-	}
+	}*/
+	
 	#asiapac-home p.footnote-content {
 	padding-left: 232px;
 	padding-bottom: 50px;
@@ -531,6 +583,18 @@
 	padding-bottom: 10px;
 	padding-left: 10px;
 	}
+	
+	#asiapac-home #icon-home-buttons {
+    position: absolute;
+    width: 195px;
+    top: 323px;
+    left: 35px;
+    }
+    
+    #asiapac-home #icon-home-buttons img {
+    border: none;
+    margin-right: 25px;
+    }
 	
 	
 	/* ======= emea homepage =======*/
@@ -553,7 +617,7 @@
 	color: #000;
 	}
 	
-	#emea-home a.searchbtn {
+	/*#emea-home a.searchbtn {
 	position: absolute;
 	width: 43px;
 	height: 45px;
@@ -569,7 +633,9 @@
 	top: 320px;
 	left: 116px;
 	text-indent: -999em;
-	}
+	}*/
+	
+	
 	#emea-home p.footnote-content {
 	padding-left: 232px;
 	padding-bottom: 50px;
@@ -588,6 +654,18 @@
 	padding-left: 10px;
 	}
 	
+	#emea-home #icon-home-buttons {
+    position: absolute;
+    width: 195px;
+    top: 323px;
+    left: 35px;
+    }
+    
+    #emea-home #icon-home-buttons img {
+    border: none;
+    margin-right: 25px;
+    }
+	
 	#home-buttons {
 	position: absolute;
 	width: 179px;
@@ -602,7 +680,7 @@
 	
 	/* ======career finder buttont ===*/
 	
-	p.careerfinder-btn a {
+	#maincontent p.careerfinder-btn a {
 	display: block;
 	width: 168px;
 	height: 24px;
@@ -614,13 +692,13 @@
 	
 	}
 	
-	p.careerfinder-btn a:hover {
+	#maincontent p.careerfinder-btn a:hover {
 	background: url(../images/campus/btn-launchcareer.jpg) left -24px no-repeat;
 	color: #fff;
 	text-decoration: underline;
 	}
 	
-	p.careerfinder-btn a:visited {
+	#maincontent p.careerfinder-btn a:visited {
 	text-decoration: none;
 	color: #fff;
 	}
@@ -628,7 +706,7 @@
 	
 	/*====== code for buttons on apply page ====*/
 
-a.button, a.button:hover, a.button:active {
+#maincontent a.button, #maincontent a.button:hover, #maincontent a.button:active {
 background: transparent url(../images/campus/bg_button_a.gif) top right no-repeat;
 color:#333;
 display: block;
@@ -641,7 +719,7 @@ text-decoration: none;
 }
 
 
-a.button span, a.button:hover span, a.button:active span {
+#maincontent a.button span, #maincontent a.button:hover span, #maincontent a.button:active span {
 background: transparent url(../images/campus/bg_button_span.gif) no-repeat;
 display: block;
 line-height:15px;
@@ -649,31 +727,31 @@ padding: 2px 0 5px 12px;
 } 
 
 
-a.button:hover {
+#maincontent a.button:hover {
 background: transparent url(../images/campus/bg_button_a.gif) center right no-repeat;
 color: #ec1c02;
 outline: none; /* hide dotted outline in Firefox */
 }
 
 
-a.button:hover span {
+#maincontent a.button:hover span {
 background-position:center left;
 padding: 2px 0 5px 12px;	
 } 
-a.button:active {
+#maincontent a.button:active {
 background: transparent url(../images/campus/bg_button_a.gif) bottom right no-repeat;
 color: #d4181a;
 outline: none;/* hide dotted outline in Firefox */
 }
 
-a.button:active span {
+#maincontent a.button:active span {
 background-position: bottom left;
 padding: 3px 0 4px 12px;
 } 
 
 
 /* INACTIVE BUTTON SPECIFIC STYLES */
-a.inactive {
+#maincontent a.inactive {
 background: transparent url(../images/campus/bg_fade-button_a.gif) top right no-repeat;
 cursor: default;
 color: #cdcdcd;
@@ -687,11 +765,11 @@ text-decoration: none;
 }
 
 
-a.inactive:hover, a.inactive:hover span {
+#maincontent a.inactive:hover, #maincontent a.inactive:hover span {
 cursor: default;
 }
 
-a.inactive span {
+#maincontent a.inactive span {
 cursor: default;
 background: transparent url(../images/campus/bg_fade-button_span.gif) no-repeat;
 display: block;
@@ -717,7 +795,7 @@ padding-bottom: 60px;
 	#maincontent #red-footer p,
 	#main-profiles #red-footer p {
 	color: #FFFFFF;
-	font-size: 1.2em;
+	font-size: 1.3em;
 	padding: 50px 0 60px 20px;
 	}
 
