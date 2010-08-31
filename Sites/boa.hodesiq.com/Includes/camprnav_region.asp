@@ -11,7 +11,7 @@
 	<img src="../images/clear.gif" width="179" height="5" alt="" border="0"><br clear="all">
 <%		End if %>
 <%		if r3 then %>
-	<a href="<%=ApplyLink (program)%>" title="Apply Now. Click here to set your opportunity in motion "><img src="../images/camp/bac_apply_now.jpg" width="179" height="66" alt="Apply Now. Click here to set your opportunity in motion " border="0"></a>
+	<a href="<%=ApplyLink (program)%>" title="Apply Now. Click here to set your opportunity in motion. "><img src="../images/camp/bac_apply_now.jpg" width="179" height="66" alt="Apply Now. Click here to set your opportunity in motion. " border="0"></a>
 	<img src="../images/clear.gif" width="179" height="5" alt="" border="0"><br clear="all">
 <%		End if %>
 <%		if r4 then %>
