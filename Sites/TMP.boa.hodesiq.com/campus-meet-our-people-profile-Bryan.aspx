@@ -6,7 +6,7 @@
 <div id="profiles"> 
   <h1>Our Associates</h1>
   <div id="article"> 
-    <div class="content-profiles"> <img src="images/campus/profiles/photo-BryanCook.jpg" width="167" height="168" alt="Bryan" /> 
+    <div class="content-profiles"> <img src="images/campus/profiles/photo-Bryan.jpg" width="167" height="168" alt="Bryan" /> 
       <div class="info-profiles"> 
         <h2>Bryan</h2>
         <p>Associate</p>

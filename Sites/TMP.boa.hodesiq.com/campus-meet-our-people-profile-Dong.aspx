@@ -7,7 +7,7 @@
 <div id="profiles"> 
   <h1>Our Associates</h1>
   <div id="article"> 
-    <div class="content-profiles"> <img src="images/campus/profiles/photo-DongLi.jpg" width="167" height="168" alt="Dong" /> 
+    <div class="content-profiles"> <img src="images/campus/profiles/photo-Dong.jpg" width="167" height="168" alt="Dong" /> 
       <div class="info-profiles"> 
         <h2>Dong</h2>
         <p>Associate</p>

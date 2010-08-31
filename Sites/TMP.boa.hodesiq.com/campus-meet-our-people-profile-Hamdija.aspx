@@ -11,7 +11,7 @@
     
         <div class="content-profiles">
         
-            <img src="images/campus/profiles/photo-HamadijaCustovic.jpg" width="167" height="168" alt="Hamadija" />
+            <img src="images/campus/profiles/photo-Hamdija.jpg" width="167" height="168" alt="Hamdija" />
               
                 <div class="info-profiles">
                 <h2>Hamdija</h2>

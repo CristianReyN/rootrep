@@ -11,7 +11,7 @@
     
         <div class="content-profiles">
         
-            <img src="images/campus/profiles/photo-RachelWise.jpg" width="167" height="168" alt="Rachel Wise" />
+            <img src="images/campus/profiles/photo-Rachel.jpg" width="167" height="168" alt="Rachel" />
                
                 <div class="info-profiles">
                 <h2>Rachel</h2>

@@ -11,7 +11,7 @@
     
         <div class="content-profiles">
         
-            <img src="images/campus/profiles/photo-StanleyChan.jpg" width="167" height="168" alt="Stanley Chan" />
+            <img src="images/campus/profiles/photo-Stanley.jpg" width="167" height="168" alt="Stanley" />
              <div class="info-profiles">
              <h2>Stanley</h2>
             <p>Vice President</p>

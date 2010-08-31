@@ -11,7 +11,7 @@
     
         <div class="content-profiles">
         
-            <img src="images/campus/profiles/photo-RomanSerper.jpg" width="167" height="168" alt="Roman Serper" />
+            <img src="images/campus/profiles/photo-Roman.jpg" width="167" height="168" alt="Roman" />
 
                 <div class="info-profiles">
                 <h2>Roman</h2>

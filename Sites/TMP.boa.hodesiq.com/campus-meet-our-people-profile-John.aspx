@@ -7,7 +7,7 @@
 <div id="profiles"> 
   <h1>Our Analysts</h1>
   <div id="article"> 
-    <div class="content-profiles"> <img src="images/campus/profiles/photo-JohnCowell.jpg" width="167" height="168" alt="John" /> 
+    <div class="content-profiles"> <img src="images/campus/profiles/photo-John.jpg" width="167" height="168" alt="John" /> 
       <div class="info-profiles"> 
         <h2>John</h2>
         <p>Senior Operations Specialist</p>

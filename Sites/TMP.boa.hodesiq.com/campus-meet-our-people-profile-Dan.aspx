@@ -7,9 +7,9 @@
 <div id="profiles"> 
   <h1>Our Analysts</h1>
   <div id="article"> 
-    <div class="content-profiles"> <img src="images/campus/profiles/photo-Dan.jpg" width="167" height="168" alt="Daniel" /> 
+    <div class="content-profiles"> <img src="images/campus/profiles/photo-Dan.jpg" width="167" height="168" alt="Dan" /> 
       <div class="info-profiles"> 
-        <h2>Daniel</h2>
+        <h2>Dan</h2>
         <p>Analyst</p>
         <p>Global Sales &amp; Trading Analyst Program, New York, NY</p>
         <h3>Education:</h3>

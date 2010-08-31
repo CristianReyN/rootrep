@@ -7,7 +7,7 @@
 <div id="profiles"> 
   <h1>Our Interns</h1>
   <div id="article"> 
-    <div class="content-profiles"> <img src="images/campus/profiles/photo-PepeLopez-Gallo.jpg" width="167" height="168" alt="Pepe" /> 
+    <div class="content-profiles"> <img src="images/campus/profiles/photo-Pepe.jpg" width="167" height="168" alt="Pepe" /> 
       <div class="info-profiles"> 
         <h2>Pepe</h2>
         <p>Associate</p>

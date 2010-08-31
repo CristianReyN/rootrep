@@ -7,7 +7,7 @@
 <div id="profiles"> 
   <h1>Our Associates</h1>
   <div id="article"> 
-    <div class="content-profiles"> <img src="images/campus/profiles/photo-TylerBak.jpg" width="167" height="168" alt="Tyler" /> 
+    <div class="content-profiles"> <img src="images/campus/profiles/photo-Tyler.jpg" width="167" height="168" alt="Tyler" /> 
       <div class="info-profiles"> 
         <h2>Tyler</h2>
         <p>Associate</p>

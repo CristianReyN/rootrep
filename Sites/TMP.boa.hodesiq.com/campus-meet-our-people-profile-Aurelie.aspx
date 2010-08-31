@@ -11,7 +11,7 @@
     
         <div class="content-profiles">
         
-            <img src="images/campus/profiles/photo-AurelieCaspar.jpg" width="167" height="168" alt="Bhavin" />
+            <img src="images/campus/profiles/photo-Aurelie.jpg" width="167" height="168" alt="Aurelie" />
               
                 <div class="info-profiles">
                 <h2>Aurelie</h2>

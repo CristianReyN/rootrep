@@ -11,7 +11,7 @@
     
         <div class="content-profiles">
         
-            <img src="images/campus/profiles/photo-KenChung.jpg" width="167" height="168" alt="Ken Chung" />
+            <img src="images/campus/profiles/photo-Ken.jpg" width="167" height="168" alt="Ken" />
                 
                 <div class="info-profiles">
                 <h2>Ken</h2>

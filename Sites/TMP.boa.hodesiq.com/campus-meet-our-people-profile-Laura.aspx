@@ -7,7 +7,7 @@
 <div id="profiles"> 
   <h1>Our Analysts</h1>
   <div id="article"> 
-    <div class="content-profiles"> <img src="images/campus/profiles/photo-LauraDuke.jpg" width="167" height="168" alt="Laura" /> 
+    <div class="content-profiles"> <img src="images/campus/profiles/photo-Laura.jpg" width="167" height="168" alt="Laura" /> 
       <div class="info-profiles"> 
         <h2>Laura</h2>
         <p>Analyst</p>

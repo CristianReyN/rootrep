@@ -11,7 +11,7 @@
     
         <div class="content-profiles">
         
-            <img src="images/campus/profiles/photo-RossMcewan.jpg" width="167" height="168" alt="Ross Mcewan" />
+            <img src="images/campus/profiles/photo-Ross.jpg" width="167" height="168" alt="Ross" />
                  <div class="info-profiles">
                  <h2>Ross</h2>
                 <p>Analyst</p>

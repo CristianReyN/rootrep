@@ -7,7 +7,7 @@
 <div id="profiles"> 
   <h1>Our Analysts</h1>
   <div id="article"> 
-    <div class="content-profiles"> <img src="images/campus/profiles/photo-AshleyClarke.jpg" width="167" height="168" alt="Ashley" /> 
+    <div class="content-profiles"> <img src="images/campus/profiles/photo-Ashley.jpg" width="167" height="168" alt="Ashley" /> 
       <div class="info-profiles"> 
         <h2>Ashley</h2>
         <p>Senior Financial Analyst</p>

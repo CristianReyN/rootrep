@@ -7,7 +7,7 @@
 <div id="profiles"> 
   <h1>Our Associates</h1>
   <div id="article"> 
-    <div class="content-profiles"> <img src="images/campus/profiles/photo-IrinaDolgova.jpg" width="167" height="168" alt="Irina" /> 
+    <div class="content-profiles"> <img src="images/campus/profiles/photo-Irina.jpg" width="167" height="168" alt="Irina" /> 
       <div class="info-profiles"> 
         <h2>Irina</h2>
         <p>Associate</p>

@@ -7,7 +7,7 @@
 <div id="profiles"> 
   <h1>Our Associates</h1>
   <div id="article"> 
-    <div class="content-profiles"> <img src="images/campus/profiles/photo-PriyaSharma.jpg" width="167" height="168" alt="Priya" /> 
+    <div class="content-profiles"> <img src="images/campus/profiles/photo-Priya.jpg" width="167" height="168" alt="Priya" /> 
       <div class="info-profiles"> 
         <h2>Priya</h2>
         <p>Associate</p>

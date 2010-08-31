@@ -11,7 +11,7 @@
     
         <div class="content-profiles">
         
-            <img src="images/campus/profiles/photo-MattHinman.jpg" width="167" height="168" alt="Matt Hinman" />
+            <img src="images/campus/profiles/photo-Matt.jpg" width="167" height="168" alt="Matt" />
 
                 <div class="info-profiles">
                 <h2>Matt</h2>

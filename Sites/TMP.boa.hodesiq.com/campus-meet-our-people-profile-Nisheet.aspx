@@ -6,7 +6,7 @@
 <div id="profiles"> 
   <h1>Our Associates</h1>
   <div id="article"> 
-    <div class="content-profiles"> <img src="images/campus/profiles/photo-NisheetPatel.jpg" width="167" height="168" alt="Nisheet" /> 
+    <div class="content-profiles"> <img src="images/campus/profiles/photo-Nisheet.jpg" width="167" height="168" alt="Nisheet" /> 
       <div class="info-profiles"> 
         <h2>Nisheet</h2>
         <p>Associate</p>

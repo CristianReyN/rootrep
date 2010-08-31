@@ -7,7 +7,7 @@
 <div id="profiles"> 
   <h1>Our Interns</h1>
   <div id="article"> 
-    <div class="content-profiles"> <img src="images/campus/profiles/photo-JenniferAurbach.jpg" width="167" height="168" alt="Jennifer" /> 
+    <div class="content-profiles"> <img src="images/campus/profiles/photo-Jennifer.jpg" width="167" height="168" alt="Jennifer" /> 
       <div class="info-profiles"> 
         <h2>Jennifer</h2>
         <p>Analyst</p>

@@ -11,7 +11,7 @@
     
         <div class="content-profiles">
         
-            <img src="images/campus/profiles/photo-SukeChan.jpg" width="167" height="168" alt="Bhavin" />
+            <img src="images/campus/profiles/photo-Suke.jpg" width="167" height="168" alt="Suke" />
 
                 <div class="info-profiles">
                 <h2>Suke</h2>
@@ -24,18 +24,7 @@
                 </div>
         </div>
     
-    <h4>What advice would you give to someone considering an opportunity at
-Bank of America?</h4>
-<p>Success can be achieved by persistence and your passion. It is important
-to understand what your mission in life is because work is also part of it.
-If you are looking for a diverse, dynamic environment with a lot of career
-opportunities, Bank of America is definitely your choice.</p>
-
-<h4>What other activities do you enjoy outside of your work day?</h4>
-<p>Outside of my work, I am active in Girl Guiding where I am a leader of a troop
-with 25 teenage girls. Volunteering is a great way to relieve stress while you
-give back to your society.</p>
-
+   
 <h4>What is your current assignment and primary responsibilities?</h4>
 <p>I work in Market Data Services in the Enterprise Technology & Delivery
 Group. My team manages infrastructures which provide market data from
@@ -54,6 +43,19 @@ good communication skills are key.</p>
 find exciting business opportunities from around the world. Asia
 Pacific offices are relatively smaller than the U.S., so young
 professionals will often get more exposure and responsibilities.</p>
+
+ <h4>What advice would you give to someone considering an opportunity at
+Bank of America?</h4>
+<p>Success can be achieved by persistence and your passion. It is important
+to understand what your mission in life is because work is also part of it.
+If you are looking for a diverse, dynamic environment with a lot of career
+opportunities, Bank of America is definitely your choice.</p>
+
+<h4>What other activities do you enjoy outside of your work day?</h4>
+<p>Outside of my work, I am active in Girl Guiding where I am a leader of a troop
+with 25 teenage girls. Volunteering is a great way to relieve stress while you
+give back to your society.</p>
+
     
     
     <p class="back-top"><a href="#profiles">Back to top</a></p>
