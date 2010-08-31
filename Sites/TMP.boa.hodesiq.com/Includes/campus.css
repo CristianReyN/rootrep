@@ -10,6 +10,15 @@
 
 	/* Default layout */
 	
+	.wai {
+	width: 0;
+	height: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	text-indent: -999em;
+	}
+	
 	#profiles a:link,
 	#maincontent a:link,
 	#main-profiles a:link,
@@ -17,9 +26,10 @@
 	#asiapac-home a:link,
 	#emea-home a:link,
 	#global-gateway a:link {
-	font-size: .93em;
+	font-size: .94em;
 	color: #336699;
 	text-decoration: none;
+	font-family: Arial, Helvetica, Verdana, sans-serif;
 	}
 	
 	#profiles a:hover,
@@ -29,21 +39,23 @@
 	#asiapac-home a:hover,
 	#emea-home a:hover,
 	#global-gateway a:hover {
-	font-size: .93em;
+	font-size: .94em;
 	color: #336699;
 	text-decoration: underline;
+	font-family: Arial, Helvetica, Verdana, sans-serif;
 	}
 	
 	#profiles a:visited,
 	#maincontent a:visited,
 	#main-profiles a:visited,
-	#america-home a:visited,,
-	#asiapac-home a:visited,,
+	#america-home a:visited,
+	#asiapac-home a:visited,
 	#emea-home a:visited,
 	#global-gateway a:visited {
-	font-size: .93em;
+	font-size: .94em;
 	color: #651c7e;
-	text-decoration: underline;
+	text-decoration: none !important;
+	font-family: Arial, Helvetica, Verdana, sans-serif;
 	}
 
 	#profiles,
@@ -93,7 +105,8 @@
 	padding-bottom: 3px;
 	}
 	
-	#maincontent #article h3 {
+	#maincontent #article h3,
+	#maincontent #article h2.questions {
 	margin: 0;
 	padding: 0;
 	font-family: Arial, Helvetica, Verdana, sans-serif;
@@ -101,8 +114,9 @@
 	font-size: 1.01em;
 	font-weight: bold;
 	padding-top: 12px;
-	padding-bottom: 5px;
-	}
+    }
+    
+    
 	#maincontent #article p {
 	padding-bottom: 15px;
 	}
@@ -155,21 +169,46 @@
 	padding-top: 40px;
 	}
 	
+	#maincontent #article h3.pad-top {
+	margin: 0;
+	padding: 0;
+	padding-top: 5px;
+	padding-bottom: 3px;
+	}
+	
+	#maincontent #article h3.pad-intern {
+	margin: 0;
+	padding: 0;
+	}
+	
+	#article blockquote {
+	margin: 0;
+	padding: 0;
+	font-size: 1em;
+	font-family: Arial, Helvetica, Verdana, sans-serif;
+	color: #5c5c5c;
+	padding: 0 15px 12px 10px;
+	}
+	
 	/* ======== meet the people pages ====== */
 	
-	#main-profiles #article div.featured-profile  h2 {
+	#main-profiles #article div.featured-profile {
+	width: 312px;
+	}
+	
+	#main-profiles #article div.featured-profile h2 {
 	margin: 0;
 	padding: 0;
 	font-family: Arial, Helvetica, Verdana, sans-serif;
 	font-size: 1.3em;
-	color: #336699;
+	color: #333;
 	padding-top: 15px;
 	}
 	
 	#main-profiles #article div.featured-profile p.learnlink {
 	text-align: right;
-	padding-top: 10px;
-	padding-bottom: 20px;
+	padding: 10px 12px 20px 0;
+	
 	}
           	
     #main-profiles #article div.mop-profile {
@@ -192,11 +231,12 @@
 	border: none;
 	}
 	
-	#main-profiles #article div.mop-profile h2 {
+	#main-profiles #article div.mop-profile h3 {
 	margin: 0;
 	padding: 0;
 	font-size: 1em;
 	color: #363636;
+	font-weight: bold;
 	padding-left: 5px;
 	padding-left: 5px;
 	}
@@ -320,8 +360,8 @@
 	#article .content-profiles h3 {
 	margin: 0;
 	padding: 0;
-	font-size: 0.8em;
-	font-weight: normal;
+	font-size: 0.95em;
+	font-weight: bold;
 	padding-top: 15px;
 	}
 	
@@ -368,22 +408,25 @@
 	margin: 0;
 	padding:0;
 	list-style: none;
+	list-style-image: none !important;
 	padding-left: 12px;
 	padding-top: 10px;
 	}
 	
 	#aside li {
 	padding-bottom: 3px;
+	margin: 0;
+	padding: 0;
 	}
-	
-	
 	
 	/* right column for analyst, associates, intern profiles, - videos */
 	
 	#main-profiles #aside {
 	width: 218px;
 	margin-left: 30px;
+	margin-top: 43px;
 	}
+	
 	
 	#main-profiles #aside #video-content {
 	width: 213px;
@@ -433,6 +476,8 @@
 	padding-bottom: 7px;
 	}
 	
+	
+	
 	/* ======= global gateway page =======*/
 	#global-gateway {
 	margin: 0;
@@ -460,43 +505,6 @@
 	font-size: .75em;
 	color: #000;
 	}
-	
-	/*#america-home p.searchbtn {
-	position: absolute;
-	width: 43px;
-	height: 45px;
-	top: 323px;
-	left: 10px;
-	
-	}
-	
-	#america-home p.searchbtn a:link {
-	display: block;
-	width: 43px;
-	height: 45px;
-	text-indent: -999em;
-	overflow: hidden;
-	border: 1px solid white;
-	}
-	
-	#america-home p.videobtn {
-	position: absolute;
-	width: 43px;
-	height: 45px;
-	top: 323px;
-	left: 72px;
-	text-indent: -999em;
-	}
-	
-	#america-home p.twitterbtn {
-	position: absolute;
-	width: 43px;
-	height: 45px;
-	top: 323px;
-	left: 135px;
-	text-indent: -999em;
-	}*/
-	
 	
 	#america-home p.footnote-content {
 	padding-left: 232px;
@@ -528,8 +536,8 @@
     margin-right: 15px;
     }
 	
-	
 	/* asia pac homepage */
+	
 	#asiapac-home {
 	position: relative;
 	padding: 0;
@@ -547,24 +555,6 @@
 	font-size: .75em;
 	color: #000;
 	}
-	
-	/*#asiapac-home a.searchbtn {
-	position: absolute;
-	width: 43px;
-	height: 45px;
-	top: 323px;
-	left: 35px;
-	text-indent: -999em;
-	}
-	
-	#asiapac-home a.videobtn {
-	position: absolute;
-	width: 43px;
-	height: 45px;
-	top: 323px;
-	left: 116px;
-	text-indent: -999em;
-	}*/
 	
 	#asiapac-home p.footnote-content {
 	padding-left: 232px;
@@ -616,25 +606,6 @@
 	font-size: .75em;
 	color: #000;
 	}
-	
-	/*#emea-home a.searchbtn {
-	position: absolute;
-	width: 43px;
-	height: 45px;
-	top: 320px;
-	left: 35px;
-	text-indent: -999em;
-	}
-	
-	#emea-home a.videobtn {
-	position: absolute;
-	width: 43px;
-	height: 45px;
-	top: 320px;
-	left: 116px;
-	text-indent: -999em;
-	}*/
-	
 	
 	#emea-home p.footnote-content {
 	padding-left: 232px;
@@ -699,7 +670,7 @@
 	}
 	
 	#maincontent p.careerfinder-btn a:visited {
-	text-decoration: none;
+	text-decoration: none !important;
 	color: #fff;
 	}
 	
@@ -796,6 +767,7 @@ padding-bottom: 60px;
 	#main-profiles #red-footer p {
 	color: #FFFFFF;
 	font-size: 1.3em;
+	font-weight: bold;
 	padding: 50px 0 60px 20px;
 	}
 
