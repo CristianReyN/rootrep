@@ -26,7 +26,19 @@ public partial class BOAmaster : System.Web.UI.MasterPage
         string strPageName = "";
         string strContent = "";
         int intPage = 1; // true
-        if (Request.ServerVariables["SCRIPT_NAME"].IndexOf("jobsearch.aspx", StringComparison.CurrentCultureIgnoreCase) > 0)
+
+
+
+        string sPath = System.Web.HttpContext.Current.Request.Url.AbsolutePath;
+        string querstring = System.Web.HttpContext.Current.Request.Url.Query;
+        System.IO.FileInfo oInfo = new System.IO.FileInfo(sPath);
+
+        if(oInfo.Name.ToLower().Contains("campus"))
+        {
+            strPageName = "Campus Events";
+            breadCrum = " | Campus Events";
+        }
+        else if (Request.ServerVariables["SCRIPT_NAME"].IndexOf("jobsearch.aspx", StringComparison.CurrentCultureIgnoreCase) > 0)
         {
             strContent = "Main page for job search functionality for careers site.";
 			strPageName = "Guided Job Search";

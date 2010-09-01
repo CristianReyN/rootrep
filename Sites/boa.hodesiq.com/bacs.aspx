@@ -21,7 +21,7 @@
                 <h2> Avtar Monga<br />
                     <br />
                     Managing Director, BA Continuum Solutions</h2>
-                <p> BA Continuum Solutions Pvt. Ltd. (BACS) and Merrill Lynch India Technology Services (MLITS) are non-bank subsidiaries of Bank of America Management Corporation. While referring to BA Continuum, we are referring to both organizations. </p>
+                <p> BA Continuum Solutions Pvt. Ltd. (BACS) and BA Continuum Private Limited (BACP) are non-bank subsidiaries of Bank of America Management Corporation. While referring to BA Continuum, we are referring to both organizations.</p>
                 <p> BA Continuum provides Business Processing Solutions, Knowledge Services and Information
                     Technology Solutions exclusively for the Consumer and Small Business Banking, Global
                     Card Services, Bank of America Home Loans, Global Banking and Wealth Management
