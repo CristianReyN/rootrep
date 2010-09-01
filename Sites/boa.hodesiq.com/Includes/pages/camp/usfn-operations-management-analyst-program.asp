@@ -96,7 +96,7 @@ Opportunities may exist in major U.S. cities across the Bank of America franchis
 	<li>Chicago, IL</li>
 	<li>Malden, MA</li>
 	<li>Newark, DE</li>
-	<li>Lincoln, East Providence, RI</li>
+	<li>Lincoln and East Providence, RI</li>
 </ul>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
