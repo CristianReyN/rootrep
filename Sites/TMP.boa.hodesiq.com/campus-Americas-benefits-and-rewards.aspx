@@ -10,23 +10,23 @@
 			   
 			   <p>We recognize that our people are our greatest strength and our most valuable resource. That's why we've created a benefits and rewards program that proudly reflects our appreciation of each individual.</p>
 			   
-			  
+	<p>Americas Benefits information (including Canada).</p>		  
 <p>Bank of America offers a competitive benefits package to its associates.</p>
 
-<p>Our comprehensive Full-Time Associate package includes<sup>1</sup>:</p>
+<p>Our comprehensive Full-Time Associate package includes<a href="#footnote1" title="Footnote 1"><sup>1</sup></a>:</p>
 
-<h3>Financial and Retirement Support</h3>
+<h2 class="questions">Financial and Retirement Support</h2>
 <ul>
 <li>Discounts and additional benefits on a wide range of banking and investing products&ndash;including checking accounts with no monthly maintenance fee or balance requirement, free checks and free or discounted annual safe deposit box rental</li> 
-<li>401K and pension plan<sup>2</sup></li>
+<li>401K and pension plan<a href="#footnote2" title="Footnote 2"><sup>2</sup></a></li>
 </ul>
 
-<h3>Health Care and Insurance</h3>
+<h2 class="questions">Health Care and Insurance</h2>
 <ul>
 <li>Comprehensive health care benefits include medical, dental and vision coverage, as well as Health Flexible Spending Accounts</li>
 </ul>
 
-<h3>Work/Life Benefits</h3>
+<h2 class="questions">Work/Life Benefits</h2>
 <ul>
 <li>Flexible work arrangements</li>
 <li>Paid and unpaid time off</li>
@@ -34,7 +34,7 @@
 <li>Commuter benefits</li>
 </ul>
 
-<h3>Other opportunities, such as:</h3>
+<h2 class="questions">Other opportunities, such as:</h2>
 <ul>
 <li>Volunteer time &ndash; Full-time associates receive up to two paid hours per week including travel time to volunteer at a local organization, including schools, shelters, food banks and mentoring programs</li>
 <li>Matching gifts program &ndash; Bank of America will match associate contributions to qualifying nonprofit organizations up to a specified amount each calendar year</li>
@@ -42,8 +42,8 @@
 <li>Commuter benefits &ndash; These vary depending on city and country</li>
 </ul>
 
-<p><sup>1</sup>Benefits may vary by region. Please discuss specific benefit-related questions with a recruiter.<br />
-<sup>2</sup>Associates are eligible after one year of full-time service or 1,000 hours worked within a year.</p>
+<p><sup id="footnote1">1</sup>Benefits may vary by region. Please discuss specific benefit-related questions with a recruiter.<br />
+<sup id="footnote2">2</sup>Associates are eligible after one year of full-time service or 1,000 hours worked within a year.</p>
 
                 </div>
                 <div id="aside"> <a href="campusrecruiting/career_fit_tool.asp"><img src="images/campus/btn-careerfinder.jpg" width="179" height="66" alt="Career Finder: Come as you are. We've got a career to fit." /></a> 
@@ -51,9 +51,9 @@
                   <a href="campus-Americas-meet-our-people.aspx"><img src="images/campus/btn-our-people.jpg" width="179" height="66" alt="Our People: See and hear who's making a difference and how." /></a> 
                   <h3>Related Links:</h3>
                   <ul>
-                    <li><a href="campus-Americas-internships.aspx">Diversity and inclusion</a></li>
-                    <li><a href="campus-Americas-requirements.aspx">Corporate social responsibility</a></li>
-					<li><a href="campus-Americas-requirements.aspx">Information for parents</a></li>
+                    <li><a href="campus-Americas-diversity-and-inclusion.aspx">Diversity and inclusion</a></li>
+                    <li><a href="campus-Americas-corporate-social-responsibility.aspx">Corporate social responsibility</a></li>
+					<li><a href="campus-Americas-information-for-parents.aspx">Information for parents</a></li>
                   </ul>
                 </div>
                 <div id="red-footer"> 

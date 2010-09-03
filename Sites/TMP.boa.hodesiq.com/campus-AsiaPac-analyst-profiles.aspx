@@ -8,56 +8,60 @@
  
   <div id="article">
   <h1>Our Analysts</h1>
-  <p>When you join us as a college or university graduate, you’ll learn from the best and brightest minds in the industry. You’ll participate in a comprehensive training program that combines instructor-led and web-based classes with on-the-job training and networking. We’ll trust you with important work, giving you the opportunity to create real impact right out of the gate.</p>
-<p class="learnlink"><a href="campus-AsiaPac-analyst-programs.aspx">Learn more</a></p>
+  <p>As an analyst, you’ll learn from the best and brightest minds in the
+industry. You’ll participate in a comprehensive training program
+combining instructor-led and web-based classes with on-the-job
+training and networking. We’ll trust you with important work, giving
+you the opportunity to create real impact right out of the gate.</p>
+
   
      
          <div class="profile-article">
-            <img src="images/campus/icon-GabrielNG.jpg" width="50" height="80" alt="Gabriel NG" />
+            <img src="images/campus/icon-Gabriel.jpg" width="50" height="80" alt="Gabriel" />
             <h2>Gabriel</h2>
             <p class="profile-depart">Corporate and Investment Banking Analyst Program</p>
             <p>I am an analyst in the Mergers and Acquisitions Group in Hong Kong.</p>
-            <p><a href="campus-meet-our-people-profile-Gabriel.aspx">Read Profile</a></p>
+            <p><a href="campus-meet-our-people-profile-Gabriel.aspx" title="Read Gabriel's profile">Read Profile</a></p>
         </div>
        
          <div class="profile-article">
-            <img src="images/campus/icon-LipJinLee.jpg" width="50" height="80" alt="Lip Jin Lee" />
+            <img src="images/campus/icon-LipJin.jpg" width="50" height="80" alt="Lip Jin" />
             <h2>Lip Jin </h2>
             <p class="profile-depart">Global Markets Analyst Program</p>
             <p>I am the primary market maker for HG corporates/banks in Singapore.</p>
-            <p><a href="campus-meet-our-people-profile-Lip-Jin.aspx">Read Profile</a></p>
+            <p><a href="campus-meet-our-people-profile-Lip-Jin.aspx" title="Read Lip Jin's profile">Read Profile</a></p>
         </div>
         
         <div class="profile-article">
-            <img src="images/campus/icon-LouiseJiang.jpg" width="50" height="80" alt="Louise Jiang" />
+            <img src="images/campus/icon-Louise.jpg" width="50" height="80" alt="Louise" />
             <h2>Louise</h2>
             <p class="profile-depart">Chief Financial Office Analyst Program</p>
             <p>Product controller for Strategic Investment Group desk. </p>
-            <p><a href="campus-meet-our-people-profile-Louise.aspx">Read Profile</a></p>
+            <p><a href="campus-meet-our-people-profile-Louise.aspx" title="Read Louise's profile">Read Profile</a></p>
         </div>
         
         <div class="profile-article">
-            <img src="images/campus/icon-ScottChui.jpg" width="50" height="80" alt="Scott Chui" />
+            <img src="images/campus/icon-Scott.jpg" width="50" height="80" alt="Scott" />
             <h2>Scott </h2>
             <p class="profile-depart">Operations Analyst Program</p>
             <p>I work on the MLX team, in charge of providing client service support for various e-commerce platforms within the company.</p>
-            <p><a href="campus-meet-our-people-profile-Scott.aspx">Read Profile</a></p>
+            <p><a href="campus-meet-our-people-profile-Scott.aspx" title="Read Scott's profile">Read Profile</a></p>
         </div> 
        
         <div class="profile-article">
-            <img src="images/campus/icon-StanleyChan.jpg" width="50" height="80" alt="Stanley Chan" />
+            <img src="images/campus/icon-Stanley.jpg" width="50" height="80" alt="Stanley" />
             <h2>Stanley</h2>
             <p class="profile-depart">Technology Analyst Program &ndash; GMRT</p>
             <p>It is indisputable Bank of America is a global leading financial company providing lots of opportunities. </p>
-            <p><a href="campus-meet-our-people-profile-Stanley.aspx">Read Profile</a></p>
+            <p><a href="campus-meet-our-people-profile-Stanley.aspx" title="Read Stanley's profile">Read Profile</a></p>
         </div>
         
         <div class="profile-article">
-            <img src="images/campus/icon-SukeChan.jpg" width="50" height="80" alt="Suke Chan" />
+            <img src="images/campus/icon-Suke.jpg" width="50" height="80" alt="Suke" />
             <h2>Suke</h2>
             <p class="profile-depart">Technology Analyst Program &ndash; ET&amp;D</p>
             <p>I work in Market Data Services in the Enterprise Technology &amp; Delivery Group.</p>
-            <p><a href="campus-meet-our-people-profile-Suke.aspx">Read Profile</a></p>
+            <p><a href="campus-meet-our-people-profile-Suke.aspx" title="Read Suke's profile">Read Profile</a></p>
         </div>                                                                            
      
     <p class="back-top"><a href="#main-profiles">Back to top</a></p>
@@ -193,8 +197,8 @@
         <ul>
           <li><a href="campus-Americas-analyst-profiles.aspx">Americas analyst profiles</a></li>
           <li><a href="campus-EMEA-analyst-profiles.aspx">EMEA analyst profiles</a></li>
-          <li><a href="campus-AsiaPac-associate-profiles.aspx">Associate Profiles</a></li>
-          <li><a href="campus-AsiaPac-intern-profiles.aspx">Intern Profiles</a></li>
+          <li><a href="campus-AsiaPac-associate-profiles.aspx">Associate profiles</a></li>
+          <li><a href="campus-AsiaPac-intern-profiles.aspx">Intern profiles</a></li>
         </ul>
   </div>
   <div id="red-footer"> 

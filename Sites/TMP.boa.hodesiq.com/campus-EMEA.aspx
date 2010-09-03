@@ -6,22 +6,20 @@
 
  <div id="emea-home">
                  
-                <p class="link-header">Explore our company and opportunities further with the buttons below.</p>
+                <p class="link-header">Use the buttons below to further explore our company and opportunities.</p>
                 
                  <div id="icon-home-buttons">
-				<a href="http://careers.bankofamerica.com/jobsearch.aspx"><img src="images/campus/btn-search-jobs.jpg" width="46" height="47" alt="Search Job" /></a>
-                <a href="campus-EMEA-meet-our-people.aspx"><img src="images/campus/btn-meet-people.jpg" width="46" height="46" alt="Meet our people" /></a>
+				<a href="campus-EMEA-opportunities.aspx"><img src="images/campus/btn-search-jobs.jpg" width="46" height="47" alt="Explore a world of career opportunities" /></a>
+                <a href="campus-EMEA-graduate-profiles.aspx"><img src="images/campus/btn-meet-people.jpg" width="46" height="46" alt="Meet our people" /></a>
 				</div>
 			
  				<p class="footnote-content">Set opportunity in motion.</p>
                           
                          <div id="article">
-                            
-                        <p><strong>How far do you want to go?</strong> Challenges. Rewards. Recognition. Scope. As one of the world’s largest financial institutions, Bank of America Merrill Lynch is ideally placed to deliver.</p>
-                        
-                        <p>We’re a company where your only limits are how hard you’re willing to work and how far you want to go. We’ll harness the finest resources, training and mentoring support to your own natural energy, initiative and talent. You’ll reap the benefits of personal attention and the kind of opportunities only a company of our size can offer.</p> 
-                        
-                        <p>It means you can carve out a successful career and make an immediate impact.</p> 
+                            <h1 class="wai">EMEA - Agility</h1>
+                       <p><strong>Your hard work and unique talent make success look easy. You face challenges with confidence.</strong> Nimbly navigate every obstacle in your path. It’s that unique quality that’s positioned you where you are today. And it’s what we value at Bank of America.</p>
+
+                        <p><strong>Join our team, and we’ll open your career path and give you new opportunities to take the possible and make it real.</strong> We’ll solicit your input and provide training, mentorship, and support to boost your aspirations to a global level. And as part of the world’s leading financial institution, you can create the kind of opportunity that begets greater opportunity and bigger impact than you ever imagined.</p>
                             
                         </div>
 						

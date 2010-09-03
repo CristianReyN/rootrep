@@ -9,22 +9,22 @@
   <div id="article">
   <h1>Our Interns</h1>
    <p>An internship doesn’t have to mean starting at the bottom. If you’re ready to learn about the financial services industry from the perspective of the world’s leading financial institution, this is a great way to start. Through an internship role with us, you’ll find yourself tackling real business challenges that make a real impact on our company. You’ll grow your skills and build your network in a dynamic environment designed to support your long-term career objectives.</p>
-<p class="learnlink"><a href="campus-EMEA-internships.aspx">Learn More</a></p>
+
   
          <div class="profile-article">
-            <img src="images/campus/icon-ChristophHadrys.jpg" width="50" height="80" alt="Christoph Hadrys" />
+            <img src="images/campus/icon-Christoph.jpg" width="50" height="80" alt="Christoph" />
             <h2>Christoph</h2>
              <p class="profile-depart-spec">Capital Markets Analyst</p>
             <p>I have responsibility for distribution strategy/pricing and execution across leveraged and investment grade syndicated loans.</p>
-            <p><a href="campus-profiles-Internship-Christoph.aspx">Read Profile</a></p>
+            <p><a href="campus-profiles-Internship-Christoph.aspx" title="Read Christoph's profile">Read Profile</a></p>
         </div>
        
          <div class="profile-article">
-            <img src="images/campus/icon-DwayneGoode.jpg" width="50" height="80" alt="Dwayne Goode" />
+            <img src="images/campus/icon-Dwayne.jpg" width="50" height="80" alt="Dwayne" />
             <h2>Dwayne</h2>
              <p class="profile-depart">Enterprise Technology &amp; Delivery Analyst</p>
             <p>My current assignment is to ensure the data network in EMEA is in great condition.</p>
-            <p><a href="campus-profiles-Internship-Dwayne.aspx">Read Profile</a></p>
+            <p><a href="campus-profiles-Internship-Dwayne.aspx" title="Read Dwayne's profile">Read Profile</a></p>
         </div> 
 
        <div class="profile-article">
@@ -32,31 +32,31 @@
             <h2>John-William </h2>
             <p class="profile-depart-jw">Global Wealth and Investment Management Analyst</p>
             <p>I am currently in the Global Wealth and Investment Management (GWIM) Graduate Programme.</p>
-            <p><a href="campus-profiles-Internship-John-William.aspx">Read Profile</a></p>
+            <p><a href="campus-profiles-Internship-John-William.aspx" title="Read John-William's profile">Read Profile</a></p>
         </div>
         
          <div class="profile-article">
-            <img src="images/campus/icon-KenChung.jpg" width="50" height="80" alt="Ken Chung" />
+            <img src="images/campus/icon-Ken.jpg" width="50" height="80" alt="Ken" />
             <h2>Ken</h2>
             <p class="profile-depart">Sales and Trading Analyst Programme</p>
             <p>I work on the Equity Central Risk Desk and look after the index rebalancing product.</p>
-            <p><a href="campus-profiles-Internship-Ken.aspx">Read Profile</a></p>
+            <p><a href="campus-profiles-Internship-Ken.aspx" title="Read Ken's profile">Read Profile</a></p>
         </div>
       
            <div class="profile-article">
-            <img src="images/campus/icon-RachnaRamachandran.jpg" width="50" height="80" alt="Rachna Ramachandran" />
+            <img src="images/campus/icon-Rachna.jpg" width="50" height="80" alt="Rachna" />
             <h2>Rachna</h2>
             <p class="profile-depart">Research Quant Analyst Programme</p>
             <p>I currently work in Credit Derivatives Strategy, which is a global team covering the European and North American credit derivatives markets. </p>
-            <p><a href="campus-profiles-Internship-Rachna.aspx">Read Profile</a></p>
+            <p><a href="campus-profiles-Internship-Rachna.aspx" title="Read Rachna's profile">Read Profile</a></p>
         </div>
         
          <div class="profile-article">
-            <img src="images/campus/icon-RossMcewan.jpg" width="50" height="80" alt="Ross Mcewan" />
+            <img src="images/campus/icon-Ross.jpg" width="50" height="80" alt="Ross" />
             <h2>Ross</h2>
             <p class="profile-depart">Treasury Management Analyst Programme</p>
             <p>As a sales analyst, I support two Treasury Sales Officers who each manage their own portfolio of clients.</p>
-            <p><a href="campus-profiles-Internship-Ross.aspx">Read Profile</a></p>
+            <p><a href="campus-profiles-Internship-Ross.aspx" title="Read Ross's profile">Read Profile</a></p>
         </div>
     
     <p class="back-top"><a href="#profiles">Back to top</a></p>

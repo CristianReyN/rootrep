@@ -7,19 +7,19 @@
  <div id="maincontent"> 
                 <div id="article"> 
                   <h1>Associate &amp; PhD Programs</h1>
-                  <h3>Associate Programs</h3>
+                  <h2 class="questions">Associate Programs</h2>
                   <p>Our range of associate programs allows you to build on your 
                     MBA or advanced degree, transforming your knowledge and experience 
                     into real-world opportunities.</p>
-                    <p><a href="campus-Americas-associate-profiles.aspx">Learn more</a></p>
-                  <h3>PhD Programs</h3>
+                   
+                  <h2 class="questions">PhD Programs</h2>
                   <p>Pursuing a doctoral degree with a quantitative focus? Then 
                     this is the opportunity for you. Our PhD programs enable doctoral 
                     students with high-level technical skills to put their intellect 
                     and ambition to work in a fast-paced, exciting environment 
                     that will challenge and reward a rigorous approach.</p>
-                    <p><a href="campus-Americas-associate-profiles.aspx">Learn more</a></p>
-                  <h3>Global Consumer and Small Business Banking</h3>
+                     
+                  <h2 class="questions">Global Consumer and Small Business Banking</h2>
                   <ul>
                     <li><a href="campusrecruiting/usfs-consumer-mba-program-banking-center-channel-track.asp">Consumer 
                       MBA Program – Banking Center Channel Track</a></li>
@@ -28,7 +28,7 @@
                     <li><a href="campusrecruiting/usfs-operations-mba-program.asp">Operations MBA 
                       Program</a></li>
                   </ul>
-                  <h3>Global Banking and Markets</h3>
+                  <h2 class="questions">Global Banking and Markets</h2>
                   <ul>
                     <li><a href="campusrecruiting/usfs-global-corporate-banking-associate-program.asp">Global 
                       Corporate Banking Associate Program</a></li>
@@ -45,17 +45,17 @@
                     <li><a href="campusrecruiting/usfs-global-research-associate-program.asp">Global 
                       Research Associate Program</a></li>
                   </ul>
-                  <h3>Global Commercial Banking</h3>
+                  <h2 class="questions">Global Commercial Banking</h2>
                   <ul>
                     <li><a href="campusrecruiting/usfs-global-commercial-banking-associate-program.asp">Global 
                       Commercial Banking Associate Program</a></li>
                   </ul>
-                  <h3>Global Human Resources</h3>
+                  <h2 class="questions">Global Human Resources</h2>
                   <ul>
                     <li><a href="campusrecruiting/usfs-human-resources-development-program.asp">Human 
                       Resources Development Program</a></li>
                   </ul>
-                  <h3>Global Technology and Operations</h3>
+                  <h2 class="questions">Global Technology and Operations</h2>
                   <ul>
                     <li><a href="campusrecruiting/usfs-corporate-workplace-senior-analyst.asp">Corporate 
                       Workplace Senior Analyst</a></li>
@@ -66,12 +66,12 @@
                     <li><a href="campusrecruiting/usfs-technology-mba-program.asp">Technology MBA 
                       Program</a></li>
                   </ul>
-                  <h3>Global Wealth and Investment Management</h3>
+                  <h2 class="questions">Global Wealth and Investment Management</h2>
                   <ul>
                     <li><a href="campusrecruiting/usfs-global-wealth-investment-management-associate-program.asp">Global 
                       Wealth and Investment Management Associate Program</a></li>
                   </ul>
-                  <h3>Home Loans &amp; Insurance</h3>
+                  <h2 class="questions">Home Loans &amp; Insurance</h2>
                   <ul>
                     <li><a href="campusrecruiting/usfs-home-Loans-insurance-mba-program.asp">Home 
                       Loans and Insurance MBA Program</a></li>

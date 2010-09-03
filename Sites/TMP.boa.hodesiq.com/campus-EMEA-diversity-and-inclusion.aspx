@@ -9,7 +9,7 @@
                   <p>Diversity. It is not a word, ideal or goal; it is a principle 
                     we live by every day, in and outside the office. And it has 
                     manifested itself in a number of initiatives.</p>
-                  <h3>Sponsors for Educational Opportunity (SEO)</h3>
+                  <h2 class="questions">Sponsors for Educational Opportunity (SEO)</h2>
                   <p>SEO London, founded in 2001, brings together leading City 
                     banks, including Bank of America Merrill Lynch, as the principal 
                     sponsors of its career programmes. SEO London helps top-calibre 
@@ -20,8 +20,8 @@
                     services throughout the industry. For more information and 
                     to apply, please visit <a href="http://www.seo-london.com/">www.seo-london.com</a>. 
                   </p>
-                  <h3>EmployAbility Internship for Students with Disabilities 
-                    (EAI)</h3>
+                  <h2 class="questions">EmployAbility Internship for Students with Disabilities 
+                    (EAI)</h2>
                   <p>We support EmployAbility programmes, which give students 
                     with disabilities the opportunity to obtain invaluable experience 
                     and gain insight into our industry. Successful candidates 
@@ -34,13 +34,13 @@
                     during the programme.</p>
                   <p>For more information and to apply, please visit EmployAbility’s 
                     website: <a href="http://www.employ-ability.org.uk/">www.employ-ability.org.uk</a>.</p>
-                  <h3>Rare Recruitment</h3>
+                  <h2 class="questions">Rare Recruitment</h2>
                   <p>Rare recruitment connects exceptional people from diverse 
                     backgrounds with great jobs in top organisations, and provides 
                     training and support for candidates. For more information, 
                     visit <a href="http://www.rarerecruitment.co.uk/rare/index.php">http://www.rarerecruitment.co.uk/rare/index.php</a> 
                   </p>
-                  <h3>EMEA Arts</h3>
+                  <h2 class="questions">EMEA Arts</h2>
                   <p>As a company doing business in more than 150 countries, and 
                     with almost 300,000 associates, Bank of America Merrill Lynch 
                     strives to promote greater cultural understanding worldwide 
@@ -58,7 +58,7 @@
                     from grass roots arts education programmes to world-class 
                     institutions that play a role in creating a more culturally 
                     aware society.</p>
-                  <h3>Programme Examples:</h3>
+                  <h2 class="questions">Programme Examples:</h2>
                   <p>2010 programmes include the sponsorship of Irving Penn Portraits 
                     at the National Portrait Gallery [28 February – 6 June 2010], 
                     Gauguin: Maker of Myth at Tate Modern [30 September 2010 – 
@@ -84,7 +84,7 @@
                   <ul>
                     <li><a href="campus-EMEA-about-us.aspx">About Us</a></li>
                     <li><a href="campus-EMEA-corporate-social-responsibility.aspx">Coroporate social responsibility</a></li>
-					<li><a href="campus-EMEA-benefits-and-rewards.aspx">Benefits and rewards</a></li>
+					<li><a href="campus-EMEA-benefits-and-rewards.aspx">Rewards</a></li>
                   </ul>
                 </div>
                 <div id="red-footer"> 

@@ -1,4 +1,4 @@
-﻿<%@ Page Title="Bank of America | Careers | Campus Recruiting | Our Culture| Americas Information for Parents" Language="C#" MasterPageFile="~/BOAmaster.master" AutoEventWireup="true" CodeFile="campus-Americas-information-for-parents.aspx.cs" Inherits="campus_Americas_information_for_parents" %>
+﻿<%@ Page Title="Bank of America | Careers | Campus Recruiting | Our Culture| Asia Pacific Information for Parents" Language="C#" MasterPageFile="~/BOAmaster.master" AutoEventWireup="true" CodeFile="campus-AsiaPac-information-for-parents.aspx.cs" Inherits="campus_AsiaPac_information_for_parents" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="cphmain" Runat="Server">
 
@@ -25,17 +25,21 @@
 
 </ul>
                 </div>
-                <div id="aside"> 
+                 <div id="aside"> 
                   <a href="campusrecruiting/career_fit_tool.asp"><img src="images/campus/btn-careerfinder.jpg" width="179" height="66" alt="Career Finder: Come as you are. We've got a career to fit." /></a> 
-                  <a href="CampusEvents.aspx?region=1"><img src="images/campus/btn-campus-events.jpg" width="179" height="66" alt="Campus Events: Let's meet soon." /></a> 
-                  <a href="campus-Americas-meet-our-people.aspx"><img src="images/campus/btn-our-people.jpg" width="179" height="66" alt="Our People: See and hear who's making a difference and how." /></a> 
+                  <a href="CampusEvents.aspx?region=3"><img src="images/campus/btn-campus-events.jpg" width="179" height="66" alt="Campus Events: Let's meet soon." /></a> 
+                  <a href="campus-AsiaPac-meet-our-people.aspx"><img src="images/campus/btn-our-people.jpg" width="179" height="66" alt="Our People: See and hear who's making a difference and how." /></a> 
                   <h3>Related Links:</h3>
                   <ul>
-                    <li><a href="campus-Americas-diversity-and-inclusion.aspx">Diversity and inclusion</a></li>
-                    <li><a href="campus-Americas-benefits-and-rewards.aspx">Benefits and rewards</a></li>
-                    <li><a href="campus-Americas-corporate-social-responsibility.aspx">Corporate social responsibility</a></li>
+                    <li><a href="campus-AsiaPac-diversity-and-inclusion.aspx">Diversity and 
+                      inclusion</a></li>
+                    <li><a href="campus-AsiaPac-benefits-and-rewards.aspx">Benefits and 
+                      rewards</a></li>
+                       <li><a href="campus-AsiaPac-corporate-social-responsibility.aspx">Corporate 
+                      social responsibility</a></li>
                   </ul>
                 </div>
+                
                 <div id="red-footer"> 
                   <p>Set opportunity in motion.</p>
                 </div>

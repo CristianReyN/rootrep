@@ -7,13 +7,13 @@
 <div id="maincontent"> 
                 <div id="article"> 
                   <h1>Associate and PhD Programmes</h1>
-                  <h3>Associate Programmes</h3>
+                  <h2 class="questions">Associate Programmes</h2>
                   <p>Leverage the power of your advanced degree and/or MBA into 
                     real career momentum of instructor-led and web-based education, 
                     on-the-job training and networking. This is where you combine 
                     your education and experience with our incredible range of 
                     opportunities &ndash; and the sky's the limit.</p>
-                  <h3>PhD Programmes</h3>
+                  <h2 class="questions">PhD Programmes</h2>
                   <p>This programme is for you if you are pursuing a doctoral 
                     degree or equivalent advanced degree with a quantitative focus 
                     and you have an interest in working in the financial services 
@@ -21,7 +21,7 @@
                     for advanced students who have high-level mathematical skills 
                     and the desire to use them in a fast-paced, demanding business 
                     environment.</p>
-                  <h3>Global Banking and Markets</h3>
+                  <h2 class="questions">Global Banking and Markets</h2>
                   <ul>
                     <li><a href="campusrecruiting/emeafs-global-investment-banking-associate-programme.asp">Global 
                       Investment Banking Associate Programme</a></li>
@@ -41,7 +41,7 @@
                   <ul>
                     <li><a href="campus-EMEA-analyst-programs.aspx">Analyst programmes</a></li>
                     <li><a href="campus-EMEA-internships.aspx">Internships</a></li>
-					<li><a href="campus-EMEA-pre-university.aspx">Pre-University</a></li>
+					<li><a href="campus-EMEA-pre-university.aspx">Pre-university</a></li>
 					<li><a href="campus-EMEA-requirements.aspx">Requirements</a></li>
                   </ul>
                 </div>

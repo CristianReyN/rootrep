@@ -12,7 +12,7 @@
                     and large corporations with a full range of banking, investing, 
                     asset management and other financial and risk management products 
                     and services.</p>
-                  <h3>In the world</h3>
+                  <h2 class="questions">In the world</h2>
                   <p>Bank of America is one of the world's largest financial institutions, 
                     serving individual consumers, small- and middle-market businesses 
                     and large corporations with a full range of banking, investing, 
@@ -43,7 +43,7 @@
                     and SIPC; in other jurisdictions, these comprise locally registered 
                     entities. Investment products are offered by Investment Banking 
                     Affiliates.</p>
-                  <h3>In EMEA</h3>
+                  <h2 class="questions">In EMEA</h2>
                   <p>Bank of America Merrill Lynch has offices in 32 cities across 
                     23 countries in EMEA.</p>
                   <p>Join us, and you’ll be part of an organisation with a powerful 
@@ -62,7 +62,7 @@
                   <ul>
                     <li><a href="campus-EMEA-diversity-and-inclusion.aspx">Diversity and inclusion</a></li>
                     <li><a href="campus-EMEA-corporate-social-responsibility.aspx">Coroporate social responsibility</a></li>
-					<li><a href="campus-EMEA-benefits-and-rewards.aspx">Benefits and rewards</a></li>
+					<li><a href="campus-EMEA-benefits-and-rewards.aspx">Rewards</a></li>
                   </ul>
                 </div>
                 <div id="red-footer"> 

@@ -19,9 +19,9 @@
                   <a href="campus-Americas-meet-our-people.aspx"><img src="images/campus/btn-our-people.jpg" width="179" height="66" alt="Our People: See and hear who's making a difference and how." /></a> 
                   <h3>Related Links:</h3>
                   <ul>
-                    <li><a href="campus-Americas-internships.aspx">Diversity and inclusion</a></li>
-					<li><a href="campus-Americas-requirements.aspx">Benefits and rewards</a></li>
-					<li><a href="campus-Americas-requirements.aspx">Information for parents</a></li>
+                    <li><a href="campus-Americas-diversity-and-inclusion.aspx">Diversity and inclusion</a></li>
+					<li><a href="campus-Americas-benefits-and-rewards.aspx">Benefits and rewards</a></li>
+					<li><a href="campus-Americas-information-for-parents.aspx">Information for parents</a></li>
                   </ul>
                 </div>
                 <div id="red-footer"> 

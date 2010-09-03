@@ -6,7 +6,7 @@
 
  <div id="maincontent"> 
                 <div id="article"> 
-                  <h1>Benefits and Rewards</h1>
+                  <h1>Rewards</h1>
                   <p>Because we want to take good care of the people who are at 
                     the heart of a business that’s wholly focused on winning, 
                     Bank of America Merrill Lynch offers a generous rewards and 
@@ -29,7 +29,7 @@
                     employer matching contributions for pensions, Give as You 
                     Earn, learning accounts, leisure accounts and certain health 
                     treatments.</p>
-                  <p>Benefits within the ABC package include:</p>
+                  <h2 class="questions">Benefits within the ABC package include:</h2>
                   <h3>Financial</h3>
                   <ul>
                     <li>Critical Illness Insurance</li>
@@ -66,7 +66,7 @@
                     <li>Leisure Account</li>
                     <li>Retail Vouchers/Cards</li>
                   </ul>
-                  <h3>Benefits outside of the ABC package include</h3>
+                  <h3>Benefits outside of the ABC package include:</h3>
                   <ul>
                     <li>Personal Accident Insurance</li>
                     <li>Short term sick pay (service-related provision)</li>
@@ -77,10 +77,11 @@
                     <li>Associate Discount Programme</li>
                     <li>Flexible working policy</li>
                     <li>Associate Assistance Programme</li>
+                    <li>Maternity, paternity and adoption leave – above statutory 
+                    minimum parental leave</li>
                   </ul>
                   <br />
-                  <p>Maternity, paternity and adoption leave – above statutory 
-                    minimum parental leave</p>
+                  
                 </div>
                 <div id="aside"> 
                   <a href="campusrecruiting/career_fit_tool.asp"><img src="images/campus/btn-careerfinder.jpg" width="179" height="66" alt="Career Finder: Come as you are. We've got a career to fit." /></a> 
@@ -88,8 +89,8 @@
                   <a href="campus-EMEA-graduate-profiles.aspx"><img src="images/campus/btn-our-people.jpg" width="179" height="66" alt="Our People: See and hear who's making a difference and how." /></a> 
                   <h3>Related Links:</h3>
                   <ul>
-				  <li><a href="campus-EMEA-diversity-and-inclusion.aspx">Diversity and inclusion</a></li>
-                    <li><a href="campus-EMEA-about-us.aspx">About us</a></li>
+				  <li><a href="campus-EMEA-about-us.aspx">About us</a></li>
+				  <li><a href="campus-EMEA-diversity-and-inclusion.aspx">Diversity and inclusion</a></li> 
                     <li><a href="campus-EMEA-corporate-social-responsibility.aspx">Corporate 
                       social responsibility</a></li>
                   </ul>

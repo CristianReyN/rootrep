@@ -9,7 +9,7 @@
                   <h1>Requirements</h1>
                   <p>Our standards are extremely high &ndash; but so too are the rewards. 
                     These are our requirements at the various levels:</p>
-                  <h3>Analyst</h3>
+                  <h2 class="questions">Analyst</h2>
                   <ul>
                     <li>The minimum requirement is usually a 2:1 degree or equivalent 
                       (either achieved or realistically expected).</li>
@@ -25,7 +25,7 @@
                       aptitude, quantitative skills, strategic and creative thinking, 
                       and written and oral communications skills.</li>
                   </ul>
-                  <h3>MBA positions</h3>
+                  <h2 class="questions">MBA positions</h2>
                   <ul>
                     <li>You must have an MBA or other advanced degree from a top-tier 
                       business school.</li>
@@ -34,12 +34,12 @@
                     <li>For summer internships, you must be in your penultimate 
                       year of study.</li>
                   </ul>
-                  <h3>PhD positions</h3>
+                  <h2 class="questions">PhD positions</h2>
                   <ul>
                     <li>An advanced degree/PhD in a mathematical or financial 
                       discipline is required.</li>
                   </ul>
-                  <h3>Europe Card Services</h3>
+                  <h2 class="questions">Europe Card Services</h2>
                   <ul>
                     <li>You must have obtained, or are realistically expecting 
                       to obtain, a minimum 2:2 degree or equivalent in a discipline 
@@ -59,10 +59,9 @@
                   <h3>Related Links:</h3>
                   <ul>
                     <li><a href="campus-EMEA-analyst-programs.aspx">Analyst programmes</a></li>
-					<li><a href="campus-EMEA-associate-and-phd-programs.aspx">Associate 
-                      &amp; PhD programmes</a></li>
+					<li><a href="campus-EMEA-associate-and-phd-programs.aspx">Associate programmes</a></li>
                     <li><a href="campus-EMEA-internships.aspx">Internships</a></li>
-					<li><a href="campus-EMEA-pre-university.aspx">Pre-University</a></li>
+					<li><a href="campus-EMEA-pre-university.aspx">Pre-university</a></li>
                   </ul>
                 </div>
                 <div id="red-footer"> 

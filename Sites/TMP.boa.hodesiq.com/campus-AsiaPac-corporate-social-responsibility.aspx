@@ -21,10 +21,11 @@
                   <a href="campus-AsiaPac-meet-our-people.aspx"><img src="images/campus/btn-our-people.jpg" width="179" height="66" alt="Our People: See and hear who's making a difference and how." /></a> 
                   <h3>Related Links:</h3>
                   <ul>
-                    <li><a href="campus-AsiaPac-internships.aspx">Diversity and 
+                    <li><a href="campus-AsiaPac-diversity-and-inclusion.aspx">Diversity and 
                       inclusion</a></li>
-                    <li><a href="campus-AsiaPac-requirements.aspx">Benefits and 
+                    <li><a href="campus-AsiaPac-benefits-and-rewards.aspx">Benefits and 
                       rewards</a></li>
+                       <li><a href="campus-AsiaPac-information-for-parents.aspx">Information for parents</a></li>
                   </ul>
                 </div>
                 <div id="red-footer"> 

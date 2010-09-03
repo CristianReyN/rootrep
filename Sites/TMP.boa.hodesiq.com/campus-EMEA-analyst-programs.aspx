@@ -15,22 +15,18 @@
                     benefited from the valuable input of new employees like you. 
                     We do everything we can to ensure that your first steps on 
                     the path to your career are planted firmly in the right direction.</p>
-                  <h3>Full Time</h3>
-                  <p>Learn from the industry's best in a challenging combination 
-                    of instructor-led and web-based education, on-the-job training 
-                    and networking. From the start, you'll have the opportunity 
-                    to make a real impact.</p>
-                  <h3>Chief Financial Office</h3>
+                  
+                  <h2 class="questions">Chief Financial Office</h2>
                   <ul>
                     <li><a href="campusrecruiting/emeafn-international-corporate-treasury-analyst-programme.asp">International 
                       Corporate Treasury Analyst Programme</a></li>
                   </ul>
-                  <h3>Global Consumer and Small Business Banking</h3>
+                  <h2 class="questions">Global Consumer and Small Business Banking</h2>
                   <ul>
                     <li><a href="campusrecruiting/emeafn-card-services-analyst-programme.asp">Card 
                       Services Analyst Programme</a></li>
                   </ul>
-                  <h3>Global Banking and Markets</h3>
+                  <h2 class="questions">Global Banking and Markets</h2>
                   <ul>
                     <li><a href="campusrecruiting/emeafn-global-investment-banking-analyst-programme.asp">Global 
                       Investment Banking Analyst Programme</a></li>
@@ -49,12 +45,12 @@
                     <li><a href="campusrecruiting/emeafn-south-african-graduate-analyst-programme.asp">South 
                       African Graduate Analyst Programme</a></li>
                   </ul>
-                  <h3>Global Human Resources</h3>
+                  <h2 class="questions">Global Human Resources</h2>
                   <ul>
                     <li><a href="campusrecruiting/emeafn-human-resources-analyst-programme.asp">Human 
                       Resources Analyst Programme</a></li>
                   </ul>
-                  <h3>Global Technology and Operations</h3>
+                  <h2 class="questions">Global Technology and Operations</h2>
                   <ul>
                     <li><a href="campusrecruiting/emeafn-enterprise-technology-delivery-analyst-programme.asp">Enterprise 
                       Technology and Delivery Analyst Programme</a></li>
@@ -63,12 +59,12 @@
                     <li><a href="campusrecruiting/emeafn-global-markets-operations-middle-office-analyst-programme.asp">Global 
                       Markets Operations/Middle Office Analyst Programme</a></li>
                   </ul>
-                  <h3>Global Wealth and Investment Management</h3>
+                  <h2 class="questions">Global Wealth and Investment Management</h2>
                   <ul>
                     <li><a href="campusrecruiting/emeafn-merrill-lynch-wealth-management-analyst-programme.asp">Merrill 
                       Lynch Wealth Management Analyst Programme</a></li>
                   </ul>
-                  <h3>Global Risk</h3>
+                  <h2 class="questions">Global Risk</h2>
                   <ul>
                     <li><a href="campusrecruiting/emeafn-corporate-financial-institutions-debt-products-analyst-programme.asp">Corporate 
                       and Financial Institutions Debt Products Analyst Programme</a></li>
@@ -84,10 +80,9 @@
                   <a href="campus-EMEA-graduate-profiles.aspx"><img src="images/campus/btn-our-people.jpg" width="179" height="66" alt="Our People: See and hear who's making a difference and how." /></a> 
                   <h3>Related Links:</h3>
                   <ul>
-                    <li><a href="campus-EMEA-associate-and-phd-programs.aspx">Associate 
-                      &amp; PhD programmes</a></li>
+                    <li><a href="campus-EMEA-associate-and-phd-programs.aspx">Associate programmes</a></li>
                     <li><a href="campus-EMEA-internships.aspx">Internships</a></li>
-                    <li><a href="campus-EMEA-pre-university.aspx">Pre-University</a></li>
+                    <li><a href="campus-EMEA-pre-university.aspx">Pre-university</a></li>
                     <li><a href="campus-EMEA-requirements.aspx">Requirements</a></li>
                   </ul>
                 </div>

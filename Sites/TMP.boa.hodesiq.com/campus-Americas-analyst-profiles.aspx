@@ -8,104 +8,104 @@
  
   <div id="article">
   <h1>Our Analysts</h1>
-  <p>When you join us as a college or university graduate, you’ll learn from the best and brightest minds in the industry. You’ll participate in a comprehensive training program that combines instructor-led and web-based classes with on-the-job training and networking. We’ll trust you with important work, giving you the opportunity to create real impact right out of the gate.</p>
-<p class="learnlink"><a href="campus-Americas-analyst-programs.aspx">Learn more</a></p>
+  <p>As an analyst, you’ll learn from the best and brightest minds in the industry. You’ll participate in a comprehensive training program combining instructor-led and web-based classes with on-the-job training and networking. We’ll trust you with important work, giving you the opportunity to create real impact right out of the gate.</p>
+
   
         <div class="profile-article">
-            <img src="images/campus/icon-AlisaRoyal.jpg" width="50" height="80" alt="Alisa Royal" />
+            <img src="images/campus/icon-Alisa.jpg" width="50" height="80" alt="Alisa" />
             <h2>Alissa</h2>
-            <p class="profile-depart">Corporate &amp; Financial Institutions Debt Products</p>
+            <p class="profile-depart">Corporate &amp; Financial Institutions<br /> Debt Products</p>
             <p>I am an Analyst in the Power &amp; Utilities industry sector of Corporate Debt Products. </p>
-            <p><a href="campus-meet-our-people-profile-Alissa.aspx">Read Profile</a></p>
+            <p><a href="campus-meet-our-people-profile-Alissa.aspx" title="Read Alissa's Profile">Read Profile</a></p>
         </div>
         
         <div class="profile-article">
-            <img src="images/campus/icon-AshleyClarke.jpg" width="50" height="80" alt="Ashley Clarke" />
+            <img src="images/campus/icon-Ashley.jpg" width="50" height="80" alt="Ashley" />
             <h2>Ashley</h2> 
             <p class="profile-depart">Finance Management Associate Program</p>
             <p>I am in the CFO Group supporting Customer Segments &amp; Deposits.</p>
-            <p><a href="campus-meet-our-people-profile-Ashley.aspx">Read Profile</a></p>
+            <p><a href="campus-meet-our-people-profile-Ashley.aspx" title="Read Ashley's Profile">Read Profile</a></p>
         </div>
 
         
          <div class="profile-article">
-            <img src="images/campus/icon-BhavinGhonda.jpg" width="50" height="80" alt="Bhavin Ghonda" />
+            <img src="images/campus/icon-Bhavin.jpg" width="50" height="80" alt="Bhavin" />
             <h2>Bhavin</h2>
             <p class="profile-depart">Technology Analyst Program</p>
             <p>I am part of the Basel II Data Quality team at Bank of America.</p>
-            <p><a href="campus-meet-our-people-profile-Bhavin.aspx">Read Profile</a></p>
+            <p><a href="campus-meet-our-people-profile-Bhavin.aspx" title="Read Bhavin's Profile">Read Profile</a></p>
         </div>
         
          <div class="profile-article">
             <img src="images/campus/icon-Dan.jpg" width="50" height="80" alt="Dan" />
-            <h2>Daniel</h2>
+            <h2>Dan</h2>
              <p class="profile-depart">Global Sales &amp; Trading Analyst Program</p>
             <p>I am currently an analyst on the Healthcare Specialty Sales desk within Global Equities.</p>
-            <p><a href="campus-meet-our-people-profile-Dan.aspx">Read Profile</a></p>
+            <p><a href="campus-meet-our-people-profile-Dan.aspx" title="Read Dan's Profile">Read Profile</a></p>
         </div>
         
         <div class="profile-article">
-            <img src="images/campus/icon-DavidGhosh.jpg" width="50" height="80" alt="David Ghosh" />
-            <h2>David</h2>
+            <img src="images/campus/icon-Dave.jpg" width="50" height="80" alt="Dave" />
+            <h2>Dave</h2>
              <p class="profile-depart">Operations Management Analyst Program</p>
             <p>I am currently a Process Design Consultant for the Customer Experience Team within Corporate &amp; Small Business Bank Technology &amp; Operations.</p>
-            <p><a href="campus-meet-our-people-profile-Dave.aspx">Read Profile</a></p>
+            <p><a href="campus-meet-our-people-profile-Dave.aspx" title="Read Dave's Profile">Read Profile</a></p>
         </div>
         
         <div class="profile-article">
-            <img src="images/campus/icon-DevinFunk.jpg" width="50" height="80" alt="Devin Funk" />
+            <img src="images/campus/icon-Devin.jpg" width="50" height="80" alt="Devin" />
             <h2>Devin</h2>
              <p class="profile-depart">Enterprise Technology &amp; Delivery Leadership Development</p>
             <p>I currently work on the Data Center Strategy team.</p>
-            <p><a href="campus-meet-our-people-profile-Devin.aspx">Read Profile</a></p>
+            <p><a href="campus-meet-our-people-profile-Devin.aspx" title="Read Devin's Profile">Read Profile</a></p>
         </div>
         
         <div class="profile-article">
-            <img src="images/campus/icon-JenniferAurbach.jpg" width="50" height="80" alt="Jennifer Aurbach" />
+            <img src="images/campus/icon-Jennifer.jpg" width="50" height="80" alt="Jennifer" />
             <h2>Jennifer </h2>
             <p class="profile-depart">Global Wealth &amp; Investment Management Analyst Program</p>
             <p>I currently sit on the Listed Options Desk.</p>
-            <p><a href="campus-meet-our-people-profile-Jennifer.aspx">Read Profile</a></p>
+            <p><a href="campus-meet-our-people-profile-Jennifer.aspx" title="Read Jennifer's Profile">Read Profile</a></p>
         </div>
         
         <div class="profile-article">
-            <img src="images/campus/icon-JohnCowell.jpg" width="50" height="80" alt="John Cowell" />
+            <img src="images/campus/icon-John.jpg" width="50" height="80" alt="John" />
             <h2>John </h2>
             <p class="profile-depart">Global Markets Operations/Middle Office Rotational Program</p>
             <p>Currently I am working to build a new team to provide valuations to our institutional clients.</p>
-            <p><a href="campus-meet-our-people-profile-John.aspx">Read Profile</a></p>
+            <p><a href="campus-meet-our-people-profile-John.aspx" title="Read John's Profile">Read Profile</a></p>
         </div>
         
          <div class="profile-article">
-            <img src="images/campus/icon-JordanDarrenkemp.jpg" width="50" height="80" alt="Jordan Darrenkemp" />
+            <img src="images/campus/icon-Jordan.jpg" width="50" height="80" alt="Jordan" />
             <h2>Jordan</h2>
             <p class="profile-depart">Global Risk Management Program</p>
-            <p>I have had the opportunity to work on four Audit teams: GWIM Technology, Enterprise Compliance and Risk Mgt (ECARM), Finance and Global Markets.</p>
-            <p><a href="campus-meet-our-people-profile-Jordan.aspx">Read Profile</a></p>
+            <p>I currently work as a Model Point of Contact (MPOC) for Credit Card and Small Business models.</p>
+            <p><a href="campus-meet-our-people-profile-Jordan.aspx" title="Read Jordan's Profile">Read Profile</a></p>
         </div>
         
         <div class="profile-article">
-            <img src="images/campus/icon-LauraDuke.jpg" width="50" height="80" alt="Laura Duke" />
+            <img src="images/campus/icon-Laura.jpg" width="50" height="80" alt="Laura" />
             <h2>Laura</h2>
             <p class="profile-depart">Corporate Audit Management Program</p>
             <p>I have had the opportunity to work on four Audit teams: GWIM Technology, Enterprise Compliance and Risk Mgt (ECARM), Finance and Global Markets.</p>
-            <p><a href="campus-meet-our-people-profile-Laura.aspx">Read Profile</a></p>
+            <p><a href="campus-meet-our-people-profile-Laura.aspx" title="Read Laura's Profile">Read Profile</a></p>
         </div>
     
          <div class="profile-article">
-            <img src="images/campus/icon-MarlyaGolub.jpg" width="50" height="80" alt="Mariya Golub" />
+            <img src="images/campus/icon-Marlya.jpg" width="50" height="80" alt="Mariya" />
             <h2>Mariya </h2>
             <p class="profile-depart">Global Research Analyst Program</p>
             <p>I am currently helping the research team roll out coverage of the packaged food stocks within the consumer space. </p>
-            <p><a href="campus-meet-our-people-profile-Mariya.aspx">Read Profile</a></p>
+            <p><a href="campus-meet-our-people-profile-Mariya.aspx" title="Read Mariya's Profile">Read Profile</a></p>
         </div>  
    
          <div class="profile-article">
-            <img src="images/campus/icon-MichaelSvitanik.jpg" width="50" height="80" alt="Michael Svitanik" />
+            <img src="images/campus/icon-Michael.jpg" width="50" height="80" alt="Michael" />
             <h2>Michael </h2>
             <p class="profile-depart">Infrastructure Design &amp; Build Program</p>
             <p>My current role is in MQ Support under Mainframe Design and Build.</p>
-            <p><a href="campus-meet-our-people-profile-Michael.aspx">Read Profile</a></p>
+            <p><a href="campus-meet-our-people-profile-Michael.aspx" title="Read Michael's Profile">Read Profile</a></p>
         </div>
         
                                                                      
@@ -250,7 +250,7 @@
           <li><a href="campus-AsiaPac-analyst-profiles.aspx">Asia Pacific analyst profiles</a></li>
           <li><a href="campus-EMEA-analyst-profiles.aspx">EMEA analyst profiles</a></li>
           <li><a href="campus-Americas-associate-profiles.aspx">Associate profiles</a></li>
-          <li><a href="campus-Americas-intern-profiles.aspx">Intern profiles</a></li>
+          <li><a href="campus-Americas-intern-profiles.aspx">Internship profiles</a></li>
         </ul>
   </div>
   <div id="red-footer"> 

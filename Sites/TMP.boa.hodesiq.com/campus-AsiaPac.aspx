@@ -5,11 +5,13 @@
 <link href="Includes/campus.css" type="text/css" rel="stylesheet" />
 
   <div id="asiapac-home">
+  
+                <h1 class="wai">Asia Pac - Focus</h1>
                  
-                <p class="link-header">Explore our company and opportunities further with the buttons below.</p>
+                <p class="link-header">Use the buttons below to further explore our company and opportunities.</p>
                 
                  <div id="icon-home-buttons">
-				<a href="http://careers.bankofamerica.com/jobsearch.aspx"><img src="images/campus/btn-search-jobs.jpg" width="46" height="47" alt="Search Job" /></a>
+				<a href="campus-AsiaPac-explore-careers.aspx"><img src="images/campus/btn-search-jobs.jpg" width="46" height="47" alt="Explore a world of career opportunitiesb" /></a>
                 <a href="campus-AsiaPac-meet-our-people.aspx"><img src="images/campus/btn-meet-people.jpg" width="46" height="46" alt="Meet our people" /></a>
 				</div>
  
@@ -17,9 +19,9 @@
                           
                          <div id="article">
                             
-                        <p><strong>You’re known for your disciplined approach.</strong> Doing things the right way. Always keeping your eyes on the prize. The unique focus that has served you so well can take you even further at Bank of America.</p>
+                        <p><strong>You’re known for your disciplined approach.</strong> Doing things the right way. Always keeping your eyes on the prize. The unique focus that has served you so well can take you even further at Bank of America Merrill Lynch.</p>
  
-<p>Join our team, and we’ll help you maximize your initiative through training and mentoring. We’ll turn you loose on important work, right out of the gate. And as part of the world’s leading financial institution, you can take advantage of our unrivaled scope to create a chain reaction of opportunity that can move the world forward.</p> 
+<p><strong>Join our team, and we’ll help you maximize your initiative through training and mentoring.</strong>  We’ll turn you loose on important work, right out of the gate. And as part of the world’s leading financial institution, you can take advantage of our unrivaled scope to create a chain reaction of opportunity that can move the world forward.</p> 
                             
                         </div>
 						

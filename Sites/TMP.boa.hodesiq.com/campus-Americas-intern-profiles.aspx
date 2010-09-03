@@ -7,12 +7,11 @@
 <div id="main-profiles"> 
  
   <div id="article">
-  <h1>Our Interns</h1>
+  <h1>Our Internships</h1>
    <p>An internship doesn’t have to mean starting at the bottom. If you’re ready to learn about the financial services industry from the perspective of the world’s leading financial institution, this is a great way to start. Through an internship role with us, you’ll find yourself tackling real business challenges that make a real impact on our company. You’ll grow your skills and build your network in a dynamic environment designed to support your long-term career objectives.</p>
-<p class="learnlink"><a href="campus-Americas-internships.aspx">Learn more</a></p>
 
          <div class="profile-article">
-            <img src="images/campus/icon-AlisaRoyal.jpg" width="50" height="80" alt="Alisa Royal" />
+            <img src="images/campus/icon-AlisaRoyal.jpg" width="50" height="80" alt="Alisa" />
             <h2>Alissa</h2>
             <p class="profile-depart">Corporate &amp; Financial Institutions Debt Products</p>
             <p>I am an Analyst in the Power &amp; Utilities industry sector of Corporate Debt Products. </p>
@@ -20,7 +19,7 @@
         </div>
         
          <div class="profile-article">
-            <img src="images/campus/icon-BhavinGhonda.jpg" width="50" height="80" alt="Bhavin Ghonda" />
+            <img src="images/campus/icon-BhavinGhonda.jpg" width="50" height="80" alt="Bhavin" />
             <h2>Bhavin</h2>
             <p class="profile-depart">Technology Analyst Program</p>
             <p>I am part of the Basel II Data Quality team at Bank of America.</p>
@@ -28,7 +27,7 @@
         </div>
         
          <div class="profile-article">
-            <img src="images/campus/icon-DevinFunk.jpg" width="50" height="80" alt="Devin Funk" />
+            <img src="images/campus/icon-DevinFunk.jpg" width="50" height="80" alt="Devin" />
             <h2>Devin</h2>
              <p class="profile-depart">Enterprise Technology &amp; Delivery Leadership Development</p>
             <p>I currently work on the Data Center Strategy team.</p>
@@ -36,7 +35,7 @@
         </div>
        
          <div class="profile-article">
-            <img src="images/campus/icon-JenniferAurbach.jpg" width="50" height="80" alt="Jennifer Aurbach" />
+            <img src="images/campus/icon-JenniferAurbach.jpg" width="50" height="80" alt="Jennifer" />
             <h2>Jennifer </h2>
             <p class="profile-depart">Global Wealth &amp; Investment Management Analyst Program</p>
             <p>I currently sit on the Listed Options Desk.</p>
@@ -44,7 +43,7 @@
         </div>
          
          <div class="profile-article">
-            <img src="images/campus/icon-JohnCowell.jpg" width="50" height="80" alt="John Cowell" />
+            <img src="images/campus/icon-JohnCowell.jpg" width="50" height="80" alt="John" />
             <h2>John </h2>
             <p class="profile-depart">Global Markets Operations/Middle Office Rotational Program</p>
             <p>Currently I am working to build a new team to provide valuations to our institutional clients.</p>
@@ -52,7 +51,7 @@
         </div>
        
         <div class="profile-article">
-            <img src="images/campus/icon-MattHinman.jpg" width="50" height="80" alt="Matt Hinman" />
+            <img src="images/campus/icon-MattHinman.jpg" width="50" height="80" alt="Matt" />
             <h2>Matt</h2>
             <p class="profile-depart">Technology MBA Program</p>
             <p>Currently, I work for Vulnerability Management in the Enterprise Technology &amp; Delivery organization. </p>
@@ -61,7 +60,7 @@
         
         
           <div class="profile-article">
-            <img src="images/campus/icon-MichaelSvitanik.jpg" width="50" height="80" alt="Michael Svitanik" />
+            <img src="images/campus/icon-MichaelSvitanik.jpg" width="50" height="80" alt="Michael" />
             <h2>Michael </h2>
             <p class="profile-depart">Infrastructure Design &amp; Build Program</p>
             <p>My current role is in MQ Support under Mainframe Design and Build.</p>
@@ -69,7 +68,7 @@
         </div>
       
          <div class="profile-article">
-            <img src="images/campus/icon-PepeLopez-Gallo.jpg" width="50" height="80" alt="Pepe Lopez-Gallo" />
+            <img src="images/campus/icon-PepeLopez-Gallo.jpg" width="50" height="80" alt="Pepe" />
             <h2>Pepe</h2>
             <p class="profile-depart">Corporate and Investment Banking Associate Program</p>
             <p>I work as an associate in the Healthcare Investment Banking Group in New York, and my responsibilities include financial and market analyses. </p>
@@ -77,14 +76,14 @@
         </div>
        
        <div class="profile-article">
-            <img src="images/campus/icon-TylerBak.jpg" width="50" height="80" alt="Tyler Bak" />
+            <img src="images/campus/icon-TylerBak.jpg" width="50" height="80" alt="Tyler" />
             <h2>Tyler</h2>
             <p class="profile-depart">Global Capital Markets Analyst Program</p>
             <p>I am an associate in the Equity Capital Markets group where I focus on the origination effort in the Healthcare and Transportation spaces.</p>
             <p><a href="campus-profiles-Internship-Tyler.aspx">Read Profile</a></p>
         </div>                                                               
      
-    <p class="back-top"><a href="#profiles">Back to top</a></p>
+    <p class="back-top"><a href="#main-profiles">Back to top</a></p>
   </div>
   
             <script src="Includes/_swfobject.js" type="text/javascript"></script>

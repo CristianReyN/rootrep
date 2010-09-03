@@ -27,7 +27,7 @@
  <p><strong>Corporate/Lateral Recruiting</strong> - A division of Global Human Resources in Staffing. Corporate/Lateral Recruiting is considered any recruiting that takes place outside of the campus space.</p>
 
  <p><strong>Direct Hire Program</strong> - Any campus program that hires students directly into a full time position, which does not have a rotational aspect.</p>
-
+ 
  <p><strong>EMEA</strong> - An acronym for our Europe, Middle East and Africa region.</p>
 
  <p><strong>Final Rounds</strong>- An interview event at the end of the season to help determine final hiring decisions. Often, the final round event will be held in person and will give students the opportunity to network and meet the other students interviewing for opportunities at Bank of America.</p>
@@ -44,9 +44,10 @@
                   <a href="campus-AsiaPac-meet-our-people.aspx"><img src="images/campus/btn-our-people.jpg" width="179" height="66" alt="Our People: See and hear who's making a difference and how." /></a> 
                   <h3>Related Links:</h3>
                   <ul>
-                    <li><a href="campus-Americas-interview-tips.aspx">Interview 
+                    <li><a href="campus-AsiaPac-how-to-apply.aspx">How to apply</a></li>
+                    <li><a href="campus-AsiaPac-interview-tips.aspx">Interview 
                       tips</a></li>
-                    <li><a href="campus-Americas-requirements.aspx">Campus FAQs</a></li>
+                    <li><a href="campus-AsiaPac-faq.aspx">Campus FAQs</a></li>
                   </ul>
                 </div>
                 <div id="red-footer"> 

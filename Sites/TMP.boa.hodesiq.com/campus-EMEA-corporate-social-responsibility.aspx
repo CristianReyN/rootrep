@@ -11,7 +11,7 @@
                     (CSR) is a strategy for improving the communities served by 
                     the company as well as the long-term health and success of 
                     the business.</p>
-                  <h3>Bank of America Merrill Lynch Corporate Philanthropy</h3>
+                  <h2 class="questions">Bank of America Merrill Lynch Corporate Philanthropy</h2>
                   <p>Building on a long-standing tradition of investing in the 
                     communities it serves, last year Bank of America embarked 
                     on a ten-year goal to donate US$2 billion to non-profit organisations 
@@ -27,9 +27,9 @@
                   <a href="campus-EMEA-graduate-profiles.aspx"><img src="images/campus/btn-our-people.jpg" width="179" height="66" alt="Our People: See and hear who's making a difference and how." /></a> 
                   <h3>Related Links:</h3>
                   <ul>
+				  <li><a href="campus-EMEA-about-us.aspx">About us</a></li>
 				  <li><a href="campus-EMEA-diversity-and-inclusion.aspx">Diversity and inclusion</a></li>
-                    <li><a href="campus-EMEA-about-us.aspx">About us</a></li>
-                    <li><a href="campus-EMEA-benefits-and-rewards.aspx">Benefits and rewards</a></li>
+                    <li><a href="campus-EMEA-benefits-and-rewards.aspx">Rewards</a></li>
                   </ul>
                 </div>
                 <div id="red-footer"> 

@@ -5,11 +5,13 @@
 <link href="Includes/campus.css" type="text/css" rel="stylesheet" />
 
 <div id="america-home">
+
+            <h1 class="wai">America - Momentum</h1>
                  
                 <p class="link-header">Use the buttons below to further explore our company and opportunities.</p>
                 
                 <div id="icon-home-buttons">
-				<a href="http://careers.bankofamerica.com/jobsearch.aspx"><img src="images/campus/btn-search-jobs.jpg" width="46" height="47" alt="Search Job" /></a>
+				<a href="campus-Americas-explore-careers.aspx"><img src="images/campus/btn-search-jobs.jpg" width="46" height="47" alt="Explore a world of career opportunities" /></a>
                 <a href="campus-Americas-meet-our-people.aspx"><img src="images/campus/btn-meet-people.jpg" width="46" height="46" alt="Meet our people" /></a>
                 <a href="http://twitter.com/BofA_Careers"><img src="images/campus/btn-twitter.jpg" width="46" height="46" alt="Twitter" /></a>
 				</div>
@@ -20,7 +22,7 @@
                             
                         <p><strong>You know how to leverage your triumphs.</strong> Use your past successes to speed ahead. Harness your talent to overcome the next big challenge. The constant acceleration that propels you forward can generate even greater opportunity here at Bank of America.</p>
 
-<p>Join our team and we'll guide your ambition through training and mentoring. We'll help you apply your drive to real-world problems where you can make a real impact in the global economy. As part of the world’s leading financial institution, you’ll have everything you need to create the kind of opportunity that begets greater opportunity and a bigger impact that you ever imagined.</p> 
+<p><strong>Join our team and we'll guide your ambition through training and mentoring.</strong> We'll help you apply your drive to real-world problems where you can make a real impact in the global economy. As part of the world’s leading financial institution, you’ll have everything you need to create the kind of opportunity that begets greater opportunity and a bigger impact that you ever imagined.</p> 
                         
                         </div>
 						

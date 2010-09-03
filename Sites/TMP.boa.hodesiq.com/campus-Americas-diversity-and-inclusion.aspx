@@ -10,7 +10,7 @@
 			   
 			   <p>Here at Bank of America, we firmly believe that what makes you unique also makes you a critical part of our success. So it follows that we welcome diversity and are committed to fostering an environment of respect, where each individual's perspective is valued.</p>
 			   
-			   <p>We've proudly earned our reputation as a company that encourages equal opportunity in all aspects of our workplace, and we're always looking for new ways to promote equality and professional development among our people. You can learn more by exploring our fact <a href="http://careers.bankofamerica.com/learnmore/factsheets.asp">sheets</a>, information on our <a href="http://careers.bankofamerica.com/learnmore/workforce.asp">workforce</a>, recent <a href="http://careers.bankofamerica.com/learnmore/awards.asp">awards</a>, and national diversity recruiting <a href="CampusEvents.aspx?region=1">events</a>.</p>
+			   <p>We've proudly earned our reputation as a company that encourages equal opportunity in all aspects of our workplace, and we're always looking for new ways to promote equality and professional development among our people. You can learn more by exploring our <a href="learnmore/factsheets.asp">fact sheets</a>, information on our <a href="learnmore/workforce.asp">workforce</a>, recent <a href="learnmore/awards.asp">awards</a>, and national diversity <a href="learnmore/recruitingevents.asp">recruiting events</a>.</p>
 
                 </div>
                 <div id="aside"> 
@@ -20,9 +20,9 @@
                   
                   <h3>Related Links:</h3>
                   <ul>
-                    <li><a href="campus-Americas-requirements.aspx">Corporate social responsibility</a></li>
-					<li><a href="campus-Americas-requirements.aspx">Benefits and rewards</a></li>
-					<li><a href="campus-Americas-requirements.aspx">Information for parents</a></li>
+                    <li><a href="campus-Americas-benefits-and-rewards.aspx">Benefits and rewards</a></li>
+                    <li><a href="campus-Americas-corporate-social-responsibility.aspx">Corporate social responsibility</a></li>
+					<li><a href="campus-Americas-information-for-parents.aspx">Information for parents</a></li>
                   </ul>
                 </div>
                 <div id="red-footer"> 

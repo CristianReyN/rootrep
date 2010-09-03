@@ -14,25 +14,25 @@
         <h2>Featured Analysts</h2>
         	
             <div class="mop-profile">
-                <img src="images/campus/icon-mopAlisaRoyal.jpg" width="40" height="40" alt="Bryan Cook" />
-                <h2>Alissa</h2>
+                <img src="images/campus/icon-mopAlisa.jpg" width="40" height="40" alt="Alissa" />
+                <h3>Alissa</h3>
             <p>Corporate &amp; Financial Institutions Debt Products</p>
-            <p><a href="campus-meet-our-people-profile-Alissa.aspx">Read Profile</a></p>
+            <p><a href="campus-meet-our-people-profile-Alissa.aspx" title="Read Alissa's Profile">Read Profile</a></p>
             </div>
             
              <div class="mop-profile">
-                <img src="images/campus/icon-mopAshleyClarke.jpg" width="40" height="40" alt="Ashley Clarke" />
-            <h2>Ashley</h2> 
+                <img src="images/campus/icon-mopAshley.jpg" width="40" height="40" alt="Ashley" />
+            <h3>Ashley</h3> 
             <p>Finance Management Associate Program</p>
            
-            <p><a href="campus-meet-our-people-profile-Ashley.aspx">Read Profile</a></p>
+            <p><a href="campus-meet-our-people-profile-Ashley.aspx" title="Read Ashley's Profile">Read Profile</a></p>
             </div>
             
              <div class="mop-profile">
-                 <img src="images/campus/icon-mopBhavinGhonda.jpg" width="40" height="40" alt="Bhavin Ghonda" />
-            <h2>Bhavin</h2>
+                 <img src="images/campus/icon-mopBhavin.jpg" width="40" height="40" alt="Bhavin" />
+            <h3>Bhavin</h3>
             <p>Technology Analyst Program</p>
-            <p><a href="campus-meet-our-people-profile-Bhavin.aspx">Read Profile</a></p>
+            <p><a href="campus-meet-our-people-profile-Bhavin.aspx" title="Read Bhavin's Profile">Read Profile</a></p>
             </div>
             
             <p class="learnlink"><a href="campus-Americas-analyst-profiles.aspx">View all our analyst profiles</a></p>
@@ -42,24 +42,24 @@
         <h2>Featured  Associates</h2>
         	
             <div class="mop-profile">
-                <img src="images/campus/icon-mopBryanCook.jpg" width="40" height="40" alt="Bryan Cook" />
-            <h2>Bryan</h2>
+                <img src="images/campus/icon-mopBryan.jpg" width="40" height="40" alt="Bryan" />
+            <h3>Bryan</h3>
             <p>Global Research Associate Program</p>
-            <p><a href="campus-meet-our-people-profile-Bryan.aspx">Read Profile</a></p>
+            <p><a href="campus-meet-our-people-profile-Bryan.aspx" title="Read Bryan's Profile">Read Profile</a></p>
             </div>
             
              <div class="mop-profile">
-                 <img src="images/campus/icon-mopNisheetPatel.jpg" width="40" height="40" alt="Nisheet Patel" />
-            <h2>Nisheet</h2>
+                 <img src="images/campus/icon-mopNisheet.jpg" width="40" height="40" alt="Nisheet" />
+            <h3>Nisheet</h3>
             <p>Global Wealth &amp; Investment Management Associate Program</p>
-            <p><a href="campus-meet-our-people-profile-Nisheet.aspx">Read Profile</a></p>
+            <p><a href="campus-meet-our-people-profile-Nisheet.aspx" title="Read Nisheet's Profile">Read Profile</a></p>
             </div>
             
              <div class="mop-profile">
-            <img src="images/campus/icon-mopMattHinman.jpg" width="40" height="40" alt="Matt Hinman" />
-             <h2>Matt</h2>
+            <img src="images/campus/icon-mopMatt.jpg" width="40" height="40" alt="Matt" />
+             <h3>Matt</h3>
             <p>Technology MBA Program</p>
-            <p><a href="campus-meet-our-people-profile-Matt.aspx">Read Profile</a></p>
+            <p><a href="campus-meet-our-people-profile-Matt.aspx" title="Read Matt's Profile">Read Profile</a></p>
             </div>
             
             <p class="learnlink"><a href="campus-Americas-associate-profiles.aspx">View all our associates profiles</a></p>
@@ -69,31 +69,31 @@
         <h2>Featured  Interns</h2>
         	
             <div class="mop-profile">
-                <img src="images/campus/icon-mopDevinFunk.jpg" width="40" height="40" alt="Devin Funk" />
-            <h2>Devin</h2>
+                <img src="images/campus/icon-mopDevin.jpg" width="40" height="40" alt="Devin" />
+            <h3>Devin</h3>
              <p>Enterprise Technology &amp; Delivery Leadership Development</p>
-            <p><a href="campus-meet-our-people-profile-Devin.aspx">Read Profile</a></p>
+            <p><a href="campus-meet-our-people-profile-Devin.aspx" title="Read Devin's Profile">Read Profile</a></p>
             </div>
             
              <div class="mop-profile">
-             <img src="images/campus/icon-mopJenniferAurbach.jpg" width="40" height="40" alt="Jennifer Aurbach" />
-             <h2>Jennifer </h2>
+             <img src="images/campus/icon-mopJennifer.jpg" width="40" height="40" alt="Jennifer" />
+             <h3>Jennifer </h3>
             <p>Global Wealth &amp; Investment Management Analyst Program</p>
-            <p><a href="campus-meet-our-people-profile-Jennifer.aspx">Read Profile</a></p>
+            <p><a href="campus-meet-our-people-profile-Jennifer.aspx" title="Read Jennifer's Profile">Read Profile</a></p>
             </div>
             
              <div class="mop-profile">
-                 <img src="images/campus/icon-mopJohnCowell.jpg" width="40" height="40" alt="John Cowell" />
-            <h2>John </h2>
-            <p>Global Markets Operations/Middle Office Rotational Program</p>
-            <p><a href="campus-meet-our-people-profile-John.aspx">Read Profile</a></p>
+                 <img src="images/campus/icon-mopJohn.jpg" width="40" height="40" alt="John" />
+            <h3>John </h3>
+            <p>Global Markets Operations/<br />Middle Office Rotational Program</p>
+            <p><a href="campus-meet-our-people-profile-John.aspx" title="Read John's Profile">Read Profile</a></p>
             </div>
             
             <p class="learnlink"><a href="campus-Americas-intern-profiles.aspx">View all our interns profiles</a></p>
         </div>
         
       
-    <p class="back-top"><a href="#main-profiles"">Back to top</a></p>
+    <p class="back-top"><a href="#main-profiles">Back to top</a></p>
   </div>
   
             <script src="Includes/_swfobject.js" type="text/javascript"></script>
@@ -223,12 +223,14 @@
             <p>Tony</p>
             <p class="padbot">Corporate Treasury Associate</p>
             </div>
-            
+           
             <h3>Related Links:</h3>
             <ul>
               <li><a href="campus-AsiaPac-meet-our-people.aspx">Asia Pacific profiles</a></li>
               <li><a href="campus-EMEA-graduate-profiles.aspx">EMEA profiles</a></li>
             </ul>
+            
+           
   </div>
   <div id="red-footer"> 
     <p>Set opportunity in motion.</p>

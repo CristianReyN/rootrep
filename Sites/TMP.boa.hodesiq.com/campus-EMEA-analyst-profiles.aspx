@@ -8,48 +8,51 @@
  
   <div id="article">
   <h1>Our Analysts</h1>
-  <p>When you join us as a college or university graduate, you’ll learn from the best and brightest minds in the industry. You’ll participate in a comprehensive training programme that combines instructor-led and web-based classes with on-the-job training and networking. We’ll trust you with important work, giving you the opportunity to create real impact right out of the gate.</p>
-<p class="learnlink"><a href="campus-EMEA-analyst-programs.aspx">Learn More</a></p>
+  <p> As an analyst, you’ll learn from the best and brightest minds in the
+industry. You’ll participate in a comprehensive training program
+combining instructor-led and web-based classes with on-the-job
+training and networking. We’ll trust you with important work, giving
+you the opportunity to create real impact right out of the gate.</p>
 
         
          <div class="profile-article">
-            <img src="images/campus/icon-AurelieCaspar.jpg" width="50" height="80" alt="Aurelie Caspar" />
+            <img src="images/campus/icon-Aurelie.jpg" width="50" height="80" alt="Aurelie" />
             <h2>Aurelie</h2>
             <p class="profile-depart">Research Analyst Programme</p>
             <p>I am assisting the lead analyst in Equity Research covering retail stocks.</p>
-            <p><a href="campus-meet-our-people-profile-Aurelie.aspx">Read Profile</a></p>
+            <p><a href="campus-meet-our-people-profile-Aurelie.aspx" title="Read Aurelie's profile">Read Profile</a></p>
         </div>
         
         <div class="profile-article">
-            <img src="images/campus/icon-ChristophHadrys.jpg" width="50" height="80" alt="Christoph Hadrys" />
+            <img src="images/campus/icon-Christoph.jpg" width="50" height="80" alt="Christoph" />
             <h2>Christoph</h2>
              <p class="profile-depart-spec">Capital Markets Analyst</p>
             <p>I have responsibility for distribution strategy/pricing and execution across leveraged and investment grade syndicated loans.</p>
-            <p><a href="campus-meet-our-people-profile-Christoph.aspx">Read Profile</a></p>
+            <p><a href="campus-meet-our-people-profile-Christoph.aspx" title="Read Christoph's profile">Read Profile</a></p>
         </div>
        
          <div class="profile-article">
-            <img src="images/campus/icon-DwayneGoode.jpg" width="50" height="80" alt="Dwayne Goode" />
+            <img src="images/campus/icon-Dwayne.jpg" width="50" height="80" alt="Dwayne" />
             <h2>Dwayne</h2>
              <p class="profile-depart">Enterprise Technology &amp; Delivery Analyst</p>
             <p>My current assignment is to ensure the data network in EMEA is in great condition.</p>
-            <p><a href="campus-meet-our-people-profile-Dwayne.aspx">Read Profile</a></p>
+            <p><a href="campus-meet-our-people-profile-Dwayne.aspx" title="Read Dwayne's profile">Read Profile</a></p>
         </div> 
         
          <div class="profile-article">
-            <img src="images/campus/icon-FujiaLiu.jpg" width="50" height="80" alt="Fujia Liu" />
+            <img src="images/campus/icon-Fujia.jpg" width="50" height="80" alt="Fujia" />
             <h2>Fujia</h2>
             <p class="profile-depart">Global Markets Risk Management Analyst Programme</p>
             <p>My current role in Equity Market Risk Group recently changed from Exotic products side to flow business.</p>
-            <p><a href="campus-meet-our-people-profile-Fujia.aspx">Read Profile</a></p>
+            <p><a href="campus-meet-our-people-profile-Fujia.aspx" title="Read Fujia's profile">Read Profile</a></p>
         </div>
       
         <div class="profile-article">
-            <img src="images/campus/icon-HiraDiwan.jpg" width="50" height="80" alt="Hira Diwan" />
+            <img src="images/campus/icon-Hira.jpg" width="50" height="80" alt="Hira" />
             <h2>Hira</h2>
             <p class="profile-depart">Corporate &amp; Financial Institutions Debt Products Analyst</p>
             <p>My advice to a potential candidate would be to not be afraid of pursuing any opportunity that is presented to them.</p>
-            <p><a href="campus-meet-our-people-profile-Hira.aspx">Read Profile</a></p>
+            <p><a href="campus-meet-our-people-profile-Hira.aspx" title="Read Hira's profile">Read Profile</a></p>
         </div>
      
         <div class="profile-article">
@@ -57,47 +60,47 @@
             <h2>John-William </h2>
             <p class="profile-depart-jw">Global Wealth and Investment Management Analyst</p>
             <p>I am currently in the Global Wealth and Investment Management (GWIM) Graduate Programme.</p>
-            <p><a href="campus-meet-our-people-profile-John-William.aspx">Read Profile</a></p>
+            <p><a href="campus-meet-our-people-profile-John-William.aspx" title="Read John-William's profile">Read Profile</a></p>
         </div>
        
          <div class="profile-article">
-            <img src="images/campus/icon-KenChung.jpg" width="50" height="80" alt="Ken Chung" />
+            <img src="images/campus/icon-Ken.jpg" width="50" height="80" alt="Ken" />
             <h2>Ken</h2>
             <p class="profile-depart">Sales and Trading Analyst Programme</p>
             <p>I work on the Equity Central Risk Desk and look after the index rebalancing product.</p>
-            <p><a href="campus-meet-our-people-profile-Ken.aspx">Read Profile</a></p>
+            <p><a href="campus-meet-our-people-profile-Ken.aspx" title="Read Ken's profile">Read Profile</a></p>
         </div>
       
         <div class="profile-article">
-            <img src="images/campus/icon-MelissaClarke.jpg" width="50" height="80" alt="Melissa Clarke" />
+            <img src="images/campus/icon-Melissa.jpg" width="50" height="80" alt="Melissa" />
             <h2>Melissa </h2>
             <p class="profile-depart">Corporate and Investment Banking Analyst Programme</p>
-            <p>As an analyst on the UK Investment Banking team </p>
-            <p><a href="campus-meet-our-people-profile-Melissa.aspx">Read Profile</a></p>
+            <p>As an analyst on the UK Investment Banking team.</p>
+            <p><a href="campus-meet-our-people-profile-Melissa.aspx" title="Read Melissa's profile">Read Profile</a></p>
         </div>
       
         <div class="profile-article">
-            <img src="images/campus/icon-RomanSerper.jpg" width="50" height="80" alt="Roman Serper" />
+            <img src="images/campus/icon-Roman.jpg" width="50" height="80" alt="Roman" />
             <h2>Roman</h2>
             <p class="profile-depart">Technology Analyst Programme</p>
             <p>I’m currently developing a reporting tool that provides statistics on straight through processing of payments.</p>
-            <p><a href="campus-meet-our-people-profile-Roman.aspx">Read Profile</a></p>
+            <p><a href="campus-meet-our-people-profile-Roman.aspx" title="Read Roman's profile">Read Profile</a></p>
         </div>
         
          <div class="profile-article">
-            <img src="images/campus/icon-RossMcewan.jpg" width="50" height="80" alt="Ross Mcewan" />
+            <img src="images/campus/icon-Ross.jpg" width="50" height="80" alt="Ross" />
             <h2>Ross</h2>
             <p class="profile-depart">Treasury Management Analyst Programme</p>
             <p>As a sales analyst, I support two Treasury Sales Officers who each manage their own portfolio of clients.</p>
-            <p><a href="campus-meet-our-people-profile-Ross.aspx">Read Profile</a></p>
+            <p><a href="campus-meet-our-people-profile-Ross.aspx" title="Read Ross's profile">Read Profile</a></p>
         </div>
       
           <div class="profile-article">
-            <img src="images/campus/icon-ShireenJuma.jpg" width="50" height="80" alt="Shireen Juma" />
+            <img src="images/campus/icon-Shireen.jpg" width="50" height="80" alt="Shireen" />
             <h2>Shireen</h2>
             <p class="profile-depart">Global Human Resources</p>
             <p>I am currently working in the Associate Relations (AR) team working on cases such as Grievances, Disciplinaries, as well as other ER-related projects.</p>
-            <p><a href="campus-meet-our-people-profile-Shireen.aspx">Read Profile</a></p>
+            <p><a href="campus-meet-our-people-profile-Shireen.aspx" title="Read Shireen's profile">Read Profile</a></p>
         </div>
                                                                                  
      
@@ -235,8 +238,8 @@
             <ul>
           <li><a href="campus-Americas-analyst-profiles.aspx">Americas analyst profiles</a></li>
           <li><a href="campus-AsiaPac-analyst-profiles.aspx">Asia Pacific analyst profiles</a></li>
-          <li><a href="campus-EMEA-associate-profiles.aspx">Associate Profiles</a></li>
-          <li><a href="campus-EMEA-intern-profiles.aspx">Intern Profiles</a></li>
+          <li><a href="campus-EMEA-associate-profiles.aspx">Associate profiles</a></li>
+          <li><a href="campus-EMEA-intern-profiles.aspx">Internship profiles</a></li>
         </ul>
         
   </div>

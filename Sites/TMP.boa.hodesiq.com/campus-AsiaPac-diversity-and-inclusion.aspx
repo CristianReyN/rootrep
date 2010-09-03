@@ -16,10 +16,10 @@
                     equal opportunity in all aspects of our workplace, and we're 
                     always looking for new ways to promote equality and professional 
                     development among our people. You can learn more by exploring 
-                    our fact <a href="http://careers.bankofamerica.com/learnmore/factsheets.asp">sheets</a>, 
-                    information on our <a href="http://careers.bankofamerica.com/learnmore/workforce.asp">workforce</a>, 
-                    recent <a href="http://careers.bankofamerica.com/learnmore/awards.asp">awards</a>, 
-                    and national diversity recruiting <a href="CampusEvents.aspx?region=1">events</a>.</p>
+                    our <a href="learnmore/factsheets.asp">fact sheets</a>, 
+                    information on our <a href="learnmore/workforce.asp">workforce</a>, 
+                    recent <a href="learnmore/awards.asp">awards</a>, 
+                    and national diversity <a href="learnmore/recruitingevents.asp">recruiting events</a>.</p>
                 </div>
                 <div id="aside"> 
                 
@@ -28,10 +28,10 @@
                   <a href="campus-AsiaPac-meet-our-people.aspx"><img src="images/campus/btn-our-people.jpg" width="179" height="66" alt="Our People: See and hear who's making a difference and how." /></a> 
                   <h3>Related Links:</h3>
                   <ul>
-                    <li><a href="campus-AsiaPac-requirements.aspx">Corporate 
+                    <li><a href="campus-AsiaPac-benefits-and-rewards.aspx">Benefits and rewards</a></li>
+                    <li><a href="campus-AsiaPac-corporate-social-responsibility.aspx">Corporate 
                       social responsibility</a></li>
-                    <li><a href="campus-AsiaPac-requirements.aspx">Benefits and 
-                      rewards</a></li>
+                      <li><a href="campus-AsiaPac-information-for-parents.aspx">Information for parents</a></li>
                   </ul>
                 </div>
                 <div id="red-footer"> 

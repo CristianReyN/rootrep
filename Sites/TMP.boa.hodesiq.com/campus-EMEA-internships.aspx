@@ -10,11 +10,10 @@
                   <p>Internships at Bank of America Merrill Lynch are offered 
                     at two levels:</p>
                   <ul>
-                    <li>Analyst Level &ndash; for those taking an undergraduate 
+                    <li><a href="campus-EMEA-analyst-associate-internships.aspx">Analyst Level</a> &ndash; for those taking an undergraduate 
                       or Master's degree.</li>
-                    <li>Associate Level &ndash; for those taking an MBA or other 
-                      advanced degree (for more information, go to the Postgraduate 
-                      section).</li>
+                    <li><a href="campus-EMEA-analyst-associate-internships.aspx">Associate Level</a> &ndash; for those taking an MBA or other 
+                      advanced degree.</li>
                   </ul>
                   <p>An internship is an excellent opportunity to gain an insight 
                     into working life at the company and discover which direction 
@@ -23,14 +22,14 @@
                     for measurable impact on our business. The skill-building 
                     and networking opportunities you'll get with us can make all 
                     the difference after graduation.</p>
-                  <h3>Summer Internships</h3>
+                  <h2 class="questions">Summer Internships</h2>
                   <p>Bank of America Merrill Lynch's summer internship programme 
                     is the ideal opportunity to gain an introduction into the 
                     world of banking. The nine-week programme begins with an induction 
                     week covering core skills where you will work alongside our 
                     full-time employees to gain valuable work experience in the 
                     financial industry.</p>
-                  <h3>Internship Benefits</h3>
+                  <h2 class="questions">Internship Benefits</h2>
                   <ul>
                     <li>Compensation &ndash; we offer competitive compensation 
                       and benefits.</li>
@@ -55,14 +54,14 @@
                       and at the end of your internship. Managers will also help 
                       you develop a performance plan to establish goals and objectives.</li>
                   </ul>
-                  <h3>Important Dates</h3>
+                  <h2 class="questions">Important Dates</h2>
                   <p>Internships typically begin in June and continue through 
                     August. The application deadline is in mid-December, and we 
                     expect open positions to be filled by February.</p>
                   <h3>Locations</h3>
                   <p>Most of our internship opportunities are in Frankfurt, London, 
                     Madrid, Milan, Paris and Croydon.</p>
-                  <h3>Off-Cycle Internships</h3>
+                  <h2 class="questions">Off-Cycle Internships</h2>
                   <p>Off-cycle internships are available throughout the year, 
                     varying from 3–9 months, depending on the business need. Locations 
                     vary, but the majority of opportunities are in London, Frankfurt, 
@@ -70,7 +69,7 @@
                     Global Markets divisions. Applications for off-cycle opportunities 
                     are made online &ndash; it's the same process for full-time 
                     graduate analysts.</p>
-                  <h3>Industrial Placements</h3>
+                  <h2 class="questions">Industrial Placements</h2>
                   <p>6 and 12-month Industrial Placements are available within 
                     the Technology division.</p>
                 </div>
@@ -81,10 +80,9 @@
                   <h3>Related Links:</h3>
                   <ul>
                     <li><a href="campus-EMEA-analyst-programs.aspx">Analyst programmes</a></li>
-                    <li><a href="campus-EMEA-associate-and-phd-programs.aspx">Associate 
-                      &amp; PhD programmes</a></li>
-                    <li><a href="campus-EMEA-pre-university.aspx">Pre-University</a></li>
-                    <li><a href="campus-EMEA-requirementsy.aspx">Requirements</a></li>
+                    <li><a href="campus-EMEA-associate-and-phd-programs.aspx">Associate programmes</a></li>
+                    <li><a href="campus-EMEA-pre-university.aspx">Pre-university</a></li>
+                    <li><a href="campus-EMEA-requirements.aspx">Requirements</a></li>
                   </ul>
                 </div>
                 <div id="red-footer"> 

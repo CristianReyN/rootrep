@@ -7,67 +7,67 @@
                    <div id="article">
                    <h1>Our Associates</h1>
   					 <p>Our range of associate programs allows you to build on your MBA or advanced degree, transforming your knowledge and experience into real-world opportunities.</p>
-<p class="learnlink"><a href="campus-Americas-associate-phd-programs.aspx">Learn more</a></p>
+
 
   
         <div class="profile-article">
-            <img src="images/campus/icon-BryanCook.jpg" width="50" height="80" alt="Bryan Cook" />
+            <img src="images/campus/icon-Bryan.jpg" width="50" height="80" alt="Bryan" />
             <h2>Bryan</h2>
             <p class="profile-depart">Global Research Associate Program</p>
             <p>I'm in Fixed Income Research covering U.S. banks, broker/dealers and finance companies. </p>
-            <p><a href="campus-meet-our-people-profile-Bryan.aspx">Read Profile</a></p>
+            <p><a href="campus-meet-our-people-profile-Bryan.aspx" title="Read Bryan's Profile">Read Profile</a></p>
         </div>
       
          <div class="profile-article">
-            <img src="images/campus/icon-HamadijaCustovic.jpg" width="50" height="80" alt="Hamadija Custovic" />
+            <img src="images/campus/icon-Hamdija.jpg" width="50" height="80" alt="Hamdija" />
             <h2>Hamadija</h2>
             <p class="profile-depart-spec">Operations MBA Program</p>
             <p>My current assignment is in ATM Technology &amp; Operations. </p>
-            <p><a href="campus-meet-our-people-profile-Hamadija.aspx">Read Profile</a></p>
+            <p><a href="campus-meet-our-people-profile-Hamdija.aspx" title="Read Hamdija's Profile">Read Profile</a></p>
         </div>
      
          <div class="profile-article">
-            <img src="images/campus/icon-MattHinman.jpg" width="50" height="80" alt="Matt Hinman" />
+            <img src="images/campus/icon-Matt.jpg" width="50" height="80" alt="Matt" />
             <h2>Matt</h2>
             <p class="profile-depart">Technology MBA Program</p>
             <p>Currently, I work for Vulnerability Management in the Enterprise Technology &amp; Delivery organization. </p>
-            <p><a href="campus-meet-our-people-profile-Matt.aspx">Read Profile</a></p>
+            <p><a href="campus-meet-our-people-profile-Matt.aspx" title="Read Matt's Profile">Read Profile</a></p>
         </div>
         
          <div class="profile-article">
-            <img src="images/campus/icon-NisheetPatel.jpg" width="50" height="80" alt="Nisheet Patel" />
+            <img src="images/campus/icon-Nisheet.jpg" width="50" height="80" alt="Nisheet" />
             <h2>Nisheet</h2>
             <p class="profile-depart">Global Wealth &amp; Investment Management Associate Program</p>
             <p>I am currently with Managed Account Advisors which implements product for the advisory channel.</p>
-            <p><a href="campus-meet-our-people-profile-Nisheet.aspx">Read Profile</a></p>
+            <p><a href="campus-meet-our-people-profile-Nisheet.aspx" title="Read Nisheet's Profile">Read Profile</a></p>
         </div>
         
           <div class="profile-article">
-            <img src="images/campus/icon-PepeLopez-Gallo.jpg" width="50" height="80" alt="Pepe Lopez-Gallo" />
+            <img src="images/campus/icon-Pepe.jpg" width="50" height="80" alt="Pepe" />
             <h2>Pepe</h2>
             <p class="profile-depart">Corporate and Investment Banking Associate Program</p>
             <p>I work as an associate in the Healthcare Investment Banking Group in New York, and my responsibilities include financial and market analyses. </p>
-            <p><a href="campus-meet-our-people-profile-Pepe.aspx">Read Profile</a></p>
+            <p><a href="campus-meet-our-people-profile-Pepe.aspx" title="Read Pepe's Profile">Read Profile</a></p>
         </div>
         
         <div class="profile-article">
-            <img src="images/campus/icon-RachelWise.jpg" width="50" height="80" alt="Rachel Wise" />
+            <img src="images/campus/icon-Rachel.jpg" width="50" height="80" alt="Rachel" />
             <h2>Rachel</h2>
             <p class="profile-depart">Supply Chain Management</p>
             <p>My first Supply Chain Management Associate Program (MAP) rotation is with the Global Records Management team. </p>
-            <p><a href="campus-meet-our-people-profile-Rachel.aspx">Read Profile</a></p>
+            <p><a href="campus-meet-our-people-profile-Rachel.aspx" title="Read Rachel's Profile">Read Profile</a></p>
         </div>
       
          <div class="profile-article">
-            <img src="images/campus/icon-TylerBak.jpg" width="50" height="80" alt="Tyler Bak" />
+            <img src="images/campus/icon-Tyler.jpg" width="50" height="80" alt="Tyler" />
             <h2>Tyler</h2>
             <p class="profile-depart">Global Capital Markets Analyst Program</p>
             <p>I am an associate in the Equity Capital Markets group where I focus on the origination effort in the Healthcare and Transportation spaces.</p>
-            <p><a href="campus-meet-our-people-profile-Tyler.aspx">Read Profile</a></p>
+            <p><a href="campus-meet-our-people-profile-Tyler.aspx" title="Read Tyler's Profile">Read Profile</a></p>
         </div>
       
 
-    <p class="back-top"><a href="#profiles">Back to top</a></p>
+    <p class="back-top"><a href="#main-profiles">Back to top</a></p>
   </div>
   
             <script src="Includes/_swfobject.js" type="text/javascript"></script>
@@ -200,7 +200,7 @@
          <li><a href="campus-AsiaPac-associate-profiles.aspx">Asia Pacific associate profiles</a></li>
          <li><a href="campus-EMEA-associate-profiles.aspx">EMEA associate profiles</a></li>
          <li><a href="campus-Americas-analyst-profiles.aspx">Analyst profiles</a></li>
-         <li><a href="campus-Americas-intern-profiles.aspx">Intern profiles</a></li>
+         <li><a href="campus-Americas-intern-profiles.aspx">Internship profiles</a></li>
        </ul>
   </div>
   <div id="red-footer"> 

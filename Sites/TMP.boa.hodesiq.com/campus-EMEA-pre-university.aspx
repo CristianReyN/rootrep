@@ -6,8 +6,8 @@
 
 <div id="maincontent"> 
                 <div id="article"> 
-                  <h1>Pre-University opportunities</h1>
-                  <h3>Banking Uncovered</h3>
+                  <h1>Pre-university opportunities</h1>
+                  <h2 class="questions">Banking Uncovered</h2>
                   <p>It's never too early to think about your future, and Bank 
                     of America Merrill Lynch runs 'Banking Uncovered' &ndash; 
                     a one-day insight programme for A-levels students in Year 
@@ -20,7 +20,7 @@
                   <p>The events are held in June, July and November. Applications 
                     can be made online via <a href="CampusEvents.aspx?region=2">campus events</a> from 
                     approximately 3 months before each event.</p>
-                  <h3>Undergraduate Events</h3>
+                  <h2 class="questions">Undergraduate Events</h2>
                   <h3>Spring Insight Week</h3>
                   <p>The Bank of America Merrill Lynch Spring Insight Week is 
                     for first year undergraduate students and takes place during 
@@ -48,8 +48,7 @@
                   <h3>Related Links:</h3>
                   <ul>
                     <li><a href="campus-EMEA-analyst-programs.aspx">Analyst programmes</a></li>
-					<li><a href="campus-EMEA-associate-and-phd-programs.aspx">Associate 
-                      &amp; PhD programmes</a></li>
+					<li><a href="campus-EMEA-associate-and-phd-programs.aspx">Associate programmes</a></li>
                     <li><a href="campus-EMEA-internships.aspx">Internships</a></li>
 					<li><a href="campus-EMEA-requirements.aspx">Requirements</a></li>
                   </ul>

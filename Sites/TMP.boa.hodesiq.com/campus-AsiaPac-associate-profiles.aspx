@@ -7,14 +7,13 @@
                    <div id="article">
                    <h1>Our Associates</h1>
   					 <p>Our range of associate programs allows you to build on your MBA or advanced degree, transforming your knowledge and experience into real-world opportunities.</p>
-<p class="learnlink"><a href="campus-AsiaPac-associate-and-phd-programs.aspx">Learn more</a></p>
 
          <div class="profile-article">
-            <img src="images/campus/icon-DongLi.jpg" width="50" height="80" alt="Dong Li" />
+            <img src="images/campus/icon-Dong.jpg" width="50" height="80" alt="Dong" />
             <h2>Dong</h2>
             <p class="profile-depart">Corporate and Investment Banking Associate Program</p>
             <p>My current assignment is to help a China-based real estate company to acquire a Hong Kong Stock Exchange listed public company through reverse takeover. </p>
-            <p><a href="campus-meet-our-people-profile-Dong.aspx">Read Profile</a></p>
+            <p><a href="campus-meet-our-people-profile-Dong.aspx" title="Read Dong's Profile">Read Profile</a></p>
         </div>
         
  

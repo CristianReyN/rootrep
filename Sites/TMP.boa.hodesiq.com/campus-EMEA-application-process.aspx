@@ -10,12 +10,12 @@
 				 <h1>Application Process</h1>
 <p>For all positions in Europe Middle East and Africa (EMEA), you must apply through our online <a href="https://static.wcn.co.uk/company/ml/apply_now.html">application system</a>.</p>
 
-<h3>Graduate Analyst</h3>
+<h2 class="questions">Graduate Analyst</h2>
 
-<h3>Application Deadlines</h3>		
+<h2 class="questions">Application Deadlines</h2>		
 
-<h3>Summer Internship:&nbsp;&nbsp;&nbsp;&nbsp;Friday 12 November</h3>
-<h3>Full Time:&nbsp;&nbsp;&nbsp;&nbsp;Friday 17 December</h3>
+<h3 class="pad-intern">Summer Internship:&nbsp;&nbsp;&nbsp;&nbsp;Friday 12 November<br />
+Full Time:&nbsp;&nbsp;&nbsp;&nbsp;Friday 17 December</h3>
 
 <p>Online applications comprise three stages:</p>
 
@@ -25,7 +25,7 @@ Stage 3:&nbsp;&nbsp;&nbsp;&nbsp;Longer answer questions</p>
 
 <p>Please note that all three must be submitted by the application deadline.</p>
 
-<h3>Assessment</h3>
+<h2 class="questions">Assessment</h2>
 
 <p>Full Time:</p>
 
@@ -74,7 +74,11 @@ Stage 4:&nbsp;&nbsp;&nbsp;&nbsp;Successful applicants will be invited to an asse
                   <a href="campusrecruiting/career_fit_tool.asp"><img src="images/campus/btn-careerfinder.jpg" width="179" height="66" alt="Career Finder: Come as you are. We've got a career to fit." /></a> 
                   <a href="CampusEvents.aspx?region=2"><img src="images/campus/btn-campus-events.jpg" width="179" height="66" alt="Campus Events: Let's meet soon." /></a> 
                   <a href="campus-EMEA-graduate-profiles.aspx"><img src="images/campus/btn-our-people.jpg" width="179" height="66" alt="Our People: See and hear who's making a difference and how." /></a> 
-                  
+                   <h3>Related Links:</h3>
+                  <ul>
+                    <li><a href="campus-EMEA-how-to-apply.aspx">How to apply</a></li>
+                    <li><a href="campus-EMEA-faq.aspx">Campus FAQs</a></li>
+                  </ul>
                 </div>
                 <div id="red-footer"> 
                   <p>Set opportunity in motion.</p>
