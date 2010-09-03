@@ -32,6 +32,19 @@
 	font-family: Arial, Helvetica, Verdana, sans-serif;
 	}
 	
+	#profiles a:visited,
+	#maincontent a:visited,
+	#main-profiles a:visited,
+	#america-home a:visited,
+	#asiapac-home a:visited,
+	#emea-home a:visited,
+	#global-gateway a:visited {
+	font-size: .94em;
+	color: #651c7e;
+	text-decoration: none;
+	font-family: Arial, Helvetica, Verdana, sans-serif;
+	}
+	
 	#profiles a:hover,
 	#maincontent a:hover,
 	#main-profiles a:hover,
@@ -44,19 +57,6 @@
 	text-decoration: underline;
 	font-family: Arial, Helvetica, Verdana, sans-serif;
 	}
-	
-	#profiles a:visited,
-	#maincontent a:visited,
-	#main-profiles a:visited,
-	#america-home a:visited,
-	#asiapac-home a:visited,
-	#emea-home a:visited,
-	#global-gateway a:visited {
-	font-size: .94em;
-	color: #651c7e;
-	text-decoration: none !important;
-	font-family: Arial, Helvetica, Verdana, sans-serif;
-	}
 
 	#profiles,
 	#maincontent,
@@ -67,7 +67,6 @@
 	font-family: Arial, Helvetica, Verdana, sans-serif;
 	color: #000;
 	}
-	
 	
 	#profiles h1 {
 	margin: 0;
@@ -116,9 +115,23 @@
 	padding-top: 12px;
     }
     
-    
+	#maincontent #article h2.nopad {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, Helvetica, Verdana, sans-serif;
+	color: #5c5c5c;
+	font-size: 1.01em;
+	font-weight: bold;
+    }
+     
 	#maincontent #article p {
 	padding-bottom: 15px;
+	}
+	
+	#maincontent #article p.nobottompad {
+	margin: 0;
+	padding: 0;
+	padding-bottom: 6px;
 	}
 	
 	#maincontent #article ul {
@@ -136,6 +149,7 @@
 	}
 	
 	#maincontent #article p.learnlink {
+	clear: both;
 	text-align: right;
 	}
 	
@@ -192,8 +206,12 @@
 	
 	/* ======== meet the people pages ====== */
 	
+	#main-profiles #article {
+	width: 326px;
+	}
+	
 	#main-profiles #article div.featured-profile {
-	width: 312px;
+	width: 326px;
 	}
 	
 	#main-profiles #article div.featured-profile h2 {
@@ -207,8 +225,8 @@
 	
 	#main-profiles #article div.featured-profile p.learnlink {
 	text-align: right;
-	padding: 10px 12px 20px 0;
-	
+	padding: 0 12px 20px 0;
+	clear: both;
 	}
           	
     #main-profiles #article div.mop-profile {
@@ -219,7 +237,7 @@
 	margin-top: 10px;
 	width: 94px;
 	height: 165px;
-	margin-right: 10px;
+	margin-right: 12px;
 	margin-bottom: 15px;
 	} 
 	
@@ -282,6 +300,7 @@
 	float: left;
 	display: block;
 	margin: 10px 12px 10px 12px;
+	padding-bottom: 12px;
     border: none;
 	}
 	
@@ -464,6 +483,19 @@
 	
 	#main-profiles #aside #video-content p.padbot {
 	padding-bottom: 15px;
+	}
+	
+	#main-profiles #aside #video-content a.btn1:link {
+	color: #fff;
+	}
+	
+	#main-profiles #aside #video-content a.btn1:hover {
+	color: #fff !important;
+	text-decoration: underline !important;
+	}
+	
+	#main-profiles #aside #video-content a.btn1:visited {
+	color: #fff !important;
 	}
 	
 	#main-profiles #aside #video-content .transcript-content {
