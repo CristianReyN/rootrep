@@ -20,7 +20,7 @@ you the opportunity to create real impact right out of the gate.</p>
             <h2>Aurelie</h2>
             <p class="profile-depart">Research Analyst Programme</p>
             <p>I am assisting the lead analyst in Equity Research covering retail stocks.</p>
-            <p><a href="campus-meet-our-people-profile-Aurelie.aspx" title="Read Aurelie's profile">Read Profile</a></p>
+            <p><a href="campus-meet-our-people-profile-Aurelie.aspx" title="Read Aurelie's profile">Read <span class="hiddencontent">Aurelie's</span> Profile</a></p>
         </div>
         
         <div class="profile-article">
@@ -28,7 +28,7 @@ you the opportunity to create real impact right out of the gate.</p>
             <h2>Christoph</h2>
              <p class="profile-depart-spec">Capital Markets Analyst</p>
             <p>I have responsibility for distribution strategy/pricing and execution across leveraged and investment grade syndicated loans.</p>
-            <p><a href="campus-meet-our-people-profile-Christoph.aspx" title="Read Christoph's profile">Read Profile</a></p>
+            <p><a href="campus-meet-our-people-profile-Christoph.aspx" title="Read Christoph's profile">Read <span class="hiddencontent">Christoph's</span> Profile</a></p>
         </div>
        
          <div class="profile-article">
@@ -36,7 +36,7 @@ you the opportunity to create real impact right out of the gate.</p>
             <h2>Dwayne</h2>
              <p class="profile-depart">Enterprise Technology &amp; Delivery Analyst</p>
             <p>My current assignment is to ensure the data network in EMEA is in great condition.</p>
-            <p><a href="campus-meet-our-people-profile-Dwayne.aspx" title="Read Dwayne's profile">Read Profile</a></p>
+            <p><a href="campus-meet-our-people-profile-Dwayne.aspx" title="Read Dwayne's profile">Read <span class="hiddencontent">Dwayne's</span> Profile</a></p>
         </div> 
         
          <div class="profile-article">
@@ -44,7 +44,7 @@ you the opportunity to create real impact right out of the gate.</p>
             <h2>Fujia</h2>
             <p class="profile-depart">Global Markets Risk Management Analyst Programme</p>
             <p>My current role in Equity Market Risk Group recently changed from Exotic products side to flow business.</p>
-            <p><a href="campus-meet-our-people-profile-Fujia.aspx" title="Read Fujia's profile">Read Profile</a></p>
+            <p><a href="campus-meet-our-people-profile-Fujia.aspx" title="Read Fujia's profile">Read <span class="hiddencontent">Fujia's</span> Profile</a></p>
         </div>
       
         <div class="profile-article">
@@ -52,7 +52,7 @@ you the opportunity to create real impact right out of the gate.</p>
             <h2>Hira</h2>
             <p class="profile-depart">Corporate &amp; Financial Institutions Debt Products Analyst</p>
             <p>My advice to a potential candidate would be to not be afraid of pursuing any opportunity that is presented to them.</p>
-            <p><a href="campus-meet-our-people-profile-Hira.aspx" title="Read Hira's profile">Read Profile</a></p>
+            <p><a href="campus-meet-our-people-profile-Hira.aspx" title="Read Hira's profile">Read <span class="hiddencontent">Hira's</span> Profile</a></p>
         </div>
      
         <div class="profile-article">
@@ -60,7 +60,7 @@ you the opportunity to create real impact right out of the gate.</p>
             <h2>John-William </h2>
             <p class="profile-depart-jw">Global Wealth and Investment Management Analyst</p>
             <p>I am currently in the Global Wealth and Investment Management (GWIM) Graduate Programme.</p>
-            <p><a href="campus-meet-our-people-profile-John-William.aspx" title="Read John-William's profile">Read Profile</a></p>
+            <p><a href="campus-meet-our-people-profile-John-William.aspx" title="Read John-William's profile">Read <span class="hiddencontent">John-William's</span> Profile</a></p>
         </div>
        
          <div class="profile-article">
@@ -68,7 +68,7 @@ you the opportunity to create real impact right out of the gate.</p>
             <h2>Ken</h2>
             <p class="profile-depart">Sales and Trading Analyst Programme</p>
             <p>I work on the Equity Central Risk Desk and look after the index rebalancing product.</p>
-            <p><a href="campus-meet-our-people-profile-Ken.aspx" title="Read Ken's profile">Read Profile</a></p>
+            <p><a href="campus-meet-our-people-profile-Ken.aspx" title="Read Ken's profile">Read <span class="hiddencontent">Ken's</span> Profile</a></p>
         </div>
       
         <div class="profile-article">
@@ -76,7 +76,7 @@ you the opportunity to create real impact right out of the gate.</p>
             <h2>Melissa </h2>
             <p class="profile-depart">Corporate and Investment Banking Analyst Programme</p>
             <p>As an analyst on the UK Investment Banking team.</p>
-            <p><a href="campus-meet-our-people-profile-Melissa.aspx" title="Read Melissa's profile">Read Profile</a></p>
+            <p><a href="campus-meet-our-people-profile-Melissa.aspx" title="Read Melissa's profile">Read <span class="hiddencontent">Melissa's</span> Profile</a></p>
         </div>
       
         <div class="profile-article">
@@ -84,7 +84,7 @@ you the opportunity to create real impact right out of the gate.</p>
             <h2>Roman</h2>
             <p class="profile-depart">Technology Analyst Programme</p>
             <p>I’m currently developing a reporting tool that provides statistics on straight through processing of payments.</p>
-            <p><a href="campus-meet-our-people-profile-Roman.aspx" title="Read Roman's profile">Read Profile</a></p>
+            <p><a href="campus-meet-our-people-profile-Roman.aspx" title="Read Roman's profile">Read <span class="hiddencontent">Roman's</span>Profile</a></p>
         </div>
         
          <div class="profile-article">
@@ -92,7 +92,7 @@ you the opportunity to create real impact right out of the gate.</p>
             <h2>Ross</h2>
             <p class="profile-depart">Treasury Management Analyst Programme</p>
             <p>As a sales analyst, I support two Treasury Sales Officers who each manage their own portfolio of clients.</p>
-            <p><a href="campus-meet-our-people-profile-Ross.aspx" title="Read Ross's profile">Read Profile</a></p>
+            <p><a href="campus-meet-our-people-profile-Ross.aspx" title="Read Ross's profile">Read <span class="hiddencontent">Ross's</span> Profile</a></p>
         </div>
       
           <div class="profile-article">
@@ -100,7 +100,7 @@ you the opportunity to create real impact right out of the gate.</p>
             <h2>Shireen</h2>
             <p class="profile-depart">Global Human Resources</p>
             <p>I am currently working in the Associate Relations (AR) team working on cases such as Grievances, Disciplinaries, as well as other ER-related projects.</p>
-            <p><a href="campus-meet-our-people-profile-Shireen.aspx" title="Read Shireen's profile">Read Profile</a></p>
+            <p><a href="campus-meet-our-people-profile-Shireen.aspx" title="Read Shireen's profile">Read <span class="hiddencontent">Shireen's</span> Profile</a></p>
         </div>
                                                                                  
      
@@ -234,7 +234,7 @@ you the opportunity to create real impact right out of the gate.</p>
        
             </div>
             
-            <h3>Related Links:</h3>
+            <h2>Related Links:</h2>
             <ul>
           <li><a href="campus-Americas-analyst-profiles.aspx">Americas analyst profiles</a></li>
           <li><a href="campus-AsiaPac-analyst-profiles.aspx">Asia Pacific analyst profiles</a></li>

@@ -70,7 +70,7 @@
                   <a href="CampusEvents.aspx?region=2"><img src="images/campus/btn-campus-events.jpg" width="179" height="66" alt="Campus Events: Let's meet soon." /></a> 
                   <a href="campus-EMEA-graduate-profiles.aspx"><img src="images/campus/btn-our-people.jpg" width="179" height="66" alt="Our People: See and hear who's making a difference and how." /></a> 
                     
-                     <h3>Related Links:</h3>
+                     <h2>Related Links:</h2>
                     <ul>
                     <li><a href="campus-EMEA-analyst-programs.aspx">Analyst programmes</a></li>
                     <li><a href="campus-EMEA-associate-phd-programs.aspx">Associate programmes</a></li>

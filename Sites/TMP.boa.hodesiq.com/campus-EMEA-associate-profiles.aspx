@@ -14,7 +14,7 @@
             <h2>Irina</h2>
             <p class="profile-depart">Global Markets PhD Associate Programme</p>
             <p>I am an Equity exotics quantitative researcher.</p>
-            <p><a href="campus-meet-our-people-profile-Irina.aspx" title="Read Irina's profile">Read Profile</a></p>
+            <p><a href="campus-meet-our-people-profile-Irina.aspx" title="Read Irina's profile">Read <span class="hiddencontent">Irina's</span> Profile</a></p>
         </div>
   
           <div class="profile-article">
@@ -22,7 +22,7 @@
             <h2>Priya</h2>
             <p class="profile-depart">Corporate and Investment Banking Associate Programme</p>
             <p>I am part of the Media Investment Banking team.</p>
-            <p><a href="campus-meet-our-people-profile-Priya.aspx" title="Read Priya's profile">Read Profile</a></p>
+            <p><a href="campus-meet-our-people-profile-Priya.aspx" title="Read Priya's profile">Read <span class="hiddencontent">Priya's</span> Profile</a></p>
         </div>
     
          <div class="profile-article">
@@ -30,7 +30,7 @@
             <h2>Rachna</h2>
             <p class="profile-depart">Research Quant Analyst Programme</p>
             <p>I currently work in Credit Derivatives Strategy, which is a global team covering the European and North American credit derivatives markets. </p>
-            <p><a href="campus-meet-our-people-profile-Rachna.aspx" title="Read Rachna's profile">Read Profile</a></p>
+            <p><a href="campus-meet-our-people-profile-Rachna.aspx" title="Read Rachna's profile">Read <span class="hiddencontent">Rachna's</span> Profile</a></p>
         </div>
    
   </div>
@@ -158,7 +158,7 @@
             <p class="padbot">Quality and Productivity Consultant</p>
             </div>
             
-             <h3>Related Links:</h3>
+             <h2>Related Links:</h2>
         <ul>
           <li><a href="campus-Americas-associate-profiles.aspx">Americas associate profiles</a></li>
           <li><a href="campus-AsiaPac-associate-profiles.aspx">Asia Pacific associate profiles</a></li>

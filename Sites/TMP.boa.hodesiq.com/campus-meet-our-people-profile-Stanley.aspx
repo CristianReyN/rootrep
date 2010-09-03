@@ -55,7 +55,7 @@ your location?</h4>
         <ul>
         <li><a href="campus-AsiaPac-analyst-profiles.aspx">Back to profile list</a></li>
       	<li><a href="campus-meet-our-people-profile-Suke.aspx">Next profile</a></li>
-      	<li><a href="campus-meet-our-people-profile-Suke.aspx">Previous profile</a></li>
+      	<li><a href="campus-meet-our-people-profile-Scott.aspx">Previous profile</a></li>
         </ul>
         
     

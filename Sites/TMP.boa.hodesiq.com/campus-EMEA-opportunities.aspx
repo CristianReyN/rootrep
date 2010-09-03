@@ -13,34 +13,34 @@
 <p>Thanks to our focus on training, networking, and mentorship, Bank of America Merrill Lynch is a great place to begin your career. Imagine working alongside
 people every day who are as serious about your career development as you are.</p>
 
-<p><a href="campus-EMEA-analyst-programs.aspx" title="Learn more about our analyst programmes">Learn more</a></p>
+<p><a href="campus-EMEA-analyst-programs.aspx" title="Learn more about our analyst programmes">Learn more <span class="hiddencontent">about our analyst programmes</span></a></p>
 
 <h2><a href="campus-EMEA-associate-and-phd-programs.aspx">Associate &amp; PhD Programmes</a></h2>
 <h3 class="pad-top">Associate Programmes</h3>
 <p>Leverage the power of your advanced degree and/or MBA into real career momentum of instructor-led and web-based education, on-the-job training and
 networking. This is where you combine your education and experience with our incredible range of opportunities &endash; and the sky's the limit.</p>
-<p><a href="campus-EMEA-associate-and-phd-programs.aspx" title="Learn more about our associates programmes">Learn more</a></p>
+<p><a href="campus-EMEA-associate-and-phd-programs.aspx" title="Learn more about our associates programmes">Learn more <span class="hiddencontent">about our associates programmes</span></a></p>
 
 <h3>PhD Programmes</h3>
 <p>This programme is for you if you are pursuing a doctoral degree or equivalent advanced degree with a quantitative focus and you have an interest in
 working in the financial services industry. Our quantitative programmes offer a variety of opportunities for advanced students who have high-level
 mathematical skills and the desire to use them in a fast-paced, demanding business environment.</p>
-<p><a href="campus-EMEA-associate-and-phd-programs.aspx" title="Learn morea about our PhD programmes">Learn more</a></p>
+<p><a href="campus-EMEA-associate-and-phd-programs.aspx" title="Learn morea about our PhD programmes">Learn more <span class="hiddencontent">about our PhD programmes</span></a></p>
 
 <h2><a href="campus-EMEA-internships.aspx">Internships</a></h2> 
 <p>An internship is an excellent opportunity to gain an insight into working life at the company and discover which direction you would like to take your career.</p>
-<p><a href="campus-EMEA-internships.aspx" title="Learn more about our internships">Learn more</a></p>
+<p><a href="campus-EMEA-internships.aspx" title="Learn more about our internships">Learn more <span class="hiddencontent">about our internships</span></a></p>
 
 
 <h2><a href="campus-EMEA-pre-university.aspx">Pre-university Opportunities</a></h2>
 <p>It's never too early to think about your future, and Bank of America Merrill
 Lynch runs 'Banking Uncovered' ­ a one-day insight programme for A-levels students in Year 12.</p>
-<p><a href="campus-EMEA-pre-university.aspx" title="Learn more about our pre-university opportunities">Learn more</a></p>
+<p><a href="campus-EMEA-pre-university.aspx" title="Learn more about our pre-university opportunities">Learn more <span class="hiddencontent">about our pre-university opportunities</span></a></p>
 
 <h2><a href="campus-EMEA-requirements.aspx">Requirements</a></h2>
 <p>Our standards are extremely high ­ but so too are the rewards.</p>
 
-<p><a href="campus-EMEA-requirements.aspx" title="Learn more about our requirements">Learn more</a></p>
+<p><a href="campus-EMEA-requirements.aspx" title="Learn more about our requirements">Learn more <span class="hiddencontent">about our requirements</span></a></p>
     
   </div>
   <div id="aside"> 

@@ -21,7 +21,7 @@ you the opportunity to create real impact right out of the gate.</p>
             <h2>Gabriel</h2>
             <p class="profile-depart">Corporate and Investment Banking Analyst Program</p>
             <p>I am an analyst in the Mergers and Acquisitions Group in Hong Kong.</p>
-            <p><a href="campus-meet-our-people-profile-Gabriel.aspx" title="Read Gabriel's profile">Read Profile</a></p>
+            <p><a href="campus-meet-our-people-profile-Gabriel.aspx" title="Read Gabriel's profile">Read <span class="hiddencontent">Gabriel's</span> Profile</a></p>
         </div>
        
          <div class="profile-article">
@@ -29,7 +29,7 @@ you the opportunity to create real impact right out of the gate.</p>
             <h2>Lip Jin </h2>
             <p class="profile-depart">Global Markets Analyst Program</p>
             <p>I am the primary market maker for HG corporates/banks in Singapore.</p>
-            <p><a href="campus-meet-our-people-profile-Lip-Jin.aspx" title="Read Lip Jin's profile">Read Profile</a></p>
+            <p><a href="campus-meet-our-people-profile-Lip-Jin.aspx" title="Read Lip Jin's profile">Read <span class="hiddencontent">Lip Jin's</span> Profile</a></p>
         </div>
         
         <div class="profile-article">
@@ -37,7 +37,7 @@ you the opportunity to create real impact right out of the gate.</p>
             <h2>Louise</h2>
             <p class="profile-depart">Chief Financial Office Analyst Program</p>
             <p>Product controller for Strategic Investment Group desk. </p>
-            <p><a href="campus-meet-our-people-profile-Louise.aspx" title="Read Louise's profile">Read Profile</a></p>
+            <p><a href="campus-meet-our-people-profile-Louise.aspx" title="Read Louise's profile">Read <span class="hiddencontent">Louise's</span> Profile</a></p>
         </div>
         
         <div class="profile-article">
@@ -45,7 +45,7 @@ you the opportunity to create real impact right out of the gate.</p>
             <h2>Scott </h2>
             <p class="profile-depart">Operations Analyst Program</p>
             <p>I work on the MLX team, in charge of providing client service support for various e-commerce platforms within the company.</p>
-            <p><a href="campus-meet-our-people-profile-Scott.aspx" title="Read Scott's profile">Read Profile</a></p>
+            <p><a href="campus-meet-our-people-profile-Scott.aspx" title="Read Scott's profile">Read <span class="hiddencontent">Scott's</span> Profile</a></p>
         </div> 
        
         <div class="profile-article">
@@ -53,7 +53,7 @@ you the opportunity to create real impact right out of the gate.</p>
             <h2>Stanley</h2>
             <p class="profile-depart">Technology Analyst Program &ndash; GMRT</p>
             <p>It is indisputable Bank of America is a global leading financial company providing lots of opportunities. </p>
-            <p><a href="campus-meet-our-people-profile-Stanley.aspx" title="Read Stanley's profile">Read Profile</a></p>
+            <p><a href="campus-meet-our-people-profile-Stanley.aspx" title="Read Stanley's profile">Read <span class="hiddencontent">Stanley's</span> Profile</a></p>
         </div>
         
         <div class="profile-article">
@@ -61,7 +61,7 @@ you the opportunity to create real impact right out of the gate.</p>
             <h2>Suke</h2>
             <p class="profile-depart">Technology Analyst Program &ndash; ET&amp;D</p>
             <p>I work in Market Data Services in the Enterprise Technology &amp; Delivery Group.</p>
-            <p><a href="campus-meet-our-people-profile-Suke.aspx" title="Read Suke's profile">Read Profile</a></p>
+            <p><a href="campus-meet-our-people-profile-Suke.aspx" title="Read Suke's profile">Read <span class="hiddencontent">Suke's</span> Profile</a></p>
         </div>                                                                            
      
     <p class="back-top"><a href="#main-profiles">Back to top</a></p>
@@ -193,12 +193,12 @@ you the opportunity to create real impact right out of the gate.</p>
             <p class="padbot">Global Consumer &amp; Small Business</p>
             </div>
             
-            <h3>Related Links:</h3>
+            <h2>Related Links:</h2>
         <ul>
           <li><a href="campus-Americas-analyst-profiles.aspx">Americas analyst profiles</a></li>
           <li><a href="campus-EMEA-analyst-profiles.aspx">EMEA analyst profiles</a></li>
           <li><a href="campus-AsiaPac-associate-profiles.aspx">Associate profiles</a></li>
-          <li><a href="campus-AsiaPac-intern-profiles.aspx">Intern profiles</a></li>
+          <li><a href="campus-AsiaPac-intern-profiles.aspx">Internship profiles</a></li>
         </ul>
   </div>
   <div id="red-footer"> 

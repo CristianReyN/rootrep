@@ -13,7 +13,7 @@
             <h2>Dong</h2>
             <p class="profile-depart">Corporate and Investment Banking Associate Program</p>
             <p>My current assignment is to help a China-based real estate company to acquire a Hong Kong Stock Exchange listed public company through reverse takeover. </p>
-            <p><a href="campus-meet-our-people-profile-Dong.aspx" title="Read Dong's Profile">Read Profile</a></p>
+            <p><a href="campus-meet-our-people-profile-Dong.aspx" title="Read Dong's Profile">Read <span class="hiddencontent">Dong's</span> Profile</a></p>
         </div>
         
  
@@ -143,7 +143,7 @@
             <p class="padbot">Quality and Productivity Consultant</p>
             </div>
             
-            <h3>Related Links:</h3>
+            <h2>Related Links:</h2>
         <ul>
          <li><a href="campus-Americas-associate-profiles.aspx">Americas associate profiles</a></li>
           <li><a href="campus-EMEA-associate-profiles.aspx">EMEA associate profiles</a></li>

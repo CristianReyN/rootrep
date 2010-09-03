@@ -13,20 +13,20 @@
 
 <h2><a href="campus-EMEA-about-us.aspx">About Us</a></h2> 
 <p>Bank of America is one of the world's largest financial institutions, serving individual consumers, small- and middle-market businesses and large corporations with a full range of banking, investing, asset management and other financial and risk management products and services.</p>
-<p><a href="campus-EMEA-about-us.aspx" title="Learn more about us">Learn more</a></p>
+<p><a href="campus-EMEA-about-us.aspx" title="Learn more about us">Learn more <span class="hiddencontent">about us</span></a></p>
 
 <h2><a href="campus-EMEA-diversity-and-inclusion.aspx">Diversity</a></h2>
 <p>Diversity. It is not a word, ideal or goal; it is a principle we live by every day, in and outside the office. And it has manifested itself in a number of initiatives.</p>
 
-<p><a href="campus-EMEA-diversity-and-inclusion.aspx" title="Learn more about our diversity goals">Learn more</a></p>
+<p><a href="campus-EMEA-diversity-and-inclusion.aspx" title="Learn more about our diversity goals">Learn more <span class="hiddencontent">about our diversity goals</span></a></p>
 
 <h2><a href="campus-EMEA-corporate-social-responsibility.aspx">Corporate Social Responsibility</a></h2>
 <p>Bank of America's commitment to corporate social responsibility (CSR) is a strategy for improving the communities served by the company as well as the long-term health and success of the business.</p>
-<p><a href="campus-EMEA-corporate-social-responsibility.aspx" title="Learn more about our corporate social responsibility">Learn More</a></p>
+<p><a href="campus-EMEA-corporate-social-responsibility.aspx" title="Learn more about our corporate social responsibility">Learn more <span class="hiddencontent">about our corporate social responsibility</span></a></p>
 
 <h2><a href="campus-EMEA-benefits-and-rewards.aspx">Rewards</a></h2>
 <p>Because we want to take good care of the people who are at the heart of a business that’s wholly focused on winning, Bank of America Merrill Lynch offers a generous rewards and benefits programme. In fact, we firmly believe our package is one of the best in the financial services industry.</p>
-<p><a href="campus-EMEA-benefits-and-rewards.aspx" title="Learn more about our rewards">Learn More</a></p>
+<p><a href="campus-EMEA-benefits-and-rewards.aspx" title="Learn more about our rewards">Learn more <span class="hiddencontent">about our rewards</span></a></p>
     
   </div>
   <div id="aside"> 

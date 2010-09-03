@@ -15,7 +15,7 @@
             <h2>Dong</h2>
             <p class="profile-depart">Corporate and Investment Banking Associate Program</p>
             <p>My current assignment is to help a China-based real estate company to acquire a Hong Kong Stock Exchange listed public company through reverse takeover. </p>
-            <p><a href="campus-profiles-Internship-Dong.aspx" title="Read Dong's profile">Read Profile</a></p>
+            <p><a href="campus-profiles-Internship-Dong.aspx" title="Read Dong's profile">Read <span class="hiddencontent">Dong's</span> Profile</a></p>
         </div>
  
           <div class="profile-article">
@@ -23,7 +23,7 @@
             <h2>Gabriel</h2>
             <p class="profile-depart">Corporate and Investment Banking Analyst Program</p>
             <p>I am an analyst in the Mergers and Acquisitions Group in Hong Kong.</p>
-            <p><a href="campus-profiles-Internship-Gabriel.aspx" title="Read Gabriel's profile">Read Profile</a></p>
+            <p><a href="campus-profiles-Internship-Gabriel.aspx" title="Read Gabriel's profile">Read <span class="hiddencontent">Gabriel's</span> Profile</a></p>
         </div>
            
         <div class="profile-article">
@@ -31,7 +31,7 @@
             <h2>Stanley</h2>
             <p class="profile-depart">Technology Analyst Program &ndash; GMRT</p>
             <p>It is indisputable Bank of America is a global leading financial company providing lots of opportunities. </p>
-            <p><a href="campus-profiles-Internship-Stanley.aspx" title="Read Stanley's profile">Read Profile</a></p>
+            <p><a href="campus-profiles-Internship-Stanley.aspx" title="Read Stanley's profile">Read <span class="hiddencontent">Stanley's</span> Profile</a></p>
         </div>
   </div>
   <script src="Includes/_swfobject.js" type="text/javascript"></script>
@@ -161,7 +161,7 @@
 
             </div>
             
-             <h3>Related Links:</h3>
+             <h2>Related Links:</h2>
         <ul>
           <li><a href="campus-Americas-intern-profiles.aspx">Americas internship profiles</a></li>
           <li><a href="campus-EMEA-intern-profiles.aspx">EMEA internship profiles</a></li>

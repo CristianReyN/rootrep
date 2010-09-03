@@ -16,7 +16,7 @@
             <h2>Christoph</h2>
              <p class="profile-depart-spec">Capital Markets Analyst</p>
             <p>I have responsibility for distribution strategy/pricing and execution across leveraged and investment grade syndicated loans.</p>
-            <p><a href="campus-profiles-Internship-Christoph.aspx" title="Read Christoph's profile">Read Profile</a></p>
+            <p><a href="campus-profiles-Internship-Christoph.aspx" title="Read Christoph's profile">Read <span class="hiddencontent">Christoph's</span> Profile</a></p>
         </div>
        
          <div class="profile-article">
@@ -24,7 +24,7 @@
             <h2>Dwayne</h2>
              <p class="profile-depart">Enterprise Technology &amp; Delivery Analyst</p>
             <p>My current assignment is to ensure the data network in EMEA is in great condition.</p>
-            <p><a href="campus-profiles-Internship-Dwayne.aspx" title="Read Dwayne's profile">Read Profile</a></p>
+            <p><a href="campus-profiles-Internship-Dwayne.aspx" title="Read Dwayne's profile">Read <span class="hiddencontent">Dwayne's</span> Profile</a></p>
         </div> 
 
        <div class="profile-article">
@@ -32,7 +32,7 @@
             <h2>John-William </h2>
             <p class="profile-depart-jw">Global Wealth and Investment Management Analyst</p>
             <p>I am currently in the Global Wealth and Investment Management (GWIM) Graduate Programme.</p>
-            <p><a href="campus-profiles-Internship-John-William.aspx" title="Read John-William's profile">Read Profile</a></p>
+            <p><a href="campus-profiles-Internship-John-William.aspx" title="Read John-William's profile">Read <span class="hiddencontent">John-William's</span> Profile</a></p>
         </div>
         
          <div class="profile-article">
@@ -40,7 +40,7 @@
             <h2>Ken</h2>
             <p class="profile-depart">Sales and Trading Analyst Programme</p>
             <p>I work on the Equity Central Risk Desk and look after the index rebalancing product.</p>
-            <p><a href="campus-profiles-Internship-Ken.aspx" title="Read Ken's profile">Read Profile</a></p>
+            <p><a href="campus-profiles-Internship-Ken.aspx" title="Read Ken's profile">Read <span class="hiddencontent">Ken's</span> Profile</a></p>
         </div>
       
            <div class="profile-article">
@@ -48,7 +48,7 @@
             <h2>Rachna</h2>
             <p class="profile-depart">Research Quant Analyst Programme</p>
             <p>I currently work in Credit Derivatives Strategy, which is a global team covering the European and North American credit derivatives markets. </p>
-            <p><a href="campus-profiles-Internship-Rachna.aspx" title="Read Rachna's profile">Read Profile</a></p>
+            <p><a href="campus-profiles-Internship-Rachna.aspx" title="Read Rachna's profile">Read <span class="hiddencontent">Rachna's</span> Profile</a></p>
         </div>
         
          <div class="profile-article">
@@ -56,7 +56,7 @@
             <h2>Ross</h2>
             <p class="profile-depart">Treasury Management Analyst Programme</p>
             <p>As a sales analyst, I support two Treasury Sales Officers who each manage their own portfolio of clients.</p>
-            <p><a href="campus-profiles-Internship-Ross.aspx" title="Read Ross's profile">Read Profile</a></p>
+            <p><a href="campus-profiles-Internship-Ross.aspx" title="Read Ross's profile">Read <span class="hiddencontent">Ross's</span> Profile</a></p>
         </div>
     
     <p class="back-top"><a href="#profiles">Back to top</a></p>
@@ -186,7 +186,7 @@
             <p class="padbot">Quantitative Management Associate</p>
             </div>
             
-            <h3>Related Links:</h3>
+            <h2>Related Links:</h2>
         <ul>
         <li><a href="campus-Americas-intern-profiles.aspx">Americas internship profiles</a></li>
           <li><a href="campus-AsiaPac-intern-profiles.aspx">Asia Pacific internship profiles</a></li>

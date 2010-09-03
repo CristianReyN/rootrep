@@ -13,12 +13,12 @@
 	<p>Americas Benefits information (including Canada).</p>		  
 <p>Bank of America offers a competitive benefits package to its associates.</p>
 
-<p>Our comprehensive Full-Time Associate package includes<a href="#footnote1" title="Footnote 1"><sup>1</sup></a>:</p>
+<p>Our comprehensive Full-Time Associate package includes<a href="#footnote1" title="Footnote 1"><sup><span class="hiddencontent">Footnote</span>1</sup></a>:</p>
 
 <h2 class="questions">Financial and Retirement Support</h2>
 <ul>
 <li>Discounts and additional benefits on a wide range of banking and investing products&ndash;including checking accounts with no monthly maintenance fee or balance requirement, free checks and free or discounted annual safe deposit box rental</li> 
-<li>401K and pension plan<a href="#footnote2" title="Footnote 2"><sup>2</sup></a></li>
+<li>401K and pension plan<a href="#footnote2" title="Footnote 2"><sup><span class="hiddencontent">Footnote</span>2</sup></a></li>
 </ul>
 
 <h2 class="questions">Health Care and Insurance</h2>
@@ -49,7 +49,7 @@
                 <div id="aside"> <a href="campusrecruiting/career_fit_tool.asp"><img src="images/campus/btn-careerfinder.jpg" width="179" height="66" alt="Career Finder: Come as you are. We've got a career to fit." /></a> 
                   <a href="CampusEvents.aspx?region=1"><img src="images/campus/btn-campus-events.jpg" width="179" height="66" alt="Campus Events: Let's meet soon." /></a> 
                   <a href="campus-Americas-meet-our-people.aspx"><img src="images/campus/btn-our-people.jpg" width="179" height="66" alt="Our People: See and hear who's making a difference and how." /></a> 
-                  <h3>Related Links:</h3>
+                  <h2>Related Links:</h2>
                   <ul>
                     <li><a href="campus-Americas-diversity-and-inclusion.aspx">Diversity and inclusion</a></li>
                     <li><a href="campus-Americas-corporate-social-responsibility.aspx">Corporate social responsibility</a></li>

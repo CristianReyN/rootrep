@@ -65,7 +65,7 @@
                   <a href="campusrecruiting/career_fit_tool.asp"><img src="images/campus/btn-careerfinder.jpg" width="179" height="66" alt="Career Finder: Come as you are. We've got a career to fit." /></a> 
                   <a href="CampusEvents.aspx?region=1"><img src="images/campus/btn-campus-events.jpg" width="179" height="66" alt="Campus Events: Let's meet soon." /></a> 
                   <a href="campus-Americas-meet-our-people.aspx"><img src="images/campus/btn-our-people.jpg" width="179" height="66" alt="Our People: See and hear who's making a difference and how." /></a> 
-                  <h3>Related Links:</h3>
+                  <h2>Related Links:</h2>
 				  <ul>
                     <li><a href="campus-Americas-analyst-programs.aspx">Analyst 
                       programs</a></li>
