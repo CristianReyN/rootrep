@@ -65,7 +65,7 @@
 	padding: 0;
 	width: 578px;
 	font-family: Arial, Helvetica, Verdana, sans-serif;
-	color: #000;
+	color: #333;
 	}
 	
 	#profiles h1 {
@@ -144,8 +144,20 @@
 	#maincontent #article ul li {
 	font-size: 1em;
 	font-family: Arial, Helvetica, Verdana,  sans-serif;
-	color: #5c5c5c;
+	color: #333;
 	padding-bottom: 3px;
+	}
+	
+	#maincontent #article p.applypad {
+	margin: 0;
+	padding: 0;
+	}
+	
+	
+	#maincontent #article ul.notoppad {
+	margin: 0;
+	padding: 0;
+	margin-left: 40px;
 	}
 	
 	#maincontent #article p.learnlink {
@@ -171,7 +183,7 @@
 	padding: 0;
 	font-size: 1em;
 	font-family: Arial, Helvetica, Verdana, sans-serif;
-	color: #5c5c5c;
+	color: #333;
 	}
 	
 	#profiles #article ol {
@@ -200,7 +212,7 @@
 	padding: 0;
 	font-size: 1em;
 	font-family: Arial, Helvetica, Verdana, sans-serif;
-	color: #5c5c5c;
+	color: #333;
 	padding: 0 15px 12px 10px;
 	}
 	
@@ -253,7 +265,7 @@
 	margin: 0;
 	padding: 0;
 	font-size: 1em;
-	color: #363636;
+	color: #333;
 	font-weight: bold;
 	padding-left: 5px;
 	padding-left: 5px;
@@ -263,7 +275,7 @@
 	margin: 0;
 	padding: 0;
 	font-size: .85em;
-	color: #363636;
+	color: #333;
 	padding-right: 10px;
 	padding-left: 5px;
 	}
@@ -388,7 +400,7 @@
 	margin: 0;
 	padding: 0;
 	font-size: 0.8em;
-	color: #5c5c5c;
+	color: #333;
 	line-height: 14px;
 	}
 	
@@ -475,7 +487,7 @@
 	#main-profiles #aside #video-content p {
 	margin: 0;
 	padding: 0;
-	color: #363636;
+	color: #333;
 	font-size: .85em;
 	font-weight: bold;
 	margin-left: 5px;
@@ -527,7 +539,7 @@
 	width: 578px;
 	font-size: 1.1em;
 	font-family: Arial, Helvetica, Verdana,  sans-serif;
-	color: #5c5c5c;
+	color: #333;
 	background: url(../images/campus/bkg-america-home.jpg) left top no-repeat;
 	}
 	
@@ -577,7 +589,7 @@
 	width: 578px;
 	font-size: 1.1em;
 	font-family: Arial, Helvetica, Verdana,  sans-serif;
-	color: #5c5c5c;
+	color: #333;
 	background: url(../images/campus/bkg-asiapac-homepage.jpg) left top no-repeat;
 	}
 	
@@ -628,7 +640,7 @@
 	width: 578px;
 	font-size: 1.1em;
 	font-family: Arial, Helvetica, Verdana,  sans-serif;
-	color: #5c5c5c;
+	color: #333;
 	background: url(../images/campus/bkg-emeahomepage.jpg) left top no-repeat;
 	}
 	
