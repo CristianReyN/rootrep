@@ -16,10 +16,10 @@
                     equal opportunity in all aspects of our workplace, and we're 
                     always looking for new ways to promote equality and professional 
                     development among our people. You can learn more by exploring 
-                    our <a href="learnmore/factsheets.asp">fact sheets</a>, 
-                    information on our <a href="learnmore/workforce.asp">workforce</a>, 
-                    recent <a href="learnmore/awards.asp">awards</a>, 
-                    and national diversity <a href="learnmore/recruitingevents.asp">recruiting events</a>.</p>
+                    <a href="learnmore/factsheets.asp" title="our fact sheets">our fact sheets</a>, 
+                    <a href="learnmore/workforce.asp" title="information on our workforce">information on our workforce</a>, 
+                    recent <a href="learnmore/awards.asp" title="awards">awards</a>, 
+                    and national diversity <a href="learnmore/recruitingevents.asp"title="recruiting events">recruiting events</a>.</p>
                 </div>
                 <div id="aside"> 
                 
