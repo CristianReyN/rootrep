@@ -7,7 +7,7 @@
 <div id="main-profiles">
                    <div id="article">
                    <h1>Meet Our People</h1>
-  					 <p>WWant the inside scoop on what it’s like to work with us? Below you can watch a few of our associates and analysts talk about what motivates them to reach higher and what excites them about working here. You’ll get an insider perspective on our approach to creating—and extending—the range of opportunities we offer our people.</p>
+  					 <p>Want the inside scoop on what it’s like to work with us? Below you can watch a few of our associates and analysts talk about what motivates them to reach higher and what excites them about working here. You’ll get an insider perspective on our approach to creating—and extending—the range of opportunities we offer our people.</p>
 
   
         <div class="featured-profile">

@@ -39,7 +39,7 @@
                     and ambition to work in a fast-paced, exciting environment 
                     that will challenge and reward a rigorous approach.</p> 
                     
-                    <p><a href="campus-AsiaPac-associate-and-phd-programs.aspx"  title="Learn more about our assoiciates programs">Learn more <span class="hiddencontent">about our assoiciates programs</span></a></p>
+                    <p><a href="campus-AsiaPac-associate-and-phd-programs.aspx"  title="Learn more about our PhD programs">Learn more <span class="hiddencontent">about our assoiciates programs</span></a></p>
                     
                   <h2><a href="campus-AsiaPac-internships.aspx">Internships</a></h2>
                   <p>An internship doesn't have to mean starting at the bottom. 

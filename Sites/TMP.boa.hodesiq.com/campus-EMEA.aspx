@@ -17,7 +17,7 @@
                           
                          <div id="article">
                             <h1 class="wai">EMEA - Agility</h1>
-                       <p><strong>Your hard work and unique talent make success look easy. You face challenges with confidence.</strong> Nimbly navigate every obstacle in your path. It’s that unique quality that’s positioned you where you are today. And it’s what we value at Bank of America.</p>
+                       <p><strong>Your hard work and unique talent make success look easy.</strong> You face challenges with confidence. Nimbly navigate every obstacle in your path. It’s that unique quality that’s positioned you where you are today. And it’s what we value at Bank of America.</p>
 
                         <p><strong>Join our team, and we’ll open your career path and give you new opportunities to take the possible and make it real.</strong> We’ll solicit your input and provide training, mentorship, and support to boost your aspirations to a global level. And as part of the world’s leading financial institution, you can create the kind of opportunity that begets greater opportunity and bigger impact than you ever imagined.</p>
                             

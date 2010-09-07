@@ -15,13 +15,13 @@
 			   <p>Our unflagging commitment to these principles has made us not only one of the world's most admired companies, but also a place you and your family can be proud to be part of. At Bank of America, your son or daughter will discover a myriad of opportunities to grow and develop&ndash;in all areas of life. We can offer:</p>
 
 <ul>
-<li>Built-in networks of support in our diverse range of <a href="learnmore/diversity.asp">community groups</a>.</li> 
+<li>Built-in networks of support in our diverse range of <a href="learnmore/diversity.asp" title="community groups">community groups</a>.</li> 
 
-<li>Strong compensation for your child's skills and talents, and support for his or her life outside of work, through our outstanding <a href="learnmore/benefitsadv.asp">benefits program</a>.</li> 
+<li>Strong compensation for your child's skills and talents, and support for his or her life outside of work, through our outstanding <a href="learnmore/benefitsadv.asp" title="benefits program">benefits program</a>.</li> 
 
-<li>Professional and personal development available through access to <a href="staffingevents/staffingprocess.asp">training and career advancement</a>.</li>  
+<li>Professional and personal development available through access to <a href="staffingevents/staffingprocess.asp"title="training and career advancement">training and career advancement</a>.</li>  
 
-<li>A sense of involvement in and commitment to the communities we serve and our <a href="http://www.bankofamerica.com/foundation/" target="_blank">dedication to philanthropy</a>.</li> 
+<li>A sense of involvement in and commitment to the communities we serve and our dedication to <a href="http://www.bankofamerica.com/foundation/" target="_blank" title="philanthropy">philanthropy</a>.</li> 
 
 </ul>
                 </div>

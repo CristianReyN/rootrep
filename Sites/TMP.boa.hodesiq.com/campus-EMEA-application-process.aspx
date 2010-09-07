@@ -12,9 +12,10 @@
 
 <h2 class="questions">Graduate Analyst</h2>
 
-<h2 class="questions">Application Deadlines</h2>		
+<h2 class="questions">Application Deadlines</h2>
+		
 
-<h3 class="pad-intern">Summer Internship:&nbsp;&nbsp;&nbsp;&nbsp;Friday 12 November<br />
+<h3>Summer Internship:&nbsp;&nbsp;&nbsp;&nbsp;Friday 12 November<br />
 Full Time:&nbsp;&nbsp;&nbsp;&nbsp;Friday 17 December</h3>
 
 <p>Online applications comprise three stages:</p>
@@ -26,30 +27,28 @@ Stage 3:&nbsp;&nbsp;&nbsp;&nbsp;Longer answer questions</p>
 <p>Please note that all three must be submitted by the application deadline.</p>
 
 <h2 class="questions">Assessment</h2>
+<br />
 
-<p>Full Time:</p>
-
+<p class="applypad">Full Time:</p>
 <ul>
 <li>1<sup>st</sup> round interview for some divisions only</li>
 <li>1-day Assessment Centre</li>
 </ul>
 
-<p>Internships:</p>
-
+<p class="applypad">Internships:</p>
 <ul>
 <li>1-day Assessment Centre</li>
 </ul>
 
 <h3>MBA, PhD or other advanced degree</h3>
-
+<br />
 <p>On your online application online, please attach your CV and cover letter in one document. Please also apply under the name of the educational institution you are currently attending.</p>
 
-Assessment for MBA or equivalent: 
+<h3>Assessment for MBA or equivalent:</h3> 
 <ul>
 <li>1<sup>st</sup> and 2<sup>nd</sup> round interviews will take place on campus</li>
 </ul>
-
-Assessment for PhD or other advanced degree 
+<h3>Assessment for PhD or other advanced degree</h3> 
 <ul>
 <li>Interviews will take place at a Bank of America Merrill Lynch office</li>
 </ul>
@@ -57,7 +56,7 @@ Assessment for PhD or other advanced degree
 <h3>Europe Card Services</h3>
 
 <h3>Application Deadline: TBC</h3>
-
+<br />
 <p>For positions within Europe Card Services, the application and assessment process comprises four stages:</p>
 
 <p>Stage 1:&nbsp;&nbsp;&nbsp;&nbsp;Complete Online Application Form<br />
