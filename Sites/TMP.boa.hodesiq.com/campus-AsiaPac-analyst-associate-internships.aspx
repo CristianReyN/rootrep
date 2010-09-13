@@ -7,12 +7,8 @@
  <div id="maincontent"> 
                 <div id="article"> 
                   <h1>Analyst &amp; Associate Internship Programs</h1>
-                  <h2 class="questions">Global Wealth and Investment Management</h2>
-                  <ul>
-                    <li><a href="campusrecruiting/asiain-chief-financial-office-summer-analyst-program.asp">Chief 
-                      Financial Office Summer Analyst Program</a></li>
-                  </ul>
-                  <h2 class="questions">Global Wealth and Investment Management</h2>
+        
+                  <h2 class="questions">Global Banking and Markets</h2>
                   <ul>
                     <li><a href="campusrecruiting/asiain-global-investment-banking-summer-analyst-program.asp">Global 
                       Investment Banking Summer Analyst Program</a></li>
@@ -24,14 +20,22 @@
                       Research Summer Analyst Program</a></li>
                     <li><a href="campusrecruiting/asiain-global-corporate-banking-summer-analyst-program.asp">Global 
                       Corporate Banking Summer Analyst Program</a></li>
+                    <li><a href="campusrecruiting/asiais-global-investment-banking-summer-associate-program.asp">Global 
+                      Investment Banking Summer Associate Program</a></li>
+                    <li><a href="campusrecruiting/asiais-global-capital-markets-summer-associate-program.asp">Global 
+                      Capital Markets Summer Associate Program</a></li>
+                    <li><a href="campusrecruiting/asiais-global-markets-sales-trading-summer-associate-program.asp">Global 
+                      Markets Sales and Trading Summer Associate Program</a></li>
+                    <li><a href="campusrecruiting/asiais-global-research-summer-associate-program.asp">Global 
+                      Research Summer Associate Program</a></li>
                   </ul>
-                  <h2 class="questions">Global Wealth and Investment Management</h2>
+                  <h2 class="questions">Global Commercial Banking</h2>
                   <ul>
                     <li><a href="campusrecruiting/asiain-global-corporate-financial-institutions-treasury-summer-analyst-program.asp">Global 
                       Corporate and Financial Institutions Treasury Summer Analyst 
                       Program</a></li>
                   </ul>
-                  <h2 class="questions">Global Wealth and Investment Management</h2>
+                  <h2 class="questions">Global Technology and Operations</h2>
                   <ul>
                     <li><a href="campusrecruiting/asiain-technology-analyst-industrial-placement-program.asp">Technology 
                       Analyst Industrial Placement Program</a></li>
@@ -44,19 +48,8 @@
                   </ul>
                   <h2 class="questions">Global Wealth and Investment Management</h2>
                   <ul>
-                    <li><a href="campusrecruiting/asiain-global-wealth-investment-management-summer-analyst-program.asp">Global 
-                      Wealth and Investment Management Summer Analyst Program</a></li>
-                  </ul>
-                  <h2 class="questions">Global Banking and Markets</h2>
-                  <ul>
-                    <li><a href="campusrecruiting/asiais-global-investment-banking-summer-associate-program.asp">Global 
-                      Investment Banking Summer Associate Program</a></li>
-                    <li><a href="campusrecruiting/asiais-global-capital-markets-summer-associate-program.asp">Global 
-                      Capital Markets Summer Associate Program</a></li>
-                    <li><a href="campusrecruiting/asiais-global-markets-sales-trading-summer-associate-program.asp">Global 
-                      Markets Sales and Trading Summer Associate Program</a></li>
-                    <li><a href="campusrecruiting/asiais-global-research-summer-associate-program.asp">Global 
-                      Research Summer Associate Program</a></li>
+                    <li><a href="campusrecruiting/asiain-global-wealth-investment-management-summer-analyst-program.asp">Merrill 
+                      Lynch Wealth Management Summer Analyst Program</a></li>
                   </ul>
                 </div>
                 <div id="aside"> 
