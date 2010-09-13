@@ -60,7 +60,7 @@
 				  <ul>
                     <li><a href="campus-AsiaPac-analyst-programs.aspx">Analyst 
                       programs</a></li>
-                    <li><a href="campus-AsiaPac-associate-phd-programs.aspx">Associate 
+                    <li><a href="campus-AsiaPac-associate-and-phd-programs.aspx">Associate 
                       &amp; PhD programs</a></li>
                   </ul>
                 </div>
