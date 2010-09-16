@@ -15,10 +15,11 @@
 <h2 class="questions">Application Deadlines</h2>
 		
 
-<h3>Summer Internship:&nbsp;&nbsp;&nbsp;&nbsp;Friday 12 November<br />
-Full Time:&nbsp;&nbsp;&nbsp;&nbsp;Friday 17 December</h3>
+<h3>Summer Internship:&nbsp;&nbsp;&nbsp;&nbsp;Friday 17 December<br />
+Full Time:&nbsp;&nbsp;&nbsp;&nbsp;Friday 12 November</h3>
+<br />
 
-<p>Online applications comprise three stages:</p>
+<p class="applypad">Online applications comprise three stages:</p>
 
 <p>Stage 1:&nbsp;&nbsp;&nbsp;&nbsp;Personal details, work experience etc.<br />
 Stage 2:&nbsp;&nbsp;&nbsp;&nbsp;Numerical test<br />
