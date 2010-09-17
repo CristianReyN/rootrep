@@ -73,10 +73,6 @@ public partial class JobDetails : System.Web.UI.Page
             {
                 ApplyURL = CANADAURL;                
             }
-            else if (CountryID == Location.USA)
-            {
-                ApplyURL = ConfigurationManager.AppSettings["taleoBaseURL"].Replace("{REQNOPLACEHOLDER}", dt.Rows[0]["reqNo"].ToString()) + srcvalue.Replace("-", "%2D");
-            }
             else
             {
                 ApplyURL = dt.Rows[0]["ApplyURL"].ToString() + "&src=" + Request["src"];
