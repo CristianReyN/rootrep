@@ -171,7 +171,7 @@
                     <tr>
                         <td style="width: 87%">
                             <img src="http://careers.bankofamerica.com/images/careers.gif" width="76" height="25"
-                                alt="Bank of America | Careers" title="Bank of America | Careers" border="0"></td>
+                                alt="Careers" title="Careers" border="0"></td>
                         <td width="50%" align="right" style="height: 25px" id="versionlink" runat="server">
                          <asp:ContentPlaceHolder ID="en" runat="server">
                             </asp:ContentPlaceHolder>

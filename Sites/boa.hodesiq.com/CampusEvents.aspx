@@ -2,34 +2,16 @@
 
 <asp:Content ID="Content1" runat="Server" ContentPlaceHolderID="cphmain">
     <table width="578" cellpadding="0" cellspacing="0" border="0" summary="">
-        <tr>
-        <td><table width="578" cellpadding="0" cellspacing="0" border="0" summary="">
-			<tr valign="top"><td colspan="2" valign="top" class="divt"><img src="images/clear.gif" width="578" height="4" alt="" border="0"></td></tr>
-			<tr valign="top">
-				<td width="100%" colspan="2" valign="top"><img src="images/camp/campusevents.jpg" width="578" height="166" alt="Explore Campus Events." title="Explore Campus Events." border="0"></td>
-			</tr>
-			<tr valign="top">
-			<td colspan="2" valign="top" class="divb"><img src="images/clear.gif" width="550" height="4" alt="" border="0"></td>
-			</tr>
-		    </table>
-		    <img src="images/clear.gif" width="550" height="15" alt="" border="0"><br />
-		    <h1 class="hidden">Campus Events</h1>
-		    <table width="100%" cellpadding="0" cellspacing="0" border="0" summary="">
-			    <tr valign="top">
-				<td colspan="2" valign="top">
-                    <h2 class="bach">It's nice to meet you.</h2>
-                    <p class="bac">
-                    
-                    As great as you look on paper, you're undoubtedly even more impressive in person. Check here for an updated list of recruiting events to find out when our recruiters are coming to your campus. We'd love to meet you there.
-                    </p>
-                </td>
-                </tr>
-             </table>
-             <img src="images/clear.gif" width="550" height="12" alt="" border="0"><br />
+    <tr><td>
+            <table width="100%" cellpadding="0" cellspacing="0" border="0" summary="">	    
+		    <tr>
+		        <td valign="top"><asp:Label ID="Label3" runat="server" ForeColor="#D4001A" Font-Size="16pt"  >Campus Events   </asp:Label></br></br>The best way for us to get know each other is face to face. Use the tabs below to access details of our upcoming campus visits. We hope to meet you soon.</br> </td>                    
+		        <td valign="top"><a href="campusrecruiting/career_fit_tool.asp"> <img src="images/BAC011_CareerFinder.jpg" alt="" border="0"/ ></a><br /></br></br></td>
+		    </tr>
+		  
+		  </table>
+		   </td> </tr>		     		   			                                     
 
-
-        </td>
-        </tr>
         <tr>
         <td valign="top">
 		    <table width="578" cellpadding="0" cellspacing="0" border="0" summary="Campus Events. The first tab displays all campus events in the US, the second tab displays all campus events in EMEA, and the third tab displays all campus events in Asia.  You can narrow the search results for each region by selecting a degree level and/or school.">
@@ -125,7 +107,8 @@
                      </tr>
                      <tr>
                      <td align="left" valign="bottom">
-                     <a href="javascript:openWindow('https://static.wcn.co.uk/company/ml/event_search.html')"><img src="images/camp/Search&Register.jpg" border="0" alt="Search & Register, link opens in a new window." /></a>
+                     <a href="javascript:openWindow('https://static.wcn.co.uk/company/ml/event_search.html')"  onMouseOver="return MouseOver()" onMouseDown="return MouseDown()" onMouseOut= "return MouseOut()">
+                     <img src="images/Search_and_Register_BUTTON_01.gif" name="ImgSearch" id="ImgSearch" border="0" alt="Search & Register, link opens in a new window." /></a>
                      </td>
                      </tr>
                      <%}else{ %>
@@ -153,16 +136,16 @@
                                 <asp:Table ID="Table1" width="560" runat="server" summary="For each region, the first column is the date.  The second column is the school.  The third column is the event.  The fourth column is the business.">
                                     <asp:TableHeaderRow ID="HeaderRow" runat="server" Visible="true">
                                         <asp:TableHeaderCell ID="DateHeader" runat="server" Width="25%" CssClass = "tdHeader">
-                                        <asp:LinkButton ID="LinkButton3" runat="server" OnClick="LinkButton3_Click" Visible="true" CssClass = "tdHeader" ToolTip="Sort by date in either ascending or descending order">Date <img src="images/camp/<%=up %>Arrow.gif" style="display:<%=sortDate %>" border="0" alt="" /></asp:LinkButton>
+                                        <asp:LinkButton ID="LinkButton3" runat="server" OnClick="LinkButton3_Click" Visible="true" CssClass = "tdHeader" >Date <img src="images/camp/<%=up %>Arrow.gif" style="display:<%=sortDate %>" border="0" alt="Sort date in <%=strsort%> order" /></asp:LinkButton>
                                         </asp:TableHeaderCell>
                                         <asp:TableHeaderCell ID="SchoolHeader" runat="server" Width="25%" CssClass = "tdHeader">
-                                        <asp:LinkButton ID="LinkButton4" runat="server" OnClick="LinkButton4_Click" Visible="true" CssClass = "tdHeader" ToolTip="Sort by school in either ascending or descending order">School <img src="images/camp/<%=up %>Arrow.gif" style="display:<%=sortSchool %>" border="0" alt="" /></asp:LinkButton>
+                                        <asp:LinkButton ID="LinkButton4" runat="server" OnClick="LinkButton4_Click" Visible="true" CssClass = "tdHeader" >School <img src="images/camp/<%=up %>Arrow.gif" style="display:<%=sortSchool %>" border="0" alt="Sort schools in <%=strsort%> order" /></asp:LinkButton>
                                         </asp:TableHeaderCell>
                                         <asp:TableHeaderCell ID="EventHeader" runat="server" Width="25%" CssClass = "tdHeader">
-                                        <asp:LinkButton ID="LinkButton5" runat="server" OnClick="LinkButton5_Click" Visible="true" CssClass = "tdHeader" ToolTip="Sort by event in either ascending or descending order">Event <img src="images/camp/<%=up %>Arrow.gif" style="display:<%=sortEvent %>" border="0" alt="" /></asp:LinkButton>
+                                        <asp:LinkButton ID="LinkButton5" runat="server" OnClick="LinkButton5_Click" Visible="true" CssClass = "tdHeader" >Event <img src="images/camp/<%=up %>Arrow.gif" style="display:<%=sortEvent %>" border="0" alt="Sort events in <%=strsort%> order" /></asp:LinkButton>
                                         </asp:TableHeaderCell>
                                         <asp:TableHeaderCell ID="BusinessHeader" runat="server" Width="25%" CssClass = "tdHeader">
-                                        <asp:LinkButton ID="LinkButton6" runat="server" OnClick="LinkButton6_Click" Visible="true" CssClass = "tdHeader" ToolTip="Sort by business in either ascending or descending order">Business <img src="images/camp/<%=up %>Arrow.gif" style="display:<%=sortBusiness %>" border="0" alt="" /></asp:LinkButton>
+                                        <asp:LinkButton ID="LinkButton6" runat="server" OnClick="LinkButton6_Click" Visible="true" CssClass = "tdHeader" >Business <img src="images/camp/<%=up %>Arrow.gif" style="display:<%=sortBusiness %>" border="0" alt="Sort business in <%=strsort%> order" /></asp:LinkButton>
                                         </asp:TableHeaderCell>
                                     </asp:TableHeaderRow>
                                 </asp:Table>
@@ -229,7 +212,23 @@
 //<!--
 function openWindow(theUrl) 
 { 
-    window.open(theUrl); 
+    window.open(theUrl);
+}
+
+function MouseOut() {
+    document.images["ImgSearch"].src = "images/Search_and_Register_BUTTON_01.gif";
+    return true;
+}
+
+function MouseOver()
+{
+    document.images["ImgSearch"].src = "images/Search_and_Register_BUTTON_02.gif";
+return true;
+}
+function MouseDown() 
+{
+    document.images["ImgSearch"].src = "images/Search_and_Register_BUTTON_03.gif";
+ return true;
 }
 
 //-->

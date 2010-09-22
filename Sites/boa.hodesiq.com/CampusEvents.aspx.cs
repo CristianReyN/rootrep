@@ -43,11 +43,14 @@ public partial class CampusEvents : System.Web.UI.Page
     //bool biz = false;
         
 	private static int counter = 0;
+    public string strsort = "ascending";
 
     protected void Page_PreLoad(object sender, EventArgs e)
     {
         pageSize = Convert.ToInt32(ConfigurationManager.AppSettings["EventsPerPage"]);
     }
+
+   
     protected void Page_Load(object sender, EventArgs e)
     {
         if (!IsPostBack)
@@ -683,10 +686,12 @@ public partial class CampusEvents : System.Web.UI.Page
             if (sortOrder)
             {
                 up = "up";
+                strsort = "ascending";
             }
             else
             {
                 up = "dn";
+                strsort = "descending";
             }
         }
         Session["up"] = up;

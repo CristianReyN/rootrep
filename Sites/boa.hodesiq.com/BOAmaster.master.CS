@@ -35,8 +35,8 @@ public partial class BOAmaster : System.Web.UI.MasterPage
 
         if(oInfo.Name.ToLower().Contains("campus"))
         {
-            strPageName = "Campus Events";
-            breadCrum = " | Campus Events";
+            strPageName = "Campus Recruiting";
+            breadCrum = " | Campus Recruiting";
         }
         else if (Request.ServerVariables["SCRIPT_NAME"].IndexOf("jobsearch.aspx", StringComparison.CurrentCultureIgnoreCase) > 0)
         {
