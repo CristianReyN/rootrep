@@ -5,8 +5,14 @@
     <tr><td>
             <table width="100%" cellpadding="0" cellspacing="0" border="0" summary="">	    
 		    <tr>
-		        <td valign="top"><asp:Label ID="Label3" runat="server" ForeColor="#D4001A" Font-Size="16pt"  >Campus Events   </asp:Label></br></br>The best way for us to get know each other is face to face. Use the tabs below to access details of our upcoming campus visits. We hope to meet you soon.</br> </td>                    
-		        <td valign="top"><a href="campusrecruiting/career_fit_tool.asp"> <img src="images/BAC011_CareerFinder.jpg" alt="" border="0"/ ></a><br /></br></br></td>
+		        <td valign="top">
+		         <asp:Label ID="Label3" runat="server" ForeColor="#D4001A" Font-Size="16pt" >Campus Events   </asp:Label></td>
+		         <td align="right" rowspan="2" valign="top" > <img src="images/clear.gif" width="200px" height="10" alt="" border="0"/><br />
+		            <a href="campusrecruiting/career_fit_tool.asp"> <img src="images/BAC011_CareerFinder.jpg" alt="" border="0"/ ></a>
+		         </td>		       		     
+		        </tr>
+		        <tr>
+		       <td></br><p>The best way for us to get know each other is face to face. Use the tabs below to access details of our upcoming campus visits. We hope to meet you soon.</p></br></td></tr>
 		    </tr>
 		  
 		  </table>
@@ -107,7 +113,7 @@
                      </tr>
                      <tr>
                      <td align="left" valign="bottom">
-                     <a href="javascript:openWindow('https://static.wcn.co.uk/company/ml/event_search.html')"  onMouseOver="return MouseOver()" onMouseDown="return MouseDown()" onMouseOut= "return MouseOut()">
+                     <a href="javascript:openWindow('https://static.wcn.co.uk/company/ml/event_search.html')"  onMouseOver="return MouseOver()" onkeypress="return MouseOver()" onfocus="return MouseOver()" onMouseDown="return MouseDown()" onMouseOut= "return MouseOut()">
                      <img src="images/Search_and_Register_BUTTON_01.gif" name="ImgSearch" id="ImgSearch" border="0" alt="Search & Register, link opens in a new window." /></a>
                      </td>
                      </tr>
