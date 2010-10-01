@@ -89,7 +89,7 @@
 	Function JSearchNav(id,ul,li)
 %>			<ul<% Response.Write id %><% Response.Write ul %>>
 				<li<% if spage = "appl_with_disabilities" then Response.Write " style=""background: #eaf1f7;""" end if %>>
-<div><a href="../appl_with_disabilities.aspx" class="sbtxt" title="Applicants with Disabilities" onfocus="this.className='sbtxt-over';" onblur="this.className='sbtxt';">Applicants with Disabilities</a></div>
+<div><a href="../appl_with_disabilities.aspx" class="sbtxt" title="Applicants with Disabilities" onfocus="this.className='sbtxt-over';" onblur="this.className='sbtxt';">Applicants with<br>Disabilities</a></div>
 				</li>
 			</ul>
 <%
@@ -269,7 +269,7 @@
 				</li>
 <%	End If %>
 				<li<% if spage = "campus-emea" And tpage = "" then Response.Write " style=""background: #eaf1f7;""" end if %>>
-<div><a href="../campus-EMEA.aspx" class="sbtxt" title="Europe, the Middle East and Africa" onfocus="this.className='sbtxt-over';" onblur="this.className='sbtxt';">Europe, the Middle East and Africa</a></div>
+<div><a href="../campus-EMEA.aspx" class="sbtxt" title="Europe, Middle East and Africa" onfocus="this.className='sbtxt-over';" onblur="this.className='sbtxt';">Europe, Middle East and Africa</a></div>
 				</li>
 <%	If ( mpage = "camp" And spage = "campus-emea" ) Or HiProgram("EMEA") Then %>
 				<li class="tertiary"<% if ( tpage = "emea-opportunities" And fpage = "" ) Or HiProgram("EMEA") then Response.Write " style=""background: #eaf1f7;""" end if %>>

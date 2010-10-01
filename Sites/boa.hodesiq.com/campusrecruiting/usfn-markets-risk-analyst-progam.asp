@@ -3,14 +3,14 @@ Dim title, mpage, spage, ada_href, ada_title, Metatag%>
 <!-- #include file="../includes/breadcrumb.asp" -->
 <!-- #include file="../includes/career_fit_tool_programs.asp" -->
 <%
-Set program = programs(516)
+Set program = programs(89)
 title = breadcrumb & "Campus Recruiting | Explore Careers | " & program.Item("full_degree") & " | " & program.Item("region") & " | " & program.Item("title")
 mpage = "camp"
 spage = "explore_careers"
 tpage = "undergraduate_programs"
-fpage = "asiain-chief-financial-office-summer-analyst-program"
-ada_href = "../ada_camp/asiain-chief-financial-office-summer-analyst-program.asp"
-page_self = "../campusrecruiting/asiain-chief-financial-office-summer-analyst-program.asp"
+fpage = "usfn-markets-risk-analyst-progam"
+ada_href = "../ada_camp/usfn-markets-risk-analyst-progam.asp"
+page_self = "../campusrecruiting/usfn-markets-risk-analyst-progam.asp"
 ada_title = breadcrumb & "Campus Recruiting | Explore Careers | " & program.Item("full_degree") & " | " & program.Item("region") & " | " & program.Item("title")
 %><!-- #include file="../includes/camp_program_meta_description.asp" --><%
 Metatag=CAMP_META_DESRIPTION
@@ -34,7 +34,7 @@ r4 = True
 	<td valign="top" width="578" height="100%">
 <!-- Body-->
 <img src="../images/clear.gif" width="15" height="4" alt="" border="0"><br>
-<!-- #include file="../includes/pages/camp/asiain-chief-financial-office-summer-analyst-program.asp" -->
+<!-- #include file="../includes/pages/camp/usfn-markets-risk-analyst-progam.asp" -->
 <br><br>
 <!-- Body-->
 	</td>

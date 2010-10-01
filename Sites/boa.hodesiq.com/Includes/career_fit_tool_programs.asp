@@ -49,7 +49,7 @@ Dim programs(600)
 
 'US -> 1-200
 'US AND CANADA FULLTIME ANALYST PROGRAMS
-'last - 88
+'last - 89
 
 
 Set programs(1) = createProgram("Corporate Audit Management Program", audit_program_group, "usfn-corporate-audit-management-program.asp", AMERICAS, U_S_A, ANALYST, FULLTIME, FALSE, TRUE)
@@ -83,6 +83,7 @@ Set programs(25) = createProgram("Institutional Mortgage Services Analyst Progra
 Set programs(26) = createProgram("Global Risk Management Program", gr_program_group, "usfn-global-risk-management-program.asp", AMERICAS, U_S_A, ANALYST, FULLTIME, FALSE, TRUE)
 Set programs(27) = createProgram("Quantitative Management Program", gr_program_group, "usfn-quantitative-management-program.asp", AMERICAS, U_S_A, ANALYST, FULLTIME, FALSE, TRUE)
 Set programs(28) = createProgram("Global Corporate & Financial Institutions Debt Products Analyst Program", gr_program_group, "usfn-global-corporate-financial-institutions-debt-products-analyst-program.asp", AMERICAS, U_S_A, ANALYST, FULLTIME, FALSE, TRUE)
+Set programs(89) = createProgram("Markets Risk Analyst Program", gr_program_group, "usfn-markets-risk-analyst-progam.asp", AMERICAS, U_S_A, ANALYST, FULLTIME, FALSE, TRUE)
 
 'US AND CANADA FULLTIME ASSOCIATE PROGRAMS
 Set programs(29) = createProgram("Consumer MBA Program – Banking Center Channel Track", csbb_program_group, "usfs-consumer-mba-program-banking-center-channel-track.asp", AMERICAS, U_S_A, ASSOCIATE, FULLTIME, FALSE, TRUE)
@@ -275,7 +276,7 @@ Set programs(514) = createProgram("Global Markets Sales and Trading Associate Pr
 Set programs(515) = createProgram("Global Research Associate Program", gbam_program_group, "asiafs-global-research-associate-program.asp", ASIA, "", ASSOCIATE, FULLTIME, FALSE, TRUE)
 
 'ASIA INTERN ANALYST PROGRAMS
-Set programs(516) = createProgram("Chief Financial Office Summer Analyst Program", cfo_program_group, "asiain-chief-financial-office-summer-analyst-program.asp", ASIA, "", ANALYST, INTERN, FALSE, TRUE)
+Set programs(516) = createProgram("Chief Financial Office Summer Analyst Program", cfo_program_group, "asiain-chief-financial-office-summer-analyst-program.asp", ASIA, "", ANALYST, INTERN, FALSE, FALSE)
 Set programs(517) = createProgram("Global Investment Banking Summer Analyst Program", gbam_program_group, "asiain-global-investment-banking-summer-analyst-program.asp", ASIA, "", ANALYST, INTERN, FALSE, TRUE)
 Set programs(518) = createProgram("Global Capital Markets Summer Analyst Program", gbam_program_group, "asiain-global-capital-markets-summer-analyst-program.asp", ASIA, "", ANALYST, INTERN, FALSE, TRUE)
 Set programs(519) = createProgram("Global Markets Sales and Trading Summer Analyst Program", gbam_program_group, "asiain-global-markets-sales-trading-summer-analyst-program.asp", ASIA, "", ANALYST, INTERN, FALSE, TRUE)

@@ -12,7 +12,7 @@ Enterprise Technology and Delivery (ET&#38;D) executes on Bank of America custom
 
 <h2 class="bac">Overview:</h2>  
 <p class="bac">
-The Enterprise Technology and Delivery Leader Development Rotational Program (ET&#38;D LDR) is an undergraduate rotational program designed to provide external candidates with an opportunity to prepare for future leadership positions in the company&#39;s technology division. This high visibility program will give participants the chance to experience two one&ndash;year rotational assignments, in different divisions within Enterprise Technology and Delivery.  
+The Enterprise Technology and Delivery Leadership Development Rotational Program (ET&#38;D LDR) is an undergraduate rotational program designed to provide external candidates with an opportunity to prepare for future leadership positions in the company&#39;s technology division. This high visibility program will give participants the chance to experience two one&ndash;year rotational assignments, in different divisions within Enterprise Technology and Delivery.  
 </p>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">

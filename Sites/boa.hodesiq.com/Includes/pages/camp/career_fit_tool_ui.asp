@@ -59,13 +59,13 @@ params = ""
 					tabindex = tabindex + 1
 %>
 						<tr>
-							<td style="height: 30px; padding: 2px 0px 2px 18px;" valign="top"><% If question.Item("question_type") = "checkbox" Then %><div><input type="checkbox" name="q-<%=answers(q).Item("answer_number") %>" id="q-<%=answers(q).Item("answer_number") %>" value="<%=answers(q).Item("answer_number") %>"<% If answers(q).Item("answered") Then %> checked<% End If %> tabindex="<%=tabindex %>"></div><% ElseIf question.Item("question_type") = "radio" Then %><input type="radio" name="g-<%=question.Item("question_number") %>" id="q-<%=answers(q).Item("answer_number") %>" value="<%=answers(q).Item("answer_number") %>"<% If answers(q).Item("answered") Then %> checked<% End If %> tabindex="<%=tabindex %>"><% End If %></td>
+							<td style="height: 30px; padding: 2px 0px 2px 18px;" valign="top"><% If question.Item("question_type") = "checkbox" Then %><div><input type="checkbox" name="q-<%=answers(q).Item("answer_number") %>" id="q-<%=answers(q).Item("answer_number") %>" value="<%=answers(q).Item("answer_number") %>"<% If answers(q).Item("answered") Then %> checked<% End If %> tabindex="<%'=tabindex %>"></div><% ElseIf question.Item("question_type") = "radio" Then %><input type="radio" name="g-<%=question.Item("question_number") %>" id="q-<%=answers(q).Item("answer_number") %>" value="<%=answers(q).Item("answer_number") %>"<% If answers(q).Item("answered") Then %> checked<% End If %> tabindex="<%'=tabindex %>"><% End If %></td>
 							<td <% If Not two_bank Then %>width="100%"<% Else %>width="50%"<% End If %> style="height: 30px; padding: 8px 0px 2px 9px;" valign="top"><div style="margin: 0px;"><label class="bac" for="q-<%=answers(q).Item("answer_number") %>"><span class="ada-hide"><%=answers(q).Item("label") %></span><%=answers(q).Item("answer") %></label></div></td>
 <%
 					If two_bank Then
 						If (q+lo_op) <= UBound(answers) Then
 							tabindex_loop = tabindex + lo_op %>
-							<td style="height: 30px; padding: 2px 0px 2px 18px;" valign="top"><% If question.Item("question_type") = "checkbox" Then %><input type="checkbox" name="q-<%=answers(q+lo_op).Item("answer_number") %>" id="q-<%=answers(q+lo_op).Item("answer_number") %>" value="<%=answers(q+lo_op).Item("answer_number") %>"<% If answers(q+lo_op).Item("answered") Then %> checked<% End If %> tabindex="<%=tabindex_loop %>"><% ElseIf question.Item("question_type") = "radio" Then %><input type="radio" name="g-<%=question.Item("question_number") %>" id="q-<%=answers(q+lo_op).Item("answer_number") %>" value="<%=answers(q+lo_op).Item("answer_number") %>"<% If answers(q+lo_op).Item("answered") Then %> checked<% End If %> tabindex="<%=tabindex_loop %>"><% End If %></td>
+							<td style="height: 30px; padding: 2px 0px 2px 18px;" valign="top"><% If question.Item("question_type") = "checkbox" Then %><input type="checkbox" name="q-<%=answers(q+lo_op).Item("answer_number") %>" id="q-<%=answers(q+lo_op).Item("answer_number") %>" value="<%=answers(q+lo_op).Item("answer_number") %>"<% If answers(q+lo_op).Item("answered") Then %> checked<% End If %> tabindex="<%'=tabindex_loop %>"><% ElseIf question.Item("question_type") = "radio" Then %><input type="radio" name="g-<%=question.Item("question_number") %>" id="q-<%=answers(q+lo_op).Item("answer_number") %>" value="<%=answers(q+lo_op).Item("answer_number") %>"<% If answers(q+lo_op).Item("answered") Then %> checked<% End If %> tabindex="<%'=tabindex_loop %>"><% End If %></td>
 							<td width="50%" style="height: 30px; padding: 8px 0px 2px 9px;" valign="top"><div style="margin: 0px;"><label class="bac" for="q-<%=answers(q+lo_op).Item("answer_number") %>"><span class="ada-hide"><%=answers(q+lo_op).Item("label") %></span><%=answers(q+lo_op).Item("answer") %></label></div></td>
 <%
 						Else %>
@@ -173,15 +173,15 @@ if(!window.MM_swapImage)
 	window.onload_do[window.onload_do.length] = function(){MM_preloadImages('../Includes/camp/get_started_now_over.gif','../Includes/camp/get_started_now_down.gif');};
 }
 </script>
-<input type="image" id="next" name="next" src="../images/camp/get_started_now_out.gif" onmouseover="MM_swapImage('next','','../images/camp/get_started_now_over.gif',1);" onmouseout="MM_swapImgRestore();" onmousedown="MM_swapImage('next','','../images/camp/get_started_now_down.gif',1);" onmouseup="MM_swapImage('next','','../images/camp/get_started_now_over.gif',1);" value="Find Your Match" alt="Find Your Match" title="Get Started Now" style="cursor: pointer;"<%=tabindex_str %>>
+<input type="image" id="next" name="next" src="../images/camp/get_started_now_out.gif" onmouseover="MM_swapImage('next','','../images/camp/get_started_now_over.gif',1);" onmouseout="MM_swapImgRestore();" onmousedown="MM_swapImage('next','','../images/camp/get_started_now_down.gif',1);" onfocus="MM_swapImage('next','','../images/camp/get_started_now_over.gif',1);" onblur="MM_swapImgRestore();" onmouseup="MM_swapImage('next','','../images/camp/get_started_now_over.gif',1);" value="Find Your Match" alt="Find Your Match" title="Get Started Now" style="cursor: pointer;"<%'=tabindex_str %>>
 <%
 		ElseIf page_number < 9 Then
 %>
-<input type="submit" id="next" name="next" value="Next Question &raquo;" alt="Next Question &raquo;" title="Next Question &raquo;" class="button_cft"<%=tabindex_str %>>
+<input type="submit" id="next" name="next" value="Next Question &raquo;" alt="Next Question &raquo;" title="Next Question &raquo;" class="button_cft"<%'=tabindex_str %>>
 <%
 		ElseIf page_number = 9 Then
 %>
-<input type="submit" id="finish" name="finish" value="Finish &raquo;" alt="Finish &raquo;" title="Finish &raquo;" class="button_cft"<%=tabindex_str %>>
+<input type="submit" id="finish" name="finish" value="Finish &raquo;" alt="Finish &raquo;" title="Finish &raquo;" class="button_cft"<%'=tabindex_str %>>
 <%
 		Else %>
 <script language="javascript">

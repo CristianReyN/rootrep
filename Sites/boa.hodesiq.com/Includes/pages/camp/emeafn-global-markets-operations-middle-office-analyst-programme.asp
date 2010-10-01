@@ -7,7 +7,7 @@
 <h2 class="bac">Summary:</h2>
 <ul class="bac">
 	<li>Strong A&ndash;level grades and a minimum 2:1 degree (or equivalent)</li>
-	<li>Primary locations: Opportunities in London, Bromley &#38; Chester (all in the UK)</li>
+	<li>Primary locations: Opportunities in London, Bromley, Chester &amp; Dublin</li>
 	<li>3&ndash;year programme</li>
 	<li>Opportunity to study for IAQ, CIMA or CFA</li>
 	<li>Online application form</li>
@@ -67,7 +67,7 @@ The programme begins with intensive sessions to help you develop the business, f
 
 <h2 class="bac">Locations:</h2>
 <p class="bac">
-Primary locations include London, Bromley &#38; Chester (all in the UK)
+Primary locations include London, Bromley, Chester &amp; Dublin
 </p>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
