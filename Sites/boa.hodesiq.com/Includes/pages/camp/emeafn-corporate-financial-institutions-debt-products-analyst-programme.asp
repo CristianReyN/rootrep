@@ -16,7 +16,7 @@
 
 <h2 class="bac">What is Credit Risk?</h2>
 <p class="bac">
-Nearly every time a bank extends a loan to a client or enters into a derivative transaction, there is a risk that the client will not be able to pay back the money it owes. This is called &ldquo;credit risk.&rdquo;  Assessing credit risk requires a deep understanding of a company&#39;s industry, competitive position, strategy and financial performance.  At Bank&amp;of&amp;America Merrill Lynch, the Corporate Debt Products (CDP) and Financial Institutions Debt Products (FIDP) groups are responsible for analyzing these factors and helping to make critical decisions about how we extend credit to our clients.
+Nearly every time a bank extends a loan to a client or enters into a derivative transaction, there is a risk that the client will not be able to pay back the money it owes. This is called &ldquo;credit risk.&rdquo;  Assessing credit risk requires a deep understanding of a company&#39;s industry, competitive position, strategy and financial performance.  At Bank&nbsp;of&nbsp;America Merrill Lynch, the Corporate Debt Products (CDP) and Financial Institutions Debt Products (FIDP) groups are responsible for analyzing these factors and helping to make critical decisions about how we extend credit to our clients.
 </p>
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
 
@@ -53,10 +53,10 @@ Candidates must demonstrate a combination of academic aptitude, quantitative ski
 
 <h2 class="bac">Training:</h2>
 <p class="bac">
-Depending on which group successful candidates join training will begin in the US initially with analysts from all lines of business. The programme is a combination of classroom instruction, e&ndash;learning modules, case studies and presentations. Throughout the tuition period, analysts have ample opportunities to work closely with professionals and peers across Bank&amp;of&amp;America Merrill Lynch. This is a great opportunity to build a network of colleagues from across the company which will prove to be a tremendous resource throughout your career with the bank.
+Depending on which group successful candidates join training will begin in the US initially with analysts from all lines of business. The programme is a combination of classroom instruction, e&ndash;learning modules, case studies and presentations. Throughout the tuition period, analysts have ample opportunities to work closely with professionals and peers across Bank&nbsp;of&nbsp;America Merrill Lynch. This is a great opportunity to build a network of colleagues from across the company which will prove to be a tremendous resource throughout your career with the bank.
 </p>
 <p class="bac">
-Bank&amp;of&amp;America Merrill Lynch places a great deal of emphasis on on&ndash;going training for all staff. Training modules are available to all levels from product specific courses to generic soft skills development. Expanding the skills of the associates is paramount to achieving success. Specialized industry training will be principally on&ndash;the&ndash;job.
+Bank&nbsp;of&nbsp;America Merrill Lynch places a great deal of emphasis on on&ndash;going training for all staff. Training modules are available to all levels from product specific courses to generic soft skills development. Expanding the skills of the associates is paramount to achieving success. Specialized industry training will be principally on&ndash;the&ndash;job.
 </p>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">

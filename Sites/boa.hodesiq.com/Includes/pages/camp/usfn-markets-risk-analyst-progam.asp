@@ -17,7 +17,7 @@ The Markets Risk Analyst Program is designed to develop and coach analytical and
 <ul class="bac">
 	<li>Direct hire program with extensive training</li>
 	<li>Gain hands&ndash;on, in&ndash;depth experience applying quantitative knowledge to specific financial challenges</li>
-	<li>Participate in a variety of activities within GMRM, Global Risk, and company&ndash;wide, designed to foster teamwork, encourage networking, and demonstrate Bank&amp;of&amp;America&#39;s vision and culture</li>
+	<li>Participate in a variety of activities within GMRM, Global Risk, and company&ndash;wide, designed to foster teamwork, encourage networking, and demonstrate Bank&nbsp;of&nbsp;America&#39;s vision and culture</li>
 </ul>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
@@ -40,10 +40,10 @@ The Markets Risk Analyst Program is seeking a combination of academic aptitude a
 
 <h2 class="bac">Training:</h2>
 <p class="bac">
-The training curriculum is part of a multi&ndash;phase program that complements and enhances the hands&ndash;on experience the associates develop in their day&ndash;to&ndash;day jobs. As an analyst you will begin your career at Bank&amp;of&amp;America Merrill Lynch with a 6 week extensive training program. The first part of the program combines analysts from all lines of business and the full program is a combination of classroom instruction, e&ndash;learning modules, case studies and presentations. Throughout this training program you will have ample opportunities to work closely with professionals and peers across the organization. This is a great opportunity to build a network of colleagues from across the company that will prove to be a tremendous resource to you throughout your career. For the second part of the program you will work in a specific product group.
+The training curriculum is part of a multi&ndash;phase program that complements and enhances the hands&ndash;on experience the associates develop in their day&ndash;to&ndash;day jobs. As an analyst you will begin your career at Bank&nbsp;of&nbsp;America Merrill Lynch with a 6 week extensive training program. The first part of the program combines analysts from all lines of business and the full program is a combination of classroom instruction, e&ndash;learning modules, case studies and presentations. Throughout this training program you will have ample opportunities to work closely with professionals and peers across the organization. This is a great opportunity to build a network of colleagues from across the company that will prove to be a tremendous resource to you throughout your career. For the second part of the program you will work in a specific product group.
 </p>
 <p class="bac">
-Other phases of the training curriculum are designed to provide a broad introduction to core concepts and theories of risk management that the associates will encounter during their career at Bank&amp;of&amp;America.  The training curriculum is geared for young professionals and includes both classroom and web&ndash;based components.
+Other phases of the training curriculum are designed to provide a broad introduction to core concepts and theories of risk management that the associates will encounter during their career at Bank&nbsp;of&nbsp;America. The training curriculum is geared for young professionals and includes both classroom and web&ndash;based components.
 </p>
 <p class="bac">
 Curriculum focus includes, but is not limited to, the following:
@@ -56,7 +56,7 @@ Curriculum focus includes, but is not limited to, the following:
 	<li>Relationship building skills</li>
 </ul>
 <p class="bac">
-Associate development is critical to the success of Global Markets Risk Management and Bank&amp;of&amp;America in general. Executive leadership within the Global Markets Risk Management organization is committed to the success of our associates.
+Associate development is critical to the success of Global Markets Risk Management and Bank&nbsp;of&nbsp;America in general. Executive leadership within the Global Markets Risk Management organization is committed to the success of our associates.
 </p>
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
 
