@@ -188,8 +188,8 @@
             
             <h2>Related Links:</h2>
         <ul>
-        <li><a href="campus-Americas-intern-profiles.aspx">Americas internship profiles</a></li>
-          <li><a href="campus-AsiaPac-intern-profiles.aspx">Asia Pacific internship profiles</a></li>
+        <li><a href="campus-Americas-intern-profiles.aspx">Americas intern profiles</a></li>
+          <li><a href="campus-AsiaPac-intern-profiles.aspx">Asia Pacific intern profiles</a></li>
           <li><a href="campus-EMEA-analyst-profiles.aspx">Analyst profiles</a></li>
           <li><a href="campus-EMEA-associate-profiles.aspx">Associate profiles</a></li>
         </ul>

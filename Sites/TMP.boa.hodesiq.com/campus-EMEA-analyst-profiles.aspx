@@ -239,7 +239,7 @@ you the opportunity to create real impact right out of the gate.</p>
           <li><a href="campus-Americas-analyst-profiles.aspx">Americas analyst profiles</a></li>
           <li><a href="campus-AsiaPac-analyst-profiles.aspx">Asia Pacific analyst profiles</a></li>
           <li><a href="campus-EMEA-associate-profiles.aspx">Associate profiles</a></li>
-          <li><a href="campus-EMEA-intern-profiles.aspx">Internship profiles</a></li>
+          <li><a href="campus-EMEA-intern-profiles.aspx">Intern profiles</a></li>
         </ul>
         
   </div>

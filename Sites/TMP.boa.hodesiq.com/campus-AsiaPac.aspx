@@ -11,7 +11,7 @@
                 <p class="link-header">Use the buttons below to further explore our company and opportunities.</p>
                 
                  <div id="icon-home-buttons">
-				<a href="campus-AsiaPac-explore-careers.aspx"><img src="images/campus/btn-search-jobs.jpg" width="46" height="47" alt="Explore a world of career opportunitiesb" /></a>
+				<a href="campus-AsiaPac-explore-careers.aspx"><img src="images/campus/btn-search-jobs.jpg" width="46" height="47" alt="Explore a world of career opportunities" /></a>
                 <a href="campus-AsiaPac-meet-our-people.aspx"><img src="images/campus/btn-meet-people.jpg" width="46" height="46" alt="Meet our people" /></a>
 				</div>
  
@@ -26,6 +26,13 @@
                         </div>
 						
 					<div id="home-buttons">
+					<p>Your region:</p>
+                    <ul>
+                    <li><b>Asia Pacific</b></li>
+                    <li><a href="campus-Americas.aspx">Americas</a></li>
+                    <li><a href="campus-EMEA.aspx">Europe, Middle East and Africa</a></li>
+                    
+                    </ul>
                     
                     <a href="campusrecruiting/career_fit_tool.asp"><img src="images/campus/btn-careerfinder.jpg" width="179" height="66" alt="Career Finder: Come as you are. We've got a career to fit." /></a> 
                     <a href="CampusEvents.aspx?region=3"><img src="images/campus/btn-campus-events.jpg" width="179" height="66" alt="Campus Events: Let's meet soon." /></a> 

@@ -47,7 +47,7 @@
             <p><a href="campus-meet-our-people-profile-Dong.aspx" title="Read Dong's profile">Read <span class="hiddencontent">Dong's</span> Profile</a></p>
             </div>
          
-            <p class="learnlink"><a href="campus-AsiaPac-associate-profiles.aspx">View all our associates profiles</a></p>
+            <p class="learnlink"><a href="campus-AsiaPac-associate-profiles.aspx">View all our associate profiles</a></p>
         </div>
         
            <div class="featured-profile">

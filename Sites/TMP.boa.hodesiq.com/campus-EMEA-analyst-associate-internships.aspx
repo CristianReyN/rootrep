@@ -26,12 +26,24 @@
 <li><a href="campusrecruiting/emeain-global-corporate-banking-summer-analyst-programme.asp">Global Corporate Banking Summer Analyst Programme</a></li>
 <li><a href="campusrecruiting/emeain-global-treasury-solutions-summer-analyst-programme.asp">Global Treasury Solutions Summer Analyst Programme</a></li>
 <li><a href="campusrecruiting/emeain-south-african-graduate-analyst-fixed-term-placement-12-months.asp">South African Graduate Analyst Fixed Term Placement (12 months)</a></li>
+<li><a href="campusrecruiting/emeais-global-investment-banking-summer-associate-programme.asp">Global Investment Banking Summer Associate Programme</a></li>
+<li><a href="campusrecruiting/emeais-global-markets-sales-trading-summer-associate-programme.asp">Global Markets Sales and Trading Summer Associate Programme</a></li>
+<li><a href="campusrecruiting/emeais-global-markets-quantitative-analytics-associate-fixed-term-placement-5-months.asp">Global Markets Quantitative Analytics Associate Fixed Term Placement (5 months)</a></li>
+<li><a href="campusrecruiting/emeais-global-research-summer-associate-programme.asp">Global Research Summer Associate Programme</a></li>
 </ul>
 
 <h2 class="questions">Global Human Resources</h2>
 <ul>	
 <li><a href="campusrecruiting/emeain-human-resources-summer-analyst-programme.asp">Human Resources Summer Analyst Programme</a></li>
 </ul>
+
+<h2 class="questions">Global Risk</h2>
+<ul>	
+<li><a href="campusrecruiting/emeain-corporate-financial-institutions-debt-products-summer-analyst-programme.asp">Corporate and Financial Institutions Debt Products Summer Analyst Programme</a></li>
+<li><a href="campusrecruiting/emeain-market-risk-summer-analyst-programme.asp">Market Risk Summer Analyst Programme</a></li>
+<li><a href="campusrecruiting/emeain-compliance-summer-analyst-programme.asp">Compliance Summer Analyst Programme</a></li>
+</ul>
+
 
 <h2 class="questions">Global Technology and Operations</h2>
 <ul>	
@@ -48,21 +60,8 @@
 <li><a href="campusrecruiting/emeain-merrill-lynch-wealth-management-summer-analyst-programme.asp">Merrill Lynch Wealth Management Summer Analyst Programme</a></li>
 </ul>
 
-<h2 class="questions">Global Risk</h2>
-<ul>	
-<li><a href="campusrecruiting/emeain-corporate-financial-institutions-debt-products-summer-analyst-programme.asp">Corporate and Financial Institutions Debt Products Summer Analyst Programme</a></li>
-<li><a href="campusrecruiting/emeain-market-risk-summer-analyst-programme.asp">Market Risk Summer Analyst Programme</a></li>
-<li><a href="campusrecruiting/emeain-compliance-summer-analyst-programme.asp">Compliance Summer Analyst Programme</a></li>
-</ul>
 
-<h2 class="questions">Global Banking and Markets</h2>
-<ul>	
-<li><a href="campusrecruiting/emeais-global-investment-banking-summer-associate-programme.asp">Global Investment Banking Summer Associate Programme</a></li>
-<li><a href="campusrecruiting/emeais-global-markets-sales-trading-summer-associate-programme.asp">Global Markets Sales and Trading Summer Associate Programme</a></li>
-<li><a href="campusrecruiting/emeais-global-markets-quantitative-analytics-associate-fixed-term-placement-5-months.asp">Global Markets Quantitative Analytics Associate Fixed Term Placement (5 months)</a></li>
-<li><a href="campusrecruiting/emeais-global-research-summer-associate-programme.asp">Global Research Summer Associate Programme</a></li>
-</ul>
-                 
+           
                 </div>
                 <div id="aside">
                 
@@ -79,6 +78,10 @@
                   </ul>
                  
                  </div>
+                 
+                  <div id="red-footer"> 
+                  <p>Set opportunity in motion.</p>
+                </div>
                  
  </div>
 

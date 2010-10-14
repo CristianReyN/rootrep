@@ -47,9 +47,8 @@
     <a href="CampusEvents.aspx?region=1"><img src="images/campus/btn-campus-events.jpg" width="179" height="66" alt="Campus Events: Let's meet soon." /></a> 
     <h3>Related Links:</h3>
     <ul>
-      <li><a href="campus-Americas-analyst-profiles.aspx">Back to profile list</a></li>
-      <li><a href="campus-meet-our-people-profile-Matt.aspx">Next profile</a></li>
-      <li><a href="campus-meet-our-people-profile-Hamdija.aspx">Previous profile</a></li>
+      <li><a href="campus-EMEA-associate-profiles.aspx">Back to profile list</a></li>
+      <li><a href="campus-meet-our-people-profile-Priya.aspx">Next profile</a></li>
     </ul>
   </div>
   <div id="red-footer"> 

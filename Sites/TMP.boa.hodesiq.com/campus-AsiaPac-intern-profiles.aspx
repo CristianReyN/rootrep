@@ -30,7 +30,7 @@
             <img src="images/campus/icon-Stanley.jpg" width="50" height="80" alt="Stanley" />
             <h2>Stanley</h2>
             <p class="profile-depart">Technology Analyst Program &ndash; GMRT</p>
-            <p>It is indisputable Bank of America is a global leading financial company providing lots of opportunities. </p>
+            <p>I manage the technology team to support the Global Corporate and Investment Banking (GCIB) group in the Asia Pacific region.</p>
             <p><a href="campus-profiles-Internship-Stanley.aspx" title="Read Stanley's profile">Read <span class="hiddencontent">Stanley's</span> Profile</a></p>
         </div>
   </div>
@@ -163,8 +163,8 @@
             
              <h2>Related Links:</h2>
         <ul>
-          <li><a href="campus-Americas-intern-profiles.aspx">Americas internship profiles</a></li>
-          <li><a href="campus-EMEA-intern-profiles.aspx">EMEA internship profiles</a></li>
+          <li><a href="campus-Americas-intern-profiles.aspx">Americas intern profiles</a></li>
+          <li><a href="campus-EMEA-intern-profiles.aspx">EMEA intern profiles</a></li>
           <li><a href="campus-Americas-analyst-profiles.aspx">Analyst profiles</a></li>
           <li><a href="campus-Americas-associate-profiles.aspx">Associate profiles</a></li>
         </ul>

@@ -61,7 +61,7 @@
             <p><a href="campus-meet-our-people-profile-Rachna.aspx" title="Read Rachna's Profile">Read <span class="hiddencontent">Rachna's</span> Profile</a></p>
             </div>
             
-            <p class="learnlink"><a href="campus-EMEA-associate-profiles.aspx">View all our associates profiles</a></p>
+            <p class="learnlink"><a href="campus-EMEA-associate-profiles.aspx">View all our associate profiles</a></p>
         </div>
         
            <div class="featured-profile">
@@ -88,7 +88,7 @@
             <p><a href="campus-meet-our-people-profile-Christoph.aspx" title="Read Christoph's Profile">Read <span class="hiddencontent">Christoph's</span> Profile</a></p>
             </div>
             
-            <p class="learnlink"><a href="campus-EMEA-intern-profiles.aspx">View all our interns profiles</a></p>
+            <p class="learnlink"><a href="campus-EMEA-intern-profiles.aspx">View all our intern profiles</a></p>
         </div>
         
       
