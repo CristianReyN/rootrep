@@ -104,7 +104,36 @@
 	padding-bottom: 3px;
 	}
 	
-	#maincontent #article h3,
+	#maincontent #article h3 {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, Helvetica, Verdana, sans-serif;
+	color: #5c5c5c;
+	font-size: 1.01em;
+	font-weight: bold;
+	padding-top: 5px;
+    }
+    
+    #maincontent #article h2.benefits {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, Helvetica, Verdana, sans-serif;
+	color: #5c5c5c;
+	font-size: 1.01em;
+	font-weight: bold;
+	padding-top: 5px;
+    }
+    
+    #maincontent #article h2.benefits-second {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, Helvetica, Verdana, sans-serif;
+	color: #5c5c5c;
+	font-size: 1.01em;
+	font-weight: bold;
+	padding-top: 17px;
+    }
+    
 	#maincontent #article h2.questions {
 	margin: 0;
 	padding: 0;
@@ -198,7 +227,7 @@
 	#maincontent #article h3.pad-top {
 	margin: 0;
 	padding: 0;
-	padding-top: 5px;
+	padding-top: 2px;
 	padding-bottom: 3px;
 	}
 	
@@ -214,6 +243,10 @@
 	font-family: Arial, Helvetica, Verdana, sans-serif;
 	color: #333;
 	padding: 0 15px 12px 10px;
+	}
+	
+	#article p.pad-explore {
+	padding-top: 3px;
 	}
 	
 	/* ======== meet the people pages ====== */
@@ -491,8 +524,7 @@
 	font-size: .85em;
 	font-weight: bold;
 	margin-left: 5px;
-
-	}
+    }
 	
 	#main-profiles #aside #video-content p.padbot {
 	padding-bottom: 15px;
@@ -684,16 +716,48 @@
 	
 	#home-buttons {
 	position: absolute;
-	width: 179px;
-	top: 25px;
-	right: 10px;
+	width: 190px;
+	top: 0;
+	right: 0;
 	}
+	
+	#home-buttons p {
+	margin: 0;
+	padding: 0;
+	font-family: Verdana, Helvetica, Arial, sans-serif;
+	color: #006bb7;
+	font-size: 9px;
+	padding-left: 35px;
+	}
+	
+	#home-buttons ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	list-style-image: none !important;
+	padding-bottom: 5px;
+	padding-left: 35px;
+	}
+	
+	#home-buttons li {
+	font-family: Verdana, Helvetica, Arial, sans-serif;
+	color: #006bb7;
+	font-size: 9px;
+	line-height: 11px;
+    }
+    
+    #home-buttons li a {
+	font-family: Verdana, Helvetica, Arial, sans-serif !important;
+	font-size: 9px !important;
+	color: #006bb7 !important;
+	text-decoration: none;
+    }
+	
 	
 	#home-buttons img {
-	margin-bottom: 10px;
+	margin-bottom: 8px;
 	border: none;
 	}
-	
 	
 	span.hiddencontent {
 	display: none;
@@ -726,12 +790,12 @@
 	
 	/*====== code for buttons on apply page ====*/
 
-#maincontent a.button, #maincontent a.button:hover, #maincontent a.button:active {
+#maincontent a.button, #maincontent a.button:visited, #maincontent a.button:hover, #maincontent a.button:active {
 background: transparent url(../images/campus/bg_button_a.gif) top right no-repeat;
 color:#333;
 display: block;
 float: left;
-font: bold .8em verdana, arial, sans-serif;
+font: bold 11px verdana, arial, sans-serif;
 height: 22px;
 margin-right:6px;
 padding-right: 12px;/* sliding doors padding */
@@ -739,7 +803,7 @@ text-decoration: none;
 }
 
 
-#maincontent a.button span, #maincontent a.button:hover span, #maincontent a.button:active span {
+#maincontent a.button span, #maincontent a.button:visited span, #maincontent a.button:hover span, #maincontent a.button:active span {
 background: transparent url(../images/campus/bg_button_span.gif) no-repeat;
 display: block;
 line-height:15px;
@@ -749,7 +813,7 @@ padding: 2px 0 5px 12px;
 
 #maincontent a.button:hover {
 background: transparent url(../images/campus/bg_button_a.gif) center right no-repeat;
-color: #ec1c02;
+color: #d4001a;
 outline: none; /* hide dotted outline in Firefox */
 }
 
@@ -777,7 +841,7 @@ cursor: default;
 color: #cdcdcd;
 display: block;
 float: left;
-font: bold .7em verdana, arial, sans-serif;
+font: bold 11px verdana, arial, sans-serif;
 height: 22px;
 margin-right: 6px;
 padding-right: 12px; /* sliding doors padding */
