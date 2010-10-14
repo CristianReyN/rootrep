@@ -55,15 +55,20 @@
    
     <p class="back-top"><a href="#profiles">Back to top</a></p>
   </div>
-  <div id="aside"> <a href="campusrecruiting/career_fit_tool.asp><img src="images/campus/btn-careerfinder.jpg" width="179" height="66" alt="Career Finder: Come as you are. We've got a career to fit." /></a> 
-    <a href="CampusEvents.aspx?region=1"><img src="images/campus/btn-campus-events.jpg" width="179" height="66" alt="Campus Events: Let's meet soon." /></a> 
-    <h3>Related Links:</h3>
+  <div id="aside">
+    
+    	<a href="campusrecruiting/career_fit_tool.asp"><img src="images/campus/btn-careerfinder.jpg" width="179" height="66" alt="Career Finder: Come as you are. We've got a career to fit." /></a>
+        
+        <a href="CampusEvents.aspx?region=1"><img src="images/campus/btn-campus-events.jpg" width="179" height="66" alt="Campus Events: Let's meet soon." /></a>
+        
+        <h3>Related Links:</h3>
     <ul>
       <li><a href="campus-Americas-intern-profiles.aspx">Back to profile list</a></li>
       <li><a href="campus-profiles-Internship-Tyler.aspx">Next profile</a></li>
       <li><a href="campus-profiles-Internship-Michael.aspx">Previous profile</a></li>
     </ul>
   </div>
+  
   <div id="red-footer"> 
     <p>Set opportunity in motion.</p>
   </div>

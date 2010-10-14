@@ -35,16 +35,15 @@
 
                  </div>
 				 
-				 <script type="text/javascript" src="Includes/_swfobject.js" ></script>
+				 <script type="text/javascript" src="Includes/_swfobject.js"></script>
 					<script type="text/javascript">
 
-				    //var baseURL = window.location.hostname;
-				    //baseURL = "baseurl=http://" + baseURL;
+				  
 				    var flashvars = false;
 				    var params = { menu: "false", wmode: "opaque"};
 				    var attributes = false;
 
-				    swfobject.embedSWF("http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/BAC011_GlobalGate_v6.swf", "global-gateway", "568", "474", "9", "images/campus/flash/_expressinstall.swf", flashvars, params, attributes);
+				    swfobject.embedSWF("Includes/BAC011_GlobalGate_v5.swf", "global-gateway", "568", "474", "9", "Includes/_expressinstall.swf", flashvars, params, attributes);
 	
 					</script>
                  
