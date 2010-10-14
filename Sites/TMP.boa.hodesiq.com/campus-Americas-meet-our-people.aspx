@@ -62,11 +62,11 @@
             <p><a href="campus-meet-our-people-profile-Matt.aspx" title="Read Matt's Profile">Read <span class="hiddencontent">Matt's</span> Profile</a></p>
             </div>
             
-            <p class="learnlink"><a href="campus-Americas-associate-profiles.aspx">View all our associates profiles</a></p>
+            <p class="learnlink"><a href="campus-Americas-associate-profiles.aspx">View all our associate profiles</a></p>
         </div>
         
            <div class="featured-profile">
-        <h2>Featured  Interns</h2>
+        <h2>Featured Interns</h2>
         	
             <div class="mop-profile">
                 <img src="images/campus/icon-mopDevin.jpg" width="40" height="40" alt="Devin" />
@@ -89,7 +89,7 @@
             <p><a href="campus-meet-our-people-profile-John.aspx" title="Read John's Profile">Read <span class="hiddencontent">John's</span> Profile</a></p>
             </div>
             
-            <p class="learnlink"><a href="campus-Americas-intern-profiles.aspx">View all our interns profiles</a></p>
+            <p class="learnlink"><a href="campus-Americas-intern-profiles.aspx">View all our intern profiles</a></p>
         </div>
         
       

@@ -7,7 +7,7 @@
 <div id="main-profiles"> 
  
   <div id="article">
-  <h1>Our Internships</h1>
+  <h1>Our Interns</h1>
    <p>An internship doesn’t have to mean starting at the bottom. If you’re ready to learn about the financial services industry from the perspective of the world’s leading financial institution, this is a great way to start. Through an internship role with us, you’ll find yourself tackling real business challenges that make a real impact on our company. You’ll grow your skills and build your network in a dynamic environment designed to support your long-term career objectives.</p>
 
          <div class="profile-article">
@@ -215,8 +215,8 @@
             
              <h2>Related Links:</h2>
         <ul>
-          <li><a href="campus-AsiaPac-intern-profiles.aspx">Asia Pacific internship profiles</a></li>
-          <li><a href="campus-EMEA-intern-profiles.aspx">EMEA internship profiles</a></li>
+          <li><a href="campus-AsiaPac-intern-profiles.aspx">Asia Pacific intern profiles</a></li>
+          <li><a href="campus-EMEA-intern-profiles.aspx">EMEA intern profiles</a></li>
           <li><a href="campus-Americas-analyst-profiles.aspx">Analyst profiles</a></li>
           <li><a href="campus-Americas-associate-profiles.aspx">Associate profiles</a></li>
         </ul>

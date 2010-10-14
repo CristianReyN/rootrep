@@ -10,9 +10,7 @@
                   <p>You know how to harness your talent and seize every opportunity, 
                     evolving it into even greater success. Here at Bank of America, 
                     you'll discover a range of exciting programs to capitalize 
-                    on your momentum and enable you to reach even further. Join 
-                    us and create the kind of opportunity that begets greater 
-                    opportunity and bigger impact than you ever imagined.</p>
+                    on your momentum and enable you to reach even further. Join us and find out why Bank of America Merrill Lynch is a great place to begin your career.</p>
                   <h2><a href="campus-AsiaPac-analyst-programs.aspx">Analyst Programs</a></h2>
                   <p>When you join us as a college or university graduate, you'll 
                     learn from the best and brightest minds in the industry. You'll 
@@ -22,7 +20,7 @@
                     you the opportunity to create real impact right out of the 
                     gate.</p> 
                     
-                    <p><a href="campus-AsiaPac-analyst-programs.aspx" title="Learn more about our analyst programs">Learn more <span class="hiddencontent">about our analyst programs</span></a></p>
+                    <p class="pad-explore"><a href="campus-AsiaPac-analyst-programs.aspx" title="Learn more about our analyst programs">Learn more <span class="hiddencontent">about our analyst programs</span></a></p>
                     
                   <h2><a href="campus-AsiaPac-associate-and-phd-programs.aspx">Associate &amp; PhD Programs</a></h2>
                   <h3 class="pad-top">Associate Programs</h3>
@@ -30,7 +28,7 @@
                     MBA or advanced degree, transforming your knowledge and experience 
                     into real-world opportunities.</p> 
                     
-                    <p><a href="campus-AsiaPac-associate-and-phd-programs.aspx" title="Learn more about our assoiciates programs">Learn more <span class="hiddencontent">about our assoiciates programs</span></a></p>
+                    <p class="pad-explore"><a href="campus-AsiaPac-associate-and-phd-programs.aspx" title="Learn more about our assoiciates programs">Learn more <span class="hiddencontent">about our assoiciates programs</span></a></p>
                     
                   <h3>PhD Programs</h3>
                   <p>Pursuing a doctoral degree with a quantitative focus? Then 
@@ -39,7 +37,7 @@
                     and ambition to work in a fast-paced, exciting environment 
                     that will challenge and reward a rigorous approach.</p> 
                     
-                    <p><a href="campus-AsiaPac-associate-and-phd-programs.aspx"  title="Learn more about our PhD programs">Learn more <span class="hiddencontent">about our assoiciates programs</span></a></p>
+                    <p class="pad-explore"><a href="campus-AsiaPac-associate-and-phd-programs.aspx"  title="Learn more about our PhD programs">Learn more <span class="hiddencontent">about our assoiciates programs</span></a></p>
                     
                   <h2><a href="campus-AsiaPac-internships.aspx">Internships</a></h2>
                   <p>An internship doesn't have to mean starting at the bottom. 
@@ -51,7 +49,7 @@
                     and build your network in a dynamic environment designed to 
                     support your long-term career objectives.</p> 
                     
-                    <p><a href="campus-AsiaPac-internships.aspx" title="Learn more about our internships">Learn more</a></p>
+                    <p class="pad-explore"><a href="campus-AsiaPac-internships.aspx" title="Learn more about our internships">Learn more</a></p>
                 </div>
                 <div id="aside"> 
                     <a href="campusrecruiting/career_fit_tool.asp"><img src="images/campus/btn-careerfinder.jpg" width="179" height="66" alt="Career Finder: Come as you are. We've got a career to fit." /></a> 

@@ -52,6 +52,18 @@
                     <li><a href="campusrecruiting/usfn-global-commercial-banking-analyst-program.asp">Global Commercial Banking Analyst Program</a></li>
                     </ul>
                     
+                    <h2 class="questions">Global Risk</h2>
+                  <ul>
+                  <li><a href="campusrecruiting/usfn-global-corporate-financial-institutions-debt-products-analyst-program.asp">Global 
+                      Corporate &amp; Financial Institutions Debt Products Analyst Program</a></li>
+                      <li><a href="campusrecruiting/usfn-global-risk-management-program.asp">Global 
+                      Risk Management Program</a></li>
+                      <li><a href="campusrecruiting/usfn-markets-risk-analyst-progam.asp">Markets Risk Analyst Program </a></li>
+                    <li><a href="campusrecruiting/usfn-quantitative-management-program.asp">Quantitative 
+                      Management Program</a></li>
+                    
+                  </ul>
+                    
                     <h2 class="questions">Global Technology and Operations</h2>
                   <ul>
                     <li><a href="campusrecruiting/usfn-corporate-security-analyst.asp">Corporate Security Analyst</a></li>
@@ -80,16 +92,7 @@
                     <li><a href="campusrecruiting/usfn-institutional-mortgage-services-analyst-program.asp">Institutional 
                       Mortgage Services Analyst Program</a></li>
                   </ul>
-                  <h2 class="questions">Global Risk</h2>
-                  <ul>
-                    <li><a href="campusrecruiting/usfn-global-risk-management-program.asp">Global 
-                      Risk Management Program</a></li>
-                    <li><a href="campusrecruiting/usfn-quantitative-management-program.asp">Quantitative 
-                      Management Program</a></li>
-                    <li><a href="campusrecruiting/usfn-global-corporate-financial-institutions-debt-products-analyst-program.asp">Global 
-                      Corporate &amp; Financial Institutions Debt Products Analyst 
-                      Program</a></li>
-                  </ul>
+                  
                 </div>
                 <div id="aside"> 
                   <a href="campusrecruiting/career_fit_tool.asp"><img src="images/campus/btn-careerfinder.jpg" width="179" height="66" alt="Career Finder: Come as you are. We've got a career to fit." /></a> 

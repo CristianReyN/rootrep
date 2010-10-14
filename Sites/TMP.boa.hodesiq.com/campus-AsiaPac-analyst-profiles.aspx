@@ -52,7 +52,7 @@ you the opportunity to create real impact right out of the gate.</p>
             <img src="images/campus/icon-Stanley.jpg" width="50" height="80" alt="Stanley" />
             <h2>Stanley</h2>
             <p class="profile-depart">Technology Analyst Program &ndash; GMRT</p>
-            <p>It is indisputable Bank of America is a global leading financial company providing lots of opportunities. </p>
+            <p>I manage the technology team to support the Global Corporate and Investment Banking (GCIB) group in the Asia Pacific region.</p>
             <p><a href="campus-meet-our-people-profile-Stanley.aspx" title="Read Stanley's profile">Read <span class="hiddencontent">Stanley's</span> Profile</a></p>
         </div>
         
@@ -198,7 +198,7 @@ you the opportunity to create real impact right out of the gate.</p>
           <li><a href="campus-Americas-analyst-profiles.aspx">Americas analyst profiles</a></li>
           <li><a href="campus-EMEA-analyst-profiles.aspx">EMEA analyst profiles</a></li>
           <li><a href="campus-AsiaPac-associate-profiles.aspx">Associate profiles</a></li>
-          <li><a href="campus-AsiaPac-intern-profiles.aspx">Internship profiles</a></li>
+          <li><a href="campus-AsiaPac-intern-profiles.aspx">Intern profiles</a></li>
         </ul>
   </div>
   <div id="red-footer"> 

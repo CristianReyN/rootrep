@@ -250,7 +250,7 @@
           <li><a href="campus-AsiaPac-analyst-profiles.aspx">Asia Pacific analyst profiles</a></li>
           <li><a href="campus-EMEA-analyst-profiles.aspx">EMEA analyst profiles</a></li>
           <li><a href="campus-Americas-associate-profiles.aspx">Associate profiles</a></li>
-          <li><a href="campus-Americas-intern-profiles.aspx">Internship profiles</a></li>
+          <li><a href="campus-Americas-intern-profiles.aspx">Intern profiles</a></li>
         </ul>
   </div>
   <div id="red-footer"> 
