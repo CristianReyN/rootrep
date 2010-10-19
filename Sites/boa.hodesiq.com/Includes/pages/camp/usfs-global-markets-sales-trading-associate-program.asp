@@ -21,12 +21,12 @@ Bank of America Merrill Lynch covers a wide array of industry sectors in both th
 <br>
 <H3 class="bac">Sales</H3>
 <p class="bac">
-As a Sales Analyst, you will focus on a specific product area. You will be responsible for building and maintaining relationships with our clients by matching our services to their needs. You will interact with portfolio managers, research analysts and traders, relaying investment research, relevant market information and marketing ideas; and/or executing transactions as an agent for our clients.   
+As a Sales Associate, you will focus on a specific product area. You will be responsible for building and maintaining relationships with our clients by matching our services to their needs. You will interact with portfolio managers, research associates and traders, relaying investment research, relevant market information and marketing ideas; and/or executing transactions as an agent for our clients.   
 </p>
 <br>
 <H3 class="bac">Trading</H3>
 <p class="bac">
-As a Trading Associate, you will be essential to the trading desk. Your initial role will be to assist senior traders in making markets, and to facilitate communications and trade execution for clients through the sales team. As you gain experience and develop a more nuanced understanding of the markets, you can expect to work towards a larger role in the risk profile of your desk. You will also work to develop closer relationships with customers, as you share your trade ideas and thoughts on the markets with the company&#39;s top clients.  
+As a Trading Associate, you will be essential to the trading desk. Your initial role will be to assist senior traders in making markets and to facilitate communications and trade execution for clients through the sales team. As you gain experience and develop a more nuanced understanding of the markets, you can expect to work towards a larger role in the risk profile of your desk. You will also work to develop closer relationships with customers, as you share your trade ideas and thoughts on the markets with the company&#39;s top clients.  
 </p>
 <br>
 <H3 class="bac">Responsibilities</H3>
@@ -72,7 +72,7 @@ As a Trading Associate, you will be essential to the trading desk. Your initial 
 
 <h2 class="bac">Training:</h2>
 <p class="bac">
-As a Sales and Trading Analyst, you will begin your career at Bank of America Merrill Lynch with an intensive training program. Initially, you will train with your peers from other lines of business. You will then participate in a program designed specifically for Global Markets Analysts. The program is an interactive, experientially based mix of  group projects, e&ndash;learning, lectures, case studies, business representative presentations and team&ndash;building activities, which will provide you with a solid grounding in global markets and economics, and how Bank of America&#39;s businesses, products and services operate in this global context. Throughout the program, you will have ample opportunity to meet and work with your peers and other colleagues across all levels of the company. The network you build during this time will be a tremendous resource to you throughout your career.
+As a Sales and Trading Associate, you will begin your career at Bank of America Merrill Lynch with an intensive training program. Initially, you will train with your peers from other lines of business. You will then participate in a program designed specifically for Global Markets Associates. The program is an interactive, experientially&ndash;based mix of  group projects, e&ndash;learning, lectures, case studies, business representative presentations and team&ndash;building activities, which will provide you with a solid grounding in global markets and economics, and how Bank of America&#39;s businesses, products and services operate in this global context. Throughout the program, you will have ample opportunity to meet and work with your peers and other colleagues across all levels of the company. The network you build during this time will be a tremendous resource to you throughout your career.
 </p>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
