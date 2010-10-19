@@ -16,14 +16,6 @@
             <p>I am an Equity exotics quantitative researcher.</p>
             <p><a href="campus-meet-our-people-profile-Irina.aspx" title="Read Irina's profile">Read <span class="hiddencontent">Irina's</span> Profile</a></p>
         </div>
-  
-          <div class="profile-article">
-            <img src="images/campus/icon-Priya.jpg" width="50" height="80" alt="Priya" />
-            <h2>Priya</h2>
-            <p class="profile-depart">Corporate and Investment Banking Associate Programme</p>
-            <p>I am part of the Media Investment Banking team.</p>
-            <p><a href="campus-meet-our-people-profile-Priya.aspx" title="Read Priya's profile">Read <span class="hiddencontent">Priya's</span> Profile</a></p>
-        </div>
     
          <div class="profile-article">
             <img src="images/campus/icon-Rachna.jpg" width="50" height="80" alt="Rachna" />

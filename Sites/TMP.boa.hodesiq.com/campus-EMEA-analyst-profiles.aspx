@@ -32,14 +32,6 @@ you the opportunity to create real impact right out of the gate.</p>
         </div>
        
          <div class="profile-article">
-            <img src="images/campus/icon-Dwayne.jpg" width="50" height="80" alt="Dwayne" />
-            <h2>Dwayne</h2>
-             <p class="profile-depart">Enterprise Technology &amp; Delivery Analyst</p>
-            <p>My current assignment is to ensure the data network in EMEA is in great condition.</p>
-            <p><a href="campus-meet-our-people-profile-Dwayne.aspx" title="Read Dwayne's profile">Read <span class="hiddencontent">Dwayne's</span> Profile</a></p>
-        </div> 
-        
-         <div class="profile-article">
             <img src="images/campus/icon-Fujia.jpg" width="50" height="80" alt="Fujia" />
             <h2>Fujia</h2>
             <p class="profile-depart">Global Markets Risk Management Analyst Programme</p>
