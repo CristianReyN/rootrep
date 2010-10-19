@@ -61,7 +61,7 @@
     <ul>
       <li><a href="campus-EMEA-intern-profiles.aspx">Back to profile list</a></li>
       <li><a href="campus-profiles-Internship-Ken.aspx">Next profile</a></li>
-      <li><a href="campus-profiles-Internship-Dwayne.aspx">Previous profile</a></li>
+      <li><a href="campus-profiles-Internship-Christoph.aspx">Previous profile</a></li>
     </ul>
   </div>
   <div id="red-footer"> 

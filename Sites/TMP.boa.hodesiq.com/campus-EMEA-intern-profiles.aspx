@@ -18,14 +18,6 @@
             <p>I have responsibility for distribution strategy/pricing and execution across leveraged and investment grade syndicated loans.</p>
             <p><a href="campus-profiles-Internship-Christoph.aspx" title="Read Christoph's profile">Read <span class="hiddencontent">Christoph's</span> Profile</a></p>
         </div>
-       
-         <div class="profile-article">
-            <img src="images/campus/icon-Dwayne.jpg" width="50" height="80" alt="Dwayne" />
-            <h2>Dwayne</h2>
-             <p class="profile-depart">Enterprise Technology &amp; Delivery Analyst</p>
-            <p>My current assignment is to ensure the data network in EMEA is in great condition.</p>
-            <p><a href="campus-profiles-Internship-Dwayne.aspx" title="Read Dwayne's profile">Read <span class="hiddencontent">Dwayne's</span> Profile</a></p>
-        </div> 
 
        <div class="profile-article">
             <img src="images/campus/icon-John-William.jpg" width="50" height="80" alt="John-William" />

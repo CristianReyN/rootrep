@@ -75,7 +75,7 @@ those working in different business areas – it was a great experience.</p>
     <h3>Related Links:</h3>
     <ul>
       <li><a href="campus-EMEA-associate-profiles.aspx">Back to profile list</a></li>
-      	<li><a href="campus-meet-our-people-profile-Priya.aspx">Previous profile</a></li>
+      	<li><a href="campus-meet-our-people-profile-Irina.aspx">Previous profile</a></li>
         </ul>
         
     

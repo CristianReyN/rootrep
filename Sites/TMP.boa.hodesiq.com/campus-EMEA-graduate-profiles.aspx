@@ -48,13 +48,6 @@
             </div>
             
              <div class="mop-profile">
-                 <img src="images/campus/icon-mopPriya.jpg" width="40" height="40" alt="Priya" />
-            <h3>Priya</h3>
-            <p>Corporate and Investment Banking Associate Programme</p>
-            <p><a href="campus-meet-our-people-profile-Priya.aspx" title="Read Priya's Profile">Read <span class="hiddencontent">Priya's</span> Profile</a></p>
-            </div>
-            
-             <div class="mop-profile">
              <img src="images/campus/icon-mopRachna.jpg" width="40" height="40" alt="Rachna" />
             <h3>Rachna</h3>
             <p>Research Quant Analyst Programme</p>
@@ -68,10 +61,10 @@
         <h2>Featured  Interns</h2>
         	
             <div class="mop-profile">
-               <img src="images/campus/icon-mopDwayne.jpg" width="40" height="40" alt="Dwayne" />
-            <h3>Dwayne</h3>
-             <p>Enterprise Technology &amp; Delivery Analyst</p>
-            <p><a href="campus-meet-our-people-profile-Dwayne.aspx" title="Read Dwayne's Profile">Read <span class="hiddencontent">Dwayne's</span> Profile</a></p>
+               <img src="images/campus/icon-mopKen.jpg" width="40" height="40" alt="Ken" />
+            <h3>Ken</h3>
+             <p>Sales and Trading Analyst Programme</p>
+            <p><a href="campus-meet-our-people-profile-Ken.aspx" title="Read Ken's Profile">Read <span class="hiddencontent">Ken's</span> Profile</a></p>
             </div>
             
              <div class="mop-profile">

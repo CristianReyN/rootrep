@@ -86,11 +86,7 @@
                   <p>Once you have submitted your application, you cannot make 
                     amends yourself. If changes are essential, please contact 
                     the campus recruitment team to discuss.</p>
-                  <h2 class="questions">I would like to make changes to my application, but have 
-                    already submitted it?</h2>
-                  <p>Once you have submitted your application, you can not make 
-                    amends yourself. If changes are essential, please contact 
-                    the campus recruitment team to discuss.</p>
+                  
                 </div>
                 <div id="aside"> 
                    <a href="campusrecruiting/career_fit_tool.asp"><img src="images/campus/btn-careerfinder.jpg" width="179" height="66" alt="Career Finder: Come as you are. We've got a career to fit." /></a> 
