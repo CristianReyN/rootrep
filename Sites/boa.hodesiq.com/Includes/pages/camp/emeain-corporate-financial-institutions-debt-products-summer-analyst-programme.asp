@@ -11,10 +11,8 @@
 	<li>Online application form</li>
 	<li>Application Deadline: 17  December 2010</li>
 </ul>
-
-<img src="../images/clear.gif" class="bac" alt=""><br clear="all">
-
-<h2 class="bac">What is Credit Risk?</h2>
+<br>
+<h3 class="bac">What is Credit Risk?</h3>
 <p class="bac">
 Nearly every time a bank extends a loan to a client or enters into a derivative transaction, there is a risk that the client will not be able to pay back the money it owes. This is called "credit risk."  Assessing credit risk requires a deep understanding of a company&#39;s industry, competitive position, strategy and financial performance.  At Bank&nbsp;of&nbsp;America Merrill Lynch, the Corporate Debt Products (CDP) and Financial Institutions Debt Products (FIDP) groups are responsible for analyzing these factors and helping to make critical decisions about how we extend credit to our clients.
 </p>
