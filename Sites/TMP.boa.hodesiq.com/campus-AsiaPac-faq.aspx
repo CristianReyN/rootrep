@@ -12,12 +12,12 @@
                   
 <h2 class="questions">How do I apply?</h2>
 
-<p>Please visit <a href="www.bankofamerica.com/campusrecruiting">www.bankofamerica.com/campusrecruiting</a> and navigate to the "How to Apply" page. If you're not a college/university or advanced degree student, or if you're interested in opportunities in another area of the company, please visit <a href="www.bankofamerica.com/careers">www.bankofamerica.com/careers</a>.
+<p>Please visit <a href="http://www.bankofamerica.com/campusrecruiting">www.bankofamerica.com/campusrecruiting</a> and navigate to the "How to Apply" page. If you're not a college/university or advanced degree student, or if you're interested in opportunities in another area of the company, please visit <a href="http://www.bankofamerica.com/careers">www.bankofamerica.com/careers</a>.
 
 <h2 class="questions">What are the requirements to be considered for campus opportunities?</h2>
 <p>Each program has individual requirements; however, to be considered for any program you must be currently enrolled in a Bachelor/Master/PhD degree or MBA program.</p>
 
-<p>If you are not currently completing a degree, you can visit <a href="www.bankofamerica.com/asiacareers">www.bankofamerica.com/asiacareers</a> for experienced-hire opportunities.</p>
+<p>If you are not currently completing a degree, you can visit <a href="http://www.bankofamerica.com/asiacareers">www.bankofamerica.com/asiacareers</a> for experienced-hire opportunities.</p>
 
 <h2 class="questions">When does Bank of America recruit students for full time opportunities?</h2>
 <p><b>Australia:</b> Bank of America recruits Bachelor's degree students for full-time opportunities in January to March of 2010 for roles that begin in January 2011.</p>
@@ -39,7 +39,7 @@
 <p>No, we typically target penultimate year students/rising seniors so they can be considered for full-time conversion placement.</p>
 
 <h2 class="questions">How can I decide what program is best for me?</h2>
-<p>We have created a guided questionnaire on the campus recruiting website called the Career Fit Tool to help you find the opportunities that match your skill set and interests. Please visit <a href="www.bankofamerica.com/campusrecruiting">www.bankofamerica.com/campusrecruiting</a>.</p>
+<p>We have created a guided questionnaire on the campus recruiting website called the Career Fit Tool to help you find the opportunities that match your skill set and interests. Please visit <a href="http://www.bankofamerica.com/campusrecruiting">www.bankofamerica.com/campusrecruiting</a>.</p>
 
 <h2 class="questions">What academic background are you looking for in candidates?</h2>
 <p>You should have a consistent track record of strong academic qualifications, and you will need to demonstrate drive and a genuine interest in the area you apply to. In addition, you should possess excellent verbal and written communication skills.</p>
@@ -57,7 +57,7 @@
 <p>Open House events can be organized in the Hong Kong office for selected schools participating in the Asia Trek programs. These events are limited to specific dates. Please contact the relevant recruiter to enquire.</p>
 
 <h2 class="questions">If I have posted on the Bank of America Campus Recruiting site, do I need to post through my career center as well?</h2>
-<p>For Asia opportunities you do not need to post through your career center as we only accept direct online applications via <a href="www.bankofamerica.com/campusrecruiting">www.bankofamerica.com/campusrecruiting</a>.</p>
+<p>For Asia opportunities you do not need to post through your career center as we only accept direct online applications via <a href="http://www.bankofamerica.com/campusrecruiting">www.bankofamerica.com/campusrecruiting</a>.</p>
 
 <h2 class="questions">Is it appropriate to send a thank you note after my interview?</h2>
 <p>An e-mail thank you to the person who interviewed you is appropriate but not required. If you do choose to send a thank you note, make sure to tailor the message for the person you met with. It is not appropriate to send the same e-mail to multiple interviewers.</p>
