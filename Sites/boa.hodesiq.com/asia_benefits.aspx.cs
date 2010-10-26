@@ -26,7 +26,7 @@ public partial class asia_benefits : System.Web.UI.Page
         Page.Header.Controls.Add(theMetaTag);
 
         HtmlImage Img = (HtmlImage)Page.Master.FindControl("ImgHeaderLogo");
-        Img.Src = "images/BankofAmerica_Merrill_Lynch_250_69.jpg";
+        Img.Src = "images/BACMER_Signature_BLACK.gif";
         Img.Alt = "Bank of America Merrill Lynch";
     }
 }

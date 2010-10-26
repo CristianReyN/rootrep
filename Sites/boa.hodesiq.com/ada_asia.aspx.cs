@@ -22,7 +22,7 @@ public partial class ada_boaml : System.Web.UI.Page
 	
  Session["leftnavswap"] = "Asia";
  HtmlImage Img = (HtmlImage)Page.Master.FindControl("ImgHeaderLogo");
- Img.Src = "images/BankofAmerica_Merrill_Lynch_250_69.jpg";
+ Img.Src = "images/BACMER_Signature_BLACK.gif";
  Img.Alt = "Bank of America Merrill Lynch";
     }
 }
