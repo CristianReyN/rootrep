@@ -705,12 +705,12 @@
 	#emea-home #icon-home-buttons {
     position: absolute;
     top: 323px;
-    left: 10px;
+    left: 30px;/* change this back to 10px; for nov. changes */
     }
     
     #emea-home #icon-home-buttons img {
     border: none;
-    margin-right: 15px;
+    margin-right: 25px;/* change this back to 15px; for nov. changes */
     }
 	
 	#home-buttons {
