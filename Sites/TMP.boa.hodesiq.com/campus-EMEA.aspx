@@ -11,7 +11,7 @@
                  <div id="icon-home-buttons">
 				<a href="campus-EMEA-opportunities.aspx"><img src="images/campus/btn-search-jobs.jpg" width="46" height="47" alt="Explore a world of career opportunities" /></a>
                 <a href="campus-EMEA-graduate-profiles.aspx"><img src="images/campus/btn-meet-people.jpg" width="46" height="46" alt="Meet our people" /></a>
-                <a href="http://twitter.com/BofA_Careers" target="_blank"><img src="images/campus/btn-twitter.jpg" width="46" height="46" alt="Twitter" /></a>
+                <!--<a href="http://twitter.com/BofA_Careers" target="_blank"><img src="images/campus/btn-twitter.jpg" width="46" height="46" alt="Twitter" /></a>-->
 				</div>
 			
  				<p class="footnote-content">Set opportunity in motion.</p>
