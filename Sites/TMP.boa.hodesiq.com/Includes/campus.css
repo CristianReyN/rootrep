@@ -653,14 +653,14 @@
 	
 	#asiapac-home #icon-home-buttons {
     position: absolute;
-    width: 195px;
+    /*width: 195px;*/
     top: 323px;
-    left: 35px;
+    left: 10px;
     }
     
     #asiapac-home #icon-home-buttons img {
     border: none;
-    margin-right: 25px;
+    margin-right: 15px;
     }
 	
 	
@@ -704,14 +704,13 @@
 	
 	#emea-home #icon-home-buttons {
     position: absolute;
-    width: 195px;
     top: 323px;
-    left: 35px;
+    left: 10px;
     }
     
     #emea-home #icon-home-buttons img {
     border: none;
-    margin-right: 25px;
+    margin-right: 15px;
     }
 	
 	#home-buttons {
