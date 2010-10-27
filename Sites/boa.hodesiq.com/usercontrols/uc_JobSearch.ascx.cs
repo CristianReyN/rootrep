@@ -113,7 +113,7 @@ public partial class uc_JobSearch : System.Web.UI.UserControl
     {
         string DisplayCanadaJobs = ConfigurationManager.AppSettings["DisplayCanadaJobs"].ToString();
         string Instructions = "To find a career suited to your skill set, begin by selecting a country from the list below. Then you may narrow your selection further by choosing additional search criteria and/or entering keywords.";
-        string USOnlyInstructions = "To find a career suited to your skill set, begin by selecting a country from the list below. Then you may narrow your selection further by choosing additional search criteria and/or entering keywords.</br><b>Please note:</b>  City search results are for that city only. Please search individually for all cities within your desired geographic area.";
+        string USOnlyInstructions = "Begin your career search by selecting a country.  You may then narrow your search further, by entering additional search criteria or keywords.</br></br><b>Note:</b>  City search options are limited to areas with current available job opportunities, which change constantly. Results are specific to the single city you select, and do not include results for nearby locations. <a href='#'>Learn more</a>";
 
         if (Country.SelectedValue == Location.USA)
         {

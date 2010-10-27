@@ -31,7 +31,7 @@
 							</tr>
 							</table>
 							<asp:Panel ID="PnlCanada" runat="server" Visible="false">
-                            </br><a href="http://ig12.i-grasp.com/fe/tpl_bankofamerica06.asp" target="_blank" class="p" onfocus="this.className='p-over'; "onblur="this.className='p';" style="margin: 0px 0px 0px 0px;" >Search and apply<span class="hidden">Search and apply for jobs in Canada. Link opens a new window.</span></a> for jobs in Canada.</br></br></asp:Panel>
+							  </br><a href="http://ig12.i-grasp.com/fe/tpl_bankofamerica06.asp" target="_blank" class="p" onfocus="this.className='p-over'; "onblur="this.className='p';" style="margin: 0px 0px 0px 0px;" >Search and apply<span class="hidden">Search and apply for jobs in Canada. Link opens a new window.</span></a> for jobs in Canada.</br></br></asp:Panel>
 							<asp:Panel ID="PnlFilter" runat="server" >
 							
 							<table border="0" cellpadding="0" cellspacing="0" summary=""
@@ -60,7 +60,7 @@
 								<asp:HiddenField ID="Statehidden" runat="server" Value=""  />
 							</td>					
 							<td  valign="top" style="width:48%; height:45;">
-							    <asp:Label ID="lblCity" runat="server" Text="City" Visible="true" AssociatedControlID="City"></asp:Label><br />
+							    <asp:Label ID="lblCity" runat="server" Text="City" Visible="true" AssociatedControlID="City"></asp:Label><asp:HyperLink runat="server"  NavigateUrl="#" ID="HylCityNote" Text="How do I use the city search?" Visible="true" AssociatedControlID="City" style="text-align:right;width:80%;"></asp:HyperLink><br />
 								<asp:DropDownList ID="City" runat="server" CssClass="left" Style="width: 90%; z-index: auto;"
 								ToolTip="Select a city" Visible="true" Enabled="false">
 								<asp:ListItem>All cities&#160;</asp:ListItem>

@@ -60,7 +60,7 @@
 							            </td></tr>							 
 							            <tr  id="trCity" runat="server" >
 							            <td  valign="top" style="width:50%;height:38;">
-							                <asp:Label ID="lblCity" runat="server" Text="City" Visible="true" AssociatedControlID="City"></asp:Label><br />
+							                <asp:Label ID="lblCity" runat="server" Text="City" Visible="true" AssociatedControlID="City"></asp:Label><br /><asp:HyperLink runat="server"  NavigateUrl="#" ID="HylCityNote" Text="How do I use the city search?" Visible="true" AssociatedControlID="City" style="text-align:right;"></asp:HyperLink><br />
 								            <asp:DropDownList ID="City" runat="server" CssClass="left" Style="width: 100%; z-index: auto;"
 								            ToolTip="Select a city" Visible="true"  Enabled="false">
 								            <asp:ListItem>All cities&#160;</asp:ListItem>

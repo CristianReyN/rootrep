@@ -90,7 +90,11 @@ function changeCity()
 					<table width="<%=jwdt%>" cellpadding="0" cellspacing="0" border="0" summary="" style="<%=stl%>">
 						<tr>
 							<td style="padding: 0px 0px 0px 0px;">
-<p style="margin: 0px;">To find a career suited to your skill set, begin by selecting a country from the list below. Then you may narrow your selection further by choosing additional search criteria and/or entering keywords.<%If show_add_message Then %><br><b>Please note:</b> City search results are for that city only. Please search individually for all cities within your desired geographic area.<% End If %></p>
+							<%if Request("countryid") =1 then %>
+							 <p style="margin: 0px;">Begin your career search by selecting a country.  You may then narrow your search further, by entering additional search criteria or keywords.<%If show_add_message Then %><br><br /><b>Note:</b> City search options are limited to areas with current available job opportunities, which change constantly. Results are specific to the single city you select, and do not include results for nearby locations.<% End If %>&nbsp;<a href="#">Learn more</a></p>
+							<%else %>
+                            <p style="margin: 0px;">To find a career suited to your skill set, begin by selecting a country from the list below. Then you may narrow your selection further by choosing additional search criteria and/or entering keywords.<%If show_add_message Then %><br><b>Please note:</b> City search results are for that city only. Please search individually for all cities within your desired geographic area.<% End If %></p>
+                            <%end if %>
 <p class="ada-label">After you select a country from the country field, the page will refresh. For the United States, you can then pick a state.  After you select a state from the 'State' field, the page will refresh.  You will then be able to select a city from the 'City' field.  For all other countries, after you select a country other than the United States from the country field, the page will refresh and you can then select a city from the 'City' field.</p>
 <img class="dotdiv" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
 							</td>
@@ -117,7 +121,7 @@ function changeCity()
 						</tr>
 						<tr style="<%=display%>">
 							<td width="<%=jwdt%>" nowrap style="padding: 0px 0px 0px 0px;">
-<label for="cityid" class="p" style="margin: 0px;"><b>City</b></label><br>
+<label for="cityid" class="p" style="margin: 0px;"><b>City</b></label><%if Request("countryid") =1 then %><br /><a href="#">How do I use the city search?</a><%end if %><br>
 <%If disable_city <> "" Then %><div style="position: absolute; height: 2.0em; width: <%=jwdt%>px; z-index: 100;" onclick="changeCity();">&nbsp;</div><% End If %>
 <div id="L103" style="position: relative; z-index: 12;">
 <% 
