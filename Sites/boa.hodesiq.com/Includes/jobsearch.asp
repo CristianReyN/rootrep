@@ -85,7 +85,11 @@ function changeCity()
 	if(document.jsearch.stateid.value != "-1" && document.jsearch.stateid.changed) document.jsearch.submit();
 }
 </script>
+<%if (instr(request.ServerVariables("URL"),"locations/Default.asp")>0) then %>
+<form style="margin: 0px;" name="jsearch" method="post" action="<% Response.write page_self %>">
+<%else %>
 <form style="margin: 0px;" name="jsearch" method="post" action="">
+<%end if%>
 <input type="hidden" name="from" id="from" value="<% Response.write page_self %>">
 					<table width="<%=jwdt%>" cellpadding="0" cellspacing="0" border="0" summary="" style="<%=stl%>">
 						<tr>
