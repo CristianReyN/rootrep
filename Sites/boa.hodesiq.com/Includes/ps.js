@@ -32,6 +32,61 @@ function s_commit()
 
 window.onload_do = new Array();
 
+function addListener(element, eventName, handler) {
+	if (element.addEventListener) {
+		element.addEventListener(eventName, handler, false);
+	}
+	else if (element.attachEvent) {
+		element.attachEvent('on' + eventName, handler);
+	}
+	else {
+		element['on' + eventName] = handler;
+	}
+}
+function getWindowWidth() {
+  return document.compatMode=='CSS1Compat' && !window.opera?document.documentElement.clientWidth:document.body.clientWidth;
+}
+function getWindowHeight() {
+  return document.compatMode=='CSS1Compat' && !window.opera?document.documentElement.clientHeight:document.body.clientHeight;
+}
+function city_help(e)
+{
+	var x = 0, y = 0, e = !e ? window.event : e;
+	if ( e )
+	{
+		if (e.pageX || e.pageY) { x = e.pageX; y = e.pageY; }
+		else if (e.clientX || e.clientY) { x = e.clientX + document.body.scrollLeft + document.documentElement.scrollLeft; y = e.clientY + document.body.scrollTop + document.documentElement.scrollTop; }
+	}
+	var w = 400, h = 450;
+	if( ( he_lp = $("help") ) && ( ihe_lp = $("ihelp") ) )
+	{
+		if ( he_lp.style.display == "block" )
+		{
+			ihe_lp.style.width = "0px";
+			ihe_lp.style.height = "0px";
+			he_lp.style.width = "0px";
+			he_lp.style.height = "0px";
+			he_lp.style.left = "-10000px";
+			he_lp.style.top = "-10000px";
+			he_lp.style.display = "none";
+		}
+		else
+		{
+			ihe_lp.src = "../overview/chelp.html";
+			ihe_lp.style.width = w+"px";
+			ihe_lp.style.height = h+"px";
+			he_lp.style.width = w+"px";
+			he_lp.style.height = h+"px";
+			if ( x > ( getWindowWidth() - w ) ) { x = getWindowWidth() - w - 6; }
+			he_lp.style.left = x +"px"; //he_lp.style.left = ( ( getWindowWidth() - w ) / 2 ) +"px";
+			y = y + 12;
+			if ( y > ( getWindowHeight() - h ) ) { if ( y > ( h + 24 ) ) y = y - h - 24; else y = y - h/2 - 24; }
+			he_lp.style.top = y +"px"; //he_lp.style.top = ( ( getWindowHeight() - h ) / 2 - 26 ) +"px";
+			he_lp.style.display = "block";
+		}
+	}
+}
+
 function startPs()
 {
 	if ( window.onload_do.length > 0 )
@@ -41,6 +96,9 @@ function startPs()
 			window.onload_do[i]();
 		}
 	}
+	
+	if ( $("hdh") ) addListener( $("hdh"), "click", function(e){ city_help(e); } );
+	if ( $("lmh") ) addListener( $("lmh"), "click", function(e){ city_help(e); } );
 	
 	if ( document.jsearch && document.jsearch.countryid )
 	{

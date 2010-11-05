@@ -78,8 +78,7 @@ Primary locations include London, Camberley, Chester &#38; Croydon (all UK)
 <br>
 				</td>
 				<td width="205" height="100%" valign="top" style="padding-top: 8px;" align="right">
-<img src="../Includes/pages/camp/profile/ETDAnalyst_Dwayne.jpg" width="205" height="153" alt="Dwayne" border="0"><br clear="all">
-<p align="center" style="margin: 6px 0px 24px 0px;"><a href="../campus-meet-our-people-profile-Dwayne.aspx" class="p" title="View Dwayne&#39;s profile.">View Dwayne&#39;s profile</a></p>
+<img src="../Includes/pages/camp/profile/logo-BofAML.jpg" width="205" height="153" alt="Bank of America Merrill Lynch" border="0" style="margin: 0px 0px 0px 0px;">
 <!-- #include file="../../camprnav_region.asp" -->
 				</td>
 			</tr>

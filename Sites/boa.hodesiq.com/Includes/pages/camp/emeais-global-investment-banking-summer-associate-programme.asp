@@ -72,8 +72,7 @@ Opportunities across EMEA
 <br>
 				</td>
 				<td width="205" height="100%" valign="top" style="padding-top: 8px;" align="right">
-<img src="../Includes/pages/camp/profile/CIBAssociate_Priya.jpg" width="205" height="153" alt="Priya" border="0"><br clear="all">
-<p align="center" style="margin: 6px 0px 24px 0px;"><a href="../campus-meet-our-people-profile-Priya.aspx" class="p" title="View Priya&#39;s profile.">View Priya&#39;s profile</a></p>
+<img src="../Includes/pages/camp/profile/logo-BofAML.jpg" width="205" height="153" alt="Bank of America Merrill Lynch" border="0" style="margin: 0px 0px 0px 0px;">
 <!-- #include file="../../camprnav_region.asp" -->
 				</td>
 			</tr>

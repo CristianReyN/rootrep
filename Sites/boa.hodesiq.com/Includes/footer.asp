@@ -27,6 +27,7 @@
 <script language="javascript" type="text/javascript" src="/onlineopinionF3cS/oo_conf_en-US.js"></script>
 <!--ooend-->
 <% End If %>
+</div>
 </body>
 </html>
 <% If fpage <> "career_compass" Then session.Contents.Remove("page_number") %>

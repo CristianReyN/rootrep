@@ -26,11 +26,6 @@ US Wealth Management provides a high&ndash;touch client experience, through a ne
 <p class="bac">
 The Private Banking and Investment Group (PBIG) provides tailored solutions to meet the sophisticated needs of ultra&ndash;high net worth individuals. Clients are served by over 150 Private Wealth Advisor (PWA) teams across the country, along with a team of experts in areas such as investment management, concentrated stock management and intergenerational wealth transfer strategies.
 </p>
-<br>
-<H3 class="bac">US Trust, Bank of America Private Wealth Management </H3>
-<p class="bac">
-US Trust provides comprehensive investment and wealth management solutions to wealthy and ultra&ndash;wealthy clients, with investable assets of more than $3 million. The company has 4,400 associates, serving clients in more than 140 offices in 32 states across the country.
-</p>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
 

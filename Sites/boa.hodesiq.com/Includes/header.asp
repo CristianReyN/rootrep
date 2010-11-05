@@ -131,6 +131,7 @@ function tdiv(tf){}
 </script>
 </head>
 <body id="body" onload="startPs(); fixIE(<% If (mpage = "overview" And spage = "" ) Or spage = "career_fit_tool" Then %>false<% Else %>true<% End If %>);" onunload="">
+<div>
 <!-- #include file="../includes/manage_your_profile.asp" -->
 <%
 Dim pageId, categoryId

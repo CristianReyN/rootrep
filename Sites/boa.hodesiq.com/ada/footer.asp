@@ -26,6 +26,7 @@
 <script language="javascript" type="text/javascript" src="/onlineopinionF3cS/oo_conf_en-US.js"></script>
 <!--ooend-->
 <% End If %>
+</div>
 </body>
 </html>
 <% If IsObject(cnnDB) Then Call CloseDBConnection()%>
