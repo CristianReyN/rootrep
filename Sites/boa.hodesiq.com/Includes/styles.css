@@ -1368,17 +1368,30 @@ TABLE#cntr LI
 table#chelp h1
 {
 	color : #ffffff;
-	font-size: 12px;
-	font-weight : bold;
-	padding : 0px 6px;
+	font : bold 12px/14px Verdana, Geneva, Arial, Helvetica, sans-serif;
+	padding : 0px 15px;
 	margin : 0px;
 }
-table#chelp a
+table#chelp div.wrap
+{
+	margin : 12px 15px 0px 15px;
+}
+table#chelp a:link,
+table#chelp a:active,
+table#chelp a:visited
 {
 	color : #ffffff;
-	font-size: 11px;
-	font-weight : bold;
-	padding : 0px 6px;
-	margin : 0px;
+	font : normal 9px/10px Verdana, Geneva, Arial, Helvetica, sans-serif;
+	margin : 0px 15px;
+	padding : 0px;
 	text-decoration : none;
+}
+table#chelp a:hover
+{
+	text-decoration : underline;
+}
+table#chelp p, ul
+{
+	color : #333333;
+	font : normal 11px/14px Verdana, Geneva, Arial, Helvetica, sans-serif;
 }

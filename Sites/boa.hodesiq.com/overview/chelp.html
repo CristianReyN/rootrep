@@ -6,16 +6,50 @@
 <title>Bank of America | Guided Job Search - City Search</title>
 <link rel="stylesheet" href="../includes/styles.css" type="text/css">
 <link rel="stylesheet" href="../includes/hs_safebutton.css" type="text/css">
+<script language="JavaScript" type="text/javascript">
+function addListener(element, eventName, handler) {
+	if (element.addEventListener) {
+		element.addEventListener(eventName, handler, false);
+	}
+	else if (element.attachEvent) {
+		element.attachEvent('on' + eventName, handler);
+	}
+	else {
+		element['on' + eventName] = handler;
+	}
+}
+function set()
+{
+	if ( clo_se = document.getElementById("close") ) addListener( clo_se, "click", function(){
+		if ( parent && parent.city_help ) parent.city_help();
+		else if ( opener ) self.close();
+	});
+}
+</script>
+<!--[if IE]>
+<style type="text/css">
+table#chelp ul
+{
+	margin-left : 0px;
+}
+</style>
+<![endif]-->
 </head>
-<body id="body" onload="" onunload="">
-<table id="chelp" width="400" cellpadding="0" cellspacing="0" border="0" summary="">
+<body id="body" onload="set();" onunload="" bgcolor="#00ffff">
+<table id="chelp" width="100%" height="100%" cellpadding="0" cellspacing="0" border="0" summary="">
 <tr>
 	<td style="background: #D4001A;" height="25"><h1>Guided Job Search - City Search</h1></td>
-	<td style="background: #D4001A;" align="right"><a href="Javascript: if ( parent.city_help ) parent.city_help();">close window</a></td>
+	<td style="background: #D4001A;" align="right"><a href="Javascript: void(0);" id="close">close window</a></td>
 </tr>
 <tr>
-	<td colspan="2" valign="top"><div style="margin : 18px 18px 0px 18px; padding : 12px 12px 12px 0px; border : 1px solid #dedede;">
-		<ul>
+	<td colspan="2" style="background: #CCCCCC;"><img src="../images/clear.gif" width="100%" height="5" alt="" border="0"></td>
+</tr>
+<tr>
+	<td colspan="2" style="background: #CECECE;"><img src="../images/clear.gif" width="100%" height="2" alt="" border="0"></td>
+</tr>
+<tr>
+	<td colspan="2" valign="top"><div class="wrap">
+		<ul style="padding-left : 15px;">
 			<li>City search options are limited to areas in which we currently have available job opportunities. These locations change and are updated constantly. If your area of choice is not listed, you may choose to search another nearby location from the drop down menu, and/or check back at a later date for updated opportunities.</li>
 			<li>A city is defined as a location identified by a U.S. Postal zip code.</li>
 			<li>City search results are specific to the single city you select, and do not include results for nearby (radius) locations.</li>
@@ -24,7 +58,7 @@
 	</div></td>
 </tr>
 <tr>
-	<td colspan="2" valign="top" align="right"><img src="../images/mhd_reg_logo.gif" width="250" height="69" alt="Bank of America" border="0" /></td>
+	<td colspan="2" height="100%" align="right" valign="bottom" style="vertical-align : bottom; padding-bottom : 15px;"><img src="../images/bac_logo_smallpop.gif" alt="Bank of America" border="0" /></td>
 </tr>
 </table>
 </body>

@@ -57,7 +57,7 @@ function city_help(e)
 		if (e.pageX || e.pageY) { x = e.pageX; y = e.pageY; }
 		else if (e.clientX || e.clientY) { x = e.clientX + document.body.scrollLeft + document.documentElement.scrollLeft; y = e.clientY + document.body.scrollTop + document.documentElement.scrollTop; }
 	}
-	var w = 400, h = 450;
+	var w = 625, h = 346;
 	if( ( he_lp = $("help") ) && ( ihe_lp = $("ihelp") ) )
 	{
 		if ( he_lp.style.display == "block" )
@@ -77,14 +77,23 @@ function city_help(e)
 			ihe_lp.style.height = h+"px";
 			he_lp.style.width = w+"px";
 			he_lp.style.height = h+"px";
-			if ( x > ( getWindowWidth() - w ) ) { x = getWindowWidth() - w - 6; }
+			var ww = getWindowWidth();
+			if ( x > ( ww - w ) ) { if ( ww - w - 6 < 0) x = 0; else x = ww - w - 6; }
 			he_lp.style.left = x +"px"; //he_lp.style.left = ( ( getWindowWidth() - w ) / 2 ) +"px";
 			y = y + 12;
-			if ( y > ( getWindowHeight() - h ) ) { if ( y > ( h + 24 ) ) y = y - h - 24; else y = y - h/2 - 24; }
+			var wh = getWindowHeight();
+			if ( y > ( wh - h ) ) { if ( y > ( h + 24 ) ) y = y - h - 24; else y = 0; }
 			he_lp.style.top = y +"px"; //he_lp.style.top = ( ( getWindowHeight() - h ) / 2 - 26 ) +"px";
 			he_lp.style.display = "block";
 		}
 	}
+}
+
+var helpp = false;
+function help_popup(width,height)
+{
+	if ( !helpp || helpp.closed ) helpp = openWindow("../overview/chelp.html","helpp",width,height,0,0,0,"auto",0,0,0,0,true,0);
+	else if ( helpp ) helpp.close();
 }
 
 function startPs()
@@ -97,8 +106,8 @@ function startPs()
 		}
 	}
 	
-	if ( $("hdh") ) addListener( $("hdh"), "click", function(e){ city_help(e); } );
 	if ( $("lmh") ) addListener( $("lmh"), "click", function(e){ city_help(e); } );
+	if ( $("hdh") ) addListener( $("hdh"), "click", function(e){ help_popup(625,346); /*city_help(e);*/ } );
 	
 	if ( document.jsearch && document.jsearch.countryid )
 	{

@@ -164,7 +164,7 @@ Bank of Opportunity.
 				<td width="378" height="100%" valign="top" style="padding: 12px 0px 0px 0px;">
 <% jwidth = 378
 style = "margin: 0px;"
-help_same_line = true %>
+overview_page = true %>
 <!-- #include file="../jobsearch.asp" -->
 					<table width="378" style="margin: 0px 0px 90px 0px;" cellpadding="0" cellspacing="0" border="0" summary="">
 						<tr>
