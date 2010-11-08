@@ -9,9 +9,9 @@
                 <p class="link-header">Use the buttons below to further explore our company and opportunities.</p>
                 
                  <div id="icon-home-buttons">
-				<a href="campus-EMEA-opportunities.aspx"><img src="images/campus/btn-search-jobs.jpg" width="46" height="47" alt="Explore a world of career opportunities. Link opens in new window." /></a>
-                <a href="campus-EMEA-graduate-profiles.aspx"><img src="images/campus/btn-meet-people.jpg" width="46" height="46" alt="Meet our people. Link opens in new window." /></a>
-                <a href="http://twitter.com/BofA_Careers" target="_blank"><img src="images/campus/btn-twitter.jpg" width="46" height="46" alt="Twitter. Link opens in new window." /></a>
+				<a href="campus-EMEA-opportunities.aspx"><img src="images/campus/btn-search-jobs.jpg" width="46" height="47" alt="Explore a world of career opportunities. Link opens a new window." /></a>
+                <a href="campus-EMEA-graduate-profiles.aspx"><img src="images/campus/btn-meet-people.jpg" width="46" height="46" alt="Meet our people. Link opens a new window." /></a>
+                <a href="http://twitter.com/BofA_Careers" target="_blank"><img src="images/campus/btn-twitter.jpg" width="46" height="46" alt="Twitter. Link opens a new window." /></a>
 				</div>
 			
  				<p class="footnote-content">Set opportunity in motion.</p>
