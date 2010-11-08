@@ -106,7 +106,7 @@ function startPs()
 		}
 	}
 	
-	if ( $("lmh") ) addListener( $("lmh"), "click", function(e){ city_help(e); } );
+	if ( $("lmh") ) addListener( $("lmh"), "click", function(e){ help_popup(625,346); /*city_help(e);*/ } );
 	if ( $("hdh") ) addListener( $("hdh"), "click", function(e){ help_popup(625,346); /*city_help(e);*/ } );
 	
 	if ( document.jsearch && document.jsearch.countryid )
