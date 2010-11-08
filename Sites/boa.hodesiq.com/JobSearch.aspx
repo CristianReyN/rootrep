@@ -59,9 +59,10 @@
 								
 								<asp:HiddenField ID="Statehidden" runat="server" Value=""  />
 							</td>					
+							</td>					
 							<td  valign="top" style="width:48%; height:45;">
-							    <asp:Label ID="lblCity" runat="server" Text="City" Visible="true" AssociatedControlID="City"></asp:Label><asp:HyperLink runat="server"  NavigateUrl="#" ID="HylCityNote" Text="How do I use the city search?" Visible="true" AssociatedControlID="City" style="text-align:right;width:80%;"></asp:HyperLink><br />
-								<asp:DropDownList ID="City" runat="server" CssClass="left" Style="width: 90%; z-index: auto;"
+							    <asp:Label ID="lblCity" runat="server" Text="City" Visible="true" AssociatedControlID="Ci7ty"></asp:Label></br><asp:HyperLink runat="server"  NavigateUrl="#"   Target="_blank" onclick="javascript:w= window.open('overview/chelp.html','mywin','left=200px,top=180px,width=625,height=345,resizable=0');return false;" ID="HylCityNote" Text="How do I use the city search?"  Font-Bold="true" Visible="true" AssociatedControlID="City" CssClass="p"  ></asp:HyperLink><br />
+                            	<asp:DropDownList ID="City" runat="server" CssClass="left" Style="width: 90%; z-index: auto;"
 								ToolTip="Select a city" Visible="true" Enabled="false">
 								<asp:ListItem>All cities&#160;</asp:ListItem>
 								</asp:DropDownList>								
