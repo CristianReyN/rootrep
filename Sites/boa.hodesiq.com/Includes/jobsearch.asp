@@ -127,7 +127,7 @@ function changeCity()
 						</tr>
 						<tr style="<%=display%>">
 							<td width="<%=jwdt%>" nowrap style="padding: 0px 0px 0px 0px;">
-<label for="cityid" class="p" style="margin: 0px;"><b>City</b></label><%If Request("countryid") =1 Then %><div<%If overview_page Then %> style="float : right;"<% End If %>><a href="Javascript: void(0);" id="hdh" class="p"><b>How do I use the city search?</b></a></div><%If overview_page Then %><br><% End If %><% End If %>
+<label for="cityid" class="p" style="margin: 0px;<%If overview_page Then %>  float : left;<% End If %>"><b>City</b></label><%If Request("countryid") =1 Then %><div<%If overview_page Then %> style="float : right;"<% End If %>><a href="Javascript: void(0);" id="hdh" class="p"><b>How do I use the city search?</b></a></div><%If overview_page Then %><br><% End If %><% End If %>
 <%If disable_city <> "" Then %><div style="position: absolute; height: 2.0em; width: <%=jwdt%>px; z-index: 100;" onclick="changeCity();">&nbsp;</div><% End If %>
 <div id="L103" style="position: relative; z-index: 12;">
 <% 
