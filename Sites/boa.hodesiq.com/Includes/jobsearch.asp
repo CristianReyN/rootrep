@@ -97,7 +97,7 @@ function changeCity()
 							<td style="padding: 0px 0px 0px 0px;">
 
 <%If Request("countryid") =1 Then %>
-<p style="margin: 0px;">Begin your career search by selecting a country.  You may then narrow your search further, by entering additional search criteria or keywords.<%If show_add_message Then %><br><%If Not overview_page Then %><b><% End If %>Note:<%If Not overview_page Then %></b><% End If %> City search options are limited to areas with current available job opportunities, which change constantly. Results are specific to the single city you select, and do not include results for nearby locations. <a href="Javascript: void(0);" id="lmh" class="p">Learn more</a><% End If %></p>
+<p style="margin: 0px;">Begin your career search by selecting a country.  You may then narrow your search further, by entering additional search criteria or keywords.<%If show_add_message Then %><br><%If Not overview_page Then %><% End If %>Note:<%If Not overview_page Then %><% End If %> City search options are limited to areas with current available job opportunities, which change constantly. Results are specific to the single city you select, and do not include results for nearby locations. <a href="Javascript: void(0);" id="lmh" class="p">Learn more</a><% End If %></p>
 <%Else %>
 <p style="margin: 0px;">To find a career suited to your skill set, begin by selecting a country from the list below. Then you may narrow your selection further by choosing additional search criteria and/or entering keywords.<%If show_add_message Then %><br><b>Please note:</b> City search results are for that city only. Please search individually for all cities within your desired geographic area.<% End If %></p>
 <%End If %>
@@ -127,7 +127,7 @@ function changeCity()
 						</tr>
 						<tr style="<%=display%>">
 							<td width="<%=jwdt%>" nowrap style="padding: 0px 0px 0px 0px;">
-<label for="cityid" class="p" style="margin: 0px;"><b>City</b></label><%If Request("countryid") =1 Then %><div<%If overview_page Then %> style="float : right;"<% End If %>><a href="Javascript: void(0);" id="hdh" class="p"><b>How do I use the city search?</b></a></div><%If overview_page Then %><br><% End If %><% End If %>
+<label for="cityid" class="p" style="margin: 0px;"><b>City</b></label><%If Request("countryid") =1 Then %><div<%If overview_page Then %> style="float : right;"<% End If %>><a href="Javascript: void('../overview/chelp.html');" id="hdh" class="p"><b>How do I use the city search?</b></a></div><%If overview_page Then %><br><% End If %><% End If %>
 <%If disable_city <> "" Then %><div style="position: absolute; height: 2.0em; width: <%=jwdt%>px; z-index: 100;" onclick="changeCity();">&nbsp;</div><% End If %>
 <div id="L103" style="position: relative; z-index: 12;">
 <% 

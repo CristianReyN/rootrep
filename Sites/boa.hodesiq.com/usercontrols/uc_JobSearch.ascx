@@ -34,7 +34,7 @@
                                 &nbsp;&nbsp;<a href="http://ig12.i-grasp.com/fe/tpl_bankofamerica06.asp" target="_blank" class="p" onfocus="this.className='p-over';" onblur="this.className='p';" style="margin: 0px 0px 0px 0px;" >Search and apply<span class="hidden">Search and apply for jobs in Canada. Link opens a new window.</span></a> for jobs in &nbsp;&nbsp;Canada.</asp:Panel>
 							
 							        <asp:Panel ID="PnlFilter" runat="server">
-							        <table width="190" border="0" align="center" cellpadding="0" cellspacing="0" summary="Guided Job Search">							
+							        <table width="192" border="0" align="center" cellpadding="0" cellspacing="0" summary="Guided Job Search">							
 							        <tr id="trInternationalLocation" runat="server"  visible="false">							
 							            <td valign="top" style="width:50%;height:38;">
 							                <asp:Label ID="LblInternationalCity" runat="server" Text="City" Visible="true" AssociatedControlID="InternationalCity"></asp:Label><br />
@@ -60,7 +60,7 @@
 							            </td></tr>							 
 							            <tr  id="trCity" runat="server" >
 							            <td  valign="top" style="width:50%;height:38;">
-							                <asp:Label ID="lblCity" runat="server" Text="City" Visible="true" AssociatedControlID="City"></asp:Label><br /><asp:HyperLink runat="server"  NavigateUrl="#" ID="HylCityNote" Text="How do I use the city search?" Visible="true" AssociatedControlID="City" style="text-align:right;"></asp:HyperLink><br />
+							                <asp:Label ID="lblCity" runat="server" Text="City" Visible="true" AssociatedControlID="City"></asp:Label><br /><asp:HyperLink runat="server"  NavigateUrl="#"   Target="_blank" onclick="javascript:w= window.open('overview/chelp.html','mywin','left=200px,top=180px,width=625,height=345,toolbar=0,resizable=0');return false;" ID="HylCityNote" Text="How do I use the city search?"  Font-Bold="true" Visible="true" AssociatedControlID="City" CssClass="p"  ></asp:HyperLink><br />
 								            <asp:DropDownList ID="City" runat="server" CssClass="left" Style="width: 100%; z-index: auto;"
 								            ToolTip="Select a city" Visible="true"  Enabled="false">
 								            <asp:ListItem>All cities&#160;</asp:ListItem>
