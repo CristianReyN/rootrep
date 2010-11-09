@@ -78,7 +78,7 @@
                                      <%string pagename = System.IO.Path.GetFileName(Request.ServerVariables ["SCRIPT_NAME"]);%>
 <% if ((pagename.IndexOf("asia_pacific.aspx") > -1) || (pagename.IndexOf("emea.aspx") > -1) || (pagename.IndexOf("ada_emea.aspx") > -1) || (pagename.IndexOf("emea_lob.aspx") > -1) || (pagename.IndexOf("emea_europe_card_services.aspx") > -1) || (pagename.IndexOf("emea_europe_card_services_teams.aspx") > -1) || (pagename.IndexOf("emea_benefits.aspx") > -1) || (pagename.IndexOf("emea_culture.aspx") > -1) || (pagename.IndexOf("emea_staffing.aspx") > -1) || (pagename.IndexOf("asia.aspx") > -1) || (pagename.IndexOf("ada_asia.aspx") > -1) || (pagename.IndexOf("asia_lob.aspx") > -1) || (pagename.IndexOf("asia_benefits.aspx") > -1) || (pagename.IndexOf("asia_culture.aspx") > -1) || (pagename.IndexOf("asia_staffing.aspx") > -1))  
 { %> 
-  <a href="http://www.bankofamerica.com/" title="Bank of America home"><img  id="ImgHeaderLogo" runat="server" src="images/BACMER_Signature_BLACK.gif" width="250" height="69" alt="Bank of America home" border="0" /></a>
+  <a href="http://www.bankofamerica.com/" title="Bank of America home"><img  id="ImgHeaderLogo" runat="server" src="images/BACMER_Signature_BLACK.gif" width="250" height="69" alt="Bank of America Merrill Lynch" border="0" /></a>
 <%
 }
 else

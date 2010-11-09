@@ -26,6 +26,6 @@ public partial class asia_staffing : System.Web.UI.Page
 
              HtmlImage Img = (HtmlImage)Page.Master.FindControl("ImgHeaderLogo");
              Img.Src = "images/BACMER_Signature_BLACK.gif";
-         Img.Alt = "Bank of America Merrill Lynch";
+             Img.Alt = "Bank of America Merrill Lynch";
     }
 }
