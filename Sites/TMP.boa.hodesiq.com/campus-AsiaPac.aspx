@@ -13,7 +13,7 @@
                  <div id="icon-home-buttons">
 				<a href="campus-AsiaPac-explore-careers.aspx"><img src="images/campus/btn-search-jobs.jpg" width="46" height="47" alt="Explore a world of career opportunities." /></a>
                 <a href="campus-AsiaPac-meet-our-people.aspx"><img src="images/campus/btn-meet-people.jpg" width="46" height="46" alt="Meet our people." /></a>
-                <a href="http://twitter.com/BofA_Careers" target="_blank"><img src="images/campus/btn-twitter.jpg" width="46" height="46" alt="Twitter. Link opens a new window." /><span class="hidden">Twitter link: Link opens a new window.</span></a>
+                <a href="http://twitter.com/BofA_Careers" target="_blank"><img src="images/campus/btn-twitter.jpg" width="46" height="46" alt="Twitter. Link opens a new window." /><span class="hidden"> Link opens a new window.</span></a>
 				</div>
  
  				<p class="footnote-content">Set opportunity in motion.</p>
