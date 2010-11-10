@@ -10,8 +10,9 @@
 				<%if page_section <> "ADA" Then %>
 					<%if CInt(countryid) > 0 Then %>
 						<!-- #include file="../regions.asp" -->
-						<% image = getImage(  countryid, "" )%>
-						<img src="<%=image%>" alt="" border="0">
+						<% Dim a_l_t
+							image = getImage(  countryid, "", a_l_t )%>
+						<img name="region" id="region" src="<%=image%>" alt="<%=a_l_t%>" border="0">
 					<%Else%>
 <script language="JavaScript1.2" src="../includes/flash.js" type="text/javascript"></script>
 <script language="JavaScript1.2" type="text/javascript">

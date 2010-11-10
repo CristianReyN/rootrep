@@ -12,8 +12,9 @@
 	
 	Dim regions
 	
-	Function getImage(  i_d, na_me )
+	Function getImage(  i_d, na_me, a_l_t )
 		getImage = "../images/overview/region-usa.jpg"
+		a_l_t = ""
 		image = ""
 		If isObject(regions) Then
 		region_numbers = regions.Keys
@@ -28,10 +29,16 @@
 								country_number = country_numbers(c)
 								Set country = region.Item("countries").Item(country_number)
 								If country.Exists("ID") Then
-									If country.Item("ID") = i_d Then image = region.Item("image")
+									If country.Item("ID") = i_d Then
+										image = region.Item("image")
+										a_l_t = region.Item("a_l_t")
+									End If
 								End If
 								If image = "" And country.Exists("name") Then
-									If country.Item("name") = na_me Then image = region.Item("image")
+									If country.Item("name") = na_me Then
+										image = region.Item("image")
+										a_l_t = region.Item("a_l_t")
+									End If
 								End If
 							Next 
 						End If
@@ -55,6 +62,7 @@ Set regions  = Server.CreateObject("Scripting.Dictionary")
 	Set region  = Server.CreateObject("Scripting.Dictionary") 'region ID = 1
 		region.add "title", "United States"
 		region.add "image", "../images/overview/region-usa.jpg"
+		region.add "a_l_t", "United States"
 			Set countries  = Server.CreateObject("Scripting.Dictionary")
 				Set country  = Server.CreateObject("Scripting.Dictionary")
 				country.add "ID", "1"
@@ -77,6 +85,7 @@ regions.add region_number, region
 	Set region  = Server.CreateObject("Scripting.Dictionary") 'region ID = 2
 		region.add "title", "Costa Rica"
 		region.add "image", "../images/overview/region-costarica.jpg"
+		region.add "a_l_t", "Costa Rica"
 			Set countries  = Server.CreateObject("Scripting.Dictionary")
 				Set country  = Server.CreateObject("Scripting.Dictionary")
 				country.add "ID", "5"
@@ -344,6 +353,7 @@ regions.add region_number, region
 	Set region  = Server.CreateObject("Scripting.Dictionary") 'region ID = 3
 		region.add "title", "Canada"
 		region.add "image", "../images/overview/region-canada.jpg"
+		region.add "a_l_t", "Canada"
 			Set countries  = Server.CreateObject("Scripting.Dictionary")
 				Set country  = Server.CreateObject("Scripting.Dictionary")
 				country.add "ID", "2"
@@ -366,6 +376,7 @@ regions.add region_number, region
 	Set region  = Server.CreateObject("Scripting.Dictionary") 'region ID = 4
 		region.add "title", "Asia Pacific"
 		region.add "image", "../images/overview/region-apac.jpg"
+		region.add "a_l_t", "Asia Pacific"
 			Set countries  = Server.CreateObject("Scripting.Dictionary")
 				Set country  = Server.CreateObject("Scripting.Dictionary")
 				country.add "ID", "3"
@@ -740,6 +751,7 @@ regions.add region_number, region
 	Set region  = Server.CreateObject("Scripting.Dictionary") 'region ID = 5
 		region.add "title", "Europe, Middle East and Africa"
 		region.add "image", "../images/overview/region-emea.jpg"
+		region.add "a_l_t", "EMEA. Europe, Middle East and Africa"
 			Set countries  = Server.CreateObject("Scripting.Dictionary")
 				Set country  = Server.CreateObject("Scripting.Dictionary")
 				country.add "ID", "6"
