@@ -83,6 +83,9 @@
 <%
 	Function JSearchNav(id,ul,li)
 %>			<ul<% Response.Write id %><% Response.Write ul %>>
+                    <li<% if spage = "Bank_of_America_Merchant" then Response.Write " style=""background: #eaf1f7;""" end if %>>
+<div><a href="https://bacfhrs.taleo.net/careersection/10200/joblist.ftl?lang=en " class="sbtxt" title="Applicants with Disabilities" onfocus="this.className='sbtxt-over';" onblur="this.className='sbtxt';">Bank of America Merchant<br> Services, LLC </a></div>
+				</li>
 				<li<% if spage = "appl_with_disabilities" then Response.Write " style=""background: #eaf1f7;""" end if %>>
 <div><a href="../appl_with_disabilities.aspx" class="sbtxt" title="Applicants with Disabilities" onfocus="this.className='sbtxt-over';" onblur="this.className='sbtxt';">Applicants with<br>Disabilities</a></div>
 				</li>

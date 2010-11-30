@@ -163,7 +163,7 @@
 						<tr><td colspan="2">&nbsp;</td></tr>
 					</table><br />
 					<div style="text-align: left; margin: 11px 0px 0px 0px; padding: 0px;">
-	<a href="http://twitter.com/BofA_Careers" title="Stay connected to Careers on twitter @BofA_Careers.  Link opens a new window." target="_blank"><img src="../images/Twitter-Ad-for-Careers_03.gif" width="187" height="105" alt="Stay connected to Careers on twitter @BofA_Careers.  Link opens a new window." border="0" align="top"></a><br clear="all">
+	<a href="http://twitter.com/BofA_Careers" title="Stay connected to Careers on twitter @BofA_Careers.  Link opens a new window." target="_blank"><img src="../images/Twitter-Ad-for-Careers_03.gif" width="187" height="105" alt="Stay connected to Careers on twitter @BofA_Careers.  Link opens a new window." border="0" align="top"></a> &nbsp;<a href="https://bacfhrs.taleo.net/careersection/10200/joblist.ftl?lang=en"><img src="../images/BOA_MerchantJobSearch-1.jpg" width="179" height="66" alt="Search for jobs within Bank of America Services, LLC.  Link opens a new window." border="0" align="top"></a><br clear="all">
 </div>
 					<br /><br />
 					<asp:Panel ID="PnlUSJobsContent" runat="server">					
