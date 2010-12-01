@@ -34,7 +34,7 @@
                     <li><a href="campusrecruiting/cais-global-research-summer-associate-program.asp">Global 
                       Research Summer Associate Program (Canada)</a></li>
                   </ul>
-                  <h2 class="questions">Global Commercial Banking</h2>
+                  <h2 class="questions">Global Human Resources</h2>
                   <ul>
                     <li><a href="campusrecruiting/usis-human-resources-development-intern-program.asp">Human 
                       Resources Development Intern Program</a></li>
