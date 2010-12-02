@@ -1,15 +1,16 @@
   <%@ Page AutoEventWireup="true" CodeFile="JobSearch.aspx.cs" Inherits="JobSearch"
       Language="C#" MasterPageFile="~/BOAmaster.master" ValidateRequest="false" EnableEventValidation="false" %>
 
-<asp:Content ID="Content1" runat="Server" ContentPlaceHolderID="cphmain">   
-	<h1 style="margin: 0px 0px 0px 12px; ">Guided Job Search</h1>	
+<asp:Content ID="Content1" runat="Server" ContentPlaceHolderID="cphmain">  
+<table border="0" cellpadding="0" cellspacing="0" summary="" width="578"><tr><td valign="top"><h1 style="margin: 0px 0px 0px 12px; ">Guided Job Search</h1></td><td align="right"><div id="banc" runat="server"><a href="https://bacfhrs.taleo.net/careersection/10200/joblist.ftl?lang=en" title="Search for jobs within Banc of America Services, LLC.  Link opens a new window." target="_blank"><img src="../images/BOA_MerchantJobSearch-1.jpg" width="179" height="66" alt="Search for jobs within Banc of America Services, LLC." border="0" align="top"><span class="hidden">Link opens a new window.</span></a></div>	</td></tr> 
+	
         <span class='auraltext'>
          After you select a country from the country field, the page will refresh. For the United States, you can then pick a state.  After you select a state from the 'State" field, the page will refresh.  You will then be able to select a city from the 'City' field.  For all other countries, after you select a country other than the United States from the country field, the page will refresh and you can then select a city from the 'City' field.
         </span>
         <table border="0" cellpadding="0" cellspacing="0" summary="" width="578">
             <tr valign="top">
                 <td style="padding: 6px 12px 0px 12px; height: 100%" valign="top">
-					<table border="0" cellpadding="1" cellspacing="1" summary="" width="100%">
+					<table border="0" cellpadding="1" cellspacing="1" summary="" width="100%" >
                         <tr>
                             <td valign="top"  colspan="2"><asp:Label ID="tdInstructions" runat="server"></asp:Label></td>
                             </br>                         
@@ -163,7 +164,7 @@
 						<tr><td colspan="2">&nbsp;</td></tr>
 					</table><br />
 					<div style="text-align: left; margin: 11px 0px 0px 0px; padding: 0px;">
-	<a href="http://twitter.com/BofA_Careers" title="Stay connected to Careers on twitter @BofA_Careers.  Link opens a new window." target="_blank"><img src="../images/Twitter-Ad-for-Careers_03.gif" width="187" height="105" alt="Stay connected to Careers on twitter @BofA_Careers.  Link opens a new window." border="0" align="top"></a> &nbsp;<a href="https://bacfhrs.taleo.net/careersection/10200/joblist.ftl?lang=en" title="Search for jobs within Banc of America Services, LLC.  Link opens a new window."><img src="../images/BOA_MerchantJobSearch-1.jpg" width="179" height="66" alt="Search for jobs within Banc of America Services, LLC.  Link opens a new window." border="0" align="top"><span class="hidden">Link opens a new window.</span></a><br clear="all">
+	<a href="http://twitter.com/BofA_Careers" title="Stay connected to Careers on twitter @BofA_Careers.  Link opens a new window." target="_blank"><img src="../images/Twitter-Ad-for-Careers_03.gif" width="187" height="105" alt="Stay connected to Careers on twitter @BofA_Careers.  Link opens a new window." border="0" align="top"></a> <br clear="all">
 </div>
 					<br /><br />
 					<asp:Panel ID="PnlUSJobsContent" runat="server">					

@@ -95,6 +95,7 @@ public partial class JobSearch : System.Web.UI.Page
             PnlUSJobsContent.Visible = true;
             PnlCanada.Visible = false;
             tdInstructions.Text = USOnlyInstructions;
+            banc.Visible = true;
         }
         else if (Country.SelectedValue == Location.CANADA && DisplayCanadaJobs.ToLower() == "false")
         {
@@ -105,11 +106,13 @@ public partial class JobSearch : System.Web.UI.Page
             BtnBegin.Visible = false;
             BtnSearch.Visible = false;
             tdInstructions.Text = Instructions;
+            banc.Visible = false;
         }
         else
         {
             PnlUSJobsContent.Visible = false;
             PnlCanada.Visible = false;
+            banc.Visible = false;
            
             tdInstructions.Text = Instructions;
             
