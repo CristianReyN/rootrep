@@ -28,6 +28,8 @@ public partial class JobDetails : System.Web.UI.Page
  
 	private string targetpage = string.Empty;
 
+   
+
     protected void Page_Load(object sender, EventArgs e)
     {
 		targetpage = ConfigurationManager.AppSettings["targetpage"];
@@ -50,7 +52,7 @@ public partial class JobDetails : System.Web.UI.Page
 			strJobID = dt.Rows[0]["JobsId"].ToString();
 
             lblDescripton.Text = LinkBuilder(dt.Rows[0]["Description"].ToString(), "Description");
-			lblJobTitle.InnerText = dt.Rows[0]["JobTitle"].ToString() + " : " + dt.Rows[0]["JobsId"].ToString();
+			lblJobTitle.InnerText = dt.Rows[0]["JobTitle"].ToString() + " : " + dt.Rows[0]["JobsId"].ToString();            
 			lblLocation.Text = dt.Rows[0]["Location"].ToString();
 			lblLocationFooter.Text = dt.Rows[0]["Location"].ToString();
 			lblPartTimeFullTime.Text = dt.Rows[0]["FullPartTime"].ToString();
@@ -119,8 +121,7 @@ public partial class JobDetails : System.Web.UI.Page
                 }
             }
 
-        }
-
+        }       
     }
 
     protected void Page_PreRender(object sender, EventArgs e)
@@ -155,6 +156,8 @@ public partial class JobDetails : System.Web.UI.Page
             case  "BOAFEEDUSA"          : BOAFeedUSA.Visible = true;break;
             default                     : break;        
         }
+
+        Page.Title = Master.PageTitle + " | " + lblJobTitle.InnerText;
     }
 
     protected void Apply_Click(object sender, EventArgs e)
