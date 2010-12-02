@@ -49,7 +49,7 @@
 </div>
 		</li>
 		<li<%If mpage = "bams" then Response.Write " style=""background: #eaf1f7;""" end if %>>
-<div><a class="g" href="../learnmore/bams.asp" title="Banc of America Merchant Services, LLC" onfocus="this.className='g-over';" onblur="this.className='g';">Banc&nbsp;of&nbsp;America Merchant Services, LLC</a></div>
+<div><a class="g" href="../learnmore/bams.asp" title="Banc of America Merchant Services, LLC" onfocus="this.className='g-over';" onblur="this.className='g';">Banc&nbsp;of&nbsp;America Merchant Services, LLC Job Search</a></div>
 		</li>
 		<li id="locli"<%If mpage = "locations" Then %><%If spage = "" Then %> class="home"<%Else%> style="padding-bottom:0px;"<%End if %><%End if %>>
 <div<%If mpage = "locations" Then%> style="padding-right: 0px;"<%End If%>><a class="g" href="../locations/" id="loclia" title="Locations" onfocus="this.className='g-over';" onblur="this.className='g';">Locations</a>
