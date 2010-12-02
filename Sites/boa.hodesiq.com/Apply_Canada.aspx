@@ -1,4 +1,4 @@
-<%@ Page Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" EnableEventValidation="false" EnableViewStateMac="false" CodeFile="Apply_Canada.aspx.cs" Inherits="Apply_Canada" Title="Bank of America | Careers | Locations |Canada" %>
+<%@ Page Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" EnableEventValidation="false" EnableViewStateMac="false" CodeFile="Apply_Canada.aspx.cs" Inherits="Apply_Canada"  %>
 
 <asp:Content ID="Image" ContentPlaceHolderID="Image" Runat="Server">
 <img src="images/global-careers-canada_II.jpg" width="578" height="166" alt="Explore a career with the Bank of Opportunity." title="Explore a career with the Bank of Opportunity." border="0" />

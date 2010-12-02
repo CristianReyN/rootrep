@@ -1,5 +1,5 @@
 <%@ Page Language="C#" MasterPageFile="~/MasterPage_French.master" AutoEventWireup="true"
-    CodeFile="fr_canada.aspx.cs" Inherits="fr_canada" Title="Untitled Page" %>
+    CodeFile="fr_canada.aspx.cs" Inherits="fr_canada"  %>
 
 <asp:Content ID="Image" ContentPlaceHolderID="Image" runat="Server">
     <img src="images/Banners_Canada_Landing_page.jpg" width="578" height="166" alt="Explorez la possibilité de faire carrière dans une Banque de possibilités  "

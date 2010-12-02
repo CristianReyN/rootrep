@@ -1,5 +1,5 @@
 <%@ Page Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true"
-    CodeFile="canada.aspx.cs" Inherits="canada" Title="Bank of America | Careers | Locations |Canada" %>
+    CodeFile="canada.aspx.cs" Inherits="canada"  %>
 
 
 

@@ -1,5 +1,5 @@
 <%@ Page Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true"
-    CodeFile="canada_lob.aspx.cs" Inherits="canada_lob" Title="Bank of America | Careers | Locations |Canada | Lines of Business" %>
+    CodeFile="canada_lob.aspx.cs" Inherits="canada_lob"  %>
 
 
 <asp:Content ID="Image" ContentPlaceHolderID="Image" runat="Server">

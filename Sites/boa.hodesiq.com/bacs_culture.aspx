@@ -1,7 +1,6 @@
 <%@ Page Language="C#" MasterPageFile="~/MasterPage.master" EnableEventValidation="false"
     AutoEventWireup="true" CodeFile="bacs_culture.aspx.cs" Inherits="bacs_culture"
-    Title="Bank of America | Careers | Locations |BA Continuum | Culture" %>
-
+     %>
 
 <asp:Content ID="Image" ContentPlaceHolderID="Image" runat="Server">
     <img src="images/global-careers-asia-IV.jpg" width="578" height="166" alt="Explore a career with the Bank of Opportunity."

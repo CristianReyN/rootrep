@@ -1,4 +1,4 @@
-<%@ Page Language="C#" AutoEventWireup="true" CodeFile="appl_with_disabilities.aspx.cs" Inherits="appl_with_disabilities" MasterPageFile="~/BOAmaster.master" Title="Search Page" %>
+<%@ Page Language="C#" AutoEventWireup="true" CodeFile="appl_with_disabilities.aspx.cs" Inherits="appl_with_disabilities" MasterPageFile="~/BOAmaster.master" ValidateRequest="false" EnableEventValidation="false"  %>
 
 <asp:Content ID="Content1" Runat="Server" ContentPlaceHolderID="cphmain">
 <h1 style="margin: 0px 0px 0px 12px; ">Applicants with Disabilities</h1><br />

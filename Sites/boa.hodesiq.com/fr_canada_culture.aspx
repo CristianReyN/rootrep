@@ -1,4 +1,4 @@
-<%@ Page Language="C#" MasterPageFile="~/MasterPage_French.master" AutoEventWireup="true" CodeFile="fr_canada_culture.aspx.cs" Inherits="fr_canada_culture" Title="Untitled Page" %>
+<%@ Page Language="C#" MasterPageFile="~/MasterPage_French.master" AutoEventWireup="true" CodeFile="fr_canada_culture.aspx.cs" Inherits="fr_canada_culture"  %>
 
 <asp:Content ID="Image" ContentPlaceHolderID="Image" Runat="Server">
 <img src="images/Banners_Canada_Culture.jpg" width="578" height="166" alt="Explorez la possibilité de faire carrière dans une Banque de possibilités  " title="Explorez la possibilité de faire carrière dans une Banque de possibilités  " border="0">

@@ -14,16 +14,8 @@ public partial class bacs_culture : System.Web.UI.Page
     protected void Page_Load(object sender, EventArgs e)
     {
         Session["tonlyLabel"] = "Global Careers BA Continuum Culture, Text Only Version";
-        Session["href"] = "../ada/bacs_culture.aspx";
-        Page.Title = "Bank of America | Careers | Locations |BA Continuum | Culture";
-		
-		
+        Session["href"] = "../ada/bacs_culture.aspx";        				
 		Session["Ntonly"] = "";
-
-        HtmlMeta theMetaTag = new HtmlMeta();
-        theMetaTag.Attributes.Add("name", "Description");
-        theMetaTag.Attributes.Add("content", "BA Continuum Culture in Asia overview for the Global Careers site. This page details the non-bank subsidiary's culture of excellence, offers testimonials and allows search for open international jobs.");
-        Page.Header.Controls.Add(theMetaTag);
 
     }
 }

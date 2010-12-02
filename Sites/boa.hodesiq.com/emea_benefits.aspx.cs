@@ -15,14 +15,8 @@ public partial class emea_benefits : System.Web.UI.Page
     {
 
         Session["tonlyLabel"] = "Global Careers Europe Benefits, Text Only Version";
-        Session["href"] = "../ada/emea_benefits.aspx";
-        Page.Title = "Bank of America | Careers | Locations |Europe | Benefits";
-		
-		
+        Session["href"] = "../ada/emea_benefits.aspx";        				
 		Session["Ntonly"] = "";
-        HtmlMeta theMetaTag = new HtmlMeta();
-        theMetaTag.Attributes.Add("name", "Description");
-        theMetaTag.Attributes.Add("content", "EMEA region Benefits Overview page for the Global Careers site. This page details financial, health & lifestyle benefits for the Bank's EMEA employees, and allows search for open international jobs.");
-        Page.Header.Controls.Add(theMetaTag);
+
     }
 }

@@ -1,6 +1,6 @@
 <%@ Page Language="C#" MasterPageFile="~/MasterPage.master" EnableEventValidation="false"
     AutoEventWireup="true" CodeFile="canada_benefits.aspx.cs" Inherits="canada_benefits"
-    Title="Bank of America | Careers | Locations |Canada | Benefits" %>
+     %>
 
 
 <asp:Content ID="Image" ContentPlaceHolderID="Image" runat="Server">

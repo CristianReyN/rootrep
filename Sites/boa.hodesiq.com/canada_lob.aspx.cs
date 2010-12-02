@@ -14,14 +14,8 @@ public partial class canada_lob : System.Web.UI.Page
     protected void Page_Load(object sender, EventArgs e)
     {
         Session["tonlyLabel"] = "Global Careers Canada Lines of Business, Text Only Version";
-        Session["href"] = "../ada/canada_lob.aspx";
-        Page.Title = "Bank of America | Careers | Locations |Canada | Lines of Business";
-		
+        Session["href"] = "../ada/canada_lob.aspx";        		
 		Session["Ntonly"] = "";
 
-        HtmlMeta theMetaTag = new HtmlMeta();
-        theMetaTag.Attributes.Add("name", "Description");
-        theMetaTag.Attributes.Add("content", "Lines of Business in Canada Overview for the Global Careers site. This page describes the many operational units of the Bank's financial business and allows search for open international jobs.");
-        Page.Header.Controls.Add(theMetaTag);
     }
 }

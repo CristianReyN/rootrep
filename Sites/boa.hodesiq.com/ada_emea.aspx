@@ -1,5 +1,5 @@
 <%@ Page Language="C#" MasterPageFile="~/MasterPage.master" EnableEventValidation="false"
-    AutoEventWireup="true" CodeFile="emea.aspx.cs" Inherits="emea" Title="Bank of America | Careers | Locations |Canada | Staffing" %>
+    AutoEventWireup="true" CodeFile="emea.aspx.cs" Inherits="emea"  %>
 
 <asp:Content ID="Image" ContentPlaceHolderID="Image" runat="Server">
     <img src="images/global-careers-emea_I.jpg" width="578" height="166" alt="Explore a career with the Bank of Opportunity."

@@ -1,5 +1,5 @@
 <%@ Page AutoEventWireup="true" CodeFile="Tell_a_friend.aspx.cs" Inherits="Tell_a_friend"
-    Language="C#" MasterPageFile="~/BOAmaster.master" Title="Tell a Friend Page" %>
+    Language="C#" MasterPageFile="~/BOAmaster.master" ValidateRequest="false" EnableEventValidation="false" Title="Tell a Friend Page" %>
 
 <asp:Content ID="Content1" runat="Server" ContentPlaceHolderID="cphmain">
 <h1 style="margin: 0px 0px 0px 12px; ">Send this job to a friend </h1>

@@ -13,18 +13,9 @@ public partial class asia_culture : System.Web.UI.Page
 {
     protected void Page_Load(object sender, EventArgs e)
     {
-	    Session["href"] = "../ada/bana_culture.aspx";
-	    Page.Title = "Bank of America | Careers | Locations |Bank of America in Asia | Culture";
+	    Session["href"] = "../ada/bana_culture.aspx";	    
         Session["tonlyLabel"] = "Global Careers Bank of America in Asia Culture, Text Only Version";
         Session["leftnavswap"] = "Asia";
-        Session["Ntonly"] = "";
-        HtmlMeta theMetaTag = new HtmlMeta();
-        theMetaTag.Attributes.Add("name", "Description");
-        theMetaTag.Attributes.Add("content", "Business Culture in Asia overview page of the Global Careers site. This page explains the Bank's unique culture/work environment in Asia, and allows job search for available international opportunities.");
-        Page.Header.Controls.Add(theMetaTag);
-
-        HtmlImage Img = (HtmlImage)Page.Master.FindControl("ImgHeaderLogo");
-        Img.Src = "images/BACMER_Signature_BLACK.gif";
-        Img.Alt = "Bank of America Merrill Lynch";
+        Session["Ntonly"] = "";           
     }
 }

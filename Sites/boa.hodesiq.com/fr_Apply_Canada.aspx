@@ -1,4 +1,4 @@
-<%@ Page Language="C#" MasterPageFile="~/MasterPage_French.master"  title="Bank of America | Carrières | Carrières globales | Canada" AutoEventWireup="true" CodeFile="fr_Apply_Canada.aspx.cs" Inherits="fr_Apply_Canada"  ValidateRequest="false" EnableEventValidation="false" ViewStateEncryptionMode="Never" EnableViewStateMac="false" %>
+<%@ Page Language="C#" MasterPageFile="~/MasterPage_French.master"  AutoEventWireup="true" CodeFile="fr_Apply_Canada.aspx.cs" Inherits="fr_Apply_Canada"  ValidateRequest="false" EnableEventValidation="false" ViewStateEncryptionMode="Never" EnableViewStateMac="false" %>
 
 
 

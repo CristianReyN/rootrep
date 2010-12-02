@@ -16,14 +16,7 @@ public partial class asia_lob : System.Web.UI.Page
 	    Session["href"] = "../ada/bana_lob.aspx";
         Session["tonlyLabel"] = "Global Careers Bank of America in Asia Line of Business, Text Only Version";
     	Session["Ntonly"] = "";
-        Session["leftnavswap"] = "Asia";
-        HtmlMeta theMetaTag = new HtmlMeta();
-        theMetaTag.Attributes.Add("name", "Description");
-        theMetaTag.Attributes.Add("content", "Lines of Business in Asia overview page of the Global Careers site. This page provides details of the Bank's specific business concentrations and allows job search for available international opportunities.");
-        Page.Header.Controls.Add(theMetaTag);
+        Session["leftnavswap"] = "Asia";   
 
-        HtmlImage Img = (HtmlImage)Page.Master.FindControl("ImgHeaderLogo");
-        Img.Src = "images/BACMER_Signature_BLACK.gif";
-        Img.Alt = "Bank of America Merrill Lynch";
     }
 }

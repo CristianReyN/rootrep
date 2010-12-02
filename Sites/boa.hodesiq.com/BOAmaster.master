@@ -1,11 +1,13 @@
-<%@ Master Language="C#" CodeFile="BOAmaster.master.CS"  Inherits="BOAmaster" %>
+<%@ Master Language="C#" CodeFile="BOAmaster.master.CS"  Inherits="BOAmaster"  %>
 <%@ Register Src="~/usercontrols/uc_LeftNavigation.ascx" TagName="LeftNav" TagPrefix="uc1" %>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+ 
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
-<head id="Head1" runat="server">
-    <meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
-    <meta name="Description" content="" runat="server" id="metadescription" /> 
-<title>Bank of America | Careers<%=breadCrum%></title>
+<head id="Header1" runat="server">
+ <title></title>
+    <meta http-equiv="content-type" content="text/html; charset=iso-8859-1">
+    <meta name="Description" content="" runat="server" id="metadescription" />
+    <meta name="keywords" runat="server" id="metakeywords" />
 <link rel="stylesheet" href="includes/DotNetStyles.css" type="text/css" />
 <link href="Includes/hs_safebutton.css" type="text/css" rel="stylesheet" />
 <link rel="stylesheet" href="Includes/eventStyles.css" type="text/css" />
@@ -22,8 +24,10 @@ var openCampus = <%=IsCampusEvents.ToString().ToLower() %>;
 function namewindow(){window.name="boamain";}
 //-->
 </script>
+  
 <asp:contentplaceholder id="localheaderscripts" runat="server"/>
 </head>
+
 <body id="body" onload="startKeybordNav(); startPs(); fixIE(); namewindow();" onunload="">
 <asp:Literal ID="ltrlCorremetrixScripts" runat="server" Text="" ></asp:Literal>
 <script language="javascript" type="text/javascript">
@@ -52,7 +56,7 @@ function namewindow(){window.name="boamain";}
 						<tr align="right">
 							<td width="5" class="mh-vline"><img src="images/clear.gif" width="5" height="1" alt="" border="0" /></td>
 							<td width="100%" class="mh-hline-bkg" valign="bottom">
-<form method="post" action="http://www.bankofamerica.com/search/" style="margin: 0px;" name="SiteSearchForm" target="_parent">
+<form method="post" action="http://www.bankofamerica.com/search/" style="margin: 0px;" name="SiteSearchForm" target="_parent"> 
 <input name="ui_mode" type="hidden" value="question" />
 								<table width="100%" border="0" cellspacing="0" cellpadding="0" summary="SearchBox">
 									<tr>

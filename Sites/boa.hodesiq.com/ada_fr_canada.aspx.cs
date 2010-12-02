@@ -15,14 +15,8 @@ public partial class ada_fr_canada : System.Web.UI.Page
     {
         Session["tonlyLabel"] = "Global Carrières - Canada, Version texte seulement";
         Session["href"] = "../ada/fr_canada.aspx";
-        Page.Title = "Bank of America | Carrières | Carrières mondiales | Canada";
-
-
+        
         Session["Ntonly"] = "";
-
-        HtmlMeta theMetaTag = new HtmlMeta();
-        theMetaTag.Attributes.Add("name", "Description");
-        theMetaTag.Attributes.Add("content", "Page de survol Carrières au Canada du site Carrières mondiales. Cette page expose en détail le rôle, l’emplacement et les capacités de l’affiliée MBNA et permet aussi de faire des recherches pour les postes internationaux vacants.");
-        Page.Header.Controls.Add(theMetaTag);
+      
     }
 }

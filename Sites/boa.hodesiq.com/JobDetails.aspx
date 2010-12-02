@@ -1,5 +1,5 @@
 <%@ Page AutoEventWireup="true" CodeFile="JobDetails.aspx.cs" Inherits="JobDetails"
-    Language="C#" MasterPageFile="~/BOAmaster.master" Title="Job Details Page" %>
+    Language="C#" MasterPageFile="~/BOAmaster.master"  ValidateRequest="false" EnableEventValidation="false"%>
 
 <asp:Content ID="Content1" runat="Server" ContentPlaceHolderID="cphmain">
 	<h1 style="margin: 0px 0px 0px 12px; " runat="server" id="lblJobTitle">Advanced Search</h1>

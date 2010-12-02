@@ -1,4 +1,4 @@
-<%@ Page Language="C#" MasterPageFile="~/MasterPage_French.master" AutoEventWireup="true" CodeFile="fr_canada_contactus.aspx.cs" Inherits="fr_canada_contactus" Title="Bank of America | Carrières | Carrières globales | Canada | Contactez-nous" %>
+<%@ Page Language="C#" MasterPageFile="~/MasterPage_French.master" AutoEventWireup="true" CodeFile="fr_canada_contactus.aspx.cs" Inherits="fr_canada_contactus"  %>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="Image" Runat="Server" Visible="false" >
 

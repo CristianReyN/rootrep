@@ -1,5 +1,5 @@
 ﻿<%@ Page Language="C#" MasterPageFile="~/MasterPage.master" EnableEventValidation="false"
-    AutoEventWireup="true" CodeFile="emea_europe_card_services.aspx.cs" Inherits="emea_europe_card_services" Title="Bank of America | Careers | Locations |Canada | Europe, Middle East and Africa (EMEA)| Europe Card Services" %>
+    AutoEventWireup="true" CodeFile="emea_europe_card_services.aspx.cs" Inherits="emea_europe_card_services" %>
     
 <asp:Content ID="Image" ContentPlaceHolderID="Image" runat="Server">
     <img height="166" border="0" width="578" title="Explore a career with the Bank of Opportunity." alt="Explore a career with the Bank of Opportunity." src="images/global-careers-emea_II.jpg"/>

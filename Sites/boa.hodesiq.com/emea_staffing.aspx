@@ -1,5 +1,5 @@
 <%@ Page Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true"
-    CodeFile="emea_staffing.aspx.cs" Inherits="emea_staffing" Title="Bank of America | Careers | Locations |Europe | Staffing"
+    CodeFile="emea_staffing.aspx.cs" Inherits="emea_staffing" 
     EnableEventValidation="false" %>
 
 <asp:Content ID="Image" ContentPlaceHolderID="Image" runat="Server">

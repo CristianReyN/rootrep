@@ -1,4 +1,4 @@
-<%@ Page Language="C#" AutoEventWireup="false" CodeFile="Default.aspx.cs" Inherits="_Default" MasterPageFile="~/BOAmaster.master" Title="BOA Maintenance"%>
+<%@ Page Language="C#" AutoEventWireup="false" CodeFile="Default.aspx.cs" ValidateRequest="false" EnableEventValidation="false" Inherits="_Default" MasterPageFile="~/BOAmaster.master" Title="BOA Maintenance"%>
 
           
 

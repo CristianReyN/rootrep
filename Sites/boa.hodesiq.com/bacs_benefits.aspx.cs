@@ -14,18 +14,9 @@ public partial class bacs_benefits : System.Web.UI.Page
     protected void Page_Load(object sender, EventArgs e)
     {
         Session["tonlyLabel"] = "Global Careers BA Continuum Benefits, Text Only Version";
-        Session["href"] = "../ada/bacs_benefits.aspx";
-        Page.Title = "Bank of America | Careers | Locations |BA Continuum | Benefits";
-		
-		
+        Session["href"] = "../ada/bacs_benefits.aspx";        
+			
 		Session["Ntonly"] = "";
-
-        HtmlMeta theMetaTag = new HtmlMeta();
-        theMetaTag.Attributes.Add("name", "Description");
-        theMetaTag.Attributes.Add("content", "BA Continuum Benefits in Asia overview for the Global Careers site. This page outlines development and benefits available at the non-bank subsidiary and allows search for international jobs.");
-        Page.Header.Controls.Add(theMetaTag);
-
-
 
     }
 }

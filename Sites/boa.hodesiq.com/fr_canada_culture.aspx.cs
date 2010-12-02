@@ -15,14 +15,8 @@ public partial class fr_canada_culture : System.Web.UI.Page
     {
         Session["tonlyLabel"] = "Global Carrières - Culture, Version texte seulement";
         Session["href"] = "../ada/fr_canada_culture.aspx";
-        Page.Title = "Bank of America | Carrières | Carrières mondiales | Canada | Culture ";
-
-
+   
         Session["Ntonly"] = "";
 
-        HtmlMeta theMetaTag = new HtmlMeta();
-        theMetaTag.Attributes.Add("name", "Description");
-        theMetaTag.Attributes.Add("content", "Page de Survol Culture au Canada du site Carrières mondiales. Cette page décrit l’environnement de travail et les possibilités de perfectionnement pour les employés de MBNA, et permet de faire des recherches pour les postes internationaux vacants.");
-        Page.Header.Controls.Add(theMetaTag);
     }
 }

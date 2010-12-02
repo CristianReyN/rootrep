@@ -1,43 +1,43 @@
-using System;
-using System.Data;
-using System.Configuration;
-using System.Collections;
+﻿using System;
+using System.Collections.Generic;
 using System.Web;
-using System.Web.Security;
 using System.Web.UI;
 using System.Web.UI.WebControls;
-using System.Web.UI.WebControls.WebParts;
 using System.Web.UI.HtmlControls;
+using System.Data;
 
-public partial class MasterPage_French : System.Web.UI.MasterPage
+public partial class usercontrols_uc_Header : System.Web.UI.UserControl
 {
-    public string textOnly = "";
     string constring = @"file name=D:\data\db\boa.udl";
 
     protected void Page_Load(object sender, EventArgs e)
     {
-        string strPageName = "";
-        string strContent = "";
-        string strMetaKeyWords = "";
-
         string sPath = System.Web.HttpContext.Current.Request.Url.AbsolutePath;
         string querstring = System.Web.HttpContext.Current.Request.Url.Query;
         System.IO.FileInfo oInfo = new System.IO.FileInfo(sPath);
-        string sRet = oInfo.Name + querstring;
-
+        string sRet = oInfo.Name + querstring;       
+      
         DataTable dt = GetPageNavigationOrder(sRet);
 
-        if (dt.Rows.Count > 0)
+        if(dt.Rows.Count > 0)
         {
-            strContent = dt.Rows[0]["PageMetaTags"].ToString();
-            strPageName = dt.Rows[0]["PageTitle"].ToString();
-            strMetaKeyWords = dt.Rows[0]["PageMetaKeywords"].ToString();
+
+            Page.Title = dt.Rows[0]["PageTitle"].ToString();
+            	
+         HtmlMeta theMetaTag = new HtmlMeta();
+         theMetaTag.Attributes.Add("name", "Description");
+         theMetaTag.Attributes.Add("content", dt.Rows[0]["PageMetaTags"].ToString());
+         Page.Header.Controls.Add(theMetaTag);
+
+         HtmlImage Img = (HtmlImage)Page.Master.FindControl("ImgHeaderLogo");
+         if (Img != null)
+         {
+             Img.Src = dt.Rows[0]["HeaderImageLogoSource"].ToString();
+             Img.Alt = dt.Rows[0]["HeaderImageLogoAltText"].ToString();
+         }
+
         }
-
-
-        Page.Title = strPageName;
-        this.metadescription.Attributes["content"] = strContent;
-        this.metakeywords.Attributes["content"] = strMetaKeyWords;
+    
     }
 
     protected DataTable GetPageNavigationOrder(string pagename)
@@ -52,5 +52,4 @@ public partial class MasterPage_French : System.Web.UI.MasterPage
         return DS.Tables[0];
 
     }
-
 }

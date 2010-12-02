@@ -1,5 +1,5 @@
 <%@ Page Language="C#" MasterPageFile="~/MasterPage.master" EnableEventValidation="false"
-    AutoEventWireup="true" CodeFile="emea.aspx.cs" Inherits="emea" Title="Bank of America | Careers | Locations |Canada | Staffing" %>
+    AutoEventWireup="true" CodeFile="emea.aspx.cs" Inherits="emea"  %>
 
 <asp:Content ID="Image" ContentPlaceHolderID="Image" runat="Server">
 

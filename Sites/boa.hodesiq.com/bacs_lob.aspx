@@ -1,7 +1,6 @@
 <%@ Page Language="C#" MasterPageFile="~/MasterPage.master" EnableEventValidation="false"
     AutoEventWireup="true" CodeFile="bacs_lob.aspx.cs" Inherits="bacs_lob"
-    Title="Bank of America | Careers | Locations |BA Continuum | Lines of Business" %>
-
+     %>
 
 <asp:Content ID="Image" ContentPlaceHolderID="Image" runat="Server">
     <img src="images/global-careers-asia-II.jpg" width="578" height="166" alt="Explore a career with the Bank of Opportunity."
@@ -18,7 +17,7 @@
         <tr>
             <td width="366" align="left" valign="top">
                 <p>
-                    At BA Continuum Solutions, our work involves a unique mix of skills and abilities.
+                    At BA Continuum, our work involves a unique mix of skills and abilities.
                     Operationally, our focus lies on three key capabilities, Business Process Solutions
                     (BPS), Information Technology Solutions (ITS) and Knowledge Services that encompass
                     banking and technology operations, and support processes throughout the Americas,

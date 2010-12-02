@@ -1,4 +1,4 @@
-<%@ Page Language="C#" AutoEventWireup="true" CodeFile="CampusEvents.aspx.cs" Inherits="CampusEvents" MasterPageFile="~/BOAmaster.master" Title="Campus Events" %>
+<%@ Page Language="C#" AutoEventWireup="true" CodeFile="CampusEvents.aspx.cs" ValidateRequest="false" EnableEventValidation="false" Inherits="CampusEvents" MasterPageFile="~/BOAmaster.master" Title="Campus Events" %>
 
 <asp:Content ID="Content1" runat="Server" ContentPlaceHolderID="cphmain">
     <table width="578" cellpadding="0" cellspacing="0" border="0" summary="">

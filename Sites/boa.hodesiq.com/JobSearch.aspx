@@ -1,5 +1,5 @@
   <%@ Page AutoEventWireup="true" CodeFile="JobSearch.aspx.cs" Inherits="JobSearch"
-      Language="C#" MasterPageFile="~/BOAmaster.master" Title="Job Search Page" %>
+      Language="C#" MasterPageFile="~/BOAmaster.master" ValidateRequest="false" EnableEventValidation="false" %>
 
 <asp:Content ID="Content1" runat="Server" ContentPlaceHolderID="cphmain">   
 	<h1 style="margin: 0px 0px 0px 12px; ">Guided Job Search</h1>	

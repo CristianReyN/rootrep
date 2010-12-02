@@ -1,6 +1,6 @@
 <%@ Page Language="C#" MasterPageFile="~/MasterPage.master" EnableEventValidation="false"
     AutoEventWireup="true" CodeFile="canada_staffing.aspx.cs" Inherits="canada_staffing"
-    Title="Bank of America | Careers | Locations |Canada | Staffing" %>
+    %>
 
 <asp:Content ID="Image" ContentPlaceHolderID="Image" runat="Server">
     <img src="images/global-careers-canada_V.jpg" width="578" height="166" alt="Explore a career with the Bank of Opportunity."

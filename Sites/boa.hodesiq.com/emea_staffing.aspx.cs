@@ -16,11 +16,7 @@ public partial class emea_staffing : System.Web.UI.Page
 
         Session["tonlyLabel"] = "Global Careers Europe Staffing, Text Only Version";
         Session["href"] = "../ada/emea_staffing.aspx";
-        Page.Title = "Bank of America | Careers | Locations |Europe | Staffing";
 		Session["Ntonly"] = "";
-        HtmlMeta theMetaTag = new HtmlMeta();
-        theMetaTag.Attributes.Add("name", "Description");
-        theMetaTag.Attributes.Add("content", "EMEA Staffing Process Overview page for the Global Careers site. Explains the application process, requirements & possible outcomes, and allows search for open international jobs.");
-        Page.Header.Controls.Add(theMetaTag);
+
     }
 }

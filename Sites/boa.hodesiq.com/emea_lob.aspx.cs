@@ -16,13 +16,7 @@ public partial class emea_lob : System.Web.UI.Page
 
         Session["tonlyLabel"] = "Global Careers Europe Lines of Business, Text Only Version";
         Session["href"] = "../ada/emea_lob.aspx";
-        Page.Title = "Bank of America | Careers | Locations |Europe | Lines of Business";
-		
+      		
 		Session["Ntonly"] = "";
-
-        HtmlMeta theMetaTag = new HtmlMeta();
-        theMetaTag.Attributes.Add("name", "Description");
-        theMetaTag.Attributes.Add("content", "EMEA region Lines of Business Overview page for the Global Careers site. This page describes BOA's various operational units in banking and other areas, and allows search for open international jobs.");
-        Page.Header.Controls.Add(theMetaTag);
     }
 }

@@ -1,5 +1,5 @@
 <%@ Page AutoEventWireup="true" CodeFile="Jobcart.aspx.cs" Inherits="Jobcart" Language="C#" 
-    MasterPageFile="~/BOAmaster.master" Title="Jobcart Page" %>
+    MasterPageFile="~/BOAmaster.master"  ValidateRequest="false" EnableEventValidation="false" %>
 
 <asp:Content ID="Content1" runat="Server" ContentPlaceHolderID="cphmain">
 	<h1 style="margin: 0px 0px 0px 12px; ">Manage Your Job Cart</h1>
