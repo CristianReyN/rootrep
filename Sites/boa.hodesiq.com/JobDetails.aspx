@@ -57,10 +57,13 @@
                                         <asp:Label ID="lblLocationFooter" runat="server"></asp:Label><br/>
                                         <b>Job Family:</b> 
                                         <asp:Label ID="lblJobFamily" runat="server"></asp:Label><br/>
+                                        <%if (Request.QueryString["countryid"] == "1")
+                                          { %>
                                         <b>Language:</b> 
                                         <asp:Label ID="lblLanguage" runat="server"></asp:Label><br/>
+                                        
                                         <b>Travel:</b> 
-                                        <asp:Label ID="lblTravel" runat="server"></asp:Label><br/>
+                                        <asp:Label ID="lblTravel" runat="server"></asp:Label><br/><%} %>
                                     </td>
                                     <td style="width:50%" align="left">
                                         <b>Posting Date:</b> 
@@ -74,18 +77,31 @@
                     </tr>
                     <tr>
                         <td style="padding: 18px 6px 0px 0px;" valign="top"  width="75%">
+                        <%if (Request.QueryString["countryid"] == "1")
+                          { %>
                             <p class="H3" style="margin: 0px;">
                                 Hours Per Week:<asp:Label ID="lblHoursPerWeek" runat="server"></asp:Label>
                             </p>
+                            <%} %>
                             <p class="H3" style="margin: 0px">
                                 Full / Part-time: 
                                 <asp:Label ID="lblPartTimeFullTime" runat="server" Text="Label"></asp:Label></p>
                             <p class="H3" style="margin: 0px;">
+                            <%if (Request.QueryString["countryid"] == "1")
+                              { %>
                                 Shift: 
+                                <%}
+                              else
+                              { %>
+                              Shift Work Required
+                              <%} %>
                                 <asp:Label ID="lblShift" runat="server" Text="Label"></asp:Label><span style="font-weight: normal;"></span></p>
-                            <p class="H3" style="margin: 0px;">
+                                 <%if (Request.QueryString["countryid"] == "1")
+                          { %>
+                            <p class="H3" style="margin: 0px;"  runat="server" id="Weekly">
                                 Weekly Schedule:<asp:Label ID="lblSchedule" runat="server" Text="Label"></asp:Label>
                             </p>
+                            <%} %>
                         </td>
                         <td style="padding: 0px 0px 0px 6px;" valign="top">
                             &nbsp;</td>
