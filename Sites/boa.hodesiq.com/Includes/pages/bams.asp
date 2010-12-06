@@ -34,7 +34,7 @@ Careers within Banc&nbsp;of&nbsp;America Merchant Services, LLC include:
 </ul>
 				</td>
 				<td width="205" height="100%" style="padding-top: 1px;" valign="top" align="right">
-<a href="https://bacfhrs.taleo.net/careersection/10200/joblist.ftl?lang=en" title="Search for jobs within Banc of America Services, LLC Job Search" target="_blank"><img src="../images/BOA_MerchantJobSearch.jpg" width="179" height="66" alt="Search for jobs within Banc of America Services, LLC Job Search" border="0"><span class="hidden"> Link opens a new window</span></a>
+<a href="https://bacfhrs.taleo.net/careersection/10200/joblist.ftl?lang=en" title="Banc of America Merchant Services, LLC Job Search" target="_blank"><img src="../images/BOA_MerchantJobSearch.jpg" width="179" height="66" alt="Banc of America Merchant Services, LLC Job Search" border="0"><span class="hidden"> Link opens a new window</span></a>
 <img src="../images/clear.gif" width="185" height="5" alt="" border="0"><br clear="all">
 				</td>
 			</tr>
