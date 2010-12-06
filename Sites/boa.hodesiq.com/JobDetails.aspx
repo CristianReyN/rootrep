@@ -133,38 +133,38 @@ Apply Now. You are encouraged to complete this online application, however if yo
 <span id="BOAFeedEuropeMBNA" visible="false" runat="server" class='auraltext'>
 <h2 style="margin: 0px 0px 0px 12px; ">Important information on applying for positions</h2>
 Apply Now. You are encouraged to complete this online application, however if you have difficulty, you should:
-<li /> For positions located in Ireland, email your resume to <a href="mailto:recruitment.ireland@bankofamerica.com">recruitment.ireland@bankofamerica.com</a>
-<li /> For positions located in Chester, UK, email your resume to <a href="mailto:recruitment.chester@bankofamerica.com">recruitment.chester@bankofamerica.com</a> 
+<li /> For positions located in Ireland, email your resume to <a href="mailto:InternationalStaffingOperations@bankofamerica.com">InternationalStaffingOperations@bankofamerica.com</a>
+<li /> For positions located in Chester, UK, email your resume to <a href="mailto:InternationalStaffingOperations@bankofamerica.com">recruitment.chester@bankofamerica.com</a> 
 <li /> In the Subject Line of your email, include "Source = Bank of America Careers" and the specific position title found at the top of the job posting.
 </span>
 <span id="BOAFeedAsia" visible="false" runat="server" class='auraltext'>
 <h2 style="margin: 0px 0px 0px 12px; ">Important information on applying for positions</h2>
 Apply Now. You are encouraged to complete this online application, however if you have difficulty, you should:
-<li /> Email your resume to <a href="mailto:apr_recruit@hk.ml.com">apr_recruit@hk.ml.com</a>
+<li /> Email your resume to <a href="mailto:InternationalStaffingOperations@bankofamerica.com">InternationalStaffingOperations@bankofamerica.com</a>
 <li /> In the Subject Line of your email, include "Source = Bank of America Careers" and the specific position title found at the top of the job posting.
 </span>
 <span id="BoaFeedIndia" visible="false" runat="server" class='auraltext'>
 <h2 style="margin: 0px 0px 0px 12px; ">Important information on applying for positions</h2>
 Apply Now. You are encouraged to complete this online application, however if you have difficulty, you should:
-<li /> Email your resume to <a href="mailto:bacs.grow@bankofamerica.com">bacs.grow@bankofamerica.com </a>
+<li /> Email your resume to <a href="mailto:InternationalStaffingOperations@bankofamerica.com">InternationalStaffingOperations@bankofamerica.com </a>
 <li /> In the Subject Line of your email, include "Source = Bank of America Careers" and the specific position title found at the top of the job posting.
 </span>
 <span id="BOAFeedCanada" visible="false" runat="server" class='auraltext'>
 <h2 style="margin: 0px 0px 0px 12px; ">Important information on applying for positions</h2>
 Apply Now. You are encouraged to complete this online application, however if you have difficulty, you should:
-<li /> Email your resume to <a href="mailto:canadacareers@bankofamerica.com">canadacareers@bankofamerica.com</a>
+<li /> Email your resume to <a href="mailto:InternationalStaffingOperations@bankofamerica.com">InternationalStaffingOperations@bankofamerica.com</a>
 <li /> In the Subject Line of your email, include "Source = Bank of America Careers" and the specific position title found at the top of the job posting.
 </span>
 <span id="BOAFeedCanadaFrench" visible="false" runat="server" class='auraltext'>
 <h2 style="margin: 0px 0px 0px 12px; ">Important information on applying for positions</h2>
 Apply Now. You are encouraged to complete this online application, however if you have difficulty, you should:
-<li /> Email your resume to <a href="mailto:canadacareers@bankofamerica.com">canadacareers@bankofamerica.com</a>
+<li /> Email your resume to <a href="mailto:InternationalStaffingOperations@bankofamerica.com">InternationalStaffingOperations@bankofamerica.com</a>
 <li /> In the Subject Line of your email, include "Source = Bank of America Careers" and the specific position title found at the top of the job posting.
 </span>
 <span id="BOAFeedEurope" visible="false" runat="server" class='auraltext'>
 <h2 style="margin: 0px 0px 0px 12px; ">Important information on applying for positions</h2>
 Apply Now. You are encouraged to complete this online application, however if you have difficulty, you should:
-<li /> Email your resume to <a href="mailto:emeacareers@bankofamerica.com">emeacareers@bankofamerica.com</a>
+<li /> Email your resume to <a href="mailto:InternationalStaffingOperations@bankofamerica.com">InternationalStaffingOperations@bankofamerica.com</a>
 <li /> In the Subject Line of your email, include "Source = Bank of America Careers" and the specific position title found at the top of the job posting.
 </span>
 <asp:label id="lblMessage" runat="server"></asp:label>
