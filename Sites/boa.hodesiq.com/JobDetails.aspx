@@ -46,6 +46,26 @@
                             <asp:HiddenField runat="server" ID="hApplyNow" />
                             <asp:PlaceHolder ID="phApply1" runat="server" Visible="true"></asp:PlaceHolder>
                             <%--<asp:HyperLink ID="applylnk" CssClass="p" runat="server" NavigateUrl="" Target="_blank" ><img src="images/apply_now.gif" alt="Apply Now" style="border-top-style: none; border-right-style: none; border-left-style: none; border-bottom-style: none;" /></asp:HyperLink>--%>
+                            <div><br />
+                                <script language="javascript" type="text/javascript">
+                                <!--
+                                    var socialSite = "1"
+                                //-->
+                                </script>
+                                <script type="text/javascript" src="http://utility-qa.bankofamerica.com/uet/social_share.js"></script>
+                                <script language="javascript" type="text/javascript">
+                                <!--
+                                    var socialSite = "2"
+                                //-->
+                                </script>
+                                <script type="text/javascript" src="http://utility-qa.bankofamerica.com/uet/social_share.js"></script>
+                                <script language="javascript" type="text/javascript">
+                                <!--
+                                    var socialSite = "3"
+                                //-->
+                                </script>
+                                <script type="text/javascript" src="http://utility-qa.bankofamerica.com/uet/social_share.js"></script>
+                            </div>
                         </td>
                     </tr>
                     <tr>
