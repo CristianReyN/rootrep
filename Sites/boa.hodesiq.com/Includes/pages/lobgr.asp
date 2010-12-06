@@ -15,19 +15,28 @@
 <a name="skipmaincontent"></a><H1 class="hidden">Risk Management</H1>
 <div style="float: left; width: <% If page_section = "ADA" Then %>357<% ElseIf page_section <> "ADA" Then %>299<%End If%>px;">
 <p style="margin: <% If page_section = "ADA" Then %>12<% Else %>0<%End If%>px <%=right_margin%>px 0px <%=left_margin_0%>px;">
-The goal of Global Risk is to manage all types of risk to achieve predictable, consistent and sustainable earnings growth. Our model for managing risk is holistic, covering credit, market and operational risks on an enterprise-wide scale. Our challenge is to ensure we provide the optimum balance of risk and reward to help grow the business.
+Bank&nbsp;of&nbsp;America is in the business of taking risk. Our goal is to make every good loan and transaction we can within the company&#39;s risk appetite.
+<br><br>
+Global Risk Management is responsible for operating within our company&#39;s risk appetite, which establishes how much risk we are willing to take as a company.
+<br><br>
+We are responsible for setting policies and monitoring and mitigating the risk.
 <br><br>
 Specific areas of Global Risk Management are:
 </p>
 <p style="margin: 0px 0px 0px <%=left_margin_0%>px;">
 <ul>
-	<li>Global Compliance and Operational Risk</li>
-	<li>Global Corporate &amp; Investment Banking<br>Market Risk &amp; Compliance</li>
-	<li>Global Consumer and Small Business Risk &amp; Compliance</li>
-	<li>Legal</li>
+	<li>Asia Pacific Risk</li>
+	<li>Consumer Risk</li>
+	<li>Corporate Operational Risk</li>
 	<li>Enterprise Credit Risk</li>
-	<li>Global Wealth &amp; Investment Management Risk &amp; Compliance</li>
-	<li>Corporate Security and Corporate Audit</li>
+	<li>Global Banking Risk Management</li>
+	<li>Global Commercial Banking Risk</li>
+	<li>Global Compliance Risk</li>
+	<li>Global Markets Risk Management</li>
+	<li>Global Wealth and Investment Management Risk Management</li>
+	<li>Home Loans &amp; Insurance Risk</li>
+	<li>International Risk Strategy</li>
+	<li>Special Situations Risk Management</li>
 </ul>
 </p>
 <br>

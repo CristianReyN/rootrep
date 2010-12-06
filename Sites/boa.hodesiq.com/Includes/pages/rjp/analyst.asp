@@ -29,7 +29,7 @@ if ( hasRequestedVersion && analyst_video ) {
 <object type="application/x-shockwave-flash"
 data="../Includes/pages/rjp/flashplayer_xml20080308.swf" width="400" height="300" FlashVars="var1=../Includes/pages/rjp/ANAYST.xml" id="javaflash" align="middle">
 	<param name="wmode" value="transparent">
-	<param name="allowScriptAccess" value="always" />
+	<param name="allowScriptAccess" value="sameDomain" />
 	<param name="movie" value="../Includes/pages/rjp/flashplayer_xml20080308.swf" />
 	<param name="FlashVars" value="var1=../Includes/pages/rjp/ANAYST.xml" />
 	<param name="quality" value="high" />

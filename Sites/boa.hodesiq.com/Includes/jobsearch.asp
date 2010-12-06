@@ -50,6 +50,9 @@ If style <> "" Then stl = style%>
 	jobfamilyid = Request("jobfamilyid")
 		If jobfamilyid = "" Then jobfamilyid = "-1"
 	keywords = Request("keywords")
+%><!-- #include file="whitelist.asp" --><%
+	keywords = ClearKeywords(keywords)
+	keywords = Server.HtmlEncode(keywords)
 	
 job_search_action = "../jobsearch/searchresult.asp"
 %>

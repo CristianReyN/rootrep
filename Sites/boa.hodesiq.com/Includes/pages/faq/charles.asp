@@ -27,20 +27,6 @@ At Bank&nbsp;of&nbsp;America we have an expression about risk, and it's really s
 
 <img class="dotdiv" style="margin: 6px 0px 0px 0px;" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
 <p style="margin: 6px 0px 0px 0px;" class="faqpa">
-<b>What are the Lines of Business that make up Global Risk Management?</b>
-<% If page_section <> "ADA" Then %>
-<br><img class="plresp" src="../images/clear.gif" width="10" height="1"  alt="" border="0"><br><a href="Javascript: vo_id();" onclick="playResponce(this);" class="ip">Play response<span class="ada-label">. Play the video response to the question What are the Lines of Business that make up Global Risk Management?</span>&nbsp;<img style="margin: 0px 0px 0px 0px;" src="../images/video_off_faq.gif" alt="" border="0" align="absmiddle" class="pai" name="pa2"></a><span class="auraltext"><br class="charles_a2"></span>
-<% Else %>
-</p>
-<p style="margin: 6px 0px 0px 0px;"><a name="answ2"></a>
-The business organizations that make up global risk management at Bank&nbsp;of&nbsp;America are first, Compliance and Operational Risk. We deal primarily in that group with the regulatory and operational risk associated with running an operation.  The second is legal, fairly self explanatory. That's where all the lawyers live and breathe. Enterprise Credit Risk, which is responsible for aggregating all the credit risks across the entire franchise, and looking at it from a portfolio basis. Corporate Security, those are primarily the investigators who will investigate suspicious activity that occurs at the bank, as well as making sure that all of our sites, wherever they are in the world, are secure. Audit, which serves primarily a testing function and a control function in that they make sure that the controls are in place across the franchise. And then there are three groups that serve the principal lines of business of Bank&nbsp;of&nbsp;America. The first one supports Global Wealth and Investment Management, the second one supports Global Corporate and Investment Banking, and the third, which is our largest line of business, is the Global Consumer and Small Business Banking group.
-<br><br>
-<a href="<%= standart_href%>" title="Return to standard page with video" class="p" onfocus="this.className='p-over';" onblur="this.className='p';">Return to standard page with video</a>
-<% End If %>
-</p>
-
-<img class="dotdiv" style="margin: 6px 0px 0px 0px;" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
-<p style="margin: 6px 0px 0px 0px;" class="faqpa">
 <b>What is the relationship/value add that Global Risk Management has with our Lines of Business/clients?</b>
 <% If page_section <> "ADA" Then %>
 <br><img class="plresp" src="../images/clear.gif" width="10" height="1"  alt="" border="0"><br><a href="Javascript: vo_id();" onclick="playResponce(this);" class="ip">Play response<span class="ada-label">. Play the video response to the question What is the relationship/value add that Global Risk Management has with our Lines of Business/clients?</span>&nbsp;<img style="margin: 0px 0px 0px 0px;" src="../images/video_off_faq.gif" alt="" border="0" align="absmiddle" class="pai" name="pa3"></a><span class="auraltext"><br class="charles_a3"></span>

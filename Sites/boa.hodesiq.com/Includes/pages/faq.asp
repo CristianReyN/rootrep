@@ -16,7 +16,6 @@
 <ul id="faqs" style="list-style-image : url(../images/bull3.gif);">
 	<li><a href="#q1" class="p" onfocus="this.className='p-over';" onblur="this.className='p';">How do I submit a resume?</a></li>
 	<li><a href="#q2" class="p" onfocus="this.className='p-over';" onblur="this.className='p';">Can I submit my resume to a local Banking Center?</a></li>
-	<li><a href="#q22" class="p" onfocus="this.className='p-over';" onblur="this.className='p';">If I have trouble completing my profile and/or application online, is there another way to submit my information?</a></li>
 	<li><a href="#q3" class="p" onfocus="this.className='p-over';" onblur="this.className='p';">Can I submit my information without applying for a position?</a></li>
 	<li><a href="#q4" class="p" onfocus="this.className='p-over';" onblur="this.className='p';">What are the basic requirements for becoming an associate for Bank of America other than the job related qualifications listed in the posting?</a></li>
 	<li><a href="#q5" class="p" onfocus="this.className='p-over';" onblur="this.className='p';">Will I be considered for other positions when applying for a specific position?</a></li>
@@ -48,26 +47,7 @@
 
 <img src="../images/clear.gif" width="100%" height="1" alt="" border="0" style="background: #becede;">
 <a name="q2"></a><H2 class="p" style="margin: 9px 0px 6px 0px;"><b>Can I submit my resume to a local Banking Center?</b></H2>
-<p style="margin: 0px;">No. Resumes are only accepted online. You can submit your resume the following ways:</p>
-	<ul id="answ2" style="list-style-image : url(../images/bull3.gif);">
-		<li>Attach your resume along with your profile by logging in and using our Candidate Profiler.</li>
-		<li>Email your resume to <a href="mailto:bac@resume.bankofamerica.com">bac@resume.bankofamerica.com</a>
-		<ul style="list-style-image : url(../images/bull3o.gif);"><li>In the Subject Line of your email, include "Source&nbsp;=&nbsp;Bank&nbsp;of&nbsp;America&nbsp;Careers"</li></ul></li>
-	</ul>
-<p style="margin: 12px 0px 6px 0px; text-align: right;"><a href="#qtop" class="p" onfocus="this.className='p-over';" onblur="this.className='p';" style="text-decoration: none;"><img src="../images/back_to_top.gif" width="7" height="4" alt="" border="0" align="top" hspace="4">Back to Top</a></p>
-
-<img src="../images/clear.gif" width="100%" height="1" alt="" border="0" style="background: #becede;">
-<a name="q22"></a><H2 class="p" style="margin: 9px 0px 6px 0px;"><b>If I have trouble completing my profile and/or application online, is there another way to submit my information?</b></H2>
-<p style="margin: 0px;">If you are unable to submit your profile, you should:</p>
-	<ul id="answ2" style="list-style-image : url(../images/bull3.gif);">
-		<li>Email your resume to <a href="mailto:bac@resume.bankofamerica.com">bac@resume.bankofamerica.com</a></li>
-		<li>In the Subject Line of your email, include "Source = Bank of America Careers"</li>
-	</ul>
-<p style="margin: 0px;">If you are unable to submit your application for the specific position, you should:</p>
-	<ul id="answ2" style="list-style-image : url(../images/bull3.gif);">
-		<li>Email your resume to <a href="mailto:bac@resume.bankofamerica.com">bac@resume.bankofamerica.com</a></li>
-		<li>In the Subject Line of your email, include "Source = Bank of America Careers" and the specific position number found at the top of the job posting</li>
-	</ul>
+<p style="margin: 0px;">No. Resumes are only accepted online.</p>
 <p style="margin: 12px 0px 6px 0px; text-align: right;"><a href="#qtop" class="p" onfocus="this.className='p-over';" onblur="this.className='p';" style="text-decoration: none;"><img src="../images/back_to_top.gif" width="7" height="4" alt="" border="0" align="top" hspace="4">Back to Top</a></p>
 
 <img src="../images/clear.gif" width="100%" height="1" alt="" border="0" style="background: #becede;">

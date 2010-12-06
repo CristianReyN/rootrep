@@ -14,6 +14,9 @@
 			<tr valign="top">
 				<td width="373" height="100%" valign="top" style="padding: 0px <%=right_margin%>px 0px <%=left_margin_0%>px;">
 <p style="margin: 0px;">
+<a href="https://bacfhrs.taleo.net/careersection/10200/joblist.ftl?lang=en" title="" target="_blank" class="p">Search for current career opportunities<span class="hidden"> Link opens a new window</span></a> within Banc&nbsp;of&nbsp;America Merchant Services, LLC.
+</p>
+<p style="margin: 12px 0px 0px 0px;">
 Banc&nbsp;of&nbsp;America Merchant Services, LLC is a premiere payments company providing the technology, innovative products and industry track record of First Data with the relationship strength, geographical coverage and prominent global brand of Bank&nbsp;of&nbsp;America to serve existing and future clients.
 </p>
 <p style="margin: 12px 0px 0px 0px;">
@@ -29,11 +32,10 @@ Careers within Banc&nbsp;of&nbsp;America Merchant Services, LLC include:
 	<li>Merchant Specialist</li>
 	<li>Strategic Account Executive</li>
 </ul>
-<p style="margin: 12px 0px 0px 0px;">
-<a href="https://bacfhrs.taleo.net/careersection/10200/joblist.ftl?lang=en" title="" target="_blank">Search for current career opportunities<span class="hidden"> Link opens a new window</span></a> within Banc&nbsp;of&nbsp;America Merchant Services, LLC.
-</p>
 				</td>
-				<td width="205" height="100%" valign="top">
+				<td width="205" height="100%" style="padding-top: 1px;" valign="top" align="right">
+<a href="https://bacfhrs.taleo.net/careersection/10200/joblist.ftl?lang=en" title="Search for jobs within Banc of America Services, LLC" target="_blank"><img src="../images/BOA_MerchantJobSearch.jpg" width="179" height="66" alt="Search for jobs within Banc of America Services, LLC" border="0"><span class="hidden"> Link opens a new window</span></a>
+<img src="../images/clear.gif" width="185" height="5" alt="" border="0"><br clear="all">
 				</td>
 			</tr>
 		</table>

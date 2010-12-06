@@ -49,12 +49,12 @@ if ( hasRequestedVersion) {
 <a name="video"></a><H2 class="hidden">Mortgage Careers Video</H2>
 <object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0" width="350" height="400" id="locflash" align="middle">
 	<param name="wmode" value="transparent" />
-	<param name="allowScriptAccess" value="always" />
+	<param name="allowScriptAccess" value="sameDomain" />
 	<param name="movie" value="../Includes/pages/mortgage/BoA_Locations.swf"  />
 	<param name="quality" value="high" />
 	<param name="bgcolor" value="#ffffff" />
 	<param name="loop" value="false" />
-	<embed src="../Includes/pages/mortgage/BoA_Locations.swf" quality="high" bgcolor="#ffffff" width="350" height="400" alt="" name="locflash" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer"  wmode="transparent" swLiveConnect="true" loop="false"></embed>
+	<embed src="../Includes/pages/mortgage/BoA_Locations.swf" quality="high" bgcolor="#ffffff" width="350" height="400" alt="" name="locflash" align="middle" allowScriptAccess="sameDomain" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer"  wmode="transparent" swLiveConnect="true" loop="false"></embed>
 </object>
 </noscript>
 		</td>

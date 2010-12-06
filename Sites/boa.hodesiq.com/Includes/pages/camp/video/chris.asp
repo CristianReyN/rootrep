@@ -38,7 +38,7 @@ if ( hasRequestedVersion && chris_video ) {
 <object type="application/x-shockwave-flash"
 data="../Includes/pages/college/Chris.swf" width="205" height="131" id="javaflash<%=suffix%>" align="middle">
 	<param name="wmode" value="transparent">
-	<param name="allowScriptAccess" value="always" />
+	<param name="allowScriptAccess" value="sameDomain" />
 	<param name="movie" value="../Includes/pages/college/Chrisswf"  />
 	<param name="quality" value="high" />
 	<param name="bgcolor" value="#ffffff" />

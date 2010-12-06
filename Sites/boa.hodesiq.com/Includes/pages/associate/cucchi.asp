@@ -26,7 +26,7 @@ if ( hasRequestedVersion && cucchi_video ) {
 <object type="application/x-shockwave-flash"
 data="../Includes/pages/associate/Cucchi.swf" width="259" height="166" id="javaflash" align="middle">
 	<param name="wmode" value="transparent">
-	<param name="allowScriptAccess" value="always" />
+	<param name="allowScriptAccess" value="sameDomain" />
 	<param name="movie" value="../Includes/pages/associate/Cucchi.swf"  />
 	<param name="quality" value="high" />
 	<param name="bgcolor" value="#ffffff" />

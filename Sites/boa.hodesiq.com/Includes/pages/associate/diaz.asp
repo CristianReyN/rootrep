@@ -15,7 +15,7 @@ if ( hasRequestedVersion ) {
 <object type="application/x-shockwave-flash"
 data="../Includes/pages/associate/Diaz.swf" width="259" height="166" id="javaflash" align="middle">
 	<param name="wmode" value="transparent">
-	<param name="allowScriptAccess" value="always" />
+	<param name="allowScriptAccess" value="sameDomain" />
 	<param name="movie" value="../Includes/pages/associate/Diaz.swf"  />
 	<param name="quality" value="high" />
 	<param name="bgcolor" value="#ffffff" />

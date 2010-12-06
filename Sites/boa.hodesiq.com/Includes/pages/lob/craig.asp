@@ -26,7 +26,7 @@ if ( hasRequestedVersion && craig_video ) {
 <object type="application/x-shockwave-flash"
 data="http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/DITL_TESTIMONIAL/swf/craig_test.swf" width="259" height="166" id="javaflash" align="middle">
 	<param name="wmode" value="transparent">
-	<param name="allowScriptAccess" value="always" />
+	<param name="allowScriptAccess" value="sameDomain" />
 	<param name="movie" value="http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/DITL_TESTIMONIAL/swf/craig_test.swf"  />
 	<param name="quality" value="high" />
 	<param name="bgcolor" value="#ffffff" />

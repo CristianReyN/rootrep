@@ -30,7 +30,7 @@ if ( hasRequestedVersion && shuwen_video ) {
 <object type="application/x-shockwave-flash"
 data="http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/GCIB/SHU-Wen_FINALs_VP6_512K_282x160.swf" width="231" height="131" id="javaflash" align="middle">
 	<param name="wmode" value="transparent">
-	<param name="allowScriptAccess" value="always" />
+	<param name="allowScriptAccess" value="sameDomain" />
 	<param name="movie" value="http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/GCIB/SHU-Wen_FINALs_VP6_512K_282x160.swf"  />
 	<param name="quality" value="high" />
 	<param name="bgcolor" value="#ffffff" />

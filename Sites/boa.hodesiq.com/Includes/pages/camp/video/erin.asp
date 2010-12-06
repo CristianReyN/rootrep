@@ -30,7 +30,7 @@ if ( hasRequestedVersion && erin_video ) {
 <object type="application/x-shockwave-flash"
 data="../Includes/pages/college/Erin.swf" width="205" height="131" id="javaflash" align="middle">
 	<param name="wmode" value="transparent">
-	<param name="allowScriptAccess" value="always" />
+	<param name="allowScriptAccess" value="sameDomain" />
 	<param name="movie" value="../Includes/pages/college/Erin.swf"  />
 	<param name="quality" value="high" />
 	<param name="bgcolor" value="#ffffff" />

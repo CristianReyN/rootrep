@@ -145,8 +145,6 @@ MM_preloadImages('../Includes/pages/buttons/01btn-over.gif','../Includes/pages/b
 	}
 }
 
-function strReplace(s,p,r){var pos=s.indexOf(p);var len=p.length;while(pos != -1){s1=s.substring(0,pos);s2=s.substring(pos+len,s.length);s=s1+r+s2;pos=s.indexOf(p);}return s;}
-
 var reqFlashPlayer = '<a href="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash" title="This video requires Adobe Flash Player version '+requiredMajorVersion+'. Please download latest version." class="p" onfocus="this.className=\'p-over\';" onblur="this.className=\'p\';"><img src="../Includes/pages/college/thumbnails/';
 var reqFlashPlayer2 = '" width="400" height="300" alt="This video requires Adobe Flash Player version '+requiredMajorVersion+'. Please download latest version." border="0" \/><\/a>';
 
@@ -328,13 +326,7 @@ function ccfvideo(swf_url,flv_url,flashplayer)
 
 var flashplayer = new fpvideo("../Includes/pages/rjp/flashplayer_xml20080308.swf",400,300);
 
-//var analyst_cc_video;
 var analyst_video, cma_video, retention_video, customersat_video, collectors_video, rjp_video, cashservices_video, teller_video;
-/*analyst_cc_video = new ccfvideo(
-					null,
-					"../Includes/pages/rjp/ANAYST_CC.xml",
-					null
-					);*/
 analyst_video = new fvideo(
 					flashplayer.swf_url,
 					"../Includes/pages/rjp/ANALYST.xml",
@@ -343,7 +335,7 @@ analyst_video = new fvideo(
 					"../Includes/pages/rjp/thumbnails/analyst_on.jpg",
 					"../Includes/pages/rjp/thumbnails/analyst_off.jpg",
 					null,
-					null//analyst_cc_video
+					null
 					);
 cma_video = new fvideo(
 					flashplayer.swf_url,
@@ -421,14 +413,14 @@ function getVideo(video,w,h,na_me,alt)
 {
 	var vi_deo = '<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0" width="'+w+'" height="'+h+'" id="'+na_me+'" align="middle">';
 	vi_deo += '<param name="wmode" value="transparent">';
-	vi_deo += '<param name="allowScriptAccess" value="always" />';
+	vi_deo += '<param name="allowScriptAccess" value="sameDomain" />';
 	vi_deo += '<param name="movie" value="'+video.swf_url+'"  />';
 	if(video.flv_url)
 		vi_deo += '<param name="FlashVars" value="var1='+video.flv_url+(video.cc_video?'&var2='+video.cc_video.flv_url:'')+'" />';
 	vi_deo += '<param name="quality" value="high" />';
 	//vi_deo += '<param name="loop" value="false" />';
 	vi_deo += '<param name="bgcolor" value="#ffffff" />';
-	vi_deo += '<embed src="'+video.swf_url+'" quality="high" bgcolor="#ffffff" width="'+w+'" height="'+h+'" alt="'+alt+'" name="'+na_me+'" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" wmode="transparent"'/*+'swLiveConnect="true" loop="false"'*/+(video.flv_url?(' FlashVars="var1='+video.flv_url+(video.cc_video?'&var2='+video.cc_video.flv_url:'')+'"'):'')+'><\/embed>';
+	vi_deo += '<embed src="'+video.swf_url+'" quality="high" bgcolor="#ffffff" width="'+w+'" height="'+h+'" alt="'+alt+'" name="'+na_me+'" align="middle" allowScriptAccess="sameDomain" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" wmode="transparent"'/*+'swLiveConnect="true" loop="false"'*/+(video.flv_url?(' FlashVars="var1='+video.flv_url+(video.cc_video?'&var2='+video.cc_video.flv_url:'')+'"'):'')+'><\/embed>';
 	vi_deo += '<\/object>';
 	return vi_deo;
 }

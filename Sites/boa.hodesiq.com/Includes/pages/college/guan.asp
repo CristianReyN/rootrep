@@ -19,7 +19,7 @@ if ( hasRequestedVersion ) {
 <object type="application/x-shockwave-flash"
 data="<% Response.write SITE_U_R_L %>Includes/pages/college/Guan.swf" width="205" height="131" id="javaflash" align="middle">
 	<param name="wmode" value="transparent">
-	<param name="allowScriptAccess" value="always" />
+	<param name="allowScriptAccess" value="sameDomain" />
 	<param name="movie" value="<% Response.write SITE_U_R_L %>Includes/pages/college/Guan.swf" />
 	<param name="quality" value="high" />
 	<param name="bgcolor" value="#ffffff" />

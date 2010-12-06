@@ -32,6 +32,9 @@ End Function
 		jobfamilyid = Request("jobfamilyid")
 		keywords = Request("keywords")
 		SearchPage = Request("SearchPage")
+%><!-- #include file="../Includes/whitelist.asp" --><%
+	keywords = ClearKeywords(keywords)
+	keywords = Server.HtmlEncode(keywords)
 	
 	Dim query
 		query = ""

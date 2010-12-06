@@ -53,7 +53,7 @@ if(fragmentoTexto.length>1)
 // <![CDATA[
 document.write('<div id="career_fit_tool_links"></div><div id="career_fit_tool" style="height: auto;"><a href="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash" title="In order to view this page you need Flash Player 8+ support! Please download latest version."><img src="../images/camp/cft_flash.jpg" width="577" height="580" alt="In order to view this page you need Flash Player 8+ support! Please download latest version." title="In order to view this page you need Flash Player 8+ support! Please download latest version." border="0" style="margin: 0px;" /><\/a><\/div>');
 var so = new SWFObject('compass.swf', 'compass', '577px', '580px', '8', '#ffffff');
-so.addParam('allowScriptAccess','always');
+so.addParam('allowScriptAccess','sameDomain');
 so.addParam('wmode','transparent');
 if(values)
 {
@@ -82,12 +82,12 @@ if(so.write('career_fit_tool')) document.getElementById("career_fit_tool_links")
 </script>
 <noscript>
 <object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0" width="577" height="580" id="compass" align="middle">
-	<param name="allowScriptAccess" value="always" />
+	<param name="allowScriptAccess" value="sameDomain" />
 	<param name="movie" value="compass.swf" />
 	<param name="quality" value="high" />
 	<param name="wmode" value="transparent" />
 	<param name="bgcolor" value="#ffffff" />
-	<embed src="compass.swf" quality="high" bgcolor="#ffffff" width="577" height="580" id="compass" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" wmode="transparent" style="margin: 0px;" /></embed>
+	<embed src="compass.swf" quality="high" bgcolor="#ffffff" width="577" height="580" id="compass" align="middle" allowScriptAccess="sameDomain" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" wmode="transparent" style="margin: 0px;" /></embed>
 </object>
 </noscript>
 				</td>
