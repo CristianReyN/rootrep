@@ -93,7 +93,7 @@
                                 <%}
                               else
                               { %>
-                              Shift Work Required
+                              Shift Work Required:
                               <%} %>
                                 <asp:Label ID="lblShift" runat="server" Text="Label"></asp:Label><span style="font-weight: normal;"></span></p>
                                  <%if (Request.QueryString["countryid"] == "1")
