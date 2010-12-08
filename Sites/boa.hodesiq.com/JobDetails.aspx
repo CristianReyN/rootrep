@@ -18,11 +18,7 @@
                                 <h2 style="margin: 0px;">
                                 <asp:Label ID="lblLocation" runat="server"></asp:Label>&nbsp;</h2>
                      </td> 
-                     <td align="right" width="50%">
-                    				<div style="text-align: right; margin: 11px 0px 0px 0px; padding: 0px;" >
-	                                    <a href="http://twitter.com/BofA_Careers" title="Stay connected to Careers on twitter @BofA_Careers.  Link opens a new window." target="_blank"><img src="../images/Twitter-Ad-for-Careers_03.gif" width="187" height="105" alt="Stay connected to Careers on twitter @BofA_Careers.  Link opens a new window." border="0" align="top"></a><br clear="all">
-                                    </div>
-                            </td>
+                     
                         </tr></table></td></tr>
                     
                     <tr>
@@ -46,31 +42,76 @@
                                 &nbsp;</p>
                         </td>
                         <td  style="padding: 18px 0px 0px 6px;" valign="top" align="center"   width="30%">
-                            <asp:Button runat="server" ID="bttnAddToJobCart" OnClick="bttnAddToJobCart_Click" Text="Add to job cart" ToolTip="Add to job cart" CssClass="btnlink"/>
+                            </br></br><asp:Button runat="server" ID="bttnAddToJobCart" OnClick="bttnAddToJobCart_Click" Text="Add to job cart" ToolTip="Add to job cart" CssClass="btnlink"/>
                             <asp:Button runat="server" ID="bttnRemoveFromJobCart" OnClick="bttnRemoveFromJobCart_Click" Text="Remove from job cart" ToolTip="Remove from job cart" CssClass="btnlink"/><br />
                             <asp:Button runat="server" ID="bsearchTop" OnClick="bsearch_Click" Text="View job cart" ToolTip="View job cart" CssClass="btnlink"/><br /><br />
                             <asp:HiddenField runat="server" ID="hApplyNow" />
                             <asp:PlaceHolder ID="phApply1" runat="server" Visible="true"></asp:PlaceHolder>
                             <%--<asp:HyperLink ID="applylnk" CssClass="p" runat="server" NavigateUrl="" Target="_blank" ><img src="images/apply_now.gif" alt="Apply Now" style="border-top-style: none; border-right-style: none; border-left-style: none; border-bottom-style: none;" /></asp:HyperLink>--%>
-                            <div><br />
-                                <script language="javascript" type="text/javascript">
-                                <!--
-                                    var socialSite = "1"
-                                //-->
-                                </script>
-                                <script type="text/javascript" src="http://utility-qa.bankofamerica.com/uet/social_share.js"></script>
-                                <script language="javascript" type="text/javascript">
-                                <!--
+                            <div align="center"><br />
+                                   <table width="140px">
+                                   <tr>
+                                   <td colspan="2" align="center" valign="top" >
+                                    <script language="javascript" type="text/javascript">
+                                    <!--
+                                        var socialSite = "1"
+                                    //-->
+                                    </script>
+                                   <b>Share this job</b></br></br>
+                               </td> 
+                              </tr >
+                                 <tr>                              
+                                 <td valign="top" align="right" width="40px">
+                                    <script type="text/javascript" src="http://utility-qa.bankofamerica.com/uet/social_share.js"></script>
+                                    <script language="javascript" type="text/javascript">
+                                    <!--
                                     var socialSite = "2"
-                                //-->
-                                </script>
+                                    //-->
+                                    </script></td>
+                                   
+                                                                                               
+                              <td width="100px" align="left"><b>&nbsp;&nbsp;&nbsp;Facebook</b></br></br> </td> 
+                              
+                                 </tr>
+                                 <tr>
+                               
+                                 <td valign="top" width="40px" align="right">
                                 <script type="text/javascript" src="http://utility-qa.bankofamerica.com/uet/social_share.js"></script>
                                 <script language="javascript" type="text/javascript">
                                 <!--
                                     var socialSite = "3"
                                 //-->
-                                </script>
+                                </script></td>
+                                   
+                                                                                               
+                              <td width="100px" align="left"> 
+                          
+                                 <b>&nbsp;&nbsp;&nbsp;Twitter</b></br></br></td>  
+                                 
+                                 </tr>
+                                    <tr>
+                                     
+                                 <td valign="top" width="40px" align="right">
                                 <script type="text/javascript" src="http://utility-qa.bankofamerica.com/uet/social_share.js"></script>
+                              
+                                
+                                 </td>
+                                   
+                                                                                               
+                              <td width="100px" align="left"><b>&nbsp;&nbsp;&nbsp;Linkedin</b></br></br></br></br></br>  </td>  
+                                </tr>
+                                 <tr>
+                                <td colspan=3 align="center"><b>Stay Connected</b></br></br>
+                                </td>
+                                </tr>                               
+                               <tr>
+                                <td colspan=3 align="center">
+                                
+                            
+                    				
+	                                    <a href="http://twitter.com/BofA_Careers" title="Stay connected to Careers on twitter @BofA_Careers.  Link opens a new window." target="_blank"><img src="../images/Twitter-Ad-for-Careers_03.gif" width="140" height="80" alt="Stay connected to Careers on twitter @BofA_Careers.  Link opens a new window." border="0" align="top"></a><br clear="all">
+                                     </td></tr> 
+                                    </table>                          
                             </div>
                         </td>
                     </tr>
