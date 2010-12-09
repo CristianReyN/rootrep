@@ -51,55 +51,53 @@
                             <div align="center"><br />
                                    <table width="140px">
                                    <tr>
-                                   <td colspan="2" align="center" valign="top" >
+                                    <td colspan="2" align="center" valign="top" >     <b>Share this job</b></br></br></td>
+                                   </tr>
+                                   <tr>
+                                   <td valign="top" align="right" width="40px">
                                     <script language="javascript" type="text/javascript">
                                     <!--
                                         var socialSite = "1"
                                     //-->
                                     </script>
-                                   <b>Share this job</b></br></br>
+                                    <script type="text/javascript" src="http://utility-qa.bankofamerica.com/uet/social_share.js"></script>
                                </td> 
+                               <td width="100px" align="left"><b>&nbsp;&nbsp;&nbsp;Facebook</b></br></br> </td> 
                               </tr >
                                  <tr>                              
                                  <td valign="top" align="right" width="40px">
-                                    <script type="text/javascript" src="http://utility-qa.bankofamerica.com/uet/social_share.js"></script>
+                                    
                                     <script language="javascript" type="text/javascript">
                                     <!--
                                     var socialSite = "2"
                                     //-->
-                                    </script></td>
+                                    </script>
+                                    <script type="text/javascript" src="http://utility-qa.bankofamerica.com/uet/social_share.js"></script>
+                                    </td>
                                    
-                                                                                               
-                              <td width="100px" align="left"><b>&nbsp;&nbsp;&nbsp;Facebook</b></br></br> </td> 
+                                    <td width="100px" align="left"> 
+                          
+                                 <b>&nbsp;&nbsp;&nbsp;Twitter</b></br></br></td>                                                              
+                              
                               
                                  </tr>
                                  <tr>
                                
                                  <td valign="top" width="40px" align="right">
-                                <script type="text/javascript" src="http://utility-qa.bankofamerica.com/uet/social_share.js"></script>
+                                
                                 <script language="javascript" type="text/javascript">
                                 <!--
                                     var socialSite = "3"
+                                    var useTinyURL = "0";
                                 //-->
-                                </script></td>
-                                   
+                                </script>
+                                    <script type="text/javascript" src="http://utility-qa.bankofamerica.com/uet/social_share.js"></script>
+                                </td>
+                                   <td width="100px" align="left"><b>&nbsp;&nbsp;&nbsp;Linkedin</b></br></br></br></br></br>  </td>   
                                                                                                
-                              <td width="100px" align="left"> 
-                          
-                                 <b>&nbsp;&nbsp;&nbsp;Twitter</b></br></br></td>  
+                             
                                  
-                                 </tr>
-                                    <tr>
-                                     
-                                 <td valign="top" width="40px" align="right">
-                                <script type="text/javascript" src="http://utility-qa.bankofamerica.com/uet/social_share.js"></script>
-                              
-                                
-                                 </td>
-                                   
-                                                                                               
-                              <td width="100px" align="left"><b>&nbsp;&nbsp;&nbsp;Linkedin</b></br></br></br></br></br>  </td>  
-                                </tr>
+                                 </tr>                                                                                                                                                                                                                                
                                  <tr>
                                 <td colspan=3 align="center"><b>Stay Connected</b></br></br>
                                 </td>
