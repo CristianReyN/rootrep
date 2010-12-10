@@ -87,11 +87,12 @@ public partial class JobDetails : System.Web.UI.Page
 			Response.Redirect(ConfigurationManager.AppSettings["jobnotfoundredirectpage"] + "?nf=1");
 		}
        
-        returntoJobsearch.NavigateUrl = "jobsearch.aspx?" + Request.QueryString;        
-
-        boanet_safebutton.writeBOASafeButton("Apply1", phApply1, "ApplyNow|*|" + dt.Rows[0]["JobTitle"].ToString(), Apply_Click_NoJS, this.Request, this.hApplyNow.Value);
-        boanet_safebutton.writeBOASafeButton("Apply2", phApply2, "ApplyNow|*|" + dt.Rows[0]["JobTitle"].ToString(), Apply_Click_NoJS, this.Request, this.hApplyNow.Value);
-
+        returntoJobsearch.NavigateUrl = "jobsearch.aspx?" + Request.QueryString;
+        if (countryid != "1")
+        {
+            boanet_safebutton.writeBOASafeButton("Apply1", phApply1, "ApplyNow|*|" + dt.Rows[0]["JobTitle"].ToString(), Apply_Click_NoJS, this.Request, this.hApplyNow.Value);
+            boanet_safebutton.writeBOASafeButton("Apply2", phApply2, "ApplyNow|*|" + dt.Rows[0]["JobTitle"].ToString(), Apply_Click_NoJS, this.Request, this.hApplyNow.Value);
+        }
         prepbuttons();
 
 		//not ready For Pro Yet!! 
@@ -144,18 +145,28 @@ public partial class JobDetails : System.Web.UI.Page
         {
             feedname = ViewState["feedname"].ToString();
         }
-
-        switch (feedname)
-        { 
-            case  "BOAFeedAsia"         : BOAFeedAsia.Visible = true;break;
-            case  "BOAFeedCanada"       : BOAFeedCanada.Visible = true; break;
-            case  "BOAFeedCanadaFrench" : BOAFeedCanadaFrench.Visible=true;break;
-            case  "BOAFeedEurope"       : BOAFeedEurope.Visible = true;break;
-            case  "BOAFeedEurope MBNA"  : BOAFeedEuropeMBNA.Visible = true ;break;
-            case  "BOAFEEDIndia"        : BoaFeedIndia.Visible = true; break;
-            case  "BOAFEEDUSA"          : BOAFeedUSA.Visible = true;break;
-            default                     : break;        
+        if(feedname.Contains("web05")){
+                BOAFeedAsia.Visible = true;
         }
+        else if(feedname.Contains("web06")){
+            BOAFeedCanada.Visible = true;
+        }
+        else if (feedname.Contains("web01")){
+                BoaFeedIndia.Visible = true;
+        }
+        else{
+            switch (feedname)
+                { 
+                   // case  "BOAFeedAsia"         : BOAFeedAsia.Visible = true;break;
+                    //case  "BOAFeedCanada"       : BOAFeedCanada.Visible = true; break;
+                    case  "BOAFeedCanadaFrench" : BOAFeedCanadaFrench.Visible=true;break;
+                    case  "BOAFeedEurope"       : BOAFeedEurope.Visible = true;break;
+                    case  "BOAFeedEurope MBNA"  : BOAFeedEuropeMBNA.Visible = true ;break;
+                   // case  "BOAFEEDIndia"        : BoaFeedIndia.Visible = true; break;
+                   // case  "BOAFEEDUSA"          : BOAFeedUSA.Visible = true;break;
+                    default                     : break;        
+                }
+         }
 
         Page.Title = Master.PageTitle + " | " + lblJobTitle.InnerText;
     }
