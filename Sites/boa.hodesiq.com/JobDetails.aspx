@@ -93,7 +93,7 @@
                                 </script>
                                     <script type="text/javascript" src="http://utility-qa.bankofamerica.com/uet/social_share.js"></script>
                                 </td>
-                                   <td width="100px" align="left"><b>&nbsp;&nbsp;&nbsp;Linkedin</b></br></br></br></br></br>  </td>   
+                                   <td width="100px" align="left"><b>&nbsp;&nbsp;&nbsp;LinkedIn</b></br></br></br></br></br>  </td>   
                                                                                                
                              
                                  
