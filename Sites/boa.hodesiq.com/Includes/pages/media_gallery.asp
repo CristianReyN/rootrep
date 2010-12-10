@@ -52,7 +52,13 @@ Enjoy!
 	<option value="lobgr"<%If mg="lobgr" Then Response.write " selected"%>>Risk Management</option>
 	<option value="sales"<%If mg="sales" Then Response.write " selected"%>>Sales</option>
 	<option value="lobgto"<%If mg="lobgto" Then Response.write " selected"%>>Technology</option>
-</select><%If page_section = "ADA" Then%><input name="Select" alt="Select" value="Select" title="Select" type="Submit"  class="btn"/><%End If%>
+</select>
+<%If page_section = "ADA" Then%>
+<script language="JavaScript" type="text/javascript"><!--
+create_safebutton("Select","javascript: _submit();",0,0,0,0,"Select");
+//--></script>
+<noscript><input name="Select" alt="Select" value="Select" title="Select" type="Submit"  class="btn"/></noscript>
+<%End If%>
 </form>
 </div>
 <div align="left" style="margin: 0px; padding: 0px; width: 100%;">
