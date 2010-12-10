@@ -55,15 +55,8 @@ public partial class JobDetails : System.Web.UI.Page
 			lblJobTitle.InnerText = dt.Rows[0]["JobTitle"].ToString() + " : " + dt.Rows[0]["JobsId"].ToString();            
 			lblLocation.Text = dt.Rows[0]["Location"].ToString();
 			lblLocationFooter.Text = dt.Rows[0]["Location"].ToString();
-            if (countryid == "1")
-            {
-                lblPartTimeFullTime.Text = dt.Rows[0]["FullPartTime"].ToString();
-            }
-            else
-            {
-                lblPartTimeFullTime.Text = dt.Rows[0]["EmploymentType"].ToString();
-            }
-			lblPostingDate.Text = dt.Rows[0]["PostingDate"].ToString();
+            lblPartTimeFullTime.Text = dt.Rows[0]["FullPartTime"].ToString();
+           	lblPostingDate.Text = dt.Rows[0]["PostingDate"].ToString();
 			lblSchedule.Text = dt.Rows[0]["WeeklySchedule"].ToString();
 			lblShift.Text = dt.Rows[0]["Shift"].ToString();
 			lblTravel.Text = dt.Rows[0]["Travel"].ToString();
