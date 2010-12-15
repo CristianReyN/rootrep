@@ -27,6 +27,8 @@ public partial class JobDetails : System.Web.UI.Page
 	private string srcvalue = string.Empty;
  
 	private string targetpage = string.Empty;
+    string pageTitle = "";
+    string jobtitle = "";
 
    
 
@@ -52,7 +54,9 @@ public partial class JobDetails : System.Web.UI.Page
 			strJobID = dt.Rows[0]["JobsId"].ToString();
 
             lblDescripton.Text = LinkBuilder(dt.Rows[0]["Description"].ToString(), "Description");
-			lblJobTitle.InnerText = dt.Rows[0]["JobTitle"].ToString() + " : " + dt.Rows[0]["JobsId"].ToString();            
+            jobtitle = dt.Rows[0]["JobTitle"].ToString();
+			lblJobTitle.InnerText = jobtitle + " : " + dt.Rows[0]["JobsId"].ToString();
+            pageTitle = "Bank of America Careers: " + dt.Rows[0]["JobTitle"].ToString() + " : " + dt.Rows[0]["JobsId"].ToString();
 			lblLocation.Text = dt.Rows[0]["Location"].ToString();
 			lblLocationFooter.Text = dt.Rows[0]["Location"].ToString();
             lblPartTimeFullTime.Text = dt.Rows[0]["FullPartTime"].ToString();
@@ -80,7 +84,8 @@ public partial class JobDetails : System.Web.UI.Page
                 ApplyURL = dt.Rows[0]["ApplyURL"].ToString() + "&src=" + Request["src"];
             }
 
-            this.hApplyNow.Value = targetpage + "countryid=" + CountryID + "&url=" + HttpUtility.UrlEncode(ApplyURL);            						
+            this.hApplyNow.Value = targetpage + "countryid=" + CountryID + "&url=" + HttpUtility.UrlEncode(ApplyURL);
+            ViewState["pageTitle"] = pageTitle;        
 		}
 		else
 		{
@@ -88,11 +93,10 @@ public partial class JobDetails : System.Web.UI.Page
 		}
        
         returntoJobsearch.NavigateUrl = "jobsearch.aspx?" + Request.QueryString;
-        if (countryid != "1")
-        {
-            boanet_safebutton.writeBOASafeButton("Apply1", phApply1, "ApplyNow|*|" + dt.Rows[0]["JobTitle"].ToString(), Apply_Click_NoJS, this.Request, this.hApplyNow.Value);
-            boanet_safebutton.writeBOASafeButton("Apply2", phApply2, "ApplyNow|*|" + dt.Rows[0]["JobTitle"].ToString(), Apply_Click_NoJS, this.Request, this.hApplyNow.Value);
-        }
+       
+        boanet_safebutton.writeBOASafeButton("Apply1", phApply1, "ApplyNow|*|" + dt.Rows[0]["JobTitle"].ToString(), Apply_Click_NoJS, this.Request, this.hApplyNow.Value);
+        boanet_safebutton.writeBOASafeButton("Apply2", phApply2, "ApplyNow|*|" + dt.Rows[0]["JobTitle"].ToString(), Apply_Click_NoJS, this.Request, this.hApplyNow.Value);
+        
         prepbuttons();
 
 		//not ready For Pro Yet!! 
@@ -138,12 +142,15 @@ public partial class JobDetails : System.Web.UI.Page
 
         if (!IsPostBack)
         {
+            Page.Title = pageTitle;
             feedname = Request.QueryString["feedname"] == null ? "" : Request.QueryString["feedname"].ToString();
             ViewState["feedname"] = feedname;
         }
         else
         {
             feedname = ViewState["feedname"].ToString();
+            pageTitle = ViewState["pageTitle"].ToString();
+            Page.Title = pageTitle;    
         }
         if(feedname.Contains("web05")){
                 BOAFeedAsia.Visible = true;
@@ -168,7 +175,44 @@ public partial class JobDetails : System.Web.UI.Page
                 }
          }
 
-        Page.Title = Master.PageTitle + " | " + lblJobTitle.InnerText;
+        int facebookjobtitlelength = Int32.Parse(ConfigurationManager.AppSettings["facebookjobtitlelength"].ToString()) ;
+        int twitterjobtitlelength = Int32.Parse(ConfigurationManager.AppSettings["twitterjobtitlelength"].ToString());
+        int linkedinjobtitlelength = Int32.Parse(ConfigurationManager.AppSettings["linkedinjobtitlelength"].ToString());
+
+        if (facebookjobtitlelength > 0 && facebookjobtitlelength < pageTitle.Length)
+        {
+            hdnFacebookTitle.Value = pageTitle.Substring(0, facebookjobtitlelength);
+        }
+        else
+        {
+            hdnFacebookTitle.Value = pageTitle;
+        }
+
+        //pageTitle = "#Job opportunity at Bank of America:  + <" + pageTitle + ">";
+ 
+
+        if (twitterjobtitlelength > 0 && twitterjobtitlelength < pageTitle.Length)
+        {
+            hdnTwitterTitle.Value = pageTitle.Substring(0, twitterjobtitlelength);
+        }
+        else
+        {
+            hdnTwitterTitle.Value = pageTitle;
+        }
+
+
+        if (linkedinjobtitlelength > 0 && linkedinjobtitlelength < pageTitle.Length)
+        {
+            hdnLinkedInTitle.Value = pageTitle.Substring(0, linkedinjobtitlelength);
+        }
+        else
+        {
+            hdnLinkedInTitle.Value = pageTitle;
+        }
+       
+       
+
+      
     }
 
     protected void Apply_Click(object sender, EventArgs e)

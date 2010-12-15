@@ -67,9 +67,10 @@
                                  <tr>                              
                                  <td valign="top" align="right" width="40px">
                                     
-                                    <script language="javascript" type="text/javascript">
+                                    <script language="javascript" type="text/javascript">                                    
                                     <!--
-                                    var socialSite = "2"
+                                        var socialSite = "2"
+                                        var twitterStatusDescription = "<%=hdnTwitterTitle.Value%>"
                                     //-->
                                     </script>
                                     <script type="text/javascript" src="http://utility-qa.bankofamerica.com/uet/social_share.js"></script>
@@ -88,7 +89,9 @@
                                 <script language="javascript" type="text/javascript">
                                 <!--
                                     var socialSite = "3"
-                                    var useTinyURL = "0";
+                                    var useTinyURL = "0"
+                                    var titleValue = "<%=hdnLinkedInTitle.Value%>"
+                                  
                                 //-->
                                 </script>
                                     <script type="text/javascript" src="http://utility-qa.bankofamerica.com/uet/social_share.js"></script>
@@ -189,6 +192,9 @@
             </td>
         </tr>
     </table>
+    <asp:HiddenField ID="hdnTwitterTitle" runat="server" Value="" />
+      <asp:HiddenField ID="hdnFacebookTitle" runat="server" Value="" />
+        <asp:HiddenField ID="hdnLinkedInTitle" runat="server" Value="" />
     <span id="BOAFeedUSA" visible="false" runat="server" class='auraltext'>
 <h2 style="margin: 0px 0px 0px 12px; ">Important information on applying for positions</h2>
 Apply Now. You are encouraged to complete this online application, however if you have difficulty, you should:
