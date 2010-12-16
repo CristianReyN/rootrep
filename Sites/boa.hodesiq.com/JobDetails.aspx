@@ -58,6 +58,7 @@
                                     <script language="javascript" type="text/javascript">
                                     <!--
                                         var socialSite = "1"
+                                        var useTinyURL = "0"
                                     //-->
                                     </script>
                                     <script type="text/javascript" src="http://utility-qa.bankofamerica.com/uet/social_share.js"></script>
@@ -82,25 +83,7 @@
                               
                               
                                  </tr>
-                                 <tr>
-                               
-                                 <td valign="top" width="40px" align="right">
-                                
-                                <script language="javascript" type="text/javascript">
-                                <!--
-                                    var socialSite = "3"
-                                    var useTinyURL = "0"
-                                    var titleValue = "<%=hdnLinkedInTitle.Value%>"
-                                  
-                                //-->
-                                </script>
-                                    <script type="text/javascript" src="http://utility-qa.bankofamerica.com/uet/social_share.js"></script>
-                                </td>
-                                   <td width="100px" align="left"><b>&nbsp;&nbsp;&nbsp;LinkedIn</b></br></br></br></br></br>  </td>   
-                                                                                               
-                             
-                                 
-                                 </tr>                                                                                                                                                                                                                                
+                                                                                                                                                                                                                                                             
                                  <tr>
                                 <td colspan=3 align="center"><b>Stay Connected</b></br></br>
                                 </td>
@@ -193,7 +176,6 @@
         </tr>
     </table>
     <asp:HiddenField ID="hdnTwitterTitle" runat="server" Value="" />
-      <asp:HiddenField ID="hdnFacebookTitle" runat="server" Value="" />
         <asp:HiddenField ID="hdnLinkedInTitle" runat="server" Value="" />
     <span id="BOAFeedUSA" visible="false" runat="server" class='auraltext'>
 <h2 style="margin: 0px 0px 0px 12px; ">Important information on applying for positions</h2>

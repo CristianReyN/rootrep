@@ -54,10 +54,10 @@ public partial class JobDetails : System.Web.UI.Page
 			strJobID = dt.Rows[0]["JobsId"].ToString();
 
             lblDescripton.Text = LinkBuilder(dt.Rows[0]["Description"].ToString(), "Description");
-            jobtitle = dt.Rows[0]["JobTitle"].ToString();
-			lblJobTitle.InnerText = jobtitle + " : " + dt.Rows[0]["JobsId"].ToString();
-            pageTitle = "Bank of America Careers: " + dt.Rows[0]["JobTitle"].ToString() + " : " + dt.Rows[0]["JobsId"].ToString();
-			lblLocation.Text = dt.Rows[0]["Location"].ToString();
+            jobtitle = dt.Rows[0]["JobTitle"].ToString()+ " : " + dt.Rows[0]["JobsId"].ToString();;
+            lblJobTitle.InnerText = jobtitle;
+            pageTitle = "Bank of America Careers: " + jobtitle;
+            lblLocation.Text = dt.Rows[0]["Location"].ToString();
 			lblLocationFooter.Text = dt.Rows[0]["Location"].ToString();
             lblPartTimeFullTime.Text = dt.Rows[0]["FullPartTime"].ToString();
            	lblPostingDate.Text = dt.Rows[0]["PostingDate"].ToString();
@@ -85,7 +85,8 @@ public partial class JobDetails : System.Web.UI.Page
             }
 
             this.hApplyNow.Value = targetpage + "countryid=" + CountryID + "&url=" + HttpUtility.UrlEncode(ApplyURL);
-            ViewState["pageTitle"] = pageTitle;        
+            ViewState["pageTitle"] = pageTitle;
+            ViewState["jobtitle"] = jobtitle;
 		}
 		else
 		{
@@ -150,7 +151,8 @@ public partial class JobDetails : System.Web.UI.Page
         {
             feedname = ViewState["feedname"].ToString();
             pageTitle = ViewState["pageTitle"].ToString();
-            Page.Title = pageTitle;    
+            Page.Title = pageTitle;
+            jobtitle = ViewState["jobtitle"].ToString();
         }
         if(feedname.Contains("web05")){
                 BOAFeedAsia.Visible = true;
@@ -175,31 +177,19 @@ public partial class JobDetails : System.Web.UI.Page
                 }
          }
 
-        int facebookjobtitlelength = Int32.Parse(ConfigurationManager.AppSettings["facebookjobtitlelength"].ToString()) ;
+       
         int twitterjobtitlelength = Int32.Parse(ConfigurationManager.AppSettings["twitterjobtitlelength"].ToString());
         int linkedinjobtitlelength = Int32.Parse(ConfigurationManager.AppSettings["linkedinjobtitlelength"].ToString());
 
-        if (facebookjobtitlelength > 0 && facebookjobtitlelength < pageTitle.Length)
+
+        if (twitterjobtitlelength > 0 && twitterjobtitlelength < jobtitle.Length)
         {
-            hdnFacebookTitle.Value = pageTitle.Substring(0, facebookjobtitlelength);
+            hdnTwitterTitle.Value = "#Job opportunity at Bank of America: " + jobtitle.Substring(0, twitterjobtitlelength) + "...";
         }
         else
         {
-            hdnFacebookTitle.Value = pageTitle;
+            hdnTwitterTitle.Value = "#Job opportunity at Bank of America: " + jobtitle;
         }
-
-        //pageTitle = "#Job opportunity at Bank of America:  + <" + pageTitle + ">";
- 
-
-        if (twitterjobtitlelength > 0 && twitterjobtitlelength < pageTitle.Length)
-        {
-            hdnTwitterTitle.Value = pageTitle.Substring(0, twitterjobtitlelength);
-        }
-        else
-        {
-            hdnTwitterTitle.Value = pageTitle;
-        }
-
 
         if (linkedinjobtitlelength > 0 && linkedinjobtitlelength < pageTitle.Length)
         {
