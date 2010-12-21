@@ -4,8 +4,8 @@
 <asp:Content ID="Content1" runat="Server" ContentPlaceHolderID="cphmain">
 	<h1 style="margin: 0px 0px 0px 12px; " runat="server" id="lblJobTitle">Advanced Search</h1>
 
-
-
+    <%string countryID = Request.QueryString["countryid"] == null ? "1" : Request.QueryString["countryid"].ToString();%>
+    
     <table border="0" cellpadding="0" cellspacing="0" summary="" width="578px">  
         <tr valign="top">
             <td  style="padding: 6px 0px 0px 12px; height:100%" valign="top">
@@ -23,14 +23,14 @@
                     
                     <tr>
                         <td style="padding: 18px 6px 0px 0px;" valign="top"  width="70%">
-                        <%if (Request.QueryString["countryid"] == "1")
+                        <%if(countryID.Equals( "1" ))
                           { %>
                             <h2 style="margin: 0px;">
                                 Description</h2>
                                 <%} %>
                             <p>
                                 <asp:Label ID="lblDescripton" runat="server" ToolTip="Job Description" Width="406px"></asp:Label>&nbsp;</p>
-                              <%if (Request.QueryString["countryid"] == "1")
+                              <%if(countryID.Equals( "1" ))
                                 { %>
                             <h2 style="margin: 0px; margin-top: 18px;">
                                 Qualifications</h2>
@@ -108,7 +108,7 @@
                                         <asp:Label ID="lblLocationFooter" runat="server"></asp:Label><br/>
                                         <b>Job Family:</b> 
                                         <asp:Label ID="lblJobFamily" runat="server"></asp:Label><br/>
-                                        <%if (Request.QueryString["countryid"] == "1")
+                                        <%if(countryID.Equals( "1" ))
                                           { %>
                                         <b>Language:</b> 
                                         <asp:Label ID="lblLanguage" runat="server"></asp:Label><br/>
@@ -119,7 +119,7 @@
                                     <td style="width:50%" align="left">
                                         <b>Posting Date:</b> 
                                         <asp:Label ID="lblPostingDate" runat="server"></asp:Label><br />
-                                        <%if (Request.QueryString["countryid"] == "1")
+                                        <%if(countryID.Equals( "1" ))
                                           { %>
                                         <b>Unposting Date:</b> 
                                         <%} %>
@@ -130,32 +130,30 @@
                         </td>
                     </tr>
                     <tr>
-                        <td style="padding: 18px 6px 0px 0px;" valign="top"  width="75%">
-                        <%if (Request.QueryString["countryid"] == "1")
+                        <td style="padding: 18px 6px 0px 0px;" valign="top"  width="75%">                        
+                        <%if (countryID.Equals("1"))
                           { %>
                             <p class="H3" style="margin: 0px;">
                                 Hours Per Week:<asp:Label ID="lblHoursPerWeek" runat="server"></asp:Label>
                             </p>
-                            <%} %>
+                        <%} %>
                             <p class="H3" style="margin: 0px">
                                 Full / Part-time: 
                                 <asp:Label ID="lblPartTimeFullTime" runat="server" Text="Label"></asp:Label></p>
                             <p class="H3" style="margin: 0px;">
-                            <%if (Request.QueryString["countryid"] == "1")
-                              { %>
-                                Shift: 
-                                <%}
-                               %>
-                              <asp:Label ID="lblShift" runat="server" Text="Label"></asp:Label><span style="font-weight: normal;"></span></p>
-                                 <%if (Request.QueryString["countryid"] == "1")
+                        <%if(countryID.Equals( "1" ))
+                          { %>
+                            Shift: 
+                            <asp:Label ID="lblShift" runat="server" Text="Label"></asp:Label><span style="font-weight: normal;"></span></p>
+                        <%} %>
+                        <%if(countryID.Equals( "1" ))
                           { %>
                             <p class="H3" style="margin: 0px;"  runat="server" id="Weekly">
                                 Weekly Schedule:<asp:Label ID="lblSchedule" runat="server" Text="Label"></asp:Label>
                             </p>
-                            <%} %>
+                        <%} %>
                         </td>
-                        <td style="padding: 0px 0px 0px 6px;" valign="top">
-                            &nbsp;</td>
+                        <td style="padding: 0px 0px 0px 6px;" valign="top">&nbsp;</td>
                     </tr>
                     <tr>
                         <td style="padding: 18px 6px 0px 0px; height: 156px;" valign="top"  width="70%">
