@@ -78,8 +78,9 @@ public static class boanet_safebutton
         if (buttontext.StartsWith("ApplyNow|*|"))
         {
             string auraltext = "Apply Now";
-            string CountryId = HttpContext.Current.Request["countryid"].ToString();
-            if (CountryId != "1")
+            string countryID = HttpContext.Current.Request["countryid"] == null ? "1" : HttpContext.Current.Request["countryid"].ToString();
+
+            if(countryID != "1")
             {
                 auraltext = auraltext + " <span class='auraltext' title='Apply Now. Link opens in new window.'>For `" + buttontext.Replace("ApplyNow|*|", "").ToString() + "`. If you have any difficulties, refer to the below alternatives. Opens in a new window.</span>";
             }
