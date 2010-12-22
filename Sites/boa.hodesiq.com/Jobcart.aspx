@@ -7,8 +7,10 @@
 <span class='auraltext'>
 <h2 style="margin: 0px 0px 0px 12px; ">Important information on applying for positions</h2>
 Apply Now. You are encouraged to complete this online application, however if you have difficulty, you should:
-<li /> Email your resume to <a href="mailto:bac@resume.bankofamerica.com">bac@resume.bankofamerica.com</a>
-<li /> In the Subject Line of your email, include "Source = Bank of America Careers" and the specific position number found at the top of the job posting
+<ul>
+<li>Email your resume to <a href="mailto:bac@resume.bankofamerica.com">bac@resume.bankofamerica.com</a></li>
+<li>In the Subject Line of your email, include "Source = Bank of America Careers" and the specific position number found at the top of the job posting</li>
+</ul>
 </span>
   
     <table border="0" cellpadding="0" cellspacing="0" summary="" width="100%">
@@ -40,7 +42,7 @@ Apply Now. You are encouraged to complete this online application, however if yo
                             BorderWidth="0px" 
                             EmptyDataText="Your job cart is empty." 
                             ToolTip="Job cart results" 
-                            summary="Job cart results. The first two columns are job name and job location. The third column allows you to apply now for the job. The fourth column contains a checkbox to remove the job from the cart.">
+                            summary="Job cart results. The first two columns are job name and job location. The third column allows you to apply now for the job. The fourth column contains a checkbox to remove the job from the cart." GridLines="None">
                                 <RowStyle CssClass="C1" BorderStyle="None" />
                                 <AlternatingRowStyle CssClass="C2" BorderStyle="None" />
                                 <HeaderStyle BackColor="#EAF1F7" />
