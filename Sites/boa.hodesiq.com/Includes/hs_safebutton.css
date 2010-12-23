@@ -5,7 +5,7 @@ a.saf-btn, a.saf-btn-over {font-size: 0.77em; font-weight: bold; color: #ffffff;
 .saf-btn {width: 100%;}
 a.saf-btn, a.saf-btn-over {font-size: 0.84em; text-decoration: none; padding: 2px 2px 2px 4px; border-top: 1px solid #CBE3FF; border-right: 1px solid #003366; border-bottom: 1px solid #003366; border-left:1px solid #B7CFEB; line-height: 120%;}
 a.saf-btn:hover, a.saf-btn-over {color: #C7D2DC;}
-div.saf-btn {font-family : Verdana, Geneva, Arial, Helvetica, sans-serif; background: #366496; background: #ffffff; border-right: 1px solid #000000;	border-bottom: 1px solid #000000; border-top:1px solid #CBE3FF;	border-left:1px solid #B7CFEB; width: auto; height: auto; padding: 3px 0px 4px 0px;}
+div.saf-btn {font-family : Verdana, Geneva, Arial, Helvetica, sans-serif; background: #366496; background: #ffffff; border-right: 1px solid #000000;	border-bottom: 1px solid #000000; border-top:1px solid #CBE3FF;	border-left:1px solid #B7CFEB; width: auto; height: auto; padding: 0px 0px 2px !important;}
 
 
 /* Opera */
