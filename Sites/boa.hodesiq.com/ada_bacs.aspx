@@ -29,7 +29,7 @@
                     best-in-class people, processes and practices. We belong to a globally admired brand
                     which is one of the largest financial institutions in the world. We are responsible
                     for core banking functions and consistently learn, contribute and grow.</p>
-                <p> We call our commitment to associates: “GROW” which stands for Growth, Rewards and
+                <p> We call our commitment to associates: <b>GROW</b> which stands for Growth, Rewards and
                     Opportunities in a World-class work environment.</p>
                 <p> This includes:</p>
                 <ul>
@@ -60,21 +60,21 @@
                     <b style="text-decoration: underline">Hyderabad</b></p>
                 <p>
                     Building Number 5A, Mind Space - Raheja IT Park<br />
-                    HITECH City, Madhapur<br/>
-                    Hyderabad - 500 081<br />
+                    HITEC City, Madhapur<br/>
+                    Hyderabad &#8211; 500 081<br />
                 </p>
                 <p>
                     9th Floor, 2A Maximus Towers, Mindspace - Raheja IT Park<br />
-                    HITECH City, Madhapur<br />
+                    HITEC City, Madhapur<br />
                     Hyderabad &#8211; 500 081</p>
                 <%--
                     <ul>
                         <li>1st Floor, Building No. 5,
                             <br />
                             Mind Space - Raheja IT Park,<br />
-                            HITECH City, Madhapur, Hyderabad - 500 081 </li>
+                            HITEC City, Madhapur, Hyderabad - 500 081 </li>
                         <li>5th Floor, 2B Maximus Towers,ace - Raheja IT Park<br />
-                            HITECH City, Madhapur, Hyderabad &#8211; 500 081 </li>
+                            HITEC City, Madhapur, Hyderabad &#8211; 500 081 </li>
                     </ul>
                 --%>
                 
@@ -82,7 +82,7 @@
 
                 Ascendas IT Park, Crest Building, Phase II, 9th Floor<br />
                 Taramani High Road<br />
-                Chennai 600 113<br /></p>
+                Chennai &#8211; 600 113<br /></p>
                 <p>
                     <b style="text-decoration: underline">Mumbai </b>
                 </p>

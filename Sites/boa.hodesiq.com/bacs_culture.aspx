@@ -47,7 +47,7 @@
                     helps value our differences and make better collective decisions which benefit everyone.&quot;</p>
                 <p class="style16 text_bold" />
                 Bhavna Khurana<br />
-                Manager, ITS, Hyderabad</p>
+                Senior Manager, ITS, Hyderabad</p>
                 <p>
                     <img src="images/Ketan_Ghelani.jpg" alt="Ketan J Ghelani, Senior System Analyst, BPS, Mumbai" /></p>
                 <p align="justify">
@@ -69,8 +69,8 @@
                     opportunities within the organization.&quot;</p>
                 <p class="style16 text_bold">
                     Gautam Banerjee<br />
-                    Manager, Q&amp;P, Mumbai</p>
-                <p>
+                    Senior Manager, Q&amp;CD, Mumbai</p>
+                <!--<p>
                     <img src="images/asia-sumit.gif" alt="Sumit Chhabra, Team Member, BPS, Gurgaon" /></p>
                 <p align="justify">
                     &quot;When I entered the interview room I was nervous about my future with this
@@ -81,7 +81,7 @@
                     I am proud to be an associate of Bank of America.&quot;</p>
                 <p class="style16 text_bold">
                     Sumit Chhabra<br />
-                    Team Member, BPS, Gurgaon</p>
+                    Team Member, BPS, Gurgaon</p>-->
                 <p>
                     <img src="images/Rahul-Bansal.jpg" alt="Rahul Bansal, AVP, FAKC, Gurgaon" /></p>
                 <p align="justify">

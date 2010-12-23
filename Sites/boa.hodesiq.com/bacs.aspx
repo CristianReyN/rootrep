@@ -30,7 +30,7 @@
                     best-in-class people, processes and practices. We belong to a globally admired brand
                     which is one of the largest financial institutions in the world. We are responsible
                     for core banking functions and consistently learn, contribute and grow.</p>
-                <p> We call our commitment to associates: “GROW” which stands for Growth, Rewards and
+                <p> We call our commitment to associates: <b>GROW</b> which stands for Growth, Rewards and
                     Opportunities in a World-class work environment.</p>
                 <p> This includes:</p>
                 <ul>

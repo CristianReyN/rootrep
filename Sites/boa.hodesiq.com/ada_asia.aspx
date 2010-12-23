@@ -558,21 +558,21 @@ Singapore 099 253<br /></p>
                     <b style="text-decoration: underline">Hyderabad</b></p>
                 <p>
                     Building Number 5A, Mind Space - Raheja IT Park<br />
-                    HITECH City, Madhapur<br/>
+                    HITEC City, Madhapur<br/>
                     Hyderabad - 500 081<br />
                 </p>
                 <p>
                     9th Floor, 2A Maximus Towers, Mind Space - Raheja IT Park<br />
-                    HITECH City, Madhapur<br />
+                    HITEC City, Madhapur<br />
                     Hyderabad &#8211; 500 081</p>
                 <%--
                     <ul>
                         <li>1st Floor, Building No. 5,
                             <br />
                             Mind Space - Raheja IT Park,<br />
-                            HITECH City, Madhapur, Hyderabad - 500 081 </li>
+                            HITEC City, Madhapur, Hyderabad - 500 081 </li>
                         <li>5th Floor, 2B Maximus Towers,ace - Raheja IT Park<br />
-                            HITECH City, Madhapur, Hyderabad &#8211; 500 081 </li>
+                            HITEC City, Madhapur, Hyderabad &#8211; 500 081 </li>
                     </ul>
                 --%>
                 
@@ -580,7 +580,7 @@ Singapore 099 253<br /></p>
 
                 Ascendas IT Park, Crest Building, Phase II, 9th Floor<br />
                 Taramani High Road<br />
-                Chennai 600 113<br /></p>
+                Chennai &#8211; 600 113<br /></p>
                 <p>
                     <b style="text-decoration: underline">Mumbai </b>
                 </p>

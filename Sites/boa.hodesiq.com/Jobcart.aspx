@@ -4,14 +4,14 @@
 <asp:Content ID="Content1" runat="Server" ContentPlaceHolderID="cphmain">
 	<h1 style="margin: 0px 0px 0px 12px; ">Manage Your Job Cart</h1>
 	
-<span class='auraltext'>
+<!--<span class='auraltext'>
 <h2 style="margin: 0px 0px 0px 12px; ">Important information on applying for positions</h2>
 Apply Now. You are encouraged to complete this online application, however if you have difficulty, you should:
 <ul>
 <li>Email your resume to <a href="mailto:bac@resume.bankofamerica.com">bac@resume.bankofamerica.com</a></li>
 <li>In the Subject Line of your email, include "Source = Bank of America Careers" and the specific position number found at the top of the job posting</li>
 </ul>
-</span>
+</span>-->
   
     <table border="0" cellpadding="0" cellspacing="0" summary="" width="100%">
         <tr valign="top">
