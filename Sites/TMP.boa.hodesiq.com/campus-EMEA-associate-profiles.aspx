@@ -24,6 +24,14 @@
             <p>I currently work in Credit Derivatives Strategy, which is a global team covering the European and North American credit derivatives markets. </p>
             <p><a href="campus-meet-our-people-profile-Rachna.aspx" title="Read Rachna's profile">Read <span class="hiddencontent">Rachna's</span> Profile</a></p>
         </div>
+        
+        <div class="profile-article">
+            <img src="images/campus/icon-Richard-1.jpg" width="50" height="80" alt="Richard" />
+            <h2>Richard</h2>
+            <p class="profile-depart">Investment Banking Associate Programme</p>
+            <p>I am an Associate on the Corporate Finance team in Investment Banking.</p>
+            <p><a href="campus-meet-our-people-profile-Richard.aspx" title="Read Richard's profile">Read <span class="hiddencontent">Richard's</span> Profile</a></p>
+        </div>
    
   </div>
    <script src="Includes/_swfobject.js" type="text/javascript"></script>

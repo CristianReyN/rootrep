@@ -38,6 +38,14 @@ you the opportunity to create real impact right out of the gate.</p>
             <p>My current role in Equity Market Risk Group recently changed from Exotic products side to flow business.</p>
             <p><a href="campus-meet-our-people-profile-Fujia.aspx" title="Read Fujia's profile">Read <span class="hiddencontent">Fujia's</span> Profile</a></p>
         </div>
+        
+       <div class="profile-article">
+            <img src="images/campus/icon-Gemma-1.jpg" width="50" height="80" alt="Gemma" />
+            <h2>Gemma</h2>
+            <p class="profile-depart">Global Markets Technology Analyst Programme</p>
+            <p>My principle responsibilities are the development and support of internal applications for the middle office in EMEA, the U.S. and Asia.</p>
+            <p><a href="campus-meet-our-people-profile-Gemma.aspx" title="Read Gemma's profile">Read <span class="hiddencontent">Gemma's</span> Profile</a></p>
+        </div>
       
         <div class="profile-article">
             <img src="images/campus/icon-Hira.jpg" width="50" height="80" alt="Hira" />

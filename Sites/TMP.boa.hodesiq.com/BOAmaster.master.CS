@@ -65,6 +65,11 @@ public partial class BOAmaster : System.Web.UI.MasterPage
             strContent = "Main page for job search functionality for careers site.";
             breadCrum = " | Job Search | Applicants with Disabilities";
         }
+        else if ((Request.ServerVariables["SCRIPT_NAME"].IndexOf("campus-meet-our-people-profile-Gemma.aspx", StringComparison.CurrentCultureIgnoreCase) > 0) || (Request.ServerVariables["SCRIPT_NAME"].IndexOf("campus-meet-our-people-profile-Richard.aspx", StringComparison.CurrentCultureIgnoreCase) > 0)) 
+        {
+            strContent = "Universal Campus Profile Description page for the Campus Recruiting site. This page displays the background and information about the experiences of a Bank of America Merrill Lynch analyst, associate or intern.";
+            breadCrum = " | Campus Recruiting | Meet Our People";
+        }
         else
         {
             strContent = "Main page for job search functionality for careers site.";
