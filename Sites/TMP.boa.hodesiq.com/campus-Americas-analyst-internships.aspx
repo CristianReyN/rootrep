@@ -18,11 +18,7 @@
                   <li><a href="campusrecruiting/usin-finance-intern-program.asp">Finance Intern Program</a></li>
                   </ul>
                   
-                  <h2 class="questions">Global Consumer and Small Business Banking</h2>
-                  <ul>
-                  <li><a href="campusrecruiting/usin-operations-management-analyst-intern-program.asp">Operations Management Analyst Intern Program</a></li>
-                  </ul>
-                  
+                                  
                   <h2 class="questions">Global Banking and Markets</h2>
                   <ul>
                   <li><a href="campusrecruiting/usin-global-corporate-financial-institutions-treasury-summer-analyst-program.asp">Global Corporate and Financial Institutions Treasury Summer Analyst Program</a></li>
@@ -47,6 +43,24 @@
                       Real Estate Banking Summer Analyst Program</a></li>
                     <li><a href="campusrecruiting/usin-global-commercial-banking-summer-analyst-program.asp">Global 
                       Commercial Banking Summer Analyst Program</a></li>
+                  </ul>
+                  
+                   <h2 class="questions">Global Consumer and Small Business Banking</h2>
+                  <ul>
+                  <li><a href="campusrecruiting/usin-operations-management-analyst-intern-program.asp">Operations Management Analyst Intern Program</a></li>
+                  </ul>
+                  
+                  <h2 class="questions">Global Risk</h2>
+                  <ul>
+                    <li><a href="campusrecruiting/usin-global-corporate-financial-institutions-debt-products-summer-analyst-program.asp">Global 
+                      Corporate &amp; Financial Institutions Debt Products Summer 
+                      Analyst Program</a></li>
+                    <li><a href="campusrecruiting/usin-global-risk-management-intern-program.asp">Global 
+                      Risk Management Intern Program</a></li>
+                    <li><a href="campusrecruiting/usin-markets-risk-intern-program.asp">Markets Risk Intern Program</a></li>
+                    <li><a href="campusrecruiting/usin-quantitative-management-intern-program.asp">Quantitative 
+                      Management Intern Program</a></li>
+                    
                   </ul>
                   
                   <h2 class="questions">Global Technology and Operations</h2>
@@ -84,16 +98,7 @@
                     <li><a href="campusrecruiting/usin-institutional-mortgage-services-analyst-intern-program.asp">Institutional 
                       Mortgage Services Analyst Intern Program</a></li>
                   </ul>
-                  <h2 class="questions">Global Risk</h2>
-                  <ul>
-                    <li><a href="campusrecruiting/usin-global-risk-management-intern-program.asp">Global 
-                      Risk Management Intern Program</a></li>
-                    <li><a href="campusrecruiting/usin-quantitative-management-intern-program.asp">Quantitative 
-                      Management Intern Program</a></li>
-                    <li><a href="campusrecruiting/usin-global-corporate-financial-institutions-debt-products-summer-analyst-program.asp">Global 
-                      Corporate &amp; Financial Institutions Debt Products Summer 
-                      Analyst Program</a></li>
-                  </ul>
+                  
                 </div>
                 <div id="aside"> <a href="campusrecruiting/career_fit_tool.asp"><img src="images/campus/btn-careerfinder.jpg" width="179" height="66" alt="Career Finder: Come as you are. We've got a career to fit." /></a> 
                   <a href="CampusEvents.aspx?region=1"><img src="images/campus/btn-campus-events.jpg" width="179" height="66" alt="Campus Events: Let's meet soon." /></a> 

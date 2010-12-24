@@ -22,7 +22,7 @@
         <div class="profile-article">
             <img src="images/campus/icon-Gemma-1.jpg" width="50" height="80" alt="Gemma" />
             <h2>Gemma</h2>
-             <p class="profile-depart-spec">Global Markets Technology Analyst Programme</p>
+             <p class="profile-depart-spec">Global Markets Technology<br />Analyst Programme</p>
             <p>My principle responsibilities are the development and support of internal applications for the middle office in EMEA, the U.S. and Asia.</p>
             <p><a href="campus-meet-our-people-profile-Gemma.aspx" title="Read Gemma's profile">Read <span class="hiddencontent">Gemma's</span> Profile</a></p>
         </div>
