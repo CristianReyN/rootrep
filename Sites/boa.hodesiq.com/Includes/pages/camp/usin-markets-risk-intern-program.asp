@@ -65,7 +65,7 @@ New York, NY
 <br>
 				</td>
 				<td width="205" height="100%" valign="top" style="padding-top: 8px;" align="right">
-<img src="../Includes/pages/camp/profile/logo-BAC.jpg" width="205" height="153" alt="Bank of America" border="0" style="margin: 0px 0px 0px 0px;">
+<img src="../Includes/pages/camp/profile/logo-BAC.jpg" width="205" height="153" alt="Bank of America" title="Bank of America" border="0" style="margin: 0px 0px 0px 0px;">
 <!-- #include file="../../camprnav_region.asp" -->
 				</td>
 			</tr>

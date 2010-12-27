@@ -192,15 +192,14 @@
                     Hyderabad
                 </h3>
                 <p>
-                    1st Floor, Building No. 5,
-                    <br />
-                    Mind Space - Raheja IT Park,<br />
-                    HITEC City, Madhapur, Hyderabad - 500 081<br />
+                    Building Number 5A, Mind Space &#8211; Raheja IT Park<br />
+                    HITEC City, Madhapur<br />
+                    Hyderabad &#8211; 500 081<br />
                 </p>
                 <p>
-                    5th Floor, 2B Maximus Towers,<br />
-                    Mindspace - Raheja IT Park<br />
-                    HITEC City, Madhapur, Hyderabad &#8211; 500 081</p>
+                    9th Floor, 2A Maximus Towers, Mindspace &#8211; Raheja IT Park <br />
+                    HITEC City, Madhapur<br />
+                    Hyderabad &#8211; 500 081</p>
                 <%--<p><b style="text-decoration: underline">Hyderabad</b>
                     <ul>
                         <li>1st Floor, Building No. 5,
@@ -245,7 +244,8 @@
                 </h3>
                 <p>
                     Ascendas IT Park, Crest Building, Phase II, 9th Floor<br />
-                    Taramani High Road, Chennai &#8211; 600 113<br />
+                    Taramani High Road<br />
+                    Chennai &#8211; 600 113<br />
                 </p>
             </td>
         </tr>
