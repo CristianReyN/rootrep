@@ -54,18 +54,25 @@
             <p><a href="campus-meet-our-people-profile-Rachna.aspx" title="Read Rachna's Profile">Read <span class="hiddencontent">Rachna's</span> Profile</a></p>
             </div>
             
+            <div class="mop-profile">
+             <img src="images/campus/icon-mopRichard-1.jpg" width="40" height="40" alt="Richard" />
+            <h3>Richard</h3>
+            <p>Investment Banking Associate Programme</p>
+            <p><a href="campus-meet-our-people-profile-Richard.aspx" title="Read Richard's Profile">Read <span class="hiddencontent">Richard's</span> Profile</a></p>
+            </div>
+            
             <p class="learnlink"><a href="campus-EMEA-associate-profiles.aspx">View all our associate profiles</a></p>
         </div>
         
            <div class="featured-profile">
         <h2>Featured  Interns</h2>
         	
-           <!-- <div class="mop-profile">
-               <img src="images/campus/icon-mopKen.jpg" width="40" height="40" alt="Ken" />
-            <h3>Ken</h3>
-             <p>Sales and Trading Analyst Programme</p>
-            <p><a href="campus-meet-our-people-profile-Ken.aspx" title="Read Ken's Profile">Read <span class="hiddencontent">Ken's</span> Profile</a></p>
-            </div>-->
+           <div class="mop-profile">
+            <img src="images/campus/icon-mopGemma.jpg" width="40" height="40" alt="Gemma" />
+            <h3>Gemma</h3>
+            <p>Global Markets Technology Analyst Programme</p>
+            <p><a href="campus-meet-our-people-profile-Gemma.aspx" title="Read Gemma’s Profile">Read <span class="hiddencontent">Gemma's</span> Profile</a></p>
+            </div>
             
              <div class="mop-profile">
              <img src="images/campus/icon-mopJohn-William.jpg" width="40" height="40" alt="John-William" />

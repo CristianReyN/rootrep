@@ -19,6 +19,14 @@
             <p><a href="campus-profiles-Internship-Christoph.aspx" title="Read Christoph's profile">Read <span class="hiddencontent">Christoph's</span> Profile</a></p>
         </div>
 
+        <div class="profile-article">
+            <img src="images/campus/icon-Gemma-1.jpg" width="50" height="80" alt="Gemma" />
+            <h2>Gemma</h2>
+             <p class="profile-depart-spec">Global Markets Technology<br />Analyst Programme</p>
+            <p>My principle responsibilities are the development and support of internal applications for the middle office in EMEA, the U.S. and Asia.</p>
+            <p><a href="campus-meet-our-people-profile-Gemma.aspx" title="Read Gemma's profile">Read <span class="hiddencontent">Gemma's</span> Profile</a></p>
+        </div>
+
        <div class="profile-article">
             <img src="images/campus/icon-John-William.jpg" width="50" height="80" alt="John-William" />
             <h2>John-William </h2>
@@ -44,6 +52,14 @@
         </div>
         
          <div class="profile-article">
+            <img src="images/campus/icon-Richard-1.jpg" width="50" height="80" alt="Richard" />
+            <h2>Richard</h2>
+            <p class="profile-depart">Investment Banking Associate Programme</p>
+            <p>I am an Associate on the Corporate Finance team in Investment Banking.</p>
+            <p><a href="campus-meet-our-people-profile-Richard.aspx" title="Read Richard's profile">Read <span class="hiddencontent">Richard's</span> Profile</a></p>
+        </div>
+        
+        <div class="profile-article">
             <img src="images/campus/icon-Ross.jpg" width="50" height="80" alt="Ross" />
             <h2>Ross</h2>
             <p class="profile-depart">Treasury Management Analyst Programme</p>
