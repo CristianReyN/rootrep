@@ -67,7 +67,7 @@
             <p><a href="campus-profiles-Internship-Ross.aspx" title="Read Ross's profile">Read <span class="hiddencontent">Ross's</span> Profile</a></p>
         </div>
     
-    <p class="back-top"><a href="#profiles">Back to top</a></p>
+    <p class="back-top"><a href="#main-profiles">Back to top</a></p>
   </div>
   <script src="Includes/_swfobject.js" type="text/javascript"></script>
             <script src="Includes/profile-control.js" type="text/javascript"></script>
@@ -215,8 +215,8 @@
     var attributes = {};
 
 
-    swfobject.embedSWF("includes/pages/college/guan.swf", "guanflash", "205", "131", "9.0.0", flashvars, params, attributes);
-    swfobject.embedSWF("includes/pages/college/nathan.swf", "nathanflash", "205", "131", "9.0.0", flashvars, params, attributes);
+    swfobject.embedSWF("includes/pages/college/Guan.swf", "guanflash", "205", "131", "9.0.0", flashvars, params, attributes);
+    swfobject.embedSWF("includes/pages/college/Nathan.swf", "nathanflash", "205", "131", "9.0.0", flashvars, params, attributes);
 
 	</script>
 
