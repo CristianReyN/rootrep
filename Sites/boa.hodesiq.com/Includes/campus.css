@@ -1,0 +1,887 @@
+﻿/* 
+	Bank of America - Default Stylesheet
+	Author:  Deborah Foerst, UI Developer <debbie.foerst@tmp.com>
+	Company: TMP Worldwide Advertising and Communications, LLC
+*/
+
+
+
+@media screen, projection {
+
+	/* Default layout */
+	
+	.wai {
+	width: 0;
+	height: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	text-indent: -999em;
+	}
+	
+	#profiles a:link,
+	#maincontent a:link,
+	#main-profiles a:link,
+	#america-home a:link,
+	#asiapac-home a:link,
+	#emea-home a:link,
+	#global-gateway a:link {
+	font-size: .94em;
+	color: #336699;
+	text-decoration: none;
+	font-family: Arial, Helvetica, Verdana, sans-serif;
+	}
+	
+	#profiles a:visited,
+	#maincontent a:visited,
+	#main-profiles a:visited,
+	#america-home a:visited,
+	#asiapac-home a:visited,
+	#emea-home a:visited,
+	#global-gateway a:visited {
+	font-size: .94em;
+	color: #651c7e;
+	text-decoration: none;
+	font-family: Arial, Helvetica, Verdana, sans-serif;
+	}
+	
+	#profiles a:hover,
+	#maincontent a:hover,
+	#main-profiles a:hover,
+	#america-home a:hover,
+	#asiapac-home a:hover,
+	#emea-home a:hover,
+	#global-gateway a:hover {
+	font-size: .94em;
+	color: #336699;
+	text-decoration: underline;
+	font-family: Arial, Helvetica, Verdana, sans-serif;
+	}
+
+	#profiles,
+	#maincontent,
+	#main-profiles {
+	position: relative;
+	padding: 0;
+	width: 578px;
+	font-family: Arial, Helvetica, Verdana, sans-serif;
+	color: #333;
+	}
+	
+	#profiles h1 {
+	margin: 0;
+	padding: 0;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 1.7em;
+	color: #d4001a;
+	padding-bottom: 35px;
+	}
+	
+	#article {
+	float: left;
+	width: 383px;
+	margin-bottom: 50px;
+	}
+	
+	#maincontent #article h1,
+	#main-profiles #article h1 {
+	margin: 0;
+	padding: 0;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 1.7em;
+	color: #d4001a;
+	padding-bottom: 12px;
+	}
+	
+	#maincontent #article h2 {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, Helvetica, Verdana, sans-serif;
+	font-size: 1.3em;
+	color: #336699;
+	font-weight: normal;
+	padding-top: 5px;
+	padding-bottom: 3px;
+	}
+	
+	#maincontent #article h3 {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, Helvetica, Verdana, sans-serif;
+	color: #333;
+	font-size: 1.01em;
+	font-weight: bold;
+	padding-top: 5px;
+    }
+    
+    #maincontent #article h2.benefits {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, Helvetica, Verdana, sans-serif;
+	color: #333;
+	font-size: 1.01em;
+	font-weight: bold;
+	padding-top: 5px;
+    }
+    
+    #maincontent #article h2.benefits-second {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, Helvetica, Verdana, sans-serif;
+	color: #333;
+	font-size: 1.01em;
+	font-weight: bold;
+	padding-top: 17px;
+    }
+    
+	#maincontent #article h2.questions {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, Helvetica, Verdana, sans-serif;
+	color: #333;
+	font-size: 1.01em;
+	font-weight: bold;
+	padding-top: 12px;
+    }
+    
+	#maincontent #article h2.nopad {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, Helvetica, Verdana, sans-serif;
+	color: #333;
+	font-size: 1.01em;
+	font-weight: bold;
+    }
+     
+	#maincontent #article p {
+	padding-bottom: 15px;
+	}
+	
+	#maincontent #article p.nobottompad {
+	margin: 0;
+	padding: 0;
+	padding-bottom: 6px;
+	}
+	
+	#maincontent #article ul {
+	margin: 0;
+	padding: 0;
+	margin-left: 40px;
+	margin-right: 40px;
+	}
+	
+	#maincontent #article ul li {
+	font-size: 1em;
+	font-family: Arial, Helvetica, Verdana,  sans-serif;
+	color: #333;
+	padding-bottom: 3px;
+	}
+	
+	#maincontent #article p.applypad {
+	margin: 0;
+	padding: 0;
+	}
+	
+	
+	#maincontent #article ul.notoppad {
+	margin: 0;
+	padding: 0;
+	margin-left: 40px;
+	}
+	
+	#maincontent #article p.learnlink {
+	clear: both;
+	text-align: right;
+	}
+	
+	#article h2, #article h3, #article h4 {
+	font-family: Arial, Helvetica, Verdana, sans-serif;
+	color: #000;
+	}
+		
+	#article h4 {
+	margin: 0;
+	padding: 0;
+	font-size: 1em;
+	padding-top: 14px;
+	padding-bottom: 7px;
+	}
+	
+	#article p, #article ol li {
+	margin: 0;
+	padding: 0;
+	font-size: 1em;
+	font-family: Arial, Helvetica, Verdana, sans-serif;
+	color: #333;
+	}
+	
+	#profiles #article ol {
+	padding-left: 5px;
+	}
+	
+	#article p.back-top {
+	text-align: right;
+	padding-top: 40px;
+	}
+	
+	#maincontent #article h3.pad-top {
+	margin: 0;
+	padding: 0;
+	padding-top: 2px;
+	padding-bottom: 3px;
+	}
+	
+	#maincontent #article h3.pad-intern {
+	margin: 0;
+	padding: 0;
+	}
+	
+	#article blockquote {
+	margin: 0;
+	padding: 0;
+	font-size: 1em;
+	font-family: Arial, Helvetica, Verdana, sans-serif;
+	color: #333;
+	padding: 0 15px 12px 10px;
+	}
+	
+	#article p.pad-explore {
+	padding-top: 3px;
+	}
+	
+	/* ======== meet the people pages ====== */
+	
+	#main-profiles #article {
+	width: 326px;
+	}
+	
+	#main-profiles #article div.featured-profile {
+	width: 326px;
+	}
+	
+	#main-profiles #article div.featured-profile h2 {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, Helvetica, Verdana, sans-serif;
+	font-size: 1.3em;
+	color: #333 !important;
+	padding-top: 15px;
+	}
+	
+	#main-profiles #article div.featured-profile p.learnlink {
+	text-align: right;
+	padding: 0 12px 20px 0;
+	clear: both;
+	}
+          	
+    #main-profiles #article div.mop-profile {
+	float: left;
+	position: relative;
+	border: 1px solid #9d9d9d;
+	background: url(../images/campus/bkg-mop-gradation.jpg) top left repeat-x;
+	margin-top: 10px;
+	width: 94px;
+	height: 165px;
+	margin-right: 12px;
+	margin-bottom: 15px;
+	} 
+	
+	#main-profiles #article div.mop-profile img {
+	margin: 0;
+	padding: 0;
+	display: block;
+	margin: 5px;
+	border: none;
+	}
+	
+	#main-profiles #article div.mop-profile h3 {
+	margin: 0;
+	padding: 0;
+	font-size: 1em;
+	color: #333;
+	font-weight: bold;
+	padding-left: 5px;
+	padding-left: 5px;
+	}
+	
+	#main-profiles #article div.mop-profile p {
+	margin: 0;
+	padding: 0;
+	font-size: .85em;
+	color: #333;
+	padding-right: 10px;
+	padding-left: 5px;
+	}
+	
+	#main-profiles #article div.mop-profile a {
+	position: absolute;
+	display: block;
+	bottom: 8px;
+	left: 5px;
+	}  
+	
+	/* ======== analyst - associates - interns profile pages ====== */
+	
+	#main-profiles #article {
+	width: 326px;
+	}
+	
+	#main-profiles #article p.learnlink {
+	padding-top: 10px;
+	padding-bottom: 20px;
+	}
+	
+	#main-profiles #article div.profile-article {
+	position: relative;
+	border: 1px solid #9d9d9d;
+	background: url(../images/campus/bkg-blue-gradient.jpg) top left repeat-x;
+	margin-top: 10px;
+	height: 128px;
+	}
+	
+	#main-profiles #article div.profile-article img {
+	margin: 0;
+	padding: 0;
+	float: left;
+	display: block;
+	margin: 10px 12px 10px 12px;
+	padding-bottom: 12px;
+    border: none;
+	}
+	
+	#main-profiles #article div.profile-article h2 {
+	margin: 0;
+	padding: 0;
+	font-size: 1.2em;
+	color: #333;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	}
+	
+	#main-profiles #article div.profile-article span,
+	#main-profiles #article div.profile-article p {
+	margin: 0;
+	padding: 0;
+	font-size: .85em;
+	color: #333;
+	padding-right: 20px;
+	}
+	
+	#main-profiles #article div.profile-article a {
+	display: block;
+	padding-top: 10px;
+	}
+	
+	p.profile-depart {
+	position: absolute;
+	width: 190px;
+	top: 12px;
+	left: 135px;
+	line-height: 1.2em;
+	font-weight: bold;
+	}
+	
+	p.profile-depart-spec {
+	position: absolute;
+	width: 190px;
+	top: 12px;
+	left: 155px;
+	line-height: 1.2em;
+	font-weight: bold;
+	}
+	
+	p.profile-depart-jw {
+	position: absolute;
+	width: 190px;
+	top: 12px;
+	left: 170px;
+	line-height: 1.2em;
+	font-weight: bold;
+	}
+	
+	/* ======= individual profile photos and content =======*/
+	
+	.content-profiles  {
+	height: 175px;
+	margin-bottom: 30px;
+	position: relative;
+	}
+	
+	#article .content-profiles img {
+	margin: 0;
+	padding: 0;
+	float: left;
+	display: block;
+	border: none;
+	}
+	
+	#article .content-profiles h2 {
+	margin: 0;
+	padding: 0;
+	font-size: 1.3em;   
+	}
+	
+	#article .content-profiles h3 {
+	margin: 0;
+	padding: 0;
+	font-size: 0.95em;
+	font-weight: bold;
+	padding-top: 15px;
+	}
+	
+	#article .content-profiles p {
+	margin: 0;
+	padding: 0;
+	font-size: 0.8em;
+	color: #333;
+	line-height: 14px;
+	}
+	
+	#article .content-profiles .info-profiles {
+	position: absolute;
+	left: 181px;
+	bottom: 12px;
+	}
+	
+	
+	/* ============= right column ========*/
+	#aside {
+	float: left;
+	width: 179px;
+	margin-left: 16px;
+	margin-top: 8px;
+	}
+	
+	#aside img {
+	margin-bottom: 10px;
+	border: 0;
+	border: none;
+	}
+	
+	#aside h2,
+	#aside h3 {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, Helvetica, Verdana,  sans-serif;
+	font-size: 0.97em;
+	font-weight: bold;
+	color: #333;
+	padding-top: 10px;
+	}
+	
+	#aside ul {
+	margin: 0;
+	padding:0;
+	list-style: none;
+	list-style-image: none !important;
+	padding-left: 12px;
+	padding-top: 10px;
+	}
+	
+	#aside li {
+	padding-bottom: 3px;
+	margin: 0;
+	padding: 0;
+	}
+	
+	/* right column for analyst, associates, intern profiles, - videos */
+	
+	#main-profiles #aside {
+	width: 218px;
+	margin-left: 30px;
+	margin-top: 43px;
+	}
+	
+	
+	#main-profiles #aside #video-content {
+	width: 213px;
+	height: 464px;
+	border: 1px solid #9d9d9d;
+	background: #f4f4f4 url(../images/campus/bkg-videocontent.jpg)left bottom no-repeat;
+	margin-bottom: 15px;
+	}
+	
+	#main-profiles #aside #video-content img.default-img,
+	#main-profiles #aside #video-content object {
+	margin: 0;
+	padding: 0;
+	margin-left:3px;
+	padding-top: 10px;
+	border: none;
+	}
+	
+	#main-profiles #aside #video-content table {
+	margin: 0;
+	padding: 0;
+	margin: 0 0 2px 3px;
+	}
+	
+	
+	#main-profiles #aside #video-content p {
+	margin: 0;
+	padding: 0;
+	color: #333;
+	font-size: .85em;
+	font-weight: bold;
+	margin-left: 5px;
+    }
+	
+	#main-profiles #aside #video-content p.padbot {
+	padding-bottom: 15px;
+	}
+	
+	#main-profiles #aside #video-content a.btn1:link {
+	color: #fff;
+	}
+	
+	#main-profiles #aside #video-content a.btn1:hover {
+	color: #fff !important;
+	text-decoration: underline !important;
+	}
+	
+	#main-profiles #aside #video-content a.btn1:visited {
+	color: #fff !important;
+	}
+	
+	#main-profiles #aside #video-content .transcript-content {
+	width: 200px;
+	padding: 0 5px 10px 5px;
+	}
+	
+	#main-profiles #aside #video-content .transcript-content p {
+	font-weight: normal;
+	padding-bottom: 7px;
+	}
+	
+	
+	
+	/* ======= global gateway page =======*/
+	#global-gateway {
+	margin: 0;
+	padding: 0;
+	width: 578px;
+	}
+
+	
+	/* ======= america homepage ======= */
+	
+	#america-home {
+	position: relative;
+	padding: 0;
+	width: 578px;
+	font-size: 1.1em;
+	font-family: Arial, Helvetica, Verdana,  sans-serif;
+	color: #333;
+	background: url(../images/campus/bkg-america-home.jpg) left top no-repeat;
+	}
+	
+	#america-home p.link-header {
+	padding-top: 290px;
+	padding-left: 12px;
+	padding-right: 350px;
+	font-size: .75em;
+	color: #000;
+	}
+	
+	#america-home p.footnote-content {
+	padding-left: 232px;
+	padding-bottom: 50px;
+	font-size: 1.2em;
+	color: #fff;
+	font-weight: bold;
+	}
+	
+	#america-home #article {
+	width: 490px;
+	}
+	
+	#america-home #article p {
+	font-size: .93em;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	}
+	
+	#america-home #icon-home-buttons {
+    position: absolute;
+    width: 195px;
+    top: 323px;
+    left: 10px;
+    }
+    
+    #america-home #icon-home-buttons img {
+    border: none;
+    margin-right: 15px;
+    }
+	
+	/* asia pac homepage */
+	
+	#asiapac-home {
+	position: relative;
+	padding: 0;
+	width: 578px;
+	font-size: 1.1em;
+	font-family: Arial, Helvetica, Verdana,  sans-serif;
+	color: #333;
+	background: url(../images/campus/bkg-asiapac-homepage.jpg) left top no-repeat;
+	}
+	
+	#asiapac-home p.link-header {
+	padding-top: 287px;
+	padding-left: 12px;
+	padding-right: 350px;
+	font-size: .75em;
+	color: #000;
+	}
+	
+	#asiapac-home p.footnote-content {
+	padding-left: 232px;
+	padding-bottom: 50px;
+	font-size: 1.2em;
+	color: #fff;
+	font-weight: bold;
+	}
+	
+	#asiapac-home #article {
+	width: 490px;
+    }
+	
+	#asiapac-home #article p {
+	font-size: .93em;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	}
+	
+	#asiapac-home #icon-home-buttons {
+    position: absolute;
+    /*width: 195px;*/
+    top: 323px;
+    left: 10px;
+    }
+    
+    #asiapac-home #icon-home-buttons img {
+    border: none;
+    margin-right: 15px;
+    }
+	
+	
+	/* ======= emea homepage =======*/
+	
+	#emea-home {
+	position: relative;
+	padding: 0;
+	width: 578px;
+	font-size: 1.1em;
+	font-family: Arial, Helvetica, Verdana,  sans-serif;
+	color: #333;
+	background: url(../images/campus/bkg-emeahomepage.jpg) left top no-repeat;
+	}
+	
+	#emea-home p.link-header {
+	padding-top: 287px;
+	padding-left: 12px;
+	padding-right: 350px;
+	font-size: .75em;
+	color: #000;
+	}
+	
+	#emea-home p.footnote-content {
+	padding-left: 232px;
+	padding-bottom: 50px;
+	font-size: 1.2em;
+	color: #fff;
+	font-weight: bold;
+	}
+	
+	#emea-home #article {
+	width: 490px;
+	}
+	
+	#emea-home #article p {
+	font-size: .93em;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	}
+	
+	#emea-home #icon-home-buttons {
+    position: absolute;
+    top: 323px;
+    left: 30px;/* change this back to 10px; for nov. changes */
+    }
+    
+    #emea-home #icon-home-buttons img {
+    border: none;
+    margin-right: 25px;/* change this back to 15px; for nov. changes */
+    }
+	
+	#home-buttons {
+	position: absolute;
+	width: 190px;
+	top: 0;
+	right: 0;
+	}
+	
+	#home-buttons p {
+	margin: 0;
+	padding: 0;
+	font-family: Verdana, Helvetica, Arial, sans-serif;
+	color: #006bb7;
+	font-size: 9px;
+	padding-left: 35px;
+	}
+	
+	#home-buttons ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	list-style-image: none !important;
+	padding-bottom: 5px;
+	padding-left: 35px;
+	}
+	
+	#home-buttons li {
+	font-family: Verdana, Helvetica, Arial, sans-serif;
+	color: #006bb7;
+	font-size: 9px;
+	line-height: 11px;
+    }
+    
+    #home-buttons li a {
+	font-family: Verdana, Helvetica, Arial, sans-serif !important;
+	font-size: 9px !important;
+	color: #006bb7 !important;
+	text-decoration: none;
+    }
+	
+	
+	#home-buttons img {
+	margin-bottom: 8px;
+	border: none;
+	}
+	
+	span.hiddencontent {
+	display: none;
+	}
+	/* ======career finder buttons ===*/
+	
+	#maincontent p.careerfinder-btn a {
+	display: block;
+	width: 168px;
+	height: 24px;
+	line-height:15px;
+	background: url(../images/campus/btn-launchcareer.jpg) top left no-repeat;
+	color: #fff;
+	padding: 4px 0 0 6px;
+	text-decoration: none;
+	
+	}
+	
+	#maincontent p.careerfinder-btn a:hover {
+	background: url(../images/campus/btn-launchcareer.jpg) left -24px no-repeat;
+	color: #fff;
+	text-decoration: underline;
+	}
+	
+	#maincontent p.careerfinder-btn a:visited {
+	text-decoration: none !important;
+	color: #fff;
+	}
+	
+	
+	/*====== code for buttons on apply page ====*/
+
+#maincontent a.button, #maincontent a.button:visited, #maincontent a.button:hover, #maincontent a.button:active {
+background: transparent url(../images/campus/bg_button_a.gif) top right no-repeat;
+color:#333;
+display: block;
+float: left;
+font: bold 11px verdana, arial, sans-serif;
+height: 22px;
+margin-right:6px;
+padding-right: 12px;/* sliding doors padding */
+text-decoration: none;
+}
+
+
+#maincontent a.button span, #maincontent a.button:visited span, #maincontent a.button:hover span, #maincontent a.button:active span {
+background: transparent url(../images/campus/bg_button_span.gif) no-repeat;
+display: block;
+line-height:15px;
+padding: 2px 0 5px 12px;
+} 
+
+
+#maincontent a.button:hover {
+background: transparent url(../images/campus/bg_button_a.gif) center right no-repeat;
+color: #d4001a;
+outline: none; /* hide dotted outline in Firefox */
+}
+
+
+#maincontent a.button:hover span {
+background-position:center left;
+padding: 2px 0 5px 12px;	
+} 
+#maincontent a.button:active {
+background: transparent url(../images/campus/bg_button_a.gif) bottom right no-repeat;
+color: #d4181a;
+outline: none;/* hide dotted outline in Firefox */
+}
+
+#maincontent a.button:active span {
+background-position: bottom left;
+padding: 3px 0 4px 12px;
+} 
+
+
+/* INACTIVE BUTTON SPECIFIC STYLES */
+#maincontent a.inactive {
+background: transparent url(../images/campus/bg_fade-button_a.gif) top right no-repeat;
+cursor: default;
+color: #cdcdcd;
+display: block;
+float: left;
+font: bold 11px verdana, arial, sans-serif;
+height: 22px;
+margin-right: 6px;
+padding-right: 12px; /* sliding doors padding */
+text-decoration: none;
+}
+
+
+#maincontent a.inactive:hover, #maincontent a.inactive:hover span {
+cursor: default;
+}
+
+#maincontent a.inactive span {
+cursor: default;
+background: transparent url(../images/campus/bg_fade-button_span.gif) no-repeat;
+display: block;
+line-height: 15px;
+padding: 2px 0 5px 12px;
+} 
+
+#article p.buttonpad {
+padding-bottom: 60px;
+}
+	
+	/* ============ footer =========*/
+	#profiles #red-footer,
+	#maincontent #red-footer,
+	#main-profiles #red-footer {
+	clear: both;
+	width: 578px;
+	background: url(../images/campus/bkg-footer.gif) no-repeat;
+	
+	}
+	
+	#profiles #red-footer p,
+	#maincontent #red-footer p,
+	#main-profiles #red-footer p {
+	color: #FFFFFF;
+	font-size: 1.3em;
+	font-weight: bold;
+	padding: 50px 0 60px 20px;
+	}
+
+
+}
