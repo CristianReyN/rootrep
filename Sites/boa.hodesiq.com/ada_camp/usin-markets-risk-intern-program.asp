@@ -3,12 +3,12 @@ Dim title, mpage, spage, ada_href, ada_title, page_section, Metatag%>
 <!-- #include file="../includes/breadcrumb.asp" -->
 <!-- #include file="../includes/career_fit_tool_programs.asp" -->
 <%
-Set program = programs(199)
+Set program = programs(90)
 title = breadcrumb & "Campus Recruiting | Explore Careers | " & program.Item("full_degree") & " | " & program.Item("region") & " | " & program.Item("title")
 mpage = "camp"
 spage = "explore_careers"
 tpage = "undergraduate_programs"
-fpage = "usin-markets-risk-intern-program.asp"
+fpage = "usin-markets-risk-intern-program"
 standart_href = "../campusrecruiting/usin-markets-risk-intern-program.asp"
 page_self = "../ada_camp/usin-markets-risk-intern-program.asp"
 %><!-- #include file="../includes/camp_program_meta_description.asp" --><%

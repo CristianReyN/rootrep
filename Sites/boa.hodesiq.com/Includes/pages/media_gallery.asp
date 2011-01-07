@@ -40,7 +40,6 @@ Enjoy!
 	<option value="lobcf"<%If mg="lobcf" Then Response.write " selected"%>>CFO Group/Finance</option>
 	<option value="comm"<%If mg="comm" Then Response.write " selected"%>>Communications</option>
 	<option value="corpwp"<%If mg="corpwp" Then Response.write " selected"%>>Corporate Workplace</option>
-	<option value="divinc"<%If mg="divinc" Then Response.write " selected"%>>Diversity and Inclusion</option>
 	<option value="csbbam"<%If mg="csbbam" Then Response.write " selected"%>>Global Consumer &amp; Small Business Banking</option>
 	<option value="qpa"<%If mg="qpa" Then Response.write " selected"%>>Global Corporate Planning and Strategy</option>
 	<option value="lobghr"<%If mg="lobghr" Then Response.write " selected"%>>Global Human Resources</option>

@@ -12,7 +12,7 @@ function create_safebutton(text, href, onclick_evt, onmouseover_evt, onmouseout_
 	if ((navigator.userAgent.indexOf("Opera")!=-1)||(navigator.userAgent.indexOf("Opera")!=-1)){cssType = "opera"; text = textexpanded;}
 	
 	//detecting Firefox
-	else if (navigator.userAgent.indexOf("Firefox") > 0){cssType = "saf"}
+	else if (navigator.userAgent.indexOf("Firefox") > 0){cssType = "ffx"}
 
     //detecting Safari
 	else if (navigator.userAgent.indexOf("Safari") > 0){cssType = "saf"}

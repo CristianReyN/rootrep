@@ -1,11 +1,86 @@
 .whitebg {background-color: #FFFFFF;}
 
-/* Saf : Apple Safari, Firefox, Nescape 4.7, Netscape 6+, */
-a.saf-btn, a.saf-btn-over {font-size: 0.77em; font-weight: bold; color: #ffffff; background: #366496; border-color: #CBE3FF #003366 #003366 #B7CFEB; width: 100%; padding: 3px 6px 3px 5px;}
-.saf-btn {width: 100%;}
-a.saf-btn, a.saf-btn-over {font-size: 0.84em; text-decoration: none; padding: 2px 2px 2px 4px; border-top: 1px solid #CBE3FF; border-right: none; border-bottom: 1px solid #003366; border-left:1px solid #B7CFEB; line-height: 120%;}
-a.saf-btn:hover, a.saf-btn-over {color: #C7D2DC;}
-div.saf-btn {font-family : Verdana, Geneva, Arial, Helvetica, sans-serif; background: #366496; background: #ffffff; border-right: none;	border-bottom: 1px solid #000000; border-top:1px solid #CBE3FF;	border-left:1px solid #B7CFEB; width: auto; height: auto; padding: 0px 0px 2px !important;}
+/* ffx : Firefox */
+.ffx-btn
+{
+	width: 100%;
+}
+a.ffx-btn, a.ffx-btn-over
+{
+	font-size: 0.84em;
+	line-height: 120%;
+	font-weight: bold;
+	color: #ffffff;
+	text-decoration: none;
+	display: block;
+	width: auto;
+	padding: 2px 4px 2px 4px;
+	background: #366496;
+	border-top: 1px solid #CBE3FF;
+	border-right: 1px solid #003366;
+	border-bottom: 1px solid #003366;
+	border-left:1px solid #B7CFEB;
+}
+a.ffx-btn:hover, a.ffx-btn-over
+{
+	color: #C7D2DC;
+}
+div.ffx-btn
+{
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	display: block;
+	width: auto;
+	height: auto;
+	background: #ffffff;
+	border-right: 1px solid #000000;
+	border-bottom: 1px solid #000000;
+	border-top:1px solid #CBE3FF;
+	border-left:1px solid #B7CFEB;
+}
+
+/* Saf : Apple Safari, Nescape 4.7, Netscape 6+, */
+a.saf-btn, a.saf-btn-over
+{
+	font-size: 0.77em;
+	font-weight: bold;
+	color: #ffffff;
+	background: #366496;
+	border-color: #CBE3FF #003366 #003366 #B7CFEB;
+	width: 100%;
+	padding: 3px 6px 3px 5px;
+}
+.saf-btn
+{
+	width: 100%;
+}
+a.saf-btn, a.saf-btn-over
+{
+	font-size: 0.84em;
+	text-decoration: none;
+	padding: 2px 4px 2px 4px;
+	border-top: 1px solid #CBE3FF;
+	border-right: 1px solid #003366;
+	border-bottom: 1px solid #003366;
+	border-left:1px solid #B7CFEB;
+	line-height: 120%;
+}
+a.saf-btn:hover, a.saf-btn-over
+{
+	color: #C7D2DC;
+}
+div.saf-btn
+{
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	background: #366496;
+	background: #ffffff;
+	border-right: 1px solid #000000;
+	border-bottom: 1px solid #000000;
+	border-top:1px solid #CBE3FF;
+	border-left:1px solid #B7CFEB;
+	width: auto;
+	height: auto;
+	padding: 3px 0px 4px 0px;
+}
 
 
 /* Opera */
