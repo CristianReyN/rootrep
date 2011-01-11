@@ -985,7 +985,7 @@ function SwapDiv(divid,img)
                 <div id="div2" style="display: none">
                     <table summary="" width="361" height="228" border="0" cellpadding="0" cellspacing="0">
                         <tr>
-                            <td width="361" height="228" align="left" valign="top"><img src="images/BOA_MapLocations_HYDERABAD_C1.jpg" alt="emea_gcib_Hydrabad_India" width="575" height="228" /></td>
+                            <td width="361" height="228" align="left" valign="top"><img src="images/BOA_MapLocations_HYDERABAD_C1_NEW.jpg" alt="emea_gcib_Hydrabad_India" width="575" height="228" /></td>
                         </tr>
                     </table>
                 </div>
@@ -1169,7 +1169,7 @@ function SwapDiv(divid,img)
                  <div id="div28" style="display: none">
                     <table summary="" width="361" height="128" border="0" cellpadding="0" cellspacing="0">
                         <tr>
-                            <td width="361" height="128" align="left" valign="top"><img src="images/BOA_MapLocations_CHENNAI_C1.jpg" alt="emea_Chennai_India" width="575" height="228" /></td>
+                            <td width="361" height="128" align="left" valign="top"><img src="images/BOA_MapLocations_CHENNAI_C1_NEW.jpg" alt="emea_Chennai_India" width="575" height="228" /></td>
                         </tr>
                     </table>
                 </div></td>
