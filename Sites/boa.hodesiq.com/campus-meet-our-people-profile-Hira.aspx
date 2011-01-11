@@ -60,7 +60,7 @@
     <ul>
       <li><a href="campus-EMEA-analyst-profiles.aspx">Back to profile list</a></li>
       <li><a href="campus-meet-our-people-profile-John-William.aspx">Next profile</a></li>
-      <li><a href="campus-meet-our-people-profile-Fujia.aspx">Previous profile</a></li>
+      <li><a href="campus-meet-our-people-profile-Gemma.aspx">Previous profile</a></li>
     </ul>
   </div>
   <div id="red-footer"> 
