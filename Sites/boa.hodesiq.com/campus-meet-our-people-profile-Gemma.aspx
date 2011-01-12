@@ -29,9 +29,9 @@
     <a href="campusevents.aspx?region=2"><img src="images/campus/btn-campus-events.jpg" width="179" height="66" alt="Campus Events: Let's meet soon." /></a> 
     <h3>Related Links:</h3>
     <ul>
-      <li><a href="campus-Americas-analyst-profiles.aspx">Back to profile list</a></li>
-      <li><a href="campus-profiles-Internship-John-William.aspx">Next profile</a></li>
-      <li><a href="campus-profiles-Internship-Christoph.aspx">Previous profile</a></li>
+      <li><a href="campus-EMEA-analyst-profiles.aspx">Back to profile list</a></li>
+      <li><a href="campus-meet-our-people-profile-Hira.aspx">Next profile</a></li>
+      <li><a href="campus-meet-our-people-profile-Fujia.aspx">Previous profile</a></li>
     </ul>
   </div>
   <div id="red-footer"> 
