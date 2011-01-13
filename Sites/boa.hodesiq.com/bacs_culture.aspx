@@ -61,7 +61,7 @@
                     Ketan J Ghelani<br />
                     Senior System Analyst, BPS, Mumbai</p>
                 <p>
-                    <img src="images/Gautam_Banerjee.jpg" alt="Gautam Banerjee, Senior Manager, Q&P, Mumbai" /></p>
+                    <img src="images/Gautam_Banerjee.jpg" alt="Gautam Banerjee, Senior Manager, Q&CD, Mumbai" /></p>
                 <p align="justify">
                     &quot;BA Continuum is a great place to work because of what I have learned here.
                     All, from my colleagues to the Senior Leadership team are very competent and great
