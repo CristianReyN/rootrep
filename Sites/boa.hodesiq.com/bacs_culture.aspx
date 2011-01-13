@@ -28,7 +28,7 @@
                     excellence &ndash; while each and every associate is responsible for raising the
                     bar and personifying excellence in all that we do.</p>
                 <p>
-                    <img src="images/asia-rajesh.gif" alt="Rajesh Balaraju, Delivery Leader, BPS, Hyderabad" /></p>
+                    <img src="images/asia-rajesh.gif" alt="Rajesh Balaraju, Vice President, BPS, Hyderabad" /></p>
                 <p align="justify">
                     &quot;We put as much emphasis on the quality of relationships as we do on performance
                     excellence. There is learning, development and evolvement at every stage and every
@@ -39,7 +39,7 @@
                     Vice President, BPS, Hyderabad
                 </p>
                 <p>
-                    <img src="images/asia-bhavan.gif" alt="Bhavna Khurana, Manager, ITS, Hyderabad" /></p>
+                    <img src="images/asia-bhavan.gif" alt="Bhavna Khurana, Senior Manager, ITS, Hyderabad" /></p>
                 <p align="justify">
                     &quot;The thing that I like most about working here is the fact that it gives a
                     lot of learning opportunities and enables learning from all levels in the organization
@@ -61,7 +61,7 @@
                     Ketan J Ghelani<br />
                     Senior System Analyst, BPS, Mumbai</p>
                 <p>
-                    <img src="images/Gautam_Banerjee.jpg" alt="Gautam Banerjee, Manager, Q&P, Mumbai" /></p>
+                    <img src="images/Gautam_Banerjee.jpg" alt="Gautam Banerjee, Senior Manager, Q&P, Mumbai" /></p>
                 <p align="justify">
                     &quot;BA Continuum is a great place to work because of what I have learned here.
                     All, from my colleagues to the Senior Leadership team are very competent and great
