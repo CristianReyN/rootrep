@@ -25,6 +25,7 @@ public partial class JobDetails : System.Web.UI.Page
     private string strJobID = string.Empty;
     private string JobCartID = "";
 	private string srcvalue = string.Empty;
+    protected string UseTinyUrl = "0";
  
 	private string targetpage = string.Empty;
     string pageTitle = "";
@@ -34,6 +35,8 @@ public partial class JobDetails : System.Web.UI.Page
 
     protected void Page_Load(object sender, EventArgs e)
     {
+
+        UseTinyUrl = Request.QueryString["UseTinyUrl"] != null ? Request.QueryString["UseTinyUrl"].ToString() : "0";
 		targetpage = ConfigurationManager.AppSettings["targetpage"];
 		if (this.Request.UrlReferrer != null &&
 		(this.Request.UrlReferrer.ToString().ToLowerInvariant().Contains("jobsearch.aspx") || this.Request.UrlReferrer.ToString().ToLowerInvariant().Contains("advancesearch.aspx")

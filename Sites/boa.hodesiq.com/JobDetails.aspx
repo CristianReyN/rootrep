@@ -58,7 +58,8 @@
                                     <script language="javascript" type="text/javascript">
                                     <!--
                                         var socialSite = "1"
-                                        var useTinyURL = "0"
+                                        var useTinyURL = "<%=UseTinyUrl%>";
+                                       
                                     //-->
                                     </script>
                                     <script type="text/javascript" src="http://utility-qa.bankofamerica.com/uet/social_share.js"></script>
@@ -72,6 +73,8 @@
                                     <!--
                                         var socialSite = "2"
                                         var twitterStatusDescription = "<%=hdnTwitterTitle.Value%>"
+                                        var useTinyURL = "<%=UseTinyUrl%>";
+                                  
                                     //-->
                                     </script>
                                     <script type="text/javascript" src="http://utility-qa.bankofamerica.com/uet/social_share.js"></script>
@@ -83,7 +86,25 @@
                               
                               
                                  </tr>
-                                                                                                                                                                                                                                                             
+                                         <tr>
+                               
+                                 <td valign="top" width="40px" align="right">
+                                
+                                <script language="javascript" type="text/javascript">
+                                <!--
+                                    var socialSite = "3"
+                                    var useTinyURL = "<%=UseTinyUrl%>";
+                                    var titleValue = "<%=hdnLinkedInTitle.Value%>"
+                                  
+                                //-->
+                                </script>
+                                    <script type="text/javascript" src="http://utility-qa.bankofamerica.com/uet/social_share.js"></script>
+                                </td>
+                                   <td width="100px" align="left"><b>&nbsp;&nbsp;&nbsp;LinkedIn</b></br></br></br></br></br>  </td>   
+                                                                                               
+                             
+                                 
+                                 </tr>                                                                                                                                                                                                                        
                                  <tr>
                                 <td colspan=3 align="center"><b>Stay Connected</b></br></br>
                                 </td>
