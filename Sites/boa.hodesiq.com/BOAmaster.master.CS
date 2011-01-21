@@ -78,7 +78,7 @@ public partial class BOAmaster : System.Web.UI.MasterPage
         HtmlMeta meta = (HtmlMeta)Page.Header.FindControl("metakeywords");
         meta.Attributes["content"] = PageMetaKeywords; ;
     
-        BuildCorremetrixScripts(intPage);
+        BuildCorremetrixScripts(intPage,strPageName);
     }
 
     protected DataTable GetPageNavigationOrder(string pagename)
@@ -94,7 +94,7 @@ public partial class BOAmaster : System.Web.UI.MasterPage
 
     }
 
-    protected void BuildCorremetrixScripts(int intPage)   
+    protected void BuildCorremetrixScripts(int intPage,string strPageName)   
 	{
 
         string strScript = "";
@@ -106,7 +106,7 @@ public partial class BOAmaster : System.Web.UI.MasterPage
         strScript += "//<!—" + System.Environment.NewLine;
         if (ConfigurationManager.AppSettings["StrAppServerName"] == "PRO" && intPage == 1) 
            {strScript += "cmSetProduction();" + System.Environment.NewLine;}
-        //strScript += "cmCreatePageviewTag('" +strPageName + "', null, null, 'career:jobsearch');" + System.Environment.NewLine; //, false, false, null, false, false, null, null, null
+        strScript += "cmCreatePageviewTag('" +strPageName + "', null, null, 'career:jobsearch');" + System.Environment.NewLine; //, false, false, null, false, false, null, null, null
         strScript += "//-->" + System.Environment.NewLine;
         strScript += "</script>" + System.Environment.NewLine;
         strScript += "<!-- END COREMETRICS -->" + System.Environment.NewLine;
