@@ -20,7 +20,7 @@
                 <h2> Avtar Monga<br />
                     <br />
                     Managing Director, BA Continuum India</h2>
-                <p> BA Continuum India Pvt. Ltd. (BACI) and BA Continuum Private Limited (BACP) are non-bank subsidiaries of Bank of America Management Corporation. While referring to BA Continuum, we are referring to both organizations.</p>
+                <p> BA Continuum India Pvt. Ltd. (BACI) and BA Continuum Private Limited (BACP) are non-bank subsidiaries of Bank of America. While referring to BA Continuum, we are referring to both organizations.</p>
                 <p> BA Continuum provides Business Processing Solutions, Knowledge Services and Information
                     Technology Solutions exclusively for the Consumer and Small Business Banking, Global
                     Card Services, Bank of America Home Loans, Global Banking and Wealth Management
@@ -43,7 +43,7 @@
                 <div id="MapBAContinuum">
                 </div>
                 <h2>
-                    BA Continuum Locations</h2>
+                    BA Continuum India Locations</h2>
                 <a name="mapstart"></a>
                 <div class="hidden">
                     BA Continuum Locations: <a href="#CLIndia">India</a><br />
@@ -799,7 +799,17 @@ Singapore 099 253<br /></p>
                 87/2 Wireless Road, Lumpini, Pathumwan<br />
                 Bangkok 10330, Thailand <br /></p>
 
-                
+                <h2>
+                    BA Continuum Philippines Locations</h2>
+                 <h3>
+                    Philippines</h3>
+                 <p><span class="text_bold_under">Taguig City</span><br />
+
+                BA Continuum Philippines, Inc<br />
+                Bonifacio E-Services Building<br />
+                31st corner 2nd Streets, Crescent Park West<br />
+                Bonifacio Global City, Taguig City, Philippines<br />
+                Tel: +632 6519000<br /></p>
                 
                     <a href="bacs.aspx#retuntoBacsmap" class="ada2adalink" onfocus="this.className='ada2adalink-over';" onblur="this.className='ada2adalink';" title="Return to map">Return to map</a>
                 </p>

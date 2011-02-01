@@ -326,6 +326,9 @@
 				<li<% if spage = "asia_overview" then Response.Write " style=""background: #eaf1f7;""" end if %>>
 <div><a href="/asia_pacific.aspx" class="sbtxt" title="Asia Pacific" onfocus="this.className='sbtxt-over';" onblur="this.className='sbtxt';">Asia Pacific</a></div>
 				</li>
+				<li<% if spage = "bacp" then Response.Write " style=""background: #eaf1f7;""" end if %>>
+<div><a href="/bacp.aspx" class="sbtxt" title="BA Continuum Philippines" onfocus="this.className='sbtxt-over';" onblur="this.className='sbtxt';">BA Continuum<br />Philippines</a></div>
+				</li>
 				<li<% if spage = "canada" then Response.Write " style=""background: #eaf1f7;""" end if %>>
 <div><a href="/canada.aspx" class="sbtxt" title="Canada" onfocus="this.className='sbtxt-over';" onblur="this.className='sbtxt';">Canada</a></div>
 				</li>

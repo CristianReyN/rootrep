@@ -65,7 +65,7 @@ unique self in interviews as much as possible.</p>
     <h3>Related Links:</h3>
     <ul>
       <li><a href="campus-EMEA-intern-profiles.aspx">Back to profile list</a></li>
-      	<li><a href="campus-profiles-Internship-Rachna.aspx">Previous profile</a></li>
+      	<li><a href="campus-profiles-Internship-Richard.aspx">Previous profile</a></li>
         </ul>
         
     

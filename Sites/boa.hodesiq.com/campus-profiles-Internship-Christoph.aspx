@@ -58,7 +58,7 @@ services.
     <h3>Related Links:</h3>
     <ul>
       <li><a href="campus-EMEA-intern-profiles.aspx">Back to profile list</a></li>
-      <li><a href="campus-profiles-Internship-John-William.aspx">Next profile</a></li>
+      <li><a href="campus-profiles-Internship-Gemma.aspx">Next profile</a></li>
     </ul>
   </div>
   <div id="red-footer"> 

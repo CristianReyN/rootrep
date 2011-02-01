@@ -1,64 +1,325 @@
-<%@ Page Language="C#" MasterPageFile="MasterPage.master" AutoEventWireup="true"
-    CodeFile="ada_asia.aspx.cs" Inherits="ada_boaml" 
-    EnableEventValidation="false" %>
+ï»¿<%@ Page Title="Bank of America | Careers | Locations | BA Continuum Philippines" Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeFile="ada_bacp.aspx.cs" Inherits="ada_bacp" %>
 
 
-<asp:Content ID="Image" ContentPlaceHolderID="Image" runat="Server"> <img src="images/global-careers-asia_bana_I.jpg" width="578" height="166" alt="Explore a career with the Bank of Opportunity."
+<asp:Content ID="Image" ContentPlaceHolderID="Image" runat="Server"> <img src="images/global-careers-asia_I.jpg" width="578" height="166" alt="Explore a career with the Bank of Opportunity."
         title="Explore a career with the Bank of Opportunity." border="0" />
     <div class="hidden"> Explore a career with the Bank of Opportunity.</div>
 </asp:Content>
-<asp:Content ID="Main" ContentPlaceHolderID="Main" runat="Server">
-    <a name="skipmaincontent"></a>
-    <h1 class="hidden">
-        Global Careers - Asia</h1>
-    <table summary="Global Careers - Asia" width="366" border="0" cellspacing="0" cellpadding="0">
+<asp:Content ID="main" ContentPlaceHolderID="Main" runat="Server"> <a name="skipmaincontent"></a>
+    <h1 class="hidden"> Global Careers - Asia: BA Continuum</h1>
+    <table summary="Global Careers - Asia: BA Continuum" width="361" border="0" cellspacing="0"
+        cellpadding="0">
         <tr>
-            <td width="366" align="left" valign="top">
-                <!--<p>
-                    Through more than 60 years of local presence and service in Asia, Bank of America
-                    has developed a deep understanding of our clients and the countries in which they
-                    do business. With more than 2,000 associates in 12 countries, we work together to
-                    help our clients and our company succeed and grow.</p>
+            <td width="366" align="left" valign="top"><p> <img src="images/Avtar1_rev.jpg" alt="Avtar Monga" width="156" height="156" style="margin-bottom: 5px;
+                        margin-right: 15px;" align="left" title="Avtar Monga" /> &quot;Our associates are part of a global team committed to excellence in financial services. As one of the world's largest financial institutions, we have everything in place to compete and to win, including world-class technology and processes.&quot;<br />
+                </p>
+                <br />
+                <br />
+                <h2> Avtar Monga<br />
+                    <br />
+                   President, BA Continuum Philippines</h2>
+                   
+                   <h2>About Us</h2>
+                <p> BA Continuum Philippines, Inc. is a non-bank subsidiary of Bank of America and a part of the Global Delivery Centre of Expertise (GDCE).  BA Continuum Philippines provides business processes, business support functions and IT enabled services. This includes back-office operations and transactions, customer support and service functions, technology support and services, general human resource functions, business planning and general financial services. </p>
+                <p> At BA Continuum Philippines, associates are part of a diverse, global banking environment with best-in-class people, processes and practices. Associates belong to a globally admired brand, which is one of the largest financial institutions in the world. </p>
+                
+                <h2>Our Capabilities</h2>
+                <p> Our capabilities consist of business processes, business support functions, and IT enabled services for the Consumer and Small Business Banking, Global Card Services, Bank of America Home Loans, Global Banking and Wealth Management and Global Markets lines of business at Bank of America. BA Continuum Philippines, Inc. (BACP) targets clients in the banking and financial sector for its operations in the Philippines. It intends to focus on banks and financial institutions, including its affiliates in the United States of America, Canada, Europe, Middle East, Africa and its affiliates in Asia except Philippines.</p>
+                
+                
+                              
+                <div id="MapBAContinuum">
+                </div>
+                <h2>BA Continuum Philippines Locations</h2>
+                 <h3>
+                    Philippines</h3>
+                 <p>
+                    <b style="text-decoration: underline">Taguig City</b></p>
                 <p>
-                    Our strategy and business model in Asia is based on a strong foundation of corporate
-                    banking services, including international cash management and trade finance, credit
-                    solutions, foreign exchange, leasing and asset management capabilities. These corporate
-                    banking platforms are complemented by sophisticated and innovative risk management,
-                    capital raising and global investment banking capabilities.
+                   BA Continuum Philippines, Inc<br />
+                   Bonifacio E-Services Building<br/>
+                   31st corner 2nd Streets, Crescent Park West<br />
+                   Bonifacio Global City, Taguig City, Philippines<br />
+                   Tel: +632 6519000<br />
+                </p>
+                
+                <h2>
+                    BA Continuum India Locations</h2>
+                <a name="mapstart"></a>
+                <div class="hidden">
+                    BA Continuum Locations: <a href="#CLIndia">India</a><br />
+                      Bank of America Merrill Lynch  locations <a href="#Australia">Australia</a> <a href="#Hongkong">
+                        Hong Kong</a> <a href="#India">India</a> <a href="#Indonesia">Indonesia</a>
+                    <a href="#Japan">Japan</a> <a href="#Malaysia">Malaysia</a> <a href="#China">People's
+                        Republic of China</a> <a href="#Philippines">Philippines</a> <a href="#Singapore">Singapore</a>
+                    <a href="#skorea">South Kores</a> <a href="#Taiwan">Taiwan</a> <a href="#Thailand">Thailand</a>
+                </div>
+                <h3>
+                    India</h3>
+                <a name="CLIndia"></a>
+                <p>
+                    <b style="text-decoration: underline">Hyderabad</b></p>
+                <p>
+                    Building Number 5A, Mind Space - Raheja IT Park<br />
+                    HITEC City, Madhapur<br/>
+                    Hyderabad &#8211; 500 081<br />
                 </p>
                 <p>
-                    The Asia team has a mandate to build a profitable business by servicing a select
-                    client base with a targeted set of products.&nbsp; At the same time, we are growing
-                    Asian operations by focusing on new areas of business in the world&rsquo;s fastest
-                    growing economies.</p>-->
-                    
-                    
-                    
-                   <!-- <h2>ASIA PACIFIC OVERVIEW</h2>-->
+                    9th Floor, 2A Maximus Towers, Mindspace - Raheja IT Park<br />
+                    HITEC City, Madhapur<br />
+                    Hyderabad &#8211; 500 081</p>
+                <%--
+                    <ul>
+                        <li>1st Floor, Building No. 5,
+                            <br />
+                            Mind Space - Raheja IT Park,<br />
+                            HITEC City, Madhapur, Hyderabad - 500 081 </li>
+                        <li>5th Floor, 2B Maximus Towers,ace - Raheja IT Park<br />
+                            HITEC City, Madhapur, Hyderabad &#8211; 500 081 </li>
+                    </ul>
+                --%>
+                
+                  <p><span class="text_bold_under">Chennai</span><br /><br />
 
-<p>Bank of America Merrill Lynch operates a network of offices in 12 countries and territories in the Asia Pacific region. The bank’s regional footprint, covering more than a dozen languages and five time zones and multiple legal and regulatory jurisdictions, places it among the Top 5 corporate banks in the Asia Pacific.</p>
-
-<p>Bank of America Merrill Lynch’s presence in the region dates back to 1957 when the bank opened offices in The Philippines and then in Japan. Since 1960 when it opened a private banking office in Hong Kong, the organization has grown steadily, increasing the breadth of its platform throughout the 1980s and 1990s.</p>
-
-<p>Today, the bank offers an integrated and comprehensive set of products and services across all businesses, serving the needs of individual, corporate, institutional and government clients, by combining the best of local knowledge and international expertise.</p>
-
-<p>As in other markets where it operates, Bank of America Merrill Lynch’s business and support units are divided into independent but interrelated units.</p>
-
-                    
-                    
-                <div id="map">
-                </div>
+                Ascendas IT Park, Crest Building, Phase II, 9th Floor<br />
+                Taramani High Road<br />
+                Chennai &#8211; 600 113<br /></p>
+                <p>
+                    <b style="text-decoration: underline">Mumbai </b>
+                </p>
+                <p>
+                    4th Floor, Logitech Park, Tower I, Phase II<br />
+                    Andheri Kurla Road, Sakinaka<br/>
+                    Mumbai - 400 072<br />
+                </p>
+                <p>
+                    9th Floor, &#8216;A&#8217; Wing, Paradigm<br />
+                    Mind Space Malad (West)<br/>
+                    Mumbai &#8211; 400 064</p>
+                <p>
+                 <p>
+                   
+                    Unit Number 501, 5th Floor, Wing A, Prism Towers<br />
+                    Mind Space Malad (West)<br/>
+                    Mumbai &#8211; 400 064</p>
+                <p>
+                    <b style="text-decoration: underline">Gurgaon</b></p>
+                <p>
+                    Infinity Tower B, Sector - 25, DLF Phase - 2, 4th Floor<br />
+                    Gurgaon &#8211; 122 002<br />
+                </p>
+                
+                 <p>
+                   Unitech Infospace, Tower A, Building Number 3<br />
+                    Sector - 21 Dundahera, Old  - Delhi Jaipur Highway<br />
+                    Gurgaon &#8211; 122 001<br />
+                </p>
+                
+              
+                <div class="hidden">
+                    <a href="#mapstart">Back to Location List</a></div>
                 <h2>
-                   Bank of America Merrill Lynch locations</h2>                   
-                <a name="mapstart"></a>
-                <div class="hidden" title="Anchor links for location and address list">
-                    <a href="#Australia">Australia</a> <a href="#Hongkong">Hong Kong</a> <a href="#India">
-                        India</a> <a href="#Indonesia">Indonesia</a> <a href="#Japan">Japan</a> <a href="#Malaysia">
-                            Malaysia</a> <a href="#China">People's Republic of China</a> <a href="#Philippines">
-                                Philippines</a> <a href="#Singapore">Singapore</a> <a href="#skorea">South Kores</a>
-                    <a href="#Taiwan">Taiwan</a> <a href="#Thailand">Thailand</a> BA Continuum Locations:
-                    <a href="#CLIndia">India</a>
-                </div>
+                      Bank of America Merrill Lynch locations</h2>
+                
+                
+                <!--<h3>AUSTRALIA</h3>
+                <a name="Australia"></a>
+                <p>
+                    <b style="text-decoration: underline">Sydney</b><br />
+                    Level 64, MLC Centre<br />
+                    19-29 Martin Place<br />
+                    Sydney NSW 2000, Australia
+                </p>
+                <div class="hidden">
+                    <a href="#mapstart">Back to Location List</a></div>
+                <p>
+                    <b style="text-decoration: underline">Melbourne</b><br />
+                    Level 27, Rialto South Tower<br />
+                    525 Collins Street<br />
+                    Melbourne, VIC 3000, Australia
+                </p>
+                <div class="hidden">
+                    <a href="#mapstart">Back to Location List</a></div>
+                <h3>
+                    HONG KONG</h3>
+                <a name="Hongkong"></a>
+                <p>
+                    42nd Floor, Two International Finance Centre<br />
+                    8 Finance Street, Central, Hong Kong
+                    <br />
+                </p>
+                <p>
+                    10th Floor, Devon House<br />
+                    979 King's Road, Quarry Bay, Hong Kong
+                </p>
+                <div class="hidden">
+                    <a href="#mapstart">Back to Location List</a></div>
+                <h3>
+                    INDIA</h3>
+                <a name="India"></a>
+                <p>
+                    <b style="text-decoration: underline">Mumbai</b><br />
+                    Express Towers, Nariman Point<br />
+                    Mumbai 400-021, India
+                </p>
+                <p>
+                    <b style="text-decoration: underline">Bangalore</b><br />
+                    907/908 Prestige Meridian 1<br />
+                    29 M.G. Road<br />
+                    Bangalore 560-001, India
+                </p>
+                <p>
+                    <b style="text-decoration: underline">Kolkata</b><br />
+                    J.K. Millennium Centre<br />
+                    5th Floor, Block B<br />
+                    46D, Jawaharlal Nehru Road<br />
+                    Kolkata 700 071, India
+                </p>
+                <p>
+                    <b style="text-decoration: underline">Chennai</b><br />
+                    748 Anna Salai<br />
+                    Chennai 600-002, India
+                </p>
+                <p>
+                    <b style="text-decoration: underline">New Delhi</b><br />
+                    1st Floor, DLF Centre<br />
+                    Sansad Marg<br />
+                    New Delhi 110-001, India
+                </p>
+                <div class="hidden">
+                    <a href="#mapstart">Back to Location List</a></div>
+                <h3>
+                    INDONESIA</h3>
+                <a name="Indonesia"></a>
+                <p>
+                    <b style="text-decoration: underline">Jakarta</b><br />
+                    Jakarta Stock Exchange Building<br />
+                    Tower 2, 23rd Floor<br />
+                    Jalan Jendral. Sudirman Kav. 52-53<br />
+                    Jakarta 12190, Indonesia
+                </p>
+                <div class="hidden">
+                    <a href="#mapstart">Back to Location List</a></div>
+                <h3>
+                    JAPAN</h3>
+                <a name="Japan"></a>
+                <p>
+                    <b style="text-decoration: underline">Tokyo</b><br />
+                    Sanno Park Tower<br />
+                    15th Floor<br />
+                    2-11-1 Nagatacho<br />
+                    Chiyoda-ku<br />
+                    Tokyo 100-6115, Japan
+                </p>
+                <div class="hidden">
+                    <a href="#mapstart">Back to Location List</a></div>
+                <h3>
+                    MALAYSIA</h3>
+                <a name="Malaysia"></a>
+                <p>
+                    <b style="text-decoration: underline">Kuala Lumpur</b><br />
+                    Level 18, Wisma Goldhill<br />
+                    67 Jalan Raja Chulan<br />
+                    50200 Kuala Lumpur, Malaysia
+                </p>
+                <p>
+                    <b style="text-decoration: underline">Labuan</b><br />
+                    Level 10(F1), Main Office Tower<br />
+                    Financial Park Labuan Complex<br />
+                    Labuan 87000, Malaysia
+                </p>
+                <div class="hidden">
+                    <a href="#mapstart">Back to Location List</a></div>
+                <h3>
+                    PEOPLE'S REPUBLIC OF CHINA</h3>
+                <a name="China"></a>
+                <p>
+                    <b style="text-decoration: underline">Beijing</b><br />
+                    26th Floor, China World Tower 1<br />
+                    No. 1 Jian Guo Men Wai Avenue<br />
+                    Beijing 100004, People's Republic of China
+                </p>
+                <p>
+                    <b style="text-decoration: underline">Guangzhou</b><br />
+                    25th Floor Bank of America Plaza<br />
+                    No. 555 Renmin Zhong Road<br />
+                    Guangzhou 510145, People's Republic of China
+                </p>
+                <p>
+                    <b style="text-decoration: underline">Guangzhou (China Processing Center)</b><br />
+                    BA Electronic Data Processing (Guangzhou) Limited<br />
+                    Room 803, Bank of America Plaza<br />
+                    No. 555 RenMin Zhong Road
+                    <br />
+                    Guangzhou 510145, People's Republic of China
+                </p>
+                <p>
+                    <b style="text-decoration: underline">Shanghai</b><br />
+                    17th Floor Azia Center<br />
+                    1233 Lujiazui Ring Road<br />
+                    Shanghai 200120, People's Republic of China
+                </p>
+                <div class="hidden">
+                    <a href="#mapstart">Back to Location List</a></div>
+                <h3>
+                    Philippines</h3>
+                <a name="Philippines"></a>
+                <p>
+                    <b style="text-decoration: underline">Manila</b><br />
+                    27/F Philamlife Tower<br />
+                    8767 Paseo de Roxas<br />
+                    Makati City, Metro Manila<br />
+                    Philippines 1257
+                </p>
+                <div class="hidden">
+                    <a href="#mapstart">Back to Location List</a></div>
+                <h3>
+                    SINGAPORE</h3>
+                <a name="Singapore"></a>
+                <p>
+                    9 Raffles Place, #18-00
+                    <br />
+                    Republic Plaza Tower 1<br />
+                    Singapore 048619
+                </p>
+                <div class="hidden">
+                    <a href="#mapstart">Back to Location List</a></div>
+                <h3>
+                    SOUTH KOREA</h3>
+                <a name="Skorea"></a>
+                <p>
+                    <b style="text-decoration: underline">Seoul</b><br />
+                    Hanwha Building, 9th Floor<br />
+                    No. 1, Changkyo-dong Chung-ku<br />
+                    Seoul 100-797, Korea
+                </p>
+                <div class="hidden">
+                    <a href="#mapstart">Back to Location List</a></div>
+                <h3>
+                    TAIWAN</h3>
+                <a name="Taiwan"></a>
+                <p>
+                    <b style="text-decoration: underline">Taipei</b><br />
+                    43/F/48/F, Taipei 101 Tower<br />
+                    No. 7, Xin Yi Road, Sec. 5<br />
+                    Taipei 11049, Taiwan
+                </p>
+                <div class="hidden">
+                    <a href="#mapstart">Back to Location List</a></div>
+                <h3>
+                    THAILAND</h3>
+                <a name="Thailand"></a>
+                <p>
+                    <b style="text-decoration: underline">Bangkok</b><br />
+                    All Seasons Place<br />
+                    CRC Tower, 33rd floor<br />
+                    87/2 Wireless Road<br />
+                    Pathumwan<br />
+                    Bangkok 10330, Thailand
+                </p>
+                <div class="hidden">
+                    <a href="#mapstart">Back to Location List</a></div>
+                <p>-->
                 
                 
                 <h3 class="h1">
@@ -137,7 +398,7 @@ Shanghai 200120, People's Republic of China <br /></p>
 
 <p>Unit 3609-11, The Center,<br />
 989 Chang Le Road <br />
-Shanghai 200031, People’s Republic of China<br /></p>
+Shanghai 200031, Peopleâ€™s Republic of China<br /></p>
 
                 
                 
@@ -292,7 +553,7 @@ Sansad Marg<br />
 New Delhi 110-001, India<br /></p> 
 
 <p>15th floor, Hindustan Times (HT) House, <br />
-18 – 20 Kasturba Gandhi Marg, <br />
+18 â€“ 20 Kasturba Gandhi Marg, <br />
 New Delhi 110-001, India<br /></p>
 
 
@@ -331,6 +592,7 @@ Tokyo 100-6115, Japan <br /></p>
 <p>Nihonbashi 1-chome Building,<br />
 1-4-1 Nihonbashi, Chuo-ku <br />
 Tokyo 103-8230, Japan<br /></p>
+
 
 <p> <span class="text_bold_under">Nagoya</span><br />
 
@@ -538,98 +800,9 @@ Singapore 099 253<br /></p>
                 87/2 Wireless Road, Lumpini, Pathumwan<br />
                 Bangkok 10330, Thailand <br /></p>
 
-
-
-
                 
-                <div class="hidden">
-                    <a href="#mapstart">Back to Location List</a></div>
-                <h2>
-                    BA Continuum India Locations</h2>
-                <h3>
-                    India</h3>
-                <a name="CLIndia"></a>
-                <p>
-                    <b style="text-decoration: underline">Hyderabad</b></p>
-                <p>
-                    Building Number 5A, Mind Space - Raheja IT Park<br />
-                    HITEC City, Madhapur<br/>
-                    Hyderabad - 500 081<br />
-                </p>
-                <p>
-                    9th Floor, 2A Maximus Towers, Mind Space - Raheja IT Park<br />
-                    HITEC City, Madhapur<br />
-                    Hyderabad &#8211; 500 081</p>
-                <%--
-                    <ul>
-                        <li>1st Floor, Building No. 5,
-                            <br />
-                            Mind Space - Raheja IT Park,<br />
-                            HITEC City, Madhapur, Hyderabad - 500 081 </li>
-                        <li>5th Floor, 2B Maximus Towers,ace - Raheja IT Park<br />
-                            HITEC City, Madhapur, Hyderabad &#8211; 500 081 </li>
-                    </ul>
-                --%>
                 
-                  <p><span class="text_bold_under">Chennai</span><br /><br />
-
-                Ascendas IT Park, Crest Building, Phase II, 9th Floor<br />
-                Taramani High Road<br />
-                Chennai &#8211; 600 113<br /></p>
-                <p>
-                    <b style="text-decoration: underline">Mumbai </b>
-                </p>
-                <p>
-                    4th Floor, Logitech Park, Tower I, Phase II<br />
-                    Andheri Kurla Road, Sakinaka<br/>
-                    Mumbai - 400 072<br />
-                </p>
-                <p>
-                    9th Floor, &#8216;A&#8217; Wing, Paradigm<br />
-                    Mind Space Malad (West)<br/>
-                    Mumbai &#8211; 400 064</p>
-                <p>
-                 <p>
-                   
-                    Unit Number 501, 5th Floor, Wing A, Prism Towers<br />
-                    Mind Space Malad (West),<br/>
-                    Mumbai &#8211; 400 064</p>
-                <p>
-                    <b style="text-decoration: underline">Gurgaon</b></p>
-                <p>
-                    Infinity Tower B, Sector - 25, DLF Phase - 2, 4th Floor<br />
-                    Gurgaon &#8211; 122 002<br />
-                </p>
-                
-                 <p>
-                   Unitech Infospace, Tower A, Building Number 3<br />
-                    Sector - 21 Dundahera, Old  - Delhi Jaipur Highway<br />
-                    Gurgaon &#8211; 122 001<br />
-                </p>
-                
-                 <h2>
-                    BA Continuum Philippines Locations</h2>
-                <h3>
-                    Philippines</h3>
-                                <p>
-                    <b style="text-decoration: underline">Taguig City</b></p>
-                <p>
-                   BA Continuum Philippines, Inc<br />
-                   Bonifacio E-Services Building<br/>
-                   31st corner 2nd Streets, Crescent Park West<br />
-                   Bonifacio Global City, Taguig City, Philippines<br />
-                   Tel: +632 6519000<br />
-                 </p>
-                
-                <div class="hidden">
-                    <a href="#mapstart">Back to Location List</a></div>
-                <p>
-                    <a href="asia.aspx#A4" class="ada2adalink" onfocus="this.className='ada2adalink-over';" onblur="this.className='ada2adalink';" title="Return to map">Return to map
-                    
-                    
-                    
-                    
-                    </a>
+                    <a href="bacp.aspx#retuntoBacsmap" class="ada2adalink" onfocus="this.className='ada2adalink-over';" onblur="this.className='ada2adalink';" title="Return to map">Return to map</a>
                 </p>
             </td>
         </tr>
@@ -644,36 +817,38 @@ Singapore 099 253<br /></p>
                     <h2 class="g-bold" style="margin: 0px 0px 0px 0px;">
                        Related Information</h2>
                     <div style="padding: 0px 0px 0px 4px;">
-                        <table summary="" width="190" border="0" cellspacing="0" cellpadding="0">
+                        <table summary="" width="190" border="0" cellspacing="0" cellpadding="0" align="top">
                             <tr>
                                 <td height="10" align="left" valign="middle">
                                 </td>
-                            </tr>                          
+                            </tr>                         
                             <tr>
                                 <td height="26" align="left" valign="middle" style="background-image: url(../images/dotted.gif);
                                     background-position: left top; background-repeat: repeat-x;">
-                                    <a href="asia_lob.aspx" target="_self" class="ritnavlinks" onfocus="this.className='ritnavlinks-over';" onblur="this.className='ritnavlinks';" title="Lines of Business">
-                                        Lines of business</a>
+                                    <a href="bacp_lob.aspx" target="_self" class="ritnavlinks" onfocus="this.className='ritnavlinks-over';"
+                                        onblur="this.className='ritnavlinks';" title="Lines of Business">Lines of business</a>
                                 </td>
                             </tr>
                             <tr>
                                 <td height="26" align="left" valign="middle" style="background-image: url(../images/dotted.gif);
                                     background-position: left top; background-repeat: repeat-x;">
-                                    <a href="asia_benefits.aspx" target="_self" class="ritnavlinks" onfocus="this.className='ritnavlinks-over';" onblur="this.className='ritnavlinks';" title="Benefits">Benefits</a>
+                                    <a href="bacp_benefits.aspx" target="_self" class="ritnavlinks" onfocus="this.className='ritnavlinks-over';"
+                                        onblur="this.className='ritnavlinks';" title="Benefits">Benefits</a>
                                 </td>
                             </tr>
                             <tr>
                                 <td height="26" align="left" valign="middle" style="background-image: url(../images/dotted.gif);
                                     background-position: left top; background-repeat: repeat-x;">
-                                    <a href="asia_culture.aspx" target="_self" class="ritnavlinks" onfocus="this.className='ritnavlinks-over';" onblur="this.className='ritnavlinks';" title="Culture & Work Environment">
-                                        Culture & work environment</a>
+                                    <a href="bacp_culture.aspx" target="_self" class="ritnavlinks" onfocus="this.className='ritnavlinks-over';"
+                                        onblur="this.className='ritnavlinks';" title="Culture & Work Environment">Culture
+                                        & work environment</a>
                                 </td>
                             </tr>
                             <tr>
                                 <td height="26" align="left" valign="middle" style="background-image: url(../images/dotted.gif);
                                     background-position: left top; background-repeat: repeat-x;">
-                                    <a href="asia_staffing.aspx" target="_self" class="ritnavlinks" onfocus="this.className='ritnavlinks-over';" onblur="this.className='ritnavlinks';" title="Staffing Process">
-                                        Staffing process</a>
+                                    <a href="bacp_staffing.aspx" target="_self" class="ritnavlinks" onfocus="this.className='ritnavlinks-over';"
+                                        onblur="this.className='ritnavlinks';" title="Staffing Process">Staffing process</a>
                                 </td>
                             </tr>
                             <tr>

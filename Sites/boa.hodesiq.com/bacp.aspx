@@ -1,6 +1,5 @@
-<%@ Page Language="C#" MasterPageFile="MasterPage.master" AutoEventWireup="true"
-    CodeFile="bacs.aspx.cs" Inherits="ba_continuum" 
-    EnableEventValidation="false" %>
+﻿<%@ Page Title="Bank of America | Careers | Locations | BA Continuum Philippines" Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeFile="bacp.aspx.cs" Inherits="bacp" %>
+
 
 <asp:Content ID="Image" ContentPlaceHolderID="Image" runat="Server"> <img src="images/global-careers-asia_I.jpg" width="578" height="166" alt="Explore a career with the Bank of Opportunity."
         title="Explore a career with the Bank of Opportunity." border="0" />
@@ -12,38 +11,22 @@
         cellpadding="0">
         <tr>
             <td width="366" align="left" valign="top"><p> <img src="images/Avtar1_rev.jpg" alt="Avtar Monga" width="156" height="156" style="margin-bottom: 5px;
-                        margin-right: 15px;" align="left" title="Avtar Monga" /> &quot;Our associates are part of a global team committed to excellence in financial
-                    services. As one of the world's largest financial institutions, we have everything
-                    in place to compete and to win, including world-class technology and processes.&quot;<br />
+                        margin-right: 15px;" align="left" title="Avtar Monga" /> &quot;Our associates are part of a global team committed to excellence in financial services. As one of the world's largest financial institutions, we have everything in place to compete and to win, including world-class technology and processes.&quot;<br />
                 </p>
                 <br />
                 <br />
                 <h2> Avtar Monga<br />
                     <br />
-                    Managing Director, BA Continuum India</h2>
-                <p> BA Continuum India Pvt. Ltd. (BACI) and BA Continuum Private Limited (BACP) are non-bank subsidiaries of Bank of America. While referring to BA Continuum, we are referring to both organizations.</p>
-                <p> BA Continuum provides Business Processing Solutions, Knowledge Services and Information
-                    Technology Solutions exclusively for the Consumer and Small Business Banking, Global
-                    Card Services, Bank of America Home Loans, Global Banking and Wealth Management
-                    and Global Markets Lines of Businesses at Bank of America. </p>
-                <p> At BA Continuum, associates are part of a diverse, global banking environment with
-                    best-in-class people, processes and practices. We belong to a globally admired brand
-                    which is one of the largest financial institutions in the world. We are responsible
-                    for core banking functions and consistently learn, contribute and grow.</p>
-                <p> We call our commitment to associates: <b>GROW</b> which stands for Growth, Rewards and
-                    Opportunities in a World-class work environment.</p>
-                <p> This includes:</p>
-                <ul>
-                    <li>World-class and diverse global banking environment</li>
-                    <li>Exposure to core banking operations</li>
-                    <li>Continuous learning environment</li>
-                    <li>Compensation competitive with industry standards</li>
-                    <li>Recognition for outstanding achievement</li>
-                    <li>Career growth based on performance and potential</li>
-                </ul>
+                    President, BA Continuum Philippines</h2>
+                    <h2>About Us</h2>
+                <p> BA Continuum Philippines, Inc. is a non-bank subsidiary of Bank of America and a part of the Global Delivery Centre of Expertise (GDCE).  BA Continuum Philippines provides business processes, business support functions and IT enabled services. This includes back-office operations and transactions, customer support and service functions, technology support and services, general human resource functions, business planning and general financial services. </p>
+                <p> At BA Continuum Philippines, associates are part of a diverse, global banking environment with best-in-class people, processes and practices. Associates belong to a globally admired brand, which is one of the largest financial institutions in the world. </p>
+                <h2>Our Capabilities</h2>
+                <p> Our capabilities consist of business processes, business support functions, and IT enabled services for the Consumer and Small Business Banking, Global Card Services, Bank of America Home Loans, Global Banking and Wealth Management and Global Markets lines of business at Bank of America. BA Continuum Philippines, Inc. (BACP) targets clients in the banking and financial sector for its operations in the Philippines. It intends to focus on banks and financial institutions, including its affiliates in the United States of America, Canada, Europe, Middle East, Africa and its affiliates in Asia except Philippines.</p>
+                
                 <div id="retuntoBacsmap"> </div>
                 <table border="0" cellpadding="0" cellspacing="5"><tr><td>
-                 <a href="ada_bacs.aspx#MapBAContinuum" class="ada2adalink" onfocus="this.className='ada2adalink-over';"
+                 <a href="ada_bacp.aspx#MapBAContinuum" class="ada2adalink" onfocus="this.className='ada2adalink-over';"
                         onblur="this.className='ada2adalink';" title="View locations as text">View locations
                     as text</a>
                     </td></tr></table>
@@ -1190,23 +1173,23 @@ function SwapDiv(divid,img)
                             </tr>                       
                             <tr>
                                 <td height="26" align="left" valign="middle" style="background-image: url(images/dotted.gif);
-                                    background-position: left top; background-repeat: repeat-x;"><a href="bacs_lob.aspx" target="_self" class="ritnavlinks" onfocus="this.className='ritnavlinks-over';"
+                                    background-position: left top; background-repeat: repeat-x;"><a href="bacp_lob.aspx" target="_self" class="ritnavlinks" onfocus="this.className='ritnavlinks-over';"
                                         onblur="this.className='ritnavlinks';" title="Lines of Business">Lines of business</a></td>
                             </tr>
                             <tr>
                                 <td height="26" align="left" valign="middle" style="background-image: url(images/dotted.gif);
-                                    background-position: left top; background-repeat: repeat-x;"><a href="bacs_benefits.aspx" target="_self" class="ritnavlinks" onfocus="this.className='ritnavlinks-over';"
+                                    background-position: left top; background-repeat: repeat-x;"><a href="bacp_benefits.aspx" target="_self" class="ritnavlinks" onfocus="this.className='ritnavlinks-over';"
                                         onblur="this.className='ritnavlinks';" title="Benefits">Benefits</a></td>
                             </tr>
                             <tr>
                                 <td height="26" align="left" valign="middle" style="background-image: url(images/dotted.gif);
-                                    background-position: left top; background-repeat: repeat-x;"><a href="bacs_culture.aspx" target="_self" class="ritnavlinks" onfocus="this.className='ritnavlinks-over';"
+                                    background-position: left top; background-repeat: repeat-x;"><a href="bacp_culture.aspx" target="_self" class="ritnavlinks" onfocus="this.className='ritnavlinks-over';"
                                         onblur="this.className='ritnavlinks';" title="Culture & Work Environment">Culture
                                     & work environment</a></td>
                             </tr>
                             <tr>
                                 <td height="26" align="left" valign="middle" style="background-image: url(images/dotted.gif);
-                                    background-position: left top; background-repeat: repeat-x;"><a href="bacs_staffing.aspx" target="_self" class="ritnavlinks" onfocus="this.className='ritnavlinks-over';"
+                                    background-position: left top; background-repeat: repeat-x;"><a href="bacp_staffing.aspx" target="_self" class="ritnavlinks" onfocus="this.className='ritnavlinks-over';"
                                         onblur="this.className='ritnavlinks';" title="Staffing Process">Staffing process</a></td>
                             </tr>
                             <tr>
@@ -1218,3 +1201,4 @@ function SwapDiv(divid,img)
         </tr>
     </table>
 </asp:Content>
+

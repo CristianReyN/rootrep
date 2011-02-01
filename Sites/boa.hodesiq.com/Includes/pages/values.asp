@@ -6,16 +6,16 @@
 <p style="margin: 0px;">The following five values represent what we believe in as individuals and as a team, and how we aspire to interact with our customers, our shareholders, our communities and one another.
 </p>
 <ul>
-	<li style="padding-bottom: 12px;"><b>Doing the right thing</b><br>
-We have the responsibility to do the right thing for our customers, shareholders, communities and one another.</li>
-	<li style="padding-bottom: 12px;"><b>Trusting &amp; teamwork</b><br>
-We succeed together, taking responsibility for our customers' satisfaction.</li>
-	<li style="padding-bottom: 12px;"><b>Inclusive meritocracy</b><br>
-We care about one another, value one another's differences, focus on results and strive to help all associates reach their full potential.</li>
-	<li style="padding-bottom: 12px;"><b>Winning</b><br>
-We have a passion for achieving results and winning - for our customers, our shareholders, our communities and one another.</li>
-	<li style="padding-bottom: 12px;"><b>Leadership</b><br>
-We will be decisive leaders at every level, communicating our vision and taking action to help build a better future.</li>
+	<li style="padding-bottom: 12px;"><b>Deliver for our customers, clients and shareholders</b><br>
+We share a passion for winning and serving the financial needs of individuals, corporate clients, and institutional investors. We believe that disciplined execution will lead to sustainable and long-term performance.</li>
+	<li style="padding-bottom: 12px;"><b>Trust in our team</b><br>
+We work together around the globe to deliver the entire franchise to all our constituents. We strive to be consistent and straightforward in our interactions.</li>
+	<li style="padding-bottom: 12px;"><b>Embrace the power of our people</b><br>
+ We value our differences – in thought, style, cultures, ethnicity, and experience – understanding that diversity and inclusion are good for business and make our company stronger.</li>
+	<li style="padding-bottom: 12px;"><b>Act responsibly</b><br>
+We are aware that our decisions and actions affect people’s lives every day. We hold ourselves accountable for the disciplined management of risk and for doing the right thing. </li>
+	<li style="padding-bottom: 12px;"><b>Promote opportunity</b><br>
+We are committed to helping each other achieve our potential in order to build a better future for ourselves and the customers, clients, communities, and shareholders we serve.</li>
 </ul>
 <!-- #include file="../corpinfonav.asp" -->
 <br><br>

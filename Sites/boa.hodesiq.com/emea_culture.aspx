@@ -21,28 +21,24 @@
                     and as a company, and how the bank aspires to interact with its customers, shareholders,
                     communities and fellow associates. &nbsp;
                     <ul>
-                        <li><span class="text_bold">Doing the right thing</span><br />
-                            We have the responsibility to do the right thing for our customers, shareholders,
-                            communities and one another.<br />
+                        <li><span class="text_bold">Deliver for our customers, clients and shareholders</span><br />
+                            We share a passion for winning and serving the financial needs of individuals, corporate clients, and institutional investors. We believe that disciplined execution will lead to sustainable and long-term performance.<br />
                             <br />
                         </li>
-                        <li><span class="text_bold">Trusting &amp; teamwork</span><br />
-                            We succeed together, taking responsibility for our customers' satisfaction.<br />
+                        <li><span class="text_bold">Trust in our team</span><br />
+                           We work together around the globe to deliver the entire franchise to all our constituents. We strive to be consistent and straightforward in our interactions.<br />
                             <br />
                         </li>
-                        <li><span class="text_bold">Inclusive meritocracy</span><br />
-                            We care about one another, value one another's differences, focus on results and
-                            strive to help all associates reach their full potential.<br />
+                        <li><span class="text_bold">Embrace the power of our people</span><br />
+                           We value our differences – in thought, style, cultures, ethnicity, and experience – understanding that diversity and inclusion are good for business and make our company stronger.<br />
                             <br />
                         </li>
-                        <li><span class="text_bold">Winning</span><br />
-                            We have a passion for achieving results and winning - for our customers, our shareholders,
-                            our communities and one another.<br />
+                        <li><span class="text_bold">Act responsibly</span><br />
+                           We are aware that our decisions and actions affect people’s lives every day. We hold ourselves accountable for the disciplined management of risk and for doing the right thing.<br />
                             <br />
                         </li>
-                        <li><span class="text_bold">Leadership</span><br />
-                            We will be decisive leaders at every level, communicating our vision and taking
-                            action to help build a better future.<br />
+                        <li><span class="text_bold">Promote opportunity</span><br />
+                            We are committed to helping each other achieve our potential in order to build a better future for ourselves and the customers, clients, communities, and shareholders we serve.<br />
                         </li>
                     </ul>
                     <h2>

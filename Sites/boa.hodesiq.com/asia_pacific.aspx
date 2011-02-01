@@ -43,13 +43,19 @@
                     areas as consumer banking, treasury services, governance and risk management designed
                     to enhance the Chinese bank's performance.</p>
                 <h2>
-                    BA Continuum Solutions Private Limited</h2>
+                    BA Continuum India Private Limited</h2>
                 <p>
-                    BA Continuum Solutions Pvt. Ltd. and BA Continuum India Pvt. Ltd. are non-bank subsidiaries
-                    of Bank of America Management Corporation. While referring to BA Continuum, we are
-                    referring to both organizations.</p>
+                    BA Continuum India Pvt. Ltd. (BACI) and BA Continuum Private Limited (BACP) are non-bank subsidiaries of Bank of America. While referring to BA Continuum, we are referring to both organizations.</p>
                 <p>
                     BA Continuum provides Business Processing Solutions, Knowledge Services and Information Technology Solutions exclusively for the Consumer and Small Business Banking, Global Card Services, Bank of America Home Loans, Global Banking and Wealth Management and Global Markets Lines of Businesses at Bank of America.<br />
+                </p>
+                
+                <h2>
+                    BA Continuum Philippines, Inc.</h2>
+                <p>
+                    BA Continuum Philippines, Inc. is a non-bank subsidiary of Bank of America and a part of the Global Delivery Centre of Expertise (GDCE). BA Continuum Philippines provides business processes, business support functions and IT enabled services. This includes back-office operations and transactions, customer support and service functions, technology support and services, general human resource functions, business planning and general financial services. </p>
+                <p>
+                   At BA Continuum Philippines, associates are part of a diverse, global banking environment with best-in-class people, processes and practices. Associates belong to a globally admired brand, which is one of the largest financial institutions in the world.<br />
                     <br />
                 </p>
             </td>
@@ -80,8 +86,15 @@
                                 <td height="26"  style="width:100%" align="left" valign="middle" style="background-image: url(images/dotted.gif);
                                     background-position: left top; background-repeat: repeat-x;">
                                     <a href="bacs.aspx" target="_self" class="ritnavlinks" onfocus="this.className='ritnavlinks-over';"
-                                        onblur="this.className='ritnavlinks';" title="BA Continuum in India">BA Continuum in India</a></td>
-                            </tr></table></div></td></tr></table>
+                                        onblur="this.className='ritnavlinks';" title="BA Continuum India">BA Continuum India</a></td>
+                            </tr>
+                            <tr>
+                                <td height="26"  style="width:100%" align="left" valign="middle" style="background-image: url(images/dotted.gif);
+                                    background-position: left top; background-repeat: repeat-x;">
+                                    <a href="bacp.aspx" target="_self" class="ritnavlinks" onfocus="this.className='ritnavlinks-over';"
+                                        onblur="this.className='ritnavlinks';" title="BA Continuum Philippines">BA Continuum Philippines</a></td>
+                            </tr>
+                            </table></div></td></tr></table>
                                                 
 </asp:Content>
 

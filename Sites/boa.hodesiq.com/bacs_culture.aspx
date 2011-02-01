@@ -70,18 +70,7 @@
                 <p class="style16 text_bold">
                     Gautam Banerjee<br />
                     Senior Manager, Q&amp;CD, Mumbai</p>
-                <!--<p>
-                    <img src="images/asia-sumit.gif" alt="Sumit Chhabra, Team Member, BPS, Gurgaon" /></p>
-                <p align="justify">
-                    &quot;When I entered the interview room I was nervous about my future with this
-                    company. After spending a few months I realized that I am at the right place with
-                    the right people. Everything is so structured and systematic. Nothing being as sublime
-                    and pure as knowledge,this organization has given me an opportunity to learn and
-                    explore new things and also helped me in utilizing my skills in an effective manner.<br />
-                    I am proud to be an associate of Bank of America.&quot;</p>
-                <p class="style16 text_bold">
-                    Sumit Chhabra<br />
-                    Team Member, BPS, Gurgaon</p>-->
+               
                 <p>
                     <img src="images/Rahul-Bansal.jpg" alt="Rahul Bansal, AVP, FAKC, Gurgaon" title="Rahul Bansal, AVP, FAKC, Gurgaon"/></p>
                 <p align="justify">
@@ -92,6 +81,13 @@
                 <p class="style16 text_bold">
                     Rahul Bansal<br />
                     AVP, FAKC, Gurgaon</p>
+                     <p>
+                    <img src="images/radha.jpg" alt="Radha Sundaresan, AVP, GWIMT, Chennai" /></p>
+                <p align="justify">
+                    &quot;My journey at BA Continuum India has been very rewarding, and I enjoyed many challenges in diverse areas both in leadership and technology. There is a huge vista of growth opportunities here tailored to individual ambitions and I feel fortunate to be part of the BA Continuum family.&quot;</p>
+                <p class="style16 text_bold">
+                    Radha Sundaresan<br />
+                    AVP, GWIMT, Chennai</p>
                 <br clear="all" />
             </td>
         </tr>
