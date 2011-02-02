@@ -65,6 +65,7 @@ document.getElementById('div25').style.display="none";
 document.getElementById('div26').style.display="none";
 document.getElementById('div27').style.display = "none";
 document.getElementById('div28').style.display = "none";
+document.getElementById('div29').style.display = "none";
 document.getElementById(dives).style.display="inline";
 
 
@@ -100,22 +101,32 @@ document.getElementById('div25').style.display="none";
 document.getElementById('div26').style.display="none";
 document.getElementById('div27').style.display = "none";
 document.getElementById('div28').style.display = "none";
+document.getElementById('div29').style.display = "none";
 }
 function SwapDiv(divid,img)
 {
 	document.getElementById('DivOne').style.display = 'none';
 	document.getElementById('DivTwo').style.display = 'none';
+	document.getElementById('DivThree').style.display = 'none';
 	document.getElementById(divid).style.display = 'inline';	
 	
 	if(img=='topimg1')
 	{
 	document.getElementById('topimg2').src = "images/asia1_03_bacs.gif";
 	document.getElementById('topimg1').src = "images/asia1_04_bacs.gif";
+	document.getElementById('topimg3').src = "images/Philippines_03_bacs.gif";
 	}
 	if(img=='topimg2')
 	{
 	document.getElementById('topimg1').src = "images/asia_04_bacs.gif";
 	document.getElementById('topimg2').src = "images/asia_03_bacs.gif";
+	document.getElementById('topimg3').src = "images/Philippines_03_bacs.gif";
+	}
+	if (img == 'topimg3') 
+	{
+	    document.getElementById('topimg1').src = "images/asia_04_bacs.gif";
+	    document.getElementById('topimg2').src = "images/asia1_03_bacs.gif";
+	    document.getElementById('topimg3').src = "images/Philippines_04_bacs.gif";
 	}
 	
 }
@@ -132,18 +143,70 @@ function SwapDiv(divid,img)
         <tr>
             <td width="566" height="27" align="left" valign="top"><table width="361" height="27" border="0" cellpadding="0" cellspacing="0">
                     <tr>
-                        <td width="162" height="27" align="left" valign="top"><a href="#A4" id="A4"> <img src="images/asia1_04_bacs.gif" alt="BA Continuum (India)" title="BA Continuum (India)"
+                        <td width="162" height="27" align="left" valign="top"><a href="#A4" id="A6"> <img src="images/Philippines_04_bacs.gif" alt="BA Continuum Philippines" title="BA Continuum Philippines"
+                                    name="topimg3" width="162" height="27" id="topimg3" onclick="SwapDiv('DivThree','topimg3')"
+                                    border="0" /></a></td>
+                        <td width="162" height="27" align="left" valign="top"><a href="#A4" id="A4"> <img src="images/asia_04_bacs.gif" alt="BA Continuum (India)" title="BA Continuum (India)"
                                     name="topimg1" width="162" height="27" id="topimg1" onclick="SwapDiv('DivOne','topimg1')"
                                     border="0" /></a></td>
                         <td width="165" height="27" align="left" valign="top"><a href="#A4" id="A5" > <img src="images/asia1_03_bacs.gif" alt="Bank of America Merrill Lynch" title="Bank of America Merrill Lynch"
                                     name="topimg2" width="165" height="27" id="topimg2" onclick="SwapDiv('DivTwo','topimg2')"
                                     border="0" /></a></td>
-                        <td width="33" height="27" align="left" valign="top"><img src="images/asia_corner_05.gif" width="248" height="27" alt="" /></td>
+                        <td width="33" height="27" align="left" valign="top"><img src="images/asia_corner_05.gif" width="86" height="27" alt="" /></td>
                     </tr>
                 </table></td>
         </tr>
         <tr>
-            <td width="361" align="left" valign="top"><div id="DivTwo" style="display: none">
+            <td width="361" align="left" valign="top">
+            <div id="DivThree">
+                    <!---to be replaced--->
+                     <table summary="" width="560" border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                            <td width="560" height="49" align="left" valign="top"><img src="images/philippines_01.gif" alt="Philippines" title="Philippines" width="575" height="49" /></td>
+                        </tr>
+                        <tr>
+                            <td width="560" align="left" valign="top"><table summary="" width="560" border="0" cellspacing="0" cellpadding="0">
+                                    <tr>
+                                        <td width="6" height="272" align="left" valign="top"><img src="images/asia_side_08.gif" width="6" height="480" alt="" /></td>
+                                        <td width="566" height="422" align="left" valign="top" style="background-image: url(images/map/boa_asia_map3.jpg);
+                                            background-position: left top; background-repeat: no-repeat;"><table summary="" width="566" height="272" border="0" cellpadding="0" cellspacing="0">
+                                                <tr>
+                                                    <td width="566" height="148" align="left" valign="top"><table summary="" width="566" border="0" cellspacing="0" cellpadding="0">
+                                                            <tr>
+                                                                <td width="349" height="155" align="left" valign="top">&nbsp;</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td width="349" height="9" align="left" valign="top"><table summary="" width="349" border="0" cellspacing="0" cellpadding="0">
+                                                                        <tr>
+                                                                            <td width="407" height="11">&nbsp;</td>
+                                                                            <td width="11" height="11"><a href="#A2" onfocus="mapcheck('img29','div29')" onblur="mapout('img29')"> <img src="images/aus_landing_11.gif" alt="Philippines - Taguig City" title="Philippines - Taguig City" border="0"
+                                                                                        id="img29" onmouseover="mapcheck('img29','div29')" onmouseout="mapout('img29')" /></a></td>
+                                                                            <td width="180" height="11"></td>
+                                                                        </tr>
+                                                                    </table></td>
+                                                            </tr>
+                                                           
+                                                        </table></td>
+                                                </tr>
+                                                <tr>
+                                                    <td width="349" height="11" align="left" valign="top">&nbsp;</td>
+                                                </tr>
+                                                 <tr>
+                                                                <td width="349" height="16" align="left" valign="top"></td>
+                                                            </tr>
+                                                <tr>
+                                                    <td width="349" height="11" align="left" valign="top">&nbsp;</td>
+                                                </tr>
+                                                 <tr>
+                                                    <td width="349" height="113" align="left" valign="top"></td>
+                                                </tr>
+                                            </table></td>
+                                        <td width="6" height="272" align="left" valign="top"><img src="images/asia_side_10_2.gif" width="6" height="480" alt="" /></td>
+                                    </tr>
+                                </table>
+                </td></tr></table>
+                </div>
+            <div id="DivTwo" style="display: none">
                     <!---to be replaced--->
                    <!-- <table summary="" width="361" border="0" cellspacing="0" cellpadding="0">
                         <tr>
@@ -875,7 +938,7 @@ function SwapDiv(divid,img)
                         </tr>
                     </table>
                 </div>
-                <div id="DivOne">
+                <div id="DivOne" style="display: none">
                     <!--- To be replaced -->
                     <table summary="" width="560" border="0" cellspacing="0" cellpadding="0">
                         <tr>
@@ -1155,7 +1218,15 @@ function SwapDiv(divid,img)
                             <td width="361" height="128" align="left" valign="top"><img src="images/BOA_MapLocations_CHENNAI_C1_NEW.jpg" alt="emea_Chennai_India" width="575" height="228" /></td>
                         </tr>
                     </table>
-                </div></td>
+                </div>
+                <div id="div29" style="display: none">
+                    <table summary="" width="361" height="128" border="0" cellpadding="0" cellspacing="0">
+                        <tr>
+                            <td width="361" height="128" align="left" valign="top"><img src="images/BOA_MapLocations_TAGUIG_CITY_C1.jpg" alt="emea_Taguig_City_Philippines" width="575" height="228" /></td>
+                        </tr>
+                    </table>
+                </div>
+                </td>
         </tr>
     </table>
 </asp:Content>
