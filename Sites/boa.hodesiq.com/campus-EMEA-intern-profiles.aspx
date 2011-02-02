@@ -24,7 +24,7 @@
             <h2>Gemma</h2>
              <p class="profile-depart-spec">Global Markets Technology<br />Analyst Programme</p>
             <p>My principle responsibilities are the development and support of internal applications for the middle office in EMEA, the U.S. and Asia.</p>
-            <p><a href="campus-meet-our-people-profile-Gemma.aspx" title="Read Gemma's profile">Read <span class="hiddencontent">Gemma's</span> Profile</a></p>
+            <p><a href="campus-profiles-Internship-Gemma.aspx" title="Read Gemma's profile">Read <span class="hiddencontent">Gemma's</span> Profile</a></p>
         </div>
 
        <div class="profile-article">
@@ -56,7 +56,7 @@
             <h2>Richard</h2>
             <p class="profile-depart">Investment Banking Associate Programme</p>
             <p>I am an Associate on the Corporate Finance team in Investment Banking.</p>
-            <p><a href="campus-meet-our-people-profile-Richard.aspx" title="Read Richard's profile">Read <span class="hiddencontent">Richard's</span> Profile</a></p>
+            <p><a href="campus-profiles-Internship-Richard.aspx" title="Read Richard's profile">Read <span class="hiddencontent">Richard's</span> Profile</a></p>
         </div>
         
         <div class="profile-article">

@@ -28,7 +28,7 @@
                 
                 
                               
-                <div id="MapBAContinuum">
+                <div id="MapBAContinuumPhilippines">
                 </div>
                 <h2>BA Continuum Philippines Locations</h2>
                  <h3>

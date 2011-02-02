@@ -44,7 +44,7 @@
                 
                    <h2>
                     Selection Process</h2>
-                <p style="padding-left: 15px">
+                <p>
                    The selection process comprises the following:</p>
                 <ul>
                     <li>Aptitude test &#8211; candidates are tested on numerical ability, English grammar,
@@ -59,24 +59,24 @@
                 <!--  <p style="padding-left:15px"></p>
               <p style="padding-left:15px"> Please  note: Candidates who applied for a Team Member position and were not selected, can re-apply after a  period of three months.</p> -->
                 <p>
-                    <b>Please note:</b>Depending on the position applied, some of the above may or may not apply. Candidates, who applied for a Team Member position and were not selected, can re-apply after a period of 30 days.</p>
-                    <p>For interested applicants, please send your updated CV to <a href="mailto:bacp.staffing@bankofamerica.com">bacp.staffing@bankofamerica.com</a>.</p>
+                    <b>Please note: </b>Depending on the position applied, some of the above may or may not apply. Candidates, who applied for a Team Member position and were not selected, can re-apply after a period of 30 days.</p>
+                    <p>For interested applicants, please send your updated CV to <a class="ftrlnk" href="mailto:bacp.staffing@bankofamerica.com">bacp.staffing@bankofamerica.com</a>.</p>
                     <h2>FAQs</h2>
-                    <h2>What is the best way to find open positions?</h2>
+                    <h3>What is the best way to find open positions?</h3>
                     <p>Use the ‘Job Postings’ page to find the current positions available with us. In case your profile does not match any of the available positions, please register your profile with us by clicking the 'Register a Profile' button in the opportunities section.                    </p>
-                    <h2>How do I get to know the status of my application? </h2>
+                    <h3>How do I get to know the status of my application? </h3>
                     <p>Your resume, once entered online on our portal, will be updated in our resume database. Our recruiters would screen your profile based on your skills, strengths and areas of interest. A recruiter may contact you if your skill sets and background match any of the available positions with us. Your resume will remain active in our database for up to one year and will be considered for future positions. </p>
                     <p>After successfully registering your profile online, you will receive a Candidate ID in your email. Please save this ID and use it along with your e-mail ID for any status queries that you may have in the future by going to the Job postings View Status link. </p>
-                    <h2>How do I apply for a position other than what I have applied for previously?</h2>
+                    <h3>How do I apply for a position other than what I have applied for previously?</h3>
                     <p>You will be able to apply for other positions available without having to enter the details again by entering your Candidate ID and email id, after clicking on the “Apply” button against an available position. </p>
-                    <h2>What documents should I bring when I attend the interview?</h2>
+                    <h3>What documents should I bring when I attend the interview?</h3>
                     <ul>
                     <li>Copy of updated resume </li>
                     <li>Pay Slips/Certificate of Employment from last/current employer</li>
                     </ul>
-                    <h2>How can I get more details regarding the background verification done by BA Continuum?</h2>
+                    <h3>How can I get more details regarding the background verification done by BA Continuum?</h3>
                     <p>In BA Continuum, employee integrity is an important aspect; therefore as a mandatory requirement, we conduct a thorough background check of all our candidates. As per our process we would verify the information filled in by the candidate in the Candidate Information Sheet at the time of the interview and all his / her documents mentioned in the checklist above are verified with the issued institution. Any discrepancy due to forgery or manipulation in the information sheet or the documents can result in the withdrawal of the offer.</p>
-                    <h2>What are the working hours at BA Continuum?</h2>
+                    <h3>What are the working hours at BA Continuum?</h3>
                     <p>We work on a 24/7 schedule. All prospective candidates should be prepared to work in night shifts.</p>
                
                 <h2 class="h1">

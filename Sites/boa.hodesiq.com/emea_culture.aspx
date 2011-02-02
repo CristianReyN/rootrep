@@ -48,7 +48,7 @@
                         gender identity, ethnicity, disability, religion, age and sexual orientation, but
                         also diversity of viewpoint, experience, talents and ideas. The bank strives to
                         empower all associates to excel on the job and reach their full potential, and reward
-                        and recognize associates based on performance and results.<br />
+                        and recognize associates based on performance and results.<br /><br />
                         In addition to being the right thing to do, encouraging a diverse, inclusive workplace
                         gives the company the business advantage of understanding and meeting the needs
                         of its diverse customers, clients and shareholders. This diversity also provides

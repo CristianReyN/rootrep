@@ -24,11 +24,10 @@
                 <h2>Our Capabilities</h2>
                 <p> Our capabilities consist of business processes, business support functions, and IT enabled services for the Consumer and Small Business Banking, Global Card Services, Bank of America Home Loans, Global Banking and Wealth Management and Global Markets lines of business at Bank of America. BA Continuum Philippines, Inc. (BACP) targets clients in the banking and financial sector for its operations in the Philippines. It intends to focus on banks and financial institutions, including its affiliates in the United States of America, Canada, Europe, Middle East, Africa and its affiliates in Asia except Philippines.</p>
                 
-                <div id="retuntoBacsmap"> </div>
+                <div id="retuntoBacpmap"> </div>
                 <table border="0" cellpadding="0" cellspacing="5"><tr><td>
-                 <a href="ada_bacp.aspx#MapBAContinuum" class="ada2adalink" onfocus="this.className='ada2adalink-over';"
-                        onblur="this.className='ada2adalink';" title="View locations as text">View locations
-                    as text</a>
+                 <a href="ada_bacp.aspx#MapBAContinuumPhilippines" class="ada2adalink" onfocus="this.className='ada2adalink-over';"
+                        onblur="this.className='ada2adalink';" title="View locations as text">View locations as text</a>
                     </td></tr></table>
                 <p> </p>
                 <script language="javascript">

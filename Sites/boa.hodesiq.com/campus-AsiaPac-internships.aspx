@@ -39,8 +39,8 @@
                   </ul>
                  
                   <br />
-                  <p id="footnote1"><sup>1</sup>Footnote 1: Benefits and eligibility may vary by region. 
-                    Please discuss questions with your recruiter.</p>
+                  <!--<p id="footnote1"><sup>1</sup>Footnote 1: Benefits and eligibility may vary by region. 
+                    Please discuss questions with your recruiter.</p>-->
                 </div>
                 
 				  
