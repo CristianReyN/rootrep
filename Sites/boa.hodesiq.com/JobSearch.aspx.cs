@@ -728,6 +728,7 @@ public partial class JobSearch : System.Web.UI.Page
         {
             FilterCity(Convert.ToInt32(StateID));
             City.Enabled = true;
+            City.BackColor = System.Drawing.Color.White;
             lblCity.Visible = true;
             City.SelectedIndex = 0;
         }
