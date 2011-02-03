@@ -29,16 +29,26 @@
 <h2>Our Core Values</h2>
 <p>The following five values represent what we believe in as individuals and as a team, and how we aspire to interact with our customers, our shareholders, our communities and one another.</p>
 <ul>
-<li><b>Deliver for our customers, clients and shareholders</b></br>
- We share a passion for winning and serving the financial needs of individuals, corporate clients, and institutional investors. We believe that disciplined execution will lead to sustainable and long-term performance.</li><br>
-<li><b>Trust in our team</b></br>
-We work together around the globe to deliver the entire franchise to all our constituents. We strive to be consistent and straightforward in our interactions.</li><br />
-<li><b>Embrace the power of our people</b></br>
- We value our differences – in thought, style, cultures, ethnicity, and experience – understanding that diversity and inclusion are good for business and make our company stronger.</li><br />
-<li><b>Act responsibly</b></br>
- We are aware that our decisions and actions affect people’s lives every day. We hold ourselves accountable for the disciplined management of risk and for doing the right thing. </li><br />
-<li><b>Promote opportunity</b></br>
-We are committed to helping each other achieve our potential in order to build a better future for ourselves and the customers, clients, communities, and shareholders we serve.</li>
+<li><span class="text_bold">Deliver for our customers, clients and shareholders</span><br />
+ We share a passion for winning and serving the financial needs of individuals, corporate clients, and institutional investors. We believe that disciplined execution will lead to sustainable and long-term performance.<br />
+                            <br />
+                        </li>
+<li><span class="text_bold">Trust in our team</span><br />
+We work together around the globe to deliver the entire franchise to all our constituents. We strive to be consistent and straightforward in our interactions.<br />
+                            <br />
+                        </li>
+<li><span class="text_bold">Embrace the power of our people</span><br />
+ We value our differences – in thought, style, cultures, ethnicity, and experience – understanding that diversity and inclusion are good for business and make our company stronger.<br />
+                            <br />
+                        </li>
+<li><span class="text_bold">Act responsibly</span><br />
+ We are aware that our decisions and actions affect people’s lives every day. We hold ourselves accountable for the disciplined management of risk and for doing the right thing. <br />
+                            <br />
+                        </li>
+<li><span class="text_bold">Promote opportunity</span><br />
+We are committed to helping each other achieve our potential in order to build a better future for ourselves and the customers, clients, communities, and shareholders we serve.<br />
+                            <br />
+                        </li>
 </ul>
 
 

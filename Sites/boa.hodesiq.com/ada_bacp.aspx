@@ -1,4 +1,4 @@
-﻿<%@ Page Title="Bank of America | Careers | Locations | BA Continuum Philippines" Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeFile="ada_bacp.aspx.cs" Inherits="ada_bacp" %>
+﻿<%@ Page Title="Bank of America | Careers | Locations | BA Continuum Philippines, Text Only Version" Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeFile="ada_bacp.aspx.cs" Inherits="ada_bacp" %>
 
 
 <asp:Content ID="Image" ContentPlaceHolderID="Image" runat="Server"> <img src="images/global-careers-asia_I.jpg" width="578" height="166" alt="Explore a career with the Bank of Opportunity."

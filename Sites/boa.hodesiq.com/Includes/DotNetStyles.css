@@ -399,7 +399,7 @@ SELECT
     line-height: 1.0em;
     font-weight: normal;
     color: #000000;
-    background-color: #ffffff;
+    /*background-color: #ffffff;*/
     margin: 2px 0px 2px 0px;
 }
 SELECT.right
