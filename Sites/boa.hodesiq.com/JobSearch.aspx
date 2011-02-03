@@ -2,7 +2,7 @@
       Language="C#" MasterPageFile="~/BOAmaster.master" ValidateRequest="false" EnableEventValidation="false" %>
 
 <asp:Content ID="Content1" runat="Server" ContentPlaceHolderID="cphmain">  
-<table border="0" cellpadding="0" cellspacing="0" summary="" width="578"><tr><td valign="top"><h1 style="margin: 0px 0px 0px 12px; ">Guided Job Search</h1></td><td align="right"><div id="banc" runat="server"><a href="https://bacfhrs.taleo.net/careersection/10200/joblist.ftl?lang=en" title="Banc of America Merchant Services, LLC Job Search.  Link opens a new window." target="_blank"><img src="../images/BOA_MerchantJobSearch-1.jpg" width="179" height="66" alt="Banc of America Merchant Services, LLC Job Search." border="0" align="top"><span class="hidden">Link opens a new window.</span></a></div>	</td></tr> 
+<table border="0" cellpadding="0" cellspacing="0" summary="" width="578"><tr><td valign="top"><h1 style="margin: 0px 0px 0px 12px; ">Guided Job Search</h1></td><td align="right"><div id="banc" runat="server"><a href="https://bacfhrs.taleo.net/careersection/10200/joblist.ftl?lang=en" style="display:block;float:right;" title="Banc of America Merchant Services, LLC Job Search.  Link opens a new window." target="_blank"><img src="../images/BOA_MerchantJobSearch-1.jpg" width="179" height="66" alt="Banc of America Merchant Services, LLC Job Search." border="0" align="top"><span class="hidden">Link opens a new window.</span></a></div>	</td></tr> 
 	
         <span class='auraltext'>
          After you select a country from the country field, the page will refresh. For the United States, you can then pick a state.  After you select a state from the 'State" field, the page will refresh.  You will then be able to select a city from the 'City' field.  For all other countries, after you select a country other than the United States from the country field, the page will refresh and you can then select a city from the 'City' field.
@@ -164,7 +164,7 @@
 						<tr><td colspan="2">&nbsp;</td></tr>
 					</table><br />
 					<div style="text-align: left; margin: 11px 0px 0px 0px; padding: 0px;">
-	<a href="http://twitter.com/BofA_Careers" title="Stay connected to Careers on twitter @BofA_Careers.  Link opens a new window." target="_blank"><img src="../images/Twitter-Ad-for-Careers_03.gif" width="187" height="105" alt="Stay connected to Careers on twitter @BofA_Careers.  Link opens a new window." border="0" align="top"></a> <br clear="all">
+	<a href="http://twitter.com/BofA_Careers" style="display:block;float:left;" title="Stay connected to Careers on twitter @BofA_Careers.  Link opens a new window." target="_blank"><img src="../images/Twitter-Ad-for-Careers_03.gif" width="187" height="105" alt="Stay connected to Careers on twitter @BofA_Careers.  Link opens a new window." border="0" align="top"></a> <br clear="all">
 </div>
 					<br /><br />
 					<asp:Panel ID="PnlUSJobsContent" runat="server">					
