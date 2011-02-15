@@ -84,7 +84,7 @@
                      <p>
                     <img src="images/radha.jpg" alt="Radha Sundaresan, AVP, GWIMT, Chennai" /></p>
                 <p align="justify">
-                    &quot;My journey at BA Continuum India has been very rewarding, and I enjoyed many challenges in diverse areas both in leadership and technology. There is a huge vista of growth opportunities here tailored to individual ambitions and I feel fortunate to be part of the BA Continuum family.&quot;</p>
+                    &quot;My journey at BA Continuum India has been very rewarding and I enjoyed many challenges in diverse areas both in leadership and technology. There is a huge vista of growth opportunities here tailored to individual ambitions and I feel fortunate to be part of the BA Continuum family.&quot;</p>
                 <p class="style16 text_bold">
                     Radha Sundaresan<br />
                     AVP, GWIMT, Chennai</p>

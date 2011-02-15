@@ -63,8 +63,8 @@
 												
 							<td  valign="top" style="width:48%; height:45;">
 							    <asp:Label ID="lblCity" runat="server" Text="City" Visible="true" AssociatedControlID="City"></asp:Label> &nbsp; &nbsp; &nbsp;<asp:HyperLink runat="server"  NavigateUrl="#" ID="HylCityNote" onclick="javascript:w= window.open('overview/chelp.html','mywin','left=200px,top=180px,width=625,height=345,resizable=0');return false;" Visible="true" Font-Bold="true" CssClass="p" AssociatedControlID="City" style="width:80%;">How do I use the city search?<span class="hidden"> Link opens a new window</span></asp:HyperLink><br />
-								<asp:DropDownList ID="City" runat="server" CssClass="left" Style="width: 90%; z-index: auto;"
-								ToolTip="Select a city" Visible="true" Enabled="false" BackColor="#f5f4ea">
+								<asp:DropDownList ID="City" runat="server" CssClass="left" Style="width: 90%; z-index: auto; background-color:White; color:DarkGray"
+								ToolTip="Select a city" Visible="true" Enabled="false">
 								<asp:ListItem>All cities&#160;</asp:ListItem>
 								</asp:DropDownList>								
 							</td>

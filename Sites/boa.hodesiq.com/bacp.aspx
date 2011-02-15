@@ -112,18 +112,18 @@ function SwapDiv(divid,img)
 	if(img=='topimg1')
 	{
 	document.getElementById('topimg2').src = "images/asia1_03_bacs.gif";
-	document.getElementById('topimg1').src = "images/asia1_04_bacs.gif";
+	document.getElementById('topimg1').src = "images/asia1_04_bacs_NEW.gif";
 	document.getElementById('topimg3').src = "images/Philippines_03_bacs.gif";
 	}
 	if(img=='topimg2')
 	{
-	document.getElementById('topimg1').src = "images/asia_04_bacs.gif";
+	    document.getElementById('topimg1').src = "images/asia_04_bacs_NEW.gif";
 	document.getElementById('topimg2').src = "images/asia_03_bacs.gif";
 	document.getElementById('topimg3').src = "images/Philippines_03_bacs.gif";
 	}
 	if (img == 'topimg3') 
 	{
-	    document.getElementById('topimg1').src = "images/asia_04_bacs.gif";
+	    document.getElementById('topimg1').src = "images/asia_04_bacs_NEW.gif";
 	    document.getElementById('topimg2').src = "images/asia1_03_bacs.gif";
 	    document.getElementById('topimg3').src = "images/Philippines_04_bacs.gif";
 	}
@@ -145,7 +145,7 @@ function SwapDiv(divid,img)
                         <td width="162" height="27" align="left" valign="top"><a href="#A4" id="A6"> <img src="images/Philippines_04_bacs.gif" alt="BA Continuum Philippines" title="BA Continuum Philippines"
                                     name="topimg3" width="162" height="27" id="topimg3" onclick="SwapDiv('DivThree','topimg3')"
                                     border="0" /></a></td>
-                        <td width="162" height="27" align="left" valign="top"><a href="#A4" id="A4"> <img src="images/asia_04_bacs.gif" alt="BA Continuum (India)" title="BA Continuum (India)"
+                        <td width="162" height="27" align="left" valign="top"><a href="#A4" id="A4"> <img src="images/asia_04_bacs_NEW.gif" alt="BA Continuum (India)" title="BA Continuum (India)"
                                     name="topimg1" width="162" height="27" id="topimg1" onclick="SwapDiv('DivOne','topimg1')"
                                     border="0" /></a></td>
                         <td width="165" height="27" align="left" valign="top"><a href="#A4" id="A5" > <img src="images/asia1_03_bacs.gif" alt="Bank of America Merrill Lynch" title="Bank of America Merrill Lynch"
