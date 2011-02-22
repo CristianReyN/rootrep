@@ -28,16 +28,16 @@
 
 <p>Voici les cinq énoncés qui représentent nos convictions individuelles et collectives; elles guident nos relations avec nos clients, nos actionnaires, nos collègues et les collectivités dans lesquelles nous travaillons.</p><ul>
 
-<li><b>Nous faisons ce qui est bien. </b><br/>
-Il nous incombe d'agir dans l'intérêt de nos clients, de nos actionnaires, des collectivités dans lesquelles nous œuvrons et de nos collègues.</li>
-<li><b>Nous prônons la confiance et le travail d'équipe. </b><br/>
-Nous travaillons efficacement ensemble et nous nous portons garants de la satisfaction de nos clients. </li>
-<li><b>Nous accordons une place importante au mérite. </b><br/>
-Le bien-être de nos collègues nous tient à cœur, nous valorisons la différence, nous sommes axés sur les résultats et nous nous efforçons d'aider tous ceux avec qui nous nous associons à se réaliser pleinement.</li>
-<li><b>Nous adoptons une attitude gagnante. </b><br/>
-Nous cherchons constamment à atteindre et à dépasser les objectifs fixés – pour nos clients, nos actionnaires, les collectivités dans lesquelles nous travaillons et pour nous. </li>
-<li><b>Nous sommes des meneurs. </b><br/>
-Nous visons à être des leaders influents dans toutes les sphères de la société et à communiquer notre vision.</li></ul>
+<li><b>Nous respectons nos engagements envers nos clients et nos actionnaires</b><br/>
+Nous cherchons avec passion à réussir et à répondre aux besoins financiers des particuliers, des entreprises et des investisseurs institutionnels qui forment notre clientèle. Nous croyons que l’exécution disciplinée suscite un rendement durable et prolongé.</li>
+<li><b>Nous avons confiance en notre équipe</b><br/>
+Nous travaillons ensemble globalement pour fournir l’ensemble de nos services à toutes les parties prenantes. Nous visons la cohérence et la franchise dans nos interactions.</li>
+<li><b>Nous tirons profit des forces de nos gens</b><br/>
+Nous valorisons ce qui nous distingue – réflexion, style, culture, origine ethnique et expérience –, car nous comprenons que la diversité et l’inclusion profitent aux affaires et renforcent notre entreprise.</li>
+<li><b>Nous agissons de façon responsable</b><br/>
+Nous comprenons que nos décisions et les gestes que nous posons ont des répercussions sur le quotidien des gens. Nous sommes responsables de la gestion disciplinée des risques et de l’éthique de nos activités. </li>
+<li><b>Nous favorisons la chance</b><br/>
+Nous nous engageons à nous aider les uns les autres à réaliser notre potentiel afin de créer un avenir meilleur pour nos clients, nos actionnaires, les collectivités dans lesquelles nous travaillons et nous-mêmes. </li></ul>
 
 </td>
     </tr>

@@ -5,8 +5,20 @@
     <table summary="" border="0" cellpadding="0" cellspacing="0" width="578">
         <tr valign="top">
             <td style="padding: 6px 12px 0px 12px; height: 100%" valign="top">
-    Bank of America is committed to ensuring that its online application process provides an equal employment opportunity to all U.S. job candidates, including individuals with disabilities.  If you need a reasonable accommodation in order to search for a job opening or to submit an application please contact us by calling <b>1-877-760-2076</b>.  This is a dedicated line designed exclusively to assist disabled candidates with requesting an accommodation for the company’s online application process, and only messages left for this purpose will be considered.  A response to your request may take up to 2 business days.
+    Bank of America is committed to ensuring that its online application process provides an equal employment opportunity to all U.S. job seekers, including individuals with disabilities. If you believe you need a reasonable accommodation in order to search for a job opening or to submit an application, please contact us by calling <b>1-877-760-2076</b>.  This is a dedicated line designed exclusively to assist disabled job seekers whose disability prevents them from being able to apply online and only messages left for this purpose will be considered.  A response to your request may take up to 2 business days.
     </td>
+    </tr>
+    <tr><td>&nbsp;</td></tr>
+    <tr valign="top">
+            <td style="padding: 6px 12px 0px 12px; height: 100%" valign="top">
+            <b>Please note:</b>  Messages left for other purposes such as following up on an application or non-disability related technical issues, will not receive a response.
+            </td>
+    </tr>
+    <tr><td>&nbsp;</td></tr>
+    <tr valign="top">
+            <td style="padding: 6px 12px 0px 12px; height: 100%" valign="top">
+            Please review our <a href="faq/faq.asp" class="ftrlnk">Frequently Asked Questions</a> for assistance with common questions.  If your question is not addressed, please use the <a href="feedback/feedback.asp" class="ftrlnk">Give Us Your Feedback</a> option to submit your question.
+            </td>
     </tr>
     </table>
 </asp:Content>
