@@ -22,11 +22,8 @@
 <br><img src="../../images/clear.gif" width="10" height="12" alt="" border="0" /><br>
 <H2 class="bacg">Home Equity Lines of Credit</H2><p class="bacg">&nbsp;(HELOC) &mdash; The specific difference between a home equity loan and a HELOC is that HELOCs are lines of revolving credit with an adjustable interest rate, whereas a home equity loan is a one-time lump-sum loan, often with a fixed interest rate.</p>
 <br><img src="../../images/clear.gif" width="10" height="12" alt="" border="0" /><br>
-<H2 class="bacg">Reverse Mortgages</H2><p class="bacg">&nbsp;&mdash; Ideal for customers who meet specific circumstances*, a reverse mortgage loan can be used to liquidate the equity in an owned property, as one lump sum or multiple payments.  The homeowner&#39;s obligation to repay the loan is deferred until the owner dies, the home is sold, or the owner leaves (e.g., into aged care).</p>
-<br><img src="../../images/clear.gif" width="10" height="12" alt="" border="0" /><br>
 <p class="bacg">Join Bank&nbsp;of&nbsp;America Home Loans today, and use your skills and knowledge to start Bringing Opportunity Home &mdash; for customers, and for yourself.</p>
 <br><img src="../../images/clear.gif" width="10" height="12" alt="" border="0" /><br>
-<p class="bacg smaler"><i>*To qualify for a reverse mortgage in the United States, the borrower must be at least 62 years of age.  There are no minimum income or credit requirements, but there are other requirements, and homeowners should make sure that they qualify for the loan before they invest significant time or money into the process.</i></p>
 <%
 '******* HOT JOB OPENING '*******
 Dim familyid, talentid, globaljobsfamilyids, rowcount

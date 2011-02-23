@@ -77,7 +77,7 @@ Individuals who choose to build a career at Bank&nbsp;of&nbsp;America Home Loans
 		End If
 	End If
 %>
-		<li><a class="p" href="<%=href%>" title="Home Equity/Reverse Mortgages">Home Equity/Reverse Mortgages</a></li>
+		<li><a class="p" href="<%=href%>" title="Home Equity">Home Equity</a></li>
 <%
 	If page_section = "ADA" Then
 		If mpage = "areasoftalent" Then
