@@ -29,63 +29,98 @@ p {
 <img class="dotdiv" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
 
 <p style="text-align: left; margin-bottom: 0px;">
-During the course of the year, Bank of America participates in and supports various diverse recruiting events.
+During the course of the year, Bank&nbsp;of&nbsp;America participates in and supports various diverse recruiting events.
 </p>
 
 <p style="text-align: left; margin-top: 12px; margin-bottom: 0px;">
 <b>RecruitMilitary Opportunity Fair</b><br>
-July 22, 2010<br>
+May 12, 2011<br>
+Norfolk, VA<br>
+<a href="http://www.recruitmilitary.com" target="_blank" class="p">www.recruitmilitary.com<span class="hidden"> Link opens a new window</span></a>
+</p>
+
+<p style="text-align: left; margin-top: 12px; margin-bottom: 0px;">
+<b>RecruitMilitary Opportunity Fair</b><br>
+May 19, 2011<br>
+Chicago, IL<br>
+<a href="http://www.recruitmilitary.com" target="_blank" class="p">www.recruitmilitary.com<span class="hidden"> Link opens a new window</span></a>
+</p>
+
+<p style="text-align: left; margin-top: 12px; margin-bottom: 0px;">
+<b>RecruitMilitary Opportunity Fair</b><br>
+June 2, 2011<br>
 Charlotte, NC<br>
 <a href="http://www.recruitmilitary.com" target="_blank" class="p">www.recruitmilitary.com<span class="hidden"> Link opens a new window</span></a>
 </p>
 
 <p style="text-align: left; margin-top: 12px; margin-bottom: 0px;">
-<b>Association of Latino Professionals in Finance & Accounting (ALPFA)</b><br>
-July 31 - August 4, 2010<br>
-Lake Buena Vista, Florida<br>
-<a href="http://www.alpfa.org" target="_blank" class="p">www.alpfa.org<span class="hidden"> Link opens a new window</span></a>
-</p>
-
-<p style="text-align: left; margin-top: 12px; margin-bottom: 0px;">
-<b>Association of Asian Professionals in Finance & Accounting (ASCEND)</b><br>
-August 14 - 16, 2010<br>
-New York, New York<br>
-<a href="http://www.ascendleadership.org" target="_blank" class="p">www.ascendleadership.org<span class="hidden"> Link opens a new window</span></a>
-</p>
-
-<p style="text-align: left; margin-top: 12px; margin-bottom: 0px;">
 <b>RecruitMilitary Opportunity Fair</b><br>
-August 19, 2010<br>
+June 16, 2011<br>
 Jacksonville, FL<br>
 <a href="http://www.recruitmilitary.com" target="_blank" class="p">www.recruitmilitary.com<span class="hidden"> Link opens a new window</span></a>
 </p>
 
 <p style="text-align: left; margin-top: 12px; margin-bottom: 0px;">
-<b>National Black MBA (NBMBAA)</b><br>
-September 21 -25, 2010<br>
-Los Angeles, California<br>
-<a href="http://www.nbmbaa.org" target="_blank" class="p">www.nbmbaa.org<span class="hidden"> Link opens a new window</span></a>
+<b>National Association of Black Accountants (NABA)</b><br>
+June 22 - 25, 2011<br>
+Orlando, FL<br>
+<a href="http://www.nabainc.org" target="_blank" class="p">www.nabainc.org<span class="hidden"> Link opens a new window</span></a>
 </p>
 
 <p style="text-align: left; margin-top: 12px; margin-bottom: 0px;">
 <b>RecruitMilitary Opportunity Fair</b><br>
-October 7, 2010<br>
-Atlanta, GA<br>
+June 30, 2011<br>
+Los Angeles, CA<br>
 <a href="http://www.recruitmilitary.com" target="_blank" class="p">www.recruitmilitary.com<span class="hidden"> Link opens a new window</span></a>
 </p>
 
 <p style="text-align: left; margin-top: 12px; margin-bottom: 0px;">
-<b>Reaching Out MBA (ROMBA)</b><br>
-October 14 - 17, 2010<br>
-Los Angeles, California<br>
-<a href="http://www.reachingoutmba.org" target="_blank" class="p">www.reachingoutmba.org<span class="hidden"> Link opens a new window</span></a>
+<b>RecruitMilitary Opportunity Fair</b><br>
+July 14, 2011<br>
+Dallas, TX<br>
+<a href="http://www.recruitmilitary.com" target="_blank" class="p">www.recruitmilitary.com<span class="hidden"> Link opens a new window</span></a>
+</p>
+
+<p style="text-align: left; margin-top: 12px; margin-bottom: 0px;">
+<b>National Urban League (NUL)</b><br>
+July 27-30, 2011<br>
+Boston, MA<br>
+<a href="http://www.nul.org" target="_blank" class="p">www.nul.org<span class="hidden"> Link opens a new window</span></a>
+</p>
+
+<p style="text-align: left; margin-top: 12px; margin-bottom: 0px;">
+<b>Association of Latino Professionals in Finance and Accounting (ALPFA)</b><br>
+August 6-10, 2011<br>
+Anaheim, CA<br>
+<a href="http://www.alpfa.org" target="_blank" class="p">www.alpfa.org<span class="hidden"> Link opens a new window</span></a>
+</p>
+
+<p style="text-align: left; margin-top: 12px; margin-bottom: 0px;">
+<b>Association of Asian Professionals in Finance and Accounting (ASCEND)</b><br>
+August 26-29, 2011<br>
+New York, NY<br>
+<a href="http://www.ascendleadership.org" target="_blank" class="p">www.ascendleadership.org<span class="hidden"> Link opens a new window</span></a>
+</p>
+
+<p style="text-align: left; margin-top: 12px; margin-bottom: 0px;">
+<b>National Black MBA (NBMBAA)</b><br>
+Oct. 4-8, 2011<br>
+Atlanta, GA<br>
+<a href="http://www.nbmbaa.org" target="_blank" class="p">www.nbmbaa.org<span class="hidden"> Link opens a new window</span></a>
 </p>
 
 <p style="text-align: left; margin-top: 12px; margin-bottom: 0px;">
 <b>National Society of Hispanic MBAs (NSHMBA)</b><br>
-October 21 - 23, 2010<br>
-Chicago, Illinois<br>
+Oct. 13-15, 2011<br>
+Anaheim, CA<br>
 <a href="http://www.nshmba.org" target="_blank" class="p">www.nshmba.org<span class="hidden"> Link opens a new window</span></a>
+</p>
+
+<p style="text-align: left; margin-top: 12px; margin-bottom: 0px;">
+<b>Reaching Out MBA (ROMBA)</b><br>
+Oct. 13-16, 2011<br>
+Dallas, TX<br>
+<a href="http://www.reachingoutmba.org" target="_blank" class="p">www.reachingoutmba.org<span class="hidden"> Link opens a new window</span></a>
 </p>
 
 <br><br>

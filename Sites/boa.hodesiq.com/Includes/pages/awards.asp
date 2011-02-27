@@ -6,6 +6,11 @@
 <img class="dotdiv" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
 <p>The bank&#39;s commitment to supporting a diverse workforce has earned Bank&nbsp;of&nbsp;America significant public recognition from these publications among others listed below:</p>
 
+<H2 class="p" style="margin: 12px 0px 6px 0px; padding: 0px;"><span class="bd"><b>2011 Recognition:</b></span></H2>
+<ul>
+	<li>Bank&nbsp;of&nbsp;America ranked number 2 on <b><i>Equal Opportunity</i></b> magazine&#39;s annual &ldquo;Top 50 Employers&rdquo; list. The publications readership selected top companies in the U.S. for which they would most prefer to work for or believe are progressive in hiring minorities and diverse individuals. This is the 18<span class="supth">th</span> year the publication has produced the list.</li>
+</ul>
+
 <H2 class="p" style="margin: 12px 0px 6px 0px; padding: 0px;"><span class="bd"><b>2010 Recognition:</b></span></H2>
 <ul>
 	<li><b><i>G.I. Jobs</i></b> magazine recognized the bank for the fifth year in a row as one of the top 100 Military Friendly Employers on its annual list. The bank ranked number 48. The ranking evaluates companies on their supportive military recruiting and retention programs, military leave of absence program, employee networks, community partnerships and much more.</li>
@@ -36,7 +41,7 @@
 	<li><b><i>Forbes</b></i> recognized Sallie Krawcheck, Global Wealth &amp; Investment Management executive on its annual list called the World&#39;s 100 Most Powerful Women. Krawcheck ranked number 44.</li>
 	<li>In the May issue of <b><i>Research</b></i> magazine, Sallie Krawcheck, Global Wealth &amp; Investment Management president was named to its "50 Top Women in Wealth Management for 2010".</li>
 	<li>30 Merrill Lynch Global Wealth Management Financial Advisors were named to <b><i>Barron&#39;s</b></i> "Top 100 Women Financial Advisors" list, more than any other firm.</li>
-	<li>Cathy Bessant, Global Technology &amp; Operations executive was honored by <b>Queens University of Charlotte</b> as the Charlotte Business Woman of the Year. She is the 25th recipient of the annual award, which recognizes the achievement of women in for-profit enterprises, based on their contributions to the business, civic and cultural communities of the Charlotte region.</li>
+	<li>Cathy Bessant, Global Technology &amp; Operations executive was honored by <b>Queens University of Charlotte</b> as the Charlotte Business Woman of the Year. She is the 25<span class="supth">th</span> recipient of the annual award, which recognizes the achievement of women in for-profit enterprises, based on their contributions to the business, civic and cultural communities of the Charlotte region.</li>
 	<li><b><i>Charlotte Business Journal</b></i> recognized Katy Knox, Global Commercial Banking Southeast Region executive and Laurie Readhead, eChannels &amp; Customer Solutions executive on its Top Women in Business list.</li>
 	<li><b><i>Black Enterprise</b></i> magazine recognized Amy Ellis-Simon, managing director and head of middle markets sales as one of the top 75 women in business in its February issue.</li>
 </ul>

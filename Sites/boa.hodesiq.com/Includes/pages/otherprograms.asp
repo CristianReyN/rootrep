@@ -12,20 +12,20 @@
 <H2 class="bac" style="margin: 12px 0px 0px 0px; padding: 0px;">Associate Banking and Investments</H2>
 <p style="margin: 6px 0px 0px 0px;">Provides discounts and services to U.S.-based Bank&nbsp;of&nbsp;America associates on a wide range of banking and investing products. Please visit your local banking center or call Associate Banking &amp; Investments at 1.800.695.6262 for more details.</p>
 
-<H2 class="bac" style="margin: 12px 0px 0px 0px; padding: 0px;">Joe Martin Scholarship Program</H2>
+<H2 class="bac" style="margin: 12px 0px 0px 0px; padding: 0px;"><a href="http://www.bankofamerica.com/foundation/index.cfm?template=fd_joemartin" class="bacb" title="" target="_blank">Joe Martin Scholarship Program<span class="hidden"> Link opens a new window</span></a></H2>
 <p style="margin: 6px 0px 0px 0px;">Scholarships ranging from $500 to $5,000 are awarded through a competitive program to associates' dependents age 23 or younger who meet academic and extracurricular activity requirements.</p>
 
-<H2 class="bac" style="margin: 12px 0px 0px 0px; padding: 0px;">Matching Gifts Program</H2>
-<p style="margin: 6px 0px 0px 0px;">Associates may donate cash or securities from $25 to $10,000 to qualifying nonprofit organizations, and the bank will match the donations.</p>
+<H2 class="bac" style="margin: 12px 0px 0px 0px; padding: 0px;"><a href="http://www.bankofamerica.com/foundation/index.cfm?template=fd_matchinggift" class="bacb" title="" target="_blank">Matching Gifts Program<span class="hidden"> Link opens a new window</span></a></H2>
+<p style="margin: 6px 0px 0px 0px;">Associates may donate cash or securities from $25 to $5,000 to qualifying nonprofit organizations, and the bank will match the donations.</p>
 
 <H2 class="bac" style="margin: 12px 0px 0px 0px; padding: 0px;">Volunteer Time</H2>
 <p style="margin: 6px 0px 0px 0px;">Provides opportunities for full-time associates to use up to two paid hours per week (including travel time) to volunteer at a local organization, including schools, shelters, food banks, mentoring programs, volunteer centers and similar organizations. Manager approval is required.</p>
 
-<H2 class="bac" style="margin: 12px 0px 0px 0px; padding: 0px;">Volunteer Grants Program</H2>
+<H2 class="bac" style="margin: 12px 0px 0px 0px; padding: 0px;"><a href="http://www.bankofamerica.com/foundation/index.cfm?template=fd_volunteergrants" class="bacb" title="" target="_blank">Volunteer Grants Program<span class="hidden"> Link opens a new window</span></a></H2>
 <p style="margin: 6px 0px 0px 0px;">An unrestricted grant is made to any qualifying nonprofit organization for which an associate has committed substantial volunteer hours within a calendar year.</p>
 
-<H2 class="bac" style="margin: 12px 0px 0px 0px; padding: 0px;"><a href="http://www.bankofamerica.com/teambank/" class="bacb" title="" target="_blank">Team Bank&nbsp;of&nbsp;America<span class="hidden"> Link opens a new window</span></a></H2>
-<p style="margin: 6px 0px 0px 0px;">Provides an associate with personal and professional development, as well as volunteering and networking opportunities outside the workplace. Team Bank&nbsp;of&nbsp;America has five networks: Diversity, Volunteer, Speaking, Recreation and Environmental.</p>
+<H2 class="bac" style="margin: 12px 0px 0px 0px; padding: 0px;"><a href="http://www.bankofamerica.com/teambank/" class="bacb" title="" target="_blank">Bank&nbsp;of&nbsp;America Community Volunteers<span class="hidden"> Link opens a new window</span></a></H2>
+<p style="margin: 6px 0px 0px 0px;">Through Bank&nbsp;of&nbsp;America Community Volunteers, associates donate their time, passion and expertise to serve critical community needs.  In 2010, associates across the company&#39;s global footprint gave more than 1 million hours of volunteer service to help strengthen the communities in which they live and work.  In addition to making a significant impact in the community, volunteerism offers associates opportunities for leadership development.</p>
 
 <!-- #include file="../benefitsnav.asp" -->
 </div>

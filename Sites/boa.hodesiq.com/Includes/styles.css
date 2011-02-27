@@ -1395,3 +1395,9 @@ table#chelp p, ul
 	color : #333333;
 	font : normal 11px/14px Verdana, Geneva, Arial, Helvetica, sans-serif;
 }
+.supth
+{
+	font-size: 50%;
+	position: relative;
+	top: -2px;
+}

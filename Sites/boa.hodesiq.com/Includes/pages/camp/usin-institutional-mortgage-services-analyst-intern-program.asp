@@ -5,18 +5,18 @@
 <a name="skipmaincontent"></a><h1 class="bac"><%=program.Item("title")%></h1>
 <h2 class="bac">Our Business:</h2>
 <p class="bac">
-Institutional Mortgage Services (IMS) is an industry leader in the business of financing and purchasing mortgage loans.  IMS is comprised of three distinct groups: Correspondent Lending, Warehouse Lending and Wholesale Lending, within the Sales &#38; Fulfillment organization. Each of these channels is committed to responsible lending, and to helping create successful home ownership by offering specialized products and services designed to meet the needs of mortgage providers throughout the country &ndash; including banks, savings and loans, credit unions, mortgage lenders and mortgage brokers.
+Institutional Mortgage Services (IMS) is an industry leader in the business of financing and purchasing mortgage loans.  Institutional Mortgage Services (IMS) is comprised of two distinct groups: Correspondent Lending and Warehouse Lending within the Sales &#38; Fulfillment organization. Each of these channels is committed to responsible lending and helping create successful home ownership by offering specialized products and services designed to meet the needs of mortgage providers throughout the country &mdash; including banks, savings and loans, credit unions, mortgage lenders and mortgage brokers.
 </p>
 <br>
 <p class="bac">
-Together, IMS combines all three third&ndash;party origination channels into one business&ndash;to&ndash;business mortgage team, that consistently generates up to 50% of the overall volume for the sales and fulfillment channels of Home Loans &#38; Insurance.
+Together, IMS combines third&ndash;party origination channels into one business&ndash;to&ndash;business mortgage team that consistently generates up to 50 percent of the overall volume for the sales and fulfillment channels of Home Loans &#38; Insurance.
 </p>
 
 <img src="../images/clear.gif" class="bac" alt=""><br clear="all">
 
 <h2 class="bac">Overview:</h2>  
 <p class="bac">
-Bank of America is seeking outstanding college students interested in a rewarding intern experience in Sales, Fulfillment, Pricing Analysis and Modeling, Warehouse Lending and Counterparty Risk, or Credit Strategies, to enter our selective 10&ndash;12&ndash;week Institutional Mortgage Services Analyst Intern Program.  
+Bank&nbsp;of&nbsp;America is seeking outstanding college students interested in a rewarding intern experience in Sales, Fulfillment, Pricing Analysis and Modeling, Warehouse Lending and Counterparty Risk, or Credit Strategies, to enter our selective 10&ndash;12&ndash;week Institutional Mortgage Services Analyst Intern Program.  
 </p>
 <p class="bac">
 In this program you will:

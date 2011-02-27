@@ -20,7 +20,7 @@
 	<li><a href="#q4" class="p" onfocus="this.className='p-over';" onblur="this.className='p';">What are the basic requirements for becoming an associate for Bank of America other than the job related qualifications listed in the posting?</a></li>
 	<li><a href="#q5" class="p" onfocus="this.className='p-over';" onblur="this.className='p';">Will I be considered for other positions when applying for a specific position?</a></li>
 	<li><a href="#q6" class="p" onfocus="this.className='p-over';" onblur="this.className='p';">How often can I update my profile?</a></li>
-	<li><a href="#q7" class="p" onfocus="this.className='p-over';" onblur="this.className='p';">What happens to my resume after it's been submitted?</a></li>
+	<li><a href="#q7" class="p" onfocus="this.className='p-over';" onblur="this.className='p';">What happens to my resume after it&#39;s been submitted?</a></li>
 	<li><a href="#q8" class="p" onfocus="this.className='p-over';" onblur="this.className='p';">After I submit my profile and/or application will I receive a response?</a></li>
 	<li><a href="#q9" class="p" onfocus="this.className='p-over';" onblur="this.className='p';">Will I hear back from a Recruiter?</a></li>
 	<li><a href="#q10" class="p" onfocus="this.className='p-over';" onblur="this.className='p';">How could I be notified if there are new positions that fit my skill set?</a></li>
@@ -35,9 +35,11 @@
 	<li><a href="#q19" class="p" onfocus="this.className='p-over';" onblur="this.className='p';">Do I have to attend a school full-time to attend a school event?</a></li>
 	<li><a href="#q20" class="p" onfocus="this.className='p-over';" onblur="this.className='p';">Are these all the events Bank of America attends?</a></li>
 	<li><a href="#q21" class="p" onfocus="this.className='p-over';" onblur="this.className='p';">How can I invite Bank of America to attend my school?</a></li>
-	<li><a href="#q22" class="p" onfocus="this.className='p-over';" onblur="this.className='p';">What if my school isn't listed, can I attend any event?</a></li>
+	<li><a href="#q22" class="p" onfocus="this.className='p-over';" onblur="this.className='p';">What if my school isn&#39;t listed, can I attend any event?</a></li>
 	<li><a href="#q23" class="p" onfocus="this.className='p-over';" onblur="this.className='p';">Do I get one-on-one time with a Bank of America recruiter at events?</a></li>
 	<li><a href="#q24" class="p" onfocus="this.className='p-over';" onblur="this.className='p';">What if I missed an event at my school?</a></li>
+	<li><a href="#q25" class="p" onfocus="this.className='p-over';" onblur="this.className='p';">I don&#39;t remember my user name and/or passcode for my candidate profile. How do I obtain this information?</a></li>
+	<li><a href="#q26" class="p" onfocus="this.className='p-over';" onblur="this.className='p';">While attempting to apply, my computer froze and I was unable to complete my application.  What should I do?</a></li>
 </ul>
 <img src="../images/clear.gif" width="100%" height="1" alt="" border="0" style="margin-top: 0px;">
 <img src="../images/clear.gif" width="100%" height="1" alt="" border="0" style="background: #becede; margin-top: 0px;">
@@ -58,7 +60,7 @@
 <img src="../images/clear.gif" width="100%" height="1" alt="" border="0" style="background: #becede;">
 <a name="q4"></a><H2 class="p" style="margin: 9px 0px 6px 0px;"><b>What are the basic requirements for becoming an associate for Bank of America other than the job related qualifications listed in the posting?</b></H2>
 <p style="margin: 0px;">You must be willing to:</p>
-	<ul id="answ4" style="list-style-image : url(../images/bull3.gif);">
+	<ul style="list-style-image : url(../images/bull3.gif);">
 		<li>Submit authorized documents within three days from the start of employment as proof of authorization to be employed in the United States.</li>
 		<li>Be fingerprinted if requested by Bank of America or as required by applicable law, for purposes of conducting a criminal background check.</li>
 		<li>Undergo a screening for illegal drugs prior to or during my employment with the Company if requested or as legally required.</li>
@@ -163,6 +165,22 @@
 <img src="../images/clear.gif" width="100%" height="1" alt="" border="0" style="background: #becede;">
 <a name="q24"></a><H2 class="p" style="margin: 9px 0px 6px 0px;"><b>What if I missed an event at my school?</b></H2>
 <p style="margin: 0px;">If you happen to miss an event, we recommend you check with your career center to obtain contact information of recruiters who visited your college.</p>
+<p style="margin: 12px 0px 6px 0px; text-align: right;"><a href="#qtop" class="p" onfocus="this.className='p-over';" onblur="this.className='p';" style="text-decoration: none;"><img src="../images/back_to_top.gif" width="7" height="4" alt="" border="0" align="top" hspace="4">Back to Top</a></p>
+
+<img src="../images/clear.gif" width="100%" height="1" alt="" border="0" style="background: #becede;">
+<a name="q25"></a><H2 class="p" style="margin: 9px 0px 6px 0px;"><b>I don't remember my user name and/or passcode for my candidate profile. How do I obtain this information?</b></H2>
+<p style="margin: 0px;">Follow the steps below:</p>
+	<ol>
+		<li style="padding-bottom: 3px;">Click the Job Search tab.</li>
+		<li style="padding-bottom: 3px;">Select the country in which you are seeking employment.</li>
+		<li style="padding-bottom: 3px;">Click the "Manage Your Profile" link at the bottom of the page.</li>
+		<li style="padding-bottom: 3px;">Select the "Forgot your user name?" or "Forgot your passcode?" link as needed and follow the steps provided.</li>
+	</ol>
+<p style="margin: 12px 0px 6px 0px; text-align: right;"><a href="#qtop" class="p" onfocus="this.className='p-over';" onblur="this.className='p';" style="text-decoration: none;"><img src="../images/back_to_top.gif" width="7" height="4" alt="" border="0" align="top" hspace="4">Back to Top</a></p>
+
+<img src="../images/clear.gif" width="100%" height="1" alt="" border="0" style="background: #becede;">
+<a name="q26"></a><H2 class="p" style="margin: 9px 0px 6px 0px;"><b>While attempting to apply, my computer froze and I was unable to complete my application.  What should I do?</b></H2>
+<p style="margin: 0px;">This may be a result of too many programs running at the same time.  Close all of your internet web browser windows and any other applications you may have open. Then, restart your computer.</p>
 <p style="margin: 12px 0px 6px 0px; text-align: right;"><a href="#qtop" class="p" onfocus="this.className='p-over';" onblur="this.className='p';" style="text-decoration: none;"><img src="../images/back_to_top.gif" width="7" height="4" alt="" border="0" align="top" hspace="4">Back to Top</a></p>
 
 <img src="../images/clear.gif" width="100%" height="1" alt="" border="0" style="background: #becede;">
