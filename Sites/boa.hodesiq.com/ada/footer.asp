@@ -9,7 +9,7 @@
 		<img src="../images/clear.gif" width="1" height="19" alt="" border="0" />
 		<div class="ftrtxt2">Bank of America, N.A. Member FDIC.
 		<a href="http://www.bankofamerica.com/help/equalhousing_popup.cfm" onclick="javascript:window.open('http://www.bankofamerica.com/help/equalhousing_popup.cfm','newwin','width=640,height=371,scrollbars=yes,resizable=yes,left=35,top=161'); return false;" target="_blank" class="ftrlnk" onfocus="this.className='ftrlnk-over';" onblur="this.className='ftrlnk';" title="Equal Housing Lender. Link opens a new window.">Equal Housing Lender</a><a href="http://www.bankofamerica.com/help/equalhousing_popup.cfm" onclick="javascript:window.open('http://www.bankofamerica.com/help/equalhousing_popup.cfm','newwin','width=640,height=371,scrollbars=yes,resizable=yes,left=35,top=161'); return false;" target="_blank" title="Equal Housing Lender. Link opens a new window."><img src="../images/house.gif" width="14" height="9" hspace="3" alt="Equal Housing Lender. Link opens a new window." border="0"></a><br>
-		&copy; 2010 Bank of America Corporation. All rights reserved.</div><br></td>
+		&copy; 2011 Bank of America Corporation. All rights reserved.</div><br></td>
 		<td align="right" width="131">&nbsp;</td>
 	</tr>
 </table>

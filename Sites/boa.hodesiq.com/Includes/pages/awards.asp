@@ -8,7 +8,7 @@
 
 <H2 class="p" style="margin: 12px 0px 6px 0px; padding: 0px;"><span class="bd"><b>2011 Recognition:</b></span></H2>
 <ul>
-	<li>Bank&nbsp;of&nbsp;America ranked number 2 on <b><i>Equal Opportunity</i></b> magazine&#39;s annual &ldquo;Top 50 Employers&rdquo; list. The publications readership selected top companies in the U.S. for which they would most prefer to work for or believe are progressive in hiring minorities and diverse individuals. This is the 18<span class="supth">th</span> year the publication has produced the list.</li>
+	<li>Bank&nbsp;of&nbsp;America ranked number 2 on <b><i>Equal Opportunity</i></b> magazine&#39;s annual &ldquo;Top 50 Employers&rdquo; list. The publication&#39;s readership selected top companies in the U.S. for which they would most prefer to work for or believe are progressive in hiring minorities and diverse individuals. This is the 18<span class="supth">th</span> year the publication has produced the list.</li>
 </ul>
 
 <H2 class="p" style="margin: 12px 0px 6px 0px; padding: 0px;"><span class="bd"><b>2010 Recognition:</b></span></H2>
