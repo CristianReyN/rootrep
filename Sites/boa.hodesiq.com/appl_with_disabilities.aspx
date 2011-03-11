@@ -5,7 +5,7 @@
     <table summary="" border="0" cellpadding="0" cellspacing="0" width="578">
         <tr valign="top">
             <td style="padding: 6px 12px 0px 12px; height: 100%" valign="top">
-    Bank of America is committed to ensuring that its online application process provides an equal employment opportunity to all U.S. job seekers, including individuals with disabilities. If you believe you need a reasonable accommodation in order to search for a job opening or to submit an application, please contact us by calling <b>1-877-760-2076</b>.  This is a dedicated line designed exclusively to assist disabled job seekers whose disability prevents them from being able to apply online and only messages left for this purpose will be considered.  A response to your request may take up to 2 business days.
+    Bank of America is committed to ensuring that its online application process provides an equal employment opportunity to all U.S. job seekers, including individuals with disabilities. If you believe you need a reasonable accommodation in order to search for a job opening or to submit an application, please contact us by calling <b>1-877-760-2076</b>.  This is a dedicated line designed exclusively to assist disabled job seekers whose disability prevents them from being able to apply online.  Only messages left for this purpose will be considered.  A response to your request may take up to two business days.
     </td>
     </tr>
     <tr><td>&nbsp;</td></tr>
