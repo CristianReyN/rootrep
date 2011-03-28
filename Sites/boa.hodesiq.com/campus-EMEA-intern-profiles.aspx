@@ -59,13 +59,13 @@
             <p><a href="campus-profiles-Internship-Richard.aspx" title="Read Richard's profile">Read <span class="hiddencontent">Richard's</span> Profile</a></p>
         </div>
         
-        <div class="profile-article">
+        <!--<div class="profile-article">
             <img src="images/campus/icon-Ross.jpg" width="50" height="80" alt="Ross" />
             <h2>Ross</h2>
             <p class="profile-depart">Treasury Management Analyst Programme</p>
             <p>As a sales analyst, I support two Treasury Sales Officers who each manage their own portfolio of clients.</p>
             <p><a href="campus-profiles-Internship-Ross.aspx" title="Read Ross's profile">Read <span class="hiddencontent">Ross's</span> Profile</a></p>
-        </div>
+        </div>-->
     
     <p class="back-top"><a href="#main-profiles">Back to top</a></p>
   </div>

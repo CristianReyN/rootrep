@@ -9,16 +9,16 @@
   <div id="article">
                  <h1>How to Apply</h1>
 				 
-				 <p>You’ve done your research, and now you’re ready to take the next step and begin the application process. You’re in the right place. Before you dive in, please take a look at our <a href="CampusEvents.aspx?region=2">campus events page</a> to see if we’ll be visiting your campus. (We’d love to meet you in person.) Otherwise, please use the tabs below to narrow your geographical focus and follow the instructions. We look forward to hearing from you.</p>
+				 <p>You’ve done your research, and now you’re ready to take the next step and begin the application process. You’re in the right place. Before you dive in, please take a look at our <a href="CampusEvents.aspx?region=2">campus events page</a> to see if we’ll be visiting your campus. (We’d love to meet you in person.) Otherwise, please use the buttons below and follow the instructions. We look forward to connecting with you.</p>
 
 <p>For positions in Europe, Middle East and Africa, you must apply through our online application system. Simply click the link below and follow the instructions to apply and track the progress of your application.</p>
 		
 		<span class='auraltext'>
-			<h2 style="margin: 0px 0px 0px 12px; ">Important information on applying for positions.</h2>
+			<h2 style="margin: 0px 0px 0px 12px;">Important information on applying for positions.</h2>
 				Apply Now. You are encouraged to complete this online application, however if you have difficulty, you should:
 				<ul>
 
-					<li />Email your resume to <a href="mailto:graduate_recruitment@ml.com">graduate_recruitment@ml.com</a>
+					<li />Email your CV to <a href="mailto:graduate.recruitment@baml.com">graduate.recruitment@baml.com</a>
 					<li />In the Subject Line of your email, include "Source = Bank&nbsp;of&nbsp;America Campus Careers" and the specific position title found at the top of the job posting.
 				</ul>
 		</span>

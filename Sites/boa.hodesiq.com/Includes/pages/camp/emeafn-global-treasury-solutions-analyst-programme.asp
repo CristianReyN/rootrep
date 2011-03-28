@@ -94,8 +94,8 @@ Opportunities across EMEA
 <br>
 				</td>
 				<td width="205" height="100%" valign="top" style="padding-top: 8px;" align="right">
-<img src="../Includes/pages/camp/profile/TreasuryManagement_Ross.jpg" width="205" height="153" alt="Ross" border="0"><br clear="all">
-<p align="center" style="margin: 6px 0px 24px 0px;"><a href="../campus-meet-our-people-profile-Ross.aspx" class="p" title="View Ross&#39;s profile.">View Ross&#39;s profile</a></p>
+<img src="../images/BACMER_Signature_BLACK.gif" width="205" height="69" alt="Ross" border="0"><br clear="all">
+<p align="center" style="margin: 6px 0px 24px 0px;">&nbsp;</p>
 <!-- #include file="../../camprnav_region.asp" -->
 				</td>
 			</tr>

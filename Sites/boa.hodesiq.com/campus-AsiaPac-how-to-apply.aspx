@@ -9,7 +9,7 @@
   <div id="article">
                  <h1>How to Apply</h1>
 				 
-				 <p>You've done your research, and now you’re ready to take the next step and begin the application process. You’re in the right place. Before you dive in, please take a look at our <a href="CampusEvents.aspx?region=3">campus events page</a> to see if we’ll be visiting your campus. (We’d love to meet you in person.) Otherwise, please use the tabs below to narrow your geographical focus and follow the instructions. We look forward to hearing from you.</p>
+				 <p>You've done your research, and now you’re ready to take the next step and begin the application process. You’re in the right place. Before you dive in, please take a look at our <a href="CampusEvents.aspx?region=3">campus events page</a> to see if we’ll be visiting your campus. (We’d love to meet you in person.) Otherwise, please use the buttons below to narrow your geographical focus and follow the instructions. We look forward to connecting with you.</p>
 
 
 		<p class="bac">For positions in Asia Pacific, you must apply through our online application system. Simply click the link below and follow the instructions to apply and track the progress of your application.</p>

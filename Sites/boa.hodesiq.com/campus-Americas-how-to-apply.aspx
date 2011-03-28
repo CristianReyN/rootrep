@@ -9,26 +9,15 @@
   <div id="article">
                  <h1>How to Apply</h1>
 				 
-				 <p>You've done your research, and now you’re ready to take the next step and begin the application process. You’re in the right place. Before you dive in, please take a look at our <a href="CampusEvents.aspx?region=1">campus events page</a>  to see if we’ll be visiting your campus. (We’d love to meet you in person.) Otherwise, please use the tabs below to narrow your geographical focus and follow the instructions. We look forward to hearing from you.</p>
+				 <p>You've done your research, and now you’re ready to take the next step and begin the application process. You’re in the right place. Before you dive in, please take a look at our <a href="CampusEvents.aspx?region=1">campus events page</a>  to see if we’ll be visiting your campus. (We’d love to meet you in person.) Otherwise, please use the buttons below to narrow your geographical focus and follow the instructions. We look forward to connecting with you.</p>
 
 <h2 class="questions">Apply in the U.S.</h2>
-		<p>For positions in the U.S. you must apply through our online application system. Simply click the link below and follow the instructions to apply and track the progress of your application.</p>
-		
-		<span class='auraltext'>
-			<h3 style="margin: 0px 0px 0px 12px; ">Important information on applying for positions.</h3>
-
-				Apply Now. You are encouraged to complete this online application, however if you have difficulty, you should:
-				<ul>
-					<li />Email your resume to <a href="mailto:bac@resume.bankofamerica.com">bac@resume.bankofamerica.com</a>
-					<li />In the Subject Line of your email, include "Source = Bank&nbsp;of&nbsp;America Campus Careers" and the specific position title found at the top of the job posting.
-				</ul>
-		</span>
-		
+		<p>For positions in the U.S., you must create a profile via our online application system. Simply click the link below and follow the instructions to create your profile. You should also find out from your school's Career Services office what other application procedures are required for full-time and summer positions.</p>
 		<p><a class="button" href="../learnmore/sendresume.asp" target="_blank" title="Apply Link opens a new window."><span>Apply</span></a></p><br />
 		<br />
 		<h2 class="questions">Apply in Canada</h2>
 
-		<p>For positions in Canada you must apply through our online application system. Simply click the link below and follow the instructions to apply and track the progress of your application.</p>
+		<p>For positions in Canada, you must apply through our online application system. Simply click the link below and follow the instructions to apply and track the progress of your application.</p>
 		
 		<span class='auraltext'>
 			<h3 style="margin: 0px 0px 0px 12px; ">Important information on applying for positions.</h3>

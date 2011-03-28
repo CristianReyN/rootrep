@@ -50,7 +50,7 @@
     <h3>Related Links:</h3>
     <ul>
       <li><a href="campus-EMEA-analyst-profiles.aspx">Back to profile list</a></li>
-      <li><a href="campus-meet-our-people-profile-Ross.aspx">Previous profile</a></li>
+      <li><a href="campus-meet-our-people-profile-Roman.aspx">Previous profile</a></li>
     </ul>
   </div>
   <div id="red-footer"> 
