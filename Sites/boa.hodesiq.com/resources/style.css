@@ -470,7 +470,7 @@ H1, H2.h1
 }
 
 .searchbox {
-	FONT-SIZE: 1.6ex; MARGIN: 0px; WIDTH: 100%; BORDER-TOP-STYLE: inset; BORDER-BOTTOM: medium none; BORDER-RIGHT-STYLE: inset; BORDER-LEFT-STYLE: inset
+	FONT-SIZE: 1.6ex; MARGIN: 0px; WIDTH: 100%; BORDER-TOP-STYLE: inset; BORDER-BOTTOM: medium none; BORDER-RIGHT-STYLE: inset; BORDER-LEFT-STYLE: inset; FONT-SIZE: 2ex \9;
 }
 
 .bluetext {
