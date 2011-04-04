@@ -55,8 +55,14 @@ public partial class JobDetails : System.Web.UI.Page
 		if (dt.Rows.Count > 0)
 		{
 			strJobID = dt.Rows[0]["JobsId"].ToString();
-
-            lblDescripton.Text = LinkBuilder(dt.Rows[0]["Description"].ToString(), "Description");
+            if (countryid == "1")
+            {
+                lblDescripton.Text =  LinkBuilder(dt.Rows[0]["Description"].ToString(), "Description");
+            }
+            else
+            {
+                lblDescripton.Text =  dt.Rows[0]["Description"].ToString();
+            }
             jobtitle = dt.Rows[0]["JobTitle"].ToString()+ " : " + dt.Rows[0]["JobsId"].ToString();;
             lblJobTitle.InnerText = jobtitle;
             pageTitle = "Bank of America Careers: " + jobtitle;
@@ -71,7 +77,14 @@ public partial class JobDetails : System.Web.UI.Page
 			lblLanguage.Text = dt.Rows[0]["Language"].ToString();
 			lblJobFamily.Text = dt.Rows[0]["family"].ToString();
 			lblHoursPerWeek.Text = dt.Rows[0]["HrsPerWeek"].ToString();
-            lblQualification.Text = LinkBuilder(dt.Rows[0]["Qualification"].ToString(), "Qualification");
+            if (countryid == "1")
+            {
+                lblQualification.Text = LinkBuilder(dt.Rows[0]["Qualification"].ToString(), "Qualification");
+            }
+            else
+            {
+                lblQualification.Text =  dt.Rows[0]["Qualification"].ToString();
+            }
 			//apply process goes trough clients page for hits counting:
 			srcvalue = string.IsNullOrEmpty(Request["src"]) ? string.Empty : Request["src"];           
             string CountryID = Request.QueryString["countryid"] == null ? "1" : Request.QueryString["countryid"].ToString();
@@ -514,8 +527,7 @@ public partial class JobDetails : System.Web.UI.Page
         }
         else
             strWWWText.Append(sText);
-
-        return strWWWText.ToString();
+            return strWWWText.ToString();
         //return sParsedText;
     }
     #endregion
