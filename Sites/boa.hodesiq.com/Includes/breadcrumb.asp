@@ -43,7 +43,7 @@ Set page_titles  = Server.CreateObject("Scripting.Dictionary")
 	page_titles.add "locations", "Locations"
 	page_titles.add "united_states", "United States"
 	
-	page_titles.add "awards", "Awards and recognition"
+	page_titles.add "awards", "Awards and Recognition"
 	page_titles.add "benefits", "Benefits &amp; Other Programs"
 	page_titles.add "benefitsadv", "Benefits and Advantages"
 	page_titles.add "career_compass", "Career Compass"
@@ -53,7 +53,7 @@ Set page_titles  = Server.CreateObject("Scripting.Dictionary")
 	page_titles.add "diversity", "Diversity and inclusion"
 	page_titles.add "bams", "Banc of America Merchant Services, LLC"
 	page_titles.add "diversity_video", "Global Diversity &amp; Inclusion Video"
-	page_titles.add "factsheets", "Fact Sheets"
+	page_titles.add "factsheets", "Our Approach and History"
 	page_titles.add "flexibleworkarrangements", "Flexible Work Arrangements"
 	page_titles.add "globalloc", "Global Locations"
 	page_titles.add "homeloans", "Home Loans"

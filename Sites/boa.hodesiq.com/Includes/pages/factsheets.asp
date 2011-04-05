@@ -1,4 +1,4 @@
-		<a name="skipmaincontent"></a><H1 style="margin: 0px <%=right_margin%>px 0px <%=left_margin_0%>px; padding: 0px;">Fact Sheets</H1>
+		<a name="skipmaincontent"></a><H1 style="margin: 0px <%=right_margin%>px 0px <%=left_margin_0%>px; padding: 0px;">Our Approach and History</H1>
 		<table width="578" cellpadding="0" cellspacing="0" border="0" summary="">
 			<tr valign="top">
 				<td width="373" height="100%" valign="top" style="<%=middle_content_padding%>">
@@ -8,7 +8,7 @@
 We are proud of Bank&nbsp;of&nbsp;America&#39;s legacy as a leader in corporate diversity and in equal employment opportunity. At Bank&nbsp;of&nbsp;America, we work to foster an inclusive corporate culture and an environment free of discrimination or harassment.</p>
 <H2 class="p" style="margin: 12px 0px 6px 0px; padding: 0px;"><span class="bd"><b>Organization and Culture</b></span></H2>
 <ul>
-	<li>The bank&#39;s Global Diversity &amp; Inclusion Council sets the direction and helps guide the implementation for various diversity and inclusion activities. Bank&nbsp;of&nbsp;America President &amp; CEO Brian Moynihan is the Chairman of the company&#39;s Global Diversity &amp; Inclusion Council. Prior to his appointment to the council, he was the sponsoring executive for the company&#39;s Disability Affinity Group.</li>
+	<li>The bank&#39;s Global Diversity &amp; Inclusion Council sets the direction and helps guide the implementation for various diversity and inclusion activities. Bank&nbsp;of&nbsp;America Chief Executive Officer Brian Moynihan is the Chairman of the company&#39;s Global Diversity &amp; Inclusion Council. Prior to his appointment to the council, he was the sponsoring executive for the company&#39;s Disability Affinity Group.</li>
 	<li>The bank has Diversity &amp; Inclusion Business and Regional Councils, which operate in various business lines and global regions to address and promote diversity and inclusion.</li>
 	<li>Nine affinity groups (formal, company-recognized groups of associates with common interests) that network and support one another&#39;s development and success.</li>
 	<li>Bank&nbsp;of&nbsp;America Community Volunteers are geographically based volunteer teams of associates. These teams encourage and capitalize on the diversity of our associates and promote personal and professional development.</li>

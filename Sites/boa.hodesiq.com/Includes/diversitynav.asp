@@ -2,21 +2,21 @@
 	If page_section <> "ADA" Then href_pre = "../learnmore/" %>
 <%	If fpage <> "factsheets" Then %>
 <p style="margin: 12px 0px 0px 0px;">
-<a href="<%Response.write href_pre%>factsheets.asp" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="Fact sheets">Fact sheets</a>
+<a href="<%Response.write href_pre%>factsheets.asp" class="bacb">Our Approach and History</a>
 </p>
 <%	End If %>
 <%	If fpage <> "workforce" Then %>
 <p style="margin: 12px 0px 0px 0px;">
-<a href="<%Response.write href_pre%>workforce.asp" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="Workforce data">Workforce data</a>
+<a href="<%Response.write href_pre%>workforce.asp" class="bacb">Workforce data</a>
 </p>
 <%	End If %>
 <%	If fpage <> "recruitingevents" Then %>
 <p style="margin: 12px 0px 0px 0px;">
-<a href="<%Response.write href_pre%>recruitingevents.asp" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="Recruiting events">Recruiting events</a>
+<a href="<%Response.write href_pre%>recruitingevents.asp" class="bacb">Recruiting events</a>
 </p>
 <%	End If %>
 <%	If fpage <> "awards" Then %>
 <p style="margin: 12px 0px 0px 0px;">
-<a href="<%Response.write href_pre%>awards.asp" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="Awards and recognition">Awards and recognition</a>
+<a href="<%Response.write href_pre%>awards.asp" class="bacb">Awards and recognition</a>
 </p>
 <%	End If %>

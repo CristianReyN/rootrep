@@ -38,9 +38,12 @@ Our company offers integrated and comprehensive products and services across all
 				</td>
 				<td width="205" height="100%" valign="top">
 <div style="border: 1px solid #e8e8e9; margin: 0px 0px 12px 0px; padding: 0px 0px 6px 0px;">
-	<H2 class="g" style="margin: 0px 0px 0px 0px;"><%=JOB_SEARCH_TITLE%></H2>
+	<h2 class="g" style="margin: 0px 0px 0px 0px;"><%=JOB_SEARCH_TITLE%></h2>
 	<img src="../images/clear.gif" width="100%" height="1" alt="" border="0" style="margin: 1px 0px 6px 0px; background: #e8e8e9;" align="top"><br clear="all">
 <!-- #include file="../jobsearch.asp" -->
+</div>
+<div>
+<!-- #include file="../fa.asp" -->
 </div>
 <br><br>
 				</td>

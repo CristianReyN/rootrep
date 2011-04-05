@@ -435,9 +435,38 @@ In order to be considered a candidate for this opportunity, you must apply via t
 You must apply via <a href="<% If page_section <> "ADA" Then  %>../campusrecruiting/<% Else  %>../ada_camp/<% End If %>" class="bac" title="www.bankofamerica.com/campusrecruiting">www.bankofamerica.com/campusrecruiting</a>. To <a href="https://static.wcn.co.uk/company/ml/apply_now.html" target="_blank" title="" class="bac">apply now<span class="hidden"> Link opens a new window</span></a> and submit your application, first sign in as a new or returning user. If you don't have an existing account, you'll need to register as a new user. Then, complete the application form. Please note that in order for your application to be considered complete, you must have submitted all three stages - basic information, numerical test and longer questions.
 <%
 		case ASIA
+			
+			select case program.Item("degree")
+				case ANALYST
+					select case program.Item("fulltime_intern")
+						case FULLTIME
+%>
+In order to be considered a candidate for this opportunity, you must apply via <a href="<% If page_section <> "ADA" Then  %>../campusrecruiting/<% Else  %>../ada_camp/<% End If %>" class="bac" title="www.bankofamerica.com/campusrecruiting">www.bankofamerica.com/campusrecruiting</a>. As application dates/deadlines vary depending on location of the program, please ensure you check and apply in a timely manner, as late submissions will not be considered. To <a href="https://static.wcn.co.uk/company/ml/apply_now.html" target="_blank" title="" class="bac">apply now<span class="hidden"> Link opens a new window</span></a>, first sign in as a new or returning user. If you don't have an existing account, you'll need to register as a new user. Then, complete your Candidate Profile and designate your program of interest. Please note that in order for your application to be considered complete, you must reach the final "Thank You" page. Shortly after your application has been completed, you should receive an invitation to conduct an online test; please ensure you follow instructions and complete the test within 72 hours.  For opportunities in Asia, you are not required to apply through your Career Services or through an on-campus resume drop.
+<%
+						case INTERN
+%>
+In order to be considered a candidate for this opportunity, you must apply via <a href="<% If page_section <> "ADA" Then  %>../campusrecruiting/<% Else  %>../ada_camp/<% End If %>" class="bac" title="www.bankofamerica.com/campusrecruiting">www.bankofamerica.com/campusrecruiting</a>. As application dates/deadlines vary depending on location of the program, please ensure you check and apply in a timely manner, as late submissions will not be considered. To <a href="https://static.wcn.co.uk/company/ml/apply_now.html" target="_blank" title="" class="bac">apply now<span class="hidden"> Link opens a new window</span></a>, first sign in as a new or returning user. If you don't have an existing account, you'll need to register as a new user. Then, complete your Candidate Profile and designate your program of interest. Please note that in order for your application to be considered complete, you must reach the final "Thank You" page. Shortly after your application has been completed, you should receive an invitation to conduct an online test; please ensure you follow instructions and complete the test within 72 hours.  For opportunities in Asia, you are not required to apply through your Career Services or through an on-campus resume drop.
+<%
+						case else
+					end select
+				case ASSOCIATE
+					select case program.Item("fulltime_intern")
+						case FULLTIME
 %>
 In order to be considered a candidate for this opportunity, you must apply via <a href="<% If page_section <> "ADA" Then  %>../campusrecruiting/<% Else  %>../ada_camp/<% End If %>" class="bac" title="www.bankofamerica.com/campusrecruiting">www.bankofamerica.com/campusrecruiting</a>. As application dates/deadlines vary depending on location of the program, please ensure you check and apply in a timely manner, as late submissions will not be considered. To <a href="https://static.wcn.co.uk/company/ml/apply_now.html" target="_blank" title="" class="bac">apply now<span class="hidden"> Link opens a new window</span></a>, first sign in as a new or returning user. If you don't have an existing account, you'll need to register as a new user. Then, complete your Candidate Profile and designate your program of interest. Please note that in order for your application to be considered complete, you must reach the final "Thank You" page. For opportunities in Asia, you are not required to apply through your Career Services or through an on-campus resume drop.
 <%
+						case INTERN
+%>
+In order to be considered a candidate for this opportunity, you must apply via <a href="<% If page_section <> "ADA" Then  %>../campusrecruiting/<% Else  %>../ada_camp/<% End If %>" class="bac" title="www.bankofamerica.com/campusrecruiting">www.bankofamerica.com/campusrecruiting</a>. As application dates/deadlines vary depending on location of the program, please ensure you check and apply in a timely manner, as late submissions will not be considered. To <a href="https://static.wcn.co.uk/company/ml/apply_now.html" target="_blank" title="" class="bac">apply now<span class="hidden"> Link opens a new window</span></a>, first sign in as a new or returning user. If you don't have an existing account, you'll need to register as a new user. Then, complete your Candidate Profile and designate your program of interest. Please note that in order for your application to be considered complete, you must reach the final "Thank You" page. Shortly after your application has been completed, you should receive an invitation to conduct an online test; please ensure you follow instructions and complete the test within 72 hours.  For opportunities in Asia, you are not required to apply through your Career Services or through an on-campus resume drop.
+<%
+						case else
+					end select
+				case else
+%>
+In order to be considered a candidate for this opportunity, you must apply via <a href="<% If page_section <> "ADA" Then  %>../campusrecruiting/<% Else  %>../ada_camp/<% End If %>" class="bac" title="www.bankofamerica.com/campusrecruiting">www.bankofamerica.com/campusrecruiting</a>. As application dates/deadlines vary depending on location of the program, please ensure you check and apply in a timely manner, as late submissions will not be considered. To <a href="https://static.wcn.co.uk/company/ml/apply_now.html" target="_blank" title="" class="bac">apply now<span class="hidden"> Link opens a new window</span></a>, first sign in as a new or returning user. If you don't have an existing account, you'll need to register as a new user. Then, complete your Candidate Profile and designate your program of interest. Please note that in order for your application to be considered complete, you must reach the final "Thank You" page. Shortly after your application has been completed, you should receive an invitation to conduct an online test; please ensure you follow instructions and complete the test within 72 hours.  For opportunities in Asia, you are not required to apply through your Career Services or through an on-campus resume drop.
+<%
+			end select
+		
 		case else
 	end select
 End Function
