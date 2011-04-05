@@ -52,7 +52,7 @@ Our company&#39;s stock is listed on the New York, Pacific and London stock exch
 <br><br>
 Bank&nbsp;of&nbsp;America is also very involved in the communities we serve. We generously support education, community development, the arts, and many other important initiatives.
 <br><br>
-Bank&nbsp;of&nbsp;America is consistently rated as one of the best places to work by a number of organizations, including &ldquo;Working Mother&rdquo; Magazine. At Bank&nbsp;of&nbsp;America, our commitment to the community and to our customers inspires everything we do and is evident in the standards of excellence to which we adhere.
+Bank&nbsp;of&nbsp;America is consistently rated as one of the best places to work by a number of organizations, including <b><i>&ldquo;Working Mother&rdquo;</i></b> Magazine. At Bank&nbsp;of&nbsp;America, our commitment to the community and to our customers inspires everything we do and is evident in the standards of excellence to which we adhere.
 <br><br>
 These standards are what drive our commitment to deliver error-free service to customers in a warm and friendly manner. These standards also mean we strive to be easy to do business with and to create delightful customer experiences.
 <br><br>

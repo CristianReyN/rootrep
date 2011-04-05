@@ -2,7 +2,7 @@
 	If page_section <> "ADA" Then href_pre = "../learnmore/" %>
 <%	If fpage <> "factsheets" Then %>
 <p style="margin: 12px 0px 0px 0px;">
-<a href="<%Response.write href_pre%>factsheets.asp" class="bacb">Our Approach and History</a>
+<a href="<%Response.write href_pre%>factsheets.asp" class="bacb">Our approach and history</a>
 </p>
 <%	End If %>
 <%	If fpage <> "workforce" Then %>
