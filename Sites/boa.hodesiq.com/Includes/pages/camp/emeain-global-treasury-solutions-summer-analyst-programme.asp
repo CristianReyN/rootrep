@@ -89,8 +89,7 @@ Opportunities across EMEA
 <br>
 				</td>
 				<td width="205" height="100%" valign="top" style="padding-top: 8px;" align="right">
-<img src="../images/BACMER_Signature_BLACK.gif" width="205" height="69" alt="Ross" border="0"><br clear="all">
-<p align="center" style="margin: 6px 0px 24px 0px;">&nbsp;</p>
+<img src="../Includes/pages/camp/profile/logo-BofAML.jpg" width="205" height="153" alt="Bank of America Merrill Lynch" border="0" style="margin: 0px 0px 0px 0px;">
 <!-- #include file="../../camprnav_region.asp" -->
 				</td>
 			</tr>
