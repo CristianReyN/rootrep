@@ -16,19 +16,19 @@
 <div class="transcript">
 <a name="vt"></a><h2 class="h1" style="margin: 0px 0px 18px 0px; font-size: 1.2em; font-weight: bold;">Video transcript</h2>
 <p style="margin: 0px <%=right_margin_split%>px 0px <%=left_margin_0%>px;">
-<i>(Testimonial) &ldquo;I go in every day loving what I do.&rdquo;
+<i>(Testimonial) &ldquo;I go in every day loving what I do.&rdquo;</i>
 <br><br>
-(Testimonial) &ldquo;It&#39;s a diverse place to work at.&rdquo;
+<i>(Testimonial) &ldquo;It&#39;s a diverse place to work at.&rdquo;</i>
 <br><br>
-(Testimonial) &ldquo;The best thing about my job, honestly, it&#39;s the people.&rdquo;
+<i>(Testimonial) &ldquo;The best thing about my job, honestly, it&#39;s the people.&rdquo;</i>
 <br><br>
-(Testimonial) &ldquo;My customers, I love my customers.&rdquo;
+<i>(Testimonial) &ldquo;My customers, I love my customers.&rdquo;</i>
 <br><br>
-(Testimonial) &ldquo;It helps that all of my teammates love what they do, too.&rdquo;</i>
+<i>(Testimonial) &ldquo;It helps that all of my teammates love what they do, too.&rdquo;</i>
 <br><br>
-(Testimonial) &ldquo;It&#39;s a good feeling to know that you helped someone.&rdquo;</i>
+<i>(Testimonial) &ldquo;It&#39;s a good feeling to know that you helped someone.&rdquo;</i>
 <br><br>
-(Testimonial) &ldquo;It&#39;s a place where they want you to grow in the company.&rdquo;</i>
+<i>(Testimonial) &ldquo;It&#39;s a place where they want you to grow in the company.&rdquo;</i>
 <br><br>
 <b>Hello, and welcome to Bank&nbsp;of&nbsp;America.</b>
 <br><br>

@@ -8,9 +8,9 @@
 
 <H2 class="p" style="margin: 12px 0px 6px 0px; padding: 0px;"><span class="bd"><b>2011 Recognition:</b></span></H2>
 <ul>
-	<li><b><i>Working Mother</i></b> ranked Bank&nbsp;of&nbsp;America a top 10 company for working mothers on its annual &ldquo;100 Best Companies&rdquo; for Working Mothers list. This is the 22nd year the bank has been on the list. Areas the bank was ranked &ldquo;Best in Class&rdquo; were child care programs and reimbursement; paid parental time off and leaves of absence; and flexible work arrangements. In February 2011, <b><i>Working Mother</i></b> ranked the company among the top 10 companies for women&#39;s advancement.</li>
-	<li>Bank&nbsp;of&nbsp;America ranked number 11 on <b><i>DiversityInc</i></b> magazine&#39;s &ldquo;Top 50 Companies for Diversity&rdquo; annual list. The bank has been recognized on the DiversityInc list for the last 11 years.</li>
 	<li>Bank&nbsp;of&nbsp;America ranked number 2 on <b><i>Equal Opportunity</i></b> magazine&#39;s annual &ldquo;Top 50 Employers&rdquo; list. The publication&#39;s readership selected top companies in the U.S. for which they would most prefer to work or believe are progressive in hiring minorities and diverse individuals. This is the 18<span class="supth">th</span> year the publication has produced the list.</li>
+	<li>Bank&nbsp;of&nbsp;America was named a top 10 company on the <i>2011 Working Mother 100 Best Companies</i> list. This is the 22nd year the bank has been on the list. Areas the bank was ranked &ldquo;Best in Class&rdquo; were child care programs and reimbursement; paid parental time off and leaves of absence; and flexible work arrangements. In February 2011, <b><i>Working Mother</i></b> ranked the company among the top 10 companies for women’s advancement.</li>
+	<li>Bank&nbsp;of&nbsp;America ranked number 11 on <b><i>DiversityInc</i></b> magazine&#39;s &ldquo;Top 50 Companies for Diversity&rdquo; annual list. The bank has been recognized on the DiversityInc list for the last 11 years.</li>
 </ul>
 
 <H2 class="p" style="margin: 12px 0px 6px 0px; padding: 0px;"><span class="bd"><b>2010 Recognition:</b></span></H2>
