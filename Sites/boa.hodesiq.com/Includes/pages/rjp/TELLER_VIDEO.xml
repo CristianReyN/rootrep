@@ -6,7 +6,7 @@
           <autoRewind>true</autoRewind>
           <totalTime></totalTime>
           <contentPathNS>http://hodesgroup.http.internapcdn.net/hodesgroup_vitalstream_com/BOA/RJP/9315_RJP_for_Tellers.flv</contentPathNS>
-          <contentPathOC>http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/RJP/RJP_Tellers_oc.flv</contentPathOC>
+          <contentPathOC>http://hodesgroup.http.internapcdn.net/hodesgroup_vitalstream_com/BOA/RJP/9315_RJP_for_tellersCC.flv</contentPathOC>
           <firstFrame>../Includes/pages/rjp/imx/RJP_TELLER.jpg</firstFrame>
           <skin>http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/skinsflvplayback/SteelOverPlaySeekMute.swf</skin>
           <next>1</next>
@@ -18,7 +18,7 @@
           <autoRewind>true</autoRewind>
           <totalTime></totalTime>
           <contentPathNS>http://hodesgroup.http.internapcdn.net/hodesgroup_vitalstream_com/BOA/RJP/9315_RJP_for_Tellers.flv</contentPathNS>
-          <contentPathOC>http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/BOA/RJP/RJP_Tellers_oc.flv</contentPathOC>
+          <contentPathOC>http://hodesgroup.http.internapcdn.net/hodesgroup_vitalstream_com/BOA/RJP/9315_RJP_for_tellersCC.flv</contentPathOC>
           <firstFrame>../Includes/pages/rjp/imx/RJP_TELLER.jpg</firstFrame>
           <skin>http://http.vitalstreamcdn.com/hodesgroup_vitalstream_com/skinsflvplayback/SteelOverPlaySeekMute.swf</skin>
           <next>1</next>
