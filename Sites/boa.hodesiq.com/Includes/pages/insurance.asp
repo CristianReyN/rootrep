@@ -8,28 +8,25 @@
 <img class="dotdiv" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
 
 <H2 class="bac" style="margin: 12px 0px 0px 0px; padding: 0px;">Medical</H2>
-<p style="margin: 6px 0px 0px 0px;">Bank of America offers a choice of medical plans that are easy to understand, deliver valuable features and help you manage rising health care costs. Associates have the option to select from a Comprehensive Traditional Plan and a Comprehensive High Deductible Plan. Both plans provide coverage for eligible medical services (like doctor's office visits, specialist care or a hospital stay), prescription drugs, mental health and substance abuse.</p>
+<p style="margin: 6px 0px 0px 0px;">Bank of America offers a choice of medical plans that are easy to understand, deliver valuable features and help you manage rising health care costs. Employees have the option to select from a Comprehensive Traditional Plan and a Comprehensive High Deductible Plan. Both plans provide coverage for eligible medical services (like doctor's office visits, specialist care or a hospital stay) and prescription drugs.</p>
 
 <H2 class="bac" style="margin: 12px 0px 0px 0px; padding: 0px;">Dental</H2>
 <p style="margin: 6px 0px 0px 0px;">Bank of America offers two dental plan options that provide coverage for preventive and restorative dental care: a Dental Preferred Provider Organization (PPO) Plan, and a Dental Maintenance Organization (DMO) Plan.</p>
 
 <H2 class="bac" style="margin: 12px 0px 0px 0px; padding: 0px;">Vision</H2>
-<p style="margin: 6px 0px 0px 0px;">Associates can elect the Vision Plan that provides coverage for eye care, eyeglasses and contact lenses. In addition, all benefits eligible associates have access to the Vision Discount Program which may be an alternative to electing vision coverage.</p>
-
-<H2 class="bac" style="margin: 12px 0px 0px 0px; padding: 0px;">Bank-funded Healthcare Accounts</H2>
-<p style="margin: 6px 0px 0px 0px;">Eligible associates receive a bank-funded Health Reimbursement Arrangement (HRA) or Health Savings Account (HSA) to help pay for eligible health care expenses.</p>
+<p style="margin: 6px 0px 0px 0px;">Employees can elect the Vision Plan that provides coverage for eye care, eyeglasses and contact lenses. In addition, all benefits eligible employees have access to the Vision Discount Program which may be an alternative to electing vision coverage.</p>
 
 <H2 class="bac" style="margin: 12px 0px 0px 0px; padding: 0px;">Health & Dependent Care Flexible Spending Accounts</H2>
-<p style="margin: 6px 0px 0px 0px;">These accounts help associates lower taxable income and achieve a tax savings by using before-tax dollars to pay for eligible health and dependent care expenses.</p>
+<p style="margin: 6px 0px 0px 0px;">These accounts help employees lower taxable income and achieve a tax savings by using before-tax dollars to pay for eligible health and dependent care expenses.</p>
 
-<H2 class="bac" style="margin: 12px 0px 0px 0px; padding: 0px;">Associate Life Insurance</H2>
-<p style="margin: 6px 0px 0px 0px;">Associates are automatically provided with basic life insurance equal to 1 times their annual pay. Additional supplemental life insurance up to 8 times annual pay + bonus can be purchased.</p>
+<H2 class="bac" style="margin: 12px 0px 0px 0px; padding: 0px;">Employees Life Insurance</H2>
+<p style="margin: 6px 0px 0px 0px;">Employees are automatically provided with basic life insurance equal to one times their annual base salary. Additional supplemental life insurance up to eight times annual pay + bonus can be purchased.</p>
 
 <H2 class="bac" style="margin: 12px 0px 0px 0px; padding: 0px;">Accidental Death and Dismemberment</H2>
-<p style="margin: 6px 0px 0px 0px;">Pays a benefit if an associate (or a covered family member) becomes paralyzed, dismembered or dies as the result of an accident. AD&D up to 8 times of annual pay + bonus can be purchased.</p>
+<p style="margin: 6px 0px 0px 0px;">Pays a benefit if an employee (or a covered family member) becomes paralyzed, dismembered or dies as the result of an accident. AD&D up to eight times of annual pay + bonus can be purchased.</p>
 
 <H2 class="bac" style="margin: 12px 0px 0px 0px; padding: 0px;">Dependent Life Insurance</H2>
-<p style="margin: 6px 0px 0px 0px;">Pays a benefit to an associate if their eligible covered dependent dies.  Dependent Life insurance can be purchased for a spouse, domestic partner or eligible dependent child(ren).</p>
+<p style="margin: 6px 0px 0px 0px;">Pays a benefit to an employee if their eligible covered dependent dies.  Dependent Life insurance can be purchased for a spouse, domestic partner or eligible dependent child(ren).</p>
 
 <H2 class="bac" style="margin: 12px 0px 0px 0px; padding: 0px;">Business Travel Accident Insurance</H2>
 <p style="margin: 6px 0px 0px 0px;">Provides 24-hour coverage while traveling for Bank of America anywhere in the world (excludes everyday commuting)</p>

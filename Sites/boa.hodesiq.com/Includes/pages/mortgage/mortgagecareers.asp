@@ -13,8 +13,8 @@
 			<tr valign="top">
 				<td width="100%" valign="top">
 <a name="skipmaincontent"></a><H1 class="hidden">Mortgage Careers</H1>
-<div style="float: left; width: <% If page_section = "ADA" Then %>357<% ElseIf page_section <> "ADA" Then %>299<%End If%>px;">
-	<p style="margin: <% If page_section = "ADA" Then %>12<% Else %>0<%End If%>px <%=right_margin%>px 0px <%=left_margin_0%>px;">
+<div style="float: left; width: 357px;">
+	<p style="margin: 0px <%=right_margin%>px 0px <%=left_margin_0%>px;">
 <b>Bank&nbsp;of&nbsp;America&#39;s commitment to the mortgage industry is focused on continuous growth, increased teamwork, and excellent customer service.</b>
 	</p>
 	<p style="margin: 12px <%=right_margin%>px 0px <%=left_margin_0%>px;">
@@ -65,38 +65,6 @@ Individuals who choose to build a career at Bank&nbsp;of&nbsp;America Home Loans
 <%
 	If page_section = "ADA" Then
 		If mpage = "areasoftalent" Then
-			href = "../ada/homeequity.asp"
-		ElseIf mpage = "lob" Then
-			href = "../ada/lob_homeequity.asp"
-		End If
-	Else
-		If mpage = "areasoftalent" Then
-			href = "../mortgagecareers/homeequity.asp"
-		ElseIf mpage = "lob" Then
-			href = "../mortgage/homeequity.asp"
-		End If
-	End If
-%>
-		<li><a class="p" href="<%=href%>" title="Home Equity">Home Equity</a></li>
-<%
-	If page_section = "ADA" Then
-		If mpage = "areasoftalent" Then
-			href = "../ada/insurancem.asp"
-		ElseIf mpage = "lob" Then
-			href = "../ada/lob_insurance.asp"
-		End If
-	Else
-		If mpage = "areasoftalent" Then
-			href = "../mortgagecareers/insurance.asp"
-		ElseIf mpage = "lob" Then
-			href = "../mortgage/insurance.asp"
-		End If
-	End If
-%>
-		<li><a class="p" href="<%=href%>" title="Insurance">Insurance</a></li>
-<%
-	If page_section = "ADA" Then
-		If mpage = "areasoftalent" Then
 			href = "../ada/mortgagesales.asp"
 		ElseIf mpage = "lob" Then
 			href = "../ada/lob_mortgagesales.asp"
@@ -144,15 +112,8 @@ rowcount=6
 	</table>
 	<br><br>
 </div>
-<% If page_section = "ADA" Then %>
 <div style="float: right; margin: 0px 0px 0px <%=right_margin_split%>px; padding: 0px; width: 201px;">
-	<!-- #include file="../mortgage/mortgagevideo.asp" -->
-<% ElseIf page_section <> "ADA" Then %>
-<div align="right" style="float: right; margin: 0px 0px 0px 20px; padding: 0px; width: 259px;">
-	<!-- #include file="../mortgage/mortgagevideo.asp" -->
-	<a href="#video" class="hlink">Mortgage Careers Video</a>
-<% End If  %>
-	<div style="width: 201px; border: 1px solid #e8e8e9; margin: 12px 0px 0px 0px; padding: 0px 0px 6px 0px;">
+	<div style="width: 201px; border: 1px solid #e8e8e9; margin: 0px 0px 0px 0px; padding: 0px 0px 6px 0px;">
 		<H2 class="g" style="margin: 0px 0px 0px 0px; text-align: left;"><%=JOB_SEARCH_TITLE%></H2>
 		<img src="../../images/clear.gif" width="100%" height="1" alt="" border="0" style="margin: 1px 0px 6px 0px; background: #e8e8e9;" align="top"><br clear="all">
 		<!-- #include file="../../jobsearch.asp" -->

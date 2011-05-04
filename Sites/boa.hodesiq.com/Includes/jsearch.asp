@@ -39,6 +39,10 @@
 	<option value="2|19"<%If jobareas="2|19" Then Response.write " selected"%>>Sales</option>
 </optgroup>
 
+<optgroup label="Financial Advisor">
+	<option value="13|-1"<%If jobareas="13|-1" Then Response.write " selected"%>>All Financial Advisor</option>
+</optgroup>
+
 <optgroup label="Human Resources">
 	<option value="5|-1"<%If jobareas="5|-1" Then Response.write " selected"%>>All Human Resources</option>
 </optgroup>

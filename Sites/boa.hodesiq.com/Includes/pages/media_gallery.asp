@@ -45,10 +45,8 @@ Enjoy!
 	<option value="lobghr"<%If mg="lobghr" Then Response.write " selected"%>>Global Human Resources</option>
 	<option value="lobgmca"<%If mg="lobgmca" Then Response.write " selected"%>>Global Marketing &amp; Corporate Affairs</option>
 	<option value="mvr"<%If mg="mvr" Then Response.write " selected"%>>Military and Veteran Recruiting</option>
-	<option value="mrtc"<%If mg="mrtc" Then Response.write " selected"%>>Mortgage</option>
 	<option value="lobnbcc"<%If mg="lobnbcc" Then Response.write " selected"%>>Non-Banking Center Channel / Customer Care</option>
 	<option value="oper"<%If mg="oper" Then Response.write " selected"%>>Operations</option>
-	<option value="lobgr"<%If mg="lobgr" Then Response.write " selected"%>>Risk Management</option>
 	<option value="sales"<%If mg="sales" Then Response.write " selected"%>>Sales</option>
 	<option value="lobgto"<%If mg="lobgto" Then Response.write " selected"%>>Technology</option>
 </select>
@@ -166,14 +164,6 @@ action_script = true;
 <%		End If%>
 			<img class="dotdiv" style="margin: 12px 0px 0px 0px;" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
 <%
-	Case "mrtc"%>
-			<img class="dotdiv" style="margin: 0px 0px 12px 0px;" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
-			<!-- #include file="mortgage/mortgagevideo.asp" -->
-<%		If page_section <> "ADA" Then %>
-			<a href="#video" class="hlink">Mortgage Careers Video</a>
-<%		End If%>
-			<img class="dotdiv" style="margin: 12px 0px 0px 0px;" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
-<%
 	Case "lobnbcc"%>
 			<img class="dotdiv" style="margin: 0px 0px 12px 0px;" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
 			<!-- #include file="lob/fairbrother.asp" -->
@@ -201,16 +191,6 @@ action_script = true;
 			<map name="cashservices"><area title="<%=adAlt%>" alt="<%=adAlt%>" coords="0,0,187,105" href="<%=link%>?mg=<%=mg%>"<%=target%>></map>
 			<img src="../images/cash_services.jpg" width="187" height="105" border="0" style="margin: 6px 0px 0px 0px;" usemap="#cashservices" alt="<%=adAlt%>"><br clear="all">
 			<img class="dotdiv" style="margin: 12px 0px 0px 0px;" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
-<%
-	Case "lobgr"
-			suf_fix = "mg" %>
-			<img class="dotdiv" style="margin: 0px 0px 12px 0px;" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
-			<!-- #include file="lob/price.asp" -->
-<%		If page_section <> "ADA" Then %>
-			<a href="#video" class="hlink">Allen Price&acute;s Associate Testimonial Video</a>
-<%		End If%>
-			<img class="dotdiv" style="margin: 12px 0px 0px 0px;" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
-			<div style=" width: 205px; text-align: left;"><!-- #include file="faq/charles.asp" --></div>
 <%
 	Case "sales"%>
 			<img class="dotdiv" style="margin: 0px 0px 12px 0px;" src="../images/clear.gif" width="100%" height="1" alt="" border="0">

@@ -16,7 +16,7 @@
 <div id="Layer1" style="position: relative; z-index: 12;">
 	<%	href_pre = ""
 		if page_section <> "ADA" then href_pre = "../learnmore/" %>
-<p style="margin: 0px 0px 0px 0px;">At Bank&nbsp;of&nbsp;America, our work is defined by an unmatched commitment to our customers and our associates. We are proud of the excellence we achieve and the associates who make it possible. That's why we think it is important to provide premier benefits including health, life management, and retirement benefits that work together to support associates now and for the future.</p>
+<p style="margin: 0px 0px 0px 0px;">At Bank&nbsp;of&nbsp;America, our work is defined by an unmatched commitment to our customers and our employees. We are proud of the excellence we achieve and the employees who make it possible. That's why we think it is important to provide premier benefits including health, life management, and retirement benefits that work together to support employees now and for the future.</p>
 
 <H2 class="p" style="margin: 12px 0px 6px 0px; padding: 0px;"><b>Performance-based compensation</b></H2>
 <p style="margin: 0px 0px 0px 0px; padding: 0px;">In addition to strong base compensation, bonuses and incentive programs are important parts of our overall compensation package.</p>
@@ -24,15 +24,14 @@
 <H2 class="p" style="margin: 12px 0px 6px 0px; padding: 0px;">
 <a href="<%Response.write href_pre%>insurance.asp" class="bacb" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="Health &amp; Insurance Benefits">Health &amp; Insurance Benefits</a></H2>
 <ul style="margin-top: 0px;">
-	<li>We offer a choice of medical, dental and vision plans that will provide you and your family (including domestic partners) with high-quality healthcare. We pay a majority of the cost for associate medical coverage.</li>
-	<li>Our range of insurance plans provides income replacement in the event of serious injury or death.</li>
-	<li>We offer flexible spending accounts for healthcare and dependent care, as well as bank-funded healthcare accounts for eligible associates.</li>
+	<li>We offer a comprehensive benefits package including medical, dental and vision plans that will provide you and your family (including domestic partners) with high-quality healthcare. Our life and disability insurance options provide income replacement in the event of serious injury or death.</li>
+	<li>In addition, we offer flexible spending accounts for healthcare and dependent care.</li>
 </ul>
 
 <H2 class="p" style="margin: 12px 0px 6px 0px; padding: 0px;">
 <a href="<%Response.write href_pre%>lifemanagement.asp" class="bacb" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="Life Management Benefits">Life Management Benefits</a></H2>
 <p style="margin: 0px 0px 0px 0px;">
-Our comprehensive Life Management programs are designed to assist associates with many of life's challenges and opportunities by providing benefits such as:</p>
+Our comprehensive Life Management programs are designed to assist employees with many of life's challenges and opportunities by providing benefits such as:</p>
 <ul style="margin-top: 0px;">
 	<li>Programs to help with locating and paying for dependent care</li>
 	<li>Adoption reimbursement</li>
@@ -45,15 +44,15 @@ Our comprehensive Life Management programs are designed to assist associates wit
 <H2 class="p" style="margin: 12px 0px 6px 0px; padding: 0px;">
 <a href="<%Response.write href_pre%>retirement.asp" class="bacb" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="Retirement Benefits">Retirement Benefits</a></H2>
 <p style="margin: 0px 0px 0px 0px;">
-We offer a 401(k) retirement savings plan with a company match after one year of service for contributions up to 5% of plan-eligible compensation, a company-funded pension plan, and our Rewarding Success Program, which rewards eligible associates for their contributions to the company's success.</p>
+We offer a 401(k) retirement savings plan with a company match after one year of service for contributions up to 5% of plan-eligible compensation, a company-funded pension plan, and our Rewarding Success Program, which rewards eligible employees for their contributions to the company's success.</p>
 
 <H2 class="p" style="margin: 12px 0px 6px 0px; padding: 0px;">
 <a href="<%Response.write href_pre%>otherprograms.asp" class="bacb" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="Other Programs: Your Finances, Community Commitments, and Education">Other Programs: Your Finances, Community Commitments, and Education</a></H2>
 <p style="margin: 0px 0px 0px 0px;">
-Bank&nbsp;of&nbsp;America also provides a dedicated Associate Banking &amp; Investments team, assistance with associate home ownership, and multiple programs to support our associates' commitment to volunteerism, charitable giving and education.</p>
+Bank&nbsp;of&nbsp;America also provides a dedicated Associate Banking &amp; Investments team, assistance with employee home ownership, and multiple programs to support our employees&#39; commitment to volunteerism, charitable giving and education.</p>
 
 <p style="margin: 12px 0px 0px 0px;"><span style="font-size: 0.9em; line-height: 0.9em;">
-Not all associates are eligible to participate in all benefit programs. The terms and conditions of the benefits described above may be governed by written benefit plans and/or other documents. The above stated description of benefits is intended as a summary and for informational purposes only; this document does not create a contract between the company and any associate or potential associate. All programs and benefits are subject to change at any time.
+Not all employees are eligible to participate in all benefit programs. The terms and conditions of the benefits described above may be governed by written benefit plans and/or other documents. The above stated description of benefits is intended as a summary and for informational purposes only; this document does not create a contract between the company and any employee or potential associate. All programs and benefits are subject to change at any time.
 </span></p>
 
 <br><br>
