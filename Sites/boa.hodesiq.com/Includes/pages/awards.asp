@@ -13,7 +13,7 @@
 	<li>Bank&nbsp;of&nbsp;America ranked number 11 on <b><i>DiversityInc</i></b> magazine&#39;s &ldquo;Top 50 Companies for Diversity&rdquo; annual list. The bank has been recognized on the DiversityInc list for the last 11 years.</li>
 	<li>MBNA Canada Bank received the Employer Excellence Award from Hire Immigrants Ottawa (April 2011).</li>
 	<li>Bank of America Merrill Lynch ranked among The Times Top 50 Employers for Women in partnership with Opportunity Now (April 2011).</li>
-	<li>Bank&nbsp;of&nbsp;America made the list of Hispanic Business magazine&#39;s &ldquo;Top 60 Diversity Elite&rdquo; for the sixth year in a row (April 2011).</li>
+	<li>Bank&nbsp;of&nbsp;America made the list of <b><i>Hispanic Business</i></b> magazine&#39;s &ldquo;Top 60 Diversity Elite&rdquo; for the sixth year in a row (April 2011).</li>
 </ul>
 
 <H2 class="p" style="margin: 12px 0px 6px 0px; padding: 0px;"><span class="bd"><b>2010 Recognition:</b></span></H2>

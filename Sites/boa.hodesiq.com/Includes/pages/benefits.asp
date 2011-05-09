@@ -23,10 +23,8 @@
 
 <H2 class="p" style="margin: 12px 0px 6px 0px; padding: 0px;">
 <a href="<%Response.write href_pre%>insurance.asp" class="bacb" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="Health &amp; Insurance Benefits">Health &amp; Insurance Benefits</a></H2>
-<ul style="margin-top: 0px;">
-	<li>We offer a comprehensive benefits package including medical, dental and vision plans that will provide you and your family (including domestic partners) with high-quality healthcare. Our life and disability insurance options provide income replacement in the event of serious injury or death.</li>
-	<li>In addition, we offer flexible spending accounts for healthcare and dependent care.</li>
-</ul>
+<p style="margin: 0px 0px 0px 0px; padding: 0px;">We offer a comprehensive benefits package including medical, dental and vision plans that will provide you and your family (including domestic partners) with high-quality healthcare. Our life and disability insurance options provide income replacement in the event of serious injury or death.</p>
+<p style="margin: 12px 0px 0px 0px; padding: 0px;">In addition, we offer flexible spending accounts for healthcare and dependent care.</p>
 
 <H2 class="p" style="margin: 12px 0px 6px 0px; padding: 0px;">
 <a href="<%Response.write href_pre%>lifemanagement.asp" class="bacb" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="Life Management Benefits">Life Management Benefits</a></H2>
@@ -52,7 +50,7 @@ We offer a 401(k) retirement savings plan with a company match after one year of
 Bank&nbsp;of&nbsp;America also provides a dedicated Associate Banking &amp; Investments team, assistance with employee home ownership, and multiple programs to support our employees&#39; commitment to volunteerism, charitable giving and education.</p>
 
 <p style="margin: 12px 0px 0px 0px;"><span style="font-size: 0.9em; line-height: 0.9em;">
-Not all employees are eligible to participate in all benefit programs. The terms and conditions of the benefits described above may be governed by written benefit plans and/or other documents. The above stated description of benefits is intended as a summary and for informational purposes only; this document does not create a contract between the company and any employee or potential associate. All programs and benefits are subject to change at any time.
+Not all employees are eligible to participate in all benefit programs. The terms and conditions of the benefits described above may be governed by written benefit plans and/or other documents. The above stated description of benefits is intended as a summary and for informational purposes only; this document does not create a contract between the company and any employee or potential employee. All programs and benefits are subject to change at any time.
 </span></p>
 
 <br><br>

@@ -213,7 +213,7 @@ We create opportunities for customers to buy a home, to attend college, or to re
 
 <div style="text-align: center; margin: 0px; padding: 0px;">
 <map name="fin_adv">
-<area title="Welcome Financial Advisor candidates. Find out more &gt;&gt;&gt;" alt="Welcome Financial Advisor candidates. Find out more &gt;&gt;&gt;" coords="0,0,187,105" href="../<% If page_section <> "ADA" Then %>/financialadvisor/<% Else %>ada/lobfa.asp<% End If %>">
+<area title="Welcome Financial Advisor candidates. Find out more &gt;&gt;&gt;" alt="Welcome Financial Advisor candidates. Find out more &gt;&gt;&gt;" coords="0,0,187,105" href="../fard.aspx?<% If page_section <> "ADA" Then %>financialadvisor/<% Else %>ada/lobfa.asp<% End If %>">
 </map>
 <img src="../images/clear.gif" width="100%" height="1" vspace="0" alt="" border="0" style="background: #c9c9c9; margin: 0px 0px 6px 0px;"><br clear="all">
 <img src="../images/finacial_advisor.jpg" width="187" height="105" border="0" style="margin: 6px 0px 0px 0px;" usemap="#fin_adv" alt="Welcome Financial Advisor candidates. Find out more &gt;&gt;&gt;"><br clear="all">
