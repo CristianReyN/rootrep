@@ -45,7 +45,7 @@
                 <h2>
                     BA Continuum India Private Limited</h2>
                 <p>
-                    BA Continuum India Pvt. Ltd. (BACI) and BA Continuum Private Limited (BACP) are non-bank subsidiaries of Bank of America. While referring to BA Continuum, we are referring to both organizations.</p>
+                    BA Continuum India Pvt. Ltd. (BACI) and BA Continuum Private Limited (BACPL) are non-bank subsidiaries of Bank of America. While referring to BA Continuum, we are referring to both organizations.</p>
                 <p>
                     BA Continuum provides Business Processing Solutions, Knowledge Services and Information Technology Solutions exclusively for the Consumer and Small Business Banking, Global Card Services, Bank of America Home Loans, Global Banking and Wealth Management and Global Markets Lines of Businesses at Bank of America.<br />
                 </p>

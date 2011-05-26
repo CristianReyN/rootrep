@@ -26,7 +26,7 @@
                     a performance culture across the Bank, providing the unique feel of “one company”
                     using one consistent process. Ensuring that our associates have visibility into
                     the vision of the company has proved to be critical in driving operation excellence
-                    – and the ensuing rewards have been evident. Associates grow internally, and having
+                    and the ensuing rewards have been evident. Associates grow internally, and having
                     people grow from within remains core to our philosophy. Our Internal Job Posting
                     (IJP) and Associate Referral processes stand testimony to this core belief. In addition
                     to vertical progression – which is a pure factor of performance – associates that
@@ -46,7 +46,7 @@
                             and recreation rooms</li><li>Banking facilities</li><li>Travel desk</li><li>Medical
                                 facilities and Doctor-on-call</li></ul>
                 <p>
-                    We take our associates very seriously – and that’s why we are passionate about their
+                    We take our associates very seriously and that’s why we are passionate about their
                     growth, about putting the right people in the right job, about driving the right
                     behavior and about doing the right thing. It’s all fundamental to our way of working
                     and that’s how we make a difference to your career. We call it the “Bank of America”

@@ -40,11 +40,10 @@
                 <h2>
                     Information Technology Solutions</h2>
                 <p>
-                    <b>The Information Technology Solutions group</b> is committed to provide technology
+                    <b>The Information Technology Solutions(ITS) group</b> is committed to provide technology
                     solutions across all Lines of Business, which includes Global Banking Securities
                     & Wealth Management Technology (GBSWMT), Consumer & Small Business Banking Technology
-                    & Operations (CSBB T&O), Cards, Bank of America Home Loans and Enterprise Technology
-                    & Delivery (ET&D).</p>
+                    & Operations (CSBB T&O), Cards, Bank of America Home Loans and Enterprise Change Technology & Operations (ECT&O).</p>
                 <p>
                     We are uniquely positioned to support the bank’s strategic objectives by providing
                     diverse technology services in all Lines of Business. We develop, maintain and support

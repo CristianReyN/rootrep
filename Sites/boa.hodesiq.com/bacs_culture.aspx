@@ -36,7 +36,7 @@
                 </p>
                 <p class="style16 text_bold">
                     Rajesh Balaraju<br />
-                    Vice President, BPS, Hyderabad
+                    Senior Vice President, BPS, Hyderabad
                 </p>
                 <p>
                     <img src="images/asia-bhavan.gif" alt="Bhavna Khurana, Senior Manager, ITS, Hyderabad" title="Bhavna Khurana, Senior Manager, ITS, Hyderabad"/></p>
@@ -72,16 +72,16 @@
                     Senior Manager, Q&amp;CD, Mumbai</p>
                
                 <p>
-                    <img src="images/Rahul-Bansal.jpg" alt="Rahul Bansal, AVP, FAKC, Gurgaon" title="Rahul Bansal, AVP, FAKC, Gurgaon"/></p>
+                    <img src="images/Reema_Mehta.jpg" alt="Reema M Dabas, AVP, L&LD, Gurgaon" title="Reema M Dabas, AVP, L&LD, Gurgaon"/></p>
                 <p align="justify">
-                    &quot;It has been more than 4 years for me at BA Continuum and never a day was dull.
-                    It always is fun mixed with constant challenges and learning. Imagine! Working with
-                    people from Taiwan to California on a daily basis- This is truly the place to be.&quot;
+                    &quot;Having spent almost three years with BA Continuum India, the one thing that stands out for me is the fact that this organization truly inculcates and fosters an EEE enabled culture: Exposure, Experience and Education.  I’ve been fortunate to have experienced a myriad of events ranging from acquisitions, economic slowdowns and strategic changes around how we operate as a company.  In addition, I have witnessed leadership changes leading to a renewed set of leadership behaviors, core values and operating model for our organization, impacting the way we operate as individual contributors as well as within our teams.  Together, these events have been refreshing and challenging at the same time, and have helped me grow on the professional and personal front.&quot;
                 </p>
                 <p class="style16 text_bold">
-                    Rahul Bansal<br />
-                    AVP, FAKC, Gurgaon</p>
+                    Reema M Dabas<br />
+                    AVP, L&LD, Gurgaon</p>
                      <p>
+                     
+                     
                     <img src="images/radha.jpg" alt="Radha Sundaresan, AVP, GWIMT, Chennai" /></p>
                 <p align="justify">
                     &quot;My journey at BA Continuum India has been very rewarding and I enjoyed many challenges in diverse areas both in leadership and technology. There is a huge vista of growth opportunities here tailored to individual ambitions and I feel fortunate to be part of the BA Continuum family.&quot;</p>

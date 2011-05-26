@@ -21,7 +21,7 @@
                 <h2> Avtar Monga<br />
                     <br />
                     Managing Director, BA Continuum India</h2>
-                <p> BA Continuum India Pvt. Ltd. (BACI) and BA Continuum Private Limited (BACP) are non-bank subsidiaries of Bank of America. While referring to BA Continuum, we are referring to both organizations.</p>
+                <p> BA Continuum India Pvt. Ltd. (BACI) and BA Continuum Private Limited (BACPL) are non-bank subsidiaries of Bank of America. While referring to BA Continuum, we are referring to both organizations.</p>
                 <p> BA Continuum provides Business Processing Solutions, Knowledge Services and Information
                     Technology Solutions exclusively for the Consumer and Small Business Banking, Global
                     Card Services, Bank of America Home Loans, Global Banking and Wealth Management
@@ -1187,7 +1187,7 @@ function SwapDiv(divid,img)
                 <div id="div22" style="display: none">
                     <table summary="" width="361" height="128" border="0" cellpadding="0" cellspacing="0">
                         <tr>
-                            <td width="361" height="128" align="left" valign="top"><img src="images/BOA_MapLocations_GURGAON_C1.jpg" alt="Gurgoan_India" width="575" height="228" /></td>
+                            <td width="361" height="128" align="left" valign="top"><img src="images/BOA_MapLocations_GURGAON_C1_NEW.jpg" alt="Gurgoan_India" width="575" height="228" /></td>
                         </tr>
                     </table>
                 </div>

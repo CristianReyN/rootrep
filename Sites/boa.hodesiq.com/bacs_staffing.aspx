@@ -231,8 +231,18 @@
                     Gurgaon
                 </h3>
                 <p>
-                    4th floor, Tower B, Infinity Tower<br />
-                    Sector 25, DLF Phase II , Gurgaon &#8211; 122002<br />
+                    Infinity Tower B, Sector - 25, DLF Phase - 2, 4th Floor<br />
+                    Gurgaon &#8211; 122 002<br />
+                </p>
+                <p>
+                Unitech Infospace, Tower A, Building Number 3<br />
+                Sector - 21 Dundahera, Old - Delhi Jaipur Highway<br />
+                Gurgaon &#8211; 122 001
+                </p>
+                <p>
+                Unitech Infospace, Tower B, Building Number 2<br />
+                Sector - 21 Dundahera, Old - Delhi Jaipur Highway<br />
+                Gurgaon &#8211; 122 001
                 </p>
                 <%-- <p><b style="text-decoration: underline">Gurgaon</b>
                     <ul>

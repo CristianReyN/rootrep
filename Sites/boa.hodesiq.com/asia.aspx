@@ -862,7 +862,7 @@
                 <div id="div22" style="display: none">
                     <table summary="" width="361" height="128" border="0" cellpadding="0" cellspacing="0">
                         <tr>
-                            <td width="361" height="128" align="left" valign="top"><img src="images/BOA_MapLocations_GURGAON_C1.jpg" alt="Gurgoan_India" width="575" height="228" /></td>
+                            <td width="361" height="128" align="left" valign="top"><img src="images/BOA_MapLocations_GURGAON_C1_NEW.jpg" alt="Gurgoan_India" width="575" height="228" /></td>
                         </tr>
                     </table>
                 </div>
