@@ -94,6 +94,10 @@
                                     <a href="bacp.aspx" target="_self" class="ritnavlinks" onfocus="this.className='ritnavlinks-over';"
                                         onblur="this.className='ritnavlinks';" title="BA Continuum Philippines">BA Continuum Philippines</a></td>
                             </tr>
+                            <tr>
+                                <td height="7" align="center" valign="middle" style="border-top: #e5e5e5 1px Dashed; background-image: url(images/dotted.gif);
+                                    background-position: left top; background-repeat: repeat-x;"></td>
+                            </tr>
                             </table></div></td></tr></table>
                                                 
 </asp:Content>

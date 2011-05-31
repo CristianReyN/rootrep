@@ -95,9 +95,9 @@ We are committed to helping each other achieve our potential in order to build a
                                     <a href="canada_staffing.aspx" target="_self" class="ritnavlinks" onfocus="this.className='ritnavlinks-over';"
                                         onblur="this.className='ritnavlinks';" title="Staffing Process">Staffing process</a></td>
                             </tr>
-                            <tr>
-                                <td height="1" align="center" valign="middle" style="border-top: #e5e5e5 1px Dashed;">
-                                </td>
+                             <tr>
+                                <td height="7" align="center" valign="middle" style="border-top: #e5e5e5 1px Dashed; background-image: url(images/dotted.gif);
+                                    background-position: left top; background-repeat: repeat-x;"></td>
                             </tr>
                         </table>
                     </div>

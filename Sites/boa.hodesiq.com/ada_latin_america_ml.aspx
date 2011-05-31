@@ -152,35 +152,35 @@ Tlaquepaque 45601, Mexico<br /></p>
                                 </td>
                             </tr>                          
                             <tr>
-                                <td height="26" align="left" valign="middle" style="background-image: url(../images/dotted.gif);
+                                <td height="26" align="left" valign="middle" style="background-image: url(images/dotted.gif);
                                     background-position: left top; background-repeat: repeat-x;">
                                     <a href="latin_america_ml_lob.aspx" target="_self" class="ritnavlinks" onfocus="this.className='ritnavlinks-over';" onblur="this.className='ritnavlinks';" title="Lines of Business">
                                         Lines of business</a>
                                 </td>
                             </tr>
                             <tr>
-                                <td height="26" align="left" valign="middle" style="background-image: url(../images/dotted.gif);
+                                <td height="26" align="left" valign="middle" style="background-image: url(images/dotted.gif);
                                     background-position: left top; background-repeat: repeat-x;">
                                     <a href="latin_america_ml_benefits_culture.aspx" target="_self" class="ritnavlinks" onfocus="this.className='ritnavlinks-over';" onblur="this.className='ritnavlinks';" title="Benefits">Benefits</a>
                                 </td>
                             </tr>
                             <tr>
-                                <td height="26" align="left" valign="middle" style="background-image: url(../images/dotted.gif);
+                                <td height="26" align="left" valign="middle" style="background-image: url(images/dotted.gif);
                                     background-position: left top; background-repeat: repeat-x;">
                                     <a href="latin_america_ml_benefits_culture.aspx#CultureAndWork" target="_self" class="ritnavlinks" onfocus="this.className='ritnavlinks-over';" onblur="this.className='ritnavlinks';" title="Culture & Work Environment">
                                         Culture & work environment</a>
                                 </td>
                             </tr>
                             <tr>
-                                <td height="26" align="left" valign="middle" style="background-image: url(../images/dotted.gif);
+                                <td height="26" align="left" valign="middle" style="background-image: url(images/dotted.gif);
                                     background-position: left top; background-repeat: repeat-x;">
                                     <a href="latin_america_ml_staffing.aspx" target="_self" class="ritnavlinks" onfocus="this.className='ritnavlinks-over';" onblur="this.className='ritnavlinks';" title="Staffing Process">
                                         Staffing process</a>
                                 </td>
                             </tr>
                             <tr>
-                                <td height="1" align="center" valign="middle" style="border-top: #e5e5e5 1px Dashed;">
-                                </td>
+                                <td height="7" align="center" valign="middle" style="border-top: #e5e5e5 1px Dashed; background-image: url(images/dotted.gif);
+                                    background-position: left top; background-repeat: repeat-x;"></td>
                             </tr>
                         </table>
                     </div>

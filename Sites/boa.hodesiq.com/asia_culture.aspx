@@ -50,8 +50,9 @@
                               </tr>
                               
                               <tr>
-                                <td height="1" align="center" valign="middle" style=" BORDER-top: #e5e5e5 1px Dashed; "></td>
-                              </tr>
+                                <td height="7" align="center" valign="middle" style="border-top: #e5e5e5 1px Dashed; background-image: url(images/dotted.gif);
+                                    background-position: left top; background-repeat: repeat-x;"></td>
+                            </tr>
                             </table> </div>
                             
                        </div>     			
