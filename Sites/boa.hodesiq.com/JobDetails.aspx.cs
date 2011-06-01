@@ -102,7 +102,7 @@ public partial class JobDetails : System.Web.UI.Page
 
             this.hApplyNow.Value = targetpage + "countryid=" + CountryID + "&url=" + HttpUtility.UrlEncode(ApplyURL);
             ViewState["pageTitle"] = pageTitle;
-            ViewState["jobtitle"] = jobtitle;
+            ViewState["jobtitle"] = jobtitle;             
 		}
 		else
 		{
@@ -156,12 +156,15 @@ public partial class JobDetails : System.Web.UI.Page
         BOAFeedCanada.Visible = false;
         BOAFeedAsia.Visible = false;
         BoaFeedIndia.Visible = false;
+        string JobId="";
 
         if (!IsPostBack)
         {
             Page.Title = pageTitle;
             feedname = Request.QueryString["feedname"] == null ? "" : Request.QueryString["feedname"].ToString();
             ViewState["feedname"] = feedname;
+            JobId = Request.QueryString["jobid"];
+            ViewState["jobid"] = JobId;
         }
         else
         {
@@ -169,6 +172,7 @@ public partial class JobDetails : System.Web.UI.Page
             pageTitle = ViewState["pageTitle"].ToString();
             Page.Title = pageTitle;
             jobtitle = ViewState["jobtitle"].ToString();
+            JobId = ViewState["jobid"].ToString();
         }
         if(feedname.Contains("web05")){
                 BOAFeedAsia.Visible = true;
@@ -196,6 +200,7 @@ public partial class JobDetails : System.Web.UI.Page
        
         int twitterjobtitlelength = Int32.Parse(ConfigurationManager.AppSettings["twitterjobtitlelength"].ToString());
         int linkedinjobtitlelength = Int32.Parse(ConfigurationManager.AppSettings["linkedinjobtitlelength"].ToString());
+        int linkedinjobdescriptionlength = Int32.Parse(ConfigurationManager.AppSettings["linkedinjobdescriptionlength"].ToString());
 
 
         if (twitterjobtitlelength > 0 && twitterjobtitlelength < jobtitle.Length)
@@ -207,7 +212,7 @@ public partial class JobDetails : System.Web.UI.Page
             hdnTwitterTitle.Value = "#Job opportunity at Bank of America: " + jobtitle;
         }
 
-        if (linkedinjobtitlelength > 0 && linkedinjobtitlelength < pageTitle.Length)
+        if (linkedinjobtitlelength > 0 && pageTitle.Length > linkedinjobtitlelength)
         {
             hdnLinkedInTitle.Value = pageTitle.Substring(0, linkedinjobtitlelength);
         }
@@ -215,9 +220,25 @@ public partial class JobDetails : System.Web.UI.Page
         {
             hdnLinkedInTitle.Value = pageTitle;
         }
-       
-       
 
+        hdnJobDetailURL.Value = ConfigurationManager.AppSettings["jobdetailURL"].ToString() + JobId;
+
+        hdnJobId.Value = JobId;
+
+        if (linkedinjobdescriptionlength > 0 && lblDescripton.Text.Length > linkedinjobdescriptionlength)
+            {
+                hdnLinkedInJobDescription.Value = lblDescripton.Text.Substring(0, linkedinjobtitlelength);
+            }
+        else
+            {
+              hdnLinkedInJobDescription.Value = lblDescripton.Text;
+            }
+
+
+        hdnLinkedInJobDescription.Value = hdnLinkedInJobDescription.Value.Replace("\r", "");
+        hdnLinkedInJobDescription.Value = hdnLinkedInJobDescription.Value.Replace("\n", "");
+        hdnLinkedInJobDescription.Value = Utility.StripHTML(hdnLinkedInJobDescription.Value);
+        
       
     }
 

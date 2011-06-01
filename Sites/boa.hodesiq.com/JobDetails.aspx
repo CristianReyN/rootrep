@@ -2,6 +2,11 @@
     Language="C#" MasterPageFile="~/BOAmaster.master"  ValidateRequest="false" EnableEventValidation="false"%>
 <%@ MasterType VirtualPath="~/BOAmaster.master" %>
 <asp:Content ID="Content1" runat="Server" ContentPlaceHolderID="cphmain">
+<script type="text/javascript" src="https://utility.bankofamerica.com/uet/social_share2.js"></script>
+<script type="text/javascript" src="https://utility.bankofamerica.com/uet/bookmark2.js"></script>
+<script type="text/javascript" src="https://utility.bankofamerica.com/uet/print2.js"></script>
+<script type="text/javascript" src="https://utility.bankofamerica.com/uet/sourcepoint2.js"></script>
+
 	<h1 style="margin: 0px 0px 0px 12px; " runat="server" id="lblJobTitle">Advanced Search</h1>
 
     <%string countryID = Request.QueryString["countryid"] == null ? "1" : Request.QueryString["countryid"].ToString();%>
@@ -48,63 +53,55 @@
                             <asp:HiddenField runat="server" ID="hApplyNow" />
                             <asp:PlaceHolder ID="phApply1" runat="server" Visible="true"></asp:PlaceHolder>
                             <%--<asp:HyperLink ID="applylnk" CssClass="p" runat="server" NavigateUrl="" Target="_blank" ><img src="images/apply_now.gif" alt="Apply Now" style="border-top-style: none; border-right-style: none; border-left-style: none; border-bottom-style: none;" /></asp:HyperLink>--%>
-                            <div align="center"><br />
+                           <div align="center"><br />
                                    <table width="140px">
                                    <tr>
                                     <td colspan="2" align="center" valign="top" >     <b>Share this job</b></br></br></td>
                                    </tr>
                                    <tr>
                                    <td valign="top" align="right" width="40px">
-                                    <script language="javascript" type="text/javascript">
-                                    <!--
-                                        var socialSite = "1"
-                                        var useTinyURL = "<%=UseTinyUrl%>";
-                                       
-                                    //-->
-                                    </script>
-                                    <script type="text/javascript" src="http://utility-qa.bankofamerica.com/uet/social_share.js"></script>
-                               </td> 
-                               <td width="100px" align="left"><b>&nbsp;&nbsp;&nbsp;Facebook</b></br></br> </td> 
-                              </tr >
-                                 <tr>                              
-                                 <td valign="top" align="right" width="40px">
-                                    
-                                    <script language="javascript" type="text/javascript">                                    
-                                    <!--
-                                        var socialSite = "2"
-                                        var twitterStatusDescription = "<%=hdnTwitterTitle.Value%>"
-                                        var useTinyURL = "<%=UseTinyUrl%>";
-                                  
-                                    //-->
-                                    </script>
-                                    <script type="text/javascript" src="http://utility-qa.bankofamerica.com/uet/social_share.js"></script>
-                                    </td>
-                                   
-                                    <td width="100px" align="left"> 
-                          
-                                 <b>&nbsp;&nbsp;&nbsp;Twitter</b></br></br></td>                                                              
-                              
-                              
-                                 </tr>
-                                         <tr>
-                               
-                                 <td valign="top" width="40px" align="right">
-                                
-                                <script language="javascript" type="text/javascript">
-                                <!--
-                                    var socialSite = "3"
-                                    var useTinyURL = "<%=UseTinyUrl%>";
-                                    var titleValue = "<%=hdnLinkedInTitle.Value%>"
-                                  
-                                //-->
-                                </script>
-                                    <script type="text/javascript" src="http://utility-qa.bankofamerica.com/uet/social_share.js"></script>
-                                </td>
-                                   <td width="100px" align="left"><b>&nbsp;&nbsp;&nbsp;LinkedIn</b></br></br></br></br></br>  </td>   
-                                                                                               
-                             
+                                   <script language="javascript" type="text/javascript">                                       
+                                       var cmdpageVariable = "career:jobsearch:jobdetails_" + "<%=hdnJobId.Value%>";
+                                       document.write(displayIcon("1", "", "", "1", "", "", "", "", "", "", "", cmdpageVariable, "", ""));                                      
+                                   </script> 
+                                                                                                           
                                  
-                                 </tr>                                                                                                                                                                                                                        
+
+                                   </td>
+                                   <td width="100px" align="left"><b>&nbsp;&nbsp;&nbsp;Facebook</b></br></br> </td> 
+                                  </tr>   
+                                
+                                   <tr>
+                                   <td valign="top" align="right" width="40px">
+                                   <script language="javascript" type="text/javascript">
+                                       var twitterStatusDescription = "<%=hdnTwitterTitle.Value%>"
+                                       var cmdpageVariable = "career:jobsearch:jobdetails_" + "<%=hdnJobId.Value%>";
+
+                                       document.write(displayIcon("2", "", "", "1", "", "", "", twitterStatusDescription, "", "", "", cmdpageVariable, "", ""));
+                                      
+                                   </script>                                                                         
+
+
+
+                                   </td>
+                                   <td width="100px" align="left"><b>&nbsp;&nbsp;&nbsp;Twitter</b></br></br> </td> 
+                                  </tr>  
+                                  
+ <tr>
+                                   <td valign="top" align="right" width="40px">
+                                   <script language="javascript" type="text/javascript">
+                                       var LinkedInTitle = "<%=hdnLinkedInTitle.Value%>"
+                                       var LinkedInSummary="<%=hdnLinkedInJobDescription.Value %>"
+                                       var url = "<%=hdnJobDetailURL.Value%>"
+                                       document.write(displayIcon("3", LinkedInTitle, url, "1", "", "", "", "", "", LinkedInSummary, "", "", "", ""));                                       
+                                   </script>                                                                         
+
+
+
+                                   </td>
+                                   <td width="100px" align="left"><b>&nbsp;&nbsp;&nbsp;LinkedIn</b></br></br> </td> 
+                                  </tr>  
+                                                                                                                                                                                                                                                      
                                  <tr>
                                 <td colspan=3 align="center"><b>Stay Connected</b></br></br>
                                 </td>
@@ -196,6 +193,9 @@
     </table>
     <asp:HiddenField ID="hdnTwitterTitle" runat="server" Value="" />
         <asp:HiddenField ID="hdnLinkedInTitle" runat="server" Value="" />
+        <asp:HiddenField ID="hdnJobId" runat="server" Value="" />
+        <asp:HiddenField ID="hdnJobDetailURL" runat="server" Value="" />  
+        <asp:HiddenField ID="hdnLinkedInJobDescription" runat="server" Value="" />      
     <span id="BOAFeedUSA" visible="false" runat="server" class='auraltext'>
 <h2 style="margin: 0px 0px 0px 12px; ">Important information on applying for positions</h2>
 Apply Now. You are encouraged to complete this online application, however if you have difficulty, you should:
