@@ -381,6 +381,7 @@ function pauseVideo(objname)
 var flashplayer = new fpvideo("../Includes/flashplayer.swf",259,166);
 //var flashplayer2 = new fpvideo("../Includes/flashplayer.swf",260,167);
 var flashplayer2 = new fpvideo("../Includes/pages/rjp/flashplayer_xml20080308.swf",205,130);
+var flashplayer3 = new fpvideo("../Includes/pages/rjp/flashplayer_xml20080308.swf",259,166);
 
 function fpvideo(swf_url,w,h)
 {
@@ -389,7 +390,7 @@ function fpvideo(swf_url,w,h)
 	this.h = h;
 }
 
-var craig_video, jeremy_video, michael_video, fairbrother_video, diaz_video, saulsberry_video, price_video, cambra_video, chen_video, shuwen_video, placencia_video;
+var craig_video, jeremy_video, michael_video, fairbrother_video, diaz_video, saulsberry_video, price_video, cambra_video, chen_video, shuwen_video, placencia_video, diversity_video;
 var craig_cc_video, jeremy_cc_video, michael_cc_video, shuwen_cc_video;
 benitez_video = new fvideo(
 					"../Includes/pages/associate/Benitez.swf",
@@ -505,6 +506,16 @@ michael_video = new fvideo(
 					"../Includes/pages/lob/thumbnails/michael_off.jpg",
 					null,
 					michael_cc_video
+					);
+diversity_video = new fvideo(
+					flashplayer3.swf_url,
+					"../Includes/pages/lob/xml/DIVERSITY.xml",
+					flashplayer3,
+					"#answ1",
+					"../Includes/pages/lob/thumbnails/diversity_on.jpg",
+					"../Includes/pages/lob/thumbnails/diversity_off.jpg",
+					null,
+					null
 					);
 placencia_video = new fvideo(
 					"../Includes/pages/associate/Placencia.swf",

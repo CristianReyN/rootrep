@@ -100,7 +100,17 @@ function changeCity()
 							<td style="padding: 0px 0px 0px 0px;">
 
 <%If Request("countryid") =1 Then %>
-<p style="margin: 0px;">Begin your career search by selecting a country.  You may then narrow your search further, by entering additional search criteria or keywords.<%If show_add_message Then %><br><%If Not overview_page Then %><b><% End If %>Note:<%If Not overview_page Then %></b><% End If %> City search options are limited to areas with current available job opportunities, which change constantly. Results are specific to the single city you select, and do not include results for nearby locations. <a href="Javascript: void(0);" id="lmh" class="p">Learn more<span class="hidden"> Link opens a new window</span></a><% End If %></p>
+<p style="margin: 0px;">
+<% If taleo_upgrade Then %>
+For U.S. positions only:  due to site maintenance, you will be unable to apply for a position or create/update your profile from June&nbsp;30 through July&nbsp;4.
+<br>
+You may continue to search for jobs, as well as navigate the site during this timeframe.  
+<br>
+All functionality will return on July&nbsp;5.
+</p>
+<p style="margin: 12px 0px 3px 0px;">
+<% End If %>
+Begin your career search by selecting a country.  You may then narrow your search further, by entering additional search criteria or keywords.<%If show_add_message Then %><br><%If Not overview_page Then %><b><% End If %>Note:<%If Not overview_page Then %></b><% End If %> City search options are limited to areas with current available job opportunities, which change constantly. Results are specific to the single city you select, and do not include results for nearby locations. <a href="Javascript: void(0);" id="lmh" class="p">Learn more<span class="hidden"> Link opens a new window</span></a><% End If %></p>
 <%Else %>
 <p style="margin: 0px;">To find a career suited to your skill set, begin by selecting a country from the list below. Then you may narrow your selection further by choosing additional search criteria and/or entering keywords.<%If show_add_message Then %><br><b>Please note:</b> City search results are for that city only. Please search individually for all cities within your desired geographic area.<% End If %></p>
 <%End If %>

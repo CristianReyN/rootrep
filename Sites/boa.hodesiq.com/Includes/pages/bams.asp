@@ -1,3 +1,11 @@
+<%
+	BAMS_URL = "https://bacfhrs.taleo.net/careersection/10200/joblist.ftl?lang=en"
+	BAMS_TARGET = "_blank"
+If taleo_upgrade Then
+	BAMS_URL = "../overview/manage_your_profile.asp"
+	BAMS_TARGET = "_top"
+End If
+%>
 		<table width="578" cellpadding="0" cellspacing="0" border="0" summary="">
 			<tr valign="top"><td colspan="2" valign="top" class="divt"><img src="../images/clear.gif" width="100%" height="4" alt="" border="0"></td></tr>
 			<tr valign="top">
@@ -14,7 +22,7 @@
 			<tr valign="top">
 				<td width="373" height="100%" valign="top" style="padding: 0px <%=right_margin%>px 0px <%=left_margin_0%>px;">
 <p style="margin: 0px;">
-<a href="https://bacfhrs.taleo.net/careersection/10200/joblist.ftl?lang=en" title="" target="_blank" class="p">Search for current career opportunities<span class="hidden"> Link opens a new window</span></a> within Banc&nbsp;of&nbsp;America Merchant Services, LLC.
+<a href="<%=BAMS_URL%>" title="" target="<%=BAMS_TARGET%>" class="p">Search for current career opportunities<% If BAMS_TARGET = "_blank" Then %><span class="hidden"> Link opens a new window</span><% End If%></a> within Banc&nbsp;of&nbsp;America Merchant Services, LLC.
 </p>
 <p style="margin: 12px 0px 0px 0px;">
 Banc&nbsp;of&nbsp;America Merchant Services, LLC is a premiere payments company providing the technology, innovative products and industry track record of First Data with the relationship strength, geographical coverage and prominent global brand of Bank&nbsp;of&nbsp;America to serve existing and future clients.
@@ -34,7 +42,7 @@ Careers within Banc&nbsp;of&nbsp;America Merchant Services, LLC include:
 </ul>
 				</td>
 				<td width="205" height="100%" style="padding-top: 1px;" valign="top" align="right">
-<a href="https://bacfhrs.taleo.net/careersection/10200/joblist.ftl?lang=en" title="Banc of America Merchant Services, LLC Job Search" target="_blank" style="display : block;  width : 179px; height : 66px;"><img src="../images/BOA_MerchantJobSearch.jpg" width="179" height="66" alt="Banc of America Merchant Services, LLC Job Search" border="0"><span class="hidden"> Link opens a new window</span></a>
+<a href="<%=BAMS_URL%>" title="Banc of America Merchant Services, LLC Job Search" target="<%=BAMS_TARGET%>" style="display : block;  width : 179px; height : 66px;"><img src="../images/BOA_MerchantJobSearch.jpg" width="179" height="66" alt="Banc of America Merchant Services, LLC Job Search" border="0"><% If BAMS_TARGET = "_blank" Then %><span class="hidden"> Link opens a new window</span><% End If%></a>
 <img src="../images/clear.gif" width="185" height="5" alt="" border="0"><br clear="all">
 				</td>
 			</tr>

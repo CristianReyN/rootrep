@@ -18,7 +18,7 @@
 <b>Bank&nbsp;of&nbsp;America&#39;s commitment to the mortgage industry is focused on continuous growth, increased teamwork, and excellent customer service.</b>
 	</p>
 	<p style="margin: 12px <%=right_margin%>px 0px <%=left_margin_0%>px;">
-As the nation&#39;s largest mortgage lender and loan servicer, and the world&#39;s most trusted lender, Bank&nbsp;of&nbsp;America Home Loans embraces a commitment to responsible home lending. 
+As the nation&#39;s largest loan servicer, Bank&nbsp;of&nbsp;America Home Loans embraces a commitment to responsible home lending.
 	</p>
 	<p style="margin: 12px <%=right_margin%>px 0px <%=left_margin_0%>px;">
 Our every action is focused on Bringing Opportunity Home for those we serve, assisting new and existing customers in achieving their dreams of home ownership and preservation.

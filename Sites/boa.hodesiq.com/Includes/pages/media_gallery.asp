@@ -40,6 +40,7 @@ Enjoy!
 	<option value="lobcf"<%If mg="lobcf" Then Response.write " selected"%>>CFO Group/Finance</option>
 	<option value="comm"<%If mg="comm" Then Response.write " selected"%>>Communications</option>
 	<option value="corpwp"<%If mg="corpwp" Then Response.write " selected"%>>Corporate Workplace</option>
+	<option value="divinc"<%If mg="divinc" Then Response.write " selected"%>>Diversity and Inclusion</option>
 	<option value="csbbam"<%If mg="csbbam" Then Response.write " selected"%>>Global Consumer &amp; Small Business Banking</option>
 	<option value="qpa"<%If mg="qpa" Then Response.write " selected"%>>Global Corporate Planning and Strategy</option>
 	<option value="lobghr"<%If mg="lobghr" Then Response.write " selected"%>>Global Human Resources</option>
@@ -119,8 +120,10 @@ Select Case mg
 <%
 	Case "divinc"%>
 			<img class="dotdiv" style="margin: 0px 0px 12px 0px;" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
-			<map name="divinc"><area title="Diversity &amp; Inclusion. It&acute;s the foundation of who we are. View the Global Diversity &amp; Inclusion video &gt;" alt="Diversity &amp; Inclusion. It&acute;s the foundation of who we are. View the Global Diversity &amp; Inclusion video &gt;" coords="0,0,180,149" href="<% If page_section = "ADA" Then %><% Else  %>../learnmore/<% End If  %>diversity_inclusion_video.asp?mg=<%=mg%>"></map>
-			<img src="../images/diversity_inclusion.jpg" width="187" height="156" border="0" style="margin: 6px 0px 0px 0px;" usemap="#divinc" alt="Diversity &amp; Inclusion. It&acute;s the foundation of who we are. View the Global Diversity &amp; Inclusion video &gt;">
+			<!-- #include file="lob/diversity.asp" -->
+<%		If page_section <> "ADA" Then %>
+			<a href="#video" class="hlink">Diversity and Inclusion Video</a>
+<%		End If%>
 			<img class="dotdiv" style="margin: 12px 0px 0px 0px;" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
 <%
 	Case "csbbam"%>

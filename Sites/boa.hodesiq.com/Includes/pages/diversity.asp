@@ -8,12 +8,13 @@
 			</tr>
 			<tr valign="top"><td colspan="2" valign="top" class="divb"><img src="../images/clear.gif" width="100%" height="4" alt="" border="0"></td></tr>
 		</table>
-		<a name="skipmaincontent"></a><H1 class="hidden">Diversity and inclusion</H1>
 		<img src="../images/clear.gif" width="100%" height="<%=top_content_padding_bottom%>" alt="" border="0"><br />
 		<table width="578" cellpadding="0" cellspacing="0" border="0" summary="">
 			<tr valign="top">
-				<td width="373" height="100%" valign="top" style="padding: 0px <%=right_margin%>px 0px <%=left_margin_0%>px;">
-<p style="margin: 0px;">
+				<td width="100%" valign="top">
+<a name="skipmaincontent"></a><H1 class="hidden">Diversity and Inclusion</H1>
+<div style="float: left; width: <% If page_section = "ADA" Then %>357<% ElseIf page_section <> "ADA" Then %>299<%End If%>px;">
+<p style="margin: <% If page_section = "ADA" Then %>12<% Else %>0<%End If%>px <%=right_margin%>px 0px <%=left_margin_0%>px;">
 Above all, we are about people. A philosophy of inclusion drives our organization every day and helps us win in a diverse, global marketplace.
 </p>
 <H2 class="p" style="margin: 12px 0px 0px 0px; padding: 0px;"><b>Diversity Organizations</b></H2>
@@ -34,24 +35,34 @@ Our work environment draws on the strength of every associate to build an atmosp
 If you have questions about an upcoming diversity recruiting event or need additional information about the bank&#39;s diversity efforts, please send an e-mail to <a class="p" href="mailto:diversity@bankofamerica.com" style="letter-spacing : -0.01em;">diversity@bankofamerica.com</a>.
 </p>
 <!-- #include file="../diversitynav.asp" -->
-				</td>
-				<td width="205" height="100%" valign="top">
-<div style="border: 1px solid #e8e8e9; margin: 0px 0px 12px 0px; padding: 0px 0px 6px 0px;">
-	<H2 class="g" style="margin: 0px 0px 0px 0px;"><%=JOB_SEARCH_TITLE%></H2>
-	<img src="../images/clear.gif" width="100%" height="1" alt="" border="0" style="margin: 1px 0px 6px 0px; background: #e8e8e9;" align="top"><br clear="all">
-<!-- #include file="../jobsearch.asp" -->
+<br><br>
 </div>
+<% If page_section = "ADA" Then %>
+<div style="float: right; margin: 0px 0px 0px <%=right_margin_split%>px; padding: 0px; width: 201px;">
+	<!-- #include file="lob/diversity.asp" -->
+<% ElseIf page_section <> "ADA" Then %>
+<div align="right" style="float: right; margin: 0px 0px 0px <%=right_margin_split%>px; padding: 0px; width: 259px;">
+	<!-- #include file="lob/diversity.asp" -->
+	<a href="#video" class="hlink">Diversity and Inclusion Video</a>
+<% End If  %>
+	<div style="width: 201px; text-align: left; border: 1px solid #e8e8e9; background: #ffffff; margin: 12px 0px 12px 0px; padding: 0px 0px 6px 0px;">
+		<H2 class="g" style="margin: 0px 0px 0px 0px;"><%=JOB_SEARCH_TITLE%></H2>
+		<img src="../images/clear.gif" width="100%" height="1" alt="" border="0" style="margin: 1px 0px 6px 0px; background: #e8e8e9;" align="top"><br clear="all">
+	<!-- #include file="../jobsearch.asp" -->
+	</div>
 
-<div style="border: 1px solid #e8e8e9; margin: 12px 0px 12px 0px; padding: 0px 0px 6px 0px;">
-	<H2 class="g" style="margin: 0px 0px 0px 0px;">Related Information</H2>
-	<img src="../images/clear.gif" width="100%" height="1" alt="" border="0" style="margin: 1px 0px 0px 0px; background: #e8e8e9;" align="top"><br clear="all">
-	<div  style="padding: 0px 5px 0px 4px;">
-<!-- #include file="../relinfonav.asp" -->
-	</div>					
-</div>
+	<div style="border: 1px solid #e8e8e9; margin: 12px 0px 12px 0px; padding: 0px 0px 6px 0px; width: 201px; text-align: left;">
+		<H2 class="g" style="margin: 0px 0px 0px 0px;">Related Information</H2>
+		<img src="../images/clear.gif" width="100%" height="1" alt="" border="0" style="margin: 1px 0px 0px 0px; background: #e8e8e9;" align="top"><br clear="all">
+		<div  style="padding: 0px 5px 0px 4px;">
+			<!-- #include file="../relinfonav.asp" -->
+		</div>					
+	</div>
 
-<div style="text-align: center; margin: 0px; padding: 0px;">
-<!-- #include file="../talkingatm.html" -->
+	<div style="width: 201px; text-align: center; margin: 0px; padding: 0px;">
+		<!-- #include file="../talkingatm.html" -->
+	</div>
+	<br><br>
 </div>
 				</td>
 			</tr>

@@ -1,7 +1,29 @@
 <%
-	'S_R_C = HOWTOAPPLY_URL
-	'If(InStr(Request.ServerVariables ("HTTP_REFERER"),"overview.asp")) Then S_R_C = OVERVIEW_URL
-	
+If taleo_upgrade Then
+%>
+		<a name="skipmaincontent"></a>
+		<img src="../images/clear.gif" width="100%" height="<%=top_content_padding_bottom%>" alt="" border="0"><br />
+		<table width="578" cellpadding="0" cellspacing="0" border="0" summary="">
+			<tr valign="top">
+				<td width="373" height="100%" valign="top" style="border: 2px solid #000000; padding: 12px;">
+<H1 style="margin: 0px 0px 0px <%=left_margin_0%>px;">Bank of America Career Search Tool under Maintenance for U.S. Positions
+</H1>
+<p>
+Due to site maintenance, you will be unable to apply for a position or create/update your profile from June 30 through July 4.
+</p>
+<p style="margin: 0px 0px 12px 0px;">
+You may continue to search for jobs, as well as navigate the site during this timeframe.
+<br><br>
+All functionality will return on July 5.
+<br><br>
+<a href="<%=Request.ServerVariables ("HTTP_REFERER") %>" class="p" title="Return to the previous page">Return to the previous page</a>
+</p>
+				</td>
+				<td width="192" height="100%" valign="top" >&nbsp;</td>
+			</tr>
+		</table>
+<%
+Else
 	S_R_C = OVERVIEW_URL
 	If(InStr(Request.ServerVariables ("HTTP_REFERER"),"campusrecruiting/")) Then S_R_C = HOWTOAPPLY_URL
 %>
@@ -28,3 +50,6 @@ function go_faq(){if(opener){
 	<tr><td align="center" height="100%" valign="top">
 		<iframe marginheight="0" marginwidth="0" width="752" height="100%" frameborder="0" src="<%=S_R_C%>" style="width: 752px; height: 100%; margin: 0px;"></iframe></td></tr>
 </table>
+<%
+End If
+%>
