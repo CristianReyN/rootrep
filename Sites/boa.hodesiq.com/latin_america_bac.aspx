@@ -140,7 +140,7 @@ div#map_details_EUROPE div p { font-family: Verdana, Helvetica, sans-serif;font-
                 <a id="loc21" title="Costa Rica-San Jose" class="bullet" href="#A2" onmouseout="javascript:this.blur();hide('loc21_info');" onmouseover="javascript:this.focus();show('loc21_info');" onfocus="javascript:show('loc21_info');" onblur="javascript:hide('loc21_info');" style="left:149.5px;top:59.5px;"></a>
                 </div>
                 <div id="map_details_EUROPE">
-                <div id="loc19_info"><h1>Mexico</h1><h2>Tlaquepaque</h2><p>Centro Corporativo Intermex<BR>Periferico SUR #7999 - E<BR>Tlaquepaque 45601, Mexico</p></div>
+                <div id="loc19_info"><h1>Mexico</h1><h2>Tlaquepaque</h2><p>BA Continuum Mexico S.C<BR>Centro Corporativo Intermex<BR>Periferico SUR #7999 - E<BR>Tlaquepaque 45601, Mexico</p></div>
                 <div id="loc21_info"><h1>Costa Rica</h1><h2>San Jose</h2><p>BA Continuum Costa Rica Ltda.<BR>Calle Blancos, Parque Empresarial del Este, Edificio B-4<BR>Del Servicentro Calle Blancos, 100 mts Norte<BR>San Jose, Costa Rica</p></div>
                 </div></div></div></div></div></div></div>    
                    <div id="DivTwo"   style="display: none">

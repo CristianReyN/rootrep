@@ -151,7 +151,7 @@ div#map_details_EUROPE div p { font-family: Verdana, Helvetica, sans-serif;font-
                    </div>
 
             <div id="map_details_MEA">
-            <div id="loc19_info"><h1>Mexico</h1><h2>Tlaquepaque</h2><p>Centro Corporativo Intermex<BR>Periferico SUR #7999 - E<BR>Tlaquepaque 45601, Mexico</p></div>
+            <div id="loc19_info"><h1>Mexico</h1><h2>Tlaquepaque</h2><p>BA Continuum Mexico S.C<BR>Centro Corporativo Intermex<BR>Periferico SUR #7999 - E<BR>Tlaquepaque 45601, Mexico</p></div>
             <div id="loc21_info"><h1>Costa Rica</h1><h2>San Jose</h2><p>BA Continuum Costa Rica Ltda.<BR>Calle Blancos, Parque Empresarial del Este, Edificio B-4<BR>Del Servicentro Calle Blancos, 100 mts Norte<BR>San Jose, Costa Rica</p></div>
             <!--<div id="loc22_info"><h1>Israel</h1><h2>Tel Aviv</h2><p>1 Azrieli Centre<BR>37th Floor, Round Tower<BR>132 Petach Tikvah Road<BR>Tel Aviv, 67021</p></div><div id="loc23_info"><h1>Bahrain</h1><h2>Manama</h2><p>Bahrain Middle East Bank Building,<BR>Diplomatic Area<BR>Manama, Bahrain</p></div><div id="loc20_info"><h1>United Arab Emirates</h1><h2>Dubai</h2><p>Dubai International Financial Centre:<br>5th Floor, The Gate<br>East Wing<br>P.O. Box 3911<br>Dubai, United Arab Emirates<br><br>Bur Dubai office:<br>6th Floor, Business Centre<br>Khalid Bin Al Waleed St<br>P.O. Box 3911<br>Dubai, United Arab Emirates<br></p></div><div id="loc24_info"><h1>Saudi Arabia</h1><h2>Riyadh</h2><p>Kingdom Tower - 20th Floor<BR>Olaya Street<BR>Riyadh</p></div><div id="loc25_info"><h1>South Africa</h1><h2>Johannesburg</h2><p>138 West Street<BR>Sandown<BR>Sandton<BR>Johannesburg, 2120</p></div>-->
             </div>
