@@ -26,11 +26,14 @@ public partial class JobSearch : System.Web.UI.Page
         if (DateTime.Compare(MaintenanceStartDate, DateTime.Now) < 0 && DateTime.Compare(MaintenanceEndDate, DateTime.Now) > 0)
         {
             ManageYourProfile.HRef = System.Configuration.ConfigurationManager.AppSettings["MaintenancePage"].ToString();
+            ImgMerchantServices.HRef = System.Configuration.ConfigurationManager.AppSettings["MaintenancePage"].ToString();
         }
         else
         {
             ManageYourProfile.HRef = "../overview/manage_your_profile.asp";
             ManageYourProfile.Target = "_blank";
+            ImgMerchantServices.HRef = "https://bacfhrs.taleo.net/careersection/10200/joblist.ftl?lang=en" ;
+            ImgMerchantServices.Target ="_blank";
         }
              
         //init hidden location value

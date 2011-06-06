@@ -119,7 +119,7 @@
 						<tr id="TrUsJobs1" runat="server">	
 						<td>					
 					    <img class="dotdiv" src="images/clear.gif" width="100%" height="1" alt="" border="0"/>
-                               <a href="overview/manage_your_profile.asp" target="_blank" class="p" onblur="this.className='p';" onfocus="this.className='p-over';"  title="Manage your profile">Manage Your Profile</a><p style="margin: 6px 0px 6px 0px;" />
+                               <a id="ManageYourProfile" runat="server" class="p" onblur="this.className='p';" onfocus="this.className='p-over';"  title="Manage your profile">Manage Your Profile</a><p style="margin: 6px 0px 6px 0px;" />
 
 						</td>
 						</tr>
