@@ -64,7 +64,7 @@ Apply Now. You are encouraged to complete this online application, however if yo
                                     <asp:TemplateField HeaderText="Apply" ItemStyle-HorizontalAlign="Left" >
                                     <HeaderStyle HorizontalAlign="Left" />
                                         <ItemTemplate>
-                                           <asp:HyperLink ID="hlnkApply" NavigateUrl="" runat="server" class="p"  Target="_blank" onfocus="this.className='p-over';" onblur="this.className='p';"/>                                    
+                                           <asp:HyperLink ID="hlnkApply" NavigateUrl="" runat="server" class="p"  onfocus="this.className='p-over';" onblur="this.className='p';"/>                                    
                                         </ItemTemplate>
                                     </asp:TemplateField>                                                                         
                                     

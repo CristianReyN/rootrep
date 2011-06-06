@@ -88,7 +88,18 @@ public static class boanet_safebutton
             l.Text = auraltext
             + "<span class='hidden'>Apply Now. Link opens a new window</span>";
 			l.ToolTip = " Apply Now. Link opens in new window. ";
-            l.Attributes.Add("onclick", "javascript:window.open('" + LinkURL + "','ApplyNow')");			
+
+           DateTime MaintenanceStartDate = DateTime.Parse(System.Configuration.ConfigurationManager.AppSettings["MaintenanceStartDate"].ToString());
+            DateTime MaintenanceEndDate = DateTime.Parse(System.Configuration.ConfigurationManager.AppSettings["MaintenanceEndDate"].ToString());
+            if ((countryID == Location.USA) && DateTime.Compare(MaintenanceStartDate, DateTime.Now) < 0 &&  DateTime.Compare(MaintenanceEndDate, DateTime.Now) > 0)
+            {
+               
+                l.PostBackUrl = System.Configuration.ConfigurationManager.AppSettings["MaintenancePage"].ToString();
+            }
+            else
+            {
+                      l.Attributes.Add("onclick", "javascript:window.open('" + LinkURL + "','ApplyNow')");
+            }
         }
         else
         {

@@ -131,7 +131,18 @@ public partial class Jobcart : System.Web.UI.Page
             MyApplyLink.ID = "hlnkApply" + e.Row.RowIndex;
             MyApplyLink.Text = "Apply Now <span class='auraltext'>For `" + DrvRow["JobTitle"].ToString() + "`. If you have any difficulties, refer to the above alternatives. Opens in a new window.</span><span class='hidden'>Apply Now. Link opens a new window</span>";
             //apply process goes trough clients page for hits counting:
-            MyApplyLink.NavigateUrl = ApplyURL;          
+            DateTime MaintenanceStartDate = DateTime.Parse(System.Configuration.ConfigurationManager.AppSettings["MaintenanceStartDate"].ToString());
+            DateTime MaintenanceEndDate = DateTime.Parse(System.Configuration.ConfigurationManager.AppSettings["MaintenanceEndDate"].ToString());
+            if ((CountryID == Location.USA) && DateTime.Compare(MaintenanceStartDate, DateTime.Now) < 0 &&  DateTime.Compare(MaintenanceEndDate, DateTime.Now) > 0)
+            {
+               
+                MyApplyLink.NavigateUrl = System.Configuration.ConfigurationManager.AppSettings["MaintenancePage"].ToString();
+            }
+            else
+            {
+                MyApplyLink.NavigateUrl = ApplyURL;
+                MyApplyLink.Target = "_blank";
+            }
 
             MyLabel = (Label)e.Row.FindControl("lblCheckBox");
             MyLabel.ID = "lblCheckBox" + e.Row.RowIndex;

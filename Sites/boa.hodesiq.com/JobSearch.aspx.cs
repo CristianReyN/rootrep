@@ -20,6 +20,19 @@ public partial class JobSearch : System.Web.UI.Page
     string BOAFeedName = "";
     protected void Page_Load(object sender, EventArgs e)
     {
+
+        DateTime MaintenanceStartDate = DateTime.Parse(System.Configuration.ConfigurationManager.AppSettings["MaintenanceStartDate"].ToString());
+        DateTime MaintenanceEndDate = DateTime.Parse(System.Configuration.ConfigurationManager.AppSettings["MaintenanceEndDate"].ToString());
+        if (DateTime.Compare(MaintenanceStartDate, DateTime.Now) < 0 && DateTime.Compare(MaintenanceEndDate, DateTime.Now) > 0)
+        {
+            ManageYourProfile.HRef = System.Configuration.ConfigurationManager.AppSettings["MaintenancePage"].ToString();
+        }
+        else
+        {
+            ManageYourProfile.HRef = "../overview/manage_your_profile.asp";
+            ManageYourProfile.Target = "_blank";
+        }
+             
         //init hidden location value
         Statehidden.Value = State.SelectedItem.Value.Trim();
         if (Statehidden.Value == "All Locations") Statehidden.Value = "-1";
@@ -661,7 +674,8 @@ public partial class JobSearch : System.Web.UI.Page
             PopulateJobFamily();
             ddlJobFamily.SelectedValue = "-1";
             InternationalCity.SelectedValue = "-1";   
-            keywords.Text = "";        
+            keywords.Text = "";
+           
         }
         else
         {
