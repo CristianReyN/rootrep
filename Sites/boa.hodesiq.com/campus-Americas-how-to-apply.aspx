@@ -15,8 +15,8 @@
 		<p>For positions in the U.S., you must create a profile via our online application system. Simply click the link below and follow the instructions to create your profile. You should also find out from your school's Career Services office what other application procedures are required for full-time and summer positions.</p>
 		<p><a class="button" id="ApplyUSA" runat="server"  title="Apply Link opens a new window."><span>Apply</span></a></p><br />
 		<br />
-		<h2 class="questions"
-                <a href="campus-Americas-how-to-apply.aspx.cs">campus-Americas-how-to-apply.aspx.cs</a>>Apply in Canada</h2>
+		<h2 class="questions">
+               Apply in Canada</h2>
 
 		<p>For positions in Canada, you must apply through our online application system. Simply click the link below and follow the instructions to apply and track the progress of your application.</p>
 		
