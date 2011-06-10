@@ -103,9 +103,9 @@ function changeCity()
 <p style="margin: 0px;">
 <% If taleo_upgrade Then %>
 For U.S. positions only:  due to site maintenance, you will be unable to apply for a position or create/update your profile from June&nbsp;30 through July&nbsp;4.
-<br>
+<br><br>
 You may continue to search for jobs, as well as navigate the site during this timeframe.  
-<br>
+<br><br>
 All functionality will return on July&nbsp;5.
 </p>
 <p style="margin: 12px 0px 3px 0px;">
