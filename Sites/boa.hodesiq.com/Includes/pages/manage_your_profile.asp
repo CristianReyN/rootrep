@@ -25,7 +25,7 @@ All functionality will return on July 5.
 <%
 Else
 	S_R_C = OVERVIEW_URL
-	If(InStr(Request.ServerVariables ("HTTP_REFERER"),"campusrecruiting/")) Then S_R_C = HOWTOAPPLY_URL
+	If(InStr(Request.ServerVariables ("HTTP_REFERER"),"campusrecruiting/") Or InStr(Request.ServerVariables ("HTTP_REFERER"),"campus-Americas-how-to-apply.aspx")) Then S_R_C = HOWTOAPPLY_URL
 %>
 <script language="javascript" type="text/javascript">
 //<!--
