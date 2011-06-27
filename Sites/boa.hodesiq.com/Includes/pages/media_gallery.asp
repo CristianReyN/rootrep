@@ -120,9 +120,9 @@ Select Case mg
 <%
 	Case "divinc"%>
 			<img class="dotdiv" style="margin: 0px 0px 12px 0px;" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
-			<!-- #include file="lob/diversity.asp" -->
+			<a href="<% If page_section <> "ADA" Then %>../learnmore/<% End If%>diversity_inclusion_video.asp" title="View the Diversity and Inclusion Film &gt;"><img src="../images/difilm.jpg" width="205" height="166" border="0" style="margin: 0px 0px 0px 0px;" alt="View the Diversity and Inclusion Film &gt;"></a>
 <%		If page_section <> "ADA" Then %>
-			<a href="#video" class="hlink">Diversity and Inclusion Video</a>
+			<a href="#video" class="hlink">Diversity and Inclusion Film</a>
 <%		End If%>
 			<img class="dotdiv" style="margin: 12px 0px 0px 0px;" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
 <%

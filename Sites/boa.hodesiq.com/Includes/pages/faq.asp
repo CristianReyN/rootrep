@@ -38,8 +38,8 @@
 	<li><a href="#q22" class="p" onfocus="this.className='p-over';" onblur="this.className='p';">What if my school isn&#39;t listed, can I attend any event?</a></li>
 	<li><a href="#q23" class="p" onfocus="this.className='p-over';" onblur="this.className='p';">Do I get one-on-one time with a Bank of America recruiter at events?</a></li>
 	<li><a href="#q24" class="p" onfocus="this.className='p-over';" onblur="this.className='p';">What if I missed an event at my school?</a></li>
-	<li><a href="#q25" class="p" onfocus="this.className='p-over';" onblur="this.className='p';">I don&#39;t remember my user name and/or passcode for my candidate profile. How do I obtain this information?</a></li>
-	<li><a href="#q26" class="p" onfocus="this.className='p-over';" onblur="this.className='p';">While attempting to apply, my computer froze and I was unable to complete my application.  What should I do?</a></li>
+	<li><a href="#q25" class="p" onfocus="this.className='p-over';" onblur="this.className='p';">I&#39;m interested in a position in the U.S. and don&#39;t remember my user name and/or passcode. How do I obtain this information?</a></li>
+	<li><a href="#q26" class="p" onfocus="this.className='p-over';" onblur="this.className='p';">My computer froze up while attempting to apply and I&#39;m unable to complete my application. What should I do?</a></li>
 </ul>
 <img src="../images/clear.gif" width="100%" height="1" alt="" border="0" style="margin-top: 0px;">
 <img src="../images/clear.gif" width="100%" height="1" alt="" border="0" style="background: #becede; margin-top: 0px;">
@@ -168,19 +168,19 @@
 <p style="margin: 12px 0px 6px 0px; text-align: right;"><a href="#qtop" class="p" onfocus="this.className='p-over';" onblur="this.className='p';" style="text-decoration: none;"><img src="../images/back_to_top.gif" width="7" height="4" alt="" border="0" align="top" hspace="4">Back to Top</a></p>
 
 <img src="../images/clear.gif" width="100%" height="1" alt="" border="0" style="background: #becede;">
-<a name="q25"></a><H2 class="p" style="margin: 9px 0px 6px 0px;"><b>I don't remember my user name and/or passcode for my candidate profile. How do I obtain this information?</b></H2>
+<a name="q25"></a><H2 class="p" style="margin: 9px 0px 6px 0px;"><b>I&#39;m interested in a position in the U.S. and don&#39;t remember my user name and/or passcode. How do I obtain this information?</b></H2>
 <p style="margin: 0px;">Follow the steps below:</p>
 	<ol>
-		<li style="padding-bottom: 3px;">Click the Job Search tab.</li>
-		<li style="padding-bottom: 3px;">Select the country in which you are seeking employment.</li>
-		<li style="padding-bottom: 3px;">Click the "Manage Your Profile" link at the bottom of the page.</li>
-		<li style="padding-bottom: 3px;">Select the "Forgot your user name?" or "Forgot your passcode?" link as needed and follow the steps provided.</li>
+		<li style="padding-bottom: 3px;">Select the Job Search tab.</li>
+		<li style="padding-bottom: 3px;">Select United States from the country dropdown menu.</li>
+		<li style="padding-bottom: 3px;">Select the Manage Your Profile link at the bottom of the page.</li>
+		<li style="padding-bottom: 3px;">Select the Forgot your user name? or Forgot your passcode? link as needed and follow the steps provided.</li>
 	</ol>
 <p style="margin: 12px 0px 6px 0px; text-align: right;"><a href="#qtop" class="p" onfocus="this.className='p-over';" onblur="this.className='p';" style="text-decoration: none;"><img src="../images/back_to_top.gif" width="7" height="4" alt="" border="0" align="top" hspace="4">Back to Top</a></p>
 
 <img src="../images/clear.gif" width="100%" height="1" alt="" border="0" style="background: #becede;">
-<a name="q26"></a><H2 class="p" style="margin: 9px 0px 6px 0px;"><b>While attempting to apply, my computer froze and I was unable to complete my application.  What should I do?</b></H2>
-<p style="margin: 0px;">This may be a result of too many programs running at the same time.  Close all of your internet web browser windows and any other applications you may have open. Then, restart your computer.</p>
+<a name="q26"></a><H2 class="p" style="margin: 9px 0px 6px 0px;"><b>My computer froze up while attempting to apply and I&#39;m unable to complete my application. What should I do?</b></H2>
+<p style="margin: 0px;">This may be the result of too many programs running at the same time.  We recommend you close all of your internet web browser windows and any other applications you may have open and restart your computer.</p>
 <p style="margin: 12px 0px 6px 0px; text-align: right;"><a href="#qtop" class="p" onfocus="this.className='p-over';" onblur="this.className='p';" style="text-decoration: none;"><img src="../images/back_to_top.gif" width="7" height="4" alt="" border="0" align="top" hspace="4">Back to Top</a></p>
 
 <img src="../images/clear.gif" width="100%" height="1" alt="" border="0" style="background: #becede;">

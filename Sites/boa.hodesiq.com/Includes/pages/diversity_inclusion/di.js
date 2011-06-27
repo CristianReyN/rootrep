@@ -138,15 +138,11 @@ if(!window.MM_swapImage)
 
 if(!window.preloadCC)
 {
-	function preloadCC()
-	{
-MM_preloadImages('../Includes/pages/buttons/01btn-over.gif','../Includes/pages/buttons/02btn-over.gif','../Includes/pages/buttons/03btn-over.gif','../Includes/pages/buttons/05btn-over.gif','../Includes/pages/buttons/06btn-over.gif');
-		if(window.preloadThumb) window.preloadThumb();
-	}
+	function preloadCC(){MM_preloadImages('../Includes/pages/buttons/01btn-over.gif','../Includes/pages/buttons/02btn-over.gif','../Includes/pages/buttons/03btn-over.gif','../Includes/pages/buttons/05btn-over.gif','../Includes/pages/buttons/06btn-over.gif','../images/video_on_faq.gif','../images/video_off_faq.gif');}
 }
 
 var reqFlashPlayer = '<a href="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash" title="This video requires Adobe Flash Player version '+requiredMajorVersion+'. Please download latest version." class="p" onfocus="this.className=\'p-over\';" onblur="this.className=\'p\';"><img src="../Includes/pages/college/thumbnails/';
-var reqFlashPlayer2 = '" width="320" height="240" alt="This video requires Adobe Flash Player version '+requiredMajorVersion+'. Please download latest version." border="0" \/><\/a>';
+var reqFlashPlayer2 = '" width="400" height="300" alt="This video requires Adobe Flash Player version '+requiredMajorVersion+'. Please download latest version." border="0" \/><\/a>';
 
 function getHTMLControl(objname,w,h,play,pause,stop,ada,mute,ccoc)
 {
@@ -206,6 +202,7 @@ function getHTMLControl(objname,w,h,play,pause,stop,ada,mute,ccoc)
 
 
 
+var videoplaying, action_script = false;
 function doPassVar(objname,args)
 {
 	var vo = eval("window.document."+objname);
@@ -213,25 +210,55 @@ function doPassVar(objname,args)
 	{
 		switch(objname)
 		{
+			case 'ansvideo':
+				//enableVideo();
+				//stopResponce();
+				var sendText = args;
+				vo.SetVariable("myVar", sendText);
+				switch(sendText)
+				{
+					case 'play':
+						//stopVideo("javaflash");
+						pauseVideo("javaflash");
+						createStopAudio('ansvideo');
+						videoplaying = 'ansvideo';
+					break;
+					case 'pause':
+						if(!videoplaying || videoplaying=='ansvideo') removeStopAudio();
+					break;
+					case 'stop':
+						if(!videoplaying || videoplaying=='ansvideo') removeStopAudio();
+					break;
+					case 'mute':
+						if(!videoplaying || videoplaying=='ansvideo') createStopAudio('ansvideo');
+					break;
+					case 'ccoc':
+						if(!videoplaying || videoplaying=='ansvideo') createStopAudio('ansvideo');
+					break;
+				}
+			break;
 			case 'javaflash':
 				var sendText = args;
 				vo.SetVariable("myVar", sendText);
 				switch(sendText)
 				{
 					case 'play':
+						//stopVideo("ansvideo");
+						pauseVideo("ansvideo");
 						createStopAudio('javaflash');
+						videoplaying = 'javaflash';
 					break;
 					case 'pause':
-						removeStopAudio();
+						if(!videoplaying || videoplaying=='javaflash') removeStopAudio();
 					break;
 					case 'stop':
-						removeStopAudio();
+						if(!videoplaying || videoplaying=='javaflash') removeStopAudio();
 					break;
 					case 'mute':
-						createStopAudio('javaflash');
+						if(!videoplaying || videoplaying=='javaflash') createStopAudio('javaflash');
 					break;
 					case 'ccoc':
-						createStopAudio('javaflash');
+						if(!videoplaying || videoplaying=='javaflash') createStopAudio('javaflash');
 					break;
 				}
 			break;
@@ -280,6 +307,7 @@ function removeStopAudio()
 			document.getElementById("stopaudio").style.display = "none";
 		}
 	}
+	videoplaying = null;
 }
 
 var mv, vthumb, vthumb_off;
@@ -290,19 +318,205 @@ function playVideo(video,play,pause,stop,ada,mute,ccoc)
 	if(!vthumb_off) vthumb_off=$x("videothumb_off");
 	if(video && mv && vthumb && vthumb_off)
 	{
-		mv.innerHTML = getVideo(video,320,240,"javaflash","") + strReplace(strReplace(strReplace(strReplace(getHTMLControl("javaflash",320,22,play,pause,stop,ada,mute,ccoc),"<text>","Video transcript"),"<title>","Video transcript"),"<href>",ada_href),"<anchor>",video.ada_anchor);
+		mv.innerHTML = getVideo(video,400,300,"javaflash","") + strReplace(strReplace(strReplace(strReplace(getHTMLControl("javaflash",400,22,play,pause,stop,ada,mute,ccoc),"<text>","Video transcript"),"<title>","Video transcript"),"<href>",ada_href),"<anchor>",video.ada_anchor);
 		mv.style.display = "inline";
 		vthumb.style.display = "none";
 		vthumb_off.style.display = "none";
-		createStopAudio('javaflash');
+		pauseVideo("ansvideo");//stopVideo("ansvideo");
+		if(action_script) createStopAudio('javaflash');
+		videoplaying = 'javaflash';
 	}
 }
+function disableVideo()
+{
+	if(!mv) mv=$x("mainvideo");
+	if(!vthumb) vthumb=$x("videothumb");
+	if(!vthumb_off) vthumb_off=$x("videothumb_off");
+	if(mv && vthumb && vthumb_off)
+	{
+		mv.innerHTML = "";
+		mv.style.display = "none";
+		vthumb.style.display = "none";
+		vthumb_off.style.display = "inline";
+		if(action_script) removeStopAudio();
+		videoplaying = null;
+	}
+}
+function enableVideo()
+{
+	if(!mv) mv=$x("mainvideo");
+	if(!vthumb) vthumb=$x("videothumb");
+	if(!vthumb_off) vthumb_off=$x("videothumb_off");
+	if(mv && vthumb && vthumb_off)
+	{
+		mv.innerHTML = "";
+		mv.style.display = "none";
+		vthumb.style.display = "inline";
+		vthumb_off.style.display = "none";
+		videoplaying = 'javaflash';
+	}
+}
+
+function stopVideo(objname)
+{
+	if(!mv) mv=$x("mainvideo");
+	var vo = eval("window.document."+objname);
+	if(vo && (objname != "javaflash" || mv.style.display == "inline"))
+	{
+		doPassVar(objname,"stop");
+		videoplaying = null;
+	}
+}
+
+function pauseVideo(objname)
+{
+	if(!mv) mv=$x("mainvideo");
+	var vo = eval("window.document."+objname);
+	if(vo && (objname != "javaflash" || mv.style.display == "inline"))
+	{
+		doPassVar(objname,"pause");
+		videoplaying = null;
+	}
+}
+
+var flashplayer = new fpvideo("../Includes/pages/rjp/flashplayer_xml20080308.swf",400,300);
 
 function fpvideo(swf_url,w,h)
 {
 	this.swf_url = swf_url;
 	this.w = w;
 	this.h = h;
+}
+
+var diversity_video;
+diversity_video = new fvideo(
+					flashplayer.swf_url,
+					"../Includes/pages/lob/xml/DIVERSITY_INCLUSION.xml",
+					flashplayer,
+					"#vt",
+					"../Includes/pages/diversity_inclusion/thumbnails/diversity_inclusion_on.jpg",
+					"../Includes/pages/diversity_inclusion/thumbnails/diversity_inclusion_off.jpg",
+					null,
+					null
+					);
+
+function getVideo(video,w,h,na_me,alt)
+{
+	var vi_deo = '<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0" width="'+w+'" height="'+h+'" id="'+na_me+'" align="middle">';
+	vi_deo += '<param name="wmode" value="transparent">';
+	vi_deo += '<param name="allowScriptAccess" value="sameDomain" />';
+	vi_deo += '<param name="movie" value="'+video.swf_url+'"  />';
+	if(video.flv_url)
+		vi_deo += '<param name="FlashVars" value="var1='+video.flv_url+(video.cc_video?'&var2='+video.cc_video.flv_url:'')+'" />';
+	vi_deo += '<param name="quality" value="high" />';
+	vi_deo += '<param name="loop" value="false" />';
+	vi_deo += '<param name="bgcolor" value="#ffffff" />';
+	vi_deo += '<embed src="'+video.swf_url+'" quality="high" bgcolor="#ffffff" width="'+w+'" height="'+h+'" alt="'+alt+'" name="'+na_me+'" align="middle" allowScriptAccess="sameDomain" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" wmode="transparent" swLiveConnect="true" loop="false"'+(video.flv_url?(' FlashVars="var1='+video.flv_url+(video.cc_video?'&var2='+video.cc_video.flv_url:'')+'"'):'')+'><\/embed>';
+	vi_deo += '<\/object>';
+	return vi_deo;
+}
+
+function getFAQVideo(video,w,h,na_me,alt)
+{
+	if(isIE) return getFAQIeVideo(video,w,h,na_me,alt);
+	else return getFAQFfVideo(video,w,h,na_me,alt);
+}
+function getFAQFfVideo(video,w,h,na_me,alt)
+{
+	var vi_deo = '<div style="width: '+w+'px; height: '+h+'px;"><object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0" width="'+(video.flv_url&&video.flashplayer?video.flashplayer.w:w)+'" height="'+(video.flv_url&&video.flashplayer?video.flashplayer.h:h)+'" id="'+na_me+'" align="middle">';
+	vi_deo += '<param name="wmode" value="transparent" />';
+	vi_deo += '<param name="allowScriptAccess" value="sameDomain" />';
+	vi_deo += '<param name="movie" value="'+video.swf_url+'"  />';
+	if(video.flv_url) vi_deo += '<param name="FlashVars" value="var1='+video.flv_url+'" />';
+	vi_deo += '<param name="quality" value="high" />';
+	vi_deo += '<param name="bgcolor" value="#ffffff" />';
+	vi_deo += '<param name="loop" value="false" />';
+	vi_deo += '<embed style="position: absolute; clip: rect('+h+'px, 0px, 0px, '+w+'px);" src="'+video.swf_url+'" quality="high" bgcolor="#ffffff" width="'+(video.flv_url&&video.flashplayer?video.flashplayer.w:w)+'" height="'+(video.flv_url&&video.flashplayer?video.flashplayer.h:h)+'" alt="'+alt+'" name="'+na_me+'" align="middle" allowScriptAccess="sameDomain" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer"'/*+' wmode="transparent"'*/+' swLiveConnect="true" loop="false"'+(video.flv_url?(' FlashVars="var1='+video.flv_url+'"'):'')+'><\/embed>';
+	vi_deo += '<\/object><\/div>';
+	return vi_deo;
+}
+function getFAQIeVideo(video,w,h,na_me,alt)
+{
+	var vi_deo = '<div style=" width: '+w+'px; height: '+h+'px;"><div style="position: absolute; width: '+w+'px; height: '+h+'px;"><object style="" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0" width="'+(video.flv_url&&video.flashplayer?video.flashplayer.w:w)+'" height="'+(video.flv_url&&video.flashplayer?video.flashplayer.h:h)+'" id="'+na_me+'" align="middle">';
+	vi_deo += '<param name="wmode" value="transparent" />';
+	vi_deo += '<param name="allowScriptAccess" value="sameDomain" />';
+	vi_deo += '<param name="movie" value="'+video.swf_url+'"  />';
+	if(video.flv_url) vi_deo += '<param name="FlashVars" value="var1='+video.flv_url+'" />';
+	vi_deo += '<param name="quality" value="high" />';
+	vi_deo += '<param name="bgcolor" value="#ffffff" />';
+	vi_deo += '<param name="loop" value="false" />';
+	vi_deo += '<embed style="position: absolute; clip: rect('+h+'px, 0px, 0px, '+w+'px);" src="'+video.swf_url+'" quality="high" bgcolor="#ffffff" width="'+(video.flv_url&&video.flashplayer?video.flashplayer.w:w)+'" height="'+(video.flv_url&&video.flashplayer?video.flashplayer.h:h)+'" alt="'+alt+'" name="'+na_me+'" align="middle" allowScriptAccess="sameDomain" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" wmode="transparent" swLiveConnect="true" loop="false"'+(video.flv_url?(' FlashVars="var1='+video.flv_url+'"'):'')+'><\/embed>';
+	vi_deo += '<\/object><\/div><\/div>';
+	return vi_deo;
+}
+
+var pa, pa_video, pa_img;
+function playResponce(s)
+{
+	var p=document.getElementById&&!document.all?s.parentNode:s.parentElement;
+	while(!p || p.className != "faqpa")
+	{
+		p=document.getElementById&&!document.all?p.parentNode:p.parentElement;
+	}
+	if(p){
+		if(!pa) pa=$x("panswer");
+		var pv = findChild(p,"span","auraltext");
+		var v = false;
+		var vo = false;
+		if(pv && pv.getElementsByTagName("br")[0] && pv.getElementsByTagName("br")[0].className)
+			if(vo=eval(pv.getElementsByTagName("br")[0].className)) v = getFAQVideo(vo,205,130,"ansvideo","");
+		if(pa && v)
+		{
+			if(pa_video) stopResponce();
+			pa_video = vo;
+			var pi = findChild(p,"img","pai");
+			if(pi) pa_img = pi;
+			if(pi) MM_swapImage(pi.name,"","../images/video_on_faq.gif",1);
+			pauseVideo("javaflash"); //stopVideo("javaflash");//disableVideo();
+			createStopAudio('ansvideo');
+			pa.innerHTML = v + strReplace(strReplace(strReplace(strReplace(getHTMLControl("ansvideo",205,22,true,true,true,true,true,false),"<text>","Video transcript"),"<title>","Video transcript"),"<href>",ada_href),"<anchor>",vo.ada_anchor);
+			videoplaying = 'ansvideo';
+		}
+	}
+}
+
+function stopResponce()
+{
+	if(!pa) pa=$x("panswer");
+	if(pa && pa_video)
+	{
+		pa.innerHTML = '<img style="margin: 0px;" src="'+pa_video.thumb_on+'" alt="" border="0" align="absmiddle">' + strReplace(strReplace(strReplace(strReplace(getHTMLControl("ansvideo",205,22,false,false,false,true,false,false),"<text>","Video transcript"),"<title>","Video transcript"),"<href>",ada_href),"<anchor>",pa_video.ada_anchor);
+	}
+	if(pa_img) MM_swapImage(pa_img.name,"","../images/video_off_faq.gif",1);
+	pa_video = null;
+	pa_img = null;
+}
+
+
+
+
+function vo_id(){}
+function findChild(s,tag,cls)
+{if(s){
+	var childs=document.getElementById&&!document.all?s.childNodes:s.all;
+	if(childs.length>0){
+		for (var i=0; i<childs.length; i++)
+		{	var ch;
+			if(childs[i].tagName && childs[i].tagName.toLowerCase() == tag && childs[i].className == cls) ch = childs[i];
+			else ch = findChild(childs[i],tag,cls);
+			if(ch) return ch;
+		}
+	return false;
+}return false;}return false;}
+function $x(pNd)
+{	try
+	{	var node;
+		switch(typeof (pNd)){
+			case 'string':node = document.getElementById(pNd); break;
+			case 'object':node = pNd; break;
+			default:node = false; break;}
+		return node;
+	} catch(e){return false;}
 }
 
 function fvideo(swf_url,flv_url,flashplayer,ada_anchor,thumb_on,thumb_off,main_video,cc_video)
@@ -323,64 +537,3 @@ function ccfvideo(swf_url,flv_url,flashplayer)
 	this.flv_url = flv_url;
 	this.flashplayer = flashplayer;
 }
-
-var flashplayer = new fpvideo("../Includes/pages/rjp/flashplayer_xml20080308.swf",320,240);
-
-var diversity_inclusion_video;
-diversity_inclusion_video = new fvideo(
-					flashplayer.swf_url,
-					"../Includes/pages/diversity_inclusion/DIVERSITY_INCLUSION.xml",
-					flashplayer,
-					"#vt",
-					"../Includes/pages/diversity_inclusion/thumbnails/diversity_inclusion_on.jpg",
-					"../Includes/pages/diversity_inclusion/thumbnails/diversity_inclusion_off.jpg",
-					null,
-					null
-					);
-
-
-function getVideo(video,w,h,na_me,alt)
-{
-	var vi_deo = '<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0" width="'+w+'" height="'+h+'" id="'+na_me+'" align="middle">';
-	vi_deo += '<param name="wmode" value="transparent">';
-	vi_deo += '<param name="allowScriptAccess" value="sameDomain" />';
-	vi_deo += '<param name="movie" value="'+video.swf_url+'"  />';
-	if(video.flv_url)
-		vi_deo += '<param name="FlashVars" value="var1='+video.flv_url+(video.cc_video?'&var2='+video.cc_video.flv_url:'')+'" />';
-	vi_deo += '<param name="quality" value="high" />';
-	//vi_deo += '<param name="loop" value="false" />';
-	vi_deo += '<param name="bgcolor" value="#ffffff" />';
-	vi_deo += '<embed src="'+video.swf_url+'" quality="high" bgcolor="#ffffff" width="'+w+'" height="'+h+'" alt="'+alt+'" name="'+na_me+'" align="middle" allowScriptAccess="sameDomain" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" wmode="transparent"'/*+'swLiveConnect="true" loop="false"'*/+(video.flv_url?(' FlashVars="var1='+video.flv_url+(video.cc_video?'&var2='+video.cc_video.flv_url:'')+'"'):'')+'><\/embed>';
-	vi_deo += '<\/object>';
-	return vi_deo;
-}
-
-
-
-
-
-function findChild(s,tag,cls)
-{if(s){
-	var childs=document.getElementById&&!document.all?s.childNodes:s.all;
-	if(childs.length>0){
-		for (var i=0; i<childs.length; i++)
-		{	var ch;
-			if(childs[i].tagName && childs[i].tagName.toLowerCase() == tag && childs[i].className == cls) ch = childs[i];
-			else ch = findChild(childs[i],tag,cls);
-			if(ch) return ch;
-		}
-	return false;
-}return false;}return false;}
-
-function $x(pNd)
-{	try
-	{	var node;
-		switch(typeof (pNd)){
-			case 'string':node = document.getElementById(pNd); break;
-			case 'object':node = pNd; break;
-			default:node = false; break;}
-		return node;
-	} catch(e){return false;}
-}
-
-function vo_id(){}

@@ -13,8 +13,8 @@
 			<tr valign="top">
 				<td width="100%" valign="top">
 <a name="skipmaincontent"></a><H1 class="hidden">Diversity and Inclusion</H1>
-<div style="float: left; width: <% If page_section = "ADA" Then %>357<% ElseIf page_section <> "ADA" Then %>299<%End If%>px;">
-<p style="margin: <% If page_section = "ADA" Then %>12<% Else %>0<%End If%>px <%=right_margin%>px 0px <%=left_margin_0%>px;">
+<div style="float: left; width: <% If page_section = "ADA" Then %>353<% ElseIf page_section <> "ADA" Then %>353<%End If%>px;">
+<p style="margin: <% If page_section = "ADA" Then %>0<% Else %>0<%End If%>px <%=right_margin%>px 0px <%=left_margin_0%>px;">
 Above all, we are about people. A philosophy of inclusion drives our organization every day and helps us win in a diverse, global marketplace.
 </p>
 <H2 class="p" style="margin: 12px 0px 0px 0px; padding: 0px;"><b>Diversity Organizations</b></H2>
@@ -38,20 +38,20 @@ If you have questions about an upcoming diversity recruiting event or need addit
 <br><br>
 </div>
 <% If page_section = "ADA" Then %>
-<div style="float: right; margin: 0px 0px 0px <%=right_margin_split%>px; padding: 0px; width: 201px;">
-	<!-- #include file="lob/diversity.asp" -->
+<div style="float: right; margin: 0px 0px 0px <%=right_margin_split%>px; padding: 0px; width: 205px;">
 <% ElseIf page_section <> "ADA" Then %>
-<div align="right" style="float: right; margin: 0px 0px 0px <%=right_margin_split%>px; padding: 0px; width: 259px;">
-	<!-- #include file="lob/diversity.asp" -->
-	<a href="#video" class="hlink">Diversity and Inclusion Video</a>
+<div align="right" style="float: right; margin: 0px 0px 0px <%=right_margin_split%>px; padding: 0px; width: 205px;">
+	<a href="#video" class="hlink">Diversity and Inclusion Film</a>
 <% End If  %>
-	<div style="width: 201px; text-align: left; border: 1px solid #e8e8e9; background: #ffffff; margin: 12px 0px 12px 0px; padding: 0px 0px 6px 0px;">
+	<a href="diversity_inclusion_video.asp" title="View the Diversity and Inclusion Film &gt;"><img src="../images/difilm.jpg" width="205" height="166" border="0" style="margin: 0px 0px 0px 0px;" alt="View the Diversity and Inclusion Film &gt;"></a>
+	
+	<div style="width:205px; text-align: left; border: 1px solid #e8e8e9; background: #ffffff; margin: 12px 0px 12px 0px; padding: 0px 0px 6px 0px;">
 		<H2 class="g" style="margin: 0px 0px 0px 0px;"><%=JOB_SEARCH_TITLE%></H2>
 		<img src="../images/clear.gif" width="100%" height="1" alt="" border="0" style="margin: 1px 0px 6px 0px; background: #e8e8e9;" align="top"><br clear="all">
 	<!-- #include file="../jobsearch.asp" -->
 	</div>
 
-	<div style="border: 1px solid #e8e8e9; margin: 12px 0px 12px 0px; padding: 0px 0px 6px 0px; width: 201px; text-align: left;">
+	<div style="border: 1px solid #e8e8e9; margin: 12px 0px 12px 0px; padding: 0px 0px 6px 0px; width: 205px; text-align: left;">
 		<H2 class="g" style="margin: 0px 0px 0px 0px;">Related Information</H2>
 		<img src="../images/clear.gif" width="100%" height="1" alt="" border="0" style="margin: 1px 0px 0px 0px; background: #e8e8e9;" align="top"><br clear="all">
 		<div  style="padding: 0px 5px 0px 4px;">
@@ -59,7 +59,7 @@ If you have questions about an upcoming diversity recruiting event or need addit
 		</div>					
 	</div>
 
-	<div style="width: 201px; text-align: center; margin: 0px; padding: 0px;">
+	<div style="width: 205px; text-align: center; margin: 0px; padding: 0px;">
 		<!-- #include file="../talkingatm.html" -->
 	</div>
 	<br><br>
