@@ -171,10 +171,10 @@
 <a name="q25"></a><H2 class="p" style="margin: 9px 0px 6px 0px;"><b>I&#39;m interested in a position in the U.S. and don&#39;t remember my user name and/or passcode. How do I obtain this information?</b></H2>
 <p style="margin: 0px;">Follow the steps below:</p>
 	<ol>
-		<li style="padding-bottom: 3px;">Select the Job Search tab.</li>
-		<li style="padding-bottom: 3px;">Select United States from the country dropdown menu.</li>
-		<li style="padding-bottom: 3px;">Select the Manage Your Profile link at the bottom of the page.</li>
-		<li style="padding-bottom: 3px;">Select the Forgot your user name? or Forgot your passcode? link as needed and follow the steps provided.</li>
+		<li style="padding-bottom: 3px;">Select the <b>Job Search</b> tab.</li>
+		<li style="padding-bottom: 3px;">Select <b>United States</b> from the country dropdown menu.</li>
+		<li style="padding-bottom: 3px;">Select the <b>Manage Your Profile</b> link at the bottom of the page.</li>
+		<li style="padding-bottom: 3px;">Select the <b>Forgot your user name?</b> or <b>Forgot your passcode?</b> link as needed and follow the steps provided.</li>
 	</ol>
 <p style="margin: 12px 0px 6px 0px; text-align: right;"><a href="#qtop" class="p" onfocus="this.className='p-over';" onblur="this.className='p';" style="text-decoration: none;"><img src="../images/back_to_top.gif" width="7" height="4" alt="" border="0" align="top" hspace="4">Back to Top</a></p>
 

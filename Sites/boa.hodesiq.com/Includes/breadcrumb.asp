@@ -52,7 +52,7 @@ Set page_titles  = Server.CreateObject("Scripting.Dictionary")
 	page_titles.add "corppartn", "Corporate Partnerships"
 	page_titles.add "diversity", "Diversity and Inclusion"
 	page_titles.add "bams", "Banc of America Merchant Services, LLC"
-	page_titles.add "diversity_video", "Global Diversity &amp; Inclusion Video"
+	page_titles.add "diversity_video", "Diversity &amp; Inclusion Film"
 	page_titles.add "factsheets", "Our Approach and History"
 	page_titles.add "flexibleworkarrangements", "Flexible Work Arrangements"
 	page_titles.add "globalloc", "Global Locations"

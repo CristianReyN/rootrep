@@ -4,13 +4,13 @@
 var ada_href = "<%=ada_href %>";
 action_script = true;
 if ( hasRequestedVersion && diversity_video ) {
-	document.write('<H2 class="hidden">Diversity and Inclusion Video<\/H2>');
+	document.write('<H2 class="hidden">Diversity and Inclusion film<\/H2>');
 	document.write('<div id="mainvideo" style="display: none;"><a name="video"></a>');
 	document.write(getVideo(diversity_video,400,300,"javaflash",""));
 	document.write(strReplace(strReplace(strReplace(strReplace(getHTMLControl("javaflash",400,22,true,true,true,true,true,true),"<text>","Video transcript"),"<title>","Video transcript"),"<href>",ada_href),"<anchor>",diversity_video.ada_anchor));
 	document.write('</div>');
 	document.write('<div id="videothumb">');
-	document.write('<a href="Javascript: vo_id();" onmouseover="MM_swapImage(\'dilstart\',\'\',\''+diversity_video.thumb_on+'\',1);" onmouseout="MM_swapImgRestore();" onclick="playVideo(diversity_video,true,true,true,true,true,true);" title="Play Diversity and Inclusion Video"><img name="dilstart" style="margin: 0px;" src="'+diversity_video.thumb_off+'" alt="Play Diversity and Inclusion Video" border="0" align="absmiddle"></a>');
+	document.write('<a href="Javascript: vo_id();" onmouseover="MM_swapImage(\'dilstart\',\'\',\''+diversity_video.thumb_on+'\',1);" onmouseout="MM_swapImgRestore();" onclick="playVideo(diversity_video,true,true,true,true,true,true);" title="The diversity of our employees enriches our company. View film &gt;"><div><img name="dilstart" style="margin: 0px;" src="'+diversity_video.thumb_off+'" alt="The diversity of our employees enriches our company. View film &gt;" border="0" align="absmiddle"></div></a>');
 	document.write(strReplace(strReplace(strReplace(strReplace(getHTMLControl("javaflash",400,22,false,false,false,true,false,false),"<text>","Video transcript"),"<title>","Video transcript"),"<href>",ada_href),"<anchor>",diversity_video.ada_anchor));
 	document.write('</div>');
 	document.write('<div id="videothumb_off" style="display: none;">');
@@ -22,7 +22,7 @@ if ( hasRequestedVersion && diversity_video ) {
 }
 </script>
 <noscript>
-<a name="video"></a><H2 class="hidden">Diversity and Inclusion Film</H2>
+<a name="video"></a><H2 class="hidden">Diversity and Inclusion film</H2>
 <object type="application/x-shockwave-flash"
 data="../Includes/pages/rjp/flashplayer_xml20080308.swf" width="400" height="300" id="javaflash" align="middle">
 	<param name="movie" value="../Includes/pages/rjp/flashplayer_xml20080308.swf"  />
@@ -64,8 +64,8 @@ Bank&nbsp;of&nbsp;America - creating opportunity, making a difference with emplo
 <br><br>
 Visit <a href="http://bankofamerica.com/diversity" class="p">bankofamerica.com/diversity</a> to learn more.
 <br><br>
-</p>
 <br>
 <a href="<%= standart_href%>" title="Return to standard page with video" class="p">Return to standard page with video</a>
+</p>
 </div>
 <% End If %>

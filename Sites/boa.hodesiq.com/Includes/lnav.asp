@@ -4,7 +4,7 @@
 		<li<%If mpage = "overview" Then %><%If spage = "" Then %> class="home" style="padding-bottom: 5px;"<%Else%><%End if %><%End if %>>
 <div><a class="g" href="../overview/overview.asp" title="Overview" onfocus="this.className='g-over';" onblur="this.className='g';">Overview</a></div>
 		</li>
-		<li id="jsearchli"<%If mpage = "jobsearch" Then %><%If spage = "" Then %> class="home"<%Else%><%End if %><%End if %>>
+		<li id="jsearchli"<%If mpage = "jobsearch" Or mpage = "locations" Then %><%If spage = "" Or (spage = "united_states" And tpage = "diversity_video") Then %> style="background: #eaf1f7;"<%Else%><%End if %><%End if %>>
 <div<%If mpage = "jobsearch" Then%> style="padding-right: 0px;"<%End If%>><a class="g" href="../jobsearch.aspx" title="Job Search" onfocus="this.className='g-over';" onblur="this.className='g';">Job Search</a>
 <%
 	If mpage = "jobsearch" Then
@@ -327,7 +327,7 @@
 				<li<% if spage = "emea" then Response.Write " style=""background: #eaf1f7;""" end if %>>
 <div><a href="/emea.aspx" class="sbtxt" title="Europe, Middle East and Africa" onfocus="this.className='sbtxt-over';" onblur="this.className='sbtxt';">Europe, Middle East<br>and Africa</a></div>
 				</li>
-				<li<% if spage = "united_states" then Response.Write " style=""background: #eaf1f7;""" end if %>>
+				<li<% if spage = "united_states" And tpage <> "diversity_video" then Response.Write " style=""background: #eaf1f7;""" end if %>>
 <div><a href="../learnmore/learnmore.asp" class="sbtxt" title="United States" onfocus="this.className='sbtxt-over';" onblur="this.className='sbtxt';">United States</a></div>
 				</li>
 			</ul>
