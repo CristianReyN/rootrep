@@ -1401,3 +1401,20 @@ table#chelp p, ul
 	position: relative;
 	top: -2px;
 }
+
+a.ha div.adiv
+{
+	position: absolute;
+}
+a.ha div.rdiv
+{
+	display: block;
+	position: relative;
+	left: -2px;
+	top: -2px; 
+	border: 2px solid transparent;
+}
+a.ha div.rhdiv
+{
+	border: 2px solid #f1ca7f;/*border: 2px solid #c49d51;*/
+}

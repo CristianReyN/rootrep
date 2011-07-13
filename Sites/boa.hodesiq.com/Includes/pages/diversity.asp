@@ -43,7 +43,7 @@ If you have questions about an upcoming diversity recruiting event or need addit
 <div align="right" style="float: right; margin: 0px 0px 0px <%=right_margin_split%>px; padding: 0px; width: 205px;">
 	<a href="#video" class="hlink">Diversity and Inclusion Film</a>
 <% End If  %>
-	<a href="diversity_inclusion_video.asp" title="Diversity &amp; Inclusion film. The diversity of our employees enriches our company. View film &gt;"><div><img src="../images/difilm.jpg" width="205" height="166" border="0" style="margin: 0px 0px 0px 0px;" alt="Diversity &amp; Inclusion film. The diversity of our employees enriches our company. View film &gt;"></div></a>
+	<a href="diversity_inclusion_video.asp" title="Diversity &amp; Inclusion film. The diversity of our employees enriches our company. View film &gt;" class="ha"><div><img src="../images/difilm.jpg" width="205" height="166" border="0" style="margin: 0px 0px 0px 0px;" alt="Diversity &amp; Inclusion film. The diversity of our employees enriches our company. View film &gt;"></div></a>
 	
 	<div style="width:205px; text-align: left; border: 1px solid #e8e8e9; background: #ffffff; margin: 12px 0px 12px 0px; padding: 0px 0px 6px 0px;">
 		<H2 class="g" style="margin: 0px 0px 0px 0px;"><%=JOB_SEARCH_TITLE%></H2>

@@ -58,7 +58,7 @@ function city_help(e)
 		else if (e.clientX || e.clientY) { x = e.clientX + document.body.scrollLeft + document.documentElement.scrollLeft; y = e.clientY + document.body.scrollTop + document.documentElement.scrollTop; }
 	}
 	var w = 625, h = 346;
-	if( ( he_lp = $("help") ) && ( ihe_lp = $("ihelp") ) )
+	if( ( he_lp = $_("help") ) && ( ihe_lp = $_("ihelp") ) )
 	{
 		if ( he_lp.style.display == "block" )
 		{
@@ -106,8 +106,8 @@ function startPs()
 		}
 	}
 	
-	if ( $("lmh") ) addListener( $("lmh"), "click", function(e){ help_popup(625,346); /*city_help(e);*/ } );
-	if ( $("hdh") ) addListener( $("hdh"), "click", function(e){ help_popup(625,346); /*city_help(e);*/ } );
+	if ( $_("lmh") ) addListener( $_("lmh"), "click", function(e){ help_popup(625,346); /*city_help(e);*/ } );
+	if ( $_("hdh") ) addListener( $_("hdh"), "click", function(e){ help_popup(625,346); /*city_help(e);*/ } );
 	
 	if ( document.jsearch && document.jsearch.countryid )
 	{
@@ -124,38 +124,38 @@ function startPs()
 	
 	if(document.getElementById("jsearch"))
 	{
-		$("jsearch").style.top = $("jsearchli").offsetTop-1;
-		$("jsearch").style.visibility = "visible";
+		$_("jsearch").style.top = $_("jsearchli").offsetTop-1;
+		$_("jsearch").style.visibility = "visible";
 	}
 	if(document.getElementById("jaaot"))
 	{
-		$("jaaot").style.top = $("areasoftalentli").offsetTop-1;
-		$("jaaot").style.visibility = "visible";
+		$_("jaaot").style.top = $_("areasoftalentli").offsetTop-1;
+		$_("jaaot").style.visibility = "visible";
 	}
-	if($("lob"))
+	if($_("lob"))
 	{
-		$("lob").style.top = $("lobli").offsetTop-1;
-		$("lob").style.visibility = "visible";
+		$_("lob").style.top = $_("lobli").offsetTop-1;
+		$_("lob").style.visibility = "visible";
 	}
-	if($("camp"))
+	if($_("camp"))
 	{
-		$("camp").style.top = $("campli").offsetTop-1;
-		$("camp").style.visibility = "visible";
+		$_("camp").style.top = $_("campli").offsetTop-1;
+		$_("camp").style.visibility = "visible";
 	}
-	if($("loc"))
+	if($_("loc"))
 	{
-		$("loc").style.top = $("locli").offsetTop-1;
-		$("loc").style.visibility = "visible";
+		$_("loc").style.top = $_("locli").offsetTop-1;
+		$_("loc").style.visibility = "visible";
 	}
-	if($("relinfo"))
+	if($_("relinfo"))
 	{
-		$("relinfo").style.top = $("learnmoreli").offsetTop-1;
-		$("relinfo").style.visibility = "visible";
+		$_("relinfo").style.top = $_("learnmoreli").offsetTop-1;
+		$_("relinfo").style.visibility = "visible";
 	}
-	if($("glc"))
+	if($_("glc"))
 	{
-		$("glc").style.top = $("globalli").offsetTop-1;
-		$("glc").style.visibility = "visible";
+		$_("glc").style.top = $_("globalli").offsetTop-1;
+		$_("glc").style.visibility = "visible";
 	}
 	
 	if(window.preloadCC) preloadCC();
@@ -188,8 +188,8 @@ function startPs()
 		}
 	}
 	
-if($("lnav")){
-	var elements = $("lnav").getElementsByTagName("li");
+if($_("lnav")){
+	var elements = $_("lnav").getElementsByTagName("li");
 	for (var i=0; i<elements.length; i++)
 	{
 		/*elements[i].onfocus=function() {
@@ -287,7 +287,7 @@ if ( !window.getCookie )
 	}
 }
 
-function $(pNd)
+function $_(pNd)
 {
 	try
 	{

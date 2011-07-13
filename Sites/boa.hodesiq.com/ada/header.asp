@@ -10,6 +10,8 @@
 <script language="JavaScript1.2" src="../includes/masthead.js" type="text/javascript"></script>
 <script language="JavaScript1.2" src="../includes/mvc-fontsize.js" type="text/javascript"></script>
 <script language="JavaScript1.2" src="../includes/ps.js" type="text/javascript"></script>
+<script language="JavaScript" src="../includes/jquery-1.6.2.min.js" type="text/javascript"></script>
+<!--[if IE]><script language="JavaScript" src="../includes/ha.js" type="text/javascript"></script><![endif]-->
 <script language="JavaScript1.2" type="text/javascript">
 //<!--
 function popup(imnam) { 

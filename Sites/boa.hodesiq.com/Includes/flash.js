@@ -216,17 +216,17 @@ function rotate_img(args)
 	{
 		clearTimeout(img_timeout);
 		img_timeout = null;
-		$("idvi").style.display = "none";
-		$("foot").style.paddingTop = "12px";
+		$_("idvi").style.display = "none";
+		$_("foot").style.paddingTop = "12px";
 		createStopAudio();
 	}
 }
 function set_img()
 {
 	if ( !current_img || current_img > imgs.length - 1 ) current_img = 0;
-	$("idvi").src = imgs[current_img];
-	$("idvi").style.display = "block";
-	$("foot").style.paddingTop = "125px";
+	$_("idvi").src = imgs[current_img];
+	$_("idvi").style.display = "block";
+	$_("foot").style.paddingTop = "125px";
 	current_img++;
 	rotated++;
 	delay = 0;
