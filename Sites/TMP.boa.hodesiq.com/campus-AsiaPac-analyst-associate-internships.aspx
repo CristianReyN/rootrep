@@ -8,6 +8,8 @@
                 <div id="article"> 
                   <h1>Analyst &amp; Associate Internship Programs</h1>
         
+                    <p class="back-to-previous"><a href="campus-AsiaPac-internships.aspx">Back to previous page</a></p>
+                    
                   <h2 class="questions">Global Banking and Markets</h2>
                   <ul>
                     <li><a href="campusrecruiting/asiain-global-investment-banking-summer-analyst-program.asp">Global 
@@ -20,6 +22,7 @@
                       Research Summer Analyst Program</a></li>
                     <li><a href="campusrecruiting/asiain-global-corporate-banking-summer-analyst-program.asp">Global 
                       Corporate Banking Summer Analyst Program</a></li>
+                       <li><a href="campusrecruiting/asiain-global-treasury-services-summer-analyst-program.asp">Global Treasury Services Summer Analyst Program</a></li>
                     <li><a href="campusrecruiting/asiais-global-investment-banking-summer-associate-program.asp">Global 
                       Investment Banking Summer Associate Program</a></li>
                     <li><a href="campusrecruiting/asiais-global-capital-markets-summer-associate-program.asp">Global 
@@ -29,22 +32,13 @@
                     <li><a href="campusrecruiting/asiais-global-research-summer-associate-program.asp">Global 
                       Research Summer Associate Program</a></li>
                   </ul>
-                  <h2 class="questions">Global Commercial Banking</h2>
-                  <ul>
-                    <li><a href="campusrecruiting/asiain-global-corporate-financial-institutions-treasury-summer-analyst-program.asp">Global 
-                      Corporate and Financial Institutions Treasury Summer Analyst 
-                      Program</a></li>
-                  </ul>
+                  
                   <h2 class="questions">Global Technology and Operations</h2>
                   <ul>
-                    <li><a href="campusrecruiting/asiain-technology-analyst-industrial-placement-program.asp">Technology 
-                      Analyst Industrial Placement Program</a></li>
-                    <li><a href="campusrecruiting/asiain-enterprise-technology-delivery-summer-analyst-program.asp">Enterprise 
-                      Technology and Delivery Summer Analyst Program</a></li>
-                    <li><a href="campusrecruiting/asiain-global-markets-operations-middle-office-summer-analyst-program.asp">Global 
-                      Markets Operations/Middle Office Summer Analyst Program</a></li>
-                    <li><a href="campusrecruiting/asiain-technology-summer-analyst-program.asp">Technology 
-                      Summer Analyst Program</a></li>
+                    <li><a href="campusrecruiting/asiain-technology-infrastructure-summer-analyst-program.asp">Technology Infrastructure Summer Analyst Program</a></li>
+                    <li><a href="campusrecruiting/asiain-operations-summer-analyst-program.asp">Operations Summer Analyst Program</a></li>
+                    <li><a href="campusrecruiting/asiain-technology-developer-analyst-internship-program.asp">Technology Developer and Analyst Internship Program</a></li>
+              
                   </ul> 
                   <h2 class="questions">Global Wealth and Investment Management</h2>
                   <ul>
@@ -52,18 +46,32 @@
                       Lynch Wealth Management Summer Analyst Program</a></li>
                   </ul>
                 </div>
-                <div id="aside"> 
-                  <a href="campusrecruiting/career_fit_tool.asp"><img src="images/campus/btn-careerfinder.jpg" width="179" height="66" alt="Career Finder: Come as you are. We've got a career to fit." /></a> 
-                  <a href="CampusEvents.aspx?region=3"><img src="images/campus/btn-campus-events.jpg" width="179" height="66" alt="Campus Events: Let's meet soon." /></a> 
-                  <a href="campus-AsiaPac-meet-our-people.aspx"><img src="images/campus/btn-our-people.jpg" width="179" height="66" alt="Our People: See and hear who's making a difference and how." /></a> 
-                  <h2>Related Links:</h2>
-				  <ul>
-                    <li><a href="campus-AsiaPac-analyst-programs.aspx">Analyst 
+                <div id="aside">
+				 <a href="campus-find-your-fit.aspx"><img src="images/campus/btn-careerfinder.jpg" width="179" height="76" alt="Find Your fit: Come as you are. We've got a career to fit." /></a> 
+                  <a href="CampusEvents.aspx?region=3"><img src="images/campus/btn-campus-events.jpg" width="179" height="76" alt="Campus Events: Let's meet soon." /></a> 
+                  <a href="campus-AsiaPac-meet-our-people.aspx"><img src="images/campus/btn-our-people.jpg" width="179" height="76" alt="Our People: See and hear who's making a difference and how." /></a> 
+				  <div class="related-links">
+					  <h2>Related Links:</h2>
+					  <ul>
+						 <li><a href="campus-AsiaPac-analyst-programs.aspx">Asia Pacific analyst 
                       programs</a></li>
-                    <li><a href="campus-AsiaPac-associate-and-phd-programs.aspx">Associate 
+                    <li><a href="campus-AsiaPac-associate-and-phd-programs.aspx">Asia Pacific associate 
                       &amp; PhD programs</a></li>
-                  </ul>
+					  </ul>
+				  </div>
+				  <a href="http://twitter.com/#!/BofA_Careers" target="_blank"><img src="images/campus/btn-connect-twitter.jpg" width="179" height="64" alt="Stay Connected to Careers on Twitter" /></a> 
+				  
+				  <div class="shared-links">
+				  	<h2>Shared this page:</h2>
+				  
+					 <ul>
+					  <li id="linkedin"><a href="http://www.linkedin.com/shareArticle?mini=true&amp;url=<%=Request.Url.ToString().ToLower()%>" target="_blank">LinkedIn</a></li>
+					  <li id="facebook"><a href="http://www.facebook.com/sharer/sharer.php?u=<%=Request.Url.ToString().ToLower()%>" target="_blank">Facebook</a></li>
+					  <li id="twitter"><a href="http://twitter.com/intent/tweet?source=webclient&amp;text=<%=Request.Url.ToString().ToLower()%>" target="_blank">Twitter</a></li>
+					  </ul>
+				  </div>
                 </div>
+                   
                 <div id="red-footer"> 
                   <p>Set opportunity in motion.</p>
                 </div>
