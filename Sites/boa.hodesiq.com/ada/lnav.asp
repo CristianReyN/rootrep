@@ -265,7 +265,7 @@
 				</li>
 <%	If ( mpage = "camp" And spage = "campus-emea" ) Or HiProgram("EMEA") Then %>
 				<li class="tertiary"<% if ( tpage = "emea-opportunities" And fpage = "" ) Or HiProgram("EMEA") then Response.Write " style=""background: #eaf1f7;""" end if %>>
-<div><a href="../campus-EMEA-opportunities.aspx" class="sbtxt" title="Opportunities" onfocus="this.className='sbtxt-over';" onblur="this.className='sbtxt';">Opportunities</a></div>
+<div><a href="../campus-EMEA-opportunities.aspx" class="sbtxt" title="Explore Opportunities" onfocus="this.className='sbtxt-over';" onblur="this.className='sbtxt';">Explore Opportunities</a></div>
 				</li>
 				<li class="tertiary"<% if tpage = "emea-our-culture" And fpage = "" then Response.Write " style=""background: #eaf1f7;""" end if %>>
 <div><a href="../campus-EMEA-our-culture.aspx" class="sbtxt" title="Our Culture" onfocus="this.className='sbtxt-over';" onblur="this.className='sbtxt';">Our Culture</a></div>
@@ -307,10 +307,13 @@
 				</li>
 <%	End If %>
 				<li<% if spage = "career_fit_tool" then Response.Write " style=""background: #eaf1f7;""" end if %>>
-<div><a href="../ada_camp/career_fit_tool.asp" class="sbtxt" title="Career Finder" onfocus="this.className='sbtxt-over';" onblur="this.className='sbtxt';">Career Finder</a></div>
+<div><a href="../campus-find-your-fit.aspx" class="sbtxt" title="Find Your Fit" onfocus="this.className='sbtxt-over';" onblur="this.className='sbtxt';">Find Your Fit</a></div>
 				</li>
 				<li<% if spage = "campus_events" And tpage = "" then Response.Write " style=""background: #eaf1f7;""" end if %>>
 <div><a href="../CampusEvents.aspx" class="sbtxt" title="Campus Events" onfocus="this.className='sbtxt-over';" onblur="this.className='sbtxt';">Campus Events</a></div>
+				</li>
+				<li<% if spage = "video_library" And tpage = "" then Response.Write " style=""background: #eaf1f7;""" end if %>>
+<div><a href="../campus-video-library.aspx" class="sbtxt" title="Video Library" onfocus="this.className='sbtxt-over';" onblur="this.className='sbtxt';">Video Library</a></div>
 				</li>
 			</ul>
 <%
