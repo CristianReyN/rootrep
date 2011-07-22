@@ -1,0 +1,12 @@
+﻿<VideoSourceSettings>
+	<video 
+		src="http://hodesgroup.http.internapcdn.net/hodesgroup_vitalstream_com/BOA/opportunity/Kevin_Perry_v006.flv"
+		poster="poster.png"
+	>
+		<itext
+			category="CC"
+			lang="en"
+			src="Kevin_Perry.xml"
+		/>
+	</video>
+</VideoSourceSettings>

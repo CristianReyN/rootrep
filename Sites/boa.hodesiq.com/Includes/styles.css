@@ -862,7 +862,7 @@ DIV#lnav
     top: 0px;
     left: 0px;
     width: 160px;
-    z-index: 1000000;
+    z-index: 1000;
     background: Silver;
     text-align: left;
 }
@@ -915,7 +915,7 @@ DIV#lnav li:hover ul, DIV#lnav li.fover ul
 {
     left: 155px;
     margin: 0px;
-    z-index: 1000001;
+    z-index: 1001;
 }
 DIV#lnav li:hover ul#jaaot, DIV#lnav li.fover ul#jaaot
 {
@@ -1366,7 +1366,7 @@ TABLE#cntr LI
 	height : 0px;
 	left : -10000px;
 	top : -10000px;
-	z-index : 100000000000;
+	z-index : 1002;
 	border : 1px solid #000000;
 }
 table#chelp h1
@@ -1695,4 +1695,213 @@ a.proimg
 img.proimg
 {
 	margin: 0px 0px 0px 0px;
+}
+
+
+
+#simplemodal-overlay {background-color: #fff; cursor: wait;}
+#simplemodal-container {height: auto; width: 507px; color: #333333; background-color: transparent; border: none; padding: 0px; overflow: visible;}
+#simplemodal-container .simplemodal-data {padding: 0px;}
+
+#simplemodal-container a.modalCloseImg {background:url(../img/basic/x.png) no-repeat; width:25px; height:29px; display:inline; z-index:3200; position:absolute; top:-15px; right:-16px; cursor:pointer;}
+
+#modal-dialog
+{
+	/*position: fixed;
+	left: 160px;
+	top: 99px;*/
+	display: none;
+	width: 507px;
+	background: #888888 url(../images/layout/vtl.gif) no-repeat top left;
+	z-index: 1020;
+}
+#modal-dialog .w1
+{
+	background: url(../images/layout/vtr.gif) no-repeat top right;
+}
+#modal-dialog .w2
+{
+	background: url(../images/layout/vbl.gif) no-repeat bottom left;
+}
+#modal-dialog .w3
+{
+	background: url(../images/layout/vbr.gif) no-repeat bottom right;
+	padding: 6px 6px 6px 6px;
+}
+#modal-dialog #mdvideo
+{
+	display: none;
+	width: 495px;
+	height: 388px;
+	margin: 0px 0px 0px 0px;
+}
+
+#mdvideo .mdv-top
+{
+	display: block;
+	width: 495px;
+	height: 59px;
+}
+#mdvideo .mdv-head
+{
+	float: left;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+#mdvideo .mdv-head h3,
+#mdvideo .mdv-head p
+{
+	color: #fff;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	line-height: 16px;
+	font-weight: bold;
+	margin: 0px;
+	padding: 0px;
+}
+#mdvideo .mdv-head p
+{
+	margin-top: 3px;
+	font-size: 10px;
+	line-height: 12px;
+}
+#mdvideo .mdv-info
+{
+	float: right;
+	margin-top: 10px;
+	margin-right: 10px;
+	text-align: right;
+}
+#mdvideo .mdv-close
+{
+	float: right;
+	margin-top: 0px;
+	margin-right: 0px;
+}
+#mdvideo .mdv-close a
+{
+	float: right;
+}
+#mdvideo .mdv-title
+{
+	float: right;
+	margin-top: 3px;
+	margin-right: 0px;
+}
+#mdvideo .mdv-title p
+{
+	margin-top: 3px;
+	color: #fff;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 11px;
+	line-height: 12px;
+	float: right;
+}
+#mdvideo .mdv-close a
+{
+	display: block;
+	width: 18px;
+	height: 18px;
+	background: url(../images/buttons/close.gif) no-repeat top left;
+}
+#mdvideo .mdv-content
+{
+	width: 495px;
+	height: 305px;
+	background-color: #ffffff;
+}
+#mdvideo .mdv-bottom
+{
+	margin-top: 7px;
+	text-align: center;
+}
+#mdvideo .mdv-bottom a,
+#mdvideo .mdv-bottom a:link,
+#mdvideo .mdv-bottom a:active,
+#mdvideo .mdv-bottom a:hover
+{
+	font-size: 12px;
+	line-height: 12px;
+	color: #fff;
+	text-decoration: none;
+}
+#mdvideo .mdv-bottom a:hover
+{
+	text-decoration: underline;
+}
+.clearall{float: none; clear: both;}
+
+
+
+#modal-dialog #mdtrans
+{
+	display: none;
+	width: 688px;
+	margin: 0px 0px 0px 0px;
+}
+#mdtrans .mdv-top
+{
+	display: block;
+	width: 100%;/*width: 688px;*/
+	height: 24px;
+	background-color: #D40019;
+}
+#mdtrans .mdv-head
+{
+	float: left;
+	margin-top: 4px;
+	margin-left: 10px;
+}
+#mdtrans .mdv-head p
+{
+	color: #fff;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 14px;
+	font-weight: bold;
+	margin: 0px;
+	padding: 0px;
+}
+#mdtrans .mdv-close
+{
+	float: right;
+	margin-top: 5px;
+	margin-right: 10px;
+}
+#mdtrans .mdv-close a,
+#mdtrans .mdv-close a:link,
+#mdtrans .mdv-close a:active,
+#mdtrans .mdv-close a:hover
+{
+	font-size: 10px;
+	font-weight: bold;
+	line-height: 12px;
+	color: #fff;
+	text-decoration: none;
+}
+#mdtrans .mdv-close a:hover
+{
+	text-decoration: underline;
+}
+#mdtrans .mdv-line
+{
+	display: block;
+	width: 100%;
+	height: 6px;
+	padding: 0px;
+	font-size: 0px;
+	background-color: #cbcbcb;
+}
+#mdtrans .mdv-content
+{
+	width: 95%;/*width: 664px;*/
+	height: auto;
+	padding: 12px;
+	background-color: #ffffff;
+	color: #333333;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 16px;
+	font-weight: normal;
 }

@@ -1,3 +1,4 @@
+<!-- #include file="video_profiles.asp" -->
 <%
 Function profile (program)
 	
@@ -12,8 +13,10 @@ Function profile (program)
 			"usfs-human-resources-development-program.asp" _
 		)) Then
 %>
-<img src="../Includes/video/thumb/anton_vt_180.jpg" alt="Anton Doss" width="180" height="120" border="0">
-<div class="vwrap"><a href="">View transcript</a></div>
+<a href="" class="md-video"><img src="../campusrecruiting/video/thumb/anton_vt_180.jpg" alt="Anton Doss" width="180" height="120" border="0"></a>
+<% Set video_profile = video_profiles.Item("Anton") %>
+<div class="vwrap"><a href="<%=video_profile.Item("popup")%>" class="md-trans" title="<%=video_profile.Item("name")%>, <%=video_profile.Item("videoname")%>">View transcript</a></div>
+<!-- #include file="modal_dialog.asp" -->
 <%
 	ElseIf InArray(program.Item("url"), Array( _
 			"usfn-finance-management-associate-program.asp", _
@@ -106,8 +109,10 @@ Guan VIDEO
 			"usis-global-markets-sales-trading-summer-associate-program.asp" _
 		)) Then
 %>
-<img src="../Includes/video/thumb/howard_vt_180.jpg" alt="Howard Levine" width="180" height="120" border="0">
-<div class="vwrap"><a href="">View transcript</a></div>
+<a href="" class="md-video"><img src="../campusrecruiting/video/thumb/howard_vt_180.jpg" alt="Howard Levine" width="180" height="120" border="0"></a>
+<% Set video_profile = video_profiles.Item("Howard") %>
+<div class="vwrap"><a href="<%=video_profile.Item("popup")%>" class="md-trans" title="<%=video_profile.Item("name")%>, <%=video_profile.Item("videoname")%>">View transcript</a></div>
+<!-- #include file="modal_dialog.asp" -->
 <%
 	ElseIf InArray(program.Item("url"), Array( _
 			"emeafs-global-markets-quantitative-analytics-associate-programme.asp", _
@@ -120,8 +125,10 @@ Guan VIDEO
 			"usin-applied-technology-program.asp" _
 		)) Then
 %>
-<img src="../Includes/video/thumb/jarrod_vt_180.jpg" alt="Jarrod Schulze" width="180" height="120" border="0">
-<div class="vwrap"><a href="">View transcript</a></div>
+<a href="" class="md-video"><img src="../campusrecruiting/video/thumb/jarrod_vt_180.jpg" alt="Jarrod Schulze" width="180" height="120" border="0"></a>
+<% Set video_profile = video_profiles.Item("Jarrod") %>
+<div class="vwrap"><a href="<%=video_profile.Item("popup")%>" class="md-trans" title="<%=video_profile.Item("name")%>, <%=video_profile.Item("videoname")%>">View transcript</a></div>
+<!-- #include file="modal_dialog.asp" -->
 <%
 	ElseIf InArray(program.Item("url"), Array( _
 			"usfn-global-wealth-investment-management-analyst-program.asp", _
@@ -151,8 +158,10 @@ Guan VIDEO
 			"usin-global-markets-sales-trading-summer-analyst-program.asp" _
 		)) Then
 %>
-<img src="../Includes/video/thumb/kaitlyn_vt_180.jpg" alt="Kaitlyn Busler" width="180" height="120" border="0">
-<div class="vwrap"><a href="">View transcript</a></div>
+<a href="" class="md-video"><img src="../campusrecruiting/video/thumb/kaitlyn_vt_180.jpg" alt="Kaitlyn Busler" width="180" height="120" border="0"></a>
+<% Set video_profile = video_profiles.Item("Kaitlyn") %>
+<div class="vwrap"><a href="<%=video_profile.Item("popup")%>" class="md-trans" title="<%=video_profile.Item("name")%>, <%=video_profile.Item("videoname")%>">View transcript</a></div>
+<!-- #include file="modal_dialog.asp" -->
 <%
 	ElseIf InArray(program.Item("url"), Array( _
 			"emeafn-global-markets-analyst-programme.asp", _
@@ -166,8 +175,10 @@ Guan VIDEO
 			"usis-consumer-small-business-banking-mba-intern-program.asp" _
 		)) Then
 %>
-<img src="../Includes/video/thumb/kevin_vt_180.jpg" alt="Kevin Perry" width="180" height="120" border="0">
-<div class="vwrap"><a href="">View transcript</a></div>
+<a href="" class="md-video"><img src="../campusrecruiting/video/thumb/kevin_vt_180.jpg" alt="Kevin Perry" width="180" height="120" border="0"></a>
+<% Set video_profile = video_profiles.Item("Kevin") %>
+<div class="vwrap"><a href="<%=video_profile.Item("popup")%>" class="md-trans" title="<%=video_profile.Item("name")%>, <%=video_profile.Item("videoname")%>">View transcript</a></div>
+<!-- #include file="modal_dialog.asp" -->
 <%
 	ElseIf InArray(program.Item("url"), Array( _
 			"usfn-corporate-audit-management-program.asp", _
@@ -181,8 +192,10 @@ Guan VIDEO
 			"asiain-global-treasury-services-summer-analyst-program.asp" _
 		)) Then
 %>
-<img src="../Includes/video/thumb/leonard_vt_180.jpg" alt="Leonard Lam" width="180" height="120" border="0">
-<div class="vwrap"><a href="">View transcript</a></div>
+<a href="" class="md-video"><img src="../campusrecruiting/video/thumb/leonard_vt_180.jpg" alt="Leonard Lam" width="180" height="120" border="0"></a>
+<% Set video_profile = video_profiles.Item("Leonard") %>
+<div class="vwrap"><a href="<%=video_profile.Item("popup")%>" class="md-trans" title="<%=video_profile.Item("name")%>, <%=video_profile.Item("videoname")%>">View transcript</a></div>
+<!-- #include file="modal_dialog.asp" -->
 <%
 	ElseIf InArray(program.Item("url"), Array( _
 			"asiain-global-markets-sales-trading-summer-analyst-program.asp" _
@@ -340,16 +353,20 @@ Guan VIDEO
 			"asiais-global-markets-sales-trading-summer-associate-program.asp" _
 		)) Then
 %>
-<img src="../Includes/video/thumb/narinder_vt_180.jpg" alt="Narinder Puri" width="180" height="120" border="0">
-<div class="vwrap"><a href="">View transcript</a></div>
+<a href="" class="md-video"><img src="../campusrecruiting/video/thumb/narinder_vt_180.jpg" alt="Narinder Puri" width="180" height="120" border="0"></a>
+<% Set video_profile = video_profiles.Item("Narinder") %>
+<div class="vwrap"><a href="<%=video_profile.Item("popup")%>" class="md-trans" title="<%=video_profile.Item("name")%>, <%=video_profile.Item("videoname")%>">View transcript</a></div>
+<!-- #include file="modal_dialog.asp" -->
 <%
 	ElseIf InArray(program.Item("url"), Array( _
 			"emeafn-international-corporate-treasury-analyst-programme.asp", _
 			"emeain-international-corporate-treasury-summer-analyst-programme.asp" _
 		)) Then
 %>
-<img src="../Includes/video/thumb/nichole_vt_180.jpg" alt="Nichola Edwards" width="180" height="120" border="0">
-<div class="vwrap"><a href="">View transcript</a></div>
+<a href="" class="md-video"><img src="../campusrecruiting/video/thumb/nichole_vt_180.jpg" alt="Nichola Edwards" width="180" height="120" border="0"></a>
+<% Set video_profile = video_profiles.Item("Nichole") %>
+<div class="vwrap"><a href="<%=video_profile.Item("popup")%>" class="md-trans" title="<%=video_profile.Item("name")%>, <%=video_profile.Item("videoname")%>">View transcript</a></div>
+<!-- #include file="modal_dialog.asp" -->
 <%
 	ElseIf InArray(program.Item("url"), Array( _
 			"usfs-global-wealth-investment-management-associate-program.asp", _
@@ -363,8 +380,10 @@ Guan VIDEO
 			"asiain-global-investment-banking-summer-analyst-program.asp" _
 		)) Then
 %>
-<img src="../Includes/video/thumb/patricia_vt_180.jpg" alt="Patricia Woo" width="180" height="120" border="0">
-<div class="vwrap"><a href="">View transcript</a></div>
+<a href="" class="md-video"><img src="../campusrecruiting/video/thumb/patricia_vt_180.jpg" alt="Patricia Woo" width="180" height="120" border="0"></a>
+<% Set video_profile = video_profiles.Item("Patricia") %>
+<div class="vwrap"><a href="<%=video_profile.Item("popup")%>" class="md-trans" title="<%=video_profile.Item("name")%>, <%=video_profile.Item("videoname")%>">View transcript</a></div>
+<!-- #include file="modal_dialog.asp" -->
 <%
 	ElseIf InArray(program.Item("url"), Array( _
 			"cafs-global-investment-banking-capital-markets-associate-program.asp", _
@@ -402,8 +421,10 @@ Guan VIDEO
 			"emeais-global-research-summer-associate-programme.asp" _
 		)) Then
 %>
-<img src="../Includes/video/thumb/saumya_vt_180.jpg" alt="Saumya Senapati" width="180" height="120" border="0">
-<div class="vwrap"><a href="">View transcript</a></div>
+<a href="" class="md-video"><img src="../campusrecruiting/video/thumb/saumya_vt_180.jpg" alt="Saumya Senapati" width="180" height="120" border="0"></a>
+<% Set video_profile = video_profiles.Item("Saumya") %>
+<div class="vwrap"><a href="<%=video_profile.Item("popup")%>" class="md-trans" title="<%=video_profile.Item("name")%>, <%=video_profile.Item("videoname")%>">View transcript</a></div>
+<!-- #include file="modal_dialog.asp" -->
 <%
 	ElseIf InArray(program.Item("url"), Array( _
 			"emeafn-human-resources-analyst-programme.asp", _
@@ -417,16 +438,20 @@ Guan VIDEO
 			"emeain-technology-developer-analyst-summer-intern-programme.asp" _
 		)) Then
 %>
-<img src="../Includes/video/thumb/tanvi_vt_180.jpg" alt="Tanvi Srivastava" width="180" height="120" border="0">
-<div class="vwrap"><a href="">View transcript</a></div>
+<a href="" class="md-video"><img src="../campusrecruiting/video/thumb/tanvi_vt_180.jpg" alt="Tanvi Srivastava" width="180" height="120" border="0"></a>
+<% Set video_profile = video_profiles.Item("Tanvi") %>
+<div class="vwrap"><a href="<%=video_profile.Item("popup")%>" class="md-trans" title="<%=video_profile.Item("name")%>, <%=video_profile.Item("videoname")%>">View transcript</a></div>
+<!-- #include file="modal_dialog.asp" -->
 <%
 	ElseIf InArray(program.Item("url"), Array( _
 			"usfn-commercial-real-estate-banking-analyst-program.asp", _
 			"usin-commercial-real-estate-banking-summer-analyst-program.asp" _
 		)) Then
 %>
-<img src="../Includes/video/thumb/zach_vt_180.jpg" alt="Zach Rudolph" width="180" height="120" border="0">
-<div class="vwrap"><a href="">View transcript</a></div>
+<a href="" class="md-video"><img src="../campusrecruiting/video/thumb/zach_vt_180.jpg" alt="Zach Rudolph" width="180" height="120" border="0"></a>
+<% Set video_profile = video_profiles.Item("Zach") %>
+<div class="vwrap"><a href="<%=video_profile.Item("popup")%>" class="md-trans" title="<%=video_profile.Item("name")%>, <%=video_profile.Item("videoname")%>">View transcript</a></div>
+<!-- #include file="modal_dialog.asp" -->
 <%
 	Else
 	

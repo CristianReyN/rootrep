@@ -40,6 +40,7 @@ if mpage = "camp" Then middle_content_padding = "padding: 0px 24px 0px 0px;"
 <%If Keywords <> "" Then %><meta name="Keywords" content="<%=Keywords%>"><%End If %>
 <title><%=title %></title>
 <link rel="stylesheet" href="../includes/styles.css" type="text/css">
+<!--[if IE]><link rel="stylesheet" href="../includes/ie.css" type="text/css"><![endif]-->
 <link rel="stylesheet" href="../includes/hs_safebutton.css" type="text/css">
 <%If mpage = "overview" Or mpage = "camp" Then %>
 <script language="javascript" type="text/javascript">
@@ -121,6 +122,7 @@ function _preloadImage(im)
 <% End If %>
 <script language="JavaScript1.2" src="../includes/ps.js" type="text/javascript"></script>
 <script language="JavaScript" src="../includes/jquery-1.6.2.min.js" type="text/javascript"></script>
+<script language="JavaScript" src="../includes/jquery.simplemodal.js" type="text/javascript"></script>
 <!--[if IE]><script language="JavaScript" src="../includes/ha.js" type="text/javascript"></script><![endif]-->
 <script language="JavaScript" src="../includes/jq.js" type="text/javascript"></script>
 <script language="javascript" type="text/javascript">
