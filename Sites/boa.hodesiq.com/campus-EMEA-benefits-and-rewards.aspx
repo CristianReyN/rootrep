@@ -7,7 +7,26 @@
  <div id="maincontent"> 
                 <div id="article"> 
                   <h1>Rewards</h1>
-                  <p>Because we want to take good care of the people who are at 
+                  <h2 class="questions">Every incentive to perform</h2>
+                  <p>Bank of America Merrill Lynch offers a competitive benefits package to its employees, which we believe is one of the best in the financial services industry.</p>
+                  <p>Bonuses and incentive programmes are important parts of the overall package. Bank of America Merrill Lynch’s flexible benefits programme allows each employee to select the benefits that suit the needs of themselves and their dependents. The package can be adapted as personal circumstances change.</p>
+                  <p>There are a range of benefits covering Financial, Health Care, Lifestyle and Leisure aspects of your life. Some of these benefits offer attractive Income Tax and National Insurance savings. The bank provides the opportunity for associates to receive employer matching contributions for pension, Give as You Earn, learning accounts, leisure accounts and certain health treatments.</p>
+
+                   <h2 class="questions">Benefits include:</h2>
+                   <ul>
+                   <li>Bonus scheme</li>
+                   <li>Annual compensation review</li>
+                   <li>Pension plan</li>
+                   <li>Private health care</li>
+                   <li>Maternity, paternity and adoption leave-above statutory minimum parental leave</li>
+                   <li>Life assurance</li>
+                   <li>Flexible working policy</li>
+                   <li>Employee discount programme</li>
+                   <li>Gym membership (on-site)</li>
+                   <li>Season ticket loan</li>
+                   </ul>
+
+                 <!-- <p>Because we want to take good care of the people who are at 
                     the heart of a business that’s wholly focused on winning, 
                     Bank of America Merrill Lynch offers a generous rewards and 
                     benefits programme. In fact, we firmly believe our package 
@@ -80,7 +99,7 @@
                     <li>Maternity, paternity and adoption leave – above statutory 
                     minimum parental leave</li>
                   </ul>
-                  <br />
+                  <br />-->
                   
                 </div>
                 <div id="aside"> 

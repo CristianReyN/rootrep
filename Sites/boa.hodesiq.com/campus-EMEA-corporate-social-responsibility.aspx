@@ -7,19 +7,17 @@
  <div id="maincontent"> 
                 <div id="article"> 
                   <h1>Corporate Social Responsibility</h1>
-                  <p>Bank of America's commitment to corporate social responsibility 
-                    (CSR) is a strategy for improving the communities served by 
-                    the company as well as the long-term health and success of 
-                    the business.</p>
+                  <p>Bank of America's commitment to corporate social responsibility is a strategy for improving the communities served by the company as well as the long-term health and success of the business.</p>
                   <h2 class="questions">Bank of America Merrill Lynch Corporate Philanthropy</h2>
-                  <p>Building on a long-standing tradition of investing in the 
+                  <p>Building on a long-standing tradition of investing in the communities it serves, Bank of America is delivering on a 10-year goal to donate $2 billion to nonprofit organisations engaged in improving the health and vitality of their communities. Funded by Bank of America, the Bank of America Charitable Foundation gave more than $200 million in 2010, making the company one of the largest corporate cash donors in the United States. As a global company providing financial services in more than 150 countries, Bank of America invests in organisations that contribute to economic and social opportunities as well as global initiatives that will benefit society as a whole. Reaffirming a commitment to develop and sustain a culture of service, the company's employee volunteers contributed more than one million hours in 2010 to enhance the quality of life in their communities worldwide. For more information, please visit <a href="www.bankofamerica.com/foundation">www.bankofamerica.com/foundation</a>. </p>
+                 <!-- <p>Building on a long-standing tradition of investing in the 
                     communities it serves, last year Bank of America embarked 
                     on a ten-year goal to donate US$2 billion to non-profit organisations 
                     engaged in improving the health and vitality of their neighbourhoods. 
                     The company’s associate volunteers contributed more than 800,000 
                     hours in 2009 to enhance the quality of life in their communities 
                     world-wide. For more information about Bank of America Corporate 
-                    Philanthropy, please visit <a href="http://www.bankofamerica.com/foundation/">www.bankofamerica.com/foundation</a>.</p>
+                    Philanthropy, please visit <a href="http://www.bankofamerica.com/foundation/">www.bankofamerica.com/foundation</a>.</p>-->
                 </div>
                 <div id="aside"> 
                    <a href="campusrecruiting/career_fit_tool.asp"><img src="images/campus/btn-careerfinder.jpg" width="179" height="66" alt="Career Finder: Come as you are. We've got a career to fit." /></a> 

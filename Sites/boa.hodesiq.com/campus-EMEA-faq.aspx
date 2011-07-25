@@ -9,83 +9,69 @@
                   <h1>Frequently Asked Questions</h1>
                   
                   <h2 class="questions">How do I apply?</h2>
-                  <p>Please navigate to the "How to Apply" page on the left navigation. 
-                    All applications for positions must be made online; CVs are 
-                    not accepted for analyst roles. For MBA &amp; PhD positions, 
-                    you are required to upload your CV and cover letter. We encourage 
-                    candidates to apply early.</p>
+                  <p>Please visit <a href="www.baml.com/campusEMEA" target="_blank">www.baml.com/campusEMEA</a> and navigate to the “How to Apply” page. All applications for positions must be made online; most analyst positions do not accept CVs and require you to complete the online application. For MBA and Ph.D. positions, you are required to upload your CV and cover letter. We encourage candidates to apply early.</p>
+
                   <h2 class="questions">What are the requirements to be considered for campus opportunities?</h2>
-                  <p>Each business area has individual requirements, but candidates 
-                    must demonstrate a combination of academic aptitude, quantitative 
-                    skills, strategic and creative thinking, and written and oral 
-                    communications skills. In addition, you must have obtained 
-                    or are realistically expecting to obtain a minimum 2:1 degree 
-                    or equivalent for analyst roles. For MBA &amp; PhD positions, 
-                    completion of an MBA, PhD or equivalent advanced degree is 
-                    required. Underlying all this, you must demonstrate dedication 
-                    to a career in banking.</p>
-                  <h2 class="questions">When does Bank of America Merrill Lynch recruit students 
-                    for full-time opportunities?</h2>
-                  <p>Bank of America Merrill Lynch recruits for full-time opportunities 
-                    in September, October and November for placement the following 
-                    June, July or September.</p>
-                  <h2 class="questions">When does Bank of America Merrill Lynch recruit students 
-                    for internship opportunities?</h2>
-                  <p>Bank of America Merrill Lynch recruits for internship opportunities 
-                    in December, January and February for a summer placement.</p>
+                  <p>Each business area has individual requirements, but candidates must demonstrate a combination of academic aptitude, quantitative skills, strategic and creative thinking, and written and oral communications skills. In addition, you must have obtained or are realistically expecting to obtain a minimum 2:1 degree or equivalent for analyst roles. For MBA and Ph.D. positions, completion of an MBA, Ph.D. or equivalent advanced degree is required. Underlying all this, you must demonstrate dedication to a career in banking.</p>
+
+                  <h2 class="questions">When does Bank of America Merrill Lynch recruit students for full-time opportunities?</h2>
+                  <p>Bank of America Merrill Lynch will review applications and begin to assess candidates prior to the application deadline for analyst (full-time) positions. Associate Recruitment will take place in line with your schools dedicated interview period.</p>
+
+
+                  <h2 class="questions">When does Bank of America Merrill Lynch recruit students for internship opportunities?</h2>
+                  <p>Bank of America Merrill Lynch will review applications and begin to assess candidates prior to the application deadline for analyst internship positions. Associate Recruitment will take place in line with your schools dedicated interview period.</p>
+
                   <h2 class="questions">How can I decide what programme is best for me?</h2>
-                  <p>We have created a guided questionnaire on the campus recruiting 
-                    website to help you find the opportunities that match your 
-                    skill set and interests.</p>
+                  <p>We have created a guided questionnaire on the campus recruiting website to help you find the opportunities that match your skill set and interests.</p>
+
                   <h2 class="questions">What academic background are you looking for in candidates?</h2>
-                  <p>We recruit from all degree disciplines. Strong academic qualifications 
-                    are important, as are initiative, strategic and creative thinking, 
-                    communication skills and a genuine interest in the financial 
-                    markets. For quantitative positions, strong mathematical and 
-                    analytical skills are required.</p>
-                  <h2 class="questions">Can I apply to multiple offices and divisions?</h2>
-                  <p>No &ndash; you may only apply to one office and one division.</p>
-                  <h2 class="questions">Are positions available globally, and who is eligible to 
-                    fill them?</h2>
-                  <p>Bank of America Merrill Lynch is a global company with offices 
-                    in more than 40 countries worldwide. You may apply to the 
-                    Americas, EMEA and Asia Pacific regions.</p>
+                  <p>We recruit from all degree disciplines for the majority of our programmes. Our Technology positions require a technical background. Strong academic qualifications are important, as are initiative, strategic and creative thinking, communication skills and a genuine interest in the financial markets. For quantitative positions, strong mathematical and analytical skills are required.</p>
+
+                  <h2 class="questions">Can I apply to multiple regions, offices and divisions?</h2>
+                  <p>No. You may only apply to one region, one office and one division. </p>
+
+                  <h2 class="questions">Are positions available globally?</h2>
+                  <p>Bank of America Merrill Lynch is a global company with offices in more than 40 countries worldwide. Positions are available in the Americas, Europe, Emerging Markets (ex-Asia) and Asia Pacific regions. For details on these and how to apply, please visit <a href="www.baml.com/campusrecruiting" target="_blank">www.baml.com/campusrecruiting</a>.</p>
+
                   <h2 class="questions">Can I defer an offer?</h2>
-                  <p>No. Bank of America Merrill Lynch does not offer you the 
-                    chance to defer.</p>
+                  <p>No. Bank of America Merrill Lynch does not offer you the chance to defer.</p>
+
                   <h2 class="questions">If I applied last year, can I apply again this year?</h2>
-                  <p>Yes &ndash; you may apply to one office and one division per year. 
-                    If you are declined for the summer programme, you can re-apply 
-                    for the full-time programme the following year.</p>
+                  <p>Yes. You may apply to one office and one division per year. If you are declined for the summer programme, you can re-apply for the full-time programme the following year.</p>
+
                   <h2 class="questions">Can I apply if I require a work permit?</h2>
                   <p>Yes.</p>
-                  <h2 class="questions">I graduated last year &ndash; am I eligible to apply for a Summer 
-                    Internship?</h2>
-                  <p>No &ndash; you must be in your penultimate year of study to be 
-                    eligible to apply for a summer internship.</p>
-                  <h2 class="questions">If I apply for a position in the Americas or Asia Pacific 
-                    region, would I attend an assessment centre and interview 
-                    here in London?</h2>
-                  <p>In some circumstances, you are able to be interviewed in 
-                    London in person. Alternatives are a telephone/video interview.</p>
-                  <h2 class="questions">When will I hear from Bank of America Merrill Lynch following 
-                    submission of my application?</h2>
-                  <p>We receive a very high volume of applications and endeavour 
-                    to contact candidates as soon as possible once a decision 
-                    has been made. You may receive a notification by email or 
-                    one of our recruiters will contact you to update you on your 
-                    application.</p>
-                  <h2 class="questions">Do you offer internships at other times of the year than 
-                    summer?</h2>
-                  <p>Yes, we have a number of off-cycles internship opportunities 
-                    in various offices in the region. These positions are recruited 
-                    for throughout the year depending on business needs and vary 
-                    in length, usually 3&ndash;9 months.</p>
-                  <h2 class="questions">Can I make changes to my application once I have submitted 
-                    it?</h2>
-                  <p>Once you have submitted your application, you cannot make 
-                    amends yourself. If changes are essential, please contact 
-                    the campus recruitment team to discuss.</p>
+
+                  <h2 class="questions">I have completed my undergraduate degree-am I eligible to apply for a Summer Internship?</h2>
+
+                  <p>Internships typically attract students in their penultimate year of study who aim to start work full-time the following year.</p>
+
+                  <h2 class="questions">If I apply for a position in the Americas or Asia Pacific, would I attend an assessment centre and interview here in London?</h2>
+
+                  <p>In some circumstances, you may be interviewed in London in person. Alternatives are a telephone/video interview.</p>
+
+                  <h2 class="questions">When will I hear from Bank of America Merrill Lynch following submission of my application?</h2>
+
+                  <p>We receive a very high volume of applications and endeavour to contact candidates as soon as possible once a decision has been made. You may receive a notification by email or one of our recruiters will contact you to update you on your application. At any point during the process, you can log in to your account and view the status of your application. Please be aware that e-mail notifications sent from our application system may sometimes go straight to spam folders.</p>
+
+                  <h2 class="questions">Do you offer internships at other times of the year than summer?</h2>
+                  <p>Yes, we have a number of fixed term placement opportunities in various offices in the region. These positions are recruited for throughout the year depending on business needs and vary in length, usually three to six months.</p>
+
+                  <h2 class="questions">I would like to make changes to my application, but have already submitted it?</h2>
+                  <p>Once you have submitted your application, you cannot make amends yourself. If changes are essential, please contact the campus recruitment team to discuss.</p>
+
+
+                  <h2 class="questions">How can I find out about future events?</h2>
+                  <p>All events are listed on our website. Please visit “Campus Events’”’ via <a href="www.baml.com/campusEMEA" target="_blank">www.baml.com/campusEMEA</a> for details and to register your attendance.</p>
+
+                  <h2 class="questions">Can I get feedback on my application?</h2>
+                  <p>Due to the high volume of applications we receive, we are unable to provide feedback to candidates who do not reach the final assessment stage.</p>
+
+                   <h2 class="questions">What should I do if I have a disability that may affect my performance during the recruitment process?</h2>
+                  <p>Bank of America Merrill Lynch values our differences-in thought, style, culture, ethnicity and experience. For candidates with disabilities, we make reasonable adjustments where necessary. If you think you have a disability that may affect your performance at any stage in the selection process, please select “help required” on the application form and we will contact you to discuss your personal circumstances.</p>
+
+                   <h2 class="questions">How long will it take me to complete my application for the analyst or internship programme?</h2>
+                  <p>For most business areas, applications will usually take approximately 1hr 15mins to complete. The numerical test is timed and must be completed in one sitting; however, stages 1 and 3 can be saved as you work through the online application.</p>
                   
                 </div>
                 <div id="aside"> 

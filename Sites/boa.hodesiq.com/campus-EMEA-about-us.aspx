@@ -7,12 +7,13 @@
 <div id="maincontent"> 
                 <div id="article"> 
                   <h1>About us</h1>
-                  <p>Bank of America is one of the world's largest financial institutions, 
-                    serving individual consumers, small- and middle-market businesses 
-                    and large corporations with a full range of banking, investing, 
-                    asset management and other financial and risk management products 
-                    and services.</p>
-                  <h2 class="questions">In the world</h2>
+                  <h2 class="questions">A financial powerhouse</h2>
+                  <p>Bank of America is one of the world's largest financial institutions, serving individual consumers, small- and middle-market businesses, and large corporations with a full range of banking, investing, asset management and other financial and risk-management products and services. Following the merger with Merrill Lynch on 1 January 2009, Bank of America Merrill Lynch became the largest brokerage in the world and now serves clients and customers in more than 150 countries.</p>
+                  <p>The company is a long-established participant in the European markets, with a presence since 1922. Over 18,000 people are employed in Europe, the Middle East and Africa, based in offices in 32 cities across 23 countries.</p>
+                  <p>At Bank of America Merrill Lynch, diversity is one of the driving forces behind our success. The truth is, we count on different ideas, backgrounds and perspectives to help us compete in a diverse global marketplace. We respect and value not only differences related to age, ethnicity, disability, gender, gender identity, marriage and civil partnership, pregnancy and maternity, race, religion, and sexual orientation, but also diversity of viewpoint, experience, talents and ideas. We strive to empower all employees to excel on the job and reach their full potential, and reward and recognise employees based on performance and results.</p>
+                  <p>Join us and you'll be integral to our growth agenda. We'll give you the highest level of training and mentoring support. Our commitment to improving the quality of life within our communities and to the environment means you can get involved in a number of corporate social responsibility initiatives too.</p>
+
+                  <!--<h2 class="questions">In the world</h2>
                   <p>Bank of America is one of the world's largest financial institutions, 
                     serving individual consumers, small- and middle-market businesses 
                     and large corporations with a full range of banking, investing, 
@@ -52,7 +53,7 @@
                     and making the region a significant contributor to global 
                     success. We are taking a strategic and measured approach to 
                     our international development by strengthening our platform 
-                    and infrastructure to create sustainable, long-term growth.</p>
+                    and infrastructure to create sustainable, long-term growth.</p>-->
                 </div>
                 <div id="aside"> 
                   <a href="campusrecruiting/career_fit_tool.asp"><img src="images/campus/btn-careerfinder.jpg" width="179" height="66" alt="Career Finder: Come as you are. We've got a career to fit." /></a> 
@@ -61,7 +62,7 @@
                   <h2>Related Links:</h2>
                   <ul>
                     <li><a href="campus-EMEA-diversity-and-inclusion.aspx">Diversity and inclusion</a></li>
-                    <li><a href="campus-EMEA-corporate-social-responsibility.aspx">Coroporate social responsibility</a></li>
+                    <li><a href="campus-EMEA-corporate-social-responsibility.aspx">Corporate social responsibility</a></li>
 					<li><a href="campus-EMEA-benefits-and-rewards.aspx">Rewards</a></li>
                   </ul>
                 </div>

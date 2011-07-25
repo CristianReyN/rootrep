@@ -100,7 +100,7 @@
                      <%if("2".Equals(GetRegionId())){ %>
                      <tr>
                      <td>
-                     Selecting the button below allows for searching and registering for Campus Events in the EMEA region.
+                     Select the button to search and register for events.
                      </td>
                      </tr>
                      <tr>

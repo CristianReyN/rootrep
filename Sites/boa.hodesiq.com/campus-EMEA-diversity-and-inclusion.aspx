@@ -6,7 +6,59 @@
 <div id="maincontent"> 
                 <div id="article"> 
                   <h1>Diversity and Inclusion</h1>
-                  <p>Diversity. It is not a word, ideal or goal; it is a principle 
+                  <p>Our commitment to diversity and inclusion comes right from the top: CEO and President Brian Moynihan leads our Global Diversity & Inclusion Council, which sets strategy and direction for the bank’s diversity initiatives and strengthens our commitment to a diverse and inclusive environment.</p>
+                  <p>This senior support and commitment to diversity and inclusion continues in Europe and Emerging Markets (ex.: Asia) where the Regional Diversity & Inclusion Council has Jonathan Moulds, president, Europe, and Andrea Orcel, president, Emerging Markets, as its executive sponsors.</p>
+                  <p>Our work environment draws on the strength of every employee to build an atmosphere of personal and professional growth. The following make our work environment unique:</p>
+                  <ul>
+                  <li><a href="#AAG">Associate Affinity Groups</a></li>
+                  <li><a href="#DP">Diverse Partnerships</a></li>
+                  <li><a href="#RDIC">Regional Diversity & Inclusion Council</a></li>
+                  </ul>
+
+                  <div id="AAG"></div>
+                  <h2 class="questions">Associate Affinity Groups</h2>
+                  <p>Our Associate Affinity Groups are a vital part of the company’s diversity and inclusion efforts. The affinity groups are formal, bank-supported groups made up of employees who have a common identity along with others who support them. The groups meet periodically to network, mentor and encourage each other’s development, leadership and success. By giving voice to diverse constituencies within the company and to customers like themselves, the groups assist Bank of America Merrill Lynch with maintaining a fair and inclusive workplace. They also can enhance the bank’s efforts to bring exceptional, targeted products and services to our customers, clients and shareholders. </p>
+                  <p>In Europe and Emerging Markets, we have Associate Affinity Groups covering:</p>
+                  <ul>
+                  <li>Disability</li>
+                  <li>Ethnicity</li>
+                  <li>Gender</li>
+                  <li>Sexual Orientation</li>
+                  <li>Parents and Carers Network</li>
+                  </ul>
+
+                  <div id="DP"></div>
+                  <h2 class="questions">Diverse Partnerships</h2>
+                  <p>As well as internal expertise on diversity and inclusion, we look to draw on the support of external experts to ensure we are always at the cutting edge of good practice.</p>
+                  <p>It’s also a way for us to publicly declare our commitment to equality and diversity.</p>
+                  <p>We measure our success using the benchmarks and other tools these organisations provide and look to them to challenge and guide us.</p>
+                  <p>We are members of:</p>
+                  <ul>
+                  <li>The Employers Forum on Disability - <a href="www.efd.org.uk">www.efd.org.uk</a></li>
+                  <li>Opportunity Now - <a href="www.bitcdiversity.org.uk">www.bitcdiversity.org.uk</a></li>
+                  <li>Race for Opportunity - <a href="www.bitcdiversity.org.uk">www.bitcdiversity.org.uk</a></li>
+                  <li>Stonewall - <a href="www.stonewall.org.uk">www.stonewall.org.uk</a></li>
+                  </ul>
+
+                  <p>We partner with:</p>
+                 <h2 class="questions">Sponsors for Educational Opportunity (SEO) </h2>
+                 <p>SEO London helps top-calibre undergraduates from ethnic minority backgrounds to gain summer internships at some of the leading firms in the U.K. financial industry, including Bank of America Merrill Lynch. For more information and to apply, please visit <a href="www.seo-london.com">www.seo-london.com</a>.</p>
+
+                 <h2 class="questions">EmployAbility Internship for Students with Disabilities</h2> 
+                 <p>EmployAbility provides support, advice and guidance for disabled university students and graduates throughout the recruitment process. For more information, please visit EmployAbility’s website: <a href="www.employ-ability.org.uk">www.employ-ability.org.uk</a>. </p>
+
+                <h2 class="questions">Rare Recruitment</h2>
+                <p>Rare Recruitment connects exceptional people from diverse backgrounds with great jobs in top organisations and provides training and support for candidates. For more information, visit <a href="www.rarerecruitment.co.uk">www.rarerecruitment.co.uk</a>. </p>
+
+                <div id="RDIC"></div>
+                <h2 class="questions">Regional Diversity & Inclusion Council</h2>
+                <p>The Regional Diversity & Inclusion Council sets and monitors the diversity and inclusion strategy for Europe and Emerging Markets. It aims to ensure that all employees have the opportunity to succeed in an environment that is fully inclusive and strives to promote the importance of diversity and inclusion to every employee working at the company.</p>
+                <p>The council comprises senior leaders from the region’s major businesses and functional groups, and has Jonathan Moulds, president, Europe, and Andrea Orcel, president, Emerging Markets, as its executive sponsors.</p>
+                <p>These senior leaders act as Diversity Champions in their business or functional groups.</p>
+
+
+
+                  <!--<p>Diversity. It is not a word, ideal or goal; it is a principle 
                     we live by every day, in and outside the office. And it has 
                     manifested itself in a number of initiatives.</p>
                   <h2 class="questions">Sponsors for Educational Opportunity (SEO)</h2>
@@ -74,7 +126,7 @@
                     boroughs; and acting as Presenting Sponsor for The Bridge 
                     Project, which brings some of the finest talents from the 
                     US stage to audiences across Europe, including London, Madrid 
-                    and Amsterdam.</p>
+                    and Amsterdam.</p>-->
                 </div>
                 <div id="aside"> 
                   <a href="campusrecruiting/career_fit_tool.asp"><img src="images/campus/btn-careerfinder.jpg" width="179" height="66" alt="Career Finder: Come as you are. We've got a career to fit." /></a> 
@@ -83,7 +135,7 @@
                   <h2>Related Links:</h2>
                   <ul>
                     <li><a href="campus-EMEA-about-us.aspx">About Us</a></li>
-                    <li><a href="campus-EMEA-corporate-social-responsibility.aspx">Coroporate social responsibility</a></li>
+                    <li><a href="campus-EMEA-corporate-social-responsibility.aspx">Corporate social responsibility</a></li>
 					<li><a href="campus-EMEA-benefits-and-rewards.aspx">Rewards</a></li>
                   </ul>
                 </div>
