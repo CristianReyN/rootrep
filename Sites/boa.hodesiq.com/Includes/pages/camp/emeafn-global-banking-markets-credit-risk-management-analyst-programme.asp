@@ -4,27 +4,23 @@
 			<div class="prg"><div class="prg1"><div class="prg2"><div class="prg3"><div class="prg4"><div class="prg5"><div class="prg6"><div class="prg7"><div class="prg8"><div class="prgw">
 <h1 class="bac"><%=program.Item("title")%></h1>
 
-<div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Summary:</h2>
+<div class="expanded">
+<h2 class="bac"><img class="pclose" src="../images/clear.gif">Our Business</h2>
 <div>
+<h3 class="bac">Summary</h3>
 <ul class="bac">
 	<li>Location: London</li>
 	<li>On track for a minimum of a 2:1 degree classification (or equivalent) from any degree discipline</li>
 	<li>Fluency in English and a second European language may also be advantageous</li>
 	<li>Rotational programme</li>
 </ul>
-</div></div>
-
-<div class="expanded">
-<h2 class="bac"><img class="pclose" src="../images/clear.gif">Our Business:</h2>
-<div>
 <p class="bac">Credit Risk Management is broken into two core business sectors, Corporate Debt Products and Financial Institutions Debt Products, with both sectors working on deal teams that include Corporate Banking, Investment Banking, Debt Capital Markets and Sales  &amp; Trading. The role of the Credit Risk Manager is to ensure that all executed business is in line with our risk appetite for each client and to monitor all existing risks on their portfolios.</p>
 <h3 class="bac">What is Credit Risk?</h3>
 <p class="bac">Credit Risk is the risk of loss if a client fails to meet their obligations to the bank. Credit Risk is a key factor in all the business we do with our clients. Assessing credit risk requires a deep understanding of a company&#39;s industry, competitive position, strategy and financial performance.</p>
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Overview:</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif">Overview</h2>
 <div>
 <p class="bac">The programme is a 3 year rotational programme that offers you the opportunity to get experience of both the Corporate and Financial Institutions sectors, approximately 12 months in each, and then specialising in one of the sectors for the final rotation.</p>
 <p class="bac nobr">As part of your role you can expect to:</p>
@@ -38,7 +34,7 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Training:</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif">Training</h2>
 <div>
 <ul class="bac">
 	<li>Initial training begins in Charlotte, USA for 2 weeks for technical and soft skill training</li>
@@ -48,7 +44,7 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Qualifications:</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif">Qualifications</h2>
 <div>
 <ul class="bac">
 	<li>On track for a minimum of a 2:1 degree classification (or equivalent) from any degree discipline</li>
@@ -60,13 +56,13 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Locations:</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif">Locations</h2>
 <div>
 <p class="bac">London</p>
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">How to Apply:</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif">How to Apply</h2>
 <div>
 <p class="bac"><% howToApply(program) %></p>
 </div></div>

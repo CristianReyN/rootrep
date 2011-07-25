@@ -5,13 +5,13 @@
 <h1 class="bac"><%=program.Item("title")%></h1>
 
 <div class="expanded">
-<h2 class="bac"><img class="pclose" src="../images/clear.gif">Our Business:</h2>
+<h2 class="bac"><img class="pclose" src="../images/clear.gif">Our Business</h2>
 <div>
 <p class="bac">Global Capital Markets originates a wide variety of equity and debt capital offerings, as well as risk management products. When an issuer client decides to raise capital in the public or private markets, corporate and investment bankers turn to the Capital Markets team. Capital Markets partners with the coverage team and advises clients on optimal methods to access capital, whether it is for acquisitions, refinancing or strengthening their balance sheets. The offerings can comprise equities, bonds, bank debt, private placements or a combination of securities.</p>
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Overview:</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif">Overview</h2>
 <div>
 <p class="bac">Summer Analysts participate in an 8-10 week program based in Asia providing a unique opportunity and exposure to life in capital markets. In addition to learning opportunities there are formal and social opportunities to interact and network with senior bankers.</p>
 <h3 class="bac">Placement</h3>
@@ -29,7 +29,7 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Qualifications:</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif">Qualifications</h2>
 <div>
 <h3 class="bac">Education</h3>
 <ul class="bac">
@@ -64,19 +64,19 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Training:</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif">Training</h2>
 <div>
 <p class="bac">The Summer Analyst program begins with several days of orientation and induction including an overview of the bank plus relevant application training. Over the course of the internship there are continuous training sessions that are specific to capital markets.</p>
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Locations:</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif">Locations</h2>
 <div>
 <p class="bac">Australia, Hong Kong, India, Japan and Singapore</p>
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">How to Apply:</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif">How to Apply</h2>
 <div>
 <p class="bac"><% howToApply(program) %></p>
 </div></div>

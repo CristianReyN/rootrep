@@ -5,7 +5,7 @@
 <h1 class="bac"><%=program.Item("title")%></h1>
 
 <div class="expanded">
-<h2 class="bac"><img class="pclose" src="../images/clear.gif">Our Business:</h2>
+<h2 class="bac"><img class="pclose" src="../images/clear.gif">Our Business</h2>
 <div>
 <p class="bac nobr">Global Markets Operations/Middle Office Group (GMO &amp;MO) provides operational support for all products in Global Markets, Corporate Treasury and Corporate Investments and is primarily a control function responsible for providing assurance over data and processes used to record Risk, P/L, Balance Sheet and Financial Results. The organization is aligned to products and business management:</p>
 <ul class="bac">
@@ -18,13 +18,13 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Overview:</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif">Overview</h2>
 <div>
 <p class="bac">The Bank&nbsp;of&nbsp;America Intern Program is designed to provide students with corporate experience in business banking policies and practices. Students are given a true associate experience, as internships mirror full-time positions and include goal-setting and a formal review process. Interns are required to work 40-hour weeks for 10 weeks between the months of June and August. On-the-job training, mentoring relationships, and networking opportunities are provided for all interns.</p>
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Qualifications:</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif">Qualifications</h2>
 <div>
 <p class="bac nobr">Candidates should be in their junior year/rising senior from a four year college or university and demonstrate a combination of academic aptitude, quantitative skills, strategic and creative thinking, and excellent written and oral communication skills. Interns will have the opportunity to be involved with several projects at once and will be required to work effectively both individually and as part of a team. Some common driving characteristics we look for:</p>
 <ul class="bac">
@@ -41,19 +41,19 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Training:</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif">Training</h2>
 <div>
 <p class="bac">Interns receive an orientation to Bank&nbsp;of&nbsp;America with overviews on the history, culture, business organizations, and intern program structure. Interns also participate in on-the-job training, an online learning curriculum, weekly speaker seminars, and events with interns and associates from across Bank&nbsp;of&nbsp;America.</p>
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Locations:</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif">Locations</h2>
 <div>
 <p class="bac">Charlotte, NC; Chicago, IL; Houston, TX; Jacksonville, FL; New York, NY</p>
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">How to Apply:</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif">How to Apply</h2>
 <div>
 <p class="bac"><% howToApply(program) %></p>
 </div></div>

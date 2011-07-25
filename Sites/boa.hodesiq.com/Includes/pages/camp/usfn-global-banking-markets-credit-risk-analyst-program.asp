@@ -5,13 +5,13 @@
 <h1 class="bac"><%=program.Item("title")%></h1>
 
 <div class="expanded">
-<h2 class="bac"><img class="pclose" src="../images/clear.gif">Our Business:</h2>
+<h2 class="bac"><img class="pclose" src="../images/clear.gif">Our Business</h2>
 <div>
 <p class="bac">The Global Banking  &amp; Markets Credit Risk Analyst Program is part of the Global Corporate  &amp; Financial Institutions Debt Products (CDP  &amp; FIDP) organization at Bank&nbsp;of&nbsp;America. This team is responsible for originating and underwriting debt financing solutions for large corporate and financial institution clients managed by the Bank&nbsp;of&nbsp;America&#39;s Global Banking and Markets (GBAM) client team. As a core member of the client team, CDP  &amp; FIDP partner with groups across GBAM including Corporate Banking, Investment Banking, Syndicated Finance, Risk Management, Treasury Management, and Global Markets to drive revenue growth while maintaining appropriate risk disciplines specific to GBAM&#39;s corporate credit portfolio. Credit Analysts work with clients operating around the globe and with teams in the following industry sectors: Consumer  &amp; Retail, Gaming, Global Industries, Healthcare, Insurance/Specialty Finance, Media  &amp; Telecom, Natural Resources, Restaurant Franchises  &amp; Beverage, Sports, Financial Sponsors, Technology and Financial Institutions, including Banks, Broker/Dealers and Asset Managers.</p>
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Overview:</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif">Overview</h2>
 <div>
 <p class="bac nobr">Credit Analysts perform intensive qualitative and quantitative due diligence on industry and company factors. Analysts are called on to:</p>
 <ul class="bac">
@@ -24,7 +24,7 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Qualifications:</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif">Qualifications</h2>
 <div>
 <p class="bac nobr">Candidates must demonstrate a strong combination of academic aptitude, quantitative skills, teamwork, and initiative. Some common driving characteristics we look for:</p>
 <ul class="bac">
@@ -38,7 +38,7 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">How to Apply:</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif">How to Apply</h2>
 <div>
 <p class="bac"><% howToApply(program) %></p>
 </div></div>

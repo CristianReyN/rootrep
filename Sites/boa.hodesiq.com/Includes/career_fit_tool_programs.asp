@@ -52,7 +52,7 @@ Dim programs(600)
 'last - 102
 
 
-Set programs(1) = createProgram("Corporate Audit Analyst Program", audit_program_group, "usfn-corporate-audit-management-program.asp", AMERICAS, U_S_A, ANALYST, FULLTIME, FALSE, TRUE)
+Set programs(1) = createProgram("Corporate Audit Management Program", audit_program_group, "usfn-corporate-audit-management-program.asp", AMERICAS, U_S_A, ANALYST, FULLTIME, FALSE, TRUE)
 Set programs(2) = createProgram("Corporate Treasury Analyst Program (CTAP)", cfo_program_group, "usfn-corporate-treasury-analyst-program.asp", AMERICAS, U_S_A, ANALYST, FULLTIME, FALSE, TRUE)
 Set programs(3) = createProgram("Finance Management Associate Program", cfo_program_group, "usfn-finance-management-associate-program.asp", AMERICAS, U_S_A, ANALYST, FULLTIME, FALSE, TRUE)
 Set programs(5) = createProgram("Operations Management Analyst Program", csbb_program_group, "usfn-operations-management-analyst-program.asp", AMERICAS, U_S_A, ANALYST, FULLTIME, FALSE, TRUE)
@@ -60,7 +60,7 @@ Set programs(8) = createProgram("Corporate  &amp; Investment Banking and Capital
 Set programs(201) = createProgram("Corporate  &amp; Investment Banking and Capital Markets Analyst (Canada)", gbam_program_group, "cafn-global-investment-banking-capital-markets-analyst-program.asp", AMERICAS, CANADA, ANALYST, FULLTIME, FALSE, TRUE)
 Set programs(9) = createProgram("Global Markets Commodities Analyst Program", gbam_program_group, "usfn-global-commodities-analyst-program.asp", AMERICAS, U_S_A, ANALYST, FULLTIME, FALSE, TRUE)
 Set programs(10) = createProgram("Public Finance Analyst, Full-Time Program", gbam_program_group, "usfn-global-markets-public-finance-analyst-program.asp", AMERICAS, U_S_A, ANALYST, FULLTIME, FALSE, TRUE)
-Set programs(11) = createProgram("Global Sales  &amp; Trading Analyst Program", gbam_program_group, "usfn-global-markets-sales-trading-analyst-program.asp", AMERICAS, U_S_A, ANALYST, FULLTIME, FALSE, TRUE)
+Set programs(11) = createProgram("Global Markets Sales and Trading Analyst Program", gbam_program_group, "usfn-global-markets-sales-trading-analyst-program.asp", AMERICAS, U_S_A, ANALYST, FULLTIME, FALSE, TRUE)
 Set programs(202) = createProgram("Global Sales  &amp; Trading Analyst Program (Canada)", gbam_program_group, "cafn-global-markets-sales-trading-analyst-program.asp", AMERICAS, CANADA, ANALYST, FULLTIME, FALSE, TRUE)
 Set programs(12) = createProgram("Global Research Analyst Program", gbam_program_group, "usfn-global-research-analyst-program.asp", AMERICAS, U_S_A, ANALYST, FULLTIME, FALSE, TRUE)
 Set programs(13) = createProgram("Commercial Real Estate Banking Analyst Program", gcb_program_group, "usfn-commercial-real-estate-banking-analyst-program.asp", AMERICAS, U_S_A, ANALYST, FULLTIME, FALSE, TRUE)
@@ -218,7 +218,7 @@ Set programs(503) = createProgram("Global Capital Markets Analyst Program", gbam
 Set programs(504) = createProgram("Global Markets Sales  &amp; Trading Analyst Full-Time Program", gbam_program_group, "asiafn-global-markets-sales-trading-analyst-program.asp", ASIA, "", ANALYST, FULLTIME, FALSE, TRUE)
 Set programs(505) = createProgram("Global Research Analyst Program", gbam_program_group, "asiafn-global-research-analyst-program.asp", ASIA, "", ANALYST, FULLTIME, FALSE, TRUE)
 Set programs(506) = createProgram("Global Corporate Banking Analyst Program", gbam_program_group, "asiafn-global-corporate-banking-analyst-program.asp", ASIA, "", ANALYST, FULLTIME, FALSE, TRUE)
-Set programs(511) = createProgram("Global Wealth and Investment Management Fulltime Analyst Program", gwim_program_group, "asiafn-global-wealth-investment-management-analyst-program.asp", ASIA, "", ANALYST, FULLTIME, FALSE, TRUE)
+Set programs(511) = createProgram("Merrill Lynch Wealth Management Analyst Program", gwim_program_group, "asiafn-global-wealth-investment-management-analyst-program.asp", ASIA, "", ANALYST, FULLTIME, FALSE, TRUE)
 
 'ASIA FULLTIME ASSOCIATE PROGRAMS
 Set programs(512) = createProgram("Global Investment Banking Associate Program", gbam_program_group, "asiafs-global-investment-banking-associate-program.asp", ASIA, "", ASSOCIATE, FULLTIME, FALSE, TRUE)
@@ -535,7 +535,7 @@ Function relLink (program)
 	
 	If rel_link <> "" Then
 %>
-<a href="<%=rel_link %>" title="<%=program.Item("region")%>&nbsp;<%=program.Item("full_degree")%>" style="letter-spacing: -0.1px;"><%=program.Item("region")%>&nbsp;<%=program.Item("full_degree")%>  &raquo;</a>
+<a href="<%=rel_link %>" title="<%=Replace(program.Item("region"),"EMEA","Europe, Middle East and Africa")%>&nbsp;<%=Replace(LCase(program.Item("full_degree")),"phd","PHD")%>" style="letter-spacing: -0.1px;"><b><%=Replace(program.Item("region"),"EMEA","Europe, Middle East and Africa")%>&nbsp;<%=Replace(LCase(program.Item("full_degree")),"phd","PHD")%>  &raquo;</b></a>
 <%
 	End If
 End Function

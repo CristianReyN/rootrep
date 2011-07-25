@@ -16,7 +16,7 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Overview:</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif">Overview</h2>
 <div>
 <p class="bac">Technology Fulltime Analyst Program is designed to provide candidates with an opportunity to work with experienced technology professionals and prepare for a career in the bank&#39;s technology division.</p>
 <h3 class="bac">Placement</h3>
@@ -55,7 +55,7 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Qualifications:</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif">Qualifications</h2>
 <div>
 <h3 class="bac">Education</h3>
 <ul class="bac">
@@ -94,7 +94,7 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Training:</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif">Training</h2>
 <div>
 <p class="bac nobr">The Fulltime Analyst Program consists of the following developmental activities:</p>
 <ul class="bac">
@@ -109,17 +109,17 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Locations:</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif">Locations</h2>
 <div>
 <p class="bac">Singapore, Hong Kong, Japan or India</p>
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">How to Apply:</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif">How to Apply</h2>
 <div>
 <p class="bac"><% howToApply(program) %></p>
 </div></div>
-<img src="../images/clear.gif" class="bac" alt=""><br clear="all">
+
 			<div><img src="../images/clear.gif" style="margin: 0px; height: 0px; width: 100%;" alt=""></div>
 			</div></div></div></div></div></div></div></div></div></div>
 		</div>

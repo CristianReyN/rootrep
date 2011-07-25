@@ -5,7 +5,7 @@
 <h1 class="bac"><%=program.Item("title")%></h1>
 
 <div class="expanded">
-<h2 class="bac"><img class="pclose" src="../images/clear.gif">Our Business:</h2>
+<h2 class="bac"><img class="pclose" src="../images/clear.gif">Our Business</h2>
 <div>
 <h3 class="bac">Global Supply Chain Management Mission Statement:</h3>
 <p class="bac">To champion Global Supply Chain Management associate development through experiential learning, training, and networking opportunities. This will empower associates early in their careers to manage their professional development, realize their potential, and maximize their contributions to Bank&nbsp;of&nbsp;America.</p>
@@ -13,7 +13,7 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Overview:</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif">Overview</h2>
 <div>
 <p class="bac nobr">10 week summer internship responsibilities may include:</p>
 <ul class="bac">
@@ -29,7 +29,7 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Qualifications:</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif">Qualifications</h2>
 <div>
 <p class="bac nobr">Ideal candidates will have the following:</p>
 <ul class="bac">
@@ -54,7 +54,7 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">How to Apply:</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif">How to Apply</h2>
 <div>
 <p class="bac"><% howToApply(program) %></p>
 </div></div>

@@ -4,26 +4,22 @@
 			<div class="prg"><div class="prg1"><div class="prg2"><div class="prg3"><div class="prg4"><div class="prg5"><div class="prg6"><div class="prg7"><div class="prg8"><div class="prgw">
 <h1 class="bac"><%=program.Item("title")%></h1>
 
-<div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Summary:</h2>
+<div class="expanded">
+<h2 class="bac"><img class="pclose" src="../images/clear.gif">Our Business</h2>
 <div>
+<h3 class="bac">Summary</h3>
 <ul class="bac">
-	<li>Locations: London and various other European and Emerging Markets (ex-Asia) locations</li>
+	<li>Locations London and various other European and Emerging Markets (ex-Asia) locations</li>
 	<li>Desk specific, varying in length from 3 - 6 months</li>
 	<li>On track for a minimum of a 2:1 degree classification (or equivalent) from any degree discipline</li>
 	<li>Fluency in English and a second European language required for some roles</li>
 </ul>
-</div></div>
-
-<div class="expanded">
-<h2 class="bac"><img class="pclose" src="../images/clear.gif">Our Business:</h2>
-<div>
 <p class="bac">Global Markets delivers a wide range of securities products and services, powerful sales and trading capabilities and deep risk management expertise across asset classes. Closely aligned with Global Corporate  &amp; Investment Banking&#39;s client-managed groups, Global Markets product specialists anticipate and meet the needs of more than 3,000 institutional investors and 7,000 issuer clients.</p>
 <p class="bac">Leveraging our local relationships and broad global capabilities, we provide our clients with ideas and market insights, trading services, analytics and new products across a broad spectrum of asset classes. These range from interest rate and credit products, foreign exchange, real estate and commodities to cash equities and equity-linked products - all with the goal of enabling our clients to maximise their performance.</p>
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Overview:</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif">Overview</h2>
 <div>
 <p class="bac nobr">Fixed term placements are available in sales, trading and structuring and based on the team you join, your responsibilities will include:</p>
 <ul class="bac">
@@ -35,7 +31,7 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Training:</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif">Training</h2>
 <div>
 <ul class="bac">
 	<li>On-the-desk training specific to your desk allocation</li>
@@ -46,7 +42,7 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Qualifications:</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif">Qualifications</h2>
 <div>
 <ul class="bac">
 	<li>Strong A-level grades and on track for a minimum 2:1 degree (or equivalent)</li>
@@ -58,13 +54,13 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Locations:</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif">Locations</h2>
 <div>
 <p class="bac">London and various other European and Emerging Markets (ex-Asia) locations</p>
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">How to Apply:</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif">How to Apply</h2>
 <div>
 <p class="bac"><% howToApply(program) %></p>
 </div></div>

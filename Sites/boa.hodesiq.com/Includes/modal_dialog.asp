@@ -15,7 +15,7 @@
 		</div>
 		<div class="clearall"></div>
 		<div class="mdv-content">
-			<iframe frameborder="0" marginheight="0" marginwidth="0" scrolling="0" width="495" height="305" src="<%=video_profile.Item("videohtml")%>"></iframe>
+			<iframe id="imodal" frameborder="0" marginheight="0" marginwidth="0" scrolling="0" width="495" height="305" src="" videosrc="<%=video_profile.Item("videohtml")%>"></iframe>
 		</div>
 		<div class="clearall"></div>
 	</div>

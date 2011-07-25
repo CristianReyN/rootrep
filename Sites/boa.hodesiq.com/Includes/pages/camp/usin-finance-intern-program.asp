@@ -5,13 +5,13 @@
 <h1 class="bac"><%=program.Item("title")%></h1>
 
 <div class="expanded">
-<h2 class="bac"><img class="pclose" src="../images/clear.gif">Our Business:</h2>
+<h2 class="bac"><img class="pclose" src="../images/clear.gif">Our Business</h2>
 <div>
 <p class="bac">To deliver a best in class Internship opportunity for Finance interns through experiential learning, training, and networking opportunities. The Finance Intern Program is designed to give associates the necessary experiences and exposure to determine their level of interest in the Finance Management Associate Program while maximizing their contributions to Bank&nbsp;of&nbsp;America.</p>
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Overview:</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif">Overview</h2>
 <div>
 <p class="bac">The objective of the Finance Intern program is to provide students with the opportunity to expand upon their academic foundation - specifically their technical skills, their knowledge of the industry and their familiarity with a corporate environment. This program will introduce the students to Bank&nbsp;of&nbsp;America, the Finance group and the Finance Management Associate Program.</p>
 <p class="bac nobr">Each Intern will participate in a Business or Corporate support role. Intern roles may support one or more of the following:</p>
@@ -29,26 +29,26 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Qualifications:</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif">Qualifications</h2>
 <div>
 <p class="bac">Candidates should be pursuing a degree in Accounting or Finance with a minimum 3.2 grade point average. Strong academics should be accompanied by competencies in critical thinking, leadership, business acumen, and relationship building.</p>
 <p class="bac">Interns receive a competitive hourly wage. The program runs from early June to early August.</p>
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Training:</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif">Training</h2>
 <div>
 <p class="bac">The Finance Intern training curriculum is comprehensive and offers a blend of classroom and web-based training, which complements the hands-on experience that the MAP associates develop in their rotational assignments. The training curriculum is geared for professionals with courses offered in three main areas: technical training, business acumen, and behavioral courses.</p>
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Locations:</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif">Locations</h2>
 <div>
 <p class="bac">Charlotte, North Carolina, California, and New York, NY</p>
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">How to Apply:</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif">How to Apply</h2>
 <div>
 <p class="bac"><% howToApply(program) %></p>
 </div></div>

@@ -5,13 +5,13 @@
 <h1 class="bac"><%=program.Item("title")%></h1>
 
 <div class="expanded">
-<h2 class="bac"><img class="pclose" src="../images/clear.gif">Our Business:</h2>
+<h2 class="bac"><img class="pclose" src="../images/clear.gif">Our Business</h2>
 <div>
 <p class="bac">Global Corporate and Investment Banking (GCIB) focuses on building long-term relationships with more than 3,000 large U.S. and multinational corporations, financial institutions and financial sponsors, by providing strong advisory expertise and capitalizing on powerful M &amp;A, corporate banking, treasury, debt and equity product expertise, to deliver integrated financial solutions.</p>
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Overview:</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif">Overview</h2>
 <div>
 <p class="bac">Summer Associates participate in an 8-10 week program based in Asia providing a unique opportunity and exposure to life in investment banking. In addition to learning opportunities there are formal and social opportunities to interact and network with senior bankers.</p>
 <h3 class="bac">Placement</h3>
@@ -52,7 +52,7 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Qualifications:</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif">Qualifications</h2>
 <div>
 <ul class="bac">
 	<li>Penultimate year full time MBA student, graduating in 2013</li>
@@ -86,19 +86,19 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Training:</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif">Training</h2>
 <div>
 <p class="bac">The Summer Associate program begins with several days of orientation, training and induction to the firm and includes relevant continuous training sessions over the internship period specific to investment banking.</p>
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Locations:</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif">Locations</h2>
 <div>
 <p class="bac">Hong Kong, Japan and Singapore</p>
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">How to Apply:</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif">How to Apply</h2>
 <div>
 <p class="bac"><% howToApply(program) %></p>
 </div></div>

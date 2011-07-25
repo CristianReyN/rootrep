@@ -5,13 +5,13 @@
 <h1 class="bac"><%=program.Item("title")%></h1>
 
 <div class="expanded">
-<h2 class="bac"><img class="pclose" src="../images/clear.gif">Our Business:</h2>
+<h2 class="bac"><img class="pclose" src="../images/clear.gif">Our Business</h2>
 <div>
 <p class="bac">Chief Financial Office (CFO) partners with all business units, performing traditional finance and accounting functions, as well as strategic analysis. CFO helps execute strategic goals, drive disciplined growth, and enhance operational efficiencies at every level. CFO is also responsible for the firm&#39;s market and credit risk management, treasury, financial and regulatory reporting and controls, corporate and strategic planning, internal audit, and tax policy, as well as regulatory supervision on a global basis.</p>
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Overview:</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif">Overview</h2>
 <div>
 <p class="bac">Chief Financial Office (CFO) Fulltime Analyst Program is designed to provide candidates with an opportunity to work with experienced finance professionals and prepare for a career in the bank&#39;s finance division.</p>
 <h3 class="bac">Placement</h3 >
@@ -29,7 +29,7 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Qualifications:</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif">Qualifications</h2>
 <div>
 <h3 class="bac">Education</h3>
 <ul class="bac">
@@ -66,7 +66,7 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Training:</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif">Training</h2>
 <div>
 <p class="bac nobr">The Fulltime Analyst Program consists of the following developmental activities:</p>
 <ul class="bac">
@@ -81,17 +81,17 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Locations:</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif">Locations</h2>
 <div>
 <p class="bac">Singapore, Hong Kong, Japan</p>
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">How to Apply:</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif">How to Apply</h2>
 <div>
 <p class="bac"><% howToApply(program) %></p>
 </div></div>
-<img src="../images/clear.gif" class="bac" alt=""><br clear="all">
+
 			<div><img src="../images/clear.gif" style="margin: 0px; height: 0px; width: 100%;" alt=""></div>
 			</div></div></div></div></div></div></div></div></div></div>
 		</div>

@@ -4,25 +4,21 @@
 			<div class="prg"><div class="prg1"><div class="prg2"><div class="prg3"><div class="prg4"><div class="prg5"><div class="prg6"><div class="prg7"><div class="prg8"><div class="prgw">
 <h1 class="bac"><%=program.Item("title")%></h1>
 
-<div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Summary:</h2>
+<div class="expanded">
+<h2 class="bac"><img class="pclose" src="../images/clear.gif">Our Business</h2>
 <div>
+<h3 class="bac">Summary</h3>
 <ul class="bac">
-	<li>Locations: London and various other European and Emerging Markets (ex-Asia) locations</li>
+	<li>Locations London and various other European and Emerging Markets (ex-Asia) locations</li>
 	<li>On track for a minimum of a 2:1 degree classification (or equivalent) from any degree discipline</li>
 	<li>Rotational programme</li>
 </ul>
-</div></div>
-
-<div class="expanded">
-<h2 class="bac"><img class="pclose" src="../images/clear.gif">Our Business:</h2>
-<div>
 <p class="bac">Merrill Lynch Wealth Management (MLWM) provides comprehensive wealth management to affluent and high-net-worth clients. It also provides retirement and benefit plan services, philanthropic management and asset management to individuals and institutions.</p>
 <p class="bac">Our clients are predominantly private individuals, ranging from smaller accounts managed by the Financial Advisory Centre, to larger accounts managed by the Advisory Group or Portfolio Managers. We also work on behalf of small charities. Across each of our client segments, our strength lies in our commitment to understanding our clients&#39; needs, and developing and implementing appropriate strategies using the expertise of professionals from across Merrill Lynch Wealth Management, Investment Banking and Capital Markets.</p>
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Overview:</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif">Overview</h2>
 <div>
 <p class="bac nobr">As an Analyst within Merrill Lynch Wealth Management, you&#39;ll:</p>
 <ul class="bac">
@@ -34,7 +30,7 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Qualifications:</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif">Qualifications</h2>
 <div>
 <ul class="bac">
 	<li>Applications are accepted from a diverse range of degree disciplines such as the arts and humanities, as well as numerically focused subjects such as economics and mathematics</li>
@@ -45,7 +41,7 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Training:</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif">Training</h2>
 <div>
 <p class="bac">Expanding the skills of our people is paramount to achieving success, so Bank&nbsp;of&nbsp;America Merrill Lynch places a great deal of emphasis on ongoing training for all staff.</p>
 <p class="bac">The training curriculum complements the hands-on experience that analysts develop in their rotational assignments. The programme combines classroom instruction, e-learning modules, case studies and presentations to develop specialised knowledge and generic soft skills. FSA exams will also be sat for London-based analysts.</p>
@@ -53,13 +49,13 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Locations:</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif">Locations</h2>
 <div>
 <p class="bac">London and various other European and Emerging Markets (ex-Asia) locations</p>
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">How to Apply:</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif">How to Apply</h2>
 <div>
 <p class="bac"><% howToApply(program) %></p>
 </div></div>

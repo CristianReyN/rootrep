@@ -5,13 +5,13 @@
 <h1 class="bac"><%=program.Item("title")%></h1>
 
 <div class="expanded">
-<h2 class="bac"><img class="pclose" src="../images/clear.gif">Our Business:</h2>
+<h2 class="bac"><img class="pclose" src="../images/clear.gif">Our Business</h2>
 <div>
 <p class="bac">Hosting Solutions Design &#38; Build (HSDB) is within the Shared Technology Infrastructure (STI) division. HSDB is responsible for delivering fully&ndash;integrated mainframe and midrange infrastructure shared services, which support transactional (online), database, messaging, OS, storage, capacity planning and application hosting, securely across Bank of America. Services include design, procurement, implementation, deployment, refresh, compliance, optimization and support services for the global environment.</p>
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Overview:</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif">Overview</h2>
 <div>
 <p class="bac">The Bank of America Intern Program is designed to provide students with mainframe technology experience, as it applies to banking.  Students are given a true associate experience, as internships mirror full&ndash;time positions and include goal&ndash;setting and a formal review process. Interns are required to work 40&ndash;hour weeks for 10&ndash;12 weeks, between the months of May and September. On&ndash;the&ndash;job training, mentoring relationships, and networking opportunities are provided for all interns.</p>
 <p class="bac">The HSDB College Hire Program recruits the potential next generation of mainframe technicians. A summer internship is offered to rising seniors, giving them hands&ndash;on mainframe experience. At the end of the 10&ndash;week program, students may be offered a full&ndash;time associate position.</p>
@@ -34,7 +34,7 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Qualifications:</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif">Qualifications</h2>
 <div>
 <ul class="bac">
 	<li>Must be a college senior enrolled in a full&ndash;time degree program, pursuing a major in Computer Science, Business Management or Information Technology</li>
@@ -47,7 +47,7 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Locations:</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif">Locations</h2>
 <div>
 <p class="bac">Richmond, VA</p>
 </div></div>
@@ -59,7 +59,7 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">How to Apply:</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif">How to Apply</h2>
 <div>
 <p class="bac"><% howToApply(program) %></p>
 </div></div>

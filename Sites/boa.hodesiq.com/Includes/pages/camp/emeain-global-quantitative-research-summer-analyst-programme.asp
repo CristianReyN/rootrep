@@ -4,25 +4,21 @@
 			<div class="prg"><div class="prg1"><div class="prg2"><div class="prg3"><div class="prg4"><div class="prg5"><div class="prg6"><div class="prg7"><div class="prg8"><div class="prgw">
 <h1 class="bac"><%=program.Item("title")%></h1>
 
-<div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Summary:</h2>
+<div class="expanded">
+<h2 class="bac"><img class="pclose" src="../images/clear.gif">Our Business</h2>
 <div>
+<h3 class="bac">Summary</h3>
 <ul class="bac">
 	<li>Location: London.</li>
 	<li>9 week, rotational programme from June - August.</li>
 	<li>Fluency in English. A second European language may also be advantageous.</li>
 </ul>
-</div></div>
-
-<div class="expanded">
-<h2 class="bac"><img class="pclose" src="../images/clear.gif">Our Business:</h2>
-<div>
 <p class="bac">The Quantitative Research Division is an integral component of the products the firm offers to clients. We provide clients with actionable investment ideas and solutions in the equity derivatives market. Research is based on quantitative analysis of the market environment, and requires a broad and deep understanding of the relevant derivative instruments and client risk/return profiles.</p>
 <p class="bac">The summer programme focuses on quantitative research within the Research division and includes the equity derivatives, interest rate derivatives and commodities research groups. These groups produce client-driven quantitative research in some of the fastest growing areas in the global financial markets.</p>
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Overview:</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif">Overview</h2>
 <div>
 <p class="bac nobr">As a Summer Intern within Global Quantitative Research, you will:</p>
 <ul class="bac">
@@ -34,7 +30,7 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Training:</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif">Training</h2>
 <div>
 <p class="bac nobr">Your internship will involve rotations amongst different desks within the business group which means you get a good overview of the business in detail. Training includes:</p>
 <ul class="bac">
@@ -47,7 +43,7 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Qualifications:</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif">Qualifications</h2>
 <div>
 <ul class="bac">
 	<li>We&#39;re looking for a strong academic background in quantitative analysis (econometrics/ statistics/applied mathematics). A finance and economics or financial mathematics related subject at masters level is desirable.</li>
@@ -58,13 +54,13 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Locations:</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif">Locations</h2>
 <div>
 <p class="bac">London</p>
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">How to Apply:</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif">How to Apply</h2>
 <div>
 <p class="bac"><% howToApply(program) %></p>
 </div></div>

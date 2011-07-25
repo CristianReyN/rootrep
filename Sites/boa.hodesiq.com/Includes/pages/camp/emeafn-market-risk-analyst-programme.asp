@@ -4,20 +4,16 @@
 			<div class="prg"><div class="prg1"><div class="prg2"><div class="prg3"><div class="prg4"><div class="prg5"><div class="prg6"><div class="prg7"><div class="prg8"><div class="prgw">
 <h1 class="bac"><%=program.Item("title")%></h1>
 
-<div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Summary:</h2>
+<div class="expanded">
+<h2 class="bac"><img class="pclose" src="../images/clear.gif">Our Business</h2>
 <div>
+<h3 class="bac">Summary</h3>
 <ul class="bac">
 	<li>Location: London</li>
 	<li>Strong A-level grades and a first-class degree, or good 2:1 in a numerical discipline</li>
 	<li>Fluency in English and a second language may also be advantageous</li>
 	<li>Desk specific programme</li>
 </ul>
-</div></div>
-
-<div class="expanded">
-<h2 class="bac"><img class="pclose" src="../images/clear.gif">Our Business:</h2>
-<div>
 <p class="bac">Global Risk Management is responsible for protecting the company through independent, objective oversight of risk.</p>
 <p class="bac">We effectively manage risk and reward for each of the company&#39;s major lines of business. The foundation of Bank&nbsp;of&nbsp;America Merrill Lynch&#39;s risk governance is individual accountability and adherence to the highest standards of conduct. We strive to do the right thing, and to do things right. Understanding, identifying and managing risk and reward is part of every associate&#39;s job.</p>
 <p class="bac">The Risk teams provide direct support to the lines of business and are responsible for establishing risk management policies, limits, standards, controls, metrics and thresholds within the defined corporate standards. They also set enterprise policies, programmes and standards; assess programme adherence; and provide enterprise-level risk oversight, reporting and monitoring for systemic risk issues.</p>
@@ -25,7 +21,7 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Overview:</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif">Overview</h2>
 <div>
 <p class="bac nobr">As a Market Risk Analyst, you will:</p>
 <ul class="bac">
@@ -36,14 +32,14 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Training:</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif">Training</h2>
 <div>
 <p class="bac">Training begins in the Summer when you will join newly-hired analysts from around the world for an intensive few weeks to learn about our company, its culture and all the relevant tools, techniques and working practices. You&#39;ll also receive grounding in your chosen business area, as you develop your professional skills and team-working capabilities.</p>
 <p class="bac">On return to your local office, you&#39;ll take on additional responsibility at an early stage. With on-going development opportunities throughout the programme you&#39;ll be encouraged to grow your abilities through on-the-job learning, structured training and study towards your professional qualifications. We&#39;ll support and reward you on the basis of your individual performance.</p>
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Qualifications:</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif">Qualifications</h2>
 <div>
 <ul class="bac">
 	<li>Market Risk Analysts need a first-class degree, or good 2.1 in a numerical discipline (Natural Sciences, Maths, MORSE, Economics, etc)</li>
@@ -53,13 +49,13 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Locations:</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif">Locations</h2>
 <div>
 <p class="bac">London</p>
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">How to Apply:</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif">How to Apply</h2>
 <div>
 <p class="bac"><% howToApply(program) %></p>
 </div></div>

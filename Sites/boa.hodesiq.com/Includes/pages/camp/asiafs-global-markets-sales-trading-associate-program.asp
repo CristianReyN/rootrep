@@ -5,13 +5,13 @@
 <h1 class="bac"><%=program.Item("title")%></h1>
 
 <div class="expanded">
-<h2 class="bac"><img class="pclose" src="../images/clear.gif">Our Business:</h2>
+<h2 class="bac"><img class="pclose" src="../images/clear.gif">Our Business</h2>
 <div>
 <p class="bac">Global Markets delivers a wide range of securities products and services, powerful sales and trading capabilities, and deep risk management expertise across asset classes. Closely aligned with GCIB&#39;s client-managed groups, Global Markets&#39; Product Specialists anticipate and meet the needs of more than 3,000 institutional investors and 7,000 issuer clients.</p>
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Overview:</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif">Overview</h2>
 <div>
 <h3 class="bac">Placement</h3>
 <p class="bac">Associates are hired and placed directly with a specific team. Placement is determined during the hiring process matching the business needs and the interests/skills of the Associate. The various teams include (not all groups exist in all countries):</p>
@@ -46,7 +46,7 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Qualifications:</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif">Qualifications</h2>
 <div>
 <h3 class="bac">Education</h3>
 <ul class="bac">
@@ -85,7 +85,7 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Training:</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif">Training</h2>
 <div>
 <p class="bac">Full-time Associates are hired upon completion of their undergraduate/master&#39;s degree. Your career as an Associate will begin with a formal training program which takes place in New York for all Associates globally, and is considered one of the best in the industry. Instruction is provided by Bank&nbsp;of&nbsp;America professionals and leading business school professors.</p>
 <p class="bac nobr">The training program includes:</p>
@@ -98,13 +98,13 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Locations:</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif">Locations</h2>
 <div>
 <p class="bac">Hong Kong, Japan and Singapore</p>
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">How to Apply:</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif">How to Apply</h2>
 <div>
 <p class="bac"><% howToApply(program) %></p>
 </div></div>

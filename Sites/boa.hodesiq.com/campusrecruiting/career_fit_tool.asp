@@ -1,4 +1,6 @@
-<% Response.Buffer=True 
+<%
+Response.Redirect("../campus-find-your-fit.aspx")
+Response.Buffer=True 
 Dim title, mpage, spage, ada_href, ada_title, Metatag%>
 <!-- #include file="../includes/breadcrumb.asp" -->
 <% title = breadcrumb & "Campus Recruiting | Find Your Fit | Career Fit Tool"

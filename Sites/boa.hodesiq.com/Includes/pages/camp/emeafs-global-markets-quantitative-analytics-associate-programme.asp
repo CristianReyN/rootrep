@@ -4,26 +4,22 @@
 			<div class="prg"><div class="prg1"><div class="prg2"><div class="prg3"><div class="prg4"><div class="prg5"><div class="prg6"><div class="prg7"><div class="prg8"><div class="prgw">
 <h1 class="bac"><%=program.Item("title")%></h1>
 
-<div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Summary:</h2>
+<div class="expanded">
+<h2 class="bac"><img class="pclose" src="../images/clear.gif">Our Business</h2>
 <div>
+<h3 class="bac">Summary</h3>
 <ul class="bac">
 	<li>Location: London</li>
 	<li>Full Time, desk specific programme commencing annually in November</li>
 	<li>PhD or equivalent advanced degree in a mathematical or financial discipline from a top-tier University</li>
 	<li>Fluency in English and a second European language may also be required for some roles</li>
 </ul>
-</div></div>
-
-<div class="expanded">
-<h2 class="bac"><img class="pclose" src="../images/clear.gif">Our Business:</h2>
-<div>
 <p class="bac">Global Markets delivers a wide range of securities products and services, powerful sales and trading capabilities, and deep risk management expertise across asset classes. Closely aligned with Global Corporate  &amp; Investment Banking&#39;s client-managed groups, Global Markets product specialists anticipate and meet the needs of more than 3,000 institutional investors and 7,000 issuer clients.</p>
 <p class="bac">The Global Markets Quantitative Analytics group provides the mathematical infrastructure for all sales and trading activity within the company. As a valued cornerstone of the company&#39;s capacity to generate revenue in today&#39;s markets, the group plays a vital role by inventing, designing and implementing all pricing and hedging models used within the Global Markets business.</p>
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Overview:</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif">Overview</h2>
 <div>
 <p class="bac nobr">Associates will be assigned to a specific team on one of our Equity, Credit, Foreign Exchange, Rates and Commodities desks and the day to day responsibilities will vary accordingly. Typically, you will:</p>
 <ul class="bac">
@@ -35,7 +31,7 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Training:</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif">Training</h2>
 <div>
 <p class="bac nobr">We offer a bespoke development programme, unique to our quantitative hires including:</p>
 <ul class="bac">
@@ -47,19 +43,19 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Qualifications:</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif">Qualifications</h2>
 <div>
 <p class="bac">You will need an advanced degree/PhD in a mathematical or financial discipline, along with a strong quantitative background and impressive problem-solving, analytical and communication skills. The ability to think creatively will be essential, as will familiarity with programming.</p>
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Locations:</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif">Locations</h2>
 <div>
 <p class="bac">London</p>
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">How to Apply:</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif">How to Apply</h2>
 <div>
 <p class="bac"><% howToApply(program) %></p>
 </div></div>

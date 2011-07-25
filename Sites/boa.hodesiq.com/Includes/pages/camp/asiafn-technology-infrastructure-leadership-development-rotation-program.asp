@@ -5,19 +5,19 @@
 <h1 class="bac"><%=program.Item("title")%></h1>
 
 <div class="expanded">
-<h2 class="bac"><img class="pclose" src="../images/clear.gif">Our Business:</h2>
+<h2 class="bac"><img class="pclose" src="../images/clear.gif">Our Business</h2>
 <div>
 <p class="bac">Enterprise Change Technology  &amp; Operation (ECT &amp;O) executes on Bank&nbsp;of&nbsp;America customer, client and associate needs and requests, through technology, systems and call centers, among other tools and channels. This includes mainframe, mid-range and distributed server operations; client server technology; local and wide area network functions; telecommunications; and other critical systems. ET &amp;D teams include Infrastructure Engineering, Infrastructure Operations, Enterprise Applications, Shared Services, Associate Technology, Communication  &amp; Innovation, Enterprise Information Management, China Construction Bank, Business Management Services and Global Delivery Center of Expertise.</p>
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Overview:</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif">Overview</h2>
 <div>
 <p class="bac">The Technology Infrastructure Leadership Development Rotation Program (LDR) is an undergraduate rotational program designed to provide external candidates with an opportunity to prepare for future leadership positions in the company&#39;s technology division. This high visibility program will give participants the chance to experience two one-year rotational assignments, in different divisions within Enterprise Technology and Delivery.</p>
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Qualifications:</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif">Qualifications</h2>
 <div>
 <p class="bac">The ideal candidate exhibits a strong drive for results; displays a sense of urgency; succeeds in a collaborative environment; enjoys teamwork and partnering with others; and understands technology and business requirements. The ideal candidate will possess excellent organization skills and judgment; ability to learn the organizational structure and the formal/informal workings of the company; and a strong desire to create customer and associate satisfaction and drive shareholders value. The ideal candidate will be proficient with the Microsoft Suite and other basic applications such as Outlook. Technical skills should include knowledge of several of the following technologies: UNIX, Windows NT/2000, network architecture, databases, desktop and server hardware, information security concepts and technologies, project management skills and financial industry knowledge. Candidates must be enrolled in a full-time degree program, pursuing a major in Computer Science, Business, Engineering, or Information Technology.</p>
 <h3 class="bac">Associate Responsibilities:</h3>
@@ -32,17 +32,17 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Locations:</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif">Locations</h2>
 <div>
 <p class="bac">Hong Kong, Japan, Singapore</p>
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">How to Apply:</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif">How to Apply</h2>
 <div>
 <p class="bac"><% howToApply(program) %></p>
 </div></div>
-<img src="../images/clear.gif" class="bac" alt=""><br clear="all">
+
 			<div><img src="../images/clear.gif" style="margin: 0px; height: 0px; width: 100%;" alt=""></div>
 			</div></div></div></div></div></div></div></div></div></div>
 		</div>

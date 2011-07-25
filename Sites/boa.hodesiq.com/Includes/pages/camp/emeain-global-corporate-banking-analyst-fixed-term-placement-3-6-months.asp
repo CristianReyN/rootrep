@@ -4,25 +4,21 @@
 			<div class="prg"><div class="prg1"><div class="prg2"><div class="prg3"><div class="prg4"><div class="prg5"><div class="prg6"><div class="prg7"><div class="prg8"><div class="prgw">
 <h1 class="bac"><%=program.Item("title")%></h1>
 
-<div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Summary:</h2>
+<div class="expanded">
+<h2 class="bac"><img class="pclose" src="../images/clear.gif">Our Business</h2>
 <div>
+<h3 class="bac">Summary</h3>
 <ul class="bac">
-	<li>Locations: London and various other European and Emerging Markets (ex-Asia) locations</li>
+	<li>Locations London and various other European and Emerging Markets (ex-Asia) locations</li>
 	<li>3-6 months throughout the year on a business need basis</li>
 	<li>On track for a minimum of a 2:1 degree classification (or equivalent) from any degree discipline</li>
 	<li>Fluency in English and a second European language may also be required for some roles</li>
 </ul>
-</div></div>
-
-<div class="expanded">
-<h2 class="bac"><img class="pclose" src="../images/clear.gif">Our Business:</h2>
-<div>
 <p class="bac">The Global Corporate Banking group serves a diverse corporate client base. We have a significant presence in the Americas, Europe, Emerging Markets (ex-Asia) and Asia Pacific, serving clients in virtually all countries. We provide our clients with a range of services fundamental to their business, including strategic and financing advice, restructurings and risk management solutions, as well as capital raisings from both the public markets and private sources. We serve our clients through teams of professionals that bring together the full capabilities of the bank to satisfy one goal: helping our clients succeed.</p>
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Overview:</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif">Overview</h2>
 <div>
 <p class="bac nobr">As an intern within Global Corporate Banking, you will:</p>
 <ul class="bac">
@@ -34,7 +30,7 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Training:</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif">Training</h2>
 <div>
 <ul class="bac">
 	<li>On-the-desk training specific to your desk allocation</li>
@@ -45,7 +41,7 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Qualifications:</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif">Qualifications</h2>
 <div>
 <ul class="bac">
 	<li>Applications are accepted from a diverse range of degree disciplines such as the arts and humanities, as well as numerically focused subjects such as economics and mathematics</li>
@@ -57,13 +53,13 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Locations:</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif">Locations</h2>
 <div>
 <p class="bac">London and various other European and Emerging Markets (ex-Asia) locations</p>
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">How to Apply:</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif">How to Apply</h2>
 <div>
 <p class="bac"><% howToApply(program) %></p>
 </div></div>

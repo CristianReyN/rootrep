@@ -45,11 +45,17 @@ jQuery(document).ready(function(){
 		$('#modal-dialog').css({width:'507px'});
 		$('#mdvideo').show();
 		$('#mdtrans').hide();
-		$('#modal-dialog').modal( { opacity: 50, position: ['99', '160'] } );
+		$('#modal-dialog').modal({
+			opacity: 50,
+			position: ['99', '160'],
+			onShow: function() {
+				var iframe = $('#imodal').get(0);
+				if (iframe) iframe.src = iframe.getAttribute('videosrc');
+			}
+		});
 		return false;
 	});
  });
- 
  
  
  (function($){ 		  

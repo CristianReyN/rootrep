@@ -5,13 +5,13 @@
 <h1 class="bac"><%=program.Item("title")%></h1>
 
 <div class="expanded">
-<h2 class="bac"><img class="pclose" src="../images/clear.gif">Our Business:</h2>
+<h2 class="bac"><img class="pclose" src="../images/clear.gif">Our Business</h2>
 <div>
 <p class="bac">Bank&nbsp;of&nbsp;America&#39;s Corporate Security Division is seeking dynamic individuals who are interested in joining the team. By joining Corporate Security you will develop leadership skills, foster strategic thinking, and gain a firm understanding of the Corporate Security business model. The associate will be hired into one of Corporate Security&#39;s key disciplines: Investigative Services, Background Screening Investigations, or Protective Services.</p>
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Overview:</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif">Overview</h2>
 <div>
 <p class="bac nobr">The Corporate Security Analyst, depending on assignment, may take on roles and responsibilities within the following functions:</p>
 <ul class="bac">
@@ -23,7 +23,7 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Qualifications:</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif">Qualifications</h2>
 <div>
 <ul class="bac">
 	<li>BA/BS in Criminal Justice, Business Management, Finance, International Business, or other related area</li>
@@ -49,13 +49,13 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Locations:</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif">Locations</h2>
 <div>
 <p class="bac">Charlotte, North Carolina o New York, NY</p>
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">How to Apply:</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif">How to Apply</h2>
 <div>
 <p class="bac"><% howToApply(program) %></p>
 </div></div>

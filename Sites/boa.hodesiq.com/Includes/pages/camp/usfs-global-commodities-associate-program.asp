@@ -5,7 +5,7 @@
 <h1 class="bac"><%=program.Item("title")%></h1>
 
 <div class="expanded">
-<h2 class="bac"><img class="pclose" src="../images/clear.gif">Our Business:</h2>
+<h2 class="bac"><img class="pclose" src="../images/clear.gif">Our Business</h2>
 <div>
 <p class="bac">Merrill Lynch Global Commodities (MLC) is a leading global energy trading, marketing and risk management company. Our core capabilities include the trading of natural gas, power, emissions, crude and refined products, coal metals, commodity indices, and structured notes. We also provide a comprehensive range of standard and customized wholesale energy market solutions for customers with natural gas, power, multi-fuel, and weather-related business opportunities such as asset optimization, risk management and structured products.</p>
 <p class="bac nobr">Our business focuses on four key areas:</p>
@@ -18,7 +18,7 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Overview:</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif">Overview</h2>
 <div>
 <h3 class="bac">Responsibilities <span class="normal">(Vary by placement)</span></h3>
 <p class="bac nobr">Associates are called on to:</p>
@@ -32,7 +32,7 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Qualifications:</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif">Qualifications</h2>
 <div>
 <h3 class="bac">Education</h3>
 <ul class="bac">
@@ -58,19 +58,19 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Training:</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif">Training</h2>
 <div>
 <p class="bac">As a Commodities Associate you will begin your career at Bank&nbsp;of&nbsp;America Merrill Lynch with an intensive training program. Initially, you will train with your peers from other lines of business. You will then participate in a program designed specifically for Global Markets Analysts. The program is an interactive, experientially based mix of group projects, e-learning, lectures, case studies, business representative presentations and teambuilding activities which will provide you with a solid grounding in global markets and economics and how Bank&nbsp;of&nbsp;America&#39;s businesses, products and services operate in this global context. Throughout the program you will have ample opportunity to meet and work with your peers and other colleagues across all levels of the Bank. The network you build during this time will be a tremendous resource to you throughout your career.</p>
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Locations:</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif">Locations</h2>
 <div>
 <p class="bac">Houston, TX</p>
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">How to Apply:</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif">How to Apply</h2>
 <div>
 <p class="bac"><% howToApply(program) %></p>
 </div></div>

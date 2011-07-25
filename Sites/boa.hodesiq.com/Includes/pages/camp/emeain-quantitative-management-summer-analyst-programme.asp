@@ -4,26 +4,22 @@
 			<div class="prg"><div class="prg1"><div class="prg2"><div class="prg3"><div class="prg4"><div class="prg5"><div class="prg6"><div class="prg7"><div class="prg8"><div class="prgw">
 <h1 class="bac"><%=program.Item("title")%></h1>
 
-<div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Summary:</h2>
+<div class="expanded">
+<h2 class="bac"><img class="pclose" src="../images/clear.gif">Our Business</h2>
 <div>
+<h3 class="bac">Summary</h3>
 <ul class="bac">
 	<li>Primary location: London</li>
 	<li>9 week programme from June to August</li>
 	<li>Strong A-level grades and a first-class degree, or good 2:1 in a numerical discipline</li>
 	<li>Gain real, in-depth experience applying quantitative knowledge to specific financial challenges</li>
 </ul>
-</div></div>
-
-<div class="expanded">
-<h2 class="bac"><img class="pclose" src="../images/clear.gif">Our Business:</h2>
-<div>
 <p class="bac">The internship programme is a precursor to the Quantitative Management Analyst Programme (QMAP). This programme is designed to develop and coach analytical and quantitative talent to be deployed throughout various Bank&nbsp;of&nbsp;America business groups.</p>
 <p class="bac">The programme consists of two one year rotations in quantitative disciplines along with customized training and continuing education. Upon completion of the program, QMAP graduates have a broad range of global career opportunities within the bank.</p>
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Overview:</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif">Overview</h2>
 <div>
 <p class="bac">As an Intern within Quantitative Management, you will:</p>
 <ul class="bac">
@@ -34,7 +30,7 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Training:</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif">Training</h2>
 <div>
 <p class="bac">The programme is designed to help you decide whether our offer matches your aspirations and includes:</p>
 <ul class="bac">
@@ -46,7 +42,7 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Qualifications:</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif">Qualifications</h2>
 <div>
 <p class="bac">The Quantitative Management Analyst Programme is seeking a combination of academic aptitude and quantitative skills including:</p>
 <ul class="bac">
@@ -58,13 +54,13 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Locations:</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif">Locations</h2>
 <div>
 <p class="bac">London</p>
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">How to Apply:</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif">How to Apply</h2>
 <div>
 <p class="bac"><% howToApply(program) %></p>
 </div></div>

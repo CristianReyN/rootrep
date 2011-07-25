@@ -5,12 +5,12 @@
 <h1 class="bac"><%=program.Item("title")%></h1>
 
 <div class="expanded">
-<h2 class="bac"><img class="pclose" src="../images/clear.gif">Our Business:</h2>
+<h2 class="bac"><img class="pclose" src="../images/clear.gif">Our Business</h2>
 <div>
 <h3 class="bac">Mission Statement:</h3>
 <p class="bac">To create a sustainable, competitive advantage for Bank&nbsp;of&nbsp;America by delivering value from the supply base, implementing flawless supply chain processes, managing risk and delivering on operational excellence"</p>
 <p class="bac">Functions supported within SCM are sourcing and supplier management of goods and services, operations, supplier diversity  &amp; development, analytics and support services.</p>
-<h3 class="bac">Global SCM MBA Overview:</h3>
+<h3 class="bac">Global SCM MBA Overview</h3>
 <ul class="bac">
 	<li>Align business tactical plans and supply chain with lines of business strategy, balancing demands and capacity to consistently meet customer expectations, and increasing productivity and customer satisfaction</li>
 	<li>Be a key advisor in developing supply strategy, identifying opportunities, and providing supply expertise for Consumer and Small Business Line of business partners</li>
@@ -27,7 +27,7 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Qualifications:</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif">Qualifications</h2>
 <div>
 <ul class="bac">
 	<li>MBA degree</li>
@@ -49,13 +49,13 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Locations:</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif">Locations</h2>
 <div>
 <p class="bac">Charlotte, North Carolina</p>
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">How to Apply:</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif">How to Apply</h2>
 <div>
 <p class="bac"><% howToApply(program) %></p>
 </div></div>

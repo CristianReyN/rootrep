@@ -5,13 +5,13 @@
 <h1 class="bac"><%=program.Item("title")%></h1>
 
 <div class="expanded">
-<h2 class="bac"><img class="pclose" src="../images/clear.gif">Our Business:</h2>
+<h2 class="bac"><img class="pclose" src="../images/clear.gif">Our Business</h2>
 <div>
 <p class="bac">Risk Managers develop a deep subject matter expertise in our Global Markets businesses, and, as trusted advisors to the various trading and sales business lines, engage in active dialogue with the risks takers to fully articulate the nature of the risk and provide transparency of risk to senior management.</p>
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Overview:</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif">Overview</h2>
 <div>
 <p class="bac">The Markets Risk Analyst Program is designed to develop and coach analytical and quantitative talent to be deployed as a Risk Analyst within the Global Markets Risk Management (GMRM) organization.</p>
 <ul class="bac">
@@ -22,7 +22,7 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Qualifications:</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif">Qualifications</h2>
 <div>
 <p class="bac nobr">The Markets Risk Analyst Program is seeking a combination of academic aptitude and quantitative skills including:</p>
 <ul class="bac">
@@ -38,7 +38,7 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Training:</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif">Training</h2>
 <div>
 <p class="bac">The training curriculum is part of a multi&ndash;phase program that complements and enhances the hands&ndash;on experience the associates develop in their day&ndash;to&ndash;day jobs. As an analyst you will begin your career at Bank&nbsp;of&nbsp;America Merrill Lynch with a 6 week extensive training program. The first part of the program combines analysts from all lines of business and the full program is a combination of classroom instruction, e&ndash;learning modules, case studies and presentations. Throughout this training program you will have ample opportunities to work closely with professionals and peers across the organization. This is a great opportunity to build a network of colleagues from across the company that will prove to be a tremendous resource to you throughout your career. For the second part of the program you will work in a specific product group.</p>
 <p class="bac">Other phases of the training curriculum are designed to provide a broad introduction to core concepts and theories of risk management that the associates will encounter during their career at Bank&nbsp;of&nbsp;America. The training curriculum is geared for young professionals and includes both classroom and web&ndash;based components.</p>
@@ -54,13 +54,13 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Locations:</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif">Locations</h2>
 <div>
 <p class="bac">New York, NY</p>
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">How to Apply:</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif">How to Apply</h2>
 <div>
 <p class="bac"><% howToApply(program) %></p>
 </div></div>

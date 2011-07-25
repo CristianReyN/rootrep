@@ -5,14 +5,14 @@
 <h1 class="bac"><%=program.Item("title")%></h1>
 
 <div class="expanded">
-<h2 class="bac"><img class="pclose" src="../images/clear.gif">Our Business:</h2>
+<h2 class="bac"><img class="pclose" src="../images/clear.gif">Our Business</h2>
 <div>
 <p class="bac">Bank&nbsp;of&nbsp;America Merrill Lynch Sales  &amp; Trading professionals deliver innovative solutions and exceptional execution to help clients meet their complex financial objectives. We make markets in virtually all major asset classes, covering both the Debt and Equity product spectrums. We are active in both the Cash and Derivative markets. We have a global presence, with offices throughout the United States, Europe and Asia.</p>
 <p class="bac">The Bank&nbsp;of&nbsp;America Merrill Lynch Global Quantitative Analysis group is responsible for proving analytical and modeling support to the various divisions in the Sales and Trading organization including equities, rates, credit, foreign exchange and commodities. We are responsible for developing and supporting the analytical models used by the desks for transaction pricing and risk management, analyzing new products and models, helping price transactions and a variety of other ad-hoc analytical requests.</p>
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Overview:</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif">Overview</h2>
 <div>
 <p class="bac">As a quantitative analyst you will focus on a specific product area within the overall quantitative group.</p>
 <h3 class="bac">Responsibilities <span class="normal">(varies with specific assignment):</span></h3>
@@ -33,7 +33,7 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Qualifications:</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif">Qualifications</h2>
 <div>
 <h3 class="bac">Education</h3>
 <ul class="bac">
@@ -57,7 +57,7 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Training:</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif">Training</h2>
 <div>
 <p class="bac">A 10-week program including formal training and assignment in the Global Quantitative Group. One week of training followed by a 9 week assignment to a specific quantitative group.</p>
 <h3 class="bac">Program Highlights</h3>
@@ -71,13 +71,13 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Locations:</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif">Locations</h2>
 <div>
 <p class="bac">Opportunities in New York and Chicago (based on candidate preferences and business needs).</p>
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">How to Apply:</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif">How to Apply</h2>
 <div>
 <p class="bac"><% howToApply(program) %></p>
 </div></div>

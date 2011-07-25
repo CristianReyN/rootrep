@@ -5,21 +5,17 @@
 <h1 class="bac"><%=program.Item("title")%></h1>
 
 <div class="expanded">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Summary:</h2>
+<h2 class="bac"><img class="pclose" src="../images/clear.gif">Our Business</h2>
 <div>
+<h3 class="bac">Summary</h3>
 <ul class="bac">
 	<li>Strong A&ndash;level grades and on track for a minimum 2:1 degree (or equivalent)</li>
 	<li>Knowledge of several of the following: UNIX, Windows NT/2000, network architecture, databases, desktop and server hardware, information security concepts and technologies</li>
-	<li>Locations: Opportunities in London, Camberley, Croydon and Chester (all UK)</li>
+	<li>Locations Opportunities in London, Camberley, Croydon and Chester (all UK)</li>
 	<li>12&ndash;month rotational placement</li>
 	<li>Online application form</li>
 	<li>Application Deadline: 17 December 2010</li>
 </ul>
-</div></div>
-
-<div class="expanded">
-<h2 class="bac"><img class="pclose" src="../images/clear.gif">Our Business:</h2>
-<div>
 <p class="bac">
 Enterprise Technology and Delivery (ET&#38;D) meets the needs of Bank of America customers, clients and associates through technology, systems, call centres, and other tools and channels. These include mainframe, mid&ndash;range and distributed server operations; client server technology; local and wide area network functions; telecommunications and other critical systems. 
 </p>
@@ -29,7 +25,7 @@ ET&#38;D teams include Infrastructure Engineering, Infrastructure Operations, En
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Overview:</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif">Overview</h2>
 <div>
 <p class="bac">
 The 12&ndash;month fixed term placement scheme within this group is a precursor to the Enterprise Technology and Delivery Analyst Programme (ET&#38;D LDR). This programme is a Leadership Development Rotational Programme, designed to provide graduates with an opportunity to prepare for future leadership positions in the company&#39;s technology division.  
@@ -46,7 +42,7 @@ The 12&ndash;month fixed term placement scheme within this group is a precursor 
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Qualifications:</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif">Qualifications</h2>
 <div>
 <p class="bac">
 As well as being conversant with the Microsoft Suite and other basic applications, such as Outlook, your technical skills should include knowledge of several of the following: UNIX, Windows NT/2000, network architecture, databases, desktop and server hardware, information security concepts and technologies. A strong drive for results, a sense of urgency and financial industry knowledge will be important.
@@ -57,7 +53,7 @@ Underlying all this, you must be dedicated to a career in banking technology. In
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Training:</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif">Training</h2>
 <div>
 <p class="bac">
 The best opportunity to learn about working life at the company is to experience it first&ndash;hand through our 12&ndash;month placement programme, which will involve two 6&ndash;month rotations. You&#39;ll benefit from the various components of the scheme for your first nine weeks, as well as being part of one of our core ET&#38;D groups. Working on real tasks, problems, issues or projects alongside our technologists, you can expect a unique learning opportunity and exposure to life at a leading investment bank. 
@@ -77,7 +73,7 @@ If you perform well during your time, you may go back to university with a job o
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Locations:</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif">Locations</h2>
 <div>
 <p class="bac">
 Opportunities in London, Camberley, Croydon and Chester (all UK)
@@ -85,7 +81,7 @@ Opportunities in London, Camberley, Croydon and Chester (all UK)
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">How to Apply:</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif">How to Apply</h2>
 <div>
 <p class="bac"><% howToApply(program) %></p>
 </div></div>

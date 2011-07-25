@@ -5,13 +5,13 @@
 <h1 class="bac"><%=program.Item("title")%></h1>
 
 <div class="expanded">
-<h2 class="bac"><img class="pclose" src="../images/clear.gif">Our Business:</h2>
+<h2 class="bac"><img class="pclose" src="../images/clear.gif">Our Business</h2>
 <div>
 <p class="bac">Global Treasury Services (GTS) provides integrated working capital management and treasury solutions to more than 150,000 clients around the world, including small businesses, middle-market and large corporations, multi-nationals, financial institutions and governments. GTS offers services including treasury management, trade finance, foreign exchange, short-term credit, liquidity management, commercial card, merchant services and group banking. Bank&nbsp;of&nbsp;America is the number-one treasury and trade services provider in the United States and a leading provider worldwide. GTS associates serve as financial advisors to clients by combining treasury management expertise with a thorough understanding of each client&#39;s business and industry.</p>
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Overview:</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif">Overview</h2>
 <div>
 <p class="bac">GTS Fulltime Analyst Program is designed to provide candidates with an opportunity to work with experienced Sales or Credit professionals and prepare for a career in the bank&#39;s GTS division.</p>
 <h3 class="bac">Job Description</h3>
@@ -19,7 +19,7 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Qualifications:</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif">Qualifications</h2>
 <div>
 <h3 class="bac">Education</h3>
 <ul class="bac">
@@ -55,7 +55,7 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Training:</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif">Training</h2>
 <div>
 <p class="bac nobr">The Fulltime Analyst program consists of the following developmental activities:</p>
 <ul class="bac">
@@ -70,17 +70,17 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Locations:</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif">Locations</h2>
 <div>
 <p class="bac">Singapore, Hong Kong or Japan</p>
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">How to Apply:</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif">How to Apply</h2>
 <div>
 <p class="bac"><% howToApply(program) %></p>
 </div></div>
-<img src="../images/clear.gif" class="bac" alt=""><br clear="all">
+
 			<div><img src="../images/clear.gif" style="margin: 0px; height: 0px; width: 100%;" alt=""></div>
 			</div></div></div></div></div></div></div></div></div></div>
 		</div>

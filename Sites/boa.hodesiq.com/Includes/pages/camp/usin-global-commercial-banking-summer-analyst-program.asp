@@ -5,7 +5,7 @@
 <h1 class="bac"><%=program.Item("title")%></h1>
 
 <div class="expanded">
-<h2 class="bac"><img class="pclose" src="../images/clear.gif">Our Business:</h2>
+<h2 class="bac"><img class="pclose" src="../images/clear.gif">Our Business</h2>
 <div>
 <p class="bac">Global Commercial Banking (GCB) serves more than 100,000 business banking, and more than 30,000 middle-market, clients through dedicated client teams, who provide seamless delivery of the company&#39;s full capabilities, including investment banking and M &amp;A, wealth and investment management, integrated credit and treasury solutions, and international banking services.</p>
 <p class="bac nobr">GCB consists of six core businesses including:</p>
@@ -20,7 +20,7 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Overview:</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif">Overview</h2>
 <div>
 <p class="bac">Summer Analysts are provided corporate experiences with one of the six core business within Global Commercial Banking.</p>
 <p class="bac nobr">Responsibilities include:</p>
@@ -33,7 +33,7 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Qualifications:</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif">Qualifications</h2>
 <div>
 <ul class="bac">
 	<li>Rising senior with outstanding academic qualifications</li>
@@ -47,7 +47,7 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Training:</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif">Training</h2>
 <div>
 <ul class="bac">
 	<li>Formal training providing overviews of Bank&nbsp;of&nbsp;America Merrill Lynch, its business divisions, organizational structure, product groups and technology</li>
@@ -58,13 +58,13 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Locations:</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif">Locations</h2>
 <div>
 <p class="bac">Positions are available in major markets across the Bank&nbsp;of&nbsp;America Merrill Lynch footprint.</p>
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">How to Apply:</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif">How to Apply</h2>
 <div>
 <p class="bac"><% howToApply(program) %></p>
 </div></div>

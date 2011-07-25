@@ -4,25 +4,21 @@
 			<div class="prg"><div class="prg1"><div class="prg2"><div class="prg3"><div class="prg4"><div class="prg5"><div class="prg6"><div class="prg7"><div class="prg8"><div class="prgw">
 <h1 class="bac"><%=program.Item("title")%></h1>
 
-<div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Summary:</h2>
+<div class="expanded">
+<h2 class="bac"><img class="pclose" src="../images/clear.gif">Our Business</h2>
 <div>
+<h3 class="bac">Summary</h3>
 <ul class="bac">
 	<li>Location: London</li>
 	<li>9 week programme from June - August</li>
 	<li>On track for a minimum of a 2:1 degree classification (or equivalent) from any degree discipline</li>
 	<li>Fluency in English</li>
 </ul>
-</div></div>
-
-<div class="expanded">
-<h2 class="bac"><img class="pclose" src="../images/clear.gif">Our Business:</h2>
-<div>
 <p class="bac">Compliance is at the core of the Bank&nbsp;of&nbsp;America Merrill Lynch cultural values and a key component of our risk management discipline. Our culture of accountability and compliance requires that all associates comply with all relevant laws, regulations, ethical standards, and internal policies and procedures. The Compliance Department drives this culture through the organisation by monitoring the bank&#39;s business activities, reviewing and approving complex transactions, advising on regulatory interpretation, providing training, assessing regulatory developments and implementing policies.</p>
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Overview:</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif">Overview</h2>
 <div>
 <p class="bac nobr">As a Summer Analyst within Compliance, you will:</p>
 <ul class="bac">
@@ -33,7 +29,7 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Training:</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif">Training</h2>
 <div>
 <p class="bac nobr">The programme is designed to help you decide whether our offer matches your aspirations and includes:</p>
 <ul class="bac">
@@ -46,7 +42,7 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Qualifications:</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif">Qualifications</h2>
 <div>
 <ul class="bac">
 	<li>Applications are accepted from a diverse range of degree disciplines, although law, economics, accountancy, mathematics or statistics would be preferred for this line of business</li>
@@ -57,13 +53,13 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Locations:</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif">Locations</h2>
 <div>
 <p class="bac">London</p>
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">How to Apply:</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif">How to Apply</h2>
 <div>
 <p class="bac"><% howToApply(program) %></p>
 </div></div>

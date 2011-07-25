@@ -5,13 +5,13 @@
 <h1 class="bac"><%=program.Item("title")%></h1>
 
 <div class="expanded">
-<h2 class="bac"><img class="pclose" src="../images/clear.gif">Our Business:</h2>
+<h2 class="bac"><img class="pclose" src="../images/clear.gif">Our Business</h2>
 <div>
 <p class="bac">The Quantitative Management Program (QMAP) is designed to develop and coach analytical and quantitative talent to be deployed in Global Risk and Corporate Treasury. The program consists of two, one&ndash;year rotations in quantitative disciplines, along with customized training and continuing education. Upon completion of the program, QMAP graduates have a broad range of global career opportunities within the company.</p>
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Overview:</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif">Overview</h2>
 <div>
 <ul class="bac">
 	<li>Two&ndash;year, entry&ndash;level program spanning two rotational assignments, focusing on credit, market or operational risk management within different areas of the company </li>
@@ -22,7 +22,7 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Qualifications:</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif">Qualifications</h2>
 <div>
 <p class="bac nobr">The Quantitative Management Program is seeking a combination of academic aptitude and quantitative skills including:</p>
 <ul class="bac">
@@ -35,19 +35,19 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Training:</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif">Training</h2>
 <div>
 <p class="bac">The QMAP training curriculum is a multi&ndash;phase program that complements and enhances the hands&ndash;on experience associates develop in their rotational assignments. The goal of the training curriculum is to provide a broad introduction to core concepts and theories of risk management that the associates will encounter during their career at Bank of America, covering topics from the consumer, commercial and capital markets lines of businesses. Training concepts discussed include: quantitative credit analytics, risk management techniques, fixed income and derivative valuation. Associate development is critical to the success of Global Risk Management, and executive leadership within the GRM organization is committed to the success of our QMAP associates.</p>
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Locations:</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif">Locations</h2>
 <div>
 <p class="bac">First year rotations are in Charlotte, NC.  Second year rotations are located in Atlanta, GA; Boston, MA; Charlotte, NC; Chicago, IL; New York, NY; or San Francisco, CA.</p>
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">How to Apply:</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif">How to Apply</h2>
 <div>
 <p class="bac"><% howToApply(program) %></p>
 </div></div>

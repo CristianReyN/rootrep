@@ -448,8 +448,8 @@ Guan VIDEO
 			"usin-commercial-real-estate-banking-summer-analyst-program.asp" _
 		)) Then
 %>
-<a href="" class="md-video"><img src="../campusrecruiting/video/thumb/zach_vt_180.jpg" alt="Zach Rudolph" width="180" height="120" border="0"></a>
-<% Set video_profile = video_profiles.Item("Zach") %>
+<a href="" class="md-video"><img src="../campusrecruiting/video/thumb/zach_vt_180.jpg" alt="Zac Rudolph" width="180" height="120" border="0"></a>
+<% Set video_profile = video_profiles.Item("Zac") %>
 <div class="vwrap"><a href="<%=video_profile.Item("popup")%>" class="md-trans" title="<%=video_profile.Item("name")%>, <%=video_profile.Item("videoname")%>">View transcript</a></div>
 <!-- #include file="modal_dialog.asp" -->
 <%

@@ -5,7 +5,7 @@
 <h1 class="bac"><%=program.Item("title")%></h1>
 
 <div class="expanded">
-<h2 class="bac"><img class="pclose" src="../images/clear.gif">Our Business:</h2>
+<h2 class="bac"><img class="pclose" src="../images/clear.gif">Our Business</h2>
 <div>
 <p class="bac">Merrill Lynch Global Commodities (MLC) is a leading global energy trading, marketing and risk management company. Our core capabilities include the trading of natural gas, power, emissions, crude and refined products, coal metals, commodity indices, and structured notes. We also provide a comprehensive range of standard and customized wholesale energy market solutions for customers with natural gas, power, multi-fuel, and weather-related business opportunities such as asset optimization, risk management and structured products.</p>
 <p class="bac nobr">Our business focuses on four key areas:</p>
@@ -18,7 +18,7 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Overview:</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif">Overview</h2>
 <div>
 <h3 class="bac">Role of Summer Analysts:</h3>
 <p class="bac">A Sales Analyst will focus on building and maintaining relationships with clients by matching our services to their needs. They will interact with portfolio managers, research analysts and traders relaying investment research, relevant market information and marketing ideas; and/or executing transactions as an agent for our clients.</p>
@@ -42,7 +42,7 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Qualifications:</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif">Qualifications</h2>
 <div>
 <h3 class="bac">Education</h3>
 <ul class="bac">
@@ -71,13 +71,13 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Locations:</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif">Locations</h2>
 <div>
 <p class="bac">Houston, TX and New York, NY (limited)</p>
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">How to Apply:</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif">How to Apply</h2>
 <div>
 <p class="bac"><% howToApply(program) %></p>
 </div></div>

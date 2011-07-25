@@ -4,21 +4,17 @@
 			<div class="prg"><div class="prg1"><div class="prg2"><div class="prg3"><div class="prg4"><div class="prg5"><div class="prg6"><div class="prg7"><div class="prg8"><div class="prgw">
 <h1 class="bac"><%=program.Item("title")%></h1>
 
-<div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Summary:</h2>
+<div class="expanded">
+<h2 class="bac"><img class="pclose" src="../images/clear.gif">Our Business</h2>
 <div>
+<h3 class="bac">Summary</h3>
 <ul class="bac">
-	<li>Locations: London, Bromley  &amp; Dublin</li>
+	<li>Locations London, Bromley  &amp; Dublin</li>
 	<li>3 year training programme</li>
 	<li>On track for a minimum of a 2:1 degree classification (or equivalent) from any degree discipline</li>
 	<li>Opportunity to study for IAQ, ACA, CIMA or CFA</li>
 	<li>Fluency in English</li>
 </ul>
-</div></div>
-
-<div class="expanded">
-<h2 class="bac"><img class="pclose" src="../images/clear.gif">Our Business:</h2>
-<div>
 <p class="bac">Global Markets Operations/Middle Office group (GMO &amp;MO) provides controlled and cost effective post trade processes in support of our front office businesses.</p>
 <p class="bac">Our Middle Office group delivers control functions responsible for providing assurance over data and processes used to record risk, P/L, balance sheet and financial results. There are five core GMO functions that are critical in ensuring business process control: Development, Trade Control/Event Management, P &amp;L substantiation, Balance Sheet Substantiation, and Oversight  &amp; Risk Management</p>
 <p class="bac">Our Global Markets Operations group execute a number of core processes that range from confirmations, client services trade processes, settlements and custody.</p>
@@ -26,7 +22,7 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Overview:</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif">Overview</h2>
 <div>
 <p class="bac">Your role could be within either the Middle Office or Operations function depending on your skill set and passion.</p>
 <p class="bac nobr">Middle Office roles could range from:</p>
@@ -45,7 +41,7 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Training:</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif">Training</h2>
 <div>
 <p class="bac">Work in an environment that promotes innate talent in the people we hire and equips them with skills to complement that talent.</p>
 <ul class="bac">
@@ -56,7 +52,7 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Qualifications:</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif">Qualifications</h2>
 <div>
 <ul class="bac">
 	<li>Applications are accepted from a diverse range of degree disciplines such as the arts and humanities, as well as numerically focused subjects such as economics and mathematics</li>
@@ -68,13 +64,13 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Locations:</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif">Locations</h2>
 <div>
 <p class="bac">London, Bromley and Dublin</p>
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">How to Apply:</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif">How to Apply</h2>
 <div>
 <p class="bac"><% howToApply(program) %></p>
 </div></div>

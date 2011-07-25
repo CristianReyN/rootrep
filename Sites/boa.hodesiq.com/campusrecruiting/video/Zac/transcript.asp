@@ -1,4 +1,4 @@
-<!-- #include file="../../../includes/video_profiles.asp" --><% Set video_profile = video_profiles.Item("Zach") %><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!-- #include file="../../../includes/video_profiles.asp" --><% Set video_profile = video_profiles.Item("Zac") %><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html lang="en">
 <head>
 <meta http-equiv="content-type" content="text/html; charset=iso-8859-1">
