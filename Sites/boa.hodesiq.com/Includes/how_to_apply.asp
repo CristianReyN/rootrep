@@ -217,6 +217,45 @@ Function howToApply (program)
 		)) Then
 %><p class="bac">In order to be considered a candidate for this opportunity, you must create a profile at <a href="<% If page_section <> "ADA" Then  %>../campusrecruiting/<% Else  %>../ada_camp/<% End If %>" class="bac" title="">www.bankofamerica.com/campusrecruiting</a> by following the instructions in the How to Apply section within your region of interest. To create and then <a href="<% If page_section <> "ADA" Then  %>../learnmore/<% Else  %>../ada/<% End If %>sendresume.asp" class="bac" title="" target="<%=HOWTOAPPLY_TARGET%>">submit your profile<% If HOWTOAPPLY_TARGET = "_blank" Then %><span class="hidden"> Link opens a new window</span><% End If%></a>, first sign in as a new or returning user. If you don’t have an existing account, you’ll need to register as a new user. Then, complete your candidate profile and designate your program(s) of interest. Please note that you must reach the final &ldquo;Thank You&rdquo; page.</p>
 <%
+			If InArray(program.Item("url"), Array( _
+				"usin-applied-technology-program.asp" _
+			)) Then
+%>
+<p class="bac">In addition, please log&ndash;in to UNC Charlotte NinerJobNet via <a href="http://unccharlotte.experience.com/" class="bac" title="" target="_blank">http://unccharlotte.experience.com/<span class="hidden"> Link opens a new window</span></a> and search for the &ldquo;Bank of America Applied Technology Program&rdquo; job posting.  Please follow the directions for each of the application components below in order to submit a complete application package.  Application submissions that do not contain all the requirements listed below will not be considered.</p>
+<H3 class="bac">1) Resume </H3>
+<p class="bac">Attach a resume to your NinerJobNet application and include the following information (if applicable):</p>
+<p class="bac">Academic Performance</p>
+<ul class="bac">
+	<li>Cumulative GPA</li>
+	<li>Major GPA</li>
+</ul>
+<p class="bac">Leadership Experience</p>
+<ul class="bac">
+	<li>Name of Club/Community Organization</li>
+	<li>Position held</li>
+	<li>Accomplishments</li>
+</ul>
+<p class="bac">Work Experience</p>
+<ul class="bac">
+	<li>Company Name</li>
+	<li>Position held</li>
+	<li>Accomplishments</li>
+</ul>
+<p class="bac">Awards, Scholarships and Recognition</p>
+<ul class="bac">
+	<li>Name of Organization that provided the Award, Scholarship, or Recognition</li>
+	<li>Description of the Award, Scholarship, or Recognition</li>
+	<li>Description of Accomplishment</li>
+</ul>
+<H3 class="bac">2) Cover Letter </H3>
+<p class="bac">Attach a one&ndash;page cover letter to your NinerJobNet application that addresses the following questions:</p>
+<p class="bac">A. Why are you applying to participate in the Applied Technology Program with Bank of America?</p>
+<p class="bac">B. What skills do you possess that make you a strong candidate?  </p>
+<p class="bac">C. How will this program help you achieve your career plans?</p>
+<H3 class="bac">3) Transcript </H3>
+<p class="bac">Attach a copy of your transcript to your NinerJobNet application.  Your unofficial transcript can be accessed through 49er&ndash;Express, <a href="https://49erexpress.uncc.edu/cp/home/displaylogin" class="bac" title="" target="_blank">https://49erexpress.uncc.edu/cp/home/displaylogin<span class="hidden"> Link opens a new window</span></a>.  (You can copy and paste your transcript into a Word document / text file, or you can provide a .pdf version saved from 49er&ndash;Express.)  All candidates selected for interviews will be required to submit an official transcript before interviewing for the position.</p>
+<%
+			End If
 	Else
 	End If
 End Function
