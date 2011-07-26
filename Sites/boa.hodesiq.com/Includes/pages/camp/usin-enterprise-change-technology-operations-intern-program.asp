@@ -5,7 +5,7 @@
 <h1 class="bac"><%=program.Item("title")%></h1>
 
 <div class="expanded">
-<h2 class="bac"><img class="pclose" src="../images/clear.gif">Our Business</h2>
+<h2 class="bac"><img class="pclose" src="../images/clear.gif" alt="Hide information" title="Hide information">Our Business</h2>
 <div>
 <p class="bac">Enterprise Change Technology and Operations (ECT &amp;O) executes on Bank&nbsp;of&nbsp;America customer, clients and associate needs and requests through technology, systems and call centers, among other tools and channels. The mission is to deliver innovative, integrated enterprise solutions with quality, speed to market and performance that delights our customers and clients and enables profitable growth. The scope of responsibility includes Enterprise and line-of-business technology functions: Enterprise technology strategy and architecture, Technology infrastructure, Shared analytics platforms, Information security and business continuity, HR, Finance, Marketing technology, Global delivery operations (front/middle/back office in India, Costa Rica, Philippines, Mexico)</p>
 <p class="bac">ECT &amp;O teams include Enterprise Applications, Enterprise Information Management, Global Delivery Center of Expertise, Infrastructure Operations, Integrated Business  &amp; Technology Services, and Technology Strategy, Architecture  &amp; Optimization.</p>
@@ -13,7 +13,7 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Overview</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information">Overview</h2>
 <div>
 <p class="bac">The Enterprise Change Technology  &amp; Operations Leader Development Rotational Program (ECT &amp;O LDR) is an undergraduate rotational program designed to provide external candidates with an opportunity to prepare for future leadership positions in the bank&#39;s technology division. This high visibility program will give participants the chance to experience two one-year rotational assignments in different divisions within Enterprise Change Technology  &amp; Operations. The assignments consist of technical and non-technical rotations.</p>
 <h3 class="bac">Example of Rotations:</h3>
@@ -22,7 +22,7 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Qualifications</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information">Qualifications</h2>
 <div>
 <p class="bac">The ideal candidate exhibits a strong drive for results; displays a sense of urgency. Succeeds in a collaborative environment; enjoys teamwork and partnering with others. Excellent organization skills and judgment. Understands technology and business requirements. Ability to learn the organizational structure and the formal/informal workings of the organization. Conveys a strong sense of customer and associate satisfaction to drive shareholders value. The ideal candidate will be proficient with the Microsoft Suite and other basic applications such as Outlook. Technical skills should include knowledge of several of the following technologies: UNIX, Windows NT/2000, network architecture, databases, desktop and server hardware, information security concepts and technologies, project management skills and financial industry knowledge. Candidates must be enrolled in a full-time degree program, pursuing a major in Computer Science, Business, Engineering, or Information Technology. Preferred Grade Point Average of a 3.0 on a 4 point scale. Candidate must be a US citizen or have permanent US residency.</p>
 <h3 class="bac">Associate Responsibilities:</h3>
@@ -37,13 +37,13 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Locations</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information">Locations</h2>
 <div>
 <p class="bac">Primary locations are Charlotte, North Carolina, Pennington, New Jersey and New York, New York.</p>
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">How to Apply</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information">How to Apply</h2>
 <div>
 <p class="bac"><% howToApply(program) %></p>
 </div></div>

@@ -5,7 +5,7 @@
 <h1 class="bac"><%=program.Item("title")%></h1>
 
 <div class="expanded">
-<h2 class="bac"><img class="pclose" src="../images/clear.gif">Our Business</h2>
+<h2 class="bac"><img class="pclose" src="../images/clear.gif" alt="Hide information" title="Hide information">Our Business</h2>
 <div>
 <p class="bac">Bank&nbsp;of&nbsp;America Merrill Lynch Sales  &amp; Trading professionals deliver innovative solutions and exceptional execution to help clients meet their complex financial objectives. We make markets in virtually all major asset classes, covering both the Debt and Equity product spectrums. We are active in both the Cash and Derivative markets. We have a global presence, with offices throughout the Americas, Europe and Asia.</p>
 <p class="bac">Bank&nbsp;of&nbsp;America Merrill Lynch uses an integrated approach to ensure our solutions meet client needs. Our functional areas of expertise - Sales, Trading, Research and Capital Markets - work together, creating a unique, team-oriented culture that fuels collaborative thinking. Our approach has made us a premier provider to our clients, which include institutions, corporations and consumer entities. Our institutional focus includes hedge funds, money managers, mutual funds, insurance companies and banks.</p>
@@ -13,7 +13,7 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Overview</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information">Overview</h2>
 <div>
 <h3 class="bac">Sales</h3>
 <p class="bac">As a Sales associate you will focus on a specific product area. You will be responsible for building and maintaining relationships with our clients by matching our services to their needs. You will interact with portfolio managers, research associates and traders relaying investment research, relevant market information and marketing ideas, and/or executing transactions as an agent for our clients.</p>
@@ -30,7 +30,7 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Qualifications</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information">Qualifications</h2>
 <div>
 <h3 class="bac">Education</h3>
 <ul class="bac">
@@ -58,19 +58,19 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Training</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information">Training</h2>
 <div>
 <p class="bac">As a Sales and Trading Associate you will begin your career at Bank&nbsp;of&nbsp;America Merrill Lynch with an intensive training program. Initially, you will train with your peers from other lines of business. You will then participate in a program designed specifically for Global Markets Associates. The program is an interactive, experientially based mix of group projects, elearning, lectures, case studies, business representative presentations and teambuilding activities which will provide you with a solid grounding in global markets and economics and how Bank&nbsp;of&nbsp;America&#39;s businesses, products and services operate in this global context. Throughout the program you will have ample opportunity to meet and work with your peers and other colleagues across all levels of the Bank. The network you build during this time will be a tremendous resource to you throughout your career.</p>
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Locations</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information">Locations</h2>
 <div>
 <p class="bac">Opportunities available in Montreal or Toronto (based on candidate preferences and business needs).</p>
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">How to Apply</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information">How to Apply</h2>
 <div>
 <p class="bac"><% howToApply(program) %></p>
 </div></div>

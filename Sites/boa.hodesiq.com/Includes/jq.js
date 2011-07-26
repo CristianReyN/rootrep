@@ -3,7 +3,11 @@ jQuery(document).ready(function(){
 		//var arr = $('<img class="'+(index==0?'pclose':'popen')+'" src="../images/clear.gif">').prependTo($(this));
 		var sibling_div = $(this).siblings('div'), arr = $('.prg h2.bac:eq('+index+') img');
 		arr.click(function() {
-			sibling_div.slideToggle('slow', function() {arr.toggleClass("pclose popen");});
+			sibling_div.slideToggle('slow', function() {
+				arr.toggleClass("pclose popen");
+				if(arr.hasClass('pclose')) { arr.attr('alt','Hide information'); arr.attr('title','Hide information'); }
+				else if(arr.hasClass('popen')) { arr.attr('alt','Show information'); arr.attr('title','Show information'); }
+			});
 		});
 		if(index == 0)
 		{

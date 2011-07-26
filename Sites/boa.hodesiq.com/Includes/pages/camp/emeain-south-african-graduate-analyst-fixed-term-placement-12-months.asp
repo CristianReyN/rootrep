@@ -5,7 +5,7 @@
 <h1 class="bac"><%=program.Item("title")%></h1>
 
 <div class="expanded">
-<h2 class="bac"><img class="pclose" src="../images/clear.gif">Our Business</h2>
+<h2 class="bac"><img class="pclose" src="../images/clear.gif" alt="Hide information" title="Hide information">Our Business</h2>
 <div>
 <h3 class="bac">Summary</h3>
 <ul class="bac">
@@ -18,7 +18,7 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Overview</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information">Overview</h2>
 <div>
 <p class="bac nobr">As an analyst, you&#39;ll:</p>
 <ul class="bac">
@@ -34,26 +34,26 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Qualifications</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information">Qualifications</h2>
 <div>
 <p class="bac">Strong academic qualifications and quantitative skills are important. Equally important are initiative, strategic and creative thinking, communication skills and a genuine interest in the financial markets.</p>
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Training</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information">Training</h2>
 <div>
 <p class="bac">The training will include full instruction on all relevant tools, techniques and working practices. You&#39;ll also receive a solid grounding in all business areas as you develop your professional skills and team-working capabilities.</p>
 <p class="bac">Once you join a business line, you will take on real responsibility from an early stage. There will be exposure to ongoing development opportunities throughout the programme and you&#39;ll be encouraged to expand your abilities through on-the-job learning, structured training and study towards professional qualifications. The company fosters an inclusive and supportive culture in which hard work is rewarded.</p>
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Locations</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information">Locations</h2>
 <div>
 <p class="bac">Opportunities in South Africa</p>
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">How to Apply</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information">How to Apply</h2>
 <div>
 <p class="bac"><% howToApply(program) %></p>
 </div></div>

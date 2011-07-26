@@ -1,0 +1,61 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    
+    <title>Bank of America Video Player</title>
+    
+    <script type="text/javascript" src="javascript/swfobject/swfobject.js"></script>
+    <script type="text/javascript">		
+        function onLoad(){
+            var flashvars = {
+				videoXMLPath: "videoSource.xml"
+			};
+            var params = {
+                menu: "false",
+                allowscriptaccess: "always",
+                allowfullscreen: "true",
+                scale: "noscale",
+                salign: "t",
+				wmode: "opaque"
+            };
+            var attributes = {};
+            swfobject.embedSWF('player.swf', 'flashContent', '495px', '305px', '10.0.0', "expressInstall.swf", flashvars, params, attributes);
+			//swfobject.addDomLoadEvent(setFocusOnFlash);
+			//setFocusOnFlash();
+        }
+		function setFocusOnFlash() { 
+			var fl = swfobject.getObjectById('flashContent'); 
+			if (fl) { fl.tabIndex = 0; fl.focus(); } 
+			//var fl = document.getElementByID('flashContent'); 
+			//if (fl) { fl.focus(); } 
+		} 
+    </script>
+   
+            
+    <style type="text/css">
+   
+		body {
+			padding:0px;
+			height:100%;
+			min-height:100%;
+			width:100%;
+			margin:0px;
+			background-color:#aaaaaa;
+		}
+		
+		#flashContent {
+			
+			background-color:#aaaaaa;
+		}
+	
+    </style>
+    </head>
+    
+	<body onload="onLoad()">
+    	
+        <div id="flashContent">
+        	
+   		</div>
+    </body>
+</html>

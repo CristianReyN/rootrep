@@ -5,7 +5,7 @@
 <h1 class="bac"><%=program.Item("title")%></h1>
 
 <div class="expanded">
-<h2 class="bac"><img class="pclose" src="../images/clear.gif">Our Business</h2>
+<h2 class="bac"><img class="pclose" src="../images/clear.gif" alt="Hide information" title="Hide information">Our Business</h2>
 <div>
 <h3 class="bac">Summary</h3>
 <ul class="bac">
@@ -18,7 +18,7 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Overview</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information">Overview</h2>
 <div>
 <p class="bac nobr">As a Summer Intern within Global Quantitative Research, you will:</p>
 <ul class="bac">
@@ -30,7 +30,7 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Training</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information">Training</h2>
 <div>
 <p class="bac nobr">Your internship will involve rotations amongst different desks within the business group which means you get a good overview of the business in detail. Training includes:</p>
 <ul class="bac">
@@ -43,7 +43,7 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Qualifications</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information">Qualifications</h2>
 <div>
 <ul class="bac">
 	<li>We&#39;re looking for a strong academic background in quantitative analysis (econometrics/ statistics/applied mathematics). A finance and economics or financial mathematics related subject at masters level is desirable.</li>
@@ -54,13 +54,13 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Locations</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information">Locations</h2>
 <div>
 <p class="bac">London</p>
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">How to Apply</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information">How to Apply</h2>
 <div>
 <p class="bac"><% howToApply(program) %></p>
 </div></div>

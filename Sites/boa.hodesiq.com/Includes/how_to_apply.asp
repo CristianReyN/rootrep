@@ -159,7 +159,6 @@ Function howToApply (program)
 			"usfn-global-treasury-solutions-analyst-program.asp", _
 			"usfn-global-wealth-investment-management-analyst-program.asp", _
 			"usfn-institutional-mortgage-services-development-program.asp", _
-			"usfn-mainframe-analyst-development-program.asp", _
 			"usfn-markets-risk-analyst-progam.asp", _
 			"usfn-operations-management-analyst-program.asp", _
 			"usfn-quantitative-management-program.asp", _
@@ -197,7 +196,6 @@ Function howToApply (program)
 			"usin-global-risk-management-intern-program.asp", _
 			"usin-global-wealth-investment-management-summer-analyst-program.asp", _
 			"usin-institutional-mortgage-services-analyst-intern-program.asp", _
-			"usin-mainframe-analyst-development-intern-program.asp", _
 			"usin-markets-risk-intern-program.asp", _
 			"usin-operations-management-analyst-intern-program.asp", _
 			"usin-quantitative-management-intern-program.asp", _

@@ -5,7 +5,7 @@
 <h1 class="bac"><%=program.Item("title")%></h1>
 
 <div class="expanded">
-<h2 class="bac"><img class="pclose" src="../images/clear.gif">Our Business</h2>
+<h2 class="bac"><img class="pclose" src="../images/clear.gif" alt="Hide information" title="Hide information">Our Business</h2>
 <div>
 <p class="bac">Bank&nbsp;of&nbsp;America Merrill Lynch Sales  &amp; Trading professionals deliver innovative solutions and exceptional execution to help clients meet their complex financial objectives. We make markets in virtually all major asset classes, covering both the Debt and Equity product spectrums. We are active in both the Cash and Derivative markets. We have a global presence, with offices throughout the United States, Europe and Asia.</p>
 <p class="bac">Bank&nbsp;of&nbsp;America Merrill Lynch uses an integrated approach to ensure our solutions meet client needs. Our functional areas of expertise - Sales, Trading, Research and Capital Markets - work together, creating a unique, team-oriented culture that fuels collaborative thinking. Our approach has made us a premier provider to our clients, which include institutions, corporations and consumer entities. Our institutional focus includes hedge funds, money managers, mutual funds, insurance companies and banks.</p>
@@ -14,7 +14,7 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Overview</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information">Overview</h2>
 <div>
 <h3 class="bac">Summer Program</h3>
 <p class="bac">A 10-week program, including one week of formal training and assignments in Global Markets product areas. Opportunities are available in fixed income and equity markets with exposure to different functions in sales, trading, origination, and structuring/quantitative analysis.</p>
@@ -28,7 +28,7 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Qualifications</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information">Qualifications</h2>
 <div>
 <h3 class="bac">Education</h3>
 <ul class="bac">
@@ -61,7 +61,7 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Training</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information">Training</h2>
 <div>
 <h3 class="bac">Program Highlights</h3>
 <ul class="bac">
@@ -74,13 +74,13 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Locations</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information">Locations</h2>
 <div>
 <p class="bac">Opportunities are available in Toronto.</p>
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">How to Apply</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information">How to Apply</h2>
 <div>
 <p class="bac"><% howToApply(program) %></p>
 </div></div>

@@ -1,12 +1,12 @@
 ﻿<VideoSourceSettings>
 	<video 
-		src="http://hodesgroup.http.internapcdn.net/hodesgroup_vitalstream_com/BOA/opportunity/Zach_Rudolph_v006.flv"
+		src="http://hodesgroup.http.internapcdn.net/hodesgroup_vitalstream_com/BOA/opportunity/9523-C_NEI_Dallas_Market.flv"
 		poster="poster.png"
 	>
 		<itext
 			category="CC"
 			lang="en"
-			src="Zac_Rudolph.xml"
+			src="neidallas.xml"
 		/>
 	</video>
 </VideoSourceSettings>

@@ -5,7 +5,7 @@
 <h1 class="bac"><%=program.Item("title")%></h1>
 
 <div class="expanded">
-<h2 class="bac"><img class="pclose" src="../images/clear.gif">Our Business</h2>
+<h2 class="bac"><img class="pclose" src="../images/clear.gif" alt="Hide information" title="Hide information">Our Business</h2>
 <div>
 <h3 class="bac">Summary</h3>
 <ul class="bac">
@@ -20,7 +20,7 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Overview</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information">Overview</h2>
 <div>
 <p class="bac nobr">As an Analyst within Global Research, you will:</p>
 <ul class="bac">
@@ -32,14 +32,14 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Training</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information">Training</h2>
 <div>
 <p class="bac">Training begins in July when you will join newly-hired analysts from around the world for an intensive few weeks to learn about our company, its culture and all the relevant tools, techniques and working practices. You&#39;ll also receive grounding in your chosen business area, as you develop your professional skills and team-working capabilities.</p>
 <p class="bac">On return to your local office, you&#39;ll take on additional responsibility at an early stage. With on-going development opportunities throughout the programme you&#39;ll be encouraged to grow your abilities through on-the-job learning, structured training and study towards your professional qualifications. We&#39;ll support and reward you on the basis of your individual performance.</p>
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Qualifications</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information">Qualifications</h2>
 <div>
 <ul class="bac">
 	<li>Strong A-level grades and on track for a minimum 2:1 degree (or equivalent)</li>
@@ -51,13 +51,13 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Locations</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information">Locations</h2>
 <div>
 <p class="bac">London and various other European and Emerging Markets (ex-Asia) locations</p>
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">How to Apply</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information">How to Apply</h2>
 <div>
 <p class="bac"><% howToApply(program) %></p>
 </div></div>

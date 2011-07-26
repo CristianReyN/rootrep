@@ -5,13 +5,13 @@
 <h1 class="bac"><%=program.Item("title")%></h1>
 
 <div class="expanded">
-<h2 class="bac"><img class="pclose" src="../images/clear.gif">Our Business</h2>
+<h2 class="bac"><img class="pclose" src="../images/clear.gif" alt="Hide information" title="Hide information">Our Business</h2>
 <div>
 <p class="bac">Global Wealth and Investment Management (GWIM) provides advice-based wealth management services and products to individual clients and businesses. The GWIM business model is based on our network of more than 15,000 financial advisors (FAs) in nearly 700 offices around the world and the one-to-one relationships they develop with their clients. GWIM serves the myriad needs of high-net-worth individuals and small- and mid-sized business owners. Nearly two-thirds of assets under management come from relationships with clients who have investable assets of $1 million or more. We also serve thousands of individuals through employee retirement plans.</p>
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Overview</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information">Overview</h2>
 <div>
 <p class="bac">Global Wealth and Investment Management (GWIM) Fulltime Analyst Program is designed to provide candidates with an opportunity to work with experienced wealth and investment management professionals and prepare for a career in the bank&#39;s wealth and investment division.</p>
 <h3 class="bac">Placement</h3>
@@ -27,7 +27,7 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Qualifications</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information">Qualifications</h2>
 <div>
 <h3 class="bac">Education</h3>
 <ul class="bac">
@@ -64,7 +64,7 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Training</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information">Training</h2>
 <div>
 <p class="bac">The Fulltime Analyst program consists of the following developmental activities:</p>
 <ul class="bac">
@@ -79,13 +79,13 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Locations</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information">Locations</h2>
 <div>
 <p class="bac">Singapore</p>
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">How to Apply</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information">How to Apply</h2>
 <div>
 <p class="bac"><% howToApply(program) %></p>
 </div></div>

@@ -5,7 +5,7 @@
 <h1 class="bac"><%=program.Item("title")%></h1>
 
 <div class="expanded">
-<h2 class="bac"><img class="pclose" src="../images/clear.gif">Our Business</h2>
+<h2 class="bac"><img class="pclose" src="../images/clear.gif" alt="Hide information" title="Hide information">Our Business</h2>
 <div>
 <p class="bac">Bank&nbsp;of&nbsp;America provides a diverse range of banking and nonbanking financial services and products domestically and internationally in more than 40 countries through five major Lines of Business: Global Banking and Markets, Global Commercial Banking, Consumer and Small Business Banking, Home Loans  &amp; Insurance and Global Wealth  &amp; Investment Management. As a result, the Company inherently encounters a wide range of risks. Corporate Audit is responsible for providing an independent assessment of whether controlling processes within Bank&nbsp;of&nbsp;America are adequately designed and functioning effectively to mitigate potential risks.</p>
 <p class="bac">Corporate Audit maintains independence and objectivity by reporting to the Audit Committee of the Board of Directors. Corporate Audit teammates cover all areas of the corporation, performing validation of the company&#39;s risk management activities through testing of key processes and controls across the company.</p>
@@ -13,7 +13,7 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Overview</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information">Overview</h2>
 <div>
 <p class="bac">Corporate Audit maintains robust processes for reviewing risk and controls throughout the Corporation. The audit plan for the company is developed based upon the risk profile of the Company and reviewed on a quarterly basis. The audit planning process includes considerations around strategic, market, credit, liquidity, compliance and operational risk.</p>
 <p class="bac">Auditors are charged with understanding business processes, performing risk assessments and testing to evaluate the related controls. This provides the opportunity for each auditor to closely work with and influence each business regarding their control infrastructure.</p>
@@ -22,7 +22,7 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Qualifications</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information">Qualifications</h2>
 <div>
 <ul class="bac">
 	<li>Bachelor&#39;s or Master&#39;s degree in Accounting, Finance, Computer Sciences, or General Business</li>
@@ -33,19 +33,19 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Training</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information">Training</h2>
 <div>
 <p class="bac">Analysts undergo a multi-phase training and development process including web based  &amp; instructor-led training, program partners from previous CAAP classes, and senior level mentors. Teammates in this program will build a valuable network with other campus hires in Audit and throughout Bank&nbsp;of&nbsp;America as part of the Global Campus program.</p>
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Locations</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information">Locations</h2>
 <div>
 <p class="bac">Charlotte, North Carolina o Wilmington, Delaware o New York, New York o Dallas, Texas o West Lake Village, California</p>
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">How to Apply</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information">How to Apply</h2>
 <div>
 <p class="bac"><% howToApply(program) %></p>
 </div></div>

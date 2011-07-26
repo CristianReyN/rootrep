@@ -5,14 +5,14 @@
 <h1 class="bac"><%=program.Item("title")%></h1>
 
 <div class="expanded">
-<h2 class="bac"><img class="pclose" src="../images/clear.gif">Our Business</h2>
+<h2 class="bac"><img class="pclose" src="../images/clear.gif" alt="Hide information" title="Hide information">Our Business</h2>
 <div>
 <p class="bac">Bank&nbsp;of&nbsp;America Merrill Lynch&#39;s Investment Banking team is dedicated to understanding the unique competitive and operating environments of our clients, building enduring client relationships and executing transactions on behalf of our clients. In Canada, we are primarily organized into the following industry-focused teams: Metals and Mining (Toronto), Financial Institutions (Toronto), Media and Telecom (Toronto) and Energy and Power (Calgary). Our Montreal office focuses on Quebec clients across all industries.</p>
 <p class="bac">As a leader in equity and debt origination and syndication, our Capital Markets team delivers creative solutions for issuers and investors across all asset products, including Equity Capital Markets, Investment Grade Debt Capital Markets, Debt Advisory Services and Leveraged Finance, which includes High Yield Bonds and Leveraged Loans. Summer positions in Capital Markets are primarily in Leveraged Finance.</p>
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Overview</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information">Overview</h2>
 <div>
 <p class="bac nobr">Summer Associates will work as generalists across different industry groups, where they will help orchestrate capital raising and strategic advisory transactions. Bank&nbsp;of&nbsp;America Merrill Lynch provides valuable analytical based work experience that is focused on the financial markets and visibility with clients as a representative of a top tier global investment bank. Associates are called on to:</p>
 <ul class="bac">
@@ -27,7 +27,7 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Qualifications</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information">Qualifications</h2>
 <div>
 <ul class="bac">
 	<li>1st Year MBA student with outstanding academic qualifications</li>
@@ -41,20 +41,20 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Training</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information">Training</h2>
 <div>
 <h3 class="bac">Summer Associate Program</h3>
 <p class="bac">Summer offers are made for a specific office based on candidate preference and business need. The summer program kicks off with an orientation session where you&#39;ll learn the BofA Merrill Lynch basics: technical skills, our views on the markets and professional practices that will make your summer experience all the more valuable. Training will continue throughout the summer as you participate in presentations and other group and individual projects led by industry experts. Outstanding performers may be considered for a full-time position upon graduation</p>
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Locations</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information">Locations</h2>
 <div>
 <p class="bac">Opportunities are available in Calgary, Montreal and Toronto. Offers are made for a specific location during the recruiting process, based on candidate interest and business need. Throughout the recruiting process candidates have the opportunity to learn about each group and meet team members.</p>
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">How to Apply</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information">How to Apply</h2>
 <div>
 <p class="bac"><% howToApply(program) %></p>
 </div></div>

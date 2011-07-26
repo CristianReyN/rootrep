@@ -5,7 +5,7 @@
 <h1 class="bac"><%=program.Item("title")%></h1>
 
 <div class="expanded">
-<h2 class="bac"><img class="pclose" src="../images/clear.gif">Our Business</h2>
+<h2 class="bac"><img class="pclose" src="../images/clear.gif" alt="Hide information" title="Hide information">Our Business</h2>
 <div>
 <p class="bac">Bank&nbsp;of&nbsp;America&#39;s technology couples technological expertise with the bank&#39;s strategic vision to keep Bank&nbsp;of&nbsp;America at the forefront of the world&#39;s financial markets. Delivering market-leading technology drives our business forward.</p>
 <p class="bac">Global Technology  &amp; Operations includes technology and operations supporting business lines across the enterprise, as well as Enterprise Technology  &amp; Delivery, Physical Infrastructure and Global Sourcing. Through operations in more than 40 countries, Global Technology  &amp; Operations provides end-to-end technology and fulfillment to consumer households, small businesses, corporate and institutional relationships and wealth and investment management clients.</p>
@@ -17,7 +17,7 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Overview</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information">Overview</h2>
 <div>
 <p class="bac">As a full time employee, and a part of the Technology Developer and Analyst Program, you will begin your career at Bank&nbsp;of&nbsp;America Merrill Lynch with a one-year program. This program is designed to facilitate your transition from academia to a professional career and your success at the company. It not only provides program management support, but also structured learning events, training, and networking opportunities. The learning curriculum focuses on business, technical and soft skills. As part of new hire orientation, participants will attend either a 1-week or 3-week training event to provide a strong foundation upon which to build their knowledge and career.</p>
 <p class="bac nobr">All Technology Developer and Analysts are called upon to:</p>
@@ -28,7 +28,7 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Qualifications</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information">Qualifications</h2>
 <div>
 <p class="bac nobr">Candidates must demonstrate a combination of academic aptitude, quantitative skills, strategic and creative thinking and distinguished written and oral communication skills. Successful candidates will be required to support several projects at once and work effectively as an individual as well as part of a team. Though they come from a variety of backgrounds, all associates must share common driving characteristics that we look for such as:</p>
 <ul class="bac">
@@ -47,13 +47,13 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Locations</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information">Locations</h2>
 <div>
 <p class="bac">Opportunities are available in Toronto, Canada.</p>
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">How to Apply</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information">How to Apply</h2>
 <div>
 <p class="bac"><% howToApply(program) %></p>
 </div></div>

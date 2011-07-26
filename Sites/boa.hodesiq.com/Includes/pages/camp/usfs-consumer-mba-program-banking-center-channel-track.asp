@@ -5,7 +5,7 @@
 <h1 class="bac"><%=program.Item("title")%></h1>
 
 <div class="expanded">
-<h2 class="bac"><img class="pclose" src="../images/clear.gif">Our Business</h2>
+<h2 class="bac"><img class="pclose" src="../images/clear.gif" alt="Hide information" title="Hide information">Our Business</h2>
 <div>
 <p class="bac">Bank&nbsp;of&nbsp;America is one of the world&#39;s largest financial institutions, serving individual consumers, small- and middle-market businesses and large corporations with a full range of banking, investing, asset management and other financial and risk management products and services. The company provides unmatched convenience in the United States, serving approximately 57 million consumer and small business relationships with approximately 5,900 retail banking offices and approximately 18,000 ATMs and award-winning online banking with 29 million active users.</p>
 <p class="bac">The Consumer  &amp; Small Business Banking MBA Program develops future leaders while engaging them in challenging and business critical assignments in both client facing and non-client facing roles. Recent MBA level graduates experience a 2 year rotational program rotating through 3 areas of the CSBB organization. These areas are: Retail Banking, Preferred and Small Business Banking, Consumer Banking Products and CSBB Distribution.</p>
@@ -23,7 +23,7 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Qualifications</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information">Qualifications</h2>
 <div>
 <p class="bac">Ideal candidate will exhibit a strong drive for results; succeed in a fast-paced, empowered, and collaborative environment; enjoy teamwork and partnering with others; possess financial acumen, excellent organizational and strong analytical skills; strong technical skills and ability to build/design and execute strategy. The ability to learn the organizational structure, the formal/informal workings of the organization and to convey a strong sense of customer and associate satisfaction to drive shareholder value is required.</p>
 <p class="bac nobr">Additional requirements include:</p>
@@ -57,19 +57,19 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Training</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information">Training</h2>
 <div>
 <p class="bac">Associates will participate in a formal education and orientation programs to learn more about Bank&nbsp;of&nbsp;America, the culture and values, as well as to network with executives and other campus hires. Additionally, associates will participate in various networking and learning opportunities throughout the duration of the program.</p>
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Locations</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information">Locations</h2>
 <div>
 <p class="bac">Positions will take place primarily in Charlotte, NC and Wilmington, DE with additional rotational opportunities in top metro markets. Candidates should be geographically flexible.</p>
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">How to Apply</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information">How to Apply</h2>
 <div>
 <p class="bac"><% howToApply(program) %></p>
 </div></div>

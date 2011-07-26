@@ -5,49 +5,49 @@
 <h1 class="bac"><%=program.Item("title")%></h1>
 
 <div class="expanded">
-<h2 class="bac"><img class="pclose" src="../images/clear.gif">Our Business</h2>
+<h2 class="bac"><img class="pclose" src="../images/clear.gif" alt="Hide information" title="Hide information">Our Business</h2>
 <div>
-<p class="bac">The Quantitative Management Program (QMAP) is designed to develop and coach analytical and quantitative talent to be deployed in Global Risk and Corporate Treasury. The program consists of two, one&ndash;year rotations in quantitative disciplines, along with customized training and continuing education. Upon completion of the program, QMAP graduates have a broad range of global career opportunities within the company.</p>
+<p class="bac">The Quantitative Management Associate Program (QMAP) is designed to develop and coach analytical and quantitative talent to be deployed throughout varies Bank&nbsp;of&nbsp;America business groups. The program consists of two one year rotations in quantitative disciplines along with customized training and continuing education. Upon completion of the program, QMAP graduates have a broad range of global career opportunities within the bank.</p>
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Overview</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information">Overview</h2>
 <div>
 <ul class="bac">
-	<li>Two&ndash;year, entry&ndash;level program spanning two rotational assignments, focusing on credit, market or operational risk management within different areas of the company </li>
+	<li>Two&ndash;year entry&ndash;level program spans two rotational assignments focusing on risk management, balance sheet management, sales and service, within different areas of the Bank</li>
 	<li>Gain real, in&ndash;depth experience applying quantitative knowledge to specific financial challenges</li>
-	<li>Provide a micro view of risk management in a particular business line, and a macro view of risk management for the company as a whole, through rotational assignments</li>
-	<li>Rotations include positions within various lines of business, such as Corporate Treasury, Quantitative Finance, Risk &#38; Capital Portfolio Analysis, Global Markets Risk Management, Enterprise Credit &#38; Markets Risk, Global Portfolio Strategies, Enterprise Information and Analytics, and Consumer &#38; Small Business Banking Risk Management  </li>
+	<li>Provide a micro view of risk management in a particular business line and a macro view of risk management for the bank as a whole through rotational assignments</li>
+	<li>Rotations include positions within various lines of business, such as Corporate Treasury, Quantitative Finance, Risk &amp; Capital Portfolio Analysis, Global Markets Risk Management, Enterprise Credit Risk, Global Portfolio Strategies, Home Loans and Insurance, and Consumer &amp; Small Business Banking.</li>
 </ul>
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Qualifications</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information">Qualifications</h2>
 <div>
 <p class="bac nobr">The Quantitative Management Program is seeking a combination of academic aptitude and quantitative skills including:</p>
 <ul class="bac">
-	<li>Undergraduate or Masters degree in quantitative disciplines such as Engineering, Mathematics, Statistics, Computer Science, Quantitative Finance, or Economics</li>
-	<li>Strategic and creative thinking ability  </li>
-	<li>Exceptional communication skills </li> 
+	<li>Undergraduate or Masters degree in quantitative disciplines such as engineering, mathematics, statistics, computer science, quantitative finance, and economics</li>
+	<li>Strategic and creative thinking ability</li>
+	<li>Exceptional communication skills</li>
 	<li>Geographic mobility</li>
-	<li>Minimum GPA of 3.3 </li>
+	<li>Minimum GPA of 3.3</li>
 </ul>
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Training</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information">Training</h2>
 <div>
-<p class="bac">The QMAP training curriculum is a multi&ndash;phase program that complements and enhances the hands&ndash;on experience associates develop in their rotational assignments. The goal of the training curriculum is to provide a broad introduction to core concepts and theories of risk management that the associates will encounter during their career at Bank of America, covering topics from the consumer, commercial and capital markets lines of businesses. Training concepts discussed include: quantitative credit analytics, risk management techniques, fixed income and derivative valuation. Associate development is critical to the success of Global Risk Management, and executive leadership within the GRM organization is committed to the success of our QMAP associates.</p>
+<p class="bac">The QMAP training curriculum is a multi&ndash;phase program that complements and enhances the hands&ndash;on experience the associates develop in their rotational assignments. The goal of the training curriculum is to provide a broad introduction to core concepts and theories of risk management that the associates will encounter during their career at Bank&nbsp;of&nbsp;America, covering topics from the consumer, commercial and capital markets lines of businesses. Training concepts discussed include: quantitative credit analytics, risk management techniques, fixed income and derivative valuation.</p>
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Locations</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information">Locations</h2>
 <div>
-<p class="bac">First year rotations are in Charlotte, NC.  Second year rotations are located in Atlanta, GA; Boston, MA; Charlotte, NC; Chicago, IL; New York, NY; or San Francisco, CA.</p>
+<p class="bac">First year rotations are in Charlotte, NC. Second year rotations are located in Atlanta, GA; Charlotte, NC; Chicago, IL; New York, NY; San Francisco, CA; Wilmington, DE</p>
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">How to Apply</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information">How to Apply</h2>
 <div>
 <p class="bac"><% howToApply(program) %></p>
 </div></div>

@@ -5,7 +5,7 @@
 <h1 class="bac"><%=program.Item("title")%></h1>
 
 <div class="expanded">
-<h2 class="bac"><img class="pclose" src="../images/clear.gif">Our Business</h2>
+<h2 class="bac"><img class="pclose" src="../images/clear.gif" alt="Hide information" title="Hide information">Our Business</h2>
 <div>
 <p class="bac">Global Wealth  &amp; Investment Management (GWIM) provides comprehensive wealth management to affluent and high-net-worth clients. It also provides retirement and benefit plan services, philanthropic management and asset management to individuals and institutions. The group serves these clients by providing access to services through the Chief Operating Office, Global Investment Solutions, GWIM Banking, Merrill Lynch Global Wealth Management, Private Banking and Investment Group (PBIG), Retirement Services, and US Trust, Bank&nbsp;of&nbsp;America Private Wealth Management.</p>
 <ul class="bac">
@@ -34,7 +34,7 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Overview</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information">Overview</h2>
 <div>
 <p class="bac">Sales Support: Build relationships with clients and manage their day-to-day requests. Possess the following key skills: solid and effective communications; client service and technical; and time management and organizational. These will help in the preparation of client research and information, including marketing materials and presentations. Also build a strong knowledge of the products and services we offer our clients.</p>
 <p class="bac">Sales  &amp; Relationship Management: Build sales and relationship management skills including those associated with traditional financial advisory roles such as: client contact; portfolio strategy; and product sales. Also develop sales  &amp; trading competencies and build deep relationships with Financial Advisors and clients.</p>
@@ -44,7 +44,7 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Qualifications</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information">Qualifications</h2>
 <div>
 <ul class="bac">
 	<li>Successful completion of an Undergraduate degree program</li>
@@ -57,7 +57,7 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Training</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information">Training</h2>
 <div>
 <p class="bac nobr">The Global Wealth and Investment Management (GWIM) Analyst Program is a direct placement program with opportunities in various businesses throughout GWIM. Our Analyst program is designed to provide you with the skills and knowledge you need to launch a successful career within the GWIM Business. During an Analyst&#39;s first year, you receive training through the program, which includes an orientation, professional development, and technical skill training, in addition to the on the job training you receive from your business. The program begins with an orientation that provides participants with an overview of the company, its business divisions, organizational structure, and product groups. The program also provides networking opportunities across the organization. In addition to orientation, the program consists of:</p>
 <ul class="bac">
@@ -71,13 +71,13 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Locations</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information">Locations</h2>
 <div>
 <p class="bac">Opportunities may exist in the following Locations Atlanta, GA; Boston, MA; Charlotte, NC; Chicago, IL; Hopewell, NJ; Jersey City, NJ; Los Angeles, CA; New York, NY; Miami, FL; and San Francisco, CA.</p>
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">How to Apply</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information">How to Apply</h2>
 <div>
 <p class="bac"><% howToApply(program) %></p>
 </div></div>

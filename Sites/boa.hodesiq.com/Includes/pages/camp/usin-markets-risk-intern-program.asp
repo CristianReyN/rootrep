@@ -5,13 +5,13 @@
 <h1 class="bac"><%=program.Item("title")%></h1>
 
 <div class="expanded">
-<h2 class="bac"><img class="pclose" src="../images/clear.gif">Our Business</h2>
+<h2 class="bac"><img class="pclose" src="../images/clear.gif" alt="Hide information" title="Hide information">Our Business</h2>
 <div>
 <p class="bac">Risk Managers develop a deep subject matter expertise in the Global Markets, and as trusted advisors to the various trading &amp; sales business lines, engage in active dialogue with the risk takers to fully articulate the nature of the risk and provide transparency of risk to senior management.</p>
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Overview</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information">Overview</h2>
 <div>
 <p class="bac">The Markets Risk Intern Program is designed to develop and coach analytical and quantitative talent to be deployed in the Global Markets Risk (GMR) organization.</p>
 <ul class="bac">
@@ -22,7 +22,7 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Qualifications</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information">Qualifications</h2>
 <div>
 <p class="bac nobr">The Markets Risk Intern Program is seeking a combination of academic aptitude and quantitative skills including:</p>
 <ul class="bac">
@@ -38,7 +38,7 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Training</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information">Training</h2>
 <div>
 <p class="bac">The Markets Risk Intern Program allows interns to gain practical experience in Global Markets Risk while also participating in enterprise-wide and line of business intern events.</p>
 <p class="bac nobr">The intern experience includes:</p>
@@ -54,13 +54,13 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Locations</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information">Locations</h2>
 <div>
 <p class="bac">New York, NY</p>
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">How to Apply</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information">How to Apply</h2>
 <div>
 <p class="bac"><% howToApply(program) %></p>
 </div></div>

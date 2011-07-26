@@ -5,7 +5,7 @@
 <h1 class="bac"><%=program.Item("title")%></h1>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Our Businesses:</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information">Our Businesses:</h2>
 <div>
 <h3 class="bac">Enterprise Change Technology  &amp; Operations</h3>
 <p class="bac">Executes customer, clients and associate needs and requests through technology, systems and call centers, among other tools and channels. This includes mainframe, mid-range and distributed server operations; client server technology; local and wide area network functions; telecommunications; and other critical systems. ECT &amp;O teams include Infrastructure Engineering, Infrastructure Operations, Enterprise Applications, Shared Services, Associate Technology, Communication  &amp; Innovation, Enterprise Information Management, China Construction Bank, Business Management Services and Global Delivery Center of Expertise.</p>
@@ -16,7 +16,7 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Overview</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information">Overview</h2>
 <div>
 <p class="bac">Technology Fulltime Analyst Program is designed to provide candidates with an opportunity to work with experienced technology professionals and prepare for a career in the bank&#39;s technology division.</p>
 <h3 class="bac">Placement</h3>
@@ -55,7 +55,7 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Qualifications</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information">Qualifications</h2>
 <div>
 <h3 class="bac">Education</h3>
 <ul class="bac">
@@ -94,7 +94,7 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Training</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information">Training</h2>
 <div>
 <p class="bac nobr">The Fulltime Analyst Program consists of the following developmental activities:</p>
 <ul class="bac">
@@ -109,13 +109,13 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Locations</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information">Locations</h2>
 <div>
 <p class="bac">Singapore, Hong Kong, Japan or India</p>
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">How to Apply</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information">How to Apply</h2>
 <div>
 <p class="bac"><% howToApply(program) %></p>
 </div></div>

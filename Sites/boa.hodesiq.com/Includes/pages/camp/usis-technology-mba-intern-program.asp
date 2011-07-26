@@ -5,7 +5,7 @@
 <h1 class="bac"><%=program.Item("title")%></h1>
 
 <div class="expanded">
-<h2 class="bac"><img class="pclose" src="../images/clear.gif">Our Business</h2>
+<h2 class="bac"><img class="pclose" src="../images/clear.gif" alt="Hide information" title="Hide information">Our Business</h2>
 <div>
 <p class="bac nobr">Bank&nbsp;of&nbsp;America leverages Technology and Operations across the organization to:</p>
 <ul class="bac">
@@ -17,13 +17,13 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Overview</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information">Overview</h2>
 <div>
 <p class="bac">Interns work for 9-10 weeks in challenging roles that mirror the positions of full-time Technology MBA program associates. In conjunction with job responsibilities, interns will participate in Technology MBA functions including training sessions, informational lunches, networking events, and community service opportunities. Interns will also have a formal support structure including a Peer Coach, Assignment Manager and Program Manager.</p>
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Qualifications</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information">Qualifications</h2>
 <div>
 <p class="bac">The ideal candidate will exhibit a strong drive for results; succeed in a fast-paced, empowered, and collaborative environment; enjoy teamwork and partnering with others; possess excellent organizational and analytical skills; understand technology and business requirements. The ability to learn the organizational structure and the formal/informal workings of the organization and to convey a strong sense of customer and associate satisfaction to drive shareholder value is required.</p>
 <p class="bac nobr">Candidate Profile:</p>
@@ -36,13 +36,13 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Location:</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information">Location:</h2>
 <div>
 <p class="bac">Charlotte, North Carolina</p>
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">How to Apply</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information">How to Apply</h2>
 <div>
 <p class="bac"><% howToApply(program) %></p>
 </div></div>

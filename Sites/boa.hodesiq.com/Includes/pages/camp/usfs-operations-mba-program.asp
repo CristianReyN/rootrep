@@ -5,13 +5,13 @@
 <h1 class="bac"><%=program.Item("title")%></h1>
 
 <div class="expanded">
-<h2 class="bac"><img class="pclose" src="../images/clear.gif">Our Business</h2>
+<h2 class="bac"><img class="pclose" src="../images/clear.gif" alt="Hide information" title="Hide information">Our Business</h2>
 <div>
 <p class="bac">To deliver a best in class rotational development opportunity for Operations MBA participants through experiential learning, training, and networking opportunities. The Operations MBA Program is designed to give associates the necessary tools to further manage their professional development, realize their future potential, and maximize their contributions to Bank&nbsp;of&nbsp;America.</p>
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Overview</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information">Overview</h2>
 <div>
 <p class="bac">The Operations MBA (OMBA) is a graduate program designed to provide external candidates and selected internal associates with an opportunity for leadership positions in the bank&#39;s operational lines of business.</p>
 <p class="bac">The OMBA program focuses on operational line of business functions within Bank&nbsp;of&nbsp;America and provides associates with the opportunity to move through two rotational assignments within various groups of the organization. OMBA associates participate in a variety of activities designed to foster teamwork, encourage networking, and demonstrate Bank&nbsp;of&nbsp;America&#39;s vision and culture. Participants are given the opportunity to attend OMBA events and will be encouraged to further develop leadership skills by leading initiatives, teams, and strategy.</p>
@@ -27,7 +27,7 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Qualifications</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information">Qualifications</h2>
 <div>
 <p class="bac">We hire an elite group of associates who demonstrate the ability to work in a fast paced, empowered environment. Ideal candidates will have the demonstrated ability to handle multiple, competing priorities; learn new tools/applications quickly; and possess strong interpersonal skills. Professional/academic experience will include strong technical and management expertise including, but not limited to: managing teams, statistical analysis, volume forecasting, change management, project management, and data management.</p>
 <p class="bac">Successful candidates will demonstrate the ability to lead and manage people (indirect  &amp; direct), inspect and understand a business end to end (process  &amp; risks), influence change adoption, lead quality focus (six sigma), communicate effectively, meet challenging performance requirements, learn from past experiences, and use superb analytical and presentation skills to achieve outstanding results.</p>
@@ -46,19 +46,19 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Training</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information">Training</h2>
 <div>
 <p class="bac">The Operations MBA training curriculum is comprehensive and offers a blend of classroom and web-based training, which complements the hands-on experience that the OMBA associates develop in their rotational assignments. OMBA associates will also attend monthly program meetings and be presented with peer coach support.</p>
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Locations</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information">Locations</h2>
 <div>
 <p class="bac">Charlotte, NC o Dallas/Plano, TX o Phoenix/Tempe/Chandler, AZ o LA/Calabasas/Thousand Oaks, CA o Atlanta, GA o Newark, DE</p>
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">How to Apply</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information">How to Apply</h2>
 <div>
 <p class="bac"><% howToApply(program) %></p>
 </div></div>

@@ -109,13 +109,13 @@ Set video_profile  = Server.CreateObject("Scripting.Dictionary")
 video_profiles.add "Tanvi", video_profile
 
 Set video_profile  = Server.CreateObject("Scripting.Dictionary")
-	video_profile.add "name", "Zac"
+	video_profile.add "name", "Zach"
 	video_profile.add "videoname", "Commercial Banking Real Estate Banking Analyst Program"
-	video_profile.add "videohtml", "video/Zac/index.html"
-	video_profile.add "video", "video/Zac/player.swf"
-	video_profile.add "popup", "video/Zac/transcript.asp"
-	video_profile.add "key", "Zac"
-video_profiles.add "Zac", video_profile
+	video_profile.add "videohtml", "video/Zach/index.html"
+	video_profile.add "video", "video/Zach/player.swf"
+	video_profile.add "popup", "video/Zach/transcript.asp"
+	video_profile.add "key", "Zach"
+video_profiles.add "Zach", video_profile
 
 Function IncludeTranscript (key)
 	select case key
@@ -141,8 +141,8 @@ Function IncludeTranscript (key)
 %><!-- #include file="../campusrecruiting/video/Saumya/transcript.html" --><%
 		case "Tanvi"
 %><!-- #include file="../campusrecruiting/video/Tanvi/transcript.html" --><%
-		case "Zac"
-%><!-- #include file="../campusrecruiting/video/Zac/transcript.html" --><%
+		case "Zach"
+%><!-- #include file="../campusrecruiting/video/Zach/transcript.html" --><%
 		case else
 	end select
 End Function

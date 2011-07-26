@@ -5,13 +5,13 @@
 <h1 class="bac"><%=program.Item("title")%></h1>
 
 <div class="expanded">
-<h2 class="bac"><img class="pclose" src="../images/clear.gif">Our Business</h2>
+<h2 class="bac"><img class="pclose" src="../images/clear.gif" alt="Hide information" title="Hide information">Our Business</h2>
 <div>
 <p class="bac">Institutional Mortgage Services (IMS) is an industry leader in the business of financing and purchasing mortgage loans. Institutional Mortgage Services (IMS) is comprised of two distinct groups: Correspondent Lending and Warehouse Lending within the Sales  &amp; Fulfillment organization. Both channels are committed to responsible lending and helping create successful home ownership by offering specialized products and services designed to meet the needs of mortgage providers throughout the country - including banks, savings and loans, credit unions, mortgage lenders and mortgage brokers. IMS combines both channels into one business-to-business mortgage team that consistently generates up to 50 percent of the overall volume for the sales and fulfillment channels of Bank&nbsp;of&nbsp;America Home Loans.</p>
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Overview</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information">Overview</h2>
 <div>
 <p class="bac">Bank&nbsp;of&nbsp;America is seeking outstanding college students interested in a rewarding intern experience in Sales, Fulfillment, Products  &amp; Pricing, Warehouse Lending and Counterparty Risk, and Credit Strategies to enter our selective 10 week Institutional Mortgage Services Intern Program.</p>
 <p class="bac nobr">In this program you will:</p>
@@ -28,7 +28,7 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Qualifications</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information">Qualifications</h2>
 <div>
 <ul class="bac">
 	<li>Pursuing a Bachelor degree</li>
@@ -42,19 +42,19 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Training</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information">Training</h2>
 <div>
 <p class="bac">Candidates hired into this program participate in a training and performance-based learning plan combining classroom instruction, eLearning, on-the-job training, real world experience through projects, and one-on-one performance coaching from both your Assignment Manager, Peer Coach and Intern Program Manager.</p>
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Locations</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information">Locations</h2>
 <div>
 <p class="bac">Thousand Oaks and Westlake Village, California</p>
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">How to Apply</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information">How to Apply</h2>
 <div>
 <p class="bac"><% howToApply(program) %></p>
 </div></div>

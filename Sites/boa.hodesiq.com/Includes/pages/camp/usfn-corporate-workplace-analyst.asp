@@ -5,13 +5,13 @@
 <h1 class="bac"><%=program.Item("title")%></h1>
 
 <div class="expanded">
-<h2 class="bac"><img class="pclose" src="../images/clear.gif">Our Business</h2>
+<h2 class="bac"><img class="pclose" src="../images/clear.gif" alt="Hide information" title="Hide information">Our Business</h2>
 <div>
 <p class="bac">Corporate Workplace is responsible for a $5.0 Billion annual budget for over 125 million square feet of bank-owned and occupied facilities worldwide. In support of Bank&nbsp;of&nbsp;America&#39;s stated mission to be the "World&#39;s Most Admired Company", we charge ourselves with making real estate a differentiating factor for the bank through cutting edge initiatives such as the Bank&nbsp;of&nbsp;America Tower at One Bryant Park in NYC, one of the world&#39;s most environmentally-friendly skyscrapers, developing flexible work options and continually innovating the workplace environment. Corporate Workplace distinguishes Bank&nbsp;of&nbsp;America from its competition by delivering innovative space solutions that attract talent, foster satisfaction and productivity among its associates, and allow customers and clients to transact business with efficiency, security and confidence. We are committed to cost-efficient and environmentally sustainable practices that benefit shareholders and our global community.</p>
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Overview</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information">Overview</h2>
 <div>
 <p class="bac nobr">The Corporate Workplace Analyst, depending on assignment, may take on roles and responsibilities such as:</p>
 <ul class="bac">
@@ -25,7 +25,7 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Qualifications</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information">Qualifications</h2>
 <div>
 <ul class="bac">
 	<li>Undergraduate degree in Finance, Accounting, Real Estate, Building Construction or Business Administration preferred</li>
@@ -45,13 +45,13 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Locations</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information">Locations</h2>
 <div>
 <p class="bac">Charlotte, NC</p>
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">How to Apply</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information">How to Apply</h2>
 <div>
 <p class="bac"><% howToApply(program) %></p>
 </div></div>

@@ -5,20 +5,20 @@
 <h1 class="bac"><%=program.Item("title")%></h1>
 
 <div class="expanded">
-<h2 class="bac"><img class="pclose" src="../images/clear.gif">Our Business</h2>
+<h2 class="bac"><img class="pclose" src="../images/clear.gif" alt="Hide information" title="Hide information">Our Business</h2>
 <div>
 <p class="bac">The Global Risk Management Organization effectively manages risk and reward for each of the company&#39;s major lines of business. The foundation of Bank of America&#39;s risk governance is individual accountability and adherence to the highest standards of conduct. We strive to do the right thing, and to do things right. Understanding, identifying and managing risk and reward is part of every associate&#39;s job.</p>
 <p class="bac">Global Risk employs 5,000 associates, in more than 35 countries. With the increased focus on risk management in the market place, Global Risk Management offers challenging and exciting career opportunities.</p>
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Overview</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information">Overview</h2>
 <div>
 <p class="bac">Global Risk Management Interns participate in a variety of activities within Global Risk, and bank&ndash;wide, to foster teamwork, encourage networking, and demonstrate Bank of America&#39;s vision and culture. The Intern program will introduce students to the Global Risk Management Associate Program (GRMAP), a three&ndash;year Associate Development program, which rotates associates through challenging and valuable one&ndash;year assignments within Global Risk. This rotational process helps associates develop a solid understanding of the core roles and responsibilities of Global Risk, while developing a broad range of skills that are applicable throughout much of the corporation.</p>
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Qualifications</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information">Qualifications</h2>
 <div>
 <ul class="bac">
 	<li>Pursuing an undergraduate degree in Accounting, Finance, Business Administration, Economics, Mathematics and/or Liberal Arts</li>
@@ -32,7 +32,7 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Training</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information">Training</h2>
 <div>
 <p class="bac">The Global Risk Management Intern Program allows rising juniors to gain practical experience on relevant projects in Risk Management, while also participating in enterprise&ndash;wide and line of business intern events.</p>
 <p class="bac nobr">The Intern Experience Includes:</p>
@@ -48,7 +48,7 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Locations</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information">Locations</h2>
 <div>
 <p class="bac">
 Charlotte, NC and New York, NY 
@@ -56,7 +56,7 @@ Charlotte, NC and New York, NY
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">How to Apply</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information">How to Apply</h2>
 <div>
 <p class="bac"><% howToApply(program) %></p>
 </div></div>

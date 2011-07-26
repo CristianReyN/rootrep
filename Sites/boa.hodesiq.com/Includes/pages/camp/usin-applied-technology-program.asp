@@ -5,20 +5,20 @@
 <h1 class="bac"><%=program.Item("title")%></h1>
 
 <div class="expanded">
-<h2 class="bac"><img class="pclose" src="../images/clear.gif">Our Business</h2>
+<h2 class="bac"><img class="pclose" src="../images/clear.gif" alt="Hide information" title="Hide information">Our Business</h2>
 <div>
 <p class="bac">Bank&nbsp;of&nbsp;America&#39;s technology couples technological expertise with the bank&#39;s strategic vision to keep Bank&nbsp;of&nbsp;America at the forefront of the world&#39;s financial markets. Delivering market-leading technology drives our business forward.</p>
 <p class="bac">Our technology teams partner with our Global Markets, Investment Banking, Wealth Management, Corporate Treasury and Corporate Investments Groups to develop leading-edge applications supporting the entire range of our business activities - from client-facing sales and trading applications to security analytics, risk management, trade processing, management reporting, reference and market data, and customer relationship management. Our teams work very closely with our business partners, developing strategies and delivering solutions that are integral to the day-to-day running of our business.</p>
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Overview</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information">Overview</h2>
 <div>
 <p class="bac">The Applied Technology Program (ATP) is a unique program that allows UNC Charlotte students to perform practical work for the Bank for an extended period of time while pursuing their undergraduate degrees. For the students, the program spans a 17 month period beginning in the spring term of junior year and through the spring term of senior year. The ATP has a unique compensation structure that combines both pay and course credits. In the spring term of their junior year, students will work 19-hour weeks and receive 6 credits. In the summer term, students will work 40-hour weeks for pay. In the fall and spring term of their senior year, students will revert back to working 19-hour weeks, but will receive pay instead of course credits.</p>
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Qualifications</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information">Qualifications</h2>
 <div>
 <p class="bac">The ideal candidate exhibits a strong drive for results; displays a sense of urgency, succeeds in a collaborative environment, and enjoys teamwork and partnering with others. He/she possesses excellent organization skills and judgment, understands technology and business requirements, has the ability to learn the organizational structure and the formal/informal workings of the organization, and conveys a strong sense of customer and associate satisfaction to drive shareholders value. The ideal candidate will be proficient in the Microsoft Suite and other basic applications such as Outlook. Technical skills should include knowledge of or familiarity with the following technologies: system architecture, databases, and servers.</p>
 <p class="bac">Candidates are limited to students at UNC Charlotte at this time and must be enrolled in a full-time degree program, pursuing a major in a technology or business field. Minimum Grade Point Average of a 3.0 on a 4 point scale is required. Candidate must be a US citizen or have permanent US residency.</p>
@@ -36,7 +36,7 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Locations</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information">Locations</h2>
 <div>
 <p class="bac">Charlotte, North Carolina		</p>
 <h3 class="bac">Full-Time Opportunities:</h3>
@@ -44,7 +44,7 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">How to Apply</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information">How to Apply</h2>
 <div>
 <p class="bac"><% howToApply(program) %></p>
 </div></div>

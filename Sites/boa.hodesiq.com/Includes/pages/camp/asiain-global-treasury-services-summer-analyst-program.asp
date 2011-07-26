@@ -5,13 +5,13 @@
 <h1 class="bac"><%=program.Item("title")%></h1>
 
 <div class="expanded">
-<h2 class="bac"><img class="pclose" src="../images/clear.gif">Our Business</h2>
+<h2 class="bac"><img class="pclose" src="../images/clear.gif" alt="Hide information" title="Hide information">Our Business</h2>
 <div>
 <p class="bac">Global Treasury Services (GTS) provides integrated working capital management and treasury solutions to more than 150,000 clients around the world, including small businesses, middle-market and large corporations, multi-nationals, financial institutions and governments. GTS offers services including treasury management, trade finance, foreign exchange, short-term credit, liquidity management, commercial card, merchant services and group banking. Bank&nbsp;of&nbsp;America is the number-one treasury and trade services provider in the United States and a leading provider worldwide. GTS associates serve as financial advisors to clients by combining treasury management expertise with a thorough understanding of each client&#39;s business and industry.</p>
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Overview</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information">Overview</h2>
 <div>
 <p class="bac">GTS Interns participate in a 10-12 week program based in Singapore, Hong Kong or Japan. This provides a unique opportunity for students to experience product solutions policies and practices. Interns are given a true associate experience, as internships mirror fulltime positions and include goal-setting and a formal review process. In addition to learning opportunities there are formal and social opportunities to interact and network with senior colleagues.</p>
 <h3 class="bac">Placement</h3>
@@ -21,7 +21,7 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Qualifications</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information">Qualifications</h2>
 <div>
 <h3 class="bac">Education</h3>
 <ul class="bac">
@@ -57,7 +57,7 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Training</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information">Training</h2>
 <div>
 <p class="bac nobr">The Internship program begins with a few days of orientation and induction to the firm and includes:</p>
 <ul class="bac">
@@ -72,13 +72,13 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">Locations</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information">Locations</h2>
 <div>
 <p class="bac">Singapore, Hong Kong or Japan</p>
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif">How to Apply</h2>
+<h2 class="bac"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information">How to Apply</h2>
 <div>
 <p class="bac"><% howToApply(program) %></p>
 </div></div>
