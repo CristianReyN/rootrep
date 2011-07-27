@@ -27,7 +27,6 @@
 <p class="bac nobr">The Markets Risk Analyst Program is seeking a combination of academic aptitude and quantitative skills including:</p>
 <ul class="bac">
 	<li>Undergraduate degree in quantitative disciplines such as engineering, mathematics, statistics, computer science, quantitative finance, economics, and/or business</li>
-	<li>Undergraduate degree in quantitative disciplines such as engineering, mathematics, statistics, computer science, quantitative finance, economics, and/or business</li>
 	<li>Strategic and creative thinking ability</li>
 	<li>Exceptional communication skills</li>
 	<li>Demonstrate leadership, initiative, and resourcefulness in school, community, or work experience</li>

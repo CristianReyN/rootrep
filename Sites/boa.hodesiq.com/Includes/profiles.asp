@@ -12,9 +12,8 @@ Function profile (program)
 	ElseIf InArray(program.Item("url"), Array( _
 			"usfs-human-resources-development-program.asp" _
 		)) Then
-%>
+		Set video_profile = video_profiles.Item("Anton") %>
 <a href="" class="md-video" title="Play <%=video_profile.Item("name")%>&#39;s video"><img src="../campusrecruiting/video/thumb/anton_vt_180.jpg" alt="Play <%=video_profile.Item("name")%>&#39;s video" width="180" height="120" border="0"></a>
-<% Set video_profile = video_profiles.Item("Anton") %>
 <div class="vwrap"><a href="<%=video_profile.Item("popup")%>" class="md-trans" title="<%=video_profile.Item("name")%>, <%=video_profile.Item("videoname")%>">View transcript</a></div>
 <!-- #include file="modal_dialog.asp" -->
 <%
@@ -83,12 +82,6 @@ Function profile (program)
 <a href="../campus-meet-our-people-profile-Gemma.aspx" class="proimg" title="View Gemma&#39;s Profile"><img src="../images/profile_images/cpi_Fujia.jpg" width="180" height="130" alt="View Gemma&#39;s Profile" border="0" class="proimg"></a>
 <%
 	ElseIf InArray(program.Item("url"), Array( _
-			"usin-quantitative-management-intern-program.asp" _
-		)) Then
-%>
-Guan VIDEO
-<%
-	ElseIf InArray(program.Item("url"), Array( _
 			"usfs-operations-mba-program.asp", _
 			"usis-operations-mba-intern-program.asp" _
 		)) Then
@@ -108,9 +101,8 @@ Guan VIDEO
 			"usfs-global-markets-sales-trading-associate-program.asp", _
 			"usis-global-markets-sales-trading-summer-associate-program.asp" _
 		)) Then
-%>
+		Set video_profile = video_profiles.Item("Howard") %>
 <a href="" class="md-video" title="Play <%=video_profile.Item("name")%>&#39;s video"><img src="../campusrecruiting/video/thumb/howard_vt_180.jpg" alt="Play <%=video_profile.Item("name")%>&#39;s video" width="180" height="120" border="0"></a>
-<% Set video_profile = video_profiles.Item("Howard") %>
 <div class="vwrap"><a href="<%=video_profile.Item("popup")%>" class="md-trans" title="<%=video_profile.Item("name")%>, <%=video_profile.Item("videoname")%>">View transcript</a></div>
 <!-- #include file="modal_dialog.asp" -->
 <%
@@ -124,9 +116,8 @@ Guan VIDEO
 	ElseIf InArray(program.Item("url"), Array( _
 			"usin-applied-technology-program.asp" _
 		)) Then
-%>
+		Set video_profile = video_profiles.Item("Jarrod") %>
 <a href="" class="md-video" title="Play <%=video_profile.Item("name")%>&#39;s video"><img src="../campusrecruiting/video/thumb/jarrod_vt_180.jpg" alt="Play <%=video_profile.Item("name")%>&#39;s video" width="180" height="120" border="0"></a>
-<% Set video_profile = video_profiles.Item("Jarrod") %>
 <div class="vwrap"><a href="<%=video_profile.Item("popup")%>" class="md-trans" title="<%=video_profile.Item("name")%>, <%=video_profile.Item("videoname")%>">View transcript</a></div>
 <!-- #include file="modal_dialog.asp" -->
 <%
@@ -145,8 +136,7 @@ Guan VIDEO
 <a href="../campus-meet-our-people-profile-John-William.aspx" class="proimg" title="View John-William&#39;s Profile"><img src="../images/profile_images/cpi_John-William.jpg" width="180" height="130" alt="View John-William&#39;s Profile" border="0" class="proimg"></a>
 <%
 	ElseIf InArray(program.Item("url"), Array( _
-			"usfn-global-risk-management-program.asp", _
-			"usin-global-risk-management-intern-program.asp" _
+			"usfn-global-risk-management-program.asp" _
 		)) Then
 %>
 <a href="../campus-meet-our-people-profile-Jordan.aspx" class="proimg" title="View Jordan&#39;s Profile"><img src="../images/profile_images/cpi_Jordan.jpg" width="180" height="130" alt="View Jordan&#39;s Profile" border="0" class="proimg"></a>
@@ -157,9 +147,8 @@ Guan VIDEO
 			"usfn-global-markets-sales-trading-analyst-program.asp", _
 			"usin-global-markets-sales-trading-summer-analyst-program.asp" _
 		)) Then
-%>
+		Set video_profile = video_profiles.Item("Kaitlyn") %>
 <a href="" class="md-video" title="Play <%=video_profile.Item("name")%>&#39;s video"><img src="../campusrecruiting/video/thumb/kaitlyn_vt_180.jpg" alt="Play <%=video_profile.Item("name")%>&#39;s video" width="180" height="120" border="0"></a>
-<% Set video_profile = video_profiles.Item("Kaitlyn") %>
 <div class="vwrap"><a href="<%=video_profile.Item("popup")%>" class="md-trans" title="<%=video_profile.Item("name")%>, <%=video_profile.Item("videoname")%>">View transcript</a></div>
 <!-- #include file="modal_dialog.asp" -->
 <%
@@ -174,9 +163,8 @@ Guan VIDEO
 			"usfs-consumer-mba-program-banking-center-channel-track.asp", _
 			"usis-consumer-small-business-banking-mba-intern-program.asp" _
 		)) Then
-%>
+		Set video_profile = video_profiles.Item("Kevin") %>
 <a href="" class="md-video" title="Play <%=video_profile.Item("name")%>&#39;s video"><img src="../campusrecruiting/video/thumb/kevin_vt_180.jpg" alt="Play <%=video_profile.Item("name")%>&#39;s video" width="180" height="120" border="0"></a>
-<% Set video_profile = video_profiles.Item("Kevin") %>
 <div class="vwrap"><a href="<%=video_profile.Item("popup")%>" class="md-trans" title="<%=video_profile.Item("name")%>, <%=video_profile.Item("videoname")%>">View transcript</a></div>
 <!-- #include file="modal_dialog.asp" -->
 <%
@@ -191,9 +179,8 @@ Guan VIDEO
 			"asiafn-global-treasury-services-analyst-program.asp", _
 			"asiain-global-treasury-services-summer-analyst-program.asp" _
 		)) Then
-%>
+		Set video_profile = video_profiles.Item("Leonard") %>
 <a href="" class="md-video" title="Play <%=video_profile.Item("name")%>&#39;s video"><img src="../campusrecruiting/video/thumb/leonard_vt_180.jpg" alt="Play <%=video_profile.Item("name")%>&#39;s video" width="180" height="120" border="0"></a>
-<% Set video_profile = video_profiles.Item("Leonard") %>
 <div class="vwrap"><a href="<%=video_profile.Item("popup")%>" class="md-trans" title="<%=video_profile.Item("name")%>, <%=video_profile.Item("videoname")%>">View transcript</a></div>
 <!-- #include file="modal_dialog.asp" -->
 <%
@@ -231,6 +218,7 @@ Guan VIDEO
 			"usfn-institutional-mortgage-services-development-program.asp", _
 			"usfs-home-Loans-insurance-mba-program.asp", _
 			"usin-institutional-mortgage-services-analyst-intern-program.asp", _
+			"usin-markets-risk-intern-program.asp", _
 			"usis-home-Loans-insurance-mba-intern-program.asp" _
 		)) Then
 %>
@@ -296,7 +284,8 @@ Guan VIDEO
 	ElseIf InArray(program.Item("url"), Array( _
 			"usfn-global-commercial-banking-analyst-program.asp", _
 			"usfs-global-commercial-banking-associate-program.asp", _
-			"usin-global-commercial-banking-summer-analyst-program.asp" _
+			"usin-global-commercial-banking-summer-analyst-program.asp", _
+			"usin-global-treasury-solutions-summer-analyst-program.asp" _
 		)) Then
 %>
 <img src="../images/logos/cpi_LOGO_BofAML_RedBlue.jpg" width="180" height="130" alt="Bank of America Merrill Lynch" border="0" style="margin: 0px 0px 12px 0px;">
@@ -352,9 +341,8 @@ Guan VIDEO
 			"asiafs-global-markets-sales-trading-associate-program.asp", _
 			"asiais-global-markets-sales-trading-summer-associate-program.asp" _
 		)) Then
-%>
+		Set video_profile = video_profiles.Item("Narinder") %>
 <a href="" class="md-video" title="Play <%=video_profile.Item("name")%>&#39;s video"><img src="../campusrecruiting/video/thumb/narinder_vt_180.jpg" alt="Play <%=video_profile.Item("name")%>&#39;s video" width="180" height="120" border="0"></a>
-<% Set video_profile = video_profiles.Item("Narinder") %>
 <div class="vwrap"><a href="<%=video_profile.Item("popup")%>" class="md-trans" title="<%=video_profile.Item("name")%>, <%=video_profile.Item("videoname")%>">View transcript</a></div>
 <!-- #include file="modal_dialog.asp" -->
 <%
@@ -362,9 +350,8 @@ Guan VIDEO
 			"emeafn-international-corporate-treasury-analyst-programme.asp", _
 			"emeain-international-corporate-treasury-summer-analyst-programme.asp" _
 		)) Then
-%>
+		Set video_profile = video_profiles.Item("Nichole") %>
 <a href="" class="md-video" title="Play <%=video_profile.Item("name")%>&#39;s video"><img src="../campusrecruiting/video/thumb/nichole_vt_180.jpg" alt="Play <%=video_profile.Item("name")%>&#39;s video" width="180" height="120" border="0"></a>
-<% Set video_profile = video_profiles.Item("Nichole") %>
 <div class="vwrap"><a href="<%=video_profile.Item("popup")%>" class="md-trans" title="<%=video_profile.Item("name")%>, <%=video_profile.Item("videoname")%>">View transcript</a></div>
 <!-- #include file="modal_dialog.asp" -->
 <%
@@ -379,9 +366,8 @@ Guan VIDEO
 			"asiafn-global-investment-banking-analyst-program.asp", _
 			"asiain-global-investment-banking-summer-analyst-program.asp" _
 		)) Then
-%>
+		Set video_profile = video_profiles.Item("Patricia") %>
 <a href="" class="md-video" title="Play <%=video_profile.Item("name")%>&#39;s video"><img src="../campusrecruiting/video/thumb/patricia_vt_180.jpg" alt="Play <%=video_profile.Item("name")%>&#39;s video" width="180" height="120" border="0"></a>
-<% Set video_profile = video_profiles.Item("Patricia") %>
 <div class="vwrap"><a href="<%=video_profile.Item("popup")%>" class="md-trans" title="<%=video_profile.Item("name")%>, <%=video_profile.Item("videoname")%>">View transcript</a></div>
 <!-- #include file="modal_dialog.asp" -->
 <%
@@ -420,9 +406,8 @@ Guan VIDEO
 			"emeafs-global-research-associate-programme.asp", _
 			"emeais-global-research-summer-associate-programme.asp" _
 		)) Then
-%>
+		Set video_profile = video_profiles.Item("Saumya") %>
 <a href="" class="md-video" title="Play <%=video_profile.Item("name")%>&#39;s video"><img src="../campusrecruiting/video/thumb/saumya_vt_180.jpg" alt="Play <%=video_profile.Item("name")%>&#39;s video" width="180" height="120" border="0"></a>
-<% Set video_profile = video_profiles.Item("Saumya") %>
 <div class="vwrap"><a href="<%=video_profile.Item("popup")%>" class="md-trans" title="<%=video_profile.Item("name")%>, <%=video_profile.Item("videoname")%>">View transcript</a></div>
 <!-- #include file="modal_dialog.asp" -->
 <%
@@ -437,9 +422,8 @@ Guan VIDEO
 			"emeafn-technology-analyst-programme.asp", _
 			"emeain-technology-developer-analyst-summer-intern-programme.asp" _
 		)) Then
-%>
+		Set video_profile = video_profiles.Item("Tanvi") %>
 <a href="" class="md-video" title="Play <%=video_profile.Item("name")%>&#39;s video"><img src="../campusrecruiting/video/thumb/tanvi_vt_180.jpg" alt="Play <%=video_profile.Item("name")%>&#39;s video" width="180" height="120" border="0"></a>
-<% Set video_profile = video_profiles.Item("Tanvi") %>
 <div class="vwrap"><a href="<%=video_profile.Item("popup")%>" class="md-trans" title="<%=video_profile.Item("name")%>, <%=video_profile.Item("videoname")%>">View transcript</a></div>
 <!-- #include file="modal_dialog.asp" -->
 <%
@@ -447,9 +431,8 @@ Guan VIDEO
 			"usfn-commercial-real-estate-banking-analyst-program.asp", _
 			"usin-commercial-real-estate-banking-summer-analyst-program.asp" _
 		)) Then
-%>
+		Set video_profile = video_profiles.Item("Zach") %>
 <a href="" class="md-video" title="Play <%=video_profile.Item("name")%>&#39;s video"><img src="../campusrecruiting/video/thumb/zach_vt_180.jpg" alt="Play <%=video_profile.Item("name")%>&#39;s video" width="180" height="120" border="0"></a>
-<% Set video_profile = video_profiles.Item("Zach") %>
 <div class="vwrap"><a href="<%=video_profile.Item("popup")%>" class="md-trans" title="<%=video_profile.Item("name")%>, <%=video_profile.Item("videoname")%>">View transcript</a></div>
 <!-- #include file="modal_dialog.asp" -->
 <%

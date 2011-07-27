@@ -193,12 +193,11 @@ Function howToApply (program)
 			"usin-global-markets-public-finance-summer-analyst-program.asp", _
 			"usin-global-markets-sales-trading-summer-analyst-program.asp", _
 			"usin-global-research-summer-analyst-program.asp", _
-			"usin-global-risk-management-intern-program.asp", _
+			"usin-global-treasury-solutions-summer-analyst-program.asp", _
 			"usin-global-wealth-investment-management-summer-analyst-program.asp", _
 			"usin-institutional-mortgage-services-analyst-intern-program.asp", _
 			"usin-markets-risk-intern-program.asp", _
 			"usin-operations-management-analyst-intern-program.asp", _
-			"usin-quantitative-management-intern-program.asp", _
 			"usin-supply-chain-management-intern-program.asp", _
 			"usin-technology-developer-analyst-intern-program.asp", _
 			"usin-wealth-management-branch-office-internship.asp", _
