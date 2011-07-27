@@ -41,7 +41,7 @@
 				</ul>
 		</span>-->
 		
-		<p><a class="button" href="https://static.wcn.co.uk/company/ml/apply_now.html" target="_blank" title="Apply. Link opens a new window."><span>Apply</span></a></p><br />
+		<p><a class="button" href="https://static.wcn.co.uk/company/ml/apply_now.html" target="_blank" title="Apply"><span>Apply</span></a></p><br />
 		
 
 

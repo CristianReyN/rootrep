@@ -39,9 +39,9 @@
                   <li>Race for Opportunity - <a href="www.bitcdiversity.org.uk">www.bitcdiversity.org.uk</a></li>
                   <li>Stonewall - <a href="www.stonewall.org.uk">www.stonewall.org.uk</a></li>
                   </ul>
-
+<br />
                   <p>We partner with:</p>
-                 <h2 class="questions">Sponsors for Educational Opportunity (SEO) </h2>
+                  <h2 class="questions">Sponsors for Educational Opportunity (SEO) </h2>
                  <p>SEO London helps top-calibre undergraduates from ethnic minority backgrounds to gain summer internships at some of the leading firms in the U.K. financial industry, including Bank of America Merrill Lynch. For more information and to apply, please visit <a href="www.seo-london.com">www.seo-london.com</a>.</p>
 
                  <h2 class="questions">EmployAbility Internship for Students with Disabilities</h2> 

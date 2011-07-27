@@ -47,18 +47,15 @@ Stage 4:&nbsp;&nbsp;&nbsp;&nbsp;Successful applicants will be invited to an asse
 <h3>Associate & Ph.D. </h3>
 <p>Applications are made online. Please attach your CV and cover letter in one document. Please also apply under the name of the educational institution you are currently attending.</p>
 
-
-
-
-<p>Assessment for MBA or equivalent: </p>
+Assessment for MBA or equivalent:
 <ul>
 <li>1<sup>st</sup> and 2<sup>nd</sup> round interviews will take place on campus</li>
-</ul>
-<p>Assessment for Ph.D. or other advanced degree: </p> 
+</ul><br />
+Assessment for Ph.D. or other advanced degree: 
 <ul>
 <li>Interviews will take place at a Bank of America Merrill Lynch office</li>
 </ul>
-
+<br />
 <p>For application deadlines, please see individual job descriptions.</p>
 
 				  

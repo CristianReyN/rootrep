@@ -9,11 +9,11 @@
   <div id="article">
   <h1>Our Culture</h1>
   <h2 class="questions">A winning platform</h2>
-  <p>You're you. A supreme talent. A perfectionist in every way who embraces challenges at every turn and looks for recognition in every triumph. An individual who believes in achieving and then bettering that achievement. Someone with energy, vision, confidence and insight who expects-no, demands-success for themselves and for others. A top-calibre graduate who knows what they want out of life and their career.</p>
+  <p>You're you. A supreme talent. A perfectionist in every way who embraces challenges at every turn and looks for recognition in every triumph. An individual who believes in achieving and then bettering that achievement. Someone with energy, vision, confidence and insight who expects&mdash;no, demands&mdash;success for themselves and for others. A top-calibre graduate who knows what they want out of life and their career.</p>
 <p>What makes you unique, what sets you apart from your peers will make Bank of America Merrill Lynch even stronger as a global financial institution. This is why we'll fully nurture and encourage you to fulfil your full potential. Our training will maximise your initiative. We'll support your ongoing development through our meritocratic ideals and our unparalleled mentoring. You'll find us open and accessible. We'll give you the freedom to shape your own destiny and the visibility to show exactly what you can do.</p>
 <p>Our culture is a fusion of expectations to create a winning platform. A platform we're now ready to share with you.</p>
 
-<h2><a href="campus-EMEA-about-us.aspx">About Us</a></h2> 
+<h2><a href="campus-EMEA-about-us.aspx">About us</a></h2> 
 <p>Bank of America is one of the world's largest financial institutions, serving individual consumers, small- and middle-market businesses, and large corporations with a full range of banking, investing, asset management and other financial and risk-management products and services.</p>
 <!--<p><a href="campus-EMEA-about-us.aspx" title="Learn more about us">Learn more <span class="hiddencontent">about us</span></a></p>-->
 
@@ -22,7 +22,7 @@
 
 <!--<p><a href="campus-EMEA-diversity-and-inclusion.aspx" title="Learn more about our diversity goals">Learn more <span class="hiddencontent">about our diversity goals</span></a></p>-->
 
-<h2><a href="campus-EMEA-corporate-social-responsibility.aspx">Corporate Social Responsibility</a></h2>
+<h2><a href="campus-EMEA-corporate-social-responsibility.aspx">Corporate social responsibility</a></h2>
 <p>Bank of America's commitment to corporate social responsibility is a strategy for improving the communities served by the company as well as the long-term health and success of the business.</p>
 <!--<p><a href="campus-EMEA-corporate-social-responsibility.aspx" title="Learn more about our corporate social responsibility">Learn more <span class="hiddencontent">about our corporate social responsibility</span></a></p>-->
 
