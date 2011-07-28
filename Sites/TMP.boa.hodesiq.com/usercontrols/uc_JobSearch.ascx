@@ -34,7 +34,7 @@
                                 &nbsp;&nbsp;<a href="http://ig12.i-grasp.com/fe/tpl_bankofamerica06.asp" target="_blank" class="p" onfocus="this.className='p-over';" onblur="this.className='p';" style="margin: 0px 0px 0px 0px;" >Search and apply<span class="hidden">Search and apply for jobs in Canada. Link opens a new window.</span></a> for jobs in &nbsp;&nbsp;Canada.</asp:Panel>
 							
 							        <asp:Panel ID="PnlFilter" runat="server">
-							        <table width="190" border="0" align="center" cellpadding="0" cellspacing="0" summary="Guided Job Search">							
+							        <table width="192" border="0" align="center" cellpadding="0" cellspacing="0" summary="Guided Job Search">							
 							        <tr id="trInternationalLocation" runat="server"  visible="false">							
 							            <td valign="top" style="width:50%;height:38;">
 							                <asp:Label ID="LblInternationalCity" runat="server" Text="City" Visible="true" AssociatedControlID="InternationalCity"></asp:Label><br />
@@ -60,7 +60,7 @@
 							            </td></tr>							 
 							            <tr  id="trCity" runat="server" >
 							            <td  valign="top" style="width:50%;height:38;">
-							                <asp:Label ID="lblCity" runat="server" Text="City" Visible="true" AssociatedControlID="City"></asp:Label><br />
+							                <asp:Label ID="lblCity" runat="server" Text="City" Visible="true" AssociatedControlID="City"></asp:Label><br /><asp:HyperLink runat="server"  NavigateUrl="#"   Target="_blank" onclick="javascript:w= window.open('overview/chelp.html','mywin','left=200px,top=180px,width=625,height=345,resizable=0');return false;" ID="HylCityNote" Font-Bold="true" Visible="true" AssociatedControlID="City" CssClass="p">How do I use the city search?<span class="hidden"> Link opens a new window</span></asp:HyperLink><br />
 								            <asp:DropDownList ID="City" runat="server" CssClass="left" Style="width: 100%; z-index: auto;"
 								            ToolTip="Select a city" Visible="true"  Enabled="false">
 								            <asp:ListItem>All cities&#160;</asp:ListItem>
@@ -119,7 +119,7 @@
 						<tr id="TrUsJobs1" runat="server">	
 						<td>					
 					    <img class="dotdiv" src="images/clear.gif" width="100%" height="1" alt="" border="0"/>
-                               <a href="overview/manage_your_profile.asp" target="_blank" class="p" onblur="this.className='p';" onfocus="this.className='p-over';"  title="Manage your profile">Manage Your Profile</a><p style="margin: 6px 0px 6px 0px;" />
+                               <a id="ManageYourProfile" runat="server" class="p" onblur="this.className='p';" onfocus="this.className='p-over';"  title="Manage your profile">Manage Your Profile</a><p style="margin: 6px 0px 6px 0px;" />
 
 						</td>
 						</tr>

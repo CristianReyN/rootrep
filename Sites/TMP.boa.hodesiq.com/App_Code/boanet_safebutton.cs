@@ -77,10 +77,29 @@ public static class boanet_safebutton
 
         if (buttontext.StartsWith("ApplyNow|*|"))
         {
-            l.Text = " Apply Now <span class='auraltext' title='Apply Now. Link opens in new window.'>For `" + buttontext.Replace("ApplyNow|*|", "").ToString() + "`. If you have any difficulties, refer to the below alternatives. Opens in a new window.</span>"
+            string auraltext = "Apply Now";
+            string countryID = HttpContext.Current.Request["countryid"] == null ? "1" : HttpContext.Current.Request["countryid"].ToString();
+
+            if(countryID != "1")
+            {
+                auraltext = auraltext + " <span class='auraltext' title='Apply Now. Link opens in new window.'>For `" + buttontext.Replace("ApplyNow|*|", "").ToString() + "`. If you have any difficulties, refer to the below alternatives. Opens in a new window.</span>";
+            }
+          
+            l.Text = auraltext
             + "<span class='hidden'>Apply Now. Link opens a new window</span>";
 			l.ToolTip = " Apply Now. Link opens in new window. ";
-            l.Attributes.Add("onclick", "javascript:window.open('" + LinkURL + "','ApplyNow')");			
+
+           DateTime MaintenanceStartDate = DateTime.Parse(System.Configuration.ConfigurationManager.AppSettings["MaintenanceStartDate"].ToString());
+            DateTime MaintenanceEndDate = DateTime.Parse(System.Configuration.ConfigurationManager.AppSettings["MaintenanceEndDate"].ToString());
+            if ((countryID == Location.USA) && DateTime.Compare(MaintenanceStartDate, DateTime.Now) < 0 &&  DateTime.Compare(MaintenanceEndDate, DateTime.Now) > 0)
+            {
+               
+                l.PostBackUrl = System.Configuration.ConfigurationManager.AppSettings["MaintenancePage"].ToString();
+            }
+            else
+            {
+                      l.Attributes.Add("onclick", "javascript:window.open('" + LinkURL + "','ApplyNow')");
+            }
         }
         else
         {

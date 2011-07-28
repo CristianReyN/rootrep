@@ -27,6 +27,18 @@ public partial class uc_JobSearch : System.Web.UI.UserControl
     }
     protected void Page_Load(object sender, EventArgs e)
     {
+        DateTime MaintenanceStartDate = DateTime.Parse(System.Configuration.ConfigurationManager.AppSettings["MaintenanceStartDate"].ToString());
+        DateTime MaintenanceEndDate = DateTime.Parse(System.Configuration.ConfigurationManager.AppSettings["MaintenanceEndDate"].ToString());
+        if (DateTime.Compare(MaintenanceStartDate, DateTime.Now) < 0 && DateTime.Compare(MaintenanceEndDate, DateTime.Now) > 0)
+        {
+            ManageYourProfile.HRef = System.Configuration.ConfigurationManager.AppSettings["MaintenancePage"].ToString();
+        }
+         else
+        {
+            ManageYourProfile.HRef = "../overview/manage_your_profile.asp";
+            ManageYourProfile.Target = "_blank";
+        }
+       
         string strRef = Page.GetPostBackEventReference(Country);
         if (!IsPostBack)
         {
@@ -113,7 +125,7 @@ public partial class uc_JobSearch : System.Web.UI.UserControl
     {
         string DisplayCanadaJobs = ConfigurationManager.AppSettings["DisplayCanadaJobs"].ToString();
         string Instructions = "To find a career suited to your skill set, begin by selecting a country from the list below. Then you may narrow your selection further by choosing additional search criteria and/or entering keywords.";
-        string USOnlyInstructions = "To find a career suited to your skill set, begin by selecting a country from the list below. Then you may narrow your selection further by choosing additional search criteria and/or entering keywords.</br><b>Please note:</b>  City search results are for that city only. Please search individually for all cities within your desired geographic area.";
+        string USOnlyInstructions = @"Begin your career search by selecting a country.  You may then narrow your search further, by entering additional search criteria or keywords.</br><b>Note:</b>  City search options are limited to areas with current available job opportunities, which change constantly. Results are specific to the single city you select, and do not include results for nearby locations. <a href='#'  target='_blank' onclick=""javascript:window.open('overview/chelp.html','mywin','left=200px,top=180px,width=625,height=345,resizable=0');return false;"" class='p'>Learn more<span class='hidden'> Link opens a new window</span></a>";
 
         if (Country.SelectedValue == Location.USA)
         {
