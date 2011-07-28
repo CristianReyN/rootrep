@@ -32,9 +32,9 @@ function namewindow(){window.name="boamain";}
 <body id="body" onload="startKeybordNav(); startPs(); fixIE(); namewindow();" onunload="">
 <asp:Literal ID="ltrlCorremetrixScripts" runat="server" Text="" ></asp:Literal>
 <script language="javascript" type="text/javascript">
-//<!--
+    //<!--
     examineFontSize("body");
-//-->
+    //-->
 </script>
 <table width="750" cellpadding="0" cellspacing="0" border="0" summary="">
 <tr>
@@ -83,7 +83,7 @@ else
 <script src="Includes/hs_safebutton.js" language="JavaScript" type="text/javascript"></script>
 <script language="JavaScript" type="text/javascript">
 <!--
-create_safebutton("Search","javascript: submit_search();",0,0,0,0,"Search");
+    create_safebutton("Search", "javascript: submit_search();", 0, 0, 0, 0, "Search");
 //-->
 </script>
 <noscript><input name="Search" alt="Search" value="Search" title="Search" type="Submit"  class="btn"/></noscript>
@@ -162,44 +162,44 @@ create_safebutton("Search","javascript: submit_search();",0,0,0,0,"Search");
 </table>
 </div>
 <script language="JavaScript1.2" type="text/javascript">
-var isIE = true;//document.all;
+    var isIE = true; //document.all;
 
-function startKeybordNav()
-{
-	if(!window.event) window.captureEvents(Event.ONKEYDOWN);// Netscape/Firefox/Opera		
+    function startKeybordNav() {
+        if (!window.event) window.captureEvents(Event.ONKEYDOWN); // Netscape/Firefox/Opera		
 
-	if(document.getElementById("learnmore"))
-		document.getElementById("learnmore").onkeydown=setNextTabLearnmorePopup;
-	if(document.getElementById("benefitsadv"))
-		document.getElementById("benefitsadv").onkeydown=setNextTabLearnmoreShift;
-	if(document.getElementById("feedback"))
-		document.getElementById("feedback").onkeydown=setNextTabLearnmorePopupQuit;
+        if (document.getElementById("learnmore"))
+            document.getElementById("learnmore").onkeydown = setNextTabLearnmorePopup;
+        if (document.getElementById("benefitsadv"))
+            document.getElementById("benefitsadv").onkeydown = setNextTabLearnmoreShift;
+        if (document.getElementById("feedback"))
+            document.getElementById("feedback").onkeydown = setNextTabLearnmorePopupQuit;
 
-	if(document.getElementById("aroftalent"))
-		document.getElementById("aroftalent").onkeydown=setNextTabAotPopup;
-	if(document.getElementById("administration"))
-		document.getElementById("administration").onkeydown=setNextTabAotShift;
-	if(document.getElementById("aottech"))
-		document.getElementById("aottech").onkeydown=setNextTabAotPopupQuit;
-		
-	if(document.getElementById("staffingevents"))
-		document.getElementById("staffingevents").onkeydown=setNextTabSELearnmorePopup;
-			
-	if(document.getElementById("lob"))
-		document.getElementById("lob").onkeydown=setNextTablobPopup;
-	if(document.getElementById("globalconsumer"))
-		document.getElementById("globalconsumer").onkeydown=setNextTablobShift;
-	if(document.getElementById("skillsassessment"))
-		document.getElementById("skillsassessment").onkeydown=setNextTablobPopupQuit;		
-    //
-    if(document.getElementById("camreca")){
-		document.getElementById("camreca").onkeydown=setNextTabCrecPopup;}
-	if(document.getElementById("excareersadv"))
-		document.getElementById("excareersadv").onkeydown=setNextTabCrecShift;
-	if(document.getElementById("howToApply"))
-		document.getElementById("howToApply").onkeydown=setNextTabCrecPopupQuit;
-		
-}
+        if (document.getElementById("aroftalent"))
+            document.getElementById("aroftalent").onkeydown = setNextTabAotPopup;
+        if (document.getElementById("administration"))
+            document.getElementById("administration").onkeydown = setNextTabAotShift;
+        if (document.getElementById("aottech"))
+            document.getElementById("aottech").onkeydown = setNextTabAotPopupQuit;
+
+        if (document.getElementById("staffingevents"))
+            document.getElementById("staffingevents").onkeydown = setNextTabSELearnmorePopup;
+
+        if (document.getElementById("lob"))
+            document.getElementById("lob").onkeydown = setNextTablobPopup;
+        if (document.getElementById("globalconsumer"))
+            document.getElementById("globalconsumer").onkeydown = setNextTablobShift;
+        if (document.getElementById("skillsassessment"))
+            document.getElementById("skillsassessment").onkeydown = setNextTablobPopupQuit;
+        //
+        if (document.getElementById("camreca")) {
+            document.getElementById("camreca").onkeydown = setNextTabCrecPopup;
+        }
+        if (document.getElementById("excareersadv"))
+            document.getElementById("excareersadv").onkeydown = setNextTabCrecShift;
+        if (document.getElementById("howToApply"))
+            document.getElementById("howToApply").onkeydown = setNextTabCrecPopupQuit;
+
+    }
 </script>
 
 
