@@ -46,6 +46,15 @@ UL.secondary
 {
     list-style-image: url(../images/bull3o.gif);
 }
+UL.nobullet
+{
+    list-style-image: none;
+    list-style-type: none;
+}
+UL.nobullet li
+{
+	padding-bottom: 12px;
+}
 
 P.s, UL.s, LI.s, span.s
 {
