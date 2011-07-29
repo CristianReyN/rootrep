@@ -14,7 +14,7 @@ Function profile (program)
 		)) Then
 		Set video_profile = video_profiles.Item("Anton") %>
 <a href="" class="md-video" title="Play <%=video_profile.Item("name")%>&#39;s video"><img src="../campusrecruiting/video/thumb/anton_vt_180.jpg" alt="Play <%=video_profile.Item("name")%>&#39;s video" width="180" height="120" border="0"></a>
-<div class="vwrap"><a href="<%=video_profile.Item("popup")%>" class="md-trans" title="<%=video_profile.Item("name")%>, <%=video_profile.Item("videoname")%>">View transcript</a></div>
+<div class="vwrap"><a href="<%=video_profile.Item("popup")%>" class="md-trans" title="<%=video_profile.Item("name")%>, <%=video_profile.Item("videoname")%>">View transcript<span class="hidden"> Link opens a new window</span></a></div>
 <!-- #include file="modal_dialog.asp" -->
 <%
 	ElseIf InArray(program.Item("url"), Array( _
@@ -103,7 +103,7 @@ Function profile (program)
 		)) Then
 		Set video_profile = video_profiles.Item("Howard") %>
 <a href="" class="md-video" title="Play <%=video_profile.Item("name")%>&#39;s video"><img src="../campusrecruiting/video/thumb/howard_vt_180.jpg" alt="Play <%=video_profile.Item("name")%>&#39;s video" width="180" height="120" border="0"></a>
-<div class="vwrap"><a href="<%=video_profile.Item("popup")%>" class="md-trans" title="<%=video_profile.Item("name")%>, <%=video_profile.Item("videoname")%>">View transcript</a></div>
+<div class="vwrap"><a href="<%=video_profile.Item("popup")%>" class="md-trans" title="<%=video_profile.Item("name")%>, <%=video_profile.Item("videoname")%>">View transcript<span class="hidden"> Link opens a new window</span></a></div>
 <!-- #include file="modal_dialog.asp" -->
 <%
 	ElseIf InArray(program.Item("url"), Array( _
@@ -118,7 +118,7 @@ Function profile (program)
 		)) Then
 		Set video_profile = video_profiles.Item("Jarrod") %>
 <a href="" class="md-video" title="Play <%=video_profile.Item("name")%>&#39;s video"><img src="../campusrecruiting/video/thumb/jarrod_vt_180.jpg" alt="Play <%=video_profile.Item("name")%>&#39;s video" width="180" height="120" border="0"></a>
-<div class="vwrap"><a href="<%=video_profile.Item("popup")%>" class="md-trans" title="<%=video_profile.Item("name")%>, <%=video_profile.Item("videoname")%>">View transcript</a></div>
+<div class="vwrap"><a href="<%=video_profile.Item("popup")%>" class="md-trans" title="<%=video_profile.Item("name")%>, <%=video_profile.Item("videoname")%>">View transcript<span class="hidden"> Link opens a new window</span></a></div>
 <!-- #include file="modal_dialog.asp" -->
 <%
 	ElseIf InArray(program.Item("url"), Array( _
@@ -149,7 +149,7 @@ Function profile (program)
 		)) Then
 		Set video_profile = video_profiles.Item("Kaitlyn") %>
 <a href="" class="md-video" title="Play <%=video_profile.Item("name")%>&#39;s video"><img src="../campusrecruiting/video/thumb/kaitlyn_vt_180.jpg" alt="Play <%=video_profile.Item("name")%>&#39;s video" width="180" height="120" border="0"></a>
-<div class="vwrap"><a href="<%=video_profile.Item("popup")%>" class="md-trans" title="<%=video_profile.Item("name")%>, <%=video_profile.Item("videoname")%>">View transcript</a></div>
+<div class="vwrap"><a href="<%=video_profile.Item("popup")%>" class="md-trans" title="<%=video_profile.Item("name")%>, <%=video_profile.Item("videoname")%>">View transcript<span class="hidden"> Link opens a new window</span></a></div>
 <!-- #include file="modal_dialog.asp" -->
 <%
 	ElseIf InArray(program.Item("url"), Array( _
@@ -165,7 +165,7 @@ Function profile (program)
 		)) Then
 		Set video_profile = video_profiles.Item("Kevin") %>
 <a href="" class="md-video" title="Play <%=video_profile.Item("name")%>&#39;s video"><img src="../campusrecruiting/video/thumb/kevin_vt_180.jpg" alt="Play <%=video_profile.Item("name")%>&#39;s video" width="180" height="120" border="0"></a>
-<div class="vwrap"><a href="<%=video_profile.Item("popup")%>" class="md-trans" title="<%=video_profile.Item("name")%>, <%=video_profile.Item("videoname")%>">View transcript</a></div>
+<div class="vwrap"><a href="<%=video_profile.Item("popup")%>" class="md-trans" title="<%=video_profile.Item("name")%>, <%=video_profile.Item("videoname")%>">View transcript<span class="hidden"> Link opens a new window</span></a></div>
 <!-- #include file="modal_dialog.asp" -->
 <%
 	ElseIf InArray(program.Item("url"), Array( _
@@ -181,7 +181,7 @@ Function profile (program)
 		)) Then
 		Set video_profile = video_profiles.Item("Leonard") %>
 <a href="" class="md-video" title="Play <%=video_profile.Item("name")%>&#39;s video"><img src="../campusrecruiting/video/thumb/leonard_vt_180.jpg" alt="Play <%=video_profile.Item("name")%>&#39;s video" width="180" height="120" border="0"></a>
-<div class="vwrap"><a href="<%=video_profile.Item("popup")%>" class="md-trans" title="<%=video_profile.Item("name")%>, <%=video_profile.Item("videoname")%>">View transcript</a></div>
+<div class="vwrap"><a href="<%=video_profile.Item("popup")%>" class="md-trans" title="<%=video_profile.Item("name")%>, <%=video_profile.Item("videoname")%>">View transcript<span class="hidden"> Link opens a new window</span></a></div>
 <!-- #include file="modal_dialog.asp" -->
 <%
 	ElseIf InArray(program.Item("url"), Array( _
@@ -343,7 +343,7 @@ Function profile (program)
 		)) Then
 		Set video_profile = video_profiles.Item("Narinder") %>
 <a href="" class="md-video" title="Play <%=video_profile.Item("name")%>&#39;s video"><img src="../campusrecruiting/video/thumb/narinder_vt_180.jpg" alt="Play <%=video_profile.Item("name")%>&#39;s video" width="180" height="120" border="0"></a>
-<div class="vwrap"><a href="<%=video_profile.Item("popup")%>" class="md-trans" title="<%=video_profile.Item("name")%>, <%=video_profile.Item("videoname")%>">View transcript</a></div>
+<div class="vwrap"><a href="<%=video_profile.Item("popup")%>" class="md-trans" title="<%=video_profile.Item("name")%>, <%=video_profile.Item("videoname")%>">View transcript<span class="hidden"> Link opens a new window</span></a></div>
 <!-- #include file="modal_dialog.asp" -->
 <%
 	ElseIf InArray(program.Item("url"), Array( _
@@ -352,7 +352,7 @@ Function profile (program)
 		)) Then
 		Set video_profile = video_profiles.Item("Nichole") %>
 <a href="" class="md-video" title="Play <%=video_profile.Item("name")%>&#39;s video"><img src="../campusrecruiting/video/thumb/nichole_vt_180.jpg" alt="Play <%=video_profile.Item("name")%>&#39;s video" width="180" height="120" border="0"></a>
-<div class="vwrap"><a href="<%=video_profile.Item("popup")%>" class="md-trans" title="<%=video_profile.Item("name")%>, <%=video_profile.Item("videoname")%>">View transcript</a></div>
+<div class="vwrap"><a href="<%=video_profile.Item("popup")%>" class="md-trans" title="<%=video_profile.Item("name")%>, <%=video_profile.Item("videoname")%>">View transcript<span class="hidden"> Link opens a new window</span></a></div>
 <!-- #include file="modal_dialog.asp" -->
 <%
 	ElseIf InArray(program.Item("url"), Array( _
@@ -368,7 +368,7 @@ Function profile (program)
 		)) Then
 		Set video_profile = video_profiles.Item("Patricia") %>
 <a href="" class="md-video" title="Play <%=video_profile.Item("name")%>&#39;s video"><img src="../campusrecruiting/video/thumb/patricia_vt_180.jpg" alt="Play <%=video_profile.Item("name")%>&#39;s video" width="180" height="120" border="0"></a>
-<div class="vwrap"><a href="<%=video_profile.Item("popup")%>" class="md-trans" title="<%=video_profile.Item("name")%>, <%=video_profile.Item("videoname")%>">View transcript</a></div>
+<div class="vwrap"><a href="<%=video_profile.Item("popup")%>" class="md-trans" title="<%=video_profile.Item("name")%>, <%=video_profile.Item("videoname")%>">View transcript<span class="hidden"> Link opens a new window</span></a></div>
 <!-- #include file="modal_dialog.asp" -->
 <%
 	ElseIf InArray(program.Item("url"), Array( _
@@ -408,7 +408,7 @@ Function profile (program)
 		)) Then
 		Set video_profile = video_profiles.Item("Saumya") %>
 <a href="" class="md-video" title="Play <%=video_profile.Item("name")%>&#39;s video"><img src="../campusrecruiting/video/thumb/saumya_vt_180.jpg" alt="Play <%=video_profile.Item("name")%>&#39;s video" width="180" height="120" border="0"></a>
-<div class="vwrap"><a href="<%=video_profile.Item("popup")%>" class="md-trans" title="<%=video_profile.Item("name")%>, <%=video_profile.Item("videoname")%>">View transcript</a></div>
+<div class="vwrap"><a href="<%=video_profile.Item("popup")%>" class="md-trans" title="<%=video_profile.Item("name")%>, <%=video_profile.Item("videoname")%>">View transcript<span class="hidden"> Link opens a new window</span></a></div>
 <!-- #include file="modal_dialog.asp" -->
 <%
 	ElseIf InArray(program.Item("url"), Array( _
@@ -424,7 +424,7 @@ Function profile (program)
 		)) Then
 		Set video_profile = video_profiles.Item("Tanvi") %>
 <a href="" class="md-video" title="Play <%=video_profile.Item("name")%>&#39;s video"><img src="../campusrecruiting/video/thumb/tanvi_vt_180.jpg" alt="Play <%=video_profile.Item("name")%>&#39;s video" width="180" height="120" border="0"></a>
-<div class="vwrap"><a href="<%=video_profile.Item("popup")%>" class="md-trans" title="<%=video_profile.Item("name")%>, <%=video_profile.Item("videoname")%>">View transcript</a></div>
+<div class="vwrap"><a href="<%=video_profile.Item("popup")%>" class="md-trans" title="<%=video_profile.Item("name")%>, <%=video_profile.Item("videoname")%>">View transcript<span class="hidden"> Link opens a new window</span></a></div>
 <!-- #include file="modal_dialog.asp" -->
 <%
 	ElseIf InArray(program.Item("url"), Array( _
@@ -433,7 +433,7 @@ Function profile (program)
 		)) Then
 		Set video_profile = video_profiles.Item("Zach") %>
 <a href="" class="md-video" title="Play <%=video_profile.Item("name")%>&#39;s video"><img src="../campusrecruiting/video/thumb/zach_vt_180.jpg" alt="Play <%=video_profile.Item("name")%>&#39;s video" width="180" height="120" border="0"></a>
-<div class="vwrap"><a href="<%=video_profile.Item("popup")%>" class="md-trans" title="<%=video_profile.Item("name")%>, <%=video_profile.Item("videoname")%>">View transcript</a></div>
+<div class="vwrap"><a href="<%=video_profile.Item("popup")%>" class="md-trans" title="<%=video_profile.Item("name")%>, <%=video_profile.Item("videoname")%>">View transcript<span class="hidden"> Link opens a new window</span></a></div>
 <!-- #include file="modal_dialog.asp" -->
 <%
 	Else
