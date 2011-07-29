@@ -43,6 +43,7 @@ jQuery(document).ready(function(){
 		width:700,
 		top:250,
 		left:160,
+		scrollbars:1,
 		windowName: 'videoTranscript'
 	});
 	$('.md-video').click(function (e) {
