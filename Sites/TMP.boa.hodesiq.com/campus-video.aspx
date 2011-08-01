@@ -1,4 +1,5 @@
-<%@ Page Language="C#" EnableEventValidation="false" AutoEventWireup="true" CodeBehind="campus-video.aspx.cs" Inherits="BOA.campus_video" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="campus-video.aspx.cs" Inherits="campus_video" %>
+
 <script runat="server">
 override protected void OnInit(EventArgs args)
 {
@@ -269,45 +270,6 @@ function namewindow(){window.name="boamain";}
 	</tr>
 </table>
 </div>
-<script language="JavaScript1.2" type="text/javascript">
-var isIE = true;//document.all;
 
-function startKeybordNav()
-{
-	if(!window.event) window.captureEvents(Event.ONKEYDOWN);// Netscape/Firefox/Opera		
-
-	if(document.getElementById("learnmore"))
-		document.getElementById("learnmore").onkeydown=setNextTabLearnmorePopup;
-	if(document.getElementById("benefitsadv"))
-		document.getElementById("benefitsadv").onkeydown=setNextTabLearnmoreShift;
-	if(document.getElementById("feedback"))
-		document.getElementById("feedback").onkeydown=setNextTabLearnmorePopupQuit;
-
-	if(document.getElementById("aroftalent"))
-		document.getElementById("aroftalent").onkeydown=setNextTabAotPopup;
-	if(document.getElementById("administration"))
-		document.getElementById("administration").onkeydown=setNextTabAotShift;
-	if(document.getElementById("aottech"))
-		document.getElementById("aottech").onkeydown=setNextTabAotPopupQuit;
-		
-	if(document.getElementById("staffingevents"))
-		document.getElementById("staffingevents").onkeydown=setNextTabSELearnmorePopup;
-			
-	if(document.getElementById("lob"))
-		document.getElementById("lob").onkeydown=setNextTablobPopup;
-	if(document.getElementById("globalconsumer"))
-		document.getElementById("globalconsumer").onkeydown=setNextTablobShift;
-	if(document.getElementById("skillsassessment"))
-		document.getElementById("skillsassessment").onkeydown=setNextTablobPopupQuit;		
-    //
-    if(document.getElementById("camreca")){
-		document.getElementById("camreca").onkeydown=setNextTabCrecPopup;}
-	if(document.getElementById("excareersadv"))
-		document.getElementById("excareersadv").onkeydown=setNextTabCrecShift;
-	if(document.getElementById("howToApply"))
-		document.getElementById("howToApply").onkeydown=setNextTabCrecPopupQuit;
-		
-}
-</script>            
 </body>
 </html>
