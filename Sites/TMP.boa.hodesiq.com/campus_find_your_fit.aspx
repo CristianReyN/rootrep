@@ -140,7 +140,7 @@ html>/**/body .find-your-fit-container2 {height:697px !important;width:577px;pos
                             <div id="Div10" style="height:1px; width:100%; clear:both; margin-bottom:1px;">&nbsp;</div>
                             <div style="float:left; clear:left; position:relative; top:10px;"><img src="images/campus/bkg-left_first.gif" /></div>                         
 						        <label for="sel_education" id="lbl_education" >I am a(n):</label><br />
-							        <p><asp:DropDownList id="ddlsel_education" class="fyf-education" name="sel_education" runat="server">
+							        <p><asp:DropDownList id="ddlsel_education" class="fyf-education" name="sel_education" runat="server" Width="320px">
 							            <asp:ListItem Text="" Value="0" >Please select level of education</asp:ListItem>  
 								        <asp:ListItem value="1">Undergraduate student</asp:ListItem>
 								        <asp:ListItem value="2">Graduate student with 0–5 years of work experience</asp:ListItem>
