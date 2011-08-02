@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" ValidateRequest="false" AutoEventWireup="true" CodeFile="campus_find_your_fit.aspx.cs" Inherits="campus_find_your_fit" MasterPageFile="~/BOAmaster.master" %>
+﻿<%@ Page Language="C#" ValidateRequest="false" AutoEventWireup="true" CodeFile="campus-find-your-fit.aspx.cs" Inherits="campus_find_your_fit" MasterPageFile="~/BOAmaster.master" %>
 
 
 <asp:Content ID="Content1" ContentPlaceHolderID="cphmain" Runat="Server">
@@ -303,8 +303,8 @@ html>/**/body .find-your-fit-container2 {height:697px !important;width:577px;pos
                             </style>
                             <div id="fyf-responsiblities" class="fyf-responsibilities">                       
                                 <span class="fyf-titles">&nbsp;&nbsp;I would like a job where I am responsible for:<br /><span style="font-weight:normal;"> (select up to two) </span></span><br />                                      
-                                    <asp:CheckBoxList ID="sel_responsible_options" CssClass="CheckBoxTester" runat="server" style="margin-left:20px;" AutoPostBack="False" CellPadding="0" CellSpacing="0" RepeatDirection="Horizontal" RepeatColumns="2" Width="380px">
-                                    <asp:ListItem ID="ckb_responsoptions_1" name="ckb_responsoptions_1" runat="server" Text="Analyzing date,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;forecasting trends" OnClick="JavaScript:sel_responsible_options(1,'ckb_responsoptions_1');" Selected="False"  />
+                                    <asp:CheckBoxList ID="sel_responsible_options" AutoPostBack="true" CssClass="CheckBoxTester" runat="server" style="margin-left:20px;" CellPadding="0" CellSpacing="0" RepeatDirection="Horizontal" RepeatColumns="2" Width="380px">
+                                    <asp:ListItem ID="ckb_responsoptions_1" name="ckb_responsoptions_1" runat="server"  Text="Analyzing date,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;forecasting trends" OnClick="JavaScript:sel_responsible_options(1,'ckb_responsoptions_1');" Selected="False"  />
                                     <asp:ListItem ID="ckb_responsoptions_2" name="ckb_responsoptions_2" runat="server" Text="Devising modeling<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;and measuring<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;techniques" OnClick="JavaScript:sel_responsible_options(2,'ckb_responsoptions_2');" Selected="False"  />
                                     <asp:ListItem ID="ckb_responsoptions_3" name="ckb_responsoptions_3" runat="server" Text="Serving clients" OnClick="JavaScript:sel_responsible_options(3,'ckb_responsoptions_3');" Selected="False"  />
                                     <asp:ListItem ID="ckb_responsoptions_4" name="ckb_responsoptions_4" runat="server" Text="Problem solving" OnClick="JavaScript:sel_responsible_options(4,'ckb_responsoptions_4');"  Selected="False" />

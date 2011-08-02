@@ -307,11 +307,13 @@ public partial class campus_find_your_fit : System.Web.UI.Page
                 }
                 if (int_isselected == 0)
                 {
-                    str_errors1 = "<b>You must select at least 1 item in ''I would like a job where I am responsible for''</b>";
-                    pnlErrors.Visible = true;
-                    ISSubmited.Value = "1";
-                    ISValid.Value = "0";
-                    return;
+                   
+                        str_errors1 = "<b>You must select at least 1 item in ''I would like a job where I am responsible for''</b>";
+                        pnlErrors.Visible = true;
+                        ISSubmited.Value = "1";
+                        ISValid.Value = "0";
+                        return;
+                   
                 }
                 else
                 {
@@ -330,11 +332,14 @@ public partial class campus_find_your_fit : System.Web.UI.Page
                 ISValid.Value = "1";
                 if (int_isselected == 0)
                 {
+                    if (int_sumofselect.Value != "0")
+                    {
                     str_errors1 = "<b>You must select 1 items in ''To me, opportunity is all about''</b>";
                     pnlErrors.Visible = true;
                     ISSubmited.Value = "1";
                     ISValid.Value = "0";
                     return;
+                    }
                 }
                 else
                 {
