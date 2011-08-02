@@ -129,7 +129,7 @@
 						<tr id="TrUsJobs3" runat="server" valign="top">
 						<td height="26" align="left" valign="bottom" style="background-image: url(images/dotted.gif);
                                     background-position: left top; background-repeat: repeat-x;">                      
-						</br><p style="margin: 0px 0px 0px 0px;">Bank of America associates should access the <a href="http://www.bankofamerica.com/careers/index.cfm?template=jobs_interstitial" id="A1" title="Internal Jobs Database" class="p" onblur="this.className='p';" onfocus="this.className='p-over';">internal jobs database.</a></p></td>
+						</br><p style="margin: 0px 0px 0px 0px;">Bank of America associates should access the <a href="http://myhrtools.bankofamerica.com/" id="A1" title="Internal Jobs Database" class="p" onblur="this.className='p';" onfocus="this.className='p-over';">internal jobs database.</a></p></td>
 						</tr>
 					</table> </td></tr></table></div></td</tr></table>
 						

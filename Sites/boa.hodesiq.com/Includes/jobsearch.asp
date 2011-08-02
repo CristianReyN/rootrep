@@ -206,7 +206,7 @@ create_safebutton("<%=begin%>","javascript: _submit();",0,0,0,0,"<%=begin%>");
 <p style="margin: 3px 0px 0px 0px;">Create or update your existing candidate profile.</p>
 <img class="dotdiv" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
 <p style="margin: 0px 0px 0px 0px;">
-Bank of America associates should access the <a href="http://www.bankofamerica.com/careers/index.cfm?template=jobs_interstitial" class="p" title="Internal Jobs Database">internal jobs database</a>.</p>
+Bank of America associates should access the <a href="http://myhrtools.bankofamerica.com/" class="p" title="Internal Jobs Database">internal jobs database</a>.</p>
 </div>
 							</td>
 						</tr>
