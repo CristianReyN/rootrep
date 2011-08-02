@@ -313,6 +313,7 @@
 	
 	#mop-maincontent .featured-profile .mop-profile,
 	#mop-maincontent .featured-profile-intern .mop-profile{
+	position: relative;
 	float: left;
 	width: 179px;
 	height: 240px;
@@ -342,6 +343,14 @@
 	padding: 5px 10px 12px 20px;
 	}
 	
+	#mop-maincontent .featured-profile .mop-profile.profile-content-links,
+	#mop-maincontent .featured-profile-intern .mop-profile.profile-content-links {
+	position: absolute;
+	width: 179px;
+	top: 190px;
+	left: 0;
+	}
+	
 	#mop-maincontent .featured-profile .mop-profile p.profile-link,
 	#mop-maincontent .featured-profile .mop-profile p.mop-transcript,
 	#mop-maincontent .featured-profile-intern .mop-profile p.profile-link,
@@ -359,7 +368,7 @@
 	}
 	
 	#mop-maincontent .featured-profile p.learnlink,
-	#mop-maincontent .featured-profile-intern p.learnlink{
+	#mop-maincontent .featured-profile-intern p.learnlink {
 	margin: 0;
 	padding: 0;
 	} 
@@ -725,8 +734,6 @@
 	font-size: .8em;
 	font-weight: bold;
 	padding-bottom: 6px;
-	padding-right: 8px;
-	background: url(../images/campus/arrows-related.gif) right 5px no-repeat; 
 	}
 	
 	#aside .related-links li a:hover {
@@ -738,6 +745,7 @@
 	}
 	
 	#aside .shared-links {
+	position: relative;
 	width: 179px;
 	background: url(../images/campus/bkg-shared-links.jpg) top left no-repeat;
 	padding: 12px;
@@ -768,23 +776,79 @@
 	#aside .shared-links li a {
 	display: block;
 	font-size: 0.85em !important;
+	font-weight: bold;
+	line-height: 0 !important;
+	color: #333 !important;
+	width: 130px;
+	}
+	
+	#aside .shared-links li#linkedin a.adaBorder {
+	padding-bottom: 4px;
+	}
+	
+	#aside .shared-links li#linkedin a.adaBorder img {
+	margin: 0 !important;
+	padding: 0 !important;
+	line-height: 0 !important;
+	height: 16px !important;
+	}
+	
+	#aside .shared-links li#linkedin p {
+	position: absolute;
+	margin: 0;
+	padding:0;
+	font-size: 0.85em !important;
 	line-height: 16px;
 	font-weight: bold;
 	color: #333 !important;
-	width: 130px;
-	padding: 0 0 4px 25px;
+	top: 29px;
+	left: 38px;
 	}
 	
 	#aside .shared-links li#linkedin a {
-	background: url(../images/campus/ico-linkedin.jpg) top left no-repeat;
+	/*background: url(../images/campus/ico-linkedin.jpg) top left no-repeat;*/
 	}
 	
-	#aside .shared-links li#facebook a {
-	background: url(../images/campus/ico-facebook.jpg) top left no-repeat;
+	#aside .shared-links li#facebook a.adaBorder,
+	#aside .shared-links li#twitter a.adaBorder {
+	padding-bottom: 4px;
 	}
 	
-	#aside .shared-links li#twitter a {
-	background: url(../images/campus/ico-twitter.jpg) top left no-repeat;
+	#aside .shared-links li#facebook a.adaBorder img,
+	#aside .shared-links li#twitter a.adaBorder img {
+	margin: 0 !important;
+	padding: 0 !important;
+	line-height: 0 !important;
+	height: 16px !important;
+	/*background: url(../images/campus/ico-facebook.jpg) top left no-repeat;*/
+	}
+	
+	#aside .shared-links li#facebook p {
+	position: absolute;
+	margin: 0;
+	padding:0;
+	font-size: 0.85em !important;
+	line-height: 16px;
+	font-weight: bold;
+	color: #333 !important;
+	top: 49px;
+	left: 38px;
+	}
+	
+	#aside .shared-links li#twitter  {
+	/*background: url(../images/campus/ico-twitter.jpg) top left no-repeat;*/
+	}
+	
+	#aside .shared-links li#twitter p {
+	position: absolute;
+	margin: 0;
+	padding:0;
+	font-size: 0.85em !important;
+	line-height: 16px;
+	font-weight: bold;
+	color: #333 !important;
+	top: 68px;
+	left: 38px;
 	}
 			
 	#main-profiles #aside p.explore-video-profile a {
@@ -2075,10 +2139,36 @@ padding-bottom: 60px;
 	overflow: hidden;
 	}
 
-	
-	
+	/* This is a hack for NET IE-FF issues. Do not EDIT!! */
+.MainHeadliner2
+{
+    <!--[if IE]>
+    
+    margin-left: -5px !important;
+    float:left;
+    height: 92px !important;
+    <![endif]-->
+}
+
+.find-your-fit-container2 {
+    margin: 15px 0 40px 0;
+    background: url(images/campus/bkg-findyourfit-formresult.jpg) left bottom no-repeat;
+   
+        position:relative;
+        top:0px;
+        height:692px !important;
+        margin-top:-20px;
+    
+	}
+html>/**/body .find-your-fit-container2 {height:697px !important;width:577px;position: relative;
+    top: 91px !important;}
+/* end of NET HACK */
+
 	/* ===== Hacks ====== */
-	
+
+
+}
+
 
 
 
