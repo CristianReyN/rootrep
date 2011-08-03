@@ -365,7 +365,7 @@ html>/**/body .find-your-fit-container2 {height:697px !important;width:577px;pos
 								                <%=str_result6 %>
 								             </a></p>
 								              <h2 style="height:15px; width:250px !important;">&nbsp;</h2>			            
-								     <p>Feel free to change your answers and try the <a href="campus_find_your_fit.aspx">Find Your Fit</a> tool again. 
+								     <p>Feel free to change your answers and try the <a href="campus-find-your-fit.aspx">Find Your Fit</a> tool again. 
 								     You can also <a href="#">bookmark</a> your results after each attempt for later reference.
 							    
                                 <p style="float:right; height:22px !important;">
