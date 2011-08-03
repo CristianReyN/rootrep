@@ -34,21 +34,21 @@
                   <p>We measure our success using the benchmarks and other tools these organisations provide and look to them to challenge and guide us.</p>
                   <p>We are members of:</p>
                   <ul>
-                  <li>The Employers Forum on Disability - <a href="www.efd.org.uk">www.efd.org.uk</a></li>
-                  <li>Opportunity Now - <a href="www.bitcdiversity.org.uk">www.bitcdiversity.org.uk</a></li>
-                  <li>Race for Opportunity - <a href="www.bitcdiversity.org.uk">www.bitcdiversity.org.uk</a></li>
-                  <li>Stonewall - <a href="www.stonewall.org.uk">www.stonewall.org.uk</a></li>
+                  <li>The Employers Forum on Disability - <a href="http://www.efd.org.uk" target="_blank">www.efd.org.uk<span class="hidden"> Link opens a new window</span></a></li>
+                  <li>Opportunity Now - <a href="http://www.bitcdiversity.org.uk" target="_blank">www.bitcdiversity.org.uk<span class="hidden"> Link opens a new window</span></a></li>
+                  <li>Race for Opportunity - <a href="http://www.bitcdiversity.org.uk" target="_blank">www.bitcdiversity.org.uk<span class="hidden"> Link opens a new window</span></a></li>
+                  <li>Stonewall - <a href="http://www.stonewall.org.uk" target="_blank">www.stonewall.org.uk<span class="hidden"> Link opens a new window</span></a></li>
                   </ul>
 <br />
                   <p>We partner with:</p>
                   <h2 class="questions">Sponsors for Educational Opportunity (SEO) </h2>
-                 <p>SEO London helps top-calibre undergraduates from ethnic minority backgrounds to gain summer internships at some of the leading firms in the U.K. financial industry, including Bank of America Merrill Lynch. For more information and to apply, please visit <a href="www.seo-london.com">www.seo-london.com</a>.</p>
+                 <p>SEO London helps top-calibre undergraduates from ethnic minority backgrounds to gain summer internships at some of the leading firms in the U.K. financial industry, including Bank of America Merrill Lynch. For more information and to apply, please visit <a href="http://www.seo-london.com" target="_blank">www.seo-london.com<span class="hidden"> Link opens a new window</span></a>.</p>
 
                  <h2 class="questions">EmployAbility Internship for Students with Disabilities</h2> 
-                 <p>EmployAbility provides support, advice and guidance for disabled university students and graduates throughout the recruitment process. For more information, please visit EmployAbility’s website: <a href="www.employ-ability.org.uk">www.employ-ability.org.uk</a>. </p>
+                 <p>EmployAbility provides support, advice and guidance for disabled university students and graduates throughout the recruitment process. For more information, please visit EmployAbility’s website: <a href="http://www.employ-ability.org.uk" target="_blank">www.employ-ability.org.uk<span class="hidden"> Link opens a new window</span></a>. </p>
 
                 <h2 class="questions">Rare Recruitment</h2>
-                <p>Rare Recruitment connects exceptional people from diverse backgrounds with great jobs in top organisations and provides training and support for candidates. For more information, visit <a href="www.rarerecruitment.co.uk">www.rarerecruitment.co.uk</a>. </p>
+                <p>Rare Recruitment connects exceptional people from diverse backgrounds with great jobs in top organisations and provides training and support for candidates. For more information, visit <a href="http://www.rarerecruitment.co.uk" target="_blank">www.rarerecruitment.co.uk<span class="hidden"> Link opens a new window</span></a>. </p>
 
                 <div id="RDIC"></div>
                 <h2 class="questions">Regional Diversity & Inclusion Council</h2>

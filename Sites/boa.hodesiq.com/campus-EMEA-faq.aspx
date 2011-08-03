@@ -9,7 +9,7 @@
                   <h1>Frequently Asked Questions</h1>
                   
                   <h2 class="questions">How do I apply?</h2>
-                  <p>Please visit <a href="www.baml.com/campusEMEA" target="_blank">www.baml.com/campusEMEA</a> and navigate to the “How to Apply” page. All applications for positions must be made online; most analyst positions do not accept CVs and require you to complete the online application. For MBA and Ph.D. positions, you are required to upload your CV and cover letter. We encourage candidates to apply early.</p>
+                  <p>Please visit <a href="http://www.baml.com/campusEMEA">www.baml.com/campusEMEA</a> and navigate to the “How to Apply” page. All applications for positions must be made online; most analyst positions do not accept CVs and require you to complete the online application. For MBA and Ph.D. positions, you are required to upload your CV and cover letter. We encourage candidates to apply early.</p>
 
                   <h2 class="questions">What are the requirements to be considered for campus opportunities?</h2>
                   <p>Each business area has individual requirements, but candidates must demonstrate a combination of academic aptitude, quantitative skills, strategic and creative thinking, and written and oral communications skills. In addition, you must have obtained or are realistically expecting to obtain a minimum 2:1 degree or equivalent for analyst roles. For MBA and Ph.D. positions, completion of an MBA, Ph.D. or equivalent advanced degree is required. Underlying all this, you must demonstrate dedication to a career in banking.</p>
@@ -31,7 +31,7 @@
                   <p>No. You may only apply to one region, one office and one division. </p>
 
                   <h2 class="questions">Are positions available globally?</h2>
-                  <p>Bank of America Merrill Lynch is a global company with offices in more than 40 countries worldwide. Positions are available in the Americas, Europe, Emerging Markets (ex-Asia) and Asia Pacific regions. For details on these and how to apply, please visit <a href="www.baml.com/campusrecruiting" target="_blank">www.baml.com/campusrecruiting</a>.</p>
+                  <p>Bank of America Merrill Lynch is a global company with offices in more than 40 countries worldwide. Positions are available in the Americas, Europe, Emerging Markets (ex-Asia) and Asia Pacific regions. For details on these and how to apply, please visit <a href="http://www.baml.com/campusrecruiting">www.baml.com/campusrecruiting</a>.</p>
 
                   <h2 class="questions">Can I defer an offer?</h2>
                   <p>No. Bank of America Merrill Lynch does not offer you the chance to defer.</p>
@@ -62,7 +62,7 @@
 
 
                   <h2 class="questions">How can I find out about future events?</h2>
-                  <p>All events are listed on our website. Please visit “Campus Events’”’ via <a href="www.baml.com/campusEMEA" target="_blank">www.baml.com/campusEMEA</a> for details and to register your attendance.</p>
+                  <p>All events are listed on our website. Please visit “Campus Events’”’ via <a href="http://www.baml.com/campusEMEA">www.baml.com/campusEMEA</a> for details and to register your attendance.</p>
 
                   <h2 class="questions">Can I get feedback on my application?</h2>
                   <p>Due to the high volume of applications we receive, we are unable to provide feedback to candidates who do not reach the final assessment stage.</p>
