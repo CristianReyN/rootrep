@@ -1,4 +1,4 @@
-<%@ Master Language="C#" CodeFile="BOAmaster.master.CS"  Inherits="BOAmaster"  %>
+﻿<%@ Master Language="C#" CodeFile="BOAmaster.master.CS"  Inherits="BOAmaster"  %>
 <%@ Register Src="~/usercontrols/uc_LeftNavigation.ascx" TagName="LeftNav" TagPrefix="uc1" %>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
  
@@ -106,7 +106,7 @@ create_safebutton("Search","javascript: submit_search();",0,0,0,0,"Search");
 </tr>
 <tr>
 	<td colspan="4" style="background: #d4100a;" width="750" valign="top">
-<img src="images/careers.gif" width="76" height="25" alt="Careers" title="Careers" border="0" /></td>
+<img src="images/careers.gif" width="76" height="25" alt="Careers" title="Careers" border="0" id="ImgCareers" runat="server" /></td>
 </tr>
 <tr>
 	<td width="160" style="background: #cadceb;"><img src="images/clear.gif" width="160" height="1" alt="" border="0" /></td>
