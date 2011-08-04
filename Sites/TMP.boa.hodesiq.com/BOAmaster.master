@@ -1,11 +1,11 @@
-<%@ Master Language="C#" CodeFile="BOAmaster.master.CS"  Inherits="BOAmaster"  %>
+﻿<%@ Master Language="C#" CodeFile="BOAmaster.master.CS"  Inherits="BOAmaster"  %>
 <%@ Register Src="~/usercontrols/uc_LeftNavigation.ascx" TagName="LeftNav" TagPrefix="uc1" %>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
  
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head id="Header1" runat="server">
  <title></title>
-    <meta http-equiv="content-type" content="text/html; charset=iso-8859-1">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
     <meta name="Description" content="" runat="server" id="metadescription" />
     <meta name="keywords" runat="server" id="metakeywords" />
 <link rel="stylesheet" href="includes/DotNetStyles.css" type="text/css" />
@@ -32,9 +32,9 @@ function namewindow(){window.name="boamain";}
 <body id="body" onload="startKeybordNav(); startPs(); fixIE(); namewindow();" onunload="">
 <asp:Literal ID="ltrlCorremetrixScripts" runat="server" Text="" ></asp:Literal>
 <script language="javascript" type="text/javascript">
-    //<!--
+//<!--
     examineFontSize("body");
-    //-->
+//-->
 </script>
 <table width="750" cellpadding="0" cellspacing="0" border="0" summary="">
 <tr>
@@ -83,7 +83,7 @@ else
 <script src="Includes/hs_safebutton.js" language="JavaScript" type="text/javascript"></script>
 <script language="JavaScript" type="text/javascript">
 <!--
-    create_safebutton("Search", "javascript: submit_search();", 0, 0, 0, 0, "Search");
+create_safebutton("Search","javascript: submit_search();",0,0,0,0,"Search");
 //-->
 </script>
 <noscript><input name="Search" alt="Search" value="Search" title="Search" type="Submit"  class="btn"/></noscript>
@@ -106,7 +106,7 @@ else
 </tr>
 <tr>
 	<td colspan="4" style="background: #d4100a;" width="750" valign="top">
-<img src="images/careers.gif" width="76" height="25" alt="Careers" title="Careers" border="0" /></td>
+<img src="images/careers.gif" width="76" height="25" alt="Careers" title="Careers" border="0" id="ImgCareers" runat="server" /></td>
 </tr>
 <tr>
 	<td width="160" style="background: #cadceb;"><img src="images/clear.gif" width="160" height="1" alt="" border="0" /></td>
@@ -162,44 +162,44 @@ else
 </table>
 </div>
 <script language="JavaScript1.2" type="text/javascript">
-    var isIE = true; //document.all;
+var isIE = true;//document.all;
 
-    function startKeybordNav() {
-        if (!window.event) window.captureEvents(Event.ONKEYDOWN); // Netscape/Firefox/Opera		
+function startKeybordNav()
+{
+	if(!window.event) window.captureEvents(Event.ONKEYDOWN);// Netscape/Firefox/Opera		
 
-        if (document.getElementById("learnmore"))
-            document.getElementById("learnmore").onkeydown = setNextTabLearnmorePopup;
-        if (document.getElementById("benefitsadv"))
-            document.getElementById("benefitsadv").onkeydown = setNextTabLearnmoreShift;
-        if (document.getElementById("feedback"))
-            document.getElementById("feedback").onkeydown = setNextTabLearnmorePopupQuit;
+	if(document.getElementById("learnmore"))
+		document.getElementById("learnmore").onkeydown=setNextTabLearnmorePopup;
+	if(document.getElementById("benefitsadv"))
+		document.getElementById("benefitsadv").onkeydown=setNextTabLearnmoreShift;
+	if(document.getElementById("feedback"))
+		document.getElementById("feedback").onkeydown=setNextTabLearnmorePopupQuit;
 
-        if (document.getElementById("aroftalent"))
-            document.getElementById("aroftalent").onkeydown = setNextTabAotPopup;
-        if (document.getElementById("administration"))
-            document.getElementById("administration").onkeydown = setNextTabAotShift;
-        if (document.getElementById("aottech"))
-            document.getElementById("aottech").onkeydown = setNextTabAotPopupQuit;
-
-        if (document.getElementById("staffingevents"))
-            document.getElementById("staffingevents").onkeydown = setNextTabSELearnmorePopup;
-
-        if (document.getElementById("lob"))
-            document.getElementById("lob").onkeydown = setNextTablobPopup;
-        if (document.getElementById("globalconsumer"))
-            document.getElementById("globalconsumer").onkeydown = setNextTablobShift;
-        if (document.getElementById("skillsassessment"))
-            document.getElementById("skillsassessment").onkeydown = setNextTablobPopupQuit;
-        //
-        if (document.getElementById("camreca")) {
-            document.getElementById("camreca").onkeydown = setNextTabCrecPopup;
-        }
-        if (document.getElementById("excareersadv"))
-            document.getElementById("excareersadv").onkeydown = setNextTabCrecShift;
-        if (document.getElementById("howToApply"))
-            document.getElementById("howToApply").onkeydown = setNextTabCrecPopupQuit;
-
-    }
+	if(document.getElementById("aroftalent"))
+		document.getElementById("aroftalent").onkeydown=setNextTabAotPopup;
+	if(document.getElementById("administration"))
+		document.getElementById("administration").onkeydown=setNextTabAotShift;
+	if(document.getElementById("aottech"))
+		document.getElementById("aottech").onkeydown=setNextTabAotPopupQuit;
+		
+	if(document.getElementById("staffingevents"))
+		document.getElementById("staffingevents").onkeydown=setNextTabSELearnmorePopup;
+			
+	if(document.getElementById("lob"))
+		document.getElementById("lob").onkeydown=setNextTablobPopup;
+	if(document.getElementById("globalconsumer"))
+		document.getElementById("globalconsumer").onkeydown=setNextTablobShift;
+	if(document.getElementById("skillsassessment"))
+		document.getElementById("skillsassessment").onkeydown=setNextTablobPopupQuit;		
+    //
+    if(document.getElementById("camreca")){
+		document.getElementById("camreca").onkeydown=setNextTabCrecPopup;}
+	if(document.getElementById("excareersadv"))
+		document.getElementById("excareersadv").onkeydown=setNextTabCrecShift;
+	if(document.getElementById("howToApply"))
+		document.getElementById("howToApply").onkeydown=setNextTabCrecPopupQuit;
+		
+}
 </script>
 
 
