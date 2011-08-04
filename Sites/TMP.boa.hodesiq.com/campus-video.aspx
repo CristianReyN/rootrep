@@ -195,6 +195,7 @@ function namewindow(){window.name="boamain";}
 <!-- Body-->
 
 <link rel="stylesheet" href="includes/fitfinder_video.css"/>
+<link rel="stylesheet" href="includes/campus.css"/>
         <a id="skipmaincontent"></a>
         <img alt="" height="4" src="images/clear.gif" width="15" /><br />
         <table border="0" cellpadding="0" cellspacing="0" summary="" width="578">
