@@ -18,16 +18,7 @@
 	    text-decoration: underline !important;
 	    } 
 	    video-pagination:hover {text-decoration: underline !important;}
-      a 
-    {
-	text-decoration: none;
-	display:block;
-	}
-
-a:hover 
-    {
-	    text-decoration: underline;
-    }
+    a:hover {text-decoration: underline;}
   </style>
 <script type="text/javascript" language="JavaScript">
     function getcss(intelementID) {
@@ -100,27 +91,27 @@ a:hover
                                 <h1>Featured Videos</h1>
                                 <div class="profile"> <a href="campus-video.aspx?id=1" class="video-modal">
                                     <img src="images/campus/tn-anton.png" alt="Play video for Anton, HR Development Program"/></a>
-	                                <p class="script"><a href="fvp_final/Anton/transcript.asp">View transcript</a></p>
+	                                <p class="script"><a href="/campusrecruiting/video/Anton/transcript.asp">View transcript</a></p>
                                 </div>
                                 <!--/.profile-->
                                 <div class="profile"> <a href="campus-video.aspx?id=5" class="video-modal">
                                     <img src="images/campus/tn-kaitlyn.png" alt="Play video for Kaitlyn, Global Markets Sales and Trading Analyst Program"/></a>
-	                                <p class="script"><a href="fvp_final/Kaitlyn/transcript.asp">View transcript</a></p>
+	                                <p class="script"><a href="/campusrecruiting/video/Kaitlyn/transcript.asp">View transcript</a></p>
                                 </div>
                                 <!--/.profile-->
                                 <div class="profile"> <a href="campus-video.aspx?id=2" class="video-modal">
                                     <img src="images/campus/tn-diversity.png" alt="Play video for Diversity &amp; Inclusion"/></a>
-	                                <p class="script"><a href="fvp_final/di/transcript.asp">View transcript</a></p>
+	                                <p class="script"><a href="/campusrecruiting/video/di/transcript.asp">View transcript</a></p>
                                 </div>
                                 <!--/.profile-->
                                 <div class="profile"> <a href="campus-video.aspx?id=7" class="video-modal">
                                     <img src="images/campus/tn-narinder.png" alt="Play video for Narinder, Global Markets Associate Program"/></a>
-	                                <p class="script"><a href="fvp_final/Narinder/transcript.asp">View transcript</a></p>
+	                                <p class="script"><a href="/campusrecruiting/video/Narinder/transcript.asp">View transcript</a></p>
                                 </div>
                                 <!--/.profile-->
                                 <div class="profile"> <a href="campus-video.aspx?id=8" class="video-modal">
                                     <img src="images/campus/tn-nichole.png" alt="Play video for Nichole, International Corporate Treasury Analyst Program"/></a>
-	                                <p class="script"><a href="fvp_final/Nichole/transcript.asp">View transcript</a></p>
+	                                <p class="script"><a href="/campusrecruiting/video/Nichole/transcript.asp">View transcript</a></p>
                                 </div>
 					                    <!--/.profile-->
                             </div>
@@ -154,32 +145,32 @@ a:hover
 				                        <li class="image-anton">
 					                        <a href="campus-video.aspx?id=1" class="video">
 					                        <img src="images/campus/tn-anton.png" width="160" height="100" alt="Play video for Anton, HR Development Program" /></a>
-					                        <p class="transcript-link"><a href="fvp_final/Anton/transcript.asp" class="transcript">View transcript</a></p>
+					                        <p class="transcript-link"><a href="/campusrecruiting/video/Anton/transcript.asp" class="transcript">View transcript</a></p>
 				                        </li>				                        
 				                        <li class="image-howard">
 					                        <a href="campus-video.aspx?id=3" class="video">
 					                        <img src="images/campus/tn-howard.png" width="160" height="100" alt="Play video for Howard, Global Markets Sales and Trading Associate Program" /></a>
-					                        <p class="transcript-link"><a href="fvp_final/Howard/transcript.asp" class="transcript">View transcript</a></p>
+					                        <p class="transcript-link"><a href="/campusrecruiting/video/Howard/transcript.asp" class="transcript">View transcript</a></p>
 				                        </li>
 				                        <li>
 					                        <a href="campus-video.aspx?id=4" class="video">
 					                        <img src="images/campus/tn-jarrod.png" width="160" height="100" alt="Play video for Jarrod, Applied Technology Program" /></a>
-					                        <p class="transcript-link"><a href="fvp_final/Jarrod/transcript.asp" class="transcript">View transcript</a></p>
+					                        <p class="transcript-link"><a href="/campusrecruiting/video/Jarrod/transcript.asp" class="transcript">View transcript</a></p>
 				                        </li>
 				                        <li>
 					                        <a href="campus-video.aspx?id=5" class="video">
 					                        <img src="images/campus/tn-Kaitlyn.png" width="160" height="100" alt="Play video for Kaitlyn, Global Markets Sales and Trading Analyst Program" /></a> 
-					                        <p class="transcript-link"><a href="fvp_final/Kaitlyn/transcript.asp" class="transcript">View transcript</a></p>
+					                        <p class="transcript-link"><a href="/campusrecruiting/video/Kaitlyn/transcript.asp" class="transcript">View transcript</a></p>
 				                        </li>
 				                        <li class="image-Kevin">
 					                        <a href="campus-video.aspx?id=12" class="video">
 					                        <img src="images/campus/tn-Kevin.png" width="160" height="100" alt="Play video for Kevin, Consumer MBA Program" /></a>
-					                        <p class="transcript-link"><a href="fvp_final/Kevin/transcript.asp" class="transcript">View transcript</a></p>
+					                        <p class="transcript-link"><a href="/campusrecruiting/video/Kevin/transcript.asp" class="transcript">View transcript</a></p>
 				                        </li>
 				                        <li class="image-Leonard">
 					                        <a href="campus-video.aspx?id=6" class="video">
 					                        <img src="images/campus/tn-Leonard.png" width="160" height="100" alt="Play video for Leonard, Global Treasury Solutions Associate Program" /></a>
-					                        <p class="transcript-link"><a href="fvp_final/Leonard/transcript.asp" class="transcript">View transcript</a></p>
+					                        <p class="transcript-link"><a href="/campusrecruiting/video/Leonard/transcript.asp" class="transcript">View transcript</a></p>
 				                        </li>				                        
 			                        </ul>
                                
@@ -203,32 +194,32 @@ a:hover
 				                        <li class="image-Narinder">
 					                        <a href="campus-video.aspx?id=7" class="video">
 					                        <img src="images/campus/tn-Narinder.png" width="160" height="100" alt="Play video for Narinder, Global Markets Associate Program" /></a>
-					                        <p class="transcript-link"><a href="fvp_final/Narinder/transcript.asp" class="transcript">View transcript</a></p>
+					                        <p class="transcript-link"><a href="/campusrecruiting/video/Narinder/transcript.asp" class="transcript">View transcript</a></p>
 				                        </li>				                        
 				                        <li class="image-Nichole">
 					                        <a href="campus-video.aspx?id=8" class="video">
 					                        <img src="images/campus/tn-Nichole.png" width="160" height="100" alt="Play video for Nichole, International Corporate Treasury Analyst Programme" /></a>
-					                        <p class="transcript-link"><a href="fvp_final/Nichole/transcript.asp" class="transcript">View transcript</a></p>
+					                        <p class="transcript-link"><a href="/campusrecruiting/video/Nichole/transcript.asp" class="transcript">View transcript</a></p>
 				                        </li>
 				                        <li class="image-Patricia">
 					                        <a href="campus-video.aspx?id=13" class="video">
 					                        <img src="images/campus/tn-Patricia.png" width="160" height="100" alt="Play video for Patricia, Global Investment Banking Analyst Program" /></a>
-					                        <p class="transcript-link"><a href="fvp_final/Patricia/transcript.asp" class="transcript">View transcript</a></p>
+					                        <p class="transcript-link"><a href="/campusrecruiting/video/Patricia/transcript.asp" class="transcript">View transcript</a></p>
 				                        </li>
 				                        <li  class="image-Saumya">
 					                        <a href="campus-video.aspx?id=9" class="video">
 					                        <img src="images/campus/tn-Saumya.png" width="160" height="100" alt="Play video for Saumya, Global Research Associate Programme" /></a> 
-					                        <p class="transcript-link"><a href="fvp_final/Saumya/transcript.asp" class="transcript">View transcript</a></p>
+					                        <p class="transcript-link"><a href="/campusrecruiting/video/Saumya/transcript.asp" class="transcript">View transcript</a></p>
 				                        </li>
 				                        <li class="image-Tanvi">
 					                        <a href="campus-video.aspx?id=10" class="video">
 					                        <img src="images/campus/tn-Tanvi.png" width="160" height="100" alt="Play video for Tanvi, Technology Analyst Programme" /></a>
-					                        <p class="transcript-link"><a href="fvp_final/Tanvi/transcript.asp" class="transcript">View transcript</a></p>
+					                        <p class="transcript-link"><a href="/campusrecruiting/video/Tanvi/transcript.asp" class="transcript">View transcript</a></p>
 				                        </li>
 				                        <li class="image-Zach">
 					                        <a href="campus-video.aspx?id=11" class="video">
 					                        <img src="images/campus/tn-Zach.png" width="160" height="100" alt="Play video for Zach, Commercial Banking Real Estate Banking Analyst Program" /></a>
-					                        <p class="transcript-link"><a href="fvp_final/Zac/transcript.asp" class="transcript">View transcript</a></p>
+					                        <p class="transcript-link"><a href="/campusrecruiting/video/Zac/transcript.asp" class="transcript">View transcript</a></p>
 				                        </li>
 			                        </ul>
                                
@@ -246,17 +237,17 @@ a:hover
 				                        <li>
 					                        <a href="campus-video.aspx?id=14" class="video">
 					                        <img src="images/campus/tn-Dallas.png" width="160" height="100" alt="Play video for Dallas, Neighborhood Enterprise Initiative®" /></a>
-					                        <p class="transcript-link"><a href="fvp_final/NEIDallas/nei_dallas_builders.html" class="transcript">View transcript</a></p>
+					                        <p class="transcript-link"><a href="/campusrecruiting/video/NEIDallas/nei_dallas_builders.html" class="transcript">View transcript</a></p>
 				                        </li>
 				                        <li>
 					                        <a href="campus-video.aspx?id=15" class="video">
 					                        <img src="images/campus/tn-Qualco.png" width="160" height="100" alt="Play video for Qualco Energy Corp, Seattle – Supporting clean renewable energy" /></a>
-					                        <p class="transcript-link"><a href="fvp_final/SeattleQualco/seattle_qualco_energy_transcript.html" class="transcript">View transcript</a></p>
+					                        <p class="transcript-link"><a href="/campusrecruiting/video/SeattleQualco/seattle_qualco_energy_transcript.html" class="transcript">View transcript</a></p>
 				                        </li>
 				                        <li class="image-Queens">
 					                        <a href="campus-video.aspx?id=16" class="video">
 					                        <img src="images/campus/tn-Queens.png" width="160" height="100" alt="Play video for Queens Theatre in the Park, NYC – Local community economic growth" /></a>
-					                        <p class="transcript-link"><a href="fvp_final/QueensTheater/queens_theatre.html" class="transcript">View transcript</a></p>
+					                        <p class="transcript-link"><a href="/campusrecruiting/video/QueensTheater/queens_theatre.html" class="transcript">View transcript</a></p>
 				                        </li>
 			                        </ul>
 			                     </div>
@@ -265,7 +256,7 @@ a:hover
 				                         <li>
 					                        <a href="campus-video.aspx?id=2" class="video">
 					                        <img src="images/campus/tn-diversity.png" width="160" height="100" alt="Play video Diversity &amp; Inclusion" /></a>
-					                        <p class="transcript-link"><a href="fvp_final/di/transcript.asp" class="transcript">View transcript</a></p>
+					                        <p class="transcript-link"><a href="/campusrecruiting/video/di/transcript.asp" class="transcript">View transcript</a></p>
 				                        </li>
 			                        </ul>
 			                     </div>
