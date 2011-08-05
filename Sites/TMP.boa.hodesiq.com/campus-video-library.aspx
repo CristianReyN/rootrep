@@ -13,12 +13,11 @@
   <style type="text/css">
     ul.video-pagination a:link {text-decoration: none !important;}
     ul.video-pagination li a:hover {
-	    outline: dotted 0px #000 !important;
 	    font-weight:bold;
 	    text-decoration: underline !important;
 	    } 
 	    video-pagination:hover {text-decoration: underline !important;}
-    a:hover {text-decoration: underline;}
+    #maincontent a:hover {text-decoration: underline !important;}
   </style>
 <script type="text/javascript" language="JavaScript">
     function getcss(intelementID) {
