@@ -71,3 +71,4 @@
 
 		</div>
 </div><div class="clear"></div>
+<div class="omwrap"><img src="../images/clear.gif" class="oppmot" alt="Set opportunity in motion." title="Set opportunity in motion."></div>

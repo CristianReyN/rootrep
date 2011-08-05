@@ -1688,6 +1688,22 @@ div.cmpr div.rnw a:hover, div.cmpr div.rnw a.over
 	background: url(../images/layout/campn.gif) no-repeat bottom left;
 	padding-bottom: 200px;
 }
+.omwrap
+{
+	position: relative;
+	display: block;
+	width: 566px;
+	height: 26px;
+}
+.oppmot
+{
+	position: absolute;
+	bottom: -200px;
+	width: 566px;
+	height: 133px;
+	margin: 0px 0px 0px 0px;
+	/*background: url(../images/layout/campn.gif) no-repeat bottom left;*/
+}
 .normal
 {
 	font-weight: normal;

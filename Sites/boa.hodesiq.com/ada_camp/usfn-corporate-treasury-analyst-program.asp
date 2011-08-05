@@ -36,7 +36,6 @@ r4 = True
 <!-- Body-->
 <img src="../images/clear.gif" width="15" height="4" alt="" border="0"><br>
 <!-- #include file="../includes/pages/camp/usfn-corporate-treasury-analyst-program.asp" -->
-<br><br>
 <!-- Body-->
 	</td>
 </tr>

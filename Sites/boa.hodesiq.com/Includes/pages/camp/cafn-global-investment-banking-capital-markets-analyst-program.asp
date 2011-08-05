@@ -67,3 +67,4 @@ As a leader in equity and debt origination and syndication, our Capital Markets 
 
 		</div>
 </div><div class="clear"></div>
+<div class="omwrap"><img src="../images/clear.gif" class="oppmot" alt="Set opportunity in motion." title="Set opportunity in motion."></div>
