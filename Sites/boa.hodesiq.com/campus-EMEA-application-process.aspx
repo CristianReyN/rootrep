@@ -42,7 +42,7 @@ Stage 3:&nbsp;&nbsp;&nbsp;&nbsp;Longer-answer questions</p>
 <br />
 <p>
 <table border="0" width="100%" cellpadding="0" cellspacing="0" >
-<tr><td style="color: #333333;font-family: Arial,Helvetica,Verdana,sans-serif;font-weight: normal;line-height: 1.4em;">Stage 1:</td><td style="color: #333333;font-family: Arial,Helvetica,Verdana,sans-serif;font-weight: normal;line-height: 1.4em;">Complete online application form</td></tr>
+<tr><td width="13%" style="color: #333333;font-family: Arial,Helvetica,Verdana,sans-serif;font-weight: normal;line-height: 1.4em;">Stage 1:</td><td style="color: #333333;font-family: Arial,Helvetica,Verdana,sans-serif;font-weight: normal;line-height: 1.4em;">Complete online application form</td></tr>
 <tr><td style="color: #333333;font-family: Arial,Helvetica,Verdana,sans-serif;font-weight: normal;line-height: 1.4em;">Stage 2:</td><td style="color: #333333;font-family: Arial,Helvetica,Verdana,sans-serif;font-weight: normal;line-height: 1.4em;">Online ability tests</td></tr>
 <tr><td style="color: #333333;font-family: Arial,Helvetica,Verdana,sans-serif;font-weight: normal;line-height: 1.4em;">Stage 3:</td><td style="color: #333333;font-family: Arial,Helvetica,Verdana,sans-serif;font-weight: normal;line-height: 1.4em;">Telephone screening</td></tr>
 <tr><td style="color: #333333;font-family: Arial,Helvetica,Verdana,sans-serif;font-weight: normal;line-height: 1.4em;">Stage 4:</td><td style="color: #333333;font-family: Arial,Helvetica,Verdana,sans-serif;font-weight: normal;line-height: 1.4em;">Successful applicants will be invited to an assessment centre</td></tr>
