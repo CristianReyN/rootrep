@@ -198,7 +198,7 @@
                 <tr>
 				<td valign="top">
 					<img src="images/camp/tlb.gif" border="0" alt="" /></td>
-				<td  valign="top">
+				<td  valign="top" width="567px">
 					<img src="images/camp/tb.gif" height="6" width="100%"  border="0" alt="" /></td>
 				<td valign="top">
 					<img src="images/camp/trb.gif" border="0" alt="" /></td>

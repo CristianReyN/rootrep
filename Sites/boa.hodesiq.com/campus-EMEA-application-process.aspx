@@ -14,10 +14,13 @@
 
 <h2 class="questions">Deadlines</h2>
 		
-
-Analyst Full Time:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Friday 11 November 2011<br />
-Analyst Internships:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Friday 16 December 2011
-<br /><br />
+<table border="0" width="100%" cellpadding="0" cellspacing="0">
+<tr><td width="40%" style="color: #333333;font-family: Arial,Helvetica,Verdana,sans-serif;font-weight: normal;line-height: 1.4em;">Analyst Full Time:<td style="color: #333333;font-family: Arial,Helvetica,Verdana,sans-serif;font-weight: normal;line-height: 1.4em;">Friday 11 November 2011</td></td></tr>
+<tr><td style="color: #333333;font-family: Arial,Helvetica,Verdana,sans-serif;font-weight: normal;line-height: 1.4em;">Analyst Internships:<td style="color: #333333;font-family: Arial,Helvetica,Verdana,sans-serif;font-weight: normal;line-height: 1.4em;">Friday 16 December 2011</td></td></tr>
+</table>
+<!--Analyst Full Time:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Friday 11 November 2011<br />
+Analyst Internships:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Friday 16 December 2011-->
+<br />
 <p>Assessments begin before the deadline, so it’s best to submit your application early to avoid disappointment. Please note that whilst these deadlines apply to the majority of graduate and internship programmes, some opportunities may be open outside of this timeframe. We encourage you to check individual vacancies to ensure you don’t miss out.</p>
 
 <p class="applypad">Online applications for most programmes comprise three stages: </p><br />
@@ -29,7 +32,7 @@ Stage 3:&nbsp;&nbsp;&nbsp;&nbsp;Longer-answer questions</p>
 
 <p>Please note that all three stages must be completed by the application deadline.</p>
 
-<h2 class="questions">Assessment</h2>
+<h2 class="questions">Assessments</h2>
 <p>Everyone who is selected for assessment will go through a one-day assessment centre involving competency-based exercises. In addition, for our Full Time programmes, we conduct first-round telephone interviews.</p>
 <h2 class="questions">Europe Card Services</h2>
 <p>Application Deadline: TBC</p>
@@ -37,11 +40,18 @@ Stage 3:&nbsp;&nbsp;&nbsp;&nbsp;Longer-answer questions</p>
 
 <p class="applypad">For positions within Europe Card Services, the application and assessment process comprises four stages: </p>
 <br />
-<p>Stage 1:&nbsp;&nbsp;&nbsp;&nbsp;Complete online application form <br />
+<p>
+<table border="0" width="100%" cellpadding="0" cellspacing="0" >
+<tr><td style="color: #333333;font-family: Arial,Helvetica,Verdana,sans-serif;font-weight: normal;line-height: 1.4em;">Stage 1:</td><td style="color: #333333;font-family: Arial,Helvetica,Verdana,sans-serif;font-weight: normal;line-height: 1.4em;">Complete online application form</td></tr>
+<tr><td style="color: #333333;font-family: Arial,Helvetica,Verdana,sans-serif;font-weight: normal;line-height: 1.4em;">Stage 2:</td><td style="color: #333333;font-family: Arial,Helvetica,Verdana,sans-serif;font-weight: normal;line-height: 1.4em;">Online ability tests</td></tr>
+<tr><td style="color: #333333;font-family: Arial,Helvetica,Verdana,sans-serif;font-weight: normal;line-height: 1.4em;">Stage 3:</td><td style="color: #333333;font-family: Arial,Helvetica,Verdana,sans-serif;font-weight: normal;line-height: 1.4em;">Telephone screening</td></tr>
+<tr><td style="color: #333333;font-family: Arial,Helvetica,Verdana,sans-serif;font-weight: normal;line-height: 1.4em;">Stage 4:</td><td style="color: #333333;font-family: Arial,Helvetica,Verdana,sans-serif;font-weight: normal;line-height: 1.4em;">Successful applicants will be invited to an assessment centre</td></tr>
+</table></p>
+<!--<p>Stage 1:&nbsp;&nbsp;&nbsp;&nbsp;Complete online application form <br />
 Stage 2:&nbsp;&nbsp;&nbsp;&nbsp;Online ability tests <br />
 Stage 3:&nbsp;&nbsp;&nbsp;&nbsp;Telephone screening <br />
 Stage 4:&nbsp;&nbsp;&nbsp;&nbsp;Successful applicants will be invited to an assessment centre 
-</p>
+</p>-->
 <p>Applicants may be requested to attend a final interview.</p>
 
 <h3>Associate & Ph.D. </h3>
@@ -57,9 +67,7 @@ Assessment for Ph.D. or other advanced degree:
 </ul>
 <br />
 <p>For application deadlines, please see individual job descriptions.</p>
-
-				  
-				  
+ 
                 </div>
                 <div id="aside"> 
                   <a href="campusrecruiting/career_fit_tool.asp"><img src="images/campus/btn-careerfinder.jpg" width="179" height="66" alt="Career Finder: Come as you are. We've got a career to fit." /></a> 
