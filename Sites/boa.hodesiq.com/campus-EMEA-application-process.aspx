@@ -25,9 +25,9 @@ Analyst Internships:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Friday 16 December 2011-->
 
 <p class="applypad">Online applications for most programmes comprise three stages: </p><br />
 
-<p>Stage 1:&nbsp;&nbsp;&nbsp;&nbsp;Personal details, work experience, etc.<br />
-Stage 2:&nbsp;&nbsp;&nbsp;&nbsp;Numerical test<br />
-Stage 3:&nbsp;&nbsp;&nbsp;&nbsp;Longer-answer questions</p>
+<p>Stage 1:&nbsp;&nbsp;&nbsp;Personal details, work experience, etc.<br />
+Stage 2:&nbsp;&nbsp;&nbsp;Numerical test<br />
+Stage 3:&nbsp;&nbsp;&nbsp;Longer-answer questions</p>
 <p>The numerical test is timed and must be completed in one sitting; however, stages 1 and 3 can be saved as you work through the application.</p>
 
 <p>Please note that all three stages must be completed by the application deadline.</p>
