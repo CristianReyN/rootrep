@@ -62,6 +62,8 @@ jQuery(document).ready(function(){
 	});
 	$('.modaldialog-close').click(function (e) {
 		$('#modal-dialog').dialog('close');
+		var iframe = $('#imodal').get(0);
+		if (iframe) iframe.src = 'video/empty.html';
 		return false;
 	});
 	$('.md-video').click(function (e) {
