@@ -40,7 +40,7 @@
 <div class="expand">
 <h2 class="bac"><a href="" title="Show information"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information"></a>Locations</h2>
 <div>
-<p class="bac">Boston, Massachusetts o Charlotte, North Carolina o New York, New York o Wilmington, Delawareo Calabasas, California</p>
+<p class="bac">Boston, Massachusetts; Charlotte, North Carolina; New York, New York; Wilmington, Delaware; Calabasas, California</p>
 </div></div>
 
 <div class="expand">

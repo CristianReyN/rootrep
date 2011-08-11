@@ -41,7 +41,7 @@
 <div class="expand">
 <h2 class="bac"><a href="" title="Show information"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information"></a>Locations</h2>
 <div>
-<p class="bac">Charlotte, North Carolina o Wilmington, Delaware o New York, New York o Dallas, Texas o West Lake Village, California</p>
+<p class="bac">Charlotte, North Carolina; Wilmington, Delaware; New York, New York; Dallas, Texas; West Lake Village, California</p>
 </div></div>
 
 <div class="expand">

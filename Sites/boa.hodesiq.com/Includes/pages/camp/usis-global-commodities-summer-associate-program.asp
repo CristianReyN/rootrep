@@ -72,7 +72,7 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><a href="" title="Show information"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information"></a>Location:</h2>
+<h2 class="bac"><a href="" title="Show information"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information"></a>Locations:</h2>
 <div>
 <p class="bac">Houston, TX</p>
 </div></div>

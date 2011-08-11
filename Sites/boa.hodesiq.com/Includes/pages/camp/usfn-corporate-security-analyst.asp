@@ -51,7 +51,7 @@
 <div class="expand">
 <h2 class="bac"><a href="" title="Show information"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information"></a>Locations</h2>
 <div>
-<p class="bac">Charlotte, North Carolina o New York, NY</p>
+<p class="bac">Charlotte, North Carolina; New York, NY</p>
 </div></div>
 
 <div class="expand">
