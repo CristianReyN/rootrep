@@ -49,36 +49,52 @@ jQuery(document).ready(function(){
 		scrollbars:1,
 		windowName: 'videoTranscript'
 	});
+	
+	$('#modal-dialog').dialog({
+		autoOpen: false,
+		modal: true,
+		draggable: false,
+		resizable: false,
+		closeOnEscape: true,
+		width: 507,
+		//height: 305,
+		position: [160,99]
+	});
+	$('.modaldialog-close').click(function (e) {
+		$('#modal-dialog').dialog('close');
+		return false;
+	});
 	$('.md-video').click(function (e) {
 		$('#modal-dialog').css({width:'507px'});
 		$('#mdvideo').show();
-		$('#mdtrans').hide();
-		$('#modal-dialog').modal({
-			opacity: 50,
-			position: ['99', '160'],
-			focus: true,
-			overlayClose: true,
-			modal: false,
-			onShow: function() {
-				var iframe = $('#imodal').get(0);
-				if (iframe) iframe.src = iframe.getAttribute('videosrc');
-				if(document.all)
-				{
-					$('a.haf').each(function(index) {
-						var arr = $('<div class="adiv"><div class="rdiv"></div></div>').prependTo($('a.haf:eq('+index+') div'));
-						$('a.haf:eq('+index+') div.rdiv').width($('a.haf:eq('+index+') div.adiv').siblings('img').get(0).width+4);
-						$('a.haf:eq('+index+') div.rdiv').height($('a.haf:eq('+index+') div.adiv').siblings('img').get(0).height+4);
-						$(this).focus(function() {
-							$('a.haf:eq('+index+') div.rdiv').addClass('rhdiv');
-						});
-						$(this).blur(function() {
-							$('a.haf:eq('+index+') div.rdiv').removeClass('rhdiv');
-						});
-					});
-				}
-				iframe.focus();
-			}
-		});
+		$('#modal-dialog').dialog('open');
+		
+		var iframe = $('#imodal').get(0);
+		if (iframe) iframe.src = iframe.getAttribute('videosrc');
+		if(document.all)
+		{
+			$('#grabfocus').get(0).tabIndex = '-1';
+			$('#grabfocus').focus();
+			
+			$('a.haf').each(function(index) {
+				var arr = $('<div class="adiv"><div class="rdiv"></div></div>').prependTo($('a.haf:eq('+index+') div'));
+				$('a.haf:eq('+index+') div.rdiv').width($('a.haf:eq('+index+') div.adiv').siblings('img').get(0).width+4);
+				$('a.haf:eq('+index+') div.rdiv').height($('a.haf:eq('+index+') div.adiv').siblings('img').get(0).height+4);
+				$(this).focus(function() {
+					$('a.haf:eq('+index+') div.rdiv').addClass('rhdiv');
+				});
+				$(this).blur(function() {
+					$('a.haf:eq('+index+') div.rdiv').removeClass('rhdiv');
+				});
+			});
+		}
+		else
+		{
+			$('#videoclose').get(0).tabIndex = '-1';
+			$('#videoclose').focus();
+		}
+		//else $('#imodal').focus();
+		
 		return false;
 	});
  });

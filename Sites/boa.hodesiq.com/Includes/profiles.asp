@@ -209,6 +209,7 @@ Function profile (program)
 			"usin-enterprise-change-technology-operations-intern-program.asp", _
 			"usin-global-markets-operations-middle-office-intern-program.asp", _
 			"usin-mainframe-analyst-development-intern-program.asp", _
+			"usin-markets-risk-intern-program.asp", _
 			"usis-corporate-workplace-senior-analyst-internship.asp" _
 		)) Then
 %>
@@ -218,7 +219,6 @@ Function profile (program)
 			"usfn-institutional-mortgage-services-development-program.asp", _
 			"usfs-home-Loans-insurance-mba-program.asp", _
 			"usin-institutional-mortgage-services-analyst-intern-program.asp", _
-			"usin-markets-risk-intern-program.asp", _
 			"usis-home-Loans-insurance-mba-intern-program.asp" _
 		)) Then
 %>
