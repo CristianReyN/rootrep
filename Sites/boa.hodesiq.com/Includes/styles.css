@@ -1415,11 +1415,13 @@ table#chelp p, ul
 	top: -2px;
 }
 
-a.ha div.adiv
+a.ha div.adiv,
+a.haf div.adiv
 {
 	position: absolute;
 }
-a.ha div.rdiv
+a.ha div.rdiv,
+a.haf div.rdiv
 {
 	display: block;
 	position: relative;
@@ -1427,7 +1429,8 @@ a.ha div.rdiv
 	top: -2px; 
 	border: 2px solid transparent;
 }
-a.ha div.rhdiv
+a.ha div.rhdiv,
+a.haf div.rhdiv
 {
 	border: 2px solid #f1ca7f;/*border: 2px solid #c49d51;*/
 }
@@ -1520,6 +1523,10 @@ a.ha div.rhdiv
 	margin-top: 12px;
 	margin-bottom: -9px;
 }
+.prg h2.bac a
+{
+	margin: 0px 4px 0px 7px;
+}
 img.popen,
 img.pclose
 {
@@ -1527,7 +1534,6 @@ img.pclose
 	width: 19px;
 	height: 17px;
 	border: 0;
-	margin: 0px 4px 0px 7px;
 	vertical-align: middle;
 	cursor: pointer;
 }

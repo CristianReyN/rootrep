@@ -8,7 +8,7 @@
 			</div>
 			<div class="mdv-info">
 				<div class="mdv-close">
-					<a href="#" class="modaldialog-close"></a>
+					<a href="#" class="modaldialog-close haf" title="Close"><div><img src="../images/clear.gif" width="18" height="18" alt="Close" title="Close" border="0"></div></a>
 				</div>
 				<div class="clearall"></div>
 			</div>

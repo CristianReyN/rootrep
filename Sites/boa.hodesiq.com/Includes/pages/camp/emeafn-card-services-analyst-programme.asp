@@ -5,7 +5,7 @@
 <h1 class="bac"><%=program.Item("title")%></h1>
 
 <div class="expanded">
-<h2 class="bac"><img class="pclose" src="../images/clear.gif" alt="Hide information" title="Hide information">Our Business</h2>
+<h2 class="bac"><a href="" title="Hide information"><img class="pclose" src="../images/clear.gif" alt="Hide information" title="Hide information"></a>Our Business</h2>
 <div>
 <h3 class="bac">Summary</h3>
 <ul class="bac">
@@ -17,7 +17,7 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information">Overview</h2>
+<h2 class="bac"><a href="" title="Show information"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information"></a>Overview</h2>
 <div>
 <ul class="bac">
 	<li>Our graduate intake will be based around a number of specialist streams.</li>
@@ -28,25 +28,25 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information">Qualifications</h2>
+<h2 class="bac"><a href="" title="Show information"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information"></a>Qualifications</h2>
 <div>
 <p class="bac">You must be able to combine academic aptitude, strategic and creative thinking, and written and oral communications skills. In addition, you must have obtained or are realistically expecting to obtain a minimum 2:2 degree or equivalent in a discipline directly relating to the scheme for which you are applying. Underlying all this, you must demonstrate dedication to a career in an environment that is highly commercial and focused on excellent customer service.</p>
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information">Training</h2>
+<h2 class="bac"><a href="" title="Show information"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information"></a>Training</h2>
 <div>
 <p class="bac">You will develop technical, personal and professional skills, as well as learning more about Bank&nbsp;of&nbsp;America&#39;s capabilities and culture. This will be gained by working within the business areas that relate to your discipline, as well as through classroom training and other development opportunities, enabling effective integration into the business and the broader Bank&nbsp;of&nbsp;America Corporation.</p>
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information">Locations</h2>
+<h2 class="bac"><a href="" title="Show information"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information"></a>Locations</h2>
 <div>
 <p class="bac">All Europe Card Services graduate streams will be based in Chester (UK).</p>
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information">How to Apply</h2>
+<h2 class="bac"><a href="" title="Show information"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information"></a>How to Apply</h2>
 <div>
 <p class="bac"><% howToApply(program) %></p>
 </div></div>

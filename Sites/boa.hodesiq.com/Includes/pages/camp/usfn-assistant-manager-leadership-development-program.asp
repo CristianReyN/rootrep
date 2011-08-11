@@ -5,13 +5,13 @@
 <h1 class="bac"><%=program.Item("title")%></h1>
 
 <div class="expanded">
-<h2 class="bac"><img class="pclose" src="../images/clear.gif" alt="Hide information" title="Hide information">Our Business</h2>
+<h2 class="bac"><a href="" title="Hide information"><img class="pclose" src="../images/clear.gif" alt="Hide information" title="Hide information"></a>Our Business</h2>
 <div>
 <p class="bac">Consumer &amp; Small Business Banking (CSBB) serves more than 53 million consumer and small business households through a distribution network of 6,100 retail banking offices, 18,500 ATMs, and the nation&#39;s leading Online Banking and award winning on&ndash;line banking with nearly 29 million active users.</p>
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information">Overview</h2>
+<h2 class="bac"><a href="" title="Show information"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information"></a>Overview</h2>
 <div>
 <p class="bac nobr">Bank&nbsp;of&nbsp;America is seeking outstanding college graduates interested in a rewarding career in sales and management to enter our selective Banking Center Channel Assistant Manager Leadership Development Program. Assistant Manager Associates are responsible for leading a team of professionals to establish and build customer relationships, deliver excellent customer treatment, manage the business, and meet operational goals. In this position, you will be expected to:</p>
 <ul class="bac">
@@ -22,7 +22,7 @@
 </ul>
 </div></div>
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information">Qualifications</h2>
+<h2 class="bac"><a href="" title="Show information"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information"></a>Qualifications</h2>
 <div>
 <ul class="bac">
 	<li>Must have a Bachelor&#39;s degree from an accredited college or university with a graduation date between May 2011 and June 2012</li>
@@ -36,7 +36,7 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information">Training</h2>
+<h2 class="bac"><a href="" title="Show information"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information"></a>Training</h2>
 <div>
 <ul class="bac">
 	<li>12 &ndash; 18 months will be spent learning the fundamentals of the Banking Center in the following key areas:
@@ -48,13 +48,13 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information">Locations</h2>
+<h2 class="bac"><a href="" title="Show information"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information"></a>Locations</h2>
 <div>
 <p class="bac">Various throughout the Unites States</p>
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information">How to Apply</h2>
+<h2 class="bac"><a href="" title="Show information"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information"></a>How to Apply</h2>
 <div>
 <p class="bac"><% howToApply(program) %></p>
 </div></div>

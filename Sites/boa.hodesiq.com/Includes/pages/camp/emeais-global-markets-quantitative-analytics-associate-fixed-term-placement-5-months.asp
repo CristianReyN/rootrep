@@ -5,25 +5,21 @@
 <h1 class="bac"><%=program.Item("title")%></h1>
 
 <div class="expanded">
-<h2 class="bac"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information">Our Business</h2>
+<h2 class="bac"><a href="" title="Hide information"><img class="pclose" src="../images/clear.gif" alt="Hide information" title="Hide information"></a>Our Business</h2>
 <div>
+<h3 class="bac">Summary</h3>
 <ul class="bac">
 	<li>Location: London</li>
 	<li>5 month, desk specific fixed term placement from April - September</li>
 	<li>PhD or Equivalent advanced degree in a mathematical or financial discipline from a top-tier University</li>
 	<li>Fluency in English and a second European language may also be required for some roles</li>
 </ul>
-</div></div>
-
-<div class="expanded">
-<h2 class="bac"><img class="pclose" src="../images/clear.gif" alt="Hide information" title="Hide information">Our Business</h2>
-<div>
 <p class="bac">Global Markets delivers a wide range of securities products and services, powerful sales and trading capabilities, and deep risk management expertise across asset classes. Closely aligned with Global Corporate  &amp; Investment Banking&#39;s client-managed groups, Global Markets product specialists anticipate and meet the needs of more than 3,000 institutional investors and 7,000 issuer clients.</p>
 <p class="bac">The Global Markets Quantitative Analytics group provides the mathematical infrastructure for all sales and trading activity within the company. As a valued cornerstone of the company&#39;s capacity to generate revenue in today&#39;s markets, the group plays a vital role by inventing, designing and implementing all pricing and hedging models used within the Global Markets business.</p>
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information">Overview</h2>
+<h2 class="bac"><a href="" title="Show information"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information"></a>Overview</h2>
 <div>
 <p class="bac nobr">Interns will be assigned across our Equity, Credit, Foreign Exchange, Rates and Commodities desks and the day to day responsibilities will vary accordingly. Typically, you will:</p>
 <ul class="bac">
@@ -35,7 +31,7 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information">Training</h2>
+<h2 class="bac"><a href="" title="Show information"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information"></a>Training</h2>
 <div>
 <p class="bac nobr">We offer a bespoke development programme, unique to our quantitative hires, which runs throughout your internship including:</p>
 <ul class="bac">
@@ -47,19 +43,19 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information">Qualifications</h2>
+<h2 class="bac"><a href="" title="Show information"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information"></a>Qualifications</h2>
 <div>
 <p class="bac">You will need an advanced degree/PhD in a mathematical or financial discipline, along with a strong quantitative background and impressive problem-solving, analytical and communication skills. The ability to think creatively will be essential, as will familiarity with programming.</p>
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information">Locations</h2>
+<h2 class="bac"><a href="" title="Show information"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information"></a>Locations</h2>
 <div>
 <p class="bac">London</p>
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information">How to Apply</h2>
+<h2 class="bac"><a href="" title="Show information"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information"></a>How to Apply</h2>
 <div>
 <p class="bac"><% howToApply(program) %></p>
 </div></div>

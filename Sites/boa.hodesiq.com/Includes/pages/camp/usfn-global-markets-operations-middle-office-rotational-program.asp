@@ -5,7 +5,7 @@
 <h1 class="bac"><%=program.Item("title")%></h1>
 
 <div class="expanded">
-<h2 class="bac"><img class="pclose" src="../images/clear.gif" alt="Hide information" title="Hide information">Our Business</h2>
+<h2 class="bac"><a href="" title="Hide information"><img class="pclose" src="../images/clear.gif" alt="Hide information" title="Hide information"></a>Our Business</h2>
 <div>
 <p class="bac nobr">Global Markets Operations/Middle Office Group (GMO &amp;MO) provides operational support for all products in Global Markets, Corporate Treasury and Corporate Investments and is primarily a control function responsible for providing assurance over data and processes used to record Risk, P/L, Balance Sheet and Financial Results. The organization is aligned to products and business management:</p>
 <ul class="bac">
@@ -18,7 +18,7 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information">Overview</h2>
+<h2 class="bac"><a href="" title="Show information"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information"></a>Overview</h2>
 <div>
 <p class="bac">This unique 3 year program allows analysts to rotate through Global Markets Operations  &amp; Middle Office and provides exposure to many different areas within the group.</p>
 <p class="bac nobr">GMO &amp;MO Analysts will complete three rotations lasting 12 months in length:</p>
@@ -30,7 +30,7 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information">Qualifications</h2>
+<h2 class="bac"><a href="" title="Show information"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information"></a>Qualifications</h2>
 <div>
 <p class="bac nobr">Candidates must be a final year candidate from a four year college or university and demonstrate a combination of academic aptitude, quantitative skills, strategic and creative thinking, and excellent written and oral communication skills. Analysts will be required to manage several projects at once and work effectively both individually and as part of a team. Some common driving characteristics we look for:</p>
 <ul class="bac">
@@ -47,20 +47,20 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information">Training</h2>
+<h2 class="bac"><a href="" title="Show information"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information"></a>Training</h2>
 <div>
 <p class="bac">As an analyst, you will begin your career at Bank&nbsp;of&nbsp;America with an extensive training program. The full program is a combination of classroom instruction, e-learning modules, case studies, and presentations. Throughout the program, you&#39;ll have ample opportunities to work closely with professionals and peers throughout our organization. This is a great opportunity to build a network of colleagues from across the company that will prove to be a tremendous resource to you throughout your career.</p>
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information">Locations</h2>
+<h2 class="bac"><a href="" title="Show information"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information"></a>Locations</h2>
 <div>
 
 <p class="bac">Charlotte, NC; Chicago, IL; Houston, TX; Jacksonville, FL; New York, NY</p>
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information">How to Apply</h2>
+<h2 class="bac"><a href="" title="Show information"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information"></a>How to Apply</h2>
 <div>
 <p class="bac"><% howToApply(program) %></p>
 </div></div>

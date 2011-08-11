@@ -5,13 +5,13 @@
 <h1 class="bac"><%=program.Item("title")%></h1>
 
 <div class="expanded">
-<h2 class="bac"><img class="pclose" src="../images/clear.gif" alt="Hide information" title="Hide information">Our Business</h2>
+<h2 class="bac"><a href="" title="Hide information"><img class="pclose" src="../images/clear.gif" alt="Hide information" title="Hide information"></a>Our Business</h2>
 <div>
 <p class="bac">Global Wealth and Investment Management (GWIM) provides comprehensive wealth management to affluent and high-net-worth clients. It also provides retirement and benefit plan services, philanthropic solutions and asset management to individuals and institutions. The group serves these clients by providing access to services through Global Investment Solutions, GWIM Banking, Merrill Lynch Wealth Management, Private Banking and Investment Group (PBIG), Retirement Services, and US Trust, Bank&nbsp;of&nbsp;America Private Wealth Management.</p>
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information">Overview</h2>
+<h2 class="bac"><a href="" title="Show information"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information"></a>Overview</h2>
 <div>
 <ul class="bac">
 	<li><h3 class="bac">Latin America Wealth Management</h3>
@@ -34,7 +34,7 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information">Qualifications</h2>
+<h2 class="bac"><a href="" title="Show information"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information"></a>Qualifications</h2>
 <div>
 <p class="bac nobr">Candidates should demonstrate a strong combination of the following characteristics:</p>
 <ul class="bac">
@@ -50,13 +50,13 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information">Training</h2>
+<h2 class="bac"><a href="" title="Show information"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information"></a>Training</h2>
 <div>
 <p class="bac">The intern will work under close supervision and receive on the job training. After participating in this internship, the intern should have a better understanding of what is involved in becoming a Financial or Private Wealth Advisor within the wealth management business. The intern should also become familiar with the many investment choices offered and have a basic understanding of how an investment plan is designed and monitored.</p>
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information">How to Apply</h2>
+<h2 class="bac"><a href="" title="Show information"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information"></a>How to Apply</h2>
 <div>
 <p class="bac"><% howToApply(program) %></p>
 </div></div>

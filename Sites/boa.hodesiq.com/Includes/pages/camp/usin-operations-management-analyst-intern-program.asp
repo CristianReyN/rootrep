@@ -5,13 +5,13 @@
 <h1 class="bac"><%=program.Item("title")%></h1>
 
 <div class="expanded">
-<h2 class="bac"><img class="pclose" src="../images/clear.gif" alt="Hide information" title="Hide information">Our Business</h2>
+<h2 class="bac"><a href="" title="Hide information"><img class="pclose" src="../images/clear.gif" alt="Hide information" title="Hide information"></a>Our Business</h2>
 <div>
 <p class="bac">To deliver a best in class Internship opportunity for Operations MAP (OMAP) participants through experiential learning, training, and networking opportunities.</p>
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information">Overview</h2>
+<h2 class="bac"><a href="" title="Show information"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information"></a>Overview</h2>
 <div>
 <p class="bac">The Operations MAP (OMAP) Internship is a 10 week summer program designed to provide external candidates and selected internal associates with an opportunity for leadership positions in the bank&#39;s operational lines of business. OMAP Interns participate in a variety of activities designed to foster teamwork, encourage networking, and demonstrate Bank&nbsp;of&nbsp;America&#39;s vision and culture. Interns are given a true associate experience, including goal-setting and a formal review process.</p>
 <p class="bac nobr">10 week Summer Internship roles and responsibilities may include:</p>
@@ -26,7 +26,7 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information">Qualifications</h2>
+<h2 class="bac"><a href="" title="Show information"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information"></a>Qualifications</h2>
 <div>
 <p class="bac">We hire an elite group of new associates with a minimum 3.0 grade point average. Successful candidates will possess and demonstrate the ability to work in a fast paced, empowered environment. Ideal candidates will have the demonstrated ability to handle multiple, competing priorities; learn new tools/applications quickly; and possess strong interpersonal skills.</p>
 <p class="bac">Ideal candidates will demonstrate the ability to lead and manage people (indirect  &amp; direct), inspect and understand a business end to end (process  &amp; risks), influence change adoption, lead quality focus (six sigma), communicate effectively, meet challenging performance requirements, learn from past experiences, and use superb analytical and presentation skills to achieve outstanding results.</p>
@@ -45,7 +45,7 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information">Training</h2>
+<h2 class="bac"><a href="" title="Show information"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information"></a>Training</h2>
 <div>
 <p class="bac nobr">The program consists of the following developmental activities and opportunities:</p>
 <ul class="bac">
@@ -57,13 +57,13 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information">Locations</h2>
+<h2 class="bac"><a href="" title="Show information"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information"></a>Locations</h2>
 <div>
 <p class="bac">Charlotte, NC o Dallas/Plano, TX o Phoenix/Tempe/Chandler, AZ o LA/Calabasas/Thousand Oaks, CA o Atlanta, GA o Newark, DE</p>
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information">How to Apply</h2>
+<h2 class="bac"><a href="" title="Show information"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information"></a>How to Apply</h2>
 <div>
 <p class="bac"><% howToApply(program) %></p>
 </div></div>

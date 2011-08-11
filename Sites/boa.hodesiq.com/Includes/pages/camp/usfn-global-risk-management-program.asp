@@ -5,20 +5,20 @@
 <h1 class="bac"><%=program.Item("title")%></h1>
 
 <div class="expanded">
-<h2 class="bac"><img class="pclose" src="../images/clear.gif" alt="Hide information" title="Hide information">Our Business</h2>
+<h2 class="bac"><a href="" title="Hide information"><img class="pclose" src="../images/clear.gif" alt="Hide information" title="Hide information"></a>Our Business</h2>
 <div>
 <p class="bac">The Global Risk Management Organization effectively manages risk and reward for each of the bank&#39;s major lines of business. The foundation of Bank&nbsp;of&nbsp;America&#39;s risk governance is individual accountability and adherence to the highest standards of conduct. We strive to do the right thing and to do things right. Understanding, identifying and managing risk and reward is part of every associate&#39;s job.</p>
 <p class="bac">Global Risk employs 5,000 associates in more than 35 countries. With the increased focus on risk management in the market place, Global Risk Management offers challenging and exciting career opportunities.</p>
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information">Overview</h2>
+<h2 class="bac"><a href="" title="Show information"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information"></a>Overview</h2>
 <div>
 <p class="bac">The Global Risk Management Analyst Program (GRMAP) is a two&ndash;year Analyst Development program which rotates associates through challenging and valuable one&ndash;year assignments within Global Risk. This rotational process helps associates develop a solid understanding of the core roles and responsibilities of Global Risk, while developing a broad range of skills that are applicable throughout much of the corporation. GRMAP teammates participate in a variety of activities within Global Risk and bank&ndash;wide, designed to foster teamwork, encourage networking, and demonstrate Bank&nbsp;of&nbsp;America&#39;s vision and culture. Rotations include positions within various Global Risk lines of business including Enterprise Credit Market Risk, Consumer Small Business Banking Risk, Commercial Credit Risk, Markets Risk, Compliance, and Operational Risk.</p>
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information">Qualifications</h2>
+<h2 class="bac"><a href="" title="Show information"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information"></a>Qualifications</h2>
 <div>
 <ul class="bac">
 	<li>Undergraduate degree in Accounting, Finance, Business Administration, Economics, Mathematics</li>
@@ -32,7 +32,7 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information">Training</h2>
+<h2 class="bac"><a href="" title="Show information"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information"></a>Training</h2>
 <div>
 <p class="bac">The GRMAP training curriculum is a multi&ndash;phased program that complements the hands&ndash;on experience the associates develop in their day&ndash;to&ndash;day assignment. The training curriculum includes both instructor led and web&ndash;based components.</p>
 <p class="bac nobr">The Curriculum Focus Includes:</p>
@@ -47,14 +47,14 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information">Locations</h2>
+<h2 class="bac"><a href="" title="Show information"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information"></a>Locations</h2>
 <div>
 <p class="bac">1<span style="font-size: 0.6em; position: relative; top: -0.6em;">st</span> Year rotations are in Charlotte, NC.</p>
 <p class="bac">2<span style="font-size: 0.6em; position: relative; top: -0.6em;">nd</span> Year rotations are based on business need and may include placements in Charlotte, NC, New York, NY, Boston, MA, Wilmington, DE, Calabasas, CA.</p>
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information">How to Apply</h2>
+<h2 class="bac"><a href="" title="Show information"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information"></a>How to Apply</h2>
 <div>
 <p class="bac"><% howToApply(program) %></p>
 </div></div>

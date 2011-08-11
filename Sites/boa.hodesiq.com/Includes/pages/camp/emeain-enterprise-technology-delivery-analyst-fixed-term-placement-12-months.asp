@@ -5,7 +5,7 @@
 <h1 class="bac"><%=program.Item("title")%></h1>
 
 <div class="expanded">
-<h2 class="bac"><img class="pclose" src="../images/clear.gif" alt="Hide information" title="Hide information">Our Business</h2>
+<h2 class="bac"><a href="" title="Hide information"><img class="pclose" src="../images/clear.gif" alt="Hide information" title="Hide information"></a>Our Business</h2>
 <div>
 <h3 class="bac">Summary</h3>
 <ul class="bac">
@@ -25,7 +25,7 @@ ET&#38;D teams include Infrastructure Engineering, Infrastructure Operations, En
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information">Overview</h2>
+<h2 class="bac"><a href="" title="Show information"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information"></a>Overview</h2>
 <div>
 <p class="bac">
 The 12&ndash;month fixed term placement scheme within this group is a precursor to the Enterprise Technology and Delivery Analyst Programme (ET&#38;D LDR). This programme is a Leadership Development Rotational Programme, designed to provide graduates with an opportunity to prepare for future leadership positions in the company&#39;s technology division.  
@@ -42,7 +42,7 @@ The 12&ndash;month fixed term placement scheme within this group is a precursor 
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information">Qualifications</h2>
+<h2 class="bac"><a href="" title="Show information"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information"></a>Qualifications</h2>
 <div>
 <p class="bac">
 As well as being conversant with the Microsoft Suite and other basic applications, such as Outlook, your technical skills should include knowledge of several of the following: UNIX, Windows NT/2000, network architecture, databases, desktop and server hardware, information security concepts and technologies. A strong drive for results, a sense of urgency and financial industry knowledge will be important.
@@ -53,7 +53,7 @@ Underlying all this, you must be dedicated to a career in banking technology. In
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information">Training</h2>
+<h2 class="bac"><a href="" title="Show information"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information"></a>Training</h2>
 <div>
 <p class="bac">
 The best opportunity to learn about working life at the company is to experience it first&ndash;hand through our 12&ndash;month placement programme, which will involve two 6&ndash;month rotations. You&#39;ll benefit from the various components of the scheme for your first nine weeks, as well as being part of one of our core ET&#38;D groups. Working on real tasks, problems, issues or projects alongside our technologists, you can expect a unique learning opportunity and exposure to life at a leading investment bank. 
@@ -73,7 +73,7 @@ If you perform well during your time, you may go back to university with a job o
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information">Locations</h2>
+<h2 class="bac"><a href="" title="Show information"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information"></a>Locations</h2>
 <div>
 <p class="bac">
 Opportunities in London, Camberley, Croydon and Chester (all UK)
@@ -81,7 +81,7 @@ Opportunities in London, Camberley, Croydon and Chester (all UK)
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information">How to Apply</h2>
+<h2 class="bac"><a href="" title="Show information"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information"></a>How to Apply</h2>
 <div>
 <p class="bac"><% howToApply(program) %></p>
 </div></div>

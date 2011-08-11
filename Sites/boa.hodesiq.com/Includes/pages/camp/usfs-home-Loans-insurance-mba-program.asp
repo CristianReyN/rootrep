@@ -5,13 +5,13 @@
 <h1 class="bac"><%=program.Item("title")%></h1>
 
 <div class="expanded">
-<h2 class="bac"><img class="pclose" src="../images/clear.gif" alt="Hide information" title="Hide information">Our Business</h2>
+<h2 class="bac"><a href="" title="Hide information"><img class="pclose" src="../images/clear.gif" alt="Hide information" title="Hide information"></a>Our Business</h2>
 <div>
 <p class="bac">Bank&nbsp;of&nbsp;America&#39;s commitment to the mortgage industry is focused on continuous growth, increased teamwork, and excellent customer service. As the nation&#39;s largest mortgage lender and loan servicer, and the world&#39;s most trusted lender, Bank&nbsp;of&nbsp;America Home Loans embraces a commitment to responsible home lending. Our every action is focused on Bringing Opportunity Home for those we serve, assisting new and existing customers in achieving their dreams of home ownership and preservation.</p>
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information">Overview</h2>
+<h2 class="bac"><a href="" title="Show information"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information"></a>Overview</h2>
 <div>
 <p class="bac">Bank&nbsp;of&nbsp;America is investing in high-caliber talent to expand the bank&#39;s cadre of leaders. The program seeks to develop leaders with knowledge and skills of the mortgage business at Bank&nbsp;of&nbsp;America by creating opportunities to learn multiple disciplines through rotations that build upon one another. The program will also strengthen leadership skills and attributes that are applicable across the corporation.</p>
 <p class="bac nobr">The program includes:</p>
@@ -33,7 +33,7 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information">Qualifications</h2>
+<h2 class="bac"><a href="" title="Show information"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information"></a>Qualifications</h2>
 <div>
 <ul class="bac">
 	<li>MBA in Strategic Management, Accounting, Finance, Business Administration, Economics or related discipline</li>
@@ -48,13 +48,13 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information">Training</h2>
+<h2 class="bac"><a href="" title="Show information"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information"></a>Training</h2>
 <div>
 <p class="bac">Associates will participate in a formal Orientation and Education program to learn more about Bank&nbsp;of&nbsp;America, the culture and values, as well as to network with Executives and other campus hires. Additionally, associates will participate in various networking and learning opportunities throughout the duration of the program.</p>
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information">Locations</h2>
+<h2 class="bac"><a href="" title="Show information"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information"></a>Locations</h2>
 <div>
 <p class="bac">Calabasas, CA (Los Angeles area)</p>
 <p class="bac">Plano, TX (Dallas area)</p>
@@ -62,13 +62,13 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information">How to Apply</h2>
+<h2 class="bac"><a href="" title="Show information"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information"></a>How to Apply</h2>
 <div>
 <p class="bac"><% howToApply(program) %></p>
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information"><span style="color: #D40019;">Rotation Example #1:</span> Origination Credit Policy</h2>
+<h2 class="bac"><a href="" title="Show information"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information"></a><span style="color: #D40019;">Rotation Example #1:</span> Origination Credit Policy</h2>
 <div>
 <h3 class="bac">Group Description</h3>
 <p class="bac nobr">Origination Credit Policy, an integral part of the Credit Origination Strategies group, helps fulfill the corporate mission of managing credit risk while offering world-class first mortgage products that benefit both the customer and Bank&nbsp;of&nbsp;America. Origination Credit Policy team members are loan program and policy experts in first mortgage credit policy. The organization is responsible for the following:</p>
@@ -95,7 +95,7 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information"><span style="color: #D40019;">Rotation Example #2:</span> Loss Forecasting</h2>
+<h2 class="bac"><a href="" title="Show information"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information"></a><span style="color: #D40019;">Rotation Example #2:</span> Loss Forecasting</h2>
 <div>
 <h3 class="bac">Group Description</h3>
 <p class="bac">Loss Forecasting is responsible for estimating future net credit losses of the First Mortgage Held for Investment Portfolio. The Loss Forecast is used to estimate Bank&nbsp;of&nbsp;America&#39;s Allowance for Loan, Lease Losses. The department is also responsible for projecting future net credit losses under the Enterprise Stress Test. Loss Forecasting leverages financial models to estimate future net credit losses.</p>

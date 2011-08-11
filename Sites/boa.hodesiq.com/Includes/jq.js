@@ -1,13 +1,16 @@
 jQuery(document).ready(function(){
 	$('.prg h2.bac').each(function(index) {
 		//var arr = $('<img class="'+(index==0?'pclose':'popen')+'" src="../images/clear.gif">').prependTo($(this));
-		var sibling_div = $(this).siblings('div'), arr = $('.prg h2.bac:eq('+index+') img');
-		arr.click(function() {
+		var sibling_div = $(this).siblings('div'), a = $('.prg h2.bac:eq('+index+') a'), arr = $('.prg h2.bac:eq('+index+') img');
+		a.click(function() {
 			sibling_div.slideToggle('slow', function() {
 				arr.toggleClass("pclose popen");
 				if(arr.hasClass('pclose')) { arr.attr('alt','Hide information'); arr.attr('title','Hide information'); }
 				else if(arr.hasClass('popen')) { arr.attr('alt','Show information'); arr.attr('title','Show information'); }
+				if(a.attr('title')=='Show information') { a.attr('title','Hide information'); }
+				else if(a.attr('title')=='Hide information') { a.attr('title','Show information'); }
 			});
+			return false;
 		});
 		if(index == 0)
 		{
@@ -53,9 +56,27 @@ jQuery(document).ready(function(){
 		$('#modal-dialog').modal({
 			opacity: 50,
 			position: ['99', '160'],
+			focus: true,
+			overlayClose: true,
+			modal: false,
 			onShow: function() {
 				var iframe = $('#imodal').get(0);
 				if (iframe) iframe.src = iframe.getAttribute('videosrc');
+				if(document.all)
+				{
+					$('a.haf').each(function(index) {
+						var arr = $('<div class="adiv"><div class="rdiv"></div></div>').prependTo($('a.haf:eq('+index+') div'));
+						$('a.haf:eq('+index+') div.rdiv').width($('a.haf:eq('+index+') div.adiv').siblings('img').get(0).width+4);
+						$('a.haf:eq('+index+') div.rdiv').height($('a.haf:eq('+index+') div.adiv').siblings('img').get(0).height+4);
+						$(this).focus(function() {
+							$('a.haf:eq('+index+') div.rdiv').addClass('rhdiv');
+						});
+						$(this).blur(function() {
+							$('a.haf:eq('+index+') div.rdiv').removeClass('rhdiv');
+						});
+					});
+				}
+				iframe.focus();
 			}
 		});
 		return false;
