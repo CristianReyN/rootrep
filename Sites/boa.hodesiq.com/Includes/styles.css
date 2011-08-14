@@ -1674,6 +1674,20 @@ div.cmpr div.it
 {
 	background: url(../images/buttons/iTwitter.gif) no-repeat top left;
 }
+div.cmpr div.ss
+{
+	padding: 2px 0px 0px 0px;
+}
+div.cmpr div.ss img
+{
+	vertical-align: middle;
+	margin : 0px 6px 0px 0px;
+}
+div.cmpr div.ss span
+{
+	vertical-align: middle;
+	padding: 2px 0px 0px 0px;
+}
 div.cmpr div.rnw a,
 div.cmpr div.rnw a:link,
 div.cmpr div.rnw a:active,

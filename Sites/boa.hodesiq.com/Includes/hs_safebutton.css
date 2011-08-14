@@ -16,9 +16,9 @@ a.ffx-btn, a.ffx-btn-over
 	width: auto;
 	padding: 2px 4px 2px 4px;
 	background: #366496;
-	border-top: 2px solid #CBE3FF;
-	border-right: 0px solid #003366;
-	border-bottom: 0px solid #003366;
+	border-top: 1px solid #CBE3FF;
+	border-right: 1px solid #003366;
+	border-bottom: 1px solid #003366;
 	border-left:1px solid #B7CFEB;
 }
 a.ffx-btn:hover, a.ffx-btn-over
@@ -46,7 +46,6 @@ a.saf-btn, a.saf-btn-over
 	color: #ffffff;
 	background: #366496;
 	border-color: #CBE3FF #003366 #003366 #B7CFEB;
-	border-width: 3px 0px 1px;
 	width: 100%;
 	padding: 3px 6px 3px 5px;
 }
@@ -58,12 +57,12 @@ a.saf-btn, a.saf-btn-over
 {
 	font-size: 0.84em;
 	text-decoration: none;
-	padding: 2px 3px 4px;
-	border-top: 3px solid #CBE3FF;
-	border-right: 0px solid #003366;
+	padding: 2px 4px 2px 4px;
+	border-top: 1px solid #CBE3FF;
+	border-right: 1px solid #003366;
 	border-bottom: 1px solid #003366;
 	border-left:1px solid #B7CFEB;
-   	line-height: 120%;
+	line-height: 120%;
 }
 a.saf-btn:hover, a.saf-btn-over
 {

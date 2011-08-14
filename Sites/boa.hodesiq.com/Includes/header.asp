@@ -219,11 +219,11 @@ End If
 										<td width="100%" style="padding: 0px;">
 <input type="text" maxlength="75" class="searchbox" style="width: 100%;" id="question_box" name="question_box" value="" alt="Question or phrase to search." title="Get answers fast. Type in a question or phrase."></td>
 										<td width="10"><img src="../images/clear.gif" width="10" height="0" alt="" border="0" /></td>
-										<td width="60" valign="top" nowrap>
+										<td width="60" valign="top" nowrap><div id="search-button"></div>
 <script src="../Includes/hs_safebutton.js" language="JavaScript" type="text/javascript"></script>
 <script language="JavaScript" type="text/javascript">
 <!--
-create_safebutton("Search","javascript: submit_search();",0,0,0,0,"Search");
+create_safebutton("Search","javascript: submit_search();",0,0,0,0,"Search", 'search-button');
 //-->
 </script>
 <noscript><input name="Search" alt="Search" value="Search" title="Search" type="Submit"  class="btn"/></noscript>

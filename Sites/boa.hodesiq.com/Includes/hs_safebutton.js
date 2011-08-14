@@ -1,7 +1,7 @@
 
 function bt_rollover(ref, classRef) { eval(ref).className = classRef; }
 
-function create_safebutton(text, href, onclick_evt, onmouseover_evt, onmouseout_evt, tabindex, title) {
+function create_safebutton(text, href, onclick_evt, onmouseover_evt, onmouseout_evt, tabindex, title, _container) {
 	
 	var cssType = "";
 	var textexpanded = text + "&nbsp;&nbsp;";
@@ -23,12 +23,10 @@ function create_safebutton(text, href, onclick_evt, onmouseover_evt, onmouseout_
 	//detecting newer Netscapes
 	else if (navigator.appName == "Netscape" && document.all && navigator.userAgent.indexOf("Opera") < 0){cssType = "ns6"}
 	
-	
 	//else if (document.getElementById){cssType = "saf"; text = textexpanded;}
 	
 	//detecting older Netscapes
 	else if (!document.all){cssType = "saf"}
-	
 	
 	
 	t = "<table cellpadding=\"0\" cellspacing=\"0\" border=\"0\" summary=\"\"><tr><td class=\"whitebg\"><div class=\"" + cssType + "-btn\"><a href=\"" + href + "\" class=\"" + cssType + "-btn\"" 
@@ -41,7 +39,11 @@ function create_safebutton(text, href, onclick_evt, onmouseover_evt, onmouseout_
 	  if (title) { t = t + " title=\"" + title + "\""; }
 	  t = t + ">" + text + "<\/a><\/div><\/td><\/tr><\/table>";
  	
- 	
- 	document.write(t);
+	if ( _container && _container != '' )
+	{
+		if (jQuery) jQuery('#'+_container).html(t);
+		else document.getElementById(_container).innerHTML = t;
+	}
+ 	else document.write(t);
 	
 }

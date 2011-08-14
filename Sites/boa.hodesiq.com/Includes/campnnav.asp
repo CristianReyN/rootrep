@@ -11,7 +11,10 @@
 			
 			<div class="rnw"><div class="rnt"><div class="rnb"><div class="inner">
 				<h2>Share this page:</h2>
-				<div class="iwrap in"><a href="" class="in">LinkedIn</a></div>
-				<div class="iwrap if"><a href="">Facebook</a></div>
-				<div class="iwrap it"><a href="">Twitter</a></div>
+				<div class="iwrap ss" id="testlin"><script language="javascript" type="text/javascript"><!-- 
+var socialSite = "3", useDescriptor = 1;  //--></script><script type="text/javascript" src="https://utility.bankofamerica.com/uet/social_share.js"></script></div>
+				<div class="iwrap ss" id="testlin"><script language="javascript" type="text/javascript"><!-- 
+var socialSite = "1", useDescriptor = 1;  //--></script><script type="text/javascript" src="https://utility.bankofamerica.com/uet/social_share.js"></script></div>
+				<div class="iwrap ss" id="testlin"><script language="javascript" type="text/javascript"><!-- 
+var socialSite = "2", useDescriptor = 1;  //--></script><script type="text/javascript" src="https://utility.bankofamerica.com/uet/social_share.js"></script></div>
 			</div></div></div></div>
