@@ -1,9 +1,5 @@
 ﻿<%@ Page Language="C#" ValidateRequest="false" AutoEventWireup="true" CodeFile="campus-find-your-fit.aspx.cs" Inherits="campus_find_your_fit" MasterPageFile="~/BOAmaster.master" %>
-
-
 <asp:Content ID="Content1" ContentPlaceHolderID="cphmain" Runat="Server">
-
-
 <!-- Body-->
 
     <script language="javascript" type="text/javascript">
@@ -111,18 +107,18 @@ html>/**/body .find-your-fit-container2 {height:697px !important;width:577px;pos
     <table border="0" cellpadding="0" cellspacing="0" summary="" width="578" style="height: 770px;">
         <tr valign="top">
             <td width="100%" valign="top" id="Headline">
-    
+                <div id="Headerline">
+                    <h1>Find Your Fit</h1>
+                    <p>As one of the world's largest financial services companies, we offer unparalleled access to career opportunities across the globe. 
+                    Your challenge is to find where you best fit within our team. Our career fit tool is designed to help you match your interests, 
+                    background and career goals with our offerings. Give it a try. You might be surprised to discover how far you can go here.</p>
+                </div>
+
 				<!-- space for content -->
 				
 	                <asp:HiddenField runat="server" ID="ISSubmited" Value=0 />
 	                <asp:HiddenField runat="server" ID="ISValid" Value=0 />
                     <asp:Panel ID="CPHPanel1"  runat="server">
-                            <div id="Headerline">
-                                <h1>Find Your Fit</h1>
-                                <p>As one of the world's largest financial services companies, we offer unparalleled access to career opportunities across the globe. 
-                                Your challenge is to find where you best fit within our team. Our career fit tool is designed to help you match your interests, 
-                                background and career goals with our offerings. Give it a try. You might be surprised to discover how far you can go here.</p>
-                            </div>
                             <div id="step1" class="find-your-fit-container">
                             <div id="Hedliner1" class="MainHeadliner"> 
                                 <img src="images/campus/header-step1.jpg" />
@@ -205,7 +201,7 @@ html>/**/body .find-your-fit-container2 {height:697px !important;width:577px;pos
                                         <asp:ListItem value="13">Computer science</asp:ListItem>
                                         <asp:ListItem value="14">Engineering</asp:ListItem>
                                         <asp:ListItem value="15">Marketing</asp:ListItem>
-                                        <asp:ListItem value="16"> Communications</asp:ListItem>
+                                        <asp:ListItem value="16">Communications</asp:ListItem>
                                         <asp:ListItem value="17">Human resources</asp:ListItem>
                                         <asp:ListItem value="18">Real estate</asp:ListItem>
 							        </asp:DropDownList>
@@ -304,7 +300,7 @@ html>/**/body .find-your-fit-container2 {height:697px !important;width:577px;pos
                             <div id="fyf-responsiblities" class="fyf-responsibilities">                       
                                 <span class="fyf-titles">&nbsp;&nbsp;I would like a job where I am responsible for:<br /><span style="font-weight:normal;"> (select up to two) </span></span><br />                                      
                                     <asp:CheckBoxList ID="sel_responsible_options" AutoPostBack="true" CssClass="CheckBoxTester" runat="server" style="margin-left:20px;" CellPadding="0" CellSpacing="0" RepeatDirection="Horizontal" RepeatColumns="2" Width="380px">
-                                    <asp:ListItem ID="ckb_responsoptions_1" name="ckb_responsoptions_1" runat="server"  Text="Analyzing date,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;forecasting trends" OnClick="JavaScript:sel_responsible_options(1,'ckb_responsoptions_1');" Selected="False"  />
+                                    <asp:ListItem ID="ckb_responsoptions_1" name="ckb_responsoptions_1" runat="server"  Text="Analyzing data,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;forecasting trends" OnClick="JavaScript:sel_responsible_options(1,'ckb_responsoptions_1');" Selected="False"  />
                                     <asp:ListItem ID="ckb_responsoptions_2" name="ckb_responsoptions_2" runat="server" Text="Devising modeling<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;and measuring<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;techniques" OnClick="JavaScript:sel_responsible_options(2,'ckb_responsoptions_2');" Selected="False"  />
                                     <asp:ListItem ID="ckb_responsoptions_3" name="ckb_responsoptions_3" runat="server" Text="Serving clients" OnClick="JavaScript:sel_responsible_options(3,'ckb_responsoptions_3');" Selected="False"  />
                                     <asp:ListItem ID="ckb_responsoptions_4" name="ckb_responsoptions_4" runat="server" Text="Problem solving" OnClick="JavaScript:sel_responsible_options(4,'ckb_responsoptions_4');"  Selected="False" />
