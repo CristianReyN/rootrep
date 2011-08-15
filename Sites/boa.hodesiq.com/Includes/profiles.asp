@@ -298,12 +298,7 @@ Function profile (program)
 <%
 	ElseIf InArray(program.Item("url"), Array( _
 			"asiafn-global-wealth-investment-management-analyst-program.asp", _
-			"asiain-global-wealth-investment-management-summer-analyst-program.asp" _
-		)) Then
-%>
-<img src="../Includes/pages/camp/profile/logo-MLWM.jpg" width="180" height="134" alt="Merrill Lynch Wealth Management" border="0" style="margin: 0px 0px 12px 0px;">
-<%
-	ElseIf InArray(program.Item("url"), Array( _
+			"asiain-global-wealth-investment-management-summer-analyst-program.asp", _
 			"usin-wealth-management-branch-office-internship.asp" _
 		)) Then
 %>
