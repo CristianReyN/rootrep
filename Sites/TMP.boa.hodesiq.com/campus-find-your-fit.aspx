@@ -12,7 +12,23 @@
     </script>
 
     <style type="text/css">
-    
+   SELECT {width:300px;} 
+   
+   .find-your-fit {
+	width: 600px;
+	background: url(images/campus/bkg-findyourfit-content.jpg) top left no-repeat;
+	margin-top: 8px;
+	margin-left:1px;
+	margin-right: 20px;
+	background-color: transparent;
+    color: #333333;
+    font-family: Verdana,Helvetica,sans-serif;
+    font-size: 0.9em !Important;
+    font-weight: normal;
+    line-height: 1.3em;
+    height:163px;
+	}
+
 .find-your-fit-container2 {
     margin: 15px 0 40px 0;
     background: url(images/campus/bkg-findyourfit-formresult.jpg) left bottom no-repeat;
@@ -68,7 +84,8 @@ html>/**/body .find-your-fit-container2 {height:697px !important;width:577px;pos
             float:left; 
             height:135px;
             margin-bottom:20px;
-        }
+            
+         }
         .fyf-interests
         {
             /* border:solid 1px black; */
@@ -107,11 +124,13 @@ html>/**/body .find-your-fit-container2 {height:697px !important;width:577px;pos
     <table border="0" cellpadding="0" cellspacing="0" summary="" width="578" style="height: 770px;">
         <tr valign="top">
             <td width="100%" valign="top" id="Headline">
-                <div id="Headerline">
+                <div id="Headerline" class="find-your-fit">
+                <span  style="width:500px; margin-left:20px;">
                     <h1>Find Your Fit</h1>
-                    <p>As one of the world's largest financial services companies, we offer unparalleled access to career opportunities across the globe. 
-                    Your challenge is to find where you best fit within our team. Our career fit tool is designed to help you match your interests, 
-                    background and career goals with our offerings. Give it a try. You might be surprised to discover how far you can go here.</p>
+                    <p>As one of the world's largest financial services companies, we offer unparalleled access 
+                    to career opportunities across the globe. Your challenge is to find where you best fit within our team. 
+                    Our career fit tool is designed to help you match your interests, background and career goals with our offerings. 
+                    Give it a try. You might be surprised to discover how far you can go here.</p></span>
                 </div>
 
 				<!-- space for content -->
@@ -160,7 +179,7 @@ html>/**/body .find-your-fit-container2 {height:697px !important;width:577px;pos
                                             <asp:ListItem value="5">Law</asp:ListItem>
                                             <asp:ListItem value="6">None of the above</asp:ListItem>
                                         </asp:DropDownList></p>                            
-                                     <label for="sel_degree1" id="lbl_degree">I will/have earn(ed) my degree in (my area of concentration is):<br /> 
+                                     <label for="sel_degree1" id="lbl_degree">I will/have earn(ed) my degree in (my area <br />of concentration is):
                                      <span style="font-weight:normal;">(select up to three)</span> </label>
 							        <p style="margin-left:200px;"><asp:DropDownList id="sel_degree1"  runat="server" name="sel_degree1" OnSelectedIndexChanged="sel_degree1_SelectedIndexChanged">
 								        <asp:ListItem value="0">Please select degree/area of concentration</asp:ListItem>
@@ -230,7 +249,7 @@ html>/**/body .find-your-fit-container2 {height:697px !important;width:577px;pos
                                     <label for="sel_environment" id="lbl_environment">My preferred work environment is:</label><br /><p>
 							        <asp:DropDownList id="sel_environment"  runat="server" name="sel_environment">
 								        <asp:ListItem value="0">Please select one</asp:ListItem>
-								        <asp:ListItem value="1">Working with internal teams to optimize performance</asp:ListItem>
+								        <asp:ListItem value="1">Building relationships with external customers</asp:ListItem>
 								        <asp:ListItem value="2">Accounting/financial certifications/securities trading</asp:ListItem>
 							        </asp:DropDownList>
                                     </p>
@@ -269,7 +288,8 @@ html>/**/body .find-your-fit-container2 {height:697px !important;width:577px;pos
                         <div id="div6" class="FirstSetaspDropDownLists">
                        <div style="float:left; clear:left;margin-left:5px;"><img src="images/campus/bkg-left_second.jpg" /></div>          
                             <div id="fyf-interests" class="fyf-interests">                            
-                                <span class="fyf-titles">&nbsp;&nbsp;My primary area of interest is: <br /><span style="font-weight:normal;">(choose all that apply) </span></span><br />
+                                <span class="fyf-titles">&nbsp;&nbsp;My primary area of interest is: <br />
+                                <span style="font-weight:normal;">(choose all that apply) </span></span><br />
                                 <asp:CheckBoxList ID="ckb_interestoptions" runat="server"  style="margin-left:20px;" CellPadding="0" CellSpacing="0" Height="135px" RepeatDirection="Horizontal" RepeatColumns="2" Width="380px">
                                     <asp:ListItem ID="ckb_interestoptions_1" runat="server" Text="Risk and audit" />
                                     <asp:ListItem ID="ckb_interestoptions_2" runat="server" Text="Finance" />
@@ -290,15 +310,15 @@ html>/**/body .find-your-fit-container2 {height:697px !important;width:577px;pos
                                 vertical-align:top;
                                 font-weight:normal !important;
                             }
-                            LABEL {
-                                    color: silver;
+                            LABEL { font-size:1em;
+                                    color: gray;
                                     margin-left: 5px;
-                                    margin-top: -10px;
-                                    vertical-align: top;
+                                    vertical-align:middle;
                                 }
                             </style>
                             <div id="fyf-responsiblities" class="fyf-responsibilities">                       
-                                <span class="fyf-titles">&nbsp;&nbsp;I would like a job where I am responsible for:<br /><span style="font-weight:normal;"> (select up to two) </span></span><br />                                      
+                                <span class="fyf-titles">&nbsp;&nbsp;I would like a job where I am responsible for:<br />
+                                <span style="font-weight:normal;"> (select up to two) </span></span><br />                                      
                                     <asp:CheckBoxList ID="sel_responsible_options" AutoPostBack="true" CssClass="CheckBoxTester" runat="server" style="margin-left:20px;" CellPadding="0" CellSpacing="0" RepeatDirection="Horizontal" RepeatColumns="2" Width="380px">
                                     <asp:ListItem ID="ckb_responsoptions_1" name="ckb_responsoptions_1" runat="server"  Text="Analyzing data,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;forecasting trends" OnClick="JavaScript:sel_responsible_options(1,'ckb_responsoptions_1');" Selected="False"  />
                                     <asp:ListItem ID="ckb_responsoptions_2" name="ckb_responsoptions_2" runat="server" Text="Devising modeling<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;and measuring<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;techniques" OnClick="JavaScript:sel_responsible_options(2,'ckb_responsoptions_2');" Selected="False"  />
@@ -316,7 +336,7 @@ html>/**/body .find-your-fit-container2 {height:697px !important;width:577px;pos
                                     <asp:ListItem ID="rdb_opportoptions_1" runat="server" Text="Helping individuals" />
                                     <asp:ListItem ID="rdb_opportoptions_2" runat="server" Text="Helping small<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;businesses/companies" />
                                     <asp:ListItem ID="rdb_opportoptions_3" runat="server" Text="Working with<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;new technology" />
-                                    <asp:ListItem ID="rdb_opportoptions_4" runat="server" Text="Shaping the <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;future of banking" />
+                                    <asp:ListItem ID="rdb_opportoptions_4" runat="server" Text="Shaping the<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;future of banking" />
                                     <asp:ListItem ID="rdb_opportoptions_5" runat="server" Text="Implementing<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;strategies<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;and procedures" />
                                 </asp:RadioButtonList>
                             </div>
