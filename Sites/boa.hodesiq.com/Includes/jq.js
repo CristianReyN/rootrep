@@ -99,6 +99,13 @@ jQuery(document).ready(function(){
 		
 		return false;
 	});
+	$('.modaldialog-close').click(function (e) {
+		$('#modal-dialog').dialog('close');
+		var iframe = $('#imodal').get(0);
+		if (iframe) iframe.src = 'video/empty.html';
+		return false;
+	});
+	
  });
  
  

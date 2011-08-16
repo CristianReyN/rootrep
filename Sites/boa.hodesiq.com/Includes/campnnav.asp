@@ -26,12 +26,10 @@
 		twitter_status_description = "#Job opportunity at Bank of America: " & program.Item("title")
 	End If
 %>
-			<div class="rnw"><div class="rnt"><div class="rnb"><div class="inner">
+			<script type="text/javascript" src="http://utility.bankofamerica.com/uet/social_share2.js"></script>
+			<div class="rnw"><div class="rnt"><div class="rnb"><div class="inner" id="showHTML">
 				<h2>Share this page:</h2>
-				<div class="iwrap ss"><script language="javascript" type="text/javascript"><!-- 
-var socialSite = "3", useDescriptor = 1, titleValue = '<%=linkedin_title %>', linkedinSummary = '<%=linkedin_summary %>';  //--></script><script type="text/javascript" src="https://utility.bankofamerica.com/uet/social_share.js"></script></div>
-				<div class="iwrap ss"><script language="javascript" type="text/javascript"><!-- 
-var socialSite = "1", useDescriptor = 1, titleValue = '<%=facebook_title %>';  //--></script><script type="text/javascript" src="https://utility.bankofamerica.com/uet/social_share.js"></script></div>
-				<div class="iwrap ss"><script language="javascript" type="text/javascript"><!-- 
-var socialSite = "2", useDescriptor = 1, titleValue = '<%=twitter_title %>', twitterStatusDescription = '<%=twitter_status_description %>';  //--></script><script type="text/javascript" src="https://utility.bankofamerica.com/uet/social_share.js"></script></div>
+				<div class="iwrap ss"> <script language="javascript" type="text/javascript">document.write(displayIcon("3","<%=linkedin_title %>","","","","","","","","<%=linkedin_summary %>","","<%=linkedin_title %>","1",""));</script></div>
+				<div class="iwrap ss"><script language="javascript" type="text/javascript">document.write(displayIcon("1","<%=facebook_title %>","","","","","","","","","","<%=facebook_title %>","1",""));</script></div>
+				<div class="iwrap ss"><script language="javascript" type="text/javascript">document.write(displayIcon("2","<%=twitter_title %>","","","","","","<%=twitter_status_description %>","","","","<%=twitter_title %>","1",""));</script></div>
 			</div></div></div></div>
