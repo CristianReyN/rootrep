@@ -22,12 +22,33 @@
 	margin-right: 20px;
 	background-color: transparent;
     color: #333333;
-    font-family: Verdana,Helvetica,sans-serif;
+    font-family: Verdana, Helvetica, Arial, sans-serif;
     font-size: 0.9em !Important;
     font-weight: normal;
     line-height: 1.3em;
     height:163px;
 	}
+	
+	.find-your-fit h1 {
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+	padding: 25px 0 5px 12px;
+	}
+	
+	.find-your-fit p {
+	margin: 0;
+	padding: 0;
+	font-size: 11px;
+	padding: 0 35px 10px 12px;
+	}
+	
+	.find-your-fit-container p {
+    padding: 0;
+    margin: 0;
+    padding: 5px 0 30px 0;
+	}
+	
 
 .find-your-fit-container2 {
     margin: 15px 0 40px 0;
@@ -101,7 +122,6 @@ html>/**/body .find-your-fit-container2 {height:697px !important;width:577px;pos
             position: relative;
             top: -10px;
             width: 340px;
-            text-align:center;
             font-size:12px;
             font-weight:bold;
         }   
@@ -115,22 +135,44 @@ html>/**/body .find-your-fit-container2 {height:697px !important;width:577px;pos
             float:right;
             width:355px;
         }
+        
+        table.CheckBoxTester td {
+        border: red 1px solid;
+        padding: 0;
+    
+        }
+        
+       table.CheckBoxTester td span,
+       table.CheckBoxTester td input,
+       table.CheckBoxTester td label {
+        margin: 0;
+        padding: 0;
+    
+        }
+        
+     
+       table.CheckBoxTester td input {
+       border: 1px blue solid;
+    
+        }
+        
+        
        
 
     </style>
 
-    <link rel="stylesheet" href="../includes/fitfinder_video.css"/>
+    <link href="Includes/fitfinder_video.css"/>
 	
     <table border="0" cellpadding="0" cellspacing="0" summary="" width="578" style="height: 770px;">
         <tr valign="top">
             <td width="100%" valign="top" id="Headline">
                 <div id="Headerline" class="find-your-fit">
-                <span  style="width:500px; margin-left:20px;">
+                
                     <h1>Find Your Fit</h1>
                     <p>As one of the world's largest financial services companies, we offer unparalleled access 
                     to career opportunities across the globe. Your challenge is to find where you best fit within our team. 
                     Our career fit tool is designed to help you match your interests, background and career goals with our offerings. 
-                    Give it a try. You might be surprised to discover how far you can go here.</p></span>
+                    Give it a try. You might be surprised to discover how far you can go here.</p>
                 </div>
 
 				<!-- space for content -->
@@ -154,8 +196,8 @@ html>/**/body .find-your-fit-container2 {height:697px !important;width:577px;pos
                                 </div>                            
                             <div id="Div10" style="height:1px; width:100%; clear:both; margin-bottom:1px;">&nbsp;</div>
                             <div style="float:left; clear:left; position:relative; top:10px;"><img src="images/campus/bkg-left_first.gif" /></div>                         
-						        <label for="sel_education" id="lbl_education" >I am a(n):</label><br />
-							        <p><asp:DropDownList id="ddlsel_education" class="fyf-education" name="sel_education" runat="server" Width="320px">
+						        <label for="sel_education" id="lbl_education" >I am a(n):</label>
+							        <p><asp:DropDownList id="ddlsel_education" class="fyf-education" name="sel_education" runat="server" Width="380px">
 							            <asp:ListItem Text="" Value="0" >Please select level of education</asp:ListItem>  
 								        <asp:ListItem value="1">Undergraduate student</asp:ListItem>
 								        <asp:ListItem value="2">Graduate student with 0–5 years of work experience</asp:ListItem>
