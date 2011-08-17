@@ -137,7 +137,7 @@ html>/**/body .find-your-fit-container2 {height:697px !important;width:577px;pos
         }
         
         table.CheckBoxTester td {
-        border: red 1px solid;
+       
         padding: 0;
     
         }
@@ -152,7 +152,7 @@ html>/**/body .find-your-fit-container2 {height:697px !important;width:577px;pos
         
      
        table.CheckBoxTester td input {
-       border: 1px blue solid;
+      
     
         }
         
