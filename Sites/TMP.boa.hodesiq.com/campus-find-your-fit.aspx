@@ -17,7 +17,7 @@
     } 
    
    .find-your-fit {
-	width: 600px;
+	width: 100% !important;
 	background: url(images/campus/bkg-findyourfit-content.jpg) top left no-repeat;
 	margin-top: 8px;
 	margin-left:1px;
@@ -51,19 +51,25 @@
     padding: 5px 0 30px 0;
 	}
 	
+	.MainHeadliner2 {
+	padding: 0;
+	margin: 0;
+	height: 92px;
+	}
 
     .find-your-fit-container2 {
-        margin: 0 0 40px 0;
-        background: url(images/campus/bkg-findyourfit-formresult.jpg) bottom left no-repeat;
-        height:692px !important;
-        margin-top:-20px;
-	}
+        padding: 0;
+        margin: 0;
+        margin: -2px 0 40px 0;
+        background: url(images/campus/bkg-findyourfit-form1.jpg) bottom left no-repeat;
+        
+        }
     
     .find-your-fit-container2 #results-container {
-	    width: 520px;
+	    width: 510px;
 	    margin: 0 0 0 30px;
-	    padding: 40px 0 20px 0;
-	    border: 1px red solid;
+	    padding: 20px 0 20px 0;
+	   
 	}
 
 	
@@ -80,7 +86,6 @@
 	}
 	
 	.results-container p {
-	margin-left: 10px;
 	padding: 0;
 	padding: 0 0 15px 150px;
 	/*width:400px !important;*/ /* edited for NET version. DO NOT CHANGE */
@@ -88,10 +93,16 @@
 	
 	.find-your-fit-container2 #results-container li a {
 	font-weight: bold;
+	text-decoration: none;
+	}
+	
+	.find-your-fit-container2 #results-container li a:hover {
+	text-decoration: underline;
 	}
 	
 	  #divResultData  {
-        border: 1px yellow solid;
+        background: url(images/campus/ico-results-page.jpg) top left no-repeat;
+       
       }
         
       #divResultData p a {
@@ -247,7 +258,7 @@
                     <asp:Panel ID="CPHPanel1"  runat="server">
                             <div id="step1" class="find-your-fit-container">
                             <div id="Hedliner1" class="MainHeadliner"> 
-                                <img src="images/campus/header-step1.jpg" />
+                                <img src="images/campus/header-step1.jpg" alt="Step 1 of three steps" />
                              </div>
                         <div id="div1" class="mainFirstStep">
                             <div id="spacertop" style="clear:both; padding:1px;"> </div>
@@ -277,14 +288,14 @@
 							        </asp:DropDownList>
                                     </p>
                                 <asp:label associatedcontrolid="sel_employOpportunity" id="lbl_employOpportunity" runat="server">I am interested in:</asp:label><br />    
-                                    <p><asp:DropDownList id="sel_employOpportunity"  runat="server" name="sel_employOpportunity">
+                                    <p><asp:DropDownList id="sel_employOpportunity"  runat="server" name="sel_employOpportunity" Width="380px">
                                         <asp:ListItem value="0">Please select level of employment opportunity</asp:ListItem>
                                         <asp:ListItem value="1">Full-time opportunities</asp:ListItem>
                                         <asp:ListItem value="2">Rotational opportunities </asp:ListItem>
                                         <asp:ListItem value="3">Internship opportunities</asp:ListItem>
                                     </asp:DropDownList></p>                            
                                 <asp:label associatedcontrolid="sel_coursework" id="lbl_coursework" runat="server">I am also interested in (or have completed) coursework in:</asp:label><br />    
-                                   <p> <asp:DropDownList id="sel_coursework"  runat="server" name="sel_coursework">
+                                   <p> <asp:DropDownList id="sel_coursework"  runat="server" name="sel_coursework" Width="380px">
                                             <asp:ListItem value="0">Please select one</asp:ListItem>
                                             <asp:ListItem value="1">Six Sigma methodology</asp:ListItem>
                                             <asp:ListItem value="2">Accounting/financial certifications/securities trading</asp:ListItem>
@@ -295,7 +306,7 @@
                                         </asp:DropDownList></p>                            
                                      <asp:label associatedcontrolid="sel_degree1" id="lbl_degree" runat="server">I will/have earn(ed) my degree in (my area <br />of concentration is):
                                      <span style="font-weight:normal;">(select up to three)</span> </asp:label>
-							        <p style="margin-left:200px;"><asp:DropDownList id="sel_degree1"  runat="server" name="sel_degree1" OnSelectedIndexChanged="sel_degree1_SelectedIndexChanged">
+							        <p style="margin-left:200px;"><asp:DropDownList id="sel_degree1"  runat="server" name="sel_degree1" Width="310px" OnSelectedIndexChanged="sel_degree1_SelectedIndexChanged">
 								        <asp:ListItem value="0">Please select degree/area of concentration</asp:ListItem>
 								        <asp:ListItem value="1">Finance</asp:ListItem>
                                         <asp:ListItem value="2">Accounting</asp:ListItem>
@@ -317,7 +328,7 @@
                                         <asp:ListItem value="18">Real estate</asp:ListItem>
 							        </asp:DropDownList>
                                     <br />
-                                    <asp:DropDownList id="sel_degree2"  runat="server" name="sel_degree2" OnSelectedIndexChanged="sel_degree2_SelectedIndexChanged">
+                                    <asp:DropDownList id="sel_degree2"  runat="server" name="sel_degree2" Width="310px" OnSelectedIndexChanged="sel_degree2_SelectedIndexChanged">
 								        <asp:ListItem value="0">Please select degree/area of concentration</asp:ListItem>
 								        <asp:ListItem value="1">Finance</asp:ListItem>
                                         <asp:ListItem value="2">Accounting</asp:ListItem>
@@ -339,7 +350,7 @@
                                         <asp:ListItem value="18">Real estate</asp:ListItem>
 							        </asp:DropDownList>
                                     <br />
-                                    <asp:DropDownList id="sel_degree3"  runat="server" name="sel_degree3" OnSelectedIndexChanged="sel_degree3_SelectedIndexChanged">
+                                    <asp:DropDownList id="sel_degree3"  runat="server" name="sel_degree3" Width="310px" OnSelectedIndexChanged="sel_degree3_SelectedIndexChanged">
 								        <asp:ListItem value="0">Please select degree/area of concentration</asp:ListItem>
 								        <asp:ListItem value="1">Finance</asp:ListItem>
                                         <asp:ListItem value="2">Accounting</asp:ListItem>
@@ -361,14 +372,14 @@
                                         <asp:ListItem value="18">Real estate</asp:ListItem>
 							        </asp:DropDownList><br></p>
                                     <asp:label associatedcontrolid="sel_environment" id="lbl_environment" runat="server">My preferred work environment is:</asp:label><br /><p>
-							        <asp:DropDownList id="sel_environment"  runat="server" name="sel_environment">
+							        <asp:DropDownList id="sel_environment"  runat="server" name="sel_environment" Width="380px">
 								        <asp:ListItem value="0">Please select one</asp:ListItem>
 								        <asp:ListItem value="1">Working with internal teams to optimize performance</asp:ListItem>
 								        <asp:ListItem value="2">Building relationships with external customers (audiences)</asp:ListItem>
 							        </asp:DropDownList>
                                     </p>
                                     <asp:label associatedcontrolid="sel_geographic" id="lbl_geographic" runat="server">I prefer to work in the following area:</asp:label><br /><p>
-							        <asp:DropDownList id="sel_geographic"  runat="server" name="sel_geographic">
+							        <asp:DropDownList id="sel_geographic"  runat="server" name="sel_geographic" Width="380px">
 								        <asp:ListItem value="0">Please select one</asp:ListItem>
 								        <asp:ListItem value="1">Southeast U.S.</asp:ListItem>
 								        <asp:ListItem value="2">Northeast U.S.</asp:ListItem>
@@ -389,7 +400,7 @@
                     </asp:Panel>
                     <asp:Panel ID="CPHPanel2" Visible="false" runat="server">
                         <div id="Div3" class="MainHeadliner"> 
-                            <img src="images/campus/header-step2.jpg" />
+                            <img src="images/campus/header-step2.jpg" alt="Step 2 of three steps" />
                          </div>
                         <div id="div4" class="mainSecondStep">
                         <div id="Div5" style="clear:both; padding:1px; width:370px;">&nbsp; </div>
@@ -473,7 +484,7 @@
                     <asp:Panel ID="CPHPanel3" Visible="false" runat="server">                    
                                            
                         <div id="Div7" class="MainHeadliner2" style="margin-top:20px;"> 
-                            <img src="images/campus/header-results.jpg" />
+                            <img src="images/campus/header-results.jpg" alt="Results of the three steps" />
                         </div>
                         <div id="results">     
                         <div id="div8" class="find-your-fit-container2" style="margin-left: 0 !important;">  
@@ -506,7 +517,7 @@
 								     You can also <a href="#">bookmark</a> your results after each attempt for later reference.
 							    
                                         <p class="btn-tryagain">
-                                        <asp:ImageButton ID="btnBack" runat="server" ImageUrl="images/campus/btnStartOver.jpg" OnClick="btnBack_Click" /></p>
+                                        <asp:ImageButton ID="btnBack" runat="server" ImageUrl="images/campus/btnTryAgain.jpg" OnClick="btnBack_Click" /></p>
                                     </div>
 							    </div><!--.results-container -->
                             </div>
