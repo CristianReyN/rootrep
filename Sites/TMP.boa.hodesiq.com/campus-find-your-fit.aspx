@@ -52,33 +52,26 @@
 	}
 	
 
-.find-your-fit-container2 {
-    margin: 0 0 40px 0;
-    background: url(images/campus/bkg-findyourfit-formresult.jpg) bottom left no-repeat;
-    height:692px !important;
-    margin-top:-20px;
-    
+    .find-your-fit-container2 {
+        margin: 0 0 40px 0;
+        background: url(images/campus/bkg-findyourfit-formresult.jpg) bottom left no-repeat;
+        height:692px !important;
+        margin-top:-20px;
 	}
     
     .find-your-fit-container2 #results-container {
-	padding: 20px 20px 0 160px;
-	background: url(../images/campus/ico-results-page.jpg) 20px 20px no-repeat;
-	margin-top: -3px;
+	    width: 520px;
+	    margin: 0 0 0 30px;
+	    padding: 40px 0 20px 0;
+	    border: 1px red solid;
 	}
+
 	
-	
-	
-	.find-your-fit-container2 #results-container p {
-	margin-left: 10px;
-	padding: 0;
-	padding-bottom: 15px;
-	}
-	
-	#results-container ul {
+	.find-your-fit-container2 #results-container ul {
 	margin-left: 20px; /*edited for NET version. Do not change!!*/
 	padding: 0;
 	list-style: none;
-	padding: 25px 0 25px 0;
+	padding: 25px 0 25px 150px;
 	list-style-image: none !important;
 	}
 	
@@ -89,12 +82,26 @@
 	.results-container p {
 	margin-left: 10px;
 	padding: 0;
-	padding-bottom: 15px;
-	width:400px !important; /* edited for NET version. DO NOT CHANGE */
+	padding: 0 0 15px 150px;
+	/*width:400px !important;*/ /* edited for NET version. DO NOT CHANGE */
 	}
+	
 	.find-your-fit-container2 #results-container li a {
 	font-weight: bold;
 	}
+	
+	  #divResultData  {
+        border: 1px yellow solid;
+      }
+        
+      #divResultData p a {
+        text-decoration: none;
+      }
+      
+       #divResultData p a:hover {
+       text-decoration: underline;
+      }
+     
     
         .find-your-fit-container
         {        
@@ -103,25 +110,21 @@
         }
         .mainFirstStep
         {
-            background:url(images/campus/bkg-findyourfit-form1.jpg) top no-repeat;
+            background:url(images/campus/bkg-findyourfit-form1.jpg) bottom left no-repeat;
             width:577px;
-            height:835px;
             float: left;
             margin-top:-8px;
         }
-        .mainSecondStep
-        {
-            background:url(images/campus/bkg-findyourfit-form1.jpg) top no-repeat;
+        .mainSecondStep {
+            background:url(images/campus/bkg-findyourfit-form1.jpg) bottom left no-repeat;
             width:577px;
-            height:835px;
             float: left;
             margin-top:-8px;
+            padding-bottom: 30px;
         }
 
-        .FirstSetaspDropDownLists
-        {
+        .FirstSetaspDropDownLists {
             width:560px;
-            height:550px;
             margin-left:12px;
             float: left;
             margin-top: 20px;
@@ -129,7 +132,6 @@
 
        
         .fyf-responsibilities {
-            
             width: 400px ! important;
             float:left; 
             padding-bottom: 20px;
@@ -172,12 +174,13 @@
 	    .errormsg-top p {
 	        margin: 0;
 	        padding: 0;
+	        color: ed1b2e;
 	    }
     	
 	    .errormsg-top ul {
 	        margin: 0;
 	        padding: 0;
-	        padding: 8px 0 10px 25px;
+	        padding: 8px 30px 10px 25px;
 	    }
 	    
 	    .errormsg-top ul li{
@@ -218,14 +221,7 @@
             font-size: 10px;
         }
         
-      #divResultData p a {
-        text-decoration: none;
-      }
-      
-       #divResultData p a:hover {
-       text-decoration: underline;
-      }
-     
+       
       
     </style>
 
@@ -397,12 +393,20 @@
                          </div>
                         <div id="div4" class="mainSecondStep">
                         <div id="Div5" style="clear:both; padding:1px; width:370px;">&nbsp; </div>
+                        
                         <div id="ErrorReport" style="margin-left:30px;">
                             <asp:Panel runat="server" ID="pnlErrors" Visible="false"  class="ErrorPanel">
-                                <p><img src="images/campus/sign_attention.gif" style="float:left; margin:0 10px 0 10px;" />                                    
-                                    <div id=Message2 style="width:300px;float:right; color:Red;">Some information is missing:<br /><ul></ul><%=str_errors1 %></ul></div>                                                                 
+                                                                 
+                                    <div id=Message2 class="errormsg-top">
+                                        <div class="errormsg-bottom">
+                                            <p>Some information is missing:</p>
+                                            <ul><%=str_errors1 %></ul>
+                                        </div>    
+                                    </div>                                                                 
                             </asp:Panel>
                             </div>
+                            
+                            
                         <div id="div6" class="FirstSetaspDropDownLists">
                        <div style="float:left; clear:left;margin-left:5px;"><img src="images/campus/bkg-left_second.jpg" /></div>          
                             <div id="fyf-interests" class="fyf-interests">                            
@@ -473,9 +477,9 @@
                         </div>
                         <div id="results">     
                         <div id="div8" class="find-your-fit-container2" style="margin-left: 0 !important;">  
-                                <div id="empty" style="width:145px; float:left; padding:0;margin:0;"></div>
+                                
 							    <div id="results-container" class="results-container">   
-							    <div id="divResultData">							        
+							            <div id="divResultData">							        
                                         
                                         <p>Based on your answers, you may find one of the following areas to be the best fit for you:</p>
                                        
@@ -501,10 +505,10 @@
 								     <p>Feel free to change your answers and try the <a href="campus-find-your-fit.aspx">Find Your Fit</a> tool again. 
 								     You can also <a href="#">bookmark</a> your results after each attempt for later reference.
 							    
-                                <p class="btn-tryagain">
-                                <asp:ImageButton ID="btnBack" runat="server" ImageUrl="images/campus/btnStartOver.jpg" OnClick="btnBack_Click" /></p>
-                                </div>
-							</div><!--.results-container -->
+                                        <p class="btn-tryagain">
+                                        <asp:ImageButton ID="btnBack" runat="server" ImageUrl="images/campus/btnStartOver.jpg" OnClick="btnBack_Click" /></p>
+                                    </div>
+							    </div><!--.results-container -->
                             </div>
                         </div>
 	                </asp:Panel>
