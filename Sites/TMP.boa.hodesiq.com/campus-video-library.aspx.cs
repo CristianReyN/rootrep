@@ -8,6 +8,7 @@ public partial class campus_video_library : System.Web.UI.Page
 {
     protected void Page_Load(object sender, EventArgs e)
     {
+        int int_how_many=0;
 
     }
 }
