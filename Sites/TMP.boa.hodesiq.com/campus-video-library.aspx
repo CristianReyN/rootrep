@@ -1,4 +1,4 @@
-<%@ Page Language="C#"  Title="Bank of America | Careers | Featured Videos" MasterPageFile="~/BOAmasterTest.master"%>
+<%@ Page Language="C#"  Title="Bank of America | Careers | Featured Videos" MasterPageFile="~/BOAmaster.master"%>
 
 <asp:content id="Content1" contentplaceholderid="cphmain" runat="server">
 
@@ -18,7 +18,7 @@
 
 				<a href="campus-video.aspx?id=1" class="video-modal"><img src="images/campus/tn-anton.png" alt="Play video for Anton, HR Development Program"/></a>
 
-				<p class="script"><a href="campusrecruiting/video/Anton/transcript.asp">View transcript for Anton</a></p>
+				<p class="script"><a href="campusrecruiting/video/Anton/transcript.asp" title="View transcript for Anton">View transcript for Anton</a></p>
 
 			</div><!--/.profile-->
 
@@ -26,7 +26,7 @@
 
 				<a href="campus-video.aspx?id=5" class="video-modal"><img src="images/campus/tn-kaitlyn.png" alt="Play video for Kaitlyn, Global Markets Sales and Trading Analyst Program"/></a>
 
-				<p class="script"><a href="campusrecruiting/video/Kaitlyn/transcript.asp">View transcript for Kaitlyn</a></p>
+				<p class="script"><a href="campusrecruiting/video/Kaitlyn/transcript.asp" title="View transcript for Kaitlyn">View transcript for Kaitlyn</a></p>
 
 			</div><!--/.profile-->
 
@@ -34,7 +34,7 @@
 
 				<a href="campus-video.aspx?id=2" class="video-modal"><img src="images/campus/tn-diversity.png" alt="Play video for Diversity &amp; Inclusion"/></a>
 
-				<p class="script"><a href="campusrecruiting/video/di/transcript.asp">View transcript for Diversity &amp; Inclusion</a></p>
+				<p class="script"><a href="campusrecruiting/video/di/transcript.asp" title="View transcript for Diversity &amp; Inclusion">View transcript for Diversity &amp; Inclusion</a></p>
 
 			</div><!--/.profile-->
 
@@ -42,7 +42,7 @@
 
 				<a href="campus-video.aspx?id=7" class="video-modal"><img src="images/campus/tn-narinder.png" alt="Play video for Narinder, Global Markets Associate Program"/></a>
 
-				<p class="script"><a href="campusrecruiting/video/Narinder/transcript.asp">View transcript for Narinder</a></p>
+				<p class="script"><a href="campusrecruiting/video/Narinder/transcript.asp" title="View transcript for Narinder">View transcript for Narinder</a></p>
 
 			</div><!--/.profile-->
 
@@ -50,7 +50,7 @@
 
 				<a href="campus-video.aspx?id=8" class="video-modal"><img src="images/campus/tn-nichola.png" alt="Play video for Nichola International Corporate Treasury Analyst Program"/></a>
 
-				<p class="script"><a href="campusrecruiting/video/Nichole/transcript.asp">View transcript for Nichola</a></p>
+				<p class="script"><a href="campusrecruiting/video/Nichole/transcript.asp" title="View transcript for Nichola">View transcript for Nichola</a></p>
 
 			</div><!--/.profile-->
 
