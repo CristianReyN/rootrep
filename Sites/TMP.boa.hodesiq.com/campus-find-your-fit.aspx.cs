@@ -336,7 +336,7 @@ public partial class campus_find_your_fit : System.Web.UI.Page
                 ISValid.Value = "1";
                 if (int_isselected == 0)
                 {
-                   str_errors1 =str_errors1 + "<b>You must select 1 items in ''To me, opportunity is all about''</b>";
+                    str_errors1 = str_errors1 + "<li><b>You must select 1 items in 'To me, opportunity is all about'</b></li>";
                     pnlErrors.Visible = true;
                     ISSubmited.Value = "1";
                     ISValid.Value = "0";
@@ -366,10 +366,25 @@ public partial class campus_find_your_fit : System.Web.UI.Page
                     }                    
                 }
             }
+            if (string.IsNullOrEmpty(str_errors1))
+            {
+                pnlErrors.Visible = false;
+            }
+            else
+            {
+                pnlErrors.Visible = true;
+            }
         }
         else
         {
-            pnlErrors.Visible = false;
+            if (string.IsNullOrEmpty(str_errors1))
+            {
+                pnlErrors.Visible = false;
+            }
+            else
+            {
+                pnlErrors.Visible = true;
+            }
         }
 
     }

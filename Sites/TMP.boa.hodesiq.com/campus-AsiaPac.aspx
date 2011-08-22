@@ -11,9 +11,9 @@
                 <p class="link-header">Use the buttons below to further explore our company and opportunities.</p>
                 
                  <div id="icon-home-buttons">
-				<a href="campus-AsiaPac-explore-careers.aspx"><img src="images/campus/btn-search-jobs.jpg" width="46" height="47" alt="Explore a world of career opportunities." /></a>
+				<a href="campus-AsiaPac-explore-careers.aspx" title="Explore a world of career opportunities"><img src="images/campus/btn-search-jobs.jpg" width="46" height="47" alt="Explore a world of career opportunities." /></a>
 
-                <a href="campus-video-library.aspx"><img src="images/campus/btn-meet-people.jpg" width="46" height="46" alt="Meet our people." /></a>
+                <a href="campus-video-library.aspx" title="View our video library"><img src="images/campus/btn-meet-people.jpg" width="46" height="46" alt="View our video library" /></a>
                 <a href="http://twitter.com/BofA_Careers" target="_blank"><img src="images/campus/btn-twitter.jpg" width="46" height="46" alt="Twitter. Link opens a new window." /><span class="hidden"> Link opens a new window.</span></a>
 				</div>
  
@@ -39,7 +39,7 @@
                     </ul>
 
                     
-                    <a href="campus-find-your-fit.aspx"><img src="images/campus/btn-findyourfit.png" width="179" height="76" alt="Career Finder: Come as you are. We've got a career to fit." /></a> 
+                    <a href="campus-find-your-fit.aspx"><img src="images/campus/btn-findyourfit.png" width="179" height="76" alt="Find Your Fit: Come as you are. We've got a career to fit." /></a> 
     				<a href="CampusEvents.aspx?region=3"><img src="images/campus/btn-campus-events.png" width="179" height="76" alt="Campus Events: Let's meet soon." /></a> 
    					 <a href="campus-AsiaPac-meet-our-people.aspx"><img src="images/campus/btn-our-people.png" width="179" height="76" alt="Our People: See and hear who's making a difference and how." /></a> 
                     </div>

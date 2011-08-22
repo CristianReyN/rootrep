@@ -27,9 +27,12 @@ public partial class campus_video : System.Web.UI.Page
         if (!string.IsNullOrEmpty(Request.QueryString["id"]))
         {
             int_videoid = int.Parse(Request.QueryString["id"].ToString());
+            Page.Title = "Bank of America | Careers | " + str_Name + "," + str_Title; // Alek, leave this alone for now. Thanks!
+            
         }
         else
         {
+
 
         }
         switch (int_videoid)

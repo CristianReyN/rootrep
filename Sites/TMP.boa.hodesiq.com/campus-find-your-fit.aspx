@@ -17,11 +17,11 @@
     } 
    
    .find-your-fit {
-	width: 100% !important;
+	width: 578px !important;
 	background: url(images/campus/bkg-findyourfit-content.jpg) top left no-repeat;
 	margin-top: 8px;
 	margin-left:1px;
-	margin-right: 20px;
+	
 	background-color: transparent;
     color: #333333;
     font-family: Verdana, Helvetica, Arial, sans-serif;

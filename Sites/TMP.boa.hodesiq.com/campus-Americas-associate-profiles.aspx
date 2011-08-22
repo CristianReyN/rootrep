@@ -1,6 +1,9 @@
 ﻿<%@ Page Title="Bank of America | Careers | Campus Recruiting | Explore Careers| Americas Associate & PHD Programs" Language="C#" MasterPageFile="~/BOAmaster.master" AutoEventWireup="true" CodeFile="campus-Americas-associate-profiles.aspx.cs" Inherits="campus_Americas_associate_profiles" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="cphmain" Runat="Server">
+
+<script type="text/javascript" src="http://utility.bankofamerica.com/uet/social_share2.js"></script>
+
 <link href="Includes/campus.css" type="text/css" rel="stylesheet" />
 
   <div id="main-profiles">
@@ -18,8 +21,8 @@
 											<h2>Anton</h2>
 											<p>HR Development Program</p>
 											<p>I am a Project Manager within Human Resources. </p>
-											<p class="profile-link"><a href="#" class="video-modal">View <span class="hiddencontent">Anton's </span>Profile</a></p>
-											<p class="mop-transcript"><a href="/campusrecruiting/anton_transcript.html" class="transcript">View <span class="hiddencontent">Anton's </span>Transcript</a></p>
+											<p class="profile-link"><a href="campus-video.aspx?id=1" class="video" title="View Anton's Profile">View <span class="hiddencontent">Anton's </span>Profile</a></p>
+											<p class="mop-transcript"><a href="campusrecruiting/video/Anton/transcript.asp" class="transcript" title="View Anton's Transcript">View <span class="hiddencontent">Anton's </span>Transcript</a></p>
 										
 										<img src="images/campus/ico-video.jpg" class="video-text-icon" width="33" height="33" alt="video icon" />									
 										
@@ -33,7 +36,7 @@
 										<h2>Bryan</h2>
 										<p>Global Research Associate Program</p>
 										<p>I'm in Fixed Income Research covering U.S. banks, broker/dealers and finance companies. </p>
-										<p class="profile-link"><a href="campus-profiles-Bryan.aspx">View <span class="hiddencontent">Bryan's </span>Profile</a></p>
+										<p class="profile-link"><a href="campus-meet-our-people-profile-Bryan.aspx" title="View Bryan's Profile">View <span class="hiddencontent">Bryan's </span>Profile</a></p>
 										<img src="images/campus/ico-doucment.jpg" class="video-text-icon" width="33" height="33" alt="document icon" />									
 									
 									</div><!--.profile-article-inside -->
@@ -46,7 +49,7 @@
 										<h2>Hamdija</h2>
 										<p>Operations MBA Program</p>
 										<p>My assignment is in ATM Technology &amp; Operations.</p>
-										<p class="profile-link"><a href="campus-meet-our-people-profile-Hamdija.aspx">View <span class="hiddencontent">Hamadija's </span>Profile</a></p>
+										<p class="profile-link"><a href="campus-meet-our-people-profile-Hamdija.aspx" title="View Hamdija's Profile">View <span class="hiddencontent">Hamadija's </span>Profile</a></p>
 										<img src="images/campus/ico-doucment.jpg" class="video-text-icon" width="33" height="33" alt="document icon" />									
 									
 									</div><!--.profile-article-inside -->
@@ -59,8 +62,8 @@
 										<h2>Howard</h2>
 										<p>Global Markets Sales and Trading Associate Program</p>
 										<p>My assignment is in ATM Technology &amp; Operations.</p>
-										<p class="profile-link"><a href="#" class="video-modal">View <span class="hiddencontent">Howard's </span>Profile</a></p>
-										<p class="mop-transcript"><a href="campusrecruiting/howard_transcript.html" class="transcript">View <span class="hiddencontent">Howard's </span>Transcript</a></p>
+										<p class="profile-link"><a href="campus-video.aspx?id=3" class="video" title="View Howard's Profile">View <span class="hiddencontent">Howard's </span>Profile</a></p>
+										<p class="mop-transcript"><a href="campusrecruiting/video/Howard/transcript.asp" class="transcript" title="View Howard's Transcript">View <span class="hiddencontent">Howard's </span>Transcript</a></p>
 										<img src="images/campus/ico-video.jpg" class="video-text-icon" width="33" height="33" alt="video icon" />									
 									
 									</div><!--.profile-article-inside -->
@@ -73,8 +76,8 @@
 										<h2>Kevin</h2>
 										<p>Consumer MBA Program</p>
 										<p>I'm in the Consumer MBA Program and am a Product Manager for Emerging Payments.</p>
-										<p class="profile-link"><a href="#" class="video-modal">View <span class="hiddencontent">Kevin's </span>Profile</a></p>
-										<p class="mop-transcript"><a href="campusrecruiting/kevin_transcript.html" class="transcript">View <span class="hiddencontent">Kevin's </span>Transcript</a></p>
+										<p class="profile-link"><a href="campus-video.aspx?id=12" class="video" title="View Kevin's Profile">View <span class="hiddencontent">Kevin's </span>Profile</a></p>
+										<p class="mop-transcript"><a href="campusrecruiting/video/Kevin/transcript.asp" class="transcript" title="View Kevin's Transcript">View <span class="hiddencontent">Kevin's </span>Transcript</a></p>
 										<img src="images/campus/ico-video.jpg" class="video-text-icon" width="33" height="33" alt="video icon" />									
 									
 									</div><!--.profile-article-inside -->
@@ -87,7 +90,7 @@
 										<h2>Matt</h2>
 										<p>Technology MBA Program</p>
 										<p>I work for Vulnerability Management in the Enterprise Change Technology organization.</p>
-										<p class="profile-link"><a href="campus-meet-our-people-profile-Matt.aspx" title="Read Matt's Profile">View <span class="hiddencontent">Matt's</span> Profile</a></p>
+										<p class="profile-link"><a href="campus-meet-our-people-profile-Matt.aspx" title="View Matt's Profile">View <span class="hiddencontent">Matt's</span> Profile</a></p>
 										<img src="images/campus/ico-doucment.jpg" class="video-text-icon" width="33" height="33" alt="document icon" />									
 									
 									</div><!--.profile-article-inside -->
@@ -100,7 +103,7 @@
 										<h2>Nisheet</h2>
 										<p>Global Wealth &amp; Investment Management Associate Program</p>
 										<p>I am with Managed Account Advisors which implements products for the advisory channel.</p>
-										<p class="profile-link"><a href="campus-meet-our-people-profile-Nisheet.aspx" title="Read Nisheet's Profile">View <span class="hiddencontent">Nisheet's</span> Profile</a></p>
+										<p class="profile-link"><a href="campus-meet-our-people-profile-Nisheet.aspx" title="View Nisheet's Profile">View <span class="hiddencontent">Nisheet's</span> Profile</a></p>
 										<img src="images/campus/ico-doucment.jpg" class="video-text-icon" width="33" height="33" alt="document icon" />									
 									
 									</div><!--.profile-article-inside -->
@@ -113,7 +116,7 @@
 										<h2>Pepe</h2>
 										<p>Corporate and Investment Banking Associate Program</p>
 										<p>I work as an associate in the Healthcare Investment Banking Group in New York. </p>
-										<p class="profile-link"><a href="campus-meet-our-people-profile-Pepe.aspx" title="Read Pepe's Profile">View <span class="hiddencontent">Pepe's</span> Profile</a></p>
+										<p class="profile-link"><a href="campus-meet-our-people-profile-Pepe.aspx" title="View Pepe's Profile">View <span class="hiddencontent">Pepe's</span> Profile</a></p>
 										<img src="images/campus/ico-doucment.jpg" class="video-text-icon" width="33" height="33" alt="document icon" />									
 									
 									</div><!--.profile-article-inside -->
@@ -126,7 +129,7 @@
 										<h2>Rachel</h2>
 										<p>Supply Chain Management</p>
 										<p>My first Supply Chain Management Associate Program (MAP) rotation was with the Global Records Management team.</p>
-										<p class="profile-link"><a href="campus-meet-our-people-profile-Rachel.aspx" title="Read Rachel's Profile">View <span class="hiddencontent">Rachel's</span> Profile</a></p>
+										<p class="profile-link"><a href="campus-meet-our-people-profile-Rachel.aspx" title="View Rachel's Profile">View <span class="hiddencontent">Rachel's</span> Profile</a></p>
 										<img src="images/campus/ico-doucment.jpg" class="video-text-icon" width="33" height="33" alt="document icon" />									
 									
 									</div><!--.profile-article-inside -->
@@ -135,24 +138,24 @@
  						</div><!--.article-bottom -->
   					</div> <!--#article -->
   			<div id="aside"> 
-					<p class="explore-video-profile"><a href="">Explore Our Video Library</a></p>
+					<p class="explore-video-profile"><a href="campus-video-library.aspx">Explore Our Video Library</a></p>
  					<div class="related-links">
 					  <h2>Related Links:</h2>
 					   <ul>
-         				<li><a href="campus-AsiaPac-associate-profiles.aspx">Asia Pacific associate profiles</a></li>
-        				 <li><a href="campus-EMEA-associate-profiles.aspx">EMEA associate profiles</a></li>
-         				<li><a href="campus-Americas-analyst-profiles.aspx">Americas analyst profiles</a></li>
-         				<li><a href="campus-Americas-intern-profiles.aspx">Americas intern profiles</a></li>
+         				<li><a href="campus-AsiaPac-associate-profiles.aspx">Asia Pacific associate profiles  &raquo;</a></li>
+        				 <li><a href="campus-EMEA-associate-profiles.aspx">EMEA associate profiles  &raquo;</a></li>
+         				<li><a href="campus-Americas-analyst-profiles.aspx">Americas analyst profiles  &raquo;</a></li>
+         				<li><a href="campus-Americas-intern-profiles.aspx">Americas intern profiles  &raquo;</a></li>
 					</ul>
 				  </div>
 				  <a href="http://twitter.com/#!/BofA_Careers" target="_blank"><img src="images/campus/btn-connect-twitter.jpg" width="179" height="64" alt="Stay Connected to Careers on Twitter" /></a>
 				  <div class="shared-links">
-				  	<h2>Shared this page:</h2>
+				  	<h2>Share this page:</h2>
 				  
 					 <ul>
-					  <li id="linkedin"><a href="http://www.linkedin.com/shareArticle?mini=true&amp;url=<%=Request.Url.ToString().ToLower()%>" target="_blank">LinkedIn</a></li>
-					  <li id="facebook"><a href="http://www.facebook.com/sharer/sharer.php?u=<%=Request.Url.ToString().ToLower()%>" target="_blank">Facebook</a></li>
-					  <li id="twitter"><a href="http://twitter.com/intent/tweet?source=webclient&amp;text=<%=Request.Url.ToString().ToLower()%>" target="_blank">Twitter</a></li>
+					  <li id="linkedin"> <script language="javascript" type="text/javascript">document.write(displayIcon("3","","","","","","","","Use this source for LinkedIn.","","","","",""));</script><p>LinkedIn</</li>
+					  <li id="facebook"> <script language="javascript" type="text/javascript">document.write(displayIcon("1","","","","","","","","","","","career:jobsearch;jobdetails_<jobid>","",""));</script><p>Facebook</p></li>
+					  <li id="twitter"><script language="javascript" type="text/javascript">document.write(displayIcon("2","","","","","","","#Job opportunity at Bank of America: (LS) Senior Operational Risk Control Specialist - Jacksonville, FL : 110000...","","","","career:jobsearch;jobdetails_<jobid>","",""));</script><p>Twitter</p></li>
 					  </ul>
 				  </div>
             </div><!-- #aside -->
@@ -164,6 +167,8 @@
 
 <script src="Includes/_google.js" type="text/javascript"></script>
 <script src="Includes/libs/jquery/1.5.2/jquery.min.js"></script>
+<script src="Includes/libs/jquery/plugin/dialog.min.js"></script>
+<!-- script src="Includes/libs/jquery/plugin/keyboard.focus.min.js"></script -->
 <script src="Includes/libs/jquery/ui/1.8.9/custom.min.js"></script>
 <script src="Includes/_global.js"></script>
 

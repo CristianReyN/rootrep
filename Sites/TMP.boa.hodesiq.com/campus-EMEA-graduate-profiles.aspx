@@ -11,14 +11,15 @@
 	</div>	
 	
 	 	<div class="featured-profile">
-			<h2>Featured Analysts</h2>
+			<h2>Featured Analyst</h2>
         	
             <div class="mop-profile">
             		<img src="images/campus/ico-mop-Aurelie.jpg" width="165" height="100" alt="Aurelie" />
             		<h3>Aurelie</h3>
             <p>Research Analyst Programme</p>
+            <div class="profile-content-links">
             <p class="profile-link"><a href="campus-meet-our-people-profile-Aurelie.aspx" title="View Aurelie's profile">View <span class="hiddencontent">Aurelie's</span> Profile</a></p>
-
+            </div>
 			
             </div>
             
@@ -26,31 +27,35 @@
         </div>
 		
 		<div class="featured-profile">
-        	<h2>Featured  Associates</h2>
+        	<h2>Featured  Associate</h2>
         	
             <div class="mop-profile">
             		<img src="images/campus/ico-mop-Richard.jpg" alt="Richard" />
             		<h3>Richard</h3>
                     <p>Global Corporate and Investment Banking Associate Programme</p>
+                    
+                    <div class="profile-content-links">
                     <p class="profile-link"><a href="campus-meet-our-people-profile-Richard.aspx" title="View Richard's Profile">View <span class="hiddencontent">Richard's</span> Profile</a></p>
-
+                    </div>
             </div>
            
-            	<p class="learnlink"><a href="campus-EMEA-associate-profiles.aspx">View all our associates profiles</a></p>
+            	<p class="learnlink"><a href="campus-EMEA-associate-profiles.aspx">View all our associate profiles</a></p>
         	</div>
         
            <div class="featured-profile-intern">
-				<h2>Featured  Interns</h2>
+				<h2>Featured Intern</h2>
 				
 				<div class="mop-profile">
 						<img src="images/campus/ico-mop-Tanvi.jpg" alt="Tanvi" />
 						<h3>Tanvi</h3>
 				<p>Technology Analyst Programme</p>
-				<p class="profile-link"><a href="#" class="video-modal" title="View Tanvi's Profile">View Profile</a></p>
-				<p class="mop-transcript"><a href=/campusrecruiting/tanvi_transcript.html" class="transcript" title="View Tanvi's Transcript">View Transcript</a></p>
+				<div class="profile-content-links">
+				    <p class="profile-link"><a href="campus-video.aspx?id=10" class="video" title="View Tanvi's Profile">View <span class="hiddencontent">Tanvi's</span> Profile</a></p>
+				    <p class="mop-transcript"><a href="campusrecruiting/video/Tanvi/transcript.asp" class="transcript" title="View Tanvi's Transcript">View <span class="hiddencontent">Tanvi's</span> Transcript</a></p>
+				</div>
 				</div>
             
-				<p class="learnlink"><a href="campus-EMEA-intern-profiles.aspx">View all our interns profiles</a></p>
+				<p class="learnlink"><a href="campus-EMEA-intern-profiles.aspx">View all our intern profiles</a></p>
         	</div>
 			
 			<div class="explore-video">
@@ -64,6 +69,8 @@
 
 <script src="Includes/_google.js" type="text/javascript"></script>
 <script src="Includes/libs/jquery/1.5.2/jquery.min.js"></script>
+<script src="Includes/libs/jquery/plugin/dialog.min.js"></script>
+<!-- script src="Includes/libs/jquery/plugin/keyboard.focus.min.js"></script -->
 <script src="Includes/libs/jquery/ui/1.8.9/custom.min.js"></script>
 <script src="Includes/_global.js"></script>
 

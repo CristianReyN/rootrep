@@ -1,6 +1,8 @@
 ﻿<%@ Page Title="Bank of America | Careers | Campus Recruiting | EMEA Opportunities" Language="C#" MasterPageFile="~/BOAmaster.master" AutoEventWireup="true" CodeFile="campus-EMEA-opportunities.aspx.cs" Inherits="campus_EMEA_opportunities" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="cphmain" Runat="Server">
+<script type="text/javascript" src="http://utility.bankofamerica.com/uet/social_share2.js"></script>
+
 <link href="Includes/campus.css" type="text/css" rel="stylesheet" />
 
 <div id="maincontent"> 
@@ -34,13 +36,13 @@
 
                         <h3 class="pad-top">MBA Programmes</h3>
                         <p>Leverage the power of your MBA or advanced degree into real career momentum with instructor-led and web-based education, on-the-job training and networking. This is where you combine your education and experience with our incredible range of opportunities—and the sky’s the limit.</p> 
-                         <p class="learnmore-button"><a href="campus-EMEA-associate-and-phd-programs.aspx" title="Learn more about our associates programmes">Learn more <span class="hiddencontent">about our associates programmes</span></a></p>
+                         <p class="learnmore-button"><a href="campus-EMEA-associate-and-phd-programs.aspx" title="Learn more about our associate and Ph.D. programmes">Learn more <span class="hiddencontent">about our associate and Ph.D. programmes</span></a></p>
 
                         
                         <h3>Quantitative Analytics Programme (Ph.D.)</h3>
                         <p>Pursuing a doctoral degree with a quantitative focus? Then this is the opportunity for you. Our Ph.D. programme enables doctoral students with high-level technical skills to put their intellect and ambition to work in a fast-paced, exciting environment that will challenge and reward a rigorous approach.</p> 
                         
-                        <p class="learnmore-button"><a href="campus-EMEA-associate-and-phd-programs.aspx" title="Learn more about our associates programmes">Learn more <span class="hiddencontent">about our associates programmes</span></a></p>
+                        <p class="learnmore-button"><a href="campus-EMEA-associate-and-phd-programs.aspx" title="Learn more about our associate and Ph.D. programmes">Learn more <span class="hiddencontent">about our associate and Ph.D. programmes</span></a></p>
 
 
                          </div><!--.programs-content-->
@@ -67,19 +69,19 @@
                      </div> <!--#programs -->
                 </div>
                 <div id="aside"> 
-					<a href="campus-find-your-fit.aspx"><img src="images/campus/btn-careerfinder.jpg" width="179" height="76" alt="Find Your fit: Come as you are. We've got a career to fit." /></a> 
-                  <a href="CampusEvents.aspx?region=3"><img src="images/campus/btn-campus-events.jpg" width="179" height="76" alt="Campus Events: Let's meet soon." /></a> 
-                 <a href="campus-AsiaPac-meet-our-people.aspx"><img src="images/campus/btn-our-people.jpg" width="179" height="76" alt="Our People: See and hear who's making a difference and how." /></a> 
-				  
+					<a href="campus-find-your-fit.aspx"><img src="images/campus/btn-findyourfit.jpg" width="179" height="76" alt="Find Your fit: Come as you are. We've got a career to fit." /></a> 
+                  <a href="CampusEvents.aspx?region=2"><img src="images/campus/btn-campus-events-new.jpg" width="179" height="76" alt="Campus Events: Let's meet soon." /></a> 
+                  <a href="campus-EMEA-graduate-profiles.aspx"><img src="images/campus/btn-our-people-new.jpg" width="179" height="76" alt="Our People: See and hear who's making a difference and how." /></a> 
+                  
 				  <a href="http://twitter.com/#!/BofA_Careers" target="_blank" title="Twitter. Link opens a new window"><img src="images/campus/btn-connect-twitter.jpg" width="179" height="76" alt="Stay Connected to Careers on Twitter" /></a> 
 				  
 				  <div class="shared-links">
-				  	<h2>Shared this page:</h2>
+				  	<h2>Share this page:</h2>
 				  
-					  <ul>
-					  <li id="linkedin"><a href="http://www.linkedin.com/shareArticle?mini=true&amp;url=<%=Request.Url.ToString().ToLower()%>" target="_blank">LinkedIn</a></li>
-					  <li id="facebook"><a href="http://www.facebook.com/sharer/sharer.php?u=<%=Request.Url.ToString().ToLower()%>" target="_blank">Facebook</a></li>
-					  <li id="twitter"><a href="http://twitter.com/intent/tweet?source=webclient&amp;text=<%=Request.Url.ToString().ToLower()%>" target="_blank">Twitter</a></li>
+					 <ul>
+					  <li id="linkedin"> <script language="javascript" type="text/javascript">document.write(displayIcon("3","","","","","","","","Use this source for LinkedIn.","","","","",""));</script><p>LinkedIn</p></li>
+					  <li id="facebook"> <script language="javascript" type="text/javascript">document.write(displayIcon("1","","","","","","","","","","","career:jobsearch;jobdetails_<jobid>","",""));</script><p>Facebook</p></li>
+					  <li id="twitter"><script language="javascript" type="text/javascript">document.write(displayIcon("2","","","","","","","#Job opportunity at Bank of America: (LS) Senior Operational Risk Control Specialist - Jacksonville, FL : 110000...","","","","career:jobsearch;jobdetails_<jobid>","",""));</script><p>Twitter</p></li>
 					  </ul>
 				  </div>
       
