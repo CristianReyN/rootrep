@@ -406,8 +406,7 @@
                         <div id="Div5" style="clear:both; padding:1px; width:370px;">&nbsp; </div>
                         
                         <div id="ErrorReport" style="margin-left:30px;">
-                            <asp:Panel runat="server" ID="pnlErrors" Visible="false"  class="ErrorPanel">
-                                                                 
+                            <asp:Panel runat="server" ID="pnlErrors" Visible="false"  class="ErrorPanel">                                                                 
                                     <div id=Message2 class="errormsg-top">
                                         <div class="errormsg-bottom">
                                             <p>Some information is missing:</p>

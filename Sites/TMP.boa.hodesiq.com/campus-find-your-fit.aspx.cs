@@ -258,7 +258,7 @@ public partial class campus_find_your_fit : System.Web.UI.Page
                     }
 
                 }
-                pnlErrors.Visible = false;
+                //pnlErrors.Visible = false;
                 return;
             }
 
@@ -280,7 +280,7 @@ public partial class campus_find_your_fit : System.Web.UI.Page
                 if (int_isselected == 0)
                 {
 
-                    str_errors1 =str_errors1 + "<li><b>You must select at least 1 items in 'My primary area of interest'</b></li>";
+                 //   str_errors1 =str_errors1 + "<li><b>You must select at least 1 items in 'My primary area of interest'</b></li>";
                     pnlErrors.Visible = true;
                     ISSubmited.Value = "1";
                     ISValid.Value = "0";
@@ -336,7 +336,7 @@ public partial class campus_find_your_fit : System.Web.UI.Page
                 ISValid.Value = "1";
                 if (int_isselected == 0)
                 {
-                    str_errors1 = str_errors1 + "<li><b>You must select 1 items in 'To me, opportunity is all about'</b></li>";
+                 //   str_errors1 = str_errors1 + "<li><b>You must select 1 items in 'To me, opportunity is all about'</b></li>";
                     pnlErrors.Visible = true;
                     ISSubmited.Value = "1";
                     ISValid.Value = "0";
@@ -531,25 +531,60 @@ public partial class campus_find_your_fit : System.Web.UI.Page
 
     }
 
-    private void clearCheckbox(string cbx_Name)
-    {
-        int ICounter = 0;
-        foreach (ListItem item in sel_responsible_options.Items)
-        {
-            ICounter++;
-            if (ICounter == int.Parse(cbx_Name.ToString()))
-            {
-                item.Selected = false;
-            }
-        }
-
-
-    }
-
     protected void btnGetResults_Click(object sender, EventArgs e)
     {
         int int_isselected = 0;
         bool CtrlSelected = false;
+
+        foreach (ListItem item in ckb_interestoptions.Items)
+        {
+            if (item.Selected)
+            {
+                int_isselected++;
+                CtrlSelected = true;
+            }
+        }
+        if (int_isselected == 0)
+        {
+
+            str_errors1 =str_errors1 + "<li><b>You must select at least 1 items in 'My primary area of interest'</b></li>";
+            pnlErrors.Visible = true;
+            ISSubmited.Value = "1";
+            ISValid.Value = "0";
+           return;
+        }
+
+        int_isselected = 0;
+        foreach (ListItem item in sel_responsible_options.Items)
+        {
+            if (item.Selected)
+            {
+                int_isselected++;
+                if (int_isselected > 2)
+                {
+                    item.Selected = false;
+                    str_errors1 = str_errors1 + "<li><b>You cannot select more than 2 items in 'I would like a job where I am responsible for'</b></li>";
+                    pnlErrors.Visible = true;
+                    ISSubmited.Value = "1";
+                    ISValid.Value = "0";
+                    //  return;
+                }
+                ISValid.Value = "1";
+                ISSubmited.Value = "1";
+                CtrlSelected = true;
+            }
+        }
+        if (int_isselected == 0)
+        {
+            str_errors1 = str_errors1 + "<li><b>You must select at least 1 item in 'I would like a job where I am responsible for'</b></li>";
+            pnlErrors.Visible = true;
+            ISSubmited.Value = "1";
+            ISValid.Value = "0";
+            return;
+        }
+
+
+        int_isselected = 0;
         foreach (ListItem item in sel_opportunity_options.Items)
         {
             if (item.Selected)
