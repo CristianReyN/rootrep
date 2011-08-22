@@ -1,15 +1,15 @@
 /* 
 	Bank of America - Default Stylesheet
-	Author:  Deborah Foerst, UI Developer <debbie.foerst@tmp.com>
+	Author:  Deborah Foerst, UI Developer <debbie.foerst[at]tmp.com>
 	Company: TMP Worldwide Advertising and Communications, LLC
 */
 
-
+@import url(dialog.css); /* Import Dialog/Modal */
 
 @media screen, projection {
 
 	/* Default layout */
-	
+
 	.wai, .js .script {
 	width: 0;
 	height: 0;
@@ -18,7 +18,7 @@
 	left: 0;
 	text-indent: -999em;
 	}
-	
+
 	#profiles a:link,
 	#maincontent a:link,
 	#mop-maincontent a:link,
@@ -32,7 +32,7 @@
 	text-decoration: none;
 	font-family: Verdana, Helvetica, Arial, sans-serif;
 	}
-	
+
 	#profiles a:visited,
 	#maincontent a:visited,
 	#mop-maincontent a:visited,
@@ -46,7 +46,7 @@
 	text-decoration: none;
 	font-family: Verdana, Helvetica, Arial, sans-serif;
 	}
-	
+
 	#profiles a:hover,
 	#maincontent a:hover,
 	#mop-maincontent a:hover,
@@ -71,7 +71,7 @@
 	font-family: Verdana, Helvetica, Arial, sans-serif;
 	color: #333;
 	}
-	
+
 	#profiles h1 {
 	margin: 0;
 	padding: 0;
@@ -80,13 +80,13 @@
 	color: #d4001a;
 	padding-bottom: 35px;
 	}
-	
+
 	#article {
 	float: left;
 	width: 383px;
 	margin-bottom: 50px;
 	}
-	
+
 	#maincontent #article h1,
 	#main-profiles #article h1 {
 	margin: 0;
@@ -96,11 +96,11 @@
 	color: #d4001a;
 	padding-bottom: 12px;
 	}
-	
+
 	#maincontent #article h1 {
 	font-weight: bold;
 	}
-	
+
 	#maincontent #article h2 {
 	margin: 0;
 	padding: 0;
@@ -111,7 +111,7 @@
 	padding-top: 5px;
 	padding-bottom: 3px;
 	}
-	
+
 	#maincontent #article h3 {
 	margin: 0;
 	padding: 0;
@@ -120,9 +120,9 @@
 	font-size: 1.01em;
 	font-weight: bold;
 	padding-top: 5px;
-    }
-    
-    #maincontent #article h2.benefits {
+	}
+   
+	#maincontent #article h2.benefits {
 	margin: 0;
 	padding: 0;
 	font-family: Verdana, Helvetica, Arial, sans-serif;
@@ -130,9 +130,9 @@
 	font-size: 1.01em;
 	font-weight: bold;
 	padding-top: 5px;
-    }
-    
-    #maincontent #article h2.benefits-second {
+	}
+
+	#maincontent #article h2.benefits-second {
 	margin: 0;
 	padding: 0;
 	font-family: Verdana, Helvetica, Arial, sans-serif;
@@ -140,8 +140,8 @@
 	font-size: 1.01em;
 	font-weight: bold;
 	padding-top: 17px;
-    }
-    
+	}
+
 	#maincontent #article h2.questions {
 	margin: 0;
 	padding: 0;
@@ -150,8 +150,8 @@
 	font-size: 1.01em;
 	font-weight: bold;
 	padding-top: 12px;
-    }
-    
+	}
+
 	#maincontent #article h2.nopad {
 	margin: 0;
 	padding: 0;
@@ -159,55 +159,65 @@
 	color: #333;
 	font-size: 1.01em;
 	font-weight: bold;
-    }
-     
+	}
+
 	#maincontent #article p {
 	padding-bottom: 15px;
 	}
-	
+
 	#maincontent #article p.nobottompad {
 	margin: 0;
 	padding: 0;
 	padding-bottom: 6px;
 	}
-	
-	
+
 	#maincontent #article ul {
 	margin: 0;
 	padding: 0;
-	margin-left: 40px;
+	margin-left: 32px;
 	margin-right: 40px;
+	list-style-image: none;
+	list-style: none;
 	}
-	
+
 	#maincontent #article ul li {
+	margin: 0;
+	padding: 0;
 	font-size: 1em;
 	font-family: Verdana, Helvetica, Arial, sans-serif;
 	color: #333;
 	padding-bottom: 3px;
-	}
+	padding-left: 8px;
+	background: url(../images/bull3.gif) left 4px no-repeat;
+    }
 	
+	
+
 	#maincontent #article p.applypad {
 	margin: 0;
 	padding: 0;
 	}
-	
-	
+
 	#maincontent #article ul.notoppad {
 	margin: 0;
 	padding: 0;
 	margin-left: 40px;
 	}
-	
+
 	#maincontent #article p.learnlink {
 	clear: both;
 	text-align: right;
 	}
 	
+	#maincontent #article .indented-content {
+	padding-left: 20px;
+	}
+
 	#article h2, #article h3, #article h4 {
 	font-family: Verdana, Helvetica, Arial, sans-serif;
 	color: #000;
 	}
-		
+
 	#article h4 {
 	margin: 0;
 	padding: 0;
@@ -215,7 +225,7 @@
 	padding-top: 14px;
 	padding-bottom: 7px;
 	}
-	
+
 	#article p, #article ol li {
 	margin: 0;
 	padding: 0;
@@ -223,7 +233,7 @@
 	font-family: Verdana, Helvetica, Arial, sans-serif;
 	color: #333;
 	}
-	
+
 	#profiles #article ol {
 	padding-left: 5px;
 	}
@@ -232,19 +242,19 @@
 	text-align: right;
 	padding-top: 40px;
 	}
-	
+
 	#maincontent #article h3.pad-top {
 	margin: 0;
 	padding: 0;
 	padding-top: 2px;
 	padding-bottom: 3px;
 	}
-	
+
 	#maincontent #article h3.pad-intern {
 	margin: 0;
 	padding: 0;
 	}
-	
+
 	#article blockquote {
 	margin: 0;
 	padding: 0;
@@ -253,11 +263,11 @@
 	color: #333;
 	padding: 0 15px 12px 10px;
 	}
-	
+
 	#article p.pad-explore {
 	padding-top: 3px;
 	}
-	
+
 	#maincontent #article p.back-to-previous a {
 	margin: 0;
 	padding: 0;
@@ -265,9 +275,9 @@
 	background: url(../images/campus/arrow-back.gif) left 3px no-repeat;
 	padding: 0 0 25px 9px;
 	}
-	
-	
+
 	/* ======== Main Meet the People Pages ===== */
+
 	#mop-maincontent #article {
 	margin: 0;
 	float: left;
@@ -275,32 +285,32 @@
 	background: url(../images/campus/bkg-mop-content.jpg) top left no-repeat;
 	margin-top: 8px;
 	}
-	
+
 	#mop-maincontent #article h1 {
 	margin: 0;
 	padding: 0;
 	font-weight: bold;
 	padding: 20px 30px 8px 20px;
 	}
-	
+
 	#mop-maincontent #article p {
 	margin: 0;
 	padding: 0;
-	padding: 0 30px 27px 20px;
+	padding: 0 30px 30px 20px;
 	}
-	
+
 	#mop-maincontent .featured-profile {
 	float: left;
 	width: 179px;
 	margin: 20px 18px 10px 0;
 	}
-	
+
 	#mop-maincontent .featured-profile-intern {
 	float: left;
 	width: 179px;
 	margin: 20px 0 10px 0;
 	}
-	
+
 	#mop-maincontent .featured-profile h2,
 	#mop-maincontent .featured-profile-intern h2 {
 	margin: 0;
@@ -310,7 +320,7 @@
 	font-weight: bold;
 	color: #4e4e4e !important;
 	}
-	
+
 	#mop-maincontent .featured-profile .mop-profile,
 	#mop-maincontent .featured-profile-intern .mop-profile{
 	position: relative;
@@ -320,12 +330,12 @@
 	margin: 10px 0 5px 0;
 	background: url(../images/campus/bkg-feature-profile.jpg) top left no-repeat;
 	}
-	
+
 	#mop-maincontent .featured-profile .mop-profile img,
 	#mop-maincontent .featured-profile-intern .mop-profile img {
 	margin: 10px 0 5px 7px;
 	}
-	
+
 	#mop-maincontent .featured-profile .mop-profile h3,
 	#mop-maincontent .featured-profile-intern .mop-profile h3 {
 	margin:0;
@@ -334,7 +344,7 @@
 	color: #ed1b2e;
 	padding: 3px 10px 0 20px;
 	}
-	
+
 	#mop-maincontent .featured-profile .mop-profile p,
 	#mop-maincontent .featured-profile-intern .mop-profile p {
 	margin:0;
@@ -342,15 +352,15 @@
 	font-size: .78em;
 	padding: 5px 10px 12px 20px;
 	}
-	
-	#mop-maincontent .featured-profile .mop-profile.profile-content-links,
-	#mop-maincontent .featured-profile-intern .mop-profile.profile-content-links {
+
+	#mop-maincontent .featured-profile .mop-profile .profile-content-links,
+	#mop-maincontent .featured-profile-intern .mop-profile .profile-content-links {
 	position: absolute;
 	width: 179px;
 	top: 190px;
 	left: 0;
 	}
-	
+
 	#mop-maincontent .featured-profile .mop-profile p.profile-link,
 	#mop-maincontent .featured-profile .mop-profile p.mop-transcript,
 	#mop-maincontent .featured-profile-intern .mop-profile p.profile-link,
@@ -361,18 +371,18 @@
 	font-weight: bold !important;
 	padding: 5px 10px 2px 20px;
 	}
-	
+
 	#mop-maincontent .featured-profile .mop-profile p.mop-transcript,
 	#mop-maincontent .featured-profile-intern .mop-profile p.mop-transcript {
 	background: transparent url(../images/campus/ico-transcript-bkggrey.gif) 105px 6px no-repeat;
 	}
-	
+
 	#mop-maincontent .featured-profile p.learnlink,
 	#mop-maincontent .featured-profile-intern p.learnlink {
 	margin: 0;
 	padding: 0;
 	} 
-	
+
 	#mop-maincontent .featured-profile p.learnlink a,
 	#mop-maincontent .featured-profile-intern p.learnlink a {
 	margin: 0;
@@ -388,18 +398,24 @@
 	background: url(../images/campus/btn-view-profiles.jpg) top left no-repeat;
 	clear: both;
 	} 
-	
+
 	#mop-maincontent .featured-profile p.learnlink a:hover,
 	#mop-maincontent .featured-profile-intern p.learnlink a:hover {
 	text-decoration: underline;
 	} 
-	
+
 	#mop-maincontent .explore-video  {
 	margin: 0;
 	padding: 0;
 	width: 578px;
 	float: left;
 	margin-bottom: 60px;
+	margin-top: 10px;
+	}
+
+	#mop-maincontent .explore-video p  {
+	margin: 0;
+	padding: 0;
 	}
 
 	#mop-maincontent .explore-video p a {
@@ -413,24 +429,23 @@
 	text-align: center;
 	background: transparent url(../images/campus/btn-explore-videos.jpg) top left no-repeat;
 	}
-	
+
 	#mop-maincontent .explore-video p a:hover {
 	text-decoration: none;
 	background-position: 0 -22px;
 	}
-	
-	
+
 	/* ======== meet the people pages ====== */
 	
 	/*#main-profiles #article {
 	width: 360px;
 	background: url(images/campus/bkg-top-listmop.jpg) top left repeat-x;
 	}
-	
+
 	#main-profiles #article div.featured-profile {
 	width: 326px;
 	}
-	
+
 	#main-profiles #article div.featured-profile h2 {
 	margin: 0;
 	padding: 0;
@@ -439,14 +454,14 @@
 	color: #333 !important;
 	padding-top: 15px;
 	}
-	
+
 	#main-profiles #article div.featured-profile p.learnlink {
 	text-align: right;
 	padding: 0 12px 20px 0;
 	clear: both;
 	}
-          	
-    #main-profiles #article div.mop-profile {
+
+	#main-profiles #article div.mop-profile {
 	float: left;
 	position: relative;
 	border: 1px solid #9d9d9d;
@@ -457,7 +472,7 @@
 	margin-right: 12px;
 	margin-bottom: 15px;
 	} 
-	
+
 	#main-profiles #article div.mop-profile img {
 	margin: 0;
 	padding: 0;
@@ -465,7 +480,7 @@
 	margin: 5px;
 	border: none;
 	}
-	
+
 	#main-profiles #article div.mop-profile h3 {
 	margin: 0;
 	padding: 0;
@@ -475,7 +490,7 @@
 	padding-left: 5px;
 	padding-left: 5px;
 	}
-	
+
 	#main-profiles #article div.mop-profile p {
 	margin: 0;
 	padding: 0;
@@ -484,34 +499,34 @@
 	padding-right: 10px;
 	padding-left: 5px;
 	}
-	
+
 	#main-profiles #article div.mop-profile a {
 	position: absolute;
 	display: block;
 	bottom: 8px;
 	left: 5px;
 	}  */
-	
+
 	/* ======== analyst - associates - interns profile pages ====== */
-	
+
 	#main-profiles #article {
 	width: 360px;
 	background: url(../images/campus/bkg-bottom-listmop.jpg) bottom left no-repeat;
 	margin-top: 8px;
-	padding-bottom: 120px;
+	padding-bottom: 100px;
 	}
-	
+
 	#main-profiles .article-bottom {
 	width: 360px;
 	background: url(../images/campus/bkg-top-listmop.jpg) top left no-repeat;
 	}
-	
+
 	#main-profiles #article h1 {
 	margin: 0;
 	padding: 0;
 	padding: 20px 0 0 20px;
 	}
-	
+
 	#main-profiles #article p {
 	margin: 0;
 	padding: 0;
@@ -522,7 +537,7 @@
 	padding-top: 10px;
 	padding-bottom: 20px;
 	}
-	
+
 	#main-profiles #article .profile-article {
 	position: relative;
 	width: 347px;
@@ -530,12 +545,12 @@
 	background: url(../images/campus/bkg-bottom-indivmop.jpg) bottom left no-repeat;
 	margin: 0 0 5px 6px;
 	}
-	
+
 	#main-profiles #article .profile-article-inside {
 	width: 347px;
 	background: url(../images/campus/bkg-top-indivmop.jpg) top left no-repeat;
 	}
-	
+
 	#main-profiles #article div.profile-article img {
 	margin: 0;
 	padding: 0;
@@ -543,13 +558,13 @@
 	display: block;
 	margin: 12px 12px 30px 14px;
 	}
-	
+
 	/*#main-profiles #article .profile-article .profile-article-content {
 	width: 250px;
 	margin-left: 86px;
 	border: 1px red solid;
 	}*/
-	
+
 	#main-profiles #article .profile-article h2 {
 	margin: 0;
 	padding: 0;
@@ -558,7 +573,7 @@
 	color: #4e4e4e;
 	padding: 15px 0 0 0;
 	}
-	
+
 	#main-profiles #article .profile-article span,
 	#main-profiles #article .profile-article p {
 	margin: 0;
@@ -567,23 +582,22 @@
 	color: #333;
 	padding: 0 40px 8px 0;
 	}
-	
+
 	#main-profiles #article .profile-article a {
 	display: block;
 	}
-	
-	#main-profiles #article .profile-article p.profile-link,
-	#main-profiles #article .profile-article p.mop-transcript {
+
+	#main-profiles #article .profile-article p.profile-link, #main-profiles #article .profile-article p.mop-transcript {
 	margin: 0;
 	padding: 0;
 	font-weight: bold !important;
 	}
-	
+
 	#main-profiles #article .profile-article p.mop-transcript {
 	padding: 3px 0 20px 0;
 	background: transparent url(../images/campus/ico-transcript.gif) 185px 4px no-repeat;
 	}
-	
+
 	#main-profiles #article div.profile-article img.video-text-icon {
 	position: absolute;
 	height: 33px;
@@ -591,7 +605,7 @@
 	top: 0;
 	right: 5px;
 	}
-	
+
 	p.profile-depart {
 	position: absolute;
 	width: 190px;
@@ -600,7 +614,7 @@
 	line-height: 1.2em;
 	font-weight: bold;
 	}
-	
+
 	p.profile-depart-spec {
 	position: absolute;
 	width: 190px;
@@ -609,7 +623,7 @@
 	line-height: 1.2em;
 	font-weight: bold;
 	}
-	
+
 	p.profile-depart-jw {
 	position: absolute;
 	width: 190px;
@@ -618,15 +632,15 @@
 	line-height: 1.2em;
 	font-weight: bold;
 	}
-	
+
 	/* ======= individual profile photos and content =======*/
-	
+
 	.content-profiles  {
 	height: 175px;
 	margin-bottom: 30px;
 	position: relative;
 	}
-	
+
 	#article .content-profiles img {
 	margin: 0;
 	padding: 0;
@@ -634,13 +648,13 @@
 	display: block;
 	border: none;
 	}
-	
+
 	#article .content-profiles h2 {
 	margin: 0;
 	padding: 0;
 	font-size: 1.3em;   
 	}
-	
+
 	#article .content-profiles h3 {
 	margin: 0;
 	padding: 0;
@@ -648,7 +662,7 @@
 	font-weight: bold;
 	padding-top: 15px;
 	}
-	
+
 	#article .content-profiles p {
 	margin: 0;
 	padding: 0;
@@ -656,28 +670,28 @@
 	color: #333;
 	line-height: 14px;
 	}
-	
+
 	#article .content-profiles .info-profiles {
 	position: absolute;
 	left: 181px;
 	bottom: 12px;
 	}
-	
-	
+
 	/* ============= right column ========*/
+	
 	#aside {
 	float: left;
 	width: 179px;
 	margin-left: 16px;
 	margin-top: 8px;
 	}
-	
+
 	#aside img {
 	margin-bottom: 10px;
 	border: 0;
 	border: none;
 	}
-	
+
 	#aside h2,
 	#aside h3 {
 	margin: 0;
@@ -688,7 +702,7 @@
 	color: #333;
 	padding-top: 10px;
 	}
-	
+
 	#aside ul {
 	margin: 0;
 	padding:0;
@@ -697,13 +711,13 @@
 	padding-left: 12px;
 	padding-top: 10px;
 	}
-	
+
 	#aside li {
 	padding-bottom: 3px;
 	margin: 0;
 	padding: 0;
 	}
-	
+
 	#aside .related-links {
 	margin: 0;
 	padding: 0;
@@ -711,7 +725,7 @@
 	background: url(../images/campus/bkg-related-links.jpg) bottom left no-repeat;
 	margin-bottom: 8px;
 	}
-	
+
 	#aside .related-links h2 {
 	margin: 0;
 	padding: 0;
@@ -727,7 +741,7 @@
 	padding: 0;
 	padding: 0 0 15px 12px;
 	}
-	
+
 	#aside .related-links li a {
 	margin: 0;
 	padding: 0;
@@ -739,25 +753,25 @@
 	#aside .related-links li a:hover {
 	font-size: .8em !important;
 	}
-	
+
 	#aside .related-links li a:visited {
 	font-size: .8em !important;
 	}
-	
+
 	#aside .shared-links {
 	position: relative;
 	width: 179px;
 	background: url(../images/campus/bkg-shared-links.jpg) top left no-repeat;
 	padding: 12px;
 	}
-	
+
 	#aside .shared-links h2 {
 	margin: 0;
 	padding: 0;
 	font-size: .8em;
 	font-weight: normal;
 	}
-	
+
 	#aside .shared-links ul {
 	margin: 0;
 	padding: 0;
@@ -765,14 +779,14 @@
 	list-style-image: none;
 	padding-top: 4px;
 	}
-	
+
 	#aside .shared-links li {
 	display: inline;
 	margin: 0;
 	padding: 0;
 	line-height: 0;
 	}
-	
+
 	#aside .shared-links li a {
 	display: block;
 	font-size: 0.85em !important;
@@ -781,18 +795,18 @@
 	color: #333 !important;
 	width: 130px;
 	}
-	
+
 	#aside .shared-links li#linkedin a.adaBorder {
 	padding-bottom: 4px;
 	}
-	
+
 	#aside .shared-links li#linkedin a.adaBorder img {
 	margin: 0 !important;
 	padding: 0 !important;
 	line-height: 0 !important;
 	height: 16px !important;
 	}
-	
+
 	#aside .shared-links li#linkedin p {
 	position: absolute;
 	margin: 0;
@@ -804,16 +818,16 @@
 	top: 29px;
 	left: 38px;
 	}
-	
+
 	#aside .shared-links li#linkedin a {
 	/*background: url(../images/campus/ico-linkedin.jpg) top left no-repeat;*/
 	}
-	
+
 	#aside .shared-links li#facebook a.adaBorder,
 	#aside .shared-links li#twitter a.adaBorder {
 	padding-bottom: 4px;
 	}
-	
+
 	#aside .shared-links li#facebook a.adaBorder img,
 	#aside .shared-links li#twitter a.adaBorder img {
 	margin: 0 !important;
@@ -822,7 +836,7 @@
 	height: 16px !important;
 	/*background: url(../images/campus/ico-facebook.jpg) top left no-repeat;*/
 	}
-	
+
 	#aside .shared-links li#facebook p {
 	position: absolute;
 	margin: 0;
@@ -834,11 +848,11 @@
 	top: 49px;
 	left: 38px;
 	}
-	
+
 	#aside .shared-links li#twitter  {
 	/*background: url(../images/campus/ico-twitter.jpg) top left no-repeat;*/
 	}
-	
+
 	#aside .shared-links li#twitter p {
 	position: absolute;
 	margin: 0;
@@ -850,10 +864,13 @@
 	top: 68px;
 	left: 38px;
 	}
-			
+	
+	#main-profiles #aside p.explore-video-profile {
+	margin: 0 0 10px 0 !important;
+	padding-top: 0 !important;
+	}
+
 	#main-profiles #aside p.explore-video-profile a {
-	margin: 0 !important;
-	padding: 0 !important;
 	display: block;
 	font-size: 11px;
 	width: 179px;
@@ -869,16 +886,15 @@
 	text-decoration: none;
 	background-position: 0 -22px;
 	}
-	
+
 	/* right column for analyst, associates, intern profiles, - videos */
-	
+
 	/*#main-profiles #aside {
 	width: 218px;
 	margin-left: 30px;
 	margin-top: 43px;
 	}
-	
-	
+
 	#main-profiles #aside #video-content {
 	width: 213px;
 	height: 464px;
@@ -886,7 +902,7 @@
 	background: #f4f4f4 url(../images/campus/bkg-videocontent.jpg)left bottom no-repeat;
 	margin-bottom: 15px;
 	}
-	
+
 	#main-profiles #aside #video-content img.default-img,
 	#main-profiles #aside #video-content object {
 	margin: 0;
@@ -895,14 +911,13 @@
 	padding-top: 10px;
 	border: none;
 	}
-	
+
 	#main-profiles #aside #video-content table {
 	margin: 0;
 	padding: 0;
 	margin: 0 0 2px 3px;
 	}
-	
-	
+
 	#main-profiles #aside #video-content p {
 	margin: 0;
 	padding: 0;
@@ -910,56 +925,55 @@
 	font-size: .85em;
 	font-weight: bold;
 	margin-left: 5px;
-    }
-	
+	}
+
 	#main-profiles #aside #video-content p.padbot {
 	padding-bottom: 15px;
 	}
-	
+
 	#main-profiles #aside #video-content a.btn1:link {
 	color: #fff;
 	}
-	
+
 	#main-profiles #aside #video-content a.btn1:hover {
 	color: #fff !important;
 	text-decoration: underline !important;
 	}
-	
+
 	#main-profiles #aside #video-content a.btn1:visited {
 	color: #fff !important;
 	}
-	
+
 	#main-profiles #aside #video-content .transcript-content {
 	width: 200px;
 	padding: 0 5px 10px 5px;
 	}
-	
+
 	#main-profiles #aside #video-content .transcript-content p {
 	font-weight: normal;
 	padding-bottom: 7px;
 	}*/
-	
-	
+
 	/* === Find your Fit Page ===== */
-	
+
 	.find-your-fit {
 	width: 578px;
 	background: url(../images/campus/bkg-findyourfit-content.jpg) top left no-repeat;
 	margin-top: 8px;
 	}
-	
+
 	.find-your-fit h1 {
 	margin: 0;
 	padding: 0;
 	padding: 25px 0 5px 12px;
 	}
-	
+
 	.find-your-fit p {
 	margin: 0;
 	padding: 0;
 	padding: 0 15px 10px 12px;
 	}
-	
+
 	.find-your-fit-container {
 	margin: 25px 0 40px 0;
 	background: url(../images/campus/bkg-findyourfit-form.jpg) left bottom no-repeat;
@@ -974,25 +988,25 @@
 	height: 92px;
 	text-indent: -999em;
 	}
-	
+
 	#step1 h2 {
 	background: url(../images/campus/header-step1.jpg) top left no-repeat;
 	}
-	
+
 	#step2 h2 {
 	background: url(../images/campus/header-step2.jpg) top left no-repeat;
 	}
-	
+
 	#results h2 {
 	background: url(../images/campus/header-results.jpg) top left no-repeat;
 	}
-	
+
 	.find-your-fit-container fieldset {
 	border: none;
 	padding: 0 20px 0 160px;
 	color: #535353;
 	}
-	
+
 	.find-your-fit-container fieldset label,
 	.find-your-fit-container fieldset select,
 	.find-your-fit-container fieldset select option {
@@ -1002,24 +1016,24 @@
 	.find-your-fit-container fieldset#fyf-education {
 	background: url(../images/campus/ico-grad-cap.jpg) 20px 40px no-repeat;
 	}
-	
+
 	.find-your-fit-container fieldset#fyf-degree {
 	background: url(../images/campus/ico-diploma.jpg) 20px 40px no-repeat;
 	}
-	
+
 	.find-your-fit-container fieldset#fyf-enviroment {
 	padding-bottom: 10px;
 	background: url(../images/campus/ico-world.jpg) 20px 40px no-repeat;
 	}
-	
+
 	.find-your-fit-container fieldset#fyf-interests {
 	background: url(../images/campus/ico-stars.jpg) 20px top no-repeat;
 	}
-	
+
 	.find-your-fit-container fieldset#fyf-responsiblities {
 	background: url(../images/campus/ico-briefcase.jpg) 20px top no-repeat;
 	}
-	
+
 	.find-your-fit-container fieldset#fyf-opportunities {
 	background: url(../images/campus/ico-pen.jpg) 20px top no-repeat;
 	}
@@ -1030,11 +1044,11 @@
 	display: block;
 	padding: 20px 10px 5px 0;
 	}
-	
+
 	.find-your-fit-container fieldset#fyf-degree label span {
 	font-weight: normal; 
 	}
-	
+
 	.find-your-fit-container fieldset#fyf-degree select {
 	margin-left: 60px;
 	}
@@ -1043,7 +1057,7 @@
 	font-weight: bold;
 	padding: 20px 10px 5px 0;
 	}
-	
+
 	ul.sel-interest-options,
 	ul.sel-responsible-options,
 	ul.sel-opportunity-options {
@@ -1054,14 +1068,14 @@
 	list-style: none;
 	padding-right: 20px;
 	}
-	
+
 	ul.sel-interest-options label,
 	ul.sel-responsible-options label,
 	ul.sel-opportunity-options label {
 	font-weight: normal;
 	padding: 10px;
 	}
-	
+
 	#step1 input.btn-next,
 	#step2 input.btn-next {
 	font-size: 11px;
@@ -1075,18 +1089,18 @@
 	background: transparent url(../images/campus/btn-next.jpg) left 3px no-repeat;
 	cursor: pointer;
 	}
-	
+
 	.find-your-fit-container #results-container {
 	padding: 20px 20px 0 160px;
 	background: url(../images/campus/ico-results-page.jpg) 20px 20px no-repeat;
 	}
-	
+
 	.find-your-fit-container #results-container p {
 	margin: 0;
 	padding: 0;
 	padding-bottom: 10px;
 	}
-	
+
 	#results-container ul {
 	margin: 0;
 	padding: 0;
@@ -1094,11 +1108,11 @@
 	padding: 25px 0 25px 0;
 	list-style-image: none !important;
 	}
-	
+
 	#results-container li{
 	padding-bottom: 9px;
 	}
-	
+
 	.find-your-fit-container #results-container li a {
 	font-weight: bold;
 	}
@@ -1115,35 +1129,47 @@
 	background: transparent url(../images/campus/btn-tryagain.jpg) left 3px no-repeat;
 	cursor: pointer;
 	}
-	
+
 	.errormsg-top {
 	width: 360px;
 	background: transparent url(../images/campus/bkg-top-error.gif) top left no-repeat;
 	margin: 10px 20px 0 160px;
 	}
-	
+
 	.errormsg-bottom {
 	width: 360px;
 	padding: 10px 10px 0 50px;
 	background: transparent url(../images/campus/bkg-bottom-error.gif) bottom left no-repeat;
 	}
-	
+
 	.errormsg-top p {
 	margin: 0;
 	padding: 0;
 	}
-	
+
 	.errormsg-top ul {
 	margin: 0;
 	padding: 0;
 	padding: 8px 0 10px 25px;
 	}
-	
-	/* ====== Video Library Page ====== */
-	
-	
-	/* ====== Carousel Elements ====== */
 
+	/* ====== Video Library Page ====== */
+
+	/* ====== Carousel Elements ====== */
+	
+	/* .keyboard-focus {
+	outline: 2px yellow solid;
+	}
+
+	.video-modal.keyboard-focus {
+	outline: none;
+	border: 2px yellow solid;
+	} 
+	
+	.profile.current .video-modal.keyboard-focus img {
+	height: 108px;
+	} */
+	
 	#feature-wrapper { /* Hack: h1 issue */
 	position: relative;
 	}
@@ -1170,7 +1196,7 @@
 	}
 
 	.carousel.js {
-	visibility: hidden;
+	display: none;
 	height: 241px;
 	padding: 0;
 	background-image: url(../images/campus/carousel.png);
@@ -1192,6 +1218,10 @@
 	cursor: pointer;
 	}
 	
+	.carousel a.video-modal {
+	display: block;
+	}
+	
 	.carousel img, a.video img {
 	border: none;
 	}
@@ -1202,10 +1232,6 @@
 	-webkit-box-shadow: 0 2px 5px 0 #323132;
 	-moz-box-shadow: 0 2px 5px 0 #323132;
 	box-shadow: 0 2px 5px 0 #323132;
-	}
-	
-	.carousel .video-modal {
-	outline: none !important;
 	}
 
 	.carousel p a:link, .carousel p a:visited, .carousel p a:hover, .carousel p a:active {
@@ -1245,15 +1271,16 @@
 	background-position: left top;
 	background-repeat: no-repeat;
 	text-indent: -999em;
+	text-indent: -999em;
 	overflow: hidden;
 	}
 
 	#pager li#p-previous a {
-	background-image: url(../images/campus/btn-previous.gif);
+	background-image: url(../images/campus/btn-previous.gif)
 	}
 
 	#pager li#p-next a {
-	background-image: url(../images/campus/btn-next.gif);
+	background-image: url(../images/campus/btn-next.gif)
 	}
 
 
@@ -1265,18 +1292,18 @@
 	width: 577px;
 	background: transparent url(../images/campus/bkg-top-videocontent.jpg) top left no-repeat;
 	}
-	
+
 	#vl-thumbnails-container-bot {
 	float: left;
 	width: 577px;
 	color: #535353;
 	background: transparent url(../images/campus/bkg-bottom-videocontent.jpg) bottom left no-repeat;
 	}
-	
+
 	#vl-thumbnails-container img {
 	border: none;
 	}
-	
+
 	#vl-thumbnails-container h2 {
 	margin: 0;
 	padding: 0;
@@ -1284,8 +1311,7 @@
 	background: transparent url(../images/campus/bkg-header-videolibrary.jpg) 20px 4px no-repeat;
 	padding: 12px 0 20px 60px;
 	}
-	
-	
+
 	#vl-thumbnails-container fieldset {
 	position: absolute;
 	border: none;
@@ -1431,8 +1457,28 @@
 	padding: 0;
 	padding: 0 0 20px 5px;
 	}
+	
+	/* Alek's CSS (ported over from campus-video-library.css) */
+	
+	ul.video-pagination a:link {
+	text-decoration: none !important;
+	}
+
+	ul.video-pagination li a:hover {
+	font-weight:bold;
+	text-decoration: underline !important;
+	} 
+
+	ul.video-pagination:hover {
+	text-decoration: underline !important;
+	}
+
+	#maincontent a:hover {
+	text-decoration: underline !important;
+	}
 
 	/* ======== Explore America ======= */
+	
 	#maincontent #article.explore-americas {
 	width: 328px;
 	background: url(../images/campus/bkg-top-explore-am.jpg) left top no-repeat;
@@ -1447,45 +1493,42 @@
 	#maincontent #article.explore-americas p {
 	*padding-bottom: 7px;
 	}
-	
-	
+
 	#maincontent .explore-americas h1 {
 	margin: 0;
 	padding: 0;
 	}
-	
+
 	#maincontent .explore-americas p {
 	margin: 0;
 	padding: 0;
 	}
-	
+
 	#maincontent .explore-americas #programs {
-		width: 370px;
-		margin: 14px -30px 15px -12px;
+	width: 370px;
+	margin: 14px -30px 15px -12px;
 	}
-	
+
 	.ui-tabs-hide {
 	display: none;
 	}
-	
-	
+
 	#maincontent .explore-americas #programs ul.nav-programs  {
-		margin: 0;
-		padding: 0;
-
-		height: 33px;
-		list-style: none;
-		background: url(../images/campus/nav-explore-am.jpg) left top no-repeat;
+	margin: 0;
+	padding: 0;
+	width: 370px;
+    height: 33px;
+	list-style: none;
+	list-style-image: none;
+	background-image: url(../images/campus/nav-explore-am.jpg);
 	}
-	
 
-	
 	#maincontent .explore-americas #programs ul.nav-programs li {
 		float: left;
 		margin: 0;
 		padding: 0;
 	}
-	
+
 	#maincontent .explore-americas #programs ul.nav-programs li a {
 		display: block;
 		width: 100px;
@@ -1494,67 +1537,71 @@
 		line-height: 33px;
 		color: #333;
 		text-decoration: none;
-		background: url(../images/campus/nav-explore-am.jpg) left top no-repeat;
 		text-align: center;
 	}
-	
+
 	#maincontent .explore-americas #programs ul.nav-programs li a:hover {
 		color: #333;
 	}
-	
+
 	 #maincontent .explore-americas #programs ul.nav-programs li#nav-analyst a {
+		background-image: url(../images/campus/nav-explore-am.jpg);
+		background-repeat: no-repeat;
 		width: 80px;
 		background-position: 0 0;
 	}
-	
+
 	#maincontent .explore-americas #programs ul.nav-programs li#nav-analyst a:hover {
 		background-position: 0 -33px;
 	}
-	
+
 	#maincontent .explore-americas #programs ul.nav-programs li#nav-analyst.ui-tabs-selected a,
 	#maincontent .explore-americas #programs ul.nav-programs li#nav-analyst.ui-tabs-active a {
-		background-position: 0 -33px;
+	background-position: 0 -33px;
 	}
-	
+
 	#maincontent .explore-americas #programs ul.nav-programs li#nav-associate a {
-		width: 127px;
+		background-image: url(../images/campus/nav-explore-am.jpg);
+		background-repeat: no-repeat;
+		width: 123px;
 		background-position: -80px 0;
 	}
-	
+
 	#maincontent .explore-americas #programs ul.nav-programs li#nav-associate a:hover {
 		background-position: -80px -33px;
 	}
-	
+
 	#maincontent .explore-americas #programs ul.nav-programs li#nav-associate.ui-tabs-selected a,
 	#maincontent .explore-americas #programs ul.nav-programs li#nav-associate.ui-tabs-active a {
 		background-position: -80px -33px;
 	}
-	
+
 	#maincontent .explore-americas #programs ul.nav-programs li#nav-internships a {
-		width: 93px;
-		background-position: -207px 0;
-	}
-	
-	#maincontent .explore-americas #programs ul.nav-programs li#nav-internships a:hover {
-		background-position: -207px -33px;
-	}
-	
-	#maincontent .explore-americas #programs ul.nav-programs li#nav-internships.ui-tabs-selected a,
-	#maincontent .explore-americas #programs ul.nav-programs li#nav-internships.ui-tabs-active a {
-		background-position: -207px -33px;
+		background-image: url(../images/campus/nav-explore-am.jpg);
+		background-repeat: no-repeat;
+		width: 103px;
+		background-position: -203px 0;
 	}
 
+	#maincontent .explore-americas #programs ul.nav-programs li#nav-internships a:hover {
+		background-position: -203px -33px;
+	}
+
+	#maincontent .explore-americas #programs ul.nav-programs li#nav-internships.ui-tabs-selected a,
+	#maincontent .explore-americas #programs ul.nav-programs li#nav-internships.ui-tabs-active a {
+	background-position: -203px -33px;
+	}
 
 	#maincontent .explore-americas #programs .programs-content {
 	background: url(../images/campus/bkg-bottom-explore-am.jpg) left bottom no-repeat;
 	padding: 30px 20px;
 	}
-	
+
 	#maincontent .explore-americas #programs .programs-content h2 {
 	color: #333;
 	padding-bottom: 15px;
 	}
-	
+
 	#maincontent .explore-americas #programs .programs-content p.learnmore-button a {
 	display: block;
 	font-size: 11px;
@@ -1568,115 +1615,122 @@
 	cursor: pointer;
 	margin: 15px 0;
 	}
-	
+
 	#maincontent .explore-americas #programs .programs-content p.learnmore-button a:hover {
 	text-decoration: none;
 	background-position: 0 -22px;
 	}
-	
+
 	/* ======== Opportunities EMEA ======= */
-	
+
 	#maincontent #article.opportunities-emea {
 	width: 328px;
 	background: url(../images/campus/bkg-top-explore-am.jpg) left top no-repeat;
 	padding: 15px 30px 25px 12px;
 	margin-top: 8px;	
 	}
-	
+
 	#maincontent #article.opportunities-emea {
 	*width: 370px;
 	}
-	
+
 	#maincontent #article.opportunities-emea p {
 	*padding-bottom: 7px;
 	}
-	
+
 	#maincontent .opportunities-emea h1 {
 	margin: 0;
 	padding: 0;
 	}
-	
+
 	#maincontent .opportunities-emea p {
 	margin: 0;
 	padding: 0;
 	}
-	
+
 	#maincontent .opportunities-emea #programs {
 		width: 370px;
-		margin: 65px -30px 15px -12px;
+		margin: 62px -30px 15px -12px;
 	}
 	
 	#maincontent .opportunities-emea #programs ul.nav-programs  {
-		margin: 0;
-		padding: 0;
-		height: 30px;
-		list-style: none;
-		background: url(../images/campus/nav-explore-emea.jpg) left top no-repeat;
+	margin: 0;
+	padding: 0;
+	height: 30px;
+	list-style: none;
+	list-style-image: none;
+	background-image: url(../images/campus/nav-explore-emea.jpg);
 	}
 
 	#maincontent .opportunities-emea #programs ul.nav-programs li {
-		float: left;
-		margin: 0;
-		padding: 0;
+	float: left;
+	margin: 0;
+	padding: 0;
+
 	}
-	
+
 	#maincontent .opportunities-emea #programs ul.nav-programs li a {
-		display: block;
-		width: 100px;
-		height: 30px;
-		font-size: .85em;
-		font-weight: bold;
-		line-height: 30px;
-		color: #333;
-		text-decoration: none;
-		background: url(../images/campus/nav-explore-emea.jpg) left top no-repeat;
-		text-align: center;
+	display: block;
+	width: 100px;
+	height: 30px;
+	font-size: .85em;
+	font-weight: bold;
+	line-height: 30px;
+	color: #333;
+	text-decoration: none;
+	text-align: center;
 	}
-	
+
 	#maincontent .opportunities-emea #programs ul.nav-programs li a:hover {
 		color: #333;
 	}
 	
 	 #maincontent .opportunities-emea #programs ul.nav-programs li#nav-analyst a {
-		width: 71px;
-		background-position: 0 0;
+	background-image: url(../images/campus/nav-explore-emea.jpg);
+	background-repeat: no-repeat;
+	width: 70px;
+	background-position: 0 0;
 	}
 	
 	#maincontent .opportunities-emea #programs ul.nav-programs li#nav-analyst a:hover {
-		background-position: 0 -30px;
+	background-position: 0 -30px;
 	}
 	
 	#maincontent .opportunities-emea #programs ul.nav-programs li#nav-analyst.ui-tabs-selected a,
 	#maincontent .opportunities-emea #programs ul.nav-programs li#nav-analyst.ui-state-active a {
-		background-position: 0 -30px;
+	background-position: 0 -30px;
 	}
 	
 	#maincontent .opportunities-emea #programs ul.nav-programs li#nav-associate a {
-		width: 113px;
-		background-position: -71px 0;
+	background-image: url(../images/campus/nav-explore-emea.jpg);
+	background-repeat: no-repeat;
+	width: 112px;
+	background-position: -71px 0;
 	}
 	
 	#maincontent .opportunities-emea #programs ul.nav-programs li#nav-associate a:hover {
-		background-position: -71px -30px;
+	background-position: -71px -30px;
 	}
 	
 	#maincontent .opportunities-emea #programs ul.nav-programs li#nav-associate.ui-tabs-selected a,
 	#maincontent .opportunities-emea #programs ul.nav-programs li#nav-associate.ui-state-active a {
-		background-position: -71px -30px;
+	background-position: -71px -30px;
 	}
 	
 	#maincontent .opportunities-emea #programs ul.nav-programs li#nav-internships a {
-		width: 183px;
-		background-position: -185px 0;
+	background-image: url(../images/campus/nav-explore-emea.jpg);
+	background-repeat: no-repeat;
+	width: 181px;
+	background-position: -185px 0;
 	}
 	
 	#maincontent .opportunities-emea #programs ul.nav-programs li#nav-internships a:hover {
-		background-position: -185px -30px;
+	background-position: -185px -30px;
 	}
 	
 	#maincontent .opportunities-emea #programs ul.nav-programs li#nav-internships.ui-tabs-selected a,
 	#maincontent .opportunities-emea #programs ul.nav-programs li#nav-internships.ui-state-active a {
-		background-position: -185px -30px;
+	background-position: -185px -30px;
 	}
 
 	#maincontent .opportunities-emea #programs .programs-content {
@@ -1702,13 +1756,12 @@
 	cursor: pointer;
 	margin: 15px 0;
 	}
-	
+
 	#maincontent .opportunities-emea #programs .programs-content p.learnmore-button a:hover {
 	text-decoration: none;
 	background-position: 0 -22px;
 	}
-	
-	
+
 	/* ======= global gateway page =======*/
 	#global-gateway {
 	margin: 0;
@@ -1716,9 +1769,8 @@
 	width: 578px;
 	}
 
-	
 	/* ======= america homepage ======= */
-	
+
 	#america-home {
 	position: relative;
 	padding: 0;
@@ -1728,7 +1780,7 @@
 	color: #333;
 	background: url(../images/campus/bkg-america-home.jpg) left top no-repeat;
 	}
-	
+
 	#america-home p.link-header {
 	padding-top: 305px;
 	padding-left: 12px;
@@ -1736,7 +1788,7 @@
 	font-size: .75em;
 	color: #000;
 	}
-	
+
 	#america-home p.footnote-content {
 	padding-left: 232px;
 	padding-bottom: 50px;
@@ -1744,31 +1796,31 @@
 	color: #fff;
 	font-weight: bold;
 	}
-	
+
 	#america-home #article {
 	width: 490px;
 	}
-	
+
 	#america-home #article p {
 	font-size: .93em;
 	padding-bottom: 10px;
 	padding-left: 10px;
 	}
-	
+
 	#america-home #icon-home-buttons {
-    position: absolute;
-    width: 195px;
-    top: 340px;
-    left: 10px;
-    }
-    
-    #america-home #icon-home-buttons img {
-    border: none;
-    margin-right: 15px;
-    }
-	
+	position: absolute;
+	width: 195px;
+	top: 340px;
+	left: 10px;
+	}
+
+	#america-home #icon-home-buttons img {
+	border: none;
+	margin-right: 15px;
+	}
+
 	/* asia pac homepage */
-	
+
 	#asiapac-home {
 	position: relative;
 	padding: 0;
@@ -1778,7 +1830,7 @@
 	color: #333;
 	background: url(../images/campus/bkg-asiapac-homepage.jpg) left top no-repeat;
 	}
-	
+
 	#asiapac-home p.link-header {
 	padding-top: 307px;
 	padding-left: 12px;
@@ -1786,7 +1838,7 @@
 	font-size: .75em;
 	color: #000;
 	}
-	
+
 	#asiapac-home p.footnote-content {
 	padding-left: 232px;
 	padding-bottom: 50px;
@@ -1794,30 +1846,29 @@
 	color: #fff;
 	font-weight: bold;
 	}
-	
+
 	#asiapac-home #article {
 	width: 490px;
-    }
-	
+	}
+
 	#asiapac-home #article p {
 	font-size: .93em;
 	padding-bottom: 10px;
 	padding-left: 10px;
 	}
-	
+
 	#asiapac-home #icon-home-buttons {
-    position: absolute;
-    /*width: 195px;*/
-    top: 343px;
-    left: 10px;
-    }
-    
-    #asiapac-home #icon-home-buttons img {
-    border: none;
-    margin-right: 15px;
-    }
-	
-	
+	position: absolute;
+	/*width: 195px;*/
+	top: 343px;
+	left: 10px;
+	}
+
+	#asiapac-home #icon-home-buttons img {
+	border: none;
+	margin-right: 15px;
+	}
+
 	/* ======= emea homepage =======*/
 	
 	#emea-home {
@@ -1829,7 +1880,7 @@
 	color: #333;
 	background: url(../images/campus/bkg-emeahomepage.jpg) left top no-repeat;
 	}
-	
+
 	#emea-home p.link-header {
 	padding-top: 300px;
 	padding-left: 12px;
@@ -1837,7 +1888,7 @@
 	font-size: .75em;
 	color: #000;
 	}
-	
+
 	#emea-home p.footnote-content {
 	padding-left: 232px;
 	padding-bottom: 50px;
@@ -1845,37 +1896,36 @@
 	color: #fff;
 	font-weight: bold;
 	}
-	
+
 	#emea-home #article {
 	width: 490px;
 	}
-	
+
 	#emea-home #article p {
 	font-size: .93em;
 	padding-bottom: 10px;
 	padding-left: 10px;
 	}
-	
+
 	#emea-home #icon-home-buttons {
-    position: absolute;
-    /*width: 195px;*/
-    top: 333px;
-    left: 10px;
-    }
-    
-    #emea-home #icon-home-buttons img {
-    border: none;
-    margin-right: 15px;
-    }
-	
-	
+	position: absolute;
+	/*width: 195px;*/
+	top: 333px;
+	left: 10px;
+	}
+
+	#emea-home #icon-home-buttons img {
+	border: none;
+	margin-right: 15px;
+	}
+
 	#home-buttons {
 	position: absolute;
 	width: 190px;
 	top: 0;
 	right: 0;
 	}
-	
+
 	#home-buttons p {
 	margin: 0;
 	padding: 0;
@@ -1884,7 +1934,7 @@
 	font-size: 9px;
 	padding-left: 35px;
 	}
-	
+
 	#home-buttons ul {
 	margin: 0;
 	padding: 0;
@@ -1893,31 +1943,31 @@
 	padding-bottom: 5px;
 	padding-left: 35px;
 	}
-	
+
 	#home-buttons li {
 	font-family: Verdana, Helvetica, Arial, sans-serif;
 	color: #006bb7;
 	font-size: 9px;
 	line-height: 11px;
-    }
-    
-    #home-buttons li a {
+	}
+
+	#home-buttons li a {
 	font-family: Verdana, Helvetica, Arial, sans-serif !important;
 	font-size: 9px !important;
 	color: #006bb7 !important;
 	text-decoration: none;
-    }
+	}
 
 	#home-buttons img {
 	margin-bottom: 8px;
 	border: none;
 	}
-	
+
 	span.hiddencontent {
 	display: none;
 	}
 	/* ======career finder buttons ===*/
-	
+
 	#maincontent p.careerfinder-btn a {
 	display: block;
 	width: 168px;
@@ -1927,101 +1977,93 @@
 	color: #fff;
 	padding: 4px 0 0 6px;
 	text-decoration: none;
-	
 	}
-	
+
 	#maincontent p.careerfinder-btn a:hover {
 	background: url(../images/campus/btn-launchcareer.jpg) left -24px no-repeat;
 	color: #fff;
 	text-decoration: underline;
 	}
-	
+
 	#maincontent p.careerfinder-btn a:visited {
 	text-decoration: none !important;
 	color: #fff;
 	}
-	
-	
+
 	/*====== code for buttons on apply page ====*/
 
-#maincontent a.button, #maincontent a.button:visited, #maincontent a.button:hover, #maincontent a.button:active {
-background: transparent url(../images/campus/bg_button_a.gif) top right no-repeat;
-color:#333;
-display: block;
-float: left;
-font: bold 11px verdana, arial, sans-serif;
-height: 22px;
-margin-right:6px;
-padding-right: 12px;/* sliding doors padding */
-text-decoration: none;
-}
+	#maincontent a.button, #maincontent a.button:visited, #maincontent a.button:hover, #maincontent a.button:active {
+	background: transparent url(../images/campus/bg_button_a.gif) top right no-repeat;
+	color:#333;
+	display: block;
+	float: left;
+	font: bold 11px verdana, arial, sans-serif;
+	height: 22px;
+	margin-right:6px;
+	padding-right: 12px;/* sliding doors padding */
+	text-decoration: none;
+	}
 
+	#maincontent a.button span, #maincontent a.button:visited span, #maincontent a.button:hover span, #maincontent a.button:active span {
+	background: transparent url(../images/campus/bg_button_span.gif) no-repeat;
+	display: block;
+	line-height:15px;
+	padding: 2px 0 5px 12px;
+	} 
 
-#maincontent a.button span, #maincontent a.button:visited span, #maincontent a.button:hover span, #maincontent a.button:active span {
-background: transparent url(../images/campus/bg_button_span.gif) no-repeat;
-display: block;
-line-height:15px;
-padding: 2px 0 5px 12px;
-} 
+	#maincontent a.button:hover {
+	background: transparent url(../images/campus/bg_button_a.gif) center right no-repeat;
+	color: #d4001a;
+	}
 
+	#maincontent a.button:hover span {
+	background-position:center left;
+	padding: 2px 0 5px 12px;	
+	} 
 
-#maincontent a.button:hover {
-background: transparent url(../images/campus/bg_button_a.gif) center right no-repeat;
-color: #d4001a;
-outline: none; /* hide dotted outline in Firefox */
-}
+	#maincontent a.button:active {
+	background: transparent url(../images/campus/bg_button_a.gif) bottom right no-repeat;
+	color: #d4181a;
+	}
 
+	#maincontent a.button:active span {
+	background-position: bottom left;
+	padding: 3px 0 4px 12px;
+	} 
 
-#maincontent a.button:hover span {
-background-position:center left;
-padding: 2px 0 5px 12px;	
-} 
-#maincontent a.button:active {
-background: transparent url(../images/campus/bg_button_a.gif) bottom right no-repeat;
-color: #d4181a;
-outline: none;/* hide dotted outline in Firefox */
-}
+	/* INACTIVE BUTTON SPECIFIC STYLES */
 
-#maincontent a.button:active span {
-background-position: bottom left;
-padding: 3px 0 4px 12px;
-} 
+	#maincontent a.inactive {
+	background: transparent url(../images/campus/bg_fade-button_a.gif) top right no-repeat;
+	cursor: default;
+	color: #cdcdcd;
+	display: block;
+	float: left;
+	font: bold 11px verdana, arial, sans-serif;
+	height: 22px;
+	margin-right: 6px;
+	padding-right: 12px; /* sliding doors padding */
+	text-decoration: none;
+	}
 
+	#maincontent a.inactive:hover, #maincontent a.inactive:hover span {
+	cursor: default;
+	}
 
-/* INACTIVE BUTTON SPECIFIC STYLES */
-#maincontent a.inactive {
-background: transparent url(../images/campus/bg_fade-button_a.gif) top right no-repeat;
-cursor: default;
-color: #cdcdcd;
-display: block;
-float: left;
-font: bold 11px verdana, arial, sans-serif;
-height: 22px;
-margin-right: 6px;
-padding-right: 12px; /* sliding doors padding */
-text-decoration: none;
-}
+	#maincontent a.inactive span {
+	cursor: default;
+	background: transparent url(../images/campus/bg_fade-button_span.gif) no-repeat;
+	display: block;
+	line-height: 15px;
+	padding: 2px 0 5px 12px;
+	} 
 
+	#article p.buttonpad {
+	padding-bottom: 60px;
+	}
 
-#maincontent a.inactive:hover, #maincontent a.inactive:hover span {
-cursor: default;
-}
-
-#maincontent a.inactive span {
-cursor: default;
-background: transparent url(../images/campus/bg_fade-button_span.gif) no-repeat;
-display: block;
-line-height: 15px;
-padding: 2px 0 5px 12px;
-} 
-
-#article p.buttonpad {
-padding-bottom: 60px;
-}
-
-
-	
 	/* ============ footer =========*/
+
 	#profiles #red-footer,
 	#maincontent #red-footer,
 	#mop-maincontent #red-footer,
@@ -2029,9 +2071,8 @@ padding-bottom: 60px;
 	clear: both;
 	width: 578px;
 	background: url(../images/campus/bkg-footer.gif) no-repeat;
-	
 	}
-	
+
 	#profiles #red-footer p,
 	#maincontent #red-footer p,
 	#mop-maincontent #red-footer p,
@@ -2041,130 +2082,40 @@ padding-bottom: 60px;
 	font-weight: bold;
 	padding: 50px 0 60px 20px;
 	}
-	
-	/* ====== Dialog Elements ====== */
-	
-	body.blocked {
-	overflow: hidden;
-	}
 
-	.modal-screen {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	overflow:hidden;
-	background: #fff;
-	opacity: 0.7;
-	z-index: 1000001;
-	}
-
-	.modal-screen iframe {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	margin: 0;
-	padding: 0;
-	}
-
-	#dialog {
-	position: absolute;
-	top: 10%;
-	left: 50%;
-	width: 505px;
-	height: 397px;
-	background: url(../images/campus/modal-layer.png);
-	margin-left: -252px;
-	z-index: 1000002;
-	-webkit-border-radius: 12px;
-	-moz-border-radius: 12px;
-	border-radius: 12px; 
-	-webkit-box-shadow: 0 2px 2px 0 #323132;
-	-moz-box-shadow: 0 2px 2px 0 #323132;
-	box-shadow: 0 2px 2px 0 #323132;
-	}
-
-	#dialog .fn, #dialog .title , #dialog .org  {
-	margin: 0;
-	padding: 0 12px 0; 
-	color: #fff;
-	font-size: 9px;
-	font-weight: bold;
-	}
-
-	#dialog #dialog-title {
-	margin: 15px 0 3px;
-	font-size: 1.2em;
-	}
-
-	#dialog #video object {
-	margin: 15px 0 0 3px;
-	}
-	
-	#dialog #video object {
-	*margin-left: 6px;
-	}
-
-	.dialog-close {
-	position: absolute;
-	top: 9px;
-	right: 9px;
-	display: block;
-	width: 18px;
-	height: 18px;
-	background:url(../images/campus/btn-close.png) left top no-repeat;
-	text-indent: -999em;
-	text-decoration: none;
-	overflow: hidden;
-	}
-
-	.dialog-content, .dialog-footer {
-	clear: both;
-	overflow: auto;
-	}
-	
-	.ajax {
-	position: absolute;
-	top: -6px;
-	right: 9px;
-	display: block;
-	width: 18px;
-	height: 18px;
-	background: url(../images/campus/ico-ajax.gif) left top no-repeat;
-	text-indent: -999em;
-	z-index: 2;
-	overflow: hidden;
-	}
+	/* ====== HACKS ====== */
 
 	/* This is a hack for NET IE-FF issues. Do not EDIT!! */
-.MainHeadliner2
-{
-    <!--[if IE]>
-    
-    margin-left: -5px !important;
-    float:left;
-    height: 92px !important;
-    <![endif]-->
-}
 
-.find-your-fit-container2 {
-    margin: 15px 0 40px 0;
-    background: url(images/campus/bkg-findyourfit-formresult.jpg) left bottom no-repeat;
-   
-        position:relative;
-        top:0px;
-        height:692px !important;
-        margin-top:-20px;
-    
+	.MainHeadliner2 {
+	<!--[if IE]>
+
+	margin-left: -5px !important;
+	float:left;
+	height: 92px !important;
+
+	<![endif]-->
+	
 	}
-html>/**/body .find-your-fit-container2 {height:697px !important;width:577px;position: relative;
-    top: 91px !important;}
-/* end of NET HACK */
 
-	/* ===== Hacks ====== */
+	.find-your-fit-container2 {
+	margin: 15px 0 40px 0;
+	background: url(images/campus/bkg-findyourfit-formresult.jpg) left bottom no-repeat;
+	position:relative;
+	top:0px;
+	height:692px !important;
+	margin-top:-20px;
+	}
+
+	html>/**/body .find-your-fit-container2 {
+	height:697px !important;
+	width:577px;
+	position: relative;
+	top: 91px !important;}
+
+	/* end of NET HACK */
+
+/* ===== Hacks ====== */
 
 
 }

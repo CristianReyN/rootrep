@@ -1,6 +1,6 @@
 /* 
 	Bank of America - Global Functions
-	Michael Spellacy, Senior UI Developer <michael.spellacy@tmp.com>, TMP Worldwide, LLC
+	Author:  Michael "Spell" Spellacy, Lead User Interface Developer <michael.spellacy[at]tmp.com
 */
 
 /* ====== Supress BOM Script Errors ====== */
@@ -17,67 +17,17 @@ if(location.href.indexOf("localhost") == -1){
 
 }
 
-/* ====== Multiple Onload Utility ====== */
-
-function addLoadEvent(func) {
-
-	var oldonload = window.onload;
-
-	if (typeof window.onload != 'function') {
-
-		window.onload = func;
-
-	} else {
-
-		window.onload = function() {
-		oldonload();
-		func();
-
-		}
-
-	}
-
-}
-
-/* ====== Insert-after Function ====== */
-
-function insertAfter(newElement, targetElement) {
-
-	var parent = targetElement.parentNode;
-
-	if (parent.lastChild == targetElement) {
-
-		parent.appendChild(newElement);
-
-	} else {
-
-		parent.insertBefore(newElement, targetElement.nextSibling);
-
-	}
-
-}
-
 jQuery.noConflict()(function(){
 
 	if (jQuery("#programs").length)
 
-	jQuery("#programs").tabs(); // Tabs
+		jQuery("#programs").tabs(); // Tabs
 
 	/* ====== Transcripts ====== */
 	
 	jQuery("a.transcript").click(function() { // Transcript popup
 
-		var transcriptWindow = window.open(this.href,"win", 'toolbar=0,location=0,directories=0,status=0,menubar=1,scrollbars=yes,resizable=0,top=180,left=200,width=625,height=345');
-		//transcriptWindow.focus();
-		return false;
-
-	});
-
-	/* ====== Video ====== */
-	
-	jQuery("a.video").live("click", function() { // Transcript popup
-
-		jQuery.dialog(jQuery(this).attr("href") + "&r=" + new Date().getTime() + " #video"); // Pull in video
+		var transcriptWindow = window.open(this.href,"win", 'toolbar=0,location=0,directories=0,status=0,menubar=1,scrollbars=yes,resizable=1,top=180,left=200,width=625,height=345');
 		return false;
 
 	});
@@ -91,3 +41,50 @@ jQuery.noConflict()(function(){
 	});
 
 });
+
+function getcss(intelementID) { // Alex, please leave this function here, where it belongs. Thanks! Spell
+
+	switch (intelementID) {
+
+		case '0':
+		document.getElementById("video_select1").style.display = "block";
+		document.getElementById("video_select2").style.display = "none";
+		document.getElementById("video_select3").style.display = "none";
+		document.getElementById("video_select4").style.display = "none";
+		break;
+
+		case '1':
+		document.getElementById("video_select1").style.display = "none";
+		document.getElementById("video_select2").style.display = "block";
+		document.getElementById("video_select3").style.display = "none";
+		document.getElementById("video_select4").style.display = "none";
+		break;
+
+		case '2':
+		var str_option = document.getElementById("sel_videocategory").value;
+
+		switch (str_option) {
+
+			case '2':
+			document.getElementById("video_select1").style.display = "none";
+			document.getElementById("video_select2").style.display = "none";
+			document.getElementById("video_select3").style.display = "none";
+			document.getElementById("video_select4").style.display = "block";
+			break;
+		
+			case '3':
+			document.getElementById("video_select1").style.display = "block";
+			document.getElementById("video_select2").style.display = "none";
+			document.getElementById("video_select3").style.display = "none";
+			document.getElementById("video_select4").style.display = "none";
+			break;
+
+			case '4':
+			document.getElementById("video_select1").style.display = "none";
+			document.getElementById("video_select2").style.display = "none";
+			document.getElementById("video_select3").style.display = "block";
+			document.getElementById("video_select4").style.display = "none";
+			break;
+		}
+	}
+}

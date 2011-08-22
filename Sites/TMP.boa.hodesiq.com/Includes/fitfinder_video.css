@@ -61,13 +61,46 @@
 	font-family: Verdana, Helvetica, Arial, sans-serif;
 	}
 
+	/* This is a hack for NET IE-FF issues. Do not EDIT!! */
+.MainHeadliner2
+{
+    <!--[if IE]>
+    
+    margin-left: -5px !important;
+    float:left;
+    height: 92px !important;
+    <![endif]-->
+}
+
+.find-your-fit-container2 {
+    margin: 15px 0 40px 0;
+    background: url(../images/campus/bkg-findyourfit-formresult.jpg) left bottom no-repeat;
+   
+        position:relative;
+        top:0px;
+        height:692px !important;
+        margin-top:-20px;
+    
+	}
+html>/**/body .find-your-fit-container2 
+{
+    height:697px !important;
+    width:577px;
+    position: relative;
+    top: 91px !important;}
+    /* end of NET HACK */
+
+	/* ===== Hacks ====== */
+}
+
+
 	#profiles,
 	#maincontent,
 	#mop-maincontent,
 	#main-profiles {
 	position: relative;
 	padding: 0;
-	width: 618px;
+	width: 578px;
 	font-family: Verdana, Helvetica, Arial, sans-serif;
 	color: #333;
 	}
@@ -417,79 +450,6 @@
 	background-position: 0 -22px;
 	}
 	
-	
-	/* ======== meet the people pages ====== */
-	
-	/*#main-profiles #article {
-	width: 360px;
-	background: url(../images/campus/bkg-top-listmop.jpg) top left repeat-x;
-	}
-	
-	#main-profiles #article div.featured-profile {
-	width: 326px;
-	}
-	
-	#main-profiles #article div.featured-profile h2 {
-	margin: 0;
-	padding: 0;
-	font-family: Verdana, Helvetica, Arial, sans-serif;
-	font-size: 1.3em;
-	color: #333 !important;
-	padding-top: 15px;
-	}
-	
-	#main-profiles #article div.featured-profile p.learnlink {
-	text-align: right;
-	padding: 0 12px 20px 0;
-	clear: both;
-	}
-          	
-    #main-profiles #article div.mop-profile {
-	float: left;
-	position: relative;
-	border: 1px solid #9d9d9d;
-	background: url(../images/campus/bkg-mop-gradation.jpg) top left repeat-x;
-	margin-top: 10px;
-	width: 94px;
-	height: 165px;
-	margin-right: 12px;
-	margin-bottom: 15px;
-	} 
-	
-	#main-profiles #article div.mop-profile img {
-	margin: 0;
-	padding: 0;
-	display: block;
-	margin: 5px;
-	border: none;
-	}
-	
-	#main-profiles #article div.mop-profile h3 {
-	margin: 0;
-	padding: 0;
-	font-size: 1em;
-	color: #333;
-	font-weight: bold;
-	padding-left: 5px;
-	padding-left: 5px;
-	}
-	
-	#main-profiles #article div.mop-profile p {
-	margin: 0;
-	padding: 0;
-	font-size: .85em;
-	color: #333;
-	padding-right: 10px;
-	padding-left: 5px;
-	}
-	
-	#main-profiles #article div.mop-profile a {
-	position: absolute;
-	display: block;
-	bottom: 8px;
-	left: 5px;
-	}  */
-	
 	/* ======== analyst - associates - interns profile pages ====== */
 	
 	#main-profiles #article {
@@ -541,12 +501,6 @@
 	display: block;
 	margin: 12px 12px 12px 14px;
 	}
-	
-	/*#main-profiles #article .profile-article .profile-article-content {
-	width: 250px;
-	margin-left: 86px;
-	border: 1px red solid;
-	}*/
 	
 	#main-profiles #article .profile-article h2 {
 	margin: 0;
@@ -822,74 +776,6 @@
 	    width:480px !important;
 	    margin-left:10px;
 	}
-	/* right column for analyst, associates, intern profiles, - videos */
-	
-	/*#main-profiles #aside {
-	width: 218px;
-	margin-left: 30px;
-	margin-top: 43px;
-	}
-	
-	
-	#main-profiles #aside #video-content {
-	width: 213px;
-	height: 464px;
-	border: 1px solid #9d9d9d;
-	background: #f4f4f4 url(../images/campus/bkg-videocontent.jpg)left bottom no-repeat;
-	margin-bottom: 15px;
-	}
-	
-	#main-profiles #aside #video-content img.default-img,
-	#main-profiles #aside #video-content object {
-	margin: 0;
-	padding: 0;
-	margin-left:3px;
-	padding-top: 10px;
-	border: none;
-	}
-	
-	#main-profiles #aside #video-content table {
-	margin: 0;
-	padding: 0;
-	margin: 0 0 2px 3px;
-	}
-	
-	
-	#main-profiles #aside #video-content p {
-	margin: 0;
-	padding: 0;
-	color: #333;
-	font-size: .85em;
-	font-weight: bold;
-	margin-left: 5px;
-    }
-	
-	#main-profiles #aside #video-content p.padbot {
-	padding-bottom: 15px;
-	}
-	
-	#main-profiles #aside #video-content a.btn1:link {
-	color: #fff;
-	}
-	
-	#main-profiles #aside #video-content a.btn1:hover {
-	color: #fff !important;
-	text-decoration: underline !important;
-	}
-	
-	#main-profiles #aside #video-content a.btn1:visited {
-	color: #fff !important;
-	}
-	
-	#main-profiles #aside #video-content .transcript-content {
-	width: 200px;
-	padding: 0 5px 10px 5px;
-	}
-	
-	#main-profiles #aside #video-content .transcript-content p {
-	font-weight: normal;
-	padding-bottom: 7px;
-	}*/
 	
 	
 	/* === Find your Fit Page ===== */
@@ -947,15 +833,21 @@
 	}
 	
 	.find-your-fit-container  {
-	border: none;
 /*	padding: 0 20px 0 160px;  */
 	color: #535353;
 	}
+	
+	.find-your-fit-container p {
+    padding: 0;
+    margin: 0;
+	}
+	
 	
 	.find-your-fit-container  label,
 	.find-your-fit-container  select,
 	.find-your-fit-container  select option {
 	color: #535353 !important;
+	 
 	}
 	
 	.find-your-fit-container #fyf-education {
@@ -998,10 +890,6 @@
 	margin-left: 60px;
 	}
 
-	#step2 legend {
-	font-weight: bold;
-	padding: 20px 10px 5px 0;
-	}
 	
 	.sel-interest-options,
 	.sel-responsible-options,
@@ -1035,13 +923,14 @@
 	cursor: pointer;
 	}
 	
-	.find-your-fit-container #results-container {
-	padding: 20px 20px 0 160px;
+	.find-your-fit-container2 #results-container {
+	padding: 55px 50px 0 160px;
 	background: url(../images/campus/ico-results-page.jpg) 20px 20px no-repeat;
 	margin-top: -3px;
+	border: 1px red solid;
 	}
 	
-	.find-your-fit-container #results-container p {
+	.find-your-fit-container2 #results-container p {
 	margin-left: 10px;
 	padding: 0;
 	padding-bottom: 15px;
@@ -1065,6 +954,7 @@
 	padding-bottom: 15px;
 	width:400px !important; /* edited for NET version. DO NOT CHANGE */
 	}
+	
 	.find-your-fit-container #results-container li a {
 	font-weight: bold;
 	}
@@ -1081,6 +971,39 @@
 	background: transparent url(../images/campus/btn-tryagain.jpg) left 3px no-repeat;
 	cursor: pointer;
 	}
+	
+	.selenvironment,
+	#ctl00_cphmain_sel_environment {
+	width: 480px;
+	}
+	
+	 table.CheckBoxTester td input {
+       float: left;
+       }
+       
+       table.CheckBoxTester td label {
+       display: block;
+       padding: 5px 0 10px 20px;
+       }
+       
+       .fyf-interests table td input {
+       float: left;
+       }
+       
+       .fyf-interests table td label {
+       display: block;
+       padding: 5px 0 10px 20px;
+       }
+       
+       .fyf-responsibilities table td input {
+       float: left;
+       }
+       
+       .fyf-responsibilities table td label {
+       display: block;
+       padding: 5px 0 10px 20px;
+       }
+
 	
 	.errormsg-top {
 	width: 360px;
@@ -1955,32 +1878,3 @@ padding-bottom: 60px;
 	z-index: 2;
 	overflow: hidden;
 	}
-	/* This is a hack for NET IE-FF issues. Do not EDIT!! */
-.MainHeadliner2
-{
-    <!--[if IE]>
-    
-    margin-left: -5px !important;
-    float:left;
-    height: 92px !important;
-    <![endif]-->
-}
-
-.find-your-fit-container2 {
-    margin: 15px 0 40px 0;
-    background: url(../images/campus/bkg-findyourfit-formresult.jpg) left bottom no-repeat;
-   
-        position:relative;
-        top:0px;
-        height:692px !important;
-        margin-top:-20px;
-    
-	}
-html>/**/body .find-your-fit-container2 {height:697px !important;width:577px;position: relative;
-    top: 91px !important;}
-/* end of NET HACK */
-
-	/* ===== Hacks ====== */
-
-
-}
