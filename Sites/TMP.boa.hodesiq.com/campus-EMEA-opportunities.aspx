@@ -1,7 +1,6 @@
 ﻿<%@ Page Title="Bank of America | Careers | Campus Recruiting | EMEA Opportunities" Language="C#" MasterPageFile="~/BOAmaster.master" AutoEventWireup="true" CodeFile="campus-EMEA-opportunities.aspx.cs" Inherits="campus_EMEA_opportunities" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="cphmain" Runat="Server">
-<script type="text/javascript" src="http://utility.bankofamerica.com/uet/social_share2.js"></script>
 
 <link href="Includes/campus.css" type="text/css" rel="stylesheet" />
 
@@ -75,15 +74,20 @@
                   
 				  <a href="http://twitter.com/#!/BofA_Careers" target="_blank" title="Twitter. Link opens a new window"><img src="images/campus/btn-connect-twitter.jpg" width="179" height="76" alt="Stay Connected to Careers on Twitter" /></a> 
 				  
-				  <div class="shared-links">
-				  	<h2>Share this page:</h2>
-				  
-					 <ul>
-					  <li id="linkedin"> <script language="javascript" type="text/javascript">document.write(displayIcon("3","","","","","","","","Use this source for LinkedIn.","","","","",""));</script><p>LinkedIn</p></li>
-					  <li id="facebook"> <script language="javascript" type="text/javascript">document.write(displayIcon("1","","","","","","","","","","","career:jobsearch;jobdetails_<jobid>","",""));</script><p>Facebook</p></li>
-					  <li id="twitter"><script language="javascript" type="text/javascript">document.write(displayIcon("2","","","","","","","#Job opportunity at Bank of America: (LS) Senior Operational Risk Control Specialist - Jacksonville, FL : 110000...","","","","career:jobsearch;jobdetails_<jobid>","",""));</script><p>Twitter</p></li>
-					  </ul>
-				  </div>
+				  <script type="text/javascript" src="http://utility.bankofamerica.com/uet/social_share2.js"></script> 
+				<div class="rnw">    
+				    <div class="rnt">        
+				        <div class="rnb">            
+				            <div class="inner" id="showHTML">                
+				                <h2>Share this page:</h2>                    
+				                <div class="iwrap ss"> <script language="javascript" type="text/javascript">document.write(displayIcon("3", "Bank of America | Careers | Campus Recruiting | EMEA Opportunities", "", "", "", "", "", "", "", "Bank of America | Careers | Campus Recruiting | EMEA Opportunities", "", "Bank of America | Careers | Campus Recruiting | EMEA Opportunities", "1", ""));</script></div>
+				                <div class="iwrap ss"><script language="javascript" type="text/javascript">document.write(displayIcon("1", "Bank of America | Careers | Campus Recruiting | EMEA Opportunities", "", "", "", "", "", "", "", "", "", "Bank of America | Careers | Campus Recruiting | EMEA Opportunities", "1", ""));</script></div>                   
+				                <div class="iwrap ss"><script language="javascript" type="text/javascript">document.write(displayIcon("2", "Bank of America | Careers | Campus Recruiting | EMEA Opportunities", "", "", "", "", "", "Bank of America | Careers | Campus Recruiting | EMEA Opportunities", "", "", "", "Bank of America | Careers | Campus Recruiting | EMEA Opportunities", "1", ""));</script></div>            
+				                
+				             </div><!--/.inner-->        
+				         </div><!--/.rnb-->    
+				      </div><!--/.rnt--> 
+				    </div><!--/.rnw-->
       
                 </div>
                 <div id="red-footer"> 

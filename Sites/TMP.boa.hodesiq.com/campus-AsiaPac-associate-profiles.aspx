@@ -2,8 +2,6 @@
 
 <asp:Content ID="Content1" ContentPlaceHolderID="cphmain" Runat="Server">
 
-<script type="text/javascript" src="http://utility.bankofamerica.com/uet/social_share2.js"></script>
-
 <link href="Includes/campus.css" type="text/css" rel="stylesheet" />
 
          <div id="main-profiles">
@@ -18,7 +16,7 @@
 									
 									        <img src="images/campus/icon-DongLi.jpg" width="74" height="107" alt="Dong" />
 											<h2>Dong</h2>
-											<p>Global Investment Banking Associate Program</p>
+											<p class="progtitles">Global Investment Banking Associate Program</p>
 											<p>My assignment is to help a China-based real estate company with a Hong Kong Stock Exchange-listed acquisition.</p>
 											<p class="profile-link"><a href="campus-meet-our-people-profile-Dong.aspx" title="View Dong's Profile">View <span class="hiddencontent">Dong's</span> Profile</a></p>
 										<img src="images/campus/ico-doucment.jpg" class="video-text-icon" width="33" height="33" alt="document icon" />								
@@ -31,7 +29,7 @@
 										
 										    <img src="images/campus/icon-Narinder.jpg" width="74" height="107" alt="Narinder" />
 											<h2>Narinder</h2>
-											<p>Global Markets Associate Program</p>
+											<p class="progtitles">Global Markets Associate Program</p>
 											<p>I’m a Global Markets Associate and I work on a trading desk.</p>
 											<p class="profile-link"><a href="campus-video.aspx?id=7" class="video" title="View Narinder's Profile">View <span class="hiddencontent">Narinder's </span>Profile</a></p>
 											<p class="mop-transcript"><a href="campusrecruiting/video/Narinder/transcript.asp" class="transcript" title="View Narinder's Transcript">View <span class="hiddencontent">Narinder's </span>Transcript</a></p>
@@ -54,14 +52,21 @@
 					</ul>
 				  </div>
 				  <a href="http://twitter.com/#!/BofA_Careers" target="_blank"><img src="images/campus/btn-connect-twitter.jpg" width="179" height="64" alt="Stay Connected to Careers on Twitter" /></a>
-				  <div class="shared-links">
-				  	<h2>Share this page:</h2>
-				   <ul>
-					  <li id="linkedin"> <script language="javascript" type="text/javascript">document.write(displayIcon("3","","","","","","","","Use this source for LinkedIn.","","","","",""));</script><p>LinkedIn</</li>
-					  <li id="facebook"> <script language="javascript" type="text/javascript">document.write(displayIcon("1","","","","","","","","","","","career:jobsearch;jobdetails_<jobid>","",""));</script><p>Facebook</p></li>
-					  <li id="twitter"><script language="javascript" type="text/javascript">document.write(displayIcon("2","","","","","","","#Job opportunity at Bank of America: (LS) Senior Operational Risk Control Specialist - Jacksonville, FL : 110000...","","","","career:jobsearch;jobdetails_<jobid>","",""));</script><p>Twitter</p></li>
-					  </ul>
-				  </div>
+				  <script type="text/javascript" src="http://utility.bankofamerica.com/uet/social_share2.js"></script> 
+				<div class="rnw">    
+				    <div class="rnt">        
+				        <div class="rnb">            
+				            <div class="inner" id="showHTML">                
+				                <h2>Share this page:</h2>                    
+				                <div class="iwrap ss"> <script language="javascript" type="text/javascript">document.write(displayIcon("3", "Bank of America | Careers | Campus Recruiting | Explore Careers | Asia Pacific Associate &amp; PhD Programs", "", "", "", "", "", "", "", "Bank of America | Careers | Campus Recruiting | Explore Careers | Asia Pacific Associate &amp; PhD Programs", "", "Bank of America | Careers | Campus Recruiting | Explore Careers | Asia Pacific Associate &amp; PhD Programs", "1", ""));</script></div>
+				                <div class="iwrap ss"><script language="javascript" type="text/javascript">document.write(displayIcon("1", "Bank of America | Careers | Campus Recruiting | Explore Careers | Asia Pacific Associate &amp; PhD Programs", "", "", "", "", "", "", "", "", "", "Bank of America | Careers | Campus Recruiting | Explore Careers | Asia Pacific Associate &amp; PhD Programs", "1", ""));</script></div>                   
+				                <div class="iwrap ss"><script language="javascript" type="text/javascript">document.write(displayIcon("2", "Bank of America | Careers | Campus Recruiting | Explore Careers | Asia Pacific Associate &amp; PhD Programs", "", "", "", "", "", "Bank of America | Careers | Campus Recruiting | Explore Careers | Asia Pacific Associate &amp; PhD Programs", "", "", "", "Bank of America | Careers | Campus Recruiting | Explore Careers | Asia Pacific Associate &amp; PhD Programs", "1", ""));</script></div>            
+				                
+				             </div><!--/.inner-->        
+				         </div><!--/.rnb-->    
+				      </div><!--/.rnt--> 
+				    </div><!--/.rnw-->
+				    
             </div><!-- #aside -->
  
 		

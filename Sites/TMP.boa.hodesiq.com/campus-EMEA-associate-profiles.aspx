@@ -2,8 +2,6 @@
 
 <asp:Content ID="Content1" ContentPlaceHolderID="cphmain" Runat="Server">
 
-<script type="text/javascript" src="http://utility.bankofamerica.com/uet/social_share2.js"></script>
-
 <link href="Includes/campus.css" type="text/css" rel="stylesheet" />
 
 <div id="main-profiles">
@@ -18,7 +16,7 @@
 				
 				<img src="images/campus/icon-IrinaDolgova.jpg" width="74" height="107" alt="Irina" />					
 				<h2>Irina</h2>
-				<p>Global Markets Quantitative<br /> Analytics Associate Programme</p>
+				<p class="progtitles">Global Markets Quantitative Analytics Associate Programme</p>
 				<p>I am an Equity exotics quantitative researcher.</p>
 				<p class="profile-link"><a href="campus-meet-our-people-profile-Irina.aspx" title="View Irina's profile">View <span class="hiddencontent">Irina's</span> Profile</a></p>
 				<img src="images/campus/ico-doucment.jpg" class="video-text-icon" width="33" height="33" alt="document icon" />								
@@ -31,7 +29,7 @@
 				
 				<img src="images/campus/icon-Richard.jpg" width="74" height="107" alt="Richard" />						
 				<h2>Richard</h2>
-				<p>Global Corporate and Investment Banking Associate Programme</p>
+				<p class="progtitles">Global Corporate and Investment Banking Associate Programme</p>
 				<p>I am an Associate on the Corporate Finance team in Investment Banking.</p>
 				<p class="profile-link"><a href="campus-meet-our-people-profile-Richard.aspx" title="View Richard's profile">View <span class="hiddencontent">Richard's</span> Profile</a></p>
 				<img src="images/campus/ico-doucment.jpg" class="video-text-icon" width="33" height="33" alt="document icon" />								
@@ -44,7 +42,7 @@
 				<img src="images/campus/icon-Saumya.jpg" width="74" height="107" alt="Saumya" />
 										
 				<h2>Saumya</h2>
-				<p>Global Research Associate Programme</p>
+				<p class="progtitles">Global Research Associate Programme</p>
 				<p>I work for the Oil and Gas Research Team.</p>
 				<p class="profile-link"><a href="campus-video.aspx?id=9" class="video" title="View Saumya's profile">View <span class="hiddencontent">Saumya's </span>Profile</a></p>
 				<p class="mop-transcript"><a href="campusrecruiting/video/Saumya/transcript.asp" class="transcript" title="View Saumya's transcript">View <span class="hiddencontent">Saumya's </span>Transcript</a></p>						
@@ -68,14 +66,22 @@
 					</ul>
 				  </div>
 				  <a href="http://twitter.com/#!/BofA_Careers" target="_blank"><img src="images/campus/btn-connect-twitter.jpg" width="179" height="64" alt="Stay Connected to Careers on Twitter" /></a>
-				  <div class="shared-links">
-				  	<h2>Share this page:</h2>
-				   <ul>
-					  <li id="linkedin"> <script language="javascript" type="text/javascript">document.write(displayIcon("3","","","","","","","","Use this source for LinkedIn.","","","","",""));</script><p>LinkedIn</</li>
-					  <li id="facebook"> <script language="javascript" type="text/javascript">document.write(displayIcon("1","","","","","","","","","","","career:jobsearch;jobdetails_<jobid>","",""));</script><p>Facebook</p></li>
-					  <li id="twitter"><script language="javascript" type="text/javascript">document.write(displayIcon("2","","","","","","","#Job opportunity at Bank of America: (LS) Senior Operational Risk Control Specialist - Jacksonville, FL : 110000...","","","","career:jobsearch;jobdetails_<jobid>","",""));</script><p>Twitter</p></li>
-					  </ul>
-				  </div>
+				 <script type="text/javascript" src="http://utility.bankofamerica.com/uet/social_share2.js"></script> 
+				<div class="rnw">    
+				    <div class="rnt">        
+				        <div class="rnb">            
+				            <div class="inner" id="showHTML">                
+				                <h2>Share this page:</h2>                    
+				                <div class="iwrap ss"> <script language="javascript" type="text/javascript">document.write(displayIcon("3", "Bank of America | Careers | Campus Recruiting | Graduate Profiles | EMEA Associates Profiles", "", "", "", "", "", "", "", "Bank of America | Careers | Campus Recruiting | Graduate Profiles | EMEA Associates Profiles", "", "Bank of America | Careers | Campus Recruiting | Graduate Profiles | EMEA Associates Profiles", "1", ""));</script></div>
+				                <div class="iwrap ss"><script language="javascript" type="text/javascript">document.write(displayIcon("1", "Bank of America | Careers | Campus Recruiting | Graduate Profiles | EMEA Associates Profiles", "", "", "", "", "", "", "", "", "", "Bank of America | Careers | Campus Recruiting | Graduate Profiles | EMEA Associates Profiles", "1", ""));</script></div>                   
+				                <div class="iwrap ss"><script language="javascript" type="text/javascript">document.write(displayIcon("2", "Bank of America | Careers | Campus Recruiting | Graduate Profiles | EMEA Associates Profiles", "", "", "", "", "", "Bank of America | Careers | Campus Recruiting | Graduate Profiles | EMEA Associates Profiles", "", "", "", "Bank of America | Careers | Campus Recruiting | Graduate Profiles | EMEA Associates Profiles", "1", ""));</script></div>            
+				                
+				             </div><!--/.inner-->        
+				         </div><!--/.rnb-->    
+				      </div><!--/.rnt--> 
+				    </div><!--/.rnw-->
+				    
+				    
             </div><!-- #aside -->
 	
   <div id="red-footer"> 

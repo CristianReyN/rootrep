@@ -2,8 +2,6 @@
 
 <asp:Content ID="Content1" ContentPlaceHolderID="cphmain" Runat="Server">
 
-<script type="text/javascript" src="http://utility.bankofamerica.com/uet/social_share2.js"></script>
-
 <link href="Includes/campus.css" type="text/css" rel="stylesheet" />
 
 
@@ -18,7 +16,7 @@
 									<div class="profile-article-inside">
 									        <img src="images/campus/icon-GabrielNG.jpg" width="74" height="107" alt="Gabriel" />
 											<h2>Gabriel</h2>
-											<p>Global Investment Banking Analyst Program</p>
+											<p class="progtitles">Global Investment Banking Analyst Program</p>
 											<p>I am an analyst in the Mergers and Acquisitions Group in Hong Kong.</p>
 											<p class="profile-link"><a href="campus-meet-our-people-profile-Gabriel.aspx" title="View Gabriel's profile">View <span class="hiddencontent">Gabriel's</span> Profile</a></p>
 										    <img src="images/campus/ico-doucment.jpg" class="video-text-icon" width="33" height="33" alt="document icon" />								
@@ -31,7 +29,7 @@
 										
 										    <img src="images/campus/icon-Leonard.jpg" width="74" height="107" alt="Leonard" />
 											<h2>Leonard</h2>
-											<p>Global Treasury Solutions Associate Program</p>
+											<p class="progtitles">Global Treasury Solutions Associate Program</p>
 											<p>I work for Global Treasury Solutions, and we provide working capital and cash management solutions for our clients.</p>
 											<p class="profile-link"><a href="campus-video.aspx?id=6" class="video" title="View Leonard's profile">View <span class="hiddencontent">Leonard's </span>Profile</a></p>
 											<p class="mop-transcript"><a href="campusrecruiting/video/Leonard/transcript.asp" class="transcript" title="View Leonard's transcript">View <span class="hiddencontent">Leonard's </span>Transcript</a></p>
@@ -45,7 +43,7 @@
 									
 									    <img src="images/campus/icon-LipJinLee.jpg" width="74" height="107" alt="Lip Jin " />
 										<h2>Lip Jin</h2>
-										<p>Global Markets Analyst Program</p>
+										<p class="progtitles">Global Markets Analyst Program</p>
 										<p>I am the primary market maker for HG corporates/banks in Singapore.</p>
 										<p class="profile-link"><a href="campus-meet-our-people-profile-Lip-Jin.aspx" title="View Lip Jin's profile">View <span class="hiddencontent">Lip Jin's</span> Profile</a></p>
 										<img src="images/campus/ico-doucment.jpg" class="video-text-icon" width="33" height="33" alt="document icon" />									
@@ -58,7 +56,7 @@
 									
 									    <img src="images/campus/icon-LouiseJiang.jpg" width="74" height="107" alt="Louise" />
 										<h2>Louise</h2>
-										<p>Chief Financial Office Analyst Program</p>
+										<p class="progtitles">Chief Financial Office Analyst Program</p>
 										<p>Product controller for Strategic Investment Group desk.</p>
 										<p class="profile-link"><a href="campus-meet-our-people-profile-Louise.aspx" title="View Louise's profile">View <span class="hiddencontent">Louise's</span> Profile</a></p>
 										<img src="images/campus/ico-doucment.jpg" class="video-text-icon" width="33" height="33" alt="document icon" />									
@@ -71,7 +69,7 @@
 										    
 										    <img src="images/campus/icon-Patricia.jpg" width="74" height="107" alt="Patricia" />
 											<h2>Patricia</h2>
-											<p>Global Investment Banking Analyst Program</p>
+											<p class="progtitles">Global Investment Banking Analyst Program</p>
 											<p>I’m an Investment Banking Analyst in the Energy and Power Team. </p>
 											<p class="profile-link"><a href="campus-video.aspx?id=13" class="video" title="View Patricia's profile">View <span class="hiddencontent">Patricia's </span>Profile</a></p>
 											<p class="mop-transcript"><a href="campusrecruiting/video/Patricia/transcript.asp" class="transcript" title="View Patricia's transcript">View <span class="hiddencontent">Patricia's </span>Transcript</a></p>
@@ -85,7 +83,7 @@
 									
 									    <img src="images/campus/icon-ScottChui.jpg" width="74" height="107" alt="Scott" />
 										<h2>Scott</h2>
-										<p>Operations Analyst Program</p>
+										<p class="progtitles">Operations Analyst Program</p>
 										<p>I work on the MLX team, in charge of providing client service support for various e-commerce platforms within the company.</p>
 										<p class="profile-link"><a href="campus-meet-our-people-profile-Scott.aspx" title="View Scott's profile">View <span class="hiddencontent">Scott's</span> Profile</a></p>
 										<img src="images/campus/ico-doucment.jpg" class="video-text-icon" width="33" height="33" alt="document icon" />									
@@ -99,7 +97,7 @@
 									
 									    <img src="images/campus/icon-StanleyChan.jpg" width="74" height="107" alt="Stanley" />
 										<h2>Stanley</h2>
-										<p>Technology Analyst Program</p>
+										<p class="progtitles">Technology Analyst Program</p>
 										<p>I manage the technology team to support the Global Corporate and Investment Banking (GCIB) group in the Asia Pacific region.</p>
 										<p class="profile-link"><a href="campus-meet-our-people-profile-Stanley.aspx" title="View Stanley's profile">View <span class="hiddencontent">Stanley's</span> Profile</a></p>
 										<img src="images/campus/ico-doucment.jpg" class="video-text-icon" width="33" height="33" alt="document icon" />									
@@ -123,14 +121,21 @@
 					</ul>
 				  </div>
 				  <a href="http://twitter.com/#!/BofA_Careers" target="_blank"><img src="images/campus/btn-connect-twitter.jpg" width="179" height="64" alt="Stay Connected to Careers on Twitter" /></a>
-				  <div class="shared-links">
-				  	<h2>Share this page:</h2>
-				   <ul>
-					  <li id="linkedin"> <script language="javascript" type="text/javascript">document.write(displayIcon("3","","","","","","","","Use this source for LinkedIn.","","","","",""));</script><p>LinkedIn</</li>
-					  <li id="facebook"> <script language="javascript" type="text/javascript">document.write(displayIcon("1","","","","","","","","","","","career:jobsearch;jobdetails_<jobid>","",""));</script><p>Facebook</p></li>
-					  <li id="twitter"><script language="javascript" type="text/javascript">document.write(displayIcon("2","","","","","","","#Job opportunity at Bank of America: (LS) Senior Operational Risk Control Specialist - Jacksonville, FL : 110000...","","","","career:jobsearch;jobdetails_<jobid>","",""));</script><p>Twitter</p></li>
-					  </ul>
-				  </div>
+				 <script type="text/javascript" src="http://utility.bankofamerica.com/uet/social_share2.js"></script> 
+				<div class="rnw">    
+				    <div class="rnt">        
+				        <div class="rnb">            
+				            <div class="inner" id="showHTML">                
+				                <h2>Share this page:</h2>                    
+				                <div class="iwrap ss"> <script language="javascript" type="text/javascript">document.write(displayIcon("3", "Bank of America | Careers | Campus Recruiting | Meet Our People | Asia Pacific Analysts Profiles", "", "", "", "", "", "", "", "Bank of America | Careers | Campus Recruiting | Meet Our People | Asia Pacific Analysts Profiles", "", "Bank of America | Careers | Campus Recruiting | Meet Our People | Asia Pacific Analysts Profiles", "1", ""));</script></div>
+				                <div class="iwrap ss"><script language="javascript" type="text/javascript">document.write(displayIcon("1", "Bank of America | Careers | Campus Recruiting | Meet Our People | Asia Pacific Analysts Profiles", "", "", "", "", "", "", "", "", "", "Bank of America | Careers | Campus Recruiting | Meet Our People | Asia Pacific Analysts Profiles", "1", ""));</script></div>                   
+				                <div class="iwrap ss"><script language="javascript" type="text/javascript">document.write(displayIcon("2", "Bank of America | Careers | Campus Recruiting | Meet Our People | Asia Pacific Analysts Profiles", "", "", "", "", "", "Bank of America | Careers | Campus Recruiting | Meet Our People | Asia Pacific Analysts Profiles", "", "", "", "Bank of America | Careers | Campus Recruiting | Meet Our People | Asia Pacific Analysts Profiles", "1", ""));</script></div>            
+				                
+				             </div><!--/.inner-->        
+				         </div><!--/.rnb-->    
+				      </div><!--/.rnt--> 
+				    </div><!--/.rnw-->
+				    
             </div><!-- #aside -->
  
   <div id="red-footer"> 
