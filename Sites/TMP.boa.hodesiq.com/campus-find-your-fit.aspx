@@ -291,7 +291,7 @@
                                     <p><asp:DropDownList id="sel_employOpportunity"  runat="server" name="sel_employOpportunity" Width="380px">
                                         <asp:ListItem value="0">Please select level of employment opportunity</asp:ListItem>
                                         <asp:ListItem value="1">Full-time opportunities</asp:ListItem>
-                                        <asp:ListItem value="2">Rotational opportunities </asp:ListItem>
+                                        <asp:ListItem title="A structured program that moves you through different positions within a group." value="2">Rotational opportunities </asp:ListItem>
                                         <asp:ListItem value="3">Internship opportunities</asp:ListItem>
                                     </asp:DropDownList></p>                            
                                 <asp:label associatedcontrolid="sel_coursework" id="lbl_coursework" runat="server">I am also interested in (or have completed) coursework in:</asp:label><br />    
