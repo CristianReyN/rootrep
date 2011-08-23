@@ -435,78 +435,7 @@
 	background-position: 0 -22px;
 	}
 
-	/* ======== meet the people pages ====== */
 	
-	/*#main-profiles #article {
-	width: 360px;
-	background: url(images/campus/bkg-top-listmop.jpg) top left repeat-x;
-	}
-
-	#main-profiles #article div.featured-profile {
-	width: 326px;
-	}
-
-	#main-profiles #article div.featured-profile h2 {
-	margin: 0;
-	padding: 0;
-	font-family: Verdana, Helvetica, Arial, sans-serif;
-	font-size: 1.3em;
-	color: #333 !important;
-	padding-top: 15px;
-	}
-
-	#main-profiles #article div.featured-profile p.learnlink {
-	text-align: right;
-	padding: 0 12px 20px 0;
-	clear: both;
-	}
-
-	#main-profiles #article div.mop-profile {
-	float: left;
-	position: relative;
-	border: 1px solid #9d9d9d;
-	background: url(../images/campus/bkg-mop-gradation.jpg) top left repeat-x;
-	margin-top: 10px;
-	width: 94px;
-	height: 165px;
-	margin-right: 12px;
-	margin-bottom: 15px;
-	} 
-
-	#main-profiles #article div.mop-profile img {
-	margin: 0;
-	padding: 0;
-	display: block;
-	margin: 5px;
-	border: none;
-	}
-
-	#main-profiles #article div.mop-profile h3 {
-	margin: 0;
-	padding: 0;
-	font-size: 1em;
-	color: #333;
-	font-weight: bold;
-	padding-left: 5px;
-	padding-left: 5px;
-	}
-
-	#main-profiles #article div.mop-profile p {
-	margin: 0;
-	padding: 0;
-	font-size: .85em;
-	color: #333;
-	padding-right: 10px;
-	padding-left: 5px;
-	}
-
-	#main-profiles #article div.mop-profile a {
-	position: absolute;
-	display: block;
-	bottom: 8px;
-	left: 5px;
-	}  */
-
 	/* ======== analyst - associates - interns profile pages ====== */
 
 	#main-profiles #article {
@@ -581,6 +510,12 @@
 	font-size: .85em;
 	color: #333;
 	padding: 0 40px 8px 0;
+	
+	}
+	
+	#main-profiles #article .profile-article p.progtitles {
+	padding: 0 60px 8px 0;
+	
 	}
 
 	#main-profiles #article .profile-article a {
@@ -864,6 +799,87 @@
 	top: 68px;
 	left: 38px;
 	}
+	
+	
+	
+/* ======= shared links code ====== */
+	
+	
+div.rnw {    
+width: 179px;
+background: url(../images/campus/bkg-shared-links.jpg) top left no-repeat;
+border: 0 none;    
+margin: 0;    
+ } 
+
+div.rnt {    
+/*background: url("../images/layout/rnavt.gif") no-repeat scroll left top transparent;*/    
+border: 0 none;    
+margin: 0;    
+width: 179px; 
+} 
+
+div.rnb {    
+/*background: url("../images/layout/rnavb.gif") no-repeat scroll left bottom transparent;*/    
+border: 0 none;    
+margin: 0;
+padding-bottom: 10px;    
+width: 179px; 
+} 
+
+div#aside div.rnw div.inner {    
+margin: 0 12px;    
+padding: 12px 0 12px 0; 
+} 
+
+div#aside div.rnw div.inner h2 {    
+color: #5C5C5C;    
+font: 9px/11px Verdana,Geneva,Arial,Helvetica,sans-serif;      
+padding: 0;    
+text-decoration: none; 
+} 
+div#aside div.iwrap {    
+display: block;    
+height: 14px;    
+margin: 4px 0 0;    
+padding: 1px 0 0 4px; 
+} 
+
+#aside div.in {    
+background: url("../images/buttons/iLinkedIn.gif") no-repeat scroll left top transparent; 
+} 
+#aside div.if {    
+background: url("../images/buttons/iFacebook.gif") no-repeat scroll left top transparent; 
+} 
+#aside div.it {    
+background: url("../images/buttons/iTwitter.gif") no-repeat scroll left top transparent; 
+} 
+
+#aside div.ss {    
+padding: 2px 0 0; 
+} 
+
+#aside div.ss img {    
+margin: 0 6px 0 0;    
+vertical-align: middle; 
+} 
+
+#aside div.ss span {    
+padding: 2px 0 0;    
+vertical-align: middle; 
+} 
+#aside div.rnw a, #aside div.rnw a:link, #aside div.rnw a:active, #aside div.rnw a:visited {    
+color: #5C5C5C;    
+font: bold 9px/11px Verdana,Geneva,Arial,Helvetica,sans-serif;    
+padding: 0;    
+text-decoration: none; 
+} 
+#aside div.rnw a:hover, #aside div.rnw a.over {    
+color: #333333;    
+text-decoration: underline; 
+}
+
+
 	
 	#main-profiles #aside p.explore-video-profile {
 	margin: 0 0 10px 0 !important;
