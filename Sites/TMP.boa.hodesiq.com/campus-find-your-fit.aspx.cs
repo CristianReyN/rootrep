@@ -226,9 +226,7 @@ public partial class campus_find_your_fit : System.Web.UI.Page
 
     protected void Page_Load(object sender, EventArgs e)
     {
-
         sel_employOpportunity.Items[2].Attributes.Add("title", "A structured program that moves you through different positions within a group.");
-
 
         if (IsPostBack)
         {
