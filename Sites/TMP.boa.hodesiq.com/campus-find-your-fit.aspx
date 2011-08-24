@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" ValidateRequest="false" AutoEventWireup="true" CodeFile="campus-find-your-fit.aspx.cs" Inherits="campus_find_your_fit" MasterPageFile="~/BOAmaster.master" %>
+﻿<%@ Page Language="C#" ValidateRequest="false" AutoEventWireup="true" CodeFile="campus-find-your-fit.aspx.cs" Inherits="campusfindyourfit" MasterPageFile="~/BOAmaster.master" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="cphmain" Runat="Server">
 <!-- Body-->
 

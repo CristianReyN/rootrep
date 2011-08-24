@@ -11,7 +11,7 @@ using System.Web.UI.WebControls.WebParts;
 using System.Xml;
 
 
-public partial class campus_find_your_fit : System.Web.UI.Page
+public partial class campusfindyourfit : System.Web.UI.Page
 {
     public string str_URL1;
     public string str_URL2;
