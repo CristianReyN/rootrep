@@ -494,21 +494,21 @@
                                         <p>Based on your answers, you may find one of the following areas to be the best fit for you:</p>
                                        
                                         <ul>
-								         <li><a href="http://careers.bankofamerica.com/campusrecruiting<%=str_URL1 %>"><%=str_result1 %>
+								         <li><a href="<%=str_URL1 %>"><%=str_result1 %>
 								             </a></li>
-								         <li><a href="http://careers.bankofamerica.com/campusrecruiting<%=str_URL2 %>"> 
+								         <li><a href="<%=str_URL2 %>"> 
 								                <%=str_result2 %>
 								             </a></li>
-								         <li><a href="http://careers.bankofamerica.com/campusrecruiting<%=str_URL3 %>">
+								         <li><a href="<%=str_URL3 %>">
 								                <%=str_result3 %>
 								             </a></li>
-								         <li><a href="http://careers.bankofamerica.com/campusrecruiting<%=str_URL4 %>">
+								         <li><a href="<%=str_URL4 %>">
 								                <%=str_result4 %>
 								             </a></li>
-								         <li><a href="http://careers.bankofamerica.com/campusrecruiting<%=str_URL5 %>">
+								         <li><a href="<%=str_URL5 %>">
 								                <%=str_result5 %>
 								             </a></li>
-								         <li><a href="http://careers.bankofamerica.com/campusrecruiting<%=str_URL6 %>">
+								         <li><a href="<%=str_URL6 %>">
 								                <%=str_result6 %>
 								             </a></li>
 								          </ul>    			            
