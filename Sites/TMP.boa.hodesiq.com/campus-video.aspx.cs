@@ -24,6 +24,8 @@ public partial class campus_video : System.Web.UI.Page
 
     protected void Page_Load(object sender, EventArgs e)
     {
+        
+
         if (!string.IsNullOrEmpty(Request.QueryString["id"]))
         {
             int_videoid = int.Parse(Request.QueryString["id"].ToString());
@@ -153,6 +155,24 @@ public partial class campus_video : System.Web.UI.Page
 
         }
 
+    }
+
+    protected void Page_PreRender(object sender, EventArgs e)
+    {
+        Literal LitCreateSafeButton = (Literal)Page.Master.FindControl("LitCreateSafeButton");
+        LitCreateSafeButton.Text = @"<link href='Includes/hs_safebutton.css' type='text/css' rel='stylesheet' />
+
+        <script src='Includes/hs_safebutton.js' language='JavaScript' type='text/javascript'></script>
+
+        <script language='JavaScript' type='text/javascript'>
+
+        <!--
+
+        create_safebutton_tmp('Search','javascript: submit_search();',0,0,0,0,'Search');
+
+        //-->
+
+        </script>";
     }
 
 }
