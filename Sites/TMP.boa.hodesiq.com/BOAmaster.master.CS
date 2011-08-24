@@ -12,105 +12,103 @@ using System.Web.UI.HtmlControls;
 /// <summary>
 /// Summary description for BOAmaster
 /// </summary>
-public partial class BOAmaster : System.Web.UI.MasterPage
-    {
-
+public partial class BOAmaster : System.Web.UI.MasterPage 
+{
+    public string jobsearchColor = "#eaf1f7;";
+    public string ceventsColor = "#cadceb;";
+    public string breadCrum = " | Job Search";
     public bool IsCampusEvents = false;
     public bool IsJobDetails = false;
-    string strPageName = "";
-    string strContent = "";
-
-    string constring = @"file name=D:\data\db\boa.udl";
-    string strMetaKeyWords = "";
-
-    public string PageMetaKeywords
-        {
-        get { return strMetaKeyWords; }
-        set { strMetaKeyWords = value; }
-        }
-
-    public string PageTitle
-        {
-        get { return strPageName; }
-        set { value = strPageName; }
-        }
-
-    public string PageMetaDescription
-        {
-        get { return strContent; }
-        set { value = strContent; }
-        }
 
     protected void Page_Load(object sender, EventArgs e)
-        {
+    {
         this.ltrlCorremetrixScripts.Text = "";
-
+        string strPageName = "";
+        string strContent = "";
         int intPage = 1; // true
-
-        string sPath = System.Web.HttpContext.Current.Request.Url.AbsolutePath;
-        string querstring = System.Web.HttpContext.Current.Request.Url.Query;
-        System.IO.FileInfo oInfo = new System.IO.FileInfo(sPath);
-        string sRet = oInfo.Name + querstring;
-
-        DataTable dt = GetPageNavigationOrder(sRet);
-
-        if (dt.Rows.Count > 0)
-            {
-            strContent = dt.Rows[0]["PageMetaTags"].ToString();
-            strPageName = dt.Rows[0]["PageTitle"].ToString();
-            strMetaKeyWords = dt.Rows[0]["PageMetaKeywords"].ToString();
-            }
-        // if the page is not found with query string try w/o the query string
+        if (Request.ServerVariables["SCRIPT_NAME"].IndexOf("jobsearch.aspx", StringComparison.CurrentCultureIgnoreCase) > 0)
+        {
+            strContent = "Main page for job search functionality for careers site.";
+			strPageName = "Guided Job Search";
+        }
+        else if (Request.ServerVariables["SCRIPT_NAME"].IndexOf("AdvanceSearch.aspx", StringComparison.CurrentCultureIgnoreCase) > 0)
+        {
+            strContent = "Search page is more detailed for the user to define their search further choosing language, shift, willingness to travel and shift.";
+            strPageName = "Advanced Job Search";
+        }
+        else if (Request.ServerVariables["SCRIPT_NAME"].IndexOf("Jobcart.aspx", StringComparison.CurrentCultureIgnoreCase) > 0)
+        {
+            strContent = "Allows users to place specific jobs for storage until they decide to either apply for the position or remove.";
+            strPageName = "Job Cart";
+        }
+        else if (Request.ServerVariables["SCRIPT_NAME"].IndexOf("JobDetails.aspx", StringComparison.CurrentCultureIgnoreCase) > 0)
+        {
+            strContent = "Page entails detailed description of positions within Bank of America.  Also the user is able to add the job to a job cart, apply, send the job to a friend or return to the job listing.";
+            strPageName = "Job Details";
+            IsJobDetails = true;
+        }
+		else if (Request.ServerVariables["SCRIPT_NAME"].IndexOf("Tell_a_friend.aspx", StringComparison.CurrentCultureIgnoreCase) > 0)
+		{
+            strContent = "Allows users to send the job to a friend.";
+            strPageName = "Tell a Friend";
+		}
+        else if (Request.ServerVariables["SCRIPT_NAME"].IndexOf("CampusEvents.aspx", StringComparison.CurrentCultureIgnoreCase) > 0)
+        {
+            jobsearchColor = "#cadceb;";
+            ceventsColor = "#eaf1f7;";
+            breadCrum = " | Campus Recruiting | Campus Events";
+            strContent = "Campus Events Overview page on campus site. Includes a searchable guide (with times, dates and locations) to the Bank's many visits to college and universities in the U.S and internationally.";
+            IsCampusEvents = true;
+        }
+        else if (Request.ServerVariables["SCRIPT_NAME"].IndexOf("appl_with_disabilities.aspx", StringComparison.CurrentCultureIgnoreCase) > 0)
+        {
+            strContent = "Main page for job search functionality for careers site.";
+            breadCrum = " | Job Search | Applicants with Disabilities";
+        }
+        else if ((Request.ServerVariables["SCRIPT_NAME"].IndexOf("campus-meet-our-people-profile-Gemma.aspx", StringComparison.CurrentCultureIgnoreCase) > 0) || (Request.ServerVariables["SCRIPT_NAME"].IndexOf("campus-meet-our-people-profile-Richard.aspx", StringComparison.CurrentCultureIgnoreCase) > 0)) 
+        {
+            strContent = "Universal Campus Profile Description page for the Campus Recruiting site. This page displays the background and information about the experiences of a Bank of America Merrill Lynch analyst, associate or intern.";
+            breadCrum = " | Campus Recruiting | Meet Our People";
+        }
         else
-            {
-            dt = GetPageNavigationOrder(oInfo.Name);
-            if (dt.Rows.Count > 0)
-                {
-                strContent = dt.Rows[0]["PageMetaTags"].ToString();
-                strPageName = dt.Rows[0]["PageTitle"].ToString();
-                strMetaKeyWords = dt.Rows[0]["PageMetaKeywords"].ToString();
-                }
-
-            }
-
-        Page.Title = PageTitle;
-        this.metadescription.Attributes["content"] = PageMetaDescription;
-        HtmlMeta meta = (HtmlMeta)Page.Header.FindControl("metakeywords");
-        meta.Attributes["content"] = PageMetaKeywords; ;
-
-        BuildCorremetrixScripts(intPage, strPageName);
+        {
+            strContent = "Main page for job search functionality for careers site.";
+            strPageName = "Job Search";
+            intPage = 0; // false
         }
 
-    protected DataTable GetPageNavigationOrder(string pagename)
-        {
-        object[] Parameters = new object[1];
-        Parameters[0] = pagename;
+        BuildCorremetrixScripts(strPageName, strContent, intPage);
 
-        DataSet DS;
+        LitCreateSafeButton.Text = @"<link href='Includes/hs_safebutton.css' type='text/css' rel='stylesheet' />
+        <script src='Includes/hs_safebutton.js' language='JavaScript' type='text/javascript'></script>
+        <script language='JavaScript' type='text/javascript'>
+        <!--
+        create_safebutton('Search','javascript: submit_search();',0,0,0,0,'Search');
+        //-->
+        </script>";
+    }
 
-        DS = OleDbHelper.ExecuteDataset(constring, "p_GetBOAPageNavigationOrder", Parameters);
+    
 
-        return DS.Tables[0];
-
-        }
-
-    protected void BuildCorremetrixScripts(int intPage, string strPageName)
-        {
+    protected void BuildCorremetrixScripts(string strPageName, string strContent, int intPage)   
+	{
 
         string strScript = "";
-
+        this.metadescription.Attributes["content"] = strContent;
+        this.Page.Title = "Bank of America | Careers | " + strPageName;
+        
         strScript = "<!-- BEGIN COREMETRICS SUPPORT -->" + System.Environment.NewLine;
         strScript += "<script language='javascript1.1' src='http://www.bankofamerica.com/coremetrics/v40/eluminate.js'  type='text/javascript'></script>" + System.Environment.NewLine;
         strScript += "<script language='javascript1.1' src='http://www.bankofamerica.com/coremetrics/cmdatatagutils.js' type='text/javascript'></script>" + System.Environment.NewLine;
         strScript += "<script language='javascript1.1' type='text/javascript'>" + System.Environment.NewLine;
         strScript += "//<!—" + System.Environment.NewLine;
-        if (ConfigurationManager.AppSettings["StrAppServerName"] == "PRO" && intPage == 1)
-        { strScript += "cmSetProduction();" + System.Environment.NewLine; }
-        strScript += "cmCreatePageviewTag('" + strPageName + "', null, null, 'career:jobsearch');" + System.Environment.NewLine; //, false, false, null, false, false, null, null, null
+        if (ConfigurationManager.AppSettings["StrAppServerName"] == "PRO" && intPage == 1) 
+           {strScript += "cmSetProduction();" + System.Environment.NewLine;}
+        strScript += "cmCreatePageviewTag('Career | " + strPageName + "', null, null, 'career:jobsearch');" + System.Environment.NewLine; //, false, false, null, false, false, null, null, null
         strScript += "//-->" + System.Environment.NewLine;
         strScript += "</script>" + System.Environment.NewLine;
         strScript += "<!-- END COREMETRICS -->" + System.Environment.NewLine;
 
         this.ltrlCorremetrixScripts.Text = strScript;
-        }
-    }
+	}
+}
