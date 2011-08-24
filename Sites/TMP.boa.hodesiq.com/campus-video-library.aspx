@@ -95,42 +95,42 @@
 
 						<a href="campus-video.aspx?id=1" class="video"><img src="images/campus/tn-anton.png" width="160" height="100" alt="Play video for Anton, HR Development Program" /></a>
 
-						<p class="transcript-link"><a href="campusrecruiting/video/Anton/transcript.asp" class="transcript" title="View transcript for Anton">View transcript</a></p>
+						<p class="transcript-link"><a href="campusrecruiting/video/Anton/transcript.asp" class="transcript" title="View transcript for Anton">View <span class="hiddencontent">Anton's</span> transcript</a></p>
 
 					</li>
 					<li class="image-howard">
 
 						<a href="campus-video.aspx?id=3" class="video"><img src="images/campus/tn-howard.png" width="160" height="100" alt="Play video for Howard, Global Markets Sales and Trading Associate Program" /></a>
 
-						<p class="transcript-link"><a href="campusrecruiting/video/Howard/transcript.asp" class="transcript" title="View transcript for Howard">View transcript</a></p>
+						<p class="transcript-link"><a href="campusrecruiting/video/Howard/transcript.asp" class="transcript" title="View transcript for Howard">View <span class="hiddencontent">Howard's</span> transcript</a></p>
 
 					</li>
 					<li>
 
 						<a href="campus-video.aspx?id=4" class="video"><img src="images/campus/tn-jarrod.png" width="160" height="100" alt="Play video for Jarrod, Applied Technology Program" /></a>
 
-						<p class="transcript-link"><a href="campusrecruiting/video/Jarrod/transcript.asp" class="transcript" title="View transcript for Jarrod">View transcript</a></p>
+						<p class="transcript-link"><a href="campusrecruiting/video/Jarrod/transcript.asp" class="transcript" title="View transcript for Jarrod">View <span class="hiddencontent">Jarrod's</span> transcript</a></p>
 
 					</li>
 					<li>
 
 						<a href="campus-video.aspx?id=5" class="video"><img src="images/campus/tn-Kaitlyn.png" width="160" height="100" alt="Play video for Kaitlyn, Global Markets Sales and Trading Analyst Program" /></a> 
 
-						<p class="transcript-link"><a href="campusrecruiting/video/Kaitlyn/transcript.asp" class="transcript" title="View transcript for Kaitlyn">View transcript</a></p>
+						<p class="transcript-link"><a href="campusrecruiting/video/Kaitlyn/transcript.asp" class="transcript" title="View transcript for Kaitlyn">View <span class="hiddencontent">Kaitlyn's</span> transcript</a></p>
 
 					</li>
 					<li class="image-Kevin">
 
 						<a href="campus-video.aspx?id=12" class="video"><img src="images/campus/tn-Kevin.png" width="160" height="100" alt="Play video for Kevin, Consumer MBA Program" /></a>
 
-						<p class="transcript-link"><a href="campusrecruiting/video/Kevin/transcript.asp" class="transcript" title="View transcript for Kevin">View transcript</a></p>
+						<p class="transcript-link"><a href="campusrecruiting/video/Kevin/transcript.asp" class="transcript" title="View transcript for Kevin">View <span class="hiddencontent">Kevin's</span> transcript</a></p>
 
 					</li>
 					<li class="image-Leonard">
 
 						<a href="campus-video.aspx?id=6" class="video"><img src="images/campus/tn-Leonard.png" width="160" height="100" alt="Play video for Leonard, Global Treasury Solutions Associate Program" /></a>
 
-						<p class="transcript-link"><a href="campusrecruiting/video/Leonard/transcript.asp" class="transcript" title="View transcript for Leonard">View transcript</a></p>
+						<p class="transcript-link"><a href="campusrecruiting/video/Leonard/transcript.asp" class="transcript" title="View transcript for Leonard">View <span class="hiddencontent">Leonard's</span> transcript</a></p>
 
 					</li>
 				</ul>
@@ -163,42 +163,42 @@
 
 						<a href="campus-video.aspx?id=7" class="video"><img src="images/campus/tn-Narinder.png" width="160" height="100" alt="Play video for Narinder, Global Markets Associate Program" /></a>
 
-						<p class="transcript-link"><a href="campusrecruiting/video/Narinder/transcript.asp" class="transcript" title="View transcript for Narinder">View transcript</a></p>
+						<p class="transcript-link"><a href="campusrecruiting/video/Narinder/transcript.asp" class="transcript" title="View transcript for Narinder">View <span class="hiddencontent">Narinder's</span> transcript</a></p>
 
 					</li>
 					<li class="image-Nichole">
 
 						<a href="campus-video.aspx?id=8" class="video"><img src="images/campus/tn-nichola.png" width="160" height="100" alt="Play video for Nichola, International Corporate Treasury Analyst Programme" /></a>
 
-						<p class="transcript-link"><a href="campusrecruiting/video/Nichole/transcript.asp" class="transcript" title="View transcript for Nichola">View transcript</a></p>
+						<p class="transcript-link"><a href="campusrecruiting/video/Nichole/transcript.asp" class="transcript" title="View transcript for Nichola">View <span class="hiddencontent">Nichola's</span> transcript</a></p>
 
 					</li>
 					<li class="image-Patricia">
 
 						<a href="campus-video.aspx?id=13" class="video"><img src="images/campus/tn-Patricia.png" width="160" height="100" alt="Play video for Patricia, Global Investment Banking Analyst Program" /></a>
 
-						<p class="transcript-link"><a href="campusrecruiting/video/Patricia/transcript.asp" class="transcript" title="View transcript for Patricia">View transcript</a></p>
+						<p class="transcript-link"><a href="campusrecruiting/video/Patricia/transcript.asp" class="transcript" title="View transcript for Patricia">View <span class="hiddencontent">Patricia's</span> transcript</a></p>
 
 					</li>
 					<li  class="image-Saumya">
 
 						<a href="campus-video.aspx?id=9" class="video"><img src="images/campus/tn-Saumya.png" width="160" height="100" alt="Play video for Saumya, Global Research Associate Programme" /></a> 
 
-						<p class="transcript-link"><a href="campusrecruiting/video/Saumya/transcript.asp" class="transcript" title="View transcript for Saumya">View transcript</a></p>
+						<p class="transcript-link"><a href="campusrecruiting/video/Saumya/transcript.asp" class="transcript" title="View transcript for Saumya">View <span class="hiddencontent">Saumya's</span> transcript</a></p>
 
 					</li>
 					<li class="image-Tanvi">
 
 						<a href="campus-video.aspx?id=10" class="video"><img src="images/campus/tn-Tanvi.png" width="160" height="100" alt="Play video for Tanvi, Technology Analyst Programme" /></a>
 
-						<p class="transcript-link"><a href="campusrecruiting/video/Tanvi/transcript.asp" class="transcript" title="View transcript for Tanvi">View transcript</a></p>
+						<p class="transcript-link"><a href="campusrecruiting/video/Tanvi/transcript.asp" class="transcript" title="View transcript for Tanvi">View <span class="hiddencontent">Tanvi's</span> transcript</a></p>
 
 					</li>
 					<li class="image-Zach">
 
 						<a href="campus-video.aspx?id=11" class="video"><img src="images/campus/tn-Zach.png" width="160" height="100" alt="Play video for Zach, Commercial Banking Real Estate Banking Analyst Program" /></a>
 
-						<p class="transcript-link"><a href="campusrecruiting/video/Zach/transcript.asp" class="transcript" title="View transcript for Zach">View transcript</a></p>
+						<p class="transcript-link"><a href="campusrecruiting/video/Zach/transcript.asp" class="transcript" title="View transcript for Zach">View <span class="hiddencontent">Zach's</span> transcript</a></p>
 
 					</li>
 				</ul>
@@ -222,21 +222,21 @@
 
 						<a href="campus-video.aspx?id=14" class="video"><img src="images/campus/tn-Dallas.png" width="160" height="100" alt="Play video for Dallas, Neighborhood Enterprise Initiative®" /></a>
 
-						<p class="transcript-link"><a href="campusrecruiting/video/NEIDallas/nei_dallas_builders.html" class="transcript" title="View transcript for Dallas, Neighborhood Enterprise Initiative®">View transcript</a></p>
+						<p class="transcript-link"><a href="campusrecruiting/video/NEIDallas/nei_dallas_builders.html" class="transcript" title="View transcript for Dallas, Neighborhood Enterprise Initiative®">View transcript <span class="hiddencontent">for Dallas, Neighborhood Enterprise Initiative®</span></a></p>
 
 					</li>
 					<li>
 
 						<a href="campus-video.aspx?id=15" class="video"><img src="images/campus/tn-Qualco.png" width="160" height="100" alt="Play video for Qualco Energy Corp, Seattle – Supporting clean renewable energy" /></a>
 
-						<p class="transcript-link"><a href="campusrecruiting/video/SeattleQualco/seattle_qualco_energy_transcript.html" class="transcript" title="View transcript for Qualco Energy Corp, Seattle – Supporting clean renewable energy">View transcript</a></p>
+						<p class="transcript-link"><a href="campusrecruiting/video/SeattleQualco/seattle_qualco_energy_transcript.html" class="transcript" title="View transcript for Qualco Energy Corp, Seattle – Supporting clean renewable energy">View transcript <span class="hiddencontent">for Qualco Energy Corp, Seattle – Supporting clean renewable energy</span></a></p>
 
 					</li>
 					<li class="image-Queens">
 
 						<a href="campus-video.aspx?id=16" class="video"><img src="images/campus/tn-Queens.png" width="160" height="100" alt="Play video for Queens Theatre in the Park, NYC – Local community economic growth" /></a>
 
-						<p class="transcript-link"><a href="campusrecruiting/video/QueensTheater/queens_theatre.html" class="transcript" title="View transcript for Queens Theatre in the Park, NYC – Local community economic growth">View transcript</a></p>
+						<p class="transcript-link"><a href="campusrecruiting/video/QueensTheater/queens_theatre.html" class="transcript" title="View transcript for Queens Theatre in the Park, NYC – Local community economic growth">View transcript <span class="hiddencontent">for Queens Theatre in the Park, NYC – Local community economic growth</span></a></p>
 
 					</li>
 				</ul>
@@ -250,7 +250,7 @@
 
 						<a href="campus-video.aspx?id=2" class="video"><img src="images/campus/tn-diversity.png" width="160" height="100" alt="Play video Diversity &amp; Inclusion" /></a>
 
-						<p class="transcript-link"><a href="campusrecruiting/video/di/transcript.asp" class="transcript" title="View transcript for Diversity &amp; Inclusion">View transcript</a></p>
+						<p class="transcript-link"><a href="campusrecruiting/video/di/transcript.asp" class="transcript" title="View transcript for Diversity &amp; Inclusion">View transcript <span class="hiddencontent">for Diversity &amp; Inclusion</span></a></p>
 
 					</li>
 				</ul>
