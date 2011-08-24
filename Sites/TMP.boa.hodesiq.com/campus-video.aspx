@@ -1,4 +1,4 @@
-﻿<%@Page Language="C#" AutoEventWireup="true" CodeFile="campus-video.aspx.cs" MasterPageFile="~/BOAmasterTest.master" Inherits="campus_video" %>
+﻿<%@Page Language="C#" AutoEventWireup="true" CodeFile="campus-video.aspx.cs" MasterPageFile="~/BOAmaster.master" Inherits="campus_video" %>
 
 <asp:content id="Content1" contentplaceholderid="cphmain" runat="server">
 

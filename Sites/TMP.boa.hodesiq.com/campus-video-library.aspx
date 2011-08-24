@@ -6,6 +6,8 @@
 
 <link rel="stylesheet" href="Includes/campus.css"/>
 
+<!--[if lt IE 9]><link rel="stylesheet" href="Includes/ie-campus.css" /><![endif]-->
+
 <div id="maincontent" class="video-library">
 
 	<div id="feature-wrapper">
