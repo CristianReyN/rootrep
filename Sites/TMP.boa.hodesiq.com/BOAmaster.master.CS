@@ -22,6 +22,15 @@ public partial class BOAmaster : System.Web.UI.MasterPage
 
     protected void Page_Load(object sender, EventArgs e)
     {
+
+        LitCreateSafeButton.Text = @"<link href='Includes/hs_safebutton.css' type='text/css' rel='stylesheet' />
+        <script src='Includes/hs_safebutton.js' language='JavaScript' type='text/javascript'></script>
+        <script language='JavaScript' type='text/javascript'>
+        <!--
+        create_safebutton('Search','javascript: submit_search();',0,0,0,0,'Search');
+        //-->
+        </script>";
+
         this.ltrlCorremetrixScripts.Text = "";
         string strPageName = "";
         string strContent = "";
@@ -79,13 +88,7 @@ public partial class BOAmaster : System.Web.UI.MasterPage
 
         BuildCorremetrixScripts(strPageName, strContent, intPage);
 
-        LitCreateSafeButton.Text = @"<link href='Includes/hs_safebutton.css' type='text/css' rel='stylesheet' />
-        <script src='Includes/hs_safebutton.js' language='JavaScript' type='text/javascript'></script>
-        <script language='JavaScript' type='text/javascript'>
-        <!--
-        create_safebutton('Search','javascript: submit_search();',0,0,0,0,'Search');
-        //-->
-        </script>";
+    
     }
 
     
