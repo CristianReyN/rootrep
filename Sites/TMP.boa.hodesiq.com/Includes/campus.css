@@ -1387,6 +1387,11 @@ text-decoration: underline;
 	padding: 0 5px;
 	}
 	
+	#vl-thumbnails-container ul.video-pagination li a:hover {
+	font-weight: normal;
+	text-decoration: underline;
+	}
+	
 	#vl-thumbnails-container ul.video-pagination li.previous a {
 	border: none;
 	background: transparent url(../images/campus/arrow-previous.gif) left 1px no-repeat;
@@ -1394,10 +1399,10 @@ text-decoration: underline;
 	}
 	
 	#vl-thumbnails-container ul.video-pagination li.next a {
-	border: none;
 	padding: 0;
 	background: transparent url(../images/campus/arrow-next.gif) right 1px no-repeat;
 	padding-right: 8px;
+	padding-left: 5px;
 	}
 
 	#vl-thumbnails-container ul.video-selections {
