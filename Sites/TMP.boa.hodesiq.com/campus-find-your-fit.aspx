@@ -170,6 +170,7 @@
             margin-top:10px; 
             float:right;
             width:360px;
+            
            }
         
         .errormsg-top {
@@ -178,7 +179,6 @@
 	
 	    .errormsg-bottom {
 	        width: 360px;
-	        padding: 10px 20px 0 50px;
 	        background: transparent url(images/campus/bkg-bottom-error.gif) bottom left no-repeat;
 	    }
 	
@@ -186,18 +186,20 @@
 	        margin: 0;
 	        padding: 0;
 	        color: ed1b2e;
+	        padding: 15px 30px 5px 65px;
 	    }
     	
 	    .errormsg-top ul {
 	        margin: 0;
 	        padding: 0;
-	        padding: 8px 30px 10px 25px;
+	        padding: 0 20px 10px 95px;
+	      
 	    }
 	    
 	    .errormsg-top ul li{
 	        margin: 0;
 	        padding: 0;
-	        padding: 0 40px 0 0;
+	        padding: 0 5px 0 0;
 	    }
         
         
@@ -394,7 +396,7 @@
 							        </asp:DropDownList></p>                            
                                     <br />
                                      <p style="float:left; height:22px !important;">
-                                    <asp:ImageButton ID="btnNext" runat="server" ImageUrl="images/campus/btn-next1.jpg" OnClick="btnNext_Click" /></p>
+                                    <asp:ImageButton ID="btnNext" runat="server" ImageUrl="images/campus/btn-next1.jpg" title="Next" OnClick="btnNext_Click" /></p>
                             </div>
                         </div>
                     </asp:Panel>
@@ -473,7 +475,7 @@
                             </div>
                             <div id="clearline" style="height:1px; width:100%; clear:both; margin-bottom:1px;">&nbsp;</div>
                             <p style="float:left; height:22px !important; margin-left:150px;">
-                                <asp:ImageButton ID="ImageButton1" runat="server" ImageUrl="images/campus/btn-next1.jpg" OnClick="btnGetResults_Click" /></p>                               
+                                <asp:ImageButton ID="ImageButton1" runat="server" ImageUrl="images/campus/btn-next1.jpg" Title="Next" OnClick="btnGetResults_Click" /></p>                               
                              <!-- <p style="float:right; height:22px !important; margin-right:5px;">
                             <asp:ImageButton ID="btnClearResult" runat="server" ImageUrl="images/campus/btnClearResult.jpg" OnClick="btnClear_Click" /></p> -->
 
@@ -516,7 +518,7 @@
 								     You can also <a href="#">bookmark</a> your results after each attempt for later reference.
 							    
                                         <p class="btn-tryagain">
-                                        <asp:ImageButton ID="btnBack" runat="server" ImageUrl="images/campus/btnTryAgain.jpg" OnClick="btnBack_Click" /></p>
+                                        <asp:ImageButton ID="btnBack" runat="server" ImageUrl="images/campus/btnTryAgain.jpg" title="Try Again" OnClick="btnBack_Click" /></p>
                                     </div>
 							    </div><!--.results-container -->
                             </div>
