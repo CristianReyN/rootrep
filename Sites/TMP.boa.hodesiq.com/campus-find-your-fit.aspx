@@ -185,7 +185,7 @@
 	    .errormsg-top p {
 	        margin: 0;
 	        padding: 0;
-	        color: ed1b2e;
+	        color: #ed1b2e;
 	        padding: 15px 30px 5px 65px;
 	    }
     	
@@ -476,9 +476,6 @@
                             <div id="clearline" style="height:1px; width:100%; clear:both; margin-bottom:1px;">&nbsp;</div>
                             <p style="float:left; height:22px !important; margin-left:150px;">
                                 <asp:ImageButton ID="ImageButton1" runat="server" ImageUrl="images/campus/btn-next1.jpg" Title="Next" OnClick="btnGetResults_Click" /></p>                               
-                             <!-- <p style="float:right; height:22px !important; margin-right:5px;">
-                            <asp:ImageButton ID="btnClearResult" runat="server" ImageUrl="images/campus/btnClearResult.jpg" OnClick="btnClear_Click" /></p> -->
-
                         </div>
                         </div>
                     </asp:Panel>
