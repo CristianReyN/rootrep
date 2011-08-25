@@ -1190,7 +1190,7 @@ text-decoration: underline;
 	position: relative;
 	}
 
-	#feature-wrapper h1 { /* Hack: h1 issue */
+	#feature-wrapper h2 { /* Hack: h1 issue */
 	position: absolute;
 	top: 14px;
 	left: 18px;
