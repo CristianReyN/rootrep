@@ -11,10 +11,4 @@ public partial class campus_video_library : System.Web.UI.Page
         int int_how_many=0;
 
     }
-
-    protected void Page_PreRender(object sender, EventArgs e)
-    {
-        Literal ltrlCorremetrixScripts = (Literal)Page.Master.FindControl("ltrlCorremetrixScripts");
-        ltrlCorremetrixScripts.Text = "";
-    }
 }
