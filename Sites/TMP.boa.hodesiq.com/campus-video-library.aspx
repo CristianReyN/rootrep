@@ -10,11 +10,13 @@
 
 <div id="maincontent" class="video-library">
 
+    <h1 class="wai">Campus Video Library</h1>
+
 	<div id="feature-wrapper">
 
 		<div id="featured-videos" class="carousel no-js">
 
-			<h1>Featured Videos</h1>
+			<h2>Featured Videos</h2>
 
 			<div id="profile-1" class="profile">
 
