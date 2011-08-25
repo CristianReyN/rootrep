@@ -173,6 +173,9 @@ public partial class campus_video : System.Web.UI.Page
         //-->
 
         </script>";
+
+        Literal ltrlCorremetrixScripts = (Literal)Page.Master.FindControl("ltrlCorremetrixScripts");
+        ltrlCorremetrixScripts.Text = "";
     }
 
 }
