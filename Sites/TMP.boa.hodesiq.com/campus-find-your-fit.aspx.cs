@@ -47,7 +47,7 @@ public partial class campusfindyourfit : System.Web.UI.Page
             else
             {
                 degrevalid = "no";
-                str_errors1 = "<li><b>You cannot select same degre more then once</b></li>";
+                str_errors1 = "<li>You cannot select same degre more then once</li>";
                 pnlErrors.Visible = true;
                 return;
 
@@ -70,7 +70,7 @@ public partial class campusfindyourfit : System.Web.UI.Page
             else
             {
                 degrevalid = "no";
-                str_errors1 = "<li><b>You cannot select same degre more then once</b></li>";
+                str_errors1 = "<li>You cannot select same degre more then once</li>";
                 pnlErrors.Visible = true;
                 return;
             }
@@ -93,7 +93,7 @@ public partial class campusfindyourfit : System.Web.UI.Page
             else
             {
                 degrevalid = "no";
-                str_errors1 = "<li><b>You cannot select same degre more then once</b></li>";
+                str_errors1 = "<li>You cannot select same degre more then once</li>";
                 pnlErrors.Visible = true;
                 return;
             }
@@ -123,7 +123,7 @@ public partial class campusfindyourfit : System.Web.UI.Page
         else
         {
             degrevalid = "no";
-            str_errors1 =str_errors1 + "<li><b>You must select at least one degree</b></li>";
+            str_errors1 =str_errors1 + "<li>You must select at least one degree</li>";
             pnlErrors.Visible = true;
             pnlErrorDisplay.Visible = true;
             return;
@@ -140,7 +140,7 @@ public partial class campusfindyourfit : System.Web.UI.Page
                 else
                 {
                     degrevalid = "no";
-                    str_errors1 =str_errors1 + "<li><b>You must select at least one degree</b></li>";
+                    str_errors1 =str_errors1 + "<li>You must select at least one degree</li>";
                     pnlErrors.Visible = true;
                     pnlErrorDisplay.Visible = true;
                     return;
@@ -157,7 +157,7 @@ public partial class campusfindyourfit : System.Web.UI.Page
                 else
                 {
                     degrevalid = "no";
-                    str_errors1 =str_errors1 + "<li><b>You must select at least one degree</b></li>";
+                    str_errors1 =str_errors1 + "<li>You must select at least one degree</li>";
                     pnlErrors.Visible = true;
                     pnlErrorDisplay.Visible = true;
                     return;
@@ -175,7 +175,7 @@ public partial class campusfindyourfit : System.Web.UI.Page
                 else
                 {
                     degrevalid = "no";
-                    str_errors1 =str_errors1 + "<li><b>You must select at least one degree</b></li>";
+                    str_errors1 =str_errors1 + "<li>You must select at least one degree</li>";
                     pnlErrors.Visible = true;
                     pnlErrorDisplay.Visible = true;
                     return;
@@ -189,7 +189,7 @@ public partial class campusfindyourfit : System.Web.UI.Page
         else
         {
             degrevalid = "no";
-            str_errors1 =str_errors1 + "<li><b>You cannot select same degree more then once</b></li>";
+            str_errors1 =str_errors1 + "<li>You cannot select same degree more then once</li>";
             pnlErrors.Visible = true;
             pnlErrorDisplay.Visible = true;
             return;
@@ -202,7 +202,7 @@ public partial class campusfindyourfit : System.Web.UI.Page
         else
         {
             degrevalid = "no";
-            str_errors1 =str_errors1 + "<li><b>You cannot select same degree more then once</b></li>";
+            str_errors1 =str_errors1 + "<li>You cannot select same degree more then once</li>";
             pnlErrors.Visible = true;
             pnlErrorDisplay.Visible = true;
             return;
@@ -216,7 +216,7 @@ public partial class campusfindyourfit : System.Web.UI.Page
         else
         {
             degrevalid = "no";
-            str_errors1 =str_errors1 + "<li><b>You cannot select same degree more then once</b></li>";
+            str_errors1 =str_errors1 + "<li>You cannot select same degree more then once</li>";
             pnlErrors.Visible = true;
             pnlErrorDisplay.Visible = true;
             return;
@@ -235,7 +235,7 @@ public partial class campusfindyourfit : System.Web.UI.Page
             string.Empty : this.Request["__EVENTTARGET"];
             string eventArgument = (this.Request["__EVENTARGUMENT"] == null) ?
             string.Empty : this.Request["__EVENTARGUMENT"];
-
+            str_errors1 = "";
             if (eventTarget == "clearCheckbox")
             {
                 int ICounter = 0;
@@ -249,7 +249,7 @@ public partial class campusfindyourfit : System.Web.UI.Page
                     if (ICounter > 2)
                     {
                         item.Selected = false;
-                        str_errors1 =str_errors1 + "<li><b>You cannot select more than 2 items in 'I would like a job where I am responsible for'</b></li>";
+                        str_errors1 =str_errors1 + "<li>You cannot select more than 2 items in 'I would like a job where I am responsible for'</li>";
                         int_sumofselect.Value = "0";
                         pnlErrors.Visible = true;
                         return;
@@ -278,7 +278,7 @@ public partial class campusfindyourfit : System.Web.UI.Page
                 if (int_isselected == 0)
                 {
 
-                 //   str_errors1 =str_errors1 + "<li><b>You must select at least 1 items in 'My primary area of interest'</b></li>";
+                 //   str_errors1 =str_errors1 + "<li>You must select at least 1 items in 'My primary area of interest'</li>";
                     pnlErrors.Visible = true;
                     ISSubmited.Value = "1";
                     ISValid.Value = "0";
@@ -298,7 +298,7 @@ public partial class campusfindyourfit : System.Web.UI.Page
                         if (int_isselected > 2)
                         {
                             item.Selected = false;
-                            str_errors1 =str_errors1 + "<li><b>You cannot select more than 2 items in 'I would like a job where I am responsible for'</b></li>";
+                            str_errors1 =str_errors1 + "<li>You cannot select more than 2 items in 'I would like a job where I am responsible for'</li>";
                             pnlErrors.Visible = true;
                             ISSubmited.Value = "1";
                             ISValid.Value = "0";
@@ -311,7 +311,7 @@ public partial class campusfindyourfit : System.Web.UI.Page
                 }
                 if (int_isselected == 0)
                 {
-                    str_errors1 =str_errors1 + "<li><b>You must select at least 1 item in 'I would like a job where I am responsible for'</b></li>";
+                   // str_errors1 =str_errors1 + "<li>You must select at least 1 item in 'I would like a job where I am responsible for'</li>";
                     pnlErrors.Visible = true;
                     ISSubmited.Value = "1";
                     ISValid.Value = "0";
@@ -334,7 +334,7 @@ public partial class campusfindyourfit : System.Web.UI.Page
                 ISValid.Value = "1";
                 if (int_isselected == 0)
                 {
-                 //   str_errors1 = str_errors1 + "<li><b>You must select 1 items in 'To me, opportunity is all about'</b></li>";
+                 //   str_errors1 = str_errors1 + "<li>You must select 1 items in 'To me, opportunity is all about'</li>";
                     pnlErrors.Visible = true;
                     ISSubmited.Value = "1";
                     ISValid.Value = "0";
@@ -533,7 +533,7 @@ public partial class campusfindyourfit : System.Web.UI.Page
     {
         int int_isselected = 0;
         bool CtrlSelected = false;
-
+        str_errors1 = "";
         foreach (ListItem item in ckb_interestoptions.Items)
         {
             if (item.Selected)
@@ -545,11 +545,11 @@ public partial class campusfindyourfit : System.Web.UI.Page
         if (int_isselected == 0)
         {
 
-            str_errors1 =str_errors1 + "<li><b>You must select at least 1 items in 'My primary area of interest'</b></li>";
+            str_errors1 =str_errors1 + "<li>You must select at least 1 items in 'My primary area of interest'</li>";
             pnlErrors.Visible = true;
             ISSubmited.Value = "1";
             ISValid.Value = "0";
-           return;
+           //return;
         }
 
         int_isselected = 0;
@@ -561,7 +561,7 @@ public partial class campusfindyourfit : System.Web.UI.Page
                 if (int_isselected > 2)
                 {
                     item.Selected = false;
-                    str_errors1 = str_errors1 + "<li><b>You cannot select more than 2 items in 'I would like a job where I am responsible for'</b></li>";
+                    str_errors1 = str_errors1 + "<li>You cannot select more than 2 items in 'I would like a job where I am responsible for'</li>";
                     pnlErrors.Visible = true;
                     ISSubmited.Value = "1";
                     ISValid.Value = "0";
@@ -574,11 +574,11 @@ public partial class campusfindyourfit : System.Web.UI.Page
         }
         if (int_isselected == 0)
         {
-            str_errors1 = str_errors1 + "<li><b>You must select at least 1 item in 'I would like a job where I am responsible for'</b></li>";
+            str_errors1 = str_errors1 + "<li>You must select at least 1 item in 'I would like a job where I am responsible for'</li>";
             pnlErrors.Visible = true;
             ISSubmited.Value = "1";
             ISValid.Value = "0";
-            return;
+           // return;
         }
 
 
@@ -594,29 +594,38 @@ public partial class campusfindyourfit : System.Web.UI.Page
         ISValid.Value = "1";
         if (int_isselected == 0)
         {
-            str_errors1 =str_errors1 + "<li><b>You must select 1 items in 'To me, opportunity is all about'</b></li>";
+            str_errors1 =str_errors1 + "<li>You must select 1 items in 'To me, opportunity is all about'</li>";
             pnlErrors.Visible = true;
             ISSubmited.Value = "1";
             ISValid.Value = "0";
-            return;
+
         }
         else
         {
             pnlErrors.Visible = false;
         }
-        if (ISValid.Value == "1")
+        if (str_errors1.Length == 0)
         {
-            CPHPanel3.Visible = true;
-            CPHPanel1.Visible = false;
-            CPHPanel2.Visible = false;
-            pnlErrorDisplay.Visible = false;
-            ISSubmited.Value = "0";
-            this.CalculateScore();
-            SetBestOptions();
+            if (ISValid.Value == "1")
+            {
+                CPHPanel3.Visible = true;
+                CPHPanel1.Visible = false;
+                CPHPanel2.Visible = false;
+                pnlErrorDisplay.Visible = false;
+                ISSubmited.Value = "0";
+                this.CalculateScore();
+                SetBestOptions();
+            }
+            else
+            {
+                // str_errors1 = str_errors1 + "</ul>";
+                pnlErrorDisplay.Visible = true;
+            }
         }
         else
         {
-           // str_errors1 = str_errors1 + "</ul>";
+            // str_errors1 = str_errors1 + "</ul>";
+            pnlErrors.Visible = true;
             pnlErrorDisplay.Visible = true;
         }
 
@@ -640,7 +649,7 @@ public partial class campusfindyourfit : System.Web.UI.Page
                 if (int_Degree1 != 0)
                 {
                     degrevalid = "no";
-                    str_errors1 =str_errors1 + "<b>You cannot select same degre more then once</b>";
+                    str_errors1 =str_errors1 + "You cannot select same degre more then once";
                 }
                 else
                 {
@@ -966,6 +975,54 @@ public partial class campusfindyourfit : System.Web.UI.Page
             return Convert.ToInt32(answervalue);
         }
         return 0;
+    }
+    protected void sel_degree3_SelectedIndexChangedAgain(object sender, EventArgs e)
+    {
+
+        int_DegreeCode1 = int.Parse(sel_degree1.SelectedValue.ToString());
+        int_DegreeCode2 = int.Parse(sel_degree2.SelectedValue.ToString());
+        int_DegreeCode3 = int.Parse(sel_degree3.SelectedValue.ToString());
+        if (int_DegreeCode3 != int_DegreeCode2)
+        {
+            if (int_DegreeCode3 != int_DegreeCode1)
+            {
+                degrevalid = "yes";
+            }
+            else
+            {
+                degrevalid = "no";
+                str_errors1 = "<li>You cannot select same degre more then once</li>";
+                pnlErrors.Visible = true;
+                return;
+            }
+
+        }
+
+
+    }
+    protected void sel_degree3_SelectedIndexChangedAgain1(object sender, EventArgs e)
+    {
+
+        int_DegreeCode1 = int.Parse(sel_degree1.SelectedValue.ToString());
+        int_DegreeCode2 = int.Parse(sel_degree2.SelectedValue.ToString());
+        int_DegreeCode3 = int.Parse(sel_degree3.SelectedValue.ToString());
+        if (int_DegreeCode3 != int_DegreeCode2)
+        {
+            if (int_DegreeCode3 != int_DegreeCode1)
+            {
+                degrevalid = "yes";
+            }
+            else
+            {
+                degrevalid = "no";
+                str_errors1 = "<li>You cannot select same degre more then once</li>";
+                pnlErrors.Visible = true;
+                return;
+            }
+
+        }
+
+
     }
 
     public Control FindControlRecursive(Control root, string id)
