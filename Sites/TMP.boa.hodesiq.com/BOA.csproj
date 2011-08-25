@@ -1,0 +1,566 @@
+﻿<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{EE34C9A5-488D-4CDE-827D-71C0CC174236}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BOA</RootNamespace>
+    <AssemblyName>campus-find-your-fit</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AjaxControlToolkit, Version=3.5.50401.0, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\reveal_loreal_com_2011\web\bin\AjaxControlToolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Includes\fitfinder_video.css" />
+    <Content Include="images\campus\arrow-back.gif" />
+    <Content Include="images\campus\arrow-next.gif" />
+    <Content Include="images\campus\arrow-previous.gif" />
+    <Content Include="images\campus\arrow-red.jpg" />
+    <Content Include="images\campus\arrows-related.gif" />
+    <Content Include="images\campus\bg_blu-button_a.gif" />
+    <Content Include="images\campus\bg_blu-button_span.gif" />
+    <Content Include="images\campus\bkg-america-home.jpg" />
+    <Content Include="images\campus\bkg-asiapac-homepage.jpg" />
+    <Content Include="images\campus\bkg-blue-gradient.jpg" />
+    <Content Include="images\campus\bkg-bottom-error.gif" />
+    <Content Include="images\campus\bkg-bottom-explore-am.jpg" />
+    <Content Include="images\campus\bkg-bottom-indivmop.jpg" />
+    <Content Include="images\campus\bkg-bottom-listmop.jpg" />
+    <Content Include="images\campus\bkg-bottom-modalwindow.jpg" />
+    <Content Include="images\campus\bkg-bottom-videocontent.jpg" />
+    <Content Include="images\campus\bkg-emeahomepage.jpg" />
+    <Content Include="images\campus\bkg-feature-profile.jpg" />
+    <Content Include="images\campus\bkg-findyourfit-content.jpg" />
+    <Content Include="images\campus\bkg-findyourfit-form.jpg" />
+    <Content Include="images\campus\bkg-footer.gif" />
+    <Content Include="images\campus\bkg-header-related.jpg" />
+    <Content Include="images\campus\bkg-header-videolibrary.jpg" />
+    <Content Include="images\campus\bkg-indiv-mop.jpg" />
+    <Content Include="images\campus\bkg-meetpeople.jpg" />
+    <Content Include="images\campus\bkg-mop-content.jpg" />
+    <Content Include="images\campus\bkg-related-links.jpg" />
+    <Content Include="images\campus\bkg-shared-links.jpg" />
+    <Content Include="images\campus\bkg-top-error.gif" />
+    <Content Include="images\campus\bkg-top-explore-am.jpg" />
+    <Content Include="images\campus\bkg-top-explore-emea.jpg" />
+    <Content Include="images\campus\bkg-top-indivmop.jpg" />
+    <Content Include="images\campus\bkg-top-listmop.jpg" />
+    <Content Include="images\campus\bkg-top-modalwindow.jpg" />
+    <Content Include="images\campus\bkg-top-videocontent.jpg" />
+    <Content Include="images\campus\bkg-video-carousel.jpg" />
+    <Content Include="images\campus\bkg-video-thumbnail.jpg" />
+    <Content Include="images\campus\bkg-video.jpg" />
+    <Content Include="images\campus\bkg-videocontent.jpg" />
+    <Content Include="images\campus\btn-apply.jpg" />
+    <Content Include="images\campus\btn-campus-events.jpg" />
+    <Content Include="images\campus\btn-campus-events.png" />
+    <Content Include="images\campus\btn-careerfinder.jpg" />
+    <Content Include="images\campus\btn-close.gif" />
+    <Content Include="images\campus\btn-connect-twitter.jpg" />
+    <Content Include="images\campus\btn-explore-videos.jpg" />
+    <Content Include="images\campus\btn-findyourfit.png" />
+    <Content Include="images\campus\btn-launchcareer.jpg" />
+    <Content Include="images\campus\btn-learnmore.jpg" />
+    <Content Include="images\campus\btn-meet-people.jpg" />
+    <Content Include="images\campus\btn-next.jpg" />
+    <Content Include="images\campus\btn-our-people.jpg" />
+    <Content Include="images\campus\btn-our-people.png" />
+    <Content Include="images\campus\btn-search-jobs.jpg" />
+    <Content Include="images\campus\btn-tryagain.jpg" />
+    <Content Include="images\campus\btn-twitter.jpg" />
+    <Content Include="images\campus\btn-view-profiles.jpg" />
+    <Content Include="images\campus\header-results.jpg" />
+    <Content Include="images\campus\header-step1.jpg" />
+    <Content Include="images\campus\header-step2.jpg" />
+    <Content Include="images\campus\ico-back-forward-arrows.gif" />
+    <Content Include="images\campus\ico-back-forward-arrows.jpg" />
+    <Content Include="images\campus\ico-briefcase.jpg" />
+    <Content Include="images\campus\ico-diploma.jpg" />
+    <Content Include="images\campus\ico-doucment.jpg" />
+    <Content Include="images\campus\ico-facebook.jpg" />
+    <Content Include="images\campus\ico-grad-cap.jpg" />
+    <Content Include="images\campus\ico-linkedin.jpg" />
+    <Content Include="images\campus\ico-mop-alissa.jpg" />
+    <Content Include="images\campus\ico-mop-devin.jpg" />
+    <Content Include="images\campus\ico-mop-nisheet.jpg" />
+    <Content Include="images\campus\ico-pen.jpg" />
+    <Content Include="images\campus\ico-results-page.jpg" />
+    <Content Include="images\campus\ico-stars.jpg" />
+    <Content Include="images\campus\ico-transcript-bkggrey.gif" />
+    <Content Include="images\campus\ico-transcript-grey.gif" />
+    <Content Include="images\campus\ico-transcript.gif" />
+    <Content Include="images\campus\ico-twitter.jpg" />
+    <Content Include="images\campus\ico-video.jpg" />
+    <Content Include="images\campus\ico-world.jpg" />
+    <Content Include="images\campus\icon-AlisaRoyal.jpg" />
+    <Content Include="images\campus\icon-AlisaRoyals.jpg" />
+    <Content Include="images\campus\icon-AndrewOlanow.jpg" />
+    <Content Include="images\campus\icon-AnitaShao.jpg" />
+    <Content Include="images\campus\icon-anton.jpg" />
+    <Content Include="images\campus\icon-AshleyClark.jpg" />
+    <Content Include="images\campus\icon-AshleyClarke.jpg" />
+    <Content Include="images\campus\icon-AurelieCaspar.jpg" />
+    <Content Include="images\campus\icon-BhavinGhonda.jpg" />
+    <Content Include="images\campus\icon-BryanCook.jpg" />
+    <Content Include="images\campus\icon-ChristophHadrys.jpg" />
+    <Content Include="images\campus\icon-Dan.jpg" />
+    <Content Include="images\campus\icon-DavidGhosh.jpg" />
+    <Content Include="images\campus\icon-DavidGosh.jpg" />
+    <Content Include="images\campus\icon-DevinFunk.jpg" />
+    <Content Include="images\campus\icon-DongLi.jpg" />
+    <Content Include="images\campus\icon-DwayneGoode.jpg" />
+    <Content Include="images\campus\icon-FujiaLiu.jpg" />
+    <Content Include="images\campus\icon-GabrielNG.jpg" />
+    <Content Include="images\campus\icon-HamadijaCustovic.jpg" />
+    <Content Include="images\campus\icon-HiraDiwan.jpg" />
+    <Content Include="images\campus\icon-Howard.jpg" />
+    <Content Include="images\campus\icon-IrinaDolgova.jpg" />
+    <Content Include="images\campus\icon-Jarrod.jpg" />
+    <Content Include="images\campus\icon-JenniferAurbach.jpg" />
+    <Content Include="images\campus\icon-JenniferAurbachRodriguez.jpg" />
+    <Content Include="images\campus\icon-John-William.jpg" />
+    <Content Include="images\campus\icon-JohnCowell.jpg" />
+    <Content Include="images\campus\icon-JordanDarrenkemp.jpg" />
+    <Content Include="images\campus\icon-JustinLam.jpg" />
+    <Content Include="images\campus\icon-Kaitlyn.jpg" />
+    <Content Include="images\campus\icon-KenChung.jpg" />
+    <Content Include="images\campus\icon-Kevin.jpg" />
+    <Content Include="images\campus\icon-LauraDuke.jpg" />
+    <Content Include="images\campus\icon-LipJinLee.jpg" />
+    <Content Include="images\campus\icon-LouiseJiang.jpg" />
+    <Content Include="images\campus\icon-MarlyaGolub.jpg" />
+    <Content Include="images\campus\icon-MattHinman.jpg" />
+    <Content Include="images\campus\icon-MelissaClarke.jpg" />
+    <Content Include="images\campus\icon-MichaelSvitanik.jpg" />
+    <Content Include="images\campus\icon-mopAlisaRoyal.jpg" />
+    <Content Include="images\campus\icon-mopAshleyClarke.jpg" />
+    <Content Include="images\campus\icon-mopBhavinGhonda.jpg" />
+    <Content Include="images\campus\icon-mopBryanCook.jpg" />
+    <Content Include="images\campus\icon-mopChristophHadrys.jpg" />
+    <Content Include="images\campus\icon-mopDevinFunk.jpg" />
+    <Content Include="images\campus\icon-mopDongLi.jpg" />
+    <Content Include="images\campus\icon-mopDwayneGoode.jpg" />
+    <Content Include="images\campus\icon-mopGabrielNG.jpg" />
+    <Content Include="images\campus\icon-mopHiraDiwan.jpg" />
+    <Content Include="images\campus\icon-mopIrinaDolgova.jpg" />
+    <Content Include="images\campus\icon-mopJenniferAurbach.jpg" />
+    <Content Include="images\campus\icon-mopJohn-William.jpg" />
+    <Content Include="images\campus\icon-mopJohnCowell.jpg" />
+    <Content Include="images\campus\icon-mopKenChung.jpg" />
+    <Content Include="images\campus\icon-mopLipJinLee.jpg" />
+    <Content Include="images\campus\icon-mopLouiseJiang.jpg" />
+    <Content Include="images\campus\icon-mopMattHinman.jpg" />
+    <Content Include="images\campus\icon-mopMelissaClarke.jpg" />
+    <Content Include="images\campus\icon-mopNisheetPatel.jpg" />
+    <Content Include="images\campus\icon-mopPriyaSharma.jpg" />
+    <Content Include="images\campus\icon-mopRachnaRamachandran.jpg" />
+    <Content Include="images\campus\icon-mopRomanSerper.jpg" />
+    <Content Include="images\campus\icon-mopScottChui.jpg" />
+    <Content Include="images\campus\icon-NatashaBrilliant.jpg" />
+    <Content Include="images\campus\icon-NisheetPatel.jpg" />
+    <Content Include="images\campus\icon-NitsheetPatel.jpg" />
+    <Content Include="images\campus\icon-PepeLopez-Gallo.jpg" />
+    <Content Include="images\campus\icon-PepeLopez.jpg" />
+    <Content Include="images\campus\icon-PriyaSharma.jpg" />
+    <Content Include="images\campus\icon-RachelWise.jpg" />
+    <Content Include="images\campus\icon-RachnaRamachandran.jpg" />
+    <Content Include="images\campus\icon-RomanSerper.jpg" />
+    <Content Include="images\campus\icon-RossMcewan.jpg" />
+    <Content Include="images\campus\icon-ScottChui.jpg" />
+    <Content Include="images\campus\icon-ShireenJuma.jpg" />
+    <Content Include="images\campus\icon-StanleyChan.jpg" />
+    <Content Include="images\campus\icon-SukeChan.jpg" />
+    <Content Include="images\campus\icon-TylerBak.jpg" />
+    <Content Include="images\campus\icon-zach.jpg" />
+    <Content Include="images\campus\image-video01.jpg" />
+    <Content Include="images\campus\image-video02.jpg" />
+    <Content Include="images\campus\nav-explore-am.jpg" />
+    <Content Include="images\campus\nav-explore-emea.jpg" />
+    <Content Include="images\campus\nav-findyourfit.jpg" />
+    <Content Include="images\campus\profiles\photo-AlisaRoyals.jpg" />
+    <Content Include="images\campus\profiles\photo-AndrewOlanow.jpg" />
+    <Content Include="images\campus\profiles\photo-AnitaShao.jpg" />
+    <Content Include="images\campus\profiles\photo-AshleyClarke.jpg" />
+    <Content Include="images\campus\profiles\photo-AurelieCaspar.jpg" />
+    <Content Include="images\campus\profiles\photo-bhavin.jpg" />
+    <Content Include="images\campus\profiles\photo-BhavinGhonda.jpg" />
+    <Content Include="images\campus\profiles\photo-BryanCook.jpg" />
+    <Content Include="images\campus\profiles\photo-ChristophHadrys.jpg" />
+    <Content Include="images\campus\profiles\photo-Dan.jpg" />
+    <Content Include="images\campus\profiles\photo-DavidGhosh.jpg" />
+    <Content Include="images\campus\profiles\photo-DevinFunk.jpg" />
+    <Content Include="images\campus\profiles\photo-DongLi.jpg" />
+    <Content Include="images\campus\profiles\photo-DwayneGoode.jpg" />
+    <Content Include="images\campus\profiles\photo-FujiaLiu.jpg" />
+    <Content Include="images\campus\profiles\photo-GabrielNG.jpg" />
+    <Content Include="images\campus\profiles\photo-HamadijaCustovic.jpg" />
+    <Content Include="images\campus\profiles\photo-HiraDiwan.jpg" />
+    <Content Include="images\campus\profiles\photo-IrinaDolgova.jpg" />
+    <Content Include="images\campus\profiles\photo-JenniferAurbach.jpg" />
+    <Content Include="images\campus\profiles\photo-John-William.jpg" />
+    <Content Include="images\campus\profiles\photo-JohnCowell.jpg" />
+    <Content Include="images\campus\profiles\photo-JordanDarrenkemp.jpg" />
+    <Content Include="images\campus\profiles\photo-JustinLam.jpg" />
+    <Content Include="images\campus\profiles\photo-KenChung.jpg" />
+    <Content Include="images\campus\profiles\photo-LauraDuke.jpg" />
+    <Content Include="images\campus\profiles\photo-LipJinLee.jpg" />
+    <Content Include="images\campus\profiles\photo-LouiseJiang.jpg" />
+    <Content Include="images\campus\profiles\photo-MarlyaGolub.jpg" />
+    <Content Include="images\campus\profiles\photo-MattHinman.jpg" />
+    <Content Include="images\campus\profiles\photo-MelissaClarke.jpg" />
+    <Content Include="images\campus\profiles\photo-MichaelSvitanik.jpg" />
+    <Content Include="images\campus\profiles\photo-NatashaBrilliant.jpg" />
+    <Content Include="images\campus\profiles\photo-NisheetPatel.jpg" />
+    <Content Include="images\campus\profiles\photo-PepeLopez-Gallo.jpg" />
+    <Content Include="images\campus\profiles\photo-PriyaSharma.jpg" />
+    <Content Include="images\campus\profiles\photo-RachelWise.jpg" />
+    <Content Include="images\campus\profiles\photo-RachnaRamachandran.jpg" />
+    <Content Include="images\campus\profiles\photo-RomanSerper.jpg" />
+    <Content Include="images\campus\profiles\photo-RossMcewan.jpg" />
+    <Content Include="images\campus\profiles\photo-ScottChui.jpg" />
+    <Content Include="images\campus\profiles\photo-ShireenJuma.jpg" />
+    <Content Include="images\campus\profiles\photo-StanleyChan.jpg" />
+    <Content Include="images\campus\profiles\photo-SukeChan.jpg" />
+    <Content Include="images\campus\profiles\photo-TylerBak.jpg" />
+    <Content Include="images\campus\video-anne.png" />
+    <Content Include="images\campus\video-image-placement.jpg" />
+    <Content Include="images\careers.gif" />
+    <Content Include="images\clear.gif" />
+    <Content Include="images\house.gif" />
+    <Content Include="images\mhd_5x5_search_corner.gif" />
+    <Content Include="images\mhd_reg_logo.gif" />
+    <Content Include="Includes\campus.css" />
+    <Content Include="Includes\cmdatatagutils.js" />
+    <Content Include="Includes\DotNetStyles.css" />
+    <Content Include="Includes\eluminate.js" />
+    <Content Include="Includes\eventStyles.css" />
+    <Content Include="Includes\fixit.js" />
+    <Content Include="Includes\hs_safebutton%281%29.css" />
+    <Content Include="Includes\hs_safebutton.css" />
+    <Content Include="Includes\hs_safebutton.js" />
+    <Content Include="Includes\jquery\jquery-base.js" />
+    <Content Include="Includes\jquery\jquery-ui-1.8.9.custom.min.js" />
+    <Content Include="Includes\jquery\jquery.min.js" />
+    <Content Include="Includes\jquery\plugin\jquery.jqurl.js" />
+    <Content Include="Includes\jquery\plugin\jquery.validate.js" />
+    <Content Include="Includes\jquery\ui\ui.core.js" />
+    <Content Include="Includes\jquery\ui\ui.flow.js" />
+    <Content Include="Includes\jquery\ui\ui.interface.js" />
+    <Content Include="Includes\jquery\ui\ui.modal.js" />
+    <Content Include="Includes\masthead.js" />
+    <Content Include="Includes\mvc-fontsize.js" />
+    <Content Include="Includes\ps.js" />
+    <Content Include="Includes\_global.js" />
+    <Content Include="Includes\_google.js" />
+    <Content Include="Includes\_swfobject.js" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="campus-video.aspx" />
+    <Content Include="campus_find_your_fit.aspx" />
+    <Compile Include="bases\basepage.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="campus-video-library.aspx.cs">
+      <DependentUpon>campus-video-library.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="campus-video.aspx.cs">
+      <DependentUpon>campus-video.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="campus-video.aspx.designer.cs">
+      <DependentUpon>campus-video.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="campus_find_your_fit.aspx.cs">
+      <DependentUpon>campus_find_your_fit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="campus_find_your_fit.aspx.designer.cs">
+      <DependentUpon>campus_find_your_fit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="templates\default.Master.cs">
+      <DependentUpon>default.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="templates\default.Master.designer.cs">
+      <DependentUpon>default.Master</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="campus-video-library.aspx" />
+    <Content Include="coremetrics\cmdatatagutils.js" />
+    <Content Include="coremetrics\v40\eluminate.js" />
+    <Content Include="flash\BAC011_GlobalGate_v3.swf" />
+    <Content Include="flash\_expressinstall.swf" />
+    <Content Include="fvp_final\Anton\Anton_Doss.xml" />
+    <Content Include="fvp_final\Anton\index.html" />
+    <Content Include="fvp_final\Anton\javascript\swfobject\expressinstall.swf" />
+    <Content Include="fvp_final\Anton\javascript\swfobject\swfobject.js" />
+    <Content Include="fvp_final\Anton\player.swf" />
+    <Content Include="fvp_final\Anton\preloader.swf" />
+    <Content Include="fvp_final\Anton\videoSource.xml" />
+    <Content Include="fvp_final\DI\di.xml" />
+    <Content Include="fvp_final\DI\index.html" />
+    <Content Include="fvp_final\DI\javascript\swfobject\expressinstall.swf" />
+    <Content Include="fvp_final\DI\javascript\swfobject\swfobject.js" />
+    <Content Include="fvp_final\DI\player.swf" />
+    <Content Include="fvp_final\DI\preloader.swf" />
+    <Content Include="fvp_final\DI\videoSource.xml" />
+    <Content Include="fvp_final\Howard\Howard_Levine.xml" />
+    <Content Include="fvp_final\Howard\index.html" />
+    <Content Include="fvp_final\Howard\javascript\swfobject\expressinstall.swf" />
+    <Content Include="fvp_final\Howard\javascript\swfobject\swfobject.js" />
+    <Content Include="fvp_final\Howard\player.swf" />
+    <Content Include="fvp_final\Howard\preloader.swf" />
+    <Content Include="fvp_final\Howard\videoSource.xml" />
+    <Content Include="fvp_final\Jarrod\index.html" />
+    <Content Include="fvp_final\Jarrod\Jarrod_Schulze.xml" />
+    <Content Include="fvp_final\Jarrod\javascript\swfobject\expressinstall.swf" />
+    <Content Include="fvp_final\Jarrod\javascript\swfobject\swfobject.js" />
+    <Content Include="fvp_final\Jarrod\player.swf" />
+    <Content Include="fvp_final\Jarrod\preloader.swf" />
+    <Content Include="fvp_final\Jarrod\videoSource.xml" />
+    <Content Include="fvp_final\Kaitlyn\index.html" />
+    <Content Include="fvp_final\Kaitlyn\javascript\swfobject\expressinstall.swf" />
+    <Content Include="fvp_final\Kaitlyn\javascript\swfobject\swfobject.js" />
+    <Content Include="fvp_final\Kaitlyn\Kaitlyn_Busler.xml" />
+    <Content Include="fvp_final\Kaitlyn\player.swf" />
+    <Content Include="fvp_final\Kaitlyn\preloader.swf" />
+    <Content Include="fvp_final\Kaitlyn\videoSource.xml" />
+    <Content Include="fvp_final\Kevin\index.html" />
+    <Content Include="fvp_final\Kevin\javascript\swfobject\expressinstall.swf" />
+    <Content Include="fvp_final\Kevin\javascript\swfobject\swfobject.js" />
+    <Content Include="fvp_final\Kevin\Kevin_Perry.xml" />
+    <Content Include="fvp_final\Kevin\player.swf" />
+    <Content Include="fvp_final\Kevin\preloader.swf" />
+    <Content Include="fvp_final\Kevin\videoSource.xml" />
+    <Content Include="fvp_final\Leonard\index.html" />
+    <Content Include="fvp_final\Leonard\javascript\swfobject\expressinstall.swf" />
+    <Content Include="fvp_final\Leonard\javascript\swfobject\swfobject.js" />
+    <Content Include="fvp_final\Leonard\Leonard_Lam.xml" />
+    <Content Include="fvp_final\Leonard\player.swf" />
+    <Content Include="fvp_final\Leonard\preloader.swf" />
+    <Content Include="fvp_final\Leonard\videoSource.xml" />
+    <Content Include="fvp_final\Narinder\index.html" />
+    <Content Include="fvp_final\Narinder\javascript\swfobject\expressinstall.swf" />
+    <Content Include="fvp_final\Narinder\javascript\swfobject\swfobject.js" />
+    <Content Include="fvp_final\Narinder\Narinder_Pura.xml" />
+    <Content Include="fvp_final\Narinder\player.swf" />
+    <Content Include="fvp_final\Narinder\preloader.swf" />
+    <Content Include="fvp_final\Narinder\videoSource.xml" />
+    <Content Include="fvp_final\NEIDallas\Dallas.xml" />
+    <Content Include="fvp_final\NEIDallas\index.html" />
+    <Content Include="fvp_final\NEIDallas\javascript\swfobject\expressinstall.swf" />
+    <Content Include="fvp_final\NEIDallas\javascript\swfobject\swfobject.js" />
+    <Content Include="fvp_final\NEIDallas\neidallas.xml" />
+    <Content Include="fvp_final\NEIDallas\player.swf" />
+    <Content Include="fvp_final\NEIDallas\preloader.swf" />
+    <Content Include="fvp_final\NEIDallas\videoSource.xml" />
+    <Content Include="fvp_final\Nichole\index.html" />
+    <Content Include="fvp_final\Nichole\javascript\swfobject\expressinstall.swf" />
+    <Content Include="fvp_final\Nichole\javascript\swfobject\swfobject.js" />
+    <Content Include="fvp_final\Nichole\Nichole_Edwards.xml" />
+    <Content Include="fvp_final\Nichole\player.swf" />
+    <Content Include="fvp_final\Nichole\preloader.swf" />
+    <Content Include="fvp_final\Nichole\videoSource.xml" />
+    <Content Include="fvp_final\Patricia\index.html" />
+    <Content Include="fvp_final\Patricia\javascript\swfobject\expressinstall.swf" />
+    <Content Include="fvp_final\Patricia\javascript\swfobject\swfobject.js" />
+    <Content Include="fvp_final\Patricia\Patricia_Woo.xml" />
+    <Content Include="fvp_final\Patricia\player.swf" />
+    <Content Include="fvp_final\Patricia\preloader.swf" />
+    <Content Include="fvp_final\Patricia\videoSource.xml" />
+    <Content Include="fvp_final\QueensTheater\index.html" />
+    <Content Include="fvp_final\QueensTheater\javascript\swfobject\expressinstall.swf" />
+    <Content Include="fvp_final\QueensTheater\javascript\swfobject\swfobject.js" />
+    <Content Include="fvp_final\QueensTheater\player.swf" />
+    <Content Include="fvp_final\QueensTheater\preloader.swf" />
+    <Content Include="fvp_final\QueensTheater\Queens.xml" />
+    <Content Include="fvp_final\QueensTheater\queenstheater.xml" />
+    <Content Include="fvp_final\QueensTheater\videoSource.xml" />
+    <Content Include="fvp_final\Sample Files\index.html" />
+    <Content Include="fvp_final\Sample Files\javascript\swfobject\expressinstall.swf" />
+    <Content Include="fvp_final\Sample Files\javascript\swfobject\swfobject.js" />
+    <Content Include="fvp_final\Sample Files\player.swf" />
+    <Content Include="fvp_final\Sample Files\preloader.swf" />
+    <Content Include="fvp_final\Sample Files\Tanvi_Srivastava_captions.xml" />
+    <Content Include="fvp_final\Sample Files\videoSource.xml" />
+    <Content Include="fvp_final\Saumya\index.html" />
+    <Content Include="fvp_final\Saumya\javascript\swfobject\expressinstall.swf" />
+    <Content Include="fvp_final\Saumya\javascript\swfobject\swfobject.js" />
+    <Content Include="fvp_final\Saumya\player.swf" />
+    <Content Include="fvp_final\Saumya\preloader.swf" />
+    <Content Include="fvp_final\Saumya\Saumya_Senapati.xml" />
+    <Content Include="fvp_final\Saumya\videoSource.xml" />
+    <Content Include="fvp_final\SeattleQualco\index.html" />
+    <Content Include="fvp_final\SeattleQualco\javascript\swfobject\expressinstall.swf" />
+    <Content Include="fvp_final\SeattleQualco\javascript\swfobject\swfobject.js" />
+    <Content Include="fvp_final\SeattleQualco\player.swf" />
+    <Content Include="fvp_final\SeattleQualco\preloader.swf" />
+    <Content Include="fvp_final\SeattleQualco\Qualco.xml" />
+    <Content Include="fvp_final\SeattleQualco\seattlequalco.xml" />
+    <Content Include="fvp_final\SeattleQualco\videoSource.xml" />
+    <Content Include="fvp_final\Tanvi\index.html" />
+    <Content Include="fvp_final\Tanvi\javascript\swfobject\expressinstall.swf" />
+    <Content Include="fvp_final\Tanvi\javascript\swfobject\swfobject.js" />
+    <Content Include="fvp_final\Tanvi\player.swf" />
+    <Content Include="fvp_final\Tanvi\preloader.swf" />
+    <Content Include="fvp_final\Tanvi\Tanvi_Srivastava.xml" />
+    <Content Include="fvp_final\Tanvi\videoSource.xml" />
+    <Content Include="fvp_final\Zach\index.html" />
+    <Content Include="fvp_final\Zach\javascript\swfobject\expressinstall.swf" />
+    <Content Include="fvp_final\Zach\javascript\swfobject\swfobject.js" />
+    <Content Include="fvp_final\Zach\player.swf" />
+    <Content Include="fvp_final\Zach\preloader.swf" />
+    <Content Include="fvp_final\Zach\videoSource.xml" />
+    <Content Include="fvp_final\Zach\Zac_Rudolph.xml" />
+    <Content Include="images\campus\anton.png" />
+    <Content Include="images\campus\bkg-blue-gradient_175.JPG" />
+    <Content Include="images\campus\bkg-blue-gradient_195.JPG" />
+    <Content Include="images\campus\bkg-findyourfit-formresult.JPG" />
+    <Content Include="images\campus\bkg-left_first.jpg" />
+    <Content Include="images\campus\bkg-left_result.JPG" />
+    <Content Include="images\campus\bkg-left_second.jpg" />
+    <Content Include="images\campus\btn-close.png" />
+    <Content Include="images\campus\btn-next.gif" />
+    <Content Include="images\campus\btn-next1.JPG" />
+    <Content Include="images\campus\btn-previous.gif" />
+    <Content Include="images\campus\btn-template.jpg" />
+    <Content Include="images\campus\btnClearResult.jpg" />
+    <Content Include="images\campus\btnStartOver.jpg" />
+    <Content Include="images\campus\carousel.png" />
+    <Content Include="images\campus\diversity.png" />
+    <Content Include="images\campus\howard.png" />
+    <Content Include="images\campus\ico-ajax.gif" />
+    <Content Include="images\campus\ico-mop-jennifer.jpg" />
+    <Content Include="images\campus\ico-mop-Kaitlyn.jpg" />
+    <Content Include="images\campus\ico-mop-Kevin_reh.jpg" />
+    <Content Include="images\campus\ico-window.gif" />
+    <Content Include="images\campus\icon-AshleyClark1.jpg" />
+    <Content Include="images\campus\jarrod.png" />
+    <Content Include="images\campus\kaitlyn.png" />
+    <Content Include="images\campus\kevin.png" />
+    <Content Include="images\campus\leonard.png" />
+    <Content Include="images\campus\modal-layer.png" />
+    <Content Include="images\campus\narinder.png" />
+    <Content Include="images\campus\nav-explore-am1.JPG" />
+    <Content Include="images\campus\nichole.png" />
+    <Content Include="images\campus\patricia.png" />
+    <Content Include="images\campus\saumya.png" />
+    <Content Include="images\campus\sign_attention.gif" />
+    <Content Include="images\campus\tanvi.png" />
+    <Content Include="images\campus\tn-anton.png" />
+    <Content Include="images\campus\tn-Dallas.png" />
+    <Content Include="images\campus\tn-diversity.png" />
+    <Content Include="images\campus\tn-howard.png" />
+    <Content Include="images\campus\tn-jarrod.png" />
+    <Content Include="images\campus\tn-kaitlyn.png" />
+    <Content Include="images\campus\tn-kevin.png" />
+    <Content Include="images\campus\tn-leonard.png" />
+    <Content Include="images\campus\tn-narinder.png" />
+    <Content Include="images\campus\tn-nichole.png" />
+    <Content Include="images\campus\tn-patricia.png" />
+    <Content Include="images\campus\tn-Qualco.png" />
+    <Content Include="images\campus\tn-Queens.png" />
+    <Content Include="images\campus\tn-saumya.png" />
+    <Content Include="images\campus\tn-tanvi.png" />
+    <Content Include="images\campus\tn-zach.png" />
+    <Content Include="images\campus\zach.png" />
+    <Content Include="Includes\libs\jquery\1.5.2\jquery.min.js" />
+    <Content Include="Includes\libs\jquery\plugin\carousel.js" />
+    <Content Include="Includes\libs\jquery\plugin\carousel.min.js" />
+    <Content Include="Includes\libs\jquery\plugin\dialog.js" />
+    <Content Include="Includes\libs\jquery\plugin\dialog.min.js" />
+    <Content Include="Includes\libs\jquery\ui\1.8.9\custom.min.js" />
+    <Content Include="obj\Debug\bac_carrers_com.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\BOA.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\campus-find-your-fit.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\campus-find-your-fit.dll" />
+    <Content Include="obj\Debug\campus-find-your-fit.pdb" />
+    <Content Include="scripts\_swfobject.js" />
+    <Content Include="templates\default.Master" />
+    <Content Include="uet\images\bac.jpg" />
+    <Content Include="www\global\js\tc_logging.js" />
+    <Content Include="www\global\js\tc_throttle.js" />
+    <Content Include="xml\FitFinder_071211.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="obj\Debug\bac_carrers_com.Properties.Resources.resources" />
+    <EmbeddedResource Include="obj\Debug\BOA.Properties.Resources.resources" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="obj\Debug\bac_carrers_com.csproj.GenerateResource.Cache" />
+    <None Include="obj\Debug\BOA.csproj.GenerateResource.Cache" />
+    <None Include="obj\Debug\ResolveAssemblyReference.cache" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Browsers\" />
+    <Folder Include="obj\Debug\TempPE\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v9.0\WebApplications\Microsoft.WebApplication.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <SaveServerSettingsInUserFile>True</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>
