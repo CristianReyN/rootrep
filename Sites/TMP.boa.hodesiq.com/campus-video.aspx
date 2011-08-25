@@ -23,9 +23,11 @@
 			<param name="base" value="."/>
 
 			<!--<![endif]-->
-
-				<p>Alternative fallback content (perhaps a transcript) should be placed here for users who may not have flash.</p>
-
+			
+			    <p style="color: #fff; font-size: 12px; padding: 15px">Your browser currently does not support Flash. You may <a href="http://get.adobe.com/flashplayer/" class="external">install it</a> by visiting Adobe's website.</p>
+			    
+			    <p style="color: #fff; font-size: 12px; padding: 15px">While you are upgrading, please feel free to read the transcript for <a href="<%=str_TranscriptPath%>" class="transcript"><%=str_Name%></a>.</p>
+								
 			<!--[if !IE]>-->
 			</object>
 			<!--<![endif]-->
