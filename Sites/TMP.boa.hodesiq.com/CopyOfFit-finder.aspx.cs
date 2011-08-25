@@ -26,10 +26,9 @@ public partial class CopyOfFit_finder : System.Web.UI.Page
     public string str_result5;
     public string str_result6;
     public string str_errors1 = "";
-    public string str_errors2 = "";
-    public int int_DegreeCode1 = 0;
-    public int int_DegreeCode2 = 0;
-    public int int_DegreeCode3 = 0;
+    public int int_DegreeCode1;
+    public int int_DegreeCode2;
+    public int int_DegreeCode3;
     public string degrevalid = "no";
 
     protected void sel_degree1_SelectedIndexChanged(object sender, EventArgs e)
@@ -435,7 +434,6 @@ public partial class CopyOfFit_finder : System.Web.UI.Page
         {
             str_errors1 = str_errors1 + "<li>You did not indicate 'level of education'</li>";
             ISSubmited.Value = "0";
-
         }
         else
         {
@@ -446,7 +444,6 @@ public partial class CopyOfFit_finder : System.Web.UI.Page
         {
             str_errors1 = str_errors1 + "<li>You did not indicate 'level of employment opportunity'</li>";
             ISSubmited.Value = "0";
-
         }
         else
         {
@@ -458,7 +455,6 @@ public partial class CopyOfFit_finder : System.Web.UI.Page
         {
             str_errors1 = str_errors1 + "<li>You did not indicate 'interested in coursework'</li>";
             ISSubmited.Value = "0";
-
         }
         else
         {
@@ -471,7 +467,6 @@ public partial class CopyOfFit_finder : System.Web.UI.Page
             degrevalid = "no";
             str_errors1 = str_errors1 + "<li>You did not indicate '...earn(ed) my degree in...'</li>";
             ISSubmited.Value = "0";
-
         }
         else
         {
@@ -489,7 +484,6 @@ public partial class CopyOfFit_finder : System.Web.UI.Page
         {
             str_errors1 = str_errors1 + "<li>You did not indicate 'preferred work environment'</li>";
             ISSubmited.Value = "0";
-
         }
         else
         {
@@ -521,7 +515,6 @@ public partial class CopyOfFit_finder : System.Web.UI.Page
             ckb_interestoptions.ClearSelection();
             sel_responsible_options.ClearSelection();
             sel_opportunity_options.ClearSelection();
-
         }
         else
         {
@@ -529,7 +522,6 @@ public partial class CopyOfFit_finder : System.Web.UI.Page
             pnlErrorDisplay.Visible = true;
             return;
         }
-
     }
 
     protected void btnGetResults_Click(object sender, EventArgs e)
@@ -677,45 +669,6 @@ public partial class CopyOfFit_finder : System.Web.UI.Page
 
     }
 
-    private void sel_responsible_options_uncheck()
-    {
-        string str_isremoved = int_sumofselect.Value;
-        str_isremoved = str_isremoved.Substring(0, str_isremoved.Length - 1);
-
-    }
-
-    /// <summary>
-    /// resertting all checkboxes and radiobuttons
-    /// </summary>
-    protected void btnClear_Click(object sender, EventArgs e)
-    {
-        foreach (ListItem item in ckb_interestoptions.Items)
-        {
-            if (item.Selected)
-            {
-                item.Selected = false;
-            }
-        }
-
-        foreach (ListItem item in sel_responsible_options.Items)
-        {
-            if (item.Selected)
-            {
-                item.Selected = false;
-            }
-        }
-
-        foreach (ListItem item in sel_opportunity_options.Items)
-        {
-            if (item.Selected)
-            {
-                item.Selected = false;
-            }
-        }
-        pnlErrors.Visible = false;
-
-    }
-
     /// <summary>
     /// After the scores are calculated, set the 6 best using the scores top6, which 
     /// has the top 6 best matches id's
@@ -747,6 +700,7 @@ public partial class CopyOfFit_finder : System.Web.UI.Page
         str_URL6 = answerKey.SelectNodes("/Jobs/JobType")[(int)top6[5]].Attributes.GetNamedItem("linkurl").Value;
         //LblResult6.Visible = true;        }
     }
+   
     /// <summary>
     /// this is where the final score is computed for questions
     /// </summary>
@@ -979,55 +933,7 @@ public partial class CopyOfFit_finder : System.Web.UI.Page
         }
         return 0;
     }
-    protected void sel_degree3_SelectedIndexChangedAgain(object sender, EventArgs e)
-    {
-
-        int_DegreeCode1 = int.Parse(sel_degree1.SelectedValue.ToString());
-        int_DegreeCode2 = int.Parse(sel_degree2.SelectedValue.ToString());
-        int_DegreeCode3 = int.Parse(sel_degree3.SelectedValue.ToString());
-        if (int_DegreeCode3 != int_DegreeCode2)
-        {
-            if (int_DegreeCode3 != int_DegreeCode1)
-            {
-                degrevalid = "yes";
-            }
-            else
-            {
-                degrevalid = "no";
-                str_errors1 = "<li>You cannot select same degre more then once</li>";
-                pnlErrors.Visible = true;
-                return;
-            }
-
-        }
-
-
-    }
-    protected void sel_degree3_SelectedIndexChangedAgain1(object sender, EventArgs e)
-    {
-
-        int_DegreeCode1 = int.Parse(sel_degree1.SelectedValue.ToString());
-        int_DegreeCode2 = int.Parse(sel_degree2.SelectedValue.ToString());
-        int_DegreeCode3 = int.Parse(sel_degree3.SelectedValue.ToString());
-        if (int_DegreeCode3 != int_DegreeCode2)
-        {
-            if (int_DegreeCode3 != int_DegreeCode1)
-            {
-                degrevalid = "yes";
-            }
-            else
-            {
-                degrevalid = "no";
-                str_errors1 = "<li>You cannot select same degre more then once</li>";
-                pnlErrors.Visible = true;
-                return;
-            }
-
-        }
-
-
-    }
-
+  
     public Control FindControlRecursive(Control root, string id)
     {
         if (root.ID == id)
