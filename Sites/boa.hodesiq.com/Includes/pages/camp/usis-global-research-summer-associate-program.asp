@@ -5,13 +5,13 @@
 <h1 class="bac"><%=program.Item("title")%></h1>
 
 <div class="expanded">
-<h2 class="bac"><a href="" title="Hide information"><img class="pclose" src="../images/clear.gif" alt="Hide information" title="Hide information"></a>Our Business</h2>
+<% call expandableH2("our_business", true) %>
 <div>
 <p class="bac">At Bank&nbsp;of&nbsp;America Merrill Lynch, Research Associates are aligned by both product (macro, credit or equity) and/or industry group (healthcare, technology, energy, etc.). Working alongside some of the most talented professionals in the industry, Research Associates gain the sector-specific expertise critical to building a career in Research, and contribute significantly to the in-depth research we distribute to clients worldwide.</p>
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><a href="" title="Show information"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information"></a>Overview</h2>
+<% call expandableH2("overview", false) %>
 <div>
 <p class="bac">The Summer Associate program is offered to graduates entering their 2nd year of Business school. Credit Research Associates are responsible for financial modeling/analysis, conducting primary research, writing franchise pieces and servicing institutional clients. Some responsibilities are conducted regularly (daily, weekly, etc.) while others are longer-term, ad hoc projects. Sample responsibilities and projects include:</p>
 <h3 class="bac">Modeling and Analysis</h3>
@@ -42,7 +42,7 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><a href="" title="Show information"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information"></a>Qualifications</h2>
+<% call expandableH2("qualifications", false) %>
 <div>
 <h3 class="bac">Education</h3>
 <ul class="bac">
@@ -77,19 +77,19 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><a href="" title="Show information"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information"></a>Training</h2>
+<% call expandableH2("training", false) %>
 <div>
 <p class="bac">The 10 week summer program kicks off with a week of training which teaches Bank&nbsp;of&nbsp;America basics, including professional practices, views of the markets and technical skills. Training continues throughout the summer as the Associate participates in group projects and presentations, offering the opportunity to learn not only from one&#39;s own program assignment, but also benefit from the other Summer Associate experiences.</p>
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><a href="" title="Show information"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information"></a>Locations</h2>
+<% call expandableH2("locations", false) %>
 <div>
 <p class="bac">The Credit Research Associate position is located in New York.</p>
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><a href="" title="Show information"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information"></a>How to Apply</h2>
+<% call expandableH2("how_to_apply", false) %>
 <div>
 <p class="bac"><% howToApply(program) %></p>
 </div></div>

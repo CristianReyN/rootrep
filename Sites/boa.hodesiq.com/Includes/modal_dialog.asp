@@ -3,7 +3,7 @@
 		<div class="mdv-top">
 			<div class="mdv-head">
 				<h3><%=video_profile.Item("name")%></h3>
-				<p><%=video_profile.Item("videoname")%><a href="index.html" id="grabfocus"> </a></p>
+				<p><%=video_profile.Item("videoname")%><a href="" id="grabfocus" onclick="return false;"> </a></p>
 			</div>
 			<div class="mdv-info">
 				<div class="mdv-close">
@@ -14,7 +14,7 @@
 		</div>
 		<div class="clearall"></div>
 		<div class="mdv-content">
-			<iframe id="imodal" frameborder="0" marginheight="0" marginwidth="0" scrolling="0" width="495" height="305" src="" videosrc="<%=video_profile.Item("videohtml")%>"></iframe>
+			<iframe id="imodal" frameborder="0" marginheight="0" marginwidth="0" scrolling="0" width="495" height="305" src="" videosrc="<%=video_profile.Item("videohtml")%>"></iframe><a href="" id="returnfocus" onclick="return false;"> </a>
 		</div>
 		<div class="clearall"></div>
 	</div>

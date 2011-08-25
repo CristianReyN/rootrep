@@ -5,7 +5,7 @@
 <h1 class="bac"><%=program.Item("title")%></h1>
 
 <div class="expanded">
-<h2 class="bac"><a href="" title="Hide information"><img class="pclose" src="../images/clear.gif" alt="Hide information" title="Hide information"></a>Our Business</h2>
+<% call expandableH2("our_business", true) %>
 <div>
 <p class="bac">Global Supply Chain Management Associate Program (SC MAP) Mission Statement:</p>
 <p class="bac">To champion Global Supply Chain Management associate development through experiential learning, training, and networking opportunities. This will empower associates early in their careers to manage their professional development, realize their potential, and maximize their contributions to Bank&nbsp;of&nbsp;America.</p>
@@ -13,7 +13,7 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><a href="" title="Show information"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information"></a>Overview</h2>
+<% call expandableH2("overview", false) %>
 <div>
 <p class="bac nobr">Two 1-year rotational assignments where responsibilities may include:</p>
 <ul class="bac">
@@ -29,7 +29,7 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><a href="" title="Show information"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information"></a>Qualifications</h2>
+<% call expandableH2("qualifications", false) %>
 <div>
 <p class="bac nobr">Ideal candidates will have the following:</p>
 <ul class="bac">
@@ -48,19 +48,19 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><a href="" title="Show information"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information"></a>Training</h2>
+<% call expandableH2("training", false) %>
 <div>
 <p class="bac">The MAP Associate training curriculum is a two-phase program that compliments the hands-on experience that the MAP associates develops in their rotational assignments. The training curriculum is geared for professionals with courses offered in three main areas: technical training, business acumen, and behavioral courses.</p>
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><a href="" title="Show information"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information"></a>Locations</h2>
+<% call expandableH2("locations", false) %>
 <div>
 <p class="bac">Charlotte, North Carolina</p>
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><a href="" title="Show information"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information"></a>How to Apply</h2>
+<% call expandableH2("how_to_apply", false) %>
 <div>
 <p class="bac"><% howToApply(program) %></p>
 </div></div>

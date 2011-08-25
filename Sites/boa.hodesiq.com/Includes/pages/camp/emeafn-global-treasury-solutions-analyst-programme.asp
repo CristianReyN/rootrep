@@ -5,7 +5,7 @@
 <h1 class="bac"><%=program.Item("title")%></h1>
 
 <div class="expanded">
-<h2 class="bac"><a href="" title="Hide information"><img class="pclose" src="../images/clear.gif" alt="Hide information" title="Hide information"></a>Our Business</h2>
+<% call expandableH2("our_business", true) %>
 <div>
 <h3 class="bac">Summary</h3>
 <ul class="bac">
@@ -19,7 +19,7 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><a href="" title="Show information"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information"></a>Overview</h2>
+<% call expandableH2("overview", false) %>
 <div>
 <p class="bac nobr">As an Analyst within Global Treasury Solutions you will:</p>
 <ul class="bac">
@@ -32,14 +32,14 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><a href="" title="Show information"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information"></a>Training</h2>
+<% call expandableH2("training", false) %>
 <div>
 <p class="bac">Training begins in July when you will join newly-hired analysts from around the world for an intensive few weeks to learn about our company, its culture and all the relevant tools, techniques and working practices. You&#39;ll also receive grounding in your chosen business area, as you develop your professional skills and team-working capabilities.</p>
 <p class="bac">On return to your local office, you&#39;ll take on additional responsibility at an early stage. With on-going development opportunities throughout the programme you&#39;ll be encouraged to grow your abilities through on-the-job learning, structured training and study towards your professional qualifications. We&#39;ll support and reward you on the basis of your individual performance.</p>
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><a href="" title="Show information"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information"></a>Qualifications</h2>
+<% call expandableH2("qualifications", false) %>
 <div>
 <ul class="bac">
 	<li>Basic Treasury and working capital management knowledge as well as entry level credit knowledge is preferable</li>
@@ -50,13 +50,13 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><a href="" title="Show information"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information"></a>Locations</h2>
+<% call expandableH2("locations", false) %>
 <div>
 <p class="bac">London</p>
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><a href="" title="Show information"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information"></a>How to Apply</h2>
+<% call expandableH2("how_to_apply", false) %>
 <div>
 <p class="bac"><% howToApply(program) %></p>
 </div></div>

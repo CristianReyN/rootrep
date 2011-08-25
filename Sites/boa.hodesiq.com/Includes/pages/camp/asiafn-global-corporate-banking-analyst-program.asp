@@ -5,13 +5,13 @@
 <h1 class="bac"><%=program.Item("title")%></h1>
 
 <div class="expanded">
-<h2 class="bac"><a href="" title="Hide information"><img class="pclose" src="../images/clear.gif" alt="Hide information" title="Hide information"></a>Our Business</h2>
+<% call expandableH2("our_business", true) %>
 <div>
 <p class="bac">Global Corporate Banking includes both the Corporate Banking coverage officers as well as the product development and delivery capabilities that have most recently been a part of Global Product Solutions. Bringing together corporate bankers with product delivery officers and the product development team helps us more fully integrate corporate banking product capabilities with our client coverage model, further pulling the business together in an end-to-end in partnership with Investment Banking.</p>
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><a href="" title="Show information"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information"></a>Overview</h2>
+<% call expandableH2("overview", false) %>
 <div>
 <p class="bac">Corporate Banking Analysts are active members of the country&#39;s integrated client coverage teams who assist coverage bankers in the delivery of the full breadth of products and services to clients and prospects. Analysts are called on to:</p>
 <ul class="bac">
@@ -25,7 +25,7 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><a href="" title="Show information"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information"></a>Qualifications</h2>
+<% call expandableH2("qualifications", false) %>
 <div>
 <ul class="bac">
 	<li> Bachelor&#39;s degree with outstanding academic qualifications</li>
@@ -40,7 +40,7 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><a href="" title="Show information"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information"></a>Training</h2>
+<% call expandableH2("training", false) %>
 <div>
 <p class="bac">Full-time Analysts are hired upon completion of their undergraduate/master&#39;s degree. Your career as an Analyst will begin with a formal training program which takes place in New York for all Analysts globally, and is considered one of the best in the industry. Instruction is provided by Bank&nbsp;of&nbsp;America professionals and leading business school professors.</p>
 <p class="bac nobr">The training program includes:</p>
@@ -55,13 +55,13 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><a href="" title="Show information"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information"></a>Locations</h2>
+<% call expandableH2("locations", false) %>
 <div>
 <p class="bac">Australia, Hong Kong, India, Japan, Singapore and China</p>
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><a href="" title="Show information"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information"></a>How to Apply</h2>
+<% call expandableH2("how_to_apply", false) %>
 <div>
 <p class="bac"><% howToApply(program) %></p>
 </div></div>

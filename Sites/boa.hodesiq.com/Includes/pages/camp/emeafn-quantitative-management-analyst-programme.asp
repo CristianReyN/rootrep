@@ -5,7 +5,7 @@
 <h1 class="bac"><%=program.Item("title")%></h1>
 
 <div class="expanded">
-<h2 class="bac"><a href="" title="Hide information"><img class="pclose" src="../images/clear.gif" alt="Hide information" title="Hide information"></a>Our Business</h2>
+<% call expandableH2("our_business", true) %>
 <div>
 <h3 class="bac">Summary</h3>
 <ul class="bac">
@@ -18,7 +18,7 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><a href="" title="Show information"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information"></a>Overview</h2>
+<% call expandableH2("overview", false) %>
 <div>
 <p class="bac nobr">As an Analyst within Quantitative Management, you will:</p>
 <ul class="bac">
@@ -29,7 +29,7 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><a href="" title="Show information"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information"></a>Training</h2>
+<% call expandableH2("training", false) %>
 <div>
 <p class="bac">The QMAP training curriculum is a multi-phase program that complements and enhances the hands-on experience the associates develop in their rotational assignments.</p>
 <p class="bac">The goal of the training curriculum is to provide a broad introduction to core concepts and theories of quantitative modeling and risk management that the associates will encounter during their career at Bank&nbsp;of&nbsp;America, covering topics from the consumer, commercial and capital markets lines of businesses.</p>
@@ -37,7 +37,7 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><a href="" title="Show information"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information"></a>Qualifications</h2>
+<% call expandableH2("qualifications", false) %>
 <div>
 <p class="bac nobr">The Quantitative Management Analyst Programme is seeking a combination of academic aptitude and quantitative skills including:</p>
 <ul class="bac">
@@ -49,13 +49,13 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><a href="" title="Show information"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information"></a>Locations</h2>
+<% call expandableH2("locations", false) %>
 <div>
 <p class="bac">London</p>
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><a href="" title="Show information"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information"></a>How to Apply</h2>
+<% call expandableH2("how_to_apply", false) %>
 <div>
 <p class="bac"><% howToApply(program) %></p>
 </div></div>

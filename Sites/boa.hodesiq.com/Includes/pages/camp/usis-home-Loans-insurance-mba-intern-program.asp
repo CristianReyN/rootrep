@@ -5,13 +5,13 @@
 <h1 class="bac"><%=program.Item("title")%></h1>
 
 <div class="expanded">
-<h2 class="bac"><a href="" title="Hide information"><img class="pclose" src="../images/clear.gif" alt="Hide information" title="Hide information"></a>Our Business</h2>
+<% call expandableH2("our_business", true) %>
 <div>
 <p class="bac">Bank&nbsp;of&nbsp;America&#39;s commitment to the mortgage industry is focused on continuous growth, increased teamwork, and excellent customer service. As the nation&#39;s largest mortgage lender and loan servicer, and the world&#39;s most trusted lender, Bank&nbsp;of&nbsp;America Home Loans embraces a commitment to responsible home lending. Our every action is focused on Bringing Opportunity Home for those we serve, assisting new and existing customers in achieving their dreams of home ownership and preservation.</p>
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><a href="" title="Show information"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information"></a>Overview</h2>
+<% call expandableH2("overview", false) %>
 <div>
 <p class="bac">Bank&nbsp;of&nbsp;America is investing in high-caliber talent to expand the bank&#39;s cadre of leaders. The program seeks to provide learning opportunities and experiences to enhance knowledge and skills of the mortgage business at Bank&nbsp;of&nbsp;America with Credit and Risk Policy emphasis. The program will also strengthen leadership skills and attributes that are applicable across the corporation.</p>
 <p class="bac nobr">The program includes:</p>
@@ -31,7 +31,7 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><a href="" title="Show information"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information"></a>Qualifications</h2>
+<% call expandableH2("qualifications", false) %>
 <div>
 <ul class="bac">
 	<li>Pursuing a MBA in Strategic Management, Accounting, Finance, Business Administration, Economics, or related discipline</li>
@@ -46,13 +46,13 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><a href="" title="Show information"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information"></a>Training</h2>
+<% call expandableH2("training", false) %>
 <div>
 <p class="bac">Associates will participate in a formal Orientation and Education program to learn more about Bank&nbsp;of&nbsp;America, the culture and values, as well as to network with Executives and other campus hires. Additionally, associates will participate in various networking and learning opportunities throughout the duration of the program.</p>
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><a href="" title="Show information"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information"></a>Locations</h2>
+<% call expandableH2("locations", false) %>
 <div>
 <p class="bac">Calabasas, CA (Los Angeles area)</p>
 <p class="bac">Plano, TX (Dallas area)</p>
@@ -60,7 +60,7 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><a href="" title="Show information"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information"></a>How to Apply</h2>
+<% call expandableH2("how_to_apply", false) %>
 <div>
 <p class="bac"><% howToApply(program) %></p>
 </div></div>

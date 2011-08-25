@@ -5,13 +5,13 @@
 <h1 class="bac"><%=program.Item("title")%></h1>
 
 <div class="expanded">
-<h2 class="bac"><a href="" title="Hide information"><img class="pclose" src="../images/clear.gif" alt="Hide information" title="Hide information"></a>Our Business</h2>
+<% call expandableH2("our_business", true) %>
 <div>
 <p class="bac">To deliver a best in class rotational development opportunity for Finance MAP associates through experiential learning, training, and networking opportunities. The Finance MAP Program is designed to give associates the necessary tools, early in their careers, to manage their professional development, realize their potential, and maximize their contributions to Bank&nbsp;of&nbsp;America.</p>
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><a href="" title="Show information"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information"></a>Overview</h2>
+<% call expandableH2("overview", false) %>
 <div>
 <p class="bac">The Finance Management Associate Program (FMAP) is a two-year Associate Development program that focuses on Corporate Accounting and Corporate Finance functions within Bank&nbsp;of&nbsp;America. The FMAP program provides associates with the opportunity to move through two rotational assignments within the Chief Finance Officer&#39;s organization. This rotational process helps associates develop a solid knowledge base of the functional areas of the CFO Group and a broad range of skills. Finance MAP associates participate in a variety of activities designed to foster teamwork, encourage networking, and demonstrate Bank&nbsp;of&nbsp;America&#39;s vision and culture. You will participate in FMAP events and networking activities, and will be encouraged to further develop leadership skills by leading projects or committees.</p>
 <p class="bac nobr">Through your 2 one-year rotations, you will participate in a Business and Corporate support role. FMAP roles may support one or more of the following:</p>
@@ -26,25 +26,25 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><a href="" title="Show information"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information"></a>Qualifications</h2>
+<% call expandableH2("qualifications", false) %>
 <div>
 <p class="bac">We hire an elite group of new associates who have degrees in Accounting and Finance with a minimum 3.2 grade point average. Strong academics and technical skills should be accompanied by proficiencies in critical thinking, leadership, business acumen, and relationship building.</p>
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><a href="" title="Show information"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information"></a>Training</h2>
+<% call expandableH2("training", false) %>
 <div>
 <p class="bac">The Finance MAP training curriculum is comprehensive and offers a blend of classroom and web-based training, which complements the hands-on experience that the MAP associates develop in their rotational assignments. The training curriculum is geared for professionals with courses offered in three main areas: technical training, business acumen, and behavioral courses.</p>
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><a href="" title="Show information"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information"></a>Locations</h2>
+<% call expandableH2("locations", false) %>
 <div>
 <p class="bac">Boston, Massachusetts; Charlotte, North Carolina; New York, New York; Wilmington, Delaware; Calabasas, California</p>
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><a href="" title="Show information"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information"></a>How to Apply</h2>
+<% call expandableH2("how_to_apply", false) %>
 <div>
 <p class="bac"><% howToApply(program) %></p>
 </div></div>

@@ -4,11 +4,28 @@ jQuery(document).ready(function(){
 		var sibling_div = $(this).siblings('div'), a = $('.prg h2.bac:eq('+index+') a'), arr = $('.prg h2.bac:eq('+index+') img');
 		a.click(function() {
 			sibling_div.slideToggle('slow', function() {
+				
 				arr.toggleClass("pclose popen");
-				if(arr.hasClass('pclose')) { arr.attr('alt','Hide information'); arr.attr('title','Hide information'); }
-				else if(arr.hasClass('popen')) { arr.attr('alt','Show information'); arr.attr('title','Show information'); }
-				if(a.attr('title')=='Show information') { a.attr('title','Hide information'); }
-				else if(a.attr('title')=='Hide information') { a.attr('title','Show information'); }
+				if(arr.hasClass('pclose')) 
+				{
+					arr.attr('alt',arr.attr('alt').replace('Show','Hide'));
+					arr.attr('title',arr.attr('title').replace('Show','Hide'));
+				}
+				else if(arr.hasClass('popen'))
+				{
+					arr.attr('alt',arr.attr('alt').replace('Hide','Show'));
+					arr.attr('title',arr.attr('title').replace('Hide','Show'));
+				}
+				
+				a.toggleClass("aclose aopen");
+				if(a.hasClass('aclose')) 
+				{
+					a.attr('title',a.attr('title').replace('Show','Hide'));
+				}
+				else if(a.hasClass('aopen'))
+				{
+					a.attr('title',a.attr('title').replace('Hide','Show'));
+				}
 			});
 			return false;
 		});
@@ -47,6 +64,7 @@ jQuery(document).ready(function(){
 		top:250,
 		left:160,
 		scrollbars:1,
+		resizable:1,
 		windowName: 'videoTranscript'
 	});
 	
@@ -104,6 +122,18 @@ jQuery(document).ready(function(){
 		var iframe = $('#imodal').get(0);
 		if (iframe) iframe.src = 'video/empty.html';
 		return false;
+	});
+	$('#returnfocus').blur(function (e) {
+		if(document.all)
+		{
+			$('#grabfocus').get(0).tabIndex = '-1';
+			$('#grabfocus').focus();
+		}
+		else
+		{
+			$('#videoclose').get(0).tabIndex = '-1';
+			$('#videoclose').focus();
+		}
 	});
 	
  });

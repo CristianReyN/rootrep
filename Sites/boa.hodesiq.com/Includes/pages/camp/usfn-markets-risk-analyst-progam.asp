@@ -5,13 +5,13 @@
 <h1 class="bac"><%=program.Item("title")%></h1>
 
 <div class="expanded">
-<h2 class="bac"><a href="" title="Hide information"><img class="pclose" src="../images/clear.gif" alt="Hide information" title="Hide information"></a>Our Business</h2>
+<% call expandableH2("our_business", true) %>
 <div>
 <p class="bac">Risk Managers develop a deep subject matter expertise in the Global Markets, and as trusted advisors to the various sales &amp; trading business lines, engage in active dialogue with the risks takers to fully articulate the nature of the risk and provide transparency of risk to senior management.</p>
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><a href="" title="Show information"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information"></a>Overview</h2>
+<% call expandableH2("overview", false) %>
 <div>
 <p class="bac">The Markets Risk Analyst Program (MRAP) is designed to develop and coach analytical and quantitative talent to be deployed as a Risk Analyst within the Global Markets Risk (GMR) organization.</p>
 <ul class="bac">
@@ -22,7 +22,7 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><a href="" title="Show information"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information"></a>Qualifications</h2>
+<% call expandableH2("qualifications", false) %>
 <div>
 <p class="bac nobr">The Markets Risk Analyst Program is seeking a combination of academic aptitude and quantitative skills including:</p>
 <ul class="bac">
@@ -37,7 +37,7 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><a href="" title="Show information"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information"></a>Training</h2>
+<% call expandableH2("training", false) %>
 <div>
 <p class="bac">The training curriculum is part of a multi&ndash;phase program that complements and enhances the hands&ndash;on experience the associates develop in their day&ndash;to&ndash;day jobs. As an analyst you will begin your career at Bank&nbsp;of&nbsp;America with a 5 week extensive training program. The program combines analysts from all lines of business and is a combination of classroom instruction, e&ndash;learning modules, case studies and presentations. Throughout this training program you will have ample opportunities to work closely with professionals and peers across the organization. This is a great opportunity to build a network of colleagues from across the company that will prove to be a tremendous resource to you throughout your career.</p>
 <p class="bac">Other phases of the training curriculum are designed to provide a broad introduction to core concepts and theories of risk management that the associates will encounter during their career at Bank&nbsp;of&nbsp;America. The training curriculum is geared for young professionals and includes both classroom and web&ndash;based components.</p>
@@ -47,13 +47,13 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><a href="" title="Show information"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information"></a>Locations</h2>
+<% call expandableH2("locations", false) %>
 <div>
 <p class="bac">New York, NY</p>
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><a href="" title="Show information"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information"></a>How to Apply</h2>
+<% call expandableH2("how_to_apply", false) %>
 <div>
 <p class="bac"><% howToApply(program) %></p>
 </div></div>

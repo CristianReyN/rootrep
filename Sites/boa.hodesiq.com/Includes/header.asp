@@ -176,7 +176,7 @@ End If
 <script language="javascript" type="text/javascript">
 //<!--
 	examineFontSize("body");
-	<% If ENV="production" Then Response.write "cmSetProduction();" %>
+<% If ENV="production" Then Response.write "cmSetProduction();" %>
 <% If Not ( mpage = "camp" And ( tpage = "undergraduate_programs" Or tpage = "graduate_programs" Or tpage = "internships" Or fpage = "undergraduate_internships" Or fpage = "graduate_internships" Or tpage = "benefits_and_rewards" Or spage = "campus_events" Or spage = "how_to_apply" Or tpage = "campus_faqs" ) ) Then %>
 	cmCreatePageviewTag("<%= pageId %>", null, null,"<%= categoryId %>");
 <% End If %>

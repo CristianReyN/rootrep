@@ -5,7 +5,7 @@
 <h1 class="bac"><%=program.Item("title")%></h1>
 
 <div class="expanded">
-<h2 class="bac"><a href="" title="Hide information"><img class="pclose" src="../images/clear.gif" alt="Hide information" title="Hide information"></a>Our Business</h2>
+<% call expandableH2("our_business", true) %>
 <div>
 <p class="bac">Global Markets Operations  &amp; Middle Office</p>
 <p class="bac">Clears and settles trades in securities and listed derivatives; manages funds transfers; provides custody services for proprietary and client assets; and, maintains control over static product and client data. These primary functions support the Firm&#39;s Global Markets and Investment Banking division and third party clients through a variety of financial and regulatory control activities.</p>
@@ -14,7 +14,7 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><a href="" title="Show information"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information"></a>Overview</h2>
+<% call expandableH2("overview", false) %>
 <div>
 <p class="bac">Operations Fulltime Analyst Program is designed to provide candidates with an opportunity to work with experienced operations professionals and prepare for a career in the bank&#39;s operations division.</p>
 <h3 class="bac">Placement</h3>
@@ -31,7 +31,7 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><a href="" title="Show information"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information"></a>Qualifications</h2>
+<% call expandableH2("qualifications", false) %>
 <div>
 <h3 class="bac">Education</h3>
 <ul class="bac">
@@ -68,7 +68,7 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><a href="" title="Show information"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information"></a>Training</h2>
+<% call expandableH2("training", false) %>
 <div>
 <p class="bac nobr">The Fulltime Analyst program consists of the following developmental activities:</p>
 <ul class="bac">
@@ -83,13 +83,13 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><a href="" title="Show information"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information"></a>Locations</h2>
+<% call expandableH2("locations", false) %>
 <div>
 <p class="bac">Singapore, Hong Kong, Japan</p>
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><a href="" title="Show information"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information"></a>How to Apply</h2>
+<% call expandableH2("how_to_apply", false) %>
 <div>
 <p class="bac"><% howToApply(program) %></p>
 </div></div>

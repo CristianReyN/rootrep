@@ -5,20 +5,20 @@
 <h1 class="bac"><%=program.Item("title")%></h1>
 
 <div class="expanded">
-<h2 class="bac"><a href="" title="Hide information"><img class="pclose" src="../images/clear.gif" alt="Hide information" title="Hide information"></a>Our Business</h2>
+<% call expandableH2("our_business", true) %>
 <div>
 <p class="bac">A division of Global Banking and Markets (GBAM), the Global Corporate and Financial Institutions Treasury Product Delivery team provides integrated treasury, liquidity and debt solutions to Global Corporate clients and financial institutions. As a core member of the client team, the Product Delivery Team partners closely with groups across Corporate Banking including; Product Management, E&ndash;commerce, Card, and Debt Product Delivery teams, to deliver integrated solutions to our client. Treasury analysts work with clients operating around the globe, with annual revenues of greater than $2B, as well as financial institutions and financial services companies.</p>
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><a href="" title="Show information"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information"></a>Overview</h2>
+<% call expandableH2("overview", false) %>
 <div>
 <p class="bac">The Summer Analyst Program emphasizes on&ndash;the&ndash;job training, augmented by classroom instruction, focused on technical, analytical and professional skills. Functional areas include treasury management, financial modeling and credit/risk fundamentals, and relationship management.</p>
 <p class="bac">Summer analyst roles provide broad exposure and understanding of key functional areas. Summer analysts receive exposure to treasury solutions, product management/innovation and risk management, with intensive focus on how to best deliver innovative treasury solutions to our clients.</p>
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><a href="" title="Show information"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information"></a>Qualifications</h2>
+<% call expandableH2("qualifications", false) %>
 <div>
 <p class="bac nobr">Candidates should demonstrate a strong combination of the following characteristics:</p>
 <ul class="bac">
@@ -33,7 +33,7 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><a href="" title="Show information"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information"></a>Training</h2>
+<% call expandableH2("training", false) %>
 <div>
 <ul class="bac">
 	<li>Formal training providing overviews of Bank&nbsp;of&nbsp;America Merrill Lynch, its business divisions, organizational structure, product groups and technology</li>
@@ -44,13 +44,13 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><a href="" title="Show information"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information"></a>Locations</h2>
+<% call expandableH2("locations", false) %>
 <div>
 <p class="bac">Positions are available in major markets across the Bank&nbsp;of&nbsp;America footprint. Line of business and location assignment is based on business need and candidate interest. Geographic flexibility is required at the end of the program in an effort to fill business&ndash;critical roles.</p>
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><a href="" title="Show information"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information"></a>How to Apply</h2>
+<% call expandableH2("how_to_apply", false) %>
 <div>
 <p class="bac"><% howToApply(program) %></p>
 </div></div>

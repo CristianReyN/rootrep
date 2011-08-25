@@ -5,13 +5,13 @@
 <h1 class="bac"><%=program.Item("title")%></h1>
 
 <div class="expanded">
-<h2 class="bac"><a href="" title="Hide information"><img class="pclose" src="../images/clear.gif" alt="Hide information" title="Hide information"></a>Our Business</h2>
+<% call expandableH2("our_business", true) %>
 <div>
 <p class="bac">Chief Financial Office (CFO) partners with all business units, performing traditional finance and accounting functions, as well as strategic analysis. CFO helps execute strategic goals, drive disciplined growth, and enhance operational efficiencies at every level. CFO is also responsible for the firm&#39;s market and credit risk management, treasury, financial and regulatory reporting and controls, corporate and strategic planning, internal audit, and tax policy, as well as regulatory supervision on a global basis.</p>
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><a href="" title="Show information"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information"></a>Overview</h2>
+<% call expandableH2("overview", false) %>
 <div>
 <p class="bac">Chief Financial Office (CFO) Fulltime Analyst Program is designed to provide candidates with an opportunity to work with experienced finance professionals and prepare for a career in the bank&#39;s finance division.</p>
 <h3 class="bac">Placement</h3 >
@@ -29,7 +29,7 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><a href="" title="Show information"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information"></a>Qualifications</h2>
+<% call expandableH2("qualifications", false) %>
 <div>
 <h3 class="bac">Education</h3>
 <ul class="bac">
@@ -66,7 +66,7 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><a href="" title="Show information"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information"></a>Training</h2>
+<% call expandableH2("training", false) %>
 <div>
 <p class="bac nobr">The Fulltime Analyst Program consists of the following developmental activities:</p>
 <ul class="bac">
@@ -81,13 +81,13 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><a href="" title="Show information"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information"></a>Locations</h2>
+<% call expandableH2("locations", false) %>
 <div>
 <p class="bac">Singapore, Hong Kong, Japan</p>
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><a href="" title="Show information"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information"></a>How to Apply</h2>
+<% call expandableH2("how_to_apply", false) %>
 <div>
 <p class="bac"><% howToApply(program) %></p>
 </div></div>

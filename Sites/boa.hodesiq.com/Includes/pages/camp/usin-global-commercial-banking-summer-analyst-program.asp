@@ -5,7 +5,7 @@
 <h1 class="bac"><%=program.Item("title")%></h1>
 
 <div class="expanded">
-<h2 class="bac"><a href="" title="Hide information"><img class="pclose" src="../images/clear.gif" alt="Hide information" title="Hide information"></a>Our Business</h2>
+<% call expandableH2("our_business", true) %>
 <div>
 <p class="bac">Global Commercial Banking (GCB) serves more than 100,000 business banking, and more than 30,000 middle-market, clients through dedicated client teams, who provide seamless delivery of the company&#39;s full capabilities, including investment banking and M &amp;A, wealth and investment management, integrated credit and treasury solutions, and international banking services.</p>
 <p class="bac nobr">GCB consists of six core businesses including:</p>
@@ -20,7 +20,7 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><a href="" title="Show information"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information"></a>Overview</h2>
+<% call expandableH2("overview", false) %>
 <div>
 <p class="bac">Summer Analysts are provided corporate experiences with one of the six core business within Global Commercial Banking.</p>
 <p class="bac nobr">Responsibilities include:</p>
@@ -33,7 +33,7 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><a href="" title="Show information"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information"></a>Qualifications</h2>
+<% call expandableH2("qualifications", false) %>
 <div>
 <ul class="bac">
 	<li>Rising senior with outstanding academic qualifications</li>
@@ -47,7 +47,7 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><a href="" title="Show information"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information"></a>Training</h2>
+<% call expandableH2("training", false) %>
 <div>
 <ul class="bac">
 	<li>Formal training providing overviews of Bank&nbsp;of&nbsp;America Merrill Lynch, its business divisions, organizational structure, product groups and technology</li>
@@ -58,13 +58,13 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><a href="" title="Show information"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information"></a>Locations</h2>
+<% call expandableH2("locations", false) %>
 <div>
 <p class="bac">Positions are available in major markets across the Bank&nbsp;of&nbsp;America Merrill Lynch footprint.</p>
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><a href="" title="Show information"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information"></a>How to Apply</h2>
+<% call expandableH2("how_to_apply", false) %>
 <div>
 <p class="bac"><% howToApply(program) %></p>
 </div></div>

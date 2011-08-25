@@ -5,13 +5,13 @@
 <h1 class="bac"><%=program.Item("title")%></h1>
 
 <div class="expanded">
-<h2 class="bac"><a href="" title="Hide information"><img class="pclose" src="../images/clear.gif" alt="Hide information" title="Hide information"></a>Our Business</h2>
+<% call expandableH2("our_business", true) %>
 <div>
 <p class="bac">Bank&nbsp;of&nbsp;America Merrill Lynch Public Finance is headquartered in New York with multiple regional offices. Public Finance provides financing solutions to state and local governmental and not-for-profit clients, primarily through tax-exempt and taxable bond underwriting. Clients include states, counties, cities, school districts, institutions of higher education, housing agencies, student loan authorities, public utilities, public transportation agencies, cultural organizations, not-for-profit hospitals and developers.</p>
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><a href="" title="Show information"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information"></a>Overview</h2>
+<% call expandableH2("overview", false) %>
 <div>
 <p class="bac nobr">As an active team member in Public Finance, Interns assist bankers in capital raising and strategic advisory transactions for governmental, not-for-profit and/or developer clients. Interns are called on to:</p>
 <ul class="bac">
@@ -24,13 +24,13 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><a href="" title="Show information"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information"></a>Qualifications</h2>
+<% call expandableH2("qualifications", false) %>
 <div>
 <p class="bac">Candidates must demonstrate an interest in the public sector and a combination of academic aptitude, quantitative skills, strategic and creative thinking and distinguished written and oral communications skills. Analysts are required to manage several projects at once and work effectively as an individual and as part of a team. Some common driving characteristics we look for: assertiveness, attention to detail, exceptional academic achievement, initiative, team focus, self-confidence, strategic and creative thinking capabilities, strong work ethic, and strong communication skills. Strong quantitative skills and computer/software skills are a must, with a background in Mathematics, Accounting, Finance or Engineering preferred.</p>
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><a href="" title="Show information"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information"></a>Training</h2>
+<% call expandableH2("training", false) %>
 <div>
 <ul class="bac">
 	<li>Orientation to review firm policies and professional practices</li>
@@ -45,13 +45,13 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><a href="" title="Show information"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information"></a>Locations</h2>
+<% call expandableH2("locations", false) %>
 <div>
 <p class="bac">Positions may be in New York, California, Florida, Chicago and Texas. Offers are made for a specific office.</p>
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><a href="" title="Show information"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information"></a>How to Apply</h2>
+<% call expandableH2("how_to_apply", false) %>
 <div>
 <p class="bac"><% howToApply(program) %></p>
 </div></div>

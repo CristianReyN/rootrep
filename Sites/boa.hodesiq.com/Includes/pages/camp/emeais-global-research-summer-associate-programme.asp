@@ -5,7 +5,7 @@
 <h1 class="bac"><%=program.Item("title")%></h1>
 
 <div class="expanded">
-<h2 class="bac"><a href="" title="Hide information"><img class="pclose" src="../images/clear.gif" alt="Hide information" title="Hide information"></a>Our Business</h2>
+<% call expandableH2("our_business", true) %>
 <div>
 <h3 class="bac">Summary</h3>
 <ul class="bac">
@@ -18,7 +18,7 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><a href="" title="Show information"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information"></a>Overview</h2>
+<% call expandableH2("overview", false) %>
 <div>
 <p class="bac nobr">As a Summer Associate within Global Research, you will:</p>
 <ul class="bac">
@@ -30,7 +30,7 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><a href="" title="Show information"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information"></a>Training</h2>
+<% call expandableH2("training", false) %>
 <div>
 <p class="bac nobr">Training and learning opportunities include:</p>
 <ul class="bac">
@@ -43,7 +43,7 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><a href="" title="Show information"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information"></a>Qualifications</h2>
+<% call expandableH2("qualifications", false) %>
 <div>
 <p class="bac">Your outstanding academic achievement at both the undergraduate and postgraduate level will include an MBA, or other advanced degree, from a top-tier business school. Generally we are looking for candidates with a track record of superior performance in extracurricular and professional activities. Existing client and corporate relationships and knowledge would be an added advantage.</p>
 <p class="bac">As well as well-developed judgment and business sense, skills in financial modeling; analysis and valuation; market analysis and forecasting; and knowledge of Bloomberg/Reuters and MS Office would be advantageous. Strong accounting, analytical, quantitative, communication and presentation skills are essential.</p>
@@ -51,13 +51,13 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><a href="" title="Show information"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information"></a>Locations</h2>
+<% call expandableH2("locations", false) %>
 <div>
 <p class="bac">London</p>
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><a href="" title="Show information"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information"></a>How to Apply</h2>
+<% call expandableH2("how_to_apply", false) %>
 <div>
 <p class="bac"><% howToApply(program) %></p>
 </div></div>

@@ -5,13 +5,13 @@
 <h1 class="bac"><%=program.Item("title")%></h1>
 
 <div class="expanded">
-<h2 class="bac"><a href="" title="Hide information"><img class="pclose" src="../images/clear.gif" alt="Hide information" title="Hide information"></a>Our Business</h2>
+<% call expandableH2("our_business", true) %>
 <div>
 <p class="bac">To deliver a best in class rotational development opportunity for Operations MAP (OMAP) participants through experiential learning, training, and networking opportunities. The Operations MAP Program is designed to give associates the necessary tools, early in their careers, to manage their professional development, realize their potential, and maximize their contributions to Bank&nbsp;of&nbsp;America.</p>
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><a href="" title="Show information"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information"></a>Overview</h2>
+<% call expandableH2("overview", false) %>
 <div>
 <p class="bac">The Operations Management Analyst Program (OMAP) is an undergraduate program designed to provide external candidates and selected internal associates with an opportunity to prepare for future leadership positions in the bank&#39;s operational lines of business.</p>
 <p class="bac">OMAP is a development program that focuses on operational line of business functions within Bank&nbsp;of&nbsp;America and provides associates with the opportunity to move through two rotational assignments within various groups of the organization. OMAP associates participate in a variety of activities designed to foster teamwork, encourage networking, and demonstrate Bank&nbsp;of&nbsp;America&#39;s vision and culture. Participants are given the opportunity to attend OMAP events and will be encouraged to further develop leadership skills by leading projects or committees.</p>
@@ -27,7 +27,7 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><a href="" title="Show information"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information"></a>Qualifications</h2>
+<% call expandableH2("qualifications", false) %>
 <div>
 <p class="bac">We hire an elite group of new associates with a minimum 3.0 grade point average. Successful candidates will possess and demonstrate the ability to work in a fast paced, empowered environment. Ideal candidates will have the demonstrated ability to handle multiple, competing priorities; learn new tools/applications quickly; and possess strong interpersonal skills.</p>
 <p class="bac">Ideal candidates will demonstrate the ability to lead and manage people (indirect  &amp; direct), inspect and understand a business end to end (process  &amp; risks), influence change adoption, lead quality focus (six sigma), communicate effectively, meet challenging performance requirements, learn from past experiences, and use superb analytical and presentation skills to achieve outstanding results.</p>
@@ -46,19 +46,19 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><a href="" title="Show information"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information"></a>Training</h2>
+<% call expandableH2("training", false) %>
 <div>
 <p class="bac">The Operations MAP training curriculum is comprehensive and offers a blend of classroom and web-based training, which complements the hands-on experience that the OMAP associates develop in their rotational assignments. OMAP associates will also attend monthly program meetings and be presented with peer coach support.</p>
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><a href="" title="Show information"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information"></a>Locations</h2>
+<% call expandableH2("locations", false) %>
 <div>
 <p class="bac">Charlotte, NC; Dallas/Plano, TX; Phoenix/Tempe/Chandler, AZ; LA/Calabasas/Thousand Oaks, CA; Atlanta, GA; Newark, DE</p>
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><a href="" title="Show information"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information"></a>How to Apply</h2>
+<% call expandableH2("how_to_apply", false) %>
 <div>
 <p class="bac"><% howToApply(program) %></p>
 </div></div>

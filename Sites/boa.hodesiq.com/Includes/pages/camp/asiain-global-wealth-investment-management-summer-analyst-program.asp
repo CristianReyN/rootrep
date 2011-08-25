@@ -5,13 +5,13 @@
 <h1 class="bac"><%=program.Item("title")%></h1>
 
 <div class="expanded">
-<h2 class="bac"><a href="" title="Hide information"><img class="pclose" src="../images/clear.gif" alt="Hide information" title="Hide information"></a>Our Business</h2>
+<% call expandableH2("our_business", true) %>
 <div>
 <p class="bac">Global Wealth and Investment Management (GWIM) provides advice-based wealth management services and products to individual clients and businesses. The GWIM business model is based on our network of more than 15,000 financial advisors (FAs) in nearly 700 offices around the world and the one-to-one relationships they develop with their clients. GWIM serves the myriad needs of high-net-worth individuals and small- and mid-sized business owners. Nearly two-thirds of assets under management come from relationships with clients who have investable assets of $1 million or more. We also serve thousands of individuals through employee retirement plans.</p>
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><a href="" title="Show information"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information"></a>Overview</h2>
+<% call expandableH2("overview", false) %>
 <div>
 <p class="bac">Global Wealth and Investment Management (GWIM) Interns participate in a 10-12 week program based in Singapore providing a unique opportunity and exposure to life in GWIM. Interns are given a true associate experience, as internships mirror fulltime positions and include goal-setting and a formal review process. In addition to learning opportunities there are formal and social opportunities to interact and network with senior colleagues.</p>
 <h3 class="bac">Placement</h3>
@@ -27,7 +27,7 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><a href="" title="Show information"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information"></a>Qualifications</h2>
+<% call expandableH2("qualifications", false) %>
 <div>
 
 <h3 class="bac">Education</h3>
@@ -64,7 +64,7 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><a href="" title="Show information"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information"></a>Training</h2>
+<% call expandableH2("training", false) %>
 <div>
 <p class="bac nobr">The Internship program begins with a few days of orientation and induction to the firm and includes:</p>
 <ul class="bac">
@@ -79,13 +79,13 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><a href="" title="Show information"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information"></a>Locations</h2>
+<% call expandableH2("locations", false) %>
 <div>
 <p class="bac">Singapore</p>
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><a href="" title="Show information"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information"></a>How to Apply</h2>
+<% call expandableH2("how_to_apply", false) %>
 <div>
 <p class="bac"><% howToApply(program) %></p>
 </div></div>

@@ -5,13 +5,13 @@
 <h1 class="bac"><%=program.Item("title")%></h1>
 
 <div class="expanded">
-<h2 class="bac"><a href="" title="Hide information"><img class="pclose" src="../images/clear.gif" alt="Hide information" title="Hide information"></a>Our Business</h2>
+<% call expandableH2("our_business", true) %>
 <div>
 <p class="bac">Global Capital Markets originates a wide variety of equity and debt capital offerings, as well as risk management products. When an issuer client decides to raise capital in the public or private markets, corporate and investment bankers turn to the Capital Markets team. Capital Markets partners with the coverage team and advises clients on optimal methods to access capital, whether it is for acquisitions, refinancing or strengthening their balance sheets. The offerings can comprise equities, bonds, bank debt, private placements or a combination of securities.</p>
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><a href="" title="Show information"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information"></a>Overview</h2>
+<% call expandableH2("overview", false) %>
 <div>
 <p class="bac">Summer Associates participate in an 8-10 week program based in Asia providing a unique opportunity and exposure to life in capital markets. In addition to learning opportunities there are formal and social opportunities to interact and network with senior bankers.</p>
 <h3 class="bac">Placement</h3>
@@ -29,7 +29,7 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><a href="" title="Show information"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information"></a>Qualifications</h2>
+<% call expandableH2("qualifications", false) %>
 <div>
 <h3 class="bac">Education</h3>
 <ul class="bac">
@@ -64,19 +64,19 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><a href="" title="Show information"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information"></a>Training</h2>
+<% call expandableH2("training", false) %>
 <div>
 <p class="bac">The Summer Associate program begins with several days of orientation and induction including an overview of the bank plus relevant application training. Over the course of the internship there are continuous training sessions that are specific to capital markets.</p>
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><a href="" title="Show information"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information"></a>Locations</h2>
+<% call expandableH2("locations", false) %>
 <div>
 <p class="bac">Hong Kong, Japan and Singapore</p>
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><a href="" title="Show information"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information"></a>How to Apply</h2>
+<% call expandableH2("how_to_apply", false) %>
 <div>
 <p class="bac"><% howToApply(program) %></p>
 </div></div>

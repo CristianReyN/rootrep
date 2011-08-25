@@ -5,7 +5,7 @@
 <h1 class="bac"><%=program.Item("title")%></h1>
 
 <div class="expanded">
-<h2 class="bac"><a href="" title="Hide information"><img class="pclose" src="../images/clear.gif" alt="Hide information" title="Hide information"></a>Our Business</h2>
+<% call expandableH2("our_business", true) %>
 <div>
 <p class="bac nobr">Global Technology  &amp; Operations:</p>
 <ul class="bac">
@@ -17,7 +17,7 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><a href="" title="Show information"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information"></a>Overview</h2>
+<% call expandableH2("overview", false) %>
 <div>
 <ul class="bac">
 	<li>The Technology MBA Leadership Rotational Program provides the opportunity to gain foundational knowledge within Bank&nbsp;of&nbsp;America&#39;s Technology organization through 2-3 rotations over a 36 month period.</li>
@@ -27,7 +27,7 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><a href="" title="Show information"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information"></a>Qualifications</h2>
+<% call expandableH2("qualifications", false) %>
 <div>
 <p class="bac">The ideal candidate will exhibit a strong drive for results; succeed in a fast-paced, empowered, and collaborative environment; enjoy teamwork and partnering with others; possess excellent organizational and analytical skills; understand technology and business requirements. The ability to learn the organizational structure and the formal/informal workings of the organization and to convey a strong sense of customer and associate satisfaction to drive shareholder value is required.</p>
 <p class="bac nobr">Candidate Profile:</p>
@@ -41,19 +41,19 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><a href="" title="Show information"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information"></a>Training</h2>
+<% call expandableH2("training", false) %>
 <div>
 <p class="bac">Associates will participate in an orientation program and formal learning curriculum to learn more about the bank&#39;s business, culture and values, as well as to network with executives and other college hires. Additionally, associates will participate in various networking and learning events throughout the duration of their program.</p>
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><a href="" title="Show information"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information"></a>Locations</h2>
+<% call expandableH2("locations", false) %>
 <div>
 <p class="bac">The majority of the opportunities exist in Charlotte, NC with LIMITED opportunities in other major US cities across the Bank&nbsp;of&nbsp;America franchise, including but not limited to: Boston, MA  &amp; New York, NY o Other locations are TBD.</p>
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><a href="" title="Show information"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information"></a>How to Apply</h2>
+<% call expandableH2("how_to_apply", false) %>
 <div>
 <p class="bac"><% howToApply(program) %></p>
 </div></div>

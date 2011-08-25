@@ -129,11 +129,11 @@ Function howToApply (program)
 			"emeais-global-research-summer-associate-programme.asp" _
 		)) Then
 %>
+<p class="bac">To <a href="https://static.wcn.co.uk/company/ml/apply_now.html" class="bac" target="_blank">apply now<span class="hidden"> Link opens a new window</span></a>:</p>
 <ul class="bac">
-	<li>Click here to start your <a href="https://static.wcn.co.uk/company/ml/apply_now.html" class="bac" target="_blank">application<span class="hidden"> Link opens a new window</span></a>
 	<li>Search for the programme, division and location you wish to apply for and select the programme title</li>
 	<li>Select &lsquo;Apply Now&rsquo; and sign in as a new or returning user</li>
-	<li>Complete all 3 sections of the application form – basic information, numerical test and longer questions
+	<li>Complete all 3 sections of the application form – basic information, numerical test and longer questions</li>
 	<li>Submit form – please note that in order for your application to be considered, you must have submitted all 3 stages by the application deadline</li>
 </ul>
 <%
@@ -259,19 +259,22 @@ Function howToApply (program)
 	End If
 End Function
 
+Function expandableH2 ( H2, expand )
+	select case H2
+		case "our_business" %>
+<h2 class="bac"><a href="" title="Hide Our Business information" class="aclose"><img class="pclose" src="../images/clear.gif" alt="Hide Our Business information" title="Hide Our Business information"></a>Our Business</h2>
+<%	case "overview" %>
+<h2 class="bac"><a href="" title="Show Overview information" class="aopen"><img class="popen" src="../images/clear.gif" alt="Show Overview information" title="Show Overview information"></a>Overview</h2>
+<%	case "qualifications" %>
+<h2 class="bac"><a href="" title="Show Qualifications information" class="aopen"><img class="popen" src="../images/clear.gif" alt="Show Qualifications information" title="Show Qualifications information"></a>Qualifications</h2>
+<%	case "training" %>
+<h2 class="bac"><a href="" title="Show Training information" class="aopen"><img class="popen" src="../images/clear.gif" alt="Show Training information" title="Show Training information"></a>Training</h2>
+<%	case "locations" %>
+<h2 class="bac"><a href="" title="Show Locations information" class="aopen"><img class="popen" src="../images/clear.gif" alt="Show Locations information" title="Show Locations information"></a>Locations</h2>
+<%	case "how_to_apply" %>
+<h2 class="bac"><a href="" title="Show How to Apply information" class="aopen"><img class="popen" src="../images/clear.gif" alt="Show How to Apply information" title="Show How to Apply information"></a>How to Apply</h2>
+<%	case else %>
 
-
-
-
-
-'Function InArray(strValue)
-'	Dim i
-'	For i = 0 to UBound([arrayname])
-'		If selCriteria(i,1) = cstr(strValue) Then
-'			InArray = TRUE
-'			Exit Function
-'		End If
-'	Next
-'	InArray = FALSE 
-'End Function
+<%	end select
+End Function
 %>

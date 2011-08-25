@@ -5,13 +5,13 @@
 <h1 class="bac"><%=program.Item("title")%></h1>
 
 <div class="expanded">
-<h2 class="bac"><a href="" title="Hide information"><img class="pclose" src="../images/clear.gif" alt="Hide information" title="Hide information"></a>Our Business</h2>
+<% call expandableH2("our_business", true) %>
 <div>
 <p class="bac">Global Corporate and Investment Banking (GCIB) focuses on building long-term relationships with more than 3,000 large U.S. and multinational corporations, financial institutions and financial sponsors, by providing strong advisory expertise and capitalizing on powerful M &amp;A, corporate banking, treasury, debt and equity product expertise, to deliver integrated financial solutions.</p>
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><a href="" title="Show information"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information"></a>Overview</h2>
+<% call expandableH2("overview", false) %>
 <div>
 <h3 class="bac">Placement</h3>
 <p class="bac">Associates are hired and placed directly with a specific group. Group placement is determined by considering business needs and the interests/skills of the Associate. The groups span across country, industry and product (not all groups exist in all countries):</p>
@@ -51,7 +51,7 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><a href="" title="Show information"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information"></a>Qualifications</h2>
+<% call expandableH2("qualifications", false) %>
 <div>
 <ul class="bac">
 	<li>Final year full time MBA student, graduating in 2012</li>
@@ -85,7 +85,7 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><a href="" title="Show information"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information"></a>Training</h2>
+<% call expandableH2("training", false) %>
 <div>
 <p class="bac">Full-time Associates are hired upon completion of their undergraduate/master&#39;s degree. Your career as an Associate will begin with a formal training program which takes place in New York for all Associates globally, and is considered one of the best in the industry. Instruction is provided by Bank&nbsp;of&nbsp;America professionals and leading business school professors.</p>
 <p class="bac nobr">The training program includes:</p>
@@ -98,13 +98,13 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><a href="" title="Show information"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information"></a>Locations</h2>
+<% call expandableH2("locations", false) %>
 <div>
 <p class="bac">Hong Kong, Japan and Singapore</p>
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><a href="" title="Show information"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information"></a>How to Apply</h2>
+<% call expandableH2("how_to_apply", false) %>
 <div>
 <p class="bac"><% howToApply(program) %></p>
 </div></div>

@@ -5,7 +5,7 @@
 <h1 class="bac"><%=program.Item("title")%></h1>
 
 <div class="expanded">
-<h2 class="bac"><a href="" title="Hide information"><img class="pclose" src="../images/clear.gif" alt="Hide information" title="Hide information"></a>Our Business</h2>
+<% call expandableH2("our_business", true) %>
 <div>
 <p class="bac">More than 700 professionals of the award-winning Global Research organization support the company&#39;s institutional sales and trading teams and their clients. Their expertise is at the core of the value delivered to investor clients. Research analysts provide insightful, objective and decisive research designed to enable clients to make informed investment decisions in three primary disciplines:</p>
 <ul class="bac">
@@ -16,7 +16,7 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><a href="" title="Show information"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information"></a>Overview</h2>
+<% call expandableH2("overview", false) %>
 <div>
 <h3 class="bac">Placement</h3>
 <p class="bac">Associates are hired and placed directly with a specific team. Placement is determined during the hiring process matching the business needs and the interests/skills of the Associate. The groups span across country and industry, these include but are not limited to (not all groups exist in all countries):</p>
@@ -42,7 +42,7 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><a href="" title="Show information"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information"></a>Qualifications</h2>
+<% call expandableH2("qualifications", false) %>
 <div>
 <h3 class="bac">Education</h3>
 <ul class="bac">
@@ -83,7 +83,7 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><a href="" title="Show information"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information"></a>Training</h2>
+<% call expandableH2("training", false) %>
 <div>
 <p class="bac">Full-time Associates are hired upon completion of their undergraduate/master&#39;s degree. Your career as an Associate will begin with a formal training program which takes place in New York for all Associates globally, and is considered one of the best in the industry. Instruction is provided by Bank&nbsp;of&nbsp;America professionals and leading business school professors.</p>
 <p class="bac nobr">The training program includes:</p>
@@ -96,13 +96,13 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><a href="" title="Show information"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information"></a>Locations</h2>
+<% call expandableH2("locations", false) %>
 <div>
 <p class="bac">Hong Kong, Japan</p>
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><a href="" title="Show information"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information"></a>How to Apply</h2>
+<% call expandableH2("how_to_apply", false) %>
 <div>
 <p class="bac"><% howToApply(program) %></p>
 </div></div>

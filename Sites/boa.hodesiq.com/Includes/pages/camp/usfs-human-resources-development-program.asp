@@ -5,13 +5,13 @@
 <h1 class="bac"><%=program.Item("title")%></h1>
 
 <div class="expanded">
-<h2 class="bac"><a href="" title="Hide information"><img class="pclose" src="../images/clear.gif" alt="Hide information" title="Hide information"></a>Our Business</h2>
+<% call expandableH2("our_business", true) %>
 <div>
 <p class="bac">The Global Human Resources (GHR) group at Bank&nbsp;of&nbsp;America enables the company to drive revenue through attracting, developing and retaining a world&ndash;class workforce. GHR strategy aligns to business strategy to ensure the company has the talent needed to achieve its business objectives. Key units within Global HR are Staffing, Compensation, Benefits, Shared Services, Leadership Development, Learning, and a team of Generalists. In addition to advising business leaders, Global HR helps the company deliver a higher standard of working environment, benefits, work/life commitment and satisfaction for our 300,000 associates.</p>
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><a href="" title="Show information"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information"></a>Overview</h2>
+<% call expandableH2("overview", false) %>
 <div>
 <p class="bac nobr">The Human Resources Development Program is a 2&ndash;year rotational program designed to create a pipeline of talent that can move into key generalist or specialist areas within Global HR and help drive our business forward into the future. The program is comprised of 2 job assignments, each lasting 12 months in length. Throughout the program, participants will:</p>
 <ul class="bac">
@@ -36,7 +36,7 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><a href="" title="Show information"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information"></a>Qualifications</h2>
+<% call expandableH2("qualifications", false) %>
 <div>
 <ul class="bac">
 	<li>MBA or advanced degree in Industrial/Organizational Psychology, Human Resources Management, Labor Relations, or other related degree</li>
@@ -49,13 +49,13 @@
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><a href="" title="Show information"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information"></a>Locations</h2>
+<% call expandableH2("locations", false) %>
 <div>
 <p class="bac">The majority of the opportunities exist in Charlotte, NC and New York, NY with LIMITED opportunities in other major US cities across the Bank&nbsp;of&nbsp;America franchise, including but not limited to: Calabasas, CA, Boston, MA. Other locations are TBD.</p>
 </div></div>
 
 <div class="expand">
-<h2 class="bac"><a href="" title="Show information"><img class="popen" src="../images/clear.gif" alt="Show information" title="Show information"></a>How to Apply</h2>
+<% call expandableH2("how_to_apply", false) %>
 <div>
 <p class="bac"><% howToApply(program) %></p>
 </div></div>
