@@ -21,7 +21,6 @@
 	background: url(images/campus/bkg-findyourfit-content.jpg) top left no-repeat;
 	margin-top: 8px;
 	margin-left:1px;
-
 	background-color: transparent;
     color: #333333;
     font-family: Verdana, Helvetica, Arial, sans-serif;
@@ -43,12 +42,6 @@
 	padding: 0;
 	font-size: 11px;
 	padding: 0 35px 10px 12px;
-	}
-	
-	.find-your-fit-container p {
-    padding: 0;
-    margin: 0;
-    padding: 5px 0 30px 0;
 	}
 	
 	.MainHeadliner2 {
@@ -126,6 +119,23 @@
             float: left;
             margin-top:-8px;
         }
+        
+        .mainFirstStep p {
+            padding: 0;
+            margin: 0;
+            padding: 5px 0 20px 0;
+	}
+	
+	    .fyi-degree {
+	    margin-top: 20px;
+	    }
+        
+        
+	   .fyi-environment {
+	    margin-top: 25px;
+	    }
+	    
+	   
         .mainSecondStep {
             background:url(images/campus/bkg-findyourfit-form1.jpg) bottom left no-repeat;
             width:577px;
@@ -196,12 +206,11 @@
 	      
 	    }
 	    
-	    .errormsg-top ul li{
+	    .errormsg-top ul li {
 	        margin: 0;
 	        padding: 0;
 	        padding: 0 5px 0 0;
 	    }
-        
         
       
       #ctl00_cphmain_sel_environment {
@@ -295,7 +304,9 @@
                                         <option value="1">Full-time opportunities</option>
                                         <option value="2">Rotational opportunities </option>
                                         <option value="3">Internship opportunities</option>
-                                    </select></p>                            
+                                    </select></p>
+                                    
+                                                               
                                 <asp:label associatedcontrolid="sel_coursework" id="lbl_coursework" runat="server">I am also interested in (or have completed) coursework in:</asp:label><br />    
                                    <p> <asp:DropDownList id="sel_coursework"  runat="server" name="sel_coursework" Width="380px">
                                             <asp:ListItem value="0">Please select one</asp:ListItem>
@@ -305,7 +316,10 @@
                                             <asp:ListItem value="4">Real estate</asp:ListItem>
                                             <asp:ListItem value="5">Law</asp:ListItem>
                                             <asp:ListItem value="6">None of the above</asp:ListItem>
-                                        </asp:DropDownList></p>                            
+                                        </asp:DropDownList></p>
+                                        
+                                        
+                                   <div class="fyi-degree">                                  
                                      <asp:label associatedcontrolid="sel_degree1" id="lbl_degree" runat="server">I will/have earn(ed) my degree in (my area <br />of concentration is):
                                      <span style="font-weight:normal;">(select up to three)</span> </asp:label>
 							        <p style="margin-left:200px;"><asp:DropDownList id="sel_degree1"  runat="server" name="sel_degree1" Width="310px" OnSelectedIndexChanged="sel_degree1_SelectedIndexChanged">
@@ -373,6 +387,9 @@
                                         <asp:ListItem value="17">Human resources</asp:ListItem>
                                         <asp:ListItem value="18">Real estate</asp:ListItem>
 							        </asp:DropDownList><br></p>
+							        </div>
+							        
+							        <div class="fyi-environment" >
                                     <asp:label associatedcontrolid="sel_environment" id="lbl_environment" runat="server">My preferred work environment is:</asp:label><br /><p>
 							        <asp:DropDownList id="sel_environment"  runat="server" name="sel_environment" Width="380px">
 								        <asp:ListItem value="0">Please select one</asp:ListItem>
@@ -395,6 +412,8 @@
 								        <asp:ListItem value="10">Geographically flexible</asp:ListItem>
 							        </asp:DropDownList></p>                            
                                     <br />
+                                    
+                                    </div>
                                      <p style="float:left; height:22px !important;">
                                     <asp:ImageButton ID="btnNext" runat="server" ImageUrl="images/campus/btn-next1.jpg" title="Next" OnClick="btnNext_Click" /></p>
                             </div>
