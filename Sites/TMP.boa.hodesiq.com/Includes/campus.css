@@ -1385,11 +1385,12 @@ text-decoration: underline;
 	line-height: 9px;
 	border-left: 1px #5c5c5c solid;
 	padding: 0 5px;
+	text-deocoration: none !important;
 	}
 	
 	#vl-thumbnails-container ul.video-pagination li a:hover {
 	font-weight: normal;
-	text-decoration: underline;
+	text-decoration: underline !important;
 	}
 	
 	#vl-thumbnails-container ul.video-pagination li.previous a {
@@ -1484,9 +1485,12 @@ text-decoration: underline;
 	ul.video-pagination a:link {
 	text-decoration: none !important;
 	}
+	
+	ul.video-pagination a:visited {
+	text-decoration: none !important;
+	}
 
 	ul.video-pagination li a:hover {
-	font-weight:bold;
 	text-decoration: underline !important;
 	} 
 
