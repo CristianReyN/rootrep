@@ -442,6 +442,7 @@ public partial class campusfindyourfit : System.Web.UI.Page
             is_valid = is_valid + 1;
             ISSubmited.Value = "1";
         }
+        /*
         if (int.Parse(sel_employOpportunity.SelectedValue.ToString()) == 0)
         {
             str_errors1 = str_errors1 + "<li>You did not indicate 'level of employment opportunity'</li>";
@@ -453,6 +454,27 @@ public partial class campusfindyourfit : System.Web.UI.Page
             is_valid = is_valid + 1;
             ISSubmited.Value = "1";
         }
+         * */
+        int selectedValue = 0;
+        for (int i = 0; i <= sel_employOpportunity.Items.Count - 1; i++)
+        {
+            if (sel_employOpportunity.Items[i].Selected)
+                selectedValue = int.Parse(sel_employOpportunity.Value.ToString());
+        }
+
+        if (selectedValue == 0)
+        {
+            str_errors1 = str_errors1 + "<li>You did not indicate 'level of employment opportunity'</li>";
+            ISSubmited.Value = "0";
+
+        }
+        else
+        {
+            is_valid = is_valid + 1;
+            ISSubmited.Value = "1";
+        }
+
+
 
         if (int.Parse(sel_coursework.SelectedValue.ToString()) == 0)
         {
@@ -841,7 +863,7 @@ public partial class campusfindyourfit : System.Web.UI.Page
     //sel_employOpportunity
     private int QuestionThree(string answervalue, int answernum)
     {
-        int selval = Convert.ToInt32(sel_employOpportunity.SelectedValue);
+        int selval = Convert.ToInt32(sel_employOpportunity.Value);
         if (selval == answernum)
         {
             return Convert.ToInt32(answervalue);

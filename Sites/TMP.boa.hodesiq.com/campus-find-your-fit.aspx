@@ -290,12 +290,12 @@
 							        </asp:DropDownList>
                                     </p>
                                 <asp:label associatedcontrolid="sel_employOpportunity" id="lbl_employOpportunity" runat="server">I am interested in:</asp:label><br />    
-                                    <p><asp:DropDownList id="sel_employOpportunity"  runat="server" name="sel_employOpportunity" Width="380px">
-                                        <asp:ListItem value="0">Please select level of employment opportunity</asp:ListItem>
-                                        <asp:ListItem value="1">Full-time opportunities</asp:ListItem>
-                                        <asp:ListItem value="2">Rotational opportunities </asp:ListItem>
-                                        <asp:ListItem value="3">Internship opportunities</asp:ListItem>
-                                    </asp:DropDownList></p>                            
+                                     <p><select id="sel_employOpportunity"  runat="server" name="sel_employOpportunity1" style="Width:380px;">
+                                        <option value="0">Please select level of employment opportunity</option>
+                                        <option value="1">Full-time opportunities</option>
+                                        <option value="2">Rotational opportunities </option>
+                                        <option value="3">Internship opportunities</option>
+                                    </select></p>                            
                                 <asp:label associatedcontrolid="sel_coursework" id="lbl_coursework" runat="server">I am also interested in (or have completed) coursework in:</asp:label><br />    
                                    <p> <asp:DropDownList id="sel_coursework"  runat="server" name="sel_coursework" Width="380px">
                                             <asp:ListItem value="0">Please select one</asp:ListItem>
