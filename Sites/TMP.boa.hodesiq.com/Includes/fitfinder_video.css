@@ -62,7 +62,7 @@
 	}
 
 	/* This is a hack for NET IE-FF issues. Do not EDIT!! */
-.MainHeadliner2
+/*.MainHeadliner2
 {
     <!--[if IE]>
     
@@ -79,19 +79,19 @@
         position:relative;
         top:0px;
         height:692px !important;
-        margin-top:-20px;
+        margin-top:-20px;*/
     
 	}
-html>/**/body .find-your-fit-container2 
+/*html>/**//*body .find-your-fit-container2 
 {
     height:697px !important;
     width:577px;
     position: relative;
-    top: 91px !important;}
+    top: 91px !important;}*/
     /* end of NET HACK */
 
 	/* ===== Hacks ====== */
-}
+/*}*/
 
 
 	#profiles,
