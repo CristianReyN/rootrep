@@ -15,10 +15,22 @@ filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(...);
 
 }
 
- 
+ .mainFirstStep,
+ .mainSecondStep,
+ .find-your-fit-container2 #results-container {
+      margin: 0;
+	  padding: 0;
+	 margin-top: -2px;
+      }	
 	
-	
-	
-	
+ .fyf-interests table td label {
+     display: block;
+     padding: 3px 0 10px 25px;
+       }
+
+.fyf-responsibilities table td label {
+     display: block;
+     padding: 3px 0 10px 25px;
+       }
 
 }
