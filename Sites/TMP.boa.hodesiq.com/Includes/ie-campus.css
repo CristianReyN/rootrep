@@ -32,5 +32,15 @@ filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(...);
      display: block;
      padding: 3px 0 10px 25px;
        }
+       
+       
+#maincontent .opportunities-emea #programs ul.nav-programs li#nav-associate a {
+	background-image: url(../images/campus/nav-explore-emea.jpg);
+	background-repeat: no-repeat;
+	width: 114px;
+	background-position: -71px 0;
+	text-align: left;
+	padding-left: 3px;
+	}
 
 }

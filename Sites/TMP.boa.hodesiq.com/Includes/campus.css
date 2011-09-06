@@ -1787,7 +1787,7 @@ text-decoration: underline;
 
 	#maincontent .opportunities-emea #programs {
 		width: 370px;
-		margin: 62px -30px 15px -12px;
+		margin: 60px -30px 15px -12px;
 	}
 	
 	#maincontent .opportunities-emea #programs ul.nav-programs  {
@@ -1831,6 +1831,7 @@ text-decoration: underline;
 	
 	#maincontent .opportunities-emea #programs ul.nav-programs li#nav-analyst a:hover {
 	background-position: 0 -30px;
+	
 	}
 	
 	#maincontent .opportunities-emea #programs ul.nav-programs li#nav-analyst.ui-tabs-selected a,
@@ -1841,8 +1842,10 @@ text-decoration: underline;
 	#maincontent .opportunities-emea #programs ul.nav-programs li#nav-associate a {
 	background-image: url(../images/campus/nav-explore-emea.jpg);
 	background-repeat: no-repeat;
-	width: 112px;
+	width: 111px;
 	background-position: -71px 0;
+	text-align: left;
+	padding-left: 3px;
 	}
 	
 	#maincontent .opportunities-emea #programs ul.nav-programs li#nav-associate a:hover {
