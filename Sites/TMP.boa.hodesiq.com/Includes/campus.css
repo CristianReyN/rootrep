@@ -976,6 +976,8 @@ text-decoration: underline;
 	width: 578px;
 	background: url(../images/campus/bkg-findyourfit-content.jpg) top left no-repeat;
 	margin-top: 8px;
+	height:163px;
+
 	}
 
 	.find-your-fit h1 {
@@ -991,68 +993,199 @@ text-decoration: underline;
 	}
 
 	.find-your-fit-container {
-	margin: 25px 0 40px 0;
-	background: url(../images/campus/bkg-findyourfit-form.jpg) left bottom no-repeat;
-	}
-
-	#step1 h2,
-	#step2 h2,
-	#results h2 {
-	margin: 0;
-	padding: 0;
-	width: 577px;
-	height: 92px;
-	text-indent: -999em;
-	}
-
-	#step1 h2 {
-	background: url(../images/campus/header-step1.jpg) top left no-repeat;
-	}
-
-	#step2 h2 {
-	background: url(../images/campus/header-step2.jpg) top left no-repeat;
-	}
-
-	#results h2 {
-	background: url(../images/campus/header-results.jpg) top left no-repeat;
-	}
-
-	.find-your-fit-container fieldset {
-	border: none;
-	padding: 0 20px 0 160px;
-	color: #535353;
-	}
-
-	.find-your-fit-container fieldset label,
-	.find-your-fit-container fieldset select,
-	.find-your-fit-container fieldset select option {
-	color: #535353 !important;
+	width:577px;
 	}
 	
-	.find-your-fit-container fieldset#fyf-education {
+	.MainHeadliner {
+	margin: 0;
+	padding: 0;
+	}
+	
+	
+	.MainHeadliner img {
+	margin: 0;
+	padding: 0;
+	width:577px;
+	height: 92px;
+	}
+	
+	 .mainFirstStep,
+	 .mainSecondStep {
+      margin: 0;
+	  padding: 0;
+	  float: left;
+      width:577px;
+      background:url(../images/campus/bkg-findyourfit-form1.jpg) bottom left no-repeat;
+      }
+      
+    .mainFirstStep p {
+    padding: 0;
+    margin: 0;
+    padding: 5px 0 20px 0;
+	}
+
+	#fyf-education {
+	float: left;
+	padding: 20px 15px 0 160px;
 	background: url(../images/campus/ico-grad-cap.jpg) 20px 40px no-repeat;
 	}
 
-	.find-your-fit-container fieldset#fyf-degree {
+	#fyf-degree {
+	float: left;
+	padding: 20px 15px 0 160px;
 	background: url(../images/campus/ico-diploma.jpg) 20px 40px no-repeat;
 	}
 
-	.find-your-fit-container fieldset#fyf-enviroment {
-	padding-bottom: 10px;
+	#fyf-enviroment {
+	float: left;
+	padding: 20px 15px 10px 160px;
 	background: url(../images/campus/ico-world.jpg) 20px 40px no-repeat;
 	}
-
-	.find-your-fit-container fieldset#fyf-interests {
-	background: url(../images/campus/ico-stars.jpg) 20px top no-repeat;
+	
+	p input#ctl00_cphmain_btnNext,
+	p input#ctl00_cphmain_ImageButton1 {
+	margin: 10px 0 48px 155px;
+	}
+	
+	#fyf-interests {
+	float: left;
+	padding: 20px 15px 0 160px;
+	background: url(../images/campus/ico-stars.jpg) 20px 45px no-repeat;
 	}
 
-	.find-your-fit-container fieldset#fyf-responsiblities {
-	background: url(../images/campus/ico-briefcase.jpg) 20px top no-repeat;
+	
+	 .fyf-interests table td label {
+     display: block;
+     padding: 0 0 10px 25px;
+       }
+
+	
+	.fyf-interests table td input {
+     float: left;
+     margin: 0 0 20px 0;
+     }
+
+
+	#fyf-responsiblities {
+	float: left;
+	width: 490px ! important;
+	padding: 20px 15px 0 160px;
+	background: url(../images/campus/ico-briefcase.jpg) 20px 40px no-repeat;
+	}
+	
+	 .fyf-responsibilities table td label {
+     display: block;
+     padding: 0 0 10px 25px;
+       }
+
+	
+	.fyf-responsibilities table td input {
+     float: left;
+     margin: 0 0 20px 0;
+    }
+
+	#fyf-opportunities {
+	float: left;
+	width: 460px ! important;
+	padding: 20px 15px 0 160px;
+	background: url(../images/campus/ico-pen.jpg) 20px 40px no-repeat;
+	}
+	
+	 span.fyf-titles {
+	 font-weight: bold;
+	 padding-bottom: 10px;
+	 }
+ 
+	  .find-your-fit-container2 #results-container {
+	   margin: 0;
+	  padding: 0;
+	  float: left;
+      width:577px;
+      background:url(../images/campus/bkg-findyourfit-form1.jpg) bottom left no-repeat;
+	   
+	}
+	
+	#divResultData {
+	 float: left;
+	 padding: 20px 15px 0 180px;
+     background: url(../images/campus/ico-results-page.jpg) 30px 20px no-repeat;
+    }
+    
+    #divResultData ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	padding: 25px 30px 25px 20px;
+	list-style-image: none !important;
 	}
 
-	.find-your-fit-container fieldset#fyf-opportunities {
-	background: url(../images/campus/ico-pen.jpg) 20px top no-repeat;
+  #divResultData li{
+	padding-bottom: 9px;
 	}
+	
+	#divResultData p {
+	margin: 0;
+	padding: 0;
+	padding-right: 30px;
+	/*width:400px !important;*/ /* edited for NET version. DO NOT CHANGE */
+	}
+	
+	#divResultData li a {
+	font-weight: bold;
+	text-decoration: none;
+	}
+	
+	#divResultData li a:hover {
+	text-decoration: underline;
+	}
+	
+
+	p input#ctl00_cphmain_btnBack {
+	margin: 30px 0 50px 0;
+	}
+	 
+	
+	.ErrorPanel {
+     margin-right:60px;
+     margin-bottom:5px; 
+     margin-top:10px; 
+     float:right;
+     width:360px;
+     }
+        
+    .errormsg-top {
+	background: transparent url(../images/campus/bkg-top-error.gif) top left no-repeat;
+	   }
+	
+	    .errormsg-bottom {
+	        width: 360px;
+	        background: transparent url(../images/campus/bkg-bottom-error.gif) bottom left no-repeat;
+	    }
+	
+	    .errormsg-top p {
+	        margin: 0;
+	        padding: 0;
+	        color: #ed1b2e;
+	        padding: 15px 30px 5px 65px;
+	    }
+    	
+	    .errormsg-top ul {
+	        margin: 0;
+	        padding: 0;
+	        padding: 0 20px 10px 95px;
+	      
+	    }
+	    
+	    .errormsg-top ul li {
+	        margin: 0;
+	        padding: 0;
+	        padding: 0 5px 0 0;
+	    }
+
+
+
+
+	/*
 
 	.find-your-fit-container fieldset#fyf-education label,
 	.find-your-fit-container fieldset#fyf-degree label,
@@ -1146,28 +1279,7 @@ text-decoration: underline;
 	cursor: pointer;
 	}
 
-	.errormsg-top {
-	width: 360px;
-	background: transparent url(../images/campus/bkg-top-error.gif) top left no-repeat;
-	margin: 10px 20px 0 160px;
-	}
-
-	.errormsg-bottom {
-	width: 360px;
-	padding: 10px 10px 0 50px;
-	background: transparent url(../images/campus/bkg-bottom-error.gif) bottom left no-repeat;
-	}
-
-	.errormsg-top p {
-	margin: 0;
-	padding: 0;
-	}
-
-	.errormsg-top ul {
-	margin: 0;
-	padding: 0;
-	padding: 8px 0 10px 25px;
-	}
+	*/
 
 	/* ====== Video Library Page ====== */
 
@@ -1363,7 +1475,7 @@ text-decoration: underline;
 	padding: 0 0 15px 22px;
 	}
 	
-	#vl-thumbnails-container ul.video-pagination {
+	.video-library #vl-thumbnails-container ul.video-pagination {
 	margin: 0;
 	padding: 0;
 	float: right;
@@ -1372,34 +1484,34 @@ text-decoration: underline;
 	padding: 0 22px 15px 0;
 	}
 	
-	#vl-thumbnails-container ul.video-pagination li {
+	.video-library #vl-thumbnails-container ul.video-pagination li {
 	margin: 0;
 	padding: 0;
 	float: left;
 	}
 	
-	#vl-thumbnails-container ul.video-pagination li a {
+	.video-library #vl-thumbnails-container ul.video-pagination li a {
 	display: block;
 	color: #5c5c5c !important;
 	font-size: .8em !important;
 	line-height: 9px;
 	border-left: 1px #5c5c5c solid;
 	padding: 0 5px;
-	text-deocoration: none !important;
+	text-decoration: none !important;
 	}
 	
-	#vl-thumbnails-container ul.video-pagination li a:hover {
+	.video-library #vl-thumbnails-container ul.video-pagination li a:hover {
 	font-weight: normal;
 	text-decoration: underline !important;
 	}
 	
-	#vl-thumbnails-container ul.video-pagination li.previous a {
+	.video-library #vl-thumbnails-container ul.video-pagination li.previous a {
 	border: none;
 	background: transparent url(../images/campus/arrow-previous.gif) left 1px no-repeat;
 	padding-left: 8px;
 	}
 	
-	#vl-thumbnails-container ul.video-pagination li.next a {
+	.video-library #vl-thumbnails-container ul.video-pagination li.next a {
 	padding: 0;
 	background: transparent url(../images/campus/arrow-next.gif) right 1px no-repeat;
 	padding-right: 8px;
@@ -1482,7 +1594,7 @@ text-decoration: underline;
 	
 	/* Alek's CSS (ported over from campus-video-library.css) */
 	
-	ul.video-pagination a:link {
+	/*ul.video-pagination a:link {
 	text-decoration: none !important;
 	}
 	
@@ -1496,7 +1608,7 @@ text-decoration: underline;
 
 	ul.video-pagination:hover {
 	text-decoration: underline !important;
-	}
+	}*/
 
 	#maincontent a:hover {
 	text-decoration: underline !important;
@@ -2107,46 +2219,6 @@ text-decoration: underline;
 	font-weight: bold;
 	padding: 50px 0 60px 20px;
 	}
-
-	/* ====== HACKS ====== */
-
-	/* This is a hack for NET IE-FF issues. Do not EDIT!! */
-
-	.MainHeadliner2 {
-	<!--[if IE]>
-
-	margin-left: -5px !important;
-	float:left;
-	height: 92px !important;
-
-	<![endif]-->
-	
-	}
-
-	.find-your-fit-container2 {
-	margin: 15px 0 40px 0;
-	background: url(images/campus/bkg-findyourfit-formresult.jpg) left bottom no-repeat;
-	position:relative;
-	top:0px;
-	height:692px !important;
-	margin-top:-20px;
-	}
-
-	html>/**/body .find-your-fit-container2 {
-	height:697px !important;
-	width:577px;
-	position: relative;
-	top: 91px !important;}
-
-	/* end of NET HACK */
-
-/* ===== Hacks ====== */
-
-
-}
-
-
-
 
 
 }
