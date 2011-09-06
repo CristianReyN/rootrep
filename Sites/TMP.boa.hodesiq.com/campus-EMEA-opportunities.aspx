@@ -4,6 +4,8 @@
 
 <link href="Includes/campus.css" type="text/css" rel="stylesheet" />
 
+<!--[if lt IE 9]><link rel="stylesheet" href="Includes/ie-campus.css" /><![endif]-->
+
 <div id="maincontent"> 
                <div id="article" class="opportunities-emea"> 
                    <h1>Explore the Options, Discover Your Talents</h1>
