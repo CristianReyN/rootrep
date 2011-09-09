@@ -56,7 +56,7 @@ Stage 3:&nbsp;&nbsp;&nbsp;&nbsp;Longer answer questions</p>
 
 <h3>Europe Card Services</h3>
 
-<h3>Application Deadline: TBC</h3>
+<h3>Application Deadline: Please see individual job descriptions</h3>
 <br />
 <p>For positions within Europe Card Services, the application and assessment process comprises four stages:</p>
 
