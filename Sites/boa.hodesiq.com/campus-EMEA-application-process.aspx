@@ -35,7 +35,7 @@ Stage 3:&nbsp;&nbsp;&nbsp;Longer-answer questions</p>
 <h2 class="questions">Assessments</h2>
 <p>Everyone who is selected for assessment will go through a one-day assessment centre involving competency-based exercises. In addition, for our Full Time programmes, we conduct first-round telephone interviews.</p>
 <h2 class="questions">Europe Card Services</h2>
-<p>Application Deadline: TBC</p>
+<p>Application Deadline: Please see individual job descriptions</p>
 
 
 <p class="applypad">For positions within Europe Card Services, the application and assessment process comprises four stages: </p>
