@@ -13,15 +13,19 @@
 <div class="expand">
 <% call expandableH2("overview", false) %>
 <div>
-<p class="bac">Summer Analysts participate in an 8-10 week program based in Asia providing a unique opportunity and exposure to life in corporate banking. In addition to learning opportunities there are formal and social opportunities to interact and network with bankers.</p>
-<p class="bac nobr">Corporate Banking Summer Analysts are active members of the country&#39;s integrated client coverage teams who assist coverage bankers in the delivery of the full breadth of products and services to clients and prospects. Summer Analysts responsibilities include but are not limited to:</p>
+<p class="bac">Summer Analysts participate in an 8-10 week program based in Asia providing a unique opportunity and exposure to life in corporate banking.  In addition to learning opportunities there are formal and social opportunities to interact and network with bankers.</p>
+<p class="bac nobr">Corporate Banking Summer Analysts are active members of the country&#39;s integrated client coverage teams who assist coverage bankers in the delivery of the full breadth of products and services to clients and prospects.  Summer Analysts responsibilities include but are not limited to:</p>
 <ul class="bac">
-	<li> Maintaining and reporting client information and coverage strategies</li>
-	<li> Performing various statistical and financial analyses</li>
-	<li> Conducting comprehensive and in-depth company and industry research</li>
-	<li> Preparing presentation and other materials for clients</li>
-	<li> Communicating and interacting with both core and extended client team members from across the enterprise</li>
-	<li> Managing several projects at once and working effectively as an individual and as part of a team</li>
+	<li>Supporting and assisting the bankers with their client portfolio management - client development, pitching and execution, compile case studies and responding to client requests</li>
+	<li>Maintaining and reporting client information and coverage strategies</li>
+	<li>Assisting in deal execution and follow-up - assist in putting together internal memos, KYC process, interest / FX rate quotation</li>
+	<li>Performing various statistical and financial analyses</li>
+	<li>Performing RAROC calculations, using the SMART model</li>
+	<li>Conducting comprehensive and in-depth company and industry research</li>
+	<li>Preparing presentation and other materials for clients</li>
+	<li>Producing and distributing internal documents for the team - meeting minutes, market reports, weekly pipeline reports</li>
+	<li>Communicating and interacting with both core and extended client team members from across the enterprise</li>
+	<li>Managing several projects at once and working effectively as an individual and as part of a team</li>
 </ul>
 </div></div>
 
@@ -29,16 +33,16 @@
 <% call expandableH2("qualifications", false) %>
 <div>
 <ul class="bac">
-	<li> Penultimate year undergraduate student, graduating in 2013</li>
-	<li> On track to receive a GPA 3.5/4 or above (2.1 degree or above - UK system)</li>
-	<li> Outstanding academic achievement</li>
-	<li> A track record of superior performance in extracurricular and professional activities</li>
-	<li> Strong quantitative/analytical skills, attention to detail and client focus</li>
-	<li> Strategic and creative thinking; distinguished written and oral communications skills</li>
-	<li> Assertiveness, initiative, leadership, strong work ethic, team focus</li>
-	<li> Ability to learn quickly and take on new responsibilities</li>
-	<li> Relevant language and cultural skills</li>
-	<li> Dedication to building a career in the corporate banking industry</li>
+	<li>Penultimate year undergraduate student, graduating in 2013</li>
+	<li>On track to receive a GPA 3.5/4 or above (2.1 degree or above - UK system)</li>
+	<li>Outstanding academic achievement</li>
+	<li>A track record of superior performance in extracurricular and professional activities</li>
+	<li>Strong quantitative/analytical skills, attention to detail and client focus</li>
+	<li>Strategic and creative thinking; distinguished written and oral communications skills</li>
+	<li>Assertiveness, initiative, leadership, strong work ethic, team focus</li>
+	<li>Ability to learn quickly and take on new responsibilities</li>
+	<li>Relevant language and cultural skills</li>
+	<li>Dedication to building a career in the corporate banking industry</li>
 </ul>
 </div></div>
 

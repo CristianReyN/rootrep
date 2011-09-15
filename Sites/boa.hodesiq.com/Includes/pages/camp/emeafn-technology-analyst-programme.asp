@@ -9,7 +9,7 @@
 <div>
 <h3 class="bac">Summary</h3>
 <ul class="bac">
-	<li>Locations London, Croydon and Dublin</li>
+	<li>Locations: London, Croydon, Dublin and Geneva</li>
 	<li>1 year, direct desk-hire programme</li>
 	<li>On track for a minimum of a 2:1 degree classification (or equivalent) from a Computer Science or related discipline</li>
 	<li>Genuine interest in a technology career within financial markets</li>
@@ -61,7 +61,7 @@
 <div class="expand">
 <% call expandableH2("locations", false) %>
 <div>
-<p class="bac">London, Croydon and Dublin</p>
+<p class="bac">London, Croydon, Dublin and Geneva</p>
 </div></div>
 
 <div class="expand">
