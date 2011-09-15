@@ -179,7 +179,7 @@
                                             
                                     </div>
                                      <p>
-                                    <asp:ImageButton ID="btnNext" runat="server" ImageUrl="images/campus/btn-next1.jpg" title="Next" OnClick="btnNext_Click" /></p>
+                                    <asp:ImageButton ID="btnNext" runat="server" ImageUrl="images/campus/btn-next1.jpg" title="Next" AlternateText="Next" OnClick="btnNext_Click" /></p>
                             </div>
                         </div>
                     </asp:Panel>
@@ -256,7 +256,7 @@
                             </div>
                             <div id="clearline" style="height:1px; width:100%; clear:both; margin-bottom:1px;">&nbsp;</div>
                             <p>
-                                <asp:ImageButton ID="ImageButton1" runat="server" ImageUrl="images/campus/btn-next1.jpg" Title="Next" OnClick="btnGetResults_Click" /></p>                               
+                                <asp:ImageButton ID="ImageButton1" runat="server" ImageUrl="images/campus/btn-next1.jpg" Title="Next" AlternateText="Next" OnClick="btnGetResults_Click" /></p>                               
                         </div>
                         </div>
                     </asp:Panel>
@@ -296,7 +296,7 @@
 								     You can also <a href="#">bookmark</a> your results after each attempt for later reference.
 							    
                                         <p class="btn-tryagain">
-                                        <asp:ImageButton ID="btnBack" runat="server" ImageUrl="images/campus/btnTryAgain.jpg" title="Try Again" OnClick="btnBack_Click" /></p>
+                                        <asp:ImageButton ID="btnBack" runat="server" ImageUrl="images/campus/btnTryAgain.jpg" title="Try Again" AlternateText="Try Again" OnClick="btnBack_Click" /></p>
                                     </div>
 							    </div><!--.results-container -->
                             </div>
