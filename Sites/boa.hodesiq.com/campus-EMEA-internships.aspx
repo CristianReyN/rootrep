@@ -7,45 +7,57 @@
  <div id="maincontent"> 
                 <div id="article"> 
                   <h1>Internships</h1>
-                  <p>Internships at Bank of America Merrill Lynch are offered 
-                    at two levels:</p>
+                  
+                  <p class="back-to-previous"><a href="campus-EMEA-opportunities.aspx">Back to previous page</a></p>
+                  
+                  <p>Our internship programmes typically attract students in their penultimate year of study.</p>
                   <ul>
                     <li><a href="campus-EMEA-analyst-associate-internships.aspx">Analyst and Associate internships </a></li>
                   </ul>
-                  <br />
-                  <p>An internship is an excellent opportunity to gain insight into working life at the company and discover what path you would like your career to take. You’ll work alongside our full-time employees, performing real tasks with the potential for measurable impact on our business. The skill-building and networking opportunities you’ll get with us can make all the difference after graduation.</p>
+               
                   <h2 class="questions">Summer Internships</h2>
-                  <p>Bank of America Merrill Lynch’s summer internship programme is the ideal opportunity to gain an introduction into the world of banking. The 9-week programme begins with an induction week covering core skills where you will work alongside our full-time employees to gain valuable work experience in the financial industry.</p>
-                  <h2 class="questions">Internship Benefits</h2>
-                  <ul>
-                    <li>Compensation &ndash; we offer competitive compensation 
-                      and benefits.</li>
-                    <li>Networking &ndash; you’ll have the chance to meet and interact with senior executives at a variety of meetings and receptions. In addition, a community volunteer day and various social activities provide great opportunities to meet other interns.</li>
-                    <li>Professional Development &ndash; your work will be measurable, challenging and realistic. Depending on your business area, you’ll either stay with one group or complete a series of rotations. You’ll be fully supported by structured training and also assigned a mentor who will help you make the most of your internship. With this backing, you’ll be treated as an integral member of the team and expected to add real value.</li>
-                    <li>Guidance &ndash; in addition to receiving support from your line manager, HR and a buddy, you’ll experience a number of social and educational events throughout the summer that will give you great insight into Bank of America Merrill Lynch. There will be an opportunity to receive formal feedback in the middle and at the end of your internship. Managers will also help you develop a performance plan to establish goals and objectives.</li>
-                  </ul>
-                  <h2 class="questions">Important Dates</h2>
-                  <p>Internships typically begin in June and continue through August. The application deadline is in mid-December, and we expect open positions to be filled by February.</p>
-                  <h3>Locations</h3>
-                  <p>Most of our internship opportunities are in Frankfurt, London, Madrid, Milan, Paris and Croydon.</p>
-                  <h2 class="questions">Off-Cycle Internships</h2>
-                  <p>Off-cycle internships are available throughout the year, varying from 3 to 9 months, depending on the business need. Locations vary, but the majority of opportunities are in London, Frankfurt, Madrid, Moscow and Paris within the Investment Banking & Global Markets divisions. Applications for off-cycle opportunities are made online&ndash;it’s the same process for full-time graduate analysts. </p>
-                  <h2 class="questions">Industrial Placements</h2>
-                  <p>6 and 12-month industrial placements are available within the Technology division.</p>
+                  <p>Bank of America Merrill Lynch’s summer internship programme is the ideal opportunity to gain an introduction into the world of banking. The nine-week programme runs from the end of June and begins with an induction week covering core skills. Training and mentoring continue throughout the duration of your internship.</p>
+
+                    <h2 class="questions">Off-Cycle Internships (Fixed Term Placements)</h2>
+                    <p>Fixed Term Placements are available throughout the year, varying from three to six months, depending on the business need. Locations vary, but the majority of opportunities are in London, Frankfurt, Madrid, Moscow and Paris within the Investment Banking and Global Markets divisions.</p> 
+
+                    <h2 class="questions">Industrial Placements</h2>
+                    <p>Six- and 12-month fixed term placements are available within the Technology division.</p>
+
                 </div>
                 
-                <div id="aside"> 
-                  <a href="campusrecruiting/career_fit_tool.asp"><img src="images/campus/btn-careerfinder.jpg" width="179" height="66" alt="Career Finder: Come as you are. We've got a career to fit." /></a> 
-                  <a href="CampusEvents.aspx?region=2"><img src="images/campus/btn-campus-events.jpg" width="179" height="66" alt="Campus Events: Let's meet soon." /></a> 
-                  <a href="campus-EMEA-graduate-profiles.aspx"><img src="images/campus/btn-our-people.jpg" width="179" height="66" alt="Our People: See and hear who's making a difference and how." /></a> 
-                  <h2>Related Links:</h2>
-                  <ul>
-                    <li><a href="campus-EMEA-analyst-programs.aspx">Analyst programmes</a></li>
-                    <li><a href="campus-EMEA-associate-and-phd-programs.aspx">Associate programmes</a></li>
-                    <li><a href="campus-EMEA-pre-university.aspx">Pre-university</a></li>
-                    <li><a href="campus-EMEA-requirements.aspx">Requirements</a></li>
-                  </ul>
+              <div id="aside"> 
+				<a href="campus-find-your-fit.aspx"><img src="images/campus/btn-findyourfit.jpg" width="179" height="76" alt="Find Your fit: Come as you are. We've got a career to fit." /></a> 
+                  <a href="CampusEvents.aspx?region=2"><img src="images/campus/btn-campus-events-new.jpg" width="179" height="76" alt="Campus Events: Let's meet soon." /></a> 
+                  <a href="campus-EMEA-graduate-profiles.aspx"><img src="images/campus/btn-our-people-new.jpg" width="179" height="76" alt="Our People: See and hear who's making a difference and how." /></a> 
+                  
+				  <div class="related-links">
+					  <h2>Related Links:</h2>
+					  <ul>
+					    <li><a href="campus-EMEA-analyst-programs.aspx">EMEA analyst programmes  &raquo;</a></li>
+                        <li><a href="campus-EMEA-associate-and-phd-programs.aspx">EMEA associate programmes  &raquo;</a></li>
+                        <li><a href="campus-EMEA-pre-university.aspx">EMEA pre-internships  &raquo;</a></li>
+					  </ul>
+				  </div>
+				  <a href="http://twitter.com/#!/BofA_Careers" target="_blank"><img src="images/campus/btn-connect-twitter.jpg" width="179" height="64" alt="Stay Connected to Careers on Twitter" /></a> 
+				 
+				 <script type="text/javascript" src="http://utility.bankofamerica.com/uet/social_share2.js"></script> 
+				<div class="rnw">    
+				    <div class="rnt">        
+				        <div class="rnb">            
+				            <div class="inner" id="showHTML">                
+				                <h2>Share this page:</h2>                    
+				                <div class="iwrap ss"> <script language="javascript" type="text/javascript">document.write(displayIcon("3", "Bank of America | Careers | Campus Recruiting | Opportunities | Internships", "", "", "", "", "", "", "", "Bank of America | Careers | Campus Recruiting | Opportunities | Internships", "", "Bank of America | Careers | Campus Recruiting | Opportunities | Internships", "1", ""));</script></div>
+				                <div class="iwrap ss"><script language="javascript" type="text/javascript">document.write(displayIcon("1", "Bank of America | Careers | Campus Recruiting | Opportunities | Internships", "", "", "", "", "", "", "", "", "", "Bank of America | Careers | Campus Recruiting | Opportunities | Internships", "1", ""));</script></div>                   
+				                <div class="iwrap ss"><script language="javascript" type="text/javascript">document.write(displayIcon("2", "Bank of America | Careers | Campus Recruiting | Opportunities | Internships", "", "", "", "", "", "Bank of America | Careers | Campus Recruiting | Opportunities | Internships", "", "", "", "Bank of America | Careers | Campus Recruiting | Opportunities | Internships", "1", ""));</script></div>            
+				                
+				             </div><!--/.inner-->        
+				         </div><!--/.rnb-->    
+				      </div><!--/.rnt--> 
+				    </div><!--/.rnw-->
+				    
                 </div>
+                
                 <div id="red-footer"> 
                   <p>Set opportunity in motion.</p>
                 </div>
