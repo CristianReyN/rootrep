@@ -13,7 +13,7 @@
                   <h2 class="questions">Pre-internship opportunities</h2>
                   <h3>Insight Week</h3>
                   
-                  <p>This programme is designed for first-year undergraduates and is an opportunity to gain an early insight into the bank and take your first steps toward gaining a summer internship. If your application is successful, you’ll be invited to spend a week in London meeting our people, taking part in team challenges and developing your application and interview skills. The programme will take place Mon 26 March – Fri 30 March 2012. Applications will open in Autumn 2011, via "How to Apply."</p>
+                  <p>This programme is designed for first-year undergraduates and is an opportunity to gain an early insight into the bank and take your first steps toward gaining a summer internship. If your application is successful, you’ll be invited to spend a week in London meeting our people, taking part in team challenges and developing your application and interview skills. The programme will take place Mon 26 March – Fri 30 March 2012. Applications open in Autumn 2011 and can be completed online via <a href="CampusEvents.aspx?region=2">campus events</a>.</p>
                    <h3>Skills for Success</h3>
                   <p>If you don’t have a week to spare, our one-day skills workshops are the ideal opportunity to gain an introduction to our business areas. You will start to build the skills you’ll need for the application and selection process and take away helpful hints and tips from our recent graduates.</p>
                   
