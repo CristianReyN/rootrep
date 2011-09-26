@@ -5,7 +5,9 @@
 <!-- Alek, see Spell before altering UI of this page further. Thanks! -->
 
 <link rel="stylesheet" href="Includes/campus.css"/>
-
+<style>
+    a.in-active:hover{outline:0 !important;}
+</style>
 <!--[if lt IE 9]><link rel="stylesheet" href="Includes/ie-campus.css" /><![endif]-->
 
 <div id="maincontent" class="video-library">
@@ -85,8 +87,8 @@
 				<p class="video-pages">Videos 1-6 of 12</p>
 
 				<ul class="video-pagination" roll="navigation">
-					<li class="previous"><a>Previous</a></li>
-					<li><a>1</a></li>
+					<li class="previous"><a class="in-active">Previous</a></li>
+					<li><a class="in-active">1</a></li>
 					<li><a href="javascript:getcss('1');">2</a></li>
 					<li class="next"><a href="javascript:getcss('1');">Next</a></li>
 				</ul>
@@ -140,8 +142,8 @@
 				<p class="video-pages">Videos 1-6 of 12</p>
 
 				<ul class="video-pagination" roll="navigation">
-					<li class="previous"><a>Previous</a></li>
-					<li><a>1</a></li>
+					<li class="previous"><a class="in-active">Previous</a></li>
+					<li><a class="in-active">1</a></li>
 					<li><a href="javascript:getcss('1');">2</a></li>
 					<li class="next"><a href="javascript:getcss('1');">Next</a></li>
 				</ul>
@@ -156,8 +158,8 @@
 				<ul class="video-pagination" roll="navigation">
 					<li class="previous"><a href="javascript:getcss('0');">Previous</a></li>
 					<li><a href="javascript:getcss('0');">1</a></li>    
-					<li><a>2</a></li>
-					<li class="next"><a>Next</a></li>
+					<li><a class="in-active">2</a></li>
+					<li class="next"><a class="in-active">Next</a></li>
 				</ul>
 
 				<ul class="video-selections">
@@ -210,8 +212,8 @@
 				<ul class="video-pagination" roll="navigation">
 					<li class="previous"><a href="javascript:getcss('0');">Previous</a></li>
 					<li><a href="javascript:getcss('0');">1</a></li>    
-					<li><a>2</a></li>
-					<li class="next"><a>Next</a></li>
+					<li><a class="in-active">2</a></li>
+					<li class="next"><a class="in-active">Next</a></li>
 				</ul>
 
 

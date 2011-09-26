@@ -41,7 +41,7 @@
 
                         
                         <h3>Quantitative Analytics Programme (Ph.D.)</h3>
-                        <p>Pursuing a doctoral degree with a quantitative focus? Then this is the opportunity for you. Our Ph.D. programme enables doctoral students with high-level technical skills to put their intellect and ambition to work in a fast-paced, exciting environment that will challenge and reward a rigorous approach.</p> 
+                        <p>Pursuing a doctoral degree with a quantitative focus?<br />Our Quantitative Analytics or Global Rates and Currencies Algorithmic Trading programmes are for you. Our Ph.D. programmes enable doctoral students with high-level technical skills to put their intellect and ambition to work in a fast-paced, exciting environment that will challenge and reward a rigorous approach.</p> 
                         
                         <p class="learnmore-button"><a href="campus-EMEA-associate-and-phd-programs.aspx" title="Learn more about our associate and Ph.D. programmes">Learn more <span class="hiddencontent">about our associate and Ph.D. programmes</span></a></p>
 

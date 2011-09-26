@@ -20,7 +20,7 @@
                 
 <h2 class="questions">Chief Financial Office</h2>
 <ul>	
-<li><a href="campusrecruiting/emeain-international-corporate-treasury-summer-analyst-programme.asp">International Corporate Treasury Summer Analyst Programme</a></li>
+<li><a href="campusrecruiting/emeain-international-corporate-treasury-summer-analyst-programme.asp">Corporate Treasury Summer Analyst Programme</a></li>
 </ul>
 
 <h2 class="questions">Global Banking and Markets</h2>
@@ -39,9 +39,12 @@
 <li><a href="campusrecruiting/emeain-global-treasury-solutions-summer-analyst-programme.asp">Global Treasury Solutions Summer Analyst Programme</a></li>
 <li><a href="campusrecruiting/emeain-global-treasury-solutions-fixed-term-placement-3-6-months.asp">Global Treasury Solutions Fixed Term Placement (3-6 months)</a></li>
 <li><a href="campusrecruiting/emeain-south-african-graduate-analyst-fixed-term-placement-12-months.asp">South African Graduate Analyst Fixed Term Placement (12 months)</a></li>
-<li><a href="campusrecruiting/emeais-global-corporate-investment-banking-summer-associate-programme.asp">Global Corporate &amp; Investment Banking Summer Associate Programme</a></li>
+<li><a href="campusrecruiting/emeais-global-corporate-banking-summer-associate-programme.asp">Global Corporate Banking Summer Associate Programme</a></li>
+<li><a href="campusrecruiting/emeais-global-investment-banking-summer-associate-programme.asp">Global Investment Banking Summer Associate Programme</a></li>
+<!--<li><a href="campusrecruiting/emeais-global-corporate-investment-banking-summer-associate-programme.asp">Global Corporate &amp; Investment Banking Summer Associate Programme</a></li>-->
 <li><a href="campusrecruiting/emeais-global-markets-sales-trading-summer-associate-programme.asp">Global Markets Summer Associate Programme</a></li>
 <li><a href="campusrecruiting/emeais-global-markets-quantitative-analytics-associate-fixed-term-placement-5-months.asp">Global Markets Quantitative Analytics Associate Fixed Term Placement (5 months)</a></li>
+<li><a href="campusrecruiting/emeais-global-rates-currencies-algorithmic-trading-fixed-term-placement.asp">Global Rates and Currencies Algorithmic Trading Fixed Term Placement</a></li>
 <li><a href="campusrecruiting/emeais-global-research-summer-associate-programme.asp">Global Research Summer Associate Programme</a></li>
 </ul>
 

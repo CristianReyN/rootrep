@@ -84,6 +84,7 @@
                   <ul>
                     <li><a href="campusrecruiting/usin-global-wealth-investment-management-summer-analyst-program.asp">Global 
                       Wealth and Investment Management Summer Analyst Program</a></li>
+                      <li><a href="campusrecruiting/usin-global-wealth-investment-management-operations-summer-analyst-program.asp">Global Wealth and Investment Management Operations Summer Analyst Program Placement</a></li>
                     <li><a href="campusrecruiting/usin-wealth-management-branch-office-internship.asp">Merrill 
                       Lynch Wealth Management Branch Office Internship</a></li>
                   </ul>

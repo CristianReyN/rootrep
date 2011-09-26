@@ -21,8 +21,7 @@
                   
                   <h2 class="questions">Chief Financial Office</h2>
                   <ul>
-                    <li><a href="campusrecruiting/emeafn-international-corporate-treasury-analyst-programme.asp">International 
-                      Corporate Treasury Analyst Programme</a></li>
+                    <li><a href="campusrecruiting/emeafn-international-corporate-treasury-analyst-programme.asp">Corporate Treasury Analyst Programme</a></li>
                   </ul>
                   <h2 class="questions">Global Consumer and Small Business Banking</h2>
                   <ul>
