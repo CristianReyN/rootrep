@@ -5,9 +5,7 @@
 <!-- Alek, see Spell before altering UI of this page further. Thanks! -->
 
 <link rel="stylesheet" href="Includes/campus.css"/>
-<style>
-    a.in-active:hover{outline:0 !important;}
-</style>
+
 <!--[if lt IE 9]><link rel="stylesheet" href="Includes/ie-campus.css" /><![endif]-->
 
 <div id="maincontent" class="video-library">
