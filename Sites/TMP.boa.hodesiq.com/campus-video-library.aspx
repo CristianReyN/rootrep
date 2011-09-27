@@ -9,9 +9,6 @@
 <link rel="stylesheet" href="Includes/campus.css"/>
 
 <!--[if lt IE 9]><link rel="stylesheet" href="Includes/ie-campus.css" /><![endif]-->
-<style>
-    a.in-active:hover{outline:0 !important;}
-</style>
 
 <div id="maincontent" class="video-library">
 
