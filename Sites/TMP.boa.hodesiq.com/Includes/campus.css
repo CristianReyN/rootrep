@@ -1404,12 +1404,12 @@ text-decoration: underline;
 	text-decoration: none !important;
 	}
 	
-	a.in-active:hover{outline:0 !important;}
-	
 	.video-library #vl-thumbnails-container ul.video-pagination li a:hover {
 	font-weight: normal;
 	text-decoration: underline !important;
 	}
+	
+	.video-library #vl-thumbnails-container ul.video-pagination li a.in-active:hover{outline:0 !important; text-decoration: none !important;}
 	
 	.video-library #vl-thumbnails-container ul.video-pagination li.previous a {
 	border: none;
