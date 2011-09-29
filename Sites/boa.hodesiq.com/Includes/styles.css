@@ -46,6 +46,11 @@ UL.secondary
 {
     list-style-image: url(../images/bull3o.gif);
 }
+UL.m15
+{
+    margin-left: 15px;
+    padding-left: 0px;
+}
 UL.nobullet
 {
     list-style-image: none;
@@ -554,17 +559,21 @@ A.p, A.sblnk, SPAN.pl
     color: #405EBE;
     text-decoration: none;
 }
-SPAN.pl
+SPAN.pl, p.pl
 {
     text-decoration: none;
 }
-SPAN.un
+SPAN.un, p.ul
 {
     text-decoration: underline;
 }
-SPAN.bd
+SPAN.bd, p.bd
 {
     font-weight: bold;
+}
+SPAN.it, p.it
+{
+	font-style: italic;
 }
 A.p:hover, A.p-over, A.sblnk:hover
 {

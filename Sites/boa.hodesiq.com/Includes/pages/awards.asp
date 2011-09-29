@@ -4,48 +4,53 @@
 				<td width="373" height="100%" valign="top" style="<%=middle_content_padding%>">
 <div id="Layer1" style="position: relative; z-index: 12;">
 <img class="dotdiv" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
-<p>The bank&#39;s commitment to supporting a diverse workforce has earned Bank&nbsp;of&nbsp;America significant public recognition from these publications among others listed below:</p>
+<p>Bank&nbsp;of&nbsp;America is proud to be a leader in supporting diversity and has been widely recognized for its progressive workplace practices and initiatives that promote inclusion.</p>
 
-<H2 class="p" style="margin: 12px 0px 6px 0px; padding: 0px;"><span class="bd"><b>2011 Recognition:</b></span></H2>
+<H2 class="p" style="margin: 12px 0px 6px 0px; padding: 0px;"><span class="bd it">2011 Recognition:</span></H2>
 <ul>
-	<li>Bank&nbsp;of&nbsp;America ranked number 2 on <b><i>Equal Opportunity</i></b> magazine&#39;s annual &ldquo;Top 50 Employers&rdquo; list. The publication&#39;s readership selected top companies in the U.S. for which they would most prefer to work or believe are progressive in hiring minorities and diverse individuals. This is the 18<span class="supth">th</span> year the publication has produced the list.</li>
-	<li>Bank&nbsp;of&nbsp;America was named a top 10 company on the <i>2011 Working Mother 100 Best Companies</i> list. This is the 22nd year the bank has been on the list. Areas the bank was ranked &ldquo;Best in Class&rdquo; were child care programs and reimbursement; paid parental time off and leaves of absence; and flexible work arrangements. In February 2011, <b><i>Working Mother</i></b> ranked the company among the top 10 companies for women’s advancement.</li>
-	<li>MBNA Canada Bank received the Employer Excellence Award from Hire Immigrants Ottawa (April 2011).</li>
-	<li>Bank of America Merrill Lynch ranked among The Times Top 50 Employers for Women in partnership with Opportunity Now (April 2011).</li>
-	<li>Bank&nbsp;of&nbsp;America made the list of <b><i>Hispanic Business</i></b> magazine&#39;s &ldquo;Top 60 Diversity Elite&rdquo; for the sixth year in a row (April 2011).</li>
-	<li>Number 11 on <b><i>DiversityInc</i></b> magazine&#39;s &ldquo;Top 50 Companies for Diversity&rdquo; annual list. The bank has been on the list for the last 11 years. Bank&nbsp;of&nbsp;America was also ranked among the DiversityInc top 10 companies for the following areas: Recruitment & Retention, Supplier Diversity, Executive Women and Lesbian, Gay, Bisexual and Transgender (LGBT) Employees.</li>
-	<li>Number 6 on <b><i>LATINA Style</i></b> magazine list of the top company for Latinas. The bank has been on the list for the last six years.</li>
-	<li>&ldquo;Top 50 Organizations for Multicultural Business Opportunities&rdquo; by <b><i>Diversitybusiness.com</i></b> for the second year in a row.</li>
-	<li>Number 4 on <b><i>DiversityMBA</i></b> magazine&#39;s &ldquo;Top 50 Companies for Diverse Managers to Work&rdquo;; fourth year on list.</li>
+	<li>Number 2 on <span class="bd it">Equal Opportunity</span> magazine&#39;s annual &ldquo;Top 50 Employers&rdquo; list.</li>
+	<li>Top 10 company on the 2012 <span class="bd it">Working Mother</span> 100 Best Companies list; 23rd year on the list. Also among the top 10 companies for women&#39;s advancement and best companies for kids.</li>
+	<li>Number 11 on <span class="bd it">DiversityInc</span> magazine&#39;s &ldquo;Top 50 Companies for Diversity&rdquo;; on the list for the last 11 years. Bank&nbsp;of&nbsp;America was also ranked among the <span class="bd it">DiversityInc</span> top 10 companies for Recruitment &amp; Retention, Supplier Diversity, Executive Women and LGBT Employees.</li>
+	<li>&ldquo;40 Best Companies for Diversity&rdquo; by <span class="bd it">Black Enterprise</span> magazine for the seventh year in a row, noted for our Supplier Diversity efforts.</li>
+	<li><span class="bd it">Hispanic Business</span> magazine&#39;s &ldquo;Top 60 Diversity Elite&rdquo; for the sixth year in a row.</li>
+	<li>Among <span class="bd it">LATINA Style&#39;s</span> top company for Latinas for the last seven years.</li>
+	<li>&ldquo;Top 50 Organizations for Multicultural Business Opportunities&rdquo; by <span class="bd it">Diversitybusiness.com</span> for the second year in a row.</li>
+	<li>Number 4 on <span class="bd it">DiversityMBA</span> magazine&#39;s &ldquo;Top 50 Companies for Diverse Managers to Work;&rdquo; fourth year on list.</li>
+	<li>MBNA Canada Bank received the Employer Excellence Award from Hire Immigrants Ottawa.</li>
+	<li>Bank&nbsp;of&nbsp;America Merrill Lynch ranked among <span class="bd it">The Times</span> Top 50 Employers for Women in partnership with Opportunity Now.</li>
+	<li>Bank&nbsp;of&nbsp;America Merrill Lynch recognized by the Workplace Wellness Council in Mexico for quality and excellence in workplace health promotion.</li>
+	<li>Bank&nbsp;of&nbsp;America has been recognized by the Department of Defense for our support of employees that serve in the National Guard and Reserve. The company received the Seven Seals Award from the Maine Chapter of the Employer Support of the Guard and Reserve (ESGR), the Above and Beyond Award in Texas and North Carolina, and the Patriot Award in Georgia.</li>
+	<li>Among <span class="bd it">Military Times EDGE</span> magazine&#39;s &ldquo;Best for Vets 2011: Employers.&rdquo;</li>
+	<li>Merrill Lynch Wealth Management led all financial services firms on <span class="bd it">Barron&#39;s</span> &ldquo;America&#39;s Top 100 Women Financial Advisors&rdquo; list again this year, with 33 in the rankings; sixth year leading the list.</li>
+	<li>Bank&nbsp;of&nbsp;America ranked number 12 on <span class="bd it">Computerworld&#39;s</span> &ldquo;Best Places to Work in IT&rdquo; list.</li>
+	<li>Best Adoption-Friendly Workplace by the <span class="bd it">Dave Thomas Foundation for Adoption</span> for the fourth year in a row.</li>
+	<li><span class="bd it">Universum Research</span> recognized the bank on its &ldquo;Top 100 Ideal Employers&rdquo; for young professionals and &ldquo;Top 25 Ideal Employers among MBAs.&rdquo;</li>
+	<li>Bank&nbsp;of&nbsp;America&#39;s campus careers website ranked number 38 in the Top Employer Web Benchmark 2011 survey by <span class="bd it">Potential Park</span>, a research and branding firm.</li>
 </ul>
 
-<H2 class="p" style="margin: 12px 0px 6px 0px; padding: 0px;"><span class="bd"><b>2010 Recognition:</b></span></H2>
+<H2 class="p" style="margin: 12px 0px 6px 0px; padding: 0px;"><span class="bd">2010 Recognition:</span></H2>
 <ul>
-	<li><b><i>G.I. Jobs</i></b> magazine recognized the bank for the fifth year in a row as one of the top 100 Military Friendly Employers on its annual list. The bank ranked number 48. The ranking evaluates companies on their supportive military recruiting and retention programs, military leave of absence program, employee networks, community partnerships and much more.</li>
-	<li>The <b>Securities Industry and Financial Markets Association</b> (SIFMA) recognized the bank with a Diversity Leadership Award in the Innovative Leadership category for the bank&#39;s support of military associates and their families.</li>
-	<li>The bank scored 100% on the <b>Human Rights Campaign Corporate Equality Index</b> for the fifth consecutive year. The rating is based on the bank&#39;s policies and efforts to support its lesbian, gay, bisexual and transgender (LGBT) associates.</li>
-	<li><b>Universum Research</b> recognized Bank&nbsp;of&nbsp;America on its &ldquo;50 World&#39;s Most Attractive Employers 2010.&rdquo; The bank ranked number 22. From the world&#39;s leading economies, nearly 130,000 students at top academic institutions chose their ideal companies to work for. The global index of employer attractiveness highlights companies that excel in talent attraction and retention. The global rankings are based on the employer preferences of students from Brazil, Canada, China, France, Germany, India, Italy, Japan, Russia, Spain, U.K., and U.S.</li>
-	<li><b>Dave Thomas Foundation for Adoption</b> recognized the bank for the fourth year in a row as one of the best companies for adoption benefits on its annual Best Adoption-Friendly Workplace list.</li>
-	<li><b><i>Military Times Edge</i></b> magazine ranked Bank&nbsp;of&nbsp;America number 24 on its annual &ldquo;50 Best Employers for Veterans&rdquo; list. Companies were evaluated on recruitment and retention of veterans, training and mentoring, military reserve policies and corporate culture.</li>
-	<li>Bank&nbsp;of&nbsp;America was honored at the first annual Carrick-on-Shannon Nigerian Festival Day in Ireland with an award marking the bank&#39;s contribution as a diverse and inclusive employer in the community. The bank received a certificate from the <b>Nigerian Festival Society</b> for its support of equal employment opportunities.</li>
-	<li><b><i>Fortune.com</i></b> and <b>Universum Research</b> recognized the bank on its &ldquo;2010 Top 100 MBA Employers&rdquo; list. <b><i>CNNMONEY.com</i></b> also highlighted the information.</li>
-	<li><b><i>Bloomberg BusinessWeek</i></b> and <b>Universum Research</b> recognized the bank on its &ldquo;2010 Undergraduate IDEAL<span style="font-size: 1.2em; position: relative; top: 0em;">&#0153;</span></span> Employer Rankings&rdquo; list.</li>
-	<li>In the July issue of <b><i>Black Enterprise</i></b> magazine, Bank&nbsp;of&nbsp;America was named one of the &ldquo;40 Best Companies for Diversity&rdquo; for the sixth year in a row. The list evaluates a company&#39;s board representation, supplier diversity, associate networks, senior management and diversity programs.</li>
-	<li>Bank&nbsp;of&nbsp;America for the fifth year in a row received <b><i>Conceive</i></b> magazine&#39;s &ldquo;Top 50 Best Companies&rdquo; award for offering generous fertility and/or adoption benefits.</li>
-	<li>Bank&nbsp;of&nbsp;America ranked for the second year in a row on the <b>National Association for Female Executives&#39;</b> (NAFE) Top Companies list. The 2010 NAFE Top Companies includes 50 companies and ten non-profit organizations from across the United States.</li>
+	<li>100% score on the <span class="bd it">Human Rights Campaign Corporate Equality Index</span> for the fifth consecutive year.</li>
+	<li>Top 100 Military Friendly Employers by <span class="bd it">G.I. Jobs</span> magazine for the fifth year in a row.</li>
+	<li><span class="bd">National Association for Female Executives&#39;</span> (NAFE) Top Companies list for the second year in a row.</li>
+	<li><span class="bd">Conceive magazine&#39;s</span> &ldquo;Top 50 Best Companies&rdquo; for fertility and adoption benefits for the fifth year in a row.</li>
+	<li>Honored at the first annual Carrick-on-Shannon Nigerian Festival Day in Ireland for its contribution as a diverse and inclusive employer.</li>
 </ul>
 
-<H2 class="p" style="margin: 12px 0px 6px 0px; padding: 0px;"><span class="bd"><b>2010 Associate Recognition:</b></span></H2>
+<H2 class="p" style="margin: 12px 0px 6px 0px; padding: 0px;"><span class="bd">2011 Employee Recognition</span></H2>
 <ul>
-	<li><b><i>Institutional Investor</i></b> magazine recognized Global Technology &amp; Operations Executive, Cathy Bessant on its "Tech 40" list of senior global IT executives. Bessant ranked number 8.</li>
-	<li>On the 2010 <b><i>US Banker</b></i> 25 Most Powerful Women in Banking list, Sallie Krawcheck, Global Wealth &amp; Investment Management executive ranked number 4, Barbara Desoer, Home Loans &amp; Insurance executive ranked number 11 and Anne Finucane, Global Strategy &amp; Marketing Officer ranked number 21. Cathy Bessant, Global Technology &amp; Operations executive was recognized on the Women to Watch list and ranked number 6. This list typically includes executives who have held their positions for a year or less. Candace Browning, head of Global Research was ranked number 6 on the 25 Most Powerful Women in Finance, a list that is non-banking focused.</li>
-	<li>On <b><i>Fortune&#39;s</b></i> 50 Most Powerful Women in Business list, Barbara Desoer, Home Loans &amp; Insurance executive ranked number 19 and Sallie Krawcheck, Global Wealth &amp; Investment Management executive ranked number 24.</li>
-	<li><b><i>Forbes</b></i> recognized Sallie Krawcheck, Global Wealth &amp; Investment Management executive on its annual list called the World&#39;s 100 Most Powerful Women. Krawcheck ranked number 44.</li>
-	<li>In the May issue of <b><i>Research</b></i> magazine, Sallie Krawcheck, Global Wealth &amp; Investment Management president was named to its "50 Top Women in Wealth Management for 2010".</li>
-	<li>Thirty Merrill Lynch Global Wealth Management Financial Advisors were named to <b><i>Barron&#39;s</b></i> "Top 100 Women Financial Advisors" list, more than any other firm.</li>
-	<li>Cathy Bessant, Global Technology &amp; Operations executive was honored by <b>Queens University of Charlotte</b> as the Charlotte Business Woman of the Year. She is the 25<span class="supth">th</span> recipient of the annual award, which recognizes the achievement of women in for-profit enterprises, based on their contributions to the business, civic and cultural communities of the Charlotte region.</li>
-	<li><b><i>Charlotte Business Journal</b></i> recognized Katy Knox, Global Commercial Banking Southeast Region executive and Laurie Readhead, eChannels &amp; Customer Solutions executive on its Top Women in Business list.</li>
-	<li><b><i>Black Enterprise</b></i> magazine recognized Amy Ellis-Simon, managing director and head of middle markets sales as one of the top 75 women in business in its February issue.</li>
+	<li>Andrea Smith, Global Head of Human Resources, and Christine Katziff, Corporate General Auditor, were recognized by the <span class="bd it">Charlotte Business Journal</span> at its 15th annual Women in Business Achievement Awards.</li>
+	<li>Anne Finucane was recognized as number 12 on &ldquo;The Power List,&rdquo; <span class="bd it">PR Week&#39;s</span> list of the top 50 communications executives in the U.S.</li>
+	<li>Katy Knox, Consumer &amp; Small Business Banking Distribution executive, and Anna Kelligrew St. Clair, private client manager for U.S. Trust, were both recognized among Diversity MBA&#39;s Top 100 under 50 Executive &amp; Emerging Leaders list.</li>
+	<li>Carole Berndt, head of Global Treasury Solutions in Europe and Emerging Markets, received an Award for Achievement from Women in Banking and Finance (U.K.).</li>
+	<li>Jennifer Boussuge, head of International Subsidiary Banking for Global Treasury Solutions in Europe and Emerging Markets, and Lesley White, Global Treasury Solutions product executive for Corporates in Europe and Emerging Markets, were recognized as finalists in the Award for Achievement from Women in Banking and Finance (U.K.).</li>
+	<li>Lorna Meyer of San Francisco (number 4) and Melissa Corrado Harrison of Denver (number 9) among <span class="bd it">Barron&#39;s</span> &ldquo;America&#39;s Top 100 Women Financial Advisors.&rdquo;</li>
+	<li>Rich Hofmann, senior finance manager, and Christine Tedjopranoto, finance business support manager, received Individual Outstanding Employer Patriot Awards from the Employer Support of the Guard and Reserve.</li>
+</ul>
+
+<H2 class="p" style="margin: 12px 0px 6px 0px; padding: 0px;"><span class="bd">2010 Employee Recognition</span></H2>
+<ul>
+	<li><span class="bd it">Institutional Investor</span> magazine recognized Global Technology &amp; Operations Executive, Cathy Bessant on its "Tech 40" list of senior global IT executives.</li>
 </ul>
 <br><br>
 <%	href_pre = ""

@@ -7,27 +7,32 @@
 <div class="expanded">
 <% call expandableH2("our_business", true) %>
 <div>
-<h3 class="bac">Summary</h3>
+<h3 class="bac nobr">Summary</h3>
 <ul class="bac">
 	<li>Location: London</li>
 	<li>9 week Summer Internship programme</li>
 	<li>MBA or other advanced degree from a top-tier business school</li>
 	<li>Fluency in English and a second European language may also be required for some roles</li>
-	<li>Pooling System</li>
 </ul>
-<p class="bac">The Global Corporate and Investment Banking group serves a diverse client base that includes corporations, financial institutions, financial sponsors, hedge funds, governments and government agencies. We have a significant presence in the Americas, Europe, Emerging Markets (ex-Asia) and Asia Pacific, serving clients in virtually all countries. We provide our clients with a range of services fundamental to their business, including strategic advice, financing, restructuring and risk management, as well as capital raising from both the public markets and private sources.</p>
+<p class="bac">Investment Banking focuses on building long-term relationships with more than 3,000 large corporations, financial institutions and financial sponsors, by providing strong advisory expertise and capitalising on powerful M&A, corporate banking, treasury, debt and equity product expertise to deliver integrated financial solutions. We have a significant presence in the Americas, Europe, Emerging Markets (ex-Asia) and Asia Pacific.</p>
 </div></div>
 
 <div class="expand">
 <% call expandableH2("overview", false) %>
 <div>
-<p class="bac nobr">As a Summer Associate within Global Corporate and Investment Banking, you will:</p>
+<p class="bac nobr">As a Summer Associate within Global Investment Banking, you will:</p>
 <ul class="bac">
-	<li>Help deliver solutions that bring to bear the full breadth of the bank&#39;s capabilities - ranging from strategic mergers and acquisitions advice (debt, equity, liability derivatives) and structured products, to principal investing, corporate banking and private equity</li>
+	<li>Help deliver solutions that bring to bear the full breadth of the bank's capabilities - ranging from strategic mergers and acquisitions advice (debt, equity, liability derivatives) and structured products, to principal investing, corporate banking and private equity</li>
 	<li>Actively participate in executing transactions and work to expand your level of client interaction and responsibilities on transactions as you build your experience</li>
 	<li>Manage junior professionals/analysts to execute deals and perform various analyses</li>
 	<li>Work closely with senior clients, lawyers and representatives from other investment banks</li>
 </ul>
+</div></div>
+<div class="expand">
+<% call expandableH2("qualifications", false) %>
+<div>
+<p class="bac">Your outstanding academic credentials will include an MBA or other advanced degree from a top-tier business school, and you'll need a track record of superior performance in extracurricular and professional activities. We're looking for strong quantitative and analytical skills, knowledge of financial services and appropriate language capabilities.</p>
+<p class="bac">The ability to apply advanced oral and written communication skills to create a positive impression and professional rapport will be key. In addition, you should be a quick learner who can work independently or as part of a team, with a high degree of initiative and motivation, and a client-focused, results-driven approach.</p>
 </div></div>
 
 <div class="expand">
@@ -36,18 +41,11 @@
 <p class="bac nobr">Training and learning opportunities include:</p>
 <ul class="bac">
 	<li>An organization-wide orientation programme to introduce you to the company</li>
-	<li>Classroom based training programme customised for associates, preparing you for your placement in Global Corporate and Investment Banking. This simulates actual work assignments and helps you further develop the necessary financial and analytical skills needed to hit the ground running when you join your group.</li>
+	<li>Classroom based training programme customised for associates, preparing you for your placement in Global Corporate and Investment Banking. This simulates actual work assignments and helps you further develop the necessary financial and analytical skills needed to hit the ground running when you join your group</li>
 	<li>Senior Speaker events, featuring presentations by top executives and master classes on various product areas</li>
 	<li>Online learning portal offering short courses on our different business areas and products</li>
 	<li>Constructive feedback sessions through performance evaluations</li>
 </ul>
-</div></div>
-
-<div class="expand">
-<% call expandableH2("qualifications", false) %>
-<div>
-<p class="bac">Your outstanding academic credentials will include an MBA or other advanced degree from a top-tier business school, and you&#39;ll need a track record of superior performance in extracurricular and professional activities. We&#39;re looking for strong quantitative and analytical skills, knowledge of financial services and appropriate language capabilities.</p>
-<p class="bac">The ability to apply advanced oral and written communication skills to create a positive impression and professional rapport will be key. In addition, you should be a quick learner who can work independently or as part of a team, with a high degree of initiative and motivation, and a client-focused, results-driven approach.</p>
 </div></div>
 
 <div class="expand">
