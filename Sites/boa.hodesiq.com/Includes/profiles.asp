@@ -198,6 +198,7 @@ Function profile (program)
 			"usfn-corporate-treasury-analyst-program.asp", _
 			"usfn-corporate-workplace-analyst.asp", _
 			"usfn-enterprise-change-technology-operations-leader-development-rotational-program.asp", _
+			"usfn-global-wealth-investment-management-operations-analyst-program.asp", _
 			"usfn-global-markets-operations-middle-office-rotational-program.asp", _
 			"usfn-mainframe-analyst-development-program.asp", _
 			"usfn-markets-risk-analyst-progam.asp", _
@@ -208,6 +209,7 @@ Function profile (program)
 			"usin-corporate-workplace-analyst-internship.asp", _
 			"usin-enterprise-change-technology-operations-intern-program.asp", _
 			"usin-global-markets-operations-middle-office-intern-program.asp", _
+			"usin-global-wealth-investment-management-operations-summer-analyst-program.asp", _
 			"usin-mainframe-analyst-development-intern-program.asp", _
 			"usin-markets-risk-intern-program.asp", _
 			"usis-corporate-workplace-senior-analyst-internship.asp" _
@@ -266,7 +268,9 @@ Function profile (program)
 			"emeain-technology-developer-analyst-fixed-term-placement-12-months.asp", _
 			"emeain-technology-developer-analyst-fixed-term-placement-6-months.asp", _
 			"emeain-technology-infrastructure-fixed-term-placement-12-months.asp", _
+			"emeais-global-corporate-banking-summer-associate-programme.asp", _
 			"emeais-global-markets-sales-trading-summer-associate-programme.asp", _
+			"emeais-global-rates-currencies-algorithmic-trading-fixed-term-placement.asp", _
 			"usfn-global-commodities-analyst-program.asp", _
 			"usfn-global-investment-banking-capital-markets-analyst-program.asp", _
 			"usfn-global-markets-public-finance-analyst-program.asp", _
@@ -283,6 +287,8 @@ Function profile (program)
 <%
 	ElseIf InArray(program.Item("url"), Array( _
 			"usfn-global-commercial-banking-analyst-program.asp", _
+			"usfn-global-commercial-banking-credit-analyst-program.asp", _
+			"usfn-global-commercial-banking-treasury-analyst-program.asp", _
 			"usfs-global-commercial-banking-associate-program.asp", _
 			"usin-global-commercial-banking-summer-analyst-program.asp", _
 			"usin-global-treasury-solutions-summer-analyst-program.asp" _
@@ -392,7 +398,9 @@ Function profile (program)
 <%
 	ElseIf InArray(program.Item("url"), Array( _
 			"emeafs-global-corporate-investment-banking-associate-programme.asp", _
-			"emeais-global-corporate-investment-banking-summer-associate-programme.asp" _
+			"emeafs-global-investment-banking-associate-programme.asp", _
+			"emeais-global-corporate-investment-banking-summer-associate-programme.asp", _
+			"emeais-global-investment-banking-summer-associate-programme.asp" _
 		)) Then
 %>
 <a href="../campus-meet-our-people-profile-Richard.aspx" class="proimg" title="View Richard&#39;s Profile"><img src="../images/profile_images/cpi_Richard.jpg" width="180" height="130" alt="View Richard&#39;s Profile" border="0" class="proimg"></a>

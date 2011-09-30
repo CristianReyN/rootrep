@@ -28,12 +28,6 @@
 	<li>Work closely with senior clients, lawyers and representatives from other investment banks</li>
 </ul>
 </div></div>
-<div class="expand">
-<% call expandableH2("qualifications", false) %>
-<div>
-<p class="bac">Your outstanding academic credentials will include an MBA or other advanced degree from a top-tier business school, and you'll need a track record of superior performance in extracurricular and professional activities. We're looking for strong quantitative and analytical skills, knowledge of financial services and appropriate language capabilities.</p>
-<p class="bac">The ability to apply advanced oral and written communication skills to create a positive impression and professional rapport will be key. In addition, you should be a quick learner who can work independently or as part of a team, with a high degree of initiative and motivation, and a client-focused, results-driven approach.</p>
-</div></div>
 
 <div class="expand">
 <% call expandableH2("training", false) %>
@@ -46,6 +40,13 @@
 	<li>Online learning portal offering short courses on our different business areas and products</li>
 	<li>Constructive feedback sessions through performance evaluations</li>
 </ul>
+</div></div>
+
+<div class="expand">
+<% call expandableH2("qualifications", false) %>
+<div>
+<p class="bac">Your outstanding academic credentials will include an MBA or other advanced degree from a top-tier business school, and you'll need a track record of superior performance in extracurricular and professional activities. We're looking for strong quantitative and analytical skills, knowledge of financial services and appropriate language capabilities.</p>
+<p class="bac">The ability to apply advanced oral and written communication skills to create a positive impression and professional rapport will be key. In addition, you should be a quick learner who can work independently or as part of a team, with a high degree of initiative and motivation, and a client-focused, results-driven approach.</p>
 </div></div>
 
 <div class="expand">

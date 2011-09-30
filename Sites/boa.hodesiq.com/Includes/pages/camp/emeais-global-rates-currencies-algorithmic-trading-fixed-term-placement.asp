@@ -23,11 +23,6 @@
 <div>
 <p class="bac">Interns given the opportunity to work in this leading edge domain will be expected to have a high degree of mathematical and programming ability in areas including (but not limited to) genetic algorithms, A/I, statistical analysis, Bayesian theory and related areas. Each team member is individually responsible for their own projects, whilst working in a highly collaborative and supportive environment.</p>
 </div></div>
-<div class="expand">
-<% call expandableH2("qualifications", false) %>
-<div>
-<p class="bac">You will need an advanced degree/PhD in a mathematical or financial discipline, along with a strong quantitative background and impressive problem-solving, analytical and communication skills. The ability to think creatively will be essential, as will familiarity with programming.</p>
-</div></div>
 
 <div class="expand">
 <% call expandableH2("training", false) %>
@@ -39,6 +34,12 @@
 	<li>Opportunities to interact and network with peers</li>
 	<li>A mentoring programme</li>
 </ul>
+</div></div>
+
+<div class="expand">
+<% call expandableH2("qualifications", false) %>
+<div>
+<p class="bac">You will need an advanced degree/PhD in a mathematical or financial discipline, along with a strong quantitative background and impressive problem-solving, analytical and communication skills. The ability to think creatively will be essential, as will familiarity with programming.</p>
 </div></div>
 
 <div class="expand">
