@@ -398,12 +398,17 @@ Function profile (program)
 <%
 	ElseIf InArray(program.Item("url"), Array( _
 			"emeafs-global-corporate-investment-banking-associate-programme.asp", _
-			"emeafs-global-investment-banking-associate-programme.asp", _
+			"emeafs-global-investment-banking-associate-programme.asp" _
+		)) Then
+%>
+<a href="../campus-meet-our-people-profile-Richard.aspx" class="proimg" title="View Richard&#39;s Profile"><img src="../images/profile_images/cpi_Richard.jpg" width="180" height="130" alt="View Richard&#39;s Profile" border="0" class="proimg"></a>
+<%
+	ElseIf InArray(program.Item("url"), Array( _
 			"emeais-global-corporate-investment-banking-summer-associate-programme.asp", _
 			"emeais-global-investment-banking-summer-associate-programme.asp" _
 		)) Then
 %>
-<a href="../campus-meet-our-people-profile-Richard.aspx" class="proimg" title="View Richard&#39;s Profile"><img src="../images/profile_images/cpi_Richard.jpg" width="180" height="130" alt="View Richard&#39;s Profile" border="0" class="proimg"></a>
+<a href="../campus-profiles-Internship-Richard.aspx" class="proimg" title="View Richard&#39;s Profile"><img src="../images/profile_images/cpi_Richard.jpg" width="180" height="130" alt="View Richard&#39;s Profile" border="0" class="proimg"></a>
 <%
 	ElseIf InArray(program.Item("url"), Array( _
 			"emeafs-global-research-associate-programme.asp", _
