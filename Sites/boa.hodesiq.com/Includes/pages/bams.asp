@@ -51,8 +51,8 @@ End If
 	<li>401(k) Plan</li>
 	<li>Tuition Reimbursement</li>
 </ul>
-<br>
-<p class="bac smaler it">Bank&nbsp;of&nbsp;America Merchant Services is an Equal Opportunity Employer.</p>
+
+<p class="bac">Bank&nbsp;of&nbsp;America Merchant Services is an Equal Opportunity Employer.</p>
 
 				</td>
 				<td width="205" height="100%" style="padding-top: 1px;" valign="top" align="right">

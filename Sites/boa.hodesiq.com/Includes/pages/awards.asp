@@ -23,9 +23,9 @@
 	<li>Among <span class="bd it">Military Times EDGE</span> magazine&#39;s &ldquo;Best for Vets 2011: Employers.&rdquo;</li>
 	<li>Merrill Lynch Wealth Management led all financial services firms on <span class="bd it">Barron&#39;s</span> &ldquo;America&#39;s Top 100 Women Financial Advisors&rdquo; list again this year, with 33 in the rankings; sixth year leading the list.</li>
 	<li>Bank&nbsp;of&nbsp;America ranked number 12 on <span class="bd it">Computerworld&#39;s</span> &ldquo;Best Places to Work in IT&rdquo; list.</li>
-	<li>Best Adoption-Friendly Workplace by the <span class="bd it">Dave Thomas Foundation for Adoption</span> for the fourth year in a row.</li>
-	<li><span class="bd it">Universum Research</span> recognized the bank on its &ldquo;Top 100 Ideal Employers&rdquo; for young professionals and &ldquo;Top 25 Ideal Employers among MBAs.&rdquo;</li>
-	<li>Bank&nbsp;of&nbsp;America&#39;s campus careers website ranked number 38 in the Top Employer Web Benchmark 2011 survey by <span class="bd it">Potential Park</span>, a research and branding firm.</li>
+	<li>Best Adoption-Friendly Workplace by the <span class="bd">Dave Thomas Foundation for Adoption</span> for the fourth year in a row.</li>
+	<li><span class="bd">Universum Research</span> recognized the bank on its &ldquo;Top 100 Ideal Employers&rdquo; for young professionals and &ldquo;Top 25 Ideal Employers among MBAs.&rdquo;</li>
+	<li>Bank&nbsp;of&nbsp;America&#39;s campus careers website ranked number 38 in the Top Employer Web Benchmark 2011 survey by <span class="bd">Potential Park</span>, a research and branding firm.</li>
 </ul>
 
 <H2 class="p" style="margin: 12px 0px 6px 0px; padding: 0px;"><span class="bd">2010 Recognition:</span></H2>
