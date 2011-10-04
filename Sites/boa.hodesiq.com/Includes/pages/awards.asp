@@ -33,7 +33,7 @@
 	<li>100% score on the <span class="bd">Human Rights Campaign Corporate Equality Index</span> for the fifth consecutive year.</li>
 	<li>Top 100 Military Friendly Employers by <span class="bd it">G.I. Jobs</span> magazine for the fifth year in a row.</li>
 	<li><span class="bd">National Association for Female Executives&#39;</span> (NAFE) Top Companies list for the second year in a row.</li>
-	<li><span class="bd it">Conceive magazine&#39;s</span> &ldquo;Top 50 Best Companies&rdquo; for fertility and adoption benefits for the fifth year in a row.</li>
+	<li><span class="bd it">Conceive</span> magazine&#39;s &ldquo;Top 50 Best Companies&rdquo; for fertility and adoption benefits for the fifth year in a row.</li>
 	<li>Honored at the first annual Carrick-on-Shannon Nigerian Festival Day in Ireland for its contribution as a diverse and inclusive employer.</li>
 </ul>
 
