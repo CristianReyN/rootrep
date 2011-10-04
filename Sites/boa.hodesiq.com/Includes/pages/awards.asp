@@ -30,7 +30,7 @@
 
 <H2 class="p" style="margin: 12px 0px 6px 0px; padding: 0px;"><span class="bd">2010 Recognition:</span></H2>
 <ul>
-	<li>100% score on the <span class="bd it">Human Rights Campaign Corporate Equality Index</span> for the fifth consecutive year.</li>
+	<li>100% score on the <span class="bd">Human Rights Campaign Corporate Equality Index</span> for the fifth consecutive year.</li>
 	<li>Top 100 Military Friendly Employers by <span class="bd it">G.I. Jobs</span> magazine for the fifth year in a row.</li>
 	<li><span class="bd">National Association for Female Executives&#39;</span> (NAFE) Top Companies list for the second year in a row.</li>
 	<li><span class="bd">Conceive magazine&#39;s</span> &ldquo;Top 50 Best Companies&rdquo; for fertility and adoption benefits for the fifth year in a row.</li>
