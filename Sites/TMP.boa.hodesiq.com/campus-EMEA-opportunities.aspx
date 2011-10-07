@@ -37,7 +37,7 @@
 
                         <h3 class="pad-top">MBA Programmes</h3>
                         <p>Leverage the power of your MBA or advanced degree into real career momentum with instructor-led and web-based education, on-the-job training and networking. This is where you combine your education and experience with our incredible range of opportunities—and the sky’s the limit.</p> 
-                         <p class="learnmore-button"><a href="campus-EMEA-associate-and-phd-programs.aspx" title="Learn more about our associate and Ph.D. programmes">Learn more <span class="hiddencontent">about our associate and Ph.D. programmes</span></a></p>
+                         <!--<p class="learnmore-button"><a href="campus-EMEA-associate-and-phd-programs.aspx" title="Learn more about our associate and Ph.D. programmes">Learn more <span class="hiddencontent">about our associate and Ph.D. programmes</span></a></p>-->
 
                         
                         <h3>Quantitative Analytics Programme (Ph.D.)</h3>
