@@ -34,15 +34,6 @@ End If
 <h3 class="bacs">Why we are on the leading edge.</h3>
 <p class="bac">As an industry leader with a powerful commitment to the merchant business, Bank&nbsp;of&nbsp;America Merchant Services delivers a comprehensive suite of innovative payment solutions to merchants of all sizes. We have industry-leading products, technology solutions, an expansive geographic footprint, 380,000 merchant relationships and 1,500 full-time associates.</p>
 
-<p class="bac nobr">Bank&nbsp;of&nbsp;America Merchant Services careers include:</p>
-<ul>
-	<li>Merchant Sales Specialist</li>
-	<li>Merchant Telesales Specialist</li>
-	<li>Strategic Account Executive</li>
-	<li>Sales Central Specialist</li>
-	<li>Retention Specialist</li>
-</ul>
-
 <p class="bac nobr">In addition, Bank&nbsp;of&nbsp;America Merchant Services offers a full suite of benefits, including:</p>
 <ul>
 	<li>Medical</li>
@@ -50,6 +41,7 @@ End If
 	<li>Vision</li>
 	<li>401(k) Plan</li>
 	<li>Tuition Reimbursement</li>
+	<li>Paid vacation and sick time off</li>
 </ul>
 
 <p class="bac">Bank&nbsp;of&nbsp;America Merchant Services is an Equal Opportunity Employer.</p>
