@@ -128,12 +128,7 @@ public class AreaofTalent
 		catch (Exception ex)
 		{
 			throw ex;
-		}
-
-            finally
-                {
-                con.Close();
-                }
+		}           
 
 	}
 
@@ -156,11 +151,7 @@ public class AreaofTalent
 		{
 			throw ex;
 		}
-
-            finally
-                {
-                con.Close();
-                }
+           
 
 	}
 	public OleDbDataReader TalentwiseJobfamilyDR(string TalentVal)
@@ -183,12 +174,7 @@ public class AreaofTalent
 		catch (Exception ex)
 		{
 			throw ex;
-		}
-
-            finally
-                {
-                con.Close();
-                }
+		}           
 
 	}
 
@@ -209,11 +195,6 @@ public class AreaofTalent
             catch (Exception ex)
                 {
                 throw ex;
-                }
-
-            finally
-                {
-                con.Close();
                 }
 		return rdr;
 	}

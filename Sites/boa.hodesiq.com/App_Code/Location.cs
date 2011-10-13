@@ -141,11 +141,7 @@ public class Location
         {
             throw ex;
         }
-
-        finally
-            {
-            con.Close();
-            }
+       
     }
 	public OleDbDataReader StateDR()
 	{
@@ -166,11 +162,7 @@ public class Location
 		{
 			throw ex;
 		}
-
-            finally
-                {
-                con.Close();
-                }
+         
 	}
 	public OleDbDataReader StatewiseCityDR(int StateVal)
 	{
@@ -190,11 +182,6 @@ public class Location
 		{
 			throw ex;
 		}
-
-            finally
-                {
-                con.Close();
-                }
-
+          
 	}
 }
