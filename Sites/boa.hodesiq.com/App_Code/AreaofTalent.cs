@@ -129,6 +129,12 @@ public class AreaofTalent
 		{
 			throw ex;
 		}
+
+            finally
+                {
+                con.Close();
+                }
+
 	}
 
 	public OleDbDataReader JobfamilyDR()
@@ -150,6 +156,12 @@ public class AreaofTalent
 		{
 			throw ex;
 		}
+
+            finally
+                {
+                con.Close();
+                }
+
 	}
 	public OleDbDataReader TalentwiseJobfamilyDR(string TalentVal)
 	{
@@ -172,6 +184,12 @@ public class AreaofTalent
 		{
 			throw ex;
 		}
+
+            finally
+                {
+                con.Close();
+                }
+
 	}
 
 	public OleDbDataReader JobAreasList()
@@ -183,7 +201,20 @@ public class AreaofTalent
 		cmd.Connection = con;
 		cmd.CommandType = CommandType.StoredProcedure;
 		cmd.CommandText = "p_SelectJobAreasList";
-		rdr = cmd.ExecuteReader(CommandBehavior.CloseConnection);
+            try
+            {
+                rdr = cmd.ExecuteReader(CommandBehavior.CloseConnection);
+             }
+
+            catch (Exception ex)
+                {
+                throw ex;
+                }
+
+            finally
+                {
+                con.Close();
+                }
 		return rdr;
 	}
 }

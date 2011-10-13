@@ -179,6 +179,11 @@ public partial class uc_JobSearch : System.Web.UI.UserControl
             throw ex;
         }
 
+        finally
+            {
+            con.Close();
+            }
+
         ddlJobFamily.DataTextField = "Family";
         ddlJobFamily.DataValueField = "FamilyID";
         ddlJobFamily.DataSource = rdr;

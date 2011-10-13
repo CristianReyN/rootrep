@@ -421,6 +421,12 @@ public class Jobs
 		{
 			throw ex;
 		}
+
+      
+            finally
+                {
+                con.Close();
+                }
 	}
 
 	public OleDbDataReader ShiftDR()
@@ -442,6 +448,10 @@ public class Jobs
 		{
 			throw ex;
 		}
+            finally
+                {
+                con.Close();
+                }
 	}
 
 	public OleDbDataReader TypeDR()
@@ -463,6 +473,11 @@ public class Jobs
 		{
 			throw ex;
 		}
+
+            finally
+                {
+                con.Close();
+                }
 	}
 
 	public OleDbDataReader LanguageDR()
@@ -484,6 +499,11 @@ public class Jobs
 		{
 			throw ex;
 		}
+
+            finally
+                {
+                con.Close();
+                }
 	}
 
     public ListDictionary SearchJobs_ListDictionary(int aot, string Jobfamily, int stateid, int cityid, string keywords, int PageNumber, int RowPerPage, string SortExp, string SortOrder)
@@ -654,6 +674,11 @@ public class Jobs
         {
             throw ex;
         }
+
+        finally
+            {
+            con.Close();
+            }
     }
 
 }
