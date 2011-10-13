@@ -809,12 +809,7 @@ public partial class JobSearch : System.Web.UI.Page
         catch (Exception ex)
         {
             throw ex;
-        }
-
-        finally
-            {
-            con.Close();
-            }
+        }      
 
         ddlJobFamily.DataTextField = "Family";
         ddlJobFamily.DataValueField = "FamilyID";
