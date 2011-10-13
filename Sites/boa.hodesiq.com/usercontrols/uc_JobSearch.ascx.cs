@@ -177,12 +177,7 @@ public partial class uc_JobSearch : System.Web.UI.UserControl
         catch (Exception ex)
         {
             throw ex;
-        }
-
-        finally
-            {
-            con.Close();
-            }
+        }      
 
         ddlJobFamily.DataTextField = "Family";
         ddlJobFamily.DataValueField = "FamilyID";
