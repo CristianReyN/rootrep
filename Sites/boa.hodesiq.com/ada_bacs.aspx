@@ -19,7 +19,7 @@
                 <br />
                 <h2> Avtar Monga<br />
                     <br />
-                    Managing Director, BA Continuum India</h2>
+                    Managing Director, Global Delivery Center of Expertise (GDCE)</h2>
                 <p> BA Continuum India Pvt. Ltd. (BACI) and BA Continuum Private Limited (BACPL) are non-bank subsidiaries of Bank of America. While referring to BA Continuum, we are referring to both organizations.</p>
                 <p> BA Continuum provides Business Processing Solutions, Knowledge Services and Information
                     Technology Solutions exclusively for the Consumer and Small Business Banking, Global

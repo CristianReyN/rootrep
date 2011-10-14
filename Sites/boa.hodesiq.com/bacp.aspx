@@ -17,7 +17,7 @@
                 <br />
                 <h2> Avtar Monga<br />
                     <br />
-                    President, BA Continuum Philippines</h2>
+                    Managing Director, Global Delivery Center of Expertise (GDCE)</h2>
                     <h2>About Us</h2>
                 <p> BA Continuum Philippines, Inc. is a non-bank subsidiary of Bank of America and a part of the Global Delivery Centre of Expertise (GDCE).  BA Continuum Philippines provides business processes, business support functions and IT enabled services. This includes back-office operations and transactions, customer support and service functions, technology support and services, general human resource functions, business planning and general financial services. </p>
                 <p> At BA Continuum Philippines, associates are part of a diverse, global banking environment with best-in-class people, processes and practices. Associates belong to a globally admired brand, which is one of the largest financial institutions in the world. </p>

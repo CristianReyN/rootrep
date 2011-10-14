@@ -25,19 +25,6 @@
 									</div><!--.profile-article-inside -->
 								</div><!--.profile-article -->
 								
-								
-								<div class="profile-article">
-									<div class="profile-article-inside">
-										    <img src="images/campus/icon-GabrielNG.jpg" width="74" height="107" alt="Gabriel" />
-											<h2>Gabriel</h2>
-											<p class="progtitles">Global Investment Banking Analyst Program</p>
-											<p>I am an analyst in the Mergers and Acquisitions Group in Hong Kong.</p>
-											<p class="profile-link"><a href="campus-profiles-Internship-Gabriel.aspx" title="View Gabriel's profile">View <span class="hiddencontent">Gabriel's</span> Profile</a></p>
-										    <img src="images/campus/ico-doucment.jpg" class="video-text-icon" width="33" height="33" alt="document icon" />								
-										
-									</div><!--.profile-article-inside -->
-								</div><!--.profile-article -->
-								
 								<div class="profile-article">
 									<div class="profile-article-inside">
 										    

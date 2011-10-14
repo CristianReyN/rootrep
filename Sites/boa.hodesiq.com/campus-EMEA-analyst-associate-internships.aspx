@@ -44,7 +44,7 @@
 <!--<li><a href="campusrecruiting/emeais-global-corporate-investment-banking-summer-associate-programme.asp">Global Corporate &amp; Investment Banking Summer Associate Programme</a></li>-->
 <li><a href="campusrecruiting/emeais-global-markets-sales-trading-summer-associate-programme.asp">Global Markets Summer Associate Programme</a></li>
 <li><a href="campusrecruiting/emeais-global-markets-quantitative-analytics-associate-fixed-term-placement-5-months.asp">Global Markets Quantitative Analytics Associate Fixed Term Placement (5 months)</a></li>
-<li><a href="campusrecruiting/emeais-global-rates-currencies-algorithmic-trading-fixed-term-placement.asp">Global Rates and Currencies Algorithmic Trading Fixed Term Placement</a></li>
+<li><a href="campusrecruiting/emeais-global-rates-currencies-algorithmic-trading-fixed-term-placement.asp">Global Rates and Currencies Algorithmic Trading Associate Fixed Term Placement</a></li>
 <li><a href="campusrecruiting/emeais-global-research-summer-associate-programme.asp">Global Research Summer Associate Programme</a></li>
 </ul>
 
