@@ -9,6 +9,9 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
 <head id="myhead6" runat="server">
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="-1" />
+    <meta http-equiv="Cache-control" content="no-store" />
     <meta name="Description" content="" runat="server" id="metadescription" />
     <meta name="keywords" content="" runat="server" id="metakeywords" />
     <link rel="stylesheet" href="includes/DotNetStyles.css" type="text/css">
