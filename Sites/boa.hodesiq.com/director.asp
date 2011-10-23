@@ -1,6 +1,6 @@
 <%@ Language=VBScript %>
-<%option explicit%>
-<%
+<%'option explicit%>
+<!-- #include file="Includes/whitelist.asp" --><%
 dim stitle,surl,countryid
 if request.QueryString("m")=1 then
 	stitle="Bank of America | Careers | Manage your Careers Profile Account"
@@ -9,6 +9,9 @@ else
 	stitle="Bank of America | Careers | Job Application"
 	surl="applyrd.aspx?" & Request.QueryString("url").item
 end if
+	no_after_chars = Array("<", ">", "'", """")
+	surl = ClearKeywords(surl)
+	surl = Server.HtmlEncode(surl)
 
 countryid = request.QueryString("countryid")
 

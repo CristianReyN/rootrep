@@ -1,5 +1,5 @@
 <%
-	Dim whitelist_chars, whitelist_pattern, no_after_chars, chars_to_replace
+	Dim whitelist_chars, whitelist_char, whitelist_pattern, no_after_chars, chars_to_replace
 	
 	whitelist_chars = Array( "_", "-", ".", ",", ":", ";", "?", "!", "~", "`", "@", "$", "%", "^", "*", "(", ")", "{", "}", "[", "]", "/", "\", "|" )
 	whitelist_pattern = ""

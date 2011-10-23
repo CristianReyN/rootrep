@@ -4,7 +4,7 @@
 		<li<%If mpage = "overview" Then %><%If spage = "" Then %> class="home" style="padding-bottom: 5px;"<%Else%><%End if %><%End if %>>
 <div><a href="../ada/overview.asp" title="Overview" class="g" onfocus="this.className='g-over';" onblur="this.className='g';">Overview</a></div>
 		</li>
-		<li id="jsearchli" style="<%If mpage = "jobsearch" Or mpage = "locations" Then %><%If spage = "" Or (spage = "united_states" And tpage = "diversity_video") Then %>background: #eaf1f7;<%Else%><%End if %><%End if %>padding-bottom:0px;">
+		<li id="jsearchli"<%If mpage = "jobsearch" Or mpage = "locations" Then %><%If spage = "" Or (spage = "united_states" And tpage = "diversity_video") Then %> class="home" style="padding-bottom:5px;"<%Else%> style="padding-bottom:5px;"<%End if %><%End if %>>
 <div<%If mpage = "jobsearch" Then%> style="padding-right: 0px;"<%End If%>><a href="../jobsearch.aspx" title="Job Search" class="g" onfocus="this.className='g-over';" onblur="this.className='g';">Job Search</a>
 <%
 	If mpage = "jobsearch" Then
