@@ -38,6 +38,9 @@ if mpage = "camp" Then middle_content_padding = "padding: 0px 24px 0px 0px;"
 <meta http-equiv="content-type" content="text/html; charset=iso-8859-1">
 <meta name="Description" content="<%=Metatag%>">
 <%If Keywords <> "" Then %><meta name="Keywords" content="<%=Keywords%>"><%End If %>
+<meta http-equiv="Pragma" content="no-cache" />
+<meta http-equiv="Expires" content="-1" />
+<meta http-equiv="Cache-control" content="no-store" />
 <title><%=title %></title>
 <link rel="stylesheet" href="../includes/styles.css" type="text/css">
 <!--[if IE]><link rel="stylesheet" href="../includes/ie.css" type="text/css"><![endif]-->
