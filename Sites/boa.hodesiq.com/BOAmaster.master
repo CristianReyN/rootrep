@@ -39,7 +39,7 @@ function namewindow(){window.name="boamain";}
     examineFontSize("body");
 //-->
 </script>
-     <asp:Literal ID="LitCreateSafeButton" runat="server"></asp:Literal>
+     
 
 <table width="750" cellpadding="0" cellspacing="0" border="0" summary="">
 <tr>
@@ -84,7 +84,7 @@ else
 										<td width="100%" style="padding: 0px;">
 <input type="text" maxlength="75" class="searchbox" style="width: 100%;" id="question_box" name="question_box" value="" alt="Question or phrase to search." title="Get answers fast. Type in a question or phrase." /></td>
 										<td width="10"><img src="images/clear.gif" width="10" height="0" alt="" border="0" /></td>										<td width="60" valign="top" nowrap>
-                                                       
+                                                       <asp:Literal ID="LitCreateSafeButton" runat="server"></asp:Literal>
 <noscript><input name="Search" alt="Search" value="Search" title="Search" type="Submit"  class="btn"/></noscript>
 										</td>
 										<td width="4"><img src="images/clear.gif" width="4" height="0" alt="" border="0" /></td>
