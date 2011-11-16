@@ -61,7 +61,7 @@ else
 }
 %>	
 				<td><a href="http://www.bankofamerica.com/help/index.cfm?template=sitemap.cfm" title="Go to site map."><img src="images/clear.gif" width="1" height="69" alt="Go to site map." border="0" /></a></td></tr></table></td>
-				<td width="232"><a href="#skipnav" title="Skip global navigational links."><img src="images/clear.gif" width="1" height="69" alt="Skip global navigational links." border="0" /></a></td>
+				<td width="232"><a href="#skipnav" title="Skip global navigational links."></a><img src="images/clear.gif" width="1" height="69" alt="Skip global navigational links." border="0" /></td>
 				<td width="256" valign="bottom">
 					<table width="100%" border="0" cellspacing="0" cellpadding="0" summary="">
 						<tr>

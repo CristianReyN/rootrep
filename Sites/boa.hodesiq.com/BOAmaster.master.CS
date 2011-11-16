@@ -108,14 +108,14 @@ public partial class BOAmaster : System.Web.UI.MasterPage
         string strScript = "";
                
         strScript = "<!-- BEGIN COREMETRICS SUPPORT -->" + System.Environment.NewLine;
-        strScript += "<script language='javascript1.1' src='http://www.bankofamerica.com/coremetrics/v40/eluminate.js'  type='text/javascript'></script>" + System.Environment.NewLine;
-        strScript += "<script language='javascript1.1' src='http://www.bankofamerica.com/coremetrics/cmdatatagutils.js' type='text/javascript'></script>" + System.Environment.NewLine;
+        strScript += "<script language='javascript1.1' src='https://www.bankofamerica.com/pa/global-assets/external/coremetrics/hp/eluminate.js'  type='text/javascript'></script>" + System.Environment.NewLine;
+        strScript += "<script language='javascript1.1' src='https://www.bankofamerica.com/pa/global-assets/external/coremetrics/hp/cmdatatagutils.js' type='text/javascript'></script>" + System.Environment.NewLine;
         strScript += "<script language='javascript1.1' type='text/javascript'>" + System.Environment.NewLine;
         strScript += "//<!—" + System.Environment.NewLine;
         if (ConfigurationManager.AppSettings["StrAppServerName"] == "PRO" && intPage == 1) 
            {strScript += "cmSetProduction();" + System.Environment.NewLine;}
-        strScript += "cmCreatePageviewTag('" +strPageName + "', null, null, 'career:jobsearch');" + System.Environment.NewLine; //, false, false, null, false, false, null, null, null
-        strScript += "//-->" + System.Environment.NewLine;
+        //strScript += "cmCreatePageviewTag('" +strPageName + "', null, null, 'career:jobsearch');" + System.Environment.NewLine; //, false, false, null, false, false, null, null, null
+        //strScript += "//-->" + System.Environment.NewLine;
         strScript += "</script>" + System.Environment.NewLine;
         strScript += "<!-- END COREMETRICS -->" + System.Environment.NewLine;
 
