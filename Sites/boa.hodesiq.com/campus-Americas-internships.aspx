@@ -8,13 +8,13 @@
                 <div id="article"> 
                   <h1>Internships</h1>
 				  
-				   <p class="back-to-previous"><a href="campus-Americas-explore-careers.aspx">Back to previous page</a></p>
+				   <p class="back-to-previous"><a href="campus-Americas-explore-careers.aspx" name="Campus_Americas_Internships_Previous_Page">Back to previous page</a></p>
 				   
                   <p>An internship doesn't have to mean starting at the bottom. If you’re ready to learn about the financial services industry from the perspective of the world’s leading financial institution, this is a great way to start. Through an internship role with us, you’ll find yourself tackling real business challenges that make a real impact on our company. You’ll grow your skills and build your network in a dynamic environment designed to support your long-term career objectives.</p>
                   <ul>
-                    <li><a href="campus-Americas-analyst-internships.aspx">Analyst 
+                    <li><a href="campus-Americas-analyst-internships.aspx" name="Campus_Americas_Internships_Analyst_Internships">Analyst 
                       internships</a></li>
-                    <li><a href="campus-Americas-associate-internships.aspx">Associate 
+                    <li><a href="campus-Americas-associate-internships.aspx" name="Campus_Americas_Internships_Associate_PHD_Internships">Associate 
                       &amp; Ph.D. internships</a></li>
                   </ul>
                   <br />
@@ -82,18 +82,18 @@
                     Please discuss questions with your recruiter.</p>
                 </div>
                <div id="aside"> 
-				<a href="campus-find-your-fit.aspx"><img src="images/campus/btn-findyourfit.jpg" width="179" height="76" alt="Find Your fit: Come as you are. We've got a career to fit." /></a> 
-                  <a href="CampusEvents.aspx?region=1"><img src="images/campus/btn-campus-events-new.jpg" width="179" height="76" alt="Campus Events: Let's meet soon." /></a> 
-                  <a href="campus-Americas-meet-our-people.aspx"><img src="images/campus/btn-our-people-new.jpg" width="179" height="76" alt="Our People: See and hear who's making a difference and how." /></a> 
+				<a href="campus-find-your-fit.aspx" name="Campus_Americas_Internships_Find_Your_Fit"><img src="images/campus/btn-findyourfit.jpg" width="179" height="76" alt="Find Your fit: Come as you are. We've got a career to fit." /></a> 
+                  <a href="CampusEvents.aspx?region=1" name="Campus_Americas_Internships_Campus_Events_Lets_Meet_Soon"><img src="images/campus/btn-campus-events-new.jpg" width="179" height="76" alt="Campus Events: Let's meet soon." /></a> 
+                  <a href="campus-Americas-meet-our-people.aspx" name="Campus_Americas_Internships_Meet_Our_People"><img src="images/campus/btn-our-people-new.jpg" width="179" height="76" alt="Our People: See and hear who's making a difference and how." /></a> 
                   
 				  <div class="related-links">
 					  <h2>Related Links:</h2>
 					  <ul>
-						<li><a href="campus-Americas-analyst-programs.aspx">Americas analyst programs  &raquo;</a></li>
-                    <li><a href="campus-Americas-associate-phd-programs.aspx">Americas associate &amp; Ph.D. programs  &raquo;</a></li>
+						<li><a href="campus-Americas-analyst-programs.aspx" name="Campus_Americas_Internships_Americas_Analyst_Programs">Americas analyst programs  &raquo;</a></li>
+                    <li><a href="campus-Americas-associate-phd-programs.aspx" name="Campus_Americas_Internships_Americas_PHD_Programs">Americas associate &amp; Ph.D. programs  &raquo;</a></li>
 					  </ul>
 				  </div>
-				  <a href="http://twitter.com/#!/BofA_Careers" target="_blank"><img src="images/campus/btn-connect-twitter.jpg" width="179" height="64" alt="Stay Connected to Careers on Twitter" /></a> 
+				  <a href="http://twitter.com/#!/BofA_Careers" target="_blank" name="Campus_Americas_Internships_Twitter"><img src="images/campus/btn-connect-twitter.jpg" width="179" height="64" alt="Stay Connected to Careers on Twitter" /></a> 
 				  
 				 <script type="text/javascript" src="http://utility.bankofamerica.com/uet/social_share2.js"></script> 
 				<div class="rnw">    
@@ -118,6 +118,12 @@
               </div>
                  
   <script src="Includes/_google.js" type="text/javascript"></script>               
+
+  <script language='javascript1.1' type='text/javascript'>
+      //<!—
+      cmCreatePageviewTag('career:Content:Campus_Recruiting;campus-americas-internships', null, null, 'career:Content:Campus_Recruiting', false, false, null, false, false, null, null, null, null, null, null, null, null, null, null, null, null);
+      //-->
+</script>
 
 </asp:Content>
 
