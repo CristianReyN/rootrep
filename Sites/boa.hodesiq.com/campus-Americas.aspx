@@ -9,9 +9,9 @@
                 <p class="link-header">Use the buttons below to further explore our company and opportunities.</p>
                 
                 <div id="icon-home-buttons">
-				<a href="campus-Americas-explore-careers.aspx" title="Explore a world of career opportunities"><img src="images/campus/btn-search-jobs.jpg" width="46" height="47" alt="Explore a world of career opportunities" /></a>
-                <a href="campus-video-library.aspx" title="View our video library"><img src="images/campus/btn-meet-people.jpg" width="46" height="46" alt="View our video library" /></a>
-                <a href="http://twitter.com/#!/BofA_Careers" target="_blank" title="Twitter. Link opens a new window"><img src="images/campus/btn-twitter.jpg" width="46" height="46" alt="Twitter. Link opens a new window" /></a>				</div>
+				<a href="campus-Americas-explore-careers.aspx" title="Explore a world of career opportunities" name="Campus_Americas_Explore_Careers"><img src="images/campus/btn-search-jobs.jpg" width="46" height="47" alt="Explore a world of career opportunities" /></a>
+                <a href="campus-video-library.aspx" title="View our video library" name="Campus_Americas_View_Our_Video_Library"><img src="images/campus/btn-meet-people.jpg" width="46" height="46" alt="View our video library" /></a>
+                <a href="http://twitter.com/#!/BofA_Careers" target="_blank" title="Twitter. Link opens a new window" name="Campus_Americas_Twitter"><img src="images/campus/btn-twitter.jpg" width="46" height="46" alt="Twitter. Link opens a new window" /></a>				</div>
  
  				<p class="footnote-content">Set opportunity in motion.</p>
                           
@@ -27,17 +27,23 @@
 					<p>Your region:</p>
                     <ul>
                     <li><b>Americas</b></li>
-                    <li><a href="campus-EMEA.aspx">Europe, Middle East and Africa</a></li>
-                    <li><a href="campus-AsiaPac.aspx">Asia Pacific</a></li>
+                    <li><a href="campus-EMEA.aspx" name="Campus_Americas_EMEA">Europe, Middle East and Africa</a></li>
+                    <li><a href="campus-AsiaPac.aspx" name="Campus_Americas_AsiaPac">Asia Pacific</a></li>
                     </ul>
 
                     
-                    <a href="campus-find-your-fit.aspx"><img src="images/campus/btn-findyourfit.png" width="179" height="76" alt="Find Your Fit: Come as you are. We've got a career to fit." /></a>
-					<a href="CampusEvents.aspx?region=1"><img src="images/campus/btn-campus-events.png" width="179" height="76" alt="Campus Events: Let's meet soon." /></a> 
-    				<a href="campus-Americas-meet-our-people.aspx"><img src="images/campus/btn-our-people.png" width="179" height="76" alt="Our People: See and hear who's making a difference and how." /></a>                    </div>
+                    <a href="campus-find-your-fit.aspx" name="Campus_Americas_Find_Your_Fit"><img src="images/campus/btn-findyourfit.png" width="179" height="76" alt="Find Your Fit: Come as you are. We've got a career to fit." /></a>
+					<a href="CampusEvents.aspx?region=1" name="Campus_Americas_Campus_Events"><img src="images/campus/btn-campus-events.png" width="179" height="76" alt="Campus Events: Let's meet soon." /></a> 
+    				<a href="campus-Americas-meet-our-people.aspx" name="Campus_Americas_Meet_Our_People"><img src="images/campus/btn-our-people.png" width="179" height="76" alt="Our People: See and hear who's making a difference and how." /></a>                    </div>
                  </div>
 
                  
 <script src="Includes/_google.js" type="text/javascript"></script>
+
+<script language='javascript1.1' type='text/javascript'>
+    //<!—
+    cmCreatePageviewTag('career:Content:Campus_Recruiting;campus-americas', null, null, 'career:Content:Campus_Recruiting', false, false, null, false, false, null, null, null, null, null, null, null, null, null, null, null, null);
+    //-->
+</script>
 </asp:Content>
 
