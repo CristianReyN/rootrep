@@ -15,25 +15,25 @@
 			   <p>Our unflagging commitment to these principles has made us not only one of the world's most admired companies, but also a place you and your family can be proud to be part of. At Bank of America, your son or daughter will discover a myriad of opportunities to grow and develop&ndash;in all areas of life. We can offer:</p>
 
 <ul>
-<li>Built-in networks of support in our diverse range of <a href="learnmore/diversity.asp" title="community groups">community groups</a>.</li> 
+<li>Built-in networks of support in our diverse range of <a href="learnmore/diversity.asp" title="community groups" name="Campus_Americas_Explore_Careers_Lear_More_About_Community_Groups">community groups</a>.</li> 
 
-<li>Strong compensation for your child's skills and talents, and support for his or her life outside of work, through our outstanding <a href="learnmore/benefitsadv.asp" title="benefits program">benefits program</a>.</li> 
+<li>Strong compensation for your child's skills and talents, and support for his or her life outside of work, through our outstanding <a href="learnmore/benefitsadv.asp" title="benefits program" name="Campus_Americas_Explore_Careers_Learn_More_Benefits_Program">benefits program</a>.</li> 
 
-<li>Professional and personal development available through access to <a href="staffingevents/staffingprocess.asp"title="training and career advancement">training and career advancement</a>.</li>  
+<li>Professional and personal development available through access to <a href="staffingevents/staffingprocess.asp" title="training and career advancement" name="Campus_Americas_Explore_Careers_Training_Career_Advancement">training and career advancement</a>.</li>  
 
-<li>A sense of involvement in and commitment to the communities we serve and our dedication to <a href="http://www.bankofamerica.com/foundation/" target="_blank" title="philanthropy">philanthropy</a>.</li> 
+<li>A sense of involvement in and commitment to the communities we serve and our dedication to <a href="http://www.bankofamerica.com/foundation/" target="_blank" title="philanthropy" name="Campus_Americas_Explore_Careers_Philanthropy">philanthropy</a>.</li> 
 
 </ul>
                 </div>
                 <div id="aside"> 
-                  <a href="campusrecruiting/career_fit_tool.asp"><img src="images/campus/btn-careerfinder.jpg" width="179" height="66" alt="Career Finder: Come as you are. We've got a career to fit." /></a> 
-                  <a href="CampusEvents.aspx?region=1"><img src="images/campus/btn-campus-events.jpg" width="179" height="66" alt="Campus Events: Let's meet soon." /></a> 
-                  <a href="campus-Americas-meet-our-people.aspx"><img src="images/campus/btn-our-people.jpg" width="179" height="66" alt="Our People: See and hear who's making a difference and how." /></a> 
+                  <a href="campusrecruiting/career_fit_tool.asp" name="Campus_Americas_Explore_Careers_Career_Finder_Come_As_You_Are"><img src="images/campus/btn-careerfinder.jpg" width="179" height="66" alt="Career Finder: Come as you are. We've got a career to fit." /></a> 
+                  <a href="CampusEvents.aspx?region=1" name="Campus_Americas_Explore_Careers_Campus_Events"><img src="images/campus/btn-campus-events.jpg" width="179" height="66" alt="Campus Events: Let's meet soon." /></a> 
+                  <a href="campus-Americas-meet-our-people.aspx" name="Campus_Americas_Explore_Careers_Meet_Our_People"><img src="images/campus/btn-our-people.jpg" width="179" height="66" alt="Our People: See and hear who's making a difference and how." /></a> 
                   <h2>Related Links:</h2>
                   <ul>
-                    <li><a href="campus-Americas-diversity-and-inclusion.aspx">Diversity and inclusion</a></li>
-                    <li><a href="campus-Americas-benefits-and-rewards.aspx">Benefits and rewards</a></li>
-                    <li><a href="campus-Americas-corporate-social-responsibility.aspx">Corporate social responsibility</a></li>
+                    <li><a href="campus-Americas-diversity-and-inclusion.aspx" name="Campus_Americas_Explore_Careers_Diversity_Inclusion">Diversity and inclusion</a></li>
+                    <li><a href="campus-Americas-benefits-and-rewards.aspx" name="Campus_Americas_Explore_Careers_Benefits_Rewards">Benefits and rewards</a></li>
+                    <li><a href="campus-Americas-corporate-social-responsibility.aspx" name="Campus_Americas_Explore_Careers_Corporate_Social_Responsibility">Corporate social responsibility</a></li>
                   </ul>
                 </div>
                 <div id="red-footer"> 
@@ -42,5 +42,13 @@
               </div>
 
 <script src="Includes/_google.js" type="text/javascript"></script>
+
+<script language='javascript1.1' type='text/javascript'>
+    //<!—
+    cmCreatePageviewTag('career:Content:Campus_Recruiting;campus-americas-information-for-parents', null, null, 'career:Content:Campus_Recruiting', false, false, null, false, false, null, null, null, null, null, null, null, null, null, null, null, null);
+    //-->
+</script>
+
+
 </asp:Content>
 
