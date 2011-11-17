@@ -22,7 +22,7 @@
                          
                          <p>When you join us as a college or university graduate, you'll learn from the best and brightest minds in the industry. You'll participate in a comprehensive training program that combines instructor-led and web-based classes with on-the-job training and networking. We'll trust you with important work, giving you the opportunity to create real impact right out of the gate. </p>
                        
-                         <p class="learnmore-button"><a href="campus-Americas-analyst-programs.aspx" title="Learn more about our analyst programs">Learn more <span class="hiddencontent">about our analyst programs</span></a></p>
+                         <p class="learnmore-button"><a href="campus-Americas-analyst-programs.aspx" title="Learn more about our analyst programs" name="Campus_Americas_Explore_Careers_Learn_More">Learn more <span class="hiddencontent">about our analyst programs</span></a></p>
     
                          </div><!--.programs-content-->
                          
@@ -32,12 +32,12 @@
 
                         <h3 class="pad-top">Associate Programs</h3>
                         <p>Our range of associate programs allows you to build on your MBA or advanced degree, transforming your knowledge and experience into real-world opportunities.</p> 
-                         <p class="learnmore-button"><a href="campus-Americas-associate-phd-programs.aspx" title="Learn more about our associate and Ph.D. programs">Learn more <span class="hiddencontent">about our associate and Ph.D. programs</span></a></p>
+                         <p class="learnmore-button"><a href="campus-Americas-associate-phd-programs.aspx" title="Learn more about our associate and Ph.D. programs" name="Campus_Americas_Explore_Careers_Learn_More_PHD_Programs">Learn more <span class="hiddencontent">about our associate and Ph.D. programs</span></a></p>
                         
                         <h3>Ph.D. Programs</h3>
                         <p>Pursuing a doctoral degree with a quantitative focus? Then this is the opportunity for you. Our Ph.D. programs enable doctoral students with high-level technical skills to put their intellect and ambition to work in a fast-paced, exciting environment that will challenge and reward a rigorous approach.</p> 
                         
-                        <p class="learnmore-button"><a href="campus-Americas-associate-phd-programs.aspx" title="Learn more about our associate and Ph.D. programs">Learn more <span class="hiddencontent">about our associate and Ph.D. programs</span></a></p>
+                        <p class="learnmore-button"><a href="campus-Americas-associate-phd-programs.aspx" title="Learn more about our associate and Ph.D. programs" name="Campus_Americas_Explore_Careers_Learn_More_Associate_PHD_Programs">Learn more <span class="hiddencontent">about our associate and Ph.D. programs</span></a></p>
 
                          </div><!--.programs-content-->
                          
@@ -47,7 +47,7 @@
 						
 						<p>An internship doesn't have to mean starting at the bottom. If you're ready to learn about the financial services industry from the perspective of the world's leading financial institution, this is a great way to start. Through an internship role with us, you'll find yourself tackling real business challenges that make a real impact on our company. You'll grow your skills and build your network in a dynamic environment designed to support your long-term career objectives. </p> 
 						
-						<p class="learnmore-button"><a href="campus-Americas-internships.aspx" title="Learn more about our internships">Learn more <span class="hiddencontent">about our internships</span></a></p>
+						<p class="learnmore-button"><a href="campus-Americas-internships.aspx" title="Learn more about our internships" name="Campus_Americas_Explore_Careers_Learn_More_Internships">Learn more <span class="hiddencontent">about our internships</span></a></p>
 				
     
                          </div><!--.programs-content-->
@@ -55,11 +55,11 @@
                      </div> <!--#programs -->
                 </div>
                 <div id="aside"> 
-					<a href="campus-find-your-fit.aspx"><img src="images/campus/btn-findyourfit.jpg" width="179" height="76" alt="Find Your fit: Come as you are. We've got a career to fit." /></a> 
-                  <a href="CampusEvents.aspx?region=1"><img src="images/campus/btn-campus-events-new.jpg" width="179" height="76" alt="Campus Events: Let's meet soon." /></a> 
-                  <a href="campus-Americas-meet-our-people.aspx"><img src="images/campus/btn-our-people-new.jpg" width="179" height="76" alt="Our People: See and hear who's making a difference and how." /></a> 
+					<a href="campus-find-your-fit.aspx" name="Campus_Americas_Explore_Careers_Find_Your_Fit"><img src="images/campus/btn-findyourfit.jpg" width="179" height="76" alt="Find Your fit: Come as you are. We've got a career to fit." /></a> 
+                  <a href="CampusEvents.aspx?region=1" name="Campus_Americas_Explore_Careers_Campus_Events"><img src="images/campus/btn-campus-events-new.jpg" width="179" height="76" alt="Campus Events: Let's meet soon." /></a> 
+                  <a href="campus-Americas-meet-our-people.aspx" name="Campus_Americas_Explore_Careers_Meet_Our_People"><img src="images/campus/btn-our-people-new.jpg" width="179" height="76" alt="Our People: See and hear who's making a difference and how." /></a> 
                   
-				  <a href="http://twitter.com/#!/BofA_Careers" target="_blank" title="Twitter. Link opens a new window"><img src="images/campus/btn-connect-twitter.jpg" width="179" height="76" alt="Stay Connected to Careers on Twitter" /></a> 
+				  <a href="http://twitter.com/#!/BofA_Careers" target="_blank" title="Twitter. Link opens a new window name="Campus_Americas_Explore_Careers_Twitter"><img src="images/campus/btn-connect-twitter.jpg" width="179" height="76" alt="Stay Connected to Careers on Twitter" /></a> 
 				  
 				 <script type="text/javascript" src="http://utility.bankofamerica.com/uet/social_share2.js"></script> 
 				<div class="rnw">    
@@ -87,6 +87,11 @@
 <script src="Includes/libs/jquery/ui/1.8.9/custom.min.js"></script>
 <script src="Includes/_global.js"></script>
 
+<script language='javascript1.1' type='text/javascript'>
+    //<!—
+    cmCreatePageviewTag('career:Content:Campus_Recruiting;campus-americas-explore-careers', null, null, 'career:Content:Campus_Recruiting', false, false, null, false, false, null, null, null, null, null, null, null, null, null, null, null, null);
+    //-->
+</script>
 
 </asp:Content>
 
