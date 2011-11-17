@@ -85,15 +85,15 @@
     
     <div id="aside">
     
-    	<a href="campusrecruiting/career_fit_tool.asp"><img src="images/campus/btn-careerfinder.jpg" width="179" height="66" alt="Career Finder: Come as you are. We've got a career to fit." /></a>
+    	<a href="campusrecruiting/career_fit_tool.asp" name="Campus_Meet_Bhavin_Career_Fit_Tool"><img src="images/campus/btn-careerfinder.jpg" width="179" height="66" alt="Career Finder: Come as you are. We've got a career to fit." /></a>
         
-        <a href="CampusEvents.aspx?region=1"><img src="images/campus/btn-campus-events.jpg" width="179" height="66" alt="Campus Events: Let's meet soon." /></a>
+        <a href="CampusEvents.aspx?region=1" name="Campus_Meet_Bhavin_Career_Campus_Events"><img src="images/campus/btn-campus-events.jpg" width="179" height="66" alt="Campus Events: Let's meet soon." /></a>
         
         <h2>Related Links:</h2>
         <ul>
-        <li><a href="campus-Americas-analyst-profiles.aspx">Back to profile list</a></li>
-      	<li><a href="campus-meet-our-people-profile-Dan.aspx">Next profile</a></li>
-      	<li><a href="campus-meet-our-people-profile-Ashley.aspx">Previous profile</a></li>
+        <li><a href="campus-Americas-analyst-profiles.aspx" name="Campus_Meet_Bhavin_Career_Back_To_Profile">Back to profile list</a></li>
+      	<li><a href="campus-meet-our-people-profile-Dan.aspx" name="Campus_Meet_Bhavin_Career_Next_Profile">Next profile</a></li>
+      	<li><a href="campus-meet-our-people-profile-Ashley.aspx" name="Campus_Meet_Bhavin_Career_Previous_Profile">Previous profile</a></li>
         </ul>
         
     
@@ -106,5 +106,13 @@
 </div>
 
 <script src="Includes/_google.js" type="text/javascript"></script>
+
+<script language='javascript1.1' type='text/javascript'>
+    //<!—
+    cmCreatePageviewTag('career:Content:Campus_Recruiting;campus-meet-our-people-profile-bhavin', null, null, 'career:Content:Campus_Recruiting', false, false, null, false, false, null, null, null, null, null, null, null, null, null, null, null, null);
+    //-->
+</script>
+
+
 </asp:Content>
 
