@@ -53,16 +53,16 @@
       similar fashion, so they are usually the best people to answer your questions 
       and help you genuinely understand the opportunities you may have at Bank 
       of America. </p>
-    <p class="back-top"><a href="#profiles">Back to top</a></p>
+    <p class="back-top"><a href="#profiles" name="Campus_Meet_Ashley_Back_To_Top">Back to top</a></p>
   </div>
   <div id="aside"> 
-    <a href="campusrecruiting/career_fit_tool.asp"><img src="images/campus/btn-careerfinder.jpg" width="179" height="66" alt="Career Finder: Come as you are. We've got a career to fit." /></a> 
-    <a href="CampusEvents.aspx?region=1"><img src="images/campus/btn-campus-events.jpg" width="179" height="66" alt="Campus Events: Let's meet soon." /></a> 
+    <a href="campusrecruiting/career_fit_tool.asp" name="Campus_Meet_Ashley_Career_Fit_Tool"><img src="images/campus/btn-careerfinder.jpg" width="179" height="66" alt="Career Finder: Come as you are. We've got a career to fit." /></a> 
+    <a href="CampusEvents.aspx?region=1" name="Campus_Meet_Ashley_Campus_Events"><img src="images/campus/btn-campus-events.jpg" width="179" height="66" alt="Campus Events: Let's meet soon." /></a> 
     <h2>Related Links:</h2>
     <ul>
-      <li><a href="campus-Americas-analyst-profiles.aspx">Back to profile list</a></li>
-      <li><a href="campus-meet-our-people-profile-Bhavin.aspx">Next profile</a></li>
-      <li><a href="campus-meet-our-people-profile-Alissa.aspx">Previous profile</a></li>
+      <li><a href="campus-Americas-analyst-profiles.aspx" name="Campus_Meet_Ashley_Back_To_Profile_List">Back to profile list</a></li>
+      <li><a href="campus-meet-our-people-profile-Bhavin.aspx" name="Campus_Meet_Ashley_Next_Profile">Next profile</a></li>
+      <li><a href="campus-meet-our-people-profile-Alissa.aspx" name="Campus_Meet_Ashley_Previous_Profile">Previous profile</a></li>
     </ul>
   </div>
   <div id="red-footer"> 
@@ -70,5 +70,11 @@
   </div>
 </div>
 <script src="Includes/_google.js" type="text/javascript"></script>
+<script language='javascript1.1' type='text/javascript'>
+    //<!—
+    cmCreatePageviewTag('career:Content:Campus_Recruiting;campus-meet-our-people-profile-ashley', null, null, 'career:Content:Campus_Recruiting', false, false, null, false, false, null, null, null, null, null, null, null, null, null, null, null, null);
+    //-->
+</script>
+
 </asp:Content>
 
