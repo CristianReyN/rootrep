@@ -5,6 +5,7 @@ using System.Web.UI;
 using System.Web.UI.WebControls;
 using System.Data.OleDb;
 using System.Data;
+using System.Text.RegularExpressions;
 
 public partial class uc_LeftNavigation : System.Web.UI.UserControl
 {
@@ -77,7 +78,7 @@ public partial class uc_LeftNavigation : System.Web.UI.UserControl
             string title = dr["title"].ToString();
 
             string aref = "<a href=" + href + " class=" + CLASSFLYOUT +
-                           @"onfocus=" + ONFOCUSFLYOUT + "onblur=" + ONBLURFLYOUT + " title='" + Utility.StripHTML(title) +
+                           @"onfocus=" + ONFOCUSFLYOUT + "onblur=" + ONBLURFLYOUT + " name='" + MakeLinkName(Utility.StripHTML(title)) + "'" + " title='" + Utility.StripHTML(title) +
                            @"'>" + title + "</a>";
 
             if (CurrentOrder == CurrentPageOrder)
@@ -126,7 +127,7 @@ public partial class uc_LeftNavigation : System.Web.UI.UserControl
                 string title = dr["title"].ToString();
                 string aref = "<a href=" + href + " class=" + CLASS +
                              @"onfocus=" + ONFOCUS +
-                           @" onblur=" + ONBLUR + " title='" + Utility.StripHTML(title) +
+                           @" onblur=" + ONBLUR + " name='" + MakeLinkName(Utility.StripHTML(title)) + "'" + " title='" + Utility.StripHTML(title) +
                            @"'>" + title + " </a>";
 
                 HTML = HTML + "<li>" + InnerDIV + aref + "</div></li>";
@@ -153,7 +154,7 @@ public partial class uc_LeftNavigation : System.Web.UI.UserControl
             string InnerDIV = "<div style=\"padding-left: 15px;\">";
             string title = dr["title"].ToString();
             string aref = "<a href=" + href + " class=" + CLASS +
-                        @"onfocus=" + ONFOCUS + " onblur=" + ONBLUR + " title='" + Utility.StripHTML(title) + "'>" + title +
+                        @"onfocus=" + ONFOCUS + " onblur=" + ONBLUR + " name='" + MakeLinkName(Utility.StripHTML(title)) + "'" + " title='" + Utility.StripHTML(title) + "'>" + title +
                         @"</a>";
 
             if (NextPageOrder == "0" && CurrentOrder == CurrentPageOrder)
@@ -192,7 +193,7 @@ public partial class uc_LeftNavigation : System.Web.UI.UserControl
             string InnerDIV = "<div style=\"padding-left: 20px;\">";
             string title = dr["title"].ToString();
             string aref = "<a href=" + href + " class=" + CLASS +
-                        @"onfocus=" + ONFOCUS + " onblur=" + ONBLUR + " title='" + Utility.StripHTML(title) + "'>" + title +
+                        @"onfocus=" + ONFOCUS + " onblur=" + ONBLUR + " name='" + MakeLinkName(Utility.StripHTML(title)) + "'" + " title='" + Utility.StripHTML(title) + "'>" + title +
                         @"</a>";
 
             if (NextPageOrder == "0" && CurrentOrder == CurrentPageOrder)
@@ -230,7 +231,7 @@ public partial class uc_LeftNavigation : System.Web.UI.UserControl
             string InnerDIV = "<div style=\"padding-left: 40px;\">";
             string title = dr["title"].ToString();
             string aref = "<a href=" + href + " class=" + CLASS +
-              @"onfocus=" + ONFOCUS + " onblur=" + ONBLUR + "title=" + title + ">" + title +
+              @"onfocus=" + ONFOCUS + " onblur=" + ONBLUR + " name='" + MakeLinkName(Utility.StripHTML(title)) + "'" + "title=" + title + ">" + title +
               @"</a>";
 
 
@@ -273,5 +274,19 @@ public partial class uc_LeftNavigation : System.Web.UI.UserControl
         DS = OleDbHelper.ExecuteDataset(constring, "p_SelectBOANavigationOrder", Parameters);
 
         return DS;
+    }
+
+    protected String MakeLinkName(string title)
+    {
+        title = title.Replace("&", "");
+        title = title.Replace(",", "");
+        title = title.Replace(" ", "_");
+        title = title.Replace(@"/", "_");
+        title = title + "_leftnav";
+
+        //title = Regex.Replace(title, @"\s+", "_");
+        //title = Regex.Replace(title, @"&", "");
+        
+        return title;
     }
 }
