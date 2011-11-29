@@ -81,10 +81,7 @@ function DisableClearImage()
 <body id="body" onload="DisableClearImage();startPs(); if(window.loadVideoHost)loadVideoHost(); fixIE();"
     onunload="" style="font-size: 10px;">
 
-    <script language="javascript1.1" src="http://www.bankofamerica.com/coremetrics/v40/eluminate.js" type="text/javascript"></script>
-
-    <script language="javascript1.1" src="http://www.bankofamerica.com/coremetrics/cmdatatagutils.js" type="text/javascript"></script>
-
+   <asp:Literal ID="ltrlCorremetrixScripts" runat="server" Text="" ></asp:Literal>
     <script language="javascript" type="text/javascript">
 //<!--
 	examineFontSize("body");
@@ -346,6 +343,43 @@ create_safebutton("Recherche","javascript: submit_search();",0,0,0,0,"Recherche"
 }
 
     </script>
+
+    <script type="text/javascript">
+
+        //This section set the name property of links on the page with valid coremetrics tag
+        var linkName;
+        var linkText;
+
+        var sPath = window.location.pathname;
+        //var sPage = sPath.substring(sPath.lastIndexOf('\\') + 1);
+        var sPage = sPath.substring(sPath.lastIndexOf('/') + 1);
+
+        sPage = sPage.replace(/-/g, '_');
+        sPage = sPage.replace('.aspx', '');
+
+        for (i = 0; i < document.links.length; i++) {
+
+            linkName = document.links[i].name;
+            if (linkName.indexOf('_leftnav') == -1 && linkName.indexOf('_header') == -1 && linkName.indexOf('_footer') == -1) {
+
+                linkText = document.links[i].innerHTML;
+                linkText = linkText.replace(/\s+/g, "_");
+                linkText = linkText.replace('&', '_');
+                linkText = linkText.replace('amp;', '');
+                linkText = linkText.replace(',', '');
+                linkText = linkText.replace('<SPAN_class=hiddencontent>', '');
+                linkText = linkText.replace('</SPAN>', '');
+                linkText = linkText.replace("'", '');
+                linkText = linkText.replace('&raquo;', '');
+
+                document.links[i].name = sPage + '_' + linkText + '_' + i;
+
+                //alert(document.links[i].name);
+            }
+
+        }
+    
+</script>
 
 </body>
 </html>

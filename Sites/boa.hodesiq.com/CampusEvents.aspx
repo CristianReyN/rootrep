@@ -238,7 +238,11 @@ function MouseDown()
 </script>		    
 		    
 		    
-            
+<script language='javascript1.1' type='text/javascript'>
+    //<!—
+    cmCreatePageviewTag('career:Tool:Campus_Recruiting;campus-events', null, null, 'career:Tool:Campus_Recruiting', false, false, null, false, false, null, null, null, null, null, null, null, null, null, null, null, null);
+    //-->
+</script>            
 		        
    
 </asp:Content>

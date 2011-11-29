@@ -49,4 +49,9 @@ Nous nous engageons à nous aider les uns les autres à réaliser notre potentiel a
     <div class="english_btn">
         <a href="canada_staffing.aspx" onfocus="this.className='english_btn-over';"  onblur="this.className='english_btn-hover';" alt="In English" title="In English">
             In English</a></div>
+<script language='javascript1.1' type='text/javascript'>
+    //<!—
+    cmCreatePageviewTag('career:Tool:Region;fr-canada-staffing', null, null, 'career:Tool:Region', false, false, null, false, false, null, null, null, null, null, null, null, null, null, null, null, null);
+    //-->
+</script>
 </asp:Content>

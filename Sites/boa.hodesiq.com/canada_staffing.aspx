@@ -109,4 +109,10 @@ We are committed to helping each other achieve our potential in order to build a
 <asp:Content ID="Content1" runat="server" ContentPlaceHolderID="en">
     <div class="franch_btn">
         <a href="fr_canada_staffing.aspx" onfocus="this.className='franch_btn-over';"  onblur="this.className='franch_btn-hover';" alt="En Francais" title="En Francais">En Francais</a></div>
+
+<script language='javascript1.1' type='text/javascript'>
+    //<!—
+    cmCreatePageviewTag('career:Tool:Region;canada-staffing', null, null, 'career:Tool:Region', false, false, null, false, false, null, null, null, null, null, null, null, null, null, null, null, null);
+    //-->
+</script>
 </asp:Content>

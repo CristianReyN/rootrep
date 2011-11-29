@@ -314,4 +314,9 @@
 
 <!-- body ends here -->
 
+<script language='javascript1.1' type='text/javascript'>
+    //<!—
+    cmCreatePageviewTag('career:Tool:Campus_Recruiting;campus-find-your-fit', null, null, 'career:Tool:Campus_Recruiting', false, false, null, false, false, null, null, null, null, null, null, null, null, null, null, null, null);
+    //-->
+</script>
 </asp:Content>

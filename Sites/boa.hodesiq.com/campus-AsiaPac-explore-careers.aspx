@@ -87,6 +87,10 @@
 <script src="Includes/libs/jquery/1.5.2/jquery.min.js"></script>
 <script src="Includes/libs/jquery/ui/1.8.9/custom.min.js"></script>
 <script src="Includes/_global.js"></script>
-
+<script language='javascript1.1' type='text/javascript'>
+    //<!—
+    cmCreatePageviewTag('career:Content:Campus_Recruiting;campus-asiapac-explore-careers', null, null, 'career:Content:Campus_Recruiting', false, false, null, false, false, null, null, null, null, null, null, null, null, null, null, null, null);
+    //-->
+</script> 
 </asp:Content>
 

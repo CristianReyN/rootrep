@@ -31,10 +31,11 @@ public partial class JobDetails : System.Web.UI.Page
     string pageTitle = "";
     string jobtitle = "";
 
-   
 
     protected void Page_Load(object sender, EventArgs e)
     {
+
+        this.ltrlCorremetrixProductTag.Text = "";
 
         UseTinyUrl = Request.QueryString["UseTinyUrl"] != null ? Request.QueryString["UseTinyUrl"].ToString() : "0";
 		targetpage = ConfigurationManager.AppSettings["targetpage"];
@@ -143,7 +144,22 @@ public partial class JobDetails : System.Web.UI.Page
                 }
             }
 
-        }       
+        }
+
+        BuildCorremetrixProductTag(strJobID, jobtitle);
+    }
+
+    protected void BuildCorremetrixProductTag(string strJobID, string jobtitle)
+    {
+
+        string strScript = "";
+
+        strScript = "<script language='javascript1.1' type='text/javascript'>" + System.Environment.NewLine;
+        strScript += "//<!—" + System.Environment.NewLine;
+        strScript += "cmCreateProductviewTag('" + strJobID + "','" + jobtitle + "', 'career:Job_Search', null, false, false, null, false, null, null, false, null);" + System.Environment.NewLine;
+        strScript += "//-->" + System.Environment.NewLine;
+        strScript += "</script>" + System.Environment.NewLine;
+        this.ltrlCorremetrixProductTag.Text = strScript;
     }
 
     protected void Page_PreRender(object sender, EventArgs e)

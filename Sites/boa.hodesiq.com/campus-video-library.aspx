@@ -271,5 +271,9 @@
 <script src="Includes/libs/jquery/plugin/dialog.min.js"></script>
 <!-- script src="Includes/libs/jquery/plugin/keyboard.focus.min.js"></script -->
 <script src="Includes/_global.js"></script>
-
+<script language='javascript1.1' type='text/javascript'>
+    //<!—
+    cmCreatePageviewTag('career:Content:Campus_Recruiting;campus-video-library', null, null, 'career:Content:Campus_Recruiting', false, false, null, false, false, null, null, null, null, null, null, null, null, null, null, null, null);
+    //-->
+</script>
 </asp:content>

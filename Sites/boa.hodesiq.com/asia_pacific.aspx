@@ -99,6 +99,11 @@
                                     background-position: left top; background-repeat: repeat-x;"></td>
                             </tr>
                             </table></div></td></tr></table>
+<script language='javascript1.1' type='text/javascript'>
+    //<!—
+    cmCreatePageviewTag('career:Tool:Region;asia-pacific', null, null, 'career:Tool:Region', false, false, null, false, false, null, null, null, null, null, null, null, null, null, null, null, null);
+    //-->
+</script>
                                                 
 </asp:Content>
 

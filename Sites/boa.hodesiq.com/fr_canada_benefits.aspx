@@ -40,4 +40,9 @@
     <div class="english_btn">
         <a href="canada_benefits.aspx" onfocus="this.className='english_btn-over';"  onblur="this.className='english_btn-hover';" alt="In English" title="In English">
             In English</a></div>
+<script language='javascript1.1' type='text/javascript'>
+    //<!—
+    cmCreatePageviewTag('career:Tool:Region;fr-canada-benefits', null, null, 'career:Tool:Region', false, false, null, false, false, null, null, null, null, null, null, null, null, null, null, null, null);
+    //-->
+</script>
 </asp:Content>

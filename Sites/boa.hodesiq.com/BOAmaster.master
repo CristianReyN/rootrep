@@ -224,8 +224,12 @@ function startKeybordNav()
             linkText = linkText.replace('&', '_');
             linkText = linkText.replace('amp;', '');
             linkText = linkText.replace(',', '');
+            linkText = linkText.replace('<SPAN_class=hiddencontent>', '');
+            linkText = linkText.replace('</SPAN>', '');
+            linkText = linkText.replace("'", '');
+            linkText = linkText.replace('&raquo;', '');
 
-            document.links[i].name = sPage + '_' + i + '_' + linkText;
+            document.links[i].name = sPage + '_' + linkText + '_' + i;
 
             //alert(document.links[i].name);
         }

@@ -27,6 +27,12 @@
 <asp:Content ID="Content6" ContentPlaceHolderID="map" Runat="Server">
 </asp:Content>
 <asp:Content ID="Content7" runat="server" ContentPlaceHolderID="ContentPlaceHolder1">
+
+<script language='javascript1.1' type='text/javascript'>
+    //<!—
+    cmCreatePageviewTag('career:Tool:Region;fr-canada-contactus', null, null, 'career:Tool:Region', false, false, null, false, false, null, null, null, null, null, null, null, null, null, null, null, null);
+    //-->
+</script>
    </asp:Content>
 
 
