@@ -145,8 +145,14 @@ public partial class JobDetails : System.Web.UI.Page
             }
 
         }
+        
+        string cmJobID = strJobID;
+        if (countryid == "1")
+        {
+            cmJobID = "US" + cmJobID;
+        }
 
-        BuildCorremetrixProductTag(strJobID, jobtitle);
+        BuildCorremetrixProductTag(cmJobID, jobtitle);
     }
 
     protected void BuildCorremetrixProductTag(string strJobID, string jobtitle)
@@ -156,6 +162,7 @@ public partial class JobDetails : System.Web.UI.Page
 
         strScript = "<script language='javascript1.1' type='text/javascript'>" + System.Environment.NewLine;
         strScript += "//<!—" + System.Environment.NewLine;
+        strScript += "cmCreatePageviewTag('career:Prod:Job_Search;JobDetails', null, null, 'career:Prod:Job_Search', false, false, null, false, false, null, null, '|job_" + strJobID + "|',null,null,null,null,null,'|job_"+strJobID+"|-_--_--_--_--_--_--_--_--_--_--_--_--_--_-', null, null, null);" + System.Environment.NewLine;
         strScript += "cmCreateProductviewTag('" + strJobID + "','" + jobtitle + "', 'career:Job_Search', null, false, false, null, false, null, null, false, null);" + System.Environment.NewLine;
         strScript += "//-->" + System.Environment.NewLine;
         strScript += "</script>" + System.Environment.NewLine;

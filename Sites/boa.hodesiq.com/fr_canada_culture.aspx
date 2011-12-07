@@ -30,7 +30,7 @@
             In English</a></div>
 <script language='javascript1.1' type='text/javascript'>
     //<!—
-    cmCreatePageviewTag('career:Tool:Region;fr-canada-culture', null, null, 'career:Tool:Region', false, false, null, false, false, null, null, null, null, null, null, null, null, null, null, null, null);
+    cmCreatePageviewTag('career:Tool:Regions;fr-canada-culture', null, null, 'career:Tool:Regions', false, false, null, false, false, null, null, null, null, null, null, null, null, null, null, null, null);
     //-->
 </script>
     </asp:Content>

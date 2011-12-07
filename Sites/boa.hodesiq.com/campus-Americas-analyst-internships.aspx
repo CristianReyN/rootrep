@@ -89,11 +89,7 @@
                     <li><a href="campusrecruiting/usin-wealth-management-branch-office-internship.asp" name="Merrill_Lynch_Wealth_Management_Branch_Office_Internship">Merrill 
                       Lynch Wealth Management Branch Office Internship</a></li>
                   </ul>
-                  <h2 class="questions">Home Loans &amp; Insurance</h2>
-                  <ul>
-                    <li><a href="campusrecruiting/usin-institutional-mortgage-services-analyst-intern-program.asp" name="Institutional_Mortgage_Services_Analyst_Intern_Program">Institutional 
-                      Mortgage Services Analyst Intern Program</a></li>
-                  </ul>
+                 
 
                 </div>
                 <div id="aside"> 

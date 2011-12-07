@@ -70,6 +70,7 @@ public partial class MasterPage_French : System.Web.UI.MasterPage
         strScript += "//<!—" + System.Environment.NewLine;
         if (ConfigurationManager.AppSettings["StrAppServerName"] == "PRO" && intPage == 1)
         { strScript += "cmSetProduction();" + System.Environment.NewLine; }
+        else { strScript += "cmSetStaging();" + System.Environment.NewLine; }
         //strScript += "cmCreatePageviewTag('" +strPageName + "', null, null, 'career:jobsearch');" + System.Environment.NewLine; //, false, false, null, false, false, null, null, null
         //strScript += "//-->" + System.Environment.NewLine;
         strScript += "</script>" + System.Environment.NewLine;

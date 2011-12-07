@@ -119,7 +119,7 @@ top; background-repeat: repeat-x;">
     </table>
 <script language='javascript1.1' type='text/javascript'>
     //<!—
-    cmCreatePageviewTag('career:Tool:Region;emea-lob', null, null, 'career:Tool:Region', false, false, null, false, false, null, null, null, null, null, null, null, null, null, null, null, null);
+    cmCreatePageviewTag('career:Tool:Regions;emea-lob', null, null, 'career:Tool:Regions', false, false, null, false, false, null, null, null, null, null, null, null, null, null, null, null, null);
     //-->
 </script>
 </asp:Content>

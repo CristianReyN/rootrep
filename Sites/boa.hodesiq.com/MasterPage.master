@@ -60,8 +60,7 @@
     <script language="javascript" type="text/javascript">
         //<!--
         examineFontSize("body");
-        cmSetProduction();
-        cmCreatePageviewTag("globalcareers:asia.asp", null, null, "career:globalcareers");
+        
         //-->
     </script>
 
@@ -72,9 +71,9 @@
                 <table width="750" border="0" cellspacing="0" cellpadding="0" summary="">
                     <tr>
                         <td valign="top">
-                            <a name="top"></a><a href="#skipmaincontent" title="Skip To Main Content." style="width: 1px; height: 69px; display: inline-block;">
-                               </a><img src="http://careers.bankofamerica.com/images/clear.gif"
+                            <a name="top"></a><a href="#skipmaincontent" title="Skip To Main Content." style="width: 1px; height: 69px; display: inline-block;"><img src="http://careers.bankofamerica.com/images/clear.gif"
                                         width="10" height="69" alt="" border="0" />
+                               </a>
                                      <%string pagename = System.IO.Path.GetFileName(Request.ServerVariables ["SCRIPT_NAME"]);%>
 <% if ((pagename.IndexOf("asia_pacific.aspx") > -1) || (pagename.IndexOf("latin_america_bac_staffing.aspx") > -1) || (pagename.IndexOf("latin_america_bac_benefits_culture.aspx") > -1) || (pagename.IndexOf("ada_latin_america_bac.aspx") > -1) || (pagename.IndexOf("latin_america_bac.aspx") > -1) || (pagename.IndexOf("latin_america_ml_staffing.aspx") > -1) || (pagename.IndexOf("latin_america_ml_benefits_culture.aspx") > -1) || (pagename.IndexOf("emea.aspx") > -1) || (pagename.IndexOf("latin_america_ml.aspx") > -1) || (pagename.IndexOf("ada_emea.aspx") > -1) || (pagename.IndexOf("emea_lob.aspx") > -1) || (pagename.IndexOf("emea_europe_card_services.aspx") > -1) || (pagename.IndexOf("emea_europe_card_services_teams.aspx") > -1) || (pagename.IndexOf("emea_benefits.aspx") > -1) || (pagename.IndexOf("latin_america_ml_lob.aspx") > -1) || (pagename.IndexOf("emea_culture.aspx") > -1) || (pagename.IndexOf("emea_staffing.aspx") > -1) || (pagename.IndexOf("asia.aspx") > -1) || (pagename.IndexOf("ada_asia.aspx") > -1) || (pagename.IndexOf("asia_lob.aspx") > -1) || (pagename.IndexOf("asia_benefits.aspx") > -1) || (pagename.IndexOf("asia_culture.aspx") > -1) || (pagename.IndexOf("asia_staffing.aspx") > -1))  
 { %> 
@@ -338,13 +337,15 @@ else
     <script type="text/javascript">
 
         //This section set the name property of links on the page with valid coremetrics tag
-        var linkName;
-        var linkText;
+        var linkName = '';
+        var linkText = '';
 
         var sPath = window.location.pathname;
         //var sPage = sPath.substring(sPath.lastIndexOf('\\') + 1);
         var sPage = sPath.substring(sPath.lastIndexOf('/') + 1);
-
+        var arrLinks = new Array();
+        var linkCounter = 1;
+        var relevantLinksCtr = 0;
         sPage = sPage.replace(/-/g, '_');
         sPage = sPage.replace('.aspx', '');
 
@@ -355,22 +356,60 @@ else
 
                 linkText = document.links[i].innerHTML;
                 linkText = linkText.replace(/\s+/g, "_");
+                linkText = linkText.replace(' & ', '_');
                 linkText = linkText.replace('&', '_');
+                linkText = linkText.replace(' amp; ', '');
                 linkText = linkText.replace('amp;', '');
                 linkText = linkText.replace(',', '');
                 linkText = linkText.replace('<SPAN_class=hiddencontent>', '');
                 linkText = linkText.replace('</SPAN>', '');
                 linkText = linkText.replace("'", '');
+                linkText = linkText.replace('>>', '');
+                linkText = linkText.replace('<<', '');
                 linkText = linkText.replace('&raquo;', '');
 
-                document.links[i].name = sPage + '_' + linkText + '_' + i;
+                //arrLinks[relevantLinksCtr] = new Array(sPage + '_' + linkText, i);
+                arrLinks[relevantLinksCtr] = new Array(linkText, i);
+                relevantLinksCtr = relevantLinksCtr + 1;
+            }
+        }
 
-                //alert(document.links[i].name);
+        //check for duplicate links
+        var strLinkText = '';
+        var strLinkIndex = '';
+        var arrLinkSplit;
+        var arrFinalLinks;
+        var ctr = 0;
+
+        for (ii = 0; ii < arrLinks.length; ii++) {
+
+            strLinkText = arrLinks[ii][0];
+            strLinkIndex = arrLinks[ii][1];
+
+            //loop through array, find duplicate links.
+            ctr = 0;
+
+            for (iii = 0; iii < arrLinks.length; iii++) {
+
+                if (strLinkText == arrLinks[iii][0]) {
+                    //alert('dupes: ' + strLinkText + '~' + arrLinks[iii][0]);
+                    if (ctr > 0) {
+                        arrLinks[iii][0] = strLinkText + ctr;
+                    }
+                    ctr = ctr + 1;
+                }
+
             }
 
         }
+
+        //finally, loop through all pertinent links, and set the link name property
+        for (iiii = 0; iiii < arrLinks.length; iiii++) {
+            document.links[arrLinks[iiii][1]].name = arrLinks[iiii][0];
+            //document.writeln(document.links[arrLinks[iiii][1]].name + '<br>');
+        }
     
 </script>
-
+    
 </body>
 </html>

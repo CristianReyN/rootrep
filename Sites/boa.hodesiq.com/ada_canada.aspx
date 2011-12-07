@@ -108,4 +108,10 @@ top; background-repeat: repeat-x;">
 <asp:Content ID="Content1" runat="server" ContentPlaceHolderID="languagelink">
     <div class="franch_btn">
         <a href="ada_fr_canada.aspx" onfocus="this.className='franch_btn-over';"  onblur="this.className='franch_btn-hover';" alt="En Francais" title="En Francais">En Francais</a></div>
+
+<script language='javascript1.1' type='text/javascript'>
+    //<!—
+    cmCreatePageviewTag('career:Tool:Region;ada-canada', null, null, 'career:Tool:Region', false, false, null, false, false, null, null, null, null, null, null, null, null, null, null, null, null);
+    //-->
+</script>
 </asp:Content>
