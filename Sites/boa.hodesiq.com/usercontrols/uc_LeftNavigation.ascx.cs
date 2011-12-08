@@ -76,9 +76,10 @@ public partial class uc_LeftNavigation : System.Web.UI.UserControl
             string href = "\"" + dr["href"].ToString() + "\"";
             string InnerDIV = "<div style=\"padding-left: 10px;\">";
             string title = dr["title"].ToString();
+            string cmLinkName = dr["CoremetricsLinkName"].ToString();
 
             string aref = "<a href=" + href + " class=" + CLASSFLYOUT +
-                           @"onfocus=" + ONFOCUSFLYOUT + "onblur=" + ONBLURFLYOUT + " name='" + MakeLinkName(Utility.StripHTML(title), "1") + "'" + " title='" + Utility.StripHTML(title) +
+                           @"onfocus=" + ONFOCUSFLYOUT + "onblur=" + ONBLURFLYOUT + " name='" + cmLinkName + "'" + " title='" + Utility.StripHTML(title) +
                            @"'>" + title + "</a>";
 
             if (CurrentOrder == CurrentPageOrder)
@@ -125,9 +126,10 @@ public partial class uc_LeftNavigation : System.Web.UI.UserControl
                 string href = "\"" + dr["href"].ToString() + "\"";
                 string InnerDIV = "<div style=\"padding-left: 15px;\">";
                 string title = dr["title"].ToString();
+                string cmLinkName = dr["CoremetricsLinkName"].ToString();
                 string aref = "<a href=" + href + " class=" + CLASS +
                              @"onfocus=" + ONFOCUS +
-                           @" onblur=" + ONBLUR + " name='" + MakeLinkName(Utility.StripHTML(title), ParentOrder) + "'" + " title='" + Utility.StripHTML(title) +
+                           @" onblur=" + ONBLUR + " name='" + cmLinkName + "'" + " title='" + Utility.StripHTML(title) +
                            @"'>" + title + " </a>";
 
                 HTML = HTML + "<li>" + InnerDIV + aref + "</div></li>";
@@ -153,8 +155,9 @@ public partial class uc_LeftNavigation : System.Web.UI.UserControl
             string href = "\"" + dr["href"].ToString() + "\"";
             string InnerDIV = "<div style=\"padding-left: 15px;\">";
             string title = dr["title"].ToString();
+            string cmLinkName = dr["CoremetricsLinkName"].ToString();
             string aref = "<a href=" + href + " class=" + CLASS +
-                        @"onfocus=" + ONFOCUS + " onblur=" + ONBLUR + " name='" + MakeLinkName(Utility.StripHTML(title), ParentOrder) + "'" + " title='" + Utility.StripHTML(title) + "'>" + title +
+                        @"onfocus=" + ONFOCUS + " onblur=" + ONBLUR + " name='" + cmLinkName + "'" + " title='" + Utility.StripHTML(title) + "'>" + title +
                         @"</a>";
 
             if (NextPageOrder == "0" && CurrentOrder == CurrentPageOrder)
@@ -192,8 +195,9 @@ public partial class uc_LeftNavigation : System.Web.UI.UserControl
             string href = "\"" + dr["href"].ToString() + "\"";
             string InnerDIV = "<div style=\"padding-left: 20px;\">";
             string title = dr["title"].ToString();
+            string cmLinkName = dr["CoremetricsLinkName"].ToString();
             string aref = "<a href=" + href + " class=" + CLASS +
-                        @"onfocus=" + ONFOCUS + " onblur=" + ONBLUR + " name='" + MakeLinkName(Utility.StripHTML(title), ParentOrder) + "'" + " title='" + Utility.StripHTML(title) + "'>" + title +
+                        @"onfocus=" + ONFOCUS + " onblur=" + ONBLUR + " name='" + cmLinkName + "'" + " title='" + Utility.StripHTML(title) + "'>" + title +
                         @"</a>";
 
             if (NextPageOrder == "0" && CurrentOrder == CurrentPageOrder)
@@ -230,8 +234,9 @@ public partial class uc_LeftNavigation : System.Web.UI.UserControl
             string href = "\"" + dr["href"].ToString() + "\"";
             string InnerDIV = "<div style=\"padding-left: 40px;\">";
             string title = dr["title"].ToString();
+            string cmLinkName = dr["CoremetricsLinkName"].ToString();
             string aref = "<a href=" + href + " class=" + CLASS +
-              @"onfocus=" + ONFOCUS + " onblur=" + ONBLUR + " name='" + MakeLinkName(Utility.StripHTML(title), ParentOrder) + "'" + "title=" + title + ">" + title +
+              @"onfocus=" + ONFOCUS + " onblur=" + ONBLUR + " name='" + cmLinkName + "'" + "title=" + title + ">" + title +
               @"</a>";
 
 
@@ -276,18 +281,5 @@ public partial class uc_LeftNavigation : System.Web.UI.UserControl
         return DS;
     }
 
-    protected String MakeLinkName(string title, string parentOrder)
-    {
-        title = title.Replace("&", "");
-        title = title.Replace(",", "");
-        title = title.Replace(" ", "_");
-        title = title.Replace(@"/", "_");
-        //title = title + "_" + parentOrder + "_leftnav";
-        title = title + "_leftnav";
-
-        //title = Regex.Replace(title, @"\s+", "_");
-        //title = Regex.Replace(title, @"&", "");
-        
-        return title;
-    }
+    
 }
