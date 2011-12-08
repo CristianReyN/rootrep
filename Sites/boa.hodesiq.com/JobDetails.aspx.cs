@@ -51,10 +51,13 @@ public partial class JobDetails : System.Web.UI.Page
         string countryid = Request["countryid"] == null ? "1" : Request["countryid"].ToString();
         string LocationId = Request["LocationID"] == null ? "0" : Request["LocationID"].ToString();
         string FeedName = Request["FeedName"] == null ? "" : Request["FeedName"].ToString();
+        string taleoReqID = "";
 
         DataTable dt = Jobs.JobDetails(Request.QueryString["JobId"].ToString(), countryid, LocationId,FeedName);        
 		if (dt.Rows.Count > 0)
 		{
+            taleoReqID = dt.Rows[0]["reqNo"].ToString();
+
 			strJobID = dt.Rows[0]["JobsId"].ToString();
             if (countryid == "1")
             {
@@ -146,14 +149,41 @@ public partial class JobDetails : System.Web.UI.Page
 
         }
         
-        string cmJobID = strJobID;
+        string cmJobID = "";
+
         if (countryid == "1")
         {
-            cmJobID = "US" + cmJobID;
+            cmJobID = "US" + taleoReqID;
         }
+        else { 
+            //international job
+            //ApplyURL split this by & and get 'id=' value
+            string[] arrUrl = ApplyURL.Split('&');
+            foreach (string parm in arrUrl)
+            {
+                if (parm.StartsWith("id="))
+                {
+                    //split by = to get reqno
+                    cmJobID = strJobID.Substring(0, 3) + parm.Substring(3);
+                }
+            }
+        }
+
+        //clean the job title
+        jobtitle = jobtitle.Replace("&", "");
+        jobtitle = jobtitle.Replace(",", "");
+        jobtitle = jobtitle.Replace(@"/", " ");
+        jobtitle = jobtitle.Replace(@"\", " ");
+        jobtitle = jobtitle.Replace(":", "");
+        jobtitle = jobtitle.Replace("*", "");
+        jobtitle = jobtitle.Replace("(", " ");
+        jobtitle = jobtitle.Replace(")", " ");
+        jobtitle = jobtitle.Replace("-", "");
 
         BuildCorremetrixProductTag(cmJobID, jobtitle);
     }
+
+
 
     protected void BuildCorremetrixProductTag(string strJobID, string jobtitle)
     {
