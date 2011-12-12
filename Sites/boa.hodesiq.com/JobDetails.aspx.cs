@@ -114,9 +114,11 @@ public partial class JobDetails : System.Web.UI.Page
 		}
        
         returntoJobsearch.NavigateUrl = "jobsearch.aspx?" + Request.QueryString;
-       
-        boanet_safebutton.writeBOASafeButton("Apply1", phApply1, "ApplyNow|*|" + dt.Rows[0]["JobTitle"].ToString(), Apply_Click_NoJS, this.Request, this.hApplyNow.Value);
-        boanet_safebutton.writeBOASafeButton("Apply2", phApply2, "ApplyNow|*|" + dt.Rows[0]["JobTitle"].ToString(), Apply_Click_NoJS, this.Request, this.hApplyNow.Value);
+
+        string applyJobTitle = CleanJobTitle(dt.Rows[0]["JobTitle"].ToString());
+
+        boanet_safebutton.writeBOASafeButton("Apply1", phApply1, "ApplyNow|*|" + applyJobTitle, Apply_Click_NoJS, this.Request, this.hApplyNow.Value);
+        boanet_safebutton.writeBOASafeButton("Apply2", phApply2, "ApplyNow|*|" + applyJobTitle, Apply_Click_NoJS, this.Request, this.hApplyNow.Value);
         
         prepbuttons();
 
@@ -169,8 +171,14 @@ public partial class JobDetails : System.Web.UI.Page
             }
         }
 
-        //clean the job title
+       
+        BuildCorremetrixProductTag(cmJobID, CleanJobTitle(jobtitle));
+    }
+
+    protected string CleanJobTitle(string jobTitle)
+    {
         jobtitle = jobtitle.Replace("&", "");
+        jobtitle = jobtitle.Replace("amp;", "");
         jobtitle = jobtitle.Replace(",", "");
         jobtitle = jobtitle.Replace(@"/", " ");
         jobtitle = jobtitle.Replace(@"\", " ");
@@ -179,11 +187,17 @@ public partial class JobDetails : System.Web.UI.Page
         jobtitle = jobtitle.Replace("(", " ");
         jobtitle = jobtitle.Replace(")", " ");
         jobtitle = jobtitle.Replace("-", "");
+        jobtitle = jobtitle.Replace(".", "");
+        jobtitle = jobtitle.Replace("'", "");
+        jobtitle = jobtitle.Replace("&#44;", "_");
+        jobtitle = jobtitle.Replace(">", "");
+        jobtitle = jobtitle.Replace("<", "");
+        jobtitle = jobtitle.Replace("?", "");
+        jobtitle = jobtitle.Replace("&#63", "");
 
-        BuildCorremetrixProductTag(cmJobID, jobtitle);
+        return jobtitle;
+
     }
-
-
 
     protected void BuildCorremetrixProductTag(string strJobID, string jobtitle)
     {

@@ -28,9 +28,9 @@
                   <p>Events are held throughout the year and applications can be made online via  <a href="CampusEvents.aspx?region=2">campus events</a> from approximately three months before each event.</p>
                 </div>
                  <div id="aside"> 
-				<a href="campus-find-your-fit.aspx"><img src="images/campus/btn-findyourfit.jpg" width="179" height="76" alt="Find Your fit: Come as you are. We've got a career to fit." /></a> 
-                  <a href="CampusEvents.aspx?region=2"><img src="images/campus/btn-campus-events-new.jpg" width="179" height="76" alt="Campus Events: Let's meet soon." /></a> 
-                  <a href="campus-EMEA-graduate-profiles.aspx"><img src="images/campus/btn-our-people-new.jpg" width="179" height="76" alt="Our People: See and hear who's making a difference and how." /></a> 
+				<a href="campus-find-your-fit.aspx" name="Find_Your_Fit"><img src="images/campus/btn-findyourfit.jpg" width="179" height="76" alt="Find Your fit: Come as you are. We've got a career to fit." /></a> 
+                  <a href="CampusEvents.aspx?region=2" name="Campus_Events"><img src="images/campus/btn-campus-events-new.jpg" width="179" height="76" alt="Campus Events: Let's meet soon." /></a> 
+                  <a href="campus-EMEA-graduate-profiles.aspx" name="Our_People"><img src="images/campus/btn-our-people-new.jpg" width="179" height="76" alt="Our People: See and hear who's making a difference and how." /></a> 
                   
 				  <div class="related-links">
 					  <h2>Related Links:</h2>
@@ -40,7 +40,7 @@
                         <li><a href="campus-EMEA-internships.aspx">EMEA internships  &raquo;</a></li>
 					  </ul>
 				  </div>
-				  <a href="http://twitter.com/#!/BofA_Careers" target="_blank"><img src="images/campus/btn-connect-twitter.jpg" width="179" height="64" alt="Stay Connected to Careers on Twitter" /></a> 
+				  <a href="http://twitter.com/#!/BofA_Careers" target="_blank" name="Twitter"><img src="images/campus/btn-connect-twitter.jpg" width="179" height="64" alt="Stay Connected to Careers on Twitter" /></a> 
 				  
 				 <script type="text/javascript" src="http://utility.bankofamerica.com/uet/social_share2.js"></script> 
 				<div class="rnw">    

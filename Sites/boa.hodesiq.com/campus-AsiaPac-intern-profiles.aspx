@@ -93,7 +93,7 @@
                         <li><a href="campus-AsiaPac-associate-profiles.aspx">Asia Pacific associate profiles  &raquo;</a></li>
 					</ul>
 				  </div>
-				  <a href="http://twitter.com/#!/BofA_Careers" target="_blank"><img src="images/campus/btn-connect-twitter.jpg" width="179" height="64" alt="Stay Connected to Careers on Twitter" /></a>
+				  <a href="http://twitter.com/#!/BofA_Careers" target="_blank" name="Twitter"><img src="images/campus/btn-connect-twitter.jpg" width="179" height="64" alt="Stay Connected to Careers on Twitter" /></a>
 				  
 				<script type="text/javascript" src="http://utility.bankofamerica.com/uet/social_share2.js"></script> 
 				<div class="rnw">    

@@ -39,9 +39,9 @@
  <p><strong>Rotational Program</strong> - Any campus program that gives you the opportunity to "rotate" through different areas of the line of business in order to gain an understanding of several different functions. After the completion of a rotational program, the associate would be qualified to find a full time opportunity at Bank of America.</p>
                 </div>
                 <div id="aside"> 
-                  <a href="campusrecruiting/career_fit_tool.asp"><img src="images/campus/btn-careerfinder.jpg" width="179" height="66" alt="Career Finder: Come as you are. We've got a career to fit." /></a> 
-                  <a href="CampusEvents.aspx?region=1"><img src="images/campus/btn-campus-events.jpg" width="179" height="66" alt="Campus Events: Let's meet soon." /></a> 
-                  <a href="campus-Americas-meet-our-people.aspx"><img src="images/campus/btn-our-people.jpg" width="179" height="66" alt="Our People: See and hear who's making a difference and how." /></a> 
+                  <a href="campusrecruiting/career_fit_tool.asp" name="Find_Your_Fit"><img src="images/campus/btn-careerfinder.jpg" width="179" height="66" alt="Career Finder: Come as you are. We've got a career to fit." /></a> 
+                  <a href="CampusEvents.aspx?region=1" name="Campus_Events"><img src="images/campus/btn-campus-events.jpg" width="179" height="66" alt="Campus Events: Let's meet soon." /></a> 
+                  <a href="campus-Americas-meet-our-people.aspx" name="Our_People"><img src="images/campus/btn-our-people.jpg" width="179" height="66" alt="Our People: See and hear who's making a difference and how." /></a> 
                   <h2>Related Links:</h2>
                   <ul>
                   <li><a href="campus-Americas-how-to-apply.aspx">How to apply</a></li>

@@ -9,9 +9,9 @@
                 <p class="link-header">Use the buttons below to further explore our company and opportunities.</p>
                 
                 <div id="icon-home-buttons">
-				<a href="campus-Americas-explore-careers.aspx" title="Explore a world of career opportunities" name="Campus_Americas_Explore_Careers"><img src="images/campus/btn-search-jobs.jpg" width="46" height="47" alt="Explore a world of career opportunities" /></a>
-                <a href="campus-video-library.aspx" title="View our video library" name="Campus_Americas_View_Our_Video_Library"><img src="images/campus/btn-meet-people.jpg" width="46" height="46" alt="View our video library" /></a>
-                <a href="http://twitter.com/#!/BofA_Careers" target="_blank" title="Twitter. Link opens a new window" name="Campus_Americas_Twitter"><img src="images/campus/btn-twitter.jpg" width="46" height="46" alt="Twitter. Link opens a new window" /></a>				</div>
+				<a href="campus-Americas-explore-careers.aspx" name="Explore_a_world_of_career_opportunities" title="Explore a world of career opportunities" name="Campus_Americas_Explore_Careers"><img src="images/campus/btn-search-jobs.jpg" width="46" height="47" alt="Explore a world of career opportunities" /></a>
+                <a href="campus-video-library.aspx" name="View_our_video_library" title="View our video library" name="Campus_Americas_View_Our_Video_Library"><img src="images/campus/btn-meet-people.jpg" width="46" height="46" alt="View our video library" /></a>
+                <a href="http://twitter.com/#!/BofA_Careers" target="_blank" name="Twitter_Link_opens_a_new_window" title="Twitter. Link opens a new window" name="Campus_Americas_Twitter"><img src="images/campus/btn-twitter.jpg" width="46" height="46" alt="Twitter. Link opens a new window" /></a>				</div>
  
  				<p class="footnote-content">Set opportunity in motion.</p>
                           

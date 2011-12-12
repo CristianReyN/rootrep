@@ -59,7 +59,7 @@
                   <a href="CampusEvents.aspx?region=1" name="Campus_Americas_Explore_Careers_Campus_Events"><img src="images/campus/btn-campus-events-new.jpg" width="179" height="76" alt="Campus Events: Let's meet soon." /></a> 
                   <a href="campus-Americas-meet-our-people.aspx" name="Campus_Americas_Explore_Careers_Meet_Our_People"><img src="images/campus/btn-our-people-new.jpg" width="179" height="76" alt="Our People: See and hear who's making a difference and how." /></a> 
                   
-				  <a href="http://twitter.com/#!/BofA_Careers" target="_blank" title="Twitter. Link opens a new window name="Campus_Americas_Explore_Careers_Twitter"><img src="images/campus/btn-connect-twitter.jpg" width="179" height="76" alt="Stay Connected to Careers on Twitter" /></a> 
+				  <a href="http://twitter.com/#!/BofA_Careers" target="_blank" title="Twitter. Link opens a new window" name="Stay_Connected_To_Careers_On_Twitter"><img src="images/campus/btn-connect-twitter.jpg" width="179" height="76" alt="Stay Connected to Careers on Twitter" /></a> 
 				  
 				 <script type="text/javascript" src="http://utility.bankofamerica.com/uet/social_share2.js"></script> 
 				<div class="rnw">    

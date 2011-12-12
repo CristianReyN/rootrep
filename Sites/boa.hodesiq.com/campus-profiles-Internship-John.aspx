@@ -60,8 +60,8 @@
       suited me and helped me to understand the culture of Bank of America. </p>
     <p class="back-top"><a href="#profiles">Back to top</a></p>
   </div>
-  <div id="aside"> <a href="campusrecruiting/career_fit_tool.asps"><img src="images/campus/btn-careerfinder.jpg" width="179" height="66" alt="Career Finder: Come as you are. We've got a career to fit." /></a> 
-    <a href="CampusEvents.aspx?region=1"><img src="images/campus/btn-campus-events.jpg" width="179" height="66" alt="Campus Events: Let's meet soon." /></a> 
+  <div id="aside"> <a href="campusrecruiting/career_fit_tool.asps" name="Find_Your_Fit"><img src="images/campus/btn-careerfinder.jpg" width="179" height="66" alt="Career Finder: Come as you are. We've got a career to fit." /></a> 
+    <a href="CampusEvents.aspx?region=1" name="Campus_Events"><img src="images/campus/btn-campus-events.jpg" width="179" height="66" alt="Campus Events: Let's meet soon." /></a> 
     <h3>Related Links:</h3>
     <ul>
       <li><a href="campus-Americas-intern-profiles.aspx">Back to profile list</a></li>

@@ -111,7 +111,7 @@
                                 
                             
                     				
-	                                    <a href="http://twitter.com/BofA_Careers" title="Stay connected to Careers on twitter @BofA_Careers.  Link opens a new window." target="_blank"><img src="../images/Twitter-Ad-for-Careers_03-1_REV.gif" width="135px" height="105px" alt="Stay connected to Careers on twitter @BofA_Careers.  Link opens a new window." border="0" align="top"></a><br clear="all">
+	                                    <a href="http://twitter.com/BofA_Careers" name="Stay_Connected_to_Careers_on_Twitter_BofA_Careers" title="Stay connected to Careers on twitter @BofA_Careers.  Link opens a new window." target="_blank"><img src="../images/Twitter-Ad-for-Careers_03-1_REV.gif" width="135px" height="105px" alt="Stay connected to Careers on twitter @BofA_Careers.  Link opens a new window." border="0" align="top"></a><br clear="all">
                                      </td></tr> 
                                     </table>                          
                             </div>

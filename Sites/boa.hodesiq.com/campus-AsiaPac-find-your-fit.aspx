@@ -14,8 +14,8 @@
 <p><a class="button" accesskey="1" href="campusrecruiting/career_fit_tool.asp"><span>Launch Career Finder</span></a></p>
  </div>
   <div id="aside"> 
-    <a href="CampusEvents.aspx?region=3"><img src="images/campus/btn-campus-events.jpg" width="179" height="66" alt="Campus Events: Let's meet soon." /></a> 
-    <a href="campus-AsiaPac-meet-our-people.aspx"><img src="images/campus/btn-our-people.jpg" width="179" height="66" alt="Our People: See and hear who's making a difference and how." /></a> 
+    <a href="CampusEvents.aspx?region=3" name="Campus_Events"><img src="images/campus/btn-campus-events.jpg" width="179" height="66" alt="Campus Events: Let's meet soon." /></a> 
+    <a href="campus-AsiaPac-meet-our-people.aspx" name="Our_People"><img src="images/campus/btn-our-people.jpg" width="179" height="66" alt="Our People: See and hear who's making a difference and how." /></a> 
     
   </div>
   <div id="red-footer"> 

@@ -8,7 +8,7 @@
 		        <td valign="top" width="70%" >
 		         <h1><asp:Label ID="Label3" runat="server" ForeColor="#D4001A" Font-Size="16pt" >Campus Events   </asp:Label></h1><p>The best way for us to get know each other is face to face. Use the tabs below to access details of our upcoming campus visits. We hope to meet you soon.</p></br></td>
 		         <td align="right" rowspan="2" valign="top" > <img src="images/clear.gif" width="200px" height="10" alt="" border="0"/>
-		            <a href="campusrecruiting/career_fit_tool.asp"> <img src="images/campus/btn-careerfinder.jpg" alt="" border="0"/ ></a>
+		            <a href="campusrecruiting/career_fit_tool.asp" name="Campus_Events_Find_Your_Fit"> <img src="images/campus/btn-careerfinder.jpg" alt="" border="0"/ ></a>
 		         </td>		       		     
 		        </tr>
 		       

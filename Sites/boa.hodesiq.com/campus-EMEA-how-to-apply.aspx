@@ -48,9 +48,9 @@
 
  </div>
   <div id="aside"> 
-    <a href="campusrecruiting/career_fit_tool.asp"><img src="images/campus/btn-careerfinder.jpg" width="179" height="66" alt="Career Finder: Come as you are. We've got a career to fit." /></a> 
-    <a href="CampusEvents.aspx?region=2"><img src="images/campus/btn-campus-events.jpg" width="179" height="66" alt="Campus Events: Let's meet soon." /></a> 
-     <a href="campus-EMEA-graduate-profiles.aspx"><img src="images/campus/btn-our-people.jpg" width="179" height="66" alt="Our People: See and hear who's making a difference and how." /></a> 
+    <a href="campusrecruiting/career_fit_tool.asp" name="Campus_EMEA_Find_Your_Fit"><img src="images/campus/btn-careerfinder.jpg" width="179" height="66" alt="Career Finder: Come as you are. We've got a career to fit." /></a> 
+    <a href="CampusEvents.aspx?region=2" name="Campus_EMEA_Campus_Events"><img src="images/campus/btn-campus-events.jpg" width="179" height="66" alt="Campus Events: Let's meet soon." /></a> 
+     <a href="campus-EMEA-graduate-profiles.aspx" name="Campus_EMEA_Our_People"><img src="images/campus/btn-our-people.jpg" width="179" height="66" alt="Our People: See and hear who's making a difference and how." /></a> 
                   <h2>Related Links:</h2>
                   <ul>
                     <li><a href="campus-EMEA-application-process.aspx">Application process</a></li>

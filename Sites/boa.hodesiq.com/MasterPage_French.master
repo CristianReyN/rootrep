@@ -343,82 +343,8 @@ create_safebutton("Recherche","javascript: submit_search();",0,0,0,0,"Recherche"
 
     </script>
 
-   <script type="text/javascript">
-
-       //This section set the name property of links on the page with valid coremetrics tag
-       var linkName = '';
-       var linkText = '';
-
-       var sPath = window.location.pathname;
-       //var sPage = sPath.substring(sPath.lastIndexOf('\\') + 1);
-       var sPage = sPath.substring(sPath.lastIndexOf('/') + 1);
-       var arrLinks = new Array();
-       var linkCounter = 1;
-       var relevantLinksCtr = 0;
-       sPage = sPage.replace(/-/g, '_');
-       sPage = sPage.replace('.aspx', '');
-
-       for (i = 0; i < document.links.length; i++) {
-
-           linkName = document.links[i].name;
-           if (linkName.indexOf('_leftnav') == -1 && linkName.indexOf('_header') == -1 && linkName.indexOf('_footer') == -1) {
-
-               linkText = document.links[i].innerHTML;
-               linkText = linkText.replace(/\s+/g, "_");
-               linkText = linkText.replace(' & ', '_');
-               linkText = linkText.replace('&', '_');
-               linkText = linkText.replace(' amp; ', '');
-               linkText = linkText.replace('amp;', '');
-               linkText = linkText.replace(',', '');
-               linkText = linkText.replace('<SPAN_class=hiddencontent>', '');
-               linkText = linkText.replace('</SPAN>', '');
-               linkText = linkText.replace("'", '');
-               linkText = linkText.replace('>>', '');
-               linkText = linkText.replace('<<', '');
-               linkText = linkText.replace('&raquo;', '');
-
-               //arrLinks[relevantLinksCtr] = new Array(sPage + '_' + linkText, i);
-               arrLinks[relevantLinksCtr] = new Array(linkText, i);
-               relevantLinksCtr = relevantLinksCtr + 1;
-           }
-       }
-
-       //check for duplicate links
-       var strLinkText = '';
-       var strLinkIndex = '';
-       var arrLinkSplit;
-       var arrFinalLinks;
-       var ctr = 0;
-
-       for (ii = 0; ii < arrLinks.length; ii++) {
-
-           strLinkText = arrLinks[ii][0];
-           strLinkIndex = arrLinks[ii][1];
-
-           //loop through array, find duplicate links.
-           ctr = 0;
-
-           for (iii = 0; iii < arrLinks.length; iii++) {
-
-               if (strLinkText == arrLinks[iii][0]) {
-                   //alert('dupes: ' + strLinkText + '~' + arrLinks[iii][0]);
-                   if (ctr > 0) {
-                       arrLinks[iii][0] = strLinkText + ctr;
-                   }
-                   ctr = ctr + 1;
-               }
-
-           }
-
-       }
-
-       //finally, loop through all pertinent links, and set the link name property
-       for (iiii = 0; iiii < arrLinks.length; iiii++) {
-           document.links[arrLinks[iiii][1]].name = arrLinks[iiii][0];
-           //document.writeln(document.links[arrLinks[iiii][1]].name + '<br>');
-       }
-    
-</script>
+    <script type="text/javascript" src="includes/jquery-1.6.2.min.js"></script>
+   <script type="text/javascript" src="includes/CoremetricsLinkGen.js"></script>
 
 </body>
 </html>
