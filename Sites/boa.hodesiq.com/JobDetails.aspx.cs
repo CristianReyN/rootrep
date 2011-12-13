@@ -171,7 +171,7 @@ public partial class JobDetails : System.Web.UI.Page
             }
         }
 
-       
+        hdnJobId.Value = cmJobID;
         BuildCorremetrixProductTag(cmJobID, CleanJobTitle(jobtitle));
     }
 
@@ -290,7 +290,8 @@ public partial class JobDetails : System.Web.UI.Page
 
         hdnJobDetailURL.Value = ConfigurationManager.AppSettings["jobdetailURL"].ToString() + JobId;
 
-        hdnJobId.Value = JobId;
+        //hdnJobId.Value = JobId;
+        
 
         if (linkedinjobdescriptionlength > 0 && lblDescripton.Text.Length > linkedinjobdescriptionlength)
             {

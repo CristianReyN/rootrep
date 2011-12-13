@@ -60,8 +60,8 @@
                                    </tr>
                                    <tr>
                                    <td valign="top" align="right" width="40px">
-                                   <script language="javascript" type="text/javascript">                                       
-                                       var cmdpageVariable = "career:jobsearch:jobdetails_" + "<%=hdnJobId.Value%>";
+                                   <script language="javascript" type="text/javascript">
+                                       var cmdpageVariable = "career:Prod:Job_Search;JobDetails_" + "<%=hdnJobId.Value%>";
                                        document.write(displayIcon("1", "", "", "1", "", "", "", "", "", "", "", cmdpageVariable, "", ""));                                      
                                    </script> 
                                                                                                            
@@ -75,7 +75,7 @@
                                    <td valign="top" align="right" width="40px">
                                    <script language="javascript" type="text/javascript">
                                        var twitterStatusDescription = "<%=hdnTwitterTitle.Value%>"
-                                       var cmdpageVariable = "career:jobsearch:jobdetails_" + "<%=hdnJobId.Value%>";
+                                       var cmdpageVariable = "career:Prod:Job_Search;JobDetails_" + "<%=hdnJobId.Value%>";
 
                                        document.write(displayIcon("2", "", "", "1", "", "", "", twitterStatusDescription, "", "", "", cmdpageVariable, "", ""));
                                       
@@ -93,7 +93,8 @@
                                        var LinkedInTitle = "<%=hdnLinkedInTitle.Value%>"
                                        var LinkedInSummary="<%=hdnLinkedInJobDescription.Value %>"
                                        var url = "<%=hdnJobDetailURL.Value%>"
-                                       document.write(displayIcon("3", LinkedInTitle, url, "1", "", "", "", "", "", LinkedInSummary, "", "", "", ""));                                       
+                                       var cmdpageVariable = "career:Prod:Job_Search;JobDetails_" + "<%=hdnJobId.Value%>";
+                                       document.write(displayIcon("3", LinkedInTitle, url, "1", "", "", "", "", "", LinkedInSummary, "", cmdpageVariable, "", ""));                                       
                                    </script>                                                                         
 
 

@@ -333,10 +333,7 @@ else
     </div>
 
     <script type="text/javascript" src="includes/fixit.js"></script>
-    <script type="text/javascript" src="includes/jquery-1.6.2.min.js"></script>
-    <script type="text/javascript" src="includes/CoremetricsLinkGen.js"></script>
-
-    
+   
     
 </body>
 </html>

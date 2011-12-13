@@ -1,5 +1,4 @@
-﻿
-jQuery(document).ready(function () {
+﻿jQuery(document).ready(function () {
     $('a').each(function (index) {
         var a_name = strReplace(strReplace(this.name.trim(), "  ", " "), "  ", " "), maybe_name = "";
 

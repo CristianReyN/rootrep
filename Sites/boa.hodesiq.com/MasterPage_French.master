@@ -343,8 +343,6 @@ create_safebutton("Recherche","javascript: submit_search();",0,0,0,0,"Recherche"
 
     </script>
 
-    <script type="text/javascript" src="includes/jquery-1.6.2.min.js"></script>
-   <script type="text/javascript" src="includes/CoremetricsLinkGen.js"></script>
 
 </body>
 </html>
