@@ -46,7 +46,6 @@ jQuery(document).ready(function () {
                 a_name = UniqueName(a_name);
                 this.name = a_name;
                 a_names[a_names.length] = a_name;
-                alert(a_names);
             }
         }
     });
