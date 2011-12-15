@@ -2,8 +2,7 @@
 			<tr valign="top"><td colspan="2" valign="top" class="divt"><img src="../images/clear.gif" width="100%" height="4" alt="" border="0"></td></tr>
 			<tr valign="top">
 				<td width="100%" colspan="2" valign="top">
-<img src="../images/diversityincl.jpg" width="578" height="166" alt="Explore a career with the Bank of Opportunity." title="Explore a career with the Bank of Opportunity." border="0">
-<div class="hidden">Diversity and inclusion. Explore a career with the Bank of Opportunity.</div>
+<img src="../images/diversityincl.jpg" width="578" height="166" alt="Diversity and Inclusion. Explore a career with the Bank of Opportunity." title="Diversity and Inclusion. Explore a career with the Bank of Opportunity." border="0">
 				</td>
 			</tr>
 			<tr valign="top"><td colspan="2" valign="top" class="divb"><img src="../images/clear.gif" width="100%" height="4" alt="" border="0"></td></tr>
@@ -34,8 +33,7 @@ Our work environment draws on the strength of every associate to build an atmosp
 <p style="margin: 12px 0px 0px 0px;">
 If you have questions about an upcoming diversity recruiting event or need additional information about the bank&#39;s diversity efforts, please send an e-mail to <a class="p" href="mailto:diversity_inclusion@bankofamerica.com">diversity_inclusion@bankofamerica.com</a>.
 </p>
-<!-- #include file="../diversitynav.asp" -->
-<br><br>
+
 </div>
 <% If page_section = "ADA" Then %>
 <div style="float: right; margin: 0px 0px 0px <%=right_margin_split%>px; padding: 0px; width: 205px;">
@@ -55,13 +53,10 @@ If you have questions about an upcoming diversity recruiting event or need addit
 		<H2 class="g" style="margin: 0px 0px 0px 0px;">Related Information</H2>
 		<img src="../images/clear.gif" width="100%" height="1" alt="" border="0" style="margin: 1px 0px 0px 0px; background: #e8e8e9;" align="top"><br clear="all">
 		<div  style="padding: 0px 5px 0px 4px;">
-			<!-- #include file="../relinfonav.asp" -->
+			<!-- #include file="../diversity-relinfonav.asp" -->
 		</div>					
 	</div>
-
-	<div style="width: 205px; text-align: center; margin: 0px; padding: 0px;">
-		<!-- #include file="../talkingatm.html" -->
-	</div>
+	
 	<br><br>
 </div>
 				</td>

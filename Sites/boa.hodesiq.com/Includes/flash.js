@@ -202,7 +202,7 @@ function ow() {
 
 function shuffle_array(arr){ var i = arr.length;if (i==0) return false; while(--i){ var j=Math.floor(Math.random()*(i+1)); var ei=arr[i]; var ej=arr[j]; arr[i]=ej; arr[j]=ei;}}
 
-var imgs = new Array ("../images/overview/costarica.gif", "../images/overview/emea.gif", "../images/overview/usa.gif", "../images/overview/canada.gif", "../images/overview/apac.gif" );
+var imgs = new Array ("../images/overview/costarica.gif", "../images/overview/emea.gif", "../images/overview/usa.gif", "../images/overview/canada.gif"/*, "../images/overview/apac.gif" */);
 var current_img, img_timeout;
 var rotated = 0;
 function rotate_img(args)
@@ -269,6 +269,6 @@ function init_img()
 	}
 	if(!window.preloadCC)
 	{
-		window.preloadCC = function(){MM_preloadImages("../images/overview/costarica.gif","../images/overview/emea.gif","../images/overview/usa.gif","../images/overview/canada.gif","../images/overview/apac.gif");}
+		window.preloadCC = function(){MM_preloadImages("../images/overview/costarica.gif","../images/overview/emea.gif","../images/overview/usa.gif","../images/overview/canada.gif"/*,"../images/overview/apac.gif"*/);}
 	}
 }

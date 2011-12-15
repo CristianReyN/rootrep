@@ -2,7 +2,6 @@
 		<table width="578" cellpadding="0" cellspacing="0" border="0" summary="">
 			<tr valign="top">
 				<td width="373" height="100%" valign="top" style="<%=middle_content_padding%>">
-
 <div id="Layer1" style="position: relative; z-index: 12;">		
 <img class="dotdiv" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
 	<%	href_pre = ""
@@ -16,8 +15,8 @@
 <p style="margin: 6px 0px 0px 0px;">Provides a benefit through an account that is credited with company-paid compensation credits and interest credits.
 </p>
 
-<H2 class="bac" style="margin: 12px 0px 0px 0px; padding: 0px;">Rewarding Success Program<span style="font-size: 0.8em; position: relative; top: -0.6em;">&reg;</span></H2>
-<p style="margin: 6px 0px 0px 0px;">Rewards eligible associates for their contributions to the company's success. If the company meets or exceeds an annual financial target, associates receive an award which will be automatically deferred to the 401(k) plan, subject to IRS limits, unless they elect to receive some of or the entire award in cash.
+<H2 class="bac" style="margin: 12px 0px 0px 0px; padding: 0px;">Rewarding Success<span style="font-size: 0.8em; position: relative; top: -0.6em;">&reg;</span></H2>
+<p style="margin: 6px 0px 0px 0px;">Rewards eligible employees for their contributions to the company's success. If the company meets a financial goal, eligible employees receive an award. Any award will be deferred automatically to the 401(k) plan, subject to IRS limits, unless the employee elects to receive some or all of the award in cash.
 </p>
 
 <!-- #include file="../benefitsnav.asp" -->
@@ -28,7 +27,7 @@
 	<H2 class="g" style="margin: 0px 0px 0px 0px;">Related Information</H2>
 	<img src="../images/clear.gif" width="100%" height="1" alt="" border="0" style="margin: 1px 0px 0px 0px; background: #e8e8e9;" align="top"><br clear="all">
 	<div  style="padding: 0px 5px 0px 4px;">
-<!-- #include file="../relinfonav.asp" -->
+<!-- #include file="../usrelinfonav.asp" -->
 	</div>					
 </div>
 

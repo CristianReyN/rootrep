@@ -1,0 +1,3 @@
+<%
+myuid="Bank"
+mypassword="Opportunity"%>

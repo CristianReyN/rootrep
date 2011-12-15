@@ -2,8 +2,7 @@
 			<tr valign="top"><td colspan="2" valign="top" class="divt"><img src="../images/clear.gif" width="100%" height="4" alt="" border="0"></td></tr>
 			<tr valign="top">
 				<td width="100%" colspan="2" valign="top">
-<img src="../images/gmca.jpg" width="578" height="166" alt="Explore a career with the Bank of Opportunity." title="Explore a career with the Bank of Opportunity." border="0">
-<div class="hidden">Global Marketing &amp; Corporate Affairs. Explore a career with the Bank of Opportunity.</div>
+<img src="../images/gmca.jpg" width="578" height="166" alt="Global Marketing & Corporate Affairs. Explore a career with the Bank of Opportunity." title="Global Marketing & Corporate Affairs. Explore a career with the Bank of Opportunity." border="0">
 				</td>
 			</tr>
 			<tr valign="top"><td colspan="2" valign="top" class="divb"><img src="../images/clear.gif" width="100%" height="4" alt="" border="0"></td></tr>
@@ -13,39 +12,19 @@
 			<tr valign="top">
 				<td width="100%" valign="top">
 <a name="skipmaincontent"></a><H1 class="hidden">Global Marketing &amp; Corporate Affairs</H1>
-<div style="float: left; width: <% If page_section = "ADA" Then %>357<% ElseIf page_section <> "ADA" Then %>357<%End If%>px;">
-<p style="margin: <% If page_section = "ADA" Then %>12<% Else %>0<%End If%>px <%=right_margin%>px 0px <%=left_margin_0%>px;">
-The associates in Global Marketing &amp; Corporate Affairs work collaboratively to position our bank, brand, products and services in a manner that connects with the aspirations and ideals of our associates, customers and shareholders.
-<br><br>
-Global Marketing develops and drives effective strategies in creative advertising, brand management, enterprise media, sponsorships and agency management. 
-<br><br>
-Corporate Affairs - comprised of Corporate Communications, Global Community Impact, Public Policy and Market Presidents - works to ensure a variety of audiences understand Bank&nbsp;of&nbsp;America&#39;s strategy, company news, community commitment and positions on key company, economic and environmental issues.
-<br><br>
-Our associates bring a variety of professional and educational experiences and backgrounds to their roles, including advertising, banking, consumer goods, financial services, hospitality, human resources, journalism, media production and retail disciplines.
-</p>
-<br><% If page_section <> "ADA" Then %>
-<script language="JavaScript1.2" src="../Includes/pages/lob/lob.js" type="text/javascript"></script>
-<script language="JavaScript1.2" type="text/javascript">
-var ada_href = "<%=ada_href %>";
-action_script = true;
-</script>
-<% End If %>
-<!-- #include file="faq/nancy.asp" -->
-<br>
-<H2 class="h2" style="margin: 12px <%=right_margin%>px 2px <%=left_margin_0%>px;">New Opportunities</H2>
-<table cellpadding="2" cellspacing="0" border="0" summary="" style="margin-left: <%=left_margin_0%>px;">
-<% 
-'******* HOT JOB OPENING '*******
-Dim familyid, talentid, globaljobsfamilyids, rowcount
-familyid=11
-globaljobsfamilyids="21"
-rowcount=6
-%>
-<!--#include file="../../hot_jobs.asp"-->
-</table>
-<br><br>
+<div style="float: left; width: <% If page_section = "ADA" Then %>355<% ElseIf page_section <> "ADA" Then %>355<%End If%>px;">
+<p class="bac" style="margin: <% If page_section = "ADA" Then %>0<% Else %>0<%End If%>px <%=right_margin%>px 0px <%=left_margin_0%>px;">
+The employees in Global Marketing &amp; Corporate Affairs work collaboratively to proactively build, advance and protect the company&#39;s brand, interests and reputation globally, in a manner that connects with the aspirations and ideals of our teammates, customers, clients, key influencers and shareholders.</p>
+
+<p class="bac">Through integrated marketing, brand, advertising, research, sponsorship, internal and external corporate communications, public policy, media relations, and global community impact, the Global Marketing &amp; Corporate Affairs team communicates with constituent groups around the world, including current and prospective customers and clients; elected officials and policymakers; local communities and related advocacy and policy groups; more than 280,000 employees; and shareholders.</p>
+
+<p class="bac">Global Marketing develops and drives effective strategies in creative advertising, brand management, enterprise media, sponsorships and agency management.</p>
+
+<p class="bac">Corporate Affairs - comprised of Global Corporate Communications, Global Community Impact, Public Policy and Market Presidents - works to ensure a variety of audiences understand Bank&nbsp;of&nbsp;America&#39;s strategy, company news, community commitment and positions on key company, economic and environmental issues.</p>
+
+<p class="bac">Our teammates bring a variety of professional and educational experiences and backgrounds to their roles, including advertising, banking, consumer goods, financial services, hospitality, human resources, journalism, media production and retail disciplines.</p>
 </div>
-<div style="float: right; margin: 0px 0px 0px <%=right_margin_split%>px; padding: 0px; width: 201px;">
+<div style="float: right; margin: 0px 0px 0px <%=right_margin_split%>px; padding: 0px; width: 203px;">
 	<div style="width: 201px; text-align: left; border: 1px solid #e8e8e9; background: #ffffff; margin: 0px 0px 0px 0px; padding: 0px 0px 6px 0px;">
 		<H2 class="g" style="margin: 0px 0px 0px 0px;"><%=JOB_SEARCH_TITLE%></H2>
 		<img src="../images/clear.gif" width="100%" height="1" alt="" border="0" style="margin: 1px 0px 6px 0px; background: #e8e8e9;" align="top"><br clear="all">

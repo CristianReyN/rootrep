@@ -2,8 +2,7 @@
 			<tr valign="top"><td colspan="2" valign="top" class="divt"><img src="../images/clear.gif" width="100%" height="4" alt="" border="0"></td></tr>
 			<tr valign="top">
 				<td width="100%" colspan="2" valign="top">
-<img src="../images/ci.jpg" width="578" height="166" alt="Explore a career with the Bank of Opportunity." title="Explore a career with the Bank of Opportunity." border="0">
-<div class="hidden">Corporate Information. Explore a career with the Bank of Opportunity.</div>
+<img src="../images/ci.jpg" width="578" height="166" alt="Corporate Information. Explore a career with the Bank of Opportunity." title="Corporate Information. Explore a career with the Bank of Opportunity." border="0">
 				</td>
 			</tr>
 			<tr valign="top"><td colspan="2" valign="top" class="divb"><img src="../images/clear.gif" width="100%" height="4" alt="" border="0"></td></tr>
@@ -30,18 +29,6 @@ Read about some of the ways Bank of America is making a difference:
 	<H2 class="g" style="margin: 0px 0px 0px 0px;"><%=JOB_SEARCH_TITLE%></H2>
 	<img src="../images/clear.gif" width="100%" height="1" alt="" border="0" style="margin: 1px 0px 6px 0px; background: #e8e8e9;" align="top"><br clear="all">
 <!-- #include file="../jobsearch.asp" -->
-</div>
-
-<div style="border: 1px solid #e8e8e9; margin: 12px 0px 12px 0px; padding: 0px 0px 6px 0px;">
-	<H2 class="g" style="margin: 0px 0px 0px 0px;">Related Information</H2>
-	<img src="../images/clear.gif" width="100%" height="1" alt="" border="0" style="margin: 1px 0px 0px 0px; background: #e8e8e9;" align="top"><br clear="all">
-	<div  style="padding: 0px 5px 0px 4px;">
-<!-- #include file="../relinfonav.asp" -->
-	</div>
-</div>
-
-<div style="text-align: center; margin: 0px; padding: 0px;">
-<!-- #include file="../talkingatm.html" -->
 </div>
 				</td>
 			</tr>

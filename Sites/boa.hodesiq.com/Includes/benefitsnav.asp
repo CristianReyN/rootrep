@@ -23,7 +23,7 @@ Not all employees are eligible to participate in all benefit programs. The terms
 <a href="<%Response.write href_pre%>retirement.asp" class="bacb" title="Retirement Benefits">Retirement Benefits</a>
 </p>
 <%	End If %>
-<%	If fpage <> "otherprograms" Then %>
+<%	If fpage = "homeloans" Or fpage = "otherprograms" Or fpage = "volunteergrants" Or fpage = "metlifeautohomeinsurance" Then 'fpage <> "otherprograms" %>
 <p style="margin: 12px 0px 0px 0px;">
 <a href="<%Response.write href_pre%>otherprograms.asp" class="bacb" title="Other Programs: Your Finances, Community Commitments, and Education">Other Programs: Your Finances, Community Commitments, and Education</a>
 </p>

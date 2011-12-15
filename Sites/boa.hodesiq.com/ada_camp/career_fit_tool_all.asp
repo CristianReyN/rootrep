@@ -1,4 +1,7 @@
-<!-- #include file="../Includes/career_fit_tool_pr.asp" -->
+<%@ Language=VBScript %><%
+Response.Status="404 Not Found"
+Response.Redirect "../campus.aspx"
+%><!-- #include file="../Includes/career_fit_tool_pr.asp" -->
 <% Response.Buffer=True 
 	Dim request_page_number, store_page_number
 	

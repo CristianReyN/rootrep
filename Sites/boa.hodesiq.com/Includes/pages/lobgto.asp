@@ -2,8 +2,7 @@
 			<tr valign="top"><td valign="top" class="divt"><img src="../images/clear.gif" width="100%" height="4" alt="" border="0"></td></tr>
 			<tr valign="top">
 				<td width="100%" valign="top">
-<img src="../images/gt_banner.jpg" width="578" height="166" alt="Explore a career with the Bank of Opportunity." title="Explore a career with the Bank of Opportunity." border="0">
-<div class="hidden">Global Technology &amp; Operations. Explore a career with the Bank of Opportunity.</div>
+<img src="../images/banners/global_technology_operations.jpg" width="578" height="166" alt="Global Technology &amp; Operations. Explore a career with the Bank of Opportunity." title="Global Technology &amp; Operations. Explore a career with the Bank of Opportunity." border="0">
 				</td>
 			</tr>
 			<tr valign="top"><td colspan="2" valign="top" class="divb"><img src="../images/clear.gif" width="100%" height="4" alt="" border="0"></td></tr>
@@ -13,71 +12,47 @@
 			<tr valign="top">
 				<td width="100%" valign="top">
 <a name="skipmaincontent"></a><H1 class="hidden">Global Technology &amp; Operations</H1>
-<div style="float: left; width: <% If page_section = "ADA" Then %>357<% ElseIf page_section <> "ADA" Then %>299<%End If%>px;">
-<p style="margin: <% If page_section = "ADA" Then %>12<% Else %>0<%End If%>px <%=right_margin%>px 0px <%=left_margin_0%>px;">
-At Bank&nbsp;of&nbsp;America, we believe that the right people form the critical cornerstone of our foundation for growth. With thousands of technologists working from across the corners of the globe, we are focused on providing innovative and creative technology solutions, leading to literally billions of opportunities to "touch" our customers every month. Building a world-class, global workforce is critical to our priorities and we have many exciting opportunities to take your career higher as part of our commitment to being the employer of choice. 
-<br><br>
-Bank&nbsp;of&nbsp;America Technology associates build and maintain a world-class data network linking more than 6,100+ retail banking offices, nearly 18,500 ATMs and the nation's leading online banking and bill pay service. The team also runs multiple data centers while providing support for tens of thousands of desktops throughout the corporation.
-<br><br>
-The technological superiority of our systems is as important as the quality of the services and products we offer. A highly experienced team, leading-edge initiatives, visible products and our commitment to training add up to an environment of unparalleled opportunity for dedicated technical professionals.
-</p>
-<img class="dotdiv" style="margin: 12px 0px 0px 0px;" src="../images/clear.gif" width="<%=(315-right_margin_split-left_margin_0)%>" height="1" alt="" border="0">
-<p style="margin: 6px 0px 0px 0px;" class="faqpa">
-<b>Bank&nbsp;of&nbsp;America Honors Technology Fellows</b>
-<br><a href="http://newsroom.bankofamerica.com/index.php?s=press_releases&item=7963" target="_blank" class="ip">Read the entire story here</a>
-</p>
-<img class="dotdiv" style="margin: 6px 0px 6px 0px;" src="../images/clear.gif" width="<%=(315-right_margin_split-left_margin_0)%>" height="1" alt="" border="0">
-<p style="margin: 0px 0px 0px 0px;" class="faqpa">
-<a href="http://newsroom.bankofamerica.com/index.php?s=press_releases&item=8231" target="_blank" class="ip">Bank of America's Center for Future Banking Expands the Breadth of its Institutional Collaboration</a>
-</p>
-<img class="dotdiv" style="margin: 6px 0px 6px 0px;" src="../images/clear.gif" width="<%=(315-right_margin_split-left_margin_0)%>" height="1" alt="" border="0">
-<p style="margin: 0px 0px 0px 0px;" class="faqpa">
-<a href="http://newsroom.bankofamerica.com/index.php?s=press_releases&item=8121" target="_blank" class="ip">MIT Media Lab and Bank of America Announce Center for Future Banking</a>
-<br>Collaboration to Create an Innovative Engine for Consumer Banking Solutions 
-</p>
-<img class="dotdiv" style="margin: 6px 0px 6px 0px;" src="../images/clear.gif" width="<%=(315-right_margin_split-left_margin_0)%>" height="1" alt="" border="0">
-<p style="margin: 0px 0px 0px 0px;" class="faqpa">
-<a href="http://newsroom.bankofamerica.com/index.php?s=press_releases&item=8219" target="_blank" class="ip">Bank of America and the National Center for Women & Information Technology Honor 28 High School Women for Aspirations in Technology</a>
-</p>
-<img class="dotdiv" style="margin: 6px 0px 6px 0px;" src="../images/clear.gif" width="<%=(315-right_margin_split-left_margin_0)%>" height="1" alt="" border="0">
-<p style="margin: 0px 0px 0px 0px;" class="faqpa">
-<a href="http://newsroom.bankofamerica.com/index.php?s=press_releases&item=8222" target="_blank" class="ip">Diversity MBA Magazine Names Bank of America #1 Company for Diverse Managers to Work</a>
-<br>New approach to ranking companies focuses on management space and pipeline development of diverse professionals.
-</p>
-<img class="dotdiv" style="margin: 6px 0px 6px 0px;" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
+<div style="float: left; width: 357px;">
+<p class="bac" style="margin: <% If page_section = "ADA" Then %>0<% Else %>0<%End If%>px <%=right_margin%>px 0px <%=left_margin_0%>px;">
+At Bank&nbsp;of&nbsp;America, Global Technology &amp; Operations (GT&amp;O) teammates work from office locations in 40 countries around the world.  Along with being an innovative leader in technology, the company offers progressive learning experiences, recognition for T&amp;O excellence, support for diversity goals, advancement of women, and other ways to ensure excellent career opportunities.</p>
+ 
+<p class="bac">The GT&amp;O team provides end-to-end technology and fulfillment to approximately 58 million consumer households, small businesses, corporate and institutional relationships, and wealth and investment management clients. In the United States, it serves approximately 5,700 retail banking offices, 18,000 ATMs and award-winning online banking with 30 million active users.  Also, as one of the most global organizations at Bank&nbsp;of&nbsp;America, GT&amp;O has been established in some countries for more than 50 years.</p>
+
+<p class="bac">By managing the company&#39;s global infrastructure and ensuring its ability to deliver an improved experience to clients around the world, the GT&amp;O team plays an important role at Bank&nbsp;of&nbsp;America and is uniquely positioned to influence how financial services are conducted now and in the years ahead.</p>
 <br>
-<script language="JavaScript1.2" type="text/javascript">
-if(!window.getHTMLControl)
-{
-	document.write('<scr' + 'ipt language="javascript" src="../Includes/pages/lob/lob.js');
-	document.write('"></scr' + 'ipt>');
-	ada_href = "<%=ada_href %>";
-}
-</script>
-<!-- #include file="faq/andy.asp" -->
-<br><br>
+<img class="dotdiv" style="margin: 6px 0px 0px 0px;" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
+<br>
+<H2 class="h2" style="margin: 12px <%=right_margin%>px 2px <%=left_margin_0%>px;">Recently Posted Opportunities</H2>
+<table cellpadding="2" cellspacing="0" border="0" summary="" style="width: 294px; margin-left: <%=left_margin_0%>px;">
 <%
 '******* HOT JOB OPENING '*******
-Dim familyid, talentid, globaljobsfamilyids, rowcount
-talentid=9
-globaljobsfamilyids="30,15"
-rowcount=6
+Dim familyid, talentid, globaljobsfamilyids, rowcount, hot_countryid
+hot_countryid = Request("countryid")
+If hot_countryid = "" Then hot_countryid = 1
+If hot_countryid = 1 Then
+	familyid=""
+	talentid="6"
+	globaljobsfamilyids=""
+	rowcount=6
 %>
-<H2 class="h2" style="margin: 12px <%=right_margin%>px 2px <%=left_margin_0%>px;">New Opportunities</H2>
-<table cellpadding="2" cellspacing="0" border="0" summary="" style="width: 294px; margin-left: <%=left_margin_0%>px;">
 <!--#include file="../../hot_jobs.asp"-->
+<%
+	talentid="9"
+%>
+<!--#include file="../../hot_jobs2.asp"-->
+<%
+Else
+	familyid = ""
+	talentid=0
+	globaljobsfamilyids="30,15,6,2,22,20,24,29"
+	rowcount=12
+End If
+%>
 </table>
 <br><br>
 </div>
-<% If page_section = "ADA" Then %>
-<div style="float: right; margin: 0px 0px 0px 18px; padding: 0px; width: 203px;">
-	<!-- #include file="lob/saulsberry.asp" -->
-<% ElseIf page_section <> "ADA" Then %>
-<div align="right" style="float: right; margin: 0px 0px 0px 20px; padding: 0px; width: 259px;">
-	<!-- #include file="lob/saulsberry.asp" -->
-	<a href="#video" class="hlink">Shawn Saulsberry&acute;s Associate Testimonial Video</a>
-<% End If  %>
-	<div style="width: 201px; border: 1px solid #e8e8e9; margin: 12px 0px 0px 0px; padding: 0px 0px 6px 0px;">
+<div style="float: right; margin: 0px 0px 0px 18px; padding: 0px; width: 201px;">
+	<div style="width: 201px; border: 1px solid #e8e8e9; margin: 0px 0px 0px 0px; padding: 0px 0px 6px 0px;">
 		<H2 class="g" style="margin: 0px 0px 0px 0px; text-align: left;"><%=JOB_SEARCH_TITLE%></H2>
 		<img src="../../images/clear.gif" width="100%" height="1" alt="" border="0" style="margin: 1px 0px 6px 0px; background: #e8e8e9;" align="top"><br clear="all">
 		<!-- #include file="../jobsearch.asp" -->

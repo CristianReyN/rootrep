@@ -2,14 +2,13 @@
 			<tr valign="top"><td colspan="2" valign="top" class="divt"><img src="../images/clear.gif" width="100%" height="4" alt="" border="0"></td></tr>
 			<tr valign="top">
 				<td width="100%" colspan="2" valign="top">
-<img src="../images/locations.jpg" width="578" height="166" alt="Explore a career with the Bank of Opportunity. Locations." title="Explore a career with the Bank of Opportunity. Locations." border="0">
-<div class="hidden">Explore a career with the Bank of Opportunity. Locations.</div>
+<img src="../images/banners/regions.jpg" width="578" height="166" alt="Regions. Explore a career with the Bank of Opportunity." title="Regions. Explore a career with the Bank of Opportunity." border="0">
 				</td>
 			</tr>
 			<tr valign="top"><td colspan="2" valign="top" class="divb"><img src="../images/clear.gif" width="100%" height="4" alt="" border="0"></td></tr>
 		</table>
 		<img src="../images/clear.gif" width="100%" height="<%=top_content_padding_bottom%>" alt="" border="0"><br />
-		<a name="skipmaincontent"></a><H1 class="hidden">Locations</H1>
+		<a name="skipmaincontent"></a><H1 class="hidden">Regions</H1>
 		<table width="578" cellpadding="0" cellspacing="0" border="0" summary="">
 			<tr valign="top">
 				<td width="373" height="100%" valign="top" style="padding: 0px <%=right_margin%>px 0px <%=left_margin_0%>px;">

@@ -7,3 +7,19 @@
 	width: 688px;
 	padding: 12px;
 }
+table.event a.ev-b,
+table.event a.ev-b:visited,
+table.event a.ev-b:active,
+table.event a.ev-b:hover,
+table.event a.ev-p,
+table.event a.ev-p:visited,
+table.event a.ev-p:active,
+table.event a.ev-p:hover
+{
+	border: solid 1px transparent !important;
+}
+table.event a.ev-b-over,
+table.event a.ev-p-over
+{
+	border: dotted 1px #000 !important;
+}

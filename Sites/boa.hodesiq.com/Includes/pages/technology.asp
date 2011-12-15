@@ -2,8 +2,7 @@
 			<tr valign="top"><td valign="top" class="divt"><img src="../images/clear.gif" width="100%" height="4" alt="" border="0"></td></tr>
 			<tr valign="top">
 				<td width="100%" valign="top">
-<img src="../images/gto.jpg" width="578" height="166" alt="Explore a career with the Bank of Opportunity." title="Explore a career with the Bank of Opportunity." border="0">
-<div class="hidden">Global Technology &amp; Operations. Explore a career with the Bank of Opportunity.</div>
+<img src="../images/gt_banner.jpg" width="578" height="166" alt="Global Technology. Explore a career with the Bank of Opportunity." title="Global Technology. Explore a career with the Bank of Opportunity." border="0">
 				</td>
 			</tr>
 			<tr valign="top"><td colspan="2" valign="top" class="divb"><img src="../images/clear.gif" width="100%" height="4" alt="" border="0"></td></tr>
@@ -12,47 +11,49 @@
 		<table width="578" cellpadding="0" cellspacing="0" border="0" summary="">
 			<tr valign="top">
 				<td width="100%" valign="top">
-<a name="skipmaincontent"></a><H1 class="hidden">Technology</H1>
-<% If page_section = "ADA" Then %>
-<!-- #include file="associate/saulsberry.asp" -->
-					<div align="right" style="float: right; margin: 0px 0px 0px <%=right_margin_split%>px; padding: 0px; width: 201px;">
-<% End If %>
-<% If page_section <> "ADA" Then %>
-					<div align="right" style="float: right; margin: 0px 0px 0px <%=right_margin_split%>px; padding: 0px; width: 259px;">
-<!-- #include file="associate/saulsberry.asp" -->
-<a href="#video" class="hlink">Shawn Saulsberry&acute;s Associate Testimonial Video</a>
-<% End If  %>
-<div style="width: 201px; text-align: left; border: 1px solid #e8e8e9; background: #ffffff; margin: 12px 0px 12px 0px; padding: 0px 0px 6px 0px;">
-<H2 class="gc" style="margin: 0px 0px 0px 0px;">Career Opportunities</H2>
-	<img src="../images/clear.gif" width="100%" height="1" alt="" border="0" style="margin: 0px 0px 0px 0px; background: #ffffff;" align="top"><br clear="all">
-	<img src="../images/clear.gif" width="100%" height="1" alt="" border="0" style="margin: 0px 0px 0px 0px; background: #e8e8e9;" align="top"><br clear="all">
-<p style="margin: 6px 6px 0px 6px;"><a class="left" onfocus="this.className='left-over';" onblur="this.className='left';" href="../jobsearch.aspx?jobareas=9|-1&stateid=-1&cityid=-1&keywords=&SearchPage=Sp">View current jobs in Technology</a></p>
-</div>
-
-<div style="width: 201px; text-align: center; margin: 0px; padding: 0px;">
-<!-- #include file="../talkingatm.html" -->
-</div>
-<br><br>
-					</div>
-<p style="margin: 0px <%=right_margin_split%>px 0px <%=left_margin_0%>px;">
-At Bank of America, we believe that the right people form the critical cornerstone of our foundation for growth. With more than 30,000 technologists working from across the corners of globe, we are focused on providing innovative and creative technology solutions, leading to literally billions of opportunities to "touch" our customer every month. Building a world-class, global workforce is critical to our priorities and we have many exciting opportunities to take your career higher - part of our commitment to being the employer of choice.
-<br><br>
-Global Technology &amp; Operations builds and maintains a world-class data network linking more than 5,700 banking centers, 17,000+ ATMs and the nation's leading online banking and bill pay service. Global Technology &amp; Operations runs multiple data centers while providing support for tens of thousands of desktops throughout the corporation.
-<br><br>
-The technological superiority of our systems is as important as the quality of the services and products we offer. A highly experienced team, leading-edge initiatives, visible products and our commitment to training add up to an environment of unparalleled opportunity for dedicated technical professionals.
+<a name="skipmaincontent"></a><H1 class="hidden">Global Technology</H1>
+<div style="float: left; width: 357px;">
+<p class="bac" style="margin: <% If page_section = "ADA" Then %>0<% Else %>0<%End If%>px <%=right_margin%>px 0px <%=left_margin_0%>px;">
+At Bank&nbsp;of&nbsp;America, Global Technology &amp; Operations (GT&amp;O) teammates work from office locations in 40 countries around the world.  Along with being an innovative leader in technology, the company offers progressive learning experiences, recognition for T&amp;O excellence, support for diversity goals, advancement of women, and other ways to ensure excellent career opportunities.</p>
+ 
+<p class="bac">The GT&amp;O team provides end-to-end technology and fulfillment to approximately 58 million consumer households, small businesses, corporate and institutional relationships, and wealth and investment management clients. In the United States, it serves approximately 5,700 retail banking offices, 18,000 ATMs and award-winning online banking with 30 million active users.  Also, as one of the most global organizations at Bank&nbsp;of&nbsp;America, GT&amp;O has been established in some countries for more than 50 years.</p>
+ 
+<p class="bac">By managing the company&#39;s global infrastructure and ensuring its ability to deliver an improved experience to clients around the world, the GT&amp;O team plays an important role at Bank&nbsp;of&nbsp;America and is uniquely positioned to influence how financial services are conducted now and in the years ahead.
 </p>
+<br>
+<img class="dotdiv" style="margin: 6px 0px 0px 0px;" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
+<br>
 <%
 '******* HOT JOB OPENING '*******
-Dim familyid, talentid, globaljobsfamilyids, rowcount
-talentid=9
-rowcount=6
+Dim familyid, talentid, globaljobsfamilyids, rowcount, hot_countryid
+hot_countryid = Request("countryid")
+If hot_countryid = "" Then hot_countryid = 1
+If hot_countryid = 1 Then
+	familyid=""
+	talentid="9"
+	globaljobsfamilyids=""
+	rowcount=12
+Else
+	familyid = ""
+	talentid=0
+	globaljobsfamilyids="30,6,15"
+	rowcount=12
+End If
 %>
-<H2 class="h2" style="margin: 12px <%=right_margin%>px 2px <%=left_margin_0%>px;">New Opportunities</H2>
-<table cellpadding="2" cellspacing="0" border="0" summary="" style="margin-left: <%=left_margin_0%>px;">
+<H2 class="h2" style="margin: 12px <%=right_margin%>px 2px <%=left_margin_0%>px;">Recently Posted Opportunities</H2>
+<table cellpadding="2" cellspacing="0" border="0" summary="" style="width: 294px; margin-left: <%=left_margin_0%>px;">
 <!--#include file="../../hot_jobs.asp"-->
 </table>
 <br><br>
+</div>
+<div style="float: right; margin: 0px 0px 0px 18px; padding: 0px; width: 201px;">
+	<div style="width: 201px; border: 1px solid #e8e8e9; margin: 0px 0px 0px 0px; padding: 0px 0px 6px 0px;">
+		<H2 class="g" style="margin: 0px 0px 0px 0px; text-align: left;"><%=JOB_SEARCH_TITLE%></H2>
+		<img src="../../images/clear.gif" width="100%" height="1" alt="" border="0" style="margin: 1px 0px 6px 0px; background: #e8e8e9;" align="top"><br clear="all">
+		<!-- #include file="../jobsearch.asp" -->
+	</div>
+<br><br>
+</div>
 				</td>
 			</tr>
-			<tr valign="top"><td valign="top" class="divb"><img src="../images/clear.gif" width="100%" height="4" alt="" border="0"></td></tr>
 		</table>

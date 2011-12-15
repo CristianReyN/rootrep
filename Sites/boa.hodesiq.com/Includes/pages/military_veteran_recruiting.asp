@@ -2,8 +2,7 @@
 			<tr valign="top"><td colspan="2" valign="top" class="divt"><img src="../images/clear.gif" width="100%" height="4" alt="" border="0"></td></tr>
 			<tr valign="top">
 				<td width="100%" colspan="2" valign="top">
-<img src="../images/mvr.jpg" width="578" height="166" alt="Explore a career with the Bank of Opportunity." title="Explore a career with the Bank of Opportunity." border="0">
-<div class="hidden">Military &amp; veteran recruiting. Explore a career with the Bank of Opportunity.</div>
+<img src="../images/mvr.jpg" width="578" height="166" alt="Military &amp; Veteran Recruiting. Explore a career with the Bank of Opportunity." title="Military &amp; Veteran Recruiting. Explore a career with the Bank of Opportunity." border="0">
 				</td>
 			</tr>
 			<tr valign="top"><td colspan="2" valign="top" class="divb"><img src="../images/clear.gif" width="100%" height="4" alt="" border="0"></td></tr>
@@ -14,13 +13,16 @@
 				<td width="100%" valign="top">
 <a name="skipmaincontent"></a><H1 class="hidden">Military &amp; veteran recruiting</H1>
 <div style="float: left; width: <% If page_section = "ADA" Then %>357<% ElseIf page_section <> "ADA" Then %>299<%End If%>px;">
-<p style="margin: <% If page_section = "ADA" Then %>12<% Else %>0<%End If%>px <%=right_margin%>px 0px <%=left_margin_0%>px;">
-At Bank&nbsp;of&nbsp;America, we not only recognize the sacrifices our military service members and their families have made, we also value the training, operational skills and leadership ability you have developed while protecting our country.  
-<br><br>
-Bank&nbsp;of&nbsp;America provides a number of career opportunities in many different lines of business where you can put your experience to use. We are seeking individuals that match our set of core values of Doing the Right Thing, Trusting and Teamwork and most of all, a Commitment to Excellence. 
-<br><br>
-Join the thousands of veterans who now call Bank&nbsp;of&nbsp;America their Employer of Choice - an organization that appreciates and rewards its associates with generous "Pay for Performance" and benefits plans.
-</p>
+<p class="bac" style="margin: <% If page_section = "ADA" Then %>12<% Else %>0<%End If%>px <%=right_margin%>px 0px <%=left_margin_0%>px;">
+Bank&nbsp;of&nbsp;America actively works to attract, develop and retain veterans, reservists and military spouses because of the unique skills and experiences they bring to our organization. Their personal values align with our company&#39;s core values around teamwork, trust in our team, and acting responsibly.</p>
+
+<p class="bac">We support military employees through our Military Support Affinity Group, and employee resource network that creates opportunities for advancement and leadership development through networking, mentoring and information forums.</p>
+
+<p class="bac">Additionally, Bank&nbsp;of&nbsp;America supports the U.S. military through contributions to military-focused charitable organizations and providing differentiated banking services for military service members.</p>
+
+<p class="bac">Bank&nbsp;of&nbsp;America&#39;s military recruiting efforts are regularly recognized on a national level as a top "military friendly" employer by GI Jobs, Military Edge and the Employer Support for Guard and Reserve.</p>
+
+<p class="bac">Join the thousands of veterans who now call Bank&nbsp;of&nbsp;America their Employer of Choice.</p>
 <br><br>
 </div>
 <% If page_section = "ADA" Then %>
@@ -41,7 +43,7 @@ Join the thousands of veterans who now call Bank&nbsp;of&nbsp;America their Empl
 		<H2 class="g" style="margin: 0px 0px 0px 0px;">Related Information</H2>
 		<img src="../images/clear.gif" width="100%" height="1" alt="" border="0" style="margin: 1px 0px 0px 0px; background: #e8e8e9;" align="top"><br clear="all">
 		<div  style="padding: 0px 5px 0px 4px;">
-			<!-- #include file="../relinfonav.asp" -->
+			<!-- #include file="../usrelinfonav.asp" -->
 		</div>
 	</div>
 

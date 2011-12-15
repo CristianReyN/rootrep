@@ -31,9 +31,8 @@ if ( hasRequestedVersion ) {
 //-->
 </script>
 <noscript>
-<img src="../images/whyworkhere_cc.jpg" width="578" height="166" border="0" alt="Perform well. Get rewarded - that's why I work here." title="Perform well. Get rewarded - that's why I work here.">
+<img src="../images/whyworkhere_cc.jpg" width="578" height="166" border="0" alt="Why Choose Bank of America? Perform well. Get rewarded. That's why I work here. My Success is up to me." title="Why Choose Bank of America? Perform well. Get rewarded. That's why I work here. My Success is up to me.">
 </noscript>
-<div class="hidden">Why Choose Bank of America? Perform well. Get rewarded - that's why I work here. My Success is up to me.</div>
 					<%End If%>
 				</td>
 			</tr>
@@ -169,28 +168,15 @@ overview_page = true %>
 <!-- #include file="../jobsearch.asp" -->
 					<table width="378" style="margin: 0px 0px 90px 0px;" cellpadding="0" cellspacing="0" border="0" summary="">
 						<tr>
-							<td colspan="2" valign="top" width="100%" style="padding: 0px 0px 0px 0px;">
-<div id="L01" style="position: relative; z-index: 12;">
-<img class="dotdiv" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
-<p style="margin: 3px 0px 0px 0px;">
-Throughout Bank&nbsp;of&nbsp;America&#39;s history, we have held one purpose - to help everyone we work with realize their dreams. In fulfilling this purpose, a constant theme in our work has been &ldquo;opportunity.&rdquo;
-</p>
-<p style="margin: 6px 0px 0px 0px;">
-We create opportunities for customers to buy a home, to attend college, or to retire with security. We create opportunities for businesses to grow. We create opportunities for all of us to build stronger communities in which to live and work. And, we also create opportunities for our associates to fulfill their personal and professional potential.
-</p>
-</div>
-							</td>
-						</tr>
-						<tr>
 							<td colspan="2" valign="top" style="padding: 3px 0px 0px 0px;">
 <div id="L02" style="position: relative; z-index: 12;">
 <img class="dotdiv" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
 <p style="margin: 3px 0px 6px 0px;">
-<a href="eeoc.asp" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="Equal Employment Opportunity and Affirmative Action Statement">Equal Employment Opportunity and Affirmative Action Statement</a>
+<a href="eeoc.asp" class="bacb" title="Equal Employment Opportunity and Affirmative Action Statement">Equal Employment Opportunity and Affirmative Action Statement</a>
 </p>
 <img class="dotdiv" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
 <p style="margin: 3px 0px 6px 0px;">
-<a href="eadpn.asp" class="left2" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="Employment Application Data Protection Notice">Employment Application Data Protection Notice</a>
+<a href="eadpn.asp" class="bacb" title="Employment Application Data Protection Notice">Employment Application Data Protection Notice</a>
 </p>
 <img class="dotdiv" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
 							</td>
@@ -221,7 +207,7 @@ We create opportunities for customers to buy a home, to attend college, or to re
 <img src="../images/clear.gif" width="100%" height="1" vspace="0" alt="" border="0" style="background: #c9c9c9; margin: 12px 0px 0px 0px;"><br clear="all">
 <img src="../images/clear.gif" width="100%" height="1" vspace="1" alt="" border="0" style="background: #989898;"><br clear="all">
 </div>
-<div style="text-align: center; margin: 0px; padding: 0px;">
+<div style="text-align: center; margin: 0px 0px 18px 0px; padding: 0px;">
 <!-- #include file="../twitter.asp" -->
 </div>
 				</td>

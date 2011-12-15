@@ -2,8 +2,7 @@
 			<tr valign="top"><td colspan="2" valign="top" class="divt"><img src="../images/clear.gif" width="100%" height="4" alt="" border="0"></td></tr>
 			<tr valign="top">
 				<td width="100%" colspan="2" valign="top">
-<img src="../images/benefits_other_programs.jpg" width="578" height="166" alt="Explore a career with the Bank of Opportunity." title="Explore a career with the Bank of Opportunity." border="0">
-<div class="hidden">Benefits &amp; Other Programs. Explore a career with the Bank of Opportunity.</div>
+<img src="../images/benefits_other_programs.jpg" width="578" height="166" alt="Benefits & Other Programs. Explore a career with the Bank of Opportunity." title="Benefits & Other Programs. Explore a career with the Bank of Opportunity." border="0">
 				</td>
 			</tr>
 			<tr valign="top"><td colspan="2" valign="top" class="divb"><img src="../images/clear.gif" width="100%" height="4" alt="" border="0"></td></tr>
@@ -42,12 +41,7 @@ Our comprehensive Life Management programs are designed to assist employees with
 <H2 class="p" style="margin: 12px 0px 6px 0px; padding: 0px;">
 <a href="<%Response.write href_pre%>retirement.asp" class="bacb" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="Retirement Benefits">Retirement Benefits</a></H2>
 <p style="margin: 0px 0px 0px 0px;">
-We offer a 401(k) retirement savings plan with a company match after one year of service for contributions up to 5% of plan-eligible compensation, a company-funded pension plan, and our Rewarding Success Program, which rewards eligible employees for their contributions to the company's success.</p>
-
-<H2 class="p" style="margin: 12px 0px 6px 0px; padding: 0px;">
-<a href="<%Response.write href_pre%>otherprograms.asp" class="bacb" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="Other Programs: Your Finances, Community Commitments, and Education">Other Programs: Your Finances, Community Commitments, and Education</a></H2>
-<p style="margin: 0px 0px 0px 0px;">
-Bank&nbsp;of&nbsp;America also provides a dedicated Associate Banking &amp; Investments team, assistance with employee home ownership, and multiple programs to support our employees&#39; commitment to volunteerism, charitable giving and education.</p>
+We offer a 401(k) plan with a company match after one year of service for contributions up to 5% of plan-eligible compensation, a company-funded pension plan, and Rewarding Success<span style="font-size: 0.6em; position: relative; top: -0.6em;">&reg;</span></span>, which rewards eligible employees for their contributions to the company's success.</p>
 
 <p style="margin: 12px 0px 0px 0px;"><span style="font-size: 0.9em; line-height: 0.9em;">
 Not all employees are eligible to participate in all benefit programs. The terms and conditions of the benefits described above may be governed by written benefit plans and/or other documents. The above stated description of benefits is intended as a summary and for informational purposes only; this document does not create a contract between the company and any employee or potential employee. All programs and benefits are subject to change at any time.
@@ -67,7 +61,7 @@ Not all employees are eligible to participate in all benefit programs. The terms
 	<H2 class="g" style="margin: 0px 0px 0px 0px;">Related Information</H2>
 	<img src="../images/clear.gif" width="100%" height="1" alt="" border="0" style="margin: 1px 0px 0px 0px; background: #e8e8e9;" align="top"><br clear="all">
 	<div style="padding: 0px 5px 0px 4px;">
-<!-- #include file="../relinfonav.asp" -->
+<!-- #include file="../usrelinfonav.asp" -->
 	</div>					
 </div>
 

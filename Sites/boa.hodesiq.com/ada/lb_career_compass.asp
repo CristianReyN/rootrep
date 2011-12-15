@@ -1,4 +1,7 @@
-<!-- #include file="../Includes/lb_compass.asp" -->
+<%@ Language=VBScript %><%
+Response.Status="404 Not Found"
+Response.Redirect "../overview/overview.asp"
+%><!-- #include file="../Includes/lb_compass.asp" -->
 <% Response.Buffer=True 
 	Dim request_page_number, store_page_number
 	

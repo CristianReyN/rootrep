@@ -2,8 +2,7 @@
 			<tr valign="top"><td colspan="2" valign="top" class="divt"><img src="../images/clear.gif" width="100%" height="4" alt="" border="0"></td></tr>
 			<tr valign="top">
 				<td width="100%" colspan="2" valign="top">
-<img src="../images/gcib.jpg" width="578" height="166" alt="Global Banking & Markets" title="Global Banking & Markets" border="0">
-<div class="hidden">Global Banking & Markets</div>
+<img src="../images/gcib.jpg" width="578" height="166" alt="Global Banking & Markets. Bank of America." title="Global Banking & Markets. Bank of America." border="0">
 				</td>
 			</tr>
 			<tr valign="top"><td colspan="2" valign="top" class="divb"><img src="../images/clear.gif" width="100%" height="4" alt="" border="0"></td></tr>
@@ -14,46 +13,31 @@
 				<td width="100%" valign="top">
 <a name="skipmaincontent"></a><H1 class="hidden">Global Banking &amp; Markets</H1>
 <div style="float: left; width: <% If page_section = "ADA" Then %>357<% ElseIf page_section <> "ADA" Then %>357<%End If%>px;">
-<p style="margin: <% If page_section = "ADA" Then %>12<% Else %>0<%End If%>px <%=right_margin%>px 0px <%=left_margin_0%>px;">
-Global Banking &amp; Markets serves large corporate and institutional clients worldwide. It consists of Global Corporate &amp; Investment Banking, Global Markets and Global Corporate Banking. Aligned with these client-facing groups are Global Capital Markets, Global Research, and Global Banking, Markets and Wealth Management Technology and Operations.
-</p>
+<p class="bac" style="margin: <% If page_section = "ADA" Then %>0<% Else %>0<%End If%>px <%=right_margin%>px 0px <%=left_margin_0%>px;">
+Whether it's raising capital in Mumbai or hedging currencies in Stockholm, the powerful combination of Bank of America Merrill Lynch means we can do more for our clients than any other financial services firm. We understand the challenges our clients face around the world, and we tap the full resources of our company to help them achieve their goals. Our solutions span the complete range of advisory, capital raising, banking, treasury and liquidity, sales and trading, and research capabilities.</p>
+<p class="bac">Global Banking & Markets serves large corporate and institutional clients worldwide. It consists of Global Corporate & Investment Banking and Global Markets. Aligned with these client-facing groups are Global Capital Markets and Global Research.</p>
 
+<h2 class="bacs">Global Corporate & Investment Banking</h2>
+<p class="bac" style="margin-top: 3px;">Global Corporate & Investment Banking (GCIB) focuses on building long-term relationships with more than 3,000 large U.S. and multinational corporations, financial institutions and financial sponsors, by providing strong advisory expertise and capitalizing on powerful mergers and acquisitions, corporate banking, treasury, debt and equity product expertise to deliver integrated financial solutions.</p>
+<p class="bac">Global Corporate Banking includes both the Corporate Banking coverage officers as well as the product development and delivery capabilities that are part of Global Treasury Solutions. Bringing together corporate bankers with product delivery officers and the product development team helps us more fully integrate corporate banking product capabilities with our client coverage model, further pulling the business together end-to-end in partnership with investment banking.</p>
 
-<H2 class="p" style="margin: 12px 0px 0px 0px; padding: 0px;"><b>Global Corporate &amp; Investment Banking</b></H2>
-<p style="margin: 0px;">
-Global Corporate &amp; Investment Banking (GCIB) focuses on building long-term relationships with more than 3,000 large U.S. and multinational corporations, financial institutions and financial sponsors, by providing strong advisory expertise and capitalizing on powerful M&amp;A, corporate banking, treasury, debt and equity product expertise to deliver integrated financial solutions.
-</p>
+<h2 class="bacs">Global Capital Markets</h2>
+<p class="bac" style="margin-top: 3px;">Global Capital Markets originates a wide variety of equity and debt capital offerings as well as risk management products. When an issuer client decides to raise capital in the public or private markets, corporate and investment bankers turn to the Capital Markets team. Capital Markets partners with the coverage team and advises clients on optimal methods to access capital, whether it is for acquisitions, refinancing or strengthening their balance sheets. The offerings can comprise equities, bonds, bank debt, private placements or a combination of securities.</p>
 
-<H2 class="p" style="margin: 12px 0px 0px 0px; padding: 0px;"><b>Global Markets</b></H2>
-<p style="margin: 0px;">
-Global Markets delivers a wide range of securities products and services, powerful sales and trading capabilities and deep risk management expertise across asset classes.  Closely aligned with GCIB&#39;s client-managed groups, Global Markets product specialists anticipate and meet the needs of more than 3,000 institutional investors and 7,000 issuer clients.
-</p>
+<h2 class="bacs">Global Markets</h2>
+<p class="bac" style="margin-top: 3px;">Global Markets delivers a wide range of securities products and services, powerful sales and trading capabilities and deep risk management expertise across asset classes. Closely aligned with GCIB's client-managed groups, Global Markets product specialists anticipate and meet the needs of more than 13,000 clients across 13 time zones and six continents.</p>
 
-<H2 class="p" style="margin: 12px 0px 0px 0px; padding: 0px;"><b>Global Corporate Banking</b></H2>
-<p style="margin: 0px;">
-Global Corporate Banking includes both the Corporate Banking coverage officers as well as the product development and delivery capabilities that have most recently been a part of Global Product Solutions.  Bringing together corporate bankers with product delivery officers and the product development team helps us more fully integrate corporate banking product capabilities with our client coverage model, further pulling the business together end-to-end in partnership with investment banking.
-</p>
-
-<H2 class="p" style="margin: 12px 0px 0px 0px; padding: 0px;"><b>Global Capital Markets</b></H2>
-<p style="margin: 0px;">
-Global Capital Markets originates a wide variety of equity and debt capital offerings as well as risk management products.  When an issuer client decides to raise capital in the public or private markets, corporate and investment bankers turn to the Capital Markets team.  Capital Markets partners with the coverage team and advises clients on optimal methods to access capital, whether it is for acquisitions, refinancing or strengthening their balance sheets.  The offerings can comprise equities, bonds, bank debt, private placements or a combination of securities.
-</p>
-
-<H2 class="p" style="margin: 12px 0px 0px 0px; padding: 0px;"><b>Global Research</b></H2>
-<p style="margin: 0px;">
-More than 700 professionals of the award winning Global Research organization support the institutional sales and trading teams and their clients.  Their expertise is at the core of the value delivered to investor clients.  Research analysts provide insightful, objective and decisive research designed to enable clients to make informed investment decisions in three primary disciplines:
-</p>
-<ul style="margin-top: 3px;">
-	<li>Global equity research analysts provide fundamental analysis on nearly 3,000 companies domiciled in 50 countries.</li>
-	<li>Global credit research encompasses high grade, high yield, credit strategy, credit derivatives, mortgages and other structured finance, convertibles, municipals and indices.</li>
-	<li>Global macro research encompasses economics, currencies, commodities, rates, derivatives and equity investment strategies.</li>
+<h2 class="bacs">Global Research</h2>
+<p class="bac" style="margin-top: 3px;">More than 800 professionals of the award winning Global Research organization support the institutional sales and trading teams and their clients. Their expertise is at the core of the value delivered to investor clients. Research analysts provide insightful, objective and decisive research designed to enable clients to make informed investment decisions in six primary disciplines:</p>
+<ul class="bac" style="margin-top: 3px;">
+	<li><b>Global Equities</b> employs over 500 analysts in 20 countries. Analysts conduct fundamental analysis on more than 3,300 companies globally, providing institutional and retail clients with industry-specific and in-depth research and analysis on more than 25 global industries.</li>
+	<li><b>Global Credit Research & GEM Fixed Income Strategy</b> encompasses High Grade, High Yield, Credit Strategy, Credit Derivatives, Mortgages and other Structured Finance, Municipals, Indices, Emerging Markets (EM) Credit Strategy and EM Corporate Credit Research. Our analysts provide in-depth capital structure analysis for Corporates and value-added investment ideas for today's Credit-driven financial markets.</li>
+	<li><b>Global Equity Strategy</b> offers in-depth analysis of critical global issues, across disciplines, regions and asset classes, providing clients with investment ideas and macro overviews.</li>
+	<li><b>Global Economics</b> provides coverage of fiscal and monetary policy and economic news that moves financial markets. Our team at Bank of America Merrill Lynch Global Research forecasts the key macroeconomic drivers for more than 60 economies, and offers in-depth, thematic research on issues such as the liquidity cycle, inflation and demographics.</li>
+	<li><b>Global Commodities</b> encompasses Fundamental Strategy, Derivatives and Portfolio Strategy, Metals and Bulks.  The team provides forecasts and recommendations on over 20 commodities.</li>
+	<li><b>Global Rates and Currency</b> encompasses, our Rates, Foreign Exchange and Portfolio and Risk Strategy. Our analysts provide coverage on over 40 currencies.</li>
 </ul>
 
-<H2 class="p" style="margin: 12px 0px 0px 0px; padding: 0px;"><b>Global Banking, Markets and Wealth Management Technology &amp; Operations</b></H2>
-<p style="margin: 0px;">
-GBMWM T&amp;O provides global technology and operations support for markets trading, investment banking, corporate/ commercial banking, wealth management and research organizations.  In addition, GBMWM T&amp;O supports corporate investments, corporate treasury and global risk infrastructures worldwide.
-</p>
-<br><br>
 </div>
 <div style="float: right; margin: 0px 0px 0px <%=right_margin_split%>px; padding: 0px; width: 201px;">
 	<div style="width: 201px; text-align: left; border: 1px solid #e8e8e9; background: #ffffff; margin: 0px 0px 0px 0px; padding: 0px 0px 6px 0px;">

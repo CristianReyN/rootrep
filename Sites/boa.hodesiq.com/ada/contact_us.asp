@@ -1,9 +1,12 @@
-<% Response.Buffer=True 
+<%@ Language=VBScript %><%
+Response.Status="404 Not Found"
+Response.Redirect "../overview/overview.asp"
+%><% Response.Buffer=True 
 Dim title, mpage, spage, ada_href, ada_title, page_section, Metatag%>
 <!-- #include file="../includes/breadcrumb.asp" -->
 <% title = breadcrumb & "Contact Us"
-mpage = "contactus"
-spage = ""
+mpage = "overview"
+spage = "contactus"
 standart_href = "../overview/contact_us.asp"
 Metatag="Contact us if you have questions about the Bank of America Careers site."
 page_self = "../ada/contact_us.asp"

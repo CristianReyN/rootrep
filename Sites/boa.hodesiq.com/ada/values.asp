@@ -1,9 +1,12 @@
-<% Response.Buffer=True 
+<%@ Language=VBScript %><%
+Response.Status="404 Not Found"
+Response.Redirect "../overview/overview.asp"
+%><% Response.Buffer=True 
 Dim title, mpage, spage, ada_href, ada_title, page_section, Metatag
-mpage = "locations"
-spage = "united_states"
-tpage = "corpinfo"
-fpage = "values"
+mpage = "about_us"
+spage = "values"'
+tpage = ""
+fpage = ""
 %>
 <!-- #include file="../includes/breadcrumb.asp" -->
 <%

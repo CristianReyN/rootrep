@@ -2,7 +2,7 @@
 <div class="cmpp">
 		<div class="cmpl">
 			<div class="prg"><div class="prg1"><div class="prg2"><div class="prg3"><div class="prg4"><div class="prg5"><div class="prg6"><div class="prg7"><div class="prg8"><div class="prgw">
-<h1 class="bac"><%=program.Item("title")%></h1>
+<h1 class="bac"><%=Replace(program.Item("title"), "Associate Fixed", "Associate<br>Fixed")%></h1>
 
 <div class="expanded">
 <% call expandableH2("our_business", true) %>

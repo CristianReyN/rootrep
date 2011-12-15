@@ -2,8 +2,7 @@
 			<tr valign="top"><td colspan="2" valign="top" class="divt"><img src="../images/clear.gif" width="100%" height="4" alt="" border="0"></td></tr>
 			<tr valign="top">
 				<td width="100%" colspan="2" valign="top">
-<img src="../images/gcsbbr.jpg" width="578" height="166" alt="Explore a career with the Bank of Opportunity." title="Explore a career with the Bank of Opportunity." border="0">
-<div class="hidden">Global Consumer &amp; Small Business Banking. Explore a career with the Bank of Opportunity.</div>
+<img src="../images/gcsbbr.jpg" width="578" height="166" alt="Global Consumer & Small Business Banking. Explore a career with the Bank of Opportunity." title="Global Consumer & Small Business Banking. Explore a career with the Bank of Opportunity." border="0">
 				</td>
 			</tr>
 			<tr valign="top"><td colspan="2" valign="top" class="divb"><img src="../images/clear.gif" width="100%" height="4" alt="" border="0"></td></tr>
@@ -16,7 +15,7 @@
 <p style="margin: 0px 0px 12px 0;">
 Every day, Bank of America's Global Consumer &amp; Small Business Banking group is working to create new opportunities for millions of households and countless small businesses.
 <br><br>
-Our 6,100+ retail banking offices, nearly 18,500 ATMs and our award winning online banking  with 29 million active users, keep consumers, entrepreneurs and businesses connected day and night to our network of opportunity and success.
+Our 5,800+ retail banking offices, nearly 18,500 ATMs and our award winning online banking  with 29 million active users, keep consumers, entrepreneurs and businesses connected day and night to our network of opportunity and success.
 <br><br>
 As the leading provider of checking, savings, credit and debit cards and home equity lending, Bank of America is making a difference and helping to shape the future of global banking.
 <br><br>

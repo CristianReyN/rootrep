@@ -1,4 +1,4 @@
-<!-- #include file="../../../includes/video_profiles.asp" --><% Set video_profile = video_profiles.Item("Howard") %><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!-- #include file="../../../Includes/utilities.asp" --><!-- #include file="../../../includes/video_profiles.asp" --><% Set video_profile = video_profiles.Item("Howard") %><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html lang="en">
 <head>
 <meta http-equiv="content-type" content="text/html; charset=iso-8859-1">
@@ -21,6 +21,8 @@
 		<div class="mdv-content">
 <!-- #include file="transcript.html" -->
 		</div>
-	</div>
+	</div><% js_path = "../../../Includes/" %>
+<!-- #include file="../../../Includes/cm.asp" -->
+<!-- #include file="../../../Includes/coremetrics.asp" -->
 </body>
 </html>

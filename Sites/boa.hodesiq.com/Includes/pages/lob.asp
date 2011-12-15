@@ -2,8 +2,7 @@
 			<tr valign="top"><td colspan="2" valign="top" class="divt"><img src="../images/clear.gif" width="100%" height="4" alt="" border="0"></td></tr>
 			<tr valign="top">
 				<td width="100%" colspan="2" valign="top">
-<img src="../images/lob.jpg" width="578" height="166" alt="Explore a career with the Bank of Opportunity." title="Explore a career with the Bank of Opportunity." border="0">
-<div class="hidden">Lines of Business. Explore a career with the Bank of Opportunity.</div>
+<img src="../images/lob.jpg" width="578" height="166" alt="Lines of Business. Explore a career with the Bank of Opportunity." title="Lines of Business. Explore a career with the Bank of Opportunity." border="0">
 				</td>
 			</tr>
 			<tr valign="top"><td colspan="2" valign="top" class="divb"><img src="../images/clear.gif" width="100%" height="4" alt="" border="0"></td></tr>
@@ -20,10 +19,19 @@ Opportunity awaits. Learn more about:
 <%	href_pre = ""
 	if page_section <> "ADA" then href_pre = "../learnmore/" %>
 <a href="<%	if page_section <> "ADA" then%>../learnmore/lobgcsbb.asp<% Else %>lobgcsbb.asp<%End If %>" class="left2" title="Global Consumer &amp; Small Business Banking">Global Consumer &amp; Small Business Banking</a>
+
 <br><br>
-<a href="<%	if page_section <> "ADA" then%>../gbmarketswealthmanagement/<% Else %>lobgbmwm.asp<%End If %>" class="left2" title="Global Banking, Markets and Wealth &amp; Investment Management">Global Banking, Markets and Wealth &amp; Investment Management</a>
+<a href="<%	if page_section <> "ADA" then%>../gcib/<% Else %>lobgcib.asp<%End If %>" class="left2" title="Global Banking &amp; Markets">Global Banking &amp; Markets</a>
 <br><br>
-<a href="<%	if page_section <> "ADA" then%>../technology/<% Else %>lobgto.asp<%End If %>" class="left2" title="Global Technology">Global Technology</a>
+<a href="<%	if page_section <> "ADA" then%>../globalcommercialbanking/<% Else %>lobgcb.asp<%End If %>" class="left2" title="Global Commercial Banking">Global Commercial Banking</a>
+<br><br>
+<a href="<%	if page_section <> "ADA" then%>../wealthmanagement/<% Else %>lobgwim.asp<%End If %>" class="left2" title="Global Wealth &amp; Investment Management">Global Wealth &amp; Investment Management</a>
+<br><br>
+<a href="<%	if page_section <> "ADA" then%>../financialadvisor/<% Else %>lobfa.asp<%End If %>" class="left2" title="Financial Advisor">Financial Advisor</a>
+
+
+<br><br>
+<a href="<%	if page_section <> "ADA" then%>../technology/<% Else %>lobgto.asp<%End If %>" class="left2" title="Global Technology &amp; Operations">Global Technology &amp; Operations</a>
 <br><br>
 <a href="<% Response.write href_pre %>lobcss.asp" class="left2" title="Corporate Staff &amp; Support">Corporate Staff &amp; Support</a>
 <br><br>

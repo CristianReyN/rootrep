@@ -1,4 +1,7 @@
-<% Response.Buffer=True 
+<%@ Language=VBScript %><%
+Response.Status="301 Moved Permanently"
+Response.Redirect "../CFOgroup/"
+%><% Response.Buffer=True 
 Dim title, mpage, spage, ada_href, ada_title, page_section, Metatag
 mpage = "lob"
 spage = "lobcss"

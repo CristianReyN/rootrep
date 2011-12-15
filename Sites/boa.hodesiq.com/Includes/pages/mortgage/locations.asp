@@ -3,7 +3,6 @@
 			<tr valign="top">
 				<td width="100%" colspan="2" valign="top">
 <img src="../../images/mortgage_locations.jpg" width="578" height="166" alt="Mortgage Locations. Bank of America." title="Mortgage Locations. Bank of America." border="0">
-<div class="hidden">Mortgage Locations. Bank of America.</div>
 				</td>
 			</tr>
 			<tr valign="top"><td colspan="2" valign="top" class="divb"><img src="../../images/clear.gif" width="100%" height="4" alt="" border="0"></td></tr>

@@ -2,7 +2,6 @@
 		<table width="578" cellpadding="0" cellspacing="0" border="0" summary="">
 			<tr valign="top">
 				<td height="100%" valign="top" style="<%=middle_content_padding%>">
-
 <div id="Layer1" style="position: relative; z-index: 12;">
 <img class="dotdiv" style="margin: 0px 0px 5px 0px;" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
 <p style="margin: 0px;">Bank&nbsp;of&nbsp;America is committed to offering work place options that enhance associate satisfaction, the ability to competitively attract and retain associates and meet our business needs. We are also committed to environmental leadership in our communities. By reducing associate commutes and developing My Work centers that are environmentally friendly, we are able to reduce fuel consumption and greenhouse gas emissions across the country.
@@ -82,7 +81,7 @@ Non-Bank of America associates visit: <a href="http://www.bankofamerica.com" tar
 	<H2 class="g" style="margin: 0px 0px 0px 0px;">Related Information</H2>
 	<img src="../images/clear.gif" width="100%" height="1" alt="" border="0" style="margin: 1px 0px 0px 0px; background: #e8e8e9;" align="top"><br clear="all">
 	<div  style="padding: 0px 5px 0px 4px;">
-<!-- #include file="../relinfonav.asp" -->
+<!-- #include file="../usrelinfonav.asp" -->
 	</div>					
 </div>
 

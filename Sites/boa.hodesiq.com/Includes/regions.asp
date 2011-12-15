@@ -1,15 +1,4 @@
 <%
-	Function InArray(value, ar_ray) 
-		Dim in_array
-		in_array = False
-		For Each v In ar_ray
-  			If CStr(v) = CStr(value) Then
-				in_array = True
-			End If
-		Next
-		InArray = in_array
-	End Function
-	
 	Dim regions
 	
 	Function getImage(  i_d, na_me, a_l_t )

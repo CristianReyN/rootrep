@@ -2,8 +2,7 @@
 			<tr valign="top"><td colspan="2" valign="top" class="divt"><img src="../images/clear.gif" width="100%" height="4" alt="" border="0"></td></tr>
 			<tr valign="top">
 				<td width="100%" colspan="2" valign="top">
-<img src="../images/lobfaemea.jpg" width="578" height="166" alt="Financial Advisor" title="Financial Advisor" border="0">
-<div class="hidden">Financial Advisor</div>
+<img src="../images/lobfaemea.jpg" width="578" height="166" alt="Financial Advisor. Bank of America." title="Financial Advisor. Bank of America." border="0">
 				</td>
 			</tr>
 			<tr valign="top"><td colspan="2" valign="top" class="divb"><img src="../images/clear.gif" width="100%" height="4" alt="" border="0"></td></tr>

@@ -2,8 +2,7 @@
 			<tr valign="top"><td valign="top" class="divt"><img src="../../images/clear.gif" width="100%" height="4" alt="" border="0"></td></tr>
 			<tr valign="top">
 				<td width="100%" valign="top">
-<img src="../../images/mortgage.jpg" width="578" height="166" alt="Bank of America Home Loans." title="Bank of America Home Loans." border="0">
-<div class="hidden">Bank of America Home Loans.</div>
+<img src="../../images/mortgage.jpg" width="578" height="166" alt="Bank of America Home Loans" title="Bank of America Home Loans" border="0">
 				</td>
 			</tr>
 			<tr valign="top"><td colspan="2" valign="top" class="divb"><img src="../../images/clear.gif" width="100%" height="4" alt="" border="0"></td></tr>
@@ -14,38 +13,9 @@
 				<td width="100%" valign="top">
 <a name="skipmaincontent"></a><H1 class="hidden">Mortgage Careers</H1>
 <div style="float: left; width: 357px;">
-	<p style="margin: 0px <%=right_margin%>px 0px <%=left_margin_0%>px;">
-<b>Bank&nbsp;of&nbsp;America&#39;s commitment to the mortgage industry is focused on continuous growth, increased teamwork, and excellent customer service.</b>
-	</p>
-	<p style="margin: 12px <%=right_margin%>px 0px <%=left_margin_0%>px;">
-As the nation&#39;s largest loan servicer, Bank&nbsp;of&nbsp;America Home Loans embraces a commitment to responsible home lending.
-	</p>
-	<p style="margin: 12px <%=right_margin%>px 0px <%=left_margin_0%>px;">
-Our every action is focused on Bringing Opportunity Home for those we serve, assisting new and existing customers in achieving their dreams of home ownership and preservation.
-	</p>
-<%
-	If page_section = "ADA" Then
-		If mpage = "areasoftalent" Then
-			href = "../ada/locations.asp"
-		ElseIf mpage = "lob" Then
-			href = "../ada/lob_locations.asp"
-		End If
-	Else
-		If mpage = "areasoftalent" Then
-			href = "../mortgagecareers/locations.asp"
-		ElseIf mpage = "lob" Then
-			href = "../mortgage/locations.asp"
-		End If
-	End If
-%>
-	<p style="margin: 12px <%=right_margin%>px 0px <%=left_margin_0%>px;">
-To meet this challenge, Bank&nbsp;of&nbsp;America relies on a world-class team of associates operating out of <a class="p" href="<%=href%>" title="Locations">locations</a> across the country.
-	</p>
-	<p style="margin: 12px <%=right_margin%>px 0px <%=left_margin_0%>px;">
-Individuals who choose to build a career at Bank&nbsp;of&nbsp;America Home Loans typically join in one of the following areas:
-	</p>
-	<p style="margin: 12px <%=right_margin%>px 0px <%=left_margin_0%>px;">
-	<ul>
+<p class="bac" style="margin-top: 0px;"><b>Bank&nbsp;of&nbsp;America&#39;s commitment to the mortgage industry is focused on continuous growth, increased teamwork, and excellent customer service.</b></p>
+<p class="bac">As the nation&#39;s largest loan servicer, Bank&nbsp;of&nbsp;America Home Loans embraces a commitment to responsible home lending. Our every action is focused on Bringing Opportunity Home for those we serve, assisting new and existing customers in achieving their dreams of home ownership and preservation.</p>
+<p class="bac">Individuals who choose to build a career at Bank&nbsp;of&nbsp;America Home Loans typically join in one of the following areas:</p>
 <%
 	If page_section = "ADA" Then
 		If mpage = "areasoftalent" Then
@@ -61,23 +31,7 @@ Individuals who choose to build a career at Bank&nbsp;of&nbsp;America Home Loans
 		End If
 	End If
 %>
-		<li><a class="p" href="<%=href%>" title="Fulfillment">Fulfillment</a></li>
-<%
-	If page_section = "ADA" Then
-		If mpage = "areasoftalent" Then
-			href = "../ada/mortgagesales.asp"
-		ElseIf mpage = "lob" Then
-			href = "../ada/lob_mortgagesales.asp"
-		End If
-	Else
-		If mpage = "areasoftalent" Then
-			href = "../mortgagecareers/mortgagesales.asp"
-		ElseIf mpage = "lob" Then
-			href = "../mortgage/mortgagesales.asp"
-		End If
-	End If
-%>
-		<li><a class="p" href="<%=href%>" title="Mortgage Sales">Mortgage Sales</a></li>
+<p class="bac"><a class="bacb" href="<%=href%>" title="Home Loans">Home Loans</a></p>
 <%
 	If page_section = "ADA" Then
 		If mpage = "areasoftalent" Then
@@ -93,20 +47,17 @@ Individuals who choose to build a career at Bank&nbsp;of&nbsp;America Home Loans
 		End If
 	End If
 %>
-		<li><a class="p" href="<%=href%>" title="Servicing">Servicing</a></li>
-	</ul>
-	</p>
-	<p style="margin: 12px <%=right_margin%>px 0px <%=left_margin_0%>px;">
-We encourage you to explore each of these areas and learn more about how our organization can help you achieve your own personal and professional goals.
-	</p>
+<p class="bac"><a class="bacb" href="<%=href%>" title=" Legacy Asset Servicing"> Legacy Asset Servicing</a></p>
+<p class="bac">We encourage you to explore each of these areas and learn more about how our organization can help you achieve your own personal and professional goals.</p>
 <%
 '******* HOT JOB OPENING '*******
 Dim familyid, talentid, globaljobsfamilyids, rowcount
-talentid=12
-globaljobsfamilyids="7,8,21,22,23,26,28,30"
-rowcount=6
+talentid=""'12
+familyid="17"
+globaljobsfamilyids=""'globaljobsfamilyids="7,8,21,22,23,26,28,30"
+rowcount=12
 %>
-	<H2 class="h2" style="margin: 12px <%=right_margin%>px 2px 0px;">New Opportunities</H2>
+	<H2 class="h2" style="margin: 12px <%=right_margin%>px 2px 0px;">Recently Posted Opportunities</H2>
 	<table cellpadding="2" cellspacing="0" border="0" summary="" style="margin-left: <%=left_margin_0%>px;">
 <!--#include file="../../../hot_jobs.asp"-->
 	</table>

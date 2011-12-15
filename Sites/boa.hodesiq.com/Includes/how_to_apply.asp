@@ -1,17 +1,5 @@
 <%
-Function InArray(item,A)
-	Dim i
-	For i=0 To UBound(A) Step 1
-		If A(i) = item Then
-			InArray=True
-			Exit Function
-		End If
-	Next
-	InArray=False
-End Function
-
 Function howToApply (program)
-	
 	If ( program.Item("region") = ASIA AND program.Item("degree") = ASSOCIATE AND program.Item("fulltime_intern") = FULLTIME) OR _
 		InArray(program.Item("url"), Array( _
 			"asiafs-global-capital-markets-associate-program.asp", _

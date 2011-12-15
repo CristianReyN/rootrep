@@ -2,8 +2,7 @@
 			<tr valign="top"><td valign="top" class="divt"><img src="../images/clear.gif" width="100%" height="4" alt="" border="0"></td></tr>
 			<tr valign="top">
 				<td width="100%" valign="top">
-<img src="../images/rm.jpg" width="578" height="166" alt="Explore a career with the Bank of Opportunity." title="Explore a career with the Bank of Opportunity." border="0">
-<div class="hidden">Risk Management. Explore a career with the Bank of Opportunity.</div>
+<img src="../images/rm.jpg" width="578" height="166" alt="Risk Management. Explore a career with the Bank of Opportunity." title="Risk Management. Explore a career with the Bank of Opportunity." border="0">
 				</td>
 			</tr>
 			<tr valign="top"><td colspan="2" valign="top" class="divb"><img src="../images/clear.gif" width="100%" height="4" alt="" border="0"></td></tr>
@@ -26,33 +25,17 @@ Specific areas of Global Risk Management are:
 <p style="margin: 0px 0px 0px <%=left_margin_0%>px;">
 <ul>
 	<li>Asia Pacific Risk</li>
-	<li>Consumer Risk</li>
+	<li>Canada, Europe &amp; Emerging Markets</li>
+	<li>Consumer Real Estate Services Risk</li>
+	<li>Consumer Small Business Banking Risk</li>
 	<li>Corporate Operational Risk</li>
 	<li>Enterprise Credit Risk</li>
-	<li>Global Banking Risk Management</li>
 	<li>Global Commercial Banking Risk</li>
-	<li>Global Compliance Risk</li>
-	<li>Global Markets Risk Management</li>
-	<li>Global Wealth and Investment Management Risk Management</li>
-	<li>Home Loans &amp; Insurance Risk</li>
-	<li>International Risk Strategy</li>
-	<li>Special Situations Risk Management</li>
+	<li>Global Banking Risk</li>
+	<li>Global Markets Risk</li>
+	<li>Global Wealth &amp; Investment Management Risk</li>
 </ul>
 </p>
-<br>
-<%
-'******* HOT JOB OPENING '*******
-Dim familyid, talentid, globaljobsfamilyids, rowcount
-talentid=7
-'globaljobsfamilyids="26,25,27"
-globaljobsfamilyids="26"
-rowcount=6
-%>
-<H2 class="h2" style="margin: 12px <%=right_margin%>px 2px <%=left_margin_0%>px;">New Opportunities</H2>
-<table cellpadding="2" cellspacing="0" border="0" summary="" style="margin-left: <%=left_margin_0%>px;">
-<!--#include file="../../hot_jobs.asp"-->
-</table>
-<br><br>
 </div>
 <div style="float: right; margin: 0px 0px 0px <%=right_margin_split%>px; padding: 0px; width: 201px;">
 	<div style="width: 201px; text-align: left; border: 1px solid #e8e8e9; background: #ffffff; margin: 0px 0px 0px 0px; padding: 0px 0px 6px 0px;">

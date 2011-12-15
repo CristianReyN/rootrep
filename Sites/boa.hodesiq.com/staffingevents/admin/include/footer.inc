@@ -1,0 +1,3 @@
+<table width="900" cellpadding="0" cellspacing="0" border="0" align=left><tr><td><IMG SRC="images/spacer.gif" WIDTH="685" HEIGHT="20" BORDER="0"></td></tr><tr><td bgcolor="#D4001A" align="center"><table cellpadding="2" cellspacing="0" border="0"><tr><td><IMG SRC="images/spacer.gif" WIDTH="685" HEIGHT="5" BORDER="0"></td></tr><tr><td align="center"><span class="coptxt">&nbsp;</span></td></tr></table></td></tr><tr><td align="center"><IMG SRC="images/spacer.gif" WIDTH="100" HEIGHT="8" BORDER="0"><br><span class="gryfttxt">Bank of America, N.A. Member FDIC. Equal Housing Lender <IMG SRC="images/house.gif"  BORDER="0">
+<br>&copy; <%=Year(Now())%> Bank of America Corporation. All rights reserved.
+</span><br><br></td></tr></table>

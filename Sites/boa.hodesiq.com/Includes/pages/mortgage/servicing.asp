@@ -2,8 +2,7 @@
 			<tr valign="top"><td colspan="2" valign="top" class="divt"><img src="../../images/clear.gif" width="100%" height="4" alt="" border="0"></td></tr>
 			<tr valign="top">
 				<td width="100%" colspan="2" valign="top">
-<img src="../../images/mortgage_servicing.jpg" width="578" height="166" alt="Mortgage Servicing. Bank of America." title="Mortgage Servicing. Bank of America." border="0">
-<div class="hidden">Mortgage Servicing. Bank of America.</div>
+<img src="../../images/banners/legacy_asset_servicing.jpg" width="578" height="166" alt="Legacy Asset Servicing. Bank of America." title="Legacy Asset Servicing. Bank of America." border="0">
 				</td>
 			</tr>
 			<tr valign="top"><td colspan="2" valign="top" class="divb"><img src="../../images/clear.gif" width="100%" height="4" alt="" border="0"></td></tr>
@@ -13,26 +12,43 @@
 		<table width="578" cellpadding="0" cellspacing="0" border="0" summary="">
 			<tr valign="top">
 				<td width="373" height="100%" valign="top" style="padding: 0px <%=right_margin%>px 0px <%=left_margin_0%>px;">
-<H1 class="hidden">Mortgage Servicing</H1>
-<p class="bacg">Our&nbsp;</p><H2 class="bacg">Loan Servicing</H2><p class="bacg">&nbsp;group provides vital support to the Bank&#39;s&nbsp;Mortgage units through the completion of multiple tasks associated with the daily management of closed mortgage loans.  The successful administration of these duties bolsters our level of customer service, and continually strengthens our reputation as the world&#39;s most trusted lender.</p>
-<br><img src="../../images/clear.gif" width="10" height="12" alt="" border="0" /><br>
-<p class="bacg">These various tasks include, but may not be limited to: the application of monthly loan payments, administering the escrow account for the payment of property taxes and insurance, providing customer service, collecting on delinquent accounts, and various default servicing activities in an effort to help the borrower retain the property while mitigating losses to the bank and investor.</p>
-<br><img src="../../images/clear.gif" width="10" height="12" alt="" border="0" /><br>
-<p class="bacg">The two largest areas of servicing include Customer Contact and Relationship Deepening, and Home Retention.</p>
-<br><img src="../../images/clear.gif" width="10" height="12" alt="" border="0" /><br>
-<H2 class="bacg">Customer Contact and Relationship Deepening</H2><p class="bacg">&nbsp;is responsible for answering incoming customer calls, e-mails or letters and addressing a wide variety of questions related to the mortgage or home equity loan.  Through these interactions with the customers, this group will also look for opportunities to cross sell other bank products and services.</p>
-<br><img src="../../images/clear.gif" width="10" height="12" alt="" border="0" /><br>
-<H2 class="bacg">Home Retention</H2><p class="bacg">&nbsp;works with the customer once an account becomes past due.  They gather information in order to understand the customer&#39;s financial situation, and will work with them to find alternatives to having to foreclose on the loan.  These alternatives may include a special repayment plan, or a loan modification.</p>
-<br><img src="../../images/clear.gif" width="10" height="12" alt="" border="0" /><br>
-<p class="bacg">Join Bank&nbsp;of&nbsp;America Home Loans today, and use your skills and knowledge to start Bringing Opportunity Home &mdash; for customers, and for yourself.</p>
+<H1 class="hidden">Mortgage Legacy Asset Servicing</H1>
+<p class="bac" style="margin-top: 0px;">Bank of America Legacy Asset Servicing is dedicated to addressing the special needs of distressed mortgage customers, and is committed to delivering fair, fast and final resolution to their situation. We provide solutions that range from loan modifications to foreclosure alternatives such as short sales and deeds in lieu; and in cases where foreclosure is unavoidable, we offer specialized support services to borrowers who must transition out of their home. We are committed to hiring top talent to join our team and help provide the best possible customer experience.</p>
+
+<p class="bac">Individuals who choose to build a career with Bank of America Legacy Asset Servicing typically join one of the following teams:</p>
+<p class="bac">
+Home Retention<br>
+Credit Loss Mitigation<br>
+Quality Control<br>
+Customer Outreach and Advocacy<br>
+Servicing Initiatives</p>
+
+<p class="bac">We encourage you to explore each of these areas and learn more about how our organization can help you achieve your own personal and professional goals.</p>
+
+<h2 class="bacs">Home Retention</h2>
+<p class="bac">Our Home Retention team works with customers whose mortgage accounts have become past due, gathering information to understand their financial situation and working with them to review their available options. The team's goal is to help borrowers remain in their homes, while mitigating losses to the bank and investor. When that is not possible, teammates ensure customers receive a dignified transition to alternative housing.</p>
+
+<h2 class="bacs">Credit Loss Mitigation</h2>
+<p class="bac">The Credit Loss Mitigation team is responsible for developing home retention strategies; managing loss mitigation programs; managing the delinquent mortgage portfolio; and loss forecasting. The team also provides investor services and develops secondary markets for the bank's loan products.</p>
+
+<h2 class="bacs">Quality Control</h2>
+<p class="bac">The Quality Control team leads the validation, monitoring and testing of key programs and processes in support of Bank of America's overall risk framework. The team delivers a high level of transparency to ensure senior management has an accurate view of process performance; provides timely notice of any compliance issues; and reports on remediation efforts.</p>
+
+<h2 class="bacs">Customer Outreach and Advocacy</h2>
+<p class="bac">The Customer Outreach and Advocacy team leads the bank's efforts to provide assistance and solutions to customers experiencing financial difficulty. The team has evaluated some of the hardest-hit areas in the country and established a local presence in the community using face-to-face interactions between homeowners and bank representatives. These efforts include participating in mortgage outreach events, opening Customer Assistance Centers, and conducting mobile tours. The team also maintains relationships with non-profit housing groups to provide financial budget counseling resources.</p>
+
+<h2 class="bacs">Servicing Initiatives</h2>
+<p class="bac">The Servicing Initiatives team leads change and process improvements across the Legacy Asset Servicing organization. The team prioritizes and manages change initiatives, and ensures their effective design, implementation and improvement is effectively managed across people, process and technology.</p>
+
 <%
 '******* HOT JOB OPENING '*******
 Dim familyid, talentid, globaljobsfamilyids, rowcount
-talentid=12
-globaljobsfamilyids="7,8,21,22,23,26,28,30"
-rowcount=6
+talentid=""'12
+familyid="17"
+globaljobsfamilyids=""'globaljobsfamilyids="7,8,21,22,23,26,28,30"
+rowcount=12
 %>
-<H2 class="h2" style="margin: 12px <%=right_margin%>px 2px 0px;">New Opportunities</H2>
+<H2 class="h2" style="margin: 12px <%=right_margin%>px 2px 0px;">Recently Posted Opportunities</H2>
 <table cellpadding="2" cellspacing="0" border="0" summary="" style="margin-left: <%=left_margin_0%>px;">
 <!--#include file="../../../hot_jobs.asp"-->
 </table>

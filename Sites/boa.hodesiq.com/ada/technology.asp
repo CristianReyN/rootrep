@@ -1,4 +1,7 @@
-<% Response.Buffer=True 
+<%@ Language=VBScript %><%
+Response.Status="301 Moved Permanently"
+Response.Redirect "../tech/"
+%><% Response.Buffer=True 
 Dim title, mpage, spage, ada_href, ada_title, page_section, Metatag%>
 <!-- #include file="../includes/breadcrumb.asp" -->
 <% title = breadcrumb & "Technology"
@@ -26,7 +29,7 @@ flashPage = false
 	<td valign="top" width="578" height="100%">
 <!-- Body-->
 <img src="../images/clear.gif" width="15" height="4" alt="" border="0"><br>
-<!-- #include file="../includes/pages/lobgto.asp" -->
+<!-- #include file="../includes/pages/technology.asp" -->
 <br><br>
 <!-- Body-->
 	</td>

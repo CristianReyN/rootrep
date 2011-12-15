@@ -6,6 +6,7 @@ Set page_titles  = Server.CreateObject("Scripting.Dictionary")
 	
 	' LINES OF BUSINESS SECTION
 	'mpage
+	page_titles.add "about_us", "About Us"
 	page_titles.add "lob", "Lines of Business"
 	'spage
 	page_titles.add "lob_mortgagecareers", "Mortgage Careers"
@@ -37,6 +38,9 @@ Set page_titles  = Server.CreateObject("Scripting.Dictionary")
 	page_titles.add "lob_locations", "Locations"
 	page_titles.add "lob_mortgagesales", "Mortgage Sales"
 	page_titles.add "lob_servicing", "Servicing"
+	page_titles.add "globalcompliance", "Global Compliance"
+	page_titles.add "corporateaudit", "Corporate Audit"
+	page_titles.add "legal", "Legal"
 	
 	
 	' LOCATIONS AND RELATED INFORMATION SECTION
@@ -68,10 +72,11 @@ Set page_titles  = Server.CreateObject("Scripting.Dictionary")
 	page_titles.add "military_veteran_recruiting", "Military &amp; veteran recruiting"
 	page_titles.add "mywork", "My Work &reg;"
 	page_titles.add "otherprograms", "Other Programs: Your Finances, Community Commitments, and Education"
-	page_titles.add "recruitingevents", "Recruiting events"
+	page_titles.add "recruitingevents", "Diversity events"
 	page_titles.add "resume_interview_tips", "Resume &amp; interview tips"
 	page_titles.add "retirement", "Retirement Benefits"
 	page_titles.add "staffingprocess", "Staffing Process"
+	page_titles.add "technology", "Global Technology"
 	page_titles.add "timeoff", "Time Away"
 	
 	page_titles.add "graduate", "Graduate/Associate Programs"

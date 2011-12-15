@@ -2,8 +2,7 @@
 			<tr valign="top"><td colspan="2" valign="top" class="divt"><img src="../images/clear.gif" width="100%" height="4" alt="" border="0"></td></tr>
 			<tr valign="top">
 				<td width="100%" colspan="2" valign="top">
-<img src="../images/spr.jpg" width="578" height="166" alt="Explore a career with the Bank of Opportunity." title="Explore a career with the Bank of Opportunity." border="0">
-<div class="hidden">Our Staffing Process. Explore a career with the Bank of Opportunity.</div>
+<img src="../images/spr.jpg" width="578" height="166" alt="Our Staffing Process. Explore a career with the Bank of Opportunity." title="Our Staffing Process. Explore a career with the Bank of Opportunity." border="0">
 				</td>
 			</tr>
 			<tr valign="top"><td colspan="2" valign="top" class="divb"><img src="../images/clear.gif" width="100%" height="4" alt="" border="0"></td></tr>
@@ -13,18 +12,26 @@
 		<table width="578" cellpadding="0" cellspacing="0" border="0" summary="">
 			<tr valign="top">
 				<td width="373" height="100%" valign="top" style="<%=middle_content_padding%>">
-<p style="margin: 0px 0px 12px 0px;">While there may be some differences in the Bank of America staffing process depending on which Line of Business or Business Unit you are considering, the key elements remain the same.
-</p>
+<h2 class="bac plh">The Application Process</h2>
 <ol>
-	<li>Candidates should search and apply for the positions in which he/she is interested, possess the skills, and match the minimum requirements of the job.</li>
-	<li>Recruiter reviews and identifies those candidates whose skills and experiences match the job requirements as detailed in the job description.</li>
-	<li>Those candidates who have the experience and skills that best match the role will be selected to continue through the process.</li>
-	<li>Candidates chosen to move forward in the interview process will be notified by a Bank of America associate with next steps.</li>
-	<li>Please note: Some positions may require assessments during the selection process. The recruiter will inform the candidate if this applies to the position he or she is seeking.</li>
-	<li>The interview/screening process varies with each opportunity. The recruiter will communicate the process and interview timeline for the position.</li>
-	<li>As part of our process, Bank of America Staffing may send you a link to complete a short online survey for tax credit eligibility. You may also receive this information from our Work Opportunity Tax Credit (WOTC) team. This survey is managed by a third party vendor whom we have authorized to gather this information. The site is a secure site and all information is kept completely confidential. This federal program is an important focus for Bank of America, so we appreciate you taking the time to complete the brief survey. Note that this survey will not impact your taxes in any way. If you have questions about this program, you are encouraged to reach out to the Staffing associate assisting you with your interviews.</li>
-	<li>If an offer is extended, a criminal background check must be initiated for all external hires or rehires prior to start date. You are required to complete an I-9 form prior to the designated start date in order to verify eligibility to work in the United States. Please note: Applicants being hired to support certain lines of business may also be required to complete additional compliance checks prior to the start date (e.g., education and employment verification check, motor vehicle record check, credit check).</li>
-	<li>If a candidate is not selected to continue in the hiring process for a particular job opening, the candidate is encouraged to continue to search the Bank of America career site and continue to apply to other positions that fit his/her background and experience.</li>
+	<li>Candidates apply for positions in which they are interested and have the experience and skills required for the job as detailed in the job description.</li>
+	<li>Our recruiters review applications and identify those candidates whose skills and experiences best match the job requirements.</li>
+	<li>Some positions require assessments during the selection process. If this applies to you, you will be notified and provided instructions.</li>
+	<li>The most qualified candidates move forward to the interview process.</li>
+</ol>
+<p class="bac">Note: Candidates not selected to continue in the hiring process for a particular job opening are encouraged to continue to search the Bank of America Careers site and continue to apply for other positions that fit their skills and experience.</p>
+
+<h2 class="bacs plh">What to expect if you have been identified to move forward in the process</h2>
+<ol start="5">
+	<li>The interview/screening process varies with each opportunity. The recruiter will communicate the process and interview timeline and details.</li>
+	<li>Some applicants may be asked to participate in a short online survey as part of Bank of America's participation in a federal tax credit incentive program.</li>
+</ol>
+
+<h2 class="bacs plh">What to expect if you are offered a job</h2>
+<ol start="7">
+	<li>You will be required to complete an I-9 form prior to your designated start date to verify identity and eligibility to work in the United States.</li>
+	<li>The bank will initiate a background check prior to your start date.</li>
+	<li>Individuals being hired to support certain lines of business may also be required to complete additional compliance checks prior to the start date (e.g., motor vehicle record check, license verification or HUD-related checks).</li>
 </ol>
 				</td>
 				<td width="205" height="100%" valign="top">
@@ -38,7 +45,7 @@
 	<H2 class="g" style="margin: 0px 0px 0px 0px;">Related Information</H2>
 	<img src="../images/clear.gif" width="100%" height="1" alt="" border="0" style="margin: 1px 0px 0px 0px; background: #e8e8e9;" align="top"><br clear="all">
 	<div style="padding: 0px 5px 0px 4px;">
-<!-- #include file="../relinfonav.asp" -->
+<!-- #include file="../usrelinfonav.asp" -->
 	</div>					
 </div>
 

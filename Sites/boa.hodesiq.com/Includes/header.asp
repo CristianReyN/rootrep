@@ -1,23 +1,4 @@
 <%
-Dim ADA_iQ_NAV1,ADA_iQ_NAV2,ADA_iQ_NAV3,ADA_iQ_NAV4,ADA_iQ_NAV5
-Dim ADA_iQ_TITLE1,ADA_iQ_TITLE2,ADA_iQ_TITLE3,ADA_iQ_TITLE4,ADA_iQ_TITLE5
-Dim ADA_HEADER_LINKS
-ADA_iQ_NAV1 = "../ada/overview.asp"
-ADA_iQ_TITLE1 = "Overview"
-ADA_iQ_NAV2 = "../ada/learnmore.asp"
-ADA_iQ_TITLE2 = "Learn More"
-ADA_iQ_NAV3 = "../ada/aresoftalent.asp"
-ADA_iQ_TITLE3 = "Job Areas"
-ADA_iQ_NAV4 = "../jobsearch.aspx"
-ADA_iQ_TITLE4 = "Job Search"
-ADA_iQ_NAV5 = "../ada/staffingevents.asp"
-ADA_iQ_TITLE5 = "Staffing Events"
-ADA_HEADER_LINKS = ""
-if mpage <> "overview" Then ADA_HEADER_LINKS = ADA_HEADER_LINKS & "<a href=""" & ADA_iQ_NAV1 & """ title=""" & ADA_iQ_TITLE1 & """><img src=""../images/clear.gif"" width=""1"" height=""69"" alt=""" & ADA_iQ_TITLE1 & """ border=""0"" /></a>"
-if mpage <> "learnmore" Then ADA_HEADER_LINKS = ADA_HEADER_LINKS & "<a href=""" & ADA_iQ_NAV2 & """ title=""" & ADA_iQ_TITLE2 & """><img src=""../images/clear.gif"" width=""1"" height=""69"" alt=""" & ADA_iQ_TITLE2 & """ border=""0"" /></a>"
-if mpage <> "areasoftalent" Then ADA_HEADER_LINKS = ADA_HEADER_LINKS & "<a href=""" & ADA_iQ_NAV3 & """ title=""" & ADA_iQ_TITLE3 & """><img src=""../images/clear.gif"" width=""1"" height=""69"" alt=""" & ADA_iQ_TITLE3 & """ border=""0"" /></a>"
-ADA_HEADER_LINKS = ADA_HEADER_LINKS & "<a href=""" & ADA_iQ_NAV4 & """ title=""" & ADA_iQ_TITLE4 & """><img src=""../images/clear.gif"" width=""1"" height=""69"" alt=""" & ADA_iQ_TITLE4 & """ border=""0"" /></a>"
-if mpage <> "staffingevents" Then ADA_HEADER_LINKS = ADA_HEADER_LINKS & "<a href=""" & ADA_iQ_NAV5 & """ title=""" & ADA_iQ_TITLE5 & """><img src=""../images/clear.gif"" width=""1"" height=""69"" alt=""" & ADA_iQ_TITLE5 & """ border=""0"" /></a>" 
 Dim JOB_SEARCH_TITLE
 JOB_SEARCH_TITLE = "Guided Job Search"
 Dim to_version
@@ -170,41 +151,47 @@ Else
 	categoryId = "career:" & mpage
 End If
 %>
-<script language="javascript1.1" src="http://www.bankofamerica.com/coremetrics/v40/eluminate.js" type="text/javascript"></script>
-<script language="javascript1.1" src="http://www.bankofamerica.com/coremetrics/cmdatatagutils.js" type="text/javascript"></script>
+<!-- #include file="../Includes/utilities.asp" -->
 <!-- #include file="../Includes/env.asp" -->
 <!-- #include file="../Includes/url.asp" -->
 <!-- #include file="../Includes/conn.asp" -->
 <!-- #include file="../Includes/logo.asp" -->
+<!-- #include file="../Includes/cm.asp" -->
 <script language="javascript" type="text/javascript">
 //<!--
 	examineFontSize("body");
-<% If ENV="production" Then Response.write "cmSetProduction();" %>
-<% If Not ( mpage = "camp" And ( tpage = "undergraduate_programs" Or tpage = "graduate_programs" Or tpage = "internships" Or fpage = "undergraduate_internships" Or fpage = "graduate_internships" Or tpage = "benefits_and_rewards" Or spage = "campus_events" Or spage = "how_to_apply" Or tpage = "campus_faqs" ) ) Then %>
-	cmCreatePageviewTag("<%= pageId %>", null, null,"<%= categoryId %>");
-<% End If %>
 //-->
 </script>
-<% If mpage = "overview" Or (spage = "collrecruiting" And (tpage = "graduate_programs" Or tpage = "undergraduate_programs" Or tpage = "internships_program") And fpage <> "") Or (mpage = "areasoftalent" And spage <> "") Or (mpage = "camp" And ( spage = "career_fit_tool" Or spage = "") ) Then %>
+<% If _
+	(mpage = "areasoftalent" _
+		And ( (spage = "consumerbanking" Or spage = "customercare" Or spage = "operations") And tpage = "") _
+	) _
+	Or (mpage = "lob" _
+		And ( spage = "lobgcsbb" And ( tpage = "lobnbcc" Or tpage = "lobbcc" ) ) _
+	) _
+	Or (mpage = "jobsearch" And spage = "" And ( tpage = "realistic_job_preview" Or tpage = "teller_video" Or tpage = "cashservices_video") ) _
+	Or (mpage = "overview" And spage = "") _
+	Or (mpage = "about_us" And spage = "diversity_video" And tpage = "") _
+	Then %>
 <table cellpadding="0" cellspacing="0" border="0" summary=""><tr><td>
-<a href="<%=ada_href %>" id="tonly" title="<%=textonly_version %>" class="hide-tab"><%=textonly_version %></a>
+<a href="<%=ada_href %>" id="tonly" title="<%=textonly_version %>" name="<%=CleanTheStringAlphanumeric_(Replace(textonly_version, " ", "_")) %>_header" class="hide-tab"><%=textonly_version %></a>
 </td></tr></table>
 <% End If %>
 <%	If er_ror <> "" Then %>
-<a href="#error" title="Go to page error message" class="hide-tab">Go to page error message</a>
+<a href="#error" title="Go to page error message" name="Go_to_page_error_message_header" class="hide-tab">Go to page error message</a>
 <%	End If %>
 <table width="750" cellpadding="0" cellspacing="0" border="0" summary="">
 <tr>
 	<td valign="top" colspan="3" height="71">
 		<table width="750" border="0" cellspacing="0" cellpadding="0" summary="">
 			<tr><% Dim logo_alt, logo_title, logo_imageURL %><% logo_imageURL = getLogoImageURL(logo_alt, logo_title) %>
-				<td width="262" valign="top"><table cellpadding="0" cellspacing="0" border="0"><tr><td><a name="top"></a><a href="#skipmaincontent" title="Skip To Main Content." style="width: 1px; height: 69px; display: inline-block;"></a></td><td><img src="../images/clear.gif" width="10" height="69" alt="" border="0" /></td><td><a href="http://www.bankofamerica.com/" title="<%=logo_title%>"><img src="<%=logo_imageURL%>" width="250" height="69" alt="<%=logo_alt%>" border="0" /></a></td><td><a href="http://www.bankofamerica.com/help/index.cfm?template=sitemap.cfm" title="Go to site map."><img src="../images/clear.gif" width="1" height="69" alt="Go to site map." border="0" /></a></td></tr></table></td>
+				<td width="262" valign="top"><table cellpadding="0" cellspacing="0" border="0"><tr><td><a name="top"></a><a href="#skipmaincontent" title="Skip to main content." name="Skip_to_main_content_header" style="width: 1px; height: 69px; display: inline-block;"><img src="../images/clear.gif" width="1" height="69" alt="Skip to main content." border="0" /></a></td><td><img src="../images/clear.gif" width="10" height="69" alt="" border="0" /></td><td><a href="http://www.bankofamerica.com/" title="<%=logo_title%>" name="<%=CleanTheStringAlphanumeric_(Replace(logo_title, " ", "_"))%>_header"><img src="<%=logo_imageURL%>" width="250" height="69" alt="<%=logo_alt%>" border="0" /></a></td><td><img src="../images/clear.gif" width="1" height="69" alt="" border="0" /></td></tr></table></td>
 				<td width="232"><img src="../images/clear.gif" width="1" height="69" alt="" border="0" /></td>
 				<td width="256" valign="bottom">
 					<table width="100%" border="0" cellspacing="0" cellpadding="0" summary="">
 						<tr>
 							<td colspan="2" valign="bottom" align="right" nowrap>
-<a href="http://www.bankofamerica.com/index.cfm?page=about" class="mh-link1" title="Home" onfocus="this.className='mh-link1-over';" onblur="this.className='mh-link1';">Home</a>&#160;<span class="linksep1">&#8226;</span>&#160;<a href="http://www.bankofamerica.com/findit/locator.cfm" class="mh-link1" title="Locations" onfocus="this.className='mh-link1-over';" onblur="this.className='mh-link1';">Locations</a>&#160;<span class="linksep1">&#8226;</span>&#160;<a href="../overview/contact_us.asp" class="mh-link1" title="Contact Us" onfocus="this.className='mh-link1-over';" onblur="this.className='mh-link1';">Contact Us</a>&#160;<span class="linksep1">&#8226;</span>&#160;<a href="http://www.bankofamerica.com/help" class="mh-link1" title="Help" onfocus="this.className='mh-link1-over';" onblur="this.className='mh-link1';">Help</a>&#160;<span class="linksep1">&#8226;</span>&#160;<a href="http://www.bankofamerica.com/signin/" class="mh-link2" title="Sign In" onfocus="this.className='mh-link2-over';" onblur="this.className='mh-link2';">Sign In</a></td>
+<a href="http://www.bankofamerica.com/index.cfm?page=about" class="mh-link1" title="Home" name="Home_header" onfocus="this.className='mh-link1-over';" onblur="this.className='mh-link1';">Home</a>&#160;<span class="linksep1">&#8226;</span>&#160;<a href="http://www.bankofamerica.com/findit/locator.cfm" class="mh-link1" title="Locations" name="Locations_header" onfocus="this.className='mh-link1-over';" onblur="this.className='mh-link1';">Locations</a>&#160;<span class="linksep1">&#8226;</span>&#160;<a href="../overview/contact_us.asp" class="mh-link1" title="Contact Us" name="Contact_Us_header" onfocus="this.className='mh-link1-over';" onblur="this.className='mh-link1';">Contact Us</a>&#160;<span class="linksep1">&#8226;</span>&#160;<a href="http://www.bankofamerica.com/help" class="mh-link1" title="Help" name="Help_header" onfocus="this.className='mh-link1-over';" onblur="this.className='mh-link1';">Help</a>&#160;<span class="linksep1">&#8226;</span>&#160;<a href="http://www.bankofamerica.com/signin/" class="mh-link2" title="Sign In" name="Sign_In_header" onfocus="this.className='mh-link2-over';" onblur="this.className='mh-link2';">Sign In</a></td>
 						</tr>
 						<tr><td colspan="2"><img src="../images/clear.gif" width="1" height="3" alt="" border="0" /></td></tr>
 						<tr>
@@ -226,10 +213,10 @@ End If
 <script src="../Includes/hs_safebutton.js" language="JavaScript" type="text/javascript"></script>
 <script language="JavaScript" type="text/javascript">
 <!--
-create_safebutton("Search","javascript: submit_search();",0,0,0,0,"Search", 'search-button');
+create_safebutton("Search","javascript: submit_search();",0,0,0,0,"Search", 'search-button', 'Search_header');
 //-->
 </script>
-<noscript><input name="Search" alt="Search" value="Search" title="Search" type="Submit"  class="btn"/></noscript>
+<noscript><input name="Search_header" alt="Search" value="Search" title="Search" type="Submit"  class="btn"/></noscript>
 										</td>
 										<td width="4"><img src="../images/clear.gif" width="4" height="0" alt="" border="0" /></td>
 									</tr>

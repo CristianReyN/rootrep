@@ -1,9 +1,9 @@
 <% Response.Buffer=True 
 Dim title, mpage, spage, ada_href, ada_title, Metatag
 mpage = "lob"
-spage = "lobgbmwm"
-tpage = "lobfa"
-fpage = "lobfaamericas"
+spage = "lobfa"
+tpage = "lobfaamericas"
+fpage = ""
 %>
 <!-- #include file="../includes/breadcrumb.asp" -->
 <%

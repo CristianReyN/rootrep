@@ -4,6 +4,7 @@ Dim title, mpage, spage, ada_href, ada_title, Metatag%>
 <% title = breadcrumb & "Realistic Job Preview - Cash Vault Representative"
 mpage = "jobsearch"
 spage = ""
+tpage = "cashservices_video"
 ada_href = "../ada/cashservices_video.asp"
 page_self = "../cashservices_video/default.asp"
 ada_title = breadcrumb & "Realistic Job Preview - Cash Vault Representative"

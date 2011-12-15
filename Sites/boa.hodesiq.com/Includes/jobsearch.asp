@@ -197,7 +197,7 @@ create_safebutton("<%=begin%>","javascript: _submit();",0,0,0,0,"<%=begin%>");
 <img class="dotdiv" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
 <p class="ada-label">Manage Your Profile. You are encouraged to complete the online candidate profile, however if you have difficulty, you should:</p>
 <ul class="ada-label">
-	<li>Email your resume to <a href="mailto:"bac@resume.bankofamerica.com>bac@resume.bankofamerica.com</a></li>
+	<li>Email your resume to <a href="mailto:bac@resume.bankofamerica.com">bac@resume.bankofamerica.com</a></li>
 	<li>In the Subject Line of your email, include "Source = Bank of America Careers"</li>
 </ul>
 <p style="margin: 3px 0px 3px 0px;">

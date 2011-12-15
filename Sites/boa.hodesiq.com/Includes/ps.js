@@ -122,6 +122,11 @@ function startPs()
 		if ( document.all ) document.jsearch.stateid.onblur = s_commit;
 	}
 	
+	if(document.getElementById("aboutus"))
+	{
+		$_("aboutus").style.top = $_("aboutusli").offsetTop-1;
+		$_("aboutus").style.visibility = "visible";
+	}
 	if(document.getElementById("jsearch"))
 	{
 		$_("jsearch").style.top = $_("jsearchli").offsetTop-1;
@@ -172,10 +177,13 @@ function startPs()
 	aa = addElementsByClassName("a","btn1",aa);
 	aa = addElementsByClassName("a","bac",aa);
 	aa = addElementsByClassName("a","bacb",aa);
+	aa = addElementsByClassName("a","ev-b",aa);
+	aa = addElementsByClassName("a","ev-p",aa);
 	for (var i=0; i<aa.length; i++) {
 		aa[i].baseClassName = aa[i].className;
 		aa[i].onmouseover=function() {
-			this.className=this.baseClassName+'-over';
+			if ( this.className != "ev-b" && this.className != "ev-p" )
+				this.className=this.baseClassName+'-over';
 		}
 		aa[i].onfocus=function() {
 			this.className=this.baseClassName+'-over';

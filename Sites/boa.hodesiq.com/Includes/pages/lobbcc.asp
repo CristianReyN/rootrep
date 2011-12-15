@@ -2,8 +2,7 @@
 			<tr valign="top"><td valign="top" class="divt"><img src="../images/clear.gif" width="100%" height="4" alt="" border="0"></td></tr>
 			<tr valign="top">
 				<td width="100%" valign="top">
-<img src="../images/bcc.jpg" width="578" height="166" alt="Explore a career with the Bank of Opportunity." title="Explore a career with the Bank of Opportunity." border="0">
-<div class="hidden">Banking Center Channel/Consumer Banking. Explore a career with the Bank of Opportunity.</div>
+<img src="../images/bcc.jpg" width="578" height="166" alt="Banking Center Channel/Consumer Banking. Explore a career with the Bank of Opportunity." title="Banking Center Channel/Consumer Banking. Explore a career with the Bank of Opportunity." border="0">
 				</td>
 			</tr>
 			<tr valign="top"><td colspan="2" valign="top" class="divb"><img src="../images/clear.gif" width="100%" height="4" alt="" border="0"></td></tr>
@@ -15,19 +14,8 @@
 <a name="skipmaincontent"></a><H1 class="hidden">Banking Center Channel/Consumer Banking</H1>
 <div style="float: left; width: <% If page_section = "ADA" Then %>357<% ElseIf page_section <> "ADA" Then %>299<%End If%>px;">
 <p style="margin: <% If page_section = "ADA" Then %>12<% Else %>0<%End If%>px <%=right_margin%>px 0px <%=left_margin_0%>px;">
-To serve a customer base of more than 53 million consumer and small business clients effectively, we must maintain a network of dedicated individuals who listen to our customers, build strong relationships and implement strategies to help our clients exceed their financial goals. Banking center associates are often the first point of contact for our customers and clients; therefore, that first encounter is critical to building and maintaining lasting relationships.
+To serve a customer base of more than 57 million consumer and small business clients effectively, we must maintain a network of dedicated individuals who listen to our customers, build strong relationships and implement strategies to help our clients exceed their financial goals. Banking center associates are often the first point of contact for our customers and clients; therefore, that first encounter is critical to building and maintaining lasting relationships.
 </p>
-<br>
-<script language="JavaScript1.2" type="text/javascript">
-if(!window.getHTMLControl)
-{
-	document.write('<scr' + 'ipt language="javascript" src="../Includes/pages/lob/lob.js');
-	document.write('"></scr' + 'ipt>');
-	ada_href = "<%=ada_href %>";
-}
-</script>
-<!-- #include file="faq/tammy.asp" -->
-<br>
 <br>
 <%
 '******* HOT JOB OPENING '*******
@@ -36,7 +24,7 @@ talentid=10
 globaljobsfamilyids="4"
 rowcount=6
 %>
-<H2 class="h2" style="margin: 12px <%=right_margin%>px 2px <%=left_margin_0%>px;">New Opportunities</H2>
+<H2 class="h2" style="margin: 12px <%=right_margin%>px 2px <%=left_margin_0%>px;">Recently Posted Opportunities</H2>
 <table cellpadding="2" cellspacing="0" border="0" summary="" style="margin-left: <%=left_margin_0%>px;">
 <!--#include file="../../hot_jobs.asp"-->
 </table>

@@ -2,8 +2,7 @@
 			<tr valign="top"><td colspan="2" valign="top" class="divt"><img src="../images/clear.gif" width="100%" height="4" alt="" border="0"></td></tr>
 			<tr valign="top">
 				<td width="100%" colspan="2" valign="top">
-<img src="../images/cssr.jpg" width="578" height="166" alt="Explore a career with the Bank of Opportunity." title="Explore a career with the Bank of Opportunity." border="0">
-<div class="hidden">Corporate Staff &amp; Support. Explore a career with the Bank of Opportunity.</div>
+<img src="../images/cssr.jpg" width="578" height="166" alt="Corporate Staff &amp; Support. Explore a career with the Bank of Opportunity." title="Corporate Staff &amp; Support. Explore a career with the Bank of Opportunity." border="0">
 				</td>
 			</tr>
 			<tr valign="top"><td colspan="2" valign="top" class="divb"><img src="../images/clear.gif" width="100%" height="4" alt="" border="0"></td></tr>
@@ -14,7 +13,7 @@
 			<tr valign="top">
 				<td width="373" height="100%" valign="top" style="<%=middle_content_padding%>">
 <p style="margin: 0px 0px 0px 0px;">
-Bank&nbsp;of&nbsp;America Merrill Lynch&#39;s Support groups align with lines of business across the company to provide functional and logistical value.
+Bank&nbsp;of&nbsp;America&#39;s support groups align with lines of business across the company to provide functional and logistical value.
 </p>
 <p style="margin: 12px 0px 0px 0px;">
 Careers within these groups are typically concentrated in one of the following specialized areas:
@@ -29,12 +28,16 @@ Careers within these groups are typically concentrated in one of the following s
 <h2 class="bacg"><a href="<%If page_section <> "ADA" Then%>../marketing/<%Else%>lobgmca.asp<%End If%>" class="bacb" title="Global Marketing &amp; Corporate Affairs">Global Marketing &amp; Corporate Affairs</a></h2>&nbsp;<p class="bacg">is responsible for promoting and protecting the Bank&nbsp;of&nbsp;America Merrill Lynch brand ensuring that consistent messages accurately convey the company&#39;s corporate image and reputation.</p>
 <br>
 <br>
-<h2 class="bacg"><a href="<%If page_section <> "ADA" Then%>../risk/<%Else%>lobgr.asp<%End If%>" class="bacb" title="Risk Management">Risk Management</a></h2>&nbsp;<p class="bacg">effectively manages the risk and rewards for each area of the company.</p>
+<h2 class="bacg"><a href="<%If page_section <> "ADA" Then%>../risk/<%Else%>lobgr.asp<%End If%>" class="bacb" title="Global Risk Management">Global Risk Management</a></h2>&nbsp;<p class="bacg">effectively manages the risk and rewards for each area of the company.</p>
 <br>
 <br>
-<h2 class="bacg"><a href="<%If page_section <> "ADA" Then%>../corporateworkplace/<%Else%>corporateworkplace.asp<%End If%>" class="bacb" title="Corporate Workplace">Corporate Workplace</a></h2>&nbsp;<p class="bacg">partners with each line of business to craft solutions for project and facilities management, associate awareness, energy management and the acquisition and disposition of space.</p>
-
-<p style="margin: 12px 0px 0px 0;"><b>Legal Department</b> is responsible for the provision of legal services for all of the company&#39;s activities across multiple jurisdictions and business activities. The department works closely with its Risk partners, including Compliance, Audit, Tax and Finance to identify and implement both best practices and legally compliant policies and procedures across the company&#39;s business and support unit activities.</p>
+<h2 class="bacg"><a href="<%If page_section <> "ADA" Then%>../globalcompliance/<%Else%>globalcompliance.asp<%End If%>" class="bacb" title="Global Compliance">Global Compliance</a></h2>&nbsp;<p class="bacg">is an independent, centralized governance and control function with responsibility for proactively managing compliance risk, including establishing compliance program standards and policies and executing compliance testing and monitoring.</p>
+<br>
+<br>
+<h2 class="bacg"><a href="<%If page_section <> "ADA" Then%>../corporateaudit/<%Else%>corporateaudit.asp<%End If%>" class="bacb" title="Corporate Audit">Corporate Audit</a></h2>&nbsp;<p class="bacg">is a global team responsible for providing independent assessments of business activities throughout Bank&nbsp;of&nbsp;America.</p>
+<br>
+<br>
+<h2 class="bacg"><a href="<%If page_section <> "ADA" Then%>../legal/<%Else%>legal.asp<%End If%>" class="bacb" title="Legal Department">Legal Department</a></h2>&nbsp;<p class="bacg">is responsible for the provision of legal services for all of the company&#39;s activities across multiple jurisdictions and business activities. The department works closely with its Risk partners, including Compliance, Audit, Tax and Finance to identify and implement both best practices and legally compliant policies and procedures across the company&#39;s business and support unit activities.</p>
 <p style="margin: 24px 0px 12px 0px;">
 <%	href_pre = ""
 	if page_section <> "ADA" then href_pre = "../learnmore/" %>

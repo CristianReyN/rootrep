@@ -3,7 +3,6 @@
 			<tr valign="top">
 				<td width="100%" colspan="2" valign="top">
 <img src="../../images/mortgage_retail_wholesale.jpg" width="578" height="166" alt="Mortgage Retail &amp; Wholesale Sales. Bank of America." title="Mortgage Retail &amp; Wholesale Sales. Bank of America." border="0">
-<div class="hidden">Mortgage Retail &amp; Wholesale Sales. Bank of America.</div>
 				</td>
 			</tr>
 			<tr valign="top"><td colspan="2" valign="top" class="divb"><img src="../../images/clear.gif" width="100%" height="4" alt="" border="0"></td></tr>

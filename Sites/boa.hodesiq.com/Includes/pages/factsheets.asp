@@ -41,9 +41,6 @@ Bank&nbsp;of&nbsp;America&#39;s Supplier Diversity program provides opportunitie
 	<li>Frederick Douglass had been one of the great leaders of the anti-slavery movement. But after his death, his home in the Anacostia neighborhood of Washington, D.C. was falling into disrepair and our bank in Washington D.C. financed its restoration.</li>
 </ul>
 
-
-<br><br>
-<!-- #include file="../diversitynav.asp" -->
 </div>
 				</td>
 				<td width="205" height="100%" valign="top">
@@ -51,12 +48,8 @@ Bank&nbsp;of&nbsp;America&#39;s Supplier Diversity program provides opportunitie
 	<H2 class="g" style="margin: 0px 0px 0px 0px;">Related Information</H2>
 	<img src="../images/clear.gif" width="100%" height="1" alt="" border="0" style="margin: 1px 0px 0px 0px; background: #e8e8e9;" align="top"><br clear="all">
 	<div  style="padding: 0px 5px 0px 4px;">
-<!-- #include file="../relinfonav.asp" -->
+<!-- #include file="../diversity-relinfonav.asp" -->
 	</div>					
-</div>
-
-<div style="text-align: center; margin: 0px; padding: 0px;">
-<!-- #include file="../talkingatm.html" -->
 </div>
 				</td>
 			</tr>

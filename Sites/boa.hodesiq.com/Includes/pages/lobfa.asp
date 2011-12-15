@@ -2,8 +2,7 @@
 			<tr valign="top"><td colspan="2" valign="top" class="divt"><img src="../images/clear.gif" width="100%" height="4" alt="" border="0"></td></tr>
 			<tr valign="top">
 				<td width="100%" colspan="2" valign="top">
-<img src="../images/lobfa.jpg" width="578" height="166" alt="Financial Advisor" title="Financial Advisor" border="0">
-<div class="hidden">Financial Advisor</div>
+<img src="../images/lobfa.jpg" width="578" height="166" alt="Financial Advisor. Bank of America." title="Financial Advisor. Bank of America." border="0">
 				</td>
 			</tr>
 			<tr valign="top"><td colspan="2" valign="top" class="divb"><img src="../images/clear.gif" width="100%" height="4" alt="" border="0"></td></tr>
@@ -12,7 +11,7 @@
 		<a name="skipmaincontent"></a>
 		<table width="578" cellpadding="0" cellspacing="0" border="0" summary="">
 			<tr valign="top">
-				<td width="373" height="100%" valign="top" style="padding: 0px <%=right_margin%>px 0px <%=left_margin_0%>px;">
+				<td width="373" height="100%" valign="top" style="padding: 0px 20px 0px <%=left_margin_0%>px;">
 <H1 class="h1" style="margin: 0px; padding: 0px;">Welcome Financial Advisor Candidates</H1>
 <p style="margin-top: 12px;">
 Merrill Lynch Wealth Management encourages you to learn about opportunities in our three regions as a Financial Advisor working with affluent clients. The rewards for a Financial Advisor are outstanding. While we offer our clients sophisticated solutions that simplify their lives, we offer you the ideal place to build your career. 

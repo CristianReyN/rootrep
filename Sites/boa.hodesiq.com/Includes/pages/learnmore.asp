@@ -3,7 +3,6 @@
 			<tr valign="top">
 				<td width="100%" colspan="2" valign="top">
 <img src="../images/united_states.jpg" width="578" height="166" alt="United States. Explore a career with the Bank of Opportunity." title="United States. Explore a career with the Bank of Opportunity." border="0">
-<div class="hidden">United States. Explore a career with the Bank of Opportunity.</div>
 				</td>
 			</tr>
 			<tr valign="top"><td colspan="2" valign="top" class="divb"><img src="../images/clear.gif" width="100%" height="4" alt="" border="0"></td></tr>
@@ -14,17 +13,9 @@
 			<tr valign="top">
 				<td width="373" height="100%" valign="top" style="padding: 0px <%=right_margin%>px 0px <%=left_margin_0%>px;">
 				
-<H2 class="p" style="margin: 0px; padding: 0px;"><a href="<% if page_section <> "ADA" then Response.write "../learnmore/benefitsadv.asp" Else Response.write "benefitsadv.asp" End If%>" class="left2" title="Benefits and advantages">Benefits and advantages</a></H2>
+<H2 class="p" style="margin: 0px; padding: 0px;"><a href="<% if page_section <> "ADA" then Response.write "../learnmore/benefits.asp" Else Response.write "benefitsadv.asp" End If%>" class="left2" title="Benefits and advantages">Benefits and advantages</a></H2>
 <p style="margin-top: 6px;">
 Bank&nbsp;of&nbsp;America offers far more than careers to the talented people who work here, and the rewards go well beyond a paycheck.</p>
-
-<H2 class="p" style="margin: 0px; padding: 0px;"><a href="<% if page_section <> "ADA" then Response.write "../learnmore/diversity.asp" Else Response.write "diversity.asp" End If%>" class="left2" title="Diversity and inclusion">Diversity and inclusion</a></H2>
-<p style="margin-top: 6px;">
-Each associate brings unique skills, backgrounds and opinions. We see diversity as our platform for innovation and a key component in our success.</p>
-
-<H2 class="p" style="margin: 0px; padding: 0px;"><a href="<% if page_section <> "ADA" then Response.write "../learnmore/corpinfo.asp" Else Response.write "corpinfo.asp" End If%>" class="left2" title="Corporate information">Corporate information</a></H2>
-<p style="margin-top: 6px;">
-Learn about some of the ways Bank&nbsp;of&nbsp;America is making a difference in the communities we serve.</p>
 
 <H2 class="p" style="margin: 0px; padding: 0px;"><a href="<% if page_section <> "ADA" Then %>../staffingevents/<% End If%>staffingprocess.asp" class="left2" title="Our staffing process">Our staffing process</a></H2>
 <p style="margin-top: 6px;">

@@ -2,8 +2,7 @@
 			<tr valign="top"><td valign="top" class="divt"><img src="../images/clear.gif" width="100%" height="4" alt="" border="0"></td></tr>
 			<tr valign="top">
 				<td width="100%" valign="top">
-<img src="../images/operations.jpg" width="578" height="166" alt="Explore a career with the Bank of Opportunity." title="Explore a career with the Bank of Opportunity." border="0">
-<div class="hidden">Operations. Explore a career with the Bank of Opportunity.</div>
+<img src="../images/operations.jpg" width="578" height="166" alt="Operations. Explore a career with the Bank of Opportunity." title="Operations. Explore a career with the Bank of Opportunity." border="0">
 				</td>
 			</tr>
 			<tr valign="top"><td colspan="2" valign="top" class="divb"><img src="../images/clear.gif" width="100%" height="4" alt="" border="0"></td></tr>
@@ -15,7 +14,7 @@
 <a name="skipmaincontent"></a><H1 class="hidden">Operations</H1>
 <div style="float: left; width: <% If page_section = "ADA" Then %>357<% ElseIf page_section <> "ADA" Then %>299<%End If%>px;">
 <p style="margin: <% If page_section = "ADA" Then %>12<% Else %>0<%End If%>px <%=right_margin%>px 0px <%=left_margin_0%>px;">
-Positions within Operations provide overall support for many key areas within Bank of America.  Operations is primarily responsible for overseeing the processes and transactions which help Bank of America maximize profitability and minimize risk.
+Positions within Operations provide overall support for many key areas within Bank&nbsp;of&nbsp;America.  Operations is primarily responsible for overseeing the processes and transactions which help Bank&nbsp;of&nbsp;America maximize profitability and minimize risk.
 </p>
 <%
 '******* HOT JOB OPENING '*******
@@ -25,7 +24,7 @@ talentid=6
 globaljobsfamilyids="2,22,6,20,29,15"
 rowcount=6
 %>
-<H2 class="h2" style="margin: 12px <%=right_margin%>px 2px <%=left_margin_0%>px;">New Opportunities</H2>
+<H2 class="h2" style="margin: 12px <%=right_margin%>px 2px <%=left_margin_0%>px;">Recently Posted Opportunities</H2>
 <table cellpadding="2" cellspacing="0" border="0" summary="" style="margin-left: <%=left_margin_0%>px;">
 <!--#include file="../../hot_jobs.asp"-->
 </table>
@@ -37,7 +36,7 @@ rowcount=6
 <% ElseIf page_section <> "ADA" Then %>
 <div align="right" style="float: right; margin: 0px 0px 0px <%=right_margin_split%>px; padding: 0px; width: 259px;">
 	<!-- #include file="associate/benitez.asp" -->
-	<a href="#video" class="hlink">Deborah BenitezLedtje&acute;s Associate Testimonial Video</a>
+	<a href="#video" class="hlink">Deborah BenitezLedtje&#39;s Associate Testimonial Video</a>
 <% End If  %>
 	<div style="width: 201px; text-align: left; border: 1px solid #e8e8e9; background: #ffffff; margin: 12px 0px 0px 0px; padding: 0px 0px 6px 0px;">
 		<H2 class="g" style="margin: 0px 0px 0px 0px;"><%=JOB_SEARCH_TITLE%></H2>

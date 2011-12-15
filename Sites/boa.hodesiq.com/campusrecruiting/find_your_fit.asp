@@ -1,3 +1,5 @@
+<%@LANGUAGE="VBScript"%>
+<% Response.Redirect "../campus-find-your-fit.aspx"%>
 <% Response.Buffer=True 
 Dim title, mpage, spage, ada_href, ada_title, Metatag%>
 <!-- #include file="../includes/breadcrumb.asp" -->

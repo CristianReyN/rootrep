@@ -1,11 +1,8 @@
 <%
-
-
 dim objRS
-
 dim objCon
         set  objCon  = server.CreateObject("ADODB.Connection")
-with objCon  
+with objCon
 	.CursorLocation = adUseClient
 	.Open "file name=D:\data\db\Boa.udl"
 end with
@@ -18,7 +15,7 @@ set objRS = Server.CreateObject("adodb.recordset")
 
 If familyid <> "" Then
     If rowcount <> "" Then
-        'familyid scenario		
+        'familyid scenario
 		With objCMD
 		     .CommandType=adCmdStoredProc
 		     .CommandText = "P_Hotlist_Family"
@@ -44,25 +41,25 @@ Else
 		     .parameters.append .createparameter("@globaljobsfamilyids", adVarchar, adParamInput, 255, globaljobsfamilyids)
 		     
 		  set objRS = .execute()
-		end with               
+		end with
     Else
         Response.Write("<tr><td>Parameters Haven't Been Provided.</td></tr>")
     End If
-End If		
+End If
 
 
 if objRS.state = 1 then  
-   With objRS		
-		do while not .eof		
-		   Response.write ("<tr><td><a class='ip' href=""../JobDetails.aspx?JobID=" & .fields.item("req_id").value & "&CountryID=" & .fields.item("countryid").value & "&LocationID=" & .fields.item("locationid").value & "&FeedName=" & .fields.item("feedname").value & "&areasoftalent=" & talentid & "&jfamily=" & familyid & "&keywords=" & keywords & "&SearchPage=" & SearchPage & """>" & .fields.item("job_title").value & ", " & .fields.item("locations").value & "</a></td></tr>") 		
-   		   .moveNext				
-		loop			
-		.Close			
+   With objRS
+		do while not .eof
+		   Response.write ("<tr><td><a class='ip' href=""../JobDetails.aspx?JobID=" & .fields.item("req_id").value & "&CountryID=" & .fields.item("countryid").value & "&LocationID=" & .fields.item("locationid").value & "&FeedName=" & .fields.item("feedname").value & "&areasoftalent=" & talentid & "&jfamily=" & familyid & "&keywords=" & keywords & "&SearchPage=" & SearchPage & """>" & .fields.item("job_title").value & ", " & .fields.item("locations").value & "</a></td></tr>")
+   		   .moveNext
+		loop
+		.Close
    end With
 end if
 
 'response.write ("</table>")
-		
+
 set objRS = nothing
 set objCMD = nothing
 objCon.close
