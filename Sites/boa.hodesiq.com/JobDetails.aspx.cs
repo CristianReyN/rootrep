@@ -34,166 +34,179 @@ public partial class JobDetails : System.Web.UI.Page
 
     protected void Page_Load(object sender, EventArgs e)
     {
-
-        this.ltrlCorremetrixProductTag.Text = "";
-
-        UseTinyUrl = Request.QueryString["UseTinyUrl"] != null ? Request.QueryString["UseTinyUrl"].ToString() : "0";
-		targetpage = ConfigurationManager.AppSettings["targetpage"];
-		if (this.Request.UrlReferrer != null &&
-		(this.Request.UrlReferrer.ToString().ToLowerInvariant().Contains("jobsearch.aspx") || this.Request.UrlReferrer.ToString().ToLowerInvariant().Contains("advancesearch.aspx")
-			|| this.Request.UrlReferrer.ToString().ToLowerInvariant().Contains("jobdetails.aspx") || this.Request.UrlReferrer.ToString().ToLowerInvariant().Contains("tell_a_friend.aspx")))
-		{
-			returntoJobsearch.Visible=true;
-		}
-
-        Jobs Jobs = new Jobs();
-
-        string countryid = Request["countryid"] == null ? "1" : Request["countryid"].ToString();
-        string LocationId = Request["LocationID"] == null ? "0" : Request["LocationID"].ToString();
-        string FeedName = Request["FeedName"] == null ? "" : Request["FeedName"].ToString();
-        string taleoReqID = "";
-
-        DataTable dt = Jobs.JobDetails(Request.QueryString["JobId"].ToString(), countryid, LocationId,FeedName);        
-		if (dt.Rows.Count > 0)
-		{
-            taleoReqID = dt.Rows[0]["reqNo"].ToString();
-
-			strJobID = dt.Rows[0]["JobsId"].ToString();
-            if (countryid == "1")
-            {
-                lblDescripton.Text =  LinkBuilder(dt.Rows[0]["Description"].ToString(), "Description");
-            }
-            else
-            {
-                lblDescripton.Text =  dt.Rows[0]["Description"].ToString();
-            }
-            jobtitle = dt.Rows[0]["JobTitle"].ToString()+ " : " + dt.Rows[0]["JobsId"].ToString();;
-            lblJobTitle.InnerText = jobtitle;
-            pageTitle = "Bank of America Careers: " + jobtitle;
-            lblLocation.Text = dt.Rows[0]["Location"].ToString();
-			lblLocationFooter.Text = dt.Rows[0]["Location"].ToString();
-            lblPartTimeFullTime.Text = dt.Rows[0]["FullPartTime"].ToString();
-           	lblPostingDate.Text = dt.Rows[0]["PostingDate"].ToString();
-			lblSchedule.Text = dt.Rows[0]["WeeklySchedule"].ToString();
-			lblShift.Text = dt.Rows[0]["Shift"].ToString();
-			lblTravel.Text = dt.Rows[0]["Travel"].ToString();
-			lblUnpostingDate.Text = dt.Rows[0]["UnPostingDate"].ToString();
-			lblLanguage.Text = dt.Rows[0]["Language"].ToString();
-			lblJobFamily.Text = dt.Rows[0]["family"].ToString();
-			lblHoursPerWeek.Text = dt.Rows[0]["HrsPerWeek"].ToString();
-            if (countryid == "1")
-            {
-                lblQualification.Text = LinkBuilder(dt.Rows[0]["Qualification"].ToString(), "Qualification");
-            }
-            else
-            {
-                lblQualification.Text =  dt.Rows[0]["Qualification"].ToString();
-            }
-			//apply process goes trough clients page for hits counting:
-			srcvalue = string.IsNullOrEmpty(Request["src"]) ? string.Empty : Request["src"];           
-            string CountryID = Request.QueryString["countryid"] == null ? "1" : Request.QueryString["countryid"].ToString();
-
-            string CANADAURL = ConfigurationManager.AppSettings["CanadaApplyURL"].ToString();
-
-            if (CountryID == Location.CANADA && CANADAURL !="")
-            {
-                ApplyURL = CANADAURL;                
-            }
-            else
-            {
-                ApplyURL = dt.Rows[0]["ApplyURL"].ToString() + "&src=" + Request["src"];
-            }
-
-            this.hApplyNow.Value = targetpage + "countryid=" + CountryID + "&url=" + HttpUtility.UrlEncode(ApplyURL);
-            ViewState["pageTitle"] = pageTitle;
-            ViewState["jobtitle"] = jobtitle;             
-		}
-		else
-		{
-			Response.Redirect(ConfigurationManager.AppSettings["jobnotfoundredirectpage"] + "?nf=1");
-		}
-       
-        returntoJobsearch.NavigateUrl = "jobsearch.aspx?" + Request.QueryString;
-
-        string applyJobTitle = CleanJobTitle(dt.Rows[0]["JobTitle"].ToString());
-
-        boanet_safebutton.writeBOASafeButton("Apply1", phApply1, "ApplyNow|*|" + applyJobTitle, Apply_Click_NoJS, this.Request, this.hApplyNow.Value);
-        boanet_safebutton.writeBOASafeButton("Apply2", phApply2, "ApplyNow|*|" + applyJobTitle, Apply_Click_NoJS, this.Request, this.hApplyNow.Value);
-        
-        prepbuttons();
-
-		//not ready For Pro Yet!! 
-        TellaFriend.NavigateUrl = "Tell_a_friend.aspx?" + Request.QueryString;
-
-
-        //check if this job is in the jobcart. If so, display remove Job Cart Link
-        HttpCookie MyCookie = Request.Cookies["JobCartID"];
-        if (MyCookie != null)
+        try
         {
-            JobCartID = MyCookie.Value.ToString();
-            //Jobs Jobs = new Jobs();
-            DataView DW = Jobs.RetrieveJobCart(JobCartID);
-            if (DW.Count > 0)
+
+            this.ltrlCorremetrixProductTag.Text = "";
+
+            UseTinyUrl = Request.QueryString["UseTinyUrl"] != null ? Request.QueryString["UseTinyUrl"].ToString() : "0";
+            targetpage = ConfigurationManager.AppSettings["targetpage"];
+            if (this.Request.UrlReferrer != null &&
+            (this.Request.UrlReferrer.ToString().ToLowerInvariant().Contains("jobsearch.aspx") || this.Request.UrlReferrer.ToString().ToLowerInvariant().Contains("advancesearch.aspx")
+                || this.Request.UrlReferrer.ToString().ToLowerInvariant().Contains("jobdetails.aspx") || this.Request.UrlReferrer.ToString().ToLowerInvariant().Contains("tell_a_friend.aspx")))
             {
-                foreach (DataRowView Row in DW)
+                returntoJobsearch.Visible = true;
+            }
+
+            Jobs Jobs = new Jobs();
+
+            string countryid = Request["countryid"] == null ? "1" : Request["countryid"].ToString();
+            string LocationId = Request["LocationID"] == null ? "0" : Request["LocationID"].ToString();
+            string FeedName = Request["FeedName"] == null ? "" : Request["FeedName"].ToString();
+            string taleoReqID = "";
+
+            DataTable dt = Jobs.JobDetails(Request.QueryString["JobId"].ToString(), countryid, LocationId, FeedName);
+            if (dt.Rows.Count > 0)
+            {
+                taleoReqID = dt.Rows[0]["reqNo"].ToString();
+
+                strJobID = dt.Rows[0]["JobsId"].ToString();
+                if (countryid == "1")
                 {
-                   if (strJobID == Row["JobsID"].ToString())
+                    lblDescripton.Text = LinkBuilder(dt.Rows[0]["Description"].ToString(), "Description");
+                }
+                else
+                {
+                    lblDescripton.Text = dt.Rows[0]["Description"].ToString();
+                }
+                jobtitle = dt.Rows[0]["JobTitle"].ToString() + " : " + dt.Rows[0]["JobsId"].ToString(); ;
+                lblJobTitle.InnerText = jobtitle;
+                pageTitle = "Bank of America Careers: " + jobtitle;
+                lblLocation.Text = dt.Rows[0]["Location"].ToString();
+                lblLocationFooter.Text = dt.Rows[0]["Location"].ToString();
+                lblPartTimeFullTime.Text = dt.Rows[0]["FullPartTime"].ToString();
+                lblPostingDate.Text = dt.Rows[0]["PostingDate"].ToString();
+                lblSchedule.Text = dt.Rows[0]["WeeklySchedule"].ToString();
+                lblShift.Text = dt.Rows[0]["Shift"].ToString();
+                lblTravel.Text = dt.Rows[0]["Travel"].ToString();
+                lblUnpostingDate.Text = dt.Rows[0]["UnPostingDate"].ToString();
+                lblLanguage.Text = dt.Rows[0]["Language"].ToString();
+                lblJobFamily.Text = dt.Rows[0]["family"].ToString();
+                lblHoursPerWeek.Text = dt.Rows[0]["HrsPerWeek"].ToString();
+                if (countryid == "1")
+                {
+                    lblQualification.Text = LinkBuilder(dt.Rows[0]["Qualification"].ToString(), "Qualification");
+                }
+                else
+                {
+                    lblQualification.Text = dt.Rows[0]["Qualification"].ToString();
+                }
+                //apply process goes trough clients page for hits counting:
+                srcvalue = string.IsNullOrEmpty(Request["src"]) ? string.Empty : Request["src"];
+                string CountryID = Request.QueryString["countryid"] == null ? "1" : Request.QueryString["countryid"].ToString();
+
+                string CANADAURL = ConfigurationManager.AppSettings["CanadaApplyURL"].ToString();
+
+                if (CountryID == Location.CANADA && CANADAURL != "")
+                {
+                    ApplyURL = CANADAURL;
+                }
+                else
+                {
+                    ApplyURL = dt.Rows[0]["ApplyURL"].ToString() + "&src=" + Request["src"];
+                }
+
+                this.hApplyNow.Value = targetpage + "countryid=" + CountryID + "&url=" + HttpUtility.UrlEncode(ApplyURL);
+                ViewState["pageTitle"] = pageTitle;
+                ViewState["jobtitle"] = jobtitle;
+            }
+            else
+            {
+                Response.Redirect(ConfigurationManager.AppSettings["jobnotfoundredirectpage"] + "?nf=1");
+            }
+
+            returntoJobsearch.NavigateUrl = "jobsearch.aspx?" + Request.QueryString;
+
+            string applyJobTitle = CleanJobTitle(dt.Rows[0]["JobTitle"].ToString());
+
+            boanet_safebutton.writeBOASafeButton("Apply1", phApply1, "ApplyNow|*|" + applyJobTitle, Apply_Click_NoJS, this.Request, this.hApplyNow.Value);
+            boanet_safebutton.writeBOASafeButton("Apply2", phApply2, "ApplyNow|*|" + applyJobTitle, Apply_Click_NoJS, this.Request, this.hApplyNow.Value);
+
+            prepbuttons();
+
+            //not ready For Pro Yet!! 
+            TellaFriend.NavigateUrl = "Tell_a_friend.aspx?" + Request.QueryString;
+
+
+            //check if this job is in the jobcart. If so, display remove Job Cart Link
+            HttpCookie MyCookie = Request.Cookies["JobCartID"];
+            if (MyCookie != null)
+            {
+                JobCartID = MyCookie.Value.ToString();
+                //Jobs Jobs = new Jobs();
+                DataView DW = Jobs.RetrieveJobCart(JobCartID);
+                if (DW.Count > 0)
+                {
+                    foreach (DataRowView Row in DW)
                     {
+                        if (strJobID == Row["JobsID"].ToString())
+                        {
 
-                        bttnRemoveFromJobCart.Visible = true;
-                        btnRemoveFromCart.Visible = true; 
-                        bttnAddToJobCart.Visible = false;
-                        btnAddToCart.Visible = false;
+                            bttnRemoveFromJobCart.Visible = true;
+                            btnRemoveFromCart.Visible = true;
+                            bttnAddToJobCart.Visible = false;
+                            btnAddToCart.Visible = false;
 
+                        }
+                    }
+                }
+
+            }
+
+            string cmJobID = "";
+
+            if (countryid == "1")
+            {
+                cmJobID = "US" + taleoReqID;
+            }
+            else
+            {
+                //international job
+                //ApplyURL split this by & and get 'id=' value
+                string[] arrUrl = ApplyURL.Split('&');
+                foreach (string parm in arrUrl)
+                {
+                    if (parm.StartsWith("id="))
+                    {
+                        //split by = to get reqno
+                        cmJobID = strJobID.Substring(0, 3) + parm.Substring(3);
                     }
                 }
             }
 
-        }
-        
-        string cmJobID = "";
+            hdnJobId.Value = cmJobID;
+            BuildCorremetrixProductTag(cmJobID, CleanJobTitle(jobtitle));
 
-        if (countryid == "1")
+        }
+        catch (Exception ex)
         {
-            cmJobID = "US" + taleoReqID;
-        }
-        else { 
-            //international job
-            //ApplyURL split this by & and get 'id=' value
-            string[] arrUrl = ApplyURL.Split('&');
-            foreach (string parm in arrUrl)
-            {
-                if (parm.StartsWith("id="))
-                {
-                    //split by = to get reqno
-                    cmJobID = strJobID.Substring(0, 3) + parm.Substring(3);
-                }
-            }
-        }
-
-        hdnJobId.Value = cmJobID;
-        BuildCorremetrixProductTag(cmJobID, CleanJobTitle(jobtitle));
+            throw ex;
+        } 
     }
 
     protected string CleanJobTitle(string jobTitle)
     {
-        jobtitle = jobtitle.Replace("&", "");
-        jobtitle = jobtitle.Replace("amp;", "");
-        jobtitle = jobtitle.Replace(",", "");
-        jobtitle = jobtitle.Replace(@"/", " ");
-        jobtitle = jobtitle.Replace(@"\", " ");
-        jobtitle = jobtitle.Replace(":", "");
-        jobtitle = jobtitle.Replace("*", "");
-        jobtitle = jobtitle.Replace("(", " ");
-        jobtitle = jobtitle.Replace(")", " ");
-        jobtitle = jobtitle.Replace("-", "");
-        jobtitle = jobtitle.Replace(".", "");
-        jobtitle = jobtitle.Replace("'", "");
-        jobtitle = jobtitle.Replace("&#44;", "_");
-        jobtitle = jobtitle.Replace(">", "");
-        jobtitle = jobtitle.Replace("<", "");
-        jobtitle = jobtitle.Replace("?", "");
-        jobtitle = jobtitle.Replace("&#63", "");
+        if (jobtitle != null)
+        {
+            jobtitle = jobtitle.Replace("&", "");
+            jobtitle = jobtitle.Replace("amp;", "");
+            jobtitle = jobtitle.Replace(",", "");
+            jobtitle = jobtitle.Replace(@"/", " ");
+            jobtitle = jobtitle.Replace(@"\", " ");
+            jobtitle = jobtitle.Replace(":", "");
+            jobtitle = jobtitle.Replace("*", "");
+            jobtitle = jobtitle.Replace("(", " ");
+            jobtitle = jobtitle.Replace(")", " ");
+            jobtitle = jobtitle.Replace("-", "");
+            jobtitle = jobtitle.Replace(".", "");
+            jobtitle = jobtitle.Replace("'", "");
+            jobtitle = jobtitle.Replace("&#44;", "_");
+            jobtitle = jobtitle.Replace(">", "");
+            jobtitle = jobtitle.Replace("<", "");
+            jobtitle = jobtitle.Replace("?", "");
+            jobtitle = jobtitle.Replace("&#63", "");
+        }
+        else { jobtitle = ""; }
 
         return jobtitle;
 
@@ -215,98 +228,110 @@ public partial class JobDetails : System.Web.UI.Page
 
     protected void Page_PreRender(object sender, EventArgs e)
     {
-        string feedname="";
-        BOAFeedUSA.Visible = false;
-        BOAFeedEuropeMBNA.Visible = false;
-        BOAFeedEurope.Visible = false;
-        BOAFeedCanadaFrench.Visible = false;
-        BOAFeedCanada.Visible = false;
-        BOAFeedAsia.Visible = false;
-        BoaFeedIndia.Visible = false;
-        string JobId="";
 
-        if (!IsPostBack)
+        try
         {
-            Page.Title = pageTitle;
-            feedname = Request.QueryString["feedname"] == null ? "" : Request.QueryString["feedname"].ToString();
-            ViewState["feedname"] = feedname;
-            JobId = Request.QueryString["jobid"];
-            ViewState["jobid"] = JobId;
-        }
-        else
-        {
-            feedname = ViewState["feedname"].ToString();
-            pageTitle = ViewState["pageTitle"].ToString();
-            Page.Title = pageTitle;
-            jobtitle = ViewState["jobtitle"].ToString();
-            JobId = ViewState["jobid"].ToString();
-        }
-        if(feedname.Contains("web05")){
+
+            string feedname = "";
+            BOAFeedUSA.Visible = false;
+            BOAFeedEuropeMBNA.Visible = false;
+            BOAFeedEurope.Visible = false;
+            BOAFeedCanadaFrench.Visible = false;
+            BOAFeedCanada.Visible = false;
+            BOAFeedAsia.Visible = false;
+            BoaFeedIndia.Visible = false;
+            string JobId = "";
+
+            if (!IsPostBack)
+            {
+                Page.Title = pageTitle;
+                feedname = Request.QueryString["feedname"] == null ? "" : Request.QueryString["feedname"].ToString();
+                ViewState["feedname"] = feedname;
+                JobId = Request.QueryString["jobid"];
+                ViewState["jobid"] = JobId;
+            }
+            else
+            {
+                feedname = ViewState["feedname"].ToString();
+                pageTitle = ViewState["pageTitle"].ToString();
+                Page.Title = pageTitle;
+                jobtitle = ViewState["jobtitle"].ToString();
+                JobId = ViewState["jobid"].ToString();
+            }
+            if (feedname.Contains("web05"))
+            {
                 BOAFeedAsia.Visible = true;
-        }
-        else if(feedname.Contains("web06")){
-            BOAFeedCanada.Visible = true;
-        }
-        else if (feedname.Contains("web01")){
+            }
+            else if (feedname.Contains("web06"))
+            {
+                BOAFeedCanada.Visible = true;
+            }
+            else if (feedname.Contains("web01"))
+            {
                 BoaFeedIndia.Visible = true;
-        }
-        else{
-            switch (feedname)
-                { 
-                   // case  "BOAFeedAsia"         : BOAFeedAsia.Visible = true;break;
+            }
+            else
+            {
+                switch (feedname)
+                {
+                    // case  "BOAFeedAsia"         : BOAFeedAsia.Visible = true;break;
                     //case  "BOAFeedCanada"       : BOAFeedCanada.Visible = true; break;
-                    case  "BOAFeedCanadaFrench" : BOAFeedCanadaFrench.Visible=true;break;
-                    case  "BOAFeedEurope"       : BOAFeedEurope.Visible = true;break;
-                    case  "BOAFeedEurope MBNA"  : BOAFeedEuropeMBNA.Visible = true ;break;
-                   // case  "BOAFEEDIndia"        : BoaFeedIndia.Visible = true; break;
-                   // case  "BOAFEEDUSA"          : BOAFeedUSA.Visible = true;break;
-                    default                     : break;        
+                    case "BOAFeedCanadaFrench": BOAFeedCanadaFrench.Visible = true; break;
+                    case "BOAFeedEurope": BOAFeedEurope.Visible = true; break;
+                    case "BOAFeedEurope MBNA": BOAFeedEuropeMBNA.Visible = true; break;
+                    // case  "BOAFEEDIndia"        : BoaFeedIndia.Visible = true; break;
+                    // case  "BOAFEEDUSA"          : BOAFeedUSA.Visible = true;break;
+                    default: break;
                 }
-         }
-
-       
-        int twitterjobtitlelength = Int32.Parse(ConfigurationManager.AppSettings["twitterjobtitlelength"].ToString());
-        int linkedinjobtitlelength = Int32.Parse(ConfigurationManager.AppSettings["linkedinjobtitlelength"].ToString());
-        int linkedinjobdescriptionlength = Int32.Parse(ConfigurationManager.AppSettings["linkedinjobdescriptionlength"].ToString());
+            }
 
 
-        if (twitterjobtitlelength > 0 && twitterjobtitlelength < jobtitle.Length)
-        {
-            hdnTwitterTitle.Value = "#Job opportunity at Bank of America: " + jobtitle.Substring(0, twitterjobtitlelength) + "...";
-        }
-        else
-        {
-            hdnTwitterTitle.Value = "#Job opportunity at Bank of America: " + jobtitle;
-        }
+            int twitterjobtitlelength = Int32.Parse(ConfigurationManager.AppSettings["twitterjobtitlelength"].ToString());
+            int linkedinjobtitlelength = Int32.Parse(ConfigurationManager.AppSettings["linkedinjobtitlelength"].ToString());
+            int linkedinjobdescriptionlength = Int32.Parse(ConfigurationManager.AppSettings["linkedinjobdescriptionlength"].ToString());
 
-        if (linkedinjobtitlelength > 0 && pageTitle.Length > linkedinjobtitlelength)
-        {
-            hdnLinkedInTitle.Value = pageTitle.Substring(0, linkedinjobtitlelength);
-        }
-        else
-        {
-            hdnLinkedInTitle.Value = pageTitle;
-        }
 
-        hdnJobDetailURL.Value = ConfigurationManager.AppSettings["jobdetailURL"].ToString() + JobId;
+            if (twitterjobtitlelength > 0 && twitterjobtitlelength < jobtitle.Length)
+            {
+                hdnTwitterTitle.Value = "#Job opportunity at Bank of America: " + jobtitle.Substring(0, twitterjobtitlelength) + "...";
+            }
+            else
+            {
+                hdnTwitterTitle.Value = "#Job opportunity at Bank of America: " + jobtitle;
+            }
 
-        //hdnJobId.Value = JobId;
-        
+            if (linkedinjobtitlelength > 0 && pageTitle.Length > linkedinjobtitlelength)
+            {
+                hdnLinkedInTitle.Value = pageTitle.Substring(0, linkedinjobtitlelength);
+            }
+            else
+            {
+                hdnLinkedInTitle.Value = pageTitle;
+            }
 
-        if (linkedinjobdescriptionlength > 0 && lblDescripton.Text.Length > linkedinjobdescriptionlength)
+            hdnJobDetailURL.Value = ConfigurationManager.AppSettings["jobdetailURL"].ToString() + JobId;
+
+            //hdnJobId.Value = JobId;
+
+
+            if (linkedinjobdescriptionlength > 0 && lblDescripton.Text.Length > linkedinjobdescriptionlength)
             {
                 hdnLinkedInJobDescription.Value = lblDescripton.Text.Substring(0, linkedinjobtitlelength);
             }
-        else
+            else
             {
-              hdnLinkedInJobDescription.Value = lblDescripton.Text;
+                hdnLinkedInJobDescription.Value = lblDescripton.Text;
             }
 
 
-        hdnLinkedInJobDescription.Value = hdnLinkedInJobDescription.Value.Replace("\r", "");
-        hdnLinkedInJobDescription.Value = hdnLinkedInJobDescription.Value.Replace("\n", "");
-        hdnLinkedInJobDescription.Value = Utility.StripHTML(hdnLinkedInJobDescription.Value);
-        
+            hdnLinkedInJobDescription.Value = hdnLinkedInJobDescription.Value.Replace("\r", "");
+            hdnLinkedInJobDescription.Value = hdnLinkedInJobDescription.Value.Replace("\n", "");
+            hdnLinkedInJobDescription.Value = Utility.StripHTML(hdnLinkedInJobDescription.Value);
+        }
+        catch (Exception ex)
+        {
+            throw ex;
+        } 
       
     }
 
