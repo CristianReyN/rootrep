@@ -3,10 +3,8 @@
 
 <asp:Content ID="Image" ContentPlaceHolderID="Image" runat="Server">
 
-    <img src="images/latin_america.jpg" width="578" height="166" alt="Explore a career with the Bank of Opportunity."
-        title="Explore a career with the Bank of Opportunity." border="0" />
-    <div class="hidden">
-        Explore a career with the Bank of Opportunity.</div>
+    <img src="images/latin_america.jpg" width="578" height="166" alt="Latin America Explore a career with the Bank of Opportunity."
+        title="Latin America Explore a career with the Bank of Opportunity." border="0" />
 </asp:Content>
 <asp:Content ID="Main" ContentPlaceHolderID="Main" runat="Server">
 <script type="text/javascript"><!--
@@ -41,7 +39,7 @@
         <tr>
             <td width="366" align="left" valign="top">
                           <p>
-                   Bank of America operates a network of offices in 8 countries in Latin America (LATAM)  The company's regional footprint covers four time zones, multiple legal and regulatory jurisdictions and employs over 2500 associates in offices in Argentina, Brazil, Chile, Columbia, Costa Rica, Mexico, Panama and Uruguay, in addition to a strong Emerging Markets presence. The company is a long–established participant in the Latin American markets having maintained a presence in the region since 1954. 
+                   Bank of America operates a network of offices in 8 countries in Latin America (LATAM).  The company's regional footprint covers four time zones, multiple legal and regulatory jurisdictions and employs over 2500 associates in offices in Argentina, Brazil, Chile, Colombia, Costa Rica, Mexico, Panama and Uruguay, in addition to a strong Emerging Markets presence. The company is a long–established participant in the Latin American markets having maintained a presence in the region since 1954. 
                 </p>
                 <p>
                   Today, the company offers an integrated and comprehensive set of products and services across all businesses, serving the needs of individual, corporate, institutional and government clients, by combining the best of local knowledge and international expertise. 
@@ -118,7 +116,7 @@ div#map_details_EUROPE div p { font-family: Verdana, Helvetica, sans-serif;font-
                 <a  id="loc15" title="Mexico-Tlaquepaque" class="bullet" href="#A2" onmouseout="javascript:this.blur();hide('loc15_info');" onmouseover="javascript:this.focus();show('loc15_info');" onfocus="javascript:show('loc15_info');" onblur="javascript:hide('loc15_info');" style="left:99px;top:29px;"></a>
                 <a id="loc36" title="Mexico-Mexico City" class="bullet" href="#A2" onmouseout="javascript:this.blur();hide('loc36_info');" onmouseover="javascript:this.focus();show('loc36_info');" onfocus="javascript:show('loc36_info');" onblur="javascript:hide('loc36_info');" style="left:107.5px;top:33px;"></a>
                 <a id="loc29" title="Panama-Panama City" class="bullet" href="#A2" onmouseout="javascript:this.blur();hide('loc29_info');" onmouseover="javascript:this.focus();show('loc29_info');" onfocus="javascript:show('loc29_info');" onblur="javascript:hide('loc29_info');" style="left:161.5px;top:62.5px;"></a>
-                <a id="loc30" title="Columbia-Bogota" class="bullet" href="#A2" onmouseout="javascript:this.blur();hide('loc30_info');" onmouseover="javascript:this.focus();show('loc30_info');" onfocus="javascript:show('loc30_info');" onblur="javascript:hide('loc30_info');" style="left:176.5px;top:73.5px;"></a>
+                <a id="loc30" title="Colombia-Bogota" class="bullet" href="#A2" onmouseout="javascript:this.blur();hide('loc30_info');" onmouseover="javascript:this.focus();show('loc30_info');" onfocus="javascript:show('loc30_info');" onblur="javascript:hide('loc30_info');" style="left:176.5px;top:73.5px;"></a>
                 <a id="loc1" title="Brazil-Sao Paulo" class="bullet" href="#A2" onmouseout="javascript:this.blur();hide('loc1_info');" onmouseover="javascript:this.focus();show('loc1_info');" onfocus="javascript:show('loc1_info');" onblur="javascript:hide('loc1_info');" style="left:248.5px;top:147px;"></a>
                 <a id="loc13" title="Uruguay-Montevideo" class="bullet" href="#A2" onmouseout="javascript:this.blur();hide('loc13_info');" onmouseover="javascript:this.focus();show('loc13_info');" onfocus="javascript:show('loc13_info');" onblur="javascript:hide('loc13_info');" style="left:223.5px;top:181.5px;"></a>
                 <a id="loc3" title="Chile-Las Condes" class="bullet" href="#A2" onmouseout="javascript:this.blur();hide('loc3_info');" onmouseover="javascript:this.focus();show('loc3_info');" onfocus="javascript:show('loc3_info');" onblur="javascript:hide('loc3_info');" style="left:182.5px;top:186.5px;"></a>
@@ -127,7 +125,7 @@ div#map_details_EUROPE div p { font-family: Verdana, Helvetica, sans-serif;font-
                 <div id="loc15_info"><h1>Mexico</h1><h2>Tlaquepaque</h2><p>Centro Corporativo Intermex<BR>Periferico SUR #7999 - E<BR>Tlaquepaque 45601, Mexico</p></div>
                 <div id="loc36_info"><h1>Mexico</h1><h2>Mexico City</h2><p>Piso 22<BR>Paseo de la Reforma 265<BR>Mexico City 06500 DF, Mexico</p></div>
                 <div id="loc29_info"><h1>Panama</h1><h2>Panama City</h2><p>Torres de las Americas Building Ste B-1702<BR>Boulevard Punta Pacifica<BR>Panama City, Panama</p></div>
-                <div id="loc30_info"><h1>Columbia</h1><h2>Bogota</h2><p>Torre Samsung Building Ste 1506<BR>Carrara 7 Number 113-43<BR>Bogota, Colombia</p></div>
+                <div id="loc30_info"><h1>Colombia</h1><h2>Bogota</h2><p>Torre Samsung Building Ste 1506<BR>Carrara 7 Number 113-43<BR>Bogota, Colombia</p></div>
                 <div id="loc1_info"><h1>Brazil</h1><h2>Sao Paulo</h2><p>Faria Lima Financial Center (FLFC)<BR>Av Brigadeiro Faria Lima 3400 – 18º andar<BR>Itaim Bibi; São Paulo – SP 04538-132, Brazil<BR><BR> International Plaza II<BR>Av Juscelino Kubitschek, 1327 – 9º andar<BR>São Paulo – SP 04543-011, Brazil</p></div>
                 <div id="loc13_info"><h1>Uruguay</h1><h2>Montevideo</h2><p>Montevideo, Ruta 8km<BR>17,500, Zonamerica<BR>Montevideo, Uruguay</p></div>
                 <div id="loc3_info"><h1>Chile</h1><h2>Las Condes</h2><p>Apoquindo 3500, 9th floor<BR>Las Condes, Santiago, Chile<BR><BR>Apoquindo 3500, 2nd floor<BR>Las Condes, Santiago, Chile<BR><BR>Sanchez Fontecilla 310, 10th floor<BR>Las Condes, Santiago, Chile</p></div>

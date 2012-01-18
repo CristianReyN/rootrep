@@ -1,8 +1,7 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeFile="ada_latin_america_ml.aspx.cs" Inherits="ada_latin_america_ml" %>
 
-<asp:Content ID="Image" ContentPlaceHolderID="Image" runat="Server"> <img src="images/latin_america.jpg" width="578" height="166" alt="Explore a career with the Bank of Opportunity."
-        title="Explore a career with the Bank of Opportunity." border="0" />
-    <div class="hidden"> Explore a career with the Bank of Opportunity.</div>
+<asp:Content ID="Image" ContentPlaceHolderID="Image" runat="Server"> <img src="images/latin_america.jpg" width="578" height="166" alt="Latin America Explore a career with the Bank of Opportunity."
+        title="Latin America Explore a career with the Bank of Opportunity." border="0" />
 </asp:Content>
 <asp:Content ID="Main" ContentPlaceHolderID="Main" runat="Server">
     <a name="skipmaincontent"></a>
@@ -10,7 +9,7 @@
     <table summary="Global Careers - Asia" width="366" border="0" cellspacing="0" cellpadding="0">
         <tr>
             <td width="366" align="left" valign="top">
-<p>Bank of America operates a network of offices in 8 countries in Latin America (LATAM)  The company's regional footprint covers four time zones, multiple legal and regulatory jurisdictions and employs over 2500 associates in offices in Argentina, Brazil, Chile, Columbia, Costa Rica, Mexico, Panama and Uruguay, in addition to a strong Emerging Markets presence. The company is a long–established participant in the Latin American markets having maintained a presence in the region since 1954. </p>
+<p>Bank of America operates a network of offices in 8 countries in Latin America (LATAM).  The company's regional footprint covers four time zones, multiple legal and regulatory jurisdictions and employs over 2500 associates in offices in Argentina, Brazil, Chile, Colombia, Costa Rica, Mexico, Panama and Uruguay, in addition to a strong Emerging Markets presence. The company is a long–established participant in the Latin American markets having maintained a presence in the region since 1954. </p>
 
 <p>Today, the company offers an integrated and comprehensive set of products and services across all businesses, serving the needs of individual, corporate, institutional and government clients, by combining the best of local knowledge and international expertise.</p>
 
@@ -22,8 +21,8 @@
                                 
                 <a name="mapstart"></a>
                 <div class="hidden" title="Anchor links for location and address list">
-                    <a href="#Brazil">Brazil</a> <a href="#Chile">Chile</a> <a href="#Columbia">
-                        Columbia</a> <a href="#Mexico">Mexico</a> <a href="#Panama">Panama</a> <a href="#Uruguay">
+                    <a href="#Brazil">Brazil</a> <a href="#Chile">Chile</a> <a href="#Colombia">
+                        Colombia</a> <a href="#Mexico">Mexico</a> <a href="#Panama">Panama</a> <a href="#Uruguay">
                             Uruguay</a> <a href="#CostaRica">Costa Rica</a> <a href="#Mexico">
                                 Mexico</a> 
                                 <a href="#BAMerrillLynch">Merrill Lynch</a> 
@@ -68,8 +67,8 @@
                 </p>
                 <div class="hidden">
                     <a href="#mapstart">Back to Location List</a></div>
-                <h3>Columbia</h3>
-                <a name="Columbia"></a>
+                <h3>Colombia</h3>
+                <a name="Colombia"></a>
 <p>
 <span class="text_bold_under">Bogota</span><br />
 

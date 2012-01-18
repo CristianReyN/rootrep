@@ -3,10 +3,8 @@
 
 
 <asp:Content ID="Image" ContentPlaceHolderID="Image" runat="Server">
-    <img src="images/latin_america.jpg" width="578" height="166" alt="Explore a career with the Bank of Opportunity."
-        title="Explore a career with the Bank of Opportunity." border="0" />
-    <div class="hidden">
-        Explore a career with the Bank of Opportunity.</div>
+    <img src="images/latin_america.jpg" width="578" height="166" alt="Latin America Explore a career with the Bank of Opportunity."
+        title="Latin America Explore a career with the Bank of Opportunity." border="0" />
 </asp:Content>
 <asp:Content ID="Main" ContentPlaceHolderID="Main" runat="Server">
     <a name="skipmaincontent"></a>
@@ -21,7 +19,7 @@
                 <h2>
                     Bank of America Merrill Lynch</h2>
                     <p>
-                    Bank of America operates a network of offices in 8 countries in Latin America (LATAM)  The company&#8217;s regional footprint covers four time zones, multiple legal and regulatory jurisdictions and employs over 2500 associates in offices in Argentina, Brazil, Chile, Columbia, Costa Rica, Mexico, Panama and Uruguay, in addition to a strong Emerging Markets presence. The company is a long–established participant in the Latin American markets having maintained a presence in the region since 1954. 
+                    Bank of America operates a network of offices in 8 countries in Latin America (LATAM).  The company&#8217;s regional footprint covers four time zones, multiple legal and regulatory jurisdictions and employs over 2500 associates in offices in Argentina, Brazil, Chile, Colombia, Costa Rica, Mexico, Panama and Uruguay, in addition to a strong Emerging Markets presence. The company is a long–established participant in the Latin American markets having maintained a presence in the region since 1954. 
                     </p>
                     <p>
                     Today, the company offers an integrated and comprehensive set of products and services across all businesses, serving the needs of individual, corporate, institutional and government clients, by combining the best of local knowledge and international expertise. 

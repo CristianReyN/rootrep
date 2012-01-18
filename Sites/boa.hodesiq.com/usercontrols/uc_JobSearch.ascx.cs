@@ -33,28 +33,41 @@ public partial class uc_JobSearch : System.Web.UI.UserControl
         {
             ManageYourProfile.HRef = System.Configuration.ConfigurationManager.AppSettings["MaintenancePage"].ToString();
         }
-         else
+        else
         {
             ManageYourProfile.HRef = "../overview/manage_your_profile.asp";
             ManageYourProfile.Target = "_blank";
         }
-       
+
         string strRef = Page.GetPostBackEventReference(Country);
+
+        string currentPageFileName = new FileInfo(this.Request.Url.LocalPath).Name;
+
+        
+
         if (!IsPostBack)
         {
-            PopulateCountries();
-            Country.SelectedValue = Location.ALL_COUNTRIES;
-            PopulateLocations();
-            PopulateCity();
-            PopulateJobFamily();
-            PopulateInternationalCity();
-            TrUsJobs1.Visible = false;
-            TrUsJobs2.Visible = false;
-            TrUsJobs3.Visible = false;
-            //TrUsJobs4.Visible = false;
-            PnlFilter.Visible = false;
-            BtnSearch.Visible = false;
-            Country.AutoPostBack = false;
+            /*if (currentPageFileName == "bacs.aspx" || currentPageFileName == "bacs_lob.aspx" || currentPageFileName == "bacs_benefits.aspx" || currentPageFileName == "bacs_culture.aspx" || currentPageFileName == "bacs_staffing.aspx")
+            {
+                FilterJobSearchByCountry("105", strRef);
+            }
+            else
+            {*/
+                PopulateCountries();
+                Country.SelectedValue = Location.ALL_COUNTRIES;
+                PopulateLocations();
+                PopulateCity();
+                PopulateJobFamily();
+                PopulateInternationalCity();
+                TrUsJobs1.Visible = false;
+                TrUsJobs2.Visible = false;
+                TrUsJobs3.Visible = false;
+                //TrUsJobs4.Visible = false;
+                PnlFilter.Visible = false;
+                BtnSearch.Visible = false;
+                Country.AutoPostBack = false;
+            //}
+
         }
         else
         {
@@ -68,6 +81,8 @@ public partial class uc_JobSearch : System.Web.UI.UserControl
         UpdateControls();
         CountryHidden.Value = Country.SelectedValue;
 
+
+
         if (trState.Visible)
         {
             strRef = Page.GetPostBackEventReference(State);
@@ -76,8 +91,8 @@ public partial class uc_JobSearch : System.Web.UI.UserControl
             State.AutoPostBack = false;
         }
         //boanet_safebutton.writeBOASafeButton("Search", phSearch, "Begin Search", bsearch_Click, this.Request, "");
-
     }
+
 
     protected void bsearch_Click(object sender, EventArgs e)
     {
@@ -402,6 +417,49 @@ public partial class uc_JobSearch : System.Web.UI.UserControl
         }
     }
 
+    protected void FilterJobSearchByCountry(string strCountry, string strRef)
+    {
+        PopulateCountries();
+        //Country.SelectedValue = Location.ALL_COUNTRIES;
+        Country.SelectedValue = strCountry;
+        PopulateLocations();
+        PopulateCity();
+        PopulateJobFamily();
+        PopulateInternationalCity();
+        TrUsJobs1.Visible = false;
+        TrUsJobs2.Visible = false;
+        TrUsJobs3.Visible = false;
+        PnlFilter.Visible = false;
+        BtnSearch.Visible = false;
+        Country.AutoPostBack = false;
+
+        ViewState["jobareas"] = ddlJobAreas.SelectedValue;
+        PopulateJobAreas();
+
+        UpdateControls();
+        CountryHidden.Value = strCountry;
+
+        PnlCanada.Visible = false;
+        tdInstructions.Text = "To find a career suited to your skill set, begin by selecting a country from the list below. Then you may narrow your selection further by choosing additional search criteria and/or entering keywords.";
+
+        Country.AutoPostBack = false;
+        Country.Attributes["onblur"] = "javascript:if(document.getElementById('" + Country.ClientID + "').value != document.getElementById('" + CountryHidden.ClientID + "').value)" + strRef;
+
+        PopulateInternationalCity();
+        PopulateJobFamily();
+
+        ddlJobFamily.SelectedValue = "-1";
+        InternationalCity.SelectedValue = "-1";
+        keywords.Text = "";
+
+        tblButtons.Visible = true;
+
+        PnlFilter.Visible = true;
+        Country.AutoPostBack = false;
+        BtnSearch.Visible = true;
+        BtnBegin.Visible = false;
+
+    }
 
 }
 

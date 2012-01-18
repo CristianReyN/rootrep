@@ -24,6 +24,7 @@
                     <li><a href="campusrecruiting/emeafs-global-markets-associate-programme.asp">Global Markets Associate Programme</a></li>
                     <li><a href="campusrecruiting/emeafs-global-markets-quantitative-analytics-associate-programme.asp">Global 
                       Markets Quantitative Analytics Associate Programme</a></li>
+                      <li><a href="campusrecruiting/emeafs-global-markets-rates-currencies-algorithmic-trading-associate-programme.asp">Global Markets Rates and Currencies Algorithmic Trading Associate Programme</a></li>
                     <li><a href="campusrecruiting/emeafs-global-research-associate-programme.asp">Global 
                       Research Associate Programme</a></li>
                   </ul>

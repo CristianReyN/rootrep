@@ -42,14 +42,13 @@
                     <li><a href="campusrecruiting/usin-global-research-summer-analyst-program.asp" name="Global_Research_Summer_Analyst_Program">Global 
                       Research Summer Analyst Program</a></li>
                       <li><a href="campusrecruiting/cain-research-analyst-summer-program.asp" name="Global_Research_Summer_Analyst_Program_Canada">Global Research Summer Analyst Program (Canada)</a></li>
-                        <li><a href="campusrecruiting/usin-global-treasury-solutions-summer-analyst-program.asp" name="Global_Treasury_Solutions_Summer_Analyst_Program">Global Treasury Solutions Summer Analyst Program</a></li>
+                        <li><a href="campusrecruiting/usin-global-treasury-solutions-summer-analyst-program.asp" name="Global_Treasury_Solutions_Summer_Analyst_Program">Global Treasury Summer Analyst Program</a></li>
                     
                   </ul>
                   <h2 class="questions">Global Commercial Banking</h2>
                   <ul>
                     <li><a href="campusrecruiting/usin-commercial-real-estate-banking-summer-analyst-program.asp" name="Commercial_Real_Estate_Bank_Summer_Analyst_Program">Commercial Real Estate Bank Summer Analyst Program</a></li>
-                    <li><a href="campusrecruiting/usin-global-commercial-banking-summer-analyst-program.asp" name="Global_Commercial_Banking_Summer_Analyst_Program">Global 
-                      Commercial Banking Summer Analyst Program</a></li>
+                    <li><a href="campusrecruiting/usin-global-commercial-banking-summer-analyst-program.asp" name="Global_Commercial_Banking_Summer_Analyst_Program">Global Commercial Banking Credit Summer Analyst Program</a></li>
                   </ul>
                   
                   <h2 class="questions">Global Consumer and Small Business Banking</h2>

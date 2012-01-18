@@ -23,7 +23,9 @@ public partial class JobSearch : System.Web.UI.Page
 
         DateTime MaintenanceStartDate = DateTime.Parse(System.Configuration.ConfigurationManager.AppSettings["MaintenanceStartDate"].ToString());
         DateTime MaintenanceEndDate = DateTime.Parse(System.Configuration.ConfigurationManager.AppSettings["MaintenanceEndDate"].ToString());
-        if (DateTime.Compare(MaintenanceStartDate, DateTime.Now) < 0 && DateTime.Compare(MaintenanceEndDate, DateTime.Now) > 0)
+        DateTime ATSUrlStartDate = DateTime.Parse(System.Configuration.ConfigurationManager.AppSettings["ATSUrlStartDate"].ToString());
+        
+         if (DateTime.Compare(MaintenanceStartDate, DateTime.Now) < 0 && DateTime.Compare(MaintenanceEndDate, DateTime.Now) > 0)
         {
             ManageYourProfile.HRef = System.Configuration.ConfigurationManager.AppSettings["MaintenancePage"].ToString();
             ImgMerchantServices.HRef = System.Configuration.ConfigurationManager.AppSettings["MaintenancePage"].ToString();
@@ -32,7 +34,19 @@ public partial class JobSearch : System.Web.UI.Page
         {
             ManageYourProfile.HRef = "../overview/manage_your_profile.asp";
             ManageYourProfile.Target = "_blank";
+            ImgMerchantServices.HRef = "--https://bacfhrs.taleo.net/careersection/10200/joblist.ftl?lang=en" ;
+            ImgMerchantServices.Target ="_blank";
+        }
+
+        //New BAMS Taleo ATS URL
+        if (DateTime.Compare(ATSUrlStartDate, DateTime.Now) > 0)
+        {
             ImgMerchantServices.HRef = "https://bacfhrs.taleo.net/careersection/10200/joblist.ftl?lang=en" ;
+            ImgMerchantServices.Target ="_blank";
+        }
+        else
+        {
+            ImgMerchantServices.HRef = "../learnmore/bams.asp" ;
             ImgMerchantServices.Target ="_blank";
         }
              

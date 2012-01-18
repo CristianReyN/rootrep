@@ -3,9 +3,8 @@
 
 
 
-<asp:Content ID="Image" ContentPlaceHolderID="Image" runat="Server"> <img src="images/latin_america.jpg" width="578" height="166" alt="Explore a career with the Bank of Opportunity."
-        title="Explore a career with the Bank of Opportunity." border="0" />
-    <div class="hidden"> Explore a career with the Bank of Opportunity.</div>
+<asp:Content ID="Image" ContentPlaceHolderID="Image" runat="Server"> <img src="images/latin_america.jpg" width="578" height="166" alt="Latin America Explore a career with the Bank of Opportunity."
+        title="Latin America Explore a career with the Bank of Opportunity." border="0" />
 </asp:Content>
 <asp:Content ID="Main" ContentPlaceHolderID="Main" runat="Server">
     <a name="skipmaincontent"></a>
@@ -39,7 +38,7 @@
                 <a name="mapstart"></a>
                 <div class="hidden" title="Anchor links for location and address list">
                     <a href="#CostaRica">Costa Rica</a> <a href="#Mexico">Mexico</a> <a href="#Brazil">
-                        Brazil</a> <a href="#Chile">Chile</a> <a href="#Columbia">Columbia</a> <a href="#Mexico">
+                        Brazil</a> <a href="#Chile">Chile</a> <a href="#Colombia">Colombia</a> <a href="#Mexico">
                             Mexico</a> <a href="#Panama">Panama</a> <a href="#Uruguay">
                                 Uruguay</a> 
                                 <a href="#BAMerrillLynch">Merrill Lynch</a> 
@@ -117,8 +116,8 @@ Las Condes, Santiago, Chile<br />
 
 
 
- <h3>Columbia</h3>
-                <a name="Columbia"></a>
+ <h3>Colombia</h3>
+                <a name="Colombia"></a>
 <p>
 <span class="text_bold_under">Bogota</span><br />
 
