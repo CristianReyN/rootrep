@@ -57,6 +57,17 @@ Function howToApply (program)
 %>
 <p class="bac">In order to be considered a candidate for this opportunity, you must apply via <a href="<% If page_section <> "ADA" Then  %>../campusrecruiting/<% Else  %>../ada_camp/<% End If %>" class="bac" title="">www.bankofamerica.com/campusrecruiting</a> . To <a href="<% If page_section <> "ADA" Then  %>../learnmore/<% Else  %>../ada/<% End If %>sendresume.asp" class="bac" title="" target="<%=HOWTOAPPLY_TARGET%>">submit your profile<% If HOWTOAPPLY_TARGET = "_blank" Then %><span class="hidden"> Link opens a new window</span><% End If%></a>, first sign in as a new or returning user. If you don&#39;t have an existing account, you&#39;ll need to register as a new user. Then, complete your Candidate Profile and designate your program(s) of interest. Please note that in order for your application to be considered complete, you must reach the final &ldquo;Thank You&rdquo; page. In addition, please follow any procedures set forth through the Career Services office on your campus.</p>
 <%
+	ElseIf InArray(program.Item("url"), Array( _
+			"emeafs-global-markets-rates-currencies-algorithmic-trading-associate-programme.asp" _
+		)) Then
+%>
+<p class="bac">To <a href="https://static.wcn.co.uk/company/ml/apply_now.html" class="bac" target="_blank">apply now<span class="hidden"> Link opens a new window</span></a>:</p>
+<ul class="bac">
+	<li>Search for the programme, division and location you wish to apply for and select the programme title</li>
+	<li>Select &lsquo;Apply Now&rsquo; and sign in as a new or returning user</li>
+	<li>Complete the application form and upload your CV and cover letter</li>
+</ul>
+<%
 	ElseIf program.Item("region") = EMEA OR _
 			InArray(program.Item("url"), Array( _
 			"emeafn-card-services-analyst-programme.asp", _

@@ -7,20 +7,27 @@
 <div class="expanded">
 <% call expandableH2("our_business", true) %>
 <div>
-<p class="bac">A division of Global Banking and Markets (GBAM), the Global Corporate and Financial Institutions Treasury Product Delivery team provides integrated treasury, liquidity and debt solutions to Global Corporate clients and financial institutions. As a core member of the client team, the Product Delivery Team partners closely with groups across Corporate Banking including; Product Management, E&ndash;commerce, Card, and Debt Product Delivery teams, to deliver integrated solutions to our client. Treasury analysts work with clients operating around the globe, with annual revenues of greater than $2B, as well as financial institutions and financial services companies.</p>
+<p class="bac">A division of Global Banking and Markets (GBAM), the Treasury team provides integrated treasury, liquidity &amp; debt solutions to Global Corporate, Commercial and Financial Institutions. As a core member of the client team the Product Delivery Team partners closely with groups across Banking including; Product Management, Ecommerce, Card, and Debt Product Delivery teams to deliver integrated solutions to our client.</p>
 </div></div>
 
 <div class="expand">
 <% call expandableH2("overview", false) %>
 <div>
-<p class="bac">The Summer Analyst Program emphasizes on&ndash;the&ndash;job training, augmented by classroom instruction, focused on technical, analytical and professional skills. Functional areas include treasury management, financial modeling and credit/risk fundamentals, and relationship management.</p>
-<p class="bac">Summer analyst roles provide broad exposure and understanding of key functional areas. Summer analysts receive exposure to treasury solutions, product management/innovation and risk management, with intensive focus on how to best deliver innovative treasury solutions to our clients.</p>
+<p class="bac">The summer analyst program emphasizes on&ndash;the&ndash;job training augmented by classroom instruction focused on technical, analytical and professional skills. Functional areas include treasury management, financial modeling and credit/risk fundamentals and relationship management.</p>
+<p class="bac">Summer analyst roles provide broad exposure and understanding of key functional areas. Summer analysts receive exposure to treasury solutions, product management/innovation and risk management with intensive focus on how to best deliver innovative treasury solutions to our clients.</p>
+<p class="bac nobr">Upon completion of the summer you will:</p>
+<ul class="bac">
+	<li>Understand and clearly articulate Treasury Management client needs and product profitability</li>
+	<li>Exhibit knowledge of sales analytics, pricing models and product markets across the Treasury franchise</li>
+	<li>Understand how a deal moves through the treasury pipeline</li>
+	<li>Demonstrate understanding of the Treasury Management industry, both domestic and international</li>
+	<li>Demonstrate knowledge of key product set, including the common variations and their applicability</li>
+</ul>
 </div></div>
 
 <div class="expand">
 <% call expandableH2("qualifications", false) %>
 <div>
-<p class="bac nobr">Candidates should demonstrate a strong combination of the following characteristics:</p>
 <ul class="bac">
 	<li>Rising senior with outstanding academic qualifications</li>
 	<li>A track record of superior performance in extracurricular and professional activities</li>
@@ -46,7 +53,7 @@
 <div class="expand">
 <% call expandableH2("locations", false) %>
 <div>
-<p class="bac">Positions are available in major markets across the Bank&nbsp;of&nbsp;America footprint. Line of business and location assignment is based on business need and candidate interest. Geographic flexibility is required at the end of the program in an effort to fill business&ndash;critical roles.</p>
+<p class="bac">Positions are available in major markets across the Bank&nbsp;of&nbsp;America footprint. Line&ndash;of&ndash;business and location assignment is based on business need and candidate interest. Geographic flexibility is required at the end of the program in an effort to fill business&ndash;critical roles.</p>
 </div></div>
 
 <div class="expand">

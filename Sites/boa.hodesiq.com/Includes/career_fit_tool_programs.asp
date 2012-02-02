@@ -108,7 +108,7 @@ Set programs(208) = createProgram("Global Markets Sales and Trading Summer Analy
 Set programs(55) = createProgram("Global Research Summer Analyst Program", gbam_program_group, "usin-global-research-summer-analyst-program.asp", AMERICAS, U_S_A, ANALYST, INTERN, FALSE, TRUE)
 Set programs(206) = createProgram("Global Research Summer Analyst Program (Canada)", gbam_program_group, "cain-research-analyst-summer-program.asp", AMERICAS, CANADA, ANALYST, INTERN, FALSE, TRUE)
 Set programs(56) = createProgram("Commercial Real Estate Banking Summer Analyst Program", gcb_program_group, "usin-commercial-real-estate-banking-summer-analyst-program.asp", AMERICAS, U_S_A, ANALYST, INTERN, FALSE, TRUE)
-Set programs(57) = createProgram("Global Commercial Banking Summer Analyst Program", gcb_program_group, "usin-global-commercial-banking-summer-analyst-program.asp", AMERICAS, U_S_A, ANALYST, INTERN, FALSE, TRUE)
+Set programs(57) = createProgram("Global Commercial Banking Credit Summer Analyst Program", gcb_program_group, "usin-global-commercial-banking-summer-analyst-program.asp", AMERICAS, U_S_A, ANALYST, INTERN, FALSE, TRUE)
 Set programs(59) = createProgram("Applied Technology Program", gto_program_group, "usin-applied-technology-program.asp", AMERICAS, U_S_A, ANALYST, INTERN, FALSE, TRUE)
 Set programs(60) = createProgram("Corporate Security Analyst Internship", gto_program_group, "usin-corporate-security-analyst-internship.asp", AMERICAS, U_S_A, ANALYST, INTERN, FALSE, TRUE)
 Set programs(61) = createProgram("Corporate Workplace Analyst Internship", gto_program_group, "usin-corporate-workplace-analyst-internship.asp", AMERICAS, U_S_A, ANALYST, INTERN, FALSE, TRUE)
@@ -157,7 +157,7 @@ Set programs(88) = createProgram("Home Loans and Insurance MBA Intern Program", 
 
 
 'EMEA -> 301-500
-'last - 377
+'last - 378
 
 'EMEA FULLTIME ANALYST PROGRAMS
 Set programs(301) = createProgram("Corporate Treasury Analyst Programme", cfo_program_group, "emeafn-international-corporate-treasury-analyst-programme.asp", EMEA, "", ANALYST, FULLTIME, FALSE, TRUE)
@@ -179,6 +179,7 @@ Set programs(318) = createProgram("Compliance Analyst Programme", gr_program_gro
 Set programs(322) = createProgram("Global Markets Quantitative Analytics Associate Programme", gbam_program_group, "emeafs-global-markets-quantitative-analytics-associate-programme.asp", EMEA, "", ASSOCIATE, FULLTIME, FALSE, TRUE)
 Set programs(323) = createProgram("Global Research Associate Programme", gbam_program_group, "emeafs-global-research-associate-programme.asp", EMEA, "", ASSOCIATE, FULLTIME, FALSE, TRUE)
 Set programs(320) = createProgram("Global Investment Banking Associate Programme", gbam_program_group, "emeafs-global-investment-banking-associate-programme.asp", EMEA, "", ASSOCIATE, FULLTIME, FALSE, TRUE)
+Set programs(378) = createProgram("Global Markets Rates and Currencies Algorithmic Trading Associate Programme", gbam_program_group, "emeafs-global-markets-rates-currencies-algorithmic-trading-associate-programme.asp", EMEA, "", ASSOCIATE, FULLTIME, FALSE, TRUE)
 
 'EMEA INTERN ANALYST PROGRAMS
 Set programs(324) = createProgram("Corporate Treasury Summer Analyst Programme", cfo_program_group, "emeain-international-corporate-treasury-summer-analyst-programme.asp", EMEA, "", ANALYST, INTERN, FALSE, TRUE)
@@ -251,7 +252,7 @@ Set programs(96) = createProgram("Technology Developer and Analyst Program", gba
 Set programs(97) = createProgram("Enterprise Change Technology Operations Intern Program", gbam_program_group, "usin-enterprise-change-technology-operations-intern-program.asp", AMERICAS, U_S_A, ANALYST, INTERN, FALSE, TRUE)
 Set programs(99) = createProgram("Supply Chain Management Intern Program", gbam_program_group, "usin-supply-chain-management-intern-program.asp", AMERICAS, U_S_A, ANALYST, INTERN, FALSE, TRUE)
 Set programs(100) = createProgram("Technology Developer and Analyst Intern Program", gbam_program_group, "usin-technology-developer-analyst-intern-program.asp", AMERICAS, U_S_A, ANALYST, INTERN, FALSE, TRUE)
-Set programs(103) = createProgram("Global Treasury Solutions Summer Analyst Program", gbam_program_group, "usin-global-treasury-solutions-summer-analyst-program.asp", AMERICAS, U_S_A, ANALYST, INTERN, FALSE, TRUE)
+Set programs(103) = createProgram("Global Treasury Summer Analyst Program", gbam_program_group, "usin-global-treasury-solutions-summer-analyst-program.asp", AMERICAS, U_S_A, ANALYST, INTERN, FALSE, TRUE)
 Set programs(101) = createProgram("Consumer and Small Business Banking MBA Intern Program", gbam_program_group, "usis-consumer-small-business-banking-mba-intern-program.asp", AMERICAS, U_S_A, ASSOCIATE, INTERN, FALSE, TRUE)
 Set programs(102) = createProgram("Global Markets Quantitative Group Summer Associate Program", gbam_program_group, "usis-global-markets-quantitative-summer-associate-program.asp", AMERICAS, U_S_A, ASSOCIATE, INTERN, FALSE, TRUE)
 

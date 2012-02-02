@@ -65,6 +65,7 @@ Function get2LevelCategoryName(page_name)
 			"emeafs-global-markets-associate-programme", _
 			"emeafs-global-markets-quantitative-analytics-associate-programme", _
 			"emeafs-global-research-associate-programme", _
+			"emeafs-global-markets-rates-currencies-algorithmic-trading-associate-programme", _
 			"emeain-compliance-summer-analyst-programme", _
 			"emeain-global-banking-markets-credit-risk-management-summer-analyst-programme", _
 			"emeain-global-capital-markets-analyst-fixed-term-placement-3-6-months", _
@@ -203,6 +204,7 @@ Function get2LevelCategoryName(page_name)
 			"awards", _
 			"bams", _
 			"diversity_inclusion_video", _
+			"diversityexecutiverecruiting", _
 			"factsheets", _
 			"flexible_wa", _
 			"insurance", _

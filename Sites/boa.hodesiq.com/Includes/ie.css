@@ -23,3 +23,16 @@ table.event a.ev-p-over
 {
 	border: dotted 1px #000 !important;
 }
+span.ascent a,
+span.ascent a:link,
+span.ascent a:active,
+span.ascent a:hover,
+span.ascent a:visited,
+span.ascent a.p,
+span.ascent a.p:link,
+span.ascent a.p:active,
+span.ascent a.p:hover,
+span.ascent a.p:visited
+{
+	font-size: 0.8em;
+}

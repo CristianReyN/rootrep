@@ -2198,3 +2198,86 @@ table.event-paging div.right-num span
 {
 	font-size: 8px;
 }
+
+
+p.note
+{
+    font-size: 0.9em;
+}
+p.footnote
+{
+    font-size: 0.9em;
+    font-style: italic;
+}
+
+table.recrevents
+{
+	border: 1px solid #000;
+	border-right: none;
+	width: 100%;
+}
+table.recrevents td
+{
+	vertical-align: top;
+	padding: 9px 9px;
+	border-right: 1px solid #000;
+	width: 33%;
+}
+table.recrevents p
+{
+	font-size: 1.0em;
+	font-weight: bold;
+	margin: 9px 0px 0px 0px;
+}
+
+span.ascent
+{
+	position: relative;
+	top: -0.6em;
+}
+span.ascent a,
+span.ascent a:link,
+span.ascent a:active,
+span.ascent a:hover,
+span.ascent a:visited,
+span.ascent a.p,
+span.ascent a.p:link,
+span.ascent a.p:active,
+span.ascent a.p:hover,
+span.ascent a.p:visited
+{
+	font-size: 0.6em;
+}
+
+table.factsheets
+{
+	position: relative;
+	border-top: 1px solid #cccccc;
+	border-right: 1px solid #cccccc;
+	width: 100%;
+}
+table.factsheets td,
+table.factsheets th
+{
+	padding: 5px 6px;
+	border-left: 1px solid #cccccc;
+	border-bottom: 1px solid #cccccc;
+}
+table.factsheets td.th
+{
+	background: #ececec;
+	border-top: 1px solid #ffffff;
+	border-right: 1px solid #ffffff;
+}
+table.factsheets th,
+table.factsheets td.th,
+table.factsheets td.tf
+{
+	text-align: left;
+	font-weight: bold;
+}
+table.factsheets td
+{
+	vertical-align: middle;
+	width: 33%;
+}

@@ -13,26 +13,18 @@
 				<td width="100%" valign="top">
 <a name="skipmaincontent"></a><H1 class="hidden">Diversity and Inclusion</H1>
 <div style="float: left; width: <% If page_section = "ADA" Then %>353<% ElseIf page_section <> "ADA" Then %>353<%End If%>px;">
-<p style="margin: <% If page_section = "ADA" Then %>0<% Else %>0<%End If%>px <%=right_margin%>px 0px <%=left_margin_0%>px;">
-Above all, we are about people. A philosophy of inclusion drives our organization every day and helps us win in a diverse, global marketplace.
-</p>
-<H2 class="p" style="margin: 12px 0px 0px 0px; padding: 0px;"><b>Diversity Organizations</b></H2>
-<p style="margin: 0px;">
-Our work environment draws on the strength of every associate to build an atmosphere of personal and professional growth. These Bank&nbsp;of&nbsp;America organizations help make diversity work:
-</p>
-<ul>
-	<li><b>Global Diversity &amp; Inclusion Council</b>
-		<br>A group of appointed senior leaders from various lines of business and support units who guide and implement diversity and inclusion initiatives at the corporate level.<br><br></li>
-	<li><b>Diversity and Inclusion Business and Regional Councils</b>
-		<br>Line of business and regional councils address inclusion issues across our businesses and global regions. These groups identify issues and recommend strategies to make their business groups and geographies a place where all associates can do their best work.<br><br></li>
-	<li><b>Affinity Groups</b>
-		<br>Groups of associates with a common interest and those who support them. Currently, there are nine groups organized by affinity: Asian, Black, people with disabilities, Hispanic/Latino, women, military veterans, gay, lesbian, bisexual and transgender, Native American and the Europe, Middle East and Africa (EMEA) Multicultural Leadership Network which connects ethnic minority associates in the EMEA region.<br><br></li>
-	<li><b>Diversity Network</b>
-		<br>One of five networks that make up <a href="http://www.bankofamerica.com/teambank/" target="_blank" class="p" title="Community Volunteers">Community Volunteers</a>, the Diversity Network is comprised of geographically based volunteer teams of associates. The Network&#39;s mission is to encourage and capitalize on the diversity of our associates and promote personal and professional development. Membership is open to associates at all levels of the company.<br><br></li>
-</ul>
-<p style="margin: 12px 0px 0px 0px;">
-If you have questions about an upcoming diversity recruiting event or need additional information about the bank&#39;s diversity efforts, please send an e-mail to <a class="p" href="mailto:diversity_inclusion@bankofamerica.com">diversity_inclusion@bankofamerica.com</a>.
-</p>
+<%	href_pre = ""
+		If page_section <> "ADA" Then href_pre = "../learnmore/" %>
+<p class="bac" style="margin-top: 0px;">
+At Bank&nbsp;of&nbsp;America, we embrace the power of our people and value our differences &mdash; in thought, style, sexual orientation, gender identity, culture, ethnicity and experience &mdash; recognizing that our diversity makes us a stronger company. Encouraging a diverse, inclusive workplace gives us the business advantage of understanding and meeting the needs of our diverse customers, clients and communities.</p>
+
+<p class="bac">Diversity and inclusion are central to our company&#39;s <a href="<%Response.write href_pre%>values.asp" class="p" title="">core values</a>. Every day, we are focused on delivering on the promise of being the best place for people to work. Our mission is to actively promote an inclusive environment where all employees have the opportunity to achieve personal success and contribute to the growth of our business.</p>
+
+<p class="bac">Our efforts to promote diversity and inclusion include four areas of focus: <a href="<%Response.write href_pre%>recruitingevents.asp" class="p" title="">recruiting and retaining diverse talent</a>, maintaining relationships with <a href="http://www.bankofamerica.com/supplierdiversity/index.cfm?template=sddi_ov.cfm" class="p" title="" target="_blank">diverse suppliers<span class="hidden"> Link opens a new window</span></a>, offering products and services to meet the diverse needs of our customers, and <a href="http://www.bankofamerica.com/foundation/" class="p" title="" target="_blank">philanthropy<span class="hidden"> Link opens a new window</span></a> supporting underserved communities. We are proud to be <a href="<%Response.write href_pre%>awards.asp" class="p" title="">widely recognized</a> for our progressive workplace practices and initiatives that promote inclusion. We strive to develop a <a href="<%Response.write href_pre%>factsheets.asp#anchor1" class="p" title="">workforce</a> that reflects the communities we serve. Our vision is that employees across the global enterprise reflect the bank&#39;s commitment to be inclusive at all levels in every community where our employees and customers work and live. We partner with <a href="<%Response.write href_pre%>recruitingevents.asp" class="p" title="">global and national organizations</a> and participate in diversity recruiting events throughout the year to attract top diverse talent. In addition, through our <a href="<%Response.write href_pre%>diversityexecutiverecruiting.asp" class="p" title="">Diversity Executive Recruiting</a> program, we actively identify prospective executives and connect talent to leaders within our businesses.</p>
+
+<p class="bac">Bank&nbsp;of&nbsp;America has a <a href="<%Response.write href_pre%>factsheets.asp#anchor2" class="p" title="">proud history</a> of promoting diversity and inclusion, and our ongoing dedication is demonstrated through our <a href="<%Response.write href_pre%>factsheets.asp" class="p" title="">Global Diversity &amp; Inclusion Organization</a> today.</p>
+
+<a href="mailto:diversity_inclusion@bankofamerica.com" title="Have a question?" style="display : block;  width : 322px; height : 40px; margin: 18px 0px 6px 0px;"><img src="../images/have_a_question.jpg" width="322" height="40" alt="Have a question?" border="0"><span class="hidden"> Link opens a new window</span></a>
 
 </div>
 <% If page_section = "ADA" Then %>
@@ -47,14 +39,6 @@ If you have questions about an upcoming diversity recruiting event or need addit
 		<H2 class="g" style="margin: 0px 0px 0px 0px;"><%=JOB_SEARCH_TITLE%></H2>
 		<img src="../images/clear.gif" width="100%" height="1" alt="" border="0" style="margin: 1px 0px 6px 0px; background: #e8e8e9;" align="top"><br clear="all">
 	<!-- #include file="../jobsearch.asp" -->
-	</div>
-
-	<div style="border: 1px solid #e8e8e9; margin: 12px 0px 12px 0px; padding: 0px 0px 6px 0px; width: 205px; text-align: left;">
-		<H2 class="g" style="margin: 0px 0px 0px 0px;">Related Information</H2>
-		<img src="../images/clear.gif" width="100%" height="1" alt="" border="0" style="margin: 1px 0px 0px 0px; background: #e8e8e9;" align="top"><br clear="all">
-		<div  style="padding: 0px 5px 0px 4px;">
-			<!-- #include file="../diversity-relinfonav.asp" -->
-		</div>					
 	</div>
 	
 	<br><br>

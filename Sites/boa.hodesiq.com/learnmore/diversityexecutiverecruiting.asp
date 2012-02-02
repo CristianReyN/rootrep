@@ -1,20 +1,17 @@
-<%@ Language=VBScript %><%
-Response.Status="301 Moved Permanently"
-Response.Redirect "../learnmore/factsheets.asp"
-%><% Response.Buffer=True 
+<% Response.Buffer=True 
 Dim title, mpage, spage, ada_href, ada_title, Metatag
 mpage = "about_us"
 spage = "diversity"
-tpage = "workforce"
+tpage = "diversityexecutiverecruiting"
 fpage = ""
 %>
 <!-- #include file="../includes/breadcrumb.asp" -->
 <%
 title = breadcrumb_extended
-ada_href = "../ada/workforce.asp"
-page_self = "../learnmore/workforce.asp"
+ada_href = "../ada/diversityexecutiverecruiting.asp"
+page_self = "../learnmore/diversityexecutiverecruiting.asp"
 ada_title = breadcrumb_extended
-Metatag="Percentage information is available on how many female and minority workers make up the largest job families within Bank of America."
+Metatag=""
 %>
 <!-- Header -->
 <!-- #include file="../includes/header.asp" -->
@@ -30,7 +27,7 @@ Metatag="Percentage information is available on how many female and minority wor
 	<td valign="top" width="578" height="100%">
 <!-- Body-->
 <img src="../images/clear.gif" width="15" height="4" alt="" border="0"><br>
-<!-- #include file="../includes/pages/workforce.asp" -->
+<!-- #include file="../includes/pages/diversityexecutiverecruiting.asp" -->
 <br><br>
 <!-- Body-->
 	</td>

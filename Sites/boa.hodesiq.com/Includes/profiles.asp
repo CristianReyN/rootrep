@@ -280,7 +280,9 @@ Function profile (program)
 			"usin-global-investment-banking-capital-markets-summer-analyst-program.asp", _
 			"usin-global-markets-public-finance-summer-analyst-program.asp", _
 			"usis-global-commodities-summer-associate-program.asp", _
-			"usis-global-markets-quantitative-summer-associate-program.asp" _
+			"usis-global-markets-quantitative-summer-associate-program.asp", _
+			"emeafs-global-markets-rates-currencies-algorithmic-trading-associate-programme.asp", _
+			"usin-global-treasury-solutions-summer-analyst-program.asp" _
 		)) Then
 %>
 <img src="../images/logos/cpi_LOGO_BofAML.jpg" width="180" height="130" alt="Bank of America Merrill Lynch" border="0" style="margin: 0px 0px 12px 0px;">
@@ -290,8 +292,7 @@ Function profile (program)
 			"usfn-global-commercial-banking-credit-analyst-program.asp", _
 			"usfn-global-commercial-banking-treasury-analyst-program.asp", _
 			"usfs-global-commercial-banking-associate-program.asp", _
-			"usin-global-commercial-banking-summer-analyst-program.asp", _
-			"usin-global-treasury-solutions-summer-analyst-program.asp" _
+			"usin-global-commercial-banking-summer-analyst-program.asp" _
 		)) Then
 %>
 <img src="../images/logos/cpi_LOGO_BofAML_RedBlue.jpg" width="180" height="130" alt="Bank of America Merrill Lynch" border="0" style="margin: 0px 0px 12px 0px;">
