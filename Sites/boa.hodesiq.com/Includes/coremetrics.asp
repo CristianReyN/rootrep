@@ -14,7 +14,14 @@ If category_name_level_2 <> "" And category_name_level_3 <> "" And file_name <> 
 	ElseIf trim(Request.ServerVariables("SERVER_NAME")) = "boa.dev.hodesiq.com" _
 		Then 'development %><%
  	End If %>
-cmCreatePageviewTag('<%=categoryID%>;<%=pageID%>',null,null,'<%=categoryID%>',false,false,null,false,false,null,null,null,null,null,null,null,null,null,null,null,null);
+var reloaded = '';<% If cm_job_search Then %>
+var visited_pages;
+if( !$.cookie("CMPAGEID") ) visited_pages = new Array();
+else visited_pages = $.cookie("CMPAGEID").split(',');
+if( jQuery.inArray( '<%=pageID%>', visited_pages) >= 0 ) reloaded = '_reload';
+else visited_pages.push('<%=pageID%>');
+$.cookie("CMPAGEID", visited_pages.join(','), { path: '/' });//$.cookie("CMPAGEID", visited_pages.join(','), { expires: 7, path: '/' });<% End If %>
+cmCreatePageviewTag('<%=categoryID%>;<%=pageID%>'+reloaded,null,null,'<%=categoryID%>',false,false,null,false,false,null,null,null,null,null,null,null,null,null,null,null,null);
 <% If category_name_level_2 = "Prod" And IsObject(program) Then
 	program_title = Replace(Replace(Replace(program.Item("title"), "&amp;", "and"), "  ", " "), "  ", " ")
 	program_title = CleanTheStringAlphanumeric_Space(program_title) %>

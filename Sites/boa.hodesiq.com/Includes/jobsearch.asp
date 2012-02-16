@@ -1,7 +1,8 @@
 <!-- #include file="jsearch.asp" -->
 <%
 On Error Resume Next
-Dim jwdt, style, job_search_action
+Dim jwdt, style, job_search_action, cm_job_search
+cm_job_search = true
 jwdt = 192
 If jwidth Then jwdt = jwidth
 stl = "margin: 0px 3px 0px 4px"
