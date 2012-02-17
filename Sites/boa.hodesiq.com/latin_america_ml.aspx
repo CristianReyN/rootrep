@@ -93,10 +93,10 @@ div#map_details_EUROPE div p { font-family: Verdana, Helvetica, sans-serif;font-
             <td  align="left" valign="top">
                 <table width="370" height="27" border="0" cellpadding="0" cellspacing="0">
                     <tr>
-                        <td width="150" height="27" align="center" valign="top"><a href="#A4" id="A4" style="outline: none"> <img src="images/asia_03_bacs.gif" alt="Bank of America Merrill Lynch" title="Bank of America Merrill Lynch"
+                        <td width="150" height="27" align="center" valign="top"><a href="#A4" id="A4" style="outline: none" onkeypress="CheckKey(event, 'DivOne','topimg1');"> <img src="images/asia_03_bacs.gif" alt="Bank of America Merrill Lynch" title="Bank of America Merrill Lynch"
                                     name="topimg1" width="150" height="27" id="topimg1" onclick="SwapDiv('DivOne','topimg1')"
                                     border="0" /></a></td>
-                        <td width="150" height="27" align="center" valign="top"><a href="#A4" id="A5" style="outline: none"> <img src="images/latam1_00_bacs.jpg" alt="BA Continuum" title="BA Continuum"
+                        <td width="150" height="27" align="center" valign="top"><a href="#A4" id="A5" style="outline: none"  onkeypress="CheckKey(event, 'DivTwo','topimg2');"> <img src="images/latam1_00_bacs.jpg" alt="BA Continuum" title="BA Continuum"
                                     name="topimg2" width="150" height="27" id="topimg2" onclick="SwapDiv('DivTwo','topimg2')"
                                     border="0" /></a></td> 
                                     <td width="100" height="27" align="left" valign="top"><img src="images/asia_corner_05.gif" width="70px" height="27" alt="" /></td>                       
@@ -212,7 +212,43 @@ top; background-repeat: repeat-x;">
     </table>
 <script language='javascript1.1' type='text/javascript'>
     //<!—
-    cmCreatePageviewTag('career:Tool:Regions;latin-america-ml', null, null, 'career:Tool:Regions', false, false, null, false, false, null, null, null, null, null, null, null, null, null, null, null, null);
+    var isReload = getCookie("isReloadLAML");
+    if (isReload != null && isReload != "") {
+        //reload
+        cmCreatePageviewTag('career:Tool:Regions;latin-america-ml_reload', null, null, 'career:Tool:Regions', false, false, null, false, false, null, null, null, null, null, null, null, null, null, null, null, null);
+    }
+    else {
+        //new
+        setCookie("isReloadLAML", "isReloadLAML");
+        cmCreatePageviewTag('career:Tool:Regions;latin-america-ml', null, null, 'career:Tool:Regions', false, false, null, false, false, null, null, null, null, null, null, null, null, null, null, null, null);
+    }
+
+    function setCookie(c_name, value) {
+        document.cookie = c_name + "=" + value;
+    }
+
+    function getCookie(c_name) {
+        var i, x, y, ARRcookies = document.cookie.split(";");
+        for (i = 0; i < ARRcookies.length; i++) {
+            x = ARRcookies[i].substr(0, ARRcookies[i].indexOf("="));
+            y = ARRcookies[i].substr(ARRcookies[i].indexOf("=") + 1);
+            x = x.replace(/^\s+|\s+$/g, "");
+            if (x == c_name) {
+                return unescape(y);
+            }
+        }
+    }
+
+    //For selecting tabs when enter key is pressed
+    function CheckKey(evt, div, img) {
+        evt = (evt) ? evt : ((window.event) ? window.event : "")
+        if (evt) {
+            // process event here
+            if (evt.keyCode == 13 || evt.which == 13) {
+                SwapDiv(div, img)
+            }
+        }
+    }
     //-->
 </script>  
 </asp:Content>

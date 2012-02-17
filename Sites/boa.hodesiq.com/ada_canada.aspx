@@ -111,7 +111,36 @@ top; background-repeat: repeat-x;">
 
 <script language='javascript1.1' type='text/javascript'>
     //<!—
-    cmCreatePageviewTag('career:Tool:Regions;ada-canada', null, null, 'career:Tool:Regions', false, false, null, false, false, null, null, null, null, null, null, null, null, null, null, null, null);
+    var sPath = window.location.pathname;
+    var sPage = sPath.substring(sPath.lastIndexOf('/') + 1);
+    var isReload = getCookie(sPage);
+
+    if (isReload != null && isReload != "") {
+        //reload
+        cmCreatePageviewTag('career:Tool:Regions;ada-canada_reload', null, null, 'career:Tool:Regions', false, false, null, false, false, null, null, null, null, null, null, null, null, null, null, null, null);
+    }
+    else {
+        //new
+        setCookie(sPage, sPage);
+        cmCreatePageviewTag('career:Tool:Regions;ada-canada', null, null, 'career:Tool:Regions', false, false, null, false, false, null, null, null, null, null, null, null, null, null, null, null, null);
+    }
+
+    function setCookie(c_name, value) {
+        document.cookie = c_name + "=" + value;
+    }
+
+    function getCookie(c_name) {
+        var i, x, y, ARRcookies = document.cookie.split(";");
+        for (i = 0; i < ARRcookies.length; i++) {
+            x = ARRcookies[i].substr(0, ARRcookies[i].indexOf("="));
+            y = ARRcookies[i].substr(ARRcookies[i].indexOf("=") + 1);
+            x = x.replace(/^\s+|\s+$/g, "");
+            if (x == c_name) {
+                return unescape(y);
+            }
+        }
+    }
+    
     //-->
 </script>
 </asp:Content>

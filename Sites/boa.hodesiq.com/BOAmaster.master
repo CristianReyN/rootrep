@@ -61,7 +61,7 @@ else
 }
 %>	
 				<td></td></tr></table></td>
-				<td width="232"><a href="#skipnav" title="Skip global navigational links." name="Skip_Global_Navigation_Links_header"><img src="images/clear.gif" width="1" height="69" border="0" alt="Skip global navigational links." /></a></td>
+				<td width="232"></td>
 				<td width="256" valign="bottom">
 					<table width="100%" border="0" cellspacing="0" cellpadding="0" summary="">
 						<tr>

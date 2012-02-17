@@ -1,9 +1,9 @@
 ﻿<%@ Page Title="Bank of America | Careers | Locations | BA Continuum Philippines" Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeFile="bacp.aspx.cs" Inherits="bacp" %>
 
 
-<asp:Content ID="Image" ContentPlaceHolderID="Image" runat="Server"> <img src="images/global-careers-asia_I.jpg" width="578" height="166" alt="Explore a career with the Bank of Opportunity."
-        title="Explore a career with the Bank of Opportunity." border="0" />
-    <div class="hidden"> Explore a career with the Bank of Opportunity.</div>
+<asp:Content ID="Image" ContentPlaceHolderID="Image" runat="Server"> <img src="images/global-careers-asia_I.jpg" width="578" height="166" alt="Asia Pacific Explore a career with the Bank of Opportunity."
+        title="Asia Pacific Explore a career with the Bank of Opportunity." border="0" />
+    
 </asp:Content>
 <asp:Content ID="main" ContentPlaceHolderID="Main" runat="Server"> <a name="skipmaincontent"></a>
     <h1 class="hidden"> Global Careers - Asia: BA Continuum</h1>
@@ -142,13 +142,13 @@ function SwapDiv(divid,img)
         <tr>
             <td width="566" height="27" align="left" valign="top"><table width="361" height="27" border="0" cellpadding="0" cellspacing="0">
                     <tr>
-                        <td width="162" height="27" align="left" valign="top"><a href="#A4" id="A6"> <img src="images/Philippines_04_bacs.gif" alt="BA Continuum Philippines" title="BA Continuum Philippines"
+                        <td width="162" height="27" align="left" valign="top"><a href="#A4" id="A6" onkeypress="CheckKey(event, 'DivThree','topimg3');"> <img src="images/Philippines_04_bacs.gif" alt="BA Continuum Philippines" title="BA Continuum Philippines"
                                     name="topimg3" width="162" height="27" id="topimg3" onclick="SwapDiv('DivThree','topimg3')"
                                     border="0" /></a></td>
-                        <td width="162" height="27" align="left" valign="top"><a href="#A4" id="A4"> <img src="images/asia_04_bacs_NEW.gif" alt="BA Continuum (India)" title="BA Continuum (India)"
+                        <td width="162" height="27" align="left" valign="top"><a href="#A4" id="A4" onkeypress="CheckKey(event, 'DivOne','topimg1');"> <img src="images/asia_04_bacs_NEW.gif" alt="BA Continuum (India)" title="BA Continuum (India)"
                                     name="topimg1" width="162" height="27" id="topimg1" onclick="SwapDiv('DivOne','topimg1')"
                                     border="0" /></a></td>
-                        <td width="165" height="27" align="left" valign="top"><a href="#A4" id="A5" > <img src="images/asia1_03_bacs.gif" alt="Bank of America Merrill Lynch" title="Bank of America Merrill Lynch"
+                        <td width="165" height="27" align="left" valign="top"><a href="#A4" id="A5" onkeypress="CheckKey(event, 'DivTwo','topimg2');"> <img src="images/asia1_03_bacs.gif" alt="Bank of America Merrill Lynch" title="Bank of America Merrill Lynch"
                                     name="topimg2" width="165" height="27" id="topimg2" onclick="SwapDiv('DivTwo','topimg2')"
                                     border="0" /></a></td>
                         <td width="33" height="27" align="left" valign="top"><img src="images/asia_corner_05.gif" width="86" height="27" alt="" /></td>
@@ -1273,7 +1273,46 @@ function SwapDiv(divid,img)
     </table>
     <script language='javascript1.1' type='text/javascript'>
         //<!—
-        cmCreatePageviewTag('career:Tool:Regions;bacp', null, null, 'career:Tool:Regions', false, false, null, false, false, null, null, null, null, null, null, null, null, null, null, null, null);
+        var sPath = window.location.pathname;
+        var sPage = sPath.substring(sPath.lastIndexOf('/') + 1);
+        var isReload = getCookie(sPage);
+
+        if (isReload != null && isReload != "") {
+            //reload
+            cmCreatePageviewTag('career:Tool:Regions;bacp_reload', null, null, 'career:Tool:Regions', false, false, null, false, false, null, null, null, null, null, null, null, null, null, null, null, null);
+        }
+        else {
+            //new
+            setCookie(sPage, sPage);
+            cmCreatePageviewTag('career:Tool:Regions;bacp', null, null, 'career:Tool:Regions', false, false, null, false, false, null, null, null, null, null, null, null, null, null, null, null, null);
+        }
+
+        function setCookie(c_name, value) {
+            document.cookie = c_name + "=" + value;
+        }
+
+        function getCookie(c_name) {
+            var i, x, y, ARRcookies = document.cookie.split(";");
+            for (i = 0; i < ARRcookies.length; i++) {
+                x = ARRcookies[i].substr(0, ARRcookies[i].indexOf("="));
+                y = ARRcookies[i].substr(ARRcookies[i].indexOf("=") + 1);
+                x = x.replace(/^\s+|\s+$/g, "");
+                if (x == c_name) {
+                    return unescape(y);
+                }
+            }
+        }
+
+        //For selecting tabs when enter key is pressed
+        function CheckKey(evt, div, img) {
+            evt = (evt) ? evt : ((window.event) ? window.event : "")
+            if (evt) {
+                // process event here
+                if (evt.keyCode == 13 || evt.which == 13) {
+                    SwapDiv(div, img)
+                }
+            }
+        }
         //-->
 </script>
 </asp:Content>

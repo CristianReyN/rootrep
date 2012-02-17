@@ -1,7 +1,7 @@
 <%@ Page Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeFile="asia_culture.aspx.cs" Inherits="asia_culture"  %>
 
 <asp:Content ID="Image" ContentPlaceHolderID="Image" Runat="Server"> 
-<img src="images/global-careers-asia_bana_V.jpg" width="578" height="166" alt="Explore a career with the Bank of Opportunity." title"Explore a career with the Bank of Opportunity." />
+<img src="images/global-careers-asia_bana_V.jpg" width="578" height="166" alt="Asia Pacific Explore a career with the Bank of Opportunity." title"Asia Pacific Explore a career with the Bank of Opportunity." />
 </asp:Content>
 <asp:Content ID="Main" ContentPlaceHolderID="Main" Runat="Server"> 
 <a name="skipmaincontent"></a><h1 class="hidden">Global Careers - Asia: Culture</h1>
@@ -65,7 +65,36 @@
 
 <script language='javascript1.1' type='text/javascript'>
     //<!—
-    cmCreatePageviewTag('career:Tool:Regions;asia-culture', null, null, 'career:Tool:Regions', false, false, null, false, false, null, null, null, null, null, null, null, null, null, null, null, null);
+    var sPath = window.location.pathname;
+    var sPage = sPath.substring(sPath.lastIndexOf('/') + 1);
+    var isReload = getCookie(sPage);
+
+    if (isReload != null && isReload != "") {
+        //reload
+        cmCreatePageviewTag('career:Tool:Regions;asia-culture_reload', null, null, 'career:Tool:Regions', false, false, null, false, false, null, null, null, null, null, null, null, null, null, null, null, null);
+    }
+    else {
+        //new
+        setCookie(sPage, sPage);
+        cmCreatePageviewTag('career:Tool:Regions;asia-culture', null, null, 'career:Tool:Regions', false, false, null, false, false, null, null, null, null, null, null, null, null, null, null, null, null);
+    }
+
+    function setCookie(c_name, value) {
+        document.cookie = c_name + "=" + value;
+    }
+
+    function getCookie(c_name) {
+        var i, x, y, ARRcookies = document.cookie.split(";");
+        for (i = 0; i < ARRcookies.length; i++) {
+            x = ARRcookies[i].substr(0, ARRcookies[i].indexOf("="));
+            y = ARRcookies[i].substr(ARRcookies[i].indexOf("=") + 1);
+            x = x.replace(/^\s+|\s+$/g, "");
+            if (x == c_name) {
+                return unescape(y);
+            }
+        }
+    }
+    
     //-->
 </script>
 

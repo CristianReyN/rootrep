@@ -3,7 +3,7 @@
     EnableEventValidation="false" %>
 
 <asp:Content ID="Image" ContentPlaceHolderID="Image" runat="Server">
-    <img src="images/global-careers-asia_bana_IV.jpg" width="578" height="166" alt="Explore a career with the Bank of Opportunity." />
+    <img src="images/global-careers-asia_bana_IV.jpg" width="578" height="166" alt="Asia Pacific Explore a career with the Bank of Opportunity." />
 </asp:Content>
 <asp:Content ID="Main" ContentPlaceHolderID="Main" runat="Server">
     <a name="skipmaincontent"></a>
