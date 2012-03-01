@@ -66,13 +66,7 @@
                     <li><a href="campusrecruiting/usfs-global-wealth-investment-management-associate-program.asp" name="Global_Wealth_Investment_Management_Associate_Program">Global 
                       Wealth and Investment Management Associate Program</a></li>
                   </ul>
-                  <h2 class="questions">Home Loans &amp; Insurance</h2>
-
-                  <ul>
-                    <li><a href="campusrecruiting/usfs-home-Loans-insurance-mba-program.asp" name="Home_Loans_Insurance_MBA_Program">Home 
-                      Loans and Insurance MBA Program</a></li>
-                  </ul>
-
+ 
                 </div>
                  <div id="aside"> 
 			<a href="campus-find-your-fit.aspx" name="Campus_Americas_Associate_PHD_Program_Find_Your_Fit"><img src="images/campus/btn-findyourfit.jpg" width="179" height="76" alt="Find Your fit: Come as you are. We've got a career to fit." /></a> 

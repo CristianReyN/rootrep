@@ -18,36 +18,36 @@
                 Our leadership team devotes their time and energy towards building a culture of excellence &ndash; while each and every associate is responsible for raising the bar and personifying excellence in all that we do.
                    </p>
                 <p>
-                    <img src="images/ashley.jpg" alt="Ashley Torres, ITS Help Desk Analyst" title="Ashley Torres, ITS Help Desk Analyst"/></p>
+                    <img src="images/ashley.jpg" alt="Ashley Torres, Sr. Tech Associate" title="Ashley Torres, Sr. Tech Associate"/></p>
                 <p align="justify">
                     &quot;At this point, I can say I’m proud and genuinely happy being a part of BA Continuum Philippines. I was surprised how people value each other and everyone’s gifts and abilities. I am confident that with the tools, training and core values of the Bank, I will be able to achieve my goals and help others to grow as well. I can say that being here is the best decision I’ve made so far in my life and I am in the right place. I am home.&quot;
                 </p>
                 <p class="style16 text_bold">
                     Ashley Torres<br />
-                    ITS Help Desk Analyst
+                    Sr. Tech Associate
                 </p>
                 <p>
-                    <img src="images/jose.jpg" alt="Jose Luis Antonio Locsin, HL & LAS Team Member" title="Jose Luis Antonio Locsin, HL & LAS Team Member"/></p>
+                    <img src="images/jose.jpg" alt="Jose Luis Antonio Locsin, Team Member" title="Jose Luis Antonio Locsin, Team Member"/></p>
                 <p align="justify">
                     &quot;It is an exciting feeling and a privilege to be part of the pioneer team of BA Continuum Philippines. Being part of a prestigious company that emphasizes its employees as one of their prized assets is an honor we associates need to uphold. This is evidenced by the warmth our leaders gave us during our training and orientation sessions. At the same time, the inclusive meritocracy instilled by our leaders gives us the ambition and drive to work hard as associates of BA Continuum. With the core values of Bank of America in mind, I look forward to opening a new chapter of my life with BA Continuum Philippines. Mabuhay!&quot;</p>
                 <p class="style16 text_bold" />
                 Jose Luis Antonio Locsin<br />
-                HL & LAS Team Member</p>
+                Team Member</p>
                 <p>
-                    <img src="images/cirilo.jpg" alt="Cirilo Magsuci, Technology, Senior Vice President" title="Cirilo Magsuci, Technology, Senior Vice President"/></p>
+                    <img src="images/cirilo.jpg" alt="Cirilo Magsuci, Senior Vice President" title="Cirilo Magsuci, Senior Vice President"/></p>
                 <p align="justify">
                     &quot;BA Continuum Philippines is one of the most exciting companies to be in. Every day brings a new challenge. Being a pioneer in the company is something to be proud of. You get to help build the identity of the company. Living the bank values will be a guide and setting an example of living the brand will be the right thing to do. We have a great team in place and the Bank of America family to help us succeed and be recognized in the Bank of America community.&quot;
                 </p>
                 <p class="style16 text_bold">
                     Cirilo Magsuci<br />
-                    Technology, Senior Vice President</p>
+                    Senior Vice President</p>
                 <p>
-                    <img src="images/patricia.jpg" alt="Patricia Adarne, HL & LAS Assistant Manager" title="Patricia Adarne, HL & LAS Assistant Manager"/></p>
+                    <img src="images/patricia.jpg" alt="Patricia Adarne, Assistant Manager" title="Patricia Adarne, Assistant Manager"/></p>
                 <p align="justify">
                     &quot;The best things about BA Continuum Philippines are the endless learning opportunities to grow and the people I work with. I have worked for prestigious companies before but nothing compares to the pride I carry now that I work for one of the most respected financial institutions known worldwide. I truly appreciate the help and trust that I am getting from management and genuinely feel their desire for BA Continuum Philippines to succeed. The Bank has given me the opportunity to provide a bright future for my child and as a way of saying thank you; I want to help develop future leaders that would contribute to the continued success of the Bank. I take the challenge of living our Core Values both at work and in my personal life for I know it will do me good. I am blessed to be a part of the pioneer class and I am sure that I’ve made the right choice of coming home to BA Continuum Philippines, Inc.&quot;</p>
                 <p class="style16 text_bold">
                     Patricia Adarne<br />
-                    HL & LAS Assistant Manager</p>
+                    Assistant Manager</p>
                
                
                 <br clear="all" />

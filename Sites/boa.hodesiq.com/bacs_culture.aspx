@@ -26,7 +26,7 @@
                     excellence &ndash; while each and every associate is responsible for raising the
                     bar and personifying excellence in all that we do.</p>
                 <p>
-                    <img src="images/asia-rajesh.gif" alt="Rajesh Balaraju, Vice President, BPS, Hyderabad" title="Rajesh Balaraju, Vice President, BPS, Hyderabad"/></p>
+                    <img src="images/asia-rajesh.gif" alt="Rajesh Balaraju, Senior Vice President, Hyderabad" title="Rajesh Balaraju, Senior Vice President, Hyderabad"/></p>
                 <p align="justify">
                     &quot;We put as much emphasis on the quality of relationships as we do on performance
                     excellence. There is learning, development and evolvement at every stage and every
@@ -34,10 +34,10 @@
                 </p>
                 <p class="style16 text_bold">
                     Rajesh Balaraju<br />
-                    Senior Vice President, BPS, Hyderabad
+                    Senior Vice President, Hyderabad
                 </p>
                 <p>
-                    <img src="images/asia-bhavan.gif" alt="Bhavna Khurana, Senior Manager, ITS, Hyderabad" title="Bhavna Khurana, Senior Manager, ITS, Hyderabad"/></p>
+                    <img src="images/asia-bhavan.gif" alt="Bhavna Khurana, Lead Analyst, Hyderabad" title="Bhavna Khurana, Lead Analyst, Hyderabad"/></p>
                 <p align="justify">
                     &quot;The thing that I like most about working here is the fact that it gives a
                     lot of learning opportunities and enables learning from all levels in the organization
@@ -45,9 +45,9 @@
                     helps value our differences and make better collective decisions which benefit everyone.&quot;</p>
                 <p class="style16 text_bold" />
                 Bhavna Khurana<br />
-                Senior Manager, ITS, Hyderabad</p>
+                Lead Analyst, Hyderabad</p>
                 <p>
-                    <img src="images/Ketan_Ghelani.jpg" alt="Ketan J Ghelani, Senior System Analyst, BPS, Mumbai" title="Ketan J Ghelani, Senior System Analyst, BPS, Mumbai"/></p>
+                    <img src="images/Ketan_Ghelani.jpg" alt="Ketan J Ghelani, Senior Analyst, Mumbai" title="Ketan J Ghelani, Senior Analyst, Mumbai"/></p>
                 <p align="justify">
                     &quot;My career at BA Continuum has been amongst the best years of my life. This
                     place has given me ample opportunities to stay in touch with the latest technology
@@ -57,35 +57,32 @@
                 </p>
                 <p class="style16 text_bold">
                     Ketan J Ghelani<br />
-                    Senior System Analyst, BPS, Mumbai</p>
+                    Senior Analyst, Mumbai</p>
                 <p>
-                    <img src="images/Gautam_Banerjee.jpg" alt="Gautam Banerjee, Senior Manager, Q&CD, Mumbai" title="Gautam Banerjee, Senior Manager, Q&CD, Mumbai"/></p>
+                    <img src="images/Mehul-Merchant.jpg" width=95 height=104 alt="Mehul Merchant, Manager, Mumbai" title="Mehul Merchant, Manager, Mumbai"/></p>
                 <p align="justify">
-                    &quot;BA Continuum is a great place to work because of what I have learned here.
-                    All, from my colleagues to the Senior Leadership team are very competent and great
-                    people to deal with. The leaders empower the associates and help us identify growth
-                    opportunities within the organization.&quot;</p>
+                    &quot;BA Continuum is a fabulous workplace, the kind of learning environment it provides for its employees with respect to education, exposure and experience is by far one of the best in the industry. The leadership team is extremely approachable and takes very keen interest in the professional development of the employees. Also, it is one of the few global companies which actively participate in community development and support initiatives by going that extra mile.&quot;</p>
                 <p class="style16 text_bold">
-                    Gautam Banerjee<br />
-                    Senior Manager, Q&amp;CD, Mumbai</p>
+                    Mehul Merchant<br />
+                    Manager, Mumbai</p>
                
                 <p>
-                    <img src="images/Reema_Mehta.jpg" alt="Reema M Dabas, AVP, L&LD, Gurgaon" title="Reema M Dabas, AVP, L&LD, Gurgaon"/></p>
+                    <img src="images/Reema_Mehta.jpg" alt="Reema M Dabas, Vice President, Gurgaon" title="Reema M Dabas, Vice President, Gurgaon"/></p>
                 <p align="justify">
                     &quot;Having spent almost three years with BA Continuum India, the one thing that stands out for me is the fact that this organization truly inculcates and fosters an EEE enabled culture: Exposure, Experience and Education.  I’ve been fortunate to have experienced a myriad of events ranging from acquisitions, economic slowdowns and strategic changes around how we operate as a company.  In addition, I have witnessed leadership changes leading to a renewed set of leadership behaviors, core values and operating model for our organization, impacting the way we operate as individual contributors as well as within our teams.  Together, these events have been refreshing and challenging at the same time, and have helped me grow on the professional and personal front.&quot;
                 </p>
                 <p class="style16 text_bold">
                     Reema M Dabas<br />
-                    AVP, L&LD, Gurgaon</p>
+                    Vice President, Gurgaon</p>
                      <p>
                      
                      
-                    <img src="images/radha.jpg" alt="Radha Sundaresan, AVP, GWIMT, Chennai" /></p>
+                    <img src="images/radha.jpg" alt="Radha Sundaresan, Assistant Vice President, Chennai" title="Radha Sundaresan, Assistant Vice President, Chennai" /></p>
                 <p align="justify">
                     &quot;My journey at BA Continuum India has been very rewarding and I enjoyed many challenges in diverse areas both in leadership and technology. There is a huge vista of growth opportunities here tailored to individual ambitions and I feel fortunate to be part of the BA Continuum family.&quot;</p>
                 <p class="style16 text_bold">
                     Radha Sundaresan<br />
-                    AVP, GWIMT, Chennai</p>
+                    Assistant Vice President, Chennai</p>
                 <br clear="all" />
             </td>
         </tr>

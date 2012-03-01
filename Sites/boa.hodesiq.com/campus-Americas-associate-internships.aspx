@@ -48,11 +48,7 @@
                     <li><a href="campusrecruiting/usis-global-wealth-investment-management-summer-associate-program.asp" name="Global_Wealth_Investment_Management_Summer_Associate_Program">Global 
                       Wealth and Investment Management Summer Associate Program</a></li>
                   </ul>
-                  <h2 class="questions">Home Loans & Insurance</h2>
-                  <ul>
-                    <li><a href="campusrecruiting/usis-home-Loans-insurance-mba-intern-program.asp" name="Home_Loans_Insurance_MBA_Intern_Program">Home 
-                      Loans and Insurance MBA Intern Program</a></li>
-                  </ul>
+     
 
                 </div>
                 <div id="aside"> 

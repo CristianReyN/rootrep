@@ -2,10 +2,9 @@
     AutoEventWireup="true" CodeFile="emea.aspx.cs" Inherits="emea"  %>
 
 <asp:Content ID="Image" ContentPlaceHolderID="Image" runat="Server">
-    <img src="images/global-careers-emea_I.jpg" width="578" height="166" alt="Explore a career with the Bank of Opportunity."
-        title="Explore a career with the Bank of Opportunity." border="0" />
-    <div class="hidden">
-        Explore a career with the Bank of Opportunity.</div>
+    <img src="images/global-careers-emea_I.jpg" width="578" height="166" alt="Europe, Middle East and Africa Explore a career with the Bank of Opportunity."
+        title="Europe, Middle East and Africa Explore a career with the Bank of Opportunity." border="0" />
+
 </asp:Content>
 <asp:Content ID="Main" ContentPlaceHolderID="Main" runat="Server">
     <a name="skipmaincontent"></a>

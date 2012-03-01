@@ -1221,7 +1221,14 @@ function SwapDiv(divid,img)
                 <div id="div29" style="display: none">
                     <table summary="" width="361" height="128" border="0" cellpadding="0" cellspacing="0">
                         <tr>
-                            <td width="361" height="128" align="left" valign="top"><img src="images/BOA_MapLocations_TAGUIG_CITY_C1.jpg" alt="emea_Taguig_City_Philippines" width="575" height="228" /></td>
+                            <td width="361" height="128" align="left" valign="top">
+                            <div style="font-style:Verdana; font-size=16px; font-weight=normal; color=#5A5A5A; padding-left: 15px; padding-bottom: 10px" >Philippines</div>
+                            <div style="font-style:Verdana; font-size=11px; font-weight=bold; color=#5A5A5A; padding-left: 15px; padding-bottom: 5px" >Taguig City</div>
+                            <div style="font-style:Verdana; font-size=10px; color=#5A5A5A; padding-left: 15px; padding-bottom: 5px">Bonifacio One Technology Tower</div>
+                            <div style="font-style:Verdana; font-size=10px; color=#5A5A5A; padding-left: 15px; padding-bottom: 5px">3030 Rizal Drive West</div>
+                            <div style="width:575px; font-style:Verdana; font-size=10px; color=#5A5A5A; padding-left: 15px; padding-bottom: 5px">Bonifacio Global City, 1634 Taguig City, Philippines  Tel: +632 651 9002</div>
+                            
+                            </td>
                         </tr>
                     </table>
                 </div>

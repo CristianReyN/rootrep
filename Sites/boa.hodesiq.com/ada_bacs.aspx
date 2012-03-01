@@ -811,11 +811,11 @@ Singapore 099 253<br /></p>
                     Philippines</h3>
                  <p><span class="text_bold_under">Taguig City</span><br />
 
-                BA Continuum Philippines, Inc<br />
-                Bonifacio E-Services Building<br />
-                31st corner 2nd Streets, Crescent Park West<br />
-                Bonifacio Global City, Taguig City, Philippines<br />
-                Tel: +632 6519000<br /></p>
+                Bonifacio One Technology Tower<br />
+                    3030 Rizal Drive West<br />
+                    Bonifacio Global City<br />
+                    1634 Taguig City, Philippines<br />  
+                    Tel: +632 651 9002<br /></p>
                 
                     <a href="bacs.aspx#retuntoBacsmap" class="ada2adalink" onfocus="this.className='ada2adalink-over';" onblur="this.className='ada2adalink';" title="Return to map">Return to map</a>
                 </p>
