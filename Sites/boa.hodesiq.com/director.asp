@@ -2,6 +2,7 @@
 <%'option explicit%>
 <!-- #include file="Includes/whitelist.asp" --><%
 dim stitle,surl,countryid
+
 if request.QueryString("m")=1 then
 	stitle="Bank of America | Careers | Manage your Careers Profile Account"
 	surl="profilerd.aspx?" & Request.QueryString("u").item
@@ -9,9 +10,10 @@ else
 	stitle="Bank of America | Careers | Job Application"
 	surl="applyrd.aspx?" & Request.QueryString("url").item
 end if
-	no_after_chars = Array("<", ">", "'", """")
-	surl = ClearKeywords(surl)
-	surl = Server.HtmlEncode(surl)
+
+no_after_chars = Array("<", ">", "'", """")
+surl = ClearKeywords(surl)
+surl = Server.HtmlEncode(surl)
 
 countryid = request.QueryString("countryid")
 
@@ -22,9 +24,7 @@ end if
 <html> 
 <head>
 	<title><%=stitle %></title>
-	<script language="javascript" type="text/javascript">
-
-	</script>
+	
 	<link rel="stylesheet" href="includes/styles.css" type="text/css" />
 </head>
 <body style="margin: 0px; color: #000000; background-color: #ffffff;">
@@ -39,7 +39,29 @@ if currdate >= cdate("2009-08-15") and countryid  = "1" then %>
 		</p></td></tr>
 <%end if %>
 	<tr><td align="center" height="100%">
-		<iframe frameborder="0" src="<%=surl%>"style="width: 752px; height: 100%;" height="100%" width="752px" title="apply"></iframe></td></tr>
+		<!--<iframe frameborder="0" src="" style="width: 752px; height: 100%;" height="100%" width="752px" title="apply" id="apply" name="apply"></iframe>-->
+        
+        <script language="javascript" type="text/javascript">
+
+            var sReferer = window.opener.document.referrer;
+            var ifrm = '<iframe frameborder="0" src="<%=surl%>" style="width: 752px; height: 100%;" height="100%" width="752px" title="apply" id="apply" name="apply"></iframe>'
+
+            if (sReferer.toLowerCase().indexOf('jobdetails.aspx') != -1) {
+                document.write(ifrm);
+            }
+            if (sReferer.toLowerCase().indexOf('jobsearch.aspx') != -1) {
+                document.write(ifrm);
+            }
+            if (sReferer.toLowerCase().indexOf('jobcart.aspx') != -1) {
+                document.write(ifrm);
+            }
+            
+	</script>
+        
+        </td></tr>
+
 </table>
 </body>
+
+
 </html>
