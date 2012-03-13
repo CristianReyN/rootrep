@@ -917,7 +917,8 @@
                             <div style="font-style:Verdana; font-size=11px; font-weight=bold; color=#5A5A5A; padding-left: 15px; padding-bottom: 5px" >Taguig City</div>
                             <div style="font-style:Verdana; font-size=10px; color=#5A5A5A; padding-left: 15px; padding-bottom: 5px">Bonifacio One Technology Tower</div>
                             <div style="font-style:Verdana; font-size=10px; color=#5A5A5A; padding-left: 15px; padding-bottom: 5px">3030 Rizal Drive West</div>
-                            <div style="width:575px; font-style:Verdana; font-size=10px; color=#5A5A5A; padding-left: 15px; padding-bottom: 5px">Bonifacio Global City, 1634 Taguig City, Philippines  Tel: +632 651 9002</div>
+                            <div style="width:575px; font-style:Verdana; font-size=10px; color=#5A5A5A; padding-left: 15px; padding-bottom: 5px">Bonifacio Global City</div>
+                            <div style="width:575px; font-style:Verdana; font-size=10px; color=#5A5A5A; padding-left: 15px; padding-bottom: 5px">1634 Taguig City, Philippines  Tel: +632 651 9002</div>
                             
                             </td>
                         </tr>
