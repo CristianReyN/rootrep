@@ -6,15 +6,14 @@ If taleo_upgrade Then
 		<table width="578" cellpadding="0" cellspacing="0" border="0" summary="">
 			<tr valign="top">
 				<td width="373" height="100%" valign="top" style="border: 2px solid #000000; padding: 12px;">
-<H1 style="margin: 0px 0px 0px <%=left_margin_0%>px;">Bank of America Career Search Tool under Maintenance for U.S. Positions
+<H1 style="margin: 0px 0px 0px <%=left_margin_0%>px;">Bank of America U.S. Job Search Tool under Maintenance
 </H1>
 <p>
-Due to site maintenance, you will be unable to apply for a position or create/update your profile from June 30 through July 4.
-</p>
-<p style="margin: 0px 0px 12px 0px;">
-You may continue to search for jobs, as well as navigate the site during this timeframe.
+Our Job Search Tool is currently under maintenance from March 21 through March 25. You will be unable to apply for a U.S. position or create/update your profile during this time. You may continue to navigate the site during this time.
 <br><br>
-All functionality will return on July 5.
+Bank of America strives to continue to improve our overall Careers site to ensure the best experience possible for our visitors. We apologize for any inconvenience.
+<br><br>
+The U.S. Job Search Tool will return to full functionality on March 26. Any information you entered previously will be accessible at that time.
 <br><br>
 <a href="<%=Request.ServerVariables ("HTTP_REFERER") %>" class="p" title="Return to the previous page">Return to the previous page</a>
 </p>

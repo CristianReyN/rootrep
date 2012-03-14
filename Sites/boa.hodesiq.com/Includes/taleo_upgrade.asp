@@ -1,6 +1,6 @@
 <%
-maintenance_from = "6/30/2011 08:00:00 PM"
-maintenance_to = "7/4/2011 08:00:00 PM"
+maintenance_from = "3/21/2012 08:00:00 PM"
+maintenance_to = "3/25/2012 08:00:00 PM"
 
 SetLocale(1033)
 	taleo_upgrade = false
