@@ -10,6 +10,7 @@ using System.Web.UI.HtmlControls;
 using System.Text.RegularExpressions;
 using System.Text;
 using System.Security.Cryptography;
+using CareerSiteComponents;
 
 /// <summary>
 /// Summary description for Utility
@@ -283,5 +284,31 @@ public class Utility
 
         // Return result
         return (filenamePart);
+    }
+
+    public static CareerSiteSettings GetCareerSiteSettings()
+    {
+        string configId = System.Configuration.ConfigurationSettings.AppSettings["cmsconfigID"].ToString();
+        return CareerSiteSettings.LoadCareerSiteSettings(System.Convert.ToInt16(configId));
+    }
+
+    /// <summary>
+    /// Logs the exception in the database and then displays the error to the user
+    /// </summary>
+    /// <param name="ex">A reference to the exception that was thrown</param>
+    public static void HandleException(Exception ex)
+    {
+        // Log the exception to the database
+        CareerSiteLog.ErrorMessage errorLog = new CareerSiteLog.ErrorMessage();
+        int retVal = errorLog.Add(ex);
+
+        /*
+        // Write the exception details to the session
+        HttpContext.Current.Session.Add("ErrorNumber", retVal);
+        HttpContext.Current.Session.Add("ErrorMessage", ex.Message.ToString());
+
+        // Forward user to error page
+        HttpContext.Current.Response.Redirect("/error-handler", false);
+        */
     }
 }
