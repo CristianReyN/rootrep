@@ -311,4 +311,29 @@ public class Utility
         HttpContext.Current.Response.Redirect("/error-handler", false);
         */
     }
+
+    /// <summary>
+    /// Build a comma seperated string of values for
+    /// all selected items in the passed ListBox
+    /// </summary>
+    /// <returns>string selectedItems</returns>
+    public static string getListBoxSelectedValues(ListBox Listbox1)
+    {
+
+        // Go through all selected items in the listbox
+        string selectedItems = "";
+        foreach (int i in Listbox1.GetSelectedIndices())
+        {
+            if (selectedItems == "")
+                selectedItems = Listbox1.Items[i].Value;
+            else
+                selectedItems += "," + Listbox1.Items[i].Value;
+
+        }
+
+        // If no items were selectd then return the default value
+        if (selectedItems == "") selectedItems = "-1";
+
+        return selectedItems;
+    }
 }
