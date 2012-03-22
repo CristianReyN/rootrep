@@ -99,6 +99,67 @@
 								<asp:DropDownList ID="ddlJobAreas" runat="server" CssClass="left" Style="width: 90%; z-index: auto;"
 								ToolTip="Select a job area" Visible="true">
 								</asp:DropDownList>
+
+                                <!--
+                                <select name="ddlJobAreas2" id="ddlJobAreas2" title="Select a job area" class="left" style="width: 90%; z-index: auto;">
+			                        <option value="" selected="selected">none</option>
+			                        <optgroup label="Administration">
+			                        <option value="1|-1">All Administration</option>
+			                        <option value="">Change Mgmt &amp; Process</option>
+			                        <option value="1|2">Corporate Executive</option>
+			                        <option value="1|5">Legal</option>
+			                        <option value="1|6">Services</option>
+			                        </optgroup>
+			                        <optgroup label="CFO Group/Finance">
+			                        <option value="4|-1">All CFO Group/Finance</option>
+			                        <option value="4|13">Credit</option>
+			                        <option value="4|14">Investment Banking</option>
+			                        <option value="4|15">Wealth &amp; Investment Mgmt</option>
+			                        </optgroup>
+			                        <optgroup label="Communications">
+			                        <option value="3|-1">All Communications</option>
+			                        <option value="3|11">Marketing</option>
+			                        </optgroup>
+			                        <optgroup label="Consumer Banking">
+			                        <option value="10|-1">All Consumer Banking</option>
+			                        </optgroup>
+			                        <optgroup label="Customer Care">
+			                        <option value="2|-1">All Customer Care</option>
+			                        <option value="2|13">Credit</option>
+			                        <option value="2|9">Customer Service</option>
+			                        <option value="2|8">Relationship Management</option>
+			                        <option value="2|19">Sales</option>
+			                        </optgroup>
+			                        <optgroup label="Financial Advisor">
+			                        <option value="13|-1">All Financial Advisor</option>
+			                        </optgroup>
+			                        <optgroup label="Human Resources">
+			                        <option value="5|-1">All Human Resources</option>
+			                        </optgroup>
+			                        <optgroup label="Mortgage">
+			                        <option value="12|-1">All Mortgage</option>
+			                        </optgroup>
+			                        <optgroup label="Operations">
+			                        <option value="6|-1">All Operations</option>
+			                        <option value="6|4">Change Mgmt &amp; Process</option>
+			                        <option value="6|3">Corporate Workplace</option>
+			                        <option value="6|5">Legal</option>
+			                        <option value="6|6">Services</option>
+			                        </optgroup>
+			                        <optgroup label="Risk Evaluation">
+			                        <option value="7|-1">All Risk Evaluation</option>
+			                        <option value="7|13">Credit</option>
+			                        <option value="7|26">Risk Management</option>
+			                        </optgroup>
+			                        <optgroup label="Sales">
+			                        <option value="8|-1">All Sales</option>
+			                        <option value="8|20">Consumer Banking</option>
+			                        </optgroup>
+			                        <optgroup label="Technology">
+			                        <option value="9|-1">All Technology</option>
+			                        <option value="9|3">Corporate Workplace</option>
+			                        </optgroup>
+                    		</select>-->
 								</div>
 							</td>
 							<td  valign="top" style="width:50%; height:45;" runat="server" >
@@ -113,16 +174,15 @@
 							<td  valign="top" style="width:50%; height:45;" >
 							    <div id="d3"  style="display: inline;">
 								    <asp:Label ID="lbldatepost" runat="server" Text="Date positions posted as of" AssociatedControlID="datepost"></asp:Label><br />
-								    
                                     <asp:DropDownList ID="datepost" runat="server" CssClass="left" Style="width: 90%;
 								    z-index: auto;" ToolTip="Date posted" >
-								    <asp:ListItem Value="0">All</asp:ListItem>
-								    <asp:ListItem Value="1">Today</asp:ListItem>
-								    <asp:ListItem Value="2">Yesterday</asp:ListItem>
-								    <asp:ListItem Value="3">Last 7 Days</asp:ListItem>
-								    <asp:ListItem Value="4">Last 14 Days</asp:ListItem>
-								    <asp:ListItem Value="5">Last 21 Days</asp:ListItem>
-								    <asp:ListItem Value="6">Last 28 Days</asp:ListItem>
+								    <asp:ListItem Value="365">All</asp:ListItem>
+								    <asp:ListItem Value="0">Today</asp:ListItem>
+								    <asp:ListItem Value="1">Yesterday</asp:ListItem>
+								    <asp:ListItem Value="7">Last 7 Days</asp:ListItem>
+								    <asp:ListItem Value="14">Last 14 Days</asp:ListItem>
+								    <asp:ListItem Value="21">Last 21 Days</asp:ListItem>
+								    <asp:ListItem Value="28">Last 28 Days</asp:ListItem>
 								    </asp:DropDownList>
 								</div>
 							</td>
@@ -228,89 +288,103 @@
 						</tr>
 					</table>
 
-                    <cswc:JobListCustomFieldsMultiLocZipCodeRadiusGridView 
-                        ID="zcrGridView1"
-                        AllowSorting="false"
-                        OrderByColumn="PostDate"
-                        OrderByDirection="Descending"
-                        AllowPaging="false"
-                        runat="server">
-                    </cswc:JobListCustomFieldsMultiLocZipCodeRadiusGridView>
+                        <cswc:JobListCustomFieldsMultiLocZipCodeRadiusGridView 
+                            ID="zcrGridView1"
+                            AllowSorting="true"
+                            OrderByColumn="PostDate"
+                            OrderByDirection="Descending"
+                            AllowPaging="false"
+                            runat="server">
+                        </cswc:JobListCustomFieldsMultiLocZipCodeRadiusGridView>
 
-                    <!-- Location Search Control -->
-                    <cswc:JobListCustomFieldsMultiLocGridView visible="false"
-                        ID="jobListGridView1"
-                        AllowSorting="false"
-                        OrderByColumn="PostDate"
-                        OrderByDirection="Descending"
-                        AllowPaging="false"
-                        runat="server">
-                    </cswc:JobListCustomFieldsMultiLocGridView>
+                        <!-- Location Search Control -->
+                        <cswc:JobListCustomFieldsMultiLocGridView visible="false"
+                            ID="jobListGridView1"
+                            AllowSorting="true"
+                            OrderByColumn="PostDate"
+                            OrderByDirection="Descending"
+                            AllowPaging="false"
+                            runat="server">
+                        </cswc:JobListCustomFieldsMultiLocGridView>
 
-                    <asp:Label ID="StatusMsg" Text="" runat="server" />
-                    <div ID="JobListPaging" class="JobListPaging" runat="server">
+                        <asp:Label ID="StatusMsg" Text="" runat="server" />
+                        <div ID="JobListPaging" class="JobListPaging" runat="server">
 
-        <div class="JobListPagingLinks">
+                        <div class="JobListPagingLinks">
 
-            <asp:LinkButton 
-                ID="previous_page"
-                Text="&#9668; Previous"
-                OnClick="previous_page_Click"
-                CausesValidation="False" 
-                runat="server" />
+                            <asp:LinkButton 
+                                ID="previous_page"
+                                Text="&#9668; Previous"
+                                OnClick="previous_page_Click"
+                                CausesValidation="False" 
+                                runat="server" />
 
-            <asp:Literal ID="paging_text" Text="" runat="server" />
+                            <asp:Literal ID="paging_text" Text="" runat="server" />
             
-            <asp:LinkButton 
-                ID="next_page"
-                Text="Next &#9658;"
-                OnClick="next_page_Click"
-                CausesValidation="False" 
-                runat="server" />
+                            <asp:LinkButton 
+                                ID="next_page"
+                                Text="Next &#9658;"
+                                OnClick="next_page_Click"
+                                CausesValidation="False" 
+                                runat="server" />
 
-        </div>
+                        </div>
 
-    </div>
-    <asp:GridView 
-            ID="GrdResults"
-            AllowSorting="true"
-            OnSorting="gv_Sorting"
-            OrderByColumn="PostDate"
-            OrderByDirection="Descending"
-            AllowPaging="false"
-            AlternatingRowStyle-CssClass="JobSearchResultsAlternateRows"
-            AutoGenerateColumns="false"
-            ShowHeader="true"
-            GridLines="None"
-            runat="server">
-            <Columns>
-
-                <asp:BoundField HeaderText="Job Id" DataField="JobCode" SortExpression="JobCode" />
-
-                <asp:TemplateField HeaderText="Title" Visible="true"  SortExpression="Title">
-                    <ItemTemplate>
-                        <a title="click for job details" href="/jobs/<%# Eval("Title").ToString()+"-job-"+Eval("city").ToString()+"-"+Eval("statename").ToString() %>-<%# getPageIndex() %>-<%# Eval("JobId").ToString() %>">
-                            <%# Eval("Title").ToString()%>
-                        </a>
-                    </ItemTemplate>
-                </asp:TemplateField>
-
-                <asp:BoundField HeaderText="Country" DataField="Country" SortExpression="Country" />
-                <asp:BoundField HeaderText="State/Prov" DataField="StateName" SortExpression="Statename" />
-                <asp:BoundField HeaderText="City" DataField="City" SortExpression="City" />
-
-                <asp:TemplateField HeaderText="Date" Visible="true"  SortExpression="PostDate">
-                    <ItemTemplate>
-                        <%# formatDate(Eval("PostDate").ToString(), "{0:MM/dd/yyyy}")%>
-                    </ItemTemplate>
-                </asp:TemplateField>
-
-                <asp:BoundField HeaderText="Talent Area" DataField="AnswerText1" />
-            </Columns>
-        </asp:GridView>
+            </div>
 
                     <asp:GridView 
-                    ID="GrdResultsOld" 
+                    ID="GrdResultsUS" 
+                    runat="server"                     
+                    AutoGenerateColumns="False" 
+                    CellPadding="0" 
+                    GridLines="None" 
+                    ToolTip="Search Results "
+                    summary="Search Results. The first column is the Job Title.  The second column is the Location.  The third column is the Date. " 
+                    Width="554px"
+                    Height="18"  
+                    PageSize="12"    
+                    AllowPaging="false" 
+                    EmptyDataRowStyle-ForeColor="Red"
+                    AllowSorting="True" OnSorting="GrdResults_OnSorting" 
+                    >
+                    
+                        <HeaderStyle CssClass="pd"   BackColor="#EAF1F7" Height="24px"  />
+                        <RowStyle CssClass="pd2"   BackColor="#CADCEB" Height="24px" />
+                        <AlternatingRowStyle CssClass="pd2"  BackColor="#EAF1F7" Height="24px" />
+                        
+                        <Columns>
+                        
+                            <asp:TemplateField HeaderText="Title" Visible="true"  SortExpression="Title">
+                                <ItemTemplate>
+                                    <a title="click for job details" href="/jobs/<%# Eval("Title").ToString()+"-job-"+Eval("city").ToString()+"-"+Eval("statename").ToString() %>-<%# getPageIndex() %>-<%# Eval("JobId").ToString() %>">
+                                        <%# Eval("Title").ToString()%>
+                                    </a>
+                                    <HeaderStyle CssClass="pd" Font-Bold="true" ForeColor="black" HorizontalAlign="Left" Width="50%" Height="24px"/>
+                                </ItemTemplate>
+                            </asp:TemplateField>                           
+                           
+                           <asp:TemplateField HeaderText="Location" SortExpression="Location">
+                                <ItemTemplate>
+                                    <asp:Literal ID="Lc" runat="server" Text='<%# Eval("Location") %>'></asp:Literal>
+                                </ItemTemplate> 
+                                <HeaderStyle CssClass="pd" Font-Bold="true" ForeColor="black" HorizontalAlign="Left"  Width="25%" Height="24px"/>
+                            </asp:TemplateField>   
+                            
+                            <asp:TemplateField HeaderText="Date" SortExpression="postdate">
+                                <ItemTemplate>
+                                    <asp:Literal ID="Dt" runat="server" Text='<%# formatDate(Eval("PostDate").ToString(), "{0:MMM dd yyyy}")%>'></asp:Literal>
+                                </ItemTemplate> 
+                                <HeaderStyle CssClass="pd" Font-Bold="true" ForeColor="black" HorizontalAlign="Left"  Width="25%" Height="24px"/>
+                            </asp:TemplateField>  
+                        </Columns>
+                        <PagerStyle CssClass="mh-link1" />
+                        <EmptyDataTemplate>
+                            <b>There are no matching records found</b>
+                        </EmptyDataTemplate>
+                    </asp:GridView>
+
+                    <asp:GridView 
+                    ID="GrdResults" 
                     runat="server"                     
                     AutoGenerateColumns="False" 
                     CellPadding="0" 

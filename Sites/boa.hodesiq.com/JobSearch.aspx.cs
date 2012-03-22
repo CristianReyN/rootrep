@@ -27,6 +27,8 @@ public partial class JobSearch : System.Web.UI.Page
     private SortDirection _sortDir = 0;
 
     private String _jobFamily;
+    private String _areaOfTalent;
+    private String _ddlJobArea;
     private String _jobType; //full time/partime
     private String _jobShift;
     private String _daterange;
@@ -111,7 +113,7 @@ public partial class JobSearch : System.Web.UI.Page
             //PopulateOtherLists();
             PopulateJobFamily();
 
-            //BindSearchString();
+            BindSearchString();
             if (Country.SelectedValue == Location.ALL_COUNTRIES)
             {
                 Country.AutoPostBack = false;
@@ -147,7 +149,7 @@ public partial class JobSearch : System.Web.UI.Page
 
         ViewState["jobareas"] = ddlJobAreas.SelectedValue;
         
-        PopulateJobAreas();
+        PopulateJobAreas2();
 
         //postback only if location has been changed:
         this.State.Attributes.Add("onblur", "javascript:if(document." + this.Form.ClientID + "." + this.Statehidden.ClientID + ".value!=document." + this.Form.ClientID + "." + State.ClientID + ".options[document." + this.Form.ClientID + "." + State.ClientID.Replace("$", "_") + ".selectedIndex].value) {setTimeout('__doPostBack(\\'" + this.State.ClientID.Replace("_", "$") + "\\',\\'\\')', 0);}");
@@ -275,8 +277,8 @@ public partial class JobSearch : System.Web.UI.Page
         }
 
         // Bind DataSource to "gv" GridView (gridview displayed in ASCX file)
-        GrdResults.DataSource = SetDataSource();
-        GrdResults.DataBind();
+        GrdResultsUS.DataSource = SetDataSource();
+        GrdResultsUS.DataBind();
     }
 
 
@@ -296,7 +298,7 @@ public partial class JobSearch : System.Web.UI.Page
 
         // Build comma seperated list of the custom fields to be displayed
         // in the job list
-        zcrGridView1.QuestionIdList = string.Format("{0},{1}", travelQId, jobTypeQId);
+        //zcrGridView1.QuestionIdList = string.Format("{0},{1}", travelQId, jobTypeQId);
 
         // Assign custom fields to be used for searching
         zcrGridView1.QuestionId1 = travelQId;
@@ -305,23 +307,14 @@ public partial class JobSearch : System.Web.UI.Page
         zcrGridView1.QuestionId2 = jobTypeQId;
         zcrGridView1.QuestionId2AnswerIds = _jobType;
 
-        /*zcrGridView1.QuestionId2 = businessAreaQId;
-        zcrGridView1.QuestionId2AnswerIds = _businessArea;
+        zcrGridView1.QuestionId3 = jobShiftQId;
+        zcrGridView1.QuestionId3AnswerIds = _jobShift;
 
-        zcrGridView1.QuestionId3 = jobTypeQId;
-        zcrGridView1.QuestionId3AnswerIds = _jobType;
-
-        zcrGridView1.QuestionId4 = clearanceQId;
-        zcrGridView1.QuestionId4AnswerIds = _clearance;
-
-        zcrGridView1.QuestionId5 = portalQId;
-        zcrGridView1.QuestionId5AnswerIds = _campusOnly;
-        */
 
         // Assign zip/radius values used for searching
         if (_distance != null)
         {
-            zcrGridView1.Radius = System.Convert.ToInt32(string.IsNullOrEmpty(_distance));
+            zcrGridView1.Radius = System.Convert.ToInt32(_distance);
         }
         zcrGridView1.ZipCode = _zipcode;
 
@@ -331,9 +324,6 @@ public partial class JobSearch : System.Web.UI.Page
         // Assign Daterange / Age search criteria
         zcrGridView1.Age = Convert.ToInt32(_daterange);
 
-        // Assign category value
-        //zcrGridView1.CategoryIds = _category;
-
         // If not a postback AND _pagenum has a value then make it 
         // the current page
         if (!IsPostBack && Convert.ToInt32(_pagenum) > 0)
@@ -341,7 +331,6 @@ public partial class JobSearch : System.Web.UI.Page
             zcrGridView1.PageIndex = Convert.ToInt32(_pagenum);
             SaveViewState();
         }
-
 
     }
 
@@ -356,12 +345,13 @@ public partial class JobSearch : System.Web.UI.Page
         // and possible display in the job list
         int travelQId = cs.RetrieveTagValueQuestionId("Travel");
         int jobFamilyQId = cs.RetrieveTagValueQuestionId("JobFamily");
+        int aotQId = cs.RetrieveTagValueQuestionId("TalentArea");
         int jobTypeQId = cs.RetrieveTagValueQuestionId("FTPT");
         int jobShiftQId = cs.RetrieveTagValueQuestionId("Shift");
 
         // Build comma seperated list of the custom fields to be displayed
         // in the job list
-        jobListGridView1.QuestionIdList = string.Format("{0},{1}", travelQId, jobTypeQId);
+        //jobListGridView1.QuestionIdList = string.Format("{0},{1}", travelQId, jobTypeQId);
 
         // Assign custom fields to be used for searching
         jobListGridView1.QuestionId1 = travelQId;
@@ -369,7 +359,25 @@ public partial class JobSearch : System.Web.UI.Page
 
         jobListGridView1.QuestionId2 = jobTypeQId;
         jobListGridView1.QuestionId2AnswerIds = _jobType;
-       
+
+        jobListGridView1.QuestionId3 = jobShiftQId;
+        jobListGridView1.QuestionId3AnswerIds = _jobShift;
+
+
+        if (!string.IsNullOrEmpty(_ddlJobArea))
+        {
+            //split aot and job family
+            string[] arrAOTJobFamily = null;
+            arrAOTJobFamily = _ddlJobArea.Split("|".ToCharArray());
+            _areaOfTalent = arrAOTJobFamily[0];
+            _jobFamily = arrAOTJobFamily[1];
+
+            jobListGridView1.QuestionId4 = jobFamilyQId;
+            jobListGridView1.QuestionId4AnswerIds = _jobFamily;
+
+            jobListGridView1.QuestionId5 = aotQId;
+            jobListGridView1.QuestionId5AnswerIds = _areaOfTalent;
+        }
 
         // Assign country/stte/city values used for searching
         jobListGridView1.CountryIds = _country;
@@ -380,10 +388,7 @@ public partial class JobSearch : System.Web.UI.Page
         jobListGridView1.Keywords = _keyword;
 
         // Assign Daterange / Age search criteria
-        //jobListGridView1.Age = Convert.ToInt32(_daterange);
-
-        // Assign category value
-        //jobListGridView1.CategoryIds = _category;
+        jobListGridView1.Age = Convert.ToInt32(_daterange);
 
         // If not a postback AND _pagenum has a value then make it 
         // the current page
@@ -392,7 +397,6 @@ public partial class JobSearch : System.Web.UI.Page
             jobListGridView1.PageIndex = Convert.ToInt32(_pagenum);
             SaveViewState();
         }
-
 
     }
 
@@ -554,6 +558,8 @@ public partial class JobSearch : System.Web.UI.Page
             _zipcode = txtZipCode.Text.ToString().Trim();
 
             _keyword = keywords.Text.ToString().Trim();
+            _ddlJobArea = ddlJobAreas.SelectedValue;
+
         }
 
     }
@@ -733,7 +739,7 @@ public partial class JobSearch : System.Web.UI.Page
         return intPageCount;
     }
     
-   /*
+   
     public void BindSearchString()
     {
         ListItem MyListItem;
@@ -885,7 +891,7 @@ public partial class JobSearch : System.Web.UI.Page
        
         UpdateFilter();
     }
-    */
+    
     
     public void funAdvSearch(int iFrom)
     {
@@ -1004,12 +1010,13 @@ public partial class JobSearch : System.Web.UI.Page
         }
 
 
-        Jobs Job = new Jobs();
+        /*Jobs Job = new Jobs();
         ListDictionary MyListDictionary = new ListDictionary();
         MyListDictionary = Job.AdvSearch_ListDictionary(aot, jf, state, city, Travel, Lang, fullPart, Shift, PostDate, keywrd, (int)(ViewState["PageNumber"]), RecPerPage, (string)ViewState["sortExpression"], (string)ViewState["MysortDirection"]);
         DataTable DT = (DataTable)MyListDictionary["JobSearchResults"];
-
+        
         FilterJobSearch(iFrom, DT, MyListDictionary);
+         * */
     }
 
     private void FilterJobSearch(int iFrom, DataTable DT, ListDictionary MyListDictionary)
@@ -1460,6 +1467,216 @@ public partial class JobSearch : System.Web.UI.Page
         if (myListItem != null)
             myListItem.Selected = true;
        }
+
+    protected String GetAppSettings(string key)
+    {
+        return System.Configuration.ConfigurationManager.AppSettings[key].ToString();
+    }
+   
+
+    protected void PopulateJobAreas2()
+    {
+        string selVal;
+        if (!IsPostBack)
+        {
+            selVal = String.IsNullOrEmpty(Request.QueryString["jobareas"]) == false ? string.IsNullOrEmpty(this.ddlJobAreas.SelectedValue) ? Request.QueryString["jobareas"] : this.ddlJobAreas.SelectedValue : this.ddlJobAreas.SelectedValue;
+        }
+        else
+        {
+            selVal = ViewState["jobareas"] == null ? "" : ViewState["jobareas"].ToString();
+        }
+        this.ddlJobAreas.Items.Clear();
+
+        ListItem l = new ListItem("none", string.Empty);
+
+        this.ddlJobAreas.Items.Insert(0, l);
+
+        //ADMINISTRATION
+
+            String aot = GetAppSettings("aotAdministration");
+
+            ListItem li = new ListItem("All Administration", aot + "|-1");
+            li.Attributes["OptionGroup"] = "Adminstration";
+            this.ddlJobAreas.Items.Add(li);
+
+            ListItem li2 = new ListItem("Change Mgmt & Process", aot + "|" + GetAppSettings("famChangeMgmtProcess"));
+            li2.Attributes["OptionGroup"] = "Adminstration";
+            this.ddlJobAreas.Items.Add(li2);
+
+            ListItem li3 = new ListItem("Corporate Executive", aot + "|" + GetAppSettings("famCorporateExecutive"));
+            li3.Attributes["OptionGroup"] = "Adminstration";
+            this.ddlJobAreas.Items.Add(li3);
+
+            ListItem li4 = new ListItem("Legal", aot + "|" + GetAppSettings("famLegal"));
+            li4.Attributes["OptionGroup"] = "Adminstration";
+            this.ddlJobAreas.Items.Add(li4);
+
+            ListItem li5 = new ListItem("Services", aot + "|" + GetAppSettings("famServices"));
+            li5.Attributes["OptionGroup"] = "Adminstration";
+            this.ddlJobAreas.Items.Add(li5);
+
+        //CFO GROUP
+
+            aot = GetAppSettings("aotCFOGroupFinance");
+
+            ListItem li6 = new ListItem("All CFO Group/Finance", aot + "|-1");
+            li6.Attributes["OptionGroup"] = "CFO Group/Finance";
+            this.ddlJobAreas.Items.Add(li6);
+
+            ListItem li7 = new ListItem("Credit", aot + "|" + GetAppSettings("famCredit"));
+            li7.Attributes["OptionGroup"] = "CFO Group/Finance";
+            this.ddlJobAreas.Items.Add(li7);
+
+            ListItem li8 = new ListItem("Investment Banking", aot + "|" + GetAppSettings("famInvestmentBanking"));
+            li8.Attributes["OptionGroup"] = "CFO Group/Finance";
+            this.ddlJobAreas.Items.Add(li8);
+
+            ListItem li9 = new ListItem("Wealth & Investment Mgmt", aot + "|" + GetAppSettings("famWealthInvestmentMgmt"));
+            li9.Attributes["OptionGroup"] = "CFO Group/Finance";
+            this.ddlJobAreas.Items.Add(li9);
+
+        //COMMUNICATIONS
+
+            aot = GetAppSettings("aotCommunications");
+
+            ListItem li11 = new ListItem("All Communications", aot + "|-1");
+            li11.Attributes["OptionGroup"] = "Communications";
+            this.ddlJobAreas.Items.Add(li11);
+
+            ListItem li12 = new ListItem("Marketing", aot + "|" + GetAppSettings("famMarketing"));
+            li12.Attributes["OptionGroup"] = "Communications";
+            this.ddlJobAreas.Items.Add(li12);
+
+
+        //CONSUMER BANKING
+
+            aot = GetAppSettings("aotConsumerBanking");
+
+            ListItem li13 = new ListItem("All Consumer Banking", aot + "|-1");
+            li13.Attributes["OptionGroup"] = "Consumer Banking";
+            this.ddlJobAreas.Items.Add(li13);
+
+
+        //CUSTOMER CARE
+
+            aot = GetAppSettings("aotCustomerCare");
+
+            ListItem li14 = new ListItem("All Customer Care", aot + "|-1");
+            li14.Attributes["OptionGroup"] = "Customer Care";
+            this.ddlJobAreas.Items.Add(li14);
+
+            ListItem li15 = new ListItem("Credit", aot + "|" + GetAppSettings("famCredit"));
+            li15.Attributes["OptionGroup"] = "Customer Care";
+            this.ddlJobAreas.Items.Add(li15);
+
+            ListItem li16 = new ListItem("Customer Service", aot + "|" + GetAppSettings("famCustomerService"));
+            li16.Attributes["OptionGroup"] = "Customer Care";
+            this.ddlJobAreas.Items.Add(li16);
+
+            ListItem li17 = new ListItem("Relationship Management", aot + "|" + GetAppSettings("famRelationshipManagement"));
+            li17.Attributes["OptionGroup"] = "Customer Care";
+            this.ddlJobAreas.Items.Add(li17);
+
+            ListItem li18 = new ListItem("Sales", aot + "|" + GetAppSettings("famSales"));
+            li18.Attributes["OptionGroup"] = "Customer Care";
+            this.ddlJobAreas.Items.Add(li18);
+
+        //FINANCIAL ADVISOR
+
+            aot = GetAppSettings("aotFinancialAdvisor");
+
+            ListItem li19 = new ListItem("All Financials Advisor", aot + "|-1");
+            li19.Attributes["OptionGroup"] = "Financial Advisor";
+            this.ddlJobAreas.Items.Add(li19);
+
+        //HUMAN RESUORCES
+
+            aot = GetAppSettings("aotHumanResources");
+
+            ListItem li20 = new ListItem("All Human Resources", aot + "|-1");
+            li20.Attributes["OptionGroup"] = "Human Resources";
+            this.ddlJobAreas.Items.Add(li20);
+
+
+        //MORTGAGES
+
+            aot = GetAppSettings("aotMortgage");
+
+            ListItem li21 = new ListItem("All Mortgage", aot + "|-1");
+            li21.Attributes["OptionGroup"] = "Mortgage";
+            this.ddlJobAreas.Items.Add(li21);
+
+        //OPERATIONS
+
+            aot = GetAppSettings("aotOperations");
+
+            ListItem li22 = new ListItem("All Operations", aot + "|-1");
+            li22.Attributes["OptionGroup"] = "Operations";
+            this.ddlJobAreas.Items.Add(li22);
+
+            ListItem li23 = new ListItem("Change Mgmt & Process", aot + "|" + GetAppSettings("famChangeMgmtProcess"));
+            li23.Attributes["OptionGroup"] = "Operations";
+            this.ddlJobAreas.Items.Add(li23);
+
+            ListItem li24 = new ListItem("Corporate Workplace", aot + "|" + GetAppSettings("famCorporateWorkplace"));
+            li24.Attributes["OptionGroup"] = "Operations";
+            this.ddlJobAreas.Items.Add(li24);
+
+            ListItem li25 = new ListItem("Legal", aot + "|" + GetAppSettings("famLegal"));
+            li25.Attributes["OptionGroup"] = "Operations";
+            this.ddlJobAreas.Items.Add(li25);
+
+            ListItem li26 = new ListItem("Services", aot + "|" + GetAppSettings("famServices"));
+            li26.Attributes["OptionGroup"] = "Operations";
+            this.ddlJobAreas.Items.Add(li26);
+
+        //RISK EVALUATION
+
+            aot = GetAppSettings("aotRiskEvaluation");
+
+            ListItem li27 = new ListItem("All Risk Evaluation", aot + "|-1");
+            li27.Attributes["OptionGroup"] = "Risk Evaluation";
+            this.ddlJobAreas.Items.Add(li27);
+
+            ListItem li28 = new ListItem("Credit", aot + "|" + GetAppSettings("famCredit"));
+            li28.Attributes["OptionGroup"] = "Risk Evaluation";
+            this.ddlJobAreas.Items.Add(li28);
+
+            ListItem li29 = new ListItem("Risk Management", aot + "|" + GetAppSettings("famRiskManagement"));
+            li29.Attributes["OptionGroup"] = "Risk Evaluation";
+            this.ddlJobAreas.Items.Add(li29);
+
+        //SALES
+
+            aot = GetAppSettings("aotSales");
+
+            ListItem li30 = new ListItem("All Sales", aot + "|-1");
+            li30.Attributes["OptionGroup"] = "Sales";
+            this.ddlJobAreas.Items.Add(li30);
+
+            ListItem li31 = new ListItem("Consumer Banking", aot + "|" + GetAppSettings("famConsumerBanking"));
+            li31.Attributes["OptionGroup"] = "Risk Evaluation";
+            this.ddlJobAreas.Items.Add(li31);
+
+        //TECHNOLOGY
+
+            aot = GetAppSettings("aotTechnology");
+
+            ListItem li32 = new ListItem("All Technology", aot + "|-1");
+            li32.Attributes["OptionGroup"] = "Technology";
+            this.ddlJobAreas.Items.Add(li32);
+
+            ListItem li33 = new ListItem("Corporate Workplace", aot + "|" + GetAppSettings("famCorporateWorkplace"));
+            li33.Attributes["OptionGroup"] = "Technology";
+            this.ddlJobAreas.Items.Add(li33);
+
+
+        ListItem myListItem = new ListItem();
+        myListItem = this.ddlJobAreas.Items.FindByValue(selVal);
+
+        if (myListItem != null)
+            myListItem.Selected = true;
+    }
 
     public string formatDate(String strDate, String strDateFormat)
     {
