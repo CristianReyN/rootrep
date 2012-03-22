@@ -1,5 +1,6 @@
   <%@ Page AutoEventWireup="true" CodeFile="JobSearch.aspx.cs" Inherits="JobSearch"
       Language="C#" MasterPageFile="~/BOAmaster.master" ValidateRequest="false" EnableEventValidation="false" %>
+      <%@ Register Assembly="CareerSiteWebControls" Namespace="CareerSiteWebControls" TagPrefix="cswc" %>
 
 <asp:Content ID="Content1" runat="Server" ContentPlaceHolderID="cphmain">  
 <table border="0" cellpadding="0" cellspacing="0" summary="" width="578"><tr><td valign="top"><h1 style="margin: 0px 0px 0px 12px; ">Guided Job Search</h1></td><td align="right"><div id="banc" runat="server"><a id="ImgMerchantServices" runat="server" style="display:block;float:right;" title="Banc of America Merchant Services, LLC Job Search.  Link opens a new window." ><img src="../images/BOA_MerchantJobSearch-1.jpg" width="179" height="66" alt="Banc of America Merchant Services, LLC Job Search." border="0" align="top"><span class="hidden">Link opens a new window.</span></a></div>	</td></tr> 
@@ -15,6 +16,7 @@
                             <td valign="top"  colspan="2"><asp:Label ID="tdInstructions" runat="server"></asp:Label></td>
                             </br>                         
                         </tr>
+                        
 						<tr>
 							<td colspan="2" valign="top" align="left">&nbsp;
 							</td>
@@ -25,11 +27,22 @@
 							<td  valign="top" style="width:50%; height:45;">
 							    <div id="Div3" style="display: inline;">						
 								    <asp:Label ID="lblCountry" runat="server" Text="Country" AssociatedControlID="Country"></asp:Label><br />
-								    <asp:DropDownList ID="Country" runat="server" CssClass="left" Style="width:90%; z-index: auto;"
+								    
+                                    <asp:DropDownList ID="Country" runat="server" CssClass="left" Style="width:90%; z-index: auto;"
 								    ToolTip="Select a country" AutoPostBack="true" OnSelectedIndexChanged="Country_Click">								  
 								    </asp:DropDownList></div>
+
+                                    <!--<cswc:CountryListBox ID="Country2" runat="server"
+                                        ControlType="DropDownList">
+                                    </cswc:CountryListBox>-->
+
 							</td>
-							</tr>
+                            <td  valign="top" style="width:50%; height:45;">
+							    <div id="Div4" style="display: inline;">	
+                            <asp:HyperLink runat="server"  NavigateUrl="#" ID="HylCityNote" onclick="javascript:w= window.open('overview/chelp.html','mywin','left=200px,top=180px,width=625,height=345,resizable=0');return false;" Visible="true" Font-Bold="true" CssClass="p" AssociatedControlID="City" style="width:80%;">How do I use the city search?<span class="hidden"> Link opens a new window</span></asp:HyperLink>
+							</div>
+							</td>
+                            </tr>
 							</table>
 							<asp:Panel ID="PnlCanada" runat="server" Visible="false">
 							  </br><a href="http://ig12.i-grasp.com/fe/tpl_bankofamerica06.asp" target="_blank" class="p" onfocus="this.className='p-over'; "onblur="this.className='p';" style="margin: 0px 0px 0px 0px;" >Search and apply<span class="hidden">Search and apply for jobs in Canada. Link opens a new window.</span></a> for jobs in Canada.</br></br></asp:Panel>
@@ -62,7 +75,7 @@
 							</td>					
 												
 							<td  valign="top" style="width:48%; height:45;">
-							    <asp:Label ID="lblCity" runat="server" Text="City" Visible="true" AssociatedControlID="City"></asp:Label> &nbsp; &nbsp; &nbsp;<asp:HyperLink runat="server"  NavigateUrl="#" ID="HylCityNote" onclick="javascript:w= window.open('overview/chelp.html','mywin','left=200px,top=180px,width=625,height=345,resizable=0');return false;" Visible="true" Font-Bold="true" CssClass="p" AssociatedControlID="City" style="width:80%;">How do I use the city search?<span class="hidden"> Link opens a new window</span></asp:HyperLink><br />
+							    <asp:Label ID="lblCity" runat="server" Text="City" Visible="true" AssociatedControlID="City"></asp:Label> &nbsp; &nbsp; &nbsp;<br />
 								<asp:DropDownList ID="City" runat="server" CssClass="left" Style="width: 90%; z-index: auto; background-color:White; color:DarkGray"
 								ToolTip="Select a city" Visible="true" Enabled="false">
 								<asp:ListItem>All cities&#160;</asp:ListItem>
@@ -89,18 +102,19 @@
 								</div>
 							</td>
 							<td  valign="top" style="width:50%; height:45;" runat="server" >
-								<asp:Label ID="lblfullpart" runat="server" Text="Full/part time" AssociatedControlID="fullpart"></asp:Label><br />
-								<asp:ListBox ID="fullpart" runat="server" CssClass="left" SelectionMode="Single"
-								Style="width: 90%; z-index: auto;" ToolTip="Full/part time"  Rows="1">
-								<asp:ListItem>All </asp:ListItem>
-								</asp:ListBox>
+                                <asp:Label ID="lblZipCode" runat="server" Text="Zip Code" AssociatedControlID="txtZipCode"></asp:Label><br />
+								<asp:TextBox ID="txtZipCode" runat="server" CssClass="left" Style="width: 90%; size: 20"
+								    ToolTip="Zip Code" ></asp:TextBox>
+
+								
 							</td>
 						</tr>
 						<tr id="trDatepostedShifts" runat="server">
 							<td  valign="top" style="width:50%; height:45;" >
 							    <div id="d3"  style="display: inline;">
 								    <asp:Label ID="lbldatepost" runat="server" Text="Date positions posted as of" AssociatedControlID="datepost"></asp:Label><br />
-								    <asp:DropDownList ID="datepost" runat="server" CssClass="left" Style="width: 90%;
+								    
+                                    <asp:DropDownList ID="datepost" runat="server" CssClass="left" Style="width: 90%;
 								    z-index: auto;" ToolTip="Date posted" >
 								    <asp:ListItem Value="0">All</asp:ListItem>
 								    <asp:ListItem Value="1">Today</asp:ListItem>
@@ -113,9 +127,17 @@
 								</div>
 							</td>
 							<td  valign="top" style="width:50%; height:45;" >
-								<asp:Label ID="lblShift" runat="server" Text="Shift" AssociatedControlID="shift"></asp:Label>
-								<asp:ListBox id="shift" tooltip="Shift" SelectionMode="Single" runat="server" Cssclass="left"  style="width: 90%; z-index: auto;"  Rows="1">
-								<asp:ListItem>All shifts</asp:ListItem>
+								<asp:Label ID="lblRadius" runat="server" Text="Distance (miles) from Zip Code" AssociatedControlID="ddlRadius"></asp:Label><br />
+								<asp:ListBox ID="ddlRadius" runat="server" CssClass="left" SelectionMode="Single"
+								Style="width: 90%; z-index: auto;" ToolTip="Distance (miles) from Zip Code"  Rows="1">
+								    <asp:ListItem Value="-1">Select the distance </asp:ListItem>
+                                    <asp:ListItem Value="5">5</asp:ListItem>
+								    <asp:ListItem Value="10">10</asp:ListItem>
+								    <asp:ListItem Value="20">20</asp:ListItem>
+								    <asp:ListItem Value="30">30</asp:ListItem>
+								    <asp:ListItem Value="50">50</asp:ListItem>
+                                    <asp:ListItem Value="70">70</asp:ListItem>
+                                    <asp:ListItem Value="100">100</asp:ListItem>
 								</asp:ListBox>
 							</td>
 						</tr>
@@ -123,17 +145,32 @@
 							<td  valign="top" style="width:50%; height:45;" >
 							    <div id="d4" style="display: inline;">
 								    <asp:Label ID="lbltravel" runat="server" Text="Willingness to travel" AssociatedControlID="travel"></asp:Label>
-								    <asp:DropDownList id="travel" tooltip="Travel" Cssclass="left" runat="server" style="width: 90%; z-index: auto;" >
-								    <asp:ListItem>All travel</asp:ListItem>
-								    </asp:DropDownList>
+                                    <cswc:AnswerListBox 
+                                        ID="travel" 
+                                        runat="server"
+                                        ControlType="DropDownList" 
+                                        Style="width: 90%; z-index: auto;" 
+                                        ToolTip="Willingness to Travel">
+                                    </cswc:AnswerListBox>
+
 								</div>
 							</td>
-							<td  valign="top" style="width:50%; height:45;" >
+							<td  valign="top" style="width:50%; height:45;">
 								<asp:Label ID="lbllang" runat="server" Text="Language requirements" AssociatedControlID="lang" Visible="false"></asp:Label>
 								<asp:ListBox ID="lang" SelectionMode="Single" runat="server" CssClass="left" Style="width: 90%; z-index: auto;"
 								ToolTip="Language requirements"  Rows="1" Visible="false">
 								<asp:ListItem>All languages</asp:ListItem>
 								</asp:ListBox>
+                                <asp:Label ID="lblfullpart" runat="server" Text="Full/part time" AssociatedControlID="fullpart"></asp:Label><br />
+
+
+                                <cswc:AnswerListBox 
+                                        ID="fullpart" 
+                                        runat="server"
+                                        ControlType="DropDownList" 
+                                        Style="width: 90%; z-index: auto;" 
+                                        ToolTip="Full/part time">
+                                    </cswc:AnswerListBox>
 							</td>
 						</tr>
 						<tr id="trKeywords" runat="server">
@@ -144,7 +181,15 @@
 								    ToolTip="Keywords or job number" ></asp:TextBox>
 								</div>
 							</td>
-							<td  valign="top" style="width:50%; height:45;" >&nbsp;
+							<td  valign="top" style="width:50%; height:45;" id="tdShift" runat="server">&nbsp;
+                            <asp:Label ID="lblShift" runat="server" Text="Shift" AssociatedControlID="shift"></asp:Label>
+                                <cswc:AnswerListBox 
+                                        ID="shift" 
+                                        runat="server"
+                                        ControlType="DropDownList" 
+                                        Style="width: 90%; z-index: auto;" 
+                                        ToolTip="Shift">
+                                    </cswc:AnswerListBox>
 							</td>
 						</tr>
 						</table></asp:Panel>
@@ -182,6 +227,51 @@
 							</td>
 						</tr>
 					</table>
+
+                    <cswc:JobListCustomFieldsMultiLocZipCodeRadiusGridView 
+                        ID="zcrGridView1"
+                        AllowSorting="false"
+                        OrderByColumn="PostDate"
+                        OrderByDirection="Descending"
+                        AllowPaging="false"
+                        runat="server">
+                    </cswc:JobListCustomFieldsMultiLocZipCodeRadiusGridView>
+
+                    <!-- Location Search Control -->
+                    <cswc:JobListCustomFieldsMultiLocGridView visible="false"
+                        ID="jobListGridView1"
+                        AllowSorting="false"
+                        OrderByColumn="PostDate"
+                        OrderByDirection="Descending"
+                        AllowPaging="false"
+                        runat="server">
+                    </cswc:JobListCustomFieldsMultiLocGridView>
+
+                    <asp:Label ID="StatusMsg" Text="" runat="server" />
+                    <div ID="JobListPaging" class="JobListPaging" runat="server">
+
+        <div class="JobListPagingLinks">
+
+            <asp:LinkButton 
+                ID="previous_page"
+                Text="&#9668; Previous"
+                OnClick="previous_page_Click"
+                CausesValidation="False" 
+                runat="server" />
+
+            <asp:Literal ID="paging_text" Text="" runat="server" />
+            
+            <asp:LinkButton 
+                ID="next_page"
+                Text="Next &#9658;"
+                OnClick="next_page_Click"
+                CausesValidation="False" 
+                runat="server" />
+
+        </div>
+
+    </div>
+
                     <asp:GridView 
                     ID="GrdResults" 
                     runat="server"                     
