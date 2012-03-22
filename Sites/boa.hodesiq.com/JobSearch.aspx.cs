@@ -1460,8 +1460,46 @@ public partial class JobSearch : System.Web.UI.Page
         if (myListItem != null)
             myListItem.Selected = true;
        }
-    
 
+    public string formatDate(String strDate, String strDateFormat)
+    {
+        DateTime dtDate;
+
+        // Try converting Strng to datetime format
+        try
+        {
+            dtDate = Convert.ToDateTime(strDate);
+        }
+        catch
+        {
+            // If string can not be converted then just return the string
+            return strDate;
+        }
+
+        // If datetime conversion succeeded then return date in desired format
+        return String.Format(strDateFormat, dtDate);
+
+    }
+
+
+    public string formatLocation(String strCountry, String strState, String strCity)
+    {
+        string strLocation = "";
+
+        try
+        {
+            // If no state use city and country - else use city and state
+            if (strState.ToLower() == "select a state/province") strLocation = strCity + ", " + strCountry;
+            else strLocation = strCity + ", " + strState;
+        }
+        catch (Exception ex)
+        {
+            Utility.HandleException(ex);
+        }
+
+        return strLocation;
+
+    }
 
 
 }

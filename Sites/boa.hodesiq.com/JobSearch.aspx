@@ -271,9 +271,46 @@
         </div>
 
     </div>
+    <asp:GridView 
+            ID="GrdResults"
+            AllowSorting="true"
+            OnSorting="gv_Sorting"
+            OrderByColumn="PostDate"
+            OrderByDirection="Descending"
+            AllowPaging="false"
+            AlternatingRowStyle-CssClass="JobSearchResultsAlternateRows"
+            AutoGenerateColumns="false"
+            ShowHeader="true"
+            GridLines="None"
+            runat="server">
+            <Columns>
+
+                <asp:BoundField HeaderText="Job Id" DataField="JobCode" SortExpression="JobCode" />
+
+                <asp:TemplateField HeaderText="Title" Visible="true"  SortExpression="Title">
+                    <ItemTemplate>
+                        <a title="click for job details" href="/jobs/<%# Eval("Title").ToString()+"-job-"+Eval("city").ToString()+"-"+Eval("statename").ToString() %>-<%# getPageIndex() %>-<%# Eval("JobId").ToString() %>">
+                            <%# Eval("Title").ToString()%>
+                        </a>
+                    </ItemTemplate>
+                </asp:TemplateField>
+
+                <asp:BoundField HeaderText="Country" DataField="Country" SortExpression="Country" />
+                <asp:BoundField HeaderText="State/Prov" DataField="StateName" SortExpression="Statename" />
+                <asp:BoundField HeaderText="City" DataField="City" SortExpression="City" />
+
+                <asp:TemplateField HeaderText="Date" Visible="true"  SortExpression="PostDate">
+                    <ItemTemplate>
+                        <%# formatDate(Eval("PostDate").ToString(), "{0:MM/dd/yyyy}")%>
+                    </ItemTemplate>
+                </asp:TemplateField>
+
+                <asp:BoundField HeaderText="Talent Area" DataField="AnswerText1" />
+            </Columns>
+        </asp:GridView>
 
                     <asp:GridView 
-                    ID="GrdResults" 
+                    ID="GrdResultsOld" 
                     runat="server"                     
                     AutoGenerateColumns="False" 
                     CellPadding="0" 
