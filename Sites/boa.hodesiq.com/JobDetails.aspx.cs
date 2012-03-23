@@ -49,7 +49,7 @@ public partial class JobDetails : System.Web.UI.Page
 
             this.jobDetails1.MaskedHiringOrgId = cs.MaskedHiringOrgId;
             this.jobDetails1.EMediaId = cs.EMediaId;
-            this.jobDetails1.JobId = 403253;// System.Convert.ToInt32(JobId);
+            this.jobDetails1.JobId = System.Convert.ToInt32(JobId);
             this.jobDetails1.QuestionIdList = cs.RetrieveDisplayQuestionIdList();
 
             try

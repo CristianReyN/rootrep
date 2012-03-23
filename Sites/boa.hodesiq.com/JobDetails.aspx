@@ -192,7 +192,6 @@
                     </td>
                 </tr>
             </table>
-            <asp:GridView ID="gvCustomFields" DataSource='<%# Container.CustomFields %>' runat="server"></asp:GridView>
         </DataTemplate>
     </cswc:JobDetail>
     <asp:HiddenField ID="hdnTwitterTitle" runat="server" Value="" />

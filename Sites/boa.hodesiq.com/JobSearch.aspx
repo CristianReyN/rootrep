@@ -305,7 +305,7 @@
                         
                             <asp:TemplateField HeaderText="Title" Visible="true"  SortExpression="Title">
                                 <ItemTemplate>
-                                    <a title="click for job details" href="JobDetails.aspx?SearchPage=ASP&CountryId=<%= _country%>&JobId=<%# Eval("JobCode").ToString()%>&stateid=<%= _state%>&cityid=<%= _city%>&travel=<%= _travel%>&jfamily=<%= _jobFamily%>&lang=&fullpart=<%= _jobType%>&shift=<%= _jobShift%>&datepost=<%= _daterange%>&keywords=<%= _keyword%>&jobareas=<%= _ddlJobArea%>&feedname=BOAFEEDUSA&BOAFeedName=&jobfamilyid=<%= _jobFamily%>&internationalcity=&LocationID=0">
+                                    <a title="click for job details" href="JobDetails.aspx?SearchPage=ASP&CountryId=<%= _country%>&JobId=<%# Eval("JobId").ToString()%>&stateid=<%= _state%>&cityid=<%= _city%>&travel=<%= _travel%>&jfamily=<%= _jobFamily%>&lang=&fullpart=<%= _jobType%>&shift=<%= _jobShift%>&datepost=<%= _daterange%>&keywords=<%= _keyword%>&jobareas=<%= _ddlJobArea%>&feedname=BOAFEEDUSA&BOAFeedName=&jobfamilyid=<%= _jobFamily%>&internationalcity=&LocationID=0">
                                         <%# Eval("Title").ToString()%>
                                     </a>
                                     <HeaderStyle CssClass="pd" Font-Bold="true" ForeColor="black" HorizontalAlign="Left" Width="50%" Height="24px"/>
