@@ -26,19 +26,19 @@ public partial class JobSearch : System.Web.UI.Page
     private int _maxPage = 9999;
     private SortDirection _sortDir = 0;
 
-    private String _jobFamily;
+    public String _jobFamily;
     private String _areaOfTalent;
-    private String _ddlJobArea;
-    private String _jobType; //full time/partime
-    private String _jobShift;
-    private String _daterange;
-    private String _country;
-    private String _state;
-    private String _city;
-    private String _travel;
+    public String _ddlJobArea;
+    public String _jobType; //full time/partime
+    public String _jobShift;
+    public String _daterange;
+    public String _country;
+    public String _state;
+    public String _city;
+    public String _travel;
     private String _distance;
     private String _zipcode;
-    private String _keyword;
+    public String _keyword;
 
     private String _pagenum = "-1";
 
@@ -51,7 +51,7 @@ public partial class JobSearch : System.Web.UI.Page
 
     protected void Page_Load(object sender, EventArgs e)
     {
-   
+
         DateTime MaintenanceStartDate = DateTime.Parse(System.Configuration.ConfigurationManager.AppSettings["MaintenanceStartDate"].ToString());
         DateTime MaintenanceEndDate = DateTime.Parse(System.Configuration.ConfigurationManager.AppSettings["MaintenanceEndDate"].ToString());
         DateTime ATSUrlStartDate = DateTime.Parse(System.Configuration.ConfigurationManager.AppSettings["ATSUrlStartDate"].ToString());
@@ -267,6 +267,7 @@ public partial class JobSearch : System.Web.UI.Page
             // Do Zip Code Radius assignement and get records
             this.assignJobListValuesZCR();
             this.zcrGridView1.GetRecords();
+            this.zcrGridView1.Visible = false;
         }
         else
         {
@@ -1184,6 +1185,8 @@ public partial class JobSearch : System.Web.UI.Page
         OleDbDataReader dr;
         Country.DataTextField = "country";
         Country.DataValueField = "countryid";
+        //Country.MaskedHiringOrgId = cs.MaskedHiringOrgId;
+        //Country.EMediaId = cs.EMediaId;
         dr = Lo.CountryDR();
         Country.DataSource = dr;
         Country.DataBind();      

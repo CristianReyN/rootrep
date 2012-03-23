@@ -30,12 +30,15 @@
 								    
                                     <asp:DropDownList ID="Country" runat="server" CssClass="left" Style="width:90%; z-index: auto;"
 								    ToolTip="Select a country" AutoPostBack="true" OnSelectedIndexChanged="Country_Click">								  
-								    </asp:DropDownList></div>
-
-                                    <!--<cswc:CountryListBox ID="Country2" runat="server"
-                                        ControlType="DropDownList">
-                                    </cswc:CountryListBox>-->
-
+								    </asp:DropDownList>
+                                    
+                                    <!--
+                                    <cswc:CountryListBox ID="Country2" runat="server" CssClass="left" Style="width:90%; z-index: auto;"
+								    ToolTip="Select a country" AutoPostBack="true" OnSelectedIndexChanged="Country_Click"
+                                        ControlType="DropDownList" showActiveJobsOnly="false">
+                                    </cswc:CountryListBox>
+                                    -->
+                                    </div>
 							</td>
                             <td  valign="top" style="width:50%; height:45;">
 							    <div id="Div4" style="display: inline;">	
@@ -100,72 +103,18 @@
 								ToolTip="Select a job area" Visible="true">
 								</asp:DropDownList>
 
-                                <!--
-                                <select name="ddlJobAreas2" id="ddlJobAreas2" title="Select a job area" class="left" style="width: 90%; z-index: auto;">
-			                        <option value="" selected="selected">none</option>
-			                        <optgroup label="Administration">
-			                        <option value="1|-1">All Administration</option>
-			                        <option value="">Change Mgmt &amp; Process</option>
-			                        <option value="1|2">Corporate Executive</option>
-			                        <option value="1|5">Legal</option>
-			                        <option value="1|6">Services</option>
-			                        </optgroup>
-			                        <optgroup label="CFO Group/Finance">
-			                        <option value="4|-1">All CFO Group/Finance</option>
-			                        <option value="4|13">Credit</option>
-			                        <option value="4|14">Investment Banking</option>
-			                        <option value="4|15">Wealth &amp; Investment Mgmt</option>
-			                        </optgroup>
-			                        <optgroup label="Communications">
-			                        <option value="3|-1">All Communications</option>
-			                        <option value="3|11">Marketing</option>
-			                        </optgroup>
-			                        <optgroup label="Consumer Banking">
-			                        <option value="10|-1">All Consumer Banking</option>
-			                        </optgroup>
-			                        <optgroup label="Customer Care">
-			                        <option value="2|-1">All Customer Care</option>
-			                        <option value="2|13">Credit</option>
-			                        <option value="2|9">Customer Service</option>
-			                        <option value="2|8">Relationship Management</option>
-			                        <option value="2|19">Sales</option>
-			                        </optgroup>
-			                        <optgroup label="Financial Advisor">
-			                        <option value="13|-1">All Financial Advisor</option>
-			                        </optgroup>
-			                        <optgroup label="Human Resources">
-			                        <option value="5|-1">All Human Resources</option>
-			                        </optgroup>
-			                        <optgroup label="Mortgage">
-			                        <option value="12|-1">All Mortgage</option>
-			                        </optgroup>
-			                        <optgroup label="Operations">
-			                        <option value="6|-1">All Operations</option>
-			                        <option value="6|4">Change Mgmt &amp; Process</option>
-			                        <option value="6|3">Corporate Workplace</option>
-			                        <option value="6|5">Legal</option>
-			                        <option value="6|6">Services</option>
-			                        </optgroup>
-			                        <optgroup label="Risk Evaluation">
-			                        <option value="7|-1">All Risk Evaluation</option>
-			                        <option value="7|13">Credit</option>
-			                        <option value="7|26">Risk Management</option>
-			                        </optgroup>
-			                        <optgroup label="Sales">
-			                        <option value="8|-1">All Sales</option>
-			                        <option value="8|20">Consumer Banking</option>
-			                        </optgroup>
-			                        <optgroup label="Technology">
-			                        <option value="9|-1">All Technology</option>
-			                        <option value="9|3">Corporate Workplace</option>
-			                        </optgroup>
-                    		</select>-->
+
 								</div>
 							</td>
 							<td  valign="top" style="width:50%; height:45;" runat="server" >
                                 <asp:Label ID="lblZipCode" runat="server" Text="Zip Code" AssociatedControlID="txtZipCode"></asp:Label><br />
 								<asp:TextBox ID="txtZipCode" runat="server" CssClass="left" Style="width: 90%; size: 20"
 								    ToolTip="Zip Code" ></asp:TextBox>
+                                    <br>
+                                    <asp:RegularExpressionValidator id="RegularExpressionValidator1" runat="server"
+                                   ControlToValidate="txtZipCode"
+                                   ErrorMessage="Zip Code must be numeric and at least 5 digits in length" 
+                                   ValidationExpression="[0-9]{5}" />
 
 								
 							</td>
@@ -356,7 +305,7 @@
                         
                             <asp:TemplateField HeaderText="Title" Visible="true"  SortExpression="Title">
                                 <ItemTemplate>
-                                    <a title="click for job details" href="/jobs/<%# Eval("Title").ToString()+"-job-"+Eval("city").ToString()+"-"+Eval("statename").ToString() %>-<%# getPageIndex() %>-<%# Eval("JobId").ToString() %>">
+                                    <a title="click for job details" href="JobDetails.aspx?SearchPage=ASP&CountryId=<%= _country%>&JobId=<%# Eval("JobCode").ToString()%>&stateid=<%= _state%>&cityid=<%= _city%>&travel=<%= _travel%>&jfamily=<%= _jobFamily%>&lang=&fullpart=<%= _jobType%>&shift=<%= _jobShift%>&datepost=<%= _daterange%>&keywords=<%= _keyword%>&jobareas=<%= _ddlJobArea%>&feedname=BOAFEEDUSA&BOAFeedName=&jobfamilyid=<%= _jobFamily%>&internationalcity=&LocationID=0">
                                         <%# Eval("Title").ToString()%>
                                     </a>
                                     <HeaderStyle CssClass="pd" Font-Bold="true" ForeColor="black" HorizontalAlign="Left" Width="50%" Height="24px"/>
@@ -501,6 +450,8 @@
             }
         }
     }
+
+ 
     //-->
 </script>  
   </asp:Content>
