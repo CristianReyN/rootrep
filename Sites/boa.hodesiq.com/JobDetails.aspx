@@ -1,4 +1,4 @@
-﻿<%@ Page AutoEventWireup="true" CodeFile="JobDetails.aspx.cs" Inherits="JobDetails" Language="C#" MasterPageFile="~/BOAmaster.master"  ValidateRequest="false" EnableEventValidation="false"%>
+﻿<%@ Page AutoEventWireup="true" CodeFile="JobDetails.aspx.cs" Inherits="BOA.JobDetails" Language="C#" MasterPageFile="~/BOAmaster.master"  ValidateRequest="false" EnableEventValidation="false"%>
 <%@ MasterType VirtualPath="~/BOAmaster.master" %>
 <%@ Register Assembly="CareerSiteWebControls" Namespace="CareerSiteWebControls" TagPrefix="cswc" %>
 

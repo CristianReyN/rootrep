@@ -1,4 +1,4 @@
-﻿<%@ Page AutoEventWireup="true" CodeFile="JobCart.aspx.cs" Inherits="JobCart" Language="C#" MasterPageFile="~/BOAmaster.master"  ValidateRequest="false" EnableEventValidation="false" %>
+﻿<%@ Page AutoEventWireup="true" CodeFile="JobCart.aspx.cs" Inherits="BOA.JobCart" Language="C#" MasterPageFile="~/BOAmaster.master"  ValidateRequest="false" EnableEventValidation="false" %>
 <%@ Register Assembly="CareerSiteWebControls" Namespace="CareerSiteWebControls" TagPrefix="cswc" %>
 
 <asp:Content ID="Content1" runat="Server" ContentPlaceHolderID="cphmain">

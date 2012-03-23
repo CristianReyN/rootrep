@@ -1,4 +1,4 @@
-  <%@ Page AutoEventWireup="true" CodeFile="JobSearch.aspx.cs" Inherits="JobSearch"
+  <%@ Page AutoEventWireup="true" CodeFile="JobSearch.aspx.cs" Inherits="BOA.JobSearch"
       Language="C#" MasterPageFile="~/BOAmaster.master" ValidateRequest="false" EnableEventValidation="false" %>
       <%@ Register Assembly="CareerSiteWebControls" Namespace="CareerSiteWebControls" TagPrefix="cswc" %>
 
