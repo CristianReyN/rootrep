@@ -31,11 +31,13 @@ If hot_countryid = "" Then hot_countryid = 1
 If hot_countryid = 1 Then
 	familyid=""
 	talentid="9"
+    HotJobsPageName = "Technology"
 	globaljobsfamilyids=""
 	rowcount=12
 Else
-	familyid = ""
-	talentid=0
+	familyid=""
+	talentid="0"
+    HotJobsPageName = "Technology"
 	globaljobsfamilyids="30,6,15"
 	rowcount=12
 End If

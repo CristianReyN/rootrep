@@ -40,8 +40,10 @@ Global Wealth &amp; Investment Management (GWIM) provides comprehensive wealth m
 <table cellpadding="2" cellspacing="0" border="0" summary="" style="margin-left: <%=left_margin_0%>px;">
 <% 
 '******* HOT JOB OPENING '*******
-Dim familyid, talentid, globaljobsfamilyids, rowcount
-familyid=15
+Dim familyid, talentid, HotJobsPageName, globaljobsfamilyids, rowcount
+talentid="0"
+familyid="15"
+HotJobsPageName = "Wealth & Investment Mgmt"
 globaljobsfamilyids="31"
 rowcount=6
 %>

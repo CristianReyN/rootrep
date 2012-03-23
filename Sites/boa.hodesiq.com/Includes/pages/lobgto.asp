@@ -26,12 +26,13 @@ At Bank&nbsp;of&nbsp;America, Global Technology &amp; Operations (GT&amp;O) team
 <table cellpadding="2" cellspacing="0" border="0" summary="" style="width: 294px; margin-left: <%=left_margin_0%>px;">
 <%
 '******* HOT JOB OPENING '*******
-Dim familyid, talentid, globaljobsfamilyids, rowcount, hot_countryid
+Dim familyid, talentid, HotJobsPageName, globaljobsfamilyids, rowcount, hot_countryid
 hot_countryid = Request("countryid")
 If hot_countryid = "" Then hot_countryid = 1
 If hot_countryid = 1 Then
 	familyid=""
 	talentid="6"
+    HotJobsPageName = "Technology"
 	globaljobsfamilyids=""
 	rowcount=6
 %>
@@ -44,6 +45,7 @@ If hot_countryid = 1 Then
 Else
 	familyid = ""
 	talentid=0
+    HotJobsPageName = "Technology"
 	globaljobsfamilyids="30,15,6,2,22,20,24,29"
 	rowcount=12
 End If

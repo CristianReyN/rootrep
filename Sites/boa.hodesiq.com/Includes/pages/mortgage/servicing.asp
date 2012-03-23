@@ -42,9 +42,10 @@ Servicing Initiatives</p>
 
 <%
 '******* HOT JOB OPENING '*******
-Dim familyid, talentid, globaljobsfamilyids, rowcount
+Dim familyid, talentid, HotJobsPageName, globaljobsfamilyids, rowcount
 talentid=""'12
 familyid="17"
+HotJobsPageName = "Operations"
 globaljobsfamilyids=""'globaljobsfamilyids="7,8,21,22,23,26,28,30"
 rowcount=12
 %>

@@ -73,7 +73,9 @@ Investor Relations is the contact for analysts and investors and is responsible 
 <%
 '******* HOT JOB OPENING '*******
 Dim familyid, talentid, globaljobsfamilyids, rowcount
-talentid=4
+talentid="4"
+familyid="0"
+HotJobsPageName = "CFO Group/Finance"
 rowcount=6
 %>
 <H2 class="h2" style="margin: 12px <%=right_margin%>px 2px <%=left_margin_0%>px;">New Opportunities</H2>

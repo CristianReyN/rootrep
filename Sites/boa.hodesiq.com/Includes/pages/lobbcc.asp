@@ -19,8 +19,10 @@ To serve a customer base of more than 57 million consumer and small business cli
 <br>
 <%
 '******* HOT JOB OPENING '*******
-Dim familyid, talentid, globaljobsfamilyids, rowcount
-talentid=10
+Dim familyid, talentid, HotJobsPageName, globaljobsfamilyids, rowcount
+talentid="10"
+familyid="0"
+HotJobsPageName = "Consumer Banking"
 globaljobsfamilyids="4"
 rowcount=6
 %>

@@ -39,8 +39,10 @@ Bank&nbsp;of&nbsp;America has sales opportunities in all of our major lines of b
 <p class="bac">Global Banking and Markets offers a number of sales positions. Corporate Banking hires sales positions that include product managers, treasury sales officers and leasing sales specialists/officers. Global Markets hires security/product salespeople, and Capital Markets hires product specialists.</p>
 <%
 '******* HOT JOB OPENING '*******
-Dim familyid, talentid, globaljobsfamilyids, rowcount
-talentid=8
+Dim familyid, talentid, HotJobsPageName, globaljobsfamilyids, rowcount
+talentid="8"
+familyid=""
+HotJobsPageName = "Sales"
 globaljobsfamilyids="28,4"
 rowcount=6
 %>

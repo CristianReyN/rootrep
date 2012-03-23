@@ -20,7 +20,9 @@ Global Consumer &amp; Small Business Banking contains six of the largest divisio
 <%
 '******* HOT JOB OPENING '*******
 Dim familyid, talentid, globaljobsfamilyids, rowcount
-talentid=2
+talentid="2"
+familyId="0"
+HotJobsPageName = "Customer Care"
 globaljobsfamilyids="8,23"
 rowcount=6
 %>

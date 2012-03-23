@@ -18,8 +18,10 @@ Positions within Operations provide overall support for many key areas within Ba
 </p>
 <%
 '******* HOT JOB OPENING '*******
-Dim familyid, talentid, globaljobsfamilyids, rowcount
-talentid=6
+Dim familyid, talentid, HotJobsPageName, globaljobsfamilyids, rowcount
+talentid="6"
+familyid=""
+HotJobsPageName = "Operations"
 'globaljobsfamilyids="2,22,6,20,24,29,15"
 globaljobsfamilyids="2,22,6,20,29,15"
 rowcount=6

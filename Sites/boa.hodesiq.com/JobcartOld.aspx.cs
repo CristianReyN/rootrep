@@ -11,7 +11,7 @@ using System.Web.UI.HtmlControls;
 using System.Xml;
 using System.Text;
 
-public partial class Jobcart : System.Web.UI.Page
+public partial class JobcartOld : System.Web.UI.Page
 {
     #region Change History
     // date		    developer	    comments
@@ -35,7 +35,7 @@ public partial class Jobcart : System.Web.UI.Page
         
 		//if(ViewState["Cookie"]==null)
         //{
-
+        
         SearchReturn.NavigateUrl = Request.UrlReferrer.ToString();
         HttpCookie MyCookie = Request.Cookies["JobCartID"];
 		if (MyCookie != null)

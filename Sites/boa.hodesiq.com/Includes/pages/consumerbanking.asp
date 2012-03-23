@@ -39,8 +39,10 @@ To serve a customer base of more than 54 million consumer and small business cli
 </p>
 <%
 '******* HOT JOB OPENING '*******
-Dim familyid, talentid, globaljobsfamilyids, rowcount
-talentid=10
+Dim familyid, talentid, HotJobsPageName, globaljobsfamilyids, rowcount
+talentid="10"
+familyid=""
+HotJobsPageName = "Mortgage"
 rowcount=6
 %>
 <H2 class="h2" style="margin: 12px <%=right_margin%>px 2px <%=left_margin_0%>px;">New Opportunities</H2>

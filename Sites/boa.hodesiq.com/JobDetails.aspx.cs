@@ -1,39 +1,75 @@
-using System;
-using System.Data;
-using System.Configuration;
-using System.Collections;
+﻿using System;
+using CareerSiteComponents;
 using System.Web;
-using System.Web.Security;
-using System.Web.UI;
-using System.Web.UI.WebControls;
-using System.Web.UI.WebControls.WebParts;
-using System.Web.UI.HtmlControls;
 using System.Xml;
+using System.Data;
+using System.Web.UI.WebControls;
+using System.Configuration;
 using System.Text;
+using System.Collections.Generic;
 
 public partial class JobDetails : System.Web.UI.Page
 {
-    #region Change History
-    // date		    developer	    comments
-    // -----------	----------	    ----------
-    //  11/27/06    Jonathan Do     (1) added LnkAddJobCart_OnClick
-    //  12/05/06    Don Nguyen      (2) added Remove Job Cart links and functionality
-	//	01/11/08	Pat Sugar		(3) added logic to redirect to search page if jobid not found.
-    /// </summary>
-    #endregion
-    private string ApplyURL = string.Empty;
-    private string strJobID = string.Empty;
-    private string JobCartID = "";
-	private string srcvalue = string.Empty;
-    protected string UseTinyUrl = "0";
- 
-	private string targetpage = string.Empty;
-    string pageTitle = "";
-    string jobtitle = "";
+    #region Properties
 
+    private string ApplyURL = string.Empty;
+    private string JobCartID = string.Empty;
+    private string srcvalue = string.Empty;
+    private string UseTinyUrl = "0";
+
+    private string targetpage = string.Empty;
+    string pageTitle = string.Empty;
+    string jobtitle = string.Empty;
+
+    protected string JobId { get; set; }
+    protected string CountryId { get; set; }
+
+    #endregion
+
+    #region Page Events
 
     protected void Page_Load(object sender, EventArgs e)
     {
+        CareerSiteSettings cs = Utility.GetCareerSiteSettings();
+
+        // Retrieve the JobId from the query string
+        try
+        {
+            try
+            {
+                CountryId = this.Request.QueryString["CountryId"].ToString();
+            }
+            catch
+            {
+                // Assume United States if no country is found
+                CountryId = Location.USA;
+            }
+
+            JobId = this.Request.QueryString["JobId"].ToString();
+
+            this.jobDetails1.MaskedHiringOrgId = cs.MaskedHiringOrgId;
+            this.jobDetails1.EMediaId = cs.EMediaId;
+            this.jobDetails1.JobId = 403253;// System.Convert.ToInt32(JobId);
+            this.jobDetails1.QuestionIdList = cs.RetrieveDisplayQuestionIdList();
+
+            try
+            {
+                this.jobDetails1.DataBind();
+            }
+            catch (Exception ex)
+            {
+                // Log the error to the database
+                Utility.HandleException(ex);
+                Response.Redirect(ConfigurationManager.AppSettings["jobnotfoundredirectpage"] + "?nf=1");
+            }
+        }
+        catch
+        {
+            // Log the fact that an invalid JobId was passed in
+            Utility.HandleException(new Exception("Invalid JobId: " + this.Request.QueryString["JobId"].ToString()));
+            Response.Redirect(ConfigurationManager.AppSettings["jobnotfoundredirectpage"] + "?nf=1");
+        }
+
         try
         {
 
@@ -45,114 +81,62 @@ public partial class JobDetails : System.Web.UI.Page
             (this.Request.UrlReferrer.ToString().ToLowerInvariant().Contains("jobsearch.aspx") || this.Request.UrlReferrer.ToString().ToLowerInvariant().Contains("advancesearch.aspx")
                 || this.Request.UrlReferrer.ToString().ToLowerInvariant().Contains("jobdetails.aspx") || this.Request.UrlReferrer.ToString().ToLowerInvariant().Contains("tell_a_friend.aspx")))
             {
-                returntoJobsearch.Visible = true;
+                ((HyperLink)this.FindControlInDataTemplate("returntoJobsearch")).Visible = true;
             }
 
             Jobs Jobs = new Jobs();
 
+            string srcvalue = string.IsNullOrEmpty(Request["src"]) ? string.Empty : Request["src"];
             string countryid = Request["countryid"] == null ? "1" : Request["countryid"].ToString();
             string LocationId = Request["LocationID"] == null ? "0" : Request["LocationID"].ToString();
             string FeedName = Request["FeedName"] == null ? "" : Request["FeedName"].ToString();
             string taleoReqID = "";
 
-            DataTable dt = Jobs.JobDetails(Request.QueryString["JobId"].ToString(), countryid, LocationId, FeedName);
-            if (dt.Rows.Count > 0)
+            jobtitle = ((HiddenField)this.FindControlInDataTemplate("hdnJobTitle")).Value + " : " + JobId;
+            pageTitle = "Bank of America Careers: " + jobtitle;
+            lblJobTitle.InnerText = jobtitle;
+            taleoReqID = ((HiddenField)this.FindControlInDataTemplate("hdnReqNo")).Value;
+            if (CountryId == "1")
             {
-                taleoReqID = dt.Rows[0]["reqNo"].ToString();
+                ((Label)this.FindControlInDataTemplate("lblDescripton")).Text = LinkBuilder(((Label)this.FindControlInDataTemplate("lblDescripton")).Text, "Description");
+                ((Label)this.FindControlInDataTemplate("lblQualification")).Text = LinkBuilder(((Label)this.FindControlInDataTemplate("lblQualification")).Text, "Qualification");
+            }
+            string CANADAURL = ConfigurationManager.AppSettings["CanadaApplyURL"].ToString();
 
-                strJobID = dt.Rows[0]["JobsId"].ToString();
-                if (countryid == "1")
-                {
-                    lblDescripton.Text = LinkBuilder(dt.Rows[0]["Description"].ToString(), "Description");
-                }
-                else
-                {
-                    lblDescripton.Text = dt.Rows[0]["Description"].ToString();
-                }
-                jobtitle = dt.Rows[0]["JobTitle"].ToString() + " : " + dt.Rows[0]["JobsId"].ToString(); ;
-                lblJobTitle.InnerText = jobtitle;
-                pageTitle = "Bank of America Careers: " + jobtitle;
-                lblLocation.Text = dt.Rows[0]["Location"].ToString();
-                lblLocationFooter.Text = dt.Rows[0]["Location"].ToString();
-                lblPartTimeFullTime.Text = dt.Rows[0]["FullPartTime"].ToString();
-                lblPostingDate.Text = dt.Rows[0]["PostingDate"].ToString();
-                lblSchedule.Text = dt.Rows[0]["WeeklySchedule"].ToString();
-                lblShift.Text = dt.Rows[0]["Shift"].ToString();
-                lblTravel.Text = dt.Rows[0]["Travel"].ToString();
-                lblUnpostingDate.Text = dt.Rows[0]["UnPostingDate"].ToString();
-                lblLanguage.Text = dt.Rows[0]["Language"].ToString();
-                lblJobFamily.Text = dt.Rows[0]["family"].ToString();
-                lblHoursPerWeek.Text = dt.Rows[0]["HrsPerWeek"].ToString();
-                if (countryid == "1")
-                {
-                    lblQualification.Text = LinkBuilder(dt.Rows[0]["Qualification"].ToString(), "Qualification");
-                }
-                else
-                {
-                    lblQualification.Text = dt.Rows[0]["Qualification"].ToString();
-                }
-                //apply process goes trough clients page for hits counting:
-                srcvalue = string.IsNullOrEmpty(Request["src"]) ? string.Empty : Request["src"];
-                string CountryID = Request.QueryString["countryid"] == null ? "1" : Request.QueryString["countryid"].ToString();
-
-                string CANADAURL = ConfigurationManager.AppSettings["CanadaApplyURL"].ToString();
-
-                if (CountryID == Location.CANADA && CANADAURL != "")
-                {
-                    ApplyURL = CANADAURL;
-                }
-                else
-                {
-                    ApplyURL = dt.Rows[0]["ApplyURL"].ToString() + "&src=" + Request["src"];
-                }
-
-                this.hApplyNow.Value = targetpage + "countryid=" + CountryID + "&url=" + HttpUtility.UrlEncode(ApplyURL);
-                ViewState["pageTitle"] = pageTitle;
-                ViewState["jobtitle"] = jobtitle;
+            if (CountryId == Location.CANADA && CANADAURL != "")
+            {
+                ApplyURL = CANADAURL;
             }
             else
             {
-                Response.Redirect(ConfigurationManager.AppSettings["jobnotfoundredirectpage"] + "?nf=1");
+                ApplyURL = ((HiddenField)this.FindControlInDataTemplate("hdnApplyURL")).Value + "&src=" + Request["src"];
             }
 
-            returntoJobsearch.NavigateUrl = "jobsearch.aspx?" + Request.QueryString;
+            ((HiddenField)this.FindControlInDataTemplate("hApplyNow")).Value = targetpage + "countryid=" + CountryId + "&url=" + HttpUtility.UrlEncode(ApplyURL);
+            ViewState["pageTitle"] = pageTitle;
+            ViewState["jobtitle"] = jobtitle;
 
-            string applyJobTitle = CleanJobTitle(dt.Rows[0]["JobTitle"].ToString());
+            ((HyperLink)this.FindControlInDataTemplate("returntoJobsearch")).NavigateUrl = "jobsearch.aspx?" + Request.QueryString;
 
-            boanet_safebutton.writeBOASafeButton("Apply1", phApply1, "ApplyNow|*|" + applyJobTitle, Apply_Click_NoJS, this.Request, this.hApplyNow.Value);
-            boanet_safebutton.writeBOASafeButton("Apply2", phApply2, "ApplyNow|*|" + applyJobTitle, Apply_Click_NoJS, this.Request, this.hApplyNow.Value);
+            string applyJobTitle = CleanJobTitle(jobtitle);
+
+            boanet_safebutton.writeBOASafeButton("Apply1", ((PlaceHolder)this.FindControlInDataTemplate("phApply1")), "ApplyNow|*|" + applyJobTitle, Apply_Click_NoJS, this.Request, ((HiddenField)this.FindControlInDataTemplate("hApplyNow")).Value + this.Request.QueryString["jobpipeline"]);
+            boanet_safebutton.writeBOASafeButton("Apply2", ((PlaceHolder)this.FindControlInDataTemplate("phApply2")), "ApplyNow|*|" + applyJobTitle, Apply_Click_NoJS, this.Request, ((HiddenField)this.FindControlInDataTemplate("hApplyNow")).Value + this.Request.QueryString["jobpipeline"]);
 
             prepbuttons();
 
             //not ready For Pro Yet!! 
-            TellaFriend.NavigateUrl = "Tell_a_friend.aspx?" + Request.QueryString;
-
+            ((HyperLink)this.FindControlInDataTemplate("TellaFriend")).NavigateUrl = "Tell_a_friend.aspx?" + Request.QueryString;
 
             //check if this job is in the jobcart. If so, display remove Job Cart Link
-            HttpCookie MyCookie = Request.Cookies["JobCartID"];
-            if (MyCookie != null)
+            if (Cookie.CookieContainsValue(Cookie.JOB_CART_COOKIE_NAME, JobId))
             {
-                JobCartID = MyCookie.Value.ToString();
-                //Jobs Jobs = new Jobs();
-                DataView DW = Jobs.RetrieveJobCart(JobCartID);
-                if (DW.Count > 0)
-                {
-                    foreach (DataRowView Row in DW)
-                    {
-                        if (strJobID == Row["JobsID"].ToString())
-                        {
-
-                            bttnRemoveFromJobCart.Visible = true;
-                            btnRemoveFromCart.Visible = true;
-                            bttnAddToJobCart.Visible = false;
-                            btnAddToCart.Visible = false;
-
-                        }
-                    }
-                }
-
+                ((Button)this.FindControlInDataTemplate("btnRemoveFromJobCart")).Visible = true;
+                ((Button)this.FindControlInDataTemplate("btnRemoveFromCart")).Visible = true;                            
+                ((Button)this.FindControlInDataTemplate("btnAddToJobCart")).Visible = false;
+                ((Button)this.FindControlInDataTemplate("btnAddToCart")).Visible = false;
             }
-
+            
             string cmJobID = "";
 
             if (countryid == "1")
@@ -169,7 +153,7 @@ public partial class JobDetails : System.Web.UI.Page
                     if (parm.StartsWith("id="))
                     {
                         //split by = to get reqno
-                        cmJobID = strJobID.Substring(0, 3) + parm.Substring(3);
+                        cmJobID = JobId.Substring(0, 3) + parm.Substring(3);
                     }
                 }
             }
@@ -184,47 +168,7 @@ public partial class JobDetails : System.Web.UI.Page
         } 
     }
 
-    protected string CleanJobTitle(string jobTitle)
-    {
-        if (jobtitle != null)
-        {
-            jobtitle = jobtitle.Replace("&", "");
-            jobtitle = jobtitle.Replace("amp;", "");
-            jobtitle = jobtitle.Replace(",", "");
-            jobtitle = jobtitle.Replace(@"/", " ");
-            jobtitle = jobtitle.Replace(@"\", " ");
-            jobtitle = jobtitle.Replace(":", "");
-            jobtitle = jobtitle.Replace("*", "");
-            jobtitle = jobtitle.Replace("(", " ");
-            jobtitle = jobtitle.Replace(")", " ");
-            jobtitle = jobtitle.Replace("-", "");
-            jobtitle = jobtitle.Replace(".", "");
-            jobtitle = jobtitle.Replace("'", "");
-            jobtitle = jobtitle.Replace("&#44;", "_");
-            jobtitle = jobtitle.Replace(">", "");
-            jobtitle = jobtitle.Replace("<", "");
-            jobtitle = jobtitle.Replace("?", "");
-            jobtitle = jobtitle.Replace("&#63", "");
-        }
-        else { jobtitle = ""; }
-
-        return jobtitle;
-
-    }
-
-    protected void BuildCorremetrixProductTag(string strJobID, string jobtitle)
-    {
-
-        string strScript = "";
-
-        strScript = "<script language='javascript1.1' type='text/javascript'>" + System.Environment.NewLine;
-        strScript += "//<!�" + System.Environment.NewLine;
-        strScript += "cmCreatePageviewTag('career:Prod:Job_Search;JobDetails', null, null, 'career:Prod:Job_Search', false, false, null, false, false, null, null, '|job_" + strJobID + "|',null,null,null,null,null,'|job_"+strJobID+"|-_--_--_--_--_--_--_--_--_--_--_--_--_--_-', null, null, null);" + System.Environment.NewLine;
-        strScript += "cmCreateProductviewTag('" + strJobID + "','" + jobtitle + "', 'career:Job_Search', null, false, false, null, false, null, null, false, null);" + System.Environment.NewLine;
-        strScript += "//-->" + System.Environment.NewLine;
-        strScript += "</script>" + System.Environment.NewLine;
-        this.ltrlCorremetrixProductTag.Text = strScript;
-    }
+    #region His Page_PreRender
 
     protected void Page_PreRender(object sender, EventArgs e)
     {
@@ -314,13 +258,13 @@ public partial class JobDetails : System.Web.UI.Page
             //hdnJobId.Value = JobId;
 
 
-            if (linkedinjobdescriptionlength > 0 && lblDescripton.Text.Length > linkedinjobdescriptionlength)
+            if (linkedinjobdescriptionlength > 0 && ((Label)this.FindControlInDataTemplate("lblDescripton")).Text.Length > linkedinjobdescriptionlength)
             {
-                hdnLinkedInJobDescription.Value = lblDescripton.Text.Substring(0, linkedinjobtitlelength);
+                hdnLinkedInJobDescription.Value = ((Label)this.FindControlInDataTemplate("lblDescripton")).Text.Substring(0, linkedinjobtitlelength);
             }
             else
             {
-                hdnLinkedInJobDescription.Value = lblDescripton.Text;
+                hdnLinkedInJobDescription.Value = ((Label)this.FindControlInDataTemplate("lblDescripton")).Text;
             }
 
 
@@ -331,9 +275,15 @@ public partial class JobDetails : System.Web.UI.Page
         catch (Exception ex)
         {
             throw ex;
-        } 
-      
+        }
+
     }
+
+    #endregion
+
+    #endregion
+
+    #region Button Methods
 
     protected void Apply_Click(object sender, EventArgs e)
     {
@@ -341,63 +291,14 @@ public partial class JobDetails : System.Web.UI.Page
     }
 
     protected void Apply_Click_NoJS(object sender, EventArgs e)
-    {       
-        Response.Redirect(this.hApplyNow.Value);
-    }
-
-    protected void LnkAddJobCart_OnClick(object sender, EventArgs e)
     {
-        string GUID = "";
-        
-        HttpCookie MyCookie = Request.Cookies["JobCartID"];
-        if (MyCookie == null)
-        {
-            GUID = Convert.ToString(Guid.NewGuid());
-            MyCookie = new HttpCookie("JobCartID", GUID);
-            Response.Cookies.Add(MyCookie);
-        }
-        else
-        {
-            GUID = MyCookie.Value.ToString();
-        }
-        Jobs Jobs = new Jobs();
-        DataView DW = Jobs.AddJobCart(GUID, Request.QueryString["JobId"].ToString());
+        //Response.Redirect(this.hApplyNow.Value);
     }
 
-    protected void LnkRemoveJobCart_OnClick(object sender, EventArgs e)
-    {
-        string GUID = "";
-
-        HttpCookie MyCookie = Request.Cookies["JobCartID"];
-         if (MyCookie != null)
-        {
-            GUID = MyCookie.Value.ToString();
-        }
-        XmlDocument Document = new XmlDocument();
-        XmlElement Root, Element;
-
-        Root = Document.CreateElement("Root");
-        Document.AppendChild(Root);
-
-        Element = Document.CreateElement("JobCart");
-        Element.SetAttribute("JobID", Request.QueryString["JobId"].ToString());
-        Root.AppendChild(Element);
-
-
-        XmlDeclaration declaration = Document.CreateXmlDeclaration("1.0", "utf-8", null);
-        declaration.Encoding = "Windows-1252";
-        Document.InsertBefore(declaration, Document.DocumentElement);
-
-        Jobs Jobs = new Jobs();
-        DataView DW = Jobs.RemoveJobCart(GUID, Document.OuterXml);
-
-        Root.RemoveAll();
-        Document.RemoveAll();
-
-    }
+    
     protected void bsearchTop_Click(object sender, EventArgs e)
     {
-        Response.Redirect("Jobcart.aspx?SearchPage="+Request.QueryString["SearchPage"].ToString());
+        Response.Redirect("Jobcart.aspx?SearchPage=" + Request.QueryString["SearchPage"].ToString());
     }
 
     protected void applyTop_Click(object sender, EventArgs e)
@@ -413,139 +314,151 @@ public partial class JobDetails : System.Web.UI.Page
         Response.Redirect("Jobsearch.aspx?SearchPage=" + Request.QueryString["SearchPage"].ToString());
     }
 
-    protected void bttnAddToJobCart_Click(object sender, EventArgs e)
+    protected void btnAddToJobCart_Click(object sender, EventArgs e)
     {
-        string GUID = "";
-
-        HttpCookie MyCookie = Request.Cookies["JobCartID"];
-        if (MyCookie == null)
+        if (Cookie.WriteCookie(Cookie.JOB_CART_COOKIE_NAME, this.Request.QueryString["JobId"].ToString(), Cookie.WriteModes.Append))
         {
-            GUID = Convert.ToString(Guid.NewGuid());
-            MyCookie = new HttpCookie("JobCartID", GUID);
-            Response.Cookies.Add(MyCookie);
+            ((Button)this.FindControlInDataTemplate("btnAddToJobCart")).Visible = false;
+            ((Button)this.FindControlInDataTemplate("btnAddToCart")).Visible = false;
+            ((Button)this.FindControlInDataTemplate("btnRemoveFromJobCart")).Visible = true;
+            ((Button)this.FindControlInDataTemplate("btnRemoveFromCart")).Visible = true;
         }
-        else
-        {
-            GUID = MyCookie.Value.ToString();
-        }
-        Jobs Jobs = new Jobs();
-        DataView DW = Jobs.AddJobCart(GUID, Request.QueryString["JobId"].ToString());
-        //LnkAddJobCart.Visible = false;
-        //LnkAddJobCart_bottom.Visible = false;
-        //LnkRemoveFromJobCart.Visible = true;
-        //LnkRemoveFromJobCart_bottom.Visible = true;
-
-        bttnAddToJobCart.Visible = false;
-        btnAddToCart.Visible = false;
-
-        bttnRemoveFromJobCart.Visible = true;
-        btnRemoveFromCart.Visible = true;
-
     }
-    protected void bttnRemoveFromJobCart_Click(object sender, EventArgs e)
+
+    protected void btnRemoveFromJobCart_Click(object sender, EventArgs e)
     {
-        string GUID = "";
-
-        HttpCookie MyCookie = Request.Cookies["JobCartID"];
-        if (MyCookie != null)
+        if (Cookie.RemoveValueFromCookie(Cookie.JOB_CART_COOKIE_NAME, this.Request.QueryString["JobId"].ToString()))
         {
-            GUID = MyCookie.Value.ToString();
+            ((Button)this.FindControlInDataTemplate("btnAddToJobCart")).Visible = true;
+            ((Button)this.FindControlInDataTemplate("btnAddToCart")).Visible = true;
+            ((Button)this.FindControlInDataTemplate("btnRemoveFromJobCart")).Visible = false;
+            ((Button)this.FindControlInDataTemplate("btnRemoveFromCart")).Visible = false;
         }
-        XmlDocument Document = new XmlDocument();
-        XmlElement Root, Element;
-
-        Root = Document.CreateElement("Root");
-        Document.AppendChild(Root);
-
-        Element = Document.CreateElement("JobCart");
-        Element.SetAttribute("JobID", Request.QueryString["JobId"].ToString());
-        Root.AppendChild(Element);
-
-
-        XmlDeclaration declaration = Document.CreateXmlDeclaration("1.0", "utf-8", null);
-        declaration.Encoding = "Windows-1252";
-        Document.InsertBefore(declaration, Document.DocumentElement);
-
-        Jobs Jobs = new Jobs();
-        DataView DW = Jobs.RemoveJobCart(GUID, Document.OuterXml);
-
-        Root.RemoveAll();
-        Document.RemoveAll();
-
-        //LnkAddJobCart.Visible = true;
-        //LnkAddJobCart_bottom.Visible = true;
-        //LnkRemoveFromJobCart.Visible = false;
-        //LnkRemoveFromJobCart_bottom.Visible = false;
-
-        bttnAddToJobCart.Visible = true;
-        btnAddToCart.Visible = true;
-        bttnRemoveFromJobCart.Visible = false;
-        btnRemoveFromCart.Visible = false;
     }
-    protected void bttnApplyNow_Click(object sender, EventArgs e)
-    {       
-        Response.Redirect(ApplyURL);       
+    protected void btnApplyNow_Click(object sender, EventArgs e)
+    {
+        Response.Redirect(ApplyURL);
     }
 
-    protected void bttnTellAFriend_Click(object sender, EventArgs e)
+    protected void btnTellAFriend_Click(object sender, EventArgs e)
     {
         Response.Redirect("Tell_a_friend.aspx?JobId=" + Request.QueryString["JobId"].ToString() + "&SearchPage=" + Request.QueryString["SearchPage"].ToString());
     }
-    protected void bttnJobList_Click(object sender, EventArgs e)
-    {        
-		//Response.Redirect(bttnJobList.PostBackUrl);
+    protected void btnJobList_Click(object sender, EventArgs e)
+    {
+        //Response.Redirect(bttnJobList.PostBackUrl);
     }
 
-	private void prepbuttons()
-	{
-		returntoJobsearch.Attributes.Add("onfocus", "this.className='p-over';");
-		returntoJobsearch.Attributes.Add("onblur", "this.className='p';");
-        
+    #endregion
+
+    #region Helper Methods
+
+    private System.Web.UI.Control FindControlInDataTemplate(string id)
+    {
+        return this.jobDetails1.Controls[0].FindControl(id);
+    }
+
+    private void prepbuttons()
+    {
+        ((HyperLink)this.FindControlInDataTemplate("returntoJobsearch")).Attributes.Add("onfocus", "this.className='p-over';");
+        ((HyperLink)this.FindControlInDataTemplate("returntoJobsearch")).Attributes.Add("onblur", "this.className='p';");
+
         //not ready For Pro Yet!!
-        TellaFriend.Attributes.Add("onfocus", "this.className='p-over';");
-		TellaFriend.Attributes.Add("onblur", "this.className='p';");
+        ((HyperLink)this.FindControlInDataTemplate("TellaFriend")).Attributes.Add("onfocus", "this.className='p-over';");
+        ((HyperLink)this.FindControlInDataTemplate("TellaFriend")).Attributes.Add("onfocus", "this.className='p-over';");
+        ((HyperLink)this.FindControlInDataTemplate("TellaFriend")).Attributes.Add("onblur", "this.className='p';");
 
-		btnAddToCart.Attributes.Add("onfocus", "this.style.color='#0000FF';");
-		btnAddToCart.Attributes.Add("onblur", "this.style.color='#405EBE';");
-		btnAddToCart.Attributes.Add("onmouseover", "this.style.color='#0000FF';");
-		btnAddToCart.Attributes.Add("onmouseout", "this.style.color='#405EBE';");
-		btnAddToCart.Width = System.Web.UI.WebControls.Unit.Parse((btnAddToCart.Text.Length + 1).ToString() + "Ex");
+        ((Button)this.FindControlInDataTemplate("btnAddToCart")).Attributes.Add("onfocus", "this.style.color='#0000FF';");
+        ((Button)this.FindControlInDataTemplate("btnAddToCart")).Attributes.Add("onblur", "this.style.color='#405EBE';");
+        ((Button)this.FindControlInDataTemplate("btnAddToCart")).Attributes.Add("onmouseover", "this.style.color='#0000FF';");
+        ((Button)this.FindControlInDataTemplate("btnAddToCart")).Attributes.Add("onmouseout", "this.style.color='#405EBE';");
+        ((Button)this.FindControlInDataTemplate("btnAddToCart")).Width = System.Web.UI.WebControls.Unit.Parse(
+            (((Button)this.FindControlInDataTemplate("btnAddToCart")).Text.Length + 1).ToString() + "Ex");
 
-		btnRemoveFromCart.Attributes.Add("onfocus", "this.style.color='#0000FF';");
-		btnRemoveFromCart.Attributes.Add("onblur", "this.style.color='#405EBE';");
-		btnRemoveFromCart.Attributes.Add("onmouseover", "this.style.color='#0000FF';");
-		btnRemoveFromCart.Attributes.Add("onmouseout", "this.style.color='#405EBE';");
-		btnRemoveFromCart.Width = System.Web.UI.WebControls.Unit.Parse((btnRemoveFromCart.Text.Length + 3).ToString() + "Ex");
+        ((Button)this.FindControlInDataTemplate("btnRemoveFromCart")).Attributes.Add("onfocus", "this.style.color='#0000FF';");
+        ((Button)this.FindControlInDataTemplate("btnRemoveFromCart")).Attributes.Add("onblur", "this.style.color='#405EBE';");
+        ((Button)this.FindControlInDataTemplate("btnRemoveFromCart")).Attributes.Add("onmouseover", "this.style.color='#0000FF';");
+        ((Button)this.FindControlInDataTemplate("btnRemoveFromCart")).Attributes.Add("onmouseout", "this.style.color='#405EBE';");
+        ((Button)this.FindControlInDataTemplate("btnRemoveFromCart")).Width = System.Web.UI.WebControls.Unit.Parse(
+            (((Button)this.FindControlInDataTemplate("btnRemoveFromCart")).Text.Length + 3).ToString() + "Ex");
 
-		bsearch.Attributes.Add("onfocus", "this.style.color='#0000FF';");
-		bsearch.Attributes.Add("onblur", "this.style.color='#405EBE';");
-		bsearch.Attributes.Add("onmouseover", "this.style.color='#0000FF';");
-		bsearch.Attributes.Add("onmouseout", "this.style.color='#405EBE';");
-		bsearch.Width = System.Web.UI.WebControls.Unit.Parse((bsearch.Text.Length + 1).ToString() + "Ex");
+        ((Button)this.FindControlInDataTemplate("bsearch")).Attributes.Add("onfocus", "this.style.color='#0000FF';");
+        ((Button)this.FindControlInDataTemplate("bsearch")).Attributes.Add("onblur", "this.style.color='#405EBE';");
+        ((Button)this.FindControlInDataTemplate("bsearch")).Attributes.Add("onmouseover", "this.style.color='#0000FF';");
+        ((Button)this.FindControlInDataTemplate("bsearch")).Attributes.Add("onmouseout", "this.style.color='#405EBE';");
+        ((Button)this.FindControlInDataTemplate("bsearch")).Width = System.Web.UI.WebControls.Unit.Parse(
+            (((Button)this.FindControlInDataTemplate("bsearch")).Text.Length + 1).ToString() + "Ex");
 
-		bttnAddToJobCart.Attributes.Add("onfocus", "this.style.color='#0000FF';");
-		bttnAddToJobCart.Attributes.Add("onblur", "this.style.color='#405EBE';");
-		bttnAddToJobCart.Attributes.Add("onmouseover", "this.style.color='#0000FF';");
-		bttnAddToJobCart.Attributes.Add("onmouseout", "this.style.color='#405EBE';");
-		bttnAddToJobCart.Width = System.Web.UI.WebControls.Unit.Parse((bttnAddToJobCart.Text.Length + 1).ToString() + "Ex");
+        ((Button)this.FindControlInDataTemplate("btnAddToJobCart")).Attributes.Add("onfocus", "this.style.color='#0000FF';");
+        ((Button)this.FindControlInDataTemplate("btnAddToJobCart")).Attributes.Add("onblur", "this.style.color='#405EBE';");
+        ((Button)this.FindControlInDataTemplate("btnAddToJobCart")).Attributes.Add("onmouseover", "this.style.color='#0000FF';");
+        ((Button)this.FindControlInDataTemplate("btnAddToJobCart")).Attributes.Add("onmouseout", "this.style.color='#405EBE';");
+        ((Button)this.FindControlInDataTemplate("btnAddToJobCart")).Width = System.Web.UI.WebControls.Unit.Parse(
+            (((Button)this.FindControlInDataTemplate("btnAddToJobCart")).Text.Length + 1).ToString() + "Ex");
 
-		bttnRemoveFromJobCart.Attributes.Add("onfocus", "this.style.color='#0000FF';");
-		bttnRemoveFromJobCart.Attributes.Add("onblur", "this.style.color='#405EBE';");
-		bttnRemoveFromJobCart.Attributes.Add("onmouseover", "this.style.color='#0000FF';");
-		bttnRemoveFromJobCart.Attributes.Add("onmouseout", "this.style.color='#405EBE';");
-		bttnRemoveFromJobCart.Width = System.Web.UI.WebControls.Unit.Parse((bttnRemoveFromJobCart.Text.Length + 3).ToString() + "Ex");
+        ((Button)this.FindControlInDataTemplate("btnRemoveFromJobCart")).Attributes.Add("onfocus", "this.style.color='#0000FF';");
+        ((Button)this.FindControlInDataTemplate("btnRemoveFromJobCart")).Attributes.Add("onblur", "this.style.color='#405EBE';");
+        ((Button)this.FindControlInDataTemplate("btnRemoveFromJobCart")).Attributes.Add("onmouseover", "this.style.color='#0000FF';");
+        ((Button)this.FindControlInDataTemplate("btnRemoveFromJobCart")).Attributes.Add("onmouseout", "this.style.color='#405EBE';");
+        ((Button)this.FindControlInDataTemplate("btnRemoveFromJobCart")).Width = System.Web.UI.WebControls.Unit.Parse(
+            (((Button)this.FindControlInDataTemplate("btnRemoveFromJobCart")).Text.Length + 3).ToString() + "Ex");
 
-		bsearchTop.Attributes.Add("onfocus", "this.style.color='#0000FF';");
-		bsearchTop.Attributes.Add("onblur", "this.style.color='#405EBE';");
-		bsearchTop.Attributes.Add("onmouseover", "this.style.color='#0000FF';");
-		bsearchTop.Attributes.Add("onmouseout", "this.style.color='#405EBE';");
-		bsearchTop.Width = System.Web.UI.WebControls.Unit.Parse((bsearchTop.Text.Length + 1).ToString() + "Ex");
+        ((Button)this.FindControlInDataTemplate("bsearchTop")).Attributes.Add("onfocus", "this.style.color='#0000FF';");
+        ((Button)this.FindControlInDataTemplate("bsearchTop")).Attributes.Add("onblur", "this.style.color='#405EBE';");
+        ((Button)this.FindControlInDataTemplate("bsearchTop")).Attributes.Add("onmouseover", "this.style.color='#0000FF';");
+        ((Button)this.FindControlInDataTemplate("bsearchTop")).Attributes.Add("onmouseout", "this.style.color='#405EBE';");
+        ((Button)this.FindControlInDataTemplate("bsearchTop")).Width = System.Web.UI.WebControls.Unit.Parse(
+            (((Button)this.FindControlInDataTemplate("bsearchTop")).Text.Length + 1).ToString() + "Ex");
 
-		bttnRemoveFromJobCart.Visible = false;
-		btnRemoveFromCart.Visible = false;
+        ((Button)this.FindControlInDataTemplate("btnRemoveFromJobCart")).Visible = false;
+        ((Button)this.FindControlInDataTemplate("btnRemoveFromCart")).Visible = false;
 
-	}
-    
+    }
+
+    protected string CleanJobTitle(string jobTitle)
+    {
+        if (jobtitle != null)
+        {
+            jobtitle = jobtitle.Replace("&", "");
+            jobtitle = jobtitle.Replace("amp;", "");
+            jobtitle = jobtitle.Replace(",", "");
+            jobtitle = jobtitle.Replace(@"/", " ");
+            jobtitle = jobtitle.Replace(@"\", " ");
+            jobtitle = jobtitle.Replace(":", "");
+            jobtitle = jobtitle.Replace("*", "");
+            jobtitle = jobtitle.Replace("(", " ");
+            jobtitle = jobtitle.Replace(")", " ");
+            jobtitle = jobtitle.Replace("-", "");
+            jobtitle = jobtitle.Replace(".", "");
+            jobtitle = jobtitle.Replace("'", "");
+            jobtitle = jobtitle.Replace("&#44;", "_");
+            jobtitle = jobtitle.Replace(">", "");
+            jobtitle = jobtitle.Replace("<", "");
+            jobtitle = jobtitle.Replace("?", "");
+            jobtitle = jobtitle.Replace("&#63", "");
+        }
+        else { jobtitle = ""; }
+
+        return jobtitle;
+
+    }
+
+    protected void BuildCorremetrixProductTag(string JobId, string jobtitle)
+    {
+
+        string strScript = "";
+
+        strScript = "<script language='javascript1.1' type='text/javascript'>" + System.Environment.NewLine;
+        strScript += "//<!—" + System.Environment.NewLine;
+        strScript += "cmCreatePageviewTag('career:Prod:Job_Search;JobDetails', null, null, 'career:Prod:Job_Search', false, false, null, false, false, null, null, '|job_" + JobId + "|',null,null,null,null,null,'|job_" + JobId + "|-_--_--_--_--_--_--_--_--_--_--_--_--_--_-', null, null, null);" + System.Environment.NewLine;
+        strScript += "cmCreateProductviewTag('" + JobId + "','" + jobtitle + "', 'career:Job_Search', null, false, false, null, false, null, null, false, null);" + System.Environment.NewLine;
+        strScript += "//-->" + System.Environment.NewLine;
+        strScript += "</script>" + System.Environment.NewLine;
+        this.ltrlCorremetrixProductTag.Text = strScript;
+    }
+
+    #endregion
+
     #region :: PARSING BY LINKS AND WEB ENABLE THEM ::
     private string LinkBuilder(string sText, string sFieldName)
     {
@@ -588,11 +501,11 @@ public partial class JobDetails : System.Web.UI.Page
                     }
                     else
                     {
-                        if (iSpaceIndex > iDotIndex && iDotIndex != -1) 
+                        if (iSpaceIndex > iDotIndex && iDotIndex != -1)
                             iSpaceIndex = iDotIndex;
                     }
                 }
-                
+
                 sURL = sRight.Substring(0, iSpaceIndex).Trim();
                 strParsedText.Append("<a href='http");
                 strParsedText.Append(sURL);
@@ -625,7 +538,7 @@ public partial class JobDetails : System.Web.UI.Page
                     }
                     else
                     {
-                        if (iSpaceIndex > iDotIndex && iDotIndex != -1) 
+                        if (iSpaceIndex > iDotIndex && iDotIndex != -1)
                             iSpaceIndex = iDotIndex;
                     }
                 }
@@ -641,7 +554,7 @@ public partial class JobDetails : System.Web.UI.Page
         }
         else
             strWWWText.Append(sText);
-            return strWWWText.ToString();
+        return strWWWText.ToString();
         //return sParsedText;
     }
     #endregion
@@ -684,6 +597,39 @@ public partial class JobDetails : System.Web.UI.Page
         }
         return final;
     }
-    #endregion
 
+    protected string GetCustomFieldValue(List<CareerSiteWebControls.CustomField> lstCustomFields, string customFieldTagValue)
+    {
+        CareerSiteSettings cs = Utility.GetCareerSiteSettings();
+
+        try
+        {
+            // Get Question ID value for "Location Detail" custom field
+            int intCustomFieldId = cs.RetrieveTagValueQuestionId(customFieldTagValue);
+
+            // Loop through the custom field list looking for the custom field
+            // when found return the Answer text for it
+            foreach (CareerSiteWebControls.CustomField cf in lstCustomFields)
+            {
+                if (intCustomFieldId == cf.QuestionId)
+                {
+                    // Get LocationDetail value
+                    string strLocationDetail = cf.AnswerText;
+
+                    // Return LocationDetail value
+                    return strLocationDetail;
+                }
+            }
+        }
+        catch (Exception ex)
+        {
+            Utility.HandleException(ex);
+        }
+
+        return "";
+    }
+
+    
+
+    #endregion
 }

@@ -1,4 +1,4 @@
-<%@ Page AutoEventWireup="true" CodeFile="Jobcart.aspx.cs" Inherits="Jobcart" Language="C#" 
+<%@ Page AutoEventWireup="true" CodeFile="JobcartOld.aspx.cs" Inherits="JobcartOld" Language="C#" 
     MasterPageFile="~/BOAmaster.master"  ValidateRequest="false" EnableEventValidation="false" %>
 
 <asp:Content ID="Content1" runat="Server" ContentPlaceHolderID="cphmain">
@@ -48,10 +48,16 @@ Apply Now. You are encouraged to complete this online application, however if yo
                                 <HeaderStyle BackColor="#EAF1F7" />
                                 <Columns>
                                     <asp:HyperLinkField DataNavigateUrlFields="JobsID,CountryID" DataNavigateUrlFormatString="JobDetails.aspx?SearchPage=Sp&amp;JobId={0}&amp;CountryID={1}"
-                                        DataTextField="JobTitle" HeaderText="Job name">
+                                        DataTextField="Title" HeaderText="Job name">
                                         <HeaderStyle HorizontalAlign="Left" />
                                     </asp:HyperLinkField>
                                     
+                                    <asp:TemplateField HeaderText="Location" HeaderStyle-HorizontalAlign="Left">
+                                        <ItemTemplate>
+                                            <%# Eval("Country").ToString().ToUpper() + "-" + Eval("State").ToString().ToUpper() + "-" + Eval("City").ToString() %>
+                                        </ItemTemplate>
+                                    </asp:TemplateField>
+
                                     <asp:BoundField DataField="Location" HeaderText="Location">
                                         <HeaderStyle HorizontalAlign="Left" />
                                     </asp:BoundField>
