@@ -200,7 +200,7 @@ Begin your career search by selecting a country.  You may then narrow your searc
 							<td width="<%=jwdt%>" valign="top" style="padding: 6px 0px 0px 0px;">
 <script language="JavaScript" type="text/javascript">
 <!--
-    create_safebutton("<%=begin%>", "javascript:ValidZipCode();", 0, 0, 0, 0, "<%=begin%>");
+    create_safebutton("<%=begin%>", "javascript:ValidateForm();", 0, 0, 0, 0, "<%=begin%>");
 //-->
 </script>
 <noscript><input type="submit" name="bsearch" value="<%=begin%>" alt="<%=begin%>" title="<%=begin%>" class="btn"/></noscript>
@@ -230,6 +230,15 @@ Bank of America associates should access the <a href="http://myhrtools.bankofame
 
 <script language='javascript1.1' type='text/javascript'>
     //<!—
+
+    function ValidateForm()
+    {
+        if (ValidZipCode())
+        {
+            _submit();
+        }
+    }
+
     function ValidZipCode() {
 
         if (document.getElementById("ddlRadius").selectedIndex > 0) {
@@ -237,9 +246,37 @@ Bank of America associates should access the <a href="http://myhrtools.bankofame
             if (document.getElementById("txtZipCode").value == "") {
                 alert("Zip Code cannot be empty if you are searching by radius/distance.");
                 document.getElementById("txtZipCode").focus();
+                return false;
             }
-            else _submit();
+            //return true;
         }
-        else _submit();
+        if (document.getElementById("txtZipCode").value != "") {
+
+            if (document.getElementById("ddlRadius").selectedIndex == 0) {
+                alert("Please select a distance (miles) from Zip Code value.");
+                document.getElementById("ddlRadius").focus();
+                return false;
+            }
+            if (document.getElementById("txtZipCode").value.length < 5) {
+                alert("Zip Code cannot be less than five digits.");
+                document.getElementById("txtZipCode").focus();
+                return false;
+            }
+            //return true;
+
+        }
+        return true;
+
+    }
+
+    function onlyNumbers(evt) {
+        var e = event || evt; // for trans-browser compatibility
+        var charCode = e.which || e.keyCode;
+
+        if (charCode > 31 && (charCode < 48 || charCode > 57))
+            return false;
+
+        return true;
+
     }
         </script>

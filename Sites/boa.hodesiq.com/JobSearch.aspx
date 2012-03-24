@@ -113,13 +113,6 @@
                                 <asp:Label ID="lblZipCode" runat="server" Text="Zip Code" AssociatedControlID="txtZipCode"></asp:Label><br />
 								<asp:TextBox ID="txtZipCode" runat="server" CssClass="left" Style="width: 90%; size: 20"
 								    ToolTip="Zip Code" ></asp:TextBox>
-                                    <br>
-                                    <asp:RegularExpressionValidator id="RegularExpressionValidator1" runat="server"
-                                   ControlToValidate="txtZipCode"
-                                   ErrorMessage="Zip Code must be numeric and at least 5 digits in length" 
-                                   ValidationExpression="[0-9]{5}" />
-
-								
 							</td>
 						</tr>
 						<tr id="trDatepostedShifts" runat="server">

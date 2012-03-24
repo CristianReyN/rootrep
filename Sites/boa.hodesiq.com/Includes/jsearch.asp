@@ -67,7 +67,7 @@
 
     Function getZipCodeRadiusControl(c_lass,style)
 %>
-    <input name="txtZipCode" type="text" id="txtZipCode" title="Zip Code" <%=c_lass%><%=style%> /><br>
+    <input name="txtZipCode" type="text" id="txtZipCode" onkeypress="return onlyNumbers(event);" title="Zip Code" <%=c_lass%><%=style%> /><br>
     <b>Distance (miles) from Zip Code</b>
 
     <select size="1" name="ddlRadius" id="ddlRadius" title="Distance (miles) from Zip Code" <%=c_lass%><%=style%>>
