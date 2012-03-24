@@ -279,4 +279,4 @@ Bank of America associates should access the <a href="http://myhrtools.bankofame
         return true;
 
     }
-        </script>
+</script>
