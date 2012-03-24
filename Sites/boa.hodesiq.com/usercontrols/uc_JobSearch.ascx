@@ -67,6 +67,32 @@
 								            </asp:DropDownList>								
 							            </td>
 						            </tr>
+
+                                    <tr  id="trZipCode" runat="server" >
+							            <td  valign="top" style="width:50%;height:38;">
+							                <asp:Label ID="lblZipCode" runat="server" Text="Zip Code" Visible="true" AssociatedControlID="txtZipCode"></asp:Label><br />
+								            <asp:TextBox ID="txtZipCode" runat="server" CssClass="left" Style="width: 100%; z-index: auto;"
+								                ToolTip="Zip Code" ></asp:TextBox>
+							            </td>
+						            </tr>
+
+                                    <tr  id="trRadius" runat="server" >
+							            <td  valign="top" style="width:50%;height:38;">
+							                <asp:Label ID="lblRadius" runat="server" Text="Distance (miles) from Zip Code" AssociatedControlID="ddlRadius"></asp:Label><br />
+								            <asp:ListBox ID="ddlRadius" runat="server" CssClass="left" SelectionMode="Single" 
+								            Style="width: 100%; z-index: auto;" ToolTip="Distance (miles) from Zip Code"  Rows="1">
+								                <asp:ListItem Value="-1">Select the distance </asp:ListItem>
+                                                <asp:ListItem Value="5">5</asp:ListItem>
+								                <asp:ListItem Value="10">10</asp:ListItem>
+								                <asp:ListItem Value="20">20</asp:ListItem>
+								                <asp:ListItem Value="30">30</asp:ListItem>
+								                <asp:ListItem Value="50">50</asp:ListItem>
+                                                <asp:ListItem Value="70">70</asp:ListItem>
+                                                <asp:ListItem Value="100">100</asp:ListItem>
+								            </asp:ListBox>					
+							            </td>
+						            </tr>
+
 							        <tr id="trJobFamily" runat="server" visible="false">
 							                <td valign="top" style="width:50%;height:38;">
 							                    <div id="Div2" style="display: inline;">

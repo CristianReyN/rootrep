@@ -336,4 +336,215 @@ public class Utility
 
         return selectedItems;
     }
+
+    protected static String GetAppSettings(string key)
+    {
+        return System.Configuration.ConfigurationManager.AppSettings[key].ToString();
+    }
+
+    public static void PopulateJobAreasFromIQ(DropDownList ddlJobAreas, string selVal)
+    {
+        /*if (!IsPostBack)
+        {
+            selVal = String.IsNullOrEmpty(Request.QueryString["jobareas"]) == false ? string.IsNullOrEmpty(this.ddlJobAreas.SelectedValue) ? Request.QueryString["jobareas"] : this.ddlJobAreas.SelectedValue : this.ddlJobAreas.SelectedValue;
+        }
+        else
+        {
+            selVal = ViewState["jobareas"] == null ? "" : ViewState["jobareas"].ToString();
+        }
+         */
+        ddlJobAreas.Items.Clear();
+
+        ListItem l = new ListItem("none", string.Empty);
+
+        ddlJobAreas.Items.Insert(0, l);
+
+        //ADMINISTRATION
+
+        String aot = GetAppSettings("aotAdministration");
+
+        ListItem li = new ListItem("All Administration", aot + "|-1");
+        li.Attributes["OptionGroup"] = "Adminstration";
+        ddlJobAreas.Items.Add(li);
+
+        ListItem li2 = new ListItem("Change Mgmt & Process", aot + "|" + GetAppSettings("famChangeMgmtProcess"));
+        li2.Attributes["OptionGroup"] = "Adminstration";
+        ddlJobAreas.Items.Add(li2);
+
+        ListItem li3 = new ListItem("Corporate Executive", aot + "|" + GetAppSettings("famCorporateExecutive"));
+        li3.Attributes["OptionGroup"] = "Adminstration";
+        ddlJobAreas.Items.Add(li3);
+
+        ListItem li4 = new ListItem("Legal", aot + "|" + GetAppSettings("famLegal"));
+        li4.Attributes["OptionGroup"] = "Adminstration";
+        ddlJobAreas.Items.Add(li4);
+
+        ListItem li5 = new ListItem("Services", aot + "|" + GetAppSettings("famServices"));
+        li5.Attributes["OptionGroup"] = "Adminstration";
+        ddlJobAreas.Items.Add(li5);
+
+        //CFO GROUP
+
+        aot = GetAppSettings("aotCFOGroupFinance");
+
+        ListItem li6 = new ListItem("All CFO Group/Finance", aot + "|-1");
+        li6.Attributes["OptionGroup"] = "CFO Group/Finance";
+        ddlJobAreas.Items.Add(li6);
+
+        ListItem li7 = new ListItem("Credit", aot + "|" + GetAppSettings("famCredit"));
+        li7.Attributes["OptionGroup"] = "CFO Group/Finance";
+        ddlJobAreas.Items.Add(li7);
+
+        ListItem li8 = new ListItem("Investment Banking", aot + "|" + GetAppSettings("famInvestmentBanking"));
+        li8.Attributes["OptionGroup"] = "CFO Group/Finance";
+        ddlJobAreas.Items.Add(li8);
+
+        ListItem li9 = new ListItem("Wealth & Investment Mgmt", aot + "|" + GetAppSettings("famWealthInvestmentMgmt"));
+        li9.Attributes["OptionGroup"] = "CFO Group/Finance";
+        ddlJobAreas.Items.Add(li9);
+
+        //COMMUNICATIONS
+
+        aot = GetAppSettings("aotCommunications");
+
+        ListItem li11 = new ListItem("All Communications", aot + "|-1");
+        li11.Attributes["OptionGroup"] = "Communications";
+        ddlJobAreas.Items.Add(li11);
+
+        ListItem li12 = new ListItem("Marketing", aot + "|" + GetAppSettings("famMarketing"));
+        li12.Attributes["OptionGroup"] = "Communications";
+        ddlJobAreas.Items.Add(li12);
+
+
+        //CONSUMER BANKING
+
+        aot = GetAppSettings("aotConsumerBanking");
+
+        ListItem li13 = new ListItem("All Consumer Banking", aot + "|-1");
+        li13.Attributes["OptionGroup"] = "Consumer Banking";
+        ddlJobAreas.Items.Add(li13);
+
+
+        //CUSTOMER CARE
+
+        aot = GetAppSettings("aotCustomerCare");
+
+        ListItem li14 = new ListItem("All Customer Care", aot + "|-1");
+        li14.Attributes["OptionGroup"] = "Customer Care";
+        ddlJobAreas.Items.Add(li14);
+
+        ListItem li15 = new ListItem("Credit", aot + "|" + GetAppSettings("famCredit"));
+        li15.Attributes["OptionGroup"] = "Customer Care";
+        ddlJobAreas.Items.Add(li15);
+
+        ListItem li16 = new ListItem("Customer Service", aot + "|" + GetAppSettings("famCustomerService"));
+        li16.Attributes["OptionGroup"] = "Customer Care";
+        ddlJobAreas.Items.Add(li16);
+
+        ListItem li17 = new ListItem("Relationship Management", aot + "|" + GetAppSettings("famRelationshipManagement"));
+        li17.Attributes["OptionGroup"] = "Customer Care";
+        ddlJobAreas.Items.Add(li17);
+
+        ListItem li18 = new ListItem("Sales", aot + "|" + GetAppSettings("famSales"));
+        li18.Attributes["OptionGroup"] = "Customer Care";
+        ddlJobAreas.Items.Add(li18);
+
+        //FINANCIAL ADVISOR
+
+        aot = GetAppSettings("aotFinancialAdvisor");
+
+        ListItem li19 = new ListItem("All Financials Advisor", aot + "|-1");
+        li19.Attributes["OptionGroup"] = "Financial Advisor";
+        ddlJobAreas.Items.Add(li19);
+
+        //HUMAN RESUORCES
+
+        aot = GetAppSettings("aotHumanResources");
+
+        ListItem li20 = new ListItem("All Human Resources", aot + "|-1");
+        li20.Attributes["OptionGroup"] = "Human Resources";
+        ddlJobAreas.Items.Add(li20);
+
+
+        //MORTGAGES
+
+        aot = GetAppSettings("aotMortgage");
+
+        ListItem li21 = new ListItem("All Mortgage", aot + "|-1");
+        li21.Attributes["OptionGroup"] = "Mortgage";
+        ddlJobAreas.Items.Add(li21);
+
+        //OPERATIONS
+
+        aot = GetAppSettings("aotOperations");
+
+        ListItem li22 = new ListItem("All Operations", aot + "|-1");
+        li22.Attributes["OptionGroup"] = "Operations";
+        ddlJobAreas.Items.Add(li22);
+
+        ListItem li23 = new ListItem("Change Mgmt & Process", aot + "|" + GetAppSettings("famChangeMgmtProcess"));
+        li23.Attributes["OptionGroup"] = "Operations";
+        ddlJobAreas.Items.Add(li23);
+
+        ListItem li24 = new ListItem("Corporate Workplace", aot + "|" + GetAppSettings("famCorporateWorkplace"));
+        li24.Attributes["OptionGroup"] = "Operations";
+        ddlJobAreas.Items.Add(li24);
+
+        ListItem li25 = new ListItem("Legal", aot + "|" + GetAppSettings("famLegal"));
+        li25.Attributes["OptionGroup"] = "Operations";
+        ddlJobAreas.Items.Add(li25);
+
+        ListItem li26 = new ListItem("Services", aot + "|" + GetAppSettings("famServices"));
+        li26.Attributes["OptionGroup"] = "Operations";
+        ddlJobAreas.Items.Add(li26);
+
+        //RISK EVALUATION
+
+        aot = GetAppSettings("aotRiskEvaluation");
+
+        ListItem li27 = new ListItem("All Risk Evaluation", aot + "|-1");
+        li27.Attributes["OptionGroup"] = "Risk Evaluation";
+        ddlJobAreas.Items.Add(li27);
+
+        ListItem li28 = new ListItem("Credit", aot + "|" + GetAppSettings("famCredit"));
+        li28.Attributes["OptionGroup"] = "Risk Evaluation";
+        ddlJobAreas.Items.Add(li28);
+
+        ListItem li29 = new ListItem("Risk Management", aot + "|" + GetAppSettings("famRiskManagement"));
+        li29.Attributes["OptionGroup"] = "Risk Evaluation";
+        ddlJobAreas.Items.Add(li29);
+
+        //SALES
+
+        aot = GetAppSettings("aotSales");
+
+        ListItem li30 = new ListItem("All Sales", aot + "|-1");
+        li30.Attributes["OptionGroup"] = "Sales";
+        ddlJobAreas.Items.Add(li30);
+
+        ListItem li31 = new ListItem("Consumer Banking", aot + "|" + GetAppSettings("famConsumerBanking"));
+        li31.Attributes["OptionGroup"] = "Risk Evaluation";
+        ddlJobAreas.Items.Add(li31);
+
+        //TECHNOLOGY
+
+        aot = GetAppSettings("aotTechnology");
+
+        ListItem li32 = new ListItem("All Technology", aot + "|-1");
+        li32.Attributes["OptionGroup"] = "Technology";
+        ddlJobAreas.Items.Add(li32);
+
+        ListItem li33 = new ListItem("Corporate Workplace", aot + "|" + GetAppSettings("famCorporateWorkplace"));
+        li33.Attributes["OptionGroup"] = "Technology";
+        ddlJobAreas.Items.Add(li33);
+
+
+        ListItem myListItem = new ListItem();
+        myListItem = ddlJobAreas.Items.FindByValue(selVal);
+
+        if (myListItem != null)
+            myListItem.Selected = true;
+
+        //return ddlJobAreas;
+    }
 }

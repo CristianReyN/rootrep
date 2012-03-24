@@ -76,7 +76,20 @@ public partial class uc_JobSearch : System.Web.UI.UserControl
         }
 
         ViewState["jobareas"] = ddlJobAreas.SelectedValue;
-        PopulateJobAreas();
+
+
+        //this needs to be done before calling PopulateJobAreasFromIQ()
+        string selVal;
+        if (!IsPostBack)
+        {
+            selVal = String.IsNullOrEmpty(Request.QueryString["jobareas"]) == false ? string.IsNullOrEmpty(this.ddlJobAreas.SelectedValue) ? Request.QueryString["jobareas"] : this.ddlJobAreas.SelectedValue : this.ddlJobAreas.SelectedValue;
+        }
+        else
+        {
+            selVal = ViewState["jobareas"] == null ? "" : ViewState["jobareas"].ToString();
+        }
+
+        Utility.PopulateJobAreasFromIQ(ddlJobAreas, selVal);
 
         UpdateControls();
         CountryHidden.Value = Country.SelectedValue;
@@ -103,6 +116,8 @@ public partial class uc_JobSearch : System.Web.UI.UserControl
         string keyword = keywords.Text;
         string jobareas = trJobArea.Visible ? ddlJobAreas.SelectedValue : "";
         string jobfamilyid = trJobFamily.Visible ? ddlJobFamily.SelectedValue : "";
+        string zipCode = txtZipCode.Text;
+        string radius = ddlRadius.SelectedValue;
 
         //BOAFeedname should be blank unless it is canada and french pages
         if (countryid != Location.CANADA)
@@ -110,10 +125,8 @@ public partial class uc_JobSearch : System.Web.UI.UserControl
             BOAFeedName = "";
         }
 
-        string url = "~/JobSearch.aspx?countryid=" + countryid + "&stateid=" + stateid + "&cityid=" + cityid + "&internationalcityid=" + internationcityid;
+        string url = "~/JobSearch.aspx?countryid=" + countryid + "&stateid=" + stateid + "&cityid=" + cityid + "&txtZipCode=" + zipCode + "&ddlRadius=" + radius + "&internationalcityid=" + internationcityid;
         url = url + "&keywords=" + keyword + "&jobareas=" + jobareas + "&jobfamilyid=" + jobfamilyid + "&BOAFeedName=" + BOAFeedName;
-
-
 
         Response.Redirect(url);
     }
@@ -234,6 +247,11 @@ public partial class uc_JobSearch : System.Web.UI.UserControl
 
         if (myListItem != null)
             myListItem.Selected = true;
+    }
+
+    protected String GetAppSettings(string key)
+    {
+        return System.Configuration.ConfigurationManager.AppSettings[key].ToString();
     }
 
 
@@ -434,7 +452,19 @@ public partial class uc_JobSearch : System.Web.UI.UserControl
         Country.AutoPostBack = false;
 
         ViewState["jobareas"] = ddlJobAreas.SelectedValue;
-        PopulateJobAreas();
+
+        //this needs to be done before calling PopulateJobAreasFromIQ()
+        string selVal;
+        if (!IsPostBack)
+        {
+            selVal = String.IsNullOrEmpty(Request.QueryString["jobareas"]) == false ? string.IsNullOrEmpty(this.ddlJobAreas.SelectedValue) ? Request.QueryString["jobareas"] : this.ddlJobAreas.SelectedValue : this.ddlJobAreas.SelectedValue;
+        }
+        else
+        {
+            selVal = ViewState["jobareas"] == null ? "" : ViewState["jobareas"].ToString();
+        }
+
+        Utility.PopulateJobAreasFromIQ(ddlJobAreas, selVal);
 
         UpdateControls();
         CountryHidden.Value = strCountry;

@@ -1,94 +1,89 @@
 <%
 	Function getJobAreasSelect(c_lass,style)
 %>
-<select name="jobareas" id="jobareas" title="Select a Job Area"<%=c_lass%><%=style%>>
-	<option value=""<%If jobareas="" Then Response.write " selected"%>>Select a job area</option>
-<optgroup label="Administration">
-	<option value="1|-1"<%If jobareas="1|-1" Then Response.write " selected"%>>All Administration</option>
-	<option value="1|4"<%If jobareas="1|4" Then Response.write " selected"%>>Change Mgmt &amp; Process</option>
-	<option value="1|2"<%If jobareas="1|2" Then Response.write " selected"%>>Corporate Executive</option>
-	<option value="1|5"<%If jobareas="1|5" Then Response.write " selected"%>>Legal</option>
-	<option value="1|6"<%If jobareas="1|6" Then Response.write " selected"%>>Services</option>
-</optgroup>
+<select name="jobareas" id="Select1" title="Select a Job Area"<%=c_lass%><%=style%>>
+			<option value="" selected="selected">none</option>
+			<optgroup label="Adminstration">
+			<option value="230596|-1">All Administration</option>
+			<option value="230596|230621">Change Mgmt &amp; Process</option>
+			<option value="230596|230629">Corporate Executive</option>
+			<option value="230596|230619">Legal</option>
+			<option value="230596|230617">Services</option>
+			</optgroup>
+			<optgroup label="CFO Group/Finance">
+			<option value="230599|-1">All CFO Group/Finance</option>
+			<option value="230599|230611">Credit</option>
+			<option value="230599|230616">Investment Banking</option>
+			<option value="230599|230628">Wealth &amp; Investment Mgmt</option>
+			</optgroup>
+			<optgroup label="Communications">
+			<option value="230598|-1">All Communications</option>
+			<option value="230598|230620">Marketing</option>
+			</optgroup>
+			<optgroup label="Consumer Banking">
+			<option value="230605|-1">All Consumer Banking</option>
+			</optgroup>
+			<optgroup label="Customer Care">
+			<option value="230597|-1">All Customer Care</option>
+			<option value="230597|230611">Credit</option>
+			<option value="230597|230610">Customer Service</option>
+			<option value="230597|230609">Relationship Management</option>
+			<option value="230597|230625">Sales</option>
+			</optgroup>
+			<optgroup label="Financial Advisor">
+			<option value="230607|-1">All Financials Advisor</option>
+			</optgroup>
+			<optgroup label="Human Resources">
+			<option value="230600|-1">All Human Resources</option>
+			</optgroup>
+			<optgroup label="Mortgage">
+			<option value="230606|-1">All Mortgage</option>
+			</optgroup>
+			<optgroup label="Operations">
+			<option value="230601|-1">All Operations</option>
+			<option value="230601|230621">Change Mgmt &amp; Process</option>
+			<option value="230601|230614">Corporate Workplace</option>
+			<option value="230601|230619">Legal</option>
+			<option value="230601|230617">Services</option>
+			</optgroup>
+			<optgroup label="Risk Evaluation">
+			<option value="230602|-1">All Risk Evaluation</option>
+			<option value="230602|230611">Credit</option>
+			<option value="230602|230630">Risk Management</option>
+			</optgroup>
+			<optgroup label="Sales">
+			<option value="230603|-1">All Sales</option>
+			<option value="230603|230624">Consumer Banking</option>
+			</optgroup>
+			<optgroup label="Technology">
+			<option value="230604|-1">All Technology</option>
+			<option value="230604|230614">Corporate Workplace</option>
+			</optgroup>
 
-<optgroup label="CFO Group/Finance">
-	<option value="4|-1"<%If jobareas="4|-1" Then Response.write " selected"%>>All CFO Group/Finance</option>
-	<option value="4|13"<%If jobareas="4|13" Then Response.write " selected"%>>Credit</option>
-	<option value="4|14"<%If jobareas="4|14" Then Response.write " selected"%>>Investment Banking</option>
-	<option value="4|15"<%If jobareas="4|15" Then Response.write " selected"%>>Wealth &amp; Investment Mgmt</option>
-</optgroup>
+		</select>
 
-<optgroup label="Communications">
-	<option value="3|-1"<%If jobareas="3|-1" Then Response.write " selected"%>>All Communications</option>
-	<option value="3|11"<%If jobareas="3|11" Then Response.write " selected"%>>Marketing</option>
-</optgroup>
-
-<optgroup label="Consumer Banking">
-	<option value="10|-1"<%If jobareas="10|-1" Then Response.write " selected"%>>All Consumer Banking</option>
-</optgroup>
-<% If false Then %>
-<optgroup label="Corporate Workplace">
-	<option value="11|-1"<%If jobareas="11|-1" Then Response.write " selected"%>>All Corporate Workplace</option>
-</optgroup>
-<% End If %>
-<optgroup label="Customer Care">
-	<option value="2|-1"<%If jobareas="2|-1" Then Response.write " selected"%>>All Customer Care</option>
-	<option value="2|13"<%If jobareas="2|13" Then Response.write " selected"%>>Credit</option>
-	<option value="2|9"<%If jobareas="2|9" Then Response.write " selected"%>>Customer Service</option>
-	<option value="2|8"<%If jobareas="2|8" Then Response.write " selected"%>>Relationship Management</option>
-	<option value="2|19"<%If jobareas="2|19" Then Response.write " selected"%>>Sales</option>
-</optgroup>
-
-<optgroup label="Financial Advisor">
-	<option value="13|-1"<%If jobareas="13|-1" Then Response.write " selected"%>>All Financial Advisor</option>
-</optgroup>
-
-<optgroup label="Human Resources">
-	<option value="5|-1"<%If jobareas="5|-1" Then Response.write " selected"%>>All Human Resources</option>
-</optgroup>
-
-<optgroup label="Mortgage ">
-	<option value="12|-1"<%If jobareas="12|-1" Then Response.write " selected"%>>All Mortgage</option>
-<% If false Then %>
-	<option value="12|13"<%If jobareas="12|13" Then Response.write " selected"%>>Credit</option>
-	<option value="12|9"<%If jobareas="12|9" Then Response.write " selected"%>>Customer Service</option>
-	<option value="12|11"<%If jobareas="12|11" Then Response.write " selected"%>>Marketing</option>
-	<option value="12|17"<%If jobareas="12|17" Then Response.write " selected"%>>Operations</option>
-	<option value="12|8"<%If jobareas="12|8" Then Response.write " selected"%>>Relationship Management</option>
-	<option value="12|18"<%If jobareas="12|18" Then Response.write " selected"%>>Risk Evaluation</option>
-	<option value="12|19"<%If jobareas="12|19" Then Response.write " selected"%>>Sales</option>
-	<option value="12|21"<%If jobareas="12|21" Then Response.write " selected"%>>Technology</option>
-<% End If %>
-</optgroup>
-
-<optgroup label="Operations">
-	<option value="6|17"<%If jobareas="6|17" Then Response.write " selected"%>>All Operations</option>
-	<option value="6|4"<%If jobareas="6|4" Then Response.write " selected"%>>Change Mgmt &amp; Process</option>
-	<option value="6|3"<%If jobareas="6|3" Then Response.write " selected"%>>Corporate Workplace</option>
-	<option value="6|5"<%If jobareas="6|5" Then Response.write " selected"%>>Legal</option>
-	<option value="6|6"<%If jobareas="6|6" Then Response.write " selected"%>>Services</option>
-</optgroup>
-
-<optgroup label="Risk Evaluation">
-	<option value="7|-1"<%If jobareas="7|-1" Then Response.write " selected"%>>All Risk Evaluation</option>
-	<option value="7|13"<%If jobareas="7|13" Then Response.write " selected"%>>Credit</option>
-</optgroup>
-
-<optgroup label="Sales">
-	<option value="8|-1"<%If jobareas="8|-1" Then Response.write " selected"%>>All Sales</option>
-	<option value="8|20"<%If jobareas="8|20" Then Response.write " selected"%>>Consumer Banking</option>
-</optgroup>
-
-<optgroup label="Technology">
-	<option value="9|-1"<%If jobareas="9|-1" Then Response.write " selected"%>>All Technology</option>
-	<option value="9|3"<%If jobareas="9|3" Then Response.write " selected"%>>Corporate Workplace</option>
-</optgroup>
-
-</select>
 <%
 	End Function
-	
-	
+
+    Function getZipCodeRadiusControl(c_lass,style)
+%>
+    <input name="txtZipCode" type="text" id="txtZipCode" title="Zip Code" <%=c_lass%><%=style%> /><br>
+    <b>Distance (miles) from Zip Code</b>
+
+    <select size="1" name="ddlRadius" id="ddlRadius" title="Distance (miles) from Zip Code" <%=c_lass%><%=style%>>
+			<option value="-1">Select the distance </option>
+			<option value="5">5</option>
+			<option value="10">10</option>
+			<option value="20">20</option>
+			<option value="30">30</option>
+			<option value="50">50</option>
+			<option value="70">70</option>
+			<option value="100">100</option>
+		</select>
+    
+<%
+    End Function
+    	
 	Function getStateSelect(c_lass,style)
 %>
 <select name="stateid" id="stateid" title="Select a State"<%=c_lass%><%=style%>>

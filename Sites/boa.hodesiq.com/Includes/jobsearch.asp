@@ -150,6 +150,20 @@ Begin your career search by selecting a country.  You may then narrow your searc
 </div>
 							</td>
 						</tr>
+
+<tr style="<%=display%>">
+							<td width="<%=jwdt%>" nowrap style="padding: 0px 0px 0px 0px;">
+<label for="cityid" class="p" style="margin: 0px;"><b>Zip Code</b></label><br>
+<div id="Div1" style="position: relative; z-index: 12;">
+<% 
+	call getZipCodeRadiusControl(""," style=""position: relative; width: 100%; z-index: auto;"&display&"""")
+%>
+</div>
+							</td>
+						</tr>
+
+
+
 						<tr style="<%=display%>">
 							<td width="<%=jwdt%>" nowrap style="padding: 0px 0px 0px 0px;">
 <label for="<% If countryid = "1" Then%>jobareas<% Else %>jobfamilyid<% End If %>" class="p" style="margin: 0px;"><b><%If countryid = "1" Then%>Job areas<%Else%>Job Family<%End If%></b></label><br>
@@ -186,7 +200,7 @@ Begin your career search by selecting a country.  You may then narrow your searc
 							<td width="<%=jwdt%>" valign="top" style="padding: 6px 0px 0px 0px;">
 <script language="JavaScript" type="text/javascript">
 <!--
-create_safebutton("<%=begin%>","javascript: _submit();",0,0,0,0,"<%=begin%>");
+    create_safebutton("<%=begin%>", "javascript:ValidZipCode();", 0, 0, 0, 0, "<%=begin%>");
 //-->
 </script>
 <noscript><input type="submit" name="bsearch" value="<%=begin%>" alt="<%=begin%>" title="<%=begin%>" class="btn"/></noscript>
@@ -213,3 +227,19 @@ Bank of America associates should access the <a href="http://myhrtools.bankofame
 						</tr>
 					</table>
 </form>
+
+<script language='javascript1.1' type='text/javascript'>
+    //<!—
+    function ValidZipCode() {
+
+        if (document.getElementById("ddlRadius").selectedIndex > 0) {
+
+            if (document.getElementById("txtZipCode").value == "") {
+                alert("Zip Code cannot be empty if you are searching by radius/distance.");
+                document.getElementById("txtZipCode").focus();
+            }
+            else _submit();
+        }
+        else _submit();
+    }
+        </script>

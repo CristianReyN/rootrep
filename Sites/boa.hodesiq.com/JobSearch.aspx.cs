@@ -140,18 +140,35 @@ namespace BOA
             }
             else
             {
+                // Save view state for sort and page position
+                LoadViewState();  // get any pre-existing sort order
 
                 if (ViewState["BOAFeedName"] != null)
                 {
                     BOAFeedName = ViewState["BOAFeedName"].ToString();
                 }
 
+                SaveViewState();
             }
+
+            
 
             ViewState["jobareas"] = ddlJobAreas.SelectedValue;
 
-            PopulateJobAreas2();
+            
+            //this needs to be done before calling PopulateJobAreasFromIQ()
+            string selVal;
+            if (!IsPostBack)
+            {
+                selVal = String.IsNullOrEmpty(Request.QueryString["jobareas"]) == false ? string.IsNullOrEmpty(this.ddlJobAreas.SelectedValue) ? Request.QueryString["jobareas"] : this.ddlJobAreas.SelectedValue : this.ddlJobAreas.SelectedValue;
+            }
+            else
+            {
+                selVal = ViewState["jobareas"] == null ? "" : ViewState["jobareas"].ToString();
+            }
 
+            Utility.PopulateJobAreasFromIQ(ddlJobAreas, selVal);
+                        
             //postback only if location has been changed:
             this.State.Attributes.Add("onblur", "javascript:if(document." + this.Form.ClientID + "." + this.Statehidden.ClientID + ".value!=document." + this.Form.ClientID + "." + State.ClientID + ".options[document." + this.Form.ClientID + "." + State.ClientID.Replace("$", "_") + ".selectedIndex].value) {setTimeout('__doPostBack(\\'" + this.State.ClientID.Replace("_", "$") + "\\',\\'\\')', 0);}");
             //this.State.Attributes.Add("onblur", "javascript:setTimeout('__doPostBack(\\'" + this.State.ClientID.Replace("_", "$") + "\\',\\'\\')', 0)");                          
@@ -402,6 +419,33 @@ namespace BOA
 
         }
 
+        private new void SaveViewState()
+        {
+            try
+            {
+                if (_distance != "-1")
+                {
+                    ViewState["pageIndex"] = this.zcrGridView1.PageIndex;
+
+                    // Save sort order using Session *not* ViewState
+                    Session["orderByColumn"] = this.zcrGridView1.OrderByColumn;
+                    Session["orderByDirection"] = this.zcrGridView1.OrderByDirection;
+                }
+                else
+                {
+                    ViewState["pageIndex"] = this.jobListGridView1.PageIndex;
+
+                    // Save sort order using Session *not* ViewState
+                    Session["orderByColumn"] = this.jobListGridView1.OrderByColumn;
+                    Session["orderByDirection"] = this.jobListGridView1.OrderByDirection;
+                }
+            }
+            catch (Exception ex)
+            {
+                Utility.HandleException(ex);
+            }
+        }
+        
         private void LoadViewState()
         {
             try
@@ -512,17 +556,16 @@ namespace BOA
                 _jobFamily = string.IsNullOrEmpty(Request["ddlJobAreas"]) ? "-1" : Request["ddlJobAreas"];
                 _jobType = string.IsNullOrEmpty(Request["fullpart"]) ? "-1" : Request["fullpart"];
                 _jobShift = string.IsNullOrEmpty(Request["shift"]) ? "" : Request["shift"];
-                _daterange = string.IsNullOrEmpty(Request["datepost"]) ? "" : Request["datepost"];
+                _daterange = string.IsNullOrEmpty(Request["datepost"]) ? "365" : Request["datepost"];
 
                 _country = string.IsNullOrEmpty(Request["country"]) ? "-1" : Request["country"];
                 _state = string.IsNullOrEmpty(Request["state"]) ? "-1" : Request["state"];
                 _city = string.IsNullOrEmpty(Request["city"]) ? "-1" : Request["city"];
-                _keyword = string.IsNullOrEmpty(Request["keyword"]) ? "" : Request["keyword"];
 
                 _distance = string.IsNullOrEmpty(Request["ddlRadius"]) ? "-1" : Request["ddlRadius"];
                 _zipcode = string.IsNullOrEmpty(Request["txtZipCode"]) ? "Zip Code" : Request["txtZipCode"];
 
-                _keyword = string.IsNullOrEmpty(Request["keywords"]) ? "Keyword or ID" : Request["keyword"];
+                _keyword = string.IsNullOrEmpty(Request["keywords"]) ? "" : Request["keyword"];
 
                 // If this job search was called by the social job matcher "mini" search then
                 // it passed the location over as "c" - so if "c" is a parameter 
@@ -851,6 +894,14 @@ namespace BOA
                 }
 
                 MyListItem = City.Items.FindByValue(String.IsNullOrEmpty(Request.QueryString["cityid"]) == false ? Request.QueryString["cityid"] : "-1");
+                if (MyListItem != null)
+                    MyListItem.Selected = true;
+
+                //zip code
+                txtZipCode.Text = String.IsNullOrEmpty(Request.QueryString["txtZipCode"]) == false ? Request.QueryString["txtZipCode"] : "";
+
+                //radius
+                MyListItem = ddlRadius.Items.FindByValue(String.IsNullOrEmpty(Request.QueryString["ddlRadius"]) == false ? Request.QueryString["ddlRadius"] : "-1");
                 if (MyListItem != null)
                     MyListItem.Selected = true;
 
@@ -1465,216 +1516,6 @@ namespace BOA
                 this.ddlJobAreas.Items.Add(li);
             }
             dr.Close();
-            ListItem myListItem = new ListItem();
-            myListItem = this.ddlJobAreas.Items.FindByValue(selVal);
-
-            if (myListItem != null)
-                myListItem.Selected = true;
-        }
-
-        protected String GetAppSettings(string key)
-        {
-            return System.Configuration.ConfigurationManager.AppSettings[key].ToString();
-        }
-
-
-        protected void PopulateJobAreas2()
-        {
-            string selVal;
-            if (!IsPostBack)
-            {
-                selVal = String.IsNullOrEmpty(Request.QueryString["jobareas"]) == false ? string.IsNullOrEmpty(this.ddlJobAreas.SelectedValue) ? Request.QueryString["jobareas"] : this.ddlJobAreas.SelectedValue : this.ddlJobAreas.SelectedValue;
-            }
-            else
-            {
-                selVal = ViewState["jobareas"] == null ? "" : ViewState["jobareas"].ToString();
-            }
-            this.ddlJobAreas.Items.Clear();
-
-            ListItem l = new ListItem("none", string.Empty);
-
-            this.ddlJobAreas.Items.Insert(0, l);
-
-            //ADMINISTRATION
-
-            String aot = GetAppSettings("aotAdministration");
-
-            ListItem li = new ListItem("All Administration", aot + "|-1");
-            li.Attributes["OptionGroup"] = "Adminstration";
-            this.ddlJobAreas.Items.Add(li);
-
-            ListItem li2 = new ListItem("Change Mgmt & Process", aot + "|" + GetAppSettings("famChangeMgmtProcess"));
-            li2.Attributes["OptionGroup"] = "Adminstration";
-            this.ddlJobAreas.Items.Add(li2);
-
-            ListItem li3 = new ListItem("Corporate Executive", aot + "|" + GetAppSettings("famCorporateExecutive"));
-            li3.Attributes["OptionGroup"] = "Adminstration";
-            this.ddlJobAreas.Items.Add(li3);
-
-            ListItem li4 = new ListItem("Legal", aot + "|" + GetAppSettings("famLegal"));
-            li4.Attributes["OptionGroup"] = "Adminstration";
-            this.ddlJobAreas.Items.Add(li4);
-
-            ListItem li5 = new ListItem("Services", aot + "|" + GetAppSettings("famServices"));
-            li5.Attributes["OptionGroup"] = "Adminstration";
-            this.ddlJobAreas.Items.Add(li5);
-
-            //CFO GROUP
-
-            aot = GetAppSettings("aotCFOGroupFinance");
-
-            ListItem li6 = new ListItem("All CFO Group/Finance", aot + "|-1");
-            li6.Attributes["OptionGroup"] = "CFO Group/Finance";
-            this.ddlJobAreas.Items.Add(li6);
-
-            ListItem li7 = new ListItem("Credit", aot + "|" + GetAppSettings("famCredit"));
-            li7.Attributes["OptionGroup"] = "CFO Group/Finance";
-            this.ddlJobAreas.Items.Add(li7);
-
-            ListItem li8 = new ListItem("Investment Banking", aot + "|" + GetAppSettings("famInvestmentBanking"));
-            li8.Attributes["OptionGroup"] = "CFO Group/Finance";
-            this.ddlJobAreas.Items.Add(li8);
-
-            ListItem li9 = new ListItem("Wealth & Investment Mgmt", aot + "|" + GetAppSettings("famWealthInvestmentMgmt"));
-            li9.Attributes["OptionGroup"] = "CFO Group/Finance";
-            this.ddlJobAreas.Items.Add(li9);
-
-            //COMMUNICATIONS
-
-            aot = GetAppSettings("aotCommunications");
-
-            ListItem li11 = new ListItem("All Communications", aot + "|-1");
-            li11.Attributes["OptionGroup"] = "Communications";
-            this.ddlJobAreas.Items.Add(li11);
-
-            ListItem li12 = new ListItem("Marketing", aot + "|" + GetAppSettings("famMarketing"));
-            li12.Attributes["OptionGroup"] = "Communications";
-            this.ddlJobAreas.Items.Add(li12);
-
-
-            //CONSUMER BANKING
-
-            aot = GetAppSettings("aotConsumerBanking");
-
-            ListItem li13 = new ListItem("All Consumer Banking", aot + "|-1");
-            li13.Attributes["OptionGroup"] = "Consumer Banking";
-            this.ddlJobAreas.Items.Add(li13);
-
-
-            //CUSTOMER CARE
-
-            aot = GetAppSettings("aotCustomerCare");
-
-            ListItem li14 = new ListItem("All Customer Care", aot + "|-1");
-            li14.Attributes["OptionGroup"] = "Customer Care";
-            this.ddlJobAreas.Items.Add(li14);
-
-            ListItem li15 = new ListItem("Credit", aot + "|" + GetAppSettings("famCredit"));
-            li15.Attributes["OptionGroup"] = "Customer Care";
-            this.ddlJobAreas.Items.Add(li15);
-
-            ListItem li16 = new ListItem("Customer Service", aot + "|" + GetAppSettings("famCustomerService"));
-            li16.Attributes["OptionGroup"] = "Customer Care";
-            this.ddlJobAreas.Items.Add(li16);
-
-            ListItem li17 = new ListItem("Relationship Management", aot + "|" + GetAppSettings("famRelationshipManagement"));
-            li17.Attributes["OptionGroup"] = "Customer Care";
-            this.ddlJobAreas.Items.Add(li17);
-
-            ListItem li18 = new ListItem("Sales", aot + "|" + GetAppSettings("famSales"));
-            li18.Attributes["OptionGroup"] = "Customer Care";
-            this.ddlJobAreas.Items.Add(li18);
-
-            //FINANCIAL ADVISOR
-
-            aot = GetAppSettings("aotFinancialAdvisor");
-
-            ListItem li19 = new ListItem("All Financials Advisor", aot + "|-1");
-            li19.Attributes["OptionGroup"] = "Financial Advisor";
-            this.ddlJobAreas.Items.Add(li19);
-
-            //HUMAN RESUORCES
-
-            aot = GetAppSettings("aotHumanResources");
-
-            ListItem li20 = new ListItem("All Human Resources", aot + "|-1");
-            li20.Attributes["OptionGroup"] = "Human Resources";
-            this.ddlJobAreas.Items.Add(li20);
-
-
-            //MORTGAGES
-
-            aot = GetAppSettings("aotMortgage");
-
-            ListItem li21 = new ListItem("All Mortgage", aot + "|-1");
-            li21.Attributes["OptionGroup"] = "Mortgage";
-            this.ddlJobAreas.Items.Add(li21);
-
-            //OPERATIONS
-
-            aot = GetAppSettings("aotOperations");
-
-            ListItem li22 = new ListItem("All Operations", aot + "|-1");
-            li22.Attributes["OptionGroup"] = "Operations";
-            this.ddlJobAreas.Items.Add(li22);
-
-            ListItem li23 = new ListItem("Change Mgmt & Process", aot + "|" + GetAppSettings("famChangeMgmtProcess"));
-            li23.Attributes["OptionGroup"] = "Operations";
-            this.ddlJobAreas.Items.Add(li23);
-
-            ListItem li24 = new ListItem("Corporate Workplace", aot + "|" + GetAppSettings("famCorporateWorkplace"));
-            li24.Attributes["OptionGroup"] = "Operations";
-            this.ddlJobAreas.Items.Add(li24);
-
-            ListItem li25 = new ListItem("Legal", aot + "|" + GetAppSettings("famLegal"));
-            li25.Attributes["OptionGroup"] = "Operations";
-            this.ddlJobAreas.Items.Add(li25);
-
-            ListItem li26 = new ListItem("Services", aot + "|" + GetAppSettings("famServices"));
-            li26.Attributes["OptionGroup"] = "Operations";
-            this.ddlJobAreas.Items.Add(li26);
-
-            //RISK EVALUATION
-
-            aot = GetAppSettings("aotRiskEvaluation");
-
-            ListItem li27 = new ListItem("All Risk Evaluation", aot + "|-1");
-            li27.Attributes["OptionGroup"] = "Risk Evaluation";
-            this.ddlJobAreas.Items.Add(li27);
-
-            ListItem li28 = new ListItem("Credit", aot + "|" + GetAppSettings("famCredit"));
-            li28.Attributes["OptionGroup"] = "Risk Evaluation";
-            this.ddlJobAreas.Items.Add(li28);
-
-            ListItem li29 = new ListItem("Risk Management", aot + "|" + GetAppSettings("famRiskManagement"));
-            li29.Attributes["OptionGroup"] = "Risk Evaluation";
-            this.ddlJobAreas.Items.Add(li29);
-
-            //SALES
-
-            aot = GetAppSettings("aotSales");
-
-            ListItem li30 = new ListItem("All Sales", aot + "|-1");
-            li30.Attributes["OptionGroup"] = "Sales";
-            this.ddlJobAreas.Items.Add(li30);
-
-            ListItem li31 = new ListItem("Consumer Banking", aot + "|" + GetAppSettings("famConsumerBanking"));
-            li31.Attributes["OptionGroup"] = "Risk Evaluation";
-            this.ddlJobAreas.Items.Add(li31);
-
-            //TECHNOLOGY
-
-            aot = GetAppSettings("aotTechnology");
-
-            ListItem li32 = new ListItem("All Technology", aot + "|-1");
-            li32.Attributes["OptionGroup"] = "Technology";
-            this.ddlJobAreas.Items.Add(li32);
-
-            ListItem li33 = new ListItem("Corporate Workplace", aot + "|" + GetAppSettings("famCorporateWorkplace"));
-            li33.Attributes["OptionGroup"] = "Technology";
-            this.ddlJobAreas.Items.Add(li33);
-
-
             ListItem myListItem = new ListItem();
             myListItem = this.ddlJobAreas.Items.FindByValue(selVal);
 

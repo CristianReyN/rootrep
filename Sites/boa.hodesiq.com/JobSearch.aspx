@@ -22,9 +22,9 @@
 							</td>
 						</tr></table>
 							<table border="0" cellpadding="0" cellspacing="0" summary=""
-                            width="275px">
-						<tr>
-							<td  valign="top" style="width:50%; height:45;">
+                            width="100%">
+						<tr id="trCountry" runat="server">
+							<td  valign="top" style="width:48%; height:45;">
 							    <div id="Div3" style="display: inline;">						
 								    <asp:Label ID="lblCountry" runat="server" Text="Country" AssociatedControlID="Country"></asp:Label><br />
 								    
@@ -40,7 +40,7 @@
                                     -->
                                     </div>
 							</td>
-                            <td  valign="top" style="width:50%; height:45;">
+                            <td  valign="middle" style="width:48%; height:45;">
 							    <div id="Div4" style="display: inline;">	
                             <asp:HyperLink runat="server"  NavigateUrl="#" ID="HylCityNote" onclick="javascript:w= window.open('overview/chelp.html','mywin','left=200px,top=180px,width=625,height=345,resizable=0');return false;" Visible="true" Font-Bold="true" CssClass="p" AssociatedControlID="City" style="width:80%;">How do I use the city search?<span class="hidden"> Link opens a new window</span></asp:HyperLink>
 							</div>
@@ -63,6 +63,9 @@
 								</asp:DropDownList>			</div>						
 							</td>
 						</tr>
+
+
+                        
 						
 						<tr id="trUsLocation" runat="server" >
 							<td  valign="top" style="width:48%; height:45;">
@@ -294,7 +297,7 @@
                     PageSize="12"    
                     AllowPaging="false" 
                     EmptyDataRowStyle-ForeColor="Red"
-                    AllowSorting="True" OnSorting="GrdResults_OnSorting" 
+                    AllowSorting="True" OnSorting="gv_Sorting" 
                     >
                     
                         <HeaderStyle CssClass="pd"   BackColor="#EAF1F7" Height="24px"  />
