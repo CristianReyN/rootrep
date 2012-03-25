@@ -135,7 +135,9 @@
 										<td align="center" valign="top" style="padding:3px 0px 0px 0px"> 
 								
 										<asp:LinkButton ID="BtnBegin" runat="server" CssClass="ie-btn1" OnClick="display_filter" Width="40px" ToolTip=" Begin">Begin</asp:LinkButton> 
-										<asp:LinkButton ID="BtnSearch" runat="server" CssClass="ie-btn1" OnClick="bsearch_Click" Width="80px" ToolTip=" Begin Search">Begin Search</asp:LinkButton> </td>										
+										<asp:LinkButton ID="BtnSearch" runat="server" CssClass="ie-btn1" OnClick="bsearch_Click" Width="80px" ToolTip=" Begin Search">Begin Search</asp:LinkButton> 
+                                        <br/><asp:Label ID="lblValidation" runat="server" Text="" AssociatedControlID=""></asp:Label>
+                                        </td>										
 										
 									</tr>	</table> 
 																			

@@ -1194,11 +1194,15 @@ namespace BOA
 
         protected void bsearch_Click(object sender, EventArgs e)
         {
-            ViewState["PageNumber"] = 1;
-            funAdvSearch(0);
-            PnlResults.Visible = true;
-        }
+            //validate zip code/radius entries
 
+            if (Utility.ValidateForm(ddlRadius,txtZipCode,lblValidation))
+            {
+                ViewState["PageNumber"] = 1;
+                funAdvSearch(0);
+                PnlResults.Visible = true;
+            }
+        }
 
         protected void display_filter(object sender, EventArgs e)
         {

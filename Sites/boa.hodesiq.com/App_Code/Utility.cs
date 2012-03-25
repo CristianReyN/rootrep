@@ -547,4 +547,55 @@ public class Utility
 
         //return ddlJobAreas;
     }
+
+    public static bool ValidateForm(ListBox ddlRadius, TextBox txtZipCode, Label lblValidation)
+    {
+        lblValidation.ForeColor = System.Drawing.Color.Red;
+        lblValidation.Font.Bold = true;
+
+        if (ddlRadius.SelectedIndex > 0)
+        {
+            if (txtZipCode.Text == "")
+            {
+                lblValidation.Visible = true;
+                lblValidation.Text = "Zip Code cannot be empty if you are searching by radius/distance.";
+                txtZipCode.Focus();
+                return false;
+            }
+        }
+        if (txtZipCode.Text != "")
+        {
+            if (ddlRadius.SelectedIndex == 0)
+            {
+                lblValidation.Visible = true;
+                lblValidation.Text = "Please select a distance (miles) from Zip Code value.";
+                ddlRadius.Focus();
+                return false;
+            }
+            if (txtZipCode.Text.Length < 5)
+            {
+                lblValidation.Visible = true;
+                lblValidation.Text = "Zip Code cannot be less than five digits.";
+                txtZipCode.Focus();
+                return false;
+            }
+            if (!IsNumber(txtZipCode.Text))
+            {
+                lblValidation.Visible = true;
+                lblValidation.Text = "Zip Code must be numeric.";
+                txtZipCode.Focus();
+                return false;
+            }
+        }
+        lblValidation.Visible = false;
+        return true;
+
+    }
+
+    static bool IsNumber(string value)
+    {
+        // Return true if this is a number.
+        int number1;
+        return int.TryParse(value, out number1);
+    }
 }

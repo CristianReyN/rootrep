@@ -109,26 +109,29 @@ public partial class uc_JobSearch : System.Web.UI.UserControl
 
     protected void bsearch_Click(object sender, EventArgs e)
     {
-        string stateid = trState.Visible ? State.SelectedValue : "";
-        string cityid = trCity.Visible ? City.SelectedValue : "";
-        string countryid = Country.SelectedValue;
-        string internationcityid = trInternationalLocation.Visible ? InternationalCity.SelectedValue : "";
-        string keyword = keywords.Text;
-        string jobareas = trJobArea.Visible ? ddlJobAreas.SelectedValue : "";
-        string jobfamilyid = trJobFamily.Visible ? ddlJobFamily.SelectedValue : "";
-        string zipCode = txtZipCode.Text;
-        string radius = ddlRadius.SelectedValue;
-
-        //BOAFeedname should be blank unless it is canada and french pages
-        if (countryid != Location.CANADA)
+        if (Utility.ValidateForm(ddlRadius, txtZipCode, lblValidation))
         {
-            BOAFeedName = "";
+            string stateid = trState.Visible ? State.SelectedValue : "";
+            string cityid = trCity.Visible ? City.SelectedValue : "";
+            string countryid = Country.SelectedValue;
+            string internationcityid = trInternationalLocation.Visible ? InternationalCity.SelectedValue : "";
+            string keyword = keywords.Text;
+            string jobareas = trJobArea.Visible ? ddlJobAreas.SelectedValue : "";
+            string jobfamilyid = trJobFamily.Visible ? ddlJobFamily.SelectedValue : "";
+            string zipCode = txtZipCode.Text;
+            string radius = ddlRadius.SelectedValue;
+
+            //BOAFeedname should be blank unless it is canada and french pages
+            if (countryid != Location.CANADA)
+            {
+                BOAFeedName = "";
+            }
+
+            string url = "~/JobSearch.aspx?countryid=" + countryid + "&stateid=" + stateid + "&cityid=" + cityid + "&txtZipCode=" + zipCode + "&ddlRadius=" + radius + "&internationalcityid=" + internationcityid;
+            url = url + "&keywords=" + keyword + "&jobareas=" + jobareas + "&jobfamilyid=" + jobfamilyid + "&BOAFeedName=" + BOAFeedName;
+
+            Response.Redirect(url);
         }
-
-        string url = "~/JobSearch.aspx?countryid=" + countryid + "&stateid=" + stateid + "&cityid=" + cityid + "&txtZipCode=" + zipCode + "&ddlRadius=" + radius + "&internationalcityid=" + internationcityid;
-        url = url + "&keywords=" + keyword + "&jobareas=" + jobareas + "&jobfamilyid=" + jobfamilyid + "&BOAFeedName=" + BOAFeedName;
-
-        Response.Redirect(url);
     }
 
     protected void display_filter(object sender, EventArgs e)

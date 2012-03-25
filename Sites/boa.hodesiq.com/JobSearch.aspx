@@ -204,7 +204,9 @@
 								<table border="0" cellspacing="0" cellpadding="0">
 									<tr>	
 										<td align="center" valign="top"> <asp:LinkButton ID="BtnBegin" runat="server" CssClass="ie-btn1" OnClick="display_filter" Width="40px" ToolTip=" Begin Search">Begin</asp:LinkButton> </td>
-										<td align="center" valign="top"> <asp:LinkButton ID="BtnSearch" runat="server" CssClass="ie-btn1" OnClick="bsearch_Click" Width="80px" ToolTip=" Begin Search">Begin&nbsp;Search</asp:LinkButton> </td>
+										<td align="center" valign="top"> <asp:LinkButton ID="BtnSearch" runat="server" CssClass="ie-btn1" OnClick="bsearch_Click" Width="80px" ToolTip=" Begin Search">Begin&nbsp;Search</asp:LinkButton> 
+                                        <asp:Label ID="lblValidation" runat="server" Text="" AssociatedControlID=""></asp:Label><br />
+                                        </td>
 										<td width="10">&nbsp;</td>
 										<td align="left" valign="top"><asp:HyperLink runat="server" ID="lnkJobCart" NavigateUrl="~/jobcart.aspx" Text="View job cart" CssClass="p" ToolTip="View job cart" Visible="false" /></td>
 									</tr>
@@ -456,7 +458,7 @@
 
     function ValidZipCode() {
 
-        if (document.getElementById("ddlRadius").selectedIndex > 0) {
+        if (document.getElementById("ddlRadius").SelectedIndex > 0) {
 
             if (document.getElementById("txtZipCode").value == "") {
                 alert("Zip Code cannot be empty if you are searching by radius/distance.");
@@ -467,7 +469,7 @@
         }
         if (document.getElementById("txtZipCode").value != "") {
 
-            if (document.getElementById("ddlRadius").selectedIndex == 0) {
+            if (document.getElementById("ddlRadius").SelectedIndex == 0) {
                 alert("Please select a distance (miles) from Zip Code value.");
                 document.getElementById("ddlRadius").focus();
                 return false;
