@@ -498,21 +498,13 @@ public class Utility
         li26.Attributes["OptionGroup"] = "Operations";
         ddlJobAreas.Items.Add(li26);
 
-        //RISK EVALUATION
+        //RISK MANAGEMENT
 
         aot = GetAppSettings("aotRiskEvaluation");
 
-        ListItem li27 = new ListItem("All Risk Evaluation", aot + "|-1");
-        li27.Attributes["OptionGroup"] = "Risk Evaluation";
+        ListItem li27 = new ListItem("All Risk Management", aot + "|-1");
+        li27.Attributes["OptionGroup"] = "Risk Management";
         ddlJobAreas.Items.Add(li27);
-
-        ListItem li28 = new ListItem("Credit", aot + "|" + GetAppSettings("famCredit"));
-        li28.Attributes["OptionGroup"] = "Risk Evaluation";
-        ddlJobAreas.Items.Add(li28);
-
-        ListItem li29 = new ListItem("Risk Management", aot + "|" + GetAppSettings("famRiskManagement"));
-        li29.Attributes["OptionGroup"] = "Risk Evaluation";
-        ddlJobAreas.Items.Add(li29);
 
         //SALES
 
