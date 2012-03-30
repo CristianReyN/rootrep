@@ -11,10 +11,6 @@
 <p style="margin: 6px 0px 0px 0px;">A tax-deferred retirement savings plan, including 100% vested matching contributions from the company up to 5% of your plan-eligible compensation after completing 12 months of vesting service.
 </p>
 
-<H2 class="bac" style="margin: 12px 0px 0px 0px; padding: 0px;">Pension Plan</H2>
-<p style="margin: 6px 0px 0px 0px;">Provides a benefit through an account that is credited with company-paid compensation credits and interest credits.
-</p>
-
 <H2 class="bac" style="margin: 12px 0px 0px 0px; padding: 0px;">Rewarding Success<span style="font-size: 0.8em; position: relative; top: -0.6em;">&reg;</span></H2>
 <p style="margin: 6px 0px 0px 0px;">Rewards eligible employees for their contributions to the company's success. If the company meets a financial goal, eligible employees receive an award. Any award will be deferred automatically to the 401(k) plan, subject to IRS limits, unless the employee elects to receive some or all of the award in cash.
 </p>

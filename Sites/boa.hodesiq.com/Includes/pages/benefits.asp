@@ -41,7 +41,7 @@ Our comprehensive Life Management programs are designed to assist employees with
 <H2 class="p" style="margin: 12px 0px 6px 0px; padding: 0px;">
 <a href="<%Response.write href_pre%>retirement.asp" class="bacb" onfocus="this.className='left2-over';" onblur="this.className='left2';" title="Retirement Benefits">Retirement Benefits</a></H2>
 <p style="margin: 0px 0px 0px 0px;">
-We offer a 401(k) plan with a company match after one year of service for contributions up to 5% of plan-eligible compensation, a company-funded pension plan, and Rewarding Success<span style="font-size: 0.6em; position: relative; top: -0.6em;">&reg;</span></span>, which rewards eligible employees for their contributions to the company's success.</p>
+We offer retirement benefits, including a 401(k) plan with a company match after one year of service for contributions up to 5% of plan-eligible compensation, and Rewarding Success<span style="font-size: 0.6em; position: relative; top: -0.6em;">&reg;</span></span>, which rewards eligible employees for their contributions to the company's success.</p>
 
 <p style="margin: 12px 0px 0px 0px;"><span style="font-size: 0.9em; line-height: 0.9em;">
 Not all employees are eligible to participate in all benefit programs. The terms and conditions of the benefits described above may be governed by written benefit plans and/or other documents. The above stated description of benefits is intended as a summary and for informational purposes only; this document does not create a contract between the company and any employee or potential employee. All programs and benefits are subject to change at any time.

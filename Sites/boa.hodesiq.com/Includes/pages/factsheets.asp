@@ -47,11 +47,11 @@
 
 <a name="anchor1"></a><h2 style="margin: 12px 0px 0px 0px; padding: 0px;">Workforce Data</h2>
 
-<p>We strive to develop a workforce that reflects the communities where we live and work. Encouraging a diverse, inclusive workplace gives us the business advantage of understanding and meeting the needs of diverse customers, clients and communities. Globally, approximately 57 percent of our workforce is female.<span class="ascent"><a href="#footnote1" class="p" title="Footnote 1"><span class="hidden">Footnote </span>1</a></span></p>
+<p>We strive to develop a workforce that reflects the communities where we live and work. Encouraging a diverse, inclusive workplace gives us the business advantage of understanding and meeting the needs of diverse customers, clients and communities. Globally, approximately 56 percent of our workforce is female.<span class="ascent"><a href="#footnote1" class="p" title="Footnote 1"><span class="hidden">Footnote </span>1</a></span></p>
 
 <table border="0" cellpadding="0" cellspacing="0" width="100%" class="factsheets" summary="Three column table of 2010 U.S. Workforce Breakdown listing Job Category, Percent Female and Percent Minority">
 <tr>
-	<td class="th" colspan="3">2010 U.S. Workforce Breakdown<span class="ascent"><a href="#footnote2" class="p" title="Footnote 2"><span class="hidden">Footnote </span>2</a></span></td>
+	<td class="th" colspan="3">2011 U.S. Workforce Breakdown<span class="ascent"><a href="#footnote2" class="p" title="Footnote 2"><span class="hidden">Footnote </span>2</a></span></td>
 </tr>
 <tr>
 	<th scope="col">Job Category</th>
@@ -59,49 +59,49 @@
 	<th scope="col">Minority</th>
 </tr>
 <tr>
-	<td>01 - Officials and Managers</td>
-	<td>47.04%</td>
-	<td>27.55%</td>
+	<td>01 - Officials and Managerss</td>
+	<td>47.21%s</td>
+	<td>29.00%</td>
 </tr>
 <tr>
-	<td>02 - Professionals</td>
-	<td>37.37%</td>
-	<td>25.49%</td>
+	<td>02 - Professionalss</td>
+	<td>39.41%s</td>
+	<td>28.63%</td>
 </tr>
 <tr>
-	<td>03 - Technicians</td>
-	<td>35.04%</td>
-	<td>49.26%</td>
+	<td>03 - Technicianss</td>
+	<td>34.50%s</td>
+	<td>49.50%</td>
 </tr>
 <tr>
-	<td>04 - Sales Workers</td>
-	<td>34.48%</td>
-	<td>23.57%</td>
+	<td>04 - Sales Workerss</td>
+	<td>24.22%s</td>
+	<td>17.81%</td>
 </tr>
 <tr>
-	<td>05 - Office and Clerical</td>
-	<td>74.10%</td>
-	<td>52.80%</td>
+	<td>05 - Office and Clericals</td>
+	<td>73.37%s</td>
+	<td>54.07%</td>
 </tr>
 <tr>
-	<td>07 - Operatives</td>
-	<td>36.82%</td>
-	<td>65.11%</td>
+	<td>07 - Operativess</td>
+	<td>37.07%s</td>
+	<td>66.03%</td>
 </tr>
 <tr>
-	<td>09 - Service Workers</td>
-	<td>41.57%</td>
-	<td>29.21%</td>
+	<td>09 - Service Workerss</td>
+	<td>37.84%s</td>
+	<td>27.03%</td>
 </tr>
 <tr>
 	<td class="tf">Total</td>
-	<td class="tf">60.44%</td>
-	<td class="tf">42.32%</td>
+	<td class="tf">59.57%</td>
+	<td class="tf">43.30%</td>
 </tr>
 </table>
 
 
-<a name="footnote1"></a><p class="footnote" style="margin-top: 18px;"><span class="ascent">1</span>Globally, approximately 57 percent of our workforce is female.  Based on restrictions in certain international jurisdictions, we do not provide a global figure representative of race, ethnicity, or status as a minority.
+<a name="footnote1"></a><p class="footnote" style="margin-top: 18px;"><span class="ascent">1</span>Globally, approximately 56 percent of our workforce is female.  Based on restrictions in certain international jurisdictions, we do not provide a global figure representative of race, ethnicity, or status as a minority.
 <br><br>
 <a name="footnote2"></a><span class="ascent">2</span>Data from the U.S. Equal Employment Opportunity Commission (EEOC) Employer Information Report EEO-1, otherwise known as The Employer Information Report, which employers with more than 100 employees are required to submit to the EEOC and the Department of Labor's Office of Federal Contract Compliance Programs.</p>
 
