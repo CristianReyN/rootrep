@@ -103,11 +103,11 @@ function changeCity()
 <%If Request("countryid") =1 Then %>
 <p style="margin: 0px;">
 <% If taleo_upgrade Then %>
-Due to site maintenance, you will be unable to apply for a U.S. position or create/update your profile from March&nbsp;21 through March&nbsp;25.
+Due to site maintenance, you will be unable to apply for a U.S. position or create/update your profile from March&nbsp;21 through March&nbsp;26.
 <br><br>
 You may continue to search for jobs, as well as navigate the site during this timeframe.
 <br><br>
-All functionality will return on March&nbsp;26.
+All functionality will return on March&nbsp;27.
 </p>
 <p style="margin: 12px 0px 3px 0px;">
 <% End If %>
@@ -150,20 +150,6 @@ Begin your career search by selecting a country.  You may then narrow your searc
 </div>
 							</td>
 						</tr>
-
-<tr style="<%=display%>">
-							<td width="<%=jwdt%>" nowrap style="padding: 0px 0px 0px 0px;">
-<label for="cityid" class="p" style="margin: 0px;"><b>Zip Code</b></label><br>
-<div id="Div1" style="position: relative; z-index: 12;">
-<% 
-	call getZipCodeRadiusControl(""," style=""position: relative; width: 100%; z-index: auto;"&display&"""")
-%>
-</div>
-							</td>
-						</tr>
-
-
-
 						<tr style="<%=display%>">
 							<td width="<%=jwdt%>" nowrap style="padding: 0px 0px 0px 0px;">
 <label for="<% If countryid = "1" Then%>jobareas<% Else %>jobfamilyid<% End If %>" class="p" style="margin: 0px;"><b><%If countryid = "1" Then%>Job areas<%Else%>Job Family<%End If%></b></label><br>
@@ -200,7 +186,7 @@ Begin your career search by selecting a country.  You may then narrow your searc
 							<td width="<%=jwdt%>" valign="top" style="padding: 6px 0px 0px 0px;">
 <script language="JavaScript" type="text/javascript">
 <!--
-    create_safebutton("<%=begin%>", "javascript:ValidateForm();", 0, 0, 0, 0, "<%=begin%>");
+create_safebutton("<%=begin%>","javascript: _submit();",0,0,0,0,"<%=begin%>");
 //-->
 </script>
 <noscript><input type="submit" name="bsearch" value="<%=begin%>" alt="<%=begin%>" title="<%=begin%>" class="btn"/></noscript>
@@ -227,56 +213,3 @@ Bank of America associates should access the <a href="http://myhrtools.bankofame
 						</tr>
 					</table>
 </form>
-
-<script language='javascript1.1' type='text/javascript'>
-    //<!—
-
-    function ValidateForm()
-    {
-        if (ValidZipCode())
-        {
-            _submit();
-        }
-    }
-
-    function ValidZipCode() {
-
-        if (document.getElementById("ddlRadius").selectedIndex > 0) {
-
-            if (document.getElementById("txtZipCode").value == "") {
-                alert("Zip Code cannot be empty if you are searching by radius/distance.");
-                document.getElementById("txtZipCode").focus();
-                return false;
-            }
-            //return true;
-        }
-        if (document.getElementById("txtZipCode").value != "") {
-
-            if (document.getElementById("ddlRadius").selectedIndex == 0) {
-                alert("Please select a distance (miles) from Zip Code value.");
-                document.getElementById("ddlRadius").focus();
-                return false;
-            }
-            if (document.getElementById("txtZipCode").value.length < 5) {
-                alert("Zip Code cannot be less than five digits.");
-                document.getElementById("txtZipCode").focus();
-                return false;
-            }
-            //return true;
-
-        }
-        return true;
-
-    }
-
-    function onlyNumbers(evt) {
-        var e = event || evt; // for trans-browser compatibility
-        var charCode = e.which || e.keyCode;
-
-        if (charCode > 31 && (charCode < 48 || charCode > 57))
-            return false;
-
-        return true;
-
-    }
-</script>
