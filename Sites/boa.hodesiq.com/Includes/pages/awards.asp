@@ -8,8 +8,8 @@
 
 <H2 class="p" style="margin: 12px 0px 6px 0px; padding: 0px;"><span class="bd">2012 Recognition*</span></H2>
 <ul>
-	<li>&ldquo;Top 50 Organizations for Multicultural Business Opportunities&rdquo; by Diversitybusiness.com for the third year in a row.</li>
-	<li>Among National Association for Female Executives&#39; (NAFE) Top Companies for Executive Women for the third year in a row.</li>
+	<li>&ldquo;Top 50 Organizations for Multicultural Business Opportunities&rdquo; by <span class="bd it">Diversitybusiness.com</span> for the third year in a row.</li>
+	<li>Among <span class="bd">National Association for Female Executives&#39;</span> (NAFE) Top Companies for Executive Women for the third year in a row.</li>
 </ul>
 
 <H2 class="p" style="margin: 12px 0px 6px 0px; padding: 0px;"><span class="bd">2011 Recognition*</span></H2>
@@ -20,7 +20,7 @@
 	<li>Merrill Lynch Wealth Management led all financial services firms on <span class="bd it">Barron&#39;s</span> &ldquo;America&#39;s Top 100 Women Financial Advisors&rdquo; list again this year, with 33 in the rankings; sixth year leading the list.</li>
 	<li>Bank&nbsp;of&nbsp;America Merrill Lynch ranked among <span class="bd it">The Times</span> Top 50 Employers for Women in partnership with Opportunity Now.</li>
 	<li>Number 4 on <span class="bd it">DiversityMBA</span> magazine&#39;s &ldquo;Top 50 Companies for Diverse Managers to Work;&rdquo; fourth year on list.</li>
-	<li>&ldquo;40 Best Companies for Diversity&rdquo; by <span class="bd it">Black Enterprise</i><span class="bd"> magazine for the seventh year in a row, noted for our Supplier Diversity efforts.</li>
+	<li>&ldquo;40 Best Companies for Diversity&rdquo; by <span class="bd it">Black Enterprise</span> magazine for the seventh year in a row, noted for our Supplier Diversity efforts.</li>
 	<li>Number 11 on <span class="bd it">DiversityInc</span> magazine&#39;s &ldquo;Top 50 Companies for Diversity&rdquo; annual list; on the list for the last 11 years. Bank&nbsp;of&nbsp;America was also ranked among the <span class="bd it">DiversityInc</span> top 10 companies for Recruitment &amp; Retention, Supplier Diversity, Executive Women and LGBT Employees.</li>
 	<li><span class="bd it">Hispanic Business</span> magazine&#39;s &ldquo;Top 60 Diversity Elite&rdquo; for the sixth year in a row.</li>
 	<li>Among <span class="bd it">LATINA Style&#39;s</span> top company for Latinas for the last seven years.</li>
@@ -50,7 +50,7 @@
 		<ul class="secondary">
 			<li>Number 12 on &ldquo;The Power List,&rdquo; <span class="bd it">PR Week&#39;s</span> list of the top 50 communications executives in the U.S.</li>
 			<li>Among the <span class="bd it">Boston Business Journal&#39;s</span> Power 50 Most Influential Bostonians</li>
-			<li>One of Irish <span class="bd it">America Magazine&#39;s</span> Wall Street 50</li>
+			<li>One of <span class="bd it">Irish America Magazine&#39;s</span> Wall Street 50</li>
 			<li>As one of <span class="bd it">BtoB</span> magazine&#39;s Best Marketers</li>
 		</ul>
 	</li>
@@ -65,18 +65,18 @@
 	</li>
 	<li>Katy Knox, Consumer &amp; Small Business Banking Distribution executive, and Anna Kelligrew St. Clair, private client manager for U.S. Trust, were both recognized among <span class="bd it">Diversity MBA&#39;s</span> Top 100 under 50 Executive &amp; Emerging Leaders list.</li>
 	<li>Jonathan Moulds, president of Europe, was named among the <span class="bd it">Evening Standard&#39;s</span> 100 Most Influential People in London.</li>
-	<li>Rupert Hume-Kendall, chairman of Global Capital Markets, Adrian Mee, head of International M&amp;A, and Christian Meissner, co-head of Global Corporate &amp; Investment Banking, were named among <span class="bd it">Financial News&#39;s</span> FN100 Most Influential People Working in Finance 2011.</li>
-	<li>Charlotte Burkeman, head of EMEA Prime Brokerage, and Julia Hoggett, head of EMEA DCM FIG Flow &amp; Covered Bonds, were recognized among <span class="bd it">Financial News&#39;s</span> FN100 Most Influential Women 2011.</li>
-	<li>Carole Berndt, head of Global Treasury Solutions in Europe and Emerging Markets, was honored with an Award for Achievement from <span class="bd it">Women in Banking and Finance</span> (U.K.). Jennifer Boussuge, head of Global Treasury Sales, and Lesley White, Global Treasury Solutions product executive for Corporates in Europe and Emerging Markets, were both shortlisted for the award.</li>
+	<li>Rupert Hume-Kendall, chairman of Global Capital Markets, Adrian Mee, head of International M&amp;A, and Christian Meissner, co-head of Global Corporate &amp; Investment Banking, were named among <span class="bd it">Financial News&#39;</span> FN100 Most Influential People Working in Finance 2011.</li>
+	<li>Charlotte Burkeman, head of EMEA Prime Brokerage, and Julia Hoggett, head of EMEA DCM FIG Flow &amp; Covered Bonds, were recognized among <span class="bd it">Financial News&#39;</span> FN100 Most Influential Women 2011.</li>
+	<li>Carole Berndt, head of Global Treasury Solutions in Europe and Emerging Markets, was honored with an Award for Achievement from <span class="bd">Women in Banking and Finance</span> (U.K.). Jennifer Boussuge, head of Global Treasury Sales, and Lesley White, Global Treasury Solutions product executive for Corporates in Europe and Emerging Markets, were both shortlisted for the award.</li>
 	<li>Lorna Meyer of San Francisco (number 4) and Melissa Corrado Harrison of Denver (number 9) among <span class="bd it">Barron&#39;s</span> &ldquo;America&#39;s Top 100 Women Financial Advisors.&rdquo;</li>
-	<li>Jesse Cureton, managing director, North Carolina regional executive, U.S. Trust, Bank&nbsp;of&nbsp;America Private Wealth Management, was recognized among the <span class="bd it">Charlotte Catalyst</span> Honorees, which recognizes Charlotte, N.C.&#39;s most inspiring professionals.</li>
+	<li>Jesse Cureton, managing director, North Carolina regional executive, U.S. Trust, Bank&nbsp;of&nbsp;America Private Wealth Management, was recognized among the <span class="bd">Charlotte Catalyst</span> Honorees, which recognizes Charlotte, N.C.&#39;s most inspiring professionals.</li>
 	<li>Sylvia Rocco, managing director, senior sales trader for Equities, received the <span class="bd it">Traders Magazine</span> Mentor Award for her dedication to mentoring other women in financial services.</li>
 	<li>Rich Hofmann, senior finance manager, and Christine Tedjopranoto, finance business support manager, received Individual Outstanding Employer Patriot Awards from the <span class="bd">Employer Support of the Guard and Reserve</span>.</li>
 	<li>Jennifer R. Povlitz, Regional Managing Director for Merrill Lynch U.S. Wealth Management, was named one of the San Francisco Bay Area&#39;s 150 Most Influential Women in Business by the <span class="bd it">San Francisco Business Times</span>.</li>
 	<li>Brian Tracey, Community Development Lending and Investments Executive, was named 2011 Private Sector Partner of the year by the <span class="bd">Supportive Housing Network of New York</span>.</li>
 	<li>Ivo Distelbrink, Asia Pacific Regional Treasury Executive, was recognized as Rising Star Transaction Banker of the Year Recognition according to <span class="bd it">The Asset</span>.</li>
-	<li>Michael Nierenberg, head of Global Mortgages and Securitized Products, received the <span class="bd it">United Jewish Appeal</span>&#39;s (UJA&#39;s) Young Leadership Award in recognition of his nearly two decades of philanthropic contributions. </li>
-	<li><span class="bd it">The Investment Dealers&#39; Digest</span> (IDD) 40 Under 40 recognized three bankers in the following categories:
+	<li>Michael Nierenberg, head of Global Mortgages and Securitized Products, received the <span class="bd">United Jewish Appeal</span>&#39;s (UJA&#39;s) Young Leadership Award in recognition of his nearly two decades of philanthropic contributions. </li>
+	<li><span class="bd">The Investment Dealers&#39; Digest</span> (IDD) 40 Under 40 recognized three bankers in the following categories:
 		<ul class="secondary">
 			<li>Fixed Income Currencies &amp; Commodities Sales:  Karen Fang, head of the Cross Asset Solutions &amp; Strategy group in the Americas</li>
 			<li>Debt Capital Markets:  A.J. Murphy, co-head of Global Leveraged Finance</li>
