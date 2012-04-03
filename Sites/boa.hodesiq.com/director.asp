@@ -2,7 +2,6 @@
 <%'option explicit%>
 <!-- #include file="Includes/whitelist.asp" --><%
 dim stitle,surl,countryid
-
 if request.QueryString("m")=1 then
 	stitle="Bank of America | Careers | Manage your Careers Profile Account"
 	surl="profilerd.aspx?" & Request.QueryString("u").item
@@ -10,10 +9,9 @@ else
 	stitle="Bank of America | Careers | Job Application"
 	surl="applyrd.aspx?" & Request.QueryString("url").item
 end if
-
-no_after_chars = Array("<", ">", "'", """")
-surl = ClearKeywords(surl)
-surl = Server.HtmlEncode(surl)
+	no_after_chars = Array("<", ">", "'", """")
+	surl = ClearKeywords(surl)
+	surl = Server.HtmlEncode(surl)
 
 countryid = request.QueryString("countryid")
 
@@ -21,31 +19,12 @@ if countryid = "" then
     countryid = 1
 end if
 %>
-
-<script language="javascript" type="text/javascript">
-
-    var sReferer = window.opener.document.referrer;
-    var ifrm = '<iframe frameborder="0" src="<%=surl%>" style="width: 752px; height: 100%;" height="100%" width="752px" title="apply" id="apply" name="apply"></iframe>';
-    var boaImg = '<img src="images/BoA_Header.jpg" width="752" height="103" border="0" alt="Bank of America Careers" title="Bank of America Careers" />';
-    var boaText = 'Once you reach the Summary page, after completing each of the steps, you will be able to go back and edit any one of these steps before your final submission. If you have difficulty completing this process, please refer to the <a href="faq/faq.asp" target="boamain" onclick="window.opener.focus();">Frequently Asked Questions</a> page.</p>';
-    var isReferer = false;
-
-    if (sReferer.toLowerCase().indexOf('jobdetails.aspx') != -1) {
-        isReferer = true;
-    }
-    if (sReferer.toLowerCase().indexOf('jobsearch.aspx') != -1) {
-        isReferer = true;
-    }
-    if (sReferer.toLowerCase().indexOf('jobcart.aspx') != -1) {
-        isReferer = true;
-    }
-            
-</script>
-
 <html> 
 <head>
 	<title><%=stitle %></title>
-	
+	<script language="javascript" type="text/javascript">
+
+	</script>
 	<link rel="stylesheet" href="includes/styles.css" type="text/css" />
 </head>
 <body style="margin: 0px; color: #000000; background-color: #ffffff;">
@@ -53,39 +32,14 @@ end if
 <%dim currdate : currdate = date()
 if currdate >= cdate("2009-08-15") and countryid  = "1" then %>
 	<tr><td align="center" height="103">
-		
-        <script language="javascript" type="text/javascript">
-		    if (isReferer) {
-		        document.write(boaImg);
-		    }
-        </script>
-
-        </td></tr>
+		<img src="images/BoA_Header.jpg" width="752" height="103" border="0" alt="Bank of America Careers" title="Bank of America Careers" /></td></tr>
 	<tr><td align="center">
 		<p style="width: 752px; margin: 12px auto 12px auto; padding: 0px; text-align: left;">
-        <script language="javascript" type="text/javascript">
-            if (isReferer) {
-                document.write(boaText);
-            }
-            else document.write("404 error - File or Page not found");
-        </script>
-        </p>
-        </td></tr>
+		Once you reach the Summary page, after completing each of the steps, you will be able to go back and edit any one of these steps before your final submission. If you have difficulty completing this process, please refer to the <a href="faq/faq.asp" target="boamain" onclick="window.opener.focus();">Frequently Asked Questions</a> page.
+		</p></td></tr>
 <%end if %>
 	<tr><td align="center" height="100%">
-        
-        <script language="javascript" type="text/javascript">
-
-            if (isReferer) {
-                document.write(ifrm);
-            }
-            
-	</script>
-        
-        </td></tr>
-
+		<iframe frameborder="0" src="<%=surl%>"style="width: 752px; height: 100%;" height="100%" width="752px" title="apply"></iframe></td></tr>
 </table>
 </body>
-
-
 </html>
