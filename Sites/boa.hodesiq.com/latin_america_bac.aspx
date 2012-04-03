@@ -122,10 +122,10 @@ div#map_details_EUROPE div p { font-family: Verdana, Helvetica, sans-serif;font-
             <td  align="left" valign="top">
                 <table width="370" height="27" border="0" cellpadding="0" cellspacing="0">
                     <tr>
-                        <td width="150" height="27" align="center" valign="top"><a href="#A4" id="A4" style="outline: none" onkeypress="CheckKey(event, 'DivOne','topimg1');"> <img src="images/latam_00_bacs.jpg" alt="BA Continuum" title="BA Continuum"
+                        <td width="150" height="27" align="center" valign="top"><a href="#A4" id="A4" style="outline: none" onkeypress="CheckKey(event, 'DivOne','topimg1');"> <img src="images/latam_00_bacs.jpg" alt="BA Continuum locations" title="BA Continuum"
                                     name="topimg1" width="150" height="27" id="topimg1" onkeypress="return enterKey(this);" onclick="SwapDiv('DivOne','topimg1')"
                                     border="0" /></a></td>
-                        <td width="150" height="27" align="center" valign="top"><a href="#A4" id="A5" style="outline: none" onkeypress="CheckKey(event, 'DivTwo','topimg2');"> <img src="images/asia1_03_bacs.gif" alt="Bank of America Merrill Lynch" title="Bank of America Merrill Lynch"
+                        <td width="150" height="27" align="center" valign="top"><a href="#A4" id="A5" style="outline: none" onkeypress="CheckKey(event, 'DivTwo','topimg2');"> <img src="images/asia1_03_bacs.gif" alt="Bank of America Merrill Lynch locations" title="Bank of America Merrill Lynch"
                                     name="topimg2" width="150" height="27" id="topimg2" onkeypress="return enterKey(this);" onclick="SwapDiv('DivTwo','topimg2')"
                                     border="0" /></a></td> 
                                     <td width="100" height="27" align="left" valign="top"><img src="images/asia_corner_05.gif" width="70px" height="27" alt="" /></td>                       

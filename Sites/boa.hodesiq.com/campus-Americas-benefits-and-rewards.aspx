@@ -19,7 +19,7 @@
 <h2 class="benefits">Financial and Retirement Support</h2>
 <ul>
 <li>Discounts and additional benefits on a wide range of banking and investing products—including checking accounts with no monthly maintenance fee or balance requirement, no fee checks and free or discounted annual safe deposit box rental</li> 
-<li>401K and pension plan<a href="#footnote2" title="Footnote 2"><sup><span class="hiddencontent">Footnote</span>2</sup></a></li>
+<li>Retirement benefits, such as 401(k)</li>
 </ul>
 
 <h2 class="benefits-second">Health Care and Insurance</h2>
@@ -43,8 +43,7 @@
 <li>Commuter benefits &ndash; These vary depending on city and country</li>
 </ul>
 <br />
-<p><sup id="footnote1">1</sup>Benefits may vary by region. Please discuss specific benefit-related questions with a recruiter.<br />
-<sup id="footnote2">2</sup>Associates are eligible after one year of full-time service or 1,000 hours worked within a year.</p>
+<p><sup id="footnote1">1</sup>Benefits may vary by region. Please discuss specific benefit-related questions with a recruiter.</p>
 
                 </div>
                 <div id="aside"> <a href="campusrecruiting/career_fit_tool.asp" name="Campus_Americas_Benefits_Rewards_Career_Finder_Come_As_You_Are_We_Got_A_Career_To_Fit"><img src="images/campus/btn-careerfinder.jpg" width="179" height="66" alt="Career Finder: Come as you are. We've got a career to fit." /></a> 

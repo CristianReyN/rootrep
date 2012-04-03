@@ -142,13 +142,13 @@ function SwapDiv(divid,img)
         <tr>
             <td width="566" height="27" align="left" valign="top"><table width="361" height="27" border="0" cellpadding="0" cellspacing="0">
                     <tr>
-                        <td width="162" height="27" align="left" valign="top"><a href="#A4" id="A6" onkeypress="CheckKey(event, 'DivThree','topimg3');"> <img src="images/Philippines_04_bacs.gif" alt="BA Continuum Philippines" title="BA Continuum Philippines"
+                        <td width="162" height="27" align="left" valign="top"><a href="#A4" id="A6" onkeypress="CheckKey(event, 'DivThree','topimg3');"> <img src="images/Philippines_04_bacs.gif" alt="BA Continuum Philippines locations" title="BA Continuum Philippines"
                                     name="topimg3" width="162" height="27" id="topimg3" onclick="SwapDiv('DivThree','topimg3')"
                                     border="0" /></a></td>
-                        <td width="162" height="27" align="left" valign="top"><a href="#A4" id="A4" onkeypress="CheckKey(event, 'DivOne','topimg1');"> <img src="images/asia_04_bacs_NEW.gif" alt="BA Continuum (India)" title="BA Continuum (India)"
+                        <td width="162" height="27" align="left" valign="top"><a href="#A4" id="A4" onkeypress="CheckKey(event, 'DivOne','topimg1');"> <img src="images/asia_04_bacs_NEW.gif" alt="BA Continuum (India) locations" title="BA Continuum (India)"
                                     name="topimg1" width="162" height="27" id="topimg1" onclick="SwapDiv('DivOne','topimg1')"
                                     border="0" /></a></td>
-                        <td width="165" height="27" align="left" valign="top"><a href="#A4" id="A5" onkeypress="CheckKey(event, 'DivTwo','topimg2');"> <img src="images/asia1_03_bacs.gif" alt="Bank of America Merrill Lynch" title="Bank of America Merrill Lynch"
+                        <td width="165" height="27" align="left" valign="top"><a href="#A4" id="A5" onkeypress="CheckKey(event, 'DivTwo','topimg2');"> <img src="images/asia1_03_bacs.gif" alt="Bank of America Merrill Lynch locations" title="Bank of America Merrill Lynch"
                                     name="topimg2" width="165" height="27" id="topimg2" onclick="SwapDiv('DivTwo','topimg2')"
                                     border="0" /></a></td>
                         <td width="33" height="27" align="left" valign="top"><img src="images/asia_corner_05.gif" width="86" height="27" alt="" /></td>

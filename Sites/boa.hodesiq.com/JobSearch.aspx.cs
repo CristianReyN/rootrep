@@ -82,10 +82,6 @@ namespace BOA
                 ImgMerchantServices.Target = "_blank";
             }
 
-            //init hidden location value
-            Statehidden.Value = State.SelectedItem.Value.Trim();
-            if (Statehidden.Value == "All Locations") Statehidden.Value = "-1";
-
             //write the boa buttons
 
             boanet_safebutton.writeBOASafeButton("Previous", phPrevious, "Previous", LnkPrvs_Click, this.Request, "");
@@ -97,6 +93,10 @@ namespace BOA
 
             // Initialize search fields
             initSearchFields();
+
+            //init hidden location value
+            //Statehidden.Value = State.SelectedItem.Value.Trim();
+            //if (Statehidden.Value == "All Locations") Statehidden.Value = "-1";
 
             // Get form field values and assign them to variables
             getSearchFieldValues();
@@ -178,7 +178,7 @@ namespace BOA
         }
         protected void Page_LoadComplete()
         {
-            if (State.SelectedItem.Value != "-1") this.City.Focus();
+            if (State.SelectedValue != "-1") this.City.Focus();
         }
 
 
@@ -526,6 +526,17 @@ namespace BOA
             /*Country.MaskedHiringOrgId = cs.MaskedHiringOrgId;
             Country.EMediaId = cs.EMediaId;
             Country.DataBind();*/
+
+            State.MaskedHiringOrgId = cs.MaskedHiringOrgId;
+            State.EMediaId = cs.EMediaId;
+            State.CountryIdList = "1";
+            State.DataBind();
+
+            City.MaskedHiringOrgId = cs.MaskedHiringOrgId;
+            City.EMediaId = cs.EMediaId;
+            City.CountryIdList = "1";
+            City.StateIdList = "1";
+            City.DataBind();
 
             travel.MaskedHiringOrgId = cs.MaskedHiringOrgId;
             travel.QuestionId = cs.RetrieveTagValueQuestionId("Travel");
@@ -1354,8 +1365,8 @@ namespace BOA
             }
             else
             {
-                State.SelectedValue = "-1";
-                RefineSearch(State.SelectedValue);
+                //State.SelectedValue = "-1";
+                //RefineSearch(State.SelectedValue);
                 ddlJobAreas.SelectedValue = "";
                 keywords.Text = "";
             }
