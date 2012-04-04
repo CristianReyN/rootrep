@@ -23,6 +23,10 @@ table.event a.ev-p-over
 {
 	border: dotted 1px #000 !important;
 }
+span.ascent
+{
+	font-size: 1.0em;
+}
 span.ascent a,
 span.ascent a:link,
 span.ascent a:active,
@@ -35,4 +39,8 @@ span.ascent a.p:hover,
 span.ascent a.p:visited
 {
 	font-size: 0.8em;
+}
+.footnote span.ascent
+{
+	font-size: 1.0em;
 }

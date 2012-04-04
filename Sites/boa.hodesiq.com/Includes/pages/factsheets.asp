@@ -49,7 +49,7 @@
 
 <p>We strive to develop a workforce that reflects the communities where we live and work. Encouraging a diverse, inclusive workplace gives us the business advantage of understanding and meeting the needs of diverse customers, clients and communities. Globally, approximately 56 percent of our workforce is female.<span class="ascent"><a href="#footnote1" class="p" title="Footnote 1"><span class="hidden">Footnote </span>1</a></span></p>
 
-<table border="0" cellpadding="0" cellspacing="0" width="100%" class="factsheets" summary="Three column table of 2010 U.S. Workforce Breakdown listing Job Category, Percent Female and Percent Minority">
+<table border="0" cellpadding="0" cellspacing="0" width="100%" class="factsheets" summary="Three column table of 2011 U.S. Workforce Breakdown listing Job Category, Percent Female and Percent Minority">
 <tr>
 	<td class="th" colspan="3">2011 U.S. Workforce Breakdown<span class="ascent"><a href="#footnote2" class="p" title="Footnote 2"><span class="hidden">Footnote </span>2</a></span></td>
 </tr>

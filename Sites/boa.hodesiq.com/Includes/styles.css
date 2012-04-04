@@ -2235,6 +2235,7 @@ span.ascent
 	position: relative;
 	top: -0.6em;
 }
+span.ascent,
 span.ascent a,
 span.ascent a:link,
 span.ascent a:active,
@@ -2246,9 +2247,12 @@ span.ascent a.p:active,
 span.ascent a.p:hover,
 span.ascent a.p:visited
 {
-	font-size: 0.6em;
+	font-size: 1.0em;
 }
-
+.footnote span.ascent
+{
+	font-size: 1.1em;
+}
 table.factsheets
 {
 	position: relative;
