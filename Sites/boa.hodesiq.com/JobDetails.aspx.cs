@@ -122,8 +122,8 @@ namespace BOA
 
                 string applyJobTitle = CleanJobTitle(jobtitle);
 
-                boanet_safebutton.writeBOASafeButton("Apply1", ((PlaceHolder)this.FindControlInDataTemplate("phApply1")), "ApplyNow|*|" + applyJobTitle, Apply_Click_NoJS, this.Request, ((HiddenField)this.FindControlInDataTemplate("hApplyNow")).Value + this.Request.QueryString["jobpipeline"]);
-                boanet_safebutton.writeBOASafeButton("Apply2", ((PlaceHolder)this.FindControlInDataTemplate("phApply2")), "ApplyNow|*|" + applyJobTitle, Apply_Click_NoJS, this.Request, ((HiddenField)this.FindControlInDataTemplate("hApplyNow")).Value + this.Request.QueryString["jobpipeline"]);
+                boanet_safebutton.writeBOASafeButton("Apply1", ((PlaceHolder)this.FindControlInDataTemplate("phApply1")), "ApplyNow|*|" + applyJobTitle, Apply_Click_NoJS, this.Request, ((HiddenField)this.FindControlInDataTemplate("hApplyNow")).Value + "&jobpipeline=" + this.Request.QueryString["jobpipeline"]);
+                boanet_safebutton.writeBOASafeButton("Apply2", ((PlaceHolder)this.FindControlInDataTemplate("phApply2")), "ApplyNow|*|" + applyJobTitle, Apply_Click_NoJS, this.Request, ((HiddenField)this.FindControlInDataTemplate("hApplyNow")).Value + "&jobpipeline=" + this.Request.QueryString["jobpipeline"]);
 
                 prepbuttons();
 
