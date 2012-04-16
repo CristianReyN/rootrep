@@ -525,7 +525,7 @@ namespace BOA
             // Populate Travel ddl
             /*Country.MaskedHiringOrgId = cs.MaskedHiringOrgId;
             Country.EMediaId = cs.EMediaId;
-            Country.DataBind();*/
+            Country.DataBind();
 
             State.MaskedHiringOrgId = cs.MaskedHiringOrgId;
             State.EMediaId = cs.EMediaId;
@@ -537,6 +537,7 @@ namespace BOA
             City.CountryIdList = "1";
             City.StateIdList = "1";
             City.DataBind();
+             */
 
             travel.MaskedHiringOrgId = cs.MaskedHiringOrgId;
             travel.QuestionId = cs.RetrieveTagValueQuestionId("Travel");

@@ -71,12 +71,12 @@
 							<td  valign="top" style="width:48%; height:45;">
 							    <div id="d1" style="display: inline;">
 								    <asp:Label ID="lblState" runat="server" Text="State" AssociatedControlID="State"></asp:Label><br />
-								    <asp:DropDownList ID="StateOld" runat="server" CssClass="left" Style="width: 90%; z-index: auto;"
+								    <asp:DropDownList ID="State" runat="server" CssClass="left" Style="width: 90%; z-index: auto;"
 								    ToolTip="Select a state" AutoPostBack="false" OnSelectedIndexChanged="brefine_Click">
 								    <asp:ListItem Value="-1">All states&#160;</asp:ListItem>
 								    </asp:DropDownList>
 
-                                    <cswc:StateListBox ID="State" runat="server"
+                                    <cswc:StateListBox ID="State2" runat="server"
                                         ControlType="DropDownList">
                                     </cswc:StateListBox>
 								</div>
@@ -86,12 +86,12 @@
 												
 							<td  valign="top" style="width:48%; height:45;">
 							    <asp:Label ID="lblCity" runat="server" Text="City" Visible="true" AssociatedControlID="City"></asp:Label> &nbsp; &nbsp; &nbsp;<br />
-								<asp:DropDownList ID="CityOld" runat="server" CssClass="left" Style="width: 90%; z-index: auto; background-color:White; color:DarkGray"
+								<asp:DropDownList ID="City" runat="server" CssClass="left" Style="width: 90%; z-index: auto; background-color:White; color:DarkGray"
 								ToolTip="Select a city" Visible="true" Enabled="false">
 								<asp:ListItem>All cities&#160;</asp:ListItem>
 								</asp:DropDownList>	
                                 
-                                <cswc:CityListBox ID="City" runat="server"
+                                <cswc:CityListBox ID="City2" runat="server"
                                     ControlType="DropDownList">
                                 </cswc:CityListBox>
 							
