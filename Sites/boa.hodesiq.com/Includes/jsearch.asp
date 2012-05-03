@@ -8,6 +8,7 @@
 	<option value="1|4"<%If jobareas="1|4" Then Response.write " selected"%>>Change Mgmt &amp; Process</option>
 	<option value="1|2"<%If jobareas="1|2" Then Response.write " selected"%>>Corporate Executive</option>
 	<option value="1|5"<%If jobareas="1|5" Then Response.write " selected"%>>Legal</option>
+	<option value="1|27"<%If jobareas="1|27" Then Response.write " selected"%>>Program &amp; Project Management</option>
 	<option value="1|6"<%If jobareas="1|6" Then Response.write " selected"%>>Services</option>
 </optgroup>
 
@@ -66,6 +67,7 @@
 	<option value="6|4"<%If jobareas="6|4" Then Response.write " selected"%>>Change Mgmt &amp; Process</option>
 	<option value="6|3"<%If jobareas="6|3" Then Response.write " selected"%>>Corporate Workplace</option>
 	<option value="6|5"<%If jobareas="6|5" Then Response.write " selected"%>>Legal</option>
+	<option value="6|27"<%If jobareas="6|27" Then Response.write " selected"%>>Program &amp; Project Management</option>
 	<option value="6|6"<%If jobareas="6|6" Then Response.write " selected"%>>Services</option>
 </optgroup>
 
@@ -84,6 +86,7 @@
 <optgroup label="Technology">
 	<option value="9|-1"<%If jobareas="9|-1" Then Response.write " selected"%>>All Technology</option>
 	<option value="9|3"<%If jobareas="9|3" Then Response.write " selected"%>>Corporate Workplace</option>
+	<option value="9|27"<%If jobareas="9|27" Then Response.write " selected"%>>Program &amp; Project Management</option>
 </optgroup>
 
 </select>
