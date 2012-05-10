@@ -30,7 +30,7 @@ table td, table th { border:1px solid #ddd; padding:5px; }
 </style>
 </head>
 <body>
-    <form id="form1" runat="server">
+    <form id="form1" action="JobSearchConsolidated.aspx" method="post" runat="server">
     <div>
     
     </div>
@@ -41,7 +41,8 @@ table td, table th { border:1px solid #ddd; padding:5px; }
         DelimiterCharacters="" Enabled="True" ServiceMethod="GetCompletionList" 
         ServicePath="" TargetControlID="txtJobSearch" UseContextKey="True" CompletionInterval="0">
     </asp:AutoCompleteExtender>
-    <button type=button onclick="window.parent.location='http://localhost/boa/jobsearch.aspx';">Find</button>
+    <input type="submit" id="submitJob" value="Find"/>
+    
     </form>
 </body>
 </html>

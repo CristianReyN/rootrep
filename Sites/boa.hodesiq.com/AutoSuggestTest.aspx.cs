@@ -27,7 +27,7 @@ public partial class AutoSuggestTest : System.Web.UI.Page
 
         try
         {
-            OleDbCommand cmd = new OleDbCommand("p_boaJobSearchAutoSuggest2", con);
+            OleDbCommand cmd = new OleDbCommand("p_boaJobSearchAutoSuggest", con);
             cmd.CommandType = CommandType.StoredProcedure;
             cmd.Parameters.AddWithValue("@KeyWords", prefixText);
             OleDbDataAdapter da = new OleDbDataAdapter(cmd);
