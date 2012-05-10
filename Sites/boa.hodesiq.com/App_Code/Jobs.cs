@@ -637,6 +637,51 @@ public class Jobs
         return MyListDictionary;
     }
 
+    public ListDictionary AdvSearchConsolidated_ListDictionary(string keywrd)
+    {
+        //if (SortExp == null) SortExp = "";
+        //if (SortOrder == null) SortOrder = "";
+
+        int RowPerPage = 12;
+        int PageNumber = 1;
+
+        OleDbConnection con = new OleDbConnection(constring);
+        con.Open();
+        OleDbCommand cmd = new OleDbCommand("p_boaJobSearchConsolidated", con);
+        cmd.CommandType = CommandType.StoredProcedure;
+        cmd.Parameters.AddWithValue("@KeyWords", keywrd);
+
+        OleDbParameter trows = cmd.Parameters.Add("@totalrows", OleDbType.Integer);
+        trows.Direction = ParameterDirection.Output;
+
+        OleDbDataAdapter da = new OleDbDataAdapter(cmd);
+        DataSet ds = new DataSet();
+
+        da.Fill(ds, (PageNumber - 1) * RowPerPage, RowPerPage, "SearchResults");
+
+        int TotalRow = Convert.ToInt32(trows.Value);
+        int partialpagefactor;
+        partialpagefactor = TotalRow % RowPerPage > 0 ? 1 : 0;
+        int TotalPage = (TotalRow / RowPerPage) + partialpagefactor;
+
+        ListDictionary MyListDictionary = new ListDictionary();
+        MyListDictionary.Add("RecordCount", TotalRow);
+        MyListDictionary.Add("JobSearchResults", ds.Tables[0]);
+        MyListDictionary.Add("NextButton", ShowNextButton(TotalRow, PageNumber, TotalPage));
+        MyListDictionary.Add("PrevButton", ShowPrevButton(TotalRow, PageNumber, TotalPage));
+        if (TotalRow == 0)
+            MyListDictionary.Add("PageOfPages", "Page 0 of 0");
+        else
+            MyListDictionary.Add("PageOfPages", "Page " + Convert.ToString(PageNumber) + " of " + Convert.ToString(TotalPage));
+        int startpage;
+        int endpage;
+        startpage = 1 + (RowPerPage * (PageNumber - 1));
+        endpage = startpage + ds.Tables[0].Rows.Count - 1;
+        MyListDictionary.Add("JobToJobs", "Showing " + Convert.ToString(startpage) + " to " + Convert.ToString(endpage) + " of " + TotalRow + " jobs.");
+        con.Close();
+        return MyListDictionary;
+    }
+
     public OleDbDataReader TrackTellAFriendDR(string JobID, string FromAddress, string ToAddress)
     {
         OleDbConnection con = new OleDbConnection(constring);
