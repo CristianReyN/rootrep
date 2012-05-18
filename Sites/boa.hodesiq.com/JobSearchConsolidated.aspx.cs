@@ -18,48 +18,96 @@ public partial class JobSearchConsolidated : System.Web.UI.Page
     private int RecPerPage = 12;
     private string constring = ConfigurationManager.AppSettings["StrUdlFileName"];
     string BOAFeedName = "";
-    string keywords = "";
+    string isFirstTime = "0";
+
     protected void Page_Load(object sender, EventArgs e)
     {
-        keywords = String.IsNullOrEmpty(Request.Form["txtJobSearch"]) == false ? Request.Form["txtJobSearch"] : "";
+
+        DateTime MaintenanceStartDate = DateTime.Parse(System.Configuration.ConfigurationManager.AppSettings["MaintenanceStartDate"].ToString());
+        DateTime MaintenanceEndDate = DateTime.Parse(System.Configuration.ConfigurationManager.AppSettings["MaintenanceEndDate"].ToString());
+        DateTime ATSUrlStartDate = DateTime.Parse(System.Configuration.ConfigurationManager.AppSettings["ATSUrlStartDate"].ToString());
 
         //write the boa buttons
+
         boanet_safebutton.writeBOASafeButton("Previous", phPrevious, "Previous", LnkPrvs_Click, this.Request, "");
         boanet_safebutton.writeBOASafeButton("Next", phNext, "Next", LnkNxt_Click, this.Request, "");
         //
 
+
         lblMessage.Text = "";
+        if (!this.IsPostBack)
+        {
+            //BOAFeedname should be blank unless it is canada and french pages
+            BOAFeedName = Request.QueryString["BOAFeedName"] == null ? "" : Request.QueryString["BOAFeedName"].ToString();
+            ViewState["BOAFeedName"] = BOAFeedName;
+        }
+        else
+        {
+            if (ViewState["BOAFeedName"] != null)
+            {
+                BOAFeedName = ViewState["BOAFeedName"].ToString();
+            }
+        }
+
+        isFirstTime = Request.Form["isFirstTime"];
 
         if (ViewState["BOAFeedName"] != null)
         {
             BOAFeedName = ViewState["BOAFeedName"].ToString();
         }
 
-        funAdvSearchConsolidated(0);
+        if (isFirstTime == "1")
+        {
+            ViewState["PageNumber"] = 1;
+            funAdvSearchConsolidated(0);
+            PnlResults.Visible = true;
+        }
+
     }
     protected void Page_LoadComplete()
     {
-        
+
     }
 
 
     public void Page_PreRender(object sender, EventArgs e)
     {
-        string Instructions = "To further refine your job search and find a career suited to your skill set, use our <a class='p' style='font-weight:bold;' href='JobSearch.aspx'>Advanced Job Search</a> or Job Matching Tool";
+        string Instructions = "To further refine your job search and find a career suited to your skill set, use our <a class='p' style='font-weight:bold;' href='JobSearch.aspx'>Advanced Job Search</a>.";
         tdInstructions.Text = Instructions;
     }
 
-
     public void funAdvSearchConsolidated(int iFrom)
     {
-        string keywrd = keywords;
+        string keywrd = Request.Form["txtJobSearch"];
+
+        if (ViewState["strRec"] == null)
+        {
+            ViewState["strRec"] = 1;
+            ViewState["endRec"] = 12;
+        }
+
+
+        if (iFrom == 0) // Reset | ReSearch
+        {
+            ViewState["MysortDirection"] = null;
+            ViewState["sortExpression"] = null;
+        }
+
+
         Jobs Job = new Jobs();
         ListDictionary MyListDictionary = new ListDictionary();
-        MyListDictionary = Job.AdvSearchConsolidated_ListDictionary(keywrd);
+        MyListDictionary = Job.AdvSearchConsolidated_ListDictionary(keywrd, (int)(ViewState["PageNumber"]), RecPerPage, (string)ViewState["sortExpression"], (string)ViewState["MysortDirection"]);
         DataTable DT = (DataTable)MyListDictionary["JobSearchResults"];
 
         FilterJobSearch(iFrom, DT, MyListDictionary);
     }
+
+
+    public void funAdvSearch(int iFrom)
+    {
+        funAdvSearchConsolidated(iFrom);
+    }
+
 
     private void FilterJobSearch(int iFrom, DataTable DT, ListDictionary MyListDictionary)
     {
@@ -91,8 +139,6 @@ public partial class JobSearchConsolidated : System.Web.UI.Page
                     { c.HeaderText += " <img src='images/dnArrow.gif' border='0'>"; }
                 }
             }
-
-            
 
         }
 
@@ -143,7 +189,7 @@ public partial class JobSearchConsolidated : System.Web.UI.Page
             GridViewSortDirection = SortDirection.Ascending;
             ViewState["MysortDirection"] = " ASC";
         }
-        funAdvSearchConsolidated(2);
+        funAdvSearch(2);
     }
 
     public SortDirection GridViewSortDirection
@@ -159,7 +205,12 @@ public partial class JobSearchConsolidated : System.Web.UI.Page
 
     #endregion
 
-
+    protected void bsearch_Click(object sender, EventArgs e)
+    {
+        ViewState["PageNumber"] = 1;
+        funAdvSearch(0);
+        PnlResults.Visible = true;
+    }
 
     protected void LnkNxt_Click(object sender, EventArgs e)
     {
@@ -173,9 +224,11 @@ public partial class JobSearchConsolidated : System.Web.UI.Page
         funAdvSearchConsolidated(1);
     }
 
-
-
-
+    private void UpdateFilter()
+    {
+        phNext.Visible = true;
+        phPrevious.Visible = true;
+    }
 
 
 }
