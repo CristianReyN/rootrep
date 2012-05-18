@@ -50,6 +50,7 @@
 							</td>
 						</tr>
 					</table>
+                    <input type="hidden" name="txtJobSearch" value="<%=Request.Form["txtJobSearch"]%>" />
                     <asp:GridView 
                     ID="GrdResults" 
                     runat="server"                     
