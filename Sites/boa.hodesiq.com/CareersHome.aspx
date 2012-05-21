@@ -5,11 +5,11 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <meta NAME="title" CONTENT="Bank of America | Careers | Home">
+	<title>Bank of America | Careers | Home</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <meta NAME="description" CONTENT="Main page of the Bank of America careers site. From this page you can click to more links about benefits, diversity, military, corporate information, student programs and global locations.  You can also do a keyword search to find available opportunities.">
     <meta NAME="keywords" CONTENT="Bank of America, Merrill Lynch, U.S. TRUST, Career, Job, Global, Campus, Students">
-    	    
+        	    
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>     
     <script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
     <link rel="stylesheet" type="text/css" href="homepage-redesign/styles/jkmegamenu.css" />
@@ -152,14 +152,10 @@
             $('#slide3').keyup(function () { rotate(); });
             $('#slide4').keyup(function () { rotate(); });
             $('#slide5').keyup(function () { rotate(); });
-
-            //if ($('#slide1').css('visible')=="visible"){alert("It is enabled");}
-            //else {alert("it is not enabled");}                                           
+                                                      
         });      
     </script>   
      <noscript>This page uses Javascript. Your browser either doesn't support Javascript or you have it turned off. To see this page properly please use a Javascript enabled browser.</noscript>
-
-
 
 </head>
 <body>
@@ -220,7 +216,7 @@ CompletionListHighlightedItemCssClass="hoverlistitem2"
 <ul>
     <li><span id="learnabout">Learn About</span></li>
     <li id ="megaanchor1" style="padding-right:10px;"><a href="#" id="locations" tabindex="8" title="Hover or click to expand the menu for Locations">LOCATIONS</a></li>
-    <li id ="megaanchor2" style="padding-right:10px;"><a href="#" id="business" tabindex="13" title="Hover or click to expand the menu for Businesses">BUSINESS</a></li>
+    <li id ="megaanchor2" style="padding-right:10px;"><a href="#" id="business" tabindex="13" title="Hover or click to expand the menu for Businesses">BUSINESSES</a></li>
     <li id ="megaanchor3" style="padding-right:10px;"><a href="#" id="jobareas" tabindex="23" title="Hover or click to expand the menu for Job Areas">JOB AREAS</a></li>   
     <li id ="megaanchor4" style="padding-right:10px;"><a href="#" id="culture" tabindex="35" title="Hover or click to expand the menu for Culture & Work Environment">CULTURE &AMP; WORK ENVIRONMENT</a></li>
     <li id ="megaanchor5"><a href="#" id="topics"  tabindex="44" title="Hover or click to expand the menu for Topics">TOPICS</a></li>        
@@ -323,10 +319,6 @@ CompletionListHighlightedItemCssClass="hoverlistitem2"
         $('#learnabout').focus(function () { reset(); });
         $('#learnabout').mouseenter(function () { reset(); });
         $('#learnabout').mouseover(function () { reset(); });
-
-        $('#topmenu').focus(function () { reset(); });
-        $('#topmenu').mouseenter(function () { reset(); });
-        $('#topmenu').mouseover(function () { reset(); });
 
         $('#search').focus(function () { reset(); });
         $('#search').mouseenter(function () { reset(); });
@@ -506,33 +498,18 @@ CompletionListHighlightedItemCssClass="hoverlistitem2"
         reset();
         window.clearInterval(intval)
         intval = null;
-        //checkdisplay();
-        document.getElementById('ctrl1').focus();
-        //theRotator();
-    }
-    function checkdisplay() {
-        if (document.getElementById('slide1').style.visible == 'visible') { alert("it is enabled"); document.getElementById("item152").focus(); }
-        else if (document.getElementById('slide2').style.visible == 'visible') { document.getElementById('item153').focus(); }
-        else if (document.getElementById('slide3').style.visible == 'visible') { document.getElementById('item154').focus(); }
-        else if (document.getElementById('slide4').style.visible == 'visible') { document.getElementById('item155').focus(); }
-        else if (document.getElementById('slide5').style.visible == 'visible') { document.getElementById('item156').focus(); }
     }
     function _nexttab() { document.getElementById('item157').focus(); }
 </script>
-
-
-            
-
-
-
+<h1 class="hidden">Bank of America Careers Home</h1>
             <div id="slidearea">
                 <div id="rotator"> 
                 <ul>
                     <li id="slide1" class="show" style="background: url(homepage-redesign/images/slide/p1.jpg) top left no-repeat;"><div class="text-controls"><div class="contents"><img src="homepage-redesign/images/slide/ttl1.png" alt="" border="0" style="background:none;" /><p>If you want to work with consumers, investors or institutions, in a career that goes from customer care, sales and finance to HR, technology or risk management &mdash; a career with Bank of America may set opportunity in motion for you. <a href="areasoftalent/areasoftalent.asp" id="item152" tabindex="52">Explore our Job Areas</a> to learn more and apply. </p></div></div></li>
-                    <li id="slide2" style="background: url(homepage-redesign/images/slide/p2.jpg) top left no-repeat;"><div class="text-controls"><div class="contents"><img src="homepage-redesign/images/slide/ttl2.png" alt="" border="0" style="background:none;" /><p>Opportunity awaits those who seek constant challenge, and remarkable rewards. <a href="financialadvisor/" id="item153" tabindex="53" title="Join our team, learn more about Financial Advisors"><noscript>Join our team, learn more about Financial Advisors</noscript>Join our team</a> of Financial Advisors at Bank of America, developing and delivering sophisticated solutions that help our affluent clients simplify, manage and maximize their financial goals.</p></div></div></li>
-                    <li id="slide3" style="background: url(homepage-redesign/images/slide/p3.jpg) top left no-repeat;"><div class="text-controls"><div class="contents"><img src="homepage-redesign/images/slide/ttl3.png" alt="" border="0" style="background:none;" /><p><a href="campus.aspx" id="item154" tabindex="54" title="Join our team, learn more about Student programs"><noscript>Join our team, learn more about Student programs</noscript>Join our team</a> and we&rsquo;ll open your career path and give you new opportunities to take the possible and make it real. You&rsquo;ll receive training, mentorship and support to boost your aspirations to a global level. And, as part of the world’s leading financial institution, you can create the kind of opportunity that generates greater opportunity and bigger impact than you ever imagined.</p></div></div></li>
-                    <li id="slide4" style="background: url(homepage-redesign/images/slide/p4.jpg) top left no-repeat;"><div class="text-controls"><div class="contents"><img src="homepage-redesign/images/slide/ttl4.png" alt="" border="0" style="background:none;" /><p>With positions available across the Americas, Europe, Middle East, Africa (EMEA) and Asia&mdash;Pacific, there is literally a world of opportunity with us. More than 250,000 employees worldwide have already discovered their ideal career at Bank of America. We invite you to <a href="locations/" id="item155" tabindex="55" title="Learn more about our locations"><noscript>Learn more about our locations</noscript>learn more about us.</a> </p></div></div></li>
-                    <li id="slide5" style="background: url(homepage-redesign/images/slide/p5.jpg) top left no-repeat;"><div class="text-controls"><div class="contents"><img src="homepage-redesign/images/slide/ttl5.png" alt="" border="0" style="background:none;" /><p>Bring your skills to a place where teamwork, trust and accountability mean as much to us as they do to you.  Bank of America is proud to be regularly recognized by GI Jobs, Military Edge, and others, as a top &ldquo;military-friendly&rdquo; employer. Join thousands of other veterans here, and <a href="military/" id="156" tabindex="56" title="Discover why veterans consider us military-friendly"><noscript>Discover why veterans consider us military-friendly</noscript>discover why.</a></p></div></div></li>
+                    <li id="slide2" style="background: url(homepage-redesign/images/slide/p2.jpg) top left no-repeat;"><div class="text-controls"><div class="contents"><img src="homepage-redesign/images/slide/ttl2.png" alt="" border="0" style="background:none;" /><p>Opportunity awaits those who seek constant challenge, and remarkable rewards. <a href="financialadvisor/" id="item153" tabindex="53" title="Join our team, learn more about Financial Advisors">Join our team<span class="hidden">Join our team, learn more about Financial Advisors</span></a> of Financial Advisors at Bank of America, developing and delivering sophisticated solutions that help our affluent clients simplify, manage and maximize their financial goals.</p></div></div></li>
+                    <li id="slide3" style="background: url(homepage-redesign/images/slide/p3.jpg) top left no-repeat;"><div class="text-controls"><div class="contents"><img src="homepage-redesign/images/slide/ttl3.png" alt="" border="0" style="background:none;" /><p><a href="campus.aspx" id="item154" tabindex="54" title="Join our team, learn more about Student programs">Join our team<span class="hidden">Join our team, learn more about Student programs</span></a> and we&rsquo;ll open your career path and give you new opportunities to take the possible and make it real. You&rsquo;ll receive training, mentorship and support to boost your aspirations to a global level. And, as part of the world’s leading financial institution, you can create the kind of opportunity that generates greater opportunity and bigger impact than you ever imagined.</p></div></div></li>
+                    <li id="slide4" style="background: url(homepage-redesign/images/slide/p4.jpg) top left no-repeat;"><div class="text-controls"><div class="contents"><img src="homepage-redesign/images/slide/ttl4.png" alt="" border="0" style="background:none;" /><p>With positions available across the Americas, Europe, Middle East, Africa (EMEA) and Asia&mdash;Pacific, there is literally a world of opportunity with us. More than 250,000 employees worldwide have already discovered their ideal career at Bank of America. We invite you to <a href="locations/" id="item155" tabindex="55" title="Learn more about our locations">learn more about us.<span class="hidden">Learn more about our locations</span></a></p></div></div></li>
+                    <li id="slide5" style="background: url(homepage-redesign/images/slide/p5.jpg) top left no-repeat;"><div class="text-controls"><div class="contents"><img src="homepage-redesign/images/slide/ttl5.png" alt="" border="0" style="background:none;" /><p>Bring your skills to a place where teamwork, trust and accountability mean as much to us as they do to you.  Bank of America is proud to be regularly recognized by GI Jobs, Military Edge, and others, as a top &ldquo;military-friendly&rdquo; employer. Join thousands of other veterans here, and <a href="military/" id="156" tabindex="56" title="Discover why veterans consider us military-friendly">discover why.<span class="hidden">Discover why veterans consider us military-friendly</span></a></p></div></div></li>
                 </ul>
                 <div>
                     <div class="slide-controls">
@@ -617,13 +594,20 @@ CompletionListHighlightedItemCssClass="hoverlistitem2"
                 </div>
                 <div id="footer-mid">
                     <div id="footerNavMidLeft">
+                        <a href="http://www.bankofamerica.com/index.cfm?page=about" title="Bank of America Corporation Logo" tabindex="73" name="boa_corporation_footernav"><img style="padding-left:10px;" src="homepage-redesign/images/footer/boa-corporation.jpg" alt="Bank of America Corporation Logo"></a>
+                        <img style="padding-left:7px;" src="homepage-redesign/images/footer/sep-h33.jpg" alt="" />
+                        <a href="http://www.bankofamerica.com" title="Bank of America Logo" tabindex="74"><img src="homepage-redesign/images/footer/boa.jpg" alt="Bank of America Logo" name="boa_foternav"></a>
+                        <a href="http://ml.com/index.asp?id=7695_15125" title="Merrill Lynch Wealth Management logo" tabindex="75" name="merrill_lynch_wealth_management_footernav"><img src="homepage-redesign/images/footer/merrill.jpg" alt="Merrill Lynch Wealth Management logo"></a>
+                        <a href="http://www.ustrust.com/ust/pages/index.aspx" title="U.S. TRUST logo" tabindex="76" name="us_trust_footernav"><img src="homepage-redesign/images/footer/us-trust.jpg" alt="U.S. TRUST logo"></a>
+                        <a href="http://corp.bankofamerica.com/" title="Bank of America Merrill Lynch logo" tabindex="77" name="boa_merrill_lynch_footernav"><img src="homepage-redesign/images/footer/boa-merrill.jpg" alt="Bank of America Merrill Lynch logo"></a>                       
+                        <%--
                         <ul>
                             <li style="background:url(homepage-redesign/images/footer/sep-h25.png) center right no-repeat;"><a href="http://www.bankofamerica.com/index.cfm?page=about" title="Bank of America Corporation Logo" tabindex="73" name="boa_corporation_footernav"><img src="homepage-redesign/images/footer/boa-corporation.png" alt="Bank of America Corporation Logo"></a></li>
                             <li><a href="http://www.bankofamerica.com" title="Bank of America Logo" tabindex="74"><img src="homepage-redesign/images/footer/boa.png" alt="Bank of America Logo" name="boa_foternav"></a></li>
                             <li><a href="http://ml.com/index.asp?id=7695_15125" title="Merrill Lynch Wealth Management logo" tabindex="75" name="merrill_lynch_wealth_management_footernav"><img src="homepage-redesign/images/footer/merrill.png" alt="Merrill Lynch Wealth Management logo"></a></li>
                             <li><a href="http://www.ustrust.com/ust/pages/index.aspx" title="U.S. TRUST logo" tabindex="76" name="us_trust_footernav"><img src="homepage-redesign/images/footer/us-trust.png" alt="U.S. TRUST logo"></a></li>
                             <li><a href="http://corp.bankofamerica.com/" title="Bank of America Merrill Lynch logo" tabindex="77" name="boa_merrill_lynch_footernav"><img src="homepage-redesign/images/footer/boa-merrill.png" alt="Bank of America Merrill Lynch logo"></a></li>
-                        </ul>
+                        </ul>--%>
                     </div>
                     <div id="footerNavMidRight"><p>Bank of America, N.A. Member FDIC. <a href="http://www.bankofamerica.com/help/equalhousing.cfm" tabindex="78">Equal Housing Lender</a><br />&copy;2012 Bank of America Corporation. All rights reserved.</p></div>
                 </div>
