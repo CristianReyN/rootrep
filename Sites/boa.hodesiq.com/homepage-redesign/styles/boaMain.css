@@ -36,7 +36,7 @@ img{border:0;}
 	margin-right:auto;}
 
 #header-top{position:relative; width:1028px; height:101px; margin-left:auto; margin-right:auto;}	
-#header-mid{position:relative; width:1028px; height:46px; margin-left:auto; margin-right:auto; background:url(../images/bg-header-bottom.jpg) top left no-repeat;}
+#header-mid{position:relative; width:1028px; height:46px; margin-left:auto; margin-right:auto; background:url(../images/bg-header-bottom.jpg) top left no-repeat;z-index:99;}
 #skipnav{position:absolute; width:150px; top:50px; height:69px; margin-left:900px; font-family:Verdana, Geneva, sans-serif; font-size:10px; color:#fff; font-weight:bold;}
 
 #search{width:984px; height:46px; margin-left:auto; margin-right:auto; background:url(../images/bg-search.png) top left no-repeat;}
@@ -88,6 +88,7 @@ img{border:0;}
 		color: #FFFFFF;
 		font: normal 12px Arial, Helvetica, sans-serif;
 		position: relative;
+		z-index: 0;
 		width: 1028px;
 		height: 367px;
 		margin-left:auto;
@@ -260,3 +261,42 @@ input.txt{
 	color:#000000; padding-left:5px;}
 
 /**** Top Menu ***/
+
+
+/**** Job Search auto suggest box ***/
+.txtJobSearch { font-size:0.9em; z-index: 99;}
+
+.txtJobSearchItem { font-size:0.8em; padding-bottom:3em; z-index: 99;}
+
+.list2 {
+border: 1px solid DarkGray;
+list-style-type: none;
+margin: 0px;
+background-color: #FFF;
+text-align: left;
+font-size:0.9em;
+vertical-align:middle;
+color: black;
+position: relative;
+z-index: 99;
+}
+
+ul.list2 li {
+padding: 5px 5px;
+position: relative;
+z-index: 99;
+}
+
+.listitem2 {
+color: #000;
+font-size:0.9em;
+position: relative;
+z-index: 99;
+}
+
+.hoverlistitem2 {
+background-color: DarkGray;
+font-size:0.9em;
+position: relative;
+z-index: 99;
+}
