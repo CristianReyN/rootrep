@@ -637,19 +637,18 @@ public class Jobs
         return MyListDictionary;
     }
 
-    public ListDictionary AdvSearchConsolidated_ListDictionary(string keywrd)
+    public ListDictionary AdvSearchConsolidated_ListDictionary(string keywrd, int PageNumber, int RowPerPage, string SortExp, string SortOrder)
     {
-        //if (SortExp == null) SortExp = "";
-        //if (SortOrder == null) SortOrder = "";
-
-        int RowPerPage = 12;
-        int PageNumber = 1;
+        if (SortExp == null) SortExp = "";
+        if (SortOrder == null) SortOrder = "";
 
         OleDbConnection con = new OleDbConnection(constring);
         con.Open();
         OleDbCommand cmd = new OleDbCommand("p_boaJobSearchConsolidated", con);
         cmd.CommandType = CommandType.StoredProcedure;
         cmd.Parameters.AddWithValue("@KeyWords", keywrd);
+        cmd.Parameters.AddWithValue("@SortExp", SortExp);
+        cmd.Parameters.AddWithValue("@SortOrder", SortOrder);
 
         OleDbParameter trows = cmd.Parameters.Add("@totalrows", OleDbType.Integer);
         trows.Direction = ParameterDirection.Output;
