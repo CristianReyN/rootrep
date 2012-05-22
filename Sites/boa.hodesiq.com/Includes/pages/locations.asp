@@ -2,7 +2,7 @@
 			<tr valign="top"><td colspan="2" valign="top" class="divt"><img src="../images/clear.gif" width="100%" height="4" alt="" border="0"></td></tr>
 			<tr valign="top">
 				<td width="100%" colspan="2" valign="top">
-<img src="../images/banners/regions.jpg" width="578" height="166" alt="Regions. Explore a career with the Bank of Opportunity." title="Regions. Explore a career with the Bank of Opportunity." border="0">
+<img src="../images/banners/locations.jpg" width="578" height="166" alt="Locations. Explore a career with the Bank of Opportunity." title="Locations. Explore a career with the Bank of Opportunity." border="0">
 				</td>
 			</tr>
 			<tr valign="top"><td colspan="2" valign="top" class="divb"><img src="../images/clear.gif" width="100%" height="4" alt="" border="0"></td></tr>
