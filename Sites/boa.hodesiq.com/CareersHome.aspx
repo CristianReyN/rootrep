@@ -23,6 +23,7 @@
             
     <script type="text/javascript">
         var intval = null;
+        var cindex = 0;
         function theRotator() {
             //Set the opacity of all images to 0
             $('div#rotator ul li').css({ opacity: 0.0 });
@@ -36,7 +37,7 @@
                 });
             }
             //Call the rotator function to run the slideshow, 6000 = change to next image after 6 seconds
-            intval = setInterval('rotate()', 5668);
+            intval = setInterval('rotate()', 8000);
         }
 
         function rotate(ne_xt) {
@@ -93,7 +94,12 @@
                     $(this).click(function () {
                         if ($('div#rotator ul li')) {
                             $('div#rotator ul li').each(function (lindex) {
-                                if (lindex == (index - 1)) _switch($(this));
+                                if (lindex == (index - 1)) {
+                                    if (cindex != lindex) {
+                                        _switch($(this));
+                                        cindex = lindex;
+                                    }
+                                }
                             });
                         }
                     });
@@ -132,7 +138,7 @@
             else {
                 window.clearInterval(intval)
                 intval = null;
-                intval = setInterval('rotate()', 5668);
+                intval = setInterval('rotate()', 8000);
                 document.getElementById("pause").style.display = "inline";
                 document.getElementById("play").style.display = "none";
             }
