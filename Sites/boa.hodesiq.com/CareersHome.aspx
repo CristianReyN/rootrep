@@ -173,14 +173,14 @@
                 <map name="map"><area shape="rect" coords="45,26,303,63" href="https://www.bankofamerica.com/" alt="Bank of America logo" title="Bank of America logo" tabindex="1" />
                 <area shape="rect" coords="326,26,435,63" alt="Careers" title="Careers">
                 </map>
-                <div id="skipnav" style="display:block;"><a href="#skipcontent" style="width: 1px; height: 69px; display: inline-block;" title="Skip To Main Content." name="Skip_Main_Content_header" tabindex="2" onclick="_nexttab();"><img src="images/clear.gif" width="1" height="69" alt="Skip to main content." border="0" /></a></div>               
+                <%--<div id="skipnav" style="display:block;"><a href="#skipcontent" style="width: 1px; height: 69px; display: inline-block;" title="Skip To Main Content." name="Skip_Main_Content_header" tabindex="2" onclick="_nexttab();"><img src="images/clear.gif" width="1" height="69" alt="Skip to main content." border="0" /></a></div>--%>               
             </div>
             <div id="header-mid">
                     <div id="search">
                         <table width="908" border="0" cellpadding="0" cellspacing="0" style="margin-left:30px;" summary="This table contains the controls of search box.">
                             <tr>
                                 <td>
-                                    <table width="570" border="0" cellpadding="0" cellspacing="0" style="font-family:Verdana; font-size:14px; font-weight:bold; color:#fff;" summary="This table contains the controls of search box.">
+                                    <table width="570" border="0" cellpadding="0" cellspacing="0" style="margin-top:3px; font-family:Verdana; font-size:14px; font-weight:bold; color:#fff;" summary="This table contains the controls of search box.">
                                         <tr>
                                             <td width="100"><img src="homepage-redesign/images/search-jobs.png" alt="" /></td>
                                             <td width="220">
@@ -206,7 +206,7 @@ CompletionListHighlightedItemCssClass="hoverlistitem2"
                                             <td width="210" align="left"><a href="jobsearch.aspx" title="Follow to Advance Search" tabindex="5"><img src="homepage-redesign/images/btn-advanced-search.png"  alt="Follow to Advance Search" style="margin:3px 0 0 2px;"/></a></td>                                                                              
                                         </tr>
                                         <tr>
-                                            <td><h1 class="hidden">Bank of America Careers Home</h1></td>
+                                            <td></td>
                                             <td><a class="asst" href="appl_with_disabilities.aspx" tabindex="6">Assistance for Applicants with Disabilities</a></td>
                                             <td></td><td></td>
                                         </tr>
@@ -217,7 +217,7 @@ CompletionListHighlightedItemCssClass="hoverlistitem2"
                     </div>
                 </div>
 
-
+<span class="hidden">To navigate to a specific topic, begin by tabbing through the navigation menus.  There are 5 main categories of information, which are Locations, Businesses, Job Areas, Culture & Work Environment and Topics.  You can tab through all of the topics underneath a category, and then use the enter key to go to the specific page for that topic.</span>
 <div id="topmenu">
 <ul>
     <li><span id="learnabout">Learn About</span></li>
@@ -226,6 +226,7 @@ CompletionListHighlightedItemCssClass="hoverlistitem2"
     <li id ="megaanchor3" style="padding-right:10px;"><a href="#" id="jobareas" tabindex="23" title="Hover or click to expand the menu for Job Areas">JOB AREAS</a></li>   
     <li id ="megaanchor4" style="padding-right:10px;"><a href="#" id="culture" tabindex="35" title="Hover or click to expand the menu for Culture & Work Environment">CULTURE &AMP; WORK ENVIRONMENT</a></li>
     <li id ="megaanchor5"><a href="#" id="topics"  tabindex="44" title="Hover or click to expand the menu for Topics">TOPICS</a></li>        
+    <li><span id="emptyspc" style="width:50px;">&nbsp;&nbsp;</span></li>
 </ul> 
 </div>   
 <div id="megamenu1" class="megamenu">
@@ -325,6 +326,10 @@ CompletionListHighlightedItemCssClass="hoverlistitem2"
         $('#learnabout').focus(function () { reset(); });
         $('#learnabout').mouseenter(function () { reset(); });
         $('#learnabout').mouseover(function () { reset(); });
+
+        $('#emptyspc').focus(function () { reset(); });
+        $('#emptyspc').mouseenter(function () { reset(); });
+        $('#emptyspc').mouseover(function () { reset(); });
 
         $('#search').focus(function () { reset(); });
         $('#search').mouseenter(function () { reset(); });
@@ -454,8 +459,8 @@ CompletionListHighlightedItemCssClass="hoverlistitem2"
         });
 
         $('#topics').focus(function () {
-            var marLeft = 152;
-            if ($.browser.msie && parseFloat($.browser.version) < 9) { marLeft = 138; }
+            var marLeft = 234;
+            if ($.browser.msie && parseFloat($.browser.version) < 9) { marLeft = 235; }
             reset();
             var offset = $('#topics').offset();
             $('#megamenu5').css("left", offset.left - marLeft);
@@ -466,8 +471,8 @@ CompletionListHighlightedItemCssClass="hoverlistitem2"
         });
 
         $('#topics').mouseenter(function () {
-            var marLeft = 152;
-            if ($.browser.msie && parseFloat($.browser.version) < 9) { marLeft = 138; }
+            var marLeft = 234;
+            if ($.browser.msie && parseFloat($.browser.version) < 9) { marLeft = 235; }
             reset();
             var offset = $('#topics').offset();
             $('#megamenu5').css("left", offset.left - marLeft);
@@ -507,15 +512,16 @@ CompletionListHighlightedItemCssClass="hoverlistitem2"
     }
     function _nexttab() { document.getElementById('item157').focus(); }
 </script>
-<h1 class="hidden">Bank of America Careers Home</h1>
+        <h1 class="hidden">Bank of America Careers Home</h1>
+        <div id="skipnav" style="display:block;"><a href="#skipcontent" style="width: 1px; height: 69px; display: inline-block;" title="Skip To Main Content." name="Skip_Main_Content_header" tabindex="2" onclick="_nexttab();"><img src="images/clear.gif" width="1" height="69" alt="Skip to main content." border="0" /></a></div>
             <div id="slidearea">
                 <div id="rotator"> 
                 <ul>
-                    <li id="slide1" class="show" style="background: url(homepage-redesign/images/slide/p1.jpg) top left no-repeat;"><div class="text-controls"><div class="contents"><img src="homepage-redesign/images/slide/ttl1.png" alt="" border="0" style="background:none;" /><p>If you want to work with consumers, investors or institutions, in a career that goes from customer care, sales and finance to HR, technology or risk management &mdash; a career with Bank of America may set opportunity in motion for you. <a href="areasoftalent/areasoftalent.asp" id="item152" tabindex="52">Explore our Job Areas</a> to learn more and apply. </p></div></div></li>
-                    <li id="slide2" style="background: url(homepage-redesign/images/slide/p2.jpg) top left no-repeat;"><div class="text-controls"><div class="contents"><img src="homepage-redesign/images/slide/ttl2.png" alt="" border="0" style="background:none;" /><p>Opportunity awaits those who seek constant challenge, and remarkable rewards. <a href="financialadvisor/" id="item153" tabindex="53" title="Join our team, learn more about Financial Advisors">Join our team<span class="hidden">Join our team, learn more about Financial Advisors</span></a> of Financial Advisors at Bank of America, developing and delivering sophisticated solutions that help our affluent clients simplify, manage and maximize their financial goals.</p></div></div></li>
-                    <li id="slide3" style="background: url(homepage-redesign/images/slide/p3.jpg) top left no-repeat;"><div class="text-controls"><div class="contents"><img src="homepage-redesign/images/slide/ttl3.png" alt="" border="0" style="background:none;" /><p><a href="campus.aspx" id="item154" tabindex="54" title="Join our team, learn more about Student programs">Join our team<span class="hidden">Join our team, learn more about Student programs</span></a> and we&rsquo;ll open your career path and give you new opportunities to take the possible and make it real. You&rsquo;ll receive training, mentorship and support to boost your aspirations to a global level. And, as part of the world’s leading financial institution, you can create the kind of opportunity that generates greater opportunity and bigger impact than you ever imagined.</p></div></div></li>
-                    <li id="slide4" style="background: url(homepage-redesign/images/slide/p4.jpg) top left no-repeat;"><div class="text-controls"><div class="contents"><img src="homepage-redesign/images/slide/ttl4.png" alt="" border="0" style="background:none;" /><p>With positions available across the Americas, Europe, Middle East, Africa (EMEA) and Asia&mdash;Pacific, there is literally a world of opportunity with us. More than 250,000 employees worldwide have already discovered their ideal career at Bank of America. We invite you to <a href="locations/" id="item155" tabindex="55" title="Learn more about our locations">learn more about us.<span class="hidden">Learn more about our locations</span></a></p></div></div></li>
-                    <li id="slide5" style="background: url(homepage-redesign/images/slide/p5.jpg) top left no-repeat;"><div class="text-controls"><div class="contents"><img src="homepage-redesign/images/slide/ttl5.png" alt="" border="0" style="background:none;" /><p>Bring your skills to a place where teamwork, trust and accountability mean as much to us as they do to you.  Bank of America is proud to be regularly recognized by GI Jobs, Military Edge, and others, as a top &ldquo;military-friendly&rdquo; employer. Join thousands of other veterans here, and <a href="military/" id="156" tabindex="56" title="Discover why veterans consider us military-friendly">discover why.<span class="hidden">Discover why veterans consider us military-friendly</span></a></p></div></div></li>
+                    <li id="slide1" class="show" style="background: url(homepage-redesign/images/slide/p1.jpg) top left no-repeat;"><div class="text-controls"><div class="contents"><img src="homepage-redesign/images/slide/ttl1.png" alt="" border="0" style="background:none;" /><p>If you want to work with consumers, investors or institutions, in a career that goes from customer care, sales and finance to HR, technology or risk management &mdash; a career with Bank of America may set opportunity in motion for you. <a href="areasoftalent/areasoftalent.asp" id="item152" tabindex="52">Explore our Job Areas now.</a></p></div></div></li>
+                    <li id="slide2" style="background: url(homepage-redesign/images/slide/p2.jpg) top left no-repeat;"><div class="text-controls"><div class="contents"><img src="homepage-redesign/images/slide/ttl2.png" alt="" border="0" style="background:none;" /><p>Opportunity awaits those who seek constant challenge, and remarkable rewards. <a href="financialadvisor/" id="item153" tabindex="53" title="Join our team, learn more about Financial Advisors">Join our team</a> of Financial Advisors at Bank of America, developing and delivering sophisticated solutions that help our affluent clients simplify, manage and maximize their financial goals.</p></div></div></li>
+                    <li id="slide3" style="background: url(homepage-redesign/images/slide/p3.jpg) top left no-repeat;"><div class="text-controls"><div class="contents"><img src="homepage-redesign/images/slide/ttl3.png" alt="" border="0" style="background:none;" /><p><a href="campus.aspx" id="item154" tabindex="54" title="Join our team, learn more about Student programs">Join our team<span class="hidden"> learn more about Student programs </span></a> and we&rsquo;ll open your career path and give you new opportunities to take the possible and make it real. You&rsquo;ll receive training, mentorship and support to boost your aspirations to a global level. And, as part of the world’s leading financial institution, you can create the kind of opportunity that generates greater opportunity and bigger impact than you ever imagined.</p></div></div></li>
+                    <li id="slide4" style="background: url(homepage-redesign/images/slide/p4.jpg) top left no-repeat;"><div class="text-controls"><div class="contents"><img src="homepage-redesign/images/slide/ttl4.png" alt="" border="0" style="background:none;" /><p>With positions available across the Americas, Europe, Middle East, Africa (EMEA) and Asia&mdash;Pacific, there is literally a world of opportunity with us. More than 250,000 employees worldwide have already discovered their ideal career at Bank of America. We invite you to <a href="locations/" id="item155" tabindex="55" title="Learn about our locations">learn more about us.<span class="hidden"> Learn about our locations. </span></a></p></div></div></li>
+                    <li id="slide5" style="background: url(homepage-redesign/images/slide/p5.jpg) top left no-repeat;"><div class="text-controls"><div class="contents"><img src="homepage-redesign/images/slide/ttl5.png" alt="" border="0" style="background:none;" /><p>Bring your skills to a place where teamwork, trust and accountability mean as much to us as they do to you.  Bank of America is proud to be regularly recognized by GI Jobs, Military Edge, and others, as a top &ldquo;military-friendly&rdquo; employer. Join thousands of other veterans here, and <a href="military/" id="156" tabindex="56" title="Discover why veterans consider us military-friendly">discover why.<span class="hidden"> veterans consider us military-friendly .</span></a></p></div></div></li>
                 </ul>
                 <div>
                     <div class="slide-controls">
