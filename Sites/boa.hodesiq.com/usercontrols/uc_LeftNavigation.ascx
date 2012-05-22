@@ -10,7 +10,7 @@
                 
                 <asp:label id="LblLeftNav" runat="server"></asp:label>
                 <img src="images/clear.gif" width="160" height="20" alt="" border="0" /><br /><br />
-              
+              <!--
               <div id="sjm-root" align="center"></div>
               <script type="text/javascript">
                   (function () {
@@ -19,7 +19,7 @@
                       (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(plugin);
                   } ());
               </script>         
-              
+              -->
         </td>
     </tr>
 

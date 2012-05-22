@@ -82,11 +82,18 @@ public partial class uc_LeftNavigation : System.Web.UI.UserControl
                            @"onfocus=" + ONFOCUSFLYOUT + "onblur=" + ONBLURFLYOUT + " name=\"" + cmLinkName + "\"" + " title=\"" + Utility.StripHTML(title) +
                            @""">" + title + "</a>";
 
+
             if (CurrentOrder == CurrentPageOrder)
             {
                 if (NextPageOrder == "0")
                 {
-                    HTML = HTML + "<li" + SelectedBackgroundColor + ">" + InnerDIV + aref + "</div></li>";
+                    if (System.Web.HttpContext.Current.Request.Url.AbsolutePath == "/JobSearchConsolidated.aspx")
+                    {
+                        HTML = HTML + "<li>" + InnerDIV + aref + "</div></li>";
+                        //HTML = HTML + "<li" + SelectedBackgroundColor + ">" + InnerDIV + aref + "</div></li>";
+                    }
+                    else HTML = HTML + "<li" + SelectedBackgroundColor + ">" + InnerDIV + aref + "</div></li>";
+                    
                 }
                 else
                 {
@@ -96,7 +103,14 @@ public partial class uc_LeftNavigation : System.Web.UI.UserControl
             }
             else
             {
-                HTML = HTML + "<li>" + InnerDIV + aref + "";
+                if ((System.Web.HttpContext.Current.Request.Url.AbsolutePath == "/JobSearchConsolidated.aspx") && (dr["href"].ToString() == "jobsearch.aspx"))
+                {
+                    HTML = HTML + "<li" + SelectedBackgroundColor + ">" + InnerDIV + aref + "";
+                }
+                else
+                {
+                    HTML = HTML + "<li>" + InnerDIV + aref + "";
+                }
                 GenerateNavigationFlyoutLevel2(CurrentOrder);
                 HTML = HTML + " </div></li>";
             }
