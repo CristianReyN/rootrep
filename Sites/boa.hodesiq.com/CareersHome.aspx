@@ -173,7 +173,7 @@
                 <map name="map"><area shape="rect" coords="45,26,303,63" href="https://www.bankofamerica.com/" alt="Bank of America logo" title="Bank of America logo" tabindex="1" />
                 <area shape="rect" coords="326,26,435,63" alt="Careers" title="Careers">
                 </map>
-                <%--<div id="skipnav" style="display:block;"><a href="#skipcontent" style="width: 1px; height: 69px; display: inline-block;" title="Skip To Main Content." name="Skip_Main_Content_header" tabindex="2" onclick="_nexttab();"><img src="images/clear.gif" width="1" height="69" alt="Skip to main content." border="0" /></a></div>--%>               
+                <!--<div id="skipnav" style="display:block;"><a href="#skipcontent" style="width: 1px; height: 69px; display: inline-block;" title="Skip To Main Content." name="Skip_Main_Content_header" tabindex="2" onclick="_nexttab();"><img src="images/clear.gif" width="1" height="69" alt="Skip to main content." border="0" /></a></div>-->               
             </div>
             <div id="header-mid">
                     <div id="search">
@@ -199,9 +199,7 @@ CompletionListHighlightedItemCssClass="hoverlistitem2"
     >
     </asp:AutoCompleteExtender>
     </form>
-
-
-<!--<input type="text" name="strSearch" id="v1" value="Type of search..." class="txt" tabindex="3" maxlength="100" onfocus="javascript:validateKeyword('v1',0,'Type of search...');" onblur="javascript: validateKeyword('v1',1,'Type of search...');"/><noscript>Begin by typing in the job title or job number to find open jobs.  If there are partial matches, a list of current jobs titles that match the input text will then be suggested as search strings.  This list will begin being displayed after the 3rd character has been typed and continue to be updated as search text is entered.  Clicking on one of the suggested search strings will populate the Search Jobs box with that search string.  Clicking on the Search for jobs at any time will initiate a search using the search string from the Search Jobs box.</noscript>--></td>
+</td>
                                             <td width="40" align="left"><input type="image" name="submit" src="homepage-redesign/images/btn-search.png" style="margin:3px 0 0 2px;" tabindex="4" alt="Search for jobs" title="Search for jobs" onclick="document.forms['form1'].submit();"/></td>  
                                             <td width="210" align="left"><a href="jobsearch.aspx" title="Follow to Advance Search" tabindex="5"><img src="homepage-redesign/images/btn-advanced-search.png"  alt="Follow to Advance Search" style="margin:3px 0 0 2px;"/></a></td>                                                                              
                                         </tr>
@@ -512,8 +510,8 @@ CompletionListHighlightedItemCssClass="hoverlistitem2"
     }
     function _nexttab() { document.getElementById('item157').focus(); }
 </script>
-        <h1 class="hidden">Bank of America Careers Home</h1>
-        <div id="skipnav" style="display:block;"><a href="#skipcontent" style="width: 1px; height: 69px; display: inline-block;" title="Skip To Main Content." name="Skip_Main_Content_header" tabindex="2" onclick="_nexttab();"><img src="images/clear.gif" width="1" height="69" alt="Skip to main content." border="0" /></a></div>
+        
+        <div id="skipnav" style="display:block;"><a href="#skipcontent" style="width: 1px; height: 69px; display: inline-block;" title="Skip To Main Content." name="Skip_Main_Content_header" tabindex="2" onclick="_nexttab();"><img src="images/clear.gif" width="1" height="69" alt="Skip to main content." border="0" /></a><h1 class="hidden">Bank of America Careers Home</h1></div>
             <div id="slidearea">
                 <div id="rotator"> 
                 <ul>
@@ -612,14 +610,14 @@ CompletionListHighlightedItemCssClass="hoverlistitem2"
                         <a href="http://ml.com/index.asp?id=7695_15125" title="Merrill Lynch Wealth Management logo" tabindex="75" name="merrill_lynch_wealth_management_footernav"><img src="homepage-redesign/images/footer/merrill.jpg" alt="Merrill Lynch Wealth Management logo"></a>
                         <a href="http://www.ustrust.com/ust/pages/index.aspx" title="U.S. TRUST logo" tabindex="76" name="us_trust_footernav"><img src="homepage-redesign/images/footer/us-trust.jpg" alt="U.S. TRUST logo"></a>
                         <a href="http://corp.bankofamerica.com/" title="Bank of America Merrill Lynch logo" tabindex="77" name="boa_merrill_lynch_footernav"><img src="homepage-redesign/images/footer/boa-merrill.jpg" alt="Bank of America Merrill Lynch logo"></a>                       
-                        <%--
+                        <!--
                         <ul>
                             <li style="background:url(homepage-redesign/images/footer/sep-h25.png) center right no-repeat;"><a href="http://www.bankofamerica.com/index.cfm?page=about" title="Bank of America Corporation Logo" tabindex="73" name="boa_corporation_footernav"><img src="homepage-redesign/images/footer/boa-corporation.png" alt="Bank of America Corporation Logo"></a></li>
                             <li><a href="http://www.bankofamerica.com" title="Bank of America Logo" tabindex="74"><img src="homepage-redesign/images/footer/boa.png" alt="Bank of America Logo" name="boa_foternav"></a></li>
                             <li><a href="http://ml.com/index.asp?id=7695_15125" title="Merrill Lynch Wealth Management logo" tabindex="75" name="merrill_lynch_wealth_management_footernav"><img src="homepage-redesign/images/footer/merrill.png" alt="Merrill Lynch Wealth Management logo"></a></li>
                             <li><a href="http://www.ustrust.com/ust/pages/index.aspx" title="U.S. TRUST logo" tabindex="76" name="us_trust_footernav"><img src="homepage-redesign/images/footer/us-trust.png" alt="U.S. TRUST logo"></a></li>
                             <li><a href="http://corp.bankofamerica.com/" title="Bank of America Merrill Lynch logo" tabindex="77" name="boa_merrill_lynch_footernav"><img src="homepage-redesign/images/footer/boa-merrill.png" alt="Bank of America Merrill Lynch logo"></a></li>
-                        </ul>--%>
+                        </ul>-->
                     </div>
                     <div id="footerNavMidRight"><p>Bank of America, N.A. Member FDIC. <a href="http://www.bankofamerica.com/help/equalhousing.cfm" tabindex="78">Equal Housing Lender</a><br />&copy;2012 Bank of America Corporation. All rights reserved.</p></div>
                 </div>
