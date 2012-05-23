@@ -10,14 +10,14 @@
 	-webkit-box-shadow:0 10px 15px rgba(0,0,0,0.5); 
 	-ms-box-shadow:0 10px 15px rgba(0,0,0,0.5);}
 
-.megamenu .top255{width:255px; min-height:20px; height:auto; overflow:hidden; background:url(../images/footer/bg-w255xh1.png) top left repeat-y; -ms-opacity:0.97; -ms-filter:alpha(opacity=97);}
-.megamenu .bottom255{width:255px; height:12px; background:url(../images/footer/bg-w255.png) top left no-repeat; -ms-opacity:0.97; -ms-filter:alpha(opacity=97);}
+.megamenu .top255{width:255px; min-height:20px; height:auto; overflow:hidden; background:url(../images/footer/bg-w255xh1.png) top left repeat-y; opacity:0.97; filter:alpha(opacity=97);}
+.megamenu .bottom255{width:255px; height:12px; background:url(../images/footer/bg-w255.png) top left no-repeat; opacity:0.97; filter:alpha(opacity=97);}
 
-.megamenu .top325{width:325px; min-height:20px; height:auto; overflow:hidden; background:url(../images/footer/bg-w325xh1.png) top left repeat-y; -ms-opacity:0.97; -ms-filter:alpha(opacity=97);}
-.megamenu .bottom325{width:325px; height:12px; background:url(../images/footer/bg-w325.png) top left no-repeat; -ms-opacity:0.97; -ms-filter:alpha(opacity=97);}
+.megamenu .top325{width:325px; min-height:20px; height:auto; overflow:hidden; background:url(../images/footer/bg-w325xh1.png) top left repeat-y; opacity:0.97; filter:alpha(opacity=97);}
+.megamenu .bottom325{width:325px; height:12px; background:url(../images/footer/bg-w325.png) top left no-repeat; opacity:0.97; filter:alpha(opacity=97);}
 
-.megamenu .top365{width:365px; min-height:20px; height:auto; overflow:hidden; background:url(../images/footer/bg-w365xh1.png) top left repeat-y; -ms-opacity:0.97; -ms-filter:alpha(opacity=97);}
-.megamenu .bottom365{width:365px; height:12px; background:url(../images/footer/bg-w365.png) top left no-repeat; -ms-opacity:0.97; -ms-filter:alpha(opacity=97);}
+.megamenu .top365{width:365px; min-height:20px; height:auto; overflow:hidden; background:url(../images/footer/bg-w365xh1.png) top left repeat-y; opacity:0.97; filter:alpha(opacity=97);}
+.megamenu .bottom365{width:365px; height:12px; background:url(../images/footer/bg-w365.png) top left no-repeat; opacity:0.97; filter:alpha(opacity=97);}
 
 .megamenu .column{
 	float: left;
