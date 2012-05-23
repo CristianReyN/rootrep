@@ -554,6 +554,7 @@ CompletionListHighlightedItemCssClass="hoverlistitem2"
                     <li id="slide5" style="background: url(homepage-redesign/images/slide/p5.jpg) top left no-repeat;"></li>
                 </ul>
                 <div>
+                    <div id="slide-number"></div>
                     <div class="slide-controls">
                         <div id="pagination">
                             <div class="prev" style="display: none;"></div><div id="ctrl1">&nbsp;&nbsp;</div><div id="ctrl2">&nbsp;&nbsp;</div><div id="ctrl3">&nbsp;&nbsp;</div><div id="ctrl4">&nbsp;&nbsp;</div><div id="ctrl5">&nbsp;&nbsp;</div><div class="next" style="display:none;"></div>
