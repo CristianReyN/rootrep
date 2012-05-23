@@ -511,7 +511,7 @@ CompletionListHighlightedItemCssClass="hoverlistitem2"
     function _nexttab() { document.getElementById('item157').focus(); }
 </script>
         
-        <div id="skipnav" style="display:block;"><a href="#skipcontent" style="width: 1px; height: 69px; display: inline-block;" title="Skip To Main Content." name="Skip_Main_Content_header" tabindex="2" onclick="_nexttab();"><img src="images/clear.gif" width="1" height="69" alt="Skip to main content." border="0" /></a><h1 class="hidden">Bank of America Careers Home</h1></div>
+        <div id="skipnav" style="display:block;"><a href="#skipcontent" style="width: 1px; height: 69px; display: inline-block;" title="Skip To Main Content." name="Skip_Main_Content_header" tabindex="2" onclick="_nexttab();"><img src="images/clear.gif" width="1" height="69" alt="Skip to main content." border="0" /></a>Bank of America Careers Home</div>
             <div id="slidearea">
                 <div id="rotator"> 
                 <ul>
@@ -571,7 +571,7 @@ CompletionListHighlightedItemCssClass="hoverlistitem2"
 							</script>
                                     </div>
                                 </td>
-                                <td><span style="color:#d10f00; font-size:24px; font-weight:normal; font-stretch:narrower; line-height:26px;">Set opportunity in motion</span><p style="margin-top:10px; padding:0;">
+                                <td><h1><span style="color:#d10f00; font-size:24px; font-weight:normal; font-stretch:narrower; line-height:26px;">Set opportunity in motion</span></h1><p style="margin-top:10px; padding:0;">
                                     Around the corner, across the country, or across the globe; a career with Bank of America can take you as far as your talent and ambition will go.<br /><br />                                    Our heritage spans more than 200 years of investing in the people, industries and communities we serve. And every day, we&rsquo;re creating a larger opportunity that makes our future &mdash; and yours &mdash; even more promising.</p>
                                 </td>
                             </tr>
