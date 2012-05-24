@@ -10,8 +10,8 @@
     <meta NAME="description" CONTENT="Main page of the Bank of America careers site. From this page you can click to more links about benefits, diversity, military, corporate information, student programs and global locations.  You can also do a keyword search to find available opportunities.">
     <meta NAME="keywords" CONTENT="Bank of America, Merrill Lynch, U.S. TRUST, Career, Job, Global, Campus, Students">
         	    
-    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>     
-    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+    <script type="text/javascript" src="homepage-redesign/scripts/jquery.min.js"></script>     
+    <script type="text/javascript" src="homepage-redesign/scripts/jquery-latest.js"></script>
     <link rel="stylesheet" type="text/css" href="homepage-redesign/styles/jkmegamenu.css" />
     <script type="text/javascript" src="homepage-redesign/scripts/jkmegamenu.js"></script>
     <script language="JavaScript1.2" src="includes/ps.js" type="text/javascript"></script>
@@ -22,27 +22,50 @@
     <!--[if lte IE 9]><link href="homepage-redesign/styles/ie9.css" type="text/css" rel="stylesheet" /><![endif]--> 
             
     <script type="text/javascript">
+
+        
+        function onBlur() {
+            //alert("blurred");
+        };
+        function onFocus() {
+            //alert("focused");
+        };
+
+
+        if (/*@cc_on!@*/false) { // check for Internet Explorer
+            document.onfocusin = onFocus;
+            document.onfocusout = onBlur;
+        } else {
+            window.onfocus = onFocus;
+            window.onblur = onBlur;
+        }
+
+
+
         var intval = null;
         var cindex = 0;
         var slideno = 1;
         function theRotator() {
-            //Set the opacity of all images to 0
-            $('div#rotator ul li').css({ opacity: 0.0 });
-            //Get the first image and display it (gets set to full opacity)
-            $('div#rotator ul li:first').css({ opacity: 1.0 });
-            if ($('div#pagination div')) {
-                $('div#pagination div').each(function (bindex) {
-                    if ($(this).hasClass('prev')) $(this).animate({ opacity: 0.0 }, 10);
-                    else if ($(this).hasClass('next')) $(this).animate({ opacity: 1.0 }, 10);
-                    else if ($('div#rotator ul li:first').attr('btn') && $('div#rotator ul li:first').attr('btn') == bindex) $(this).addClass('curr');
-                });
-            }
-            //Call the rotator function to run the slideshow, 6000 = change to next image after 6 seconds
-            displaytext(slideno);
-            intval = setInterval('rotate()', 8000);
+                //Set the opacity of all images to 0
+                $('div#rotator ul li').css({ opacity: 0.0 });
+                //Get the first image and display it (gets set to full opacity)
+                $('div#rotator ul li:first').css({ opacity: 1.0 });
+                if ($('div#pagination div')) {
+                    $('div#pagination div').each(function (bindex) {
+                        if ($(this).hasClass('prev')) $(this).animate({ opacity: 0.0 }, 10);
+                        else if ($(this).hasClass('next')) $(this).animate({ opacity: 1.0 }, 10);
+                        else if ($('div#rotator ul li:first').attr('btn') && $('div#rotator ul li:first').attr('btn') == bindex) $(this).addClass('curr');
+                    });
+                }
+                //Call the rotator function to run the slideshow, 6000 = change to next image after 6 seconds
+                displaytext(slideno);
+                intval = setInterval('rotate()', 8000);
         }
 
         function rotate(ne_xt) {
+
+           
+            
             //alert(ne_xt);	
             //Get the first image
             var current = ($('div#rotator ul li.show') ? $('div#rotator ul li.show') : $('div#rotator ul li:first'));
@@ -114,7 +137,15 @@
             });
 
             //Load the slideshow
-            theRotator();
+            if (/*@cc_on!@*/false) { // check for Internet Explorer
+            document.onfocusin = theRotator();
+            document.onfocusout = onBlur;
+        } else {
+            window.onfocus = theRotator();
+            window.onblur = onBlur;
+        }
+
+            
         });
 
         function _switch(to) {
@@ -203,7 +234,7 @@
             <div id="header-top">
                 <img src="homepage-redesign/images/bg-header-top.jpg" alt="" border="0" vspace="0" hspace="0" usemap="#map" />
                 <map name="map"><area shape="rect" coords="45,26,303,63" href="https://www.bankofamerica.com/" alt="Bank of America logo" title="Bank of America logo" tabindex="1" />
-                <area shape="rect" coords="326,26,435,63" alt="Careers" title="Careers">
+                <!--<area shape="rect" coords="326,26,435,63" alt="Careers" title="Careers">-->
                 </map>
                 <!--<div id="skipnav" style="display:block;"><a href="#skipcontent" style="width: 1px; height: 69px; display: inline-block;" title="Skip To Main Content." name="Skip_Main_Content_header" tabindex="2" onclick="_nexttab();"><img src="images/clear.gif" width="1" height="69" alt="Skip to main content." border="0" /></a></div>-->               
             </div>
@@ -220,9 +251,10 @@
 <input type="hidden" name="isFirstTime" value="1" />
     <asp:ToolkitScriptManager ID="ToolkitScriptManager1" runat="server">
     </asp:ToolkitScriptManager>
+    <span class="hidden">search</span>
     <asp:TextBox ID="txtJobSearch" runat="server" Text="Type to search..." ToolTip="Type to search..." class="txtJobSearch" tabindex="3" Enabled="true" OnClick="this.value=''" Height="16px" Width="234px"></asp:TextBox>
     <asp:AutoCompleteExtender ID="txtJobSearch_AutoCompleteExtender" runat="server" 
-        DelimiterCharacters="" Enabled="True" ServiceMethod="GetCompletionList" 
+        DelimiterCharacters=""  EnableCaching="False" Enabled="True" ServiceMethod="GetCompletionList" 
         ServicePath="" TargetControlID="txtJobSearch" UseContextKey="True" CompletionInterval="0" MinimumPrefixLength="3" 
     CompletionSetCount="10"
     CompletionListCssClass="list2"
@@ -250,7 +282,7 @@ CompletionListHighlightedItemCssClass="hoverlistitem2"
 <span class="hidden">To navigate to a specific topic, begin by tabbing through the navigation menus.  There are 5 main categories of information, which are Locations, Businesses, Job Areas, Culture & Work Environment and Topics.  You can tab through all of the topics underneath a category, and then use the enter key to go to the specific page for that topic.</span>
 <div id="topmenu">
 <ul>
-    <li><span id="learnabout">Learn About</span></li>
+    <!--<li><span id="learnabout">Learn About</span></li>-->
     <li id ="megaanchor1" style="padding-right:10px;"><a href="#" id="locations" tabindex="8" title="Hover or click to expand the menu for Locations">LOCATIONS</a></li>
     <li id ="megaanchor2" style="padding-right:10px;"><a href="#" id="business" tabindex="13" title="Hover or click to expand the menu for Businesses">BUSINESSES</a></li>
     <li id ="megaanchor3" style="padding-right:10px;"><a href="#" id="jobareas" tabindex="23" title="Hover or click to expand the menu for Job Areas">JOB AREAS</a></li>   
@@ -298,8 +330,12 @@ CompletionListHighlightedItemCssClass="hoverlistitem2"
 	        <li><a href="learnmore/bams.asp" tabindex="25" id="item15" name="job_areas_boa_merchant_services_topnav">Banc of America Merchant Services, LLC</a></li>
 	        <li><a href="finance/" tabindex="26" id="item16" name="cfo_group_topnav">CFO Group/Finance</a></li>
 	        <li><a href="consumerbank/" tabindex="27" id="item17" name="consumer_banking_topnav">Consumer Banking</a></li>
+            <li><a href="corporateaudit/" tabindex="27" id="item17b" name="corporate_audit_topnav">Corporate Audit</a></li>
 	        <li><a href="customercare/" tabindex="28" id="item18" name="customer_care_topnav">Customer Care</a></li>	        
+            <li><a href="globalcompliance/" tabindex="28" id="item18b" name="global_compliance_topnav">Global Compliance</a></li>
+            <li><a href="marketing/" tabindex="28" id="item18c" name="global_compliance_topnav">Global Marketing & Corporate Affairs</a></li>
 	        <li><a href="hr/" tabindex="29" id="item19" name="human_resources_topnav">Human Resources</a></li>	        
+            <li><a href="legal/" tabindex="29" id="item19b" name="legal_topnav">Legal</a></li>	        
 	        <li><a href="mortgagecareers/" tabindex="30" id="item20" name="mortgage_topnav">Mortgage</a></li>	        
 	        <li><a href="operations/" tabindex="31" id="item21" name="operations_topnav">Operations</a></li>	        
 	        <li><a href="riskevaluation/" tabindex="32" id="item22" name="risk_management_topnav">Risk Management</a></li>	        
@@ -543,7 +579,7 @@ CompletionListHighlightedItemCssClass="hoverlistitem2"
     function _nexttab() { document.getElementById('item157').focus(); }
 </script>
         
-        <div id="skipnav" style="display:block;"><a href="#skipcontent" style="width: 1px; height: 69px; display: inline-block;" title="Skip To Main Content." name="Skip_Main_Content_header" tabindex="2" onclick="_nexttab();"><img src="images/clear.gif" width="1" height="69" alt="Skip to main content." border="0" /></a>Bank of America Careers Home</div>
+        <div id="skipnav" style="display:none;"><a href="#skipcontent" style="width: 1px; height: 69px; display: inline-block;" title="Skip To Main Content." name="Skip_Main_Content_header" tabindex="2" onclick="_nexttab();"><img src="images/clear.gif" width="1" height="69" alt="Skip to main content." border="0" /></a>Bank of America Careers Home</div>
             <div id="slidearea">
                 <div id="rotator"> 
                 <ul>
@@ -656,6 +692,6 @@ CompletionListHighlightedItemCssClass="hoverlistitem2"
     //<!—
 
     cmCreatePageviewTag('career:Tool:Home;careershome', null, null, 'career:Tool:Home', false, false, null, false, false, null, null, null, null, null, null, null, null, null, null, null, null);
-   
+
     //-->
 </script>  
