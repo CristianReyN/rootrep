@@ -163,7 +163,7 @@ img{border:0;}
 	div#pagination div
 	{
 		display: inline;
-		padding: 2px 5px 2px 4px;
+		padding: 5px 5px 0px 4px;
 		margin-right: 3px;
 		/*background: transparent;
 		color: #d2d2d2;*/
@@ -277,9 +277,9 @@ input.txt{
 
 
 /**** Job Search auto suggest box ***/
-.txtJobSearch { font-size:0.9em; z-index: 99;}
+.txtJobSearch { font-size:0.9em; z-index: 99; font-family:Verdana, Geneva, sans-serif;}
 
-.txtJobSearchItem { font-size:0.8em; padding-bottom:3em; z-index: 99;}
+.txtJobSearchItem { font-size:0.8em; padding-bottom:3em; z-index: 99; font-family:Verdana, Geneva, sans-serif;}
 
 .list2 {
 border: 1px solid DarkGray;
@@ -288,6 +288,7 @@ margin: 0px;
 background-color: #FFF;
 text-align: left;
 font-size:0.9em;
+font-family:Verdana, Geneva, sans-serif;
 vertical-align:middle;
 color: black;
 position: relative;
@@ -297,12 +298,14 @@ z-index: 99;
 ul.list2 li {
 padding: 5px 5px;
 position: relative;
+font-family:Verdana, Geneva, sans-serif;
 z-index: 99;
 }
 
 .listitem2 {
 color: #000;
 font-size:0.9em;
+font-family:Verdana, Geneva, sans-serif;
 position: relative;
 z-index: 99;
 }
@@ -310,6 +313,7 @@ z-index: 99;
 .hoverlistitem2 {
 background-color: DarkGray;
 font-size:0.9em;
+font-family:Verdana, Geneva, sans-serif;
 position: relative;
 z-index: 99;
 }
