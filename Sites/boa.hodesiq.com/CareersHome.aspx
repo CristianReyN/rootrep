@@ -23,6 +23,25 @@
             
     <script type="text/javascript">
 
+        
+        function onBlur() {
+            //alert("blurred");
+        };
+        function onFocus() {
+            //alert("focused");
+        };
+
+
+        if (/*@cc_on!@*/false) { // check for Internet Explorer
+            document.onfocusin = onFocus;
+            document.onfocusout = onBlur;
+        } else {
+            window.onfocus = onFocus;
+            window.onblur = onBlur;
+        }
+
+
+
         var intval = null;
         var cindex = 0;
         var slideno = 1;
@@ -118,7 +137,14 @@
             });
 
             //Load the slideshow
-            theRotator();
+            if (/*@cc_on!@*/false) { // check for Internet Explorer
+            document.onfocusin = theRotator();
+            document.onfocusout = onBlur;
+        } else {
+            window.onfocus = theRotator();
+            window.onblur = onBlur;
+        }
+
             
         });
 
@@ -206,6 +232,11 @@
     <div id="wrapper">
         <div id="header">
             <div id="header-top">
+
+<a style="width: 1px; height: 1px; display: inline-block; position:absolute" title="Skip To Main Content." href="#skipmaincontent" name="Skip_To_Main_Content">
+<img width="10" height="69" border="0" alt="Skip To Main Content." src="http://careers.bankofamerica.com/images/clear.gif">
+</a>
+
                 <img src="homepage-redesign/images/bg-header-top.jpg" alt="" border="0" vspace="0" hspace="0" usemap="#map" />
                 <map name="map"><area shape="rect" coords="45,26,303,63" href="https://www.bankofamerica.com/" alt="Bank of America logo" title="Bank of America logo" tabindex="1" />
                 <!--<area shape="rect" coords="326,26,435,63" alt="Careers" title="Careers">-->
@@ -225,7 +256,7 @@
 <input type="hidden" name="isFirstTime" value="1" />
     <asp:ToolkitScriptManager ID="ToolkitScriptManager1" runat="server">
     </asp:ToolkitScriptManager>
-    <label for=”txtJobSearch”> <span class="hidden"> search</span> </label>
+    <span class="hidden">search</span>
     <asp:TextBox ID="txtJobSearch" runat="server" Text="Type to search..." ToolTip="Type to search..." class="txtJobSearch" tabindex="3" Enabled="true" OnClick="this.value=''" Height="16px" Width="234px"></asp:TextBox>
     <asp:AutoCompleteExtender ID="txtJobSearch_AutoCompleteExtender" runat="server" 
         DelimiterCharacters=""  EnableCaching="False" Enabled="True" ServiceMethod="GetCompletionList" 
@@ -282,16 +313,15 @@ CompletionListHighlightedItemCssClass="hoverlistitem2"
     <div class="top365">
         <div class="column" id="column02">
 	    <ul>
-	        <li><a href="learnmore/bams.asp" tabindex="14" id="item13" name="boa_merchant_services_topnav">Banc of America Merchant Services, LLC</a></li>
-            <li><a href="learnmore/lobcss.asp" tabindex="15" id="item11" name="corporate_staff_support_topnav">Corporate Staff &amp; Support</a></li>
-            <li><a href="financialadvisor/" tabindex="16" id="item9" name="financial_advisor_topnav">Financial Advisor</a></li>
-            <li><a href="gcib/" tabindex="17" id="item6" name="global_banking_markets_topnav">Global Banking &amp; Markets</a></li>
-            <li><a href="globalcommercialbanking/" tabindex="18" id="item7" name="global_commercial_banking_topnav">Global Commercial Banking</a></li>	        
-            <li><a href="learnmore/lobgcsbb.asp" tabindex="19" id="item5" name="global_consumer_small_business_banking_topnav">Global Consumer &amp; Small Business Banking</a></li>
-	        <li><a href="technology/" tabindex="20" id="item10" name="global_technology_operations_topnav">Global Technology &amp; Operations</a></li>
-	        <li><a href="wealthmanagement/" tabindex="21" id="item8" name="global_wealth_investment_management_topnav">Global Wealth &amp; Investment Management</a></li>	        
-	        <li><a href="mortgage/" tabindex="22" id="item12" name="mortgage_topnav">Mortgage</a></li>	        
-	        
+	        <li><a href="learnmore/lobgcsbb.asp" tabindex="14" id="item5" name="global_consumer_small_business_banking_topnav">Global Consumer &amp; Small Business Banking</a></li>
+	        <li><a href="gcib/" tabindex="15" id="item6" name="global_banking_markets_topnav">Global Banking &amp; Markets</a></li>
+	        <li><a href="globalcommercialbanking/" tabindex="16" id="item7" name="global_commercial_banking_topnav">Global Commercial Banking</a></li>	        
+	        <li><a href="wealthmanagement/" tabindex="17" id="item8" name="global_wealth_investment_management_topnav">Global Wealth &amp; Investment Management</a></li>	        
+	        <li><a href="financialadvisor/" tabindex="18" id="item9" name="financial_advisor_topnav">Financial Advisor</a></li>
+	        <li><a href="technology/" tabindex="19" id="item10" name="global_technology_operations_topnav">Global Technology &amp; Operations</a></li>
+	        <li><a href="learnmore/lobcss.asp" tabindex="20" id="item11" name="corporate_staff_support_topnav">Corporate Staff &amp; Support</a></li>
+	        <li><a href="mortgage/" tabindex="21" id="item12" name="mortgage_topnav">Mortgage</a></li>	        
+	        <li><a href="learnmore/bams.asp" tabindex="22" id="item13" name="boa_merchant_services_topnav">Banc of America Merchant Services, LLC</a></li>
 	    </ul>
     </div>
     </div>
@@ -325,14 +355,14 @@ CompletionListHighlightedItemCssClass="hoverlistitem2"
      <div class="top325">
         <div class="column" id="column04">
 	        <ul>
-	            <li><a href="asia_culture.aspx"  tabindex="36" id="item26" name="culture_asia_pacific_boa_merrill_lynch_topnav">Asia Pacific Bank of America Merrill Lynch</a></li>
-                <li><a href="bacs_culture.aspx" tabindex="37" id="item27" name="ba_continuum_india_topnav">BA Continuum India</a></li>
-	            <li><a href="bacp_culture.aspx" tabindex="38" id="item28" name="ba_continuum_philippines_topnav">BA Continuum Philippines</a></li>
-	            <li><a href="canada_culture.aspx" tabindex="39" id="item29" name="culture_canada_topnav">Canada</a></li>	        
-                <li><a href="emea_culture.aspx" tabindex="40" id="item32" name="europe_middle_east_africa_topnav">Europe, Middle East and Africa</a></li>
-	            <li><a href="latin_america_bac_benefits_culture.aspx#CultureAndWork" tabindex="41" id="item31" name="latin_america_ba_continuum_topnav">Latin America BA Continuum</a></li>
-                <li><a href="latin_america_ml_benefits_culture.aspx#CultureAndWork" tabindex="42" id="item30" name="latin_america_merrill_lynch_topnav">Latin America Merrill Lynch</a></li>
-                <li><a href="learnmore/flexible_wa.asp"  tabindex="43" id="item25" name="culture_united_states_topnav">United States</a></li>
+	            <li><a href="learnmore/flexible_wa.asp"  tabindex="36" id="item25" name="culture_united_states_topnav">United States</a></li>
+	            <li><a href="asia_culture.aspx"  tabindex="37" id="item26" name="culture_asia_pacific_boa_merrill_lynch_topnav">Asia Pacific Bank of America Merrill Lynch</a></li>
+	            <li><a href="bacs_culture.aspx" tabindex="38" id="item27" name="ba_continuum_india_topnav">BA Continuum India</a></li>
+	            <li><a href="bacp_culture.aspx" tabindex="39" id="item28" name="ba_continuum_philippines_topnav">BA Continuum Philippines</a></li>
+	            <li><a href="canada_culture.aspx" tabindex="40" id="item29" name="culture_canada_topnav">Canada</a></li>	        
+	            <li><a href="latin_america_ml_benefits_culture.aspx#CultureAndWork" tabindex="41" id="item30" name="latin_america_merrill_lynch_topnav">Latin America Merrill Lynch</a></li>
+	            <li><a href="latin_america_bac_benefits_culture.aspx#CultureAndWork" tabindex="42" id="item31" name="latin_america_ba_continuum_topnav">Latin America BA Continuum</a></li>
+	            <li><a href="emea.aspx" tabindex="43" id="item32" name="europe_middle_east_africa_topnav">Europe, Middle East and Africa</a></li>
 	        </ul>
         </div>
     </div>
@@ -554,7 +584,8 @@ CompletionListHighlightedItemCssClass="hoverlistitem2"
     function _nexttab() { document.getElementById('item157').focus(); }
 </script>
         
-        <div id="skipnav" style="display:none;"><a href="#skipcontent" style="width: 1px; height: 69px; display: inline-block;" title="Skip To Main Content." name="Skip_Main_Content_header" tabindex="2" onclick="_nexttab();"><img src="images/clear.gif" width="1" height="69" alt="Skip to main content." border="0" /></a>Bank of America Careers Home</div>
+            <a name="skipmaincontent"></a>
+            <H1 class="hidden">Bank of America Careers Home</H1>
             <div id="slidearea">
                 <div id="rotator"> 
                 <ul>
@@ -615,7 +646,8 @@ CompletionListHighlightedItemCssClass="hoverlistitem2"
 							</script>
                                     </div>
                                 </td>
-                                <td><h1><span style="color:#d10f00; font-size:24px; font-weight:normal; font-stretch:narrower; line-height:26px;">Set opportunity in motion</span></h1><p style="margin-top:10px; padding:0;">
+                                <td>
+                                    <h1><span style="color:#d10f00; font-size:24px; font-weight:normal; font-stretch:narrower; line-height:26px;">Set opportunity in motion</span></h1><p style="margin-top:10px; padding:0;">
                                     Around the corner, across the country, or across the globe; a career with Bank of America can take you as far as your talent and ambition will go.<br /><br />                                    Our heritage spans more than 200 years of investing in the people, industries and communities we serve. And every day, we&rsquo;re creating a larger opportunity that makes our future &mdash; and yours &mdash; even more promising.</p>
                                 </td>
                             </tr>
@@ -660,14 +692,13 @@ CompletionListHighlightedItemCssClass="hoverlistitem2"
            </div>
         </div>       
     </div>
-    <script language='javascript1.1' type='text/javascript'>
+</body>
+</html>
+
+<script language='javascript1.1' type='text/javascript'>
     //<!—
 
     cmCreatePageviewTag('career:Tool:Home;careershome', null, null, 'career:Tool:Home', false, false, null, false, false, null, null, null, null, null, null, null, null, null, null, null, null);
 
     //-->
-</script> 
-</body>
-</html>
-
- 
+</script>  
