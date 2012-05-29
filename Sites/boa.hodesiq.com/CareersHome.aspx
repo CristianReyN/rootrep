@@ -23,25 +23,6 @@
             
     <script type="text/javascript">
 
-        
-        function onBlur() {
-            //alert("blurred");
-        };
-        function onFocus() {
-            //alert("focused");
-        };
-
-
-        if (/*@cc_on!@*/false) { // check for Internet Explorer
-            document.onfocusin = onFocus;
-            document.onfocusout = onBlur;
-        } else {
-            window.onfocus = onFocus;
-            window.onblur = onBlur;
-        }
-
-
-
         var intval = null;
         var cindex = 0;
         var slideno = 1;
@@ -137,14 +118,7 @@
             });
 
             //Load the slideshow
-            if (/*@cc_on!@*/false) { // check for Internet Explorer
-            document.onfocusin = theRotator();
-            document.onfocusout = onBlur;
-        } else {
-            window.onfocus = theRotator();
-            window.onblur = onBlur;
-        }
-
+            theRotator();
             
         });
 
@@ -251,7 +225,7 @@
 <input type="hidden" name="isFirstTime" value="1" />
     <asp:ToolkitScriptManager ID="ToolkitScriptManager1" runat="server">
     </asp:ToolkitScriptManager>
-    <span class="hidden">search</span>
+    <label for=”txtJobSearch”> <span class="hidden"> search</span> </label>
     <asp:TextBox ID="txtJobSearch" runat="server" Text="Type to search..." ToolTip="Type to search..." class="txtJobSearch" tabindex="3" Enabled="true" OnClick="this.value=''" Height="16px" Width="234px"></asp:TextBox>
     <asp:AutoCompleteExtender ID="txtJobSearch_AutoCompleteExtender" runat="server" 
         DelimiterCharacters=""  EnableCaching="False" Enabled="True" ServiceMethod="GetCompletionList" 
@@ -308,15 +282,16 @@ CompletionListHighlightedItemCssClass="hoverlistitem2"
     <div class="top365">
         <div class="column" id="column02">
 	    <ul>
-	        <li><a href="learnmore/lobgcsbb.asp" tabindex="14" id="item5" name="global_consumer_small_business_banking_topnav">Global Consumer &amp; Small Business Banking</a></li>
-	        <li><a href="gcib/" tabindex="15" id="item6" name="global_banking_markets_topnav">Global Banking &amp; Markets</a></li>
-	        <li><a href="globalcommercialbanking/" tabindex="16" id="item7" name="global_commercial_banking_topnav">Global Commercial Banking</a></li>	        
-	        <li><a href="wealthmanagement/" tabindex="17" id="item8" name="global_wealth_investment_management_topnav">Global Wealth &amp; Investment Management</a></li>	        
-	        <li><a href="financialadvisor/" tabindex="18" id="item9" name="financial_advisor_topnav">Financial Advisor</a></li>
-	        <li><a href="technology/" tabindex="19" id="item10" name="global_technology_operations_topnav">Global Technology &amp; Operations</a></li>
-	        <li><a href="learnmore/lobcss.asp" tabindex="20" id="item11" name="corporate_staff_support_topnav">Corporate Staff &amp; Support</a></li>
-	        <li><a href="mortgage/" tabindex="21" id="item12" name="mortgage_topnav">Mortgage</a></li>	        
-	        <li><a href="learnmore/bams.asp" tabindex="22" id="item13" name="boa_merchant_services_topnav">Banc of America Merchant Services, LLC</a></li>
+	        <li><a href="learnmore/bams.asp" tabindex="14" id="item13" name="boa_merchant_services_topnav">Banc of America Merchant Services, LLC</a></li>
+            <li><a href="learnmore/lobcss.asp" tabindex="15" id="item11" name="corporate_staff_support_topnav">Corporate Staff &amp; Support</a></li>
+            <li><a href="financialadvisor/" tabindex="16" id="item9" name="financial_advisor_topnav">Financial Advisor</a></li>
+            <li><a href="gcib/" tabindex="17" id="item6" name="global_banking_markets_topnav">Global Banking &amp; Markets</a></li>
+            <li><a href="globalcommercialbanking/" tabindex="18" id="item7" name="global_commercial_banking_topnav">Global Commercial Banking</a></li>	        
+            <li><a href="learnmore/lobgcsbb.asp" tabindex="19" id="item5" name="global_consumer_small_business_banking_topnav">Global Consumer &amp; Small Business Banking</a></li>
+	        <li><a href="technology/" tabindex="20" id="item10" name="global_technology_operations_topnav">Global Technology &amp; Operations</a></li>
+	        <li><a href="wealthmanagement/" tabindex="21" id="item8" name="global_wealth_investment_management_topnav">Global Wealth &amp; Investment Management</a></li>	        
+	        <li><a href="mortgage/" tabindex="22" id="item12" name="mortgage_topnav">Mortgage</a></li>	        
+	        
 	    </ul>
     </div>
     </div>
@@ -350,14 +325,14 @@ CompletionListHighlightedItemCssClass="hoverlistitem2"
      <div class="top325">
         <div class="column" id="column04">
 	        <ul>
-	            <li><a href="learnmore/flexible_wa.asp"  tabindex="36" id="item25" name="culture_united_states_topnav">United States</a></li>
-	            <li><a href="asia_culture.aspx"  tabindex="37" id="item26" name="culture_asia_pacific_boa_merrill_lynch_topnav">Asia Pacific Bank of America Merrill Lynch</a></li>
-	            <li><a href="bacs_culture.aspx" tabindex="38" id="item27" name="ba_continuum_india_topnav">BA Continuum India</a></li>
-	            <li><a href="bacp_culture.aspx" tabindex="39" id="item28" name="ba_continuum_philippines_topnav">BA Continuum Philippines</a></li>
-	            <li><a href="canada_culture.aspx" tabindex="40" id="item29" name="culture_canada_topnav">Canada</a></li>	        
-	            <li><a href="latin_america_ml_benefits_culture.aspx#CultureAndWork" tabindex="41" id="item30" name="latin_america_merrill_lynch_topnav">Latin America Merrill Lynch</a></li>
-	            <li><a href="latin_america_bac_benefits_culture.aspx#CultureAndWork" tabindex="42" id="item31" name="latin_america_ba_continuum_topnav">Latin America BA Continuum</a></li>
-	            <li><a href="emea.aspx" tabindex="43" id="item32" name="europe_middle_east_africa_topnav">Europe, Middle East and Africa</a></li>
+	            <li><a href="asia_culture.aspx"  tabindex="36" id="item26" name="culture_asia_pacific_boa_merrill_lynch_topnav">Asia Pacific Bank of America Merrill Lynch</a></li>
+                <li><a href="bacs_culture.aspx" tabindex="37" id="item27" name="ba_continuum_india_topnav">BA Continuum India</a></li>
+	            <li><a href="bacp_culture.aspx" tabindex="38" id="item28" name="ba_continuum_philippines_topnav">BA Continuum Philippines</a></li>
+	            <li><a href="canada_culture.aspx" tabindex="39" id="item29" name="culture_canada_topnav">Canada</a></li>	        
+                <li><a href="emea_culture.aspx" tabindex="40" id="item32" name="europe_middle_east_africa_topnav">Europe, Middle East and Africa</a></li>
+	            <li><a href="latin_america_bac_benefits_culture.aspx#CultureAndWork" tabindex="41" id="item31" name="latin_america_ba_continuum_topnav">Latin America BA Continuum</a></li>
+                <li><a href="latin_america_ml_benefits_culture.aspx#CultureAndWork" tabindex="42" id="item30" name="latin_america_merrill_lynch_topnav">Latin America Merrill Lynch</a></li>
+                <li><a href="learnmore/flexible_wa.asp"  tabindex="43" id="item25" name="culture_united_states_topnav">United States</a></li>
 	        </ul>
         </div>
     </div>
@@ -685,13 +660,14 @@ CompletionListHighlightedItemCssClass="hoverlistitem2"
            </div>
         </div>       
     </div>
-</body>
-</html>
-
-<script language='javascript1.1' type='text/javascript'>
+    <script language='javascript1.1' type='text/javascript'>
     //<!—
 
     cmCreatePageviewTag('career:Tool:Home;careershome', null, null, 'career:Tool:Home', false, false, null, false, false, null, null, null, null, null, null, null, null, null, null, null, null);
 
     //-->
-</script>  
+</script> 
+</body>
+</html>
+
+ 
