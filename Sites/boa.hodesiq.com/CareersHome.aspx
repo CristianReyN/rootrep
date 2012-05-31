@@ -276,6 +276,7 @@ CompletionListHighlightedItemCssClass="hoverlistitem2"
 	            <li><a href="asia_pacific.aspx" tabindex="9" id="item1" name="asia_pacific_topnav">Asia Pacific</a></li>
 	            <li><a href="canada.aspx" tabindex="10" id="item2" name="canada_topnav">Canada</a></li>
 	            <li><a href="emea.aspx" tabindex="11" id="item3" name="europe_middle_east_africa_topnav">Europe, Middle East and Africa</a></li>
+                <li><a href="latin_america.aspx" tabindex="11" id="item3b" name="latin_america_topnav">Latin America</a></li>
 	            <li><a href="learnmore/learnmore.asp" tabindex="12" id="item4" name="united_states_topnav">United States</a></li>
 	        </ul>
         </div>
