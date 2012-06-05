@@ -1075,13 +1075,13 @@ namespace BOA
             }
 
 
-            /*Jobs Job = new Jobs();
+            Jobs Job = new Jobs();
             ListDictionary MyListDictionary = new ListDictionary();
             MyListDictionary = Job.AdvSearch_ListDictionary(aot, jf, state, city, Travel, Lang, fullPart, Shift, PostDate, keywrd, (int)(ViewState["PageNumber"]), RecPerPage, (string)ViewState["sortExpression"], (string)ViewState["MysortDirection"]);
             DataTable DT = (DataTable)MyListDictionary["JobSearchResults"];
         
             FilterJobSearch(iFrom, DT, MyListDictionary);
-             * */
+            
         }
 
         private void FilterJobSearch(int iFrom, DataTable DT, ListDictionary MyListDictionary)
