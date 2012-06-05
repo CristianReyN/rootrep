@@ -17,8 +17,8 @@
             <td width="366" align="left" valign="top">
                 <p>
                     At BA Continuum, our work involves a unique mix of skills and abilities.
-                    Operationally, our focus lies on three key capabilities, Business Process Solutions
-                    (BPS), Information Technology Solutions (ITS) and Knowledge Services that encompass
+                    Operationally, our focus lies on three key capabilities, Business Process, 
+                    Information Technology and Knowledge Services that encompass
                     banking and technology operations, and support processes throughout the Americas,
                     Europe and the Asia Pacific. Part of our strategy to remain globally competitive
                     is to blend skills across ethnic diversities, education and experience, pulling
@@ -27,41 +27,38 @@
                     customers.
                 </p>
                 <h2>
-                    Business Process Solutions</h2>
+                    Business Process</h2>
                 <p>
-                    <span class="text_bold">The Business Process Solutions (BPS) group</span> supports
-                    Bank of America Lines of Businesses by providing Transaction Processing, Accounts
-                    Management, Payments and Settlements, Analytics and Reporting, Loan Processing,
-                    Collection and Customer Service in the Consumer, Corporate and Investment Banking
-                    areas. With businesses across corporate and consumer service, our teams work 24x7
-                    to ensure seamless integration with the core operational requirements of the Bank.
+                    The Business Process supports Consumer Banking & Processing Centers, Global Wholesale Banking Technology & Operations, Global Wealth and Investment Management Technology & Operations and Home Loans & Legacy Asset Servicing. With businesses across corporate and consumer service, our teams work 24/7 to ensure seamless integration with the core operational requirements of the bank.
                 </p>
                 <h2>
-                    Information Technology Solutions</h2>
+                    Information Technology</h2>
                 <p>
-                    <b>The Information Technology Solutions (ITS) group</b> is committed to provide technology
-                    solutions across all Lines of Business, which includes Global Banking Securities
-                    & Wealth Management Technology (GBSWMT), Consumer & Small Business Banking Technology
-                    & Operations (CSBB T&O), Cards, Bank of America Home Loans and Enterprise Change Technology & Operations (ECT&O).</p>
-                <p>
-                    We are uniquely positioned to support the bank’s strategic objectives by providing
-                    diverse technology services in all Lines of Business. We develop, maintain and support
-                    various business critical applications across Bank of America, using a wide spectrum
-                    of technologies like Java/J2EE, .NET, C++, Mainframes, Oracle, DB2 along with others.</p>
+                    The Information Technology group provides technology solutions for Enterprise Chief Information Officer, Global Wholesale Banking Technology & Operations, Global Wealth and Investment Management Technology & Operations, Consumer Banking Technology & Operations, Legacy Asset Servicing Technology, Global Markets Risk Technology & Operations and Technology Infrastructure. We provide diverse technology services and solutions. We develop, maintain and support various business critical applications across Bank of America, using a wide spectrum of technologies like Java/J2EE, .NET, C++, Mainframes, Oracle, DB2 along with others.</p>
+                
                 <h2>
                     Knowledge Services</h2>
                 <p>
-                    <b>The Knowledge Services Center</b> provides services ranging from Research, Financial
-                    & Credit Analysis, and Quantitative Analysis to Risk Management, Information Assurance,
-                    and Sales Support. The lines of business supported include Global Banking & Wealth
-                    Management, Global Markets, Consumer & Small Business Banking, Global Risk, Global
-                    Card Services, Global Human Resources and Enterprise Technology & Development.
+                    The Knowledge Services Center provides services ranging from Research, Financial & Credit Analysis, and Quantitative Analysis to Risk Management, Information Assurance, and Sales Support. The lines of business supported include Global Banking and Markets, Global Wealth & Investment Management, Global Risk Management, Consumer Banking, Consumer Banking - Card Services, Global Human Resources and Enterprise Chief Information Officer.
                 </p>
                 <p>
-                    The <span class="text_bold">Finance and Accounting Knowledge Center (FAKC)</span>
-                    supports the CFO group including Treasury Operations, General Accounting, Financial
-                    Reporting, Modeling & Analytics and Supply Chain Management processes.
+                    The <span class="text_bold">Finance and Accounting Knowledge Center </span>
+                    supports the Chief Financial Officer group including Treasury Operations, General Accounting, Financial Reporting, Modeling & Analytics and Supply Chain Management processes.
                 </p>
+                <p>These services are provided to the following business divisions:</p>
+                <ul>
+                    <li>Consumer Banking & Processing Centers</li>
+                    <li>Enterprise Chief Information Officer</li>
+                    <li>Global Wholesale Banking Technology & Operations</li>
+                    <li>Global Wealth and Investment Management Technology & Operations</li>
+                    <li>Finance & Accounting Knowledge Center</li>
+                    <li>Knowledge Services Center</li>
+                    <li>Consumer Banking Technology & Operations</li>
+                    <li>Home Loans and Legacy Asset Servicing Technology & Operations</li>
+                    <li>Global Markets Risk Technology & Operations</li>
+                    <li>Technology Infrastructure</li>
+                </ul>
+
                 <!--<p>
           The <span class="text_bold">Knowledge Service Center</span> is dedicated to offering  Global Corporate &amp; Investment Banking services. We support Investment  Banking, Global Markets, Enterprise Credit Risk, Product Solutions, Global  Commercial Bank, Global Wealth &amp; Investment Management, Global Middle  Office, and Global Consumer and Small Business Banking. Our associates work on  high-end research and provide an analytical understanding of the business  environment and requirements. </p>
         <p>We support the following Lines of Business:</p>

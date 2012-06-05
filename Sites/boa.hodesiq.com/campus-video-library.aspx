@@ -50,13 +50,7 @@
 
 			</div><!--/.profile-->
 
-			<div id="profile-5" class="profile">
-
-				<a href="campus-video.aspx?id=8" class="video-modal"><img src="images/campus/tn-nichola.png" alt="Play video for Nichola International Corporate Treasury Analyst Program"/></a>
-
-				<p class="script"><a href="campusrecruiting/video/Nichole/transcript.asp" title="View transcript for Nichola">View transcript for Nichola</a></p>
-
-			</div><!--/.profile-->
+			
 
 		</div><!--/#featured-videos-->
 
@@ -168,13 +162,7 @@
 						<p class="transcript-link"><a href="campusrecruiting/video/Narinder/transcript.asp" class="transcript" title="View transcript for Narinder">View <span class="hiddencontent">Narinder's</span> transcript</a></p>
 
 					</li>
-					<li class="image-Nichole">
-
-						<a href="campus-video.aspx?id=8" class="video"><img src="images/campus/tn-nichola.png" width="160" height="100" alt="Play video for Nichola, International Corporate Treasury Analyst Programme" /></a>
-
-						<p class="transcript-link"><a href="campusrecruiting/video/Nichole/transcript.asp" class="transcript" title="View transcript for Nichola">View <span class="hiddencontent">Nichola's</span> transcript</a></p>
-
-					</li>
+					
 					<li class="image-Patricia">
 
 						<a href="campus-video.aspx?id=13" class="video"><img src="images/campus/tn-Patricia.png" width="160" height="100" alt="Play video for Patricia, Global Investment Banking Analyst Program" /></a>

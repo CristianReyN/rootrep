@@ -21,17 +21,10 @@
                 <h2> Avtar Monga<br />
                     <br />
                     Managing Director, Global Delivery Center of Expertise (GDCE)</h2>
-                <p> BA Continuum India Pvt. Ltd. (BACI) and BA Continuum Private Limited (BACPL) are non-bank subsidiaries of Bank of America. While referring to BA Continuum, we are referring to both organizations.</p>
-                <p> BA Continuum provides Business Processing Solutions, Knowledge Services and Information
-                    Technology Solutions exclusively for the Consumer and Small Business Banking, Global
-                    Card Services, Bank of America Home Loans, Global Banking and Wealth Management
-                    and Global Markets Lines of Businesses at Bank of America. </p>
-                <p> At BA Continuum, associates are part of a diverse, global banking environment with
-                    best-in-class people, processes and practices. We belong to a globally admired brand
-                    which is one of the largest financial institutions in the world. We are responsible
-                    for core banking functions and consistently learn, contribute and grow.</p>
-                <p> We call our commitment to associates: <b>GROW</b> which stands for Growth, Rewards and
-                    Opportunities in a World-class work environment.</p>
+                <p> BA Continuum India Pvt. Ltd. is a non-bank subsidiary of Bank of America. BA Continuum India is a part of Global Delivery Center of Expertise in the bank. It supports Business Process, Information Technology and Knowledge Process across Consumer Banking, including card and home loans, Legacy Asset Servicing, Global Banking and Markets and Global Wealth & Investment Management Lines of Businesses at Bank of America.</p>
+                <p> Our people make opportunity possible for customers and clients at every stage of their financial lives. This purpose defines and unites us. Every day, we are focused on delivering value, convenience, expertise and innovation for the individuals, businesses and institutional investors we serve worldwide </p>
+                <p> We make it happen, and we are committed to attracting and retaining top talent across the globe to ensure our continued success. Along with taking care of our customers, we want to be the best place for people to work and aim at creating a work environment where all employees have the opportunity to achieve their goals.</p>
+                <p> We call our commitment to employees: <b>GROW</b> which stands for Growth, Rewards and Opportunities in a World-class work environment.</p>
                 <p> This includes:</p>
                 <ul>
                     <li>World-class and diverse global banking environment</li>

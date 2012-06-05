@@ -72,7 +72,7 @@ public partial class JobSearchConsolidated : System.Web.UI.Page
 
     public void Page_PreRender(object sender, EventArgs e)
     {
-        string Instructions = "To further refine your job search and find a career suited to your skill set, use our <a class='p' style='font-weight:bold;' href='JobSearch.aspx'>Advanced Job Search</a>.";
+        string Instructions = "To further refine your job search and find a career suited to your skill set, customize your job search with our <a class='p' style='font-weight:bold;' href='JobSearch.aspx'>Advanced Job Search</a>.";
         tdInstructions.Text = Instructions;
     }
 

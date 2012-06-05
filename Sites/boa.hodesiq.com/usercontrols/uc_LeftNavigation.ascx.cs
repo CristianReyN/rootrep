@@ -80,7 +80,7 @@ public partial class uc_LeftNavigation : System.Web.UI.UserControl
 
             string aref = "<a href=" + href + " class=" + CLASSFLYOUT +
                            @"onfocus=" + ONFOCUSFLYOUT + "onblur=" + ONBLURFLYOUT + " name=\"" + cmLinkName + "\"" + " title=\"" + Utility.StripHTML(title) +
-                           @""">" + title + "</a>";
+                           @"""><span class=""hidden"">Careers </span>" + title + "</a>";
 
 
             if (CurrentOrder == CurrentPageOrder)
@@ -144,7 +144,7 @@ public partial class uc_LeftNavigation : System.Web.UI.UserControl
                 string aref = "<a href=" + href + " class=" + CLASS +
                              @"onfocus=" + ONFOCUS +
                            @" onblur=" + ONBLUR + " name=\"" + cmLinkName + "\"" + " title=\"" + Utility.StripHTML(title) +
-                           @""">" + title + "</a>";
+                           @"""><span class=""hidden"">Careers </span>" + title + "</a>";
 
                 HTML = HTML + "<li>" + InnerDIV + aref + "</div></li>";
             }
@@ -171,7 +171,7 @@ public partial class uc_LeftNavigation : System.Web.UI.UserControl
             string title = dr["title"].ToString();
             string cmLinkName = dr["CoremetricsLinkName"].ToString();
             string aref = "<a href=" + href + " class=" + CLASS +
-                        @"onfocus=" + ONFOCUS + " onblur=" + ONBLUR + " name=\"" + cmLinkName + "\"" + " title=\"" + Utility.StripHTML(title) + "\">" + title +
+                        @"onfocus=" + ONFOCUS + " onblur=" + ONBLUR + " name=\"" + cmLinkName + "\"" + " title=\"" + Utility.StripHTML(title) + "\"><span class='hidden'>Careers </span>" + title +
                         @"</a>";
 
             if (NextPageOrder == "0" && CurrentOrder == CurrentPageOrder)
@@ -211,7 +211,7 @@ public partial class uc_LeftNavigation : System.Web.UI.UserControl
             string title = dr["title"].ToString();
             string cmLinkName = dr["CoremetricsLinkName"].ToString();
             string aref = "<a href=" + href + " class=" + CLASS +
-                        @"onfocus=" + ONFOCUS + " onblur=" + ONBLUR + " name=\"" + cmLinkName + "\"" + " title=\"" + Utility.StripHTML(title) + "\">" + title +
+                        @"onfocus=" + ONFOCUS + " onblur=" + ONBLUR + " name=\"" + cmLinkName + "\"" + " title=\"" + Utility.StripHTML(title) + "\"><span class='hidden'>Careers </span>" + title +
                         @"</a>";
 
             if (NextPageOrder == "0" && CurrentOrder == CurrentPageOrder)
@@ -250,7 +250,7 @@ public partial class uc_LeftNavigation : System.Web.UI.UserControl
             string title = dr["title"].ToString();
             string cmLinkName = dr["CoremetricsLinkName"].ToString();
             string aref = "<a href=" + href + " class=" + CLASS +
-              @"onfocus=" + ONFOCUS + " onblur=" + ONBLUR + " name=\"" + cmLinkName + "\"" + " title=\"" + title + "\">" + title +
+              @"onfocus=" + ONFOCUS + " onblur=" + ONBLUR + " name=\"" + cmLinkName + "\"" + " title=\"" + title + "\"><span class='hidden'>Careers </span>" + title +
               @"</a>";
 
 

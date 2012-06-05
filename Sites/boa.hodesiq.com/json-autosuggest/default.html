@@ -1,0 +1,66 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<title>jQuery JSON Suggest Box v2 Demo</title>
+
+<link rel="stylesheet" href="jQueryThemes/start/jquery-ui-1.8.9.custom.css" type="text/css" />
+<!--
+<link rel="stylesheet" href="jQueryThemes/dot-luv/jquery-ui-1.8.9.custom.css" type="text/css" />
+<link rel="stylesheet" href="jQueryThemes/le-frog/jquery-ui-1.8.9.custom.css" type="text/css" />
+-->
+
+<style type="text/css">
+input { padding:4px; }
+table { text-align:left; margin:0px 10px; width:900px; }
+table td, table th { border:1px solid #ddd; padding:5px; }
+
+/****
+*	Custom styling for the select menu items with images and extra 
+*	text in them.
+*/
+.jsonSuggest li a img {
+	float:left;
+	margin-right:5px;
+}
+.jsonSuggest li a small {
+	display:block;
+	text-align:left;
+	font-style:italic;
+}
+.jsonSuggest { font-size:0.8em; }
+</style>
+</head>
+
+<body>
+
+
+<h2>Job Title Suggest</h2>
+<input type="text" size="50" id="suggestBox3" />
+<br/>
+
+<script language="JavaScript" src="jquery-1.4.4.min.js"></script>
+<script language="JavaScript" src="jquery.jsonSuggest-2.js"></script>
+
+<script>
+
+function callback(item) {
+	alert('You selected \'' + item.text + '\'');
+}
+
+jQuery(function() {
+	//$('input#suggestBox').jsonSuggest({data: testData.countryCodes, minCharacters: 2});
+	
+	//$('input#suggestBox2').jsonSuggest({data: testData.webSites, onSelect: callback});
+	
+	// will always return all results, expected use is to call a URL that does something with the search text
+	// before returning a sub set of results.
+    //$('input#suggestBox3').jsonSuggest({url: 'http://ddvi.us/webserved/demos/suggest/JSONSuggestBox2/testData/jobtitles.txt', minCharacters: 2, maxResults: 20, width: 700, highlightMatches: true});
+    $('input#suggestBox3').jsonSuggest({ url: 'http://localhost/boa/json-autosuggest/testData/GetJobTitles.aspx', minCharacters: 2, maxResults: 20, width: 700, highlightMatches: true });
+});
+
+</script>
+<button type=button onclick="window.parent.location='http://localhost/boa/jobsearch.aspx';">Find</button>
+</body>
+
+</html>

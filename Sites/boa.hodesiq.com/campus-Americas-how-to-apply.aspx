@@ -12,7 +12,7 @@
 				 <p>You've done your research, and now you’re ready to take the next step and begin the application process. You’re in the right place. Before you dive in, please take a look at our <a href="CampusEvents.aspx?region=1">campus events page</a>  to see if we’ll be visiting your campus. (We’d love to meet you in person.) Otherwise, please use the buttons below to narrow your geographical focus and follow the instructions. We look forward to connecting with you.</p>
 
 <h2 class="questions">United States</h2>
-		<p>For positions in the U.S., you must create a profile via our online application system. Simply select the link below and follow the instructions to create your profile. You should also find out from your school's Career Services office what other application procedures are required for full-time and summer positions.</p>
+		<p>To apply on-line for full time program positions (commencing in summer 2013), please return to this site on September 1, 2012.  On-line applications will be accepted at this time.  Please visit our <a href="CampusEvents.aspx">events calendar</a> to see if we are coming to your campus.  If we are visiting your campus, please follow the application procedures determined by your school’s Career Services office.</p><p>On-line applications for summer internships (both undergraduate and graduate levels) will be posted in the late fall.  If we are visiting your campus, please follow the application procedures determined by your school’s Career Services office.</p>
 		<p><a class="button" id="ApplyUSA" runat="server"  title="Create a profile, link opens a new window."><span>Create a Profile</span></a></p><br />
 		<br />
 		<h2 class="questions">Canada</h2>

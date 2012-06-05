@@ -353,7 +353,7 @@ Function profile (program)
 			"emeain-international-corporate-treasury-summer-analyst-programme.asp" _
 		)) Then
 		Set video_profile = video_profiles.Item("Nichole") %>
-<a href="" class="md-video" title="Play <%=video_profile.Item("name")%>&#39;s video"><img src="../campusrecruiting/video/thumb/nichole_vt_180.jpg" alt="Play <%=video_profile.Item("name")%>&#39;s video" width="180" height="120" border="0"></a>
+<a href="" class="md-video" title="Play <%=video_profile.Item("name")%>&#39;s video"><img src="../images/logos/cpi_LOGO_BofAML.jpg" alt="Play <%=video_profile.Item("name")%>&#39;s video" width="180" height="120" border="0"></a>
 <div class="vwrap"><a href="<%=video_profile.Item("popup")%>" class="md-trans" title="<%=video_profile.Item("name")%>, <%=video_profile.Item("videoname")%>">View transcript<span class="hidden"> Link opens a new window</span></a></div>
 <!-- #include file="modal_dialog.asp" -->
 <%

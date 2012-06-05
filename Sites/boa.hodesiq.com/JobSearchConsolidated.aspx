@@ -2,7 +2,7 @@
       Language="C#" MasterPageFile="~/BOAmaster.master" ValidateRequest="false" EnableEventValidation="false" %>
 
 <asp:Content ID="Content1" runat="Server" ContentPlaceHolderID="cphmain">  
-<table border="0" cellpadding="0" cellspacing="0" summary="" width="578"><tr><td valign="top"><h1 style="margin: 0px 0px 0px 12px; ">Keyword Search Results</h1></td><td align="right"><div id="banc" runat="server"></div>	</td></tr> 
+<table border="0" cellpadding="0" cellspacing="0" summary="" width="578"><tr><td valign="top"><a id="skipmaincontent"></a><h1 style="margin: 0px 0px 0px 12px; ">Keyword Search Results</h1></td><td align="right"><div id="banc" runat="server"></div>	</td></tr> 
 	
         <table border="0" cellpadding="0" cellspacing="0" summary="" width="578">
             <tr valign="top">
@@ -55,7 +55,7 @@
                     ID="GrdResults" 
                     runat="server"                     
                     AutoGenerateColumns="False" 
-                    CellPadding="0" 
+                    CellPadding="6" 
                     GridLines="None" 
                     ToolTip="Search Results "
                     summary="Search Results. The first column is the Job Title.  The second column is the Location.  The third column is the Date. " 

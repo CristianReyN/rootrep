@@ -115,19 +115,7 @@
 			</div><!--.profile-article-inside -->
 		</div><!--.profile-article -->
 								
-		<div class="profile-article">
-			<div class="profile-article-inside">
-				
-				<img src="images/campus/icon-Nicole.jpg" width="74" height="107" alt="Nichola" />					
-				<h2>Nichola</h2>
-				<p class="progtitles">International Corporate Treasury Analyst Programme</p>
-				<p>I’m an International Corporate Treasury Associate working on the International Currency Desk.</p>
-				<p class="profile-link"><a href="campus-video.aspx?id=8" class="video" title="View Nichola's profile">View <span class="hiddencontent">Nichola's </span>Profile</a></p>
-				<p class="mop-transcript"><a href="campusrecruiting/video/Nichole/transcript.asp" class="transcript" title="View Nichola's transcript">View <span class="hiddencontent">Nichola's </span>Transcript</a></p>						
-				<img src="images/campus/ico-video.jpg" class="video-text-icon" width="33" height="33" alt="video icon" />									
-										
-			</div><!--.profile-article-inside -->
-		</div><!--.profile-article -->
+
 		
 		<div class="profile-article">
 		    <div class="profile-article-inside">
