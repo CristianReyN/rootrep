@@ -80,8 +80,8 @@
 
 				<ul class="video-pagination" roll="navigation">
 					<li class="previous"><a class="in-active">Previous</a></li>
-					<li><a class="in-active">1</a></li>
-					<li><a href="javascript:getcss('1');">2</a></li>
+					<li><a class="in-active"><span class="hidden">Page </span>1</a></li>
+					<li><a href="javascript:getcss('1');"><span class="hidden">Page </span>2</a></li>
 					<li class="next"><a href="javascript:getcss('1');">Next</a></li>
 				</ul>
 
@@ -135,8 +135,8 @@
 
 				<ul class="video-pagination" roll="navigation">
 					<li class="previous"><a class="in-active">Previous</a></li>
-					<li><a class="in-active">1</a></li>
-					<li><a href="javascript:getcss('1');">2</a></li>
+					<li><a class="in-active"><span class="hidden">Page </span>1</a></li>
+					<li><a href="javascript:getcss('1');"><span class="hidden">Page </span>2</a></li>
 					<li class="next"><a href="javascript:getcss('1');">Next</a></li>
 				</ul>
 
@@ -149,8 +149,8 @@
 
 				<ul class="video-pagination" roll="navigation">
 					<li class="previous"><a href="javascript:getcss('0');">Previous</a></li>
-					<li><a href="javascript:getcss('0');">1</a></li>    
-					<li><a class="in-active">2</a></li>
+					<li><a href="javascript:getcss('0');"><span class="hidden">Page </span>1</a></li>    
+					<li><a class="in-active"><span class="hidden">Page </span>2</a></li>
 					<li class="next"><a class="in-active">Next</a></li>
 				</ul>
 
@@ -197,8 +197,8 @@
 
 				<ul class="video-pagination" roll="navigation">
 					<li class="previous"><a href="javascript:getcss('0');">Previous</a></li>
-					<li><a href="javascript:getcss('0');">1</a></li>    
-					<li><a class="in-active">2</a></li>
+					<li><a href="javascript:getcss('0');"><span class="hidden">Page </span>1</a></li>    
+					<li><a class="in-active"><span class="hidden">Page </span>2</a></li>
 					<li class="next"><a class="in-active">Next</a></li>
 				</ul>
 

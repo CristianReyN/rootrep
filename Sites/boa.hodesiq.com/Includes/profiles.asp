@@ -352,9 +352,9 @@ Function profile (program)
 			"emeafn-international-corporate-treasury-analyst-programme.asp", _
 			"emeain-international-corporate-treasury-summer-analyst-programme.asp" _
 		)) Then
-		Set video_profile = video_profiles.Item("Nichole") %>
-<a href="" class="md-video" title="Play <%=video_profile.Item("name")%>&#39;s video"><img src="../images/logos/cpi_LOGO_BofAML.jpg" alt="Play <%=video_profile.Item("name")%>&#39;s video" width="180" height="120" border="0"></a>
-<div class="vwrap"><a href="<%=video_profile.Item("popup")%>" class="md-trans" title="<%=video_profile.Item("name")%>, <%=video_profile.Item("videoname")%>">View transcript<span class="hidden"> Link opens a new window</span></a></div>
+		'Set video_profile = video_profiles.Item("Nichole") %>
+<img src="../images/logos/cpi_LOGO_BofAML.jpg" alt="" width="180" height="120" border="0">
+
 <!-- #include file="modal_dialog.asp" -->
 <%
 	ElseIf InArray(program.Item("url"), Array( _

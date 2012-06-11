@@ -57,7 +57,7 @@ function namewindow(){window.name="boamain";}
 }
 else
 {%>
-		<td><a href="http://www.bankofamerica.com/" title="Bank of America home page" class="tablink" name="Bank_Of_America_Home_Page_header"><img src="images/mhd_reg_logo.gif" width="250" height="69" alt="Bank of America home page" border="0" /></a></td>
+		<td><a href="http://www.bankofamerica.com/" title="Bank of America home page" class="tablink" name="Bank_Of_America_Home_Page_header"><img src="images/mhd_reg_logo.gif" width="250" height="69" alt="Bank of America home page"  title="Bank of America home page" border="0" /></a></td>
 <%
 }
 %>	

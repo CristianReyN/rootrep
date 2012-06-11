@@ -13,9 +13,8 @@
 
 <h2 class="questions">United States</h2>
 		<p>To apply on-line for full time program positions (commencing in summer 2013), please return to this site on September 1, 2012.  On-line applications will be accepted at this time.  Please visit our <a href="CampusEvents.aspx">events calendar</a> to see if we are coming to your campus.  If we are visiting your campus, please follow the application procedures determined by your school’s Career Services office.</p><p>On-line applications for summer internships (both undergraduate and graduate levels) will be posted in the late fall.  If we are visiting your campus, please follow the application procedures determined by your school’s Career Services office.</p>
-		<p><a class="button" id="ApplyUSA" runat="server"  title="Create a profile, link opens a new window."><span>Create a Profile</span></a></p><br />
-		<br />
-		<h2 class="questions">Canada</h2>
+		
+        <h2 class="questions">Canada</h2>
 
 		<p>For positions in Canada, you must apply through our online application system. Simply select the link below and follow the instructions to apply and track the progress of your application.</p>
 		

@@ -151,6 +151,10 @@ Function howToApply (program)
 			"usfn-enterprise-change-technology-operations-leader-development-rotational-program.asp", _
 			"usfn-finance-management-associate-program.asp", _
 			"usfn-global-banking-markets-credit-risk-analyst-program.asp", _
+            "usfn-global-commercial-banking-credit-analyst-program.asp", _
+            "usfn-global-commercial-banking-treasury-analyst-program.asp", _
+            "usfn-global-wealth-investment-management-operations-analyst-program.asp", _
+            "usin-global-wealth-investment-management-operations-summer-analyst-program.asp", _
 			"usfn-global-commercial-banking-analyst-program.asp", _
 			"usfn-global-commodities-analyst-program.asp", _
 			"usfn-global-investment-banking-capital-markets-analyst-program.asp", _
@@ -200,7 +204,6 @@ Function howToApply (program)
 			"usin-operations-management-analyst-intern-program.asp", _
 			"usin-supply-chain-management-intern-program.asp", _
 			"usin-technology-developer-analyst-intern-program.asp", _
-			"usin-wealth-management-branch-office-internship.asp", _
 			"usis-corporate-workplace-senior-analyst-internship.asp", _
 			"usis-global-commodities-summer-associate-program.asp", _
 			"usis-global-investment-banking-capital-markets-summer-associate-program.asp", _
@@ -213,12 +216,13 @@ Function howToApply (program)
 			"usis-supply-chain-management-mba-internship-program.asp", _
 			"usis-technology-mba-intern-program.asp" _
 		)) Then
-%><p class="bac">To apply on-line for full time program positions (commencing in summer 2013), please return to this site on September 1, 2012.  On-line applications will be accepted at this time.  Please visit our <a href="../CampusEvents.aspx">events calendar</a> to see if we are coming to your campus.  If we are visiting your campus, please follow the application procedures determined by your school’s Career Services office.  </p>
+%><p class="bac">To apply on-line for full time program positions (commencing in summer 2013), please return to this site on September 1, 2012.  On-line applications will be accepted at this time.  Please visit our <a href="../CampusEvents.aspx" class="bac">events calendar</a> to see if we are coming to your campus.  If we are visiting your campus, please follow the application procedures determined by your school’s Career Services office.  </p>
     <p class="bac">On-line applications for summer internships (both undergraduate and graduate levels) will be posted in the late fall.  If we are visiting your campus, please follow the application procedures determined by your school’s Career Services office.</p>
 
 <%
 	ElseIf ( program.Item("region") = AMERICAS AND program.Item("sub_region") = U_S_A) OR _
 			InArray(program.Item("url"), Array( _
+            "usin-wealth-management-branch-office-internship.asp", _
 			"usin-applied-technology-program.asp" _
 		)) Then
 %><p class="bac">In order to be considered a candidate for this opportunity, you must create a profile at <a href="<% If page_section <> "ADA" Then  %>../campusrecruiting/<% Else  %>../ada_camp/<% End If %>" class="bac" title="">www.bankofamerica.com/campusrecruiting</a> by following the instructions in the How to Apply section within your region of interest. To create and then <a href="<% If page_section <> "ADA" Then  %>../learnmore/<% Else  %>../ada/<% End If %>sendresume.asp" class="bac" title="" target="<%=HOWTOAPPLY_TARGET%>">submit your profile<% If HOWTOAPPLY_TARGET = "_blank" Then %><span class="hidden"> Link opens a new window</span><% End If%></a>, first sign in as a new or returning user. If you don’t have an existing account, you’ll need to register as a new user. Then, complete your candidate profile and designate your program(s) of interest. Please note that you must reach the final &ldquo;Thank You&rdquo; page.</p>
