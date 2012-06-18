@@ -648,17 +648,20 @@ CompletionListHighlightedItemCssClass="hoverlistitem2"
                         <li><a href="https://www.bankofamerica.com/privacy/index.jsp" title="Privacy Policy" tabindex="69" name="privacy_policy_footernav">Privacy Policy</a></li>
                         <li><a href="http://www.bankofamerica.com/state.cgi?section=help&update=&cookiecheck=yes&template=sitemap.cfm&lob=" title="Site Map" tabindex="70" name="site_map_footernav">Site Map</a></li>
                         <li><a href="careershome.aspx" title="Careers" tabindex="71" name="careers_footernav">Careers</a></li>
-                        <li style="background:none;" title="About Us"><a href="http://www.bankofamerica.com/index.cfm?page=about" tabindex="72" name="about_us_footernav">About Us</a></li>
+                        <li style="background:none;" title="About Us"><a href="http://about.bankofamerica.com" tabindex="72" name="about_us_footernav">About Us</a></li>
                     </ul>
                 </div>
                 <div id="footer-mid">
                     <div id="footerNavMidLeft">
-                        <a href="http://www.bankofamerica.com/index.cfm?page=about" title="Bank of America Corporation Logo" tabindex="73" name="boa_corporation_footernav"><img style="padding-left:10px;" src="homepage-redesign/images/footer/boa-corporation.jpg" alt="Bank of America Corporation Logo"></a>
+                        <img style="padding-left:1px;" src="homepage-redesign/images/footer/multi-brand_footer_rgb.jpg" />
+                        
+                        <!--<a href="http://about.bankofamerica.com" title="Bank of America Corporation Logo" tabindex="73" name="boa_corporation_footernav"><img style="padding-left:10px;" src="homepage-redesign/images/footer/boa-corporation.jpg" alt="Bank of America Corporation Logo"></a>
                         <img style="padding-left:7px;" src="homepage-redesign/images/footer/sep-h33.jpg" alt="" />
                         <a href="http://www.bankofamerica.com" title="Bank of America Logo" tabindex="74"><img src="homepage-redesign/images/footer/boa.jpg" alt="Bank of America Logo" name="boa_foternav"></a>
                         <a href="http://ml.com/index.asp?id=7695_15125" title="Merrill Lynch Wealth Management logo" tabindex="75" name="merrill_lynch_wealth_management_footernav"><img src="homepage-redesign/images/footer/merrill.jpg" alt="Merrill Lynch Wealth Management logo"></a>
                         <a href="http://www.ustrust.com/ust/pages/index.aspx" title="U.S. TRUST logo" tabindex="76" name="us_trust_footernav"><img src="homepage-redesign/images/footer/us-trust.jpg" alt="U.S. TRUST logo"></a>
                         <a href="http://corp.bankofamerica.com/" title="Bank of America Merrill Lynch logo" tabindex="77" name="boa_merrill_lynch_footernav"><img src="homepage-redesign/images/footer/boa-merrill.jpg" alt="Bank of America Merrill Lynch logo"></a>                                               
+                        -->
                     </div>
                     <div id="footerNavMidRight"><p>Bank of America, N.A. Member FDIC. <a href="http://www.bankofamerica.com/help/equalhousing.cfm" tabindex="78">Equal Housing Lender</a><br /> &copy;2012 Bank of America Corporation. All rights reserved.</p></div>
                 </div>
