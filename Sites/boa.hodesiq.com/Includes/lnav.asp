@@ -86,23 +86,34 @@
 </div>
 </td></tr>
 <tr valign="top"><td>
-<link href="http://jobmatcher.hodesiq.com/clients/boa/sjm-plugin.css" rel="stylesheet" type="text/css" />
-<%If mpage = "overview" Then %><div id="sjm-root" align="center" style="text-align: center; margin-top: 12px;"></div>
+<%
+Dim sjm_url
+If trim(Request.ServerVariables("SERVER_NAME")) = "boa.hodesiq.com" _
+		OR trim(Request.ServerVariables("SERVER_NAME")) = "careers.bankofamerica.com" _
+		OR trim(Request.ServerVariables("SERVER_NAME")) = "bankofamerica.com" _
+		Then
+	sjm_url = "http://jobmatcher.hodesiq.com"
+Else
+	sjm_url = "http://jobmatcher.stg.hodesiq.com"
+	'sjm_url = "http://jobmatcher.hodesiq.com"
+End if %>
+<link href="<%=sjm_url%>/clients/boa/sjm-plugin.css" rel="stylesheet" type="text/css" />
+<div id="sjm-root" align="center" style="text-align: center; margin-top: 12px;"></div>
 <script type="text/javascript">
+<%If mpage <> "overview" Then %>var SJM_subpage = true;<%End if %>
 (function () {
 	var plugin = document.createElement('script'); plugin.async = true;
-	plugin.src = 'http://jobmatcher.hodesiq.com/clients/boa/js/sjm-plugin.js';
+	plugin.src = '<%=sjm_url%>/clients/boa/js/sjm-plugin.js';
+	plugin.onload = function(){
+		//_$(document).ready(function () {
+		jQuery(document).ready(function () {
+			$('#sjm-link').attr("title", "Use your Social Media profile to customize your job search >>");
+			$('#sjm-link img').attr("alt", "Use your Social Media profile to customize your job search >>");
+		});
+	};
 	(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(plugin);
 } ());
-</script><%Else%><div id="sjm-root" align="center" style="text-align: center; margin-top: 12px;"></div>
-<script type="text/javascript">
-var SJM_subpage = true;
-(function () {
-var plugin = document.createElement('script'); plugin.async = true;
-plugin.src = 'http://jobmatcher.hodesiq.com/clients/boa/js/sjm-plugin.js';
-(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(plugin);
-}());
-</script><%End if %>
+</script>
 </td></tr>
 
 
