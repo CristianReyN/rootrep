@@ -1,7 +1,4 @@
-<%@ Language=VBScript %><%
-Response.Status="404 Not Found"
-Response.Redirect "../overview/overview.asp"
-%><% Response.Buffer=True 
+<% Response.Buffer=True 
 Dim title, mpage, spage, ada_href, ada_title, page_section, Metatag
 mpage = "locations"
 spage = "united_states"
