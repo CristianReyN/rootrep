@@ -104,13 +104,24 @@ End if %>
 (function () {
 	var plugin = document.createElement('script'); plugin.async = true;
 	plugin.src = '<%=sjm_url%>/clients/boa/js/sjm-plugin.js';
-	plugin.onload = function(){
+	if( document.all )
+	{
 		//_$(document).ready(function () {
 		jQuery(document).ready(function () {
 			$('#sjm-link').attr("title", "Use your Social Media profile to customize your job search >>");
 			$('#sjm-link img').attr("alt", "Use your Social Media profile to customize your job search >>");
 		});
-	};
+	}
+	else
+	{
+		plugin.onload = function(){
+			//_$(document).ready(function () {
+			jQuery(document).ready(function () {
+				$('#sjm-link').attr("title", "Use your Social Media profile to customize your job search >>");
+				$('#sjm-link img').attr("alt", "Use your Social Media profile to customize your job search >>");
+			});
+		};
+	}
 	(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(plugin);
 } ());
 </script>
