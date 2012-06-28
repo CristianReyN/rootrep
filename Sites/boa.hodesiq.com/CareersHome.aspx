@@ -27,6 +27,8 @@
         var intval = null;
         var cindex = 0;
         var slideno = 1;
+        var rflag = 0;
+
         function theRotator() {
                 //Set the opacity of all images to 0
                 $('div#rotator ul li').css({ opacity: 0.0 });
@@ -49,10 +51,15 @@
             var current = ($('div#rotator ul li.show') ? $('div#rotator ul li.show') : $('div#rotator ul li:first'));
             slideno = slideno + 1;
 
-            //if (slideno < 6) {
-                //if (slideno > 5) { slideno = 1; }
-                cindex = slideno;
-                displaytext(slideno);
+            if (slideno > 5) {
+                slideno = 1;               
+                window.clearInterval(intval)
+                intval = null;
+            }
+            cindex = slideno;
+            displaytext(slideno);
+            rflag = 1;
+
                 //Get next image, when it reaches the end, rotate it back to the first image
                 var next = ne_xt ? ne_xt :
 	    ((current.next().length) ? ((current.next().hasClass('show')) ? $('div#rotator ul li:first') : current.next()) : $('div#rotator ul li:first'));
@@ -178,28 +185,60 @@
                 case 1: if (document.getElementById(f).value == '') { document.getElementById(f).value = val; } break;
             }
         }
+
+
+        //Coremetrics implementation for content card links
+        function cmRedirect1()
+        {
+           cmCreateManualLinkClickTag('areasoftalent/areasoftalent.asp','Explore_our_Job_Areas_now','career:Tool:Home');
+           window.location='areasoftalent/areasoftalent.asp';
+        }
+        
+        function cmRedirect2()
+        {
+           cmCreateManualLinkClickTag('financialadvisor/','Join_our_team_learn_more_about_Financial_Advisors','career:Tool:Home');
+           window.location='financialadvisor/';
+        }
+
+        function cmRedirect3()
+        {
+           cmCreateManualLinkClickTag('campus.aspx','Join_our_team_learn_more_about_Student_programs','career:Tool:Home');
+           window.location='campus.aspx';
+        }
+
+        function cmRedirect4()
+        {
+           cmCreateManualLinkClickTag('locations/','Learn_about_our_locations','career:Tool:Home');
+           window.location='locations/';
+        }
+
+        function cmRedirect5()
+        {
+           cmCreateManualLinkClickTag('military/','Discover_why_veterans_consider_us_military_friendly','career:Tool:Home');
+           window.location='military/';
+        }
         
         function displaytext(sno) {
             var container = document.getElementById('slide-number');
             var oNewP = document.createElement("p");
             switch (sno) {
                 case 1:
-                    container.innerHTML = '<p><img src="homepage-redesign/images/slide/ttl1.png" alt="" /><br />If you want to work with consumers, investors or institutions, in a career that goes from customer care, sales and finance to HR, technology or risk management &mdash; a career with Bank of America may set opportunity in motion for you. <a href="areasoftalent/areasoftalent.asp" id="item152" tabindex="52" title="Explore our Job Areas now" name="Explore our Job Areas now">Explore our Job Areas now.</a></p>'
+                    container.innerHTML = '<p><img src="homepage-redesign/images/slide/ttl1.png" alt="" /><br />If you want to work with consumers, investors or institutions, in a career that goes from customer care, sales and finance to HR, technology or risk management &mdash; a career with Bank of America may set opportunity in motion for you. <a onClick="cmRedirect1();" href="javascript:void(0);" id="item152" tabindex="52" title="Explore our Job Areas now" name="Explore our Job Areas now">Explore our Job Areas now.</a></p>'
                     break;
                 case 2:
-                    container.innerHTML = '<p><img src="homepage-redesign/images/slide/ttl2.png" alt="" /><br />Opportunity awaits those who seek constant challenge, and remarkable rewards. <a href="financialadvisor/" id="item153" tabindex="53" title="Join our team, learn more about Financial Advisors" name="Join our team, learn more about Financial Advisors">Join our team</a> of Financial Advisors at Bank of America, developing and delivering sophisticated solutions that help our affluent clients simplify, manage and maximize their financial goals.</p>';
+                    container.innerHTML = '<p><img src="homepage-redesign/images/slide/ttl2.png" alt="" /><br />Opportunity awaits those who seek constant challenge, and remarkable rewards. <a onClick="cmRedirect2();" href="javascript:void(0);" id="item153" tabindex="53" title="Join our team, learn more about Financial Advisors" name="Join our team, learn more about Financial Advisors">Join our team</a> of Financial Advisors at Bank of America, developing and delivering sophisticated solutions that help our affluent clients simplify, manage and maximize their financial goals.</p>';
                     break;
                 case 3:
-                    container.innerHTML = '<p><img src="homepage-redesign/images/slide/ttl3.png" alt="" /><br /><a href="campus.aspx" id="item154" tabindex="54" title="Join our team, learn more about Student programs" name="Join our team, learn more about Student programs">Join our team<span> learn more about Student programs </span></a>&nbsp;and we&rsquo;ll open your career path and give you new opportunities to take the possible and make it real. You&rsquo;ll receive training, mentorship and support to boost your aspirations to a global level. And, as part of the world&rsquo;s leading financial institution, you can create the kind of opportunity that generates greater opportunity and bigger impact than you ever imagined.</p>';
+                    container.innerHTML = '<p><img src="homepage-redesign/images/slide/ttl3.png" alt="" /><br /><a onClick="cmRedirect3();" href="javascript:void(0);" id="item154" tabindex="54" title="Join our team, learn more about Student programs" name="Join our team, learn more about Student programs">Join our team<span> learn more about Student programs </span></a>&nbsp;and we&rsquo;ll open your career path and give you new opportunities to take the possible and make it real. You&rsquo;ll receive training, mentorship and support to boost your aspirations to a global level. And, as part of the world&rsquo;s leading financial institution, you can create the kind of opportunity that generates greater opportunity and bigger impact than you ever imagined.</p>';
                     break;
                 case 4:
-                    container.innerHTML = '<p><img src="homepage-redesign/images/slide/ttl4.png" alt="" /><br />With positions available across the Americas, Europe, Middle East, Africa (EMEA) and Asia&mdash;Pacific, there is literally a world of opportunity with us. More than 250,000 employees worldwide have already discovered their ideal career at Bank of America. We invite you to <a href="locations/" id="item155" tabindex="55" title="Learn about our locations" name="Learn about our locations">learn more about us.<span> Learn about our locations. </span></a></p>';
+                    container.innerHTML = '<p><img src="homepage-redesign/images/slide/ttl4.png" alt="" /><br />With positions available across the Americas, Europe, Middle East, Africa (EMEA) and Asia&mdash;Pacific, there is literally a world of opportunity with us. More than 250,000 employees worldwide have already discovered their ideal career at Bank of America. We invite you to <a onClick="cmRedirect4();" href="javascript:void(0);" id="item155" tabindex="55" title="Learn about our locations" name="Learn about our locations">learn more about us.<span> Learn about our locations. </span></a></p>';
                     break;
                 case 5:
-                    container.innerHTML = '<p><img src="homepage-redesign/images/slide/ttl5.png" alt="" /><br />Bring your skills to a place where teamwork, trust and accountability mean as much to us as they do to you.  Bank of America is proud to be regularly recognized by GI Jobs, Military Edge, and others, as a top &ldquo;military-friendly&rdquo; employer. Join thousands of other veterans here, and <a href="military/" id="156" tabindex="56" title="Discover why veterans consider us military-friendly" name="Discover why veterans consider us military-friendly">discover why.<span> veterans consider us military-friendly .</span></a></p>';
+                    container.innerHTML = '<p><img src="homepage-redesign/images/slide/ttl5.png" alt="" /><br />Bring your skills to a place where teamwork, trust and accountability mean as much to us as they do to you.  Bank of America is proud to be regularly recognized by GI Jobs, Military Edge, and others, as a top &ldquo;military-friendly&rdquo; employer. Join thousands of other veterans here, and <a onClick="cmRedirect5();" href="javascript:void(0);" id="156" tabindex="56" title="Discover why veterans consider us military-friendly" name="Discover why veterans consider us military-friendly">discover why.<span> veterans consider us military-friendly .</span></a></p>';
                     break;
                 default:
-                    container.innerHTML = '<p><img src="homepage-redesign/images/slide/ttl1.png" alt="" /><br />If you want to work with consumers, investors or institutions, in a career that goes from customer care, sales and finance to HR, technology or risk management &mdash; a career with Bank of America may set opportunity in motion for you. <a href="areasoftalent/areasoftalent.asp" id="item152" tabindex="52" title="Explore our Job Areas now" name="Explore our Job Areas now">Explore our Job Areas now.</a></p>'
+                    container.innerHTML = '<p><img src="homepage-redesign/images/slide/ttl1.png" alt="" /><br />If you want to work with consumers, investors or institutions, in a career that goes from customer care, sales and finance to HR, technology or risk management &mdash; a career with Bank of America may set opportunity in motion for you. <a onClick="cmRedirect1();" href="javascript:void(0);" id="item152" tabindex="52" title="Explore our Job Areas now" name="Explore our Job Areas now">Explore our Job Areas now.</a></p>'
                     break;
             }
         }        
@@ -341,10 +380,10 @@ CompletionListHighlightedItemCssClass="hoverlistitem2"
             <li><a href="corporateaudit/" tabindex="27" id="item17b" name="corporate_audit_topnav"><span class="hidden">Job Areas </span>Corporate Audit</a></li>
 	        <li><a href="customercare/" tabindex="28" id="item18" name="customer_care_topnav"><span class="hidden">Job Areas </span>Customer Care</a></li>	        
             <li><a href="globalcompliance/" tabindex="28" id="item18b" name="global_compliance_topnav"><span class="hidden">Job Areas </span>Global Compliance</a></li>
-            <li><a href="marketing/" tabindex="28" id="item18c" name="global_compliance_topnav"><span class="hidden">Job Areas </span>Global Marketing & Corporate Affairs</a></li>
+            <li><a href="marketing/" tabindex="28" id="item18c" name="global_marketing_corporate_affairs_topnav"><span class="hidden">Job Areas </span>Global Marketing & Corporate Affairs</a></li>
 	        <li><a href="hr/" tabindex="29" id="item19" name="human_resources_topnav"><span class="hidden">Job Areas </span>Human Resources</a></li>	        
             <li><a href="legal/" tabindex="29" id="item19b" name="legal_topnav"><span class="hidden">Job Areas </span>Legal</a></li>	        
-	        <li><a href="mortgagecareers/" tabindex="30" id="item20" name="mortgage_topnav"><span class="hidden">Job Areas </span>Mortgage</a></li>	        
+	        <li><a href="mortgagecareers/" tabindex="30" id="item20" name="job_areas_mortgage_topnav"><span class="hidden">Job Areas </span>Mortgage</a></li>	        
 	        <li><a href="operations/" tabindex="31" id="item21" name="operations_topnav"><span class="hidden">Job Areas </span>Operations</a></li>	        
 	        <li><a href="riskevaluation/" tabindex="32" id="item22" name="risk_management_topnav"><span class="hidden">Job Areas </span>Risk Management</a></li>	        
 	        <li><a href="sales/" tabindex="33" id="item23" name="sales_topnav"><span class="hidden">Job Areas </span>Sales</a></li>	        
@@ -591,11 +630,11 @@ CompletionListHighlightedItemCssClass="hoverlistitem2"
             <H1 class="hidden">Bank of America Careers Home</H1>            <div id="slidearea">
                 <div id="rotator"> 
                 <ul>
-                    <li id="slide1" class="show" style="background: url(homepage-redesign/images/slide/p1.jpg) top left no-repeat;"></li>
-                    <li id="slide2" style="background: url(homepage-redesign/images/slide/p2.jpg) top left no-repeat;"></li>
-                    <li id="slide3" style="background: url(homepage-redesign/images/slide/p3.jpg) top left no-repeat;"></li>
-                    <li id="slide4" style="background: url(homepage-redesign/images/slide/p4.jpg) top left no-repeat;"></li>
-                    <li id="slide5" style="background: url(homepage-redesign/images/slide/p5.jpg) top left no-repeat;"></li>
+                    <li id="slide1" tabindex="52" class="show" style="background: url(homepage-redesign/images/slide/p1.jpg) top left no-repeat;"></li>
+                    <li id="slide2" tabindex="53" style="background: url(homepage-redesign/images/slide/p2.jpg) top left no-repeat;"></li>
+                    <li id="slide3" tabindex="54" style="background: url(homepage-redesign/images/slide/p3.jpg) top left no-repeat;"></li>
+                    <li id="slide4" tabindex="55" style="background: url(homepage-redesign/images/slide/p4.jpg) top left no-repeat;"></li>
+                    <li id="slide5" tabindex="55" style="background: url(homepage-redesign/images/slide/p5.jpg) top left no-repeat;"></li>
                 </ul>
                 <div>
                     <div id="slide-number"></div>
@@ -603,11 +642,30 @@ CompletionListHighlightedItemCssClass="hoverlistitem2"
                         <div id="pagination">
                             <div class="prev" style="display: none;"></div><div id="ctrl1" name="button1">&nbsp;&nbsp;</div><div id="ctrl2" name="button2">&nbsp;&nbsp;</div><div id="ctrl3" name="button3">&nbsp;&nbsp;</div><div id="ctrl4" name="button4">&nbsp;&nbsp;</div><div id="ctrl5" name="button5">&nbsp;&nbsp;</div><div class="next" style="display:none;"></div>
                          <script language="javascript" type="text/javascript">
+
+                            //Coremetrics implementation for slide carousel buttons
                              var ctrl1 = document.getElementById("ctrl1");
+                             var ctrl2 = document.getElementById("ctrl2");
+                             var ctrl3 = document.getElementById("ctrl3");
+                             var ctrl4 = document.getElementById("ctrl4");
+                             var ctrl5 = document.getElementById("ctrl5");
+
                              ctrl1.onclick = function () {
-                                 //alert("you clicked me");
-                                 //rotate(1);
+                                 cmCreateManualLinkClickTag('careershome.aspx','button1_job_areas','career:Tool:Home');
                              }
+                             ctrl2.onclick = function () {
+                                 cmCreateManualLinkClickTag('careershome.aspx','button2_financial_advisors','career:Tool:Home');
+                             }
+                             ctrl3.onclick = function () {
+                                 cmCreateManualLinkClickTag('careershome.aspx','button3_students','career:Tool:Home');
+                             }
+                             ctrl4.onclick = function () {
+                                 cmCreateManualLinkClickTag('careershome.aspx','button4_locations','career:Tool:Home');
+                             }
+                             ctrl5.onclick = function () {
+                                 cmCreateManualLinkClickTag('careershome.aspx','button5_military','career:Tool:Home');
+                             }
+
                          </script>
                         
                         </div>
