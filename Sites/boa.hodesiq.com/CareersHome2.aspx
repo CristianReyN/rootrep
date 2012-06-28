@@ -27,6 +27,7 @@
         var intval = null;
         var cindex = 0;
         var slideno = 1;
+        var rflag = 0;
         function theRotator() {
                 //Set the opacity of all images to 0
                 $('div#rotator ul li').css({ opacity: 0.0 });
@@ -42,6 +43,7 @@
                 //Call the rotator function to run the slideshow, 6000 = change to next image after 6 seconds
                 displaytext(slideno);
                 intval = setInterval('rotate()', 8000);
+                rflag = 1;
         }
 
         function rotate(ne_xt) {
@@ -49,10 +51,14 @@
             var current = ($('div#rotator ul li.show') ? $('div#rotator ul li.show') : $('div#rotator ul li:first'));
             slideno = slideno + 1;
 
-            //if (slideno < 6) {
-                //if (slideno > 5) { slideno = 1; }
-                cindex = slideno;
-                displaytext(slideno);
+            if (slideno > 5) {
+                slideno = 1;               
+                window.clearInterval(intval)
+                intval = null;
+            }
+            cindex = slideno;
+            displaytext(slideno);
+            rflag = 1;
                 //Get next image, when it reaches the end, rotate it back to the first image
                 var next = ne_xt ? ne_xt :
 	    ((current.next().length) ? ((current.next().hasClass('show')) ? $('div#rotator ul li:first') : current.next()) : $('div#rotator ul li:first'));
