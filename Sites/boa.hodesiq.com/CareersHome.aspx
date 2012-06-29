@@ -218,33 +218,86 @@
            window.location='military/';
         }
         
+        //global variables for displaytext() and keycheck()
+        var item152 = '<p><img src="homepage-redesign/images/slide/ttl1.png" alt="" /><br />If you want to work with consumers, investors or institutions, in a career that goes from customer care, sales and finance to HR, technology or risk management &mdash; a career with Bank of America may set opportunity in motion for you. <a onClick="cmRedirect1();" href="javascript:void(0);" id="item152" tabindex="52" title="Explore our Job Areas now" name="Explore our Job Areas now">Explore our Job Areas now.</a></p>';
+        var item153 = '<p><img src="homepage-redesign/images/slide/ttl2.png" alt="" /><br />Opportunity awaits those who seek constant challenge, and remarkable rewards. <a onClick="cmRedirect2();" href="javascript:void(0);" id="item153" tabindex="53" title="Join our team, learn more about Financial Advisors" name="Join our team, learn more about Financial Advisors">Join our team</a> of Financial Advisors at Bank of America, developing and delivering sophisticated solutions that help our affluent clients simplify, manage and maximize their financial goals.</p>';
+        var item154 = '<p><img src="homepage-redesign/images/slide/ttl3.png" alt="" /><br /><a onClick="cmRedirect3();" href="javascript:void(0);" id="item154" tabindex="54" title="Join our team, learn more about Student programs" name="Join our team, learn more about Student programs">Join our team<span> learn more about Student programs </span></a>&nbsp;and we&rsquo;ll open your career path and give you new opportunities to take the possible and make it real. You&rsquo;ll receive training, mentorship and support to boost your aspirations to a global level. And, as part of the world&rsquo;s leading financial institution, you can create the kind of opportunity that generates greater opportunity and bigger impact than you ever imagined.</p>';
+        var item155 = '<p><img src="homepage-redesign/images/slide/ttl4.png" alt="" /><br />With positions available across the Americas, Europe, Middle East, Africa (EMEA) and Asia&mdash;Pacific, there is literally a world of opportunity with us. More than 250,000 employees worldwide have already discovered their ideal career at Bank of America. We invite you to <a onClick="cmRedirect4();" href="javascript:void(0);" id="item155" tabindex="55" title="Learn about our locations" name="Learn about our locations">learn more about us.<span> Learn about our locations. </span></a></p>';
+        var item156 = '<p><img src="homepage-redesign/images/slide/ttl5.png" alt="" /><br />Bring your skills to a place where teamwork, trust and accountability mean as much to us as they do to you.  Bank of America is proud to be regularly recognized by GI Jobs, Military Edge, and others, as a top &ldquo;military-friendly&rdquo; employer. Join thousands of other veterans here, and <a onClick="cmRedirect5();" href="javascript:void(0);" id="item156" tabindex="56" title="Discover why veterans consider us military-friendly" name="Discover why veterans consider us military-friendly">discover why.<span> veterans consider us military-friendly .</span></a></p>';
+        
         function displaytext(sno) {
             var container = document.getElementById('slide-number');
             var oNewP = document.createElement("p");
             switch (sno) {
                 case 1:
-                    container.innerHTML = '<p><img src="homepage-redesign/images/slide/ttl1.png" alt="" /><br />If you want to work with consumers, investors or institutions, in a career that goes from customer care, sales and finance to HR, technology or risk management &mdash; a career with Bank of America may set opportunity in motion for you. <a onClick="cmRedirect1();" href="javascript:void(0);" id="item152" tabindex="52" title="Explore our Job Areas now" name="Explore our Job Areas now">Explore our Job Areas now.</a></p>'
+                    container.innerHTML = item152;
                     break;
                 case 2:
-                    container.innerHTML = '<p><img src="homepage-redesign/images/slide/ttl2.png" alt="" /><br />Opportunity awaits those who seek constant challenge, and remarkable rewards. <a onClick="cmRedirect2();" href="javascript:void(0);" id="item153" tabindex="53" title="Join our team, learn more about Financial Advisors" name="Join our team, learn more about Financial Advisors">Join our team</a> of Financial Advisors at Bank of America, developing and delivering sophisticated solutions that help our affluent clients simplify, manage and maximize their financial goals.</p>';
+                    container.innerHTML = item153;
                     break;
                 case 3:
-                    container.innerHTML = '<p><img src="homepage-redesign/images/slide/ttl3.png" alt="" /><br /><a onClick="cmRedirect3();" href="javascript:void(0);" id="item154" tabindex="54" title="Join our team, learn more about Student programs" name="Join our team, learn more about Student programs">Join our team<span> learn more about Student programs </span></a>&nbsp;and we&rsquo;ll open your career path and give you new opportunities to take the possible and make it real. You&rsquo;ll receive training, mentorship and support to boost your aspirations to a global level. And, as part of the world&rsquo;s leading financial institution, you can create the kind of opportunity that generates greater opportunity and bigger impact than you ever imagined.</p>';
+                    container.innerHTML = item154;
                     break;
                 case 4:
-                    container.innerHTML = '<p><img src="homepage-redesign/images/slide/ttl4.png" alt="" /><br />With positions available across the Americas, Europe, Middle East, Africa (EMEA) and Asia&mdash;Pacific, there is literally a world of opportunity with us. More than 250,000 employees worldwide have already discovered their ideal career at Bank of America. We invite you to <a onClick="cmRedirect4();" href="javascript:void(0);" id="item155" tabindex="55" title="Learn about our locations" name="Learn about our locations">learn more about us.<span> Learn about our locations. </span></a></p>';
+                    container.innerHTML = item155;
                     break;
                 case 5:
-                    container.innerHTML = '<p><img src="homepage-redesign/images/slide/ttl5.png" alt="" /><br />Bring your skills to a place where teamwork, trust and accountability mean as much to us as they do to you.  Bank of America is proud to be regularly recognized by GI Jobs, Military Edge, and others, as a top &ldquo;military-friendly&rdquo; employer. Join thousands of other veterans here, and <a onClick="cmRedirect5();" href="javascript:void(0);" id="156" tabindex="56" title="Discover why veterans consider us military-friendly" name="Discover why veterans consider us military-friendly">discover why.<span> veterans consider us military-friendly .</span></a></p>';
+                    container.innerHTML = item156;
                     break;
                 default:
-                    container.innerHTML = '<p><img src="homepage-redesign/images/slide/ttl1.png" alt="" /><br />If you want to work with consumers, investors or institutions, in a career that goes from customer care, sales and finance to HR, technology or risk management &mdash; a career with Bank of America may set opportunity in motion for you. <a onClick="cmRedirect1();" href="javascript:void(0);" id="item152" tabindex="52" title="Explore our Job Areas now" name="Explore our Job Areas now">Explore our Job Areas now.</a></p>'
+                    container.innerHTML = item152;
                     break;
             }
-        }        
+        }       
+        
+    document.onkeyup = KeyCheck;
+
+    //check for tab event and activate content card links
+    function KeyCheck()
+    {
+        var KeyID = event.keyCode;
+        if (KeyID == 9)
+        {
+            
+            var currObj = document.activeElement;
+            var container = document.getElementById('slide-number');
+            
+            if (currObj.tabIndex == 52)            
+            {
+                container.innerHTML = item152;
+                document.getElementById("item152").setActive();
+            }
+
+            if (currObj.tabIndex == 53)            
+            {
+                container.innerHTML = item153;
+                document.getElementById("item153").setActive();
+            }
+            if (currObj.tabIndex == 54)            
+            {
+                container.innerHTML = item154;
+                document.getElementById("item154").setActive();
+            }
+            if (currObj.tabIndex == 55)            
+            {
+                container.innerHTML = item155;
+                document.getElementById("item155").setActive();
+            }
+            if (currObj.tabIndex == 56)            
+            {
+                container.innerHTML = item156;
+                document.getElementById("item156").setActive();
+            }
+        }
+        
+    } 
     </script> 
     <script language="javascript" type="text/javascript">
+    
+
         //$(document).ready(function() {reset();});  
+      
+
         $(function () {
             $('#slide1').keyup(function () { rotate(); });
             $('#slide2').keyup(function () { rotate(); });
@@ -634,7 +687,7 @@ CompletionListHighlightedItemCssClass="hoverlistitem2"
                     <li id="slide2" tabindex="53" style="background: url(homepage-redesign/images/slide/p2.jpg) top left no-repeat;"></li>
                     <li id="slide3" tabindex="54" style="background: url(homepage-redesign/images/slide/p3.jpg) top left no-repeat;"></li>
                     <li id="slide4" tabindex="55" style="background: url(homepage-redesign/images/slide/p4.jpg) top left no-repeat;"></li>
-                    <li id="slide5" tabindex="55" style="background: url(homepage-redesign/images/slide/p5.jpg) top left no-repeat;"></li>
+                    <li id="slide5" tabindex="56" style="background: url(homepage-redesign/images/slide/p5.jpg) top left no-repeat;"></li>
                 </ul>
                 <div>
                     <div id="slide-number"></div>
