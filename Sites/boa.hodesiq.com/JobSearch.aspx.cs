@@ -203,13 +203,13 @@ namespace BOA
                 BtnBegin.Visible = false;
                 BtnSearch.Visible = false;
                 tdInstructions.Text = Instructions;
-                banc.Visible = false;
+                banc.Visible = true;
             }
             else
             {
                 PnlUSJobsContent.Visible = false;
                 PnlCanada.Visible = false;
-                banc.Visible = false;
+                banc.Visible = true;
 
                 tdInstructions.Text = Instructions;
 
