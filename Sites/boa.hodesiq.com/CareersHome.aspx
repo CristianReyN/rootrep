@@ -688,11 +688,11 @@ CompletionListHighlightedItemCssClass="hoverlistitem2"
             <H1 class="hidden">Bank of America Careers Home</H1>            <div id="slidearea">
                 <div id="rotator"> 
                 <ul>
-                    <li id="slide1" tabindex="52" class="show" style="background: url(homepage-redesign/images/slide/p1.jpg) top left no-repeat;"></li>
-                    <li id="slide2" tabindex="53" style="background: url(homepage-redesign/images/slide/p2.jpg) top left no-repeat;"></li>
-                    <li id="slide3" tabindex="54" style="background: url(homepage-redesign/images/slide/p3.jpg) top left no-repeat;"></li>
-                    <li id="slide4" tabindex="55" style="background: url(homepage-redesign/images/slide/p4.jpg) top left no-repeat;"></li>
-                    <li id="slide5" tabindex="56" style="background: url(homepage-redesign/images/slide/p5.jpg) top left no-repeat;"></li>
+                    <li id="slide1" tabindex="52" class="show" style="background: url(homepage-redesign/images/slide/p1.jpg) top left no-repeat;"><span class="hidden">Slide 1 Job Areas</span></li>
+                    <li id="slide2" tabindex="53" style="background: url(homepage-redesign/images/slide/p2.jpg) top left no-repeat;"><span class="hidden">Slide 2 Financial Advisors</span></li>
+                    <li id="slide3" tabindex="54" style="background: url(homepage-redesign/images/slide/p3.jpg) top left no-repeat;"><span class="hidden">Slide 3 Students</span></li>
+                    <li id="slide4" tabindex="55" style="background: url(homepage-redesign/images/slide/p4.jpg) top left no-repeat;"><span class="hidden">Slide 4 Locations</span></li>
+                    <li id="slide5" tabindex="56" style="background: url(homepage-redesign/images/slide/p5.jpg) top left no-repeat;"><span class="hidden">Slide 5 Military</span></li>
                 </ul>
                 <div>
                     <div id="slide-number"></div>
@@ -810,7 +810,6 @@ CompletionListHighlightedItemCssClass="hoverlistitem2"
                     <ul>   
                         <li><a href="https://www.bankofamerica.com/privacy/index.jsp" title="Privacy Policy" tabindex="69" name="privacy_policy_footernav">Privacy Policy</a></li>
                         <li><a href="http://www.bankofamerica.com/state.cgi?section=help&update=&cookiecheck=yes&template=sitemap.cfm&lob=" title="Site Map" tabindex="70" name="site_map_footernav">Site Map</a></li>
-                        <li><a href="careershome.aspx" title="Careers" tabindex="71" name="careers_footernav">Careers</a></li>
                         <li style="background:none;" title="About Us"><a href="http://about.bankofamerica.com" tabindex="72" name="about_us_footernav">About Us</a></li>
                     </ul>
                 </div>
