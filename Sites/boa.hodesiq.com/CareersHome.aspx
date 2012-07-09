@@ -43,7 +43,7 @@
                 }
                 //Call the rotator function to run the slideshow, 6000 = change to next image after 6 seconds
                 displaytext(slideno);
-                intval = setInterval('rotate()', 8000);
+                intval = setInterval('rotate()', 11000);
         }
 
         function rotate(ne_xt) {
@@ -250,7 +250,7 @@
             }
         }       
         
-    document.onkeyup = KeyCheck;
+    //document.onkeyup = KeyCheck;
 
     //check for tab event and activate content card links
     function KeyCheck()
@@ -265,28 +265,33 @@
             if (currObj.tabIndex == 52)            
             {
                 container.innerHTML = item152;
-                document.getElementById("item152").setActive();
+                //document.getElementById("item152").setActive();
+                $('#item152').focus();
             }
 
             if (currObj.tabIndex == 53)            
             {
                 container.innerHTML = item153;
-                document.getElementById("item153").setActive();
+                //document.getElementById("item153").setActive();
+                $('#item153').focus();
             }
             if (currObj.tabIndex == 54)            
             {
                 container.innerHTML = item154;
-                document.getElementById("item154").setActive();
+                //document.getElementById("item154").setActive();
+                $('#item154').focus();
             }
             if (currObj.tabIndex == 55)            
             {
                 container.innerHTML = item155;
-                document.getElementById("item155").setActive();
+                //document.getElementById("item155").setActive();
+                $('#item155').focus();
             }
             if (currObj.tabIndex == 56)            
             {
                 container.innerHTML = item156;
-                document.getElementById("item156").setActive();
+                //document.getElementById("item156").setActive();
+                $('#item156').focus();
             }
         }
         
