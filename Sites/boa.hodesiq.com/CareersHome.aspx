@@ -219,11 +219,11 @@
         }
         
         //global variables for displaytext() and keycheck()
-        var item152 = '<p><img src="homepage-redesign/images/slide/ttl1.png" alt="" /><br />If you want to work with consumers, investors or institutions, in a career that goes from customer care, sales and finance to HR, technology or risk management &mdash; a career with Bank of America may set opportunity in motion for you. <a onClick="cmRedirect1();" href="javascript:void(0);" id="item152" tabindex="52" title="Explore our Job Areas now" name="Explore our Job Areas now">Explore our Job Areas now.</a></p>';
-        var item153 = '<p><img src="homepage-redesign/images/slide/ttl2.png" alt="" /><br />Opportunity awaits those who seek constant challenge, and remarkable rewards. <a onClick="cmRedirect2();" href="javascript:void(0);" id="item153" tabindex="53" title="Join our team, learn more about Financial Advisors" name="Join our team, learn more about Financial Advisors">Join our team</a> of Financial Advisors at Bank of America, developing and delivering sophisticated solutions that help our affluent clients simplify, manage and maximize their financial goals.</p>';
-        var item154 = '<p><img src="homepage-redesign/images/slide/ttl3.png" alt="" /><br /><a onClick="cmRedirect3();" href="javascript:void(0);" id="item154" tabindex="54" title="Join our team, learn more about Student programs" name="Join our team, learn more about Student programs">Join our team<span> learn more about Student programs </span></a>&nbsp;and we&rsquo;ll open your career path and give you new opportunities to take the possible and make it real. You&rsquo;ll receive training, mentorship and support to boost your aspirations to a global level. And, as part of the world&rsquo;s leading financial institution, you can create the kind of opportunity that generates greater opportunity and bigger impact than you ever imagined.</p>';
-        var item155 = '<p><img src="homepage-redesign/images/slide/ttl4.png" alt="" /><br />With positions available across the Americas, Europe, Middle East, Africa (EMEA) and Asia&mdash;Pacific, there is literally a world of opportunity with us. More than 250,000 employees worldwide have already discovered their ideal career at Bank of America. We invite you to <a onClick="cmRedirect4();" href="javascript:void(0);" id="item155" tabindex="55" title="Learn about our locations" name="Learn about our locations">learn more about us.<span> Learn about our locations. </span></a></p>';
-        var item156 = '<p><img src="homepage-redesign/images/slide/ttl5.png" alt="" /><br />Bring your skills to a place where teamwork, trust and accountability mean as much to us as they do to you.  Bank of America is proud to be regularly recognized by GI Jobs, Military Edge, and others, as a top &ldquo;military-friendly&rdquo; employer. Join thousands of other veterans here, and <a onClick="cmRedirect5();" href="javascript:void(0);" id="item156" tabindex="56" title="Discover why veterans consider us military-friendly" name="Discover why veterans consider us military-friendly">discover why.<span> veterans consider us military-friendly .</span></a></p>';
+        var item152 = '<p><img src="homepage-redesign/images/slide/ttl1.png" alt="" /><br />If you want to work with consumers, investors or institutions, in a career that goes from customer care, sales and finance to HR, technology or risk management &mdash; a career with Bank of America may set opportunity in motion for you. <a onClick="cmRedirect1();" href="javascript:void(0);" id="item152" tabindex="52" title="Explore our Job Areas now" name="Explore our Job Areas now"><span class="hidden">Explore our Job Areas now.</span>Explore our Job Areas now.</a></p>';
+        var item153 = '<p><img src="homepage-redesign/images/slide/ttl2.png" alt="" /><br />Opportunity awaits those who seek constant challenge, and remarkable rewards. <a onClick="cmRedirect2();" href="javascript:void(0);" id="item153" tabindex="53" title="Join our team, learn more about Financial Advisors" name="Join our team, learn more about Financial Advisors"><span class="hidden">Join our team, learn more about Financial Advisors</span>Join our team</a> of Financial Advisors at Bank of America, developing and delivering sophisticated solutions that help our affluent clients simplify, manage and maximize their financial goals.</p>';
+        var item154 = '<p><img src="homepage-redesign/images/slide/ttl3.png" alt="" /><br /><a onClick="cmRedirect3();" href="javascript:void(0);" id="item154" tabindex="54" title="Join our team, learn more about Student programs" name="Join our team, learn more about Student programs"><span class="hidden">Join our team, learn more about Student programs</span>Join our team<span> learn more about Student programs </span></a>&nbsp;and we&rsquo;ll open your career path and give you new opportunities to take the possible and make it real. You&rsquo;ll receive training, mentorship and support to boost your aspirations to a global level. And, as part of the world&rsquo;s leading financial institution, you can create the kind of opportunity that generates greater opportunity and bigger impact than you ever imagined.</p>';
+        var item155 = '<p><img src="homepage-redesign/images/slide/ttl4.png" alt="" /><br />With positions available across the Americas, Europe, Middle East, Africa (EMEA) and Asia&mdash;Pacific, there is literally a world of opportunity with us. More than 250,000 employees worldwide have already discovered their ideal career at Bank of America. We invite you to <a onClick="cmRedirect4();" href="javascript:void(0);" id="item155" tabindex="55" title="Learn about our locations" name="Learn about our locations"><span class="hidden">Learn about our locations</span>learn more about us.<span> Learn about our locations. </span></a></p>';
+        var item156 = '<p><img src="homepage-redesign/images/slide/ttl5.png" alt="" /><br />Bring your skills to a place where teamwork, trust and accountability mean as much to us as they do to you.  Bank of America is proud to be regularly recognized by GI Jobs, Military Edge, and others, as a top &ldquo;military-friendly&rdquo; employer. Join thousands of other veterans here, and <a onClick="cmRedirect5();" href="javascript:void(0);" id="item156" tabindex="56" title="Discover why veterans consider us military-friendly" name="Discover why veterans consider us military-friendly"><span class="hidden">Discover why veterans consider us military-friendly</span>discover why.<span> veterans consider us military-friendly .</span></a></p>';
         
         function displaytext(sno) {
             var container = document.getElementById('slide-number');
@@ -391,7 +391,7 @@ CompletionListHighlightedItemCssClass="hoverlistitem2"
     <li id ="megaanchor3" style="padding-right:10px;"><a href="#" id="jobareas" tabindex="23" title="Hover or click to expand the menu for Job Areas">JOB AREAS</a></li>   
     <li id ="megaanchor4" style="padding-right:10px;"><a href="#" id="culture" tabindex="35" title="Hover or click to expand the menu for Culture & Work Environment">CULTURE &AMP; WORK ENVIRONMENT</a></li>
     <li id ="megaanchor5"><a href="#" id="topics"  tabindex="44" title="Hover or click to expand the menu for Topics">TOPICS</a></li>        
-    <li><span id="emptyspc" style="width:50px;">&nbsp;&nbsp;</span></li>
+    
 </ul> 
 </div>   
 <div id="megamenu1" class="megamenu">
@@ -688,11 +688,11 @@ CompletionListHighlightedItemCssClass="hoverlistitem2"
             <H1 class="hidden">Bank of America Careers Home</H1>            <div id="slidearea">
                 <div id="rotator"> 
                 <ul>
-                    <li id="slide1" tabindex="52" class="show" style="background: url(homepage-redesign/images/slide/p1.jpg) top left no-repeat;"><span class="hidden">Slide 1 Job Areas</span></li>
-                    <li id="slide2" tabindex="53" style="background: url(homepage-redesign/images/slide/p2.jpg) top left no-repeat;"><span class="hidden">Slide 2 Financial Advisors</span></li>
-                    <li id="slide3" tabindex="54" style="background: url(homepage-redesign/images/slide/p3.jpg) top left no-repeat;"><span class="hidden">Slide 3 Students</span></li>
-                    <li id="slide4" tabindex="55" style="background: url(homepage-redesign/images/slide/p4.jpg) top left no-repeat;"><span class="hidden">Slide 4 Locations</span></li>
-                    <li id="slide5" tabindex="56" style="background: url(homepage-redesign/images/slide/p5.jpg) top left no-repeat;"><span class="hidden">Slide 5 Military</span></li>
+                    <li id="slide1" tabindex="52" class="show" style="background: url(homepage-redesign/images/slide/p1.jpg) top left no-repeat;"><a href="#"><span class="hidden">Slide 1 Job Areas</span></a></li>
+                    <li id="slide2" tabindex="53" style="background: url(homepage-redesign/images/slide/p2.jpg) top left no-repeat;"><a href="#"><span class="hidden">Slide 2 Financial Advisors</span></a></li>
+                    <li id="slide3" tabindex="54" style="background: url(homepage-redesign/images/slide/p3.jpg) top left no-repeat;"><a href="#"><span class="hidden">Slide 3 Students</span></a></li>
+                    <li id="slide4" tabindex="55" style="background: url(homepage-redesign/images/slide/p4.jpg) top left no-repeat;"><a href="#"><span class="hidden">Slide 4 Locations</span></a></li>
+                    <li id="slide5" tabindex="56" style="background: url(homepage-redesign/images/slide/p5.jpg) top left no-repeat;"><a href="#"><span class="hidden">Slide 5 Military</span></a></li>
                 </ul>
                 <div>
                     <div id="slide-number"></div>
@@ -701,7 +701,7 @@ CompletionListHighlightedItemCssClass="hoverlistitem2"
                             <div class="prev" style="display: none;"></div><div id="ctrl1" name="button1">&nbsp;&nbsp;</div><div id="ctrl2" name="button2">&nbsp;&nbsp;</div><div id="ctrl3" name="button3">&nbsp;&nbsp;</div><div id="ctrl4" name="button4">&nbsp;&nbsp;</div><div id="ctrl5" name="button5">&nbsp;&nbsp;</div><div class="next" style="display:none;"></div>
                          <script language="javascript" type="text/javascript">
 
-                            //Coremetrics implementation for slide carousel buttons
+                            //DO NOT REMOVE!!!!!!! - Coremetrics implementation for slide carousel buttons - DO NOT REMOVE!!!!!!!
                              var ctrl1 = document.getElementById("ctrl1");
                              var ctrl2 = document.getElementById("ctrl2");
                              var ctrl3 = document.getElementById("ctrl3");
@@ -723,6 +723,7 @@ CompletionListHighlightedItemCssClass="hoverlistitem2"
                              ctrl5.onclick = function () {
                                  cmCreateManualLinkClickTag('careershome.aspx','button5_military','career:Tool:Home');
                              }
+                             //DO NOT REMOVE!!!!!!! - Coremetrics implementation for slide carousel buttons - DO NOT REMOVE!!!!!!!
 
                          </script>
                         
@@ -797,7 +798,7 @@ CompletionListHighlightedItemCssClass="hoverlistitem2"
                         </div>
                         <div class="students">
                             <table width="260" border="0" cellpadding="0" cellspacing="0" style="height:86px;" summary="This table holds student image.">
-                                <tr><td><a href="/campus.aspx" title="Students, make the most of your talents – and your career – with us.  Learn more >  " tabindex="68"><img src="homepage-redesign/images/students-spotlight2.png" alt="Students, make the most of your talents – and your career – with us.  Learn more >" /></a></td></tr>                                
+                                <tr><td><a href="/campus.aspx" title="Students, make the most of your talents – and your career – with us.  Learn more" tabindex="68"><img src="homepage-redesign/images/students-spotlight2.png" alt="Students, make the most of your talents – and your career – with us.  Learn more >" /></a></td></tr>                                
                             </table>
                         </div>
                     </div>
