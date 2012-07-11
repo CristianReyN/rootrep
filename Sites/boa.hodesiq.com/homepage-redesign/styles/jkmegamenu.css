@@ -1,6 +1,7 @@
 .megamenu{
 	position: absolute;
-	display: none;
+	display:hidden; /* Added on 07/11/2012
+	/*display: none;*/
 	font-family:Verdana, Geneva, sans-serif;
 	font-size:12px; 
 	font-weight:normal;
