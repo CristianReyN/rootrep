@@ -17,7 +17,7 @@
     <script language="JavaScript1.2" src="includes/ps.js" type="text/javascript"></script>
     <script language="JavaScript1.2" src="includes/fixit.js" type="text/javascript"></script>
     <link href="homepage-redesign/styles/boaMain.css" type="text/css" rel="stylesheet" />
-     <link href="http://jobmatcher.stg.hodesiq.com/clients/boa/sjm-plugin.css" rel="stylesheet" type="text/css" />
+    <!--<link href="http://jobmatcher.stg.hodesiq.com/clients/boa/sjm-plugin.css" rel="stylesheet" type="text/css" />-->
 
     <!--[if lte IE 7]><link href="homepage-redesign/styles/ie7.css" type="text/css" rel="stylesheet" /><![endif]--> 
     <!--[if lte IE 9]><link href="homepage-redesign/styles/ie9.css" type="text/css" rel="stylesheet" /><![endif]--> 
@@ -358,7 +358,7 @@ CompletionListHighlightedItemCssClass="hoverlistitem2"
                                             <td width="40" align="left"><input type="image" name="submit" src="homepage-redesign/images/btn-search.png" style="margin:3px 0 0 2px;" tabindex="4" alt="Search for jobs" title="Search for jobs" onclick="document.forms['form1'].submit();"/></td>  
                                             <td width="210" align="left"><a href="jobsearch.aspx" title="Follow to Advance Search" tabindex="5"><img src="homepage-redesign/images/btn-advanced-search.jpg"  alt="Follow to Advance Search" style="margin:3px 0 0 2px;"/></a></td>
                                             <td width="410" align="right">
-                                            <div id="sjm-root" align="center"></div>
+                                           <!-- <div id="sjm-root" align="center"></div>
                                               <script type="text/javascript">
                                                   (function () {
                                                       var plugin = document.createElement('script'); plugin.async = true;
@@ -366,6 +366,7 @@ CompletionListHighlightedItemCssClass="hoverlistitem2"
                                                       (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(plugin);
                                                   } ());
                                               </script>  
+                                              -->
                                             
                                             </td>
                                                                                                                        
