@@ -41,7 +41,7 @@ img{border:0;}
 #header-mid{position:relative; width:1028px; height:46px; margin-left:auto; margin-right:auto; background:url(../images/bg-header-bottom.jpg) top left no-repeat;z-index:99;}
 #skipnav{position:absolute; width:150px; top:50px; height:69px; margin-left:900px; font-family:Verdana, Geneva, sans-serif; font-size:10px; color:#fff; font-weight:bold;}
 
-#search{width:984px; height:46px; margin-left:auto; margin-right:auto; background:url(../images/bg-search.png) top left no-repeat;}
+#search{z-index:25; width:984px; height:46px; margin-left:auto; margin-right:auto; background:url(../images/bg-search.png) top left no-repeat;}
 #topmenu
 {
 	position:relative; 
