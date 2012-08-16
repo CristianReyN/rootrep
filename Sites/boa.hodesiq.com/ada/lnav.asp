@@ -73,6 +73,44 @@
 	</ul>
 </div>
 </td></tr>
+<tr valign="top"><td>
+<%
+Dim sjm_url
+If trim(Request.ServerVariables("SERVER_NAME")) = "boa.hodesiq.com" _
+		OR trim(Request.ServerVariables("SERVER_NAME")) = "careers.bankofamerica.com" _
+		OR trim(Request.ServerVariables("SERVER_NAME")) = "bankofamerica.com" _
+		Then
+	sjm_url = "http://jobmatcher.hodesiq.com"
+Else
+	sjm_url = "http://jobmatcher.stg.hodesiq.com"
+End if %>
+<link href="<%=sjm_url%>/clients/boa/sjm-plugin.css" rel="stylesheet" type="text/css" />
+<div id="sjm-root" align="center" style="text-align: center; margin-top: 12px;"></div>
+<script type="text/javascript">
+<%If mpage <> "overview" Then %>var SJM_subpage = true;<%End if %>
+(function () {
+	var plugin = document.createElement('script'); plugin.async = true;
+	plugin.src = '<%=sjm_url%>/clients/boa/js/sjm-plugin.js';
+	if( document.all )
+	{
+		jQuery(document).ready(function () {
+			$('#sjm-link').attr("title", "Use your Social Media profile to customize your job search >>");
+			$('#sjm-link img').attr("alt", "Use your Social Media profile to customize your job search >>");
+		});
+	}
+	else
+	{
+		plugin.onload = function(){
+			jQuery(document).ready(function () {
+				$('#sjm-link').attr("title", "Use your Social Media profile to customize your job search >>");
+				$('#sjm-link img').attr("alt", "Use your Social Media profile to customize your job search >>");
+			});
+		};
+	}
+	(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(plugin);
+} ());
+</script>
+</td></tr>
 <%
 	return_image = "Return to standard page"
 	return_title = "Return to standard page"
