@@ -1,12 +1,9 @@
 <%@ Page Language="C#" MasterPageFile="~/MasterPage_French.master" AutoEventWireup="true" CodeFile="fr_canada_interview_tips.aspx.cs" Inherits="fr_canada_interview_tips" %>
 
 <asp:Content ID="Image" ContentPlaceHolderID="Image" runat="Server">
-    <img src="images/BoA_FRENCHimage_01.jpg" width="578" height="166" alt="Explorez la possibilité de faire carrière dans une Banque de possibilités  "
-        title="Explorez la possibilité de faire carrière dans une Banque de possibilités  "
+    <img src="images/BoA_FRENCHimage_01.jpg" width="578" height="166" alt="Canada Explorez la possibilité de faire carrière dans une Banque de possibilités  "
+        title="Canada Explorez la possibilité de faire carrière dans une Banque de possibilités  "
         border="0" />
-    <div class="hidden">
-        Explorez la possibilité de faire carrière dans une Banque de possibilités
-    </div>
 </asp:Content>
 <asp:Content ID="Main" ContentPlaceHolderID="Main" runat="Server">
     <a name="skipmaincontent"></a>

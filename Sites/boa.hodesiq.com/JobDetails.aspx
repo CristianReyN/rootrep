@@ -35,7 +35,7 @@
                                         Description</h2>
                                         <%} %>
                                     <p>
-                                        <asp:Label ID="lblDescripton" runat="server" ToolTip="Job Description" Text="<%# Container.Description %>" Width="406px"></asp:Label>&nbsp;</p>
+                                        <asp:Label ID="lblDescripton" runat="server" Text="<%# Container.Description %>" Width="406px"></asp:Label>&nbsp;</p>
                                       <%if(CountryId.Equals("1"))
                                         { %>
                                     <h2 style="margin: 0px; margin-top: 18px;">

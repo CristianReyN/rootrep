@@ -73,8 +73,8 @@ div.saf-btn
 	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
 	background: #366496;
 	background: #ffffff;
-	border-right: 1px solid #000000;
-	border-bottom: 1px solid #000000;
+	border-right: 0px solid #000000;
+	border-bottom: 0px solid #000000;
 	border-top:1px solid #CBE3FF;
 	border-left:1px solid #B7CFEB;
 	width: auto;

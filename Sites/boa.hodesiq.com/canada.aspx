@@ -4,10 +4,8 @@
 
 
 <asp:Content ID="Image" ContentPlaceHolderID="Image" runat="Server">
-    <img src="images/global-careers-canada_I.jpg" width="578" height="166" alt="Explore a career with the Bank of Opportunity."
-        title="Explore a career with the Bank of Opportunity." border="0" />
-    <div class="hidden">
-        Explore a career with the Bank of Opportunity.</div>
+    <img src="images/global-careers-canada_I.jpg" width="578" height="166" alt="Canada Explore a career with the Bank of Opportunity."
+        title="Canada Explore a career with the Bank of Opportunity." border="0" />
 </asp:Content>
 <asp:Content ID="Main" ContentPlaceHolderID="Main" runat="Server">
 <script type="text/javascript"><!--

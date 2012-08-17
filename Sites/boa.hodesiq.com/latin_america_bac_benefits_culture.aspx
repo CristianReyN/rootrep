@@ -3,10 +3,8 @@
 
 
 <asp:Content ID="Image" ContentPlaceHolderID="Image" runat="Server">
-    <img src="images/latin_america.jpg" width="578" height="166" alt="Explore a career with the Bank of Opportunity."
-        title="Explore a career with the Bank of Opportunity." border="0">
-    <div class="hidden">
-        Explore a career with the Bank of Opportunity.</div>
+    <img src="images/latin_america.jpg" width="578" height="166" alt="Latin America Explore a career with the Bank of Opportunity."
+        title="Latin America Explore a career with the Bank of Opportunity." border="0">
 </asp:Content>
 <asp:Content ID="Main" ContentPlaceHolderID="Main" runat="Server">
     <a name="skipmaincontent"></a>

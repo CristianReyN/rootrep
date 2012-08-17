@@ -55,7 +55,11 @@ function namewindow(){window.name="boamain";}
 		<td><a href="http://www.bankofamerica.com/" title="Bank of America Merrill Lynch" class="tablink" name="Bank_Of_America_Merrill_Lynch_header"><img src="images/BACMER_Signature_BLACK.gif" width="250" height="69" alt="Bank of America Merrill Lynch" border="0"/></a></td>
 <%
 }
-else
+   else if ((pagename.IndexOf("JobDetails.aspx") > -1) && (Request.QueryString["feedname"] == "ASIA PACIFIC External (web05)"))
+{%>
+		<td><a href="http://corp.bankofamerica.com/" title="Bank of America Merrill Lynch" class="tablink" name="Bank_Of_America_Merrill_Lynch_header"><img src="images/BACMER_Signature_BLACK.gif" width="250" height="69" alt="Bank of America Merrill Lynch"  title="Bank of America Merrill Lynch" border="0" /></a></td>
+<%
+}else
 {%>
 		<td><a href="http://www.bankofamerica.com/" title="Bank of America home page" class="tablink" name="Bank_Of_America_Home_Page_header"><img src="images/mhd_reg_logo.gif" width="250" height="69" alt="Bank of America home page"  title="Bank of America home page" border="0" /></a></td>
 <%
@@ -67,7 +71,7 @@ else
 					<table width="100%" border="0" cellspacing="0" cellpadding="0" summary="">
 						<tr>
 							<td colspan="2" valign="bottom" align="right" nowrap>
-<a href="http://www.bankofamerica.com/" class="mh-link1" title="Home" onfocus="this.className='mh-link1-over';" onblur="this.className='mh-link1';" name="Home_header">Home</a>&#160;<span class="linksep1">&#8226;</span>&#160;<a href="http://www.bankofamerica.com/findit/locator.cfm" class="mh-link1" title="Locations" onfocus="this.className='mh-link1-over';" onblur="this.className='mh-link1';" name="Locations_header">Locations</a>&#160;<span class="linksep1">&#8226;</span>&#160;<a href="overview/contact_us.asp" class="mh-link1" title="Contact Us" onfocus="this.className='mh-link1-over';" onblur="this.className='mh-link1';" name="Contact_Us_header">Contact Us</a>&#160;<span class="linksep1">&#8226;</span>&#160;<a href="http://www.bankofamerica.com/help" class="mh-link1" title="Help" onfocus="this.className='mh-link1-over';" onblur="this.className='mh-link1';" name="Help_header">Help</a>&#160;<span class="linksep1">&#8226;</span>&#160;<a href="http://www.bankofamerica.com/signin/" class="mh-link2" title="Sign In" onfocus="this.className='mh-link2-over';" onblur="this.className='mh-link2';" name="Sign_In_header">Sign In</a></td>
+<a href="http://about.bankofamerica.com/" class="mh-link1" title="Home" onfocus="this.className='mh-link1-over';" onblur="this.className='mh-link1';" name="Home_header">Home</a>&#160;<span class="linksep1">&#8226;</span>&#160;<a href="http://www.bankofamerica.com/findit/locator.cfm" class="mh-link1" title="Locations" onfocus="this.className='mh-link1-over';" onblur="this.className='mh-link1';" name="Locations_header">Locations</a>&#160;<span class="linksep1">&#8226;</span>&#160;<a href="overview/contact_us.asp" class="mh-link1" title="Contact Us" onfocus="this.className='mh-link1-over';" onblur="this.className='mh-link1';" name="Contact_Us_header">Contact Us</a>&#160;<span class="linksep1">&#8226;</span>&#160;<a href="http://www.bankofamerica.com/help" class="mh-link1" title="Help" onfocus="this.className='mh-link1-over';" onblur="this.className='mh-link1';" name="Help_header">Help</a>&#160;<span class="linksep1">&#8226;</span>&#160;<a href="http://www.bankofamerica.com/signin/" class="mh-link2" title="Sign In" onfocus="this.className='mh-link2-over';" onblur="this.className='mh-link2';" name="Sign_In_header">Sign In</a></td>
 						</tr>
 						<tr><td colspan="2"><img src="images/clear.gif" width="1" height="3" alt="" border="0" /></td></tr>
 						<tr>

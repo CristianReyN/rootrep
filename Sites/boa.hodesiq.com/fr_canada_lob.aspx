@@ -1,7 +1,6 @@
 <%@ Page Language="C#" MasterPageFile="~/MasterPage_French.master" AutoEventWireup="true" CodeFile="fr_canada_lob.aspx.cs" Inherits="fr_canada_lob"  %>
 
-<asp:Content ID="Image" ContentPlaceHolderID="Image" Runat="Server"> <img src="images/Banners_Canada_LOB.jpg" width="578" height="166" alt="Explorez la possibilité de faire carrière dans une Banque de possibilités  " title="Explorez la possibilité de faire carrière dans une Banque de possibilités  " border="0" />
-       <div class="hidden">Explorez la possibilité de faire carrière dans une Banque de possibilités  </div>
+<asp:Content ID="Image" ContentPlaceHolderID="Image" Runat="Server"> <img src="images/Banners_Canada_LOB.jpg" width="578" height="166" alt="Canada Explorez la possibilité de faire carrière dans une Banque de possibilités  " title="Canada Explorez la possibilité de faire carrière dans une Banque de possibilités  " border="0" />
 </asp:Content>
 <asp:Content ID="Main" ContentPlaceHolderID="Main" Runat="Server">
 <a name="skipmaincontent"></a><h1 class="hidden">Global Carri&egrave;res - Canada Line of Business</h1>

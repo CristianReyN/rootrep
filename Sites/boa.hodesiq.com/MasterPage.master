@@ -93,7 +93,7 @@ else
                             <table width="100%" border="0" cellspacing="0" cellpadding="0" summary="">
                                 <tr>
                                     <td colspan="2" valign="bottom" align="right" nowrap style="height: 13px">
-                                        <a href="http://www.bankofamerica.com/index.cfm?page=about" class="mh-link1" title="Home"
+                                        <a href="http://about.bankofamerica.com/" class="mh-link1" title="Home"
                                             onfocus="this.className='mh-link1-over';" onblur="this.className='mh-link1';">Home</a>&#160;<span
                                                 class="linksep1">&#8226;</span>&#160;<a href="http://www.bankofamerica.com/findit/locator.cfm"
                                                     class="mh-link1" title="Locations" onfocus="this.className='mh-link1-over';"

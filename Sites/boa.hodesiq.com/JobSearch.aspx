@@ -3,8 +3,11 @@
       <%@ Register Assembly="CareerSiteWebControls" Namespace="CareerSiteWebControls" TagPrefix="cswc" %>
 
 <asp:Content ID="Content1" runat="Server" ContentPlaceHolderID="cphmain">  
-<table border="0" cellpadding="0" cellspacing="0" summary="" width="578"><tr><td valign="top"><h1 style="margin: 0px 0px 0px 12px; ">Guided Job Search</h1></td><td align="right"><div id="banc" runat="server"><a id="ImgMerchantServices" runat="server" style="display:block;float:right;" name="Stay_Connected_to_Careers_on_Twitter_BofA_Careers" title="Stay connected to Careers on twitter @BofA_Careers.  Link opens a new window." target="_blank" href="http://twitter.com/BofA_Careers"><img src="../images/Twitter_Ad_for_Careers4.jpg" alt="Stay connected to Careers on twitter @BofA_Careers.  Link opens a new window." border="0" align="top"><span class="hidden">Link opens a new window.</span></a></div>	</td></tr> 
-	
+<table border="0" cellpadding="0" cellspacing="0" summary="" width="578"><tr><td valign="top"><h1 style="margin: 0px 0px 0px 12px; ">Guided Job Search</h1></td><td align="right">
+
+<div id="banc2" runat="server"><a id="ImgMerchantServices2" runat="server" style="display:block;float:right;" name="Stay_Connected_to_Careers_on_Twitter_BofA_Careers" target="_blank" href="http://twitter.com/BofA_Careers"><img src="../images/Twitter_Ad_for_Careers4.jpg" alt="Stay connected to Careers on twitter @BofA_Careers.  Link opens a new window." border="0" align="top"></a></div>
+<div id="banc" runat="server"><a id="ImgMerchantServices" runat="server" style="display:block;float:right;"></a></div>	</td></tr> 
+
         <span class='auraltext'>
          After you select a country from the country field, the page will refresh. For the United States, you can then pick a state.  After you select a state from the 'State" field, the page will refresh.  You will then be able to select a city from the 'City' field.  For all other countries, after you select a country other than the United States from the country field, the page will refresh and you can then select a city from the 'City' field.
         </span>
@@ -39,6 +42,7 @@
                                     </cswc:CountryListBox>
                                     -->
                                     </div>
+
 							</td>
                             <td  valign="middle" style="width:48%; height:45;">
 							    <div id="Div4" style="display: inline;">	
@@ -118,7 +122,7 @@
 
 								</div>
 							</td>
-							<td  valign="top" style="width:50%; height:45;" runat="server" >
+							<td id="Td1"  valign="top" style="width:50%; height:45;" runat="server" >
                                 <asp:Label ID="lblZipCode" runat="server" Text="Zip Code" AssociatedControlID="txtZipCode"></asp:Label><br />
 								<asp:TextBox ID="txtZipCode" runat="server" CssClass="left" Style="width: 90%; size: 20"
 								    ToolTip="Zip Code" ></asp:TextBox>
@@ -223,9 +227,7 @@
 							</td>
 						</tr>
 						<tr><td colspan="2">&nbsp;</td></tr>
-					</table><br />
-	
-					<br /><br />
+					</table>
 					<asp:Panel ID="PnlUSJobsContent" runat="server">					
 					<a  id="ManageYourProfile" runat="server"  class="p" onblur="this.className='p';" onfocus="this.className='p-over';" >Manage Your Profile</a><BR/>
 					Create or update your existing candidate profile.<br /><br />
@@ -422,6 +424,7 @@
 <asp:label id="lblMessage" runat="server"></asp:label></asp:Panel>
            </td> </tr>
         </table>
+        
      
 <script language='javascript1.1' type='text/javascript'>
     //<!—
@@ -434,10 +437,10 @@
         cmCreatePageviewTag('career:Tool:Job_Search;jobsearch_reload', null, null, 'career:Tool:Job_Search', false, false, null, false, false, null, null, null, null, null, null, null, null, null, null, null, null);
     }
     else {
-    //new
+        //new
         setCookie("isReload", "isReload");
         cmCreatePageviewTag('career:Tool:Job_Search;jobsearch', null, null, 'career:Tool:Job_Search', false, false, null, false, false, null, null, null, null, null, null, null, null, null, null, null, null);
-           
+
     }
 
     function setCookie(c_name, value) {
@@ -504,7 +507,7 @@
 
     }
 
- 
+
     //-->
-</script>  
+</script> 
   </asp:Content>
