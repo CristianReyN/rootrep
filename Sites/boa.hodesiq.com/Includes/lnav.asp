@@ -88,18 +88,16 @@
 <tr valign="top"><td>
 <%
 Dim sjm_url
-If trim(Request.ServerVariables("SERVER_NAME")) = "boa.hodesiq.com" _
-		OR trim(Request.ServerVariables("SERVER_NAME")) = "careers.bankofamerica.com" _
-		OR trim(Request.ServerVariables("SERVER_NAME")) = "bankofamerica.com" _
-		Then
-	sjm_url = "http://jobmatcher.hodesiq.com"
-Else
-	sjm_url = "http://jobmatcher.stg.hodesiq.com"
-End if %>
+
+sjm_url = "http://jobmatcher.hodesiq.com"
+
+ %>
 <link href="<%=sjm_url%>/clients/boa/sjm-plugin.css" rel="stylesheet" type="text/css" />
 <div id="sjm-root" align="center" style="text-align: center; margin-top: 12px;"></div>
 <script type="text/javascript">
-<%If mpage <> "overview" Then %>var SJM_subpage = true;<%End if %>
+
+var SJM_subpage = true;
+
 (function () {
 	var plugin = document.createElement('script'); plugin.async = true;
 	plugin.src = '<%=sjm_url%>/clients/boa/js/sjm-plugin.js';
