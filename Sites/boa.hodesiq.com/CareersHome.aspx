@@ -230,11 +230,13 @@
     
     <script language="javascript" type="text/javascript">
         $(function () {
-            $('#item152').focus(function () { $('#item152').click(); $('#item153').focus(); });
-            $('#item154').focus(function () { $('#item154').click(); $('#item155').focus(); });
-            $('#item156').focus(function () { $('#item156').click(); $('#item157').focus(); });
-            $('#item158').focus(function () { $('#item158').click(); $('#item159').focus(); });
-            $('#item160').focus(function () { $('#item160').click(); $('#item161').focus(); });
+
+            $('#item152').focus(function () { $('#item152').click(); $('#item153').focus(); cmCreateManualLinkClickTag('careershome.aspx', 'button1_job_areas', 'career:Tool:Home'); });
+            $('#item154').focus(function () { $('#item154').click(); $('#item155').focus(); cmCreateManualLinkClickTag('careershome.aspx', 'button2_financial_advisors', 'career:Tool:Home'); });
+            $('#item156').focus(function () { $('#item156').click(); $('#item157').focus(); cmCreateManualLinkClickTag('careershome.aspx', 'button3_students', 'career:Tool:Home'); });
+            $('#item158').focus(function () { $('#item158').click(); $('#item159').focus(); cmCreateManualLinkClickTag('careershome.aspx', 'button4_locations', 'career:Tool:Home'); });
+            $('#item160').focus(function () { $('#item160').click(); $('#item161').focus(); cmCreateManualLinkClickTag('careershome.aspx', 'button5_military', 'career:Tool:Home'); });
+            
 
             $('#item153').keyup(function (event) {
                 var keycode = (event.keyCode ? event.keyCode : event.which); if (event.shiftKey && event.keyCode == 9) {
@@ -254,14 +256,7 @@
             $('#item157').keyup(function (event) { var keycode = (event.keyCode ? event.keyCode : event.which); if (event.shiftKey && event.keyCode == 9) { $('#item154').click(); $('#item155').focus(); } });
             $('#item159').keyup(function (event) { var keycode = (event.keyCode ? event.keyCode : event.which); if (event.shiftKey && event.keyCode == 9) { $('#item156').click(); $('#item157').focus(); } });
             $('#item161').keyup(function (event) { var keycode = (event.keyCode ? event.keyCode : event.which); if (event.shiftKey && event.keyCode == 9) { $('#item158').click(); $('#item159').focus(); } });
-
-            /*
-            $('#item153').keyup(function (event) { var keycode = (event.keyCode ? event.keyCode : event.which); if (event.keyCode == 13) { cmRedirect1(); } });
-            $('#item155').keyup(function (event) { var keycode = (event.keyCode ? event.keyCode : event.which); if (event.keyCode == 13) { cmRedirect2(); } });
-            $('#item157').keyup(function (event) { var keycode = (event.keyCode ? event.keyCode : event.which); if (event.keyCode == 13) { cmRedirect3(); } });
-            $('#item159').keyup(function (event) { var keycode = (event.keyCode ? event.keyCode : event.which); if (event.keyCode == 13) { cmRedirect4(); } });
-            $('#item161').keyup(function (event) { var keycode = (event.keyCode ? event.keyCode : event.which); if (event.keyCode == 13) { cmRedirect5(); } });
-            */
+            
         });      
     </script>   
      <noscript>This page uses Javascript. Your browser either doesn't support Javascript or you have it turned off. To see this page properly please use a Javascript enabled browser.</noscript>
@@ -653,20 +648,6 @@ CompletionListHighlightedItemCssClass="hoverlistitem2"
                     <div class="slide-controls">
                         <div id="pagination">
                             <div class="prev" style="display: none;"></div><div id="item152" tabindex="52" title="button1_job_areas">&nbsp;&nbsp;</div><div id="item154" tabindex="54" title="button2_financial_advisors">&nbsp;&nbsp;</div><div id="item156" tabindex="56" title="button3_students">&nbsp;&nbsp;</div><div id="item158" tabindex="58" title="button4_locations">&nbsp;&nbsp;</div><div id="item160" tabindex="60" title="button5_military">&nbsp;&nbsp;</div><div class="next" style="display:none;"></div>                      
-                                <script language="javascript" type="text/javascript">
-                                    //Coremetrics implementation for slide carousel buttons
-                                   /*
-                                    var ctrl1 = document.getElementById("item152");
-                                    var ctrl2 = document.getElementById("item154");
-                                    var ctrl3 = document.getElementById("item156");
-                                    var ctrl4 = document.getElementById("item158");
-                                    var ctrl5 = document.getElementById("item160");
-
-                                    ctrl1.onclick = function () { cmCreateManualLinkClickTag('careershome.aspx', 'button1_job_areas', 'career:Tool:Home'); }
-                                    ctrl2.onclick = function () { cmCreateManualLinkClickTag('careershome.aspx', 'button2_financial_advisors', 'career:Tool:Home'); }
-                                    ctrl3.onclick = function () { cmCreateManualLinkClickTag('careershome.aspx', 'button3_students', 'career:Tool:Home'); }
-                                    ctrl4.onclick = function () { cmCreateManualLinkClickTag('careershome.aspx', 'button4_locations', 'career:Tool:Home'); }
-                                    ctrl5.onclick = function () { cmCreateManualLinkClickTag('careershome.aspx', 'button5_military', 'career:Tool:Home'); }                                    */                                </script>
                         </div>
                     </div>          
                 </div>        
