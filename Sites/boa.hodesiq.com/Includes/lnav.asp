@@ -274,8 +274,8 @@ var SJM_subpage = true;
 	
 	Function CampNav(id,ul)
 %>			<ul<% Response.Write id %><% Response.Write ul %>>
-				<li<% if spage = "campus-americas" And tpage = "" then Response.Write " style=""background: #eaf1f7;""" end if %>>
-<div><a href="../campus-Americas.aspx" class="sbtxt" title="Americas" name="Campus_Recruiting_Americas_leftnav"><span class="hidden">Careers </span>Americas</a></div>
+				<!--<li<% if spage = "campus-americas" And tpage = "" then Response.Write " style=""background: #eaf1f7;""" end if %>>
+<div><a href="ttp://campus.bankofamerica.com/americas.aspx" class="sbtxt" title="Americas" name="Campus_Recruiting_Americas_leftnav"><span class="hidden">Careers </span>Americas</a></div>
 				</li>
 <%	If ( mpage = "camp" And spage = "campus-americas" ) Or HiProgram("Americas") Then %>
 				<li class="tertiary"<% if ( tpage = "americas-explore-careers" And fpage = "" ) Or HiProgram("Americas") then Response.Write " style=""background: #eaf1f7;""" end if %>>
@@ -296,9 +296,10 @@ var SJM_subpage = true;
 				<li class="tertiary"<% if tpage = "americas-how-to-apply" And fpage = "" then Response.Write " style=""background: #eaf1f7;""" end if %>>
 <div><a href="../campus-Americas-how-to-apply.aspx" class="sbtxt" title="How to Apply" name="Americas_How_to_Apply_leftnav"><span class="hidden">Careers </span>How to Apply</a></div>
 				</li>
+                -->
 <%	End If %>
-				<li<% if spage = "campus-emea" And tpage = "" then Response.Write " style=""background: #eaf1f7;""" end if %>>
-<div><a href="../campus-EMEA.aspx" class="sbtxt" title="Europe, Middle East and Africa" name="Campus_Recruiting_Europe_Middle_East_and_Africa_leftnav"><span class="hidden">Campus </span>Europe, Middle East and Africa</a></div>
+<!--				<li<% if spage = "campus-emea" And tpage = "" then Response.Write " style=""background: #eaf1f7;""" end if %>>
+<div><a href="http://campus.bankofamerica.com/emea.aspx" class="sbtxt" title="Europe, Middle East and Africa" name="Campus_Recruiting_Europe_Middle_East_and_Africa_leftnav"><span class="hidden">Campus </span>Europe, Middle East and Africa</a></div>
 				</li>
 <%	If ( mpage = "camp" And spage = "campus-emea" ) Or HiProgram("EMEA") Then %>
 				<li class="tertiary"<% if ( tpage = "emea-opportunities" And fpage = "" ) Or HiProgram("EMEA") then Response.Write " style=""background: #eaf1f7;""" end if %>>
@@ -321,7 +322,7 @@ var SJM_subpage = true;
 				</li>
 <%	End If %>
 				<li<% if spage = "campus-asia" And tpage = "" then Response.Write " style=""background: #eaf1f7;""" end if %>>
-<div><a href="../campus-AsiaPac.aspx" class="sbtxt" title="Asia Pacific" name="Campus_Recruiting_Asia_Pacific_leftnav"><span class="hidden">Campus </span>Asia Pacific</a></div>
+<div><a href="http://campus.bankofamerica.com/asia-pacific.aspx" class="sbtxt" title="Asia Pacific" name="Campus_Recruiting_Asia_Pacific_leftnav"><span class="hidden">Campus </span>Asia Pacific</a></div>
 				</li>
 <%	If ( mpage = "camp" And spage = "campus-asia" ) Or HiProgram("Asia Pacific") Then %>
 				<li class="tertiary"<% if ( tpage = "asia-explore-careers" And fpage = "" ) Or HiProgram("Asia Pacific") then Response.Write " style=""background: #eaf1f7;""" end if %>>
@@ -352,7 +353,7 @@ var SJM_subpage = true;
 				<li<% if spage = "video_library" And tpage = "" then Response.Write " style=""background: #eaf1f7;""" end if %>>
 <div><a href="../campus-video-library.aspx" class="sbtxt" title="Video Library" name="Video_Library_leftnav"><span class="hidden">Careers </span>Video Library</a></div>
 				</li>
-			</ul>
+			</ul>-->
 <%
 	End Function
 %>
