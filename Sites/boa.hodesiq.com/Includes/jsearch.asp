@@ -93,6 +93,24 @@
 <%
 	End Function
 	
+    Function getZipCodeRadiusControl(c_lass,style)
+%>
+    <input name="txtZipCode" type="text" id="txtZipCode" onkeypress="return onlyNumbers(event);" title="Zip Code" <%=c_lass%><%=style%> /><br>
+    <b>Distance (miles) from Zip Code</b>
+
+    <select size="1" name="ddlRadius" id="ddlRadius" title="Distance (miles) from Zip Code" <%=c_lass%><%=style%>>
+			<option value="-1">Select the distance </option>
+			<option value="5">5</option>
+			<option value="10">10</option>
+			<option value="20">20</option>
+			<option value="30">30</option>
+			<option value="50">50</option>
+			<option value="70">70</option>
+			<option value="100">100</option>
+		</select>
+    
+<%
+    End Function
 	
 	Function getStateSelect(c_lass,style)
 %>
