@@ -12,7 +12,7 @@
         cellpadding="0">
         <tr>
             <td width="366" align="left" valign="top"><p> <img src="images/Avtar1_rev.jpg" alt="Avtar Monga" width="156" height="156" style="margin-bottom: 5px;
-                        margin-right: 15px;" align="left" title="Avtar Monga" /> &quot;Our associates are part of a global team committed to excellence in financial
+                        margin-right: 15px;" align="left" title="Avtar Monga" /> &quot;Our employees are part of a global team committed to excellence in financial
                     services. As one of the world's largest financial institutions, we have everything
                     in place to compete and to win, including world-class technology and processes.&quot;<br />
                 </p>
@@ -21,9 +21,9 @@
                 <h2> Avtar Monga<br />
                     <br />
                     Managing Director, Global Delivery Center of Expertise (GDCE)</h2>
-                <p> BA Continuum India Pvt. Ltd. is a non-bank subsidiary of Bank of America. BA Continuum India is a part of Global Delivery Center of Expertise in the bank. It supports Business Process, Information Technology and Knowledge Process across Consumer Banking, including card and home loans, Legacy Asset Servicing, Global Banking and Markets and Global Wealth & Investment Management Lines of Businesses at Bank of America.</p>
-                <p> Our people make opportunity possible for customers and clients at every stage of their financial lives. This purpose defines and unites us. Every day, we are focused on delivering value, convenience, expertise and innovation for the individuals, businesses and institutional investors we serve worldwide </p>
-                <p> We make it happen, and we are committed to attracting and retaining top talent across the globe to ensure our continued success. Along with taking care of our customers, we want to be the best place for people to work and aim at creating a work environment where all employees have the opportunity to achieve their goals.</p>
+                <p> BA Continuum India Pvt. Ltd. is a nonbank subsidiary of Bank of America. BA Continuum India is a part of Global Delivery Center of Expertise in the bank. It supports Business Process, Information Technology and Knowledge Process across Consumer Banking, including Card and Home loans, Legacy Asset Servicing, Global Banking and Markets and Global Wealth & Investment Management Lines of Businesses at Bank of America.</p>
+                <p> Our people make opportunity possible for customers and clients at every stage of their financial lives. This purpose defines and unites us. Every day, we are focused on delivering value, convenience, expertise and innovation for the individuals, businesses and institutional investors we serve worldwide. </p>
+                <p> We make it happen and we are committed to attracting and retaining top talent across the globe to ensure our continued success. Along with taking care of our customers, we want to be the best place for people to work and aim at creating a work environment where all employees have the opportunity to achieve their goals.</p>
                 <p> We call our commitment to employees: <b>GROW</b> which stands for Growth, Rewards and Opportunities in a World-class work environment.</p>
                 <p> This includes:</p>
                 <ul>
@@ -1269,8 +1269,8 @@ function SwapDiv(divid,img)
                             <tr>
                                 <td height="26" align="left" valign="middle" style="background-image: url(images/dotted.gif);
                                     background-position: left top; background-repeat: repeat-x;"><a href="bacs_culture.aspx" target="_self" class="ritnavlinks" onfocus="this.className='ritnavlinks-over';"
-                                        onblur="this.className='ritnavlinks';" title="Culture & Work Environment">Culture
-                                    & work environment</a></td>
+                                        onblur="this.className='ritnavlinks';" title="Culture and Work Environment">Culture
+                                    and Work Environment</a></td>
                             </tr>
                             <tr>
                                 <td height="26" align="left" valign="middle" style="background-image: url(images/dotted.gif);

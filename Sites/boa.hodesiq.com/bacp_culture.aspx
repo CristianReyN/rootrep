@@ -13,9 +13,9 @@
         <tr>
             <td width="366" align="left" valign="top">
                 <p>
-                   At BA Continuum, we treat each day as an opportunity to raise the bar and create memorable experiences for associates, customers, communities and with each other. Our values motivate us to do the right thing and work towards a better future. We work as a team towards achieving results, reaching our full potential and winning.  We care for and value our differences and take collective responsibility for our actions.</p>
+                   At BA Continuum, we treat each day as an opportunity to raise the bar and create memorable experiences for employees, customers, communities and with each other. Our values motivate us to do the right thing and work towards a better future. We work as a team towards achieving results, reaching our full potential and winning.  We care for and value our differences and take collective responsibility for our actions.</p>
                 <p>
-                Our leadership team devotes their time and energy towards building a culture of excellence &ndash; while each and every associate is responsible for raising the bar and personifying excellence in all that we do.
+                Our leadership team devotes their time and energy towards building a culture of excellence &ndash; while each and every employee is responsible for raising the bar and personifying excellence in all that we do.
                    </p>
                 <p>
                     <img src="images/ashley.jpg" alt="Ashley Torres, Sr. Tech Associate" title="Ashley Torres, Sr. Tech Associate"/></p>
@@ -27,12 +27,12 @@
                     Sr. Tech Associate
                 </p>
                 <p>
-                    <img src="images/jose.jpg" alt="Jose Luis Antonio Locsin, Team Member" title="Jose Luis Antonio Locsin, Team Member"/></p>
+                    <img src="images/jayvie.jpg" width="92px" height="104px" alt="Jayvie Silvestre, Senior Technology Associate" title="Jayvie Silvestre, Senior Technology Associate"/></p>
                 <p align="justify">
-                    &quot;It is an exciting feeling and a privilege to be part of the pioneer team of BA Continuum Philippines. Being part of a prestigious company that emphasizes its employees as one of their prized assets is an honor we associates need to uphold. This is evidenced by the warmth our leaders gave us during our training and orientation sessions. At the same time, the inclusive meritocracy instilled by our leaders gives us the ambition and drive to work hard as associates of BA Continuum. With the core values of Bank of America in mind, I look forward to opening a new chapter of my life with BA Continuum Philippines. Mabuhay!&quot;</p>
+                    &quot;BA Continuum Philippines is one of the best companies I have worked for, where learning never stops, and gives its employees the opportunity to grow. Using all the resources provided by the Bank enables me to perform my duty at the best possible way to achieve the company's goal to be the best global financial services organization. I am very much happy and eager coming to work every day, for here I am home. I am really blessed to be with the company and thankful that I found an organization that promotes opportunity and envisions becoming the world’s finest financial services company. I am proud to call this my home away from home.&quot;</p>
                 <p class="style16 text_bold" />
-                Jose Luis Antonio Locsin<br />
-                Team Member</p>
+                Jayvie Silvestre<br />
+                Senior Technology Associate</p>
                 <p>
                     <img src="images/cirilo.jpg" alt="Cirilo Magsuci, Senior Vice President" title="Cirilo Magsuci, Senior Vice President"/></p>
                 <p align="justify">
@@ -87,8 +87,8 @@
                                 <td height="26" align="left" valign="middle" style="background-image: url(images/dotted.gif);
                                     background-position: left top; background-repeat: repeat-x;">
                                     <a href="bacp_culture.aspx" target="_self" class="ritnavlinks" onfocus="this.className='ritnavlinks-over';"
-                                        onblur="this.className='ritnavlinks';" title="Culture & Work Environment">Culture
-                                        & work environment</a>
+                                        onblur="this.className='ritnavlinks';" title="Culture and Work Environment">Culture
+                                        and Work Environment</a>
                                 </td>
                             </tr>
                             <tr>

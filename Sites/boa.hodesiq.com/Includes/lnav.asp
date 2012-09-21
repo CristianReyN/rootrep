@@ -74,7 +74,7 @@
 </div>
 		</li>
 		<li<%If mpage = "staffingevents" then Response.Write " style=""background: #eaf1f7;""" end if %>>
-<div><a class="g" href="../staffingevents/staffingevents.asp" title="Staffing Events" name="Staffing_Events_leftnav"><span class="hidden">Careers </span>Staffing Events</a></div>
+<div><a class="g" href="../staffingevents/staffingevents.asp" title="Career Events" name="Career_Events_leftnav"><span class="hidden">Careers </span>Career Events</a></div>
 		</li>
 		<li<%If mpage = "fags" then Response.Write " style=""background: #eaf1f7;""" end if %>>
 <div><a class="g" href="../faq/faq.asp" title="Frequently Asked Questions" name="Frequently_Asked_Questions_leftnav"><span class="hidden">Careers </span>Frequently Asked Questions</a></div>

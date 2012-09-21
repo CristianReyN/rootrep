@@ -13,22 +13,22 @@
         <tr>
             <td width="366" align="left" valign="top">
                 <p>
-                   At BA Continuum, we take career building very seriously - after all, an empowered team, working at the peak of its abilities is the core of our ability to deliver to our clients. We believe that the three critical facilitators for career development are: the associate, who functions as the driver; the associate’s manager, who is the facilitator in the process; and the organization that works as the overall enabler. 
+                   At BA Continuum, we take career building very seriously - after all, an empowered team, working at the peak of its abilities is the core of our cability to deliver to our clients. We believe that the three critical facilitators for career development are: the employee, who functions as the driver; the employee’s manager, who is the facilitator in the process and the organization, which works as the overall enabler. 
                 </p>
                 <p>
-                    Our career management framework is aligned with our value proposition and is based on the philosophy of, ‘the right person for the right job’. It creates an environment in which associate interests, aspirations and business needs function in a mutually beneficial symbiosis.</p>
+                    Our career management framework is aligned with our value proposition and is based on the philosophy, ‘the right person for the right job.’  It creates an environment in which employee interests, aspirations and business needs, function in a mutually beneficial symbiosis.</p>
                 <p>
-                   Career management is driven by the long-term goal of improving skills in current roles and becoming more marketable, while our career path options are flexible enough to accommodate a wide range of associate interests and business imperatives.</p>
+                   Career management is driven by the long-term goal of improving skills in current roles and becoming more marketable, while our career path options are flexible enough to accommodate a wide range of employee interests and business imperatives.</p>
                 <p>
                     While there may be some differences in the BA Continuum staffing process depending on which Line of Business or Business Unit you are considering, the key elements remain the same.</p>
                 <p>
-                Candidates should search and apply for the positions in which they are interested, possess the skills, and match the minimum requirements of the job. 
+                Candidates should search and apply for the positions in which they are interested, possess the skills and match the minimum requirements of the job. 
                 </p>
                 <p>
-                The recruiter reviews and identifies those candidates whose skills and experiences match the job requirements as detailed in the job description. Those candidates who have the experience and skills that best match the role will be selected to continue through the process. Candidates chosen to move forward in the interview process will be notified by a Bank of America associate with next steps. 
+                The recruiter reviews and identifies those candidates whose skills and experiences match the job requirements as detailed in the job description. Those candidates who have the experience and skills that best match the role will be selected to continue through the process. Candidates chosen to move forward in the interview process will be notified by an employee of the organization about the next steps. 
                 </p>
                 <p>
-                Please note: Some positions may require assessments during the selection process. The recruiter will inform the candidate if this applies to the position he or she is seeking. 
+                Please note that some positions may require assessments during the selection process. The recruiter will inform the candidate if this applies to the position he or she is seeking. 
                 </p>
                 <p>
                 The interview/screening process varies with each opportunity. The recruiter will communicate the process and interview timeline for the position. 
@@ -45,19 +45,18 @@
                 <p>
                    The selection process comprises the following:</p>
                 <ul>
-                    <li>Aptitude test &#8211; candidates are tested on numerical ability, English grammar,
-                        comprehension and logical reasoning </li>
-                    <li>Personal Information & Essay writing </li>
-                    <li>HR-Interview </li>
-                    <li>Typing test </li>
-                    <li>Hiring Manager Interview </li>
-                    <li>Final HR Interview</li>
-                    <li>Additional Interviews (as appropriate) </li>
+                    <li>Typing test &#8211; candidates are tested on typing speed and accuracy </li>
+                    <li>Aptitude test &#8211; candidates are tested on numerical ability, English grammar, comprehension and logical reasoning </li>
+                    <li>Essay writing (for non-voice) </li>
+                    <li>Role play/simulation </li>
+                    <li>HR Interview </li>
+                    <li>Hiring Managar Interview</li>
+                    
                 </ul>
                 <!--  <p style="padding-left:15px"></p>
               <p style="padding-left:15px"> Please  note: Candidates who applied for a Team Member position and were not selected, can re-apply after a  period of three months.</p> -->
                 <p>
-                    <b>Please note: </b>Depending on the position applied, some of the above may or may not apply. Candidates, who applied for a Team Member position and were not selected, can re-apply after a period of 30 days.</p>
+                    <b>Please note: </b>Depending on the position, some of the above may or may not apply. Candidates, who applied for a Team Member position and were not selected, can re-apply after a period of 30 days.</p>
                     <p>For interested applicants, please send your updated CV to <a class="ftrlnk" href="mailto:bacp.staffing@bankofamerica.com">bacp.staffing@bankofamerica.com</a>.</p>
                     <h2>FAQs</h2>
                     <h3 class="h3font">What is the best way to find open positions?</h3>
@@ -69,8 +68,9 @@
                     <p>You will be able to apply for other positions available without having to enter the details again by entering your Candidate ID and email id, after clicking on the “Apply” button against an available position. </p>
                     <h3 class="h3font">What documents should I bring when I attend the interview?</h3>
                     <ul>
-                    <li>Copy of updated resume </li>
-                    <li>Pay Slips/Certificate of Employment from last/current employer</li>
+                    <li>updated resume </li>
+                    <li>valid government-issued photo ID</li>
+                    <li>a pen</li>
                     </ul>
                     <h3 class="h3font">How can I get more details regarding the background verification done by BA Continuum?</h3>
                     <p>In BA Continuum, employee integrity is an important aspect; therefore as a mandatory requirement, we conduct a thorough background check of all our candidates. As per our process we would verify the information filled in by the candidate in the Candidate Information Sheet at the time of the interview and all his / her documents mentioned in the checklist above are verified with the issued institution. Any discrepancy due to forgery or manipulation in the information sheet or the documents can result in the withdrawal of the offer.</p>
@@ -86,9 +86,12 @@
                     Philippines
                 </h3>
                 <p>
-                    Bonifacio E- Services Building<br />
-                    31st  Street corner 2nd Street, Crescent Park West<br />
-                    Bonifacio Global City, Taguig City, Philippines<br />
+                    Taguig City<br />
+                    28th Floor Bonifacio One Technology Tower<br />
+                    3030 Rizal Drive corner 31st Avenue<br />
+                    Bonifacio Global City, Taguig City<br />
+                    Philippines 1634<br />
+                    Tel: +632 651 9000
                 </p>
                 
             </td>

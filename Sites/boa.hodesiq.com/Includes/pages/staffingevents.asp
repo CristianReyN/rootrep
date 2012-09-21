@@ -61,7 +61,7 @@ Dim active_event, state_id, job_type_id, event_type_id, from_date, to_date, orde
 			<tr valign="top"><td colspan="2" valign="top" class="divt"><img src="../images/clear.gif" width="100%" height="4" alt="" border="0"></td></tr>
 			<tr valign="top">
 				<td width="100%" colspan="2" valign="top">
-<img src="../images/staffingevents.jpg" width="578" height="166" alt="Staffing Events. Explore a career with the Bank of Opportunity." title="Staffing Events. Explore a career with the Bank of Opportunity." border="0">
+<img src="../images/careerevents.jpg" width="578" height="166" alt="Career Events. Explore a career with the Bank of Opportunity." title="Career Events. Explore a career with the Bank of Opportunity." border="0">
 				</td>
 			</tr>
 			<tr valign="top"><td colspan="2" valign="top" class="divb"><img src="../images/clear.gif" width="100%" height="4" alt="" border="0"></td></tr>

@@ -39,7 +39,7 @@
                 <h2>
                     Knowledge Services</h2>
                 <p>
-                    The Knowledge Services Center provides services ranging from Research, Financial & Credit Analysis, and Quantitative Analysis to Risk Management, Information Assurance, and Sales Support. The lines of business supported include Global Banking and Markets, Global Wealth & Investment Management, Global Risk Management, Consumer Banking, Consumer Banking - Card Services, Global Human Resources and Enterprise Chief Information Officer.
+                    The Knowledge Services Center provides services ranging from Research, Financial & Credit Analysis and Quantitative Analysis to Risk Management, Information Assurance, and Sales Support. The lines of business supported include Global Banking and Markets, Global Wealth & Investment Management, Global Risk Management, Consumer Banking, Consumer Banking - Card Services, Global Human Resources and Enterprise Chief Information Officer.
                 </p>
                 <p>
                     The <span class="text_bold">Finance and Accounting Knowledge Center </span>
@@ -142,8 +142,8 @@
                                 <td height="26" align="left" valign="middle" style="background-image: url(images/dotted.gif);
                                     background-position: left top; background-repeat: repeat-x;">
                                     <a href="bacs_culture.aspx" target="_self" class="ritnavlinks" onfocus="this.className='ritnavlinks-over';"
-                                        onblur="this.className='ritnavlinks';" title="Culture & Work Environment">Culture
-                                        & work environment</a></td>
+                                        onblur="this.className='ritnavlinks';" title="Culture and Work Environment">Culture
+                                        and Work Environment</a></td>
                             </tr>
                             <tr>
                                 <td height="26" align="left" valign="middle" style="background-image: url(images/dotted.gif);

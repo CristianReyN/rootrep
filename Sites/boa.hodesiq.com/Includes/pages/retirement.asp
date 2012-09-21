@@ -6,15 +6,21 @@
 <img class="dotdiv" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
 	<%	href_pre = ""
 		if page_section <> "ADA" then href_pre = "../learnmore/" %>
-<p style="margin: 0px;">Bank&nbsp;of&nbsp;America offers multiple plans designed to help you reach your future financial goals and plan for retirement.</p>
-<H2 class="bac" style="margin: 12px 0px 0px 0px; padding: 0px;">401(k) Plan</H2>
-<p style="margin: 6px 0px 0px 0px;">A tax-deferred retirement savings plan, including 100% vested matching contributions from the company up to 5% of your plan-eligible compensation after completing 12 months of vesting service.
-</p>
 
-<H2 class="bac" style="margin: 12px 0px 0px 0px; padding: 0px;">Rewarding Success<span style="font-size: 0.8em; position: relative; top: -0.6em;">&reg;</span></H2>
-<p style="margin: 6px 0px 0px 0px;">Rewards eligible employees for their contributions to the company's success. If the company meets a financial goal, eligible employees receive an award. Any award will be deferred automatically to the 401(k) plan, subject to IRS limits, unless the employee elects to receive some or all of the award in cash.
+<p style="margin: 6px 0px 0px 0px;">
+Whether you are just starting out or well along the way to planning for retirement, Bank of America offers retirement benefits and the tools and resources to help you meet your future financial goals.
 </p>
+<p style="margin: 6px 0px 0px 0px;">
+Our retirement benefits focus on the 401(k) plan, which gives you control in managing your retirement savings by allowing you to choose how your money is invested. The plan is funded through your payroll contributions, and the bank adds to your account through:
+<br><br></p>
+<ul style="margin-top: 0px;">
+	<li>Matching contributions of up to 5% of your eligible compensation</li>
+	<li>An annual company contribution of 2% or 3% of your eligible compensation, based on your years of vesting service</li>
+</ul>
 
+<p style="margin: 6px 0px 0px 0px;">
+In addition, the bank offers tools and resources — available online and through personalized one-on-one conversations with a financial counselor — to help you manage your 401(k) account, as well as your overall retirement plan.
+</p>
 <!-- #include file="../benefitsnav.asp" -->
 </div>
 				</td>

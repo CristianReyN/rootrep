@@ -176,7 +176,6 @@
                     &#8226;	Associate Credit Card Products<br />
                     &#8226;	Associate Discount Programme<br />
                     &#8226;	Flexible working policy<br />
-                    &#8226;	Rewarding Success Programme<br />
                     &#8226;	Season Ticket Loans<br />
                     &#8226;	Employee Assistance Programme<br />
                     &#8226;	Maternity, paternity and adoption leave &#8211;&nbsp;above statutory &nbsp;&nbsp;&nbsp;minimum parental leave<br />

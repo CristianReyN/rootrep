@@ -1,4 +1,16 @@
 <%
+Dim campus_url
+Dim isCampus
+campus_url = Request.ServerVariables("URL")
+
+isCampus = Instr(campus_url, "campusrecruiting/")
+if isCampus > 0 then
+    Response.Redirect("http://campus.bankofamerica.com")
+end if
+ 
+ %>
+
+<%
 Set video_profiles  = Server.CreateObject("Scripting.Dictionary")
 Set video_profile  = Server.CreateObject("Scripting.Dictionary")
 	video_profile.add "name", "Anton"

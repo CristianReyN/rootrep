@@ -2,6 +2,37 @@
 <%@ Register Src="~/usercontrols/uc_LeftNavigation.ascx" TagName="LeftNav" TagPrefix="uc1" %>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
  
+ <% 
+    string CampusPagename = System.IO.Path.GetFileName(Request.ServerVariables["SCRIPT_NAME"]);
+    //Response.Write(CampusPagename);
+    if (CampusPagename.ToLower().Contains("campus"))
+    {
+ 
+        //if (CampusPagename.ToLower().Contains("campus-americas.aspx") || CampusPagename.ToLower().Contains("campus-emea.aspx") || CampusPagename.ToLower().Contains("campus-asiapac.aspx") || CampusPagename.ToLower().Contains("campus-find-your-fit.aspx") || CampusPagename.ToLower().Contains("campusevents.aspx") || CampusPagename.ToLower().Contains("campus-video-library.aspx"))
+        if (CampusPagename.ToLower().Contains("campus-americas.aspx")) 
+        {
+            Response.Redirect("http://campus.bankofamerica.com/americas-home");
+        }
+        if (CampusPagename.ToLower().Contains("campus-emea.aspx")) 
+        {
+            Response.Redirect("http://campus.bankofamerica.com/emea-home");
+        }
+        if (CampusPagename.ToLower().Contains("campus-asiapac.aspx")) 
+        {
+            Response.Redirect("http://campus.bankofamerica.com/asia-pacific-home");
+        }
+        else
+        {
+            Response.Redirect("http://campus.bankofamerica.com");
+            
+        }
+        
+    }
+    
+    %> 
+	
+
+
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head id="Header1" runat="server">
  <title></title>
@@ -52,7 +83,7 @@ function namewindow(){window.name="boamain";}
 				<%string pagename = System.IO.Path.GetFileName(Request.ServerVariables ["SCRIPT_NAME"]);%>
 <% if ((pagename.IndexOf("campus-EMEA-opportunities.aspx") > -1) || (pagename.IndexOf("campus-EMEA-analyst-programs.aspx") > -1) || (pagename.IndexOf("campus-EMEA-associate-and-phd-programs.aspx") > -1) || (pagename.IndexOf("campus-EMEA-internships.aspx") > -1) || (pagename.IndexOf("campus-EMEA-analyst-associate-internships.aspx") > -1) || (pagename.IndexOf("campus-EMEA-pre-university.aspx") > -1) || (pagename.IndexOf("campus-EMEA-requirements.aspx") > -1) || (pagename.IndexOf("campus-EMEA-our-culture.aspx") > -1) || (pagename.IndexOf("campus-EMEA-about-us.aspx") > -1) || (pagename.IndexOf("campus-EMEA-diversity-and-inclusion.aspx") > -1) || (pagename.IndexOf("campus-EMEA-corporate-social-responsibility.aspx") > -1) || (pagename.IndexOf("campus-EMEA-benefits-and-rewards.aspx") > -1) || (pagename.IndexOf("campus-EMEA-graduate-profiles.aspx") > -1) || (pagename.IndexOf("campus-EMEA-analyst-profiles.aspx") > -1) || (pagename.IndexOf("campus-EMEA-associate-profiles.aspx") > -1) || (pagename.IndexOf("campus-EMEA-intern-profiles.aspx") > -1) || (pagename.IndexOf("campus-EMEA-find-your-fit.aspx") > -1) || (pagename.IndexOf("campus-EMEA-how-to-apply.aspx") > -1) || (pagename.IndexOf("campus-EMEA-application-process.aspx") > -1) || (pagename.IndexOf("campus-EMEA-faq.aspx") > -1) || (pagename.IndexOf("campus-AsiaPac-explore-careers.aspx") > -1) || (pagename.IndexOf("campus-AsiaPac-analyst-programs.aspx") > -1) || (pagename.IndexOf("campus-AsiaPac-associate-and-phd-programs.aspx") > -1) || (pagename.IndexOf("campus-AsiaPac-internships.aspx") > -1) || (pagename.IndexOf("campus-AsiaPac-analyst-associate-internships.aspx") > -1) || (pagename.IndexOf("campus-AsiaPac-our-culture.aspx") > -1) || (pagename.IndexOf("campus-AsiaPac-diversity-and-inclusion.aspx") > -1) || (pagename.IndexOf("campus-AsiaPac-benefits-and-rewards.aspx") > -1) || (pagename.IndexOf("campus-AsiaPac-corporate-social-responsibility.aspx") > -1) || (pagename.IndexOf("campus-AsiaPac-information-for-parents.aspx") > -1) || (pagename.IndexOf("campus-AsiaPac-meet-our-people.aspx") > -1) || (pagename.IndexOf("campus-AsiaPac-analyst-profiles.aspx") > -1) || (pagename.IndexOf("campus-AsiaPac-associate-profiles.aspx") > -1) || (pagename.IndexOf("campus-AsiaPac-intern-profiles.aspx") > -1) || (pagename.IndexOf("campus-AsiaPac-find-your-fit.aspx") > -1) || (pagename.IndexOf("campus-AsiaPac-how-to-apply.aspx") > -1) || (pagename.IndexOf("campus-AsiaPac-interview-tips.aspx") > -1) || (pagename.IndexOf("campus-AsiaPac-glossary.aspx") > -1) || (pagename.IndexOf("campus-AsiaPac-faq.aspx") > -1) || (pagename.IndexOf("campus-emea.aspx") > -1) || (pagename.IndexOf("campus-asiapac.aspx") > -1) || (pagename.IndexOf("campus-AsiaPac.aspx") > -1) || (pagename.IndexOf("campus-EMEA.aspx") > -1))       
 { %> 
-		<td><a href="http://www.bankofamerica.com/" title="Bank of America Merrill Lynch" class="tablink" name="Bank_Of_America_Merrill_Lynch_header"><img src="images/BACMER_Signature_BLACK.gif" width="250" height="69" alt="Bank of America Merrill Lynch" border="0"/></a></td>
+		<td><a href="https://www.bankofamerica.com/" title="Bank of America Merrill Lynch" class="tablink" name="Bank_Of_America_Merrill_Lynch_header"><img src="images/BACMER_Signature_BLACK.gif" width="250" height="69" alt="Bank of America Merrill Lynch" border="0"/></a></td>
 <%
 }
    else if ((pagename.IndexOf("JobDetails.aspx") > -1) && (Request.QueryString["feedname"] == "ASIA PACIFIC External (web05)"))
@@ -61,7 +92,7 @@ function namewindow(){window.name="boamain";}
 <%
 }else
 {%>
-		<td><a href="http://www.bankofamerica.com/" title="Bank of America home page" class="tablink" name="Bank_Of_America_Home_Page_header"><img src="images/mhd_reg_logo.gif" width="250" height="69" alt="Bank of America home page"  title="Bank of America home page" border="0" /></a></td>
+		<td><a href="https://www.bankofamerica.com/" title="Bank of America home page" class="tablink" name="Bank_Of_America_Home_Page_header"><img src="images/mhd_reg_logo.gif" width="250" height="69" alt="Bank of America home page"  title="Bank of America home page" border="0" /></a></td>
 <%
 }
 %>	
@@ -71,7 +102,7 @@ function namewindow(){window.name="boamain";}
 					<table width="100%" border="0" cellspacing="0" cellpadding="0" summary="">
 						<tr>
 							<td colspan="2" valign="bottom" align="right" nowrap>
-<a href="http://about.bankofamerica.com/" class="mh-link1" title="Home" onfocus="this.className='mh-link1-over';" onblur="this.className='mh-link1';" name="Home_header">Home</a>&#160;<span class="linksep1">&#8226;</span>&#160;<a href="http://www.bankofamerica.com/findit/locator.cfm" class="mh-link1" title="Locations" onfocus="this.className='mh-link1-over';" onblur="this.className='mh-link1';" name="Locations_header">Locations</a>&#160;<span class="linksep1">&#8226;</span>&#160;<a href="overview/contact_us.asp" class="mh-link1" title="Contact Us" onfocus="this.className='mh-link1-over';" onblur="this.className='mh-link1';" name="Contact_Us_header">Contact Us</a>&#160;<span class="linksep1">&#8226;</span>&#160;<a href="http://www.bankofamerica.com/help" class="mh-link1" title="Help" onfocus="this.className='mh-link1-over';" onblur="this.className='mh-link1';" name="Help_header">Help</a>&#160;<span class="linksep1">&#8226;</span>&#160;<a href="http://www.bankofamerica.com/signin/" class="mh-link2" title="Sign In" onfocus="this.className='mh-link2-over';" onblur="this.className='mh-link2';" name="Sign_In_header">Sign In</a></td>
+<a href="overview/contact_us.asp" class="mh-link1" title="Contact Us" onfocus="this.className='mh-link1-over';" onblur="this.className='mh-link1';" name="Contact_Us_header">Contact Us</a>&#160;<span class="linksep1">&#8226;</span>&#160;<a href="https://www.bankofamerica.com/help" class="mh-link1" title="Help" onfocus="this.className='mh-link1-over';" onblur="this.className='mh-link1';" name="Help_header">Help</a></td>
 						</tr>
 						<tr><td colspan="2"><img src="images/clear.gif" width="1" height="3" alt="" border="0" /></td></tr>
 						<tr>

@@ -16,14 +16,14 @@
             <td width="366" align="left" valign="top">
                 <p>
                     At BA Continuum, we treat each day as an opportunity to raise the bar and create
-                    memorable experiences for associates, customers, communities and with each other.
+                    memorable experiences for employees, customers, communities and with each other.
                     Our values motivate us to do the right thing and work towards a better future. We
                     work as a team towards achieving results, reaching our full potential and winning.&nbsp;
                     We care for and value our differences and take collective responsibility for our
                     actions.</p>
                 <p>
                     Our leadership team devotes their time and energy towards building a culture of
-                    excellence &ndash; while each and every associate is responsible for raising the
+                    excellence while each and every employee is responsible for raising the
                     bar and personifying excellence in all that we do.</p>
                 <p>
                     <img src="images/asia-rajesh.gif" alt="Rajesh Balaraju, Senior Vice President, Hyderabad" title="Rajesh Balaraju, Senior Vice President, Hyderabad"/></p>
@@ -120,8 +120,8 @@
                                 <td height="26" align="left" valign="middle" style="background-image: url(images/dotted.gif);
                                     background-position: left top; background-repeat: repeat-x;">
                                     <a href="bacs_culture.aspx" target="_self" class="ritnavlinks" onfocus="this.className='ritnavlinks-over';"
-                                        onblur="this.className='ritnavlinks';" title="Culture & Work Environment">Culture
-                                        & work environment</a>
+                                        onblur="this.className='ritnavlinks';" title="Culture and Work Environment">Culture
+                                        and Work Environment</a>
                                 </td>
                             </tr>
                             <tr>

@@ -35,11 +35,11 @@
                  <p>
                     <b style="text-decoration: underline">Taguig City</b></p>
                 <p>
-                   Bonifacio One Technology Tower<br />
-                    3030 Rizal Drive West<br />
-                    Bonifacio Global City<br />
-                    1634 Taguig City, Philippines<br />  
-                    Tel: +632 651 9002<br />
+                   28th Floor Bonifacio One Technology Tower<br />
+                    3030 Rizal Drive corner 31st Avenue<br />
+                    Bonifacio Global City, Taguig<br />
+                    Philippines 1634<br />  
+                    Tel: +632 651 9000<br />
 
                 </p>
                 
@@ -844,8 +844,8 @@ Singapore 099 253<br /></p>
                                 <td height="26" align="left" valign="middle" style="background-image: url(images/dotted.gif);
                                     background-position: left top; background-repeat: repeat-x;">
                                     <a href="bacp_culture.aspx" target="_self" class="ritnavlinks" onfocus="this.className='ritnavlinks-over';"
-                                        onblur="this.className='ritnavlinks';" title="Culture & Work Environment">Culture
-                                        & work environment</a>
+                                        onblur="this.className='ritnavlinks';" title="Culture and Work Environment">Culture
+                                        and Work Environment</a>
                                 </td>
                             </tr>
                             <tr>

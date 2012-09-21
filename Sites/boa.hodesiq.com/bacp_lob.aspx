@@ -17,7 +17,7 @@
                 <h2>
                     Business Process Solutions</h2>
                 <p>
-                    The Business Process Solutions (BPS) group supports Bank of America Lines of Businesses by providing Transaction Processing, Accounts Management, Payments and Settlements, Analytics and Reporting, Loan Processing, Collection and Customer Service in the Consumer, Corporate and Investment Banking areas. With businesses across corporate and consumer service, our teams work 24x7 to ensure seamless integration with the core operational requirements of the Bank. 
+                    The Business Process Solutions (BPS) group supports Bank of America Lines of Businesses by providing Transaction Processing, Accounts Management, Payments and Settlements, Analytics and Reporting, Loan Processing, Collection and Customer Service in the Consumer, Corporate and Investment Banking areas. With businesses across corporate and consumer service, our teams work 24/7 to ensure seamless integration with the core operational requirements of the Bank. 
                 </p>
                 <h2>
                     Information Technology Solutions</h2>
@@ -109,8 +109,8 @@
                                 <td height="26" align="left" valign="middle" style="background-image: url(images/dotted.gif);
                                     background-position: left top; background-repeat: repeat-x;">
                                     <a href="bacp_culture.aspx" target="_self" class="ritnavlinks" onfocus="this.className='ritnavlinks-over';"
-                                        onblur="this.className='ritnavlinks';" title="Culture & Work Environment">Culture
-                                        & work environment</a></td>
+                                        onblur="this.className='ritnavlinks';" title="Culture and Work Environment">Culture
+                                        and Work Environment</a></td>
                             </tr>
                             <tr>
                                 <td height="26" align="left" valign="middle" style="background-image: url(images/dotted.gif);

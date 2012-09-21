@@ -1,4 +1,18 @@
 <%
+'Dim campus_url
+'Dim isCampus
+'campus_url = Request.ServerVariables("URL")
+'response.write campus_url
+'isCampus = Instr(campus_url, "campusrecruiting/")
+'if isCampus > 0 then
+ '   Response.Redirect("http://campus.bankofamerica.com")
+'end if
+ 
+ 'Not sure why, but this is causing a server error.  There is a redirect happening somewhere else.  ????
+ %>
+
+
+<%
 Dim JOB_SEARCH_TITLE
 JOB_SEARCH_TITLE = "Guided Job Search"
 Dim to_version
@@ -22,6 +36,7 @@ if mpage = "camp" Then middle_content_padding = "padding: 0px 24px 0px 0px;"
 <meta http-equiv="Pragma" content="no-cache" />
 <meta http-equiv="Expires" content="-1" />
 <meta http-equiv="Cache-control" content="no-store" />
+<meta name="google-site-verification" content="R6RNgl5kJuOQGkpHjU-PwjFKoN2-f9VEtBshOj0BBOw" />
 <title><%=title %></title>
 <link rel="stylesheet" href="../includes/styles.css" type="text/css">
 <!--[if IE]><link rel="stylesheet" href="../includes/ie.css" type="text/css"><![endif]-->
@@ -186,13 +201,13 @@ End If
 	<td valign="top" colspan="3" height="71">
 		<table width="750" border="0" cellspacing="0" cellpadding="0" summary="">
 			<tr><% Dim logo_alt, logo_title, logo_imageURL %><% logo_imageURL = getLogoImageURL(logo_alt, logo_title) %>
-				<td width="262" valign="top"><table cellpadding="0" cellspacing="0" border="0"><tr><td><a name="top"></a><a href="#skipmaincontent" title="Skip to main content." name="Skip_to_main_content_header" style="width: 1px; height: 69px; display: inline-block;"><img src="../images/clear.gif" width="1" height="69" alt="Skip to main content." border="0" /></a></td><td><img src="../images/clear.gif" width="10" height="69" alt="" border="0" /></td><td><a href="http://www.bankofamerica.com/" title="<%=logo_title%>" name="<%=CleanTheStringAlphanumeric_(Replace(logo_title, " ", "_"))%>_header"><img src="<%=logo_imageURL%>" width="250" height="69" alt="<%=logo_alt%>" border="0" /></a></td><td><img src="../images/clear.gif" width="1" height="69" alt="" border="0" /></td></tr></table></td>
+				<td width="262" valign="top"><table cellpadding="0" cellspacing="0" border="0"><tr><td><a name="top"></a><a href="#skipmaincontent" title="Skip to main content." name="Skip_to_main_content_header" style="width: 1px; height: 69px; display: inline-block;"><img src="../images/clear.gif" width="1" height="69" alt="Skip to main content." border="0" /></a></td><td><img src="../images/clear.gif" width="10" height="69" alt="" border="0" /></td><td><a href="https://www.bankofamerica.com/" title="<%=logo_title%>" name="<%=CleanTheStringAlphanumeric_(Replace(logo_title, " ", "_"))%>_header"><img src="<%=logo_imageURL%>" width="250" height="69" alt="<%=logo_alt%>" border="0" /></a></td><td><img src="../images/clear.gif" width="1" height="69" alt="" border="0" /></td></tr></table></td>
 				<td width="232"><img src="../images/clear.gif" width="1" height="69" alt="" border="0" /></td>
 				<td width="256" valign="bottom">
 					<table width="100%" border="0" cellspacing="0" cellpadding="0" summary="">
 						<tr>
 							<td colspan="2" valign="bottom" align="right" nowrap>
-<a href="http://about.bankofamerica.com/" class="mh-link1" title="Home" name="Home_header" onfocus="this.className='mh-link1-over';" onblur="this.className='mh-link1';">Home</a>&#160;<span class="linksep1">&#8226;</span>&#160;<a href="http://www.bankofamerica.com/findit/locator.cfm" class="mh-link1" title="Locations" name="Locations_header" onfocus="this.className='mh-link1-over';" onblur="this.className='mh-link1';">Locations</a>&#160;<span class="linksep1">&#8226;</span>&#160;<a href="../overview/contact_us.asp" class="mh-link1" title="Contact Us" name="Contact_Us_header" onfocus="this.className='mh-link1-over';" onblur="this.className='mh-link1';">Contact Us</a>&#160;<span class="linksep1">&#8226;</span>&#160;<a href="http://www.bankofamerica.com/help" class="mh-link1" title="Help" name="Help_header" onfocus="this.className='mh-link1-over';" onblur="this.className='mh-link1';">Help</a>&#160;<span class="linksep1">&#8226;</span>&#160;<a href="http://www.bankofamerica.com/signin/" class="mh-link2" title="Sign In" name="Sign_In_header" onfocus="this.className='mh-link2-over';" onblur="this.className='mh-link2';">Sign In</a></td>
+<a href="../overview/contact_us.asp" class="mh-link1" title="Contact Us" name="Contact_Us_header" onfocus="this.className='mh-link1-over';" onblur="this.className='mh-link1';">Contact Us</a>&#160;<span class="linksep1">&#8226;</span>&#160;<a href="https://www.bankofamerica.com/help" class="mh-link1" title="Help" name="Help_header" onfocus="this.className='mh-link1-over';" onblur="this.className='mh-link1';">Help</a></td>
 						</tr>
 						<tr><td colspan="2"><img src="../images/clear.gif" width="1" height="3" alt="" border="0" /></td></tr>
 						<tr>

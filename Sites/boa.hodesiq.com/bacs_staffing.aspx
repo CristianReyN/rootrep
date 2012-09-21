@@ -15,35 +15,35 @@
             <td width="366" align="left" valign="top">
                 <p>
                     At BA Continuum, we take career building very seriously - after all, an empowered
-                    team working at the peak of its abilities is the core of our ability to deliver
+                    team working at the peak of its abilities is the core of our capability to deliver
                     to our clients. We believe that the three critical facilitators for career development
-                    are: the associate, who functions as the driver; the associate&#8217;s manager,
-                    who is the facilitator in the process; and the organization that works as the overall
+                    are - the employees, who functions as the driver; the employee's manager,
+                    who is the facilitator in the process and the organization, which works as the overall
                     enabler.
                 </p>
                 <p>
                     Our career management framework is aligned with our value proposition and is based
-                    on the philosophy of, &#8216;the right person for the right job&#8217;. It creates
-                    an environment in which associate interests, aspirations and business needs function
+                    on the philosophy, &#8216;the right person for the right job.&#8217; It creates
+                    an environment in which employee interests, aspirations and business needs, function
                     in a mutually beneficial symbiosis.</p>
                 <p>
                     Career management is driven by the long-term goal of improving skills in current
                     roles and becoming more marketable, while our career path options are flexible enough
-                    to accommodate a wide range of associate interests and business imperatives.</p>
+                    to accommodate a wide range of employee interests and business imperatives.</p>
                 <p>
                     While there may be some differences in the BA Continuum staffing process depending
                     on which Line of Business or Business Unit you are considering, the key elements
                     remain the same.</p>
                 <ul>
                     <li>Candidates should search and apply for the positions in which they are interested,
-                        possess the skills, and match the minimum requirements of the job. </li>
+                        possess the skills and match the minimum requirements of the job. </li>
                     <li>Recruiter reviews and identifies those candidates whose skills and experiences match
                         the job requirements as detailed in the job description. </li>
                     <li>Those candidates who have the experience and skills that best match the role will
                         be selected to continue through the process. </li>
-                    <li>Candidates chosen to move forward in the interview process will be notified by a
-                        Bank of America associate with next steps. </li>
-                    <li>Please note: Some positions may require assessments during the selection process.
+                    <li>Candidates chosen to move forward in the interview process will be notified by an employee
+                        of the organization about the next steps. </li>
+                    <li>Please note that some positions may require assessments during the selection process.
                         The recruiter will inform the candidate if this applies to the position he or she
                         is seeking. </li>
                     <li>The interview/screening process varies with each opportunity. The recruiter will
@@ -51,37 +51,36 @@
                     <li>If an offer is extended, a background check will be initiated for all external hires
                         or rehires prior to start date. </li>
                     <li>If a candidate is not selected to continue in the hiring process for a particular
-                        job opening, the candidate is encouraged to continue to search the Bank of America
-                        career site and continue to apply to other positions that fit his/her background
+                        job opening, the candidate is encouraged to keep searching the BACI career site and continue 
+                        to apply for other positions that fit his/her background
                         and experience. </li>
                 </ul>
                 <h2>
                     Selection Process</h2>
                 <p style="padding-left: 15px">
-                    The selection process comprises of the following -</p>
+                    The selection process comprises of the following: </p>
                 <ul>
                     <li>Aptitude test &#8211; candidates are tested on numerical ability, English grammar,
                         comprehension and logical reasoning </li>
-                    <li>Personal Information & Essay writing </li>
-                    <li>HR-Interview </li>
+                    <li>Personal information and essay writing </li>
+                    <li>HR interview </li>
                     <li>Typing test </li>
-                    <li>Hiring Manager Interview </li>
-                    <li>Final HR Interview</li>
-                    <li>Additional Interviews (as appropriate) </li>
+                    <li>Hiring manager interview </li>
+                   
                 </ul>
                 <!--  <p style="padding-left:15px"></p>
               <p style="padding-left:15px"> Please  note: Candidates who applied for a Team Member position and were not selected, can re-apply after a  period of three months.</p> -->
                 <p>
-                    <b>Please note: Depending on the position applied, some of the above may or may not
+                    <b>Please note: Depending on the position, some of the above may or may not
                         apply.</b> Candidates, who applied for a Team Member position and were not selected,
                     can re-apply after a period of three months.</p>
                 <h2>
                     Campus Placements</h2>
                 <p>
                     BA Continuum participates in many campus placements throughout November and December.
-                    <i style="font-weight: bold">Please note:</i> Final year Graduates who are in their
-                    final semester or awaiting Final Year results and do not have any backlogs are eligible
-                    to apply. They should have scored a min of 50% in their First and second year and
+                    <i style="font-weight: bold">Please note:</i> Final year graduates who are in their
+                    final semester or awaiting final year results and do not have any backlogs are eligible
+                    to apply. They should have scored a min of 50% in their first and second year and
                     should have the mark sheet to prove the same.</p>
                 <!--<ul>
                   <li>Hyderabad</li></ul>
@@ -148,17 +147,17 @@
                     <li title="Question 4 and answer"><a name="q4" id="q4"></a><span class="text_bold">What
                         documents should I bring when I attend the interview?</span><br />
                         <ul>
-                            <li>Copy of updated resume </li>
-                            <li>Marks sheets for all years of Graduation and Post Graduation. </li>
-                            <li>Degree certificate(s) or Provisional certificate(s) </li>
-                            <li>Relieving letters/ Service Certificate /Experience certificate of past 2 employers
+                            <li>copy of updated resume </li>
+                            <li>marks sheets for all years of graduation and post graduation. </li>
+                            <li>degree certificate(s) or provisional certificate(s) </li>
+                            <li>relieving letters/ service certificate /experience certificate of past 2 employers
                                 (employee code is required) </li>
-                            <li>Pay slips / Salary certificate of the last employer </li>
-                            <li>Address Proof (Permanent and Current) e.g. - electricity bill/telephone bill/voters
+                            <li>pay slips / salary certificate of the last employer </li>
+                            <li>address proof (permanent and current) e.g. - electricity bill/telephone bill/voters
                                 ID card/PAN card/license etc. </li>
-                            <li>Copy of passport </li>
-                            <li>4 passport size photographs </li>
-                            <li>Proof of Birth (birth certificate/school leaving certificate) </li>
+                            <li>copy of passport </li>
+                            <li>four passport size photographs </li>
+                            <li>proof of birth (birth certificate/school leaving certificate) </li>
                         </ul>
                         <br />
                         <br />
@@ -292,8 +291,8 @@
                                 <td height="26" align="left" valign="middle" style="background-image: url(images/dotted.gif);
                                     background-position: left top; background-repeat: repeat-x;">
                                     <a href="bacs_culture.aspx" target="_self" class="ritnavlinks" onfocus="this.className='ritnavlinks-over';"
-                                        onblur="this.className='ritnavlinks';" title="Culture & Work Environment">Culture
-                                        & work environment</a>
+                                        onblur="this.className='ritnavlinks';" title="Culture and Work Environment">Culture
+                                        and Work Environment</a>
                                 </td>
                             </tr>
                             <tr>
