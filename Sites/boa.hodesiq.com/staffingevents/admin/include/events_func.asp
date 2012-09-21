@@ -106,6 +106,18 @@ function getState(state_id, LONGSTATE)
 	Set rsState=nothing
 end function
 
+function getCountries(country_id)
+	If trim(country_id) = "" Then country_id = 0
+	If Not IsObject(cnnEv) Then Set cnnEv = OpenConnectionEx(strEventsConnection)
+	Set cmd = server.CreateObject("ADODB.Command")
+	cmd.ActiveConnection = cnnEv
+	cmd.CommandType = adCmdStoredProc
+	cmd.CommandText = "get_countries"
+		cmd.Parameters.Append cmd.CreateParameter("country_id",adInteger,adParamInput)
+		cmd.Parameters("country_id") = country_id
+	Set getCountries=cmd.Execute()
+end function
+
 function getEvent(event_id, for_)
 	If trim(event_id) = "" Then event_id = 0
 	If Not IsObject(cnnEv) Then Set cnnEv = OpenConnectionEx(strEventsConnection)

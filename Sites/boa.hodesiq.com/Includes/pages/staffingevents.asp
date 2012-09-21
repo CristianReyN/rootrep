@@ -67,7 +67,7 @@ Dim active_event, state_id, job_type_id, event_type_id, from_date, to_date, orde
 			<tr valign="top"><td colspan="2" valign="top" class="divb"><img src="../images/clear.gif" width="100%" height="4" alt="" border="0"></td></tr>
 		</table>
 		<img src="../images/clear.gif" width="100%" height="<%=top_content_padding_bottom%>" alt="" border="0"><br />
-		<a name="skipmaincontent"></a><H1 class="hidden">Staffing Events</H1>
+		<a name="skipmaincontent"></a><H1 class="hidden">Career Events</H1>
 		<table width="578" cellpadding="0" cellspacing="0" border="0" summary="">
 			<tr valign="top">
 				<td width="578" height="100%" valign="top" style="padding: 0px <%=right_margin%>px 0px <%=left_margin_0%>px;">
@@ -200,7 +200,9 @@ jQuery(document).ready(function(){
 		End If
 	End If
 	this_up_down_img = "<img src=""../images/spacer.gif"" alt="""&arr_img_alt&""" title="""&arr_img_title&""" width=""7"" height=""5"" border=""0"">"
-	%><th nowrap width="33%" scope=”col”><a href="Javascript: orderMe('<%=this_order_by&" "&this_asc_desc%>');" title="<%=a_title%>" class="ev-b">State</a><div class="order<%=this_up_down_cls%>"><%=this_up_down_img%></div></th>
+	%>
+    <th nowrap width="33%" scope=”col”><p class="ev-b">Country</p></th>
+    <th nowrap width="33%" scope=”col”><a href="Javascript: orderMe('<%=this_order_by&" "&this_asc_desc%>');" title="<%=a_title%>" class="ev-b">State</a><div class="order<%=this_up_down_cls%>"><%=this_up_down_img%></div></th>
 	<th nowrap width="33%" scope=”col”><p class="ev-b">Event</p></th>
 </tr>
 <%		events.MoveFirst
@@ -209,6 +211,9 @@ jQuery(document).ready(function(){
 <tr<% If r = events.RecordCount Then %> class="ev-last"<% End If%>>
 		<td nowrap>
 			<% Call printEventLeft(events("event_date"), events("event_end_date"), events("start_time"), events("end_time"), events("TimeZone")) %>
+		</td>
+        <td nowrap>
+			<div class="ev-state"><%=events("Country")%></div>
 		</td>
 		<td nowrap><% Call printEventMiddle(events("LONGSTATE")) %></td>
 		<td>
