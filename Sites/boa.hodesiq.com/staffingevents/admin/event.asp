@@ -5,7 +5,7 @@
 <%
 SetLocale(1033)
 pageid="event"
-Dim eventStartDate, eventEndDate, chkSchedule, chkPreRegistration, chkActive, time_zone, state_id, job_type_id, event_type_id, Ev_ent
+Dim eventStartDate, eventEndDate, chkSchedule, chkPreRegistration, chkActive, time_zone, state_id, country_id, job_type_id, event_type_id, Ev_ent
 myid=Request.QueryString("id")
 ca_se=Request.QueryString("case")
 If ca_se = "" Then ca_se = "add"
@@ -19,6 +19,7 @@ Else
 	chkActive=""
 	time_zone=""
 	state_id = ""
+    country_id = ""
 	job_type_id = ""
 	event_type_id = ""
 	
@@ -45,6 +46,7 @@ Else
 	if trim(Ev_ent("event_end_date")) <> "" Then eventEndDate=FormatDateTime(Ev_ent("event_end_date"),2)
 	if trim(Ev_ent("TimeZone")) <> "" Then time_zone=trim(Ev_ent("TimeZone"))
 	if trim(Ev_ent("pstate")) <> "" Then state_id=Ev_ent("pstate")
+    if trim(Ev_ent("countryID")) <> "" Then country_id=Ev_ent("countryID")
 	if trim(Ev_ent("ppoi")) <> "" Then job_type_id=Ev_ent("ppoi")
 	if trim(Ev_ent("etid")) <> "" Then event_type_id=Ev_ent("etid")
 	
@@ -131,7 +133,15 @@ function checkMe(){
 var f=document.frmCat;
 var em="";
 if (f.ev_title.value=="" ){em=em+"\n  - <%=getErrorMsg(10)%>";}
-if (f.state[f.state.selectedIndex].value=="" ){em=em+"\n  - <%=getErrorMsg(14)%>";}
+
+if (f.country[f.country.selectedIndex].value == "") { em = em + "\n  - <%=getErrorMsg(29)%>"; }
+    var x = document.getElementById("country");
+    var strCountry = x.options[x.selectedIndex].text;
+    var stateDDL = document.getElementById("state");
+    if (strCountry == "United States") {
+        if (f.state[f.state.selectedIndex].value == "") { em = em + "\n  - <%=getErrorMsg(14)%>"; }
+    }
+
 if (f.lob[f.lob.selectedIndex].value=="" ){em=em+"\n  - <%=getErrorMsg(16)%>";}
 if (f.eventStartDate.value=="" ){em=em+"\n  - <%=getErrorMsg(11)%>";}
 if (f.eventEndDate.value=="" ){em=em+"\n  - <%=getErrorMsg(26)%>";}
@@ -175,6 +185,21 @@ function openAWindow( pageToLoad, winName, width, height, center) {
     + "left=" + xposition + ","     //IE Only
     + "top=" + yposition;           //IE Only
     window.open( pageToLoad,winName,args );
+
+}
+
+function CheckCountry() {
+    var x = document.getElementById("country");
+    var strCountry = x.options[x.selectedIndex].text;
+    var stateDDL = document.getElementById("state");
+
+    if (strCountry == "United States") {
+        stateDDL.disabled = false;
+    }
+    else {
+        stateDDL.selectedIndex = 0;
+        stateDDL.disabled = true;
+    }
 
 }
 //-->
@@ -234,7 +259,7 @@ function openAWindow( pageToLoad, winName, width, height, center) {
 				<TD VALIGN=TOP ALIGN=LEFT><select name="etid" class="evtxt"><option value="">- Select -</option><%eventTypesOptions(event_type_id)%></select></TD>
 			</TR>
 			<TR>
-				<TD VALIGN=TOP ALIGN=LEFT><p>*Job Type&nbsp;:&nbsp;&nbsp;</p></TD>
+				<TD VALIGN=TOP ALIGN=LEFT><p>*Job Area&nbsp;:&nbsp;&nbsp;</p></TD>
 				<TD VALIGN=TOP ALIGN=LEFT><select name="lob" class="evtxt"><option value="">- Select -</option><%jobTypeOptions(job_type_id)%></select></TD>
 			</TR>
 			<TR>
@@ -274,10 +299,17 @@ function openAWindow( pageToLoad, winName, width, height, center) {
 				<TD VALIGN=TOP ALIGN=LEFT><p>*Event City&nbsp;:&nbsp;&nbsp;</p></TD>
 				<TD VALIGN=TOP ALIGN=LEFT><input type="Text"  name="evLocation" value="<%=trim(Ev_ent("location"))%>" maxlength=400 width=40  size=40 style="font-size: 9pt; font-family: verdana,Arial,Helvetica,sans-serif"></TD>
 			</TR>
-			<TR>
-				<TD VALIGN=TOP ALIGN=LEFT><p>*Event State&nbsp;:&nbsp;&nbsp;</p></TD>
-				<TD VALIGN=TOP ALIGN=LEFT><select name="state"  class="evtxt"><option value="" selected> - Select -</option><%statesOptions(state_id)%></select></TD>
+			
+            <TR>
+				<TD VALIGN=TOP ALIGN=LEFT><p>*Event Country&nbsp;:&nbsp;&nbsp;</p></TD>
+				<TD VALIGN=TOP ALIGN=LEFT><select name="country" id="country" onchange="CheckCountry();" class="evtxt"><option value="" selected> - Select -</option><%countryOptions(country_id)%></select></TD>
 			</TR>
+
+            <TR>
+				<TD VALIGN=TOP ALIGN=LEFT><p>*Event State&nbsp;:&nbsp;&nbsp;</p></TD>
+				<TD VALIGN=TOP ALIGN=LEFT><select name="state" id="state" class="evtxt"><option value="" selected> - Select -</option><%statesOptions(state_id)%></select></TD>
+			</TR>
+            
 			<TR>
 				<TD VALIGN=TOP ALIGN=LEFT width=180><p>*Check here if pre-registration is required&nbsp;:&nbsp;&nbsp;</p></TD>
 				<TD VALIGN=TOP ALIGN=LEFT><input TYPE="checkbox" name="chkPreRegistration" value="1" <%=chkPreRegistration%>></TD>

@@ -7,6 +7,7 @@ SetLocale(1033)
 myflag=trim(Request.Form("myflag"))
 'if (myflag <> "4F20") then Response.Redirect ("admin.asp") 
 state_id=trim(Request.Form("state"))
+country_id=trim(Request.Form("country"))
 job_type_id = trim(Request.Form("job_type"))
 event_type_id = trim(Request.Form("event_type"))
 from_date=trim(Request.Form("from_date"))
@@ -40,6 +41,7 @@ if (from_date<>"" and to_date<>"")  then scrt=" AND ([event_date] >= '" & from_d
 
 sqldat="select * from vspDownload where active=" & active &  " "	
 if state_id <> "" And CStr(state_id) <> "0" then sqldat=sqldat & " AND pState=" & state_id &  " "
+if country_id <> "" And CStr(country_id) <> "0" then sqldat=sqldat & " AND countryID=" & country_id &  " "
 if job_type_id <> "" And CStr(job_type_id) <> "0" then sqldat=sqldat & " AND ppoi=" & job_type_id &  " "
 if event_type_id <> "" And CStr(event_type_id) <> "0" then sqldat=sqldat & " AND etid=" & event_type_id &  " "
 sqldat=sqldat &   scrt & " order by event_date DESC, pevent"
@@ -64,6 +66,12 @@ Else
 	stateValue=getState(state_id, false)
 End If
 
+if country_id = "" Or CStr(country_id) = "0" then
+	countryValue = "All"
+Else
+	countryValue=getCountry(country_id)
+End If
+
 sql=sqldat
 
 response.ContentType="application/vnd.ms-excel"
@@ -86,6 +94,7 @@ response.write "<table border=1>"
 	response.write cellstart0 & "<b>Event Date</b>" & cellend0
 	response.write cellstart0 & "<b>Event Title</b>" & cellend0
 	response.write cellstart0 & "<b>State</b>" & cellend0
+    response.write cellstart0 & "<b>Country</b>" & cellend0
 	response.write cellstart0 & "<b>Job Type</b>" & cellend0
 	response.write cellstart0 & "<b>Event Type</b>" & cellend0
 	response.write cellstart0 & "<b>Budget</b>" & cellend0
@@ -103,6 +112,7 @@ response.write "<table border=1>"
 				response.write cellstart & trim(rs("event_date")) &  cellend
 				response.write cellstart & trim(rs("event_title"))  & cellend
 				response.write cellstart & trim(rs("state"))  & cellend
+                response.write cellstart & trim(rs("country"))  & cellend
 				response.write cellstart & trim(rs("position"))  & cellend
 				response.write cellstart & trim(rs("event_type"))  & cellend
 				response.write cellstart & trim(rs("budget"))  & cellend
@@ -126,6 +136,11 @@ response.write rowstart
 	response.write rowstart 
 	response.write "<td bgcolor=""#F0F000""  COLSPAN=9 align=left valign=top STYLE=""" & MST & """>"
 	response.write "STATE: " & stateValue & "<BR>"
+	response.write "</TD>"
+	response.write rowend
+    response.write rowstart 
+	response.write "<td bgcolor=""#F0F000""  COLSPAN=9 align=left valign=top STYLE=""" & MST & """>"
+	response.write "COUNTRY: " & countryValue & "<BR>"
 	response.write "</TD>"
 	response.write rowend
 	response.write rowstart 

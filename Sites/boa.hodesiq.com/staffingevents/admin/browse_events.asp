@@ -12,7 +12,7 @@
 	colr2="#A59D9D"
 	colr3="#000000"
 	
-	Dim active_event, state_id, job_type_id, event_type_id, from_date, to_date, order_by, order_by_only, per_page, page_num, number_of_pages, paging_plus
+	Dim active_event, state_id, country_id, job_type_id, event_type_id, from_date, to_date, order_by, order_by_only, per_page, page_num, number_of_pages, paging_plus
 	per_page = 20
 	paging_plus = 5
 	active_event=Request("not_active_event")
@@ -23,6 +23,10 @@
 		End If
 	state_id=Request("state_id")
 		If state_id = "" Then state_id = 0
+
+    country_id=Request("country_id")
+		If country_id = "" Then country_id = 0
+
 	job_type_id=Request("job_type_id")
 		If job_type_id = "" Then job_type_id = 0
 	event_type_id=Request("event_type_id")
@@ -175,6 +179,7 @@ function resetMe()
 							<td valign="top" align="left">
 <form name="customDn" method="post" action="download_events.asp">
 <input type="Hidden" name="state" value="<%=state_id%>">
+<input type="Hidden" name="country" value="<%=country_id%>">
 <input type="Hidden" name="job_type" value="<%=job_type_id%>">
 <input type="Hidden" name="event_type" value="<%=event_type_id%>">
 <input type="Hidden" name="from_date" value="<%=from_date%>">
@@ -197,9 +202,15 @@ function resetMe()
 													<%statesOptions(state_id)%>
 												</select>
 											</td>
+                                            <td valign="top" align="left">
+												<select name="country_id" class="evtxt">
+													<option value="">All Countries</option>
+													<%countryOptions(country_id)%>
+												</select>
+											</td>
 											<td valign="top" align="left">
 												<select name="job_type_id" class="evtxt">
-													<option value="">All Job Types</option>
+													<option value="">All Job Areas</option>
 													<%jobTypeOptions(job_type_id)%>
 												</select>
 											</td>
@@ -230,13 +241,13 @@ function resetMe()
 											<td align="left" width="100%">
 												<table class="eventTbl eventList" border="0" cellpadding="0" cellspacing="2" bordercolor="#FFFF00" width="100%">
 												<tr>
-													<td colspan="7" bgcolor ="<%=colr2%>" valign="middle" align="right"><font class=survtxt><B><a href="Javascript: downloadCustom();">Download All</a></B></font></td> 
+													<td colspan="8" bgcolor ="<%=colr2%>" valign="middle" align="right"><font class=survtxt><B><a href="Javascript: downloadCustom();">Download All</a></B></font></td> 
 												</tr>
 												<tr>
-													<td colspan="7" bgcolor ="<%=colr2%>" valign="middle" align="center"><font class=survtxt><B>Showing events <%=from_record%> - <%=to_record%> (from <%=number_of_events%>)</B></font></td> 
+													<td colspan="8" bgcolor ="<%=colr2%>" valign="middle" align="center"><font class=survtxt><B>Showing events <%=from_record%> - <%=to_record%> (from <%=number_of_events%>)</B></font></td> 
 												</tr>
 												<tr>
-													<td colspan="7" bgcolor ="<%=colr2%>" valign="middle" align="right">
+													<td colspan="8" bgcolor ="<%=colr2%>" valign="middle" align="right">
 														<table class="event" border="0" cellspacing="0" cellpadding="0" width="100%">
 														<tr>
 														<% If number_of_pages < 2 Then %>
@@ -288,7 +299,7 @@ function resetMe()
 															this_asc_desc = "ASC"
 														End If
 													End If
-													%><th nowrap width="10%">Job Type<a href="Javascript: orderMe('<%=this_order_by&" "&this_asc_desc%>');" title="Sort <%=this_asc_desc%>"><span class="order"><%=this_up_down%></span></a></th><%
+													%><th nowrap width="10%">Job Area<a href="Javascript: orderMe('<%=this_order_by&" "&this_asc_desc%>');" title="Sort <%=this_asc_desc%>"><span class="order"><%=this_up_down%></span></a></th><%
 													this_up_down = "&#x21D1;"
 													this_order_by = "STATE.LONGSTATE"
 													this_asc_desc = "DESC"
@@ -298,7 +309,20 @@ function resetMe()
 															this_asc_desc = "ASC"
 														End If
 													End If
-													%><th nowrap width="10%">State<a href="Javascript: orderMe('<%=this_order_by&" "&this_asc_desc%>');" title="Sort <%=this_asc_desc%>"><span class="order"><%=this_up_down%></span></a></th><%
+													%>
+                                                    
+                                                    <%
+													this_up_down = "&#x21D1;"
+													this_order_by = "Country"
+													this_asc_desc = "DESC"
+													If order_by <> "" Then
+														If InStr(order_by, this_order_by& " DESC") Then
+															this_up_down = "&#x21D3;"
+															this_asc_desc = "ASC"
+														End If
+													End If
+													%><th nowrap width="10%">Country<a href="Javascript: orderMe('<%=this_order_by&" "&this_asc_desc%>');" title="Sort <%=this_asc_desc%>"><span class="order"><%=this_up_down%></span></a></th>
+                                                    <th nowrap width="10%">State<a href="Javascript: orderMe('<%=this_order_by&" "&this_asc_desc%>');" title="Sort <%=this_asc_desc%>"><span class="order"><%=this_up_down%></span></a></th><%
 													this_up_down = "&#x21D1;"
 													this_order_by = "EventTypes.EVENT_TYPE"
 													this_asc_desc = "DESC"
@@ -325,7 +349,7 @@ function resetMe()
 												<% If isObject(events) Then
 														If events.BOF Or  events.EOF Then %>
 												<tr>
-													<td colspan="7" valign="middle" align="center"><font class=survtxt><B><I>Sorry, currently we do not have any event that match your choices</I></B></font></td> 
+													<td colspan="8" valign="middle" align="center"><font class=survtxt><B><I>Sorry, currently we do not have any event that match your choices</I></B></font></td> 
 												</tr>
 												<%	Else
 														events.MoveFirst
@@ -335,7 +359,8 @@ function resetMe()
 													<tr>
 														<td bgcolor =<%=mycolor%>><%=events("event_title")%></td>
 														<td bgcolor =<%=mycolor%>><%=events("POSITION")%></td>
-														<td bgcolor =<%=mycolor%>><%=events("LONGSTATE")%></td>
+														<td bgcolor =<%=mycolor%>><%=events("Country")%></td>
+                                                        <td bgcolor =<%=mycolor%>><%=events("LONGSTATE")%></td>
 														<td bgcolor =<%=mycolor%>><% If Not isNull(events("EVENT_TYPE")) Then %><%=events("EVENT_TYPE")%><% End If %></td>
 														<td bgcolor =<%=mycolor%>><%=FormatDateTime(events("event_date"),2)%></td>
 														<td bgcolor =<%=mycolor%>>
@@ -363,10 +388,10 @@ function resetMe()
 														End If
 													End If %>
 												<tr>
-													<td colspan="7" bgcolor ="<%=colr2%>" valign="middle" align="center"><font class=survtxt><B>Showing events <%=from_record%> - <%=to_record%> (from <%=number_of_events%>)</B></font></td> 
+													<td colspan="8" bgcolor ="<%=colr2%>" valign="middle" align="center"><font class=survtxt><B>Showing events <%=from_record%> - <%=to_record%> (from <%=number_of_events%>)</B></font></td> 
 												</tr>
 												<tr>
-													<td colspan="7" bgcolor ="<%=colr2%>" valign="middle" align="right">
+													<td colspan="8" bgcolor ="<%=colr2%>" valign="middle" align="right">
 														<table class="event" border="0" cellspacing="0" cellpadding="0" width="100%">
 														<tr>
 														<% If number_of_pages < 2 Then %>

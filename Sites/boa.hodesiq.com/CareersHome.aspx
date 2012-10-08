@@ -733,7 +733,7 @@ CompletionListHighlightedItemCssClass="hoverlistitem2"
                 <div id="footerNavTop">
                     <ul>   
                         <li><a href="https://www.bankofamerica.com/privacy/index.jsp" title="Privacy Policy" tabindex="69" name="privacy_policy_footernav">Privacy Policy</a></li>
-                        <li><a href="http://www.bankofamerica.com/state.cgi?section=help&update=&cookiecheck=yes&template=sitemap.cfm&lob=" title="Site Map" tabindex="70" name="site_map_footernav">Site Map</a></li>
+                        <li><a href="https://www.bankofamerica.com/sitemap/personal.go" title="Site Map" tabindex="70" name="site_map_footernav">Site Map</a></li>
                        
                         <li style="background:none;" title="About Us"><a href="http://about.bankofamerica.com" tabindex="72" name="about_us_footernav">About Us</a></li>
                     </ul>

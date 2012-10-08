@@ -5,12 +5,17 @@
 <%
 	SetLocale(1033)
 	Set cnnEv = OpenConnectionEx(strEventsConnection)
+
+    dim country
+
 	myid=Request("vvid")
 	If myid="" Then Response.Redirect("admin.asp")
 	If myid="0" Then
 		Call SetEventVars()
 		job_type=getJobType(ppoi)
 		state=getState(pstate, true)
+        country=getCountry(Request("country"))
+
 		If CDate(event_date) > CDate("2011-11-11") Then event_type=getEventType(etid)
 	Else
 		Set rsEvent = getEvent(myid, "read")
@@ -21,9 +26,10 @@
 		end_time=trim(rsEvent("end_time"))
 		pstate=CINT(trim(rsEvent("pstate")))
 		state=getState(trim(rsEvent("pstate")), true)
+        country=getCountry(trim(rsEvent("countryID")))
 		location=trim(rsEvent("location"))
 		ppoi = rsEvent("ppoi")
-		 job_type=getJobType(ppoi)
+		 job_type=getJobTypeForPreview(ppoi)
 		description=trim(rsEvent("description"))
 		rEmail = trim(rsEvent("rEmail"))
 		schedule=rsEvent("schedule")
@@ -81,7 +87,7 @@
 
 <table class="event" border="0" cellpadding="0" cellspacing="0" width="100%">
 <tr>
-	<td colspan="3" valign="middle" align="right" class="event-paging">
+	<td colspan="4" valign="middle" align="right" class="event-paging">
 		<table class="event-paging" border="0" cellspacing="0" cellpadding="0" width="100%">
 		<tr>
 			<td nowrap align="left">
@@ -93,12 +99,17 @@
 		</table>
 	</td>
 </tr>
-<tr><th nowrap width="33%"><a href="Javascript: function(){};" title="Sort ASC" class="ev-b">Date</a><a href="Javascript: function(){};" title="Sort ASC"><div class="order"><img src="../../images/spacer.gif" alt="Sort ASC" width="7" height="6" border="0"></div></a></th><th nowrap width="33%"><a href="Javascript: function(){};" title="Sort DESC" class="ev-b">State<a></a><a href="Javascript: function(){};" title="Sort DESC" class=""><div class="order"><img src="../../images/spacer.gif" alt="Sort DESC" width="7" height="6" border="0"></div></a></th>
+<tr><th nowrap width="33%"><a href="Javascript: function(){};" title="Sort ASC" class="ev-b">Date</a><a href="Javascript: function(){};" title="Sort ASC"><div class="order"><img src="../../images/spacer.gif" alt="Sort ASC" width="7" height="6" border="0"></div></a></th>
+<th nowrap width="33%"><a href="Javascript: function(){};" title="Sort DESC" class="ev-b">Country<a></a><a href="Javascript: function(){};" title="Sort DESC" class=""><div class="order"><img src="../../images/spacer.gif" alt="Sort DESC" width="7" height="6" border="0"></div></a></th>
+<th nowrap width="33%"><a href="Javascript: function(){};" title="Sort DESC" class="ev-b">State<a></a><a href="Javascript: function(){};" title="Sort DESC" class=""><div class="order"><img src="../../images/spacer.gif" alt="Sort DESC" width="7" height="6" border="0"></div></a></th>
 	<th nowrap width="33%">&nbsp;</th>
 </tr>
 <tr class="ev-last">
 		<td nowrap>
 			<% Call printEventLeft(event_date, event_end_date, start_time, end_time, TimeZone) %>
+		</td>
+        <td nowrap>
+			<div class="ev-state"><%=country%></div>
 		</td>
 		<td nowrap><% Call printEventMiddle(state) %></td>
 		<td>
@@ -106,7 +117,7 @@
 		</td>
 </tr>
 <tr>
-	<td colspan="3" valign="middle" align="right" class="event-paging">
+	<td colspan="4" valign="middle" align="right" class="event-paging">
 		<table class="event-paging" border="0" cellspacing="0" cellpadding="0" width="100%">
 		<tr>
 			<td nowrap align="left">
