@@ -19,6 +19,8 @@
 	ElseIf trim(Request.ServerVariables("SERVER_NAME")) = "boa.dev.hodesiq.com" _
 		Then 'development
 			ENV_EVENTS = "development"
+    Else 'for local testing
+			ENV_EVENTS = "staging"
  	End If
 	
 	

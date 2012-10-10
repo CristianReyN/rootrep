@@ -34,6 +34,27 @@ function getJobType(job_type_id)
 	Set rsJobType=nothing
 end function
 
+function getJobTypeForPreview(job_type_id)
+	Set rsJobType = getJobTypesForPreview(job_type_id)
+	getJobTypeForPreview=rsJobType("POSITION")
+	rsJobType.Close
+	Set rsJobType=nothing
+end function
+
+function getJobTypesForPreview(job_type_id)
+	If trim(job_type_id) = "" Then job_type_id = 0
+	If Not IsObject(cnnEv) Then Set cnnEv = OpenConnectionEx(strEventsConnection)
+	Set cmd = server.CreateObject("ADODB.Command")
+	cmd.ActiveConnection = cnnEv
+	cmd.CommandType = adCmdStoredProc
+	cmd.CommandText = "get_job_types_all"
+		cmd.Parameters.Append cmd.CreateParameter("job_type_id",adInteger,adParamInput)
+		cmd.Parameters("job_type_id") = job_type_id
+	Set getJobTypesForPreview=cmd.Execute()
+end function
+
+
+
 function eventTypesOptions(event_type_id)
 	Dim eventTypes, selected
 	Set eventTypes=getEventTypes("") %>
@@ -83,6 +104,21 @@ function statesOptions(state_id)
 	End If
 end function
 
+function countryOptions(country_id)
+	Dim country, selected
+	Set country=getCountries("") %>
+<%
+	if not (country.EOF and country.BOF) then
+		while not country.EOF
+			selected = ""
+			if trim(country_id) = trim(country("countryID")) then selected = " selected"
+%>
+<option value="<%=country("CountryID") %>"<%=selected%>><%= country("Country") %></option>
+<%			country.MoveNext
+		wend
+	End If
+end function
+
 function getStates(state_id)
 	If trim(state_id) = "" Then state_id = 0
 	If Not IsObject(cnnEv) Then Set cnnEv = OpenConnectionEx(strEventsConnection)
@@ -104,6 +140,19 @@ function getState(state_id, LONGSTATE)
 	End If
 	rsState.Close
 	Set rsState=nothing
+end function
+
+function getCountry(country_id)
+
+    if trim(country_id) = "" then
+        getCountry = ""
+    else
+	    Set rsCountry = getCountries(country_id)
+	    getCountry=rsCountry("Country")
+        rsCountry.Close
+	    Set rsCountry=nothing
+    end if
+	
 end function
 
 function getCountries(country_id)
@@ -254,7 +303,7 @@ function getErrorMsg(errno)
 		case 15
 			errorMsg = "Missing Event Location"
 		case 16
-			errorMsg = "Missing Job Type"
+			errorMsg = "Missing Job Area"
 		case 17
 			errorMsg = "Missing E-mail address"
 		case 18
@@ -279,6 +328,8 @@ function getErrorMsg(errno)
 			errorMsg = "Start date is greater then End Date"
 		case 28
 			errorMsg = "Please check if pre-registration is required"
+        case 29
+			errorMsg = "Missing Country"
 	end select
 	getErrorMsg = errorMsg
 end function
@@ -307,13 +358,14 @@ end function
 
 ' EVENT SERVICE
 
-dim event_title, event_date, start_time, end_time, pstate, location, ppoi, description, rEmail, active, rSlot, schedule, TimeZone, Budget
+dim event_title, event_date, start_time, end_time, pstate, countryID, location, ppoi, description, rEmail, active, rSlot, schedule, TimeZone, Budget
 dim etid, JobDescriptionURL, EventAddress, EventAddInfo, event_end_date
 event_title="" 
 event_date=""
 start_time=""
 end_time=""
 pstate=""
+countryID=""
 location=""
 ppoi=""
 description="" 
@@ -352,11 +404,19 @@ Function SetEventVars()
 		Else
 			end_time=trim(Request.Form ("eventEndTime"))
 		End If
-		If trim(Request.Form ("State")) = "" Then
-			Call addError(14)
-		Else
-			pstate=CINT(trim(Request.Form ("State")))
-		End If
+
+        countryID = CINT(trim(Request.Form ("country")))
+
+        If trim(Request.Form ("Country")) = "47" Then 'United States
+               If trim(Request.Form ("State")) = "" Then
+			        Call addError(14)
+		        Else
+			        pstate=CINT(trim(Request.Form ("State")))
+		        End If
+        else 
+            pstate=0
+        End if
+	
 		If trim(Request.Form ("evLocation")) = "" Then
 			Call addError(15)
 		Else
@@ -430,6 +490,7 @@ Function SetEventRs()
 	rsEvent("start_time") = start_time
 	rsEvent("end_time") = end_time
 	rsEvent("pstate") = pstate
+    rsEvent("countryID") = countryID
 	rsEvent("location") = location
 	rsEvent("ppoi") = ppoi
 	rsEvent("description") = description
@@ -477,6 +538,7 @@ Function CopyEventRs(rsOldEvent)
 	rsEvent("start_time") = rsOldEvent("start_time")
 	rsEvent("end_time") = rsOldEvent("end_time")
 	rsEvent("pstate") = rsOldEvent("pstate")
+    rsEvent("countryID") = rsOldEvent("countryID")
 	rsEvent("location") = rsOldEvent("location")
 	rsEvent("ppoi") = rsOldEvent("ppoi")
 	rsEvent("description") = rsOldEvent("description")
@@ -538,6 +600,7 @@ Function RemoveEventSessionVars()
 		Session.Contents.Remove("start_time")
 		Session.Contents.Remove("end_time")
 		Session.Contents.Remove("pstate")
+        Session.Contents.Remove("countryID")
 		Session.Contents.Remove("location")
 		Session.Contents.Remove("ppoi")
 		Session.Contents.Remove("description")
@@ -569,7 +632,7 @@ Function printEventRight(event_title, job_type, event_type, preregistration, Eve
 			<div class="ev-title"><%=trim(event_title)%></div>
 			<div class="ev-body">
 			<% If trim(event_type) <> "" Then Response.Write "<b>Event Type:</b> "&trim(event_type)&"<br>" %>
-			<% If trim(job_type) <> "" Then Response.Write "<b>Job Type:</b> "&trim(job_type)&"<br>" %>
+			<% If trim(job_type) <> "" Then Response.Write "<b>Job Area:</b> "&trim(job_type)&"<br>" %>
 			<b>Pre-registration required: </b><% If preregistration Then Response.Write "Y" Else Response.Write "N" End If %><br>
 			<% If trim(EventAddInfo) <> "" Then Response.Write replace(trim(EventAddInfo),vbcrlf,"<br>")&"<br>" %>
 			<b>Address:</b><br>

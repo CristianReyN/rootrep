@@ -306,10 +306,22 @@ function CheckCountry() {
 			</TR>
 
             <TR>
+            
 				<TD VALIGN=TOP ALIGN=LEFT><p>*Event State&nbsp;:&nbsp;&nbsp;</p></TD>
 				<TD VALIGN=TOP ALIGN=LEFT><select name="state" id="state" class="evtxt"><option value="" selected> - Select -</option><%statesOptions(state_id)%></select></TD>
 			</TR>
-            
+            <%if ca_se = "edit" then  
+                 if state_id = 0 then
+            %>
+
+              <script language="Javascript">
+                <!--
+                  var stateDDL = document.getElementById("state");
+                  stateDDL.disabled = true;
+                //-->
+            </script>
+            <%end if
+            end if %>
 			<TR>
 				<TD VALIGN=TOP ALIGN=LEFT width=180><p>*Check here if pre-registration is required&nbsp;:&nbsp;&nbsp;</p></TD>
 				<TD VALIGN=TOP ALIGN=LEFT><input TYPE="checkbox" name="chkPreRegistration" value="1" <%=chkPreRegistration%>></TD>
