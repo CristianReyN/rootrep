@@ -209,7 +209,7 @@ end function
 
 ' GET EVENT LIST
 
-function getEvents(active_event, state_id, job_type_id, event_type_id, from_date, to_date, order_by, per_page, page_num, number_of_events, number_of_pages)
+function getEvents(active_event, state_id, country_id, job_type_id, event_type_id, from_date, to_date, order_by, per_page, page_num, number_of_events, number_of_pages)
 	If trim(active_event) = "" Then active_event = 1
 	If trim(state_id) = "" Then state_id = 0
 	If trim(job_type_id) = "" Then job_type_id = 0
@@ -226,6 +226,8 @@ function getEvents(active_event, state_id, job_type_id, event_type_id, from_date
 			cmd.Parameters("active") = active_event
 		cmd.Parameters.Append cmd.CreateParameter("state_id",adInteger,adParamInput)
 			cmd.Parameters("state_id") = state_id
+        cmd.Parameters.Append cmd.CreateParameter("country_id",adInteger,adParamInput)
+			cmd.Parameters("country_id") = country_id
 		cmd.Parameters.Append cmd.CreateParameter("job_type_id",adInteger,adParamInput)
 			cmd.Parameters("job_type_id") = job_type_id
 		cmd.Parameters.Append cmd.CreateParameter("event_type_id",adInteger,adParamInput)

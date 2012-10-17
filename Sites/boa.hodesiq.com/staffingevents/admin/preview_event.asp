@@ -13,7 +13,13 @@
 	If myid="0" Then
 		Call SetEventVars()
 		job_type=getJobType(ppoi)
-		state=getState(pstate, true)
+
+        if pstate <> 0 then
+		    state=getState(pstate, true)
+        else
+            state = ""
+        end if
+
         country=getCountry(Request("country"))
 
 		If CDate(event_date) > CDate("2011-11-11") Then event_type=getEventType(etid)
@@ -25,7 +31,13 @@
 		start_time=trim(rsEvent("start_time"))
 		end_time=trim(rsEvent("end_time"))
 		pstate=CINT(trim(rsEvent("pstate")))
-		state=getState(trim(rsEvent("pstate")), true)
+
+        if pstate <> 0 then
+		    state=getState(trim(rsEvent("pstate")), true)
+        else
+            state = ""
+        end if
+
         country=getCountry(trim(rsEvent("countryID")))
 		location=trim(rsEvent("location"))
 		ppoi = rsEvent("ppoi")

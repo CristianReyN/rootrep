@@ -156,7 +156,8 @@ if (f.ev_desc.value){if ((f.ev_desc.value.length) > 1000){em=em+"\n  - <%=getErr
 //if ( !f.chkSchedule.checked && f.rSlot.value!="" ){em=em+"\n  - <%=getErrorMsg(18)%>";}
 if (f.chkPreRegistration.checked && f.EventAddInfo.value==""){em=em+"\n  - <%=getErrorMsg(25)%>";}
 //if ( !f.chkPreRegistration.checked && f.EventAddInfo.value!="" ){em=em+"\n  - <%=getErrorMsg(28)%>";}
-if (f.tz[f.tz.selectedIndex].value=="" ){em=em+"\n  - <%=getErrorMsg(21)%>";}
+if (f.tz.value == "") { em = em + "\n  - <%=getErrorMsg(21)%>"; }
+//if (f.tz[f.tz.selectedIndex].value=="" ){em=em+"\n  - <%=getErrorMsg(21)%>";}
 if (f.rEmail.value=="" ){em=em+"\n  - <%=getErrorMsg(17)%>";}
 if (f.etid.value=="" ){em=em+"\n  - <%=getErrorMsg(23)%>";}
 if (f.EventAddress.value=="" ){em=em+"\n  - <%=getErrorMsg(24)%>";}
@@ -202,6 +203,7 @@ function CheckCountry() {
     }
 
 }
+
 //-->
 </script>
 <TITLE>Bank of America : Events</TITLE>
@@ -283,13 +285,9 @@ function CheckCountry() {
 				<TD VALIGN=TOP ALIGN=LEFT><input TYPE="Text" name="eventEndTime" value="<%=trim(Ev_ent("end_time"))%>" size="8" maxlength="15" size="10" style="font-size: 9pt; font-family: verdana,Arial,Helvetica,sans-serif"></TD>
 			</TR>
 			<TR>
-				<TD VALIGN=TOP ALIGN=LEFT><p>Time Zone&nbsp;:&nbsp;&nbsp;</p></TD>
-				<TD VALIGN=TOP ALIGN=LEFT><select name=tz  class="evtxt"><option value="">- Select -</option>
-													<option value="EDT"<% If time_zone = "EDT" Then %> selected<% End If %>>Eastern</option>
-													<option value="CDT"<% If time_zone = "CDT" Then %> selected<% End If %>>Central</option>
-													<option value="MDT"<% If time_zone = "MDT" Then %> selected<% End If %>>Mountain</option>
-													<option value="PDT"<% If time_zone = "PDT" Then %> selected<% End If %>>Pacific</option>
-				</select></TD>
+				<TD VALIGN=TOP ALIGN=LEFT><p>Time Zone&nbsp;:&nbsp;&nbsp;<br><span class="redevtxt">(20 characters max)</span></p></TD>
+				<TD VALIGN=TOP ALIGN=LEFT><input TYPE="Text" name="tz" value="<%=trim(Ev_ent("TimeZone"))%>" maxlength="20" size="20" style="font-size: 9pt; font-family: verdana,Arial,Helvetica,sans-serif">
+                </TD>
 			</TR>
 			<TR>
 				<TD VALIGN=TOP ALIGN=LEFT><p>*Event Address&nbsp;:&nbsp;&nbsp;<br><span class="redevtxt">(200 characters max)</span></p></TD>

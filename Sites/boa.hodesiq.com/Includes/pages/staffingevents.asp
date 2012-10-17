@@ -15,6 +15,7 @@ Dim active_event, state_id, job_type_id, event_type_id, from_date, to_date, orde
 	event_type_id=Request("event_type_id")
 		If event_type_id = "" Then event_type_id = 0
 	from_date = Date
+    'from_date = "2005-11-26 00:00:00"
 	to_date = ""
 	order_by=Request("order_by")
 	order_by_only=Request("order_by")
@@ -73,7 +74,7 @@ Dim active_event, state_id, job_type_id, event_type_id, from_date, to_date, orde
 				<td width="578" height="100%" valign="top" style="padding: 0px <%=right_margin%>px 0px <%=left_margin_0%>px;">
 <div id="L101" style="position: relative; z-index: 12;">
 <p>
-Why will you choose a career with Bank of America? Find out the answer by attending an Open House upcoming event near you. To see when we're coming to your area, choose your state and the job type of position you're looking for, and select Search. Refer to this site frequently for more information and updates.
+Why will you choose a career with Bank of America? Find out the answer by attending an Open House upcoming event near you. To see when we're coming to your area, choose your state and the job area of position you're looking for, and select Search. Refer to this site frequently for more information and updates.
 </p>
 <script language="Javascript">
 <!--
@@ -114,11 +115,11 @@ function pageNumber(page_num)
 </tr>
 <tr>
 	<td nowrap style="padding: 0px 18px 0px 0px;">
-<label for="job_type_id" id="job_type_id" class="p" style="margin: 0px;"><b>Job Type:</b></label><br>
+<label for="job_type_id" id="job_type_id" class="p" style="margin: 0px;"><b>Job Area:</b></label><br>
 	</td>
 	<td width="100%" style="padding: 0px 0px 0px 0px;">
-<select name="job_type_id" id="job_type_id" title="Select a job type" style="width: 60%;" onchange="filterMe();">
-	<option value="">All Job Types</option>
+<select name="job_type_id" id="job_type_id" title="Select a job area" style="width: 60%;" onchange="filterMe();">
+	<option value="">All Job Areas</option>
 	<%=jobTypeOptions(job_type_id)%>
 </select>
 	</td>
@@ -157,7 +158,7 @@ jQuery(document).ready(function(){
 	});
  });
 </script>
-<table class="event" border="0" cellpadding="0" cellspacing="0" width="100%" summary=”This table lists events. The first column lists the date, the second column lists the location and the third column has details on the event.” style="margin-top: 0px;">
+<table class="event" border="0" cellpadding="0" cellspacing="0" width="100%" summary="This table lists events. The first column lists the date, the second column lists the location and the third column has details on the event." style="margin-top: 0px;">
 <tr><%
 	this_up_down_cls = ""
 	arr_img_alt = ""
@@ -179,7 +180,33 @@ jQuery(document).ready(function(){
 		End If
 	End If
 	this_up_down_img = "<img src=""../images/spacer.gif"" alt="""&arr_img_alt&""" title="""&arr_img_title&""" width=""7"" height=""5"" border=""0"">"
-	%><th nowrap width="33%" scope=”col”><a href="Javascript: orderMe('<%=this_order_by&" "&this_asc_desc%>');" title="<%=a_title%>" class="ev-b">Date</a><div class="order<%=this_up_down_cls%>"><%=this_up_down_img%></div></th><%
+	%><th nowrap width="13%" scope=”col”><a href="Javascript: orderMe('<%=this_order_by&" "&this_asc_desc%>');" title="<%=a_title%>" class="ev-b">Date</a><div class="order<%=this_up_down_cls%>"><%=this_up_down_img%></div></th>
+    
+    <%
+	this_up_down_cls = ""
+	arr_img_alt = ""
+	arr_img_title = ""
+	a_title = "Sort by country in either ascending or descending order"
+	this_order_by = "Country"
+	this_asc_desc = "ASC"
+	If InStr(order_by_only, this_order_by) Then
+		If InStr(order_by_only, "DESC") Then
+			this_asc_desc = "ASC"
+			this_up_down_cls = " arrDn"
+			arr_img_alt = "Country sorted in descending order"
+			arr_img_title = "Country sorted in descending order"
+		Else
+			this_asc_desc = "DESC"
+			this_up_down_cls = " arrUp"
+			arr_img_alt = "Country sorted in ascending order"
+			arr_img_title = "Country sorted in ascending order"
+		End If
+	End If
+	this_up_down_img = "<img src=""../images/spacer.gif"" alt="""&arr_img_alt&""" title="""&arr_img_title&""" width=""7"" height=""5"" border=""0"">"
+	%>
+    <th nowrap width="23%" scope=”col”><a href="Javascript: orderMe('<%=this_order_by&" "&this_asc_desc%>');" title="<%=a_title%>" class="ev-b">Country</a><div class="order<%=this_up_down_cls%>"><%=this_up_down_img%></div></th>
+    
+    <%
 	this_up_down_cls = ""
 	arr_img_alt = ""
 	arr_img_title = ""
@@ -201,8 +228,9 @@ jQuery(document).ready(function(){
 	End If
 	this_up_down_img = "<img src=""../images/spacer.gif"" alt="""&arr_img_alt&""" title="""&arr_img_title&""" width=""7"" height=""5"" border=""0"">"
 	%>
-    <th nowrap width="33%" scope=”col”><p class="ev-b">Country</p></th>
     <th nowrap width="33%" scope=”col”><a href="Javascript: orderMe('<%=this_order_by&" "&this_asc_desc%>');" title="<%=a_title%>" class="ev-b">State</a><div class="order<%=this_up_down_cls%>"><%=this_up_down_img%></div></th>
+    
+
 	<th nowrap width="33%" scope=”col”><p class="ev-b">Event</p></th>
 </tr>
 <%		events.MoveFirst
@@ -226,10 +254,10 @@ jQuery(document).ready(function(){
 		events.Close
 		set events=nothing %>
 </table>
-<table class="event" border="0" cellpadding="0" cellspacing="0" width="100%" summary=”” style="margin-top: 0px;">
+<table class="event" border="0" cellpadding="0" cellspacing="0" width="100%" summary="" style="margin-top: 0px;">
 <tr>
 	<td valign="top" align="right" class="event-paging">
-		<table class="event-paging" border="0" cellspacing="0" cellpadding="0" width="100%" summary=”">
+		<table class="event-paging" border="0" cellspacing="0" cellpadding="0" width="100%" summary="">
 		<tr>
 			<td nowrap align="left">
 				<div class="rec-num"><%=from_record%> - <%=to_record%> of <%=number_of_events%></div>

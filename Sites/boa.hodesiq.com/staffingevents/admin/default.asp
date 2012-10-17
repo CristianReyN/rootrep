@@ -19,7 +19,7 @@ if (trim(uid) <> "" and trim(pwd)<> "") then
 	else
 		if (trim(uid)<> trim(myuid)or trim(pwd)<> trim(mypassword))  then 
 			em=em & "<br>Invalid USERID or PASSWORD<br>UserId and Password are case sensitive.<hr><br><br>"
-			em2="<br><br>Note: The current process has been changed.  Please contact Neal Hardin (neal.hardin@bankofamerica.com) for a request for site/calendar access."
+			em2="<br><br>Note: The current process has been changed.  Please contact Teresa LeBlanc (teresa.leblanc@bankofamerica.com) for a request for site/calendar access."
 		end if
 	end if
 end if 	

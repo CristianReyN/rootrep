@@ -72,7 +72,7 @@
 	number_of_events = 0
 	number_of_pages = 1
 	Set cnnEv = OpenConnectionEx(strEventsConnection)
-	Set events = getEvents(active_event, state_id, job_type_id, event_type_id, from_date, to_date, order_by, per_page, page_num, number_of_events, number_of_pages)
+	Set events = getEvents(active_event, state_id, country_id, job_type_id, event_type_id, from_date, to_date, order_by, per_page, page_num, number_of_events, number_of_pages)
 	If isObject(events)  Then
 		If events.BOF Or  events.EOF Then
 			from_record = 0
