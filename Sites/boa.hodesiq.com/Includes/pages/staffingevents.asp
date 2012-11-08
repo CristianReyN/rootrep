@@ -15,7 +15,7 @@ Dim active_event, state_id, job_type_id, event_type_id, from_date, to_date, orde
 	event_type_id=Request("event_type_id")
 		If event_type_id = "" Then event_type_id = 0
 	from_date = Date
-    'from_date = "2005-11-26 00:00:00"
+    from_date = "2005-11-26 00:00:00"
 	to_date = ""
 	order_by=Request("order_by")
 	order_by_only=Request("order_by")
@@ -41,7 +41,7 @@ Dim active_event, state_id, job_type_id, event_type_id, from_date, to_date, orde
 	number_of_events = 0
 	number_of_pages = 1
 	Set cnnEv = OpenConnectionEx(strEventsConnection)
-	Set events = getEvents(active_event, state_id, job_type_id, event_type_id, from_date, to_date, order_by, per_page, page_num, number_of_events, number_of_pages)
+	Set events = getEvents(active_event, state_id, 0, job_type_id, event_type_id, from_date, to_date, order_by, per_page, page_num, number_of_events, number_of_pages)
 	If isObject(events)  Then
 		If events.BOF Or  events.EOF Then
 			from_record = 0
@@ -140,9 +140,9 @@ function pageNumber(page_num)
 			</td>
 			<% If number_of_pages > 1 Then %>
 			<td nowrap align="right">
-				<% If CInt(page_num) > 1 Then %><div class="left-num"><a href="Javascript: pageNumber(<%=(page_num-1)%>);" title="Previous page" class="ev-b"><span><<</span> Previous</a></div><% End If %>
+				<% If CInt(page_num) > 1 Then %><div class="left-num"><a href="Javascript: pageNumber(<%=(page_num-1)%>);" title="Previous page" class="ev-b">Previous Page</a></div><% End If %>
 				<div class="page-num">Page <%=page_num%> of <%=number_of_pages%></div>
-				<% If CInt(page_num) < CInt(number_of_pages) Then %><div class="left-num"><a href="Javascript: pageNumber(<%=(page_num+1)%>);" title="Next page" class="ev-b">Next <span>>></span></a></div><% End If %>
+				<% If CInt(page_num) < CInt(number_of_pages) Then %><div class="left-num"><a href="Javascript: pageNumber(<%=(page_num+1)%>);" title="Next page" class="ev-b">Next Page</a></div><% End If %>
 			</td>
 			<% End If %>
 		</tr>
@@ -264,9 +264,9 @@ jQuery(document).ready(function(){
 			</td>
 			<% If number_of_pages > 1 Then %>
 			<td nowrap align="right">
-				<% If CInt(page_num) > 1 Then %><div class="left-num"><a href="Javascript: pageNumber(<%=(page_num-1)%>);" title="Previous page" class="ev-b"><span><<</span> Previous</a></div><% End If %>
+				<% If CInt(page_num) > 1 Then %><div class="left-num"><a href="Javascript: pageNumber(<%=(page_num-1)%>);" title="Previous page" class="ev-b">Previous Page</a></div><% End If %>
 				<div class="page-num">Page <%=page_num%> of <%=number_of_pages%></div>
-				<% If CInt(page_num) < CInt(number_of_pages) Then %><div class="left-num"><a href="Javascript: pageNumber(<%=(page_num+1)%>);" title="Next page" class="ev-b">Next <span>>></span></a></div><% End If %>
+				<% If CInt(page_num) < CInt(number_of_pages) Then %><div class="left-num"><a href="Javascript: pageNumber(<%=(page_num+1)%>);" title="Next page" class="ev-b">Next Page</a></div><% End If %>
 			</td>
 			<% End If %>
 		</tr>
