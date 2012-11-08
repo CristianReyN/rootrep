@@ -2070,14 +2070,14 @@ table.event div.ev-body
 {
 	font-family: Verdana, Helvetica, sans-serif;
 	white-space: normal;
-	min-width: 250px;
-	max-width: 300px;
+	min-width: 175px;
+	/*max-width: 300px;*/
 	/*white-space: -moz-pre-wrap !important;*/ /* Mozilla, since 1999 */
 	/*white-space: -pre-wrap;*/ /* Opera 4-6 */
 	/*white-space: -o-pre-wrap;*/ /* Opera 7 */
 	word-wrap: break-word; /* Internet Explorer 5.5+ */
 	overflow: hidden; /* for IE */
-	width: 250px; /* for IE */
+	/*width: 250px;*/ /* for IE */
 }
 table.event div.order
 {
