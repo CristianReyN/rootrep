@@ -440,6 +440,7 @@ Function SetEventVars()
 		If trim(chkEventActive) <> "" Then  active=1
 		
 		EventAddInfo=trim(Request.Form ("EventAddInfo"))
+        
 		
 '		chkSchedule=trim(Request.Form ("chkSchedule"))
 '		If trim(chkSchedule) <> "" Then schedule=1
@@ -636,7 +637,10 @@ Function printEventRight(event_title, job_type, event_type, preregistration, Eve
 			<% If trim(event_type) <> "" Then Response.Write "<b>Event Type:</b> "&trim(event_type)&"<br>" %>
 			<% If trim(job_type) <> "" Then Response.Write "<b>Job Area:</b> "&trim(job_type)&"<br>" %>
 			<b>Pre-registration required: </b><% If preregistration Then Response.Write "Y" Else Response.Write "N" End If %><br>
-			<% If trim(EventAddInfo) <> "" Then Response.Write replace(trim(EventAddInfo),vbcrlf,"<br>")&"<br>" %>
+			<% If trim(EventAddInfo) <> "" Then 
+                Call WriteShortLink(EventAddInfo, "Pre-registration Link") 
+                End If   
+             %>
 			<b>Address:</b><br>
 			<% If trim(EventAddress) <> "" Then Response.Write trim(EventAddress)& "<br>" %><% If trim(location) <> "" Then Response.Write trim(location)& ", " %><%=state%><br>
 			<% If trim(JobDescriptionURL) <> "" Then %>
@@ -644,6 +648,15 @@ Function printEventRight(event_title, job_type, event_type, preregistration, Eve
 			<% End If %>
 			</div>
 <% End Function
+
+    Function WriteShortLink(strLink, strText)
+        strLink = replace(trim(strLink),vbcrlf,"<br>")&"<br>"
+        strLink = "<a href='" & strLink & "' target='_blank'>" & strText & "</a><br><br>"
+        'Response.Write strLink
+        Response.Write replace(trim(strLink),vbcrlf,"<br>")&"<br>"
+
+    End Function
+
 
 	Function boaFormatDate(da_te)
 		boaFormatDate = MonthName(DatePart("m",CDate(da_te)))&"&nbsp;"&DatePart("d",CDate(da_te))&",&nbsp;"&DatePart("yyyy",CDate(da_te))
