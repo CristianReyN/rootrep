@@ -15,7 +15,7 @@ Dim active_event, state_id, job_type_id, event_type_id, from_date, to_date, orde
 	event_type_id=Request("event_type_id")
 		If event_type_id = "" Then event_type_id = 0
 	from_date = Date
-    from_date = "2005-11-26 00:00:00"
+    'from_date = "2005-11-26 00:00:00"
 	to_date = ""
 	order_by=Request("order_by")
 	order_by_only=Request("order_by")
