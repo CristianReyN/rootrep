@@ -147,7 +147,15 @@ if (f.eventStartDate.value=="" ){em=em+"\n  - <%=getErrorMsg(11)%>";}
 if (f.eventEndDate.value=="" ){em=em+"\n  - <%=getErrorMsg(26)%>";}
 if (f.eventStartTime.value=="" ){em=em+"\n  - <%=getErrorMsg(12)%>";}
 if (f.eventEndTime.value==""){em=em+"\n  - <%=getErrorMsg(13)%>";}
-if (f.evLocation.value=="" ){em=em+"\n  - <%=getErrorMsg(15)%>";}
+
+var stateDDL = document.getElementById("state");
+var strState = stateDDL.options[stateDDL.selectedIndex].text;
+
+if (strState != "Multiple States") {
+    if (f.evLocation.value == "") { em = em + "\n  - <%=getErrorMsg(15)%>"; }
+    if (f.EventAddress.value == "") { em = em + "\n  - <%=getErrorMsg(24)%>"; }
+}
+
 if (f.ev_desc.value){if ((f.ev_desc.value.length) > 1000){em=em+"\n  - <%=getErrorMsg(22)%>";}}
 /*if (f.chkSchedule.checked)
 {
@@ -160,7 +168,8 @@ if (f.tz.value == "") { em = em + "\n  - <%=getErrorMsg(21)%>"; }
 //if (f.tz[f.tz.selectedIndex].value=="" ){em=em+"\n  - <%=getErrorMsg(21)%>";}
 if (f.rEmail.value=="" ){em=em+"\n  - <%=getErrorMsg(17)%>";}
 if (f.etid.value=="" ){em=em+"\n  - <%=getErrorMsg(23)%>";}
-if (f.EventAddress.value=="" ){em=em+"\n  - <%=getErrorMsg(24)%>";}
+
+
 if (em){alert("<%=error_prefix%>\n--------------------------------------" + em);return false;
 }else{return true;}
 }
@@ -306,7 +315,7 @@ function CheckCountry() {
             <TR>
             
 				<TD VALIGN=TOP ALIGN=LEFT><p>*Event State&nbsp;:&nbsp;&nbsp;</p></TD>
-				<TD VALIGN=TOP ALIGN=LEFT><select name="state" id="state" class="evtxt"><option value="" selected> - Select -</option><%statesOptions(state_id)%></select></TD>
+				<TD VALIGN=TOP ALIGN=LEFT><select name="state" id="state" class="evtxt"><option value="" selected> - Select -</option><!--<option value="0">Multiple States</option>--><%statesOptions(state_id)%></select></TD>
 			</TR>
             <%if ca_se = "edit" then  
                  if state_id = 0 then

@@ -418,12 +418,22 @@ Function SetEventVars()
         else 
             pstate=0
         End if
+
+        If trim(Request.Form ("State")) <> "109" Then 'Multiple States
+            If trim(Request.Form ("evLocation")) = "" Then
+			    Call addError(15)
+		    Else
+			    location=trim(Request.Form ("evLocation"))
+		    End If            
+            
+            If trim(Request.Form ("EventAddress")) = "" Then
+			    Call addError(24)
+		    Else
+			    EventAddress=trim(Request.Form ("EventAddress"))
+		    End If     
+        End if
 	
-		If trim(Request.Form ("evLocation")) = "" Then
-			Call addError(15)
-		Else
-			location=trim(Request.Form ("evLocation"))
-		End If
+		
 		If trim(Request.Form ("lob")) = "" Then
 			Call addError(16)
 		Else
@@ -470,11 +480,7 @@ Function SetEventVars()
 		End If
 		
 		JobDescriptionURL=trim(Request.Form ("JobDescriptionURL"))
-		If trim(Request.Form ("EventAddress")) = "" Then
-			Call addError(24)
-		Else
-			EventAddress=trim(Request.Form ("EventAddress"))
-		End If
+		
 		If trim(Request.Form ("eventEndDate")) = "" Then
 			Call addError(26)
 		Else
