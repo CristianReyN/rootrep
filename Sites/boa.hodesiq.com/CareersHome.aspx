@@ -424,11 +424,12 @@ CompletionListHighlightedItemCssClass="hoverlistitem2"
 	        <ul>
 	            <li><a href="appl_with_disabilities.aspx" tabindex="45" id="item33" name="applicants_with_disabilities_topnav"><span class="hidden">Topics </span>Applicants with Disabilities</a></li>
 	            <li><a href="learnmore/bams.asp" tabindex="46" id="item34" name="topics_boa_merchant_services_topnav"><span class="hidden">Topics </span>Banc of America Merchant Services, LLC</a></li>
-	            <li><a href="learnmore/corpinfo.asp" tabindex="47" id="item35" name="corporate_information_topnav"><span class="hidden">Topics </span>Corporate Information</a></li>
-	            <li><a href="learnmore/diversity.asp" tabindex="48" id="item36" name="diversity_inclusion_topnav"><span class="hidden">Topics </span>Diversity and Inclusion</a></li>
-	            <li><a href="faq/faq.asp"  tabindex="49" id="item37" name="faqs_topnav"><span class="hidden">Topics </span>Frequently Asked Questions</a></li>
-	            <li><a href="military/" tabindex="50" id="item38" name="military_veteran_recruiting_topnav"><span class="hidden">Topics </span>Military &amp; Veteran Recruiting</a></li>
-	            <li><a href="staffingevents/staffingevents.asp"  tabindex="51" id="item39" onblur="trnsfrfocus();" name="career_events_topnav"><span class="hidden">Topics </span>Career Events</a></li>
+	            <li><a href="staffingevents/staffingevents.asp"  tabindex="47" id="item35" name="career_events_topnav"><span class="hidden">Topics </span>Career Events</a></li>
+                <li><a href="learnmore/corpinfo.asp" tabindex="48" id="item36" name="corporate_information_topnav"><span class="hidden">Topics </span>Corporate Information</a></li>              
+	            <li><a href="learnmore/diversity.asp" tabindex="49" id="item37" name="diversity_inclusion_topnav"><span class="hidden">Topics </span>Diversity and Inclusion</a></li>
+	            <li><a href="faq/faq.asp"  tabindex="50" id="item38" name="faqs_topnav"><span class="hidden">Topics </span>Frequently Asked Questions</a></li>
+	            <li><a href="military/" tabindex="51" id="item39" onblur="trnsfrfocus();" name="military_veteran_recruiting_topnav"><span class="hidden">Topics </span>Military &amp; Veteran Recruiting</a></li>
+	            
 	        </ul>
         </div>
     </div>
@@ -663,38 +664,9 @@ CompletionListHighlightedItemCssClass="hoverlistitem2"
                     <div class="left">
                         <table width="560" border="0" cellpadding="0" cellspacing="0" style="font-family:Verdana; font-size:10.5px; font-weight:normal; color:#686868; line-height:14px;" summary="This table holds body contents.">
                             <tr>
-                                <td width="60">
+                                <td width="40">
             
-                                    <div id="feedback" style="background: none;"><img src="images/clear.gif" alt="" id="item164" tabindex="64"/>
-							<div id="feedback-wrap"></div>
-							<script language="javascript" type="text/javascript" src="homepage-redesign/onlineopinionF3cS/oo_engine.js"></script>
-							<script language="javascript" type="text/javascript" src="homepage-redesign/onlineopinionF3cS/oo_conf_en-US.js"></script>
-							<script language="javascript" type="text/javascript">
-							    jQuery.fn.outerHTML = function () {
-							        return $($('<div></div>').html(this.clone())).html();
-							    }
-							    $(document).ready(function () {
-							        if ($('#O_o') && $('#O_o').length > 0 && $('#O_c') && $('#O_c').length > 0) {
-							            //$('#O_o').css('position', 'relative').css('z-index', '1000000').css('left', '0px').css('top', '0px');
-							            $('#O_o').hide();
-							            $('#O_c').hide();
-							            $('#feedback br').hide();
-							            $('#O_o table tbody tr td a').each(function (index) {
-							                if (index == 0) {
-							                    $(this).html('<img tabindex="64" id="item164" alt="" src="homepage-redesign/images/btn-feedback.png" title="Feedback" alt="Feedback">');
-							                    $('#feedback-wrap').html($(this).outerHTML());
-							                    $('#feedback-wrap').bind('click', function (event) {
-							                        $(this).hide();
-							                    });
-							                }
-							            });
-							        }
-							        else {
-							            $('#feedback-wrap').html('<img tabindex="64" id="item164" alt="" src="images/clear.gif">');
-							        }
-							    });
-							</script>
-                                    </div>
+                                    
                                 </td>
                                 <td><h1><span style="color:#d10f00; font-size:24px; font-weight:normal; font-stretch:narrower; line-height:26px; z-index:1;">Set opportunity in motion</span></h1><p style="margin-top:10px; padding:0;">
                                     Around the corner, across the country, or across the globe; a career with Bank of America can take you as far as your talent and ambition will go.<br /><br />                                    Our heritage spans more than 200 years of investing in the people, industries and communities we serve. And every day, we&rsquo;re creating a larger opportunity that makes our future &mdash; and yours &mdash; even more promising.</p>
@@ -847,15 +819,17 @@ CompletionListHighlightedItemCssClass="hoverlistitem2"
 
 	            <li><a href="learnmore/bams.asp" tabindex="122" id="A39" name="ada_topics_boa_merchant_services_topnav"><span class="hidden">Banc of America Merchant Services, LLC</span></a></li>
 
-	            <li><a href="learnmore/corpinfo.asp" tabindex="123" id="A40" name="ada_corporate_information_topnav"><span class="hidden">Corporate Information</span></a></li>
+	            <li><a href="staffingevents/staffingevents.asp"  tabindex="123" id="A40" name="ada_career_events_topnav"><span class="hidden">Career Events</span></a></li>
 
-	            <li><a href="learnmore/diversity.asp" tabindex="124" id="A41" name="ada_diversity_inclusion_topnav"><span class="hidden">Diversity and Inclusion</span></a></li>
+                <li><a href="learnmore/corpinfo.asp" tabindex="124" id="A41" name="ada_corporate_information_topnav"><span class="hidden">Corporate Information</span></a></li>
 
-	            <li><a href="faq/faq.asp"  tabindex="125" id="A42" name="ada_faqs_topnav"><span class="hidden">Frequently Asked Questions </span></a></li>
+	            <li><a href="learnmore/diversity.asp" tabindex="125" id="A42" name="ada_diversity_inclusion_topnav"><span class="hidden">Diversity and Inclusion</span></a></li>
 
-	            <li><a href="military/" tabindex="126" id="A43" name="ada_military_veteran_recruiting_topnav"><span class="hidden">Military &amp; Veteran Recruiting</span></a></li>
+	            <li><a href="faq/faq.asp"  tabindex="126" id="A43" name="ada_faqs_topnav"><span class="hidden">Frequently Asked Questions </span></a></li>
 
-	            <li><a href="staffingevents/staffingevents.asp"  tabindex="127" id="A44" name="ada_career_events_topnav"><span class="hidden">Career Events</span></a></li>
+	            <li><a href="military/" tabindex="127" id="A44" name="ada_military_veteran_recruiting_topnav"><span class="hidden">Military &amp; Veteran Recruiting</span></a></li>
+
+	            
 	</ol>
     
 </ul> 
