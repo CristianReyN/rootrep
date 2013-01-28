@@ -14,11 +14,6 @@
 				<td width="373" height="100%" valign="top" style="padding: 0px <%=right_margin%>px 0px <%=left_margin_0%>px;">
 <H1 class="h1" style="margin: 0px; padding: 0px;">Americas - Financial Advisor Role</H1>
 
-<H2 class="p" style="margin: 12px 0px 0px 0px; padding: 0px;"><b>Experienced Financial Advisors</b></H2>
-<p style="margin-top: 12px;">
-If you want to learn more about joining Merrill Lynch Wealth Management, go to <a href="http://ml.com/help2achieve" class="p" target="_blank" title="Link opens a new window.">http://ml.com/help2achieve</a>.
-</p>
-
 <H2 class="p" style="margin: 12px 0px 0px 0px; padding: 0px;"><b>Transitioning Professionals</b></H2>
 <p style="margin-top: 12px;">
 Merrill Lynch Wealth Management is, and always has been, a choice for Financial Advisors who want more. And now with access to additional resources from Bank&nbsp;of&nbsp;America, you can leverage more options and more opportunity.
