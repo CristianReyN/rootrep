@@ -59,38 +59,38 @@
 	<th scope="col">Minority</th>
 </tr>
 <tr>
-	<td>01 - Officials and Managerss</td>
-	<td>47.21%s</td>
+	<td>01 - Officials and Managers</td>
+	<td>47.21%</td>
 	<td>29.00%</td>
 </tr>
 <tr>
-	<td>02 - Professionalss</td>
-	<td>39.41%s</td>
+	<td>02 - Professionals</td>
+	<td>39.41%</td>
 	<td>28.63%</td>
 </tr>
 <tr>
-	<td>03 - Technicianss</td>
-	<td>34.50%s</td>
+	<td>03 - Technicians</td>
+	<td>34.50%</td>
 	<td>49.50%</td>
 </tr>
 <tr>
-	<td>04 - Sales Workerss</td>
-	<td>24.22%s</td>
+	<td>04 - Sales Workers</td>
+	<td>24.22%</td>
 	<td>17.81%</td>
 </tr>
 <tr>
 	<td>05 - Office and Clericals</td>
-	<td>73.37%s</td>
+	<td>73.37%</td>
 	<td>54.07%</td>
 </tr>
 <tr>
-	<td>07 - Operativess</td>
-	<td>37.07%s</td>
+	<td>07 - Operatives</td>
+	<td>37.07%</td>
 	<td>66.03%</td>
 </tr>
 <tr>
-	<td>09 - Service Workerss</td>
-	<td>37.84%s</td>
+	<td>09 - Service Workers</td>
+	<td>37.84%</td>
 	<td>27.03%</td>
 </tr>
 <tr>
