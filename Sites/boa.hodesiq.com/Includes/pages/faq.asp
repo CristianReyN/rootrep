@@ -16,7 +16,8 @@
 <ul id="faqs" style="list-style-image : url(../images/bull3.gif);">
 	<li><a href="#q1" class="p" onfocus="this.className='p-over';" onblur="this.className='p';">How do I search for positions?</a></li>
 	<li><a href="#q2" class="p" onfocus="this.className='p-over';" onblur="this.className='p';">How do I apply for a position?</a></li>
-	<li><a href="#q3" class="p" onfocus="this.className='p-over';" onblur="this.className='p';">What if I have forgotten my password?</a></li>
+	<li><a href="#q3" class="p" onfocus="this.className='p-over';" onblur="this.className='p';">What if I have forgotten my user name/passcode or my Careers profile is locked?</a></li>
+    <li><a href="#q3b" class="p" onfocus="this.className='p-over';" onblur="this.className='p';">How do I access my job cart?</a></li>
 	<li><a href="#q4" class="p" onfocus="this.className='p-over';" onblur="this.className='p';">I am interested in opportunities in the U.S., how do I create a career profile?</a></li>
 	<li><a href="#q5" class="p" onfocus="this.className='p-over';" onblur="this.className='p';">I have applied to a position in the U.S. that requires an online assessment, but I am getting an “Access Denied” error when attempting to access the assessment.  How can I get this resolved?</a></li>
 	<li><a href="#q6" class="p" onfocus="this.className='p-over';" onblur="this.className='p';">If I am located in the U.S., how can I verify my rehire eligibility?</a></li>
@@ -54,10 +55,15 @@
 <p style="margin: 12px 0px 6px 0px; text-align: right;"><a href="#qtop" class="p" onfocus="this.className='p-over';" onblur="this.className='p';" style="text-decoration: none;"><img src="../images/back_to_top.gif" width="7" height="4" alt="" border="0" align="top" hspace="4">Back to Top</a></p>
 
 <img src="../images/clear.gif" width="100%" height="1" alt="" border="0" style="background: #becede;">
-<a name="q3"></a><H2 class="p" style="margin: 9px 0px 6px 0px;"><b>What if I have forgotten my password?</b></H2>
-<p style="margin: 0px;">If you are applying to the U.S. and cannot remember your username/passcode, go to the <a href="http://careers.bankofamerica.com/overview/manage_your_profile.asp" class="p" onfocus="this.className='p-over';" onblur="this.className='p';" style="text-decoration: none;">profile log in page</a>.   Select the <b>Forgot your user name?</b> or <b>Forgot your passcode?</b> link as needed and follow the steps provided. If you cannot remember your username/passcode or any of your security questions, you should create a new profile within the <a href="http://careers.bankofamerica.com/overview/manage_your_profile.asp" class="p" onfocus="this.className='p-over';" onblur="this.className='p';" style="text-decoration: none;">manage your profile section.</a><br><br>
+<a name="q3"></a><H2 class="p" style="margin: 9px 0px 6px 0px;"><b>What if I have forgotten my user name/passcode or my Careers profile is locked?</b></H2>
+<p style="margin: 0px;">If you are applying to the U.S. and cannot remember your user name/passcode or your profile is locked, go to the <a href="http://careers.bankofamerica.com/overview/manage_your_profile.asp" class="p" onfocus="this.className='p-over';" onblur="this.className='p';" style="text-decoration: none;">profile log in page</a>.   Select the <b>Forgot your user name?</b> or <b>Forgot your passcode?</b> link as needed and follow the instructions provided. If you are prompted to provide responses to your security questions and you cannot remember your answers, you should create a new account within the <a href="http://careers.bankofamerica.com/overview/manage_your_profile.asp" class="p" onfocus="this.className='p-over';" onblur="this.className='p';" style="text-decoration: none;">manage your profile section.</a>  If, after following the instructions above, you are still unable to move forward with obtaining your user name, resetting your passcode or creating a new account, complete the <a href="https://www2.bankofamerica.com/promos/jump/career_profile/" class="p" onfocus="this.className='p-over';" onblur="this.className='p';" style="text-decoration: none;">Careers Profile Access Issues form.</a><br><br>
 If you are applying to countries outside of the U.S., use the <b>Please email my password to me link.</b> Your username is the email address you used to create the original account. A password reminder will be sent to that email address.
 </p>
+<p style="margin: 12px 0px 6px 0px; text-align: right;"><a href="#qtop" class="p" onfocus="this.className='p-over';" onblur="this.className='p';" style="text-decoration: none;"><img src="../images/back_to_top.gif" width="7" height="4" alt="" border="0" align="top" hspace="4">Back to Top</a></p>
+
+<img src="../images/clear.gif" width="100%" height="1" alt="" border="0" style="background: #becede;">
+<a name="q3b"></a><H2 class="p" style="margin: 9px 0px 6px 0px;"><b>How do I access my job cart?</b></H2>
+<p style="margin: 0px;">Go to the <a href="http://careers.bankofamerica.com/overview/manage_your_profile.asp" class="p" onfocus="this.className='p-over';" onblur="this.className='p';" style="text-decoration: none;">profile log in page</a></p>
 <p style="margin: 12px 0px 6px 0px; text-align: right;"><a href="#qtop" class="p" onfocus="this.className='p-over';" onblur="this.className='p';" style="text-decoration: none;"><img src="../images/back_to_top.gif" width="7" height="4" alt="" border="0" align="top" hspace="4">Back to Top</a></p>
 
 <img src="../images/clear.gif" width="100%" height="1" alt="" border="0" style="background: #becede;">
