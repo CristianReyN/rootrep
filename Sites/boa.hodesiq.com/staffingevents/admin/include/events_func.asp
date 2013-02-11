@@ -419,7 +419,8 @@ Function SetEventVars()
             pstate=0
         End if
 
-        If trim(Request.Form ("State")) <> "109" Then 'Multiple States
+        'If trim(Request.Form ("State")) <> "109" Then 'Multiple States STG
+        If trim(Request.Form ("State")) <> "54" Then 'Multiple States PRO
             If trim(Request.Form ("evLocation")) = "" Then
 			    Call addError(15)
 		    Else
@@ -643,10 +644,11 @@ Function printEventRight(event_title, job_type, event_type, preregistration, Eve
 			<% If trim(event_type) <> "" Then Response.Write "<b>Event Type:</b> "&trim(event_type)&"<br>" %>
 			<% If trim(job_type) <> "" Then Response.Write "<b>Job Area:</b> "&trim(job_type)&"<br>" %>
 			<b>Pre-registration required: </b><% If preregistration Then Response.Write "Y" Else Response.Write "N" End If %><br>
-			<% If trim(EventAddInfo) <> "" Then 
-                Call WriteShortLink(EventAddInfo, "Pre-registration Link") 
-                End If   
+			<% 'If trim(EventAddInfo) <> "" Then 
+                'Call WriteShortLink(EventAddInfo, "Pre-registration Link") 
+                'End If   
              %>
+             <% If trim(EventAddInfo) <> "" Then Response.Write replace(trim(EventAddInfo),vbcrlf,"<br>")&"<br>" %>
 			<b>Address:</b><br>
 			<% If trim(EventAddress) <> "" Then Response.Write trim(EventAddress)& "<br>" %><% If trim(location) <> "" Then Response.Write trim(location)& ", " %><%=state%><br>
 			<% If trim(JobDescriptionURL) <> "" Then %>
