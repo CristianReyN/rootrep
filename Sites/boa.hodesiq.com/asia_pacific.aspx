@@ -44,17 +44,14 @@
                 <h2>
                     BA Continuum India Private Limited</h2>
                 <p>
-                    BA Continuum India Pvt. Ltd. (BACI) and BA Continuum Private Limited (BACPL) are non-bank subsidiaries of Bank of America. While referring to BA Continuum, we are referring to both organizations.</p>
-                <p>
-                    BA Continuum provides Business Processing Solutions, Knowledge Services and Information Technology Solutions exclusively for the Consumer and Small Business Banking, Global Card Services, Bank of America Home Loans, Global Banking and Wealth Management and Global Markets Lines of Businesses at Bank of America.<br />
-                </p>
-                
+                    BA Continuum India Pvt. Ltd. is a nonbank subsidiary of Bank of America. BA Continuum India is a part of Global Delivery Center of Expertise in the bank. It supports Business Process, Information Technology and Knowledge Process across Consumer Banking, including Card and Home loans, Legacy Asset Servicing, Global Banking and Markets and Global Wealth & Investment Management Lines of Businesses at Bank of America.
+               </p>
                 <h2>
                     BA Continuum Philippines, Inc.</h2>
                 <p>
-                    BA Continuum Philippines, Inc. is a non-bank subsidiary of Bank of America and a part of the Global Delivery Centre of Expertise (GDCE). BA Continuum Philippines provides business processes, business support functions and IT enabled services. This includes back-office operations and transactions, customer support and service functions, technology support and services, general human resource functions, business planning and general financial services. </p>
+                    BA Continuum Philippines, Inc. is a nonbank subsidiary of Bank of America and a part of the Global Delivery Centre of Expertise (GDCE). BA Continuum Philippines provides business processes, business support functions and IT enabled services. This includes back-office operations and transactions, customer support and service functions, technology support and services, general human resource functions, business planning and general financial services. </p>
                 <p>
-                   At BA Continuum Philippines, associates are part of a diverse, global banking environment with best-in-class people, processes and practices. Associates belong to a globally admired brand, which is one of the largest financial institutions in the world.<br />
+                   At BA Continuum Philippines, employees are part of a diverse, global banking environment with best-in-class people, processes and practices. Employees belong to a globally admired brand, which is one of the largest financial institutions in the world.<br />
                     <br />
                 </p>
             </td>
