@@ -25,7 +25,8 @@ public partial class CareersHome : System.Web.UI.Page
     {
         //string[] str = { prefixText + "A", prefixText + "B", prefixText + "C", prefixText + "D" };
 
-        string constring = ConfigurationManager.AppSettings["StrUdlFileName"];
+        //string constring = ConfigurationManager.AppSettings["StrUdlFileName"];
+        string constring = ConfigurationManager.AppSettings["StrIQUdlFileName"];
         OleDbConnection con = new OleDbConnection(constring);
         con.Open();
 

@@ -2,92 +2,63 @@
 	Function getJobAreasSelect(c_lass,style)
 %>
 <select name="jobareas" id="jobareas" title="Select a Job Area"<%=c_lass%><%=style%>>
-	<option value=""<%If jobareas="" Then Response.write " selected"%>>Select a job area</option>
-<optgroup label="Administration">
-	<option value="1|-1"<%If jobareas="1|-1" Then Response.write " selected"%>>All Administration</option>
-	<option value="1|4"<%If jobareas="1|4" Then Response.write " selected"%>>Change Mgmt &amp; Process</option>
-	<option value="1|2"<%If jobareas="1|2" Then Response.write " selected"%>>Corporate Executive</option>
-	<option value="1|5"<%If jobareas="1|5" Then Response.write " selected"%>>Legal</option>
-	<option value="1|27"<%If jobareas="1|27" Then Response.write " selected"%>>Program &amp; Project Management</option>
-	<option value="1|6"<%If jobareas="1|6" Then Response.write " selected"%>>Services</option>
-</optgroup>
-
-<optgroup label="CFO Group/Finance">
-	<option value="4|-1"<%If jobareas="4|-1" Then Response.write " selected"%>>All CFO Group/Finance</option>
-	<option value="4|13"<%If jobareas="4|13" Then Response.write " selected"%>>Credit</option>
-	<option value="4|14"<%If jobareas="4|14" Then Response.write " selected"%>>Investment Banking</option>
-	<option value="4|15"<%If jobareas="4|15" Then Response.write " selected"%>>Wealth &amp; Investment Mgmt</option>
-</optgroup>
-
-<optgroup label="Communications">
-	<option value="3|-1"<%If jobareas="3|-1" Then Response.write " selected"%>>All Communications</option>
-	<option value="3|11"<%If jobareas="3|11" Then Response.write " selected"%>>Marketing</option>
-</optgroup>
-
-<optgroup label="Consumer Banking">
-	<option value="10|-1"<%If jobareas="10|-1" Then Response.write " selected"%>>All Consumer Banking</option>
-</optgroup>
-<% If false Then %>
-<optgroup label="Corporate Workplace">
-	<option value="11|-1"<%If jobareas="11|-1" Then Response.write " selected"%>>All Corporate Workplace</option>
-</optgroup>
-<% End If %>
-<optgroup label="Customer Care">
-	<option value="2|-1"<%If jobareas="2|-1" Then Response.write " selected"%>>All Customer Care</option>
-	<option value="2|13"<%If jobareas="2|13" Then Response.write " selected"%>>Credit</option>
-	<option value="2|9"<%If jobareas="2|9" Then Response.write " selected"%>>Customer Service</option>
-	<option value="2|8"<%If jobareas="2|8" Then Response.write " selected"%>>Relationship Management</option>
-	<option value="2|19"<%If jobareas="2|19" Then Response.write " selected"%>>Sales</option>
-</optgroup>
-
-<optgroup label="Financial Advisor">
-	<option value="13|-1"<%If jobareas="13|-1" Then Response.write " selected"%>>All Financial Advisor</option>
-</optgroup>
-
-<optgroup label="Human Resources">
-	<option value="5|-1"<%If jobareas="5|-1" Then Response.write " selected"%>>All Human Resources</option>
-</optgroup>
-
-<optgroup label="Mortgage ">
-	<option value="12|-1"<%If jobareas="12|-1" Then Response.write " selected"%>>All Mortgage</option>
-<% If false Then %>
-	<option value="12|13"<%If jobareas="12|13" Then Response.write " selected"%>>Credit</option>
-	<option value="12|9"<%If jobareas="12|9" Then Response.write " selected"%>>Customer Service</option>
-	<option value="12|11"<%If jobareas="12|11" Then Response.write " selected"%>>Marketing</option>
-	<option value="12|17"<%If jobareas="12|17" Then Response.write " selected"%>>Operations</option>
-	<option value="12|8"<%If jobareas="12|8" Then Response.write " selected"%>>Relationship Management</option>
-	<option value="12|18"<%If jobareas="12|18" Then Response.write " selected"%>>Risk Evaluation</option>
-	<option value="12|19"<%If jobareas="12|19" Then Response.write " selected"%>>Sales</option>
-	<option value="12|21"<%If jobareas="12|21" Then Response.write " selected"%>>Technology</option>
-<% End If %>
-</optgroup>
-
-<optgroup label="Operations">
-	<option value="6|17"<%If jobareas="6|17" Then Response.write " selected"%>>All Operations</option>
-	<option value="6|4"<%If jobareas="6|4" Then Response.write " selected"%>>Change Mgmt &amp; Process</option>
-	<option value="6|3"<%If jobareas="6|3" Then Response.write " selected"%>>Corporate Workplace</option>
-	<option value="6|5"<%If jobareas="6|5" Then Response.write " selected"%>>Legal</option>
-	<option value="6|27"<%If jobareas="6|27" Then Response.write " selected"%>>Program &amp; Project Management</option>
-	<option value="6|6"<%If jobareas="6|6" Then Response.write " selected"%>>Services</option>
-</optgroup>
-
-<optgroup label="Risk Management">
-	<option value="7|-1"<%If jobareas="7|-1" Then Response.write " selected"%>>All Risk Management</option>
-<% If false Then %>
-	<option value="7|13"<%If jobareas="7|13" Then Response.write " selected"%>>Credit</option>
-<% End If %>
-</optgroup>
-
-<optgroup label="Sales">
-	<option value="8|-1"<%If jobareas="8|-1" Then Response.write " selected"%>>All Sales</option>
-	<option value="8|20"<%If jobareas="8|20" Then Response.write " selected"%>>Consumer Banking</option>
-</optgroup>
-
-<optgroup label="Technology">
-	<option value="9|-1"<%If jobareas="9|-1" Then Response.write " selected"%>>All Technology</option>
-	<option value="9|3"<%If jobareas="9|3" Then Response.write " selected"%>>Corporate Workplace</option>
-	<option value="9|27"<%If jobareas="9|27" Then Response.write " selected"%>>Program &amp; Project Management</option>
-</optgroup>
+	<option value="">none</option>
+			<optgroup label="Adminstration">
+			<option value="258065|-1">All Administration</option>
+			<option value="258065|258068">Change Mgmt &amp; Process</option>
+			<option value="258065|258271">Corporate Executive</option>
+			<option value="258065|258279">Legal</option>
+			<option value="258065|258286">Services</option>
+			</optgroup>
+			<optgroup label="CFO Group/Finance">
+			<option value="358820|-1">All CFO Group/Finance</option>
+			<option value="358820|258273">Credit</option>
+			<option value="358820|258277">Investment Banking</option>
+			<option value="358820|258288">Wealth &amp; Investment Mgmt</option>
+			</optgroup>
+			<optgroup label="Communications">
+			<option value="358819|-1">All Communications</option>
+			<option value="358819|258280">Marketing</option>
+			</optgroup>
+			<optgroup label="Consumer Banking">
+			<option value="358826|-1">All Consumer Banking</option>
+			</optgroup>
+			<optgroup label="Customer Care">
+			<option value="258066|-1">All Customer Care</option>
+			<option value="258066|258273">Credit</option>
+			<option value="258066|258274">Customer Service</option>
+			<option value="258066|258282">Relationship Management</option>
+			<option value="258066|258285">Sales</option>
+			</optgroup>
+			<optgroup label="Financial Advisor">
+			<option value="358828|-1">All Financials Advisor</option>
+			</optgroup>
+			<optgroup label="Human Resources">
+			<option value="358821|-1">All Human Resources</option>
+			</optgroup>
+			<optgroup label="Mortgage">
+			<option value="358827|-1">All Mortgage</option>
+			</optgroup>
+			<optgroup label="Operations">
+			<option value="358822|-1">All Operations</option>
+			<option value="358822|258068">Change Mgmt &amp; Process</option>
+			<option value="358822|258272">Corporate Workplace</option>
+			<option value="358822|258279">Legal</option>
+			<option value="358822|258286">Services</option>
+			</optgroup>
+			<optgroup label="Risk Management">
+			<option value="358823|-1">All Risk Management</option>
+			</optgroup>
+			<optgroup label="Sales">
+			<option value="358824|-1">All Sales</option>
+			</optgroup>
+			<optgroup label="Risk Evaluation">
+			<option value="358824|258270">Consumer Banking</option>
+			</optgroup>
+			<optgroup label="Technology">
+			<option value="358825|-1">All Technology</option>
+			<option value="358825|258272">Corporate Workplace</option>
+			</optgroup>
 
 </select>
 <%
@@ -381,43 +352,32 @@
 	End Function
 	
 	Function getJobFamilySelect(c_lass,style)
-		Call setCmd()
-		cmd.CommandText = "p_SelectGlobalJobFamily"
-		Set rssJobFamilies=server.CreateObject ("ADODB.Recordset")
-		rssJobFamilies.LockType = adLockOptimistic
-		rssJobFamilies.CursorLocation = adUseClient
-		rssJobFamilies.CursorType = adOpenDynamic
-		rssJobFamilies.Open cmd
 		
-		Set job_families = Server.CreateObject("Scripting.Dictionary")
-		
-		If not (rssJobFamilies.EOF And rssJobFamilies.BOF) And Not Err.Number > 0 Then
-			rssJobFamilies.MoveFirst
-			Do While not rssJobFamilies.EOF
-				Set job_family = Server.CreateObject("Scripting.Dictionary")
-				job_family.add "FamilyID", Trim(rssJobFamilies("FamilyID"))
-				job_family.add "Family", Trim(rssJobFamilies("Family"))
-				
-				family_number = job_families.Count + 1
-				job_families.add family_number, job_family
-				rssJobFamilies.MoveNext
-			Loop
-		End If
-		rssJobFamilies.Close
-		Set  rssJobFamilies = nothing
 %>
 <select name="jobfamilyid" id="jobfamilyid" title="Select a Job Family"<%=c_lass%><%=style%>>
-	<option value="-1"<%If jobfamilyid="-1" Or jobfamilyid="" Then Response.write " selected"%>>All</option>
-<%
-		family_numbers = job_families.Keys
-		If job_families.Count > 0 Then
-			For f = 0 To job_families.Count -1
-				family_number = family_numbers(f)
-				Set job_family = job_families.Item(family_number)
-%>
-	<option value="<%=job_family.Item("FamilyID")%>"<% If job_family.Item("FamilyID") = jobfamilyid Then %> selected<% End If %>><%=job_family.Item("Family")%></option>
-<%		   Next
-		End If %>
+	<option value="">none</option>
+			<option value="-1" selected="selected">All</option>
+			<option value="258067">Administration</option>
+			<option value="258068">Change Mgmt &amp; Process</option>
+			<option value="258269">Communications</option>
+			<option value="258270">Consumer Banking</option>
+			<option value="258271">Corporate Executive</option>
+			<option value="258273">Credit</option>
+			<option value="258274">Customer Service</option>
+			<option value="258275">Finance</option>
+			<option value="258276">Human Resources</option>
+			<option value="359540">International Contractor</option>
+			<option value="258277">Investment Banking</option>
+			<option value="258278">Learning &amp; Leadership Development</option>
+			<option value="258279">Legal</option>
+			<option value="258280">Marketing</option>
+			<option value="258281">Operations</option>
+			<option value="258282">Relationship Management</option>
+			<option value="258283">Risk Evaluation</option>
+			<option value="258285">Sales</option>
+			<option value="258286">Services</option>
+			<option value="258287">Technology</option>
+			<option value="258288">Wealth &amp; Investment Management</option>
 </select>
 <%
 	End Function

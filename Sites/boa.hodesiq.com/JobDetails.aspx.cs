@@ -49,6 +49,7 @@ namespace BOA
 
                 JobId = this.Request.QueryString["JobId"].ToString();
 
+
                 this.jobDetails1.MaskedHiringOrgId = cs.MaskedHiringOrgId;
                 this.jobDetails1.EMediaId = cs.EMediaId;
                 this.jobDetails1.JobId = System.Convert.ToInt32(JobId);
@@ -112,6 +113,19 @@ namespace BOA
                 else
                 {
                     ApplyURL = ((HiddenField)this.FindControlInDataTemplate("hdnApplyURL")).Value + "&src=" + Request["src"];
+
+                    /*
+                    if (CountryId == "1")
+                    {
+                        //This is only for usa job.  How does hdnApplyUrl get set?
+                        ApplyURL = ((HiddenField)this.FindControlInDataTemplate("hdnApplyURL")).Value + "&src=" + Request["src"];
+                        //ApplyURL = this.jobDetails1.ResolveClientUrl();
+                        //ApplyURL = "https://bacfhrs.taleo.net/careersection/application.jss?lang=en&type=1&csNo=2&portal=140160497&reqNo=" + this.jobDetails1.JobId + "&postdata=$QEbCcxFGN7OUb1h-_JXJTg==";
+                    }
+                    else
+                    {
+                    }
+                     */
                 }
 
                 ((HiddenField)this.FindControlInDataTemplate("hApplyNow")).Value = targetpage + "countryid=" + CountryId + "&url=" + HttpUtility.UrlEncode(ApplyURL);

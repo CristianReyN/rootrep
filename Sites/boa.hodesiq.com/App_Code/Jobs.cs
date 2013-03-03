@@ -24,11 +24,13 @@ public class Jobs
 
     string Sql;
 	private string constring;
+    private string consolidatedConn;
     const string USA = "1";
 
     public Jobs()
     {
 		constring = ConfigurationManager.AppSettings["StrUdlFileName"];
+        consolidatedConn = ConfigurationManager.AppSettings["StrIQUdlFileName"];
     }
     public DataTable Travel()
     {
@@ -642,7 +644,7 @@ public class Jobs
         if (SortExp == null) SortExp = "";
         if (SortOrder == null) SortOrder = "";
 
-        OleDbConnection con = new OleDbConnection(constring);
+        OleDbConnection con = new OleDbConnection(consolidatedConn);
         con.Open();
         OleDbCommand cmd = new OleDbCommand("p_boaJobSearchConsolidated", con);
         cmd.CommandType = CommandType.StoredProcedure;

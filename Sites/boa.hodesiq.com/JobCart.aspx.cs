@@ -104,7 +104,17 @@ namespace BOA
                 }
                 else
                 {
-                    ApplyURL = hdnURL.Value;
+                    //ApplyURL = hdnURL.Value;
+                    if (CountryID == "1")
+                    {
+                        //This is only for usa job.  How does hdnApplyUrl get set?
+                        //ApplyURL = ((HiddenField)this.FindControlInDataTemplate("hdnApplyURL")).Value + "&src=" + Request["src"];
+                        ApplyURL = "https://bacfhrs.taleo.net/careersection/application.jss?lang=en&type=1&csNo=2&portal=140160497&reqNo=" + MyHidden.Value + "&postdata=$QEbCcxFGN7OUb1h-_JXJTg==";
+                    }
+                    else
+                    {
+                    }
+
                 }
 
                 ApplyURL = targetpage + "countryid=" + CountryID + "&url=" + HttpUtility.UrlEncode(ApplyURL);

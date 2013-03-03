@@ -540,6 +540,91 @@ public class Utility
         //return ddlJobAreas;
     }
 
+    public static void PopulateGlobalJobFamiliesFromIQ(DropDownList ddlJobFamily, string selVal)
+    {
+
+        ddlJobFamily.Items.Clear();
+
+        ListItem l = new ListItem("All", "-1");
+
+        ddlJobFamily.Items.Insert(0, l);
+
+        //ADMINISTRATION
+
+        //ListItem li = new ListItem("All", "-1");
+        //ddlJobFamily.Items.Add(li);
+
+        ListItem li2 = new ListItem("Administration", GetAppSettings("gfamAdministration"));
+        ddlJobFamily.Items.Add(li2);
+
+        ListItem li3 = new ListItem("Change Mgmt & Process", GetAppSettings("gfamChangeMgmtProcess"));
+        ddlJobFamily.Items.Add(li3);
+
+        ListItem li4 = new ListItem("Communications", GetAppSettings("gfamCommunications"));
+        ddlJobFamily.Items.Add(li4);
+
+        ListItem li5 = new ListItem("Consumer Banking", GetAppSettings("gfamConsumerBanking"));
+        ddlJobFamily.Items.Add(li5);
+
+        ListItem li6 = new ListItem("Corporate Executive", GetAppSettings("gfamCorporateExecutive"));
+        ddlJobFamily.Items.Add(li6);
+
+        ListItem li7 = new ListItem("Credit", GetAppSettings("gfamCredit"));
+        ddlJobFamily.Items.Add(li7);
+
+        ListItem li8 = new ListItem("Customer Service", GetAppSettings("gfamCustomerService"));
+        ddlJobFamily.Items.Add(li8);
+
+        ListItem li9 = new ListItem("Finance", GetAppSettings("gfamFinance"));
+        ddlJobFamily.Items.Add(li9);
+
+        ListItem li10 = new ListItem("Human Resources", GetAppSettings("gfamHumanResources"));
+        ddlJobFamily.Items.Add(li10);
+
+        ListItem li11 = new ListItem("International Contractor", GetAppSettings("gfamInternationalContractor"));
+        ddlJobFamily.Items.Add(li11);
+
+        ListItem li12 = new ListItem("Investment Banking", GetAppSettings("gfamInvestmentBanking"));
+        ddlJobFamily.Items.Add(li12);
+
+        ListItem li13 = new ListItem("Learning & Leadership Development", GetAppSettings("gfamLLDevelopment"));
+        ddlJobFamily.Items.Add(li13);
+
+        ListItem li14 = new ListItem("Legal", GetAppSettings("gfamLegal"));
+        ddlJobFamily.Items.Add(li14);
+
+        ListItem li15 = new ListItem("Marketing", GetAppSettings("gfamMarketing"));
+        ddlJobFamily.Items.Add(li15);
+
+        ListItem li16 = new ListItem("Operations", GetAppSettings("gfamOperations"));
+        ddlJobFamily.Items.Add(li16);
+
+        ListItem li17 = new ListItem("Relationship Management", GetAppSettings("gfamRelationshipManagement"));
+        ddlJobFamily.Items.Add(li17);
+
+        ListItem li18 = new ListItem("Risk Evaluation", GetAppSettings("gfamRiskEvaluation"));
+        ddlJobFamily.Items.Add(li18);
+
+        ListItem li19 = new ListItem("Sales", GetAppSettings("gfamSales"));
+        ddlJobFamily.Items.Add(li19);
+
+        ListItem li20 = new ListItem("Services", GetAppSettings("gfamServices"));
+        ddlJobFamily.Items.Add(li20);
+
+        ListItem li21 = new ListItem("Technology", GetAppSettings("gfamTechnology"));
+        ddlJobFamily.Items.Add(li21);
+
+        ListItem li22 = new ListItem("Wealth & Investment Management", GetAppSettings("gfamWealthInvestmentMgmt"));
+        ddlJobFamily.Items.Add(li22);
+
+        ListItem myListItem = new ListItem();
+        myListItem = ddlJobFamily.Items.FindByValue(selVal);
+
+        if (myListItem != null)
+            myListItem.Selected = true;
+
+    }
+
     public static bool ValidateForm(ListBox ddlRadius, TextBox txtZipCode, Label lblValidation)
     {
         lblValidation.ForeColor = System.Drawing.Color.Red;

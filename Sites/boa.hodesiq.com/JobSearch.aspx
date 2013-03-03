@@ -46,7 +46,7 @@
 							</td>
                             <td  valign="middle" style="width:48%; height:45;">
 							    <div id="Div4" style="display: inline;">	
-                            <asp:HyperLink runat="server"  NavigateUrl="#" ID="HylCityNote" onclick="javascript:w= window.open('overview/chelp.html','mywin','left=200px,top=180px,width=625,height=345,resizable=0');return false;" Visible="true" Font-Bold="true" CssClass="p" AssociatedControlID="City" style="width:80%;">How do I use the city search?<span class="hidden"> Link opens a new window</span></asp:HyperLink>
+                            <asp:HyperLink runat="server"  NavigateUrl="#" ID="HylCityNote" onclick="javascript:w= window.open('overview/chelp.html','mywin','left=200px,top=180px,width=625,height=345,resizable=0');return false;" Visible="true" Font-Bold="true" CssClass="p" AssociatedControlID="City" style="width:80%;">How do I use the city/zip code search?<span class="hidden"> Link opens a new window</span></asp:HyperLink>
 							</div>
 							</td>
                             </tr>
@@ -79,10 +79,11 @@
 								    ToolTip="Select a state" AutoPostBack="false" OnSelectedIndexChanged="brefine_Click">
 								    <asp:ListItem Value="-1">All states&#160;</asp:ListItem>
 								    </asp:DropDownList>
-
+                                    <!--
                                     <cswc:StateListBox ID="State2" runat="server"
                                         ControlType="DropDownList">
                                     </cswc:StateListBox>
+                                    -->
 								</div>
 								
 								<asp:HiddenField ID="Statehidden" runat="server" Value=""  />
@@ -94,11 +95,11 @@
 								ToolTip="Select a city" Visible="true" Enabled="false">
 								<asp:ListItem>All cities&#160;</asp:ListItem>
 								</asp:DropDownList>	
-                                
+                                <!--
                                 <cswc:CityListBox ID="City2" runat="server"
                                     ControlType="DropDownList">
                                 </cswc:CityListBox>
-							
+							-->
 							</td>
 						</tr>
 							<tr id="trJobFamily" runat="server" visible="false">
@@ -244,7 +245,7 @@
 						</tr>
 					</table>
 
-                        <cswc:JobListCustomFieldsMultiLocZipCodeRadiusGridView 
+                        <cswc:JobListCustomFieldsMultiLocZipCodeRadiusGridView visible="false"
                             ID="zcrGridView1"
                             AllowSorting="true"
                             OrderByColumn="PostDate"
@@ -263,30 +264,38 @@
                             runat="server">
                         </cswc:JobListCustomFieldsMultiLocGridView>
 
+                        <!-- Location Search Control -->
+                        <cswc:JobListCustomFieldsMultiLocGridView visible="false"
+                            ID="jobListGridView2"
+                            AllowSorting="true"
+                            OrderByColumn="PostDate"
+                            OrderByDirection="Descending"
+                            AllowPaging="false"
+                            runat="server">
+                        </cswc:JobListCustomFieldsMultiLocGridView>
+
                         <asp:Label ID="StatusMsg" Text="" runat="server" />
+                        
                         <div ID="JobListPaging" class="JobListPaging" runat="server">
+                            <div class="JobListPagingLinks">
 
-                        <div class="JobListPagingLinks">
+                                <asp:LinkButton 
+                                    ID="previous_page"
+                                    Text="&#9668; Previous"
+                                    OnClick="previous_page_Click"
+                                    CausesValidation="False" 
+                                    runat="server" />
 
-                            <asp:LinkButton 
-                                ID="previous_page"
-                                Text="&#9668; Previous"
-                                OnClick="previous_page_Click"
-                                CausesValidation="False" 
-                                runat="server" />
-
-                            <asp:Literal ID="paging_text" Text="" runat="server" />
+                                <asp:Literal ID="paging_text" Text="" runat="server" />
             
-                            <asp:LinkButton 
-                                ID="next_page"
-                                Text="Next &#9658;"
-                                OnClick="next_page_Click"
-                                CausesValidation="False" 
-                                runat="server" />
-
+                                <asp:LinkButton 
+                                    ID="next_page"
+                                    Text="Next &#9658;"
+                                    OnClick="next_page_Click"
+                                    CausesValidation="False" 
+                                    runat="server" />
+                            </div>
                         </div>
-
-            </div>
 
                     <asp:GridView 
                     ID="GrdResultsUS" 
@@ -335,12 +344,13 @@
                         </Columns>
                         <PagerStyle CssClass="mh-link1" />
                         <EmptyDataTemplate>
-                            <b>There are no matching records found</b>
+                          
                         </EmptyDataTemplate>
                     </asp:GridView>
 
+
                     <asp:GridView 
-                    ID="GrdResults" 
+                    ID="GrdResultsGlobal" 
                     runat="server"                     
                     AutoGenerateColumns="False" 
                     CellPadding="6" 
@@ -352,7 +362,7 @@
                     PageSize="12"    
                     AllowPaging="false" 
                     EmptyDataRowStyle-ForeColor="Red"
-                    AllowSorting="True" OnSorting="GrdResults_OnSorting" 
+                    AllowSorting="True" OnSorting="gv_SortingGlobal" 
                     >
                     
                         <HeaderStyle CssClass="pd"   BackColor="#EAF1F7" Height="24px"  />
@@ -361,14 +371,14 @@
                         
                         <Columns>
                         
-                            <asp:HyperLinkField   
-                                DataNavigateUrlFields="CountryID,JobsID,stateid,cityid,travelids,jfamily,langs,ftpt,shftid,pds,keywords,jobareas,feedname,BOAFeedName,familyid,city,locationid"
-                                DataNavigateUrlFormatString="JobDetails.aspx?SearchPage=ASP&amp;CountryId={0}&amp;JobId={1}&amp;stateid={2}&amp;cityid={3}&amp;travel={4}&amp;jfamily={5}&amp;lang={6}&amp;fullpart={7}&amp;shift={8}&amp;datepost={9}&amp;keywords={10}&amp;jobareas={11}&amp;feedname={12}&amp;BOAFeedName={13}&amp;jobfamilyid={14}&amp;internationalcity={15}&amp;LocationID={16}"
-                                DataTextField="JobName"                                   
-                                HeaderText="Job Title"                                  
-                                SortExpression="JobName">                                
-                                <HeaderStyle CssClass="pd" Font-Bold="true" ForeColor="black" HorizontalAlign="Left" Width="50%" Height="24px"/>
-                            </asp:HyperLinkField>                            
+                            <asp:TemplateField HeaderText="Title" Visible="true"  SortExpression="Title">
+                                <ItemTemplate>
+                                    <a title="click for job details" href="JobDetails.aspx?SearchPage=ASP&CountryId=<%= _country%>&JobId=<%# Eval("JobId").ToString()%>&stateid=<%= _state%>&cityid=<%= _city%>&travel=<%= _travel%>&jfamily=<%= _jobFamily%>&lang=&fullpart=<%= _jobType%>&shift=<%= _jobShift%>&datepost=<%= _daterange%>&keywords=<%= _keyword%>&jobareas=<%= _ddlJobArea%>&feedname=BOAFEEDUSA&BOAFeedName=&jobfamilyid=<%= _jobFamily%>&internationalcity=&LocationID=0">
+                                        <%# Eval("Title").ToString()%>
+                                    </a>
+                                    <HeaderStyle CssClass="pd" Font-Bold="true" ForeColor="black" HorizontalAlign="Left" Width="50%" Height="24px"/>
+                                </ItemTemplate>
+                            </asp:TemplateField>                           
                            
                            <asp:TemplateField HeaderText="Location" SortExpression="Location">
                                 <ItemTemplate>
@@ -379,26 +389,41 @@
                             
                             <asp:TemplateField HeaderText="Date" SortExpression="postdate">
                                 <ItemTemplate>
-                                    <asp:Literal ID="Dt" runat="server" Text='<%# Eval("postdate") %>'></asp:Literal>
+                                    <asp:Literal ID="Dt" runat="server" Text='<%# formatDate(Eval("PostDate").ToString(), "{0:MMM dd yyyy}")%>'></asp:Literal>
                                 </ItemTemplate> 
                                 <HeaderStyle CssClass="pd" Font-Bold="true" ForeColor="black" HorizontalAlign="Left"  Width="25%" Height="24px"/>
                             </asp:TemplateField>  
-                             <asp:TemplateField HeaderText="Job Family" SortExpression="jfamily">
-                                <ItemTemplate>
-                                    <asp:Literal ID="ja" runat="server" Text='<%# Eval("jfamily") %>'></asp:Literal>
-                                </ItemTemplate> 
-                                <HeaderStyle CssClass="pd" Font-Bold="true" ForeColor="black" HorizontalAlign="Left"  Width="25%" Height="24px"/>
-                            </asp:TemplateField>    
-                            
                         </Columns>
                         <PagerStyle CssClass="mh-link1" />
                         <EmptyDataTemplate>
-                            <b>There are no matching records found</b>
+                          
                         </EmptyDataTemplate>
                     </asp:GridView>
+                   
                     <br />
                     <br />
-                
+
+                <div ID="JobListPaging2" class="JobListPaging2" runat="server">
+                            <div class="JobListPagingLinks">
+
+                                <asp:LinkButton 
+                                    ID="previous_page2"
+                                    Text="&#9668; Previous"
+                                    OnClick="previous_page_Click"
+                                    CausesValidation="False" 
+                                    runat="server" />
+
+                                <asp:Literal ID="paging_text2" Text="" runat="server" />
+            
+                                <asp:LinkButton 
+                                    ID="next_page2"
+                                    Text="Next &#9658;"
+                                    OnClick="next_page_Click"
+                                    CausesValidation="False" 
+                                    runat="server" />
+                            </div>
+                        </div>
+
 		<table border="0" cellpadding="0" cellspacing="0" summary="" width="100%">
 			<tr><td colspan="3">&nbsp;</td></tr>
             <tr valign="top">

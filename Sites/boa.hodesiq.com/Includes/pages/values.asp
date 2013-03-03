@@ -4,19 +4,20 @@
 				<td width="373" height="100%" valign="top" style="<%=middle_content_padding%>">
 <div id="Layer1" style="position: relative; z-index: 12;">		
 <img class="dotdiv" src="../images/clear.gif" width="100%" height="1" alt="" border="0">
-<p style="margin: 0px;">The following five values represent what we believe in as individuals and as a team, and how we aspire to interact with our customers, our shareholders, our communities and one another.
+<p style="margin: 0px;">The following four values represent what we believe in as individuals and as a team, and how we aspire to interact with our customers, our shareholders, our communities and one another.
 </p>
 <ul>
-	<li style="padding-bottom: 12px;"><b>Deliver for our customers, clients and shareholders</b><br>
-		We share a passion for winning and serving the financial needs of individuals, corporate clients, and institutional investors. We believe that disciplined execution will lead to sustainable and long-term performance.</li>
-	<li style="padding-bottom: 12px;"><b>Trust in our team</b><br>
-		We work together around the globe to deliver the entire franchise to all our constituents. We strive to be consistent and straightforward in our interactions.</li>
-	<li style="padding-bottom: 12px;"><b>Embrace the power of our people</b><br>
-		We value our differences - in thought, style, cultures, ethnicity, and experience - understanding that diversity and inclusion are good for business and make our company stronger.</li>
-	<li style="padding-bottom: 12px;"><b>Act responsibly</b><br>
-		We are aware that our decisions and actions affect people&#39;s lives every day. We hold ourselves accountable for the disciplined management of risk and for doing the right thing.</li>
-	<li style="padding-bottom: 12px;"><b>Promote opportunity</b><br>
-		We are committed to helping each other achieve our potential in order to build a better future for ourselves and the customers, clients, communities, and shareholders we serve.</li>
+	<li style="padding-bottom: 12px;"><b>Deliver together</b><br>
+		We believe in the importance of treating each customer, client and teammate as an individual and treating every moment as one that matters. We always strive to go the distance to deliver, with discipline and passion.  We believe in connecting with people person-to-person, with empathy and understanding. We believe everything we do for customers, clients, teammates and the communities we serve is built on a solid business foundation that delivers for shareholders.</li>
+	
+    <li style="padding-bottom: 12px;"><b>Act responsibly</b><br>
+		We believe that integrity and the disciplined management of risk form the foundation of our business. We are aware that our decisions and actions affect people's lives every day. We believe in making decisions that are clear, fair, and grounded in the principles of shared success, responsible citizenship, and community building.</li>
+	
+    <li style="padding-bottom: 12px;"><b>Realize the power of our people</b><br>
+		We strive to help all employees reach their full potential. We believe that diverse backgrounds and experiences make us stronger.  We respect every individual and value our differences - in thought, style, culture, ethnicity and experience.</li>
+	
+    <li style="padding-bottom: 12px;"><b>Trust in our team</b><br>
+		We believe that the best outcomes are achieved when people work together across the entire company.  We believe great teams are built on mutual trust, shared ownership and accountability. We act as one company and believe when we work together, we best meet the full needs of our customers and clients.</li>
 </ul>
 <!-- #include file="../corpinfonav.asp" -->
 <br><br>

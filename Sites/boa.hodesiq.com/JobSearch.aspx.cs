@@ -24,7 +24,9 @@ namespace BOA
         string BOAFeedName = "";
 
         private int _currPageIndex = 1;
+        private int _currPageIndexGlobal = 1;
         private int _maxPage = 9999;
+        private int _maxPageGlobal = 9999;
         private SortDirection _sortDir = 0;
 
         public String _jobFamily;
@@ -84,8 +86,8 @@ namespace BOA
 
             //write the boa buttons
 
-            boanet_safebutton.writeBOASafeButton("Previous", phPrevious, "Previous", LnkPrvs_Click, this.Request, "");
-            boanet_safebutton.writeBOASafeButton("Next", phNext, "Next", LnkNxt_Click, this.Request, "");
+            //boanet_safebutton.writeBOASafeButton("Previous", phPrevious, "Previous", LnkPrvs_Click, this.Request, "");
+            //boanet_safebutton.writeBOASafeButton("Next", phNext, "Next", LnkNxt_Click, this.Request, "");
             //
 
             lnkJobCart.Attributes.Add("onblur", "this.className='p';");
@@ -112,7 +114,7 @@ namespace BOA
                 PopulateLocations();
                 PopulateCity();
                 //PopulateOtherLists();
-                PopulateJobFamily();
+                //PopulateJobFamily();
 
                 BindSearchString();
                 if (Country.SelectedValue == Location.ALL_COUNTRIES)
@@ -131,43 +133,91 @@ namespace BOA
                     funAdvSearch(0);
                 }
 
-                // Save view state for sort and page position
-                LoadViewState();  // get any pre-existing sort order
-                zcrGridView1.PageIndex = 1;
-                jobListGridView1.PageIndex = 1;
-                SaveViewState();
+                if (Country.SelectedValue == Location.USA)
+                {
+                    // Save view state for sort and page position
+                    LoadViewState();  // get any pre-existing sort order
+                    zcrGridView1.PageIndex = 1;
+                    jobListGridView1.PageIndex = 1;
+                    SaveViewState();
+                }
+                else
+                {
+                    // Save view state for sort and page position
+                    LoadViewStateGlobal();  // get any pre-existing sort order
+                    //zcrGridView1.PageIndex = 1;
+                    jobListGridView2.PageIndex = 1;
+                    SaveViewStateGlobal();
+                }
+
+                
 
             }
             else
             {
-                // Save view state for sort and page position
-                LoadViewState();  // get any pre-existing sort order
-
-                if (ViewState["BOAFeedName"] != null)
+                if (Country.SelectedValue == Location.USA)
                 {
-                    BOAFeedName = ViewState["BOAFeedName"].ToString();
+                    // Save view state for sort and page position
+                    LoadViewState();  // get any pre-existing sort order
+
+                    if (ViewState["BOAFeedName"] != null)
+                    {
+                        BOAFeedName = ViewState["BOAFeedName"].ToString();
+                    }
+
+                    SaveViewState();
+                }
+                else
+                {
+                    // Save view state for sort and page position
+                    LoadViewStateGlobal();  // get any pre-existing sort order
+
+                    if (ViewState["BOAFeedName"] != null)
+                    {
+                        BOAFeedName = ViewState["BOAFeedName"].ToString();
+                    }
+
+                    SaveViewStateGlobal();
+                   
                 }
 
-                SaveViewState();
+
+                
             }
 
             
 
             ViewState["jobareas"] = ddlJobAreas.SelectedValue;
-
+            ViewState["jobfamilyGlobal"] = ddlJobFamily.SelectedValue;
             
             //this needs to be done before calling PopulateJobAreasFromIQ()
             string selVal;
-            if (!IsPostBack)
+
+            if (Country.SelectedValue == Location.USA)
             {
-                selVal = String.IsNullOrEmpty(Request.QueryString["jobareas"]) == false ? string.IsNullOrEmpty(this.ddlJobAreas.SelectedValue) ? Request.QueryString["jobareas"] : this.ddlJobAreas.SelectedValue : this.ddlJobAreas.SelectedValue;
+                if (!IsPostBack)
+                {
+                    selVal = String.IsNullOrEmpty(Request.QueryString["jobareas"]) == false ? string.IsNullOrEmpty(this.ddlJobAreas.SelectedValue) ? Request.QueryString["jobareas"] : this.ddlJobAreas.SelectedValue : this.ddlJobAreas.SelectedValue;
+                }
+                else
+                {
+                    selVal = ViewState["jobareas"] == null ? "" : ViewState["jobareas"].ToString();
+                }
             }
             else
             {
-                selVal = ViewState["jobareas"] == null ? "" : ViewState["jobareas"].ToString();
+                if (!IsPostBack)
+                {
+                    selVal = String.IsNullOrEmpty(Request.QueryString["jobfamilyid"]) == false ? string.IsNullOrEmpty(this.ddlJobAreas.SelectedValue) ? Request.QueryString["jobfamilyid"] : this.ddlJobAreas.SelectedValue : this.ddlJobAreas.SelectedValue;
+                }
+                else
+                {
+                    selVal = ViewState["jobfamilyGlobal"] == null ? "" : ViewState["jobfamilyGlobal"].ToString();
+                }
             }
 
             Utility.PopulateJobAreasFromIQ(ddlJobAreas, selVal);
+            Utility.PopulateGlobalJobFamiliesFromIQ(ddlJobFamily, selVal);
                         
             //postback only if location has been changed:
             this.State.Attributes.Add("onblur", "javascript:if(document." + this.Form.ClientID + "." + this.Statehidden.ClientID + ".value!=document." + this.Form.ClientID + "." + State.ClientID + ".options[document." + this.Form.ClientID + "." + State.ClientID.Replace("$", "_") + ".selectedIndex].value) {setTimeout('__doPostBack(\\'" + this.State.ClientID.Replace("_", "$") + "\\',\\'\\')', 0);}");
@@ -221,21 +271,43 @@ namespace BOA
         {
             try
             {
-                LoadViewState();
+                if (Country.SelectedValue == Location.USA)
+                {
+                    LoadViewState();
 
-                _currPageIndex = getPageIndex() - 1;
-                if (_currPageIndex < 1) _currPageIndex = 1;
+                    _currPageIndex = getPageIndex() - 1;
+                    if (_currPageIndex < 1) _currPageIndex = 1;
 
-                setPageIndex(_currPageIndex);
+                    setPageIndex(_currPageIndex);
 
-                // Save view state for sort and page position
-                SaveViewState();
+                    // Save view state for sort and page position
+                    SaveViewState();
 
-                // Assign search values to job list grid
-                //assignJobListValues();
+                    // Assign search values to job list grid
+                    assignJobListValues();
 
-                // Manage Paging 
-                //ManagePaging();
+                    // Manage Paging 
+                    ManagePaging();
+                }
+                else
+                {
+                    LoadViewStateGlobal();
+
+                    _currPageIndexGlobal = getPageIndexGlobal() - 1;
+                    if (_currPageIndexGlobal < 1) _currPageIndexGlobal = 1;
+
+                    setPageIndexGlobal(_currPageIndexGlobal);
+
+                    // Save view state for sort and page position
+                    SaveViewStateGlobal();
+
+                    // Assign search values to job list grid
+                    assignGlobalJobListValues();
+
+                    // Manage Paging 
+                    ManagePagingGlobal();
+                }
+                
             }
             catch (Exception ex)
             {
@@ -248,21 +320,42 @@ namespace BOA
         {
             try
             {
-                LoadViewState();
+                if (Country.SelectedValue == Location.USA)
+                {
+                    LoadViewState();
 
-                _currPageIndex = getPageIndex() + 1;
-                if (_currPageIndex > _maxPage) _currPageIndex = _maxPage;
+                    _currPageIndex = getPageIndex() + 1;
+                    if (_currPageIndex > _maxPage) _currPageIndex = _maxPage;
 
-                setPageIndex(_currPageIndex);
+                    setPageIndex(_currPageIndex);
 
-                // Save view state for sort and page position
-                SaveViewState();
+                    // Save view state for sort and page position
+                    SaveViewState();
 
-                // Assign search values to job list grid
-                //assignJobListValues();
+                    // Assign search values to job list grid
+                    assignJobListValues();
 
-                // Manage Paging 
-                //ManagePaging();
+                    // Manage Paging 
+                    ManagePaging();
+                }
+                else 
+                {
+                    LoadViewStateGlobal();
+
+                    _currPageIndexGlobal = getPageIndexGlobal() + 1;
+                    if (_currPageIndexGlobal > _maxPageGlobal) _currPageIndexGlobal = _maxPageGlobal;
+
+                    setPageIndexGlobal(_currPageIndexGlobal);
+
+                    // Save view state for sort and page position
+                    SaveViewStateGlobal();
+
+                    // Assign search values to job list grid
+                    assignGlobalJobListValues();
+
+                    // Manage Paging 
+                    ManagePagingGlobal();
+                }
             }
             catch (Exception ex)
             {
@@ -274,6 +367,31 @@ namespace BOA
         {
             object ds = (_distance != "-1" ? this.zcrGridView1.DataSource : this.jobListGridView1.DataSource);
             return ds;
+        }
+        private object SetDataSourceGlobal()
+        {
+            object ds = this.jobListGridView2.DataSource;
+            return ds;
+        }
+
+        protected void assignGlobalJobListValues()
+        {
+
+            // Do Job List custom field assignement and get records
+
+            this.assignJobListGlobalValuesLocation();
+            this.jobListGridView2.GetRecords();
+
+            // Bind DataSource to "gv" GridView (gridview displayed in ASCX file)
+            //GrdResultsUS.DataSource = SetDataSource();
+            //GrdResultsUS.DataBind();
+
+            GrdResultsGlobal.DataSource = SetDataSourceGlobal();
+            GrdResultsGlobal.DataBind();
+
+            this.zcrGridView1.Visible = false;
+            this.jobListGridView1.Visible = false;
+            
         }
 
         protected void assignJobListValues()
@@ -419,6 +537,50 @@ namespace BOA
 
         }
 
+        protected void assignJobListGlobalValuesLocation()
+        {
+
+            jobListGridView2.MaskedHiringOrgId = cs.MaskedHiringOrgId;
+            jobListGridView2.EMediaId = cs.EMediaId;
+            jobListGridView2.RecordsPerPage = cs.DefaultPageSize;
+
+            // Get Question ID values for custom fields used for searching
+            // and possible display in the job list
+            //int travelQId = cs.RetrieveTagValueQuestionId("Travel");
+            int jobFamilyQId = cs.RetrieveTagValueQuestionId("JobFamily");
+            //int aotQId = cs.RetrieveTagValueQuestionId("TalentArea");
+            //int jobTypeQId = cs.RetrieveTagValueQuestionId("FTPT");
+            //int jobShiftQId = cs.RetrieveTagValueQuestionId("Shift");
+
+            // Build comma seperated list of the custom fields to be displayed
+            // in the job list
+            //jobListGridView1.QuestionIdList = string.Format("{0},{1}", travelQId, jobTypeQId);
+
+            // Assign custom fields to be used for searching
+            jobListGridView2.QuestionId1 = jobFamilyQId;
+            jobListGridView2.QuestionId1AnswerIds = _jobFamily;
+
+            // Assign country/stte/city values used for searching
+            jobListGridView2.CountryIds = _country;
+            jobListGridView2.StateIds = _state;
+            jobListGridView2.CityIds = _city;
+
+            // Assign keyword values used for searching
+            jobListGridView2.Keywords = _keyword;
+
+            // Assign Daterange / Age search criteria
+            jobListGridView2.Age = Convert.ToInt32(_daterange);
+
+            // If not a postback AND _pagenum has a value then make it 
+            // the current page
+            if (!IsPostBack && Convert.ToInt32(_pagenum) > 0)
+            {
+                jobListGridView2.PageIndex = Convert.ToInt32(_pagenum);
+                SaveViewStateGlobal();
+            }
+
+        }
+
         private new void SaveViewState()
         {
             try
@@ -439,6 +601,22 @@ namespace BOA
                     Session["orderByColumn"] = this.jobListGridView1.OrderByColumn;
                     Session["orderByDirection"] = this.jobListGridView1.OrderByDirection;
                 }
+            }
+            catch (Exception ex)
+            {
+                Utility.HandleException(ex);
+            }
+        }
+
+        private new void SaveViewStateGlobal()
+        {
+            try
+            {
+                ViewState["pageIndexGlobal"] = this.jobListGridView2.PageIndex;
+
+                // Save sort order using Session *not* ViewState
+                Session["orderByColumnGlobal"] = this.jobListGridView2.OrderByColumn;
+                Session["orderByDirectionGlobal"] = this.jobListGridView2.OrderByDirection;
             }
             catch (Exception ex)
             {
@@ -473,6 +651,23 @@ namespace BOA
             }
         }
 
+        private void LoadViewStateGlobal()
+        {
+            try
+            {
+
+                if (ViewState["pageIndexGlobal"] != null) this.jobListGridView2.PageIndex = (int)ViewState["pageIndexGlobal"];
+
+                    // Load sort order from Session *not* ViewState          
+                if (Session["orderByColumnGlobal"] != null) this.jobListGridView2.OrderByColumn = Session["orderByColumnGlobal"].ToString();
+                if (Session["orderByDirectionGlobal"] != null) this.jobListGridView2.OrderByDirection = (SortDirection)Session["orderByDirectionGlobal"];
+                
+            }
+            catch (Exception ex)
+            {
+                Utility.HandleException(ex);
+            }
+        }
 
         protected void gv_Sorting(object sender, GridViewSortEventArgs e)
         {
@@ -518,26 +713,38 @@ namespace BOA
             //ManagePaging();
         }
 
-        protected void initSearchFields()
+        protected void gv_SortingGlobal(object sender, GridViewSortEventArgs e)
         {
 
-            // Populate search field dropdowns
-            // Populate Travel ddl
-            /*Country.MaskedHiringOrgId = cs.MaskedHiringOrgId;
-            Country.EMediaId = cs.EMediaId;
-            Country.DataBind();
 
-            State.MaskedHiringOrgId = cs.MaskedHiringOrgId;
-            State.EMediaId = cs.EMediaId;
-            State.CountryIdList = "1";
-            State.DataBind();
+            // Toggle sort direction
+            if (Session["orderByDirectionGlobal"] != null && (SortDirection)Session["orderByDirectionGlobal"] == SortDirection.Ascending)
+            {
+                _sortDir = SortDirection.Descending;
+            }
+            else
+            {
+                _sortDir = SortDirection.Ascending;
+            }
 
-            City.MaskedHiringOrgId = cs.MaskedHiringOrgId;
-            City.EMediaId = cs.EMediaId;
-            City.CountryIdList = "1";
-            City.StateIdList = "1";
-            City.DataBind();
-             */
+            jobListGridView2.OrderByColumn = e.SortExpression;
+            jobListGridView2.OrderByDirection = _sortDir;
+
+            // Page gets reset to 1 when doing a sort
+            jobListGridView2.PageIndex = 1;
+           
+            // Save Sort order view state
+            SaveViewStateGlobal();
+
+            // Assign search values to job list grid and get the records
+            assignGlobalJobListValues();
+
+            // Manage Paging 
+            //ManagePaging();
+        }
+
+        protected void initSearchFields()
+        {
 
             travel.MaskedHiringOrgId = cs.MaskedHiringOrgId;
             travel.QuestionId = cs.RetrieveTagValueQuestionId("Travel");
@@ -565,7 +772,15 @@ namespace BOA
                 // Grab search values from URL 
 
                 _travel = string.IsNullOrEmpty(Request["travel"]) ? "-1" : Request["travel"];
-                _jobFamily = string.IsNullOrEmpty(Request["ddlJobAreas"]) ? "-1" : Request["ddlJobAreas"];
+
+                if (Country.SelectedValue == Location.USA)
+                {
+                    _jobFamily = string.IsNullOrEmpty(Request["ddlJobAreas"]) ? "-1" : Request["ddlJobAreas"];
+                }
+                else
+                {
+                    _jobFamily = string.IsNullOrEmpty(Request["ddlJobFamily"]) ? "-1" : Request["ddlJobFamily"];
+                }
                 _jobType = string.IsNullOrEmpty(Request["fullpart"]) ? "-1" : Request["fullpart"];
                 _jobShift = string.IsNullOrEmpty(Request["shift"]) ? "" : Request["shift"];
                 _daterange = string.IsNullOrEmpty(Request["datepost"]) ? "365" : Request["datepost"];
@@ -616,7 +831,7 @@ namespace BOA
 
                 _keyword = keywords.Text.ToString().Trim();
                 _ddlJobArea = ddlJobAreas.SelectedValue;
-
+                _jobFamily = ddlJobFamily.SelectedValue;
             }
 
         }
@@ -630,7 +845,14 @@ namespace BOA
 
             // Hide/Show "Previous" link
             previous_page.Visible = true;
-            if (_currPageIndex <= 1) previous_page.Visible = false;
+            previous_page2.Visible = true;
+
+            if (_currPageIndex <= 1)
+            {
+                previous_page.Visible = false;
+                previous_page2.Visible = false;
+            }
+               
 
             // Update page navigation text
             int maxRows = getMaxRows();
@@ -640,10 +862,17 @@ namespace BOA
             if (_currPageIndex == _maxPage) endJobCnt = maxRows;
 
             paging_text.Text = "Jobs " + startJobCnt.ToString() + " - " + endJobCnt.ToString() + " of " + maxRows.ToString();
+            paging_text2.Text = paging_text.Text; 
 
             // Hide/Show "Next" link
             next_page.Visible = true;
-            if (_currPageIndex >= _maxPage) next_page.Visible = false;
+            next_page2.Visible = true;
+
+            if (_currPageIndex >= _maxPage)
+            {
+                next_page.Visible = false;
+                next_page2.Visible = false;
+            }
 
             // If no pages then display status message
             StatusMsg.Text = "";
@@ -669,12 +898,91 @@ namespace BOA
             if (_maxPage <= 1)
             {
                 this.JobListPaging.Visible = true;
+                this.JobListPaging2.Visible = false;
 
                 previous_page.Visible = false;
+                previous_page2.Visible = false;
 
                 next_page.Visible = false;
+                next_page2.Visible = false;
 
                 paging_text.Text = maxRows.ToString() + " Job(s) Found";
+                paging_text2.Text = paging_text.Text;
+
+            }
+
+        }
+
+        protected void ManagePagingGlobal()
+        {
+            // Get maximum page count
+            _maxPageGlobal = getPageCountGlobal();
+            _currPageIndexGlobal = getPageIndexGlobal();
+
+            // Hide/Show "Previous" link
+            previous_page.Visible = true;
+            previous_page2.Visible = true;
+
+            if (_currPageIndexGlobal <= 1)
+            {
+                previous_page.Visible = false;
+                previous_page2.Visible = false;
+            }
+
+            // Update page navigation text
+            int maxRows = getMaxRowsGlobal();
+            int RecPerPage = getRecordsPerPageGlobal();
+            int startJobCnt = ((_currPageIndexGlobal - 1) * RecPerPage) + 1;
+            int endJobCnt = (_currPageIndexGlobal) * (RecPerPage);
+            if (_currPageIndexGlobal == _maxPageGlobal) endJobCnt = maxRows;
+
+            paging_text.Text = "Jobs " + startJobCnt.ToString() + " - " + endJobCnt.ToString() + " of " + maxRows.ToString();
+            paging_text2.Text = paging_text.Text;
+
+            // Hide/Show "Next" link
+            next_page.Visible = true;
+            next_page2.Visible = true;
+
+            if (_currPageIndexGlobal >= _maxPageGlobal)
+            {
+                next_page.Visible = false;
+                next_page2.Visible = false;
+            }
+
+            // If no pages then display status message
+            StatusMsg.Text = "";
+            StatusMsg.Visible = false;
+            if (_maxPageGlobal == 0)
+            {
+                StatusMsg.Text = "<br class='clear' /><p>We do not have a position which matches your search. Please try changing your search parameters to find the position you desire.</p>";
+                StatusMsg.Visible = true;
+
+                // Hide JobListContainer so column titles, background images,
+                // etc. do not show
+                //JobListContainer.Visible = false;
+            }
+            else
+            {
+                StatusMsg.Text = "";
+                StatusMsg.Visible = false;
+
+                //JobListContainer.Visible = true;
+            }
+
+            // If there is only one page hide next and prev buttons and change message
+            if (_maxPageGlobal <= 1)
+            {
+                this.JobListPaging.Visible = false;
+                this.JobListPaging2.Visible = true;
+
+                previous_page.Visible = false;
+                previous_page2.Visible = false;
+
+                next_page.Visible = false;
+                next_page2.Visible = false;
+
+                paging_text.Text = maxRows.ToString() + " Job(s) Found";
+                paging_text2.Text = paging_text.Text;
 
             }
 
@@ -704,6 +1012,24 @@ namespace BOA
             return maxRows;
         }
 
+        private int getMaxRowsGlobal()
+        {
+
+            int maxRows = 0;
+
+            try
+            {
+                
+                maxRows = jobListGridView2.RowCount;
+                
+            }
+            catch (Exception ex)
+            {
+                Utility.HandleException(ex);
+            }
+
+            return maxRows;
+        }
         private int getRecordsPerPage()
         {
 
@@ -728,10 +1054,29 @@ namespace BOA
             return RecPerPage;
         }
 
+        private int getRecordsPerPageGlobal()
+        {
+
+            int RecPerPage = 0;
+
+            try
+            {
+                
+                RecPerPage = jobListGridView2.RecordsPerPage;
+                
+            }
+            catch (Exception ex)
+            {
+                Utility.HandleException(ex);
+            }
+
+            return RecPerPage;
+        }
+
         public int getPageIndex()
         {
 
-            int intPageIndex = GrdResults.PageIndex;
+            int intPageIndex = GrdResultsUS.PageIndex;
 
             try
             {
@@ -743,6 +1088,23 @@ namespace BOA
                 {
                     intPageIndex = jobListGridView1.PageIndex;
                 }
+            }
+            catch (Exception ex)
+            {
+                Utility.HandleException(ex);
+            }
+
+            return intPageIndex;
+        }
+
+        public int getPageIndexGlobal()
+        {
+
+            int intPageIndex = GrdResultsGlobal.PageIndex;
+
+            try
+            {
+               intPageIndex = jobListGridView2.PageIndex;
             }
             catch (Exception ex)
             {
@@ -772,10 +1134,24 @@ namespace BOA
             }
         }
 
+        private void setPageIndexGlobal(int intPageIndex)
+        {
+            try
+            {
+                jobListGridView2.PageIndex = intPageIndex;
+                
+            }
+            catch (Exception ex)
+            {
+                Utility.HandleException(ex);
+            }
+        }
+
         private int getPageCount()
         {
 
-            int intPageCount = GrdResults.PageCount;
+            //int intPageCount = GrdResults.PageCount;
+            int intPageCount = GrdResultsUS.PageCount;
 
             try
             {
@@ -796,6 +1172,24 @@ namespace BOA
             return intPageCount;
         }
 
+        private int getPageCountGlobal()
+        {
+
+            //int intPageCount = GrdResults.PageCount;
+            int intPageCount = GrdResultsGlobal.PageCount;
+
+            try
+            {
+                
+                intPageCount = jobListGridView2.PageCount;
+            }
+            catch (Exception ex)
+            {
+                Utility.HandleException(ex);
+            }
+
+            return intPageCount;
+        }
 
         public void BindSearchString()
         {
@@ -963,10 +1357,14 @@ namespace BOA
             if (Country.SelectedValue == Location.USA)
             {
                 funAdvSearchUS(iFrom);
+                GrdResultsUS.Visible = true;
+                GrdResultsGlobal.Visible = false;
             }
             else
             {
                 funAdvSearchInternational(iFrom);
+                GrdResultsUS.Visible = false;
+                GrdResultsGlobal.Visible = true;
             }
 
         }
@@ -974,7 +1372,7 @@ namespace BOA
         public void funAdvSearchInternational(int iFrom)
         {
             string LocationID = InternationalCity.SelectedValue;
-            string JobFamilyID = ddlJobFamily.SelectedValue;
+            string JobFamilyID = _jobFamily;
             string keywrd = keywords.Text;
 
             if (ViewState["strRec"] == null)
@@ -989,15 +1387,9 @@ namespace BOA
                 ViewState["sortExpression"] = null;
             }
 
+            assignGlobalJobListValues();
 
-            Jobs Job = new Jobs();
-            ListDictionary MyListDictionary = new ListDictionary();
-            MyListDictionary = Job.AdvSearch_ListDictionaryInternational(Country.SelectedValue, LocationID, keywrd, JobFamilyID, (int)(ViewState["PageNumber"]), RecPerPage, (string)ViewState["sortExpression"], (string)ViewState["MysortDirection"], BOAFeedName, InternationalCity.SelectedItem.Text);
-            DataTable DT = (DataTable)MyListDictionary["JobSearchResults"];
-
-            FilterJobSearch(iFrom, DT, MyListDictionary);
-
-
+            ManagePagingGlobal();
 
         }
 
@@ -1018,161 +1410,12 @@ namespace BOA
 
             // Manage Paging 
             ManagePaging();
-
-            string[] aja = { "-1", "-1" };
-            if (ddlJobAreas.SelectedValue != "-1" & ddlJobAreas.SelectedValue != string.Empty)
-            {
-                aja = ddlJobAreas.SelectedValue.Split("|".ToCharArray());
-            }
-            else if (!string.IsNullOrEmpty(Request.QueryString["jobareas"]))
-            {
-                aja = Request.QueryString["jobareas"].Split("|".ToCharArray());
-            }
-            int aot = (aja[0] == null) ? -1 : Convert.ToInt32(aja[0]);
-            string jf = string.IsNullOrEmpty(aja[1].ToString()) ? "" : aja[1];
-
-            foreach (ListItem li in fullpart.Items)
-            {
-                if (li.Selected)
-                {
-                    fullPart += li.Value + ",";
-                }
-            }
-
-            state = string.IsNullOrEmpty(State.SelectedValue) ? -1 : Convert.ToInt32(State.SelectedValue);
-
-            city = string.IsNullOrEmpty(City.SelectedValue) ? -1 : Convert.ToInt32(City.SelectedValue);
-
-            foreach (ListItem li in shift.Items)
-            {
-                if (li.Selected)
-                {
-                    Shift += li.Value + ",";
-                }
-            }
-
-            foreach (ListItem li in lang.Items)
-            {
-                if (li.Selected)
-                {
-                    Lang += li.Value + ",";
-                }
-            }
-
-            Travel = string.IsNullOrEmpty(travel.SelectedValue) ? -1 : Convert.ToInt32(travel.SelectedValue);
-            PostDate = string.IsNullOrEmpty(travel.SelectedValue) ? -1 : Convert.ToInt32(datepost.SelectedValue);
-            keywrd = keywords.Text;
-            if (ViewState["strRec"] == null)
-            {
-                ViewState["strRec"] = 1;
-                ViewState["endRec"] = 12;
-            }
-
-            if (iFrom == 0) // Reset | ReSearch
-            {
-                ViewState["MysortDirection"] = null;
-                ViewState["sortExpression"] = null;
-            }
-
-
-            Jobs Job = new Jobs();
-            ListDictionary MyListDictionary = new ListDictionary();
-            MyListDictionary = Job.AdvSearch_ListDictionary(aot, jf, state, city, Travel, Lang, fullPart, Shift, PostDate, keywrd, (int)(ViewState["PageNumber"]), RecPerPage, (string)ViewState["sortExpression"], (string)ViewState["MysortDirection"]);
-            DataTable DT = (DataTable)MyListDictionary["JobSearchResults"];
-        
-            FilterJobSearch(iFrom, DT, MyListDictionary);
-            
         }
-
-        private void FilterJobSearch(int iFrom, DataTable DT, ListDictionary MyListDictionary)
-        {
-
-            foreach (DataControlField c in GrdResults.Columns)
-            {
-
-                //Set all column headers as bold!!! | Remove all images!!!
-                if (!c.HeaderText.Contains("<span title="))
-                {
-                    if (c.HeaderText.Contains("Title")) { c.HeaderText = "<span title='Sort by job title in either ascending or descending order'><b>" + c.HeaderText + "</b></span>"; }
-                    if (c.HeaderText.Contains("Location")) { c.HeaderText = "<span title='Sort by location in either ascending or descending order'><b>" + c.HeaderText + "</b></span>"; }
-                    if (c.HeaderText.Contains("Date")) { c.HeaderText = "<span title='Sort by date in either ascending or descending order'><b>" + c.HeaderText + "</b></span>"; }
-                    if (c.HeaderText.Contains("Job Family")) { c.HeaderText = "<span title='Sort by job family in either ascending or descending order'><b>" + c.HeaderText + "</b></span>"; }
-                }
-                if (iFrom != 1)
-                {
-                    c.HeaderText = c.HeaderText.Replace(" <img src='images/upArrow.gif' border='0'>", String.Empty);
-                    c.HeaderText = c.HeaderText.Replace(" <img src='images/dnArrow.gif' border='0'>", String.Empty);
-                }
-                if (iFrom == 2)
-                {
-                    //Assign proper image to proper column
-                    if (c.SortExpression == (string)ViewState["sortExpression"])
-                    {
-                        if ((string)ViewState["MysortDirection"] == " ASC")
-                        { c.HeaderText += " <img src='images/upArrow.gif' border='0'>"; }
-                        if ((string)ViewState["MysortDirection"] == " DESC")
-                        { c.HeaderText += " <img src='images/dnArrow.gif' border='0'>"; }
-                    }
-                }
-
-                if (c.HeaderText.ToLower().Replace(" ", "").Contains("jobfamily"))
-                {
-                    if (Country.SelectedValue == Location.USA)
-                    {
-                        c.Visible = false;
-                    }
-                    else
-                    {
-                        c.Visible = true;
-                    }
-                }
-
-                if (c.HeaderText.ToLower().Replace(" ", "").Contains("date"))
-                {
-                    if (Country.SelectedValue == Location.USA)
-                    {
-                        c.Visible = true;
-                    }
-                    else
-                    {
-                        c.Visible = false;
-                    }
-                }
-
-            }
-
-            if (iFrom == 0) // Reset | ReSearch
-            {
-                GrdResults.DataSource = DT;
-                GrdResults.DataBind();
-            }
-            else if (iFrom == 1) // from Next | Previous
-            {
-                DataView dv = new DataView(DT);
-                dv.Sort = (string)ViewState["sortExpression"] + (string)ViewState["MysortDirection"];
-                GrdResults.DataSource = dv;
-                GrdResults.DataBind();
-                GrdResults.PageIndex = (int)ViewState["PageNumber"];
-            }
-            else if (iFrom == 2) // from Sort(GrdResults_OnSorting)
-            {
-                DataView dv = new DataView(DT);
-                dv.Sort = (string)ViewState["sortExpression"] + (string)ViewState["MysortDirection"];
-                GrdResults.DataSource = dv;
-                GrdResults.DataBind();
-                GrdResults.PageIndex = 0;
-            }
-
-            this.divNext.Attributes["style"] = ((Boolean)MyListDictionary["NextButton"]) ? " display: inline;" : " display: none;";
-            this.divPrev.Attributes["style"] = ((Boolean)MyListDictionary["PrevButton"]) ? " display: inline;" : " display: none;";
-            LblPageOfPages.Text = MyListDictionary["PageOfPages"].ToString();
-            this.lblJobofJobs.Visible = Convert.ToBoolean(MyListDictionary["RecordCount"]);
-            this.lblJobofJobs.Text = MyListDictionary["JobToJobs"].ToString();
-
-        }
+    
 
         #region  (¯`·.¸(¯`·.¸  Sorting Mechanizm Is Here ¸.·´¯)¸.·´¯)
 
+        /*
         protected void GrdResults_OnSorting(object sender, GridViewSortEventArgs e)
         {
             ViewState["PageNumber"] = 1;
@@ -1190,7 +1433,7 @@ namespace BOA
             }
             //funAdvSearch(2);
         }
-
+        */
         public SortDirection GridViewSortDirection
         {
             get
@@ -1233,7 +1476,7 @@ namespace BOA
 
         }
 
-
+/*
         protected void LnkNxt_Click(object sender, EventArgs e)
         {
             ViewState["PageNumber"] = (int)(ViewState["PageNumber"]) + 1;
@@ -1245,7 +1488,7 @@ namespace BOA
             ViewState["PageNumber"] = (int)(ViewState["PageNumber"]) - 1;
             funAdvSearch(1);
         }
-
+  */
 
         protected void PopulateCountries()
         {
@@ -1358,7 +1601,7 @@ namespace BOA
             if (Country.SelectedValue != Location.USA)
             {
                 PopulateInternationalCity();
-                PopulateJobFamily();
+                //PopulateJobFamily();
                 ddlJobFamily.SelectedValue = "-1";
                 InternationalCity.SelectedValue = "-1";
                 keywords.Text = "";
@@ -1479,6 +1722,7 @@ namespace BOA
             Response.Redirect("jobsearch.aspx");
         }
 
+        /*
         protected void PopulateJobFamily()
         {
             ddlJobFamily.Items.Clear();
@@ -1506,7 +1750,8 @@ namespace BOA
 
             ddlJobFamily.Items.Insert(0, new ListItem("All", "-1"));
         }
-
+         */
+/*
         protected void PopulateJobAreas()
         {
             string selVal;
@@ -1538,6 +1783,7 @@ namespace BOA
             if (myListItem != null)
                 myListItem.Selected = true;
         }
+        */
 
         public string formatDate(String strDate, String strDateFormat)
         {

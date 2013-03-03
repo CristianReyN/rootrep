@@ -16,7 +16,9 @@ using System.Text.RegularExpressions;
 public partial class JobSearchConsolidated : System.Web.UI.Page
 {
     private int RecPerPage = 12;
-    private string constring = ConfigurationManager.AppSettings["StrUdlFileName"];
+    //private string constring = ConfigurationManager.AppSettings["StrUdlFileName"];
+    private string constring = ConfigurationManager.AppSettings["StrIQUdlFileName"];
+
     string BOAFeedName = "";
     string isFirstTime = "0";
 
