@@ -126,6 +126,116 @@ Begin your career search by selecting a country.  You may then narrow your searc
 <% 
 	call getCountrySelect(" onchange=""changeCountry();"""," style=""position: relative; width: 100%; z-index: auto;""")
 %>
+
+<!--<select onclick="if(this.selectedIndex == 0) this.selectedIndex = 1;" onfocus="if(this.selectedIndex == 0) this.selectedIndex = 1;" name="countryid" id="countryid" title="Select a country" onchange="changeCountry();" style="position: relative; width: 100%; z-index: auto;">
+	<option value="-1">Select a country</option>
+	<option value="1" selected>United States</option>
+
+	<option value="11">Argentina</option>
+
+	<option value="15">Australia</option>
+
+	<option value="31">Bahamas</option>
+
+	<option value="24">Bahrain</option>
+
+	<option value="21">Belgium</option>
+
+	<option value="30">Brazil</option>
+
+	<option value="2">Canada</option>
+
+	<option value="124">Cayman Islands</option>
+
+	<option value="44">Chile</option>
+
+	<option value="46">China</option>
+
+	<option value="47">Colombia</option>
+
+	<option value="49">Costa Rica</option>
+
+	<option value="75">France</option>
+
+	<option value="56">Germany</option>
+
+	<option value="90">Greece</option>
+
+	<option value="96">Hong Kong</option>
+
+	<option value="105">India</option>
+
+	<option value="102">Indonesia</option>
+
+	<option value="103">Ireland</option>
+
+	<option value="256">Isle of Man</option>
+
+	<option value="104">Israel</option>
+
+	<option value="111">Italy</option>
+
+	<option value="114">Japan</option>
+
+	<option value="260">Jersey</option>
+
+	<option value="106">Korea, Republic Of</option>
+
+	<option value="127">Lebanon</option>
+
+	<option value="134">Luxembourg</option>
+
+	<option value="257">Macao</option>
+
+	<option value="157">Malaysia</option>
+
+	<option value="156">Mexico</option>
+
+	<option value="138">Monaco</option>
+
+	<option value="167">Netherlands</option>
+
+	<option value="168">Norway</option>
+
+	<option value="176">Panama</option>
+
+	<option value="180">Philippines</option>
+
+	<option value="182">Poland</option>
+
+	<option value="186">Portugal</option>
+
+	<option value="185">Puerto Rico</option>
+
+	<option value="192">Russian Federation</option>
+
+	<option value="194">Saudi Arabia</option>
+
+	<option value="199">Singapore</option>
+
+	<option value="249">South Africa</option>
+
+	<option value="68">Spain</option>
+
+	<option value="41">Switzerland</option>
+
+	<option value="228">Taiwan</option>
+
+	<option value="218">Thailand</option>
+
+	<option value="225">Turkey</option>
+
+	<option value="234">United Arab Emirates</option>
+
+	<option value="232">United Kingdom</option>
+
+	<option value="1">United States</option>
+
+	<option value="235">Uruguay</option>
+
+	<option value="239">Venezuela</option>
+
+</select>-->
 </div>
 							</td>
 						</tr>

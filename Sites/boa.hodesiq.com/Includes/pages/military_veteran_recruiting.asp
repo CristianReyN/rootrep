@@ -14,9 +14,9 @@
 <a name="skipmaincontent"></a><H1 class="hidden">Military &amp; veteran recruiting</H1>
 <div style="float: left; width: <% If page_section = "ADA" Then %>357<% ElseIf page_section <> "ADA" Then %>299<%End If%>px;">
 <p class="bac" style="margin: <% If page_section = "ADA" Then %>12<% Else %>0<%End If%>px <%=right_margin%>px 0px <%=left_margin_0%>px;">
-Bank&nbsp;of&nbsp;America actively works to attract, develop and retain veterans, reservists and military spouses because of the unique skills and experiences they bring to our organization. Their personal values align with our company&#39;s core values around teamwork, trust in our team, and acting responsibly.</p>
+Bank&nbsp;of&nbsp;America actively works to attract, develop and retain veterans, reservists and military spouses because of the unique skills and experiences they bring to our organization. Their personal values align with our company&#39;s values around trusting the team, acting responsibly and realizing the power of our people.</p>
 
-<p class="bac">We support military employees through our Military Support Affinity Group, and employee resource network that creates opportunities for advancement and leadership development through networking, mentoring and information forums.</p>
+<p class="bac">We support military employees through our Military Support &amp; Assistance Group, an employee resource network that creates opportunities for advancement and leadership development through networking, mentoring and information forums.</p>
 
 <p class="bac">Additionally, Bank&nbsp;of&nbsp;America supports the U.S. military through contributions to military-focused charitable organizations and providing differentiated banking services for military service members.</p>
 

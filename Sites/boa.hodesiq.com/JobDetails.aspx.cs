@@ -95,10 +95,12 @@ namespace BOA
                 string FeedName = Request["FeedName"] == null ? "" : Request["FeedName"].ToString();
                 string taleoReqID = "";
 
-                jobtitle = ((HiddenField)this.FindControlInDataTemplate("hdnJobTitle")).Value + " : " + JobId;
+                taleoReqID = ((HiddenField)this.FindControlInDataTemplate("hdnReqNo")).Value;
+                jobtitle = ((HiddenField)this.FindControlInDataTemplate("hdnJobTitle")).Value + " : " + taleoReqID;
+
                 pageTitle = "Bank of America Careers: " + jobtitle;
                 lblJobTitle.InnerText = jobtitle;
-                taleoReqID = ((HiddenField)this.FindControlInDataTemplate("hdnReqNo")).Value;
+                
                 if (CountryId == "1")
                 {
                     ((Label)this.FindControlInDataTemplate("lblDescripton")).Text = LinkBuilder(((Label)this.FindControlInDataTemplate("lblDescripton")).Text, "Description");
@@ -625,12 +627,25 @@ namespace BOA
 
                 // Loop through the custom field list looking for the custom field
                 // when found return the Answer text for it
+                DateTime datetime;
+                string strLocationDetail;
+
                 foreach (CareerSiteWebControls.CustomField cf in lstCustomFields)
                 {
                     if (intCustomFieldId == cf.QuestionId)
                     {
-                        // Get LocationDetail value
-                        string strLocationDetail = cf.AnswerText;
+                        // check if custome field is unpost date, and if so, format it accordingly.
+
+                        if (DateTime.TryParseExact(cf.AnswerText, "MMM d, yyyy, HH:mm:ss tt", System.Globalization.CultureInfo.InvariantCulture, System.Globalization.DateTimeStyles.NoCurrentDateDefault, out datetime) ||
+                            DateTime.TryParseExact(cf.AnswerText, "MMM dd, yyyy, HH:mm:ss tt", System.Globalization.CultureInfo.InvariantCulture, System.Globalization.DateTimeStyles.NoCurrentDateDefault, out datetime))
+                        {
+                            datetime = Convert.ToDateTime(cf.AnswerText);
+                            strLocationDetail = datetime.ToString("MMM dd, yyyy");
+                        }
+                        else
+                        {
+                            strLocationDetail = cf.AnswerText;
+                        }
 
                         // Return LocationDetail value
                         return strLocationDetail;

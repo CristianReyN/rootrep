@@ -30,7 +30,7 @@ namespace BOA
         private SortDirection _sortDir = 0;
 
         public String _jobFamily;
-        private String _areaOfTalent;
+        public String _areaOfTalent;
         public String _ddlJobArea;
         public String _jobType; //full time/partime
         public String _jobShift;
@@ -39,8 +39,8 @@ namespace BOA
         public String _state;
         public String _city;
         public String _travel;
-        private String _distance;
-        private String _zipcode;
+        public String _distance;
+        public String _zipcode;
         public String _keyword;
 
         private String _pagenum = "-1";
@@ -503,11 +503,20 @@ namespace BOA
 
             if (!string.IsNullOrEmpty(_ddlJobArea))
             {
-                //split aot and job family
-                string[] arrAOTJobFamily = null;
-                arrAOTJobFamily = _ddlJobArea.Split("|".ToCharArray());
-                _areaOfTalent = arrAOTJobFamily[0];
-                _jobFamily = arrAOTJobFamily[1];
+
+                if (_ddlJobArea != "-1")
+                {
+                    //split aot and job family
+                    string[] arrAOTJobFamily = null;
+                    arrAOTJobFamily = _ddlJobArea.Split("|".ToCharArray());
+                    _areaOfTalent = arrAOTJobFamily[0];
+                    _jobFamily = arrAOTJobFamily[1];
+                }
+                else
+                {
+                    _areaOfTalent = "-1";
+                    _jobFamily = "-1";
+                }
 
                 jobListGridView1.QuestionId4 = jobFamilyQId;
                 jobListGridView1.QuestionId4AnswerIds = _jobFamily;
@@ -781,13 +790,15 @@ namespace BOA
                 {
                     _jobFamily = string.IsNullOrEmpty(Request["ddlJobFamily"]) ? "-1" : Request["ddlJobFamily"];
                 }
+
+                _ddlJobArea = string.IsNullOrEmpty(Request["jobareas"]) ? "-1" : Request["jobareas"];
                 _jobType = string.IsNullOrEmpty(Request["fullpart"]) ? "-1" : Request["fullpart"];
                 _jobShift = string.IsNullOrEmpty(Request["shift"]) ? "" : Request["shift"];
                 _daterange = string.IsNullOrEmpty(Request["datepost"]) ? "365" : Request["datepost"];
 
-                _country = string.IsNullOrEmpty(Request["country"]) ? "-1" : Request["country"];
-                _state = string.IsNullOrEmpty(Request["state"]) ? "-1" : Request["state"];
-                _city = string.IsNullOrEmpty(Request["city"]) ? "-1" : Request["city"];
+                _country = string.IsNullOrEmpty(Request["countryid"]) ? "-1" : Request["countryid"];
+                _state = string.IsNullOrEmpty(Request["stateid"]) ? "-1" : Request["stateid"];
+                _city = string.IsNullOrEmpty(Request["cityid"]) ? "-1" : Request["cityid"];
 
                 _distance = string.IsNullOrEmpty(Request["ddlRadius"]) ? "-1" : Request["ddlRadius"];
                 _zipcode = string.IsNullOrEmpty(Request["txtZipCode"]) ? "Zip Code" : Request["txtZipCode"];
@@ -858,7 +869,8 @@ namespace BOA
             int maxRows = getMaxRows();
             int RecPerPage = getRecordsPerPage();
             int startJobCnt = ((_currPageIndex - 1) * RecPerPage) + 1;
-            int endJobCnt = (_currPageIndex) * (RecPerPage);
+            int endJobCnt = endJobCnt = (_currPageIndex) * (RecPerPage);
+
             if (_currPageIndex == _maxPage) endJobCnt = maxRows;
 
             paging_text.Text = "Jobs " + startJobCnt.ToString() + " - " + endJobCnt.ToString() + " of " + maxRows.ToString();
@@ -1082,11 +1094,11 @@ namespace BOA
             {
                 if (_distance != "-1")
                 {
-                    intPageIndex = zcrGridView1.PageIndex;
+                    intPageIndex = zcrGridView1.PageIndex+1;
                 }
                 else
                 {
-                    intPageIndex = jobListGridView1.PageIndex;
+                    intPageIndex = jobListGridView1.PageIndex+1;
                 }
             }
             catch (Exception ex)
@@ -1372,6 +1384,7 @@ namespace BOA
         public void funAdvSearchInternational(int iFrom)
         {
             string LocationID = InternationalCity.SelectedValue;
+            _city = LocationID;
             string JobFamilyID = _jobFamily;
             string keywrd = keywords.Text;
 

@@ -66,7 +66,7 @@
 	
     Function getZipCodeRadiusControl(c_lass,style)
 %>
-    <input name="txtZipCode" type="text" id="txtZipCode" onkeypress="return onlyNumbers(event);" title="Zip Code" <%=c_lass%><%=style%> /><br>
+    <input name="txtZipCode" type="text" id="txtZipCode" onkeypress="return onlyNumbers(event);" maxlength="5" title="Zip Code" <%=c_lass%><%=style%> /><br>
     <b>Distance (miles) from Zip Code</b>
 
     <select size="1" name="ddlRadius" id="ddlRadius" title="Distance (miles) from Zip Code" <%=c_lass%><%=style%>>
@@ -74,9 +74,8 @@
 			<option value="5">5</option>
 			<option value="10">10</option>
 			<option value="20">20</option>
-			<option value="30">30</option>
 			<option value="50">50</option>
-			<option value="70">70</option>
+			<option value="70">75</option>
 			<option value="100">100</option>
 		</select>
     
@@ -203,7 +202,9 @@
 	
 	Function getCountrySelect(c_lass,style)
 		Call setCmd()
-		cmd.CommandText = "p_SelectISOCountries"
+		'cmd.CommandText = "p_SelectISOCountries"
+        cmd.CommandText = "P_SelectCountryAll"  'hits iq2 db
+        
 		Set rssCountries=server.CreateObject ("ADODB.Recordset")
 		rssCountries.LockType = adLockOptimistic
 		rssCountries.CursorLocation = adUseClient
@@ -248,7 +249,14 @@
 	
 	Function getUSStateSelectDB(c_lass,style)
 		Call setCmd()
-		cmd.CommandText = "p_SelectStateList"
+		'cmd.CommandText = "p_SelectStateList"
+        
+			cmd.Parameters.Append cmd.CreateParameter("iCountryId",adInteger,adParamInput)
+				cmd.Parameters("iCountryId") = countryid
+				param_number = cmd_params.Count + 1
+				cmd_params.add param_number, "iCountryId"
+			cmd.CommandText = "GetState"
+
 		Set rssStates=server.CreateObject ("ADODB.Recordset")
 		rssStates.LockType = adLockOptimistic
 		rssStates.CursorLocation = adUseClient
@@ -261,8 +269,8 @@
 			rssStates.MoveFirst
 			Do While not rssStates.EOF
 				Set state = Server.CreateObject("Scripting.Dictionary")
-				state.add "StateID", Trim(rssStates("StateID"))
-				state.add "State", Trim(rssStates("State"))
+				state.add "StateID", Trim(rssStates("state_id"))
+				state.add "State", Trim(rssStates("state_name"))
 				
 				state_number = states.Count + 1
 				states.add state_number, state
@@ -295,19 +303,19 @@
 		Set cities = Server.CreateObject("Scripting.Dictionary")
 		
 		If CInt(countryid) > 0 Then
-			If countryid = "1" Then
-				cmd.Parameters.Append cmd.CreateParameter("Stateid",adInteger,adParamInput)
-					cmd.Parameters("Stateid") = stateid
+
+				cmd.Parameters.Append cmd.CreateParameter("StateRegion",adInteger,adParamInput)
+					cmd.Parameters("StateRegion") = stateid
 					param_number = cmd_params.Count + 1
-					cmd_params.add param_number, "Stateid"
-				cmd.CommandText = "p_Career_Sites_select_City"
-			Else
-				cmd.Parameters.Append cmd.CreateParameter("countryid",adInteger,adParamInput)
-					cmd.Parameters("countryid") = countryid
+					cmd_params.add param_number, "StateRegion"
+
+                cmd.Parameters.Append cmd.CreateParameter("CountryID",adInteger,adParamInput)
+                    cmd.Parameters("CountryID") = countryid
 					param_number = cmd_params.Count + 1
-					cmd_params.add param_number, "countryid"
-				cmd.CommandText = "p_SelectInternationalCityByCountry"
-			End If
+					cmd_params.add param_number, "CountryID"
+				'cmd.CommandText = "p_Career_Sites_select_City"
+                cmd.CommandText = "P_SelectCityAllByState" ' iq db
+
 			Set rssCities=server.CreateObject ("ADODB.Recordset")
 			rssCities.LockType = adLockOptimistic
 			rssCities.CursorLocation = adUseClient
@@ -318,14 +326,10 @@
 				rssCities.MoveFirst
 				Do While not rssCities.EOF
 					Set city = Server.CreateObject("Scripting.Dictionary")
-					If countryid = "1" Then
-						city.add "cityid", Trim(rssCities("CityID"))
-						city.add "city", Trim(rssCities("City"))
-					Else
-						city.add "cityid", Trim(rssCities("locationid"))
-						city.add "city", Trim(rssCities("city"))
-					End If
-					
+
+					city.add "cityid", Trim(rssCities("city_id"))
+					city.add "city", Trim(rssCities("city_name"))
+
 					city_number = cities.Count + 1
 					cities.add city_number, city
 					rssCities.MoveNext
@@ -335,7 +339,7 @@
 			Set  rssCities = nothing
 		End If
 %>
-<select name="cityid" id="cityid" title="Select a city"<%=c_lass%><%=style%>>
+<select name="cityid" id="cityid" title="Select a city" <%=c_lass%><%=style%>>
 	<option value="-1"<%If cityid="-1" Or cityid="" Then Response.write " selected"%>>All cities</option>
 <%
 		city_numbers = cities.Keys

@@ -142,7 +142,7 @@
                                                   { %>
                                                 <b>Unposting Date:</b> 
                                                 <%} %>
-                                                <asp:Label ID="lblUnpostingDate" runat="server" Text='<%# GetCustomFieldValue(Container.CustomFields, "UnpostDate") %>'></asp:Label>
+                                                <asp:Label ID="lblUnpostingDate" runat="server" Text='<%# GetCustomFieldValue(Container.CustomFields, "UnpostDate")%>'></asp:Label>
                                             </td>
                                         </tr>
                                     </table>

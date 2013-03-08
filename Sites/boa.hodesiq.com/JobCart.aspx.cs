@@ -104,7 +104,8 @@ namespace BOA
                 }
                 else
                 {
-                    //ApplyURL = hdnURL.Value;
+                    ApplyURL = hdnURL.Value;
+                    /*
                     if (CountryID == "1")
                     {
                         //This is only for usa job.  How does hdnApplyUrl get set?
@@ -114,7 +115,7 @@ namespace BOA
                     else
                     {
                     }
-
+                    */
                 }
 
                 ApplyURL = targetpage + "countryid=" + CountryID + "&url=" + HttpUtility.UrlEncode(ApplyURL);

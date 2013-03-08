@@ -4,6 +4,18 @@
 
 <asp:Content ID="Content1" runat="Server" ContentPlaceHolderID="cphmain">  
 <table border="0" cellpadding="0" cellspacing="0" summary="" width="578"><tr><td valign="top"><h1 style="margin: 0px 0px 0px 12px; ">Guided Job Search</h1></td><td align="right">
+<SCRIPT language=Javascript>
+       <!--
+    function isNumberKey(evt) {
+        var charCode = (evt.which) ? evt.which : event.keyCode;
+        if (charCode != 46 && charCode > 31
+            && (charCode < 48 || charCode > 57))
+            return false;
+
+        return true;
+    }
+       //-->
+    </SCRIPT>
 
 <div id="banc2" runat="server"><a id="ImgMerchantServices2" runat="server" style="display:block;float:right;" name="Stay_Connected_to_Careers_on_Twitter_BofA_Careers" target="_blank" href="http://twitter.com/BofA_Careers"><img src="../images/Twitter_Ad_for_Careers4.jpg" alt="Stay connected to Careers on twitter @BofA_Careers.  Link opens a new window." border="0" align="top"></a></div>
 <div id="banc" runat="server"><a id="ImgMerchantServices" runat="server" style="display:block;float:right;"></a></div>	</td></tr> 
@@ -126,7 +138,7 @@
 							<td id="Td1"  valign="top" style="width:50%; height:45;" runat="server" >
                                 <asp:Label ID="lblZipCode" runat="server" Text="Zip Code" AssociatedControlID="txtZipCode"></asp:Label><br />
 								<asp:TextBox ID="txtZipCode" runat="server" CssClass="left" Style="width: 90%; size: 20"
-								    ToolTip="Zip Code" ></asp:TextBox>
+								    ToolTip="Zip Code" maxlength="5" onkeypress="return isNumberKey(event)"></asp:TextBox>
 							</td>
 						</tr>
 						<tr id="trDatepostedShifts" runat="server">
@@ -153,9 +165,8 @@
                                     <asp:ListItem Value="5">5</asp:ListItem>
 								    <asp:ListItem Value="10">10</asp:ListItem>
 								    <asp:ListItem Value="20">20</asp:ListItem>
-								    <asp:ListItem Value="30">30</asp:ListItem>
 								    <asp:ListItem Value="50">50</asp:ListItem>
-                                    <asp:ListItem Value="70">70</asp:ListItem>
+                                    <asp:ListItem Value="70">75</asp:ListItem>
                                     <asp:ListItem Value="100">100</asp:ListItem>
 								</asp:ListBox>
 							</td>
@@ -281,7 +292,7 @@
 
                                 <asp:LinkButton 
                                     ID="previous_page"
-                                    Text="&#9668; Previous"
+                                    Text="&#9668; Previous Page"
                                     OnClick="previous_page_Click"
                                     CausesValidation="False" 
                                     runat="server" />
@@ -290,7 +301,7 @@
             
                                 <asp:LinkButton 
                                     ID="next_page"
-                                    Text="Next &#9658;"
+                                    Text="Next Page &#9658;"
                                     OnClick="next_page_Click"
                                     CausesValidation="False" 
                                     runat="server" />
@@ -321,7 +332,7 @@
                         
                             <asp:TemplateField HeaderText="Title" Visible="true"  SortExpression="Title">
                                 <ItemTemplate>
-                                    <a title="click for job details" href="JobDetails.aspx?SearchPage=ASP&CountryId=<%= _country%>&JobId=<%# Eval("JobId").ToString()%>&stateid=<%= _state%>&cityid=<%= _city%>&travel=<%= _travel%>&jfamily=<%= _jobFamily%>&lang=&fullpart=<%= _jobType%>&shift=<%= _jobShift%>&datepost=<%= _daterange%>&keywords=<%= _keyword%>&jobareas=<%= _ddlJobArea%>&feedname=BOAFEEDUSA&BOAFeedName=&jobfamilyid=<%= _jobFamily%>&internationalcity=&LocationID=0">
+                                    <a title="click for job details" href="JobDetails.aspx?SearchPage=ASP&CountryId=<%= _country%>&JobId=<%# Eval("JobId").ToString()%>&stateid=<%= _state%>&cityid=<%= _city%>&travel=<%= _travel%>&jfamily=<%= _jobFamily%>&lang=&fullpart=<%= _jobType%>&shift=<%= _jobShift%>&datepost=<%= _daterange%>&keywords=<%= _keyword%>&jobareas=<%= _ddlJobArea%>&txtZipCode=<%= _zipcode%>&ddlRadius=&<%= _distance%>&feedname=BOAFEEDUSA&BOAFeedName=&jobfamilyid=<%= _jobFamily%>&internationalcity=&LocationID=0">
                                         <%# Eval("Title").ToString()%>
                                     </a>
                                     <HeaderStyle CssClass="pd" Font-Bold="true" ForeColor="black" HorizontalAlign="Left" Width="50%" Height="24px"/>
@@ -408,7 +419,7 @@
 
                                 <asp:LinkButton 
                                     ID="previous_page2"
-                                    Text="&#9668; Previous"
+                                    Text="&#9668; Previous Page"
                                     OnClick="previous_page_Click"
                                     CausesValidation="False" 
                                     runat="server" />
@@ -417,7 +428,7 @@
             
                                 <asp:LinkButton 
                                     ID="next_page2"
-                                    Text="Next &#9658;"
+                                    Text="Next Page &#9658;"
                                     OnClick="next_page_Click"
                                     CausesValidation="False" 
                                     runat="server" />
