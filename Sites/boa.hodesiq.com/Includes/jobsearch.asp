@@ -96,6 +96,7 @@ function changeCity()
 <form style="margin: 0px;" name="jsearch" method="post" action="">
 <%End If%>
 <input type="hidden" name="from" id="from" value="<% Response.write page_self %>">
+<input type="hidden" name="guidedJS" id="guidedJS" value="1">
 					<table width="<%=jwdt%>" cellpadding="0" cellspacing="0" border="0" summary="" style="<%=stl%>">
 						<tr>
 							<td style="padding: 0px 0px 0px 0px;">

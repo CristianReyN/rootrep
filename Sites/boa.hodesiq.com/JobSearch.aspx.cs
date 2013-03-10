@@ -145,18 +145,28 @@ namespace BOA
                     }
                     else
                     {
-                        // Save view state for sort and page position
-                        LoadViewState();  // get any pre-existing sort order
-          
-                        //zcrGridView1.PageIndex = 1;
-                        //jobListGridView1.PageIndex = 1;
-                        SaveViewState();
+                        //if this is a post from guided job search, reset pageindexes
+                        if (Request["guidedJS"] == "1")
+                        {
+                            zcrGridView1.PageIndex = 1;
+                            jobListGridView1.PageIndex = 1;
+                            jobListGridView2.PageIndex = 1;
+                        }
+                        else
+                        {
+                            // Save view state for sort and page position
+                            LoadViewState();  // get any pre-existing sort order
 
-                        // Save view state for sort and page position
-                        LoadViewStateGlobal();  // get any pre-existing sort order
-                        //zcrGridView1.PageIndex = 1;
-                        jobListGridView2.PageIndex = 1;
-                        SaveViewStateGlobal();
+                            //zcrGridView1.PageIndex = 1;
+                            //jobListGridView1.PageIndex = 1;
+                            SaveViewState();
+
+                            // Save view state for sort and page position
+                            LoadViewStateGlobal();  // get any pre-existing sort order
+                            //zcrGridView1.PageIndex = 1;
+                            jobListGridView2.PageIndex = 1;
+                            SaveViewStateGlobal();
+                        }
                     }
 
                     funAdvSearch(0);

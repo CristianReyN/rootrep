@@ -21,7 +21,7 @@ Function ExistsInRequest(requested_key)
 	ExistsInRequest = exists
 End Function
 	
-	Dim requestfrom, countryid, cityid, jobareas, jobfamilyid, keywords, SearchPage, txtZipcode, ddlRadius
+	Dim requestfrom, countryid, cityid, jobareas, jobfamilyid, keywords, SearchPage, txtZipcode, ddlRadius, guidedJS
 		requestfrom = Request("from")
 		countryid = Request("countryid")
 		stateid = Request("stateid")
@@ -34,6 +34,7 @@ End Function
 		SearchPage = Request("SearchPage")
         txtZipCode = Request("txtZipCode")
         ddlRadius = Request("ddlRadius")
+        guidedJS = Request("guidedJS")
 
 %><!-- #include file="../Includes/whitelist.asp" --><%
 	keywords = ClearKeywords(keywords)
@@ -42,10 +43,10 @@ End Function
 	Dim query
 		query = ""
 	If ExistsInRequest("jobareas") Then
-		query = "?countryid=1&stateid="&stateid&"&cityid="&cityid&"&txtZipCode="&txtZipCode&"&ddlRadius="&ddlRadius&"&keywords="&keywords&"&jobareas="&jobareas
+		query = "?guidedJS="&guidedJS&"&countryid=1&stateid="&stateid&"&cityid="&cityid&"&txtZipCode="&txtZipCode&"&ddlRadius="&ddlRadius&"&keywords="&keywords&"&jobareas="&jobareas
 		If ExistsInRequest("SearchPage") Then query = query & "&SearchPage=" & SearchPage
 	ElseIf ExistsInRequest("jobfamilyid") And CInt(countryid) > 1 Then
-		query = "?countryid="&countryid&"&internationalcityid="&cityid&"&keywords="&keywords&"&jobfamilyid="&jobfamilyid
+		query = "?guidedJS="&guidedJS&"&countryid="&countryid&"&internationalcityid="&cityid&"&keywords="&keywords&"&jobfamilyid="&jobfamilyid
 	End If
 	
 	If query = "" Then
