@@ -1,5 +1,5 @@
   <%@ Page AutoEventWireup="true" CodeFile="JobSearch.aspx.cs" Inherits="BOA.JobSearch"
-      Language="C#" MasterPageFile="~/BOAmaster.master" ValidateRequest="false" EnableEventValidation="false" %>
+      Language="C#" MasterPageFile="~/BOAmaster.master" ValidateRequest="false" EnableEventValidation="false" EnableViewState="true" %>
       <%@ Register Assembly="CareerSiteWebControls" Namespace="CareerSiteWebControls" TagPrefix="cswc" %>
 
 <asp:Content ID="Content1" runat="Server" ContentPlaceHolderID="cphmain">  
@@ -332,7 +332,7 @@
                         
                             <asp:TemplateField HeaderText="Title" Visible="true"  SortExpression="Title">
                                 <ItemTemplate>
-                                    <a title="click for job details" href="JobDetails.aspx?SearchPage=ASP&CountryId=<%= _country%>&JobId=<%# Eval("JobId").ToString()%>&stateid=<%= _state%>&cityid=<%= _city%>&travel=<%= _travel%>&jfamily=<%= _jobFamily%>&lang=&fullpart=<%= _jobType%>&shift=<%= _jobShift%>&datepost=<%= _daterange%>&keywords=<%= _keyword%>&jobareas=<%= _ddlJobArea%>&txtZipCode=<%= _zipcode%>&ddlRadius=&<%= _distance%>&feedname=BOAFEEDUSA&BOAFeedName=&jobfamilyid=<%= _jobFamily%>&internationalcity=&LocationID=0">
+                                    <a title="click for job details" href="JobDetails.aspx?SearchPage=ASP&FromJobDetails=1&currPageIndex=<%= _currPageIndex%>&CountryId=<%= _country%>&JobId=<%# Eval("JobId").ToString()%>&stateid=<%= _state%>&cityid=<%= _city%>&travel=<%= _travel%>&jfamily=<%= _jobFamily%>&lang=&fullpart=<%= _jobType%>&shift=<%= _jobShift%>&datepost=<%= _daterange%>&keywords=<%= _keyword%>&jobareas=<%= _ddlJobArea%>&txtZipCode=<%= _zipcode%>&ddlRadius=<%= _distance%>&feedname=BOAFEEDUSA&BOAFeedName=&jobfamilyid=<%= _jobFamily%>&internationalcity=&LocationID=0">
                                         <%# Eval("Title").ToString()%>
                                     </a>
                                     <HeaderStyle CssClass="pd" Font-Bold="true" ForeColor="black" HorizontalAlign="Left" Width="50%" Height="24px"/>
@@ -384,7 +384,7 @@
                         
                             <asp:TemplateField HeaderText="Title" Visible="true"  SortExpression="Title">
                                 <ItemTemplate>
-                                    <a title="click for job details" href="JobDetails.aspx?SearchPage=ASP&CountryId=<%= _country%>&JobId=<%# Eval("JobId").ToString()%>&stateid=<%= _state%>&cityid=<%= _city%>&travel=<%= _travel%>&jfamily=<%= _jobFamily%>&lang=&fullpart=<%= _jobType%>&shift=<%= _jobShift%>&datepost=<%= _daterange%>&keywords=<%= _keyword%>&jobareas=<%= _ddlJobArea%>&feedname=BOAFEEDUSA&BOAFeedName=&jobfamilyid=<%= _jobFamily%>&internationalcity=&LocationID=0">
+                                    <a title="click for job details" href="JobDetails.aspx?SearchPage=ASP&FromJobDetails=1&currPageIndex=<%= _currPageIndexGlobal%>&CountryId=<%= _country%>&JobId=<%# Eval("JobId").ToString()%>&stateid=<%= _state%>&cityid=<%= _city%>&travel=<%= _travel%>&jfamily=<%= _jobFamily%>&lang=&fullpart=<%= _jobType%>&shift=<%= _jobShift%>&datepost=<%= _daterange%>&keywords=<%= _keyword%>&jobareas=<%= _ddlJobArea%>&feedname=BOAFEEDUSA&BOAFeedName=&jobfamilyid=<%= _jobFamily%>&internationalcity=&LocationID=0">
                                         <%# Eval("Title").ToString()%>
                                     </a>
                                     <HeaderStyle CssClass="pd" Font-Bold="true" ForeColor="black" HorizontalAlign="Left" Width="50%" Height="24px"/>

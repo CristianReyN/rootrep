@@ -23,8 +23,8 @@ namespace BOA
         private string constring = ConfigurationManager.AppSettings["StrUdlFileName"];
         string BOAFeedName = "";
 
-        private int _currPageIndex = 1;
-        private int _currPageIndexGlobal = 1;
+        public int _currPageIndex = 1;
+        public int _currPageIndexGlobal = 1;
         private int _maxPage = 9999;
         private int _maxPageGlobal = 9999;
         private SortDirection _sortDir = 0;
@@ -129,26 +129,42 @@ namespace BOA
                     PnlFilter.Visible = true;
                     PnlResults.Visible = true;
                     BtnBegin.Visible = false;
+
                     ViewState["PageNumber"] = 1;
+
+                    if (Request["FromJobDetails"] == "1")
+                    {
+                        //LoadViewState();  // get any pre-existing sort order
+                        //LoadViewStateGlobal();
+                        if (Request["_currPageIndex"] != "")
+                        {
+                            zcrGridView1.PageIndex = Convert.ToInt32(Request["currPageIndex"]);
+                            jobListGridView1.PageIndex = Convert.ToInt32(Request["currPageIndex"]);
+                            jobListGridView2.PageIndex = Convert.ToInt32(Request["currPageIndex"]);
+                        }
+                    }
+                    else
+                    {
+                        // Save view state for sort and page position
+                        LoadViewState();  // get any pre-existing sort order
+          
+                        //zcrGridView1.PageIndex = 1;
+                        //jobListGridView1.PageIndex = 1;
+                        SaveViewState();
+
+                        // Save view state for sort and page position
+                        LoadViewStateGlobal();  // get any pre-existing sort order
+                        //zcrGridView1.PageIndex = 1;
+                        jobListGridView2.PageIndex = 1;
+                        SaveViewStateGlobal();
+                    }
+
                     funAdvSearch(0);
                 }
 
-                if (Country.SelectedValue == Location.USA)
-                {
-                    // Save view state for sort and page position
-                    LoadViewState();  // get any pre-existing sort order
-                    zcrGridView1.PageIndex = 1;
-                    jobListGridView1.PageIndex = 1;
-                    SaveViewState();
-                }
-                else
-                {
-                    // Save view state for sort and page position
-                    LoadViewStateGlobal();  // get any pre-existing sort order
-                    //zcrGridView1.PageIndex = 1;
-                    jobListGridView2.PageIndex = 1;
-                    SaveViewStateGlobal();
-                }
+                
+                    
+               
 
                 
 
@@ -281,6 +297,7 @@ namespace BOA
                     setPageIndex(_currPageIndex);
 
                     // Save view state for sort and page position
+                    ViewState["pageIndex"] = _currPageIndex;
                     SaveViewState();
 
                     // Assign search values to job list grid
@@ -299,6 +316,7 @@ namespace BOA
                     setPageIndexGlobal(_currPageIndexGlobal);
 
                     // Save view state for sort and page position
+                    ViewState["pageIndexGlobal"] = _currPageIndexGlobal;
                     SaveViewStateGlobal();
 
                     // Assign search values to job list grid
@@ -330,6 +348,7 @@ namespace BOA
                     setPageIndex(_currPageIndex);
 
                     // Save view state for sort and page position
+                    ViewState["pageIndex"] = _currPageIndex;
                     SaveViewState();
 
                     // Assign search values to job list grid
@@ -348,6 +367,7 @@ namespace BOA
                     setPageIndexGlobal(_currPageIndexGlobal);
 
                     // Save view state for sort and page position
+                    ViewState["pageIndexGlobal"] = _currPageIndexGlobal;
                     SaveViewStateGlobal();
 
                     // Assign search values to job list grid
@@ -447,6 +467,27 @@ namespace BOA
             zcrGridView1.QuestionId3 = jobShiftQId;
             zcrGridView1.QuestionId3AnswerIds = _jobShift;
 
+            if (!string.IsNullOrEmpty(_ddlJobArea))
+            {
+
+                if (_ddlJobArea != "-1")
+                {
+                    //split aot and job family
+                    string[] arrAOTJobFamily = null;
+                    arrAOTJobFamily = _ddlJobArea.Split("|".ToCharArray());
+                    _areaOfTalent = arrAOTJobFamily[0];
+                    _jobFamily = arrAOTJobFamily[1];
+                }
+                else
+                {
+                    _areaOfTalent = "-1";
+                    _jobFamily = "-1";
+                }
+            }
+
+            zcrGridView1.QuestionId4 = jobFamilyQId;
+            zcrGridView1.QuestionId4AnswerIds = _jobFamily;
+
 
             // Assign zip/radius values used for searching
             if (_distance != null)
@@ -521,8 +562,8 @@ namespace BOA
                 jobListGridView1.QuestionId4 = jobFamilyQId;
                 jobListGridView1.QuestionId4AnswerIds = _jobFamily;
 
-                jobListGridView1.QuestionId5 = aotQId;
-                jobListGridView1.QuestionId5AnswerIds = _areaOfTalent;
+                //jobListGridView1.QuestionId5 = aotQId;
+                //jobListGridView1.QuestionId5AnswerIds = _areaOfTalent;
             }
 
             // Assign country/stte/city values used for searching
@@ -617,7 +658,7 @@ namespace BOA
             }
         }
 
-        private new void SaveViewStateGlobal()
+        private void SaveViewStateGlobal()
         {
             try
             {
@@ -828,8 +869,9 @@ namespace BOA
                 // If this was a post back then get values from 
                 // current form Elements on page
 
-                _travel = string.IsNullOrEmpty(Request["travel"]) ? "-1" : Request["travel"];
+                //_travel = string.IsNullOrEmpty(Request["travel"]) ? "-1" : Request["travel"];
                 //_travel = Utility.getListBoxSelectedValues(travel);
+                _travel = travel.SelectedValue;
                 _jobShift = Utility.getListBoxSelectedValues(shift);
                 _jobType = Utility.getListBoxSelectedValues(fullpart);
                 _daterange = datepost.SelectedValue;
@@ -1094,11 +1136,11 @@ namespace BOA
             {
                 if (_distance != "-1")
                 {
-                    intPageIndex = zcrGridView1.PageIndex+1;
+                    intPageIndex = zcrGridView1.PageIndex;
                 }
                 else
                 {
-                    intPageIndex = jobListGridView1.PageIndex+1;
+                    intPageIndex = jobListGridView1.PageIndex;
                 }
             }
             catch (Exception ex)
@@ -1409,6 +1451,7 @@ namespace BOA
 
         public void funAdvSearchUS(int iFrom)
         {
+            /*
             int state = -1;
             int city = -1;
             string keywrd = "";
@@ -1417,6 +1460,7 @@ namespace BOA
             string Lang = "";
             string Shift = "";
             int PostDate = -1;
+             */
 
             // Assign search values to job list grid and get the records
             assignJobListValues();
@@ -1462,14 +1506,35 @@ namespace BOA
 
         protected void bsearch_Click(object sender, EventArgs e)
         {
-            //validate zip code/radius entries
-
-            if (Utility.ValidateForm(ddlRadius,txtZipCode,lblValidation))
+            if (Country.SelectedValue == Location.USA)
             {
-                ViewState["PageNumber"] = 1;
-                funAdvSearch(0);
-                PnlResults.Visible = true;
+                //validate zip code/radius entries
+                // Check to see if the user is searching by ZipCode or Location
+                if (_distance != "-1")
+                {
+                    if (Utility.ValidateForm(ddlRadius, txtZipCode, lblValidation))
+                    {
+                        ViewState["PageNumber"] = 1;
+                        zcrGridView1.PageIndex = 1;                      
+                    } 
+
+                }
+                else
+                {
+                    ViewState["PageNumber"] = 1;
+                    jobListGridView1.PageIndex = 1;                                    
+                }
+                SaveViewState(); 
             }
+            else 
+            {
+                jobListGridView2.PageIndex = 1;
+                SaveViewStateGlobal();
+            }
+
+            funAdvSearch(0);
+            PnlResults.Visible = true; 
+  
         }
 
         protected void display_filter(object sender, EventArgs e)
@@ -1602,11 +1667,14 @@ namespace BOA
             dr.Close();
         }
         */
+
+        
         protected void brefine_Click(object sender, EventArgs e)
         {
             RefineSearch(this.State.SelectedItem.Value);
             bsearch_Click(sender, e);
         }
+         
 
         protected void Country_Click(object sender, EventArgs e)
         {
@@ -1726,14 +1794,18 @@ namespace BOA
             City.Items.Insert(0, new ListItem("All cities", "-1"));
             dr.Close();
         }
+        /*
         protected void btnJobCart_Click(object sender, EventArgs e)
         {
             Response.Redirect("jobcart.aspx");
         }
+         */ 
+        /*
         protected void btnBasicSearch_Click(object sender, EventArgs e)
         {
             Response.Redirect("jobsearch.aspx");
         }
+         */
 
         /*
         protected void PopulateJobFamily()

@@ -363,7 +363,9 @@ public class Utility
 
         String aot = GetAppSettings("aotAdministration");
 
-        ListItem li = new ListItem("All Administration", aot + "|-1");
+        ListItem li = new ListItem("All Administration", aot + "|" + GetAppSettings("famChangeMgmtProcess") + "," + 
+                     GetAppSettings("famCorporateExecutive") + "," + GetAppSettings("famLegal") + "," + GetAppSettings("famServices"));
+
         li.Attributes["OptionGroup"] = "Adminstration";
         ddlJobAreas.Items.Add(li);
 
@@ -373,6 +375,7 @@ public class Utility
 
         ListItem li3 = new ListItem("Corporate Executive", aot + "|" + GetAppSettings("famCorporateExecutive"));
         li3.Attributes["OptionGroup"] = "Adminstration";
+
         ddlJobAreas.Items.Add(li3);
 
         ListItem li4 = new ListItem("Legal", aot + "|" + GetAppSettings("famLegal"));
