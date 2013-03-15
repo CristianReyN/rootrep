@@ -10,6 +10,8 @@ using System.Web.UI.WebControls;
 using System.Web.UI.WebControls.WebParts;
 using System.Web.UI.HtmlControls;
 using System.Net.Mail;
+using System.Net;
+using System.Xml;
 using System.Text.RegularExpressions;
 
 
@@ -62,8 +64,15 @@ public partial class Tell_a_friend : System.Web.UI.Page
                     message.Subject = "Career opportunity with Bank Of America";
                     message.IsBodyHtml = true;
 
+                    string strJobdetailURL = ConfigurationManager.AppSettings["jobdetailserviceURL"].ToString() + "?h=" +
+                                             ConfigurationManager.AppSettings["maskedHiringOrgID"].ToString() + "&j=" + strJobID +
+                                             "&e=" + ConfigurationManager.AppSettings["emediaID"].ToString() + "&q=0&format=";
+                    string strJobDetails = getServiceResult(strJobdetailURL);
+                    //string strJobDetails = getServiceResult("http://ws.stg.hodesiq.com/JobSearchService/JobDetails/?h=C722D101-0D08-4346-AC28-175FFC965C27&j=728681&e=91929&q=2667,2668,943,944,946,2733,945,947,949&format=");
+
                     //get this job details:
-                    Jobs JobDetail = new Jobs();
+                    /*
+                     Jobs JobDetail = new Jobs();
 
                     DataTable dt = JobDetail.JobDetails(strJobID, strCountryID, strLocationID, strFeedName);        
                     if (dt.Rows.Count > 0)
@@ -72,9 +81,12 @@ public partial class Tell_a_friend : System.Web.UI.Page
                         strDescripton = dt.Rows[0]["Description"].ToString();
                         strQualification = dt.Rows[0]["Qualification"].ToString();
                     }
+                    */
 
                     strMailBody = "<table align='left' style='width: 560px;' border=0><tr><td>";
                     strMailBody = strMailBody + MessageBox.Text.ToString();
+                    strMailBody = strMailBody + strJobDetails;
+                    /*
                     strMailBody = strMailBody + "<br/><br/>";
                     strMailBody = strMailBody + "<b>" + strJobTitle + "</b>";
                     strMailBody = strMailBody + "<br/><br/>";
@@ -86,6 +98,7 @@ public partial class Tell_a_friend : System.Web.UI.Page
                     strMailBody = strMailBody + "<br/>";
                     strMailBody = strMailBody + strQualification.Replace(Environment.NewLine,"<br/>");
                     strMailBody = strMailBody + "<br/><br/>";
+                     */
                     //url to apply online: strApplyNow 
                     //url to job description
                
@@ -105,17 +118,19 @@ public partial class Tell_a_friend : System.Web.UI.Page
 
                     SmtpClient client = new SmtpClient("localhost");
                     client.DeliveryMethod = SmtpDeliveryMethod.PickupDirectoryFromIis;
+                    //client.DeliveryMethod = SmtpDeliveryMethod.Network;
                     try
                     {
                         client.Send(message);
+                        Response.Redirect("Jobdetails.aspx?" + Request.QueryString);
                     }
                     catch (Exception ex)
                     {
                         Response.Write(ex.ToString());
                     }
                     //insert record into tracking table
-                    TrackTellAFriend();
-                    Response.Redirect("Jobdetails.aspx?" + Request.QueryString);
+                    //TrackTellAFriend();
+                    
                 }
                 else
                 {
@@ -156,6 +171,39 @@ public partial class Tell_a_friend : System.Web.UI.Page
                 return (true);
             else
                 return (false);
+        }
+    }
+
+
+    public string getServiceResult(string serviceUrl)
+    {
+        HttpWebRequest HttpWReq;
+        HttpWebResponse HttpWResp;
+        HttpWReq = (HttpWebRequest)WebRequest.Create(serviceUrl);
+        HttpWReq.Method = "GET";
+        HttpWResp = (HttpWebResponse)HttpWReq.GetResponse();
+        if (HttpWResp.StatusCode == HttpStatusCode.OK)
+        {
+            //Consume webservice with basic XML reading, assumes it returns (one) string
+            XmlReader reader = XmlReader.Create(HttpWResp.GetResponseStream());
+
+            reader.ReadToFollowing("Description");
+            string strDescription = reader.ReadElementContentAsString();
+
+            reader.ReadToFollowing("Title");
+            string strJobTitle = reader.ReadElementContentAsString();
+
+            reader.ReadToFollowing("jobAdditionalRequirements");
+            string strQualification = reader.ReadElementContentAsString();
+
+            string strJobDetails = "<b>" + strJobTitle + "</b><br/><br/><b>Job Description</b><br/>" + strDescription.Replace(Environment.NewLine, "<br/>") +
+                                    "<br/><br/><b>Qualifications</b><br/>" + strQualification.Replace(Environment.NewLine,"<br/>") + "<br/><br/>";
+
+            return strJobDetails;
+        }
+        else
+        {
+            throw new Exception("Error on remote IP to Country service: " + HttpWResp.StatusCode.ToString());
         }
     }
 }

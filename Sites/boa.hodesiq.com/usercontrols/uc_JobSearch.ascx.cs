@@ -127,7 +127,7 @@ public partial class uc_JobSearch : System.Web.UI.UserControl
                 BOAFeedName = "";
             }
 
-            string url = "~/JobSearch.aspx?countryid=" + countryid + "&stateid=" + stateid + "&cityid=" + cityid + "&txtZipCode=" + zipCode + "&ddlRadius=" + radius + "&internationalcityid=" + internationcityid;
+            string url = "~/JobSearch.aspx?guidedJS=1&countryid=" + countryid + "&stateid=" + stateid + "&cityid=" + cityid + "&txtZipCode=" + zipCode + "&ddlRadius=" + radius + "&internationalcityid=" + internationcityid;
             url = url + "&keywords=" + keyword + "&jobareas=" + jobareas + "&jobfamilyid=" + jobfamilyid + "&BOAFeedName=" + BOAFeedName;
 
             Response.Redirect(url);
@@ -303,18 +303,18 @@ public partial class uc_JobSearch : System.Web.UI.UserControl
     {
         City.Items.Clear();
 
+        
         Location Lo = new Location();
         OleDbDataReader dr;
         City.Items.Clear();
         City.DataTextField = "City";
-        City.DataValueField = "Cityid";
+        City.DataValueField = "LocationID";
         dr = Lo.StatewiseCityDR(1);
         City.DataSource = dr;
         City.DataBind();
         City.Items.Insert(0, new ListItem("All cities", "-1"));
         dr.Close();
-
-
+        
     }
 
     protected void PopulateInternationalCity()
@@ -324,7 +324,7 @@ public partial class uc_JobSearch : System.Web.UI.UserControl
         Location Lo = new Location();  
         InternationalCity.DataTextField = "City";
         InternationalCity.DataValueField = "LocationID";
-        DataTable dt = Lo.CountrywiseCity(Country.SelectedValue);
+        DataTable dt = Lo.CountrywiseCity(Country.SelectedValue, "-1");
         InternationalCity.DataSource = dt;
         InternationalCity.DataBind();
         InternationalCity.Items.Insert(0, new ListItem("All cities", "-1"));    

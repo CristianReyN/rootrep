@@ -18,11 +18,9 @@
     </SCRIPT>
 
 <div id="banc2" runat="server"><a id="ImgMerchantServices2" runat="server" style="display:block;float:right;" name="Stay_Connected_to_Careers_on_Twitter_BofA_Careers" target="_blank" href="http://twitter.com/BofA_Careers"><img src="../images/Twitter_Ad_for_Careers4.jpg" alt="Stay connected to Careers on twitter @BofA_Careers.  Link opens a new window." border="0" align="top"></a></div>
-<div id="banc" runat="server"><a id="ImgMerchantServices" runat="server" style="display:block;float:right;"></a></div>	</td></tr> 
+<!--<div id="banc" runat="server"><a id="ImgMerchantServices" runat="server" style="display:block;float:right;"></a></div>-->	</td></tr> 
 
-        <span class='auraltext'>
-         After you select a country from the country field, the page will refresh. For the United States, you can then pick a state.  After you select a state from the 'State" field, the page will refresh.  You will then be able to select a city from the 'City' field.  For all other countries, after you select a country other than the United States from the country field, the page will refresh and you can then select a city from the 'City' field.
-        </span>
+        
         <table border="0" cellpadding="0" cellspacing="0" summary="" width="578">
             <tr valign="top">
                 <td style="padding: 6px 12px 0px 12px; height: 100%" valign="top">
@@ -30,6 +28,7 @@
                         <tr>
                             <td valign="top"  colspan="2"><asp:Label ID="tdInstructions" runat="server"></asp:Label></td>
                             </br>                         
+                            
                         </tr>
                         
 						<tr>
@@ -40,9 +39,11 @@
                             width="100%">
 						<tr id="trCountry" runat="server">
 							<td  valign="top" style="width:48%; height:45;">
-							    <div id="Div3" style="display: inline;">						
+							    <div id="Div3" style="display: inline;">		
+                                    <span class='auraltext'>
+                                        After you select a country from the country field, the page will refresh. For the United States, you can then pick a state.  After you select a state from the 'State" field, the page will refresh.  You will then be able to select a city from the 'City' field.  For all other countries, after you select a country other than the United States from the country field, the page will refresh and you can then select a city from the 'City' field.
+                                    </span>			
 								    <asp:Label ID="lblCountry" runat="server" Text="Country" AssociatedControlID="Country"></asp:Label><br />
-								    
                                     <asp:DropDownList ID="Country" runat="server" CssClass="left" Style="width:90%; z-index: auto;"
 								    ToolTip="Select a country" AutoPostBack="true" OnSelectedIndexChanged="Country_Click">								  
 								    </asp:DropDownList>
@@ -58,7 +59,7 @@
 							</td>
                             <td  valign="middle" style="width:48%; height:45;">
 							    <div id="Div4" style="display: inline;">	
-                            <asp:HyperLink runat="server"  NavigateUrl="#" ID="HylCityNote" onclick="javascript:w= window.open('overview/chelp.html','mywin','left=200px,top=180px,width=625,height=345,resizable=0');return false;" Visible="true" Font-Bold="true" CssClass="p" AssociatedControlID="City" style="width:80%;">How do I use the city/zip code search?<span class="hidden"> Link opens a new window</span></asp:HyperLink>
+                            <asp:HyperLink runat="server"  NavigateUrl="#" ID="HylCityNote" onclick="javascript:w= window.open('overview/chelp.html','mywin','left=200px,top=180px,width=625,height=345,resizable=0');return false;" Visible="true" Font-Bold="true" CssClass="p" AssociatedControlID="City" style="width:80%;">How do I use the state/city or zip code/distance search?<span class="hidden"> Link opens a new window</span></asp:HyperLink>
 							</div>
 							</td>
                             </tr>
@@ -73,7 +74,7 @@
 							<td  valign="top"  style="width:50%; height:45;">
 							   <div id="Div1" style="display: inline;">
 							    <asp:Label ID="LblInternationalCity" runat="server" Text="City" Visible="true" AssociatedControlID="InternationalCity"></asp:Label><br />
-								<asp:DropDownList ID="InternationalCity" runat="server" CssClass="left" Style="width: 90%; z-index: auto;"
+								<asp:DropDownList ID="InternationalCity" runat="server" CssClass="left" Style="width: 45%; z-index: auto;"
 								ToolTip="Select a city" Visible="true" Enabled="true">
 								<asp:ListItem>All cities&#160;</asp:ListItem>
 								</asp:DropDownList>			</div>						
@@ -118,7 +119,7 @@
 							<td valign="top" style="width:50%; height:45;">
 							    <div id="Div2" style="display: inline;">
 								<asp:Label ID="lblJobFamily" runat="server" Text="Job Family" Visible="true" AssociatedControlID="ddlJobFamily"></asp:Label><br />
-								<asp:DropDownList ID="ddlJobFamily" runat="server" CssClass="left" Style="width: 90%; z-index: auto;"
+								<asp:DropDownList ID="ddlJobFamily" runat="server" CssClass="left" Style="width: 45%; z-index: auto;"
 								ToolTip="Select a job family" Visible="true">
 								</asp:DropDownList>
 								</div>
@@ -173,17 +174,10 @@
 						</tr>
 						<tr id="trTravel" runat="server">
 							<td  valign="top" style="width:50%; height:45;" >
-							    <div id="d4" style="display: inline;">
-								    <asp:Label ID="lbltravel" runat="server" Text="Willingness to travel" AssociatedControlID="travel"></asp:Label>
-                                    <cswc:AnswerListBox 
-                                        ID="travel" 
-                                        runat="server"
-                                        ControlType="DropDownList" 
-                                        Style="width: 90%; z-index: auto;" 
-                                        ToolTip="Willingness to Travel">
-                                    </cswc:AnswerListBox>
-
-								</div>
+							    <asp:Label ID="lbltravel" runat="server" Text="Willingness to travel" AssociatedControlID="travel"></asp:Label>
+                                    <asp:DropDownList ID="travel" SelectionMode="Single" runat="server" CssClass="left" Style="width: 90%; z-index: auto;"
+								ToolTip="Travel"  Rows="1" Visible="true">
+								</asp:DropDownList>    
 							</td>
 							<td  valign="top" style="width:50%; height:45;">
 								<asp:Label ID="lbllang" runat="server" Text="Language requirements" AssociatedControlID="lang" Visible="false"></asp:Label>
@@ -192,15 +186,10 @@
 								<asp:ListItem>All languages</asp:ListItem>
 								</asp:ListBox>
                                 <asp:Label ID="lblfullpart" runat="server" Text="Full/part time" AssociatedControlID="fullpart"></asp:Label><br />
-
-
-                                <cswc:AnswerListBox 
-                                        ID="fullpart" 
-                                        runat="server"
-                                        ControlType="DropDownList" 
-                                        Style="width: 90%; z-index: auto;" 
-                                        ToolTip="Full/part time">
-                                    </cswc:AnswerListBox>
+                               
+                                <asp:DropDownList ID="fullpart" SelectionMode="Single" runat="server" CssClass="left" Style="width: 90%; z-index: auto;"
+								ToolTip="Full/part time"  Rows="1" Visible="true">
+								</asp:DropDownList>  
 							</td>
 						</tr>
 						<tr id="trKeywords" runat="server">
@@ -211,15 +200,12 @@
 								    ToolTip="Keywords or job number" ></asp:TextBox>
 								</div>
 							</td>
-							<td  valign="top" style="width:50%; height:45;" id="tdShift" runat="server">&nbsp;
+							<td  valign="top" style="width:50%; height:45;" id="tdShift" runat="server">
                             <asp:Label ID="lblShift" runat="server" Text="Shift" AssociatedControlID="shift"></asp:Label>
-                                <cswc:AnswerListBox 
-                                        ID="shift" 
-                                        runat="server"
-                                        ControlType="DropDownList" 
-                                        Style="width: 90%; z-index: auto;" 
-                                        ToolTip="Shift">
-                                    </cswc:AnswerListBox>
+                            <asp:DropDownList ID="shift" SelectionMode="Single" runat="server" CssClass="left" Style="width: 90%; z-index: auto;"
+								ToolTip="Shift"  Rows="1" Visible="true">
+								</asp:DropDownList> 
+
 							</td>
 						</tr>
 						</table></asp:Panel>
@@ -507,7 +493,7 @@
         if (document.getElementById("ddlRadius").SelectedIndex > 0) {
 
             if (document.getElementById("txtZipCode").value == "") {
-                alert("Zip Code cannot be empty if you are searching by radius/distance.");
+                alert("Zip code cannot be empty if you are searching by distance.");
                 document.getElementById("txtZipCode").focus();
                 return false;
             }
@@ -516,7 +502,7 @@
         if (document.getElementById("txtZipCode").value != "") {
 
             if (document.getElementById("ddlRadius").SelectedIndex == 0) {
-                alert("Please select a distance (miles) from Zip Code value.");
+                alert("Distance (miles) cannot be empty if you are searching by zip code.");
                 document.getElementById("ddlRadius").focus();
                 return false;
             }

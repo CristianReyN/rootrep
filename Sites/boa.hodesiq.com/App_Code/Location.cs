@@ -13,6 +13,8 @@ public class Location
 {
     string Sql;
 	private string constring;
+    private string constringIQ;
+    private string hiringOrgID;
     public const string USA = "1";
     public const string CANADA = "2";
     public const string ALL_COUNTRIES = "0";
@@ -21,6 +23,8 @@ public class Location
 	public Location()
 	{
 		constring = ConfigurationManager.AppSettings["StrUdlFileName"];
+        constringIQ = ConfigurationManager.AppSettings["StrIQUdlFileName"];
+        hiringOrgID = ConfigurationManager.AppSettings["hiringOrgID"];
 	}
     public DataTable City()
     {
@@ -74,15 +78,17 @@ public class Location
 
 
 
-    public DataTable CountrywiseCity(string countryVal)
+    public DataTable CountrywiseCity(string countryVal, string strState)
     {
-        OleDbConnection con = new OleDbConnection(constring);
+        OleDbConnection con = new OleDbConnection(constringIQ);
         con.Open();
         try
         {
-            OleDbCommand cmd = new OleDbCommand("p_SelectInternationalCityByCountry ", con);
+            OleDbCommand cmd = new OleDbCommand("p_BOAJobsCitiesByCountryAndState ", con);
             cmd.CommandType = CommandType.StoredProcedure;
+            cmd.Parameters.AddWithValue("@hiring_orgID", hiringOrgID);
             cmd.Parameters.AddWithValue("@countryid", countryVal);
+            cmd.Parameters.AddWithValue("@stateid", strState);
             OleDbDataAdapter da = new OleDbDataAdapter(cmd);
             DataSet ds = new DataSet();
             da.Fill(ds);
@@ -145,13 +151,13 @@ public class Location
     }
 	public OleDbDataReader StateDR()
 	{
-		OleDbConnection con = new OleDbConnection(constring);
+        OleDbConnection con = new OleDbConnection(constringIQ);
 		con.Open();
 		OleDbDataReader rdr;
 		OleDbCommand cmd = new OleDbCommand();
 		cmd.Connection = con;
 		cmd.CommandType = CommandType.StoredProcedure;
-		cmd.CommandText = "p_SelectStateList";
+        cmd.CommandText = "p_BOASelectStateList";
 
 		try
 		{

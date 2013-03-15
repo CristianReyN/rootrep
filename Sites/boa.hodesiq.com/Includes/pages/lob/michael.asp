@@ -1,13 +1,25 @@
 <% If page_section <> "ADA" Then %>
 <script language="JavaScript1.2" src="../Includes/pages/lob/lob.js" type="text/javascript"></script>
+
+<div id="mainvideo" style="display: block;"><a name="video"></a>
+	<iframe class="youtube-player" type="text/html" width="259" height="166" src="http://www.youtube.com/embed/erEINDx0epM?rel=0" frameborder="0" allowfullscreen></iframe>
+    <table width="259" bgColor="#d4001a" border="0" cellSpacing="0" cellPadding="0" sizcache="1" sizset="51">
+    <tbody sizcache="1" sizset="51">
+    <tr sizcache="1" sizset="51">
+    <td width="100%" height="22" align="center" noWrap="" sizcache="1" sizset="51">
+    <a title="Video transcript" class="btn1" submitName="Video_transcript_1" href="../ada/military_veteran_recruiting.asp#vt" baseClassName="btn1" cmImpressionSent="1">Video transcript</a>
+    </td></tr></tbody></table>
+    </div>
+
+
 <script language="JavaScript1.2" type="text/javascript">
 var ada_href = "<%=ada_href %>";
 action_script = true;
-
+/*
 if ( hasRequestedVersion && michael_video ) {
 	document.write('<H2 class="hidden">Michael&acute;s Associate Testimonial Video<\/H2>');
 	document.write('<div id="mainvideo" style="display: block;"><a name="video"></a>');
-	document.write('<iframe width="259" height="166" src="http://www.youtube.com/embed/erEINDx0epM?rel=0" frameborder="0" allowfullscreen></iframe>');
+	document.write('<iframe class="youtube-player" type="text/html" width="259" height="166" src="http://www.youtube.com/embed/erEINDx0epM?rel=0" frameborder="0" allowfullscreen></iframe>');
     document.write('<table width="259" bgColor="#d4001a" border="0" cellSpacing="0" cellPadding="0" sizcache="1" sizset="51">');
     document.write('<tbody sizcache="1" sizset="51">');
     document.write('<tr sizcache="1" sizset="51">');
@@ -15,10 +27,11 @@ if ( hasRequestedVersion && michael_video ) {
     document.write('<a title="Video transcript" class="btn1" submitName="Video_transcript_1" href="../ada/military_veteran_recruiting.asp#vt" baseClassName="btn1" cmImpressionSent="1">Video transcript</a>');
     document.write('</td></tr></tbody></table>');
     document.write('</div>');
-    
+
 } else {
 	//document.write(reqFlashPlayer+michael_video.thumb_on+reqFlashPlayer2);
 }
+*/
 </script>
 <noscript>
 <a name="video"></a><H2 class="hidden">Michael&acute;s Associate Testimonial Video</H2>

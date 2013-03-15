@@ -525,7 +525,7 @@ public class Utility
 
         aot = GetAppSettings("aotTechnology");
 
-        ListItem li32 = new ListItem("All Technology", aot + "|-1");
+        ListItem li32 = new ListItem("All Technology", aot + "|" + GetAppSettings("famTechnology") + "," + GetAppSettings("famCorporateWorkplace"));
         li32.Attributes["OptionGroup"] = "Technology";
         ddlJobAreas.Items.Add(li32);
 
@@ -628,6 +628,99 @@ public class Utility
 
     }
 
+    public static void PopulateTravelDDL(DropDownList travel, string selVal)
+    {
+
+        travel.Items.Clear();
+
+        ListItem l = new ListItem("All travel", "-1");
+        travel.Items.Insert(0, l);
+
+        ListItem li2 = new ListItem("No", GetAppSettings("travelNO"));
+        travel.Items.Add(li2);
+
+        ListItem li3 = new ListItem("Yes, 5% of the Time", GetAppSettings("travel5"));
+        travel.Items.Add(li3);
+
+        ListItem li4 = new ListItem("Yes, 10% of the Time", GetAppSettings("travel10"));
+        travel.Items.Add(li4);
+
+        ListItem li5 = new ListItem("Yes, 15% of the Time", GetAppSettings("travel15"));
+        travel.Items.Add(li5);
+
+        ListItem li6 = new ListItem("Yes, 20% of the Time", GetAppSettings("travel20"));
+        travel.Items.Add(li6);
+
+        ListItem li7 = new ListItem("Yes, 25% of the Time", GetAppSettings("travel25"));
+        travel.Items.Add(li7);
+
+        ListItem li8 = new ListItem("Yes, 50% of the Time", GetAppSettings("travel50"));
+        travel.Items.Add(li8);
+
+        ListItem li9 = new ListItem("Yes, 75% of the Time", GetAppSettings("travel75"));
+        travel.Items.Add(li9);
+
+        ListItem li10 = new ListItem("Yes, 100 % of the Time", GetAppSettings("travel100"));
+        travel.Items.Add(li10);
+
+
+        ListItem myListItem = new ListItem();
+        myListItem = travel.Items.FindByValue(selVal);
+
+        if (myListItem != null)
+            myListItem.Selected = true;
+
+    }
+
+    public static void PopulateFTPT_DDL(DropDownList fullpart, string selVal)
+    {
+
+        fullpart.Items.Clear();
+
+        ListItem l = new ListItem("All", "-1");
+        fullpart.Items.Insert(0, l);
+
+        ListItem li2 = new ListItem("Full time", GetAppSettings("ftpt-full"));
+        fullpart.Items.Add(li2);
+
+        ListItem li3 = new ListItem("Part time", GetAppSettings("ftpt-part"));
+        fullpart.Items.Add(li3);
+
+        ListItem myListItem = new ListItem();
+        myListItem = fullpart.Items.FindByValue(selVal);
+
+        if (myListItem != null)
+            myListItem.Selected = true;
+
+    }
+
+    public static void PopulateShift_DDL(DropDownList shift, string selVal)
+    {
+
+        shift.Items.Clear();
+
+        ListItem l = new ListItem("All shifts", "-1");
+        shift.Items.Insert(0, l);
+
+        ListItem li2 = new ListItem("1st Shift", GetAppSettings("shift-1"));
+        shift.Items.Add(li2);
+
+        ListItem li3 = new ListItem("2nd Shift", GetAppSettings("shift-2"));
+        shift.Items.Add(li3);
+
+        ListItem li4 = new ListItem("3rd Shift", GetAppSettings("shift-3"));
+        shift.Items.Add(li4);
+
+        ListItem myListItem = new ListItem();
+        myListItem = shift.Items.FindByValue(selVal);
+
+        if (myListItem != null)
+            myListItem.Selected = true;
+
+    }
+
+
+
     public static bool ValidateForm(ListBox ddlRadius, TextBox txtZipCode, Label lblValidation)
     {
         lblValidation.ForeColor = System.Drawing.Color.Red;
@@ -638,7 +731,7 @@ public class Utility
             if (txtZipCode.Text == "")
             {
                 lblValidation.Visible = true;
-                lblValidation.Text = "Zip Code cannot be empty if you are searching by radius/distance.";
+                lblValidation.Text = "Zip code cannot be empty if you are searching by distance.";
                 txtZipCode.Focus();
                 return false;
             }
@@ -648,7 +741,7 @@ public class Utility
             if (ddlRadius.SelectedIndex == 0)
             {
                 lblValidation.Visible = true;
-                lblValidation.Text = "Please select a distance (miles) from Zip Code value.";
+                lblValidation.Text = "Distance (miles) cannot be empty if you are searching by zip code.";
                 ddlRadius.Focus();
                 return false;
             }

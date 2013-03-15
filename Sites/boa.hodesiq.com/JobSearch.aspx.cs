@@ -68,20 +68,20 @@ namespace BOA
             {
                 ManageYourProfile.HRef = "../overview/manage_your_profile.asp";
                 ManageYourProfile.Target = "_blank";
-                ImgMerchantServices.HRef = "--https://bacfhrs.taleo.net/careersection/10200/joblist.ftl?lang=en";
-                ImgMerchantServices.Target = "_blank";
+                //ImgMerchantServices.HRef = "--https://bacfhrs.taleo.net/careersection/10200/joblist.ftl?lang=en";
+                //ImgMerchantServices.Target = "_blank";
             }
 
             //New BAMS Taleo ATS URL
             if (DateTime.Compare(ATSUrlStartDate, DateTime.Now) > 0)
             {
-                ImgMerchantServices.HRef = "https://bacfhrs.taleo.net/careersection/10200/joblist.ftl?lang=en";
-                ImgMerchantServices.Target = "_blank";
+                //ImgMerchantServices.HRef = "https://bacfhrs.taleo.net/careersection/10200/joblist.ftl?lang=en";
+                //ImgMerchantServices.Target = "_blank";
             }
             else
             {
-                ImgMerchantServices.HRef = "../learnmore/bams.asp";
-                ImgMerchantServices.Target = "_blank";
+                //ImgMerchantServices.HRef = "../learnmore/bams.asp";
+                //ImgMerchantServices.Target = "_blank";
             }
 
             //write the boa buttons
@@ -113,6 +113,7 @@ namespace BOA
                 PopulateCountries();
                 PopulateLocations();
                 PopulateCity();
+                
                 //PopulateOtherLists();
                 //PopulateJobFamily();
 
@@ -244,6 +245,12 @@ namespace BOA
 
             Utility.PopulateJobAreasFromIQ(ddlJobAreas, selVal);
             Utility.PopulateGlobalJobFamiliesFromIQ(ddlJobFamily, selVal);
+            Utility.PopulateTravelDDL(travel, selVal);
+            Utility.PopulateFTPT_DDL(fullpart, selVal);
+            Utility.PopulateShift_DDL(shift, selVal);
+
+            
+            
                         
             //postback only if location has been changed:
             this.State.Attributes.Add("onblur", "javascript:if(document." + this.Form.ClientID + "." + this.Statehidden.ClientID + ".value!=document." + this.Form.ClientID + "." + State.ClientID + ".options[document." + this.Form.ClientID + "." + State.ClientID.Replace("$", "_") + ".selectedIndex].value) {setTimeout('__doPostBack(\\'" + this.State.ClientID.Replace("_", "$") + "\\',\\'\\')', 0);}");
@@ -262,7 +269,7 @@ namespace BOA
         {
             string DisplayCanadaJobs = ConfigurationManager.AppSettings["DisplayCanadaJobs"].ToString();
             string Instructions = "To find a career suited to your skill set, begin by selecting a country from the list below. Then you may narrow your selection further by choosing additional search criteria and/or entering keywords.";
-            string USOnlyInstructions = @"Begin your career search by selecting a country.  You may then narrow your search further, by entering additional search criteria or keywords.</br></br>Note:  City search options are limited to areas with current available job opportunities, which change constantly. Results are specific to the single city you select, and do not include results for nearby locations. <a href='#'  target='_blank' onclick=""javascript:window.open('overview/chelp.html','mywin','left=200px,top=180px,width=625,height=345,resizable=0');return false;"" class='p'>Learn more<span class='hidden'> Link opens a new window</span></a>";
+            string USOnlyInstructions = @"Begin your career search by selecting a country.  You may then narrow your search further, by entering additional search criteria or keywords.</br></br>Note:  City or zip code search options are limited to areas with current available job opportunities, which change constantly. Results are specific to the single city or zip code/distance you select. <a href='#'  target='_blank' onclick=""javascript:window.open('overview/chelp.html','mywin','left=200px,top=180px,width=625,height=345,resizable=0');return false;"" class='p'>Learn more<span class='hidden'>How do I use the state/city or zip code/distance search? Link opens a new window</span></a>";
             if (Country.SelectedValue == Location.USA)
             {
                 PnlUSJobsContent.Visible = true;
@@ -622,7 +629,7 @@ namespace BOA
 
             // Assign country/stte/city values used for searching
             jobListGridView2.CountryIds = _country;
-            jobListGridView2.StateIds = _state;
+            //jobListGridView2.StateIds = "-1";
             jobListGridView2.CityIds = _city;
 
             // Assign keyword values used for searching
@@ -806,7 +813,7 @@ namespace BOA
         protected void initSearchFields()
         {
 
-            travel.MaskedHiringOrgId = cs.MaskedHiringOrgId;
+            /*travel.MaskedHiringOrgId = cs.MaskedHiringOrgId;
             travel.QuestionId = cs.RetrieveTagValueQuestionId("Travel");
             travel.DataBind();
             travel.Items.Insert(0, new ListItem("All travel", "-1"));
@@ -816,11 +823,11 @@ namespace BOA
             shift.DataBind();
             shift.Items.Insert(0, new ListItem("All shifts", "-1"));
 
-            fullpart.MaskedHiringOrgId = cs.MaskedHiringOrgId;
+            /*fullpart.MaskedHiringOrgId = cs.MaskedHiringOrgId;
             fullpart.QuestionId = cs.RetrieveTagValueQuestionId("FTPT");
             fullpart.DataBind();
             fullpart.Items.Insert(0, new ListItem("All", "-1"));
-
+            */
         }
 
         protected void getSearchFieldValues()
@@ -881,9 +888,12 @@ namespace BOA
 
                 //_travel = string.IsNullOrEmpty(Request["travel"]) ? "-1" : Request["travel"];
                 //_travel = Utility.getListBoxSelectedValues(travel);
+                //_jobShift = Utility.getListBoxSelectedValues(shift);
+                //_jobType = Utility.getListBoxSelectedValues(fullpart);
+
                 _travel = travel.SelectedValue;
-                _jobShift = Utility.getListBoxSelectedValues(shift);
-                _jobType = Utility.getListBoxSelectedValues(fullpart);
+                _jobShift = shift.SelectedValue;
+                _jobType = fullpart.SelectedValue;
                 _daterange = datepost.SelectedValue;
 
                 _country = Country.SelectedValue;
@@ -1520,30 +1530,33 @@ namespace BOA
             {
                 //validate zip code/radius entries
                 // Check to see if the user is searching by ZipCode or Location
-                if (_distance != "-1")
+                if (Utility.ValidateForm(ddlRadius, txtZipCode, lblValidation))
                 {
-                    if (Utility.ValidateForm(ddlRadius, txtZipCode, lblValidation))
+                    if (_distance != "-1")
                     {
                         ViewState["PageNumber"] = 1;
-                        zcrGridView1.PageIndex = 1;                      
-                    } 
-
+                        zcrGridView1.PageIndex = 1;
+                    }
+                    else
+                    {
+                        ViewState["PageNumber"] = 1;
+                        jobListGridView1.PageIndex = 1;
+                    }
+                    SaveViewState();
+                    funAdvSearch(0);
+                    PnlResults.Visible = true; 
                 }
-                else
-                {
-                    ViewState["PageNumber"] = 1;
-                    jobListGridView1.PageIndex = 1;                                    
-                }
-                SaveViewState(); 
+                
             }
             else 
             {
                 jobListGridView2.PageIndex = 1;
                 SaveViewStateGlobal();
+                funAdvSearch(0);
+                PnlResults.Visible = true; 
             }
 
-            funAdvSearch(0);
-            PnlResults.Visible = true; 
+            
   
         }
 
@@ -1614,16 +1627,26 @@ namespace BOA
 
         protected void PopulateCity()
         {
+            /*
             Location Lo = new Location();
             OleDbDataReader dr;
             City.Items.Clear();
             City.DataTextField = "City";
-            City.DataValueField = "Cityid";
+            City.DataValueField = "LocationID";
             dr = Lo.StatewiseCityDR(1);
             City.DataSource = dr;
             City.DataBind();
             City.Items.Insert(0, new ListItem("All cities", "-1"));
             dr.Close();
+             */
+            Location Lo = new Location();
+            City.Items.Clear();
+            City.DataTextField = "City";
+            City.DataValueField = "LocationID";
+            DataTable dt = Lo.CountrywiseCity(Country.SelectedValue, State.SelectedValue);
+            City.DataSource = dt;
+            City.DataBind();
+            City.Items.Insert(0, new ListItem("All cities", "-1"));
         }
 
         protected void PopulateInternationalCity()
@@ -1633,7 +1656,7 @@ namespace BOA
             Location Lo = new Location();
             InternationalCity.DataTextField = "City";
             InternationalCity.DataValueField = "LocationID";
-            DataTable dt = Lo.CountrywiseCity(Country.SelectedValue);
+            DataTable dt = Lo.CountrywiseCity(Country.SelectedValue, "-1");
             InternationalCity.DataSource = dt;
             InternationalCity.DataBind();
             InternationalCity.Items.Insert(0, new ListItem("All cities", "-1"));

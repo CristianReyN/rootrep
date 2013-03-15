@@ -304,17 +304,24 @@
 		
 		If CInt(countryid) > 0 Then
 
-				cmd.Parameters.Append cmd.CreateParameter("StateRegion",adInteger,adParamInput)
-					cmd.Parameters("StateRegion") = stateid
+				cmd.Parameters.Append cmd.CreateParameter("hiring_orgID",adInteger,adParamInput)
+					cmd.Parameters("hiring_orgID") = 1233
 					param_number = cmd_params.Count + 1
-					cmd_params.add param_number, "StateRegion"
+					cmd_params.add param_number, "hiring_orgID"
 
-                cmd.Parameters.Append cmd.CreateParameter("CountryID",adInteger,adParamInput)
-                    cmd.Parameters("CountryID") = countryid
+                cmd.Parameters.Append cmd.CreateParameter("countryid",adInteger,adParamInput)
+                    cmd.Parameters("countryid") = countryid
 					param_number = cmd_params.Count + 1
-					cmd_params.add param_number, "CountryID"
+					cmd_params.add param_number, "countryid"
+
+                cmd.Parameters.Append cmd.CreateParameter("stateID",adInteger,adParamInput)
+                    cmd.Parameters("stateID") = stateid
+					param_number = cmd_params.Count + 1
+					cmd_params.add param_number, "stateID"
+
+
 				'cmd.CommandText = "p_Career_Sites_select_City"
-                cmd.CommandText = "P_SelectCityAllByState" ' iq db
+                cmd.CommandText = "p_BOAJobsCitiesByCountryAndState" ' iq db
 
 			Set rssCities=server.CreateObject ("ADODB.Recordset")
 			rssCities.LockType = adLockOptimistic
@@ -327,8 +334,8 @@
 				Do While not rssCities.EOF
 					Set city = Server.CreateObject("Scripting.Dictionary")
 
-					city.add "cityid", Trim(rssCities("city_id"))
-					city.add "city", Trim(rssCities("city_name"))
+					city.add "cityid", Trim(rssCities("LocationID"))
+					city.add "city", Trim(rssCities("City"))
 
 					city_number = cities.Count + 1
 					cities.add city_number, city
