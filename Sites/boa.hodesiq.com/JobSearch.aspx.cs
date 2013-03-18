@@ -1809,15 +1809,19 @@ namespace BOA
             Location Lo = new Location();
             City.Items.Clear();
             City.DataTextField = "City";
-            City.DataValueField = "Cityid";
+            City.DataValueField = "LocationID";
             if (State.SelectedIndex == 0)
             {
-                dr = Lo.StatewiseCityDR(1);
+                if (Request.QueryString["stateid"].ToString() != "")
+                {
+                    dr = Lo.StatewiseCityDR(Convert.ToInt32(Request.QueryString["stateid"]), 1);
+                }
+                else { dr = Lo.StatewiseCityDR(0, 1); }
                 City.DataSource = dr;
             }
             else
             {
-                dr = Lo.StatewiseCityDR(stateid);
+                dr = Lo.StatewiseCityDR(stateid,1);
                 City.DataSource = dr;
             }
             if (dr.HasRows)
@@ -1827,81 +1831,7 @@ namespace BOA
             City.Items.Insert(0, new ListItem("All cities", "-1"));
             dr.Close();
         }
-        /*
-        protected void btnJobCart_Click(object sender, EventArgs e)
-        {
-            Response.Redirect("jobcart.aspx");
-        }
-         */ 
-        /*
-        protected void btnBasicSearch_Click(object sender, EventArgs e)
-        {
-            Response.Redirect("jobsearch.aspx");
-        }
-         */
-
-        /*
-        protected void PopulateJobFamily()
-        {
-            ddlJobFamily.Items.Clear();
-            OleDbConnection con = new OleDbConnection(constring);
-            con.Open();
-            OleDbDataReader rdr;
-            OleDbCommand cmd = new OleDbCommand();
-            cmd.Connection = con;
-            cmd.CommandType = CommandType.StoredProcedure;
-            cmd.CommandText = "p_SelectGlobalJobFamily";
-
-            try
-            {
-                rdr = cmd.ExecuteReader(CommandBehavior.CloseConnection);
-            }
-            catch (Exception ex)
-            {
-                throw ex;
-            }
-
-            ddlJobFamily.DataTextField = "Family";
-            ddlJobFamily.DataValueField = "FamilyID";
-            ddlJobFamily.DataSource = rdr;
-            ddlJobFamily.DataBind();
-
-            ddlJobFamily.Items.Insert(0, new ListItem("All", "-1"));
-        }
-         */
-/*
-        protected void PopulateJobAreas()
-        {
-            string selVal;
-            if (!IsPostBack)
-            {
-                selVal = String.IsNullOrEmpty(Request.QueryString["jobareas"]) == false ? string.IsNullOrEmpty(this.ddlJobAreas.SelectedValue) ? Request.QueryString["jobareas"] : this.ddlJobAreas.SelectedValue : this.ddlJobAreas.SelectedValue;
-            }
-            else
-            {
-                selVal = ViewState["jobareas"] == null ? "" : ViewState["jobareas"].ToString();
-            }
-            this.ddlJobAreas.Items.Clear();
-            OleDbDataReader dr;
-            AreaofTalent ja = new AreaofTalent();
-            dr = ja.JobAreasList();
-            ListItem l = new ListItem("none", string.Empty);
-
-            this.ddlJobAreas.Items.Insert(0, l);
-            while (dr.Read())
-            {
-                ListItem li = new ListItem(dr["family"].ToString(), dr["value"].ToString());
-                li.Attributes["OptionGroup"] = dr["talent"].ToString();
-                this.ddlJobAreas.Items.Add(li);
-            }
-            dr.Close();
-            ListItem myListItem = new ListItem();
-            myListItem = this.ddlJobAreas.Items.FindByValue(selVal);
-
-            if (myListItem != null)
-                myListItem.Selected = true;
-        }
-        */
+       
 
         public string formatDate(String strDate, String strDateFormat)
         {
