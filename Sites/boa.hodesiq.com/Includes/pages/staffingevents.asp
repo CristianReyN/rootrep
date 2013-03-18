@@ -1,6 +1,8 @@
 <!--#include file="../../staffingevents/admin/include/events_func.asp"-->
 <%
+     
 SetLocale(1033)
+
 'Set cnnEv = OpenConnectionEx(strEventsConnection)
 'Response.write "ServerName: " & ServerName & "<br>"
 'Response.write "strConnection: " & strEventsConnection & "<br>"
@@ -37,10 +39,20 @@ Dim active_event, state_id, job_type_id, event_type_id, from_date, to_date, orde
 		order_by_only = "EVENTS.event_date"
 	End If
 '----------------------------------------------------------------
+
+
 	Dim number_of_events
 	number_of_events = 0
 	number_of_pages = 1
+
+    'Response.Write "<br>strEventsConn = " & strEventsConnection
+   
+
 	Set cnnEv = OpenConnectionEx(strEventsConnection)
+
+    'Response.Write "<br>debug marker"
+    'Response.End
+
 	Set events = getEvents(active_event, state_id, 0, job_type_id, event_type_id, from_date, to_date, order_by, per_page, page_num, number_of_events, number_of_pages)
 	If isObject(events)  Then
 		If events.BOF Or  events.EOF Then
@@ -56,6 +68,8 @@ Dim active_event, state_id, job_type_id, event_type_id, from_date, to_date, orde
 		from_record = 0
 		to_record = 0
 	End If
+
+     
 '----------------------------------------------------------------
 %>
 		<table width="578" cellpadding="0" cellspacing="0" border="0" summary="">
@@ -107,10 +121,14 @@ function pageNumber(page_num)
 <label for="event_type_id" class="p" style="margin: 0px;"><b>Event Type:</b></label><br>
 	</td>
 	<td width="100%" style="padding: 0px 0px 0px 0px;">
+    
 <select name="event_type_id" id="event_type_id" title="Select an event type" style="width: 60%;" onchange="filterMe();">
 	<option value="">All Events Types</option>
+    
 	<%=eventTypesOptions(event_type_id)%>
 </select>
+<%Response.Write "done calling eventType" %>
+
 	</td>
 </tr>
 <tr>

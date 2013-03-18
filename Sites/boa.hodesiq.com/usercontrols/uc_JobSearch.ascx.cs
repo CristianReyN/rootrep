@@ -302,14 +302,13 @@ public partial class uc_JobSearch : System.Web.UI.UserControl
     protected void PopulateCity()
     {
         City.Items.Clear();
-
         
         Location Lo = new Location();
         OleDbDataReader dr;
         City.Items.Clear();
         City.DataTextField = "City";
         City.DataValueField = "LocationID";
-        dr = Lo.StatewiseCityDR(1);
+        dr = Lo.StatewiseCityDR(1,1);
         City.DataSource = dr;
         City.DataBind();
         City.Items.Insert(0, new ListItem("All cities", "-1"));
@@ -360,15 +359,15 @@ public partial class uc_JobSearch : System.Web.UI.UserControl
         Location Lo = new Location();
         City.Items.Clear();
         City.DataTextField = "City";
-        City.DataValueField = "Cityid";
+        City.DataValueField = "LocationID";
         if (State.SelectedIndex == 0)
         {
-            dr = Lo.StatewiseCityDR(1);
+            dr = Lo.StatewiseCityDR(0,1);
             City.DataSource = dr;
         }
         else
         {
-            dr = Lo.StatewiseCityDR(stateid);
+            dr = Lo.StatewiseCityDR(stateid,1);
             City.DataSource = dr;
         }
         if (dr.HasRows)

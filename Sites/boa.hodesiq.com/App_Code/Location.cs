@@ -170,24 +170,27 @@ public class Location
 		}
          
 	}
-	public OleDbDataReader StatewiseCityDR(int StateVal)
-	{
-		OleDbConnection con = new OleDbConnection(constring);
-		OleDbDataReader rdr;
-		con.Open();
-		try
-		{
-			OleDbCommand cmd = new OleDbCommand("p_Career_Sites_select_City ", con);
-			cmd.CommandType = CommandType.StoredProcedure;
-			cmd.Parameters.AddWithValue("@Stateid", StateVal);
-			cmd.Connection = con;
-			rdr = cmd.ExecuteReader();
-			return rdr;
-		}
-		catch (Exception ex)
-		{
-			throw ex;
-		}
-          
-	}
+    
+    public OleDbDataReader StatewiseCityDR(int StateVal, int countryID)
+    {
+        OleDbConnection con = new OleDbConnection(constringIQ);
+        OleDbDataReader rdr;
+        con.Open();
+        try
+        {
+            OleDbCommand cmd = new OleDbCommand("p_BOAJobsCitiesByCountryAndState ", con);
+            cmd.CommandType = CommandType.StoredProcedure;
+            cmd.Parameters.AddWithValue("@hiring_orgID", hiringOrgID);
+            cmd.Parameters.AddWithValue("@countryid", countryID);
+            cmd.Parameters.AddWithValue("@stateid", StateVal);
+            cmd.Connection = con;
+            rdr = cmd.ExecuteReader();
+            return rdr;
+        }
+        catch (Exception ex)
+        {
+            throw ex;
+        }
+
+    }
 }
