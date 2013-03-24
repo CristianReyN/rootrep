@@ -1,63 +1,158 @@
 <%
 	Function getJobAreasSelect(c_lass,style)
+
+    set xmlDoc=server.CreateObject("MSXML2.DOMDocument.3.0")
+    set xmlappSettings=server.CreateObject("MSXML2.DOMDocument.3.0")
+    set xmladd=server.CreateObject("MSXML2.DOMDocument.3.0")
+    xmlDoc.async="false"
+    xmlDoc.load(server.MapPath ("..\web.config"))
+
+    set xmlappSettings = xmldoc.GetElementsByTagName("appSettings").Item(0) 
+    set xmladd = xmlappSettings.GetElementsByTagName("add")
+
+    dim aotAdministration, aotCustomerCare, aotCommunications, aotCFOGroupFinance, aotHumanResources, aotOperations
+    dim aotRiskEvaluation, aotSales, aotTechnology, aotConsumerBanking, aotMortgage, aotFinancialAdvisor 
+    dim famAdministration, famChangeMgmtProcess, famCommunications, famConsumerBanking, famCorporateWorkplace, famCorporateExecutive
+    dim famCredit, famCustomerService, famFinance, famHumanResources, famInvestmentBanking, famLLDevelopment, famLegal, famMarketing
+    dim famOperations, famRelationshipManagement, famRiskEvaluation, famRiskManagement, famSales, famServices, famTechnology
+    dim famVAInternationalContractor, famWealthInvestmentMgmt
+
+
+    for each x in xmladd 
+
+        select case x.getAttribute("key")
+            case "aotAdministration"
+                aotAdministration = x.getAttribute("value") 
+            case "aotCustomerCare"
+                aotCustomerCare = x.getAttribute("value")
+            case "aotCommunications"
+                aotCommunications = x.getAttribute("value")
+            case "aotCFOGroupFinance"
+                aotCFOGroupFinance = x.getAttribute("value")
+            case "aotHumanResources"
+                aotHumanResources = x.getAttribute("value")
+            case "aotOperations"
+                aotOperations = x.getAttribute("value")
+            case "aotRiskEvaluation"
+                aotRiskEvaluation = x.getAttribute("value")
+            case "aotSales"
+                aotSales = x.getAttribute("value")
+            case "aotTechnology"
+                aotTechnology = x.getAttribute("value")
+            case "aotConsumerBanking"
+                aotConsumerBanking = x.getAttribute("value")
+            case "aotMortgage"
+                aotMortgage = x.getAttribute("value")
+            case "aotFinancialAdvisor"
+                aotFinancialAdvisor = x.getAttribute("value")
+            case "famAdministration"
+                famAdministration = x.getAttribute("value")
+            case "famChangeMgmtProcess"
+                famChangeMgmtProcess = x.getAttribute("value")
+            case "famCommunications"
+                famCommunications = x.getAttribute("value")
+            case "famConsumerBanking"
+                famConsumerBanking = x.getAttribute("value")
+            case "famCorporateWorkplace"
+                famCorporateWorkplace = x.getAttribute("value")
+            case "famCorporateExecutive"
+                famCorporateExecutive = x.getAttribute("value")
+            case "famCredit"
+                famCredit = x.getAttribute("value")
+            case "famCustomerService"
+                famCustomerService = x.getAttribute("value")
+            case "famFinance"
+                famFinance = x.getAttribute("value")
+            case "famHumanResources"
+                famHumanResources = x.getAttribute("value")
+            case "famInvestmentBanking"
+                famInvestmentBanking = x.getAttribute("value")
+            case "famLLDevelopment"
+                famLLDevelopment = x.getAttribute("value")
+            case "famLegal"
+                famLegal = x.getAttribute("value")
+            case "famMarketing"
+                famMarketing = x.getAttribute("value")
+            case "famOperations"
+                famOperations = x.getAttribute("value")
+            case "famRelationshipManagement"
+                famRelationshipManagement = x.getAttribute("value")
+            case "famRiskEvaluation"
+                famRiskEvaluation = x.getAttribute("value")
+            case "famRiskManagement"
+                famRiskManagement = x.getAttribute("value")
+            case "famSales"
+                famSales = x.getAttribute("value")
+            case "famServices"
+                famServices = x.getAttribute("value")
+            case "famTechnology"
+                famTechnology = x.getAttribute("value")
+            case "famVAInternationalContractor"
+                famVAInternationalContractor = x.getAttribute("value")
+            case "famWealthInvestmentMgmt"
+                famWealthInvestmentMgmt = x.getAttribute("value")           
+            case else
+        end select
+   
+    next
 %>
 <select name="jobareas" id="jobareas" title="Select a Job Area"<%=c_lass%><%=style%>>
 	<option value="">none</option>
 			<optgroup label="Adminstration">
-			<option value="258065|-1">All Administration</option>
-			<option value="258065|258068">Change Mgmt &amp; Process</option>
-			<option value="258065|258271">Corporate Executive</option>
-			<option value="258065|258279">Legal</option>
-			<option value="258065|258286">Services</option>
+			<option value="<%=aotAdministration%>|<%=famChangeMgmtProcess%>,<%=famCorporateExecutive%>,<%=famLegal%>,<%=famServices%>">All Administration</option>
+			<option value="<%=aotAdministration%>|<%=famChangeMgmtProcess%>">Change Mgmt &amp; Process</option>
+			<option value="<%=aotAdministration%>|<%=famCorporateExecutive%>">Corporate Executive</option>
+			<option value="<%=aotAdministration%>|<%=famLegal%>">Legal</option>
+			<option value="<%=aotAdministration%>|<%=famServices%>">Services</option>
 			</optgroup>
 			<optgroup label="CFO Group/Finance">
-			<option value="358820|-1">All CFO Group/Finance</option>
-			<option value="358820|258273">Credit</option>
-			<option value="358820|258277">Investment Banking</option>
-			<option value="358820|258288">Wealth &amp; Investment Mgmt</option>
+			<option value="<%=aotCFOGroupFinance%>|<%=famCredit%>,<%=famInvestmentBanking%>,<%=famWealthInvestmentMgmt%>">All CFO Group/Finance</option>
+			<option value="<%=aotCFOGroupFinance%>|<%=famCredit%>">Credit</option>
+			<option value="<%=aotCFOGroupFinance%>|<%=famInvestmentBanking%>">Investment Banking</option>
+			<option value="<%=aotCFOGroupFinance%>|<%=famWealthInvestmentMgmt%>">Wealth &amp; Investment Mgmt</option>
 			</optgroup>
 			<optgroup label="Communications">
-			<option value="358819|-1">All Communications</option>
-			<option value="358819|258280">Marketing</option>
+			<option value="<%=aotCommunications%>|<%=famMarketing%>">All Communications</option>
+			<option value="<%=aotCommunications%>|<%=famMarketing%>">Marketing</option>
 			</optgroup>
 			<optgroup label="Consumer Banking">
-			<option value="358826|-1">All Consumer Banking</option>
+			<option value="<%=aotConsumerBanking%>|<%=famConsumerBanking%>">All Consumer Banking</option>
 			</optgroup>
 			<optgroup label="Customer Care">
-			<option value="258066|-1">All Customer Care</option>
-			<option value="258066|258273">Credit</option>
-			<option value="258066|258274">Customer Service</option>
-			<option value="258066|258282">Relationship Management</option>
-			<option value="258066|258285">Sales</option>
+			<option value="<%=aotCustomerCare%>|<%=famCredit%>,<%=famCustomerService%>,<%=famRelationshipManagement%>,<%=famSales%>">All Customer Care</option>
+			<option value="<%=aotCustomerCare%>|<%=famCredit%>">Credit</option>
+			<option value="<%=aotCustomerCare%>|<%=famCustomerService%>">Customer Service</option>
+			<option value="<%=aotCustomerCare%>|<%=famRelationshipManagement%>">Relationship Management</option>
+			<option value="<%=aotCustomerCare%>|<%=famSales%>">Sales</option>
 			</optgroup>
 			<optgroup label="Financial Advisor">
-			<option value="358828|-1">All Financials Advisor</option>
+			<option value="<%=aotFinancialAdvisor%>|<%=famFinance%>">All Financials Advisor</option>
 			</optgroup>
 			<optgroup label="Human Resources">
-			<option value="358821|-1">All Human Resources</option>
+			<option value="<%=aotHumanResources%>|<%=famHumanResources%>">All Human Resources</option>
 			</optgroup>
 			<optgroup label="Mortgage">
-			<option value="358827|-1">All Mortgage</option>
+			<option value="<%=aotMortgage%>|-1">All Mortgage</option>
 			</optgroup>
 			<optgroup label="Operations">
-			<option value="358822|-1">All Operations</option>
-			<option value="358822|258068">Change Mgmt &amp; Process</option>
-			<option value="358822|258272">Corporate Workplace</option>
-			<option value="358822|258279">Legal</option>
-			<option value="358822|258286">Services</option>
+			<option value="<%=aotOperations%>|<%=famChangeMgmtProcess%>,<%=famCorporateWorkplace%>,<%=famLegal%>,<%=famServices%>">All Operations</option>
+			<option value="<%=aotOperations%>|<%=famChangeMgmtProcess%>">Change Mgmt &amp; Process</option>
+			<option value="<%=aotOperations%>|<%=famCorporateWorkplace%>">Corporate Workplace</option>
+			<option value="<%=aotOperations%>|<%=famLegal%>">Legal</option>
+			<option value="<%=aotOperations%>|<%=famServices%>">Services</option>
 			</optgroup>
 			<optgroup label="Risk Management">
-			<option value="358823|-1">All Risk Management</option>
+			<option value="<%=aotRiskEvaluation%>|<%=famRiskManagement%>">All Risk Management</option>
 			</optgroup>
 			<optgroup label="Sales">
-			<option value="358824|-1">All Sales</option>
+			<option value="<%=aotSales%>|<%=famSales%>">All Sales</option>
 			</optgroup>
 			<optgroup label="Risk Evaluation">
-			<option value="358824|258270">Consumer Banking</option>
+			<option value="<%=aotRiskEvaluation%>|<%=famConsumerBanking%>">Consumer Banking</option>
 			</optgroup>
 			<optgroup label="Technology">
-			<option value="358825|-1">All Technology</option>
-			<option value="358825|258272">Corporate Workplace</option>
+			<option value="<%=aotTechnology%>|<%=famTechnology%>,<%=famCorporateWorkplace%>">All Technology</option>
+			<option value="<%=aotTechnology%>|<%=famCorporateWorkplace%>">Corporate Workplace</option>
 			</optgroup>
 
 </select>
@@ -363,32 +458,96 @@
 	End Function
 	
 	Function getJobFamilySelect(c_lass,style)
-		
+
+    set xmlDoc=server.CreateObject("MSXML2.DOMDocument.3.0")
+    set xmlappSettings=server.CreateObject("MSXML2.DOMDocument.3.0")
+    set xmladd=server.CreateObject("MSXML2.DOMDocument.3.0")
+    xmlDoc.async="false"
+    xmlDoc.load(server.MapPath ("..\web.config"))
+
+    set xmlappSettings = xmldoc.GetElementsByTagName("appSettings").Item(0) 
+    set xmladd = xmlappSettings.GetElementsByTagName("add")
+
+    dim gfamAdministration, gfamChangeMgmtProcess, gfamCommunications, gfamConsumerBanking, gfamCorporateExecutive, gfamCorporateWorkplace
+    dim gfamCredit, gfamCustomerService, gfamFinance, gfamHumanResources, gfamInternationalContractor, gfamInvestmentBanking, gfamLLDevelopment
+    dim gfamLegal, gfamMarketing, gfamOperations, gfamRelationshipManagement, gfamRiskEvaluation, gfamSales, gfamServices, gfamTechnology, gfamWealthInvestmentMgmt
+    
+    for each x in xmladd 
+
+        select case x.getAttribute("key")
+            case "gfamAdministration"
+                gfamAdministration = x.getAttribute("value") 
+            case "gfamChangeMgmtProcess"
+                gfamChangeMgmtProcess = x.getAttribute("value")
+            case "gfamCommunications"
+                gfamCommunications = x.getAttribute("value")
+            case "gfamConsumerBanking"
+                gfamConsumerBanking = x.getAttribute("value")
+            case "gfamCorporateExecutive"
+                gfamCorporateExecutive = x.getAttribute("value")
+            case "gfamCorporateWorkplace"
+                gfamCorporateWorkplace = x.getAttribute("value")
+            case "gfamCredit"
+                gfamCredit = x.getAttribute("value")
+            case "gfamCustomerService"
+                gfamCustomerService = x.getAttribute("value")
+            case "gfamFinance"
+                gfamFinance = x.getAttribute("value")
+            case "gfamHumanResources"
+                gfamHumanResources = x.getAttribute("value")
+            case "gfamInternationalContractor"
+                gfamInternationalContractor = x.getAttribute("value")
+            case "gfamInvestmentBanking"
+                gfamInvestmentBanking = x.getAttribute("value")
+            case "gfamLLDevelopment"
+                gfamLLDevelopment = x.getAttribute("value")
+            case "gfamLegal"
+                gfamLegal = x.getAttribute("value")
+            case "gfamMarketing"
+                gfamMarketing = x.getAttribute("value")
+            case "gfamOperations"
+                gfamOperations = x.getAttribute("value")
+            case "gfamRelationshipManagement"
+                gfamRelationshipManagement = x.getAttribute("value")
+            case "gfamRiskEvaluation"
+                gfamRiskEvaluation = x.getAttribute("value")
+            case "gfamSales"
+                gfamSales = x.getAttribute("value")
+            case "gfamServices"
+                gfamServices = x.getAttribute("value") 
+            case "gfamTechnology"
+                gfamTechnology = x.getAttribute("value") 
+            case "gfamWealthInvestmentMgmt"
+                gfamWealthInvestmentMgmt = x.getAttribute("value")          
+            case else
+        end select
+   
+    next		
 %>
 <select name="jobfamilyid" id="jobfamilyid" title="Select a Job Family"<%=c_lass%><%=style%>>
 	<option value="">none</option>
 			<option value="-1" selected="selected">All</option>
-			<option value="258067">Administration</option>
-			<option value="258068">Change Mgmt &amp; Process</option>
-			<option value="258269">Communications</option>
-			<option value="258270">Consumer Banking</option>
-			<option value="258271">Corporate Executive</option>
-			<option value="258273">Credit</option>
-			<option value="258274">Customer Service</option>
-			<option value="258275">Finance</option>
-			<option value="258276">Human Resources</option>
-			<option value="359540">International Contractor</option>
-			<option value="258277">Investment Banking</option>
-			<option value="258278">Learning &amp; Leadership Development</option>
-			<option value="258279">Legal</option>
-			<option value="258280">Marketing</option>
-			<option value="258281">Operations</option>
-			<option value="258282">Relationship Management</option>
-			<option value="258283">Risk Evaluation</option>
-			<option value="258285">Sales</option>
-			<option value="258286">Services</option>
-			<option value="258287">Technology</option>
-			<option value="258288">Wealth &amp; Investment Management</option>
+			<option value="<%=gfamAdministration%>">Administration</option>
+			<option value="<%=gfamChangeMgmtProcess%>">Change Mgmt &amp; Process</option>
+			<option value="<%=gfamCommunications%>">Communications</option>
+			<option value="<%=gfamConsumerBanking%>">Consumer Banking</option>
+			<option value="<%=gfamCorporateExecutive%>">Corporate Executive</option>
+			<option value="<%=gfamCredit%>">Credit</option>
+			<option value="<%=gfamCustomerService%>">Customer Service</option>
+			<option value="<%=gfamFinance%>">Finance</option>
+			<option value="<%=gfamHumanResources%>">Human Resources</option>
+			<option value="<%=gfamInternationalContractor%>">International Contractor</option>
+			<option value="<%=gfamInvestmentBanking%>">Investment Banking</option>
+			<option value="<%=gfamLLDevelopment%>">Learning &amp; Leadership Development</option>
+			<option value="<%=gfamLegal%>">Legal</option>
+			<option value="<%=gfamMarketing%>">Marketing</option>
+			<option value="<%=gfamOperations%>">Operations</option>
+			<option value="<%=gfamRelationshipManagement%>">Relationship Management</option>
+			<option value="<%=gfamRiskEvaluation%>">Risk Evaluation</option>
+			<option value="<%=gfamSales%>">Sales</option>
+			<option value="<%=gfamServices%>">Services</option>
+			<option value="<%=gfamTechnology%>">Technology</option>
+			<option value="<%=gfamWealthInvestmentMgmt%>">Wealth &amp; Investment Management</option>
 </select>
 <%
 	End Function
