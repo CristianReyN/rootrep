@@ -7,8 +7,8 @@ if request.QueryString("m")=1 then
 	surl="profilerd.aspx?" & Request.QueryString("u").item
 else
 	stitle="Bank of America | Careers | Job Application"
-	surl="applyrd.aspx?" & Request.QueryString("url").item & "&countryid=" & Request.QueryString("countryid") & "&jobpipeline="  & Request.QueryString("jobpipeline").item
-    
+	'surl="applyrd.aspx?" & Request.QueryString("url").item & "&countryid=" & Request.QueryString("countryid") & "&jobpipeline="  & Request.QueryString("jobpipeline").item
+    surl="applyrd.aspx?" & Request.QueryString("url").item
 end if
 	no_after_chars = Array("<", ">", "'", """")
 	surl = ClearKeywords(surl)

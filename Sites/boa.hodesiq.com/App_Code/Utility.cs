@@ -390,7 +390,9 @@ public class Utility
 
         aot = GetAppSettings("aotCFOGroupFinance");
 
-        ListItem li6 = new ListItem("All CFO Group/Finance", aot + "|-1");
+        ListItem li6 = new ListItem("All CFO Group/Finance", aot + "|" + GetAppSettings("famCredit") + "," + GetAppSettings("famInvestmentBanking")
+                                        + "," + GetAppSettings("famWealthInvestmentMgmt"));
+
         li6.Attributes["OptionGroup"] = "CFO Group/Finance";
         ddlJobAreas.Items.Add(li6);
 
@@ -410,7 +412,7 @@ public class Utility
 
         aot = GetAppSettings("aotCommunications");
 
-        ListItem li11 = new ListItem("All Communications", aot + "|-1");
+        ListItem li11 = new ListItem("All Communications", aot + "|" + GetAppSettings("famMarketing"));
         li11.Attributes["OptionGroup"] = "Communications";
         ddlJobAreas.Items.Add(li11);
 
@@ -423,7 +425,7 @@ public class Utility
 
         aot = GetAppSettings("aotConsumerBanking");
 
-        ListItem li13 = new ListItem("All Consumer Banking", aot + "|-1");
+        ListItem li13 = new ListItem("All Consumer Banking", aot + "|" + GetAppSettings("famConsumerBanking"));
         li13.Attributes["OptionGroup"] = "Consumer Banking";
         ddlJobAreas.Items.Add(li13);
 
@@ -432,7 +434,8 @@ public class Utility
 
         aot = GetAppSettings("aotCustomerCare");
 
-        ListItem li14 = new ListItem("All Customer Care", aot + "|-1");
+        ListItem li14 = new ListItem("All Customer Care", aot + "|" + GetAppSettings("famCredit") + "," + GetAppSettings("famCustomerService") + "," + GetAppSettings("famRelationshipManagement")
+                                            + "," + GetAppSettings("famSales"));
         li14.Attributes["OptionGroup"] = "Customer Care";
         ddlJobAreas.Items.Add(li14);
 
@@ -456,7 +459,7 @@ public class Utility
 
         aot = GetAppSettings("aotFinancialAdvisor");
 
-        ListItem li19 = new ListItem("All Financials Advisor", aot + "|-1");
+        ListItem li19 = new ListItem("All Financials Advisor", aot + "|" + GetAppSettings("famFinance"));
         li19.Attributes["OptionGroup"] = "Financial Advisor";
         ddlJobAreas.Items.Add(li19);
 
@@ -464,7 +467,7 @@ public class Utility
 
         aot = GetAppSettings("aotHumanResources");
 
-        ListItem li20 = new ListItem("All Human Resources", aot + "|-1");
+        ListItem li20 = new ListItem("All Human Resources", aot + "|" + GetAppSettings("famHumanResources"));
         li20.Attributes["OptionGroup"] = "Human Resources";
         ddlJobAreas.Items.Add(li20);
 
@@ -481,7 +484,8 @@ public class Utility
 
         aot = GetAppSettings("aotOperations");
 
-        ListItem li22 = new ListItem("All Operations", aot + "|-1");
+        ListItem li22 = new ListItem("All Operations", aot + "|" + GetAppSettings("famChangeMgmtProcess") + "," + GetAppSettings("famCorporateWorkplace")
+                                                + "," + GetAppSettings("famLegal") + "," + GetAppSettings("famServices"));
         li22.Attributes["OptionGroup"] = "Operations";
         ddlJobAreas.Items.Add(li22);
 
@@ -505,7 +509,7 @@ public class Utility
 
         aot = GetAppSettings("aotRiskEvaluation");
 
-        ListItem li27 = new ListItem("All Risk Management", aot + "|-1");
+        ListItem li27 = new ListItem("All Risk Management", aot + "|" + GetAppSettings("famRiskManagement"));
         li27.Attributes["OptionGroup"] = "Risk Management";
         ddlJobAreas.Items.Add(li27);
 
@@ -513,7 +517,7 @@ public class Utility
 
         aot = GetAppSettings("aotSales");
 
-        ListItem li30 = new ListItem("All Sales", aot + "|-1");
+        ListItem li30 = new ListItem("All Sales", aot + "|" + GetAppSettings("famSales"));
         li30.Attributes["OptionGroup"] = "Sales";
         ddlJobAreas.Items.Add(li30);
 

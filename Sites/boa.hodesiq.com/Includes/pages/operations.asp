@@ -33,10 +33,10 @@ rowcount=6
 <br><br>
 </div>
 <% If page_section = "ADA" Then %>
-<div style="float: right; margin: 0px 0px 0px <%=right_margin_split%>px; padding: 0px; width: 201px;">
+<div style="float: right; margin: 0px; padding: 0px; width: 201px;">
 	<!-- #include file="associate/benitez.asp" -->
 <% ElseIf page_section <> "ADA" Then %>
-<div align="right" style="float: right; margin: 0px 0px 0px <%=right_margin_split%>px; padding: 0px; width: 259px;">
+<div align="right" style="float: right; margin: 0px; padding: 0px; width: 259px;">
 	<!-- #include file="associate/benitez.asp" -->
 	<a href="#video" class="hlink">Deborah BenitezLedtje&#39;s Associate Testimonial Video</a>
 <% End If  %>

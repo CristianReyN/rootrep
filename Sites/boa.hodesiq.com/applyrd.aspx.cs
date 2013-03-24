@@ -26,13 +26,11 @@ public partial class applyrd : System.Web.UI.Page
         string urlPROGrasp = "http%3a%2f%2fBANKOFAMERICA.contacthr.com";
     
         string country = Request.QueryString["countryid"];
+        string strRedirectURL = Request.QueryString.ToString();
         
 
         if (referringUrl == "director.asp")
         {
-
-            if (country == "1")
-            {
 
                 //go through whitelist of valid urls
                 if (url.Contains(urlDEV))
@@ -42,7 +40,8 @@ public partial class applyrd : System.Web.UI.Page
                 
                     if (url.Contains(urlDEV))
                     {
-                        Response.Redirect(HttpUtility.UrlDecode(Request.QueryString.ToString()));
+                        //Response.Redirect(HttpUtility.UrlDecode(Request.QueryString.ToString()));
+                        Response.Redirect(HttpUtility.UrlDecode(strRedirectURL.Replace("&src=", "")));
                     }
                 }
                 if (url.Contains(urlSTG))
@@ -52,7 +51,9 @@ public partial class applyrd : System.Web.UI.Page
 
                     if (url.Contains(urlSTG))
                     {
-                        Response.Redirect(HttpUtility.UrlDecode(Request.QueryString.ToString()));
+                        //Response.Redirect(HttpUtility.UrlDecode(url));
+                        Response.Redirect(HttpUtility.UrlDecode(strRedirectURL.Replace("&src=", "")));
+                       
                     }
                 }
                 if (url.Contains(urlPRO))
@@ -62,12 +63,11 @@ public partial class applyrd : System.Web.UI.Page
 
                     if (url.Contains(urlPRO))
                     {
-                        Response.Redirect(HttpUtility.UrlDecode(Request.QueryString.ToString()));
+                        //Response.Redirect(HttpUtility.UrlDecode(Request.QueryString.ToString()));
+                        Response.Redirect(HttpUtility.UrlDecode(strRedirectURL.Replace("&src=", "")));
                     }
                 }
-                else { Response.Write("404 page not found"); Response.End(); }
-            }
-            else{
+ 
                 if (url.Contains(urlPROGrasp))
                 {
                     //check for match to the left of the string
@@ -75,22 +75,24 @@ public partial class applyrd : System.Web.UI.Page
 
                     if (url.Contains(urlPROGrasp))
                     {
-                        Response.Redirect(HttpUtility.UrlDecode(Request.QueryString.ToString()));
+                        //Response.Redirect(HttpUtility.UrlDecode(Request.QueryString.ToString()));
+                        Response.Redirect(HttpUtility.UrlDecode(strRedirectURL.Replace("&src=", "")));
                     }
                 }
-                else if (url.Contains(urlSTGGrasp))
+                if (url.Contains(urlSTGGrasp))
                 {
                     //check for match to the left of the string
                     url = url.Substring(0, urlSTGGrasp.Length);
 
                     if (url.Contains(urlSTGGrasp))
                     {
-                        Response.Redirect(HttpUtility.UrlDecode(Request.QueryString.ToString()));
+                        //Response.Redirect(HttpUtility.UrlDecode(Request.QueryString.ToString()));
+                        Response.Redirect(HttpUtility.UrlDecode(strRedirectURL.Replace("&src=", "")));
                     }
                 }
                 else { Response.Write("404 page not found"); Response.End(); }
 
-            }
+
         }
         else { Response.Write("404 page not found"); Response.End(); }
     }

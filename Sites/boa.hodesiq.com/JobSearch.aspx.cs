@@ -245,8 +245,46 @@ namespace BOA
 
             Utility.PopulateJobAreasFromIQ(ddlJobAreas, selVal);
             Utility.PopulateGlobalJobFamiliesFromIQ(ddlJobFamily, selVal);
+
+            if (Country.SelectedValue == Location.USA)
+            {
+                if (!IsPostBack)
+                {
+                    selVal = String.IsNullOrEmpty(Request.QueryString["travel"]) == false ? string.IsNullOrEmpty(this.travel.SelectedValue) ? Request.QueryString["travel"] : this.travel.SelectedValue : this.travel.SelectedValue;
+                }
+                else
+                {
+                    selVal = ViewState["travel"] == null ? "" : ViewState["travel"].ToString();
+                }
+            }
+
             Utility.PopulateTravelDDL(travel, selVal);
+
+            if (Country.SelectedValue == Location.USA)
+            {
+                if (!IsPostBack)
+                {
+                    selVal = String.IsNullOrEmpty(Request.QueryString["fullpart"]) == false ? string.IsNullOrEmpty(this.fullpart.SelectedValue) ? Request.QueryString["fullpart"] : this.fullpart.SelectedValue : this.fullpart.SelectedValue;
+                }
+                else
+                {
+                    selVal = ViewState["fullpart"] == null ? "" : ViewState["fullpart"].ToString();
+                }
+            }
+
             Utility.PopulateFTPT_DDL(fullpart, selVal);
+
+            if (Country.SelectedValue == Location.USA)
+            {
+                if (!IsPostBack)
+                {
+                    selVal = String.IsNullOrEmpty(Request.QueryString["shift"]) == false ? string.IsNullOrEmpty(this.shift.SelectedValue) ? Request.QueryString["shift"] : this.shift.SelectedValue : this.shift.SelectedValue;
+                }
+                else
+                {
+                    selVal = ViewState["shift"] == null ? "" : ViewState["shift"].ToString();
+                }
+            }
             Utility.PopulateShift_DDL(shift, selVal);
 
             
@@ -663,6 +701,9 @@ namespace BOA
                 else
                 {
                     ViewState["pageIndex"] = this.jobListGridView1.PageIndex;
+                    ViewState["travel"] = this.travel.SelectedValue;
+                    ViewState["fullpart"] = this.fullpart.SelectedValue;
+                    ViewState["shift"] = this.shift.SelectedValue;
 
                     // Save sort order using Session *not* ViewState
                     Session["orderByColumn"] = this.jobListGridView1.OrderByColumn;
@@ -861,7 +902,7 @@ namespace BOA
                 _distance = string.IsNullOrEmpty(Request["ddlRadius"]) ? "-1" : Request["ddlRadius"];
                 _zipcode = string.IsNullOrEmpty(Request["txtZipCode"]) ? "Zip Code" : Request["txtZipCode"];
 
-                _keyword = string.IsNullOrEmpty(Request["keywords"]) ? "" : Request["keyword"];
+                _keyword = string.IsNullOrEmpty(Request["keywords"]) ? "" : Request["keywords"];
 
                 // If this job search was called by the social job matcher "mini" search then
                 // it passed the location over as "c" - so if "c" is a parameter 
@@ -1526,6 +1567,7 @@ namespace BOA
 
         protected void bsearch_Click(object sender, EventArgs e)
         {
+            
             if (Country.SelectedValue == Location.USA)
             {
                 //validate zip code/radius entries
