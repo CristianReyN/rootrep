@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Data;
+using System.Data.OleDb;
 using CareerSiteComponents;
 using System.Web;
 using System.Xml;
@@ -7,6 +9,7 @@ using System.Web.UI.WebControls;
 using System.Configuration;
 using System.Text;
 using System.Collections.Generic;
+
 
 namespace BOA
 {
@@ -18,6 +21,8 @@ namespace BOA
         private string JobCartID = string.Empty;
         private string srcvalue = string.Empty;
         private string UseTinyUrl = "0";
+        public string strMultiLocs = "";
+        private string strPrimayLoc = "";
 
         private string targetpage = string.Empty;
         string pageTitle = string.Empty;
@@ -25,6 +30,8 @@ namespace BOA
 
         protected string JobId { get; set; }
         protected string CountryId { get; set; }
+
+        private string constring = ConfigurationManager.AppSettings["StrIQUdlFileName"];
 
         #endregion
 
@@ -49,6 +56,8 @@ namespace BOA
 
                 JobId = this.Request.QueryString["JobId"].ToString();
 
+                //strPrimayLoc = ((HiddenField)this.FindControlInDataTemplate("hdnPrimaryLocation")).Value;
+                strMultiLocs = GetJobMultiLocations(JobId, "");
 
                 this.jobDetails1.MaskedHiringOrgId = cs.MaskedHiringOrgId;
                 this.jobDetails1.EMediaId = cs.EMediaId;
@@ -58,6 +67,7 @@ namespace BOA
                 try
                 {
                     this.jobDetails1.DataBind();
+                    
                 }
                 catch (Exception ex)
                 {
@@ -100,6 +110,8 @@ namespace BOA
 
                 pageTitle = "Bank of America Careers: " + jobtitle;
                 lblJobTitle.InnerText = jobtitle;
+
+                
                 
                 if (CountryId == "1")
                 {
@@ -660,7 +672,48 @@ namespace BOA
             return "";
         }
 
+        protected string GetJobMultiLocations(string JobId, string strPrimayLoc)
+        {
+            OleDbConnection con = new OleDbConnection(constring);
+            con.Open();
+            OleDbDataReader rdr;
+            OleDbCommand cmd = new OleDbCommand();
+            cmd.Connection = con;
+            cmd.CommandType = CommandType.StoredProcedure;
+            cmd.Parameters.AddWithValue("@reqid", JobId);
+            cmd.CommandText = "p_BOA_Select_MultiLocations_By_Job";
 
+            string strMultiLocs = "";
+
+            try
+            {
+                rdr = cmd.ExecuteReader(CommandBehavior.CloseConnection);
+                
+
+                while (rdr.Read())
+                {
+                    //ie: USA-NJ-Pennington 
+                    if (CountryId == "1")
+                    {
+                        strMultiLocs = strMultiLocs + "USA-" + rdr["State"] + "-" + rdr["City"] + ", ";
+                    }
+                    else {
+                        strMultiLocs = strMultiLocs + rdr["Country"] + "-" + rdr["State"] + "-" + rdr["City"] + ", "; 
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+
+            strMultiLocs = strMultiLocs.Substring(0, (strMultiLocs.Length - 2));
+            //strMultiLocs = strMultiLocs.Replace(strPrimayLoc + ", ", "");
+
+            //return strPrimayLoc + ", " + strMultiLocs;
+            return strMultiLocs;
+           
+        }
 
         #endregion
     }

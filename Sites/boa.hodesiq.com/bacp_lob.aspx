@@ -17,12 +17,12 @@
                 <h2>
                     Business Process Solutions</h2>
                 <p>
-                    The Business Process Solutions (BPS) group supports Bank of America Lines of Businesses by providing Transaction Processing, Accounts Management, Payments and Settlements, Analytics and Reporting, Loan Processing, Collection and Customer Service in the Consumer, Corporate and Investment Banking areas. With businesses across corporate and consumer service, our teams work 24/7 to ensure seamless integration with the core operational requirements of the Bank. 
+                    The Business Process Solutions (BPS) group supports Bank of America Lines of Businesses by providing Transaction Processing, Accounts Management, Payments and Settlements, Loan Processing, Customer Service in the Consumer. With businesses across corporate and consumer service, our teams work 24/7 to ensure seamless integration with the core operational requirements of the Bank.
                 </p>
                 <h2>
                     Information Technology Solutions</h2>
                 <p>
-                    The Information Technology Solutions group is committed to provide technology solutions across all Lines of Business, which includes Global Banking Securities & Wealth Management Technology (GBSWMT), Consumer & Small Business Banking Technology & Operations (CSBB T&O), Cards, Bank of America Home Loans and Enterprise Change, Technology & Operations (ECT&O).</p>
+                    The Information Technology Solutions group is committed to provide technology solutions across all Lines of Business, which includes, Consumer & Small Business Banking Technology & Operations (CSBB T&O), Cards, Bank of America Home Loans and Technology & Operations (ECT&O).</p>
                 <p>
                     We are uniquely positioned to support the bank’s strategic objectives by providing diverse technology services in all Lines of Business. We develop, maintain and support various business critical applications across Bank of America, using a wide spectrum of technologies like Java/J2EE, .NET, C++, Mainframes, Oracle, DB2 along with others.</p>
                

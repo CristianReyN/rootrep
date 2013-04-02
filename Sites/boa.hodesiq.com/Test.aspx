@@ -10,103 +10,71 @@
 <link rel="image_src" href="https://utility.bankofamerica.com/uet/images/bac.jpg" />
 <link rel="shortcut icon" href="/uet/images/favicon.ico" type="image/x-icon" />
 <title>Test UET Page</title>
-<script type="text/javascript" src="https://utility.bankofamerica.com/uet/social_share2.js"></script>
-<script type="text/javascript" src="https://utility.bankofamerica.com/uet/bookmark2.js"></script>
-<script type="text/javascript" src="https://utility.bankofamerica.com/uet/print2.js"></script>
-<script type="text/javascript" src="https://utility.bankofamerica.com/uet/sourcepoint2.js"></script>
+
+<style>
+
+.header 
+{
+    background-color: Gray;
+    width:100%;
+} 
+
+.content
+{
+    background-color: White;
+    width:100%;
+}
+
+.block1
+{
+    background-color: White;
+    width:200px;
+    float:left;
+}
+.block2
+{
+    background-color: White;
+    width:200px;
+    float:left;
+}
+.block3
+{
+    background-color: White;
+    width:200px;
+    float:left;
+} 
+
+.footer
+{
+    background-color: Gray;
+    width:100%;
+} 
+
+</style>
  
 </head>
 
 <body>
-    <form id="form1" runat="server">
-           
-   <div align="center"><br />
-                        <table width="140px">
-                        <tr>
-                        <td colspan="2" align="center" valign="top" >     <b>Tiny URL Enabled</b></br></br></td>
-                        </tr>
-                        <tr>
-                        <td valign="top" align="right" width="40px">
+ <div class="header">
+    <h1>Header</h1>
+ </div>   
+ <div class="content">
+    <div class="block1">Left Nav</div>
+    <div class="block2">Begin your career search by selecting a country. You may then narrow your search further, by entering additional search criteria or keywords.
 
-                       
-                        <script language="javascript" type="text/javascript">
+Note: City search options are limited to areas with current available job opportunities, which change constantly. Results are specific to the single city you select, and do not include results for nearby locations. Learn more Link opens a new window</div>
+    <div class="block3">Guided Job Search
 
-                            var cmdpageVariable = "career:jobsearch:jobdetails_0800057344";
+  To find a career suited to your skill set, begin by selecting a country from the list below. Then you may narrow your selection further by choosing additional search criteria and/or entering keywords.
 
-                            document.write(displayIcon("1", "", "", "", "", "", "", "", "", "", "", cmdpageVariable, "0", ""));
-                                       
-                        </script>                                                                         
+After you select a country from the country field, the page will refresh. For the United States, you can then pick a state. After you select a state from the 'State' field, the page will refresh. You will then be able to select a city from the 'City' field. For all other countries, after you select a country other than the United States from the country field, the page will refresh and you can then select a city from the 'City' field.
 
-
-
-                        </td>
-                        <td width="100px" align="left"><b>&nbsp;&nbsp;&nbsp;Facebook</b></br></br> </td> 
-                        </tr>   
-                                  
-                        <tr>
-                        <td valign="top" align="right" width="40px">
-                        <script language="javascript" type="text/javascript">
-                            var twitterStatusDescription = "twitter";
-                            var cmdpageVariable = "career:jobsearch:jobdetails_0800057344";
-
-                            document.write(displayIcon("2", "", "", "1", "", "1", "", twitterStatusDescription, "", "", "1", cmdpageVariable, "0", ""));
-                                       
-                        </script>                                                                         
-
-
-
-                        </td>
-                        <td width="100px" align="left"><b>&nbsp;&nbsp;&nbsp;Twitter</b></br></br> </td> 
-                        </tr>  
-                                  
-<tr>
-                        <td valign="top" align="right" width="40px">
-                        <script language="javascript" type="text/javascript">
-
-                            var titleValue = "title";
-                            var cmdpageVariable = "career:jobsearch:jobdetails_jobdetails_0800057344";
-
-                            document.write(displayIcon("3", "", "", "1", "", "1", "", titleValue, titleValue, "", "1", cmdpageVariable, "0", ""));
-                                       
-                        </script>                                                                         
-
-
-
-                        </td>
-                        <td width="100px" align="left"><b>&nbsp;&nbsp;&nbsp;LinkedIn</b></br></br> </td> 
-                        </tr>  
-                                                                                                                                                                                                                                                      
-                                                
-               
-                        </table>                          
-    </div>   
-
-
-
-
-     
-<!-- Beginning of Coremetrics Include -->
-<script type="text/javascript" src="https://utility.bankofamerica.com/uet/eluminate.js"></script>
-<script type="text/javascript" src="https://utility.bankofamerica.com/uet/cmdatatagutils.js"></script>
  
-<script language="javascript1.1" type="text/javascript"> 
-<!--
-    //Coremetrics Production - used when the page is in production
-    cmSetProduction();
-
-    //Coremetrics staging - used for development and testing
-    //cmSetStaging();
-
-    //If you do not include cmSetProduction or cmSetStaging, all Coremetrics data will go to the Coremetrics test server.
-
-    var CategoryID = "Ent:Mkt:Multi";
-    var PageID = "Ent:Mkt:Multi;ShareTest_5QA";
-
-    cmCreatePageviewTag(PageID, null, null, CategoryID, false, false, null, false, false, null, null, null, null, null, null, null, null, null, null);
-//-->
-</script>
-<!-- End of Coremetrics Include-->
- 
+</div>
+ </div>
+ <div class="footer">
+    <p>footer</p>
+ </div>
  
 </form></body>
 </html>
