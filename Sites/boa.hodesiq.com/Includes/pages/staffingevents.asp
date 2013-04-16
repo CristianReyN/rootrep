@@ -127,7 +127,6 @@ function pageNumber(page_num)
     
 	<%=eventTypesOptions(event_type_id)%>
 </select>
-<%Response.Write "done calling eventType" %>
 
 	</td>
 </tr>
