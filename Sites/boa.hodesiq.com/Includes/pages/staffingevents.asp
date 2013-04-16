@@ -27,7 +27,7 @@ Dim active_event, state_id, job_type_id, event_type_id, from_date, to_date, orde
 		If sort_flag = "" Then sort_flag = "new"
 		If sort_flag = "new" Then page_num = 1
 '----------------------------------------------------------------
-'Response.write "order_by_only: " & order_by_only & "<br>"
+
 	If order_by <> "" Then
 		If InStr(order_by, "EVENTS.event_date") Then
 			order_by = order_by & ", STATE.LONGSTATE, EVENTS.event_title, EventTypes.EVENT_TYPE, Positionofinterest.POSITION"
@@ -45,13 +45,7 @@ Dim active_event, state_id, job_type_id, event_type_id, from_date, to_date, orde
 	number_of_events = 0
 	number_of_pages = 1
 
-    'Response.Write "<br>strEventsConn = " & strEventsConnection
-   
-
 	Set cnnEv = OpenConnectionEx(strEventsConnection)
-
-    'Response.Write "<br>debug marker"
-    'Response.End
 
 	Set events = getEvents(active_event, state_id, 0, job_type_id, event_type_id, from_date, to_date, order_by, per_page, page_num, number_of_events, number_of_pages)
 	If isObject(events)  Then
