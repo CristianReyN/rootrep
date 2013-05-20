@@ -21,7 +21,7 @@
                     communities and fellow employees. &nbsp;
                     <ul>
                         <li><span class="text_bold">Deliver together</span><br />
-                            We believe in the importance of treating each customer, client and teammate as an individual and treating every moment as one that matters. We always strive to go the distance to deliver, with discipline and passion.  We believe in connecting with people person-to-person, with empathy and understanding. We believe everything we do for customers, clients, teammates and the communities we serve is built on a solid business foundation that delivers for shareholders. <br />
+                            We believe in the importance of treating each customer, client and teammate as an individual and treating every moment as one that matters. We strive to go the distance to deliver, with discipline and passion.  We believe in connecting with people person-to-person, with empathy and understanding. We believe everything we do for customers, clients, teammates and the communities we serve is built on a solid business foundation that delivers for shareholders. <br />
                             <br />
                         </li>
                         <li><span class="text_bold">Act responsibly</span><br />
@@ -29,7 +29,7 @@
                             <br />
                         </li>
                         <li><span class="text_bold">Realize the power of our people</span><br />
-                           We strive to help all employees reach their full potential. We believe that diverse backgrounds and experiences make us stronger.  We respect every individual and value our differences - in thought, style, culture, ethnicity and experience. <br />
+                           We strive to help our employees reach their full potential. We believe that diverse backgrounds and experiences make us stronger.  We respect every individual and value our differences - in thought, style, culture, ethnicity and experience. <br />
                             <br />
                         </li>
                         <li><span class="text_bold">Trust in our team</span><br />

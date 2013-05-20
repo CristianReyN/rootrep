@@ -14,6 +14,7 @@
             <asp:HiddenField ID="hdnApplyURL" Value="<%# Container.Url %>" runat="server" />
             <asp:HiddenField ID="hdnReqNo" Value="<%# Container.JobCode %>" runat="server" />
             <asp:HiddenField ID="hdnPrimaryLocation" Value='<%# String.Format("{0}-{1}-{2}", Container.Country.ToUpper(), Container.State.ToUpper(), Container.City) %>' runat="server" />
+            <asp:HiddenField ID="hdnMultiLocations" Value='<%# GetCustomFieldValue(Container.CustomFields, "DisplayLocation") %>' runat="server" />
             <table border="0" cellpadding="0" cellspacing="0" summary="" width="578px">  
                 <tr valign="top">
                     <td  style="padding: 6px 0px 0px 12px; height:100%" valign="top">
@@ -24,7 +25,7 @@
                             <tr>
                             <td valign="top" align="left" width="50%" ></br>
                                         <h2 style="margin: 0px;">
-                                        <asp:Label ID="lblLocation" Text='<%# strMultiLocs %>' runat="server"></asp:Label>&nbsp;</h2>
+                                        <asp:Label ID="lblLocation" Text='<%# GetCustomFieldValue(Container.CustomFields, "DisplayLocation") %>' runat="server"></asp:Label>&nbsp;</h2>
                              </td> 
                      
                                 </tr></table></td></tr>
@@ -125,7 +126,7 @@
                                         <tr>
                                             <td valign="top" style="width:50%">
                                                 <b>Location:</b> 
-                                                <asp:Label ID="lblLocationFooter" Text='<%# strMultiLocs %>' runat="server"></asp:Label><br/>
+                                                <asp:Label ID="lblLocationFooter" Text='<%# GetCustomFieldValue(Container.CustomFields, "DisplayLocation") %>' runat="server"></asp:Label><br/>
                                                 <b>Job Family:</b> 
                                                 <asp:Label ID="lblJobFamily" runat="server" Text='<%# GetCustomFieldValue(Container.CustomFields, "JobFamily") %>'></asp:Label><br/>
                                                 <%if(CountryId.Equals("1"))

@@ -38,7 +38,7 @@ rowcount=6
 <% ElseIf page_section <> "ADA" Then %>
 <div align="right" style="float: right; margin: 0px; padding: 0px; width: 259px;">
 	<!-- #include file="associate/benitez.asp" -->
-	<a href="#video" class="hlink">Deborah BenitezLedtje&#39;s Associate Testimonial Video</a>
+	
 <% End If  %>
 	<div style="width: 201px; text-align: left; border: 1px solid #e8e8e9; background: #ffffff; margin: 12px 0px 0px 0px; padding: 0px 0px 6px 0px;">
 		<H2 class="g" style="margin: 0px 0px 0px 0px;"><%=JOB_SEARCH_TITLE%></H2>

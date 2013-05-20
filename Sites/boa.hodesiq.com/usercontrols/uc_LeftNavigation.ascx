@@ -10,18 +10,7 @@
                 
                 <asp:label id="LblLeftNav" runat="server"></asp:label>
                 <img src="images/clear.gif" width="160" height="20" alt="" border="0" /><br /><br />
-              
-              <div id="sjm-root" align="center" style="text-align:center;"></div>
-              <script type="text/javascript">
-                  var SJM_subpage = true;
-                  (function () {
-                      var plugin = document.createElement('script'); plugin.async = true;
-                      plugin.src = 'http://jobmatcher.hodesiq.com/clients/boa/js/sjm-plugin.js';
-                      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(plugin);
-                  } ());
-  </script>
-        
-              
+             
         </td>
     </tr>
 

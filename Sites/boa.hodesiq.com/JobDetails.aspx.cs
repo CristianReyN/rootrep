@@ -56,9 +56,7 @@ namespace BOA
 
                 JobId = this.Request.QueryString["JobId"].ToString();
 
-                //strPrimayLoc = ((HiddenField)this.FindControlInDataTemplate("hdnPrimaryLocation")).Value;
-                strMultiLocs = GetJobMultiLocations(JobId, "");
-
+                
                 this.jobDetails1.MaskedHiringOrgId = cs.MaskedHiringOrgId;
                 this.jobDetails1.EMediaId = cs.EMediaId;
                 this.jobDetails1.JobId = System.Convert.ToInt32(JobId);
@@ -107,6 +105,11 @@ namespace BOA
 
                 taleoReqID = ((HiddenField)this.FindControlInDataTemplate("hdnReqNo")).Value;
                 jobtitle = ((HiddenField)this.FindControlInDataTemplate("hdnJobTitle")).Value + " : " + taleoReqID;
+
+                strPrimayLoc = ((HiddenField)this.FindControlInDataTemplate("hdnPrimaryLocation")).Value;
+                strMultiLocs = ((HiddenField)this.FindControlInDataTemplate("hdnMultiLocations")).Value;
+                //strMultiLocs = GetJobMultiLocations(JobId, "");
+                //((Label)this.FindControlInDataTemplate("lblLocation")).Text = GetJobMultiLocations2(strPrimayLoc, strMultiLocs);
 
                 pageTitle = "Bank of America Careers: " + jobtitle;
                 lblJobTitle.InnerText = jobtitle;
@@ -713,6 +716,20 @@ namespace BOA
             //return strPrimayLoc + ", " + strMultiLocs;
             return strMultiLocs;
            
+        }
+
+        protected string GetJobMultiLocations2(string strPrimayLoc, string strMultiLocs)
+        {
+            string strNewLocations = "";
+            if (strPrimayLoc.Contains("USA"))
+            {
+                strPrimayLoc = strPrimayLoc.Replace("USA", "US");
+            }
+
+            strNewLocations = strPrimayLoc + ", " + strMultiLocs.Replace(strPrimayLoc + ", ", "");
+
+            return strMultiLocs;
+
         }
 
         #endregion

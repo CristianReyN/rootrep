@@ -121,14 +121,9 @@
                 <a name="IRELAND"></a>
                 <p>
                     <span class="text_bold_under">Dublin</span><br />
-                    Harcourt Building, 3rd Floor<br />
-                    Harcourt Street<br />
+                    2 Park Place<br />
+                    Hatch Street<br />
                     Dublin 2</p>
-                    
-                 <p>  
-                    Treasury Building<br />
-                    Lower Grand Canal Street<br />
-                    Dublin 2</p> 
 
                  <p>Central Park Block D<br />
                     Leopardstown<br />

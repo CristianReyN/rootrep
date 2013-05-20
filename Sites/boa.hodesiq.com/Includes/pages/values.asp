@@ -8,13 +8,13 @@
 </p>
 <ul>
 	<li style="padding-bottom: 12px;"><b>Deliver together</b><br>
-		We believe in the importance of treating each customer, client and teammate as an individual and treating every moment as one that matters. We always strive to go the distance to deliver, with discipline and passion.  We believe in connecting with people person-to-person, with empathy and understanding. We believe everything we do for customers, clients, teammates and the communities we serve is built on a solid business foundation that delivers for shareholders.</li>
+		We believe in the importance of treating each customer, client and teammate as an individual and treating every moment as one that matters. We strive to go the distance to deliver, with discipline and passion.  We believe in connecting with people person-to-person, with empathy and understanding. We believe everything we do for customers, clients, teammates and the communities we serve is built on a solid business foundation that delivers for shareholders.</li>
 	
     <li style="padding-bottom: 12px;"><b>Act responsibly</b><br>
 		We believe that integrity and the disciplined management of risk form the foundation of our business. We are aware that our decisions and actions affect people's lives every day. We believe in making decisions that are clear, fair, and grounded in the principles of shared success, responsible citizenship, and community building.</li>
 	
     <li style="padding-bottom: 12px;"><b>Realize the power of our people</b><br>
-		We strive to help all employees reach their full potential. We believe that diverse backgrounds and experiences make us stronger.  We respect every individual and value our differences - in thought, style, culture, ethnicity and experience.</li>
+		We strive to help our employees reach their full potential. We believe that diverse backgrounds and experiences make us stronger.  We respect every individual and value our differences - in thought, style, culture, ethnicity and experience.</li>
 	
     <li style="padding-bottom: 12px;"><b>Trust in our team</b><br>
 		We believe that the best outcomes are achieved when people work together across the entire company.  We believe great teams are built on mutual trust, shared ownership and accountability. We act as one company and believe when we work together, we best meet the full needs of our customers and clients.</li>
