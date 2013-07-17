@@ -340,7 +340,14 @@ namespace BOA
         }
         protected void bsearch_Click(object sender, EventArgs e)
         {
-            Response.Redirect("Jobcart.aspx?SearchPage=" + Request.QueryString["SearchPage"].ToString());
+            if (string.IsNullOrEmpty(Request.QueryString["SearchPage"]))
+            {
+                Response.Redirect("Jobcart.aspx?SearchPage=");
+            }
+            else
+            {
+                Response.Redirect("Jobcart.aspx?SearchPage=" + Request.QueryString["SearchPage"].ToString());
+            }
         }
         protected void apply_Click(object sender, EventArgs e)
         {
