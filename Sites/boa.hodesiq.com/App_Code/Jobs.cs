@@ -30,7 +30,7 @@ public class Jobs
     public Jobs()
     {
 		constring = ConfigurationManager.AppSettings["StrUdlFileName"];
-        consolidatedConn = ConfigurationManager.AppSettings["StrIQUdlFileName"];
+        consolidatedConn = ConfigurationManager.AppSettings["StrCareersUdlFileName"];
     }
     public DataTable Travel()
     {

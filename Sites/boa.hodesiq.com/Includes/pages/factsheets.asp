@@ -25,7 +25,7 @@
 	<li>Military Support Affinity Group</li>
 	<li>Multicultural Leadership Network (Europe and Emerging Markets)</li>
 	<li>Native American Professional Network</li>
-	<li>Parents and Carers Diversity Network</li>
+	<li>Parents and Careers Diversity Network</li>
 	<li>Young Professionals Network (Asia Pacific)</li>
 </ul>
 
