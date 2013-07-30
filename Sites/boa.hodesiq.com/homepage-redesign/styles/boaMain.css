@@ -209,7 +209,7 @@ img{border:0;}
 #footer{	
 	position:relative;
 	width:1028px;	
-	height:125px;
+	height:150px;
 	margin-left:auto;
 	margin-right:auto;
 	background:url(../images/bg-footer-w1.png) top left repeat-x;
@@ -268,6 +268,19 @@ img{border:0;}
 #footerNavMidRight p a{text-decoration:none; color:#c4c4c4;}
 #footerNavMidRight p a:hover{text-decoration:underline;}
 
+#footerBottomLeft
+{
+	position:relative;
+	float:left;
+	width:600px;
+	height:33px;}
+
+#footerBottomLeft a, #footerBottomLeft a:hover{padding-left:5px;}
+#footerBottomLeft ul
+{
+    list-style: none; 
+	height:15px;
+}
 
 /**** Form Controls ****/
 input.txt{
