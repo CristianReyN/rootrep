@@ -149,8 +149,8 @@
                                     <asp:DropDownList ID="datepost" runat="server" CssClass="left" Style="width: 90%;
 								    z-index: auto;" ToolTip="Date posted" >
 								    <asp:ListItem Value="365">All</asp:ListItem>
-								    <asp:ListItem Value="0">Today</asp:ListItem>
-								    <asp:ListItem Value="1">Yesterday</asp:ListItem>
+								    <asp:ListItem Value="1">Today</asp:ListItem>
+								    <asp:ListItem Value="2">Yesterday</asp:ListItem>
 								    <asp:ListItem Value="7">Last 7 Days</asp:ListItem>
 								    <asp:ListItem Value="14">Last 14 Days</asp:ListItem>
 								    <asp:ListItem Value="21">Last 21 Days</asp:ListItem>
