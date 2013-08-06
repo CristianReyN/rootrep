@@ -54,7 +54,7 @@ End If
 	<li>Paid vacation and sick time off</li>
 </ul>
 
-<p class="bac">Bank&nbsp;of&nbsp;America Merchant Services is an Equal Opportunity Employer.</p>
+<p class="bac">Bank of America Merchant Services is an Equal Opportunity Employer, M/F/D/V.</p>
 
 				</td>
 				<td width="205" height="100%" style="padding-top: 1px;" valign="top" align="right">
