@@ -117,11 +117,22 @@ public partial class Tell_a_friend : System.Web.UI.Page
                     message.Body = strMailBody;
 
                     SmtpClient client = new SmtpClient("localhost");
-                    client.DeliveryMethod = SmtpDeliveryMethod.PickupDirectoryFromIis;
+                    //this no longer works on windows 7
+                    //client.DeliveryMethod = SmtpDeliveryMethod.PickupDirectoryFromIis;
                     //client.DeliveryMethod = SmtpDeliveryMethod.Network;
+
+                    client.UseDefaultCredentials = true;
+                    client.PickupDirectoryLocation = ConfigurationManager.AppSettings["pickupfolder"];
+                    client.DeliveryMethod = SmtpDeliveryMethod.SpecifiedPickupDirectory;
+
+                    
                     try
                     {
                         client.Send(message);
+
+                        //Response.Write("message=" + message.Body.ToString());
+                        //Response.End();
+
                         Response.Redirect("Jobdetails.aspx?" + Request.QueryString);
                     }
                     catch (Exception ex)
