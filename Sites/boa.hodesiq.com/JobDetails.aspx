@@ -190,6 +190,17 @@
                                     <%--<asp:HyperLink ID="applylink" CssClass="p" runat="server" NavigateUrl="" Target="_blank" ><img src="images/apply_now.gif" alt="Apply Now" style="border-top-style: none; border-right-style: none; border-left-style: none; border-bottom-style: none;" /></asp:HyperLink>--%>
                                 </td>
                             </tr>
+                             <%if (CountryId.Equals("1"))
+                                  { %>
+                            <tr>
+                                <td colspan="2">
+                                    <p>
+                                      <asp:Label ID="lblUSJobsFooterText" style="font-style:italic;" runat="server" Text="At Bank of America, our commitment to diversity and inclusion is helping us to create not only a great place to work, but also an environment where our employees, our customers and our communities around the world can reach their goals and connect with each other.  All qualified applicants will receive consideration for employment without regard to race, color, religion, gender, gender identity or expression, sexual orientation, national origin, genetics, disability, age, or veteran status."></asp:Label>
+                                    </p>
+                                </td>
+                            </tr>
+                            <%} %>
+
                         </table>
                     </td>
                 </tr>

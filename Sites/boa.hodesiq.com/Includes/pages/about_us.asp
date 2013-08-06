@@ -25,7 +25,7 @@ Learn about some of the ways Bank of America is making a difference in the commu
 Each employee brings unique skills, backgrounds and opinions. We see diversity as our platform for innovation and a key component in our success.</p>
 
 <p class="bac"><a href="<% Response.write href_pre %>values.asp" class="bacb" title="Our values">Our values</a><br>
-Learn about our five values that represent what we believe in.</p>
+Learn about our four values that represent what we believe in.</p>
 				</td>
 				<td width="205" height="100%" valign="top">
 <div style="border: 1px solid #e8e8e9; margin: 0px 0px 12px 0px; padding: 0px 0px 6px 0px;">
