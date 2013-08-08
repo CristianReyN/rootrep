@@ -707,9 +707,10 @@ CompletionListHighlightedItemCssClass="hoverlistitem2"
                             <li><a href="jobsearch.aspx" title="Site Map" tabindex="710" name="site_map_footernav">Careers</a></li>                     
                             <li style="background:none;" title="About Us"><a href="http://about.bankofamerica.com" tabindex="720" name="about_us_footernav">About Us</a></li>
                         </ul>
-                        <div id="footerNavMidRight"><p>Bank of America, N.A. Member FDIC. <a href="http://www.bankofamerica.com/help/equalhousing.cfm" tabindex="780">Equal Housing Lender   </a><img src="homepage-redesign/images2/equalhousing_12x10.png"/><br /> &copy;2013 Bank of America Corporation. All rights reserved.</p></div>
+                        
                         
                 </div>
+                <div id="footerNavMidRight"><p>Bank of America, N.A. Member FDIC. <a href="http://www.bankofamerica.com/help/equalhousing.cfm" tabindex="780">Equal Housing Lender   </a><img src="homepage-redesign/images2/equalhousing_12x10.png"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br /> &copy;2013 Bank of America Corporation. All rights reserved.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p></div>
              
            </div>
         </div>       
