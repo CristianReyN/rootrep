@@ -263,7 +263,7 @@ img{border:0;}
 				
 #footerNavMidLeft ul li a{text-decoration: none; border:0;}
 #footerNavTop ul li a:hover{text-decoration: none; border:0; text-decoration:underline;}
-#footerNavMidRight{position:relative; float:right; width:383px;  height:30px;}	
+#footerNavMidRight{position:relative; float:right; width:383px;  height:30px; top:-15px;}	
 #footerNavMidRight p{text-align:right; font-family:Verdana; font-size:10px; line-height:12px; font-weight:normal; color:#c4c4c4;}
 
 #footerNavMidRight p a{text-decoration:none; color:#c4c4c4;}
