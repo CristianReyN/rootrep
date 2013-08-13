@@ -662,7 +662,7 @@ CompletionListHighlightedItemCssClass="hoverlistitem2"
                                     <p style="margin-top:0px; padding:0;">
                                     Around the corner, across the country, or across the globe; a career with Bank of America can take you as far as your talent and ambition will go.<br /><br />
                                     Our heritage spans more than 200 years of investing in the people, industries and communities we serve. And every day, we&rsquo;re creating connections that makes our future &mdash; and yours &mdash; even more promising.</p>
-                                    <p style="color: #DC1431; font-size:12px; font-weight:bold; line-height:50px; z-index:1;">Life's better when we're connected</p>
+                                    <p style="color: #DC1431; font-size:12px; font-weight:bold; line-height:50px; z-index:1;">We're better when we're connected</p>
                                 </td>
                             </tr>
                         </table>
