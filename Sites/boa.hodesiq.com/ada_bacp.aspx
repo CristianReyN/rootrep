@@ -9,14 +9,15 @@
     <table summary="Global Careers - Asia: BA Continuum" width="361" border="0" cellspacing="0"
         cellpadding="0">
         <tr>
-            <td width="366" align="left" valign="top"><p> <img src="images/Avtar1_rev.jpg" alt="Avtar Monga" width="156" height="156" style="margin-bottom: 5px;
+            <td width="366" align="left" valign="top">
+                <%-- <p> <img src="images/Avtar1_rev.jpg" alt="Avtar Monga" width="156" height="156" style="margin-bottom: 5px;
                         margin-right: 15px;" align="left" title="Avtar Monga" /> &quot;Our associates are part of a global team committed to excellence in financial services. As one of the world's largest financial institutions, we have everything in place to compete and to win, including world-class technology and processes.&quot;<br />
                 </p>
                 <br />
                 <br />
                 <h2> Avtar Monga<br />
                     <br />
-                   Managing Director, Global Delivery Center of Expertise (GDCE)</h2>
+                   Managing Director, Global Delivery Center of Expertise (GDCE)</h2>--%>
                    
                    <h2>About Us</h2>
                 <p> BA Continuum Philippines, Inc. is a non-bank subsidiary of Bank of America and a part of the Global Delivery Centre of Expertise (GDCE).  BA Continuum Philippines provides business processes, business support functions and IT enabled services. This includes back-office operations and transactions, customer support and service functions, technology support and services, general human resource functions, business planning and general financial services. </p>
