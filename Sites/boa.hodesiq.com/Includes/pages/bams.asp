@@ -32,9 +32,9 @@ End If
 <H1 style="padding: 0px;">Grow Your Career with Us</H1>
 
 <p style="margin: 0px;"><a href="<%=BAMS_URL%>" title="" target="<%=BAMS_TARGET%>" class="bacb">Search for current career opportunities<% If BAMS_TARGET = "_blank" Then %><span class="hidden"> Link opens a new window</span><% End If%></a> within Banc of America Merchant Services, LLC.</p>
-<% If ATS_change Then %>
-<p class="bac note"><strong>Note:</strong> When applying for a position through the above link, you will be prompted to create a profile. Due to a system upgrade as of January 30, 2012, if you had an existing job profile with Bank of America Merchant Services, you must create a new profile at the prompt. This only applies to Bank of America Merchant Services positions. If you would like to access your prior job profile information and job application history, you may do so by accessing the Bank of America job search link in the left-hand navigation.</p>
-<% End If %>
+<%' If ATS_change Then %>
+<!--<p class="bac note"><strong>Note:</strong> When applying for a position through the above link, you will be prompted to create a profile. Due to a system upgrade as of January 30, 2012, if you had an existing job profile with Bank of America Merchant Services, you must create a new profile at the prompt. This only applies to Bank of America Merchant Services positions. If you would like to access your prior job profile information and job application history, you may do so by accessing the Bank of America job search link in the left-hand navigation.</p>-->
+<%' End If %>
 <h2 class="bacs">Join our team.</h2>
 <p class="bac">Are you looking to join a growing company positioned to become the global leader in the payments industry? We are one of the most recognized and respected brands in the country, and the largest payment processor in the United States. With this winning combination, we offer outstanding career opportunities and advancement, and we promote a healthy work/life balance through special benefits and programs.</p>
 

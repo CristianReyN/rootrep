@@ -1,3 +1,7 @@
+<%
+Response.Status="301 Moved Permanently"
+Response.AddHeader "Location", "/consumerbanking/"
+%>
 <% Response.Buffer=True 
 Dim title, mpage, spage, ada_href, ada_title, Metatag%>
 <!-- #include file="../includes/breadcrumb.asp" -->
