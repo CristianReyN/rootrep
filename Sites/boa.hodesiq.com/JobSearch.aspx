@@ -59,7 +59,7 @@
 							</td>
                             <td  valign="middle" style="width:48%; height:45;">
 							    <div id="Div4" style="display: inline;">	
-                            <asp:HyperLink runat="server"  NavigateUrl="#" ID="HylCityNote" onclick="javascript:w= window.open('overview/chelp.html','mywin','left=200px,top=180px,width=625,height=345,resizable=0');return false;" Visible="true" Font-Bold="true" CssClass="p" AssociatedControlID="City" style="width:80%;">How do I use the state/city or zip code/distance search?<span class="hidden"> Link opens a new window</span></asp:HyperLink>
+                            <asp:HyperLink runat="server"  NavigateUrl="#" ID="HylCityNote" onclick="javascript:w= window.open('overview/chelp.html','mywin','left=200px,top=180px,width=625,height=345,resizable=0');return false;" Visible="true" Font-Bold="true" CssClass="p" AssociatedControlID="City" style="width:80%;">How do I use the state/city search?<span class="hidden"> Link opens a new window</span></asp:HyperLink>
 							</div>
 							</td>
                             </tr>
@@ -137,9 +137,11 @@
 								</div>
 							</td>
 							<td id="Td1"  valign="top" style="width:50%; height:45;" runat="server" >
-                                <asp:Label ID="lblZipCode" runat="server" Text="Zip Code" AssociatedControlID="txtZipCode"></asp:Label><br />
-								<asp:TextBox ID="txtZipCode" runat="server" CssClass="left" Style="width: 90%; size: 20"
-								    ToolTip="Zip Code" maxlength="5" onkeypress="return isNumberKey(event)"></asp:TextBox>
+                                <asp:Label ID="lblfullpart" runat="server" Text="Full/part time" AssociatedControlID="fullpart"></asp:Label><br />
+                               
+                                <asp:DropDownList ID="fullpart" SelectionMode="Single" runat="server" CssClass="left" Style="width: 90%; z-index: auto;"
+								ToolTip="Full/part time"  Rows="1" Visible="true">
+								</asp:DropDownList>  
 							</td>
 						</tr>
 						<tr id="trDatepostedShifts" runat="server">
@@ -159,17 +161,10 @@
 								</div>
 							</td>
 							<td  valign="top" style="width:50%; height:45;" >
-								<asp:Label ID="lblRadius" runat="server" Text="Distance (miles) from Zip Code" AssociatedControlID="ddlRadius"></asp:Label><br />
-								<asp:ListBox ID="ddlRadius" runat="server" CssClass="left" SelectionMode="Single"
-								Style="width: 90%; z-index: auto;" ToolTip="Distance (miles) from Zip Code"  Rows="1">
-								    <asp:ListItem Value="-1">Select the distance </asp:ListItem>
-                                    <asp:ListItem Value="5">5</asp:ListItem>
-								    <asp:ListItem Value="10">10</asp:ListItem>
-								    <asp:ListItem Value="20">20</asp:ListItem>
-								    <asp:ListItem Value="50">50</asp:ListItem>
-                                    <asp:ListItem Value="70">75</asp:ListItem>
-                                    <asp:ListItem Value="100">100</asp:ListItem>
-								</asp:ListBox>
+								<asp:Label ID="lblShift" runat="server" Text="Shift" AssociatedControlID="shift"></asp:Label>
+                            <asp:DropDownList ID="shift" SelectionMode="Single" runat="server" CssClass="left" Style="width: 90%; z-index: auto;"
+								ToolTip="Shift"  Rows="1" Visible="true">
+								</asp:DropDownList> 
 							</td>
 						</tr>
 						<tr id="trTravel" runat="server">
@@ -185,11 +180,7 @@
 								ToolTip="Language requirements"  Rows="1" Visible="false">
 								<asp:ListItem>All languages</asp:ListItem>
 								</asp:ListBox>
-                                <asp:Label ID="lblfullpart" runat="server" Text="Full/part time" AssociatedControlID="fullpart"></asp:Label><br />
-                               
-                                <asp:DropDownList ID="fullpart" SelectionMode="Single" runat="server" CssClass="left" Style="width: 90%; z-index: auto;"
-								ToolTip="Full/part time"  Rows="1" Visible="true">
-								</asp:DropDownList>  
+                                
 							</td>
 						</tr>
 						<tr id="trKeywords" runat="server">
@@ -201,10 +192,7 @@
 								</div>
 							</td>
 							<td  valign="top" style="width:50%; height:45;" id="tdShift" runat="server">
-                            <asp:Label ID="lblShift" runat="server" Text="Shift" AssociatedControlID="shift"></asp:Label>
-                            <asp:DropDownList ID="shift" SelectionMode="Single" runat="server" CssClass="left" Style="width: 90%; z-index: auto;"
-								ToolTip="Shift"  Rows="1" Visible="true">
-								</asp:DropDownList> 
+                            
 
 							</td>
 						</tr>

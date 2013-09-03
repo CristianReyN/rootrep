@@ -60,7 +60,7 @@
 							            </td></tr>							 
 							            <tr  id="trCity" runat="server" >
 							            <td  valign="top" style="width:50%;height:38;">
-							                <asp:Label ID="lblCity" runat="server" Text="City" Visible="true" AssociatedControlID="City"></asp:Label><br /><asp:HyperLink runat="server"  NavigateUrl="#"   Target="_blank" onclick="javascript:w= window.open('overview/chelp.html','mywin','left=200px,top=180px,width=625,height=345,resizable=0');return false;" ID="HylCityNote" Font-Bold="true" Visible="true" AssociatedControlID="City" CssClass="p">How do I use the state/city or zip code/distance search?<span class="hidden"> Link opens a new window</span></asp:HyperLink><br />
+							                <asp:Label ID="lblCity" runat="server" Text="City" Visible="true" AssociatedControlID="City"></asp:Label><br /><asp:HyperLink runat="server"  NavigateUrl="#"   Target="_blank" onclick="javascript:w= window.open('overview/chelp.html','mywin','left=200px,top=180px,width=625,height=345,resizable=0');return false;" ID="HylCityNote" Font-Bold="true" Visible="true" AssociatedControlID="City" CssClass="p">How do I use the state/city search?<span class="hidden"> Link opens a new window</span></asp:HyperLink><br />
 								            <asp:DropDownList ID="City" runat="server" CssClass="left" Style="width: 100%; z-index: auto;"
 								            ToolTip="Select a city" Visible="true"  Enabled="false">
 								            <asp:ListItem>All cities&#160;</asp:ListItem>
@@ -68,30 +68,7 @@
 							            </td>
 						            </tr>
 
-                                    <tr  id="trZipCode" runat="server" >
-							            <td  valign="top" style="width:50%;height:38;">
-							                <asp:Label ID="lblZipCode" runat="server" Text="Zip Code" Visible="true" AssociatedControlID="txtZipCode"></asp:Label><br />
-								            <asp:TextBox ID="txtZipCode" runat="server" CssClass="left" Style="width: 100%; z-index: auto;"
-								                ToolTip="Zip Code" ></asp:TextBox>
-							            </td>
-						            </tr>
-
-                                    <tr  id="trRadius" runat="server" >
-							            <td  valign="top" style="width:50%;height:38;">
-							                <asp:Label ID="lblRadius" runat="server" Text="Distance (miles) from Zip Code" AssociatedControlID="ddlRadius"></asp:Label><br />
-								            <asp:ListBox ID="ddlRadius" runat="server" CssClass="left" SelectionMode="Single" 
-								            Style="width: 100%; z-index: auto;" ToolTip="Distance (miles) from Zip Code"  Rows="1">
-								                <asp:ListItem Value="-1">Select the distance </asp:ListItem>
-                                                <asp:ListItem Value="5">5</asp:ListItem>
-								                <asp:ListItem Value="10">10</asp:ListItem>
-								                <asp:ListItem Value="20">20</asp:ListItem>
-								                <asp:ListItem Value="30">30</asp:ListItem>
-								                <asp:ListItem Value="50">50</asp:ListItem>
-                                                <asp:ListItem Value="70">70</asp:ListItem>
-                                                <asp:ListItem Value="100">100</asp:ListItem>
-								            </asp:ListBox>					
-							            </td>
-						            </tr>
+                                    
 
 							        <tr id="trJobFamily" runat="server" visible="false">
 							                <td valign="top" style="width:50%;height:38;">

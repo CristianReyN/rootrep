@@ -143,7 +143,7 @@ Begin your career search by selecting a country.  You may then narrow your searc
 						</tr>
 						<tr style="<%=display%>">
 							<td width="<%=jwdt%>" nowrap style="padding: 0px 0px 0px 0px;">
-<label for="cityid" class="p" style="margin: 0px;<%If overview_page Then %>  float : left;<% End If %>"><b>City</b></label><%If Request("countryid") =1 Then %><div<%If overview_page Then %> style="float : right;"<% End If %>><a href="Javascript: void(0);" id="hdh" class="p"><b>How do I use the state/city or zip code/distance search?</b><span class="hidden"> Link opens a new window</span></a></div><%If overview_page Then %><br><% End If %><% End If %>
+<label for="cityid" class="p" style="margin: 0px;<%If overview_page Then %>  float : left;<% End If %>"><b>City</b></label><%If Request("countryid") =1 Then %><div<%If overview_page Then %> style="float : right;"<% End If %>><a href="Javascript: void(0);" id="hdh" class="p"><b>How do I use the state/city search?</b><span class="hidden"> Link opens a new window</span></a></div><%If overview_page Then %><br><% End If %><% End If %>
 <%If disable_city <> "" Then %><div style="position: absolute; height: 2.0em; width: <%=jwdt%>px; z-index: 100;" onclick="changeCity();">&nbsp;</div><% End If %>
 <div id="L103" style="position: relative; z-index: 12;">
 <% 
@@ -153,18 +153,6 @@ Begin your career search by selecting a country.  You may then narrow your searc
 							</td>
 						</tr>
 
-<%If countryid = "1" Then%>
-<tr style="<%=display%>">
-							<td width="<%=jwdt%>" nowrap style="padding: 0px 0px 0px 0px;">
-<label for="txtZipCode" class="p" style="margin: 0px;"><b>Zip Code</b></label><br>
-<div id="Div1" style="position: relative; z-index: 12;">
-<% 
-	call getZipCodeRadiusControl(""," style=""position: relative; width: 100%; z-index: auto;"&display&"""")
-%>
-</div>
-	</td>
-</tr>
-<%end if %>
 
 
 						<tr style="<%=display%>">
@@ -235,9 +223,7 @@ Bank of America associates should access the <a href="http://myhrtools.bankofame
     //<!—
 
     function ValidateForm() {
-        if (ValidZipCode()) {
             _submit();
-        }
     }
 
     function ValidZipCode() {

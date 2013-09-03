@@ -545,11 +545,12 @@ namespace BOA
 
 
             // Assign zip/radius values used for searching
-            if (_distance != null)
+            /*if (_distance != null)
             {
                 zcrGridView1.Radius = System.Convert.ToInt32(_distance);
             }
             zcrGridView1.ZipCode = _zipcode;
+             */
 
             // Assign keyword values used for searching
             zcrGridView1.Keywords = _keyword;
@@ -940,8 +941,8 @@ namespace BOA
                 _country = Country.SelectedValue;
                 _state = State.SelectedValue;
                 _city = City.SelectedValue;
-                _distance = ddlRadius.SelectedValue;
-                _zipcode = txtZipCode.Text.ToString().Trim();
+                _distance = "-1";
+                _zipcode = "";
 
                 _keyword = keywords.Text.ToString().Trim();
                 _ddlJobArea = ddlJobAreas.SelectedValue;
@@ -1419,10 +1420,10 @@ namespace BOA
                     MyListItem.Selected = true;
 
                 //zip code
-                txtZipCode.Text = String.IsNullOrEmpty(Request.QueryString["txtZipCode"]) == false ? Request.QueryString["txtZipCode"] : "";
+                
 
                 //radius
-                MyListItem = ddlRadius.Items.FindByValue(String.IsNullOrEmpty(Request.QueryString["ddlRadius"]) == false ? Request.QueryString["ddlRadius"] : "-1");
+                MyListItem = null;
                 if (MyListItem != null)
                     MyListItem.Selected = true;
 
@@ -1572,7 +1573,7 @@ namespace BOA
             {
                 //validate zip code/radius entries
                 // Check to see if the user is searching by ZipCode or Location
-                if (Utility.ValidateForm(ddlRadius, txtZipCode, lblValidation))
+                if (Utility.ValidateForm(null, null, lblValidation))
                 {
                     if (_distance != "-1")
                     {

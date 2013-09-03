@@ -109,7 +109,7 @@ public partial class uc_JobSearch : System.Web.UI.UserControl
 
     protected void bsearch_Click(object sender, EventArgs e)
     {
-        if (Utility.ValidateForm(ddlRadius, txtZipCode, lblValidation))
+        if (Utility.ValidateForm(null, null, lblValidation))
         {
             string stateid = trState.Visible ? State.SelectedValue : "";
             string cityid = trCity.Visible ? City.SelectedValue : "";
@@ -118,8 +118,8 @@ public partial class uc_JobSearch : System.Web.UI.UserControl
             string keyword = keywords.Text;
             string jobareas = trJobArea.Visible ? ddlJobAreas.SelectedValue : "";
             string jobfamilyid = trJobFamily.Visible ? ddlJobFamily.SelectedValue : "";
-            string zipCode = txtZipCode.Text;
-            string radius = ddlRadius.SelectedValue;
+            string zipCode = "";
+            string radius = "-1";
 
             //BOAFeedname should be blank unless it is canada and french pages
             if (countryid != Location.CANADA)

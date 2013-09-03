@@ -730,7 +730,7 @@ public class Utility
         lblValidation.ForeColor = System.Drawing.Color.Red;
         lblValidation.Font.Bold = true;
 
-        if (ddlRadius.SelectedIndex > 0)
+        /*if (ddlRadius.SelectedIndex > 0)
         {
             if (txtZipCode.Text == "")
             {
@@ -763,7 +763,7 @@ public class Utility
                 txtZipCode.Focus();
                 return false;
             }
-        }
+        }*/
         lblValidation.Visible = false;
         return true;
 
