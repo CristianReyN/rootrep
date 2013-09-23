@@ -5,7 +5,7 @@
 	Dim ENV_EVENTS, strEventsConnection, cnnEv
 	
 	If trim(Request.ServerVariables("SERVER_NAME")) = "www.bankofamericacareers.com" _
-		OR trim(Request.ServerVariables("SERVER_NAME")) = "boa.hodesiq.com" _
+		OR trim(Request.ServerVariables("SERVER_NAME")) = "boa.hodesdigital.com" _
 		OR trim(Request.ServerVariables("SERVER_NAME")) = "careers.bankofamerica.com" _
 		OR trim(Request.ServerVariables("SERVER_NAME")) = "bankofamerica.com" _
 		Then ' production
