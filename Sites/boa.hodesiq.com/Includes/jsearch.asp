@@ -396,11 +396,29 @@
 		Call setCmd()
 		
 		Set cities = Server.CreateObject("Scripting.Dictionary")
+
+        'get hiring org id from webconfig
+        set xmlDoc=server.CreateObject("MSXML2.DOMDocument.3.0")
+        set xmlappSettings=server.CreateObject("MSXML2.DOMDocument.3.0")
+        set xmladd=server.CreateObject("MSXML2.DOMDocument.3.0")
+        xmlDoc.async="false"
+        xmlDoc.load(server.MapPath ("..\web.config"))
+
+        set xmlappSettings = xmldoc.GetElementsByTagName("appSettings").Item(0) 
+        set xmladd = xmlappSettings.GetElementsByTagName("add")
+
+        dim strHiringOrgID
+
+        for each x in xmladd        
+            if x.getAttribute("key") = "hiringOrgID" then
+                strHiringOrgID = x.getAttribute("value") 
+            end if
+        next
 		
 		If CInt(countryid) > 0 Then
 
 				cmd.Parameters.Append cmd.CreateParameter("hiring_orgID",adInteger,adParamInput)
-					cmd.Parameters("hiring_orgID") = 1233
+					cmd.Parameters("hiring_orgID") = strHiringOrgID
 					param_number = cmd_params.Count + 1
 					cmd_params.add param_number, "hiring_orgID"
 

@@ -59,7 +59,7 @@
 							</td>
                             <td  valign="middle" style="width:48%; height:45;">
 							    <div id="Div4" style="display: inline;">	
-                            <asp:HyperLink runat="server"  NavigateUrl="#" ID="HylCityNote" onclick="javascript:w= window.open('overview/chelp.html','mywin','left=200px,top=180px,width=625,height=345,resizable=0');return false;" Visible="true" Font-Bold="true" CssClass="p" AssociatedControlID="City" style="width:80%;">How do I use the state/city search?<span class="hidden"> Link opens a new window</span></asp:HyperLink>
+                            <asp:HyperLink runat="server"  NavigateUrl="#" ID="HylCityNote" onclick="javascript:w= window.open('overview/chelp.html','mywin','left=200px,top=180px,width=625,height=345,resizable=0');return false;" Visible="true" Font-Bold="true" CssClass="p" AssociatedControlID="City" style="width:80%;">How do I use the city search?<span class="hidden"> Link opens a new window</span></asp:HyperLink>
 							</div>
 							</td>
                             </tr>
