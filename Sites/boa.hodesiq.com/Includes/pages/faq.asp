@@ -64,7 +64,7 @@ If you are applying to countries outside of the U.S., use the <b>Please email my
 
 <img src="../images/clear.gif" width="100%" height="1" alt="" border="0" style="background: #becede;">
 <a name="q3a"></a><H2 class="p" style="margin: 9px 0px 6px 0px;"><b>What if I have forgotten the answers to my security questions when attempting to reset my passcode?</b></H2>
-<p style="margin: 0px;">Answers to security questions are case sensitive and must match exactly as you previously defined them. If you cannot correctly answer your security questions, complete the <a href="https://www3.bankofamerica.com/promos/jump/career_profile/" class="p" onfocus="this.className='p-over';" onblur="this.className='p';" style="text-decoration: none;">Careers Profile Access Issues form</a>  and include your username in the details of your request.
+<p style="margin: 0px;">Answers to security questions are case sensitive and must match exactly as you previously defined them. If you cannot correctly answer your security questions, email <a href="mailto:personnel@bankofamerica.com" class="p" onfocus="this.className='p-over';" onblur="this.className='p';" style="text-decoration: none;">personnel@bankofamerica.com</a> and include the following required information: first name, last name, username (if known), full address and any additional details regarding your Career site access issue.
 </p>
 <p style="margin: 12px 0px 6px 0px; text-align: right;"><a href="#qtop" class="p" onfocus="this.className='p-over';" onblur="this.className='p';" style="text-decoration: none;"><img src="../images/back_to_top.gif" width="7" height="4" alt="" border="0" align="top" hspace="4">Back to Top</a></p>
 
